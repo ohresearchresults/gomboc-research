@@ -1,0 +1,340 @@
+{
+  "lp_delta": 0.9623994983181762,
+  "installed_reverse_bypasses": [
+    {
+      "circuit": [
+        198,
+        234,
+        235,
+        236
+      ],
+      "root_alpha": 3.5452237235977294e-05,
+      "control_rows": [
+        198,
+        234,
+        236
+      ],
+      "nullity": 5,
+      "death_leakage": 7.555957670209861e-28,
+      "horizon_volume": 4.740475399954675e-12
+    },
+    {
+      "circuit": [
+        69,
+        228,
+        235,
+        255
+      ],
+      "root_alpha": 4.149426532660057e-05,
+      "control_rows": [
+        69,
+        255
+      ],
+      "nullity": 2,
+      "death_leakage": 5.048709793414476e-28,
+      "horizon_volume": -8.069779367515484e-12
+    }
+  ],
+  "failure_bracket": null,
+  "exact_event": {
+    "circuit": [
+      224,
+      228,
+      251,
+      252
+    ],
+    "alpha_root": 0.00014020398739128932,
+    "epsilon": 1e-06,
+    "volume_at_root": 6.2848080166276286e-24,
+    "known_reverse": false,
+    "before_faces": [
+      [
+        224,
+        228,
+        250,
+        251
+      ],
+      [
+        224,
+        228,
+        251,
+        252
+      ]
+    ],
+    "at_faces": [
+      [
+        224,
+        228,
+        250,
+        251
+      ],
+      [
+        224,
+        228,
+        251,
+        252
+      ]
+    ],
+    "after_faces": [
+      [
+        224,
+        228,
+        251
+      ],
+      [
+        224,
+        228,
+        252
+      ],
+      [
+        224,
+        228,
+        250,
+        251
+      ]
+    ],
+    "before_audit": {
+      "f_vector": [
+        60,
+        156,
+        98
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "topology_margin": 3.280436305930223e-08,
+      "inactive_rows": [
+        73
+      ],
+      "base_present": true,
+      "quad_present": true,
+      "u8_retained": true,
+      "all_forced_rails_present": false,
+      "missing_forced_rails": [
+        [
+          250,
+          251
+        ],
+        [
+          251,
+          252
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "death_ratios_to_original": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9842945462134031,
+        "('vertex', 54, 1)": 0.9951123472622451,
+        "('edge', (6, 7), 'one_minus_t')": 0.9826256316157052,
+        "('edge', (9, 10), 't')": 0.9936204412557426
+      },
+      "hard_valid": false
+    },
+    "at_audit": {
+      "f_vector": [
+        60,
+        156,
+        98
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "topology_margin": 3.24842689136684e-08,
+      "inactive_rows": [
+        73
+      ],
+      "base_present": true,
+      "quad_present": true,
+      "u8_retained": true,
+      "all_forced_rails_present": false,
+      "missing_forced_rails": [
+        [
+          250,
+          251
+        ],
+        [
+          251,
+          252
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "death_ratios_to_original": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9842935730883888,
+        "('vertex', 54, 1)": 0.9951113681461079,
+        "('edge', (6, 7), 'one_minus_t')": 0.98262353286905,
+        "('edge', (9, 10), 't')": 0.9936193094499857
+      },
+      "hard_valid": false
+    },
+    "after_audit": {
+      "f_vector": [
+        60,
+        157,
+        99
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "topology_margin": 3.157388239749537e-10,
+      "inactive_rows": [
+        73
+      ],
+      "base_present": true,
+      "quad_present": true,
+      "u8_retained": true,
+      "all_forced_rails_present": false,
+      "missing_forced_rails": [
+        [
+          250,
+          251
+        ],
+        [
+          251,
+          252
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "death_ratios_to_original": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9842926000270171,
+        "('vertex', 54, 1)": 0.995110389150202,
+        "('edge', (6, 7), 'one_minus_t')": 0.9826214341619306,
+        "('edge', (9, 10), 't')": 0.9936181776653743
+      },
+      "hard_valid": false
+    },
+    "csv": {
+      "before": "epoch1_bypass_before.csv",
+      "at": "epoch1_bypass_at.csv",
+      "after": "epoch1_bypass_after.csv"
+    }
+  },
+  "materially_below_0_9": false
+}

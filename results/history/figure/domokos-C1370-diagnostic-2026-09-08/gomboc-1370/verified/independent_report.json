@@ -1,0 +1,35 @@
+{
+  "V": 258,
+  "E": 685,
+  "F": 429,
+  "class_SUH": [
+    1,
+    1,
+    0
+  ],
+  "stable": [
+    [
+      158,
+      163,
+      161
+    ]
+  ],
+  "unstable": [
+    138
+  ],
+  "saddles": [],
+  "degeneracies": [],
+  "zero_edge_primitives": 0,
+  "complete_contact_sets": true,
+  "global_polygon_convexity": true,
+  "edge_contact_intersections": true,
+  "rank_three_vertices": true,
+  "connected_cyclic_links": true,
+  "facet_sizes": {
+    "3": 359,
+    "4": 62,
+    "6": 3,
+    "5": 4,
+    "7": 1
+  }
+}

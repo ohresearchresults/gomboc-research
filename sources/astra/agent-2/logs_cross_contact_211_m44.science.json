@@ -1,0 +1,52 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "PHYSICAL_CONTACT_CROSSING",
+      "values": {
+        "V": 148,
+        "E": 241,
+        "F": 95,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002461208946977,
+        "minimum_noncontact": 9.999989725173464e-11,
+        "plane": 42,
+        "old_vertex": 1,
+        "old_gap": 1.0967893260271921e-11,
+        "requested_violation": 1e-10,
+        "objective": 0.34644579058194597,
+        "ucost": 6.208207475929888e-09,
+        "scost": 0.34644578437373846,
+        "removed_polar_facets": 2,
+        "new_polar_facets": 1
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "PHYSICAL_CONTACT_CROSSING",
+      "values": {
+        "V": 148,
+        "E": 241,
+        "F": 95,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.1200246120906544,
+        "minimum_noncontact": 4.933353725533607e-11,
+        "plane": 16,
+        "old_vertex": 17,
+        "old_gap": 7.353984088354082e-11,
+        "requested_violation": 1e-10,
+        "objective": 0.34644578589551017,
+        "ucost": 1.65232403827205e-09,
+        "scost": 0.3464457842431861,
+        "removed_polar_facets": 2,
+        "new_polar_facets": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "tag": "C634_SOC",
+  "complexity": 634,
+  "vertices": 182,
+  "edges": 317,
+  "facets": 137,
+  "strict": [
+    1,
+    1,
+    0
+  ],
+  "weak": [
+    0,
+    0,
+    0
+  ],
+  "definitionSha256": "09b77674fbf9877abcf35f5932d4d96fad25c855da1fefbcf1d71e7bd6d297c6",
+  "package": "../gomboc-C634-2026-09-10",
+  "evidence": "One fresh local source-only C634 replay on 2026-09-10; both author-provided exact auditors passed; all six frozen output hashes matched. Full six-body symbolic/moment suite not rerun locally.",
+  "globalMinimumProven": false
+}

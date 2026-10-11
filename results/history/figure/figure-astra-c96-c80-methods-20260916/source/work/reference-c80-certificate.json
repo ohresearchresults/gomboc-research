@@ -1,0 +1,44 @@
+{
+  "actual_own_centroid": [
+    "1869398847995960637739517/157805507375175020",
+    "-1937493/2",
+    "-2154752560194124307711881/157805507375175020"
+  ],
+  "actual_own_counts": [
+    2,
+    1,
+    1
+  ],
+  "conclusion": "This C80 shape admits reference110, but the reference is not its homogeneous volume centroid. It remains own211 and is NOT a homogeneous Gomboc.",
+  "nonzero_physical_first_moment_about_reference": [
+    "1567607223017650132377313622375/12",
+    "-71559271684670160328005124375/2",
+    "7801531305563379234411606138875/4"
+  ],
+  "primitive_zero_count": 0,
+  "reference": [
+    7695683,
+    168054,
+    -75622586
+  ],
+  "reference_counts": [
+    1,
+    1,
+    0
+  ],
+  "reference_saddle_edges": [],
+  "reference_stable_faces": [
+    13
+  ],
+  "reference_unstable_vertices": [
+    14
+  ],
+  "reference_weak": [
+    0,
+    0,
+    0
+  ],
+  "shape": "C80_OWN211",
+  "source_audit_sha256": "f17bb48815e8ff86697936d33af34e8e28170808674e9149dbae23c5228a19f7",
+  "status": "EXACT_REFERENCE_110_NOT_HOMOGENEOUS_110"
+}

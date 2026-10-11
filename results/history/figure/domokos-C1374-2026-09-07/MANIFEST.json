@@ -1,0 +1,66 @@
+{
+  "README.md": {
+    "bytes": 4545,
+    "sha256": "7030fbef93dfd28558b75b18bf78824864a201917bef2339b31fca0908f225e2"
+  },
+  "SUMMARY.json": {
+    "bytes": 144,
+    "sha256": "74f2c9d3d7e3eb0b6d8fb1faa852d6213311ced7ed38988c3f64d58ba7ceb0b9"
+  },
+  "capsule.pn03": {
+    "bytes": 10525,
+    "sha256": "0470008c42fd61ca27045b001cddee34ab68a954dc6e8ec0198a63e9715409c8"
+  },
+  "capsule.b85": {
+    "bytes": 12073,
+    "sha256": "56f3225ece0590189679224108631f7249b00ca6455d8d405ea890fa324b4152"
+  },
+  "codec.py": {
+    "bytes": 3604,
+    "sha256": "65b7396aafea0778c004e5caa87bab90d251e83dacdde89cbe67a0b2fd268702"
+  },
+  "exact_audit.py": {
+    "bytes": 4650,
+    "sha256": "7d44d745f236e3a2a7ada6802bfffb578ea262c0b39ba345f2abbf31299e2f90"
+  },
+  "independent_audit.py": {
+    "bytes": 5435,
+    "sha256": "f8c7d55d100d0d2320be41d99262c3bee49f667234d61e71f8e0dd49ab5be5c7"
+  },
+  "REPLAY.py": {
+    "bytes": 4784,
+    "sha256": "76319a92605c0f157adc6abe86e93f343765cca7ec46ffc0419d5daf5b0f1087"
+  },
+  "REPLAY_REPORT.json": {
+    "bytes": 784,
+    "sha256": "a286d65ad7ae5c27f09a18e9607ea44c86c09e3049482cac01930b0357f9cd00"
+  },
+  "fresh-replay.log": {
+    "bytes": 1337,
+    "sha256": "ba1229ebba1f99ca2ac25671a358a9b1753b2a43b99959ca29318bd1dd5f0618"
+  },
+  "DELIVERY_CHECKS.json": {
+    "bytes": 698,
+    "sha256": "e8fc9fd1442ed3911977941672fbe8dfdc7d39ca00e2a34e104d5e88995ed1e9"
+  },
+  "verified/raw_vertices.csv.gz": {
+    "bytes": 828144,
+    "sha256": "608b0ae557fd95ccd785fae313efc40f87435dd9c6ac1ddc7eec3f5f6d940486"
+  },
+  "verified/vertices.csv.gz": {
+    "bytes": 1667430,
+    "sha256": "c9b5f9ad3a71a6d9f0a7c47ccd4d6f7205feff92510424460b9964b85fcd1f50"
+  },
+  "verified/triangles.csv.gz": {
+    "bytes": 2349,
+    "sha256": "324f693018482714046911f36108f70c65a3b0445eee0c60c44c25ff59d5ecbd"
+  },
+  "verified/exact_report.json": {
+    "bytes": 115081,
+    "sha256": "71caedb4ed3781a6f3589b77fba3d784dde934566266eba9382740ae5983a440"
+  },
+  "verified/independent_report.json": {
+    "bytes": 498,
+    "sha256": "fb793bea34d849a031add9935e643622e4d2619618259df403dd1394abc6a338"
+  }
+}

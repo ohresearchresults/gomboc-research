@@ -1,0 +1,223 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "APEX_SCOUT",
+      "values": {
+        "reference_S": 4,
+        "reference_U_theorem": 1,
+        "reference_nonroot_margin": -0.04809798947417644,
+        "centroid_distance": 0.021592385937724928,
+        "sample": 0,
+        "point": [
+          -0.41515741841790615,
+          0.0188864339375118,
+          0.9279821408533051
+        ],
+        "visible": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          23,
+          25,
+          31,
+          33,
+          62,
+          63,
+          65,
+          66,
+          81
+        ],
+        "V": 144,
+        "E": 243,
+        "F": 101,
+        "S": 19,
+        "U": 23,
+        "Qmax": 0.22404032389375236,
+        "centroid": [
+          -0.007575820100012817,
+          0.003196223405117996,
+          0.019965526194931076
+        ],
+        "source_U_chord": 0.24783718187707787
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "APEX_SCOUT",
+      "values": {
+        "reference_S": 3,
+        "reference_U_theorem": 1,
+        "reference_nonroot_margin": -0.0702021164250331,
+        "centroid_distance": 0.001843615000884549,
+        "sample": 2,
+        "point": [
+          -0.2555905428156721,
+          0.32027524184996164,
+          0.5539347454305649
+        ],
+        "visible": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          14,
+          15,
+          16,
+          17,
+          18,
+          21,
+          25
+        ],
+        "V": 157,
+        "E": 248,
+        "F": 93,
+        "S": 16,
+        "U": 23,
+        "Qmax": 0.10224427826143624,
+        "centroid": [
+          -0.00030829607737985855,
+          0.0012148053161374589,
+          0.0013520790820225333
+        ],
+        "source_U_chord": 0.10495324754466123
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "APEX_SCOUT",
+      "values": {
+        "reference_S": 2,
+        "reference_U_theorem": 1,
+        "reference_nonroot_margin": -0.04485731038199856,
+        "centroid_distance": 1.4114809213510258e-07,
+        "sample": 20,
+        "point": [
+          -0.27957616705023475,
+          0.3670809575453814,
+          0.41590713268612944
+        ],
+        "visible": [
+          3
+        ],
+        "V": 158,
+        "E": 242,
+        "F": 86,
+        "S": 8,
+        "U": 1,
+        "Qmax": 0.10375232792524881,
+        "centroid": [
+          -2.310751542555135e-08,
+          1.2569185677320962e-07,
+          5.991981129092674e-08
+        ],
+        "source_U_chord": 0.04939647899760277
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "APEX_SCOUT",
+      "values": {
+        "reference_S": 2,
+        "reference_U_theorem": 1,
+        "reference_nonroot_margin": -0.03217721573467434,
+        "centroid_distance": 2.3426704057784145e-08,
+        "sample": 5306,
+        "point": [
+          -0.251682108220601,
+          0.38684923074181476,
+          0.4021621373542263
+        ],
+        "visible": [
+          3
+        ],
+        "V": 158,
+        "E": 242,
+        "F": 86,
+        "S": 2,
+        "U": 1,
+        "Qmax": 0.10378389452071692,
+        "centroid": [
+          -3.5559184351338606e-09,
+          2.098721243976926e-08,
+          9.782781869267543e-09
+        ],
+        "source_U_chord": 0.009532650620551947
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "APEX_SCOUT",
+      "values": {
+        "reference_S": 2,
+        "reference_U_theorem": 1,
+        "reference_nonroot_margin": -0.04141226326637838,
+        "centroid_distance": 9.974619896510629e-11,
+        "sample": 12114,
+        "point": [
+          -0.26834217040694447,
+          0.37328978802567064,
+          0.41289776186528987
+        ],
+        "visible": [
+          3
+        ],
+        "V": 158,
+        "E": 242,
+        "F": 86,
+        "S": 2,
+        "U": 1,
+        "Qmax": 0.10379056549565703,
+        "centroid": [
+          -1.5853376182046164e-11,
+          8.898857770368573e-11,
+          4.217828481448942e-11
+        ],
+        "source_U_chord": 0.036495894829535414
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "APEX_SCOUT",
+      "values": {
+        "reference_S": 2,
+        "reference_U_theorem": 1,
+        "reference_nonroot_margin": -0.0363192541333685,
+        "centroid_distance": 2.4043219497733718e-11,
+        "sample": 15310,
+        "point": [
+          -0.2550993204747123,
+          0.3911442583638254,
+          0.39407103335016397
+        ],
+        "visible": [
+          3
+        ],
+        "V": 158,
+        "E": 242,
+        "F": 86,
+        "S": 2,
+        "U": 1,
+        "Qmax": 0.10379058601311064,
+        "centroid": [
+          -3.681586053980975e-12,
+          2.1572938377147296e-11,
+          9.956438003580442e-12
+        ],
+        "source_U_chord": 0.0032795196929170656
+      }
+    }
+  ]
+}

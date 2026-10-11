@@ -1,0 +1,1 @@
+[{"iteration":0,"minimum_escape":-1.0296360625042227e-07,"nonowner_slack_min":0.0008816303911103329,"root_margins":[0.4731507846301571,0.5192037101708424],"solver":{"message":"Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)","objective":null,"status":1}}]

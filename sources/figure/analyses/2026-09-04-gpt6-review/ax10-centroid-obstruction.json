@@ -1,0 +1,131 @@
+{
+  "verdict": "LITERAL_FIXED_SOURCE_TWO_APEX_BAND_CANNOT_HAVE_CENTROID_ZERO",
+  "parent_assignment": "asg_lSjg7n_lMDvF8a-CVGsUNf_R",
+  "parent_sha256": "2c28fe4781353da1c2fdd2b85cb4f28fc41e59870e8fdbfcfd291e002831fd72",
+  "source_volume": "4314676606919473104543174179/7427640235712281649394745344",
+  "source_centroid": [
+    "-1473813210086390509534743809321315697/18531394919535384289564522118836649984",
+    "9136681163149509051862738422235609781/18531394919535384289564522118836649984",
+    "825639602344978981352215841493392229/9265697459767692144782261059418324992"
+  ],
+  "source_f_vector": [
+    10,
+    24,
+    16
+  ],
+  "obstructing_faces": [
+    {
+      "face": [
+        "H",
+        "AY",
+        "AT"
+      ],
+      "witness_point": "C",
+      "normal": [
+        "1588839172750329/18014398509481984",
+        "-89136529097127549/288230376151711744",
+        "30920576848084107/288230376151711744"
+      ],
+      "support": "14834455371116325301046973/309485009821345068724781056",
+      "opposite_to_support_ratio": "57230653854538708026924097/4944818457038775100348991",
+      "exact_centroid_inequality_rhs": "-31797148862566787044407843/77371252455336267181195264",
+      "retained_by_literal_two_apex_band": true,
+      "centroid_distance_lower_bound_squared": "112339852865359146565833291619595323354770946656961/1223077012694465177851287632849465221266661959532544",
+      "centroid_distance_lower_bound_decimal": 0.3030679584459237
+    },
+    {
+      "face": [
+        "AT",
+        "AX",
+        "AU"
+      ],
+      "witness_point": "C",
+      "normal": [
+        "72460571024199315/1152921504606846976",
+        "-112913953169836509/576460752303423488",
+        "-263081182289999187/1152921504606846976"
+      ],
+      "support": "27955365505179503354417085/618970019642690137449562112",
+      "opposite_to_support_ratio": "92633391241475567325667164/9318455168393167784805695",
+      "exact_centroid_inequality_rhs": "-194034077208888191913750237/618970019642690137449562112",
+      "retained_by_literal_two_apex_band": true,
+      "centroid_distance_lower_bound_squared": "4183247013144976008000117601183138655604669957506241/64287152184296516123389349492235927234319218856951808",
+      "centroid_distance_lower_bound_decimal": 0.25509072081537254
+    },
+    {
+      "face": [
+        "AT",
+        "AY",
+        "AX"
+      ],
+      "witness_point": "C",
+      "normal": [
+        "1273441246817475/36028797018963968",
+        "-168171228935025665/576460752303423488",
+        "-39723224459300289/576460752303423488"
+      ],
+      "support": "19067493270610121485973577/618970019642690137449562112",
+      "opposite_to_support_ratio": "347905926928698253112041895/19067493270610121485973577",
+      "exact_centroid_inequality_rhs": "-72675861779216972163530291/154742504910672534362390528",
+      "retained_by_literal_two_apex_band": false,
+      "centroid_distance_lower_bound_squared": "5281780885351850322774283103711042393339860074544681/34904283351376193247672750030524633270503898764804096",
+      "centroid_distance_lower_bound_decimal": 0.3890010982769794
+    },
+    {
+      "face": [
+        "AW",
+        "AX",
+        "AY"
+      ],
+      "witness_point": "C",
+      "normal": [
+        "-237066106179493/1125899906842624",
+        "-246934837792800587/1152921504606846976",
+        "-62906357601071227/1152921504606846976"
+      ],
+      "support": "123173836514377819053498339/1237940039285380274899124224",
+      "opposite_to_support_ratio": "138221321177207409597183503/41057945504792606351166113",
+      "exact_centroid_inequality_rhs": "-11285613497122192907763873/309485009821345068724781056",
+      "retained_by_literal_two_apex_band": false,
+      "centroid_distance_lower_bound_squared": "14151674667380734763023357060255061374942347106681/15867319234252805697607091764688822351584869700599808",
+      "centroid_distance_lower_bound_decimal": 0.029864286157663407
+    }
+  ],
+  "required_point": [
+    "358547791/3221225472",
+    "-971865629/1610612736",
+    "-345410525/3221225472"
+  ],
+  "minimum_required_patch_boundary_edges": [
+    [
+      "AT",
+      "AU"
+    ],
+    [
+      "AT",
+      "H"
+    ],
+    [
+      "AU",
+      "AX"
+    ],
+    [
+      "AW",
+      "AX"
+    ],
+    [
+      "AW",
+      "AY"
+    ],
+    [
+      "AY",
+      "H"
+    ]
+  ],
+  "mandatory_hull_f_vector": [
+    11,
+    27,
+    18
+  ],
+  "scope": "Original source coordinates fixed; C retained as a point, even if no longer extreme. Each retained halfspace suffices for exclusion. This does not exclude moving old vertices, crossing all obstructing planes, changing the target centre, or other AX10 topologies."
+}

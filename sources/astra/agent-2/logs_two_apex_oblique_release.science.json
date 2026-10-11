@@ -1,0 +1,141 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "OBLIQUE_SECOND_VERTEX_RELEASE",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 1,
+        "U": 36,
+        "Pmax": 0.11355045101521392,
+        "Qmax": 1.5211528704122062e-16,
+        "minimum_noncontact": 3.4465541531858435e-11,
+        "m": 44,
+        "n": 16,
+        "reference_escape": 0.042208359885077984,
+        "centroid_error": 1.4710455076283324e-15,
+        "active_anchors": [
+          0
+        ],
+        "released_census": [
+          1,
+          36
+        ],
+        "released_E": 247,
+        "released_centroid_discrepancy": 1.1102230246251565e-16
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "OBLIQUE_SECOND_VERTEX_RELEASE",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 1,
+        "U": 36,
+        "Pmax": 0.11355041957168378,
+        "Qmax": 1.5211528355765111e-16,
+        "minimum_noncontact": 2.0999868510784836e-11,
+        "m": 44,
+        "n": 16,
+        "reference_escape": 0.11037822675314879,
+        "centroid_error": 3.885780586188048e-16,
+        "active_anchors": [
+          0
+        ],
+        "released_census": [
+          1,
+          36
+        ],
+        "released_E": 247,
+        "released_centroid_discrepancy": 8.326672684688674e-17
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "OBLIQUE_SECOND_VERTEX_RELEASE",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 1,
+        "U": 36,
+        "Pmax": 0.11355041714127785,
+        "Qmax": 0.0,
+        "minimum_noncontact": 1.7762569193280342e-11,
+        "m": 44,
+        "n": 16,
+        "reference_escape": 0.019032353183580975,
+        "centroid_error": 2.498001805406602e-16,
+        "active_anchors": [
+          0
+        ],
+        "released_census": [
+          1,
+          36
+        ],
+        "released_E": 247,
+        "released_centroid_discrepancy": 6.938893903907228e-17
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "OBLIQUE_SECOND_VERTEX_RELEASE",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 1,
+        "U": 36,
+        "Pmax": 0.11355039254237599,
+        "Qmax": 0.0,
+        "minimum_noncontact": 1.303190888535255e-11,
+        "m": 44,
+        "n": 16,
+        "reference_escape": 0.04291336248283162,
+        "centroid_error": 2.7755575615628914e-17,
+        "active_anchors": [
+          0
+        ],
+        "released_census": [
+          1,
+          36
+        ],
+        "released_E": 247,
+        "released_centroid_discrepancy": 1.1102230246251565e-16
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "OBLIQUE_SECOND_VERTEX_RELEASE",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 1,
+        "U": 36,
+        "Pmax": 0.1135503924258841,
+        "Qmax": 0.0,
+        "minimum_noncontact": 1.274902405867806e-11,
+        "m": 44,
+        "n": 16,
+        "reference_escape": 0.030242386092423246,
+        "centroid_error": 8.326672684688674e-17,
+        "active_anchors": [
+          0
+        ],
+        "released_census": [
+          1,
+          36
+        ],
+        "released_E": 247,
+        "released_centroid_discrepancy": 9.71445146547012e-17
+      }
+    }
+  ]
+}

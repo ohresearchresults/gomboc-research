@@ -1,0 +1,59 @@
+[
+  {
+    "audit_sha256": "a6c33c9f089de95cbbe52ebe51ecb4351306575df32f2aced706f62774793093",
+    "circumradius_vertex": 14,
+    "identity": "baseline-check",
+    "inradius_facet": 23,
+    "own": [
+      2,
+      1,
+      1
+    ],
+    "ratio_greater_than_one_tenth": false,
+    "ratio_less_than_one_fortieth": true,
+    "ratio_squared": "613047969920492401/1098382570672741612114",
+    "weak": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "audit_sha256": "f17bb48815e8ff86697936d33af34e8e28170808674e9149dbae23c5228a19f7",
+    "circumradius_vertex": 14,
+    "identity": "pyramid-101-exact",
+    "inradius_facet": 13,
+    "own": [
+      2,
+      1,
+      1
+    ],
+    "ratio_greater_than_one_tenth": false,
+    "ratio_less_than_one_fortieth": true,
+    "ratio_squared": "3566201029850271266217239274416144738688906250/36869882829083598575044840760130029949241680828659",
+    "weak": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "audit_sha256": "c41d79fbc3a4711cef1201a17fcec0ba85ecded87f9072cf67e65ebb19229283",
+    "circumradius_vertex": 14,
+    "identity": "rounder25-exact",
+    "inradius_facet": 4,
+    "own": [
+      2,
+      1,
+      1
+    ],
+    "ratio_greater_than_one_tenth": true,
+    "ratio_less_than_one_fortieth": false,
+    "ratio_squared": "35274697115952290479569482810399233587445778747525934415536458398724961478773017670036523415929/3470743494949592321775335891831046939958228064497089049287933784581246104402868718790849508733177",
+    "weak": [
+      0,
+      0,
+      0
+    ]
+  }
+]

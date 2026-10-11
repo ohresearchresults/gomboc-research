@@ -1,0 +1,1830 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 18,
+        "U": 33,
+        "Pmax": 0.17226552446672283,
+        "Qmax": 0.15081774620640828,
+        "minimum_noncontact": 2.2815289059702074e-06,
+        "m": 8,
+        "L": 15,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 21,
+        "U": 27,
+        "Pmax": 0.16419146018938613,
+        "Qmax": 0.14596449835853625,
+        "minimum_noncontact": 2.2173208977637385e-07,
+        "m": 8,
+        "L": 15,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 15,
+        "U": 27,
+        "Pmax": 0.16552139969824264,
+        "Qmax": 0.16846302715152056,
+        "minimum_noncontact": 3.7820903691826795e-06,
+        "m": 8,
+        "L": 15,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 22,
+        "U": 27,
+        "Pmax": 0.11693891855592838,
+        "Qmax": 0.15945561880406114,
+        "minimum_noncontact": 3.676177952623509e-07,
+        "m": 8,
+        "L": 15,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 13,
+        "U": 25,
+        "Pmax": 0.2228652111116284,
+        "Qmax": 0.17977182468150713,
+        "minimum_noncontact": 5.503577159988568e-06,
+        "m": 8,
+        "L": 15,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 23,
+        "U": 25,
+        "Pmax": 0.1176148036091094,
+        "Qmax": 0.16167680253391067,
+        "minimum_noncontact": 1.0217198594666335e-05,
+        "m": 8,
+        "L": 15,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 18,
+        "U": 30,
+        "Pmax": 0.16434823165651294,
+        "Qmax": 0.1548326598167095,
+        "minimum_noncontact": 2.2824946679595143e-06,
+        "m": 8,
+        "L": 15,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 21,
+        "U": 35,
+        "Pmax": 0.15193406195778714,
+        "Qmax": 0.15626808943143677,
+        "minimum_noncontact": 2.1137925565015978e-07,
+        "m": 8,
+        "L": 15,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 18,
+        "U": 26,
+        "Pmax": 0.15678184500941836,
+        "Qmax": 0.16639981753710018,
+        "minimum_noncontact": 3.7836921914283522e-06,
+        "m": 8,
+        "L": 15,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 22,
+        "U": 31,
+        "Pmax": 0.1370950077602692,
+        "Qmax": 0.16703475242176635,
+        "minimum_noncontact": 3.5045337682702786e-07,
+        "m": 8,
+        "L": 15,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 17,
+        "U": 27,
+        "Pmax": 0.17519854186504938,
+        "Qmax": 0.163746358592556,
+        "minimum_noncontact": 5.420878597354136e-06,
+        "m": 8,
+        "L": 15,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 27,
+        "Pmax": 0.14498503896312595,
+        "Qmax": 0.1671234415759333,
+        "minimum_noncontact": 1.0477509632164648e-05,
+        "m": 8,
+        "L": 15,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 33,
+        "Pmax": 0.12441697335976423,
+        "Qmax": 0.14102660213642873,
+        "minimum_noncontact": 3.7333437822050892e-06,
+        "m": 10,
+        "L": 12,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 28,
+        "U": 31,
+        "Pmax": 0.11863531008938807,
+        "Qmax": 0.13874483306979118,
+        "minimum_noncontact": 4.264985422028742e-07,
+        "m": 10,
+        "L": 12,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 20,
+        "U": 24,
+        "Pmax": 0.10483303350234278,
+        "Qmax": 0.1515376876764919,
+        "minimum_noncontact": 6.188784933320321e-06,
+        "m": 10,
+        "L": 12,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 25,
+        "U": 33,
+        "Pmax": 0.08171565658451253,
+        "Qmax": 0.13380683594874543,
+        "minimum_noncontact": 1.2570991681853241e-05,
+        "m": 10,
+        "L": 12,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 16,
+        "U": 23,
+        "Pmax": 0.17883277883893012,
+        "Qmax": 0.16899369063463843,
+        "minimum_noncontact": 9.002273429966455e-06,
+        "m": 10,
+        "L": 12,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 25,
+        "U": 29,
+        "Pmax": 0.09630832559113628,
+        "Qmax": 0.1285377538264822,
+        "minimum_noncontact": 1.6993562433191855e-05,
+        "m": 10,
+        "L": 12,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 23,
+        "U": 38,
+        "Pmax": 0.12252419264483926,
+        "Qmax": 0.13332541066463477,
+        "minimum_noncontact": 3.733106565935358e-06,
+        "m": 10,
+        "L": 12,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 28,
+        "U": 35,
+        "Pmax": 0.11854208377043356,
+        "Qmax": 0.1350270717941237,
+        "minimum_noncontact": 4.1160172440658065e-07,
+        "m": 10,
+        "L": 12,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 18,
+        "U": 28,
+        "Pmax": 0.14892377460430742,
+        "Qmax": 0.12541056603746878,
+        "minimum_noncontact": 6.1883914873226925e-06,
+        "m": 10,
+        "L": 12,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 25,
+        "U": 35,
+        "Pmax": 0.05432549285631868,
+        "Qmax": 0.13192778367239644,
+        "minimum_noncontact": 1.4142266106727124e-05,
+        "m": 10,
+        "L": 12,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 16,
+        "U": 24,
+        "Pmax": 0.24444626157837854,
+        "Qmax": 0.11375970244218608,
+        "minimum_noncontact": 8.872662382525956e-06,
+        "m": 10,
+        "L": 12,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 31,
+        "Pmax": 0.052196240815234406,
+        "Qmax": 0.12547087529111633,
+        "minimum_noncontact": 2.0001131876886483e-05,
+        "m": 10,
+        "L": 12,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 25,
+        "U": 28,
+        "Pmax": 0.12312752211166733,
+        "Qmax": 0.11591456176193111,
+        "minimum_noncontact": 5.635751335379336e-06,
+        "m": 12,
+        "L": 10,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 33,
+        "U": 37,
+        "Pmax": 0.11759871837199633,
+        "Qmax": 0.09673202074666724,
+        "minimum_noncontact": 1.497959497255363e-05,
+        "m": 12,
+        "L": 10,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 18,
+        "U": 26,
+        "Pmax": 0.17893094983208166,
+        "Qmax": 0.1119592092237581,
+        "minimum_noncontact": 9.342448391293467e-06,
+        "m": 12,
+        "L": 10,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 34,
+        "Pmax": 0.05222445401149039,
+        "Qmax": 0.0780892089903996,
+        "minimum_noncontact": 2.1450339509822836e-05,
+        "m": 12,
+        "L": 10,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 16,
+        "U": 20,
+        "Pmax": 0.26860083757783104,
+        "Qmax": 0.1774856984769084,
+        "minimum_noncontact": 1.351291995452274e-05,
+        "m": 12,
+        "L": 10,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 26,
+        "U": 28,
+        "Pmax": 0.08690068073330606,
+        "Qmax": 0.09774679521435656,
+        "minimum_noncontact": 3.464963601144281e-05,
+        "m": 12,
+        "L": 10,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 20,
+        "U": 29,
+        "Pmax": 0.1276766359143976,
+        "Qmax": 0.16467098566290286,
+        "minimum_noncontact": 5.633840096660974e-06,
+        "m": 12,
+        "L": 10,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 35,
+        "Pmax": 0.12255953231858088,
+        "Qmax": 0.1585499863769498,
+        "minimum_noncontact": 9.910843199407698e-06,
+        "m": 12,
+        "L": 10,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 18,
+        "U": 27,
+        "Pmax": 0.14153618950739807,
+        "Qmax": 0.14287176599430554,
+        "minimum_noncontact": 9.339278451266805e-06,
+        "m": 12,
+        "L": 10,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 28,
+        "U": 34,
+        "Pmax": 0.08175941371789104,
+        "Qmax": 0.14849804643397418,
+        "minimum_noncontact": 2.138298998747416e-05,
+        "m": 12,
+        "L": 10,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 16,
+        "U": 19,
+        "Pmax": 0.20361953506701716,
+        "Qmax": 0.13636651917443768,
+        "minimum_noncontact": 1.3407567131389638e-05,
+        "m": 12,
+        "L": 10,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 22,
+        "U": 27,
+        "Pmax": 0.07703514979630116,
+        "Qmax": 0.13925662029067323,
+        "minimum_noncontact": 3.464444810986737e-05,
+        "m": 12,
+        "L": 10,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 19,
+        "U": 23,
+        "Pmax": 0.15750780784694637,
+        "Qmax": 0.09580703133230195,
+        "minimum_noncontact": 1.306813432155769e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 31,
+        "U": 30,
+        "Pmax": 0.12301166257522496,
+        "Qmax": 0.08806448295080639,
+        "minimum_noncontact": 3.341126067480902e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 17,
+        "U": 19,
+        "Pmax": 0.2660371454662935,
+        "Qmax": 0.16541797185594986,
+        "minimum_noncontact": 2.165642941096066e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 26,
+        "U": 27,
+        "Pmax": 0.08682406433331542,
+        "Qmax": 0.07495853253716803,
+        "minimum_noncontact": 5.442909849764983e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 21,
+        "U": 16,
+        "Pmax": 0.4022896408624551,
+        "Qmax": 0.2132191374506184,
+        "minimum_noncontact": 3.543248223224372e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 25,
+        "U": 25,
+        "Pmax": 0.10421571397612349,
+        "Qmax": 0.06279585668413067,
+        "minimum_noncontact": 8.905489254401121e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 21,
+        "U": 27,
+        "Pmax": 0.13504826476798582,
+        "Qmax": 0.17278678740573772,
+        "minimum_noncontact": 1.3068512134808985e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 32,
+        "U": 36,
+        "Pmax": 0.12354946188210633,
+        "Qmax": 0.14944477803618303,
+        "minimum_noncontact": 3.387705778775435e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 19,
+        "U": 23,
+        "Pmax": 0.22922318806510283,
+        "Qmax": 0.21009424948933936,
+        "minimum_noncontact": 2.166402281851911e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 29,
+        "U": 32,
+        "Pmax": 0.08616186966412004,
+        "Qmax": 0.1284401559128811,
+        "minimum_noncontact": 5.4439050649224254e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 20,
+        "U": 19,
+        "Pmax": 0.3513539947161812,
+        "Qmax": 0.2343339924416045,
+        "minimum_noncontact": 3.541255036058217e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 113,
+        "E": 224,
+        "F": 113,
+        "S": 28,
+        "U": 28,
+        "Pmax": 0.09168727035401078,
+        "Qmax": 0.13664975093863524,
+        "minimum_noncontact": 8.905746875073091e-05,
+        "m": 16,
+        "L": 7,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 22,
+        "Pmax": 0.1878461112691803,
+        "Qmax": 0.12943763287648705,
+        "minimum_noncontact": 1.9190438922316716e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 33,
+        "Pmax": 0.12516024145219196,
+        "Qmax": 0.1148571806052119,
+        "minimum_noncontact": 5.470194645153401e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 22,
+        "U": 20,
+        "Pmax": 0.32475028825574764,
+        "Qmax": 0.1803805414013411,
+        "minimum_noncontact": 3.1812691225423185e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 32,
+        "U": 30,
+        "Pmax": 0.08765177849310007,
+        "Qmax": 0.0761727387296839,
+        "minimum_noncontact": 9.067717809228545e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 16,
+        "Pmax": 0.44360724233697285,
+        "Qmax": 0.22129629175879187,
+        "minimum_noncontact": 5.204972133382556e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 28,
+        "U": 28,
+        "Pmax": 0.09072146719149585,
+        "Qmax": 0.07516386633091997,
+        "minimum_noncontact": 0.00010496941810294696,
+        "m": 20,
+        "L": 6,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 22,
+        "Pmax": 0.18468798211289084,
+        "Qmax": 0.1787943557285005,
+        "minimum_noncontact": 1.9191372998037845e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 33,
+        "Pmax": 0.1250351971800013,
+        "Qmax": 0.13104701380115305,
+        "minimum_noncontact": 5.470277753912334e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 17,
+        "Pmax": 0.3121544690529383,
+        "Qmax": 0.20377242467891987,
+        "minimum_noncontact": 3.180429732002938e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 33,
+        "U": 30,
+        "Pmax": 0.0869762947974123,
+        "Qmax": 0.094965027953447,
+        "minimum_noncontact": 9.06815947996998e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 23,
+        "U": 18,
+        "Pmax": 0.4425179484253702,
+        "Qmax": 0.23983831481703108,
+        "minimum_noncontact": 5.2035979882281516e-05,
+        "m": 20,
+        "L": 6,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 23,
+        "Pmax": 0.09011699009719183,
+        "Qmax": 0.09858041587707728,
+        "minimum_noncontact": 0.00010471592302802867,
+        "m": 20,
+        "L": 6,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 28,
+        "U": 21,
+        "Pmax": 0.25628515177475575,
+        "Qmax": 0.18544069777005967,
+        "minimum_noncontact": 3.09508851769543e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 35,
+        "Pmax": 0.12759568992848686,
+        "Qmax": 0.09699868451184693,
+        "minimum_noncontact": 6.838242234765457e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 20,
+        "Pmax": 0.411720577264684,
+        "Qmax": 0.21482312343211696,
+        "minimum_noncontact": 5.13088775236752e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 32,
+        "U": 28,
+        "Pmax": 0.09028975863413936,
+        "Qmax": 0.07403275690014932,
+        "minimum_noncontact": 7.490499813829374e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 20,
+        "Pmax": 0.4999929050099891,
+        "Qmax": 0.27697712581818207,
+        "minimum_noncontact": 8.392197838126164e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 19,
+        "Pmax": 0.10864839288566656,
+        "Qmax": 0.12407124528267267,
+        "minimum_noncontact": 8.178650041774928e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 20,
+        "Pmax": 0.26520885954002216,
+        "Qmax": 0.19261694545468913,
+        "minimum_noncontact": 3.0952253846621835e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 32,
+        "Pmax": 0.12883280062439795,
+        "Qmax": 0.08583897639598051,
+        "minimum_noncontact": 6.857073248222647e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 19,
+        "Pmax": 0.4072355850822673,
+        "Qmax": 0.23470465187526468,
+        "minimum_noncontact": 5.131114740661055e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 33,
+        "U": 23,
+        "Pmax": 0.08743492271539005,
+        "Qmax": 0.09810352573734284,
+        "minimum_noncontact": 7.452571435997765e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 25,
+        "U": 16,
+        "Pmax": 0.4952578482320398,
+        "Qmax": 0.26049517798065674,
+        "minimum_noncontact": 8.388600308607553e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 18,
+        "Pmax": 0.09753040880923204,
+        "Qmax": 0.09241453261785738,
+        "minimum_noncontact": 8.200793197898056e-05,
+        "m": 24,
+        "L": 5,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 32,
+        "U": 19,
+        "Pmax": 0.3780261352265512,
+        "Qmax": 0.24316992241648636,
+        "minimum_noncontact": 5.855202665334935e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 29,
+        "Pmax": 0.13312428716080998,
+        "Qmax": 0.10242763094470146,
+        "minimum_noncontact": 5.0475441992062254e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 18,
+        "Pmax": 0.4707461889471486,
+        "Qmax": 0.260370954512429,
+        "minimum_noncontact": 7.992984012426946e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 76,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 23,
+        "U": 19,
+        "Pmax": 0.15932011991599931,
+        "Qmax": 0.09516150024923227,
+        "minimum_noncontact": 5.6244943492749096e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 77,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 18,
+        "Pmax": 0.567501087922623,
+        "Qmax": 0.29158892744208353,
+        "minimum_noncontact": 5.5351946720565955e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 78,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 33,
+        "U": 24,
+        "Pmax": 0.27942745697608595,
+        "Qmax": 0.13549330173966373,
+        "minimum_noncontact": 5.5351946720565955e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 79,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 20,
+        "Pmax": 0.38924268128094214,
+        "Qmax": 0.2188232108878115,
+        "minimum_noncontact": 5.854047978653115e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 80,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 28,
+        "Pmax": 0.13452128799674803,
+        "Qmax": 0.07933309827498791,
+        "minimum_noncontact": 5.064594679729918e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 81,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 19,
+        "Pmax": 0.4796609818159095,
+        "Qmax": 0.24609394752794125,
+        "minimum_noncontact": 7.991437795903951e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 82,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 26,
+        "U": 21,
+        "Pmax": 0.15252712861918294,
+        "Qmax": 0.12307598831464447,
+        "minimum_noncontact": 5.61933941805929e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 83,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 28,
+        "U": 18,
+        "Pmax": 0.5771188817570215,
+        "Qmax": 0.30228981024032214,
+        "minimum_noncontact": 5.540995590172096e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 84,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 25,
+        "Pmax": 0.2473945013160246,
+        "Qmax": 0.1485727608013755,
+        "minimum_noncontact": 5.540995590172096e-05,
+        "m": 30,
+        "L": 4,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 85,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 23,
+        "Pmax": 0.4813274762916262,
+        "Qmax": 0.2739572079606178,
+        "minimum_noncontact": 4.564154774506748e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 86,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 46,
+        "U": 34,
+        "Pmax": 0.2809211770781147,
+        "Qmax": 0.17201369603509623,
+        "minimum_noncontact": 3.697100239486558e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.0,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 87,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 32,
+        "U": 21,
+        "Pmax": 0.5884375655423092,
+        "Qmax": 0.29964848530942134,
+        "minimum_noncontact": 4.854823270800814e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 88,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 19,
+        "Pmax": 0.3928401331777854,
+        "Qmax": 0.22721961187063533,
+        "minimum_noncontact": 4.14159534092316e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.0,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 89,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 23,
+        "Pmax": 0.6977925653163946,
+        "Qmax": 0.3359787178783204,
+        "minimum_noncontact": 3.119282803620399e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 90,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 32,
+        "U": 20,
+        "Pmax": 0.4732588935775027,
+        "Qmax": 0.2849933911112385,
+        "minimum_noncontact": 3.119282803620399e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.0,
+        "end": 0.6,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 91,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 23,
+        "Pmax": 0.4789999680143473,
+        "Qmax": 0.2723867213226269,
+        "minimum_noncontact": 4.557684549468484e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 92,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 45,
+        "U": 35,
+        "Pmax": 0.3127305824151902,
+        "Qmax": 0.16175048043044452,
+        "minimum_noncontact": 3.69077590407268e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.37,
+        "end": 0.15,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 93,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 19,
+        "Pmax": 0.5848454902357048,
+        "Qmax": 0.30466848891573095,
+        "minimum_noncontact": 4.854579322078673e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 94,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 28,
+        "U": 18,
+        "Pmax": 0.38908129954556103,
+        "Qmax": 0.23619751973542652,
+        "minimum_noncontact": 4.149384435716442e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.37,
+        "end": 0.35,
+        "power": 1.4
+      }
+    },
+    {
+      "source_line": 95,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 22,
+        "Pmax": 0.695682702817948,
+        "Qmax": 0.3333466950555305,
+        "minimum_noncontact": 3.1171146365997823e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 0.7
+      }
+    },
+    {
+      "source_line": 96,
+      "label": "PARALLEL_SECTION_SEED",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 32,
+        "U": 20,
+        "Pmax": 0.47206057402621776,
+        "Qmax": 0.2797099098664677,
+        "minimum_noncontact": 3.1171146365997823e-05,
+        "m": 40,
+        "L": 3,
+        "phase": 0.37,
+        "end": 0.6,
+        "power": 1.4
+      }
+    }
+  ]
+}

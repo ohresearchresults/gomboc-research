@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-15T17:16:53.731Z",
+  "file": "ENDPOINT_A.json",
+  "bytes": 311825,
+  "sha256": "142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0",
+  "sourceConversation": "6aa56c57-5c70-83eb-85d1-82d5d68c902b",
+  "sourceMessage": "32f1765a-83a6-418b-91f8-793a37d51c40",
+  "method": "Exact observed source artifact; authenticated same-origin download/no redirects; original length/SHA and local readback verified"
+}

@@ -1,0 +1,24 @@
+# material-c55cbf249604
+
+Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
+
+Public derivative: unreviewed-encoded-blocks-omitted.
+
+---
+
+"""Recovery capsule part 1/1: POLAR_GLOBAL_RADIUS_TRANSFER_V1.
+Contains the COMPLETE exact audit, every input coordinate and parameter.
+python -S recover_radius_transfer.py build
+python -S recover_radius_transfer.py check
+No external files are inputs. Python>=3.10 standard library; assertions on.
+The output is a relaxation separation control, NOT a Gomboc or own-centroid body.
+"""
+import base64,hashlib,subprocess,sys,zlib
+from pathlib import Path
+SOURCE_PIN=[10097,'7e12ec5679cb42f722f1cbb9c44cdf31f47f26c47fdb14820cb9dfbe7dcc16d0']
+OUTPUT_PIN=[9611,'bfb97506d9ba9742308810eedd4757daa5241f688318de17208b54336b7eda95']
+DATA=(
+
+[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+
+)

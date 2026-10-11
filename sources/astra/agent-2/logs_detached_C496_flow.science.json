@@ -1,0 +1,305 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 0,
+        "referenceU": 1,
+        "referenceS": 5,
+        "U": 1,
+        "S": 5,
+        "reference_logQ": 6.367858484397035,
+        "centroid": [
+          3.088107605631012e-17,
+          -6.176215211262024e-17,
+          -1.6322854486906778e-16
+        ],
+        "centroid_inf": 1.6322854486906778e-16,
+        "merit": 6.367858484397061,
+        "min_ref_guard": 1.2731214358836863e-05,
+        "min_noncontact": 2.5385835200619766e-07,
+        "trust": 0.01,
+        "seconds": 3.840847969055176
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 5,
+        "referenceU": 1,
+        "referenceS": 11,
+        "U": 1,
+        "S": 11,
+        "reference_logQ": 5.8069631739657,
+        "centroid": [
+          1.2122628835869788e-16,
+          -2.292278907146287e-16,
+          -5.2898744011068166e-17
+        ],
+        "centroid_inf": 2.292278907146287e-16,
+        "merit": 5.80696317396574,
+        "min_ref_guard": 9.999992824780728e-09,
+        "min_noncontact": 1.7838337995623732e-07,
+        "trust": 0.020113571874999996,
+        "seconds": 17.789969205856323
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 10,
+        "referenceU": 1,
+        "referenceS": 7,
+        "U": 1,
+        "S": 7,
+        "reference_logQ": 5.598840522369296,
+        "centroid": [
+          1.1225468827414115e-16,
+          1.0565147131683871e-16,
+          -2.5972653365389516e-16
+        ],
+        "centroid_inf": 2.5972653365389516e-16,
+        "merit": 5.598840522369344,
+        "min_ref_guard": 9.999999410031684e-09,
+        "min_noncontact": 1.00019615922875e-08,
+        "trust": 0.040455577357079074,
+        "seconds": 28.54026484489441
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 15,
+        "referenceU": 1,
+        "referenceS": 5,
+        "U": 1,
+        "S": 5,
+        "reference_logQ": 5.58160667225103,
+        "centroid": [
+          2.47341471515145e-14,
+          -3.5977741581364806e-14,
+          -5.4389154969528376e-14
+        ],
+        "centroid_inf": 5.4389154969528376e-14,
+        "merit": 5.58160667226254,
+        "min_ref_guard": 7.150526876547305e-08,
+        "min_noncontact": 1.1400731158017763e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 48.311102867126465
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 20,
+        "referenceU": 1,
+        "referenceS": 8,
+        "U": 1,
+        "S": 8,
+        "reference_logQ": 5.572109232040928,
+        "centroid": [
+          4.291764397140222e-14,
+          5.1405228076293685e-15,
+          -7.834015922585852e-15
+        ],
+        "centroid_inf": 4.291764397140222e-14,
+        "merit": 5.572109232046517,
+        "min_ref_guard": 1.0009847427013311e-08,
+        "min_noncontact": 1.6723138462904075e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 71.86087703704834
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 25,
+        "referenceU": 1,
+        "referenceS": 7,
+        "U": 1,
+        "S": 7,
+        "reference_logQ": 5.5644401869660784,
+        "centroid": [
+          6.602357728578927e-17,
+          3.0546908424225163e-15,
+          3.120714419708306e-15
+        ],
+        "centroid_inf": 3.120714419708306e-15,
+        "merit": 5.564440186966703,
+        "min_ref_guard": 6.711441464112279e-06,
+        "min_noncontact": 2.3840267997510267e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 100.13739013671875
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 30,
+        "referenceU": 1,
+        "referenceS": 13,
+        "U": 1,
+        "S": 13,
+        "reference_logQ": 5.560605134290199,
+        "centroid": [
+          3.3407530642377166e-15,
+          8.336477343433775e-15,
+          5.017731875139653e-15
+        ],
+        "centroid_inf": 8.336477343433775e-15,
+        "merit": 5.560605134291869,
+        "min_ref_guard": 3.942261693216044e-06,
+        "min_noncontact": 2.948196714425144e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 135.21555614471436
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 35,
+        "referenceU": 1,
+        "referenceS": 12,
+        "U": 1,
+        "S": 12,
+        "reference_logQ": 5.557853226202323,
+        "centroid": [
+          9.639651693568494e-16,
+          -2.130407040953037e-15,
+          8.847351554371084e-16
+        ],
+        "centroid_inf": 2.130407040953037e-15,
+        "merit": 5.557853226202721,
+        "min_ref_guard": 2.167223920788579e-06,
+        "min_noncontact": 3.192451196398771e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 179.73036408424377
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 40,
+        "referenceU": 1,
+        "referenceS": 13,
+        "U": 1,
+        "S": 13,
+        "reference_logQ": 5.5548861217252545,
+        "centroid": [
+          0.0,
+          -7.923184996510079e-17,
+          -2.6410616655033597e-17
+        ],
+        "centroid_inf": 7.923184996510079e-17,
+        "merit": 5.554886121725265,
+        "min_ref_guard": 1.1712670473611155e-06,
+        "min_noncontact": 3.2903728479638517e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 232.57032322883606
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 45,
+        "referenceU": 1,
+        "referenceS": 12,
+        "U": 1,
+        "S": 12,
+        "reference_logQ": 5.551555734510259,
+        "centroid": [
+          -1.0564775101730928e-16,
+          6.426904853552981e-16,
+          9.728397072843896e-16
+        ],
+        "centroid_inf": 9.728397072843896e-16,
+        "merit": 5.551555734510432,
+        "min_ref_guard": 7.341389067099239e-07,
+        "min_noncontact": 3.1203059968065716e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 284.9677040576935
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 50,
+        "referenceU": 1,
+        "referenceS": 13,
+        "U": 1,
+        "S": 13,
+        "reference_logQ": 5.549056352565372,
+        "centroid": [
+          2.861275161552234e-17,
+          -6.162746501804812e-17,
+          1.6287258611912716e-16
+        ],
+        "centroid_inf": 1.6287258611912716e-16,
+        "merit": 5.549056352565397,
+        "min_ref_guard": 5.31260947753504e-07,
+        "min_noncontact": 3.1971162193222824e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 342.04622197151184
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 55,
+        "referenceU": 1,
+        "referenceS": 13,
+        "U": 1,
+        "S": 13,
+        "reference_logQ": 5.546703895266192,
+        "centroid": [
+          4.622123944657635e-17,
+          -7.043236487097349e-17,
+          1.7167888937299788e-16
+        ],
+        "centroid_inf": 1.7167888937299788e-16,
+        "merit": 5.54670389526622,
+        "min_ref_guard": 3.796394325982348e-07,
+        "min_noncontact": 3.139651682637634e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 395.47166299819946
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 60,
+        "referenceU": 1,
+        "referenceS": 15,
+        "U": 1,
+        "S": 15,
+        "reference_logQ": 5.5445155783157105,
+        "centroid": [
+          3.1473338460070787e-16,
+          -9.508029520804602e-16,
+          1.4966342764229463e-16
+        ],
+        "centroid_inf": 9.508029520804602e-16,
+        "merit": 5.544515578315852,
+        "min_ref_guard": 3.441815566499174e-07,
+        "min_noncontact": 3.185822422313578e-06,
+        "trust": 0.040455577357079074,
+        "seconds": 454.3858962059021
+      }
+    }
+  ]
+}

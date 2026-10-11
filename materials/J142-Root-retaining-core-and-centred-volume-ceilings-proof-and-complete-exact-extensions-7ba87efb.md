@@ -1,0 +1,172 @@
+# material-7ba87efb4db0
+
+Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
+
+Public derivative: internal-record-identifiers-replaced.
+
+---
+
+# J142 — stronger finite root-retaining mass constraints and global volume ceilings
+
+No new own110 construction is claimed. The canonical C622 remains unchanged. These results concern the exact LOW62 own-centred rays and root-normalized all-path radial envelopes at raw roots9 and45. They do not exclude other roots, new directions, a changed origin, or arbitrary larger radial changes.
+
+## 1. Root-retaining mandatory core
+The signed-moment inclusion proof and all-policy envelope argument are fully preserved in [internal-source-reference]. Its self-contained exact three-file recovery is [internal-source-reference]. Write Hminus/Hplus for downward/upward10^12-rounded envelopes of the exact all-path potentials p_i. Every candidate K=conv{a_i R_i} with actual uniform centroid0, unique strict U=root r, no weakU, and a_r=1 satisfies a_i<=p_i. If every k_i=a_i/p_i>=alpha, then not only alpha Hminus subset K subset Hplus, but also
+
+Balpha=conv(alpha Hminus,R_r) subset K subset Hplus.
+
+The fixed root cannot be removed or contracted under this root normalization. Consequently
+
+integral_K n.x dx >= Jplus(Balpha)-Jminus(Hplus).
+
+A positive exact right side contradicts actual centroid0, irrespective of the candidate's facet structure and retirement of any other input. This retains the mandatory root and is stronger than the simple homothetic-shell test.
+
+For raw root9, alpha=566091/1000000 and n=(-277986,16767,-960439)/10^6 give exact gap in(252803,252804)/10^12>0. Thus at least one envelope radius contracts by MORE THAN433909/1000000=43.3909%. The mandatory core has57/165/110, volume approximately.836571341097 and nonzero centroid; it is a certificate subbody, not the sought own110 construction.
+
+For raw root45, alpha=587061/1000000 and n=(-13869,663026,748468)/10^6 give exact gap in(64253,64254)/10^12>0. Thus some radius contracts by MORE THAN412939/1000000=41.2939%. Its mandatory core has53/153/102, volume approximately.243934862522. Neither threshold is asserted optimal or sufficient for existence. These statements strengthen rather than contradict the earlier simpler33.5762%/36.8197% bounds.
+
+The numerical nomination also tried adjoining reflected cores -B/3. It nominated the same alpha and positive-moment separator for each root. That numerical equality is not a general theorem that reflection never improves the test; the present exact certificates need only the unreflected root-retaining cores.
+
+## 2. Reuse of the J75 maximum-volume-centred-cap principle
+For ANY origin-centred measurable K subset H, and any lambda in R3,
+
+V(K)=integral_K(1+lambda.x) <= F_H(lambda)=integral_H max(1+lambda.x,0).
+
+This is a global volume ceiling even without convexity or a radial policy. When0 is interior to H, F is convex and coercive because an interior ball contributes a positive part growing uniformly with |lambda|. Differentiating under the integral gives the actual first moment of the cap H intersect {1+lambda.x>=0}. An exact minimizer therefore produces a convex centred cap, and that cap attains the volume bound. This is the earlier J75 principle, not a newly discovered general theorem. Its application to the current all-path envelopes is new here.
+
+No numerical optimizer status is needed for a rational dual certificate. With Htrue between Hminus and Hplus,
+
+V(K)/V(Htrue) <= F_Hplus(lambda)/V(Hminus).
+
+Frozen rational lambda vectors give the following EXECUTED exact ceilings:
+
+root9 lambda=(643751030,-223228729,2126335293)/10^9. The ratio is strictly between607965825305/10^12 and607965825306/10^12, hence below303983/500000=.607966. Every centred subbody of Htrue must remove MORE THAN196017/500000=39.2034% of its volume.
+
+root45 lambda=(214760518,-3086913223,-2993440654)/10^9. The ratio lies strictly between537151163828/10^12 and537151163829/10^12, hence below67144/125000=.537152. Every centred subbody must remove MORE THAN7232/15625=46.2848% of its volume.
+
+Both nominated rational halfspace caps discard their original root:1+lambda.R_root is approximately-2.151987198697 and-1.182049328722. The volume dual remains valid for all centred subbodies, including those retaining the root, but these particular caps cannot themselves realize the specified root-retaining candidate. The rational caps are not asserted exactly centred. Numerical minimization gave very small centroid residuals, not an exact own-class certificate or a certified global optimum.
+
+For exact integration of a positive affine functional over a tetrahedron of volume v with vertex heights h0,...,h3, the result is v/4 times sum_{hi>0} hi^4/product_{j!=i}(hi-hj) when heights are distinct. This follows by successive barycentric integration of the positive-part linear function; the divided-difference identity is the symmetric form of the resulting antiderivative. If all heights are nonnegative it reduces to v*sum(hi)/4. The executed fixed recipes have no repeated mixed-sign height; the code explicitly rejects that unsupported case instead of dividing by zero. It does not claim a general repeated-height implementation. Hulls, exact centroid, Bellman caps and all integrals use the same complete standard-library source as the first J142 certificate.
+
+## 3. Recovery and observed identities
+Required dependency: ALL THREE FILE blocks of [internal-source-reference] (literal2182-byte LOW62 input, RECIPE142.json, exact142.py). Save the two complete extension blocks below in that directory. Run with assertions enabled:
+
+python -B -S exactcore142.py
+python -B -S volume142.py
+
+The programs recompute the actual parent centroid, exact all-path potentials and complete integer supporting facets. They do not read an old sandbox output or use a numerical geometry oracle. Observed CPython3.13.5.
+
+exactcore142.py:2893B,SHA2566dec210345331b7a7de8b73e3ca6bef9118c82b6b271fc44f73ab8a4f6645ef6.
+volume142.py:3428B,SHA256ee33b53d1a43cfe38b38fc0fb34b40f11eb96dc5462ce5b6cfa12b0df3ced235. A descriptive calibration comment was corrected after execution; executable code was unchanged.
+CORE142_EXACT.json:39315B,SHA256da2cbae123cfeb8e1a1834f9b05cc1f03750a8a0025696c8998379032fa5db34.
+VOLUME142_EXACT.json:23024B,SHA2568246bd9130665e41e44f34de122a6c312c54f9853c56bfc73c1ad28768e7c7e0.
+
+Terminal markers:
+J142_ROOT_RETAINED_CORE_FINITE_MASS_EXCLUSION for9/45;
+J142_BOTH_ROOT_RETAINED_CORE_EXCLUSIONS_EXACT_PASS_NO_110;
+J142_CENTRED_SUBBODY_VOLUME_CEILING_EXACT for9/45;
+J142_BOTH_CENTRED_VOLUME_CEILINGS_EXACT_PASS_NO_110.
+
+## FILE exactcore142.py
+```python
+"""Exact stronger root-retaining core certificates.
+Requires the three-file exact142 recovery in this directory. Does not use
+numerical optimization or numerical hull proposals. Root labels are raw.
+"""
+from exact142 import Q,Path,json,hashlib,lcm,hull,mass,positive_moment,cross,sub,dot,interval,exactpaths
+
+RECIPES={9:dict(alpha='566091/1000000',n=[-277986,16767,-960439]),45:dict(alpha='587061/1000000',n=[-13869,663026,748468])}
+
+def main():
+    raw=Path('QW49J_LOW62_G9_INPUT.json').read_bytes()
+    assert hashlib.sha256(raw).hexdigest()=='90cc88f1a89396ed5cbe20e84cb4fc8265ae1b4170cc2d5bf245c024d4c4662e'
+    inp=json.loads(raw);Y=inp['rows'];D=inp['denominator'];F,cnt=hull(Y);V,M=mass(Y,D,F);g=[v/V for v in M]
+    RD=lcm(D,*[v.denominator for v in g]);R=[[v*(RD//D)-int(g[a]*RD)for a,v in enumerate(x)]for x in Y]
+    recipe=json.loads(Path('RECIPE142.json').read_text());PD=10**12;answer={}
+    for root,r in RECIPES.items():
+        p=exactpaths(R,recipe['roots'][str(root)]['parent'],root)
+        low=[v.numerator*PD//v.denominator for v in p];high=[-((-v.numerator*PD)//v.denominator)for v in p]
+        assert all(Q(a,PD)<=v<=Q(b,PD)for a,v,b in zip(low,p,high))
+        alpha=Q(r['alpha']);a=alpha.numerator;b=alpha.denominator;n=r['n']
+        Z=[[s*x for x in point]for s,point in zip(high,R)];ZD=RD*PD;FZ,cZ=hull(Z)
+        vv,mm=mass(Z,ZD,FZ);jp=positive_moment(Z,ZD,FZ,n);jm=jp-dot(n,mm)/10**6
+        # conv(alpha Hminus,unscaled root). All coordinates share denominator b*RD*PD.
+        B=[[a*s*x for x in point]for s,point in zip(low,R)]+[[b*PD*x for x in R[root]]];BD=b*RD*PD
+        FB,cB=hull(B)
+        # Independent exact containment and strict interior checks.
+        for f in FZ:
+            normal=cross(sub(Z[f[1]],Z[f[0]]),sub(Z[f[2]],Z[f[0]]));h=dot(normal,Z[f[0]])
+            assert h>0 and all(dot(normal,x)<=b*h for x in B)
+        for f in FB:
+            normal=cross(sub(B[f[1]],B[f[0]]),sub(B[f[2]],B[f[0]]));assert dot(normal,B[f[0]])>0
+        vb,mb=mass(B,BD,FB);jb=positive_moment(B,BD,FB,n);gap=jb-jm;assert gap>0
+        answer[str(root)]=dict(alpha=str(alpha),epsilon=str(1-alpha),separator=n,separator_denominator=10**6,
+            outer=dict(counts=cZ,faces=FZ,volume=str(vv),centroid=[str(t/vv)for t in mm],Jminus=str(jm),p_grid=high),
+            core=dict(counts=cB,faces=FB,volume=str(vb),centroid=[str(t/vb)for t in mb],Jplus=str(jb),p_grid=low),
+            gap=str(gap),gap_interval=interval(gap))
+        print('J142_ROOT_RETAINED_CORE_FINITE_MASS_EXCLUSION',root,'epsilon',str(1-alpha),'gap',float(gap),'interval',interval(gap),'counts',cB,flush=True)
+    raw=(json.dumps(answer,sort_keys=True,separators=(',',':'))+'\n').encode();Path('CORE142_EXACT.json').write_bytes(raw)
+    print('J142_BOTH_ROOT_RETAINED_CORE_EXCLUSIONS_EXACT_PASS_NO_110',len(raw),hashlib.sha256(raw).hexdigest(),flush=True)
+if __name__=='__main__':main()
+```
+
+## FILE volume142.py
+```python
+"""Exact volume ceilings for centred subbodies of both radial envelopes.
+Complete exact142 recovery is the only dependency. A rational affine positive-
+part functional is a rigorous dual, irrespective of its numerical nomination.
+"""
+from exact142 import Q,Path,json,hashlib,lcm,hull,mass,exactpaths,det,tetrahedra,interval,dot
+RCP={9:dict(lam=[643751030,-223228729,2126335293],ceiling='303983/500000'),45:dict(lam=[214760518,-3086913223,-2993440654],ceiling='67144/125000')}
+
+def positive_affine(Z,D,F,lam,LD=10**9):
+    total=Q(0)
+    for f in tetrahedra(F):
+        v=Q(det(*[Z[i]for i in f]),6*D**3);assert v>0
+        hs=[Q(1)]+[1+Q(dot(lam,Z[i]),D*LD)for i in f]
+        if min(hs)>=0:term=sum(hs)
+        elif max(hs)<=0:term=Q(0)
+        else:
+            assert len(set(hs))==4,'Use confluent divided differences for repeated heights'
+            term=Q(0)
+            for i,h in enumerate(hs):
+                if h<=0:continue
+                d=Q(1)
+                for j,k in enumerate(hs):
+                    if j!=i:d*=h-k
+                term+=h**4/d
+        assert term>=0
+        total+=v*term/4
+    return total
+
+def main():
+    raw=Path('QW49J_LOW62_G9_INPUT.json').read_bytes()
+    assert hashlib.sha256(raw).hexdigest()=='90cc88f1a89396ed5cbe20e84cb4fc8265ae1b4170cc2d5bf245c024d4c4662e'
+    x=json.loads(raw);Y=x['rows'];D=x['denominator'];F,_=hull(Y);V,M=mass(Y,D,F);g=[v/V for v in M]
+    RD=lcm(D,*[v.denominator for v in g]);R=[[v*(RD//D)-int(g[a]*RD)for a,v in enumerate(row)]for row in Y]
+    recipe=json.loads(Path('RECIPE142.json').read_text());PD=10**12;out={}
+    # Calibration: the constant affine function 1 integrates to tetrahedral volume.
+    C=[[1,0,0],[0,1,0],[0,0,1]]
+    assert positive_affine(C,1,[[0,1,2]],[0,0,0],1)==Q(1,6)
+    for root,r in RCP.items():
+        p=exactpaths(R,recipe['roots'][str(root)]['parent'],root)
+        low=[v.numerator*PD//v.denominator for v in p];high=[-((-v.numerator*PD)//v.denominator)for v in p]
+        assert all(Q(a,PD)<=v<=Q(b,PD)for a,v,b in zip(low,p,high))
+        ZD=RD*PD;vols={};faces={};hulls={}
+        for name,scales in [('inner',low),('outer',high)]:
+            Z=[[s*v for v in row]for s,row in zip(scales,R)];FF,counts=hull(Z);vv,mm=mass(Z,ZD,FF)
+            vols[name]=vv;faces[name]=FF;hulls[name]=Z
+        bound=positive_affine(hulls['outer'],ZD,faces['outer'],r['lam'])
+        ratio=bound/vols['inner'];ceiling=Q(r['ceiling']);gap=ceiling*vols['inner']-bound
+        assert gap>0
+        oldrootheight=1+Q(dot(r['lam'],R[root]),RD*10**9);assert oldrootheight<0
+        out[str(root)]=dict(lambda_numerator=r['lam'],lambda_denominator=10**9,
+            volume_dual=str(bound),volume_upper_ratio=str(ratio),ratio_interval=interval(ratio),
+            rational_ceiling=str(ceiling),ceiling_gap=str(gap),gap_interval=interval(gap),
+            mandatory_removed_fraction=str(1-ceiling),old_root_cap_value=str(oldrootheight),
+            inner_volume=str(vols['inner']),outer_volume=str(vols['outer']))
+        print('J142_CENTRED_SUBBODY_VOLUME_CEILING_EXACT',root,'ratio interval',interval(ratio),'removed>',str(1-ceiling),'root cap',float(oldrootheight),flush=True)
+    b=(json.dumps(out,sort_keys=True,separators=(',',':'))+'\n').encode();Path('VOLUME142_EXACT.json').write_bytes(b)
+    print('J142_BOTH_CENTRED_VOLUME_CEILINGS_EXACT_PASS_NO_110',len(b),hashlib.sha256(b).hexdigest(),flush=True)
+if __name__=='__main__':main()
+```

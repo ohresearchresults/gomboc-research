@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "scope": "clean row54 compensating-flip cell complete four-death guarded LP",
+  "baseline": {
+    "coordinates": "tracks/circuit_atlas/row54_multiwall_flip.csv",
+    "f_vector": [
+      61,
+      162,
+      103
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "topology_margin": 2.759039411867614e-10,
+    "stable_faces": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54
+      ],
+      [
+        198,
+        243,
+        244
+      ]
+    ],
+    "unstable_vertices": [
+      2,
+      8
+    ],
+    "saddle_edges": [
+      [
+        4,
+        5
+      ],
+      [
+        12,
+        13
+      ]
+    ]
+  },
+  "bound": 20.0,
+  "trust": null,
+  "fd_step": 1e-08,
+  "modes": 175,
+  "local_rows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    11,
+    12,
+    13,
+    14,
+    54,
+    69,
+    88,
+    198,
+    224,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    248,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264
+  ],
+  "primitive_rows": 7255,
+  "guard_rows": 6301,
+  "atlas_total_branches": 144,
+  "branch_mod": 144,
+  "branch_rem": 90,
+  "solver_method": "highs-ipm",
+  "finite_difference_failures": [],
+  "atlas": [
+    {
+      "branch_index": 90,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)"
+    }
+  ]
+}

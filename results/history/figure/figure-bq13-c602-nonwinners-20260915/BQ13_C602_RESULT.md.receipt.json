@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-15T14:28:07.705Z",
+  "file": "BQ13_C602_RESULT.md",
+  "bytes": 146570,
+  "sha256": "1775862984f77c629a23a01a3c8c07866ce839a64040e0cd013d9d2dff1f6fcd",
+  "sourceConversation": "6aa27af0-0214-83eb-a52c-6116854e32f9",
+  "sourceMessage": "2e3bbbed-a4a6-4710-b595-a4416b3ffafb",
+  "method": "Exact observed sandbox download through authenticated same-origin endpoint, no redirects; author byte/hash pins and local readback verified"
+}

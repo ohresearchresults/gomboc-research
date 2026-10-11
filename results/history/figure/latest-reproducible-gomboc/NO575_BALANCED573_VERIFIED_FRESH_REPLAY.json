@@ -1,0 +1,122 @@
+{
+  "manifest_entries": 21,
+  "first": {
+    "status": "EXACT_RATIONAL_GOMBOC_PASS",
+    "vertices": 573,
+    "triangles": 1142,
+    "triangulated_edges": 1713,
+    "true_edges": 1712,
+    "maximal_faces": 1141,
+    "C": 3424,
+    "coplanar_diagonals": 1,
+    "class_SHU": [
+      1,
+      0,
+      1
+    ],
+    "class_SUH": [
+      1,
+      1,
+      0
+    ],
+    "degenerate_equilibria": 0,
+    "zero_true_edge_primitives": 0,
+    "centroid": [
+      0,
+      0,
+      0
+    ],
+    "volume_numerator": "849588708163932468424639279843994138590536",
+    "volume_denominator": "6000000000000000000000000000000000000000000",
+    "centred_denominator": "169917741632786493684927855968798827718107200000000000000",
+    "stable_cycle": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "unstable_vertex": 572,
+    "unstable_degree": 22,
+    "stable_x_numerator": "-46591891930798156978728335701165131538621213554693921803",
+    "unstable_x_numerator": "67655952112694226096543692333488201481959245033415502197",
+    "radial_ray": [
+      5,
+      7,
+      19
+    ],
+    "unique_ray_triangle": 286,
+    "all_vertex_links_single_cycles": true,
+    "all_vertices_rank3": true,
+    "global_insphere_unique_equality": true,
+    "global_maximum_radius_unique": true,
+    "all_pairs_exact_support_tests": 653793,
+    "minimum_nonzero_hinge_numerator": "12108104786169482163891509000000",
+    "minimum_vertex_predicate": "5549986847823553515469894546169523934023248997319555376017821813060579828162342323630747336336557632",
+    "minimum_face_side_predicate": "63895394897794519405108544582850179885223600246614203082109409745921902537923167311124196679238191011096567629884736966891520",
+    "elapsed": 0.4100790023803711
+  },
+  "second": {
+    "status": "INDEPENDENT_EXACT_AUDIT_PASS",
+    "vertices": 573,
+    "triangles": 1142,
+    "triangulated_edges": 1713,
+    "maximal_faces": 1141,
+    "true_edges": 1712,
+    "coplanar_diagonals_recomputed": 1,
+    "strict_local_convexity_edges": 1712,
+    "euler_characteristic": 2,
+    "rational_input": true,
+    "centroid_x_exactly_zero": true,
+    "centroid_yz_identically_zero": true,
+    "oriented_volume_positive": true,
+    "closed_oriented_two_manifold": true,
+    "connected_vertices": 573,
+    "single_cycle_vertex_links": 573,
+    "positive_radial_triangles": 1142,
+    "independent_radial_ray": [
+      3,
+      11,
+      17
+    ],
+    "independent_radial_degree": 1,
+    "all_maximal_face_boundaries_single_cycles": true,
+    "stable_face_boundary_cycle_length": 4,
+    "vertices_with_exact_rank3_normal_cone": 573,
+    "independently_recomputed_exact_equilibrium_class": [
+      1,
+      1,
+      0
+    ],
+    "artifact_sha256": {
+      "vertices.csv.gz": "7d39d28daef7342bd39efaf9b4d8c8e98bace2dad216528fa1c65254e2c890db",
+      "triangles.csv.gz": "2b344a2b2d00089b08712cd83aeb30e31990beb60ace2dee0019a74b3617ce85",
+      "definition.json": "02bfeda27786feb0c2768625b36000bc95dbae9096d34abd17f04f7755030d5a"
+    }
+  },
+  "exact_ascent": {
+    "status": "EXACT_FIXED_BODY_RADIAL_ASCENT_GRAPH_PASS",
+    "vertices": 573,
+    "base_ranks": [
+      100,
+      101,
+      100,
+      101
+    ],
+    "maximum_rank": 132,
+    "all_vertices_reach_apex": true,
+    "integer_dot_tests": 159445,
+    "centred_table_sha256": "7d39d28daef7342bd39efaf9b4d8c8e98bace2dad216528fa1c65254e2c890db",
+    "elapsed": 0.12624406814575195,
+    "scope": "One unchanged exactly centred table. No bound for coordinate changes or a range of reference centres."
+  },
+  "exact_translation_invariance": true,
+  "rejected_fixtures": [
+    "reversed_triangle",
+    "open_surface",
+    "corrupt_centred_vertex",
+    "corrupt_raw_vertex",
+    "false_centroid_multiplier"
+  ],
+  "status": "EXACT_NO575_BALANCED573_VERIFIED_PACKAGE_FRESH_REPLAY_PASS",
+  "elapsed": 2.737830877304077
+}

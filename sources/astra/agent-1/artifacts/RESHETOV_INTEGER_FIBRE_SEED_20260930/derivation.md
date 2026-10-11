@@ -1,0 +1,8 @@
+# Rational partial fibre-centering family
+For a convex body centred at its uniform volume centroid, choose a nonzero fibre direction v. Let its fibre be [l(y),u(y)] over y perpendicular to v. For 0<=tau<=2, replace the fibre by [l-tau*(u+l)/2,u-tau*(u+l)/2]. Its width is unchanged. Its midpoint is (1-tau)*(u+l)/2. Thus the transverse first moments and volume remain unchanged, and the axial first moment is multiplied by1-tau. An original zero centroid therefore remains exactlyzero.
+
+The upper endpoint is (1-tau/2)u-(tau/2)l, a sum of concave functions with nonnegative coefficients. The lower endpoint is (1-tau/2)l-(tau/2)u, a sum of convex functions. This proves convexity throughout0<=tau<=2. Tau0 is the originalbody, tau1 full Steiner centering, and tau2 its orthogonal reflection. The secondhalf of the interval is isometric to the firsthalf, so the search uses0<tau<=1.
+
+For each upper/lower support pair, substitute their affine endpoint functions into these expressions. steiner_centroid_goal.py supplies both resulting linear inequalities and retains every parallel support. This defines the complete polyhedron. Rational normals, rational centroid, rational direction and rational tau give rational physical halfspaces. No density is changed. A successful numeric nomination still needs a complete exact same-body hull, uniform mass and strict/weak equilibrium audit.
+
+The14integer normals are read from the pinned public primary-source verify_reshetov.py, whose literal equations are n_i.x<=n_i.n_i. This exact integer source is distinguished from the author's separately certified dyadicnpz. The local exact integration is needed to centre this new rationalconstruction; no new small-bound claim is made for the source.

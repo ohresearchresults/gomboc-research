@@ -1,0 +1,1 @@
+First proposal generated, but trace serialization rejected a numpy boolean before any optimizer step. Fixed by explicit bool conversion. Same deterministic proposals resumed in c622_strict_contact_coarsening_v2. This was a producer error, not a geometric negative result.

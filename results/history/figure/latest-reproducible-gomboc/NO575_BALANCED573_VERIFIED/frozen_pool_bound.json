@@ -1,0 +1,13 @@
+{
+  "status": "EXACT_SCOPED_C2_FROZEN_POOL_BOUND_PASS",
+  "vertices": 573,
+  "axis_fixed_indices": [
+    572
+  ],
+  "max_base_distance": 101,
+  "minimum_retained_vertices": 203,
+  "minimum_C_if_only_base_quadrilateral": 1204,
+  "target_C_below1000_requires_distance_at_most": 83,
+  "scope": "Same exact centre and unchanged coordinate pool; C2-invariant subpolytope retaining all four base vertices and this unique apex; strict unique-unstable mechanics. The C bound additionally assumes all nonbase maximal faces are triangles. Coordinate or centroid motion, changing the critical cap, or new nonsimplicial faces are NOT excluded.",
+  "proof": "Every nonapex vertex of a strict unique-unstable subpolytope has a positive radial-dot neighbour. Such a dot strictly increases squared radius, so its finite witness path reaches the apex. Its length is at least the full-pool reverse-BFS distance. A path and its half-turn image cannot intersect away from the apex: intersection would put two equal-radius half-turn partners on one strictly radius-increasing path. Thus a base path of length d and its image require at least2d+1 distinct retained vertices. If the only nonsimplicial maximal face is the quadrilateral base, Euler and face-edge incidence give E=3V-7, hence C=6V-14>=12d-8. To have C<1000 in that stratum, d<=83 is necessary."
+}

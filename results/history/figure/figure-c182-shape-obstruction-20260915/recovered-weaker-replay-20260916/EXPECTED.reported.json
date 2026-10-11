@@ -1,0 +1,55 @@
+{
+  "environment": "CPython 3.13.5; standard library only; assertions enabled",
+  "inputs": {
+    "raw.json": {
+      "bytes": 11449,
+      "sha256": "3a3d80e75979c004f995115dd4bfb491560af0f661af0840c6868f3b5f046d86"
+    },
+    "core/check_A.py": {
+      "bytes": 5483,
+      "sha256": "ad72cc198140249c1e52a615513354036c04f4c718333a7beed64fba4b43d7f3"
+    },
+    "core/check_B.py": {
+      "bytes": 6351,
+      "sha256": "b0cb62d5486b32d020b60f717f3dfe9d07c6c9a978492928f54c3a38f396fc24"
+    },
+    "core/centred_mass.py": {
+      "bytes": 1398,
+      "sha256": "5f1afafa0432436bfe953a94d94ca1027c12549504f9452491f0287c2a29d1a8"
+    },
+    "exact_shape_gate.py": {
+      "bytes": 3698,
+      "sha256": "5d9368939a25ac0e0063f6ad581fcf32ce223a2ea9053314f40a5944a4aa37f4"
+    },
+    "SHAPE_PROOF.md": {
+      "bytes": 6470,
+      "sha256": "c641189740ee0b56d968ce73514fb8b72d6ce75ac0e9cb89e6a5774fc8739802"
+    },
+    "REPLAY.py": {
+      "bytes": 1857,
+      "sha256": "f4e0aba83045d574e6887845c1c62a69184b5413854b2c758d2b80613bf01dee"
+    },
+    "README.md": {
+      "bytes": 1657,
+      "sha256": "cd2e5da09240114fce6407b290c4d282d405a507341c106460039759147ff8f5"
+    }
+  },
+  "outputs": {
+    "A.json": {
+      "bytes": 51790,
+      "sha256": "caf78ccee9abec82174d346227b2da7d99a13b823c88a4ef405e3e8cb9d1967d"
+    },
+    "B.json": {
+      "bytes": 51790,
+      "sha256": "caf78ccee9abec82174d346227b2da7d99a13b823c88a4ef405e3e8cb9d1967d"
+    },
+    "MASS.json": {
+      "bytes": 221,
+      "sha256": "e05b0749c4747730c145f92b3f8911831a13b719f2c88df6297eea2e37b68798"
+    },
+    "GATE.json": {
+      "bytes": 1041,
+      "sha256": "00e30a736a549a65c03544ecdb5bf3efcb8bb91d534a9ee077b394cd18f7ccbc"
+    }
+  }
+}

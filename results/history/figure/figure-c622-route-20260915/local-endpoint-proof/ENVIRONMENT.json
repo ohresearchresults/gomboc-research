@@ -1,0 +1,10 @@
+{
+  "executable": "/opt/homebrew/opt/python@3.13/bin/python3.13",
+  "version": "3.13.14 (main, Jun 10 2026, 12:24:04) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "command": "nice -n 10 python3 -u -B -S verify-endpoint.py",
+  "execution": "Sequential A then B, third centred-mass integration and tiny fixtures. Source generator was independently restored from the verified compact input; downloaded A/B files were comparison targets, not audit inputs.",
+  "authorExactEnvironment": "Python 3.13.5 standard library",
+  "versionBoundary": "Local Python 3.13.14 produced byte-identical pinned geometry/mechanics outputs. No numerical NumPy/SciPy discovery replay was executed."
+}

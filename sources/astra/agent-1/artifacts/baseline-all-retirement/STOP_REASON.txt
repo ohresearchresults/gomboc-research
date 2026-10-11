@@ -1,0 +1,1 @@
+This branch duplicated the six leading nonapex proposals already running in baseline-apex-retirement. Stopped its own process to avoid duplicate scientific computation. A distinct apex-only retirement experiment follows; no goal stop.

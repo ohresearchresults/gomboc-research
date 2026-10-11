@@ -1,0 +1,25 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "DELETE_NUM211",
+      "values": {
+        "deleted": 4,
+        "V": 157,
+        "F": 84,
+        "E": 239,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10379059297822844,
+        "centroid": [
+          -4.200612147030708e-10,
+          4.66749632537074e-10,
+          5.30593103049836e-10
+        ]
+      }
+    }
+  ]
+}

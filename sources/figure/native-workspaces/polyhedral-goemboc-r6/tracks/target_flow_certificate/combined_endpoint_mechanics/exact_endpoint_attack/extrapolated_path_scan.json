@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "scope": "sampled first-event locator beyond exact U54 material endpoint",
+  "discovery_only": true,
+  "path_polynomial_digest": "cbf92050ca4336e928219d25dff3044734ee3dce1bf1dfec35fa8d174b43fa60",
+  "scan": {
+    "start": 1.0,
+    "maximum": 5.0,
+    "step": 0.001,
+    "sample_count": 15,
+    "minimum_topology_margin": 1.7114850706804266e-11,
+    "minimum_selected_decisions": {
+      "S_quad": 0.00815943266422494,
+      "U54": 0.22803338235779436,
+      "H67": 0.4121711806359812,
+      "H910": 0.11709974331592643
+    }
+  },
+  "endpoint": {
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "stable_faces": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54
+      ],
+      [
+        7,
+        8,
+        245,
+        246
+      ]
+    ],
+    "unstable_vertices": [
+      8,
+      54
+    ],
+    "saddle_edges": [
+      [
+        6,
+        7
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    "topology_margin": 9.612901981180607e-10,
+    "inactive_margin": 0.002341941453832482,
+    "base_present": true,
+    "quad_present": true,
+    "u8_present": true,
+    "all_rails_present": true,
+    "selected_decisions": {
+      "S_quad": 0.008159957892706224,
+      "U54": 0.228084954393287,
+      "H67": 0.4121711806359812,
+      "H910": 0.11709974331592643
+    }
+  },
+  "first_event": {
+    "type": "support_or_incidence",
+    "bracket": [
+      1.0139999999999985,
+      1.0149999999999983
+    ],
+    "left": {
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "stable_faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ],
+        [
+          7,
+          8,
+          245,
+          246
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "topology_margin": 1.7114850706804266e-11,
+      "inactive_margin": 0.002349818041434833,
+      "base_present": true,
+      "quad_present": true,
+      "u8_present": true,
+      "all_rails_present": true,
+      "selected_decisions": {
+        "S_quad": 0.008159467650825066,
+        "U54": 0.2280368215651418,
+        "H67": 0.4121740863658141,
+        "H910": 0.11725989576662599
+      }
+    },
+    "right": {
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "stable_faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ],
+        [
+          7,
+          8,
+          245,
+          246
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "topology_margin": 5.767736646138943e-11,
+      "inactive_margin": 0.00235038056232316,
+      "base_present": true,
+      "quad_present": true,
+      "u8_present": true,
+      "all_rails_present": true,
+      "selected_decisions": {
+        "S_quad": 0.00815943266422494,
+        "U54": 0.22803338235779436,
+        "H67": 0.41217429329164307,
+        "H910": 0.1172713338551239
+      }
+    },
+    "removed_faces": [
+      [
+        69,
+        228,
+        237
+      ],
+      [
+        69,
+        228,
+        255
+      ]
+    ],
+    "added_faces": [
+      [
+        69,
+        237,
+        255
+      ],
+      [
+        228,
+        237,
+        255
+      ]
+    ]
+  },
+  "conclusion": "first actual event bracketed; exact isolation required"
+}

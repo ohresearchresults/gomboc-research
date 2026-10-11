@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "phase": "birth",
+  "source_sha256": "7f16c070aeba30199758815215774877bf759554d5dca1c6d875b85f27c8b94d",
+  "endpoint_sha256": "2ab419da49a2831cc29acb75bbaa739b71ca4a8996f666e872740d177fc11e01",
+  "first_exact_blocker": "AssertionError(('non-target primitive not strict', 'face_raw:(228, 249, 250):(249, 250)', \"AssertionError(('Bernstein sign not isolated', 11, '922725050759258085/1152921504606846976', '461362525379629043/576460752303423488'))\"))",
+  "verdict": "FAIL_CLOSED_BIRTH_LOCATOR_REJECT"
+}

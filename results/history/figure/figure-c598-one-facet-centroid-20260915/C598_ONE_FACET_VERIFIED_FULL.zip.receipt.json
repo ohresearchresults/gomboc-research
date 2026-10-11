@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-15T16:22:12.431Z",
+  "file": "C598_ONE_FACET_VERIFIED_FULL.zip",
+  "bytes": 1332719,
+  "sha256": "104a74ec283020c69901d7c2152b15a10e01910bb1df49408207197e32d13066",
+  "sourceConversation": "6aa9667e-451c-83eb-9007-fdc0e643b5d3",
+  "sourceMessage": "3f9d9d25-c3af-47cc-99be-065aa9aea8d3",
+  "method": "Observed first-party sandbox download, same-origin authenticated endpoint, no redirects; author hash/length and local byte readback verified"
+}

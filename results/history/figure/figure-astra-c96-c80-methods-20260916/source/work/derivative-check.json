@@ -1,0 +1,66 @@
+{
+  "directions": [
+    {
+      "barrier_observed": 0.24540150467267094,
+      "barrier_predicted": 0.2454014838109882,
+      "maximum_absolute_error": 7.067877793032196e-07
+    },
+    {
+      "barrier_observed": 0.2785187913634246,
+      "barrier_predicted": 0.2785189845809315,
+      "maximum_absolute_error": 6.353129942127111e-07
+    },
+    {
+      "barrier_observed": -0.2773367091535306,
+      "barrier_predicted": -0.27733648182659926,
+      "maximum_absolute_error": 4.833099476742042e-07
+    },
+    {
+      "barrier_observed": 0.3016027427804602,
+      "barrier_predicted": 0.30160267893808956,
+      "maximum_absolute_error": 4.4498580142882105e-07
+    },
+    {
+      "barrier_observed": -0.029742514007224937,
+      "barrier_predicted": -0.02974241044019113,
+      "maximum_absolute_error": 7.919201635564477e-07
+    },
+    {
+      "barrier_observed": -0.15355977600606252,
+      "barrier_predicted": -0.1535598776396292,
+      "maximum_absolute_error": 4.4016442579675186e-07
+    },
+    {
+      "barrier_observed": -0.28230845439125574,
+      "barrier_predicted": -0.28230820268696577,
+      "maximum_absolute_error": 5.102770662124279e-07
+    },
+    {
+      "barrier_observed": -0.28524457795775504,
+      "barrier_predicted": -0.2852446989789938,
+      "maximum_absolute_error": 4.0893888209048157e-07
+    },
+    {
+      "barrier_observed": -0.20515145138233493,
+      "barrier_predicted": -0.20515141791534475,
+      "maximum_absolute_error": 5.118916698299003e-07
+    },
+    {
+      "barrier_observed": 0.2828644263264124,
+      "barrier_predicted": 0.2828644098409864,
+      "maximum_absolute_error": 6.909849288305736e-07
+    },
+    {
+      "barrier_observed": -0.31228158947627094,
+      "barrier_predicted": -0.31228169089080315,
+      "maximum_absolute_error": 5.456469688303045e-07
+    },
+    {
+      "barrier_observed": -0.5247143552988831,
+      "barrier_predicted": -0.5247144683894766,
+      "maximum_absolute_error": 4.892906346753989e-07
+    }
+  ],
+  "input": "work/feasible-lift25/BEST.json",
+  "max_error": 7.919201635564477e-07
+}

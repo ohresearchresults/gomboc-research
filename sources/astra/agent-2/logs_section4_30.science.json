@@ -1,0 +1,117 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "INITIAL_SECTION",
+      "values": {
+        "V": 122,
+        "E": 244,
+        "F": 124,
+        "C": 488,
+        "S": 11,
+        "U": 77,
+        "floor": -0.15705360129975762,
+        "volume": 2.67788860399349,
+        "centroid": [
+          0.007881773264826714,
+          0.004097854912673921,
+          -0.006573055580137083
+        ]
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 122,
+        "E": 244,
+        "F": 124,
+        "C": 488,
+        "S": 11,
+        "U": 77,
+        "floor": -0.15705360129975762,
+        "volume": 2.67788860399349,
+        "centroid": [
+          0.007881773264826714,
+          0.004097854912673921,
+          -0.006573055580137083
+        ],
+        "loss": 9.263702524746236,
+        "tau": 0.1,
+        "calls": 1,
+        "seconds": 0.4955101013183594
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 122,
+        "E": 244,
+        "F": 124,
+        "C": 488,
+        "S": 2,
+        "U": 4,
+        "floor": -0.7378476025704089,
+        "volume": 4060.025914453451,
+        "centroid": [
+          -16.562209947537287,
+          9.08258034239181,
+          0.22850196377501641
+        ],
+        "loss": 6.1900934022101834,
+        "tau": 0.1,
+        "calls": 2,
+        "seconds": 0.500777006149292
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 122,
+        "E": 244,
+        "F": 124,
+        "C": 488,
+        "S": 2,
+        "U": 3,
+        "floor": -0.841848349704735,
+        "volume": 3364.768114477998,
+        "centroid": [
+          -20.374484399918693,
+          16.16817879023418,
+          0.24372709557753414
+        ],
+        "loss": 6.004178297815757,
+        "tau": 0.1,
+        "calls": 5,
+        "seconds": 0.5136358737945557
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 122,
+        "E": 244,
+        "F": 124,
+        "C": 488,
+        "S": 2,
+        "U": 2,
+        "floor": -0.5493595356040586,
+        "volume": 923.1520357632494,
+        "centroid": [
+          -43.117984382032596,
+          21.436961983165705,
+          0.21372434775422408
+        ],
+        "loss": 4.7748152272011595,
+        "tau": 0.1,
+        "calls": 10,
+        "seconds": 0.5331258773803711
+      }
+    }
+  ]
+}

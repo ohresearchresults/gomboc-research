@@ -1,0 +1,22 @@
+{
+  "V": 235,
+  "E": 373,
+  "F": 140,
+  "C": 746,
+  "counts": [
+    1,
+    1,
+    0
+  ],
+  "stable_face_ids": [
+    3
+  ],
+  "unstable_vertices": [
+    124
+  ],
+  "saddles": [],
+  "weak": [],
+  "centroid_matches": true,
+  "volume": 0.4933731182791013,
+  "seconds": 11.263844728469849
+}

@@ -1,0 +1,105 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "EXACT_DETACHED_CAP",
+      "values": {
+        "V": 130,
+        "E": 248,
+        "F": 120,
+        "counts": [
+          5,
+          1,
+          4
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C_2E": 496,
+        "V_plus_E_plus_F": 498,
+        "old_U_index": 63,
+        "new_child_stable_facets": [
+          117
+        ],
+        "children_contain_old_U": [
+          false
+        ],
+        "seconds": 26.573538064956665,
+        "sha256": {}
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "EXACT_DETACHED_CAP",
+      "values": {
+        "V": 130,
+        "E": 248,
+        "F": 120,
+        "counts": [
+          5,
+          1,
+          4
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C_2E": 496,
+        "V_plus_E_plus_F": 498,
+        "old_U_index": 63,
+        "new_child_stable_facets": [
+          117
+        ],
+        "children_contain_old_U": [
+          false
+        ],
+        "seconds": 26.268014192581177,
+        "sha256": {}
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "EXACT_DETACHED_CAP",
+      "values": {
+        "V": 130,
+        "E": 248,
+        "F": 120,
+        "counts": [
+          5,
+          1,
+          4
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C_2E": 496,
+        "V_plus_E_plus_F": 498,
+        "old_U_index": 63,
+        "new_child_stable_facets": [
+          117
+        ],
+        "children_contain_old_U": [
+          false
+        ],
+        "seconds": 33.141984701156616,
+        "sha256": {}
+      }
+    }
+  ]
+}

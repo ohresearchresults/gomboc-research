@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "certificate_sha256": "8f891c386190988bb189c3ed2426e49a3effc48a24c45d8e7786aa6b11785bea",
+  "far_sha256": "01e701bf715a58ee688fa8f9f68614c80ea172c78252790dd832fac0c5cbf165",
+  "primitive_count": 7904,
+  "strict_other_wall_primitives": 7902,
+  "zero_family": [
+    "edge:(249, 250):beta2",
+    "face_raw:(224, 249, 250):(249, 250)"
+  ],
+  "own_centroid_reconstructed": true,
+  "active_rows": 61,
+  "forced_rails": 37,
+  "pre_class": [
+    2,
+    2,
+    2
+  ],
+  "post_class": [
+    2,
+    2,
+    2
+  ],
+  "h910_strictly_negative": true,
+  "far_decisions": {
+    "S": 0.00010925735683881322,
+    "U54": 0.0014428605338155777,
+    "H56": 0.0011968454212627627,
+    "H1011": 4.2667911237683407e-07
+  },
+  "verdict": "INDEPENDENT_EXACT_ROW230_BYPASS_FIRST_MECHANICS_TRANSFER_PASS"
+}

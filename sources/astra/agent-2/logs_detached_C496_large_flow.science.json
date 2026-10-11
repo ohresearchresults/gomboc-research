@@ -1,0 +1,167 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 0,
+        "referenceU": 1,
+        "referenceS": 5,
+        "U": 1,
+        "S": 5,
+        "reference_logQ": 6.365261008508542,
+        "centroid": [
+          -1.1028592453822856e-17,
+          8.822873963058285e-18,
+          4.411436981529142e-18
+        ],
+        "centroid_inf": 1.1028592453822856e-17,
+        "merit": 6.365261008508544,
+        "min_ref_guard": 1.2178437101765533e-05,
+        "min_noncontact": 4.3173322613609955e-06,
+        "trust": 0.01,
+        "seconds": 2.4998719692230225
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 5,
+        "referenceU": 1,
+        "referenceS": 7,
+        "U": 1,
+        "S": 7,
+        "reference_logQ": 5.751790507088273,
+        "centroid": [
+          0.0,
+          -8.811703435756379e-18,
+          3.96526654609037e-17
+        ],
+        "centroid_inf": 3.96526654609037e-17,
+        "merit": 5.751790507088278,
+        "min_ref_guard": 9.999998581401601e-09,
+        "min_noncontact": 1.0011893869510402e-08,
+        "trust": 0.020113571874999996,
+        "seconds": 26.649128913879395
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 10,
+        "referenceU": 1,
+        "referenceS": 9,
+        "U": 1,
+        "S": 9,
+        "reference_logQ": 5.590774394009901,
+        "centroid": [
+          -2.8629833505729604e-17,
+          6.166425678157147e-17,
+          5.2855077241346964e-17
+        ],
+        "centroid_inf": 6.166425678157147e-17,
+        "merit": 5.590774394009915,
+        "min_ref_guard": 9.997930394516445e-09,
+        "min_noncontact": 7.172485039230736e-08,
+        "trust": 0.02660019880468749,
+        "seconds": 70.23391890525818
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 15,
+        "referenceU": 1,
+        "referenceS": 10,
+        "U": 1,
+        "S": 10,
+        "reference_logQ": 5.581393389290457,
+        "centroid": [
+          3.0328348954773235e-15,
+          1.0924372608255283e-15,
+          -9.999324927717537e-16
+        ],
+        "centroid_inf": 3.0328348954773235e-15,
+        "merit": 5.5813933892909695,
+        "min_ref_guard": 9.999990587472712e-09,
+        "min_noncontact": 5.472407460516138e-07,
+        "trust": 0.02660019880468749,
+        "seconds": 123.72462105751038
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 20,
+        "referenceU": 1,
+        "referenceS": 12,
+        "U": 1,
+        "S": 12,
+        "reference_logQ": 5.577986783732454,
+        "centroid": [
+          2.4230315806010994e-17,
+          0.0,
+          6.608267947093907e-17
+        ],
+        "centroid_inf": 6.608267947093907e-17,
+        "merit": 5.577986783732463,
+        "min_ref_guard": 1.000001908889179e-08,
+        "min_noncontact": 6.393308583652058e-07,
+        "trust": 0.02660019880468749,
+        "seconds": 182.0798568725586
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 25,
+        "referenceU": 1,
+        "referenceS": 12,
+        "U": 1,
+        "S": 12,
+        "reference_logQ": 5.574285957899556,
+        "centroid": [
+          -4.405832031600146e-18,
+          -7.049331250560234e-17,
+          1.9385660939040643e-16
+        ],
+        "centroid_inf": 1.9385660939040643e-16,
+        "merit": 5.5742859578995825,
+        "min_ref_guard": 1.0096764603735525e-07,
+        "min_noncontact": 3.3243177766095755e-07,
+        "trust": 0.02660019880468749,
+        "seconds": 244.65660119056702
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 30,
+        "referenceU": 1,
+        "referenceS": 15,
+        "U": 1,
+        "S": 15,
+        "reference_logQ": 5.570801966222199,
+        "centroid": [
+          -1.9828749909029713e-17,
+          -1.586299992722377e-16,
+          1.894747213529506e-16
+        ],
+        "centroid_inf": 1.894747213529506e-16,
+        "merit": 5.570801966222235,
+        "min_ref_guard": 1.532363178898703e-06,
+        "min_noncontact": 1.7561593113057938e-07,
+        "trust": 0.02660019880468749,
+        "seconds": 308.1680099964142
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "at": "2026-09-15T22:13:11.667Z",
+  "root": "/tmp/gomboc-c96-astra-20260916-LYRoKQ",
+  "files": [
+    {
+      "path": "input/POINTS25.json",
+      "bytes": 425,
+      "sha256": "1be5293390fbabf8b86b02805771d0fed82fddd2c61678b58d36c7bab9f93cd8"
+    },
+    {
+      "path": "input/c96/README.md",
+      "bytes": 1483,
+      "sha256": "99fa34fd95ad0d8dce5914d6dc8697c29ff4c3c9aaa16b71a14986a5548acf1f"
+    },
+    {
+      "path": "input/c96/canonical-entry.md",
+      "bytes": 4053,
+      "sha256": "d47acb1f58f245840679becbb92c2735244e5ff9988a73893e33d5eb35ba5c38"
+    },
+    {
+      "path": "input/c96/local-proof/A.json",
+      "bytes": 4305,
+      "sha256": "a6c33c9f089de95cbbe52ebe51ecb4351306575df32f2aced706f62774793093"
+    },
+    {
+      "path": "input/c96/local-proof/B.json",
+      "bytes": 4305,
+      "sha256": "a6c33c9f089de95cbbe52ebe51ecb4351306575df32f2aced706f62774793093"
+    },
+    {
+      "path": "input/c96/local-proof/MASS.json",
+      "bytes": 216,
+      "sha256": "91636c316a2f18f8a79558431e5df4ae000430ff4d6480a692fabbcbcd95f06c"
+    },
+    {
+      "path": "input/c96/local-proof/POINTS.json",
+      "bytes": 582,
+      "sha256": "b49d24fda9620582ca3a011efd07d45a6550aa4e748bdaca32e3f343de822742"
+    },
+    {
+      "path": "input/c96/local-proof/RECEIPT.json",
+      "bytes": 2571,
+      "sha256": "a1a050ed1bf76a719bb410895f059ee64260a0d7ecc33773987a726249186021"
+    },
+    {
+      "path": "input/c96/local-proof/raw.json",
+      "bytes": 951,
+      "sha256": "9071c5c16df9d342e68a97c9720e73b8c52b1317c0531734f14d01a0783c2f43"
+    },
+    {
+      "path": "input/c96/planar25.py",
+      "bytes": 1383,
+      "sha256": "f60b6aa912c78bffc96a70f9273988f829e5f6c8e2ea1d87c3b1e09340da989e"
+    },
+    {
+      "path": "input/journal-materials-1.md",
+      "bytes": 2471908,
+      "sha256": "91f772c82ae976cb70f5bf9d42667e8dafe4bee13d87845364f5e05c49e10b75"
+    },
+    {
+      "path": "input/research-journal.md",
+      "bytes": 4000248,
+      "sha256": "6dbc4e9dcd22ef58fcd34a55925d04bfb20edfbf3a3cb4aec0803adce7b19459"
+    },
+    {
+      "path": "input/research-worker-contract.md",
+      "bytes": 3556,
+      "sha256": "a2ba5fede01e6787027b1910f68ee44e865a7309643d04c4c0f68a74894cc16c"
+    },
+    {
+      "path": "tools/core/BQ13_C602.json",
+      "bytes": 9492,
+      "sha256": "1242abca3096fea1ec4b3de5bc799b0bf0771747f646b40aa148940a20ba1260"
+    },
+    {
+      "path": "tools/core/RECONSTRUCT.py",
+      "bytes": 1801,
+      "sha256": "2a8c5685baa64c8a2e6998f898c889172b7c7f92fbf07ae9cf1d8b8d37e695fd"
+    },
+    {
+      "path": "tools/core/centred_mass.py",
+      "bytes": 1398,
+      "sha256": "5f1afafa0432436bfe953a94d94ca1027c12549504f9452491f0287c2a29d1a8"
+    },
+    {
+      "path": "tools/core/check_A.py",
+      "bytes": 5483,
+      "sha256": "ad72cc198140249c1e52a615513354036c04f4c718333a7beed64fba4b43d7f3"
+    },
+    {
+      "path": "tools/core/check_B.py",
+      "bytes": 6351,
+      "sha256": "b0cb62d5486b32d020b60f717f3dfe9d07c6c9a978492928f54c3a38f396fc24"
+    },
+    {
+      "path": "tools/exact_points.py",
+      "bytes": 2031,
+      "sha256": "e0cd67ba8ee150996c387c03cb91629dea8ce5fb1252fb1af832018cdac980db"
+    },
+    {
+      "path": "TASK.json",
+      "bytes": 7211,
+      "sha256": "694aa3c15caf35983efa269c7d1feb717b6c98c42e309e897beb2295f0466872"
+    }
+  ],
+  "totalBytes": 6529753,
+  "expectedSourcePinsVerified": 8,
+  "agent": "/root/astra_c96_research",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "max",
+  "forkTurns": "none",
+  "status": "spawned"
+}

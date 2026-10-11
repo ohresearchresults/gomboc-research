@@ -1,0 +1,468 @@
+{
+  "cases": {
+    "baseline-check": {
+      "definition": "POINTS.json",
+      "definition_sha256": "b49d24fda9620582ca3a011efd07d45a6550aa4e748bdaca32e3f343de822742",
+      "files": {
+        "A.json": {
+          "bytes": 4305,
+          "sha256": "a6c33c9f089de95cbbe52ebe51ecb4351306575df32f2aced706f62774793093"
+        },
+        "B.json": {
+          "bytes": 4305,
+          "sha256": "a6c33c9f089de95cbbe52ebe51ecb4351306575df32f2aced706f62774793093"
+        },
+        "MASS.json": {
+          "bytes": 216,
+          "sha256": "91636c316a2f18f8a79558431e5df4ae000430ff4d6480a692fabbcbcd95f06c"
+        },
+        "raw.json": {
+          "bytes": 951,
+          "sha256": "9071c5c16df9d342e68a97c9720e73b8c52b1317c0531734f14d01a0783c2f43"
+        }
+      },
+      "mass": {
+        "common_centred_denominator_bits": 24,
+        "common_centred_integer_coordinate_max_bits": 41,
+        "filled_first_moments": [
+          0,
+          0,
+          0
+        ],
+        "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+        "tetrahedra": 46,
+        "volume_agrees_with_A_and_B": true
+      },
+      "signature": [
+        25,
+        48,
+        25,
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "capped-bulk-exact": {
+      "definition": "POINTS.json",
+      "definition_sha256": "e6c41b752964e452fce9b4f42b8f386e7426f2e7772e643207089c8ca9cb37df",
+      "files": {
+        "A.json": {
+          "bytes": 11245,
+          "sha256": "67c1f2a075a3b55b04bebfa76d719edcab24b6ae854a5ac75f775b9c9801b086"
+        },
+        "B.json": {
+          "bytes": 11245,
+          "sha256": "67c1f2a075a3b55b04bebfa76d719edcab24b6ae854a5ac75f775b9c9801b086"
+        },
+        "MASS.json": {
+          "bytes": 218,
+          "sha256": "2861e05e638f2da7961e2219fad2532dbc04fe1c8c14a36c91868221d475d738"
+        },
+        "raw.json": {
+          "bytes": 5362,
+          "sha256": "e6dc18f1034a9cce0e7cd96fb1277c0f50354abac28671bd2b09e0f73798d3c3"
+        }
+      },
+      "mass": {
+        "common_centred_denominator_bits": 104,
+        "common_centred_integer_coordinate_max_bits": 137,
+        "filled_first_moments": [
+          0,
+          0,
+          0
+        ],
+        "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+        "tetrahedra": 58,
+        "volume_agrees_with_A_and_B": true
+      },
+      "signature": [
+        31,
+        87,
+        58,
+        [
+          8,
+          1,
+          7
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "flow25-exact": {
+      "definition": "POINTS.json",
+      "definition_sha256": "730fe723356ff5ec19ab1b55c84143de77aa59c8d4859abe20baa91757bbe7aa",
+      "files": {
+        "A.json": {
+          "bytes": 7811,
+          "sha256": "6200d3d54a282f2052713aadcad90d8e1cfff8940c2fcfc03fb892bf840b0768"
+        },
+        "B.json": {
+          "bytes": 7811,
+          "sha256": "6200d3d54a282f2052713aadcad90d8e1cfff8940c2fcfc03fb892bf840b0768"
+        },
+        "MASS.json": {
+          "bytes": 217,
+          "sha256": "045fba412b91aa495b7d72838d821e4fb5dfaea394bc57b69e63b8315d087928"
+        },
+        "raw.json": {
+          "bytes": 3263,
+          "sha256": "55f6b95be8cb3b28e171af70d46ece4bd0a1621fc352984cc7297326b1356aeb"
+        }
+      },
+      "mass": {
+        "common_centred_denominator_bits": 81,
+        "common_centred_integer_coordinate_max_bits": 107,
+        "filled_first_moments": [
+          0,
+          0,
+          0
+        ],
+        "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+        "tetrahedra": 46,
+        "volume_agrees_with_A_and_B": true
+      },
+      "signature": [
+        25,
+        69,
+        46,
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "polar-exact": {
+      "definition": "raw.json",
+      "definition_sha256": "8b60ffeb230c1da101be95443aa4ec593317f9ef4eeca82d018dcf1e0bf3ddc9",
+      "files": {
+        "A.json": {
+          "bytes": 13541,
+          "sha256": "84642fa4fca673f1019d64a4029a9f57681b62084051e36edc9a538e95863415"
+        },
+        "B.json": {
+          "bytes": 13541,
+          "sha256": "84642fa4fca673f1019d64a4029a9f57681b62084051e36edc9a538e95863415"
+        },
+        "MASS.json": {
+          "bytes": 220,
+          "sha256": "79d2e4e70413583a9dd7332af662294ac0f6338ff86a426654e6ae37ea04a5cf"
+        },
+        "raw.json": {
+          "bytes": 1288,
+          "sha256": "8b60ffeb230c1da101be95443aa4ec593317f9ef4eeca82d018dcf1e0bf3ddc9"
+        }
+      },
+      "mass": {
+        "common_centred_denominator_bits": 1820,
+        "common_centred_integer_coordinate_max_bits": 1809,
+        "filled_first_moments": [
+          0,
+          0,
+          0
+        ],
+        "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+        "tetrahedra": 46,
+        "volume_agrees_with_A_and_B": true
+      },
+      "signature": [
+        25,
+        48,
+        25,
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "pyramid-101-exact": {
+      "definition": "POINTS.json",
+      "definition_sha256": "ecdb3cb61947d33650d7e79dd190daab2cbd35737ac5d5ccf76caf932b5cd3eb",
+      "files": {
+        "A.json": {
+          "bytes": 4571,
+          "sha256": "f17bb48815e8ff86697936d33af34e8e28170808674e9149dbae23c5228a19f7"
+        },
+        "B.json": {
+          "bytes": 4571,
+          "sha256": "f17bb48815e8ff86697936d33af34e8e28170808674e9149dbae23c5228a19f7"
+        },
+        "MASS.json": {
+          "bytes": 216,
+          "sha256": "10053bd03f20833183147082554bab3259acfbb4a5dc627f031ad9571db20747"
+        },
+        "raw.json": {
+          "bytes": 1430,
+          "sha256": "2e7dab88349ec2f3bd33d78c952985ce18fa4b420d176153e0ba485899f40950"
+        }
+      },
+      "mass": {
+        "common_centred_denominator_bits": 58,
+        "common_centred_integer_coordinate_max_bits": 84,
+        "filled_first_moments": [
+          0,
+          0,
+          0
+        ],
+        "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+        "tetrahedra": 38,
+        "volume_agrees_with_A_and_B": true
+      },
+      "signature": [
+        21,
+        40,
+        21,
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "pyramid-final-exact": {
+      "definition": "POINTS.json",
+      "definition_sha256": "80de8c74e399d5e0c8ca8c4a7f7f1d730e07d932f9bba4781fe3ccc3947eb391",
+      "files": {
+        "A.json": {
+          "bytes": 4386,
+          "sha256": "b070e542627aad22cb8a51e10ba1750f13f9516a8d2abb9d4facd601153513df"
+        },
+        "B.json": {
+          "bytes": 4386,
+          "sha256": "b070e542627aad22cb8a51e10ba1750f13f9516a8d2abb9d4facd601153513df"
+        },
+        "MASS.json": {
+          "bytes": 216,
+          "sha256": "db10afc80028664910ec920b9a002109ecb7c710e5313485e7b3a22847e4fd7e"
+        },
+        "raw.json": {
+          "bytes": 1368,
+          "sha256": "70df03022e12bcf3aa233069e6eabeb63fe2c2483172309b4a0767c08f4866c7"
+        }
+      },
+      "mass": {
+        "common_centred_denominator_bits": 56,
+        "common_centred_integer_coordinate_max_bits": 83,
+        "filled_first_moments": [
+          0,
+          0,
+          0
+        ],
+        "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+        "tetrahedra": 36,
+        "volume_agrees_with_A_and_B": true
+      },
+      "signature": [
+        20,
+        38,
+        20,
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "rounder25-exact": {
+      "definition": "POINTS.json",
+      "definition_sha256": "15167561a2d14c2eed3c0529f24aa465a35664f92c94c06cfc45bc1bfe3604d8",
+      "files": {
+        "A.json": {
+          "bytes": 7941,
+          "sha256": "c41d79fbc3a4711cef1201a17fcec0ba85ecded87f9072cf67e65ebb19229283"
+        },
+        "B.json": {
+          "bytes": 7941,
+          "sha256": "c41d79fbc3a4711cef1201a17fcec0ba85ecded87f9072cf67e65ebb19229283"
+        },
+        "MASS.json": {
+          "bytes": 217,
+          "sha256": "064ce2b6b66efafa55567f691408a9c32ea8d185ed2e63feb5d4755074c414b1"
+        },
+        "raw.json": {
+          "bytes": 3358,
+          "sha256": "18bec37a20cb726dba435f8393abaea1ba0d77e0fa80bcd8042fd3c9a2e44f92"
+        }
+      },
+      "mass": {
+        "common_centred_denominator_bits": 83,
+        "common_centred_integer_coordinate_max_bits": 109,
+        "filled_first_moments": [
+          0,
+          0,
+          0
+        ],
+        "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+        "tetrahedra": 46,
+        "volume_agrees_with_A_and_B": true
+      },
+      "signature": [
+        25,
+        69,
+        46,
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "support-conditioned-exact": {
+      "definition": "raw.json",
+      "definition_sha256": "fb609265ab8db28b7d48c19c058b5a53309d02459a1701c2cc146f5674e9d00f",
+      "files": {
+        "A.json": {
+          "bytes": 38884,
+          "sha256": "c7bbb394faf14a519050fd1c75d7f2e8ad05b36ec7c08fa349b89485657c5766"
+        },
+        "B.json": {
+          "bytes": 38884,
+          "sha256": "c7bbb394faf14a519050fd1c75d7f2e8ad05b36ec7c08fa349b89485657c5766"
+        },
+        "MASS.json": {
+          "bytes": 220,
+          "sha256": "53c62d3718b90ae04be8bc535c397991a721cf250da43fd2de8a1512c8a46865"
+        },
+        "raw.json": {
+          "bytes": 1084,
+          "sha256": "fb609265ab8db28b7d48c19c058b5a53309d02459a1701c2cc146f5674e9d00f"
+        }
+      },
+      "mass": {
+        "common_centred_denominator_bits": 6914,
+        "common_centred_integer_coordinate_max_bits": 6914,
+        "filled_first_moments": [
+          0,
+          0,
+          0
+        ],
+        "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+        "tetrahedra": 88,
+        "volume_agrees_with_A_and_B": true
+      },
+      "signature": [
+        46,
+        69,
+        25,
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "support-polar-exact": {
+      "definition": "raw.json",
+      "definition_sha256": "ff0e13f43d77edd8a7fb5d24f9872345feeed6c3a8ac6ac747ec0685191e54f3",
+      "files": {
+        "A.json": {
+          "bytes": 29552,
+          "sha256": "80812bcb156ac595e85acf6e165f58da022b5ad914366cb71fb38e5caf63c054"
+        },
+        "B.json": {
+          "bytes": 29552,
+          "sha256": "80812bcb156ac595e85acf6e165f58da022b5ad914366cb71fb38e5caf63c054"
+        },
+        "MASS.json": {
+          "bytes": 220,
+          "sha256": "ba73d2311031475c1805b285333f49284de67f1076681a47a289a52fb3c0b4d9"
+        },
+        "raw.json": {
+          "bytes": 1491,
+          "sha256": "ff0e13f43d77edd8a7fb5d24f9872345feeed6c3a8ac6ac747ec0685191e54f3"
+        }
+      },
+      "mass": {
+        "common_centred_denominator_bits": 5183,
+        "common_centred_integer_coordinate_max_bits": 5183,
+        "filled_first_moments": [
+          0,
+          0,
+          0
+        ],
+        "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+        "tetrahedra": 42,
+        "volume_agrees_with_A_and_B": true
+      },
+      "signature": [
+        23,
+        44,
+        23,
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "certificates": {
+    "loading-compact.json": {
+      "bytes": 15266,
+      "sha256": "f75b5187e8c5110945f91308a905d0719b748b97555739ee04d01292625d677d"
+    },
+    "radius-certificate.json": {
+      "bytes": 1507,
+      "sha256": "31b2c3ba06266312090fff12e39a079ef38ed8ae538d1ec90d453eadb59636bb"
+    },
+    "radius-thick-certificate.json": {
+      "bytes": 640,
+      "sha256": "f7fe493236232b0f0c33647af67bad4726542cf5357ba5f4955443de090cd61d"
+    },
+    "reference-c80-certificate.json": {
+      "bytes": 1031,
+      "sha256": "f1c3128c73505d28c3b95239d93ca73e53417981174af5daa10745c76f061aa6"
+    },
+    "shape-certificate.json": {
+      "bytes": 774,
+      "sha256": "2a16b74dd918be63f153d68089e5b06f728e58178ffb7c6bfe2615e828e6b37b"
+    }
+  },
+  "dependencies": "Exact replay: CPython standard library only; numerical searches: NumPy2.5.3, SciPy1.18.1, one BLAS/OpenMP thread."
+}

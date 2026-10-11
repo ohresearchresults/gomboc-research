@@ -1,0 +1,78 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 83,
+        "U": 64,
+        "Pmax": 0.0002313418335969299,
+        "Qmax": 0.0002313418335972342,
+        "objective": 0.0002313418335972342,
+        "minimum_noncontact": 1.6684262734711908e-06,
+        "it": 0,
+        "seconds": 0.6314129829406738,
+        "trust": 0.03
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 83,
+        "U": 64,
+        "Pmax": 0.0002313418335969299,
+        "Qmax": 0.0002313418335972342,
+        "objective": 0.0002313418335972342,
+        "minimum_noncontact": 1.6684262734711908e-06,
+        "it": 10,
+        "seconds": 8.363487958908081,
+        "trust": 3.1457280000000023e-06
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 83,
+        "U": 64,
+        "Pmax": 0.00023134183354709314,
+        "Qmax": 0.00023134183354724558,
+        "objective": 0.00023134183354724558,
+        "minimum_noncontact": 1.668423808776076e-06,
+        "it": 20,
+        "seconds": 15.447951793670654,
+        "trust": 1.154487209164801e-09
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "FINITE_JOINT_PERSISTENCE_STALLED",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 83,
+        "U": 64,
+        "Pmax": 0.00023134183347954982,
+        "Qmax": 0.00023134183347952987,
+        "objective": 0.00023134183347954982,
+        "minimum_noncontact": 1.6684213139939175e-06,
+        "it": 29,
+        "seconds": 22.068707704544067,
+        "trust": 1.0592466323575418e-12
+      }
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 0,
+        "referenceU": 1,
+        "referenceS": 46,
+        "U": 1,
+        "S": 46,
+        "reference_logQ": 43.194808701971816,
+        "centroid": [
+          -7.321464520350941e-17,
+          4.722344615626357e-16,
+          -3.172634625485408e-17
+        ],
+        "centroid_inf": 4.722344615626357e-16,
+        "merit": 43.19480870197187,
+        "min_ref_guard": 9.999991599535316e-09,
+        "min_noncontact": 1.2639260882352232e-07,
+        "trust": 0.01,
+        "seconds": 2.402585029602051
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 5,
+        "referenceU": 1,
+        "referenceS": 46,
+        "U": 1,
+        "S": 46,
+        "reference_logQ": 41.89968403498444,
+        "centroid": [
+          1.9522124599693958e-17,
+          -3.672599690317426e-16,
+          1.1957301317312548e-16
+        ],
+        "centroid_inf": 3.672599690317426e-16,
+        "merit": 41.89968403498449,
+        "min_ref_guard": 9.999989573727113e-09,
+        "min_noncontact": 1.4195938746741632e-07,
+        "trust": 0.0115,
+        "seconds": 25.462032079696655
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 10,
+        "referenceU": 1,
+        "referenceS": 46,
+        "U": 1,
+        "S": 46,
+        "reference_logQ": 40.89159496156626,
+        "centroid": [
+          -3.465042458058471e-16,
+          -6.0857858383083286e-15,
+          -1.5495084231458656e-15
+        ],
+        "centroid_inf": 6.0857858383083286e-15,
+        "merit": 40.89159496156706,
+        "min_ref_guard": 9.999530730765323e-09,
+        "min_noncontact": 1.0000001382515222e-08,
+        "trust": 0.0115,
+        "seconds": 45.382686138153076
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 15,
+        "referenceU": 1,
+        "referenceS": 46,
+        "U": 1,
+        "S": 46,
+        "reference_logQ": 40.616084539105216,
+        "centroid": [
+          -9.760724946701947e-18,
+          -7.027721961625402e-16,
+          1.7081268656728406e-17
+        ],
+        "centroid_inf": 7.027721961625402e-16,
+        "merit": 40.61608453910529,
+        "min_ref_guard": 9.999970578533347e-09,
+        "min_noncontact": 9.99999949513608e-09,
+        "trust": 0.0115,
+        "seconds": 66.69561004638672
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 20,
+        "referenceU": 1,
+        "referenceS": 45,
+        "U": 1,
+        "S": 45,
+        "reference_logQ": 40.339274789494056,
+        "centroid": [
+          -1.7569594307563976e-16,
+          -1.1261621906862186e-15,
+          5.612509292694048e-17
+        ],
+        "centroid_inf": 1.1261621906862186e-15,
+        "merit": 40.33927478949419,
+        "min_ref_guard": 9.999852335934939e-09,
+        "min_noncontact": 1.0000000161269895e-08,
+        "trust": 0.0115,
+        "seconds": 87.73651385307312
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 25,
+        "referenceU": 1,
+        "referenceS": 45,
+        "U": 1,
+        "S": 45,
+        "reference_logQ": 40.06291653551777,
+        "centroid": [
+          -2.9771470599172014e-16,
+          -1.7997098005647016e-15,
+          1.0249194796436267e-16
+        ],
+        "centroid_inf": 1.7997098005647016e-15,
+        "merit": 40.06291653551799,
+        "min_ref_guard": 9.999673314262459e-09,
+        "min_noncontact": 1.0000000494336803e-08,
+        "trust": 0.0115,
+        "seconds": 108.85875391960144
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 30,
+        "referenceU": 1,
+        "referenceS": 46,
+        "U": 1,
+        "S": 46,
+        "reference_logQ": 39.78895153686909,
+        "centroid": [
+          -3.6605426661099845e-16,
+          -2.8466820133448645e-15,
+          4.539072905976381e-16
+        ],
+        "centroid_inf": 2.8466820133448645e-15,
+        "merit": 39.78895153686946,
+        "min_ref_guard": 9.99952079587773e-09,
+        "min_noncontact": 1.0000000050247593e-08,
+        "trust": 0.0115,
+        "seconds": 129.8015480041504
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 35,
+        "referenceU": 1,
+        "referenceS": 46,
+        "U": 1,
+        "S": 46,
+        "reference_logQ": 39.51583589018716,
+        "centroid": [
+          -3.3677947032384625e-16,
+          -2.008474667221199e-15,
+          -2.1963878499381277e-17
+        ],
+        "centroid_inf": 2.008474667221199e-15,
+        "merit": 39.5158358901874,
+        "min_ref_guard": 9.999619751339914e-09,
+        "min_noncontact": 1.0000000161269895e-08,
+        "trust": 0.0115,
+        "seconds": 150.59099197387695
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 40,
+        "referenceU": 1,
+        "referenceS": 46,
+        "U": 1,
+        "S": 46,
+        "reference_logQ": 39.245337957002235,
+        "centroid": [
+          1.464297941097465e-17,
+          -1.2873619398815213e-15,
+          -1.3666780783576342e-16
+        ],
+        "centroid_inf": 1.2873619398815213e-15,
+        "merit": 39.24533795700238,
+        "min_ref_guard": 9.999931606246176e-09,
+        "min_noncontact": 1.0000000050247593e-08,
+        "trust": 0.0115,
+        "seconds": 172.10903096199036
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 45,
+        "referenceU": 1,
+        "referenceS": 45,
+        "U": 1,
+        "S": 45,
+        "reference_logQ": 38.97701403400481,
+        "centroid": [
+          2.5382028757763496e-16,
+          3.3679999697801564e-16,
+          2.4405796882464902e-17
+        ],
+        "centroid_inf": 3.3679999697801564e-16,
+        "merit": 38.977014034004874,
+        "min_ref_guard": 9.999986223888787e-09,
+        "min_noncontact": 1.0000000050247593e-08,
+        "trust": 0.0115,
+        "seconds": 194.29223012924194
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 50,
+        "referenceU": 1,
+        "referenceS": 44,
+        "U": 1,
+        "S": 44,
+        "reference_logQ": 38.709088730219555,
+        "centroid": [
+          2.489466633585503e-16,
+          6.455528672385937e-16,
+          -1.70845749363711e-17
+        ],
+        "centroid_inf": 6.455528672385937e-16,
+        "merit": 38.70908873021965,
+        "min_ref_guard": 9.999977963353485e-09,
+        "min_noncontact": 1.0000000161269895e-08,
+        "trust": 0.0115,
+        "seconds": 215.40413093566895
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 55,
+        "referenceU": 1,
+        "referenceS": 44,
+        "U": 1,
+        "S": 44,
+        "reference_logQ": 38.44154640499215,
+        "centroid": [
+          2.196658299348088e-16,
+          4.3567056270403743e-16,
+          -1.2447730362972499e-16
+        ],
+        "centroid_inf": 4.3567056270403743e-16,
+        "merit": 38.44154640499223,
+        "min_ref_guard": 9.999982117293529e-09,
+        "min_noncontact": 9.999961858575546e-09,
+        "trust": 0.0115,
+        "seconds": 235.6835160255432
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 60,
+        "referenceU": 1,
+        "referenceS": 44,
+        "U": 1,
+        "S": 44,
+        "reference_logQ": 38.17456941896955,
+        "centroid": [
+          3.905328611903951e-16,
+          4.466719599865144e-16,
+          3.2707127124695586e-16
+        ],
+        "centroid_inf": 4.466719599865144e-16,
+        "merit": 38.17456941896966,
+        "min_ref_guard": 9.999962191419639e-09,
+        "min_noncontact": 9.999955641326608e-09,
+        "trust": 0.0115,
+        "seconds": 255.65598106384277
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 65,
+        "referenceU": 1,
+        "referenceS": 44,
+        "U": 1,
+        "S": 44,
+        "reference_logQ": 37.90797157657316,
+        "centroid": [
+          2.7338599668487863e-16,
+          -5.894885553517695e-16,
+          1.830709799229098e-16
+        ],
+        "centroid_inf": 5.894885553517695e-16,
+        "merit": 37.90797157657327,
+        "min_ref_guard": 9.999967291705079e-09,
+        "min_noncontact": 9.999966743556854e-09,
+        "trust": 0.0115,
+        "seconds": 276.8785169124603
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 70,
+        "referenceU": 1,
+        "referenceS": 43,
+        "U": 1,
+        "S": 43,
+        "reference_logQ": 36.32228975918799,
+        "centroid": [
+          4.394915953495916e-17,
+          -2.038752678427272e-16,
+          4.639077950912355e-17
+        ],
+        "centroid_inf": 2.038752678427272e-16,
+        "merit": 36.32228975918802,
+        "min_ref_guard": 9.999990710709829e-09,
+        "min_noncontact": 9.999999828202988e-09,
+        "trust": 0.017490062499999997,
+        "seconds": 293.8209261894226
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 75,
+        "referenceU": 1,
+        "referenceS": 39,
+        "U": 1,
+        "S": 39,
+        "reference_logQ": 32.77909962758572,
+        "centroid": [
+          2.9322312528204857e-17,
+          -6.108815110042678e-17,
+          -9.041046362863163e-17
+        ],
+        "centroid_inf": 9.041046362863163e-17,
+        "merit": 32.779099627585744,
+        "min_ref_guard": 9.999994128239177e-09,
+        "min_noncontact": 9.999999606158383e-09,
+        "trust": 0.03059022862539061,
+        "seconds": 309.0931890010834
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 80,
+        "referenceU": 1,
+        "referenceS": 38,
+        "U": 1,
+        "S": 38,
+        "reference_logQ": 30.830297069274295,
+        "centroid": [
+          -4.3990616414353704e-17,
+          1.2341811827360343e-16,
+          -1.1730831043827654e-16
+        ],
+        "centroid_inf": 1.2341811827360343e-16,
+        "merit": 30.830297069274323,
+        "min_ref_guard": 9.99999512394147e-09,
+        "min_noncontact": 9.999999717180685e-09,
+        "trust": 0.03059022862539061,
+        "seconds": 328.75874304771423
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 85,
+        "referenceU": 1,
+        "referenceS": 39,
+        "U": 1,
+        "S": 39,
+        "reference_logQ": 30.269067094952728,
+        "centroid": [
+          8.265766564227566e-15,
+          2.512235792835457e-14,
+          3.377428390037278e-14
+        ],
+        "centroid_inf": 3.377428390037278e-14,
+        "merit": 30.269067094959443,
+        "min_ref_guard": 9.99569558236376e-09,
+        "min_noncontact": 9.999363004276063e-09,
+        "trust": 0.03059022862539061,
+        "seconds": 349.7496910095215
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 90,
+        "referenceU": 1,
+        "referenceS": 39,
+        "U": 1,
+        "S": 39,
+        "reference_logQ": 30.00003098097091,
+        "centroid": [
+          -5.807249542651128e-15,
+          -2.3463634515762133e-16,
+          3.0649372586214287e-15
+        ],
+        "centroid_inf": 5.807249542651128e-15,
+        "merit": 30.000030980971818,
+        "min_ref_guard": 9.99632733871101e-09,
+        "min_noncontact": 9.99992866290711e-09,
+        "trust": 0.03059022862539061,
+        "seconds": 374.90451192855835
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 95,
+        "referenceU": 1,
+        "referenceS": 37,
+        "U": 1,
+        "S": 37,
+        "reference_logQ": 26.31427468474036,
+        "centroid": [
+          -4.403552469285272e-17,
+          1.382226191747877e-16,
+          -4.15891066543609e-17
+        ],
+        "centroid_inf": 1.382226191747877e-16,
+        "merit": 26.314274684740383,
+        "min_ref_guard": 9.999992262805163e-09,
+        "min_noncontact": 1.0000000050247593e-08,
+        "trust": 0.05350250105473707,
+        "seconds": 391.67278003692627
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 100,
+        "referenceU": 1,
+        "referenceS": 19,
+        "U": 1,
+        "S": 19,
+        "reference_logQ": 20.186104541440134,
+        "centroid": [
+          -4.904907866062924e-17,
+          -1.9619631464251698e-17,
+          -3.188190112940901e-17
+        ],
+        "centroid_inf": 4.904907866062924e-17,
+        "merit": 20.186104541440145,
+        "min_ref_guard": 9.999992893812235e-09,
+        "min_noncontact": 9.999999606158383e-09,
+        "trust": 0.10761264004567168,
+        "seconds": 408.7681510448456
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 105,
+        "referenceU": 1,
+        "referenceS": 17,
+        "U": 1,
+        "S": 17,
+        "reference_logQ": 14.257654564797921,
+        "centroid": [
+          -1.9656091154462525e-17,
+          3.415245838087864e-16,
+          8.845241019508137e-17
+        ],
+        "centroid_inf": 3.415245838087864e-16,
+        "merit": 14.257654564797965,
+        "min_ref_guard": 9.99999644809609e-09,
+        "min_noncontact": 1.0000000161269895e-08,
+        "trust": 0.2,
+        "seconds": 431.04873299598694
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 110,
+        "referenceU": 1,
+        "referenceS": 14,
+        "U": 1,
+        "S": 14,
+        "reference_logQ": 9.412593116597861,
+        "centroid": [
+          -8.299833948830183e-16,
+          -6.482710539914699e-16,
+          -1.4978990262681692e-16
+        ],
+        "centroid_inf": 8.299833948830183e-16,
+        "merit": 9.412593116598025,
+        "min_ref_guard": 9.99994110821184e-09,
+        "min_noncontact": 1.0000004158072784e-08,
+        "trust": 0.2,
+        "seconds": 456.842609167099
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 115,
+        "referenceU": 1,
+        "referenceS": 9,
+        "U": 1,
+        "S": 9,
+        "reference_logQ": 8.30382203429397,
+        "centroid": [
+          -4.895086156427347e-17,
+          -6.118857695534183e-17,
+          -8.321646465926489e-17
+        ],
+        "centroid_inf": 8.321646465926489e-17,
+        "merit": 8.30382203429399,
+        "min_ref_guard": 9.999999317050652e-09,
+        "min_noncontact": 1.0710948642467244e-06,
+        "trust": 0.2,
+        "seconds": 491.10868287086487
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 120,
+        "referenceU": 1,
+        "referenceS": 11,
+        "U": 1,
+        "S": 11,
+        "reference_logQ": 7.862545264405149,
+        "centroid": [
+          3.915218484085623e-17,
+          -3.5114615779142933e-16,
+          -9.298643899703355e-17
+        ],
+        "centroid_inf": 3.5114615779142933e-16,
+        "merit": 7.862545264405197,
+        "min_ref_guard": 9.999923368364053e-09,
+        "min_noncontact": 1.3589567948724124e-06,
+        "trust": 0.2,
+        "seconds": 534.1742250919342
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 125,
+        "referenceU": 1,
+        "referenceS": 13,
+        "U": 1,
+        "S": 13,
+        "reference_logQ": 7.551750402486942,
+        "centroid": [
+          3.523193701293506e-16,
+          -6.972987533810064e-17,
+          5.456056912419804e-16
+        ],
+        "centroid_inf": 5.456056912419804e-16,
+        "merit": 7.5517504024870385,
+        "min_ref_guard": 9.996842401425005e-09,
+        "min_noncontact": 3.0961456218836503e-06,
+        "trust": 0.2,
+        "seconds": 572.2998759746552
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 130,
+        "referenceU": 1,
+        "referenceS": 12,
+        "U": 1,
+        "S": 12,
+        "reference_logQ": 6.408748840615558,
+        "centroid": [
+          -2.934824348296619e-17,
+          -1.198386608887786e-16,
+          -2.4456869569138494e-17
+        ],
+        "centroid_inf": 1.198386608887786e-16,
+        "merit": 6.4087488406155755,
+        "min_ref_guard": 9.999998232882255e-09,
+        "min_noncontact": 6.175938712216222e-06,
+        "trust": 0.2,
+        "seconds": 607.4609670639038
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 135,
+        "referenceU": 1,
+        "referenceS": 6,
+        "U": 1,
+        "S": 6,
+        "reference_logQ": 5.601949194549932,
+        "centroid": [
+          4.3527021993319236e-14,
+          -7.56009810326909e-14,
+          -2.708511149331332e-15
+        ],
+        "centroid_inf": 7.56009810326909e-14,
+        "merit": 5.601949194562116,
+        "min_ref_guard": 6.480796328403289e-06,
+        "min_noncontact": 3.950769764449191e-06,
+        "trust": 0.2,
+        "seconds": 652.9452619552612
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 140,
+        "referenceU": 1,
+        "referenceS": 6,
+        "U": 1,
+        "S": 6,
+        "reference_logQ": 5.578668529032575,
+        "centroid": [
+          5.385518780982364e-17,
+          -1.7380537884079447e-16,
+          -3.4271483151705954e-17
+        ],
+        "centroid_inf": 1.7380537884079447e-16,
+        "merit": 5.5786685290326,
+        "min_ref_guard": 2.8890776079751048e-05,
+        "min_noncontact": 3.982156277060334e-06,
+        "trust": 0.2,
+        "seconds": 710.556722164154
+      }
+    }
+  ]
+}

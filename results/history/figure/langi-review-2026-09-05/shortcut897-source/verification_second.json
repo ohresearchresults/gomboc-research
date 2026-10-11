@@ -1,0 +1,38 @@
+{
+  "status": "INDEPENDENT_EXACT_AUDIT_PASS",
+  "vertices": 897,
+  "triangles": 1790,
+  "triangulated_edges": 2685,
+  "maximal_faces": 1789,
+  "true_edges": 2684,
+  "coplanar_diagonals_recomputed": 1,
+  "strict_local_convexity_edges": 2684,
+  "euler_characteristic": 2,
+  "rational_input": true,
+  "centroid_x_exactly_zero": true,
+  "centroid_yz_identically_zero": true,
+  "oriented_volume_positive": true,
+  "closed_oriented_two_manifold": true,
+  "connected_vertices": 897,
+  "single_cycle_vertex_links": 897,
+  "positive_radial_triangles": 1790,
+  "independent_radial_ray": [
+    3,
+    11,
+    17
+  ],
+  "independent_radial_degree": 1,
+  "all_maximal_face_boundaries_single_cycles": true,
+  "stable_face_boundary_cycle_length": 4,
+  "vertices_with_exact_rank3_normal_cone": 897,
+  "independently_recomputed_exact_equilibrium_class": [
+    1,
+    1,
+    0
+  ],
+  "artifact_sha256": {
+    "vertices.csv.gz": "0257e6722fa727698061b9d316a8a0481625938b30437ccb136394d1c7dfeeda",
+    "triangles.csv.gz": "303abb1a270403fd1a5da1d61283234aa676225ef7c34a95b40a8f7d33370ba5",
+    "definition.json": "7fee81c0e99890a2f82ffda34f84a593d9975b3b4f598d38dd4c7e3b07405ba6"
+  }
+}

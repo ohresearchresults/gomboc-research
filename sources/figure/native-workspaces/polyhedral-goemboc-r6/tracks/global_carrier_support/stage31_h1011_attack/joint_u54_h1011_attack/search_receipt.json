@@ -1,0 +1,4020 @@
+{
+  "version": 1,
+  "scope": "Deterministic full-165D finite numerical search for a shared odd selected U54-neighbor-1/H1011-t first event from the exact step13 transfer FAR checkpoint.",
+  "source_hashes": {
+    "polyhedral-goemboc-r6/tracks/global_carrier_support/stage31_h1011_attack/continuation2_row230_bypass/step13_transfer_far.csv": "81cb9b2b0666b413906f45ec7db69da81750b304940b3f8466778f73a0895552",
+    "polyhedral-goemboc-r6/tracks/global_carrier_support/stage31_h1011_attack/continuation/main/exact_full_control_chain_post_faces.json": "c1d74d638df21a0492645aa39e4d3943b8401ed0732393505c838ec2f1c0ed77",
+    "polyhedral-goemboc-r6/tracks/global_carrier_support/stage31_h1011_attack/joint_u54_h1011_attack/fixed_ledger_obstruction_receipt.json": "49eab17720135bd09f13e4195b44abf2c4d7754c21ab16d34ee01c0bd04d7760"
+  },
+  "source_checkpoint": {
+    "exact_support": {
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "euler": 2,
+      "active_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54,
+        69,
+        72,
+        73,
+        88,
+        198,
+        224,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "strict_support_count": 5959,
+      "min_support_log10_abs": -15.624189433989443,
+      "coplanarity_equalities": 221,
+      "coplanar_interior_rows": []
+    },
+    "exact_mechanics": {
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "stable_faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ],
+        [
+          7,
+          8,
+          245
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          10,
+          11
+        ]
+      ]
+    },
+    "numerical_signature": {
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "stable_faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ],
+        [
+          7,
+          8,
+          245
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "active_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54,
+        69,
+        72,
+        73,
+        88,
+        198,
+        224,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ]
+    },
+    "selected_decisions": {
+      "S": 0.0001087188495819065,
+      "U54": 0.0014360407981298953,
+      "H56": 0.001196298640584459,
+      "H1011": 3.614284604980545e-07
+    }
+  },
+  "search_contract": {
+    "mode_count": 165,
+    "physical_coordinate_count": 183,
+    "mechanics_decision_count": 326,
+    "mechanics_guard_count": 324,
+    "mechanics_guard_names_digest": "4fd1bf97c2f00df2db5c7fa8efd14c8421c6de423f3aeeb2fe375f85a26345d7",
+    "near_support_count": 1183,
+    "all_support_guard_count": 5959,
+    "in_face_turn_guard_count": 18,
+    "exhaustive_event_primitive_count": 7922,
+    "target_raw_rows": {
+      "U54": [
+        "edge:(1, 54):one_minus_t",
+        "vertex:54:1"
+      ],
+      "H1011": [
+        "edge:(10, 11):t",
+        "vertex:10:11"
+      ]
+    },
+    "selected_component_authority": {
+      "owner": "polyhedral-goemboc-r6/tracks/global_carrier_support/stage31_h1011_attack/build_exact_circuit_flip.py",
+      "owner_sha256": "0afd97f0e27aa08a73fe2257db429873db7291eff08da8fec10bdbcb086076b1",
+      "U54": 1,
+      "H1011": "t"
+    },
+    "target_jacobian_rank": 2,
+    "target_source_raw": [
+      0.3341110000176144,
+      0.011014371733992334
+    ],
+    "trust_grid": [
+      "1/100000",
+      "1/50000",
+      "1/20000",
+      "1/10000"
+    ],
+    "post_factor_grid": [
+      "33/32",
+      "17/16",
+      "9/8"
+    ],
+    "guard_floor_grid": [
+      "0",
+      "1/20",
+      "1/4"
+    ],
+    "profile_grid": [
+      "target_only",
+      "topology_only",
+      "mechanics_only",
+      "all_guards"
+    ],
+    "branch_count": 30,
+    "solver_time_limit_seconds_per_branch": 15,
+    "root_tie_tolerance": 1e-08
+  },
+  "finite_difference_diagnostics": [
+    {
+      "column": 58,
+      "accepted_step": 2.5e-09,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('minus maximal faces changed')"
+        }
+      ]
+    },
+    {
+      "column": 59,
+      "accepted_step": 2.5e-09,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('minus maximal faces changed')"
+        }
+      ]
+    },
+    {
+      "column": 60,
+      "accepted_step": 2.5e-09,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('plus maximal faces changed')"
+        }
+      ]
+    },
+    {
+      "column": 61,
+      "accepted_step": 6.25e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('plus maximal faces changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('plus maximal faces changed')"
+        }
+      ]
+    },
+    {
+      "column": 62,
+      "accepted_step": 6.25e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('plus maximal faces changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('plus maximal faces changed')"
+        }
+      ]
+    },
+    {
+      "column": 63,
+      "accepted_step": 2.5e-09,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('minus maximal faces changed')"
+        }
+      ]
+    },
+    {
+      "column": 64,
+      "accepted_step": 6.25e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('minus maximal faces changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('minus maximal faces changed')"
+        }
+      ]
+    },
+    {
+      "column": 65,
+      "accepted_step": 6.25e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('minus maximal faces changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('minus maximal faces changed')"
+        }
+      ]
+    }
+  ],
+  "base_plane_normal": [
+    0.13551097218894323,
+    0.40747536958823494,
+    0.9031060843529617
+  ],
+  "branches": [
+    {
+      "branch_id": "b01-target_only-f0-p33/32",
+      "profile": "target_only",
+      "guard_floor": "0",
+      "post_factor": "33/32",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.527826700951906e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        6.358733414376343e-12,
+        -3.161014980527181e-10
+      ],
+      "target_wall_residual_max": 3.161014980527181e-10,
+      "refined_float_wall_linf": 1.527835536400813e-05,
+      "exact_wall_step": "15278355364008129/1000000000000000000000",
+      "exact_endpoint_linf": 1.5755803969133384e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "4f5bfa948f3d0bfd75fc53d7451e8859c438e09dd73ef2af931d27cb12225a1b",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.210013929731883e-05
+        },
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.2100138766189042e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.210012858564176e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.2100120659921977e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.2100119928540797e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2100117727879588e-05
+        },
+        {
+          "mode": [
+            10,
+            "v"
+          ],
+          "coefficient": -2.01175962042655e-05
+        },
+        {
+          "mode": [
+            9,
+            "v"
+          ],
+          "coefficient": -2.011757371597406e-05
+        },
+        {
+          "mode": [
+            5,
+            "v"
+          ],
+          "coefficient": -2.0117551180035262e-05
+        },
+        {
+          "mode": [
+            0,
+            "v"
+          ],
+          "coefficient": 2.011753496203582e-05
+        },
+        {
+          "mode": [
+            16,
+            "v"
+          ],
+          "coefficient": 2.011753343789904e-05
+        },
+        {
+          "mode": [
+            6,
+            "v"
+          ],
+          "coefficient": -2.0117532616524673e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            55,
+            144,
+            91
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            244,
+            245,
+            246,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": null,
+          "U8": 0.9965848288134905,
+          "U54": -4.45177710112442e-05,
+          "H56": 0.0011882539914928048,
+          "H1011": -1.2639193788893216e-05
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": false,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 7,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b02-target_only-f0-p17/16",
+      "profile": "target_only",
+      "guard_floor": "0",
+      "post_factor": "17/16",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.527826700951906e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        6.358733414376343e-12,
+        -3.161014980527181e-10
+      ],
+      "target_wall_residual_max": 3.161014980527181e-10,
+      "refined_float_wall_linf": 1.527835536400813e-05,
+      "exact_wall_step": "15278355364008129/1000000000000000000000",
+      "exact_endpoint_linf": 1.623325257425864e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "80795a887ea54d4c75d39aa7ad42e7ffafa1872a8a0b559375fafae56b6f6460",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.210013929731883e-05
+        },
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.2100138766189042e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.210012858564176e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.2100120659921977e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.2100119928540797e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2100117727879588e-05
+        },
+        {
+          "mode": [
+            10,
+            "v"
+          ],
+          "coefficient": -2.01175962042655e-05
+        },
+        {
+          "mode": [
+            9,
+            "v"
+          ],
+          "coefficient": -2.011757371597406e-05
+        },
+        {
+          "mode": [
+            5,
+            "v"
+          ],
+          "coefficient": -2.0117551180035262e-05
+        },
+        {
+          "mode": [
+            0,
+            "v"
+          ],
+          "coefficient": 2.011753496203582e-05
+        },
+        {
+          "mode": [
+            16,
+            "v"
+          ],
+          "coefficient": 2.011753343789904e-05
+        },
+        {
+          "mode": [
+            6,
+            "v"
+          ],
+          "coefficient": -2.0117532616524673e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            55,
+            144,
+            91
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            244,
+            245,
+            246,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": null,
+          "U8": 0.9965848287167725,
+          "U54": -8.931863131799783e-05,
+          "H56": 0.0011879885395257306,
+          "H1011": -1.306836835652926e-05
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": false,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 7,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b03-target_only-f0-p9/8",
+      "profile": "target_only",
+      "guard_floor": "0",
+      "post_factor": "9/8",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.527826700951906e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        6.358733414376343e-12,
+        -3.161014980527181e-10
+      ],
+      "target_wall_residual_max": 3.161014980527181e-10,
+      "refined_float_wall_linf": 1.527835536400813e-05,
+      "exact_wall_step": "15278355364008129/1000000000000000000000",
+      "exact_endpoint_linf": 1.718814978450915e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "65c900e1d85f2fa12695f91bff4c982cf26590b4c13de7ef1ec9c4a8261b00cb",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.210013929731883e-05
+        },
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.2100138766189042e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.210012858564176e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.2100120659921977e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.2100119928540797e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2100117727879588e-05
+        },
+        {
+          "mode": [
+            10,
+            "v"
+          ],
+          "coefficient": -2.01175962042655e-05
+        },
+        {
+          "mode": [
+            9,
+            "v"
+          ],
+          "coefficient": -2.011757371597406e-05
+        },
+        {
+          "mode": [
+            5,
+            "v"
+          ],
+          "coefficient": -2.0117551180035262e-05
+        },
+        {
+          "mode": [
+            0,
+            "v"
+          ],
+          "coefficient": 2.011753496203582e-05
+        },
+        {
+          "mode": [
+            16,
+            "v"
+          ],
+          "coefficient": 2.011753343789904e-05
+        },
+        {
+          "mode": [
+            6,
+            "v"
+          ],
+          "coefficient": -2.0117532616524673e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            55,
+            144,
+            91
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            244,
+            245,
+            246,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": null,
+          "U8": 0.9965848285233386,
+          "U54": -0.00017890921107292638,
+          "H56": 0.0011874576368415823,
+          "H1011": -1.3926715471212797e-05
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": false,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 7,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b04-topology_only-f0-p33/32",
+      "profile": "topology_only",
+      "guard_floor": "0",
+      "post_factor": "33/32",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.5281354113206526e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        -9.01281344820299e-11,
+        -2.3094762510790424e-10
+      ],
+      "target_wall_residual_max": 2.3094762510790424e-10,
+      "refined_float_wall_linf": 1.528166175370534e-05,
+      "exact_wall_step": "15281661753705339/1000000000000000000000",
+      "exact_endpoint_linf": 1.5759213683508617e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "95a58c55e29daa350d5bcda5cb3f916f9a5fb89182b7f779b736f78f7ca5d995",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.2104725144981073e-05
+        },
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.210472452189044e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2104580009833355e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.210457917851461e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.210457887879028e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.2104575822898532e-05
+        },
+        {
+          "mode": [
+            7,
+            "v"
+          ],
+          "coefficient": -2.012161811531583e-05
+        },
+        {
+          "mode": [
+            12,
+            "v"
+          ],
+          "coefficient": -2.0121601167774892e-05
+        },
+        {
+          "mode": [
+            13,
+            "v"
+          ],
+          "coefficient": -2.0121599399315033e-05
+        },
+        {
+          "mode": [
+            11,
+            "v"
+          ],
+          "coefficient": -2.012159877516224e-05
+        },
+        {
+          "mode": [
+            14,
+            "v"
+          ],
+          "coefficient": -2.0121598340068263e-05
+        },
+        {
+          "mode": [
+            15,
+            "v"
+          ],
+          "coefficient": -2.0121597732922965e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            59,
+            153,
+            96
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": null,
+          "U8": 0.9965848328503677,
+          "U54": -4.481493608607862e-05,
+          "H56": 0.0011960481569004422,
+          "H1011": -1.1304453823968068e-08
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": false,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 7,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b05-topology_only-f0-p17/16",
+      "profile": "topology_only",
+      "guard_floor": "0",
+      "post_factor": "17/16",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.5281378393904587e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        -4.785000060985542e-12,
+        -5.67692486298759e-10
+      ],
+      "target_wall_residual_max": 5.67692486298759e-10,
+      "refined_float_wall_linf": 1.528168736829899e-05,
+      "exact_wall_step": "1528168736829899/100000000000000000000",
+      "exact_endpoint_linf": 1.623679282881767e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "16d237236f9a787f10df9524972d5e80e221ea6fafb6e1fac6c06d307c0eaaf7",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.21047609017091e-05
+        },
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.2104760256794832e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2104615053208038e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.2104614147729055e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.2104613823140083e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.2104610499583975e-05
+        },
+        {
+          "mode": [
+            7,
+            "v"
+          ],
+          "coefficient": -2.0121651928801378e-05
+        },
+        {
+          "mode": [
+            12,
+            "v"
+          ],
+          "coefficient": -2.0121633499929556e-05
+        },
+        {
+          "mode": [
+            13,
+            "v"
+          ],
+          "coefficient": -2.0121631577080544e-05
+        },
+        {
+          "mode": [
+            11,
+            "v"
+          ],
+          "coefficient": -2.0121630897786924e-05
+        },
+        {
+          "mode": [
+            14,
+            "v"
+          ],
+          "coefficient": -2.0121630425264505e-05
+        },
+        {
+          "mode": [
+            15,
+            "v"
+          ],
+          "coefficient": -2.012162976503589e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            59,
+            154,
+            97
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": null,
+          "U8": 0.9965848329365155,
+          "U54": -8.962615586375865e-05,
+          "H56": 0.001196040675006338,
+          "H1011": -2.259783264628121e-08
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": false,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 7,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b06-topology_only-f0-p9/8",
+      "profile": "topology_only",
+      "guard_floor": "0",
+      "post_factor": "9/8",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.5281422857655326e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        1.4238033514799203e-11,
+        6.193008941441007e-11
+      ],
+      "target_wall_residual_max": 6.193008941441007e-11,
+      "refined_float_wall_linf": 1.5281734258127913e-05,
+      "exact_wall_step": "15281734258127913/1000000000000000000000",
+      "exact_endpoint_linf": 1.7191951040393883e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "f2bb1dccf6214205d455a52217cb2e05323bd1c30aab141493c4b070f5e10b94",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.210482635473041e-05
+        },
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.2104825708114672e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2104679375804386e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.210467847562299e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.210467815262933e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.2104674847716087e-05
+        },
+        {
+          "mode": [
+            7,
+            "v"
+          ],
+          "coefficient": -2.0121710348170895e-05
+        },
+        {
+          "mode": [
+            12,
+            "v"
+          ],
+          "coefficient": -2.012169202216937e-05
+        },
+        {
+          "mode": [
+            13,
+            "v"
+          ],
+          "coefficient": -2.012169011002347e-05
+        },
+        {
+          "mode": [
+            11,
+            "v"
+          ],
+          "coefficient": -2.0121689434616797e-05
+        },
+        {
+          "mode": [
+            14,
+            "v"
+          ],
+          "coefficient": -2.012168896463427e-05
+        },
+        {
+          "mode": [
+            15,
+            "v"
+          ],
+          "coefficient": -2.0121688308093447e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            61,
+            159,
+            100
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": null,
+          "U8": 0.9965848331086219,
+          "U54": -0.00017923744926151184,
+          "H56": 0.0011960257019607567,
+          "H1011": -4.5200087636573244e-08
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": true,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": false,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 8,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b07-topology_only-f1/20-p33/32",
+      "profile": "topology_only",
+      "guard_floor": "1/20",
+      "post_factor": "33/32",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.5281395361462723e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        9.825200125223646e-12,
+        -1.0192660549454991e-10
+      ],
+      "target_wall_residual_max": 1.0192660549454991e-10,
+      "refined_float_wall_linf": 1.528170523779815e-05,
+      "exact_wall_step": "15281705237798151/1000000000000000000000",
+      "exact_endpoint_linf": 1.5759258526479327e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "2bd8d9a5189e6f4a103ed62107a8d222ed2030c2eba99c94af55e9232ef89b5f",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.2104785858805212e-05
+        },
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.210478523182743e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2104639671680032e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.2104638836686557e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.2104638535574497e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.2104635466008682e-05
+        },
+        {
+          "mode": [
+            7,
+            "v"
+          ],
+          "coefficient": -2.0121672523060966e-05
+        },
+        {
+          "mode": [
+            12,
+            "v"
+          ],
+          "coefficient": -2.012165549958169e-05
+        },
+        {
+          "mode": [
+            13,
+            "v"
+          ],
+          "coefficient": -2.0121653723191488e-05
+        },
+        {
+          "mode": [
+            11,
+            "v"
+          ],
+          "coefficient": -2.0121653096261648e-05
+        },
+        {
+          "mode": [
+            14,
+            "v"
+          ],
+          "coefficient": -2.012165265919792e-05
+        },
+        {
+          "mode": [
+            15,
+            "v"
+          ],
+          "coefficient": -2.0121652049332625e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            60,
+            159,
+            101
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": 8.71900667062128e-05,
+          "U8": 0.996584833033627,
+          "U54": -4.4814935305629666e-05,
+          "H56": 0.0011960483395943022,
+          "H1011": -1.1296501952786867e-08
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": true,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 8,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b08-topology_only-f1/20-p17/16",
+      "profile": "topology_only",
+      "guard_floor": "1/20",
+      "post_factor": "17/16",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.528141841496033e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        -5.901500075215502e-12,
+        3.9609453021299776e-10
+      ],
+      "target_wall_residual_max": 3.9609453021299776e-10,
+      "refined_float_wall_linf": 1.5281729573368124e-05,
+      "exact_wall_step": "3820432393342031/250000000000000000000",
+      "exact_endpoint_linf": 1.6236837671703624e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "0efeb39579461cc1ed33b4cda1966a9fbdd0332a0b6cbd1308485ba825dad1ec",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.210481981556346e-05
+        },
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.2104819167952153e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2104672944303685e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.2104672039293698e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.210467171470469e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.210466839242606e-05
+        },
+        {
+          "mode": [
+            7,
+            "v"
+          ],
+          "coefficient": -2.0121704617746876e-05
+        },
+        {
+          "mode": [
+            12,
+            "v"
+          ],
+          "coefficient": -2.0121686195680073e-05
+        },
+        {
+          "mode": [
+            13,
+            "v"
+          ],
+          "coefficient": -2.0121684273524334e-05
+        },
+        {
+          "mode": [
+            11,
+            "v"
+          ],
+          "coefficient": -2.012168359453421e-05
+        },
+        {
+          "mode": [
+            14,
+            "v"
+          ],
+          "coefficient": -2.0121683122132164e-05
+        },
+        {
+          "mode": [
+            15,
+            "v"
+          ],
+          "coefficient": -2.0121682462148662e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            60,
+            159,
+            101
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": 8.658250417586183e-05,
+          "U8": 0.9965848331197636,
+          "U54": -8.96261551147552e-05,
+          "H56": 0.0011960408553395308,
+          "H1011": -2.2593710293111305e-08
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": true,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 8,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b09-topology_only-f1/20-p9/8",
+      "profile": "topology_only",
+      "guard_floor": "1/20",
+      "post_factor": "9/8",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.5281460660278296e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        3.0836667059684604e-13,
+        2.9158750432618077e-10
+      ],
+      "target_wall_residual_max": 2.9158750432618077e-10,
+      "refined_float_wall_linf": 1.5281774105248488e-05,
+      "exact_wall_step": "1910221763156061/125000000000000000000",
+      "exact_endpoint_linf": 1.7191995868404534e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "7094382886dc369d30c4e8ed753d20ba7b2292f98fe13a7e3a933aa80677bf56",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.2104881991486028e-05
+        },
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.210488134811943e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2104734080517727e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.2104733202079048e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.210473288620061e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.2104729659301394e-05
+        },
+        {
+          "mode": [
+            7,
+            "v"
+          ],
+          "coefficient": -2.0121759587947353e-05
+        },
+        {
+          "mode": [
+            12,
+            "v"
+          ],
+          "coefficient": -2.0121741693403393e-05
+        },
+        {
+          "mode": [
+            13,
+            "v"
+          ],
+          "coefficient": -2.0121739826207677e-05
+        },
+        {
+          "mode": [
+            11,
+            "v"
+          ],
+          "coefficient": -2.0121739166917262e-05
+        },
+        {
+          "mode": [
+            14,
+            "v"
+          ],
+          "coefficient": -2.0121738707778984e-05
+        },
+        {
+          "mode": [
+            15,
+            "v"
+          ],
+          "coefficient": -2.0121738066700787e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            60,
+            159,
+            101
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": 8.536731980243003e-05,
+          "U8": 0.9965848332918384,
+          "U54": -0.000179237447734331,
+          "H56": 0.0011960258872959484,
+          "H1011": -4.518792739920897e-08
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": true,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 8,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b10-topology_only-f1/4-p33/32",
+      "profile": "topology_only",
+      "guard_floor": "1/4",
+      "post_factor": "33/32",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.5281562915975743e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        -1.3610666840136654e-12,
+        -2.5159098824604093e-10
+      ],
+      "target_wall_residual_max": 2.5159098824604093e-10,
+      "refined_float_wall_linf": 1.5281882030628956e-05,
+      "exact_wall_step": "3820470507657239/250000000000000000000",
+      "exact_endpoint_linf": 1.57594408440861e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "506e875c7e510e392d10f568d2fea889811547747e79397f7b65b052bf905f6d",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.2105032571105114e-05
+        },
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.210503189977367e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2104881912902285e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.210488095832938e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.2104880616615955e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.210487711411322e-05
+        },
+        {
+          "mode": [
+            7,
+            "v"
+          ],
+          "coefficient": -2.0121896129678783e-05
+        },
+        {
+          "mode": [
+            12,
+            "v"
+          ],
+          "coefficient": -2.0121876709346782e-05
+        },
+        {
+          "mode": [
+            13,
+            "v"
+          ],
+          "coefficient": -2.0121874683097124e-05
+        },
+        {
+          "mode": [
+            11,
+            "v"
+          ],
+          "coefficient": -2.0121873967109447e-05
+        },
+        {
+          "mode": [
+            14,
+            "v"
+          ],
+          "coefficient": -2.0121873469318297e-05
+        },
+        {
+          "mode": [
+            15,
+            "v"
+          ],
+          "coefficient": -2.012187277356613e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            60,
+            159,
+            101
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": 8.750659076337127e-05,
+          "U8": 0.9965848337786318,
+          "U54": -4.48149340288851e-05,
+          "H56": 0.0011960490618346808,
+          "H1011": -1.129655889928105e-08
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": true,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 8,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b11-topology_only-f1/4-p17/16",
+      "profile": "topology_only",
+      "guard_floor": "1/4",
+      "post_factor": "17/16",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.5281582077034415e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        3.0411333720930336e-12,
+        -2.6578330040350987e-10
+      ],
+      "target_wall_residual_max": 2.6578330040350987e-10,
+      "refined_float_wall_linf": 1.5281902310716173e-05,
+      "exact_wall_step": "15281902310716173/1000000000000000000000",
+      "exact_endpoint_linf": 1.6237021205135918e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "5d67b9b26a85f8ce5ed930f9ece5e99a102731c82f323f9c618c15c9b5692619",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.2105060832303366e-05
+        },
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.210506011701142e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2104909462884966e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.210490835144715e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.2104907957261778e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.2104903888913604e-05
+        },
+        {
+          "mode": [
+            7,
+            "v"
+          ],
+          "coefficient": -2.0121925253749647e-05
+        },
+        {
+          "mode": [
+            12,
+            "v"
+          ],
+          "coefficient": -2.0121902702073362e-05
+        },
+        {
+          "mode": [
+            13,
+            "v"
+          ],
+          "coefficient": -2.0121900349477152e-05
+        },
+        {
+          "mode": [
+            11,
+            "v"
+          ],
+          "coefficient": -2.012189951688983e-05
+        },
+        {
+          "mode": [
+            14,
+            "v"
+          ],
+          "coefficient": -2.0121898940019793e-05
+        },
+        {
+          "mode": [
+            15,
+            "v"
+          ],
+          "coefficient": -2.012189813205528e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            61,
+            162,
+            103
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": 8.690113559645059e-05,
+          "U8": 0.9965848338696842,
+          "U54": -8.962615225680203e-05,
+          "H56": 0.0011960415814544767,
+          "H1011": -2.2594648620800415e-08
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": true,
+          "all_active_rows_remain": true,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": true,
+          "s_positive": true,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 11,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b12-topology_only-f1/4-p9/8",
+      "profile": "topology_only",
+      "guard_floor": "1/4",
+      "post_factor": "9/8",
+      "solver_status": 0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "linear_wall_linf": 1.5281617075709536e-05,
+      "refinement_success": true,
+      "refinement_message": "`xtol` termination condition is satisfied.",
+      "target_wall_residuals": [
+        1.1079933474548744e-11,
+        -5.728533270832932e-10
+      ],
+      "target_wall_residual_max": 5.728533270832932e-10,
+      "refined_float_wall_linf": 1.528193922690673e-05,
+      "exact_wall_step": "1528193922690673/100000000000000000000",
+      "exact_endpoint_linf": 1.7192181630270056e-05,
+      "eligible_trust_grid": [
+        "1/50000",
+        "1/20000",
+        "1/10000"
+      ],
+      "exact_endpoint_sha256": "01340744137edd791a4788780da863cc9f71019c9e2d752b7045a856e179c4b1",
+      "active_mode_count": 165,
+      "largest_active_modes": [
+        {
+          "mode": [
+            1,
+            "u"
+          ],
+          "coefficient": 2.2105112339435767e-05
+        },
+        {
+          "mode": [
+            54,
+            "u"
+          ],
+          "coefficient": -2.2105111657239508e-05
+        },
+        {
+          "mode": [
+            2,
+            "u"
+          ],
+          "coefficient": -2.2104960227960242e-05
+        },
+        {
+          "mode": [
+            8,
+            "u"
+          ],
+          "coefficient": -2.2104959247785835e-05
+        },
+        {
+          "mode": [
+            3,
+            "u"
+          ],
+          "coefficient": -2.2104958897303862e-05
+        },
+        {
+          "mode": [
+            4,
+            "u"
+          ],
+          "coefficient": -2.210495530191045e-05
+        },
+        {
+          "mode": [
+            7,
+            "v"
+          ],
+          "coefficient": -2.012196808374078e-05
+        },
+        {
+          "mode": [
+            12,
+            "v"
+          ],
+          "coefficient": -2.0121948149014027e-05
+        },
+        {
+          "mode": [
+            13,
+            "v"
+          ],
+          "coefficient": -2.0121946069133705e-05
+        },
+        {
+          "mode": [
+            11,
+            "v"
+          ],
+          "coefficient": -2.0121945334057246e-05
+        },
+        {
+          "mode": [
+            14,
+            "v"
+          ],
+          "coefficient": -2.0121944823208413e-05
+        },
+        {
+          "mode": [
+            15,
+            "v"
+          ],
+          "coefficient": -2.012194410902444e-05
+        }
+      ],
+      "endpoint_audit": {
+        "signature": {
+          "f_vector": [
+            60,
+            159,
+            101
+          ],
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245
+            ]
+          ],
+          "unstable_vertices": [
+            1,
+            8
+          ],
+          "saddle_edges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "active_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54,
+            69,
+            72,
+            73,
+            88,
+            198,
+            224,
+            228,
+            229,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264
+          ]
+        },
+        "decisions": {
+          "S": 8.568998894490746e-05,
+          "U8": 0.996584834051069,
+          "U54": -0.00017923744230593554,
+          "H56": 0.0011960266226576088,
+          "H1011": -4.518884743830349e-08
+        },
+        "checks": {
+          "fresh_face_ledger_unchanged": false,
+          "f_vector_unchanged": false,
+          "all_active_rows_remain": false,
+          "base_stable": true,
+          "u8_remains_unstable": true,
+          "all_37_rails_remain": false,
+          "s_positive": true,
+          "h56_positive": true,
+          "u54_post_negative": true,
+          "h1011_post_negative": true,
+          "post_class_2_1_1": false,
+          "post_feature_sets_exact": false,
+          "target_wall_refined": true,
+          "linf_at_most_1e_4": true
+        },
+        "passed_check_count": 8,
+        "required_check_count": 14
+      },
+      "accepted_before_first_event_scan": false
+    },
+    {
+      "branch_id": "b13-mechanics_only-f0-p33/32",
+      "profile": "mechanics_only",
+      "guard_floor": "0",
+      "post_factor": "33/32",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b14-mechanics_only-f0-p17/16",
+      "profile": "mechanics_only",
+      "guard_floor": "0",
+      "post_factor": "17/16",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b15-mechanics_only-f0-p9/8",
+      "profile": "mechanics_only",
+      "guard_floor": "0",
+      "post_factor": "9/8",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b16-mechanics_only-f1/20-p33/32",
+      "profile": "mechanics_only",
+      "guard_floor": "1/20",
+      "post_factor": "33/32",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b17-mechanics_only-f1/20-p17/16",
+      "profile": "mechanics_only",
+      "guard_floor": "1/20",
+      "post_factor": "17/16",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b18-mechanics_only-f1/20-p9/8",
+      "profile": "mechanics_only",
+      "guard_floor": "1/20",
+      "post_factor": "9/8",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b19-mechanics_only-f1/4-p33/32",
+      "profile": "mechanics_only",
+      "guard_floor": "1/4",
+      "post_factor": "33/32",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b20-mechanics_only-f1/4-p17/16",
+      "profile": "mechanics_only",
+      "guard_floor": "1/4",
+      "post_factor": "17/16",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b21-mechanics_only-f1/4-p9/8",
+      "profile": "mechanics_only",
+      "guard_floor": "1/4",
+      "post_factor": "9/8",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b22-all_guards-f0-p33/32",
+      "profile": "all_guards",
+      "guard_floor": "0",
+      "post_factor": "33/32",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b23-all_guards-f0-p17/16",
+      "profile": "all_guards",
+      "guard_floor": "0",
+      "post_factor": "17/16",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b24-all_guards-f0-p9/8",
+      "profile": "all_guards",
+      "guard_floor": "0",
+      "post_factor": "9/8",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b25-all_guards-f1/20-p33/32",
+      "profile": "all_guards",
+      "guard_floor": "1/20",
+      "post_factor": "33/32",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b26-all_guards-f1/20-p17/16",
+      "profile": "all_guards",
+      "guard_floor": "1/20",
+      "post_factor": "17/16",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b27-all_guards-f1/20-p9/8",
+      "profile": "all_guards",
+      "guard_floor": "1/20",
+      "post_factor": "9/8",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b28-all_guards-f1/4-p33/32",
+      "profile": "all_guards",
+      "guard_floor": "1/4",
+      "post_factor": "33/32",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b29-all_guards-f1/4-p17/16",
+      "profile": "all_guards",
+      "guard_floor": "1/4",
+      "post_factor": "17/16",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "branch_id": "b30-all_guards-f1/4-p9/8",
+      "profile": "all_guards",
+      "guard_floor": "1/4",
+      "post_factor": "9/8",
+      "solver_status": 2,
+      "solver_success": false,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    }
+  ],
+  "event_scans": [
+    {
+      "branch_id": "b11-topology_only-f1/4-p17/16",
+      "endpoint_sha256": "5d67b9b26a85f8ce5ed930f9ece5e99a102731c82f323f9c618c15c9b5692619",
+      "primitive_count": 7922,
+      "family_counts": {
+        "mechanics_denominator": 325,
+        "support": 5959,
+        "in_face_turn": 18,
+        "face_component": 324,
+        "vertex_component": 324,
+        "edge_component": 972
+      },
+      "root_count_in_unit_segment": 27,
+      "first_event": {
+        "parameter": 1.181388056954364e-05,
+        "rows": [
+          {
+            "parameter": 1.181388056954364e-05,
+            "name": "face_raw:(224, 249, 250):(249, 250)",
+            "family": "face_component",
+            "semantic": null,
+            "degree": 11,
+            "normalized_residual": 1.5705684907989237e-17,
+            "normalized_derivative": 0.8196519080615676,
+            "odd_crossing": true
+          },
+          {
+            "parameter": 1.1813880571205309e-05,
+            "name": "edge:(249, 250):beta2",
+            "family": "edge_component",
+            "semantic": null,
+            "degree": 10,
+            "normalized_residual": 8.487600474337519e-16,
+            "normalized_derivative": 0.5167464859213916,
+            "odd_crossing": true
+          }
+        ]
+      },
+      "target_roots": [
+        {
+          "parameter": 0.9411764676584876,
+          "name": "edge:(10, 11):t",
+          "family": "edge_component",
+          "semantic": "H1011",
+          "degree": 5,
+          "normalized_residual": 1.964428619771752e-12,
+          "normalized_derivative": -1.000412195328205,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9411764676584876,
+          "name": "vertex:10:11",
+          "family": "vertex_component",
+          "semantic": "H1011",
+          "degree": 5,
+          "normalized_residual": 1.964428619771752e-12,
+          "normalized_derivative": -1.000412195328205,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9411764705844372,
+          "name": "edge:(1, 54):one_minus_t",
+          "family": "edge_component",
+          "semantic": "U54",
+          "degree": 5,
+          "normalized_residual": 1.5543122344752192e-15,
+          "normalized_derivative": -0.9999623496883889,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9411764705844372,
+          "name": "vertex:54:1",
+          "family": "vertex_component",
+          "semantic": "U54",
+          "degree": 5,
+          "normalized_residual": 1.5543122344752192e-15,
+          "normalized_derivative": -0.9999623496883889,
+          "odd_crossing": true
+        }
+      ],
+      "first_32_roots": [
+        {
+          "parameter": 1.181388056954364e-05,
+          "name": "face_raw:(224, 249, 250):(249, 250)",
+          "family": "face_component",
+          "semantic": null,
+          "degree": 11,
+          "normalized_residual": 1.5705684907989237e-17,
+          "normalized_derivative": 0.8196519080615676,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 1.1813880571205309e-05,
+          "name": "edge:(249, 250):beta2",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 10,
+          "normalized_residual": 8.487600474337519e-16,
+          "normalized_derivative": 0.5167464859213916,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.009467565712938976,
+          "name": "edge:(249, 250):beta1",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 10,
+          "normalized_residual": 4.955204935611079e-10,
+          "normalized_derivative": -0.5148596138986052,
+          "odd_crossing": false
+        },
+        {
+          "parameter": 0.009467566674446126,
+          "name": "face_raw:(228, 249, 250):(249, 250)",
+          "family": "face_component",
+          "semantic": null,
+          "degree": 11,
+          "normalized_residual": 7.534294368949368e-13,
+          "normalized_derivative": -0.809337204972848,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.010435212722786549,
+          "name": "edge:(1, 54):t",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 5,
+          "normalized_residual": 8.05622929478389e-12,
+          "normalized_derivative": 0.9999996663017235,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.010435212722786549,
+          "name": "vertex:1:54",
+          "family": "vertex_component",
+          "semantic": null,
+          "degree": 5,
+          "normalized_residual": 8.05622929478389e-12,
+          "normalized_derivative": 0.9999996663017235,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.12612103628686316,
+          "name": "face_raw:(224, 250, 251):(250, 251)",
+          "family": "face_component",
+          "semantic": null,
+          "degree": 11,
+          "normalized_residual": 2.3023249973164184e-13,
+          "normalized_derivative": 1.0195850349690518,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.12612103628778087,
+          "name": "edge:(250, 251):beta2",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 10,
+          "normalized_residual": 5.956207749235887e-13,
+          "normalized_derivative": 0.8608357429896949,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.12970234548569873,
+          "name": "face_raw:(228, 250, 251):(250, 251)",
+          "family": "face_component",
+          "semantic": null,
+          "degree": 11,
+          "normalized_residual": 1.0824674490095276e-15,
+          "normalized_derivative": -1.0214767961846247,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.12970234548570067,
+          "name": "edge:(250, 251):beta1",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 10,
+          "normalized_residual": 7.494005416219807e-16,
+          "normalized_derivative": -0.8574774625588111,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.2417608999496096,
+          "name": "edge:(229, 231):beta1",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 10,
+          "normalized_residual": 3.4916514124461173e-14,
+          "normalized_derivative": -0.33594479254425796,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.24176089994970407,
+          "name": "edge:(229, 231):beta2",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 10,
+          "normalized_residual": 3.219646771412954e-15,
+          "normalized_derivative": 0.3387622616385763,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.24176089994971217,
+          "name": "edge:(229, 231):gram",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 8,
+          "normalized_residual": 4.336808689942018e-19,
+          "normalized_derivative": -5.650861722994449e-16,
+          "odd_crossing": false
+        },
+        {
+          "parameter": 0.24176089994971353,
+          "name": "support:f101:w230",
+          "family": "support",
+          "semantic": null,
+          "degree": 3,
+          "normalized_residual": 6.938893903907228e-18,
+          "normalized_derivative": 0.4577096572566871,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.24176089994971353,
+          "name": "support:f102:w228",
+          "family": "support",
+          "semantic": null,
+          "degree": 3,
+          "normalized_residual": 6.938893903907228e-18,
+          "normalized_derivative": 0.4577096572566871,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.6885488824854175,
+          "name": "edge:(9, 10):one_minus_t",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 5,
+          "normalized_residual": 9.689360425113591e-12,
+          "normalized_derivative": 1.0003015551478909,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.6885488824854175,
+          "name": "vertex:10:9",
+          "family": "vertex_component",
+          "semantic": null,
+          "degree": 5,
+          "normalized_residual": 9.689360425113591e-12,
+          "normalized_derivative": 1.0003015551478909,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9411764676584876,
+          "name": "edge:(10, 11):t",
+          "family": "edge_component",
+          "semantic": "H1011",
+          "degree": 5,
+          "normalized_residual": 1.964428619771752e-12,
+          "normalized_derivative": -1.000412195328205,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9411764676584876,
+          "name": "vertex:10:11",
+          "family": "vertex_component",
+          "semantic": "H1011",
+          "degree": 5,
+          "normalized_residual": 1.964428619771752e-12,
+          "normalized_derivative": -1.000412195328205,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9411764705844372,
+          "name": "edge:(1, 54):one_minus_t",
+          "family": "edge_component",
+          "semantic": "U54",
+          "degree": 5,
+          "normalized_residual": 1.5543122344752192e-15,
+          "normalized_derivative": -0.9999623496883889,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9411764705844372,
+          "name": "vertex:54:1",
+          "family": "vertex_component",
+          "semantic": "U54",
+          "degree": 5,
+          "normalized_residual": 1.5543122344752192e-15,
+          "normalized_derivative": -0.9999623496883889,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9960994971276639,
+          "name": "face_raw:(198, 229, 230):(198, 229)",
+          "family": "face_component",
+          "semantic": null,
+          "degree": 11,
+          "normalized_residual": 3.7048586420951324e-11,
+          "normalized_derivative": -1.7297813780812838,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.996099497169565,
+          "name": "edge:(198, 229):beta1",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 10,
+          "normalized_residual": 1.310296315892856e-11,
+          "normalized_derivative": -0.20693692823620125,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9961538629705746,
+          "name": "edge:(198, 230):beta1",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 10,
+          "normalized_residual": 1.3900547379819272e-11,
+          "normalized_derivative": 0.7875782407183055,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9961538630010898,
+          "name": "face_raw:(198, 229, 230):(198, 230)",
+          "family": "face_component",
+          "semantic": null,
+          "degree": 11,
+          "normalized_residual": 2.22525331494694e-11,
+          "normalized_derivative": 1.7296148841128687,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.999815181595138,
+          "name": "face_raw:(229, 230, 231):(230, 231)",
+          "family": "face_component",
+          "semantic": null,
+          "degree": 11,
+          "normalized_residual": 5.995204332975845e-15,
+          "normalized_derivative": 1.5517891364714254,
+          "odd_crossing": true
+        },
+        {
+          "parameter": 0.9998151815951974,
+          "name": "edge:(230, 231):beta1",
+          "family": "edge_component",
+          "semantic": null,
+          "degree": 10,
+          "normalized_residual": 4.701794509287538e-14,
+          "normalized_derivative": 0.7441963718406742,
+          "odd_crossing": true
+        }
+      ],
+      "joint_first_event": false,
+      "root_tie_tolerance": 1e-08,
+      "warning": "Floating polynomial roots are locator evidence only; exact sharing requires a nontrivial rational gcd and an independent certificate."
+    }
+  ],
+  "selected_endpoint_artifact": {
+    "kind": "best_relaxed_noncandidate",
+    "file": "polyhedral-goemboc-r6/tracks/global_carrier_support/stage31_h1011_attack/joint_u54_h1011_attack/best_relaxed_endpoint.csv",
+    "sha256": "5d67b9b26a85f8ce5ed930f9ece5e99a102731c82f323f9c618c15c9b5692619",
+    "branch_id": "b11-topology_only-f1/4-p17/16"
+  },
+  "exact_fixed_ledger_obstruction": {
+    "receipt": "polyhedral-goemboc-r6/tracks/global_carrier_support/stage31_h1011_attack/joint_u54_h1011_attack/fixed_ledger_obstruction_receipt.json",
+    "sha256": "49eab17720135bd09f13e4195b44abf2c4d7754c21ab16d34ee01c0bd04d7760",
+    "verdict": "EXACT_FIXED_LEDGER_SELECTED_U54_NEIGHBOR1_PRECEDING_ZERO_OBSTRUCTION_PASS",
+    "consequence": "A path with no earlier mechanics zero cannot drive the authoritative selected U54 neighbor-1 component to zero, hence cannot realize the requested selected U54-neighbor-1/H1011-t first event."
+  },
+  "negative_scope": "The LP/refinement result is a finite-grid negative, not an LP-dual or global geometric impossibility claim. The separately bound exact identity receipt proves only the requested retained-ledger selected-component invariant.",
+  "proof_boundary": "No floating root tie is promoted to an exact shared root. A positive result would still require exact gcd, multiplicity, Bernstein interval, and independent post-class verification.",
+  "implementation": {
+    "search_script": "polyhedral-goemboc-r6/tracks/global_carrier_support/stage31_h1011_attack/joint_u54_h1011_attack/search_joint_u54_h1011.py",
+    "search_script_sha256": "6649fd91d9bfb8c746afda1a94cb9aa5e39d619ca05e5f5bfa9ea5a219090da8",
+    "exact_core_sha256": "d2d69ce6e4ddefd2ab7171b7e61bd09ae12846eaf509f61dd25be6d9bbb235dd",
+    "full_chart_owner_sha256": "3789ab0f1219bd0e7fe0cb0e64f96114e473f26e6584cac423f9a2d6bb0f4c9f",
+    "exhaustive_primitive_owner_sha256": "26ae55b9cdb029f2db26cfbd84d18e3d58f588c780a18e43d0e6d9eeedb73e51"
+  },
+  "verdict": "BOUNDED_JOINT_U54_H1011_SEARCH_NO_ACCEPTED_CANDIDATE"
+}

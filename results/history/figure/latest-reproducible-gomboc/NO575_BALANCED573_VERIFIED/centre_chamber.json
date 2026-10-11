@@ -1,0 +1,14 @@
+{
+  "status": "EXACT_FIXED_BODY_3D_CENTRE_CHAMBER_PASS",
+  "vertices": 573,
+  "guard_count": 7990,
+  "epsilon": "1/137438953472",
+  "epsilon_decimal": 7.275957614183426e-12,
+  "limiting_guard": [
+    "vertex",
+    95,
+    101
+  ],
+  "supremal_all_primitive_box_radius": "272189884082154377653021891600517787398941471294977722363/21247903280900827623151377590199232694923571392413759600000000000000",
+  "scope": "For this unchanged centred rational body, every mechanical primitive sign and inward support sign is unchanged for |c_x|,|c_y|,|c_z|<=epsilon. Not a body-coordinate, density or manufacturing tolerance."
+}

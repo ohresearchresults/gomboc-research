@@ -1,0 +1,177 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 1,
+        "minimum": 6.234380798222136e-06,
+        "facet_area_fraction": 0.00037508233162385446,
+        "centroid": [
+          1.6479203242780724e-16,
+          -1.2161773610908284e-18,
+          9.242947944290295e-17
+        ],
+        "loss": 0.00037508233162385446,
+        "trust": 0.02,
+        "seconds": 3.63739013671875
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999995563663467e-08,
+        "facet_area_fraction": 0.000332905547006335,
+        "centroid": [
+          -0.00024602223295225605,
+          -3.363542613229257e-05,
+          0.00029726616663671736
+        ],
+        "loss": 0.000332905547006335,
+        "trust": 0.0497664,
+        "seconds": 23.89735198020935
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999991971825405e-08,
+        "facet_area_fraction": 0.0003270902779335453,
+        "centroid": [
+          -0.00034377904388074935,
+          6.34568981064421e-06,
+          0.0004719972812368615
+        ],
+        "loss": 0.0003270902779335453,
+        "trust": 0.0497664,
+        "seconds": 88.25157499313354
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999995955147016e-08,
+        "facet_area_fraction": 0.00032579063324722187,
+        "centroid": [
+          -0.0003888270755685839,
+          8.626278932400988e-05,
+          0.0005664558665535143
+        ],
+        "loss": 0.00032579063324722187,
+        "trust": 0.0497664,
+        "seconds": 145.243558883667
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999989976262476e-08,
+        "facet_area_fraction": 0.00032103672282637966,
+        "centroid": [
+          -0.0005620465121705289,
+          0.00023734660856416156,
+          0.0007060343807268714
+        ],
+        "loss": 0.00032103672282637966,
+        "trust": 0.0497664,
+        "seconds": 205.62114715576172
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 25,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999998178211514e-08,
+        "facet_area_fraction": 0.0003169933744908438,
+        "centroid": [
+          -0.0007042319553941882,
+          0.00040100750752249337,
+          0.0008525103748412728
+        ],
+        "loss": 0.0003169933744908438,
+        "trust": 0.0497664,
+        "seconds": 270.1400649547577
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 30,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999980582453998e-08,
+        "facet_area_fraction": 0.00031187312023496895,
+        "centroid": [
+          -0.0008781082004639574,
+          0.0006086029979415312,
+          0.0009195576064086931
+        ],
+        "loss": 0.00031187312023496895,
+        "trust": 0.0497664,
+        "seconds": 333.55495023727417
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 35,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999996394912082e-08,
+        "facet_area_fraction": 0.0003073283682223095,
+        "centroid": [
+          -0.0010047227000359001,
+          0.0008250898773552839,
+          0.0010282143663669014
+        ],
+        "loss": 0.0003073283682223095,
+        "trust": 0.0497664,
+        "seconds": 406.3842911720276
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 40,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999986354815672e-08,
+        "facet_area_fraction": 0.0003020378502203798,
+        "centroid": [
+          -0.0012157798014792622,
+          0.0009857372058258826,
+          0.00112306414657137
+        ],
+        "loss": 0.0003020378502203798,
+        "trust": 0.0497664,
+        "seconds": 482.6675362586975
+      }
+    }
+  ]
+}

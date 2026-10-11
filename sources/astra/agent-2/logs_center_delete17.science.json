@@ -1,0 +1,16 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "NO_INCUMBENT",
+      "values": {
+        "box": 0.05,
+        "margin": 1e-08,
+        "status": 2,
+        "seconds": 0.015731096267700195
+      }
+    }
+  ]
+}

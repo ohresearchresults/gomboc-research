@@ -1,0 +1,21 @@
+{
+  "tag": "BQ13_C632_THREE_LINK_OWN110",
+  "complexity": 632,
+  "vertices": 180,
+  "edges": 316,
+  "facets": 138,
+  "strict": [
+    1,
+    1,
+    0
+  ],
+  "weak": [
+    0,
+    0,
+    0
+  ],
+  "definitionSha256": "5078c5ca7efa595074368e3a456dc8697407fe95c3ae7e697e1f9a41ee171da5",
+  "package": "../gomboc-C632-BQ13-2026-09-10",
+  "evidence": "Fresh local source-only winner replay: both supplied independent exact auditors, byte-identical full records matching author hash; endpoint escape forests, third centred integer mass integration and weak/negative fixtures passed. Not external review, global minimum or numerical mechanism replay.",
+  "globalMinimumProven": false
+}

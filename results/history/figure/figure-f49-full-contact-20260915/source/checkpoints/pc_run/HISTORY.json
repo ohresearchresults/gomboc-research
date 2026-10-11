@@ -1,0 +1,20 @@
+[
+  {
+    "it": 0,
+    "centre_distance": 9.901834592017234e-05,
+    "min_reference_exit": 7.056760540226897e-07,
+    "min_gap": 0.0008315269972237749,
+    "seconds": 0.2694706689999862,
+    "accepted": {
+      "alpha": 0.125,
+      "corrections": 3
+    }
+  },
+  {
+    "it": 1,
+    "centre_distance": 8.664105387025473e-05,
+    "min_reference_exit": 1.9419548959700045e-08,
+    "min_gap": 0.0008350008168903633,
+    "seconds": 19.803902473999983
+  }
+]

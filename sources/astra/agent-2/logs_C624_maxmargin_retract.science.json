@@ -1,0 +1,120 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "MAXIMIZE_OWN_MARGIN",
+      "values": {
+        "it": 0,
+        "margin": 6.9716992860335694e-06,
+        "S": 1,
+        "U": 1,
+        "centroid": [
+          -0.00016402952955749404,
+          3.939651488519747e-05,
+          7.203502035418272e-05
+        ],
+        "volume": 0.4748549284930984,
+        "minimum_noncontact": 0.0008247906522599324,
+        "trust": 0.04,
+        "seconds": 0.012563228607177734
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "MAXIMIZE_OWN_MARGIN",
+      "values": {
+        "it": 10,
+        "margin": 7.398476527359053e-06,
+        "S": 1,
+        "U": 1,
+        "centroid": [
+          -0.00019708266515611875,
+          4.87008817056035e-05,
+          0.00012987160130020555
+        ],
+        "volume": 0.47473404905186084,
+        "minimum_noncontact": 0.0008179388193028103,
+        "trust": 0.04,
+        "seconds": 168.70573806762695
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "MAXIMIZE_OWN_MARGIN",
+      "values": {
+        "it": 20,
+        "margin": 7.499187387661451e-06,
+        "S": 1,
+        "U": 1,
+        "centroid": [
+          -0.00019639655489972108,
+          4.625649331828278e-05,
+          0.00015083597269821704
+        ],
+        "volume": 0.4746999862081186,
+        "minimum_noncontact": 0.0008182944322471242,
+        "trust": 0.04,
+        "seconds": 401.44436717033386
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "MAXIMIZE_OWN_MARGIN",
+      "values": {
+        "it": 30,
+        "margin": 7.5408642112465314e-06,
+        "S": 1,
+        "U": 1,
+        "centroid": [
+          -0.00018954240002579765,
+          3.546885231763487e-05,
+          0.00016155496093291799
+        ],
+        "volume": 0.47468698265162723,
+        "minimum_noncontact": 0.0008170514702861009,
+        "trust": 0.04,
+        "seconds": 644.547327041626
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "MAXIMIZE_OWN_MARGIN",
+      "values": {
+        "it": 40,
+        "margin": 7.5730904575106855e-06,
+        "S": 1,
+        "U": 1,
+        "centroid": [
+          -0.00019052512061156542,
+          3.5078133057493516e-05,
+          0.00015270888770753995
+        ],
+        "volume": 0.4746790734698035,
+        "minimum_noncontact": 0.0008138690737489185,
+        "trust": 0.04,
+        "seconds": 874.7028160095215
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "MAXIMIZE_OWN_MARGIN",
+      "values": {
+        "it": 50,
+        "margin": 7.5873146342622004e-06,
+        "S": 1,
+        "U": 1,
+        "centroid": [
+          -0.0001834907280636479,
+          3.0005494138009947e-05,
+          0.00015840439461936728
+        ],
+        "volume": 0.4746766671558661,
+        "minimum_noncontact": 0.0008143253106922543,
+        "trust": 0.04,
+        "seconds": 1113.9510090351105
+      }
+    }
+  ]
+}

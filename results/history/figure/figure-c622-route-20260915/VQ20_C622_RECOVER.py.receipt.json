@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-15T17:16:48.757Z",
+  "file": "VQ20_C622_RECOVER.py",
+  "bytes": 90523,
+  "sha256": "7a5303c972ed90f1563add95829c4c6c2d23be78d9e6e3a17739f526081e75dd",
+  "sourceConversation": "6aa56c57-5c70-83eb-85d1-82d5d68c902b",
+  "sourceMessage": "32f1765a-83a6-418b-91f8-793a37d51c40",
+  "method": "Exact observed source artifact; authenticated same-origin download/no redirects; original length/SHA and local readback verified"
+}

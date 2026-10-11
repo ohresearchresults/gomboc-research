@@ -1,0 +1,107 @@
+{
+  "exact_C": 622,
+  "exact_V_E_F": [
+    176,
+    311,
+    137
+  ],
+  "exact_strict_S_U_H": [
+    1,
+    1,
+    0
+  ],
+  "exact_weak": [
+    0,
+    0,
+    0
+  ],
+  "common_centred_denominator_bits": 56802,
+  "common_centred_denominator_decimal_digits": 17099,
+  "STL_triangle_count": 348,
+  "triangulation_edges": 522,
+  "true_edges": 311,
+  "added_face_diagonals": 211,
+  "closed_consistently_oriented_indexed_mesh": true,
+  "ascii_25_significant_digits": {
+    "unique_vertices": 176,
+    "degenerate_triangles": 0,
+    "nonpositive_origin_tetrahedra": 0,
+    "mesh_centroid_approx": [
+      1.974264407774005e-26,
+      -1.3788050811496758e-26,
+      -3.247333744739383e-27
+    ],
+    "strict_supporting_vertex_count": 1,
+    "strict_supporting_vertex_ids": [
+      94
+    ],
+    "weak_supporting_vertex_count": 0,
+    "scope": "Supporting-plane vertex diagnostic about the oriented triangle-mesh centroid, not a full convex-hull/equilibrium audit of the rounded mesh."
+  },
+  "float32_import_simulation": {
+    "unique_vertices": 176,
+    "degenerate_triangles": 0,
+    "nonpositive_origin_tetrahedra": 0,
+    "mesh_centroid_approx": [
+      -2.346474632881039e-09,
+      1.4490158025631508e-09,
+      4.7725384503188956e-09
+    ],
+    "strict_supporting_vertex_count": 50,
+    "strict_supporting_vertex_ids": [
+      1,
+      9,
+      11,
+      14,
+      16,
+      20,
+      25,
+      28,
+      29,
+      33,
+      35,
+      37,
+      40,
+      46,
+      54,
+      55,
+      57,
+      59,
+      61,
+      63,
+      68,
+      69,
+      74,
+      76,
+      80,
+      82,
+      90,
+      94,
+      96,
+      99,
+      106,
+      114,
+      119,
+      123,
+      124,
+      133,
+      141,
+      147,
+      152,
+      155,
+      156,
+      157,
+      158,
+      159,
+      163,
+      166,
+      167,
+      170,
+      171,
+      174
+    ],
+    "weak_supporting_vertex_count": 0,
+    "scope": "Supporting-plane vertex diagnostic about the oriented triangle-mesh centroid, not a full convex-hull/equilibrium audit of the rounded mesh."
+  },
+  "physical_printability_certified": false
+}

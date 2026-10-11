@@ -1,0 +1,26 @@
+{
+  "files": 129,
+  "utf8_bytes": 692008,
+  "sha256": "d57a8fcf6c75e13425efcafcdb65f0f086ac0308904b11779bd92cc5be85c407",
+  "lzma_bytes": 129832,
+  "base85_chars": 162290,
+  "bodies": [
+    "C634_SOC",
+    "C636_CONTACT3_68",
+    "C636_GRID7",
+    "C636_H213_SOC",
+    "C638_CONTACT77_84",
+    "C638_H213_GRID7",
+    "C638_H213_RESTORED",
+    "C640_CONTACT60_121",
+    "C640_H213_RESTORED",
+    "C642_CONTACT26_82",
+    "C642_GRID6_REPAIR169",
+    "C642_GRID6_UNREPAIRED_OWN121",
+    "C642_H213_RESTORED",
+    "C642_QGRID7",
+    "C644_COARSEN86",
+    "C646_COARSEN132",
+    "C648_REPAIR44"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "source": "reverse_wall_bypass_deep5_after_independent.csv",
+  "lp_json": "post_independent1_lp.json",
+  "alpha": 1e-05,
+  "lp_delta": 0.9623994983181762,
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "f_vector": [
+    60,
+    158,
+    100
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "faces_match": true,
+  "removed_faces": [],
+  "added_faces": [],
+  "all_vertices_active": false,
+  "lost_vertices": [
+    73
+  ],
+  "all_forced_rails_present": true,
+  "missing_forced_rails": [],
+  "topology_margin": 1.3293348921639137e-09,
+  "death_ratios": {
+    "('face', (7, 8, 245, 246), (8, 246))": 0.9999900274944586,
+    "('vertex', 54, 1)": 0.9999899985434998,
+    "('edge', (6, 7), 'one_minus_t')": 0.9999785935316462,
+    "('edge', (9, 10), 't')": 0.9999885823787992
+  },
+  "missing_selected_guards": [],
+  "minimum_signed_guard_ratio": 0.9203199248899401,
+  "minimum_signed_guard": {
+    "key": "('topology', (198, 234, 236), 235)",
+    "kind": "support_slack",
+    "baseline_value": 1.4444269391677977e-09,
+    "new_value": 1.3293348921639137e-09
+  }
+}

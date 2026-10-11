@@ -1,0 +1,226 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 135,
+        "E": 225,
+        "F": 92,
+        "S": 58,
+        "U": 33,
+        "Pmax": 0.03558060726350651,
+        "Qmax": 0.014747921626839177,
+        "ucost": 1.9152660483346966,
+        "scost": 1.2284957790151432,
+        "objective": 3.1437618273498398,
+        "minimum_noncontact": 6.340023657847027e-06,
+        "it": 0,
+        "seconds": 0.7155091762542725,
+        "trust": 0.03
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 137,
+        "E": 229,
+        "F": 94,
+        "S": 53,
+        "U": 19,
+        "Pmax": 0.20748036334273406,
+        "Qmax": 0.006559731202121806,
+        "ucost": 1.496906708683424,
+        "scost": 0.7897981052534788,
+        "objective": 2.286704813936903,
+        "minimum_noncontact": 1.510751817224154e-05,
+        "it": 10,
+        "seconds": 5.920560121536255,
+        "trust": 0.11524799999999996
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 136,
+        "E": 228,
+        "F": 94,
+        "S": 33,
+        "U": 19,
+        "Pmax": 0.2185643619802938,
+        "Qmax": 0.009484648218505766,
+        "ucost": 1.239812549335889,
+        "scost": 0.5194976640866177,
+        "objective": 1.7593102134225065,
+        "minimum_noncontact": 1.6888202181930545e-05,
+        "it": 20,
+        "seconds": 9.428434133529663,
+        "trust": 0.16134719999999994
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 137,
+        "E": 230,
+        "F": 95,
+        "S": 51,
+        "U": 8,
+        "Pmax": 0.27554998209009385,
+        "Qmax": 0.017150371118628223,
+        "ucost": 0.9628032270627488,
+        "scost": 0.32100466749127543,
+        "objective": 1.283807894554024,
+        "minimum_noncontact": 2.8472721826267033e-05,
+        "it": 30,
+        "seconds": 13.149349927902222,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 134,
+        "E": 225,
+        "F": 93,
+        "S": 30,
+        "U": 8,
+        "Pmax": 0.2808610884711936,
+        "Qmax": 0.020848094974894475,
+        "ucost": 0.8029338670823276,
+        "scost": 0.24850770612813694,
+        "objective": 1.0514415732104645,
+        "minimum_noncontact": 3.545524984716053e-09,
+        "it": 40,
+        "seconds": 15.807542085647583,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 132,
+        "E": 222,
+        "F": 92,
+        "S": 45,
+        "U": 6,
+        "Pmax": 0.28224388433804515,
+        "Qmax": 0.021493127433344705,
+        "ucost": 0.7871735484777386,
+        "scost": 0.2534146558980661,
+        "objective": 1.0405882043758048,
+        "minimum_noncontact": 1.4956492104811758e-06,
+        "it": 50,
+        "seconds": 18.340583086013794,
+        "trust": 0.12649620479999996
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 135,
+        "E": 227,
+        "F": 94,
+        "S": 38,
+        "U": 6,
+        "Pmax": 0.30653971032290606,
+        "Qmax": 0.022547290652241286,
+        "ucost": 0.7746657731894846,
+        "scost": 0.20162750688624753,
+        "objective": 0.9762932800757321,
+        "minimum_noncontact": 3.624122224543669e-09,
+        "it": 60,
+        "seconds": 20.80038619041443,
+        "trust": 0.12649620479999996
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 135,
+        "E": 227,
+        "F": 94,
+        "S": 38,
+        "U": 6,
+        "Pmax": 0.30653955616460926,
+        "Qmax": 0.022547367089920844,
+        "ucost": 0.7746638471063343,
+        "scost": 0.2016212576805892,
+        "objective": 0.9762851047869234,
+        "minimum_noncontact": 1.0014400420033098e-10,
+        "it": 70,
+        "seconds": 22.25091004371643,
+        "trust": 0.00323830284288
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 135,
+        "E": 227,
+        "F": 94,
+        "S": 38,
+        "U": 6,
+        "Pmax": 0.3065395561889734,
+        "Qmax": 0.022547367098277406,
+        "ucost": 0.7746638467393892,
+        "scost": 0.20162125683042398,
+        "objective": 0.9762851035698131,
+        "minimum_noncontact": 1.000097782366538e-10,
+        "it": 80,
+        "seconds": 24.72249412536621,
+        "trust": 2.122254151109837e-06
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 135,
+        "E": 227,
+        "F": 94,
+        "S": 38,
+        "U": 6,
+        "Pmax": 0.3065395561889734,
+        "Qmax": 0.022547367098277406,
+        "ucost": 0.7746638467393892,
+        "scost": 0.20162125683042398,
+        "objective": 0.9762851035698131,
+        "minimum_noncontact": 1.000097782366538e-10,
+        "it": 90,
+        "seconds": 32.79147720336914,
+        "trust": 2.2253447687541494e-10
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "FINITE_MULTIPLE_CAP_DIRECT_STALLED",
+      "values": {
+        "V": 135,
+        "E": 227,
+        "F": 94,
+        "S": 38,
+        "U": 6,
+        "Pmax": 0.3065395561889734,
+        "Qmax": 0.022547367098277406,
+        "ucost": 0.7746638467393892,
+        "scost": 0.20162125683042398,
+        "objective": 0.9762851035698131,
+        "minimum_noncontact": 1.000097782366538e-10,
+        "it": 95,
+        "seconds": 38.56984305381775,
+        "trust": 2.2787530432042495e-12
+      }
+    }
+  ]
+}

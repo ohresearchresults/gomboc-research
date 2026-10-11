@@ -1,0 +1,27 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "INDEPENDENT_A",
+      "values": {
+        "seconds": 9.63370394706726,
+        "different_fields": [],
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "V": 130,
+        "E": 248,
+        "F": 120
+      }
+    }
+  ]
+}

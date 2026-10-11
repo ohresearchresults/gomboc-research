@@ -1,0 +1,1056 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 0,
+        "loss": 0.008555734999272036,
+        "S": 36,
+        "U": 71,
+        "minimum_noncontact": 1.2755286971644075e-05,
+        "trust": 0.02,
+        "seconds": 3.6288602352142334,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 10,
+        "loss": 0.004112560665264176,
+        "S": 35,
+        "U": 49,
+        "minimum_noncontact": 9.624523089613035e-08,
+        "trust": 0.0703575258383984,
+        "seconds": 26.997510194778442,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 20,
+        "loss": 0.0019028605320139077,
+        "S": 44,
+        "U": 48,
+        "minimum_noncontact": 2.0746839368701586e-06,
+        "trust": 0.14151411528977953,
+        "seconds": 49.12192630767822,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 30,
+        "loss": 0.001023390451139081,
+        "S": 49,
+        "U": 57,
+        "minimum_noncontact": 1.5463671093618458e-06,
+        "trust": 0.21522528009134337,
+        "seconds": 71.47345614433289,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 40,
+        "loss": 0.0007710525780889522,
+        "S": 50,
+        "U": 61,
+        "minimum_noncontact": 1.6808065004481065e-05,
+        "trust": 0.21522528009134337,
+        "seconds": 94.44554018974304,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 50,
+        "loss": 0.0006694600312958229,
+        "S": 50,
+        "U": 64,
+        "minimum_noncontact": 2.4158730389300942e-05,
+        "trust": 0.21522528009134337,
+        "seconds": 115.70279502868652,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 60,
+        "loss": 0.0006000793854583523,
+        "S": 51,
+        "U": 66,
+        "minimum_noncontact": 4.139454460472258e-05,
+        "trust": 0.21522528009134337,
+        "seconds": 136.90766310691833,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 70,
+        "loss": 0.0005417240806479215,
+        "S": 52,
+        "U": 64,
+        "minimum_noncontact": 3.7028018999962775e-05,
+        "trust": 0.21522528009134337,
+        "seconds": 157.52111101150513,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 80,
+        "loss": 0.000505769743648335,
+        "S": 53,
+        "U": 67,
+        "minimum_noncontact": 2.7254711618796e-05,
+        "trust": 0.21522528009134337,
+        "seconds": 180.72307205200195,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 90,
+        "loss": 0.000474285452965469,
+        "S": 53,
+        "U": 68,
+        "minimum_noncontact": 1.6645262457259946e-05,
+        "trust": 0.21522528009134337,
+        "seconds": 198.22181105613708,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 100,
+        "loss": 0.00045024331106998766,
+        "S": 53,
+        "U": 69,
+        "minimum_noncontact": 7.036706732743703e-06,
+        "trust": 0.21522528009134337,
+        "seconds": 214.3911590576172,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 110,
+        "loss": 0.00043214140359463783,
+        "S": 55,
+        "U": 71,
+        "minimum_noncontact": 1.979944538432754e-06,
+        "trust": 0.21522528009134337,
+        "seconds": 231.06815123558044,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 120,
+        "loss": 0.0004147054065225413,
+        "S": 54,
+        "U": 71,
+        "minimum_noncontact": 8.155056019365503e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 248.43308520317078,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 130,
+        "loss": 0.00040317625535188736,
+        "S": 55,
+        "U": 70,
+        "minimum_noncontact": 4.792268405440225e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 263.71898126602173,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 140,
+        "loss": 0.000394808169801656,
+        "S": 55,
+        "U": 72,
+        "minimum_noncontact": 3.0568876852044014e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 277.2354311943054,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 150,
+        "loss": 0.00038690989302286015,
+        "S": 57,
+        "U": 73,
+        "minimum_noncontact": 2.0790910570944732e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 289.9198100566864,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 160,
+        "loss": 0.00037978403139212873,
+        "S": 56,
+        "U": 74,
+        "minimum_noncontact": 1.6267965396998818e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 302.2128851413727,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 170,
+        "loss": 0.000373739406066528,
+        "S": 56,
+        "U": 75,
+        "minimum_noncontact": 1.376649405582242e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 314.98271322250366,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 180,
+        "loss": 0.0003688794967092758,
+        "S": 56,
+        "U": 75,
+        "minimum_noncontact": 1.2785049718910813e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 327.3094253540039,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 190,
+        "loss": 0.0003659153794298483,
+        "S": 57,
+        "U": 75,
+        "minimum_noncontact": 1.2206041344331453e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 339.1347951889038,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 200,
+        "loss": 0.00036186381802698196,
+        "S": 57,
+        "U": 75,
+        "minimum_noncontact": 1.1627825302618078e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 350.82511734962463,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 210,
+        "loss": 0.00035825376371332067,
+        "S": 56,
+        "U": 75,
+        "minimum_noncontact": 1.118927409615722e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 362.32528614997864,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 220,
+        "loss": 0.0003535092887788304,
+        "S": 57,
+        "U": 76,
+        "minimum_noncontact": 1.0899015379095545e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 373.8516900539398,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 230,
+        "loss": 0.0003513296223426355,
+        "S": 56,
+        "U": 75,
+        "minimum_noncontact": 1.0753288659515192e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 385.414675951004,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 240,
+        "loss": 0.0003481563892964916,
+        "S": 56,
+        "U": 76,
+        "minimum_noncontact": 1.055513586534218e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 396.8214023113251,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 250,
+        "loss": 0.0003441501343286964,
+        "S": 56,
+        "U": 76,
+        "minimum_noncontact": 1.0441813225181562e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 409.49028420448303,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 260,
+        "loss": 0.00034162386645492223,
+        "S": 56,
+        "U": 76,
+        "minimum_noncontact": 1.0381334836218059e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 423.6925733089447,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 270,
+        "loss": 0.0003393694183051087,
+        "S": 56,
+        "U": 75,
+        "minimum_noncontact": 1.0343363610054723e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 438.40160727500916,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 280,
+        "loss": 0.0003369418873757693,
+        "S": 56,
+        "U": 75,
+        "minimum_noncontact": 1.0276512818485628e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 451.97254514694214,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 290,
+        "loss": 0.0003351889641719127,
+        "S": 56,
+        "U": 76,
+        "minimum_noncontact": 1.0245812276377109e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 465.8326060771942,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 300,
+        "loss": 0.00033338162927650953,
+        "S": 56,
+        "U": 76,
+        "minimum_noncontact": 1.0214160972576991e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 479.1516559123993,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 310,
+        "loss": 0.00033230168632489613,
+        "S": 56,
+        "U": 76,
+        "minimum_noncontact": 1.0200466327159319e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 491.9663851261139,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 320,
+        "loss": 0.0003310388524873074,
+        "S": 56,
+        "U": 76,
+        "minimum_noncontact": 1.0181417764432155e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 506.1259391307831,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 330,
+        "loss": 0.00032909258114034907,
+        "S": 56,
+        "U": 76,
+        "minimum_noncontact": 1.0161050845169939e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 520.0844442844391,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 340,
+        "loss": 0.0003269559100674025,
+        "S": 56,
+        "U": 77,
+        "minimum_noncontact": 1.014624682049714e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 532.3532643318176,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 350,
+        "loss": 0.0003246352346631458,
+        "S": 57,
+        "U": 77,
+        "minimum_noncontact": 1.0107867021158512e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 545.5216410160065,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 360,
+        "loss": 0.00032198129300220474,
+        "S": 57,
+        "U": 77,
+        "minimum_noncontact": 1.0102031289260793e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 558.3339912891388,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 370,
+        "loss": 0.0003205885064710843,
+        "S": 57,
+        "U": 77,
+        "minimum_noncontact": 1.0094576685659717e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 571.7986280918121,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 380,
+        "loss": 0.0003198430580457972,
+        "S": 57,
+        "U": 77,
+        "minimum_noncontact": 1.0087345458931196e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 586.3748941421509,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 390,
+        "loss": 0.00031913283286334683,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0083552792750083e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 601.6527681350708,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 400,
+        "loss": 0.000317577478905679,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0074399336978956e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 614.0548202991486,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 410,
+        "loss": 0.0003169496527865151,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0071534484179523e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 627.3501210212708,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 420,
+        "loss": 0.0003165726204275489,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0069056755046546e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 639.4589660167694,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 430,
+        "loss": 0.0003158699452125234,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0065476141463137e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 650.3917722702026,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 440,
+        "loss": 0.0003153490977373448,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0062467847848922e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 661.4075081348419,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 450,
+        "loss": 0.00031484336552470716,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0060971622483095e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 672.3843970298767,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 460,
+        "loss": 0.00031437505562136633,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.005793900388241e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 683.1551270484924,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 470,
+        "loss": 0.00031396742626131277,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.00557131399448e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 694.2925062179565,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 480,
+        "loss": 0.0003133669450925581,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.005523116992535e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 705.079653263092,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 490,
+        "loss": 0.0003125263910885133,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0056890553666875e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 716.3126709461212,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 500,
+        "loss": 0.0003115533918932595,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0053921706276725e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 728.2681841850281,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 510,
+        "loss": 0.00031084814291447487,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0050879417633496e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 741.4192681312561,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 520,
+        "loss": 0.00030958702367448533,
+        "S": 58,
+        "U": 77,
+        "minimum_noncontact": 1.0051082777184916e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 754.9118571281433,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 530,
+        "loss": 0.0003081111720235289,
+        "S": 58,
+        "U": 79,
+        "minimum_noncontact": 1.005271229592708e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 768.2991843223572,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 540,
+        "loss": 0.0003070374705127964,
+        "S": 58,
+        "U": 79,
+        "minimum_noncontact": 1.0048815413110646e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 780.3387069702148,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 550,
+        "loss": 0.00030624949645998085,
+        "S": 58,
+        "U": 79,
+        "minimum_noncontact": 1.0047316056915889e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 791.4288830757141,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 560,
+        "loss": 0.0003054122605836367,
+        "S": 58,
+        "U": 79,
+        "minimum_noncontact": 1.0045468901154209e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 801.9470191001892,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 570,
+        "loss": 0.000304250625179432,
+        "S": 58,
+        "U": 79,
+        "minimum_noncontact": 1.0041925557757736e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 812.5060250759125,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 580,
+        "loss": 0.0003026577926239876,
+        "S": 59,
+        "U": 79,
+        "minimum_noncontact": 1.0057586763423387e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 822.9754450321198,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 590,
+        "loss": 0.0003009973961239222,
+        "S": 59,
+        "U": 79,
+        "minimum_noncontact": 1.0066861022561824e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 833.3626942634583,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 600,
+        "loss": 0.00029844451257579917,
+        "S": 60,
+        "U": 79,
+        "minimum_noncontact": 1.0070515743532127e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 843.8652200698853,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 610,
+        "loss": 0.0002963160880457392,
+        "S": 60,
+        "U": 79,
+        "minimum_noncontact": 1.0079615919700302e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 854.3280282020569,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 620,
+        "loss": 0.0002937074557050471,
+        "S": 60,
+        "U": 79,
+        "minimum_noncontact": 1.0094831748297395e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 864.9949822425842,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 630,
+        "loss": 0.0002908991370078775,
+        "S": 61,
+        "U": 79,
+        "minimum_noncontact": 1.0053370702589604e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 875.2379541397095,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 640,
+        "loss": 0.0002884447780293131,
+        "S": 61,
+        "U": 79,
+        "minimum_noncontact": 1.009806953611303e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 885.5416581630707,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 650,
+        "loss": 0.00028716950987218206,
+        "S": 61,
+        "U": 79,
+        "minimum_noncontact": 1.0118299009764797e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 895.9998362064362,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 660,
+        "loss": 0.0002846420075469654,
+        "S": 61,
+        "U": 79,
+        "minimum_noncontact": 1.0076342893405865e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 906.3726162910461,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 670,
+        "loss": 0.0002828668074101993,
+        "S": 61,
+        "U": 80,
+        "minimum_noncontact": 1.0061099586788913e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 917.3773319721222,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 680,
+        "loss": 0.00028078080356969235,
+        "S": 61,
+        "U": 80,
+        "minimum_noncontact": 1.0095143476718249e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 928.249703168869,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 690,
+        "loss": 0.00027977160811319007,
+        "S": 61,
+        "U": 80,
+        "minimum_noncontact": 1.0093386504372859e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 938.8763892650604,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 700,
+        "loss": 0.00027864940227507746,
+        "S": 61,
+        "U": 80,
+        "minimum_noncontact": 1.0087062674024594e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 949.8620932102203,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 710,
+        "loss": 0.0002778516308574077,
+        "S": 60,
+        "U": 79,
+        "minimum_noncontact": 1.007276293485404e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 961.0210711956024,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 720,
+        "loss": 0.0002771950901065872,
+        "S": 60,
+        "U": 79,
+        "minimum_noncontact": 1.0069076650243147e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 971.9441771507263,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 730,
+        "loss": 0.00027675214248466736,
+        "S": 60,
+        "U": 79,
+        "minimum_noncontact": 1.0067566336147138e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 985.0116741657257,
+        "tau": -1.0
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "ATLAS_FLOW",
+      "values": {
+        "it": 740,
+        "loss": 0.00027612661580759417,
+        "S": 60,
+        "U": 79,
+        "minimum_noncontact": 1.0060001054412737e-07,
+        "trust": 0.21522528009134337,
+        "seconds": 997.1083812713623,
+        "tau": -1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "at": "2026-09-15T22:05:04.451Z",
+  "status": "LOCAL_C96_INTEGER_HULL_AB_AND_THIRD_MASS_PASS",
+  "identity": "COORD_C96_PLANAR24_PYRAMID_OWN211",
+  "journalEvent": 1421,
+  "V": 25,
+  "E": 48,
+  "F": 25,
+  "C": 96,
+  "own": [
+    2,
+    1,
+    1
+  ],
+  "weak": [
+    0,
+    0,
+    0
+  ],
+  "maximalFacetSizes": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    24
+  ],
+  "rawCentroid": [
+    "23694796297/3276041",
+    "-59026233271/13104164",
+    "-283800727279/13104164"
+  ],
+  "ordinaryVolume": "44086905700293",
+  "stableFaceIds": [
+    7,
+    23
+  ],
+  "unstableVertexIds": [
+    14
+  ],
+  "saddleEdges": [
+    [
+      15,
+      22
+    ]
+  ],
+  "commonCentredDenominator": 13104164,
+  "denominatorDecimalDigits": 8,
+  "mass": {
+    "common_centred_denominator_bits": 24,
+    "common_centred_integer_coordinate_max_bits": 41,
+    "filled_first_moments": [
+      0,
+      0,
+      0
+    ],
+    "status": "EXACT_CENTRED_INTEGER_TETRAHEDRA_PASS",
+    "tetrahedra": 46,
+    "volume_agrees_with_A_and_B": true
+  },
+  "source": {
+    "bytes": 1383,
+    "sha256": "f60b6aa912c78bffc96a70f9273988f829e5f6c8e2ea1d87c3b1e09340da989e"
+  },
+  "outputs": {
+    "POINTS.json": {
+      "bytes": 582,
+      "sha256": "b49d24fda9620582ca3a011efd07d45a6550aa4e748bdaca32e3f343de822742"
+    },
+    "raw.json": {
+      "bytes": 951,
+      "sha256": "9071c5c16df9d342e68a97c9720e73b8c52b1317c0531734f14d01a0783c2f43"
+    },
+    "A.json": {
+      "bytes": 4305,
+      "sha256": "a6c33c9f089de95cbbe52ebe51ecb4351306575df32f2aced706f62774793093"
+    },
+    "B.json": {
+      "bytes": 4305,
+      "sha256": "a6c33c9f089de95cbbe52ebe51ecb4351306575df32f2aced706f62774793093"
+    },
+    "MASS.json": {
+      "bytes": 216,
+      "sha256": "91636c316a2f18f8a79558431e5df4ae000430ff4d6480a692fabbcbcd95f06c"
+    }
+  },
+  "method": "Fresh run of byte-pinned literal generator: reconstruct projected integer points, enumerate exact supporting planes, run both complete exact A/B auditors and independent third centred mass integration. All five published output byte hashes reproduced. No precomputed report used as geometric input.",
+  "dependencies": "Pinned exact C138 POINTS25 input, C282 exact_points.py, and original intact Finch3 source/core; byte hashes verified before execution. Refer to README and canonical-entry.md.",
+  "scope": "Nonwinner own211, not a Gömböc, no global lower bound or universal pyramid exclusion; accepted own110 record remains C622."
+}

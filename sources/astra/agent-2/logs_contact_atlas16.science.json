@@ -1,0 +1,1039 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 134,
+        "F": 117,
+        "E": 249,
+        "nodes": 251,
+        "free": 255,
+        "depth": 6,
+        "levels": 13
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 36,
+        "U": 71,
+        "loss": 0.008562161826825029,
+        "minimum_noncontact": 1.2755286971644075e-05,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.24622133571936847,
+        "calls": 1,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 45,
+        "U": 59,
+        "loss": 0.007713299100823203,
+        "minimum_noncontact": 1.2678864388382394e-05,
+        "contact_error": 2.220446049250313e-16,
+        "floor": -0.24264067088043495,
+        "calls": 6,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 49,
+        "U": 55,
+        "loss": 0.005342359642475445,
+        "minimum_noncontact": 8.03627020484754e-09,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21244066757557972,
+        "calls": 500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291430988073466,
+        "minimum_noncontact": 4.6906589723505476e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169163365322582,
+        "calls": 1000,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291429737094515,
+        "minimum_noncontact": 4.6910031414881814e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169162399033575,
+        "calls": 1500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291428485510161,
+        "minimum_noncontact": 4.6913917195468e-11,
+        "contact_error": 2.220446049250313e-16,
+        "floor": -0.21169161432335315,
+        "calls": 2000,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291427207337554,
+        "minimum_noncontact": 4.6918025020659115e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169160445106847,
+        "calls": 2500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.0052914262418584206,
+        "minimum_noncontact": 4.6920578533615753e-11,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21169159618698638,
+        "calls": 3000,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291425523312484,
+        "minimum_noncontact": 4.692479738110933e-11,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21169158926797163,
+        "calls": 3500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291424791742383,
+        "minimum_noncontact": 4.692712884946104e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169158221813958,
+        "calls": 4000,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.00529142405957315,
+        "minimum_noncontact": 4.693001542932507e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169157516355247,
+        "calls": 4500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291423314582752,
+        "minimum_noncontact": 4.693334609839894e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.2116915679868227,
+        "calls": 5000,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.00529142226877787,
+        "minimum_noncontact": 4.693689881207774e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169155928641908,
+        "calls": 5500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.0052914209785264715,
+        "minimum_noncontact": 4.6940451525756544e-11,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21169154940975698,
+        "calls": 6000,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291419637679772,
+        "minimum_noncontact": 4.6944115261737807e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169153914518446,
+        "calls": 6500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291418757166624,
+        "minimum_noncontact": 4.694655775239198e-11,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21169153122255055,
+        "calls": 7000,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.00529141796680224,
+        "minimum_noncontact": 4.6948889220743695e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169152390687693,
+        "calls": 7500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.0052914171630107755,
+        "minimum_noncontact": 4.695177580060772e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169151646920412,
+        "calls": 8000,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291416406899733,
+        "minimum_noncontact": 4.695610567040376e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21169150937012854,
+        "calls": 8500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291416054587438,
+        "minimum_noncontact": 4.695888122796532e-11,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2116915052900843,
+        "calls": 9000,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005291415704228013,
+        "minimum_noncontact": 4.6960324517897334e-11,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2116915012287865,
+        "calls": 9500,
+        "tau": -1,
+        "mu": 0.0001
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 0.005285045034878315,
+        "minimum_noncontact": 4.6961767807829347e-11,
+        "contact_error": 2.220446049250313e-16,
+        "floor": -0.21169149867603976,
+        "calls": 1,
+        "tau": -1,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 50,
+        "U": 55,
+        "loss": 6.379215970996218,
+        "minimum_noncontact": 1.5456873166952434e-06,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2113543164250915,
+        "calls": 1,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 39,
+        "U": 49,
+        "loss": 4.963995377245137,
+        "minimum_noncontact": 9.885427456501894e-06,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.219769773746891,
+        "calls": 39,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 34,
+        "U": 46,
+        "loss": 4.880199023707832,
+        "minimum_noncontact": 9.754225841152042e-06,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.22242611339643284,
+        "calls": 40,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 45,
+        "U": 66,
+        "loss": 4.110057849275912,
+        "minimum_noncontact": 6.236375611479161e-07,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.2651504444721033,
+        "calls": 500,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 43,
+        "U": 68,
+        "loss": 3.9678552362227473,
+        "minimum_noncontact": 4.67722641206425e-06,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.26158448119287714,
+        "calls": 1000,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 40,
+        "U": 64,
+        "loss": 3.818219055111574,
+        "minimum_noncontact": 5.540262026926257e-08,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.25272590578853266,
+        "calls": 1500,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 40,
+        "U": 65,
+        "loss": 3.779469983570118,
+        "minimum_noncontact": 1.294623761527447e-07,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.2513047547830059,
+        "calls": 2000,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 40,
+        "U": 65,
+        "loss": 3.7784806895362553,
+        "minimum_noncontact": 6.5885914168895e-08,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.25126678124538737,
+        "calls": 2500,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 42,
+        "U": 73,
+        "loss": 3.6069284773401136,
+        "minimum_noncontact": 1.4399489177696623e-06,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.24319865003533123,
+        "calls": 3000,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 43,
+        "U": 72,
+        "loss": 3.5771712441742896,
+        "minimum_noncontact": 5.155625122821306e-06,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.24162637801272888,
+        "calls": 3500,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 39,
+        "U": 71,
+        "loss": 3.4750082284597683,
+        "minimum_noncontact": 7.685281644409514e-08,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2280290803582402,
+        "calls": 4000,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 67,
+        "loss": 3.4406814552605822,
+        "minimum_noncontact": 5.788568190334686e-07,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21949697336061788,
+        "calls": 4500,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 67,
+        "loss": 3.4406800722184423,
+        "minimum_noncontact": 5.659740127672563e-07,
+        "contact_error": 2.220446049250313e-16,
+        "floor": -0.2194965975812517,
+        "calls": 5000,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 67,
+        "loss": 3.4406791711171865,
+        "minimum_noncontact": 5.585140078201434e-07,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21949635432385847,
+        "calls": 5500,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 67,
+        "loss": 3.4406783422405307,
+        "minimum_noncontact": 5.520566057626297e-07,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21949613264292056,
+        "calls": 6000,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 67,
+        "loss": 3.4406774908871154,
+        "minimum_noncontact": 5.457590172008864e-07,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21949591526153084,
+        "calls": 6500,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 67,
+        "loss": 3.4406767173670567,
+        "minimum_noncontact": 5.39785455333508e-07,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.2194957081351104,
+        "calls": 7000,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 67,
+        "loss": 3.4406124463864796,
+        "minimum_noncontact": 4.3160578111489656e-08,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21947837669294168,
+        "calls": 7500,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 67,
+        "loss": 3.4406111761842757,
+        "minimum_noncontact": 3.9848453314839105e-08,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2194780193484209,
+        "calls": 8000,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 64,
+        "loss": 3.433849016709034,
+        "minimum_noncontact": 5.018955429036964e-08,
+        "contact_error": 6.661338147750939e-16,
+        "floor": -0.21756312523717405,
+        "calls": 8500,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 64,
+        "loss": 3.4338469524375155,
+        "minimum_noncontact": 4.759815819266322e-08,
+        "contact_error": 2.220446049250313e-16,
+        "floor": -0.21756257293510967,
+        "calls": 9000,
+        "tau": 0.03,
+        "mu": 1e-05
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 64,
+        "loss": 13.414385748573297,
+        "minimum_noncontact": 4.610903148183354e-08,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21756224957544537,
+        "calls": 1,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 65,
+        "loss": 13.406051841459753,
+        "minimum_noncontact": 1.245173186781301e-09,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21766674203476888,
+        "calls": 500,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 65,
+        "loss": 13.403352738744358,
+        "minimum_noncontact": 2.4552049615600424e-08,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21766144419429093,
+        "calls": 1000,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 37,
+        "U": 66,
+        "loss": 13.378817442233576,
+        "minimum_noncontact": 6.709689470696389e-10,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21758379765619648,
+        "calls": 1500,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 38,
+        "U": 66,
+        "loss": 12.932765273750531,
+        "minimum_noncontact": 2.4478168980657244e-07,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21667181592609053,
+        "calls": 2000,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 33,
+        "U": 60,
+        "loss": 12.532610889823218,
+        "minimum_noncontact": 3.941902530169017e-06,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2149895619003758,
+        "calls": 2360,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 35,
+        "U": 60,
+        "loss": 12.509333189674638,
+        "minimum_noncontact": 7.748006014551834e-09,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2147120591678223,
+        "calls": 2500,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 32,
+        "U": 63,
+        "loss": 12.173135348821502,
+        "minimum_noncontact": 1.0464973199120209e-07,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21326583419112988,
+        "calls": 3000,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 33,
+        "U": 65,
+        "loss": 11.95441550988129,
+        "minimum_noncontact": 1.546207765157348e-07,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21315354657446836,
+        "calls": 3500,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 33,
+        "U": 65,
+        "loss": 11.949661082892064,
+        "minimum_noncontact": 9.560025526766935e-08,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2131694463803638,
+        "calls": 4000,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 34,
+        "U": 62,
+        "loss": 11.559204808247857,
+        "minimum_noncontact": 3.4612693822211327e-09,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2144054765951358,
+        "calls": 4500,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 35,
+        "U": 63,
+        "loss": 11.532588743502773,
+        "minimum_noncontact": 3.6458415952900225e-07,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21433002266625822,
+        "calls": 5000,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 35,
+        "U": 63,
+        "loss": 11.532377158751279,
+        "minimum_noncontact": 3.9588206046659025e-09,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.2143297530525476,
+        "calls": 5500,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 35,
+        "U": 63,
+        "loss": 11.532282861513021,
+        "minimum_noncontact": 1.914764569121985e-09,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21432965061189796,
+        "calls": 6000,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 25,
+        "U": 55,
+        "loss": 12.463635594119886,
+        "minimum_noncontact": 5.420289419078017e-06,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21331821062866818,
+        "calls": 6271,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 35,
+        "U": 65,
+        "loss": 11.279962562835161,
+        "minimum_noncontact": 3.0505380177459074e-07,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.2139038580095584,
+        "calls": 6500,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 35,
+        "U": 65,
+        "loss": 11.277070516513776,
+        "minimum_noncontact": 1.0609624290225383e-11,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.21389526763705125,
+        "calls": 7000,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 35,
+        "U": 64,
+        "loss": 11.249590475202854,
+        "minimum_noncontact": 1.6714422068631052e-09,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.21364834781336706,
+        "calls": 7500,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 32,
+        "U": 60,
+        "loss": 10.860401563311171,
+        "minimum_noncontact": 7.392133571926252e-10,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.19719590040653354,
+        "calls": 8000,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 30,
+        "U": 56,
+        "loss": 10.415229352128135,
+        "minimum_noncontact": 1.6340147808158179e-06,
+        "contact_error": 5.551115123125783e-16,
+        "floor": -0.2215155240661253,
+        "calls": 8500,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 30,
+        "U": 58,
+        "loss": 10.35937007031598,
+        "minimum_noncontact": 1.1651764308950874e-07,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.2220879810749989,
+        "calls": 9000,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 32,
+        "U": 44,
+        "loss": 10.094604321557425,
+        "minimum_noncontact": 6.19738964591221e-06,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.2332358019754747,
+        "calls": 9215,
+        "tau": 0.003,
+        "mu": 1e-06
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 36,
+        "U": 51,
+        "loss": 22.845132594828915,
+        "minimum_noncontact": 3.90866622401731e-08,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.236603059666909,
+        "calls": 1,
+        "tau": 0.0003,
+        "mu": 1e-07
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 31,
+        "U": 44,
+        "loss": 27.83820957164167,
+        "minimum_noncontact": 2.217692309680608e-06,
+        "contact_error": 3.3306690738754696e-16,
+        "floor": -0.22708607953465923,
+        "calls": 342,
+        "tau": 0.0003,
+        "mu": 1e-07
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "scientific numeric record",
+      "values": {
+        "S": 34,
+        "U": 57,
+        "loss": 21.464270542259282,
+        "minimum_noncontact": 2.843730628754315e-07,
+        "contact_error": 4.440892098500626e-16,
+        "floor": -0.23302296431767236,
+        "calls": 500,
+        "tau": 0.0003,
+        "mu": 1e-07
+      }
+    }
+  ]
+}

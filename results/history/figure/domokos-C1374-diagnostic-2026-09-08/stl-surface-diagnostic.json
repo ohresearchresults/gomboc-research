@@ -1,0 +1,12 @@
+{
+  "stable_support_triangles": [
+    132
+  ],
+  "saddle_support_edges": [],
+  "degenerate_edges": [],
+  "unsupported_triangles": 92,
+  "max_support_violation_distance": 2.200673805543601e-14,
+  "note": "The rounded triangle surface is not exactly convex because coplanar facets are perturbed. Exact rational C1374 is convex; do not conflate its facet count with STL triangles.",
+  "root_source_id": 138,
+  "root_stl_id": 30
+}

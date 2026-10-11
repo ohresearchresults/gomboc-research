@@ -1,0 +1,63 @@
+# material-ed728e479844
+
+Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
+
+Public derivative: internal-record-identifiers-replaced.
+
+---
+
+# J115 exact relay bodies — recovery part 2 of 2
+
+Requires the complete exact115.cpp source in [internal-source-reference], J115_EXACT_AUDITOR_SOURCE.md. These two parts suffice without any prior sandbox, parent workspace, optimizer or floating library. The literal inputs below define three distinct homogeneous convex own121/additionalweak000 bodies, not own110. The G6 relay3 body is 124/186/64, C372, with P in (419325156574125,419325156574126)/10^15 and Q empty. Its G8 sibling has P in (419325033388561,419325033388562)/10^15. Relay1 G6 is 120/180/62, C360, P in (423034865551297,423034865551298)/10^15. All have primitive diagnostic zeros000. One exact auditor integrates the actual uniform volume centroid and complete maximal face lattice, direct/global census and every positive P/Q; no independent-verifier claim is made.
+
+The two G5 freezes are useful controls, not successful simplifications: relay1 is own424 with three positive Q, relay3 is own(13,2,13) with twelve positive Q, including depths below10^-12. They also have additionalweak000. Every body is defined in its raw rational frame, not pre-centred by a rounded centroid. The exact auditor supplies the exact volume and centroid. G6 versus G8 versus G5 are different rational bodies.
+
+Save the complete following block as REPLAY115.py and run `python REPLAY115.py` beside exact115.cpp. Python standard library, C++17 and GMP/GMPXX suffice; observed environment Python3.13.5, g++14.2.0 Debian14.2.0-19, GMP6.3.0. Assertions remain enabled. This cold reconstruction was executed and produced the terminal marker `J115_THREE_OWN121_TWO_COARSE_CONTROLS_ELEVEN_HASHES_AND_TWO_STANDARD_CONTROLS_PASS_NO_110`. The script checks eleven exact file identities, all five body counts/full positive-bar lengths, and tetrahedron446/cube6,8,12 rejection controls. Input and audit bytes/hashes are literal in EXPECTED; output ordering is fixed by the complete exact source. The numerical continuation mechanism and its producing code are a separate source dependency, not necessary to reconstruct these bodies.
+
+```python
+"""Cold reconstruction of three exact own121 J115 relay bodies and two coarse controls.
+Dependency: complete exact115.cpp in J115 exact recovery part 1. Python standard
+library, C++17 and GMP/GMPXX. All asserted identities are from executed outputs.
+"""
+from pathlib import Path
+from fractions import Fraction as F
+import hashlib, json, subprocess, sys
+if hasattr(sys,'set_int_max_str_digits'): sys.set_int_max_str_digits(0)
+INPUTS = {'J115_RELAY1_G6.txt': '62 1000000\n-793532 1353541 796280\n-1561700 870629 -538996\n-1391241 1110125 -477226\n-1185851 1312808 -421784\n-1428943 1142485 -167249\n-809708 1508128 406273\n-1104291 1345950 425039\n-966631 1353606 623131\n-432880 1675327 -246798\n-700727 1598173 -304023\n-599300 1332109 949243\n-954690 1477287 -357056\n738870 1414904 69969\n52768 1698807 50702\n706040 1414930 198107\n-639922 -1921710 -845733\n311645 1633318 189412\n1397575 -1097930 345791\n966149 711700 -420487\n1028536 626384 476995\n-393228 1281162 1084300\n684387 1355501 -494701\n337445 -1981729 -87494\n-52867 1204785 1177265\n315363 1548143 -480147\n-92444 -2038730 -448715\n-194359 1710895 -97105\n698695 -1810545 200425\n762725 -916068 1299649\n-508909 1061577 1227562\n428771 1127988 1058821\n617274 1243619 650699\n-56696 1662860 -358413\n1097957 -1487486 325150\n1488487 -829212 515944\n-1227110 1307345 226434\n-1335556 1239360 27851\n-1505836 1018044 -355834\n-1638280 659549 -657859\n-1684861 430336 -771440\n-1699408 179206 -879457\n-1676512 -93516 -978929\n-1613022 -390570 -1058974\n-1498524 -716470 -1112904\n-1336725 -1064691 -1106608\n-1079912 -1456799 -1039692\n820279 -1578258 628488\n846086 -1278091 994264\n534925 105758 -916719\n648613 371669 -820451\n1001457 -213477 -621429\n1602303 -449079 219769\n-103075 -2036539 -456505\n855512 -351551 1141122\n1190839 -636729 1000587\n1422983 -585783 809120\n1568602 -469181 588639\n80539 470673 -1003897\n474913 -878761 -687640\n-56861 -393051 -1064609\n468679 -401217 -895896\n1460173 -925223 457603\n', 'J115_RELAY3_G6.txt': '64 1000000\n-793115 1355352 797547\n-1562374 872178 -536364\n-1390975 1111588 -474780\n-1184389 1314041 -419792\n-1432151 1140866 -163774\n-807297 1508370 409599\n-1107345 1344643 428429\n-968325 1353610 625725\n-431766 1673702 -247904\n-699265 1597272 -304746\n-596845 1335253 949343\n-953163 1477326 -356708\n737513 1412684 68172\n52475 1697061 48763\n703073 1413347 200933\n-644072 -1917561 -846371\n311007 1631898 186249\n1394154 -1095586 348798\n964594 709304 -422872\n1026104 627611 479444\n-391033 1280759 1087535\n683168 1354487 -491684\n337654 -1980107 -83690\n-49757 1203884 1179295\n314320 1547880 -482698\n-88503 -2037361 -444766\n-193039 1709064 -98695\n695007 -1810285 204113\n760480 -914937 1302480\n-512126 1059528 1230006\n425769 1128368 1061167\n614861 1241853 653590\n-55907 1659937 -359487\n1095013 -1485786 328698\n1491091 -828259 519312\n-1230529 1305700 229853\n-1339003 1237597 31298\n-1508002 1017566 -352686\n-1640297 659623 -655016\n-1687536 429268 -768496\n-1702197 177122 -876757\n-1678755 -96099 -976919\n-1614320 -393144 -1057868\n-1496855 -720250 -1114947\n-1336174 -1068531 -1105575\n-1078488 -1460439 -1038108\n816711 -1579888 629532\n842631 -1277952 997425\n535020 107717 -918540\n650712 373476 -820192\n1000118 -211213 -623559\n1605189 -452057 222651\n-107025 -2033438 -459014\n858290 -348772 1140938\n1194020 -639901 1001043\n1426178 -588972 808431\n1571543 -470669 587490\n80499 471557 -1005836\n476998 -877953 -689818\n-58801 -390901 -1066759\n470377 -399159 -897623\n1460857 -928605 454498\n185682 1589990 -439594\n298366 1636651 179546\n', 'J115_RELAY3_G8.txt': '64 100000000\n-79311533 135535160 79754677\n-156237380 87217802 -53636391\n-139097452 111158760 -47478049\n-118438901 131404121 -41979167\n-143215063 114086579 -16377381\n-80729671 150836960 40959937\n-110734490 134464309 42842900\n-96832537 135360988 62572528\n-43176562 167370204 -24790363\n-69926537 159727179 -30474625\n-59684457 133525293 94934279\n-95316345 147732601 -35670824\n73751350 141268382 6817243\n5247474 169706080 4876285\n70307324 141334657 20093333\n-64407168 -191756116 -84637132\n31100664 163189835 18624882\n139415351 -109558605 34879817\n96459427 70930425 -42287228\n102610448 62761074 47944405\n-39103334 128075936 108753461\n68316782 135448658 -49168397\n33765404 -198010652 -8368993\n-4975708 120388372 117929460\n31431999 154788028 -48269762\n-8850265 -203736072 -44476560\n-19303927 170906369 -9869514\n69500665 -181028485 20411335\n76048005 -91493675 130248010\n-51212645 105952841 123000649\n42576948 112836755 106116735\n61486053 124185317 65359039\n-5590739 165993730 -35948686\n109501321 -148578642 32869807\n149109066 -82825866 51931239\n-123052924 130570032 22985285\n-133900294 123759746 3129778\n-150800158 101756613 -35268558\n-164029734 65962342 -65501557\n-168753571 42926780 -76849569\n-170219673 17712195 -87675707\n-167875504 -9609907 -97691945\n-161432025 -39314351 -105786819\n-149685502 -72024964 -111494697\n-133617421 -106853134 -110557504\n-107848789 -146043877 -103810821\n81671100 -157988766 62953235\n84263109 -127795172 99742506\n53502030 10771737 -91854037\n65071232 37347581 -82019165\n100011842 -21121274 -62355944\n160518919 -45205694 22265132\n-10702465 -203343813 -45901440\n85829016 -34877235 114093846\n119401994 -63990088 100104251\n142617769 -58897227 80843070\n157154276 -47066903 58749000\n8049861 47155678 -100583554\n47699754 -87795256 -68981765\n-5880133 -39090093 -106675907\n47037721 -39915865 -89762284\n146085744 -92860479 45449788\n18568201 158999048 -43959388\n29836637 163665086 17954589\n'}
+EXPECTED = {'exact115.cpp': [11038, 'd7fd1244c086a0c5354844cca3453c42b26ed31a55b89720aa9e3987f0a06736'], 'J115_RELAY1_G6.txt': [1468, '2cacc9d6969b30a98341d31a803143f45915584fe9fb06b04c6de8b29e52c00f'], 'J115_RELAY3_G6.txt': [1513, 'aa3003eb12e1b6258123c8fd3906bace48b474db6bed2348caa8a1930562a9bc'], 'J115_RELAY3_G8.txt': [1899, 'd6d200a3c4735cd9b6bb3a67dd563935f382a62476f0b9d944ea79edf99755d3'], 'J115_RELAY1_G5.txt': [1281, 'cd54e540ac8fbfdc12feedcb887c5ddd1004b45ef68026a6afc4bab5b7e44e38'], 'J115_RELAY3_G5.txt': [1320, 'bfc4d0b7954448b39141a0edef46d6e6126b6c12ea766eb50e1c8da169c25ba9'], 'J115_RELAY1_G6_AUDIT.json': [88993, '7aa4ecd308e458d5d2bb0b56038ee77d2fb293b76c258f56d7835f44b6b0e47e'], 'J115_RELAY3_G6_AUDIT.json': [91270, 'b57d2c5ba4e7cf4ef1bf1bfea07560986e9bd28e3c9da788c283f97fafbe6644'], 'J115_RELAY3_G8_AUDIT.json': [125263, '07bb033ce2810991103ee47b794cc00b9bcf67f973bd2146626aee6808121bd3'], 'J115_RELAY1_G5_AUDIT.json': [182117, 'b0c2241e9eadd6357d388cec4c017833ef51354c08d650d6ccb48543ae4f1745'], 'J115_RELAY3_G5_AUDIT.json': [513061, '133f13b6e20a9fafbe01d881d9b620d02e976a2b90d9f2d997418f39410af303']}
+
+CORRECTIONS = {
+ 1:[(2,1,111013),(16,0,31165),(17,0,139757),(19,2,47699),(22,0,33745),(23,1,120479),(23,2,117727),(26,2,-9711),(35,1,130735),(44,0,-133673),(52,0,-10307)],
+ 3:[(2,0,-139097),(7,0,-96833),(7,2,62573),(9,0,-69927),(13,0,5247),(20,2,108753),(23,2,117929),(47,2,99743)]}
+COUNTS={'J115_RELAY1_G6':[120,180,62,1,2,1], 'J115_RELAY3_G6':[124,186,64,1,2,1], 'J115_RELAY3_G8':[124,186,64,1,2,1], 'J115_RELAY1_G5':[120,180,62,4,2,4], 'J115_RELAY3_G5':[124,186,64,13,2,13]}
+def check(path):
+ raw=Path(path).read_bytes();assert [len(raw),hashlib.sha256(raw).hexdigest()]==EXPECTED[str(path)],str(path)
+def main():
+ check('exact115.cpp')
+ for name,text in INPUTS.items(): Path(name).write_text(text)
+ # The G5 controls are freezes of the original floating checkpoints, not
+ # blindly double-rounded G6 bodies. These literal corrections retain them.
+ for k,changes in CORRECTIONS.items():
+  a=list(map(int,INPUTS[f'J115_RELAY{k}_G6.txt'].split()));m,D=a[:2];assert D==10**6
+  b=[[round(F(a[2+3*i+j],10)) for j in range(3)] for i in range(m)]
+  for i,j,value in changes:b[i][j]=value
+  Path(f'J115_RELAY{k}_G5.txt').write_text(f'{m} 100000\n'+'\n'.join(' '.join(map(str,r)) for r in b)+'\n')
+ subprocess.run(['g++','-std=c++17','-O2','exact115.cpp','-lgmpxx','-lgmp','-o','exact115'],check=True)
+ for name,counts in COUNTS.items():
+  check(name+'.txt')
+  with open(name+'.txt','rb') as inp,open(name+'_AUDIT.json','wb') as out,open(name+'_AUDIT.log','wb') as log:
+   subprocess.run(['./exact115'],stdin=inp,stdout=out,stderr=log,check=True)
+  check(name+'_AUDIT.json');r=json.loads(Path(name+'_AUDIT.json').read_text())
+  assert [r['V'],r['E'],r['F']]+r['strict']==counts
+  assert r['weak']==[0,0,0] and r['primitive_zeros']==[0,0,0]
+  assert len(r['P'])==1 and len(r['Q'])==r['strict'][0]-1
+  assert r['strict']!=[1,1,0]
+  print(name,counts,'P',[float(F(b['depth'])) for b in r['P']],'Q',[float(F(b['depth'])) for b in r['Q']])
+ controls=[('TETRA','4 1\n1 1 1\n-1 -1 1\n-1 1 -1\n1 -1 -1\n',[4,4,6]),('CUBE','6 1\n1 0 0\n-1 0 0\n0 1 0\n0 -1 0\n0 0 1\n0 0 -1\n',[6,8,12])]
+ for name,text,counts in controls:
+  z=subprocess.run(['./exact115'],input=text.encode(),stdout=subprocess.PIPE,stderr=subprocess.PIPE,check=True)
+  r=json.loads(z.stdout);assert r['strict']==counts and r['weak']==[0,0,0] and r['strict']!=[1,1,0]
+  Path(name+'_CONTROL.json').write_bytes(z.stdout)
+ print('J115_THREE_OWN121_TWO_COARSE_CONTROLS_ELEVEN_HASHES_AND_TWO_STANDARD_CONTROLS_PASS_NO_110')
+if __name__=='__main__': main()
+```

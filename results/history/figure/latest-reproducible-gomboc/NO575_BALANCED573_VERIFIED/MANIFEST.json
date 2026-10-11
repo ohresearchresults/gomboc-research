@@ -1,0 +1,23 @@
+{
+  "EXACT_BODY.py": "d267caef11649b7a569779f6e676ec16f27d0c7e512e11e800f27f8495175795",
+  "PROOF.md": "1bd127e3436819e48e58df2707cc60631f29028a43ead0b0b13f08f02c7f3de6",
+  "README.md": "f6dbb15c0d5c09bdf9afb924320e412ab408cb3b8c0cf09bf20057126dca8408",
+  "REPLAY.py": "5edf17eebd72375476caf5b2b0fe99208bf6a7a8af451198eacb18391ec02329",
+  "centre_chamber.json": "ef9a4f8834fa2206823f2f0cfcae1b39c6a1aa913dc37683d029a9fc84094073",
+  "definition.json": "e622f824902e414fbcf7068073079bdf70aafb6111ce686410b2ac8077e1a363",
+  "exact_ascent.py": "9d9361ef58ea1b9ea429bcd59c9492f8c70e75a3172d21d776956d8d95658708",
+  "exact_ascent_graph.json": "476cdc078a24aff52ae93891b3c70a93173c6168d95c19b9c44692e813b9ad02",
+  "figure_exact_raw.obj": "f7edc3566a43257e8ad56e5a796dfd563bdc6e7d750770f6694950134988afe5",
+  "figure_exact_raw.stl": "26779d1a981ed64a25e70f6ca4684c4b2454dc4414b642c7941ac7aba3032e31",
+  "frozen_pool_bound.json": "801084e9ac08271dde59368d47d2c58c19d5776714a017e73d62306253536c10",
+  "maximal_faces.json": "57ab26f3c9ba1abe2faa7a1f8f3d489105709bbd1a4787838b024cf3647a39dd",
+  "mesh_readback.json": "4dc8648dd5fe79e6112c9004e352f34534a37bc78559c5e145826c5ce0e7e5d3",
+  "raw_vertices.csv.gz": "c673ad14470a880725a4e41f52ad09bbdb1725b2c66615bfa34a262537eccb4e",
+  "triangles.csv.gz": "2b344a2b2d00089b08712cd83aeb30e31990beb60ace2dee0019a74b3617ce85",
+  "true_edges.csv": "4e9e95695934a3223bf9ac6bfd0ece98d55c4e903476af6123feb8431d74296c",
+  "verification_rational.json": "478e1669ef1ea9ab3bf9077bb5003f13065239e324b0a28ba9c7be23579f6322",
+  "verification_second.json": "a6f1a10767166b246873a6b9234908cd6888138b95a70280a6deedb53a6c5ee5",
+  "verify_rational.py": "1fc5f11b99d69045e4e990e43422ca23e6d47cce7a282093d122c7a6f03d29c4",
+  "verify_second.py": "281d2caff704015b291537e5c22c63a18cead261238d0c1bcd91385b643a19ed",
+  "vertices.csv.gz": "7d39d28daef7342bd39efaf9b4d8c8e98bace2dad216528fa1c65254e2c890db"
+}

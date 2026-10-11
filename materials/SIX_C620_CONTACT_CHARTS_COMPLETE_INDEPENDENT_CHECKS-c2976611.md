@@ -1,0 +1,69 @@
+# material-c29766111fdc
+
+Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
+
+Public derivative: internal-record-identifiers-replaced.
+
+---
+
+# Six exact C620 contact charts — complete independent A/B and centered-mass checks
+
+## Accepted non-record results
+All SIX separate rational contact charts from [internal-source-reference] have now completed exhaustive maximal-complex A, independently implemented support-pair B, byte-for-byte A/B agreement and a third integer-tetrahedron integration based at the exact OWN filled-volume centroid. Every body has V175/E310/F137,C620, weak000, all137supports active, primitive zero counts000,346positive centered tetrahedra and exactly zero filled first moments. These are six independently verified NONWINNERS, not own110 records. The canonical C622 record remains unchanged.
+
+Four are strict121: delete99_neighbor128 (S3,U94/128,H128–144); delete99_neighbor145 (S3,U94/145,H145–146); delete117_neighbor76 (S3,U76/93,H76–79); delete117_neighbor82 (S3,U80/93,H80–83). The other two are delete99_neighbor111 strict25/37/60 and delete117_neighbor75 strict35/47/80. Filename neighbor labels refer to the starting deletion body; equilibrium labels here refer to the reconstructed chart itself.
+
+Exact A=B reports and fraction costs:
+- delete99_neighbor128:316462bytes SHA290524e82efd07897aab77d1fd71537654b91f99bce3741717481a08c07ebfb0; common centered denominator57691bits; MASS223bytes SHAd15f2039c5e8857a931064f7e7f2b791b2d7484bafa4b972f85da63e9ddd5411.
+- delete99_neighbor145:313970bytes SHAbb3f50d4924f333086656c483a9264b71e10fd7bb3a5746985fce4d08798d264; denominator57199bits; MASS223 SHAe22d8ee684205e9d14d3f44cf0c87e3d58bd55cd2e46c3d814be3b8d54fb09ec.
+- delete117_neighbor76:316350bytes SHA962c27537d097f2a07d8572bff33161ad63a29f3e0c6c3efd627cee09f9936c0; denominator57660bits; MASS223 SHA16c9e5b2d6f50574ed412e0e0db32d9176464ed298e57dfc781ac8730b99acc6.
+- delete117_neighbor82:315384bytes SHA88422e3a518cb46817b7c02305393b21a09e262475ab462a52e45061d6492f7a; denominator57479bits; MASS223 SHAeea8ddebf4ee555856ff16b77f6df730cefb9f842ae4fb38e1898ade068801f4.
+- delete99_neighbor111:315821bytes SHA9bea4317d2a6404d8c63873a9d63a1c9bd4537d2fe2f4acd7e29aac97bd0fef4; denominator57406bits; MASS223 SHA41042b532fd654c3783765f636e77489b14b05246c52ae307a68469a85d196e4.
+- delete117_neighbor75:315064bytes SHA3aa8b23fd9405081825ac92b07d94058c9eb08ceb47a46d431fdd633207446e2; denominator57239bits; MASS223 SHAfccc1d9c9e21f8e6845f67dcc7710fb341f8c99e738a4b45cfc2b5e509bf5497.
+The common centered integer coordinate maxima have the same bit lengths as these denominators. All six MASS files report volume agreement with A/B.
+
+## Complete reconstruction closure
+No new coordinate bytes are missing: every generator, exact contact equation and source input is already completely supplied by [internal-source-reference] (CONDITION25_SIX_EXACT_CONTACT_CUT_CHARTS_RECOVERY.md,9873bytes SHA1464ac98592b509eda8a1b0f64d2a252f18d382e7d01d67b4fd262f94fd0f605), [internal-source-reference] (deletion input helper,6842bytes SHAc3e7fc3cef5a2c1fc3d3d7d20930add743d579643fc221381905ae6834960581), and CONDITION25 ALL THREE standalone source parts [internal-source-reference],[internal-source-reference],[internal-source-reference]. Their respective hashes are20469536cc4461b597cd92b9c7420b89ad4f1efd82ef72aa4f934b9bb772067a,a527d91c2ba70ee5220ca4b6ba30964e804fd4fa52a8619d3ae6567608cc8087,ecb59180686fbea53343e4b78e64b70478df5ede3679acd200c163185c1e29d4. All original24files were recovered from these complete sources and the expected hashes matched in the producing coordinator turn.
+
+Decode the24-file source dictionary into source/. Run the exact MAKE_DELETION_INPUTS.py from the cycle material, then CONTACT_CUT_CHARTS.py from the chart material:
+`python -B -S MAKE_DELETION_INPUTS.py`
+`python -B -S CONTACT_CUT_CHARTS.py --source source --workspace . --out contact_charts --workers 2`
+Expected markers BOTH_EXACT_DELETION_INPUTS_RESTORED and SIX_EXACT_CONTACT_CUT_CHARTS_AUDITED; all12 generator/RAW byte/hash expectations are literal in the chart material. Then save the full script below with its final newline as VERIFY_CONTACT_CHARTS.py,2917bytes SHA13fe82530f32b55f26ef9714625a224fdac90ab4917380220e154149206dcf5f, and run:
+`python -B -S VERIFY_CONTACT_CHARTS.py --source source --charts contact_charts --workers 2`
+Expected terminal SIX_CONTACT_CHARTS_EXACT_AB_CENTERED_MASS_PASS. The output contact_charts/INDEPENDENT_RECEIPT.json is8005bytes SHAac050fd5684ca43084593a018fa41833411e3cb710fb3d04df6926a5bbf42ede; it includes all per-body input/report byte/hash expectations. This command completed and the marker and receipt were observed. CPython3.13.5,standard library only, assertions enabled. Exact byte reproduction does not depend on parallel completion order because outputs are canonically sorted JSON.
+
+### VERIFY_CONTACT_CHARTS.py
+```python
+"""Independent exact B and third centered-mass checks of all six C620 charts.
+Inputs are generated by the durable CONTACT_CUT_CHARTS.py construction.
+Every A input is hash-pinned. B must agree byte-for-byte before mass integration.
+"""
+import argparse,concurrent.futures,hashlib,json,subprocess,sys
+from pathlib import Path
+sys.set_int_max_str_digits(0)
+assert __debug__
+B=lambda x:json.dumps(x,sort_keys=True,separators=(',',':')).encode()
+H=lambda b:hashlib.sha256(b).hexdigest()
+EXPECTED={
+'delete99_neighbor128':(316462,'290524e82efd07897aab77d1fd71537654b91f99bce3741717481a08c07ebfb0',[1,2,1]),
+'delete99_neighbor145':(313970,'bb3f50d4924f333086656c483a9264b71e10fd7bb3a5746985fce4d08798d264',[1,2,1]),
+'delete99_neighbor111':(315821,'9bea4317d2a6404d8c63873a9d63a1c9bd4537d2fe2f4acd7e29aac97bd0fef4',[25,37,60]),
+'delete117_neighbor75':(315064,'3aa8b23fd9405081825ac92b07d94058c9eb08ceb47a46d431fdd633207446e2',[35,47,80]),
+'delete117_neighbor76':(316350,'962c27537d097f2a07d8572bff33161ad63a29f3e0c6c3efd627cee09f9936c0',[1,2,1]),
+'delete117_neighbor82':(315384,'88422e3a518cb46817b7c02305393b21a09e262475ab462a52e45061d6492f7a',[1,2,1])}
+def main():
+ p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--charts',type=Path,required=True);p.add_argument('--workers',type=int,default=2);a=p.parse_args();src=a.source/'methods/parent';sys.path.insert(0,str(src));import centred_mass
+ def audit(name):
+  d=a.charts/name;ab=(d/'A.json').read_bytes();size,sha,counts=EXPECTED[name];assert len(ab)==size and H(ab)==sha,name
+  subprocess.run([sys.executable,'-B','-S',str(src/'check_B.py'),str(d/'RAW.json'),str(d/'B.json')],check=True,capture_output=True)
+  assert (d/'B.json').read_bytes()==ab,name
+  r=json.loads(ab);assert [r[k] for k in ['V','E','F']]==[175,310,137] and r['counts']==counts and r['weak']==[0,0,0]
+  mass=centred_mass.run(r);assert mass['tetrahedra']==346
+  (d/'MASS.json').write_bytes(B(mass))
+  out=dict(VEF=[175,310,137],C=620,strict=counts,weak=r['weak'],S=r['stable_face_ids'],U=r['unstable_vertices'],H=r['saddle_edges'],primitive_zero_counts=[r[k] for k in ['face_primitive_zero_count','vertex_max_zero_count','edge_primitive_zero_count']],mass=mass,files={f:dict(bytes=len(b),sha256=H(b)) for f in ['GENERATOR.json','RAW.json','RECIPE.json','A.json','B.json','MASS.json'] for b in [(d/f).read_bytes()]})
+  (d/'VERIFIED.json').write_bytes(B(out));print('CONTACT_CHART_EXACT_AB_MASS',name,B(out).decode(),flush=True);return name,out
+ with concurrent.futures.ThreadPoolExecutor(a.workers) as pool:res=dict(pool.map(audit,EXPECTED))
+ receipt=dict(marker='SIX_CONTACT_CHARTS_EXACT_AB_CENTERED_MASS_PASS',bodies=res,scope='Six exact C620 nonwinners: four strict121, two other classes. No own110 or new record claimed.')
+ (a.charts/'INDEPENDENT_RECEIPT.json').write_bytes(B(receipt));print(receipt['marker'],flush=True)
+if __name__=='__main__':main()
+```

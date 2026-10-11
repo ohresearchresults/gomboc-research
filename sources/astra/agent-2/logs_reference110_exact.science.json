@@ -1,0 +1,41 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "",
+      "values": {
+        "V": 132,
+        "E": 245,
+        "F": 115,
+        "reference_counts": [
+          1,
+          1,
+          0
+        ],
+        "reference_weak": [
+          0,
+          0,
+          0
+        ],
+        "reference_primitive_zeros": [
+          0,
+          0,
+          0
+        ],
+        "unchanged_uniform_counts": [
+          2,
+          1,
+          1
+        ],
+        "stable": [
+          25
+        ],
+        "unstable": [
+          61
+        ]
+      }
+    }
+  ]
+}

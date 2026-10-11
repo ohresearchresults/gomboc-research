@@ -1,0 +1,501 @@
+{
+  "version": 2,
+  "scope": "fail-closed one-step cycle-11 actual-cell proposal",
+  "source": "/REDACTED_HOME/.pro-research/native-workspaces/polyhedral-goemboc-r6/tracks/target_flow_certificate/combined_endpoint_mechanics/exact_endpoint_attack/post_bypass_cycle10_rail_bypass_exact_endpoint.csv",
+  "parameters": {
+    "source": "post_bypass_cycle10_rail_bypass_exact_endpoint.csv",
+    "circuit": [
+      3,
+      198,
+      242,
+      243
+    ],
+    "clearance_floor_certificate": "post_bypass_cycle10_rail_bypass_exact_certificate.json",
+    "require_accepted_step": true,
+    "prefix": "post_bypass_cycle11_pre",
+    "iterations": 1,
+    "trust": 1e-07,
+    "trust_maximum": 2e-05,
+    "guard_budget": 0.15,
+    "fd_step": 1e-09,
+    "bound": 300.0,
+    "plane_tol": 1e-11
+  },
+  "clearance_floor_contract": {
+    "certificate": "/REDACTED_HOME/.pro-research/native-workspaces/polyhedral-goemboc-r6/tracks/target_flow_certificate/combined_endpoint_mechanics/exact_endpoint_attack/post_bypass_cycle10_rail_bypass_exact_certificate.json",
+    "verdict": "EXACT_MANDATORY_RAIL_NULLSPACE_BYPASS_PASS",
+    "circuit": [
+      3,
+      198,
+      242,
+      243
+    ],
+    "generated_endpoint": "tracks/target_flow_certificate/combined_endpoint_mechanics/exact_endpoint_attack/post_bypass_cycle10_rail_bypass_exact_endpoint.csv",
+    "generated_endpoint_sha256": "2d3dab96196a59b6fb5260813a32a8544f53c33ecee6b74fb46c2365b7cfc586",
+    "source_sha256": "2d3dab96196a59b6fb5260813a32a8544f53c33ecee6b74fb46c2365b7cfc586",
+    "exact_minimum_floor_squared": "5362782386085877196013320290915202327711672868820149987791499566311155346190004096633551939341760910580357806978890818515130147011483465970295750478663595715890719367277385963440535709435169664446818885225989501996436627752058799889234760596679741325115333690296820479707439730516319211211336718198182293259400343070184377873578274345642771706184608343659424039355346560737519796720593940016757206492037501313001291144091169757195905323208400899146452860013789830822654306804735693360857593651372905788568745634186257403240470481158689011897558499256740530840602874612803059392369063684221375482615201132540439309907652623056005254401451319775346650409433789879349319425777838577806929439096913864935781785716202455055642462921774000358715704454977982527350919422790219015479977625474793371587387251713418909447265033144802853993052316828009006319869201583812810824065666327391146429831877470116388266208792588741663657173386575374515925302315829819067031426862053815360482315682663810366316531813897507024398800329568494481343744/101214769886918954981424237061688694268084311344190791804499359167495433350207041603501311767668764432315436363622278039280425807942025417108882890806572419772508857934644143346561436177133153672624230336460200777065429737248040945212213453772691358474314467776086489088151196805270761845557907261911716316321451943252917364694834630617165743092730769916588203125464775514034048049053241191524313078491455852381235499326377451205889201972657359796877604533909564975355370511830141668286156465649418434784030898962641323853954090675305877259218119738018356778804391659500930304018860482351706417147979079917812580569830362099699834723277618867141314671400523718695816332179922086317410487206620136170620119772887121113725472408031303849351836117373513997884618228475692264716061489514466680930554169605974586176345054606598235341377400603094135183242872724034996057283676814139757099725276973956281166211455301252083076265090966471084805143687037989868189321844111454984946200353915230571915388006175465303931597878519621795238504641879342260064088256317",
+    "numeric_minimum_floor_squared": 5.298418790140396e-23
+  },
+  "initial": {
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "topology_margin": 7.279011279158588e-12,
+    "objective_residuals": {
+      "S_quad": 0.14676834198164954,
+      "U54": 0.22780652806523305,
+      "H67_beta2": 2.7180294403236727,
+      "H910_beta2": 1.2756751242574131
+    },
+    "clearance_tau": {
+      "3": 0.9999963667217793,
+      "198": 2.339269875487223
+    },
+    "all_37_forced_rails_retained": true
+  },
+  "history": [
+    {
+      "iteration": 0,
+      "trust": 1e-07,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "objective_residuals": [
+          "S_quad",
+          "U54",
+          "H67_beta2",
+          "H910_beta2"
+        ],
+        "success": true,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "row_scale_minimum": 0.15,
+        "row_scale_maximum": 22595088856.81613,
+        "zero_step_maximum_violation": 3.7615471337623164e-16,
+        "source_clearance_tau": {
+          "3": 0.9999963667217793,
+          "198": 2.339269875487223
+        },
+        "clearance_floor_rhs": [
+          -3.633278220727121e-06,
+          1.339269875487223
+        ],
+        "common_fractional_descent": 3.3420517867340464e-07,
+        "physical_linf": 1.0023080498985667e-07,
+        "coefficient_linf": 1.4880942498513457e-07,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -3.34205178673402e-07,
+          -3.342051624934907e-07,
+          -3.342051786734047e-07,
+          -3.342051786734047e-07
+        ],
+        "clearance_tau_derivatives": [
+          -0.29649781335615444,
+          -0.6935903933208465
+        ],
+        "linearized_endpoint_clearance_tau": {
+          "3": 0.7034985533653975,
+          "198": 1.645679482167286
+        },
+        "max_guard_fractional_worsening": 0.21053713023713172,
+        "active_modes": [
+          {
+            "column": 163,
+            "coefficient": -1.4880942498513457e-07,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 10,
+            "coefficient": -1.4705333456370136e-07,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 8,
+            "coefficient": -1.4705333456370136e-07,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 6,
+            "coefficient": -1.4705333456370136e-07,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 4,
+            "coefficient": -1.4705333456370136e-07,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 27,
+            "coefficient": -1.3448429290556462e-07,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -1.3448429290556462e-07,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 1.344842929055646e-07,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 1.344842929055646e-07,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -1.344842929055646e-07,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -1.344842929055646e-07,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -1.344842929055646e-07,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -1.344842929055646e-07,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -1.344842929055646e-07,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 1.344842929055646e-07,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 19,
+            "coefficient": -1.344842929055646e-07,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 17,
+            "coefficient": -1.167276602876239e-07,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 162,
+            "coefficient": -1.1430269673573508e-07,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_a"
+          },
+          {
+            "column": 2,
+            "coefficient": -1.1095414624623543e-07,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          },
+          {
+            "column": 106,
+            "coefficient": 1.082346922636002e-07,
+            "kind": "chart",
+            "row": 245,
+            "axis": "y"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09910261878279074,
+          "quad_beta": 1.082346922636002
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "clearance_row_count": 2,
+        "finite_difference_failures": [
+          {
+            "column": 6,
+            "accepted_step": 6.25e-11,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              },
+              {
+                "step": 2.5e-10,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 7,
+            "accepted_step": 2.5e-10,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 48,
+            "accepted_step": 2.5e-10,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 49,
+            "accepted_step": 6.25e-11,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              },
+              {
+                "step": 2.5e-10,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 50,
+            "accepted_step": 6.25e-11,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              },
+              {
+                "step": 2.5e-10,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 79,
+            "accepted_step": 2.5e-10,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 80,
+            "accepted_step": 2.5e-10,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 82,
+            "accepted_step": 2.5e-10,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 83,
+            "accepted_step": 2.5e-10,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 96,
+            "accepted_step": 2.5e-10,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 97,
+            "accepted_step": 6.25e-11,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              },
+              {
+                "step": 2.5e-10,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 98,
+            "accepted_step": 6.25e-11,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              },
+              {
+                "step": 2.5e-10,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 99,
+            "accepted_step": 2.5e-10,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 100,
+            "accepted_step": 6.25e-11,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              },
+              {
+                "step": 2.5e-10,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          },
+          {
+            "column": 101,
+            "accepted_step": 6.25e-11,
+            "rejected_scales": [
+              {
+                "step": 1e-09,
+                "error": "RuntimeError('primitive key set changed')"
+              },
+              {
+                "step": 2.5e-10,
+                "error": "RuntimeError('primitive key set changed')"
+              }
+            ]
+          }
+        ]
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": false,
+      "acceptance": {
+        "all_four_residual_ratios_strictly_below_one": true,
+        "both_actual_clearance_tau_strictly_above_one": false,
+        "same_face_signature": true,
+        "same_equilibrium_signature": true,
+        "same_active_labels": true,
+        "same_primitive_sign_cell": true,
+        "all_37_forced_rails_retained": true
+      },
+      "ratios": {
+        "S_quad": 0.9999996657901938,
+        "U54": 0.9999996662781128,
+        "H67_beta2": 0.9999996657950416,
+        "H910_beta2": 0.9999996657956196
+      },
+      "clearance_tau": {
+        "3": 0.7236916279948805,
+        "198": 1.692916549757076
+      },
+      "rejection_reasons": [
+        "both_actual_clearance_tau_strictly_above_one"
+      ]
+    }
+  ],
+  "first_event": null,
+  "final": {
+    "file": "post_bypass_cycle11_pre_final.csv",
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "topology_margin": 7.279011279158588e-12,
+    "objective_residuals": {
+      "S_quad": 0.14676834198164954,
+      "U54": 0.22780652806523305,
+      "H67_beta2": 2.7180294403236727,
+      "H910_beta2": 1.2756751242574131
+    },
+    "clearance_tau": {
+      "3": 0.9999963667217793,
+      "198": 2.339269875487223
+    },
+    "all_37_forced_rails_retained": true
+  },
+  "conclusion": "required one-step cycle-11 proposal rejected"
+}

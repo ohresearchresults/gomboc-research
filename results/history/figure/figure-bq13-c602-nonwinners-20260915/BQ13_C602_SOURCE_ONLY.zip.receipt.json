@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-15T14:28:11.002Z",
+  "file": "BQ13_C602_SOURCE_ONLY.zip",
+  "bytes": 161153,
+  "sha256": "20363319a852e2d578e8fbd42516d409c2a90b38f9d418130cbd27bd31032c33",
+  "sourceConversation": "6aa27af0-0214-83eb-a52c-6116854e32f9",
+  "sourceMessage": "2e3bbbed-a4a6-4710-b595-a4416b3ffafb",
+  "method": "Exact observed sandbox download through authenticated same-origin endpoint, no redirects; author byte/hash pins and local readback verified"
+}

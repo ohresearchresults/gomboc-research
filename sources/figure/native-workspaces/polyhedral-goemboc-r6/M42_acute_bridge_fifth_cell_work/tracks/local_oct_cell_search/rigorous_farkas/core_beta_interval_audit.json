@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_hashes_match": true,
+    "feature_count_163": true,
+    "support_size_19": true,
+    "support_names_unique": true,
+    "serialized_intervals_contain_rebuild": true,
+    "krawczyk_strict_inclusion": true,
+    "dual_box_strictly_positive": true,
+    "b_dot_y_upper_strictly_negative": true
+  },
+  "logical_statement": "Krawczyk strict inclusion proves a unique y in the positive box with A^T*y=0 and sum(y)=1; interval evaluation gives b^T*y<0.",
+  "b_dot_y": {
+    "lo_numerator": "-910007860571465649783162145899497580188362986820990414824354851090269793665913",
+    "lo_denominator": "100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "hi_numerator": "-182001572114264915250195418428349933163537316761936433301852397977689409453073",
+    "hi_denominator": "20000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "lo_decimal": -0.009100078605714657,
+    "hi_decimal": -0.009100078605713246
+  },
+  "support_names": [
+    "target:saddle-beta1-death",
+    "guard:antiedge:0-54:c3",
+    "guard:antiedge:54-258:c3",
+    "guard:antiedge:69-228:c2",
+    "guard:antiedge:198-224:c2",
+    "guard:antiedge:198-246:c2",
+    "guard:antiedge:224-229:c3",
+    "guard:antiedge:224-230:c3",
+    "guard:antiedge:224-231:c3",
+    "guard:antiedge:224-241:c2",
+    "guard:antiedge:224-257:c3",
+    "guard:antiedge:224-258:c2",
+    "guard:antiedge:228-229:c2",
+    "guard:antiedge:228-235:c2",
+    "guard:antiedge:228-247:c3",
+    "guard:antiedge:228-248:c3",
+    "guard:antiedge:229-230:c0",
+    "guard:antiedge:247-248:c0",
+    "guard:antiedge:257-258:c0"
+  ]
+}

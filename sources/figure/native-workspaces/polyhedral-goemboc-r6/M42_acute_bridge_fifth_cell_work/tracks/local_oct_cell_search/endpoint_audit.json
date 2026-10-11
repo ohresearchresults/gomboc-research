@@ -1,0 +1,266 @@
+{
+  "status": "PASS",
+  "coordinate_roundtrip_max_abs": 0.0,
+  "f_vector": [
+    61,
+    162,
+    103
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "topology_support_min": 1.042420420815926e-07,
+  "base_margin": 1.54038095642477,
+  "U8_margin": 0.9961197450574454,
+  "stable_faces": [
+    [
+      245,
+      8,
+      246
+    ],
+    [
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      54,
+      0
+    ]
+  ],
+  "unstable_vertices": [
+    1,
+    8
+  ],
+  "saddle_edges": [
+    [
+      6,
+      7
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "missing_forced_rails": [],
+  "assertions": {
+    "all_rows_active": true,
+    "faces_match_artifact": true,
+    "class_is_2_2_2": true,
+    "all_forced_rails_present": true,
+    "original_stable_face_dead": true,
+    "stable_transferred_to_245_8_246": true,
+    "U54_dead": true,
+    "U_transferred_to_1": true,
+    "U8_preserved": true,
+    "H67_persists": true,
+    "H910_persists": true,
+    "base_positive": true,
+    "U8_positive": true,
+    "full13d_farkas_valid": true,
+    "shared3d_farkas_valid": true,
+    "first_flip_matches": true,
+    "second_flip_matches": true
+  },
+  "shared_h_first_walls": [
+    {
+      "name": "topology:f11:row244",
+      "baseline_value": 2.052113360351271e-07,
+      "directional_derivative": -0.1715707059708952,
+      "linearized_coefficient": 1.1960744398285486e-06
+    },
+    {
+      "name": "topology:f12:row6",
+      "baseline_value": 4.12722402087784e-07,
+      "directional_derivative": -0.34506397548481893,
+      "linearized_coefficient": 1.1960750220532414e-06
+    },
+    {
+      "name": "topology:f15:row8",
+      "baseline_value": 0.00017778525060335726,
+      "directional_derivative": -53.48789657337821,
+      "linearized_coefficient": 3.3238407563748518e-06
+    },
+    {
+      "name": "topology:f14:row245",
+      "baseline_value": 1.6632746573597146e-05,
+      "directional_derivative": -5.004015976640816,
+      "linearized_coefficient": 3.3238795901612348e-06
+    }
+  ],
+  "shared_h_target_zero_times": {
+    "S[7,8,246]-death": null,
+    "U54-death": null,
+    "H67-death": 0.3988279121496781,
+    "H910-death": 0.09798552530538626
+  },
+  "fresh_flip_audit": [
+    {
+      "before": 1e-06,
+      "after": 2e-06,
+      "removed": [
+        [
+          5,
+          244,
+          245
+        ],
+        [
+          5,
+          6,
+          245
+        ]
+      ],
+      "added": [
+        [
+          5,
+          6,
+          244
+        ],
+        [
+          6,
+          244,
+          245
+        ]
+      ]
+    },
+    {
+      "before": 3.3e-06,
+      "after": 3.4e-06,
+      "removed": [
+        [
+          7,
+          245,
+          246
+        ],
+        [
+          7,
+          8,
+          246
+        ]
+      ],
+      "added": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          8,
+          245,
+          246
+        ]
+      ]
+    }
+  ],
+  "full13d_farkas": {
+    "success": true,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "b_dot_y": -0.03795697648499522,
+    "at_y_inf": 4.765475123888474e-16,
+    "sum_y": 1.0,
+    "support": [
+      {
+        "name": "target:S[7,8,246]-death",
+        "weight": 0.37889062946528435,
+        "rhs": -0.14996429393819818
+      },
+      {
+        "name": "target:U54-death",
+        "weight": 4.115877378744655e-06,
+        "rhs": -0.2330687245561187
+      },
+      {
+        "name": "target:H67-death",
+        "weight": 0.18629182513949633,
+        "rhs": -0.3988289121496781
+      },
+      {
+        "name": "guard:topology:f13:row8",
+        "weight": 0.08467103368689458,
+        "rhs": 0.7231273797496784
+      },
+      {
+        "name": "guard:topology:f20:row198",
+        "weight": 0.054575692717568354,
+        "rhs": 0.0943302903426263
+      },
+      {
+        "name": "guard:topology:f61:row246",
+        "weight": 0.04018418616133897,
+        "rhs": 0.08067842281224626
+      },
+      {
+        "name": "guard:topology:f69:row9",
+        "weight": 0.2476871985238855,
+        "rhs": 0.012309024187957707
+      },
+      {
+        "name": "guard:antiedge:1-54:c0",
+        "weight": 4.048484134190693e-09,
+        "rhs": 177.21739908941288
+      },
+      {
+        "name": "guard:antiedge:6-245:c3",
+        "weight": 5.1338015186176666e-05,
+        "rhs": 23.168465878309114
+      },
+      {
+        "name": "guard:antiedge:8-264:c3",
+        "weight": 2.6999641006498003e-05,
+        "rhs": 69.83565928073511
+      },
+      {
+        "name": "guard:antiedge:10-11:c0",
+        "weight": 0.006576688465099887,
+        "rhs": 0.20819763331487046
+      },
+      {
+        "name": "guard:antiedge:198-264:c2",
+        "weight": 0.0010402877014212527,
+        "rhs": 15.417363484319457
+      }
+    ]
+  },
+  "shared3d_farkas": {
+    "success": true,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "b_dot_y": -0.3898410271697697,
+    "at_y_inf": 7.757417803473371e-17,
+    "sum_y": 1.0,
+    "support": [
+      {
+        "name": "target:U54-death",
+        "weight": 1.59037396681367e-05,
+        "rhs": -0.2330687245561187
+      },
+      {
+        "name": "target:H67-death",
+        "weight": 0.9834736713526385,
+        "rhs": -0.3988289121496781
+      },
+      {
+        "name": "guard:topology:f15:row8",
+        "weight": 0.016484237170583088,
+        "rhs": 0.00017778525060335726
+      },
+      {
+        "name": "guard:antiedge:263-264:c3",
+        "weight": 2.6187737110291362e-05,
+        "rhs": 91.54984654228697
+      }
+    ]
+  }
+}

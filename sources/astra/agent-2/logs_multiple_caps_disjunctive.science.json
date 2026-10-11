@@ -1,0 +1,177 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001892943140252617,
+        "deficit": 0.2105090927201566,
+        "objective": 4.2120747975433845,
+        "minimum_noncontact": 2.312213971089605e-05,
+        "it": 0,
+        "seconds": 0.6812160015106201,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0018932181850027765,
+        "deficit": 0.21050685557819102,
+        "objective": 4.212030329748822,
+        "minimum_noncontact": 2.3159225419178142e-05,
+        "it": 1,
+        "seconds": 9.020982027053833,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0018934609850766362,
+        "deficit": 0.21050467058456293,
+        "objective": 4.211986872676335,
+        "minimum_noncontact": 2.3208705986044187e-05,
+        "it": 2,
+        "seconds": 17.364411115646362,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 2.0858054363480657e-16,
+        "Qmax": 0.001893726814226141,
+        "deficit": 0.21050226155778498,
+        "objective": 4.2119389579699265,
+        "minimum_noncontact": 2.325292564853143e-05,
+        "it": 3,
+        "seconds": 25.710139274597168,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0018937974652423173,
+        "deficit": 0.21050173719370063,
+        "objective": 4.211928541339255,
+        "minimum_noncontact": 2.326214731340759e-05,
+        "it": 4,
+        "seconds": 34.1833221912384,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0018938682027488725,
+        "deficit": 0.21050121447214684,
+        "objective": 4.211918157645686,
+        "minimum_noncontact": 2.3271335198860044e-05,
+        "it": 5,
+        "seconds": 42.606865882873535,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001893903613202826,
+        "deficit": 0.21050095390057588,
+        "objective": 4.211912981624721,
+        "minimum_noncontact": 2.3275912218290173e-05,
+        "it": 6,
+        "seconds": 51.07099223136902,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0018939390445238157,
+        "deficit": 0.21050069372519156,
+        "objective": 4.211907813548355,
+        "minimum_noncontact": 2.3280480954790406e-05,
+        "it": 7,
+        "seconds": 59.55876898765564,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0018939744965032722,
+        "deficit": 0.21050043394204115,
+        "objective": 4.211902653337326,
+        "minimum_noncontact": 2.3285041452547617e-05,
+        "it": 8,
+        "seconds": 68.27185797691345,
+        "trust": 0.05
+      }
+    }
+  ]
+}

@@ -1,0 +1,2001 @@
+{
+  "binary_selector_count": 1282,
+  "centre": [
+    3.25603267077092,
+    0.4248364243734187,
+    -1.109974449346426
+  ],
+  "constraint_count": 1734,
+  "direct_component_count": 126,
+  "exclusion_feature_count": 326,
+  "faces": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/circuit_atlas/robust_target_rebuilt_faces.json",
+  "maximum_common_margin": -0.0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "mip_gap": 0.0,
+  "mip_node_count": 3224,
+  "points": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/circuit_atlas/robust_target_rebuilt.csv",
+  "selected_negative_witnesses": [
+    {
+      "feature": "nonstable:[0, 1, 54]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[0, 16, 72]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[0, 54, 72]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[1, 2, 88]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[1, 54, 88]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[2, 3, 242]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[2, 88, 242]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[3, 4, 243]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[3, 242, 243]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[4, 5, 244]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[4, 243, 244]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[5, 6, 245]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[5, 244, 245]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[6, 7, 245]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[7, 8, 245]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[8, 9, 264]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[8, 245, 246]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[8, 246, 264]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[9, 10, 263]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[9, 263, 264]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[10, 11, 263]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[11, 12, 262]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[11, 262, 263]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[12, 13, 262]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[13, 14, 261]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[13, 261, 262]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[14, 15, 72]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[14, 72, 73]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[14, 73, 261]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[15, 16, 72]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 69, 238]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 69, 256]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 72, 260]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 88, 241]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 238, 239]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 239, 240]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 240, 241]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 256, 257]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 257, 258]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 258, 259]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[54, 259, 260]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[69, 228, 235]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[69, 228, 255]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[69, 235, 236]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[69, 236, 237]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[69, 237, 238]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[69, 255, 256]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[72, 73, 261]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[72, 260, 261]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[88, 241, 242]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 228, 229]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 228, 258]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 229, 230]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 230, 231]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 231, 232]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 232, 233]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 233, 234]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 234, 235]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 235, 236]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 236, 237]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 237, 238]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 238, 239]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 239, 240]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 240, 241]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 241, 242]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 242, 243]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 243, 244]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 244, 245]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 245, 246]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 246, 263]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 258, 259]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 259, 260]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 260, 261]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 261, 262]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[198, 262, 263]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 247, 248]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 247, 258]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 248, 249]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 249, 250]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 250, 251]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 251, 252]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 252, 253]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 253, 254]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 254, 255]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 255, 256]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 256, 257]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[224, 257, 258]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 229, 230]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 230, 231]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 231, 232]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 232, 233]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 233, 234]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 234, 235]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 247, 248]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 247, 258]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 248, 249]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 249, 250]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 250, 251]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 251, 252]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 252, 253]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 253, 254]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[228, 254, 255]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonstable:[246, 263, 264]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:0",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:1",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:2",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonunstable:3",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:4",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonunstable:5",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonunstable:6",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:7",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:9",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:10",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:11",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:12",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:13",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:14",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:15",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:16",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:54",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:69",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonunstable:72",
+      "selected_components": [
+        4
+      ]
+    },
+    {
+      "feature": "nonunstable:73",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:88",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonunstable:198",
+      "selected_components": [
+        17
+      ]
+    },
+    {
+      "feature": "nonunstable:224",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonunstable:228",
+      "selected_components": [
+        8
+      ]
+    },
+    {
+      "feature": "nonunstable:229",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:230",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:231",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:232",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:233",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:234",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:235",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:236",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:237",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:238",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:239",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:240",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:241",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonunstable:242",
+      "selected_components": [
+        4
+      ]
+    },
+    {
+      "feature": "nonunstable:243",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:244",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:245",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:246",
+      "selected_components": [
+        4
+      ]
+    },
+    {
+      "feature": "nonunstable:247",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:248",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:249",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:250",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:251",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:252",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:253",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:254",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:255",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonunstable:256",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonunstable:257",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:258",
+      "selected_components": [
+        4
+      ]
+    },
+    {
+      "feature": "nonunstable:259",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonunstable:260",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonunstable:261",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonunstable:262",
+      "selected_components": [
+        5
+      ]
+    },
+    {
+      "feature": "nonunstable:263",
+      "selected_components": [
+        4
+      ]
+    },
+    {
+      "feature": "nonunstable:264",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[0, 1]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[0, 16]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[0, 54]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[0, 72]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[1, 2]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[1, 54]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[1, 88]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[2, 3]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[2, 88]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[2, 242]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[3, 4]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[3, 242]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[3, 243]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[4, 5]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[4, 243]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[4, 244]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[5, 6]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[5, 244]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[5, 245]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[6, 7]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[6, 245]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[7, 8]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[7, 245]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[8, 9]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[8, 245]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[8, 246]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[8, 264]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[9, 10]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[9, 263]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[9, 264]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[10, 11]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[10, 263]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[11, 12]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[11, 262]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[11, 263]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[12, 13]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[12, 262]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[13, 14]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[13, 261]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[13, 262]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[14, 15]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[14, 72]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[14, 73]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[14, 261]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[15, 16]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[15, 72]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[16, 72]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 69]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 72]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 88]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 238]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 239]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 240]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 241]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 256]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 257]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 258]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 259]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[54, 260]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[69, 228]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[69, 235]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[69, 236]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[69, 237]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[69, 238]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[69, 255]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[69, 256]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[72, 73]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[72, 260]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[72, 261]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[73, 261]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[88, 241]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[88, 242]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 228]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 229]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 230]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 231]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 232]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 233]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 234]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 235]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 236]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 237]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 238]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 239]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 240]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 241]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 242]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 243]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 244]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 245]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 246]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 258]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 259]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 260]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 261]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 262]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[198, 263]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 247]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 248]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 249]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 250]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 251]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 252]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 253]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 254]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 255]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 256]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 257]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[224, 258]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 229]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 230]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 231]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 232]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 233]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 234]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 235]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 247]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 248]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 249]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 250]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 251]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 252]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 253]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 254]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 255]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[228, 258]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[229, 230]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[230, 231]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[231, 232]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[232, 233]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[233, 234]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[234, 235]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[235, 236]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[236, 237]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[237, 238]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[238, 239]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[239, 240]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[240, 241]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[241, 242]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[242, 243]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[243, 244]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[244, 245]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[245, 246]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[246, 263]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[246, 264]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[247, 248]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[247, 258]",
+      "selected_components": [
+        1
+      ]
+    },
+    {
+      "feature": "nonsaddle:[248, 249]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[249, 250]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[250, 251]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[251, 252]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[252, 253]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[253, 254]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[254, 255]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[255, 256]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[256, 257]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[257, 258]",
+      "selected_components": [
+        3
+      ]
+    },
+    {
+      "feature": "nonsaddle:[258, 259]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[259, 260]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[260, 261]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[261, 262]",
+      "selected_components": [
+        2
+      ]
+    },
+    {
+      "feature": "nonsaddle:[262, 263]",
+      "selected_components": [
+        0
+      ]
+    },
+    {
+      "feature": "nonsaddle:[263, 264]",
+      "selected_components": [
+        0
+      ]
+    }
+  ],
+  "status": 0,
+  "strict_target_centre_cell_exists": false,
+  "success": true,
+  "target_base": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "target_unstable_vertices": [
+    8
+  ],
+  "version": 1
+}

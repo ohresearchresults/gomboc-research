@@ -1,0 +1,15 @@
+# C622: locally reverified homogeneous own110 polyhedron
+
+`VQ20_C622_ROUTE88_118_G12`: V176/E311/F137, C622, strict own-centroid (S,U,H)=(1,1,0), weak-only (0,0,0). This beats the previous locally accepted C624 example by one true edge, or two complexity points. It is not a proof of the global minimum.
+
+Local fresh verification completed on 2026-09-15 at17:21:24Z: decode the exact original generator from the source capsule; reconstruct all halfspaces; rerun both supplied independently implemented full exact auditors; rerun the third centred-integer mass integration; check small positive/weak and malformed/unbounded fixtures. A/B each reproduce the exact311825-byte hash142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0. All137 supports are active, no primitive-zero cases occur, and348 positive tetrahedra give exactly zero centred first moments. See `local-endpoint-proof/RECEIPT.json`.
+
+The original response omitted its literal capsule. That local preservation gap is now resolved: the complete90523-byte recovery program and all76 source/data files were downloaded/restored and verified against their exact pins. All75 source-manifest entries and all10 original generator identities were checked. The source package preserves every supplied intermediate, conditioned positive example, nonwinner and method.
+
+Important boundary: this local run verifies the C622 endpoint, not the aggregate ten-case batch, stress-chart/numerical discovery replay, a proof-assistant formalization or outside peer review. The worker did not observe its aggregate terminal. The coordinator subsequently reported a completed fresh ten-case replay with aggregate10859-byte receipt SHA68a6790514a48284af603bdacaf1d6cce63e141026a5abef7b0629acb1c03432; this is coordinator evidence, not a local ten-case rerun. All9 canonical source-capsule parts were installed by17:41:23Z and the coordinator explicitly accepted C622 at17:43:19Z (event1362). The monitor verified that all76 canonical source files exactly equal this already preserved package. No database or scientific journal promotion was performed by the monitor.
+
+The common centred denominator is56,802 bits and17,099 decimal digits. That is the size of an exact integer denominator, not a count of decimal places or a manufacturing-tolerance guarantee. Mixed control input grid10^12 is not the precision of the final centred coordinates.
+
+Primary files: `GENERATOR.json`, `native-result.md`, `source/`, `source-integrity-receipt.json` and `local-endpoint-proof/`. `ENDPOINT_A.json` and `ENDPOINT_B.json` are pinned author outputs; the proof directory contains fresh local outputs, not copies presented as reruns.
+
+To repeat just the local endpoint verification, use the source functions and a new output directory; `verify-endpoint.py` intentionally refuses to overwrite its existing proof. The full original ten-case command is `python -B -S source/REPLAY.py --out NEW_FULL_PROOF_DIRECTORY`. It is not automatically run by this package's preservation step.

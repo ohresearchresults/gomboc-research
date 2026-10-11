@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "source": "reverse_wall_bypass_deep5_after_independent.csv",
+  "lp_json": "post_independent1_lp.json",
+  "offset_json": "epoch1_bypass.json",
+  "lp_delta": 0.9623994983181762,
+  "circuit": [
+    224,
+    228,
+    251,
+    252
+  ],
+  "bracket": [
+    0.00013,
+    0.00015
+  ],
+  "volume_bracket": [
+    1.1088212825205209e-14,
+    -1.1460971658783112e-14
+  ],
+  "alpha_wall": 0.00014020398733075823,
+  "epsilon": 1e-06,
+  "after_epsilon": 3e-06,
+  "volume_at_wall": 7.998846567983657e-24,
+  "plane_tolerance": 1e-11,
+  "before": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        224,
+        251,
+        252
+      ],
+      [
+        228,
+        251,
+        252
+      ]
+    ],
+    "topology_margin": 5.995292040594791e-10
+  },
+  "at": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      157,
+      99
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        224,
+        228,
+        251,
+        252
+      ]
+    ],
+    "topology_margin": 1.4398790493252989e-08
+  },
+  "after": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        224,
+        228,
+        251
+      ],
+      [
+        224,
+        228,
+        252
+      ]
+    ],
+    "topology_margin": 9.54022583155023e-10
+  },
+  "csv": {
+    "before": "epoch1_independent_event1_wall_before.csv",
+    "at": "epoch1_independent_event1_wall_at.csv",
+    "after": "epoch1_independent_event1_wall_after.csv"
+  }
+}

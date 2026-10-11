@@ -1,0 +1,106 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 4,
+        "mass_error": 6.769879737982911e-18,
+        "solver_evaluations": 20,
+        "V": 163,
+        "E": 267,
+        "F": 106,
+        "S": 56,
+        "U": 2,
+        "Pmax": 5.002755462071206e-05,
+        "Qmax": 0.006444626836072944,
+        "minimum_noncontact": 1.3252566274601918e-05,
+        "visible_facets": 3,
+        "actual_centroid_error": 2.906054244482125e-18,
+        "independent_volume_error": 0.0,
+        "cap_point": [
+          0.4301645600492479,
+          0.3822822273595108,
+          -0.27130531647801354
+        ]
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 5,
+        "mass_error": 6.7053033756648616e-18,
+        "solver_evaluations": 107,
+        "V": 163,
+        "E": 267,
+        "F": 106,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011779179169151264,
+        "minimum_noncontact": 8.883565687511918e-07,
+        "visible_facets": 3,
+        "actual_centroid_error": 1.7437250388599167e-17,
+        "independent_volume_error": 1.1102230246251565e-16,
+        "cap_point": [
+          0.42929144346530684,
+          0.38132973770569467,
+          -0.26859482993345307
+        ]
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 40,
+        "mass_error": 2.286351755274907e-18,
+        "solver_evaluations": 27,
+        "V": 164,
+        "E": 271,
+        "F": 109,
+        "S": 56,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.006295129508965399,
+        "minimum_noncontact": 2.3223667320770858e-05,
+        "visible_facets": 2,
+        "actual_centroid_error": 1.355998617898295e-17,
+        "independent_volume_error": 1.1102230246251565e-16,
+        "cap_point": [
+          0.45506205740593375,
+          0.22070053126770992,
+          -0.36001744676188946
+        ]
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 50,
+        "mass_error": 9.687363455229148e-18,
+        "solver_evaluations": 6,
+        "V": 123,
+        "E": 219,
+        "F": 98,
+        "S": 42,
+        "U": 3,
+        "Pmax": 0.6504337768576148,
+        "Qmax": 0.21617163360115155,
+        "minimum_noncontact": 2.3223667320770858e-05,
+        "visible_facets": 31,
+        "actual_centroid_error": 2.007067586385545e-17,
+        "independent_volume_error": 1.1102230246251565e-16,
+        "cap_point": [
+          -0.7693954925367918,
+          0.5454154833025462,
+          -0.7706480572893798
+        ]
+      }
+    }
+  ]
+}

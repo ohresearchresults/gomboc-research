@@ -1,0 +1,402 @@
+{
+  "version": 1,
+  "verdict": "EXACT_COMMON_DETERMINANT_ROW15_LOSS_WALL_WITH_FRESH_NULLSPACE_BYPASS",
+  "source_trajectory": "row54_transverse_inward_continuation.json",
+  "approach_iteration": 72,
+  "valid_step": 0.0005,
+  "invalid_step": 0.001,
+  "wall_step": 0.0006299753506564594,
+  "wall_bracket_width": 0.0005,
+  "parameters": [
+    0.42690483049419714,
+    -0.07214480830099575,
+    0.027015223195958084,
+    0.17721717303248644,
+    -1.3979918111780958,
+    -0.5381946774838291,
+    0.29809726294094485,
+    0.7436768100799982,
+    0.014787809214647667,
+    -0.0011731093264928435,
+    -0.014735918813127802,
+    -0.015364747790854047,
+    -0.013715924484383128,
+    0.013715924484383128,
+    -0.01430422200502696,
+    -0.014509010999985108,
+    0.014620054729238847,
+    -0.005208421807047732,
+    0.014899591198171955,
+    -0.004191617875938156,
+    -0.014564884797686986,
+    0.002223001225512592,
+    -0.009920882089014527,
+    0.002535763646021758,
+    -0.015418235337922411,
+    0.00840446547683859,
+    -0.0020987127539019083,
+    0.01408784613894325,
+    0.015713046838458877,
+    -0.004015132000286399,
+    -0.01576503415181398,
+    0.0038164621976516993,
+    -0.015713046838458877,
+    0.0021726742883987652,
+    -0.015296805700543377,
+    0.001621436680050015,
+    -0.015285479903217176,
+    0.0015834783651097132,
+    -0.014343107777058908,
+    0.0014858544086751334,
+    0.01250414078715308,
+    0.013242359522844293,
+    0.013715924484383128,
+    0.013715924484383128
+  ],
+  "coordinates": "row54_row15_exact_wall.csv",
+  "qhull_faces_at_degeneracy": "row54_row15_exact_wall_faces.json",
+  "minimum_projective_denominator": 0.2202097709227856,
+  "circuit": [
+    14,
+    15,
+    16,
+    72
+  ],
+  "common_oriented_determinant": -2.4023282629731847e-18,
+  "determinant_valid_side": 5.5933218549586175e-12,
+  "determinant_invalid_side": -2.2972352208320002e-11,
+  "row15_chord_parameter_14_to_16": 0.5909485571799107,
+  "row15_collinearity_residual": 3.098695908077623e-15,
+  "common_guard_rows": [
+    {
+      "guard_index": 6282,
+      "label": [
+        "polygon",
+        102,
+        [
+          16,
+          15
+        ],
+        14
+      ],
+      "before": 1.2022217833084544e-07,
+      "before_guard_over_determinant": 7955.588538469556,
+      "wall": 7.576113453364962e-15
+    },
+    {
+      "guard_index": 6298,
+      "label": [
+        "polygon",
+        102,
+        [
+          15,
+          14
+        ],
+        16
+      ],
+      "before": 8.31693498358974e-08,
+      "before_guard_over_determinant": 5503.652782646907,
+      "wall": 5.256955688471706e-15
+    },
+    {
+      "guard_index": 1783,
+      "label": [
+        "support",
+        29,
+        [
+          15,
+          16,
+          72
+        ],
+        14
+      ],
+      "before": 1.227450511674319e-09,
+      "before_guard_over_determinant": 81.22537253768401,
+      "wall": 1.4864411784776266e-15
+    },
+    {
+      "guard_index": 1600,
+      "label": [
+        "support",
+        26,
+        [
+          14,
+          15,
+          72
+        ],
+        16
+      ],
+      "before": 8.491488291597488e-10,
+      "before_guard_over_determinant": 56.19161777394683,
+      "wall": 1.8626593323300966e-16
+    }
+  ],
+  "wall_hull_summary": {
+    "f_vector": [
+      60,
+      160,
+      102
+    ],
+    "active_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      54,
+      69,
+      72,
+      73,
+      88,
+      198,
+      224,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264
+    ],
+    "row15_active": false
+  },
+  "observed_path_turn": {
+    "turn_iteration": 74,
+    "bypass_iteration": 75,
+    "determinant_before_approach": 1.5111663675101654e-11,
+    "determinant_at_turn": 3.211131247570559e-12,
+    "determinant_after_bypass": 1.7900370469180186e-11,
+    "previous_determinant_derivative": -1.9052953632450865e-08,
+    "bypass_determinant_derivative": 8.547917612478639e-13,
+    "previous_packet_normalized_derivatives": [
+      1.0203558082140824,
+      0.5959510285112625,
+      0.9954848149301959,
+      0.5960322922791224,
+      1.0745088079333176,
+      1.0170099314232317
+    ],
+    "bypass_packet_normalized_derivatives": [
+      0.9999999999999847,
+      0.9999999999978415,
+      0.9999999999992673,
+      0.9999999999978876,
+      1.0000000000004645,
+      1.0000000000005127
+    ],
+    "packet_derivative_of_direction_correction": [
+      -0.02035580821411588,
+      0.40404897148619784,
+      0.004515185069091985,
+      0.40396770771941476,
+      -0.07450880793276815,
+      -0.017009931422723785
+    ],
+    "fresh_audit_summary": {
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "faces_match_fixed_cell": true,
+      "active": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54,
+        69,
+        72,
+        73,
+        88,
+        198,
+        224,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "centroid": [
+        -3.6337573207929217,
+        2.304975688325216,
+        1.2869158647011285
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "stable_faces": [
+        [
+          8,
+          246,
+          7
+        ],
+        [
+          0,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        6,
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "all_forced_rail_edges_present": true,
+      "missing_forced_rail_edges": [],
+      "edge_0_1_present": false,
+      "all_61_rows_active": true,
+      "enlarged_base_present": true,
+      "enlarged_base_stable": true,
+      "U8_decision": 0.9961513975543066,
+      "U8_unstable": true,
+      "forced_rail_edge_count": 37
+    }
+  },
+  "canonical_exact_nullspace_bypass": {
+    "maximum_absolute_packet_jacobian_residual": 1.4841461393189093e-12,
+    "approach_determinant_derivative": -1.9052953632450865e-08,
+    "nullspace_correction_determinant_derivative": 1.901388195893677e-08,
+    "nullspace_scale": 1.0073142177812213,
+    "bypass_determinant_derivative": 1.01360505859847e-10,
+    "approach_packet_normalized_derivatives": [
+      1.0203558082140824,
+      0.5959510285112625,
+      0.9954848149301959,
+      0.5960322922791224,
+      1.0745088079333176,
+      1.0170099314232317
+    ],
+    "bypass_packet_normalized_derivatives": [
+      1.0203558082140916,
+      0.5959510285126726,
+      0.9954848149301774,
+      0.5960322922776413,
+      1.0745088079331993,
+      1.017009931423253
+    ],
+    "finite_step": 0.0005,
+    "determinant_before": 3.211131247570559e-12,
+    "determinant_after": 1.48381399753489e-11,
+    "coordinates": "row54_row15_exact_nullspace_bypass.csv",
+    "faces": "row54_row15_exact_nullspace_bypass_faces.json",
+    "audit": "row54_row15_exact_nullspace_bypass_audit.json"
+  }
+}

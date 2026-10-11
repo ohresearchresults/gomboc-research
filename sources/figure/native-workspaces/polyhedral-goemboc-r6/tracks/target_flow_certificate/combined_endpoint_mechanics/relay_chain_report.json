@@ -1,0 +1,398 @@
+{
+  "version": 1,
+  "scope": "bound-300 actual-cell relay chain with fresh hull at every state",
+  "fixed_mechanical_branches": {
+    "quad": "face (7,8,245,246), witness edge (8,246)",
+    "u54": "vertex 54, neighbor 1",
+    "h67": "one_minus_t",
+    "h910": "t"
+  },
+  "rows": [
+    {
+      "state": "combined wall",
+      "csv": "row54_combined_wall_rebuilt.csv",
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "lp_delta_fixed_branch": 0.9685507986067262,
+      "lp_inherited_from_previous_cell": false,
+      "topology_margin": 1.0424204205383703e-07,
+      "inactive_rows": [],
+      "all_forced_rails_present": true,
+      "residual_ratios_to_combined_wall": {
+        "quad": 1.0,
+        "u54": 1.0,
+        "h67_one_minus_t": 1.0,
+        "h910_t": 1.0
+      },
+      "largest_fixed_residual_ratio": 1.0,
+      "event_entering_state": null
+    },
+    {
+      "state": "interiorized pre-q73",
+      "csv": "bound300_turn_a0007.csv",
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "lp_delta_fixed_branch": 0.9688580052720805,
+      "lp_inherited_from_previous_cell": false,
+      "topology_margin": 7.019939551877741e-08,
+      "inactive_rows": [],
+      "all_forced_rails_present": true,
+      "residual_ratios_to_combined_wall": {
+        "quad": 0.997617265752417,
+        "u54": 0.998815931801329,
+        "h67_one_minus_t": 0.9942632351261667,
+        "h910_t": 0.9978385505482451
+      },
+      "largest_fixed_residual_ratio": 0.998815931801329,
+      "event_entering_state": null
+    },
+    {
+      "state": "post-q73",
+      "csv": "bound300_postq73_a0017.csv",
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "lp_delta_fixed_branch": 0.9588451425064142,
+      "lp_inherited_from_previous_cell": false,
+      "topology_margin": 1.0351627610649672e-08,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "residual_ratios_to_combined_wall": {
+        "quad": 0.9925629664622865,
+        "u54": 0.9970000478446028,
+        "h67_one_minus_t": 0.9880257053403947,
+        "h910_t": 0.9961537955691544
+      },
+      "largest_fixed_residual_ratio": 0.9970000478446028,
+      "event_entering_state": {
+        "artifact": "bound300_step3_first_support_wall.json",
+        "circuit": [
+          14,
+          72,
+          73,
+          261
+        ],
+        "alpha_root": 0.001496290346924581,
+        "wall_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "before_f_vector": [
+          61,
+          161,
+          102
+        ],
+        "after_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "before_class": null,
+        "after_class": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "state": "post-relay-1",
+      "csv": "postq73_step1_a0003.csv",
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "lp_delta_fixed_branch": 0.9692605447329595,
+      "lp_inherited_from_previous_cell": false,
+      "topology_margin": 2.943603982785703e-08,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "residual_ratios_to_combined_wall": {
+        "quad": 0.9901105778137127,
+        "u54": 0.9967115422365566,
+        "h67_one_minus_t": 0.9877298426141605,
+        "h910_t": 0.995729299808151
+      },
+      "largest_fixed_residual_ratio": 0.9967115422365566,
+      "event_entering_state": {
+        "artifact": "postq73_relay1_wall.json",
+        "circuit": [
+          198,
+          228,
+          258,
+          259
+        ],
+        "alpha_root": 0.00024967073215218107,
+        "wall_f_vector": [
+          60,
+          157,
+          99
+        ],
+        "before_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "after_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "before_class": [
+          2,
+          2,
+          2
+        ],
+        "after_class": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "state": "post-relay-2",
+      "csv": "postq73_relay1_step_a0010.csv",
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "lp_delta_fixed_branch": 0.9594315022824675,
+      "lp_inherited_from_previous_cell": false,
+      "topology_margin": 1.902966884070878e-08,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "residual_ratios_to_combined_wall": {
+        "quad": 0.9861508751577337,
+        "u54": 0.995714554356441,
+        "h67_one_minus_t": 0.9833849863430405,
+        "h910_t": 0.9947063664891125
+      },
+      "largest_fixed_residual_ratio": 0.995714554356441,
+      "event_entering_state": {
+        "artifact": "postq73_relay2_wall.json",
+        "circuit": [
+          198,
+          228,
+          229,
+          259
+        ],
+        "alpha_root": 0.0006933185677417757,
+        "wall_f_vector": [
+          60,
+          157,
+          99
+        ],
+        "before_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "after_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "before_class": [
+          2,
+          2,
+          2
+        ],
+        "after_class": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "state": "post-relay-3",
+      "csv": "postq73_relay2_step_a0003.csv",
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "lp_delta_fixed_branch": 0.9626115150715137,
+      "lp_inherited_from_previous_cell": false,
+      "topology_margin": 1.1220259332755944e-08,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "residual_ratios_to_combined_wall": {
+        "quad": 0.9846017185655054,
+        "u54": 0.9954234351684595,
+        "h67_one_minus_t": 0.9830905739742329,
+        "h910_t": 0.9939525407360766
+      },
+      "largest_fixed_residual_ratio": 0.9954234351684595,
+      "event_entering_state": {
+        "artifact": "postq73_relay3_wall.json",
+        "circuit": [
+          69,
+          228,
+          235,
+          255
+        ],
+        "alpha_root": 0.0002630003479910172,
+        "wall_f_vector": [
+          60,
+          157,
+          99
+        ],
+        "before_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "after_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "before_class": [
+          2,
+          2,
+          2
+        ],
+        "after_class": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "state": "post-relay-4 (fifth exact support event)",
+      "csv": "postq73_relay4a_wall_after.csv",
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "lp_delta_fixed_branch": 0.9626115150715137,
+      "lp_inherited_from_previous_cell": true,
+      "topology_margin": 7.54599882579754e-10,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "residual_ratios_to_combined_wall": {
+        "quad": 0.9844429126046798,
+        "u54": 0.9952623228021367,
+        "h67_one_minus_t": 0.9829306608678916,
+        "h910_t": 0.9937908307498492
+      },
+      "largest_fixed_residual_ratio": 0.9952623228021367,
+      "event_entering_state": {
+        "artifact": "postq73_relay4a_wall.json",
+        "circuit": [
+          69,
+          228,
+          235,
+          255
+        ],
+        "alpha_root": 0.00016090281970369062,
+        "wall_f_vector": [
+          60,
+          157,
+          99
+        ],
+        "before_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "after_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "before_class": [
+          2,
+          2,
+          2
+        ],
+        "after_class": [
+          2,
+          2,
+          2
+        ]
+      }
+    }
+  ],
+  "exact_support_event_count": 5,
+  "all_four_residual_series_monotone_nonincreasing": true,
+  "per_residual_monotonicity": {
+    "quad": true,
+    "u54": true,
+    "h67_one_minus_t": true,
+    "h910_t": true
+  },
+  "first_nonrelay_failure": null,
+  "next_known_event": {
+    "type": "support relay",
+    "circuit": [
+      198,
+      234,
+      235,
+      236
+    ],
+    "alpha_root_from_post_relay_3_cell": 0.0001706449472203067,
+    "artifact": "postq73_relay4b_wall.json"
+  },
+  "conclusion": "Five consecutive exact support events occur without a mechanical-sign change, forced-rail loss, base loss, or any new inactive row after q73. All four fixed residual ratios decrease monotonically."
+}

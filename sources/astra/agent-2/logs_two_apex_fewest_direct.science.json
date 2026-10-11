@@ -1,0 +1,386 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 77,
+        "E": 140,
+        "F": 65,
+        "S": 3,
+        "U": 3,
+        "Pmax": 0.724491478182198,
+        "Qmax": 0.7326823475755687,
+        "ucost": 1.66037599898193,
+        "scost": 1.1314295071685523,
+        "objective": 2.7918055061504825,
+        "minimum_noncontact": 0.0004470911074977435,
+        "it": 0,
+        "seconds": 0.4648282527923584,
+        "trust": 0.03
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 63,
+        "E": 110,
+        "F": 49,
+        "S": 3,
+        "U": 3,
+        "Pmax": 0.7130932652761345,
+        "Qmax": 0.7352754814854021,
+        "ucost": 1.596331811205923,
+        "scost": 1.0807945416107925,
+        "objective": 2.6771263528167157,
+        "minimum_noncontact": 2.5849506865127658e-05,
+        "it": 10,
+        "seconds": 3.679543972015381,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 61,
+        "E": 106,
+        "F": 47,
+        "S": 3,
+        "U": 3,
+        "Pmax": 0.711048307071919,
+        "Qmax": 0.7262230889451881,
+        "ucost": 1.52866880868755,
+        "scost": 1.0574936395442474,
+        "objective": 2.5861624482317973,
+        "minimum_noncontact": 0.0003521853678030151,
+        "it": 20,
+        "seconds": 5.724500894546509,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 66,
+        "E": 115,
+        "F": 51,
+        "S": 3,
+        "U": 3,
+        "Pmax": 0.7077024071325394,
+        "Qmax": 0.7326098671619852,
+        "ucost": 1.5156851500402153,
+        "scost": 1.0250922543431933,
+        "objective": 2.540777404383409,
+        "minimum_noncontact": 0.00031956628273566157,
+        "it": 30,
+        "seconds": 7.337092161178589,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 69,
+        "E": 120,
+        "F": 53,
+        "S": 3,
+        "U": 5,
+        "Pmax": 0.7077346008359257,
+        "Qmax": 0.7434938794683027,
+        "ucost": 1.4739436268013788,
+        "scost": 0.9816439978318362,
+        "objective": 2.455587624633215,
+        "minimum_noncontact": 0.00018718343667345483,
+        "it": 40,
+        "seconds": 9.861669063568115,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 70,
+        "E": 120,
+        "F": 52,
+        "S": 3,
+        "U": 4,
+        "Pmax": 0.7078501984617632,
+        "Qmax": 0.7510239233174162,
+        "ucost": 1.4210253270949507,
+        "scost": 0.9318965012797091,
+        "objective": 2.35292182837466,
+        "minimum_noncontact": 0.00011463865438576804,
+        "it": 50,
+        "seconds": 12.560498237609863,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 74,
+        "E": 127,
+        "F": 55,
+        "S": 3,
+        "U": 4,
+        "Pmax": 0.7076507683490375,
+        "Qmax": 0.7460210100646346,
+        "ucost": 1.3878989997959326,
+        "scost": 0.9325125132270426,
+        "objective": 2.320411513022975,
+        "minimum_noncontact": 1.302505354217054e-05,
+        "it": 60,
+        "seconds": 14.758599281311035,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 74,
+        "E": 128,
+        "F": 56,
+        "S": 2,
+        "U": 5,
+        "Pmax": 0.7081602355196653,
+        "Qmax": 0.7420254158261584,
+        "ucost": 1.3627638787993892,
+        "scost": 0.9101161157914852,
+        "objective": 2.272879994590874,
+        "minimum_noncontact": 9.228315008047439e-06,
+        "it": 70,
+        "seconds": 16.265703201293945,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 74,
+        "E": 128,
+        "F": 56,
+        "S": 2,
+        "U": 5,
+        "Pmax": 0.7090651693929353,
+        "Qmax": 0.7379386596947717,
+        "ucost": 1.3440481271235996,
+        "scost": 0.9086580234443177,
+        "objective": 2.252706150567917,
+        "minimum_noncontact": 6.820031633880674e-07,
+        "it": 80,
+        "seconds": 17.162350177764893,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 77,
+        "E": 134,
+        "F": 59,
+        "S": 2,
+        "U": 5,
+        "Pmax": 0.7094206944941501,
+        "Qmax": 0.7366533593516136,
+        "ucost": 1.337520849449769,
+        "scost": 0.9082037555675646,
+        "objective": 2.2457246050173336,
+        "minimum_noncontact": 5.439841330501238e-06,
+        "it": 90,
+        "seconds": 18.41197419166565,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 79,
+        "E": 137,
+        "F": 60,
+        "S": 2,
+        "U": 5,
+        "Pmax": 0.7094218029030538,
+        "Qmax": 0.734014880296548,
+        "ucost": 1.3250489547877071,
+        "scost": 0.907385693772824,
+        "objective": 2.232434648560531,
+        "minimum_noncontact": 4.246863164469872e-07,
+        "it": 100,
+        "seconds": 19.7000150680542,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 82,
+        "E": 142,
+        "F": 62,
+        "S": 2,
+        "U": 6,
+        "Pmax": 0.718044370995671,
+        "Qmax": 0.7253834817680705,
+        "ucost": 1.2984364395060672,
+        "scost": 0.9047297374356076,
+        "objective": 2.203166176941675,
+        "minimum_noncontact": 1.0438318601035945e-05,
+        "it": 110,
+        "seconds": 21.694474935531616,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 81,
+        "E": 141,
+        "F": 62,
+        "S": 2,
+        "U": 7,
+        "Pmax": 0.720824601827916,
+        "Qmax": 0.7187871101292227,
+        "ucost": 1.2542688354922482,
+        "scost": 0.9022618921004103,
+        "objective": 2.1565307275926586,
+        "minimum_noncontact": 5.902800209878212e-05,
+        "it": 120,
+        "seconds": 22.98197913169861,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 82,
+        "E": 143,
+        "F": 63,
+        "S": 2,
+        "U": 7,
+        "Pmax": 0.7221873718733749,
+        "Qmax": 0.7157168960815179,
+        "ucost": 1.2324588675065948,
+        "scost": 0.9010461990727664,
+        "objective": 2.133505066579361,
+        "minimum_noncontact": 5.74725375088736e-05,
+        "it": 130,
+        "seconds": 24.10945415496826,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 82,
+        "E": 143,
+        "F": 63,
+        "S": 2,
+        "U": 7,
+        "Pmax": 0.7233707009779212,
+        "Qmax": 0.7116680957149752,
+        "ucost": 1.208860151799315,
+        "scost": 0.8998384697571842,
+        "objective": 2.108698621556499,
+        "minimum_noncontact": 6.836019895628542e-05,
+        "it": 140,
+        "seconds": 25.26601219177246,
+        "trust": 0.2258860799999999
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 82,
+        "E": 143,
+        "F": 63,
+        "S": 2,
+        "U": 7,
+        "Pmax": 0.723370796582456,
+        "Qmax": 0.7116676542993009,
+        "ucost": 1.2088584180026365,
+        "scost": 0.8998383646527092,
+        "objective": 2.1086967826553455,
+        "minimum_noncontact": 6.836446465607882e-05,
+        "it": 150,
+        "seconds": 28.17943501472473,
+        "trust": 0.03614177279999999
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 82,
+        "E": 143,
+        "F": 63,
+        "S": 2,
+        "U": 7,
+        "Pmax": 0.7233707965934836,
+        "Qmax": 0.7116676541411857,
+        "ucost": 1.2088584169242356,
+        "scost": 0.8998383646075225,
+        "objective": 2.108696781531758,
+        "minimum_noncontact": 6.83644023544705e-05,
+        "it": 160,
+        "seconds": 32.79455518722534,
+        "trust": 9.474348888883202e-06
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 82,
+        "E": 143,
+        "F": 63,
+        "S": 2,
+        "U": 7,
+        "Pmax": 0.7233707965934836,
+        "Qmax": 0.7116676541411857,
+        "ucost": 1.2088584169242356,
+        "scost": 0.8998383646075225,
+        "objective": 2.108696781531758,
+        "minimum_noncontact": 6.83644023544705e-05,
+        "it": 170,
+        "seconds": 37.1513352394104,
+        "trust": 9.934574860509597e-10
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "FINITE_MULTIPLE_CAP_DIRECT_STALLED",
+      "values": {
+        "V": 82,
+        "E": 143,
+        "F": 63,
+        "S": 2,
+        "U": 7,
+        "Pmax": 0.7233707965934836,
+        "Qmax": 0.7116676541411857,
+        "ucost": 1.2088584169242356,
+        "scost": 0.8998383646075225,
+        "objective": 2.108696781531758,
+        "minimum_noncontact": 6.83644023544705e-05,
+        "it": 177,
+        "seconds": 40.10535407066345,
+        "trust": 1.6276807451458931e-12
+      }
+    }
+  ]
+}

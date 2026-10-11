@@ -1,0 +1,557 @@
+# figure-0411
+
+Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
+
+Public text derivative: internal-record-identifiers-replaced.
+
+---
+
+# Bright Harbor 26 — canonical replay completed; no lower-C successor
+
+## 1. Disposition
+
+**No new C<622 own110/weak000 polyhedron was constructed in this execution.** No new finite geometric nonwinner, lower-arithmetic own110 variant, contact endpoint, or exclusion theorem is claimed. I did not execute a new contact-optimization campaign.
+
+The completed work is a fresh reconstruction and full exact replay of the unchanged canonical parent, a successful numerical-entry test, and a source-level audit identifying important restrictions of the supplied continuation machinery. These results establish a usable starting point; they are not a construction advance.
+
+The authoritative parent remains `figure-0373`, with declared immutable payload SHA-256 `8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d`, defining **VQ20_C622_ROUTE88_118_G12**. Its historical inline-source limitation is resolved by the supplied scoped16 materials. I did not substitute CONDITION25, C622_HOMOTOPY_POSITIVE, or an own132 body. :contentReference[oaicite:0]{index=0}
+
+## 2. Reading and source completeness
+
+I read the complete supplied research-journal, including the branch memory and literal canonical parent payload, both complete recovery materials, and all sixteen decoded source files. The required canonical dependencies were present and readable; no missing FULL76 dependency remains for this scoped reconstruction. The two materials explicitly preserve the complete generator, independent auditors, centered integration, controls, and numerical entry point. :contentReference[oaicite:1]{index=1}
+
+Verified supplied-file identities:
+
+| Source | Bytes | SHA-256 |
+|---|---:|---|
+| Recovery part 1, material `[internal-source-reference]` | 15305 | `d5846089dd79e70e4aa35f67d5d66b8480c3dd72bca1de45359a281931f632aa` |
+| Recovery part 2, material `[internal-source-reference]` | 20685 | `c4a0ef05c36066f7b2851dc18ea1c3cda599f724130ec0ce7a89785613cde5b1` |
+| Supplied research-journal | 196501 | `0da404de8324d4075ad7a20a66b4e6020e8ce93398769b3d16b04a192dfda458` |
+
+The immutable-parent payload hash above is the supplied authority identifier, not a claim that I regenerated an unavailable original envelope serialization. The actual decoded generator and executable sources were independently hash-checked.
+
+Other historical constructions and certificates mentioned by the notebook were not silently treated as supplied executables or replayed results.
+
+## 3. Exact checks actually executed
+
+I extracted and executed the supplied complete decoder, recovered the sixteen-file source closure into a previously absent directory, and ran `REPLAY_SCOPED.py` through its final terminal marker. This was an actual execution, not an inspection of old receipts.
+
+Observed terminals:
+
+```text
+COORD_C622_CANONICAL_SCOPED16_SOURCE_RECOVERY_PASS
+SCOPED_EXACT_A_PASS
+SCOPED_EXACT_B_PASS
+COORD_C622_SCOPED_CANONICAL_AB_MASS_CONTROLS_PASS 6ca0671aace64125886235d1060235f93290915c512bd7e9ac1e0789d7ec3f8a
+```
+
+The completed exact result is:
+
+| Quantity | Executed result |
+|---|---:|
+| Extreme physical vertices | 176 |
+| True edges | 311 |
+| Maximal facets | 137 |
+| C=2E | 622 |
+| Strict S/U/H | 1/1/0 |
+| Additional weak S/U/H | 0/0/0 |
+| Active input supports | All 137 |
+| Mixed-edge primitives tested | 1244 |
+| Face primitive zero count | 0 |
+| Vertex maximum zero count | 0 |
+| Edge primitive zero count | 0 |
+| Separate centered positive tetrahedra | 348 |
+| Centered ordinary filled first moments | Exactly 0/0/0 |
+| Common centered denominator bits | 56802 |
+| Largest common-denominator coordinate bits | 56802 |
+
+Auditor A reconstructs the hull from feasible halfspace triples. Auditor B independently reconstructs through pair-plane line clipping. Their complete reports agree byte-for-byte. The separate centered integer-tetrahedron integration agrees with their volume and gives exactly zero first moments. H=0 is checked using the true edges and both incident normal-cone coefficients, not inferred solely from an index identity. These are the existing independent software implementations, freshly executed here—not newly authored independent implementations or independent human review. The results reproduce the supplied canonical expectations. :contentReference[oaicite:2]{index=2}
+
+Both auditors also classified the regular tetrahedron as strict446/weak000 and the deliberately weak prism as strict446/weak123, rejected both as winners, and each rejected three invalid fixtures.
+
+Exact output identities reproduced in this execution:
+
+| File | Bytes | SHA-256 |
+|---|---:|---|
+| `GENERATOR.json` | 11841 | `3cbd90d799189108f26b941800c8fa79a6f1c5abb17b2db614f0e54f57fffee7` |
+| `raw.json` | 15437 | `ac01d1625274b64f336a715e1f5462f40686f647f0b7d1a4d90a5ee21765adb5` |
+| `A.json` | 311825 | `142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0` |
+| `B.json` | 311825 | `142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0` |
+| `MASS.json` | 223 | `2e8dbc53a73e9af00364dc91d13bccfb614fc88228bfcea3d9c791ae058352c1` |
+| `RECEIPT.json` | 681 | `6ca0671aace64125886235d1060235f93290915c512bd7e9ac1e0789d7ec3f8a` |
+
+This is the **scoped canonical replay**, not the historical ten-case aggregate.
+
+## 4. Numerical entry actually executed
+
+The supplied numerical smoke test also completed:
+
+```text
+COORD_C622_SCOPED_NUMERIC_ENTRY_PASS
+free_coordinates = 314
+minimum_fullpoint_escape_including_roots = 1.069843689360149e-08
+minimum_nonowner_slack = 0.0008816302267673493
+maximum_physical_vertex_discrepancy = 6.564193633096238e-15
+centroid_discrepancy = 7.632783294297951e-17
+```
+
+Executed environment: CPython3.13.5; NumPy2.3.5; SciPy1.17.0; float64; `OPENBLAS_NUM_THREADS=1`; `OMP_NUM_THREADS=1`. The exact replay uses the standard library with assertions enabled.
+
+This checks agreement of the numerical contact/mass entry with the exact parent. It is not an optimized child, a finite perturbation certificate, or a manufacturing tolerance. It matches the supplied smoke expectations. :contentReference[oaicite:3]{index=3}
+
+## 5. Continuation-critical source observations
+
+These are observations about the exact supplied code, not geometric exclusion results.
+
+### 5.1 The numerical mass calculation uses a fixed active complex
+
+`methods/flexible.py:FlexibleAtlas` requires `active_input_indices == list(range(n_supports))`. It fixes the owner lists, simple-vertex triples, and polygon triangulations from the supplied exact report. `methods/contact.py:Atlas.evaluate` reconstructs those vertices and integrates the stored triangles; it does not rebuild the maximal hull at every evaluation.
+
+The filled-centroid differentiation is therefore an actual-mass calculation **while that boundary remains the actual exposed boundary**. After a support disappears or an unrepresented contact changes the maximal complex, the old triangle integral is not automatically the mass of the new halfspace intersection. Whole-interface continuation needs actual-hull reconstruction and a fresh owner/contact chart at such events. A small residual in the old chart is not an endpoint certificate.
+
+### 5.2 The supplied quotient helper excludes some intended operations by construction
+
+`methods/scope.py:quotient` merges two physical vertices sharing exactly two support labels, predicts V−1/E−1 with F unchanged, and requires every resulting facet cycle to retain at least three distinct vertices. Its explicit rejection is `This loss needs actual polar vertex suppression`.
+
+Consequently, this helper does not implement general maximal-facet loss or linked interface suppression. Its refusal is a limitation of the operation implemented, not an obstruction in the broader realization space. Its returned report is nominal until the new halfspaces undergo an actual maximal-hull audit.
+
+### 5.3 The inner SVD correction does not enforce the two root scores
+
+`Atlas.evaluate` places the two protected-root scores at the end of its mechanical vector. However, `methods/SVD_CORRECT.py:repair` forms its mechanical merit, quadratic-program inequalities, and early stopping test from `v[:s.mechlen-2]`, excluding those two scores. Although `FlexibleAtlas` constructs root floors, this repair routine does not use them in that merit or QP.
+
+The outer `rooted_correct` subsequently evaluates `v[:s.mechlen]`, including the roots, and the full exact auditors independently check every feature. Thus this observation does **not** invalidate the accepted canonical body. It means that the inner numerical success message or its reported mechanical minimum must not be interpreted as proof of protected-root survival or own110.
+
+### 5.4 Root turnover requires explicit chart changes
+
+The convenience driver constructs `FlexibleAtlas` with stable support3 by default; the unstable root is identified by the raw anchored point `(0,0,1)`. Rebuilding witness routes is not the same as changing these protected roots. A root-changing search must explicitly choose the new root, rebuild the retained index sets, and reanchor the contact representation consistently.
+
+These distinctions matter because the successful historical canonical step already demonstrated that inherited local witness restrictions can be too narrow: its exact warm body was own817, and the subsequent successful phase changed47 of175 physical and14 of136 polar witness choices. That is inherited evidence, not a new experiment here. :contentReference[oaicite:4]{index=4}
+
+## 6. Exact edge-budget accounting for whole-interface loss
+
+I inspected the freshly audited true-edge report. It reproduces the physical degree histogram
+
+```text
+133 vertices of degree 3
+34 vertices of degree 4
+5 vertices of degree 5
+3 vertices of degree 6
+1 vertex of degree 44
+```
+
+and maximal-facet histogram
+
+```text
+51 triangles, 33 quadrilaterals, 24 pentagons, 14 hexagons,
+7 heptagons, 3 octagons, 2 nonagons, 1 decagon, 1 dodecagon,
+1 twenty-gon.
+```
+
+These agree with the canonical parent. :contentReference[oaicite:5]{index=5}
+
+Let D=sum_v(deg(v)−3). From the degree sum and Euler identity,
+
+`D = 2E−3V = 3F−6−E`.
+
+For the canonical body, D=94:41 comes from the degree44 root and53 from the remaining vertices. If an actual successor loses k maximal facets, so F'=137−k, then
+
+`E' = 405−3k−D'`.
+
+The target E'≤310 requires
+
+`D'≥95−3k`.
+
+Thus unchanged F requires D'≥95; losing one facet permits D'≥92; losing two permits D'≥89. Equivalently, if the surgery destroys ℓ units of the parent's degree excess, it can improve the edge record only if ℓ≤3k−1.
+
+This is necessary combinatorial accounting, not a realization or equilibrium theorem. It explains precisely why deleting a support need not reduce true edges when that deletion destroys too much nonsimple contact structure. The complete executed inspection program is included below.
+
+## 7. Remaining constructive question
+
+The next unresolved question is an **actual finite changed maximal interface**, possibly with support suppression and root turnover, satisfying both the edge budget above and own-filled-volume strict110/weak000 after reconstructing its new exposed boundary. There is no new candidate or finite search result in this handoff narrowing that question.
+
+Use the canonical314-coordinate source as the starting exact object. For operations leaving the fixed-active-complex chart, rebuild the actual hull and contact ownership rather than extending the stored triangulation counterfactually. Permit global witness changes and explicit root changes; treat full-point witness links as search certificates, not additional physical edges. Preserve a finite exact endpoint and run both complete auditors plus separate centered integration before proposing promotion.
+
+No local helper rejection, fixed-root correction failure, or finite solver outcome has been upgraded here to an exclusion of that broader task.
+
+## 8. Self-contained recovery of the unchanged parent and executed methods
+
+The following complete program embeds the **unchanged** sixteen-file source closure. It preserves all literal canonical controls, contact equations, exact auditors, centered integration, controls, and numerical methods reviewed above. No external FULL76, originating sandbox, or Library lookup is needed after saving this program.
+
+This is a re-preservation of the incumbent, not a new geometric successor. The embedded source-map JSON is68603bytes, SHA-256 `63b9a7de970fa8fb01f43ce10bec573441e5afeebe4ef2d3b7031ea6fb64c9ca`; its compressed XZ is20896bytes, SHA-256 `74dfffa9c2c4972bf1d4b99c269e3c3df99eaa01549548b858c542b431fa3597`.
+
+Save the program as `BH26_C622_PARENT_SOURCE.py`, UTF-8/LF with one final newline. The executed file is29915bytes, SHA-256 `df80654b5f796c788027090ec6cfd7f39f5aee2ad8079fc99458202ce9c57019`. Its source-only recovery was also executed into a fresh directory and passed.
+
+```python
+"""Recover the unchanged canonical C622 parent; this is not a new polyhedron."""
+import base64, hashlib, json, lzma, sys
+from pathlib import Path
+PAYLOAD = """
+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
+"""
+def main():
+    assert __debug__, 'Assertions must remain enabled'
+    assert len(sys.argv) == 2, 'Usage: BH26_C622_PARENT_SOURCE.py NEW_DIRECTORY'
+    sha = lambda b: hashlib.sha256(b).hexdigest()
+    b = ''.join(PAYLOAD.split()).encode('ascii')
+    assert len(b) == 27864 and sha(b) == '6a7d42eeabc1365c9dc122a9e62e6127e779db025765c6cbb37107cb31788638'
+    z = base64.b64decode(b, validate=True)
+    assert len(z) == 20896 and sha(z) == '74dfffa9c2c4972bf1d4b99c269e3c3df99eaa01549548b858c542b431fa3597'
+    raw = lzma.decompress(z)
+    assert len(raw) == 68603 and sha(raw) == '63b9a7de970fa8fb01f43ce10bec573441e5afeebe4ef2d3b7031ea6fb64c9ca'
+    files = json.loads(raw)
+    assert len(files) == 16
+    manifest = json.loads(files['MANIFEST.json'])
+    assert len(manifest) == 15
+    assert sha(files['MANIFEST.json'].encode('utf-8')) == '0ba857a7d98fa85ad04ac1800886a9c450a5dc4c25e02177832adf9e0275d6af'
+    assert set(files) == set(manifest) | {'MANIFEST.json'}
+    for name, rec in manifest.items():
+        data = files[name].encode('utf-8')
+        assert len(data) == rec['bytes'] and sha(data) == rec['sha256'], name
+    out = Path(sys.argv[1])
+    assert not out.exists(), 'Destination must not exist'
+    for name in files:
+        rel = Path(name)
+        assert not rel.is_absolute() and '..' not in rel.parts
+    out.mkdir(parents=True)
+    for name, text in files.items():
+        p = out / name
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_bytes(text.encode('utf-8'))
+    print('BH26_C622_CANONICAL_PARENT_SOURCE_RECOVERY_PASS')
+if __name__ == '__main__':
+    main()
+```
+
+Reconstruction and verification commands, with fresh destination directories:
+
+```sh
+python -B -S BH26_C622_PARENT_SOURCE.py C622_SOURCE
+python -B -S C622_SOURCE/REPLAY_SCOPED.py C622_PROOF
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -B C622_SOURCE/SMOKE_NUMERIC.py C622_PROOF
+python -B -S BH26_BUDGET.py C622_PROOF/A.json
+```
+
+The first command must emit `BH26_C622_CANONICAL_PARENT_SOURCE_RECOVERY_PASS`. The exact replay must emit both auditor passes and the aggregate scoped marker with the receipt hash in section3. The numerical command must emit `COORD_C622_SCOPED_NUMERIC_ENTRY_PASS`. The budget inspection must emit `BH26_CANONICAL_EDGE_BUDGET_PASS`.
+
+No new rounding was applied to the parent. Its literal controls remain integers over10^12, and dependent contact coordinates are reconstructed exactly. The numerical smoke is only an evaluation of those inputs; no random seed, optimizer stopping rule, or unrecorded deformation defines this object.
+
+## 9. Complete executed budget-inspection source
+
+Save as `BH26_BUDGET.py`, UTF-8/LF with one final newline:1081bytes, SHA-256 `4be4c1d7693d47548d5f8273b8eb3e8514473f6d20f9edbb82f4a277a729d01d`.
+
+```python
+"""Inspect the already audited canonical report; no geometric search is performed."""
+import collections, hashlib, json, sys
+from pathlib import Path
+assert __debug__ and len(sys.argv) == 2
+raw = Path(sys.argv[1]).read_bytes()
+assert len(raw) == 311825
+assert hashlib.sha256(raw).hexdigest() == '142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0'
+a = json.loads(raw)
+assert [a[k] for k in ('V', 'E', 'F')] == [176, 311, 137]
+deg = collections.Counter(v for e in a['edges'] for v in e)
+assert len(deg) == a['V'] and sum(deg.values()) == 2*a['E']
+excess = sum(d-3 for d in deg.values())
+assert excess == 94 == 3*a['F']-6-a['E']
+assert a['counts'] == [1, 1, 0] and a['weak'] == [0, 0, 0]
+print('degree_histogram', sorted(collections.Counter(deg.values()).items()))
+print('facet_histogram', sorted(collections.Counter(map(len,a['faces'])).items()))
+print('excess', excess, 'root_excess', deg[94]-3, 'nonroot_excess', excess-(deg[94]-3))
+for k in range(3):
+    print('facets_lost', k, 'required_excess_for_E_at_most_310', 95-3*k)
+print('BH26_CANONICAL_EDGE_BUDGET_PASS')
+```
+
+Observed output:
+
+```text
+degree_histogram [(3, 133), (4, 34), (5, 5), (6, 3), (44, 1)]
+facet_histogram [(3, 51), (4, 33), (5, 24), (6, 14), (7, 7), (8, 3), (9, 2), (10, 1), (12, 1), (20, 1)]
+excess 94 root_excess 41 nonroot_excess 53
+facets_lost 0 required_excess_for_E_at_most_310 95
+facets_lost 1 required_excess_for_E_at_most_310 92
+facets_lost 2 required_excess_for_E_at_most_310 89
+BH26_CANONICAL_EDGE_BUDGET_PASS
+```
+
+Convenience copies, supplementary to the complete recovery text above: [self-contained canonical source recovery](sandbox:/mnt/data/BH26_C622_PARENT_SOURCE.py), [executed exact receipt](sandbox:/mnt/data/BH26_CANONICAL_PROOF/RECEIPT.json), and [budget-inspection program](sandbox:/mnt/data/BH26_BUDGET.py).
+
+**Final scientific status:** the canonical C622 incumbent is freshly reproduced and ready for continuation. The requested lower-C construction remains unachieved in this execution; no unsuccessful search or broader geometric exclusion is inferred from that fact.

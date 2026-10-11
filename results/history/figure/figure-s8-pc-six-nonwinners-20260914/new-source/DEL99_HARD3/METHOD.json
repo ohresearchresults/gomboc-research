@@ -1,0 +1,1 @@
+{"adapt_trust":false,"floor_cap":0.0001,"floor_fraction":0.1,"gapcut":0.03,"gapfloor":1e-07,"goal":1e-07,"input":"/mnt/data/coord_search/DEL99","max_linesearch":24,"min_trust":1e-09,"mode":"hardgood","out":"/mnt/data/coord_search/DEL99_HARD3","ridge":1e-06,"sroot":3,"steps":1,"svd_floor":1e-07,"tetrafloor":1e-10,"trust":0.01,"uroot":null}

@@ -1,0 +1,1 @@
+{"fixtures":[{"VEF":[4,6,4],"counts":[4,4,6],"weak":[0,0,0]},{"VEF":[6,12,8],"counts":[8,6,12],"weak":[0,0,0]},{"VEF":[8,12,6],"counts":[6,8,12],"weak":[0,0,0]},{"VEF":[4,6,4],"counts":[3,2,3],"weak":[0,2,2]}],"invalid_inputs_rejected":4}

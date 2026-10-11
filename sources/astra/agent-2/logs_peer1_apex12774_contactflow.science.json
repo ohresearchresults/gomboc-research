@@ -1,0 +1,38 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 158,
+        "F": 86,
+        "E": 242,
+        "nodes": 244,
+        "free": 244,
+        "depth": 5,
+        "levels": 14
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 0,
+        "S": 2,
+        "U": 1,
+        "minimum": 2.668773864370968e-08,
+        "main_Q": 0.103778500042154,
+        "centroid": [
+          -1.9540474645941137e-17,
+          -1.0049386960769727e-17,
+          1.2108115539538526e-17
+        ],
+        "loss": 0.010769977070999357,
+        "trust": 0.02,
+        "seconds": 2.7384281158447266
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.0006067433892281702,
+        "reachable": 33,
+        "minimum": 4.9999992209126706e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.02,
+        "seconds": 0.15817713737487793
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "FINITE_TRANSFER_REQUIRES_EXACT",
+      "values": {
+        "it": 1,
+        "S": 1,
+        "U": 2,
+        "cross": 0.002943051163066635,
+        "reachable": 34,
+        "minimum": 4.9999987165739986e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.027999999999999997,
+        "seconds": 0.9015181064605713
+      }
+    }
+  ]
+}

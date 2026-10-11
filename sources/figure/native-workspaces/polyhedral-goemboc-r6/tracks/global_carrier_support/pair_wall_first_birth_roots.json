@@ -1,0 +1,243 @@
+{
+  "alpha_separation": 4.75175454539567e-14,
+  "continuation": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/global_carrier_support/pair_wall_continuation.json",
+  "interpretation": "first supporting wall on this template is the first listed birth; the targeted S(7,8,245)/H(9,10) decisions are still positive there",
+  "iterations": 52,
+  "roots_in_order": [
+    {
+      "all_pair_birth_decisions": {
+        "saddle_edge:[8,245]": 0.0,
+        "stable_face:[8,245,246]": 6.516736921574116e-17
+      },
+      "alpha": 0.0699241522418245,
+      "alpha_hi": 0.0699241522418245,
+      "alpha_lo": 0.06992415224182448,
+      "decision_at_alpha": 6.516736921574116e-17,
+      "feature": "stable_face:[8,245,246]",
+      "next_root": "saddle_edge:[8,245]",
+      "open_interval_midpoint": {
+        "alpha": 0.06992415224184825,
+        "base_face_present": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "decisions": {
+          "saddle_edge:[8,245]": 0.0,
+          "stable_face:[8,245,246]": 8.805248372924866e-16
+        },
+        "missing_forced_rails": [],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ]
+      },
+      "parameters": [
+        -0.0047792445184402016,
+        -0.010394729951485885,
+        0.07866411043627237,
+        -0.0724909255476834,
+        -0.020004350174335394,
+        -0.002122566802897939,
+        -0.027935164698856135,
+        0.021270850464221745,
+        -0.05384373838654841,
+        0.004642113145844028,
+        -0.0185350954943886,
+        -0.05216192060088547,
+        0.03177208290352101,
+        0.020973680809982367,
+        0.04017239749187731,
+        0.017003665348851584,
+        0.012481986513440986,
+        -0.0010132220434593527,
+        -0.0707106770464572,
+        0.03862187796024355
+      ],
+      "summary_at_numerical_root": {
+        "base_face_present": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "missing_forced_rails": [],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ]
+      }
+    },
+    {
+      "all_pair_birth_decisions": {
+        "saddle_edge:[8,245]": 2.0635120285426648e-13,
+        "stable_face:[8,245,246]": 9.466676097963673e-16
+      },
+      "alpha": 0.06992415224187201,
+      "alpha_hi": 0.06992415224187201,
+      "alpha_lo": 0.069924152241872,
+      "decision_at_alpha": 2.0635120285426648e-13,
+      "feature": "saddle_edge:[8,245]",
+      "parameters": [
+        -0.0047792445184402016,
+        -0.010394729951485885,
+        0.07866411043627237,
+        -0.0724909255476834,
+        -0.020004350174335397,
+        -0.00212256680289794,
+        -0.02793516469885616,
+        0.021270850464221724,
+        -0.05384373838654851,
+        0.004642113145843954,
+        -0.018535095494388535,
+        -0.052161920600885425,
+        0.031772082903520994,
+        0.02097368080998236,
+        0.04017239749187728,
+        0.01700366534885158,
+        0.012481986513440978,
+        -0.0010132220434593594,
+        -0.0707106770464572,
+        0.03862187796024355
+      ],
+      "summary_at_numerical_root": {
+        "base_face_present": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "missing_forced_rails": [],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ]
+      }
+    }
+  ],
+  "scope": "bisection of first actual-hull birth decisions on continuation segment 1",
+  "source": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/circuit_atlas/row54_far_rebuilt.csv",
+  "version": 1
+}

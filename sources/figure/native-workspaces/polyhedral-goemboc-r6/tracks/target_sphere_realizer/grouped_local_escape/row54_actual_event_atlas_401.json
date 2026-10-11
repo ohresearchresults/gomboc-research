@@ -1,0 +1,1423 @@
+{
+  "version": 1,
+  "source": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/circuit_atlas/row54_far_rebuilt.csv",
+  "search": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/target_sphere_realizer/grouped_local_escape/row54_metric_de50.json",
+  "path": "p(t)=projective_tracefree_spd(row54_far_rebuilt, t*theta)",
+  "theta": [
+    0.14764679533439,
+    -0.0037743289065766406,
+    -0.14898466686805537,
+    -0.5070483962947936,
+    1.4561988136680264,
+    -0.7534657808473753,
+    0.1703944710741073,
+    0.9256117804937014
+  ],
+  "targeted_sample_count": 401,
+  "event_clusters": [
+    {
+      "t": 0.06582431520840806,
+      "crossings": [
+        {
+          "feature": [
+            "H",
+            [
+              8,
+              246
+            ]
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.06582431520840769
+        },
+        {
+          "feature": [
+            "S",
+            [
+              8,
+              246,
+              264
+            ]
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.06582431520840844
+        }
+      ]
+    },
+    {
+      "t": 0.08724365389066342,
+      "crossings": [
+        {
+          "feature": [
+            "H",
+            [
+              1,
+              54
+            ]
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.08724365389062716
+        },
+        {
+          "feature": [
+            "U",
+            1
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.08724365389069969
+        }
+      ]
+    },
+    {
+      "t": 0.08764842209625326,
+      "crossings": [
+        {
+          "feature": [
+            "U",
+            54
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.08764842209623369
+        },
+        {
+          "feature": [
+            "H",
+            [
+              1,
+              54
+            ]
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.08764842209627284
+        }
+      ]
+    },
+    {
+      "t": 0.2611743413201959,
+      "crossings": [
+        {
+          "feature": [
+            "S",
+            [
+              7,
+              8,
+              246
+            ]
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.261174341320183
+        },
+        {
+          "feature": [
+            "H",
+            [
+              8,
+              246
+            ]
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.2611743413202087
+        }
+      ]
+    },
+    {
+      "t": 0.5947615902559096,
+      "crossings": [
+        {
+          "feature": [
+            "H",
+            [
+              8,
+              264
+            ]
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.5947615902558996
+        },
+        {
+          "feature": [
+            "S",
+            [
+              8,
+              9,
+              264
+            ]
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.5947615902559195
+        }
+      ]
+    },
+    {
+      "t": 0.5983797076210432,
+      "crossings": [
+        {
+          "feature": [
+            "S",
+            [
+              8,
+              246,
+              264
+            ]
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.5983797076210344
+        },
+        {
+          "feature": [
+            "H",
+            [
+              8,
+              264
+            ]
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.598379707621052
+        }
+      ]
+    },
+    {
+      "t": 0.6265842351736948,
+      "crossings": [
+        {
+          "feature": [
+            "H",
+            [
+              7,
+              8
+            ]
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.6265842351736948
+        }
+      ]
+    },
+    {
+      "t": 0.6271254571655956,
+      "crossings": [
+        {
+          "feature": [
+            "H",
+            [
+              6,
+              7
+            ]
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.6271254571655956
+        }
+      ]
+    },
+    {
+      "t": 0.6720734313809811,
+      "crossings": [
+        {
+          "feature": [
+            "U",
+            2
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.6720734313809346
+        },
+        {
+          "feature": [
+            "H",
+            [
+              1,
+              2
+            ]
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.6720734313810275
+        }
+      ]
+    },
+    {
+      "t": 0.6738481742688853,
+      "crossings": [
+        {
+          "feature": [
+            "H",
+            [
+              1,
+              2
+            ]
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.6738481742688687
+        },
+        {
+          "feature": [
+            "U",
+            1
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.673848174268902
+        }
+      ]
+    },
+    {
+      "t": 0.8604721188627009,
+      "crossings": [
+        {
+          "feature": [
+            "H",
+            [
+              8,
+              9
+            ]
+          ],
+          "direction": "negative_to_positive",
+          "root": 0.8604721188627009
+        }
+      ]
+    },
+    {
+      "t": 0.860645603965246,
+      "crossings": [
+        {
+          "feature": [
+            "H",
+            [
+              9,
+              10
+            ]
+          ],
+          "direction": "positive_to_negative",
+          "root": 0.860645603965246
+        }
+      ]
+    }
+  ],
+  "fresh_actual_open_cells": [
+    {
+      "t": 0.0,
+      "minimum_projective_denominator": 1.0,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            246
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "centroid": [
+          -1.5474634627273407,
+          -0.034908500596631094,
+          0.2249096285559094
+        ],
+        "topology_margin": 6.118346008294088e-09,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -5.745717245889816,
+          "positive_dot_min": -4.443500311371959
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -1.4256747477649785,
+          "positive_dot_min": -1.305943554887689
+        }
+      }
+    },
+    {
+      "t": 0.07653398454953575,
+      "minimum_projective_denominator": 0.9296084399340233,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          3,
+          2,
+          3
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            246
+          ],
+          [
+            8,
+            264,
+            246
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            8,
+            246
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -1.6412273544850897,
+          -0.20424094175154264,
+          0.339182049897874
+        ],
+        "topology_margin": 6.287490700905288e-09,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -6.867969262853797,
+          "positive_dot_min": -5.272897073084544
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -1.9629920675973402,
+          "positive_dot_min": -1.7760225028331416
+        }
+      }
+    },
+    {
+      "t": 0.08744603799345835,
+      "minimum_projective_denominator": 0.9195721603653845,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          3,
+          3,
+          4
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            246
+          ],
+          [
+            8,
+            264,
+            246
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          1,
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            8,
+            246
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            1,
+            54
+          ]
+        ],
+        "centroid": [
+          -1.6576610806588536,
+          -0.23000997500791076,
+          0.3560637441931739
+        ],
+        "topology_margin": 6.295546947461288e-09,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -7.079870923195814,
+          "positive_dot_min": -5.429911828952742
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -2.063414555044851,
+          "positive_dot_min": -1.8632999188882124
+        }
+      }
+    },
+    {
+      "t": 0.17441138170822457,
+      "minimum_projective_denominator": 0.8395864356995778,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          3,
+          2,
+          3
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            246
+          ],
+          [
+            8,
+            264,
+            246
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          1,
+          8
+        ],
+        "saddles": [
+          [
+            8,
+            246
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -1.8199762032023241,
+          -0.45432785690675576,
+          0.4975420608382551
+        ],
+        "topology_margin": 5.374979553175705e-09,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -9.382294730475522,
+          "positive_dot_min": -7.136167910789309
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -3.176814310749953,
+          "positive_dot_min": -2.821399772440061
+        }
+      }
+    },
+    {
+      "t": 0.42796796578805274,
+      "minimum_projective_denominator": 0.6063796632646863,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            8,
+            264,
+            246
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          1,
+          8
+        ],
+        "saddles": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "centroid": [
+          -2.7524267910730345,
+          -1.4435024809249217,
+          1.0306968489503543
+        ],
+        "topology_margin": 1.92734658618142e-09,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -29.22171407486585,
+          "positive_dot_min": -21.738282092734643
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -14.413710724796038,
+          "positive_dot_min": -12.09621681366302
+        }
+      }
+    },
+    {
+      "t": 0.5965706489384763,
+      "minimum_projective_denominator": 0.4513086060327671,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          3,
+          2,
+          3
+        ],
+        "stable": [
+          [
+            8,
+            9,
+            264
+          ],
+          [
+            8,
+            264,
+            246
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          1,
+          8
+        ],
+        "saddles": [
+          [
+            9,
+            10
+          ],
+          [
+            8,
+            264
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -4.104210571922861,
+          -2.7149600084286303,
+          1.5965980852423565
+        ],
+        "topology_margin": 8.549715997699062e-10,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -77.91039810618575,
+          "positive_dot_min": -57.34421521118046
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -47.14217418850627,
+          "positive_dot_min": -38.07687813148725
+        }
+      }
+    },
+    {
+      "t": 0.612481971397369,
+      "minimum_projective_denominator": 0.43667428616576287,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            8,
+            9,
+            264
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          1,
+          8
+        ],
+        "saddles": [
+          [
+            9,
+            10
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -4.2882784088618555,
+          -2.8848125626723933,
+          1.6666510516026531
+        ],
+        "topology_margin": 7.872828231426876e-10,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -86.41649776416324,
+          "positive_dot_min": -63.55750425934999
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -53.231528395521174,
+          "positive_dot_min": -42.845972696333526
+        }
+      }
+    },
+    {
+      "t": 0.6268548461696453,
+      "minimum_projective_denominator": 0.42345494205597567,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          3,
+          3
+        ],
+        "stable": [
+          [
+            8,
+            9,
+            264
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          1,
+          7,
+          8
+        ],
+        "saddles": [
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -4.466407715787697,
+          -3.0488537059395178,
+          1.7334298182544303
+        ],
+        "topology_margin": 7.300203634590701e-10,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -95.08458115489475,
+          "positive_dot_min": -69.88877437923041
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -59.513396498297325,
+          "positive_dot_min": -47.75333822466797
+        }
+      }
+    },
+    {
+      "t": 0.6495994442732884,
+      "minimum_projective_denominator": 0.4025357680052265,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            8,
+            9,
+            264
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          1,
+          8
+        ],
+        "saddles": [
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "centroid": [
+          -4.773988349695863,
+          -3.331509238047744,
+          1.8466868231811098
+        ],
+        "topology_margin": 6.464463125943788e-10,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -111.06912844265179,
+          "positive_dot_min": -81.56414911071535
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -71.27374611763487,
+          "positive_dot_min": -56.912201800923555
+        }
+      }
+    },
+    {
+      "t": 0.6729608028249332,
+      "minimum_projective_denominator": 0.3810493331437751,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          3,
+          3
+        ],
+        "stable": [
+          [
+            8,
+            9,
+            264
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          1,
+          2,
+          8
+        ],
+        "saddles": [
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "centroid": [
+          -5.127329725876069,
+          -3.655524538555624,
+          1.974053980490611
+        ],
+        "topology_margin": 5.689216191275033e-10,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -131.033868573686,
+          "positive_dot_min": -96.14838801948706
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -86.23422360272586,
+          "positive_dot_min": -68.52071167633984
+        }
+      }
+    },
+    {
+      "t": 0.7671601465657931,
+      "minimum_projective_denominator": 0.2944101910405884,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            8,
+            9,
+            264
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          2,
+          8
+        ],
+        "saddles": [
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "centroid": [
+          -7.099836602030198,
+          -5.458246042706817,
+          2.6491425278775145
+        ],
+        "topology_margin": 3.2769211212381365e-10,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -274.58501413849547,
+          "positive_dot_min": -201.12937719192308
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -199.4037403316285,
+          "positive_dot_min": -155.50221343328909
+        }
+      }
+    },
+    {
+      "t": 0.8605588614139734,
+      "minimum_projective_denominator": 0.2085074213753627,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          3,
+          3
+        ],
+        "stable": [
+          [
+            8,
+            9,
+            264
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          2,
+          8,
+          9
+        ],
+        "saddles": [
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "centroid": [
+          -10.70282308588809,
+          -8.74627735783605,
+          3.804261560030287
+        ],
+        "topology_margin": 1.7379326788039723e-10,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -681.6364455888635,
+          "positive_dot_min": -499.8692859976258
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -543.7145884656436,
+          "positive_dot_min": -417.14319262986777
+        }
+      }
+    },
+    {
+      "t": 0.9303228019826231,
+      "minimum_projective_denominator": 0.14434255864305756,
+      "faces_match_source": true,
+      "actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            8,
+            9,
+            264
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          2,
+          8
+        ],
+        "saddles": [
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        "centroid": [
+          -16.175165453776355,
+          -13.742415812966845,
+          5.488676554959062
+        ],
+        "topology_margin": 9.720216571329435e-11,
+        "inactive_margin": Infinity
+      },
+      "rails": {
+        "short": {
+          "all_edges_present": true,
+          "directed_support_min": -1668.8048129110446,
+          "positive_dot_min": -1227.9021381765613
+        },
+        "long": {
+          "all_edges_present": true,
+          "directed_support_min": -1426.042928872456,
+          "positive_dot_min": -1083.046216392214
+        }
+      }
+    }
+  ],
+  "all_cells_face_lattice_preserved": true,
+  "all_cells_f_vector_61_162_103": true,
+  "all_cells_rail_edges_preserved": true,
+  "verdict": "TRANSFER_NOT_ESCAPE",
+  "terminal_residual": {
+    "stable": [
+      [
+        8,
+        9,
+        264
+      ],
+      [
+        0,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        54
+      ]
+    ],
+    "unstable": [
+      2,
+      8
+    ],
+    "saddles": [
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  }
+}

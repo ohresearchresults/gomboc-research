@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "scope": "analytic-dlog clean-flip LP in frozen 175-mode physical trust box",
+  "branch": 102,
+  "deaths": [
+    "('face', (198, 243, 244), (198, 244))",
+    "('vertex', 2, 1)",
+    "('edge', (4, 5), 'one_minus_t')",
+    "('edge', (12, 13), 'beta1')"
+  ],
+  "method": "highs-ipm",
+  "trust": 0.1,
+  "bound": 20.0,
+  "delta_cap": 1.0,
+  "success": false,
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+}

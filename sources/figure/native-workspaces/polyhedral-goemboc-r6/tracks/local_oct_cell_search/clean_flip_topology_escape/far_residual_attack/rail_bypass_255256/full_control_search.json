@@ -1,0 +1,1972 @@
+{
+  "version": 1,
+  "type": "numerical-proposer-no-certificate",
+  "verdict": "FULL_CONTROL_RAIL_SEPARATING_PRIMAL_WITNESS_FOUND",
+  "scope": "Numerical first-jet proposer only; exact materialization and complete interval verification are mandatory before use.",
+  "source_sha256": "4c1602bd81b3d0d44cbc1e8fc08c8ad65237eb4f258096b8dd22223322060139",
+  "faces_sha256": "56e6c283352fba7b351969af66c2483ba86ab6245cc821b0baf8495374e502a4",
+  "old_ray_sha256": "ae476fe7105fb0d5d68753b8f83afdcca9b9f3541ba58313e2ac7e043bba091e",
+  "chart_scale": 2.7074100118911777,
+  "control_count": 165,
+  "support_row_count": 5959,
+  "protected_mechanics_guard_count": 322,
+  "residual_component_count": 14,
+  "active_labels": [
+    [
+      "S198_243_245",
+      [
+        198,
+        243
+      ]
+    ],
+    [
+      "U1",
+      2
+    ],
+    [
+      "H4_5",
+      "one_minus_t"
+    ],
+    [
+      "H12_13",
+      "one_minus_t"
+    ]
+  ],
+  "circuit": [
+    69,
+    224,
+    255,
+    256
+  ],
+  "circuit_support_rows": [
+    {
+      "row_index": 3324,
+      "face_index": 57,
+      "witness": 69,
+      "source_value": 1.158988104093171e-14,
+      "old_sparse_slope": -9.833124851979222e-15
+    },
+    {
+      "row_index": 3386,
+      "face_index": 58,
+      "witness": 224,
+      "source_value": 1.1589881066940662e-14,
+      "old_sparse_slope": -9.83312485197906e-15
+    }
+  ],
+  "scenarios": [
+    {
+      "trust": 2e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 1.0,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 1567,
+      "mechanics_rows_in_solver": 34,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.3433096285355215e-06,
+      "direction_l1": 2.6939403168476483e-05,
+      "direction_l2": 2.247427154316793e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 4.049934745683372e-18,
+      "circuit_slopes": [
+        9.833124852161845e-15,
+        9.833124852165664e-15
+      ],
+      "circuit_required_lower": [
+        9.833124851979222e-15,
+        9.83312485197906e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999963765682,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999976694204,
+      "minimum_residual_ratio_linearized": 0.9999460495355388,
+      "active_relative_decrease_linearized": [
+        5.3950464461241145e-05,
+        4.34975484694565e-06,
+        4.343036705201225e-06,
+        4.3414052466757555e-06
+      ],
+      "index": 0
+    },
+    {
+      "trust": 2e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 1.0,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 1567,
+      "mechanics_rows_in_solver": 34,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.8313118075413125e-06,
+      "direction_l1": 2.728212104476167e-05,
+      "direction_l2": 2.261671795238593e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.12554826970811875,
+      "circuit_slopes": [
+        9.833124851978985e-15,
+        9.833124851994676e-15
+      ],
+      "circuit_required_lower": [
+        9.833124851979222e-15,
+        9.83312485197906e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999999987318,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999958932752,
+      "minimum_residual_ratio_linearized": 0.9997009055859636,
+      "active_relative_decrease_linearized": [
+        0.0002990944140364518,
+        4.835614020831307e-06,
+        4.827920841571301e-06,
+        4.833856654266561e-06
+      ],
+      "index": 1
+    },
+    {
+      "trust": 2e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.25,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 1567,
+      "mechanics_rows_in_solver": 34,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.343307430316359e-06,
+      "direction_l1": 2.7087657560414722e-05,
+      "direction_l2": 2.254028663654143e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 4.03807345817164e-18,
+      "circuit_slopes": [
+        2.4582812129947293e-15,
+        2.4582812129988586e-15
+      ],
+      "circuit_required_lower": [
+        2.4582812129948055e-15,
+        2.458281212994765e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999834487596,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999976688705,
+      "minimum_residual_ratio_linearized": 0.9999460496336537,
+      "active_relative_decrease_linearized": [
+        5.395036634626277e-05,
+        4.349752414152661e-06,
+        4.343007681886433e-06,
+        4.3414595274060906e-06
+      ],
+      "index": 2
+    },
+    {
+      "trust": 2e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.25,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 1567,
+      "mechanics_rows_in_solver": 34,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.831313828668119e-06,
+      "direction_l1": 2.7283858630077977e-05,
+      "direction_l2": 2.2618227602908225e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.12553988998887605,
+      "circuit_slopes": [
+        2.4582812129923667e-15,
+        2.4582812130080564e-15
+      ],
+      "circuit_required_lower": [
+        2.4582812129948055e-15,
+        2.458281212994765e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999999977288,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999589737015,
+      "minimum_residual_ratio_linearized": 0.9997009035384249,
+      "active_relative_decrease_linearized": [
+        0.0002990964615751055,
+        4.835624390172383e-06,
+        4.827906430958223e-06,
+        4.833884616175214e-06
+      ],
+      "index": 3
+    },
+    {
+      "trust": 2e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.0,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 1567,
+      "mechanics_rows_in_solver": 34,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.343307992477761e-06,
+      "direction_l1": 2.7087787302161263e-05,
+      "direction_l2": 2.2540399841149146e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 4.0380531777629086e-18,
+      "circuit_slopes": [
+        -1.2970447588066058e-28,
+        4.0246309851489585e-27
+      ],
+      "circuit_required_lower": [
+        0.0,
+        0.0
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.2499999980767762,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999976688787,
+      "minimum_residual_ratio_linearized": 0.9999460495863179,
+      "active_relative_decrease_linearized": [
+        5.395041368206901e-05,
+        4.349753111682974e-06,
+        4.343006968140989e-06,
+        4.34146088317095e-06
+      ],
+      "index": 4
+    },
+    {
+      "trust": 2e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.0,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 1567,
+      "mechanics_rows_in_solver": 34,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.831314502377063e-06,
+      "direction_l1": 2.728443782518343e-05,
+      "direction_l2": 2.2618890388199357e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.12553621137689197,
+      "circuit_slopes": [
+        -1.7607035107993077e-27,
+        1.4055438941446525e-26
+      ],
+      "circuit_required_lower": [
+        0.0,
+        0.0
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.2499999999997996,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999958987351,
+      "minimum_residual_ratio_linearized": 0.999700902855912,
+      "active_relative_decrease_linearized": [
+        0.0002990971440879901,
+        4.835627846619408e-06,
+        4.827901627345264e-06,
+        4.833893936811432e-06
+      ],
+      "index": 5
+    },
+    {
+      "trust": 5e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 1.0,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 1917,
+      "mechanics_rows_in_solver": 57,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 1.0852216063301975e-05,
+      "direction_l1": 6.426991024527666e-05,
+      "direction_l2": 5.483682589315458e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": -2.0428570197349482e-18,
+      "circuit_slopes": [
+        9.833124852175621e-15,
+        9.833124852186561e-15
+      ],
+      "circuit_required_lower": [
+        9.833124851979222e-15,
+        9.83312485197906e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.2499999995431224,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999988315192,
+      "minimum_residual_ratio_linearized": 0.9998681723234267,
+      "active_relative_decrease_linearized": [
+        0.0001318276765733023,
+        1.0859119248331606e-05,
+        1.0849869334398477e-05,
+        1.0851062759687006e-05
+      ],
+      "index": 6
+    },
+    {
+      "trust": 5e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 1.0,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 1917,
+      "mechanics_rows_in_solver": 57,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 1.2073855511076126e-05,
+      "direction_l1": 6.47331821748365e-05,
+      "direction_l2": 5.492053205623787e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.12912819617510907,
+      "circuit_slopes": [
+        9.83312485197928e-15,
+        9.833124852020659e-15
+      ],
+      "circuit_required_lower": [
+        9.833124851979222e-15,
+        9.83312485197906e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999824451077,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999479945992,
+      "minimum_residual_ratio_linearized": 0.9992695393547264,
+      "active_relative_decrease_linearized": [
+        0.0007304606452736475,
+        1.2077491419084172e-05,
+        1.2071224531478662e-05,
+        1.2073614422085936e-05
+      ],
+      "index": 7
+    },
+    {
+      "trust": 5e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.25,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 1917,
+      "mechanics_rows_in_solver": 57,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 1.0852330131938514e-05,
+      "direction_l1": 6.38085606673537e-05,
+      "direction_l2": 5.456402877731366e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": -2.0530704426721264e-18,
+      "circuit_slopes": [
+        2.4582812129576048e-15,
+        2.458281212968476e-15
+      ],
+      "circuit_required_lower": [
+        2.4582812129948055e-15,
+        2.458281212994765e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999999219794,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999882851415,
+      "minimum_residual_ratio_linearized": 0.9998681697123453,
+      "active_relative_decrease_linearized": [
+        0.00013183028765472596,
+        1.085923280339283e-05,
+        1.0849737281895062e-05,
+        1.0851309650691256e-05
+      ],
+      "index": 8
+    },
+    {
+      "trust": 5e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.25,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 1917,
+      "mechanics_rows_in_solver": 57,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 1.2073865894095906e-05,
+      "direction_l1": 6.47390906131295e-05,
+      "direction_l2": 5.492334914802017e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.12912568678353264,
+      "circuit_slopes": [
+        2.4582812130087e-15,
+        2.458281213050037e-15
+      ],
+      "circuit_required_lower": [
+        2.4582812129948055e-15,
+        2.458281212994765e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999993597846,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999947987457,
+      "minimum_residual_ratio_linearized": 0.9992694784159124,
+      "active_relative_decrease_linearized": [
+        0.0007305215840876108,
+        1.2077500103960657e-05,
+        1.2071235179404595e-05,
+        1.2073625841918434e-05
+      ],
+      "index": 9
+    },
+    {
+      "trust": 5e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.0,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 1917,
+      "mechanics_rows_in_solver": 57,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 1.0852330645232812e-05,
+      "direction_l1": 6.381362900153894e-05,
+      "direction_l2": 5.456673485207642e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": -2.052968626755778e-18,
+      "circuit_slopes": [
+        -2.7015753195673086e-26,
+        -1.4478090450870527e-26
+      ],
+      "circuit_required_lower": [
+        0.0,
+        0.0
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999999355202,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999882840712,
+      "minimum_residual_ratio_linearized": 0.9998681697596989,
+      "active_relative_decrease_linearized": [
+        0.0001318302403010989,
+        1.0859234406145067e-05,
+        1.0849737153416366e-05,
+        1.0851310064574686e-05
+      ],
+      "index": 10
+    },
+    {
+      "trust": 5e-07,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.0,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 1917,
+      "mechanics_rows_in_solver": 57,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 1.207386934851604e-05,
+      "direction_l1": 6.435987994315762e-05,
+      "direction_l2": 5.488014299615599e-06,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.129228714124245,
+      "circuit_slopes": [
+        1.3710140894971834e-26,
+        5.501675394076567e-26
+      ],
+      "circuit_required_lower": [
+        0.0,
+        0.0
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.2499999999138706,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999479856888,
+      "minimum_residual_ratio_linearized": 0.9992694581118432,
+      "active_relative_decrease_linearized": [
+        0.0007305418881567638,
+        1.2077503144734187e-05,
+        1.2071245145648308e-05,
+        1.2073617639977253e-05
+      ],
+      "index": 11
+    },
+    {
+      "trust": 1e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 1.0,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 2195,
+      "mechanics_rows_in_solver": 69,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 2.1691702346714183e-05,
+      "direction_l1": 0.00012511657235016982,
+      "direction_l2": 1.0743393794246061e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": -2.0854451928553824e-18,
+      "circuit_slopes": [
+        9.83312485197821e-15,
+        9.83312485195415e-15
+      ],
+      "circuit_required_lower": [
+        9.833124851979222e-15,
+        9.83312485197906e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999993925448,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999903229284,
+      "minimum_residual_ratio_linearized": 0.9997676673389067,
+      "active_relative_decrease_linearized": [
+        0.00023233266109332193,
+        2.169684576054165e-05,
+        2.1691890018623433e-05,
+        2.1690025049062055e-05
+      ],
+      "index": 12,
+      "actual_checked": true,
+      "actual_valid": true,
+      "actual_active_relative_decrease": [
+        0.0002323299185295181,
+        2.1696588553713334e-05,
+        2.169502350427543e-05,
+        2.1684010196460786e-05
+      ],
+      "actual_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "actual_class": [
+        2,
+        2,
+        2
+      ],
+      "actual_topology_margin": 1.9484503607624724e-11,
+      "actual_base_present": true,
+      "actual_missing_rails": []
+    },
+    {
+      "trust": 1e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 1.0,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 2195,
+      "mechanics_rows_in_solver": 69,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 2.413896497563075e-05,
+      "direction_l1": 0.0001282362242540708,
+      "direction_l2": 1.0890682371053026e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.12967534821134122,
+      "circuit_slopes": [
+        9.833124851977643e-15,
+        9.833124852038631e-15
+      ],
+      "circuit_required_lower": [
+        9.833124851979222e-15,
+        9.83312485197906e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999977443388,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999962207313,
+      "minimum_residual_ratio_linearized": 0.9985884514278413,
+      "active_relative_decrease_linearized": [
+        0.001411548572158764,
+        2.413978899167382e-05,
+        2.4137074618363025e-05,
+        2.4141177202475283e-05
+      ],
+      "index": 13
+    },
+    {
+      "trust": 1e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.25,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 2195,
+      "mechanics_rows_in_solver": 69,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 2.1692924261911037e-05,
+      "direction_l1": 0.00012575122117426267,
+      "direction_l2": 1.0811467334210827e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": -2.072314353877499e-18,
+      "circuit_slopes": [
+        2.4582812129947345e-15,
+        2.4582812129740785e-15
+      ],
+      "circuit_required_lower": [
+        2.4582812129948055e-15,
+        2.458281212994765e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.2499999998102492,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999748026594,
+      "minimum_residual_ratio_linearized": 0.999847766545113,
+      "active_relative_decrease_linearized": [
+        0.00015223345488697207,
+        2.1698572932388616e-05,
+        2.1693495875648076e-05,
+        2.169052790009636e-05
+      ],
+      "index": 14
+    },
+    {
+      "trust": 1e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.25,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 2195,
+      "mechanics_rows_in_solver": 69,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 2.4138971329327146e-05,
+      "direction_l1": 0.00012822719078183767,
+      "direction_l2": 1.0890240230894596e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.12968181263456982,
+      "circuit_slopes": [
+        2.4582812129947857e-15,
+        2.458281213055718e-15
+      ],
+      "circuit_required_lower": [
+        2.4582812129948055e-15,
+        2.458281212994765e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.2499999982221217,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999622078348,
+      "minimum_residual_ratio_linearized": 0.9985884163976558,
+      "active_relative_decrease_linearized": [
+        0.0014115836023441428,
+        2.4139794985993306e-05,
+        2.4137081099198747e-05,
+        2.414118331813223e-05
+      ],
+      "index": 15
+    },
+    {
+      "trust": 1e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.0,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 2195,
+      "mechanics_rows_in_solver": 69,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 2.1692645273216745e-05,
+      "direction_l1": 0.00012709805243192102,
+      "direction_l2": 1.0874250753185595e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": -2.0603496692955474e-18,
+      "circuit_slopes": [
+        -1.3129166779609618e-22,
+        -1.3131555824414853e-22
+      ],
+      "circuit_required_lower": [
+        0.0,
+        0.0
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.2499999991082723,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999974799811,
+      "minimum_residual_ratio_linearized": 0.9998489790655816,
+      "active_relative_decrease_linearized": [
+        0.00015102093441847237,
+        2.1697919498589393e-05,
+        2.1693216246169812e-05,
+        2.1690250095443145e-05
+      ],
+      "index": 16
+    },
+    {
+      "trust": 1e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.0,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 2195,
+      "mechanics_rows_in_solver": 69,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 2.4138973447225986e-05,
+      "direction_l1": 0.00012822417962443175,
+      "direction_l2": 1.0890093516662017e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.12968395963008233,
+      "circuit_slopes": [
+        1.391638947605701e-27,
+        6.24062379715972e-26
+      ],
+      "circuit_required_lower": [
+        0.0,
+        0.0
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999897345654,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999962208015,
+      "minimum_residual_ratio_linearized": 0.9985884047209274,
+      "active_relative_decrease_linearized": [
+        0.001411595279072693,
+        2.4139796984099803e-05,
+        2.4137083259514954e-05,
+        2.414118535672332e-05
+      ],
+      "index": 17
+    },
+    {
+      "trust": 2e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 1.0,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 2544,
+      "mechanics_rows_in_solver": 79,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.335896347837114e-05,
+      "direction_l1": 0.00024550261687593817,
+      "direction_l2": 2.1265648566125973e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 1.0535657482298149e-18,
+      "circuit_slopes": [
+        9.833124843425027e-15,
+        9.833124843286502e-15
+      ],
+      "circuit_required_lower": [
+        9.833124851979222e-15,
+        9.83312485197906e-15
+      ],
+      "linear_primal_valid": false,
+      "minimum_support_ratio_linearized": 0.24999921637853093,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999982497081,
+      "minimum_residual_ratio_linearized": 0.9998334325765407,
+      "active_relative_decrease_linearized": [
+        0.00016656742345934726,
+        4.336068340177324e-05,
+        4.3357375100888235e-05,
+        4.335760767525599e-05
+      ],
+      "index": 18
+    },
+    {
+      "trust": 2e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 1.0,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 2544,
+      "mechanics_rows_in_solver": 79,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.8264496381648876e-05,
+      "direction_l1": 0.0002482378445503294,
+      "direction_l2": 2.130916664545986e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.13207677075772623,
+      "circuit_slopes": [
+        9.833124851977572e-15,
+        9.833124851850365e-15
+      ],
+      "circuit_required_lower": [
+        9.833124851979222e-15,
+        9.83312485197906e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999844075646,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999754247654,
+      "minimum_residual_ratio_linearized": 0.9972863643626608,
+      "active_relative_decrease_linearized": [
+        0.002713635637339128,
+        4.826567224849134e-05,
+        4.826065806935316e-05,
+        4.8264818206157555e-05
+      ],
+      "index": 19
+    },
+    {
+      "trust": 2e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.25,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 2544,
+      "mechanics_rows_in_solver": 79,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.3358403182730915e-05,
+      "direction_l1": 0.0002451355165802798,
+      "direction_l2": 2.123282440093058e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": -2.110388944975295e-18,
+      "circuit_slopes": [
+        2.458281328970816e-15,
+        2.458281328833448e-15
+      ],
+      "circuit_required_lower": [
+        2.4582812129948055e-15,
+        2.458281212994765e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.2499999991569511,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999792868502,
+      "minimum_residual_ratio_linearized": 0.9998117842351743,
+      "active_relative_decrease_linearized": [
+        0.00018821576482580117,
+        4.3360114938951286e-05,
+        4.335736301214937e-05,
+        4.335700173758496e-05
+      ],
+      "index": 20
+    },
+    {
+      "trust": 2e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.25,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 2544,
+      "mechanics_rows_in_solver": 79,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.8264529051984456e-05,
+      "direction_l1": 0.0002482025265813502,
+      "direction_l2": 2.1306933540611594e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.1320915462912045,
+      "circuit_slopes": [
+        2.4582812129942896e-15,
+        2.4582812128666795e-15
+      ],
+      "circuit_required_lower": [
+        2.4582812129948055e-15,
+        2.458281212994765e-15
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999975657752,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999754306662,
+      "minimum_residual_ratio_linearized": 0.9972862125276524,
+      "active_relative_decrease_linearized": [
+        0.0027137874723476224,
+        4.826570515781476e-05,
+        4.826069043175926e-05,
+        4.826485128216714e-05
+      ],
+      "index": 21
+    },
+    {
+      "trust": 2e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.0,
+      "orthogonal_to_old": true,
+      "support_rows_in_solver": 2544,
+      "mechanics_rows_in_solver": 79,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.3358415552666686e-05,
+      "direction_l1": 0.00024513736876919257,
+      "direction_l2": 2.1232846175614426e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": -2.110386780731666e-18,
+      "circuit_slopes": [
+        1.41528618040681e-22,
+        1.4138761344790933e-22
+      ],
+      "circuit_required_lower": [
+        0.0,
+        0.0
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.24999999897005723,
+      "minimum_protected_mechanics_ratio_linearized": 0.24999999792860367,
+      "minimum_residual_ratio_linearized": 0.9998117193649487,
+      "active_relative_decrease_linearized": [
+        0.000188280635051219,
+        4.336012736358299e-05,
+        4.3357375566482385e-05,
+        4.335701406591369e-05
+      ],
+      "index": 22
+    },
+    {
+      "trust": 2e-06,
+      "retention": 0.25,
+      "circuit_gain_over_old_opposite_slope": 0.0,
+      "orthogonal_to_old": false,
+      "support_rows_in_solver": 2544,
+      "mechanics_rows_in_solver": 79,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "gamma": 4.8264539942097066e-05,
+      "direction_l1": 0.00024819075392475387,
+      "direction_l2": 2.1306227389005702e-05,
+      "nonzero_control_count": 165,
+      "cosine_with_old_sparse_ray": 0.13209623521774805,
+      "circuit_slopes": [
+        -1.0797730683923453e-27,
+        -1.2828629600378775e-25
+      ],
+      "circuit_required_lower": [
+        0.0,
+        0.0
+      ],
+      "linear_primal_valid": true,
+      "minimum_support_ratio_linearized": 0.2499999999403135,
+      "minimum_protected_mechanics_ratio_linearized": 0.2499999975432637,
+      "minimum_residual_ratio_linearized": 0.9972861619159826,
+      "active_relative_decrease_linearized": [
+        0.0027138380840173925,
+        4.8265716127444094e-05,
+        4.8260701219227956e-05,
+        4.826486230754243e-05
+      ],
+      "index": 23
+    }
+  ],
+  "selected": {
+    "trust": 1e-06,
+    "retention": 0.25,
+    "circuit_gain_over_old_opposite_slope": 1.0,
+    "orthogonal_to_old": true,
+    "support_rows_in_solver": 2195,
+    "mechanics_rows_in_solver": 69,
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "gamma": 2.1691702346714183e-05,
+    "direction_l1": 0.00012511657235016982,
+    "direction_l2": 1.0743393794246061e-05,
+    "nonzero_control_count": 165,
+    "cosine_with_old_sparse_ray": -2.0854451928553824e-18,
+    "circuit_slopes": [
+      9.83312485197821e-15,
+      9.83312485195415e-15
+    ],
+    "circuit_required_lower": [
+      9.833124851979222e-15,
+      9.83312485197906e-15
+    ],
+    "linear_primal_valid": true,
+    "minimum_support_ratio_linearized": 0.24999999993925448,
+    "minimum_protected_mechanics_ratio_linearized": 0.24999999903229284,
+    "minimum_residual_ratio_linearized": 0.9997676673389067,
+    "active_relative_decrease_linearized": [
+      0.00023233266109332193,
+      2.169684576054165e-05,
+      2.1691890018623433e-05,
+      2.1690025049062055e-05
+    ],
+    "index": 12,
+    "actual_checked": true,
+    "actual_valid": true,
+    "actual_active_relative_decrease": [
+      0.0002323299185295181,
+      2.1696588553713334e-05,
+      2.169502350427543e-05,
+      2.1684010196460786e-05
+    ],
+    "actual_f_vector": [
+      61,
+      162,
+      103
+    ],
+    "actual_class": [
+      2,
+      2,
+      2
+    ],
+    "actual_topology_margin": 1.9484503607624724e-11,
+    "actual_base_present": true,
+    "actual_missing_rails": [],
+    "direction": [
+      -1e-06,
+      -1e-06,
+      1e-06,
+      -1e-06,
+      1e-06,
+      8.054578049149964e-07,
+      -6.4708374960739e-08,
+      -1e-06,
+      1e-06,
+      1e-06,
+      7.391128726123229e-07,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      1e-06,
+      -9.202143921161917e-08,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      -1e-06,
+      1e-06,
+      -1e-06,
+      1.4296345706973836e-07,
+      5.194325217421786e-07,
+      -4.1477759224694156e-07,
+      -1e-06,
+      1e-06,
+      -1.5839881917501203e-07,
+      1e-06,
+      -1e-06,
+      -9.635396100637844e-07,
+      1e-06,
+      -6.41044972096809e-07,
+      1e-06,
+      -9.510341373354751e-07,
+      -9.644854282844198e-08,
+      2.727416462083978e-07,
+      1e-06,
+      1.4228449432752135e-07,
+      -1e-06,
+      -1e-06,
+      -2.494262573420858e-07,
+      -2.7419177350939576e-08,
+      6.361340195832877e-07,
+      8.853391773017548e-07,
+      1.5138480639136502e-07,
+      -1e-06,
+      -2.526273740120216e-07,
+      1.0669015575791198e-07,
+      -1e-06,
+      -5.052596205178873e-07,
+      4.674447059940539e-08,
+      1.1697937329292449e-08,
+      -7.304580882531562e-07,
+      -1.4573714881524963e-07,
+      2.4188426523018274e-07,
+      -1e-06,
+      -2.4342018823076527e-07,
+      3.545381979984309e-07,
+      -1e-06,
+      -2.6660202828813347e-07,
+      3.362865572033843e-07,
+      -1e-06,
+      -2.903672998218028e-07,
+      -1e-06,
+      -5.12575937796607e-08,
+      7.293843571549615e-08,
+      -1e-06,
+      -3.00254375659393e-07,
+      -1.027625853738402e-07,
+      1e-06,
+      -6.99198793369779e-07,
+      -8.930353805519318e-07,
+      -1e-06,
+      1e-06,
+      -2.0086698111033677e-07,
+      1e-06,
+      -7.745085530983667e-07,
+      -5.085745518369179e-07,
+      1e-06,
+      -1e-06,
+      1e-06,
+      1e-06,
+      -1e-06,
+      1e-06,
+      -1e-06,
+      1e-06,
+      -1e-06,
+      1e-06,
+      7.817053935934325e-07,
+      -8.460026555677994e-07,
+      -1e-06,
+      1e-06,
+      1e-06,
+      -1e-06,
+      1e-06,
+      7.546257672796429e-07,
+      1e-06,
+      -1e-06,
+      -6.441497182836864e-07,
+      -1e-06,
+      -1e-06,
+      -2.836681108779344e-07,
+      1e-06,
+      -1e-06,
+      -6.19869965741311e-07,
+      -1e-06,
+      8.937409210611005e-08,
+      3.5786351589016146e-08,
+      -1e-06,
+      1.8059843258548794e-08,
+      -2.8728523971329622e-09,
+      -1e-06,
+      1.4054909381657406e-07,
+      -3.3148000662358065e-09,
+      -1e-06,
+      -4.379502858441861e-07,
+      -1.3988082937288216e-07,
+      -1e-06,
+      1e-06,
+      2.6612644627577983e-07,
+      1e-06,
+      1e-06,
+      -7.064341077138051e-07,
+      -1e-06,
+      -8.933059911058761e-07,
+      9.249284891169896e-07,
+      1e-06,
+      -1e-06,
+      1e-06,
+      -5.251937183946286e-07,
+      -1e-06,
+      -4.496244574954928e-07,
+      -2.0084171917463438e-07,
+      1e-06,
+      6.083309331283976e-07,
+      1e-06,
+      -1e-06,
+      1e-06,
+      1e-06,
+      -1.439724643733905e-07,
+      -1e-06,
+      1e-06,
+      -1e-06,
+      -1e-06,
+      1e-06,
+      -1e-06,
+      1e-06,
+      1e-06,
+      -1e-06,
+      -5.106239582796142e-07
+    ],
+    "nonzero_controls": [
+      {
+        "index": 0,
+        "label": "v0:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 1,
+        "label": "v0:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 2,
+        "label": "v1:base_u",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 3,
+        "label": "v1:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 4,
+        "label": "v2:base_u",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 5,
+        "label": "v2:base_v",
+        "coefficient": 8.054578049149964e-07
+      },
+      {
+        "index": 6,
+        "label": "v3:base_u",
+        "coefficient": -6.4708374960739e-08
+      },
+      {
+        "index": 7,
+        "label": "v3:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 8,
+        "label": "v4:base_u",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 9,
+        "label": "v4:base_v",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 10,
+        "label": "v5:base_u",
+        "coefficient": 7.391128726123229e-07
+      },
+      {
+        "index": 11,
+        "label": "v5:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 12,
+        "label": "v6:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 13,
+        "label": "v6:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 14,
+        "label": "v7:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 15,
+        "label": "v7:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 16,
+        "label": "v8:base_u",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 17,
+        "label": "v8:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 18,
+        "label": "v9:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 19,
+        "label": "v9:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 20,
+        "label": "v10:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 21,
+        "label": "v10:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 22,
+        "label": "v11:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 23,
+        "label": "v11:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 24,
+        "label": "v12:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 25,
+        "label": "v12:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 26,
+        "label": "v13:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 27,
+        "label": "v13:base_v",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 28,
+        "label": "v14:base_u",
+        "coefficient": -9.202143921161917e-08
+      },
+      {
+        "index": 29,
+        "label": "v14:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 30,
+        "label": "v15:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 31,
+        "label": "v15:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 32,
+        "label": "v16:base_u",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 33,
+        "label": "v16:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 34,
+        "label": "v54:base_u",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 35,
+        "label": "v54:base_v",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 36,
+        "label": "v69:x",
+        "coefficient": 1.4296345706973836e-07
+      },
+      {
+        "index": 37,
+        "label": "v69:y",
+        "coefficient": 5.194325217421786e-07
+      },
+      {
+        "index": 38,
+        "label": "v69:z",
+        "coefficient": -4.1477759224694156e-07
+      },
+      {
+        "index": 39,
+        "label": "v72:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 40,
+        "label": "v72:y",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 41,
+        "label": "v72:z",
+        "coefficient": -1.5839881917501203e-07
+      },
+      {
+        "index": 42,
+        "label": "v73:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 43,
+        "label": "v73:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 44,
+        "label": "v73:z",
+        "coefficient": -9.635396100637844e-07
+      },
+      {
+        "index": 45,
+        "label": "v88:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 46,
+        "label": "v88:y",
+        "coefficient": -6.41044972096809e-07
+      },
+      {
+        "index": 47,
+        "label": "v88:z",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 48,
+        "label": "v198:x",
+        "coefficient": -9.510341373354751e-07
+      },
+      {
+        "index": 49,
+        "label": "v198:y",
+        "coefficient": -9.644854282844198e-08
+      },
+      {
+        "index": 50,
+        "label": "v198:z",
+        "coefficient": 2.727416462083978e-07
+      },
+      {
+        "index": 51,
+        "label": "v224:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 52,
+        "label": "v224:y",
+        "coefficient": 1.4228449432752135e-07
+      },
+      {
+        "index": 53,
+        "label": "v224:z",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 54,
+        "label": "v228:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 55,
+        "label": "v228:y",
+        "coefficient": -2.494262573420858e-07
+      },
+      {
+        "index": 56,
+        "label": "v228:z",
+        "coefficient": -2.7419177350939576e-08
+      },
+      {
+        "index": 57,
+        "label": "v229:x",
+        "coefficient": 6.361340195832877e-07
+      },
+      {
+        "index": 58,
+        "label": "v229:y",
+        "coefficient": 8.853391773017548e-07
+      },
+      {
+        "index": 59,
+        "label": "v229:z",
+        "coefficient": 1.5138480639136502e-07
+      },
+      {
+        "index": 60,
+        "label": "v230:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 61,
+        "label": "v230:y",
+        "coefficient": -2.526273740120216e-07
+      },
+      {
+        "index": 62,
+        "label": "v230:z",
+        "coefficient": 1.0669015575791198e-07
+      },
+      {
+        "index": 63,
+        "label": "v231:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 64,
+        "label": "v231:y",
+        "coefficient": -5.052596205178873e-07
+      },
+      {
+        "index": 65,
+        "label": "v231:z",
+        "coefficient": 4.674447059940539e-08
+      },
+      {
+        "index": 66,
+        "label": "v232:x",
+        "coefficient": 1.1697937329292449e-08
+      },
+      {
+        "index": 67,
+        "label": "v232:y",
+        "coefficient": -7.304580882531562e-07
+      },
+      {
+        "index": 68,
+        "label": "v232:z",
+        "coefficient": -1.4573714881524963e-07
+      },
+      {
+        "index": 69,
+        "label": "v233:x",
+        "coefficient": 2.4188426523018274e-07
+      },
+      {
+        "index": 70,
+        "label": "v233:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 71,
+        "label": "v233:z",
+        "coefficient": -2.4342018823076527e-07
+      },
+      {
+        "index": 72,
+        "label": "v234:x",
+        "coefficient": 3.545381979984309e-07
+      },
+      {
+        "index": 73,
+        "label": "v234:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 74,
+        "label": "v234:z",
+        "coefficient": -2.6660202828813347e-07
+      },
+      {
+        "index": 75,
+        "label": "v235:x",
+        "coefficient": 3.362865572033843e-07
+      },
+      {
+        "index": 76,
+        "label": "v235:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 77,
+        "label": "v235:z",
+        "coefficient": -2.903672998218028e-07
+      },
+      {
+        "index": 78,
+        "label": "v236:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 79,
+        "label": "v236:y",
+        "coefficient": -5.12575937796607e-08
+      },
+      {
+        "index": 80,
+        "label": "v236:z",
+        "coefficient": 7.293843571549615e-08
+      },
+      {
+        "index": 81,
+        "label": "v237:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 82,
+        "label": "v237:y",
+        "coefficient": -3.00254375659393e-07
+      },
+      {
+        "index": 83,
+        "label": "v237:z",
+        "coefficient": -1.027625853738402e-07
+      },
+      {
+        "index": 84,
+        "label": "v238:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 85,
+        "label": "v238:y",
+        "coefficient": -6.99198793369779e-07
+      },
+      {
+        "index": 86,
+        "label": "v238:z",
+        "coefficient": -8.930353805519318e-07
+      },
+      {
+        "index": 87,
+        "label": "v239:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 88,
+        "label": "v239:y",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 89,
+        "label": "v239:z",
+        "coefficient": -2.0086698111033677e-07
+      },
+      {
+        "index": 90,
+        "label": "v240:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 91,
+        "label": "v240:y",
+        "coefficient": -7.745085530983667e-07
+      },
+      {
+        "index": 92,
+        "label": "v240:z",
+        "coefficient": -5.085745518369179e-07
+      },
+      {
+        "index": 93,
+        "label": "v241:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 94,
+        "label": "v241:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 95,
+        "label": "v241:z",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 96,
+        "label": "v242:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 97,
+        "label": "v242:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 98,
+        "label": "v242:z",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 99,
+        "label": "v243:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 100,
+        "label": "v243:y",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 101,
+        "label": "v243:z",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 102,
+        "label": "v244:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 103,
+        "label": "v244:y",
+        "coefficient": 7.817053935934325e-07
+      },
+      {
+        "index": 104,
+        "label": "v244:z",
+        "coefficient": -8.460026555677994e-07
+      },
+      {
+        "index": 105,
+        "label": "v245:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 106,
+        "label": "v245:y",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 107,
+        "label": "v245:z",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 108,
+        "label": "v246:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 109,
+        "label": "v246:y",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 110,
+        "label": "v246:z",
+        "coefficient": 7.546257672796429e-07
+      },
+      {
+        "index": 111,
+        "label": "v247:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 112,
+        "label": "v247:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 113,
+        "label": "v247:z",
+        "coefficient": -6.441497182836864e-07
+      },
+      {
+        "index": 114,
+        "label": "v248:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 115,
+        "label": "v248:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 116,
+        "label": "v248:z",
+        "coefficient": -2.836681108779344e-07
+      },
+      {
+        "index": 117,
+        "label": "v249:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 118,
+        "label": "v249:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 119,
+        "label": "v249:z",
+        "coefficient": -6.19869965741311e-07
+      },
+      {
+        "index": 120,
+        "label": "v250:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 121,
+        "label": "v250:y",
+        "coefficient": 8.937409210611005e-08
+      },
+      {
+        "index": 122,
+        "label": "v250:z",
+        "coefficient": 3.5786351589016146e-08
+      },
+      {
+        "index": 123,
+        "label": "v251:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 124,
+        "label": "v251:y",
+        "coefficient": 1.8059843258548794e-08
+      },
+      {
+        "index": 125,
+        "label": "v251:z",
+        "coefficient": -2.8728523971329622e-09
+      },
+      {
+        "index": 126,
+        "label": "v252:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 127,
+        "label": "v252:y",
+        "coefficient": 1.4054909381657406e-07
+      },
+      {
+        "index": 128,
+        "label": "v252:z",
+        "coefficient": -3.3148000662358065e-09
+      },
+      {
+        "index": 129,
+        "label": "v253:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 130,
+        "label": "v253:y",
+        "coefficient": -4.379502858441861e-07
+      },
+      {
+        "index": 131,
+        "label": "v253:z",
+        "coefficient": -1.3988082937288216e-07
+      },
+      {
+        "index": 132,
+        "label": "v254:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 133,
+        "label": "v254:y",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 134,
+        "label": "v254:z",
+        "coefficient": 2.6612644627577983e-07
+      },
+      {
+        "index": 135,
+        "label": "v255:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 136,
+        "label": "v255:y",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 137,
+        "label": "v255:z",
+        "coefficient": -7.064341077138051e-07
+      },
+      {
+        "index": 138,
+        "label": "v256:x",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 139,
+        "label": "v256:y",
+        "coefficient": -8.933059911058761e-07
+      },
+      {
+        "index": 140,
+        "label": "v256:z",
+        "coefficient": 9.249284891169896e-07
+      },
+      {
+        "index": 141,
+        "label": "v257:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 142,
+        "label": "v257:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 143,
+        "label": "v257:z",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 144,
+        "label": "v258:x",
+        "coefficient": -5.251937183946286e-07
+      },
+      {
+        "index": 145,
+        "label": "v258:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 146,
+        "label": "v258:z",
+        "coefficient": -4.496244574954928e-07
+      },
+      {
+        "index": 147,
+        "label": "v259:x",
+        "coefficient": -2.0084171917463438e-07
+      },
+      {
+        "index": 148,
+        "label": "v259:y",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 149,
+        "label": "v259:z",
+        "coefficient": 6.083309331283976e-07
+      },
+      {
+        "index": 150,
+        "label": "v260:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 151,
+        "label": "v260:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 152,
+        "label": "v260:z",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 153,
+        "label": "v261:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 154,
+        "label": "v261:y",
+        "coefficient": -1.439724643733905e-07
+      },
+      {
+        "index": 155,
+        "label": "v261:z",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 156,
+        "label": "v262:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 157,
+        "label": "v262:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 158,
+        "label": "v262:z",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 159,
+        "label": "v263:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 160,
+        "label": "v263:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 161,
+        "label": "v263:z",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 162,
+        "label": "v264:x",
+        "coefficient": 1e-06
+      },
+      {
+        "index": 163,
+        "label": "v264:y",
+        "coefficient": -1e-06
+      },
+      {
+        "index": 164,
+        "label": "v264:z",
+        "coefficient": -5.106239582796142e-07
+      }
+    ]
+  },
+  "endpoint_file": "full_control_candidate_float.csv",
+  "endpoint_sha256": "4797a804aec910b99d615fbb1154ff2ca60d53fda99d4a615d487ac05768c2d7"
+}

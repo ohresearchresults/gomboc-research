@@ -1,0 +1,123 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "EXACT_FREE_SUPPORTS",
+      "values": {
+        "V": 158,
+        "E": 237,
+        "F": 81,
+        "counts": [
+          55,
+          71,
+          124
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 474,
+        "VplusEplusF": 476
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 158,
+        "F": 81,
+        "E": 237,
+        "nodes": 239,
+        "free": 239,
+        "depth": 5,
+        "levels": 13
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 0,
+        "S": 55,
+        "U": 71,
+        "minimum": -3.03862659547792e-06,
+        "centroid": [
+          -3.311931576690989e-17,
+          4.783901166331429e-17,
+          1.425970539964176e-16
+        ],
+        "merit": 0.00015511120989390034,
+        "trust": 0.003,
+        "seconds": 0.5824036598205566
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 1,
+        "S": 1,
+        "U": 2,
+        "minimum": 9.93806375026278e-08,
+        "centroid": [
+          1.2383323404215197e-06,
+          -4.393147645831446e-07,
+          5.341681369250029e-07
+        ],
+        "merit": 7.010882987809245e-09,
+        "trust": 0.0042,
+        "seconds": 2.6211369037628174
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "STRICT121_REQUIRES_EXACT",
+      "values": {
+        "it": 1,
+        "S": 1,
+        "U": 2,
+        "minimum": 9.93806375026278e-08,
+        "centroid": [
+          1.2383323404215197e-06,
+          -4.393147645831446e-07,
+          5.341681369250029e-07
+        ],
+        "merit": 7.010882987809245e-09,
+        "trust": 0.0042,
+        "seconds": 2.6211369037628174
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "EXACT_ATLAS",
+      "values": {
+        "V": 158,
+        "E": 237,
+        "F": 81,
+        "counts": [
+          1,
+          2,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 474,
+        "seconds": 5.313723087310791,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    }
+  ]
+}

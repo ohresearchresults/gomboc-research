@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-15T20:06:45.265Z",
+  "assignmentId": "asg_9_3jUNaB9fDmUrfQOxs-5B7l",
+  "event": 1398,
+  "receivedAt": "2026-09-15T20:05:29.320Z",
+  "bytes": 77180,
+  "sha256": "243b10b026bbadf9b085000d4490d02db4f2273c1836e07188b407ad662a66ee",
+  "markdownSha256": "28d6bd612e8e0d51bc6e4a5475b9cdfe0d01f0332d274c27fc297480880633ab",
+  "note": "Native harvested completed source final; citation wrappers differ from backend response, literal capsule comparison performed separately"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "gomboc-1370/verified/vertices.csv.gz",
+  "derived_stl": "gomboc_C1370_V258_view.stl",
+  "stl_in_original_package": false,
+  "maximum_coordinate_error": 5.728135801571187e-17,
+  "stl_sha256": "6326ec59721ae9db1b772723b9f6742c830bc4e4fd29c65135f5c86880199dad"
+}

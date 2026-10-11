@@ -1,0 +1,311 @@
+{
+  "scope": "707 snapshot sections plus all 252 immutable result texts",
+  "pattern": "Gr[u\u00fc]nbaum|Minkowski.{0,30}(asymmetr|centroid)|centroid.{0,50}3.?1|[-\u2212]C\\s*/\\s*3|18\\.246|11\\.5738|0\\.320787|four.face.capacity|six.{0,20}support.{0,20}centroid",
+  "hits": [
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "e produced `IBATCH7K30_SPARSE.npz`, `(V,F,E,C)=(156,80,234,468)`, strict origin-relative `(1,1,0)`, centroid `(0.00734754,0.00037133,0.12595215)`, margin `2.90768e-5`. A simultaneous six-face outward patch plus genericization then produced `MCAP8_GEN.npz`, `(264,134,396,C=792)`, "
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": " `1.02842636e-5`, but every best open cell remained `(S,U,H)=(2,2,2)`.\n\nThe best 19-vertex body has centroid `(-9.95459081e-4,-2.01126728e-2,-2.66253410e-3)`, `(V,F,E,C)=(19,20,37,74)`, target stable and unstable margins about `0.71814` and `0.158445`, and only the following live block: extra stable "
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": " 21-vertex convex hull has `(V,E,F,C)=(21,43,24,86)` and class `(S,U,H)=(2,1,1)` at its own uniform centroid `(-0.008473035319926,-0.037420206621573,-0.002750454501478)`; volume is approximately `0.021568815052893`.\n\nVertices 0--18 are exactly the 19 coordinates in the prece"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "t and replaced the full face strip joining the unwanted stable basin to its saddle. The current own centroid is approximately `(-0.002211529419,-0.031681678359,-0.002745399560)` and volume `0.0215578654288`.\n\nThe intended 17-gonal base remains stable with raw margin `0.9712645466`, and base vertex 8"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "ull implementation reconstructed the journal's 26-vertex P2 corridor exactly: `(V,E,F)=(26,58,34)`, centroid `(-0.002211529419,-0.031681678359,-0.002745399560)`, and own-centroid `(2,1,1)` with the published extra face `[24,8,22]` and saddle edge `[18,20]`. Topology-changing Powell "
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": " raw inactive slack `2.44e-4`, and own-centroid class still `(15,21,34)`. Relative to P60 it lowers centroid norm only from `0.27311945` to `0.27273428` while also lowering complexity by six.\n\nMacroscopic continuation to `t=1` yields a well-resolved 53-face body with centroid norm "
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "terialized endpoint has origin class `(2,1,1)`: one extra stable face and one saddle edge, with own-centroid class `(14,19,31)`. Explicit circuit crossings transfer this pair between neighboring features or delete a row; they do not cancel it.\n\nTwo distinct obstructions were"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": " 24-level two-branch annulus. The strongest open body `MA300` has `(V,E,F,C)=(100,150,52,300)`, own-centroid `(2,3,3)`, inactive P slack `3.14e-7`, and complete H/V agreement below `5e-16`. The annular centroid Jacobian has rank three, but moment closure inside the mechanical/incidence cham"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "r circuits crossing in one four-block event while the exact projective gauge `T_u(q)=q/(1-q\u00b7u)`, `u=centroid(Q^circ)`, remains hard. Because the worker-local 31-row file is unavailable to recycled copies, reconstruct an equivalent seed from the durable asymmetric two-rail specification already in the journal,"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "incidence sphere. The centre is very near the left extreme vertex and far from the present ordinary centroid `(-0.5919226,0.0298300,0.0273131)`, so affine recentering cannot work and any literal mass mover would need a macroscopic left concentration. A three-parameter projective deformation"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "l endpoint. Direct signed-tetrahedron summation reproduces volume `0.7087741836767807` and ordinary centroid `(-0.591922623804712, 0.029829997206524, 0.027313138530274)`. A fresh maximal-face/true-edge audit reproduces `(V,E,F)=(35,99,66)` and exactly `(S,U,H)=(2,1,1)`: stable triangles `(1,0,2)` and `(32,34"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "h controlled common normal fan. Exploit the exact mixed-volume/mixed-first-moment polynomial of the Minkowski sum to solve all three centroid equations globally while placing new fan cones inside strict noncritical separator regions. This differs from Santal\u00f3 translation and fixed-incidence"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "umerical lattice, the complete axial target region is `c_z<-0.7338174268495291`, whereas the volume centroid is `c_z\u2248-0.351909225383516`, a gap `0.38190820146601345`. The moment Jacobian has full rank, but the first actual face/edge walls occur after only `1.11%\u20131.21%` of the linearized centring ste"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "centre chamber and reduces the original Conway centroid-to-chamber gap by `29.699%`, but at its own centroid is decisively `(31,26,55)`. The two intended fivefold wall packets are separated by only `6.7965158e-9`, yet both are births/transfers rather than a cancellation. Plana"
+    },
+    {
+      "file": "research-journal.snapshot.md",
+      "context": "004)`. The result reports exact own-centroid/incidence/mechanics/topology verification and an exact centroid-preserving scaling family `1023/1024 < lambda < 1025/1024`.\n\nThis is genuine topology progress because the entire inherited packet is gone, but the immutable result body does not inli"
+    },
+    {
+      "file": "asg_tJRbS-8ybBDaNiwoJgKX6U6m.json",
+      "context": "of F\n\nThe exact-repaired F has:\n\n- exact volume approximately `0.00054077374562179915`;\n- exact own centroid approximately `[-0.08180353679927678, 0.0001316531387013302, 0.005910260895947606]`;\n- stable faces `[[2, 0, 3], [6, 7, 2, 1]]`;\n- unstable vertices `[5, 8]`;\n- saddle edges `[[0, 1], [7, 10]]`;\n- nor"
+    },
+    {
+      "file": "asg_tJRbS-8ybBDaNiwoJgKX6U6m.json",
+      "context": "829997206524204, 0.027313138530274044]`.\n- Volume factor final/F: `1310.6667796192828`.\n- Cartesian centroid shift: `[-0.5101190870054351, 0.029698344067822874, 0.02140287763432644]`.\n- In the target-face orthonormal frame the centroid moves from approximately `(2.51447136,0.0190344419,"
+    },
+    {
+      "file": "asg_1j90swM-z6rjQuwHSVpo6NMT.json",
+      "context": " | value |\n|---|---:|\n| `(V,F,E,C)` | `(116,60,174,348)` |\n| volume | `4.579397089857729288...` |\n| centroid | `(-0.03255072541373214, -0.007215389256653851, -0.27107677892322448)` |\n| centroid norm | `0.27311944573478459` |\n| origin class | `(1,1,0)` |\n| origin hard margin | `6.65"
+    },
+    {
+      "file": "asg_1j90swM-z6rjQuwHSVpo6NMT.json",
+      "context": "729288...` |\n| centroid | `(-0.03255072541373214, -0.007215389256653851, -0.27107677892322448)` |\n| centroid norm | `0.27311944573478459` |\n| origin class | `(1,1,0)` |\n| origin hard margin | `6.658838754205574e-5` |\n| own-centroid class | `(15,21,34)` |\n| minimum raw inact"
+    },
+    {
+      "file": "asg_1j90swM-z6rjQuwHSVpo6NMT.json",
+      "context": ":|\n| `(V,F,E,C)` | `(102,53,153,306)` |\n| volume, mp80 | `3.9130266625362827709325831540320582` |\n| centroid, mp80 | `(-0.07044315006437726320, -0.04181997071206995831, -0.21816021691881720065)` |\n| centroid norm | `0.23303439142627894` |\n| origin class | `(3,1,2)` |\n| origin de"
+    },
+    {
+      "file": "asg_1j90swM-z6rjQuwHSVpo6NMT.json",
+      "context": " centroid, mp80 | `(-0.07044315006437726320, -0.04181997071206995831, -0.21816021691881720065)` |\n| centroid norm | `0.23303439142627894` |\n| origin class | `(3,1,2)` |\n| origin defect | `2.928526371275242e-7` |\n| own-centroid class | `(14,19,31)` |\n| minimum raw inactive slack"
+    },
+    {
+      "file": "asg_1j90swM-z6rjQuwHSVpo6NMT.json",
+      "context": ".23303439142627894` |\n| origin class | `(3,1,2)` |\n| origin defect | `2.928526371275242e-7` |\n| own-centroid class | `(14,19,31)` |\n| minimum raw inactive slack | `7.422241155827664e-7` |\n| minimum vertex separation | `0.000608267522886764` |\n\nThe only positive origin features"
+    },
+    {
+      "file": "asg_1j90swM-z6rjQuwHSVpo6NMT.json",
+      "context": ":|\n| `(V,F,E,C)` | `(102,53,153,306)` |\n| volume, mp80 | `3.9129874187084340038056131063551244` |\n| centroid, mp80 | `(-0.07044890899810857381, -0.04182939291092557914, -0.21816089117437122747)` |\n| centroid norm | `0.23303845461278755` |\n| origin class | `(2,1,1)` |\n| extra stable face | `n"
+    },
+    {
+      "file": "asg_1j90swM-z6rjQuwHSVpo6NMT.json",
+      "context": "215761053e-7` |\n| unique intended unstable vertex | `(o18,o19,o54)`, `+0.39290772884928366` |\n| own-centroid class | `(14,19,31)` |\n| minimum raw inactive slack | `7.723242309765974e-7` |\n| minimum vertex separation | `0.000607289526848092` |\n\nThis is the cleanest topology rea"
+    },
+    {
+      "file": "asg_PDu4epHFUFHo67FsCuHcrmqD.json",
+      "context": " `(9,15,8)`, common refinement `(49,92,45)`, and strict class `(2,2,2)` at each body\u2019s own interval centroid. D nonactive-row slack remains above `7.713020031452354e-5`, common nonincident slack remains above `2.564876006028171e-7`, and volume remains in `[58683.97431667408,58683.97431679554]`. The certific"
+    },
+    {
+      "file": "asg_yf1PzzEVLVUZ3tdrlFgNzvWI.json",
+      "context": "23714083206775979340275809550157549/140304157183766680147553743940763169886969524125696`; its exact centroid is `['-895439584690105466195153178256916486352189515282877/233317431759835212015655939067418700601757604433700901364697137152', '-207171015995904858631900194025143580440700281623305/"
+    },
+    {
+      "file": "asg_yf1PzzEVLVUZ3tdrlFgNzvWI.json",
+      "context": "4)`, strict `(8,8,14)`, exact volume `42906617158637589283374683/58028439341502200385896448`, exact centroid `['1443890753572035508343213453714805459199/1509642383182568569965562593274815840256', '1624895420172005785584968876584496898801/3019284766365137139931125186549631680512', '-698057033"
+    },
+    {
+      "file": "asg_Ux1S0e1LiJey0BRxWYtlW0lg.json",
+      "context": ".9856652056826556e-5`;\n- independent maximal-face-fan volume `3.985665205682656e-5`;\n- triangle-fan centroid `(-4.1512970479812366e-17,-7.098479282301374e-18,-2.5529718030944786e-18)`;\n- maximal-face-fan centroid `(-4.8496654802500455e-17,-1.4372718079038896e-17,-1.4372069519945036e-18)`;\n- centroid"
+    },
+    {
+      "file": "asg_Ux1S0e1LiJey0BRxWYtlW0lg.json",
+      "context": "ut 4.8% of the centroid norm is removed.\n\nAt 20%, only 38 of 75 supports remain extreme and the own-centroid class is `(2,13,13)`. An 18-mode smooth correction lowers the raw centroid norm to approximately `7.34e-4`, but collapses the support hull to ten active Q rows and sti"
+    },
+    {
+      "file": "asg__Xwxc4ga23D59ng6KuN10TG9.json",
+      "context": "ojective denominators are positive; the exact minimum is stored in `certificates/J47_exact_ordinary_centroid.json` and is approximately `0.49312547449694505`.\n\nThe topology signature is `836a99b40aeb152c3784a16f3965930bf0edacdc44ab316d7ad8d91f1e3afc30`. The minimum supplied-row/nonincident-ve"
+    },
+    {
+      "file": "asg_NPeggGor5Q8l6SDadzLcUm97.json",
+      "context": "*cos(phi)-222888038286*sin(phi))/D,\n```\n\nand raw apex `(0,0,1)`. Subtract the exact algebraic solid centroid. This gives all 31 exact V rows. For each actual outward maximal face cycle `f=(a,b,c,\u2026)`, set\n\n```text\nn_f=(v_b-v_a)\u00d7(v_c-v_a), h_f=n_f\u00b7v_a>0, q_f=n_f/h_f,\n```\n\nso the"
+    },
+    {
+      "file": "asg_SHfHJZiJTuCfqwv9_UiuqXS7.json",
+      "context": "ctive irredundant** row independently by `\u00b12^-100`, reconstructs interval vertices and the ordinary centroid, and exhaustively checks all 1,631 face tests, 3,258 vertex cones, and all four components of all 4,887 true-edge cones. No feature is ambiguous. Separately, an exact determinant certi"
+    },
+    {
+      "file": "asg_FLjrqfY9BMWf52MAqk2dHyNH.json",
+      "context": "ume: `1681266850734491086730347774173197219339093/32667107224410092492483962313449748299776`.\nExact centroid: `(-13084743467721568266078774833771361473855413627251610057/59154318456861104510651131992312016869945697642926309376, 97307922671002678684688269731363929366427954638239779935/1183086369137"
+    },
+    {
+      "file": "asg_FLjrqfY9BMWf52MAqk2dHyNH.json",
+      "context": "6071, -606055616)\n13: (495015403, 1118432586, 341622365)\n```\nTranslate by the exact ordinary-volume centroid `C=(-3077091269729371946650188678094198717/80292610405748323149698839565001818112, -9535649324942179956197940290482256039/562048272840238262047891876955012726784, 15019495"
+    },
+    {
+      "file": "asg_wwBy8uwM24sBQQpHHc5ocnV8.json",
+      "context": " the construction origin it has the expected very large class\n\n`(4094,3761,7853)`,\n\nwhile its polar centroid is numerically within about `3\u00d710^-8` of the exact source centre.\n\nLet `G` be the true-edge graph of this actual hull. For adjacent vertices define the nonnegative angular edge cost\n"
+    },
+    {
+      "file": "asg_3QYMIam-Eolz_EaRKfzay35j.json",
+      "context": "st `6.658838754208282e-5` |\n| uniform-volume centroid | `(-0.03255073,-0.00721539,-0.27107678)` |\n| centroid norm | `0.2731194457347848` |\n| own-centroid class | `(15,21,34)` |\n| own-centroid hard defect | `-0.14382971895683686` |\n\nThus `P60` is a robust mechanically homoge"
+    },
+    {
+      "file": "asg_3QYMIam-Eolz_EaRKfzay35j.json",
+      "context": "lacement rate, 108 further local stages would correct only about `0.09`, far short of the remaining centroid norm `0.2731`.\n\nConsequently, indefinite one-edge-at-a-time refinement is quantitatively inadequate even though it crosses walls correctly. The next continuation "
+    },
+    {
+      "file": "asg_3QYMIam-Eolz_EaRKfzay35j.json",
+      "context": ". The fixed-lattice calculation on its actual active triples gives\n\n`volume = 8.002450825746653`,\n\n`centroid = (-0.00461994205, 0.00006336447, 0.336341017)`.\n\nThe loose dynamic face grouping instead gives\n\n`volume = 7.911969875549375`,\n\n`centroid = (-0.00354550963,-0.00030931827,0.341747783)`.\n\nRows "
+    },
+    {
+      "file": "asg_3QYMIam-Eolz_EaRKfzay35j.json",
+      "context": "447, 0.336341017)`.\n\nThe loose dynamic face grouping instead gives\n\n`volume = 7.911969875549375`,\n\n`centroid = (-0.00354550963,-0.00030931827,0.341747783)`.\n\nRows 11, 13, and 15 acquired false near-coplanar incidences. For example, row 11 had inactive raw slacks `4.1544e-7` and `8.5988e-7`, yet b"
+    },
+    {
+      "file": "asg_3QYMIam-Eolz_EaRKfzay35j.json",
+      "context": ",56)`.\n3. A new materialized strict-reference body of complexity 348 with hard margin `6.66e-5` and centroid norm `0.27311945`.\n4. A quantitative demonstration that serial single-edge patches cannot close the remaining moment within complexity 1000 at the observed rate.\n5"
+    },
+    {
+      "file": "asg_n0ibqnYufladfspUcYxo3nRv.json",
+      "context": "centres differ substantially:\n\n```text\narithmetic mechanical centre z \u2248 -0.752282244\nuniform-volume centroid      z \u2248 -0.351909225383516.\n```\n\nAt its own volume centroid the class is\n\n```text\n(S,U,H) = (6,21,25).\n```\n\nThe reconstructed seed is numerical rather than an exact algebraic "
+    },
+    {
+      "file": "asg_n0ibqnYufladfspUcYxo3nRv.json",
+      "context": "bian has full rank, its complete axial chamber ends at `c_z=-0.7338174268495291`, the actual volume centroid is `0.38190820146601345` beyond that boundary, and the first fixed-lattice walls occur after only about `1.1%` of the required Newton displacement. A successfu"
+    },
+    {
+      "file": "asg_qAWel0nPEu4eYuNTMkRSWVZz.json",
+      "context": "468102012003421577/6000000000000000000000000000000000000` (`4.9433687066167389`);\n- unshifted exact centroid: `31583290850654892631932549247646225220082395155411/118640848958801736217872408048013686308000000000000, -6688580900932650473570308945472520977944616049267/741505305992510"
+    },
+    {
+      "file": "asg_T1ocMPLPd8W98UVoAVHAg4aL.json",
+      "context": "tentReference[oaicite:0]{index=0}\n\nWhat is new relative to the supplied journal is a fully expanded Minkowski construction: four asymmetric full-dimensional rational polytopes, their exact common normal fan, all 20 mixed-volume coefficients and all `3\u00d735` mixed first-moment coefficients"
+    },
+    {
+      "file": "asg_4t-EeENeKdUSp8PqOq_Ex_eV.json",
+      "context": "chanism: its 21-vertex `C5` hull is mechanically `(1,1,0)` in an open axial chamber, but its volume centroid lies `0.38190820146601345` above that chamber; the first face/edge walls arrive after only `1.11%\u20131.21%` of the linearized centring step, and 12,672 ordinary fif"
+    },
+    {
+      "file": "asg_4t-EeENeKdUSp8PqOq_Ex_eV.json",
+      "context": "n(o_i+2\\pi j/5),z_i\\right),\n\\]\n\nand `\\widetilde v_{30}=(0,0,1)`. Subtract the exact algebraic solid centroid `(0,0,c_z)` given below. These 31 points are all actual extreme vertices.\n\nFor each outward maximal face cycle `f=(a,b,c,\u2026)`, its exact normalized H-row is\n\n\\[\nq_f=\\frac{(v_b-v_a)\\tim"
+    },
+    {
+      "file": "asg_4t-EeENeKdUSp8PqOq_Ex_eV.json",
+      "context": "tnesses               31\nall endpoint primitives exactly nonzero      true\n```\n\nThe original Conway centroid-to-chamber gap was `0.38190820146601345`; the exact collar reduces it to `0.26848425475321797`, an absolute reduction `0.11342394671279549`, or `29.6992696876894%`. The collar"
+    },
+    {
+      "file": "asg_4t-EeENeKdUSp8PqOq_Ex_eV.json",
+      "context": "ve lower           0.02517956744642708\nreference exclusion lower          2.7356786146110135e-8\nown-centroid class                 (31,26,55)\nown positive lower                 4.6733139805640565e-7\nown exclusion lower                8.727862579368696e-9\nwall-order gap lower         "
+    },
+    {
+      "file": "asg_4t-EeENeKdUSp8PqOq_Ex_eV.json",
+      "context": "ue edges, verifies 58 STL triangles and edge multiplicity two, obtains volume `1.7403278001084628`, centroid residual below `5\u00d710^-17`, and recovers both `(31,26,55)` and the reference `(1,1,0)` class.\n5. `sha256sum -c MANIFEST.sha256` passes for every normative file.\n\n## 9. Smallest genuinely new continuat"
+    },
+    {
+      "file": "asg_Jb4Iz5wfY2TvxIc8xOMi6ULU.json",
+      "context": "n. :contentReference[oaicite:3]{index=3}\n\nMy independent reconstruction gives:\n\n- arithmetic vertex centroid `(-8.09537622e-18, 1.18952467e-17, -0.015354018003813662)`;\n- actual hull `(V,E,F)=(21,40,21)`;\n- at that arithmetic center, class `(1,1,0)`: bottom pentagon stable, apex unstable, no saddle;\n- ordinary"
+    },
+    {
+      "file": "asg_Jb4Iz5wfY2TvxIc8xOMi6ULU.json",
+      "context": "entagon stable, apex unstable, no saddle;\n- ordinary volume `0.3275130116095386`;\n- ordinary-volume centroid `(-6.93e-18,-5.28e-19,0.3175674749086905)`, or `+0.3329214929` in `z` relative to the arithmetic center;\n- at its own ordinary-volume centroid, class `(6,21,25)`.\n\nThus the Con"
+    },
+    {
+      "file": "asg_NjIM2Dq4C2N7pHcOQfzRVz8p.json",
+      "context": "- exact volume recorded as a rational number in the ledger, numerically `426.85597274775574`;\n- raw centroid approximately `(-0.03700408593814865, 8.413639298484554, -12.444355056859525)`;\n- translated first moments exactly `(0,0,0)`;\n- minimum exact nonincidence approximately `0.0341826199"
+    },
+    {
+      "file": "asg_NjIM2Dq4C2N7pHcOQfzRVz8p.json",
+      "context": "s `(2,2,2)`, exact ordinary volume recorded in the ledger and numerically `395.98333445744885`, raw centroid approximately `(-0.3732175520830425, 8.220944005402242, -11.876482106469176)`, and centered first moments exactly zero.\n\nThe positive five-row communication cell `{TR,GR,A5,B"
+    },
+    {
+      "file": "asg_5fHpcMqzwnzVFGQKbrx73POc.json",
+      "context": "166 actual rows, and 328 primal vertices. Its construction-centre class is `(1,1,0)`, while its own-centroid class is `(133,194,325)`. It certifies the requested legacy rows as follows:\n\n- source row `29` is inactive;\n- row `37` has witness `28`, relative margin `0.02483`;\n-"
+    },
+    {
+      "file": "asg_5fHpcMqzwnzVFGQKbrx73POc.json",
+      "context": ".15198034, 0.15696031, 0.15621236)`.\n\nThe core data are\n\n- core volume: `4.105033844712977`;\n- core centroid: `(0.0145233231,-5.85e-8,5.00e-8)`;\n- core first moment: `(0.0596187328,-2.403394e-7,2.052737e-7)`.\n\nThe isolated positive solution is\n\n`\u03c4=(0.14914611,0.14738523,0.1"
+    },
+    {
+      "file": "asg_5fHpcMqzwnzVFGQKbrx73POc.json",
+      "context": "dinary-centroid closure by four disjoint pyramids, not a smooth existence argument. Its current own-centroid equilibrium class is nevertheless `(3516,3194,6735)`, so it is not the final G\u00f6mb\u00f6c.\n\n[Exact four-pyramid centred source](sandbox:/mnt/data/top_independent_d0.088.npz)\n\n[Polar reconstruction an"
+    },
+    {
+      "file": "asg_5fHpcMqzwnzVFGQKbrx73POc.json",
+      "context": "and primal vertices: `22043`;\n- true equilibrium class: `(1,1,0)`;\n- volume: `4.673658234114131`;\n- centroid: `(0.519631147,1.93876e-5,5.57015e-7)`.\n\n[Plane-preserving cover candidate](sandbox:/mnt/data/mode_plane_ls_k0.7.npz)\n\n[Triangulation-diagonal diagnosis](sandbox:"
+    },
+    {
+      "file": "asg_HNtdBViPvZ8YK4tqvLFu-7BI.json",
+      "context": "ive denominators, maximal faces, full vertex cones, and full edge cones. The box gives\n\n```text\nraw centroid x [-0.02536742230812093,-0.025367242994949312]\nraw centroid y [-0.08096587379834538,-0.08096509714397317]\nraw centroid z [ 0.16997955295090775, 0.16998089846891298]\nraw volume     [ 0.3605995432"
+    },
+    {
+      "file": "asg_HNtdBViPvZ8YK4tqvLFu-7BI.json",
+      "context": " edge cones. The box gives\n\n```text\nraw centroid x [-0.02536742230812093,-0.025367242994949312]\nraw centroid y [-0.08096587379834538,-0.08096509714397317]\nraw centroid z [ 0.16997955295090775, 0.16998089846891298]\nraw volume     [ 0.36059954328875315, 0.36059983478446916]\nminimum interval inactive uni"
+    },
+    {
+      "file": "asg_19plzxp0JIXn2lMSBRZ3M3a8.json",
+      "context": "act volume is independently recomputed as a Fraction; decimal `2.5756203370543456e-07`.\n- Pre-gauge centroid approximately `(-0.00047662631296887701,1.9718307714492013e-05,6.3191977162742512e-05)`.\n- Minimum projective denominator `0.93509232132148479`.\n- Exact integer-orientation rebuild"
+    },
+    {
+      "file": "asg_L6IvPqLWiFZhHXUjZzxD_tL_.json",
+      "context": ".74896294034823e-17, 5.993393243094224e-17, 6.790375847387171e-20)`;\n- independent maximal-face-fan centroid `(-7.820351463900388e-17, 1.813748979036169e-17, -5.043528675815619e-19)`;\n- centroid disagreement `5.835143996530528e-17`;\n- centered first-moment norm `1.5582740317092444e-18`;\n- minimum in"
+    },
+    {
+      "file": "asg_L6IvPqLWiFZhHXUjZzxD_tL_.json",
+      "context": "imal-face-fan centroid `(-7.820351463900388e-17, 1.813748979036169e-17, -5.043528675815619e-19)`;\n- centroid disagreement `5.835143996530528e-17`;\n- centered first-moment norm `1.5582740317092444e-18`;\n- minimum inactive P-plane slack `9.252804033643008e-8`;\n- maximum incident-p"
+    },
+    {
+      "file": "asg_9NmsEiWI0gq-QLUiUiDpIIs1.json",
+      "context": "m normalized support gaps to all other Q rows are approximately `3.7823999` and `12.2407339`; their centroids are separated by about `292.374` and `131.596922\u00b0`. Across the wall, both diagonals change together:\n\n```text\nnegative side: (B0,A1),(B10,A11) = (18,6),(28,16)\npositive side: (A0,B1),(A10,B11"
+    },
+    {
+      "file": "asg_Mm1--p6Zyvtm9p1w3ddZWdz2.json",
+      "context": "oves uniqueness. Hence the polar has rigorously zero ordinary-volume first moments at its own exact centroid. The midpoint moved `54.367831656953958...` from the C48 centre, so this was not a reduced local-centre calculation.\n\n## Exhaustive full-cone mechanics\n\nEvery one of the 20 actual "
+    },
+    {
+      "file": "asg_4bVBjMhJjyBJ0OQBdGk-4kqt.json",
+      "context": "roughout the complete certified segment.\n\n## 9. Exact surviving forcing component\n\nAt the exact own centroid, row `6301` is a strict radial local minimum on its complete true-edge star. Its neighbours are\n\n```text\n257, 258, 259, 260, 261, 262, 263, 6300, 6302, 6303,\n``"
+    },
+    {
+      "file": "asg_yN2wiPZYtgs2ilDnY38vHYMu.json",
+      "context": "ull-cone implementation independently obtains `(10,24,16)`, `(2,2,2)`, volume `27.472942491835518`, centroid `(0.9810799423271623,0.820545109736709,-1.7613619585271878)`, volume discrepancy `3.55e-15`, and maximum centroid-coordinate discrepancy `2.22e-16`. See [independent report](sandbox:/mnt/data/vivid_"
+    },
+    {
+      "file": "asg_hXhepXUNgSfjSJ4mHskGxZ_1.json",
+      "context": ",0)`.\n- Exact Fraction volume is emitted by the verifier; decimal `0.020771447001019006`. Pre-gauge centroid `(-0.004351446834865003, -0.004477272839241133, 8.225820822586442e-05)`.\n- Strict class `(2,1,1)`; minimum normalized inactive separation `P=1.2999276831226195e-"
+    },
+    {
+      "file": "asg_osZejmJL2_kyZEWP-ZTfHDkJ.json",
+      "context": "012713112095465327,-0.001271310906941228]`;\n- `M_z\u2208[0.002880398857181068,0.0028803991111045206]`;\n- centroid `x\u2208[0.04484787542431782,0.04484787550469968]`, `y\u2208[-0.00030230641415334705,-0.00030230634214347736]`, `z\u2208[0.000684933038546578,0.0006849330990474714]`;\n- minimum oriented"
+    },
+    {
+      "file": "asg_VnQtQbKvJgF1lIax-pbzSh6K.json",
+      "context": "31462209434567910316924030149/8000000000000000000000000000000000000000000000000`.\n\nUncentred volume centroid: `2314811237572143946830995122037285303732838241091/7694139221668598344185717344809390137750000000000`, `-6404051386482197442246051504126131281687540996959"
+    },
+    {
+      "file": "asg_JJEnBnQNq6yprRPxpidXUubX.json",
+      "context": "ately `(0.45593559598009165,0.5993298189771412,6.332357606751124)`. After exact translation by that centroid it has `(V,E,F)=(13,31,20)` and strict class `(3,2,3)`.\n\nThe target stable feature is the bottom pentagon `[2,1,0,4,3]`; the target unstable vertex is `12`. The residual bl"
+    },
+    {
+      "file": "asg_CD7ygp3c3SI8gph-inw7kuRr.json",
+      "context": "ect unit-normal/full-cone implementation independently obtains\n\n```text\nvolume   0.6813802309334281\ncentroid [0.6303117539130074,0.10253105000718112,0.2750221840426594]\n```\n\nand the same faces, edges, and equilibrium labels. Maximum discrepancies are `3.3306690738754696e-16` in volume a"
+    },
+    {
+      "file": "asg_-T50ik4J4mG-GDwiZe8D5N1j.json",
+      "context": "x has a unique interval-Krawczyk root of `Mx=My=Mz=0`, so the origin is the ordinary uniform-volume centroid. Directed volumes are `[3.371288156755192,3.3712881567551927]` and `[3.371366126416678,3.371366126416679]`. :contentReference[oaicite:1]{index=1}\n\nThe exact row-disjoint forcing matching is\n\n```tex"
+    },
+    {
+      "file": "asg_0M7ZEI_SRXrE1RpmQ1zETJfi.json",
+      "context": "roposals and produced no physically interior closure root for any maximal face. Direct one-apex own-centroid optimization instead converged to coplanar `(3,1,2)` transfer walls with inactive separations around `10^-11`\u2013`10^-12`.\n\n## Quantified moment-transport obstruction\n\nThe fixed 26-vertex geometry does"
+    },
+    {
+      "file": "asg_5Taj2JCK8oRXhzxk_WRxRaRy.json",
+      "context": "active hull vertices;\n- Santal\u00f3 point approximately `(0.01216123,-0.05195104,-0.14380841)`;\n- polar-centroid residual `3.14e-15`;\n- f-vector `(V,E,F)=(17,42,27)`;\n- Santal\u00f3-relative class `(S,U,H)=(3,2,3)`.\n\nIts genuine equilibria are:\n\n- stable faces `[20,10,19]`, margin"
+    },
+    {
+      "file": "asg_tRFefpXFGPpHiU79MMeT7Z79.json",
+      "context": "t\nsaddle edge (248,6310)\nincident faces:\n  [248,6309,6310]\n  [248,6310,1026].\n```\n\nAt the exact own centroid, `6301` is a strict radial local minimum. Representative centred radii are\n\n```text\nr(3)      \u2248  1.1233\nr(15)     \u2248  1.8604\nr(14)     \u2248  2.2370\nr(6301)   \u2248 "
+    },
+    {
+      "file": "asg_ZxflyE34wme1JZtLySGzbhZk.json",
+      "context": "ne implementation reconstructs `(26,72,48)`, the same equilibria, volume `0.01605669660829297`, and centroid `[0.1461279531465487, 0.658758973230993, 0.18544640529364573]`. OBJ and STL are watertight, winding-consistent and Euler two.\n\n## 3. Exact residual forcing theorem\n"
+    }
+  ],
+  "limitation": "Lexical check, not proof of absence of an equivalent argument under different wording."
+}

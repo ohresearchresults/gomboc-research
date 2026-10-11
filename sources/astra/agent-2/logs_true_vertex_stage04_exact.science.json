@@ -1,0 +1,30 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 2,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 79,
+        "E": 231,
+        "F": 154,
+        "counts": [
+          1,
+          2,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 462,
+        "VplusEplusF": 464
+      }
+    }
+  ]
+}

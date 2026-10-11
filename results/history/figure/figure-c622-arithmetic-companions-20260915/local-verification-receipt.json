@@ -1,0 +1,117 @@
+{
+  "at": "2026-09-15T18:48:45.617676+00:00",
+  "elapsedSeconds": 30.925,
+  "python": "3.13.14 (main, Jun 10 2026, 12:24:04) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "results": [
+    {
+      "tag": "g10",
+      "completedAt": "2026-09-15T18:48:30.389200+00:00",
+      "C": 622,
+      "V": 176,
+      "E": 311,
+      "F": 137,
+      "own": [
+        1,
+        1,
+        0
+      ],
+      "weak": [
+        0,
+        0,
+        0
+      ],
+      "commonCentredDenominatorBits": 46717,
+      "commonCentredDenominatorDecimalDigits": 14064,
+      "outputs": {
+        "GENERATOR.json": {
+          "bytes": 10763,
+          "sha256": "8e7065ce6e79b7fc8cd10c3c759748c6c7ea94f5281fc66b8e7188980b66c9cd"
+        },
+        "raw.json": {
+          "bytes": 12987,
+          "sha256": "492e33c118f40698edcc3e095d51f82b4eda863b7e12e3a6cb41cc9612eb081f"
+        },
+        "A.json": {
+          "bytes": 260047,
+          "sha256": "b397575230d5af70de7cf0743b150dd69257455b4ae5c9685c6992724563910d"
+        },
+        "B.json": {
+          "bytes": 260047,
+          "sha256": "b397575230d5af70de7cf0743b150dd69257455b4ae5c9685c6992724563910d"
+        },
+        "MASS.json": {
+          "bytes": 223,
+          "sha256": "62cb542561bdb865332d681847d1e9d3f46776fdd167373a52997e78f723fd79"
+        },
+        "RECEIPT.json": {
+          "bytes": 799,
+          "sha256": "3aec35f697436ca3842e911c703556f71a26faa5caa1bd653d2a7d080374a9a8"
+        }
+      }
+    },
+    {
+      "tag": "factor19",
+      "completedAt": "2026-09-15T18:48:45.575742+00:00",
+      "C": 622,
+      "V": 176,
+      "E": 311,
+      "F": 137,
+      "own": [
+        1,
+        1,
+        0
+      ],
+      "weak": [
+        0,
+        0,
+        0
+      ],
+      "commonCentredDenominatorBits": 45344,
+      "commonCentredDenominatorDecimalDigits": 13650,
+      "outputs": {
+        "GENERATOR.json": {
+          "bytes": 10555,
+          "sha256": "38280786ad0dbb1219d114fa3732eb7f2799aa30425eb7f071ccb683548d697a"
+        },
+        "raw.json": {
+          "bytes": 12703,
+          "sha256": "f7d28ac1953c17f4c8202546ea4f1958a465da7e47ee976ce88203cc3a2ff272"
+        },
+        "A.json": {
+          "bytes": 253234,
+          "sha256": "9bf939cc259034e320ea0d662fb73dc7e429767ca343363262ab560fe2892774"
+        },
+        "B.json": {
+          "bytes": 253234,
+          "sha256": "9bf939cc259034e320ea0d662fb73dc7e429767ca343363262ab560fe2892774"
+        },
+        "MASS.json": {
+          "bytes": 223,
+          "sha256": "4738e45a19466136d104fc762e521e9c326dcfd21f69ec8ddeba5cbb78367683"
+        },
+        "RECEIPT.json": {
+          "bytes": 801,
+          "sha256": "e74919b7da9957164ab9a681b69e73ea155d5ae20770db1ea220499a83a737c0"
+        }
+      }
+    }
+  ],
+  "polarity": {
+    "bytes": 502,
+    "sha256": "ed61bb1ccfbda4fc31f1904f960b56684bb4108d8b9c17bcfdda6eb8116f77a6",
+    "centroid": [
+      "0",
+      "0",
+      "0"
+    ],
+    "polarCentroid": [
+      "0",
+      "27/1120",
+      "0"
+    ],
+    "matchesDeclaredReport": false
+  },
+  "numericalScreensRerun": false,
+  "fullTenCaseBatchRerun": false,
+  "scope": "Fresh exact G10 andFactor19 A/B+thirdmass from verified G12 parent inputs; tiny exact polarity counterexample. No broader lower-bound proof or new edge record. Canonical documentation gaps are not silently modified."
+}

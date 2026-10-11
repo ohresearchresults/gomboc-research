@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "scope": "actual-cell predictor/nullspace-bypass descent through five independent support events",
+  "plane_tolerance": 1e-11,
+  "states": [
+    {
+      "state": "post initial independent relay",
+      "csv": "reverse_wall_bypass_deep5_after_independent.csv",
+      "lp_json": "post_independent1_lp.json",
+      "lp_delta_fixed_branch": 0.9623994983181762,
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "topology_margin": 1.4444269391677977e-09,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "ratios_to_original_combined_wall": {
+        "quad": 0.9844306314813994,
+        "U54": 0.995249823082913,
+        "H67(1-t)": 0.9829181717463423,
+        "H910(t)": 0.9937781996856224
+      },
+      "worst_ratio": 0.995249823082913
+    },
+    {
+      "state": "after three epoch-1 bypasses",
+      "csv": "epoch1_bypass3_endpoint.csv",
+      "lp_json": "epoch2_lp.json",
+      "lp_delta_fixed_branch": 0.96935548058581,
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "topology_margin": 9.208277862438052e-09,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "ratios_to_original_combined_wall": {
+        "quad": 0.9842354996893962,
+        "U54": 0.9950530402964334,
+        "H67(1-t)": 0.9824981080165153,
+        "H910(t)": 0.9935516703973066
+      },
+      "worst_ratio": 0.9950530402964334
+    },
+    {
+      "state": "post {198,229,259,260}",
+      "csv": "epoch2_event1_after_deep.csv",
+      "lp_json": "epoch3_lp.json",
+      "lp_delta_fixed_branch": 0.9651829904811529,
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "topology_margin": 5.650049816896541e-09,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "ratios_to_original_combined_wall": {
+        "quad": 0.9823398521243872,
+        "U54": 0.9942214759885766,
+        "H67(1-t)": 0.9806450490375587,
+        "H910(t)": 0.9927788896817682
+      },
+      "worst_ratio": 0.9942214759885766
+    },
+    {
+      "state": "after epoch-3 reverse bypasses",
+      "csv": "epoch3_bypass69_198_endpoint.csv",
+      "lp_json": "epoch4_lp.json",
+      "lp_delta_fixed_branch": 0.9678778778012335,
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "topology_margin": 6.323217699444328e-09,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "ratios_to_original_combined_wall": {
+        "quad": 0.9806561357144541,
+        "U54": 0.9938338800131411,
+        "H67(1-t)": 0.979366825410041,
+        "H910(t)": 0.9923826979939704
+      },
+      "worst_ratio": 0.9938338800131411
+    },
+    {
+      "state": "post five-independent-event cluster",
+      "csv": "epoch4_cluster_event3_deep_after.csv",
+      "lp_json": "epoch5_lp.json",
+      "lp_delta_fixed_branch": 0.9659495373643555,
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "topology_margin": 8.985378857628845e-09,
+      "inactive_rows": [
+        73
+      ],
+      "all_forced_rails_present": true,
+      "ratios_to_original_combined_wall": {
+        "quad": 0.9798933408166008,
+        "U54": 0.9930441971225565,
+        "H67(1-t)": 0.9782174091718832,
+        "H910(t)": 0.9915930080253254
+      },
+      "worst_ratio": 0.9930441971225565
+    }
+  ],
+  "events_in_order": [
+    {
+      "epoch": 1,
+      "type": "reverse",
+      "action": "nullspace bypass",
+      "circuit": [
+        198,
+        234,
+        235,
+        236
+      ],
+      "alpha": 3.5452237235977294e-05,
+      "control_rows": [
+        198,
+        234,
+        236
+      ],
+      "nullity": 5,
+      "death_leakage": 7.555957670209861e-28,
+      "artifact": "epoch1_bypass3.json"
+    },
+    {
+      "epoch": 1,
+      "type": "reverse",
+      "action": "nullspace bypass",
+      "circuit": [
+        69,
+        228,
+        235,
+        255
+      ],
+      "alpha": 4.149426532660057e-05,
+      "control_rows": [
+        69,
+        255
+      ],
+      "nullity": 2,
+      "death_leakage": 5.048709793414476e-28,
+      "artifact": "epoch1_bypass3.json"
+    },
+    {
+      "epoch": 1,
+      "type": "independent #1",
+      "action": "nullspace bypass",
+      "circuit": [
+        224,
+        228,
+        251,
+        252
+      ],
+      "alpha": 0.00014020398731686573,
+      "control_rows": [
+        251,
+        252
+      ],
+      "nullity": 2,
+      "death_leakage": 4.733165431326071e-30,
+      "artifact": "epoch1_bypass3.json"
+    },
+    {
+      "epoch": 2,
+      "type": "independent #2",
+      "action": "cross",
+      "circuit": [
+        198,
+        229,
+        259,
+        260
+      ],
+      "alpha": 0.0007685884098317856,
+      "before_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "at_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "after_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "before_faces": [
+        [
+          198,
+          229,
+          259
+        ],
+        [
+          198,
+          259,
+          260
+        ]
+      ],
+      "at_faces": [
+        [
+          198,
+          229,
+          259,
+          260
+        ]
+      ],
+      "after_faces": [
+        [
+          198,
+          229,
+          260
+        ],
+        [
+          229,
+          259,
+          260
+        ]
+      ],
+      "artifact": "epoch2_event1_wall.json"
+    },
+    {
+      "epoch": 3,
+      "type": "reverse",
+      "action": "nullspace bypass",
+      "circuit": [
+        69,
+        228,
+        235,
+        255
+      ],
+      "alpha": 0.00017859447839547985,
+      "control_rows": [
+        69,
+        255
+      ],
+      "nullity": 2,
+      "death_leakage": 4.8467614016778965e-27,
+      "artifact": "epoch3_bypass69_198.json"
+    },
+    {
+      "epoch": 3,
+      "type": "reverse",
+      "action": "nullspace bypass",
+      "circuit": [
+        198,
+        234,
+        235,
+        236
+      ],
+      "alpha": 0.00026821436897347565,
+      "control_rows": [
+        198,
+        234,
+        236
+      ],
+      "nullity": 5,
+      "death_leakage": 6.5105227773460625e-28,
+      "artifact": "epoch3_bypass69_198.json"
+    },
+    {
+      "epoch": 4,
+      "type": "reverse",
+      "action": "nullspace bypass",
+      "circuit": [
+        198,
+        234,
+        235,
+        236
+      ],
+      "alpha": 0.00037555208544073877,
+      "control_rows": [
+        198,
+        234
+      ],
+      "nullity": 2,
+      "death_leakage": 6.058451752097371e-28,
+      "artifact": "epoch4_bypass198.json"
+    },
+    {
+      "epoch": 4,
+      "type": "independent #3",
+      "action": "cross",
+      "circuit": [
+        69,
+        235,
+        236,
+        255
+      ],
+      "alpha": 0.0006275249538431935,
+      "before_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "at_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "after_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "before_faces": [
+        [
+          69,
+          235,
+          236
+        ],
+        [
+          69,
+          235,
+          255
+        ]
+      ],
+      "at_faces": [
+        [
+          69,
+          235,
+          236,
+          255
+        ]
+      ],
+      "after_faces": [
+        [
+          69,
+          236,
+          255
+        ],
+        [
+          235,
+          236,
+          255
+        ]
+      ],
+      "artifact": "epoch4_cluster_event1.json"
+    },
+    {
+      "epoch": 4,
+      "type": "independent #4",
+      "action": "cross",
+      "circuit": [
+        228,
+        235,
+        236,
+        255
+      ],
+      "alpha": 0.0006284117373458251,
+      "before_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "at_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "after_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "before_faces": [
+        [
+          228,
+          235,
+          255
+        ],
+        [
+          235,
+          236,
+          255
+        ]
+      ],
+      "at_faces": [
+        [
+          228,
+          235,
+          236,
+          255
+        ]
+      ],
+      "after_faces": [
+        [
+          228,
+          235,
+          236
+        ],
+        [
+          228,
+          236,
+          255
+        ]
+      ],
+      "artifact": "epoch4_cluster_event2.json"
+    },
+    {
+      "epoch": 4,
+      "type": "independent #5",
+      "action": "cross",
+      "circuit": [
+        69,
+        228,
+        236,
+        255
+      ],
+      "alpha": 0.0006289024622535821,
+      "before_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "at_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "after_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "before_faces": [
+        [
+          69,
+          236,
+          255
+        ],
+        [
+          228,
+          236,
+          255
+        ]
+      ],
+      "at_faces": [
+        [
+          69,
+          228,
+          236,
+          255
+        ]
+      ],
+      "after_faces": [
+        [
+          69,
+          228,
+          236
+        ],
+        [
+          69,
+          228,
+          255
+        ]
+      ],
+      "artifact": "epoch4_cluster_event3.json"
+    }
+  ],
+  "independent_support_event_count": 5,
+  "reverse_bypass_count": 5,
+  "per_residual_monotonicity": {
+    "quad": true,
+    "U54": true,
+    "H67(1-t)": true,
+    "H910(t)": true
+  },
+  "all_four_ratios_monotone": true,
+  "final_worst_ratio": 0.9930441971225565,
+  "materially_below_0_9": false,
+  "mechanical_sign_wall_encountered": false,
+  "conclusion": "The reverse relays are locally bypassable and five independent support events are traversed, but the guarded descent is not material: U54 remains the bottleneck at about 0.993 of its original residual, far above 0.9."
+}

@@ -1,0 +1,59 @@
+{
+  "at": "2026-09-15T21:12:41.954177+00:00",
+  "status": "LOCAL_C282_INTEGER_HULL_TWO_EXACT_AUDITS_AND_THIRD_MASS_PASS",
+  "identity": "COORD_C282_OPPOSED_CHAIN_G1000_OWN211",
+  "V": 49,
+  "E": 141,
+  "F": 94,
+  "C": 282,
+  "own": [
+    2,
+    1,
+    1
+  ],
+  "weak": [
+    0,
+    0,
+    0
+  ],
+  "allMaximalFacetsTriangles": true,
+  "inputIntegers": {
+    "count": 49,
+    "min": -507,
+    "max": 643
+  },
+  "rawCentroid": [
+    "-181946001/670092982",
+    "335691589/1340185964",
+    "-100923148/335046491"
+  ],
+  "ordinaryVolume": "335046491/6",
+  "commonCentredDenominator": 1340185964,
+  "commonCentredDenominatorBits": 31,
+  "commonCentredDenominatorDecimalDigits": 10,
+  "centredNumeratorMaxBits": 40,
+  "outputs": {
+    "raw.json": {
+      "bytes": 2483,
+      "sha256": "8254152f25df690b4da9ab394ab44c25041d449bfaa552272f5455c43b09c1e7"
+    },
+    "A.json": {
+      "bytes": 10127,
+      "sha256": "374a1eda3378fbee5cb42d9fe11d52312215fa3a15b222768a2d5f8d2a16bbce"
+    },
+    "B.json": {
+      "bytes": 10127,
+      "sha256": "374a1eda3378fbee5cb42d9fe11d52312215fa3a15b222768a2d5f8d2a16bbce"
+    },
+    "MASS.json": {
+      "bytes": 216,
+      "sha256": "c84b76eda223c2c426545c4f51b602c0e6e4d0262a72be0f069a351576dcd2a0"
+    }
+  },
+  "python": "3.13.14 (main, Jun 10 2026, 12:24:04) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+  "executedCommand": "nice -n 10 python3 -u -B -S c182_chain/exact_points.py POINTS49.json local-proof --core ../figure-finch3-c182-c592-nonwinners-20260915/source/core",
+  "freshComputation": "Supporting planes re-enumerated from49literalintegerpoints, both complete independent exactauditors run, thirdcentredmassrun, alloutputpinsmatch. Downloaded/precomputedgeometry wasnotaninput.",
+  "numericalDiscoveryReplayExecuted": false,
+  "scope": "Locallyverifiedmonounstable/2stable nonwinner, notG\u00f6mb\u00f6c,not globalminimum. Acceptedown110recordC622 unchanged."
+}

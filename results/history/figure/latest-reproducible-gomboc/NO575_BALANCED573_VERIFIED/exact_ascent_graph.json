@@ -1,0 +1,16 @@
+{
+  "status": "EXACT_FIXED_BODY_RADIAL_ASCENT_GRAPH_PASS",
+  "vertices": 573,
+  "base_ranks": [
+    100,
+    101,
+    100,
+    101
+  ],
+  "maximum_rank": 132,
+  "all_vertices_reach_apex": true,
+  "integer_dot_tests": 159445,
+  "centred_table_sha256": "7d39d28daef7342bd39efaf9b4d8c8e98bace2dad216528fa1c65254e2c890db",
+  "elapsed": 0.3146815299987793,
+  "scope": "One unchanged exactly centred table. No bound for coordinate changes or a range of reference centres."
+}

@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-15T14:30:04.959Z",
+  "assignmentId": "asg_mv4ojkFzsbeOS5zJaVffZpck",
+  "sha256": "229ac6a4cb1686c4804b05cb53dafc811656428174fe773f5d0dc0bee71a4db3",
+  "receivedAt": "2026-09-15T14:28:08.256Z",
+  "bytes": 80405,
+  "markdownBytes": 79512,
+  "markdownSha256": "c5cf86cf9d70e9ce4b82db06a0e8a2f1b903e22357c6b07034eda8d66100757a",
+  "verified": "Immutable native SHA and strict worker contract; mathematical replay not executed"
+}

@@ -1,0 +1,18 @@
+# material-5dbcd60a85e5
+
+Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
+
+Public derivative: internal-record-identifiers-replaced.
+
+---
+
+## Current H5 and universal-volume frontier
+The exact preceding synthesis is preserved in [internal-source-reference]; its claims remain valid except the superseded universal upper constant. Full domains/counts and controls also remain in [internal-source-reference], [internal-source-reference] and the named branches. Global 34<=Cmin<=622, whole H5/E17 open, no new attainer.
+
+Actual W/A paired-arrow theorem [internal-source-reference]: the full box (.15,.15,.15,.45,.13)+[-1/5000,1/5000]^5 and reflection excludes joint S1U1 for EVERY physical SPD, extra weak allowed. Basal proper U/nonbasal proper S force 7 true top-spoke alternatives times 7 basal-polar escapes. Fixed-reference orthogonal factor <4.978 bounds both gaps by4. Normalized H and its SAME inverse lie in [I/21,16I/21] and have sum<=17I/21. All49 rational duals have whole-box gap>1/100000. Exact recovery includes the explicit one-colon witness repair. This bypasses the SAME-point all-reference scalar barrier, not geodesic convexity. The earlier lambda.12 box, homogeneous pooled references, six-pair lower controls and all their limitations remain in the preserved synthesis.
+
+NEW fully read minimum-0261 (SHA c858f67518fd87fccd41d8bf201b5d9b2be0d809750afdcaeb410696e568b021) proves Upsilon_Sigma(P)<17/2 for every actual uniform-centroid convex3-body. Accepted author analytic proof and normal/cold exact execution, not coordinator replay. Projective refill retains its volume Jacobian: with actual radial endpoints p,W, M_j=E[(1-W)^j/(1+theta*p)^(3+j)], affine Berwald forces 3M1^2+M0*M1/(1+theta)-2M0*M2>=0. Fourth-degree regression plus theta13/100 gives a degree39 contradiction with40 strictly positive Bernstein coefficients. Full proof and standalone9746B code are in the result. Both SAME-covariance E17 gaps now satisfy p=23884711/3600000,q=38716531/6000000; condition<pq=924733153857541/21600000000000. Primal floor=21600000000000/1085712665457541, inverse floor=21600000000000/1089641419857541. This supersedes 8.97/47.677087, not shape-specific references or atlas execution.
+
+NEW fully read minimum-0262: under W/A,gamma<=1/3,n_base<=7, joint S1U1 needs noninterior basal foot beta=c+gamma*v. For each maximal-top escape a->b, let Y_i=z_iH-c+(z_iz-gamma)v, k=1-2gamma, tau=max{t:beta-t*Y_a in B}. The actual-chord lens is STRICT: |kY_b+2gamma*Y_a|_G^2<tau^2|Y_a|_G^2; tau>1 and 2c-a_H-kv lies in relint B. At fixed shape/shear, writing Y_j=u_jY_a+w_jY_b eliminates all G>0,eta>0: the local packet is feasible iff 1<X<(tau-2gamma)/k and |u_j+w_jX|<1 for nonconstant rows, with constant |u_j|<=1. A scalar covariance floor adds one concave quadratic. Full formulas, explicit all-G shear wedge and limitations are in the result/branch. Analytic theorem accepted; new probe code was NOT observably executed. Passing a local gate is not U1 or full inverse feasibility.
+
+Fully read minimum-0263 preserves a seven-box/reflection decomposition and validator for wider x/r coverage, but NO observed completed atlas or new exclusion. Do not promote it. Next: actual coupled-arrow macro coverage, W-only remaining paths, and genuine construction boundary cancellation; scalar-template retuning alone is blocked.

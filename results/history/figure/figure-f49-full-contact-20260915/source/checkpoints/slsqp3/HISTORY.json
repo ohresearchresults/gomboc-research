@@ -1,0 +1,38 @@
+[
+  {
+    "outer": 0,
+    "success": false,
+    "message": "Iteration limit reached",
+    "iterations": 80,
+    "fun": 0.0004923443801216474,
+    "r_initial": 3.7147667149752206e-05,
+    "r_best": 3.686256409420098e-05,
+    "inner": 80,
+    "regularization": 1e-06,
+    "equality": false
+  },
+  {
+    "outer": 1,
+    "success": false,
+    "message": "Iteration limit reached",
+    "iterations": 80,
+    "fun": 0.0004986033153505344,
+    "r_initial": 3.686256409420098e-05,
+    "r_best": 3.68110399291025e-05,
+    "inner": 80,
+    "regularization": 1e-06,
+    "equality": false
+  },
+  {
+    "outer": 2,
+    "success": false,
+    "message": "Iteration limit reached",
+    "iterations": 80,
+    "fun": 0.0004996237299131744,
+    "r_initial": 3.68110399291025e-05,
+    "r_best": 3.6797183314408555e-05,
+    "inner": 80,
+    "regularization": 1e-06,
+    "equality": false
+  }
+]

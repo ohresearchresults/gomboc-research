@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "scope": "Finite numerical falsification around the exact fifth endpoint only. Exact claims are confined to the endpoint, exact interval box, exact rails/graph/cell atlas, and exact verifiers.",
+  "completed_evaluation_lower_bound": 4973,
+  "campaigns": [
+    {
+      "name": "double-rail parameter samples",
+      "evaluations": 317,
+      "file": "search_evidence/random_records_101.json",
+      "best_class": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "one-point stable-face cap/deletion scan",
+      "evaluations": 1000,
+      "file": "search_evidence/add_cap_batch_1.json",
+      "winner_observed": false
+    },
+    {
+      "name": "two-point correlated stable/saddle cap scan",
+      "evaluations": 1200,
+      "file": "search_evidence/two_cap_301.json",
+      "winner_observed": false
+    },
+    {
+      "name": "structured replacement of stable-face vertices",
+      "evaluations": 1200,
+      "file": "search_evidence/replace_stable_401.json",
+      "winner_observed": false
+    },
+    {
+      "name": "support-plane completion around saddle edge 229-247",
+      "evaluations": 1000,
+      "file": "search_evidence/edge_face_completion_partial.json",
+      "winner_observed": false
+    },
+    {
+      "name": "local deletion subsets",
+      "evaluations": 256,
+      "file": "search_evidence/delete_double_best.json",
+      "winner_observed": false
+    }
+  ],
+  "fixed_geometry_center_test": {
+    "method": "mixed-integer linear feasibility using affine face, vertex and four edge-cone primitives",
+    "status": "numerically infeasible even at zero margin for the exact fifth incidence",
+    "files": [
+      "search_evidence/center_milp_exact_fifth.py",
+      "search_evidence/center_milp_exact_fifth.out"
+    ],
+    "warning": "This is a numerical HiGHS result, not an exact impossibility theorem."
+  },
+  "observed_behavior": "One-point, two-point, deletion, support-plane and vertex-replacement operations either retain the single S-H packet or transfer/multiply equilibrium pairs. No strict (1,1,0) state was observed.",
+  "first_unclassified_topology": {
+    "name": "coupled two-cell bistellar S-H replacement",
+    "local_vertex_star": [
+      198,
+      224,
+      258,
+      229,
+      247,
+      228
+    ],
+    "current_extra_stable_face": [
+      198,
+      224,
+      258
+    ],
+    "current_saddle_edge": [
+      229,
+      247
+    ],
+    "bridge_vertex": 224,
+    "required_incidence": "Replace the stable limiting edge (198,224) and the saddle edge (229,247) inside one triangular-prismatic/octahedral volume complex, or create a new shared interior edge incident to both stars, so the face-foot and beta death walls overlap before any U-H birth.",
+    "protected_features": {
+      "stable_face": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "unstable_vertex": 8,
+      "short_rail": [
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        8
+      ],
+      "long_rail": [
+        228,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        8
+      ]
+    },
+    "required_controls": "At least two independent local incidence coordinates plus the two rail antibirth directions and three dependent translations."
+  }
+}

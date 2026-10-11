@@ -1,0 +1,1117 @@
+[
+  {
+    "tag": "C634_SOC",
+    "V": 182,
+    "E": 317,
+    "F": 137,
+    "C": 634,
+    "counts": [
+      1,
+      1,
+      0
+    ],
+    "weak": [
+      0,
+      0,
+      0
+    ],
+    "stable_supports": [
+      3
+    ],
+    "unstable_vertices": [
+      98
+    ],
+    "saddles": [],
+    "S_sizes": [
+      20
+    ],
+    "U_raw": [
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "degree_histogram": [
+      [
+        3,
+        140
+      ],
+      [
+        4,
+        36
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        44,
+        1
+      ]
+    ],
+    "facet_size_histogram": [
+      [
+        3,
+        48
+      ],
+      [
+        4,
+        30
+      ],
+      [
+        5,
+        29
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        20,
+        1
+      ]
+    ],
+    "grid": 1000000000000,
+    "controls": 179,
+    "free_parameters": 320,
+    "max_depth": 7,
+    "max_H_integer_bits": 335,
+    "total_H_integer_bits": 53772,
+    "max_P_fraction_bits": 706,
+    "total_P_fraction_bits": 225019,
+    "volume_bits": [
+      34238,
+      34239
+    ],
+    "moment_bits": [
+      [
+        67962,
+        67969
+      ],
+      [
+        68312,
+        68321
+      ],
+      [
+        67919,
+        67926
+      ]
+    ],
+    "centroid_bits": [
+      [
+        67962,
+        67968
+      ],
+      [
+        68312,
+        68320
+      ],
+      [
+        67919,
+        67925
+      ]
+    ],
+    "volume_float": 0.48869956676988907,
+    "moment_floats": [
+      -0.006262603294437971,
+      0.0029376809879796714,
+      -0.004507381280451167
+    ],
+    "centroid_floats": [
+      -0.012814832916327925,
+      0.0060112207739339354,
+      -0.009223215216340737
+    ],
+    "triangles": 360,
+    "edge_components": 1268,
+    "primitive_zeros": [
+      0,
+      0,
+      0
+    ],
+    "primal_margin_floor": 5049,
+    "polar_margin_floor": 7471,
+    "hashes": {
+      "GENERATOR.json": {
+        "bytes": 11711,
+        "sha256": "09b77674fbf9877abcf35f5932d4d96fad25c855da1fefbcf1d71e7bd6d297c6"
+      },
+      "RAW.json": {
+        "bytes": 17472,
+        "sha256": "96ebbfd29cc997a57f15be46ecb148d0f4512b3b5e6f96547b73aefc4c6a6325"
+      },
+      "A.json": {
+        "bytes": 369895,
+        "sha256": "0f0c4e0d4213910d3214f8f367185909f0b6e744c9cb983e2c42c1fb60925925"
+      },
+      "B.json": {
+        "bytes": 369895,
+        "sha256": "0f0c4e0d4213910d3214f8f367185909f0b6e744c9cb983e2c42c1fb60925925"
+      },
+      "EXTRA.json": {
+        "bytes": 324107,
+        "sha256": "e9e5b9b133f1ba5779d6aa8fefb8e1760071d17e2492a97f883c1de88f426b83"
+      },
+      "MASS_MOMENTS.json": {
+        "bytes": 1556796,
+        "sha256": "d365595a136206503653bea1946f11ceed73453fc01e406a0514af1fb46836eb"
+      }
+    }
+  },
+  {
+    "tag": "C636_H213_SOC",
+    "V": 183,
+    "E": 318,
+    "F": 137,
+    "C": 636,
+    "counts": [
+      1,
+      1,
+      0
+    ],
+    "weak": [
+      0,
+      0,
+      0
+    ],
+    "stable_supports": [
+      3
+    ],
+    "unstable_vertices": [
+      99
+    ],
+    "saddles": [],
+    "S_sizes": [
+      20
+    ],
+    "U_raw": [
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "degree_histogram": [
+      [
+        3,
+        142
+      ],
+      [
+        4,
+        35
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        44,
+        1
+      ]
+    ],
+    "facet_size_histogram": [
+      [
+        3,
+        47
+      ],
+      [
+        4,
+        31
+      ],
+      [
+        5,
+        29
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        20,
+        1
+      ]
+    ],
+    "grid": 1000000000000,
+    "controls": 179,
+    "free_parameters": 321,
+    "max_depth": 7,
+    "max_H_integer_bits": 335,
+    "total_H_integer_bits": 53616,
+    "max_P_fraction_bits": 706,
+    "total_P_fraction_bits": 225949,
+    "volume_bits": [
+      34377,
+      34378
+    ],
+    "moment_bits": [
+      [
+        68239,
+        68246
+      ],
+      [
+        68589,
+        68597
+      ],
+      [
+        68195,
+        68203
+      ]
+    ],
+    "centroid_bits": [
+      [
+        68239,
+        68245
+      ],
+      [
+        68589,
+        68596
+      ],
+      [
+        68195,
+        68202
+      ]
+    ],
+    "volume_float": 0.4886995667843652,
+    "moment_floats": [
+      -0.006262603296954383,
+      0.002937680982936252,
+      -0.0045073812786764235
+    ],
+    "centroid_floats": [
+      -0.012814832921097528,
+      0.006011220763435791,
+      -0.009223215212435966
+    ],
+    "triangles": 362,
+    "edge_components": 1272,
+    "primitive_zeros": [
+      0,
+      0,
+      0
+    ],
+    "primal_margin_floor": 5049,
+    "polar_margin_floor": 7472,
+    "hashes": {
+      "GENERATOR.json": {
+        "bytes": 11702,
+        "sha256": "a6e8b8a3ebca846f5bebf72103cdcf6e9653acc6a979af5b622a905dd12d1e24"
+      },
+      "RAW.json": {
+        "bytes": 17427,
+        "sha256": "1136329a2a8a55393fcedff04c2d263b85260cf3507308b25be0836ddc15b60c"
+      },
+      "A.json": {
+        "bytes": 371281,
+        "sha256": "d9c6afc811647d9823f2a6abedaa4918abbdbe967fdbce7eec9db52ece446d10"
+      },
+      "B.json": {
+        "bytes": 371281,
+        "sha256": "d9c6afc811647d9823f2a6abedaa4918abbdbe967fdbce7eec9db52ece446d10"
+      },
+      "EXTRA.json": {
+        "bytes": 325416,
+        "sha256": "36f47f7da2ca4d3270b61d5a4f605561013e57eccf467fb9ede2c7f3f8bfaa16"
+      },
+      "MASS_MOMENTS.json": {
+        "bytes": 1563124,
+        "sha256": "b7a6f6a615c4bb7b8bbba5e8ed01f82b8fa514c82d8c9e170f82c16d33cbdf55"
+      }
+    }
+  },
+  {
+    "tag": "C642_GRID6_UNREPAIRED_OWN121",
+    "V": 186,
+    "E": 321,
+    "F": 137,
+    "C": 642,
+    "counts": [
+      1,
+      2,
+      1
+    ],
+    "weak": [
+      0,
+      0,
+      0
+    ],
+    "stable_supports": [
+      3
+    ],
+    "unstable_vertices": [
+      99,
+      169
+    ],
+    "saddles": [
+      [
+        167,
+        169
+      ]
+    ],
+    "S_sizes": [
+      21
+    ],
+    "U_raw": [
+      [
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "13872315679935082350746943162751799600000/26676323783348328732664884903488774218637",
+        "5181021847258197870156855355846741700000/26676323783348328732664884903488774218637",
+        "7703115438598973613287298874064732300000/26676323783348328732664884903488774218637"
+      ]
+    ],
+    "degree_histogram": [
+      [
+        3,
+        148
+      ],
+      [
+        4,
+        32
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        44,
+        1
+      ]
+    ],
+    "facet_size_histogram": [
+      [
+        3,
+        47
+      ],
+      [
+        4,
+        30
+      ],
+      [
+        5,
+        28
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        21,
+        1
+      ]
+    ],
+    "grid": 1000000,
+    "controls": 175,
+    "free_parameters": 324,
+    "max_depth": 7,
+    "max_H_integer_bits": 158,
+    "total_H_integer_bits": 23614,
+    "max_P_fraction_bits": 326,
+    "total_P_fraction_bits": 101267,
+    "volume_bits": [
+      15381,
+      15382
+    ],
+    "moment_bits": [
+      [
+        30573,
+        30580
+      ],
+      [
+        30682,
+        30690
+      ],
+      [
+        30577,
+        30585
+      ]
+    ],
+    "centroid_bits": [
+      [
+        30573,
+        30579
+      ],
+      [
+        30682,
+        30689
+      ],
+      [
+        30577,
+        30584
+      ]
+    ],
+    "volume_float": 0.48553537980857914,
+    "moment_floats": [
+      -0.005594353318691427,
+      0.003914679116375432,
+      -0.004253974320373621
+    ],
+    "centroid_floats": [
+      -0.011522030219295211,
+      0.008062603219396251,
+      -0.008761409564120203
+    ],
+    "triangles": 368,
+    "edge_components": 1284,
+    "primitive_zeros": [
+      0,
+      0,
+      0
+    ],
+    "primal_margin_floor": 1083224,
+    "polar_margin_floor": 1755335,
+    "hashes": {
+      "GENERATOR.json": {
+        "bytes": 8206,
+        "sha256": "2412fe62df2f915bc5d0c80619bf979533f6af62e131aa0b03b330001885496b"
+      },
+      "RAW.json": {
+        "bytes": 8405,
+        "sha256": "5509a3a7a3f4fe2b246ffc428f56b12cd4383f656e72c20316df1be69422a3bc"
+      },
+      "A.json": {
+        "bytes": 177200,
+        "sha256": "a68327a08124e01791190c2cda7d77c4128881957b12f8419ca4fb7fc9383ac5"
+      },
+      "B.json": {
+        "bytes": 177200,
+        "sha256": "a68327a08124e01791190c2cda7d77c4128881957b12f8419ca4fb7fc9383ac5"
+      },
+      "EXTRA.json": {
+        "bytes": 175629,
+        "sha256": "e440db9a2a1dd6de590f132a177df12b0fba8ddcea0fc02688539acb4a24f360"
+      },
+      "MASS_MOMENTS.json": {
+        "bytes": 700529,
+        "sha256": "481ca7fe8656207f7e4fff68603b3aefad3d2a3407d9598f27c8511397610456"
+      }
+    }
+  },
+  {
+    "tag": "C642_GRID6_REPAIR169",
+    "V": 186,
+    "E": 321,
+    "F": 137,
+    "C": 642,
+    "counts": [
+      1,
+      1,
+      0
+    ],
+    "weak": [
+      0,
+      0,
+      0
+    ],
+    "stable_supports": [
+      3
+    ],
+    "unstable_vertices": [
+      99
+    ],
+    "saddles": [],
+    "S_sizes": [
+      21
+    ],
+    "U_raw": [
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "degree_histogram": [
+      [
+        3,
+        148
+      ],
+      [
+        4,
+        32
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        44,
+        1
+      ]
+    ],
+    "facet_size_histogram": [
+      [
+        3,
+        47
+      ],
+      [
+        4,
+        30
+      ],
+      [
+        5,
+        28
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        21,
+        1
+      ]
+    ],
+    "grid": 1000000,
+    "controls": 175,
+    "free_parameters": 324,
+    "max_depth": 7,
+    "max_H_integer_bits": 158,
+    "total_H_integer_bits": 23656,
+    "max_P_fraction_bits": 326,
+    "total_P_fraction_bits": 101313,
+    "volume_bits": [
+      15380,
+      15381
+    ],
+    "moment_bits": [
+      [
+        30572,
+        30579
+      ],
+      [
+        30678,
+        30686
+      ],
+      [
+        30576,
+        30584
+      ]
+    ],
+    "centroid_bits": [
+      [
+        30572,
+        30578
+      ],
+      [
+        30678,
+        30685
+      ],
+      [
+        30576,
+        30583
+      ]
+    ],
+    "volume_float": 0.4855353372037741,
+    "moment_floats": [
+      -0.0055943705510456574,
+      0.003914680472634869,
+      -0.004253982964020018
+    ],
+    "centroid_floats": [
+      -0.01152206672178375,
+      0.008062606720202361,
+      -0.008761428135218645
+    ],
+    "triangles": 368,
+    "edge_components": 1284,
+    "primitive_zeros": [
+      0,
+      0,
+      0
+    ],
+    "primal_margin_floor": 1085109,
+    "polar_margin_floor": 1450398,
+    "hashes": {
+      "GENERATOR.json": {
+        "bytes": 8206,
+        "sha256": "7d22238477bd06fbbbeb1317500439c422900cbc754457956ed3c817335e7534"
+      },
+      "RAW.json": {
+        "bytes": 8421,
+        "sha256": "ccee50edfc5aff641ba5a9680b4b6187acb4d0e92a629d270aae010e9391d181"
+      },
+      "A.json": {
+        "bytes": 177209,
+        "sha256": "146c352b1301a057f3cad4f28e4f42ade0c18e703f27d9484beffbfe12f3c254"
+      },
+      "B.json": {
+        "bytes": 177209,
+        "sha256": "146c352b1301a057f3cad4f28e4f42ade0c18e703f27d9484beffbfe12f3c254"
+      },
+      "EXTRA.json": {
+        "bytes": 178788,
+        "sha256": "2f8d39d68f6de2077340e2abbced9926e9a92b926248f1adc6819129ee1bedaa"
+      },
+      "MASS_MOMENTS.json": {
+        "bytes": 700496,
+        "sha256": "f08756fff7469ec7a57f8981e9eba28b1ca9e5d888d28ccfc6536a24e01d880a"
+      }
+    }
+  },
+  {
+    "tag": "C636_GRID7",
+    "V": 183,
+    "E": 318,
+    "F": 137,
+    "C": 636,
+    "counts": [
+      1,
+      1,
+      0
+    ],
+    "weak": [
+      0,
+      0,
+      0
+    ],
+    "stable_supports": [
+      3
+    ],
+    "unstable_vertices": [
+      98
+    ],
+    "saddles": [],
+    "S_sizes": [
+      20
+    ],
+    "U_raw": [
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "degree_histogram": [
+      [
+        3,
+        142
+      ],
+      [
+        4,
+        35
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        44,
+        1
+      ]
+    ],
+    "facet_size_histogram": [
+      [
+        3,
+        48
+      ],
+      [
+        4,
+        29
+      ],
+      [
+        5,
+        30
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        20,
+        1
+      ]
+    ],
+    "grid": 10000000,
+    "controls": 178,
+    "free_parameters": 321,
+    "max_depth": 7,
+    "max_H_integer_bits": 178,
+    "total_H_integer_bits": 28681,
+    "max_P_fraction_bits": 368,
+    "total_P_fraction_bits": 120166,
+    "volume_bits": [
+      18054,
+      18055
+    ],
+    "moment_bits": [
+      [
+        35911,
+        35918
+      ],
+      [
+        36009,
+        36017
+      ],
+      [
+        35880,
+        35887
+      ]
+    ],
+    "centroid_bits": [
+      [
+        35911,
+        35917
+      ],
+      [
+        36009,
+        36016
+      ],
+      [
+        35880,
+        35886
+      ]
+    ],
+    "volume_float": 0.4868358642623714,
+    "moment_floats": [
+      -0.006385889086007346,
+      0.003623723738500232,
+      -0.004469048592063241
+    ],
+    "centroid_floats": [
+      -0.013117129518966143,
+      0.007443419855664725,
+      -0.00917978505719687
+    ],
+    "triangles": 362,
+    "edge_components": 1272,
+    "primitive_zeros": [
+      0,
+      0,
+      0
+    ],
+    "primal_margin_floor": 187706,
+    "polar_margin_floor": 333612,
+    "hashes": {
+      "GENERATOR.json": {
+        "bytes": 8952,
+        "sha256": "a6487bd924a47eb7eaec11c59c5e54158659ce6a9566b3feb1a1276067272689"
+      },
+      "RAW.json": {
+        "bytes": 9924,
+        "sha256": "550c00b5cfe26eb433623671dfd04b5f3fb45c839637d161d3f3487af023fc16"
+      },
+      "A.json": {
+        "bytes": 205028,
+        "sha256": "a5b7c0833c577462c837dd6cb2185b6931344db7d917a77b7a87fb7d63f9ce2a"
+      },
+      "B.json": {
+        "bytes": 205028,
+        "sha256": "a5b7c0833c577462c837dd6cb2185b6931344db7d917a77b7a87fb7d63f9ce2a"
+      },
+      "EXTRA.json": {
+        "bytes": 198602,
+        "sha256": "3b81f4a907e264a2511aa6ad911071160f9244563a42f96dfd3e5a5e0afcfd10"
+      },
+      "MASS_MOMENTS.json": {
+        "bytes": 822180,
+        "sha256": "4459b85374334c0dd03f1758840ff11ab31528470c412b7b6309ef7e393a45fd"
+      }
+    }
+  },
+  {
+    "tag": "C638_H213_GRID7",
+    "V": 184,
+    "E": 319,
+    "F": 137,
+    "C": 638,
+    "counts": [
+      1,
+      1,
+      0
+    ],
+    "weak": [
+      0,
+      0,
+      0
+    ],
+    "stable_supports": [
+      3
+    ],
+    "unstable_vertices": [
+      99
+    ],
+    "saddles": [],
+    "S_sizes": [
+      20
+    ],
+    "U_raw": [
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "degree_histogram": [
+      [
+        3,
+        144
+      ],
+      [
+        4,
+        34
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        44,
+        1
+      ]
+    ],
+    "facet_size_histogram": [
+      [
+        3,
+        47
+      ],
+      [
+        4,
+        30
+      ],
+      [
+        5,
+        30
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        20,
+        1
+      ]
+    ],
+    "grid": 10000000,
+    "controls": 178,
+    "free_parameters": 322,
+    "max_depth": 7,
+    "max_H_integer_bits": 178,
+    "total_H_integer_bits": 28593,
+    "max_P_fraction_bits": 368,
+    "total_P_fraction_bits": 120653,
+    "volume_bits": [
+      18136,
+      18137
+    ],
+    "moment_bits": [
+      [
+        36074,
+        36082
+      ],
+      [
+        36172,
+        36180
+      ],
+      [
+        36043,
+        36051
+      ]
+    ],
+    "centroid_bits": [
+      [
+        36074,
+        36081
+      ],
+      [
+        36172,
+        36179
+      ],
+      [
+        36043,
+        36050
+      ]
+    ],
+    "volume_float": 0.4868358655706186,
+    "moment_floats": [
+      -0.006385889309532594,
+      0.00362372328314166,
+      -0.004469048432586549
+    ],
+    "centroid_floats": [
+      -0.01311712994285603,
+      0.007443418900319324,
+      -0.009179784704950596
+    ],
+    "triangles": 364,
+    "edge_components": 1276,
+    "primitive_zeros": [
+      0,
+      0,
+      0
+    ],
+    "primal_margin_floor": 187688,
+    "polar_margin_floor": 333702,
+    "hashes": {
+      "GENERATOR.json": {
+        "bytes": 8943,
+        "sha256": "cfce7d8ea368bf8b5825e6b3be3b9814701ad1dfd8a2d8c65b2e2bf72c230288"
+      },
+      "RAW.json": {
+        "bytes": 9899,
+        "sha256": "607d7530de79f030d83114efb621246ed4df1c90c0e8c969e7b16ed8ea750d16"
+      },
+      "A.json": {
+        "bytes": 205857,
+        "sha256": "888630f2d0c54ee170180128f4ccd5661bd2bdefb87c66546bb13bc201194a0e"
+      },
+      "B.json": {
+        "bytes": 205857,
+        "sha256": "888630f2d0c54ee170180128f4ccd5661bd2bdefb87c66546bb13bc201194a0e"
+      },
+      "EXTRA.json": {
+        "bytes": 199466,
+        "sha256": "524b885da3bf5916d2abdae855c7aa7f2480ff72b3e629ae199b5a80d4c37eb4"
+      },
+      "MASS_MOMENTS.json": {
+        "bytes": 825923,
+        "sha256": "d0e9ad6ebf8d06a9172f0e17ae085dc34f0ad60e6567ea677776c6c82296f5a0"
+      }
+    }
+  }
+]

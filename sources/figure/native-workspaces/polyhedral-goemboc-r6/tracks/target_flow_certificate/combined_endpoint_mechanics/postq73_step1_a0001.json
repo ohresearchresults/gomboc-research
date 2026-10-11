@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "source": "bound300_postq73_a0017.csv",
+  "lp_json": "bound300_postq73_lp.json",
+  "alpha": 0.0001,
+  "lp_delta": 0.9588451425064142,
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "f_vector": [
+    60,
+    158,
+    100
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "faces_match": true,
+  "removed_faces": [],
+  "added_faces": [],
+  "all_vertices_active": false,
+  "lost_vertices": [
+    73
+  ],
+  "all_forced_rails_present": true,
+  "missing_forced_rails": [],
+  "topology_margin": 5.2451936322084336e-08,
+  "death_ratios": {
+    "('face', (7, 8, 245, 246), (8, 246))": 0.9991715549822471,
+    "('vertex', 54, 1)": 0.9999023557379483,
+    "('edge', (6, 7), 'one_minus_t')": 0.9999000544000837,
+    "('edge', (9, 10), 't')": 0.999857729429896
+  },
+  "missing_selected_guards": [],
+  "minimum_signed_guard_ratio": 0.013224442060026924,
+  "minimum_signed_guard": {
+    "key": "('edge', (5, 245), 'beta1')",
+    "kind": "nonsaddle_edge_witness",
+    "baseline_value": -523611.1188735921,
+    "new_value": -6924.464903529689
+  }
+}

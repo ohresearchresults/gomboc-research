@@ -1,0 +1,19 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 132,
+        "F": 115,
+        "E": 245,
+        "nodes": 247,
+        "free": 247,
+        "depth": 8,
+        "levels": 20
+      }
+    }
+  ]
+}

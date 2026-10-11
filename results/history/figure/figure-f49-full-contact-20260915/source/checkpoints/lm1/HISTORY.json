@@ -1,0 +1,142 @@
+[
+  {
+    "it": 0,
+    "centre_distance": 6.529107123283478e-05,
+    "min_reference_exit": 1.2659153443391556e-08,
+    "min_gap": 0.0008370348268702532,
+    "seconds": 0.22554347499999494,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 0,
+      "corrections": 2,
+      "predicted": 3.685051715373376e-05,
+      "actual": 4.1738514556163594e-05
+    }
+  },
+  {
+    "it": 1,
+    "centre_distance": 4.1738514556163594e-05,
+    "min_reference_exit": 1.999998488107681e-08,
+    "min_gap": 0.0008338045538114347,
+    "seconds": 1.7173299190001217,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 2,
+      "corrections": 1,
+      "predicted": 6.147386383014329e-06,
+      "actual": 4.0746290595663485e-05
+    }
+  },
+  {
+    "it": 2,
+    "centre_distance": 4.0746290595663485e-05,
+    "min_reference_exit": 1.136297623222314e-08,
+    "min_gap": 0.0008266584056659809,
+    "seconds": 4.3310482180002055,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 3,
+      "corrections": 1,
+      "predicted": 4.147901199581147e-06,
+      "actual": 3.948792472338327e-05
+    }
+  },
+  {
+    "it": 3,
+    "centre_distance": 3.948792472338327e-05,
+    "min_reference_exit": 1.9030090683032223e-08,
+    "min_gap": 0.0008250351098529896,
+    "seconds": 7.597193104000098,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 5,
+      "corrections": 1,
+      "predicted": 2.1561405585133992e-05,
+      "actual": 3.928001196203854e-05
+    }
+  },
+  {
+    "it": 4,
+    "centre_distance": 3.928001196203854e-05,
+    "min_reference_exit": 1.9996641029791633e-08,
+    "min_gap": 0.0008258446324034274,
+    "seconds": 12.588834752000139,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 5,
+      "corrections": 1,
+      "predicted": 2.9000248257345918e-05,
+      "actual": 3.927211997691579e-05
+    }
+  },
+  {
+    "it": 5,
+    "centre_distance": 3.927211997691579e-05,
+    "min_reference_exit": 1.9997474687899844e-08,
+    "min_gap": 0.0008242081115719113,
+    "seconds": 17.56100170500008,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 6,
+      "corrections": 1,
+      "predicted": 2.4389342545294806e-05,
+      "actual": 3.91558545124227e-05
+    }
+  },
+  {
+    "it": 6,
+    "centre_distance": 3.91558545124227e-05,
+    "min_reference_exit": 1.9999681394836806e-08,
+    "min_gap": 0.0008255913734989129,
+    "seconds": 23.03990203100011,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 4,
+      "corrections": 1,
+      "predicted": 3.602710315050088e-05,
+      "actual": 3.905666021810524e-05
+    }
+  },
+  {
+    "it": 7,
+    "centre_distance": 3.905666021810524e-05,
+    "min_reference_exit": 1.999834507911512e-08,
+    "min_gap": 0.0008269679772967553,
+    "seconds": 26.884409613000116,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 6,
+      "corrections": 1,
+      "predicted": 3.0722926839938905e-05,
+      "actual": 3.899179166412515e-05
+    }
+  },
+  {
+    "it": 8,
+    "centre_distance": 3.899179166412515e-05,
+    "min_reference_exit": 1.9999890502653304e-08,
+    "min_gap": 0.0008273022493524573,
+    "seconds": 32.75266301600004,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 5,
+      "corrections": 1,
+      "predicted": 3.5653305319692325e-05,
+      "actual": 3.8958617585335576e-05
+    }
+  },
+  {
+    "it": 9,
+    "centre_distance": 3.8958617585335576e-05,
+    "min_reference_exit": 1.9999807359906584e-08,
+    "min_gap": 0.0008280393128392571,
+    "seconds": 37.712034195000115,
+    "accepted": {
+      "lam": 1e-07,
+      "backtrack": 6,
+      "corrections": 1,
+      "predicted": 3.1708492496024616e-05,
+      "actual": 3.891011257058487e-05
+    }
+  }
+]

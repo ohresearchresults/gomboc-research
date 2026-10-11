@@ -1,0 +1,472 @@
+{
+  "version": 1,
+  "scope": "recomputed intrinsic trust-SLP event locator",
+  "source": "/REDACTED_HOME/.pro-research/native-workspaces/polyhedral-goemboc-r6/tracks/target_flow_certificate/combined_endpoint_mechanics/exact_endpoint_attack/mandatory_rail_bypass_interior_checkpoint.csv",
+  "trust": 1e-07,
+  "baseline": {
+    "valid": true,
+    "error": null,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "stable": [
+      [
+        7,
+        8,
+        245,
+        246
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54
+      ]
+    ],
+    "unstable": [
+      8,
+      54
+    ],
+    "saddles": [
+      [
+        6,
+        7
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    "topology_margin": 4.902030012182925e-10
+  },
+  "best": {
+    "h67_component": "beta2",
+    "h910_component": "beta2",
+    "success": true,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "common_fractional_descent": 3.346649857926899e-07,
+    "physical_linf": 1.9101892705406574e-07,
+    "coefficient_linf": 1.9101892705406574e-07,
+    "coefficients": [
+      5.3378708784228595e-08,
+      1.3437852008182039e-07,
+      -1.1095512676460184e-07,
+      -2.4078991550029997e-08,
+      -1.4696442126227429e-07,
+      4.490425445894502e-08,
+      -1.4696442126227429e-07,
+      4.490425445894502e-08,
+      -1.4696442126227429e-07,
+      4.490425445894502e-08,
+      -1.4696442126227429e-07,
+      4.490425445894502e-08,
+      -5.3378708784228595e-08,
+      -1.3437852008182039e-07,
+      5.3378708784228595e-08,
+      1.3437852008182039e-07,
+      -5.550104241610001e-09,
+      -1.1301802089113493e-07,
+      -5.3378708784228595e-08,
+      -1.3437852008182039e-07,
+      2.5897841834068552e-08,
+      -9.897320747619023e-08,
+      -5.337870878422833e-08,
+      -1.3437852008182057e-07,
+      -5.3378708784228595e-08,
+      -1.3437852008182039e-07,
+      -5.3378708784228595e-08,
+      -1.3437852008182039e-07,
+      -5.3378708784228595e-08,
+      -1.3437852008182039e-07,
+      -5.3378708784228595e-08,
+      -1.3437852008182039e-07,
+      -5.3378708784228595e-08,
+      -1.3437852008182039e-07,
+      5.3378708784228595e-08,
+      1.3437852008182039e-07,
+      1e-07,
+      -1e-07,
+      1.4260368154442834e-07,
+      1e-07,
+      -1e-07,
+      1e-07,
+      1e-07,
+      -1e-07,
+      1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      1e-07,
+      6.700387347263333e-08,
+      -5.2189880403478626e-08,
+      1.5695749664324523e-07,
+      -8.063653145190295e-08,
+      -1e-07,
+      1e-07,
+      1.3924465558200692e-07,
+      -1e-07,
+      1e-07,
+      -1e-07,
+      1e-07,
+      -1e-07,
+      2.4817989130667363e-08,
+      1e-07,
+      -1e-07,
+      1.565706879078031e-08,
+      -1e-07,
+      -1e-07,
+      -3.692797854009186e-08,
+      1e-07,
+      -1e-07,
+      -6.28499769344463e-08,
+      -1e-07,
+      -7.092744350330875e-08,
+      -9.077911260508152e-08,
+      1e-07,
+      -1e-07,
+      -1.9101892705406574e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      1e-07,
+      1e-07,
+      1e-07,
+      1e-07,
+      1e-07,
+      1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      1.0823609545629098e-07,
+      1.0823609545629098e-07,
+      9.901505486562492e-08,
+      -1e-07,
+      1e-07,
+      -6.704005320443148e-08,
+      -1e-07,
+      9.719736138190411e-08,
+      -1e-07,
+      -2.3594571620840762e-08,
+      1e-07,
+      -1.1473804354231953e-07,
+      -2.816135389102723e-08,
+      1.2851348162876948e-07,
+      -6.775746912662273e-08,
+      -1.259179091746895e-07,
+      1.2399604426012185e-07,
+      9.646743058464941e-09,
+      1e-07,
+      1.4406598688919178e-07,
+      -1.891264045138888e-08,
+      -1e-07,
+      1e-07,
+      -4.7801180678703645e-09,
+      -1e-07,
+      6.482143252307731e-08,
+      -3.5707863131597974e-08,
+      7.015801757733436e-08,
+      1e-07,
+      1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -1e-07,
+      -5.2717602420460665e-08,
+      -2.2702103917674572e-08,
+      -1e-07,
+      1e-07,
+      9.105212846294704e-08,
+      -1e-07,
+      1e-07,
+      -1e-07,
+      1e-07,
+      -1e-07,
+      1e-07,
+      1e-07,
+      -1e-07,
+      1e-07,
+      1e-07,
+      -1e-07,
+      1e-07,
+      1e-07,
+      -1e-07,
+      1e-07,
+      1e-07,
+      1e-07,
+      1e-07,
+      -1.0803736771129817e-07,
+      -1.4265978253968864e-07
+    ],
+    "deaths": [
+      "('face', (7, 8, 245, 246), (8, 246))",
+      "('vertex', 54, 1)",
+      "('edge', (6, 7), 'beta2')",
+      "('edge', (9, 10), 'beta2')"
+    ],
+    "death_fractional_derivatives": [
+      -3.346649857926903e-07,
+      -3.346649857926855e-07,
+      -3.3466498579268973e-07,
+      -3.346649857926901e-07
+    ],
+    "max_guard_fractional_worsening": 0.15000000000004787,
+    "active_modes": [
+      {
+        "column": 80,
+        "coefficient": -1.9101892705406574e-07,
+        "kind": "chart",
+        "row": 236,
+        "axis": "z"
+      },
+      {
+        "column": 55,
+        "coefficient": 1.5695749664324523e-07,
+        "kind": "chart",
+        "row": 228,
+        "axis": "y"
+      },
+      {
+        "column": 10,
+        "coefficient": -1.4696442126227429e-07,
+        "kind": "chart",
+        "row": 5,
+        "axis": "base_u"
+      },
+      {
+        "column": 4,
+        "coefficient": -1.4696442126227429e-07,
+        "kind": "chart",
+        "row": 2,
+        "axis": "base_u"
+      },
+      {
+        "column": 6,
+        "coefficient": -1.4696442126227429e-07,
+        "kind": "chart",
+        "row": 3,
+        "axis": "base_u"
+      },
+      {
+        "column": 8,
+        "coefficient": -1.4696442126227429e-07,
+        "kind": "chart",
+        "row": 4,
+        "axis": "base_u"
+      },
+      {
+        "column": 124,
+        "coefficient": 1.4406598688919178e-07,
+        "kind": "chart",
+        "row": 252,
+        "axis": "y"
+      },
+      {
+        "column": 163,
+        "coefficient": -1.4265978253968864e-07,
+        "kind": "chart",
+        "row": 246,
+        "axis": "quad_b"
+      },
+      {
+        "column": 38,
+        "coefficient": 1.4260368154442834e-07,
+        "kind": "chart",
+        "row": 69,
+        "axis": "z"
+      },
+      {
+        "column": 59,
+        "coefficient": 1.3924465558200692e-07,
+        "kind": "chart",
+        "row": 229,
+        "axis": "z"
+      },
+      {
+        "column": 23,
+        "coefficient": -1.3437852008182057e-07,
+        "kind": "chart",
+        "row": 11,
+        "axis": "base_v"
+      },
+      {
+        "column": 31,
+        "coefficient": -1.3437852008182039e-07,
+        "kind": "chart",
+        "row": 15,
+        "axis": "base_v"
+      },
+      {
+        "column": 1,
+        "coefficient": 1.3437852008182039e-07,
+        "kind": "chart",
+        "row": 0,
+        "axis": "base_v"
+      },
+      {
+        "column": 15,
+        "coefficient": 1.3437852008182039e-07,
+        "kind": "chart",
+        "row": 7,
+        "axis": "base_v"
+      },
+      {
+        "column": 35,
+        "coefficient": 1.3437852008182039e-07,
+        "kind": "chart",
+        "row": 54,
+        "axis": "base_v"
+      },
+      {
+        "column": 33,
+        "coefficient": -1.3437852008182039e-07,
+        "kind": "chart",
+        "row": 16,
+        "axis": "base_v"
+      },
+      {
+        "column": 13,
+        "coefficient": -1.3437852008182039e-07,
+        "kind": "chart",
+        "row": 6,
+        "axis": "base_v"
+      },
+      {
+        "column": 29,
+        "coefficient": -1.3437852008182039e-07,
+        "kind": "chart",
+        "row": 14,
+        "axis": "base_v"
+      },
+      {
+        "column": 19,
+        "coefficient": -1.3437852008182039e-07,
+        "kind": "chart",
+        "row": 9,
+        "axis": "base_v"
+      },
+      {
+        "column": 27,
+        "coefficient": -1.3437852008182039e-07,
+        "kind": "chart",
+        "row": 13,
+        "axis": "base_v"
+      }
+    ]
+  },
+  "solver_summary": {
+    "chart": {
+      "quad_alpha": 0.09911254645828071,
+      "quad_beta": 1.0823609545629098
+    },
+    "mode_count": 164,
+    "primitive_count": 7638,
+    "guard_count": 6708,
+    "finite_difference_failures": [
+      {
+        "column": 51,
+        "accepted_step": 2.5e-10,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError(\"ValueError('parallel face normals')\")"
+          }
+        ]
+      },
+      {
+        "column": 53,
+        "accepted_step": 2.5e-10,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError(\"ValueError('parallel face normals')\")"
+          }
+        ]
+      },
+      {
+        "column": 54,
+        "accepted_step": 2.5e-10,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError(\"ValueError('parallel face normals')\")"
+          }
+        ]
+      },
+      {
+        "column": 56,
+        "accepted_step": 2.5e-10,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError(\"ValueError('parallel face normals')\")"
+          }
+        ]
+      },
+      {
+        "column": 120,
+        "accepted_step": 2.5e-10,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError(\"ValueError('parallel face normals')\")"
+          }
+        ]
+      },
+      {
+        "column": 122,
+        "accepted_step": 6.25e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError(\"ValueError('parallel face normals')\")"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError(\"ValueError('parallel face normals')\")"
+          }
+        ]
+      }
+    ]
+  },
+  "invalid_probe_count": 0,
+  "first_invalid_probes": [],
+  "event": null,
+  "conclusion": "no actual signature event through fraction 2.0"
+}

@@ -1,0 +1,209 @@
+# figure-0060
+
+Historical AI scientific report · saved 2026-08-25 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
+
+---
+
+# Итог: двухэтапная Morse-cancellation в локальном кластере C=66
+
+## Вердикт
+
+Открытый однородный полиэдральный гёмбёц в исследованном 13-гранном локальном кластере **не найден**. Ни один сохранённый или просканированный объект не имеет собственного-центроидного класса `(S,U,H)=(1,1,0)`. Поэтому победная рационализация и OBJ/STL гёмбёца не выполнялись: исходный критерий требует конечного точного H/V-объекта, собственного точного объёмного центроида и строгого полного аудита, а стеночный или приблизительный объект не принимается. :contentReference[oaicite:0]{index=0}
+
+Оставленный журналом эксперимент — намеренно немонотонная двухстадийная отмена через две сохранённые клетки `(2,3,3)` с повторным построением всей оболочки после каждой circuit-стенки — завершён. :contentReference[oaicite:1]{index=1} Получены две полностью материализованные траектории. В каждой первая `U–H`-пара действительно отменяется, но следующая `S–H`-пара не исчезает: она переносится на другие грани/рёбра либо переживает крупный коллапс числа активных фасеток.
+
+Полный воспроизводимый архив: [c66_two_stage_handoff.zip](sandbox:/mnt/data/gomboc_langi/c66_two_stage_handoff.zip). Его SHA-256 — `7f52c3fe481c71209222e8c8fcc7db8c5de07decb728c6267c00705acaaeaa7d`; файл проверки: [c66_two_stage_handoff.zip.sha256](sandbox:/mnt/data/gomboc_langi/c66_two_stage_handoff.zip.sha256).
+
+## 1. Дисциплина вычисления
+
+После каждого принятого crossing применялся собственно-центроидный gauge
+
+`B_i = A_i / (1 - A_i·c)`,
+
+где `c` — заново вычисленный равномерный объёмный центроид текущего тела. Затем с нуля восстанавливались:
+
+- все допустимые пересечения троек H-плоскостей и полный набор вершин;
+- точные активные множества и все сырые неинцидентные остатки `1-A_i·v`;
+- каждая максимальная грань и её ориентированный цикл;
+- каждое истинное ребро;
+- все направленные остатки устойчивости граней;
+- все исходящие рёберные остатки каждой вершины;
+- для каждого истинного ребра оба параметра ортогональной проекции и обе координаты полного двумерного нормального конуса;
+- полный Morse incidence graph: обе нисходящие сепаратрисы каждого седла и достижимые максимумы от его концов.
+
+Поиск не переносил фиксированный witness-list через стенку. Каждая новая incidence-signature проходила глобальный rebuild. Beam сохранял топологически различные клетки и разрешал временное ухудшение scalar score; ранжирование велось по числу дефектов, фазе cancellation, сохранению целевых равновесий и открытому incidence-запасу, а не по монотонному max-min.
+
+В архиве это воспроизводят [dynamic_morse_beam.py](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/records/dynamic_morse_beam.py), [raw_h_audit.py](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/records/raw_h_audit.py) и [safe_scan_one.py](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/records/safe_scan_one.py).
+
+## 2. Траектория A: логическая клетка 062
+
+Физический сохранённый файл — `original_cell_058.npz`; он покоэффициентно совпадает с реконструированной логической клеткой 062. Исходное тело имеет `(V,E,F)=(22,33,13)`, класс `(2,3,3)`.
+
+### Исходный Morse-граф
+
+Устойчивые грани:
+
+- row `0`, margin `0.08399553634040646`;
+- лишняя row `10`, margin `0.00030278586296768957`.
+
+Неустойчивые вершины:
+
+- `v3`, active rows `[0,3,6]`, margin `6.257608883105158e-5`;
+- `v13`, `[4,6,10]`, margin `0.991738167580524`;
+- `v15`, `[5,7,12]`, margin `0.00028856455731032614`.
+
+Седловые рёбра:
+
+- `[3,4]`, incident rows `[0,6]`, margin `0.000299015529821704`; нисходит к stable rows `{0,10}`, его концы ведут к максимумам `v3` и `v13`;
+- `[3,12]`, rows `[3,6]`, margin `3.554939937003648e-5`; нисходит к `{0,10}`, конец `3` ведёт к `v3`, конец `12` — к `v15`;
+- `[9,10]`, rows `[1,9]`, margin `0.3013103457351973`; обе нисходящие стороны заканчиваются на rows `{0,10}`.
+
+### Стадия A1: реальная отмена `U–H`
+
+Выбрана пара:
+
+- максимум `v3` с active rows `[0,3,6]`;
+- седло `[3,12]` с rows `[3,6]`.
+
+После crossing и полного rebuild в состоянии `A01_first_cancellation_root` вершина `v3` и ребро `[3,12]` отсутствуют, а класс меняется `(2,3,3) -> (2,2,2)`. Это настоящая Morse-cancellation, а не переименование старых features. Новая клетка всё ещё имеет `(22,33,13)` и сырой минимальный неинцидентный slack `1.5319934731106e-4`.
+
+### Стадия A2: попытка отмены `S–H`
+
+После A1 лишняя устойчивая грань — row `8`, margin `0.00844868983805442`. Выбрано седло `[9,10]`, rows `[1,9]`, margin `0.13360376783573236`: его нисходящие ветви идут к stable rows `{0,8}`, а восходящие ветви связывают оставшиеся максимальные бассейны `v13` и `v15`.
+
+Немонотонное продолжение пересекло три явно сохранённые клетки `A03_cross_000`, `A03_cross_001`, `A03_cross_002`. Результат `A04_best_transfer` остаётся `(2,2,2)`:
+
+- extra stable переносится с row `8` на row `11`, margin `0.01291851087886695`;
+- седла перестраиваются в `[1,5]`, margin `0.4945423061538746`, и `[3,4]`, margin `0.3005423100916246`;
+- оба седла снова нисходят к двум stable rows `{0,11}` и сохраняют связь двух максимальных бассейнов.
+
+То есть вторая cancellation не состоялась; произошёл перенос полного Morse-блока. Отдельная post-wall клетка с 12 активными фасетками имеет `(20,30,12)`, `(2,2,2)` и robust raw inactive slack `0.0178218322212602`. Лучший объект полного ray-scan A имеет `(12,18,8)`, всё ещё `(2,2,2)`, при slack `0.0500307488731029`.
+
+Полный graph-by-graph манифест: [trajectory_A_manifest.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/trajectory_A_manifest.json). Ключевые тела: [A00 source](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/A00_source_233.source.npz), [A01 after real cancellation](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/A01_first_cancellation_root.source.npz), [A04 transferred block](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/A04_best_transfer.source.npz).
+
+## 3. Траектория B: логическая клетка 105
+
+Физический сохранённый файл — `original_cell_098.npz`; он совпадает с логической клеткой 105. Исходное тело также имеет `(22,33,13)`, `(2,3,3)`.
+
+### Исходный Morse-граф
+
+Устойчивые грани: row `0` с margin `0.08125198214188437` и row `10` с `0.000269531976004379`.
+
+Неустойчивые вершины:
+
+- `v7`, active rows `[0,5,6]`, margin `0.0150849636064871`;
+- `v8`, `[0,7,12]`, margin `0.9353813163514002`;
+- `v14`, `[4,6,10]`, margin `0.9917811950621643`.
+
+Седла:
+
+- `[5,7]`, rows `[0,6]`, margin `0.00113986266804844`, с восходящими концами к `v14` и `v7`;
+- `[7,15]`, rows `[5,6]`, margin `0.00820308447287243`, нисходит к stable rows `{0,10}`, а его концы ведут к `v7` и `v8`;
+- `[9,10]`, rows `[1,9]`, margin `0.00448314587280869`, соединяет оставшиеся максимальные бассейны.
+
+### Стадия B1: реальная отмена `U–H`
+
+Выбраны максимум `v8` и седло `[7,15]`. После глобального rebuild в `B01_first_cancellation_13facet` они отсутствуют; класс меняется `(2,3,3) -> (2,2,2)`, 13 фасеток сохраняются, minimum raw inactive slack становится `0.00138026168533234`.
+
+### Стадия B2: `S–H` через коллапс топологии
+
+После B1 лишняя stable row `9` имеет margin `0.01182162178762531`. С ней спарено седло `[1,10]`, rows `[1,10]`, margin `0.19359986438954635`: нисходящие ветви идут к rows `{0,9}`, один конец ведёт к `v14`, другой — к `{v7,v14}`.
+
+Поиск разрешил ухудшение hard score и деактивацию H-строк. Реально пройдена последовательность `13 -> 11 -> 7` активных фасеток. Однако robust семифасеточная клетка имеет `(V,E,F)=(10,15,7)` и снова `(2,2,2)`:
+
+- stable rows `0` и `3`, margins `0.457572991002595` и `0.0423386841238837`;
+- unstable vertices `v4` и `v6`, margins `0.822743974117661` и `0.880427995241557`;
+- saddles `[0,2]` и `[1,5]`, margins `0.254054491327900` и `0.110133003012215`;
+- каждое седло нисходит к обеим stable rows и его восходящие стороны совместно охватывают оба максимальных бассейна.
+
+### Стадия B3: повторная `S–H`-попытка в семифасеточной клетке
+
+Выбраны extra stable row `3` и saddle `[1,5]`. После следующих crossings лишняя stable переносится на row `6`; обе вершины и оба седла остаются. В `B13_third_best`:
+
+- stable margins: row `0` — `0.529049671357390`, row `6` — `0.163394980416427`;
+- unstable margins: `v4` — `0.628978740423852`, `v6` — `0.918450826879679`;
+- saddle margins: `[0,2]` — `0.383048155130713`, `[1,5]` — `0.445278087296074`.
+
+Таким образом, крупная topology collapse не приблизила систему к границе cancellation: она открыла прочную семифасеточную `(2,2,2)` камеру.
+
+Траектория B материализует 18 crossed cells: `B06_cross_000..004`, `B09_cross_000..005`, `B12_cross_000..006`. Полный манифест: [trajectory_B_manifest.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/trajectory_B_manifest.json). Ключевые тела: [B00 source](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/B00_source_233.source.npz), [B01 after real cancellation](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/B01_first_cancellation_13facet.source.npz), [B07b robust seven-facet cell](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/B07b_best_7facet_pruned.source.npz), [B13 final child](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/B13_third_best.source.npz).
+
+## 4. Полное локальное покрытие вокруг двух траекторий
+
+После целевых trajectories выполнены три complete safe separator-ray scans, каждый с собственно-центроидным regauging и глобальным rebuild на каждой принятой точке:
+
+- A: все `384/384` направлений, `37,022` strict accepted samples, `1,691` per-source incidence-signatures;
+- B eleven-facet: `192/192`, `17,067` samples, `943` signatures;
+- B seven-facet: `192/192`, `17,063` samples, `247` signatures.
+
+Итого: `71,152` strict states и `2,881` per-run signatures. Ни в одном принятом signature не было даже `S=1`, отдельно `U=1` или `H=0`; следовательно, `(1,1,0)` тем более отсутствует.
+
+Два дополнительных targeted pair scans дали ещё `29,444` strict samples и `1,446` per-run signatures, снова без `S=1`, `U=1` или `H=0`.
+
+Наконец, полностью перечислены удаления строк в четырёх фиксированных коэффициентных состояниях:
+
+- source A: `7,814` subsets, `2,885` bounded/simple valid bodies;
+- source B: `7,814`, из них `2,865` valid;
+- robust A 12-facet: `3,797`, из них `2,221` valid;
+- B 11-facet: `1,816`, из них `759` valid.
+
+Всего `8,730` valid deletion bodies; победителей `0`. Это исчерпывает дискретные удаления этих четырёх наборов коэффициентов, но не является доказательством невозможности непрерывной деформации.
+
+Агрегаты и точный scope: [cluster_exhaustion_summary.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/cluster_exhaustion_summary.json).
+
+## 5. Независимый точный аудит 42 materialized states
+
+Чтобы устранить зависимость от floating hull tolerances, написан второй, независимый verifier: [independent_exact_graph_verifier.py](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/records/independent_exact_graph_verifier.py).
+
+Он интерпретирует каждый binary64 коэффициент как **точное dyadic rational число** и затем:
+
+1. даёт точный сертификат ограниченности через положительную комбинацию четырёх нормалей, равную нулю;
+2. перечисляет все пересечения троек плоскостей в `Fraction`;
+3. получает active sets точными равенствами и raw inactive slacks точными строгими неравенствами;
+4. строит true-edge graph только из пар активных фасеток;
+5. проходит каждый максимальный face-cycle по точному incidence graph, без floating ConvexHull и без floating face ordering;
+6. вычисляет точные объём и centroid тетраэдральной формулой;
+7. проверяет все face, vertex и full edge normal-cone predicates точно;
+8. строит точный gauge `B_i=A_i/(1-A_i·c)` и доказывает, что его centroid равен `(0,0,0)` точно, все вершины сдвинуты ровно на `-c`, а incidence и mechanics неизменны.
+
+Результат по всем `42/42` состояниям:
+
+- failures: `0`;
+- все простые, Euler characteristic `2`;
+- exact degeneracies: `0`;
+- exact gauge centroid zero: `42/42`;
+- gauge incidence/mechanics preserved: `42/42`;
+- histogram: `(2,2,2):26`, `(2,3,3):7`, `(3,3,4):3`, `(3,4,5):2`, и по одному `(2,4,4)`, `(3,2,3)`, `(4,3,5)`, `(5,3,6)`;
+- `(1,1,0)`: `0`.
+
+Самый малый raw inactive slack встречается в source A и равен точно
+
+`13294386170525949217547641282191156049609 / 58825931045762653030801483359192284456094995191931`
+
+`≈ 2.2599533801145966e-10`.
+
+Он очень мал, но его знак не tolerance-dependent: exact Fraction-аудит доказывает строгую положительность. Для source B точный минимум равен приблизительно `3.9656428370551294e-10`. Все sampled post-wall состояния дополнительно фильтровались более жёстким raw-gap порогом; принятие исходных двух клеток опирается именно на точный знак, а не на эвристический incidence tolerance.
+
+Полный индекс с 42 отчётами: [independent_exact_graph_audits/index.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/independent_exact_graph_audits/index.json). Общий state index с NPZ, audit и OBJ: [state_index.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/state_index.json). Итоговая целостность: [VERIFICATION_FULL_PASS.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/VERIFICATION_FULL_PASS.json).
+
+## 6. Что доказано и что не доказано
+
+**Точно доказано для 42 сохранённых состояний:** их ограниченность, полный H/V incidence graph, собственный объёмный centroid, все equilibrium signs, отсутствие degeneracy и неизменность этих данных после exact own-centroid gauge. Ни одно не является гёмбёцем.
+
+**Исчерпывающе проверено численно в заданном локальном эксперименте:** обе graph-coherent trajectories; все `384+192+192` branch-derived направления; дополнительные targeted pair scans; все row-deletion subsets четырёх фиксированных H-наборов. На каждой принятой точке перестраивалась глобальная оболочка и проверялись raw inactive slacks.
+
+**Не доказано:** глобальная невозможность всех непрерывных 13-facet realizations; невозможность произвольно длинной цепочки circuit-crossings; точный Farkas/Gordan certificate для каждой нелинейной separator branch. Поэтому слово «исключён» допустимо только в практическом локальном смысле, не как глобальная теорема.
+
+## 7. Решение по направлению
+
+Этот локальный C=66 cluster следует **снять с приоритетного практического поиска**. Причина сильнее обычного «оптимизатор не нашёл»:
+
+- две независимо выбранные `(2,3,3)` клетки допускают настоящую первую `U–H` cancellation;
+- в обеих вторая graph-compatible `S–H` cancellation превращается в перенос Morse-блока;
+- даже переход `13 -> 11 -> 7` facets оставляет открытую и уже крупнозапасную `(2,2,2)` камеру;
+- широкие safe scans и все фиксированные row deletions не дали даже отдельного `S=1`, `U=1` или `H=0` состояния;
+- все 42 ключевых checkpoints прошли независимый exact audit.
+
+Возвращаться к C=66 имеет смысл только с качественно новой **нелокальной архитектурой нормалей** — например, одновременной заменой целого сепаратрисного бассейна с добавлением новых нормалей, а не продолжением существующих 13 rows и их локальных circuit neighbours. Иначе вычислительный бюджет рациональнее перенести на C=104 P2 whole-basin corridor, где остаётся одна `S–H`-пара, а не устойчивый двухпарный блок.
+
+Полный архив содержит 404 файла с контрольными суммами; все JSON разобраны, все SHA-256 внутри архива проверены, ZIP integrity test пройден. OBJ-файлы в нём являются только отрицательными checkpoints и не заявляются как гёмбёц.

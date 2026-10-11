@@ -1,0 +1,30 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "EXACT_APEX 1391",
+      "values": {
+        "V": 145,
+        "E": 241,
+        "F": 98,
+        "counts": [
+          14,
+          27,
+          39
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 482,
+        "VplusEplusF": 484
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "FREE_SUPPORT_STAGE",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "V": 130,
+        "F": 67,
+        "Pmax": 0.07859002967959958,
+        "Qmax": 0.0020390455694867383,
+        "calls": 2648,
+        "nit": 2500,
+        "seconds": 13.809966087341309
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "FREE_SUPPORT_STAGE",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "V": 130,
+        "F": 67,
+        "Pmax": 0.12340270344878654,
+        "Qmax": 0.0012443225360331447,
+        "calls": 2611,
+        "nit": 2500,
+        "seconds": 25.965575218200684
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "FREE_SUPPORT_STAGE",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "V": 130,
+        "F": 67,
+        "Pmax": 0.20109509574601095,
+        "Qmax": 0.00035871801325251416,
+        "calls": 2603,
+        "nit": 2500,
+        "seconds": 39.22726011276245
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "FREE_SUPPORT_STAGE",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "V": 130,
+        "F": 67,
+        "Pmax": 0.25659153188388983,
+        "Qmax": 5.093211547817918e-05,
+        "calls": 2623,
+        "nit": 2500,
+        "seconds": 51.81879806518555
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "FREE_SUPPORT_STAGE",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "V": 130,
+        "F": 67,
+        "Pmax": 0.27713777196294886,
+        "Qmax": 6.477368859849742e-06,
+        "calls": 2600,
+        "nit": 2500,
+        "seconds": 63.753584146499634
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "FREE_SUPPORT_STAGE",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "V": 138,
+        "F": 71,
+        "Pmax": 0.2849841085774019,
+        "Qmax": 6.036824579168602e-07,
+        "calls": 2601,
+        "nit": 2500,
+        "seconds": 76.82917809486389
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "FREE_SUPPORT_STAGE",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "V": 138,
+        "F": 71,
+        "Pmax": 0.28727225369676634,
+        "Qmax": 6.833961165144958e-08,
+        "calls": 2622,
+        "nit": 2500,
+        "seconds": 88.53370809555054
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "FREE_SUPPORT_STAGE",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "V": 138,
+        "F": 71,
+        "Pmax": 0.28831510072063393,
+        "Qmax": 6.875467312414234e-10,
+        "calls": 2792,
+        "nit": 2439,
+        "seconds": 100.85932302474976
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "FREE_SUPPORT_STAGE",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "V": 138,
+        "F": 71,
+        "Pmax": 0.2884199805437138,
+        "Qmax": 6.909100045658287e-12,
+        "calls": 753,
+        "nit": 632,
+        "seconds": 103.88611507415771
+      }
+    }
+  ]
+}

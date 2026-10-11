@@ -1,0 +1,267 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "FLOWER_GOAL_SCOUT",
+      "values": {
+        "index": 0,
+        "V": 147,
+        "E": 245,
+        "F": 100,
+        "S": 33,
+        "U": 22,
+        "referenceS": 3,
+        "reference_newpoint_escape": 0.08126151904039677,
+        "visible_count": 11,
+        "horizon_count": 15,
+        "loss": 0.28789904146358286,
+        "floor": -0.0961967303492174,
+        "centroid": [
+          -0.0016911434282081857,
+          -0.000787653109627021,
+          0.0025079790119450322
+        ],
+        "volume": 0.606075261101771,
+        "point": [
+          -0.35557130485419397,
+          -0.13022619998930401,
+          0.3407873592950771
+        ]
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "FLOWER_GOAL_SCOUT",
+      "values": {
+        "index": 2,
+        "V": 133,
+        "E": 223,
+        "F": 92,
+        "S": 21,
+        "U": 23,
+        "referenceS": 3,
+        "reference_newpoint_escape": 0.024178410865899586,
+        "visible_count": 29,
+        "horizon_count": 25,
+        "loss": 1.4627431394564114,
+        "floor": -0.17395667161944905,
+        "centroid": [
+          -0.017793851181417596,
+          -0.010069399380876873,
+          0.03347606189320803
+        ],
+        "volume": 0.6491486770929032,
+        "point": [
+          -0.43109198706477736,
+          -0.13955077614846675,
+          0.6432021951612571
+        ]
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "FLOWER_GOAL_SCOUT",
+      "values": {
+        "index": 15,
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 2,
+        "U": 10,
+        "referenceS": 2,
+        "reference_newpoint_escape": 0.18738742330438835,
+        "visible_count": 1,
+        "horizon_count": 3,
+        "loss": 0.05045383140987204,
+        "floor": -0.05044982436047036,
+        "centroid": [
+          -3.959289425188635e-08,
+          -7.838741810339035e-09,
+          7.938815222400589e-08
+        ],
+        "volume": 0.6022196087811945,
+        "point": [
+          -0.13184207699635062,
+          -0.048286496833518204,
+          0.7071199112892014
+        ]
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "FLOWER_GOAL_SCOUT",
+      "values": {
+        "index": 19,
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "referenceS": 2,
+        "reference_newpoint_escape": 0.08384316988998645,
+        "visible_count": 1,
+        "horizon_count": 3,
+        "loss": 0.05158301714017551,
+        "floor": -0.05158163860477568,
+        "centroid": [
+          -1.1958888307314104e-08,
+          -2.1550216335321397e-09,
+          2.905931157249843e-08
+        ],
+        "volume": 0.6022195434196435,
+        "point": [
+          -0.04298705337472682,
+          -0.014952144334961991,
+          0.9050745323171507
+        ]
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "FLOWER_GOAL_SCOUT",
+      "values": {
+        "index": 27,
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "referenceS": 2,
+        "reference_newpoint_escape": 0.16562189005562902,
+        "visible_count": 1,
+        "horizon_count": 3,
+        "loss": 0.05092045206791572,
+        "floor": -0.05091881064407854,
+        "centroid": [
+          -1.52501596765983e-08,
+          -2.944464355839065e-09,
+          3.24575327962582e-08
+        ],
+        "volume": 0.6022195496895655,
+        "point": [
+          -0.10424211064514037,
+          -0.038178148131913545,
+          0.7684289874768278
+        ]
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "FLOWER_GOAL_SCOUT",
+      "values": {
+        "index": 31,
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "referenceS": 2,
+        "reference_newpoint_escape": 0.027367749440501937,
+        "visible_count": 1,
+        "horizon_count": 3,
+        "loss": 0.00501643589855168,
+        "floor": -0.005016212044984597,
+        "centroid": [
+          -1.478847473599845e-09,
+          -3.2608746214923037e-10,
+          1.8026336170216256e-09
+        ],
+        "volume": 0.6022195138527187,
+        "point": [
+          -0.35671350265986884,
+          -0.1198076844284671,
+          0.21533555485183145
+        ]
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "FLOWER_GOAL_SCOUT",
+      "values": {
+        "index": 591,
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "referenceS": 2,
+        "reference_newpoint_escape": 0.0016639767762399171,
+        "visible_count": 1,
+        "horizon_count": 3,
+        "loss": 0.0016725456691366086,
+        "floor": -0.0016722926954868204,
+        "centroid": [
+          -1.8328177764155494e-09,
+          -4.224795859869969e-10,
+          2.1775849107959752e-09
+        ],
+        "volume": 0.6022195145377099,
+        "point": [
+          -0.36527817122177336,
+          -0.1337812909192996,
+          0.18853499867143558
+        ]
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "FLOWER_GOAL_SCOUT",
+      "values": {
+        "index": 667,
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "referenceS": 2,
+        "reference_newpoint_escape": 0.030773406903837647,
+        "visible_count": 1,
+        "horizon_count": 3,
+        "loss": 0.0002164913271827443,
+        "floor": -0.00021590668508300183,
+        "centroid": [
+          -5.7930703592592996e-09,
+          -1.2497855260253358e-09,
+          7.0791938090000615e-09
+        ],
+        "volume": 0.6022195225184972,
+        "point": [
+          -0.3568399368745473,
+          -0.11412365700098778,
+          0.2191661639683488
+        ]
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "FLOWER_GOAL_SCOUT",
+      "values": {
+        "index": 6667,
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "referenceS": 2,
+        "reference_newpoint_escape": 0.05887404999819487,
+        "visible_count": 1,
+        "horizon_count": 3,
+        "loss": 7.918269694475155e-05,
+        "floor": -7.84595887812207e-05,
+        "centroid": [
+          -7.428017861113088e-09,
+          -1.4861055878273067e-09,
+          9.351907735181532e-09
+        ],
+        "volume": 0.6022195259178544,
+        "point": [
+          -0.34765245592699856,
+          -0.09349344456184873,
+          0.2519623098928472
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 0,
+        "referenceU": 1,
+        "referenceS": 33,
+        "U": 1,
+        "S": 33,
+        "reference_logQ": 36.32410343220983,
+        "centroid": [
+          1.2273465755065143e-17,
+          2.9456317812156346e-17,
+          0.0
+        ],
+        "centroid_inf": 2.9456317812156346e-17,
+        "merit": 36.32410343220984,
+        "min_ref_guard": 9.998805554861684e-09,
+        "min_noncontact": 1.000000037221227e-07,
+        "trust": 0.01,
+        "seconds": 1.8046190738677979
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 5,
+        "referenceU": 1,
+        "referenceS": 34,
+        "U": 1,
+        "S": 34,
+        "reference_logQ": 33.94674269751752,
+        "centroid": [
+          2.7009141420555368e-17,
+          2.946451791333313e-17,
+          2.4553764927777608e-17
+        ],
+        "centroid_inf": 2.946451791333313e-17,
+        "merit": 33.94674269751753,
+        "min_ref_guard": 9.999671536627931e-09,
+        "min_noncontact": 3.838875095585337e-08,
+        "trust": 0.020113571874999996,
+        "seconds": 27.508867025375366
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 10,
+        "referenceU": 1,
+        "referenceS": 33,
+        "U": 1,
+        "S": 33,
+        "reference_logQ": 29.756034134227498,
+        "centroid": [
+          1.720722255537624e-17,
+          -9.832698603072138e-18,
+          3.441444511075248e-17
+        ],
+        "centroid_inf": 3.441444511075248e-17,
+        "merit": 29.756034134227505,
+        "min_ref_guard": 9.998461608995562e-09,
+        "min_noncontact": 4.636896089316167e-08,
+        "trust": 0.040455577357079074,
+        "seconds": 53.872843980789185
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 15,
+        "referenceU": 1,
+        "referenceS": 31,
+        "U": 1,
+        "S": 31,
+        "reference_logQ": 24.648101849386183,
+        "centroid": [
+          1.2318881286712537e-18,
+          2.4637762573425072e-17,
+          -9.85510502937003e-18
+        ],
+        "centroid_inf": 2.4637762573425072e-17,
+        "merit": 24.648101849386187,
+        "min_ref_guard": 9.999998130123644e-09,
+        "min_noncontact": 3.7006807001027653e-06,
+        "trust": 0.08137061629162322,
+        "seconds": 80.41564583778381
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 20,
+        "referenceU": 1,
+        "referenceS": 24,
+        "U": 1,
+        "S": 24,
+        "reference_logQ": 21.02441335848489,
+        "centroid": [
+          7.38775765188867e-18,
+          -2.4625858839628902e-17,
+          0.0
+        ],
+        "centroid_inf": 2.4625858839628902e-17,
+        "merit": 21.024413358484892,
+        "min_ref_guard": 9.99999923889512e-09,
+        "min_noncontact": 1.1317970487478846e-06,
+        "trust": 0.12375453605252243,
+        "seconds": 109.86334800720215
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 25,
+        "referenceU": 1,
+        "referenceS": 17,
+        "U": 1,
+        "S": 17,
+        "reference_logQ": 18.62866088306703,
+        "centroid": [
+          -6.157006450515031e-18,
+          4.925605160412025e-18,
+          -3.447923612288417e-17
+        ],
+        "centroid_inf": 3.447923612288417e-17,
+        "merit": 18.628660883067035,
+        "min_ref_guard": 9.999995927728355e-09,
+        "min_noncontact": 2.8220184469240905e-06,
+        "trust": 0.1636653739294609,
+        "seconds": 144.4276158809662
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 30,
+        "referenceU": 1,
+        "referenceS": 16,
+        "U": 1,
+        "S": 16,
+        "reference_logQ": 15.992408404730734,
+        "centroid": [
+          -7.28121838350197e-17,
+          2.7150305836787007e-16,
+          1.1847406183325238e-16
+        ],
+        "centroid_inf": 2.7150305836787007e-16,
+        "merit": 15.99240840473078,
+        "min_ref_guard": 9.999702702376873e-09,
+        "min_noncontact": 3.2290690898939545e-08,
+        "trust": 0.2,
+        "seconds": 177.5803360939026
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 35,
+        "referenceU": 1,
+        "referenceS": 9,
+        "U": 1,
+        "S": 9,
+        "reference_logQ": 15.385440626252604,
+        "centroid": [
+          7.396660821850746e-18,
+          1.4793321643701492e-17,
+          0.0
+        ],
+        "centroid_inf": 1.4793321643701492e-17,
+        "merit": 15.385440626252606,
+        "min_ref_guard": 9.999987197396508e-09,
+        "min_noncontact": 8.444199043999845e-06,
+        "trust": 0.2,
+        "seconds": 221.43936204910278
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 40,
+        "referenceU": 1,
+        "referenceS": 9,
+        "U": 1,
+        "S": 9,
+        "reference_logQ": 15.1821811762109,
+        "centroid": [
+          1.2320419914903356e-17,
+          -1.971267186384537e-17,
+          4.928167965961342e-18
+        ],
+        "centroid_inf": 1.971267186384537e-17,
+        "merit": 15.182181176210904,
+        "min_ref_guard": 9.999997374787643e-09,
+        "min_noncontact": 3.9089019250315715e-06,
+        "trust": 0.2,
+        "seconds": 272.77913904190063
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 45,
+        "referenceU": 1,
+        "referenceS": 11,
+        "U": 1,
+        "S": 11,
+        "reference_logQ": 14.938024155512883,
+        "centroid": [
+          -8.61709806007686e-18,
+          3.939244827463708e-17,
+          -4.924056034329635e-17
+        ],
+        "centroid_inf": 4.924056034329635e-17,
+        "merit": 14.938024155512892,
+        "min_ref_guard": 9.999999956785767e-09,
+        "min_noncontact": 2.6940014118403965e-06,
+        "trust": 0.2,
+        "seconds": 334.4540169239044
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 50,
+        "referenceU": 1,
+        "referenceS": 10,
+        "U": 1,
+        "S": 10,
+        "reference_logQ": 14.579701832187217,
+        "centroid": [
+          -5.041161605189844e-17,
+          1.672190190989802e-16,
+          9.836412888175305e-18
+        ],
+        "centroid_inf": 1.672190190989802e-16,
+        "merit": 14.57970183218724,
+        "min_ref_guard": 9.999994704284475e-09,
+        "min_noncontact": 2.2949712151776325e-06,
+        "trust": 0.2,
+        "seconds": 383.10493993759155
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 55,
+        "referenceU": 1,
+        "referenceS": 9,
+        "U": 1,
+        "S": 9,
+        "reference_logQ": 14.11548180199645,
+        "centroid": [
+          -1.4730727707169516e-17,
+          2.946145541433903e-17,
+          1.4730727707169516e-17
+        ],
+        "centroid_inf": 2.946145541433903e-17,
+        "merit": 14.115481801996456,
+        "min_ref_guard": 9.999988645038724e-09,
+        "min_noncontact": 8.411270971953044e-07,
+        "trust": 0.2,
+        "seconds": 441.81203603744507
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 60,
+        "referenceU": 1,
+        "referenceS": 13,
+        "U": 1,
+        "S": 13,
+        "reference_logQ": 13.362256189897458,
+        "centroid": [
+          0.0,
+          3.433439072434451e-17,
+          -1.9619651842482577e-17
+        ],
+        "centroid_inf": 3.433439072434451e-17,
+        "merit": 13.362256189897463,
+        "min_ref_guard": 9.999991639299607e-09,
+        "min_noncontact": 1.0996081750480613e-05,
+        "trust": 0.2,
+        "seconds": 499.2250370979309
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 65,
+        "referenceU": 1,
+        "referenceS": 11,
+        "U": 1,
+        "S": 11,
+        "reference_logQ": 12.361750688012691,
+        "centroid": [
+          -1.594991875496777e-17,
+          3.9261338473766815e-17,
+          0.0
+        ],
+        "centroid_inf": 3.9261338473766815e-17,
+        "merit": 12.361750688012696,
+        "min_ref_guard": 9.999331850432595e-09,
+        "min_noncontact": 2.7295625322221184e-06,
+        "trust": 0.2,
+        "seconds": 548.5743260383606
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 70,
+        "referenceU": 1,
+        "referenceS": 13,
+        "U": 1,
+        "S": 13,
+        "reference_logQ": 12.111994464021741,
+        "centroid": [
+          -4.91303709384368e-18,
+          5.4043408032280483e-17,
+          2.947822256306208e-17
+        ],
+        "centroid_inf": 5.4043408032280483e-17,
+        "merit": 12.11199446402175,
+        "min_ref_guard": 9.999997567013775e-09,
+        "min_noncontact": 1.8167494599818923e-06,
+        "trust": 0.2,
+        "seconds": 607.5029921531677
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 75,
+        "referenceU": 1,
+        "referenceS": 14,
+        "U": 1,
+        "S": 14,
+        "reference_logQ": 11.930619072371922,
+        "centroid": [
+          -3.685831689823065e-18,
+          -4.91444225309742e-18,
+          -2.4572211265487103e-17
+        ],
+        "centroid_inf": 2.4572211265487103e-17,
+        "merit": 11.930619072371925,
+        "min_ref_guard": 9.999672036846118e-09,
+        "min_noncontact": 1.939975416309636e-06,
+        "trust": 0.2,
+        "seconds": 668.0880150794983
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 80,
+        "referenceU": 1,
+        "referenceS": 11,
+        "U": 1,
+        "S": 11,
+        "reference_logQ": 11.671539901799195,
+        "centroid": [
+          2.7065086821478985e-17,
+          -4.920924876632543e-18,
+          -2.9525549259795255e-17
+        ],
+        "centroid_inf": 2.9525549259795255e-17,
+        "merit": 11.6715399017992,
+        "min_ref_guard": 9.999997381339715e-09,
+        "min_noncontact": 1.8441690027293234e-06,
+        "trust": 0.2,
+        "seconds": 711.1584079265594
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 85,
+        "referenceU": 1,
+        "referenceS": 19,
+        "U": 1,
+        "S": 19,
+        "reference_logQ": 11.401099988311916,
+        "centroid": [
+          -2.4610122202499834e-18,
+          3.494637352754976e-16,
+          3.396196863944977e-16
+        ],
+        "centroid_inf": 3.494637352754976e-16,
+        "merit": 11.401099988311985,
+        "min_ref_guard": 9.999976892547575e-09,
+        "min_noncontact": 4.970846689489328e-06,
+        "trust": 0.2,
+        "seconds": 772.4907200336456
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 90,
+        "referenceU": 1,
+        "referenceS": 12,
+        "U": 1,
+        "S": 12,
+        "reference_logQ": 11.061118477727373,
+        "centroid": [
+          -2.3399308670170108e-17,
+          -4.926170246351602e-18,
+          -2.955702147810961e-17
+        ],
+        "centroid_inf": 2.955702147810961e-17,
+        "merit": 11.061118477727378,
+        "min_ref_guard": 9.999979999237277e-09,
+        "min_noncontact": 1.1572708273011045e-05,
+        "trust": 0.2,
+        "seconds": 832.7138590812683
+      }
+    }
+  ]
+}

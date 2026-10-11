@@ -1,0 +1,57 @@
+{
+  "lp_delta": 0.9623994983181762,
+  "installed_reverse_bypasses": [
+    {
+      "circuit": [
+        198,
+        234,
+        235,
+        236
+      ],
+      "root_alpha": 3.5452237235977294e-05,
+      "control_rows": [
+        198,
+        234,
+        236
+      ],
+      "nullity": 5,
+      "death_leakage": 7.555957670209861e-28,
+      "horizon_volume": 4.740475399954675e-12
+    },
+    {
+      "circuit": [
+        69,
+        228,
+        235,
+        255
+      ],
+      "root_alpha": 4.149426532660057e-05,
+      "control_rows": [
+        69,
+        255
+      ],
+      "nullity": 2,
+      "death_leakage": 5.048709793414476e-28,
+      "horizon_volume": -8.069779367515484e-12
+    },
+    {
+      "circuit": [
+        224,
+        228,
+        251,
+        252
+      ],
+      "root_alpha": 0.00014020398731686573,
+      "control_rows": [
+        251,
+        252
+      ],
+      "nullity": 2,
+      "death_leakage": 4.733165431326071e-30,
+      "horizon_volume": 1.8851810845144457e-13
+    }
+  ],
+  "failure_bracket": null,
+  "exact_event": null,
+  "materially_below_0_9": false
+}

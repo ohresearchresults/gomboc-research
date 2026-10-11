@@ -1,0 +1,1794 @@
+{
+  "face_count": 104,
+  "faces": [
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "negative_count": 102,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        0,
+        1,
+        2
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        0,
+        16,
+        72
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        0,
+        16,
+        72
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        0,
+        54,
+        1
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        0,
+        54,
+        1
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        0,
+        72,
+        54
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        0,
+        72,
+        54
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        1,
+        54,
+        88
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        1,
+        54,
+        88
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        1,
+        88,
+        2
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        1,
+        88,
+        2
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        2,
+        88,
+        242
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        2,
+        88,
+        242
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        2,
+        242,
+        3
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        2,
+        242,
+        3
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        3,
+        242,
+        243
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        3,
+        242,
+        243
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        3,
+        243,
+        4
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        3,
+        243,
+        4
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        4,
+        243,
+        244
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        4,
+        243,
+        244
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        4,
+        244,
+        5
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        4,
+        244,
+        5
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        5,
+        244,
+        245
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        5,
+        244,
+        245
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        5,
+        245,
+        6
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        5,
+        245,
+        6
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        6,
+        245,
+        7
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        6,
+        245,
+        7
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        7,
+        245,
+        8
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        7,
+        245,
+        8
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        8,
+        245,
+        246
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        8,
+        245,
+        246
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        8,
+        246,
+        264
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        8,
+        246,
+        264
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        8,
+        264,
+        9
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        8,
+        264,
+        9
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        9,
+        263,
+        10
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        9,
+        263,
+        10
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        9,
+        264,
+        263
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        9,
+        264,
+        263
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        10,
+        263,
+        11
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        10,
+        263,
+        11
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        11,
+        262,
+        12
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        11,
+        262,
+        12
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        11,
+        263,
+        262
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        11,
+        263,
+        262
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        12,
+        262,
+        13
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        12,
+        262,
+        13
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        13,
+        261,
+        14
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        13,
+        261,
+        14
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        13,
+        262,
+        261
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        13,
+        262,
+        261
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        14,
+        72,
+        15
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        14,
+        72,
+        15
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        14,
+        73,
+        72
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        14,
+        73,
+        72
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        14,
+        261,
+        73
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        14,
+        261,
+        73
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        15,
+        72,
+        16
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        15,
+        72,
+        16
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        69,
+        238
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        69,
+        238
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        72,
+        260
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        72,
+        260
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        238,
+        239
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        238,
+        239
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        239,
+        240
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        239,
+        240
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        240,
+        241
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        240,
+        241
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        241,
+        88
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        241,
+        88
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        256,
+        69
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        256,
+        69
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        257,
+        256
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        257,
+        256
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        258,
+        257
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        258,
+        257
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        259,
+        258
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        259,
+        258
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        54,
+        260,
+        259
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        54,
+        260,
+        259
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        69,
+        228,
+        235
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        69,
+        228,
+        235
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        69,
+        235,
+        236
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        69,
+        235,
+        236
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        69,
+        236,
+        237
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        69,
+        236,
+        237
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        69,
+        237,
+        238
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        69,
+        237,
+        238
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        69,
+        255,
+        228
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        69,
+        255,
+        228
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        69,
+        256,
+        255
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        69,
+        256,
+        255
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        72,
+        73,
+        261
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        72,
+        73,
+        261
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        72,
+        261,
+        260
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        72,
+        261,
+        260
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        88,
+        241,
+        242
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        88,
+        241,
+        242
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        224,
+        258
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        224,
+        258
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        241,
+        224
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        241,
+        224
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        242,
+        241
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        242,
+        241
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        243,
+        242
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        243,
+        242
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        244,
+        243
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        244,
+        243
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        245,
+        244
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        245,
+        244
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        246,
+        245
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        246,
+        245
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        258,
+        259
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        258,
+        259
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        259,
+        260
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        259,
+        260
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        260,
+        261
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        260,
+        261
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        261,
+        262
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        261,
+        262
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        262,
+        263
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        262,
+        263
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        198,
+        263,
+        246
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        198,
+        263,
+        246
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        229,
+        247
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        229,
+        247
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        230,
+        229
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        230,
+        229
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        231,
+        230
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        231,
+        230
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        232,
+        231
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        232,
+        231
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        233,
+        232
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        233,
+        232
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        234,
+        233
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        234,
+        233
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        235,
+        234
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        235,
+        234
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        236,
+        235
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        236,
+        235
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        237,
+        236
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        237,
+        236
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        238,
+        237
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        238,
+        237
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        239,
+        238
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        239,
+        238
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        240,
+        239
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        240,
+        239
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        241,
+        240
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        241,
+        240
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        247,
+        248
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        247,
+        248
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        248,
+        249
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        248,
+        249
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        249,
+        250
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        249,
+        250
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        250,
+        251
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        250,
+        251
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        251,
+        252
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        251,
+        252
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        252,
+        253
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        252,
+        253
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        253,
+        254
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        253,
+        254
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        254,
+        255
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        254,
+        255
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        255,
+        256
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        255,
+        256
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        256,
+        257
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        256,
+        257
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        224,
+        257,
+        258
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        224,
+        257,
+        258
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        229,
+        230
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        229,
+        230
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        230,
+        231
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        230,
+        231
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        231,
+        232
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        231,
+        232
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        232,
+        233
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        232,
+        233
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        233,
+        234
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        233,
+        234
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        234,
+        235
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        234,
+        235
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        247,
+        229
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        247,
+        229
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        248,
+        247
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        248,
+        247
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        249,
+        248
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        249,
+        248
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        250,
+        249
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        250,
+        249
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        251,
+        250
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        251,
+        250
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        252,
+        251
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        252,
+        251
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        253,
+        252
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        253,
+        252
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        254,
+        253
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        254,
+        253
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        228,
+        255,
+        254
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        228,
+        255,
+        254
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    },
+    {
+      "additional_coplanar_labels": [],
+      "face": [
+        246,
+        263,
+        264
+      ],
+      "negative_count": 116,
+      "noncoplanar_prescribed_labels": {},
+      "plane_triple": [
+        246,
+        263,
+        264
+      ],
+      "positive_count": 0,
+      "status": "supporting"
+    }
+  ],
+  "faces_json": "M42_acute_bridge_fifth_cell_work/fifth_cell_endpoint/face_cycles.json",
+  "mixed_non_supporting_count": 0,
+  "point_count": 119,
+  "points_csv": "M42_acute_bridge_fifth_cell_work/fifth_cell_endpoint/input_rows_common_lattice.csv",
+  "projective_only_synthesis_obstructed": false,
+  "supporting_count": 104,
+  "theorem": "A mixed homogeneous determinant pair for one prescribed face is invariant under every invertible projective map whose transformed points share one affine chart. Such a map cannot expose that face."
+}

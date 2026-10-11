@@ -1,0 +1,19 @@
+{
+  "raw_denominator": 100000000000000,
+  "centred_denominator": "169917741632786493684927855968798827718107200000000000000",
+  "centroid_multiplier": "1699177416327864936849278559687988277181072",
+  "centroid_subtract": [
+    "-11669965716949697320013247236714844917989",
+    "0",
+    "0"
+  ],
+  "volume_numerator": "849588708163932468424639279843994138590536",
+  "moment_numerators": [
+    "-23339931433899394640026494473429689835978",
+    "0",
+    "0"
+  ],
+  "construction": "rationalized C2 projected normal flow; complete exact incremental hull",
+  "exact_hull_predicates": 325468,
+  "proposal_sha256": "b299c4eadc5331d78ca2df9e8ac9ea34a66999c49b06b37dc510f5e00f198471"
+}

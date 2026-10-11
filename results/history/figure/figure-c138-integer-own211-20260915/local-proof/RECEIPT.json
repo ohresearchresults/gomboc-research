@@ -1,0 +1,57 @@
+{
+  "at": "2026-09-15T21:42:11.434144+00:00",
+  "status": "LOCAL_C138_INTEGER_HULL_AB_AND_THIRD_MASS_PASS",
+  "identity": "COORD_C138_INTEGER_VERTEX25_OWN211",
+  "V": 25,
+  "E": 69,
+  "F": 46,
+  "C": 138,
+  "own": [
+    2,
+    1,
+    1
+  ],
+  "weak": [
+    0,
+    0,
+    0
+  ],
+  "allMaximalFacetsTriangular": true,
+  "rawCentroid": [
+    "-1510919059/205647994",
+    "-1322990120/102823997",
+    "-1106176611/411295988"
+  ],
+  "ordinaryVolume": "102823997/6",
+  "commonCentredDenominator": 411295988,
+  "denominatorBits": 29,
+  "denominatorDecimalDigits": 9,
+  "maxCentredIntegerBits": 38,
+  "rawIntegerBounds": [
+    -507,
+    643
+  ],
+  "outputs": {
+    "raw.json": {
+      "bytes": 1157,
+      "sha256": "5eb68c9a67409dd582d79df1fcdc764d057da979db0e53373c0a7c086221582f"
+    },
+    "A.json": {
+      "bytes": 5169,
+      "sha256": "b8b614fec6f96fbc7844e1fe3ed3232d62587d1310fdb2c2b6e40f17ab1dabc0"
+    },
+    "B.json": {
+      "bytes": 5169,
+      "sha256": "b8b614fec6f96fbc7844e1fe3ed3232d62587d1310fdb2c2b6e40f17ab1dabc0"
+    },
+    "MASS.json": {
+      "bytes": 216,
+      "sha256": "82e54e84b880d4c233477d50b31af9df0772081d3800f6693f4727ebac3e90bf"
+    }
+  },
+  "python": "3.13.14 (main, Jun 10 2026, 12:24:04) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+  "method": "Fresh exactsupportingplane enumeration from25literalintegerpoints,bothfullindependentA/Bandthirdcentredmass,alloutputpinsmatched. No cachedgeometricreportinput.",
+  "numericalBeamOrDualChainReplayExecuted": false,
+  "scope": "NonwinnerwithoneextraS/Hpair,notown110/globalminimum. C622recordunchanged."
+}

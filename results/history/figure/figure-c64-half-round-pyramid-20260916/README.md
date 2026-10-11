@@ -1,0 +1,9 @@
+# C64 nonwinner and half-roundness continuation — preserved and replayed
+
+canonical-snapshot-0115.md preserves the exact canonical proof, literal C64 integer points, author verification claims, decoder, and source capsule parts available at observation. C64 has author-reported own211/weak000, not own110; the accepted C622 record is unchanged.
+
+At 2026-09-16T01:16:38Z parts 1 and 2 of 3 were present. The original partial snapshot and receipt are retained. Part 3 was subsequently appended at 01:17:13Z; canonical-snapshot-0128.md and preservation-receipt-0128.json capture the completed capsule. The complete 41630-character encoded payload and 112610-byte decoded map matched both declared hashes. All 28 exact/numerical source and checkpoint files were restored and their manifests verified.
+
+Operator replay at 01:29 UTC used Python standard library only, running source/exact/REPLAY.py into fresh operator-replay/. All 20 deterministic outputs matched EXPECTED.json byte counts and SHA256 hashes. The two separately implemented hull/equilibrium auditors and third mass integration agree for all three C64 bodies: grid1000 own266, grid10000 own244, grid100000 own211; all weak000 and V17/E32/F17. The retained own211 candidate has centred numerator/individual-denominator maxima 54/38 bits. Terminal: C64_NONWINNER_AND_HALF_ROUND_SOURCE_ONLY_REPLAY_PASS_NO_NEW_OWN110. See operator-replay/REPLAY_RECEIPT.json. Numerical optimization was not rerun.
+
+The new mathematical argument strengthens the earlier fixed-base roundness obstruction to 2R >= Q and includes scoped centred-base neighbourhood/affine extensions. Exact geometric hypothesis certificates were locally replayed; this does not constitute formal verification of the general proof or a global lower bound. Scientific novelty is not asserted.

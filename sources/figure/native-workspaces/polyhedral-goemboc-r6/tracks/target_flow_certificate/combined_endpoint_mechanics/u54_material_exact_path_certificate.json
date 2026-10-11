@@ -1,0 +1,3111 @@
+{
+  "version": 1,
+  "type": "exact rational polynomial six-flip material homotopy",
+  "verdict": "EXACT_U54_MATERIAL_SIX_FLIP_CONTINUUM_PASS",
+  "scope": "Exact for the explicit repaired polynomial path, its seven open support cells, six isolated algebraic quadrilateral flips, all support and mechanics denominators, an exhaustive strict class witness for every S/U/H feature, and the four selected residual derivatives. The endpoint remains class (2,2,2); this is not a polyhedral Gomboc.",
+  "source_hashes": {
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/epoch4_cluster_event3_deep_after.csv": "7813a581954007273758e0cc9e336f932b382cd056e1205af1c462e88c49835e",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_actual_endpoint.csv": "f11b07869eb2b7e1bed84c6241da748b9e29adf8cc4360de270da18cf38c6a26",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_actual.json": "50b9a319e9ea5db73ccbd7487ae1f7f3fca74591b24b0f5378cdb07d70080559",
+    "tracks/circuit_atlas/row54_combined_wall_rebuilt.csv": "13239323f57fdf3f58b2885a27714a1fab4f3225999472f0754e86585b4cd4a7"
+  },
+  "construction": {
+    "start_base_repair": {
+      "nonzero_count": 15,
+      "maximum_log10_abs": -11.5233788240703,
+      "exact_digest": "6dbacca7df9d80fff930186cd80323564283e003805fa9246c7ee231b227ba23"
+    },
+    "endpoint_base_repair": {
+      "nonzero_count": 18,
+      "maximum_log10_abs": -11.522207549247007,
+      "exact_digest": "9a5ec1f6e0a4b5dcbbd96e03f4f5b2feb199357c46750bbea376f64df3cfe7db"
+    },
+    "start_quad_repair": {
+      "barycentric": [
+        "1669029774711445758985953665626882146702758223080935270352593527644180212612979948657360708146201789631536374856341406289451564332388000812629976886794163856066454199805896285114782900875792600887/16542684476646102793002587905699590168375044824104709421588619085059165979069085489147770417448327593152045300125814454445715706997925187160866509074078948497844669669270306113070919785487961541090",
+        "8963383464541447073215202367063689927105633290357150358436962073639596396040640106979307599693141074753162913931988705635231783631790585669477616870754653644983236203072263133055477654338881931283/8271342238323051396501293952849795084187522412052354710794309542529582989534542744573885208724163796576022650062907227222857853498962593580433254537039474248922334834635153056535459892743980770545"
+      ],
+      "displacement_norm2_exact": "171480195813818011525728643256022759929460090402516512228479609654542332025334343004943531008538543631307825435561888191807881061984787578625314857055124518025088621765803508045676678417546847514081/1033917779790381424562661744106224385523440301506544338849288692816197873691817843071735651090520474572002831257863403402857231687370324197554156817129934281115291854329394132066932486592997596318125000000000000000000000000000000",
+      "displacement_norm_decimal": 4.0725271053689185e-16
+    },
+    "endpoint_quad_repair": {
+      "barycentric": [
+        "7612958918153646002971711963741626279968600148531062056653091927983590911591561418151504093222965839361644155413860050138422640586001683134772272906161764880034914402015132938211411741951526231/76784006172622077568354876497364260434589276060096957165216558870974952309073634283037364403731841176471607544608048225135511244604038255424867533234159862775876248965984814582600505618436026010",
+        "8311000785543455692139551949456341339990893604707565272600531906723046151634660808037291273660820736502535723619404570002941628895176688444446375103757832702930406218797457827705686134558097038/7678400617262207756835487649736426043458927606009695716521655887097495230907363428303736440373184117647160754460804822513551124460403825542486753323415986277587624896598481458260050561843602601"
+      ],
+      "displacement_norm2_exact": "153871986158103283980767268949477306779967802547263439581057977046354528077205190548355631876902042710314518648618293729410702635169859379400077038015003317843106440928404046233381339187155975641/191960015431555193920887191243410651086473190150242392913041397177437380772684085707593411009329602941179018861520120562838778111510095638562168833085399656939690622414962036456501264046090065025000000000000000000000000000000",
+      "displacement_norm_decimal": 8.953119717261138e-16
+    },
+    "path_polynomial_digest": "cbf92050ca4336e928219d25dff3044734ee3dce1bf1dfec35fa8d174b43fa60"
+  },
+  "path_interval": [
+    "0",
+    "1"
+  ],
+  "cell_count": 7,
+  "event_count": 6,
+  "cells": [
+    {
+      "index": 0,
+      "interval": [
+        "0",
+        "16304018111005452622089/236118324143482260684800"
+      ],
+      "representative": "16304018111005452622089/472236648286964521369600",
+      "face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell0_faces.json",
+      "face_hash": "651802494e5e8919ee73ccbe744ad300c693048e5354ebaee3adc1a3c85c706a",
+      "exact_support": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "euler": 2,
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          88,
+          198,
+          224,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ],
+        "strict_support_count": 5784,
+        "min_support_log10_abs": -12.332561612135876,
+        "coplanarity_equalities": 216,
+        "coplanar_interior_rows": []
+      },
+      "exact_mechanics": {
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245,
+            246
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      "exact_cell_class_cover": [
+        {
+          "interval": [
+            "0",
+            "16304018111005452622089/236118324143482260684800"
+          ],
+          "audit": {
+            "midpoint_class": {
+              "class": [
+                2,
+                2,
+                2
+              ],
+              "stable_faces": [
+                [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  54
+                ],
+                [
+                  7,
+                  8,
+                  245,
+                  246
+                ]
+              ],
+              "unstable_vertices": [
+                8,
+                54
+              ],
+              "saddle_edges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  10
+                ]
+              ]
+            },
+            "certified_polynomial_count": 6767,
+            "bernstein_leaf_count": 6767,
+            "minimum_bernstein_log10_abs": -68.7804629664231,
+            "primitive_digest": "225f4b1e58090bf8bcd20c6a4b243859b16c51b688c0dfa52bc6ef70e425a9c6",
+            "forbidden_feature_witness_rule": "one exact interval-wide negative component per forbidden feature"
+          }
+        }
+      ],
+      "class_cover_subinterval_count": 1,
+      "selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.92589331616182,
+          "polynomial_digest": "a11c962357e3a070b6f3cfcea057522f38e6e7d1dbe8b8faf3359143ee2c8545"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.992092424476596,
+          "polynomial_digest": "0083faf55c8549f830aa7da5148fe64d89c883966c972f8fd678d9c12753f8bf"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.624154948556907,
+          "polynomial_digest": "d9c01362cf92f256ef4aeac1ea07b8580ea848ec036c995ccb550b9adcd5d340"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.195380576082698,
+          "polynomial_digest": "7b424a00c494aa3ec73f979bc13440d1a76dba4a70c2c33eb28c33d6c725b3e8"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "interval": [
+        "130432144888043620976713/1888946593147858085478400",
+        "118184728762610351007987/377789318629571617095680"
+      ],
+      "representative": "90169473587636922002081/472236648286964521369600",
+      "face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell1_faces.json",
+      "face_hash": "39c69411833f8457514f53ecd1582020317c70e54a91b9327a2f03d958871de0",
+      "exact_support": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "euler": 2,
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          88,
+          198,
+          224,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ],
+        "strict_support_count": 5784,
+        "min_support_log10_abs": -12.332028481387113,
+        "coplanarity_equalities": 216,
+        "coplanar_interior_rows": []
+      },
+      "exact_mechanics": {
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245,
+            246
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      "exact_cell_class_cover": [
+        {
+          "interval": [
+            "130432144888043620976713/1888946593147858085478400",
+            "90169473587636922002081/472236648286964521369600"
+          ],
+          "audit": {
+            "midpoint_class": {
+              "class": [
+                2,
+                2,
+                2
+              ],
+              "stable_faces": [
+                [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  54
+                ],
+                [
+                  7,
+                  8,
+                  245,
+                  246
+                ]
+              ],
+              "unstable_vertices": [
+                8,
+                54
+              ],
+              "saddle_edges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  10
+                ]
+              ]
+            },
+            "certified_polynomial_count": 6767,
+            "bernstein_leaf_count": 6772,
+            "minimum_bernstein_log10_abs": -67.51898289503629,
+            "primitive_digest": "451744f59edeb26e6eb17f10a78aa938786dc091ba13d80119e9b2eb3f3464f7",
+            "forbidden_feature_witness_rule": "one exact interval-wide negative component per forbidden feature"
+          }
+        },
+        {
+          "interval": [
+            "90169473587636922002081/472236648286964521369600",
+            "118184728762610351007987/377789318629571617095680"
+          ],
+          "audit": {
+            "midpoint_class": {
+              "class": [
+                2,
+                2,
+                2
+              ],
+              "stable_faces": [
+                [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  54
+                ],
+                [
+                  7,
+                  8,
+                  245,
+                  246
+                ]
+              ],
+              "unstable_vertices": [
+                8,
+                54
+              ],
+              "saddle_edges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  10
+                ]
+              ]
+            },
+            "certified_polynomial_count": 6767,
+            "bernstein_leaf_count": 6767,
+            "minimum_bernstein_log10_abs": -71.88743674930606,
+            "primitive_digest": "8bdf6f5cde802d25932f2f7083fec561d922b1f60c05d4f77a09e9c04fe6f3e6",
+            "forbidden_feature_witness_rule": "one exact interval-wide negative component per forbidden feature"
+          }
+        }
+      ],
+      "class_cover_subinterval_count": 2,
+      "selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.85274586329797,
+          "polynomial_digest": "3c3a1f1ff717663c6517895f214c34c2712c0862a4871ff0b34fe4af152f69d7"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.993409357449309,
+          "polynomial_digest": "3fe04730d56c3ae85e1c5d8c62748d006672ca523afff969fa45cb6fc29ba343"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.59246626262734,
+          "polynomial_digest": "6d6016181a2f1ded2752c03a4e86cf8c489cc84e3c945bc1c3218d87c283ad67"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.19621478137833,
+          "polynomial_digest": "089df4ed5356c4240aff54ff58377c910c7c9d75a8e8bf2f81ae99168a63f16b"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "interval": [
+        "9233181934578933672499/29514790517935282585600",
+        "27200725542542449488590716190178325581/47223664828696452136960000000000000000"
+      ],
+      "representative": "41973816637868743364589116190178325581/94447329657392904273920000000000000000",
+      "face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell2_faces.json",
+      "face_hash": "6235bad08abfe5e5231938b58c5b72e5c440e0a44c7ee34bc706d37058721c81",
+      "exact_support": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "euler": 2,
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          88,
+          198,
+          224,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ],
+        "strict_support_count": 5784,
+        "min_support_log10_abs": -12.32990240699857,
+        "coplanarity_equalities": 216,
+        "coplanar_interior_rows": []
+      },
+      "exact_mechanics": {
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245,
+            246
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      "exact_cell_class_cover": [
+        {
+          "interval": [
+            "9233181934578933672499/29514790517935282585600",
+            "27200725542542449488590716190178325581/47223664828696452136960000000000000000"
+          ],
+          "audit": {
+            "midpoint_class": {
+              "class": [
+                2,
+                2,
+                2
+              ],
+              "stable_faces": [
+                [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  54
+                ],
+                [
+                  7,
+                  8,
+                  245,
+                  246
+                ]
+              ],
+              "unstable_vertices": [
+                8,
+                54
+              ],
+              "saddle_edges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  10
+                ]
+              ]
+            },
+            "certified_polynomial_count": 6767,
+            "bernstein_leaf_count": 6767,
+            "minimum_bernstein_log10_abs": -70.03786426088817,
+            "primitive_digest": "4e8add4fbc7633d715bd9e56fb438e058b1a29ac2661338b1115d5331223b13d",
+            "forbidden_feature_witness_rule": "one exact interval-wide negative component per forbidden feature"
+          }
+        }
+      ],
+      "class_cover_subinterval_count": 1,
+      "selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.737422436583074,
+          "polynomial_digest": "009ac12112a65f1d22541488f2d4f39b06f94e86046b8bc4df861102f50dd828"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.998002026030008,
+          "polynomial_digest": "e769ef94cd4f89e6d743aa6f10a6d9b1a470cc8cec82fb8083a75c89e034e78b"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.555693957893936,
+          "polynomial_digest": "d6206b009e9571c929a95c02ae4cbaf8cbbe92f50093f6098fe3a73aaf48dc1c"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.19915437724626,
+          "polynomial_digest": "ba50f7ec398c7f06cf6aa2096185761dcc8a7f078db50f7456b6cfa116b4ea12"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "interval": [
+        "1360036277127122474429537059508916279/2361183241434822606848000000000000000",
+        "1213774684597562954046863/1888946593147858085478400"
+      ],
+      "representative": "2877254632874076166988115809508916279/4722366482869645213696000000000000000",
+      "face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell3_faces.json",
+      "face_hash": "5517617f073e8cf33f3db2ce2f7bf5c2578951942c6aa407a9d25053439fb3b9",
+      "exact_support": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "euler": 2,
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          88,
+          198,
+          224,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ],
+        "strict_support_count": 5784,
+        "min_support_log10_abs": -12.327678515811414,
+        "coplanarity_equalities": 216,
+        "coplanar_interior_rows": []
+      },
+      "exact_mechanics": {
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245,
+            246
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      "exact_cell_class_cover": [
+        {
+          "interval": [
+            "1360036277127122474429537059508916279/2361183241434822606848000000000000000",
+            "1213774684597562954046863/1888946593147858085478400"
+          ],
+          "audit": {
+            "midpoint_class": {
+              "class": [
+                2,
+                2,
+                2
+              ],
+              "stable_faces": [
+                [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  54
+                ],
+                [
+                  7,
+                  8,
+                  245,
+                  246
+                ]
+              ],
+              "unstable_vertices": [
+                8,
+                54
+              ],
+              "saddle_edges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  10
+                ]
+              ]
+            },
+            "certified_polynomial_count": 6767,
+            "bernstein_leaf_count": 6767,
+            "minimum_bernstein_log10_abs": -70.47276666211457,
+            "primitive_digest": "3496e5257f5c925e867bef1b6e3cc027c2aece049ef9a66a9c2ddd3306bbd075",
+            "forbidden_feature_witness_rule": "one exact interval-wide negative component per forbidden feature"
+          }
+        }
+      ],
+      "class_cover_subinterval_count": 1,
+      "selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.698810725620206,
+          "polynomial_digest": "3c3a1f1ff717663c6517895f214c34c2712c0862a4871ff0b34fe4af152f69d7"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.002860720925128,
+          "polynomial_digest": "3fe04730d56c3ae85e1c5d8c62748d006672ca523afff969fa45cb6fc29ba343"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.545919026493948,
+          "polynomial_digest": "6d6016181a2f1ded2752c03a4e86cf8c489cc84e3c945bc1c3218d87c283ad67"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.202317970151853,
+          "polynomial_digest": "089df4ed5356c4240aff54ff58377c910c7c9d75a8e8bf2f81ae99168a63f16b"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "interval": [
+        "75860917787347684627929/118059162071741130342400",
+        "686031854792664954584433/944473296573929042739200"
+      ],
+      "representative": "258583839418289286321573/377789318629571617095680",
+      "face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell4_faces.json",
+      "face_hash": "d886a678710048688f97f2dd455a583e2b9f52e83152e074893137a75721e54e",
+      "exact_support": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "euler": 2,
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          88,
+          198,
+          224,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ],
+        "strict_support_count": 5784,
+        "min_support_log10_abs": -12.326444595616636,
+        "coplanarity_equalities": 216,
+        "coplanar_interior_rows": []
+      },
+      "exact_mechanics": {
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245,
+            246
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      "exact_cell_class_cover": [
+        {
+          "interval": [
+            "75860917787347684627929/118059162071741130342400",
+            "686031854792664954584433/944473296573929042739200"
+          ],
+          "audit": {
+            "midpoint_class": {
+              "class": [
+                2,
+                2,
+                2
+              ],
+              "stable_faces": [
+                [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  54
+                ],
+                [
+                  7,
+                  8,
+                  245,
+                  246
+                ]
+              ],
+              "unstable_vertices": [
+                8,
+                54
+              ],
+              "saddle_edges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  10
+                ]
+              ]
+            },
+            "certified_polynomial_count": 6767,
+            "bernstein_leaf_count": 6767,
+            "minimum_bernstein_log10_abs": -67.88581235661337,
+            "primitive_digest": "ca279c0830e37632e736907bcf446e577a6a0b0e240edefad279b57a91e515af",
+            "forbidden_feature_witness_rule": "one exact interval-wide negative component per forbidden feature"
+          }
+        }
+      ],
+      "class_cover_subinterval_count": 1,
+      "selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.64209456399112,
+          "polynomial_digest": "a11c962357e3a070b6f3cfcea057522f38e6e7d1dbe8b8faf3359143ee2c8545"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.00407347123928,
+          "polynomial_digest": "0083faf55c8549f830aa7da5148fe64d89c883966c972f8fd678d9c12753f8bf"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.53331799803459,
+          "polynomial_digest": "d9c01362cf92f256ef4aeac1ea07b8580ea848ec036c995ccb550b9adcd5d340"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.2031166204265,
+          "polynomial_digest": "7b424a00c494aa3ec73f979bc13440d1a76dba4a70c2c33eb28c33d6c725b3e8"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "interval": [
+        "1372063709585329909168867/1888946593147858085478400",
+        "1825161847650335817947931/1888946593147858085478400"
+      ],
+      "representative": "1598612778617832863558399/1888946593147858085478400",
+      "face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell5_faces.json",
+      "face_hash": "8008ec3f185f605a4f5f90672aa07b76059d5a9422d07172d08ff64cd4deda7b",
+      "exact_support": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "euler": 2,
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          88,
+          198,
+          224,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ],
+        "strict_support_count": 5784,
+        "min_support_log10_abs": -12.323323767831198,
+        "coplanarity_equalities": 216,
+        "coplanar_interior_rows": []
+      },
+      "exact_mechanics": {
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245,
+            246
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      "exact_cell_class_cover": [
+        {
+          "interval": [
+            "1372063709585329909168867/1888946593147858085478400",
+            "1825161847650335817947931/1888946593147858085478400"
+          ],
+          "audit": {
+            "midpoint_class": {
+              "class": [
+                2,
+                2,
+                2
+              ],
+              "stable_faces": [
+                [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  54
+                ],
+                [
+                  7,
+                  8,
+                  245,
+                  246
+                ]
+              ],
+              "unstable_vertices": [
+                8,
+                54
+              ],
+              "saddle_edges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  10
+                ]
+              ]
+            },
+            "certified_polynomial_count": 6767,
+            "bernstein_leaf_count": 6767,
+            "minimum_bernstein_log10_abs": -68.5674239614537,
+            "primitive_digest": "556f37f65913afaa99d46e22d1bf45d544aa09a8a74e0e5335fd7e6ea33e784d",
+            "forbidden_feature_witness_rule": "one exact interval-wide negative component per forbidden feature"
+          }
+        }
+      ],
+      "class_cover_subinterval_count": 1,
+      "selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.390997761905965,
+          "polynomial_digest": "0dc20663a5a4c8f839227d23b35816df249ca5687fcd91b0327dfea627c9a302"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.005590747379756,
+          "polynomial_digest": "bba43d3725b24fa2242d11596ed45d54d20d9ff35984f7f48105448e98a6ef67"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.495253591337814,
+          "polynomial_digest": "7ca2427e59d154a2a151628ebc0968e66a09ca836b5b68ee7c21aab3d7bc953f"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.204121047181161,
+          "polynomial_digest": "88a84de2d1b5b936a673fbc9bb83d620b3f9ce449f7531d78a04332e70eab8ff"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "interval": [
+        "456290461912583954486983/472236648286964521369600",
+        "1"
+      ],
+      "representative": "928527110199548475856583/944473296573929042739200",
+      "face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell6_faces.json",
+      "face_hash": "aa56c92c434e505b21842de6cf45c153662ad8d48659c559e19b5161ba8b3d57",
+      "exact_support": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "euler": 2,
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          88,
+          198,
+          224,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ],
+        "strict_support_count": 5784,
+        "min_support_log10_abs": -12.320193863880036,
+        "coplanarity_equalities": 216,
+        "coplanar_interior_rows": []
+      },
+      "exact_mechanics": {
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245,
+            246
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      "exact_cell_class_cover": [
+        {
+          "interval": [
+            "456290461912583954486983/472236648286964521369600",
+            "1"
+          ],
+          "audit": {
+            "midpoint_class": {
+              "class": [
+                2,
+                2,
+                2
+              ],
+              "stable_faces": [
+                [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  54
+                ],
+                [
+                  7,
+                  8,
+                  245,
+                  246
+                ]
+              ],
+              "unstable_vertices": [
+                8,
+                54
+              ],
+              "saddle_edges": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  9,
+                  10
+                ]
+              ]
+            },
+            "certified_polynomial_count": 6767,
+            "bernstein_leaf_count": 6767,
+            "minimum_bernstein_log10_abs": -69.85619486896542,
+            "primitive_digest": "ffa48a1595a575b63aedf76205e0307a8a98dd4b5e12308270eba09548173593",
+            "forbidden_feature_witness_rule": "one exact interval-wide negative component per forbidden feature"
+          }
+        }
+      ],
+      "class_cover_subinterval_count": 1,
+      "selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.335964082238206,
+          "polynomial_digest": "ed0dab19c992ee5b9e10dcbdfea3c6346760787a0cb2f079e4b58b732b812589"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.009876431822704,
+          "polynomial_digest": "dadd6d3ec63523635b0f54d43e8546728eca67781eb1c2c31c087e9b657b0d7a"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.489637211621584,
+          "polynomial_digest": "afacb7d071fc8a8c1f72f15645bf53db42f54152e718808d74de6f7be99e284b"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.20699055130649,
+          "polynomial_digest": "8e3427d006b27ea3c18a8decc913208bb70e20fe90fe6d91fd18f326e049e7a8"
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "circuit": [
+        69,
+        236,
+        237,
+        238
+      ],
+      "lo": "16304018111005452622089/236118324143482260684800",
+      "hi": "130432144888043620976713/1888946593147858085478400",
+      "value_lo": "26039351261312015576701386648681356701006237059859617941848261106838688588810150047264277/164550455732120604215496918255735050498273586563357986334860902400000000000000000000000000000000000000000000000000000000000",
+      "value_hi": "-38889273684997786919196337028963899723799010352337018110354672601938578336819177096686835499/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000",
+      "decimal_interval": [
+        0.06905020256326219,
+        0.06905020256326219
+      ],
+      "derivative_sign": -1,
+      "derivative_bernstein_leaves": 1,
+      "polynomial_degree": 3,
+      "polynomial_digest": "4d642528bd85ab99df2be1b4e2beacec04888e48842fee12abe45a1315905e56",
+      "pre_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f34:w238",
+            "factor": "-1",
+            "value_lo": "-26039351261312015576701386648681356701006237059859617941848261106838688588810150047264277/164550455732120604215496918255735050498273586563357986334860902400000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "38889273684997786919196337028963899723799010352337018110354672601938578336819177096686835499/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f45:w236",
+            "factor": "-1",
+            "value_lo": "-26039351261312015576701386648681356701006237059859617941848261106838688588810150047264277/164550455732120604215496918255735050498273586563357986334860902400000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "38889273684997786919196337028963899723799010352337018110354672601938578336819177096686835499/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.33249478412452,
+        "strict_support_digest": "db0d895aafd7f16e705d34db05a3100a7e00d847c61d876ed9178ad2562fd933"
+      },
+      "post_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f44:w237",
+            "factor": "1",
+            "value_lo": "26039351261312015576701386648681356701006237059859617941848261106838688588810150047264277/164550455732120604215496918255735050498273586563357986334860902400000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-38889273684997786919196337028963899723799010352337018110354672601938578336819177096686835499/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f45:w69",
+            "factor": "1",
+            "value_lo": "26039351261312015576701386648681356701006237059859617941848261106838688588810150047264277/164550455732120604215496918255735050498273586563357986334860902400000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-38889273684997786919196337028963899723799010352337018110354672601938578336819177096686835499/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.33249478412452,
+        "strict_support_digest": "59b9cf491b960b5f6ebd77821256f6898c35ac09616df3c68f921333eb5655a3"
+      },
+      "pre_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.92589331616364,
+          "polynomial_digest": "a11c962357e3a070b6f3cfcea057522f38e6e7d1dbe8b8faf3359143ee2c8545"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.99340935743021,
+          "polynomial_digest": "0083faf55c8549f830aa7da5148fe64d89c883966c972f8fd678d9c12753f8bf"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.624154948556679,
+          "polynomial_digest": "d9c01362cf92f256ef4aeac1ea07b8580ea848ec036c995ccb550b9adcd5d340"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.196214781548406,
+          "polynomial_digest": "7b424a00c494aa3ec73f979bc13440d1a76dba4a70c2c33eb28c33d6c725b3e8"
+        }
+      },
+      "post_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.925893325260404,
+          "polynomial_digest": "3c3a1f1ff717663c6517895f214c34c2712c0862a4871ff0b34fe4af152f69d7"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.993409357449309,
+          "polynomial_digest": "3fe04730d56c3ae85e1c5d8c62748d006672ca523afff969fa45cb6fc29ba343"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.624154941828692,
+          "polynomial_digest": "6d6016181a2f1ded2752c03a4e86cf8c489cc84e3c945bc1c3218d87c283ad67"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.19621478137833,
+          "polynomial_digest": "089df4ed5356c4240aff54ff58377c910c7c9d75a8e8bf2f81ae99168a63f16b"
+        }
+      },
+      "wall_face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall1_faces.json",
+      "wall_face_hash": "0fc67dc500e8adbfeadf9b39553823d9f9ac883b54db8a58e098a0a6dd702771",
+      "wall_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "wall_mechanics": {
+        "midpoint_class": {
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            8,
+            54
+          ],
+          "saddle_edges": [
+            [
+              6,
+              7
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        "certified_polynomial_count": 977,
+        "bernstein_leaf_count": 977,
+        "min_bernstein_coefficient_log10_abs": -33.827332968182304,
+        "primitive_digest": "138d0a88a3a5a95a90d79170bc4ef63c548797b2204f67f517a5d35c354d6316"
+      },
+      "removed_faces": [
+        [
+          69,
+          236,
+          237
+        ],
+        [
+          69,
+          237,
+          238
+        ]
+      ],
+      "added_faces": [
+        [
+          69,
+          236,
+          238
+        ],
+        [
+          236,
+          237,
+          238
+        ]
+      ]
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        234,
+        236
+      ],
+      "lo": "118184728762610351007987/377789318629571617095680",
+      "hi": "9233181934578933672499/29514790517935282585600",
+      "value_lo": "-1988945648003832796118261886741285822050764647331645901468390567008638883736498978877553/539198933343012795893340301740392613472742888450811449622072204984320000000000000000000000000000000000000000000000000000000",
+      "value_hi": "18221236254605589696543173927932109901127773885303581916421889554798443740547898701391/257110087081438444086713934774586016403552479005246853648220160000000000000000000000000000000000000000000000000000000000",
+      "decimal_interval": [
+        0.31283237226326227,
+        0.31283237226326227
+      ],
+      "derivative_sign": 1,
+      "derivative_bernstein_leaves": 1,
+      "polynomial_degree": 3,
+      "polynomial_digest": "d8075e81f4daf305caacf7ed0c1e66b73688379d75585596744d63a460f0002b",
+      "pre_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f59:w236",
+            "factor": "1",
+            "value_lo": "-1988945648003832796118261886741285822050764647331645901468390567008638883736498978877553/539198933343012795893340301740392613472742888450811449622072204984320000000000000000000000000000000000000000000000000000000",
+            "value_hi": "18221236254605589696543173927932109901127773885303581916421889554798443740547898701391/257110087081438444086713934774586016403552479005246853648220160000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f60:w233",
+            "factor": "1",
+            "value_lo": "-1988945648003832796118261886741285822050764647331645901468390567008638883736498978877553/539198933343012795893340301740392613472742888450811449622072204984320000000000000000000000000000000000000000000000000000000",
+            "value_hi": "18221236254605589696543173927932109901127773885303581916421889554798443740547898701391/257110087081438444086713934774586016403552479005246853648220160000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.331201516104798,
+        "strict_support_digest": "b5c5295bcd364718e49c02ac647a15ffe62d006bb75e4d19c8c66880dbf14d3f"
+      },
+      "post_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f34:w234",
+            "factor": "-1",
+            "value_lo": "1988945648003832796118261886741285822050764647331645901468390567008638883736498978877553/539198933343012795893340301740392613472742888450811449622072204984320000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-18221236254605589696543173927932109901127773885303581916421889554798443740547898701391/257110087081438444086713934774586016403552479005246853648220160000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f56:w198",
+            "factor": "-1",
+            "value_lo": "1988945648003832796118261886741285822050764647331645901468390567008638883736498978877553/539198933343012795893340301740392613472742888450811449622072204984320000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-18221236254605589696543173927932109901127773885303581916421889554798443740547898701391/257110087081438444086713934774586016403552479005246853648220160000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.331201516104798,
+        "strict_support_digest": "3d0746daac31f41c54e0d2e12c6d13b62cf806ef43f1ba49441b2f281ddba17e"
+      },
+      "pre_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.85274586329615,
+          "polynomial_digest": "3c3a1f1ff717663c6517895f214c34c2712c0862a4871ff0b34fe4af152f69d7"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.9980020260272795,
+          "polynomial_digest": "3fe04730d56c3ae85e1c5d8c62748d006672ca523afff969fa45cb6fc29ba343"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.59246626262734,
+          "polynomial_digest": "6d6016181a2f1ded2752c03a4e86cf8c489cc84e3c945bc1c3218d87c283ad67"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.19915437726604,
+          "polynomial_digest": "089df4ed5356c4240aff54ff58377c910c7c9d75a8e8bf2f81ae99168a63f16b"
+        }
+      },
+      "post_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.85274586493142,
+          "polynomial_digest": "009ac12112a65f1d22541488f2d4f39b06f94e86046b8bc4df861102f50dd828"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.9980020260290985,
+          "polynomial_digest": "e769ef94cd4f89e6d743aa6f10a6d9b1a470cc8cec82fb8083a75c89e034e78b"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.592466261773097,
+          "polynomial_digest": "d6206b009e9571c929a95c02ae4cbaf8cbbe92f50093f6098fe3a73aaf48dc1c"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.199154377246032,
+          "polynomial_digest": "ba50f7ec398c7f06cf6aa2096185761dcc8a7f078db50f7456b6cfa116b4ea12"
+        }
+      },
+      "wall_face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall2_faces.json",
+      "wall_face_hash": "423d0ea9581c7debbbb379da3c5b220c101e36e542f87e1b25f43e580f1f0f8d",
+      "wall_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "wall_mechanics": {
+        "midpoint_class": {
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            8,
+            54
+          ],
+          "saddle_edges": [
+            [
+              6,
+              7
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        "certified_polynomial_count": 977,
+        "bernstein_leaf_count": 977,
+        "min_bernstein_coefficient_log10_abs": -33.84364555402044,
+        "primitive_digest": "584415863e404f31c3327bfe9ecac5d8da50349f4a847ee5920d93d164f9d77c"
+      },
+      "removed_faces": [
+        [
+          198,
+          233,
+          234
+        ],
+        [
+          198,
+          234,
+          236
+        ]
+      ],
+      "added_faces": [
+        [
+          198,
+          233,
+          236
+        ],
+        [
+          233,
+          234,
+          236
+        ]
+      ]
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        234,
+        236
+      ],
+      "lo": "27200725542542449488590716190178325581/47223664828696452136960000000000000000",
+      "hi": "1360036277127122474429537059508916279/2361183241434822606848000000000000000",
+      "value_lo": "59169927864756822065119282896048227035779833212385122284881500814953186488417361110531508015236623950770773246042196406905725541169/1053122916685571866979180276836704323188950954005491112543109775360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value_hi": "-2473289752908379074382600127584094037258972127124446179670371026777212727843172377807043241577631821817207653867292961635702949/131640364585696483372397534604588040398618869250686389067888721920000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "decimal_interval": [
+        0.5759977680938765,
+        0.5759977680938765
+      ],
+      "derivative_sign": -1,
+      "derivative_bernstein_leaves": 1,
+      "polynomial_degree": 3,
+      "polynomial_digest": "d8075e81f4daf305caacf7ed0c1e66b73688379d75585596744d63a460f0002b",
+      "pre_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f34:w234",
+            "factor": "-1",
+            "value_lo": "-59169927864756822065119282896048227035779833212385122284881500814953186488417361110531508015236623950770773246042196406905725541169/1053122916685571866979180276836704323188950954005491112543109775360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "2473289752908379074382600127584094037258972127124446179670371026777212727843172377807043241577631821817207653867292961635702949/131640364585696483372397534604588040398618869250686389067888721920000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f56:w198",
+            "factor": "-1",
+            "value_lo": "-59169927864756822065119282896048227035779833212385122284881500814953186488417361110531508015236623950770773246042196406905725541169/1053122916685571866979180276836704323188950954005491112543109775360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "2473289752908379074382600127584094037258972127124446179670371026777212727843172377807043241577631821817207653867292961635702949/131640364585696483372397534604588040398618869250686389067888721920000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.32818087169349,
+        "strict_support_digest": "3d0746daac31f41c54e0d2e12c6d13b62cf806ef43f1ba49441b2f281ddba17e"
+      },
+      "post_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f57:w236",
+            "factor": "1",
+            "value_lo": "59169927864756822065119282896048227035779833212385122284881500814953186488417361110531508015236623950770773246042196406905725541169/1053122916685571866979180276836704323188950954005491112543109775360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-2473289752908379074382600127584094037258972127124446179670371026777212727843172377807043241577631821817207653867292961635702949/131640364585696483372397534604588040398618869250686389067888721920000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f58:w233",
+            "factor": "1",
+            "value_lo": "59169927864756822065119282896048227035779833212385122284881500814953186488417361110531508015236623950770773246042196406905725541169/1053122916685571866979180276836704323188950954005491112543109775360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-2473289752908379074382600127584094037258972127124446179670371026777212727843172377807043241577631821817207653867292961635702949/131640364585696483372397534604588040398618869250686389067888721920000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.32818087169349,
+        "strict_support_digest": "9b63e1993c1dda01ac4aca56858f16ac2c76ff8acd4b27ee36df381910eb9d43"
+      },
+      "pre_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.737422436583074,
+          "polynomial_digest": "009ac12112a65f1d22541488f2d4f39b06f94e86046b8bc4df861102f50dd828"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.002860720923309,
+          "polynomial_digest": "e769ef94cd4f89e6d743aa6f10a6d9b1a470cc8cec82fb8083a75c89e034e78b"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.555693957894164,
+          "polynomial_digest": "d6206b009e9571c929a95c02ae4cbaf8cbbe92f50093f6098fe3a73aaf48dc1c"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.20231797017209,
+          "polynomial_digest": "ba50f7ec398c7f06cf6aa2096185761dcc8a7f078db50f7456b6cfa116b4ea12"
+        }
+      },
+      "post_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.73742243889865,
+          "polynomial_digest": "3c3a1f1ff717663c6517895f214c34c2712c0862a4871ff0b34fe4af152f69d7"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.002860720925128,
+          "polynomial_digest": "3fe04730d56c3ae85e1c5d8c62748d006672ca523afff969fa45cb6fc29ba343"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.555693956956475,
+          "polynomial_digest": "6d6016181a2f1ded2752c03a4e86cf8c489cc84e3c945bc1c3218d87c283ad67"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.202317970151853,
+          "polynomial_digest": "089df4ed5356c4240aff54ff58377c910c7c9d75a8e8bf2f81ae99168a63f16b"
+        }
+      },
+      "wall_face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall3_faces.json",
+      "wall_face_hash": "9b2ca35ec30ac6ae2ba72815a06d07b248e1967d80b2b0b4dea0522741ae1e5a",
+      "wall_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "wall_mechanics": {
+        "midpoint_class": {
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            8,
+            54
+          ],
+          "saddle_edges": [
+            [
+              6,
+              7
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        "certified_polynomial_count": 977,
+        "bernstein_leaf_count": 977,
+        "min_bernstein_coefficient_log10_abs": -33.860577787231534,
+        "primitive_digest": "ba1161eaadad0e14db7406e3728ed9a7ec3a8f898475d47e4db1360825ff12c6"
+      },
+      "removed_faces": [
+        [
+          198,
+          233,
+          236
+        ],
+        [
+          233,
+          234,
+          236
+        ]
+      ],
+      "added_faces": [
+        [
+          198,
+          233,
+          234
+        ],
+        [
+          198,
+          234,
+          236
+        ]
+      ]
+    },
+    {
+      "circuit": [
+        69,
+        236,
+        237,
+        238
+      ],
+      "lo": "1213774684597562954046863/1888946593147858085478400",
+      "hi": "75860917787347684627929/118059162071741130342400",
+      "value_lo": "-9464994140993082227149967367415298148265660562716786129338702525774133696514561851081618349/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000",
+      "value_hi": "10389251232164396161455356294363944439405392899040022210198924020867914982949837707722437/20568806966515075526937114781966881312284198320419748291857612800000000000000000000000000000000000000000000000000000000000",
+      "decimal_interval": [
+        0.6425669677483329,
+        0.6425669677483329
+      ],
+      "derivative_sign": 1,
+      "derivative_bernstein_leaves": 1,
+      "polynomial_degree": 3,
+      "polynomial_digest": "4d642528bd85ab99df2be1b4e2beacec04888e48842fee12abe45a1315905e56",
+      "pre_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f44:w237",
+            "factor": "1",
+            "value_lo": "-9464994140993082227149967367415298148265660562716786129338702525774133696514561851081618349/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "10389251232164396161455356294363944439405392899040022210198924020867914982949837707722437/20568806966515075526937114781966881312284198320419748291857612800000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f45:w69",
+            "factor": "1",
+            "value_lo": "-9464994140993082227149967367415298148265660562716786129338702525774133696514561851081618349/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "10389251232164396161455356294363944439405392899040022210198924020867914982949837707722437/20568806966515075526937114781966881312284198320419748291857612800000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.327149195220613,
+        "strict_support_digest": "231f9a5014a5715792f719ad59fc54d9bdfc63c8ac5db70a8d2cea04ddc73b41"
+      },
+      "post_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f34:w238",
+            "factor": "-1",
+            "value_lo": "9464994140993082227149967367415298148265660562716786129338702525774133696514561851081618349/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-10389251232164396161455356294363944439405392899040022210198924020867914982949837707722437/20568806966515075526937114781966881312284198320419748291857612800000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f45:w236",
+            "factor": "-1",
+            "value_lo": "9464994140993082227149967367415298148265660562716786129338702525774133696514561851081618349/84249833334845749358334422146936345855116076320439289003448782028800000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-10389251232164396161455356294363944439405392899040022210198924020867914982949837707722437/20568806966515075526937114781966881312284198320419748291857612800000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.327149195220613,
+        "strict_support_digest": "a26dc829f2663ca0aaed2933fe5fb60f5443455fac6bc80ccd5fa001a630141c"
+      },
+      "pre_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.698810725620206,
+          "polynomial_digest": "3c3a1f1ff717663c6517895f214c34c2712c0862a4871ff0b34fe4af152f69d7"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.00407347122109,
+          "polynomial_digest": "3fe04730d56c3ae85e1c5d8c62748d006672ca523afff969fa45cb6fc29ba343"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.545919026493948,
+          "polynomial_digest": "6d6016181a2f1ded2752c03a4e86cf8c489cc84e3c945bc1c3218d87c283ad67"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.203116620596347,
+          "polynomial_digest": "089df4ed5356c4240aff54ff58377c910c7c9d75a8e8bf2f81ae99168a63f16b"
+        }
+      },
+      "post_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.69881074373188,
+          "polynomial_digest": "a11c962357e3a070b6f3cfcea057522f38e6e7d1dbe8b8faf3359143ee2c8545"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.00407347123928,
+          "polynomial_digest": "0083faf55c8549f830aa7da5148fe64d89c883966c972f8fd678d9c12753f8bf"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.5459190184167255,
+          "polynomial_digest": "d9c01362cf92f256ef4aeac1ea07b8580ea848ec036c995ccb550b9adcd5d340"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.2031166204265,
+          "polynomial_digest": "7b424a00c494aa3ec73f979bc13440d1a76dba4a70c2c33eb28c33d6c725b3e8"
+        }
+      },
+      "wall_face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall4_faces.json",
+      "wall_face_hash": "986779e4355d639fa86e6477ca6024bb09eb77d0d6d68f194f772d64086999cb",
+      "wall_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "wall_mechanics": {
+        "midpoint_class": {
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            8,
+            54
+          ],
+          "saddle_edges": [
+            [
+              6,
+              7
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        "certified_polynomial_count": 977,
+        "bernstein_leaf_count": 977,
+        "min_bernstein_coefficient_log10_abs": -33.864746869350995,
+        "primitive_digest": "4157da6bfdc8b6e06a99c99dd1a43e1edeaa2f255b9a67e14413e0dd7c5d297c"
+      },
+      "removed_faces": [
+        [
+          69,
+          236,
+          238
+        ],
+        [
+          236,
+          237,
+          238
+        ]
+      ],
+      "added_faces": [
+        [
+          69,
+          236,
+          237
+        ],
+        [
+          69,
+          237,
+          238
+        ]
+      ]
+    },
+    {
+      "circuit": [
+        69,
+        238,
+        239,
+        256
+      ],
+      "lo": "686031854792664954584433/944473296573929042739200",
+      "hi": "1372063709585329909168867/1888946593147858085478400",
+      "value_lo": "-4687120254800241449292635499370953273217959399927060941961731267364972917006454190736115809/8424983333484574935833442214693634585511607632043928900344878202880000000000000000000000000000000000000000000000000000000000",
+      "value_hi": "22148661035288804221036511660676411554788892734371620637217339048601935484897203616626434709/67399866667876599486667537717549076684092861056351431202759025623040000000000000000000000000000000000000000000000000000000000",
+      "decimal_interval": [
+        0.7263644798442065,
+        0.7263644798442065
+      ],
+      "derivative_sign": 1,
+      "derivative_bernstein_leaves": 1,
+      "polynomial_degree": 3,
+      "polynomial_digest": "1fa43a6f45d94175f0bba43a430a69a30b541e01cf0f6633a0d697a77a849144",
+      "pre_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f46:w239",
+            "factor": "1",
+            "value_lo": "-4687120254800241449292635499370953273217959399927060941961731267364972917006454190736115809/8424983333484574935833442214693634585511607632043928900344878202880000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "22148661035288804221036511660676411554788892734371620637217339048601935484897203616626434709/67399866667876599486667537717549076684092861056351431202759025623040000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f47:w69",
+            "factor": "1",
+            "value_lo": "-4687120254800241449292635499370953273217959399927060941961731267364972917006454190736115809/8424983333484574935833442214693634585511607632043928900344878202880000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "22148661035288804221036511660676411554788892734371620637217339048601935484897203616626434709/67399866667876599486667537717549076684092861056351431202759025623040000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.325697386242567,
+        "strict_support_digest": "1ca5906ad0d8860c0e3ac7a55442a19c2b55087a28d7c08f1e2fc8f59e2ec3fb"
+      },
+      "post_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f41:w238",
+            "factor": "-1",
+            "value_lo": "4687120254800241449292635499370953273217959399927060941961731267364972917006454190736115809/8424983333484574935833442214693634585511607632043928900344878202880000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-22148661035288804221036511660676411554788892734371620637217339048601935484897203616626434709/67399866667876599486667537717549076684092861056351431202759025623040000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f47:w256",
+            "factor": "-1",
+            "value_lo": "4687120254800241449292635499370953273217959399927060941961731267364972917006454190736115809/8424983333484574935833442214693634585511607632043928900344878202880000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-22148661035288804221036511660676411554788892734371620637217339048601935484897203616626434709/67399866667876599486667537717549076684092861056351431202759025623040000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.325697386242567,
+        "strict_support_digest": "839dd7f4bd20bcaf822adb4144baa7c8aab5252583b0722abaf1be3d047b9394"
+      },
+      "pre_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.64209456399112,
+          "polynomial_digest": "a11c962357e3a070b6f3cfcea057522f38e6e7d1dbe8b8faf3359143ee2c8545"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.0055907473552,
+          "polynomial_digest": "0083faf55c8549f830aa7da5148fe64d89c883966c972f8fd678d9c12753f8bf"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.53331799803459,
+          "polynomial_digest": "d9c01362cf92f256ef4aeac1ea07b8580ea848ec036c995ccb550b9adcd5d340"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.204121047428089,
+          "polynomial_digest": "7b424a00c494aa3ec73f979bc13440d1a76dba4a70c2c33eb28c33d6c725b3e8"
+        }
+      },
+      "post_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.64209459068479,
+          "polynomial_digest": "0dc20663a5a4c8f839227d23b35816df249ca5687fcd91b0327dfea627c9a302"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.005590747379756,
+          "polynomial_digest": "bba43d3725b24fa2242d11596ed45d54d20d9ff35984f7f48105448e98a6ef67"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.5333179859424035,
+          "polynomial_digest": "7ca2427e59d154a2a151628ebc0968e66a09ca836b5b68ee7c21aab3d7bc953f"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.204121047181161,
+          "polynomial_digest": "88a84de2d1b5b936a673fbc9bb83d620b3f9ce449f7531d78a04332e70eab8ff"
+        }
+      },
+      "wall_face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall5_faces.json",
+      "wall_face_hash": "66c7d1636956a10cc5bb8aa9c58d9d88e3add39afdd2b30ab7466064d6c9cd38",
+      "wall_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "wall_mechanics": {
+        "midpoint_class": {
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            8,
+            54
+          ],
+          "saddle_edges": [
+            [
+              6,
+              7
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        "certified_polynomial_count": 977,
+        "bernstein_leaf_count": 977,
+        "min_bernstein_coefficient_log10_abs": -33.869928433826715,
+        "primitive_digest": "a276755d374ea249b6412a44154c74dc12bbbc6a9a21a3c5498ed34fdb61bf9a"
+      },
+      "removed_faces": [
+        [
+          69,
+          238,
+          256
+        ],
+        [
+          238,
+          239,
+          256
+        ]
+      ],
+      "added_faces": [
+        [
+          69,
+          238,
+          239
+        ],
+        [
+          69,
+          239,
+          256
+        ]
+      ]
+    },
+    {
+      "circuit": [
+        69,
+        228,
+        236,
+        237
+      ],
+      "lo": "1825161847650335817947931/1888946593147858085478400",
+      "hi": "456290461912583954486983/472236648286964521369600",
+      "value_lo": "216255877662799943017861918349906469312353610688803149429533184980468929183226792521827805463/336999333339382997433337688587745383420464305281757156013795128115200000000000000000000000000000000000000000000000000000000000",
+      "value_hi": "-2205673330501315616894577459905637252339578896349225946893344177614651467099040318075778309/5265614583427859334895901384183521615944754770027455562715548876800000000000000000000000000000000000000000000000000000000000",
+      "decimal_interval": [
+        0.9662326368946051,
+        0.9662326368946051
+      ],
+      "derivative_sign": -1,
+      "derivative_bernstein_leaves": 1,
+      "polynomial_degree": 3,
+      "polynomial_digest": "bd189d0bd66fb8ce742a850b7427bc9082ede4332c2118250eb3ff1502a4abbb",
+      "pre_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f35:w237",
+            "factor": "-1",
+            "value_lo": "-216255877662799943017861918349906469312353610688803149429533184980468929183226792521827805463/336999333339382997433337688587745383420464305281757156013795128115200000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "2205673330501315616894577459905637252339578896349225946893344177614651467099040318075778309/5265614583427859334895901384183521615944754770027455562715548876800000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f36:w228",
+            "factor": "-1",
+            "value_lo": "-216255877662799943017861918349906469312353610688803149429533184980468929183226792521827805463/336999333339382997433337688587745383420464305281757156013795128115200000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "2205673330501315616894577459905637252339578896349225946893344177614651467099040318075778309/5265614583427859334895901384183521615944754770027455562715548876800000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.320604287108921,
+        "strict_support_digest": "caa4356c4e91919c94883c40bcfdb156304130f45fe3d331ee1ce1f1973e3459"
+      },
+      "post_support_on_root_bracket": {
+        "strict_non_event_support_count": 5782,
+        "event_support_rows": [
+          {
+            "name": "support:f18:w236",
+            "factor": "1",
+            "value_lo": "216255877662799943017861918349906469312353610688803149429533184980468929183226792521827805463/336999333339382997433337688587745383420464305281757156013795128115200000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-2205673330501315616894577459905637252339578896349225946893344177614651467099040318075778309/5265614583427859334895901384183521615944754770027455562715548876800000000000000000000000000000000000000000000000000000000000"
+          },
+          {
+            "name": "support:f69:w69",
+            "factor": "1",
+            "value_lo": "216255877662799943017861918349906469312353610688803149429533184980468929183226792521827805463/336999333339382997433337688587745383420464305281757156013795128115200000000000000000000000000000000000000000000000000000000000",
+            "value_hi": "-2205673330501315616894577459905637252339578896349225946893344177614651467099040318075778309/5265614583427859334895901384183521615944754770027455562715548876800000000000000000000000000000000000000000000000000000000000"
+          }
+        ],
+        "bernstein_leaf_count": 5782,
+        "minimum_bernstein_log10_abs": -12.320604287108921,
+        "strict_support_digest": "3cb32ac6d0ae493665171742024d483f8a98f9e816de12079362cb64a59d6408"
+      },
+      "pre_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.390997761905965,
+          "polynomial_digest": "0dc20663a5a4c8f839227d23b35816df249ca5687fcd91b0327dfea627c9a302"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.009876431791781,
+          "polynomial_digest": "bba43d3725b24fa2242d11596ed45d54d20d9ff35984f7f48105448e98a6ef67"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.495253591337814,
+          "polynomial_digest": "7ca2427e59d154a2a151628ebc0968e66a09ca836b5b68ee7c21aab3d7bc953f"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.2069905515973,
+          "polynomial_digest": "88a84de2d1b5b936a673fbc9bb83d620b3f9ce449f7531d78a04332e70eab8ff"
+        }
+      },
+      "post_selected_residual_monotonicity": {
+        "S_quad_squared": {
+          "sign": -1,
+          "degree": 61,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 37.39099783410893,
+          "polynomial_digest": "ed0dab19c992ee5b9e10dcbdfea3c6346760787a0cb2f079e4b58b732b812589"
+        },
+        "U54_squared": {
+          "sign": -1,
+          "degree": 26,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 8.009876431822704,
+          "polynomial_digest": "dadd6d3ec63523635b0f54d43e8546728eca67781eb1c2c31c087e9b657b0d7a"
+        },
+        "H67_one_minus_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 7.4952535757590795,
+          "polynomial_digest": "afacb7d071fc8a8c1f72f15645bf53db42f54152e718808d74de6f7be99e284b"
+        },
+        "H910_t": {
+          "sign": -1,
+          "degree": 12,
+          "bernstein_leaf_count": 1,
+          "minimum_bernstein_log10_abs": 9.20699055130649,
+          "polynomial_digest": "8e3427d006b27ea3c18a8decc913208bb70e20fe90fe6d91fd18f326e049e7a8"
+        }
+      },
+      "wall_face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall6_faces.json",
+      "wall_face_hash": "9869c2c0f35dc61bff768af91c524ce8e4ea73c3c734327026b37ff9004bb59a",
+      "wall_f_vector": [
+        60,
+        157,
+        99
+      ],
+      "wall_mechanics": {
+        "midpoint_class": {
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            8,
+            54
+          ],
+          "saddle_edges": [
+            [
+              6,
+              7
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        "certified_polynomial_count": 977,
+        "bernstein_leaf_count": 977,
+        "min_bernstein_coefficient_log10_abs": -33.8843450369348,
+        "primitive_digest": "a1d86b75495b7d3cd3607b27c8bc292c2e8c6b1457fb0a91dda42aca5ea70fe2"
+      },
+      "removed_faces": [
+        [
+          69,
+          228,
+          236
+        ],
+        [
+          69,
+          236,
+          237
+        ]
+      ],
+      "added_faces": [
+        [
+          69,
+          228,
+          237
+        ],
+        [
+          228,
+          236,
+          237
+        ]
+      ]
+    }
+  ],
+  "canonical_reference": {
+    "coordinate_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_canonical.csv",
+    "face_file": "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_canonical_faces.json",
+    "repair": {
+      "base": {
+        "nonzero_count": 15,
+        "maximum_log10_abs": -12.394779987068226,
+        "exact_digest": "9c40b69c34ee3252dc607494a0448f97e4de88aa550460b39cf5610dd731b4d6"
+      },
+      "quad": {
+        "barycentric": [
+          "9905202628937881747137353506617352522079917631748565727942790829585121614808551538304980586575488215018812580699347270474735462877170217484440000461238948215292232958533361040859140273897883695971/97638855857482754840984181102871150807884483273854877711534130417620710218303558782135616170563868248640967325870508839478753841321026720008215705214609937436519127472492073164272239017174168732200",
+          "2647067481956405512729117989953075364372583271129204481402825356815209077413579889671164786614365874148149524999409434159848065342119933854975393287184459122897140681144366023028130172878198542491/2440971396437068871024604527571778770197112081846371942788353260440517755457588969553390404264096706216024183146762720986968846033025668000205392630365248435912978186812301829106805975429354218305"
+        ],
+        "displacement_norm2_exact": "684458609235096327427334865834839274586391249808479643058723594679966910900619749967674761663195986146244566838587593050904280883799598876031876289157574714400681812925235042066980843107831434109801/19527771171496550968196836220574230161576896654770975542306826083524142043660711756427123234112773649728193465174101767895750768264205344001643141042921987487303825494498414632854447803434833746440000000000000000000000000000000000",
+        "displacement_norm_decimal": 1.8721785131931896e-16
+      }
+    },
+    "support_f_vector": [
+      61,
+      161,
+      102
+    ],
+    "mechanics": {
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "stable_faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ],
+        [
+          7,
+          8,
+          245,
+          246
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ]
+    }
+  },
+  "exact_source_to_endpoint_monotonic_comparison": {
+    "S_quad": {
+      "ratio_power": 2,
+      "exact_ratio_to_that_power": "60388472445678771667736364778527607691342187817278625840938114574622353053628132896846355777414959419467363834750975776106367160952580853376209545139717258677848633469372461673646601718768572423437692260643353096672523746607472598102752419853116597987480562047844451028211232623232629211826154597688870466370327872017671699833805664992784757410571102627665944071945977562030748972264992205679338643553089621248847087558304051348570032405194117873286524577029734458297981076753540587096281940278126387870418704380106420351181733885790005152470813710602144327296189644699792329979247414825325578447169881471872471572950944646489593677943319779504217645474788827185458920565719996901305413441115631576003912057902132765456339548220133919865740283191537498497383887573850037821821030356585071621001090895264674565018649376245024333084922161291975624838244963485544602486377252587671720433744741248936366770532810606332426345611526810216564521210116032831918992799947780512901750773446947941452808018281678083390195016287961852885829318189549513908695717795951269842690801787164081047950297714487357555710938988318336309550559240819904855900763854965403305430125970824084464146974843757383804796461842083716900388093762803056664835225754830282505355784234569755570039482115514550595359316385193189888192114387522868438730027365785667940951163900372026634631184890531032049245385353937791183868955841542510945986079206434821025892024248915619252641260237369406001023874940778696397875191837496484488051729471711553727498616039401043400617119863310573857773962542000971885736788290111404799283237306510227495609223735906456768706918067649204036646119419359689865708252081120199205206640806561828386323138490370197186166252732943636867250324779023757048884385794989604441906525383970754182989408793060481875033993516257002324857876371919910390225202613741586191923774876480743802916072554569078992631863398755031614545519755599454044625493/60425195153507169224794500456901416874986992605717033972893770309196079110629098778608337599148242724340070617253899569504007159985100409158816501421976701598581432017852738405383788612419476689669064932402663940276050696605676548287212841418163491865370405769523303096639002192979936259846301142228427975085109691944618751067768092258048599230196447954809388134687256409896552581104708062603587701942476877209004455107787571979468756875006747618930153605238765377233894205148779091230169190418764299164755738852305493515526426244748937565760079188808510883512605817101887296213597228545950519468533087053885208182544351327654177315058010166289146891347110988124496451263696795267941544294130057808678146869879731081109854203227234595452800693433441187503989389669959834222560919770473583587210991827619849294941606505380497704371205750357430304024265392083482994596536525457255939991015689887514661424696674469942326400569076465530884728635869253617208951956321653399186746439015211777429563692821231011762840206158359350711834917750278765433292645648628061796748084240779812521137652371459373721148644008802888854388440975464588545462958832701630580011378725311574703453405685693712944867813377064979188891334392853936580784222721338236107787568925380622151388206762532539549760749605345619679629422748227100180686703377667228441444316467027683362385578939506918013471400883805162194580808334745287487873769946492616342734806504766629385559992084915811944995490644697829723779757261120876753855358052931235570289175607659939989288162094351585058166328384887672241168429168675342123906610540427726247536046497828520306555339835099728623255334785283798506469175503931396537293240682814075700216762537508919166243897702641050652332949012511448548877939391140167089383302870836773170156422029578673726867355162525049723221288711559681627339509695816798297789603158534435815137004982782650846264776364797156218258096494327818969896000",
+      "decimal_ratio": 0.9996960846474675
+    },
+    "U54": {
+      "ratio_power": 2,
+      "exact_ratio_to_that_power": "3128841057651802845856861514653559077067692673045528352337543113051606712220929730196684112518281348675287633432875163426316298789196245252137365278943664087336305697269584569155392567217296354577718466896656344655991088281563759759387168464930216232454454545947104111977800364448256936994708527315807446796742627624262110382913724890910041752676287360634879653320944688244112863370102010728231291997032867232647275350733219011955092325417276079828622578687912913548663609079483894934022580713303814423019018590221438317831512231891642745482407478415879953764975446544430326302410443377361309985284690136472037739039682091649216966111202264105164810666296093953779081888309178459792944315258818392084457974748012024790195015700004929579796902587956934545734810600496071125588261547149796086034028856015437415244356871496374240508688325657022439602577399494670919003933931335279974026588676515187382307818283348639357679890113707128048242332490058749403708580199835921624510460433290854994363744937821275197065550282732968357674067478097585287281459867346726371411447878880755366758187329172230910400184472193643117777099202045767470462653339994254633576402890585080638071052798879708689334501034904130505515314929684836606300357774465699831011019447388187650442683995974974653011054661497836484354345969620416826506976099469549978624126260487928089336871034596120772223064106437669066434126544485864461447567628409436429032418684417810935367987901179106067064500409110407298536910856530618990494664438685698388719146078524468921789127812825184711682913393292819714062780708013542591892480742844585866964874661701428220852044276793872282932898064335771868316956910776570806565474033210444527214146741481303382723867383075199923644675142086746184239454492611927608152622027462822548875861526907572466276420179845407030297757370898801021080823984601327901927312813972132196863677201818448859110182041011400771488495643170005607740391442315607395276510793461313618412517138342569911803340457114109032423302807271141443519146679645104977807174288342991088409722913973218701050194482590410490404436692004801573555471963537994294055280466800076168019132200106017216186698449550857434168336952210550431747686261345149572544993097555347651478015019416853915977077405345239696350455682540465800589774588081065262321723749392578386072245230550132811340203858536771640010018356894568676866221676515280387253818131436822568/3221743943167963684882000972051327970625068466637896440581100353761787664470775706131062948794266022274050979765638763093931424230309824521977619562844059626137313758932278768957961109851201770318518536037059345196935086315668903731692760834519389352716237387983660318282127458099879716655926081421040254739175575838669413864892923037939816745460745745782791457005109531533786696368138997512795024626423753273608765068190258476673785957631457521384647868163736742330402205083906578752680589937349758187767357877577839132265589870401575489428885545888679788020998859577786902130846562466126891310569874184887350308131895248344502535331330008923200366432501131204639849014270696219035010096548332736162431767959125434060597727233845177075134288645568186911313473263700494194211245898657494949843848738227179148180647670736580037570013697805302767013192644344829458612999546402538050471065866041376605366325400911380916435484634081352087310204048520291264805314742791249942892274265458160786676007877843898044395115587821369046282006603032234872725886795393927006911765224379534276442186601388818445499095448158709911887103838152650744975543268102606181319505880395894976250636902215253331859719620840882877632737341119110445562656689577373133863666549326839073832642383964173329802028052242464009520912387049063986615607812976091581109544577366618201208645007616300771119697934806437612888877427969342300188740262543871608120544678248367971087249667865241588497899960288771213112733725308267581816322869536509629193935926698776078848280932071019265094610673727183176291321884048113753347679984286949206419963880915193274861916220760685365628204948031224166606417744174485204197944679527356072102679990998359999981777571830408971852084498975246507424754222356159756445202937497467038089139709504702348674839672026988021149704096874095761030768700204679793912082676458370356813320387125965469155606392743654821431783264971935724823911546134637093661988371012693633970682352146361890156075952322363483678177974327384881331511372060830284070815481795295416341314469219678630162413980209332306263907641262188597436075898252310657601529147646273875774815827462948591525375288938380740022139733785567411809386159401429538646971446138250285914144921913077660615266675682698498171135286758220853526348501822892299692838941513253350963129638094300860876346332517110555437919409717393950871739773884162126619555839545753565",
+      "decimal_ratio": 0.9854764278318857
+    },
+    "H67_one_minus_t": {
+      "ratio_power": 1,
+      "exact_ratio_to_that_power": "19267452124797981015249052282789776151317861813228977272746132648153324953606181719969355288314823750160639064833179154718555308090078870085840753220633764182085404658374276825475955572779629571882746756324499013199032406472355595452000292497529793361961847448244733222632267485688277618006760714229853099631357610609553383600726115297103066554429406317800984041656932033698187202561508117173241771560855815560863916702792199953787310538173709980757168558025043654435576171402419595444211042840053660232610796444965621299523055691647603044534828478885289970522722385468035957396942108819622596861018866014873260027027675320103120737911508064029512418035664491013768196605866833199656257177784694378604976869941879562430891608110995106833359368051481030979089321785547210026811786083605609742724573565071502928618711038814926110617765211637962929623482117000838972061438325148064006248960066501087299726870597825508458321156063900552543564645422058647670075215600073234387963581292038734575898070505518907289536155249722892970042625485915703952799072591104624594150684672353045594031574459440794453588505380275585076351128477124695705102107126482836434072339853244773016307927067560618228322333048190570711329/19275670756587564359424394766872631819746672722486471327767707030342772225302197163718359057378671402915860956281217553685761398246965024326089146471317507748006910445488810657017235674841033157427933491313736546791882302596480359450687906601798082562320063553717677973970755192738100999477558492779298924466093966150110140086461253688721020589984382539612307980758248808128027654769900823469244367914993772207792435551948013247185326066792334651608877542047465742952724026019715216998000561269604008989289401119934216345858450707461140068842506630698735695841663262462833852465073733376275364895057575957699083945790888175504078057169246459842708812202650419193453113077535299709115624982015965534625536154755089221077533892237423648761983865602860057843986615485581146288583060558563288522217743058202645738755994645699384885292568292248542266096541539998678884438247271675833712409360371420810618837269370354051101953675952721443947481107228524589695625058100891690953938887594566854285380781786780821237515498610659163761622276149371193993310113400827388857700485982421562811634768295177252652323671772398621715177987323529954548209278579824067888006409670538968466345319518695292364145263258556103228800",
+      "decimal_ratio": 0.9995736266772053
+    },
+    "H910_t": {
+      "ratio_power": 1,
+      "exact_ratio_to_that_power": "430623472475032009741185093108924098693309835020538461355078506926600515186571959014653130713513612115677193256527163199546024650243460544198109570981793415415096698305455478297764233345826157729292241762992403970037616282089171534350666076906455300849608797263038581138342738285624233922998786999875363321320704245146570625818930656750535729027196552549604196249852272188268807420248606719514920436314910996617937384523850481662606284135736982509128752303796778778159210956659931750982159742264176925434447560956555994725704146010793839901214642818049324258104521919051227158033428411712687060955501278834491569893435478035499084421921997912010740789095541810970307066212596002051896579417335933422968263941576549350169663837214506110342860467265592786476739133972346302018036443885756015645791237152198675177647016647398265310307199401331788028875912346303834655241270691039966810643253948874600265513245034598121996166315814857582113368604156563631718640747069448459334632660001530117360631116513873533057299284877396764750057777844326845226098302172918673978209272198023999029081074593001209198605772843790910667543963812512569437136041012199707911287728441903982914781752189193402961385663075951316553/436248839871644033880436331477734398858761541401968642605226227034605904280918754947732556285351755270863041493671663854839865266682825224942762157855900092761119497046996131109289635672827539243052449990383474433281925380289401199600868627920921663368997766308733563416283108248217621475938593245052396161217779072429793809957893285511297224399742659534652506831723949997313166578329097728274916317565945660437449494270445008323994923162868192063288969258837434374667587715074519992522812095484385732000604802256632216991229396302010346170557317540598032730961140472279457132997650130077526716436957526119626698228832552704355453785029180200950848997454939964148834106980151221399105316136927086486773156248701755711231553207694640254479122843145685366597570813728767847450374417949236552298937453068055477408812350027230300241112697221095814243608660524436425079523460635844518376708782802091002175501034519631251816184154088024974445555989202030931791019455148627220300362437633903087626428767022162875640736773809853672749124101693607664557215513209558510377376914117257037678026662447468387603989689286567775003615912120191623760335482361548031375091361593506639801113939371464909605315721303317644200",
+      "decimal_ratio": 0.9871051407305355
+    }
+  },
+  "exact_material_comparison_to_original_combined_wall": {
+    "S_quad": {
+      "ratio_power": 2,
+      "exact_ratio_to_that_power": "285598717064871079152415202065036711327074859207144796695602709713295096062361144660265295711564450264790779493061008270926152517484276972283782831215659057257000366869032329072519583475605411927002293574524883600498711045773399916588011223289758769896242745387982745806184231485845176539480307326942647105366103729641399331497032403572421632686411030951103426205220709323993401083236083455281812989670907904509857438536202953158041272313146913022518864315651752275549486168880995117816489884342159586271336855618340641098146063282108561486448196947210105966351611186305559691150161594101125045736299955673786445684478224976604289712643198900373908539207025073014287770734530263524340359597547903349661388219743861422784478968289313689547635779019231716753762129024497541539035166785010922859196597415997099303305800084644057140489719359282252188603693019222347633173327881707840946883042035507244603160039273401365658169286600228451656202660039575461180001139385123544000410706867210093939147383087917173901012130314261869286700648889858554132844934542676369379794563461798026224413849225840846970021319947616661705578925574730798471553809712454440796257593023642670612644269913690257367098377195104599743135091462548473661057544802154660135625301088036458337480006585351877987805519548317879457745602664265384652065767039414292059339988390242516615995429294037124479558243774550273910726923841102602028990790587698605159010895041059779539265283037475552086963514950494452774107296354785842671290963951140722418701199249062398911484143628008720557565514310113548327598223928184174686029618292869120963942379400783978106072669184362110117835434522167034047340422959663869973444478679746479356878775845516147307767604695669205774382688128338487220431099193329685598276937978615326188610135822365473583567387058724129634569620913852032291322515768015711263487164044375694156364564071898481338697501062067081655675472803501699394798684856854928965478457794122297370729374602649249604748541409495441/297620373440741419316310895850664063951825856333666581417357900677623994068376095428034436076895668546084413742467994556556086924615565728914857718250939069323497784398721147826531198336689450706378421390864315025559850801118917206440450481748028169640202363688477013104676415769367180164176780765123738254191313080180294726572018544414379550995063399269016924045830688145319254726573592497730010025690719329284628965941836236505052762339535144762566203282545332261974059681529809880968973873710483895399163950556666047195523616018947719202809682795146010297803392668501757734480511978383113356842931511165432145682794342307008581725476716258735069996454353436350814697344601509399202212545248338450004917482105667127344110708653296684745340030532683052773579934700300488219646628405004154172236917522279347087619872305921732648203868789845106374360029897236052086390680748807010010966473456937137666194779972583586489874723257776604676685357858561438881100222662470528616581782863534860816266894337904810048441081449523832126988246446647829294127343981997684687830719050099546033402764485071400164235929811615903913101914957363766509744301398944126068402028541132692593704632097959966207288360938784622830137979365573638726014155047743647479428855751098427961737517852731013262558168820107394674990780441763625206746728455405661441664744979861746334314540397831813831173342974809455382526460033903256536654149527685122293401006540684597292555087538697908947017487585652055882745735396595356158150936351191964438573688749460673554724683590730843521297089519446259961998545016267516904209301556644934886618080478989776388649224777839878698749160801862499878369424187080607330274426681548337601949595072453487073216476614273802898361211999392777441234267335247289235563737667969170470203361416929460764679867521021087527635173103832205131699692533386972152748162071578216125919096803677932630675453430765659306078994801097756929148309639724717767080243276181547292079465203109804393986011117450000",
+      "decimal_ratio": 0.9795955361864334,
+      "exact_threshold_to_that_power": "2401/2500",
+      "strictly_below_0_98": true
+    },
+    "U54": {
+      "ratio_power": 2,
+      "exact_ratio_to_that_power": "23163246675905720718517977534601898898637581025597349977053906604245556070371118565796290833918065522143764338528216583162648978004476124836233871465939505421690412695179559672999736291527899769098077252916815549933475842038195017665241444236104977735945478347464763898463700069690052436694348426878943473729847191043631492686229277362643804641366067196445397800917436594064879360924702213975375771872158725153298562630261409448779553521099686766500060973593587339074292938760370036251242120322334398582563381584858187897182079521670723483133937345870003859323134230891131409878157349259634648890420561822632273504393533421814893810186917761909726717094509038875380762814097535706029370907110091514006584588148769868712598511563522979466313960406601095099924386519847144711413979890879000801155771510860908293206868755586493556787744269838108147125046483066777462478235086003264455423648242805884344281028812856701095495970812323429857724556964748677294304285228406340914934803314535251645946938645315016639020922590253708658222179571679784470813962720040536176349314374870016909483753851813550627933139940126720098207383845908311909957846665936200678724809691902704314498587011454257095986708698536018559640190943683386942050095973177088009978510064732027205175907927132987806728728054847493985320569503851521347704898015449967334210067091787033107035226199719874505501478424661031383811340714866366459930362300940280871230450604608076146641101667467610890427319675847958205995039700343261865659324573704038762482970263334653407693270152156357723083093976685873771964563328516036063924301214508740726636430663161056649556620536949090403028264367404854610554944446697551528020587878478983137039784345890498092971080736375728561914560752675912801801882412943737931815276028438058344499779980265157807910495180045503701113286124822243614360831234196945925742452204565301977176188348637776856307650398991258955035138123747320303892275924042563118656161753956247229883891609216259476838851782245162810308623513374976350971130026570957365689347848904783135973481349006365775096673671708971922399571854858100415960678427664178942769005351726069533590835433556999681994319195641047171393947903737443920327490683148371893408700770215148595767584531824955450218379449738480635296571374899316483961053317175226487524421719721558492511486809001177606060005974415111665923071133711678313231858521080605137465978617903770228/24186320030450940155751967789817069017827387185983643287099436539956924744153401010236390676374242184841098513743638130529069634618521309641994100774789963256663865123375962753833357706039747191534080555362969736774617565062905790113350599493920346978934850644260439791242582753059506352304647958960641437032739221045244635641661702143910314430246708900524882480553056271844281485376326472004182388621385404103411001539872133311712244807877575786803846259795977506877178634258780331332995306224546996870072064708091954800816640248955414979672156983466847698311616271714125696622358355070326109136673911730552817215109139993749102145325577462178533529769641235785792450017636334366637269406424306760491973972758251900511506949594454197415888002609657637875146602803372617169977082308654664605976677558129792614465406587982303874230097278774979168355964691861911631832196485014659000690268752458843498400067329808553715259267449724052419759734931048707710447881355214767331549256361361397662019608235149313831131680096355591764264582792051405003858645345217501972710690466079604075187365673194947725048651096805212452379425747213639863279799669673229591492984623008837600311486413490316771340046299412394708634784542804180838658478704811231209014925174932470659871626768226913807923450076230220343296806922159129481870172286374026487866882024350750838935107599669080416461575272095136755946270238033880805920953921211988063436121206838948510860109223880085586909340868993692473083869501668674685972885895091772543826277634244533484292258008393126996346349987734526787073743846470402290783811837936968835638837099769541979708459505423198475812736096697472387599958864710168116256032955375753326666181695244292602697940943644083093819663084910962003089264140846625610953889809714071548601885074806650869147371392248116444234498451064505615101926249304629843531150833516173082547629718666319855858095156796229551333376509858129655301909283141227009160476003318972063272071474792660742550299871228602410020730290081406929062222414081141873227285384037554495033888143439406025259361304769101462354780123893085933280977395215201183847879389570011337011883349609955373508298694334991883345505652906420837094455048655708012103015046139831805743327442176119344263902531443753606011398090263495732623672386711278031952435681886350720579765201500632893181537331401069993294851236616344071972403313511780694522195259843305655",
+      "decimal_ratio": 0.9786216480601589,
+      "exact_threshold_to_that_power": "2401/2500",
+      "strictly_below_0_98": true
+    },
+    "H67_one_minus_t": {
+      "ratio_power": 1,
+      "exact_ratio_to_that_power": "33082115955472152202571371688923362307595815025220183206425990629255285166086672856609675874049300886573613663874822845676019173733525851858125001874992260242523076701345860723036743350731384066248768762318613182446230940207042846423703000379007966130297729108395116956927535053825800048009195438571507005953037359753444926187517809664943914832842367486692903492511268320163717218967407925530005120956392396598963243102463806520625843443918348744895813440693869381161117729424677655244544363589962963615595431112434165864272926164609861695194420696572779125555521595629426203375239621110165244459240859101876188422748402031286287575785642759435893796235820268904168051948921301375964964316076276340289411564490957969579359233046120126351268767534738434527470224155781835706371055320923013135088325180847622313611997786387980316441476771166782954884780635487441840846183252632963431577460731281757535409421298342869442206071315603346051033778199560832225795727473948397188351339803624730903047724448225271084161579726221469928414615233590899574047193543456796340180508707635621481149699853052009187443255899624406833663117901543475961860405693390229503802199807059051779563142307776760202948420877399267187/33833202101665524400983504063787412657382408173859837385732186640787645937660994821133230804842777732318615043220401028179670013428971141212696144423539461067147233314749544970910935059370281259043918388829901290226040990140582800975546547480439278546481476821927131482506722922166959541467496641159079677109953905757704990604117804381047043559651649128776098693368278698542459943155846342759150413665765394225232177312041741182387613782914813491499350453721163393372331394162710091618346320819031289441429160206377410490941682949492545942262793728117566852083843309787898509180221962597191672718619805587485186050588486595377574331890256274124334051560203945114184843685940896567448272646794607354936344179126949064776822279411217527752692822389953031542022492121654493053044512368673913031684673776910083651708231491150804825077034513457706668012945125628317984026872168384084573864194962895232318487504179679105800651965100364209989870102118840419960676065255021418521794563586943820909785537732420515435858043529825403582748545187331599346615560696722176294158570030796212763992824965795164687667586284734308027215526249519494013355864921365241072498331994235907781378449565837531653613799042090344400",
+      "decimal_ratio": 0.9778003233647105,
+      "exact_threshold_to_that_power": "49/50",
+      "strictly_below_0_98": true
+    },
+    "H910_t": {
+      "ratio_power": 1,
+      "exact_ratio_to_that_power": "74495209252459708447916276131313908915248468418784248323994627172270651081337225496650960789244017552325970927357463107727854734378052892042229788832899067216679149546497791641708561520296663349980850446986537095048308505969291309146077432818508783163898911648975238022018442369437247089776861267374171037578964330127814042499344374158532732722474019321178104813471295271997509956607397232304753724497142104699521317291678635891562079723055222997048337874081355724975578006416928727613590749098356562489939756087092996830147064724102601815968271732086419311769283101309077956562326710978855944806824418258817106443569069197810464264141558319171313705244274381392370921825880471384974550905527428326344371390907139158060596906978448918131420010411887345493039911587115928931406356455105160971975258831947592071000140771477351873390735327010846913970113358736677370324192654337034604126519799526479155423509547043297467154406156659114065273735205176265390783831415344572765402186457045281032061316847443401561617977396507463393942802823637150052208934012255400861867820116696164134480698160542546948344663601806502457576349584629330973529874847874179459806982787117171359268840027303832081599154373297824944571/76108204237125701095409419499235277508599329442110144389851986195316182008162474644785654332216542933982720172251823819085916167420598731403154707091766846755828649958803941262819886226885102341112764797807312143498771584203817811237557195327739975143679864421199160598024394616878495409954423455076350820703328358211558185356497132287276613768390812002310849664652795130272853682572473550604541543108921616427236278410260466123796578460276940711940462623635999465810889606542014320892142200707009102560264728835953208855649299263915632703066136144945292098664771509532908821597911955265435265904951112284756130006536756072929545109522480746936155659985356408566953820668385666526023462400071380915474041795051817274931104458288064777593655117017666562376946159362514001554036827656289190460999555014059992865666905008710107656123965539911202036980136240674074045686785462211706719084858888263601796685508212547251761695337887508643456056071126926655587950836103393218042964245895530016553832755603218197235917988730571282472404613863745211464051047115623792787628818183734727265846320916358072066136594725948406249923197951254557435669233748193845189079621870330114228057338652460915969267412822353519479300",
+      "decimal_ratio": 0.978806555734248,
+      "exact_threshold_to_that_power": "49/50",
+      "strictly_below_0_98": true
+    }
+  },
+  "global_conclusions": {
+    "all_seven_cells_exact_class": [
+      2,
+      2,
+      2
+    ],
+    "all_six_walls_exact_class": [
+      2,
+      2,
+      2
+    ],
+    "all_37_forced_rails_retained": true,
+    "only_inactive_row_in_open_cells": 73,
+    "all_four_selected_residuals_strictly_monotone": true,
+    "all_four_endpoint_ratios_strictly_below_0_98": true,
+    "winner": false,
+    "endpoint_class": [
+      2,
+      2,
+      2
+    ]
+  },
+  "generated_file_sha256": {
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_source.csv": "9425378a74bbf958121e2e9104473c0624a484e197bbea7d35ca7e0162768dd3",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_endpoint.csv": "bbab8bac5023fa41f472eff3a4ade1f67c3f57c1ce17b1b14363c61b926a1dec",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell0_faces.json": "8421580921c90602120f4af3f175ead1780bbe77bbd9681e4e750d5c48b04ae2",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell1_faces.json": "52cde2f10e4819bb608a54fd7670c9bb3ba86cbb1f48b9973ebb8d10e5f8fe74",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell2_faces.json": "29410d54055b99e7c02e9142eb99be6a32cbf2c33d7044152019221023b21a70",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell3_faces.json": "b836dbe2a75594b52783b9c43e9be10d869f96575b6c75f8c7697367e57aee96",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell4_faces.json": "2ae4f8b3a14a73a93e3c851f17374e80de8aff23c58b3e5c33f708c6c2da4c7c",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell5_faces.json": "a6417e2f2760495b2ff763f0a9525af1f209fc8b3aa5d4ef4b8692151a13f0de",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_cell6_faces.json": "d8cf500d48e2e16dd9160488db699a78d05c483dbb69c79e11f3d89f912613ce",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall1_faces.json": "ce237220f288747d8c668d057cad39992b2a902740da49bdd86910adbc3bbfd0",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall2_faces.json": "d4c005450e76fa05838b999a6c86bc99c67d8305c405d3d4a7c33a446c1cbe1a",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall3_faces.json": "bc4f686199b6ac9cd5ba54aa8906d4e9999483d9b3429b6b552cacd7dd6c7682",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall4_faces.json": "8a83484588cb647b0d6c02ff2aa59f62e069e93c969875a1a03008c4b95ad388",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall5_faces.json": "edd8b931a0168edc7ee5dcb6bc412fd9abc6f5594a80661793050d0d71479f72",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_wall6_faces.json": "723a2c27dd368e4e73c4c577cc93a81278ba2affadaa45b0d45cbd27674735a2",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_canonical.csv": "cb1f8af1f5e20b4e8c0695b8945c2897f428d7cde8278543508a1d2dfffd29af",
+    "tracks/target_flow_certificate/combined_endpoint_mechanics/u54_material_exact_canonical_faces.json": "a881bc1dd70f766635381414eb2b63b88d3150fdd21a6b3f537ab4db7a58bc0b"
+  }
+}

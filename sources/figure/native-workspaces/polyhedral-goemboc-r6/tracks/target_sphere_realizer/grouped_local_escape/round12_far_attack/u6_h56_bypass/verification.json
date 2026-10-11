@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "verdict": "INDEPENDENT_EXACT_U6_H56_AFFINE_BODY_BYPASS_PASS",
+  "winner_status": "NONWINNER",
+  "certificate_sha256": "4be2565adc8ac47f98769b2ff3a5f2107d3efc053ccda6ef7254c51f2f59b918",
+  "builder_sha256": "b01666e45efdc205ed6347d4b0c7030de944e68b394a41c18689d97048cfea12",
+  "verifier_sha256": "93511834cab7d9c7e706cedc51d8652e7daef5c98821a5617ba2bb0b4b8cd2a2",
+  "upstream_certificate_sha256": "31c6f2bcf0aa2d2ae2fb92fd315a4ef8fb1d354e5f1a581dfc4218374aee002a",
+  "guard_contract_names": [
+    "topology:round4_far",
+    "topology:round8_pre",
+    "topology:round10_far",
+    "topology:round12_far",
+    "guard:U263_H10_263",
+    "guard:U1_H1_54",
+    "guard:U6_H5_6",
+    "guard:S6_7_245_component_7_245",
+    "guard:H7_245_beta1",
+    "route_dot:228,198",
+    "route_dot:198,263",
+    "route_dot:263,9",
+    "route_dot:9,8"
+  ],
+  "jacobian": {
+    "derivation": "19 independent exact univariate directional paths",
+    "constraint_names": [
+      "U54_via_1",
+      "H67_beta1",
+      "S7_8_245_via_7_245",
+      "H198_263_beta2",
+      "topology_round4_far",
+      "topology_round8_pre",
+      "topology_round10_far",
+      "topology_round12_far",
+      "U263_via_10",
+      "U1_via_54"
+    ],
+    "rank": 10,
+    "augmented_rank": 11,
+    "nullity": 9,
+    "antibirth_response_sign": -1,
+    "full_27d_chart": {
+      "rank": 10,
+      "augmented_rank": 11,
+      "nullity": 17,
+      "proof": "the exact 10-row direct 19-column submatrix has rank 10 and its target-augmented 11-row submatrix has rank 11; adjoining the eight projective/affine actual-body control columns cannot raise either rank above its row count"
+    }
+  },
+  "actual_body_affine_deformation": {
+    "applied_to_every_vertex": true,
+    "uniform_density": true,
+    "own_volume_centroid_recomputed": true,
+    "centroid_affine_covariance_exact": true,
+    "ambient_metric_changed": false,
+    "artificial_center_used": false
+  },
+  "primitive_counts": {
+    "bypass": 7904,
+    "strict_continuation": 7904,
+    "next_root_bracket_other": 7902
+  },
+  "next_event": {
+    "interval": [
+      "138446381212812352903651079/922337203685477580800000",
+      "276892762425624705807302159/1844674407370955161600000"
+    ],
+    "degree": 9,
+    "common_primitives": [
+      "vertex:6:5",
+      "edge:5,6:one_minus_t"
+    ],
+    "class_transition": [
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ]
+    ],
+    "support": [
+      61,
+      162,
+      103
+    ]
+  }
+}

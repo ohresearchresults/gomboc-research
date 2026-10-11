@@ -1,0 +1,12 @@
+# material-28c9f2eed87f
+
+Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
+
+Public derivative: unreviewed-encoded-blocks-omitted.
+
+---
+
+{"checker_pins":{"verify_catalogue.py":[8229,"459eb1de9cf3d876f9937832ca13c12b9ee0b1faa0c0a13ab9966d3ad2c55cac"]},"commands":[["verify_catalogue.py","standard_certificates.json","standard_report.json","standard_exact.log"]],"identity":"TREE253_K2_CHECKPOINT40_FROZEN_NATIVE_V1","input_pins":{"standard_certificates.json":[11128,"abe9751d9095b15907db617ba80ba4ffd25dc9db9d96b129733ce7dfd6e1878f"]},"native_index":9,"new_root_positions":[1,8],"output_pins":{"standard_exact.log":[249,"1fb423722df5a14ad10311ae5e6d6f5751c1afcd70f676b3eaae9ddabd38cb31"],"standard_report.json":[1941,"55ce080fa48b304ca15bd9af80d5a3c432aabc2808d81186b97ebbfb0fd11ae2"]},"raw_pin":[4911,"438258c2452214e9b1858a8e4a7b5b909f41087bf071aae5a09c848e4706a27f"]}
+
+
+[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]

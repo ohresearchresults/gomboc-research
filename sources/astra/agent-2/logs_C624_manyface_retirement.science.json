@@ -1,0 +1,139 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 1,
+        "minimum": 6.234380798222136e-06,
+        "concave_face_area_loss": 790.789577075557,
+        "centroid": [
+          1.6479203242780724e-16,
+          -1.2161773610908284e-18,
+          9.242947944290295e-17
+        ],
+        "loss": 790.789577075557,
+        "trust": 0.02,
+        "seconds": 3.6129348278045654
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.99724113845694e-08,
+        "concave_face_area_loss": 789.8264533356867,
+        "centroid": [
+          7.222478812254394e-05,
+          -0.00036761441243029813,
+          0.0002538704717028059
+        ],
+        "loss": 789.8264533356867,
+        "trust": 0.0497664,
+        "seconds": 24.188857793807983
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.990279948975026e-08,
+        "concave_face_area_loss": 789.5671140192586,
+        "centroid": [
+          0.00010658926849678269,
+          -0.00048811241353969263,
+          0.0003812735426414235
+        ],
+        "loss": 789.5671140192586,
+        "trust": 0.0497664,
+        "seconds": 83.9112639427185
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999655242276347e-08,
+        "concave_face_area_loss": 789.3913670726063,
+        "centroid": [
+          0.00017977577365034728,
+          -0.0007693508262999739,
+          0.0006992291664154161
+        ],
+        "loss": 789.3913670726063,
+        "trust": 0.05971968,
+        "seconds": 134.84155988693237
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999995859340542e-08,
+        "concave_face_area_loss": 789.263380141633,
+        "centroid": [
+          0.00011929223762412362,
+          -0.0008662513398677096,
+          0.0007440515644260187
+        ],
+        "loss": 789.263380141633,
+        "trust": 0.05971968,
+        "seconds": 196.36847686767578
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 25,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999984076033228e-08,
+        "concave_face_area_loss": 789.1647284523731,
+        "centroid": [
+          -5.476630298493969e-05,
+          -0.000841675533461185,
+          0.0006612338148165355
+        ],
+        "loss": 789.1647284523731,
+        "trust": 0.05971968,
+        "seconds": 267.2356460094452
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "OWN_STRICT_FLOW",
+      "values": {
+        "it": 30,
+        "S": 1,
+        "U": 1,
+        "minimum": 9.999927390429799e-08,
+        "concave_face_area_loss": 789.122165367243,
+        "centroid": [
+          -8.146164277594e-05,
+          -0.0009212915596036973,
+          0.0006418091233298957
+        ],
+        "loss": 789.122165367243,
+        "trust": 0.05971968,
+        "seconds": 349.00084400177
+      }
+    }
+  ]
+}

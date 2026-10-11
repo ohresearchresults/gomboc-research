@@ -1,0 +1,269 @@
+# figure-0366
+
+Historical AI scientific report · saved 2026-09-14 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
+
+Public text derivative: internal-record-identifiers-replaced.
+
+---
+
+# Nimble Harbor72 — конечная двухкрышечная компенсация и её механическое ограничение
+
+## 1. Итог
+
+**Нового own-volume-centred strict110/weak000 с C<624 не получено. Канонический положительный уровень C624 не изменяется.** Получены два новых конечных многовершинных преобразования с действительно замкнутыми собственными объёмными моментами. Они точно определены изолированными алгебраическими корнями и имеют соответственно **V173/E309/F138, strict(9,2,9)** и **V172/E308/F138, strict(10,3,11)**, weak000. Для каждого дополнительно предъявлен близкий, отдельно определённый рациональный многогранник с тем же полным цензом. Оба рациональных тела прошли два независимых полных точных аудита, третье интегрирование массы и холодный replay.
+
+Главное ограничение оказалось не в точности моментного решения. Для первой новой геометрии любые совместимые изменения двух крышек, возвращающие собственный центр в явно заданную окрестность исходного, сохраняют **не менее двух строгих U**, для второй — **не менее трёх**. Это доказано неизменёнными опорными конусами, а не неуспехом оптимизатора. Дальнейшее уточнение той же компенсации само по себе не может дать110: необходимо менять оставшиеся критические вершины или их поддерживающие плоскости.
+
+## 2. Источник и байтовая граница
+
+Координатный источник — исключительно **COORD_CAP_RL_C624_STRONG_G8, S8**, не COORD_TRIPLE_C624_OWN121_G14 и не FINCH_SEQUENTIAL_C618. Полный BASE_GENERATOR.json имеет9599 байт, SHA-256 `bf9fdaf05231ceb11fba9fde10c8a638e664b52233b2da5cb11977b2f4ff27b2`. Все137 H-строк сначала реконструируются; затем явно удаляется исходная поддержка99 либо117. Anchor137 сохраняется. Поле active_ids не подменяет фильтрацию.
+
+Полностью восстановлена четырёхчастная27-файловая координаторская капсула COORD_S8_CAP_SLIDE:47960 base64-символов, SHA `e749e6b45436636c172a725c058b729a098c4ef5213a1d2371c40282fe6d0417`; decoded121552 байта, SHA `ef0a76e229b1b640b2b186d8792bb5f2ac81093f54f7440ede5dddf40e34b117`. Manifest всех исходников совпал. Предшествующий результат устанавливал локальную разрешимость управления центроидом по невырожденному якобиану, но не конечный радиус и не механический успех. 
+
+**Обнаружено транспортное расхождение хеша, не альтернативная геометрия.** Для evidence-parent `figure-0365` метаданные называют `c00d707b68ac1ed80be88960dad668969b21b25ef57afbd02f4bef9d22299ffb`. Срез представленного Markdown от заголовка `# Nimble Harbor72` до EOF содержит72505 UTF-8 байт и даёт `0e08a04fc60eca3c02232781fa6c142c99609d2c0bc38a9981c35341b0147b55`; в нём присутствуют rendered contentReference-подстановки. Причина полного несовпадения не установлена, равенство этих потоков не заявляется. Геометрия взята из независимо полностью совпавшей координатной капсулы. Точные границы среза и оба хеша сохранены в PROVENANCE.json.
+
+## 3. Две новые конечные геометрии
+
+Номера вершин далее — декартовы raw-lex номера **соответствующего точного тела после удаления поддержки**, K99 либо K117, не исходные номера S8 и не старая примитивно-полярная нумерация.
+
+**PAIR99.** Из K99 удалить физические вершины `[129,145]`. Удалить эти номера из всех старых максимальных циклов; ни одна старая грань не исчезает. Добавить наружные треугольники `[124,149,146]` и `[112,124,146]` с метками `PAIR99_CUT_0` и `PAIR99_CUT_1`. Корпус и его компенсированные версии имеют actual **173/309/138**, бюджет2E=618.
+
+**TRIPLE117.** Из K117 удалить физические вершины `[77,78,81]`. После удаления этих номеров старая грань filtered index55, то есть original support55, вырождается и удаляется. Добавить наружные треугольники `[75,76,84]`, `[71,75,84]`, `[76,86,84]` с метками `TRIPLE117_CUT_0..2`. Actual **172/308/138**, бюджет2E=616. Это не прежний одновершинный endpoint.
+
+Полные крышки:
+
+```text
+PAIR99:
+small interior = [0,2]
+small boundary = [1,3,10,95]
+large interior = [83,85,87,91,93,96,98,102,105,110,113]
+large boundary = [79,90,95,116]
+
+TRIPLE117:
+small interior = [0,2]
+small boundary = [1,3,10,93]
+large interior = [82,83,85,89,91,94,96,100,103,108,111]
+large boundary = [79,88,93,114]
+```
+
+Если B состоит из четырёх однородных граничных столбцов, β=B⁻¹(p,1), то только внутренняя точка крышки перемещается по формуле
+
+`p(η)=[p+Ση_k β_j q_j]/[1+Ση_k β_j]`.
+
+Три управления: η0=small λ2−1, η1=large λ0−1, η2=large λ1−1. Остальные λ=1. Границы фиксируются точно; крышки не пересекают изменённую критическую область и чужие границы. Дополнительная физическая метрика в конечных объектах — **A=I**.
+
+## 4. Полные параметры и точная конечная компенсация
+
+Следующие целые тройки делятся на **2^120**:
+
+```text
+PAIR99:
+[-333412176052727923408714378468258183,
+   32223247221739879834538304508376034,
+   11398562434443787228821663143046664]
+
+TRIPLE117:
+[-40630837793741722467699738914426741,
+  46683469020727495479095938303891610,
+  22361069415489297116574124754295868]
+```
+
+Эти η̄ определяют два **рациональных** объекта PAIR99_R120 и TRIPLE117_R120. Их собственные центры вычисляются точно, а не заменяются старым центром.
+
+Для каждого отдельно определяется **алгебраический объект** PAIR99_ALG либо TRIPLE117_ALG. Пусть c0 — точный собственный объёмный центроид исходного K99 либо K117. Выбрать единственный действительный корень в рациональном кубе
+
+`|η_k−η̄_k|≤2^−100, k=0,1,2`
+
+трёх уравнений
+
+`F_k(η)=M_k(η)−c0_k V(η)=0`.
+
+V и M интегрируются по действительным наружным граням **изменённого заполненного тела**:
+
+`V=Σdet(a,b,c)/6`,
+
+`M=Σdet(a,b,c)(a+b+c)/24`.
+
+Это полная рациональная цепь вычислений с буквальными входами в капсуле. Умножение на произведение квадратов13 положительных линейных знаменателей перемещаемых точек даёт три полинома степени не выше26. Развёрнутые коэффициенты не нужны для определения: весь конечный вычислительный рецепт и изолирующий куб включены. Алгебраическая степень самого корня не вычислена.
+
+### Что доказано сверх локального якобиана
+
+ROOT_VERIFY.py использует наружное двоичное округление с220 дробными битами и интервальное автоматическое дифференцирование. Для каждого куба X вычислены интервальный J, точная рациональная C и строгое включение
+
+`−CF(η̄)+(I−CJ(X))(X−η̄) ⊂ int(X−η̄)`.
+
+Также `||I−CJ(X)||∞<1/2`. Сжимающее отображение доказывает существование и единственность корня. Фактические верхние нормы приблизительно9.80·10^−26 и9.23·10^−26; отношения максимального сдвига Кравчика к радиусу куба меньше4·10^−7 и5·10^−7.
+
+На всём кубе доказаны положительность λ и однородных знаменателей, строгие неинцидентные supporting gaps, максимальная выпуклая планарность граней, истинная парность рёбер и ранг3 нормалей у каждой вершины. Все механические знаки относительно c0 изолированы на всём кубе. **Именно в доказанном корне c0 является собственным центроидом**; произвольные точки куба не объявляются идеально замкнутыми по массе.
+
+Это конечные изменения: PAIR99 имеет η0≈−0.25083144 и максимальное перемещение крышки≈0.00898273; TRIPLE117 — перемещение≈0.01147274. Однако непрерывный компенсационный путь от исходного тела до этих точек не сертифицирован. Доказаны конечные точки, не отсутствие рождений вдоль пути.
+
+## 5. Полный конечный ценз и масса
+
+|Объект, включая рациональный и алгебраический варианты|Actual V/E/F|Strict S/U/H|Weak-only|
+|---|---|---|---|
+|PAIR99|173/309/138|9/2/9|0/0/0|
+|TRIPLE117|172/308/138|10/3/11|0/0/0|
+
+У PAIR99 U в исходных метках K99 — **[95,124]**, стабильные original supports — **[3,25,28,31,32,63,95,96,132]**. Полный список H:
+
+`[[1,95],[85,95],[87,95],[91,95],[93,95],[95,96],[95,98],[95,102],[124,146]]`.
+
+У TRIPLE117 U=**[75,76,93]**, стабильные supports — **[3,27,28,31,32,63,95,96,132,TRIPLE117_CUT_0]**. Полный H:
+
+`[[1,93],[75,76],[75,84],[76,84],[85,93],[89,93],[91,93],[93,94],[93,96],[93,100],[93,103]]`.
+
+Все138 входных граней активны. Проверены соответственно **1236 и1232 ненулевых примитива настоящих рёбер**: оба условия внутренности линейной проекции и оба коэффициента инцидентного нормального конуса. H не выводится только из S/U. Нулевые счётчики сторон граней и максимального вершинного выхода также равны0.
+
+Контрольные приближения рациональных вариантов:
+
+```text
+PAIR99_R120:
+V ≈ 0.4887950019756488
+M ≈ (-0.006126396125729368,0.003069559401140175,-0.004344955600852314)
+g ≈ (-0.01253367178667383,0.006279850220917556,-0.008889116262012792)
+
+TRIPLE117_R120:
+V ≈ 0.4888875444268873
+M ≈ (-0.006127578787955621,0.003070182953140018,-0.004345838156840699)
+g ≈ (-0.012533718352630263,0.006279936946929441,-0.008889238857445702)
+```
+
+Полные сокращённые рациональные V,M,g выдаются обоими аудиторами. Ошибка собственного центра относительно c0 строго меньше10^−35 у обоих рациональных вариантов; readouts≈3.49·10^−40 и2.84·10^−39. У алгебраических вариантов **M=c0V точно**. У рациональных вариантов отдельное центрированное целочисленное интегрирование342/340 положительных тетраэдров даёт первые моменты точно000 относительно их собственных, отдельно вычисленных центров.
+
+Полные новые бассейны алгебраических объектов:
+
+|Объект|Глобальный primal-корень|Замкнутый нежелательный primal-бассейн|Граница|Нежелательный polar-бассейн|Граница|
+|---|---:|---:|---:|---:|---:|
+|PAIR99|95|142 вершины|71 ребро|105 supports|64 пары|
+|TRIPLE117|93|123 вершины|83 ребра|105 supports|65 пар|
+
+Полярный глобальный корень — support3. Используются физически центрированные полюса, не центроид полярного объёма. Старые нежелательные вершины145 и81 удалены физически, но их полный бассейн не отменён; компенсация рождает дополнительные стабильные равновесия в крышках.
+
+## 6. Точное ограничение для любых конечных компенсаторов этих корпусов
+
+Пусть v — неизменённая вершина нового корпуса, q1,q2,q3 — три независимые неизменённые поддерживающие нормали. Точно найдено
+
+`v−c0=λ1q1+λ2q2+λ3q3`, все λk>0.
+
+При любом совместимом изменении крышек, сохраняющем эти точки и поддерживающие полупространства и имеющем собственный центр c0, v остаётся строго U. Амплитуда крышек не ограничена малой окрестностью тождества.
+
+Если L — обратная матрица столбцов qk, то
+
+`ρ=min_k λk/(2||L_k||1)`
+
+сохраняет положительность коэффициентов при `||c−c0||∞<ρ`. Это ограничение **фактического собственного центра**, не право назначить reference point.
+
+```text
+PAIR99:
+vertex95: supports [0,2,35]
+vertex124: supports [3,44,PAIR99_CUT_0]
+225447/10^12 < rho < 225448/10^12
+Следствие: U>=2.
+
+TRIPLE117:
+vertex75: supports [118,119,TRIPLE117_CUT_0]
+vertex76: supports [56,88,TRIPLE117_CUT_0]
+vertex93: supports [0,2,35]
+218558/10^12 < rho < 218559/10^12
+Следствие: U>=3.
+```
+
+Нормали, все положительные рациональные коэффициенты и точные радиусы восстанавливаются FROZEN_STARS.py. **Исключены эти две геометрии при сохранённых конусах и центре внутри указанных кубов**, включая произвольные совместимые двухкрышечные компенсации. Не исключены изменения критических вершин/плоскостей, иной метрики, иной инцидентности или собственного центра вне этих кубов.
+
+Дополнительно завершена новая условная проверка девяти сдвигов при **идеально восстановленном собственном c0 и произвольных совместимых крышках**. Это не прежняя серия с меняющимся нескомпенсированным центроидом: новые примитивы `(X_i(s)−c0)·(X_j(s)−X_i(s))` квадратичны. Производитель строит полный диадический cover; независимый проверяющий использует точные максимумы квадратного полинома на интервалах, не Bernstein-код производителя. На каждом интервале есть неподвижный строгий U и другой слабый U вне движущихся крышек. Это отсутствие110 **условно на совместимой физической компенсации**, не доказательство существования компенсации для каждого s. Все клетки и оба источника включены.
+
+## 7. Конечные численные исследования
+
+Исполнены36 моментно замкнутых численных предложений по трём компенсированным сдвигам, многовершинные корпуса и15 стартов в шестипараметрической двухкрышечной карте с тремя зависимыми моментными координатами. Лучший сохранённый PAIR99 из последней серии имеет12/2/12, не110. Отдельные20 стартов двух крышек плюс пяти физических метрических координат с корнедостижимыми лесами также не дали110; лучший по использованной невязке вариант имеет49/45/92. Понижение этой невязки не называется улучшением механики.
+
+Все runnable источники, точные входы, seeds141200/141026 и лимиты200/150 evaluations включены. Floating-траектории могут зависеть от платформы; точные конечные определения от них не зависят. Отрицательные численные результаты не исключают всё пространство крышек и метрик. Доказанные исключения ограничены предыдущим разделом.
+
+## 8. Арифметика и реально завершённая проверка
+
+Максимальные битовые длины окончательных рациональных данных:
+
+|Объект|Целые H|Сырые вершины, числ./знам.|Объём|Первые моменты|Сырой COM|Центрированные вершины|
+|---|---:|---|---|---|---|---|
+|PAIR99_R120|654|609/613|27284/27285|54430/54438|54430/54437|54440/54441|
+|TRIPLE117_R120|658|609/613|27130/27131|54130/54138|54130/54137|54136/54137|
+
+Общие центрированные знаменатели имеют54492 и54179 бит. У алгебраических вариантов COM равен рациональному c0, но вершины и плоскости вообще алгебраичны: приписывать им размеры рациональных дробей из таблицы нельзя. Их описание — полный рациональный генератор, три рациональных уравнения и изолирующий куб; минимальные полиномы координат не вычислены.
+
+A и B независимо построили пересечения опор, максимальные грани, истинные рёбра, собственную массу и весь strict/weak ценз **рациональных** вариантов; нормализованные записи совпали побайтово. Для алгебраических вариантов завершена отдельная строгая интервальная проверка геометрии и всех равновесий. **Две независимые алгебраические hull-enumeration реализации не заявляются.**
+
+Полная капсула декодирована в другую новую папку; холодный запуск из23 исходников заново восстановил корпуса, оба рациональных варианта, A/B, третью массу, оба изолированных корня и ограничения. Непосредственно наблюдён:
+
+`NH72_TWO_FINITE_CAP_COMPENSATORS_ROOTS_AND_RATIONAL_AUDITS_COLD_PASS`.
+
+```text
+PAIR99 raw.json22309bytes:
+761142d29da5a091eb7b2d94147e4ea55a1b1766a138a9d73593395cab9c4788
+PAIR99 A.json=B.json305176bytes:
+e92068fe47ede4f6f37d62401c006be7327a4ad30717c5a79e6b6ba1478928a6
+
+TRIPLE117 raw.json22176bytes:
+53b8da0c01e388dfe482e8cffbf187dd6933276aabb105479dac47c13f21ba11
+TRIPLE117 A.json=B.json303554bytes:
+73b6a8d4dd559431af56808912250bdc897cf689daf6b99523c21a418c9500e3
+
+Cold RECEIPT.json2937bytes:
+689e6954cb3e3d8fdb9f03923d474983291c4d8b90b1737b68da42ace555e13c
+```
+
+Остальные byte-count/SHA, включая ROOT, DETAILS и конусные сертификаты, находятся в буквальном EXPECTED.json. Контроли tetra446/weak000 и призма446/weak123 отвергнуты воротами110; проверено отбрасывание неверных H-систем. Assertions обязательны.
+
+## 9. Полная самостоятельная recovery capsule
+
+Формат **base64(LZMA(UTF-8 JSON dictionary))**.23 полных файла: весь S8-генератор, реконструктор, оба аудитора, конечные определения корпусов/крышек/параметров, интервальное дифференцирование и root proof, полный ценз, третья масса, label maps, конусные ограничения, обе программы условных covers, все существенно использованные поисковые программы с помощниками, manifest, provenance и expected outputs. Никакой внешний исходный файл не нужен.
+
+```text
+Decoded JSON:83582bytes
+SHA-256:03f6c84c0dc60d90d2f5744646d1a855be12a796d1dd6fe5ef1131e00f9be087
+Normalized base64:35068characters
+SHA-256:da1b64945f3f80c622d10720596c27ab567bd5dd7fe152cde0aeadee4f03ec07
+```
+
+Точное исполнение: CPython3.13.5, только standard library. Численный поиск: NumPy2.3.5, SciPy1.17.0, mpmath1.3.0, BLAS/OMP1. Сохранить значение result_markdown как result.md, декодер как restore.py:
+
+```python
+import base64,hashlib,json,lzma,subprocess,sys
+from pathlib import Path
+assert __debug__
+sys.set_int_max_str_digits(0)
+s=Path(sys.argv[1]).read_text(encoding='utf-8')
+u=s.split('NH72_FINITE_CAP_'+'B64_BEGIN',1)[1].split('NH72_FINITE_CAP_'+'B64_END',1)[0]
+u=''.join(u.split())
+assert len(u)==35068
+assert hashlib.sha256(u.encode()).hexdigest()=='da1b64945f3f80c622d10720596c27ab567bd5dd7fe152cde0aeadee4f03ec07'
+b=lzma.decompress(base64.b64decode(u,validate=True))
+assert len(b)==83582
+assert hashlib.sha256(b).hexdigest()=='03f6c84c0dc60d90d2f5744646d1a855be12a796d1dd6fe5ef1131e00f9be087'
+f=json.loads(b);assert len(f)==23
+out=Path(sys.argv[2]);out.mkdir(parents=True,exist_ok=False)
+for name,text in f.items():
+    p=Path(name)
+    assert not p.is_absolute() and '..' not in p.parts
+    q=out/p;q.parent.mkdir(parents=True,exist_ok=True)
+    q.write_bytes(text.encode('utf-8'))
+subprocess.run([sys.executable,'-B','-S',str(out/'REPLAY.py'),'--out',sys.argv[3]],check=True)
+```
+
+Команда: `python -B -S restore.py result.md recovered-source recovered-output`; оба каталога первоначально отсутствуют. REPLAY поддерживает отдельные стадии BASE; PAIR99_BUILD/A/B/ROOT/DETAILS; TRIPLE117_BUILD/A/B/ROOT/DETAILS; COVERS; FINISH. Холодное исполнение завершено именно последовательными стадиями. Необязательное численное продолжение: `python recovered-source/SEARCH_REPLAY.py null99 recovered-output fresh-search` либо forest99; это поиск, не сертификат.
+
+```text
+NH72_FINITE_CAP_B64_BEGIN
+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
+NH72_FINITE_CAP_B64_END
+```
+
+## 10. Следующий содержательный шаг
+
+Две крышки уже доказанно компенсируют конечное изменение материала, а не только имеют правильный линейный ранг. Но обе выбранные многовершинные операции оставляют неизменённые строгие нормальные конусы, и точное удержание старого собственного центра сохраняет нежелательные U. Следующая геометрия должна изменить или убрать конус вершины124 с supports3/44/PAIR99_CUT_0 либо конусы75,76 с перечисленными supports. Одно повышение точности того же компенсатора этого не делает. После такой смены необходима новая проверка полярных рождений в самих двух крышках.
+
+Непрерывный успешный путь, strict110 ниже624, глобальное исключение более широких перестроек и минимальность C не установлены. Поиск C<32 не выполнялся.
+
+[Дополнительный архив исходников, точных отчётов, холодного receipt и численных записей](sandbox:/mnt/data/NH72_two_cap_finite_compensation_handoff.zip),2366912bytes,SHA-256 `2e265e4e1e25daf8c89e1557904cd9d75c22e1510cf762a0c95fcbadce9ca081`. Буквальная капсула достаточна без этой ссылки.

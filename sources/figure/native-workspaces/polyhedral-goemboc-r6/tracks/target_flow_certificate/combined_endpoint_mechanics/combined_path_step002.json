@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "source": "combined_path_step001.csv",
+  "lp_json": "combined_path_step001_lp.json",
+  "alpha": 0.0006,
+  "lp_delta": 0.9866457824405417,
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 'one_minus_t')"
+  ],
+  "f_vector": [
+    61,
+    161,
+    102
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "faces_match": true,
+  "all_vertices_active": true,
+  "all_forced_rails_present": true,
+  "topology_margin": 1.1573098793182801e-07,
+  "death_ratios": {
+    "('face', (7, 8, 245, 246), (8, 246))": 0.9980876417835141,
+    "('vertex', 54, 1)": 0.9994007085461525,
+    "('edge', (6, 7), 'one_minus_t')": 0.9989127159780845,
+    "('edge', (9, 10), 'one_minus_t')": 0.9994003593976754
+  },
+  "minimum_signed_guard_ratio": 0.0031327934379519,
+  "minimum_signed_guard": {
+    "key": "('edge', (14, 73), 'beta2')",
+    "kind": "nonsaddle_edge_witness",
+    "baseline_value": -2935569.9660684704,
+    "new_value": -9196.534326347986
+  }
+}

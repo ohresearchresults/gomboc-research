@@ -1,0 +1,63 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0018939744965032722,
+        "deficit": 0.21050043394204115,
+        "objective": 4.211902653337326,
+        "minimum_noncontact": 2.3285041452547617e-05,
+        "it": 0,
+        "seconds": 0.7852098941802979,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0019031025118396827,
+        "deficit": 0.21043517625760833,
+        "objective": 4.210606627664006,
+        "minimum_noncontact": 2.4465566857978516e-05,
+        "it": 1,
+        "seconds": 9.211036920547485,
+        "trust": 0.05
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 151,
+        "E": 248,
+        "F": 99,
+        "S": 69,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.00271061875196426,
+        "deficit": 0.2084786677629194,
+        "objective": 4.172283974010352,
+        "minimum_noncontact": 4.9987866288625504e-05,
+        "it": 2,
+        "seconds": 17.539030075073242,
+        "trust": 0.0675
+      }
+    }
+  ]
+}

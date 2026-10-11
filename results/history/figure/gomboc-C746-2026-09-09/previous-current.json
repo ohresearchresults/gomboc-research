@@ -1,0 +1,13 @@
+{
+  "tag": "COORD_H141_C752_D1000000",
+  "complexity": 752,
+  "vertices": 237,
+  "edges": 376,
+  "facets": 141,
+  "strict": [1, 1, 0],
+  "weak": [0, 0, 0],
+  "definitionSha256": "1353da92125392ca69c92fb1c695187a9e98bd8791c8dd3c2eb7c056dbfdeccf",
+  "package": "../gomboc-C752-2026-09-09",
+  "evidence": "two exact auditors; two fresh local replays; all five output hashes match the author",
+  "globalMinimumProven": false
+}

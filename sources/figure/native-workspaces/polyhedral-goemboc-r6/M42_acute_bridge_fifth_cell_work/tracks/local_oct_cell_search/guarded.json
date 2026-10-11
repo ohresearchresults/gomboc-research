@@ -1,0 +1,279 @@
+{
+  "core": [
+    198,
+    224,
+    258,
+    229,
+    247,
+    228
+  ],
+  "opposite_pairs": [
+    [
+      198,
+      247
+    ],
+    [
+      224,
+      228
+    ],
+    [
+      258,
+      229
+    ]
+  ],
+  "fully_guarded_linear_lp": {
+    "success": false,
+    "status": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "target_count": 10,
+    "guard_count": 12434,
+    "baseline_targets": {
+      "stable-foot-death": -0.6819299931297318,
+      "saddle-beta1-death": -2.2139312365396746,
+      "relay:198,224,229": 0.3977202410125587,
+      "relay:198,224,258": 0.2584989371591945,
+      "relay:198,228,229": -0.030159535234095272,
+      "relay:198,228,258": -0.005251732033574325,
+      "relay:224,229,247": 1.1264481574690637,
+      "relay:224,247,258": 0.6497462092946229,
+      "relay:228,229,247": 11.983287409032505,
+      "relay:228,247,258": 1.1823292316724976
+    },
+    "baseline_guard_min": 3.869169282466611e-06,
+    "baseline_guard_arg": "topology:f6:row3",
+    "event_epsilon": 1e-06,
+    "farkas_success": true,
+    "farkas_b_dot_y": -0.2272225328525601,
+    "farkas_at_y_inf": 2.449235617321718e-14,
+    "farkas_sum_y": 0.9999999999999998,
+    "farkas_support": [
+      {
+        "name": "target:stable-foot-death",
+        "weight": 0.00026728081037484525,
+        "rhs": -0.6819309931297318,
+        "baseline_value": -0.6819299931297318,
+        "requested": 1e-06
+      },
+      {
+        "name": "target:saddle-beta1-death",
+        "weight": 0.7351701628857522,
+        "rhs": -2.2139322365396747,
+        "baseline_value": -2.2139312365396746,
+        "requested": 1e-06
+      },
+      {
+        "name": "guard:rail:short:228->229",
+        "weight": 0.0016494488951783863,
+        "rhs": 6.0956284791643744,
+        "baseline_value": 6.0956284791643744,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:rail:short:229->230",
+        "weight": 0.002779277225611344,
+        "rhs": 2.8820155281155144,
+        "baseline_value": 2.8820155281155144,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiface:f63:c0",
+        "weight": 0.0002268213329985792,
+        "rhs": 8.519620251331498,
+        "baseline_value": 8.519620251331498,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:0-54:c3",
+        "weight": 1.2469007767013433e-07,
+        "rhs": 5646.507397811981,
+        "baseline_value": 5646.507397811981,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:54-258:c3",
+        "weight": 1.1301585029228186e-08,
+        "rhs": 884.7049555463856,
+        "baseline_value": 884.7049555463856,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:69-228:c2",
+        "weight": 0.00023584438599892475,
+        "rhs": 17.06234664965786,
+        "baseline_value": 17.06234664965786,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:198-259:c2",
+        "weight": 1.0086662029731784e-08,
+        "rhs": 590.9346597767338,
+        "baseline_value": 590.9346597767338,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:224-229:c3",
+        "weight": 1.7699997239345644e-05,
+        "rhs": 640.9801892649548,
+        "baseline_value": 640.9801892649548,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:224-230:c3",
+        "weight": 0.0004299091363819747,
+        "rhs": 152.9919540970105,
+        "baseline_value": 152.9919540970105,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:224-247:c3",
+        "weight": 2.0629344575139813e-05,
+        "rhs": 318.4827777763701,
+        "baseline_value": 318.4827777763701,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:224-257:c3",
+        "weight": 3.0219540121830024e-06,
+        "rhs": 577.9541793676584,
+        "baseline_value": 577.9541793676584,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:224-258:c2",
+        "weight": 1.6790654967954504e-08,
+        "rhs": 7417.104143125858,
+        "baseline_value": 7417.104143125858,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:228-230:c3",
+        "weight": 0.0001353310259824364,
+        "rhs": 15.080941434230672,
+        "baseline_value": 15.080941434230672,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:228-235:c2",
+        "weight": 8.066951960368348e-06,
+        "rhs": 1143.4409894416272,
+        "baseline_value": 1143.4409894416272,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:228-247:c3",
+        "weight": 0.22139331652880692,
+        "rhs": 4.0785547925835175,
+        "baseline_value": 4.0785547925835175,
+        "requested": 0.0
+      },
+      {
+        "name": "guard:antiedge:228-248:c3",
+        "weight": 0.03766311734651689,
+        "rhs": 9.987609433206913,
+        "baseline_value": 9.987609433206913,
+        "requested": 0.0
+      }
+    ],
+    "beta_only_vs_antiedges": {
+      "success": false,
+      "constraint_count": 163,
+      "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)",
+      "farkas_success": true,
+      "farkas_b_dot_y": -0.20225608520388316,
+      "farkas_at_y_inf": 2.8015477965221146e-15,
+      "farkas_sum_y": 0.9999999999999999,
+      "farkas_support": [
+        {
+          "name": "target:saddle-beta1-death",
+          "weight": 0.6878441847584088,
+          "rhs": -2.2139322365396747
+        },
+        {
+          "name": "guard:antiedge:0-54:c3",
+          "weight": 1.5519624062328554e-06,
+          "rhs": 5646.507397811981
+        },
+        {
+          "name": "guard:antiedge:54-258:c3",
+          "weight": 5.8526736607937986e-08,
+          "rhs": 884.7049555463856
+        },
+        {
+          "name": "guard:antiedge:69-228:c2",
+          "weight": 0.0002996940611496582,
+          "rhs": 17.06234664965786
+        },
+        {
+          "name": "guard:antiedge:198-224:c2",
+          "weight": 1.9701783755538683e-05,
+          "rhs": 97.86794972578132
+        },
+        {
+          "name": "guard:antiedge:224-229:c3",
+          "weight": 1.6692851498497013e-05,
+          "rhs": 640.9801892649548
+        },
+        {
+          "name": "guard:antiedge:224-230:c3",
+          "weight": 0.00038929435575585624,
+          "rhs": 152.9919540970105
+        },
+        {
+          "name": "guard:antiedge:224-241:c2",
+          "weight": 2.4825899414538948e-08,
+          "rhs": 546.3069852403115
+        },
+        {
+          "name": "guard:antiedge:224-247:c3",
+          "weight": 1.7761507839988366e-05,
+          "rhs": 318.4827777763701
+        },
+        {
+          "name": "guard:antiedge:224-257:c3",
+          "weight": 8.81098340938887e-07,
+          "rhs": 577.9541793676584
+        },
+        {
+          "name": "guard:antiedge:224-258:c2",
+          "weight": 7.78314043761144e-09,
+          "rhs": 7417.104143125858
+        },
+        {
+          "name": "guard:antiedge:228-229:c2",
+          "weight": 0.006571240729159106,
+          "rhs": 3.3075754398245425
+        },
+        {
+          "name": "guard:antiedge:228-235:c2",
+          "weight": 7.077874858031411e-06,
+          "rhs": 1143.4409894416272
+        },
+        {
+          "name": "guard:antiedge:228-247:c3",
+          "weight": 0.20686844231710416,
+          "rhs": 4.0785547925835175
+        },
+        {
+          "name": "guard:antiedge:228-248:c3",
+          "weight": 0.03495570896854163,
+          "rhs": 9.987609433206913
+        },
+        {
+          "name": "guard:antiedge:229-230:c0",
+          "weight": 0.03224698145278449,
+          "rhs": 0.1008098539264917
+        },
+        {
+          "name": "guard:antiedge:247-248:c0",
+          "weight": 0.03065173052977288,
+          "rhs": 0.0748607581058773
+        },
+        {
+          "name": "guard:antiedge:257-258:c0",
+          "weight": 0.00010896507379274967,
+          "rhs": 0.12633931788328204
+        }
+      ]
+    }
+  }
+}

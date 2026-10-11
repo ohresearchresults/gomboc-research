@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "source": "../../circuit_atlas/row54_combined_wall_rebuilt.csv",
+  "lp_json": "combined_four_death_bound300.json",
+  "circuit": [
+    14,
+    72,
+    73,
+    261
+  ],
+  "bracket": [
+    0.00075,
+    0.0008
+  ],
+  "volume_bracket": [
+    -1.766180171616577e-09,
+    1.153812279244966e-10
+  ],
+  "alpha_wall": 0.0007970241891789588,
+  "epsilon": 0.0001,
+  "volume_at_wall": -1.188553877334174e-18,
+  "before": {
+    "valid": true,
+    "f_vector": [
+      61,
+      161,
+      102
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        14,
+        72,
+        73
+      ],
+      [
+        14,
+        73,
+        261
+      ],
+      [
+        72,
+        73,
+        261
+      ]
+    ],
+    "topology_margin": 3.552659955108339e-08
+  },
+  "at": {
+    "valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        14,
+        72,
+        261
+      ]
+    ],
+    "topology_margin": -5.551115123125783e-17
+  },
+  "after": {
+    "valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        14,
+        72,
+        261
+      ]
+    ],
+    "topology_margin": 1.4247900581576545e-08
+  }
+}

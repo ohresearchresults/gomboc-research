@@ -1,0 +1,103 @@
+# Research collections
+
+The directories below retain their scientific layout. Code and smaller records are browsable in Git; the downloads add the complete selected numerical files at the same relative paths.
+
+Historical labels such as “current best”, “accepted” or “proof” describe the original report. They are not a present-day endorsement of every claim. The freshly checked reference is [C622](../C622/README.md).
+
+| Collection | Files | MiB | Browse |
+| --- | ---: | ---: | --- |
+| C624-mail-review-20260915 | 8 | 0.3 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/C624-mail-review-20260915/DEFINITION_PROOF.json) |
+| domokos-C1370-diagnostic-2026-09-08 | 21 | 0.7 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/domokos-C1370-diagnostic-2026-09-08/check_rational_source.py) |
+| domokos-C1374-2026-09-07 | 17 | 0.4 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/domokos-C1374-2026-09-07/README.md) |
+| domokos-C1374-diagnostic-2026-09-08 | 11 | 1.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/domokos-C1374-diagnostic-2026-09-08/README.md) |
+| figure-NH72-basin-2026-09-09 | 4 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-NH72-basin-2026-09-09/LOCAL_EVIDENCE.md) |
+| figure-NH72-five-nonwinners-2026-09-10 | 3 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-NH72-five-nonwinners-2026-09-10/README.md) |
+| figure-SL90-PCW125-2026-09-10 | 8 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-SL90-PCW125-2026-09-10/README.md) |
+| figure-SL90-Ward98-M1678-2026-09-09 | 4 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-SL90-Ward98-M1678-2026-09-09/LOCAL_EVIDENCE.md) |
+| figure-astra-c96-c80-methods-20260916 | 122 | 0.9 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-astra-c96-c80-methods-20260916/README.md) |
+| figure-atlas56-coupled-star-method-20260915 | 4 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-atlas56-coupled-star-method-20260915/README.md) |
+| figure-atlas57-affine-metric-20260915 | 3 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-atlas57-affine-metric-20260915/README.md) |
+| figure-bq13-c602-nonwinners-20260915 | 83 | 0.4 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-bq13-c602-nonwinners-20260915/README.md) |
+| figure-c138-integer-own211-20260915 | 15 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c138-integer-own211-20260915/README.md) |
+| figure-c182-hausdorff-gate-20260916 | 12 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c182-hausdorff-gate-20260916/README.md) |
+| figure-c182-shape-obstruction-20260915 | 10 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c182-shape-obstruction-20260915/README.md) |
+| figure-c282-integer-own211-20260915 | 17 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c282-integer-own211-20260915/README.md) |
+| figure-c476-sparse-frontier-20260915 | 31 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c476-sparse-frontier-20260915/README.md) |
+| figure-c486-rational-algebraic-affine-20260915 | 21 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c486-rational-algebraic-affine-20260915/README.md) |
+| figure-c592-archived-standalone-20260915 | 15 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c592-archived-standalone-20260915/README.md) |
+| figure-c592-exposed-chain-20260915 | 11 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c592-exposed-chain-20260915/README.md) |
+| figure-c598-junction-endpoint-20260915 | 14 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c598-junction-endpoint-20260915/README.md) |
+| figure-c598-one-facet-centroid-20260915 | 17 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c598-one-facet-centroid-20260915/README.md) |
+| figure-c598-projective-metric-20260915 | 6 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c598-projective-metric-20260915/README.md) |
+| figure-c622-arithmetic-companions-20260915 | 102 | 1.5 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c622-arithmetic-companions-20260915/README.md) |
+| figure-c622-route-20260915 | 96 | 1.6 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c622-route-20260915/README.md) |
+| figure-c624-atlas57-depth2-20260915 | 32 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c624-atlas57-depth2-20260915/README.md) |
+| figure-c624-cap-rl-20260914 | 33 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c624-cap-rl-20260914/README.md) |
+| figure-c624-d132-20260914 | 2 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c624-d132-20260914/README.md) |
+| figure-c624-nh72-projective-20260914 | 28 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c624-nh72-projective-20260914/README.md) |
+| figure-c624-nonwinner-20260914 | 3 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c624-nonwinner-20260914/README.md) |
+| figure-c624-s8-20260914 | 36 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c624-s8-20260914/README.md) |
+| figure-c626-atlas56-arithmetic-20260914 | 27 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c626-atlas56-arithmetic-20260914/README.md) |
+| figure-c626-bq13-stable-cap-20260914 | 46 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c626-bq13-stable-cap-20260914/README.md) |
+| figure-c626-source-20260914 | 16 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c626-source-20260914/README.md) |
+| figure-c64-half-round-pyramid-20260916 | 52 | 0.3 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c64-half-round-pyramid-20260916/README.md) |
+| figure-c80-pyramid-gates-20260916 | 33 | 0.5 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c80-pyramid-gates-20260916/README.md) |
+| figure-c96-planar-pyramid-own211-20260915 | 9 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-c96-planar-pyramid-own211-20260915/README.md) |
+| figure-coupled-star-pyramid-update-20260916 | 16 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-coupled-star-pyramid-update-20260916/README.md) |
+| figure-f49-full-contact-20260915 | 79 | 0.3 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-f49-full-contact-20260915/README.md) |
+| figure-finch2-c612-nonwinner-20260915 | 29 | 0.3 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-finch2-c612-nonwinner-20260915/README.md) |
+| figure-finch3-c182-c592-nonwinners-20260915 | 53 | 0.5 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-finch3-c182-c592-nonwinners-20260915/README.md) |
+| figure-four-frontiers-core-20260915 | 19 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-four-frontiers-core-20260915/README.md) |
+| figure-k99-free-chain12-20260915 | 3 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-k99-free-chain12-20260915/README.md) |
+| figure-nh72-critical-energy-20260915 | 31 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-nh72-critical-energy-20260915/README.md) |
+| figure-nh72-external-interface-20260915 | 34 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-nh72-external-interface-20260915/README.md) |
+| figure-nh72-finite-compensators-20260914 | 27 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-nh72-finite-compensators-20260914/README.md) |
+| figure-nh72-opposite-mass-gate-20260915 | 5 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-nh72-opposite-mass-gate-20260915/README.md) |
+| figure-nh72-s8-c618-projective-20260914 | 33 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-nh72-s8-c618-projective-20260914/README.md) |
+| figure-pm580-deletion-20260915 | 4 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-pm580-deletion-20260915/README.md) |
+| figure-s8-cap-slide-20260914 | 30 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-s8-cap-slide-20260914/README.md) |
+| figure-s8-fixed-d12-exclusion-20260914 | 6 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-s8-fixed-d12-exclusion-20260914/README.md) |
+| figure-s8-pc-six-nonwinners-20260914 | 77 | 0.4 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-s8-pc-six-nonwinners-20260914/README.md) |
+| figure-s8-primal-coarsen-20260914 | 26 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-s8-primal-coarsen-20260914/README.md) |
+| figure-vq20-c626-contact-mass-20260915 | 26 | 0.3 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/figure-vq20-c626-contact-mass-20260915/README.md) |
+| gomboc-C630-C632-nonwinners-2026-09-10 | 13 | 1.4 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C630-C632-nonwinners-2026-09-10/README.md) |
+| gomboc-C632-BQ13-2026-09-10 | 49 | 1.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C632-BQ13-2026-09-10/README.md) |
+| gomboc-C634-2026-09-10 | 1,646 | 37.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C634-2026-09-10/README.md) |
+| gomboc-C634-GAP1-2026-09-10 | 6 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C634-GAP1-2026-09-10/README.md) |
+| gomboc-C634-precision-2026-09-10 | 23 | 0.8 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C634-precision-2026-09-10/README.md) |
+| gomboc-C646-NONWINNER-methods-2026-09-09 | 17 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C646-NONWINNER-methods-2026-09-09/LOCAL_EVIDENCE.md) |
+| gomboc-C648-REBUILT-2026-09-09 | 27 | 0.2 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C648-REBUILT-2026-09-09/README.md) |
+| gomboc-C650-2026-09-09 | 1 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C650-2026-09-09/source-map.json) |
+| gomboc-C694-2026-09-09 | 2 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C694-2026-09-09/README.md) |
+| gomboc-C696-2026-09-09 | 1 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C696-2026-09-09/source-map.json) |
+| gomboc-C698-2026-09-09 | 2 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C698-2026-09-09/README.md) |
+| gomboc-C716-2026-09-09 | 2 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C716-2026-09-09/README.md) |
+| gomboc-C746-2026-09-09 | 50 | 213.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C746-2026-09-09/README.md) |
+| gomboc-C752-2026-09-09 | 62 | 155.4 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/gomboc-C752-2026-09-09/README.md) |
+| langi-review-2026-09-05 | 19 | 0.8 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/langi-review-2026-09-05/body_1213.json) |
+| latest-reproducible-gomboc | 23 | 0.4 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/latest-reproducible-gomboc/README.md) |
+| polyhedral-gomboc-review-packet | 5 | 3.6 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/polyhedral-gomboc-review-packet/README.md) |
+| research-results-2026-09-09 | 4 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/figure/research-results-2026-09-09/figure-sharp-lynx90-verify-gate56.py) |
+| minimum-C1374-negative-minor-2026-09-10 | 3 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-C1374-negative-minor-2026-09-10/LOCAL_EVIDENCE.md) |
+| minimum-C32-joint-frontier-2026-09-10 | 6 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-C32-joint-frontier-2026-09-10/README.md) |
+| minimum-F9-11-frames-2026-09-10 | 7 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-F9-11-frames-2026-09-10/LOCAL_EVIDENCE.md) |
+| minimum-MP45-root3-2026-09-10 | 21 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-MP45-root3-2026-09-10/LOCAL_EVIDENCE.md) |
+| minimum-MP45-whole-2026-09-10 | 17 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-MP45-whole-2026-09-10/README.md) |
+| minimum-NOVA54-MP45-2026-09-10 | 5 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-NOVA54-MP45-2026-09-10/LOCAL_EVIDENCE.md) |
+| minimum-cap9-new281-2026-09-10 | 6 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-cap9-new281-2026-09-10/LOCAL_EVIDENCE.md) |
+| minimum-fan-moment-rigidity-2026-09-10 | 3 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-fan-moment-rigidity-2026-09-10/LOCAL_EVIDENCE.md) |
+| minimum-four-triangle-fan-2026-09-10 | 3 | 0.1 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-four-triangle-fan-2026-09-10/LOCAL_EVIDENCE.md) |
+| minimum-nova24-boundary-chain-2026-09-09 | 5 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/results/history/minimum/minimum-nova24-boundary-chain-2026-09-09/LOCAL_EVIDENCE.md) |
+| agent-1 | 119,628 | 873.3 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/astra/agent-1/BALANCED_CAPS_NOTE.md) |
+| agent-2 | 15,566 | 417.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/astra/agent-2/FINDINGS.md) |
+| agent-3 | 16,979 | 557.7 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/astra/agent-3/FINDINGS.md) |
+| shared | 49 | 0.8 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/astra/shared/sources/J128_CAP_NOMINATION_AND_PARAMETER_METHODS.md) |
+| analyses | 46 | 1.4 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/figure/analyses/2026-09-04-gpt6-review/CERTIFICATE_SHA256.json) |
+| native-workspaces | 2,958 | 399.4 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/figure/native-workspaces/polyhedral-goemboc-r6/M42_acute_bridge_fifth_cell_complete/COMBINED_HANDOFF.md) |
+| figure | 7 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/recovered/figure/op_figure_new_source_preservation_20260927T1143Z/CHANGED_NORMAL_EXACT.py) |
+| minimum | 3 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/recovered/minimum/op_minimum_height_variation_handoff_source_preserve_20260928T0309Z/facet_height_variations_exact.py) |
+| workflow-20260925 | 29 | 1.7 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/recovered/workflow-20260925/RECOVER_RA40.py) |
+
+Exact file coverage and public-byte hashes: [files.jsonl](files.jsonl). Each entry states whether it is in the Git checkout or requires its named download. Historical source completeness has not been established for every experiment.
+
+[Saved AI reports](../reports/README.md) · [Research branches](branches.md) · [Downloads](downloads.md) · [Chronology](chronology.md)

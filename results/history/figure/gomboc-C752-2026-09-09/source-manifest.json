@@ -1,0 +1,30 @@
+{
+  "RAW.json": {
+    "bytes": 3742,
+    "sha256": "1353da92125392ca69c92fb1c695187a9e98bd8791c8dd3c2eb7c056dbfdeccf"
+  },
+  "REPLAY.py": {
+    "bytes": 3413,
+    "sha256": "ce6c5ef2d0e664374be6f123a4fa91f9a86fd2489685ff9a4ad73c8d8b3c7755"
+  },
+  "audit_A.py": {
+    "bytes": 6296,
+    "sha256": "65688c8310cb46c86d923cccdadcb07a46f76d036df70a23be62bfab3ef6019d"
+  },
+  "audit_B.py": {
+    "bytes": 5598,
+    "sha256": "0f0ccab4eae09ed9a948ad2a9f31bd2ad4587aa8a102d5ef2a5c959c3a2b2122"
+  },
+  "dual_A.py": {
+    "bytes": 4051,
+    "sha256": "110106ede3e7c094c0f95ca2c775139245824a1df88d8c14da88b35ffb3d465a"
+  },
+  "dual_B.py": {
+    "bytes": 5151,
+    "sha256": "d442bf8ac440b42c67c64c35e711442dcbf99fae9233369f78481c5eb13f79bd"
+  },
+  "exact_extra.py": {
+    "bytes": 6276,
+    "sha256": "4d2cc9a2eef41af4c5f248253909075c5b2aeb8e413ec8cf9abf1d207aefa407"
+  }
+}

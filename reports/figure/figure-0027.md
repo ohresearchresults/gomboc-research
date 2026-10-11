@@ -1,0 +1,187 @@
+# figure-0027
+
+Historical AI scientific report · saved 2026-08-22 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
+
+---
+
+# Conway-polar auxiliary-center continuation: explicit strict wall crossing
+
+## Result
+
+No strict `t=1` homogeneous polyhedral Gömböc was obtained. The assignment's alternative deliverable was completed: a generic simple `38V/21F/57E` branch was continued to `t=0.37`; a precise four-plane circuit wall was located and crossed; strict `S=U=1` holds on both sides; and a robust post-wall branch was continued to `t=0.38`. This is a verified numerical wall-crossing result, not a nonexistence theorem for `t=1`.
+
+The corrected Conway `P_{4,5}` construction and its point-mass `(1,1)` status are documented in the supplied transcript. :contentReference[oaicite:0]{index=0} The transcript's polar-support/full-rank centroid-control route is the starting point of this continuation. :contentReference[oaicite:1]{index=1}
+
+## Polyhedron and fixed normals
+
+`P(h)={x in R^3: Q_i·x<=h_i, i=0,...,20}`, with gauge `mean(log h_i)=0`. Corrected normals, translated to the equal-point centroid:
+
+```text
+00: [6.6084703846735505e-18, 9.9127055770103257e-19, 1.4570722636023903]
+01: [0.36954526379408487, 0.2684903501693624, 0.17855096278109117]
+02: [-0.14115373038779447, 0.43442651222538947, 0.17855096278109117]
+03: [-0.45678306681258074, 5.6931062625374885e-17, 0.17855096278109117]
+04: [-0.14115373038779455, -0.43442651222538942, 0.17855096278109117]
+05: [0.36954526379408481, -0.26849035016936251, 0.17855096278109117]
+06: [0.26946180217582683, 0.19577545895370566, -0.08642411834435032]
+07: [-0.10292524976136544, 0.31677134675020568, -0.08642411834435032]
+08: [-0.33307310482892266, 4.1780961728782133e-17, -0.08642411834435032]
+09: [-0.10292524976136551, -0.31677134675020568, -0.08642411834435032]
+10: [0.26946180217582677, -0.19577545895370574, -0.08642411834435032]
+11: [0.15864503904435992, 0.11526236772279844, -0.17755697444038768]
+12: [-0.060597012768391328, 0.18649842859927671, -0.17755697444038768]
+13: [-0.19609605255193713, 2.5006110866017128e-17, -0.17755697444038768]
+14: [-0.06059701276839137, -0.18649842859927668, -0.17755697444038768]
+15: [0.15864503904435989, -0.11526236772279848, -0.17755697444038768]
+16: [0.079324699138995911, 0.057632767445710761, -0.20598432271683118]
+17: [-0.030299338923736902, 0.093251776592878477, -0.20598432271683118]
+18: [-0.098050720430517976, 1.2999020650633615e-17, -0.20598432271683118]
+19: [-0.030299338923736922, -0.093251776592878463, -0.20598432271683118]
+20: [0.079324699138995897, -0.057632767445710782, -0.20598432271683118]
+```
+
+## First crossed topology wall
+
+Use `x(delta)=x_pre+delta e_9-(delta/21)1`. The wall is
+
+`delta*=log((Q_9·solve(Q_[4,5,10],h_[4,5,10]))/h_9)=-0.00083678208367619195`.
+
+At equality planes `{4,5,9,10}` co-meet. With `epsilon=1.0000000000000001e-05`:
+
+- before (`delta*+epsilon`): edge `{4,10}`, endpoint triples `(4,9,10)` and `(4,5,10)`;
+- after (`delta*-epsilon`): edge `{5,9}`, endpoint triples `(4,5,9)` and `(5,9,10)`.
+
+Removed triples: `[(4,5,10), (4,9,10)]`. Added triples: `[(4,5,9), (5,9,10)]`. The verifier gives four-plane residual `0.000e+00`.
+
+## Full serious candidates
+
+### Wall bracket, old topology
+- `t=0.37`, `V/F/E=38/21/57`, volume `154.68924612333436`, scale `3.7699717057921425`.
+- true centroid `[0.18686177666107984, -0.032176693369226406, -2.5497866550005082]`; auxiliary center `t c(P)=[0.069138857364599543, -0.01190537654661377, -0.94342106235018797]`; independent centroid cross-check error `4.804e-16`.
+- stable faces `[0]`; unstable incidence `[[16, 18, 19]]`; mechanical score `4.7276725659368857e-05`; combinatorial margin `9.6625987512039789e-06`.
+- full support vector: `[0.014396158660904785, 1.1387501547792924, 1.1010801084853497, 1.0858512482873253, 1.1130855717561963, 1.147255647283524, 1.3192463736408351, 1.2794776026825367, 1.1740570047339451, 1.3027152612702737, 1.3276180727394731, 1.3351045932161101, 1.2115347095677296, 1.2379869341991694, 1.2306260246486109, 1.3675263302813758, 1.2973150546735883, 1.2521611717185805, 1.2129907992714641, 1.2977451446558872, 1.3526793668520094]`
+
+### Wall bracket, new topology
+- `t=0.37`, `V/F/E=38/21/57`, volume `154.68922616855261`, scale `3.7699713891047457`.
+- true centroid `[0.18686472720214339, -0.032167662064873766, -2.549787890558997]`; auxiliary center `t c(P)=[0.069139949064793052, -0.011902034964003293, -0.94342151950682884]`; independent centroid cross-check error `1.346e-15`.
+- stable faces `[0]`; unstable incidence `[[16, 18, 19]]`; mechanical score `4.7120029031210795e-05`; combinatorial margin `9.6625121397576688e-06`.
+- full support vector: `[0.014396172371538615, 1.1387512393037658, 1.1010811571335715, 1.0858522824318637, 1.113086631838198, 1.1472567399084703, 1.3192476300665512, 1.2794788212332149, 1.1740581228840059, 1.3026904478825683, 1.3276193371382397, 1.3351058647448995, 1.2115358634108597, 1.2379881132349062, 1.2306271966739546, 1.3675276326880248, 1.2973162902123239, 1.2521623642535975, 1.2129919545013468, 1.2977463806042326, 1.3526806551186865]`
+
+### Optimized post-wall object
+- `t=0.37`, `V/F/E=38/21/57`, volume `270.97873006619972`, scale `4.5486021459072887`.
+- true centroid `[0.24190456965132515, -0.019276934721790498, -3.0851943268630451]`; auxiliary center `t c(P)=[0.089504690770990297, -0.0071324658470624845, -1.1415219009393267]`; independent centroid cross-check error `2.247e-16`.
+- stable faces `[0]`; unstable incidence `[[16, 18, 19]]`; mechanical score `0.0018489806723428961`; combinatorial margin `0.0092449033617185827`.
+- full support vector: `[0.00033546262790251212, 1.3767585728283167, 1.3298650832683538, 1.3047133093749117, 1.336062147791369, 1.380588569334017, 1.5961448669873701, 1.5467617733328975, 1.4143819812432517, 1.5512804949569479, 1.613975782383539, 1.6142388446225762, 1.464771165461155, 1.4883560434795604, 1.4674315528061872, 1.6589966766481088, 1.567528793887939, 1.512383914425282, 1.4784544147244822, 1.5732828534958301, 1.6379270476581502]`
+
+### Farther asymmetric branch
+- `t=0.38`, `V/F/E=38/21/57`, volume `368.19542307044395`, scale `5.0285417030581545`.
+- true centroid `[0.098984271025248011, -0.11785376790348301, -3.3745107159756671]`; auxiliary center `t c(P)=[0.037614022989594244, -0.044784431803323546, -1.2823140720707535]`; independent centroid cross-check error `4.630e-16`.
+- stable faces `[0]`; unstable incidence `[[16, 18, 19]]`; mechanical score `0.0019970874070842975`; combinatorial margin `0.013313916047290377`.
+- full support vector: `[4.3185749060341275e-05, 1.5139286075825189, 1.4872878071413003, 1.4948712625351417, 1.5261988961619237, 1.5379769831365402, 1.6243638668101013, 1.7330547714936515, 1.6104677976562729, 1.761427621045212, 1.7939580149860277, 1.6932340888454696, 1.6431644905049987, 1.6850528089175876, 1.6598689428190596, 1.8248686230150115, 1.6576601274324221, 1.6667383566197667, 1.6549454926883227, 1.7665638372271464, 1.7835148095230757]`
+
+
+## Complete incidence before and after
+
+Each triple is one vertex's incident support planes and therefore determines all vertex-face incidence for these simple polytopes. Full ordered face cycles and all 57 edges are also in the machine-readable package.
+
+**Before:** `[(0,1,2), (0,1,5), (0,2,3), (0,3,4), (0,4,5), (1,2,7), (1,5,6), (1,6,7), (2,3,8), (2,7,8), (3,4,8), (4,5,10), (4,8,9), (4,9,10), (5,6,10), (6,7,12), (6,10,11), (6,11,12), (7,8,12), (8,9,14), (8,12,13), (8,13,14), (9,10,14), (10,11,15), (10,14,15), (11,12,16), (11,15,16), (12,13,18), (12,16,17), (12,17,18), (13,14,18), (14,15,20), (14,18,19), (14,19,20), (15,16,20), (16,17,18), (16,18,19), (16,19,20)]`
+
+**After:** `[(0,1,2), (0,1,5), (0,2,3), (0,3,4), (0,4,5), (1,2,7), (1,5,6), (1,6,7), (2,3,8), (2,7,8), (3,4,8), (4,5,9), (4,8,9), (5,6,10), (5,9,10), (6,7,12), (6,10,11), (6,11,12), (7,8,12), (8,9,14), (8,12,13), (8,13,14), (9,10,14), (10,11,15), (10,14,15), (11,12,16), (11,15,16), (12,13,18), (12,16,17), (12,17,18), (13,14,18), (14,15,20), (14,18,19), (14,19,20), (15,16,20), (16,17,18), (16,18,19), (16,19,20)]`
+
+## Complete endpoint audit at `t=1`
+
+For the farther `t=0.38` support vector, the reference point at `t=1` is its true centroid `[0.098984271025248011, -0.11785376790348301, -3.3745107159756671]`. The resulting hard score is `-0.2444582627700583`; stable faces are `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20]` and unstable vertex indices are `[0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 15, 16, 19, 20, 21, 22, 23, 25, 27, 29, 30, 31, 33, 35, 36, 37]`. Thus this support vector is not a Gömböc at `t=1`.
+
+Positive face margin means stable; positive vertex margin means unstable. Margins are normalized by RMS vertex radius.
+
+### All 21 face margins at `t=1`
+
+```text
+00: +0.59595801662688019
+01: +0.074552606685096126
+02: +0.15263342084884784
+03: +0.077442129171133342
+04: +0.14673362387284117
+05: +0.1587845078103276
+06: +0.14022892486229066
+07: +0.043376277996730821
+08: +0.1386530576157412
+09: +0.046593867359925635
+10: +0.15554380739369489
+11: +0.040767026229842511
+12: +0.11406575943916822
+13: +0.044978395871464801
+14: +0.13783088788853246
+15: +0.042523847036084757
+16: +0.045869099777329253
+17: +0.011407699577473174
+18: +0.049414787821122477
+19: -0.071826128961663668
+20: +0.02161099086465303
+```
+
+### All 38 vertex margins at `t=1`
+
+```text
+00 (3,4,8): +0.097480526246054161; witness=2
+01 (2,3,8): +0.084349797548736241; witness=3
+02 (4,8,9): +0.029325681910694533; witness=0
+03 (2,7,8): +0.04048899740827272; witness=1
+04 (8,9,14): +0.0072935451950042317; witness=2
+05 (7,8,12): +0.0019514612331679884; witness=3
+06 (8,13,14): -0.050649103930734268; witness=4
+07 (8,12,13): -0.069510939139407493; witness=5
+08 (0,3,4): +0.23645388899719622; witness=0
+09 (0,2,3): +0.22660832716737034; witness=1
+10 (13,14,18): +0.063022327715817131; witness=6
+11 (12,13,18): +0.048371987904998637; witness=7
+12 (12,17,18): -0.038887257816002066; witness=11
+13 (14,18,19): -0.18658789389685979; witness=15
+14 (16,17,18): -0.08214609913568946; witness=15
+15 (16,18,19): +0.0059080070423427038; witness=16
+16 (16,19,20): +0.040619636095785394; witness=15
+17 (12,16,17): -0.023352458066741594; witness=19
+18 (14,19,20): -0.05674169136888145; witness=16
+19 (11,12,16): +0.051698988507538651; witness=24
+20 (6,7,12): +0.0045370866204869839; witness=23
+21 (0,4,5): +0.24769524219551775; witness=28
+22 (0,1,2): +0.23139567886868664; witness=27
+23 (2,6,7): +0.045416107400912606; witness=27
+24 (6,11,12): -0.070297224869871278; witness=20
+25 (14,15,20): +0.11488891700056808; witness=18
+26 (9,10,14): -0.004116112660636201; witness=29
+27 (1,2,6): +0.080356031245654214; witness=23
+28 (4,5,9): -0.0067686910220162667; witness=29
+29 (5,9,10): +0.029935086403611897; witness=28
+30 (10,14,15): +0.021194246921210736; witness=26
+31 (15,16,20): +0.070689117324274103; witness=32
+32 (11,15,16): -0.011846186096932984; witness=34
+33 (0,1,5): +0.2444582627700583; witness=36
+34 (10,11,15): -0.0117544020702171; witness=35
+35 (6,10,11): +0.079113374300529116; witness=34
+36 (1,5,6): +0.09761352640529844; witness=37
+37 (5,6,10): +0.054833466661803477; witness=36
+```
+
+## Reproducible artifacts
+
+- [Full package: normals, all support vectors, every vertex coordinate, ordered face cycles, all edges, true centroids, and all branch/endpoint margins](sandbox:/mnt/data/conway_aux_center_wall_package.json), SHA-256 `6cfebc251ba9d9f93496fef8300861b958c1fc5afbd06ce3af309f5b3ff79632`.
+- [Compact supports/normal data](sandbox:/mnt/data/conway_aux_center_candidates.npz), SHA-256 `0d15c0d2f9174fe75107f2f49403b2bfffdbb7d8935873d2875a8089db42f7b1`.
+- [Independent verifier](sandbox:/mnt/data/verify_conway_aux_wall.py), SHA-256 `09eb513bc296895f00cb136d66da5fffd7c492dd81a26e33568357070a05174b`; [geometry kernel](sandbox:/mnt/data/conway_aux_conway_geom.py), SHA-256 `07742c4d6f5c73264a65998612ac4af61fec1dba7cb9883271adaadf910bc195`.
+- [Verifier output](sandbox:/mnt/data/conway_aux_verifier_output.txt), SHA-256 `16b45fd60479ec57d09433301dcf070fefb134f944dec31d709f1b939aa83f8d`.
+- [Post-wall OBJ](sandbox:/mnt/data/conway_postwall_t037.obj); [farther `t=0.38` OBJ](sandbox:/mnt/data/conway_farther_t038.obj).
+
+Verifier summary:
+
+```text
+wall_before: PASS V/F/E=38/21/57 t=0.37 score=4.72767256594e-05 comb=9.6625987512e-06
+wall_after: PASS V/F/E=38/21/57 t=0.37 score=4.71200290312e-05 comb=9.66251213976e-06
+postwall_optimized: PASS V/F/E=38/21/57 t=0.37 score=0.00184898067234 comb=0.00924490336172
+farther_t038: PASS V/F/E=38/21/57 t=0.38 score=0.00199708740708 comb=0.0133139160473
+wall: PASS delta*=-0.00083678208367619195, four-plane residual=0.000e+00
+ALL CHECKS PASSED
+```
+
+## Interpretation
+
+The concrete bifurcation is an edge flip `{4,10} -> {5,9}` through the four-plane circuit `{4,5,9,10}`. The strict mechanics survive on both sides and strengthen after optimization. The practical frontier moves from the coordinator's `t≈0.3096` to `t=0.38`; however, the complete `t=1` audit fails strongly, so no endpoint success is claimed.

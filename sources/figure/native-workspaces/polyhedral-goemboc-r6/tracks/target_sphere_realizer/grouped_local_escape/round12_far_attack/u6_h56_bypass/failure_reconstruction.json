@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "verdict": "FAILED_NUMERIC_GUARD_BUFFER_RECONSTRUCTED_AND_RETIRED",
+  "source_locator": "numeric_pre_locator.csv",
+  "source_locator_sha256": "d2e887ee4dd12de71dd3cc4b9003b6bb8a2956ca50580fc94789548331567cf2",
+  "source_geometry": {
+    "parameter_exact": "9/4",
+    "row_count": 61,
+    "f_vector": [
+      61,
+      162,
+      103
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "topology_margin_binary64": 2.407516111613677e-10
+  },
+  "failed_script": "../birth6_guard_buffer.py",
+  "failed_script_sha256": "933fd9e2a56dd6d47a91220df9ac0ad1d760f62f776bd191ef82f74123afccc5",
+  "diagnosis": "The inherited program emits no progress and writes its scan only after success. The default interpreter fails at import; under the SciPy-capable interpreter the finite-difference/projected scan completes but finds no candidate satisfying its sampled audit. Neither outcome is a geometric obstruction.",
+  "pivot": "Retire the sampled optimizer claim. Use exact active-component Jacobian evidence and an explicit rational actual-body anisotropic affine deformation, with exhaustive exact primitive and guard verification."
+}

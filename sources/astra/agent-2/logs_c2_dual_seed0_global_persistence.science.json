@@ -1,0 +1,431 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 149,
+        "E": 224,
+        "F": 77,
+        "S": 5,
+        "U": 5,
+        "Pmax": 6.818274573305584e-09,
+        "Qmax": 0.44618846845486915,
+        "loss": 0.19908415057113737,
+        "centroid": [
+          -0.09179230959512517,
+          0.0,
+          0.0
+        ],
+        "volume": 4.958522673693144,
+        "calls": 1,
+        "global_penalty": 10.439756530152037,
+        "weight": 0.1,
+        "objective": 1.2430598035863412,
+        "seconds": 1.2748138904571533
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 65,
+        "E": 98,
+        "F": 35,
+        "S": 21,
+        "U": 31,
+        "Pmax": 0.05168701554399552,
+        "Qmax": 0.09166351929900425,
+        "loss": 0.04195708902875506,
+        "centroid": [
+          0.2340714287624856,
+          0.0,
+          0.0
+        ],
+        "volume": 3.2227310689638107,
+        "calls": 1,
+        "global_penalty": 0.013498720284647915,
+        "weight": 1.0,
+        "objective": 0.05545580931340286,
+        "seconds": 0.0074787139892578125
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 57,
+        "E": 86,
+        "F": 31,
+        "S": 17,
+        "U": 25,
+        "Pmax": 0.2712912580294842,
+        "Qmax": 0.3748988830528609,
+        "loss": 0.48219109883197064,
+        "centroid": [
+          0.2570575970995246,
+          0.0,
+          0.0
+        ],
+        "volume": 3.0759460366279336,
+        "calls": 2,
+        "global_penalty": 0.0,
+        "weight": 1.0,
+        "objective": 0.48219109883197053,
+        "seconds": 0.020216703414916992
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 65,
+        "E": 98,
+        "F": 35,
+        "S": 15,
+        "U": 25,
+        "Pmax": 0.3035926888964695,
+        "Qmax": 0.5830729651714843,
+        "loss": 0.6403790313753622,
+        "centroid": [
+          0.08825496473446465,
+          0.0,
+          0.0
+        ],
+        "volume": 2.773725509212454,
+        "calls": 624,
+        "global_penalty": 8.86510741542871,
+        "weight": 1.0,
+        "objective": 9.505486446804072,
+        "seconds": 6.99233078956604
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 69,
+        "E": 104,
+        "F": 37,
+        "S": 21,
+        "U": 41,
+        "Pmax": 0.02941779911154283,
+        "Qmax": 0.06931350581714112,
+        "loss": 0.033193469354953375,
+        "centroid": [
+          0.27610249455406327,
+          0.0,
+          0.0
+        ],
+        "volume": 2.8922910731123084,
+        "calls": 1,
+        "global_penalty": 0.0002914486765965567,
+        "weight": 10.0,
+        "objective": 0.03610795612091891,
+        "seconds": 0.008585214614868164
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 61,
+        "E": 92,
+        "F": 33,
+        "S": 15,
+        "U": 21,
+        "Pmax": 0.3474881886054435,
+        "Qmax": 0.3358074131534219,
+        "loss": 0.4477590174630099,
+        "centroid": [
+          0.25588260458282513,
+          0.0,
+          0.0
+        ],
+        "volume": 2.6006121787353647,
+        "calls": 2,
+        "global_penalty": 0.09305410887683331,
+        "weight": 10.0,
+        "objective": 1.378300106231343,
+        "seconds": 0.018538951873779297
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 37,
+        "E": 56,
+        "F": 21,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.39343774641492335,
+        "Qmax": 0.44559529278581245,
+        "loss": 0.7171592102814921,
+        "centroid": [
+          0.23950422588212364,
+          0.0,
+          0.0
+        ],
+        "volume": 1.640632487009133,
+        "calls": 440,
+        "global_penalty": 3.8804097376820166,
+        "weight": 10.0,
+        "objective": 39.52125658710166,
+        "seconds": 5.641691207885742
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 69,
+        "E": 104,
+        "F": 37,
+        "S": 21,
+        "U": 41,
+        "Pmax": 0.0247665739029728,
+        "Qmax": 0.06749452579088155,
+        "loss": 0.03347191618426798,
+        "centroid": [
+          0.2778736938920264,
+          0.0,
+          0.0
+        ],
+        "volume": 2.9188860673741854,
+        "calls": 1,
+        "global_penalty": 4.3519078540204056e-06,
+        "weight": 100.0,
+        "objective": 0.03390710696967009,
+        "seconds": 0.011744022369384766
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 61,
+        "E": 92,
+        "F": 33,
+        "S": 15,
+        "U": 21,
+        "Pmax": 0.30300406836656385,
+        "Qmax": 0.2561407816100854,
+        "loss": 0.3485264301077736,
+        "centroid": [
+          0.35443311929760163,
+          0.0,
+          0.0
+        ],
+        "volume": 2.8859066037465855,
+        "calls": 2,
+        "global_penalty": 0.19643992096128676,
+        "weight": 100.0,
+        "objective": 19.992518526236452,
+        "seconds": 0.02072596549987793
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 69,
+        "E": 104,
+        "F": 37,
+        "S": 23,
+        "U": 43,
+        "Pmax": 0.02837885483162264,
+        "Qmax": 0.05367579728610232,
+        "loss": 0.02972573287843839,
+        "centroid": [
+          0.31741259543938327,
+          0.0,
+          0.0
+        ],
+        "volume": 2.777193870906552,
+        "calls": 1,
+        "global_penalty": 2.9502009018483693e-08,
+        "weight": 10.0,
+        "objective": 0.029726027898528656,
+        "seconds": 0.013818979263305664
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 65,
+        "E": 98,
+        "F": 35,
+        "S": 19,
+        "U": 37,
+        "Pmax": 0.13452682529635904,
+        "Qmax": 0.048265736055177595,
+        "loss": 0.041238552082562135,
+        "centroid": [
+          0.33108664430214557,
+          0.0,
+          0.0
+        ],
+        "volume": 2.8107642511644344,
+        "calls": 2,
+        "global_penalty": 0.24119260063008865,
+        "weight": 10.0,
+        "objective": 2.453164558383449,
+        "seconds": 0.026404857635498047
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 69,
+        "E": 104,
+        "F": 37,
+        "S": 23,
+        "U": 43,
+        "Pmax": 0.0285097773835127,
+        "Qmax": 0.05390406276622421,
+        "loss": 0.029675554812939105,
+        "centroid": [
+          0.3173473229436223,
+          0.0,
+          0.0
+        ],
+        "volume": 2.777374549930409,
+        "calls": 1,
+        "global_penalty": 1.922882410212773e-06,
+        "weight": 1.0,
+        "objective": 0.02967747769534935,
+        "seconds": 0.01091623306274414
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 65,
+        "E": 98,
+        "F": 35,
+        "S": 19,
+        "U": 37,
+        "Pmax": 0.12562744944871646,
+        "Qmax": 0.0526640585102316,
+        "loss": 0.03866760111773621,
+        "centroid": [
+          0.3307116452908768,
+          0.0,
+          0.0
+        ],
+        "volume": 2.8068241806162924,
+        "calls": 2,
+        "global_penalty": 0.17830459010860555,
+        "weight": 1.0,
+        "objective": 0.21697219122634182,
+        "seconds": 0.019321203231811523
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 69,
+        "E": 104,
+        "F": 37,
+        "S": 23,
+        "U": 43,
+        "Pmax": 0.03095222786605342,
+        "Qmax": 0.05362297315420159,
+        "loss": 0.029450024133823607,
+        "centroid": [
+          0.3178958523082709,
+          0.0,
+          0.0
+        ],
+        "volume": 2.7783121513144082,
+        "calls": 1,
+        "global_penalty": 9.695776478937655e-05,
+        "weight": 0.1,
+        "objective": 0.02945971991030261,
+        "seconds": 0.00945591926574707
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 69,
+        "E": 104,
+        "F": 37,
+        "S": 19,
+        "U": 37,
+        "Pmax": 0.1389741357257909,
+        "Qmax": 0.06806944395442009,
+        "loss": 0.04366141644685274,
+        "centroid": [
+          0.33428887259978646,
+          0.0,
+          0.0
+        ],
+        "volume": 2.825524365335799,
+        "calls": 2,
+        "global_penalty": 0.3044464007577786,
+        "weight": 0.1,
+        "objective": 0.0741060565226307,
+        "seconds": 0.020218849182128906
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 57,
+        "E": 86,
+        "F": 31,
+        "S": 15,
+        "U": 23,
+        "Pmax": 0.16661315688261255,
+        "Qmax": 0.24442628080061993,
+        "loss": 0.20393653571655704,
+        "centroid": [
+          0.26938183384985315,
+          0.0,
+          0.0
+        ],
+        "volume": 2.3565700895275103,
+        "calls": 252,
+        "global_penalty": 0.1240107017366011,
+        "weight": 0.1,
+        "objective": 0.21633760589021728,
+        "seconds": 2.7212929725646973
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "C2_GLOBAL_PERSISTENCE_FEWEST",
+      "values": {
+        "V": 53,
+        "E": 80,
+        "F": 29,
+        "S": 15,
+        "U": 19,
+        "Pmax": 0.3882534985526436,
+        "Qmax": 0.29784097939782206,
+        "loss": 0.31815105265284593,
+        "centroid": [
+          0.31993985401520464,
+          0.0,
+          0.0
+        ],
+        "volume": 2.624066570019779,
+        "calls": 265,
+        "global_penalty": 4.417125988089548,
+        "weight": 0.1,
+        "objective": 0.7598636514618011,
+        "seconds": 2.848844051361084
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "V": 258,
+  "E": 687,
+  "F": 431,
+  "SUH": [
+    1,
+    1,
+    0
+  ],
+  "C": 1374,
+  "stable": [
+    [
+      158,
+      161,
+      163
+    ]
+  ],
+  "unstable": [
+    138
+  ],
+  "saddles": [],
+  "degeneracies": [],
+  "raw_volume": 2.2136653964304474,
+  "saved_centroid_coordinates_match": true,
+  "smallest_positive_vertex_dot": 8.006863062311199e-09,
+  "nearest_vertex_witnesses": [
+    {
+      "vertex": 138,
+      "witness": 74,
+      "max_dot": -0.008855147112627406
+    },
+    {
+      "vertex": 19,
+      "witness": 44,
+      "max_dot": 8.006863062311199e-09
+    },
+    {
+      "vertex": 177,
+      "witness": 175,
+      "max_dot": 8.219621789142988e-09
+    },
+    {
+      "vertex": 143,
+      "witness": 141,
+      "max_dot": 8.835878857447348e-09
+    },
+    {
+      "vertex": 142,
+      "witness": 144,
+      "max_dot": 8.857677262636949e-09
+    },
+    {
+      "vertex": 153,
+      "witness": 151,
+      "max_dot": 9.257587929009615e-09
+    },
+    {
+      "vertex": 72,
+      "witness": 21,
+      "max_dot": 9.622138378102462e-09
+    },
+    {
+      "vertex": 68,
+      "witness": 67,
+      "max_dot": 9.63744628220176e-09
+    },
+    {
+      "vertex": 24,
+      "witness": 27,
+      "max_dot": 9.707714119728059e-09
+    },
+    {
+      "vertex": 209,
+      "witness": 208,
+      "max_dot": 1.0450598744119888e-08
+    },
+    {
+      "vertex": 208,
+      "witness": 166,
+      "max_dot": 1.0506234888292877e-08
+    },
+    {
+      "vertex": 93,
+      "witness": 40,
+      "max_dot": 1.0740197248209695e-08
+    },
+    {
+      "vertex": 242,
+      "witness": 229,
+      "max_dot": 1.0813290151387284e-08
+    },
+    {
+      "vertex": 87,
+      "witness": 36,
+      "max_dot": 1.0840096007348862e-08
+    },
+    {
+      "vertex": 39,
+      "witness": 90,
+      "max_dot": 1.0896609607893251e-08
+    }
+  ],
+  "seconds": 10.144040749990381
+}

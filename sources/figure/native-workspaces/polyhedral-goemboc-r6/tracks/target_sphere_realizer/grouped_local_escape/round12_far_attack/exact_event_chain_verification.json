@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "verdict": "INDEPENDENT_EXACT_ROUND12_EVENT_CHAIN_PASS",
+  "certificate_sha256": "31c6f2bcf0aa2d2ae2fb92fd315a4ef8fb1d354e5f1a581dfc4218374aee002a",
+  "checkpoint_count": 7,
+  "path_polynomial_digest": "445392043bc983828f62268563dc858972a10f13e26c38018e360e8cc44ae05f",
+  "support_event": {
+    "quad": [
+      6,
+      198,
+      244,
+      245
+    ],
+    "degree": 4,
+    "interval": [
+      "75431166605432580326582003271/967140655691703339764940800000",
+      "150862333210865160653164006543/1934281311383406679529881600000"
+    ],
+    "pre_dependent_primitive_count": 5,
+    "far_dependent_primitive_count": 5,
+    "wall_f_vector": [
+      61,
+      161,
+      102
+    ]
+  },
+  "strict_cells": {
+    "pre_primitive_count": 7904,
+    "far_primitive_count": 7904
+  },
+  "next_event": {
+    "degree": 9,
+    "interval": [
+      "138486478420360146428372282297/60446290980731458735308800000",
+      "2769729568407202928567445645941/1208925819614629174706176000000"
+    ],
+    "common_primitives": [
+      "edge:5,6:one_minus_t",
+      "vertex:6:5"
+    ],
+    "class_transition": [
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ]
+    ]
+  }
+}

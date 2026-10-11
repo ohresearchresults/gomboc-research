@@ -1,0 +1,4006 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 32,
+        "U": 30,
+        "Pmax": 0.08765177849310007,
+        "Qmax": 0.0761727387296839,
+        "ucost": 2.9025609115495676,
+        "scost": 2.6327256294494266,
+        "objective": 5.535286540998994,
+        "minimum_noncontact": 9.067717809228545e-05,
+        "it": 0,
+        "seconds": 0.010512113571166992,
+        "trust": 0.04
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 19,
+        "U": 22,
+        "Pmax": 0.1351805098251762,
+        "Qmax": 0.1391335777996195,
+        "ucost": 1.8664530954580512,
+        "scost": 1.542743279790146,
+        "objective": 3.409196375248197,
+        "minimum_noncontact": 6.9820147754609715e-09,
+        "it": 10,
+        "seconds": 0.6952438354492188,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 17,
+        "Pmax": 0.21819540041480903,
+        "Qmax": 0.3354916167302808,
+        "ucost": 1.1413486101666384,
+        "scost": 0.9353955922526731,
+        "objective": 2.0767442024193112,
+        "minimum_noncontact": 7.023672775078246e-09,
+        "it": 20,
+        "seconds": 1.6647710800170898,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 14,
+        "Pmax": 0.16514734169631978,
+        "Qmax": 0.3669242794640609,
+        "ucost": 0.901957279892863,
+        "scost": 0.8800237506022482,
+        "objective": 1.7819810304951114,
+        "minimum_noncontact": 7.323294451358341e-09,
+        "it": 30,
+        "seconds": 2.7476158142089844,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 13,
+        "U": 22,
+        "Pmax": 0.22620019523417514,
+        "Qmax": 0.3866427633506154,
+        "ucost": 0.7965781887398692,
+        "scost": 0.8630228828893778,
+        "objective": 1.6596010716292469,
+        "minimum_noncontact": 7.515373282242738e-09,
+        "it": 40,
+        "seconds": 3.909619092941284,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.2551447050816995,
+        "Qmax": 0.39129081448765607,
+        "ucost": 0.7571798769574447,
+        "scost": 0.8541888515495902,
+        "objective": 1.6113687285070348,
+        "minimum_noncontact": 7.282688463177186e-09,
+        "it": 50,
+        "seconds": 5.219061851501465,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 14,
+        "U": 19,
+        "Pmax": 0.28939367243835656,
+        "Qmax": 0.40628245372435823,
+        "ucost": 0.7219017499957255,
+        "scost": 0.8529106133492113,
+        "objective": 1.574812363344937,
+        "minimum_noncontact": 7.862127319375019e-09,
+        "it": 60,
+        "seconds": 6.533697843551636,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 18,
+        "Pmax": 0.29930789113982587,
+        "Qmax": 0.41341620389040573,
+        "ucost": 0.7156764399442201,
+        "scost": 0.851960699418051,
+        "objective": 1.567637139362271,
+        "minimum_noncontact": 7.891160962525149e-09,
+        "it": 70,
+        "seconds": 8.083131074905396,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 16,
+        "U": 19,
+        "Pmax": 0.2976643718174999,
+        "Qmax": 0.42429577497779014,
+        "ucost": 0.7110664253238319,
+        "scost": 0.851753984453381,
+        "objective": 1.562820409777213,
+        "minimum_noncontact": 7.861471914054363e-09,
+        "it": 80,
+        "seconds": 9.632076978683472,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 13,
+        "U": 18,
+        "Pmax": 0.29781408371836543,
+        "Qmax": 0.42794801169452207,
+        "ucost": 0.7050798156726447,
+        "scost": 0.844682236099189,
+        "objective": 1.5497620517718338,
+        "minimum_noncontact": 8.097191530719017e-09,
+        "it": 90,
+        "seconds": 11.176054000854492,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.3364099979093244,
+        "Qmax": 0.39868213965791605,
+        "ucost": 0.6114658427728986,
+        "scost": 0.8550458198624509,
+        "objective": 1.4665116626353494,
+        "minimum_noncontact": 7.257612601334822e-09,
+        "it": 100,
+        "seconds": 12.621420860290527,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 13,
+        "U": 18,
+        "Pmax": 0.3453427365954376,
+        "Qmax": 0.3851637878465082,
+        "ucost": 0.5914874479129745,
+        "scost": 0.8482507805216843,
+        "objective": 1.439738228434659,
+        "minimum_noncontact": 7.285323640204432e-09,
+        "it": 110,
+        "seconds": 14.058491945266724,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 15,
+        "U": 17,
+        "Pmax": 0.34388988412856614,
+        "Qmax": 0.38784971053032874,
+        "ucost": 0.5890521245121211,
+        "scost": 0.8440925566307353,
+        "objective": 1.4331446811428563,
+        "minimum_noncontact": 7.246424836450026e-09,
+        "it": 120,
+        "seconds": 15.663619041442871,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 17,
+        "U": 15,
+        "Pmax": 0.34347824654272774,
+        "Qmax": 0.3906270140057405,
+        "ucost": 0.5877493999846233,
+        "scost": 0.8429387664075041,
+        "objective": 1.4306881663921274,
+        "minimum_noncontact": 7.11804919962258e-09,
+        "it": 130,
+        "seconds": 17.42073702812195,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 14,
+        "U": 15,
+        "Pmax": 0.3429604618599273,
+        "Qmax": 0.3898646492186818,
+        "ucost": 0.5866379291638277,
+        "scost": 0.8420244827343106,
+        "objective": 1.4286624118981384,
+        "minimum_noncontact": 6.881626723364765e-09,
+        "it": 140,
+        "seconds": 19.526658058166504,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 13,
+        "U": 17,
+        "Pmax": 0.34435505440238917,
+        "Qmax": 0.4007321563479235,
+        "ucost": 0.589017650509038,
+        "scost": 0.8341056033441158,
+        "objective": 1.4231232538531537,
+        "minimum_noncontact": 6.981136106427147e-09,
+        "it": 150,
+        "seconds": 21.920433044433594,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 17,
+        "Pmax": 0.344108538174948,
+        "Qmax": 0.40211145523749625,
+        "ucost": 0.5888289655235674,
+        "scost": 0.8309552360584944,
+        "objective": 1.4197842015820619,
+        "minimum_noncontact": 7.008952657762068e-09,
+        "it": 160,
+        "seconds": 24.39420509338379,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 17,
+        "Pmax": 0.3446696474415161,
+        "Qmax": 0.40217947902734064,
+        "ucost": 0.5889478067816316,
+        "scost": 0.8293384965503772,
+        "objective": 1.4182863033320088,
+        "minimum_noncontact": 7.01359043878568e-09,
+        "it": 170,
+        "seconds": 27.03635287284851,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 17,
+        "Pmax": 0.3446639461216677,
+        "Qmax": 0.4022491755444117,
+        "ucost": 0.5883875429108382,
+        "scost": 0.8288639074457839,
+        "objective": 1.417251450356622,
+        "minimum_noncontact": 7.00822692589217e-09,
+        "it": 180,
+        "seconds": 29.902995109558105,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 18,
+        "Pmax": 0.34441952818162286,
+        "Qmax": 0.40249158696472515,
+        "ucost": 0.5879411067819128,
+        "scost": 0.8289069088020874,
+        "objective": 1.4168480155840002,
+        "minimum_noncontact": 7.002285850973228e-09,
+        "it": 190,
+        "seconds": 32.94539213180542,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 17,
+        "Pmax": 0.3444247669431336,
+        "Qmax": 0.40239735465448895,
+        "ucost": 0.5877253741410616,
+        "scost": 0.828876404624046,
+        "objective": 1.4166017787651075,
+        "minimum_noncontact": 7.0008431791893325e-09,
+        "it": 200,
+        "seconds": 35.354763984680176,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 17,
+        "Pmax": 0.3444067071224106,
+        "Qmax": 0.40242278158503364,
+        "ucost": 0.5875662198190873,
+        "scost": 0.8288284607748408,
+        "objective": 1.4163946805939283,
+        "minimum_noncontact": 7.0000157479828695e-09,
+        "it": 210,
+        "seconds": 37.2715790271759,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.34439072023812667,
+        "Qmax": 0.4025470008868521,
+        "ucost": 0.587453119016866,
+        "scost": 0.8288195867953672,
+        "objective": 1.4162727058122333,
+        "minimum_noncontact": 6.999429180625882e-09,
+        "it": 220,
+        "seconds": 39.22511696815491,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.3444973346566339,
+        "Qmax": 0.40247806067067105,
+        "ucost": 0.5874768137260229,
+        "scost": 0.828699186886347,
+        "objective": 1.4161760006123698,
+        "minimum_noncontact": 7.000506671677908e-09,
+        "it": 230,
+        "seconds": 41.22295808792114,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 16,
+        "Pmax": 0.3444879814324876,
+        "Qmax": 0.40253051236926185,
+        "ucost": 0.5874170379378676,
+        "scost": 0.8286833659727355,
+        "objective": 1.416100403910603,
+        "minimum_noncontact": 7.000255354491308e-09,
+        "it": 240,
+        "seconds": 43.16228199005127,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.3445131828424621,
+        "Qmax": 0.40249277758512764,
+        "ucost": 0.5873936373277128,
+        "scost": 0.8286407493883369,
+        "objective": 1.4160343867160496,
+        "minimum_noncontact": 7.0004671894900225e-09,
+        "it": 250,
+        "seconds": 45.08112597465515,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.3445717444988232,
+        "Qmax": 0.4023685555483302,
+        "ucost": 0.5874058315439198,
+        "scost": 0.8285763608324214,
+        "objective": 1.4159821923763412,
+        "minimum_noncontact": 7.001095724142895e-09,
+        "it": 260,
+        "seconds": 46.990537881851196,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.34456260268462885,
+        "Qmax": 0.4023872556062627,
+        "ucost": 0.5873650061665996,
+        "scost": 0.828567700410653,
+        "objective": 1.4159327065772525,
+        "minimum_noncontact": 7.000953006896019e-09,
+        "it": 270,
+        "seconds": 49.03583002090454,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.3445592069004873,
+        "Qmax": 0.4023662956441548,
+        "ucost": 0.5873282665868874,
+        "scost": 0.8285552215576496,
+        "objective": 1.415883488144537,
+        "minimum_noncontact": 7.0009074302568205e-09,
+        "it": 280,
+        "seconds": 51.01758408546448,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.34455701053301774,
+        "Qmax": 0.40239940921590184,
+        "ucost": 0.5873046118207556,
+        "scost": 0.8285473048119893,
+        "objective": 1.4158519166327448,
+        "minimum_noncontact": 7.0008647479352364e-09,
+        "it": 290,
+        "seconds": 53.0146689414978,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 16,
+        "Pmax": 0.34450199640050805,
+        "Qmax": 0.4024502836033331,
+        "ucost": 0.5872451827376598,
+        "scost": 0.8285610929248015,
+        "objective": 1.4158062756624612,
+        "minimum_noncontact": 7.002384451931991e-09,
+        "it": 300,
+        "seconds": 54.958719968795776,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 16,
+        "Pmax": 0.34422414044371663,
+        "Qmax": 0.4029736013191531,
+        "ucost": 0.5870121770138548,
+        "scost": 0.8287034296962651,
+        "objective": 1.41571560671012,
+        "minimum_noncontact": 7.008420878188848e-09,
+        "it": 310,
+        "seconds": 56.88868999481201,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.3438283211622444,
+        "Qmax": 0.4034407428766791,
+        "ucost": 0.5866791794894556,
+        "scost": 0.8289509194629485,
+        "objective": 1.4156300989524042,
+        "minimum_noncontact": 7.011964737707754e-09,
+        "it": 320,
+        "seconds": 58.80171990394592,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.34349696488134224,
+        "Qmax": 0.403841976563782,
+        "ucost": 0.5863748435672742,
+        "scost": 0.8291849312940287,
+        "objective": 1.415559774861303,
+        "minimum_noncontact": 7.012013931102963e-09,
+        "it": 330,
+        "seconds": 60.90830612182617,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 17,
+        "Pmax": 0.3433286493605968,
+        "Qmax": 0.4038648325209291,
+        "ucost": 0.586219608408664,
+        "scost": 0.8293062902994928,
+        "objective": 1.415525898708157,
+        "minimum_noncontact": 7.012396752854785e-09,
+        "it": 340,
+        "seconds": 62.90890097618103,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.34321595864081234,
+        "Qmax": 0.4040983059147861,
+        "ucost": 0.5860981027220786,
+        "scost": 0.8293797253279798,
+        "objective": 1.4154778280500584,
+        "minimum_noncontact": 7.012470567647223e-09,
+        "it": 350,
+        "seconds": 64.90713691711426,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.3431347279711293,
+        "Qmax": 0.4041498281468082,
+        "ucost": 0.5860123642823016,
+        "scost": 0.8294364855719168,
+        "objective": 1.4154488498542186,
+        "minimum_noncontact": 7.0125163476308515e-09,
+        "it": 360,
+        "seconds": 66.97356295585632,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.3431326239404388,
+        "Qmax": 0.4042591728757551,
+        "ucost": 0.585990109221393,
+        "scost": 0.8294283087180611,
+        "objective": 1.415418417939454,
+        "minimum_noncontact": 7.01298798267269e-09,
+        "it": 370,
+        "seconds": 69.04173612594604,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.3431427044152746,
+        "Qmax": 0.4043071305954667,
+        "ucost": 0.5859841997572129,
+        "scost": 0.8294137594185221,
+        "objective": 1.415397959175735,
+        "minimum_noncontact": 7.013446680210035e-09,
+        "it": 380,
+        "seconds": 71.10598015785217,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.3431068603342655,
+        "Qmax": 0.40430059596562934,
+        "ucost": 0.585942633946657,
+        "scost": 0.8294398720994997,
+        "objective": 1.4153825060461567,
+        "minimum_noncontact": 7.013415434298925e-09,
+        "it": 390,
+        "seconds": 73.15772724151611,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.34309170367607267,
+        "Qmax": 0.40433389843228285,
+        "ucost": 0.5859148421764993,
+        "scost": 0.829448881682405,
+        "objective": 1.4153637238589043,
+        "minimum_noncontact": 7.013509408106536e-09,
+        "it": 400,
+        "seconds": 75.15187001228333,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 14,
+        "Pmax": 0.34307210818568096,
+        "Qmax": 0.4043283099950628,
+        "ucost": 0.585884196142922,
+        "scost": 0.8294589401178425,
+        "objective": 1.4153431362607645,
+        "minimum_noncontact": 7.013477660058774e-09,
+        "it": 410,
+        "seconds": 77.26975297927856,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 14,
+        "Pmax": 0.3430810902388015,
+        "Qmax": 0.4043811302704969,
+        "ucost": 0.5858834672233324,
+        "scost": 0.8294439233138384,
+        "objective": 1.4153273905371708,
+        "minimum_noncontact": 7.013634636922768e-09,
+        "it": 420,
+        "seconds": 79.50191903114319,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 13,
+        "Pmax": 0.3430739452036559,
+        "Qmax": 0.40436317377167397,
+        "ucost": 0.585867750560376,
+        "scost": 0.8294475314766228,
+        "objective": 1.4153152820369987,
+        "minimum_noncontact": 7.0136716984803695e-09,
+        "it": 430,
+        "seconds": 82.18583393096924,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 13,
+        "Pmax": 0.34305550528894546,
+        "Qmax": 0.40440365959954744,
+        "ucost": 0.5858443847518282,
+        "scost": 0.8294579616774238,
+        "objective": 1.415302346429252,
+        "minimum_noncontact": 7.013575014949975e-09,
+        "it": 440,
+        "seconds": 84.70158410072327,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 12,
+        "Pmax": 0.3430471940266539,
+        "Qmax": 0.40439807009299705,
+        "ucost": 0.5858312193281432,
+        "scost": 0.829461460627928,
+        "objective": 1.4152926799560712,
+        "minimum_noncontact": 7.013538902233963e-09,
+        "it": 450,
+        "seconds": 87.01043605804443,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.3430436132515119,
+        "Qmax": 0.4043929200691774,
+        "ucost": 0.5858215506390684,
+        "scost": 0.8294622508158378,
+        "objective": 1.415283801454906,
+        "minimum_noncontact": 7.013576189093355e-09,
+        "it": 460,
+        "seconds": 89.32835698127747,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 11,
+        "Pmax": 0.34304437795672643,
+        "Qmax": 0.4044510511611984,
+        "ucost": 0.5858157540431628,
+        "scost": 0.8294590780472821,
+        "objective": 1.415274832090445,
+        "minimum_noncontact": 7.013592796839668e-09,
+        "it": 470,
+        "seconds": 91.72320818901062,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 11,
+        "Pmax": 0.3430083662380906,
+        "Qmax": 0.4044457657405441,
+        "ucost": 0.5857768436347981,
+        "scost": 0.8294889794976594,
+        "objective": 1.4152658231324575,
+        "minimum_noncontact": 7.013340923013861e-09,
+        "it": 480,
+        "seconds": 94.08747601509094,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 11,
+        "Pmax": 0.3430199157581968,
+        "Qmax": 0.4044355997806951,
+        "ucost": 0.5857813837309956,
+        "scost": 0.8294770470588402,
+        "objective": 1.415258430789836,
+        "minimum_noncontact": 7.01344548021622e-09,
+        "it": 490,
+        "seconds": 96.50402092933655,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 11,
+        "Pmax": 0.34302490962568644,
+        "Qmax": 0.40446452335393157,
+        "ucost": 0.5857816180315883,
+        "scost": 0.8294708566600142,
+        "objective": 1.4152524746916026,
+        "minimum_noncontact": 7.013501980056278e-09,
+        "it": 500,
+        "seconds": 98.85119891166687,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 11,
+        "Pmax": 0.34302079692261667,
+        "Qmax": 0.40444699532631545,
+        "ucost": 0.5857745980400558,
+        "scost": 0.829473186403464,
+        "objective": 1.4152477844435198,
+        "minimum_noncontact": 7.013493740766876e-09,
+        "it": 510,
+        "seconds": 101.29192590713501,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.34302572819778593,
+        "Qmax": 0.40443555929366776,
+        "ucost": 0.585775730987126,
+        "scost": 0.829466286294035,
+        "objective": 1.415242017281161,
+        "minimum_noncontact": 7.013556214209741e-09,
+        "it": 520,
+        "seconds": 103.81296706199646,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34301390755789657,
+        "Qmax": 0.404472627092007,
+        "ucost": 0.5857627502391851,
+        "scost": 0.8294740910163558,
+        "objective": 1.415236841255541,
+        "minimum_noncontact": 7.013459892697772e-09,
+        "it": 530,
+        "seconds": 106.29537606239319,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34299291168208773,
+        "Qmax": 0.40449019715244466,
+        "ucost": 0.5857419027476662,
+        "scost": 0.8294898908681065,
+        "objective": 1.4152317936157728,
+        "minimum_noncontact": 7.013298015697028e-09,
+        "it": 540,
+        "seconds": 108.76867294311523,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34300466795003687,
+        "Qmax": 0.4044944187918223,
+        "ucost": 0.5857491704007604,
+        "scost": 0.8294786339130731,
+        "objective": 1.4152278043138335,
+        "minimum_noncontact": 7.01340143211308e-09,
+        "it": 550,
+        "seconds": 111.33890295028687,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34301140656091084,
+        "Qmax": 0.4044993798792453,
+        "ucost": 0.5857521131339707,
+        "scost": 0.8294702048053137,
+        "objective": 1.4152223179392844,
+        "minimum_noncontact": 7.013463785257094e-09,
+        "it": 560,
+        "seconds": 113.67394495010376,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34301721175786326,
+        "Qmax": 0.40449038724146524,
+        "ucost": 0.5857543712761291,
+        "scost": 0.8294637860336838,
+        "objective": 1.4152181573098128,
+        "minimum_noncontact": 7.013526967617113e-09,
+        "it": 570,
+        "seconds": 116.00840592384338,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34302130827585653,
+        "Qmax": 0.4044770345251632,
+        "ucost": 0.5857558417865574,
+        "scost": 0.8294580905737754,
+        "objective": 1.4152139323603328,
+        "minimum_noncontact": 7.013568436023726e-09,
+        "it": 580,
+        "seconds": 118.29075503349304,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.34301168412676114,
+        "Qmax": 0.40449087551960317,
+        "ucost": 0.5857445012750429,
+        "scost": 0.8294658008370781,
+        "objective": 1.415210302112121,
+        "minimum_noncontact": 7.0068458071026045e-09,
+        "it": 590,
+        "seconds": 120.57931685447693,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.3430135599756198,
+        "Qmax": 0.4044882465545997,
+        "ucost": 0.5857428245725514,
+        "scost": 0.8294634910555412,
+        "objective": 1.4152063156280925,
+        "minimum_noncontact": 6.957600232465514e-09,
+        "it": 600,
+        "seconds": 123.0509421825409,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.34302022362777634,
+        "Qmax": 0.40449099139816663,
+        "ucost": 0.5857460900442499,
+        "scost": 0.8294563811099644,
+        "objective": 1.4152024711542144,
+        "minimum_noncontact": 6.926205433574127e-09,
+        "it": 610,
+        "seconds": 125.70754504203796,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.3430151982513353,
+        "Qmax": 0.40449986945749794,
+        "ucost": 0.5857394388970022,
+        "scost": 0.8294602415529465,
+        "objective": 1.4151996804499487,
+        "minimum_noncontact": 6.8987533131485365e-09,
+        "it": 620,
+        "seconds": 128.16706609725952,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.34301515980313924,
+        "Qmax": 0.40450974809982876,
+        "ucost": 0.5857372453974288,
+        "scost": 0.8294590962007846,
+        "objective": 1.4151963415982134,
+        "minimum_noncontact": 6.872194616323083e-09,
+        "it": 630,
+        "seconds": 130.82801389694214,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.34301579236322133,
+        "Qmax": 0.40449506922956274,
+        "ucost": 0.5857351092687594,
+        "scost": 0.8294583816004241,
+        "objective": 1.4151934908691834,
+        "minimum_noncontact": 6.842666066717056e-09,
+        "it": 640,
+        "seconds": 133.56041312217712,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.34300301812065104,
+        "Qmax": 0.4045101738746798,
+        "ucost": 0.585722210407871,
+        "scost": 0.829468481825707,
+        "objective": 1.415190692233578,
+        "minimum_noncontact": 6.818962190661398e-09,
+        "it": 650,
+        "seconds": 136.4687089920044,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.34301840867991723,
+        "Qmax": 0.40449748699527055,
+        "ucost": 0.5857344660868559,
+        "scost": 0.8294544387379296,
+        "objective": 1.4151889048247854,
+        "minimum_noncontact": 6.801630020795725e-09,
+        "it": 660,
+        "seconds": 140.74378418922424,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.34292586366754024,
+        "Qmax": 0.40435588363978653,
+        "ucost": 0.585684052658178,
+        "scost": 0.829441465262212,
+        "objective": 1.4151255179203899,
+        "minimum_noncontact": 6.7591643304698445e-09,
+        "it": 670,
+        "seconds": 144.79333019256592,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.3415045392826671,
+        "Qmax": 0.40306209420567124,
+        "ucost": 0.584815522644785,
+        "scost": 0.8298016973098793,
+        "objective": 1.4146172199546643,
+        "minimum_noncontact": 6.487721802166376e-09,
+        "it": 680,
+        "seconds": 148.88887786865234,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.341207231894209,
+        "Qmax": 0.4028714455155919,
+        "ucost": 0.5845686085926657,
+        "scost": 0.8299569939893077,
+        "objective": 1.4145256025819735,
+        "minimum_noncontact": 6.451861581267968e-09,
+        "it": 690,
+        "seconds": 153.57138395309448,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.341112568296971,
+        "Qmax": 0.402792967273773,
+        "ucost": 0.5844181927216033,
+        "scost": 0.8300339265735664,
+        "objective": 1.4144521192951698,
+        "minimum_noncontact": 6.433739397853027e-09,
+        "it": 700,
+        "seconds": 155.9477150440216,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.3410827570283767,
+        "Qmax": 0.4027315095801978,
+        "ucost": 0.5843370634955675,
+        "scost": 0.8300172635613781,
+        "objective": 1.4143543270569454,
+        "minimum_noncontact": 6.425578399862297e-09,
+        "it": 710,
+        "seconds": 157.97355699539185,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.34107107997210395,
+        "Qmax": 0.40269624148313293,
+        "ucost": 0.5843041006210098,
+        "scost": 0.8300015849803284,
+        "objective": 1.414305685601338,
+        "minimum_noncontact": 6.421746491025044e-09,
+        "it": 720,
+        "seconds": 160.06702709197998,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.3410583275221676,
+        "Qmax": 0.4027039890063605,
+        "ucost": 0.5842714638453016,
+        "scost": 0.8299960822811703,
+        "objective": 1.4142675461264718,
+        "minimum_noncontact": 6.419191256701214e-09,
+        "it": 730,
+        "seconds": 162.36444401741028,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.34104391051851063,
+        "Qmax": 0.40272834731833196,
+        "ucost": 0.5842360529839071,
+        "scost": 0.829998338470746,
+        "objective": 1.4142343914546531,
+        "minimum_noncontact": 6.41757333053883e-09,
+        "it": 740,
+        "seconds": 164.24368286132812,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 76,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.3410403030944886,
+        "Qmax": 0.4027244959466857,
+        "ucost": 0.5842103171595012,
+        "scost": 0.8299905525548078,
+        "objective": 1.4142008697143091,
+        "minimum_noncontact": 6.416616495507772e-09,
+        "it": 750,
+        "seconds": 166.11774802207947,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 77,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.3410524066244484,
+        "Qmax": 0.4027111676262077,
+        "ucost": 0.5842029007904876,
+        "scost": 0.8299706663111075,
+        "objective": 1.4141735671015951,
+        "minimum_noncontact": 6.4158053452199095e-09,
+        "it": 760,
+        "seconds": 167.90800309181213,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 78,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.3409957290623429,
+        "Qmax": 0.4026925140129023,
+        "ucost": 0.584138944438435,
+        "scost": 0.8300157386839564,
+        "objective": 1.4141546831223915,
+        "minimum_noncontact": 6.4152605076999515e-09,
+        "it": 770,
+        "seconds": 170.01100206375122,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 79,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.34101787157444535,
+        "Qmax": 0.4027413074750084,
+        "ucost": 0.5841492234916447,
+        "scost": 0.8299888627173218,
+        "objective": 1.4141380862089665,
+        "minimum_noncontact": 6.4144987827416555e-09,
+        "it": 780,
+        "seconds": 172.0996870994568,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 80,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.3410222954221082,
+        "Qmax": 0.4027312644058094,
+        "ucost": 0.584140882585235,
+        "scost": 0.8299784222177442,
+        "objective": 1.4141193048029792,
+        "minimum_noncontact": 6.414210107844265e-09,
+        "it": 790,
+        "seconds": 174.1500551700592,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 81,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.34103919141134625,
+        "Qmax": 0.4027128732217213,
+        "ucost": 0.5841464471035207,
+        "scost": 0.8299572308325001,
+        "objective": 1.4141036779360208,
+        "minimum_noncontact": 6.41397382112304e-09,
+        "it": 800,
+        "seconds": 176.12800979614258,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 82,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.3410326072844744,
+        "Qmax": 0.4027044820529622,
+        "ucost": 0.584136072193512,
+        "scost": 0.8299548469620052,
+        "objective": 1.4140909191555173,
+        "minimum_noncontact": 6.4138250187378495e-09,
+        "it": 810,
+        "seconds": 178.0258069038391,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 83,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.34101909541090997,
+        "Qmax": 0.4027324493134996,
+        "ucost": 0.5841151232004663,
+        "scost": 0.8299595688640449,
+        "objective": 1.4140746920645113,
+        "minimum_noncontact": 6.413621739573762e-09,
+        "it": 820,
+        "seconds": 180.04944396018982,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 84,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.34103520213886424,
+        "Qmax": 0.4027298486407936,
+        "ucost": 0.5841210799288578,
+        "scost": 0.8299432654039132,
+        "objective": 1.414064345332771,
+        "minimum_noncontact": 6.413443768066239e-09,
+        "it": 830,
+        "seconds": 182.1491448879242,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 85,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.34100327422499827,
+        "Qmax": 0.4027529118552769,
+        "ucost": 0.5840875138609987,
+        "scost": 0.8299662456390037,
+        "objective": 1.4140537595000024,
+        "minimum_noncontact": 6.413464979483222e-09,
+        "it": 840,
+        "seconds": 184.19959378242493,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 86,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.3409974016692062,
+        "Qmax": 0.40272614200721957,
+        "ucost": 0.5840727850966954,
+        "scost": 0.8299692669591885,
+        "objective": 1.4140420520558838,
+        "minimum_noncontact": 6.413371852370839e-09,
+        "it": 850,
+        "seconds": 186.38938784599304,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 87,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.3410078829923749,
+        "Qmax": 0.4027393351097227,
+        "ucost": 0.5840762731526828,
+        "scost": 0.8299569971527176,
+        "objective": 1.4140332703054006,
+        "minimum_noncontact": 6.413331618498202e-09,
+        "it": 860,
+        "seconds": 188.39057183265686,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 88,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.3409859104562284,
+        "Qmax": 0.40272690895555885,
+        "ucost": 0.5840523902442372,
+        "scost": 0.8299730374079887,
+        "objective": 1.4140254276522257,
+        "minimum_noncontact": 6.413311632370928e-09,
+        "it": 870,
+        "seconds": 190.37762713432312,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 89,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.34098693614112274,
+        "Qmax": 0.40275752410661614,
+        "ucost": 0.5840474471543876,
+        "scost": 0.8299700088740931,
+        "objective": 1.4140174560284806,
+        "minimum_noncontact": 6.413265418782321e-09,
+        "it": 880,
+        "seconds": 192.305655002594,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 90,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.3409969050555622,
+        "Qmax": 0.40276836353078954,
+        "ucost": 0.5840530026464422,
+        "scost": 0.829959391184107,
+        "objective": 1.414012393830549,
+        "minimum_noncontact": 6.413193088715232e-09,
+        "it": 890,
+        "seconds": 194.40002918243408,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 91,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.34100396659676874,
+        "Qmax": 0.40277107424161884,
+        "ucost": 0.5840537898661395,
+        "scost": 0.8299530755520945,
+        "objective": 1.414006865418234,
+        "minimum_noncontact": 6.413149890913466e-09,
+        "it": 900,
+        "seconds": 196.45897507667542,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 92,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 11,
+        "Pmax": 0.340991119805056,
+        "Qmax": 0.4027522626562502,
+        "ucost": 0.5840395355196827,
+        "scost": 0.8299619787322207,
+        "objective": 1.4140015142519033,
+        "minimum_noncontact": 6.4131741224807385e-09,
+        "it": 910,
+        "seconds": 198.72655987739563,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 93,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 11,
+        "Pmax": 0.34098793905658425,
+        "Qmax": 0.4027713609395415,
+        "ucost": 0.5840338941621548,
+        "scost": 0.8299628644198715,
+        "objective": 1.4139967585820263,
+        "minimum_noncontact": 6.413117474747167e-09,
+        "it": 920,
+        "seconds": 200.88118386268616,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 94,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.34099116365309723,
+        "Qmax": 0.4027697534761491,
+        "ucost": 0.5840340501540286,
+        "scost": 0.8299587683284215,
+        "objective": 1.4139928184824502,
+        "minimum_noncontact": 6.41310083053037e-09,
+        "it": 930,
+        "seconds": 203.23352789878845,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 95,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.34100502894836193,
+        "Qmax": 0.4027544323907293,
+        "ucost": 0.5840430587733095,
+        "scost": 0.829945169706047,
+        "objective": 1.4139882284793566,
+        "minimum_noncontact": 6.413056030362852e-09,
+        "it": 940,
+        "seconds": 205.39995312690735,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 96,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.3409843313916349,
+        "Qmax": 0.40275548138959144,
+        "ucost": 0.5840214520511573,
+        "scost": 0.829962883080138,
+        "objective": 1.4139843351312953,
+        "minimum_noncontact": 6.413103589714506e-09,
+        "it": 950,
+        "seconds": 207.37575912475586,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 97,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.3409934573481955,
+        "Qmax": 0.40276681372460893,
+        "ucost": 0.5840259215015428,
+        "scost": 0.829953562667537,
+        "objective": 1.4139794841690798,
+        "minimum_noncontact": 6.413055237705702e-09,
+        "it": 960,
+        "seconds": 209.43942379951477,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 98,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.34098765957856647,
+        "Qmax": 0.40277721934751026,
+        "ucost": 0.5840184703980817,
+        "scost": 0.8299575220713126,
+        "objective": 1.4139759924693944,
+        "minimum_noncontact": 6.41307236563273e-09,
+        "it": 970,
+        "seconds": 211.6462161540985,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 99,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.3409975780237801,
+        "Qmax": 0.4027654782985434,
+        "ucost": 0.5840252923832898,
+        "scost": 0.8299477115610241,
+        "objective": 1.413973003944314,
+        "minimum_noncontact": 6.413027664544369e-09,
+        "it": 980,
+        "seconds": 213.78085207939148,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 100,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.34100298623390163,
+        "Qmax": 0.4027612694982012,
+        "ucost": 0.5840289484520835,
+        "scost": 0.8299411342385478,
+        "objective": 1.4139700826906312,
+        "minimum_noncontact": 6.413008485616823e-09,
+        "it": 990,
+        "seconds": 215.92855501174927,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 101,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.3409956256019075,
+        "Qmax": 0.40276690756211503,
+        "ucost": 0.5840204738608534,
+        "scost": 0.8299467504194611,
+        "objective": 1.4139672242803145,
+        "minimum_noncontact": 6.413038936152541e-09,
+        "it": 1000,
+        "seconds": 218.10194182395935,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 102,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34098105885795454,
+        "Qmax": 0.4027557039943196,
+        "ucost": 0.5840066268961963,
+        "scost": 0.8299576493111176,
+        "objective": 1.413964276207314,
+        "minimum_noncontact": 6.41310111508531e-09,
+        "it": 1010,
+        "seconds": 220.33119201660156,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 103,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3409880890194962,
+        "Qmax": 0.4027639462412622,
+        "ucost": 0.5840109904107955,
+        "scost": 0.8299507307661167,
+        "objective": 1.4139617211769122,
+        "minimum_noncontact": 6.413067533613149e-09,
+        "it": 1020,
+        "seconds": 222.4725148677826,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 104,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34099025379202275,
+        "Qmax": 0.4027683418197084,
+        "ucost": 0.5840108428034868,
+        "scost": 0.8299476987545044,
+        "objective": 1.4139585415579912,
+        "minimum_noncontact": 6.413051412865011e-09,
+        "it": 1030,
+        "seconds": 224.66169476509094,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 105,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3409872841902699,
+        "Qmax": 0.4027644816767146,
+        "ucost": 0.5840062091254292,
+        "scost": 0.8299495349465968,
+        "objective": 1.413955744072026,
+        "minimum_noncontact": 6.413045099043679e-09,
+        "it": 1040,
+        "seconds": 226.82824420928955,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 106,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34096728799304205,
+        "Qmax": 0.40276726332243223,
+        "ucost": 0.5839870587992493,
+        "scost": 0.8299656624375935,
+        "objective": 1.4139527212368428,
+        "minimum_noncontact": 6.4131345278918205e-09,
+        "it": 1050,
+        "seconds": 229.16325283050537,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 107,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.34097317745390326,
+        "Qmax": 0.4027715525721111,
+        "ucost": 0.5839898507062806,
+        "scost": 0.8299599951665544,
+        "objective": 1.413949845872835,
+        "minimum_noncontact": 6.413089059461621e-09,
+        "it": 1060,
+        "seconds": 231.374281167984,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 108,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.3403270880509842,
+        "Qmax": 0.4012885254056327,
+        "ucost": 0.5838569974340997,
+        "scost": 0.8296972400605285,
+        "objective": 1.4135542374946282,
+        "minimum_noncontact": 6.412037541963042e-09,
+        "it": 1070,
+        "seconds": 233.2170250415802,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 109,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.33972217210807726,
+        "Qmax": 0.40037266404709987,
+        "ucost": 0.5835029186313891,
+        "scost": 0.8296683127150247,
+        "objective": 1.4131712313464138,
+        "minimum_noncontact": 6.411817671619855e-09,
+        "it": 1080,
+        "seconds": 235.02318406105042,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 110,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.3394491281413002,
+        "Qmax": 0.40024919601137776,
+        "ucost": 0.5832063035695599,
+        "scost": 0.8298054271904074,
+        "objective": 1.4130117307599672,
+        "minimum_noncontact": 6.4120045732712306e-09,
+        "it": 1090,
+        "seconds": 236.78953886032104,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 111,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.33939534002620814,
+        "Qmax": 0.40010514302132566,
+        "ucost": 0.583126377591748,
+        "scost": 0.8297563368013451,
+        "objective": 1.412882714393093,
+        "minimum_noncontact": 6.411754499677975e-09,
+        "it": 1100,
+        "seconds": 238.7169599533081,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 112,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.3393614514063002,
+        "Qmax": 0.40006609204209004,
+        "ucost": 0.5830374783898121,
+        "scost": 0.8297470385676418,
+        "objective": 1.412784516957454,
+        "minimum_noncontact": 6.411817336545491e-09,
+        "it": 1110,
+        "seconds": 240.6901979446411,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 113,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.3393261036271407,
+        "Qmax": 0.4001360810229163,
+        "ucost": 0.5829440638391157,
+        "scost": 0.8297651740912527,
+        "objective": 1.4127092379303683,
+        "minimum_noncontact": 6.411847093544214e-09,
+        "it": 1120,
+        "seconds": 242.768079996109,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 114,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.33934600958883465,
+        "Qmax": 0.40006719412279823,
+        "ucost": 0.5829328988641354,
+        "scost": 0.829727549756409,
+        "objective": 1.4126604486205445,
+        "minimum_noncontact": 6.411878897059376e-09,
+        "it": 1130,
+        "seconds": 245.16150212287903,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 115,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.3393079453402944,
+        "Qmax": 0.4000406814586599,
+        "ucost": 0.5828678420516729,
+        "scost": 0.8297575378747012,
+        "objective": 1.4126253799263742,
+        "minimum_noncontact": 6.4119384731027475e-09,
+        "it": 1140,
+        "seconds": 247.30527877807617,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 116,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.33929917626792466,
+        "Qmax": 0.4001203638065223,
+        "ucost": 0.5828371641883059,
+        "scost": 0.8297467825957355,
+        "objective": 1.4125839467840415,
+        "minimum_noncontact": 6.412045018438594e-09,
+        "it": 1150,
+        "seconds": 249.60891890525818,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 117,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.3393015680809708,
+        "Qmax": 0.4000981703272744,
+        "ucost": 0.5828090492494865,
+        "scost": 0.8297366738064051,
+        "objective": 1.4125457230558918,
+        "minimum_noncontact": 6.41202355521193e-09,
+        "it": 1160,
+        "seconds": 251.9831531047821,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 118,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.3392879002701514,
+        "Qmax": 0.40010490863515796,
+        "ucost": 0.5827673695481523,
+        "scost": 0.8297419777102222,
+        "objective": 1.4125093472583745,
+        "minimum_noncontact": 6.412116897240973e-09,
+        "it": 1170,
+        "seconds": 255.78869795799255,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 119,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.33928799659165887,
+        "Qmax": 0.40008430428289593,
+        "ucost": 0.5827456091593062,
+        "scost": 0.8297349255868901,
+        "objective": 1.4124805347461962,
+        "minimum_noncontact": 6.412138414665682e-09,
+        "it": 1180,
+        "seconds": 259.2985279560089,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 120,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.339302569210979,
+        "Qmax": 0.40009376661931206,
+        "ucost": 0.5827416448796785,
+        "scost": 0.8297190936548146,
+        "objective": 1.412460738534493,
+        "minimum_noncontact": 6.412098116561124e-09,
+        "it": 1190,
+        "seconds": 263.0434808731079,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 121,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.3392704093548917,
+        "Qmax": 0.40007375572036785,
+        "ucost": 0.5827009053581217,
+        "scost": 0.829741222817052,
+        "objective": 1.4124421281751736,
+        "minimum_noncontact": 6.412199123769065e-09,
+        "it": 1200,
+        "seconds": 265.41103196144104,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 122,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.33929163577741733,
+        "Qmax": 0.40008727509499914,
+        "ucost": 0.5827012925557538,
+        "scost": 0.8297260993130919,
+        "objective": 1.4124273918688457,
+        "minimum_noncontact": 6.412116436877245e-09,
+        "it": 1210,
+        "seconds": 267.43424916267395,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 123,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.33929135620127787,
+        "Qmax": 0.400095076693243,
+        "ucost": 0.5826846428739091,
+        "scost": 0.8297234557353077,
+        "objective": 1.412408098609217,
+        "minimum_noncontact": 6.412133645229995e-09,
+        "it": 1220,
+        "seconds": 269.42258501052856,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 124,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.33928766359810747,
+        "Qmax": 0.40010991785599914,
+        "ucost": 0.5826747591785978,
+        "scost": 0.8297239586870618,
+        "objective": 1.4123987178656596,
+        "minimum_noncontact": 6.412198605132076e-09,
+        "it": 1230,
+        "seconds": 271.49876499176025,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 125,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.33927788369912465,
+        "Qmax": 0.4001023589563837,
+        "ucost": 0.5826573221580345,
+        "scost": 0.8297296612920911,
+        "objective": 1.4123869834501255,
+        "minimum_noncontact": 6.4122852401108545e-09,
+        "it": 1240,
+        "seconds": 273.5957360267639,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 126,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.3392943827828471,
+        "Qmax": 0.40009982928983945,
+        "ucost": 0.5826642617729311,
+        "scost": 0.8297129514216026,
+        "objective": 1.4123772131945338,
+        "minimum_noncontact": 6.412243284590446e-09,
+        "it": 1250,
+        "seconds": 275.7294890880585,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 127,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.33929413902236366,
+        "Qmax": 0.40008653907372344,
+        "ucost": 0.582658744636203,
+        "scost": 0.8297103287584341,
+        "objective": 1.412369073394637,
+        "minimum_noncontact": 6.4122256384924235e-09,
+        "it": 1260,
+        "seconds": 277.83750796318054,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 128,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.33929901397205825,
+        "Qmax": 0.4000910492199264,
+        "ucost": 0.5826552984819432,
+        "scost": 0.8297040869019129,
+        "objective": 1.412359385383856,
+        "minimum_noncontact": 6.412136583046541e-09,
+        "it": 1270,
+        "seconds": 280.3026690483093,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 129,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.33929385485827535,
+        "Qmax": 0.4000819996600403,
+        "ucost": 0.5826426200162172,
+        "scost": 0.829707005845655,
+        "objective": 1.4123496258618724,
+        "minimum_noncontact": 6.412187591318591e-09,
+        "it": 1280,
+        "seconds": 283.3600869178772,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 130,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.33928798077867267,
+        "Qmax": 0.4000946690995253,
+        "ucost": 0.5826313235319437,
+        "scost": 0.8297100464253929,
+        "objective": 1.4123413699573366,
+        "minimum_noncontact": 6.412234922240517e-09,
+        "it": 1290,
+        "seconds": 285.8340971469879,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 131,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.3392865780777646,
+        "Qmax": 0.40009075770448677,
+        "ucost": 0.5826215314607464,
+        "scost": 0.8297110934489196,
+        "objective": 1.412332624909666,
+        "minimum_noncontact": 6.412279563083447e-09,
+        "it": 1300,
+        "seconds": 288.1368269920349,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 132,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.33927815685218143,
+        "Qmax": 0.4001117849654878,
+        "ucost": 0.5826104603528947,
+        "scost": 0.8297148602294437,
+        "objective": 1.4123253205823385,
+        "minimum_noncontact": 6.4123089669848815e-09,
+        "it": 1310,
+        "seconds": 290.41224789619446,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 133,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.33928208348376276,
+        "Qmax": 0.40010463901847554,
+        "ucost": 0.5826100843436329,
+        "scost": 0.8297100905493189,
+        "objective": 1.412320174892952,
+        "minimum_noncontact": 6.4123319404210125e-09,
+        "it": 1320,
+        "seconds": 292.64410519599915,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 134,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.3392805763164477,
+        "Qmax": 0.4001126088358026,
+        "ucost": 0.5826059172275445,
+        "scost": 0.8297099917020307,
+        "objective": 1.4123159089295751,
+        "minimum_noncontact": 6.412309339511211e-09,
+        "it": 1330,
+        "seconds": 294.9599120616913,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 135,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.3392767537414023,
+        "Qmax": 0.40010904368770467,
+        "ucost": 0.582600683519465,
+        "scost": 0.8297110121072839,
+        "objective": 1.412311695626749,
+        "minimum_noncontact": 6.41235568722542e-09,
+        "it": 1340,
+        "seconds": 297.1436719894409,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 136,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.33927979670736347,
+        "Qmax": 0.40009497883488443,
+        "ucost": 0.5826001737530605,
+        "scost": 0.8297069515793685,
+        "objective": 1.412307125332429,
+        "minimum_noncontact": 6.4123003103199735e-09,
+        "it": 1350,
+        "seconds": 299.589084148407,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 137,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.339284143543663,
+        "Qmax": 0.40009272299136794,
+        "ucost": 0.582600996187566,
+        "scost": 0.8297022796578062,
+        "objective": 1.4123032758453722,
+        "minimum_noncontact": 6.412301333767589e-09,
+        "it": 1360,
+        "seconds": 301.8458559513092,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 138,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.3392827684385601,
+        "Qmax": 0.40009409806312746,
+        "ucost": 0.5825958351953576,
+        "scost": 0.8297019819763813,
+        "objective": 1.4122978171717389,
+        "minimum_noncontact": 6.412333165375874e-09,
+        "it": 1370,
+        "seconds": 304.37770414352417,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 139,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.3392921020016085,
+        "Qmax": 0.4000969969451916,
+        "ucost": 0.5825981758644706,
+        "scost": 0.8296956418182714,
+        "objective": 1.412293817682742,
+        "minimum_noncontact": 6.412303299123756e-09,
+        "it": 1380,
+        "seconds": 307.0199189186096,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 140,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.3392789521162345,
+        "Qmax": 0.40010840530170294,
+        "ucost": 0.5825824921532312,
+        "scost": 0.8297072592896926,
+        "objective": 1.4122897514429238,
+        "minimum_noncontact": 6.412365067710747e-09,
+        "it": 1390,
+        "seconds": 309.70009207725525,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 141,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.33927456169402687,
+        "Qmax": 0.40011242212306813,
+        "ucost": 0.5825761654457093,
+        "scost": 0.8297100775789658,
+        "objective": 1.412286243024675,
+        "minimum_noncontact": 6.4123567580823886e-09,
+        "it": 1400,
+        "seconds": 312.4378740787506,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 142,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.3392788925104194,
+        "Qmax": 0.4001056212985011,
+        "ucost": 0.5825776916160216,
+        "scost": 0.8297055713652954,
+        "objective": 1.4122832629813171,
+        "minimum_noncontact": 6.412348814794195e-09,
+        "it": 1410,
+        "seconds": 314.898295879364,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 143,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.33927727367079386,
+        "Qmax": 0.40008957933181993,
+        "ucost": 0.5825726454004773,
+        "scost": 0.8297068175591371,
+        "objective": 1.4122794629596145,
+        "minimum_noncontact": 6.412401972684658e-09,
+        "it": 1420,
+        "seconds": 317.9886529445648,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 144,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.3392812431498117,
+        "Qmax": 0.400103800014393,
+        "ucost": 0.5825738579160512,
+        "scost": 0.8297023475311388,
+        "objective": 1.41227620544719,
+        "minimum_noncontact": 6.412356277488803e-09,
+        "it": 1430,
+        "seconds": 320.66577100753784,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 145,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 11,
+        "Pmax": 0.33928098332102696,
+        "Qmax": 0.4001015259348872,
+        "ucost": 0.5825717668977115,
+        "scost": 0.8297017502102396,
+        "objective": 1.412273517107951,
+        "minimum_noncontact": 6.412342873077988e-09,
+        "it": 1440,
+        "seconds": 323.0501699447632,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 146,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 11,
+        "Pmax": 0.33928144749615313,
+        "Qmax": 0.4000871806144185,
+        "ucost": 0.5825687255649833,
+        "scost": 0.8297009632803037,
+        "objective": 1.412269688845287,
+        "minimum_noncontact": 6.412386708883222e-09,
+        "it": 1450,
+        "seconds": 325.36541295051575,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 147,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 11,
+        "Pmax": 0.33927590094184695,
+        "Qmax": 0.4000809839824613,
+        "ucost": 0.582562155595022,
+        "scost": 0.8297049034498196,
+        "objective": 1.4122670590448416,
+        "minimum_noncontact": 6.412375684075527e-09,
+        "it": 1460,
+        "seconds": 327.9617729187012,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 148,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.3392776806344415,
+        "Qmax": 0.40010206749337174,
+        "ucost": 0.5825613984061531,
+        "scost": 0.8297025577982615,
+        "objective": 1.4122639562044146,
+        "minimum_noncontact": 6.4123737421318e-09,
+        "it": 1470,
+        "seconds": 330.52616691589355,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 149,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.33927525901334266,
+        "Qmax": 0.40010262121167967,
+        "ucost": 0.582556895731595,
+        "scost": 0.8297039306265566,
+        "objective": 1.4122608263581515,
+        "minimum_noncontact": 6.412375298229471e-09,
+        "it": 1480,
+        "seconds": 333.5168809890747,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 150,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.3392783314911104,
+        "Qmax": 0.4001018410396562,
+        "ucost": 0.5825576376222457,
+        "scost": 0.8297007106115641,
+        "objective": 1.4122583482338098,
+        "minimum_noncontact": 6.412392508811117e-09,
+        "it": 1490,
+        "seconds": 336.410187959671,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 151,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392769461801964,
+        "Qmax": 0.4001039463879244,
+        "ucost": 0.5825552563838889,
+        "scost": 0.8297016855395438,
+        "objective": 1.4122569419234328,
+        "minimum_noncontact": 6.412381631917892e-09,
+        "it": 1500,
+        "seconds": 339.20491194725037,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 152,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 10,
+        "Pmax": 0.33927748351828874,
+        "Qmax": 0.40009341065728654,
+        "ucost": 0.5825533094133192,
+        "scost": 0.8297013030589299,
+        "objective": 1.412254612472249,
+        "minimum_noncontact": 6.412392292258967e-09,
+        "it": 1510,
+        "seconds": 342.26200008392334,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 153,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392735953501396,
+        "Qmax": 0.40009392000345473,
+        "ucost": 0.5825484447779085,
+        "scost": 0.8297039093757552,
+        "objective": 1.4122523541536638,
+        "minimum_noncontact": 6.4124188681174335e-09,
+        "it": 1520,
+        "seconds": 345.6768980026245,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 154,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392777415297665,
+        "Qmax": 0.400100042945003,
+        "ucost": 0.5825508530577808,
+        "scost": 0.8296994686243818,
+        "objective": 1.4122503216821625,
+        "minimum_noncontact": 6.412392934790668e-09,
+        "it": 1530,
+        "seconds": 348.2540991306305,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 155,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392786657148601,
+        "Qmax": 0.40010690055009973,
+        "ucost": 0.5825501996804457,
+        "scost": 0.8296981264419366,
+        "objective": 1.4122483261223824,
+        "minimum_noncontact": 6.412397533161401e-09,
+        "it": 1540,
+        "seconds": 350.6956949234009,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 156,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392787696798227,
+        "Qmax": 0.400104144374585,
+        "ucost": 0.5825489699891095,
+        "scost": 0.8296973536308438,
+        "objective": 1.4122463236199534,
+        "minimum_noncontact": 6.4123864665536606e-09,
+        "it": 1550,
+        "seconds": 353.3191578388214,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 157,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.33928569560521127,
+        "Qmax": 0.4000867924736309,
+        "ucost": 0.5825530047413452,
+        "scost": 0.8296909523587361,
+        "objective": 1.4122439571000813,
+        "minimum_noncontact": 6.4123647495088584e-09,
+        "it": 1560,
+        "seconds": 355.9531590938568,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 158,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392798849040381,
+        "Qmax": 0.4001004932223911,
+        "ucost": 0.5825468780688012,
+        "scost": 0.8296953266375214,
+        "objective": 1.4122422047063226,
+        "minimum_noncontact": 6.412387729145157e-09,
+        "it": 1570,
+        "seconds": 358.65334606170654,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 159,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.33927951866761735,
+        "Qmax": 0.4001009323428141,
+        "ucost": 0.5825454720215849,
+        "scost": 0.8296950898035674,
+        "objective": 1.4122405618251523,
+        "minimum_noncontact": 6.412388055355842e-09,
+        "it": 1580,
+        "seconds": 361.2988209724426,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 160,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392815488840071,
+        "Qmax": 0.40010706899641957,
+        "ucost": 0.5825461431430503,
+        "scost": 0.829693048750521,
+        "objective": 1.4122391918935713,
+        "minimum_noncontact": 6.4123980582991876e-09,
+        "it": 1590,
+        "seconds": 364.0554459095001,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 161,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.33928215896353225,
+        "Qmax": 0.4001026251588852,
+        "ucost": 0.5825456798448337,
+        "scost": 0.8296921512459168,
+        "objective": 1.4122378310907506,
+        "minimum_noncontact": 6.412384584038405e-09,
+        "it": 1600,
+        "seconds": 367.4524869918823,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 162,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.33927861725963576,
+        "Qmax": 0.400104918698387,
+        "ucost": 0.5825419728613076,
+        "scost": 0.8296945674797682,
+        "objective": 1.412236540341076,
+        "minimum_noncontact": 6.412408475904585e-09,
+        "it": 1610,
+        "seconds": 371.6583409309387,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 163,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392796021616108,
+        "Qmax": 0.40009887050852155,
+        "ucost": 0.5825415970879743,
+        "scost": 0.8296933841442456,
+        "objective": 1.41223498123222,
+        "minimum_noncontact": 6.412401796941814e-09,
+        "it": 1620,
+        "seconds": 376.1685481071472,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 164,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392781557233252,
+        "Qmax": 0.40010093826453347,
+        "ucost": 0.5825388093568103,
+        "scost": 0.8296946695440022,
+        "objective": 1.4122334789008124,
+        "minimum_noncontact": 6.412407801710713e-09,
+        "it": 1630,
+        "seconds": 380.9709839820862,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 165,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.3392791753619832,
+        "Qmax": 0.40009752585906616,
+        "ucost": 0.5825388792182997,
+        "scost": 0.8296934997581349,
+        "objective": 1.4122323789764346,
+        "minimum_noncontact": 6.4124277677411014e-09,
+        "it": 1640,
+        "seconds": 386.279550075531,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 166,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.33927824841565757,
+        "Qmax": 0.4001029599406103,
+        "ucost": 0.582537273995243,
+        "scost": 0.8296939983341381,
+        "objective": 1.412231272329381,
+        "minimum_noncontact": 6.412415560538995e-09,
+        "it": 1650,
+        "seconds": 392.54000186920166,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 167,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 9,
+        "Pmax": 0.33927705294299687,
+        "Qmax": 0.4001008264901307,
+        "ucost": 0.5825358475542316,
+        "scost": 0.8296944491201381,
+        "objective": 1.4122302966743696,
+        "minimum_noncontact": 6.41241683555325e-09,
+        "it": 1660,
+        "seconds": 398.88304710388184,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 168,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.33928197578885816,
+        "Qmax": 0.400094432469205,
+        "ucost": 0.5825393388981517,
+        "scost": 0.8296899751392183,
+        "objective": 1.4122293140373698,
+        "minimum_noncontact": 6.412429901394728e-09,
+        "it": 1670,
+        "seconds": 405.7177140712738,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 169,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.3392831538476306,
+        "Qmax": 0.4000993948500741,
+        "ucost": 0.5825396884252922,
+        "scost": 0.8296886336096256,
+        "objective": 1.4122283220349179,
+        "minimum_noncontact": 6.412397700292594e-09,
+        "it": 1680,
+        "seconds": 412.4312300682068,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 170,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.3392810778596493,
+        "Qmax": 0.4001014741727009,
+        "ucost": 0.5825365462074729,
+        "scost": 0.8296901088984601,
+        "objective": 1.412226655105933,
+        "minimum_noncontact": 6.4124182099341165e-09,
+        "it": 1690,
+        "seconds": 418.1664481163025,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 171,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.3392789484088972,
+        "Qmax": 0.4001056646782647,
+        "ucost": 0.5825344126191354,
+        "scost": 0.8296914521182812,
+        "objective": 1.4122258647374166,
+        "minimum_noncontact": 6.412427134898404e-09,
+        "it": 1700,
+        "seconds": 424.4866831302643,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 172,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.3392780877517951,
+        "Qmax": 0.4001046381035179,
+        "ucost": 0.5825335040340047,
+        "scost": 0.8296917235160919,
+        "objective": 1.4122252275500966,
+        "minimum_noncontact": 6.4124288813768516e-09,
+        "it": 1710,
+        "seconds": 430.8527820110321,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 173,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 7,
+        "Pmax": 0.33927623968077875,
+        "Qmax": 0.4001032151361813,
+        "ucost": 0.5825315298735753,
+        "scost": 0.8296928511677479,
+        "objective": 1.412224381041323,
+        "minimum_noncontact": 6.412433477924604e-09,
+        "it": 1720,
+        "seconds": 438.3356409072876,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 174,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 7,
+        "Pmax": 0.3392775241271908,
+        "Qmax": 0.4001062315168804,
+        "ucost": 0.58253175188124,
+        "scost": 0.8296916816904096,
+        "objective": 1.4122234335716497,
+        "minimum_noncontact": 6.41242153384081e-09,
+        "it": 1730,
+        "seconds": 445.4060220718384,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 175,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 7,
+        "Pmax": 0.33927846196222705,
+        "Qmax": 0.4000926210131321,
+        "ucost": 0.5825315328637423,
+        "scost": 0.8296907090764949,
+        "objective": 1.412222241940237,
+        "minimum_noncontact": 6.412418731427134e-09,
+        "it": 1740,
+        "seconds": 451.51377391815186,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 176,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 8,
+        "Pmax": 0.33928158966993543,
+        "Qmax": 0.40010524841257367,
+        "ucost": 0.5825337881098882,
+        "scost": 0.8296877309402785,
+        "objective": 1.4122215190501666,
+        "minimum_noncontact": 6.412390561994768e-09,
+        "it": 1750,
+        "seconds": 457.84759306907654,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 177,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 7,
+        "Pmax": 0.33928156790495034,
+        "Qmax": 0.4001032742938155,
+        "ucost": 0.5825328134524836,
+        "scost": 0.8296875694990855,
+        "objective": 1.4122203829515692,
+        "minimum_noncontact": 6.412412270995136e-09,
+        "it": 1760,
+        "seconds": 470.01858592033386,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 178,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 7,
+        "Pmax": 0.3392794721632197,
+        "Qmax": 0.4001052520525146,
+        "ucost": 0.5825303128379469,
+        "scost": 0.829689132711473,
+        "objective": 1.41221944554942,
+        "minimum_noncontact": 6.412414362445785e-09,
+        "it": 1770,
+        "seconds": 480.08569598197937,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 179,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 7,
+        "Pmax": 0.3392824503735783,
+        "Qmax": 0.4001059076011976,
+        "ucost": 0.5825320234604391,
+        "scost": 0.8296864229382459,
+        "objective": 1.4122184463986849,
+        "minimum_noncontact": 6.412415235372791e-09,
+        "it": 1780,
+        "seconds": 488.4194447994232,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 180,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 7,
+        "Pmax": 0.33928038850469994,
+        "Qmax": 0.4001025344214244,
+        "ucost": 0.5825295432318711,
+        "scost": 0.8296879932636851,
+        "objective": 1.4122175364955563,
+        "minimum_noncontact": 6.41241912824022e-09,
+        "it": 1790,
+        "seconds": 495.4736659526825,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 181,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 7,
+        "Pmax": 0.3392752946485223,
+        "Qmax": 0.40009627757966937,
+        "ucost": 0.5825241285314409,
+        "scost": 0.8296923510761066,
+        "objective": 1.4122164796075474,
+        "minimum_noncontact": 6.412443877078174e-09,
+        "it": 1800,
+        "seconds": 504.72814893722534,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 182,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 7,
+        "Pmax": 0.33927280376413654,
+        "Qmax": 0.40010786752142186,
+        "ucost": 0.5825212545020979,
+        "scost": 0.8296942635780297,
+        "objective": 1.4122155180801275,
+        "minimum_noncontact": 6.412438625912489e-09,
+        "it": 1810,
+        "seconds": 515.9327311515808,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 183,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 7,
+        "Pmax": 0.3392720413481409,
+        "Qmax": 0.4000935205653547,
+        "ucost": 0.5825201730794285,
+        "scost": 0.8296947479423669,
+        "objective": 1.4122149210217954,
+        "minimum_noncontact": 6.41244988998474e-09,
+        "it": 1820,
+        "seconds": 524.5683569908142,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 184,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 7,
+        "Pmax": 0.3392729448810475,
+        "Qmax": 0.4000948836709349,
+        "ucost": 0.582520100399962,
+        "scost": 0.8296938972430973,
+        "objective": 1.4122139976430592,
+        "minimum_noncontact": 6.4124602696491346e-09,
+        "it": 1830,
+        "seconds": 531.7429149150848,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 185,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 7,
+        "Pmax": 0.33927278211922846,
+        "Qmax": 0.40010422177150273,
+        "ucost": 0.5825193958276949,
+        "scost": 0.8296938733499364,
+        "objective": 1.4122132691776312,
+        "minimum_noncontact": 6.4124467377291775e-09,
+        "it": 1840,
+        "seconds": 538.0885531902313,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 186,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.33927225213610157,
+        "Qmax": 0.40010189489205344,
+        "ucost": 0.5825186609604217,
+        "scost": 0.8296940016870353,
+        "objective": 1.4122126626474572,
+        "minimum_noncontact": 6.412446892056627e-09,
+        "it": 1850,
+        "seconds": 543.858785867691,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 187,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.3392706516730002,
+        "Qmax": 0.400097023046255,
+        "ucost": 0.5825169262922943,
+        "scost": 0.829695129007026,
+        "objective": 1.4122120552993205,
+        "minimum_noncontact": 6.412470946204721e-09,
+        "it": 1860,
+        "seconds": 550.5017530918121,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 188,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.3392699593324372,
+        "Qmax": 0.40010484112320044,
+        "ucost": 0.5825157485117665,
+        "scost": 0.8296955952758132,
+        "objective": 1.4122113437875796,
+        "minimum_noncontact": 6.412463457601814e-09,
+        "it": 1870,
+        "seconds": 559.6181490421295,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 189,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.33927227051572045,
+        "Qmax": 0.40010145134377356,
+        "ucost": 0.582517310401288,
+        "scost": 0.8296934916287888,
+        "objective": 1.4122108020300768,
+        "minimum_noncontact": 6.412456478422722e-09,
+        "it": 1880,
+        "seconds": 568.8978610038757,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 190,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.3392713364837807,
+        "Qmax": 0.4001049938310687,
+        "ucost": 0.5825159457677888,
+        "scost": 0.8296941699928726,
+        "objective": 1.4122101157606615,
+        "minimum_noncontact": 6.4124680844116326e-09,
+        "it": 1890,
+        "seconds": 578.5386879444122,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 191,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.3392719126507679,
+        "Qmax": 0.4001004978270181,
+        "ucost": 0.5825159419255619,
+        "scost": 0.8296934955628157,
+        "objective": 1.4122094374883776,
+        "minimum_noncontact": 6.412450742676123e-09,
+        "it": 1900,
+        "seconds": 589.7654800415039,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 192,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.33927265719256716,
+        "Qmax": 0.40010228004164555,
+        "ucost": 0.5825159435301742,
+        "scost": 0.8296929432697069,
+        "objective": 1.4122088867998812,
+        "minimum_noncontact": 6.412447537077263e-09,
+        "it": 1910,
+        "seconds": 599.9377210140228,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 193,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.33927630216414273,
+        "Qmax": 0.4001016086258342,
+        "ucost": 0.5825185772996246,
+        "scost": 0.8296896235590361,
+        "objective": 1.4122082008586607,
+        "minimum_noncontact": 6.412441558072791e-09,
+        "it": 1920,
+        "seconds": 606.0071229934692,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 194,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.3392755868784479,
+        "Qmax": 0.40009427771762496,
+        "ucost": 0.5825173760748203,
+        "scost": 0.8296901580498073,
+        "objective": 1.4122075341246276,
+        "minimum_noncontact": 6.412449989765205e-09,
+        "it": 1930,
+        "seconds": 610.2324509620667,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 195,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.3392761672280344,
+        "Qmax": 0.400099687185464,
+        "ucost": 0.5825173926638455,
+        "scost": 0.82968950126992,
+        "objective": 1.4122068939337655,
+        "minimum_noncontact": 6.412436004780329e-09,
+        "it": 1940,
+        "seconds": 613.6232879161835,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 196,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.3392744072567291,
+        "Qmax": 0.4001044562229229,
+        "ucost": 0.582515450043055,
+        "scost": 0.8296908395486193,
+        "objective": 1.4122062895916745,
+        "minimum_noncontact": 6.412445543937859e-09,
+        "it": 1950,
+        "seconds": 617.3586390018463,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 197,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.3392758477637269,
+        "Qmax": 0.40009751668659915,
+        "ucost": 0.582516359379106,
+        "scost": 0.8296894702038533,
+        "objective": 1.4122058295829594,
+        "minimum_noncontact": 6.412437436389798e-09,
+        "it": 1960,
+        "seconds": 622.5264601707458,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 198,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.33927612712100846,
+        "Qmax": 0.40009463288496766,
+        "ucost": 0.5825159147902018,
+        "scost": 0.8296892284756202,
+        "objective": 1.412205143265822,
+        "minimum_noncontact": 6.412451568916413e-09,
+        "it": 1970,
+        "seconds": 627.6651151180267,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 199,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.33927615121986965,
+        "Qmax": 0.4001007439380736,
+        "ucost": 0.5825157363035924,
+        "scost": 0.829689020301701,
+        "objective": 1.4122047566052935,
+        "minimum_noncontact": 6.4124439191943545e-09,
+        "it": 1980,
+        "seconds": 632.0896470546722,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 200,
+      "label": "PARALLEL_SECTION_PHYSICAL_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 7,
+        "Pmax": 0.3392734106768002,
+        "Qmax": 0.4000991408164832,
+        "ucost": 0.5825131368404168,
+        "scost": 0.8296911759043679,
+        "objective": 1.4122043127447848,
+        "minimum_noncontact": 6.412449758967237e-09,
+        "it": 1990,
+        "seconds": 636.1103789806366,
+        "trust": 0.5
+      }
+    }
+  ]
+}

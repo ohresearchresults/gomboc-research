@@ -1,0 +1,28 @@
+{
+  "statement": "Exact core beta1-death versus fixed anti-edge primitive witnesses",
+  "feature_count": 163,
+  "float_dual_objective": 0.005058554967169052,
+  "support_diagnostics": [
+    {
+      "support_size": 19,
+      "nullity": null,
+      "b_dot_y": 0.005058554967169054
+    },
+    {
+      "support_size": 19,
+      "nullity": null,
+      "b_dot_y": 0.005058554967169054
+    },
+    {
+      "support_size": 19,
+      "nullity": null,
+      "b_dot_y": 0.005058554967169054
+    },
+    {
+      "support_size": 19,
+      "nullity": null,
+      "b_dot_y": 0.005058554967169054
+    }
+  ],
+  "certificate_pass": false
+}

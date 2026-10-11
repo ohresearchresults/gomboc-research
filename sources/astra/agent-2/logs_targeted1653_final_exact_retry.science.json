@@ -1,0 +1,53 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 2,
+      "label": "EXACT_ATLAS",
+      "values": {
+        "V": 159,
+        "E": 245,
+        "F": 88,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 490,
+        "seconds": 4.013525009155273,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "LITERAL_RETIREMENT_NUM211",
+      "values": {
+        "deleted": 0,
+        "V": 159,
+        "E": 244,
+        "F": 87,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09696517618518423,
+        "centroid": [
+          -7.382078667138849e-16,
+          -2.3812491616032374e-16,
+          7.10938541623236e-16
+        ],
+        "U1_guard": 9.999984101122073e-08,
+        "S2_guard": 9.99984688654762e-08
+      }
+    }
+  ]
+}

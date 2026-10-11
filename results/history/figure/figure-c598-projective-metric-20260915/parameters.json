@@ -1,0 +1,27 @@
+{
+  "denominator": 1000000000000,
+  "b_numerators": [
+    231165476175,
+    -287690514274,
+    -722193871745
+  ],
+  "L_numerators": [
+    [
+      6195174799506,
+      0,
+      0
+    ],
+    [
+      -1419836775816,
+      189361598103,
+      0
+    ],
+    [
+      -4331762107070,
+      485380338385,
+      852421755373
+    ]
+  ],
+  "map": "y=L^T*x/(1+b.x); defining body is then translated by its actual filled centroid",
+  "parent_raw": "/REDACTED_HOME/pro-research/output/figure-c598-one-facet-centroid-20260915/C598_raw.json"
+}

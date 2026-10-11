@@ -1,0 +1,29 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CENTERED_U1",
+      "values": {
+        "it": 0,
+        "referenceU": 1,
+        "referenceS": 33,
+        "U": 35,
+        "S": 33,
+        "reference_Q2": 0.0041072297923197545,
+        "centroid": [
+          2.9368896263477194e-06,
+          2.881905141407663e-06,
+          2.2225916532230308e-06
+        ],
+        "centroid_inf": 2.9368896263477194e-06,
+        "merit": 0.004911368434417596,
+        "min_ref_guard": 9.999994733138482e-09,
+        "min_noncontact": 1.0053034826817964e-07,
+        "trust": 0.01,
+        "seconds": 2.269196033477783
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "source": "bound300_turn_a0007.csv",
+  "lp_json": "bound300_turn_a0007_lp.json",
+  "circuit": [
+    14,
+    72,
+    73,
+    261
+  ],
+  "bracket": [
+    0.0013,
+    0.0015
+  ],
+  "volume_bracket": [
+    -2.5181623743155546e-09,
+    5.099007121847294e-11
+  ],
+  "alpha_wall": 0.001496290346924581,
+  "epsilon": 1e-06,
+  "volume_at_wall": -2.8585327977673016e-18,
+  "plane_tolerance": 1e-11,
+  "before": {
+    "valid": true,
+    "mechanics_valid": false,
+    "mechanics_error": "ValueError('parallel face normals')",
+    "f_vector": [
+      61,
+      161,
+      102
+    ],
+    "class": null,
+    "circuit_faces": [
+      [
+        14,
+        72,
+        73
+      ],
+      [
+        14,
+        73,
+        261
+      ],
+      [
+        72,
+        73,
+        261
+      ]
+    ],
+    "topology_margin": 1.3437306822794426e-10
+  },
+  "at": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        14,
+        72,
+        261
+      ]
+    ],
+    "topology_margin": -0.0
+  },
+  "after": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        14,
+        72,
+        261
+      ]
+    ],
+    "topology_margin": 4.759470595416815e-11
+  }
+}

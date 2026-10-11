@@ -1,0 +1,10 @@
+{
+  "at": "2026-09-14T03:07:53.987Z",
+  "sourceConversation": "6aa75721-744c-83ed-89c0-28f1db53d24f",
+  "sourceMessage": "a59f4120-234f-49b5-89cf-0f64170b9c7f",
+  "file": "RECOVERY_CAPSULE.md",
+  "bytes": 63772,
+  "sha256": "b6973b557f3c9deb735587ad183899d09ce355ecfe94d260f7c04618dc2e0e70",
+  "method": "Authenticated read-only metadata and observed same-origin estuary download; no redirects or external credential forwarding; expected hash and byte-exact readback",
+  "sourceUnpacked": false
+}

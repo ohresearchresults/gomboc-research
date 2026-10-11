@@ -1,0 +1,3606 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 34,
+        "Pmax": 0.05222445401149039,
+        "Qmax": 0.0780892089903996,
+        "minimum_noncontact": 2.1450339509822836e-05,
+        "it": 0,
+        "seconds": 0.005375862121582031,
+        "objective": 0.28662389768338997,
+        "trust": 0.04
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 34,
+        "Pmax": 0.052927763988510415,
+        "Qmax": 0.07929494481352238,
+        "minimum_noncontact": 1.0047423523751623e-08,
+        "it": 1,
+        "seconds": 1.1977348327636719,
+        "objective": 0.2535782840167813,
+        "trust": 0.054000000000000006
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 34,
+        "Pmax": 0.05476901867291256,
+        "Qmax": 0.08197189307356441,
+        "minimum_noncontact": 1.0052615684800482e-08,
+        "it": 2,
+        "seconds": 1.8266229629516602,
+        "objective": 0.24392532098613956,
+        "trust": 0.0729
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 34,
+        "Pmax": 0.05774388364635689,
+        "Qmax": 0.08455075420348286,
+        "minimum_noncontact": 1.0061691277269972e-08,
+        "it": 3,
+        "seconds": 4.634081840515137,
+        "objective": 0.23473776578011665,
+        "trust": 0.09841500000000002
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 33,
+        "Pmax": 0.06154755440112984,
+        "Qmax": 0.08406588442080264,
+        "minimum_noncontact": 9.685799740504138e-09,
+        "it": 4,
+        "seconds": 8.118499040603638,
+        "objective": 0.22844897979073006,
+        "trust": 0.13286025000000004
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 33,
+        "Pmax": 0.06215532074604885,
+        "Qmax": 0.08310607568080769,
+        "minimum_noncontact": 9.680693652472329e-09,
+        "it": 5,
+        "seconds": 13.8000168800354,
+        "objective": 0.2196840096145283,
+        "trust": 0.17936133750000008
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 33,
+        "Pmax": 0.0598208641413395,
+        "Qmax": 0.08123590977708711,
+        "minimum_noncontact": 9.68944918599405e-09,
+        "it": 6,
+        "seconds": 20.803273916244507,
+        "objective": 0.21228499435090717,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 34,
+        "Pmax": 0.06478593119349157,
+        "Qmax": 0.07898175133058838,
+        "minimum_noncontact": 9.782149274442706e-09,
+        "it": 7,
+        "seconds": 28.93025302886963,
+        "objective": 0.20623641718601513,
+        "trust": 0.3268860375937502
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 35,
+        "Pmax": 0.0628259459183454,
+        "Qmax": 0.06819544540815838,
+        "minimum_noncontact": 8.579833117344753e-09,
+        "it": 8,
+        "seconds": 37.05569100379944,
+        "objective": 0.20178474208803737,
+        "trust": 0.44129615075156275
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 29,
+        "U": 35,
+        "Pmax": 0.06825870332343907,
+        "Qmax": 0.06464933201591869,
+        "minimum_noncontact": 8.46324786471214e-09,
+        "it": 9,
+        "seconds": 45.194660663604736,
+        "objective": 0.1969802515719614,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 35,
+        "Pmax": 0.06710056808083352,
+        "Qmax": 0.05878513651789067,
+        "minimum_noncontact": 8.397236501097693e-09,
+        "it": 10,
+        "seconds": 53.335182905197144,
+        "objective": 0.19062089542118646,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 25,
+        "U": 33,
+        "Pmax": 0.08636821602119847,
+        "Qmax": 0.06201998632893523,
+        "minimum_noncontact": 8.315261801615991e-09,
+        "it": 11,
+        "seconds": 61.485546827316284,
+        "objective": 0.18689528368820008,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 33,
+        "Pmax": 0.09990586535433649,
+        "Qmax": 0.08432204414364225,
+        "minimum_noncontact": 8.194989214874297e-09,
+        "it": 12,
+        "seconds": 69.75923490524292,
+        "objective": 0.18659132431727232,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 22,
+        "U": 32,
+        "Pmax": 0.11416886710275945,
+        "Qmax": 0.1078483169975402,
+        "minimum_noncontact": 4.928934132526804e-09,
+        "it": 13,
+        "seconds": 78.05027079582214,
+        "objective": 0.1786565395463794,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 22,
+        "U": 32,
+        "Pmax": 0.11416886710275945,
+        "Qmax": 0.1078483169975402,
+        "minimum_noncontact": 4.928934132526804e-09,
+        "it": 14,
+        "seconds": 86.45321893692017,
+        "objective": 0.1786565395463794,
+        "trust": 0.2
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 23,
+        "U": 34,
+        "Pmax": 0.11841660794723054,
+        "Qmax": 0.1194385708472952,
+        "minimum_noncontact": 4.900005508185017e-09,
+        "it": 15,
+        "seconds": 94.7203848361969,
+        "objective": 0.17573456091698006,
+        "trust": 0.27
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 25,
+        "U": 34,
+        "Pmax": 0.12978852999599888,
+        "Qmax": 0.12379245733715492,
+        "minimum_noncontact": 1.4135880461739812e-09,
+        "it": 16,
+        "seconds": 103.02135801315308,
+        "objective": 0.1737635326318051,
+        "trust": 0.36450000000000005
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 25,
+        "U": 36,
+        "Pmax": 0.1438611905296599,
+        "Qmax": 0.12055841495293868,
+        "minimum_noncontact": 1.424881893693274e-09,
+        "it": 17,
+        "seconds": 111.32657980918884,
+        "objective": 0.17100823508440763,
+        "trust": 0.4920750000000001
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 23,
+        "U": 34,
+        "Pmax": 0.1697886518036799,
+        "Qmax": 0.13468433706282487,
+        "minimum_noncontact": 4.801991131036824e-09,
+        "it": 18,
+        "seconds": 119.72032475471497,
+        "objective": 0.1690845695820272,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 33,
+        "Pmax": 0.18706892121686175,
+        "Qmax": 0.13966940056496094,
+        "minimum_noncontact": 4.832885841133599e-09,
+        "it": 19,
+        "seconds": 128.0253188610077,
+        "objective": 0.16907008844655844,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 23,
+        "U": 32,
+        "Pmax": 0.2001797983452786,
+        "Qmax": 0.1342232247225446,
+        "minimum_noncontact": 1.4809624839406151e-09,
+        "it": 20,
+        "seconds": 136.37519693374634,
+        "objective": 0.16635878407308438,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 24,
+        "U": 32,
+        "Pmax": 0.20482409018617842,
+        "Qmax": 0.13443633965396515,
+        "minimum_noncontact": 1.474447610790908e-09,
+        "it": 21,
+        "seconds": 144.73138666152954,
+        "objective": 0.16545536091671473,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 32,
+        "Pmax": 0.21583620757451666,
+        "Qmax": 0.1285153625646667,
+        "minimum_noncontact": 1.4117006574755557e-09,
+        "it": 22,
+        "seconds": 153.14498090744019,
+        "objective": 0.164962974486587,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 31,
+        "Pmax": 0.2192450556597525,
+        "Qmax": 0.1289863833688041,
+        "minimum_noncontact": 1.4016712349814947e-09,
+        "it": 23,
+        "seconds": 163.59699392318726,
+        "objective": 0.16444966337950542,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 34,
+        "Pmax": 0.23070917291785928,
+        "Qmax": 0.12967238121704752,
+        "minimum_noncontact": 1.400802151688239e-09,
+        "it": 24,
+        "seconds": 172.59017086029053,
+        "objective": 0.16347978995925233,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 33,
+        "Pmax": 0.23944981416089534,
+        "Qmax": 0.1240474296849174,
+        "minimum_noncontact": 1.3883456499818251e-09,
+        "it": 25,
+        "seconds": 181.16912198066711,
+        "objective": 0.16345806368552804,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 32,
+        "Pmax": 0.24024942088965323,
+        "Qmax": 0.12470101062922655,
+        "minimum_noncontact": 1.3778856869816315e-09,
+        "it": 26,
+        "seconds": 189.55248403549194,
+        "objective": 0.1618368088903564,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 33,
+        "Pmax": 0.2420405659047236,
+        "Qmax": 0.12465197920412426,
+        "minimum_noncontact": 4.55908326469821e-09,
+        "it": 27,
+        "seconds": 198.0098249912262,
+        "objective": 0.16171620168515136,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 33,
+        "Pmax": 0.2420405659047236,
+        "Qmax": 0.12465197920412426,
+        "minimum_noncontact": 4.55908326469821e-09,
+        "it": 28,
+        "seconds": 206.79350805282593,
+        "objective": 0.16171620168515136,
+        "trust": 0.2
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 33,
+        "Pmax": 0.2434532811718739,
+        "Qmax": 0.1291818981570687,
+        "minimum_noncontact": 1.3905989535899082e-09,
+        "it": 29,
+        "seconds": 215.3159818649292,
+        "objective": 0.1591652350532067,
+        "trust": 0.27
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 27,
+        "U": 32,
+        "Pmax": 0.24695280001089195,
+        "Qmax": 0.13092515475762312,
+        "minimum_noncontact": 1.3729161152213531e-09,
+        "it": 30,
+        "seconds": 223.72912788391113,
+        "objective": 0.15842777221297516,
+        "trust": 0.36450000000000005
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 28,
+        "U": 34,
+        "Pmax": 0.24750472285590824,
+        "Qmax": 0.12762152584415326,
+        "minimum_noncontact": 1.3531105199754509e-09,
+        "it": 31,
+        "seconds": 232.1015920639038,
+        "objective": 0.15818228224057898,
+        "trust": 0.4920750000000001
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 28,
+        "U": 34,
+        "Pmax": 0.24519358019902,
+        "Qmax": 0.12668836671771727,
+        "minimum_noncontact": 1.306916297811536e-09,
+        "it": 32,
+        "seconds": 240.4315357208252,
+        "objective": 0.1574836666939825,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 37,
+        "Pmax": 0.24678164102198424,
+        "Qmax": 0.1253665055074077,
+        "minimum_noncontact": 7.554475029561607e-09,
+        "it": 33,
+        "seconds": 248.79676485061646,
+        "objective": 0.1532476876754372,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 31,
+        "U": 37,
+        "Pmax": 0.24599042145308186,
+        "Qmax": 0.13120503172535944,
+        "minimum_noncontact": 1.235275341374175e-09,
+        "it": 34,
+        "seconds": 257.27416801452637,
+        "objective": 0.15281131447997426,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 41,
+        "Pmax": 0.24700158872418854,
+        "Qmax": 0.13328766461908836,
+        "minimum_noncontact": 7.550687056069834e-09,
+        "it": 35,
+        "seconds": 265.76434779167175,
+        "objective": 0.14982950753300253,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 41,
+        "Pmax": 0.24343486132326125,
+        "Qmax": 0.14076406606732952,
+        "minimum_noncontact": 7.541785323740168e-09,
+        "it": 36,
+        "seconds": 274.3330018520355,
+        "objective": 0.14929721093507137,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 31,
+        "U": 42,
+        "Pmax": 0.2431918224274108,
+        "Qmax": 0.14213691324867264,
+        "minimum_noncontact": 7.51740177223173e-09,
+        "it": 37,
+        "seconds": 283.1802589893341,
+        "objective": 0.14889644526289675,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 41,
+        "Pmax": 0.24741750149057457,
+        "Qmax": 0.1435402969615067,
+        "minimum_noncontact": 7.498452546326547e-09,
+        "it": 38,
+        "seconds": 291.74408078193665,
+        "objective": 0.1486002837683559,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 31,
+        "U": 42,
+        "Pmax": 0.24853211270886666,
+        "Qmax": 0.1437596254868142,
+        "minimum_noncontact": 7.494206403329854e-09,
+        "it": 39,
+        "seconds": 300.3520209789276,
+        "objective": 0.14829548132453413,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 31,
+        "U": 44,
+        "Pmax": 0.2521551435147418,
+        "Qmax": 0.14567476561840093,
+        "minimum_noncontact": 7.402300604343016e-09,
+        "it": 40,
+        "seconds": 308.5704257488251,
+        "objective": 0.14731523292367454,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 33,
+        "U": 44,
+        "Pmax": 0.25734490267962196,
+        "Qmax": 0.14396675214062432,
+        "minimum_noncontact": 7.3218275432136355e-09,
+        "it": 41,
+        "seconds": 316.8608937263489,
+        "objective": 0.14604742586859953,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 33,
+        "U": 44,
+        "Pmax": 0.26027940774077385,
+        "Qmax": 0.143174243910988,
+        "minimum_noncontact": 7.282544104670354e-09,
+        "it": 42,
+        "seconds": 325.12999296188354,
+        "objective": 0.14598649010495018,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 44,
+        "Pmax": 0.2606099945030979,
+        "Qmax": 0.14497770329737503,
+        "minimum_noncontact": 7.251485771490736e-09,
+        "it": 43,
+        "seconds": 333.413391828537,
+        "objective": 0.14578878705562962,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 45,
+        "Pmax": 0.25804572554640404,
+        "Qmax": 0.14786851826533012,
+        "minimum_noncontact": 7.225498078643838e-09,
+        "it": 44,
+        "seconds": 341.7303867340088,
+        "objective": 0.14577913919245225,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 45,
+        "Pmax": 0.2571128403683846,
+        "Qmax": 0.149548476566378,
+        "minimum_noncontact": 7.201723475930534e-09,
+        "it": 45,
+        "seconds": 349.8977429866791,
+        "objective": 0.1456730642460991,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 45,
+        "Pmax": 0.2571128403683846,
+        "Qmax": 0.149548476566378,
+        "minimum_noncontact": 7.201723475930534e-09,
+        "it": 46,
+        "seconds": 358.1390907764435,
+        "objective": 0.1456730642460991,
+        "trust": 0.2
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 45,
+        "Pmax": 0.25562065307301246,
+        "Qmax": 0.1470660417597615,
+        "minimum_noncontact": 7.228929919368262e-09,
+        "it": 47,
+        "seconds": 364.7584869861603,
+        "objective": 0.14448774690756905,
+        "trust": 0.27
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 44,
+        "Pmax": 0.25516394121697145,
+        "Qmax": 0.14585276867207025,
+        "minimum_noncontact": 7.230956328849102e-09,
+        "it": 48,
+        "seconds": 372.89424085617065,
+        "objective": 0.1435319294837709,
+        "trust": 0.36450000000000005
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 45,
+        "Pmax": 0.2537462720519256,
+        "Qmax": 0.14472475536096333,
+        "minimum_noncontact": 7.227592448875151e-09,
+        "it": 49,
+        "seconds": 381.06584191322327,
+        "objective": 0.14340135817751687,
+        "trust": 0.36450000000000005
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 45,
+        "Pmax": 0.25196515127978397,
+        "Qmax": 0.14390705986769245,
+        "minimum_noncontact": 7.228961701200381e-09,
+        "it": 50,
+        "seconds": 389.3170030117035,
+        "objective": 0.14331496109808178,
+        "trust": 0.36450000000000005
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 45,
+        "Pmax": 0.24853057696016126,
+        "Qmax": 0.14146488182826536,
+        "minimum_noncontact": 6.929944870274908e-09,
+        "it": 51,
+        "seconds": 397.5827057361603,
+        "objective": 0.14273119139025636,
+        "trust": 0.4920750000000001
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 45,
+        "Pmax": 0.24853057696016126,
+        "Qmax": 0.14146488182826536,
+        "minimum_noncontact": 6.929944870274908e-09,
+        "it": 52,
+        "seconds": 406.1616108417511,
+        "objective": 0.14273119139025636,
+        "trust": 0.19683000000000006
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 45,
+        "Pmax": 0.24853057696016126,
+        "Qmax": 0.14146488182826536,
+        "minimum_noncontact": 6.929944870274908e-09,
+        "it": 53,
+        "seconds": 414.6001968383789,
+        "objective": 0.14273119139025636,
+        "trust": 0.07873200000000002
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 44,
+        "Pmax": 0.24880748056681432,
+        "Qmax": 0.14070797981402802,
+        "minimum_noncontact": 6.916308965896897e-09,
+        "it": 54,
+        "seconds": 419.6295819282532,
+        "objective": 0.14218550121126908,
+        "trust": 0.10628820000000004
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 44,
+        "Pmax": 0.2478276435783113,
+        "Qmax": 0.14044220554693504,
+        "minimum_noncontact": 6.830104759930581e-09,
+        "it": 55,
+        "seconds": 427.97703289985657,
+        "objective": 0.1421281080376031,
+        "trust": 0.14348907000000005
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 44,
+        "Pmax": 0.2472510047224421,
+        "Qmax": 0.13920759197184424,
+        "minimum_noncontact": 6.7716405105212235e-09,
+        "it": 56,
+        "seconds": 436.33453583717346,
+        "objective": 0.14188370860639762,
+        "trust": 0.19371024450000007
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 44,
+        "Pmax": 0.24766106882153852,
+        "Qmax": 0.1386687575129959,
+        "minimum_noncontact": 6.770444150696625e-09,
+        "it": 57,
+        "seconds": 444.8523497581482,
+        "objective": 0.14174757432001023,
+        "trust": 0.26150883007500014
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 44,
+        "Pmax": 0.24830859545546516,
+        "Qmax": 0.13787484702824152,
+        "minimum_noncontact": 6.7921926789851795e-09,
+        "it": 58,
+        "seconds": 453.3371617794037,
+        "objective": 0.14163012632232327,
+        "trust": 0.26150883007500014
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 44,
+        "Pmax": 0.2484376081002658,
+        "Qmax": 0.137559811984348,
+        "minimum_noncontact": 6.78494304339425e-09,
+        "it": 59,
+        "seconds": 461.7655258178711,
+        "objective": 0.1415346081433721,
+        "trust": 0.26150883007500014
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 44,
+        "Pmax": 0.2484376081002658,
+        "Qmax": 0.137559811984348,
+        "minimum_noncontact": 6.78494304339425e-09,
+        "it": 60,
+        "seconds": 470.51787185668945,
+        "objective": 0.1415346081433721,
+        "trust": 0.10460353203000006
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 44,
+        "Pmax": 0.24875146030527528,
+        "Qmax": 0.1372128476027172,
+        "minimum_noncontact": 6.822212927761e-09,
+        "it": 61,
+        "seconds": 474.292249917984,
+        "objective": 0.14128844151263223,
+        "trust": 0.14121476824050008
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 44,
+        "Pmax": 0.24875146030527528,
+        "Qmax": 0.1372128476027172,
+        "minimum_noncontact": 6.822212927761e-09,
+        "it": 62,
+        "seconds": 482.70719480514526,
+        "objective": 0.14128844151263223,
+        "trust": 0.05648590729620004
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.24872837901091513,
+        "Qmax": 0.13689863225295054,
+        "minimum_noncontact": 6.829357265510928e-09,
+        "it": 63,
+        "seconds": 484.69692492485046,
+        "objective": 0.14115308916906041,
+        "trust": 0.07625597484987005
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 46,
+        "Pmax": 0.24913152559413576,
+        "Qmax": 0.13644715486050787,
+        "minimum_noncontact": 7.3586653486406965e-09,
+        "it": 64,
+        "seconds": 490.43801188468933,
+        "objective": 0.14106905038534454,
+        "trust": 0.10294556604732458
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 46,
+        "Pmax": 0.2491998944397786,
+        "Qmax": 0.13588622781804685,
+        "minimum_noncontact": 7.155205786512154e-09,
+        "it": 65,
+        "seconds": 493.6116828918457,
+        "objective": 0.1409788459724286,
+        "trust": 0.13897651416388818
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 46,
+        "Pmax": 0.2491998944397786,
+        "Qmax": 0.13588622781804685,
+        "minimum_noncontact": 7.155205786512154e-09,
+        "it": 66,
+        "seconds": 502.2892646789551,
+        "objective": 0.1409788459724286,
+        "trust": 0.05559060566555527
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.24849944983141528,
+        "Qmax": 0.1353248253546958,
+        "minimum_noncontact": 6.787061144193019e-09,
+        "it": 67,
+        "seconds": 503.94796800613403,
+        "objective": 0.14086675511147143,
+        "trust": 0.07504731764849962
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.24779465254993255,
+        "Qmax": 0.13486743368496198,
+        "minimum_noncontact": 6.786405021971141e-09,
+        "it": 68,
+        "seconds": 505.5276117324829,
+        "objective": 0.1408028052340397,
+        "trust": 0.10131387882547449
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.2470592244636477,
+        "Qmax": 0.13435388630328063,
+        "minimum_noncontact": 6.780857178187904e-09,
+        "it": 69,
+        "seconds": 508.59450006484985,
+        "objective": 0.14071973505810814,
+        "trust": 0.13677373641439058
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.2470592244636477,
+        "Qmax": 0.13435388630328063,
+        "minimum_noncontact": 6.780857178187904e-09,
+        "it": 70,
+        "seconds": 517.1415379047394,
+        "objective": 0.14071973505810814,
+        "trust": 0.05470949456575624
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 45,
+        "Pmax": 0.24674733850572603,
+        "Qmax": 0.13414668979887376,
+        "minimum_noncontact": 6.7723215412486964e-09,
+        "it": 71,
+        "seconds": 519.0126047134399,
+        "objective": 0.14059872112071625,
+        "trust": 0.07385781766377092
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.24599598951089957,
+        "Qmax": 0.1336182266211522,
+        "minimum_noncontact": 6.767612584799729e-09,
+        "it": 72,
+        "seconds": 521.036025762558,
+        "objective": 0.14052503164421884,
+        "trust": 0.09970805384609074
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.24599598951089957,
+        "Qmax": 0.1336182266211522,
+        "minimum_noncontact": 6.767612584799729e-09,
+        "it": 73,
+        "seconds": 526.722648859024,
+        "objective": 0.14052503164421884,
+        "trust": 0.0398832215384363
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.2458161592302402,
+        "Qmax": 0.13346567651421382,
+        "minimum_noncontact": 6.768710658818169e-09,
+        "it": 74,
+        "seconds": 528.6763389110565,
+        "objective": 0.14046126869417508,
+        "trust": 0.05384234907688901
+      }
+    },
+    {
+      "source_line": 76,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.24555352175898285,
+        "Qmax": 0.13315440003567747,
+        "minimum_noncontact": 6.767220073023673e-09,
+        "it": 75,
+        "seconds": 530.3704228401184,
+        "objective": 0.14040518585593215,
+        "trust": 0.07268717125380017
+      }
+    },
+    {
+      "source_line": 77,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.24482633612454077,
+        "Qmax": 0.1326900064656257,
+        "minimum_noncontact": 7.162463078962034e-09,
+        "it": 76,
+        "seconds": 532.9848597049713,
+        "objective": 0.14033422660643713,
+        "trust": 0.09812768119263024
+      }
+    },
+    {
+      "source_line": 78,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.2440384174544141,
+        "Qmax": 0.13205297734055632,
+        "minimum_noncontact": 6.71714699137107e-09,
+        "it": 77,
+        "seconds": 535.6729369163513,
+        "objective": 0.14026182258048447,
+        "trust": 0.13247236961005082
+      }
+    },
+    {
+      "source_line": 79,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 45,
+        "Pmax": 0.2440384174544141,
+        "Qmax": 0.13205297734055632,
+        "minimum_noncontact": 6.71714699137107e-09,
+        "it": 78,
+        "seconds": 542.0998728275299,
+        "objective": 0.14026182258048447,
+        "trust": 0.052988947844020334
+      }
+    },
+    {
+      "source_line": 80,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 45,
+        "Pmax": 0.24361575395965557,
+        "Qmax": 0.13171924357009912,
+        "minimum_noncontact": 6.697704821754618e-09,
+        "it": 79,
+        "seconds": 543.6405398845673,
+        "objective": 0.1401540137685303,
+        "trust": 0.07153507958942745
+      }
+    },
+    {
+      "source_line": 81,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 45,
+        "Pmax": 0.24303067509657583,
+        "Qmax": 0.13125814028777782,
+        "minimum_noncontact": 6.668533381922061e-09,
+        "it": 80,
+        "seconds": 545.6699829101562,
+        "objective": 0.14008734261961311,
+        "trust": 0.09657235744572706
+      }
+    },
+    {
+      "source_line": 82,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 44,
+        "Pmax": 0.24227684268368918,
+        "Qmax": 0.13073143390404413,
+        "minimum_noncontact": 6.674929914344329e-09,
+        "it": 81,
+        "seconds": 547.578202009201,
+        "objective": 0.1400302970778054,
+        "trust": 0.13037268255173154
+      }
+    },
+    {
+      "source_line": 83,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 43,
+        "Pmax": 0.24143422626265207,
+        "Qmax": 0.13005053508571382,
+        "minimum_noncontact": 6.675953230208388e-09,
+        "it": 82,
+        "seconds": 549.6630368232727,
+        "objective": 0.13991686574078824,
+        "trust": 0.1760031214448376
+      }
+    },
+    {
+      "source_line": 84,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 43,
+        "Pmax": 0.240556773417532,
+        "Qmax": 0.12922904208531555,
+        "minimum_noncontact": 6.72561100225251e-09,
+        "it": 83,
+        "seconds": 557.9359557628632,
+        "objective": 0.13986057156650278,
+        "trust": 0.23760421395053077
+      }
+    },
+    {
+      "source_line": 85,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 43,
+        "Pmax": 0.240556773417532,
+        "Qmax": 0.12922904208531555,
+        "minimum_noncontact": 6.72561100225251e-09,
+        "it": 84,
+        "seconds": 566.5978038311005,
+        "objective": 0.13986057156650278,
+        "trust": 0.09504168558021231
+      }
+    },
+    {
+      "source_line": 86,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 43,
+        "Pmax": 0.24057659004659626,
+        "Qmax": 0.1289576826975351,
+        "minimum_noncontact": 6.722220327338938e-09,
+        "it": 85,
+        "seconds": 568.44495677948,
+        "objective": 0.13960856499216576,
+        "trust": 0.12830627553328663
+      }
+    },
+    {
+      "source_line": 87,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 43,
+        "Pmax": 0.2405618518639074,
+        "Qmax": 0.12864271281012962,
+        "minimum_noncontact": 6.7149631607056196e-09,
+        "it": 86,
+        "seconds": 570.6201510429382,
+        "objective": 0.1395247113876422,
+        "trust": 0.17321347196993697
+      }
+    },
+    {
+      "source_line": 88,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 43,
+        "Pmax": 0.2405618518639074,
+        "Qmax": 0.12864271281012962,
+        "minimum_noncontact": 6.7149631607056196e-09,
+        "it": 87,
+        "seconds": 578.7380559444427,
+        "objective": 0.1395247113876422,
+        "trust": 0.06928538878797479
+      }
+    },
+    {
+      "source_line": 89,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 43,
+        "Pmax": 0.24043964520054514,
+        "Qmax": 0.12842224571303862,
+        "minimum_noncontact": 6.7159354766596346e-09,
+        "it": 88,
+        "seconds": 580.8309297561646,
+        "objective": 0.13941482765602436,
+        "trust": 0.09353527486376596
+      }
+    },
+    {
+      "source_line": 90,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 43,
+        "Pmax": 0.24008378438513026,
+        "Qmax": 0.128105096734845,
+        "minimum_noncontact": 6.697388694042005e-09,
+        "it": 89,
+        "seconds": 583.8849017620087,
+        "objective": 0.1393534142179571,
+        "trust": 0.12627262106608406
+      }
+    },
+    {
+      "source_line": 91,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 43,
+        "Pmax": 0.24191377278071205,
+        "Qmax": 0.12641905483315913,
+        "minimum_noncontact": 6.666236861665298e-09,
+        "it": 90,
+        "seconds": 592.2951037883759,
+        "objective": 0.13903490186496417,
+        "trust": 0.1704680384392135
+      }
+    },
+    {
+      "source_line": 92,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 43,
+        "Pmax": 0.24523701671715772,
+        "Qmax": 0.12529206484475824,
+        "minimum_noncontact": 6.6686011697371385e-09,
+        "it": 91,
+        "seconds": 601.0597937107086,
+        "objective": 0.13881699915075094,
+        "trust": 0.23013185189293822
+      }
+    },
+    {
+      "source_line": 93,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 42,
+        "Pmax": 0.24635630882430168,
+        "Qmax": 0.12522899234199572,
+        "minimum_noncontact": 6.684148172169469e-09,
+        "it": 92,
+        "seconds": 609.4794127941132,
+        "objective": 0.13874317359554353,
+        "trust": 0.23013185189293822
+      }
+    },
+    {
+      "source_line": 94,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 42,
+        "Pmax": 0.24702806482416828,
+        "Qmax": 0.12506445584803735,
+        "minimum_noncontact": 6.691569528553806e-09,
+        "it": 93,
+        "seconds": 617.7434070110321,
+        "objective": 0.13869845458603594,
+        "trust": 0.23013185189293822
+      }
+    },
+    {
+      "source_line": 95,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 42,
+        "Pmax": 0.24702806482416828,
+        "Qmax": 0.12506445584803735,
+        "minimum_noncontact": 6.691569528553806e-09,
+        "it": 94,
+        "seconds": 623.5554947853088,
+        "objective": 0.13869845458603594,
+        "trust": 0.09205274075717529
+      }
+    },
+    {
+      "source_line": 96,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 42,
+        "Pmax": 0.24839374948235793,
+        "Qmax": 0.12463928905251319,
+        "minimum_noncontact": 6.6966366578922745e-09,
+        "it": 95,
+        "seconds": 624.1883339881897,
+        "objective": 0.13853027424052952,
+        "trust": 0.12427120002218665
+      }
+    },
+    {
+      "source_line": 97,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 43,
+        "Pmax": 0.24862973142948414,
+        "Qmax": 0.12452669860850447,
+        "minimum_noncontact": 6.6810665102556285e-09,
+        "it": 96,
+        "seconds": 624.8246870040894,
+        "objective": 0.13848868471375023,
+        "trust": 0.12427120002218665
+      }
+    },
+    {
+      "source_line": 98,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 43,
+        "Pmax": 0.24929493015581297,
+        "Qmax": 0.12417474432086777,
+        "minimum_noncontact": 6.697319602051898e-09,
+        "it": 97,
+        "seconds": 627.8719837665558,
+        "objective": 0.13844647982726366,
+        "trust": 0.12427120002218665
+      }
+    },
+    {
+      "source_line": 99,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 43,
+        "Pmax": 0.2496790362961687,
+        "Qmax": 0.12442016741705052,
+        "minimum_noncontact": 6.677195306728439e-09,
+        "it": 98,
+        "seconds": 628.9462797641754,
+        "objective": 0.1383949486121096,
+        "trust": 0.12427120002218665
+      }
+    },
+    {
+      "source_line": 100,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 43,
+        "Pmax": 0.2503024825195311,
+        "Qmax": 0.12548330684143433,
+        "minimum_noncontact": 6.664906474760148e-09,
+        "it": 99,
+        "seconds": 632.2115268707275,
+        "objective": 0.13832391908014377,
+        "trust": 0.167766120029952
+      }
+    },
+    {
+      "source_line": 101,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 43,
+        "Pmax": 0.2503024825195311,
+        "Qmax": 0.12548330684143433,
+        "minimum_noncontact": 6.664906474760148e-09,
+        "it": 100,
+        "seconds": 637.291286945343,
+        "objective": 0.13832391908014377,
+        "trust": 0.0671064480119808
+      }
+    },
+    {
+      "source_line": 102,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 42,
+        "Pmax": 0.2508777251799272,
+        "Qmax": 0.12552215264865188,
+        "minimum_noncontact": 7.553923493883957e-09,
+        "it": 101,
+        "seconds": 638.3771760463715,
+        "objective": 0.13818698093849238,
+        "trust": 0.0905937048161741
+      }
+    },
+    {
+      "source_line": 103,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 42,
+        "Pmax": 0.2509594228891763,
+        "Qmax": 0.126110883982506,
+        "minimum_noncontact": 6.631452448427775e-09,
+        "it": 102,
+        "seconds": 639.4587488174438,
+        "objective": 0.1381092120914854,
+        "trust": 0.12230150150183504
+      }
+    },
+    {
+      "source_line": 104,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 42,
+        "Pmax": 0.2509594228891763,
+        "Qmax": 0.126110883982506,
+        "minimum_noncontact": 6.631452448427775e-09,
+        "it": 103,
+        "seconds": 642.1618599891663,
+        "objective": 0.1381092120914854,
+        "trust": 0.04892060060073402
+      }
+    },
+    {
+      "source_line": 105,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 42,
+        "Pmax": 0.2511858137950451,
+        "Qmax": 0.12632641314357976,
+        "minimum_noncontact": 7.141761795308268e-09,
+        "it": 104,
+        "seconds": 642.9204390048981,
+        "objective": 0.13802917477048984,
+        "trust": 0.06604281081099093
+      }
+    },
+    {
+      "source_line": 106,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 42,
+        "Pmax": 0.25123321122948405,
+        "Qmax": 0.12664846598732377,
+        "minimum_noncontact": 6.6104228366418645e-09,
+        "it": 105,
+        "seconds": 643.9172747135162,
+        "objective": 0.1379801579171518,
+        "trust": 0.08915779459483776
+      }
+    },
+    {
+      "source_line": 107,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 41,
+        "Pmax": 0.2515190399017595,
+        "Qmax": 0.12703905968421142,
+        "minimum_noncontact": 6.6082067738169345e-09,
+        "it": 106,
+        "seconds": 644.7255647182465,
+        "objective": 0.1379542966564918,
+        "trust": 0.12036302270303098
+      }
+    },
+    {
+      "source_line": 108,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 41,
+        "Pmax": 0.2515190399017595,
+        "Qmax": 0.12703905968421142,
+        "minimum_noncontact": 6.6082067738169345e-09,
+        "it": 107,
+        "seconds": 647.6172559261322,
+        "objective": 0.1379542966564918,
+        "trust": 0.04814520908121239
+      }
+    },
+    {
+      "source_line": 109,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 41,
+        "Pmax": 0.2513205583856422,
+        "Qmax": 0.12734055692260865,
+        "minimum_noncontact": 6.617832779936209e-09,
+        "it": 108,
+        "seconds": 648.3448488712311,
+        "objective": 0.137877358015198,
+        "trust": 0.06499603225963674
+      }
+    },
+    {
+      "source_line": 110,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 41,
+        "Pmax": 0.2511489370042737,
+        "Qmax": 0.127817138474241,
+        "minimum_noncontact": 6.245831318641208e-09,
+        "it": 109,
+        "seconds": 649.2744798660278,
+        "objective": 0.13780053961874864,
+        "trust": 0.08774464355050961
+      }
+    },
+    {
+      "source_line": 111,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 42,
+        "Pmax": 0.2510912132645245,
+        "Qmax": 0.12798580697100695,
+        "minimum_noncontact": 6.2403932843590854e-09,
+        "it": 110,
+        "seconds": 652.8398258686066,
+        "objective": 0.13777248111992466,
+        "trust": 0.08774464355050961
+      }
+    },
+    {
+      "source_line": 112,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 42,
+        "Pmax": 0.2504650101016496,
+        "Qmax": 0.12839627285458516,
+        "minimum_noncontact": 6.246577535049917e-09,
+        "it": 111,
+        "seconds": 654.1816439628601,
+        "objective": 0.13773334306941878,
+        "trust": 0.11845526879318798
+      }
+    },
+    {
+      "source_line": 113,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 42,
+        "Pmax": 0.2504650101016496,
+        "Qmax": 0.12839627285458516,
+        "minimum_noncontact": 6.246577535049917e-09,
+        "it": 112,
+        "seconds": 656.2451477050781,
+        "objective": 0.13773334306941878,
+        "trust": 0.047382107517275195
+      }
+    },
+    {
+      "source_line": 114,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 42,
+        "Pmax": 0.25063777774168056,
+        "Qmax": 0.12849056586213128,
+        "minimum_noncontact": 6.2339563487385255e-09,
+        "it": 113,
+        "seconds": 657.7043349742889,
+        "objective": 0.1376791680369745,
+        "trust": 0.06396584514832152
+      }
+    },
+    {
+      "source_line": 115,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 42,
+        "Pmax": 0.2500610930825162,
+        "Qmax": 0.12882096917757932,
+        "minimum_noncontact": 6.235183223739646e-09,
+        "it": 114,
+        "seconds": 659.1400339603424,
+        "objective": 0.13760446680346416,
+        "trust": 0.08635389095023405
+      }
+    },
+    {
+      "source_line": 116,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 42,
+        "Pmax": 0.24983329327207873,
+        "Qmax": 0.1286488433356004,
+        "minimum_noncontact": 6.2301756617056305e-09,
+        "it": 115,
+        "seconds": 660.2755079269409,
+        "objective": 0.13757540904952512,
+        "trust": 0.08635389095023405
+      }
+    },
+    {
+      "source_line": 117,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 42,
+        "Pmax": 0.2493494225925728,
+        "Qmax": 0.12843521559887808,
+        "minimum_noncontact": 6.245081135534397e-09,
+        "it": 116,
+        "seconds": 661.3275649547577,
+        "objective": 0.13755061109065295,
+        "trust": 0.08635389095023405
+      }
+    },
+    {
+      "source_line": 118,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 42,
+        "Pmax": 0.2491592624920234,
+        "Qmax": 0.12857676956575856,
+        "minimum_noncontact": 6.220647023035065e-09,
+        "it": 117,
+        "seconds": 662.9375360012054,
+        "objective": 0.137526524026126,
+        "trust": 0.11657775278281597
+      }
+    },
+    {
+      "source_line": 119,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 42,
+        "Pmax": 0.248876458090681,
+        "Qmax": 0.12814142611062024,
+        "minimum_noncontact": 6.237102642882052e-09,
+        "it": 118,
+        "seconds": 663.9980719089508,
+        "objective": 0.13750549083653463,
+        "trust": 0.11657775278281597
+      }
+    },
+    {
+      "source_line": 120,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 42,
+        "Pmax": 0.248876458090681,
+        "Qmax": 0.12814142611062024,
+        "minimum_noncontact": 6.237102642882052e-09,
+        "it": 119,
+        "seconds": 666.4792559146881,
+        "objective": 0.13750549083653463,
+        "trust": 0.04663110111312639
+      }
+    },
+    {
+      "source_line": 121,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 42,
+        "Pmax": 0.24858373069509485,
+        "Qmax": 0.12823004785503447,
+        "minimum_noncontact": 6.557079919186967e-09,
+        "it": 120,
+        "seconds": 667.3375148773193,
+        "objective": 0.13735568949673874,
+        "trust": 0.06295198650272063
+      }
+    },
+    {
+      "source_line": 122,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 42,
+        "Pmax": 0.24832837855508466,
+        "Qmax": 0.1279593633748438,
+        "minimum_noncontact": 6.5492762571295425e-09,
+        "it": 121,
+        "seconds": 668.2182929515839,
+        "objective": 0.13735217695970814,
+        "trust": 0.08498518177867286
+      }
+    },
+    {
+      "source_line": 123,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 42,
+        "Pmax": 0.24847016745882847,
+        "Qmax": 0.12781862091354432,
+        "minimum_noncontact": 6.544248542771354e-09,
+        "it": 122,
+        "seconds": 668.9836008548737,
+        "objective": 0.13733707012523477,
+        "trust": 0.08498518177867286
+      }
+    },
+    {
+      "source_line": 124,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.2486004676011182,
+        "Qmax": 0.1273598414627172,
+        "minimum_noncontact": 6.239838779243778e-09,
+        "it": 123,
+        "seconds": 669.6366488933563,
+        "objective": 0.1372347297974967,
+        "trust": 0.11472999540120836
+      }
+    },
+    {
+      "source_line": 125,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.24875788576496044,
+        "Qmax": 0.12728033101458314,
+        "minimum_noncontact": 6.245204221759091e-09,
+        "it": 124,
+        "seconds": 671.6096577644348,
+        "objective": 0.13722081137382985,
+        "trust": 0.11472999540120836
+      }
+    },
+    {
+      "source_line": 126,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.24875788576496044,
+        "Qmax": 0.12728033101458314,
+        "minimum_noncontact": 6.245204221759091e-09,
+        "it": 125,
+        "seconds": 673.4391920566559,
+        "objective": 0.13722081137382985,
+        "trust": 0.045891998160483345
+      }
+    },
+    {
+      "source_line": 127,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.24889079978603088,
+        "Qmax": 0.12719253987721182,
+        "minimum_noncontact": 6.257076103522518e-09,
+        "it": 126,
+        "seconds": 674.1217749118805,
+        "objective": 0.13715182511179072,
+        "trust": 0.06195419751665252
+      }
+    },
+    {
+      "source_line": 128,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 41,
+        "Pmax": 0.24908266883256794,
+        "Qmax": 0.1270330739443087,
+        "minimum_noncontact": 6.269384004494308e-09,
+        "it": 127,
+        "seconds": 674.8180048465729,
+        "objective": 0.13710564392443622,
+        "trust": 0.08363816664748092
+      }
+    },
+    {
+      "source_line": 129,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 41,
+        "Pmax": 0.24908266883256794,
+        "Qmax": 0.1270330739443087,
+        "minimum_noncontact": 6.269384004494308e-09,
+        "it": 128,
+        "seconds": 676.544909954071,
+        "objective": 0.13710564392443622,
+        "trust": 0.033455266658992365
+      }
+    },
+    {
+      "source_line": 130,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 41,
+        "Pmax": 0.24921970018241454,
+        "Qmax": 0.12682087797346833,
+        "minimum_noncontact": 6.26870794114259e-09,
+        "it": 129,
+        "seconds": 677.3091387748718,
+        "objective": 0.13708248429091732,
+        "trust": 0.0451646099896397
+      }
+    },
+    {
+      "source_line": 131,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 41,
+        "Pmax": 0.24925311130771882,
+        "Qmax": 0.12656070704793843,
+        "minimum_noncontact": 6.412068150381591e-09,
+        "it": 130,
+        "seconds": 678.786679983139,
+        "objective": 0.13706044064483314,
+        "trust": 0.060972223486013596
+      }
+    },
+    {
+      "source_line": 132,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.24997757013152466,
+        "Qmax": 0.12613395321894422,
+        "minimum_noncontact": 6.4334122900065534e-09,
+        "it": 131,
+        "seconds": 679.4596977233887,
+        "objective": 0.13702416931218578,
+        "trust": 0.08231250170611835
+      }
+    },
+    {
+      "source_line": 133,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.2504164467949891,
+        "Qmax": 0.1252909223176258,
+        "minimum_noncontact": 6.298120776911211e-09,
+        "it": 132,
+        "seconds": 680.1459228992462,
+        "objective": 0.13699166798196638,
+        "trust": 0.11112187730325979
+      }
+    },
+    {
+      "source_line": 134,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.25074918040168476,
+        "Qmax": 0.12507363093171123,
+        "minimum_noncontact": 6.299185692980085e-09,
+        "it": 133,
+        "seconds": 683.4098448753357,
+        "objective": 0.13697654112961152,
+        "trust": 0.11112187730325979
+      }
+    },
+    {
+      "source_line": 135,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.25074918040168476,
+        "Qmax": 0.12507363093171123,
+        "minimum_noncontact": 6.299185692980085e-09,
+        "it": 134,
+        "seconds": 685.3526649475098,
+        "objective": 0.13697654112961152,
+        "trust": 0.04444875092130392
+      }
+    },
+    {
+      "source_line": 136,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.25107071056041147,
+        "Qmax": 0.12461780874522073,
+        "minimum_noncontact": 6.305780591693312e-09,
+        "it": 135,
+        "seconds": 686.9924309253693,
+        "objective": 0.1369130419896055,
+        "trust": 0.060005813743760295
+      }
+    },
+    {
+      "source_line": 137,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 39,
+        "U": 41,
+        "Pmax": 0.2515740214980801,
+        "Qmax": 0.12398226091232527,
+        "minimum_noncontact": 6.315612845920741e-09,
+        "it": 136,
+        "seconds": 687.6592168807983,
+        "objective": 0.13688579025249004,
+        "trust": 0.0810078485540764
+      }
+    },
+    {
+      "source_line": 138,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 41,
+        "Pmax": 0.2522078153415878,
+        "Qmax": 0.12313668279701614,
+        "minimum_noncontact": 6.3321669612663616e-09,
+        "it": 137,
+        "seconds": 688.2948527336121,
+        "objective": 0.13685108582469846,
+        "trust": 0.10936059554800315
+      }
+    },
+    {
+      "source_line": 139,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 41,
+        "Pmax": 0.25259072016946715,
+        "Qmax": 0.12248126979998812,
+        "minimum_noncontact": 6.339948560661635e-09,
+        "it": 138,
+        "seconds": 691.2989747524261,
+        "objective": 0.1368261136384325,
+        "trust": 0.10936059554800315
+      }
+    },
+    {
+      "source_line": 140,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 41,
+        "Pmax": 0.252827904520366,
+        "Qmax": 0.12194590017506207,
+        "minimum_noncontact": 6.342230871606549e-09,
+        "it": 139,
+        "seconds": 693.5940599441528,
+        "objective": 0.1367862258172603,
+        "trust": 0.10936059554800315
+      }
+    },
+    {
+      "source_line": 141,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 38,
+        "U": 41,
+        "Pmax": 0.252827904520366,
+        "Qmax": 0.12194590017506207,
+        "minimum_noncontact": 6.342230871606549e-09,
+        "it": 140,
+        "seconds": 695.839784860611,
+        "objective": 0.1367862258172603,
+        "trust": 0.04374423821920126
+      }
+    },
+    {
+      "source_line": 142,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 41,
+        "Pmax": 0.25328194336596577,
+        "Qmax": 0.12174828358783206,
+        "minimum_noncontact": 6.3497906359674286e-09,
+        "it": 141,
+        "seconds": 697.4285197257996,
+        "objective": 0.13676727794518773,
+        "trust": 0.059054721595921705
+      }
+    },
+    {
+      "source_line": 143,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 40,
+        "Pmax": 0.2534944433827006,
+        "Qmax": 0.12132336115956897,
+        "minimum_noncontact": 6.551626185253355e-09,
+        "it": 142,
+        "seconds": 699.6367049217224,
+        "objective": 0.13674122469942057,
+        "trust": 0.0797238741544943
+      }
+    },
+    {
+      "source_line": 144,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 40,
+        "Pmax": 0.2537505720815795,
+        "Qmax": 0.12092282483035421,
+        "minimum_noncontact": 6.551522393814719e-09,
+        "it": 143,
+        "seconds": 700.4169018268585,
+        "objective": 0.13671856500984164,
+        "trust": 0.0797238741544943
+      }
+    },
+    {
+      "source_line": 145,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 40,
+        "Pmax": 0.25399201573352814,
+        "Qmax": 0.1200393060755244,
+        "minimum_noncontact": 6.558226405158608e-09,
+        "it": 144,
+        "seconds": 703.1594469547272,
+        "objective": 0.13668011554019582,
+        "trust": 0.10762723010856733
+      }
+    },
+    {
+      "source_line": 146,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 40,
+        "Pmax": 0.25427257958441796,
+        "Qmax": 0.11930071530255619,
+        "minimum_noncontact": 6.556663969060157e-09,
+        "it": 145,
+        "seconds": 706.241760969162,
+        "objective": 0.13666057550790792,
+        "trust": 0.10762723010856733
+      }
+    },
+    {
+      "source_line": 147,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 40,
+        "Pmax": 0.2543078365409896,
+        "Qmax": 0.1192889132312757,
+        "minimum_noncontact": 6.547810744330762e-09,
+        "it": 146,
+        "seconds": 707.0172019004822,
+        "objective": 0.13664074126949435,
+        "trust": 0.10762723010856733
+      }
+    },
+    {
+      "source_line": 148,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 40,
+        "Pmax": 0.25438747185012484,
+        "Qmax": 0.11897855267404375,
+        "minimum_noncontact": 6.54177262079346e-09,
+        "it": 147,
+        "seconds": 708.3082759380341,
+        "objective": 0.13662671611500052,
+        "trust": 0.10762723010856733
+      }
+    },
+    {
+      "source_line": 149,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 40,
+        "Pmax": 0.25432648504888933,
+        "Qmax": 0.11806798512060408,
+        "minimum_noncontact": 6.4141425806550905e-09,
+        "it": 148,
+        "seconds": 709.5437219142914,
+        "objective": 0.13659403044152704,
+        "trust": 0.1452967606465659
+      }
+    },
+    {
+      "source_line": 150,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 37,
+        "U": 40,
+        "Pmax": 0.25432648504888933,
+        "Qmax": 0.11806798512060408,
+        "minimum_noncontact": 6.4141425806550905e-09,
+        "it": 149,
+        "seconds": 712.2426118850708,
+        "objective": 0.13659403044152704,
+        "trust": 0.058118704258626364
+      }
+    },
+    {
+      "source_line": 151,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.25417975936169845,
+        "Qmax": 0.11749556894425288,
+        "minimum_noncontact": 6.394778628146532e-09,
+        "it": 150,
+        "seconds": 712.980222940445,
+        "objective": 0.13659007071199342,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 152,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.2540080437270666,
+        "Qmax": 0.11730373491629652,
+        "minimum_noncontact": 6.403963772220356e-09,
+        "it": 151,
+        "seconds": 713.8914868831635,
+        "objective": 0.13657372392809677,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 153,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.2539211387202916,
+        "Qmax": 0.11689035883750752,
+        "minimum_noncontact": 6.390936405528354e-09,
+        "it": 152,
+        "seconds": 714.6526589393616,
+        "objective": 0.13655208524692003,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 154,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.2537542017914405,
+        "Qmax": 0.11657078689934798,
+        "minimum_noncontact": 6.4947944592749035e-09,
+        "it": 153,
+        "seconds": 715.4606199264526,
+        "objective": 0.13653948375592664,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 155,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.25361483340842733,
+        "Qmax": 0.11609435171118514,
+        "minimum_noncontact": 6.463180458350287e-09,
+        "it": 154,
+        "seconds": 718.2015647888184,
+        "objective": 0.13652771113809536,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 156,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.2534061547112461,
+        "Qmax": 0.11579998885557673,
+        "minimum_noncontact": 6.4691871178245105e-09,
+        "it": 155,
+        "seconds": 719.4286458492279,
+        "objective": 0.13652664209556506,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 157,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.25324897163260246,
+        "Qmax": 0.1152640650154364,
+        "minimum_noncontact": 6.444180099109251e-09,
+        "it": 156,
+        "seconds": 720.3222289085388,
+        "objective": 0.1365072778650442,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 158,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.25308708176441314,
+        "Qmax": 0.11510952553259811,
+        "minimum_noncontact": 6.451622312053536e-09,
+        "it": 157,
+        "seconds": 722.2162070274353,
+        "objective": 0.13649230060366094,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 159,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.2529129616096799,
+        "Qmax": 0.11457908713895401,
+        "minimum_noncontact": 6.427647192875853e-09,
+        "it": 158,
+        "seconds": 725.440272808075,
+        "objective": 0.13647358366111,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 160,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.252769136564886,
+        "Qmax": 0.11451221065452295,
+        "minimum_noncontact": 6.437669000797564e-09,
+        "it": 159,
+        "seconds": 726.3381979465485,
+        "objective": 0.136464609444147,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 161,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 40,
+        "Pmax": 0.25258502063299965,
+        "Qmax": 0.11408294246261266,
+        "minimum_noncontact": 6.409594929072504e-09,
+        "it": 160,
+        "seconds": 727.2892107963562,
+        "objective": 0.13644463371234664,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 162,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 40,
+        "Pmax": 0.25242202983058387,
+        "Qmax": 0.11395572913950003,
+        "minimum_noncontact": 6.415381588316923e-09,
+        "it": 161,
+        "seconds": 728.0299079418182,
+        "objective": 0.1364202607502266,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 163,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 34,
+        "U": 40,
+        "Pmax": 0.25223644230257375,
+        "Qmax": 0.11342952801883956,
+        "minimum_noncontact": 6.385117589816264e-09,
+        "it": 162,
+        "seconds": 728.7655668258667,
+        "objective": 0.1364116349879562,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 164,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.252085655108205,
+        "Qmax": 0.11340888534378,
+        "minimum_noncontact": 6.39077525416014e-09,
+        "it": 163,
+        "seconds": 729.5784287452698,
+        "objective": 0.13640890880715706,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 165,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.2518925562010916,
+        "Qmax": 0.1130052695078341,
+        "minimum_noncontact": 6.362112833888989e-09,
+        "it": 164,
+        "seconds": 730.3283438682556,
+        "objective": 0.13639558916064404,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 166,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.2517298173026869,
+        "Qmax": 0.11291514390038349,
+        "minimum_noncontact": 6.362486179438517e-09,
+        "it": 165,
+        "seconds": 733.1020510196686,
+        "objective": 0.1363930480574715,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 167,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.2515380911724054,
+        "Qmax": 0.11235332500114156,
+        "minimum_noncontact": 6.33310122723759e-09,
+        "it": 166,
+        "seconds": 733.9302458763123,
+        "objective": 0.13637731095878458,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 168,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.25137169602018966,
+        "Qmax": 0.11235937137349869,
+        "minimum_noncontact": 6.333106273502931e-09,
+        "it": 167,
+        "seconds": 734.7022540569305,
+        "objective": 0.13637495958740675,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 169,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.2511743221920839,
+        "Qmax": 0.1119293866128799,
+        "minimum_noncontact": 6.306881424719143e-09,
+        "it": 168,
+        "seconds": 740.917237997055,
+        "objective": 0.13636105458034462,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 170,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.2509774681181306,
+        "Qmax": 0.11172451508291086,
+        "minimum_noncontact": 6.314732327318821e-09,
+        "it": 169,
+        "seconds": 741.70911693573,
+        "objective": 0.13634101983565014,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 171,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.25075490652220433,
+        "Qmax": 0.1112751791138781,
+        "minimum_noncontact": 6.304210240536167e-09,
+        "it": 170,
+        "seconds": 742.6144008636475,
+        "objective": 0.1363249716054188,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 172,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.2505724529682793,
+        "Qmax": 0.11110519565568665,
+        "minimum_noncontact": 6.3011400342818615e-09,
+        "it": 171,
+        "seconds": 743.8772127628326,
+        "objective": 0.13631928650517128,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 173,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 35,
+        "U": 40,
+        "Pmax": 0.2503742424743791,
+        "Qmax": 0.1107030316151853,
+        "minimum_noncontact": 6.2843221388650855e-09,
+        "it": 172,
+        "seconds": 745.1007888317108,
+        "objective": 0.1363159028744055,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 174,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.25019798685021216,
+        "Qmax": 0.11046203268118934,
+        "minimum_noncontact": 6.284499571117695e-09,
+        "it": 173,
+        "seconds": 746.2990717887878,
+        "objective": 0.1363031767416608,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 175,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.2500013303762641,
+        "Qmax": 0.11014975597179354,
+        "minimum_noncontact": 6.258505091329718e-09,
+        "it": 174,
+        "seconds": 748.8566629886627,
+        "objective": 0.13629195067861768,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 176,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.2497552459825435,
+        "Qmax": 0.1097472277399618,
+        "minimum_noncontact": 6.259445509084866e-09,
+        "it": 175,
+        "seconds": 750.0547609329224,
+        "objective": 0.13628183013332973,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 177,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24949905297561203,
+        "Qmax": 0.10930806866512115,
+        "minimum_noncontact": 6.254129344294033e-09,
+        "it": 176,
+        "seconds": 750.812577009201,
+        "objective": 0.13627566251716633,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 178,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24948453319884797,
+        "Qmax": 0.10927271417747038,
+        "minimum_noncontact": 6.250887431086498e-09,
+        "it": 177,
+        "seconds": 755.741240978241,
+        "objective": 0.13626596796707385,
+        "trust": 0.0784602507491456
+      }
+    },
+    {
+      "source_line": 179,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24893453544246058,
+        "Qmax": 0.10828787798729378,
+        "minimum_noncontact": 6.2124386965927625e-09,
+        "it": 178,
+        "seconds": 756.3924808502197,
+        "objective": 0.1362337116652943,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 180,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24893162387648265,
+        "Qmax": 0.10827548337988985,
+        "minimum_noncontact": 6.21015580612496e-09,
+        "it": 179,
+        "seconds": 760.4922406673431,
+        "objective": 0.1362323104142127,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 181,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24884813990086102,
+        "Qmax": 0.10814068840727187,
+        "minimum_noncontact": 6.209676162103391e-09,
+        "it": 180,
+        "seconds": 764.1971118450165,
+        "objective": 0.13622965731658515,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 182,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24839814666136367,
+        "Qmax": 0.10762169403474472,
+        "minimum_noncontact": 6.202341375778561e-09,
+        "it": 181,
+        "seconds": 765.4150688648224,
+        "objective": 0.13622880773089652,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 183,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24855906996450178,
+        "Qmax": 0.107675627559808,
+        "minimum_noncontact": 6.1920222292444666e-09,
+        "it": 182,
+        "seconds": 770.2833456993103,
+        "objective": 0.13621099635296677,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 184,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24838544683024025,
+        "Qmax": 0.10754612757850736,
+        "minimum_noncontact": 6.17501359200254e-09,
+        "it": 183,
+        "seconds": 774.2875218391418,
+        "objective": 0.13620243999225182,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 185,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24830991263012606,
+        "Qmax": 0.10742483764300034,
+        "minimum_noncontact": 6.167302129971064e-09,
+        "it": 184,
+        "seconds": 776.986603975296,
+        "objective": 0.13619212187310856,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 186,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24830749282494205,
+        "Qmax": 0.10738773832183623,
+        "minimum_noncontact": 6.168062815285106e-09,
+        "it": 185,
+        "seconds": 778.2614047527313,
+        "objective": 0.1361905594905141,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 187,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.2479755640174816,
+        "Qmax": 0.10729338542607594,
+        "minimum_noncontact": 6.1442665965031685e-09,
+        "it": 186,
+        "seconds": 781.8860268592834,
+        "objective": 0.13617791397843876,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 188,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.248144492515792,
+        "Qmax": 0.10722768460911425,
+        "minimum_noncontact": 6.136733226037293e-09,
+        "it": 187,
+        "seconds": 784.0998220443726,
+        "objective": 0.1361741042318016,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 189,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.2478517709916698,
+        "Qmax": 0.10711885446659943,
+        "minimum_noncontact": 6.101528512707388e-09,
+        "it": 188,
+        "seconds": 787.9438169002533,
+        "objective": 0.1361578627481238,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 190,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 40,
+        "Pmax": 0.24793396774474394,
+        "Qmax": 0.1070586756805472,
+        "minimum_noncontact": 6.0954888996622875e-09,
+        "it": 189,
+        "seconds": 790.3114328384399,
+        "objective": 0.13615232035386207,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 191,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.2475398895071697,
+        "Qmax": 0.10668946556508531,
+        "minimum_noncontact": 6.100385728409279e-09,
+        "it": 190,
+        "seconds": 793.0527758598328,
+        "objective": 0.13614705933501706,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 192,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.247482604325385,
+        "Qmax": 0.1066863511060516,
+        "minimum_noncontact": 6.091692402225629e-09,
+        "it": 191,
+        "seconds": 795.4157319068909,
+        "objective": 0.1361458700612728,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 193,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.2474379878971916,
+        "Qmax": 0.10667186626353166,
+        "minimum_noncontact": 6.083891341889631e-09,
+        "it": 192,
+        "seconds": 798.8427078723907,
+        "objective": 0.13614325981786288,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 194,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.2473872358119184,
+        "Qmax": 0.10663205586307058,
+        "minimum_noncontact": 6.077312233880406e-09,
+        "it": 193,
+        "seconds": 799.9091849327087,
+        "objective": 0.13613723270270928,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 195,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.24736548113306767,
+        "Qmax": 0.1065471495115051,
+        "minimum_noncontact": 6.072126398163151e-09,
+        "it": 194,
+        "seconds": 800.5728209018707,
+        "objective": 0.13613424920394673,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 196,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.24728836111506436,
+        "Qmax": 0.10638229394313162,
+        "minimum_noncontact": 6.056113212417188e-09,
+        "it": 195,
+        "seconds": 805.0134348869324,
+        "objective": 0.13613377201656338,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 197,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.24710065876879486,
+        "Qmax": 0.10623968512776097,
+        "minimum_noncontact": 6.060213258805993e-09,
+        "it": 196,
+        "seconds": 806.4174797534943,
+        "objective": 0.1361281661503247,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 198,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.24693843034150256,
+        "Qmax": 0.10622007252262776,
+        "minimum_noncontact": 6.048443221767928e-09,
+        "it": 197,
+        "seconds": 810.9335947036743,
+        "objective": 0.13612267554026783,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 199,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.2470086534060546,
+        "Qmax": 0.10611317969852141,
+        "minimum_noncontact": 6.039802759496664e-09,
+        "it": 198,
+        "seconds": 814.0649929046631,
+        "objective": 0.136120172064772,
+        "trust": 0.10592133851134657
+      }
+    },
+    {
+      "source_line": 200,
+      "label": "PHYSICAL_TREE_COTREE_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 36,
+        "U": 39,
+        "Pmax": 0.24684987952052198,
+        "Qmax": 0.10606224747540138,
+        "minimum_noncontact": 6.032015673724939e-09,
+        "it": 199,
+        "seconds": 819.4381239414215,
+        "objective": 0.1361154927949372,
+        "trust": 0.10592133851134657
+      }
+    }
+  ]
+}

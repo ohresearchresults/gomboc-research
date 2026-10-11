@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "certificate_sha256": "c5c5ae2a622ccb7eceb1e47db4c405aff8864add27223a4e7962ddaa772352bd",
+  "source_sha256": "8ba233ecd3c4bb07a16a9536779df21cb98329e59e6ffa43f90fc8b3494a96fa",
+  "endpoint_sha256": "5c9d5ea688f000072a7f2dd88b68956130efe1e1d5a6d650cf62ef6ecd07f2ed",
+  "primitive_count": 7904,
+  "own_centroid_reconstructed": true,
+  "active_rows": 61,
+  "forced_rails": 37,
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "row230_margins_strictly_increasing": true,
+  "h910_strictly_negative": true,
+  "endpoint_decisions": {
+    "S": 0.00010740264238087234,
+    "U54": 0.0014331946352769544,
+    "H56": 0.0011958628097360614,
+    "H1011": 3.3209606248661913e-07
+  },
+  "verdict": "INDEPENDENT_EXACT_ROW230_SAFE_FIXED_CELL_STEP_PASS"
+}

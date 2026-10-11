@@ -1,0 +1,1287 @@
+{
+  "base_cycle": [
+    0,
+    54,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "base_u": [
+    0.4887318011183448,
+    0.7654069389255677,
+    -0.41868059952690784
+  ],
+  "base_v": [
+    -0.8618456955813056,
+    0.4981124782853021,
+    -0.09542513287624912
+  ],
+  "best": {
+    "active_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      54,
+      69,
+      72,
+      73,
+      88,
+      198,
+      224,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264
+    ],
+    "base_face_present": true,
+    "centroid": [
+      -14.718312168862509,
+      -0.37430280234238017,
+      2.160385660802656
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "f_vector": [
+      61,
+      162,
+      103
+    ],
+    "missing_forced_rails": [],
+    "saddle_edges": [
+      [
+        6,
+        7
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "stable_base": true,
+    "stable_faces": [
+      [
+        8,
+        245,
+        246
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54
+      ]
+    ],
+    "target_guard": -0.29284123806998624,
+    "target_guard_feature": "nonsaddle:[6, 7]",
+    "target_violation_count": 4,
+    "target_violation_sum": 0.4361857686915999,
+    "unstable_vertices": [
+      8,
+      54
+    ]
+  },
+  "best_coordinates": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/global_carrier_support/base_escape_far_lex_stage2.csv",
+  "best_parameters": [
+    0.001762901613199538,
+    -0.004999993421783525,
+    0.04582499160859278,
+    -0.044592853654662305,
+    -0.018597105784727987,
+    -0.006327437696785549,
+    -0.0042264060215958955,
+    0.03251839422207023,
+    -0.03953577118138253,
+    -0.020351381622385097,
+    -0.027995166876901418,
+    -0.03338978857400375,
+    0.025654132405079497,
+    0.02186961158428225,
+    0.02083174914716369,
+    0.009671381721905055,
+    -0.01211328812628133,
+    0.018108831472723432,
+    -0.044936261902840224,
+    0.021829818115828438
+  ],
+  "bound": 0.02,
+  "calls": 2880,
+  "controlled_rows": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    54
+  ],
+  "generations": 35,
+  "improvements": [
+    {
+      "base_face_present": true,
+      "call": 1,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.58503568927477,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.3143858645380061,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.5064392231402703,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 108,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.584074094592864,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.31865357083549506,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.5044107018839916,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 153,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.58214615306438,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.3232996188698903,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.5013212483469057,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 188,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.57344087529972,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.3126106720526743,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4952882072865513,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 189,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.55373184311501,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.30729553484420924,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.47690795940396163,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 611,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.549697130880375,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.3088143866512864,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4724935342175558,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 634,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.5469578193823,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.308303753127308,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.46988188110047047,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 808,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.546092449322195,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.2980449055290762,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4715812229399246,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 809,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.54325797150406,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.2935233221804173,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4698771409589604,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 925,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.540613577952094,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.2966525357813301,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4664504440067617,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 940,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.53912134819787,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.299532484275365,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4642382271290235,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 1117,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.533983412225446,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.28787336403372,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4620150712170168,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 1229,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.524471719306106,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.2933667710468533,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.45113002654439366,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 1377,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.52001416866008,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.30148509700367887,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4446428944091616,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 1521,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.51331961495523,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.2952255080024737,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.439513237954611,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 2624,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.51221257703719,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.29447760445441423,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4385931759235859,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 2872,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "missing_forced_rails": [],
+      "objective": 40.5093960782091,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "stable_faces": [
+        [
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.29284123806998624,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.4361857686915999,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    }
+  ],
+  "optimizer_message": "Maximum number of iterations has been exceeded.",
+  "popsize": 4,
+  "row_scales": {
+    "0": 0.17446921681019972,
+    "1": 0.02646065430143243,
+    "2": 0.2500286240612378,
+    "3": 0.6096339537048123,
+    "4": 1.3529774524848093,
+    "5": 3.036389845031031,
+    "6": 7.453751204606881,
+    "7": 19.26810019884649,
+    "8": 18.60085584350602,
+    "9": 18.60085584350602,
+    "10": 8.710927563219215,
+    "11": 4.198691885050803,
+    "12": 2.2927627756314624,
+    "13": 1.3784000143569732,
+    "14": 0.879407325140348,
+    "15": 0.5701599230269822,
+    "16": 0.35097073574468496,
+    "54": 0.02646065430143243
+  },
+  "scope": "20-dimensional in-base-plane nonlinear actual-hull search",
+  "seed": 831818,
+  "source": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/circuit_atlas/row54_far_rebuilt.csv",
+  "start_json": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/global_carrier_support/base_escape_far_balanced.json",
+  "start_parameters": [
+    -0.004749014396507486,
+    -0.01215463678940492,
+    0.028838090303087774,
+    -0.028715759073176673,
+    -0.008607827039836785,
+    -0.0030249135725997564,
+    -0.003384983441960121,
+    0.023644296322706957,
+    -0.020118167645203147,
+    -0.02907298277720952,
+    -0.02782879198209418,
+    -0.015983162708630455,
+    0.02817023600991659,
+    0.022816665119918787,
+    0.016422226507613973,
+    0.022069502269329036,
+    -0.006845693437202218,
+    0.01451381360077805,
+    -0.026596383818459635,
+    0.0031864668230016436
+  ],
+  "version": 1,
+  "winner": false
+}

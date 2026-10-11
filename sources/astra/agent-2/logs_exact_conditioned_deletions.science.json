@@ -1,0 +1,44 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "EXACT_CONDITIONED_DELETION 17",
+      "values": {
+        "V": 176,
+        "E": 310,
+        "F": 136,
+        "counts": [
+          1,
+          2,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "EXACT_CONDITIONED_DELETION 35",
+      "values": {
+        "V": 176,
+        "E": 310,
+        "F": 136,
+        "counts": [
+          36,
+          62,
+          96
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

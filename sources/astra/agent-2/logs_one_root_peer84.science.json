@@ -1,0 +1,582 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 0.08726921713903277,
+        "minimum": -0.08726911713820855,
+        "trust": 0.02,
+        "seconds": 0.3535773754119873
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 5,
+        "S": 38,
+        "U": 22,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 0.04350794359378378,
+        "minimum": -0.040693608028514947,
+        "trust": 0.10756479999999995,
+        "seconds": 1.0895092487335205
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 10,
+        "S": 12,
+        "U": 9,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 0.0014005690930787493,
+        "minimum": -0.0006941349530653652,
+        "trust": 0.15059071999999993,
+        "seconds": 1.942392110824585
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 1.794475082277013e-05,
+        "minimum": -1.7841020239957623e-05,
+        "trust": 0.2108270079999999,
+        "seconds": 2.7729921340942383
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 1.330873024526794e-05,
+        "minimum": -1.3205345967770382e-05,
+        "trust": 0.2108270079999999,
+        "seconds": 4.329320192337036
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 25,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 1.2841610083294875e-05,
+        "minimum": -1.273822844147336e-05,
+        "trust": 0.2108270079999999,
+        "seconds": 6.04432225227356
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 30,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 9.580023666281747e-06,
+        "minimum": -9.476626496723855e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 7.609624147415161
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 35,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 8.665041519566405e-06,
+        "minimum": -8.56166727470205e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 9.17380404472351
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 40,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 8.419879305229427e-06,
+        "minimum": -8.316490949050863e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 11.156925201416016
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 45,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 7.81465516096015e-06,
+        "minimum": -7.711246724371862e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 12.729505062103271
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 50,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 6.127311570812064e-06,
+        "minimum": -6.023885239321978e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 14.693535327911377
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 55,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 5.7648449737619864e-06,
+        "minimum": -5.661338513290884e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 16.704408168792725
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 60,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 5.200554522372118e-06,
+        "minimum": -5.0970660710203755e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 18.12221121788025
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 65,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.4897200353007234e-06,
+        "minimum": -2.386241184216051e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 19.956583261489868
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 70,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 1.9831072642113375e-06,
+        "minimum": -1.8811882811741826e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 22.391509294509888
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 75,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 1.704773735327716e-06,
+        "minimum": -1.602845079334387e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 23.89260721206665
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 80,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 1.2838235365160876e-06,
+        "minimum": -1.181910265110477e-06,
+        "trust": 0.2108270079999999,
+        "seconds": 25.531097173690796
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 85,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 9.060199189509013e-07,
+        "minimum": -8.041076827152152e-07,
+        "trust": 0.2108270079999999,
+        "seconds": 27.223941326141357
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 90,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 7.02685718811774e-07,
+        "minimum": -6.007359190168217e-07,
+        "trust": 0.2108270079999999,
+        "seconds": 29.185957193374634
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 95,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 3.7697188272313253e-07,
+        "minimum": -2.7503180396285663e-07,
+        "trust": 0.2108270079999999,
+        "seconds": 30.990939140319824
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 100,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.3169644977074008e-07,
+        "minimum": -1.2970201779372028e-07,
+        "trust": 0.2108270079999999,
+        "seconds": 32.435588121414185
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 105,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0240141730984202e-07,
+        "minimum": -5.202969231318917e-08,
+        "trust": 0.2108270079999999,
+        "seconds": 34.37145709991455
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 110,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0213846659825188e-07,
+        "minimum": -6.175063175856725e-09,
+        "trust": 0.013492928511999997,
+        "seconds": 36.060901165008545
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 115,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0100918409384072e-07,
+        "minimum": -3.7175429937269394e-08,
+        "trust": 0.000863547424768,
+        "seconds": 36.89753222465515
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 120,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0095072170647813e-07,
+        "minimum": -3.3408745221235324e-09,
+        "trust": 5.5267035185152004e-05,
+        "seconds": 37.626747131347656
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 125,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.009474213523723e-07,
+        "minimum": -3.893982656605734e-08,
+        "trust": 3.5370902518497285e-06,
+        "seconds": 39.44655632972717
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 130,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.009438641783804e-07,
+        "minimum": -8.122787884907917e-08,
+        "trust": 1.4148361007398914e-06,
+        "seconds": 40.1179473400116
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 135,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0074343287405398e-07,
+        "minimum": -3.74335616277449e-08,
+        "trust": 2.2637377611838262e-07,
+        "seconds": 40.71080827713013
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 140,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0073984840682629e-07,
+        "minimum": -5.1500878391037624e-08,
+        "trust": 2.2637377611838262e-07,
+        "seconds": 41.29071116447449
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 145,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.007384494650859e-07,
+        "minimum": -9.596218090707783e-08,
+        "trust": 2.2637377611838262e-07,
+        "seconds": 41.850523233413696
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 150,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0073271512484644e-07,
+        "minimum": -8.106518034758861e-08,
+        "trust": 2.2637377611838262e-07,
+        "seconds": 42.35354018211365
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 155,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0069633725465878e-07,
+        "minimum": -5.114574888501854e-08,
+        "trust": 2.2637377611838262e-07,
+        "seconds": 42.99499821662903
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 160,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0069441614265253e-07,
+        "minimum": -9.56568430776776e-08,
+        "trust": 3.621980417894122e-08,
+        "seconds": 43.588299036026
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 165,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.003532972578658e-07,
+        "minimum": -6.038870248385448e-09,
+        "trust": 2.3180674674522388e-09,
+        "seconds": 44.11295413970947
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 170,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0035327480096482e-07,
+        "minimum": -4.0207488425619035e-08,
+        "trust": 5.934252716677732e-11,
+        "seconds": 44.6710102558136
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "ONE_ROOT_FINITE_STALL",
+      "values": {
+        "it": 171,
+        "S": 1,
+        "U": 2,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "merit": 2.0035327480096482e-07,
+        "minimum": -4.0207488425619035e-08,
+        "trust": 2.373701086671093e-11,
+        "seconds": 44.84063220024109
+      }
+    }
+  ]
+}
