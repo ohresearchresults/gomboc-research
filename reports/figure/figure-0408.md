@@ -1,8 +1,6 @@
 # figure-0408
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -296,7 +294,7 @@ These were executed from a freshly decoded copy of the final capsule. One long m
 Observed final markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The last marker checks all50 frozen output byte counts and hashes. COLD_RECEIPT.json is348 bytes, SHA-256 `a3eba4566d0d427e6e298291ed5a2462837d10cb243d77dd824fe3b6fcc72b42`. EXPECTED.json is5897 bytes, SHA-256 `5bf5a4125daaa4fa782adecc08116ba59b1819cea50c4723ff708813a779897c`.

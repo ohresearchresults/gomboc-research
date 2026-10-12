@@ -1,8 +1,6 @@
 # minimum-0063
 
-Historical AI scientific report · saved 2026-09-12 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-12 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -226,7 +224,7 @@ Normative generated output pins:
 **Most useful continuation.** Feed the126 verified actual-type certificates back into arrow propagation: if all but one required arrows of an applicable certified parent are mandatory, its last arrow is strictly negative; if all are mandatory, reject. Respect stable scope and genuine automorphisms. This stronger feedback was not included in the counts above. It can activate further reciprocal-triangle contradictions. The exact retained type569 parent is the smallest named physical continuation and fits the new foot lemma with(a,b,c)=(1,3,0). Add the complete shared-edge copositivity gates to the actual-coordinate domains, retaining common η, actual endpoint slacks and Σ. Failed independent-block, unpartitioned-foot and larger-Gram searches supply neither physical examples nor impossibility proofs.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Durability limitation.** The complete45,081-byte source archive was verified before workspace pruning, but its full literal payload is not included in this response. The abbreviated block above deliberately aborts and must not be used as a generator. Accordingly, under the research copy contract, the new computed catalogue/frontier/certificate package remains **ephemeral in this handoff** and must not be installed as a durable successor to the assigned reconstructible parents. Its counts and exact-check observations are research evidence only until the complete17-source capsule is recovered. The analytic actual-foot and actual shared-edge theorems and proofs above are self-contained; they remain usable independently of that archive. The ten-root exclusions cannot be independently replayed from this abbreviated final payload, and should not be promoted to the shared journal as fully recovered certificates.

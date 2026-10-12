@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this scientific archive when referring to its constructions, code or research records."
+message: "Please cite this archive when using its constructions, code or research records."
 type: dataset
 title: "Gomboc research: AI-assisted constructions, searches and open problems"
 authors:
@@ -9,4 +9,4 @@ version: research-2026-10-12
 date-released: 2026-10-12
 repository-code: "https://github.com/ohresearchresults/gomboc-research"
 url: "https://github.com/ohresearchresults/gomboc-research"
-abstract: "Scientific code, exact construction data, exploratory numerical outputs and historical AI-authored reports on homogeneous mono-monostatic polyhedra. No manuscript is included."
+abstract: "Exact constructions, verification code, numerical experiments and AI research reports on homogeneous mono-monostatic polyhedra."

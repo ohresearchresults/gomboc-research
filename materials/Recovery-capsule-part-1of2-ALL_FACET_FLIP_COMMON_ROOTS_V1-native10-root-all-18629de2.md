@@ -1,8 +1,6 @@
 # material-18629de23e36
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -28,4 +26,4 @@ REPORT_PIN=[5116, 'f3f2b9d91eba533e154b7d3a41b065d30d0463cd93d4194c92a20e68990db
 RECORD={'identity': 'ALL_FACET_FLIP_COMMON_ROOTS_V1', 'mode': 'root', 'native_index': 10, 'rounding_power': 12, 'system_pin': [7343, '23f738fa96100eb3acb6175d8beb583d5e5ad0921b0d19dc4c4cb1e25001a245']}
 DATA="""
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

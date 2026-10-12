@@ -1,8 +1,6 @@
 # material-d28147c7c90f
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -19,6 +17,6 @@ SOURCE_PIN=[10097,'7e12ec5679cb42f722f1cbb9c44cdf31f47f26c47fdb14820cb9dfbe7dcc1
 OUTPUT_PIN=[9611,'bfb97506d9ba9742308810eedd4757daa5241f688318de17208b54336b7eda95']
 DATA=(
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 )

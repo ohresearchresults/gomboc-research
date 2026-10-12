@@ -1,8 +1,6 @@
 # figure-0275
 
-Historical AI scientific report · saved 2026-09-03 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -381,7 +379,7 @@ If every QCAD chamber transfers the pair, the next unrepresented type is a codim
 The complete replay executes:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 - [Complete exact package](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER.zip)

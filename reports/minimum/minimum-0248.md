@@ -1,8 +1,6 @@
 # minimum-0248
 
-Historical AI scientific report · saved 2026-09-26 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-26 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -255,7 +253,7 @@ Expected principal terminal markers, in addition to one PASS per leaf:
 This is the entire capsule. Its payload includes the readable verifier and every integer of the exact checkpoint. The decoder reconstructs and hashes both files before executing the proof.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Supplementary copies: [complete recovery capsule](sandbox:/mnt/data/recover_h5_macro_allroot.py), [readable verifier](sandbox:/mnt/data/h5_macro_allroot_verify.py), [literal exact checkpoint](sandbox:/mnt/data/h5-macro-output/h5_macro_atlas_checkpoint.json), and [exact report](sandbox:/mnt/data/h5-macro-output/h5_macro_allroot_report.json). The embedded capsule already reconstructs every proof input and computation without these downloads.

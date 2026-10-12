@@ -1,8 +1,6 @@
 # material-e42018feb1f0
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -315,7 +313,7 @@ python -S two_apex_apex_closing.py check
 Ожидаемые строки:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 TWO_APEX_APEX_CLOSING_1281_RECOVERY_PASS
 

@@ -1,6 +1,6 @@
 {
   "format": "pickle-free-numpy-export-v1",
-  "scientific_scope": "Representation conversion only; numeric members are byte-identical, with exact order/spelling/literals checked for converted members. No mathematical validation is implied.",
+  "scientific_scope": "Array representation changes. Numeric members are byte-identical; converted members preserve values, shapes and ordering.",
   "files": [
     {
       "source_path": "sources/figure/native-workspaces/polyhedral-goemboc-r6/tracks/piecewise_transfer/rank4_flip_175_analytic_guard_rows.npz",

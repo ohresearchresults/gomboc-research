@@ -1,8 +1,6 @@
 # material-d0dde9fb9451
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -253,7 +251,7 @@ verification.log
 Полный буквальный stdout с конечным LF:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 SOURCE 8767 a2570b8c8d10e67572ed8917d3075aca6e2e21682f0192637f3159b7b699a4bf
 PROJECTIVE_13749_SHAPE_THICKENING_EXACT_FINITE_CHECKS_PASS

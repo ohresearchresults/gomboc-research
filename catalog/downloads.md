@@ -6,7 +6,7 @@ Clone the repository for code, reports and C622. The archives below add the larg
 python3 tools/fetch_data.py all
 ```
 
-Or choose a collection ID from the table. The downloader checks the archive checksum and every file, refuses conflicting local files, and runs no experiments.
+Replace `all` with a collection ID to download one dataset. The downloader verifies archive and file hashes and refuses conflicting local files.
 
 | Collection ID | Files | Download | SHA-256 |
 | --- | ---: | --- | --- |
@@ -19,6 +19,6 @@ Or choose a collection ID from the table. The downloader checks the archive chec
 | `minimum` | 79 | [0.2 MiB](https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/minimum.tar.gz) | `2f925a51cc2659afb287a7cc41e60ded2e1730955a559abb5b94122ef38ef874` |
 | `recovered-science` | 36 | [0.8 MiB](https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/recovered-science.tar.gz) | `8dfcb9e78cecc3a52a3116064ad29e514f70bb5781f9764f1e31430fd77f1a66` |
 
-Ordinary tar.gz archives can also be unpacked at the repository root. Their relative paths match [files.jsonl](files.jsonl). Numeric histories and unsuccessful candidates are included; inclusion is not a claim that a target was reached.
+The tar.gz archives can also be unpacked at the repository root. Their relative paths match [files.jsonl](files.jsonl).
 
-Some historical copies replace private machine prefixes with `/RESEARCH` or `/REDACTED_HOME`. These are declared path placeholders, not working locations. Adapt those paths before replaying a historical script. The standalone C622 check needs no such adaptation. Scientific input/output hashes distinguish these public derivatives from preserved originals.
+Historical scripts may contain `/RESEARCH` or `/REDACTED_HOME` path placeholders. Replace them with local paths before running those scripts. The standalone C622 check needs no path changes.

@@ -1,8 +1,6 @@
 # material-e93219d8bbce
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -218,7 +216,7 @@ Expected planar3_own_com.json:184239bytes, SHA256668f508a9de55a6d595fc138c0ec574
 Expected build_stdout.txt and check_stdout.txt: each479bytes, SHA256ab778a16de8b184b4fe0bcac9480b59a269255d24a7e02dc9c3a2ce2214c0d7f. Their entire text is:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 PLANAR3_OWN_COM_SHEAR_RESCUE_RECOVERY_PASS
 

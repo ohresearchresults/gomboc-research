@@ -1,8 +1,6 @@
 # figure-0281
 
-Historical AI scientific report · saved 2026-09-04 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -373,7 +371,7 @@ The `2^-80` chamber certifies every possible equilibrium feature throughout the 
 The independent replay produces these terminal markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The [OBJ](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/body.obj), SHA-256 `e7dcb9c610eea673db936345c2546606b7357257cf63146397b633563d42a2c5`, has 97 vertices, 190 triangles, 285 triangulated edges, Euler characteristic two, and every edge multiplicity two. Its reconstructed volume is `1343.5918040241852` and centroid norm `7.17e-15`.

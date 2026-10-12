@@ -1,8 +1,6 @@
 # minimum-0140
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -450,7 +448,7 @@ The optional `extract` command writes the complete plain source without running 
 Exact main stdout:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     cubic_scale_arc EPSILON 1/65536 GUARDS 218 BERNSTEIN 5354 MAXDEG 50
     wall_roof.json 2463311 cb0f1b0ba0394aa0b9251fb4e0d0c79b9c967017863ce73e1250125bad514de6

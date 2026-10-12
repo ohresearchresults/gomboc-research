@@ -1,8 +1,6 @@
 # minimum-0058
 
-Historical AI scientific report · saved 2026-09-11 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -352,4 +350,4 @@ VIVID_COMMON_MOMENTS_AND_THREE_TREE_FRONTIERS_COMPLETE_PASS
 Convenience copies are [vivid_raven_common_moments_handoff.md](sandbox:/workspace/scratch/fb3926fc1efb/vivid_raven_common_moments_handoff.md) and [recover_vivid_next.py](sandbox:/workspace/scratch/fb3926fc1efb/recover_vivid_next.py). The complete literal recovery follows; no encoded bytes or helpers are omitted.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

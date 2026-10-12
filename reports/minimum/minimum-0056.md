@@ -1,8 +1,6 @@
 # minimum-0056
 
-Historical AI scientific report · saved 2026-09-11 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -130,7 +128,7 @@ The full 24-record numerical reconstruction passed in a clean directory and repr
 Expected decisive markers include:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The wrapper is 28361 bytes, SHA-256 `ebf05fef861e25571f7654e7df6f4c7121142691d81873b31404515a276bcf6a`. Its decoded six-source payload is 52098 bytes, SHA-256 `cf6ee442715908e8bd6ab71d1a39c813e13006cc2ca562459fb143183cb477cc`. The generated source manifest is 578 bytes, SHA-256 `f9d36a1556c68bcbd9916b0d490520e1b0335f237f7be162439f7f12176bacd5`.

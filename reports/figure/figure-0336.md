@@ -1,8 +1,6 @@
 # figure-0336
 
-Historical AI scientific report · saved 2026-09-07 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-07 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -424,7 +422,7 @@ This capsule contains BOTH literal source tables, both independent exact audits,
 Decompressed filename-to-source JSON: **51826bytes**, SHA256 **1895842f5502149091f25c45e94e5492f28aef1057ad04ff900822ffd159e49d**. There are15 complete members and26037 non-whitespace base85 characters. Save and run the following complete `unpack.py`:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 With assertions enabled, exact reconstruction and verification commands are:

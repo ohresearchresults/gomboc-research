@@ -1,8 +1,6 @@
 # figure-0450
 
-Historical AI scientific report · saved 2026-09-21 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-21 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -253,7 +251,7 @@ Optional closed numerical replay: `python RUN_NUMERICAL.py --list`, then, for ex
 Portable dictionary156800 bytes/SHA-256 `2ab044fb2306d7ffe31d58a05e5458e2b6b06c593ccfd255d828d9831be708db`; XZ47316 bytes/SHA-256 `45b634630ba18cf489f4dd1487eb60d42feee425cc5cad8009b7b1aea99558b0`; normalized Base64 length63088. Standalone portable decoder64921 bytes/SHA-256 `4ae558207d092fb8eea680ca3a73e4ff3160fc197b4a021e327bca8de12de0c8`.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ## Supplementary complete archive

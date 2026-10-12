@@ -1,8 +1,6 @@
 # figure-0447
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -265,7 +263,7 @@ The canonical41-file source dictionary is287207bytes, SHA256 `939ee82786c952c9ab
 Convenience copies: [sources and decoder](sandbox:/mnt/data/NW37_CONTINUATION_SOURCES.zip),198643bytes,SHA256 `7ca35600dfbcbdb672c1696523656b5a2883fdd34d05963ddc56b75f075e352f`; [all exact reports](sandbox:/mnt/data/NW37_CONTINUATION_EXACT_REPORTS.zip),68515027bytes,SHA256 `046b4a2bee6c52d8f2aa70200232a6fbbe7564f4996ee4aba92a0187bc7b717d`. The inline capsule is sufficient without those files.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ## 10. Most useful continuation

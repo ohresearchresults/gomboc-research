@@ -1,8 +1,6 @@
 # figure-0288
 
-Historical AI scientific report · saved 2026-09-04 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced.
+AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 

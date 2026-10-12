@@ -1,8 +1,6 @@
 # minimum-0031
 
-Historical AI scientific report · saved 2026-09-09 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-09 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -281,7 +279,7 @@ The separately executed literal all72 wrapper also reproduced its original **5,7
 The following markers are **expected and actually observed**; each whole-root marker is accompanied by all nine root reports:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The optional supplied-journal authentication was also executed and printed `LITERAL_PARTIAL72_PARENT_ENVELOPE_AND_SOURCE_AUTHENTICATED_PASS`.
@@ -301,7 +299,7 @@ python -S verify178.py type178_certificate.json > verify178.txt
 For source inspection without generation, use `python -S recover_raven24_72_178.py --extract`. Extraction alone is not a proof replay. The optional `--journal PATH` authenticates exactly the supplied current journal and literal parent; the default mathematical replay does not require it.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ## 10. Scope and continuation

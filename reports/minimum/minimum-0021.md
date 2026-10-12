@@ -1,8 +1,6 @@
 # minimum-0021
 
-Historical AI scientific report · saved 2026-09-08 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-08 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -45,7 +43,7 @@ together with incidence-sensitive overload bounds and a 7/6 version of the lead'
 The literal parent identities used are
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The later durable `NOVA24_THREE_BAD_POLES_AND_UNBOUNDED_STRIP_V1` supplies the immediate comparison point: it left a connected three-unit-bad-pole alternative under the common cap 20/19. The present theorem eliminates that entire alternative. :contentReference[oaicite:1]{index=1} No mathematical alias, facet-order, or incidence conflict was found. The supplied immutable hashes are retained as authority identities; normalized local extractions of displayed Markdown are not represented as reproducing those envelope hashes.
@@ -494,7 +492,7 @@ Together with continuity of actual facet areas and centroids inside the incidenc
 Two separate clean-directory executions were completed; every generated JSON and the complete transcript were byte-identical. Observed terminal markers include
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Expected identities are

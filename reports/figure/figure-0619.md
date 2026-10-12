@@ -1,8 +1,6 @@
 # figure-0619
 
-Historical AI scientific report · saved 2026-09-29 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-29 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -309,7 +307,7 @@ Principal report identities:
 Capsule dictionary: **107749 bytes**, SHA-256 `3c7c015455f163d4a99d08201a5f1ead98ba77df1d0451983af9b835b480608d`. Canonical decoder source: **38140 bytes**, SHA-256 `10d4cc3e0d7b3cb6d742209160b2181c7131f1caa3dc398ec3bc85473918e956`. The decoder validates the entire recovered dictionary and writes per-file byte counts/hashes. These are transport checks; the exact replay supplies the scientific checks.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ## Supplement and final boundary

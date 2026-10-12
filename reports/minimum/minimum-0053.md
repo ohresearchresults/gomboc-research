@@ -1,8 +1,6 @@
 # minimum-0053
 
-Historical AI scientific report · saved 2026-09-11 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -158,7 +156,7 @@ python -S recover_whole43.py check
 For extraction without reconstruction, use `python -S recover_whole43.py extract`. The frozen check requires only the standard library after the build has generated its records. Expected final markers are
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The wrapper is **32,934 bytes**, SHA-256 `26810caf418a188d47eee8ecc5c6bfec17939b2fe177e5bdd34019a317351890`. Its decoded13-source payload is81,462bytes, SHA-256 `c1960cc645ab3e082767ae71edcb6312bc59a4219e7ed830c41a795c67a0ed72`. Its complete individual-source manifest is1,237bytes, SHA-256 `1b70fa81cb12a55c71f4f1690b5639dffe5eb0b9bd027d11834662dbbe7bce73`. All206 per-case record pins and scalar hashes are reconstructed in the pinned whole report.
@@ -179,4 +177,4 @@ The wrapper is **32,934 bytes**, SHA-256 `26810caf418a188d47eee8ecc5c6bfec17939b
 A convenience copy is [recover_whole43.py](sandbox:/workspace/scratch/2d4a4bd60c77/recover_whole43.py). The full source below is the recovery authority; the link is supplementary.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

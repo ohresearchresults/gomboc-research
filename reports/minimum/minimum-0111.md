@@ -1,8 +1,6 @@
 # minimum-0111
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -500,7 +498,7 @@ A clean source-only build and subsequent check in a new directory were actually 
 Actual terminal markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 These receipts certify the stated finite algebra, complete closed-cell cover and exact physical constructions. They are not proof-assistant formalization of the accepted geometric premises or a universal theorem derived from the number of controls.

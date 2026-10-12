@@ -1,8 +1,6 @@
 # material-52810e09ba8f
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -87,7 +85,7 @@ python -S deficit_exact.py > deficit_control.out
 sha256sum deficit_exact.py deficit_control.json deficit_control.out
 Expected report deficit_control.json6450B,SHAc2eee89ba9cbed67bc1653b1ae74fd101d93803bb90afc09d722b07d8001dd97; stdout526B,SHA74f4743f5404c46b400d3f7dd7df2556a5b59463dacb8b61fe430d505b7292d0. Expected terminal markers:
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 T=88391785273906250/43151360396679507
 report_bytes=6450

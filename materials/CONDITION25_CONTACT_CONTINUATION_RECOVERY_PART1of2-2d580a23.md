@@ -1,8 +1,6 @@
 # material-2d580a230214
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -37,4 +35,4 @@ print('CONTACT_CONTINUATION_SOURCE_RECOVERY_PASS')
 Run `python -B -S MAKE_V2.py` in recovered directory; expected EDGE_HOMOTOPY_V2_EXACT_SOURCE_PATCH_PASS. Execute selected complete finite commands in RUN_INPUTS.json with the decoded parent source and exact reports placed as specified. EDGE_HOMOTOPY_V2 changes only stage length tolerance (default1e-7), not physical/polar escape or convexity acceptance; it does not make a finite approximate collision exact. BAD_ROOT_CONTINUATION raises its one negative angular floor with positive additive safety, preserving all other physical/polar escape floors, unlike multiplying a negative target by>1 or unconstrained loss fitting. Expected algorithm terminal markers appear in each complete source; BAD_ROOT_CONTINUATION_FINITE_DONE and DELETE_FULL_GEOMETRY_FINITE_DONE are numerical results only.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

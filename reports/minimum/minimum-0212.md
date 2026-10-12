@@ -1,8 +1,6 @@
 # minimum-0212
 
-Historical AI scientific report · saved 2026-09-23 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-23 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -329,7 +327,7 @@ Do not use `-S` for the verifier: it imports SymPy. Do not disable assertions.
 Observed principal terminal markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The ten CONTROL lines are exactly the table in section7. The complete mathematical conclusion and reconstruction are contained in this handoff; convenience files are not its only source.

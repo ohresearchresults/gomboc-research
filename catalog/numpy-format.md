@@ -13,8 +13,8 @@ with numpy.load(path, allow_pickle=False) as data:
     faces = [flat[a:b].tolist() for a, b in zip(offsets[:-1], offsets[1:])]
 ```
 
-There are 622 vertex-index entries and 138 offsets. Historical consumers of the old `faces` key must explicitly read this representation. The scientific face lists are unchanged; this is a disclosed format change, not a byte-identical original cache.
+There are 622 vertex-index entries and 138 offsets. Historical scripts using the old `faces` key must read the new representation. The face lists are unchanged.
 
 Another 36 NPZ containers retain their existing scalar Unicode scientific `kind` labels. Their numeric and Unicode member bytes are unchanged; only ZIP metadata is regenerated. [Conversion metadata](numpy-conversions.json) records all 61 files and the original/public hashes.
 
-The conversion interpreted a restricted, statically reviewed literal format without executing pickle constructors. It does not establish the correctness of the scientific calculations stored in these caches.
+The conversion read a restricted literal format without executing pickle constructors.

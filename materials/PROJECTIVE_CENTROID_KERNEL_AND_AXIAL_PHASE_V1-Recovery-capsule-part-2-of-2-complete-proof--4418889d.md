@@ -1,8 +1,6 @@
 # material-4418889d8c20
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -242,7 +240,7 @@ The two stdout files are identical432-byte UTF-8 files, each SHA-256
 Their complete text is:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     PROJECTIVE_CENTROID_KERNEL_AND_AXIAL_PHASE_RECOVERY_PASS
 

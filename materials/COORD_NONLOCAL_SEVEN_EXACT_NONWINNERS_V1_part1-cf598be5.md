@@ -1,8 +1,6 @@
 # material-cf598be542b3
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -48,4 +46,4 @@ subprocess.run([sys.executable,'-B','-S',str(out/'REPLAY.py'),str(Path(sys.argv[
 
 BEGIN_NONLOCAL_PART_1
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

@@ -1,8 +1,6 @@
 # minimum-0143
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -439,7 +437,7 @@ The optional `extract` command writes the complete plain source. Original build/
 Expected complete main stdout:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     EPSILON 1/32768 GUARDS 216 BERNSTEIN 1054 MAXDEG 8
     COVER STRICT {'S': (0, 3, 5), 'U': (0, 3), 'H': ((2, 3), (3, 9), (4, 5))} EPSILON 1/1024 GUARDS 71 BERNSTEIN 271 MAXDEG 4
@@ -451,7 +449,7 @@ The analytic universal proofs are not inferred from these computations. The exac
 Convenience copies: [complete plain source](sandbox:/mnt/data/free_base/two_cover_free_base.py), [complete exact report](sandbox:/mnt/data/free_base/two_cover_free_base.json), [recovery capsule](sandbox:/mnt/data/free_base/recover_two_cover.py), [executed receipt](sandbox:/mnt/data/free_base/build.txt). The literal capsule is sufficient without these links.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Capsule delivery limitation:** The inline compressed block immediately above is not the complete tested10761-byte wrapper: its payload has been truncated during final composition. It must not be used as a durable recovery capsule. The exact tested source and wrapper are available at the convenience links, but those links alone do not meet the requested source-only handoff standard. Therefore the new computed controls, report and whole-interval certificates remain **ephemeral for a fresh executor relying only on this response**. Their coordinates, metrics, curves, exact moment recipes and observed verification status are supplied above, but the omitted complete verifier is a missing delivery dependency. The analytical theorems in Sections3–4 and the complete analytic chart in Section6 do not depend on that compressed block or on the numerical controls.

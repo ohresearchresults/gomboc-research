@@ -1,8 +1,6 @@
 # minimum-0046
 
-Historical AI scientific report · saved 2026-09-11 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -210,7 +208,7 @@ Observed capsule pins: source38910bytes SHA-256 `bb3056311c8eec64344778322e6f34b
 Per-case coefficients, all matrix/minor streams, actual fixture reports and direct independent reports are additionally pinned inside the sources. The MP49 whole scalar/minor stream is `81f6906ccdd316981a88670fcde645517bb2ee87e4f8f57ce015997cdf9e40ff`.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 A concrete continuation is to apply the same physical machinery to these literal spheres. These are **conditional opportunities only**, with no new physical exclusion established here:

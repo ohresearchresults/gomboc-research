@@ -1,8 +1,6 @@
 # material-6e7e96d6cac7
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -158,7 +156,7 @@ Exact terminal output:
 
     ALL_THREE_POLYNOMIAL_IDENTITIES_PASS
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     reciprocal_gap.json 7766 7dd6c0bda600482c6ac92c536b11e4bbbe67df2235097e13d9547bd5aafe1a72
 

@@ -1,8 +1,6 @@
 # minimum-0181
 
-Historical AI scientific report · saved 2026-09-22 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -299,7 +297,7 @@ E — интеграл ell, не число рёбер. Proper33 означае�
 Полный ожидаемый stdout:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     u=9/10 T=3147271609330452659300/2212222038658103635267 SUH=(3, 4, 5)
     u=4/5 T=6385366243338046165075/4417637259822776781208 SUH=(3, 3, 4)

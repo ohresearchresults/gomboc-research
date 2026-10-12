@@ -1,6 +1,6 @@
 # material-7542ef43f2e0
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
+AI research material
 
 ---
 

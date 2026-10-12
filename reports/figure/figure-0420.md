@@ -1,8 +1,6 @@
 # figure-0420
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -162,7 +160,7 @@ python REPLAY_SEARCH.py coarse_radial_20 NEW_SEARCH_DIRECTORY
 ```
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Supplemental artifact: [Full sources, terminal floating checkpoints, and exact audit outputs](sandbox:/mnt/data/KM10_FULL_RECOVERY.zip). The ZIP is 799,987 bytes, SHA-256 `ed78e1061db126e82195035455600b0aecf4fd9dde364af27c8e4a636ec49e00`; it is supplementary, not a dependency of the inline recovery.

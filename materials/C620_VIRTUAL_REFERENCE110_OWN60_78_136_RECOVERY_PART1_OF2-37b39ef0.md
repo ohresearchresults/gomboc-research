@@ -1,8 +1,6 @@
 # material-37b39ef0c03f
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -31,4 +29,4 @@ OWN_CENTER_CLOSURE_HOMOTOPY.py6254 SHA7e0331c99ff9946396b88fd4b5874b0c6e647f97b7
 
 ## Ordered payload
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

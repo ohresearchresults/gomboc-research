@@ -1,8 +1,6 @@
 # material-f7070742377c
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -13,4 +11,4 @@ Continuation of part1 [internal-source-reference] (SHA07fccd061da0db151b07676c54
 This part has11000 normalized base64 characters SHA25625a214318bb9b44bb93cbefadd363602fee859bed0c07bae96fd0e3857839a04. Joined parts1,2,3:26844characters SHA581d3c6a5be529720da38b115aedde3f6dec731dc617dd844cf51719f7161240. Base64 then LZMA decode gives65314UTF8 JSON bytes SHA6fc3b696d660f96b090baeab73bc4d2c12d3ec4c883280e05ad1c0bf9ff292a0; extract all25 filename:text entries exactly. MANIFEST.json covers every other file. No coordinates or source helpers are omitted. The packaged cold replay has already passed as described in part1.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

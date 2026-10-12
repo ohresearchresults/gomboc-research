@@ -1,8 +1,6 @@
 # minimum-0007
 
-Historical AI scientific report · saved 2026-09-07 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-07 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -26,7 +24,7 @@ The new lifted control is not homogeneous mono-unstable: its exact reference cen
 I read all three named immutable parent payloads through their ends. Their identities are:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 All three declared hashes were reproduced from their serialized version-2 JSON envelopes. No conflicting geometric identity was found. I also extracted and replayed the literal NOVA24 recovery source: 19,433 bytes, SHA-256 `4c15c82965977605609acbbce07ec9322d1f9491792f34c5a2c1310f992171fe`. Its 595 shifted positive-definite matrices and complete 5,040-tree/115-orbit coverage passed, reproducing its 5,705-byte table hash `34f501da2c4cabec97a55ca8311381a78eee0603c9c46c7c375a3f3dbf859af6`. The parent supplies those certificates and the complete replay program. :contentReference[oaicite:2]{index=2}

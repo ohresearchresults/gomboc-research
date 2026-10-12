@@ -1,8 +1,8 @@
-# Scientific source and proof materials
+# Source notes and proof drafts
 
-1,101 selected source/proof records in their original language. These are scientific material exports, not raw chats. Their embedded claims retain their historical status; incomplete encoded blocks and editorial privacy changes are marked in each derivative.
+1,101 records from the research runs, including source code, constructions and proof drafts. [Export notes](../catalog/coverage.md#text-records) describe omissions and format changes.
 
-| Material | Scientific title |
+| Material | Title |
 | --- | --- |
 | [material-0054a22972a0](BH81_PRIMARY_RECOVER-py-0054a229.md) | BH81 primary capsule extraction and exact transport correction |
 | [material-00c8fba78bc8](J124_COMMON_APEX_RECOVERY_PART1OF2-00c8fba7.md) | J124 common-apex exact bodies — Recovery capsule part 1/2 |
@@ -33,7 +33,7 @@
 | [material-0524867f5dd9](Shared-H5-frontier-before-intrinsic-hybrid-integration-0524867f.md) | H5: seven-turn geometry and central all-root floor region |
 | [material-0525169aec89](Recovery-capsule-part-2-of-2-MINIMUM_K2_JOINT_COMPLETE_RECOVERY_V1-exact-decoder-and-recon-0525169a.md) | Recovery capsule part 2 of 2 |
 | [material-0537508d170a](APICAL_U1_NORMAL_PARAMETER_COMPACTNESS_V1-0537508d.md) | APICAL_U1_NORMAL_PARAMETER_COMPACTNESS_V1 |
-| [material-056b8683ac44](Recovery-capsule-part-2of2-ALL_FACET_FLIP_COMMON_ROOTS_V1-native13-root-all-056b8683.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-056b8683ac44](Recovery-capsule-part-2of2-ALL_FACET_FLIP_COMMON_ROOTS_V1-native13-root-all-056b8683.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-06540fabf7f3](Adjacent_triangle_bipyramid_81_40_recovery_part_2_of_2_proof-06540fab.md) | ADJACENT_TRIANGLE_BIPYRAMID_81_40_V1 |
 | [material-068a3c55fa00](C426_MEASURED_REPLAY_CORRECTION-068a3c55.md) | C426 replay: correction of descriptive numerical metadata |
 | [material-06b78a37c10d](Shared-H5-frontier-before-paired-arrow-reciprocal-closure-06b78a37.md) | H5 and the joint-reference frontier |
@@ -156,7 +156,7 @@
 | [material-28c9f2eed87f](TREE253_K2_checkpoint40_native09_exact_integer_capsule-28c9f2ee.md) | {"checker_pins":{"verify_catalogue.py":[8229,"459eb1de9cf3d876f9937832ca13c12b9ee0b1faa0c0a13ab9966d3ad2c55cac"]},"commands":[["verify_catalogue.py","standard_c |
 | [material-2917d67d1757](J99_EXACT_PRUNED_C464-2917d67d.md) | J99 exact rational vertex-subset construction — useful own211, NOT the target |
 | [material-29443e02c382](Recovery-capsule-part-2-of-2---SEVEN_MACRO_EXACT_PATCH_AND_SOURCE_ONLY_ACCEPTANCE_V1-29443e02.md) | Required exact recovery patch and source-only acceptance |
-| [material-2994af9cce72](UNIVERSAL285_CORRECTED_COLD_REPLAY_V1-Recovery-capsule-part-2-of-3-literal-source-suffix-2994af9c.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-2994af9cce72](UNIVERSAL285_CORRECTED_COLD_REPLAY_V1-Recovery-capsule-part-2-of-3-literal-source-suffix-2994af9c.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-29953a01120b](J119_RETIRED_CAPSULE_MANDATORY_ONE_ROW_CORRECTION-29953a01.md) | Mandatory correction to J119 retired-body recovery |
 | [material-29aa3aecf690](H5_ALLROOT_UNCAPPED_RHO_TUBE_RECOVERY_V1-29aa3aec.md) | H5_ALLROOT_UNCAPPED_RHO_TUBE_RECOVERY_V1 |
 | [material-29b6805c733e](J98_NUMERICAL_COVER_PRODUCERS-29b6805c.md) | J98 complete numerical cover producers |
@@ -281,7 +281,7 @@
 | [material-4330357c9b5b](TRANSVERSE_SHADOW_MOMENT_CHAMBER_V1-Recovery-capsule-part-1-of-2-complete-transverse_shado-4330357c.md) | Two-variable exact sparse polynomials, with box parameters in [0,1]. |
 | [material-4331e803cca0](DEPTH_INCIDENCE_AND_DEG6_CAP300_V1-Recovery-capsule-part-1-of-2-complete-exact-source-4331e803.md) | """DEPTH_INCIDENCE_AND_DEG6_CAP300_V1: complete deterministic exact recovery. |
 | [material-438fadc064f1](PAIR_TRIANGLE_LOCATOR_V1-complete-exploratory-sources-and-negative-search-checkpoints-438fadc0.md) | PAIR_TRIANGLE_LOCATOR_V1 — exploratory method, NOT an exclusion certificate |
-| [material-43cd042bd9ae](op_material_rollout_minimum_20260914-materials-7-43cd042b.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-43cd042bd9ae](op_material_rollout_minimum_20260914-materials-7-43cd042b.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-4418889d8c20](PROJECTIVE_CENTROID_KERNEL_AND_AXIAL_PHASE_V1-Recovery-capsule-part-2-of-2-complete-proof--4418889d.md) | PROJECTIVE_CENTROID_KERNEL_AND_AXIAL_PHASE_V1 |
 | [material-4451f653bb3d](Reference_mass_homotopy_recovery_part_2_of_2-4451f653.md) | Reference-to-mass homotopy recovery part2/2 |
 | [material-44eb82b5584d](J130_STAR_NOMINATION_METHODS-44eb82b5.md) | J130 star nomination methods — complete sources, versions and exact float checkpoints |
@@ -467,7 +467,7 @@
 | [material-6aaabcf70df6](J125_C622_INDEPENDENT_DELETION_Recovery_capsule_part_3_of_3-6aaabcf7.md) | J125 C622 independent-deletion theorem — Recovery capsule part 3/3: exact source correction |
 | [material-6b1e3848c40b](D2_FINITE_REFLECTION_20260923_part1-6b1e3848.md) | D2_FINITE_REFLECTION_20260923 — Recovery capsule part 1/3 |
 | [material-6b240b6eb8a2](Recovery-capsule-part-1of2-ALL_FACET_FLIP_COMMON_ROOTS_V1-native13-root-all-6b240b6e.md) | """ALL_FACET_FLIP_COMMON_ROOTS_V1 complete exact recovery 13:root. |
-| [material-6b2f26e1da41](VQ20_C622_FULL76_NINE_LITERAL_PARTS-6b2f26e1.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-6b2f26e1da41](VQ20_C622_FULL76_NINE_LITERAL_PARTS-6b2f26e1.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-6b41211b97dd](Recovery-capsule-part-1-of-3-LEAD_C2_FINITE_FLOW-exact_lead-py-6b41211b.md) | """Complete rational convex-polyhedron audit for the lead's new C2 candidates. |
 | [material-6b6e959e8491](D2_NEW9_EXACT_CONTROLS_20260923-6b6e959e.md) | D2_NEW9 — nine exact controls from two new finite methods |
 | [material-6bb7ae3b76de](rooted_boundary43_strict_width_obstruction_v1-6bb7ae3b.md) | ROOTED_BOUNDARY_4_PLUS_3_STRICT_5_OVER_16_OBSTRUCTION_V1 |
@@ -506,7 +506,7 @@
 | [material-73bd2f34d8e8](J123_NUMERICAL_METHODS_PART3OF3-73bd2f34.md) | J123 numerical methods — Recovery capsule part 3/3 |
 | [material-73eb04d63dee](ROOT_DUALITY_JOINT_VARIATIONS_V1-complete-geometric-proof-and-exact-negative-moment-contro-73eb04d6.md) | ROOT_DUALITY_JOINT_VARIATIONS_V1 |
 | [material-7406fc9387ad](J142-Numerical-producers-and-twelve-frozen-balanced-caps-complete-six-file-source-7406fc93.md) | J142 numerical producers and frozen cap recovery |
-| [material-74233c80e38f](UNIVERSAL285_CORRECTED_COLD_REPLAY_V1-Recovery-capsule-part-1-of-3-literal-source-prefix-74233c80.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-74233c80e38f](UNIVERSAL285_CORRECTED_COLD_REPLAY_V1-Recovery-capsule-part-1-of-3-literal-source-prefix-74233c80.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-743352761b9b](TWO_ANCHOR_FIBRE_GREEDY_DOMINANCE_V1-Recovery-capsule-part-1-of-2-exact-two_anchor_fibre-p-74335276.md) | """Exact actual-body control for TWO_ANCHOR_FIBRE_GREEDY_DOMINANCE_V1. |
 | [material-747db8f521e4](RATIONAL_INCIDENCE_RETRACTION_E17_V1_source-747db8f5.md) | """RATIONAL_INCIDENCE_RETRACTION_E17_V1. |
 | [material-748766944a6e](PAIRED_SPOKE_SIGN_FOREST_GERM_CRITERION_V1-74876694.md) | PAIRED_SPOKE_SIGN_FOREST_GERM_CRITERION_V1 |
@@ -550,7 +550,7 @@
 | [material-7d5495bb2437](C378_GLOBAL65_G9_EXACT_RECOVERY-7d5495bb.md) | C378_GLOBAL65_G9 — exact whole-basin improvement, not own110 |
 | [material-7d76776bac62](C2_CHAINS-recovery-capsule-part-2-of-3---exact_c2-py-7d76776b.md) | """Exact, exhaustive rational-polyhedron audit for fresh C2 chain candidates. |
 | [material-7d94b90d561a](C2-six-fixed-shape-affine-exclusions-complete-proof-and-method-recovery-capsule-7d94b90d.md) | Six fixed C2 shapes: complete symmetry-preserving affine exclusion |
-| [material-7db1c6faf40f](Recovery-capsule-part-2of2-ALL_FACET_FLIP_COMMON_ROOTS_V1-native10-root-all-7db1c6fa.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-7db1c6faf40f](Recovery-capsule-part-2of2-ALL_FACET_FLIP_COMMON_ROOTS_V1-native10-root-all-7db1c6fa.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-7dc0d7532809](RECOVER_FULL92_C426-py-7dc0d753.md) | All inequalities are supplied here. No original G6 inequalities are retained. |
 | [material-7e502949fddf](J131-Exact-ledger-correction-145-guards-zero-subdivision-corrected-search-counts-7e502949.md) | J131 exact-ledger correction |
 | [material-803cab20caf7](J71_ROOTPAIR_Recovery_capsule_part_1_of_2-803cab20.md) | J71 L18 root-pair theorem and exact G3 turnover — Recovery capsule part 1/2 |
@@ -672,7 +672,7 @@
 | [material-9d6bf2d64fdf](k3_union_cdq-py-complete-exact-common-directions-and-true-quad-union-source-9d6bf2d6.md) | """Exact union of accepted C,D common directions and genuine quad1789/root direction. |
 | [material-9db28182e955](ALL_TWO_PIECE_CONCAVE_HOMOTHETIC_PROFILES_WHOLE_FACETS_RECOVERY_V1-9db28182.md) | All two-piece concave homothetic profiles: every whole facet satisfies the3/2 bound |
 | [material-9e05c772db27](H5_paired_arrow_pre_projective_frontier_exact-9e05c772.md) | H5: actual paired arrows beyond optimized scalar bounds |
-| [material-9e0e6352f8a2](Recovery-capsule-part-1-of-2-MINIMUM_K2_JOINT_COMPLETE_RECOVERY_V1-JSON-escaped-recovery-s-9e0e6352.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-9e0e6352f8a2](Recovery-capsule-part-1-of-2-MINIMUM_K2_JOINT_COMPLETE_RECOVERY_V1-JSON-escaped-recovery-s-9e0e6352.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-9e260f7b6dd4](common_profile_d_k3-py-complete-exact-further-K3-delta-source-and-class-transports-9e260f7b.md) | """Exact further K3 TREE585 delta for common-volume profile D. |
 | [material-9e450f1f5e4d](J84_EXACT_ANISOTROPIC_POLICY_METHODS-9e450f1f.md) | J84 exact anisotropic S1 policy and whole-cell U trap — complete methods |
 | [material-9e731eb26824](Angular_positive_path_actual_mass_gate_exact_recovery_capsule-9e731eb2.md) | Angular positive-path envelopes and actual uniform-mass obstruction |
@@ -754,7 +754,7 @@
 | [material-af41a30f6e09](TWO_ANCHOR_PROJECTED_MASS_OBSTRUCTION_V1-exact-source-recovery-erratum-af41a30f.md) | TWO_ANCHOR_PROJECTED_MASS_OBSTRUCTION_V1 — exact source recovery erratum |
 | [material-af4aa9645f51](Shared-H5-orthogonal-frontier-before-wider-reference-result-af4aa964.md) | H5: orthogonal primal/polar factor and current frontier |
 | [material-afab63e1051a](TWO_APEX_ROOT_LEAF_OBSTRUCTION_V1-Recovery-capsule-part-1-of-2-complete-exact-source-afab63e1.md) | """TWO_APEX_ROOT_LEAF_OBSTRUCTION_V1. Exact standalone recovery. |
-| [material-b001470ea1e1](op_material_rollout_minimum_20260914-materials-5-b001470e.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-b001470ea1e1](op_material_rollout_minimum_20260914-materials-5-b001470e.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-b051a62697f6](J81_CONDITIONAL_METHOD_AND_SOURCE-b051a626.md) | J81 conditional spectral and local-response method |
 | [material-b0d173c50aca](J133-Recovery-capsule-part-3-of-3-positive-polar-support-retirement-and-exact-C244-own222-b0d173c5.md) | J133 Recovery capsule part 3 of 3 |
 | [material-b1163fa23106](central_k3_inherited_delta-py-complete-exact-application-of-two-accepted-TREE410-theorems-b1163fa2.md) | """Literal application of two accepted TREE410 theorems to central K3 roots. |
@@ -788,7 +788,7 @@
 | [material-b73770d54c8b](IGS-Recovery-capsule-part-2-of-2---exact-inputs-finite-convexity-mass-and-whole-axis-exclu-b73770d5.md) | IGS exact recovery capsule part 2 of 2 |
 | [material-b7626d1ef1a0](J88H_EXTRACT-py-b7626d1e.md) | """Extract all exact literal units from named J88H readable bundles. |
 | [material-b7cabcaa637c](J118_FLOAT_CHECKPOINTS_PART1_OF3-b7cabcaa.md) | J118 floating checkpoint recovery capsule part 1/3 |
-| [material-b8e7a63afb21](TREE253_K2_CHECKPOINT40_NATIVE00_EXACT_RECOVERED_Recovery_capsule_part_2_of_2-b8e7a63a.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-b8e7a63afb21](TREE253_K2_CHECKPOINT40_NATIVE00_EXACT_RECOVERED_Recovery_capsule_part_2_of_2-b8e7a63a.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-b97c89294868](H5-frontier-before-seven-turn-and-central-floor-integration-b97c8929.md) | H5: paired reflection and sharper actual-metric coverage |
 | [material-b9a080a95e0a](op_material_rollout_minimum_20260914-materials-3-b9a080a9.md) | Preserved span 275 (literal-source) |
 | [material-b9f00fe751e0](COORD_V20_Recovery_capsule_part_2_of_3_inputs-b9f00fe7.md) | COORD_V20 recovery capsule part 2 of 3: three exact rational convex hulls |
@@ -881,7 +881,7 @@
 | [material-cf75f3a88147](UNIFORM_AFFINE_SIMPLEX_COMPACTIFICATION_110_V1-cf75f3a8.md) | UNIFORM_AFFINE_SIMPLEX_COMPACTIFICATION_110_V1 |
 | [material-cfdc14d700d7](root_fibre_exact-py-cfdc14d7.md) | """ROOT_FOOT_QUADRATIC_ELIMINATION_AND_ACTUAL_HULL_GAP_V1. |
 | [material-d01ffcf04ad0](normal_profile_exact-py-d01ffcf0.md) | Exact integral of z**moment * (r+(1-r)*z)**power on [0,1]. |
-| [material-d07c29b1631a](TREE253_K2_checkpoint40_native00_Recovery_capsule_part_2_of_2-d07c29b1.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-d07c29b1631a](TREE253_K2_checkpoint40_native00_Recovery_capsule_part_2_of_2-d07c29b1.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-d0866dbf849c](ALL_AFFINE_SIMPLEX_MOMENT_V1_complete_pinned_common_root_adapter-py-d0866dbf.md) | """Complete pinned adapter: common-root certificates with affine-simplex moments. |
 | [material-d0d487cbc4cf](H5_COMPLETE_WEAK_SHEAR_V2_AND_FREE_CENTRE_CONTROL_source-d0d487cb.md) | H5 complete weak-stratum shear decision V2 and positive free-centre control |
 | [material-d0dde9fb9451](PROJECTIVE_13749_SHAPE_THICKENING_V1__Recovery_part_2_of_2-d0dde9fb.md) | Recovery capsule part 2/2 — PROJECTIVE_13749_SHAPE_THICKENING_V1 |
@@ -949,7 +949,7 @@
 | [material-dc072dfffa56](J84_RADIUS_ORDERED_CHORD_BOUND_AND_METHOD-dc072dff.md) | J84 radius-ordered chord witnesses: quantitative control of radial persistence |
 | [material-dc231464476b](ACTUAL_VERTEX_STAR_MASS_INERTIA_V1-complete-exact-audit-adapter-dc231464.md) | """Exact actual-covariance/star-mass inequalities on two distinct E17 controls.""" |
 | [material-dc6d8d69f00d](RESERVE31_REFERENCE110_AND_INNER_CENTROID_BOUND_V1-dc6d8d69.md) | RESERVE31_REFERENCE110_AND_INNER_CENTROID_BOUND_V1 |
-| [material-dcb085f0f1ef](TREE253_native4_V1_Recovery_capsule_part_2_of_3_source_suffix-dcb085f0.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-dcb085f0f1ef](TREE253_native4_V1_Recovery_capsule_part_2_of_3_source_suffix-dcb085f0.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-dcca7d113e90](C126_WIDE_FOUR_GRIDS_EXACT_AB_RECOVERY_V1-dcca7d11.md) | C126_WIDE_FOUR_GRIDS_EXACT_AB_RECOVERY_V1 |
 | [material-dcf2cf5c0aa9](FIRST_LAYER_23_VARIABLE_CLOSED_ATLAS_AND_REALIZATION_REGULARITY_V1-dcf2cf5c.md) | FIRST_LAYER_23_VARIABLE_CLOSED_ATLAS_AND_REALIZATION_REGULARITY_V1 |
 | [material-dcf92edaf8ab](E17_PROJECTIVE_BOUNDARY_COMPACTNESS_AND_TWO_CAP_TOTAL_COLLAR_V1-dcf92eda.md) | E17_PROJECTIVE_BOUNDARY_COMPACTNESS_AND_TWO_CAP_TOTAL_COLLAR_V1 |
@@ -1044,7 +1044,7 @@
 | [material-f0bffb1fb754](C508_LOW121_exact_radial_cuts_and_Hausdorff_bounds-f0bffb1f.md) | Exact radial basins and quantitative centred-Hausdorff obstruction |
 | [material-f0e7529ccae5](DLV-pole-recovery-part-2-of-2-code-f0e7529c.md) | DLV pole recovery capsule part2/2: complete exact executable |
 | [material-f1277a6ae6c2](COORD_IMPLICIT_CAP_SCOPED_DELTA16_Recovery_capsule_part_3_of_5-f1277a6a.md) | Recovery capsule part 3/5 — COORD_IMPLICIT_CAP_SCOPED_DELTA16_V1 |
-| [material-f1c3d0a58e1c](TREE253_K2_CHECKPOINT40_NATIVE01_EXACT_RECOVERED_Recovery_capsule_part_2_of_2-f1c3d0a5.md) | [An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.] |
+| [material-f1c3d0a58e1c](TREE253_K2_CHECKPOINT40_NATIVE01_EXACT_RECOVERED_Recovery_capsule_part_2_of_2-f1c3d0a5.md) | [Encoded source block omitted; the code in this passage is incomplete.] |
 | [material-f27875d4eb6e](PROJECTIVE_CENTERING_WINDOW_V1-Recovery-capsule-part-1-of-2-complete-exact-projective_wind-f27875d4.md) | """Exact actual-body controls for PROJECTIVE_CENTERING_WINDOW_V1. |
 | [material-f29fd032681d](C114_ORBIT_RECOVERY_PART_1_OF_4-f29fd032.md) | C114 own-centroid projective-affine numerical search — Recovery capsule part 1/4 |
 | [material-f2a68b1ff971](TWO_APEX_DEG5_COMPLEMENTARY_CHAIN_CLOSURE_V1-complete-theorem-and-exact-dependencies-f2a68b1f.md) | TWO_APEX_DEG5_COMPLEMENTARY_CHAIN_CLOSURE_V1 |

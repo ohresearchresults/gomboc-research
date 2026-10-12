@@ -1,8 +1,6 @@
 # figure-0596
 
-Historical AI scientific report · saved 2026-09-28 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-28 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -257,7 +255,7 @@ For bounded execution calls, exact stages are `parent_mass`, `parent_cores`, `bo
 Observed markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The33-file decoded delta is102693 bytes, SHA256 `32de16ca5b65d534cbd8933774e242b09f071e54692d0c48cb904c1816bd2c39`. The complete capsule is39235 bytes, SHA256 `109d689484aa394f89abff5d6f4aa5177e85d690de7da994deb073fae2bdbcd3`. Every source/input member has an enforced byte/hash receipt; `MANIFEST27F.json` contains all54 expected output receipts.

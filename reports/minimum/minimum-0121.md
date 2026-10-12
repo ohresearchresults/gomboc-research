@@ -1,8 +1,6 @@
 # minimum-0121
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -397,7 +395,7 @@ Exact pins:
 Exact stdout:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     free_vertex_four_a.json 181974 e88a440b55d6fd58eb3a684945c47f9a6dccbaeff148b64ee30297e65cc507d6
     FREE_VERTEX_FOUR_A_AFFINE_SHAPE_REGULARIZATION_RECOVERY_PASS

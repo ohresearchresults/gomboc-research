@@ -1,8 +1,6 @@
 # material-c9c1bf3a5fcf
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -37,4 +35,4 @@ print("QUOTIENT_FINITE_DATA_V1_COMPLETE_SOURCE_RECOVERED",len(d),flush=True)
 ## Ordered payload
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

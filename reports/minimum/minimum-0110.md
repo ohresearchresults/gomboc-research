@@ -1,8 +1,6 @@
 # minimum-0110
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; mathematical-brackets-escaped-for-markdown; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -408,7 +406,7 @@ python tetra_four.py verify
 Полный stdout assemble/verify:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Полная диагностическая оболочка завершённого check3, без изменения формул или данных:
@@ -447,7 +445,7 @@ a.main()
 Прежний полный метод после восстановления запускается штатно `python four_vf_sectors.py build|check PART` для PART0..6 и assemble|verify; это команды восстановления, не утверждение нового полного повторения всех его старых частей.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Граница буквальной передачи:** приведённый выше DATA-поток в этом сообщении не содержит полного проверенного19216-символьного пакета и не должен использоваться как рабочая recovery. Исполнимые полные байты действительно существуют и проверены в приложенном recover_tetra.py, но это сообщение не является достаточной source-only капсулой без приложения. Поэтому вычислительные successor-объекты здесь следует считать не закрытыми по требованию автономной буквальной передачи; аналитические доказательства, точные геометрические входы, формулы дуг и свидетельства исполнения выше сохраняют самостоятельный смысл. Не заменять эту оговорку предположением, что усечённый DATA декодируется с указанными pins.

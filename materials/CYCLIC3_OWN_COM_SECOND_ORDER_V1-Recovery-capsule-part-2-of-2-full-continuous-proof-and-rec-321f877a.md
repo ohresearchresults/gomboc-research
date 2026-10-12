@@ -1,8 +1,6 @@
 # material-321f877abafa
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -193,7 +191,7 @@ Expected reproduced file cyclic3_own_com.json:110019bytes, SHA256 c2f96e68a25eb4
 Both build_stdout.txt and check_stdout.txt are437bytes, SHA25672469bce32d13f228a0708484044421bf8a20ed2f0e324a78a68bbfda6624408. Their complete contents are:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 CYCLIC3_OWN_COM_SECOND_ORDER_RECOVERY_PASS
 

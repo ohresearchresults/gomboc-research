@@ -1,8 +1,6 @@
 # material-8f2e17ae3d9e
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -11,7 +9,7 @@ Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-bloc
 Final base64 characters [31200,38464). The ordered first four materials are [internal-source-reference], [internal-source-reference], [internal-source-reference], [internal-source-reference]. All five parts plus the four exact Bright COMPLETE33 dependency parts named in part1 are required. Canonical accepted own110 remains C622. These are four independent fully audited nonwinners and reusable methods, not an improved Gömböc.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ## Literal decoder

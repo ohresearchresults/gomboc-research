@@ -1,8 +1,6 @@
 # figure-0224
 
-Historical AI scientific report · saved 2026-09-02 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -450,7 +448,7 @@ The package contains six replay layers:
 The aggregate deterministic replay ends with
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The OBJ contains 17 vertices and 30 outward triangles; its 45 edge classes each have multiplicity two. The STL has the same 30 facets.

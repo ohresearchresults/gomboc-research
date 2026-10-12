@@ -1,8 +1,6 @@
 # minimum-0108
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -627,7 +625,7 @@ python -S recover_trace_extension.py check trace_replay
 Различие последних stdout — последнее слово build/check, не математические данные. Отдельные stdout первого и второго source имеют 432 и 416 байт соответственно. Реально получены все следующие маркеры:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Recovery-проверки удостоверяют полные коэффициенты, целые входные тела и перечисленные точные вычисления. Непрерывные геометрические теоремы доказаны в §§3–7; это не proof-assistant формализация и не вывод универсальности из числа контролей.

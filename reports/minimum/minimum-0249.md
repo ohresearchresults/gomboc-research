@@ -1,8 +1,6 @@
 # minimum-0249
 
-Historical AI scientific report · saved 2026-09-26 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-26 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -312,7 +310,7 @@ Expected principal terminal markers, besides one PASS per cell:
 The following unabridged standard-library capsule contains the readable verifier and every exact checkpoint integer. Both reconstructed files are hash-checked before execution.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Supplementary copies: [complete recovery capsule](sandbox:/mnt/data/recover_h5_all_taper.py), [readable exact verifier](sandbox:/mnt/data/h5_taper_allroot.py), [literal checkpoint](sandbox:/mnt/data/h5_taper_checkpoint.json), [exact report](sandbox:/mnt/data/h5_taper_allroot_report.json), and [recovery bundle](sandbox:/mnt/data/h5_all_taper_recovery.zip). The embedded capsule reconstructs every proof input without these files.

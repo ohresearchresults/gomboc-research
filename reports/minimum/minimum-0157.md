@@ -1,8 +1,6 @@
 # minimum-0157
 
-Historical AI scientific report · saved 2026-09-21 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-21 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -415,11 +413,11 @@ Executed new environment: CPython3.13.5, standard library only. Exact pins:
 Expected new terminal markers include
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Transport limitation:** the inline DATA in this response is incomplete and cannot reconstruct the pinned sources. Accordingly, despite the completed local exact computations, this response does not meet the requested self-contained source-transport requirement and must not be treated as a durable computational successor based on its inline capsule. The complete original and new bytes are present in the actual supplemental artifacts: [readable complete handoff](sandbox:/mnt/data/asymmetric_b8_handoff.md), [source units and exact reports](sandbox:/mnt/data/asymmetric_b8_handoff.zip), [complete JSON handoff with the full capsule](sandbox:/mnt/data/asymmetric_b8_result.json). The mathematical statements above have the stated locally executed exact-verification status; their finite certificate remains dependent on those supplemental bytes until the full capsule is incorporated into durable working memory.

@@ -1,8 +1,6 @@
 # material-1f94de90dca7
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -84,4 +82,4 @@ Reconstruction: save the complete RECOVER_NONLOCAL_SPLIT.py from part1 and run `
 
 BEGIN_NONLOCAL_PART_2
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

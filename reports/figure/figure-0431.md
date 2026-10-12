@@ -1,8 +1,6 @@
 # figure-0431
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -164,4 +162,4 @@ L=Σ_{i≠8} min(max_{j≠i}(Q_i·Q_j/|Q_i|²−1)−ε,0)².
 Дополнительные удобные копии: [скрипт восстановления](sandbox:/mnt/data/RECOVER_NC21.py), [все исходники ZIP](sandbox:/mnt/data/NC21_COMPLETE_SOURCE.zip), [сводная таблица](sandbox:/mnt/data/NC21_TABLE.md). ZIP162944 байта, SHA-256 a54957edb7c49a581eb3ae826c8e324252bef54027c5510dd035f63aef7da18b. Ссылки не являются единственным способом восстановления: полный скрипт находится далее.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

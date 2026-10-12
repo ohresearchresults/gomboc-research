@@ -1,8 +1,6 @@
 # material-f31279b6749c
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -25,4 +23,4 @@ Save the following complete code as recover_checkpoint6.py, UTF-8/LF with termin
 The numerical locator is also preserved completely, but is not imported during exact verification. Observed environment CPython3.13.5, numpy2.3.5, scipy1.17.0, one BLAS thread through threadpoolctl. For original index4 root4, the eigen-cut LP locator was used; the other five used the convex smoothed minimum-eigenvalue locator with temperatures (.1,.03,.01,.003,.001,.0003,.0001), at most1500 L-BFGS-B iterations per temperature, box bounds given in the complete code, zero initial point and no randomness. Coefficients were rounded to integers at scale2^24 and accepted only after exact verification. Re-running a floating locator need not reproduce identical coefficient bytes; the literal accepted integer checkpoint, independent of the locator, is included losslessly. Unsuccessful locator attempts are UNKNOWN, not exclusions. No upper bound or minimum is claimed.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

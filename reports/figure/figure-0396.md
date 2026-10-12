@@ -1,8 +1,6 @@
 # figure-0396
 
-Historical AI scientific report · saved 2026-09-17 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-17 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -87,7 +85,7 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -B NEW_SOURCE/cl63/OPTIONAL_NUME
 Exact:CPython3.13.5 standard library, assertions enabled. Numerical:NumPy2.3.5,SciPy1.17.0,binary64,one BLAS/OMP thread. No random seed is needed for these commands; all nondefault parameters and ties-to-even rounding rules are encoded.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 [Complete source and exact audit reports](sandbox:/mnt/data/CL63_COMPLETE.zip)

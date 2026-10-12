@@ -1,8 +1,6 @@
 # figure-0277
 
-Historical AI scientific report · saved 2026-09-03 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -239,7 +237,7 @@ Scale every parent row by `1/64` and every future row by `1/65536` to obtain the
 Endpoint Q is one convex full-dimensional 3-ball. Coning its complete 32-triangle boundary from exact interior origin gives the complete decomposition:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Every tetrahedron has positive exact volume; total cell volume is `14552727998474757803909/6917529027641081856>0`, and minimum tetrahedron volume is `4443919386052849/6917529027641081856>0`.

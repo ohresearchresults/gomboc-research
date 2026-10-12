@@ -1,8 +1,6 @@
 # Research collections
 
-The directories below retain their scientific layout. Code and smaller records are browsable in Git; the downloads add the complete selected numerical files at the same relative paths.
-
-Historical labels such as “current best”, “accepted” or “proof” describe the original report. They are not a present-day endorsement of every claim. The freshly checked reference is [C622](../C622/README.md).
+Browse code and reports below. [Downloads](downloads.md) add numerical data at the same relative paths. Start with [C622](../C622/README.md) for a self-contained construction and exact verification program.
 
 | Collection | Files | MiB | Browse |
 | --- | ---: | ---: | --- |
@@ -98,6 +96,6 @@ Historical labels such as “current best”, “accepted” or “proof” desc
 | minimum | 3 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/recovered/minimum/op_minimum_height_variation_handoff_source_preserve_20260928T0309Z/facet_height_variations_exact.py) |
 | workflow-20260925 | 29 | 1.7 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/recovered/workflow-20260925/RECOVER_RA40.py) |
 
-Exact file coverage and public-byte hashes: [files.jsonl](files.jsonl). Each entry states whether it is in the Git checkout or requires its named download. Historical source completeness has not been established for every experiment.
+[files.jsonl](files.jsonl) lists file sizes, SHA-256 hashes and download locations. [Coverage](coverage.md) describes verification status and missing material.
 
 [Saved AI reports](../reports/README.md) · [Research branches](branches.md) · [Downloads](downloads.md) · [Chronology](chronology.md)

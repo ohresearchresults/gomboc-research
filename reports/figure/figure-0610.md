@@ -1,8 +1,6 @@
 # figure-0610
 
-Historical AI scientific report · saved 2026-09-29 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-29 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -299,7 +297,7 @@ Exact stages use Python3.13.5 standard library and g++14.2.0/C++17/GMP6.3.0. Num
 Observed terminal markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Selected exact receipts:
@@ -325,4 +323,4 @@ Supplementary copies: [complete new delta](sandbox:/mnt/data/KF27J_DELTA.py), [n
 ## 7. Complete literal new-source/input delta
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

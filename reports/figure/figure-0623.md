@@ -1,8 +1,6 @@
 # figure-0623
 
-Historical AI scientific report · saved 2026-09-29 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-29 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -235,7 +233,7 @@ The next substantive construction should jointly change the connected saddle/ret
 ## Complete literal selected-source capsule
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Supplementary exact copies: [KL13F source recovery](sandbox:/mnt/data/KL13F_RECOVER.py), [full source-bearing JSON](sandbox:/mnt/data/KL13F_RESULT.json), and [working handoff archive](sandbox:/mnt/data/KL13F_HANDOFF.zip). The inline capsule, rather than those links, supplies the selected recovery bytes.

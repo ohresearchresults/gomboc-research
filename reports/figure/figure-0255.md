@@ -1,8 +1,6 @@
 # figure-0255
 
-Historical AI scientific report · saved 2026-09-03 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -345,7 +343,7 @@ This is the exact scoped obstruction:
 The replay suite independently produces these terminal markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The GMP verifier [verify_exact_hull_gmp.cpp](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/verify_exact_hull_gmp.cpp) enumerates all `C(76,3)=70,300` triples and performs 1,218,350 exact support-sign checks, recovering 120 maximal faces and 187 true edges.

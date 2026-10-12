@@ -1,8 +1,6 @@
 # figure-0400
 
-Historical AI scientific report · saved 2026-09-17 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-17 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -183,7 +181,7 @@ Do not use `-O`. The decoder recovers51 files and verifies all50 manifest entrie
 Dictionary233652bytes SHA7f00138c4a87b5874e8becb2e2d188fdf5fbda47941c23029d589a35ea0bd67c; XZ58512bytes SHA8984209562095a08ad2c3937b5c908d66a4caa9d05b0afa420c97a95f544b94d; base6478016characters SHAced4bd9f0c7eb37b688f210b6d5b1ca590aaba2cac36a575f6747eae8f3c8342. Decoder79983bytes SHA0ee31362550f8348e361123436ffc6ea72c0f385f2c59f251a38e43bc66fdbb9. Both the selected-source cold replay and a separate decode-to-new-directory replay completed with `VF97_COLD_SOURCE_ONLY_THREE_PARENTS_FOUR_NONWINNERS_AB_MASS_ALL_CERTIFICATES_PASS 5519 c2c2911210ec4ee5f0d2d45ad5671ccac2f566e2409aa28c05bcd63079b9f751`. Their final report bytes matched. All continuation-critical arrays, generators, exact new rows, production and verification helpers are included below; the supplemental files are not dependencies.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Supplemental copies: [standalone decoder](sandbox:/mnt/data/RECOVER_VF97.py), [complete source, exact reports and working evidence](sandbox:/mnt/data/VF97_COMPLETE_RESEARCH.zip), and [the same complete handoff JSON](sandbox:/mnt/data/VF97_RESULT.json). These downloads are conveniences; the capsule above is sufficient.

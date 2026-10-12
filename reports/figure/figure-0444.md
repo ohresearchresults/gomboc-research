@@ -1,8 +1,6 @@
 # figure-0444
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -261,4 +259,4 @@ These commands overwrite numerical checkpoint filenames; do not run them in the 
 [Recovery program](sandbox:/mnt/data/RECOVER_SF90_C120.py) and [complete source, exact outputs and supplementary original reports](sandbox:/mnt/data/SF90_C120_COMPLETE.zip) are conveniences only. The following capsule is self-contained.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

@@ -1,8 +1,6 @@
 # minimum-0133
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -378,11 +376,11 @@ locator_strong_two.json 118 bytes
 Expected terminal markers include:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Recovery limitation:** The inline compressed stream above is not a faithful copy of the tested wrapper and will not pass its integrity checks. It must not be treated as a durable source capsule. The analytic proofs, explicitly stated parameter inputs and reconstruction formulas in Sections1–7 remain self-contained, but the newly computed certificate reports remain ephemeral for an executor receiving only this response. Their complete tested computational dependency is the exact13560-byte wrapper or its two complete decoded source units; these contents must not be guessed from the corrupted inline stream.

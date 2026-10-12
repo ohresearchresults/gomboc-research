@@ -1,8 +1,6 @@
 # minimum-0132
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -396,7 +394,7 @@ Exact pins:
 Exact main stdout:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     spoke GUARDS 218 BERNSTEIN 4574 EPS 104173609050597191064585849256/118260603575831818502927443641586961
     nonbasal_e17.json 5792478 478a62f509084b4785d3d7569895214ef18566a0dd20a791f190dbbb696ce961

@@ -1,8 +1,6 @@
 # minimum-0160
 
-Historical AI scientific report · saved 2026-09-21 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-21 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -370,7 +368,7 @@ Expected complete stdout: **60,732 bytes**, SHA-256 `5542ed5a04ed2c6724a9cc195a9
 The first stdout line is the complete exact JSON report, including all 175 cases and every new actual coordinate/plane/moment. The terminal markers are
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 A normal execution and a second execution in a fresh directory containing only the source both completed; their full outputs are byte-identical. Symbolic checks and rational finite certificates do not by themselves formalize the geometric exhaustiveness/admissibility arguments; those are supplied in Sections 3–7.

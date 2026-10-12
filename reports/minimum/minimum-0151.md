@@ -1,8 +1,6 @@
 # minimum-0151
 
-Historical AI scientific report · saved 2026-09-21 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-21 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -327,13 +325,13 @@ python -S recover_central_b8.py check
 Ключевые ожидаемые маркеры:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Полная капсула следует без пропусков.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Обязательная граница сохранности:** приведённое выше поле DATA в этой ответной транскрипции не содержит полного 25544-символьного потока и не восстанавливает заявленный объект. Поэтому данный ответ НЕ является полной самодостаточной recovery-капсулой конечного сертификата; нельзя считать точный вычислительный объект долговечным преемником только по этому inline-блоку. Полные фактически выполненные байты сохранены в дополнительных файлах: [полный читаемый результат с полным потоком](sandbox:/mnt/data/central_b8_handoff.md), [капсула, два исходника и точные отчёты](sandbox:/mnt/data/central_b8_handoff.zip), [полный JSON результата](sandbox:/mnt/data/central_b8_result.json), [полный проверенный wrapper](sandbox:/mnt/data/recover_central_b8.py). Аналитические формулировки и доказательные переходы выше сохраняются; конечная PD-часть имеет статус выполненного точного вычисления, но без полного потока в собираемом тексте её самодостаточная долговечная передача здесь не выполнена.

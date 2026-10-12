@@ -1,8 +1,6 @@
 # minimum-0178
 
-Historical AI scientific report · saved 2026-09-22 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; runtime-path-removed; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -398,7 +396,7 @@ Complete expected stdout:
     U_CHART_ENDPOINT_ELIMINATION_AND_MONOTONICITY_IDENTITIES_PASS
     GLOBAL_SOS_14_P_PLUS_6_Q_MINUS_R_PASS
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     U_mixed T=5374273708344352525/3838421850974805261 GD/r=75088313107502860279711607/1799242245614526488613593893
     U_both_negative T=51633397849952286673900/37485200752072113976791 GD/r=-56808876852835876700371460281337/1033370218555175692228106025518337
@@ -411,7 +409,7 @@ Normal execution and a separate empty-directory source-only execution were actua
 The search for a hinge determinant was not resumed. The useful connection was the actual joint first-moment budget (J) with the parent's full-t cone bound. Exact polynomial elimination and an exact choice of positive multipliers produced (I); the complete identity, rather than success or failure of a numerical search, proves the continuous exclusion.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ## 11. Scope and unresolved minimum

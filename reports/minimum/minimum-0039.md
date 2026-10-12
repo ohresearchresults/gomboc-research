@@ -1,8 +1,6 @@
 # minimum-0039
 
-Historical AI scientific report · saved 2026-09-10 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-10 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -313,7 +311,7 @@ python -S provenance.py '/path/to/research-journal(3).md' '/path/to/research-jou
 Those journal files are needed only for that optional historical extraction audit, **not** for reconstruction or verification of the root3 theorem.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ## 8. Exact root transport and what is not transported

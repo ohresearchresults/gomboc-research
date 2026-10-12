@@ -1,8 +1,6 @@
 # material-f1277a6ae6c2
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -11,4 +9,4 @@ Public derivative: unreviewed-encoded-blocks-omitted.
 Continuation of the same object, base64 characters [15600,23400). All five parts and the four BQ13_D100_COMPLETE33 dependency parts named in part1 are required. This part is not independently decodable.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

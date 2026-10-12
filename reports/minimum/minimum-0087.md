@@ -1,8 +1,6 @@
 # minimum-0087
 
-Historical AI scientific report · saved 2026-09-18 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-18 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -379,7 +377,7 @@ Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded
 Ожидаемые итоговые маркеры:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 Дополнительные копии: [recovery-капсула](sandbox:/mnt/data/recover_h0.py), [читаемый полный исходник](sandbox:/mnt/data/h0_weak_packets.py), [исходники и точный отчёт](sandbox:/mnt/data/H0_NERVE129_WEAK_PACKETS_VERIFIED.zip). ZIP: 554334 байта, SHA256 **1a1b3d3781088ea449f54e65eb7a6211b792462c213dcc001e42f3520dddb8e8**. Эти файлы дополняют, но не заменяют все буквально включённые ниже recovery-данные.
 

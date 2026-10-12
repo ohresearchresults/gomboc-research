@@ -1,8 +1,6 @@
 # minimum-0088
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -318,7 +316,7 @@ python -S recover_e17_fixed_mass.py check
 Ожидаемый полный вывод капсулы:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Дополнительные удобные копии: [читаемый полный аудитор](sandbox:/mnt/data/e17_fixed_mass/e17_fixed_mass.py), [точный отчёт](sandbox:/mnt/data/e17_fixed_mass/e17_fixed_mass.json), [source-only капсула](sandbox:/mnt/data/e17_fixed_mass/recover_e17_fixed_mass.py). Восстановление не зависит от этих ссылок.

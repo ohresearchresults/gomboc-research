@@ -1,8 +1,6 @@
 # minimum-0040
 
-Historical AI scientific report · saved 2026-09-10 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-10 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -372,7 +370,7 @@ Order: case index 0 through 11, selected rows in their literal order, then w in 
 Observed decisive terminal markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Supplementary [new complete proof checkpoint](sandbox:/mnt/data/NOVA24_F9_11_SHADOW_FRAMES_V1.zip): **131155 bytes**, SHA-256 `fd0c6cda92dba1b474cd43376b0a91f1e93280e580151b98264169d7e7ab7848`. The archive is optional; all inputs, generator, independent checker, coverage reconstruction and deletion audit are included literally below.

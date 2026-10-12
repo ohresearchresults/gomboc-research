@@ -1,8 +1,6 @@
 # minimum-0124
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -340,7 +338,7 @@ Both the plain-source build/check and a fresh **capsule-only** cold build/check 
 Exact main stdout:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     endpoint_cover_four_a.json 150447 ea4908a282bf818cf70632051814370c9806deb5054496b819a7484a8e60de6f
     ENDPOINT_COVER_FOUR_A_RECOVERY_PASS

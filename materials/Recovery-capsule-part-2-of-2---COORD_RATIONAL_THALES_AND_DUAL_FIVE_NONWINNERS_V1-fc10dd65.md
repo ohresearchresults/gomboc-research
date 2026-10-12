@@ -1,8 +1,6 @@
 # material-fc10dd6556d7
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -13,4 +11,4 @@ Both parts are mandatory and ordered 1,2. Self-contained 18-file exact source di
 Save this part's text block as RATIONAL_THALES_VERIFIED_2.b64 (whitespace ignored). Payload in this part: 11396 ASCII bytes, SHA256 71a98314bc5c81cd15ed1a94fd5d3bd6ceabd47c48d07f26909734615f2005cb.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

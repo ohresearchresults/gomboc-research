@@ -1,8 +1,6 @@
 # Saved scientific reports
 
-898 AI-authored scientific reports are available in their original language. These are dated research outputs, including unsuccessful and later superseded arguments. They are not a collection of accepted theorems.
-
-Each public derivative identifies removals or substitutions. Human prompts, correspondence, account records and unrelated research are excluded. Encoded source blocks without a complete content review are omitted explicitly; the remaining text is not presented as a runnable replacement for them.
+898 AI research reports from the Figure and Minimum searches, in their original language. They include experiments, proof attempts and negative results. [Coverage](../catalog/coverage.md) summarizes verification status and export notes.
 
 [Browse and search the catalog](https://ohresearchresults.github.io/gomboc-research/) · [Machine-readable index](../catalog/reports.json)
 

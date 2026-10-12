@@ -1,8 +1,6 @@
 # minimum-0148
 
-Historical AI scientific report · saved 2026-09-21 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-21 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -234,7 +232,7 @@ Primary output pins:
 The decoded source-map is56639 bytes, SHA `6b568f88e04a6244b9e666b8ea035a509ec4c01e2ba83c74d9a951a971a29364`. The displayed recovery source is28540 bytes with one final LF, SHA `d3d5e2bed911f01cf1a110e1d6ac6edc34be4bc991bbccf2649e6c845b030aee`.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Convenience copies supplement, rather than replace, the embedded recovery: [recovery source](sandbox:/mnt/data/recover_forest_barrier.py), [exact matrix certificates](sandbox:/mnt/data/locked/FOREST_BARRIERS.json), [exact control report](sandbox:/mnt/data/locked/LOCAL_CONTROL_REPORT.json), and [complete new hull/mass/physical audit](sandbox:/mnt/data/locked/local_A.json).

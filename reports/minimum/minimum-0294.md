@@ -1,8 +1,6 @@
 # minimum-0294
 
-Historical AI scientific report · saved 2026-09-28 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-28 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -559,7 +557,7 @@ SOURCE_ONLY_RECOVERY_ALL_EXACT_PINS_PASS
 ```
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Exact transport correction for the preceding encoded block:** before running it, replace the three damaged DATA substrings `cmu+1dZbnsDFV54` with `cmu+1dZsnsDFV54`, `pDsbjRsbjRDCnN1Z` with `pDsbjRDCnN1Z`, and `XEBE3jE3TV/gN1Z` with `XEBE3TV/gN1Z`. These replacements restore the byte-pinned capsule whose complete authoritative copy is embedded in the linked Markdown handoff and recovery script. The payload hash check prevents accepting any remaining transport error.

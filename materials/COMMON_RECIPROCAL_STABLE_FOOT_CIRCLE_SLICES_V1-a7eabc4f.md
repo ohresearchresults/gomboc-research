@@ -1,8 +1,6 @@
 # material-a7eabc4fb074
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -182,7 +180,7 @@ Execution used CPython3.13.5 with assertions, standard library only for build/ch
 Expected markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 common_metric_slice.json:606110 bytes, SHA ca14bd96a6e4af63237744068c689c3ea9befe6ea7efe1ca6193e0e1d2145c62. Complete source is stored separately; this proof does not require rerunning its numerical locator. Source-only reconstruction, not this output hash alone, preserves the controls. No upper/lower bound is advanced by them.
 

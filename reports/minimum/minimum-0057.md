@@ -1,8 +1,6 @@
 # minimum-0057
 
-Historical AI scientific report · saved 2026-09-11 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -491,7 +489,7 @@ if '--full'in sys.argv or '--check'in sys.argv:
 **Observed recovery.** The source tree was run from an empty directory: original inputs and the83-type checkpoint were rebuilt, all nine coefficient groups regenerated, and all650 records assembled byte-identically. The decoded capsule sources matched those executed. The final capsule's `--check` path then reran exact verification, the independent retained-row comparison, actual366 checks and the375 attainer. All ten output pins matched. Observed terminal markers were:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Remaining barrier and continuation.** No broom or weak-wall obligation remains inside the nine new whole-type exclusions. The74 retained types remain unexcluded; surviving combinatorial domains do not establish physical feasibility. The next small direct genuine-facet targets are:

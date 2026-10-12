@@ -1,8 +1,6 @@
 # figure-0575
 
-Historical AI scientific report · saved 2026-09-27 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-27 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -236,4 +234,4 @@ Checkpoint — полный1880-байтовый73×3 float64 NPY, SHA256 `8f13b
 ## 8. Полная source capsule
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

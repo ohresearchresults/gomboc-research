@@ -1,8 +1,6 @@
 # minimum-0223
 
-Historical AI scientific report · saved 2026-09-24 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-24 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -553,7 +551,7 @@ The decoded canonical row/cell JSON has262746bytes,SHA `60c883536a08438486997e50
 Observed terminal output:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Additional observed marker:
@@ -565,7 +563,7 @@ PYTHON_GMP_CPP_ALL_FIRST_CELL_COEFFICIENT_MINIMA_MATCH 5084058
 ### Complete source-only capsule
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Convenience copies: [complete recovery capsule](sandbox:/mnt/data/recover_two_cap_wedge.py), [exact report](sandbox:/mnt/data/wedge_final/two_cap_wedge.json). The embedded capsule and proof suffice without these links.

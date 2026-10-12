@@ -1,8 +1,6 @@
 # minimum-0115
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -537,7 +535,7 @@ A clean source-only build and check were actually executed in a new directory. T
 Actual terminal markers include
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 These receipts verify the finite algebra, complete interval certificates and actual constructions. They do not turn the accepted mathematical premises into newly replayed proofs, or formalize the continuous geometric argument in a proof assistant.

@@ -1,8 +1,6 @@
 # figure-0317
 
-Historical AI scientific report · saved 2026-09-05 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-05 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -412,7 +410,7 @@ if __name__=='__main__':main(*sys.argv[1:])
 ## Appendix B — complete absolute coordinates and triangles
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Final result: an exactly homogeneous own-centred strict (1,1,0) convex polyhedron with (V,E,F)=(2033,6090,4059) and C12180. The C<1000 objective remains open.**

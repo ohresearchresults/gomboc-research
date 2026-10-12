@@ -1,8 +1,6 @@
 # figure-0312
 
-Historical AI scientific report · saved 2026-09-05 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-05 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -167,7 +165,7 @@ Recover the exact involution r from the coefficient quadruples. Form the sorted 
 This retains **76,933 original IDs**. Replace the two control coordinates as specified next and append four new vertices. The resulting 76,937 points are all extreme.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Correction to the inline transport representation:** the retention mask must be taken from the complete, checksum-validated payload in the accompanying Markdown handoff, not from the incomplete transcription immediately above. The complete literal payload and the exact same coordinate recipe are contained in [the full self-contained handoff](sandbox:/mnt/data/shadow_surgery_result.md), and its machine-readable version is [result JSON](sandbox:/mnt/data/shadow_surgery_result.json). The mask is not a mathematical uncertainty: its complete reconstruction was executed and reproduced the final vertex table byte for byte. The abbreviated block above is not a usable decoder input.

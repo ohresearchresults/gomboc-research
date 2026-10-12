@@ -1,6 +1,6 @@
 # figure-0097
 
-Historical AI scientific report · saved 2026-08-27 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
+AI research report · 2026-08-27 UTC
 
 ---
 

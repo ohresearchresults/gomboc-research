@@ -1,8 +1,6 @@
 # minimum-0302
 
-Historical AI scientific report · saved 2026-09-28 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-28 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -479,7 +477,7 @@ Use new output directories. The observed expansion rediscovery reproduced the em
 Expected terminal markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Exact final source pins:
@@ -532,4 +530,4 @@ These are observed author computations and exact mathematical certificates, not 
 The following is the entire recovery source, not an abbreviated payload. A convenience archive contains the same readable sources, accepted certificates, reports, logs and unverified-search checkpoints, but reconstruction does not require that archive: [source, certificates and evidence bundle](sandbox:/mnt/data/H5_THIRD_BAND_AND_EXPANSION_10_OVER3_U2_V1.zip).
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

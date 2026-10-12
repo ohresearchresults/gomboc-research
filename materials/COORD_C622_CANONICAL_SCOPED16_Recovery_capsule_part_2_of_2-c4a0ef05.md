@@ -1,8 +1,6 @@
 # material-c4a0ef05c360
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -11,7 +9,7 @@ Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-bloc
 Companion part 1 is [internal-source-reference], 15305 UTF-8 bytes, SHA256 d5846089dd79e70e4aa35f67d5d66b8480c3dd72bca1de45359a281931f632aa. This second normalized payload is 13864 ASCII base64 characters, SHA256 a07c9401e26a450fd7fdeb65f99ac82ebee2c88830a1310f0d35844c3c6e570e. Both parts reconstruct canonical VQ20_C622_ROUTE88_118_G12 exactly, not C622_HOMOTOPY_POSITIVE and not a new smaller body.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ## Complete decoder

@@ -1,8 +1,6 @@
 # material-216483bd9ebf
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -27,4 +25,4 @@ print('TWO_SAMEC_EXACT_ENDPOINT_DATA_RECOVERY_PASS')
 Then run `python -B -S REPLAY_TWO.py MATERIAL.md SOURCE NEW_OUTPUT` using the complete code from [internal-source-reference] and the decoded24-file parent source directory. Expected terminal CONDITION25_TWO_SAMEC_EXACT_AB_MASS_GATES_COLD_PASS, with all16body output files byte/hash checked. The two314-element free-coordinate delta arrays reconstruct the exact previously audited H representations; constrained-control placeholder bytes differ from the original full search dump but not the mathematical bodies.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

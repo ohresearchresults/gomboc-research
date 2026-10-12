@@ -1,8 +1,6 @@
 # material-3505388bccd6
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -54,4 +52,4 @@ if __name__=='__main__':main(*sys.argv[1:])
 
 ## PROJECTIVE_TRAP_PAYLOAD_1.b64
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

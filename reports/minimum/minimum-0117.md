@@ -1,8 +1,6 @@
 # minimum-0117
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -437,7 +435,7 @@ cmp build.txt check.txt
 The complete deterministic stdout is:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The actual additional byte-comparison marker was `VERTEX_FOLD_SOURCE_ONLY_COLD_BYTE_PARITY_PASS`. The report includes every pole/edge/primitive, both positive fans, full covariance, all exact Bernstein arrays, all interval bounds, the complete kernel/Jacobian matrices and all three preserved controls. They reconstruct from the following one complete source; a hash or link is not the recovery input.

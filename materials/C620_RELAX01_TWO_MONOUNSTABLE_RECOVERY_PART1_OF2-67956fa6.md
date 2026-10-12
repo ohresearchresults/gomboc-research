@@ -1,8 +1,6 @@
 # material-67956fa6445b
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -27,4 +25,4 @@ Producer recovery: python -B -S package/MAKE_RELAXED_POLAR_SOURCE.py CONTACT_HOM
 
 ## Ordered base64 payload
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

@@ -1,8 +1,6 @@
 # minimum-0186
 
-Historical AI scientific report · saved 2026-09-22 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -308,7 +306,7 @@ python -B -S rebuild_this.py
 **Эта полная source-only реконструкция действительно выполнена в новом каталоге**, заново построив12 actual hull/COM/census и все сертификаты. Последние markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Основные exact output pins; остальные41 полностью перечислены в `VERIFY_THIS.py`:
@@ -329,7 +327,7 @@ Cold transcript1724байта, SHA-256 `0f29a1d2fd43a2222328e1768a4fc0e379faf294
 ### Полный recovery-source
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Удобные копии дополняют буквальную капсулу: [recovery-source](sandbox:/mnt/data/recover_c610_cutset.py), [полный проверенный source/output bundle](sandbox:/mnt/data/c610_cutset_verified_bundle.zip), [cold receipt](sandbox:/mnt/data/C610_COLD_RECEIPT.json).

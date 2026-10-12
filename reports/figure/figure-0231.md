@@ -1,8 +1,6 @@
 # figure-0231
 
-Historical AI scientific report · saved 2026-09-02 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -522,7 +520,7 @@ scripts/verify_mesh.py
 The aggregate replay ends with
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 A clean extraction independently checks all 39 manifested files and reruns the complete package verifier. The OBJ contains 18 vertices and 32 outward triangles; its 48 edge classes all have multiplicity two. The STL has the same 32 facets.

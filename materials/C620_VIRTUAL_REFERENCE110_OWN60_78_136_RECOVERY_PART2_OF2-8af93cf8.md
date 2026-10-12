@@ -1,8 +1,6 @@
 # material-8af93cf87442
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -13,4 +11,4 @@ Continuation of part1 [internal-source-reference], SHA37b39ef0c03f8445ee0b128d25
 Normalize whitespace in this fence:10848characters SHA9ded30de5b2e6763c8d2d521c0cc441285406b1a55caa839f43d0bf2db46e86c. Append after part1's10600characters. Joined21448characters SHA93b19840ceb7882fab3b7ff508914de28391c65daa058e556351d6d7547640ce. Base64 then LZMA decode yields54767bytes UTF8 JSON dictionary SHA11ef22446a8f439be2069aa8d6cc32af478050e19a4283dbd772bd965ce3062f,13complete text files including MANIFEST.json. No coordinate or source row is omitted.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

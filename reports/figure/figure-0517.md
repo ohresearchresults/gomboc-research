@@ -1,8 +1,6 @@
 # figure-0517
 
-Historical AI scientific report · saved 2026-09-23 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-23 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -234,7 +232,7 @@ These cells preserve the reported S/U counts and exclude additional weak S/U ins
 Observed full replay markers include:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The nominal-index adapter changes only the lookup of an already declared root in numerical entry data; its full numerical arrays were checked bitwise. It does not infer a missing point or substitute a different body.

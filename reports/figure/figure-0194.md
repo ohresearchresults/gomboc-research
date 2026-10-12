@@ -1,8 +1,6 @@
 # figure-0194
 
-Historical AI scientific report · saved 2026-09-02 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -318,7 +316,7 @@ Another fixed-cell, metric-only, deletion-only, single cap, or serial diagonal-f
 The aggregate transcript ends with
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ## Artifact map

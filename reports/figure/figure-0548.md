@@ -1,8 +1,6 @@
 # figure-0548
 
-Historical AI scientific report · saved 2026-09-25 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-25 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -293,7 +291,7 @@ check_bars.py
 The shortened exact engine removes unused old arrays and constructors only; its13 retained function bodies are AST-identical to the parent engine, with provenance included. The full inline capsule follows.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Convenience artifacts supplement—not replace—the complete inline recovery: [recovery script](sandbox:/mnt/data/RECOVER_MIXED_RELEASE.py), [all exact reports and interval certificates](sandbox:/mnt/data/MIXED_EXACT_REPORTS.zip), and [original numerical source, pins, and trajectory history](sandbox:/mnt/data/MIXED_FULL_HISTORY.zip).

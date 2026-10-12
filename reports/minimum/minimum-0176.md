@@ -1,8 +1,6 @@
 # minimum-0176
 
-Historical AI scientific report · saved 2026-09-22 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; runtime-path-removed; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -412,7 +410,7 @@ The normal execution and an empty-directory source-only execution were actually 
 Complete expected stdout:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
     U_mixed T=5374273708344352525/3838421850974805261 SUH=(3, 4, 5)
     U_both_negative T=51633397849952286673900/37485200752072113976791 SUH=(3, 4, 5)

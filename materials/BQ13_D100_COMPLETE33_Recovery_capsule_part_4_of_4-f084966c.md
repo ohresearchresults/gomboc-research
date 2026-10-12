@@ -1,8 +1,6 @@
 # material-f084966c6444
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 
@@ -55,4 +53,4 @@ Seven new nonwinners: exact_half5000 and exact_vol717 each V30/E84/F56 C168 own1
 Coordinator cold recovery from the hash-matching Library b64 was executed before preservation and reproduced the seven exact inputs/audits and certificates. That replay establishes source recovery, not an own110 improvement. CERTIFICATES.json output6536bytes SHA256 bb1c7f6b6320af0d4668af75dd9e5399bef3d18568aba9138c5da8a4d1aa8cca. Source capsules and the accepted parent result remain authoritative; accepted record C622 unchanged.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

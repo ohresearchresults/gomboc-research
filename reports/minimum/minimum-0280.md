@@ -1,8 +1,6 @@
 # minimum-0280
 
-Historical AI scientific report · saved 2026-09-27 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-27 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -395,7 +393,7 @@ The decoded six-source JSON map is 53488 bytes, SHA `35cfc6df1cb25cfbaef66cd4e94
 Convenience bundle: [complete certificates, reports, all readable source units and handoff](sandbox:/mnt/data/H5_NINE_MODULI_CERTIFIED_REGIONS_U2_V1.zip). `HANDOFF.md` inside it also contains all six readable programs literally. The following capsule supplies their complete bytes independently of that link.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 ### 8. Remaining frontier

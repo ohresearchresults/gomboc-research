@@ -1,8 +1,6 @@
 # material-f9fa754b9629
 
-Historical AI scientific source/proof material. Statements retain their original scope; this is not an independently reviewed theorem.
-
-Public derivative: internal-record-identifiers-replaced.
+AI research material · [Export notes](../catalog/coverage.md#text-records)
 
 ---
 

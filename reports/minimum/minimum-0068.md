@@ -1,8 +1,6 @@
 # minimum-0068
 
-Historical AI scientific report · saved 2026-09-16 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-16 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -302,7 +300,7 @@ POSITIVE_AFFINE_FLUX_WEIGHT_LINE 3/16384 FALSE_CENTROID -1/256 0 0
 RATIONAL_EUCLIDEAN_E17_RANK8_CLASS_2_2_2_ALL162_NONZERO_PASS
 CLOSED_METRIC_BOX_CLASS_2_2_2_PASS 1/1048576
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Дополнительные копии: [геометрический исходник](sandbox:/mnt/data/affine_rank_work/roof_rank8.py), [символический исходник](sandbox:/mnt/data/affine_rank_work/roof_stratum_symbolic.py), [полный точный JSON](sandbox:/mnt/data/affine_rank_work/roof_rank8.json). Они не заменяют полные блоки ниже.

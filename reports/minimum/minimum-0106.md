@@ -1,8 +1,6 @@
 # minimum-0106
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -429,7 +427,7 @@ python four_vf_sectors.py verify > four_vf_sectors_check.txt
 Каждая часть печатает `FOUR_PHYSICAL_EXACT_PART_PASS k bytes SHA` с соответствующей строкой таблицы. Полный stdout assemble/verify:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Source-only decoder также фактически исполнен; полученный читаемый source совпал побайтно, и его часть0 заново прошла. Упакованные данные имеют8480 байт, SHA c1966759926a8dfdacb4f97fd9cc77bc4241ccd87383492756e7827783a52707. Полный Base64-поток11308 символов содержится в капсуле без пропусков.
@@ -449,7 +447,7 @@ Source-only decoder также фактически исполнен; получ
 Сохранить следующий блок как recover_four.py, UTF-8/LF с последним LF. Это полный источник восстановления, а не ссылка на недоступное содержимое.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Дополнительные проверенные копии: [читаемый полный source](sandbox:/mnt/data/four_contacts/four_vf_sectors.py), [полный exact report](sandbox:/mnt/data/four_contacts/four_vf_sectors.json), [recovery-файл](sandbox:/mnt/data/four_contacts/recover_four.py). Они не являются единственным источником принимаемых теорем или конструкций.

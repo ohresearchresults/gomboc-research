@@ -1,8 +1,6 @@
 # minimum-0109
 
-Historical AI scientific report · saved 2026-09-19 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -186,11 +184,11 @@ python -S recover_vh02.py check cold
 Фактически получены:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 В DATA перед `ie5*&V)` допускается пробельное разбиение: decoder удаляет все whitespace через `''.join(DATA.split())`. Для побайтного совпадения самой обёртки с указанным39257-байтным pin строка должна содержать непрерывно `KP7YZ8RpToPC*trBRlGNhSHPUTpp2Y^zmiKND ie5*&V)` с удалённым единственным пробелом между D и i; на decoded payload и его SHA этот пробел не влияет.

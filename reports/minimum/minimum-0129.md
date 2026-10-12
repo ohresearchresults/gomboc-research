@@ -1,8 +1,6 @@
 # minimum-0129
 
-Historical AI scientific report · saved 2026-09-20 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -335,13 +333,13 @@ fa5e396afeb10cfe675ffd80dac0230adcde2c26d5d1871e41819ba05941b7ac
 Expected terminal markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The generic symbolic identity marker `GENERIC_MOMENT_PLANE_SIDE_FACTOR_AND_PHASE_IDENTITIES_PASS` is stored in the controls report.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 **Capsule transport limitation:** The compressed stream in this response is not complete and must not be used as a durable recovery source. The complete tested 13,001-byte wrapper and the readable exact source exist at the supplemental links below, but links alone do not satisfy the requested recovery contract. Accordingly, the newly computed certificate objects remain **ephemeral for a fresh executor receiving only this response**, despite the executed build/check and the hashes reported above. The analytic formulas, proofs, exact fiber inputs, domain specifications, control parameters and continuation direction in Sections1–9 remain self-contained. A continuation requiring the exact computed certificates needs the complete literal `recover_balanced_quartic.py` or both complete readable source units; their contents must not be guessed from this incomplete stream.

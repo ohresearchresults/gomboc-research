@@ -1,8 +1,6 @@
 # figure-0308
 
-Historical AI scientific report · saved 2026-09-04 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -999,7 +997,7 @@ The archive contains 46 files, including a 45-file SHA-256 manifest. Its size is
 From a fresh extraction, `python -B RUN_ALL.py` checked every frozen hash, executed the complete small-fixture suite in a temporary directory, then checked every frozen hash again. The completed transcript is:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The fixture suite also passed under `python -O`, so disabling assertions does not disable an acceptance gate. The two sources embedded in this handoff were extracted, hash-compared with the packaged scripts, and replayed together separately. All continuation-critical arithmetic, global checks, feature predicates and fixture coordinates are in the immutable text itself.

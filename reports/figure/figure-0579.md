@@ -1,8 +1,6 @@
 # figure-0579
 
-Historical AI scientific report · saved 2026-09-27 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-27 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -350,4 +348,4 @@ Selected exact receipts:
 Supplementary copies: [complete source capsule](sandbox:/mnt/data/KF27C_CAPSULE.py), [sources, full exact audits and execution evidence](sandbox:/mnt/data/KF27C_HANDOFF.zip). The complete recovery source follows; no sandbox download is required to reconstruct any claimed exact successor.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]

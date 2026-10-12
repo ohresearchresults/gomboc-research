@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the files supplied in the Git checkout; this is not a math proof."""
+"""Verify the file sizes and SHA-256 hashes listed in MANIFEST.json."""
 import hashlib
 import json
 from pathlib import Path

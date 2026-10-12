@@ -1,8 +1,6 @@
 # minimum-0073
 
-Historical AI scientific report · saved 2026-09-16 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-16 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -224,7 +222,7 @@ python -S other4303_recovered/normal/normalized.py 612 other4303_recovered/engin
 Полезное продолжение —646 областей489 с простой Q-вершиной9 и шестью настоящими соседними тройками, либо225+338 областей469/479, где оба дальних конца Q обязаны быть непростыми. Для них сохранены реальные разложения и ограниченные координатные системы. Закрытый2900-класс повторно исследовать не требуется.
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 Копии для удобства: [восстановитель](sandbox:/mnt/data/recover_other4303.py), [расширенный Markdown-handoff](sandbox:/mnt/data/other4303_handoff.md), [исходники, точные данные и протоколы](sandbox:/mnt/data/other4303_support.zip).

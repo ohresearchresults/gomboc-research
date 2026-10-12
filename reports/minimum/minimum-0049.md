@@ -1,8 +1,6 @@
 # minimum-0049
 
-Historical AI scientific report · saved 2026-09-11 UTC. Claims below retain their original status and have not all been independently checked. The current retained construction is C622; the C<500 search remains open.
-
-Public text derivative: internal-record-identifiers-replaced; unreviewed-encoded-blocks-omitted.
+AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
 ---
 
@@ -193,7 +191,7 @@ The observed build environment is CPython 3.12.14, NumPy 2.3.5, SciPy 1.17.0, Op
 Both complete commands passed these terminal markers:
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
 
 
 The capsule source is 36459 bytes, SHA-256 `2616c79746abe8a664ec5b920486b5995b31d4e33365c37d2808b9f9ff8612b7`. Its decoded 21-source payload is 93137 bytes, SHA-256 `5b1f21c98e592757f7faf5fd236b04e697998733008365e94755b16d0d3006dd`; its source manifest is 2274 bytes, SHA-256 `c260b50e21cf1598c053e3ca2d340c0fa76028f10d30bb94f9722ca2f4513ffb`.
@@ -212,4 +210,4 @@ The capsule source is 36459 bytes, SHA-256 `2616c79746abe8a664ec5b920486b5995b31
 |Literal93-map table|6750|f08757a330fbd8905efa02ad1757b3adc282780d725396be3f5aaecc1d946cb0|
 
 
-[An encoded source block is omitted from this text export pending a complete content review. This passage is not a complete executable package.]
+[Encoded source block omitted; the code in this passage is incomplete.]
