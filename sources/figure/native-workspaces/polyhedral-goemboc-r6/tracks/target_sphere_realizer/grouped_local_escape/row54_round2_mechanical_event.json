@@ -1,0 +1,586 @@
+{
+  "version": 1,
+  "method": "27D chart-segment brent roots with fresh grouped hull",
+  "pre": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/target_sphere_realizer/grouped_local_escape/row54_combined_hard_slp_round2_event_event_pre.csv",
+  "post": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/target_sphere_realizer/grouped_local_escape/row54_combined_hard_slp_round2_event_event_post.csv",
+  "roots": {
+    "U263": 0.3973042853365687,
+    "H10_263": 0.39730428590766087
+  },
+  "root_separation": 5.710921735513352e-10,
+  "event_t": 0.3973042856221148,
+  "open_sample_delta": 1e-05,
+  "interpretation": "shared endpoint event: U263 and H(10,263) are born together",
+  "endpoint_identity": {
+    "vertex_component_on_neighbor_10": 2.600519726037067e-13,
+    "edge_endpoint_component_1_minus_tau": 6.106226635438361e-15,
+    "norm_ratio": 0.023659073438487437,
+    "identity_residual": -4.636208221625881e-17,
+    "explanation": "1-tau = (||X263||/||X263-X10||) * U263(edge 10)"
+  },
+  "audits": {
+    "pre_open": {
+      "t": 0.3972942856221148,
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            246,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5803898077576082,
+          0.001230731620105696,
+          0.8498394763049921
+        ],
+        "topology_margin": 6.120143678278048e-10,
+        "inactive_margin": Infinity
+      },
+      "faces_match_pre": true,
+      "base_face_present": true,
+      "rail_edges_present": {
+        "short": true,
+        "long": true
+      },
+      "U263_decision": -1.5496915653038026e-09,
+      "H10_263_decision": -3.6664227209826095e-11,
+      "worst_guards": [
+        {
+          "value": -0.00029631839230489436,
+          "feature": [
+            "U-",
+            54
+          ]
+        },
+        {
+          "value": -0.0002954041847792372,
+          "feature": [
+            "H-",
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "value": -0.00022968790604620956,
+          "feature": [
+            "S-",
+            [
+              7,
+              246,
+              245
+            ]
+          ]
+        },
+        {
+          "value": -9.33348845226778e-05,
+          "feature": [
+            "H-",
+            [
+              198,
+              263
+            ]
+          ]
+        },
+        {
+          "value": 3.6664227209826095e-11,
+          "feature": [
+            "H-",
+            [
+              10,
+              263
+            ]
+          ]
+        },
+        {
+          "value": 1.5496915653038026e-09,
+          "feature": [
+            "U-",
+            263
+          ]
+        },
+        {
+          "value": 8.152350602128497e-07,
+          "feature": [
+            "U-",
+            1
+          ]
+        },
+        {
+          "value": 9.4709834065336e-05,
+          "feature": [
+            "S-",
+            [
+              6,
+              7,
+              245
+            ]
+          ]
+        },
+        {
+          "value": 0.00022225817045296026,
+          "feature": [
+            "H-",
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "value": 0.002758803093425792,
+          "feature": [
+            "H-",
+            [
+              1,
+              54
+            ]
+          ]
+        },
+        {
+          "value": 0.005112586860901264,
+          "feature": [
+            "S-",
+            [
+              198,
+              244,
+              245
+            ]
+          ]
+        },
+        {
+          "value": 0.006785540533779721,
+          "feature": [
+            "U-",
+            6
+          ]
+        }
+      ]
+    },
+    "wall": {
+      "t": 0.3973042856221148,
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            246,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5803898083582947,
+          0.0012307321048155096,
+          0.8498394806079497
+        ],
+        "topology_margin": 6.120143805539972e-10,
+        "inactive_margin": Infinity
+      },
+      "faces_match_pre": true,
+      "base_face_present": true,
+      "rail_edges_present": {
+        "short": true,
+        "long": true
+      },
+      "U263_decision": 2.600519726037067e-13,
+      "H10_263_decision": 6.106226635438361e-15,
+      "worst_guards": [
+        {
+          "value": -0.00029631838522966425,
+          "feature": [
+            "U-",
+            54
+          ]
+        },
+        {
+          "value": -0.0002954041790489519,
+          "feature": [
+            "H-",
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "value": -0.000229687902603793,
+          "feature": [
+            "S-",
+            [
+              7,
+              246,
+              245
+            ]
+          ]
+        },
+        {
+          "value": -9.33348475304907e-05,
+          "feature": [
+            "H-",
+            [
+              198,
+              263
+            ]
+          ]
+        },
+        {
+          "value": -2.600519726037067e-13,
+          "feature": [
+            "U-",
+            263
+          ]
+        },
+        {
+          "value": -6.106226635438361e-15,
+          "feature": [
+            "H-",
+            [
+              10,
+              263
+            ]
+          ]
+        },
+        {
+          "value": 8.152337388540061e-07,
+          "feature": [
+            "U-",
+            1
+          ]
+        },
+        {
+          "value": 9.470983195273261e-05,
+          "feature": [
+            "S-",
+            [
+              6,
+              7,
+              245
+            ]
+          ]
+        },
+        {
+          "value": 0.00022225816426235667,
+          "feature": [
+            "H-",
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "value": 0.002758798675587274,
+          "feature": [
+            "H-",
+            [
+              1,
+              54
+            ]
+          ]
+        },
+        {
+          "value": 0.005112586840963602,
+          "feature": [
+            "S-",
+            [
+              198,
+              244,
+              245
+            ]
+          ]
+        },
+        {
+          "value": 0.006785540394557972,
+          "feature": [
+            "U-",
+            6
+          ]
+        }
+      ]
+    },
+    "post_open": {
+      "t": 0.3973142856221148,
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          3,
+          3
+        ],
+        "stable": [
+          [
+            7,
+            246,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54,
+          263
+        ],
+        "saddles": [
+          [
+            10,
+            263
+          ],
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5803898089589782,
+          0.0012307325895252526,
+          0.8498394849109042
+        ],
+        "topology_margin": 6.120143237521683e-10,
+        "inactive_margin": Infinity
+      },
+      "faces_match_pre": true,
+      "base_face_present": true,
+      "rail_edges_present": {
+        "short": true,
+        "long": true
+      },
+      "U263_decision": 1.5500499373035792e-09,
+      "H10_263_decision": 3.667288694941817e-11,
+      "worst_guards": [
+        {
+          "value": -0.00029631837731045047,
+          "feature": [
+            "U-",
+            54
+          ]
+        },
+        {
+          "value": -0.0002954041733164274,
+          "feature": [
+            "H-",
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "value": -0.0002296878991620084,
+          "feature": [
+            "S-",
+            [
+              7,
+              246,
+              245
+            ]
+          ]
+        },
+        {
+          "value": -9.333481054185633e-05,
+          "feature": [
+            "H-",
+            [
+              198,
+              263
+            ]
+          ]
+        },
+        {
+          "value": -1.5500499373035792e-09,
+          "feature": [
+            "U-",
+            263
+          ]
+        },
+        {
+          "value": -3.667288694941817e-11,
+          "feature": [
+            "H-",
+            [
+              10,
+              263
+            ]
+          ]
+        },
+        {
+          "value": 8.15231573492904e-07,
+          "feature": [
+            "U-",
+            1
+          ]
+        },
+        {
+          "value": 9.470982984096084e-05,
+          "feature": [
+            "S-",
+            [
+              6,
+              7,
+              245
+            ]
+          ]
+        },
+        {
+          "value": 0.00022225815806820037,
+          "feature": [
+            "H-",
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "value": 0.002758791401596934,
+          "feature": [
+            "H-",
+            [
+              1,
+              54
+            ]
+          ]
+        },
+        {
+          "value": 0.005112586821025394,
+          "feature": [
+            "S-",
+            [
+              198,
+              244,
+              245
+            ]
+          ]
+        },
+        {
+          "value": 0.00678554025523142,
+          "feature": [
+            "U-",
+            6
+          ]
+        }
+      ]
+    }
+  }
+}

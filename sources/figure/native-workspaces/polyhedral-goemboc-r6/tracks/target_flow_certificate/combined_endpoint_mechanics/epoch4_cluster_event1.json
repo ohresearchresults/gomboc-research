@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source": "epoch3_bypass69_198_endpoint.csv",
+  "lp_json": "epoch4_lp.json",
+  "offset_json": "epoch4_bypass198.json",
+  "lp_delta": 0.9678778778012335,
+  "circuit": [
+    69,
+    235,
+    236,
+    255
+  ],
+  "bracket": [
+    0.000624,
+    0.000628
+  ],
+  "volume_bracket": [
+    4.9250900064060315e-14,
+    -6.658711930262843e-15
+  ],
+  "alpha_wall": 0.0006275249538431935,
+  "epsilon": 1e-07,
+  "after_epsilon": 1e-07,
+  "volume_at_wall": -4.7813390781207095e-21,
+  "plane_tolerance": 1e-13,
+  "before": {
+    "valid": true,
+    "mechanics_valid": false,
+    "mechanics_error": "ValueError('parallel face normals')",
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": null,
+    "circuit_faces": [
+      [
+        69,
+        235,
+        236
+      ],
+      [
+        69,
+        235,
+        255
+      ]
+    ],
+    "topology_margin": 2.010502875293696e-12
+  },
+  "at": {
+    "valid": true,
+    "mechanics_valid": false,
+    "mechanics_error": "ValueError('parallel face normals')",
+    "f_vector": [
+      60,
+      157,
+      99
+    ],
+    "class": null,
+    "circuit_faces": [
+      [
+        69,
+        235,
+        236,
+        255
+      ]
+    ],
+    "topology_margin": 6.876768599006766e-11
+  },
+  "after": {
+    "valid": true,
+    "mechanics_valid": false,
+    "mechanics_error": "ValueError('parallel face normals')",
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": null,
+    "circuit_faces": [
+      [
+        69,
+        236,
+        255
+      ],
+      [
+        235,
+        236,
+        255
+      ]
+    ],
+    "topology_margin": 2.0652923815589475e-12
+  },
+  "csv": {
+    "before": "epoch4_cluster_event1_before.csv",
+    "at": "epoch4_cluster_event1_at.csv",
+    "after": "epoch4_cluster_event1_after.csv"
+  }
+}

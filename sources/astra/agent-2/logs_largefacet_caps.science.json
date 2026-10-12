@@ -1,0 +1,96 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "EXACT_FREE_SUPPORTS",
+      "values": {
+        "V": 138,
+        "E": 207,
+        "F": 71,
+        "counts": [
+          1,
+          2,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 414,
+        "VplusEplusF": 416
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "EXACT_MIXED_CAP_COMPLEX 4",
+      "values": {
+        "V": 141,
+        "E": 248,
+        "F": 109,
+        "counts": [
+          28,
+          24,
+          50
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "EXACT_MIXED_CAP_COMPLEX 5",
+      "values": {
+        "V": 141,
+        "E": 248,
+        "F": 109,
+        "counts": [
+          24,
+          12,
+          34
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "EXACT_MIXED_CAP_COMPLEX 6",
+      "values": {
+        "V": 141,
+        "E": 248,
+        "F": 109,
+        "counts": [
+          1,
+          2,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0
+      }
+    }
+  ]
+}

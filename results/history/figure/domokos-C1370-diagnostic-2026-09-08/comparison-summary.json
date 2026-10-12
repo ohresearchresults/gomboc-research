@@ -1,0 +1,31 @@
+{
+  "archive": "/REDACTED_HOME/Downloads/Gomboc_1370_Verification_2026-09-08.zip",
+  "archive_sha256": "cf2228fb68b6463627b04902e82fdd3b225cb7a535c43adabefd28372b2066bc",
+  "exact_rational": {
+    "V": 258,
+    "E": 685,
+    "F": 429,
+    "C": 1370,
+    "SUH": [
+      1,
+      1,
+      0
+    ],
+    "stable": [
+      [
+        158,
+        161,
+        163
+      ]
+    ],
+    "unstable": [
+      138
+    ],
+    "seconds": 12.299120874988148
+  },
+  "derived_ASCII_STL_U": 1,
+  "binary64_U": 1,
+  "binary32_U": 47,
+  "original_package_contains_STL": false,
+  "float32_cause_in_professor_software_confirmed": false
+}

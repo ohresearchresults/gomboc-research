@@ -1,0 +1,5 @@
+# Numerical nonwinner/method preservation — 2026-09-09 19:56 UTC
+
+All14 literal source/checkpoint files recovered from canonical journal parts1–3. Encoded25735 characters SHA-256 ffa116972c7a5c1eff10efd7030ae1d70a2068b8cbf2a6ae12abbfc96b002ef4 and decoded101704-byte dictionary SHA-256 0651d50e14a2dd1d03513989298da3d59011289640197cddfbdea668fd9a882d both match. Each extracted file was read back exactly. The required contact_model.py was copied byte-for-byte from the previously authenticated C648 capsule; the initial screen also depends on that capsule's condition36_best.json and TOP36.json, which remain preserved there.
+
+This is NOT an accepted C646 figure. The coordinator reports numerical A ending211 and B ending131, with positive-reserve/LP boundary problems; no full exact geometry/equilibrium audit is claimed. The generic bipartite incidence rechart argument and all six numerical defining checkpoints are retained as research methods/negative results. No numerical programs or new mathematical proof were replayed locally. C648_REBUILT_R7 remains the reported accepted incumbent.

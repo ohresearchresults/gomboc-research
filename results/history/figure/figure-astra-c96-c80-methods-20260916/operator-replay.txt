@@ -1,0 +1,167 @@
+EXACT_RETAINED_BODY_PASS baseline-check [25, 48, 25, [2, 1, 1], [0, 0, 0]]
+EXACT_RETAINED_BODY_PASS capped-bulk-exact [31, 87, 58, [8, 1, 7], [0, 0, 0]]
+EXACT_RETAINED_BODY_PASS flow25-exact [25, 69, 46, [2, 1, 1], [0, 0, 0]]
+EXACT_RETAINED_BODY_PASS polar-exact [25, 48, 25, [1, 2, 1], [0, 0, 0]]
+EXACT_RETAINED_BODY_PASS pyramid-101-exact [21, 40, 21, [2, 1, 1], [0, 0, 0]]
+EXACT_RETAINED_BODY_PASS pyramid-final-exact [20, 38, 20, [3, 1, 2], [0, 0, 0]]
+EXACT_RETAINED_BODY_PASS rounder25-exact [25, 69, 46, [2, 1, 1], [0, 0, 0]]
+EXACT_RETAINED_BODY_PASS support-conditioned-exact [46, 69, 25, [2, 1, 1], [0, 0, 0]]
+EXACT_RETAINED_BODY_PASS support-polar-exact [23, 44, 23, [1, 2, 1], [0, 0, 0]]
+C96_EXACT_TILTED_DISK_SLAB_PASS
+{
+  "identity": "C96_TILTED_DISK_SLAB_CERTIFICATE",
+  "parent_points_sha256": "b49d24fda9620582ca3a011efd07d45a6550aa4e748bdaca32e3f343de822742",
+  "V": 25,
+  "E": 48,
+  "F": 25,
+  "own": [
+    2,
+    1,
+    1
+  ],
+  "weak": [
+    0,
+    0,
+    0
+  ],
+  "own_centroid": [
+    "23694796297/3276041",
+    "-59026233271/13104164",
+    "-283800727279/13104164"
+  ],
+  "normal": [
+    89,
+    229,
+    -10
+  ],
+  "disk_radius": "45400",
+  "slab_halfwidth": "4100",
+  "radius_to_halfwidth": "454/41",
+  "disk_min_relative_squared_slack": "347909227871/291696997547871",
+  "slab_min_relative_squared_slack": "800662815840474383815679/174529506939098282493120000",
+  "all_facets_checked": 25,
+  "all_vertices_checked": 25,
+  "conclusion": "S >= 2 for every nonsingular affine image with Euclidean singular-value condition number strictly below 454/41. No claim outside this range or for arbitrary non-affine descendants."
+}
+SHA256 2a16b74dd918be63f153d68089e5b06f728e58178ffb7c6bfe2615e828e6b37b
+EXACT_CENTRED_RADIUS_COMPARISON_PASS
+[
+  {
+    "identity": "baseline-check",
+    "audit_sha256": "a6c33c9f089de95cbbe52ebe51ecb4351306575df32f2aced706f62774793093",
+    "ratio_squared": "613047969920492401/1098382570672741612114",
+    "inradius_facet": 23,
+    "circumradius_vertex": 14,
+    "ratio_greater_than_one_tenth": false,
+    "ratio_less_than_one_fortieth": true,
+    "own": [
+      2,
+      1,
+      1
+    ],
+    "weak": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "identity": "pyramid-101-exact",
+    "audit_sha256": "f17bb48815e8ff86697936d33af34e8e28170808674e9149dbae23c5228a19f7",
+    "ratio_squared": "3566201029850271266217239274416144738688906250/36869882829083598575044840760130029949241680828659",
+    "inradius_facet": 13,
+    "circumradius_vertex": 14,
+    "ratio_greater_than_one_tenth": false,
+    "ratio_less_than_one_fortieth": true,
+    "own": [
+      2,
+      1,
+      1
+    ],
+    "weak": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "identity": "rounder25-exact",
+    "audit_sha256": "c41d79fbc3a4711cef1201a17fcec0ba85ecded87f9072cf67e65ebb19229283",
+    "ratio_squared": "35274697115952290479569482810399233587445778747525934415536458398724961478773017670036523415929/3470743494949592321775335891831046939958228064497089049287933784581246104402868718790849508733177",
+    "inradius_facet": 4,
+    "circumradius_vertex": 14,
+    "ratio_greater_than_one_tenth": true,
+    "ratio_less_than_one_fortieth": false,
+    "own": [
+      2,
+      1,
+      1
+    ],
+    "weak": [
+      0,
+      0,
+      0
+    ]
+  }
+]
+SHA256 31b2c3ba06266312090fff12e39a079ef38ed8ae538d1ec90d453eadb59636bb
+EXACT_THICK_RADIUS_GREATER_THAN_QUARTER_PASS f7fe493236232b0f0c33647af67bad4726542cf5357ba5f4955443de090cd61d
+{
+  "actual_own_centroid": [
+    "1869398847995960637739517/157805507375175020",
+    "-1937493/2",
+    "-2154752560194124307711881/157805507375175020"
+  ],
+  "actual_own_counts": [
+    2,
+    1,
+    1
+  ],
+  "conclusion": "This C80 shape admits reference110, but the reference is not its homogeneous volume centroid. It remains own211 and is NOT a homogeneous Gomboc.",
+  "nonzero_physical_first_moment_about_reference": [
+    "1567607223017650132377313622375/12",
+    "-71559271684670160328005124375/2",
+    "7801531305563379234411606138875/4"
+  ],
+  "primitive_zero_count": 0,
+  "reference": [
+    7695683,
+    168054,
+    -75622586
+  ],
+  "reference_counts": [
+    1,
+    1,
+    0
+  ],
+  "reference_saddle_edges": [],
+  "reference_stable_faces": [
+    13
+  ],
+  "reference_unstable_vertices": [
+    14
+  ],
+  "reference_weak": [
+    0,
+    0,
+    0
+  ],
+  "shape": "C80_OWN211",
+  "source_audit_sha256": "f17bb48815e8ff86697936d33af34e8e28170808674e9149dbae23c5228a19f7",
+  "status": "EXACT_REFERENCE_110_NOT_HOMOGENEOUS_110"
+}
+
+REFERENCE_CERTIFICATE_SHA256 f1c3128c73505d28c3b95239d93ca73e53417981174af5daa10745c76f061aa6
+{
+  "audit_sha256": "a6c33c9f089de95cbbe52ebe51ecb4351306575df32f2aced706f62774793093",
+  "certificate_sha256": "f75b5187e8c5110945f91308a905d0719b748b97555739ee04d01292625d677d",
+  "conclusion": "For this fixed C96 shape every interior reference point has at least two stable-or-weak maximal facets. In particular no reference point gives nondegenerate S=1. No claim for affine or non-affine changes of shape.",
+  "expanded_nodes": 2293,
+  "leaves": 1698,
+  "maximum_depth": 10,
+  "nodes": 651,
+  "roots": 25,
+  "status": "EXACT_ALL_INTERIOR_LOADING_EXCLUSION_PASS",
+  "strictly_negative_dual_bounds": 462
+}
+ALL_RETAINED_EXACT_BODIES_AND_CERTIFICATES_COLD_PASS_NO_OWN110

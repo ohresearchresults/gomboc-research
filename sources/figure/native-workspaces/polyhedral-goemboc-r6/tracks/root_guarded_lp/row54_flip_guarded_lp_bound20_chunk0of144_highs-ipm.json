@@ -1,0 +1,853 @@
+{
+  "version": 1,
+  "scope": "clean row54 compensating-flip cell complete four-death guarded LP",
+  "baseline": {
+    "coordinates": "tracks/circuit_atlas/row54_multiwall_flip.csv",
+    "f_vector": [
+      61,
+      162,
+      103
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "topology_margin": 2.759039411867614e-10,
+    "stable_faces": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54
+      ],
+      [
+        198,
+        243,
+        244
+      ]
+    ],
+    "unstable_vertices": [
+      2,
+      8
+    ],
+    "saddle_edges": [
+      [
+        4,
+        5
+      ],
+      [
+        12,
+        13
+      ]
+    ]
+  },
+  "bound": 20.0,
+  "trust": null,
+  "fd_step": 1e-08,
+  "modes": 175,
+  "local_rows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    11,
+    12,
+    13,
+    14,
+    54,
+    69,
+    88,
+    198,
+    224,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    248,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264
+  ],
+  "primitive_rows": 7255,
+  "guard_rows": 6301,
+  "atlas_total_branches": 144,
+  "branch_mod": 144,
+  "branch_rem": 0,
+  "solver_method": "highs-ipm",
+  "finite_difference_failures": [],
+  "atlas": [
+    {
+      "branch_index": 0,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "delta": 0.999936610857957,
+      "coefficients": [
+        11.4332020785231,
+        6.343104324601701,
+        0.028330191251977388,
+        0.5673810875875688,
+        -0.07692152005903467,
+        0.016258365612902483,
+        20.0,
+        8.799828011631819,
+        0.005132085181313114,
+        19.939048276258273,
+        11.798222403046433,
+        -0.01845687122162782,
+        -20.0,
+        -12.749219132707681,
+        0.2355003226725236,
+        -1.9450167699888807,
+        -0.06755538950581622,
+        -0.011671098381667107,
+        -8.407469828472578,
+        -2.368557149810389,
+        -0.05111138793218137,
+        0.34445106731416836,
+        -0.0696555894547988,
+        -0.03307807933031843,
+        4.725430620238176,
+        2.8231167217021134,
+        -0.01446929084316685,
+        -2.8827351445032567,
+        0.135470864084346,
+        0.13053584306996413,
+        6.451730453240274,
+        2.162537869737325,
+        -0.0019501605673662079,
+        -7.791589635682925,
+        -2.259616653000974,
+        0.00847357753417915,
+        10.062396198585937,
+        2.9676005087935162,
+        0.018661290402811538,
+        5.7652240651868905,
+        -0.5633080095136556,
+        0.01966003250088382,
+        2.787662582582786,
+        -0.08330044265447456,
+        -0.012140635484557053,
+        -1.0267414548737865,
+        0.574098405260623,
+        0.026937343309728638,
+        2.803292889301486,
+        -0.5925065448406766,
+        8.156390001490555,
+        -3.2073402940891285,
+        15.548119978598589,
+        -3.8194092261399457,
+        20.0,
+        -3.946273581402042,
+        -9.250823173419478,
+        1.3946873163548381,
+        10.52602625557128,
+        -0.3985672785338591,
+        -17.644258764187516,
+        2.786936119319475,
+        -20.0,
+        2.9500362167015117,
+        19.458047498171094,
+        -2.3762619265429485,
+        20.0,
+        -2.2290350645685066,
+        2.2277857761191195,
+        -0.3598853457983692,
+        5.680551170201682,
+        3.7822770607553546,
+        -0.00593634708314441,
+        11.803193687792252,
+        11.023229067801113,
+        -0.024977972888988627,
+        -19.770779691168247,
+        -15.170709285379019,
+        0.26769790904982826,
+        -3.352743555175343,
+        -2.0730075293353187,
+        0.013378668885529615,
+        3.67585814480012,
+        0.8281844302703707,
+        0.05057078407240352,
+        10.77484090090617,
+        2.4118868529966386,
+        0.32717227190019116,
+        18.73327933771096,
+        2.5410497830343184,
+        0.19074902537596422,
+        18.025127056580654,
+        2.8380774970505147,
+        0.09366785001960547,
+        18.341779428572526,
+        10.62541389664411,
+        0.016728748363599482,
+        10.743608137489327,
+        9.196005944811594,
+        0.016068296709888956,
+        9.811964640748362,
+        5.126982428111824,
+        0.0004737323781142948,
+        20.0,
+        10.528639033193473,
+        -0.06524042036593346,
+        10.139386637924419,
+        6.005590965513287,
+        0.0033403212054676683,
+        20.0,
+        15.64824270016775,
+        -0.043623827254588694,
+        8.658115431382068,
+        6.344881981444105,
+        0.015126401557704963,
+        -2.738863110476846,
+        -3.300440239621677,
+        0.10473183627964215,
+        -15.606075837722102,
+        -10.935893332389078,
+        0.2572853639826403,
+        12.688364779679418,
+        15.339669220440033,
+        0.30385194892930634,
+        -11.105517771460612,
+        1.4500595529313711,
+        0.284411556843179,
+        20.0,
+        17.16583001450815,
+        -0.06498128250252437,
+        -20.0,
+        -15.935191350944649,
+        -0.0381042827392409,
+        15.522353077658078,
+        5.341919994429336,
+        0.14372177853153623,
+        20.0,
+        1.4736435735986173,
+        0.03049866723966429,
+        2.4919151737399226,
+        1.7066904233016873,
+        -0.002818437007337851,
+        -6.660579704008815,
+        -4.914968549633607,
+        0.00041464736017459526,
+        -3.849824787385141,
+        -3.790588291782231,
+        -0.2947926966747824,
+        -18.361536552882974,
+        -12.3824934467159,
+        -0.08934320222030771,
+        4.762548189559815,
+        1.4415539503476769,
+        -0.14150451956095275,
+        -20.0,
+        -16.30192644494601,
+        0.13643372048741947,
+        -3.116495364139311,
+        -7.836280850283961,
+        0.1859528983828797,
+        4.273232979496683,
+        -8.220069099247967,
+        0.09384526145014244,
+        20.0,
+        20.0,
+        -10.933603966025142,
+        -20.0,
+        20.0,
+        0.021938628954103544,
+        20.0,
+        20.0,
+        -0.7222040912013961,
+        -20.0,
+        1.7807750932685897,
+        5.141960305014761
+      ],
+      "fractional_death_derivatives": [
+        -1.0000000000000022,
+        -1.3899784073352806,
+        -8.293980271903525,
+        -11.721714798399196
+      ],
+      "l1_coefficient": 1112.5581007871103,
+      "max_coordinate_displacement": 74.49293557602806,
+      "top_guard_blockers": [
+        {
+          "key": "('topology', (198, 228, 229), 230)",
+          "kind": "support_slack",
+          "value": 2.837852920538342e-09,
+          "sign": 1,
+          "fractional_worsening": 1.000899234122528
+        },
+        {
+          "key": "('topology', (228, 229, 230), 198)",
+          "kind": "support_slack",
+          "value": 2.718868778554817e-09,
+          "sign": 1,
+          "fractional_worsening": 1.0006988486632373
+        },
+        {
+          "key": "('topology', (198, 228, 229), 231)",
+          "kind": "support_slack",
+          "value": 2.5540551644963327e-08,
+          "sign": 1,
+          "fractional_worsening": 1.0003522395857969
+        },
+        {
+          "key": "('topology', (198, 228, 229), 232)",
+          "kind": "support_slack",
+          "value": 1.213154292760768e-07,
+          "sign": 1,
+          "fractional_worsening": 1.0002107294382316
+        },
+        {
+          "key": "('topology', (228, 234, 235), 233)",
+          "kind": "support_slack",
+          "value": 2.5568569770109684e-09,
+          "sign": 1,
+          "fractional_worsening": 0.9999509773771931
+        },
+        {
+          "key": "('topology', (224, 256, 257), 255)",
+          "kind": "support_slack",
+          "value": 2.642855126584742e-09,
+          "sign": 1,
+          "fractional_worsening": 0.9999483395250337
+        },
+        {
+          "key": "('topology', (228, 231, 232), 235)",
+          "kind": "support_slack",
+          "value": 2.3341586974801737e-07,
+          "sign": 1,
+          "fractional_worsening": 0.999947786354829
+        },
+        {
+          "key": "('edge', (198, 230), 'beta2')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -85.567074451958,
+          "sign": -1,
+          "fractional_worsening": 0.9999459998382223
+        },
+        {
+          "key": "('topology', (228, 231, 232), 234)",
+          "kind": "support_slack",
+          "value": 5.490343561037614e-08,
+          "sign": 1,
+          "fractional_worsening": 0.9999441136990459
+        },
+        {
+          "key": "('edge', (228, 229), 'beta2')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -78.20516635965939,
+          "sign": -1,
+          "fractional_worsening": 0.9999435372808865
+        },
+        {
+          "key": "('topology', (228, 231, 232), 236)",
+          "kind": "support_slack",
+          "value": 4.073308615681892e-07,
+          "sign": 1,
+          "fractional_worsening": 0.9999426121600994
+        },
+        {
+          "key": "('topology', (198, 236, 237), 234)",
+          "kind": "support_slack",
+          "value": 2.6816946716197443e-08,
+          "sign": 1,
+          "fractional_worsening": 0.9999419842522594
+        },
+        {
+          "key": "('topology', (198, 258, 259), 260)",
+          "kind": "support_slack",
+          "value": 1.1639459614881664e-08,
+          "sign": 1,
+          "fractional_worsening": 0.9999407147300641
+        },
+        {
+          "key": "('topology', (224, 249, 250), 248)",
+          "kind": "support_slack",
+          "value": 1.0998825730398898e-08,
+          "sign": 1,
+          "fractional_worsening": 0.9999390561083246
+        },
+        {
+          "key": "('topology', (198, 239, 240), 238)",
+          "kind": "support_slack",
+          "value": 2.524490863749229e-09,
+          "sign": 1,
+          "fractional_worsening": 0.9999383141727041
+        },
+        {
+          "key": "('topology', (228, 251, 252), 224)",
+          "kind": "support_slack",
+          "value": 2.9779055246009767e-09,
+          "sign": 1,
+          "fractional_worsening": 0.9999373938525302
+        },
+        {
+          "key": "('topology', (228, 247, 258), 249)",
+          "kind": "support_slack",
+          "value": 6.814520061085294e-09,
+          "sign": 1,
+          "fractional_worsening": 0.99993723518521
+        },
+        {
+          "key": "('topology', (224, 249, 250), 251)",
+          "kind": "support_slack",
+          "value": 2.9939926683708595e-09,
+          "sign": 1,
+          "fractional_worsening": 0.9999372082927493
+        },
+        {
+          "key": "('topology', (224, 250, 251), 248)",
+          "kind": "support_slack",
+          "value": 5.311982271410942e-08,
+          "sign": 1,
+          "fractional_worsening": 0.9999371734161464
+        },
+        {
+          "key": "('topology', (12, 13, 262), 261)",
+          "kind": "support_slack",
+          "value": 6.245680053869329e-09,
+          "sign": 1,
+          "fractional_worsening": 0.999937105130627
+        },
+        {
+          "key": "('edge', (224, 251), 'beta2')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -1612.8027066253217,
+          "sign": -1,
+          "fractional_worsening": 0.9999370335423698
+        },
+        {
+          "key": "('edge', (247, 248), 'beta1')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -20868.15652098492,
+          "sign": -1,
+          "fractional_worsening": 0.9999369373049731
+        },
+        {
+          "key": "('topology', (69, 236, 237), 238)",
+          "kind": "support_slack",
+          "value": 8.15882805847018e-09,
+          "sign": 1,
+          "fractional_worsening": 0.9999368676228997
+        },
+        {
+          "key": "('edge', (13, 262), 'beta2')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -15755213.390481016,
+          "sign": -1,
+          "fractional_worsening": 0.999936866982893
+        }
+      ],
+      "active_modes": [
+        {
+          "column": 172,
+          "coefficient": -20.0,
+          "kind": "projective",
+          "axis": 0
+        },
+        {
+          "column": 169,
+          "coefficient": 20.0,
+          "kind": "linear",
+          "output_axis": 2,
+          "input_axis": 0
+        },
+        {
+          "column": 170,
+          "coefficient": 20.0,
+          "kind": "linear",
+          "output_axis": 2,
+          "input_axis": 1
+        },
+        {
+          "column": 163,
+          "coefficient": 20.0,
+          "kind": "linear",
+          "output_axis": 0,
+          "input_axis": 0
+        },
+        {
+          "column": 164,
+          "coefficient": 20.0,
+          "kind": "linear",
+          "output_axis": 0,
+          "input_axis": 1
+        },
+        {
+          "column": 166,
+          "coefficient": -20.0,
+          "kind": "linear",
+          "output_axis": 1,
+          "input_axis": 0
+        },
+        {
+          "column": 167,
+          "coefficient": 20.0,
+          "kind": "linear",
+          "output_axis": 1,
+          "input_axis": 1
+        },
+        {
+          "column": 136,
+          "coefficient": 20.0,
+          "kind": "row_coordinate",
+          "row": 246,
+          "axis": 0
+        },
+        {
+          "column": 130,
+          "coefficient": -20.0,
+          "kind": "row_coordinate",
+          "row": 244,
+          "axis": 0
+        },
+        {
+          "column": 154,
+          "coefficient": -20.0,
+          "kind": "row_coordinate",
+          "row": 262,
+          "axis": 0
+        },
+        {
+          "column": 6,
+          "coefficient": 20.0,
+          "kind": "dirichlet_laplacian",
+          "rank": 2,
+          "eigenvalue": 1.7235468032645944,
+          "axis": 0
+        },
+        {
+          "column": 66,
+          "coefficient": 20.0,
+          "kind": "base_tangent",
+          "row": 14,
+          "axis": 0
+        },
+        {
+          "column": 103,
+          "coefficient": 20.0,
+          "kind": "row_coordinate",
+          "row": 235,
+          "axis": 0
+        },
+        {
+          "column": 109,
+          "coefficient": 20.0,
+          "kind": "row_coordinate",
+          "row": 237,
+          "axis": 0
+        },
+        {
+          "column": 127,
+          "coefficient": 20.0,
+          "kind": "row_coordinate",
+          "row": 243,
+          "axis": 0
+        },
+        {
+          "column": 62,
+          "coefficient": -20.0,
+          "kind": "base_tangent",
+          "row": 12,
+          "axis": 0
+        },
+        {
+          "column": 54,
+          "coefficient": 20.0,
+          "kind": "base_tangent",
+          "row": 4,
+          "axis": 0
+        },
+        {
+          "column": 12,
+          "coefficient": -20.0,
+          "kind": "dirichlet_laplacian",
+          "rank": 4,
+          "eigenvalue": 2.2916829153486993,
+          "axis": 0
+        },
+        {
+          "column": 9,
+          "coefficient": 19.939048276258273,
+          "kind": "dirichlet_laplacian",
+          "rank": 3,
+          "eigenvalue": 1.9431299204332362,
+          "axis": 0
+        },
+        {
+          "column": 76,
+          "coefficient": -19.770779691168247,
+          "kind": "row_coordinate",
+          "row": 198,
+          "axis": 0
+        },
+        {
+          "column": 64,
+          "coefficient": 19.458047498171094,
+          "kind": "base_tangent",
+          "row": 13,
+          "axis": 0
+        },
+        {
+          "column": 88,
+          "coefficient": 18.73327933771096,
+          "kind": "row_coordinate",
+          "row": 230,
+          "axis": 0
+        },
+        {
+          "column": 148,
+          "coefficient": -18.361536552882974,
+          "kind": "row_coordinate",
+          "row": 260,
+          "axis": 0
+        },
+        {
+          "column": 94,
+          "coefficient": 18.341779428572526,
+          "kind": "row_coordinate",
+          "row": 232,
+          "axis": 0
+        },
+        {
+          "column": 91,
+          "coefficient": 18.025127056580654,
+          "kind": "row_coordinate",
+          "row": 231,
+          "axis": 0
+        },
+        {
+          "column": 60,
+          "coefficient": -17.644258764187516,
+          "kind": "base_tangent",
+          "row": 11,
+          "axis": 0
+        },
+        {
+          "column": 128,
+          "coefficient": 17.16583001450815,
+          "kind": "row_coordinate",
+          "row": 243,
+          "axis": 1
+        },
+        {
+          "column": 155,
+          "coefficient": -16.30192644494601,
+          "kind": "row_coordinate",
+          "row": 262,
+          "axis": 1
+        }
+      ],
+      "top_dual_guards": [
+        {
+          "key": "('face', (198, 242, 243), (198, 243))",
+          "kind": "nonstable_face_witness",
+          "value": -0.048564885758463766,
+          "sign": -1,
+          "dual_weight": 0.9999861783226436
+        },
+        {
+          "key": "('vertex', 9, 8)",
+          "kind": "nonunstable_vertex_witness",
+          "value": -0.9709799788246183,
+          "sign": -1,
+          "dual_weight": 8.453942703249642e-06
+        },
+        {
+          "key": "('vertex', 261, 14)",
+          "kind": "nonunstable_vertex_witness",
+          "value": -0.9711893562374343,
+          "sign": -1,
+          "dual_weight": 1.882600181780286e-06
+        },
+        {
+          "key": "('edge', (8, 9), 'one_minus_t')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -12.124616173475427,
+          "sign": -1,
+          "dual_weight": 5.125715866821038e-07
+        },
+        {
+          "key": "('edge', (6, 7), 't')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -1.5999419754856496,
+          "sign": -1,
+          "dual_weight": 4.702579959743614e-07
+        },
+        {
+          "key": "('edge', (3, 4), 'one_minus_t')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -1.2856691386929273,
+          "sign": -1,
+          "dual_weight": 2.4433842132950584e-07
+        },
+        {
+          "key": "('edge', (198, 261), 'beta1')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -472.03851236190235,
+          "sign": -1,
+          "dual_weight": 1.9578008847074653e-07
+        },
+        {
+          "key": "('vertex', 228, 258)",
+          "kind": "nonunstable_vertex_witness",
+          "value": -0.8402700980541203,
+          "sign": -1,
+          "dual_weight": 1.9311442383793845e-07
+        },
+        {
+          "key": "('edge', (0, 54), 't')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -8.80444561241976,
+          "sign": -1,
+          "dual_weight": 1.7987771834903822e-07
+        },
+        {
+          "key": "('topology', (198, 261, 262), 260)",
+          "kind": "support_slack",
+          "value": 0.0001692037380492603,
+          "sign": 1,
+          "dual_weight": 1.5088877357938615e-07
+        },
+        {
+          "key": "('topology', (198, 260, 261), 13)",
+          "kind": "support_slack",
+          "value": 0.0006995020905091638,
+          "sign": 1,
+          "dual_weight": 1.2624977225435947e-07
+        },
+        {
+          "key": "('topology', (69, 228, 255), 260)",
+          "kind": "support_slack",
+          "value": 0.0020095549854598255,
+          "sign": 1,
+          "dual_weight": 1.1871832631165392e-07
+        },
+        {
+          "key": "('topology', (2, 3, 88), 1)",
+          "kind": "support_slack",
+          "value": 0.0011740381909412009,
+          "sign": 1,
+          "dual_weight": 1.1658114163524464e-07
+        },
+        {
+          "key": "('edge', (6, 245), 'beta1')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -325.22657324161787,
+          "sign": -1,
+          "dual_weight": 1.1507379778620888e-07
+        },
+        {
+          "key": "('edge', (2, 3), 'one_minus_t')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -5.123220054954777,
+          "sign": -1,
+          "dual_weight": 1.1334401540598238e-07
+        },
+        {
+          "key": "('vertex', 229, 198)",
+          "kind": "nonunstable_vertex_witness",
+          "value": -0.7706086042202551,
+          "sign": -1,
+          "dual_weight": 1.0732577808217354e-07
+        },
+        {
+          "key": "('topology', (69, 238, 256), 243)",
+          "kind": "support_slack",
+          "value": 0.0022415013143496114,
+          "sign": 1,
+          "dual_weight": 1.0164891727525974e-07
+        },
+        {
+          "key": "('topology', (69, 238, 256), 237)",
+          "kind": "support_slack",
+          "value": 5.723207177857955e-05,
+          "sign": 1,
+          "dual_weight": 7.847157442638268e-08
+        },
+        {
+          "key": "('edge', (72, 257), 'beta1')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -84.35062018170822,
+          "sign": -1,
+          "dual_weight": 7.812706191046361e-08
+        },
+        {
+          "key": "('topology', (7, 245, 246), 198)",
+          "kind": "support_slack",
+          "value": 0.0012750991525850336,
+          "sign": 1,
+          "dual_weight": 7.638302841810143e-08
+        },
+        {
+          "key": "('vertex', 251, 250)",
+          "kind": "nonunstable_vertex_witness",
+          "value": -0.9507280755882429,
+          "sign": -1,
+          "dual_weight": 6.720184891217391e-08
+        },
+        {
+          "key": "('edge', (244, 245), 'beta2')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -148.37888875626996,
+          "sign": -1,
+          "dual_weight": 6.267282405256834e-08
+        },
+        {
+          "key": "('topology', (257, 258, 259), 253)",
+          "kind": "support_slack",
+          "value": 7.481658075554187e-05,
+          "sign": 1,
+          "dual_weight": 6.102773807357403e-08
+        },
+        {
+          "key": "('edge', (11, 262), 'beta2')",
+          "kind": "nonsaddle_edge_witness",
+          "value": -113.41714897169145,
+          "sign": -1,
+          "dual_weight": 5.878892568127604e-08
+        }
+      ]
+    }
+  ]
+}

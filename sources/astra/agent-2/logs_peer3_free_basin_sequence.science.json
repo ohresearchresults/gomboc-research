@@ -1,0 +1,635 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.0945781980929743,
+        "reachable": 34,
+        "minimum": 4.999998703820454e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.02,
+        "seconds": 0.1820049285888672
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.06641471820040253,
+        "reachable": 34,
+        "minimum": 4.999999241631665e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.07683199999999997,
+        "seconds": 3.848958969116211
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "FINITE_TRANSFER_REQUIRES_EXACT",
+      "values": {
+        "it": 9,
+        "S": 1,
+        "U": 2,
+        "cross": 0.009554189343112281,
+        "reachable": 35,
+        "minimum": 4.999995484751792e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.2,
+        "seconds": 6.052205801010132
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.14061475852757424,
+        "reachable": 35,
+        "minimum": 4.999995486234113e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.02,
+        "seconds": 0.00640106201171875
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.1077884855531014,
+        "reachable": 35,
+        "minimum": 4.99999928614956e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.10756479999999995,
+        "seconds": 1.765023946762085
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": 0.00227230816485023,
+        "reachable": 36,
+        "minimum": 4.999999404530857e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.2,
+        "seconds": 3.738197088241577
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "FINITE_TRANSFER_REQUIRES_EXACT",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": 0.00227230816485023,
+        "reachable": 36,
+        "minimum": 4.999999404530857e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.2,
+        "seconds": 3.738197088241577
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.1462623349326855,
+        "reachable": 36,
+        "minimum": 4.9999996355204434e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.02,
+        "seconds": 0.005388021469116211
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.1025703997638275,
+        "reachable": 36,
+        "minimum": 4.9999993560053055e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.10756479999999995,
+        "seconds": 1.3443520069122314
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.0063887292215711305,
+        "reachable": 36,
+        "minimum": 4.999874064106463e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.2,
+        "seconds": 3.4875848293304443
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "FINITE_TRANSFER_REQUIRES_EXACT",
+      "values": {
+        "it": 13,
+        "S": 1,
+        "U": 2,
+        "cross": 0.00214461869551483,
+        "reachable": 37,
+        "minimum": 4.999999555154679e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.2,
+        "seconds": 4.773613929748535
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.19074127038241884,
+        "reachable": 37,
+        "minimum": 4.999999555154679e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.02,
+        "seconds": 0.007498025894165039
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.16452544175453082,
+        "reachable": 37,
+        "minimum": 4.9999993849782964e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.07683199999999997,
+        "seconds": 1.4446899890899658
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.09086749694037939,
+        "reachable": 37,
+        "minimum": 4.999199430243787e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.2,
+        "seconds": 3.3870909214019775
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "cross": 0.007641839462124477,
+        "reachable": 38,
+        "minimum": 4.995109967935484e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.2,
+        "seconds": 7.542389154434204
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "FINITE_TRANSFER_REQUIRES_EXACT",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "cross": 0.007641839462124477,
+        "reachable": 38,
+        "minimum": 4.995109967935484e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.2,
+        "seconds": 7.542389154434204
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.17595092882508784,
+        "reachable": 38,
+        "minimum": 4.9951098900798536e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.02,
+        "seconds": 0.007899999618530273
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.12168618135751003,
+        "reachable": 38,
+        "minimum": 4.9999675071278554e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.10756479999999995,
+        "seconds": 1.121086835861206
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.06797803847292126,
+        "reachable": 38,
+        "minimum": 4.999991155020348e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.10756479999999995,
+        "seconds": 3.307857036590576
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "cross": 0.0037686841145591348,
+        "reachable": 39,
+        "minimum": 4.999066809342209e-08,
+        "V": 82,
+        "E": 240,
+        "F": 160,
+        "trust": 0.2,
+        "seconds": 5.084985971450806
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "FINITE_TRANSFER_REQUIRES_EXACT",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "cross": 0.0037686841145591348,
+        "reachable": 39,
+        "minimum": 4.999066809342209e-08,
+        "V": 82,
+        "E": 240,
+        "F": 160,
+        "trust": 0.2,
+        "seconds": 5.084985971450806
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.22518833021484966,
+        "reachable": 39,
+        "minimum": 4.999066861817904e-08,
+        "V": 82,
+        "E": 240,
+        "F": 160,
+        "trust": 0.02,
+        "seconds": 0.006597995758056641
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.17722777890973004,
+        "reachable": 39,
+        "minimum": 4.999999573068531e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.10756479999999995,
+        "seconds": 1.0725328922271729
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.07000071025089917,
+        "reachable": 39,
+        "minimum": 4.999999480001742e-08,
+        "V": 84,
+        "E": 246,
+        "F": 164,
+        "trust": 0.2,
+        "seconds": 3.2055490016937256
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "FINITE_TRANSFER_REQUIRES_EXACT",
+      "values": {
+        "it": 13,
+        "S": 1,
+        "U": 2,
+        "cross": 0.014447445442763295,
+        "reachable": 40,
+        "minimum": 4.999999525518454e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.2,
+        "seconds": 5.627841949462891
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.1704058991021101,
+        "reachable": 40,
+        "minimum": 4.999999678187917e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.02,
+        "seconds": 0.0064849853515625
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.1174556525126252,
+        "reachable": 40,
+        "minimum": 4.999999337080904e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.10756479999999995,
+        "seconds": 1.3090717792510986
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.07646509149983166,
+        "reachable": 39,
+        "minimum": 4.999999529010788e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.15059071999999993,
+        "seconds": 5.24155592918396
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "cross": -0.07640817153441928,
+        "reachable": 39,
+        "minimum": 4.999999384116817e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.06023628799999997,
+        "seconds": 7.0231428146362305
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 2,
+        "cross": -0.07640787299937762,
+        "reachable": 39,
+        "minimum": 4.999994777332323e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.009637806079999997,
+        "seconds": 8.758859634399414
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 25,
+        "S": 1,
+        "U": 2,
+        "cross": -0.07640786802244341,
+        "reachable": 39,
+        "minimum": 4.9999945938150746e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.00061681958912,
+        "seconds": 10.443763017654419
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 30,
+        "S": 1,
+        "U": 2,
+        "cross": -0.07640752294543976,
+        "reachable": 39,
+        "minimum": 4.999988515685983e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 0.000246727835648,
+        "seconds": 11.934255838394165
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 35,
+        "S": 1,
+        "U": 2,
+        "cross": -0.07640571651950866,
+        "reachable": 39,
+        "minimum": 4.999687418682504e-08,
+        "V": 83,
+        "E": 243,
+        "F": 162,
+        "trust": 6.316232592588801e-06,
+        "seconds": 13.499817848205566
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 40,
+        "S": 1,
+        "U": 2,
+        "cross": -0.0764057162487877,
+        "reachable": 39,
+        "minimum": 4.9996877611942074e-08,
+        "V": 81,
+        "E": 237,
+        "F": 158,
+        "trust": 4.0423888592568335e-07,
+        "seconds": 14.985766887664795
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 45,
+        "S": 1,
+        "U": 2,
+        "cross": -0.0764057162487877,
+        "reachable": 39,
+        "minimum": 4.9996877611942074e-08,
+        "V": 81,
+        "E": 237,
+        "F": 158,
+        "trust": 4.139406191878999e-09,
+        "seconds": 15.178223848342896
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "FREE_HULL_BASIN",
+      "values": {
+        "it": 50,
+        "S": 1,
+        "U": 2,
+        "cross": -0.0764057162487877,
+        "reachable": 39,
+        "minimum": 4.9996877611942074e-08,
+        "V": 81,
+        "E": 237,
+        "F": 158,
+        "trust": 4.2387519404840956e-11,
+        "seconds": 15.354330778121948
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "FINITE_BASIN_FLOW_STALLED",
+      "values": {
+        "it": 51,
+        "S": 1,
+        "U": 2,
+        "cross": -0.0764057162487877,
+        "reachable": 39,
+        "minimum": 4.9996877611942074e-08,
+        "V": 81,
+        "E": 237,
+        "F": 158,
+        "trust": 1.6955007761936382e-11,
+        "seconds": 15.400121927261353
+      }
+    }
+  ]
+}

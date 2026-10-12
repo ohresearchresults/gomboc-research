@@ -1,0 +1,152 @@
+# figure-0479
+
+AI research report · 2026-09-22 UTC
+
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
+---
+
+# Calm Raven 68 — BR76 continuation to a near-minimum C42 fixed-geometry obstruction
+
+## Outcome
+
+No strict own-centred `110` / additional-weak `000` body was found. The parent is the exact `BR76_C114_CAP_RECON222_A4`, V38/E57/F21,C114 strict222/weak000 with one physical and one same-centre polar residual feature; the journal explicitly identifies changed truncating-plane orientation plus retained-support motion, with the fixed-incidence SPD cell as the complementary subproblem. The active target is C<500 (E<=249).
+
+The strongest new result is substantially lower than C114: an exact **`BR76_C42_PRUNE5_RECON222_G2`**, V14/E21/F9,C42, strict222/weak000/primitivezero000, with exactly one P bar and one Q bar, followed by an exact theorem excluding **its entire nonsingular affine orbit** from weak-free U1 and therefore from strict110/weak000. C42 is only eight complexity units above the accepted internal lower bound C>=34 and it sits exactly at the accepted face floor F>=9; unlike the further strict222 pruning descendants with F<=8, this incidence is still combinatorially compatible with the known necessary bounds for own110.
+
+## 1. Geometry-changing route C114 -> C84 -> C72 -> C42
+
+### C84 changed-orientation checkpoint
+
+A finite geometry+metric nomination was rationally frozen and independently exact-audited as **`BR76_C84_DUALPACKET_RECON222_G4`**. It is V28/E42/F16,C84, strict222/weak000/zero000. This is a true geometry change from C114: truncating-plane orientation and retained supports both move, the raw uniform centroid is recomputed, and only then is a rational affine map applied.
+
+Its 21 raw inequalities have common RHS10000 and source labels
+`[1,2,4,5,6,8,9,10,11,13,14,16,17,19,20,21,22,24,25,27,29]`, with rows
+`[[-8340,70,770],[-6830,-2180,2710],[-5822,-4123,4545],[-3680,-4110,4410],[-2490,-4450,4720],[-1810,-4520,4790],[-480,-4680,4750],[196,5213,-3345],[0,-4720,4700],[1710,-4490,4360],[2860,-4050,3970],[4819,-4620,3873],[2104,222,-1570],[3524,804,-1750],[4760,-2660,2820],[5100,-2230,2480],[4556,1330,-209],[4421,557,342],[4485,-413,1073],[131,-841,-727],[-32758,8045,-14537]]`.
+
+The exact affine map is
+`A=[[21080,-8398,336],[0,18268,13523],[0,0,2597]]/10000`.
+Raw volume is approximately 59.06864799722514 and raw centroid approximately `(0.589229056828103,0.871044028310501,0.988332401229279)`; the report contains the exact rational values and verifies transformed centroid exactly0.
+
+Exact mechanics: S source rows `[10,11]`, U vertices `[8,19]`, H edges `[[0,2],[14,27]]`. Sole P bar peak19->elder8 dies on `[14,27]`; complete component `[2,4,5,6,17,18,19,21,23,24,25,26,27]`, cut `[[0,2],[1,23],[4,9],[5,10],[6,7],[6,13],[8,25],[14,27],[22,26]]`, path `[19,24,26,27,14,8]`. Sole Q bar peak face4->elder5 dies on dual edge `[1,15]`; complete component face indices `[4,9,10,13,15]` (source rows `[10,17,19,22,29]`), cut `[[0,4],[0,15],[1,4],[1,15],[2,4],[2,13],[5,15],[8,9],[8,10],[8,15],[9,14],[10,12],[12,13],[14,15]]`, path `[4,15,1,5]`.
+
+### Exact whole-P separator at C84 and C72 reconsolidation
+
+The complete C84 physical dying packet is itself strictly separable. With
+`q=(595,-1992,-1992)`, exact values satisfy
+`max_retained q·x = -37018029500/5578317 < 1000 < 25389118852500/10181367067 = min_packet q·x`.
+Hence the cap `q·x<=1000` removes all13 packet vertices and retains every complement vertex. The packet has k/b=13/9, cycle rank r=3, and the exact capped maximal complex is V24/E36/F14,C72, matching the cycle-credit change E42->E36.
+
+Using the simple rational affine map
+`A=[[170,-247,-153],[0,230,328],[0,0,26]]/100` (`det A=5083/5000>0`) reconsolidates that C72 incidence to exact **strict222/weak000/zero000**. This is `BR76_C72_WHOLEP_CAP_AFFINE_G2`. Raw volume is approximately36.74005082385664, raw centroid approximately `(0.415651330517576,2.468335351238731,2.823120246311017)`, and transformed centroid is exactly0.
+
+C72 active source labels are `[1,4,8,9,10,11,13,14,16,20,21,22,29,30]`; S source rows `[4,10]`, U vertices `[9,12]`, H edges `[[1,12],[20,22]]`. Sole P bar peak12->elder9 dies on `[1,12]`; component `[0,2,4,5,6,7,10,12,21,22,23]`, cut `[[0,1],[0,3],[1,12],[4,8],[5,15],[6,11],[9,21],[10,11],[10,14],[16,23],[20,22]]`, path `[12,1,3,8,9]`. Sole Q bar peak4->elder1 dies on `[8,10]`; component `[4,10,11]`, cut `[[0,4],[1,4],[2,4],[2,10],[2,11],[4,12],[4,13],[8,10],[9,10],[10,13],[11,13]]`, path `[4,11,10,8,7,2,1]`.
+
+### Exact pruning descent and preferred C42 endpoint
+
+At the same exact C72 geometry/metric, an exact deletion descent remains strict222/weak000:
+`C72 --del21--> C66 --del29--> C60 --del9--> C54 --del11--> C48 --del13--> C42`.
+The corresponding `(P component/cut, Q component/cut)` sizes are
+`(11/11,3/11) -> (11/11,2/8) -> (10/10,2/7) -> (9/9,2/7) -> (8/8,2/7) -> (7/7,2/7)`.
+Further pruning can keep strict222 but immediately reaches F=8 at C36, outside the accepted necessary face bound F>=9 for own110, so **C42 is the meaningful low-complexity stopping point of this pruning branch**, not the smaller strict222 controls.
+
+`BR76_C42_PRUNE5_RECON222_G2` has only nine active inequalities. Source labels and literal rows are:
+
+`1: [-8340,70,770] <=10000`
+`4: [-5822,-4123,4545] <=10000`
+`8: [-1810,-4520,4790] <=10000`
+`10:[196,5213,-3345] <=10000`
+`14:[2860,-4050,3970] <=10000`
+`16:[4819,-4620,3873] <=10000`
+`20:[4760,-2660,2820] <=10000`
+`22:[4556,1330,-209] <=10000`
+`30:[595,-1992,-1992] <=1000`.
+
+The affine map is the same G2 map `[[170,-247,-153],[0,230,328],[0,0,26]]/100`. Exact audit: V14/E21/F9,C42; strict `(S,U,H)=(2,2,2)`; weak000; primitive-zero000; S source rows `[4,10]`; U vertices `[0,6]`; H edges `[[0,2],[8,13]]`. Raw V≈43.7535784439084 and raw centroid≈`(0.256471619410394,2.266619656191396,2.43908357467136)`; exact fractions are regenerated by the capsule.
+
+Complete P landscape: peak0->elder6, death edge `[0,2]`, component `[0,1,3,4,11,12,13]`, cut `[[0,2],[1,2],[3,5],[4,7],[6,11],[8,13],[10,12]]`, attaining path `[0,2,5,6]`.
+
+Complete Q landscape: peak face3/source10 -> elder face1/source4, death dual edge `[6,7]` = source pair `[20,22]`, component face indices `[3,7]` = source rows `[10,22]`, cut `[[0,3],[1,3],[2,3],[2,7],[3,8],[6,7],[7,8]]`, equivalently source-pair cut `[[1,10],[4,10],[8,10],[8,22],[10,30],[20,22],[22,30]]`, path `[3,7,6,2,1]`.
+
+The residual interfaces are unusually tight: physical death edge `[0,2]` is owned by source rows `[1,10]`; Q death pair `[20,22]` corresponds to primal edge `[8,13]`; and these two primal edges are exactly the two mixed-H equilibria. Source row10 is simultaneously the unwanted stable root, a member of the two-face Q dying packet, and an owner of the physical death edge. This makes `(1, 4, 10, 20, 22, 30)` the natural coupled geometry block; it is a search focus, not a topology restriction.
+
+## 2. Exact full affine obstruction for the C42 raw geometry
+
+The C42 fixed-incidence SPD subproblem is now **closed exactly**, not just sampled. For a centred raw vertex `x` and outgoing true edge direction `d`, the affine escape form is `D_ij(G)=x^T G d`, linear in the SPD Gram matrix G. If an affine image had strict U=1 and additional weak U=0, every nonroot vertex would have at least one strictly positive outgoing edge. Such an edge strictly increases squared G-radius, so choosing one at each nonroot yields a root-directed positive spanning tree.
+
+The C42 graph has exactly **28,269** spanning trees and therefore **395,766** root-labelled trees. The exact verifier constructs 42 directed-arrow symmetric matrices and a bank of **413 equal-weight negative-definite blockers**: 353 triples, 55 quadruples, and 5 quintuples. Every one of the 395,766 rooted trees contains at least one blocker. For a blocker with matrix sum R<0, positivity of every required arrow would give `tr(GR)>0`, while SPD G and negative-definite R force `tr(GR)<0`, contradiction.
+
+Therefore:
+
+**For the fixed raw geometry `BR76_C42_PRUNE5_RECON222_G2`, no SPD Gram matrix gives strict U=1 with additional weak U=0. Equivalently, its entire nonsingular affine orbit contains no strict110/weak000 body.**
+
+This theorem is strictly scoped to the fixed C42 raw geometry. It does not exclude moved normals/heights, changed incidence, projective/nonlinear moves, added temporary supports, or a different C42/F9 geometry. The blocker bank was numerically nominated, but the delivered verifier checks every blocker by exact rational Sylvester signs and checks exhaustive rooted-tree coverage using only the standard library; the theorem does not depend on floating eigenvalues or the finite search.
+
+## 3. Secondary exact parent-metric result
+
+For the fixed C114 raw geometry, the old one-parameter `diag(t,1,1)` rectangle can also be widened in a different scoped sense: exact source rows16 and29 are strict stable for **every positive diagonal inverse Gram metric** `K=diag(kx,ky,kz)`, `kx,ky,kz>0`. Each outgoing polar score has all three coordinate coefficients strictly negative. Thus the whole positive-diagonal K cone has S>=2. This still does not cover off-diagonal SPD metrics or geometry changes, and it is superseded constructively by the C84/C72/C42 geometry-changing route.
+
+## 4. Evidence tier and finite work
+
+Every promoted C84, C72 and C42 endpoint recomputes the actual uniform filled-volume centroid, rebuilds maximal facets and true edges, checks exact centred mass, audits strict and additional-weak S/U/mixed-H, and reconstructs the complete same-centre P/Q landscapes. Each endpoint has one exhaustive exact rational implementation; cold source-only replay is reproducibility, not a second independent mechanics auditor.
+
+Finite geometry/metric searches were used only for nomination. Fixed-incidence numerical SPD searches around C84/C72/C42 produced no robust110; they are not exclusions. On C42 the exact rooted-tree theorem supersedes that finite evidence for the fixed geometry. Numerical discovery used CPython3.13.5 / NumPy2.3.5 / SciPy1.17.0; the durable exact capsule below requires **CPython3.13 standard library only**.
+
+No global minimum or geometry-family exclusion is claimed. No C<500 strict110 body is promoted.
+
+## 5. Most useful continuation
+
+Do **not** spend another turn on an affine/SPD search of this exact C42 shape: it is now rigorously closed against weak-free U1. Also do not prune another active C42 facet if the aim is own110: the immediate simple pruning direction reaches F=8, below the accepted necessary F>=9 floor.
+
+The high-value continuation is a **geometry-changing nine-support/F9 move** that breaks the C42 blocker atlas while attacking both residual interfaces together. Start with source row10 because it couples the two sides, and coordinate it with row22 plus the physical death owner row1 and Q-death row20; row4 is the elder stable root and cap row30 is on the Q cut. Allow temporary S/U/H births, root exchange, and incidence turnover. Recompute actual mass after every geometry change. A successful changed geometry may stay near E21/C42, but there is enormous headroom under E<=249, so temporary support additions are acceptable if they permit reconsolidation back to F>=9 and weak000.
+
+A useful acceptance hierarchy is: first require the C42 blocker bank to **fail** on the changed raw geometry (otherwise fixed-metric U1 remains impossible by the same certificate); then seek an actual SPD U1 cell; then audit S/H and the full Q landscape. Because both current H edges are exactly the two residual death carriers, a genuine turnover of either `[0,2]`/sources`[1,10]` or `[8,13]`/sources`[20,22]` is more meaningful than another scalar bar reduction.
+
+## 6. Complete durable recovery capsule
+
+Save the following as `RECOVER_CALM_RAVEN68_C42_FRONTIER.py`.
+
+- decoder: **15727 bytes**, SHA-256 `d968787ae2e30432785a2dc1d783f41d559b2fcdfa19ef7d7e0151dfece2cdc8`
+- embedded `RECOVER_BR76_C84_RECON222.py`: 10815 bytes, SHA `4d86bd950b027eef9d9b5aaff10d7df7edf6539f96046687f4b55dea7b7886e5`
+- embedded `RECOVER_BR76_C72_RECON222.py`: 11869 bytes, SHA `9e216ea524beb5f1d71c7f87f4580f9444d4168b2432032c03c3a4c9fce7a8b0`
+- embedded `RECOVER_BR76_C42_PRUNE5.py`: 10926 bytes, SHA `13e750bd6fb03c667ca3b4880fe16673e6c540d571831236e1f169a67737b55d`
+- embedded `VERIFY_C42_AFFINE_U1_EXCLUSION.py`: 13136 bytes, SHA `7e6e7f0190a3f239bc0f05e8e23dbf72801bafe5bfe9ed9cd48ea7a91873e8cd`
+- embedded `VERIFY_C114_POSITIVE_DIAGONAL_K_STABLE2.py`: 5114 bytes, SHA `8e4696b082b49120976309609e51821c0cff07065e2747899be00a2e694bd3a5`
+- C84 report: 17196 bytes, SHA `a3d441c3813699dcc6f6ba60df65bf5224bf9db9ecd80d50f9235c53c376630d`
+- C72 report: 14436 bytes, SHA `5203a5741cde33381f3b1e36003e153c775fa0e0a6547f686af6891aa82259d8`
+- C42 report: 9587 bytes, SHA `77355e9ae1d1c84d21ea2acd474a35da4f8acbdd649dcb15418516cf49f146d3`
+- C42 affine-exclusion certificate: 2752 bytes, SHA `b7ff1f39884c9bc2d46313191ef33b5ede4c3e460aa85b93420da39c43a52799`
+- C114 positive-diagonal certificate: 163540 bytes, SHA `dcb3285e4452b301f4afd274d7f355d8167612311b734963c3a37b127eaf7569`
+- observed cold stdout: 1627 bytes, SHA `edf4c2dafe4ade2aab74bfcecf8510140bb23e83efd634656f4e352aee66566e`
+
+Run:
+`python -B -S RECOVER_CALM_RAVEN68_C42_FRONTIER.py OUT`
+
+Expected final marker:
+`CALM_RAVEN68_C42_AFFINE_OBSTRUCTION_COMPLETE_RECOVERY_PASS`
+
+The decoder embeds every exact row, affine map, blocker, verifier and expected output hash; no sandbox file, old material ID, NumPy/SciPy installation, or inaccessible reasoning is required.
+
+```python
+#!/usr/bin/env python3
+import base64,zlib,json,hashlib,subprocess,sys
+from pathlib import Path
+P='c-rlK33u8^)9zo<%$)my?8Zhd2?UIC4vFo=-(<D3OfKef1d?qzAczFENlyOzt*Txm0d|r}=3U7GrCzJ6tE;P9PdA@`Jvn^z;_czd;NeNLF?i%T0}Oc1Ip3Qte{KKz+b{czEZrZ*$$pev8?)v7a+=s@$=R>?_wY6t&5dljNJmj^nv9o58jYscQM%j@7GXR$&ZnuNOFnqhefqNd=#RtKx{|?TXAcTXUIuBD%-cqgT@3iET67rAYs1@@FWxO~UNo1ZXV#m{X2$80E_WMei8ZuZRy4GS^{CYh1J@4S$Qim(6j%+n-aL2RhU<CW@Z7Bj=aI*Qa1@PNBgboou01>-QI)SRBZFH;8qDKq5{!+@V0@m<f>D$iz>E<X7twSQ&C_LVbQvTUadKgVQ8tQ_Fi7Uc^!zLl4YMp~@TmJTZ&KH38*?Z;i)I0q4jE_TAc>4=8bc$gJ|jp%kkvehlPEk(vc+sRP3NL!sxAtd5hozs_!>$oMo%a4e2&pr2P9Yk?~5b`Nl(s_>*;tgfg+%ubQ*_7oKcTVW(&w-MA%*9C8OGdyy<ZQT{e%0V<_<a99S|Y!R#!7%uomLI-8B-DBLp)lvy@P<JlaF9WLT=m_gFpcmjo-gXrej{ybeoMigE|858wEf-GZa$@yYDHnMpdkLLR~QSiYy-G8$`iEpE@_5>Nu7MWlS*&Ro7s4194HEK#^yxe~U{DyHbu05%rB_Pi*8wIl{1FlZz@D!w>F^-36kS-0>#66{>P;)w+80RSpbDCsEJV9X^M=}6(&Nz~Z;yK7+Ivwjozze88$teSYh``GryM(IPRW?mnw#-nQo_C)e`jxM!dIc1{dvf^vwO_eU(RH!`D7;_!QEi9f4i2CDRvrGFCBGRb(;H(P3?pdeERC`#1r0-8LQOV=#??|x1Bwt_L~Ua_4k6O5>s;eSW`OX;v%y;+>(du+P97Z&o^~G|K0Wn&7URreE^9E4wU||Bmc=ZaSq`%r%xW^L#dw`@NX8j=7<U<OGT!Q+B_}W5LH@I(SMzMA&YJMAS?{x6t>M{qR^yfj`I;65xgKP%ITp8><2o(|*$s$?AgI!DFcp@>ofZZ<E(A6?WwksDgItb5EedidC+2sWE{0gG26H*EU9)X09g4yfP0CZJ6iq4xi+Ah>hH$TeA$6$AZV}^-2aSbtA(!nnZ7POab!ap)Z@HAnc0mdr1lBB3x6{OOcmqDUM=ZP0fe^w$3LIFaavbP;kShtM-ok7S$kcV4%yu|EdM-)>Bwxp>dzNjnn&-erlQ)HMY~FM|tQ%5Vj%zpj*b7gf6F_VFJL4#+VxO32N!PDdkE*~shzR0Lc2tE<YI*9xwi`s6P_AJZkhYG&md6`9jRh^WH>IKv?zWmD(!@a(M(0L2omT@kG}~Y;7ij{va8kY9S<=jM%a&lfj8E~5l9(b#5Qe23^97ib>h11*d9uZDQ=Zy=c_xc7JkD41?1)+K7IOqL=_s9MS*e0*(6jnG!yfO~0{8&R>N82zF|00PnWQWXvqY>cG>k|xY@`bnvJ#bHxJ>vFtZwx-mmogvB`{CG1TalaBR)57_rfTFnI*vx-?t1H=aF$<`CLf&W&d+2*_VoJ+!zdee7>ySW@elE6iW=o<Ld2$dM*o$l^j&WG*DSd?B9_ZXA7BD1tn8ic{UwiM|L%_Si)Iiql87u10Ut1!cAS(f$!H<$<L=rBqD|u8*(<Z{b45nQx#Yo{@Z?HbpjYr0gTju!z1qmFn|IZ9&LEEWmUKS(Aud&svQWfK}z`MW(`W&sSfkNp>6I$sWOb$FvC!>cChrJ=GF8yQLt4g*ph`{=+LfFdP^1ZNfaVV7IBJ^a{Ar8V8KXUh|<ub>cK5Lz+ri?l;5A=TPhX!40iRIl6FYaeg?|Po}nf`1JyM<pcgQo8sRT~T_hV#&;4Ex2YY|Vrp_K<XQ$}!RBf{_Qek*p440LtxT`zjsE1>}_kmJ<D5k=m|L}_+_d8ct_a(UMmy7%4KkLOYG^^jcy27s=dbY$feASBa)=GT6zfv5uzZXMP-~WUaR^#0(^Z#(rNHN}OpGrL-42t-~oL7CwydSR1z+4xZvQfeOIvQ1<vD+0hg=X}b;AQ6)KEAb3QLOaxt4jLM{hlcH2<%Kgh*LqQNaGyR?>zK-<s>lCNEuyU`=7t$3UG|EMfa;JxWM@cCy!Fk-}=%HJntQ&)ERzT@|(kV@1cx%C?g(<h`yN@f@TmMX0!_J(KG?ieG!$S(M+L@eGY;HiT>_C1Y%W8l0mb5ecik5`<5u-EpV8E4_>{#*5d+GzBPTHd$QT!K@Y(5%KToxbDn`W4MZ-HG-e4_6G@94K{dsZk@=rv!3?`Cr+Z84jhrXIwhwHlasNxHX~@fYW<K!kwq|1w9Di8uRMXfL?5F@pC^E~2<c#~^A#w8innll#E9cK8{|}u%*)Uuw3^0FI>iw8q-P8ZX4Cnwaw*Qk)!O$cBBZ%TymM#2*(r)K<O0AV$^T{;(eif=NC`B~ZSs(Cr8pJS6yVPpn=`c;FX|-Az1|i7+ScU~e7SXz*!k{E3vYKYz+DvIe&PGWiC=KxGaA`A_qj6N$g!7o4XXP#yA}NR?2(LgN+P#8)o@ZamhBRW+8=+E~l|5JjO|t5mSv`kJF(qVJiK5Eb(2qJ$WiRL}B^jC&Fw_A-L9DX9IG}XD5KEuPZ3?gUu7mL+0!9j%vbhhg2WnquwDfz~yx)NZ%(agLwli9!em2h&-(1G9oP7<e(G`A^TPo$6s=Joe^&op6TY3G9k7b%`&4+AIetVdLGg6L}ZAos8WI89UU9MRDr4m7MYZA*0xrP5Mxm}Y9%44(yfyg15CrJF~Jw4QV=W)N^A^*?sz3qMI=X2U<*=yVVvi9TP7mgvix<eM242cmCCQHoU>unS%<OCzRJC3t?71%^w4uP4T)$SKNLa3x_6fj$|2BHC&0vcg8XiYCnT`kw|-BK#9d^U6qI`90_qM&Y?9q<>+LtwNNEyV)vb`LBjrCGC9HF~4usw4mgpI72@*Xo=7PAJ?P;cRQKCVWsY7kRMjhaqr}3y^n=mIt^Lk;@Ut%EC~#Magbsg;JbiFULRFZ*<gtj*o@D!(|k6cEA<uyo6x@-3SULQ<%A0zm?)T;8Lu7O|Aul8?boD;t^&<28))2B=xcv2Ym*gL;4(jlT;445D6DD;dct9q(H#1e?V#j8U1RV!C#r8d+d|r*)==e<JW%CL+Tz22kBcq87%I--;*9vm(4`7876xvMVCy|NifdxRL8HurGUv(IyS<rsv#*eT|#=AVQa!y0BWUsR`YcV=I~OknJzKOrJiWPn)krOSIyjOeqR_4AWLP(v$nFsVaW)GxdncM4#qqBJSCDopFAO&K0ifZD{wN0zeTT{&C1ix`{J<5AP2R1Mz-ZW>hw%X|4JEJv|3a;xM90Kt>*pW!Y>2s4u)PYDzmKYqCuRm){pHsY8=I@Q#K`|g=72OS}Hk*3LBC)Mw+8`(c(%CKx^AMpHAmA0uy#gA^XCmN?;&j+siigJxHCshmH`I7Bh=Sw711h!)=Apk_j`ri^iLbju2A)$AxsN-L`wBw4Q8DvGUyEwO?){Sp#T)c+EoaaOZQMGy&r<U>~dii4WC~0#S~Tcs>W=p+9rw7u+(k4gF5SCdCe5nl8F_38b2^Wa6vNU`R~ZL=X^bb}sxR*_ljg$z&&)sL^&&v{YluC)b|3DKRmzew>()%iO={jCmmuh9<RQ9!j+C<3Njr(u^&Wnmu7-Zo;gG`O2ebK4(@9KE^O{ais$M$5r6T6V<srkZk`xHQ1Q)6<9!Og0+7sbQgwz(p}jrFecOjo_2*Ur)gMSu<Mdj8c;7S*uv}#hmr<$8I6d(MmmiAAlMy^YJ6un)YD2->@2yG4FYWFaQFZ+hz0a$q(XqAkZKU@Kv}~f6b4!t<qQskG^_qu<Zc+J^Gi97Z&`7b`e(m0j*|}%R~7C06IXzLf`K#9%QwGa&GIL$R|<MN3sPS=TE#TrA3{H5A_kI}o#|q(Js-t;3Yr7fY{jJ!E-z#P=6><xwxE3c5@f#<`+_QGl=6(re$)+<Et2aMk^uV<E&XvY8HR!Jsa>soLignpZuxw|EuRfumM@uQ^nJDNSqHv9+_2u3u~pG4JrWBTjy|g?()_&~Im{zLbK6)qIJ)H$hto9iS92*X!^j8z%^D9Be$$4YP=h0cVO7QazAA)8<1k8n#T!Fw=J!B?eMZ&!v<r(RfnACM6>wv+i(r;V)^1F5MMT(R!@eJ^=|Auz!e&GE5!#9h{oZ8s{i^IziTPYj=;T}BVx{`-)PSCT_l7>7l=JjZB~MLqq2GwFCr@C7?DsgV@p*sE>7NbJ;n)8D$MWN;@cG|}RRENv-TrV9j0dHq@#?ZXUm6xxsw*o*GCI@A3>JgQ97Z-9;uvBVV!ct&%hdseWrNJHbjq@#!lJW|s*t2tp@#}gchD(w|1*VQmsk2<I`X}(k893N15?ItSU#(qM_@*y_2`0exmcZuS4T^gTubE6{Kc<c=?7E1T3s<-52!tN6eo3WPOf7tnoRVSc~4tMC|$B%k?6K4=UZ?XfypQ`8G-f4`CKtg;1W-7prVznjFQd#QqJ-%;)>7LW#J29$QmJB4R&a+3cTuX@;FISxD!!Sh&FCZeCd4r==Tbt{Y{$j@gwyPB_lIZ>8rg2EOrC`3;*NCz1ehDt(%+mMQm(Ht{45gHRifh6Mpor`~Cv>RxQ0=vqvx<di`}PS!Dk{){6<(<Aq2TxD$(<(QYhOsn`M6VL^K|(5&^`lu~Y8R96^ZwcpxWD6>Nv$WVi20FWl5_Top;Ft3?lM2q+Z`}3ZGRTj3V^Kmuu71(Q*o4vB#CAFsVV4(CWIvbcBwi30#Krp0L%Vw<&rF^`*l#d%qahc_4YdY`J^1h1`d>1G9Zt0y4#4DFfU<L*P9pLv$P=L|~`RYnJjSx@aQ)eW>B=QkO0rEyHkS`z*@@bG=2Hb7<IWB?~UsxU-K4%3_n(#=9pAtJP4Q|9vHNKA!PvG*MJUK1o7Z{j9*YEY@tJA_Ojp>bO5F#Ytx!Y%NeX+a64*h(8iyire9WM6B=R1YS!sMg3&NaoPJj=}}37HA7jW3E9YPP}ZQh2{m8@5+&D^be?ZIT@H9upNa31(GHlJ8uYOv(kiUgSm{D7Iw|Ryji)QWS2eWk)10Cel^*D)kDJ|NCq<&0=aS#z!e6oJWxDG78gxq>39<#frr;$G^j2VYsppk?&;eI~n~Bqi1P65%r;$<ddsZDm)mDBma~MVx?PprG6=C`)Qvo5}ErA%V6fjef%d+3T3}UU(E+Y@rnpA3K%j_$TOdYIz{GTG;j-LOoH?SIG$g_9t{rv>^^!uIC}H+>7e`O;Q006W%u;7Qhw(v2Bdn+Hwj{}Hfa6O2rCyV_4V7o&Tu>(f|rp^lf7^;nZbI8q2(OFA|WH+fJqSC6k1n>?q!vB#WZ&-XJ<*p+>4UYG}LAqrVy;GJ)K3OT2{FkLaLiIo<~)zN+yI3OJLd5tB9so`lay7+ry(r6$a67L6_j`P<$PUuSf8u*2VZNNeH9`Fa{9;0jLQSP}Y#u`Zf($%C<3LCG)9pW+f}AD_HaChSD~vAEtdnu}af0<cUZx6mGS`mxEa_`Vc|maR5NNlEzi~n`eu=($UnxDz8=xef5onzPhu}GS@;e2gBtYWrdkZADD^|(?f+xXx^T97K!#QquVeBOE{;s0;t(wfV0hD;QN)q0JVHDsI*Djvt_myq!-uZl8P69D#&~wQ86?a&XQl*3U;>1|1Rt-l>F|=i>HS#5on4yzJD@o_B>9r`F-HouS0&j2ImNYRRtiNu;;cAgVt(s@!7|>Rxs`U?i<)>Y34~#6A%<EC+68%qT!;JT|*dabZg8mmsvc5Qo|*oZ%H?$V<|wl7>rKhQld>KAjY#qWZxs0YZ+N<d=s#iy!iPgtcVc0`W1Ywv4z+EHF#}lGz_{&N5{_(2aov{T>BMpEwk%eeC@vizLu>Sx)S1+Tf05fr@lhmTF^-lKzLj3G&OCxHqk3cT5N$#Vsmd(3X!ZKqP9reEz)+2wA~_Yw@BN6MWih_jxgW{au-Z^vID)S);K+IJcPqY&c-4c;XWrg7M^2>tVT6=+NU>}cpV@Lhb+NdxUHh7B)X9&*48|3<>-RvZESG7UrJwl@4H~Zy*7t#>=*<N#?v1-2YweQm|K4*AXsffi(_-&f&m78%(ihi0NA(#0W744FW7{Cht8Zw{v0@SwsPhg;GpRpRB?pR@5O68cr?^vy}wUo%X}aGO&vp>0et}s;u|k;N$5%P29psXC$aS(+1s8%LB)CLkTHb?ix2-dCsX{E_o}IAACLdoUdysP&*g3%ofz;U?MAcSXqMAc9gx0eHz7%#w=gw$Wu9$qNNN0TT*7~>q%`Phvc?1^BN7wbiExJ@H&DzEAP;VAso{v+e{Gy@aq>R_C-3~H<Kz`Wo|bQ0g#1?!@^)j3kl!NY|Lqa-&K4oRMaXXv@>_)b79qby$ZrwyTZH@;A-_e)ZxQlag!~pEzeUJz5%ODv{1zeqGZ69?v#cM7$lG}-|9ud7{XV1gD#YLPZbYUlydf#SFxkTGw{ZLa0J!}fSi~*ZehaqWg6;oKu)V_vFHhb)KXiXG)Lxfcz^n5u)_#k%|L?@wZyXN)O-Or(c?8aI6fA>(1xCLCGrx|7-++Ao24MRJ(E2Js9SXV&TTX)O?|55q`4(Kh1($EZ<y&z17F_<V;PRI#_<%`}jL<6s@9G>pzB%rBTt>KFgtnl|foSvE0|OSt;Qvj>QB697Fvsqd$9)mFyDx#euv{(UfA<Uc-^v!3`>%`3wf=)}xrO)5ts*9Mi@@E4z*WaIwg}uU0{7n+f!o>waJK;5EdX~5z}*6Hw*cHN0Cx+(-2!m80NgDAcMHJX0&uqg+${ii3&7n1aDM^-x5=764!`BPkpDjPtw7?01ANy)$io$AWJ}%yh<C-b`dhH>7OcAk>z2T}8^KIlsO}c3yM^lhT&V8b!;|Bq_cY)nB>s&B<LuGXH>bxho_{-H_naV=N(>6m`3CB{9gP<mA|Ag5xqA?yLj{9s**3Bm7EsBBaW|S6mh&LZ+AL0BhBSst0u_Q26{Q+Ae1`YyWs7lS-Ur!Cj(|7JEU=@~n?xc&Ljx+r`36?);gU&kY%)zU;A}C5b)IZ#JP9r$^fHA(2+xx0VrI;z;EEe@nnvU3I!K^oSi4Uz2>l9!hOl5m#K#(^FAt2zX)r<jNE+W7kAdB;fy20Vo<<0rr9oZ;iHfRjri*cC1R;!SBcLsuS{OsC5#pg{9wQ>Os*%ltgs{EPqG%7n%D^bWEn*PWXo`g|M)M3^e1m(8H(KR9nXzx!EtfSL4XO(25Wyf%knm+R`jCmc38P?ii6x@fk{Ngt-}KyYEL%!8`Uq}n?IwyZE`jY7y$?`u7<XxgKonfBX3GicP&`ti$QBcF-=m9w8U=PePQadmgq}o*b4jK`d<c=1lPGH5O+3FmOTdK05^qfS-#2pGbB;0~t)=c&n%hA&NFzuQ(anjV1t8U8k3*57%ctoOWRG2rDjq6mjbOmC>V!A0*X#dKOt6f&W6WR;6V&(LjHg%w2t|q?)?3L3FjdoVF@lzWlM|)jPJ$1Gi1G1Kv@IVZqVHhM3tE(1KocK!pZ_uV-_sY*{Ys_s`RrG6+RlD$_j+{(4nJO^MxPcwSoB~qM9Ol8$XlB^^og{?n)GR5B9}Gbv%x(2q})x`qEEW{+M@>#ylMDqi7-R~Qw5d?rXMx$g9rI5v0Y@#Vs*_Nm$YC}#8@)M()`*)3$9&?6}&q#R)pKS9ZeZ4IO6oA8s+Myc``)R-O%l9$x>9yn!3>~nNzgUrl(v2t)d{f47PM)Q4!CdISJ^YErlZ*g5Oq45?qDQ#n^QwT7lo{*|HSjD8f~QO3S$-R2r_b+jT{#G`2|7P)syb_J+#dP;50+E+A}0h?1Ksds8KDsx(cN##0=EjARfZ$y<t&)gk37N|u3?%mMB6G}Tg+%Hir9uFj#GW@&aUPqh*$M^mn%R4Ja$(b73uI!8;%6DbjE*F_Gzmfn@$mLfP;grf)*MHLbuatn<|$bD0O%TgRwila(#R4I;Nf(Tm?B0GwsB?c9#6qhQ6-zuCmiYtxcN~4JIB*D2NRFrKiLX;z=&6WOer9WJ$4OeQzmD+HnHe9I<S8BsqOGUL*R7*u!b;Xdy3zRJ>N0qLWi)-Z~Do-a1R%*tznsKdWT&o$^YR0viaXJyfHRWi^Rg|q`RbDLyrG#87A=gUCwGwjr2?JMC4NZB9vMo*7n$me48SCi0&|aBW_bAt#a?L5%oPz73Vl{tU^M}eW!fY^MuBIBA@`N!b9mH?TQG|-IRg_FC^wUP25rn5QwM56*N-=Du7`E<uw5TGVqZHFois>lDbd+Ipl!iJ=LmkvmPZBb5Q*h>}Y8_RrLx!y(C`VPIG|tf)=V*;{w8lAF;~cGLM9I1=&Ap|$wlv$8=G)SYD--8v?Q*ns5oPOGmDkgGTS6Ngt#L%zI!tn<^vBWq<7oYHwEj3+e;oYn4V6Q4z%>V4bAX!E(3HqwYYuG9fzmEVYZp+OD_hnEwvM#OMV+xE!5vB1!U<Ac=2G!3@)e|tAwj}ysC*4&mKsV88cGcsWR@IFxzg)U$#7HB(UgpJbeN;VJe7m%99-uBDvy=*s)0=unF2xCnsPNInx(ppD3!z2Ib5B?RXK9mDA6~x=o?z#c#p582;vwCyP*gXC8gU`B5W!VHc?zMo7L2mC#t63bdg0Ufi$&1npz-D-S{Row52FnifVwT#qVkHdwR4AN~g1>Lnue9r$;MMDxIs-HFT^TkDeZno*s{$?rcwwLQjt~PmeQCcbKQgnWx1sw!B-4qEcFV{%UDXTYCO#>G`Xr9h{bSa0I1e$<=9TS4U7H9dD{qwEL5LbXM-5i7k2In^@XN3sNUgK8vM=hoqNh^K=3w4MEy6t+F;q=Gkm3CvBZp>3}3XNlG<Fr(Ln`kS01gsX|+MXsZ}1d@(^ba?%r|8q<=L*>D86G%5HMWHTpK0_oOEG7nV=)KDc|%}K?Bn^)}WK`+TdsLZAX<>rEF<b~x%%4+1T$jy(H+Yn1=wjxymFK?SyOsiYb(gT8~C+St>(+tn&8J<rnJf8)4KIA1yp)Hw!)@BZ^%`6&8P33XW+#r}B!_+K1*u@ys{ydptoECVJw!};>)Yc|HI!|Rci>Z_u!&J6T<!UhzU$S3`(mg<|Yrc?O$rr9HJ-J?GT-jfX37e_uW`S<yv}#0C*cs7=rfQHa=UK%n&9$~vQP$F>Qg~BX4w`-COz#RxF-mi%CCruh%`Umr^2o!dU%%oirX^#Px9bVNMd-07mI<Pk7PUw@#Uhaw4kl7VO$bd-Y=suf<_fPH<%wM=Hdy3{klQ7q7nNU&8vzZKO7%1^v=i^YSM3*0pr^gb1~DeY#EUYv)ND@L>k94FN+y{^-EwsoOF?m0S#;h~ZFQ6wq*$DO|4XG(5nE3_y}=nzgD|V=ttb=XY;|6&`1%u5^ePYS3jLOeb59aSBysOa;t~$y;nNq7{y022^&i^151n0TZF2bM%fm;n4-W>12agX=?=FG1%BT>XqkAGwt>2YJ>|;?Lc`A1~!8e+A^+dho5<vTtULE)kSp<~T$5-$4%^~m{f;f_;_h-RQHQYI`MLUsM8}3wxK#zdl9U&b79qKcQNpt~Ud5ymrr_1qml;QsS2;X?6YTJKp@7AzyZ6n|5Jt-eLM5Yne^Se<eD2sgFkxi)4vxU#}Z9I_a3PQlV#e;})i(8*W`i5hKlRa^e&{#W32r)nDEa7DD@BHzb$=<ggA^eV?z}a|+(D?bM2nGA!a*oj0c#zQecRNXF{Pm-R#vNw~>BR-!Y*NEwYk&Dfp^}<N;FnFCMrE!ZHvCP#Ex<P{m($7gB1)nuUge?giy1DBX&NIw0_f=i-_9+K947Jac4X05JF{r~2Oe59{>D>_KXNEh*o(=YI5h*NRUJ(fWZ`h4@#Cix?>t@j&pB1Nf-(+aW+@z}Grn@l(0B*w<w3(eI#fbW;&c6EU4DRYZ{-MKeh_X?9&(%Pb*20Z#|k%`E0k0Jdw~MeN!1)q4$nZm5$4rf7UoXJ>zjBa?h{&jb^MH80vq$R`q+48`nUh@wei>p%g#o%%6D$jy9iONh9s^2?k&0)r9h5>Tm%+@TllBCF(VdjiC`?nDwks2SxT{{jTuGJTm<LWL_mK{s$KRF=JO3#T6D$r6T1(^_qU#H{J)1MFX#fIlAg1#257G0Y=Ce9F`>kvMEb!{Y^&eWD;-`*iXePC=MfY~Mt(3Q=>Ose?e+5wL4HgnK=(cH1-X9aCm*a)tfv9suzX;Z4wGfQD2B4qfTi*jN+3_649mV)8u)%X)E%$_!$(e1U@#q)v=EIn{h(vbG6FOipu_^@?msAFG4wS}@)doM%m>3DjbgBQT_vZkgi#{?5$1g0^G0^A27GqF)}rO<f_cc|i^R7&0(NfYLMdF>l9bI8w6hCl3I5^jKIJaR{3N=aSF366ON%l->{@tQk@BXP*JOl5()KAUy0PU#u{PH2Wqlt%7(PnAYxr3ZurC=aTike+jrKau|7tCbA%~2w#?H>HM%0J?4pnp2H~05ZYy}2Th_kQNZpdQPMLp`OC}<0m4ASn?$NfOYRcq;&mO843-z&#A)y_KD$Ff6p$H~ls%Ucx_0nMmu6IELDy~$BEMJ3wtDcSG$xFiv?0-fu{XLIG;w&d1dSrcntQ^bSQ<Zv|;2q>CbY}WK*vv?5>jdcVmN#Ki|4CE7Vn0=5UijzSw%m^o(tD|1ysr7zA5+^=d$_*WV+=e(Z%_j_nf~{Ti1NCZ}q1QgItu>><jtjX$ADF8aR=j4J<&Zq0JV0GHgJ-kC--{812rL8?jxZL5qIwb!k6OR~UicByV{`q+hKDx(>Yr=t?t17zfa~VZE<WdvQk>YImaRJU8R<(6%^obd774Wi5p^&o1W<4;R~Q#*FuODei6(pWso%r7G+Dj$DlxyV_D^B5fPcGS6Q6?j4*vuhAX!tP0g@sUayTFk{Y`ec2ddg@!*DK|;HMPQFUzh_kk38dXvtVG<o@TNt=7vydF>;|!WShs1?s{%AR}qrYJg;%VrR#b#YBR*;;^kR{Y=DZ16=@!n`BzJ%yXKI)D><^Jb%!W3oH_`V5A`6;e;KlqrD|{V!FrMqM#nGNRG{X@iZ}W*=BydBaw&7U}EW6G`?pwE>@%9@~=%@v__Fm36zohBgXp4QL27db+o=dq1fsb#VWfLQ2vHvthq<=9oO8fOs8vem^|&$tASsbbi@-(w0_O%eDr}>pYax0+Q;^Nr@nxj`%ZkxTCTwlsPT5;anZT+%vZrqe1rj?tSnyQRBu6`-uGbTpo=y8IcrJ^a?P5q)Pic}uUjiD9)C4Co^LuKSxR<?T!s@m-APIt-y<4i!1y0b?)&iBraIBl>ugv+%RG?ezV$Uk!}PF72;3ZnH8CW}Kvo!Pa>}TED<`rkmDb^cse$=*&Ek+vmSfGgTW+(Ve!Mj*9k9xeY8)N^3G?&g!xzsEU!S}mbn$$~I+(n|N?tH(>iw6}uBBHew|@MB+CtF??7sgFUG~<u9Cqk)iyiqb_6R(VLjJFuT2i3wf%3j6VIc49DA-K4KJQYmWa7*ZOsGuGqfE}9eWtL}gZXqGjQ!F?T0HwB*AD~H<@Cu!56d9&P&@>68BNn@;#Zze*RbgqG2Sw*fY!c1S{s{y*3;x}ob@GPw>M*~jS|FK!^xBBI=Y(rZ?B{)(3o?-@=jsr5euFz=r(DANY@u;Yn=RaF~6A7<=4<@0_v=h{wSI~<E2U}dMhs@PDU_V!Gp>^E&@C-@VJIIM&q^8+4OE?erZVub1P2Nd&VJEDiQYOBw7gI{s@;xc7CVi&I<l&UxCguDh~M^&FLy|!B#w98o>qDG8dg*l56R7U2n3tcBoKA_U}8^g~s9ei|41u&mX^e+C5Q*;@x5QkE4^r++rMnMJXQdT05tO*61f3)iS>EtQJ;x*KsWxLlq{*RYi1PMGi1lQG>L?L>cALji;Sx^olb<dia)WD6C*MoFMuMM~93bI6Gun&fw*X)8p62Zx06t$KA&-o_C)P{urFT?mm2a$iL&-{}FUXC<lK{ZskpfVm(_vLWFhV?|5iC-E~R_d6dPG770xc-8P<|P@0qNS-H<%sW21w)vJ@6FhI~M(RKBBng1{vPm>E8n^Sp2*dViDHE8zaExPYtnn>vHV0@N{i{$0a^<ti&;jV20L|^0=<AbP$(IqjQC4cxBU;S{)J}lXXPbM=I`Jk?k!YDsJO`~i!O+sX`bV3P_$ON#&8-vXP7vM%&RCzws5U)V+&i$A+W9TOsP@sy-n&$EkG$K*wESa94=b>mf1j}?fC>OZ6<U#xp0{Y+5h4}~HnE%hY4PU&>@7279%Pii&i{bIMdCx|`ZWAFLwT5RyFal+oh;*zuPMtY*50i3wZZ%oWb`fNRsEL~0@bK<>i#Y_Gu5kx%pm$v6G%3B+a+uS=YwPQEd9yuTY>)TaQ+b#j%5a*lK$Kuyjkg4jr3R%y6rCACez7D`k=4X<pfX2bmAnRBg^xGkBYwo9M+AXjV%tNen}~0t$0nj#pq3^fM>t)ok6;c00E2tgYRJp+@&0_eJ|Az-M=S|m%g+fzM37mI7!(v30d;JPvN6k}N4J5O{5ypCX*jIr;wcxxz=%>%#*RRX)v!j7@V#zbbPWiK<XZ>f@H*b>Z$Y<|?&k0B*sur{D{;EG>a$gETUG<1Ep4xEGppIQI0&5E5R5P&uWi*^_80wb5sJdglrE{z9&h#O#}WzvkfZLS!+}s61VcG^GJ<)CPO8hh1H|tfScH7SUppX77njI8gt(n0ue&FY4?&B?tp&2QhKSqV_5YLZ`j-F>O3PAOk{7SCgh#wDb^Q+f)M6=TsqLqw3-E)|{rAJt_4gyprtgYR@4Nv&%>z?)1Ady{fDd6TEWLR;s?sI)<$SgD-kb1KyOxSe>^B!CY7%LRH{$2{cGC?v;<NA{@FNO^J$1alNpGqD@a5tP4fGvQpdY+Y{7&%CU%5T}zN^D+?<~3V-tc?jK7Z-D@V|CZ_&T;{-J+f)Yv7*mM)ur+>G=!yf`9!+@Vr@SQ&WO+eBW(C<Zn5IhHed)x2cF<Q4&kVP1u{Wqy((_I;!SwJk2*DX*K|8zT=+n6|l^;2FqM;1j~FQOlB1z^BuUDO?P;I731<3&@Dgjvh7VkmitgF8zC%T1+V<Po3Ov_0_?NIxa&Uav*hRBo-FS!6(wO!mbrgPFZ84l5#<#IkSdwp4$v)Ko33AerN-d;C{l_|@&&WuLz0dvh%S~Bx9I7htG>Ksk7R>43o09z(G<4s7K)<tyPNjtl~FZI&5ktorM{PjtiXfp{LwTzKbQAtzml)Xfw)4VCIig%pMnu1sv!8=-wSusQlTPAaR&HYN$?tp;WQ;V4T$AR`-<h^@}e2YRmo=%RKW_BIk;VZs<hWH$D+vo7cppX%LWsGEc*WEO0lY#Rl?{3x8B=y7YueXtEj!ifm#v|sJwWDHae@cG1(V#<g&#W`lcfGwkvIUNm-?|*R6u-nzG8<O565W<*?Fro2+tFX@jd+c~pT#hC?1$MQmpbid%IXTUgqutH}L^fmpW>a9LkzS2k@pJgCFxl0H8@sEggf$_z4t)gh*7GhtA^=!c-{?RBkV#ceG}K|6X>B5ec#3t|_CHg1ZW$FwWa!R_F+tp{k~%8r9%QtsTfEBXErZbh!|TOB`tdw6nsIKX!q$B$0cE|%Dg#Ex6PF^YQfukJ;Hfd`clS4IJ`aTiiv7e)0HHX%E5cd*m}Ym#T1Brg;fB70iHZ_R#BDRe*AmG#_t#ee&@<ah5%e)<1OFAzZ'
+H={'RECOVER_BR76_C84_RECON222.py': (10815, '4d86bd950b027eef9d9b5aaff10d7df7edf6539f96046687f4b55dea7b7886e5'), 'RECOVER_BR76_C72_RECON222.py': (11869, '9e216ea524beb5f1d71c7f87f4580f9444d4168b2432032c03c3a4c9fce7a8b0'), 'RECOVER_BR76_C42_PRUNE5.py': (10926, '13e750bd6fb03c667ca3b4880fe16673e6c540d571831236e1f169a67737b55d'), 'VERIFY_C42_AFFINE_U1_EXCLUSION.py': (13136, '7e6e7f0190a3f239bc0f05e8e23dbf72801bafe5bfe9ed9cd48ea7a91873e8cd'), 'VERIFY_C114_POSITIVE_DIAGONAL_K_STABLE2.py': (5114, '8e4696b082b49120976309609e51821c0cff07065e2747899be00a2e694bd3a5')}
+CHECKS=[('RECOVER_BR76_C84_RECON222.py', 'BR76_C84_DUALPACKET_RECON222_G4_REPORT.json', 17196, 'a3d441c3813699dcc6f6ba60df65bf5224bf9db9ecd80d50f9235c53c376630d'), ('RECOVER_BR76_C72_RECON222.py', 'BR76_C72_WHOLEP_CAP_AFFINE_G2_REPORT.json', 14436, '5203a5741cde33381f3b1e36003e153c775fa0e0a6547f686af6891aa82259d8'), ('RECOVER_BR76_C42_PRUNE5.py', 'BR76_C42_PRUNE5_RECON222_G2_REPORT.json', 9587, '77355e9ae1d1c84d21ea2acd474a35da4f8acbdd649dcb15418516cf49f146d3'), ('VERIFY_C42_AFFINE_U1_EXCLUSION.py', 'C42_AFFINE_U1_EXCLUSION_CERT.json', 2752, 'b7ff1f39884c9bc2d46313191ef33b5ede4c3e460aa85b93420da39c43a52799'), ('VERIFY_C114_POSITIVE_DIAGONAL_K_STABLE2.py', 'C114_POSITIVE_DIAGONAL_K_STABLE2_CERT.json', 163540, 'dcb3285e4452b301f4afd274d7f355d8167612311b734963c3a37b127eaf7569')]
+def sh(b):return hashlib.sha256(b).hexdigest()
+def main(o='CALM_RAVEN68_CONTINUATION_RECOVERY'):
+ o=Path(o);o.mkdir(parents=True,exist_ok=True);d=json.loads(zlib.decompress(base64.b85decode(P)).decode());assert set(d)==set(H)
+ for n,(s,h) in H.items():
+  b=d[n].encode();assert (len(b),sh(b))==(s,h);(o/n).write_bytes(b)
+ for script,out,s,h in CHECKS:
+  p=subprocess.run([sys.executable,'-B','-S',script,out],cwd=o,check=True,stdout=subprocess.PIPE);print(p.stdout.decode(),end='')
+  b=(o/out).read_bytes();assert (len(b),sh(b))==(s,h),(out,len(b),sh(b))
+ print('CALM_RAVEN68_C42_AFFINE_OBSTRUCTION_COMPLETE_RECOVERY_PASS')
+if __name__=='__main__':main(sys.argv[1] if len(sys.argv)>1 else 'CALM_RAVEN68_CONTINUATION_RECOVERY')
+
+```

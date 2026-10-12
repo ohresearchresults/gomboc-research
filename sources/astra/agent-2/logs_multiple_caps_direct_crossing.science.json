@@ -1,0 +1,106 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "LITERAL_MULTICAP_CONTACT_CROSSING",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002084172258629,
+        "minimum_noncontact": 1.593763457208297e-06,
+        "old_face": 14,
+        "old_vertex": 17,
+        "old_chart_gap": -9.999996386511611e-10,
+        "ucost": 2.8622560524488224e-08,
+        "scost": 0.34644124680489924,
+        "objective": 0.3464412754274598
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "LITERAL_MULTICAP_CONTACT_CROSSING",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002084172850105,
+        "minimum_noncontact": 1.593763457208297e-06,
+        "old_face": 40,
+        "old_vertex": 1,
+        "old_chart_gap": -9.99999860695766e-10,
+        "ucost": 6.3503112365673195e-09,
+        "scost": 0.3464412463527608,
+        "objective": 0.346441252703072
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "LITERAL_MULTICAP_CONTACT_CROSSING",
+      "values": {
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12001526504278598,
+        "minimum_noncontact": 1.0069167721837857e-11,
+        "old_face": 97,
+        "old_vertex": 149,
+        "old_chart_gap": -1.0000059980752596e-05,
+        "ucost": 7.671291780495202e-07,
+        "scost": 0.3464348810132705,
+        "objective": 0.3464356481424486
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "LITERAL_MULTICAP_CONTACT_CROSSING",
+      "values": {
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 3,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.119953016182997,
+        "minimum_noncontact": 1.0061507182967944e-11,
+        "old_face": 97,
+        "old_vertex": 149,
+        "old_chart_gap": -0.00010000453151381983,
+        "ucost": 9.059629851071937e-06,
+        "scost": 0.34636257278678373,
+        "objective": 0.3463716324166348
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "LITERAL_MULTICAP_CONTACT_CROSSING",
+      "values": {
+        "V": 150,
+        "E": 246,
+        "F": 98,
+        "S": 33,
+        "U": 19,
+        "Pmax": 2.870757922137549e-12,
+        "Qmax": 0.1197215943354726,
+        "minimum_noncontact": 1.003352956274739e-11,
+        "old_face": 98,
+        "old_vertex": 90,
+        "old_chart_gap": -0.010008462171672061,
+        "ucost": 3.990526892615779e-05,
+        "scost": 0.3460936204138706,
+        "objective": 0.34613352568279676
+      }
+    }
+  ]
+}

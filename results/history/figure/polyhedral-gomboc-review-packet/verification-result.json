@@ -1,0 +1,38 @@
+{
+  "status": "INDEPENDENT_EXACT_AUDIT_PASS",
+  "vertices": 134131,
+  "triangles": 268258,
+  "triangulated_edges": 402387,
+  "maximal_faces": 268005,
+  "true_edges": 402134,
+  "coplanar_diagonals_recomputed": 253,
+  "strict_local_convexity_edges": 402134,
+  "euler_characteristic": 2,
+  "root_bracket_sign_change": true,
+  "root_is_simple_on_bracket": true,
+  "centroid_x_polynomial_rederived": true,
+  "centroid_yz_identically_zero": true,
+  "oriented_volume_positive": true,
+  "closed_oriented_two_manifold": true,
+  "connected_vertices": 134131,
+  "single_cycle_vertex_links": 134131,
+  "positive_radial_triangles": 268258,
+  "independent_radial_ray": [
+    5,
+    7,
+    19
+  ],
+  "independent_radial_degree": 1,
+  "all_maximal_face_boundaries_single_cycles": true,
+  "stable_face_boundary_cycle_length": 256,
+  "vertices_with_exact_rank3_normal_cone": 134131,
+  "independently_recomputed_exact_equilibrium_class": [
+    1,
+    1,
+    0
+  ],
+  "artifact_sha256": {
+    "exact_polyhedron.npz": "ac1e9893101e1be6c1be5d63d95538dc96894dfa8827b7b7b245fef4caef484d",
+    "root.json": "5341b4da66b38bae89eb4591179eebbb48de65919d2ec634e08dab40b969524f"
+  }
+}

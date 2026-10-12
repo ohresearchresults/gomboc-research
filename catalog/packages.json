@@ -1,0 +1,912 @@
+[
+  {
+    "id": "C624-mail-review-20260915",
+    "title": "C624-mail-review-20260915",
+    "path": "results/history/figure/C624-mail-review-20260915",
+    "collection": "historical-constructions",
+    "files": 8,
+    "bytes": 286923,
+    "browse": "results/history/figure/C624-mail-review-20260915/DEFINITION_PROOF.json",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "domokos-C1370-diagnostic-2026-09-08",
+    "title": "domokos-C1370-diagnostic-2026-09-08",
+    "path": "results/history/figure/domokos-C1370-diagnostic-2026-09-08",
+    "collection": "historical-constructions",
+    "files": 21,
+    "bytes": 761030,
+    "browse": "results/history/figure/domokos-C1370-diagnostic-2026-09-08/check_rational_source.py",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "domokos-C1374-2026-09-07",
+    "title": "domokos-C1374-2026-09-07",
+    "path": "results/history/figure/domokos-C1374-2026-09-07",
+    "collection": "historical-constructions",
+    "files": 17,
+    "bytes": 373962,
+    "browse": "results/history/figure/domokos-C1374-2026-09-07/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "domokos-C1374-diagnostic-2026-09-08",
+    "title": "domokos-C1374-diagnostic-2026-09-08",
+    "path": "results/history/figure/domokos-C1374-diagnostic-2026-09-08",
+    "collection": "historical-constructions",
+    "files": 11,
+    "bytes": 1097001,
+    "browse": "results/history/figure/domokos-C1374-diagnostic-2026-09-08/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-NH72-basin-2026-09-09",
+    "title": "figure-NH72-basin-2026-09-09",
+    "path": "results/history/figure/figure-NH72-basin-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 4,
+    "bytes": 255407,
+    "browse": "results/history/figure/figure-NH72-basin-2026-09-09/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-NH72-five-nonwinners-2026-09-10",
+    "title": "figure-NH72-five-nonwinners-2026-09-10",
+    "path": "results/history/figure/figure-NH72-five-nonwinners-2026-09-10",
+    "collection": "historical-constructions",
+    "files": 3,
+    "bytes": 46933,
+    "browse": "results/history/figure/figure-NH72-five-nonwinners-2026-09-10/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-SL90-PCW125-2026-09-10",
+    "title": "figure-SL90-PCW125-2026-09-10",
+    "path": "results/history/figure/figure-SL90-PCW125-2026-09-10",
+    "collection": "historical-constructions",
+    "files": 8,
+    "bytes": 222018,
+    "browse": "results/history/figure/figure-SL90-PCW125-2026-09-10/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-SL90-Ward98-M1678-2026-09-09",
+    "title": "figure-SL90-Ward98-M1678-2026-09-09",
+    "path": "results/history/figure/figure-SL90-Ward98-M1678-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 4,
+    "bytes": 35234,
+    "browse": "results/history/figure/figure-SL90-Ward98-M1678-2026-09-09/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-astra-c96-c80-methods-20260916",
+    "title": "figure-astra-c96-c80-methods-20260916",
+    "path": "results/history/figure/figure-astra-c96-c80-methods-20260916",
+    "collection": "historical-constructions",
+    "files": 122,
+    "bytes": 964531,
+    "browse": "results/history/figure/figure-astra-c96-c80-methods-20260916/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-atlas56-coupled-star-method-20260915",
+    "title": "figure-atlas56-coupled-star-method-20260915",
+    "path": "results/history/figure/figure-atlas56-coupled-star-method-20260915",
+    "collection": "historical-constructions",
+    "files": 4,
+    "bytes": 93604,
+    "browse": "results/history/figure/figure-atlas56-coupled-star-method-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-atlas57-affine-metric-20260915",
+    "title": "figure-atlas57-affine-metric-20260915",
+    "path": "results/history/figure/figure-atlas57-affine-metric-20260915",
+    "collection": "historical-constructions",
+    "files": 3,
+    "bytes": 10160,
+    "browse": "results/history/figure/figure-atlas57-affine-metric-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-bq13-c602-nonwinners-20260915",
+    "title": "figure-bq13-c602-nonwinners-20260915",
+    "path": "results/history/figure/figure-bq13-c602-nonwinners-20260915",
+    "collection": "historical-constructions",
+    "files": 83,
+    "bytes": 383201,
+    "browse": "results/history/figure/figure-bq13-c602-nonwinners-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c138-integer-own211-20260915",
+    "title": "figure-c138-integer-own211-20260915",
+    "path": "results/history/figure/figure-c138-integer-own211-20260915",
+    "collection": "historical-constructions",
+    "files": 15,
+    "bytes": 57590,
+    "browse": "results/history/figure/figure-c138-integer-own211-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c182-hausdorff-gate-20260916",
+    "title": "figure-c182-hausdorff-gate-20260916",
+    "path": "results/history/figure/figure-c182-hausdorff-gate-20260916",
+    "collection": "historical-constructions",
+    "files": 12,
+    "bytes": 160991,
+    "browse": "results/history/figure/figure-c182-hausdorff-gate-20260916/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c182-shape-obstruction-20260915",
+    "title": "figure-c182-shape-obstruction-20260915",
+    "path": "results/history/figure/figure-c182-shape-obstruction-20260915",
+    "collection": "historical-constructions",
+    "files": 10,
+    "bytes": 36473,
+    "browse": "results/history/figure/figure-c182-shape-obstruction-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c282-integer-own211-20260915",
+    "title": "figure-c282-integer-own211-20260915",
+    "path": "results/history/figure/figure-c282-integer-own211-20260915",
+    "collection": "historical-constructions",
+    "files": 17,
+    "bytes": 96709,
+    "browse": "results/history/figure/figure-c282-integer-own211-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c476-sparse-frontier-20260915",
+    "title": "figure-c476-sparse-frontier-20260915",
+    "path": "results/history/figure/figure-c476-sparse-frontier-20260915",
+    "collection": "historical-constructions",
+    "files": 31,
+    "bytes": 115548,
+    "browse": "results/history/figure/figure-c476-sparse-frontier-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c486-rational-algebraic-affine-20260915",
+    "title": "figure-c486-rational-algebraic-affine-20260915",
+    "path": "results/history/figure/figure-c486-rational-algebraic-affine-20260915",
+    "collection": "historical-constructions",
+    "files": 21,
+    "bytes": 74547,
+    "browse": "results/history/figure/figure-c486-rational-algebraic-affine-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c592-archived-standalone-20260915",
+    "title": "figure-c592-archived-standalone-20260915",
+    "path": "results/history/figure/figure-c592-archived-standalone-20260915",
+    "collection": "historical-constructions",
+    "files": 15,
+    "bytes": 76275,
+    "browse": "results/history/figure/figure-c592-archived-standalone-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c592-exposed-chain-20260915",
+    "title": "figure-c592-exposed-chain-20260915",
+    "path": "results/history/figure/figure-c592-exposed-chain-20260915",
+    "collection": "historical-constructions",
+    "files": 11,
+    "bytes": 45711,
+    "browse": "results/history/figure/figure-c592-exposed-chain-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c598-junction-endpoint-20260915",
+    "title": "figure-c598-junction-endpoint-20260915",
+    "path": "results/history/figure/figure-c598-junction-endpoint-20260915",
+    "collection": "historical-constructions",
+    "files": 14,
+    "bytes": 70674,
+    "browse": "results/history/figure/figure-c598-junction-endpoint-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c598-one-facet-centroid-20260915",
+    "title": "figure-c598-one-facet-centroid-20260915",
+    "path": "results/history/figure/figure-c598-one-facet-centroid-20260915",
+    "collection": "historical-constructions",
+    "files": 17,
+    "bytes": 105832,
+    "browse": "results/history/figure/figure-c598-one-facet-centroid-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c598-projective-metric-20260915",
+    "title": "figure-c598-projective-metric-20260915",
+    "path": "results/history/figure/figure-c598-projective-metric-20260915",
+    "collection": "historical-constructions",
+    "files": 6,
+    "bytes": 66838,
+    "browse": "results/history/figure/figure-c598-projective-metric-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c622-arithmetic-companions-20260915",
+    "title": "figure-c622-arithmetic-companions-20260915",
+    "path": "results/history/figure/figure-c622-arithmetic-companions-20260915",
+    "collection": "historical-constructions",
+    "files": 102,
+    "bytes": 1538829,
+    "browse": "results/history/figure/figure-c622-arithmetic-companions-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c622-route-20260915",
+    "title": "figure-c622-route-20260915",
+    "path": "results/history/figure/figure-c622-route-20260915",
+    "collection": "historical-constructions",
+    "files": 96,
+    "bytes": 1727479,
+    "browse": "results/history/figure/figure-c622-route-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c624-atlas57-depth2-20260915",
+    "title": "figure-c624-atlas57-depth2-20260915",
+    "path": "results/history/figure/figure-c624-atlas57-depth2-20260915",
+    "collection": "historical-constructions",
+    "files": 32,
+    "bytes": 223140,
+    "browse": "results/history/figure/figure-c624-atlas57-depth2-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c624-cap-rl-20260914",
+    "title": "figure-c624-cap-rl-20260914",
+    "path": "results/history/figure/figure-c624-cap-rl-20260914",
+    "collection": "historical-constructions",
+    "files": 33,
+    "bytes": 204922,
+    "browse": "results/history/figure/figure-c624-cap-rl-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c624-d132-20260914",
+    "title": "figure-c624-d132-20260914",
+    "path": "results/history/figure/figure-c624-d132-20260914",
+    "collection": "historical-constructions",
+    "files": 2,
+    "bytes": 5363,
+    "browse": "results/history/figure/figure-c624-d132-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c624-nh72-projective-20260914",
+    "title": "figure-c624-nh72-projective-20260914",
+    "path": "results/history/figure/figure-c624-nh72-projective-20260914",
+    "collection": "historical-constructions",
+    "files": 28,
+    "bytes": 185339,
+    "browse": "results/history/figure/figure-c624-nh72-projective-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c624-nonwinner-20260914",
+    "title": "figure-c624-nonwinner-20260914",
+    "path": "results/history/figure/figure-c624-nonwinner-20260914",
+    "collection": "historical-constructions",
+    "files": 3,
+    "bytes": 5175,
+    "browse": "results/history/figure/figure-c624-nonwinner-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c624-s8-20260914",
+    "title": "figure-c624-s8-20260914",
+    "path": "results/history/figure/figure-c624-s8-20260914",
+    "collection": "historical-constructions",
+    "files": 36,
+    "bytes": 254571,
+    "browse": "results/history/figure/figure-c624-s8-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c626-atlas56-arithmetic-20260914",
+    "title": "figure-c626-atlas56-arithmetic-20260914",
+    "path": "results/history/figure/figure-c626-atlas56-arithmetic-20260914",
+    "collection": "historical-constructions",
+    "files": 27,
+    "bytes": 178115,
+    "browse": "results/history/figure/figure-c626-atlas56-arithmetic-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c626-bq13-stable-cap-20260914",
+    "title": "figure-c626-bq13-stable-cap-20260914",
+    "path": "results/history/figure/figure-c626-bq13-stable-cap-20260914",
+    "collection": "historical-constructions",
+    "files": 46,
+    "bytes": 224135,
+    "browse": "results/history/figure/figure-c626-bq13-stable-cap-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c626-source-20260914",
+    "title": "figure-c626-source-20260914",
+    "path": "results/history/figure/figure-c626-source-20260914",
+    "collection": "historical-constructions",
+    "files": 16,
+    "bytes": 118832,
+    "browse": "results/history/figure/figure-c626-source-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c64-half-round-pyramid-20260916",
+    "title": "figure-c64-half-round-pyramid-20260916",
+    "path": "results/history/figure/figure-c64-half-round-pyramid-20260916",
+    "collection": "historical-constructions",
+    "files": 52,
+    "bytes": 333671,
+    "browse": "results/history/figure/figure-c64-half-round-pyramid-20260916/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c80-pyramid-gates-20260916",
+    "title": "figure-c80-pyramid-gates-20260916",
+    "path": "results/history/figure/figure-c80-pyramid-gates-20260916",
+    "collection": "historical-constructions",
+    "files": 33,
+    "bytes": 569405,
+    "browse": "results/history/figure/figure-c80-pyramid-gates-20260916/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-c96-planar-pyramid-own211-20260915",
+    "title": "figure-c96-planar-pyramid-own211-20260915",
+    "path": "results/history/figure/figure-c96-planar-pyramid-own211-20260915",
+    "collection": "historical-constructions",
+    "files": 9,
+    "bytes": 19849,
+    "browse": "results/history/figure/figure-c96-planar-pyramid-own211-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-coupled-star-pyramid-update-20260916",
+    "title": "figure-coupled-star-pyramid-update-20260916",
+    "path": "results/history/figure/figure-coupled-star-pyramid-update-20260916",
+    "collection": "historical-constructions",
+    "files": 16,
+    "bytes": 89061,
+    "browse": "results/history/figure/figure-coupled-star-pyramid-update-20260916/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-f49-full-contact-20260915",
+    "title": "figure-f49-full-contact-20260915",
+    "path": "results/history/figure/figure-f49-full-contact-20260915",
+    "collection": "historical-constructions",
+    "files": 79,
+    "bytes": 365816,
+    "browse": "results/history/figure/figure-f49-full-contact-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-finch2-c612-nonwinner-20260915",
+    "title": "figure-finch2-c612-nonwinner-20260915",
+    "path": "results/history/figure/figure-finch2-c612-nonwinner-20260915",
+    "collection": "historical-constructions",
+    "files": 29,
+    "bytes": 318537,
+    "browse": "results/history/figure/figure-finch2-c612-nonwinner-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-finch3-c182-c592-nonwinners-20260915",
+    "title": "figure-finch3-c182-c592-nonwinners-20260915",
+    "path": "results/history/figure/figure-finch3-c182-c592-nonwinners-20260915",
+    "collection": "historical-constructions",
+    "files": 53,
+    "bytes": 558937,
+    "browse": "results/history/figure/figure-finch3-c182-c592-nonwinners-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-four-frontiers-core-20260915",
+    "title": "figure-four-frontiers-core-20260915",
+    "path": "results/history/figure/figure-four-frontiers-core-20260915",
+    "collection": "historical-constructions",
+    "files": 19,
+    "bytes": 97407,
+    "browse": "results/history/figure/figure-four-frontiers-core-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-k99-free-chain12-20260915",
+    "title": "figure-k99-free-chain12-20260915",
+    "path": "results/history/figure/figure-k99-free-chain12-20260915",
+    "collection": "historical-constructions",
+    "files": 3,
+    "bytes": 8036,
+    "browse": "results/history/figure/figure-k99-free-chain12-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-nh72-critical-energy-20260915",
+    "title": "figure-nh72-critical-energy-20260915",
+    "path": "results/history/figure/figure-nh72-critical-energy-20260915",
+    "collection": "historical-constructions",
+    "files": 31,
+    "bytes": 188465,
+    "browse": "results/history/figure/figure-nh72-critical-energy-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-nh72-external-interface-20260915",
+    "title": "figure-nh72-external-interface-20260915",
+    "path": "results/history/figure/figure-nh72-external-interface-20260915",
+    "collection": "historical-constructions",
+    "files": 34,
+    "bytes": 189390,
+    "browse": "results/history/figure/figure-nh72-external-interface-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-nh72-finite-compensators-20260914",
+    "title": "figure-nh72-finite-compensators-20260914",
+    "path": "results/history/figure/figure-nh72-finite-compensators-20260914",
+    "collection": "historical-constructions",
+    "files": 27,
+    "bytes": 186853,
+    "browse": "results/history/figure/figure-nh72-finite-compensators-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-nh72-opposite-mass-gate-20260915",
+    "title": "figure-nh72-opposite-mass-gate-20260915",
+    "path": "results/history/figure/figure-nh72-opposite-mass-gate-20260915",
+    "collection": "historical-constructions",
+    "files": 5,
+    "bytes": 27853,
+    "browse": "results/history/figure/figure-nh72-opposite-mass-gate-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-nh72-s8-c618-projective-20260914",
+    "title": "figure-nh72-s8-c618-projective-20260914",
+    "path": "results/history/figure/figure-nh72-s8-c618-projective-20260914",
+    "collection": "historical-constructions",
+    "files": 33,
+    "bytes": 239116,
+    "browse": "results/history/figure/figure-nh72-s8-c618-projective-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-pm580-deletion-20260915",
+    "title": "figure-pm580-deletion-20260915",
+    "path": "results/history/figure/figure-pm580-deletion-20260915",
+    "collection": "historical-constructions",
+    "files": 4,
+    "bytes": 14918,
+    "browse": "results/history/figure/figure-pm580-deletion-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-s8-cap-slide-20260914",
+    "title": "figure-s8-cap-slide-20260914",
+    "path": "results/history/figure/figure-s8-cap-slide-20260914",
+    "collection": "historical-constructions",
+    "files": 30,
+    "bytes": 164300,
+    "browse": "results/history/figure/figure-s8-cap-slide-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-s8-fixed-d12-exclusion-20260914",
+    "title": "figure-s8-fixed-d12-exclusion-20260914",
+    "path": "results/history/figure/figure-s8-fixed-d12-exclusion-20260914",
+    "collection": "historical-constructions",
+    "files": 6,
+    "bytes": 33202,
+    "browse": "results/history/figure/figure-s8-fixed-d12-exclusion-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-s8-pc-six-nonwinners-20260914",
+    "title": "figure-s8-pc-six-nonwinners-20260914",
+    "path": "results/history/figure/figure-s8-pc-six-nonwinners-20260914",
+    "collection": "historical-constructions",
+    "files": 77,
+    "bytes": 367983,
+    "browse": "results/history/figure/figure-s8-pc-six-nonwinners-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-s8-primal-coarsen-20260914",
+    "title": "figure-s8-primal-coarsen-20260914",
+    "path": "results/history/figure/figure-s8-primal-coarsen-20260914",
+    "collection": "historical-constructions",
+    "files": 26,
+    "bytes": 201830,
+    "browse": "results/history/figure/figure-s8-primal-coarsen-20260914/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure-vq20-c626-contact-mass-20260915",
+    "title": "figure-vq20-c626-contact-mass-20260915",
+    "path": "results/history/figure/figure-vq20-c626-contact-mass-20260915",
+    "collection": "historical-constructions",
+    "files": 26,
+    "bytes": 326638,
+    "browse": "results/history/figure/figure-vq20-c626-contact-mass-20260915/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C630-C632-nonwinners-2026-09-10",
+    "title": "gomboc-C630-C632-nonwinners-2026-09-10",
+    "path": "results/history/figure/gomboc-C630-C632-nonwinners-2026-09-10",
+    "collection": "historical-constructions",
+    "files": 13,
+    "bytes": 1515782,
+    "browse": "results/history/figure/gomboc-C630-C632-nonwinners-2026-09-10/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C632-BQ13-2026-09-10",
+    "title": "gomboc-C632-BQ13-2026-09-10",
+    "path": "results/history/figure/gomboc-C632-BQ13-2026-09-10",
+    "collection": "historical-constructions",
+    "files": 49,
+    "bytes": 1109263,
+    "browse": "results/history/figure/gomboc-C632-BQ13-2026-09-10/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C634-2026-09-10",
+    "title": "gomboc-C634-2026-09-10",
+    "path": "results/history/figure/gomboc-C634-2026-09-10",
+    "collection": "historical-constructions",
+    "files": 1646,
+    "bytes": 39042224,
+    "browse": "results/history/figure/gomboc-C634-2026-09-10/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C634-GAP1-2026-09-10",
+    "title": "gomboc-C634-GAP1-2026-09-10",
+    "path": "results/history/figure/gomboc-C634-GAP1-2026-09-10",
+    "collection": "historical-constructions",
+    "files": 6,
+    "bytes": 30799,
+    "browse": "results/history/figure/gomboc-C634-GAP1-2026-09-10/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C634-precision-2026-09-10",
+    "title": "gomboc-C634-precision-2026-09-10",
+    "path": "results/history/figure/gomboc-C634-precision-2026-09-10",
+    "collection": "historical-constructions",
+    "files": 23,
+    "bytes": 794533,
+    "browse": "results/history/figure/gomboc-C634-precision-2026-09-10/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C646-NONWINNER-methods-2026-09-09",
+    "title": "gomboc-C646-NONWINNER-methods-2026-09-09",
+    "path": "results/history/figure/gomboc-C646-NONWINNER-methods-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 17,
+    "bytes": 210579,
+    "browse": "results/history/figure/gomboc-C646-NONWINNER-methods-2026-09-09/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C648-REBUILT-2026-09-09",
+    "title": "gomboc-C648-REBUILT-2026-09-09",
+    "path": "results/history/figure/gomboc-C648-REBUILT-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 27,
+    "bytes": 231906,
+    "browse": "results/history/figure/gomboc-C648-REBUILT-2026-09-09/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C650-2026-09-09",
+    "title": "gomboc-C650-2026-09-09",
+    "path": "results/history/figure/gomboc-C650-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 1,
+    "bytes": 66880,
+    "browse": "results/history/figure/gomboc-C650-2026-09-09/source-map.json",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C694-2026-09-09",
+    "title": "gomboc-C694-2026-09-09",
+    "path": "results/history/figure/gomboc-C694-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 2,
+    "bytes": 30316,
+    "browse": "results/history/figure/gomboc-C694-2026-09-09/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C696-2026-09-09",
+    "title": "gomboc-C696-2026-09-09",
+    "path": "results/history/figure/gomboc-C696-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 1,
+    "bytes": 31798,
+    "browse": "results/history/figure/gomboc-C696-2026-09-09/source-map.json",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C698-2026-09-09",
+    "title": "gomboc-C698-2026-09-09",
+    "path": "results/history/figure/gomboc-C698-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 2,
+    "bytes": 37380,
+    "browse": "results/history/figure/gomboc-C698-2026-09-09/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C716-2026-09-09",
+    "title": "gomboc-C716-2026-09-09",
+    "path": "results/history/figure/gomboc-C716-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 2,
+    "bytes": 37488,
+    "browse": "results/history/figure/gomboc-C716-2026-09-09/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C746-2026-09-09",
+    "title": "gomboc-C746-2026-09-09",
+    "path": "results/history/figure/gomboc-C746-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 50,
+    "bytes": 223316029,
+    "browse": "results/history/figure/gomboc-C746-2026-09-09/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "gomboc-C752-2026-09-09",
+    "title": "gomboc-C752-2026-09-09",
+    "path": "results/history/figure/gomboc-C752-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 62,
+    "bytes": 162957912,
+    "browse": "results/history/figure/gomboc-C752-2026-09-09/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "langi-review-2026-09-05",
+    "title": "langi-review-2026-09-05",
+    "path": "results/history/figure/langi-review-2026-09-05",
+    "collection": "historical-constructions",
+    "files": 19,
+    "bytes": 889688,
+    "browse": "results/history/figure/langi-review-2026-09-05/body_1213.json",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "latest-reproducible-gomboc",
+    "title": "latest-reproducible-gomboc",
+    "path": "results/history/figure/latest-reproducible-gomboc",
+    "collection": "historical-constructions",
+    "files": 23,
+    "bytes": 469551,
+    "browse": "results/history/figure/latest-reproducible-gomboc/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "polyhedral-gomboc-review-packet",
+    "title": "polyhedral-gomboc-review-packet",
+    "path": "results/history/figure/polyhedral-gomboc-review-packet",
+    "collection": "historical-constructions",
+    "files": 5,
+    "bytes": 3743731,
+    "browse": "results/history/figure/polyhedral-gomboc-review-packet/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "research-results-2026-09-09",
+    "title": "research-results-2026-09-09",
+    "path": "results/history/figure/research-results-2026-09-09",
+    "collection": "historical-constructions",
+    "files": 4,
+    "bytes": 57687,
+    "browse": "results/history/figure/research-results-2026-09-09/figure-sharp-lynx90-verify-gate56.py",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-C1374-negative-minor-2026-09-10",
+    "title": "minimum-C1374-negative-minor-2026-09-10",
+    "path": "results/history/minimum/minimum-C1374-negative-minor-2026-09-10",
+    "collection": "minimum",
+    "files": 3,
+    "bytes": 20389,
+    "browse": "results/history/minimum/minimum-C1374-negative-minor-2026-09-10/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-C32-joint-frontier-2026-09-10",
+    "title": "minimum-C32-joint-frontier-2026-09-10",
+    "path": "results/history/minimum/minimum-C32-joint-frontier-2026-09-10",
+    "collection": "minimum",
+    "files": 6,
+    "bytes": 97109,
+    "browse": "results/history/minimum/minimum-C32-joint-frontier-2026-09-10/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-F9-11-frames-2026-09-10",
+    "title": "minimum-F9-11-frames-2026-09-10",
+    "path": "results/history/minimum/minimum-F9-11-frames-2026-09-10",
+    "collection": "minimum",
+    "files": 7,
+    "bytes": 21359,
+    "browse": "results/history/minimum/minimum-F9-11-frames-2026-09-10/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-MP45-root3-2026-09-10",
+    "title": "minimum-MP45-root3-2026-09-10",
+    "path": "results/history/minimum/minimum-MP45-root3-2026-09-10",
+    "collection": "minimum",
+    "files": 21,
+    "bytes": 101332,
+    "browse": "results/history/minimum/minimum-MP45-root3-2026-09-10/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-MP45-whole-2026-09-10",
+    "title": "minimum-MP45-whole-2026-09-10",
+    "path": "results/history/minimum/minimum-MP45-whole-2026-09-10",
+    "collection": "minimum",
+    "files": 17,
+    "bytes": 141655,
+    "browse": "results/history/minimum/minimum-MP45-whole-2026-09-10/README.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-NOVA54-MP45-2026-09-10",
+    "title": "minimum-NOVA54-MP45-2026-09-10",
+    "path": "results/history/minimum/minimum-NOVA54-MP45-2026-09-10",
+    "collection": "minimum",
+    "files": 5,
+    "bytes": 17817,
+    "browse": "results/history/minimum/minimum-NOVA54-MP45-2026-09-10/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-cap9-new281-2026-09-10",
+    "title": "minimum-cap9-new281-2026-09-10",
+    "path": "results/history/minimum/minimum-cap9-new281-2026-09-10",
+    "collection": "minimum",
+    "files": 6,
+    "bytes": 21551,
+    "browse": "results/history/minimum/minimum-cap9-new281-2026-09-10/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-fan-moment-rigidity-2026-09-10",
+    "title": "minimum-fan-moment-rigidity-2026-09-10",
+    "path": "results/history/minimum/minimum-fan-moment-rigidity-2026-09-10",
+    "collection": "minimum",
+    "files": 3,
+    "bytes": 26677,
+    "browse": "results/history/minimum/minimum-fan-moment-rigidity-2026-09-10/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-four-triangle-fan-2026-09-10",
+    "title": "minimum-four-triangle-fan-2026-09-10",
+    "path": "results/history/minimum/minimum-four-triangle-fan-2026-09-10",
+    "collection": "minimum",
+    "files": 3,
+    "bytes": 55262,
+    "browse": "results/history/minimum/minimum-four-triangle-fan-2026-09-10/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum-nova24-boundary-chain-2026-09-09",
+    "title": "minimum-nova24-boundary-chain-2026-09-09",
+    "path": "results/history/minimum/minimum-nova24-boundary-chain-2026-09-09",
+    "collection": "minimum",
+    "files": 5,
+    "bytes": 21844,
+    "browse": "results/history/minimum/minimum-nova24-boundary-chain-2026-09-09/LOCAL_EVIDENCE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "agent-1",
+    "title": "agent-1",
+    "path": "sources/astra/agent-1",
+    "collection": "astra-herschel",
+    "files": 119628,
+    "bytes": 915712133,
+    "browse": "sources/astra/agent-1/BALANCED_CAPS_NOTE.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "agent-2",
+    "title": "agent-2",
+    "path": "sources/astra/agent-2",
+    "collection": "astra-aristotle",
+    "files": 15566,
+    "bytes": 437209507,
+    "browse": "sources/astra/agent-2/FINDINGS.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "agent-3",
+    "title": "agent-3",
+    "path": "sources/astra/agent-3",
+    "collection": "astra-peirce",
+    "files": 16979,
+    "bytes": 584739783,
+    "browse": "sources/astra/agent-3/FINDINGS.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "shared",
+    "title": "shared",
+    "path": "sources/astra/shared",
+    "collection": "astra-shared",
+    "files": 49,
+    "bytes": 864178,
+    "browse": "sources/astra/shared/sources/J128_CAP_NOMINATION_AND_PARAMETER_METHODS.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "analyses",
+    "title": "analyses",
+    "path": "sources/figure/analyses",
+    "collection": "figure-workspaces",
+    "files": 46,
+    "bytes": 1505064,
+    "browse": "sources/figure/analyses/2026-09-04-gpt6-review/CERTIFICATE_SHA256.json",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "native-workspaces",
+    "title": "native-workspaces",
+    "path": "sources/figure/native-workspaces",
+    "collection": "figure-workspaces",
+    "files": 2958,
+    "bytes": 418752254,
+    "browse": "sources/figure/native-workspaces/polyhedral-goemboc-r6/M42_acute_bridge_fifth_cell_complete/COMBINED_HANDOFF.md",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "figure",
+    "title": "figure",
+    "path": "sources/recovered/figure",
+    "collection": "recovered-science",
+    "files": 7,
+    "bytes": 42425,
+    "browse": "sources/recovered/figure/op_figure_new_source_preservation_20260927T1143Z/CHANGED_NORMAL_EXACT.py",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "minimum",
+    "title": "minimum",
+    "path": "sources/recovered/minimum",
+    "collection": "minimum",
+    "files": 3,
+    "bytes": 41583,
+    "browse": "sources/recovered/minimum/op_minimum_height_variation_handoff_source_preserve_20260928T0309Z/facet_height_variations_exact.py",
+    "status": "See the accompanying report for verification results."
+  },
+  {
+    "id": "workflow-20260925",
+    "title": "workflow-20260925",
+    "path": "sources/recovered/workflow-20260925",
+    "collection": "recovered-science",
+    "files": 29,
+    "bytes": 1742440,
+    "browse": "sources/recovered/workflow-20260925/RECOVER_RA40.py",
+    "status": "See the accompanying report for verification results."
+  }
+]

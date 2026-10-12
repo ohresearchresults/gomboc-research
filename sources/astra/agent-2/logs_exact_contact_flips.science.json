@@ -1,0 +1,216 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "EXACT_LOCAL_FLIP -1 9",
+      "values": {
+        "V": 130,
+        "E": 248,
+        "F": 120,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 496,
+        "child_triples": [
+          [
+            21,
+            105,
+            102
+          ],
+          [
+            105,
+            104,
+            102
+          ]
+        ]
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "EXACT_LOCAL_FLIP -1 7",
+      "values": {
+        "V": 130,
+        "E": 248,
+        "F": 120,
+        "counts": [
+          2,
+          2,
+          2
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 496,
+        "child_triples": [
+          [
+            21,
+            105,
+            102
+          ],
+          [
+            105,
+            104,
+            102
+          ]
+        ]
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "EXACT_LOCAL_FLIP -1 5",
+      "values": {
+        "V": 130,
+        "E": 248,
+        "F": 120,
+        "counts": [
+          2,
+          2,
+          2
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 496,
+        "child_triples": [
+          [
+            21,
+            105,
+            102
+          ],
+          [
+            105,
+            104,
+            102
+          ]
+        ]
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "EXACT_LOCAL_FLIP 1 9",
+      "values": {
+        "V": 130,
+        "E": 248,
+        "F": 120,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 496,
+        "child_triples": [
+          [
+            21,
+            105,
+            104
+          ],
+          [
+            21,
+            104,
+            102
+          ]
+        ]
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "EXACT_LOCAL_FLIP 1 7",
+      "values": {
+        "V": 130,
+        "E": 248,
+        "F": 120,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 496,
+        "child_triples": [
+          [
+            21,
+            105,
+            104
+          ],
+          [
+            21,
+            104,
+            102
+          ]
+        ]
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "EXACT_LOCAL_FLIP 1 5",
+      "values": {
+        "V": 130,
+        "E": 248,
+        "F": 120,
+        "counts": [
+          2,
+          2,
+          2
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 496,
+        "child_triples": [
+          [
+            21,
+            105,
+            104
+          ],
+          [
+            21,
+            104,
+            102
+          ]
+        ]
+      }
+    }
+  ]
+}

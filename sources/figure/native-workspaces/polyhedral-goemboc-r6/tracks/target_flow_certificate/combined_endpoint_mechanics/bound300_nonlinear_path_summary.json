@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "scope": "fresh-hull nonlinear four-death integration audit",
+  "reference": "../../circuit_atlas/row54_combined_wall_rebuilt.csv",
+  "rows": [
+    {
+      "file": "../../circuit_atlas/row54_combined_wall_rebuilt.csv",
+      "valid": true,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "all_vertices_active": true,
+      "all_forced_rails_present": true,
+      "topology_margin": 1.0424204205383703e-07,
+      "faces_match_reference": true,
+      "removed_faces": [],
+      "added_faces": [],
+      "mechanics": {
+        "quad": 0.14994980087751128,
+        "quad_edge_8_246": 0.14994980087751128,
+        "u54": 0.23306755460137127,
+        "u54_neighbor1": 0.23306755460137127,
+        "h67": 0.3988252966196192,
+        "h910": 0.09798289405431027,
+        "base": 1.5576762578347982,
+        "u8": 0.9956538454858546,
+        "h67_components": {
+          "t": 0.3988252966196192,
+          "one_minus_t": 0.6011747033803808,
+          "beta1": 2.7928758890529157,
+          "beta2": 2.7090807755274025
+        },
+        "h910_components": {
+          "t": 0.9020171059456897,
+          "one_minus_t": 0.09798289405431027,
+          "beta1": 1.5408461368495086,
+          "beta2": 1.2947493274249147
+        }
+      },
+      "h67_component_ratios": {
+        "t": 1.0,
+        "one_minus_t": 1.0,
+        "beta1": 1.0,
+        "beta2": 1.0
+      },
+      "h910_component_ratios": {
+        "t": 1.0,
+        "one_minus_t": 1.0,
+        "beta1": 1.0,
+        "beta2": 1.0
+      },
+      "h67_best_branch": "t",
+      "h910_best_branch": "t",
+      "residual_ratios": {
+        "quad": 1.0,
+        "u54": 1.0,
+        "h67": 1.0,
+        "h910": 1.0
+      },
+      "largest_residual_ratio": 1.0,
+      "max_point_displacement_from_reference": 0.0,
+      "max_displacement_row": 0
+    },
+    {
+      "file": "bound300_path_pre_wall.csv",
+      "valid": true,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "all_vertices_active": true,
+      "all_forced_rails_present": true,
+      "topology_margin": 3.453796604269144e-08,
+      "faces_match_reference": true,
+      "removed_faces": [],
+      "added_faces": [],
+      "mechanics": {
+        "quad": 0.14969277282603394,
+        "quad_edge_8_246": 0.14969277282603394,
+        "u54": 0.23290440254458328,
+        "u54_neighbor1": 0.23290440254458328,
+        "h67": 0.4004788019020548,
+        "h910": 0.09930467292332867,
+        "base": 1.5601915923206682,
+        "u8": 0.9956745168668192,
+        "h67_components": {
+          "t": 0.4004788019020548,
+          "one_minus_t": 0.5995211980979451,
+          "beta1": 2.7936287957853523,
+          "beta2": 2.7097351673020804
+        },
+        "h910_components": {
+          "t": 0.9006953270766713,
+          "one_minus_t": 0.09930467292332867,
+          "beta1": 1.540575730779112,
+          "beta2": 1.2942298458611712
+        }
+      },
+      "h67_component_ratios": {
+        "t": 1.0041459388269762,
+        "one_minus_t": 0.9972495428148621,
+        "beta1": 1.00026958116377,
+        "beta2": 1.000241554914342
+      },
+      "h910_component_ratios": {
+        "t": 0.9985346410169986,
+        "one_minus_t": 1.0134898941470922,
+        "beta1": 0.9998245080648029,
+        "beta2": 0.9995987782710213
+      },
+      "h67_best_branch": "one_minus_t",
+      "h910_best_branch": "t",
+      "residual_ratios": {
+        "quad": 0.9982859060167255,
+        "u54": 0.9992999795399792,
+        "h67": 0.9972495428148621,
+        "h910": 0.9985346410169986
+      },
+      "largest_residual_ratio": 0.9992999795399792,
+      "max_point_displacement_from_reference": 0.25359719185708735,
+      "max_displacement_row": 8
+    },
+    {
+      "file": "bound300_turn_a0007.csv",
+      "valid": true,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "all_vertices_active": true,
+      "all_forced_rails_present": true,
+      "topology_margin": 7.019939551877741e-08,
+      "faces_match_reference": true,
+      "removed_faces": [],
+      "added_faces": [],
+      "mechanics": {
+        "quad": 0.1495925103515422,
+        "quad_edge_8_246": 0.1495925103515422,
+        "u54": 0.23279158672182576,
+        "u54_neighbor1": 0.23279158672182576,
+        "h67": 0.40227409454100893,
+        "h910": 0.09993255843343007,
+        "base": 1.5651116319424707,
+        "u8": 0.9956756777207999,
+        "h67_components": {
+          "t": 0.40227409454100893,
+          "one_minus_t": 0.5977259054589911,
+          "beta1": 2.796678324242867,
+          "beta2": 2.712699866588435
+        },
+        "h910_components": {
+          "t": 0.9000674415665699,
+          "one_minus_t": 0.09993255843343007,
+          "beta1": 1.540515176016613,
+          "beta2": 1.2938211948196332
+        }
+      },
+      "h67_component_ratios": {
+        "t": 1.0086473900994275,
+        "one_minus_t": 0.9942632351261667,
+        "beta1": 1.0013614766072692,
+        "beta2": 1.0013359110934328
+      },
+      "h910_component_ratios": {
+        "t": 0.9978385505482451,
+        "one_minus_t": 1.0198980076873332,
+        "beta1": 0.9997852083832508,
+        "beta2": 0.999283156526424
+      },
+      "h67_best_branch": "one_minus_t",
+      "h910_best_branch": "t",
+      "residual_ratios": {
+        "quad": 0.997617265752417,
+        "u54": 0.998815931801329,
+        "h67": 0.9942632351261667,
+        "h910": 0.9978385505482451
+      },
+      "largest_residual_ratio": 0.998815931801329,
+      "max_point_displacement_from_reference": 0.5021761695303157,
+      "max_displacement_row": 8
+    }
+  ]
+}

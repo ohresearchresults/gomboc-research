@@ -1,0 +1,2493 @@
+{
+  "version": 1,
+  "type": "complete row-scaled analytic-dlog fixed-delta Farkas atlas",
+  "scope": "Numerical active-set atlas on one analytic 6301-row guard ledger, 14 exact-analytic death components, frozen 175-mode chart, physical trust R=.1, and coefficient box 20. Negative rays require exactification.",
+  "branch_count": 144,
+  "successful_count": 144,
+  "negative_ray_count": 144,
+  "all_144_have_negative_analytic_ray": true,
+  "closest_negative_branch": {
+    "branch": 13,
+    "deaths": [
+      "('face', (198, 243, 244), (198, 243))",
+      "('vertex', 2, 1)",
+      "('edge', (4, 5), 'beta2')",
+      "('edge', (12, 13), 'one_minus_t')"
+    ],
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scaled_dual_objective": -3.11742435805713e-12,
+    "original_farkas_rhs": 6.996364327905309e-11,
+    "original_stationarity_inf_norm": 1.5755863280730864e-10,
+    "support_gt_1e_14": 74,
+    "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+  },
+  "most_negative_branch": {
+    "branch": 80,
+    "deaths": [
+      "('face', (198, 243, 244), (243, 244))",
+      "('vertex', 2, 88)",
+      "('edge', (4, 5), 't')",
+      "('edge', (12, 13), 't')"
+    ],
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scaled_dual_objective": -20.84248770983691,
+    "original_farkas_rhs": -20.842487707480007,
+    "original_stationarity_inf_norm": 1.259454932231522e-10,
+    "support_gt_1e_14": 156,
+    "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+  },
+  "branches": [
+    {
+      "branch": 0,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.011986529173111339,
+      "original_farkas_rhs": -0.011986529133494482,
+      "original_stationarity_inf_norm": 1.1982275152028487e-10,
+      "support_gt_1e_14": 114,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 1,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.007278266425934612,
+      "original_farkas_rhs": -0.007278265742171576,
+      "original_stationarity_inf_norm": 1.195558305133737e-10,
+      "support_gt_1e_14": 144,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 2,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.007278266344701468,
+      "original_farkas_rhs": -0.007278266066554595,
+      "original_stationarity_inf_norm": 1.0489544042396881e-10,
+      "support_gt_1e_14": 145,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 3,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.007278266284132663,
+      "original_farkas_rhs": -0.007278265614292106,
+      "original_stationarity_inf_norm": 1.1349771816826504e-10,
+      "support_gt_1e_14": 145,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 4,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.003137437804399388,
+      "original_farkas_rhs": -0.0031374336914635984,
+      "original_stationarity_inf_norm": 1.3032595251389686e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 5,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.0001422542757204515,
+      "original_farkas_rhs": -0.00014225402982605718,
+      "original_stationarity_inf_norm": 1.760333823153104e-10,
+      "support_gt_1e_14": 134,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 6,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -6.457511212773427e-05,
+      "original_farkas_rhs": -6.457059572129358e-05,
+      "original_stationarity_inf_norm": 2.0509497989526533e-10,
+      "support_gt_1e_14": 153,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 7,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -6.395685538611632e-05,
+      "original_farkas_rhs": -6.395421845713605e-05,
+      "original_stationarity_inf_norm": 1.6098474738311307e-10,
+      "support_gt_1e_14": 156,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 8,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.0031374389415139156,
+      "original_farkas_rhs": -0.0031374348563073364,
+      "original_stationarity_inf_norm": 9.721290933963303e-11,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 9,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -8.994135886914377e-12,
+      "original_farkas_rhs": 1.1147619636266924e-11,
+      "original_stationarity_inf_norm": 9.113406600463306e-11,
+      "support_gt_1e_14": 65,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 10,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.2314460682788742e-05,
+      "original_farkas_rhs": -1.2311340939080986e-05,
+      "original_stationarity_inf_norm": 2.604506319293211e-10,
+      "support_gt_1e_14": 145,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 11,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.1573336752057123e-05,
+      "original_farkas_rhs": -1.15718246218389e-05,
+      "original_stationarity_inf_norm": 1.6408844126536835e-10,
+      "support_gt_1e_14": 149,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 12,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.0031374373265712564,
+      "original_farkas_rhs": -0.0031374339837017583,
+      "original_stationarity_inf_norm": 9.959673774529746e-11,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 13,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -3.11742435805713e-12,
+      "original_farkas_rhs": 6.996364327905309e-11,
+      "original_stationarity_inf_norm": 1.5755863280730864e-10,
+      "support_gt_1e_14": 74,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 14,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.2248291322610031e-05,
+      "original_farkas_rhs": -1.2247590605742008e-05,
+      "original_stationarity_inf_norm": 2.3334554634253216e-10,
+      "support_gt_1e_14": 146,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 15,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.1507547504997624e-05,
+      "original_farkas_rhs": -1.1504814686829288e-05,
+      "original_stationarity_inf_norm": 1.366379996278456e-10,
+      "support_gt_1e_14": 149,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 16,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136565903408,
+      "original_farkas_rhs": -1.921613655289653,
+      "original_stationarity_inf_norm": 9.977585966388922e-11,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 17,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613656677902,
+      "original_farkas_rhs": -1.9216136551936687,
+      "original_stationarity_inf_norm": 1.0891888929470847e-10,
+      "support_gt_1e_14": 148,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 18,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136565885285,
+      "original_farkas_rhs": -1.9216136556424095,
+      "original_stationarity_inf_norm": 1.0883482402297051e-10,
+      "support_gt_1e_14": 153,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 19,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136562508175,
+      "original_farkas_rhs": -1.9216136534521366,
+      "original_stationarity_inf_norm": 1.3852132614872108e-10,
+      "support_gt_1e_14": 157,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 20,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136569378577,
+      "original_farkas_rhs": -1.9216136557262014,
+      "original_stationarity_inf_norm": 1.4573155370679087e-10,
+      "support_gt_1e_14": 147,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 21,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136566361708,
+      "original_farkas_rhs": -1.921613653968522,
+      "original_stationarity_inf_norm": 1.1593237304085618e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 22,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613656343009,
+      "original_farkas_rhs": -1.9216136562012034,
+      "original_stationarity_inf_norm": 9.267443148358062e-11,
+      "support_gt_1e_14": 154,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 23,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136569626523,
+      "original_farkas_rhs": -1.9216136542110334,
+      "original_stationarity_inf_norm": 1.143388637948132e-10,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 24,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136500660925,
+      "original_farkas_rhs": -1.9216136471905363,
+      "original_stationarity_inf_norm": 4.2789173658290547e-10,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 25,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136568983087,
+      "original_farkas_rhs": -1.9216136547185116,
+      "original_stationarity_inf_norm": 1.795841859980495e-10,
+      "support_gt_1e_14": 147,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 26,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613657323501,
+      "original_farkas_rhs": -1.921613655751819,
+      "original_stationarity_inf_norm": 1.3338199343989818e-10,
+      "support_gt_1e_14": 146,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 27,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136569001467,
+      "original_farkas_rhs": -1.9216136555361545,
+      "original_stationarity_inf_norm": 1.0028923593104376e-10,
+      "support_gt_1e_14": 148,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 28,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136562990984,
+      "original_farkas_rhs": -1.9216136550109961,
+      "original_stationarity_inf_norm": 9.376788289835631e-11,
+      "support_gt_1e_14": 156,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 29,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136568869877,
+      "original_farkas_rhs": -1.921613653086706,
+      "original_stationarity_inf_norm": 2.1554050418260322e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 30,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136564935835,
+      "original_farkas_rhs": -1.9216136560541437,
+      "original_stationarity_inf_norm": 1.1713089837553667e-10,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 31,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613658400911,
+      "original_farkas_rhs": -1.921613655252504,
+      "original_stationarity_inf_norm": 1.427539943893441e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 32,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770890293,
+      "original_farkas_rhs": -20.842487707908088,
+      "original_stationarity_inf_norm": 1.3332102455894443e-10,
+      "support_gt_1e_14": 160,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 33,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708828653,
+      "original_farkas_rhs": -20.842487707936943,
+      "original_stationarity_inf_norm": 7.241579907796405e-11,
+      "support_gt_1e_14": 156,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 34,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708614392,
+      "original_farkas_rhs": -20.842487707065178,
+      "original_stationarity_inf_norm": 1.1564170421471595e-10,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 35,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770831934,
+      "original_farkas_rhs": -20.842487707496847,
+      "original_stationarity_inf_norm": 1.5335367501325932e-10,
+      "support_gt_1e_14": 159,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 36,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708651326,
+      "original_farkas_rhs": -20.842487707720707,
+      "original_stationarity_inf_norm": 7.33190678092714e-11,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 37,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708883237,
+      "original_farkas_rhs": -20.842487707923933,
+      "original_stationarity_inf_norm": 7.241331866056263e-11,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 38,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770974539,
+      "original_farkas_rhs": -20.842487708310994,
+      "original_stationarity_inf_norm": 7.452620153777857e-11,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 39,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708823644,
+      "original_farkas_rhs": -20.842487707675325,
+      "original_stationarity_inf_norm": 1.4510455092816122e-10,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 40,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770878669,
+      "original_farkas_rhs": -20.842487706873637,
+      "original_stationarity_inf_norm": 1.1565829902968516e-10,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 41,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487707526658,
+      "original_farkas_rhs": -20.842487704476625,
+      "original_stationarity_inf_norm": 6.8725174749376e-11,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 42,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770866768,
+      "original_farkas_rhs": -20.84248770650525,
+      "original_stationarity_inf_norm": 1.4934668493886735e-10,
+      "support_gt_1e_14": 157,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 43,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770886541,
+      "original_farkas_rhs": -20.842487707779824,
+      "original_stationarity_inf_norm": 1.288474516006334e-10,
+      "support_gt_1e_14": 154,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 44,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770866768,
+      "original_farkas_rhs": -20.84248770650525,
+      "original_stationarity_inf_norm": 1.4934668493886735e-10,
+      "support_gt_1e_14": 157,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 45,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708780137,
+      "original_farkas_rhs": -20.842487707849504,
+      "original_stationarity_inf_norm": 1.3666797905937012e-10,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 46,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770851465,
+      "original_farkas_rhs": -20.84248770780838,
+      "original_stationarity_inf_norm": 7.451734645458132e-11,
+      "support_gt_1e_14": 159,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 47,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 243))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708882967,
+      "original_farkas_rhs": -20.842487707845454,
+      "original_stationarity_inf_norm": 7.241351956788387e-11,
+      "support_gt_1e_14": 153,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 48,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.01198652919283271,
+      "original_farkas_rhs": -0.011986529160596377,
+      "original_stationarity_inf_norm": 1.7441383131027828e-10,
+      "support_gt_1e_14": 120,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 49,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.007278451894265476,
+      "original_farkas_rhs": -0.007278451726320065,
+      "original_stationarity_inf_norm": 1.303313568179476e-10,
+      "support_gt_1e_14": 124,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 50,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.007278452088250682,
+      "original_farkas_rhs": -0.007278451843742277,
+      "original_stationarity_inf_norm": 1.067143873267895e-10,
+      "support_gt_1e_14": 123,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 51,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.007278451896762874,
+      "original_farkas_rhs": -0.007278451693043392,
+      "original_stationarity_inf_norm": 1.064014709672989e-10,
+      "support_gt_1e_14": 125,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 52,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.0033820420252788684,
+      "original_farkas_rhs": -0.003382039853701623,
+      "original_stationarity_inf_norm": 5.875966332775055e-10,
+      "support_gt_1e_14": 144,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 53,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.00014305404924709744,
+      "original_farkas_rhs": -0.0001430539666950864,
+      "original_stationarity_inf_norm": 1.290101224633855e-10,
+      "support_gt_1e_14": 132,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 54,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -2.3936541594835287e-10,
+      "original_farkas_rhs": 1.7355717440612119e-09,
+      "original_stationarity_inf_norm": 3.149132108405943e-10,
+      "support_gt_1e_14": 94,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 55,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -2.4308070573083267e-10,
+      "original_farkas_rhs": 4.0869395746337747e-10,
+      "original_stationarity_inf_norm": 3.1214588152442547e-10,
+      "support_gt_1e_14": 91,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 56,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.0033820402019695446,
+      "original_farkas_rhs": -0.0033820397296885187,
+      "original_stationarity_inf_norm": 5.878423844570689e-10,
+      "support_gt_1e_14": 141,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 57,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -8.226310688907549e-07,
+      "original_farkas_rhs": -8.190354496988609e-07,
+      "original_stationarity_inf_norm": 4.538259360492667e-10,
+      "support_gt_1e_14": 146,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 58,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -8.4249136155853e-06,
+      "original_farkas_rhs": -8.418920799991402e-06,
+      "original_stationarity_inf_norm": 2.696876101174517e-10,
+      "support_gt_1e_14": 149,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 59,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -7.708374114873468e-06,
+      "original_farkas_rhs": -7.703993764451658e-06,
+      "original_stationarity_inf_norm": 1.6311666855404766e-10,
+      "support_gt_1e_14": 147,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 60,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.003382042195994804,
+      "original_farkas_rhs": -0.003382040047931522,
+      "original_stationarity_inf_norm": 5.459971039312597e-10,
+      "support_gt_1e_14": 146,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 61,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -6.758246951739463e-07,
+      "original_farkas_rhs": -6.690204838102426e-07,
+      "original_stationarity_inf_norm": 4.532673484153825e-10,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 62,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -8.348222453145933e-06,
+      "original_farkas_rhs": -8.344870653455712e-06,
+      "original_stationarity_inf_norm": 2.395217199765443e-10,
+      "support_gt_1e_14": 143,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 63,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -7.632765461190117e-06,
+      "original_farkas_rhs": -7.630167748960234e-06,
+      "original_stationarity_inf_norm": 1.281503067481182e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 64,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136562027768,
+      "original_farkas_rhs": -1.9216136541913647,
+      "original_stationarity_inf_norm": 9.211471127805867e-11,
+      "support_gt_1e_14": 156,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 65,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136564675843,
+      "original_farkas_rhs": -1.9216136543053972,
+      "original_stationarity_inf_norm": 2.1673480025806403e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 66,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613657004332,
+      "original_farkas_rhs": -1.921613655860616,
+      "original_stationarity_inf_norm": 9.104397269626749e-11,
+      "support_gt_1e_14": 152,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 67,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136517701983,
+      "original_farkas_rhs": -1.9216136464353923,
+      "original_stationarity_inf_norm": 5.743691135770904e-10,
+      "support_gt_1e_14": 149,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 68,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613656896908,
+      "original_farkas_rhs": -1.9216136536076467,
+      "original_stationarity_inf_norm": 1.3166864714024508e-10,
+      "support_gt_1e_14": 154,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 69,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613657214445,
+      "original_farkas_rhs": -1.9216136532014274,
+      "original_stationarity_inf_norm": 1.7138452103677304e-10,
+      "support_gt_1e_14": 149,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 70,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136563027235,
+      "original_farkas_rhs": -1.9216136527673784,
+      "original_stationarity_inf_norm": 1.6164827310772056e-10,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 71,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613656713361,
+      "original_farkas_rhs": -1.9216136560007313,
+      "original_stationarity_inf_norm": 1.0417114133104421e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 72,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136564629138,
+      "original_farkas_rhs": -1.9216136544361522,
+      "original_stationarity_inf_norm": 1.1078356964502706e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 73,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136565413722,
+      "original_farkas_rhs": -1.9216136535666122,
+      "original_stationarity_inf_norm": 1.224524691116446e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 74,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613656997429,
+      "original_farkas_rhs": -1.9216136546959688,
+      "original_stationarity_inf_norm": 1.4906272742926272e-10,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 75,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136563205064,
+      "original_farkas_rhs": -1.921613654196844,
+      "original_stationarity_inf_norm": 6.090838826143982e-11,
+      "support_gt_1e_14": 153,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 76,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136568544837,
+      "original_farkas_rhs": -1.9216136551004528,
+      "original_stationarity_inf_norm": 2.5530743772229717e-10,
+      "support_gt_1e_14": 153,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 77,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136570286215,
+      "original_farkas_rhs": -1.9216136539661726,
+      "original_stationarity_inf_norm": 1.4293470676597003e-10,
+      "support_gt_1e_14": 146,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 78,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216135715542288,
+      "original_farkas_rhs": -1.9216135672987646,
+      "original_stationarity_inf_norm": 3.066991030717045e-09,
+      "support_gt_1e_14": 162,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 79,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613656937842,
+      "original_farkas_rhs": -1.9216136553436416,
+      "original_stationarity_inf_norm": 1.3622066697748417e-10,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 80,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770983691,
+      "original_farkas_rhs": -20.842487707480007,
+      "original_stationarity_inf_norm": 1.259454932231522e-10,
+      "support_gt_1e_14": 156,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 81,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487707867484,
+      "original_farkas_rhs": -20.842487704176563,
+      "original_stationarity_inf_norm": 7.073276222624341e-11,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 82,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770983691,
+      "original_farkas_rhs": -20.842487707480007,
+      "original_stationarity_inf_norm": 1.259454932231522e-10,
+      "support_gt_1e_14": 156,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 83,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708712884,
+      "original_farkas_rhs": -20.842487708088317,
+      "original_stationarity_inf_norm": 7.254719978420973e-11,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 84,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770807311,
+      "original_farkas_rhs": -20.842487706920846,
+      "original_stationarity_inf_norm": 1.1148536340578052e-10,
+      "support_gt_1e_14": 160,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 85,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770538503,
+      "original_farkas_rhs": -20.84248770429899,
+      "original_stationarity_inf_norm": 3.1467608810678143e-10,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 86,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487707342823,
+      "original_farkas_rhs": -20.842487705377255,
+      "original_stationarity_inf_norm": 9.964522593586459e-11,
+      "support_gt_1e_14": 157,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 87,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708718377,
+      "original_farkas_rhs": -20.842487707331028,
+      "original_stationarity_inf_norm": 7.471613030096538e-11,
+      "support_gt_1e_14": 153,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 88,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487709194774,
+      "original_farkas_rhs": -20.842487708493177,
+      "original_stationarity_inf_norm": 7.417815807110654e-11,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 89,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770901515,
+      "original_farkas_rhs": -20.84248770827121,
+      "original_stationarity_inf_norm": 7.225159814760153e-11,
+      "support_gt_1e_14": 157,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 90,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770849853,
+      "original_farkas_rhs": -20.84248770793831,
+      "original_stationarity_inf_norm": 7.779258358597634e-11,
+      "support_gt_1e_14": 160,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 91,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708625136,
+      "original_farkas_rhs": -20.84248770609764,
+      "original_stationarity_inf_norm": 8.967871237275382e-11,
+      "support_gt_1e_14": 159,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 92,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708712884,
+      "original_farkas_rhs": -20.842487708088317,
+      "original_stationarity_inf_norm": 7.254719978420973e-11,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 93,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487707490733,
+      "original_farkas_rhs": -20.842487705794962,
+      "original_stationarity_inf_norm": 9.315916874089498e-11,
+      "support_gt_1e_14": 157,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 94,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770875615,
+      "original_farkas_rhs": -20.842487708038025,
+      "original_stationarity_inf_norm": 1.4772046251302264e-10,
+      "support_gt_1e_14": 154,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 95,
+      "deaths": [
+        "('face', (198, 243, 244), (243, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708489504,
+      "original_farkas_rhs": -20.842487708019615,
+      "original_stationarity_inf_norm": 1.3573029352330195e-10,
+      "support_gt_1e_14": 161,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 96,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.011986529208597487,
+      "original_farkas_rhs": -0.011986529132575061,
+      "original_stationarity_inf_norm": 1.2931586987414003e-10,
+      "support_gt_1e_14": 121,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 97,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.007553922142894254,
+      "original_farkas_rhs": -0.007553916671951836,
+      "original_stationarity_inf_norm": 5.684787464401476e-10,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 98,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.007553921137897429,
+      "original_farkas_rhs": -0.007553920145619347,
+      "original_stationarity_inf_norm": 5.684786889509051e-10,
+      "support_gt_1e_14": 154,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 99,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.007553922056080978,
+      "original_farkas_rhs": -0.007553919696408171,
+      "original_stationarity_inf_norm": 5.684787299197542e-10,
+      "support_gt_1e_14": 159,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 100,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.003134754536382087,
+      "original_farkas_rhs": -0.0031347521913041385,
+      "original_stationarity_inf_norm": 1.94663176451453e-10,
+      "support_gt_1e_14": 147,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 101,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.00014235981701537278,
+      "original_farkas_rhs": -0.00014235972536672775,
+      "original_stationarity_inf_norm": 1.1979364028524842e-10,
+      "support_gt_1e_14": 129,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 102,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -3.9031896422393257e-08,
+      "original_farkas_rhs": -3.8844722629520814e-08,
+      "original_stationarity_inf_norm": 7.669349821945215e-11,
+      "support_gt_1e_14": 140,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 103,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -3.47177417850165e-08,
+      "original_farkas_rhs": -3.441068882092116e-08,
+      "original_stationarity_inf_norm": 8.05042748727805e-11,
+      "support_gt_1e_14": 137,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 104,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.0031351351321745077,
+      "original_farkas_rhs": -0.0031351336443902664,
+      "original_stationarity_inf_norm": 1.0766475048881564e-10,
+      "support_gt_1e_14": 148,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 105,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -9.092068334981902e-07,
+      "original_farkas_rhs": -9.075694442119839e-07,
+      "original_stationarity_inf_norm": 4.567512808707904e-10,
+      "support_gt_1e_14": 153,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 106,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -6.374018284940878e-06,
+      "original_farkas_rhs": -6.367279493712168e-06,
+      "original_stationarity_inf_norm": 2.4135729788129003e-10,
+      "support_gt_1e_14": 142,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 107,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -5.641965322995751e-06,
+      "original_farkas_rhs": -5.638306095003889e-06,
+      "original_stationarity_inf_norm": 1.6347679704888293e-10,
+      "support_gt_1e_14": 146,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 108,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -0.0031351347901206923,
+      "original_farkas_rhs": -0.0031351313990491767,
+      "original_stationarity_inf_norm": 1.0329023949010475e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 109,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -7.609327031380358e-07,
+      "original_farkas_rhs": -7.549556457341482e-07,
+      "original_stationarity_inf_norm": 4.568661314606308e-10,
+      "support_gt_1e_14": 154,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 110,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -6.3030325031673545e-06,
+      "original_farkas_rhs": -6.300237416044968e-06,
+      "original_stationarity_inf_norm": 2.1413031852287537e-10,
+      "support_gt_1e_14": 139,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 111,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 1)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -5.568255018778762e-06,
+      "original_farkas_rhs": -5.5655127777397185e-06,
+      "original_stationarity_inf_norm": 1.3616179255981425e-10,
+      "support_gt_1e_14": 143,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 112,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136564897857,
+      "original_farkas_rhs": -1.9216136549716356,
+      "original_stationarity_inf_norm": 1.2565206625074907e-10,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 113,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136563741208,
+      "original_farkas_rhs": -1.921613654678159,
+      "original_stationarity_inf_norm": 1.0317055542813737e-10,
+      "support_gt_1e_14": 152,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 114,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136569384705,
+      "original_farkas_rhs": -1.9216136568430848,
+      "original_stationarity_inf_norm": 1.450645063277601e-10,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 115,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136570146483,
+      "original_farkas_rhs": -1.9216136536001034,
+      "original_stationarity_inf_norm": 1.362334846829283e-10,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 116,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136569394195,
+      "original_farkas_rhs": -1.9216136549940181,
+      "original_stationarity_inf_norm": 8.9456791418519e-11,
+      "support_gt_1e_14": 146,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 117,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136568939346,
+      "original_farkas_rhs": -1.9216136542971798,
+      "original_stationarity_inf_norm": 1.4936117718281998e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 118,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613657262878,
+      "original_farkas_rhs": -1.9216136560250152,
+      "original_stationarity_inf_norm": 1.2668820185131908e-10,
+      "support_gt_1e_14": 145,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 119,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136567345892,
+      "original_farkas_rhs": -1.9216136538117559,
+      "original_stationarity_inf_norm": 9.735451107380814e-11,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 120,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136563800157,
+      "original_farkas_rhs": -1.9216136545218154,
+      "original_stationarity_inf_norm": 9.589440211496429e-11,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 121,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136566006943,
+      "original_farkas_rhs": -1.9216136542979956,
+      "original_stationarity_inf_norm": 1.845351973018241e-10,
+      "support_gt_1e_14": 153,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 122,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613656584572,
+      "original_farkas_rhs": -1.9216136532157182,
+      "original_stationarity_inf_norm": 8.885884865974524e-11,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 123,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136564720658,
+      "original_farkas_rhs": -1.9216136558795098,
+      "original_stationarity_inf_norm": 1.1200363130101641e-10,
+      "support_gt_1e_14": 151,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 124,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.921613656814837,
+      "original_farkas_rhs": -1.9216136543164906,
+      "original_stationarity_inf_norm": 1.2336927529901787e-10,
+      "support_gt_1e_14": 152,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 125,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136559399029,
+      "original_farkas_rhs": -1.9216136535717594,
+      "original_stationarity_inf_norm": 2.0523331730316127e-10,
+      "support_gt_1e_14": 144,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 126,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136564867172,
+      "original_farkas_rhs": -1.9216136531430017,
+      "original_stationarity_inf_norm": 1.982500320884732e-10,
+      "support_gt_1e_14": 150,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 127,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 3)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -1.9216136566596405,
+      "original_farkas_rhs": -1.9216136555824106,
+      "original_stationarity_inf_norm": 1.802269512583247e-10,
+      "support_gt_1e_14": 156,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 128,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487707358764,
+      "original_farkas_rhs": -20.84248770590098,
+      "original_stationarity_inf_norm": 4.740483462519515e-11,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 129,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708190923,
+      "original_farkas_rhs": -20.842487704545903,
+      "original_stationarity_inf_norm": 7.267768256762674e-11,
+      "support_gt_1e_14": 157,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 130,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708594874,
+      "original_farkas_rhs": -20.842487708060652,
+      "original_stationarity_inf_norm": 7.241684543189866e-11,
+      "support_gt_1e_14": 154,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 131,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 't')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770930847,
+      "original_farkas_rhs": -20.842487707391324,
+      "original_stationarity_inf_norm": 7.222952854873027e-11,
+      "support_gt_1e_14": 156,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 132,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487706753634,
+      "original_farkas_rhs": -20.84248770506118,
+      "original_stationarity_inf_norm": 3.178782355182231e-11,
+      "support_gt_1e_14": 161,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 133,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770787151,
+      "original_farkas_rhs": -20.842487704180648,
+      "original_stationarity_inf_norm": 7.073342536727903e-11,
+      "support_gt_1e_14": 159,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 134,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708161162,
+      "original_farkas_rhs": -20.842487707982404,
+      "original_stationarity_inf_norm": 7.772528848458962e-11,
+      "support_gt_1e_14": 160,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 135,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'one_minus_t')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487709221775,
+      "original_farkas_rhs": -20.842487708489934,
+      "original_stationarity_inf_norm": 7.417814804387758e-11,
+      "support_gt_1e_14": 157,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 136,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770959481,
+      "original_farkas_rhs": -20.842487708043826,
+      "original_stationarity_inf_norm": 7.256217789243293e-11,
+      "support_gt_1e_14": 162,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 137,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708280622,
+      "original_farkas_rhs": -20.842487707978854,
+      "original_stationarity_inf_norm": 7.656764873710691e-11,
+      "support_gt_1e_14": 159,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 138,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487707928058,
+      "original_farkas_rhs": -20.84248770422754,
+      "original_stationarity_inf_norm": 7.049224285965673e-11,
+      "support_gt_1e_14": 157,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 139,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta1')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487708236497,
+      "original_farkas_rhs": -20.842487708043738,
+      "original_stationarity_inf_norm": 7.748165924479566e-11,
+      "support_gt_1e_14": 160,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 140,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 't')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770859688,
+      "original_farkas_rhs": -20.84248770587033,
+      "original_stationarity_inf_norm": 1.5795022762427343e-10,
+      "support_gt_1e_14": 158,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 141,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'one_minus_t')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770663153,
+      "original_farkas_rhs": -20.842487706302737,
+      "original_stationarity_inf_norm": 2.4621871967906642e-11,
+      "support_gt_1e_14": 160,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 142,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta1')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.84248770839246,
+      "original_farkas_rhs": -20.842487706894865,
+      "original_stationarity_inf_norm": 1.3975794890498297e-10,
+      "support_gt_1e_14": 155,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    },
+    {
+      "branch": 143,
+      "deaths": [
+        "('face', (198, 243, 244), (198, 244))",
+        "('vertex', 2, 88)",
+        "('edge', (4, 5), 'beta2')",
+        "('edge', (12, 13), 'beta2')"
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "scaled_dual_objective": -20.842487706885972,
+      "original_farkas_rhs": -20.84248770607596,
+      "original_stationarity_inf_norm": 7.993149094638351e-11,
+      "support_gt_1e_14": 159,
+      "fixed_delta_one_numerical_verdict": "ANALYTIC_INFEASIBILITY_RAY"
+    }
+  ]
+}

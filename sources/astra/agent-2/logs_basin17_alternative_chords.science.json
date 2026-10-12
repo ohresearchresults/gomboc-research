@@ -1,0 +1,1374 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.616332941766479,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.995421391024605e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.02,
+        "seconds": 0.13135719299316406
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.5864755179271443,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999955972537554e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.07683199999999997,
+        "seconds": 1.1147210597991943
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.4846036704392661,
+        "reachable": 47,
+        "reachable_submitted": 48,
+        "surviving_old_component": 47,
+        "minimum": 4.999999305628353e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 2.4473440647125244
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3333495775226976,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999999376400241e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 3.610884189605713
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 2,
+        "cross": -0.2170531378301871,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.99999906746583e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 4.47336220741272
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 25,
+        "S": 1,
+        "U": 2,
+        "cross": -0.15900816020637235,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999989686308362e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 6.85046911239624
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 30,
+        "S": 1,
+        "U": 2,
+        "cross": -0.09899509738444857,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999999552111168e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 7.680005073547363
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 35,
+        "S": 1,
+        "U": 2,
+        "cross": -0.04729046525532545,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999997255166756e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 8.648946285247803
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 40,
+        "S": 1,
+        "U": 2,
+        "cross": -0.013107186728663763,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999998859525731e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 10.064767122268677
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "FINITE_TRANSFER_REQUIRES_EXACT",
+      "values": {
+        "it": 42,
+        "S": 1,
+        "U": 2,
+        "cross": 0.005459614789124925,
+        "reachable": 49,
+        "reachable_submitted": 49,
+        "surviving_old_component": 48,
+        "minimum": 4.9988438482702164e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 10.478260040283203
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.812769136547386,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.995421391024605e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.02,
+        "seconds": 0.0041658878326416016
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.7992170590464567,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999997697931463e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.10756479999999995,
+        "seconds": 0.44026613235473633
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.7414023058641391,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.997969112980386e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 1.064133882522583
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "TARGET_VERTEX_RETIREMENT",
+      "values": {
+        "it": 13,
+        "S": 1,
+        "U": 2,
+        "cross": -0.7047845475622379,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999999433070138e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 1.425947904586792
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.8254112225436439,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.995421391024605e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.02,
+        "seconds": 0.003962993621826172
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.813094306753172,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999993505015706e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.10756479999999995,
+        "seconds": 0.4370548725128174
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.7520865280199641,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9986335367480347e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 1.0568819046020508
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "cross": -0.6837881623106862,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999987823593954e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 1.90718412399292
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 2,
+        "cross": -0.6244215647767957,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999998949702733e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 2.769953966140747
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "TARGET_VERTEX_RETIREMENT",
+      "values": {
+        "it": 24,
+        "S": 1,
+        "U": 2,
+        "cross": -0.5648138252419453,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999998903331317e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 3.4524378776550293
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.8316661357631218,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.995421391024605e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.02,
+        "seconds": 0.004029035568237305
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.8221225884974908,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999992359715695e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.10756479999999995,
+        "seconds": 0.44774508476257324
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.7784394806642042,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999999694537921e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 1.1850290298461914
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "cross": -0.7152720780937628,
+        "reachable": 47,
+        "reachable_submitted": 48,
+        "surviving_old_component": 47,
+        "minimum": 4.999999238604958e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 1.9228579998016357
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 2,
+        "cross": -0.6551646125735198,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999999547949229e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 2.7225730419158936
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 25,
+        "S": 1,
+        "U": 2,
+        "cross": -0.5988785757802297,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999988378983135e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 3.4958109855651855
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 30,
+        "S": 1,
+        "U": 2,
+        "cross": -0.5569711130890521,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999999815099028e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 4.359998941421509
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 35,
+        "S": 1,
+        "U": 2,
+        "cross": -0.5069456220460022,
+        "reachable": 47,
+        "reachable_submitted": 48,
+        "surviving_old_component": 47,
+        "minimum": 4.999933984207798e-08,
+        "V": 64,
+        "E": 186,
+        "F": 124,
+        "trust": 0.2,
+        "seconds": 5.698930025100708
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 40,
+        "S": 1,
+        "U": 2,
+        "cross": -0.44681213540766834,
+        "reachable": 47,
+        "reachable_submitted": 48,
+        "surviving_old_component": 47,
+        "minimum": 4.9999995618044663e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 7.21231484413147
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 45,
+        "S": 1,
+        "U": 2,
+        "cross": -0.39418080258690025,
+        "reachable": 47,
+        "reachable_submitted": 48,
+        "surviving_old_component": 47,
+        "minimum": 4.99710885955017e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 8.169574975967407
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 50,
+        "S": 1,
+        "U": 2,
+        "cross": -0.36873605525737163,
+        "reachable": 47,
+        "reachable_submitted": 48,
+        "surviving_old_component": 47,
+        "minimum": 4.999999715343584e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 9.893481969833374
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 55,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3601593070727272,
+        "reachable": 47,
+        "reachable_submitted": 48,
+        "surviving_old_component": 47,
+        "minimum": 4.999864760598291e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 11.665558099746704
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 60,
+        "S": 1,
+        "U": 2,
+        "cross": -0.35273730561929356,
+        "reachable": 47,
+        "reachable_submitted": 48,
+        "surviving_old_component": 47,
+        "minimum": 4.999957971463929e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 13.42093014717102
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 65,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3459792734037797,
+        "reachable": 47,
+        "reachable_submitted": 48,
+        "surviving_old_component": 47,
+        "minimum": 4.995863996521916e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 15.301362037658691
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 70,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34158191165719004,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999997292117351e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 16.358777046203613
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 75,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3406165739216143,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999998000662802e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 17.102792978286743
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 80,
+        "S": 1,
+        "U": 2,
+        "cross": -0.340613971395261,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999996170635285e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 17.83695411682129
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 85,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3406139498445892,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999992044919205e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.005120000000000002,
+        "seconds": 18.620105981826782
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 90,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3406139472775057,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.998284047200192e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.00032768000000000017,
+        "seconds": 19.280567169189453
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 95,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3406139472427805,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.996044468872795e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 8.388608000000005e-06,
+        "seconds": 19.888066053390503
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 100,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3406139471887195,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.996056262577662e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 5.368709120000005e-07,
+        "seconds": 20.451905965805054
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 105,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3406139471887195,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.996056262577662e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 5.497558138880006e-09,
+        "seconds": 21.045883178710938
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 110,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3406139471887195,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.996056262577662e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 5.629499534213128e-11,
+        "seconds": 21.3963520526886
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "FINITE_BASIN_FLOW_STALLED",
+      "values": {
+        "it": 111,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3406139471887195,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.996056262577662e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 2.2517998136852513e-11,
+        "seconds": 21.408075094223022
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "cross": -0.8310836422617726,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.995421391024605e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.02,
+        "seconds": 0.003604888916015625
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "cross": -0.8234465114798627,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999981854214664e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.10756479999999995,
+        "seconds": 0.4847288131713867
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "cross": -0.7990738562764548,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999994366091765e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 1.2637608051300049
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "cross": -0.7538637274301272,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999998523171921e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 1.9685146808624268
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 2,
+        "cross": -0.6994320936963803,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999994042365e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 2.6708319187164307
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 25,
+        "S": 1,
+        "U": 2,
+        "cross": -0.6401688203649014,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999998934436237e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 3.5663177967071533
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 30,
+        "S": 1,
+        "U": 2,
+        "cross": -0.5807814003111691,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999880185243134e-08,
+        "V": 65,
+        "E": 189,
+        "F": 126,
+        "trust": 0.2,
+        "seconds": 4.598187685012817
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 35,
+        "S": 1,
+        "U": 2,
+        "cross": -0.5055379187145556,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999999676706497e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 5.500165939331055
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 40,
+        "S": 1,
+        "U": 2,
+        "cross": -0.4247364110741683,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999996534902088e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 6.426761865615845
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 45,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3419009373376394,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999877810312985e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.2,
+        "seconds": 7.395557880401611
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 50,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34172566269857235,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999990013553127e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.08000000000000002,
+        "seconds": 8.055238962173462
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 55,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3417256385737246,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999897202162956e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.0020480000000000008,
+        "seconds": 8.73312783241272
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 60,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3417256377767543,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999989620491139e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.00013107200000000006,
+        "seconds": 9.345947742462158
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 65,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3417256376149134,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999989481927721e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 2.0971520000000012e-05,
+        "seconds": 9.931412935256958
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 70,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34172555111085173,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999990695674414e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 7.516192768000006e-07,
+        "seconds": 10.48640489578247
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 75,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34172555043961955,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999989399774316e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 7.516192768000006e-07,
+        "seconds": 10.884439706802368
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 80,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34172475630673416,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999978040315799e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 2.8874206137548815e-06,
+        "seconds": 11.12026596069336
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 85,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3417204144515296,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999443676467306e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 1.552924104172105e-05,
+        "seconds": 11.257976770401001
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 90,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3416981664888215,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999995985613804e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 8.351998534022579e-05,
+        "seconds": 11.463567733764648
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 95,
+        "S": 1,
+        "U": 2,
+        "cross": -0.341581861618002,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999999340478266e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.0004491905259562158,
+        "seconds": 11.771360635757446
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 100,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3412216974940253,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9999985671424855e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.001232578803223856,
+        "seconds": 12.130794048309326
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 105,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34105585720227627,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999109430941565e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.0017256103245133982,
+        "seconds": 12.568119764328003
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 110,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34105567830154504,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.999106790070796e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 0.0006902441298053593,
+        "seconds": 13.147562980651855
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 115,
+        "S": 1,
+        "U": 2,
+        "cross": -0.3410556782607658,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9991069721023257e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 1.7670249723017203e-05,
+        "seconds": 13.827813863754272
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 120,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34105567822781824,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9991066003436825e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 1.1308959822731013e-06,
+        "seconds": 14.72659683227539
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 125,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34105567822781824,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9991066003436825e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 1.158037485847656e-08,
+        "seconds": 15.641610622406006
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "TRUE_VERTEX_BASIN",
+      "values": {
+        "it": 130,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34105567822781824,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9991066003436825e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 1.185830385508e-10,
+        "seconds": 16.271339654922485
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "FINITE_BASIN_FLOW_STALLED",
+      "values": {
+        "it": 132,
+        "S": 1,
+        "U": 2,
+        "cross": -0.34105567822781824,
+        "reachable": 48,
+        "reachable_submitted": 48,
+        "surviving_old_component": 48,
+        "minimum": 4.9991066003436825e-08,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "trust": 1.8973286168128e-11,
+        "seconds": 16.297935724258423
+      }
+    }
+  ]
+}

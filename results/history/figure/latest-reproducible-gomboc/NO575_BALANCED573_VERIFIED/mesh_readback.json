@@ -1,0 +1,8 @@
+{
+  "status": "EXACT_DECIMAL_OBJ_AND_ASCII_STL_READBACK_PASS",
+  "vertices": 573,
+  "maximal_faces": 1141,
+  "triangles": 1142,
+  "obj_sha256": "f7edc3566a43257e8ad56e5a796dfd563bdc6e7d750770f6694950134988afe5",
+  "stl_sha256": "26779d1a981ed64a25e70f6ca4684c4b2454dc4414b642c7941ac7aba3032e31"
+}

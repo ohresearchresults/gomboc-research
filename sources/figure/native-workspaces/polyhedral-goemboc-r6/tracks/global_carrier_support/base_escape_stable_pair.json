@@ -1,0 +1,827 @@
+{
+  "base_cycle": [
+    0,
+    54,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "base_u": [
+    0.4887318011183448,
+    0.7654069389255677,
+    -0.41868059952690784
+  ],
+  "base_v": [
+    -0.8618456955813056,
+    0.4981124782853021,
+    -0.09542513287624912
+  ],
+  "best": {
+    "active_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      54,
+      69,
+      72,
+      73,
+      88,
+      198,
+      224,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264
+    ],
+    "base_face_present": true,
+    "centroid": [
+      -14.737325821529959,
+      -0.36828343234582256,
+      2.1626454286637395
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "f_vector": [
+      61,
+      162,
+      103
+    ],
+    "missing_forced_rails": [],
+    "saddle_edges": [
+      [
+        6,
+        7
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    "stable_base": true,
+    "stable_faces": [
+      [
+        7,
+        8,
+        245
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54
+      ]
+    ],
+    "target_guard": -0.2830752359251319,
+    "target_guard_feature": "nonsaddle:[6, 7]",
+    "target_violation_count": 4,
+    "target_violation_sum": 0.34496924332128714,
+    "target_violations": [
+      {
+        "feature": "nonstable:[7, 8, 245]",
+        "magnitude": 0.009486318890103224
+      },
+      {
+        "feature": "nonunstable:54",
+        "magnitude": 0.04962522605570029
+      },
+      {
+        "feature": "nonsaddle:[6, 7]",
+        "magnitude": 0.2830752359251319
+      },
+      {
+        "feature": "nonsaddle:[9, 10]",
+        "magnitude": 0.0027824624503517414
+      }
+    ],
+    "unstable_vertices": [
+      8,
+      54
+    ]
+  },
+  "best_coordinates": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/global_carrier_support/base_escape_stable_pair.csv",
+  "best_parameters": [
+    -0.004779236941229649,
+    -0.010394707158179955,
+    0.078664110072746,
+    -0.07249092544254637,
+    -0.020001484831015208,
+    -0.002120801841320411,
+    -0.027898644703930192,
+    0.021296890201479353,
+    -0.05370311535664969,
+    0.004750976282849282,
+    -0.018632533782492786,
+    -0.05221943276853934,
+    0.03179341597787538,
+    0.02098808803183779,
+    0.04021686508242847,
+    0.017009600269377242,
+    0.012495315972805843,
+    -0.001003255181292826,
+    -0.07071067732741917,
+    0.03862187910147091
+  ],
+  "bound": 0.02,
+  "calls": 5100,
+  "controlled_rows": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    54
+  ],
+  "focus": "stable_pair",
+  "generations": 50,
+  "improvements": [
+    {
+      "base_face_present": true,
+      "call": 1,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "focus": "stable_pair",
+      "missing_forced_rails": [],
+      "objective": 400.64628230850144,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.27898572850817444,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.36943104601891164,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 177,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "focus": "stable_pair",
+      "missing_forced_rails": [],
+      "objective": 400.58830064744933,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.27214174987735634,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.33682625739732336,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 432,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "focus": "stable_pair",
+      "missing_forced_rails": [],
+      "objective": 400.5789744543941,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.2750854900030295,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.33732099858385095,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 1539,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "focus": "stable_pair",
+      "missing_forced_rails": [],
+      "objective": 400.57884344317944,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.27931102411338715,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.33935944285420944,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 1751,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "focus": "stable_pair",
+      "missing_forced_rails": [],
+      "objective": 400.56174661372967,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.28079844879512594,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.35101533883687774,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 1875,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "focus": "stable_pair",
+      "missing_forced_rails": [],
+      "objective": 400.5539121528198,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.28203063030374864,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.35763188011188274,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 2712,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "focus": "stable_pair",
+      "missing_forced_rails": [],
+      "objective": 400.54589756659976,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.28104236886822376,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.35605996996304484,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 2990,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "focus": "stable_pair",
+      "missing_forced_rails": [],
+      "objective": 400.54274747257466,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.27498849282306703,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.3203230262439186,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "call": 4144,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "focus": "stable_pair",
+      "missing_forced_rails": [],
+      "objective": 400.53842586570704,
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "target_guard": -0.2830752359251319,
+      "target_guard_feature": "nonsaddle:[6, 7]",
+      "target_violation_count": 4,
+      "target_violation_sum": 0.34496924332128714,
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    }
+  ],
+  "optimizer_message": "Maximum number of iterations has been exceeded.",
+  "popsize": 5,
+  "row_scales": {
+    "0": 0.17446921681019972,
+    "1": 0.02646065430143243,
+    "2": 0.2500286240612378,
+    "3": 0.6096339537048123,
+    "4": 1.3529774524848093,
+    "5": 3.036389845031031,
+    "6": 7.453751204606881,
+    "7": 19.26810019884649,
+    "8": 18.60085584350602,
+    "9": 18.60085584350602,
+    "10": 8.710927563219215,
+    "11": 4.198691885050803,
+    "12": 2.2927627756314624,
+    "13": 1.3784000143569732,
+    "14": 0.879407325140348,
+    "15": 0.5701599230269822,
+    "16": 0.35097073574468496,
+    "54": 0.02646065430143243
+  },
+  "scope": "20-dimensional in-base-plane nonlinear actual-hull search",
+  "seed": 831820,
+  "source": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/circuit_atlas/row54_far_rebuilt.csv",
+  "start_json": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/global_carrier_support/base_escape_far_lex_stage3.json",
+  "start_parameters": [
+    -0.0038360471574716733,
+    -0.008085247016364015,
+    0.06466711483167346,
+    -0.06432888963896301,
+    -0.017152664299582024,
+    -0.01650172756386344,
+    -0.009340670107220613,
+    0.03524900448605642,
+    -0.05638401523953592,
+    -0.0009497816266595543,
+    -0.025160710008825585,
+    -0.044582662991148374,
+    0.03169956647024156,
+    0.016037315821876896,
+    0.03744026063058474,
+    0.009102848077432509,
+    0.002208731885240133,
+    0.015516938810821066,
+    -0.059573191117538137,
+    0.04051617530177935
+  ],
+  "version": 1,
+  "winner": false
+}

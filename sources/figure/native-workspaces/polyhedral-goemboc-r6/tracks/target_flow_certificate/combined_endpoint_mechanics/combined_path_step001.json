@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "source": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/circuit_atlas/row54_combined_wall_rebuilt.csv",
+  "lp_json": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/target_flow_certificate/combined_endpoint_mechanics/combined_four_death_lp.json",
+  "alpha": 0.0006,
+  "lp_delta": 0.9874367747899313,
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "f_vector": [
+    61,
+    161,
+    102
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "faces_match": true,
+  "all_vertices_active": true,
+  "all_forced_rails_present": true,
+  "topology_margin": 8.268984857950912e-08,
+  "death_ratios": {
+    "('face', (7, 8, 245, 246), (8, 246))": 0.9980192605152413,
+    "('vertex', 54, 1)": 0.9993996001630316,
+    "('edge', (6, 7), 'one_minus_t')": 0.9987748315076469,
+    "('edge', (9, 10), 't')": 0.9994010751587441
+  },
+  "minimum_signed_guard_ratio": 0.0028019957520333534,
+  "minimum_signed_guard": {
+    "key": "('edge', (262, 263), 'beta1')",
+    "kind": "nonsaddle_edge_witness",
+    "baseline_value": -3902.698987800907,
+    "new_value": -10.93534598528301
+  }
+}

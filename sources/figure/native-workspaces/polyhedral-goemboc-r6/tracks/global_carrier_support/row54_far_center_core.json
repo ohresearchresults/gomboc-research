@@ -1,0 +1,3452 @@
+{
+  "branches": [
+    {
+      "component_offset": 0,
+      "core_exclusions": [
+        "nonsaddle:[2, 3]",
+        "nonstable:[1, 2, 88]",
+        "nonstable:[1, 54, 88]"
+      ],
+      "gordan_alternative": {
+        "certificates": [
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.3270634591222574e-16,
+              4.753142324176451e-16,
+              -2.0296264668928643e-16,
+              -4.5102810375396984e-17,
+              5.329070518200751e-15
+            ],
+            "maximum_absolute_residual": 5.329070518200751e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.44080665574713396
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4399166721605028
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:0",
+                "weight": 0.007645033776003537
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:0",
+                "weight": 0.11163163831636493
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.734723475976807e-18,
+              -2.7755575615628914e-17,
+              0.0,
+              -8.500145032286355e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 8.500145032286355e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.02089452701005954
+              },
+              {
+                "guard": "base_stable:3",
+                "weight": 0.14537674050018343
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:0",
+                "weight": 0.005640184265615013
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:0",
+                "weight": 0.3660092512336181
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:1",
+                "weight": 0.4620792969905239
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -2.7755575615628914e-16,
+              -1.4779844015322396e-15,
+              -1.412064909445121e-15,
+              1.3183898417423734e-16,
+              1.4876988529977098e-14
+            ],
+            "maximum_absolute_residual": 1.4876988529977098e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[2, 3, 242]",
+                "weight": 0.415766863500594
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.41015628466149023
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:0",
+                "weight": 0.007127850019327494
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:0",
+                "weight": 0.16694900181860325
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              3.7296554733501353e-16,
+              -4.579669976578771e-16,
+              8.083811398051921e-16,
+              -1.1687699419393738e-16,
+              0.0
+            ],
+            "maximum_absolute_residual": 8.083811398051921e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.04873140729710605
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.4743860946997968
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:0",
+                "weight": 0.4768824980030972
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              3.48245737802344e-16,
+              -1.1032841307212493e-15,
+              6.331740687315346e-16,
+              3.1008182133085427e-17,
+              1.2212453270876722e-14
+            ],
+            "maximum_absolute_residual": 1.2212453270876722e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.3822382037794228
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.3665107328700448
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.10694646816011028
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:1",
+                "weight": 0.14430459519043418
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.1282641487753153e-14,
+              2.493990257368406e-14,
+              -1.5707053713232e-14,
+              8.749945212827015e-15,
+              0.0
+            ],
+            "maximum_absolute_residual": 2.493990257368406e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 54, 88]",
+                "weight": 0.4542378288585528
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.46191214715440404
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:2",
+                "weight": 0.0838500239873285
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              2.1163626406917047e-16,
+              2.896988204881268e-16,
+              -1.7433970933566911e-16,
+              -9.71445146547012e-16,
+              4.6629367034256575e-15
+            ],
+            "maximum_absolute_residual": 4.6629367034256575e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.44524718136306995
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4560551341953054
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:2",
+                "weight": 0.0986976844416292
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -6.713379852030243e-16,
+              -3.0253577421035516e-15,
+              -2.5500435096859064e-15,
+              6.42715047849407e-16,
+              3.1530333899354446e-14
+            ],
+            "maximum_absolute_residual": 3.1530333899354446e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 54, 88]",
+                "weight": 0.009432437078488929
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.2743857898068724
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.3055912324180825
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:1",
+                "weight": 0.41059054069658774
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.5271325933083485e-15,
+              1.1431422393791922e-15,
+              3.872735881494336e-15,
+              -1.1233720355521162e-15,
+              -4.118927421359331e-14
+            ],
+            "maximum_absolute_residual": 4.118927421359331e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.44524718136303226
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.45605513419530463
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:2",
+                "weight": 0.09869768444159903
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.214306433183765e-17,
+              -2.7755575615628914e-17,
+              9.020562075079397e-17,
+              1.249000902703301e-16,
+              -1.1102230246251565e-16
+            ],
+            "maximum_absolute_residual": 1.249000902703301e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "base_stable:11",
+                "weight": 0.337019212480363
+              },
+              {
+                "guard": "base_stable:13",
+                "weight": 0.15370828454583801
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.49572169661947146
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:1",
+                "weight": 0.013550806354327368
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              0.0,
+              1.6479873021779667e-17,
+              -1.8171228410857054e-16,
+              -1.6024508109335756e-16,
+              0.0
+            ],
+            "maximum_absolute_residual": 1.8171228410857054e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 54, 88]",
+                "weight": 0.41243291594857046
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.40393322422763767
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.11071012458079506
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:1",
+                "weight": 0.07292373524299685
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -3.469446951953614e-18,
+              2.6020852139652106e-18,
+              2.6020852139652106e-18,
+              -1.734723475976807e-16,
+              0.0
+            ],
+            "maximum_absolute_residual": 1.734723475976807e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[4, 5, 244]",
+                "weight": 0.38517185896433925
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.38100411265908807
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:1",
+                "weight": 0.0031732642205393098
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:0",
+                "weight": 0.1221091960765347
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:2",
+                "weight": 0.10854156807949866
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              7.806255641895632e-17,
+              2.0816681711721685e-17,
+              1.8388068845354155e-16,
+              -4.575333167888829e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 1.8388068845354155e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.04873140729710921
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.47438609469979165
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:0",
+                "weight": 0.4768824980030991
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              0.0,
+              -1.8648277366750676e-17,
+              8.239936510889834e-18,
+              -3.469446951953614e-18,
+              0.0
+            ],
+            "maximum_absolute_residual": 1.8648277366750676e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 54, 88]",
+                "weight": 0.41552525143434876
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.3997640077581309
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.11033852468005877
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:1",
+                "weight": 0.0001522821835382482
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.07421993394392332
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.3877787807814457e-17,
+              2.0816681711721685e-17,
+              -4.336808689942018e-18,
+              8.326672684688674e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 8.326672684688674e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[13, 14, 261]",
+                "weight": 0.35268003103115625
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.056387171977637734
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:1",
+                "weight": 0.010902828297980277
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.4398115689923407
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:2",
+                "weight": 0.14021839970088498
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              3.469446951953614e-18,
+              -1.3877787807814457e-17,
+              6.938893903907228e-18,
+              -2.7647155398380363e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 2.7647155398380363e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.0824981988346378
+              },
+              {
+                "guard": "base_stable:11",
+                "weight": 0.4271578258312576
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:1",
+                "weight": 0.014541897806336813
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:2",
+                "weight": 0.3721221430407812
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:0",
+                "weight": 0.10367993448698656
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              0.0,
+              1.3877787807814457e-17,
+              -1.0408340855860843e-17,
+              -2.2551405187698492e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 2.2551405187698492e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.024675916369046626
+              },
+              {
+                "guard": "base_stable:2",
+                "weight": 0.3223651935385076
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:1",
+                "weight": 0.009251795227968361
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:2",
+                "weight": 0.1640871136712293
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:1",
+                "weight": 0.4796199811932481
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -5.204170427930421e-18,
+              -4.336808689942018e-19,
+              3.469446951953614e-18,
+              -1.8735013540549517e-16,
+              -1.1102230246251565e-16
+            ],
+            "maximum_absolute_residual": 1.8735013540549517e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[4, 5, 244]",
+                "weight": 0.34636936648011224
+              },
+              {
+                "guard": "inside:[72, 259, 260]",
+                "weight": 0.09813974406244758
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.40752183994493857
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:1",
+                "weight": 0.007110787051280682
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:2",
+                "weight": 0.14085826246122093
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.240327285323417e-16,
+              -2.445960101127298e-16,
+              -4.527628272299467e-16,
+              5.898059818321144e-17,
+              6.8833827526759706e-15
+            ],
+            "maximum_absolute_residual": 6.8833827526759706e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[2, 3, 242]",
+                "weight": 0.48885924925876517
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.46545750366136046
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:2",
+                "weight": 0.0456832470798813
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.734723475976807e-18,
+              -1.3877787807814457e-17,
+              -3.469446951953614e-18,
+              1.3877787807814457e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 1.3877787807814457e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.010871463203979583
+              },
+              {
+                "guard": "base_stable:3",
+                "weight": 0.16488426971345674
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:2",
+                "weight": 0.0348692044906546
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:0",
+                "weight": 0.26529117426251514
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:1",
+                "weight": 0.524083888329394
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              2.6020852139652106e-18,
+              -8.456776945386935e-18,
+              -2.5587171270657905e-17,
+              3.5388358909926865e-16,
+              0.0
+            ],
+            "maximum_absolute_residual": 3.5388358909926865e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[2, 3, 242]",
+                "weight": 0.42227541941458735
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.41456060964479596
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.058248345757895274
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:0",
+                "weight": 0.06824008298813786
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:2",
+                "weight": 0.03667554219458354
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.734723475976807e-18,
+              0.0,
+              -3.469446951953614e-18,
+              3.230922474006803e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 3.230922474006803e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 16, 72]",
+                "weight": 0.06108212715569677
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.020595719098813758
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:2",
+                "weight": 0.010667523152255085
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.49371498638136274
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:0",
+                "weight": 0.4139396442118717
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.734723475976807e-18,
+              6.938893903907228e-18,
+              1.0408340855860843e-17,
+              6.938893903907228e-18,
+              -1.1102230246251565e-16
+            ],
+            "maximum_absolute_residual": 1.1102230246251565e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 16, 72]",
+                "weight": 0.3232431744362799
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.2283504057843992
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.04401505532326983
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:2",
+                "weight": 0.05294988522197095
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.35144147923408
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.734723475976807e-18,
+              6.938893903907228e-18,
+              1.0408340855860843e-17,
+              6.938893903907228e-18,
+              -1.1102230246251565e-16
+            ],
+            "maximum_absolute_residual": 1.1102230246251565e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 16, 72]",
+                "weight": 0.3232431744362799
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.2283504057843992
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.04401505532326983
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:2",
+                "weight": 0.05294988522197095
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.35144147923408
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.1188966420050406e-16,
+              -1.2750217548429532e-16,
+              -3.616898447411643e-16,
+              4.85722573273506e-17,
+              5.773159728050814e-15
+            ],
+            "maximum_absolute_residual": 5.773159728050814e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.4452471813630742
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.45605513419530536
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:2",
+                "weight": 0.09869768444162631
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -6.938893903907228e-18,
+              -6.938893903907228e-18,
+              -6.938893903907228e-18,
+              -1.6479873021779667e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 1.6479873021779667e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[228, 230, 231]",
+                "weight": 0.013164732666218204
+              },
+              {
+                "guard": "base_stable:3",
+                "weight": 0.09279300731917967
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.22642849722865327
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:2",
+                "weight": 0.10956232228447789
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:1",
+                "weight": 0.558051440501471
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.0842021724855044e-17,
+              -3.686287386450715e-18,
+              1.5178830414797062e-18,
+              4.128641872824801e-16,
+              -2.220446049250313e-16
+            ],
+            "maximum_absolute_residual": 4.128641872824801e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.4524702079726156
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4484999758382129
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.05908057422925573
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:2",
+                "weight": 0.002749694662360024
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:2",
+                "weight": 0.037199547297555584
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -8.977193988179977e-17,
+              -1.1102230246251565e-16,
+              -2.949029909160572e-16,
+              3.469446951953614e-17,
+              4.6629367034256575e-15
+            ],
+            "maximum_absolute_residual": 4.6629367034256575e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[2, 3, 242]",
+                "weight": 0.46545750366136335
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.48885924925876006
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:3",
+                "weight": 0.04568324707988129
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 3,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -6.938893903907228e-18,
+              0.0,
+              -1.0408340855860843e-17,
+              1.474514954580286e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 1.474514954580286e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.04573854559033517
+              },
+              {
+                "guard": "base_stable:3",
+                "weight": 0.15879061120566687
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:3",
+                "weight": 0.03526886106639688
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:0",
+                "weight": 0.2554867591785548
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:1",
+                "weight": 0.5047152229590464
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 3,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              2.6020852139652106e-18,
+              -8.456776945386935e-18,
+              -2.5587171270657905e-17,
+              3.5388358909926865e-16,
+              0.0
+            ],
+            "maximum_absolute_residual": 3.5388358909926865e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[2, 3, 242]",
+                "weight": 0.42227541941458735
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.41456060964479596
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.058248345757895274
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:0",
+                "weight": 0.06824008298813786
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:2",
+                "weight": 0.03667554219458354
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 3,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -3.469446951953614e-18,
+              1.3877787807814457e-17,
+              -1.0408340855860843e-17,
+              3.5778671692021646e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 3.5778671692021646e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 16, 72]",
+                "weight": 0.04982387363843382
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.019442647770676686
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:3",
+                "weight": 0.009288444947500727
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.49469677398877016
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:0",
+                "weight": 0.42674825965461854
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 3,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.734723475976807e-18,
+              1.734723475976807e-17,
+              -5.204170427930421e-18,
+              3.469446951953614e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 3.469446951953614e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 16, 72]",
+                "weight": 0.30544368960296203
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.26832596600428876
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.04159135276239803
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:3",
+                "weight": 0.05254974555738167
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.33208924607296947
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 3,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.734723475976807e-18,
+              1.734723475976807e-17,
+              -5.204170427930421e-18,
+              3.469446951953614e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 3.469446951953614e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 16, 72]",
+                "weight": 0.30544368960296203
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.26832596600428876
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.04159135276239803
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:3",
+                "weight": 0.05254974555738167
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:1",
+                "weight": 0.33208924607296947
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 3,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              8.239936510889834e-17,
+              -9.107298248878237e-17,
+              -1.0156805951844206e-15,
+              -1.321859288694327e-15,
+              1.687538997430238e-14
+            ],
+            "maximum_absolute_residual": 1.687538997430238e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.44524718136307934
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4560551341953064
+              },
+              {
+                "guard": "nonstable:[1, 2, 88]:component:2",
+                "weight": 0.09869768444163124
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 3,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -6.938893903907228e-18,
+              -1.3877787807814457e-17,
+              -2.0816681711721685e-17,
+              -1.3010426069826053e-17,
+              2.220446049250313e-16
+            ],
+            "maximum_absolute_residual": 2.220446049250313e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.09231673051117725
+              },
+              {
+                "guard": "base_stable:3",
+                "weight": 0.08660063079199011
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.2062757509134636
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:3",
+                "weight": 0.10385963134680719
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:1",
+                "weight": 0.510947256436562
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 3,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              9.540979117872439e-18,
+              1.951563910473908e-18,
+              9.974659986866641e-18,
+              4.145989107584569e-16,
+              0.0
+            ],
+            "maximum_absolute_residual": 4.145989107584569e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.4511050797641374
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4500260536628943
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.05890232479529929
+              },
+              {
+                "guard": "nonsaddle:[2, 3]:component:3",
+                "weight": 0.002879227618259824
+              },
+              {
+                "guard": "nonstable:[1, 54, 88]:component:2",
+                "weight": 0.037087314159409086
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 3,
+                "feature": "nonsaddle:[2, 3]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 2, 88]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[1, 54, 88]"
+              }
+            ],
+            "success": true
+          }
+        ],
+        "combination_count": 36,
+        "every_combination_certified": true,
+        "maximum_absolute_identity_residual": 4.118927421359331e-14
+      },
+      "meaning": "dot(c-x54, x0-x54) < 0",
+      "neighbour": 0,
+      "single_deletion_checks": [
+        {
+          "maximum_common_margin": 0.0008371235508899955,
+          "removed": "nonsaddle:[2, 3]"
+        },
+        {
+          "maximum_common_margin": 0.0007232046829976219,
+          "removed": "nonstable:[1, 2, 88]"
+        },
+        {
+          "maximum_common_margin": 0.0002037602609319641,
+          "removed": "nonstable:[1, 54, 88]"
+        }
+      ],
+      "solve": {
+        "binary_count": 10,
+        "centre": [
+          2.7901528019942883,
+          0.6759746035505317,
+          -1.153381075783698
+        ],
+        "maximum_common_margin": -0.0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "mip_gap": 0.0,
+        "status": 0
+      }
+    },
+    {
+      "component_offset": 1,
+      "core_exclusions": [
+        "nonunstable:1",
+        "nonsaddle:[0, 16]",
+        "nonstable:[0, 54, 257]"
+      ],
+      "gordan_alternative": {
+        "certificates": [
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -7.580741590018647e-16,
+              -2.0261570199409107e-15,
+              -2.22218077272629e-15,
+              8.517492267046123e-16,
+              2.886579864025407e-14
+            ],
+            "maximum_absolute_residual": 2.886579864025407e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 54, 88]",
+                "weight": 0.16541803939785663
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.09527609675523328
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.3659713801062492
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.3733344837406897
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 0,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -2.1250362580715887e-16,
+              1.1102230246251565e-16,
+              -6.739400704169896e-16,
+              -3.903127820947816e-17,
+              1.0658141036401503e-14
+            ],
+            "maximum_absolute_residual": 1.0658141036401503e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 16, 72]",
+                "weight": 0.39350895109543715
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.36951780062099393
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:0",
+                "weight": 0.003081068056217273
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:1",
+                "weight": 0.23389218022736227
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 0,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.6705387073656652e-15,
+              1.5751289161869408e-15,
+              7.574236376983734e-16,
+              5.68295410730002e-15,
+              -1.7763568394002505e-15
+            ],
+            "maximum_absolute_residual": 5.68295410730002e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.43562051592002676
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4503082148436057
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923636571
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 0,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              5.204170427930421e-18,
+              0.0,
+              1.734723475976807e-18,
+              8.673617379884035e-18,
+              0.0
+            ],
+            "maximum_absolute_residual": 8.673617379884035e-18,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[228, 230, 231]",
+                "weight": 0.08927088501593494
+              },
+              {
+                "guard": "U8:3",
+                "weight": 3.9376206508097376e-05
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.43613180964790604
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:1",
+                "weight": 0.0009840424885511705
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.4735738866410997
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 1,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              6.938893903907228e-18,
+              -3.469446951953614e-17,
+              0.0,
+              -2.0816681711721685e-17,
+              4.440892098500626e-16
+            ],
+            "maximum_absolute_residual": 4.440892098500626e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[15, 16, 72]",
+                "weight": 0.3262832353392892
+              },
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.10872532143968941
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.25643284385522064
+              },
+              {
+                "guard": "nonunstable:1:component:0",
+                "weight": 0.30423941090046
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:1",
+                "weight": 0.00431918846534099
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 1,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -2.0990154059319366e-16,
+              -3.634245682171411e-16,
+              -1.0848526937889957e-15,
+              -3.3306690738754696e-16,
+              2.5757174171303632e-14
+            ],
+            "maximum_absolute_residual": 2.5757174171303632e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.43562051592003714
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4503082148436007
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923638787
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 1,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.3010426069826053e-16,
+              4.371503159461554e-16,
+              4.996003610813204e-16,
+              -4.597017211338539e-17,
+              -6.217248937900877e-15
+            ],
+            "maximum_absolute_residual": 6.217248937900877e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.07974112361530344
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.03204570681926308
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.4538355764201024
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.4343775931453248
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 2,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.231653667943533e-16,
+              0.0,
+              -4.0592529337857286e-16,
+              -2.7755575615628914e-17,
+              7.549516567451064e-15
+            ],
+            "maximum_absolute_residual": 7.549516567451064e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 16, 72]",
+                "weight": 0.4679507637194903
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.3912952792924124
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:2",
+                "weight": 0.1407539569881049
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 2,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              4.0072112295064244e-16,
+              6.860831347488272e-16,
+              1.5449880957918438e-15,
+              1.5959455978986625e-16,
+              -1.0769163338864018e-14
+            ],
+            "maximum_absolute_residual": 1.0769163338864018e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.4356205159200084
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.45030821484359806
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923638274
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 2,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.3010426069826053e-16,
+              4.371503159461554e-16,
+              4.996003610813204e-16,
+              -4.597017211338539e-17,
+              -6.217248937900877e-15
+            ],
+            "maximum_absolute_residual": 6.217248937900877e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.07974112361530344
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.03204570681926308
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.4538355764201024
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.4343775931453248
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 3,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.4224732503009818e-16,
+              -2.1163626406917047e-16,
+              -3.2959746043559335e-17,
+              -4.2327252813834093e-16,
+              1.9984014443252818e-15
+            ],
+            "maximum_absolute_residual": 1.9984014443252818e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 16, 72]",
+                "weight": 0.39129527929241126
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4679507637194853
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:3",
+                "weight": 0.1407539569881055
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 3,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              4.0072112295064244e-16,
+              6.860831347488272e-16,
+              1.5449880957918438e-15,
+              1.5959455978986625e-16,
+              -1.0769163338864018e-14
+            ],
+            "maximum_absolute_residual": 1.0769163338864018e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.4356205159200084
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.45030821484359806
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923638274
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 0,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 3,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              6.938893903907228e-18,
+              0.0,
+              1.5612511283791264e-17,
+              -4.336808689942018e-18,
+              -2.220446049250313e-16
+            ],
+            "maximum_absolute_residual": 2.220446049250313e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 2, 88]",
+                "weight": 0.1573977516125694
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.08617103477621167
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.3665303443142131
+              },
+              {
+                "guard": "nonunstable:1:component:1",
+                "weight": 0.015996175355859423
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.3739046939411463
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 0,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              0.0,
+              0.0,
+              -1.691355389077387e-17,
+              3.5561831257524545e-17,
+              2.220446049250313e-16
+            ],
+            "maximum_absolute_residual": 2.220446049250313e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.41934920144477805
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4288653632261537
+              },
+              {
+                "guard": "nonunstable:1:component:1",
+                "weight": 0.05307613843182265
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:0",
+                "weight": 0.0033467304246346105
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:1",
+                "weight": 0.09536256647261111
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 0,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.6705387073656652e-15,
+              1.5751289161869408e-15,
+              7.574236376983734e-16,
+              5.68295410730002e-15,
+              -1.7763568394002505e-15
+            ],
+            "maximum_absolute_residual": 5.68295410730002e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.43562051592002676
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4503082148436057
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923636571
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 0,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              7.623296525288703e-19,
+              1.5531407879091665e-18,
+              -2.668153783851046e-19,
+              -1.4094628242311558e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 1.4094628242311558e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[228, 231, 232]",
+                "weight": 3.508540019450231e-06
+              },
+              {
+                "guard": "U8:2",
+                "weight": 0.0002384044918058515
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.49981642561568396
+              },
+              {
+                "guard": "nonunstable:1:component:1",
+                "weight": 0.4999326149633418
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:1",
+                "weight": 9.046389148988747e-06
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 1,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -7.589415207398531e-19,
+              -8.456776945386935e-18,
+              9.86623976961809e-18,
+              -1.7835125737386548e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 1.7835125737386548e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[198, 259, 260]",
+                "weight": 0.037046837638015695
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.024547048340002132
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.46616104801742675
+              },
+              {
+                "guard": "nonunstable:1:component:1",
+                "weight": 0.4539075568096004
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:1",
+                "weight": 0.01833750919495505
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 1,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -2.0990154059319366e-16,
+              -3.634245682171411e-16,
+              -1.0848526937889957e-15,
+              -3.3306690738754696e-16,
+              2.5757174171303632e-14
+            ],
+            "maximum_absolute_residual": 2.5757174171303632e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.43562051592003714
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4503082148436007
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923638787
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 1,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.3010426069826053e-16,
+              4.371503159461554e-16,
+              4.996003610813204e-16,
+              -4.597017211338539e-17,
+              -6.217248937900877e-15
+            ],
+            "maximum_absolute_residual": 6.217248937900877e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.07974112361530344
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.03204570681926308
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.4538355764201024
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.4343775931453248
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 2,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              0.0,
+              0.0,
+              -3.469446951953614e-18,
+              5.204170427930421e-18,
+              0.0
+            ],
+            "maximum_absolute_residual": 5.204170427930421e-18,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[198, 259, 260]",
+                "weight": 0.15323337986710314
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.14386312824936953
+              },
+              {
+                "guard": "nonunstable:1:component:1",
+                "weight": 0.3124770365406556
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:2",
+                "weight": 0.06992809595896729
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:1",
+                "weight": 0.3204983593839045
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 2,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              4.0072112295064244e-16,
+              6.860831347488272e-16,
+              1.5449880957918438e-15,
+              1.5959455978986625e-16,
+              -1.0769163338864018e-14
+            ],
+            "maximum_absolute_residual": 1.0769163338864018e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.4356205159200084
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.45030821484359806
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923638274
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 2,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.3010426069826053e-16,
+              4.371503159461554e-16,
+              4.996003610813204e-16,
+              -4.597017211338539e-17,
+              -6.217248937900877e-15
+            ],
+            "maximum_absolute_residual": 6.217248937900877e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.07974112361530344
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.03204570681926308
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.4538355764201024
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.4343775931453248
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 3,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              8.673617379884035e-19,
+              -1.5612511283791264e-17,
+              -1.214306433183765e-17,
+              1.0408340855860843e-17,
+              2.220446049250313e-16
+            ],
+            "maximum_absolute_residual": 2.220446049250313e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.27063639818930596
+              },
+              {
+                "guard": "inside:[198, 259, 260]",
+                "weight": 0.04896728389696963
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.42033390912465246
+              },
+              {
+                "guard": "nonunstable:1:component:1",
+                "weight": 0.13410908737241908
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:3",
+                "weight": 0.12595332141665308
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 3,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              4.0072112295064244e-16,
+              6.860831347488272e-16,
+              1.5449880957918438e-15,
+              1.5959455978986625e-16,
+              -1.0769163338864018e-14
+            ],
+            "maximum_absolute_residual": 1.0769163338864018e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.4356205159200084
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.45030821484359806
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923638274
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 1,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 3,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              3.469446951953614e-18,
+              6.938893903907228e-18,
+              1.5612511283791264e-17,
+              -3.469446951953614e-18,
+              -1.1102230246251565e-16
+            ],
+            "maximum_absolute_residual": 1.1102230246251565e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[1, 54, 88]",
+                "weight": 0.16541803939771024
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.09527609675508253
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.36597138010639685
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.3733344837408439
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 0,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.8973538018496328e-18,
+              3.686287386450715e-18,
+              -1.3064636178450328e-17,
+              2.9544509200229996e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 2.9544509200229996e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.4518346429869427
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.46000382421079733
+              },
+              {
+                "guard": "nonunstable:1:component:2",
+                "weight": 0.07018092358394552
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:0",
+                "weight": 0.0005019946058426617
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:1",
+                "weight": 0.01747861461247184
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 0,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -1.6705387073656652e-15,
+              1.5751289161869408e-15,
+              7.574236376983734e-16,
+              5.68295410730002e-15,
+              -1.7763568394002505e-15
+            ],
+            "maximum_absolute_residual": 5.68295410730002e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.43562051592002676
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4503082148436057
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923636571
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 0,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              5.204170427930421e-18,
+              0.0,
+              1.734723475976807e-18,
+              8.673617379884035e-18,
+              0.0
+            ],
+            "maximum_absolute_residual": 8.673617379884035e-18,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[228, 230, 231]",
+                "weight": 0.08927088501593494
+              },
+              {
+                "guard": "U8:3",
+                "weight": 3.9376206508097376e-05
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.43613180964790604
+              },
+              {
+                "guard": "nonsaddle:[0, 16]:component:1",
+                "weight": 0.0009840424885511705
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.4735738866410997
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 1,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              3.957337929572091e-18,
+              -2.1250362580715887e-17,
+              -1.826880660638075e-17,
+              3.030345072096985e-17,
+              4.440892098500626e-16
+            ],
+            "maximum_absolute_residual": 4.440892098500626e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.44200522545402143
+              },
+              {
+                "guard": "inside:[198, 259, 260]",
+                "weight": 0.00497016716120201
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4550690677960186
+              },
+              {
+                "guard": "nonunstable:1:component:2",
+                "weight": 0.08109221074401876
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:1",
+                "weight": 0.016863328844739518
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 1,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              -2.0990154059319366e-16,
+              -3.634245682171411e-16,
+              -1.0848526937889957e-15,
+              -3.3306690738754696e-16,
+              2.5757174171303632e-14
+            ],
+            "maximum_absolute_residual": 2.5757174171303632e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.43562051592003714
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4503082148436007
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923638787
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 1,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.3010426069826053e-16,
+              4.371503159461554e-16,
+              4.996003610813204e-16,
+              -4.597017211338539e-17,
+              -6.217248937900877e-15
+            ],
+            "maximum_absolute_residual": 6.217248937900877e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.07974112361530344
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.03204570681926308
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.4538355764201024
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.4343775931453248
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 2,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              3.957337929572091e-18,
+              -2.1250362580715887e-17,
+              -1.826880660638075e-17,
+              3.030345072096985e-17,
+              4.440892098500626e-16
+            ],
+            "maximum_absolute_residual": 4.440892098500626e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.44200522545402143
+              },
+              {
+                "guard": "inside:[198, 259, 260]",
+                "weight": 0.00497016716120201
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4550690677960186
+              },
+              {
+                "guard": "nonunstable:1:component:2",
+                "weight": 0.08109221074401876
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:1",
+                "weight": 0.016863328844739518
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 2,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              4.0072112295064244e-16,
+              6.860831347488272e-16,
+              1.5449880957918438e-15,
+              1.5959455978986625e-16,
+              -1.0769163338864018e-14
+            ],
+            "maximum_absolute_residual": 1.0769163338864018e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.4356205159200084
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.45030821484359806
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923638274
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 2,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              1.3010426069826053e-16,
+              4.371503159461554e-16,
+              4.996003610813204e-16,
+              -4.597017211338539e-17,
+              -6.217248937900877e-15
+            ],
+            "maximum_absolute_residual": 6.217248937900877e-15,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.07974112361530344
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.03204570681926308
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.4538355764201024
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:0",
+                "weight": 0.4343775931453248
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 3,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 0,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              3.957337929572091e-18,
+              -2.1250362580715887e-17,
+              -1.826880660638075e-17,
+              3.030345072096985e-17,
+              4.440892098500626e-16
+            ],
+            "maximum_absolute_residual": 4.440892098500626e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[54, 88, 257]",
+                "weight": 0.44200522545402143
+              },
+              {
+                "guard": "inside:[198, 259, 260]",
+                "weight": 0.00497016716120201
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.4550690677960186
+              },
+              {
+                "guard": "nonunstable:1:component:2",
+                "weight": 0.08109221074401876
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:1",
+                "weight": 0.016863328844739518
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 3,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 1,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          },
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              4.0072112295064244e-16,
+              6.860831347488272e-16,
+              1.5449880957918438e-15,
+              1.5959455978986625e-16,
+              -1.0769163338864018e-14
+            ],
+            "maximum_absolute_residual": 1.0769163338864018e-14,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 54, 257]",
+                "weight": 0.4356205159200084
+              },
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.45030821484359806
+              },
+              {
+                "guard": "nonstable:[0, 54, 257]:component:2",
+                "weight": 0.11407126923638274
+              }
+            ],
+            "selected_negative_components": [
+              {
+                "component": 2,
+                "feature": "nonunstable:1"
+              },
+              {
+                "component": 3,
+                "feature": "nonsaddle:[0, 16]"
+              },
+              {
+                "component": 2,
+                "feature": "nonstable:[0, 54, 257]"
+              }
+            ],
+            "success": true
+          }
+        ],
+        "combination_count": 36,
+        "every_combination_certified": true,
+        "maximum_absolute_identity_residual": 2.886579864025407e-14
+      },
+      "meaning": "dot(c-x54, x1-x54) < 0",
+      "neighbour": 1,
+      "single_deletion_checks": [
+        {
+          "maximum_common_margin": 0.009976833836334322,
+          "removed": "nonunstable:1"
+        },
+        {
+          "maximum_common_margin": 0.0009141436394758534,
+          "removed": "nonsaddle:[0, 16]"
+        },
+        {
+          "maximum_common_margin": 0.0007132920563516637,
+          "removed": "nonstable:[0, 54, 257]"
+        }
+      ],
+      "solve": {
+        "binary_count": 10,
+        "centre": [
+          2.975098344270826,
+          0.15718752177180403,
+          -0.9470589051352908
+        ],
+        "maximum_common_margin": -0.0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "mip_gap": 0.0,
+        "status": 0
+      }
+    },
+    {
+      "component_offset": 2,
+      "core_exclusions": [],
+      "gordan_alternative": {
+        "certificates": [
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              0.0,
+              -4.7704895589362195e-18,
+              -3.469446951953614e-18,
+              -2.7755575615628914e-17,
+              0.0
+            ],
+            "maximum_absolute_residual": 2.7755575615628914e-17,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.08139695780329798
+              },
+              {
+                "guard": "base_stable:15",
+                "weight": 0.3923840762974342
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.07430702390113406
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.4519119419981337
+              }
+            ],
+            "selected_negative_components": [],
+            "success": true
+          }
+        ],
+        "combination_count": 1,
+        "every_combination_certified": true,
+        "maximum_absolute_identity_residual": 2.7755575615628914e-17
+      },
+      "meaning": "dot(c-x54, x88-x54) < 0",
+      "neighbour": 88,
+      "single_deletion_checks": [],
+      "solve": {
+        "binary_count": 0,
+        "centre": [
+          3.264840928212905,
+          0.40162377697491625,
+          -1.1008227376131388
+        ],
+        "maximum_common_margin": -0.0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "mip_gap": null,
+        "status": 0
+      }
+    },
+    {
+      "component_offset": 3,
+      "core_exclusions": [],
+      "gordan_alternative": {
+        "certificates": [
+          {
+            "identity_residual_coefficients_constant_and_weight_sum": [
+              0.0,
+              -5.204170427930421e-18,
+              6.938893903907228e-18,
+              5.551115123125783e-17,
+              -2.220446049250313e-16
+            ],
+            "maximum_absolute_residual": 2.220446049250313e-16,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "positive_terms": [
+              {
+                "guard": "inside:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 54]",
+                "weight": 0.08142570607666277
+              },
+              {
+                "guard": "base_stable:15",
+                "weight": 0.43138804711052664
+              },
+              {
+                "guard": "base_stable:16",
+                "weight": 0.029009875595718045
+              },
+              {
+                "guard": "kill_U54_branch",
+                "weight": 0.4581763712170923
+              }
+            ],
+            "selected_negative_components": [],
+            "success": true
+          }
+        ],
+        "combination_count": 1,
+        "every_combination_certified": true,
+        "maximum_absolute_identity_residual": 2.220446049250313e-16
+      },
+      "meaning": "dot(c-x54, x257-x54) < 0",
+      "neighbour": 257,
+      "single_deletion_checks": [],
+      "solve": {
+        "binary_count": 0,
+        "centre": [
+          3.264840928212904,
+          0.40162377697492746,
+          -1.1008227376131512
+        ],
+        "maximum_common_margin": -0.0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "mip_gap": null,
+        "status": 0
+      }
+    }
+  ],
+  "faces": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/circuit_atlas/row54_far_rebuilt_faces.json",
+  "interpretation": "Every possible strict witness that kills U54 has optimum zero; therefore no strict target centre exists for this fixed geometry.",
+  "maximum_over_all_row54_negative_witness_branches": -0.0,
+  "points": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/circuit_atlas/row54_far_rebuilt.csv",
+  "row54_neighbours": [
+    0,
+    1,
+    88,
+    257
+  ],
+  "scope": "fixed boundary geometry and arbitrary proposed centre",
+  "strict_target_centre_cell_exists": false,
+  "target_base": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    54
+  ],
+  "target_unstable_vertices": [
+    8
+  ],
+  "version": 1
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-09-15T20:40:02.470190+00:00",
+  "canonicalJournalBytes": 3919275,
+  "canonicalJournalSha256": "e83e064db454690c3cd7266ef97afcc2488d771f231b6bec364aba1eedf18c22",
+  "parts": [
+    {
+      "part": 1,
+      "actualChars": 10000,
+      "actualSha256": "ede7d3a026fae5f1b3ccf3f826613c4fc39c92eb05a4e3b48b50ef0160b88f8b",
+      "expectedChars": 10000,
+      "expectedSha256": "ede7d3a026fae5f1b3ccf3f826613c4fc39c92eb05a4e3b48b50ef0160b88f8b",
+      "actualMatchesOriginal": true,
+      "proseSha256": "ede7d3a026fae5f1b3ccf3f826613c4fc39c92eb05a4e3b48b50ef0160b88f8b"
+    },
+    {
+      "part": 2,
+      "actualChars": 10000,
+      "actualSha256": "e35f0e80e088c9ffebbbb929899617c2e8ba9ebcd7d3d5866c3b7d792f2fce5e",
+      "expectedChars": 10000,
+      "expectedSha256": "e35f0e80e088c9ffebbbb929899617c2e8ba9ebcd7d3d5866c3b7d792f2fce5e",
+      "actualMatchesOriginal": true,
+      "proseSha256": "e35f0e80e088c9ffebbbb929899617c2e8ba9ebcd7d3d5866c3b7d792f2fce5e"
+    },
+    {
+      "part": 3,
+      "actualChars": 10000,
+      "actualSha256": "f7beda1444bba0168357a3cc14463946a9928528280cb202107197bbb2e17dfb",
+      "expectedChars": 10000,
+      "expectedSha256": "f7beda1444bba0168357a3cc14463946a9928528280cb202107197bbb2e17dfb",
+      "actualMatchesOriginal": true,
+      "proseSha256": "f7beda1444bba0168357a3cc14463946a9928528280cb202107197bbb2e17dfb"
+    },
+    {
+      "part": 4,
+      "actualChars": 10000,
+      "actualSha256": "5fd7a74fbfda0854be52ca70b457476abd04856c966559b94040a3be3ec01145",
+      "expectedChars": 10000,
+      "expectedSha256": "5fd7a74fbfda0854be52ca70b457476abd04856c966559b94040a3be3ec01145",
+      "actualMatchesOriginal": true,
+      "proseSha256": "2d81d4cf27cfa93e679f530e41da0f6fbb67933572857059252864e68b7fb1a7"
+    },
+    {
+      "part": 5,
+      "actualChars": 10000,
+      "actualSha256": "adff644818179386a853ec7d11bc3f3feb4ac230bb24cde02dfaa5cbfb357cf9",
+      "expectedChars": 10000,
+      "expectedSha256": "adff644818179386a853ec7d11bc3f3feb4ac230bb24cde02dfaa5cbfb357cf9",
+      "actualMatchesOriginal": true,
+      "proseSha256": "b0ba894e363eff18a077a81e1c824a96f4632277b9a33eb0299a4950c2c08a54"
+    },
+    {
+      "part": 6,
+      "actualChars": 12129,
+      "actualSha256": "6e21afbd8fe191d1aa3bdbe201c60917766ad670e488891205ce80e3f6c77bc4",
+      "expectedChars": 9545,
+      "expectedSha256": "786a7d2b83bcced36079572f4a7357c03e9d1b8f90156c64a1cad4a71eb56085",
+      "actualMatchesOriginal": false,
+      "proseSha256": "de652b897bb03cbe4c10f3b857d818ae8684b3e49e6f0e00947e869f4a8b31d2"
+    }
+  ],
+  "badCombinedChars": 62129,
+  "badCombinedSha256": "016cef0f7ec6af628ab2c2c284b2ddce638d1538c4c5030bdbfac9066cde78e3",
+  "badDecode": "ValueError: base85 overflow in hunk starting at byte 50020",
+  "local44SourcePackageIntact": true,
+  "exactOriginalTailRecovered": true,
+  "exactReplacementRestoresPinnedMap": true,
+  "replacementChars": 9545,
+  "replacementSha256": "786a7d2b83bcced36079572f4a7357c03e9d1b8f90156c64a1cad4a71eb56085",
+  "draftBytes": 11230,
+  "draftSha256": "cd3085e8853723dde3886f8b79842a510a93a4687b2cb95337179b55674674a2",
+  "canonicalJournalChanged": false,
+  "state": "EXACT_RECOVERY_SAVED_CANONICAL_REPAIR_PENDING"
+}

@@ -1,0 +1,25 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "DISJUNCTIVE_PHYSICAL_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 35,
+        "Pmax": 0.21994254445300934,
+        "Qmax": 0.0,
+        "deficit": 0.47554301225525486,
+        "objective": 0.6954855567082642,
+        "minimum_noncontact": 2.5245553525454767e-07,
+        "it": 0,
+        "seconds": 0.7023351192474365,
+        "trust": 0.05
+      }
+    }
+  ]
+}

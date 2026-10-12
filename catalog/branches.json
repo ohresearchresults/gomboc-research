@@ -1,0 +1,2769 @@
+[
+  {
+    "id": "figure-branch-001",
+    "study": "figure",
+    "title": "C622: contacts, coarsening and exact mass",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "figure-0344",
+      "figure-0345",
+      "figure-0347",
+      "figure-0348",
+      "figure-0350",
+      "figure-0356",
+      "figure-0357",
+      "figure-0359",
+      "figure-0362",
+      "figure-0364",
+      "figure-0368",
+      "figure-0370",
+      "figure-0371",
+      "figure-0372",
+      "figure-0373",
+      "figure-0377",
+      "figure-0380",
+      "figure-0383",
+      "figure-0387",
+      "figure-0396",
+      "figure-0403",
+      "figure-0407",
+      "figure-0411",
+      "figure-0415",
+      "figure-0423",
+      "figure-0429",
+      "figure-0434",
+      "figure-0436",
+      "figure-0439",
+      "figure-0457",
+      "figure-0461",
+      "figure-0464"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-002",
+    "study": "figure",
+    "title": "Small non-pyramidal bodies and volume obstructions",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "figure-0375",
+      "figure-0378",
+      "figure-0379",
+      "figure-0382",
+      "figure-0384",
+      "figure-0385",
+      "figure-0386",
+      "figure-0388",
+      "figure-0389",
+      "figure-0391",
+      "figure-0392",
+      "figure-0393",
+      "figure-0394",
+      "figure-0395",
+      "figure-0398",
+      "figure-0399",
+      "figure-0401"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-003",
+    "study": "figure",
+    "title": "C320: supports, shared interface and root",
+    "parent": "figure-branch-001",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0391",
+      "figure-0400",
+      "figure-0402",
+      "figure-0404"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-004",
+    "study": "figure",
+    "title": "C510: own centroid and cancellation of a stable pair",
+    "parent": "figure-branch-003",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0383",
+      "figure-0387",
+      "figure-0389",
+      "figure-0391",
+      "figure-0402",
+      "figure-0404"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-005",
+    "study": "figure",
+    "title": "From a reference centre to a homogeneous physical construction",
+    "parent": "figure-branch-001",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0328",
+      "figure-0353",
+      "figure-0390",
+      "figure-0394",
+      "figure-0395",
+      "figure-0405",
+      "figure-0406",
+      "figure-0408",
+      "figure-0417",
+      "figure-0426"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-006",
+    "study": "figure",
+    "title": "History: closed and postponed directions",
+    "parent": null,
+    "recorded_status": "closed",
+    "reports": [
+      "figure-0025",
+      "figure-0026",
+      "figure-0027",
+      "figure-0028",
+      "figure-0029",
+      "figure-0030",
+      "figure-0031",
+      "figure-0032",
+      "figure-0033",
+      "figure-0034",
+      "figure-0035",
+      "figure-0036",
+      "figure-0037",
+      "figure-0038",
+      "figure-0039",
+      "figure-0040",
+      "figure-0041",
+      "figure-0042",
+      "figure-0043",
+      "figure-0044",
+      "figure-0045",
+      "figure-0046",
+      "figure-0047",
+      "figure-0048",
+      "figure-0049",
+      "figure-0052",
+      "figure-0050",
+      "figure-0051",
+      "figure-0053",
+      "figure-0054",
+      "figure-0055",
+      "figure-0056",
+      "figure-0057",
+      "figure-0058",
+      "figure-0059",
+      "figure-0060",
+      "figure-0061",
+      "figure-0062",
+      "figure-0063",
+      "figure-0064",
+      "figure-0065",
+      "figure-0066",
+      "figure-0067",
+      "figure-0068",
+      "figure-0069",
+      "figure-0070",
+      "figure-0071",
+      "figure-0072",
+      "figure-0073",
+      "figure-0074",
+      "figure-0075",
+      "figure-0076",
+      "figure-0077",
+      "figure-0078",
+      "figure-0079",
+      "figure-0080",
+      "figure-0081",
+      "figure-0082",
+      "figure-0083",
+      "figure-0084",
+      "figure-0085",
+      "figure-0086",
+      "figure-0087",
+      "figure-0088",
+      "figure-0089",
+      "figure-0090",
+      "figure-0091",
+      "figure-0092",
+      "figure-0093",
+      "figure-0094",
+      "figure-0095",
+      "figure-0096",
+      "figure-0097",
+      "figure-0098",
+      "figure-0099",
+      "figure-0100",
+      "figure-0101",
+      "figure-0102",
+      "figure-0103",
+      "figure-0104",
+      "figure-0105",
+      "figure-0106",
+      "figure-0107",
+      "figure-0108",
+      "figure-0109",
+      "figure-0110",
+      "figure-0111",
+      "figure-0112",
+      "figure-0113",
+      "figure-0114",
+      "figure-0115",
+      "figure-0116",
+      "figure-0117",
+      "figure-0118",
+      "figure-0119",
+      "figure-0120",
+      "figure-0121",
+      "figure-0122",
+      "figure-0123",
+      "figure-0124",
+      "figure-0125",
+      "figure-0126",
+      "figure-0127",
+      "figure-0128",
+      "figure-0129",
+      "figure-0130",
+      "figure-0131",
+      "figure-0132",
+      "figure-0133",
+      "figure-0134",
+      "figure-0135",
+      "figure-0136",
+      "figure-0137",
+      "figure-0138",
+      "figure-0139",
+      "figure-0140",
+      "figure-0141",
+      "figure-0142",
+      "figure-0143",
+      "figure-0144",
+      "figure-0145",
+      "figure-0146",
+      "figure-0147",
+      "figure-0148",
+      "figure-0149",
+      "figure-0150",
+      "figure-0151",
+      "figure-0152",
+      "figure-0153",
+      "figure-0154",
+      "figure-0155",
+      "figure-0156",
+      "figure-0157",
+      "figure-0158",
+      "figure-0159",
+      "figure-0160",
+      "figure-0161",
+      "figure-0162",
+      "figure-0163",
+      "figure-0164",
+      "figure-0165",
+      "figure-0166",
+      "figure-0167",
+      "figure-0168",
+      "figure-0169",
+      "figure-0170",
+      "figure-0171",
+      "figure-0172",
+      "figure-0173",
+      "figure-0174",
+      "figure-0175",
+      "figure-0176",
+      "figure-0177",
+      "figure-0178",
+      "figure-0179",
+      "figure-0180",
+      "figure-0181",
+      "figure-0182",
+      "figure-0183",
+      "figure-0184",
+      "figure-0185",
+      "figure-0186",
+      "figure-0187",
+      "figure-0188",
+      "figure-0189",
+      "figure-0190",
+      "figure-0191",
+      "figure-0192",
+      "figure-0193",
+      "figure-0194",
+      "figure-0195",
+      "figure-0196",
+      "figure-0197",
+      "figure-0198",
+      "figure-0199",
+      "figure-0200",
+      "figure-0201",
+      "figure-0202",
+      "figure-0203",
+      "figure-0204",
+      "figure-0205",
+      "figure-0206",
+      "figure-0207",
+      "figure-0208",
+      "figure-0209",
+      "figure-0210",
+      "figure-0211",
+      "figure-0212",
+      "figure-0213",
+      "figure-0214",
+      "figure-0215",
+      "figure-0216",
+      "figure-0217",
+      "figure-0218",
+      "figure-0219",
+      "figure-0220",
+      "figure-0221",
+      "figure-0222",
+      "figure-0223",
+      "figure-0224",
+      "figure-0225",
+      "figure-0226",
+      "figure-0227",
+      "figure-0228",
+      "figure-0229",
+      "figure-0230",
+      "figure-0231",
+      "figure-0232",
+      "figure-0233",
+      "figure-0234",
+      "figure-0235",
+      "figure-0236",
+      "figure-0237",
+      "figure-0238",
+      "figure-0239",
+      "figure-0240",
+      "figure-0241",
+      "figure-0242",
+      "figure-0243",
+      "figure-0244",
+      "figure-0245",
+      "figure-0246",
+      "figure-0247",
+      "figure-0248",
+      "figure-0249",
+      "figure-0250",
+      "figure-0251",
+      "figure-0252",
+      "figure-0253",
+      "figure-0254",
+      "figure-0255",
+      "figure-0256",
+      "figure-0257",
+      "figure-0258",
+      "figure-0259",
+      "figure-0260",
+      "figure-0261",
+      "figure-0262",
+      "figure-0263",
+      "figure-0264",
+      "figure-0265",
+      "figure-0266",
+      "figure-0267",
+      "figure-0268",
+      "figure-0269",
+      "figure-0270",
+      "figure-0271",
+      "figure-0272",
+      "figure-0273",
+      "figure-0274",
+      "figure-0275",
+      "figure-0276",
+      "figure-0277",
+      "figure-0278",
+      "figure-0279",
+      "figure-0280",
+      "figure-0281",
+      "figure-0282",
+      "figure-0283",
+      "figure-0284",
+      "figure-0285",
+      "figure-0286",
+      "figure-0287",
+      "figure-0288",
+      "figure-0289",
+      "figure-0290",
+      "figure-0291",
+      "figure-0292",
+      "figure-0293",
+      "figure-0294",
+      "figure-0295",
+      "figure-0296",
+      "figure-0297",
+      "figure-0298",
+      "figure-0299",
+      "figure-0300",
+      "figure-0301",
+      "figure-0302",
+      "figure-0303",
+      "figure-0304",
+      "figure-0305",
+      "figure-0306",
+      "figure-0307",
+      "figure-0308",
+      "figure-0309",
+      "figure-0310",
+      "figure-0311",
+      "figure-0312",
+      "figure-0313",
+      "figure-0314",
+      "figure-0315",
+      "figure-0316",
+      "figure-0317",
+      "figure-0318",
+      "figure-0326",
+      "figure-0327",
+      "figure-0329",
+      "figure-0330",
+      "figure-0331",
+      "figure-0332",
+      "figure-0333",
+      "figure-0334",
+      "figure-0335",
+      "figure-0336",
+      "figure-0337",
+      "figure-0338",
+      "figure-0339",
+      "figure-0340",
+      "figure-0341",
+      "figure-0342",
+      "figure-0343",
+      "figure-0346",
+      "figure-0349",
+      "figure-0351",
+      "figure-0352",
+      "figure-0354",
+      "figure-0355",
+      "figure-0358",
+      "figure-0360",
+      "figure-0361",
+      "figure-0363",
+      "figure-0365",
+      "figure-0366",
+      "figure-0367",
+      "figure-0369",
+      "figure-0374",
+      "figure-0376",
+      "figure-0381",
+      "figure-0397"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-007",
+    "study": "figure",
+    "title": "C366: removing a whole unstable region at the own centroid",
+    "parent": "figure-branch-003",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0420",
+      "figure-0430",
+      "figure-0437"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-008",
+    "study": "figure",
+    "title": "C288/C330: stable basin, new supports and volume compensation",
+    "parent": "figure-branch-003",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0404",
+      "figure-0409",
+      "figure-0412"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-009",
+    "study": "figure",
+    "title": "Small vertex descriptions: from a reference-centre (1,1,0) body to true homogeneous mass",
+    "parent": "figure-branch-002",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0410",
+      "figure-0413",
+      "figure-0418",
+      "figure-0422",
+      "figure-0428",
+      "figure-0432",
+      "figure-0438",
+      "figure-0440"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-010",
+    "study": "figure",
+    "title": "C318/C306: finite replacement of the extra radial basin",
+    "parent": "figure-branch-003",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-011",
+    "study": "figure",
+    "title": "C306: sparse chord transfers and choice of direction for the full unstable basin",
+    "parent": "figure-branch-010",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0414",
+      "figure-0419",
+      "figure-0421"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-012",
+    "study": "figure",
+    "title": "G6: deep chains of new faces and physical centring by cuts",
+    "parent": "figure-branch-009",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0413"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-013",
+    "study": "figure",
+    "title": "Deep polar-chain C508: mass-closed 92-facet basin redesign",
+    "parent": "figure-branch-012",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0431"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-014",
+    "study": "figure",
+    "title": "C306/C454: physical change of width and projection at the own centroid",
+    "parent": "figure-branch-011",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0421",
+      "figure-0425",
+      "figure-0427",
+      "figure-0433"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-015",
+    "study": "figure",
+    "title": "COARSE20_G4 affine orbit inside the exact compact spectral window",
+    "parent": "figure-branch-007",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0420"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-016",
+    "study": "figure",
+    "title": "Whole-basin cancellation from low-complexity U1 bodies",
+    "parent": "figure-branch-013",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0431",
+      "figure-0435",
+      "figure-0441"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-017",
+    "study": "figure",
+    "title": "C114 with 21 vertices: removing a whole stable region with one unstable equilibrium",
+    "parent": "figure-branch-009",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0438",
+      "figure-0440",
+      "figure-0443"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-018",
+    "study": "figure",
+    "title": "Whole physical-basin cancellation after the NC22 polar pair is removed",
+    "parent": "figure-branch-016",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0435",
+      "figure-0442"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-019",
+    "study": "figure",
+    "title": "Incidence-preserving physical centroid steering and projective equilibrium cells",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-020",
+    "study": "figure",
+    "title": "Finite material additions and actual-centroid correction beyond the C114 architecture",
+    "parent": "figure-branch-017",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0438",
+      "figure-0444",
+      "figure-0446",
+      "figure-0448",
+      "figure-0449"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-021",
+    "study": "figure",
+    "title": "Finite physical-root turnover and whole-basin cancellation from exact C114 own211",
+    "parent": "figure-branch-009",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0438",
+      "figure-0444",
+      "figure-0445",
+      "figure-0447",
+      "figure-0462",
+      "figure-0465",
+      "figure-0468",
+      "figure-0475",
+      "figure-0482"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-022",
+    "study": "figure",
+    "title": "Compact H-space: cancel the physical basin after actual stable cancellation",
+    "parent": "figure-branch-020",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0449",
+      "figure-0450",
+      "figure-0451",
+      "figure-0467",
+      "figure-0471",
+      "figure-0476",
+      "figure-0481",
+      "figure-0483",
+      "figure-0489",
+      "figure-0492",
+      "figure-0496",
+      "figure-0501",
+      "figure-0506"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-023",
+    "study": "figure",
+    "title": "Free twenty-vertex actual-centroid radial-basin deformation",
+    "parent": "figure-branch-020",
+    "recorded_status": "closed",
+    "reports": [
+      "figure-0449",
+      "figure-0452",
+      "figure-0453",
+      "figure-0454",
+      "figure-0455",
+      "figure-0456",
+      "figure-0458",
+      "figure-0460",
+      "figure-0463",
+      "figure-0472",
+      "figure-0479",
+      "figure-0484",
+      "figure-0488",
+      "figure-0494",
+      "figure-0499"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-024",
+    "study": "figure",
+    "title": "Near-minimum asymmetric support stacks: C40/C42 actual-centroid search",
+    "parent": "figure-branch-022",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0459",
+      "figure-0466",
+      "figure-0470",
+      "figure-0473",
+      "figure-0478",
+      "figure-0480"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-025",
+    "study": "figure",
+    "title": "Ordinary bipyramids: own centroid, exact chambers and stable basins",
+    "parent": "figure-branch-002",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0469",
+      "figure-0474",
+      "figure-0477",
+      "figure-0485",
+      "figure-0487"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-026",
+    "study": "figure",
+    "title": "NW37 MONO47 low-edge whole-basin cancellation",
+    "parent": "figure-branch-021",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0447"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-027",
+    "study": "figure",
+    "title": "C50 whole-edge-packet cap beyond the C40 affine obstructions",
+    "parent": "figure-branch-024",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0459",
+      "figure-0466",
+      "figure-0486",
+      "figure-0490",
+      "figure-0493",
+      "figure-0497",
+      "figure-0503",
+      "figure-0505",
+      "figure-0510",
+      "figure-0512",
+      "figure-0518"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-028",
+    "study": "figure",
+    "title": "Circular sections CIRCLE5/POLYSECT14: exact mass and finite polyhedral approximation",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-029",
+    "study": "figure",
+    "title": "Oblique bipyramid C186: removing the extra stable basin with one unstable equilibrium",
+    "parent": "figure-branch-025",
+    "recorded_status": "closed",
+    "reports": [
+      "figure-0487",
+      "figure-0491",
+      "figure-0495",
+      "figure-0498"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-030",
+    "study": "figure",
+    "title": "GREEN_STACK: exact finite mass, convexity by curvature and cancellation of full P/Q packets",
+    "parent": "figure-branch-028",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-031",
+    "study": "figure",
+    "title": "IGS: independent supports of finite sections and exact obstructions to moving the centre along the axis",
+    "parent": "figure-branch-030",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-032",
+    "study": "figure",
+    "title": "Paired C2 chains: structural single unstable equilibrium, exact mass closure and removal of the full Q basin",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "figure-0504",
+      "figure-0508"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-033",
+    "study": "figure",
+    "title": "MORSE6: sparse finite realization with critical faces at the own centroid",
+    "parent": "figure-branch-028",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0500",
+      "figure-0502",
+      "figure-0507",
+      "figure-0511",
+      "figure-0516",
+      "figure-0521",
+      "figure-0524",
+      "figure-0528",
+      "figure-0533",
+      "figure-0536"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-034",
+    "study": "figure",
+    "title": "C2 fixed shapes: full symmetry-breaking affine geometry and free equilibrium roots",
+    "parent": "figure-branch-032",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-035",
+    "study": "figure",
+    "title": "D2 reflection geometry: finite critical carriers, independent supports and actual mass",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-036",
+    "study": "figure",
+    "title": "C92 nonsymmetric actual-mass geometry beyond the D2 affine entrance",
+    "parent": "figure-branch-035",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0509",
+      "figure-0513",
+      "figure-0515",
+      "figure-0519",
+      "figure-0526",
+      "figure-0530"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-037",
+    "study": "figure",
+    "title": "Joint primal–polar path envelopes and actual uniform-mass feasibility",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-038",
+    "study": "figure",
+    "title": "Macroscopic coarsening of the exact C622 own110 body",
+    "parent": "figure-branch-001",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0373",
+      "figure-0514",
+      "figure-0517",
+      "figure-0520",
+      "figure-0523"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-039",
+    "study": "figure",
+    "title": "Internal coarsening of C622: freeing the plate and the own volume mass",
+    "parent": "figure-branch-038",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0373",
+      "figure-0522",
+      "figure-0525"
+    ],
+    "unavailable_report_count": 1
+  },
+  {
+    "id": "figure-branch-040",
+    "study": "figure",
+    "title": "RESERVE31: the reference-centre (1,1,0) region and reachability of the own centroid",
+    "parent": "figure-branch-027",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0527",
+      "figure-0532",
+      "figure-0535"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-041",
+    "study": "figure",
+    "title": "Direct strict equilibrium margins at the own centroid: free geometry FREE_LIVE30",
+    "parent": "figure-branch-040",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-042",
+    "study": "figure",
+    "title": "Finite addition of chains and faces to small own-centroid (2,1,1) bodies: spending the E249 budget",
+    "parent": "figure-branch-041",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-043",
+    "study": "figure",
+    "title": "R3: finite rebuilding of the full Q basin with a free E249 budget",
+    "parent": "figure-branch-042",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0531",
+      "figure-0534",
+      "figure-0537"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-044",
+    "study": "figure",
+    "title": "Own polar of R3: centre of polarity, Santaló point and material change of the extra basin",
+    "parent": "figure-branch-042",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-045",
+    "study": "figure",
+    "title": "W49: finite projective-metric orbit of exact small bodies at their own centroid",
+    "parent": "figure-branch-043",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0531"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-046",
+    "study": "figure",
+    "title": "H44 own polar and metric: exact C252 (2,1,1) bodies, finite cancellation of Q53",
+    "parent": "figure-branch-044",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0531"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-047",
+    "study": "figure",
+    "title": "W51 own-centroid (2,1,1): joint rebuilding of the last stable–saddle pair",
+    "parent": "figure-branch-043",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0537",
+      "figure-0538",
+      "figure-0541"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-048",
+    "study": "figure",
+    "title": "COMPACT_G6: free mass rebuilding of the last unstable basin",
+    "parent": "figure-branch-033",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0536",
+      "figure-0539",
+      "figure-0547"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-049",
+    "study": "figure",
+    "title": "H24 + ROBUST_G3: physical intersection and convex union of complementary bodies",
+    "parent": "figure-branch-047",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0537",
+      "figure-0540"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-050",
+    "study": "figure",
+    "title": "Projective homogeneous centroid freedom and coupled primal-polar orbit",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "figure-0537"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-051",
+    "study": "figure",
+    "title": "Complementary W51 own211 / H24 own121 hull and intersection",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "figure-0537",
+      "figure-0542"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-052",
+    "study": "figure",
+    "title": "Own-mass support fiber and rooted polar-tree cones",
+    "parent": null,
+    "recorded_status": "closed",
+    "reports": [
+      "figure-0537",
+      "figure-0543"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-053",
+    "study": "figure",
+    "title": "Whole-host release after exact two-point hybrid root replacement",
+    "parent": "figure-branch-051",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0542",
+      "figure-0544",
+      "figure-0545"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-054",
+    "study": "figure",
+    "title": "Exact finite-amplitude centroid-neutral deformations",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-055",
+    "study": "figure",
+    "title": "Planar-face-compatible exact moment-neutral operators",
+    "parent": "figure-branch-054",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-056",
+    "study": "figure",
+    "title": "Finite U/H cancellation inside exact centroid-neutral cells",
+    "parent": "figure-branch-054",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-057",
+    "study": "figure",
+    "title": "Constructive normal replacement beyond the all-root centroid obstruction",
+    "parent": "figure-branch-052",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0543",
+      "figure-0546",
+      "figure-0548"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-058",
+    "study": "figure",
+    "title": "Exact homogeneous-centroid repair with facet-preserving quadratic design cells",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-059",
+    "study": "figure",
+    "title": "Coupled primal/polar cancellation beyond hard critical-point quotas",
+    "parent": "figure-branch-057",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0548",
+      "figure-0549",
+      "figure-0551",
+      "figure-0552",
+      "figure-0559",
+      "figure-0564",
+      "figure-0565",
+      "figure-0566",
+      "figure-0568",
+      "figure-0570",
+      "figure-0575",
+      "figure-0579",
+      "figure-0585",
+      "figure-0594",
+      "figure-0596",
+      "figure-0599",
+      "figure-0603",
+      "figure-0609",
+      "figure-0610",
+      "figure-0614"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-060",
+    "study": "figure",
+    "title": "Joint landscape criteria and root-changing homogeneous continuation",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "figure-0537"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-061",
+    "study": "figure",
+    "title": "Finite mass-balanced replacement of the joint75 critical geometry",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0549",
+      "figure-0552",
+      "figure-0554",
+      "figure-0556",
+      "figure-0560"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-062",
+    "study": "figure",
+    "title": "Affine and own-centred projective orbit of JOINT75",
+    "parent": "figure-branch-059",
+    "recorded_status": "closed",
+    "reports": [
+      "figure-0549"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-063",
+    "study": "figure",
+    "title": "Projective mass repair of reference-success bridge geometry",
+    "parent": "figure-branch-062",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0549",
+      "figure-0550"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-064",
+    "study": "figure",
+    "title": "Own-centroid proximity of strict reference110 chambers",
+    "parent": "figure-branch-063",
+    "recorded_status": "closed",
+    "reports": [
+      "figure-0549",
+      "figure-0553"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-065",
+    "study": "figure",
+    "title": "Inner-body root replacement with changed own critical regions",
+    "parent": "figure-branch-064",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0553",
+      "figure-0555",
+      "figure-0558",
+      "figure-0561"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-066",
+    "study": "figure",
+    "title": "Affine metric compatibility of the new compact own121 body",
+    "parent": "figure-branch-065",
+    "recorded_status": "closed",
+    "reports": [
+      "figure-0555",
+      "figure-0557"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-067",
+    "study": "figure",
+    "title": "Metric compatibility after finite interface and stable-root turnover",
+    "parent": "figure-branch-066",
+    "recorded_status": "closed",
+    "reports": [
+      "figure-0557",
+      "figure-0558",
+      "figure-0562"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-068",
+    "study": "figure",
+    "title": "Global hinge atlas and finite volume-preserving critical-region transport",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-069",
+    "study": "figure",
+    "title": "Finite-amplitude cancellation on the exact edge-plane hinge atlas",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-070",
+    "study": "figure",
+    "title": "Physical escape from nonlocal inverse-metric cages",
+    "parent": "figure-branch-067",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0562"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-071",
+    "study": "figure",
+    "title": "Cap-preserving added geometry across both radial landscapes",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0559",
+      "figure-0563",
+      "figure-0567"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-072",
+    "study": "figure",
+    "title": "Two-critical radial geometry with physical moment balance and coarse convex discretization",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-073",
+    "study": "figure",
+    "title": "JOINT56 finite cap-preserving multi-point completion",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0559"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-074",
+    "study": "figure",
+    "title": "JOINT56 cap retirement and finite carrier replacement",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0559"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-075",
+    "study": "figure",
+    "title": "JOINT56 finite cap retirement and nonlocal root replacement",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0559"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-076",
+    "study": "figure",
+    "title": "JOINT56 cap-preserving coupled equilibrium cancellation",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0559"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-077",
+    "study": "figure",
+    "title": "JOINT56 cap retirement and nonlocal carrier replacement",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0559"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-078",
+    "study": "figure",
+    "title": "JOINT56 finite added-support and own-mass redistribution",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0559"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-079",
+    "study": "figure",
+    "title": "Completing genuine one-sided cancellation checkpoints",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0549",
+      "figure-0569",
+      "figure-0571"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-080",
+    "study": "figure",
+    "title": "Finite centroid-balanced carrier surgery beyond one-sided equilibria",
+    "parent": "figure-branch-079",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0549"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-081",
+    "study": "figure",
+    "title": "Exact finite mass-preserving boundary charts and stable-carrier exchange",
+    "parent": "figure-branch-079",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0581",
+      "figure-0580",
+      "figure-0577",
+      "figure-0587",
+      "figure-0586"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-082",
+    "study": "figure",
+    "title": "Whole high-basin replacement after strict low stable-carrier separation",
+    "parent": "figure-branch-079",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0573",
+      "figure-0576"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-083",
+    "study": "figure",
+    "title": "J88 robust own121: actual-fan carrier changes and whole-basin completion",
+    "parent": "figure-branch-081",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0574",
+      "figure-0578"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-084",
+    "study": "figure",
+    "title": "Finite whole-basin replacement on the VC47 small-support geometry",
+    "parent": "figure-branch-081",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0572",
+      "figure-0577",
+      "figure-0580",
+      "figure-0584",
+      "figure-0588",
+      "figure-0592",
+      "figure-0605",
+      "figure-0606",
+      "figure-0611",
+      "figure-0617",
+      "figure-0619",
+      "figure-0621",
+      "figure-0624",
+      "figure-0625"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-085",
+    "study": "figure",
+    "title": "Free-support basin cancellation on robust R82 and low-carrier C498",
+    "parent": "figure-branch-081",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0581",
+      "figure-0583",
+      "figure-0598",
+      "figure-0601",
+      "figure-0602",
+      "figure-0607",
+      "figure-0615",
+      "figure-0620",
+      "figure-0626"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-086",
+    "study": "figure",
+    "title": "Actual whole-Q cancellation and finite whole-P escape from QW49D C348/C198",
+    "parent": "figure-branch-081",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0587",
+      "figure-0590",
+      "figure-0591",
+      "figure-0604"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-087",
+    "study": "figure",
+    "title": "Physical projective mass geometry and bounded new-support basin surgery",
+    "parent": "figure-branch-085",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0581",
+      "figure-0582",
+      "figure-0586",
+      "figure-0589"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-088",
+    "study": "figure",
+    "title": "KF27D C282: affine S1 component and finite geometric escape",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0585"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-089",
+    "study": "figure",
+    "title": "Carrier retirement, V/H release and whole-Q completion after exact KL13 U1",
+    "parent": "figure-branch-088",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0593",
+      "figure-0595",
+      "figure-0597",
+      "figure-0600",
+      "figure-0612",
+      "figure-0623"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-090",
+    "study": "figure",
+    "title": "Edge-efficient geometry and positive-forest exits",
+    "parent": "figure-branch-089",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0593",
+      "figure-0594",
+      "figure-0601",
+      "figure-0599",
+      "figure-0600",
+      "figure-0608",
+      "figure-0613",
+      "figure-0616",
+      "figure-0618",
+      "figure-0622"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-091",
+    "study": "figure",
+    "title": "Exact mass atlas and simplicial release",
+    "parent": "figure-branch-059",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0610"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "figure-branch-092",
+    "study": "figure",
+    "title": "Global radial mass, all-path obstructions and new angular routes",
+    "parent": "figure-branch-090",
+    "recorded_status": "open",
+    "reports": [
+      "figure-0622"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-001",
+    "study": "minimum",
+    "title": "E17: true edges, incidences and two apexes",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0059",
+      "minimum-0060",
+      "minimum-0062",
+      "minimum-0063",
+      "minimum-0065",
+      "minimum-0066",
+      "minimum-0070",
+      "minimum-0072",
+      "minimum-0073",
+      "minimum-0079",
+      "minimum-0084",
+      "minimum-0086"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-002",
+    "study": "minimum",
+    "title": "Nine faces: physical trace and oblique fibres",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0014",
+      "minimum-0021",
+      "minimum-0024",
+      "minimum-0034",
+      "minimum-0037",
+      "minimum-0040",
+      "minimum-0051",
+      "minimum-0055",
+      "minimum-0058",
+      "minimum-0061",
+      "minimum-0064",
+      "minimum-0069",
+      "minimum-0078",
+      "minimum-0082",
+      "minimum-0083"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-003",
+    "study": "minimum",
+    "title": "True moments and the common centre of mass",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0015",
+      "minimum-0023",
+      "minimum-0036",
+      "minimum-0039",
+      "minimum-0041",
+      "minimum-0044",
+      "minimum-0047",
+      "minimum-0048",
+      "minimum-0051",
+      "minimum-0064",
+      "minimum-0068",
+      "minimum-0071",
+      "minimum-0075",
+      "minimum-0077",
+      "minimum-0080",
+      "minimum-0085"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-004",
+    "study": "minimum",
+    "title": "Global radial topology and weak contacts",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0055",
+      "minimum-0067",
+      "minimum-0074",
+      "minimum-0076",
+      "minimum-0087"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-005",
+    "study": "minimum",
+    "title": "Proved bounds and completed lower layers",
+    "parent": null,
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0001",
+      "minimum-0002",
+      "minimum-0003",
+      "minimum-0004",
+      "minimum-0005",
+      "minimum-0006",
+      "minimum-0007",
+      "minimum-0008",
+      "minimum-0009",
+      "minimum-0010",
+      "minimum-0011",
+      "minimum-0012",
+      "minimum-0013",
+      "minimum-0016",
+      "minimum-0017",
+      "minimum-0018",
+      "minimum-0019",
+      "minimum-0020",
+      "minimum-0022",
+      "minimum-0025",
+      "minimum-0026",
+      "minimum-0027",
+      "minimum-0028",
+      "minimum-0029",
+      "minimum-0030",
+      "minimum-0031",
+      "minimum-0032",
+      "minimum-0033",
+      "minimum-0035",
+      "minimum-0038",
+      "minimum-0042",
+      "minimum-0043",
+      "minimum-0045",
+      "minimum-0046",
+      "minimum-0049",
+      "minimum-0050",
+      "minimum-0053",
+      "minimum-0052",
+      "minimum-0054",
+      "minimum-0056",
+      "minimum-0057",
+      "minimum-0081"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-006",
+    "study": "minimum",
+    "title": "Oblique root: full trace of adjacent triangles",
+    "parent": "minimum-branch-002",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0082",
+      "minimum-0083",
+      "minimum-0089",
+      "minimum-0101",
+      "minimum-0108",
+      "minimum-0111",
+      "minimum-0115",
+      "minimum-0119",
+      "minimum-0123",
+      "minimum-0128",
+      "minimum-0131",
+      "minimum-0138",
+      "minimum-0146",
+      "minimum-0149",
+      "minimum-0154",
+      "minimum-0164"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-007",
+    "study": "minimum",
+    "title": "Two apexes after full chains: the remaining E17 geometry",
+    "parent": "minimum-branch-001",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0086",
+      "minimum-0087",
+      "minimum-0092",
+      "minimum-0095",
+      "minimum-0102",
+      "minimum-0113",
+      "minimum-0116",
+      "minimum-0120",
+      "minimum-0125",
+      "minimum-0129",
+      "minimum-0133",
+      "minimum-0136",
+      "minimum-0141",
+      "minimum-0144",
+      "minimum-0151",
+      "minimum-0157",
+      "minimum-0159"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-008",
+    "study": "minimum",
+    "title": "True centre and global nerve on E17",
+    "parent": "minimum-branch-003",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0085",
+      "minimum-0087",
+      "minimum-0088",
+      "minimum-0093",
+      "minimum-0096"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-009",
+    "study": "minimum",
+    "title": "Independent small construction at its own centroid",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0087",
+      "minimum-0091",
+      "minimum-0097",
+      "minimum-0099",
+      "minimum-0105",
+      "minimum-0109"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-010",
+    "study": "minimum",
+    "title": "Maximal base end: the remaining selected stars",
+    "parent": "minimum-branch-007",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0086",
+      "minimum-0087",
+      "minimum-0090"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-011",
+    "study": "minimum",
+    "title": "Three or more weak contacts: own projective regularization",
+    "parent": "minimum-branch-004",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0076",
+      "minimum-0094",
+      "minimum-0098"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-012",
+    "study": "minimum",
+    "title": "Full realization space of the bevel-type E17",
+    "parent": "minimum-branch-008",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0096",
+      "minimum-0100",
+      "minimum-0104",
+      "minimum-0107",
+      "minimum-0112",
+      "minimum-0122"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-013",
+    "study": "minimum",
+    "title": "Common metric: collective closures and root cap witnesses",
+    "parent": "minimum-branch-008",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0102"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-014",
+    "study": "minimum",
+    "title": "Three physical weak points with vertex–face packets",
+    "parent": "minimum-branch-011",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0076",
+      "minimum-0098",
+      "minimum-0103"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-015",
+    "study": "minimum",
+    "title": "Four physical weak points: full own regularization",
+    "parent": "minimum-branch-014",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0103",
+      "minimum-0106",
+      "minimum-0110",
+      "minimum-0114",
+      "minimum-0117",
+      "minimum-0118",
+      "minimum-0121",
+      "minimum-0124"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-016",
+    "study": "minimum",
+    "title": "Compressing the exact C622: compatible true deletions and the own centroid",
+    "parent": "minimum-branch-009",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0105",
+      "minimum-0126",
+      "minimum-0137",
+      "minimum-0148",
+      "minimum-0180",
+      "minimum-0183"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-017",
+    "study": "minimum",
+    "title": "True projective centring inside the mechanical region: convex potential and joint geometry",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-018",
+    "study": "minimum",
+    "title": "Interior of the projective class after the general horizon obstruction",
+    "parent": "minimum-branch-017",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0122",
+      "minimum-0022",
+      "minimum-0127",
+      "minimum-0134"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-019",
+    "study": "minimum",
+    "title": "Four weak contacts while keeping the non-triangular faces of E17",
+    "parent": "minimum-branch-015",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0124",
+      "minimum-0130",
+      "minimum-0132",
+      "minimum-0135",
+      "minimum-0140",
+      "minimum-0143",
+      "minimum-0145"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-020",
+    "study": "minimum",
+    "title": "Trace with arbitrary additional vertices: global attainment and free boundary",
+    "parent": "minimum-branch-006",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0139",
+      "minimum-0142"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-021",
+    "study": "minimum",
+    "title": "Value of the full trace on the boundary with one zero end C/D",
+    "parent": "minimum-branch-020",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0142",
+      "minimum-0147",
+      "minimum-0150",
+      "minimum-0153",
+      "minimum-0155",
+      "minimum-0161",
+      "minimum-0185"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-022",
+    "study": "minimum",
+    "title": "Polar formulation of the trace and joint variations of the root and volume moments",
+    "parent": "minimum-branch-020",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0142"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-023",
+    "study": "minimum",
+    "title": "Two-anchor trace after exact distribution of curvature",
+    "parent": "minimum-branch-022",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0152",
+      "minimum-0158",
+      "minimum-0162",
+      "minimum-0163"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-024",
+    "study": "minimum",
+    "title": "Positive root values with negative G(C) or G(D): third and fourth anchors",
+    "parent": "minimum-branch-022",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0156",
+      "minimum-0160",
+      "minimum-0163",
+      "minimum-0165",
+      "minimum-0164"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-025",
+    "study": "minimum",
+    "title": "Non-positive marks: extended protected faces 3/4/5 and root chains",
+    "parent": "minimum-branch-024",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0166",
+      "minimum-0167",
+      "minimum-0168",
+      "minimum-0169"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-026",
+    "study": "minimum",
+    "title": "Actual negative-z root-only trace beyond the completed octant",
+    "parent": "minimum-branch-006",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0164",
+      "minimum-0165",
+      "minimum-0173",
+      "minimum-0175",
+      "minimum-0177",
+      "minimum-0179",
+      "minimum-0182"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-027",
+    "study": "minimum",
+    "title": "Root-only positive octant with an opposite endpoint at least a",
+    "parent": "minimum-branch-026",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0164",
+      "minimum-0170",
+      "minimum-0173"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-028",
+    "study": "minimum",
+    "title": "Special B polygons and coherent whole-body/root moments",
+    "parent": "minimum-branch-025",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0168",
+      "minimum-0169",
+      "minimum-0171",
+      "minimum-0172",
+      "minimum-0174"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-029",
+    "study": "minimum",
+    "title": "Octant S5/I4/I5: exact boundary of the high end T≤3/2",
+    "parent": "minimum-branch-028",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0171"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-030",
+    "study": "minimum",
+    "title": "Proper33 negative-z full maxima: off-root auxiliary geometry",
+    "parent": "minimum-branch-024",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0165",
+      "minimum-0174",
+      "minimum-0176",
+      "minimum-0178",
+      "minimum-0181"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-031",
+    "study": "minimum",
+    "title": "Full extended octant after flattening A: coverage of high maxima",
+    "parent": "minimum-branch-024",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0181",
+      "minimum-0184",
+      "minimum-0187"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-032",
+    "study": "minimum",
+    "title": "C592 direct U/H corridor: eliminate collateral births and attain proper110",
+    "parent": "minimum-branch-016",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0183",
+      "minimum-0186",
+      "minimum-0275",
+      "minimum-0278",
+      "minimum-0283",
+      "minimum-0289",
+      "minimum-0293"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-033",
+    "study": "minimum",
+    "title": "K2 whole-incidence corner-split obstruction and its propagation",
+    "parent": "minimum-branch-001",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0069",
+      "minimum-0086",
+      "minimum-0188",
+      "minimum-0191",
+      "minimum-0194",
+      "minimum-0198",
+      "minimum-0201",
+      "minimum-0204",
+      "minimum-0206"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-034",
+    "study": "minimum",
+    "title": "Reciprocal cofactor obstructions: exact blind region and mixed metric defect",
+    "parent": "minimum-branch-013",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-035",
+    "study": "minimum",
+    "title": "Real E17 patches beyond the reciprocal cofactor obstructions",
+    "parent": "minimum-branch-034",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0189",
+      "minimum-0190",
+      "minimum-0195"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-036",
+    "study": "minimum",
+    "title": "FULL253: from true faces and centre of mass to a forbidden dependence of five poles",
+    "parent": "minimum-branch-033",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0069",
+      "minimum-0192",
+      "minimum-0193",
+      "minimum-0196"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-037",
+    "study": "minimum",
+    "title": "General metric criterion for polar paths at high-degree vertices",
+    "parent": "minimum-branch-036",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0192"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-038",
+    "study": "minimum",
+    "title": "Realizing pentagonal polar obstructions at the own centroid of E17",
+    "parent": "minimum-branch-037",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0197"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-039",
+    "study": "minimum",
+    "title": "Pentagonal polar face of E17: full single-unstable compatibility beyond local obstructions",
+    "parent": "minimum-branch-038",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0197",
+      "minimum-0199",
+      "minimum-0202"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-040",
+    "study": "minimum",
+    "title": "E17 degree 6: five-arrow local obstruction under full single-unstable compatibility",
+    "parent": "minimum-branch-037",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0200",
+      "minimum-0203",
+      "minimum-0207",
+      "minimum-0208",
+      "minimum-0209",
+      "minimum-0210",
+      "minimum-0213",
+      "minimum-0218",
+      "minimum-0220",
+      "minimum-0222"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-041",
+    "study": "minimum",
+    "title": "Exact exclusion of the normal parameter for apical single-unstable (1,1,0) bodies",
+    "parent": null,
+    "recorded_status": "closed",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-042",
+    "study": "minimum",
+    "title": "Metric-free root geometry and reciprocal convex slices",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0199",
+      "minimum-0200"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-043",
+    "study": "minimum",
+    "title": "Degree-seven E17: two-cap geometry and global mechanics",
+    "parent": "minimum-branch-042",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0205",
+      "minimum-0203",
+      "minimum-0211"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-044",
+    "study": "minimum",
+    "title": "Rank-two weak-arrow lifting: exact linear alternative and reciprocal S>=2 tail",
+    "parent": "minimum-branch-040",
+    "recorded_status": "closed",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-045",
+    "study": "minimum",
+    "title": "Sharp shadow threshold and actual-centroid PSD obstructions",
+    "parent": "minimum-branch-040",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0209",
+      "minimum-0214",
+      "minimum-0215",
+      "minimum-0006",
+      "minimum-0049",
+      "minimum-0054"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-046",
+    "study": "minimum",
+    "title": "Nonapical roots of the genuine nonconic two-cap family",
+    "parent": "minimum-branch-043",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0211",
+      "minimum-0212"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-047",
+    "study": "minimum",
+    "title": "Two-cap projective interior beyond the full positive-functional wedge",
+    "parent": "minimum-branch-046",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0212",
+      "minimum-0215",
+      "minimum-0006",
+      "minimum-0217",
+      "minimum-0219",
+      "minimum-0223"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-048",
+    "study": "minimum",
+    "title": "Endpoint-root six-step seven-corner centroid shadows",
+    "parent": "minimum-branch-045",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0209",
+      "minimum-0214"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-049",
+    "study": "minimum",
+    "title": "Actual ten-vertex rank-two feasibility at the E17 frontier",
+    "parent": "minimum-branch-045",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0006"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-050",
+    "study": "minimum",
+    "title": "Five genuine weak contacts: actual-centroid obstruction to isolated full-rank U1",
+    "parent": "minimum-branch-040",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0218",
+      "minimum-0221"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-051",
+    "study": "minimum",
+    "title": "Uniform affine shape–metric compactification for proper110",
+    "parent": null,
+    "recorded_status": "closed",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-052",
+    "study": "minimum",
+    "title": "First-layer Hausdorff closedness, incidence stability and geometric collars",
+    "parent": "minimum-branch-051",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-053",
+    "study": "minimum",
+    "title": "Four-cut prismatoid: whole-family U2 and actual-centred deformation collar",
+    "parent": "minimum-branch-050",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0221",
+      "minimum-0224"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-054",
+    "study": "minimum",
+    "title": "Heptagon–triangle complete moduli: non-small-cut interior and nonparallel residual",
+    "parent": "minimum-branch-053",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0224",
+      "minimum-0225",
+      "minimum-0226",
+      "minimum-0271",
+      "minimum-0274",
+      "minimum-0280",
+      "minimum-0284",
+      "minimum-0302"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-055",
+    "study": "minimum",
+    "title": "Common-inverse normalized metrics: coupled stresses and genuine compatible selections",
+    "parent": "minimum-branch-052",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0224"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-056",
+    "study": "minimum",
+    "title": "Exact reciprocal-pair convex hull and joint true-arrow separation",
+    "parent": "minimum-branch-052",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-057",
+    "study": "minimum",
+    "title": "Finite-height physical metrics and the asymmetric reciprocal-pair domain",
+    "parent": "minimum-branch-056",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-058",
+    "study": "minimum",
+    "title": "Joint covariance support and central-section bounds beyond the radial ratio3",
+    "parent": "minimum-branch-056",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0257",
+      "minimum-0259",
+      "minimum-0261",
+      "minimum-0264",
+      "minimum-0268",
+      "minimum-0276",
+      "minimum-0279"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-059",
+    "study": "minimum",
+    "title": "Exact nonlinear reciprocal sum fibres and geometry-compatible branch elimination",
+    "parent": "minimum-branch-055",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-060",
+    "study": "minimum",
+    "title": "Full same-lattice realization deformations and weak-rest escape",
+    "parent": "minimum-branch-052",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0227",
+      "minimum-0228",
+      "minimum-0230",
+      "minimum-0232",
+      "minimum-0233",
+      "minimum-0234",
+      "minimum-0236",
+      "minimum-0239",
+      "minimum-0241",
+      "minimum-0243"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-061",
+    "study": "minimum",
+    "title": "Actual heptagon–triangle common-inverse separation beyond the closed sectors",
+    "parent": "minimum-branch-054",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0226",
+      "minimum-0229",
+      "minimum-0231",
+      "minimum-0235",
+      "minimum-0237",
+      "minimum-0238",
+      "minimum-0240",
+      "minimum-0242",
+      "minimum-0244",
+      "minimum-0245",
+      "minimum-0246"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-062",
+    "study": "minimum",
+    "title": "Rational incidence charts: constructive escape and exact physical realizations",
+    "parent": "minimum-branch-060",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0230"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-063",
+    "study": "minimum",
+    "title": "Macroscopic H5 scale variation with exact moving cut moments",
+    "parent": "minimum-branch-061",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0237"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-064",
+    "study": "minimum",
+    "title": "Physical facet-cone operator: oblique centroid coupling and equilibrium obstructions",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-065",
+    "study": "minimum",
+    "title": "Tree-path energy and ellipsoidal residual cuts for common metrics",
+    "parent": null,
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0245",
+      "minimum-0247",
+      "minimum-0246",
+      "minimum-0248",
+      "minimum-0249"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-066",
+    "study": "minimum",
+    "title": "Global actual-centroid flow separation of H5 residual tree classes",
+    "parent": "minimum-branch-065",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0246",
+      "minimum-0247"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-067",
+    "study": "minimum",
+    "title": "Tetrahedral cluster stresses and the H5 large-taper frontier",
+    "parent": "minimum-branch-061",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-068",
+    "study": "minimum",
+    "title": "H5 middle taper: physical full-tree feasibility and actual facet equilibria",
+    "parent": "minimum-branch-067",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0250",
+      "minimum-0251"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-069",
+    "study": "minimum",
+    "title": "H5 joint110: covariance-regression compact metric and same-inverse feasibility",
+    "parent": "minimum-branch-068",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0250",
+      "minimum-0252",
+      "minimum-0253",
+      "minimum-0254",
+      "minimum-0255",
+      "minimum-0262"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-070",
+    "study": "minimum",
+    "title": "H5 joint110: covariance-conditioned five-arrow cones and indefinite stresses",
+    "parent": "minimum-branch-069",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0251",
+      "minimum-0252",
+      "minimum-0254",
+      "minimum-0253",
+      "minimum-0256",
+      "minimum-0260",
+      "minimum-0263"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-071",
+    "study": "minimum",
+    "title": "H5: reflection–reciprocal product obstruction with designed reference ellipsoids",
+    "parent": "minimum-branch-069",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0255",
+      "minimum-0257",
+      "minimum-0258",
+      "minimum-0259",
+      "minimum-0260",
+      "minimum-0265",
+      "minimum-0270"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-072",
+    "study": "minimum",
+    "title": "Whole stable-facet cones: exact edgewise LMIs and genuine arrow coverage",
+    "parent": "minimum-branch-042",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0266",
+      "minimum-0269",
+      "minimum-0272",
+      "minimum-0277",
+      "minimum-0282"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-073",
+    "study": "minimum",
+    "title": "Actual five-parameter H5: complete all-SPD U2 exclusion",
+    "parent": "minimum-branch-069",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0262",
+      "minimum-0264",
+      "minimum-0267",
+      "minimum-0271"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-074",
+    "study": "minimum",
+    "title": "Physical root-foot fibres: exact quadratic completion and full true-arrow compatibility",
+    "parent": "minimum-branch-072",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0268",
+      "minimum-0225",
+      "minimum-0269",
+      "minimum-0271",
+      "minimum-0273"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-075",
+    "study": "minimum",
+    "title": "Actual facet covariance and the sharp matrix bound for centroid completion",
+    "parent": "minimum-branch-032",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0281"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-076",
+    "study": "minimum",
+    "title": "Actual cut-and-stack E17 geometry: independent tree stresses and common-inverse closure",
+    "parent": "minimum-branch-058",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0279",
+      "minimum-0285",
+      "minimum-0286",
+      "minimum-0288"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-077",
+    "study": "minimum",
+    "title": "Fixed-body physical metric atlases: exact chambers and multi-event cancellation",
+    "parent": "minimum-branch-032",
+    "recorded_status": "closed",
+    "reports": [
+      "minimum-0279",
+      "minimum-0278"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-078",
+    "study": "minimum",
+    "title": "Regular ghost-apex horizon of the eleven-moduli E17 cut-and-stack geometry",
+    "parent": "minimum-branch-076",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0292",
+      "minimum-0297",
+      "minimum-0301"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-079",
+    "study": "minimum",
+    "title": "Sharp centered whole-facet moments beyond the optimized one-constraint trace family",
+    "parent": "minimum-branch-075",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0281",
+      "minimum-0287",
+      "minimum-0290",
+      "minimum-0295",
+      "minimum-0298",
+      "minimum-0300",
+      "minimum-0304"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-080",
+    "study": "minimum",
+    "title": "Complete cut-stack affine incidence: positive tetrahedra and the actual projective centroid pencil",
+    "parent": "minimum-branch-076",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0288",
+      "minimum-0291",
+      "minimum-0294",
+      "minimum-0296",
+      "minimum-0299",
+      "minimum-0303"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-081",
+    "study": "minimum",
+    "title": "Actual E17 single-corner truncations: central classification and noncentral parallel-rail domains",
+    "parent": "minimum-branch-079",
+    "recorded_status": "open",
+    "reports": [
+      "minimum-0287"
+    ],
+    "unavailable_report_count": 0
+  },
+  {
+    "id": "minimum-branch-082",
+    "study": "minimum",
+    "title": "Homothetic-profile whole-facet inequality: mixed moments, arbitrary concave tails and nonlinear completion",
+    "parent": "minimum-branch-079",
+    "recorded_status": "open",
+    "reports": [],
+    "unavailable_report_count": 0
+  }
+]

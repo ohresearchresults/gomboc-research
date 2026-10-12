@@ -1,0 +1,69 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "PHYSICAL_CARRIER_CAP",
+      "values": {
+        "V": 152,
+        "E": 248,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12001828209989653,
+        "minimum_noncontact": 1.0967893260271921e-11,
+        "new_apex_candidates": 43,
+        "apex_degree": 43,
+        "fraction": 0.002,
+        "t": 0.03,
+        "height": 5.277254994341638e-06,
+        "reference_newpoint_escape": 0.023661169462008524,
+        "jitter": 1e-10
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "PHYSICAL_CARRIER_CAP",
+      "values": {
+        "V": 152,
+        "E": 248,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12001828163901784,
+        "minimum_noncontact": 1.0967893260271921e-11,
+        "new_apex_candidates": 43,
+        "apex_degree": 43,
+        "fraction": 0.002,
+        "t": 0.03,
+        "height": 5.277254994341638e-06,
+        "reference_newpoint_escape": 0.023661169462008524,
+        "jitter": 1e-09
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "PHYSICAL_CARRIER_CAP",
+      "values": {
+        "V": 152,
+        "E": 248,
+        "F": 98,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12001824841946214,
+        "minimum_noncontact": 1.0967893260271921e-11,
+        "new_apex_candidates": 43,
+        "apex_degree": 43,
+        "fraction": 0.002,
+        "t": 0.03,
+        "height": 5.277254994341638e-06,
+        "reference_newpoint_escape": 0.023661169462008524,
+        "jitter": 1e-07
+      }
+    }
+  ]
+}

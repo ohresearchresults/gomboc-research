@@ -1,0 +1,6250 @@
+{
+  "bypass_audit": {
+    "all_keep_decisions_decreased": true,
+    "bypass_found": true,
+    "end_feature_values": {
+      "H(6,7)": 0.03987717827826266,
+      "H(9,10)": 0.0003829869805362929,
+      "S(7,8,245)": 0.0013069148451909525,
+      "U54": 0.006990763874684142
+    },
+    "hard_valid_everywhere": true,
+    "linked_birth_absent_everywhere": true,
+    "start_feature_values": {
+      "H(6,7)": 0.039878507375380984,
+      "H(9,10)": 0.0003829982996421677,
+      "S(7,8,245)": 0.0013069563004975034,
+      "U54": 0.006990996876401299
+    }
+  },
+  "bypass_factor": 1.2,
+  "bypass_path": [
+    {
+      "alpha": 0.0,
+      "base_face_present": true,
+      "circuit_determinant": -1.5624024924756335e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375380984,
+        "H(9,10)": 0.0003829982996421677,
+        "S(7,8,245)": 0.0013069563004975034,
+        "U54": 0.006990996876401299
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.025,
+      "base_face_present": true,
+      "circuit_determinant": -1.609274763548876e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375380984,
+        "H(9,10)": 0.0003829982996421677,
+        "S(7,8,245)": 0.001306956300497499,
+        "U54": 0.006990996876401299
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.05,
+      "base_face_present": true,
+      "circuit_determinant": -1.6561466137832996e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538091,
+        "H(9,10)": 0.0003829982996421677,
+        "S(7,8,245)": 0.0013069563004973177,
+        "U54": 0.0069909968764012495
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.07500000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -1.7030185376684666e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538064,
+        "H(9,10)": 0.00038299829964183463,
+        "S(7,8,245)": 0.0013069563004969283,
+        "U54": 0.006990996876401267
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "base_face_present": true,
+      "circuit_determinant": -1.7498910297193327e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538064,
+        "H(9,10)": 0.00038299829964183463,
+        "S(7,8,245)": 0.001306956300496543,
+        "U54": 0.0069909968764010596
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.125,
+      "base_face_present": true,
+      "circuit_determinant": -1.796763595426341e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538057,
+        "H(9,10)": 0.00038299829964183463,
+        "S(7,8,245)": 0.0013069563004972137,
+        "U54": 0.006990996876401072
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.15000000000000002,
+      "base_face_present": true,
+      "circuit_determinant": -1.8436347512523395e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375380824,
+        "H(9,10)": 0.00038299829964205667,
+        "S(7,8,245)": 0.0013069563004976077,
+        "U54": 0.006990996876401079
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.17500000000000002,
+      "base_face_present": true,
+      "circuit_determinant": -1.8905069697657615e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538065,
+        "H(9,10)": 0.00038299829964183463,
+        "S(7,8,245)": 0.0013069563004972221,
+        "U54": 0.006990996876401277
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "base_face_present": true,
+      "circuit_determinant": -1.9373792619174427e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538057,
+        "H(9,10)": 0.00038299829964183463,
+        "S(7,8,245)": 0.0013069563004972221,
+        "U54": 0.006990996876401067
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.225,
+      "base_face_present": true,
+      "circuit_determinant": -1.9842511332190014e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375380394,
+        "H(9,10)": 0.0003829982996416126,
+        "S(7,8,245)": 0.001306956300496543,
+        "U54": 0.006990996876529217
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.25,
+      "base_face_present": true,
+      "circuit_determinant": -2.0311230781816118e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538041,
+        "H(9,10)": 0.0003829982996416126,
+        "S(7,8,245)": 0.0013069563004962533,
+        "U54": 0.006990996876528999
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.275,
+      "base_face_present": true,
+      "circuit_determinant": -2.0779950967804236e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538049,
+        "H(9,10)": 0.0003829982996417236,
+        "S(7,8,245)": 0.0013069563004955824,
+        "U54": 0.006990996876401067
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.30000000000000004,
+      "base_face_present": true,
+      "circuit_determinant": -2.1248681780769215e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538041,
+        "H(9,10)": 0.0003829982996416126,
+        "S(7,8,245)": 0.001306956300496253,
+        "U54": 0.006990996876529191
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.325,
+      "base_face_present": true,
+      "circuit_determinant": -2.1717398494796485e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538049,
+        "H(9,10)": 0.0003829982996416126,
+        "S(7,8,245)": 0.0013069563004958677,
+        "U54": 0.006990996876401249
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677293399054e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.35000000000000003,
+      "base_face_present": true,
+      "circuit_determinant": -2.2186115945364799e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537988,
+        "H(9,10)": 0.00038299829964105747,
+        "S(7,8,245)": 0.001306956300497318,
+        "U54": 0.006990996876401242
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486774853455029e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.375,
+      "base_face_present": true,
+      "circuit_determinant": -2.265483907753262e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537988,
+        "H(9,10)": 0.00038299829964105747,
+        "S(7,8,245)": 0.0013069563004966427,
+        "U54": 0.006990996876401242
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486774853455029e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "base_face_present": true,
+      "circuit_determinant": -2.3123558001184015e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.0398785073753798,
+        "H(9,10)": 0.0003829982996408354,
+        "S(7,8,245)": 0.0013069563004966386,
+        "U54": 0.006990996876401071
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.42500000000000004,
+      "base_face_present": true,
+      "circuit_determinant": -2.359227271624434e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537954,
+        "H(9,10)": 0.0003829982996407244,
+        "S(7,8,245)": 0.001306956300496072,
+        "U54": 0.0069909968764010075
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.45,
+      "base_face_present": true,
+      "circuit_determinant": -2.406099805803676e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537964,
+        "H(9,10)": 0.0003829982996407244,
+        "S(7,8,245)": 0.0013069563004956862,
+        "U54": 0.006990996876401006
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.47500000000000003,
+      "base_face_present": true,
+      "circuit_determinant": -2.4529719191309964e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375379714,
+        "H(9,10)": 0.0003829982996407244,
+        "S(7,8,245)": 0.001306956300495872,
+        "U54": 0.006990996876529221
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486774853455029e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "base_face_present": true,
+      "circuit_determinant": -2.499844600633986e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537945,
+        "H(9,10)": 0.00038299829964050236,
+        "S(7,8,245)": 0.001306956300496647,
+        "U54": 0.006990996876401028
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486774853455029e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.525,
+      "base_face_present": true,
+      "circuit_determinant": -2.54671636674795e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375379194,
+        "H(9,10)": 0.00038299829964039134,
+        "S(7,8,245)": 0.0013069563004960718,
+        "U54": 0.00699099687640099
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486774853455029e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.55,
+      "base_face_present": true,
+      "circuit_determinant": -2.5935882065073555e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537911,
+        "H(9,10)": 0.0003829982996401693,
+        "S(7,8,245)": 0.0013069563004950116,
+        "U54": 0.00699099687640099
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486774853455029e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.5750000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -2.640460614458588e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537912,
+        "H(9,10)": 0.0003829982996401693,
+        "S(7,8,245)": 0.0013069563004953013,
+        "U54": 0.006990996876401193
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.6000000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -2.687333096056039e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537946,
+        "H(9,10)": 0.00038299829964050236,
+        "S(7,8,245)": 0.0013069563004966473,
+        "U54": 0.0069909968764010335
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.625,
+      "base_face_present": true,
+      "circuit_determinant": -2.734204662235618e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537911,
+        "H(9,10)": 0.0003829982996401693,
+        "S(7,8,245)": 0.0013069563004956867,
+        "U54": 0.006990996876401011
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.65,
+      "base_face_present": true,
+      "circuit_determinant": -2.781076302100754e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537877,
+        "H(9,10)": 0.0003829982996398362,
+        "S(7,8,245)": 0.001306956300495397,
+        "U54": 0.006990996876401186
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.675,
+      "base_face_present": true,
+      "circuit_determinant": -2.8279485101257857e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375378944,
+        "H(9,10)": 0.00038299829963994725,
+        "S(7,8,245)": 0.0013069563004956867,
+        "U54": 0.006990996876401214
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.7000000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -2.8748207918038344e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.0398785073753785,
+        "H(9,10)": 0.0003829982996397252,
+        "S(7,8,245)": 0.001306956300496072,
+        "U54": 0.006990996876400983
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.7250000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -2.9216926526188073e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537851,
+        "H(9,10)": 0.0003829982996397252,
+        "S(7,8,245)": 0.0013069563004950073,
+        "U54": 0.00699099687640118
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.75,
+      "base_face_present": true,
+      "circuit_determinant": -2.968564587086309e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537878,
+        "H(9,10)": 0.0003829982996398362,
+        "S(7,8,245)": 0.001306956300495501,
+        "U54": 0.006990996876400984
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.775,
+      "base_face_present": true,
+      "circuit_determinant": -3.015437584248862e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537877,
+        "H(9,10)": 0.0003829982996398362,
+        "S(7,8,245)": 0.0013069563004960722,
+        "U54": 0.006990996876401207
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "base_face_present": true,
+      "circuit_determinant": -3.062309171495856e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375378694,
+        "H(9,10)": 0.0003829982996397252,
+        "S(7,8,245)": 0.0013069563004947263,
+        "U54": 0.006990996876529129
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.8250000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -3.109181821457354e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537835,
+        "H(9,10)": 0.00038299829963950316,
+        "S(7,8,245)": 0.001306956300494726,
+        "U54": 0.006990996876401154
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776772926444e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.8500000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -3.1560535560088237e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375378174,
+        "H(9,10)": 0.0003829982996392811,
+        "S(7,8,245)": 0.001306956300494722,
+        "U54": 0.006990996876401151
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778692390968e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.875,
+      "base_face_present": true,
+      "circuit_determinant": -3.20292536419256e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537835,
+        "H(9,10)": 0.00038299829963950316,
+        "S(7,8,245)": 0.001306956300494726,
+        "U54": 0.006990996876400983
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778692390968e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "base_face_present": true,
+      "circuit_determinant": -3.2497977405651895e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.0398785073753787,
+        "H(9,10)": 0.0003829982996398362,
+        "S(7,8,245)": 0.001306956300495401,
+        "U54": 0.006990996876400949
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778692390968e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.925,
+      "base_face_present": true,
+      "circuit_determinant": -3.2966696960819763e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537853,
+        "H(9,10)": 0.0003829982996397252,
+        "S(7,8,245)": 0.0013069563004954013,
+        "U54": 0.006990996876400961
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778692390968e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.9500000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -3.3435412307019034e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.0398785073753781,
+        "H(9,10)": 0.0003829982996392811,
+        "S(7,8,245)": 0.001306956300495401,
+        "U54": 0.006990996876401168
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778692390968e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.9750000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -3.390413828020133e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375378354,
+        "H(9,10)": 0.00038299829963950316,
+        "S(7,8,245)": 0.0013069563004944407,
+        "U54": 0.00699099687640116
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778692390968e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "base_face_present": true,
+      "circuit_determinant": -3.4372860044924014e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878507375377924,
+        "H(9,10)": 0.00038299829963894805,
+        "S(7,8,245)": 0.0013069563004937657,
+        "U54": 0.0069909968765289035
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778692390968e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 0,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.025,
+      "base_face_present": true,
+      "circuit_determinant": -3.3591652567650096e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987847414678827,
+        "H(9,10)": 0.0003829980151134338,
+        "S(7,8,245)": 0.001306955261838833,
+        "U54": 0.006990991051213863
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778691767448e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.05,
+      "base_face_present": true,
+      "circuit_determinant": -3.281045702693865e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987844091825747,
+        "H(9,10)": 0.0003829977306665233,
+        "S(7,8,245)": 0.0013069542232948493,
+        "U54": 0.006990985225912866
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486780610615242e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.07500000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -3.2029258586726767e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.0398784076897864,
+        "H(9,10)": 0.0003829974462989938,
+        "S(7,8,245)": 0.0013069531848725635,
+        "U54": 0.0069909794006208
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776771062692e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "base_face_present": true,
+      "circuit_determinant": -3.1248057247231325e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878374461374586,
+        "H(9,10)": 0.00038299716201006806,
+        "S(7,8,245)": 0.0013069521465627581,
+        "U54": 0.006990973575471029
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778689917512e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.125,
+      "base_face_present": true,
+      "circuit_determinant": -3.046685300818635e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987834123302315,
+        "H(9,10)": 0.00038299687780185554,
+        "S(7,8,245)": 0.0013069511083725564,
+        "U54": 0.006990967750201977
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778689287049e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.15000000000000002,
+      "base_face_present": true,
+      "circuit_determinant": -2.96856458698964e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987830800473091,
+        "H(9,10)": 0.0003829965936728019,
+        "S(7,8,245)": 0.0013069500702979852,
+        "U54": 0.006990961924947665
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778688663462e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.17500000000000002,
+      "base_face_present": true,
+      "circuit_determinant": -2.89044457227821e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987827477649768,
+        "H(9,10)": 0.00038299630962224107,
+        "S(7,8,245)": 0.001306949032340434,
+        "U54": 0.006990956099705
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778688046817e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "base_face_present": true,
+      "circuit_determinant": -2.8123247621668067e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987824154832448,
+        "H(9,10)": 0.0003829960256517273,
+        "S(7,8,245)": 0.0013069479944989076,
+        "U54": 0.006990950274598884
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778687423296e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.225,
+      "base_face_present": true,
+      "circuit_determinant": -2.7342051566297386e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987820832021153,
+        "H(9,10)": 0.0003829957417612606,
+        "S(7,8,245)": 0.0013069469567757118,
+        "U54": 0.006990944449376281
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486780606271156e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.25,
+      "base_face_present": true,
+      "circuit_determinant": -2.65608427214027e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878175092158005,
+        "H(9,10)": 0.0003829954579499528,
+        "S(7,8,245)": 0.0013069459191677967,
+        "U54": 0.0069909386242995334
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486780605647637e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.275,
+      "base_face_present": true,
+      "circuit_determinant": -2.577964581273947e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878141864163386,
+        "H(9,10)": 0.0003829951742172488,
+        "S(7,8,245)": 0.0013069448816758285,
+        "U54": 0.006990932799096913
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776766095021e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.30000000000000004,
+      "base_face_present": true,
+      "circuit_determinant": -2.499844600478813e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987810863622907,
+        "H(9,10)": 0.00038299489056481395,
+        "S(7,8,245)": 0.001306943844302101,
+        "U54": 0.006990926973912236
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677868494984e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.325,
+      "base_face_present": true,
+      "circuit_determinant": -2.421724329756788e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039878075408353204,
+        "H(9,10)": 0.00038299460699042776,
+        "S(7,8,245)": 0.0013069428070436445,
+        "U54": 0.0069909211488641525
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486780603790759e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.35000000000000003,
+      "base_face_present": true,
+      "circuit_determinant": -2.3436037691098607e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987804218053794,
+        "H(9,10)": 0.0003829943234968658,
+        "S(7,8,245)": 0.001306941769901697,
+        "U54": 0.006990915323699548
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486780603174181e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.375,
+      "base_face_present": true,
+      "circuit_determinant": -2.265483907572281e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987800895278262,
+        "H(9,10)": 0.00038299404008301785,
+        "S(7,8,245)": 0.001306940732878578,
+        "U54": 0.00699090949867767
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778683086154e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "base_face_present": true,
+      "circuit_determinant": -2.1873637561315463e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987797572508639,
+        "H(9,10)": 0.0003829937567477737,
+        "S(7,8,245)": 0.0013069396959698525,
+        "U54": 0.006990903673411477
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778682462568e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.42500000000000004,
+      "base_face_present": true,
+      "circuit_determinant": -2.109243809267227e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987794249745033,
+        "H(9,10)": 0.0003829934734925766,
+        "S(7,8,245)": 0.0013069386591806258,
+        "U54": 0.006990897848409864
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778681838979e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.45,
+      "base_face_present": true,
+      "circuit_determinant": -2.0311235725008934e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987790926987281,
+        "H(9,10)": 0.00038299319031598333,
+        "S(7,8,245)": 0.00130693762250504,
+        "U54": 0.006990892023294652
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677868121546e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.47500000000000003,
+      "base_face_present": true,
+      "circuit_determinant": -1.953003540319647e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987787604235584,
+        "H(9,10)": 0.0003829929072196592,
+        "S(7,8,245)": 0.0013069365859480783,
+        "U54": 0.006990886198191257
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778680598815e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "base_face_present": true,
+      "circuit_determinant": -1.874882723703578e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.0398778428148984,
+        "H(9,10)": 0.00038299262420271596,
+        "S(7,8,245)": 0.0013069355495066745,
+        "U54": 0.006990880373224231
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48678059944674e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.525,
+      "base_face_present": true,
+      "circuit_determinant": -1.7967626062092393e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987780958749992,
+        "H(9,10)": 0.00038299234126448756,
+        "S(7,8,245)": 0.0013069345131831297,
+        "U54": 0.0069908745481410866
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778679358648e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.55,
+      "base_face_present": true,
+      "circuit_determinant": -1.7186426932979636e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987777636016158,
+        "H(9,10)": 0.0003829920584060842,
+        "S(7,8,245)": 0.0013069334769743762,
+        "U54": 0.006990868723200404
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778678735129e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.5750000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -1.6405224904873974e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987774313288297,
+        "H(9,10)": 0.00038299177562739484,
+        "S(7,8,245)": 0.0013069324408837677,
+        "U54": 0.0069908628981402736
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778678118484e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.6000000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -1.5624024922721424e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039877709905663444,
+        "H(9,10)": 0.00038299149292719825,
+        "S(7,8,245)": 0.0013069314049100663,
+        "U54": 0.006990857073222652
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778677494895e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.625,
+      "base_face_present": true,
+      "circuit_determinant": -1.4842822041487753e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987767667850358,
+        "H(9,10)": 0.00038299121030715977,
+        "S(7,8,245)": 0.0013069303690520122,
+        "U54": 0.0069908512480577265
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677867687825e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.65,
+      "base_face_present": true,
+      "circuit_determinant": -1.4061626151349827e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039877643451403905,
+        "H(9,10)": 0.0003829909277668353,
+        "S(7,8,245)": 0.001306929333311818,
+        "U54": 0.006990845423160595
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677867625473e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.675,
+      "base_face_present": true,
+      "circuit_determinant": -1.3280422417020437e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987761022436366,
+        "H(9,10)": 0.0003829906453055587,
+        "S(7,8,245)": 0.0013069282976872886,
+        "U54": 0.006990839598149997
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778675631143e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.7000000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -1.2499220728641454e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987757699738248,
+        "H(9,10)": 0.00038299036292333,
+        "S(7,8,245)": 0.0013069272621789691,
+        "U54": 0.006990833773148083
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778675014498e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.7250000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -1.1718021086369762e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987754377046135,
+        "H(9,10)": 0.0003829900806209263,
+        "S(7,8,245)": 0.0013069262267886219,
+        "U54": 0.006990827948288507
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677867439792e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.75,
+      "base_face_present": true,
+      "circuit_determinant": -1.0936813599859614e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987751054359926,
+        "H(9,10)": 0.0003829897983973485,
+        "S(7,8,245)": 0.0013069251915145711,
+        "U54": 0.006990822123440712
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778673781208e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.775,
+      "base_face_present": true,
+      "circuit_determinant": -1.0155608159442285e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987747731679756,
+        "H(9,10)": 0.00038298951625403976,
+        "S(7,8,245)": 0.001306924156356303,
+        "U54": 0.006990816298345618
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778673157687e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "base_face_present": true,
+      "circuit_determinant": -9.374414655282833e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.0398774440900556,
+        "H(9,10)": 0.0003829892341905561,
+        "S(7,8,245)": 0.0013069231213166505,
+        "U54": 0.006990810473517929
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677867252729e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.8250000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -8.59320836188464e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039877410863372556,
+        "H(9,10)": 0.0003829889522053431,
+        "S(7,8,245)": 0.0013069220863919885,
+        "U54": 0.006990804648576957
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778671910646e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.8500000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -7.812009059629676e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039877377636749846,
+        "H(9,10)": 0.0003829886703003993,
+        "S(7,8,245)": 0.0013069210515853674,
+        "U54": 0.006990798823644497
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677867128706e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.875,
+      "base_face_present": true,
+      "circuit_determinant": -7.03081180343173e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987734441018606,
+        "H(9,10)": 0.0003829883884743923,
+        "S(7,8,245)": 0.001306920016893818,
+        "U54": 0.006990792998854972
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486782509606346e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "base_face_present": true,
+      "circuit_determinant": -6.249606703189495e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039877311183682124,
+        "H(9,10)": 0.0003829881067278773,
+        "S(7,8,245)": 0.001306918982320136,
+        "U54": 0.006990787174073641
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778670053768e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.925,
+      "base_face_present": true,
+      "circuit_determinant": -5.4684085940625707e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039877277957237785,
+        "H(9,10)": 0.00038298782506074325,
+        "S(7,8,245)": 0.0013069179478625824,
+        "U54": 0.006990781349178953
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486776749965729e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.9500000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -4.6872075859726616e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987724473085345,
+        "H(9,10)": 0.00038298754347354524,
+        "S(7,8,245)": 0.0013069169135215507,
+        "U54": 0.006990775524293076
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778668813603e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 0.9750000000000001,
+      "base_face_present": true,
+      "circuit_determinant": -3.9060036788963834e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.0398772115045277,
+        "H(9,10)": 0.000382987261964729,
+        "S(7,8,245)": 0.0013069158792973178,
+        "U54": 0.006990769699421785
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778668190015e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "base_face_present": true,
+      "circuit_determinant": -3.124801817930294e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987717827826266,
+        "H(9,10)": 0.0003829869805362929,
+        "S(7,8,245)": 0.0013069148451909525,
+        "U54": 0.006990763874684142
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677674810892e-16,
+      "missing_forced_rails": [],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "segment": 1,
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    }
+  ],
+  "bypass_waypoints": [
+    [
+      -0.004904182826552401,
+      -0.010780964114901455,
+      0.09168783218798117,
+      -0.08937137964555265,
+      0.042539767284545525,
+      0.03717146617762984,
+      -0.3077965657013579,
+      0.3708786772872232,
+      -0.20031396828918857,
+      0.17017121655937795,
+      0.12993025211821554,
+      -0.2668088574044973,
+      0.03699441188227951,
+      0.02344554363718823,
+      0.14899117734925807,
+      -0.10255954220220885,
+      0.02876095117856063,
+      0.006387142715593811,
+      -0.0836926063589475,
+      0.055496657727492446,
+      -1.109915371671368e-07,
+      1.6057070778279487e-06,
+      1.5763474803846973e-07
+    ],
+    [
+      -0.004904182826552401,
+      -0.010780964114901455,
+      0.09168783218798117,
+      -0.08937137964555267,
+      0.04253976728454553,
+      0.03717146617762984,
+      -0.3077965657013583,
+      0.3708786772872232,
+      -0.20031396828918982,
+      0.170171216559377,
+      0.12993025211821624,
+      -0.26680885740449695,
+      0.03699441188227998,
+      0.023445543637188555,
+      0.1489911773492579,
+      -0.10255954220220892,
+      0.02876095117856055,
+      0.006387142715593753,
+      -0.0836926063589475,
+      0.05549665772749245,
+      -1.1099153716024292e-07,
+      1.6057070757770196e-06,
+      1.5746505713812279e-07
+    ],
+    [
+      -0.004904186016134482,
+      -0.010780974951934875,
+      0.09168832987009044,
+      -0.08937205366159995,
+      0.042539730161109776,
+      0.03717152866414025,
+      -0.3078039921403071,
+      0.3708854306968549,
+      -0.20030244919430226,
+      0.17016518702928307,
+      0.1299333033273024,
+      -0.26680165769185477,
+      0.03699825053103414,
+      0.02344816803045528,
+      0.1489909582921549,
+      -0.10255317769025976,
+      0.028762895141860628,
+      0.006388440711480594,
+      -0.08369310237846596,
+      0.05549733156981638,
+      -1.1120985182384133e-07,
+      1.6057073916488134e-06,
+      1.5774787529272203e-07
+    ]
+  ],
+  "circuit": [
+    228,
+    229,
+    230,
+    231
+  ],
+  "circuit_derivative_x": -1.5624028061238257e-11,
+  "circuit_derivative_y": 1.8748833673485907e-11,
+  "circuit_gradient": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -4.4887085028944846e-14,
+    1.3353955192684516e-11,
+    1.1048815011537434e-06
+  ],
+  "direction_x": [
+    -0.0001594791040191452,
+    -0.0005418516709868819,
+    0.024884105463753078,
+    -0.0337008023647161,
+    -0.001856171787503429,
+    0.0031243255207253143,
+    -0.3713219474406167,
+    0.3376704815888125,
+    0.5759547443779025,
+    -0.3014765046970563,
+    0.1525604543077772,
+    0.3599856321071001,
+    0.19193243770764898,
+    0.13121966333622892,
+    -0.010952855151747876,
+    0.3182255974580241,
+    0.09719816500371278,
+    0.06489979434201257,
+    -0.024800975923504782,
+    0.03369211619605744,
+    -1.09157331799209e-05,
+    1.5793589700717985e-08,
+    1.4140907729961038e-05
+  ],
+  "direction_y": [
+    -1.0893773814599137e-14,
+    -3.3346177268097495e-14,
+    5.592055687001862e-13,
+    -7.566921102160071e-13,
+    7.46564657245177e-13,
+    3.3318998779804484e-13,
+    -4.370155706944138e-11,
+    -2.2000547068980708e-12,
+    -1.2387704695824563e-10,
+    -9.501932933446762e-11,
+    6.815538048291128e-11,
+    3.1416873719565156e-11,
+    4.7476213378768424e-11,
+    3.249224972576447e-11,
+    -1.765025953707745e-11,
+    -6.969889132611616e-12,
+    -8.023866964602805e-12,
+    -5.799279521620138e-12,
+    -5.568246060347631e-13,
+    7.555603352215315e-13,
+    6.89388519954424e-13,
+    -2.0509291654724968e-10,
+    -1.6969090034695214e-05
+  ],
+  "direction_y_scale": 1.696909003698629e-05,
+  "direction_y_solver": "keep_nullspace_anticircuit_projection",
+  "direction_y_unit": [
+    -6.419774891202046e-10,
+    -1.9651128726063247e-09,
+    3.295436393355958e-08,
+    -4.459237994298459e-08,
+    4.399556226161476e-08,
+    1.9635112258336475e-08,
+    -2.5753624368889717e-06,
+    -1.296507179879871e-07,
+    -7.3001585051549525e-06,
+    -5.599553607610126e-06,
+    4.016442857829027e-06,
+    1.8514177042545055e-06,
+    2.7978054966582168e-06,
+    1.9147903426137454e-06,
+    -1.040141781239092e-06,
+    -4.107403000054721e-07,
+    -4.7285192942660847e-07,
+    -3.417554806403803e-07,
+    -3.2814052186716735e-08,
+    4.452568367394431e-08,
+    4.062613366136982e-08,
+    -1.2086264855700782e-05,
+    -0.9999999998649853
+  ],
+  "fd_step": 1e-06,
+  "feature_derivative_x": {
+    "H(6,7)": -0.06645962496323872,
+    "H(9,10)": -0.0005723098992102207,
+    "S(7,8,245)": -0.002082100076151316,
+    "U54": -0.011650990998379636
+  },
+  "feature_derivative_y": {
+    "H(6,7)": 1.0339757656912846e-25,
+    "H(9,10)": 5.169878828456423e-26,
+    "S(7,8,245)": 5.169878828456423e-26,
+    "U54": -1.6155871338926322e-26
+  },
+  "features": [
+    "S(7,8,245)",
+    "U54",
+    "H(6,7)",
+    "H(9,10)"
+  ],
+  "inherited_circuit_guards": [
+    {
+      "circuit": [
+        224,
+        228,
+        251,
+        252
+      ],
+      "valid_sign": -1
+    },
+    {
+      "circuit": [
+        7,
+        8,
+        245,
+        246
+      ],
+      "valid_sign": 1
+    },
+    {
+      "circuit": [
+        8,
+        9,
+        10,
+        263
+      ],
+      "valid_sign": -1
+    },
+    {
+      "circuit": [
+        11,
+        198,
+        262,
+        263
+      ],
+      "valid_sign": 1
+    },
+    {
+      "circuit": [
+        9,
+        10,
+        11,
+        263
+      ],
+      "valid_sign": -1
+    },
+    {
+      "circuit": [
+        198,
+        228,
+        229,
+        230
+      ],
+      "valid_sign": 1
+    },
+    {
+      "circuit": [
+        5,
+        198,
+        244,
+        245
+      ],
+      "valid_sign": -1
+    }
+  ],
+  "keep_jacobian": [
+    [
+      4.5133315596142254e-05,
+      0.00012691465272381824,
+      8.11342529619119e-07,
+      -1.9248188112830356e-07,
+      0.16675531098954596,
+      0.10930106814001796,
+      0.8203210718458771,
+      0.6049952082676529,
+      0.9482267643480405,
+      0.6933393334375036,
+      -1.667032623978073,
+      -1.1558295501989035,
+      1.0315624353917416,
+      0.70789005572852,
+      0.5813440067493426,
+      0.3997240940742993,
+      0.1374919165831939,
+      0.09887115398350255,
+      -9.003756941405872e-07,
+      3.7927263326492655e-06,
+      3.1671713862646556e-09,
+      -8.67302497181699e-06,
+      -1.844762970854008e-05
+    ],
+    [
+      2.9267859837089905e-06,
+      8.217186913545005e-06,
+      -0.5763786755917134,
+      0.7807027345620859,
+      0.009895494977249508,
+      0.006488709911392498,
+      0.04901384972931869,
+      0.03615220633360755,
+      0.10050042656244151,
+      0.07890787925889445,
+      0.03698017533599468,
+      0.026785454437360662,
+      0.062447951887281,
+      0.04285438902178196,
+      0.03554103889750332,
+      0.02443753690812428,
+      0.00844478967440207,
+      0.0060730336892168835,
+      0.5751105460632434,
+      -0.7816250070361888,
+      -1.3205582460873444e-09,
+      -4.7232833963462006e-07,
+      -1.011526366140325e-06
+    ],
+    [
+      0.00011627547535919547,
+      0.0003606982559856142,
+      -9.081273927291633e-06,
+      2.594428144542249e-06,
+      -0.08011824936121625,
+      -0.05057260693552834,
+      0.22377909775911364,
+      -0.2623537573923085,
+      1.1328569502165597,
+      0.8775031790503318,
+      -0.14158185658585953,
+      0.09874753769539835,
+      -1.0328236780612898,
+      -0.7076217234253113,
+      -0.05549793024445249,
+      -0.03814403438245906,
+      0.041358026926785474,
+      0.030104767640565244,
+      -5.206616388031549e-06,
+      2.1062686317296908e-05,
+      2.768618667658984e-09,
+      -8.678589097366185e-06,
+      -1.8317243555276974e-05
+    ],
+    [
+      0.0001165074703379787,
+      0.00036138803061191993,
+      -9.0900065252697e-06,
+      2.5969226769007037e-06,
+      -0.07982678096318807,
+      -0.050379438121250786,
+      -0.0048748498571171694,
+      0.00020291257563087584,
+      1.1688272907872665,
+      0.9517348542043003,
+      -0.1403280978085064,
+      0.09986549270868395,
+      -0.9971998581326247,
+      -0.6835513845504515,
+      0.1695500697063146,
+      -0.3969766889655446,
+      0.041721149368623145,
+      0.030366285097560564,
+      -5.214495502059435e-06,
+      2.1094681557087824e-05,
+      2.831068712794149e-09,
+      -8.705480780690777e-06,
+      -1.8374746169058653e-05
+    ]
+  ],
+  "keep_rank": 4,
+  "keep_singular_values": [
+    2.963977287778032,
+    2.735889852390083,
+    1.3791260941067094,
+    0.3913202964028286
+  ],
+  "linearization_offset": 2e-05,
+  "linearization_parameters": [
+    -0.0049041812317613615,
+    -0.010780958696384745,
+    0.09168758334692653,
+    -0.089371042637529,
+    0.042539785846263396,
+    0.03717143493437463,
+    -0.3077928524818835,
+    0.37087530058240725,
+    -0.20031972783663235,
+    0.1701742313244249,
+    0.12992872651367246,
+    -0.2668124572608183,
+    0.036992492557902434,
+    0.023444231440554866,
+    0.1489912868778096,
+    -0.10256272445818343,
+    0.028759979196910593,
+    0.006386493717650391,
+    -0.08369235834918826,
+    0.05549632080633049,
+    -1.1088237983533759e-07,
+    1.6057069198920516e-06,
+    1.5749333896117014e-07
+  ],
+  "local_controls": [
+    {
+      "direction": [
+        0.222108044147594,
+        0.5106374006505394,
+        0.8306127026369095
+      ],
+      "initial": 1e-07,
+      "label": 229
+    }
+  ],
+  "nullity": 19,
+  "nullspace_anticircuit_projection_norm": 1.1048815011659697e-06,
+  "positive_keep_repair_targets": {
+    "H(6,7)": 0.0,
+    "H(9,10)": 0.0,
+    "S(7,8,245)": 0.0,
+    "U54": 0.0
+  },
+  "quadrants": [
+    {
+      "base_face_present": true,
+      "circuit_determinant": 3.124811113405398e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        60,
+        159,
+        101
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737538377,
+        "H(9,10)": 0.00038299829964494325,
+        "S(7,8,245)": 0.0013069563005002809,
+        "U54": 0.006990996876401466
+      },
+      "hard_valid": false,
+      "minimum_signed_inherited_circuit": 9.486767175596981e-16,
+      "missing_forced_rails": [
+        [
+          229,
+          230
+        ],
+        [
+          230,
+          231
+        ]
+      ],
+      "parameters": [
+        -0.004904182826552401,
+        -0.010780964114901455,
+        0.09168783218798117,
+        -0.08937137964555264,
+        0.04253976728454551,
+        0.037171466177629835,
+        -0.30779656570135744,
+        0.3708786772872232,
+        -0.20031396828918732,
+        0.1701712165593789,
+        0.12993025211821488,
+        -0.26680885740449756,
+        0.03699441188227904,
+        0.023445543637187902,
+        0.14899117734925826,
+        -0.10255954220220878,
+        0.02876095117856071,
+        0.006387142715593869,
+        -0.08369260635894749,
+        0.05549665772749244,
+        -1.1099153717403068e-07,
+        1.6057070798788779e-06,
+        1.578044389388167e-07
+      ],
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "circuit_determinant": -3.4372860044924014e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.03987850737537801,
+        "H(9,10)": 0.00038299829963894805,
+        "S(7,8,245)": 0.0013069563004938656,
+        "U54": 0.006990996876529097
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.486778692390968e-16,
+      "missing_forced_rails": [],
+      "parameters": [
+        -0.004904182826552402,
+        -0.010780964114901455,
+        0.09168783218798117,
+        -0.08937137964555265,
+        0.04253976728454553,
+        0.03717146617762984,
+        -0.3077965657013583,
+        0.3708786772872231,
+        -0.20031396828918982,
+        0.170171216559377,
+        0.12993025211821624,
+        -0.26680885740449695,
+        0.03699441188227998,
+        0.023445543637188555,
+        0.1489911773492579,
+        -0.10255954220220892,
+        0.02876095117856055,
+        0.006387142715593753,
+        -0.0836926063589475,
+        0.05549665772749245,
+        -1.1099153716024292e-07,
+        1.6057070757770194e-06,
+        1.5746505713812279e-07
+      ],
+      "quadrant": [
+        -1,
+        1
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "circuit_determinant": 3.43728696108581e-16,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        60,
+        159,
+        101
+      ],
+      "feature_values": {
+        "H(6,7)": 0.039877178278268664,
+        "H(9,10)": 0.0003829869805425101,
+        "S(7,8,245)": 0.0013069148451968927,
+        "U54": 0.006990763874690193
+      },
+      "hard_valid": false,
+      "minimum_signed_inherited_circuit": 9.486765231314866e-16,
+      "missing_forced_rails": [
+        [
+          229,
+          230
+        ],
+        [
+          230,
+          231
+        ]
+      ],
+      "parameters": [
+        -0.004904186016134481,
+        -0.010780974951934875,
+        0.09168832987009044,
+        -0.08937205366159993,
+        0.04253973016110976,
+        0.03717152866414025,
+        -0.30780399214030624,
+        0.370885430696855,
+        -0.20030244919429976,
+        0.17016518702928496,
+        0.12993330332730102,
+        -0.26680165769185543,
+        0.03699825053103319,
+        0.023448168030454627,
+        0.14899095829215522,
+        -0.10255317769025962,
+        0.028762895141860787,
+        0.00638844071148071,
+        -0.08369310237846596,
+        0.055497331569816365,
+        -1.112098518376291e-07,
+        1.605707395750672e-06,
+        1.580872570934159e-07
+      ],
+      "quadrant": [
+        1,
+        -1
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    },
+    {
+      "base_face_present": true,
+      "circuit_determinant": -3.124801817930294e-17,
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "feature_values": {
+        "H(6,7)": 0.0398771782782624,
+        "H(9,10)": 0.00038298698053607083,
+        "S(7,8,245)": 0.001306914845190667,
+        "U54": 0.006990763874558933
+      },
+      "hard_valid": true,
+      "minimum_signed_inherited_circuit": 9.48677674810892e-16,
+      "missing_forced_rails": [],
+      "parameters": [
+        -0.004904186016134482,
+        -0.010780974951934875,
+        0.09168832987009044,
+        -0.08937205366159995,
+        0.04253973016110978,
+        0.03717152866414026,
+        -0.3078039921403071,
+        0.3708854306968549,
+        -0.20030244919430226,
+        0.17016518702928307,
+        0.12993330332730238,
+        -0.2668016576918548,
+        0.03699825053103414,
+        0.02344816803045528,
+        0.14899095829215486,
+        -0.10255317769025976,
+        0.028762895141860628,
+        0.006388440711480594,
+        -0.08369310237846597,
+        0.05549733156981638,
+        -1.1120985182384133e-07,
+        1.6057073916488134e-06,
+        1.57747875292722e-07
+      ],
+      "quadrant": [
+        1,
+        1
+      ],
+      "saddle_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ]
+    }
+  ],
+  "radius": 1e-05,
+  "remote_fraction_y_unit": 0.999999999938025,
+  "rowspace_blocker": {
+    "coefficients": [
+      2.219233283739057e-12,
+      6.30920512728935e-14,
+      4.580802221535978e-12,
+      6.551346684726078e-13
+    ],
+    "residual_norm": 1.1048815011659697e-06
+  },
+  "scope": "23D tangent atlas around hard circuit (228, 229, 230, 231)",
+  "signed_circuit_gradient": [
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    4.4887085028944846e-14,
+    -1.3353955192684516e-11,
+    -1.1048815011537434e-06
+  ],
+  "star_parameters": [
+    -0.004904184421343442,
+    -0.010780969533418165,
+    0.0916880810290358,
+    -0.0893717166535763,
+    0.04253974872282765,
+    0.03717149742088505,
+    -0.3078002789208323,
+    0.37088205399203905,
+    -0.2003082087417448,
+    0.17016820179433098,
+    0.12993177772275863,
+    -0.2668052575481762,
+    0.03699633120665659,
+    0.02344685583382159,
+    0.14899106782070656,
+    -0.10255635994623427,
+    0.02876192316021067,
+    0.006387791713537231,
+    -0.08369285436870673,
+    0.05549699464865441,
+    -1.1110069449893601e-07,
+    1.6057072357638457e-06,
+    1.5777615711576935e-07
+  ],
+  "valid_sign": -1,
+  "version": 1
+}

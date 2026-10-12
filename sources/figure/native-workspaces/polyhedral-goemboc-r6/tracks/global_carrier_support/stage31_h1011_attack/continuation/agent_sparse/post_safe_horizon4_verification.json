@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "certificate_sha256": "240c1bab384527ff9e349a2a5b719da35b5a4ef022beed823c140ed92677caa1",
+  "endpoint_sha256": "5d3a0899982fe37b76fe7ba6c9053fad37d45939e6964a1908de6a2a0ab9ce5e",
+  "primitive_count": 7904,
+  "horizon": "4",
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "forced_rails": 37,
+  "h910_strictly_dead": true,
+  "endpoint_decisions": {
+    "S": 0.00010977820681371887,
+    "U54": 0.0014687613378774832,
+    "H56": 0.0011975172060876475,
+    "H1011": 4.4971825138918166e-07
+  },
+  "verdict": "INDEPENDENT_EXACT_POST_SAFE_FLIP_HORIZON4_CHECKPOINT_PASS"
+}

@@ -1,0 +1,3782 @@
+{
+  "schema_version": 1,
+  "title": "Dated construction history",
+  "date_range_utc": [
+    "2026-09-04",
+    "2026-09-15"
+  ],
+  "scope": {
+    "accepted_entry_count": 136,
+    "complete_census": false,
+    "package_path_matches": 33,
+    "entries_without_a_recorded_package_path": 103,
+    "unit_of_count": "distinct accepted body identity; equal V/E/F/C tuples remain separate when the exact bodies differ",
+    "equilibrium_reporting": "Strict counts are taken from the accepted-entry ladder. Weak counts are included only when a cited journal line names the body and states the counts; otherwise they are unknown.",
+    "coverage_note": "The inspected journal has unread archive spans on 11, 13, and 14 September 2026. Additional accepted bodies may be absent; the 136 rows are not a complete census.",
+    "excluded_unresolved_candidates": [
+      "C762",
+      "C798",
+      "C816"
+    ],
+    "replay_note": "This dated record is not a claim that all listed bodies were independently rerun while preparing this catalog. A package link means that a matching public package path was recorded and its target exists."
+  },
+  "ordering_and_parentage": {
+    "ordering": "Entries are sorted by their recorded UTC timestamps; chronology alone does not establish a parent-child relation.",
+    "parent_field": "The documented parent is a named body or route stage when supported. Assignment identifiers are omitted. A null value means no body parent is stated in the selected record.",
+    "documented_lineage": [
+      {
+        "from": "COORD_C630_BASE_GRID7_OWN110",
+        "to": "RL07_GRID7_Z18_94_C628_G1E9",
+        "basis": "The journal's exact C628 report names the C630 GRID7 body as its parent.",
+        "journal_lines": [
+          13694,
+          13704
+        ],
+        "public_source": null,
+        "public_source_link_from_catalog": null
+      },
+      {
+        "from": "RL07_GRID7_Z18_94_C628_G1E9",
+        "to": "VQ20_RL07_C626_Z87_127_G1E9",
+        "basis": "The C626 source identifies the literal RL07 C628 construction as its parent.",
+        "public_source": "results/history/figure/figure-vq20-c626-contact-mass-20260915/source/README.md",
+        "public_source_link_from_catalog": "../results/history/figure/figure-vq20-c626-contact-mass-20260915/source/README.md"
+      },
+      {
+        "from": "VQ20_RL07_C626_Z87_127_G1E9",
+        "to": "C624_NONSIMPLE (intermediate state on the C622 route)",
+        "basis": "The C622 route record documents the C626-to-C624 contraction stage.",
+        "public_source": "results/history/figure/figure-c622-route-20260915/native-result.md",
+        "public_source_link_from_catalog": "../results/history/figure/figure-c622-route-20260915/native-result.md"
+      },
+      {
+        "from": "C624_NONSIMPLE (intermediate state on the C622 route)",
+        "to": "VQ20_C622_ROUTE88_118_G12 / C622_ROUTED",
+        "basis": "The C622 route record documents the second contraction from its C624 intermediate.",
+        "public_source": "results/history/figure/figure-c622-route-20260915/native-result.md",
+        "public_source_link_from_catalog": "../results/history/figure/figure-c622-route-20260915/native-result.md"
+      }
+    ],
+    "route_note": "C624_NONSIMPLE is an intermediate state on the C622 route. It is distinct from the separately listed accepted S8/G9 C624 bodies. The route's ladder row retains VQ20 C626 as its recorded starting-body reference.",
+    "chronology_only_sequence": {
+      "sequence": [
+        "unnamed 171167-vertex candidate",
+        "P50-family bodies",
+        "NO575-SHORTCUT897-R (C5368)"
+      ],
+      "relation": "The records occur in this chronological order. The source does not establish that the 171167-vertex candidate is a parent of a P50 body, or that a P50 body is a parent of C5368."
+    }
+  },
+  "entries": [
+    {
+      "id": "20260904T223747-unnamed-171167-vertex-candidate-journal-give-c1026460",
+      "utc": "2026-09-04T22:37:47.552Z",
+      "body_label": "unnamed 171167-vertex candidate (journal gives no body identifier)",
+      "V": 171167,
+      "E": 513230,
+      "F": 342065,
+      "C": 1026460,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Build a finite body from a circular-section source, strict-ascent chains, and 17 stable-facet refinement rounds.",
+      "public_package": null,
+      "source_journal_lines": [
+        1490,
+        1503,
+        1514
+      ]
+    },
+    {
+      "id": "20260904T224109-l98-rh222935-q-c1337348",
+      "utc": "2026-09-04T22:41:09.428Z",
+      "body_label": "L98_RH222935_Q",
+      "V": 222935,
+      "E": 668674,
+      "F": 445741,
+      "C": 1337348,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Independent construction using a separate quadratic/root and literal table.",
+      "public_package": null,
+      "source_journal_lines": [
+        1505
+      ]
+    },
+    {
+      "id": "20260904T225159-unnamed-134131-vertex-exact-body-journal-giv-c804268",
+      "utc": "2026-09-04T22:51:59.000Z",
+      "body_label": "unnamed 134131-vertex exact body (journal gives no stable body identifier)",
+      "V": 134131,
+      "E": 402134,
+      "F": 268005,
+      "C": 804268,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue the recovered global refinement for all 32 iterations and independently rebuild the resulting exact body.",
+      "public_package": null,
+      "source_journal_lines": [
+        1526,
+        1524,
+        1528
+      ]
+    },
+    {
+      "id": "20260905T021131-p50-4355-c26112",
+      "utc": "2026-09-05T02:11:31.326Z",
+      "body_label": "P50-4355",
+      "V": 4355,
+      "E": 13056,
+      "F": 8703,
+      "C": 26112,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Construct the finite body from the P50 smooth source and its retained literal mesh.",
+      "public_package": null,
+      "source_journal_lines": [
+        1674,
+        1723,
+        1769,
+        1790
+      ]
+    },
+    {
+      "id": "20260905T021131-r31291-exact-rational-body-c187732",
+      "utc": "2026-09-05T02:11:31.326Z",
+      "body_label": "R31291 exact rational body",
+      "V": 31291,
+      "E": 93866,
+      "F": 62577,
+      "C": 187732,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Replay 3305 integer coordinate events, choose the rational parameter, and subtract the new exact volume centroid.",
+      "public_package": null,
+      "source_journal_lines": [
+        1693
+      ]
+    },
+    {
+      "id": "20260905T021131-unnamed-76937-vertex-worker-body-formal-iden-c461584",
+      "utc": "2026-09-05T02:11:31.326Z",
+      "body_label": "unnamed 76937-vertex worker body (formal identifier not in cited line)",
+      "V": 76937,
+      "E": 230792,
+      "F": 153857,
+      "C": 461584,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the independently reported construction and exact first-moment closure.",
+      "public_package": null,
+      "source_journal_lines": [
+        1705
+      ]
+    },
+    {
+      "id": "20260905T024030-p50l-4355-c26112",
+      "utc": "2026-09-05T02:40:30.400Z",
+      "body_label": "P50L-4355",
+      "V": 4355,
+      "E": 13056,
+      "F": 8703,
+      "C": 26112,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "P50R-4355",
+      "parent_catalog_entry": "20260905T024030-p50r-4355-c26112",
+      "recorded_parent_reference": null,
+      "operation": "Round each centred P50R coordinate to the 10^-8 lattice, reintegrate, and recenter the resulting rational body.",
+      "public_package": null,
+      "source_journal_lines": [
+        1729,
+        1730,
+        1772,
+        1790
+      ]
+    },
+    {
+      "id": "20260905T024030-p50r-4355-c26112",
+      "utc": "2026-09-05T02:40:30.400Z",
+      "body_label": "P50R-4355",
+      "V": 4355,
+      "E": 13056,
+      "F": 8703,
+      "C": 26112,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "P50-4355",
+      "parent_catalog_entry": "20260905T021131-p50-4355-c26112",
+      "recorded_parent_reference": null,
+      "operation": "Rationalize the P50 coordinates, recompute the actual moment, and subtract the new rational volume centroid.",
+      "public_package": null,
+      "source_journal_lines": [
+        1727,
+        1790
+      ]
+    },
+    {
+      "id": "20260905T031607-p50a-4355-c26112",
+      "utc": "2026-09-05T03:16:07.501Z",
+      "body_label": "P50A-4355",
+      "V": 4355,
+      "E": 13056,
+      "F": 8703,
+      "C": 26112,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "P50L-4355",
+      "parent_catalog_entry": "20260905T024030-p50l-4355-c26112",
+      "recorded_parent_reference": null,
+      "operation": "Apply the exact rational half-turn-preserving affine metric map to P50L and retain its exact zero volume centroid.",
+      "public_package": null,
+      "source_journal_lines": [
+        1821,
+        1823
+      ]
+    },
+    {
+      "id": "20260905T032629-p50d-4333-c25980",
+      "utc": "2026-09-05T03:26:29.735Z",
+      "body_label": "P50D-4333",
+      "V": 4333,
+      "E": 12990,
+      "F": 8659,
+      "C": 25980,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "P50A-4355",
+      "parent_catalog_entry": "20260905T031607-p50a-4355-c26112",
+      "recorded_parent_reference": null,
+      "operation": "Remove the 22 listed vertices from the conditioned P50A table, rebuild the hull, and recenter by its exact volume centroid.",
+      "public_package": null,
+      "source_journal_lines": [
+        1846
+      ]
+    },
+    {
+      "id": "20260905T033614-p50-fus4355-c23268-r-c23268",
+      "utc": "2026-09-05T03:36:14.123Z",
+      "body_label": "P50_FUS4355_C23268_R",
+      "V": 4355,
+      "E": 11634,
+      "F": 7281,
+      "C": 23268,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Apply exact nonsimplicial fusion to merge coplanar faces and reduce the true-edge count.",
+      "public_package": null,
+      "source_journal_lines": [
+        1864,
+        1880
+      ]
+    },
+    {
+      "id": "20260905T042849-nh13-no575-r1213-c7260",
+      "utc": "2026-09-05T04:28:49.584Z",
+      "body_label": "NH13-NO575-R1213",
+      "V": 1213,
+      "E": 3630,
+      "F": 2419,
+      "C": 7260,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Sample a curved source, apply a half-normal offset, then assemble and exactly recenter the finite hull.",
+      "public_package": null,
+      "source_journal_lines": [
+        1908,
+        1916
+      ]
+    },
+    {
+      "id": "20260905T045606-no575-flow985-r-c5892",
+      "utc": "2026-09-05T04:56:06.855Z",
+      "body_label": "NO575-FLOW985-R",
+      "V": 985,
+      "E": 2946,
+      "F": 1963,
+      "C": 5892,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NH13-NO575-R1213",
+      "parent_catalog_entry": "20260905T042849-nh13-no575-r1213-c7260",
+      "recorded_parent_reference": null,
+      "operation": "Use coordinate-changing constrained normal flow from the literal 1213-vertex body, then rebuild and recenter the hull.",
+      "public_package": null,
+      "source_journal_lines": [
+        1950
+      ]
+    },
+    {
+      "id": "20260905T051112-no575-shortcut897-r-c5368",
+      "utc": "2026-09-05T05:11:12.470Z",
+      "body_label": "NO575-SHORTCUT897-R",
+      "V": 897,
+      "E": 2684,
+      "F": 1789,
+      "C": 5368,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Replace the parent hexagonal stable face by a quadrilateral through further coordinate-changing reduction.",
+      "public_package": {
+        "path": "results/history/figure/langi-review-2026-09-05/shortcut897-source",
+        "link_from_catalog": "../results/history/figure/langi-review-2026-09-05/shortcut897-source/README.md"
+      },
+      "source_journal_lines": [
+        1983,
+        2000,
+        2027
+      ]
+    },
+    {
+      "id": "20260905T054621-no575-dynamic865-r-c5176",
+      "utc": "2026-09-05T05:46:21.181Z",
+      "body_label": "NO575-DYNAMIC865-R",
+      "V": 865,
+      "E": 2588,
+      "F": 1725,
+      "C": 5176,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-SHORTCUT897-R",
+      "parent_catalog_entry": "20260905T051112-no575-shortcut897-r-c5368",
+      "recorded_parent_reference": null,
+      "operation": "Replace a segment of the ascent path while rebuilding the live hull and repairing the actual first moment.",
+      "public_package": null,
+      "source_journal_lines": [
+        2027,
+        2033
+      ]
+    },
+    {
+      "id": "20260905T054621-unnamed-promoted-869-vertex-endpoint-c5200",
+      "utc": "2026-09-05T05:46:21.181Z",
+      "body_label": "unnamed promoted 869-vertex endpoint",
+      "V": 869,
+      "E": 2600,
+      "F": 1733,
+      "C": 5200,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-SHORTCUT897-R",
+      "parent_catalog_entry": "20260905T051112-no575-shortcut897-r-c5368",
+      "recorded_parent_reference": null,
+      "operation": "Use live-hull path replacement and actual-centroid repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2027
+      ]
+    },
+    {
+      "id": "20260905T054621-unnamed-promoted-885-vertex-endpoint-c5296",
+      "utc": "2026-09-05T05:46:21.181Z",
+      "body_label": "unnamed promoted 885-vertex endpoint",
+      "V": 885,
+      "E": 2648,
+      "F": 1765,
+      "C": 5296,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-SHORTCUT897-R",
+      "parent_catalog_entry": "20260905T051112-no575-shortcut897-r-c5368",
+      "recorded_parent_reference": null,
+      "operation": "Use live-hull path replacement and actual-centroid repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2027
+      ]
+    },
+    {
+      "id": "20260905T054621-unnamed-promoted-893-vertex-endpoint-c5344",
+      "utc": "2026-09-05T05:46:21.181Z",
+      "body_label": "unnamed promoted 893-vertex endpoint",
+      "V": 893,
+      "E": 2672,
+      "F": 1781,
+      "C": 5344,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-SHORTCUT897-R",
+      "parent_catalog_entry": "20260905T051112-no575-shortcut897-r-c5368",
+      "recorded_parent_reference": null,
+      "operation": "Use live-hull path replacement and actual-centroid repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2027
+      ]
+    },
+    {
+      "id": "20260905T063202-no575-multipath815-r-c4876",
+      "utc": "2026-09-05T06:32:02.337Z",
+      "body_label": "NO575-MULTIPATH815-R",
+      "V": 815,
+      "E": 2438,
+      "F": 1625,
+      "C": 4876,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical 821 intermediate",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use multipath cavity deletion and a surviving actuator to close the actual volume moment.",
+      "public_package": null,
+      "source_journal_lines": [
+        2053
+      ]
+    },
+    {
+      "id": "20260905T063202-unnamed-exact-847-vertex-multipath-endpoint-c5068",
+      "utc": "2026-09-05T06:32:02.337Z",
+      "body_label": "unnamed exact 847-vertex multipath endpoint",
+      "V": 847,
+      "E": 2534,
+      "F": 1689,
+      "C": 5068,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical 871 intermediate",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Delete paired cavities and repair the actual moment using a multipath actuator.",
+      "public_package": null,
+      "source_journal_lines": [
+        2053
+      ]
+    },
+    {
+      "id": "20260905T063202-unnamed-exact-881-vertex-multipath-endpoint-c5272",
+      "utc": "2026-09-05T06:32:02.337Z",
+      "body_label": "unnamed exact 881-vertex multipath endpoint",
+      "V": 881,
+      "E": 2636,
+      "F": 1757,
+      "C": 5272,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-SHORTCUT897-R",
+      "parent_catalog_entry": "20260905T051112-no575-shortcut897-r-c5368",
+      "recorded_parent_reference": null,
+      "operation": "Delete paired cavities and repair the actual moment using a multipath actuator.",
+      "public_package": null,
+      "source_journal_lines": [
+        2053
+      ]
+    },
+    {
+      "id": "20260905T064528-no575-balanced631-r-c3772",
+      "utc": "2026-09-05T06:45:28.693Z",
+      "body_label": "NO575-BALANCED631-R",
+      "V": 631,
+      "E": 1886,
+      "F": 1257,
+      "C": 3772,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical 675 intermediate",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue paired deletions and moment-balanced repair on the actual hull.",
+      "public_package": null,
+      "source_journal_lines": [
+        2077
+      ]
+    },
+    {
+      "id": "20260905T064528-no575-balanced745-r-c4456",
+      "utc": "2026-09-05T06:45:28.693Z",
+      "body_label": "NO575-BALANCED745-R",
+      "V": 745,
+      "E": 2228,
+      "F": 1485,
+      "C": 4456,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-MULTIPATH815-R",
+      "parent_catalog_entry": "20260905T063202-no575-multipath815-r-c4876",
+      "recorded_parent_reference": null,
+      "operation": "Delete paired cavities and close the actual solid-volume moment with an opposing C2 actuator.",
+      "public_package": null,
+      "source_journal_lines": [
+        2077
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-balanced573-r-c3424",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "body_label": "NO575-BALANCED573-R",
+      "V": 573,
+      "E": 1712,
+      "F": 1141,
+      "C": 3424,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-GLOBAL603-R",
+      "parent_catalog_entry": "20260905T065757-no575-global603-r-c3604",
+      "recorded_parent_reference": null,
+      "operation": "Remove a moment-balanced cavity batch from 603 and recenter the resulting hull.",
+      "public_package": {
+        "path": "results/history/figure/latest-reproducible-gomboc/NO575_BALANCED573_VERIFIED",
+        "link_from_catalog": "../results/history/figure/latest-reproducible-gomboc/NO575_BALANCED573_VERIFIED/README.md"
+      },
+      "source_journal_lines": [
+        2097,
+        2243
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-global603-r-c3604",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "body_label": "NO575-GLOBAL603-R",
+      "V": 603,
+      "E": 1802,
+      "F": 1201,
+      "C": 3604,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-GLOBAL611-R",
+      "parent_catalog_entry": "20260905T065757-no575-global611-r-c3652",
+      "recorded_parent_reference": null,
+      "operation": "Apply a moment-balanced cavity batch after the 611-vertex shortcut.",
+      "public_package": null,
+      "source_journal_lines": [
+        2097
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-global609-r-c3640",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "body_label": "NO575-GLOBAL609-R",
+      "V": 609,
+      "E": 1820,
+      "F": 1213,
+      "C": 3640,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-GLOBAL611-R",
+      "parent_catalog_entry": "20260905T065757-no575-global611-r-c3652",
+      "recorded_parent_reference": null,
+      "operation": "Delete a separate C2 vertex orbit while retaining an exact endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2097
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-global611-r-c3652",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "body_label": "NO575-GLOBAL611-R",
+      "V": 611,
+      "E": 1826,
+      "F": 1217,
+      "C": 3652,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-BALANCED631-R",
+      "parent_catalog_entry": "20260905T064528-no575-balanced631-r-c3772",
+      "recorded_parent_reference": null,
+      "operation": "Shorten a hinge-free ascent path.",
+      "public_package": null,
+      "source_journal_lines": [
+        2097
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-normal607-r-c3628",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "body_label": "NO575-NORMAL607-R",
+      "V": 607,
+      "E": 1814,
+      "F": 1209,
+      "C": 3628,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-BALANCED631-R",
+      "parent_catalog_entry": "20260905T064528-no575-balanced631-r-c3772",
+      "recorded_parent_reference": null,
+      "operation": "Allow an initial normal component during the separate exact reduction.",
+      "public_package": null,
+      "source_journal_lines": [
+        2097
+      ]
+    },
+    {
+      "id": "20260905T071730-no575-global571-r-c3412",
+      "utc": "2026-09-05T07:17:30.962Z",
+      "body_label": "NO575-GLOBAL571-R",
+      "V": 571,
+      "E": 1706,
+      "F": 1137,
+      "C": 3412,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-BALANCED573-R",
+      "parent_catalog_entry": "20260905T065757-no575-balanced573-r-c3424",
+      "recorded_parent_reference": null,
+      "operation": "Replace two path intervals on the 573 table to create an accepted 571 endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2138,
+        2140
+      ]
+    },
+    {
+      "id": "20260905T073232-contract543-c3244",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "body_label": "CONTRACT543",
+      "V": 543,
+      "E": 1622,
+      "F": null,
+      "C": 3244,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-GLOBAL559-R",
+      "parent_catalog_entry": "20260905T073232-no575-global559-r-c3340",
+      "recorded_parent_reference": null,
+      "operation": "Contract a paired edge by replacing endpoints with a weighted point and move it along an outward normal until actual mass closes.",
+      "public_package": null,
+      "source_journal_lines": [
+        2159,
+        2169
+      ]
+    },
+    {
+      "id": "20260905T073232-no575-global559-r-c3340",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "body_label": "NO575-GLOBAL559-R",
+      "V": 559,
+      "E": 1670,
+      "F": 1113,
+      "C": 3340,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-GLOBAL571-R",
+      "parent_catalog_entry": "20260905T071730-no575-global571-r-c3412",
+      "recorded_parent_reference": null,
+      "operation": "Apply paired-shortcut descendants to the exact GLOBAL571 body.",
+      "public_package": null,
+      "source_journal_lines": [
+        2153,
+        2159
+      ]
+    },
+    {
+      "id": "20260905T073232-no575-normal511-r-c3052",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "body_label": "NO575-NORMAL511-R",
+      "V": 511,
+      "E": 1526,
+      "F": 1017,
+      "C": 3052,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-NORMAL521-R",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue the initial-normal-component shortcut branch with actual-moment repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2151,
+        2159
+      ]
+    },
+    {
+      "id": "20260905T073232-no575-rescued545-r-c3256",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "body_label": "NO575-RESCUED545-R",
+      "V": 545,
+      "E": 1628,
+      "F": 1085,
+      "C": 3256,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "RESCUED547 intermediate",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Apply a fixed-critical-plane single-shortcut branch with actual-centroid repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2153,
+        2159
+      ]
+    },
+    {
+      "id": "20260905T073232-no575-wide555-branch-endpoint-c3316",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "body_label": "NO575-WIDE555 branch endpoint",
+      "V": 555,
+      "E": 1658,
+      "F": 1105,
+      "C": 3316,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "WIDE559 branch body (exact 559 identity not formally named)",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use transverse-cavity moment actuation and wider paired deletions.",
+      "public_package": null,
+      "source_journal_lines": [
+        2153,
+        2159
+      ]
+    },
+    {
+      "id": "20260905T074635-no575-deep497-r-c2968",
+      "utc": "2026-09-05T07:46:35.414Z",
+      "body_label": "NO575-DEEP497-R",
+      "V": 497,
+      "E": 1484,
+      "F": 989,
+      "C": 2968,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "DEEP_NORMAL503 (numerical intermediate)",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Shorten a deeper off-base path and rebuild the actual hull.",
+      "public_package": null,
+      "source_journal_lines": [
+        2176,
+        2182
+      ]
+    },
+    {
+      "id": "20260905T075859-no575-wide487-r-c2908",
+      "utc": "2026-09-05T07:58:59.524Z",
+      "body_label": "NO575-WIDE487-R",
+      "V": 487,
+      "E": 1454,
+      "F": 969,
+      "C": 2908,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "NO575-DEEP497-R",
+      "parent_catalog_entry": "20260905T074635-no575-deep497-r-c2968",
+      "recorded_parent_reference": null,
+      "operation": "Delete five C2 pairs and close actual volume moment along a surviving pair’s moment-gradient direction.",
+      "public_package": null,
+      "source_journal_lines": [
+        2212
+      ]
+    },
+    {
+      "id": "20260905T085015-exact-507-vertex-body-branch-label-not-state-c3028",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "body_label": "exact 507-vertex body (branch label not stated)",
+      "V": 507,
+      "E": 1514,
+      "F": 1009,
+      "C": 3028,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical 511-stage on the separate 521 branch",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Relax old path-prefix/suffix constraints while retaining positive witnesses, then impose a shortcut.",
+      "public_package": null,
+      "source_journal_lines": [
+        2249
+      ]
+    },
+    {
+      "id": "20260905T085015-exact-535-vertex-body-branch-name-not-stated-c3196",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "body_label": "exact 535-vertex body (branch name not stated in this line)",
+      "V": 535,
+      "E": 1598,
+      "F": 1065,
+      "C": 3196,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical 541-vertex rescaled stage",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue nonlocal vertex-witness shortening with rescaled LP rows and actual hull/moment repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2243
+      ]
+    },
+    {
+      "id": "20260905T085015-exact-553-vertex-body-branch-name-not-stated-c3304",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "body_label": "exact 553-vertex body (branch name not stated in this line)",
+      "V": 553,
+      "E": 1652,
+      "F": 1101,
+      "C": 3304,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical 565-vertex rescaled stage",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use rescaled LP rows and live-hull moment updates on the branch from literal 573.",
+      "public_package": null,
+      "source_journal_lines": [
+        2243
+      ]
+    },
+    {
+      "id": "20260905T085015-exact-569-vertex-body-branch-name-not-stated-c3400",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "body_label": "exact 569-vertex body (branch name not stated in this line)",
+      "V": 569,
+      "E": 1700,
+      "F": 1133,
+      "C": 3400,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "literal NO575-BALANCED573-R",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use a separate unscaled deep branch with nonlocal vertex witnesses and live-hull/moment updates.",
+      "public_package": null,
+      "source_journal_lines": [
+        2243
+      ]
+    },
+    {
+      "id": "20260905T085015-rebuilt521-c3112",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "body_label": "REBUILT521",
+      "V": 521,
+      "E": 1556,
+      "F": 1037,
+      "C": 3112,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "exact 535-vertex body",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Delete seven C2 pairs and close the actual solid-volume moment with a wide centroid actuator.",
+      "public_package": null,
+      "source_journal_lines": [
+        2245,
+        2247
+      ]
+    },
+    {
+      "id": "20260905T091800-contract479-c2860",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "body_label": "CONTRACT479",
+      "V": 479,
+      "E": 1430,
+      "F": 953,
+      "C": 2860,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Contract a paired edge and exact-promote the own-centred endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2258
+      ]
+    },
+    {
+      "id": "20260905T091800-insert463-c2764",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "body_label": "INSERT463",
+      "V": 463,
+      "E": 1382,
+      "F": 921,
+      "C": 2764,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "MULTI469",
+      "parent_catalog_entry": "20260905T091800-multi469-c2800",
+      "recorded_parent_reference": null,
+      "operation": "Insert one or two C2 vertex pairs as new path witnesses and allow the hull and centroid to move.",
+      "public_package": null,
+      "source_journal_lines": [
+        2270,
+        2258,
+        2273,
+        2277
+      ]
+    },
+    {
+      "id": "20260905T091800-multi469-c2800",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "body_label": "MULTI469",
+      "V": 469,
+      "E": 1400,
+      "F": 933,
+      "C": 2800,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "RESCALED475",
+      "parent_catalog_entry": "20260905T091800-rescaled475-c2836",
+      "recorded_parent_reference": null,
+      "operation": "Replace separated short arcs while moving the entire hull and solid moments.",
+      "public_package": null,
+      "source_journal_lines": [
+        2265,
+        2258
+      ]
+    },
+    {
+      "id": "20260905T091800-multifinal467-c2788",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "body_label": "MULTIFINAL467",
+      "V": 467,
+      "E": 1394,
+      "F": 929,
+      "C": 2788,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "MULTI469",
+      "parent_catalog_entry": "20260905T091800-multi469-c2800",
+      "recorded_parent_reference": null,
+      "operation": "Continue the separated-arc replacement branch and exact-promote the endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2265,
+        2258
+      ]
+    },
+    {
+      "id": "20260905T091800-radial465-c2776",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "body_label": "RADIAL465",
+      "V": 465,
+      "E": 1388,
+      "F": 925,
+      "C": 2776,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "RESCALED475",
+      "parent_catalog_entry": "20260905T091800-rescaled475-c2836",
+      "recorded_parent_reference": null,
+      "operation": "Use a constrained radial-variation flow with independently derived cap and apex speeds.",
+      "public_package": null,
+      "source_journal_lines": [
+        2268,
+        2258
+      ]
+    },
+    {
+      "id": "20260905T091800-rescaled475-c2836",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "body_label": "RESCALED475",
+      "V": 475,
+      "E": 1418,
+      "F": 945,
+      "C": 2836,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "RESCALED485",
+      "parent_catalog_entry": "20260905T091800-rescaled485-c2896",
+      "recorded_parent_reference": null,
+      "operation": "Continue coordinate-changing rescaled live-hull and moment repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2263,
+        2258
+      ]
+    },
+    {
+      "id": "20260905T091800-rescaled485-c2896",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "body_label": "RESCALED485",
+      "V": 485,
+      "E": 1448,
+      "F": 965,
+      "C": 2896,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical rescaled 507 checkpoint",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Rescale the actual 507 coordinates, retain positive guards, then move the live hull and lose vertices.",
+      "public_package": null,
+      "source_journal_lines": [
+        2263,
+        2258
+      ]
+    },
+    {
+      "id": "20260905T094602-insert457-c2728",
+      "utc": "2026-09-05T09:46:02.592Z",
+      "body_label": "INSERT457",
+      "V": 457,
+      "E": 1364,
+      "F": 909,
+      "C": 2728,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical 463 insertion-stage body",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue the movable-witness insertion branch and rationally promote the exact endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2275,
+        2289
+      ]
+    },
+    {
+      "id": "20260905T101431-direct549-c3280",
+      "utc": "2026-09-05T10:14:31.774Z",
+      "body_label": "DIRECT549",
+      "V": 549,
+      "E": 1640,
+      "F": 1093,
+      "C": 3280,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "literal NO575-BALANCED573-R",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use nonlocal all-point ascent witnesses with live-hull and actual-moment repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2298
+      ]
+    },
+    {
+      "id": "20260905T101431-free-radial485-c2876",
+      "utc": "2026-09-05T10:14:31.774Z",
+      "body_label": "FREE-RADIAL485",
+      "V": 485,
+      "E": 1438,
+      "F": 955,
+      "C": 2876,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "literal NO575-BALANCED573-R",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue the separate free-critical-support radial-power flow and exact-promote its endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2298
+      ]
+    },
+    {
+      "id": "20260905T101431-free-radial491-c2932",
+      "utc": "2026-09-05T10:14:31.774Z",
+      "body_label": "FREE-RADIAL491",
+      "V": 491,
+      "E": 1466,
+      "F": 977,
+      "C": 2932,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "literal NO575-BALANCED573-R",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Apply free-critical-support radial-power flow with actual axial mass variation constrained.",
+      "public_package": null,
+      "source_journal_lines": [
+        2298
+      ]
+    },
+    {
+      "id": "20260905T101431-insert525-c3136",
+      "utc": "2026-09-05T10:14:31.774Z",
+      "body_label": "INSERT525",
+      "V": 525,
+      "E": 1568,
+      "F": 1045,
+      "C": 3136,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "literal NO575-BALANCED573-R",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Insert replacement witness vertices during all-point ascent and actual-moment repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2298
+      ]
+    },
+    {
+      "id": "20260905T102644-homotopy453-c2688",
+      "utc": "2026-09-05T10:26:44.439Z",
+      "body_label": "HOMOTOPY453",
+      "V": 453,
+      "E": 1344,
+      "F": 893,
+      "C": 2688,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Move a live-hull arc homotopy while repairing actual mass and feature constraints.",
+      "public_package": null,
+      "source_journal_lines": [
+        2319
+      ]
+    },
+    {
+      "id": "20260905T102644-rank429-c2544",
+      "utc": "2026-09-05T10:26:44.439Z",
+      "body_label": "RANK429",
+      "V": 429,
+      "E": 1272,
+      "F": 845,
+      "C": 2544,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical 435-stage of HOMOTOPY453 precursor",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use moving-neighbour barycentric rank loss and full moment/feature repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2326,
+        2340
+      ]
+    },
+    {
+      "id": "20260905T110119-exact439-c2620",
+      "utc": "2026-09-05T11:01:19.068Z",
+      "body_label": "EXACT439",
+      "V": 439,
+      "E": 1310,
+      "F": 873,
+      "C": 2620,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue endpoint-only cap deletion with whole-hull moment repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2364
+      ]
+    },
+    {
+      "id": "20260905T110119-exact495-c2956",
+      "utc": "2026-09-05T11:01:19.068Z",
+      "body_label": "EXACT495",
+      "V": 495,
+      "E": 1478,
+      "F": 985,
+      "C": 2956,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "numerical 501-stage of endpoint-only deletion branch",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Delete compatible cap orbits, rebuild the hull, and repair actual moment and all mechanics.",
+      "public_package": null,
+      "source_journal_lines": [
+        2364
+      ]
+    },
+    {
+      "id": "20260905T110119-exact519-c3100",
+      "utc": "2026-09-05T11:01:19.068Z",
+      "body_label": "EXACT519",
+      "V": 519,
+      "E": 1550,
+      "F": 1033,
+      "C": 3100,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "literal NO575-BALANCED573-R",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Reduce the literal 573 table through nine six-vertex moving-neighbour rank-loss batches.",
+      "public_package": null,
+      "source_journal_lines": [
+        2359
+      ]
+    },
+    {
+      "id": "20260905T110119-exact555-c3316",
+      "utc": "2026-09-05T11:01:19.068Z",
+      "body_label": "EXACT555",
+      "V": 555,
+      "E": 1658,
+      "F": 1105,
+      "C": 3316,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "literal NO575-BALANCED573-R",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the separate moving-neighbour barycentric rank-loss branch from 573.",
+      "public_package": null,
+      "source_journal_lines": [
+        2359
+      ]
+    },
+    {
+      "id": "20260905T111844-endpoint421-c2512",
+      "utc": "2026-09-05T11:18:44.539Z",
+      "body_label": "ENDPOINT421",
+      "V": 421,
+      "E": 1256,
+      "F": 837,
+      "C": 2512,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use endpoint-only C2 cavity deletion and all-coordinate live-hull/moment repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2375
+      ]
+    },
+    {
+      "id": "20260905T113141-balanced335-c1996",
+      "utc": "2026-09-05T11:31:41.070Z",
+      "body_label": "BALANCED335",
+      "V": 335,
+      "E": 998,
+      "F": 665,
+      "C": 1996,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Choose cavity deletions by their actual hull volume and axial first-moment changes, then repair the whole hull.",
+      "public_package": null,
+      "source_journal_lines": [
+        2395
+      ]
+    },
+    {
+      "id": "20260905T113141-balanced389-c2320",
+      "utc": "2026-09-05T11:31:41.070Z",
+      "body_label": "BALANCED389",
+      "V": 389,
+      "E": 1160,
+      "F": 773,
+      "C": 2320,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Balance actual removed solid-volume moments across compatible pair/triple deletion batches.",
+      "public_package": null,
+      "source_journal_lines": [
+        2395
+      ]
+    },
+    {
+      "id": "20260905T113141-balanced401-c2392",
+      "utc": "2026-09-05T11:31:41.070Z",
+      "body_label": "BALANCED401",
+      "V": 401,
+      "E": 1196,
+      "F": 797,
+      "C": 2392,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use moment-aware cavity deletion and actual-hull own-centroid repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2395
+      ]
+    },
+    {
+      "id": "20260905T120244-arc331-c1972",
+      "utc": "2026-09-05T12:02:44.401Z",
+      "body_label": "ARC331",
+      "V": 331,
+      "E": 986,
+      "F": 657,
+      "C": 1972,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "BALANCED335",
+      "parent_catalog_entry": "20260905T113141-balanced335-c1996",
+      "recorded_parent_reference": null,
+      "operation": "Add nonlocal ascent arcs from the literal 335-vertex body and rebuild the hull.",
+      "public_package": null,
+      "source_journal_lines": [
+        2416
+      ]
+    },
+    {
+      "id": "20260905T120244-radial327-c1948",
+      "utc": "2026-09-05T12:02:44.401Z",
+      "body_label": "RADIAL327",
+      "V": 327,
+      "E": 974,
+      "F": 649,
+      "C": 1948,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "BALANCED335",
+      "parent_catalog_entry": "20260905T113141-balanced335-c1996",
+      "recorded_parent_reference": null,
+      "operation": "Apply a separate radial-flow deformation and promote the rebuilt rational endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2416
+      ]
+    },
+    {
+      "id": "20260905T120244-strict323-c1924",
+      "utc": "2026-09-05T12:02:44.401Z",
+      "body_label": "STRICT323",
+      "V": 323,
+      "E": 962,
+      "F": 641,
+      "C": 1924,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "BALANCED389",
+      "parent_catalog_entry": "20260905T113141-balanced389-c2320",
+      "recorded_parent_reference": null,
+      "operation": "Use a separate tightened-LP moment-balanced branch from the exact 389-vertex body.",
+      "public_package": null,
+      "source_journal_lines": [
+        2409
+      ]
+    },
+    {
+      "id": "20260905T195447-cn11-p50-r2033-q10-c12180",
+      "utc": "2026-09-05T19:54:47.410Z",
+      "body_label": "CN11-P50-R2033-Q10",
+      "V": 2033,
+      "E": 6090,
+      "F": 4059,
+      "C": 12180,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "P50-4355",
+      "parent_catalog_entry": "20260905T021131-p50-4355-c26112",
+      "recorded_parent_reference": null,
+      "operation": "Quantize a P50-derived rational body at Q10, integrate its true volume centroid, and recenter.",
+      "public_package": null,
+      "source_journal_lines": [
+        2520
+      ]
+    },
+    {
+      "id": "20260905T203640-relax323-a-exact-c1924",
+      "utc": "2026-09-05T20:36:40.825Z",
+      "body_label": "RELAX323_A_EXACT",
+      "V": 323,
+      "E": 962,
+      "F": 641,
+      "C": 1924,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "STRICT323",
+      "parent_catalog_entry": "20260905T120244-strict323-c1924",
+      "recorded_parent_reference": null,
+      "operation": "Condition the whole primal and polar escape reserve while preserving strict110.",
+      "public_package": null,
+      "source_journal_lines": [
+        2567
+      ]
+    },
+    {
+      "id": "20260905T203640-strict319-a-exact-c1900",
+      "utc": "2026-09-05T20:36:40.825Z",
+      "body_label": "STRICT319_A_EXACT",
+      "V": 319,
+      "E": 950,
+      "F": 633,
+      "C": 1900,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "conditioned STRICT323 body (RELAX323_A_EXACT)",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Raise the whole primal/polar escape reserve, then apply four finite deletion/contraction operations with actual-centroid repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2567,
+        2598
+      ]
+    },
+    {
+      "id": "20260905T210950-strict307-star-exact-c1828",
+      "utc": "2026-09-05T21:09:50.044Z",
+      "body_label": "STRICT307_STAR_EXACT",
+      "V": 307,
+      "E": 914,
+      "F": 609,
+      "C": 1828,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Flatten a selected vertex into a convex combination of its neighbours while deforming the whole body and preserving exact mass.",
+      "public_package": null,
+      "source_journal_lines": [
+        2604
+      ]
+    },
+    {
+      "id": "20260905T210950-strict311-b-exact-c1852",
+      "utc": "2026-09-05T21:09:50.044Z",
+      "body_label": "STRICT311_B_EXACT",
+      "V": 311,
+      "E": 926,
+      "F": 617,
+      "C": 1852,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "STRICT319_A_EXACT",
+      "parent_catalog_entry": "20260905T203640-strict319-a-exact-c1900",
+      "recorded_parent_reference": null,
+      "operation": "Condition the whole XYZ body and execute additional finite deletions with exact mass repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2604
+      ]
+    },
+    {
+      "id": "20260906T055424-strict262-direct-repair-exact-c1508",
+      "utc": "2026-09-06T05:54:24.068Z",
+      "body_label": "STRICT262_DIRECT_REPAIR_EXACT",
+      "V": 262,
+      "E": 754,
+      "F": 494,
+      "C": 1508,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Recover a prior lead continuation and exact-promote the direct-repair endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2668
+      ]
+    },
+    {
+      "id": "20260906T063507-strict260-pn03-c1440-c1440",
+      "utc": "2026-09-06T06:35:07.341Z",
+      "body_label": "STRICT260_PN03_C1440",
+      "V": 260,
+      "E": 720,
+      "F": 462,
+      "C": 1440,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "STRICT262_DIRECT_REPAIR_EXACT",
+      "parent_catalog_entry": "20260906T055424-strict262-direct-repair-exact-c1508",
+      "recorded_parent_reference": null,
+      "operation": "Reconstruct the direct-repair continuation and promote the rational 260-vertex endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2727
+      ]
+    },
+    {
+      "id": "20260906T065158-support260-pn03-c1416-c1416",
+      "utc": "2026-09-06T06:51:58.595Z",
+      "body_label": "SUPPORT260_PN03_C1416",
+      "V": 260,
+      "E": 708,
+      "F": 450,
+      "C": 1416,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Delete a physical support and rechart the actual hull, then promote the endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        2766,
+        2796
+      ]
+    },
+    {
+      "id": "20260906T081103-elastic259-pn03-c1402-c1402",
+      "utc": "2026-09-06T08:11:03.953Z",
+      "body_label": "ELASTIC259_PN03_C1402",
+      "V": 259,
+      "E": 701,
+      "F": 444,
+      "C": 1402,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "SUPPORT260_PN03_C1416",
+      "parent_catalog_entry": "20260906T065158-support260-pn03-c1416-c1416",
+      "recorded_parent_reference": null,
+      "operation": "Condition the surviving geometry with elastic actual-centroid repair.",
+      "public_package": null,
+      "source_journal_lines": [
+        2844,
+        2874
+      ]
+    },
+    {
+      "id": "20260906T085651-mass-forest258-pn03-c1398-c1398",
+      "utc": "2026-09-06T08:56:51.116Z",
+      "body_label": "MASS_FOREST258_PN03_C1398",
+      "V": 258,
+      "E": 699,
+      "F": 443,
+      "C": 1398,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "ELASTIC259_PN03_C1402",
+      "parent_catalog_entry": "20260906T081103-elastic259-pn03-c1402-c1402",
+      "recorded_parent_reference": null,
+      "operation": "Delete a vertex, preserve physical polygon planarity, and repair mass using a rooted escape arborescence.",
+      "public_package": null,
+      "source_journal_lines": [
+        2888
+      ]
+    },
+    {
+      "id": "20260906T133734-fusion258-pn03-c1386-c1386",
+      "utc": "2026-09-06T13:37:34.127Z",
+      "body_label": "FUSION258_PN03_C1386",
+      "V": 258,
+      "E": 693,
+      "F": 437,
+      "C": 1386,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "MASS_FOREST258_PN03_C1398",
+      "parent_catalog_entry": "20260906T085651-mass-forest258-pn03-c1398-c1398",
+      "recorded_parent_reference": null,
+      "operation": "Merge physical facets and elastically repair the root-connected mass and escape constraints.",
+      "public_package": null,
+      "source_journal_lines": [
+        2932
+      ]
+    },
+    {
+      "id": "20260906T135632-fusion258-pn03-c1374-c1374",
+      "utc": "2026-09-06T13:56:32.877Z",
+      "body_label": "FUSION258_PN03_C1374",
+      "V": 258,
+      "E": 687,
+      "F": 431,
+      "C": 1374,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "FUSION258_PN03_C1386",
+      "parent_catalog_entry": "20260906T133734-fusion258-pn03-c1386-c1386",
+      "recorded_parent_reference": null,
+      "operation": "Merge six adjacent maximal facets and apply root-connected elastic repair.",
+      "public_package": {
+        "path": "results/history/figure/domokos-C1374-2026-09-07",
+        "link_from_catalog": "../results/history/figure/domokos-C1374-2026-09-07/README.md"
+      },
+      "source_journal_lines": [
+        2949,
+        2973
+      ]
+    },
+    {
+      "id": "20260908T044510-nn51-chain258-pn03-c1370-c1370",
+      "utc": "2026-09-08T04:45:10.496Z",
+      "body_label": "NN51_CHAIN258_PN03_C1370",
+      "V": 258,
+      "E": 685,
+      "F": 429,
+      "C": 1370,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue the exact C258 chain by a coordinate-changing edge/face reduction; direct parent not identified in the cited checkpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        7929,
+        8824
+      ]
+    },
+    {
+      "id": "20260908T235704-coord-gate167-c990-r14-c990",
+      "utc": "2026-09-08T23:57:04.249Z",
+      "body_label": "COORD_GATE167_C990_R14",
+      "V": 330,
+      "E": 495,
+      "F": 167,
+      "C": 990,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Construct a density-one rational support body from the 167 support-plane inequalities, then subtract its exact ordinary-volume centroid.",
+      "public_package": null,
+      "source_journal_lines": [
+        10008
+      ]
+    },
+    {
+      "id": "20260909T002556-coord-h160-c938-d100000-c938",
+      "utc": "2026-09-09T00:25:56.797Z",
+      "body_label": "COORD_H160_C938_D100000",
+      "V": 311,
+      "E": 469,
+      "F": 160,
+      "C": 938,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Construct a density-one support body and subtract its actual ordinary-volume centroid.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C752-2026-09-09",
+        "link_from_catalog": "../results/history/figure/gomboc-C752-2026-09-09/README.md"
+      },
+      "source_journal_lines": [
+        10041
+      ]
+    },
+    {
+      "id": "20260909T011533-coord-h153-c892-d10000000-c892",
+      "utc": "2026-09-09T01:15:33.833Z",
+      "body_label": "COORD_H153_C892_D10000000",
+      "V": 295,
+      "E": 446,
+      "F": 153,
+      "C": 892,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_H160_C938_D100000",
+      "parent_catalog_entry": "20260909T002556-coord-h160-c938-d100000-c938",
+      "recorded_parent_reference": null,
+      "operation": "Remove seven supports while moving geometry and repairing the actual centroid, then round the normals to a 10^7 grid.",
+      "public_package": null,
+      "source_journal_lines": [
+        10137
+      ]
+    },
+    {
+      "id": "20260909T013749-coord-h141-c820-d100000-c820",
+      "utc": "2026-09-09T01:37:49.733Z",
+      "body_label": "COORD_H141_C820_D100000",
+      "V": 271,
+      "E": 410,
+      "F": 141,
+      "C": 820,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_H153_C892_D10000000",
+      "parent_catalog_entry": "20260909T011533-coord-h153-c892-d10000000-c892",
+      "recorded_parent_reference": null,
+      "operation": "Apply four accepted batches after actual-centroid margin conditioning.",
+      "public_package": null,
+      "source_journal_lines": [
+        10234
+      ]
+    },
+    {
+      "id": "20260909T034824-coord-h138-c760-d177912706226730000000-c760",
+      "utc": "2026-09-09T03:48:24.297Z",
+      "body_label": "COORD_H138_C760_D177912706226730000000",
+      "V": 244,
+      "E": 380,
+      "F": 138,
+      "C": 760,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "C762 candidate (unresolved; outside the accepted-entry count)",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": "C762",
+      "operation": "Impose a second nonsimple physical vertex contact, rebuild the maximal polar face, and exact-audit the new body.",
+      "public_package": null,
+      "source_journal_lines": [
+        10342
+      ]
+    },
+    {
+      "id": "20260909T034824-coord-h141-c752-d1000000-c752",
+      "utc": "2026-09-09T03:48:24.297Z",
+      "body_label": "COORD_H141_C752_D1000000",
+      "V": 237,
+      "E": 376,
+      "F": 141,
+      "C": 752,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Promote the support geometry to a rational density-one body and subtract its exact ordinary-volume centroid.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C752-2026-09-09",
+        "link_from_catalog": "../results/history/figure/gomboc-C752-2026-09-09/README.md"
+      },
+      "source_journal_lines": [
+        10293,
+        10275,
+        11239,
+        11245
+      ]
+    },
+    {
+      "id": "20260909T034824-kr68-cap257-c1364-c1364",
+      "utc": "2026-09-09T03:48:24.350Z",
+      "body_label": "KR68_CAP257_C1364",
+      "V": 257,
+      "E": 682,
+      "F": 427,
+      "C": 1364,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "NN51_CHAIN258_PN03_C1370",
+      "parent_catalog_entry": "20260908T044510-nn51-chain258-pn03-c1370-c1370",
+      "recorded_parent_reference": null,
+      "operation": "Continue the C1370 geometry with an exact cap-reduction construction.",
+      "public_package": null,
+      "source_journal_lines": [
+        10775
+      ]
+    },
+    {
+      "id": "20260909T034824-lynx139-c822",
+      "utc": "2026-09-09T03:48:24.372Z",
+      "body_label": "LYNX139",
+      "V": 274,
+      "E": 411,
+      "F": 139,
+      "C": 822,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_GATE167_C990_R14",
+      "parent_catalog_entry": "20260908T235704-coord-gate167-c990-r14-c990",
+      "recorded_parent_reference": null,
+      "operation": "Delete twenty supports from a hardened C990 branch, then repair moving normals and actual centroid.",
+      "public_package": null,
+      "source_journal_lines": [
+        11019
+      ]
+    },
+    {
+      "id": "20260909T034824-lynx144-c852",
+      "utc": "2026-09-09T03:48:24.385Z",
+      "body_label": "LYNX144",
+      "V": 284,
+      "E": 426,
+      "F": 144,
+      "C": 852,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "LYNX145",
+      "parent_catalog_entry": "20260909T034824-lynx145-c858",
+      "recorded_parent_reference": null,
+      "operation": "Apply body-wide radial support flow with live actual-centroid repairs.",
+      "public_package": null,
+      "source_journal_lines": [
+        11121
+      ]
+    },
+    {
+      "id": "20260909T034824-lynx145-c858",
+      "utc": "2026-09-09T03:48:24.385Z",
+      "body_label": "LYNX145",
+      "V": 286,
+      "E": 429,
+      "F": 145,
+      "C": 858,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "COORD_GATE167_C990_R14",
+      "parent_catalog_entry": "20260908T235704-coord-gate167-c990-r14-c990",
+      "recorded_parent_reference": null,
+      "operation": "Delete twenty supports, move the reference and normals, and repair the actual centroid.",
+      "public_package": null,
+      "source_journal_lines": [
+        11121
+      ]
+    },
+    {
+      "id": "20260909T035414-qr29-contact-h155-c792-r100000000000-c792",
+      "utc": "2026-09-09T03:54:14.114Z",
+      "body_label": "QR29_CONTACT_H155_C792_R100000000000",
+      "V": 243,
+      "E": 396,
+      "F": 155,
+      "C": 792,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_H160_C938_D100000",
+      "parent_catalog_entry": "20260909T002556-coord-h160-c938-d100000-c938",
+      "recorded_parent_reference": null,
+      "operation": "Use 156 support halfspaces and a 10^11 control grid with 36 rational coplanarity records.",
+      "public_package": null,
+      "source_journal_lines": [
+        11264
+      ]
+    },
+    {
+      "id": "20260909T052055-coord-flow-h140-c746-d100000000-c746",
+      "utc": "2026-09-09T05:20:55.894Z",
+      "body_label": "COORD_FLOW_H140_C746_D100000000",
+      "V": 235,
+      "E": 373,
+      "F": 140,
+      "C": 746,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_H141_C752_D1000000",
+      "parent_catalog_entry": "20260909T034824-coord-h141-c752-d1000000-c752",
+      "recorded_parent_reference": null,
+      "operation": "Move the replacement facet itself during a homotopy, rebuild the support geometry, and recenter by filled volume.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C746-2026-09-09",
+        "link_from_catalog": "../results/history/figure/gomboc-C746-2026-09-09/README.md"
+      },
+      "source_journal_lines": [
+        11489,
+        11503
+      ]
+    },
+    {
+      "id": "20260909T053423-coord-flow-h135-c716-d1000000000-c716",
+      "utc": "2026-09-09T05:34:23.005Z",
+      "body_label": "COORD_FLOW_H135_C716_D1000000000",
+      "V": 225,
+      "E": 358,
+      "F": 135,
+      "C": 716,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue the flow with a single-facet mass-control direction and exact own-centroid repair.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C716-2026-09-09",
+        "link_from_catalog": "../results/history/figure/gomboc-C716-2026-09-09/README.md"
+      },
+      "source_journal_lines": [
+        11524
+      ]
+    },
+    {
+      "id": "20260909T072007-coord-flow-h132-c698-d1000000000-c698",
+      "utc": "2026-09-09T07:20:07.721Z",
+      "body_label": "COORD_FLOW_H132_C698_D1000000000",
+      "V": 219,
+      "E": 349,
+      "F": 132,
+      "C": 698,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Continue the actual-centroid contact flow to a 132-facet endpoint.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C698-2026-09-09",
+        "link_from_catalog": "../results/history/figure/gomboc-C698-2026-09-09/README.md"
+      },
+      "source_journal_lines": [
+        11608
+      ]
+    },
+    {
+      "id": "20260909T075133-coord-conditioned-contact23-h132-c696-c696",
+      "utc": "2026-09-09T07:51:33.277Z",
+      "body_label": "COORD_CONDITIONED_CONTACT23_H132_C696",
+      "V": 218,
+      "E": 348,
+      "F": 132,
+      "C": 696,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_CONDITIONED_H132_C698_D1000000000",
+      "parent_catalog_entry": "20260909T075133-coord-conditioned-h132-c698-d1000000000-c698",
+      "recorded_parent_reference": null,
+      "operation": "Contract a directed simple edge through exact support-plane contact, then reconstruct the exact endpoint.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C696-2026-09-09",
+        "link_from_catalog": "../results/history/figure/gomboc-C696-2026-09-09"
+      },
+      "source_journal_lines": [
+        11641,
+        11677
+      ]
+    },
+    {
+      "id": "20260909T075133-coord-conditioned-h132-c698-d1000000000-c698",
+      "utc": "2026-09-09T07:51:33.277Z",
+      "body_label": "COORD_CONDITIONED_H132_C698_D1000000000",
+      "V": 219,
+      "E": 349,
+      "F": 132,
+      "C": 698,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_FLOW_H132_C698_D1000000000",
+      "parent_catalog_entry": "20260909T072007-coord-flow-h132-c698-d1000000000-c698",
+      "recorded_parent_reference": null,
+      "operation": "Condition the same-count rational geometry to increase its discrete normalized escape reserve.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C698-2026-09-09",
+        "link_from_catalog": "../results/history/figure/gomboc-C698-2026-09-09/README.md"
+      },
+      "source_journal_lines": [
+        11620
+      ]
+    },
+    {
+      "id": "20260909T080733-coord-two-contacts-h132-c694-c694",
+      "utc": "2026-09-09T08:07:33.668Z",
+      "body_label": "COORD_TWO_CONTACTS_H132_C694",
+      "V": 217,
+      "E": 347,
+      "F": 132,
+      "C": 694,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_CONDITIONED_CONTACT23_H132_C696",
+      "parent_catalog_entry": "20260909T075133-coord-conditioned-contact23-h132-c696-c696",
+      "recorded_parent_reference": null,
+      "operation": "Close two contacts and rebuild the exact filled-volume body.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C694-2026-09-09",
+        "link_from_catalog": "../results/history/figure/gomboc-C694-2026-09-09/README.md"
+      },
+      "source_journal_lines": [
+        11698,
+        11759
+      ]
+    },
+    {
+      "id": "20260909T095307-coord-five-contacts-h132-c688-c688",
+      "utc": "2026-09-09T09:53:07.309Z",
+      "body_label": "COORD_FIVE_CONTACTS_H132_C688",
+      "V": 214,
+      "E": 344,
+      "F": 132,
+      "C": 688,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Combine independently positive contact branches into a five-contact body and exactly repair the geometry and filled mass.",
+      "public_package": null,
+      "source_journal_lines": [
+        11783,
+        11825
+      ]
+    },
+    {
+      "id": "20260909T095307-unnamed-c692-intermediate-no-formal-body-ide-c692",
+      "utc": "2026-09-09T09:53:07.309Z",
+      "body_label": "unnamed C692 intermediate (no formal body identifier stated)",
+      "V": 216,
+      "E": 346,
+      "F": 132,
+      "C": 692,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Add the first contact, then continue contact closure; the exact branch identity is distinct from C688.",
+      "public_package": null,
+      "source_journal_lines": [
+        11835,
+        11837
+      ]
+    },
+    {
+      "id": "20260909T101543-coord-six-contacts-h132-c686-c686",
+      "utc": "2026-09-09T10:15:43.410Z",
+      "body_label": "COORD_SIX_CONTACTS_H132_C686",
+      "V": 213,
+      "E": 343,
+      "F": 132,
+      "C": 686,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "COORD_FIVE_CONTACTS_H132_C688",
+      "parent_catalog_entry": "20260909T095307-coord-five-contacts-h132-c688-c688",
+      "recorded_parent_reference": null,
+      "operation": "Condition the five-contact body and apply a one-cut mass controller.",
+      "public_package": null,
+      "source_journal_lines": [
+        11890,
+        11931
+      ]
+    },
+    {
+      "id": "20260909T103418-coord-seven-contacts-h132-c684-c684",
+      "utc": "2026-09-09T10:34:18.519Z",
+      "body_label": "COORD_SEVEN_CONTACTS_H132_C684",
+      "V": 212,
+      "E": 342,
+      "F": 132,
+      "C": 684,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Repair the 82-contact branch with the explicit 46 contact and energy-normalized global geometry.",
+      "public_package": null,
+      "source_journal_lines": [
+        11989,
+        12018
+      ]
+    },
+    {
+      "id": "20260909T104420-coord-eight-contacts-h132-c682-c682",
+      "utc": "2026-09-09T10:44:20.186Z",
+      "body_label": "COORD_EIGHT_CONTACTS_H132_C682",
+      "V": 211,
+      "E": 341,
+      "F": 132,
+      "C": 682,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "COORD_SEVEN_CONTACTS_H132_C684",
+      "parent_catalog_entry": "20260909T103418-coord-seven-contacts-h132-c684-c684",
+      "recorded_parent_reference": null,
+      "operation": "Add contact 72 to the exact seven-contact chart and repair the complete filled geometry.",
+      "public_package": null,
+      "source_journal_lines": [
+        12032,
+        12057
+      ]
+    },
+    {
+      "id": "20260909T115830-lynx2-c698-area-d1e9-c698",
+      "utc": "2026-09-09T11:58:30.211Z",
+      "body_label": "LYNX2_C698_AREA_D1E9",
+      "V": 218,
+      "E": 349,
+      "F": 133,
+      "C": 698,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the positive-area branch with an actual-mass differential to form a distinct C698 body.",
+      "public_package": null,
+      "source_journal_lines": [
+        12159
+      ]
+    },
+    {
+      "id": "20260909T115830-qr29-atlas-h136-c662-d1000000000000-c662",
+      "utc": "2026-09-09T11:58:30.211Z",
+      "body_label": "QR29_ATLAS_H136_C662_D1000000000000",
+      "V": 197,
+      "E": 331,
+      "F": 136,
+      "C": 662,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Construct the lower-facet companion in the rational incidence-atlas branch.",
+      "public_package": null,
+      "source_journal_lines": [
+        12149
+      ]
+    },
+    {
+      "id": "20260909T115830-qr29-atlas-h137-c652-d1000000000000-c652",
+      "utc": "2026-09-09T11:58:30.211Z",
+      "body_label": "QR29_ATLAS_H137_C652_D1000000000000",
+      "V": 191,
+      "E": 326,
+      "F": 137,
+      "C": 652,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Construct and rationalize the new lower-complexity incidence-atlas endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        12149
+      ]
+    },
+    {
+      "id": "20260909T115830-unnamed-nine-contact-132-support-c680-body-n-c680",
+      "utc": "2026-09-09T11:58:30.211Z",
+      "body_label": "unnamed nine-contact 132-support C680 body (no formal identifier stated)",
+      "V": 210,
+      "E": 340,
+      "F": 132,
+      "C": 680,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "COORD_EIGHT_CONTACTS_H132_C682",
+      "parent_catalog_entry": "20260909T104420-coord-eight-contacts-h132-c682-c682",
+      "recorded_parent_reference": null,
+      "operation": "Impose a genuine four-plane contact and repair the actual endpoint.",
+      "public_package": null,
+      "source_journal_lines": [
+        12167
+      ]
+    },
+    {
+      "id": "20260909T133712-coord-conditioned-contact35-h137-c650-d10000-c650",
+      "utc": "2026-09-09T13:37:12.479Z",
+      "body_label": "COORD_CONDITIONED_CONTACT35_H137_C650_D1000000000000",
+      "V": 190,
+      "E": 325,
+      "F": 137,
+      "C": 650,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "QR29_ATLAS_H137_C652_D1000000000000",
+      "parent_catalog_entry": "20260909T115830-qr29-atlas-h137-c652-d1000000000000-c652",
+      "recorded_parent_reference": null,
+      "operation": "Remove a true edge by polar contact closure and repair the actual filled-volume centroid.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C650-2026-09-09",
+        "link_from_catalog": "../results/history/figure/gomboc-C650-2026-09-09"
+      },
+      "source_journal_lines": [
+        12260,
+        12295
+      ]
+    },
+    {
+      "id": "20260909T135559-coord-conditioned-contact36-h137-c648-d10000-c648",
+      "utc": "2026-09-09T13:55:59.826Z",
+      "body_label": "COORD_CONDITIONED_CONTACT36_H137_C648_D1000000000000",
+      "V": 189,
+      "E": 324,
+      "F": 137,
+      "C": 648,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_CONDITIONED_CONTACT35_H137_C650_D1000000000000",
+      "parent_catalog_entry": "20260909T133712-coord-conditioned-contact35-h137-c650-d10000-c650",
+      "recorded_parent_reference": null,
+      "operation": "Merge two polar triangles along edge [26,82] after positive-mechanics conditioning.",
+      "public_package": null,
+      "source_journal_lines": [
+        12297,
+        12496
+      ]
+    },
+    {
+      "id": "20260909T193451-c648-rebuilt-r7-c648",
+      "utc": "2026-09-09T19:34:51.082Z",
+      "body_label": "C648_REBUILT_R7",
+      "V": 189,
+      "E": 324,
+      "F": 137,
+      "C": 648,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Rebuild a new rational C648 body with full exact support/contact data, then cold-replay the source-only capsule.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C648-REBUILT-2026-09-09/C648_REBUILT_R7",
+        "link_from_catalog": "../results/history/figure/gomboc-C648-REBUILT-2026-09-09/C648_REBUILT_R7"
+      },
+      "source_journal_lines": [
+        12594,
+        12629
+      ]
+    },
+    {
+      "id": "20260909T194119-c648-rebuilt-r12-c648",
+      "utc": "2026-09-09T19:41:19.042Z",
+      "body_label": "C648_REBUILT_R12",
+      "V": 189,
+      "E": 324,
+      "F": 137,
+      "C": 648,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Preserve the distinct exact equal-complexity companion body.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C648-REBUILT-2026-09-09/C648_REBUILT_R12",
+        "link_from_catalog": "../results/history/figure/gomboc-C648-REBUILT-2026-09-09/C648_REBUILT_R12"
+      },
+      "source_journal_lines": [
+        12629
+      ]
+    },
+    {
+      "id": "20260910T063545-c634-soc-c634",
+      "utc": "2026-09-10T06:35:45.378Z",
+      "body_label": "C634_SOC",
+      "V": 182,
+      "E": 317,
+      "F": 137,
+      "C": 634,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the recovered uniform-filled own-centred construction and its exact rational capsule.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C634-2026-09-10/source-only/C634_SOC",
+        "link_from_catalog": "../results/history/figure/gomboc-C634-2026-09-10/source-only/C634_SOC"
+      },
+      "source_journal_lines": [
+        12762,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T070516-c636-grid7-c636",
+      "utc": "2026-09-10T07:05:16.197Z",
+      "body_label": "C636_GRID7",
+      "V": 183,
+      "E": 318,
+      "F": 137,
+      "C": 636,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the GRID7 rational coordinate construction as a distinct exact C636 body.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C634-2026-09-10/source-only/C636_GRID7",
+        "link_from_catalog": "../results/history/figure/gomboc-C634-2026-09-10/source-only/C636_GRID7"
+      },
+      "source_journal_lines": [
+        12784,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T070516-c636-h213-soc-c636",
+      "utc": "2026-09-10T07:05:16.197Z",
+      "body_label": "C636_H213_SOC",
+      "V": 183,
+      "E": 318,
+      "F": 137,
+      "C": 636,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Retain the literal H213 subgraph while making a distinct exact strict-110 body.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C634-2026-09-10/source-only/C636_H213_SOC",
+        "link_from_catalog": "../results/history/figure/gomboc-C634-2026-09-10/source-only/C636_H213_SOC"
+      },
+      "source_journal_lines": [
+        12784,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T070516-c638-h213-grid7-c638",
+      "utc": "2026-09-10T07:05:16.197Z",
+      "body_label": "C638_H213_GRID7",
+      "V": 184,
+      "E": 319,
+      "F": 137,
+      "C": 638,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Combine the H213 subgraph with the GRID7 coordinate construction.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C634-2026-09-10/source-only/C638_H213_GRID7",
+        "link_from_catalog": "../results/history/figure/gomboc-C634-2026-09-10/source-only/C638_H213_GRID7"
+      },
+      "source_journal_lines": [
+        12784,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T070516-c642-grid6-repair169-c642",
+      "utc": "2026-09-10T07:05:16.197Z",
+      "body_label": "C642_GRID6_REPAIR169",
+      "V": 185,
+      "E": 321,
+      "F": 138,
+      "C": 642,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use a rational one-parameter U/H cancellation while preserving the maximal complex.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C634-2026-09-10/source-only/C642_GRID6_REPAIR169",
+        "link_from_catalog": "../results/history/figure/gomboc-C634-2026-09-10/source-only/C642_GRID6_REPAIR169"
+      },
+      "source_journal_lines": [
+        12784,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T131126-bq13-c632-three-link-own110-c632",
+      "utc": "2026-09-10T13:11:26.296Z",
+      "body_label": "BQ13_C632_THREE_LINK_OWN110",
+      "V": 180,
+      "E": 316,
+      "F": 138,
+      "C": 632,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "C634_SOC",
+      "parent_catalog_entry": "20260910T063545-c634-soc-c634",
+      "recorded_parent_reference": null,
+      "operation": "Cancel the remaining U/H basin by a lower-stratum preparation and three-link physical repair.",
+      "public_package": {
+        "path": "results/history/figure/gomboc-C632-BQ13-2026-09-10",
+        "link_from_catalog": "../results/history/figure/gomboc-C632-BQ13-2026-09-10/README.md"
+      },
+      "source_journal_lines": [
+        13053,
+        13133
+      ]
+    },
+    {
+      "id": "20260912T102403-cap-bright-c630-exact-body-full-identifier-u-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "body_label": "CAP Bright C630 exact body (full identifier unresolved)",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the immutable Bright cap/contact construction as a separate exact C630 body.",
+      "public_package": null,
+      "source_journal_lines": [
+        13440
+      ]
+    },
+    {
+      "id": "20260912T102403-coord-c630-base-grid7-own110-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "body_label": "COORD_C630_BASE_GRID7_OWN110",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the GRID7 exact contact atlas to build an own-centred C630 body.",
+      "public_package": null,
+      "source_journal_lines": [
+        13440,
+        13484
+      ]
+    },
+    {
+      "id": "20260912T102403-d9-c630-exact-body-full-identifier-unresolve-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "body_label": "D9 C630 exact body (full identifier unresolved)",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Apply the D9 support-deletion construction and exact-centre correction.",
+      "public_package": null,
+      "source_journal_lines": [
+        13440
+      ]
+    },
+    {
+      "id": "20260912T102403-r5-c630-exact-body-full-identifier-unresolve-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "body_label": "R5 C630 exact body (full identifier unresolved)",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Apply the R5 contact construction as a separate exact C630 body.",
+      "public_package": null,
+      "source_journal_lines": [
+        13440
+      ]
+    },
+    {
+      "id": "20260912T102403-r7-c630-exact-body-full-identifier-unresolve-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "body_label": "R7 C630 exact body (full identifier unresolved)",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Apply the R7 contact construction as a separate exact C630 body.",
+      "public_package": null,
+      "source_journal_lines": [
+        13440
+      ]
+    },
+    {
+      "id": "20260912T115332-coord-c630-conditioned-grid6-own110-c630",
+      "utc": "2026-09-12T11:53:32.843Z",
+      "body_label": "COORD_C630_CONDITIONED_GRID6_OWN110",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Condition all 318 free contact-atlas coordinates and repair the rounded coordinates on a 10^6 grid.",
+      "public_package": null,
+      "source_journal_lines": [
+        13537,
+        13566
+      ]
+    },
+    {
+      "id": "20260912T150059-rl07-grid7-z18-94-c628-g1e9-c628",
+      "utc": "2026-09-12T15:00:59.178Z",
+      "body_label": "RL07_GRID7_Z18_94_C628_G1E9",
+      "V": 179,
+      "E": 314,
+      "F": 137,
+      "C": 628,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_C630_BASE_GRID7_OWN110",
+      "parent_catalog_entry": "20260912T102403-coord-c630-base-grid7-own110-c630",
+      "recorded_parent_reference": null,
+      "operation": "Contract the edge whose endpoints lie on facets {16,18,94} and {18,71,94}, creating the four-owner vertex {16,18,71,94}.",
+      "public_package": {
+        "path": "results/history/figure/figure-vq20-c626-contact-mass-20260915",
+        "link_from_catalog": "../results/history/figure/figure-vq20-c626-contact-mass-20260915/README.md"
+      },
+      "source_journal_lines": [
+        13704,
+        13690,
+        13726
+      ]
+    },
+    {
+      "id": "20260914T004603-bq13-c628-vertex-71-73-r6-own110-c628",
+      "utc": "2026-09-14T00:46:03.054Z",
+      "body_label": "BQ13_C628_VERTEX_71_73_R6_OWN110",
+      "V": 179,
+      "E": 314,
+      "F": 137,
+      "C": 628,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Contract physical edge (71,73) in its C630 parent; merge the endpoint owners while retaining all supports.",
+      "public_package": {
+        "path": "results/history/figure/figure-c626-bq13-stable-cap-20260914/source/C628_WINNER",
+        "link_from_catalog": "../results/history/figure/figure-c626-bq13-stable-cap-20260914/source/C628_WINNER"
+      },
+      "source_journal_lines": [
+        14156,
+        14164
+      ]
+    },
+    {
+      "id": "20260914T005139-coord-bq-rl-double-c626-own110-g14-c626",
+      "utc": "2026-09-14T00:51:39.245Z",
+      "body_label": "COORD_BQ_RL_DOUBLE_C626_OWN110_G14",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "BQ13_C628_VERTEX_71_73_R6_OWN110",
+      "parent_catalog_entry": "20260914T004603-bq13-c628-vertex-71-73-r6-own110-c628",
+      "recorded_parent_reference": null,
+      "operation": "Use the distinct G14 exact contact solution for the same two-vertex identification.",
+      "public_package": {
+        "path": "results/history/figure/figure-c626-source-20260914/exact/G14",
+        "link_from_catalog": "../results/history/figure/figure-c626-source-20260914/exact/G14"
+      },
+      "source_journal_lines": [
+        14176,
+        14194,
+        14200
+      ]
+    },
+    {
+      "id": "20260914T005139-coord-bq-rl-double-c626-own110-g8-c626",
+      "utc": "2026-09-14T00:51:39.245Z",
+      "body_label": "COORD_BQ_RL_DOUBLE_C626_OWN110_G8",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": "BQ13_C628_VERTEX_71_73_R6_OWN110",
+      "parent_catalog_entry": "20260914T004603-bq13-c628-vertex-71-73-r6-own110-c628",
+      "recorded_parent_reference": null,
+      "operation": "Identify vertices 87 and 88 across adjacent supports and merge them into a new four-owner contact.",
+      "public_package": {
+        "path": "results/history/figure/figure-c626-source-20260914/exact/G8",
+        "link_from_catalog": "../results/history/figure/figure-c626-source-20260914/exact/G8"
+      },
+      "source_journal_lines": [
+        14176,
+        14194,
+        14200
+      ]
+    },
+    {
+      "id": "20260914T021327-bq13-c626-stable-cap-vertex-68-96-own110-ali-c626",
+      "utc": "2026-09-14T02:13:27.587Z",
+      "body_label": "BQ13_C626_STABLE_CAP_VERTEX_68_96_OWN110 (alias BASIN69_96)",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Contract the raw 68–96 parent edge and add the ninefold stable-cap owner set.",
+      "public_package": {
+        "path": "results/history/figure/figure-c626-bq13-stable-cap-20260914/source/BASIN69_96",
+        "link_from_catalog": "../results/history/figure/figure-c626-bq13-stable-cap-20260914/source/BASIN69_96"
+      },
+      "source_journal_lines": [
+        14462
+      ]
+    },
+    {
+      "id": "20260914T042922-atlas56-adapt-c626",
+      "utc": "2026-09-14T04:29:22.690Z",
+      "body_label": "ATLAS56_ADAPT",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the adaptive arithmetic-compression variant of the contact equations.",
+      "public_package": {
+        "path": "results/history/figure/figure-c626-atlas56-arithmetic-20260914/source/ADAPT",
+        "link_from_catalog": "../results/history/figure/figure-c626-atlas56-arithmetic-20260914/source/ADAPT"
+      },
+      "source_journal_lines": [
+        14801,
+        14803
+      ]
+    },
+    {
+      "id": "20260914T042922-atlas56-d3-small-c626-own110-c626",
+      "utc": "2026-09-14T04:29:22.690Z",
+      "body_label": "ATLAS56_D3_SMALL_C626_OWN110",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Reparameterize the exact contact equations and reduce dependent rational-solve depth.",
+      "public_package": {
+        "path": "results/history/figure/figure-c626-atlas56-arithmetic-20260914/source/D3_SMALL",
+        "link_from_catalog": "../results/history/figure/figure-c626-atlas56-arithmetic-20260914/source/D3_SMALL"
+      },
+      "source_journal_lines": [
+        14801,
+        14803
+      ]
+    },
+    {
+      "id": "20260914T042922-atlas56-d3-strong-c626",
+      "utc": "2026-09-14T04:29:22.690Z",
+      "body_label": "ATLAS56_D3_STRONG",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the stronger arithmetic-compression variant of the contact-equation reparameterization.",
+      "public_package": {
+        "path": "results/history/figure/figure-c626-atlas56-arithmetic-20260914/source/D3_STRONG",
+        "link_from_catalog": "../results/history/figure/figure-c626-atlas56-arithmetic-20260914/source/D3_STRONG"
+      },
+      "source_journal_lines": [
+        14801,
+        14803
+      ]
+    },
+    {
+      "id": "20260914T050955-coord-cap-rl-c624-inherited-g9-c624",
+      "utc": "2026-09-14T05:09:55.111Z",
+      "body_label": "COORD_CAP_RL_C624_INHERITED_G9",
+      "V": 177,
+      "E": 312,
+      "F": 137,
+      "C": 624,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Inherit the ninefold stable-cap owner and close the exact C624 contact geometry.",
+      "public_package": {
+        "path": "results/history/figure/figure-c624-cap-rl-20260914",
+        "link_from_catalog": "../results/history/figure/figure-c624-cap-rl-20260914/README.md"
+      },
+      "source_journal_lines": [
+        15047,
+        14478
+      ]
+    },
+    {
+      "id": "20260914T051322-coord-cap-rl-c624-strong-g8-alias-s8-c624",
+      "utc": "2026-09-14T05:13:22.035Z",
+      "body_label": "COORD_CAP_RL_C624_STRONG_G8 (alias S8)",
+      "V": 177,
+      "E": 312,
+      "F": 137,
+      "C": 624,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Close the stable-cap contact geometry with the stronger G8 solution.",
+      "public_package": {
+        "path": "results/history/figure/figure-c624-s8-20260914",
+        "link_from_catalog": "../results/history/figure/figure-c624-s8-20260914/README.md"
+      },
+      "source_journal_lines": [
+        15047,
+        15548,
+        15965
+      ]
+    },
+    {
+      "id": "20260914T075256-coord-s8-d132-c624-c624",
+      "utc": "2026-09-14T07:52:56.776Z",
+      "body_label": "COORD_S8_D132_C624",
+      "V": 176,
+      "E": 312,
+      "F": 138,
+      "C": 624,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "COORD_CAP_RL_C624_STRONG_G8 (S8)",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Delete raw-lex vertex 132 from S8 and take the convex hull of the remaining exact vertices.",
+      "public_package": {
+        "path": "results/history/figure/figure-c624-d132-20260914",
+        "link_from_catalog": "../results/history/figure/figure-c624-d132-20260914/README.md"
+      },
+      "source_journal_lines": [
+        15263
+      ]
+    },
+    {
+      "id": "20260915T120943-manifold2-c624-body-formal-full-identifier-n-c624",
+      "utc": "2026-09-15T12:09:43.854Z",
+      "body_label": "MANIFOLD2 C624 body (formal full identifier not stated)",
+      "V": null,
+      "E": null,
+      "F": null,
+      "C": 624,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the separate MANIFOLD2 contact-atlas construction.",
+      "public_package": null,
+      "source_journal_lines": [
+        15969
+      ]
+    },
+    {
+      "id": "20260915T120943-pc2-c624-body-formal-full-identifier-not-sta-c624",
+      "utc": "2026-09-15T12:09:43.854Z",
+      "body_label": "PC2 C624 body (formal full identifier not stated)",
+      "V": null,
+      "E": null,
+      "F": null,
+      "C": 624,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": null
+      },
+      "documented_parent": null,
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": null,
+      "operation": "Use the PC2 own-centroid-first contact construction.",
+      "public_package": null,
+      "source_journal_lines": [
+        15969
+      ]
+    },
+    {
+      "id": "20260915T143428-vq20-rl07-c626-z87-127-g1e9-c626",
+      "utc": "2026-09-15T14:34:28.113Z",
+      "body_label": "VQ20_RL07_C626_Z87_127_G1E9",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "RL07_GRID7_Z18_94_C628_G1E9",
+      "parent_catalog_entry": "20260912T150059-rl07-grid7-z18-94-c628-g1e9-c628",
+      "recorded_parent_reference": null,
+      "operation": "Delete polar edge (87,127), preserve the four-contact atlas, and correct the actual mass/contact constraints.",
+      "public_package": {
+        "path": "results/history/figure/figure-vq20-c626-contact-mass-20260915",
+        "link_from_catalog": "../results/history/figure/figure-vq20-c626-contact-mass-20260915/README.md"
+      },
+      "source_journal_lines": [
+        16147
+      ]
+    },
+    {
+      "id": "20260915T174319-vq20-c622-route88-118-g12-c622-routed-c622",
+      "utc": "2026-09-15T17:43:19.339Z",
+      "body_label": "VQ20_C622_ROUTE88_118_G12 / C622_ROUTED",
+      "V": 176,
+      "E": 311,
+      "F": 137,
+      "C": 622,
+      "equilibria": {
+        "strict_S_U_H": {
+          "S": 1,
+          "U": 1,
+          "H": 0
+        },
+        "weak_S_U_H": {
+          "S": 0,
+          "U": 0,
+          "H": 0
+        }
+      },
+      "documented_parent": "C624_NONSIMPLE (intermediate state on the C622 route)",
+      "parent_catalog_entry": null,
+      "recorded_parent_reference": "VQ20_RL07_C626_Z87_127_G1E9",
+      "operation": "Perform two nonsimple polar-panel unions and rooted routing with full mass correction.",
+      "public_package": {
+        "path": "results/history/figure/figure-c622-route-20260915",
+        "link_from_catalog": "../results/history/figure/figure-c622-route-20260915/README.md"
+      },
+      "source_journal_lines": [
+        16698,
+        16518,
+        16545,
+        16694
+      ]
+    }
+  ]
+}

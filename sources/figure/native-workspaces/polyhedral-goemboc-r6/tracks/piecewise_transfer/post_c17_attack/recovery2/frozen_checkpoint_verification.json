@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "scope": "portable independent completion of frozen post-C17 verifier",
+  "frozen_hashes_unchanged": {
+    "certificate.json": "79cba938ff1eeca5a4290dfa6d0ca40aa85f11adca99411b60a7469675d395cb",
+    "verify_certificate.py": "161c27e6a74cb57f3aab79ef423fa009d56f1d5cd1968f97f13afade1d764718",
+    "manifest.sha256": "91418f8803a0ffc244bd0c893a0b0c3036a59494d8cf936da881a9c06c601131"
+  },
+  "blocks": {
+    "cells": {
+      "task": "cells",
+      "records": {
+        "source": {
+          "f_vector": [
+            61,
+            150,
+            91
+          ],
+          "class": [
+            2,
+            5,
+            5
+          ],
+          "face_count": 91,
+          "row_count": 119
+        },
+        "mechanics_pre": {
+          "f_vector": [
+            61,
+            150,
+            91
+          ],
+          "class": [
+            2,
+            5,
+            5
+          ],
+          "face_count": 91,
+          "row_count": 119
+        },
+        "mechanics_far": {
+          "f_vector": [
+            61,
+            150,
+            91
+          ],
+          "class": [
+            2,
+            4,
+            4
+          ],
+          "face_count": 91,
+          "row_count": 119
+        },
+        "support_pre": {
+          "f_vector": [
+            61,
+            150,
+            91
+          ],
+          "class": [
+            2,
+            4,
+            4
+          ],
+          "face_count": 91,
+          "row_count": 119
+        },
+        "support_far": {
+          "f_vector": [
+            61,
+            150,
+            91
+          ],
+          "class": [
+            2,
+            4,
+            4
+          ],
+          "face_count": 91,
+          "row_count": 119
+        },
+        "endpoint": {
+          "f_vector": [
+            61,
+            150,
+            91
+          ],
+          "class": [
+            2,
+            4,
+            4
+          ],
+          "face_count": 91,
+          "row_count": 119
+        }
+      }
+    },
+    "exhaustive_source": {
+      "task": "exhaustive_source",
+      "audit": {
+        "scale_digits": 57,
+        "unique_input_points": 119,
+        "supporting_planes": 91,
+        "all_triples_exhausted": true,
+        "every_coplanar_set_matches_reconstructed_cycle": true
+      }
+    },
+    "exhaustive_endpoint": {
+      "task": "exhaustive_endpoint",
+      "audit": {
+        "scale_digits": 57,
+        "unique_input_points": 119,
+        "supporting_planes": 91,
+        "all_triples_exhausted": true,
+        "every_coplanar_set_matches_reconstructed_cycle": true
+      }
+    },
+    "events": {
+      "task": "events",
+      "linked_degree": 5,
+      "support_degree": 2,
+      "strict_support_polynomials_checked": 10529
+    },
+    "tail": {
+      "task": "tail",
+      "ratio_count": 8,
+      "manifest_entries": 18,
+      "endpoint": {
+        "f_vector": [
+          61,
+          150,
+          91
+        ],
+        "class": [
+          2,
+          4,
+          4
+        ]
+      }
+    },
+    "old_guards": {
+      "task": "old_guards",
+      "guard_record_count": 377
+    },
+    "far_guards": {
+      "task": "far_guards",
+      "guard_record_count": 371
+    },
+    "one_sided_guards": {
+      "task": "one_sided_guards",
+      "guard_record_count": 371,
+      "singular_guard_record_count": 1
+    }
+  },
+  "verdict": "INDEPENDENT_EXACT_POST_C17_RECOVERY2_PORTABLE_PASS",
+  "winner_status": "NONWINNER"
+}

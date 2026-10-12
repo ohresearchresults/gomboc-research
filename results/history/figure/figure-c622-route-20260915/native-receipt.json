@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-15T17:15:16.716Z",
+  "assignmentId": "asg_cijWFIi7qU9BZSlvjs1Ws0hi",
+  "event": 1349,
+  "receivedAt": "2026-09-15T17:10:27.098Z",
+  "sha256": "8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d",
+  "bytes": 28769,
+  "markdownBytes": 28238,
+  "markdownSha256": "94572896158f7d2e74bb408aa7662b20159848a811c48178a9a0f2fe924a709d",
+  "verification": "Strict native result contract and immutable SHA checked; complete external capsule still to be collected; endpoint and whole ten-case batch verification distinguished"
+}

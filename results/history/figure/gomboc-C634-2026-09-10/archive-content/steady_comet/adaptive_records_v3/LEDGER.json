@@ -1,0 +1,116 @@
+[
+  {
+    "E": 319,
+    "epoch": 0,
+    "target": [
+      163,
+      69
+    ],
+    "edge": [
+      163,
+      165
+    ],
+    "polar": [
+      3,
+      68
+    ],
+    "status": "contact_event",
+    "remaining_gap": 4.4251935449324264e-10,
+    "minimum_escape": 8.922474871750431e-06
+  },
+  {
+    "E": 318,
+    "epoch": 1,
+    "target": [
+      66,
+      93
+    ],
+    "edge": [
+      60,
+      66
+    ],
+    "polar": [
+      94,
+      95
+    ],
+    "status": "budget",
+    "remaining_gap": 0.0029942668829916474,
+    "minimum_escape": 5.676499728077365e-06
+  },
+  {
+    "E": 318,
+    "epoch": 1,
+    "target": [
+      47,
+      112
+    ],
+    "edge": [
+      47,
+      52
+    ],
+    "polar": [
+      111,
+      119
+    ],
+    "status": "budget",
+    "remaining_gap": 0.0018512727289154984,
+    "minimum_escape": 5.669657197290787e-06
+  },
+  {
+    "E": 318,
+    "epoch": 1,
+    "target": [
+      80,
+      120
+    ],
+    "edge": [
+      80,
+      82
+    ],
+    "polar": [
+      97,
+      121
+    ],
+    "status": "budget",
+    "remaining_gap": 0.0014147965770486826,
+    "minimum_escape": 5.657338840481852e-06
+  },
+  {
+    "E": 318,
+    "epoch": 1,
+    "target": [
+      58,
+      112
+    ],
+    "edge": [
+      57,
+      58
+    ],
+    "polar": [
+      111,
+      131
+    ],
+    "status": "budget",
+    "remaining_gap": 0.002875405929716246,
+    "minimum_escape": 5.662368236817387e-06
+  },
+  {
+    "E": 318,
+    "epoch": 1,
+    "target": [
+      90,
+      16
+    ],
+    "edge": [
+      89,
+      90
+    ],
+    "polar": [
+      20,
+      97
+    ],
+    "status": "budget",
+    "remaining_gap": 0.0021826158945237317,
+    "minimum_escape": 5.670003736306808e-06
+  }
+]

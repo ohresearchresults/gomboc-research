@@ -1,0 +1,2032 @@
+{
+  "version": 1,
+  "scope": "row244-z hard max-displacement rank-six trust probe",
+  "local5_columns": [
+    14,
+    17,
+    18,
+    21,
+    35
+  ],
+  "local5_chart": [
+    {
+      "column": 14,
+      "kind": "chart",
+      "row": 7,
+      "axis": "base_u"
+    },
+    {
+      "column": 17,
+      "kind": "chart",
+      "row": 8,
+      "axis": "base_v"
+    },
+    {
+      "column": 18,
+      "kind": "chart",
+      "row": 9,
+      "axis": "base_u"
+    },
+    {
+      "column": 21,
+      "kind": "chart",
+      "row": 10,
+      "axis": "base_v"
+    },
+    {
+      "column": 35,
+      "kind": "chart",
+      "row": 54,
+      "axis": "base_v"
+    }
+  ],
+  "remote_column": 104,
+  "remote_chart": {
+    "column": 104,
+    "kind": "chart",
+    "row": 244,
+    "axis": "z"
+  },
+  "death_keys": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "cases": [
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 1e-06,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7923419432865642e-07,
+      "coefficients": [
+        1.2300023356373893e-06,
+        1.1013831051327385e-06,
+        -1.2300023356373893e-06,
+        -1.1013831051327385e-06,
+        1.1013831051327385e-06
+      ],
+      "max_abs_coefficient": 1.2300023356373893e-06,
+      "realized_max_displacement": 1e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9998727520218206,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999998114389688,
+          "('vertex', 54, 1)": 0.9998733527110857,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999997875730533,
+          "('edge', (9, 10), 't')": 0.9999998207660391
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 1e-06,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7923419432865642e-07,
+      "coefficients": [
+        1.2300023356373893e-06,
+        1.1013831051327385e-06,
+        -1.2300023356373893e-06,
+        -1.1013831051327385e-06,
+        1.1013831051327385e-06
+      ],
+      "max_abs_coefficient": 1.2300023356373893e-06,
+      "realized_max_displacement": 1e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9998727520218206,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999998114389688,
+          "('vertex', 54, 1)": 0.9998733527110857,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999997875730533,
+          "('edge', (9, 10), 't')": 0.9999998207660391
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 1e-06,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7923419432865642e-07,
+      "coefficients": [
+        1.2300023356373893e-06,
+        1.1013831051327385e-06,
+        -1.2300023356373893e-06,
+        -1.1013831051327385e-06,
+        1.1013831051327385e-06
+      ],
+      "max_abs_coefficient": 1.2300023356373893e-06,
+      "realized_max_displacement": 1e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9998727520218206,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999998114389688,
+          "('vertex', 54, 1)": 0.9998733527110857,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999997875730533,
+          "('edge', (9, 10), 't')": 0.9999998207660391
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 3e-06,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.377025829859693e-07,
+      "coefficients": [
+        3.6900070069121685e-06,
+        3.3041493153982157e-06,
+        -3.6900070069121685e-06,
+        -3.3041493153982157e-06,
+        3.3041493153982157e-06
+      ],
+      "max_abs_coefficient": 3.6900070069121685e-06,
+      "realized_max_displacement": 3e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9996182315386016,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999994343165496,
+          "('vertex', 54, 1)": 0.9996200337236454,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999993627194321,
+          "('edge', (9, 10), 't')": 0.9999994622984081
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 3e-06,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.377025829859693e-07,
+      "coefficients": [
+        3.6900070069121685e-06,
+        3.3041493153982157e-06,
+        -3.6900070069121685e-06,
+        -3.3041493153982157e-06,
+        3.3041493153982157e-06
+      ],
+      "max_abs_coefficient": 3.6900070069121685e-06,
+      "realized_max_displacement": 3e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9996182315386016,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999994343165496,
+          "('vertex', 54, 1)": 0.9996200337236454,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999993627194321,
+          "('edge', (9, 10), 't')": 0.9999994622984081
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 3e-06,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.377025829859693e-07,
+      "coefficients": [
+        3.6900070069121685e-06,
+        3.3041493153982157e-06,
+        -3.6900070069121685e-06,
+        -3.3041493153982157e-06,
+        3.3041493153982157e-06
+      ],
+      "max_abs_coefficient": 3.6900070069121685e-06,
+      "realized_max_displacement": 3e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9996182315386016,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999994343165496,
+          "('vertex', 54, 1)": 0.9996200337236454,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999993627194321,
+          "('edge', (9, 10), 't')": 0.9999994622984081
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 1e-05,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7923419432865646e-06,
+      "coefficients": [
+        1.2300023356373895e-05,
+        1.1013831051327387e-05,
+        -1.2300023356373895e-05,
+        -1.1013831051327387e-05,
+        1.1013831051327387e-05
+      ],
+      "max_abs_coefficient": 1.2300023356373895e-05,
+      "realized_max_displacement": 1e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9987271522722085,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999981143845815,
+          "('vertex', 54, 1)": 0.9987331609237527,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999978757346074,
+          "('edge', (9, 10), 't')": 0.9999982076647562
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 1e-05,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7923419432865646e-06,
+      "coefficients": [
+        1.2300023356373895e-05,
+        1.1013831051327387e-05,
+        -1.2300023356373895e-05,
+        -1.1013831051327387e-05,
+        1.1013831051327387e-05
+      ],
+      "max_abs_coefficient": 1.2300023356373895e-05,
+      "realized_max_displacement": 1e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9987271522722085,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999981143845815,
+          "('vertex', 54, 1)": 0.9987331609237527,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999978757346074,
+          "('edge', (9, 10), 't')": 0.9999982076647562
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 1e-05,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7923419432865646e-06,
+      "coefficients": [
+        1.2300023356373895e-05,
+        1.1013831051327387e-05,
+        -1.2300023356373895e-05,
+        -1.1013831051327387e-05,
+        1.1013831051327387e-05
+      ],
+      "max_abs_coefficient": 1.2300023356373895e-05,
+      "realized_max_displacement": 1e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9987271522722085,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999981143845815,
+          "('vertex', 54, 1)": 0.9987331609237527,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999978757346074,
+          "('edge', (9, 10), 't')": 0.9999982076647562
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 3e-05,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.3770258298596935e-06,
+      "coefficients": [
+        3.6900070069121684e-05,
+        3.304149315398216e-05,
+        -3.6900070069121684e-05,
+        -3.304149315398216e-05,
+        3.304149315398216e-05
+      ],
+      "max_abs_coefficient": 3.6900070069121684e-05,
+      "realized_max_displacement": 3e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9961790025962325,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999943431202117,
+          "('vertex', 54, 1)": 0.9961970402817562,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999936272309641,
+          "('edge', (9, 10), 't')": 0.9999946230233788
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 3e-05,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.3770258298596935e-06,
+      "coefficients": [
+        3.6900070069121684e-05,
+        3.304149315398216e-05,
+        -3.6900070069121684e-05,
+        -3.304149315398216e-05,
+        3.304149315398216e-05
+      ],
+      "max_abs_coefficient": 3.6900070069121684e-05,
+      "realized_max_displacement": 3e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9961790025962325,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999943431202117,
+          "('vertex', 54, 1)": 0.9961970402817562,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999936272309641,
+          "('edge', (9, 10), 't')": 0.9999946230233788
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 3e-05,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.3770258298596935e-06,
+      "coefficients": [
+        3.6900070069121684e-05,
+        3.304149315398216e-05,
+        -3.6900070069121684e-05,
+        -3.304149315398216e-05,
+        3.304149315398216e-05
+      ],
+      "max_abs_coefficient": 3.6900070069121684e-05,
+      "realized_max_displacement": 3e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9961790025962325,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999943431202117,
+          "('vertex', 54, 1)": 0.9961970402817562,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999936272309641,
+          "('edge', (9, 10), 't')": 0.9999946230233788
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 0.0001,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7904462164667464e-05,
+      "coefficients": [
+        0.00012300023356373894,
+        0.00011013831051327386,
+        -0.00012300023356373894,
+        -0.00011013831051327386,
+        8.655883601166406e-05
+      ],
+      "max_abs_coefficient": 0.00012300023356373894,
+      "realized_max_displacement": 0.0001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9899747159870639,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999811743041125,
+          "('vertex', 54, 1)": 0.9900220297518023,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999787860001162,
+          "('edge', (9, 10), 't')": 0.9999820960411847
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 0.0001,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7923419432865644e-05,
+      "coefficients": [
+        0.00012300023356373894,
+        0.00011013831051327386,
+        -0.00012300023356373894,
+        -0.00011013831051327386,
+        0.00011013831051327386
+      ],
+      "max_abs_coefficient": 0.00012300023356373894,
+      "realized_max_displacement": 0.0001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9872346647350515,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.999981143342938,
+          "('vertex', 54, 1)": 0.9872949273898137,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999787577532038,
+          "('edge', (9, 10), 't')": 0.9999820770842055
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 0.0001,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7923419432865644e-05,
+      "coefficients": [
+        0.00012300023356373894,
+        0.00011013831051327386,
+        -0.00012300023356373894,
+        -0.00011013831051327386,
+        0.00011013831051327386
+      ],
+      "max_abs_coefficient": 0.00012300023356373894,
+      "realized_max_displacement": 0.0001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9872346647350515,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.999981143342938,
+          "('vertex', 54, 1)": 0.9872949273898137,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999787577532038,
+          "('edge', (9, 10), 't')": 0.9999820770842055
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 0.0003,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.357421921998178e-05,
+      "coefficients": [
+        0.00036900070069121677,
+        0.00033041493153982153,
+        -0.00036900070069121677,
+        -0.00033041493153982153,
+        8.657713765516882e-05
+      ],
+      "max_abs_coefficient": 0.00036900070069121677,
+      "realized_max_displacement": 0.0003,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9899747023815737,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999437469216791,
+          "('vertex', 54, 1)": 0.9900218924552597,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999365680684418,
+          "('edge', (9, 10), 't')": 0.9999464301887498
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 0.0003,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.377025829859693e-05,
+      "coefficients": [
+        0.00036900070069121677,
+        0.00033041493153982153,
+        -0.00036900070069121677,
+        -0.00033041493153982153,
+        0.00033041493153982153
+      ],
+      "max_abs_coefficient": 0.00036900070069121677,
+      "realized_max_displacement": 0.0003,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": -1.0269618032456007,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999434266766986,
+          "('vertex', 54, 1)": 0.9616390132850783,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999362759736393,
+          "('edge', (9, 10), 't')": 0.999946234163359
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 0.0003,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.377025829859693e-05,
+      "coefficients": [
+        0.00036900070069121677,
+        0.00033041493153982153,
+        -0.00036900070069121677,
+        -0.00033041493153982153,
+        0.00033041493153982153
+      ],
+      "max_abs_coefficient": 0.00036900070069121677,
+      "realized_max_displacement": 0.0003,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": -1.0269618032456007,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999434266766986,
+          "('vertex', 54, 1)": 0.9616390132850783,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999362759736393,
+          "('edge', (9, 10), 't')": 0.999946234163359
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 0.001,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 0.00010854302641056488,
+      "coefficients": [
+        0.0007062750881824142,
+        0.000557304471601531,
+        -0.0005924778295027589,
+        -0.0011013831051327387,
+        8.657684652170945e-05
+      ],
+      "max_abs_coefficient": 0.0011013831051327387,
+      "realized_max_displacement": 0.001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9899746930336104,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9998914431605945,
+          "('vertex', 54, 1)": 0.9900217556845878,
+          "('edge', (6, 7), 'one_minus_t')": 0.9998914717474949,
+          "('edge', (9, 10), 't')": 0.9998828676892328
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 0.001,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 0.0001786967034616231,
+      "coefficients": [
+        0.0012300023356373894,
+        0.0011013831051327387,
+        -0.0012300023356373894,
+        -0.0011013831051327387,
+        0.0004328399341670822
+      ],
+      "max_abs_coefficient": 0.0012300023356373894,
+      "realized_max_displacement": 0.001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": -1.0269643978254974,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9998122620086803,
+          "('vertex', 54, 1)": 0.9496030954474295,
+          "('edge', (6, 7), 'one_minus_t')": 0.9997884189940802,
+          "('edge', (9, 10), 't')": 0.9998213518440704
+        }
+      }
+    },
+    {
+      "use_row244_z": false,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35
+      ],
+      "trust": 0.001,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 0.00017923419432865642,
+      "coefficients": [
+        0.0012300023356373894,
+        0.0011013831051327387,
+        -0.0012300023356373894,
+        -0.0011013831051327387,
+        0.0011013831051327387
+      ],
+      "max_abs_coefficient": 0.0012300023356373894,
+      "realized_max_displacement": 0.001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": -1.026964421464571,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9998113831523899,
+          "('vertex', 54, 1)": 0.8692193682721105,
+          "('edge', (6, 7), 'one_minus_t')": 0.9997876182357092,
+          "('edge', (9, 10), 't')": 0.9998208144953513
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 1e-06,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.793138814479485e-07,
+      "coefficients": [
+        1.2300023356373893e-06,
+        1.1013831051327385e-06,
+        -1.2300023356373893e-06,
+        -1.1013831051327385e-06,
+        1.1013831051327385e-06,
+        -1.7924139549326158e-09
+      ],
+      "max_abs_coefficient": 1.2300023356373893e-06,
+      "realized_max_displacement": 1e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.995744096389727,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999998111356263,
+          "('vertex', 54, 1)": 0.9998733527075007,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999997874543561,
+          "('edge', (9, 10), 't')": 0.9999998206863521
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 1e-06,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7963265245884012e-07,
+      "coefficients": [
+        1.2300023356373893e-06,
+        1.1013831051327385e-06,
+        -1.2300023356373893e-06,
+        -1.1013831051327385e-06,
+        1.1013831051327385e-06,
+        -8.962576628975147e-09
+      ],
+      "max_abs_coefficient": 1.2300023356373893e-06,
+      "realized_max_displacement": 1e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.977421006158975,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999998099221941,
+          "('vertex', 54, 1)": 0.9998733526931753,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999997869795353,
+          "('edge', (9, 10), 't')": 0.9999998203675816
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 1e-06,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.8082804374968364e-07,
+      "coefficients": [
+        1.2300023356373893e-06,
+        1.1013831051327385e-06,
+        -1.2300023356373893e-06,
+        -1.1013831051327385e-06,
+        1.1013831051327385e-06,
+        -3.585068665663463e-08
+      ],
+      "max_abs_coefficient": 1.2300023356373893e-06,
+      "realized_max_displacement": 1e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.901803839056815,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999998053717966,
+          "('vertex', 54, 1)": 0.9998733526394595,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999997851989563,
+          "('edge', (9, 10), 't')": 0.9999998191721919
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 3e-06,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.377822588383997e-07,
+      "coefficients": [
+        3.6900070069121685e-06,
+        3.3041493153982157e-06,
+        -3.6900070069121685e-06,
+        -3.3041493153982157e-06,
+        3.3041493153982157e-06,
+        -1.7921605277765813e-09
+      ],
+      "max_abs_coefficient": 3.6900070069121685e-06,
+      "realized_max_displacement": 3e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9957446994199994,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999994340132576,
+          "('vertex', 54, 1)": 0.9996200337200831,
+          "('edge', (6, 7), 'one_minus_t')": 0.999999362600752,
+          "('edge', (9, 10), 't')": 0.9999994622187324
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 3e-06,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.381010298492914e-07,
+      "coefficients": [
+        3.6900070069121685e-06,
+        3.3041493153982157e-06,
+        -3.6900070069121685e-06,
+        -3.3041493153982157e-06,
+        3.3041493153982157e-06,
+        -8.962323201819114e-09
+      ],
+      "max_abs_coefficient": 3.6900070069121685e-06,
+      "realized_max_displacement": 3e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9692750609686427,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999994327998163,
+          "('vertex', 54, 1)": 0.9996200337057533,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999993621259311,
+          "('edge', (9, 10), 't')": 0.9999994618999619
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 3e-06,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.392964211401349e-07,
+      "coefficients": [
+        3.6900070069121685e-06,
+        3.3041493153982157e-06,
+        -3.6900070069121685e-06,
+        -3.3041493153982157e-06,
+        3.3041493153982157e-06,
+        -3.585043322947861e-08
+      ],
+      "max_abs_coefficient": 3.6900070069121685e-06,
+      "realized_max_displacement": 3e-06,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.8954074133335,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999994282494233,
+          "('vertex', 54, 1)": 0.9996200336525366,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999993603453528,
+          "('edge', (9, 10), 't')": 0.9999994607045732
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 1e-05,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7924215797049794e-06,
+      "coefficients": [
+        1.2300023356373895e-05,
+        1.1013831051327387e-05,
+        -1.2300023356373895e-05,
+        -1.1013831051327387e-05,
+        1.1013831051327387e-05,
+        -1.7912735327304628e-09
+      ],
+      "max_abs_coefficient": 1.2300023356373895e-05,
+      "realized_max_displacement": 1e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9946229471420726,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999981140814326,
+          "('vertex', 54, 1)": 0.9987331609196473,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999978756159859,
+          "('edge', (9, 10), 't')": 0.9999982075851198
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 1e-05,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.792740350715871e-06,
+      "coefficients": [
+        1.2300023356373895e-05,
+        1.1013831051327387e-05,
+        -1.2300023356373895e-05,
+        -1.1013831051327387e-05,
+        1.1013831051327387e-05,
+        -8.961436206772993e-09
+      ],
+      "max_abs_coefficient": 1.2300023356373895e-05,
+      "realized_max_displacement": 1e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.977417513135623,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999981128679958,
+          "('vertex', 54, 1)": 0.9987331609053214,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999978751411657,
+          "('edge', (9, 10), 't')": 0.9999982072663505
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 1e-05,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7939357420067144e-06,
+      "coefficients": [
+        1.2300023356373895e-05,
+        1.1013831051327387e-05,
+        -1.2300023356373895e-05,
+        -1.1013831051327387e-05,
+        1.1013831051327387e-05,
+        -3.584954623443249e-08
+      ],
+      "max_abs_coefficient": 1.2300023356373895e-05,
+      "realized_max_displacement": 1e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9018008740777587,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999981083175961,
+          "('vertex', 54, 1)": 0.9987331608515982,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999978733605891,
+          "('edge', (9, 10), 't')": 0.9999982060709638
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 3e-05,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.377105353609492e-06,
+      "coefficients": [
+        3.6900070069121684e-05,
+        3.304149315398216e-05,
+        -3.6900070069121684e-05,
+        -3.304149315398216e-05,
+        3.304149315398216e-05,
+        -1.7887392611701224e-09
+      ],
+      "max_abs_coefficient": 3.6900070069121684e-05,
+      "realized_max_displacement": 3e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9957528223173288,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999943428174936,
+          "('vertex', 54, 1)": 0.9961970402781907,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999936271125112,
+          "('edge', (9, 10), 't')": 0.9999946229438557
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 3e-05,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.377424124620383e-06,
+      "coefficients": [
+        3.6900070069121684e-05,
+        3.304149315398216e-05,
+        -3.6900070069121684e-05,
+        -3.304149315398216e-05,
+        3.304149315398216e-05,
+        -8.958901935212651e-09
+      ],
+      "max_abs_coefficient": 3.6900070069121684e-05,
+      "realized_max_displacement": 3e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9774097521712408,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999943416040469,
+          "('vertex', 54, 1)": 0.9961970402638586,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999936266376919,
+          "('edge', (9, 10), 't')": 0.9999946226250873
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 3e-05,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.378619515911227e-06,
+      "coefficients": [
+        3.6900070069121684e-05,
+        3.304149315398216e-05,
+        -3.6900070069121684e-05,
+        -3.304149315398216e-05,
+        3.304149315398216e-05,
+        -3.5847011962872144e-08
+      ],
+      "max_abs_coefficient": 3.6900070069121684e-05,
+      "realized_max_displacement": 3e-05,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.8953985806957779,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999943370536359,
+          "('vertex', 54, 1)": 0.9961970402101304,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999936248571193,
+          "('edge', (9, 10), 't')": 0.999994621429706
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 0.0001,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.790454129428095e-05,
+      "coefficients": [
+        0.00012300023356373894,
+        0.00011013831051327386,
+        -0.00012300023356373894,
+        -0.00011013831051327386,
+        8.655883598371625e-05,
+        -1.7798744012438341e-09
+      ],
+      "max_abs_coefficient": 0.00012300023356373894,
+      "realized_max_displacement": 0.0001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9899747159875499,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999811740028832,
+          "('vertex', 54, 1)": 0.9900220297519314,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999787858822518,
+          "('edge', (9, 10), 't')": 0.9999820959620573
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 0.0001,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.7923817333286176e-05,
+      "coefficients": [
+        0.00012300023356373894,
+        0.00011013831051327386,
+        -0.00012300023356373894,
+        -0.00011013831051327386,
+        0.00011013831051327386,
+        -8.950031984751462e-09
+      ],
+      "max_abs_coefficient": 0.00012300023356373894,
+      "realized_max_displacement": 0.0001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9787490679552475,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999811418282648,
+          "('vertex', 54, 1)": 0.9872949273713987,
+          "('edge', (6, 7), 'one_minus_t')": 0.999978757160524,
+          "('edge', (9, 10), 't')": 0.9999820766863148
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 0.0001,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 1.792501272457702e-05,
+      "coefficients": [
+        0.00012300023356373894,
+        0.00011013831051327386,
+        -0.00012300023356373894,
+        -0.00011013831051327386,
+        0.00011013831051327386,
+        -3.583814201241096e-08
+      ],
+      "max_abs_coefficient": 0.00012300023356373894,
+      "realized_max_displacement": 0.0001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.901771223413014,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999811372778034,
+          "('vertex', 54, 1)": 0.9872949273181799,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999787553799656,
+          "('edge', (9, 10), 't')": 0.9999820754909522
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 0.0003,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.3574297225023455e-05,
+      "coefficients": [
+        0.00036900070069121677,
+        0.00033041493153982153,
+        -0.00036900070069121677,
+        -0.00033041493153982153,
+        8.65771376276182e-05,
+        -1.7545792368554066e-09
+      ],
+      "max_abs_coefficient": 0.00036900070069121677,
+      "realized_max_displacement": 0.0003,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9882503411453739,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999437466247314,
+          "('vertex', 54, 1)": 0.9900218924549204,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999365679522544,
+          "('edge', (9, 10), 't')": 0.9999464301107501
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 0.0003,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.37706550723313e-05,
+      "coefficients": [
+        0.00036900070069121677,
+        0.00033041493153982153,
+        -0.00036900070069121677,
+        -0.00033041493153982153,
+        0.00033041493153982153,
+        -8.924689269148061e-09
+      ],
+      "max_abs_coefficient": 0.00036900070069121677,
+      "realized_max_displacement": 0.0003,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": -1.0269618032749153,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999434251662709,
+          "('vertex', 54, 1)": 0.9616390132672205,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999362753826515,
+          "('edge', (9, 10), 't')": 0.9999462337666128
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 0.0003,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 5.3771850463622145e-05,
+      "coefficients": [
+        0.00036900070069121677,
+        0.00033041493153982153,
+        -0.00036900070069121677,
+        -0.00033041493153982153,
+        0.00033041493153982153,
+        -3.581279929680755e-08
+      ],
+      "max_abs_coefficient": 0.00036900070069121677,
+      "realized_max_displacement": 0.0003,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": -1.0269618033632308,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9999434206156678,
+          "('vertex', 54, 1)": 0.9616390132134178,
+          "('edge', (6, 7), 'one_minus_t')": 0.9999362736021359,
+          "('edge', (9, 10), 't')": 0.9999462325713052
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 0.001,
+      "guard_budget": 0.01,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 0.00010854314376182258,
+      "coefficients": [
+        0.0007062751664452113,
+        0.0005573043910717261,
+        -0.0005924778295027589,
+        -0.0011013831051327387,
+        8.657684650908666e-05,
+        -1.7173806651401297e-09
+      ],
+      "max_abs_coefficient": 0.0011013831051327387,
+      "realized_max_displacement": 0.001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": 0.9881315034174654,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9998914430432396,
+          "('vertex', 54, 1)": 0.9900217556846531,
+          "('edge', (6, 7), 'one_minus_t')": 0.9998914716301541,
+          "('edge', (9, 10), 't')": 0.9998828676109519
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 0.001,
+      "guard_budget": 0.05,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 0.00017869709629826102,
+      "coefficients": [
+        0.0012300023356373894,
+        0.0011013831051327387,
+        -0.0012300023356373894,
+        -0.0011013831051327387,
+        0.0004328399340283361,
+        -8.8361340952481e-09
+      ],
+      "max_abs_coefficient": 0.0012300023356373894,
+      "realized_max_displacement": 0.001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": -1.0269643978545113,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9998122605130741,
+          "('vertex', 54, 1)": 0.9496030954463957,
+          "('edge', (6, 7), 'one_minus_t')": 0.9997884184090051,
+          "('edge', (9, 10), 't')": 0.9998213514513238
+        }
+      }
+    },
+    {
+      "use_row244_z": true,
+      "columns": [
+        14,
+        17,
+        18,
+        21,
+        35,
+        104
+      ],
+      "trust": 0.001,
+      "guard_budget": 0.2,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "predicted_common_progress": 0.00017923578255028006,
+      "coefficients": [
+        0.0012300023356373894,
+        0.0011013831051327387,
+        -0.0012300023356373894,
+        -0.0011013831051327387,
+        0.0011013831051327387,
+        -3.572409979219565e-08
+      ],
+      "max_abs_coefficient": 0.0012300023356373894,
+      "realized_max_displacement": 0.001,
+      "fresh_audit": {
+        "valid": true,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "faces_match": true,
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0424204205383703e-07,
+        "actual_minimum_guard_ratio": -1.026964421581872,
+        "actual_death_ratios": {
+          "('face', (7, 8, 245, 246), (8, 246))": 0.9998113771057308,
+          "('vertex', 54, 1)": 0.8692193682004045,
+          "('edge', (6, 7), 'one_minus_t')": 0.9997876158702746,
+          "('edge', (9, 10), 't')": 0.9998208129074936
+        }
+      }
+    }
+  ]
+}

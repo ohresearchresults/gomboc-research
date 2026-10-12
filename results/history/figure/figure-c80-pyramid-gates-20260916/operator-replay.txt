@@ -1,0 +1,6 @@
+EXACT_INTEGER_POINT_HULL_AB_MASS_PASS 21 40 21 [2, 1, 1] [0, 0, 0]
+EXACT_COMPLETE_AXIS_ORBIT_EXCLUSION_PASS 1 positive_knots 159 cells 319 summary_pieces 17
+EXACT_C80_ALL_POSITIVE_DIAGONAL_STRETCH_EXCLUSION_PASS {"status": "EXACT_C80_ALL_POSITIVE_DIAGONAL_STRETCH_EXCLUSION_PASS", "pieces": 15, "faces": [0, 1, 6, 8, 9, 19, 20], "covered_area": "1/2", "full_positive_metric_domain": true, "base_strict_plus_another_stable_or_weak_face": true, "no_claim_for_general_shear_or_changed_base": true}
+EXACT_C80_ALL_POSITIVE_DIAGONAL_STRETCH_EXCLUSION_PASS {"status": "EXACT_C80_ALL_POSITIVE_DIAGONAL_STRETCH_EXCLUSION_PASS", "pieces": 15, "faces": [0, 1, 6, 8, 9, 19, 20], "covered_area": "1/2", "full_positive_metric_domain": true, "base_strict_plus_another_stable_or_weak_face": true, "no_claim_for_general_shear_or_changed_base": true}
+EXACT_C80_REFERENCE110_AND_FILLED_CENTROID_SLAB_OBSTRUCTION_PASS
+C80_EXACT_SOURCE_ONLY_REPLAY_ALL_EXPECTED_BYTES_PASS 8

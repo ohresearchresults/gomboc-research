@@ -1,0 +1,738 @@
+# minimum-0219
+
+AI research report · 2026-09-24 UTC · [Export notes](../../catalog/coverage.md#text-records)
+
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
+---
+
+# TWO_CAP_TRANSVERSE_PROJECTIVE_BOX_ALL_PSD_U2_V1
+
+## 1. Main result: an evaluated finite-interior block, with every root covered
+
+For the literal two-cap family P_epsilon defined below, put
+
+```
+P(epsilon,alpha,beta,gamma)
+    = conv{Y_i(epsilon)/(1+alpha*Y_ix+beta*Y_iy+gamma*Y_iz)}.
+```
+
+Refill this image uniformly and subtract its **new actual solid volume centroid**. Then every member of the complete parameter block
+
+```
+0 < epsilon <= 5,
+-1/2 <= alpha <= 1/2,
+0 <= beta <= 1/4,
+|gamma| <= 2^-75
+```
+
+has **at least TWO strict unstable vertices for EVERY SPD physical metric M**. There is no prescribed unstable root, conditioning bound, stable-facet hypothesis, selected-forest hypothesis, or assumption that physical weak contacts are absent. Every physical member has the original true maximal-facet lattice and (V,E,F)=(10,17,9), of cap-size type(4,7).
+
+The main exact calculation covers the entire three-parameter core gamma=0. It provides a stronger statement: for every nonzero PSD M and every one of the43,200 rooted true-edge spanning trees, some selected arrow satisfies
+
+```
+D_ij(M) < -2^-54 tr(M).
+```
+
+This PSD statement concerns weak rooted arrow systems, **not a singular-metric mechanical census**. It also yields an actual own-centred, same-labelled-graph vertex collar of radius2^-62 and, by a true uniform-centroid perturbation estimate, the displayed normal projective thickness2^-75.
+
+The certificate has **1,064 integer stress rows,4,277 nonzero weights, eight closed parameter cells,2,652 row/cell applications,8,910,720 positive-definite Bernstein matrices and26,732,160 positive leading minors**. The full source-only capsule below preserves all rows and their cell assignments. The full author build and fresh-source build/check completed with matching exact output.
+
+The block is genuinely transverse to the old axial family. In fact, whenever
+
+```
+alpha+20 beta >= 2/7,
+```
+
+a member is **not a labelled affine copy of ANY member of the entire axial projective family**, even with a different epsilon. Thus the whole subblock beta in[1/8,1/4],alpha in[-1/2,1/2] lies outside those labelled affine orbits. This follows from a four-vertex affine-circuit invariant, proved in section6, not from the size of the new parameter box.
+
+A new exact rational physical control inside this subblock has a complete reciprocal **222,weak000** census with U={1,6}, so the degree-seven apex0 is NOT unstable. The same census persists along an explicitly proved unbounded-condition-number metric pencil. This makes U>=2 sharp for this excluded sector; it is not U1 or110.
+
+**The full positive-projective orbit is not excluded here.** This is an evaluated interior block, not an evaluated enclosing box for every hypothetical U1 member. No whole incidence type, canonical count or minimum bound changes. The accepted interval remains34<=C_min<=622.
+
+## 2. Authority and current scientific context
+
+The exact geometry and reconstruction antecedent is `minimum-0217`, SHA-256 `d855f740fcfc32469432ae2866c68ca98d0ad139ac857c8d7bd8c391897262d0`. The other supplied parent is `minimum-0218`, SHA-256 `d2708a7da6c6867a9f47f2960251aa8600f88769bc3d919060ca8719add3a723`.
+
+The entire new `research-journal(20260924-010405).md`, including both literal parent payloads, was read consecutively through EOF. Mounted input:309708bytes,SHA-256 `ec635156d0e5fe64581228a170084863ed883438eed2ac035cf1d32bf8837c66`. No missing exact dependency or literal geometry conflict affects this result.
+
+The current notebook has already closed all projective-boundary and epsilon-to-zero channels, including both formerly exceptional points. Those closures remain settled. The result below instead works with bounded transverse projective parameters and a positive actual-denominator margin. The historical open-channel wording in the older literal payload is not the current frontier.
+
+Maple's general alternative permits an SPD weak-rooted component to avoid rank two: such a component has an SPD metric ray determined by five independent zero arrows at distinct nonroot sources. The present all-root PD stresses eliminate both alternatives on the stated block; they do not assume that full-rank feasible components meet a singular boundary. No candidate counts or six-pole-specific footprint from that different lattice are transferred.
+
+## 3. Literal actual family, true incidence and homogeneous refill
+
+Set the raw apex Y0=(0,0,0). In the section z=1 use
+
+```
+L=(-1/4,5/4,1), T=(7/2,13/4,1), R=(1/40,27/4,1).
+```
+
+For t in the ordered list(2/5,1/4,3/25,0), define
+
+```
+b(t)=L+t(R-L)-epsilon*t*(1-t)*(1,0,0).
+```
+
+These are b1,b2,b3,b4. With s=3/50,
+
+```
+b5=L+s(T-L)-epsilon*s*(1-s)*(0,1,0),
+b6=T, b7=R.
+```
+
+Intersect the pointed cone generated by these rays with the two true cap halfspaces
+
+```
+l7(Y)=z-(2/7)x <= 1,
+l8(Y)=z+(5/7)x <= 1.
+```
+
+For i1,...,5 set Yi=bi/l7(bi); for i6,7 use Yi=bi/l8(bi). Y8 and Y9 are the x=0 intersections of[b5,b6] and[b7,b1], respectively. On[a,b] the exact intersection is a-a_x(b-a)/(b_x-a_x).
+
+The true maximal facets, with unchanged parent labels, are
+
+```
+F0=(0,2,1)       F1=(0,3,2)       F2=(0,4,3)
+F3=(0,5,4)       F4=(0,6,8,5)     F5=(0,7,6)
+F6=(0,1,9,7)     F7=(1,2,3,4,5,8,9)
+F8=(6,7,9,8).
+```
+
+The seventeen true edges are
+
+```
+01,02,03,04,05,06,07,12,19,23,34,45,58,67,68,79,89.
+```
+
+Neither08 nor09 is an edge. Triangle089 is an internal interface. No cap integration diagonal is inserted into the mechanical graph. These are the literal parent's family and incidence, not the older parabolic controls.
+
+The source checks all35 nonincident section-polygon determinants as exact univariate polynomials over the entire epsilon interval, dividing only powers of epsilon for the nonphysical epsilon0 limit. The remaining quotients are strictly positive by exact quadratic endpoint/critical-point tests. The first five section x-coordinates are negative and the other two positive, so the seam crosses precisely the two designated edges. The cone/cap construction gives the displayed true lattice for every epsilon>0.
+
+The following complete raw-coordinate bounds are also checked polynomially:
+
+```
+|Y_ix|<=1,  0<=Y_iy<=27/4,  0<=Y_iz<=1,  ||Y_i||_2<8.
+```
+
+Hence, on the core gamma=0,
+
+```
+1+alpha*Y_ix+beta*Y_iy >= 1/2.
+```
+
+Every positive projectivity preserves the full face lattice: a raw support n_f.Y<=h_f transforms to(n_f+h_f c).Z<=h_f, and each slack is the old slack divided by its positive actual denominator. Thus the stated block stays on this same true lattice.
+
+### One actual volume centroid
+
+Use the seven positive apex-fan triangles
+
+```
+(1,2,3),(1,3,4),(1,4,5),(1,5,8),(1,8,9),(6,7,9),(6,9,8).
+```
+
+For actual projective denominators delta_i=1+c.Y_i and Z_i=Y_i/delta_i, let
+
+```
+w_ijk=det(Y_i,Y_j,Y_k)/(delta_i delta_j delta_k),
+D=sum w_ijk=6 Vol(P),
+g_c=sum w_ijk*(Z_i+Z_j+Z_k)/(4D),
+X_i=Z_i-g_c.
+```
+
+These are the masses of the genuine uniformly filled tetrahedra. Both caps use this same volume law. No independently selected vertex masses, cap means or reference displacement occur.
+
+The actual same-origin poles are
+
+```
+q_f=(n_f+h_f c)/(h_f-(n_f+h_f c).g_c).
+```
+
+For a physical metric M, all polar mechanics below use N=M^-1 on these poles.
+
+## 4. Complete all-root certificate on the transverse core
+
+### 4.1 Polynomial actual-moment construction
+
+Use normalized variables
+
+```
+E=epsilon/5, A=alpha+1/2, B=4 beta,
+(E,A,B) in[0,1]^3.
+```
+
+Write Yi=Ui/s_i. For i1,...,7 take Ui=bi and s_i=l7(Ui) or l8(Ui) as above. The exact seam representatives, which keep all inputs polynomial, are
+
+```
+U8=(0,83/60-7epsilon/125,1), s8=1,
+U9=(0,275+432epsilon,44+64epsilon), s9=44+64epsilon,
+U0=0, s0=1.
+```
+
+For gamma=0 put
+
+```
+d_i=s_i+alpha*U_ix+beta*U_iy,
+W=product(i=1,...,9) d_i,
+W_i=W/d_i,
+V_* = sum_T det(U_i,U_j,U_k)*W/(d_i d_j d_k),
+J_* = sum_T det(U_i,U_j,U_k)*W/(d_i d_j d_k)
+                    *sum(v in T) W_v U_v,
+C=4 V_* W.
+```
+
+Every displayed division is an exact polynomial division. Directly from the actual tetrahedral formula,
+
+```
+6 Vol(P)=V_*/W,       g_c=J_*/C.
+```
+
+All d_i,W,V_*,C are positive on the physical domain. The epsilon0 endpoint is a full-dimensional merged limit used in the polynomial proof, not a ten-vertex E17 witness.
+
+For a directed true edge i->j define
+
+```
+n_i=4 V_* W_i U_i-J_*,
+v_ij=d_i U_j-d_j U_i,
+L_ij=n_i v_ij^T+v_ij n_i^T.
+```
+
+With A_ij=sym[X_i(X_j-X_i)^T], the exact identity is
+
+```
+L_ij = 2 C d_i d_j A_ij.                         (1)
+```
+
+Thus every scalar multiplier relating L_ij to the physical arrow tensor is positive. In particular, signs of the genuine arrows are retained after clearing denominators.
+
+For each edge independently, the source multiplies L_ij by a positive rational to obtain primitive integer power coefficients. It then converts to the common tensor-Bernstein degree(14,13,15), clearing the common factor14!13!15!, and divides the resulting edge array by its positive integer gcd. Call the resulting polynomial matrix Lhat_ij. Equation(1) becomes
+
+```
+Lhat_ij = k_ij(E,A,B) A_ij,    k_ij>0.             (2)
+```
+
+Every rational normalization and gcd is regenerated in the source and preserved in the report. These are positive rescalings, not a claim that the frozen integer weights are constant physical volume masses.
+
+### 4.2 Whole closed shape coverage
+
+The eight proof cells are the half-cubes obtained by splitting each of E,A,B at1/2. Their row-application counts in lexicographic bit order are
+
+```
+000:312, 001:307, 010:362, 011:325,
+100:329, 101:315, 110:380, 111:322.
+```
+
+Their union is the entire closed unit cube. All shared walls are included. There is no feasibility pruning, sampling replacement, or missing epsilon interval.
+
+For every assigned nonnegative integer row w, the matrix
+
+```
+Q_w=-sum_edges w_ij Lhat_ij
+```
+
+has3360 tensor-Bernstein coefficient matrices on its cell. All3360 are positive definite. The source checks all three leading principal minors, a second exact determinant expansion, and inverse Bernstein-to-power reconstruction in all three variables. Positivity of the Bernstein basis then proves Q_w positive definite at **every** point of the assigned closed cell.
+
+The frozen1,064 rows have support sizes
+
+```
+3 arrows:309 rows;
+4 arrows:477;
+5 arrows:229;
+6 arrows:46;
+7 arrows:3.
+```
+
+There are4,277 nonzero integer entries, with maximum weight1,000,000. These are exact final inputs; no optimizer or numerical tolerance is used by the verifier.
+
+### 4.3 Why every possible unstable root is excluded
+
+Exact true-graph enumeration gives4,320 undirected spanning trees, independently matched by a Matrix-Tree determinant. Orienting each toward each of the ten vertices gives43,200 distinct directed true trees. In **each** proof cell every such tree contains the directed support of at least one assigned row.
+
+If a selected tree were weak under nonzero PSD M, equations(1)–(2) would give
+
+```
+tr(M Q_w)=-sum w_ij k_ij D_ij(M) <= 0.
+```
+
+But Q_w is positive definite and M is nonzero PSD, so tr(M Q_w)>0. This is a contradiction.
+
+For an actual SPD metric, a body with exactly one strict U has a weak escape at every other vertex. Every distinct true weak arrow strictly increases squared norm,
+
+```
+n_j-n_i=2D_ij+||X_j-X_i||_M^2>0.
+```
+
+Choosing one escape per nonroot therefore gives a true rooted spanning tree. The preceding contradiction excludes this for every root. A global maximum-norm vertex is always strict U, including radius ties, so the physical conclusion is **U>=2**, not merely failure of one proposed apex.
+
+All finite weak-arrow walls and incidental physical weak equilibria are allowed in this reasoning. The43,200 count concerns this labelled graph; it is not a canonical type or registry count.
+
+## 5. Quantitative actual-shape and normal-projective extension
+
+For every PD3x3 coefficient matrix H,
+
+```
+lambda_min(H) >= 4 det(H)/(tr H)^2.
+```
+
+The source keeps the exact positive edge rescalings in(2), takes a rational lower bound over all coefficient matrices of each cell, and bounds the sum of physical weights from above. The upper bounds use the sums of absolute power coefficients of C and d_i on[0,1]^3; they do not replace the actual centroid by independent intervals.
+
+The resulting checked uniform physical-arrow margin is greater than2^-54. For reference, the exact minimum of the implemented cell bounds is
+
+```
+2173265080616328289903780286326013624192675961514102304905842482653981440000000
+/
+37810438734626484263444574741589195851704062137049890673851864277540267179346251689570768766697.
+```
+
+Consequently every rooted tree has an arrow D_ij(M)<-2^-54 tr(M), for every nonzero PSD M, throughout the core.
+
+On that core ||Z_i||<16, ||g_c||<16, hence ||X_i||<32 and every true edge difference has norm<32. If the OWN-centred vertices of another actual same-labelled-graph body differ by at most r, each arrow changes by at most
+
+```
+(96r+2r^2) tr(M).
+```
+
+At r=2^-62 this is less than2^-55 tr(M), so the all-root exclusion persists. This is conditional on an actual uniformly filled same-graph body; arbitrary independent coordinate errors are not asserted to be realizable.
+
+For the normal parameter, projective composition gives
+
+```
+T_(0,0,gamma) o T_(alpha,beta,0)=T_(alpha,beta,gamma).
+```
+
+Along |gamma|<=1/64 the intermediate raw vertices have norm<32. The actual uniformly refilled centroid obeys
+
+```
+dg/dgamma=-(5 Sigma_gamma+g_gamma g_gamma^T)e_z,
+```
+
+where Sigma_gamma is the actual uniform covariance of the image. This follows by differentiating the true Jacobian(1+gamma z)^-4 and the corresponding first moment with exponent-5. Since5Sigma+gg^T<=5E[ZZ^T], the centroid derivative has norm at most5120. Each vertex derivative has norm at most1024. The OWN-centred vertex displacement is therefore at most6144|gamma|.
+
+For |gamma|<=2^-75,
+
+```
+6144|gamma| < 2^-62.
+```
+
+This proves the full block in section1. It explicitly includes the new uniform-centroid motion; it is not transport of the old centroid. All actual denominators remain positive, so the true lattice is unchanged. The quantitative radii are in the displayed raw coordinate frame; the U>=2 conclusion also holds for all affine images.
+
+## 6. A sharp obstruction to treating these refills as axial affine copies
+
+The first four section vertices have the quadratic representation
+
+```
+b(t)=L+t(R-L)-epsilon*t*(1-t)e_x,
+t=(2/5,1/4,3/25,0).
+```
+
+They have the epsilon-independent dependence weights
+
+```
+lambda=(1250/21,-8000/39,62500/273,-250/3),
+sum lambda_i t_i^k=0 for k=0,1,2.
+```
+
+For epsilon>0 their affine span is two-dimensional. On their actual cap, a general projective image has points b(t_i)/f(t_i), where
+
+```
+f(t)=1+gamma+(alpha-2/7)[L_x+(R_x-L_x)t-epsilon*t*(1-t)]
+                  +beta[L_y+(R_y-L_y)t].
+```
+
+Its unique affine-circuit coefficients are lambda_i f(t_i). All f(t_i) are positive actual homogeneous denominators.
+
+Suppose a labelled affine map sent these four points to the corresponding four points of an axial refill of some P_epsilon'. Circuit proportionality implies
+
+```
+f(t_i)=k f_axial(t_i),  k>0,
+f_axial(t)=1+zeta-(2/7)[L_x+(R_x-L_x)t-epsilon'*t*(1-t)].
+```
+
+The two degree-two polynomials agree up to k at four distinct arguments, hence identically. However,
+
+```
+f(1)-f(0)=(11/40)(alpha+20 beta-2/7),
+f_axial(1)-f_axial(0)=-11/140<0.
+```
+
+Therefore alpha+20 beta>=2/7 makes that labelled affine equivalence impossible, including equality. The evaluation at t=1 is only a polynomial invariant reconstructed from four actual vertices; it does not declare an auxiliary segment to be a mechanical edge or require positivity at a virtual cap vertex.
+
+This obstruction applies for every gamma in the new block and every positive epsilon and epsilon'. It establishes departure from the entire labelled axial affine family. It does not classify unlabelled affine isomorphisms or transfer canonical IDs.
+
+## 7. Exact interior controls and a reciprocal222 tail
+
+At
+
+```
+epsilon=5, c=(1/4,1/5,0),
+```
+
+the actual raw projective volume and centroid are
+
+```
+V=265585319790453313994810884480/499124243180063740964991832359,
+g=(
+ -14346620404875757580883995701285726763765193205/
+  301422912996251699145130757582227620638351890053,
+ 131232750576032514809349644044362026572137099858056965/
+  104371434665647215294590886440051781367530619198816354,
+ 198142666834127686327621794608972196616248747750764218/
+  469671455995412468825658988980233016153887786394673593).
+```
+
+The source verifies these actual moments by two positive volume fans, agreeing through second moments. It also verifies explicitly that g is NOT the projective image of the source's old volume centroid.
+
+Set
+
+```
+C_L=((L^2,0,0),(0,L,L),(0,-1,1)),  L>=128,
+M_L=C_L^T C_L, N_L=M_L^-1.
+```
+
+The actual Euclidean vertices C_L(Z_i-g) have uniform centroid0. For rational L they are rational coordinates; their actual volume is2L^3 V. Their full census for **every real L>=128** is
+
+```
+S={F3,F6},
+U={1,6},
+H={02,19},
+physicalweak000; all68 true-edge primitives nonzero.
+```
+
+The apex0 is not U. With t=L^2,
+
+```
+M(t)=((t^2,0,0),(0,t+1,t-1),(0,t-1,t+1)),
+det M=4t^3>0,
+adj M=((4t,0,0),(0,t^2(t+1),t^2(1-t)),
+                   (0,t^2(1-t),t^2(t+1))).
+```
+
+Primal primitives are polynomials of degree at most two; polar primitives multiplied by det M are polynomials of degree at most three. After shifting t=16384+s and multiplying each polynomial by its sign at s=0, the exact236 coefficient entries are positive. Thus every primitive retains its nonzero sign for the whole half-line s>=0. This is a complete reciprocal tail, not a sampled high-conditioning census. Its U2 remains sharp as conditioning tends to infinity; it supplies no U1 or110.
+
+Three further full reciprocal control records are preserved, using
+
+```
+G=((13,2,1),(2,11,3),(1,3,17)),
+C_flag=((16384,32768,-16384),(896,-512,-128),(-1,-1,-3)),
+M_flag=C_flag^T C_flag.
+```
+
+|epsilon,c|Metric|Strict S|Strict U|True H|
+|---|---|---|---|---|
+|5,(1/4,1/5,0)|G|2,6,7,8|0,1,4,5,6,9|02,05,06,19,34,45,67,89|
+|5,(1/4,1/5,0)|M_flag|6,8|0,9|12,67|
+|5,(1/4,1/5,0)|M_L at L128|3,6|1,6|02,19|
+|1,(-1/2,1/4,0)|M_flag|5,8|0,7|06,12|
+
+These are four mechanical records on two rational projective shapes. All272 reciprocal primitives are nonzero, so their weak000 classifications are complete. Full maximal supporting facets, actual centroids, poles, inverses and every edge packet regenerate from the capsule. Weak000 is asserted for these records and the stated fixed-shape pencil, **not for every metric throughout the excluded block**.
+
+## 8. What this settles and the useful continuation
+
+The research route was to retain the actual coupled cap-fan centroid as a rational polynomial function, then certify the complete true rooted-tree systems over genuinely transverse shape cells. Frozen numerical discovery weights were converted into exact whole-cell PD certificates. The lower exclusion is not a finite unsuccessful U1 search and does not depend on a prescribed root, normal pencil or connection to rank two.
+
+The affine-circuit calculation identifies a precise failed shortcut: the large beta-half of the new block cannot be covered merely by declaring it a labelled affine reparametrization of an old axial member. Actual uniform refilling and its new centroid are essential in the matrix construction.
+
+The remaining task is the positive-projective interior outside the union of this block and earlier accepted sectors. In particular, no coverage is claimed for arbitrary larger or negative beta, larger transverse alpha, or general gamma outside the stated thickness, except where an independently accepted theorem already applies. The global compactness constants remain unevaluated; this new block is not claimed to contain every hypothetical U1 point. Other cap-size types and all realizations of type(4,7) remain separate.
+
+A useful continuation is to extend the same actual-moment polynomial/whole-tree framework across adjacent transverse cells, while allowing new stress rows and using the five-contact alternative for any genuinely full-rank component that survives. The all-nonzero-PSD margin gives a rigorous overlap criterion for such continuation. No old boundary channel needs to be reopened, and no S1 or proper110 conclusion can be inferred merely from a future U1 witness.
+
+## 9. Complete recovery and observed execution
+
+The capsule below reconstructs the **entire66059-byte autonomous verifier**, with all1,064 literal stress rows, every cell assignment, actual family generator, true hull/volume/centroid auditor, exact polynomial construction and inversion, all-root coverage, every PD check, quantitative margins and all reciprocal controls. No parent code, cache, optimizer, omitted table, network input or external data is required.
+
+Tested environment:CPython3.13.5,SymPy1.14.0,NumPy2.3.5,assertions enabled. Matrix verification uses Python integers in object arrays and exact rational arithmetic. Numerical optimization located weights, but is not part of the reconstructed verifier. The author's complete build and fresh-directory source-only build/check matched in report bytes and stdout. This is an author-executed exact certificate, not proof-assistant formalization or an independently authored verifier; the two volume fans and two determinant formulas are separate checks inside this implementation.
+
+Save the complete fence below as `recover_transverse_twocap.py`, retaining its final LF, and run
+
+```sh
+python -B -S recover_transverse_twocap.py fresh
+cd fresh
+OPENBLAS_NUM_THREADS=1 python -B transverse_twocap.py build > build.stdout
+OPENBLAS_NUM_THREADS=1 python -B transverse_twocap.py check > check.stdout
+cmp build.stdout check.stdout
+```
+
+Only the decoder uses -S. Do not disable assertions.
+
+|Object|Bytes|SHA-256|
+|---|---:|---|
+|recover_transverse_twocap.py|24957|bcff86c06ae95715bc68d656284dd30aabc318d8c2888f3016468c2fe54880ef|
+|transverse_twocap.py|66059|f405300eec4304c9e7d724f821b437fc607b56848ddd4c23745c0911476ba341|
+|transverse_twocap.json|418011|96a916b4eaa44d4f0d5b5b90802a35b902d1486b36acd09cc39c0356ab1c6426|
+|identical build/check stdout|840|6e47e76d24fc1c96d7ba245eb56a253949fd8430fed6e3f81855c1a7451a06ab|
+
+The literal stress/assignment JSON reconstructed inside the source is47579bytes,SHA-256 `666be1c3014ec6530c4c2e490c7924168d8e2f6c0eab0c58e3bf377eae4494e0`. The exact coefficient-stream pin is `4afa3c09a2d38065694f6047a0dcd96286d71395e77af7cae258f803e6bedc26`.
+
+Observed markers include
+
+
+[Encoded source block omitted; the code in this passage is incomplete.]
+
+
+### Complete source-only capsule
+
+```python
+#!/usr/bin/env python3
+"""Complete transverse two-cap source-only recovery; standard-library decoder.
+Recovered verifier: CPython3.13.5, SymPy1.14.0, NumPy2.3.5, assertions enabled.
+python -B -S recover_transverse_twocap.py fresh
+cd fresh; OPENBLAS_NUM_THREADS=1 python -B transverse_twocap.py build
+"""
+from pathlib import Path
+import base64,lzma,hashlib,sys
+DATA="""
+{Wp48S^xk9=GL@E0stWa8~^|S5YJf5;Q|UuA6)<uh(bq-BQwKy4>SE$m+hy=@aif<Hp(x6uSQCE9NaN?p0<FiXZOQ7rk}0eElK&y
+=9STR+;QP-?WkDfb7L98yhQ#u?N?vG7YYl@HBS$RKE{0+Suh)D2FOeeURfj1WZhh4Z^B>vd8Aw*f?}{(PF#?^KELBBB3z%Kh{p8(
+D-U01Z+L4^%@eq`1QTg(NHoI;mR5TSj>XnnTU{)Vnk-?Oe1Gc)N-3991qSXOvpW(5^i-qoz~Rq3qYM2bBcR`=_x)2noS#_pe@+5d
+favoOTI-G}(#!i#jTPGJ;CC%F%5TsX5&iUN+SBi5_i?>xa`L6N`wbL2Tz9t9R?g6o19H8&GU?mB10w73M79eeEC6z!A!i%+b}%zt
+?oU82V~#dV(9%$J-7UFtB65+O752iA{eNwPnjp%x7WJKBB28OoW<Jl~p7i$T__g@2mxm`PP7_&ZcVy|QISeUnPd}z`*USF;prz3r
+&%Te59*cLQxyp4qI=beE;dMlq3wJvsl*?*<KDHK$vNFqwaup6dI={Z3gI5OQ@eX5@<BEv%jEMAV@pr;U`7BW3l8`itvZg-FlYU@l
+hHUk4GN4Gpb#z507+!tNZ`Khms$4!N@xnI9P#-&WDFU3$JI9-5@Yk-rUvt>cWh>JD3ED0a1a*jB(?B<+0pn3O4z+^qCnbk5+Lf;d
+qJvCsq5h^|1u&UvKd)j(Q<MpVJVIOPj5V`QE3Rut&^^g&$WMJu=V+m}QRqiDS}i^5_*of=w+yi^=JDNU!n@)!xH15#yMUf7WCkK`
+Cc}UdbYBH(S>2$m7!4E%7Bt*=7)Ki-0iBd9rL_%Zs_MyB>ZbJD6SPv?WXTp1O9*sXGi>SM`DH{=H3R?;V}5lTw|PC4%6k;URyV*^
+b<XljlS|eQ{lejk84>u0=?d30v~qTk<)FBF^t6vy=CPPA5UYYxaz~nmY?aAzKkph*KXe}c1v6~dQGC;w)M>b9oDv^3x#&c%dow!z
+tF5>&zYp-1)qUbevShx<Rq6EMuukrHrGT=TOu$y&2C0%p(t`!g*o=j7ISV+?>#(STKwVyrC>9go=CB$%l{t=6sTlmn@UWKHT@|uq
+OrmKwnHqhjZI3WaotR(Y^p(?W?^Akt_*I21|A%LB$Y$^^l32I$ZcJCr5F6m@ai2$MpjkEJ3RPQlAi}6`k*+%xb`&_%_MGRgknnnb
+GE!-X35}r>%c%|e!zw<d-FCkNfq&y&zyBtI=fGbB^dcIg_BfMduY$a4qQgHYKQ(0eipHN2#=cIs#3|yKHV9Q4QNOe_d5Q>Z4>&-~
+{_6OhpdN(oWdXb<L1a=_qaPNtQk@NW9!<b|E{ovpqw}{b81)`MP=Nk7`<xY$8fc>>5*yf%JYqg%a-3-pc_$!w2MOUp(a-RUh}k;H
+4&+R_=@?QES!w-s)^uV<wGat2RtxISyYY_Uw>N8f!!A(;SuNlpQz9zmy;er=vZ?u|-GR-P6NS~7GoZ#xgD-w#I_G^U_H2R*wgO1A
+S-PQ^0HX-wA{08<t&Sknwk!0Q8J#^!uwc;IOPvTK%V;~k0ct06mvTGQ#Q|%V9G3kf=?VdAzWZq(R}Z~Q6y|NoUsFrEh}xk7F2WbB
+Z3K0-%1M$6to?O$;dPGsze@-UThz5?N?mQx!b1@a{iW)gId@vaF={sZ{bE*QJ+?>j!`ZeXkDhHIdUZmE(tuTzauKc#SS-3<Nl(H!
+2y45}eDV+|>2p0U3zclSn9nD0M+I0%uQ6UF7OC7&IY|0)IIHQ;@!CZwLFqNHc7Jin<c0DvZ-;&&VFo9Pe?wdRg6T?L!q{DG8+!uj
+C~8N^kC*>z&6VNg7g!(EKeBVTb=`?aJ%*AvUEZn%FNH)5VeXsLS;=pX*Y?C*HcoD76!k*`Dv{Eqvq@djQ-yB%WxZ%2eL}hDq!1K9
+)fe*$qpi1`3>%0b;^Z(2y->A+nFS_6TMk3VenR*T+JI#pH4fnD9TkMd%u+T_tmV!bMXjBlnRI>t%)$rD5k;`k?R0o0sDf-6SSW7>
+RBfD@^vC=r2}CU*bec0<m673K<lRNVv)MgGTUzkxl_=WCE;rAI&kQ04Lu5lWomrupk-I&tVa&Qy(YtMbkE`x}vn-%VH*T#NWUlF6
+Q{=&KY8JOs1I$TXoK_g;e8h?a>Z=xmKxHCZd=303R*ZlWd@_Lgse+tOI`_Zmmb*vI!VCa~3+%Qq_G|ky!7XeB<J^NGoloQ{pF+QM
+h1L)7J%jYMEy!36i}zeB=-pJIVNR}kK`?QcEZiXGP(z#1KLKX?GlVSQ-xGd}A_f@C$^*lE25WZQ`g~@F)#(bCF8ly@-OVxRjw5yk
+183P4_#P!mDvL0yP||bc%MfV}<xKYVJ6!2fk00A{k|h~(kK?CF3sA_-<zu07NI@NoB5Vs5DGVFc_nVn#d+2FMu{=9tsHyMc)}PYN
+D`+U2(V|)0#NlRePM~sA$>%!FARO)N)6t21eF5!^Y8R@+&A1EF#NuestpxgTfPJV;I_ipx5e5&y;Yhi1#eLF8wt8jRN+VvQ@cjEg
+lOIim>buJyt3eT4v|E*o4i8{1P4jJp9;a5~11mP~cQLXfiviHUQ2fR0>b_s!S+h{4tF6s0s-)8hB2S*hyW`U+fi&bzJmO%?<(Pjj
+P>&#CB*eU=<Rxm^fRk`R5wWW+S}w+jr^7Jq?xw^Lt^PC1{*AO7gMvqdNO&Lm#D&AG0qTj0r|?g9Pv<xAzr-DNWQUk&X~$+VQyOat
+Ex6lX(J>g%U|^-ku}TD+=M3oOE@4rJYTd~JGN`~Yj+qJVChjx!z@`jsal#>8muHN7{DVQYF5R}Y!<xWjD*lT$GCdB_l;f0i-K^-J
+QABZ-P(OgU_#C@T_M5bA$}2%eQr#z*dcl{I#Vn7>8SA<GKLZRpM;l$pk^n4z0$F;YpqGPx;B`wXLrOd*KyH>szA1AZ<Tj)k1lmhp
+@^o%<J9_dA$XqF_0S7Ojx_%&kB;YAqVfW)&4=wc3n>7u~bo~1Qo|Ei~x!>{Q**R3PI$ipkAMyDZ{ti_*dLxv6PeG=n_Be(BBOrfh
+;iD?k+F9%rD2uUoI+}?4BH-+QVqqrLXkTX^RM`)dUb>z4LPu6S^)L1$@p9hf^KDvlqvRN`drV0bJHr{fSG%MP#6cQcj00aG<H`N4
+UbkN!%j>#je<)1b>8y3!(UljwVbfLBBF}^UwX47I%#tb;mi?NGFG#L&00u$NponP5%c5U^@cM+dLnWe9e|m|sLMG>KSU1Zp12~Ae
+8XV|czvuR7dBk8CcFZ_FfB3f1MF>ybx&^N>pQrV_8d0%a*sA!fo0>qnlPsh2QO*Inu5!>8y64EjH71VC=YYhFqa)$6Xsr~)w3g<7
+^X>d`2#^P~)#K-HE8Th}Z&ip;PXC(wj+BL0NB0n_Ps$^TpQg0uWdtG*3s80)$gz#ebq6oj>@3~^BG(Dk@25t?l?r!kG{C$G|DWm8
+b2Mz*gM>u87$8YQPSfGyR%5AL0+&;`fDmUL4b{My+hy#IG;#h*oN`5yh>q1Egf~r)Q_jk&G=l=9rMfx+)q4K(FfVI_(`C4IB0h%G
+%7YcUaR8L}b`{A+5N+0h^~{$D^93LP7w7L-{ORSH1B6$583UswDaYm$l*nm_Mx8RHN#jJ?-q?gC8G?Fy#<YcImhnI&3?%_|zX*y|
+>9<zAZlE#nbSV;t=NmfvsR#J+bLa-ttq>J;8EDrB&bYy(yc?mPFH-mvhqdJFqWEYv@ZcP8ev=0cS|BfkUd;s9erQS@&C&as{*ERb
+^7O?OexF*;;JW!c90eRO_TdD)%EfEv{(j_}Mh1$i&;Q;6m(Q<2U;p2}-G#;b5Gp_k*`f%-&1JOcTF#ZZxVTTf@JM4g*bx9nC4WZ9
+xBf+^wANJD!azsg#@}fXdk93ty)bzsmKzW7fM^qkHF}AMHF6gCeKjAL+3_MFAr}(d^yDrO4nVUtMCY3(i5TRWWz3rg)doH~2YMZ;
+2&K>(9t;Ej?1p_~yi<fK<{s0*PnE2MMW^!<C6uD}pB6;w?^=%mUMrl6on!7nh3?RD>zH{pP~g_lYrdy^J9k+?ekvc8e+!dEXlEfi
+O3s>Hq;h^v1^hbE!Li+cUKSY`AW$GzceYD?ge%RkDR#zKQ|PQ&%88alVJ<8MHpU$>S}q8~130kWxz2|<4e%i5zuUJ<*uC&WMeaQH
+5WSUOC=XxGo;&9CY5<P2afb79gIAh)-MKz)K{f%8cF2F!E?o?+B^j8SPR6(-y=(NxJl}6l(*yRyd>+i~sK6-okkob?2@{qzN4crx
+wLBH`qAD>NEZhA}k!LS{Ypv5*<N{<K`lQUP!|$WMCM1;GGL9Df1x2{36&Bl5vg2cLuYg%%5;EfREgIqp8allWCX>|X-ump^Ow)x2
+uAMaJu|{pW%60%cE!z({rmhX<RoU3V>UC3>P&Q}YzvwP^958r;F?7#qpG|u8*a7S_l(T-ng<F)(*P4PSuJZf%kx0u1ALd$b-|0Gz
+gt7M#4td%XY4fU2LiOoxdu+p>Qj`kdcI`i_Mt!d;>d$wK{cgWG*KLbnG^{a;q026*I#ksQEeSktJI1cc*q)spC#?+)($}2G|9E}s
+*MxW_YGTLk>rC294YG}cf*zWXI1VmI^=14R62L^9<y{jgd2SP<;;<~h41Z`w8%WZvwqUO%pxZQ!vo(#c<J*gKr~nmR4Mue($Y4!U
+7`sGR6Gir!w+PSa0`gTLlW5eEkSRyJnWC!f-k1L#0&88~J1dA(PqZmAQVVK^8gLu4J9?#l$n!Vm6tSAR4QKzQMk_wMUMWG~mfeVo
+_1_jzo3ipVP3X#xT^$CnKB>Y+#nH!LRHXuA_tXgpAU{F{Em@%Tu5?G4Pa@IZ3--mIqWPymDj)eptqCqEIg9qnm%%w(v^Z6K)<;6Q
+q}p_Id~g3bi=li4{$M|3O$EL{@qO3b0Giev!?FiFam<~Ydm3r9NH7!h5<1QtxN27$Cp?H2RY8)LP2n&s;9^+s{)bAYEjz24z#!7*
+(%)+S*E)I6>~tX2$AskfXg#z0xLbQxu90r7deGVW?a}dZ0<^SjxVF@P3XO8B8W>Sv5L>nkYr??L$r>AVTgN0xXr^6WF`6`4D~@F{
+73vCx?pf^kO>wh`0bn5d%P&}Jf*NkQu<wg57N9YXdZG`;Pw5c89)OHBDMlm%RE#^9nWHP|^<tLwuXFv9JF^s%!Z_no)X^7lWjCY{
+W))S_F%aciI0n<tIdi@&RXBcAFg9p7IB-L#KQDg~8JdlY4$Zg$nerk^pnM)WfVcSu134=q0i|7G9p{MmFL-N%^wNL@JckWzZb>oF
+(8k)2a5*Soc%zBfakO}ASF9iDIe#7Tv(M*9hV&eLe1Rhiut6S56}ks(;wQ1Hs>(L9C<kf3bx`9ah&@h<!#wThGT*GM$aTP*6z;nH
+=c-VApu2Iswz<rjCbwbq3A6{F&NB3Q)(Ia01jkw+y*w|mjN&uKv+i1={<)b?7d5zG0bw97>ojrLJ_LPfQc@yN3wqHp!q~Cw+s()-
+2is|y-w_p1P8<v~BNid|_IZ>Yp}{`29h0)ZD0YYpDjoIeiNpROz{63B0QH8zSI+d!$sjYv;JX5;TX<qjG6xTLtc@Xhx<goYhBm-k
+MvUdX5(mxWTO5>HVg@kN9`GY<5Q5SDSX#LNzyuRjrAT@+KOlFdoTg2m4yrN%?OFM~4D?FX(<0Cl>*B<Ux&vfV4A|5Z0y_%+?L%_R
+tej^TvaNpdVP(Dw0G9NB$uSVa)eu->_#~K0v3~Fm-mrD*wUz+3&*ukAqSv2OJb8ZTCXjMbe~DYBj-$W^@RQJ#0a8iumzn1vKLl!f
+NM(y((t1ygT!<hPmh{zgDu(s6a|-UpJ%Lb^AxfrtDjy~;FtSGlBh#AX#J%43L1T8L=kHR9iv>@(TNyteL2=wNKW^Quh+FvRf$cx=
+Sw%rlWJh#}iP*86e>blN(-9+9i?{UH#)*!yE!Pv=Pm7C+K(*Y47yVEShUi&7`?gH;;@&FP$M*;yki+zAli)KBCxb?Ej>(jY3e@2<
+2dgZ?>yeYbI8BH>XFk8lN>*2VWFu2=Cmu2P@)OJUzb<F=lusz+!Z$jYbLmOw5X_G|K=d=iDXZ6#`8bR)7*d_vf`wYla8ir$fnM&U
+v^D>ql*ODC)CzY&AN+;hISAu2GxQpPMx6NRe#pUVO7bT<G!Jz&1(cxp9xlr0G$7#b$sC@pXUtiP&i2YXN3l&uT1cj{G8N&D<kf|2
+5c3QU-;Ub2y&$3ewvKJ;s-r}dkWwDTSzaY5xI;$uH=qUf9=`}g2UL~zOWY9gW8d%bbrIKMDnVyqN)#;=OY)EZ&AmGnWHX#tL45FE
+@_$5>jC-`{k3U+0)!Q9;au7-e7>;&vF%dTn9na?%X&b<@CIj4A1S-^zht@5)r)X@K1ZSt7Du~ZcpENoYiW`JwQ8uWG5~Z8_6+~VH
+kSa``r*A(322aElgVM)!nWos5NaN8&uP<~FRfCz|nr~haqS(OcG$69{NF~TWJ`x#lnO7`L{OgdMqF4kVp!tTGVeSb)1)La7ZuIJ$
+u^$EO;04QO>Ho|cufT}r#}+=XVph@}jMDnp*Jmobfj6*Rt*l^<qW;_2afoSm4<6Mr8UKTbB0SF{2}r9kLf7lM&U<aZ?}ntawT4;x
+mZ>v@{^1$f0morJvTVk>(C|Q86n+EY&_To(b@fqJD6D3_AC!IZF7U-QM^*JNX2vF}@6($;XsjPrbp0&^Q`8}><|=KugIkg<R?`Gd
+vnPsR*#;Teh<qNup?ou-CHmm^kXeF?+(Fv?X59XCwh2QTXIc<j{JQexC#(CV0Bx;Jl&dtDwPjz!?6h+ta9aWahgF03v(qsbB-6&S
+GDodLo(2+u<LP68TVBH?<^!5A=jssX(v=)?vvtvOfp`44T5OzA!fdIk{t0)R?s2PEAKwP7#;%rzuGC>d+CV$}G)SM13#*!y-e#l~
+3R((!)>f}vNW@5o+Vl#R=*Uc*hgOb7l+>pM28?Tf%CJ(7?TX+BQRSN2aY7Po0G`ds|Lw&j#CG>_jABlK12a!aBSJKhCHb+@d2PY@
++VtF&h21cBv3ew|vv*>bOL8V?pLT=GvR|(cB}k@!M3U3-5gfON8`RzWiRDs|%&Uj{5dlbOYfVh53g}DwMuR(S{2i-ER<$(3PAwT!
+)RYonFiUJa#Dy_{uf@(+dME_At>`mXLEOVv#got_9413W${~{Zmp1U!(`}|VIuqAEJ&4)n^3%7cY+1;>FK1WxS;^$quxG{DN}=-N
+3B#Pkt)78bdI@PVll~_89uSv*47N5TT(m0HHz<clq8vlMXv&XW+3N#QfwTuBB_HvdtSDk9vcmuPrfaVzDacDL9pe~Kb;ogfi5k8v
+iBBSiE~V3%bNma2FE5&BFGUC9wE0+COPWi|U9fqDypmH3dn-$#iM?Clu8o&{czV!ws{BURfk}aH%^CWbE~#~@@*e@|TnV0Y=16bL
+j&~#}e2#+0A;Oyub^j8Zjn$td{apaG(l5@L*JL()U-rYh{DfJb7p<zM%kFjgoNxpl0G}~do!!G}aW<N_z;%{V7n(HcPN2_<fbL|U
+>NKmz<`@>Q+4>F_b@yQ4V4+7|+at2S!|i5QhW6u>&~;Y+1pbN61uMim7BD>{qyS<UU$(Gk%^i0F`wYikGpcF<92~M0n+p++x4NXO
+4*Cct=r6oF>qjmWZ_sWlc@BZu0M3Jbzwo=1PcZ6g<<=AN0okSoX*f#M_0m@O$JgbFQRFrM)bJd7jN2yPaD6ay9k)+Pf>{|@;WsmG
+s$*x;?Rm86;<`>4h(5kz-(#DHGkF}&>bg<4lq=U(7;tS;i+rMD_DZaGBOL;pAU^a2=E0Wq4-k@faS8+-p&@HA9OrGx<M#b-zu2of
+-|#Dx_0{7EXC>Jwf+LUbjX^KaI)?yjVy_DXtoVn&@%m)UE=F3uQ^Ce}%ffH^outDM9=uYi(&s~WG-i?A-qnl7iL;E#lH+ASlsy<h
+XscdGZ~Cj4dIq*W3#h;UQoaMrJcc;mLo6c!)||N;PWb1Q{8g{NQdaj&{)E-rjZ6jiGF}`X<{d;+o*QN@i|0DfEk5ZFVkZ7X%Bi2A
+w9u}P6Y5lZHc=uuwy~luFH(rL;&9Af`yo<>^%?XIz1A*d4$LV74N<vuYCQ+aW;p5}ApxB^AwM}Ss|d|8tlu-f`ejN&nIn(0D9{W*
+9C9>MUi3W|iU0d?jMq-0=^^PS9>kU1k*$+Ls^KR$FS4vFMqRGL#`1{fdRzuQU1<ocwQRlm7T=5}X<-etQoo%&Ll)xG29K=F<DGT8
+OViS|0c1!zGy7h%L<H@J!t_J+;i>$DEPJjA+-1tJ@9RfO9qNshFM|!Gmf?q?ALpwdtgbY!+DSegUC3&Tv6F^F_DHsvylCQGNh|_W
+=$;+|T9-=1R-!;7oa?wJl~^E!Cy?#g;iBo^Rg75kVH7@L;+9tu+q|cF!p!~F*<$A|VC#dhEP=0^%-X{({kEami|{nmfYmp_t8aTi
+9sW<p-OcN&nrt818tu*J@gp>sDe~>}C{^xuj*BA&V09HeS~21S07{5lo3R>5*?qRh-nC``Zb27vnnBEGh7=y_G=3|cW0}|T#v7{F
+a}JgvSx)3Qux15)^^aEn@TZ3V0p=j9kSz0*ZYN(HyPC$LFzvP3qCpC8$BAzdU_}Qa1|6>tRA34ad){Ooj?$R@tX<d^&Fo-T_&L4P
+D4);eB$p>A#2xtN?_ZHi@D2#At1h(HTk*>A)81rce+FO`egEti_G_C`7GQ{q2%sBlzTPvl3)(jwi2WZ=p+vCF9kO;dGbLjj1OzWg
+l!oGv{53NIWGjs#;)zfr8BJp1L8%Q~<$}9ExCm#wUQixYgEo&0+LYWVI+cO|>bHn2->^bl2@^2BA|fU|@LYr-x?^qO$!9pZ)D;yW
+p1#ptBTp2PS;-|J;p&U!+<nF2ZZ474xLWIA3EYM5Wf$D!qLP)_bG=EG8{7Swr@wXVk`pcv@a@_ZN|7*6Q4l2Zy~{GN^sA54*u!Vo
+<)Tf=OG3Fb#m9M$bOdEc(D}uD*~6+U?#eO4Qr7Lb@M&43w(5*j(O$!YY3Mzqrf)dWlS1iu9G4Sa!|%8Xc#z+jSdgxBhnhf6J&$YA
+tQMx|nV5qnAa74fHOwR-(fe_!e$>Td6<2wsu3@F3o9T6G>351mY=I)2c%9Qj%n!iMhoqY*5E*f^yg)a;1|*dA-MelB(6Q0vZ9(O_
+q%-{S=^P;eq#73+)aFL;Vv0&s?>RIPdXs+Se_}6sF{U)=;ZnfIZNOyToYd*lUhXI-UK3<urDFOlNe=r&16b*JV7zh8z5kn)a`|a-
+y$qEl!W16Tq;<tGp;K>w8<z26a~`1;-zYVB17h~%I>V54Si$NnlTi_?Tn5n54uY)h`WICVIILi(7TGJvC)afNr{!6pum3;6cc`-%
+X&+DD5+xzLK|4}Ie5xfWwKRtc4bp)0YsHQq@hun#=i??O*DgQqO{GDqmkuRY%~V%yi>5v;Z?XcgWxBNXlEsz8DI-fuStX25_kF+3
+y$`fEi26<DG1<ztAr<3oL&vp<Ly9;h@k~MG4m`(-x?nFlH^&h`;gTwo7%u3gg5*xSj#Cq1IW>_C?q3SQ(CDO)Uo#Zul{fB-=NH$)
+z-@pA2@s`_NJ4GPM1oKw=>fk_L)yV3abd&ZeSi_Swaop(V8uc|r6lQMwL+-Sg=m_9iZiZv866p+(5;}P83Ohb0}KL$@l<zQEAeEJ
+aI@y}+kO}ruB@C>De7Tos;nSOt??jE4UCg1AZYn}ASp_6b<q@)3-rSu98P@MTt%>$@>zV2WEHKKuqIx?Hk;vBlJxo_?k$IK?)Xbt
+NxvZzyeLItN0tJ4?0~gUZ`N!N%-dW(>VNp#&B|`mHrB?OBaM@s642CAul+`}dP(B@nkQqkr%bilEAXpF-nWSH7tjsLgaG?RaGg_p
+<ZD<0;2LMyhY)S@*ptG|WeU=q=$wTI&!!Vukb;?H!)<A?w79nu;30~Mr{CGzbv=UT`T9IP^gf4dp49-39SiV)9w{9^LM4`k*C8-f
+?K<Vb^|n)w0H*4?%ktt`#k@`Ukzi3HO@`9=DOQ6|HIp!%<|uV0{(pOw8pEFyo#BP@4O~t6X-!~#qVoD<m(`Nm540EQy*AKqbZt87
+Sb*~;f^3bh3H-;~0YeF>FBhzDwX-Nl$o}>ZIda3G;Z3c%080k!L)C(k7lUm_Dh!|0bDRB=J*kEg#pw=`8U4=K4M<z~9<l7K5D|PB
+g~~nmW&;4R+az%z@O-fUW;~b@4?rvbyCa}N{yC<v!D#|X!VE7~&AG?ixsgBY`}FSCU&ac@CG}@IGY`{4sS~hNEw#zn`yJev?Rc{A
+X34?oUsTqDOl_$gk-Lij*G>Chb$SzCSd%p5I0K$(;kIbP4+KJ2%nZ&cNPyjP4e3$YR4M#Vei3A^=(1o_i*kJ)=EH+4m5U<ZGy9x7
+JrSh6^{g<&2eb=?uV{##RVXYKrzK3na@tGH!I-sDrxGC$E1mi=1X(%}hAw#O9BkTXz-A$m&?j?Yy*(<yUj)AC6Du#MbY<id^V=%$
+v;Psc7|$R)@5{QeZo0DMEf?Who5^J}b|sM07cJygjK6d1fgXL{9O&JCq%cEm*2(YTI-cFQ*xh)wS`I%c)$A%KcMSw@ks8v6<(6#D
+2j}U`)O1|#3VWK_RJ>d&iSMZ`YvL0D?Pi}KIKQe--Lm?<2ES%+BRBWwdyc_{hTZ8pDR%7{u^|sW^E5Z*j=#Y|rBgyH<v^E2IfYm5
+Q6W7wj?skQf4A*whpUbHqojJEto&5t8y`wxkgFp$^fU}HPgIJL-2;9&Qg*wj<4Fz#EgI&nr1sDw?X5Do&EAF5ptNKq_EcmnJ`F08
+=$QOk<G+k!midK*=f!s@vEltkO3d<bHx>!M9K;pBIP01G=n0878`Nt5xV8k#SmgY;)dWW76&m|F@gJnfNL6v|b<>6@m*YY|mY|7{
+P0UCc^Z#?sVi%6OHl5B}ZEUhxTkrmW1xr;+s?4COju$jOaJ0Pe90Z4P+AsVD9yrx1cysJx_|8STug|FE>0i+3zCGAdb0W+~o2|&d
+9Bwd;;>Y$g&zIM$A9@@7SB_86K;FCO%V_s{&n?6#4fgBnw7$U1;>Mc2wt4ZtLA1)>eesLt9@|M;82#?%d5FvXt3wjjhlSmWppJ+!
+^`XW2M+WZVBrL%yjvQZ}Uv?!iVCU&<Knq1Uif*t{LJs$PAZZ?ncvFh&3iZ;4nvQV$V7!SWg+Q$DYNW%Uh9!8H9Gexz9bHZQw=r9l
+ty?DaPgJve1oJwmMftGUfWj8Bl0Y?V-*3m>6tZ{yZhr&j7ChK5b;R6=08@!|1$$2?=X|fSy+XY5ejzDEoJT?K5**Z2Y<Ju>#ew3H
+rq6+x#YY#b>Ow`pmQvgL&NqhaQ+i>my^9KT1WiwfVCz^B5JZ}#F9PReO!|f1?`=K6GaCFk;?Oh1zLEUKH$i9xJIPbAGs)?YbeESf
+L(|EpLCm>a*k3pLv->`e`o@JdN6@vc`ZJ*etC8LEkrtkjdZQUc*i7LE`1wx1R~w#9ZRQoQNpPe#?JX_GMrjOqc*(xSI+=&LS=!}`
+ciHP(xl|0s35{)YWO)wn<~1f|TX80v?uUR+2E3SJOyvEfGk2s|wTGSaiarRJTjDIh<grP9{ES+xXcTptaOHVWx?y>OFUP?RHMH%q
+e=`LZ=QzTUq0jJ#!}FJc&ls|*STVgcCEnyX7oF(^(TF3T$nbiPTCqQ_0)jX?QU;a>m&F>##d517#{+pz8{RPRw;>RScp3~GAw#e%
+jb`nqoh_A$(M6RY%;p0zPjd@I)H1^?nL6ItG4SprV=AnMK)Rn+OW^lJHCO1Vqd0WdzmN^j%VlTUKC_pYV`D;&eLHG;4w=UX=W0~?
+qrCESRKO#HfXboliQ$Y4wx}}l?Gy0}Fy~HYpR2Q#gcJ&5?GM7DiDpHin=e)Kw6X=Nk1-u!MnE^eQ1lcl5T;8vR)n=+D`_FRkdTQ;
+AOw_=LN|lUCH<0$?oydK!4f5K3jp{jmrnL;G<Gxs7b?K%YE>hnPT(UP1Xk6Wo=mIUkU%Hu<a8^*MTey=7_AN6MH0x#TFjU)x}+zw
+KyE_Qe->-ct2%tNq?b|1LV^V%sD*#@_s2cX7B~K~XqEMO2F|9+74*q;b88rFne^AXNcb6o2y`2ib{67LM^LD1z28A-SI91)4ZMBx
+K)J(5WpJIF8`D$8zJ{k}z(Mqz>X%VQ>5?wUPf7)uw;cNr87g7Axl4-h%!1ZL)4@tQaKo{irwl1T=3z=r`5o!ug4xALzigymC17CZ
+n5)p{7U`5Mv836(nP0^ocS2R}XJ;2Tgcbrn2i{d-x)}!7-#`M4N^>Lxlz#DB^NJ8XUZj{{MYutL8SsWQ@sZi^4`H8S%R*HW&1xmk
+1oZ`hwU~O}J1HI;cNJ6ZM!wtoup!4@;HgfU!wE|d_!J{Hy>zpjk2-&3Q8H$i&+FiISVaHE=f<BvDn=z5vf3qv_V0A9dAmskw0#jA
+(q}Dw8Hb=K?OG~E3Rm^)m7=6h&?N$l`v0=oX~@L}7L(%d&OMGjgt_=3LFq0cL`_+yvu!wzqC%<j8|^sDJkR^uKWp(efzRBqD0rOi
+?-7fFDmVu24gv#5Xr?`8rLPxuS;H_sBtzJ9c@UcEpKi@4o2WLP{2Bm2*e5`dgfv1xX{yl5j<50q$4e%`xPHst3b~*&eD@mXFl!Jp
+L!?ZBJYPT97uLOS6`~@kjuNF!U`>iY+??{v*+vq=5S13Er4Q{5E(Cfd*N4yE3AYjKQXT9T-!)!A^On*}VOzqHI?1*lM!C@6gC)^r
+zBwHySP=t}`DkI^&_}JDk?kjn-Cr=>g+-Ps7w~ofq=~>w44j_pg}T<ZaWh~IGobP=suvpf5RlyCKOqA4?oZFELiG3J9HrEq3tQ@b
+p_wKIb-#-<3L;P!WDW{;1~anT;KTJS!4f3|QgLcy9eQbvf+IM|BLD2J+iDlq9LC5>>!PpK{rLs6C<(m0={I?O-x(b4tJ-bD-d!QS
+&x}bTst}34dlvFFRiZJqzM3H<-uH#UIz{a>i*?^hR`gbq_N)1-m2fdSwZh04Jn<m(g+3}SilPuq9*8x&>^!PzpCU9NcPCI+z;|JI
+>L1d)7IyeN-@%7~{q%6k;n=6YmxXM2&mzfp4~j2F?0-JKc|r@GYWcL~(+}{T^7|#_N92~NW@Fjgj$WqT59|Ylqjmh%P8)0UB-|By
+67F@j`eJz0iNXB`vYObeW<_~St`lk5-tz&_EabsOiE#D+uBT77zgEC)>=AEmIADPpEoPkdDGIBo$ENW3z^CgppJu?te_=hesXb;t
+Z~cY-Ph;k%2Nb55neW@=KD6+*$X&l?R<T20s32@WfZ48ycB+NdY~{yw^Ca3RNQe06a|7%giHp^`|Frj5pDD`!{gdRqM=@SW27H*s
+Wo^cEM4uoWEWx<Yd69pR10!&A;9NofBy@k9O8tTv{XRpg$XaH?0v-c*WbhLYe}<_yIrL|dOxqhE4HYDLC3K|jVx$COffqDg^l(Mt
+^LNinw45uUAv8eg>+0bd{oM(d4cLHqm37n*Ee{Y>*K{4C`G;n=gj>lGD>fVRfZe}N8IAjrV{C&%AQ{Vd&sk}tV~2xE-0~bv&}q^C
+il~=3J;27e#&N@yQ7@*3SU8c;>doH?M`~bF3vuK~PM(*CfSA0X4X3WQSr%2Lti)1y{DgQ0(I-mkbBKW30CCbAB~UjwIe@{1jmDLI
+F+dZ#w`XuOLrl{sv^i=$`Iaym@DfAHT`y{cJkuL?*4%164`w5{g{5t;dNT(Z0UR{h-v$w-Cx(bSV8_R|fui}Vwx`>lM~e41@8UiR
+#7p6NE5vUj!;QTd2r19a3dYw@8qbp8X4bO(l6FPL72sJ<_H=dc>S>M&);PJ`QOXOpxqIIG_0QJ+>JE0OeLb8aO{JQ?*CoQ^-mVEu
+n%IG)-%Po*G60>>lix|}@`RrGYTk3SOza@#FzF^<CGXmXlE{Dlnw>pFIi4Bc7Zt*kNi8G3J~+eb5W{L@!upDR8m?9>yZL1)OQ_%2
+VP-gw_F%Z-#|$Z^EoU-2u_Csh&P7xI!ZqpUb{=9kwM#*v*2G=?&ux0J>Y5hgKsgLk!*)jB!|L!Va8uM{j^64Q?`O29m1N2|u%=_!
+)(Z^?OnVsEwXg(>qVWLJAAwRZkGSW1WDav5-dsibEr;(ya*jvuv?8Zl#>boPVocT`bd$HRT+FaQF!snR1&RV_(&a$?^D5-h&tQ($
++H27J&}C`W5%(ETfyYg?>#zwMF#;SO)3=*#tqXQ=&$EWdLjy2CL5GG#>Lb-8k=3|&O|)CpH6R;_(b$9BQfpQ(Cw!R8ZDRpk1E+I_
+%EsVm54{e_?p6$MGoaFxIa<M7+5OTj5<NY-5`zREJPN}gBOA5&>H331zD}{Pja<3_piGpJNgO67*A@7@x|FK7(b(&d*&fuTEMqTv
+{A|Ptownqc*^8AM67ar21X}MeR#UuWp@^EJn;m_po?85ZKcxzhdUy!gIO#_x;4rBsphph~xj_h2Hi@7k^x-<^#zsxHuVN1Ct%C()
+6@RXH=)5ZGMWO8Sd=5~t3Sl?B^=6AIweL|rb8e;-^hCBAB4<9;fMrSvb~dtR<TM7yz^y+Dy3HqfIU8tBD7iTq=su$r*f(wktcMbx
+L0<~yYQ%4WmJ0FSTf~4La@TIpGncLE-ANCY@>k1_uYd5@c;VA%JnM={qIRI*1D^xR8{LlHX#C#7J#~z2ExLAH?fAQ8t?28B9pC6z
+O0{?aUYfkzrE6rRM_~<x&6px}U4HR1Ee*lpaaz!=HF)zFjIY52;_K(6JyIu}<M@>hT`YUb{L4Li@h6m(8{!pfak@e|)VZ#E?NGQ6
+5`)?nvSL=<e#NUCZ{VbKkD_IrEvbF#oY*NXA*$|A#uklYs=){FAbIDTSe9gJFj?2ns`=tk8-M`7S~Opn?suK$S{b7PP%R;AnBth*
+4D7jHl?KIKrs`yhwH3lelhG^?pdZ$D2IggggeG@E?|DByYt!Cg-gG4B2d0JpgYX+zkfXC@n|;&ut#q>PZqhh5FC@ZrBIllH@2^4&
+YeQSN{gLt^haPixH^+GoIA1wq{aY`?_SwLk3CD(Hyq|s>YBq0?J=t3l%(K|VH?cd531j=bE_$ENl06K&x~8`*QW3VcBJ!9idFSXX
+)L+-G|DoBL;Kx=04VXu3j}E9B2QuVj-^O(8rH3%Oq6N$j`_*QfKHdCD-y}s_UQ!kIL~{j`RWswQc)C9_$Qxi1la#SQ@FbHM$yKMC
+;7D;M>nY~ZdsgY(X)$SPSEkXV_+-POUkH}S1VKMG(K0~1!)mLJhiS9km&eD&&;Va5zZT!IuV74!h>c%SbHv2jEQm?1cb#22_27@v
+wP6LPbvPunMzb?*wSic{3U?)_r(n8anPJ6o>!a6Q^J;h?A#|T~qE;b|$2Lo$uT3AH5_DT|lEUhAXi-V8o=rnGz1vy|M6$lcv%=HF
+2mPX`?~FyhwXl?@|DsQ!^-XA`*$sIAs=fO6@WqI?YpWf=FXZY7;%Sj!(E2-@E9a!MaoOO=jpUR^t9XMs8^fJPu=lp9e@sbj-j@Hl
+@6u1zinB{Xn$An`N8ru*mM^S;ja!kIJBCG;xtIxlr2IXjdJus$?TFjp@25ECPam47>cYlhM_Ih8AsBQOc;!j(o9|)Bpp36&L;%9?
+x6$=?gZD0Cp;61RkVKEDSE<^AbV?`FrKk#9Mx0MK-yzuG>V-mow5o?pn3mIGHuKA%sdzpJON(Ih1-c)kp`F5?X)BFclIn4tS(I^@
+vbHxWRi#-Xm*Gp#6btZcg>9|e9Hlo9x;}}!?bYe#H$eEZ+!2<uP650_yOf&%wL@w?gH&^QI>K0W42PY7r0Ebv26pDf$(Xg8UGO|_
+IwX`S$^nn~r^$=7U%;{kEB}@Q;kgrNfUcs8x<61u=uO^#{Fey4!u^Ywmr;$qO_P6ecOfkgpAJT(UmNt)P3gUg$}s*@LO3`>HK~h|
+A=P=4@a7FV?3Jl5L@yFoj?9qkSJV#sbRp)-^p-8o6%!XYJIRSyzIa+WlNs$mg=%WZ@ft}j0cAbN9T86|5XsjR#g-@bx%x%P%#L@&
+N$n^)qI<i_HoI;G{-ezCYI(^e$hyOb_#V0~;`n8LO=VKwPPxbNLfQ=UYDF*Tllu^Eu-*!KLMXgpu$8=CP%Ik-u2c?>9~?3Db7!m*
+tDYOMVo9Byd^`3w)0ug&;TOx6$+-4UQ1cmpXEOEv@UCW1mqufw&^AzFbc&mLmNv#hV7S$!;SKKOqAO|76B|ro|A`|dvU*tU-C*I+
+Fci)yn}qWBGUMu6{zR6~VD<BFPw?{6fH&H$95v@iAgYu+$EQNOByHQg?h4GZm{LRM*O-~7roE#NImxkV2+=w*mAILS{Ha0w+_e;5
+Zh7OTZkvJbJ_r7SWlApJa4unzko3OGe@GV`nfFAGuYWH{DtZ%x8K|<6Wyg1A@HyepxN2K7atzH$-3!S9+KYFK;BCd7SX#h4UI&)U
+(Sgx9f>PR_4}iOWXaILQ0pM?<(xK-aE<U+<CWCbAJB#*j;3dThfsZZ8idFrQ`N`l6>X^RF6cdnu&1^WBe$(4e)GKP`Te7RsK4e~p
+2#OGhI7>1W4SbNiAyDE2m>CAd|Hy&KMI9JdJ{Q5}<Ur0#Js|`4vtsIAh6ewsZ^KOJerO%*WZGt6Z)YiKL22UBMIW4F;WM2H&H;=k
+<hl<*NcfWLHd*^h*)ot->fdfA<OqdPCt~L{Zb8*54ojfVCWhS6upre2%gA+?#%uBmk7R-r>Khc9t-KfQ?$%(>gmjr9J)MF9DTV^O
+4uL77Zw(stwx~XMsU8}G<OMh#BuNd-qftGav}`Hmme8lm#>X|wX=Q|%TQ)*f|1zvZm6gmEA@un1h_~`gq{m~(MrXb{%)v`ta^r~`
+OKu&=)Ac_2E^a*wv{N_c{bO~CJf~paY3!wFS^auNI!rJ3-tqdvUQtp@pjTu3X8YApg@N<ixzmPztGHF)s&vqh#?jLCOQrki1Ys-`
+N}7S_v^^x@K+<4Q0}Ht&Du!AV{||zp(2zfqxX#Rc<=C}Y+E}Wr7w|s)?)YzEF(?!o=8k<Qq1fQKr0l_|G}{&Rn<r5dVSBz&Qw$Tw
+fIhL6*W)v&T}vbaf>j9ANf06_CtAVVlISnbcynitvxe`cKcV_8=uHP<WFdYegO$pS5M6`(2Iu3Yf<!L1$?gBl!b_d9zlWBkdbsdy
+GQy{=0^lhHagq}$Cia<d($kFG5d};h?~@1D>S}lWcaoBzHk~Cb#4+`|j(2GSmE_H3m}1iH&PZRI>EKfjouz_Vz3;edpzS$LQS;hu
+*5`(0h;ey^V3R~CkVqgOO@SIe;|%^9RD>y_e&56IPV*RcHRjh=EN3M>>NS6cuJ}8A4UkB=so2{`M1GH=1)e}i03gvCY~*G%h<qjj
+=a3%$9aA;LNX;(9`zaQx+6t!IF=q<_G0Aew-BmTtA?1OJX&d5VjiLIUL{PM@L*n$v+(cNme<h<m*5;b@HDnI^sNGFbUvk9f`e~uE
+RW8|j@4Vb^dJI2*D}(oukDF~VGiZo{2%7X7fg!5z6yjC4`fcODX@~8^ZD`t``jhJm7*5#Hb^NC|@PaE7!L(AO@V<RR3ZPX;g&dgS
+%uE=42qH=(;KzKW{{AB{V{@68Z8VT&5qxZ4**FCG#v3C;YDq+|@O41atZM<o#jBW&42lPc?tiY#%#?2)HRUvy?{4Ghjv`BIclnhw
+uO+<$8bm@o)O*t!NygB664Q-_NF$j1IUU`Mv{z_LrjRT>{A;Pn#(m#zfY5i2G5kN9=#EEmzIhY1MUf^FFKO1C`kg->@1_deA$B7)
+JX3<dLx%m<_NuM9d9B1pS+H7X0eMbW`!ew~Y+yO0sT>aad6T`JrOX8V=IbnJXbx=TqBfm8@E!r09ORlpQO}#VC;b_r#`V@V+3||G
+W;9$-k3#I9SVhKsM#v78AW69tBi5k_i{n+8yN^(m1MsTXc;Ws4*x@eXI(FApMzwgMz6&uM06eParxbtCg~Sg;mD0uZNDcReBGDf!
+4EaBq6y27t(=hPOI>$*%^W8sphkCl+k026N?m{0>$Z>W1jL_&xbjnz)a@tJR)^yM$pr)x>aVJ%{hQSxs!bDHHooK!%o@FaHA^(AZ
+9Gp_L_=pzF&OQ3n<m1Y92yibiM)Tg-WEp}+S4hVURTj1Fd0e#&R8oJU%5&LcXaeeVVXRZXU9J4_p&Bp?_ixKMDaXZgwH^hUxaaF>
+It~L`qHF|lwiSn4@e1uFwJ|z)cOuPQjJBx5eC|iP#tM*8vq0PLw*-=sdbkVUYjzy7hhUN0dK9uYlSyMZx)#iJhM%PEEO)tlWZHdf
+PCywUc=2>oAIc5a(H2~MWQs{1w}Hj;luLTS)z#PjW1e8NKg`3dc|USOJ)J^1INv(cRxElnaAoG6vGdg>*H=NOYZPKrAHzT=+V}W*
+Tw;Zi|F*-0Tn`R<AuMdO8sQM*igrWvBBirrYoGC|dDaSw4O82JWP;v(eno;GFG`%fPN})I#jl!QcxMgFw}o$AylkAcyBZ6QZ4||e
+8;;}(#j3LbT5VK-dT?iF6f$^R<pSA2Lblmv1y&VRR&W6odD(*JIlGP9fbnMPC4S+JbVJhkrYpSfWt1vo1(@Ff{0^tCSs9TGtH|-K
+$EixH-!}t5R!LGfzx8b7)^U}8h~a;azpXu-aMdm4E(-s>wls{u>V1%(ifzLlLKqP4Omb}@Qr@waaTtz2?b!LOfvxJ;@#Mf5jWE12
+7X<veTHZK32hp4(<WxtqpfHtZf<>7y5ueV9kmII6ty993=VlGbQ}X-cJeo=dz^r)c|B|=*P$dZ78p@oCgsp9F86NLDDQGM4z}yMV
+oPo6sSoK@cQxfGF56!8bluGrS{=)ynxvZN0VR{aDF3olqc}wmwSWS_<s%Bj{&>1KjJR1^Z%ZfAokOr{T7~2Ksjx`y18IL&c-Urcw
+iWTai3pdgVv0a3nNH-})yeAXe!i%lS*nzc#;}%l$xi_WC(@vR5FoVlZhC6~-S&#E9=VfI%Bj3?{FBY~>C(JxJD~a+_I@1>lnHbMi
+)@fflk}>~PRz9;J9g<!Da>u6cjF1w>JFR_*n?l^aTkXK?qtS4EThfa-K@)rF`iq0+ozZ3}#dou_+|n=R?eW`WX0ms46Ai8U%Tr{H
+%{NX?aA>TtFn#TSzYG4|BF3z6;m5Sjx@iz@-@^(mJE1}~zS5dKy;!a&(B&KjWRfrJA_E7p%g)4H0%@h`&^C3)ROo})!H^=+IZ<TO
+TG%aPd|m_L!#X9_Go-*x2J*Y-2fc#7PjVGP%a!X`Dv`L|NM^+3qU59<Sx0(-6EntB{1cy_>8=H)fQr|9Yg!|W&-Nod$7L&oSN>tZ
+pTDVdV#n*4MHzpC*^M<B+PDY_uyFD;c1yUyyClgh6sc@eBwD%~{Xc(iIa_)mU{}_ae`9DtL4atJu<&<CQfuA>1;tbv6A6sJ``R2K
+I^i`jEiJ~cf(rPc?Ap_r#8=Y;h$|+_)WPj)VaKx#;Gth%=R1XyDj-gWBN9@3u+qW>8ZgL4-2*&k=U$8`1qF$JjEIx(<(}7T6+Md!
+9jua8o`8;5&R>R_5aGGatwGHy&}ni5kBL@?YL#A4Bt00h$>m5yj^X~-Ttc!ldI5xy|M)`oF;Zc`<5E<4`b}ftaC>dEV?^Z<nKJG=
+)*ILE1uxlqFt>mCs`|bGkOx@ayIf|!b-^KJ)l%c|`8|wN`}JQ>8sXt7PE`7xI&Q7G6wV^r2Y%^(*kX|)w(*lP<d|B47or;=6ViYW
+{E2aBB+rsi2NhiGoF65Q8RY`7(c~8}KHmlop2O*{{bsC@^wo8Yd818szMFI0bUrWq#NC8%1L_}kMzyvHk}3H4Q^0K69LXq|#5^_(
+$q)V>`N4CCS`H3NW_~)++@6$cg4|IIVL7ZDVG7xoTVs6#%H&U_O7SSxu^Y^3J8{kwMz7jVtD|Fc^?Nr&L=fQ1I1O?nZ55WJHL1b0
+eg3f?I_%ho*w`SZr>hzqk{GFj?(Y$+UJ%i#Oaesu1A~cMAs&O`741|ZYk`S37NKF9a4M?^{~c*|IQ0r4-(q|Z5uPVbzz`H&PhWRC
+yCZ-G%ifGXGidVl($x^JYxWu;GmQF9Bd^^fq!d@l5bqLAkdV(Rrn+@1J4sBeilq(=s3BZ$BLLjBUa0aDqTwioT{Ss~awW>HY<aT#
+@2iW)??H^2{nYPgFM+8mWf^{qTl0-<U1DU-7RmFNX*}5Za#13wqdkCjZje{b!@5ZY@mc?+s?0E9V&DW5?PDa0O%x0wD&G{%=(u}g
+(=UvW1g^$e8JpEmU(grY5>z+=&-hd}TV!bWzoKs-V>JyvAm)N3VD=0P6vX^C`-d1Ic{lG$<iZo^?0v{sVt)R0g7(?<LeeK8jIJQY
+*0&SnBE$c~)mt}ty-mU9fQc?sUZndIRMp;;xAxYN{YOAlOGh=H-F!fk5u)oE49{X~W?uGjNW!&-Y6EhA0xTrUVG`5@M9FsV3vAZx
+UlJ$*r5E1;a_&21SEsr=(cxW%Jsvr}Y1G)SIfyfjx__$t{hGndgJFF>k8%A=&`Zd=ZU&eTO5k@PqE3xe=mlFYXTX&rI~_98hjhsU
+xglz?c)ZLQ_@*mlzKyI5J&qiqt4E$O<n^z~7b}d;dF_U@y{a{?5X~3Rym;*){}$sUFurM2;!q_nkQ)}1@LjXR4M1_=POKhIbkOMg
+9R2++jH`c)G^QHzq$g85ssS1#EUIF}Nmc0pfvk3x@oK)VANN;VB!%o2+>i>{i@7YYO|6aAvhinxD?bV*lQ}<$;zIptiFR5*Hl{LW
+zXMf=ZF=%Ox4g5BDr|e2r>&hbGJr=@1lOFKI1IUdXhfE79r*(E5`l~J=u{E+MAf#Q*=V5euy<77rD+3Pf4W%e&%<sP%O}b;?VP@>
+6KS430IebZ(-8CQf0srD6vRFKCX&WG39`=A2Cp`}&a?hm(YC{bf+wOaiZZwtVwzCgQ}=cQg7%bI?~LFqMo#SahJ2*w2%5OR&>RJU
+;N_d{amJg&9Ry`2B+QKFAep<9qkB&=wNhkgsyZBIzTu!hHWDH)g4;gShNVSyH4EWt79&qJ8%LaNA{bf$(Ty7GgO8YXYxm{u9fk!o
++&30zVK`YOB>{S2**LV?qcIWfeu#!z9g#?Rvk=0*7Y;zmi!z9Nxki-2%Lxvy-MoQ&^v_~^7LY*1Um9Cgee%o{HNXbXQzTSviT6oY
+k)Fzer{gG`xxoY1^#Zvbc1*P=nz_9352svbq=J6-J0Os(LD|uxKK-<|%3%?h_R@)3^Vm5>lnQTqE6nPalMqBnVGNAhsRwx8b3Z;B
+^y^rRg4q!_;6qrl`);d2`ZDT-AL55DM4HAbkEEV>`<-TY2g=B<LZws16fEy-Soh6_VO==xdK?P+(TSaB)2qR}Yzwyi6<(+7?MrUM
+?|#SJ=I>Q5_v9I_D;1h50<959BSs`^^g5-DBKmAb$FlzDLWvBiBlpdUJa?uG0Jz+E41uuBDTqW3_f*pchv(xDQjWy?xIAv>7NN-2
+4E_{DFJ>+b-=KhIA<e5IRItz2LzpKL6@Y(muCo%#Q!PK1W-1F|D0_aMqjClkDBqy9!K|<zj+Xk}3zS~`Y0)!3K}89|$|Sh+Yzj)6
+xh(HU=z`JiWsvf7FMwZn$|@2URak1aRWkqOIOC=0>3)5l-Kh)BHYZjIvg!n4!Ml~CSAEIZ`&Fp&^U`AVr+6+7&;PS=TYodWA*MD=
+(OA=0J1m@)nINot`2^>VSx3ue<s=evnbrPYwTu}rQ;CLoWHUnvn!!KSDx}ys__MSOQ%+=zVv7LidPbn+$8%(N4&2LV2V$Tv3_9pC
+>Y1g^pD<620s^3aL~twPP1>>;j;f}*nM7>Q!zJ$zHcP#3-0`68ewNkG7m`>uEmw>jJapGmk^SE^1yMBA;hU0jsc#=~sjD?9nLj6I
+U{b8+vDcKi{#L<O(b=D4BY7FH4GDVVf!rSYD5^fp#&rG_4Uh`q7sHB(qK~8hmE~YT2JE)XHMHVj&#Wq>;NEP>Z(I?-z}>Lgu*-^k
+$7=t~{JTU@iliGDK5AeUU0vH|cxP9%UX=*lwhdTs>AqOdm!X8Q+@{aNU|I*@9{J`x&$)i!H`b$Bf_`X?-mgs;Yk8mx*)bAV_{4_g
+DF)p9<8sB{7SGtBhw?IDdBr4mQ@uZr8U+j9Up>K4mBbZ(s3GSEMy`_U&9l^RaYfO1Z6)}bKnWIdiSGi<jH`bd`)Q=0JoKny(sqKb
+>=552I3J1eqbZ|`=()N~if+|F%3Q!W5x@j!GX7Nb%M)Zd#M|vKwe_8CyYrydhGKo6=ao>WxQw9AM}&EAp;P-D?w5EyAEYz(5wcA?
+nd?X^jiwGRK_hWQX1rqfDY}{9B_dUBK(C<fz%t|;STCCGaTZrb#zAx4EI#ScGk&thDc2{G263VkjlBWCq|;cy^d6@sa~4lr(c9I3
+Eg_(ek#O_xk3T{nC#Sd;@Gnylre<vb5@DGg2Y=;iRqI29GwPbdLzz38LZe$Kw!e}l=|kH=HGgvyLQSa@En`z-JI9F=y)GW{kudG`
+%h_Mek>oyuev6UwsZ{#iY1bG{?8q_+y?&a?TMCSnK}4%dN@iNw84v~;wW)GvR2<NkI2}?A__RW?!$pi*=x1*9Sy(=Y+?>v+?`a`U
+w8T)30+#F-uDEN|IbvA1q}B|awS1M{FPl7Q)t%<@FarlHWF{zA`d{sOt6xONjrOQi65dh<@W|qwA8V)mRA_%(eyLT6g_D&gTA9E_
+FGxZ<3xlsY`Ay<1_MOz&w4QOI<jHnwMJB2saA35!5q;3Ezq)0av;xR8!#Hwe^ds>0*tQ^R5EjpL0A?t7ARG;Cyu#F_N9I32pk>MY
+b>8~xpWVtj3&xBb+Uv%;&dnK&j*pp;McxpE5sd#>Sj2j&0iKUf0t-`!4GnReZcJ~j!N+<i;E?N|&Dt?YDJvMD`B{(hKgs1#Cda4p
+uWIF-N==FG-1J+V2HVKJa5vtV;<p~&D71H|eV%3{O^&DZVCoi%to)OVJr5!i2wf{Ov&KQ+(!D9t<+BC6c>FvJ0!Chcx2->gBvKFq
+oO+?<KUJaCe|ir0bot@Hh%P@}vS@(1*ekrqUr4~7^aG42An1n&fX)TiLt@AuD0EHMLRMFsXX1Sow+w%RH!T`RJ@TCO%Ko8x$un+9
+9Cj%q4??ZiY%Un%Pb+whM4^8jK#Afo(o0c-ORH`k+ZX!*TtYM2iIr3?%?!#V5LZ51XGcQg%X7Rku!7e(KrQcJ5g6qzK#4z$b%C51
+-5vOiXr4m>I=$tu%cHS6aU_SBoxA967R(o|L4Vjo5M#KM!vha~Glzv}#j2bk23cO*Uq4mHB?DeM<nuJ1N8w~Lz)wBM2s_|4DkIqQ
+hJy?p1v4!6YK?Rl#sUrVnz~P*>2_d>M%LC`g%c!QtBpnB&z+s7NTNfWt4F#CTuQ&R6qN0qnRI}}N^*XSISURypwV)ZURTRJ+j8zn
+H^&VBzM~WMRxRfP5J8+%9QqUQmg$A{ivz>QAc?I=DibgHr&Lw(FBL^pFy{3(TvyDNyZ$OU?q}9sM~Lx!*G1PaPMJxWG`&Hb6Cau5
+zA@=YsoJ?_iG=CpGcKY>($jGKXaRIK%F_3woWcny1#vgye&ti~v;Fq1H{jN6O&~hhkHP3&gDw50LUO_)A4_t!1TuThS5LamivPbR
+U^YG1w>#7Rg^#AmyKJB=_p@Id0&T00BKB$msSOK0EyiD~RM%u{t`D2pDVeV2*L)X1M5Qq6PfWZ>qH-Q0CiaYw9n>617^y3Vs<HPn
+>0x^wPOQ_pNvzJ~8#fjUiq7EYw?f&k5<j(vv6Y(-PM#;$NgmbrF~mP($*k~-FxcVT@i2q||Bf)<?CoEdqX={PpcmMPlS%!vJ?HA+
++snPXla<@OT6VSf-UCkzzmC?<U*+6$J&c!-H~oY4P;KKtRLgM@w^=Mg<LL2Y6?&BvN)~J8FLM<=qF~TM2`$)KFf$)IBVr7?kRcJ8
+(7X@klfO@1RDQ}uG}8oE&23k71F>1-G^IwO08+gziZN*0BhC285Yt#(|1kRfp^Dhc5-DR_ZP{Q4AXz6eAFb0pL^QAil~vrb0lldi
+fpDX&Vb=d>+B=RYa$U{yYSTweM^$1+a-5+P`V@h2uCpS=ab8+A2M3BTo};x$VpuuhfRqQZn|%2jE3o@(XD$z0xciqWT6r@w-FMM|
+HjE#$q<hn)k`hB~gA{vbXqWt?vP4^x{95P@Iy}?Y7Bxr^zHZew{V-6dr}!C5T|C`!Gb;|!0k`rE#!iv;IqUsIQvGC#++<lXllWsI
+npbe_3^oftsL3facU*W^pI;B=>}bD)pf_v<Yk==`3|f4iFyZ!W`Pp_$ApigX^&ZX}*zW#?00Fy{0gHqL>AZlNvBYQl0ssI200dcD
+"""
+if len(sys.argv)!=2:raise SystemExit('python -B -S recover_transverse_twocap.py fresh')
+b=lzma.decompress(base64.b85decode(''.join(DATA.split())))
+assert len(b)==66059 and hashlib.sha256(b).hexdigest()=='f405300eec4304c9e7d724f821b437fc607b56848ddd4c23745c0911476ba341'
+p=Path(sys.argv[1]);p.mkdir(parents=True,exist_ok=True);p=p/'transverse_twocap.py'
+if p.exists() and p.read_bytes()!=b:raise SystemExit('Refusing to overwrite different source')
+p.write_bytes(b)
+print('TRANSVERSE_TWOCAP_SOURCE_RECOVERED',len(b),hashlib.sha256(b).hexdigest())
+```
+
+Convenience copies: autonomous verifier (`transverse_twocap.py`), exact report (`transverse_twocap.json`), source-only decoder (`recover_transverse_twocap.py`). The embedded capsule is sufficient without these links.

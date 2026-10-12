@@ -1,0 +1,329 @@
+# material-9586619d6d49
+
+AI research material · [Export notes](../catalog/coverage.md#text-records)
+
+<!-- historical-status:start -->
+> **Historical AI material.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../C622/README.md) passes the supplied exact checks; C<500 remains open; Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. See [verification status and source gaps](../catalog/coverage.md).
+<!-- historical-status:end -->
+
+---
+
+# J136 exact common-apex cuts and entire signed-moment corridor
+
+This complete recovery delta preserves TWO exact nonwinners and a proved exclusion for their entire nested physical corridor. No own110. It does not exclude all common-apex chains, all cuts, projective deformations or changed host geometry.
+
+## Exact dependency closure
+Save each literal block below under its named filename with its terminating newline. Two unchanged complete source units are required in the same directory:
+- engine131.py,5318B,SHA57c193dfbdc155935de187e4c6b01f0115bd1dba1c65d89b383076abd0c7f63a, contained in immutable [internal-source-reference] (J131 exact atlas part1).
+- poly134.py,5167B,SHA2692ed9a5ccdfe958361127af684b280b063edf0bed23cdcf51deafd8c28ef15, contained in immutable [internal-source-reference] (J135 recovery part1).
+These are exact required dependencies, not supplied by merely naming a sandbox. A fresh computational worker needs this material AND those two native materials. The literal FLEX78_G8 input below removes dependence on the original numerical workspace or a larger decoder.
+
+Environment actually used: CPython3.13.5,NumPy2.3.5,SciPy1.17.0,oneBLAS/OMPthread. Exact arithmetic is standard-library Fraction; SciPy Qhull nominates hull faces only. Exact supporting signs, maximal polygons, two-face ownership, Euler, filled mass and all strict/weak tests certify nominated boundaries. No generic claim of Qhull completeness for arbitrary inputs is made. Intermediate corridor meshes use rational clipping and hull extension without float nomination. One mechanics engine and centred reintegration are not independent two-engine verification.
+
+Run OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python REPLAY136.py. It reconstructs both bodies from exact parent linear-planarity data and integer plane normals, then the complete corridor. Expected final marker: J136_TWO_EXACT_NONWINNERS_NESTED_CORRIDOR_ELEVEN_FORCED_U_PASS 114 NO_110. Exact output hashes and all recovery input hashes are in the complete runner below. Frozen normals, not trigonometric regeneration, are the authoritative exact inputs. Nomination metadata documents the producing path but does not prove feasibility.
+
+## Findings and proof
+APEX136_K10_G10:94/218/126,C436,own(25,13,36),additionalweak000,primitive000; at the OLD parent's exact centroid it is strict121/weak000/primitive000. It has12 positiveP and24 positiveQ, all preserved in the output. Largest/smallest P approximately .6355541510014998/2.128791388562582e-6; Q .0437079691411218/1.86377702712395e-5. ReferenceP .5733319119222525. Volume fraction .8594732313430292; actual-centroid drift (.021927717565545703,.01758166503166902,-.06647978229680189). Point numerator/denominator maximum263/264bits.
+APEX136_K30_G10:102/239/139,C478,own(31,12,41),additionalweak000,primitive000; OLD-centroid reference121/weak000/primitive000. It has11 positiveP and30 positiveQ. Largest/smallest P .6293709928550314/.00014903230536542477; Q .0471075442304829/4.092179288421241e-7. ReferenceP .5795357420548023. Volume fraction .8948580867834233; actual drift (.022517430741447228,.01432255101584755,-.050332500878229776). Point bits255/256. All decimals are displays; exact fractions and full lists are generated, never thresholded.
+
+Both cuts preserve original material vertex6 exactly by assigning each new plane offset h=n.p6. The old-centre stable cancellation transfers the defect to physical U; it does NOT give reference110, much less own110. The common-apex relay principle itself was already present in J119; the finite FLEX78 constructions and the exact corridor computation are the new work here.
+
+Exact mesh construction proves L=K10 intersect K30=K10 and U=conv(K10 union K30)=K30. Their volumes are approximately .5541365150159894 and .5769505361664149. For EVERY full-dimensional homogeneous convex B with L subset B subset U, eleven old material vertices [6,31,34,35,38,39,40,41,70,72,74] remain strict unstable at B's own centroid. There is no imposed centre cube, fan or edge budget.
+
+Proof: for such a retained vertex u and each upper-hull incident extreme tangent ray d, set f(x)=(u-x).d. Pointwise 0<=1_(B\L)<=1_(U\L) gives
+ V(B)(u-c(B)).d = integral_B f <= integral_L f + integral_U max(f,0) - integral_L max(f,0) = T_d.
+All114 rays were evaluated exactly. Their counts by the eleven vertices are [28,5,21,10,23,4,6,5,4,4,4]. Every T_d is strictly negative; indeed T_d/(V(U)||d||1)<-1/1000. The worst normalized value over the114 is approximately -.0010059343844131664. All feasible chords of B from u lie in the upper tangent cone, generated by these rays. Thus (u-c(B)).(x-u)<0 for every x in B distinct from u, and u is strict U. Eleven such vertices preclude own110 throughout the entire stated corridor, even when the actual centroid moves arbitrarily within what the physical bodies permit. Changing required inner geometry or extending outside the upper body escapes this theorem.
+
+Exact positive-part integration avoids repeated clipping for each affine functional. On a positive tetrahedron with affine vertex values s0..s3,
+ integral_T max(f,0)=Vol(T)/4 * [s0,s1,s2,s3](s_+^4).
+Repeated knots use confluent divided differences g^(k)(s)/k!=binom(4,k)(s_+)^(4-k),k<=3. Repeated barycentric integration/FTC yields the formula; continuity covers equal knots because s_+^4 is C3. The code sums over positive origin-face tetrahedra of the rational convex boundary. Simple exact unit cases are checked in REPLAY136.py. Full directions, rational integrals, all T and both meshes are in the4187489B output, not replaced by its hash.
+
+## freeze_apex136.py
+```python
+"""Exact reconstruction of common-apex cuts, including true homogeneous mass.
+Frozen input = FLEX78_G8_RAW.json and all integer new-plane normals. Each offset
+is the exact normal dot original vertex 6, never a rounded copied support.
+Qhull proposes hulls; poly134 certifies maximal facets and all exact guards.
+"""
+import os
+os.environ.setdefault('OPENBLAS_NUM_THREADS','1')
+import json,sys,hashlib,argparse
+from pathlib import Path
+from fractions import Fraction as F
+import engine131 as e,poly134 as p
+sys.set_int_max_str_digits(0)
+ROOT=Path(__file__).resolve().parent
+
+def parent():
+ raw=json.loads((ROOT/'FLEX78_G8_RAW.json').read_text());N=raw['N'];K=len(raw['patches']);A=[]
+ for k,pa in enumerate(raw['patches']):
+  for i in pa['vertices']:
+   row=[F(0)]*(3*N+K);row[3*i:3*i+3]=map(F,pa['normal']);row[3*N+k]=-F(raw['normal_scale']);A.append(row)
+ rr,piv=e.rref(A);free=[i for i in range(3*N+K)if i not in piv];assert free==raw['free_indices']
+ z=e.lift_free(rr,piv,free,list(map(F,raw['free_values'])));assert all(e.dot(a,z)==0 for a in A)
+ return [tuple(z[3*i:3*i+3])for i in range(N)]
+
+def build(X,rows):
+ fs,hs,es,vs=p.hull(X);apex=X[6]
+ Q=[e.mul(1/h,n)for n,h in hs]
+ for nn in rows:
+  n=tuple(map(F,nn));h=e.dot(n,apex);assert h>0;Q.append(e.mul(1/h,n))
+ qf,qh,qe,qv=p.hull(Q);P=[e.mul(1/h,n)for n,h in qh];assert len(set(P))==len(P)
+ return P,Q
+
+def at(X,centre):
+ fs,hs,es,vs=p.hull(X);Y=[e.sub(x,centre)for x in X];S=[];U=[];H=[];weak=[[],[],[]];zero=[0,0,0];nb=[[]for _ in X]
+ for fi,(t,(n,h))in enumerate(zip(fs,hs)):
+  assert h-e.dot(n,centre)>0
+  sig=[e.dot(n,e.cross(Y[t[j]],Y[t[(j+1)%len(t)]]))for j in range(len(t))];zero[0]+=sum(v==0 for v in sig)
+  if min(sig)>0:S.append(fi)
+  elif min(sig)>=0:weak[0].append(fi)
+ for i,j in es:nb[i].append(j);nb[j].append(i)
+ for i in vs:
+  sig=[e.dot(Y[i],e.sub(Y[j],Y[i]))for j in nb[i]];zero[1]+=sum(v==0 for v in sig)
+  if max(sig)<0:U.append(i)
+  elif max(sig)<=0:weak[1].append(i)
+ for (a,b),(i,j)in es.items():
+  d=e.sub(Y[b],Y[a]);dd=e.dot(d,d);aa=-e.dot(Y[a],d);bb=dd-aa;foot=e.add(Y[a],e.mul(aa/dd,d));n1,n2=hs[i][0],hs[j][0]
+  g11,g12,g22=e.dot(n1,n1),e.dot(n1,n2),e.dot(n2,n2);D=g11*g22-g12*g12
+  c1=e.dot(foot,n1)*g22-e.dot(foot,n2)*g12;c2=e.dot(foot,n2)*g11-e.dot(foot,n1)*g12
+  assert e.mul(D,foot)==e.add(e.mul(c1,n1),e.mul(c2,n2));sig=[aa,bb,c1,c2];zero[2]+=sum(v==0 for v in sig)
+  if min(sig)>0:H.append((a,b))
+  elif min(sig)>=0:weak[2].append((a,b))
+ P=e.persistence(Y,es);Q=e.persistence([e.mul(1/(h-e.dot(n,centre)),n)for n,h in hs],es.values())
+ assert len(S)+len(U)-len(H)==2 and len(P)==len(U)-1 and len(Q)==len(S)-1
+ return dict(strict=[len(S),len(U),len(H)],weak=list(map(len,weak)),primitive_zero=zero,S=S,U=U,H=H,P=P,Q=Q,centre=centre)
+
+def replay(rawfile,tag):
+ inp=json.loads(Path(rawfile).read_text());X=parent();fs,hs,es,vs=p.hull(X);V,M,g=p.mass(X,fs);P,Q=build(X,inp['normals']);a,ff=p.audit(P);ref=at(P,g)
+ yy=[e.sub(x,a['centroid'])for x in P];v,m,gg=p.mass(yy,ff);assert v==a['volume'] and m==gg==(F(0),)*3
+ out=dict(name=tag,input=inp,points=P,faces=ff,audit=a,reference=ref,old_centroid=g,old_volume=V,centred_mass_check=True,positive_centred_tetrahedra=all(e.det(yy[f[0]],yy[f[i]],yy[f[i+1]])>0 for f in ff for i in range(1,len(f)-1)))
+ assert out['positive_centred_tetrahedra']
+ bb=(json.dumps(e.serial(out),sort_keys=True,separators=(',',':'))+'\n').encode();(ROOT/(tag+'_EXACT.json')).write_bytes(bb)
+ info=dict(name=tag,VEF=[a[k]for k in ('V','E','F')],strict=a['strict'],weak=a['weak'],primitive_zero=a['primitive_zero'],reference=ref['strict'],reference_weak=ref['weak'],reference_primitive_zero=ref['primitive_zero'],P=[float(x['depth'])for x in a['P']],Q=[float(x['depth'])for x in a['Q']],reference_P=[float(x['depth'])for x in ref['P']],volume_fraction=float(a['volume']/V),centroid_drift=[float(x)for x in e.sub(a['centroid'],g)],point_bits=[max(abs(v.numerator).bit_length()for x in P for v in x),max(v.denominator.bit_length()for x in P for v in x)],bytes=len(bb),sha256=hashlib.sha256(bb).hexdigest())
+ (ROOT/(tag+'_SUMMARY.json')).write_text(json.dumps(info,indent=2)+'\n');print('APEX136_EXACT_NONWINNER',json.dumps(info),flush=True)
+ return out
+if __name__=='__main__':
+ ap=argparse.ArgumentParser();ap.add_argument('--raw',required=True);ap.add_argument('--tag',required=True);a=ap.parse_args();replay(a.raw,a.tag)
+```
+
+## mesh136.py
+```python
+"""Rational polygon-mesh clipping and hull extension, no floating nomination.
+Start from a certified outward maximal boundary. All new plane signs are exact.
+"""
+from fractions import Fraction as F
+import engine131 as e, poly134 as p
+
+def assemble(polys):
+    X=sorted({x for t in polys for x in t});ix={x:i for i,x in enumerate(X)};planes={}
+    for t in polys:
+        ids=[ix[x] for x in t];n=None
+        for j in range(1,len(ids)-1):
+            nn=e.cross(e.sub(X[ids[j]],X[ids[0]]),e.sub(X[ids[j+1]],X[ids[0]]))
+            if e.dot(nn,nn)>0:n=nn;break
+        if n is None:continue
+        h=e.dot(n,X[ids[0]]);sg=[e.dot(n,x)-h for x in X]
+        assert max(sg)<=0 and min(sg)<0,'Invalid outward supporting polygon'
+        key=p.primitive(tuple(n)+(h,));planes[key]=[i for i,s in enumerate(sg) if s==0]
+    items=[]
+    for row,ids in planes.items():
+        n=tuple(map(F,row[:3]));h=F(row[3]);f=p.planar_cycle(X,ids,n);items.append((f,(n,h)))
+    items.sort();fs=[a for a,b in items];hs=[b for a,b in items];vs=sorted({i for f in fs for i in f})
+    if len(vs)<len(X):
+        return assemble([[X[i] for i in f] for f in fs])
+    edges={}
+    for fi,f in enumerate(fs):
+        for i in range(len(f)):edges.setdefault(tuple(sorted((f[i],f[(i+1)%len(f)]))),[]).append(fi)
+    assert all(len(v)==2 for v in edges.values()),'Open boundary'
+    assert len(X)-len(edges)+len(fs)==2
+    return X,fs,hs,dict(sorted(edges.items()))
+
+def clip(X,fs,n,h):
+    s=[e.dot(n,x)-h for x in X]
+    if max(s)<=0:return assemble([[X[i] for i in f]for f in fs])
+    assert min(s)<0,'Empty/full-dimensionality lost'
+    polys=[];cap=set()
+    for f in fs:
+        t=[]
+        for k,i in enumerate(f):
+            j=f[(k+1)%len(f)]
+            if s[i]<=0:
+                t.append(X[i])
+                if s[i]==0:cap.add(X[i])
+            if s[i]*s[j]<0:
+                z=e.add(X[i],e.mul(s[i]/(s[i]-s[j]),e.sub(X[j],X[i])))
+                t.append(z);cap.add(z)
+        t=list(dict.fromkeys(t))
+        if len(t)>=3:polys.append(t)
+    cp=sorted(cap);assert len(cp)>=3
+    cy=p.planar_cycle(cp,list(range(len(cp))),n);polys.append([cp[i] for i in cy])
+    return assemble(polys)
+
+def extend(X,fs,z):
+    hs=[]
+    for f in fs:
+        n=e.cross(e.sub(X[f[1]],X[f[0]]),e.sub(X[f[2]],X[f[0]]));hs.append((n,e.dot(n,X[f[0]])))
+    vis={i for i,(n,h)in enumerate(hs)if e.dot(n,z)>h}
+    if not vis:return X,fs,hs,None
+    edges={}
+    for i,f in enumerate(fs):
+        for k,a in enumerate(f):edges.setdefault(tuple(sorted((a,f[(k+1)%len(f)]))),[]).append((i,a,f[(k+1)%len(f)]))
+    polys=[[X[i]for i in f]for k,f in enumerate(fs)if k not in vis]
+    for records in edges.values():
+        assert len(records)==2
+        if sum(i in vis for i,a,b in records)==1:
+            i,a,b=next(r for r in records if r[0]in vis)
+            nn=e.cross(e.sub(X[b],X[a]),e.sub(z,X[a]))
+            if e.dot(nn,nn)>0:polys.append([X[a],X[b],z])
+    return assemble(polys)
+```
+
+## corridor136.py
+```python
+"""Exact entire-corridor unstable-vertex obstruction via affine positive parts.
+Uses boundary tetrahedra and confluent divided differences, not repeated hull
+clipping. For affine f with vertex values s0..s3 on a tetrahedron T,
+ integral_T max(f,0) = volume(T)/4 * [s0,s1,s2,s3] (max(s,0)**4).
+Repeated knots use the exact derivative/binomial value, including knots at 0.
+All geometry and moments remain rational; no equilibrium or slack threshold.
+"""
+import os
+os.environ.setdefault('OPENBLAS_NUM_THREADS','1')
+import json,sys,hashlib,time
+from fractions import Fraction as F
+from pathlib import Path
+from math import comb
+import engine131 as e,poly134 as p,freeze_apex136 as cap,mesh136 as mesh
+sys.set_int_max_str_digits(0);ROOT=Path(__file__).resolve().parent
+
+def positive_simplex(s):
+ """Normalized mean of the positive affine part on a 3-simplex."""
+ s=sorted(s)
+ if s[-1]<=0:return F(0)
+ if s[0]>=0:return sum(s,F(0))/4
+ dd=[max(x,F(0))**4 for x in s]
+ for k in range(1,4):
+  out=[]
+  for i in range(4-k):
+   if s[i+k]==s[i]:out.append(F(comb(4,k))*max(s[i],F(0))**(4-k))
+   else:out.append((dd[i+1]-dd[i])/(s[i+k]-s[i]))
+  dd=out
+ assert dd[0]>=0
+ return dd[0]/4
+
+def tets(X,fs):
+ out=[]
+ for f in fs:
+  for i in range(1,len(f)-1):
+   ids=(f[0],f[i],f[i+1]);v=e.det(*(X[j]for j in ids))/6;assert v>0;out.append((ids,v))
+ return out
+
+def positive(X,tt,d,h):
+ values=[h-e.dot(d,x)for x in X];out=F(0)
+ for ids,v in tt:out+=v*positive_simplex([h]+[values[i]for i in ids])
+ return out
+
+def load(name):
+ a=json.loads((ROOT/(name+'_EXACT.json')).read_text());return [tuple(map(F,x))for x in a['points']],a
+
+def run():
+ beg=time.time();X=cap.parent();PA,a=load('APEX136_K10_G10');PB,b=load('APEX136_K30_G10')
+ na=json.loads((ROOT/'APEX136_K10_G10_RAW.json').read_text())['normals'];nb=json.loads((ROOT/'APEX136_K30_G10_RAW.json').read_text())['normals']
+ L,lf,lh,le=mesh.assemble([[PA[i]for i in f]for f in a['faces']])
+ for k,nn in enumerate(nb):
+  n=tuple(map(F,nn));L,lf,lh,le=mesh.clip(L,lf,n,e.dot(n,X[6]));print('LOWER_CLIP',k,len(L),flush=True)
+ U,uf,uh,ue=mesh.assemble([[PA[i]for i in f]for f in a['faces']])
+ for k,z in enumerate(PB):
+  U,uf,uh,ue=mesh.extend(U,uf,z)
+ U,uf,uh,ue=mesh.assemble([[U[i]for i in f]for f in uf])
+ VL,ML,gL=p.mass(L,lf);VU,MU,gU=p.mass(U,uf);assert VU>=VL
+ TL,TU=tets(L,lf),tets(U,uf);assert sum(v for ids,v in TL)==VL and sum(v for ids,v in TU)==VU
+ # Every lower extreme is inside every upper supporting halfspace.
+ assert all(e.dot(n,x)<=h for x in L for n,h in uh)
+ au={PA[i]for i in a['audit']['U']};bu={PB[i]for i in b['audit']['U']};common=au&bu&set(L)&set(U)
+ candidates=[]
+ for old,u in enumerate(X):
+  if u not in common:continue
+  i=U.index(u);rays=[e.sub(U[j if i==k else k],u)for k,j in ue if i in (k,j)]
+  candidates.append((old,u,rays))
+ print('CORRIDOR136_BUILT',len(L),len(le),len(lf),len(U),len(ue),len(uf),'volumes',float(VL),float(VU),'candidates',[r[0]for r in candidates],flush=True)
+ rows=[];proved=[]
+ for old,u,rays in candidates:
+  witness=[]
+  for d in rays:
+   h=e.dot(d,u);base=VL*h-e.dot(d,ML);up=positive(U,TU,d,h);lo=positive(L,TL,d,h);bound=base+up-lo
+   witness.append(dict(direction=d,integral_lower=base,positive_upper=up,positive_lower=lo,T=bound,normalized=bound/(VU*sum(abs(x)for x in d))))
+  good=all(w['T']<0 for w in witness)
+  if good:proved.append(old)
+  rows.append(dict(old_material=old,vertex=u,ray_count=len(rays),proved_strict_U=good,witnesses=witness))
+  print('CORRIDOR136_VERTEX',old,len(rays),good,'worst',max(float(w['normalized'])for w in witness),flush=True)
+  partial=dict(lower=dict(points=L,faces=lf,volume=VL,moment=ML,centroid=gL),upper=dict(points=U,faces=uf,volume=VU,moment=MU,centroid=gU),rows=rows,proved_old_material=proved )
+  ob=(json.dumps(e.serial(partial),sort_keys=True,separators=(',',':'))+'\n').encode();(ROOT/'CORRIDOR136_EXACT.json').write_bytes(ob)
+ info=dict(lowerVEF=[len(L),len(le),len(lf)],upperVEF=[len(U),len(ue),len(uf)],lowerVolume=float(VL),upperVolume=float(VU),proved=proved,ray_counts=[r['ray_count']for r in rows if r['proved_strict_U']],worst_normalized=[max(float(w['normalized'])for w in r['witnesses'])for r in rows if r['proved_strict_U']],bytes=len(ob),sha256=hashlib.sha256(ob).hexdigest() )
+ (ROOT/'CORRIDOR136_SUMMARY.json').write_text(json.dumps(info,indent=2)+'\n');print('CORRIDOR136_COMPLETE',json.dumps(info),flush=True)
+ return partial
+if __name__=='__main__':run()
+```
+
+## FLEX78_G8_RAW.json
+```json
+{"N":78,"free_grid":8,"free_indices":[1,2,3,4,5,7,8,9,10,11,12,13,14,16,17,18,19,20,23,27,28,29,32,34,35,38,40,41,42,43,44,45,46,47,48,49,50,52,53,55,56,58,59,62,63,64,65,66,67,68,69,70,71,72,73,74,76,77,80,82,83,86,88,89,92,93,94,95,97,98,100,101,107,109,110,113,115,116,119,122,124,125,127,128,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,151,152,154,155,157,158,160,161,162,163,164,166,167,169,170,172,173,175,176,178,179,180,181,182,184,185,187,188,189,190,191,192,193,194,197,198,199,200,201,202,203,205,206,208,209,211,212,215,216,217,218,219,220,221,222,223,224,225,226,227,232,233,234,236,237,238,239,240,241,242,243,244,245,246,247,248,249],"free_values":["-8629781/50000000","68925639/100000000","-51594289/100000000","-27605843/100000000","44835493/100000000","-12911047/50000000","58750847/100000000","-39645431/50000000","-6141627/12500000","-1236901/20000000","-38686897/50000000","-47149929/100000000","-2508527/12500000","-9847161/25000000","3364957/10000000","-78534901/100000000","-25562471/50000000","3845209/100000000","-385363/3125000","22991867/100000000","-4962613/100000000","33871957/50000000","14694137/25000000","-2460959/100000000","31980839/50000000","47749007/100000000","-327029/50000000","53638123/100000000","16599659/25000000","-1774239/100000000","27405343/100000000","7315999/12500000","-844821/50000000","20684313/50000000","7856879/12500000","-198003/10000000","17294943/50000000","12753/1000000","-186709/5000000","-12861283/100000000","71345531/100000000","-9383943/100000000","17771377/25000000","2429807/20000000","2764611/4000000","-298197/25000000","19906111/100000000","17988267/25000000","73561/50000000","2112537/50000000","8895693/12500000","186297/5000000","-11301351/100000000","17317617/25000000","306923/6250000","-4897451/25000000","4591159/20000000","-44511661/100000000","-35286929/100000000","2089367/20000000","-13823893/50000000","-27511757/100000000","-40541641/100000000","-11069967/25000000","-9171593/25000000","3258209/100000000","14941153/25000000","-10312653/50000000","54883533/100000000","-29609407/100000000","-8571749/100000000","-18760771/50000000","-729827/12500000","-11390281/20000000","-6025307/20000000","-46012309/100000000","2953653/5000000","-3206829/100000000","-5312551/12500000","-17286409/50000000","11000659/20000000","-1965241/6250000","-21271193/50000000","-21478427/50000000","-49204769/100000000","-15310007/50000000","27335093/100000000","1771501/100000000","-58379/200000","-41786561/100000000","-8733831/100000000","202273/312500","-1929063/100000000","31043449/100000000","16965461/25000000","-759553/50000000","2961527/12500000","1899577/3125000","-190417/10000000","9508927/25000000","-803647/100000000","16056693/100000000","-222451/20000000","50772203/100000000","-726379/50000000","696617/1562500","-277753/100000000","4093179/50000000","9012709/12500000","134423/20000000","61307/25000000","123039/5000000","-3771033/50000000","-59093/1562500","13225997/20000000","-864069/100000000","30751469/50000000","48487/100000000","56314641/100000000","-7237637/100000000","17468233/25000000","70349709/100000000","2158639/50000000","-1545931/10000000","-11558273/100000000","71534849/100000000","-7344273/50000000","70637727/100000000","-27879929/100000000","-4172617/20000000","65387581/100000000","33830423/50000000","3859643/50000000","-11811541/50000000","-6232589/20000000","-11291307/25000000","-11916427/50000000","24947491/50000000","28052663/50000000","4890471/25000000","-39755589/100000000","16292059/100000000","-5908863/12500000","-3582533/10000000","10322493/25000000","2211917/6250000","-46803511/100000000","-9327853/25000000","884471/10000000","57908189/100000000","-2610179/10000000","68009443/100000000","-89443/50000000","-5892261/25000000","-2219079/50000000","30204783/50000000","-11989953/100000000","70202289/100000000","4959737/50000000","-1179619/10000000","-22355843/50000000","-33348667/100000000","29698303/100000000","33531999/50000000","29826869/50000000","64975051/100000000","69537119/100000000","41947987/100000000","12505377/25000000","16662011/50000000","68602567/100000000","68647407/100000000","69695779/100000000","87956969/100000000","46258757/100000000","47198141/100000000","48415357/100000000"],"normal_scale":100000000,"patches":[{"normal":[24308931,-93461151,25963227],"vertices":[0,2,69,5,34,61,18,62]},{"normal":[89745970,32666803,-29640188],"vertices":[7,27,65,76]},{"normal":[92060957,35844367,15490692],"vertices":[7,76,20,53]},{"normal":[50964222,84145804,-17948030],"vertices":[8,40,39,71,35]},{"normal":[87981053,41947439,22355013],"vertices":[8,50,20,76]},{"normal":[83734746,42502939,-34380117],"vertices":[8,76,65,26]},{"normal":[8227762,76078225,64377074],"vertices":[10,38,56,11,57]},{"normal":[53749833,70256283,46637003],"vertices":[10,58,13,51,12,35]},{"normal":[32299759,-89346735,31207155],"vertices":[12,59,19,34,52]},{"normal":[94889444,-27049018,-16258662],"vertices":[17,34,28,55]},{"normal":[60910567,55753694,-56404152],"vertices":[25,44,70,40]},{"normal":[81230940,638820,-58319175],"vertices":[26,28,33,37]},{"normal":[-59365548,-56932542,-56871938],"vertices":[29,42,36,77]},{"normal":[-37583701,48904180,-78713701],"vertices":[30,43,32,41]},{"normal":[-27009817,40309721,-87439100],"vertices":[30,71,39,43]},{"normal":[8481231,-14896093,-98519923],"vertices":[37,43,44,68]}]}
+```
+
+## APEX136_K10_G10_RAW.json
+```json
+{"apex_material":6,"nomination_parameters":{"S":[18,20],"U":6,"allocation":1.0,"bulge":0.0,"first_tangent":true,"guards":[8.192995662544047e-07,0.001404644292452944,0.0014243468007234872,0.0014431221775465977,0.0014609849581375628,0.0014779532079346165,0.0014940480332005937,0.001509293108444279,0.0015237142266327271,0.0015373388767572446,0.0015493588487752964],"k":10,"min_guard":8.192995662544047e-07,"offset":1.0,"perp_ratio":1.4566257804974092,"phi":2.662732631620745,"winding":1},"normal_grid":10000000000,"normals":[[-20004768533,12319683997,5527114343],[-18985855256,11448250423,11305380183],[-17131314951,9230336870,16743800908],[-14514312354,5726324391,21409825135],[-11270649242,1097323978,24894770476],[-7593519867,-4398981389,26846198162],[-3723572060,-10420029043,26998618155],[65350757,-16557319018,25200102044],[3484059667,-22361758830,21432497272],[6248410520,-27374018747,15823233695]],"parent":"FLEX78_G8_RAW.json"}
+```
+
+## APEX136_K30_G10_RAW.json
+```json
+{"apex_material":6,"nomination_parameters":{"S":[18,20],"U":6,"allocation":0.01,"bulge":0.0,"first_tangent":true,"guards":[8.192995662544047e-07,6.953215987692073e-05,6.963887490045171e-05,6.974505736224817e-05,6.985070781717277e-05,6.995582684591822e-05,7.006041506044889e-05,7.016447309911392e-05,7.026800162814872e-05,7.037100134260166e-05,7.04734729630544e-05,7.057541723754275e-05,7.067683494134829e-05,7.077772687386323e-05,7.087809386159144e-05,7.097793675593893e-05,7.107725643378592e-05,7.117605379622954e-05,7.127432976845956e-05,7.137208530000275e-05,7.146932136408223e-05,7.15660389566764e-05,7.166223909710844e-05,7.175792282711077e-05,7.185309121073127e-05,7.194774533380847e-05,7.20418863036781e-05,7.213551524836997e-05,7.222863331797158e-05,7.232124168189023e-05,0.24508585911122577],"k":30,"min_guard":8.192995662544047e-07,"offset":1.0,"perp_ratio":1.4566257804974092,"phi":2.662732631620745,"winding":1},"normal_grid":10000000000,"normals":[[-20004768533,12319683997,5527114343],[-19667524991,12027195306,7407001400],[-19241938097,11592114686,9249025049],[-18730663926,11016734393,11038288447],[-18137058769,10304476530,12760192100],[-17465158212,9459875083,14400551912],[-16719650664,8488549005,15945714897],[-15905845511,7397166492,17382671620],[-15029636080,6193400655,18699164452],[-14097457689,4885876875,19883790745],[-13116241056,3484112189,20926100069],[-12093361416,1998447121,21816684695],[-11036583695,439970445,22547262552],[-9954004160,-1179562598,23110751936],[-8853988974,-2847818015,23501337319],[-7745110109,-4551976071,23714525659],[-6636079116,-6278828909,23747192689],[-5535679252,-8014882017,23597618749],[-4452696488,-9746458805,23265513762],[-3395849940,-11459807457,22752031114],[-2373722261,-13141209248,22059770190],[-1394690562,-14777087480,21192767490],[-466858388,-16354116169,20156476289],[402010682,-17859327623,18957734904],[1204557278,-19280218065,17604723740],[1933887802,-20604850422,16106911353],[2583632807,-21821953463,14474989880],[3148001683,-22921016470,12720800243],[3621833213,-23892378643,10857247662],[4000641543,-24727312502,8898208044]],"parent":"FLEX78_G8_RAW.json"}
+```
+
+## REPLAY136.py
+```python
+"""Cold exact reconstruction and scoped assertions for J136; not independent physics."""
+from pathlib import Path
+from fractions import Fraction as F
+import hashlib,json,subprocess,sys
+sys.set_int_max_str_digits(0)
+ROOT=Path(__file__).resolve().parent
+INPUTS={
+'engine131.py':(5318,'57c193dfbdc155935de187e4c6b01f0115bd1dba1c65d89b383076abd0c7f63a'),
+'poly134.py':(5167,'2692ed9a5ccdfe958361127af684b280b063edf0bed23cdcf51deafd8c28ef15'),
+'freeze_apex136.py':(4336,'49276b1e951e271d2284ecd6d48792cbe655059b8a65fcafee66c1400f31b98e'),
+'mesh136.py':(2951,'c0b1561ce3e1962356570f1e2d87c735a270bdea08aaf2691c015b2dc2ef3ee2'),
+'corridor136.py':(4413,'80a23895dcbc17bc53992e9d7963cd13adbacd7e159e57a937d067d5f8d1a1f0'),
+'FLEX78_G8_RAW.json':(5357,'50a5c5a9664ac2e527fd76a94d3ccadc611ae3e20adb2e74102f6ea734f74911'),
+'APEX136_K10_G10_RAW.json':(935,'c3f4140f774a0ba643704e16e6e4cb3146681c6e7d0c660aeeb205a73bd0c45a'),
+'APEX136_K30_G10_RAW.json':(2135,'4657f3ea3dfbc789e024186184e995e4bfb928712f5fbc575fbbaab829277830')}
+OUTPUTS={
+'APEX136_K10_G10_EXACT.json':(1671119,'16ba99646098b18b80a93a5f7a32be0543089c2b32f80398ee0f400652263315'),
+'APEX136_K30_G10_EXACT.json':(2035226,'cb005d77ba2838e8f00f3d9ac0e93dbcb87b16a198296ec1f49cbfa054cc9bc1'),
+'CORRIDOR136_EXACT.json':(4187489,'488582ceecbedcd12a95c149f7d4b17abde68ecb025751551809acfc10bf47ba')}
+def checks(d):
+ for name,(size,sha) in d.items():
+  b=(ROOT/name).read_bytes();assert len(b)==size and hashlib.sha256(b).hexdigest()==sha,(name,len(b),hashlib.sha256(b).hexdigest())
+checks(INPUTS)
+for k in (10,30):
+ name=f'APEX136_K{k}_G10';subprocess.run([sys.executable,'freeze_apex136.py','--raw',name+'_RAW.json','--tag',name],cwd=ROOT,check=True)
+subprocess.run([sys.executable,'corridor136.py'],cwd=ROOT,check=True)
+checks(OUTPUTS)
+a=json.loads((ROOT/'APEX136_K10_G10_EXACT.json').read_text());b=json.loads((ROOT/'APEX136_K30_G10_EXACT.json').read_text());c=json.loads((ROOT/'CORRIDOR136_EXACT.json').read_text())
+assert a['audit']['strict']==[25,13,36] and b['audit']['strict']==[31,12,41]
+for z in (a,b):
+ assert z['audit']['weak']==z['audit']['primitive_zero']==[0,0,0]
+ assert z['reference']['strict']==[1,2,1] and z['reference']['weak']==z['reference']['primitive_zero']==[0,0,0]
+ assert z['centred_mass_check'] and z['positive_centred_tetrahedra']
+assert set(map(tuple,a['points']))==set(map(tuple,c['lower']['points']))
+assert set(map(tuple,b['points']))==set(map(tuple,c['upper']['points']))
+assert c['proved_old_material']==[6,31,34,35,38,39,40,41,70,72,74]
+assert sum(z['ray_count']for z in c['rows'])==114
+assert all(F(w['T'])<0 and F(w['normalized'])<-F(1,1000)for z in c['rows']for w in z['witnesses'])
+from corridor136 import positive_simplex
+for s,v in [([-1,1,1,1],F(17,32)),([-1,-1,1,1],F(3,16)),([-1,-1,-1,1],F(1,32)),([2,2,2,2],F(2))]:assert positive_simplex(list(map(F,s)))==v
+print('J136_TWO_EXACT_NONWINNERS_NESTED_CORRIDOR_ELEVEN_FORCED_U_PASS 114 NO_110')
+```

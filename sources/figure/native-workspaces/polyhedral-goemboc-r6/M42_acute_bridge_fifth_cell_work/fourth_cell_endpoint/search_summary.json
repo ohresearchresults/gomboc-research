@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "scope": "Empirical search record only; exact claims are confined to the materialized endpoint, its interval box, exact chamber atlas, exact edge obstruction, and exact positive-dot graph theorem.",
+  "families_tested": [
+    "Macroscopic two-section triangular-prism replacement with six new rows and simultaneous absorption of the terminal/stable/direct/return packet",
+    "Three independent nonlocal return-lobe radial group scales",
+    "Three-component projective displacement and full invertible upper-triangular linear metric",
+    "Four local differential-evolution continuations targeting the residual stable/unstable/saddle packet",
+    "Direct mechanical-centre displacement search inside the fixed geometry"
+  ],
+  "selected_search_parameter_file": "lobe911_robust_x.json",
+  "selected_exact_endpoint_class": [2, 2, 2],
+  "selected_exact_endpoint_f_vector": [83, 229, 148],
+  "other_best_local_classes_observed": [[2, 3, 3], [3, 3, 4], [3, 2, 3]],
+  "winner_observed": false,
+  "interpretation": "The search found a robust finite-thickness fourth-cell endpoint that destroys all inherited assignment-named features, but all competitive local continuations transferred or multiplied the Euler-neutral block. This is guidance, not a global nonexistence proof."
+}

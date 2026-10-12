@@ -1,0 +1,136 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "PHYSICAL_MULTICAP_SEED",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 10,
+        "U": 1,
+        "Pmax": 1.4794977200154634e-16,
+        "Qmax": 0.12001543723814924,
+        "minimum_noncontact": 9.667827600701173e-07,
+        "first": {
+          "carrier": 40,
+          "t": 0.9,
+          "toward": 135,
+          "fraction": 0.02
+        },
+        "second": {
+          "carrier": 95,
+          "t": 0.03,
+          "toward": 0,
+          "fraction": 0.02
+        }
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "PHYSICAL_MULTICAP_SEED",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 6,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12001624468747353,
+        "minimum_noncontact": 7.973466062960455e-07,
+        "first": {
+          "carrier": 40,
+          "t": 0.9,
+          "toward": 135,
+          "fraction": 0.02
+        },
+        "second": {
+          "carrier": 95,
+          "t": 0.2,
+          "toward": 0,
+          "fraction": 0.02
+        }
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "PHYSICAL_MULTICAP_SEED",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12001650008351782,
+        "minimum_noncontact": 3.9867330325904504e-07,
+        "first": {
+          "carrier": 40,
+          "t": 0.9,
+          "toward": 135,
+          "fraction": 0.02
+        },
+        "second": {
+          "carrier": 95,
+          "t": 0.6,
+          "toward": 0,
+          "fraction": 0.02
+        }
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "PHYSICAL_MULTICAP_SEED",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12001645116389437,
+        "minimum_noncontact": 3.985853851418142e-07,
+        "first": {
+          "carrier": 40,
+          "t": 0.9,
+          "toward": 135,
+          "fraction": 0.02
+        },
+        "second": {
+          "carrier": 95,
+          "t": 0.6,
+          "toward": 89,
+          "fraction": 0.02
+        }
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "PHYSICAL_MULTICAP_SEED",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12001593245541033,
+        "minimum_noncontact": 3.985853851418142e-07,
+        "first": {
+          "carrier": 40,
+          "t": 0.9,
+          "toward": 135,
+          "fraction": 0.02
+        },
+        "second": {
+          "carrier": 95,
+          "t": 0.6,
+          "toward": 148,
+          "fraction": 0.02
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "audit_sha256": "67c1f2a075a3b55b04bebfa76d719edcab24b6ae854a5ac75f775b9c9801b086",
+  "circumradius_vertex": 15,
+  "identity": "capped-bulk-exact",
+  "inradius_facet": 15,
+  "own": [
+    8,
+    1,
+    7
+  ],
+  "ratio_greater_than_one_quarter": true,
+  "ratio_greater_than_one_tenth": true,
+  "ratio_less_than_one_fortieth": false,
+  "ratio_squared": "2021623716189396363771669445614990335271369454640244792801830819832034438463537984808050152742403046200957576656263258921/30659027228669363555481577844362132309005209991656872128868585894190009493025034106079565323048773153573635652745476227764",
+  "weak": [
+    0,
+    0,
+    0
+  ]
+}

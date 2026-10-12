@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "source": "postq73_relay2_step_a0003.csv",
+  "lp_json": "postq73_relay3_lp.json",
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "circuit": [
+    198,
+    234,
+    235,
+    236
+  ],
+  "bracket": [
+    0.0001,
+    0.0002
+  ],
+  "volume_bracket": [
+    -7.998475459392866e-12,
+    4.6729255978232175e-12
+  ],
+  "alpha_wall": 0.0001706449472203067,
+  "epsilon": 2e-06,
+  "volume_at_wall": 0.0,
+  "plane_tolerance": 1e-11,
+  "before": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        234,
+        235
+      ],
+      [
+        198,
+        235,
+        236
+      ]
+    ],
+    "topology_margin": 8.849214139239336e-10
+  },
+  "at": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      157,
+      99
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        234,
+        235,
+        236
+      ]
+    ],
+    "topology_margin": 3.782326396528646e-09
+  },
+  "after": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        234,
+        236
+      ],
+      [
+        234,
+        235,
+        236
+      ]
+    ],
+    "topology_margin": 5.724216933788995e-10
+  }
+}

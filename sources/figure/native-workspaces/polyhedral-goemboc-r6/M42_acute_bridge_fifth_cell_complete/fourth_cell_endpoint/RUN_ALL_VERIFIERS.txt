@@ -1,0 +1,37 @@
+PASS exhaustive exact supporting-triple V->H reconstruction: 148 maximal faces
+PASS exact connected closed hull and f-vector 83 229 148 complexity 458
+PASS exact volume 18972166526207549984349215339378797235483824381730322591395687279/199637139612753064176633258000000000000000000000000000000000000
+PASS exact own centroid -2621207015967314528087848429655071237495988094802040534081339011845829081877/2168247602995148569639910324500433969769579929340608296159507117600000000000 272227017039585716937650752291693345857749402307156542936816587490675149565857/75888666104830199937396861357515188941935297526921290365582749116000000000000 -12763646079389193194360347765619751861535954277208512616387793149385231133547996649509206212629156253/157814544064537373836583344372258866686946198256774209827556788406218531429262327801621874250000000000
+PASS exact three centred first moments 0,0,0
+PASS exhaustive class 2 2 2 stable cycles [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], [195, 224, 223]] unstable [8, 227] saddles [(135, 224), (183, 223)]
+PASS joint old-packet absorption and all named feature/channel deletions
+PASS four linked nondegenerate nonsimplicial centroid-fan cells and connected closure
+PASS edge (226,227) external-positive obstruction; independent target 8; U>=2
+PASS target 8 unique exact farthest
+PASS exact positive-dot graph has two components and every cross-component pair is obtuse
+PASS: exact +/-1e-12 coordinate box preserves the complete (83,229,148) hull, strict own-centroid (2,2,2), joint parent-packet absorption, unique-farthest target 8, four linked nonsimplicial cells, external-positive edge (226,227), and the two-component acute-graph obstruction.
+variable coordinates 198
+volume [95.03325163184884, 95.03325165515362]
+centroid [(-1.2089057606094056, -1.2089057590218968), (3.587189376819467, 3.587189381229592), (-0.0808775018850121, -0.08087750181312071)]
+lower bounds {'facet_determinant': 4.6967208290973356e-05, 'inactive_facet_determinant': 4.97436605640706e-05, 'stable_face_component': 0.3789432376985582, 'nonstable_witness': 2.448437506213425, 'unstable_vertex_support': 8.022234571709928, 'nonunstable_witness': 4.783800888575389, 'saddle_edge_component': 0.08384382171850621, 'nonsaddle_witness': 0.07601662282776846, 'obstruction_and_target_support': 5.482180046514812, 'target_unique_farthest_squared_gap': 158.47287605011724, 'fourth_cell_tetra_determinant': 7.04029521696429, 'closure_fan_determinant': 0.19964893501431022, 'cross_component_negative_dot': 0.44252999175610597}
+PASS exact atlas cell A0B0 f-vector [83, 229, 148] class [2, 2, 2]
+PASS exact atlas cell A0B1 f-vector [83, 229, 148] class [2, 3, 3]
+PASS exact atlas cell A0B2 f-vector [83, 229, 148] class [2, 3, 3]
+PASS exact atlas cell A0B3 f-vector [83, 229, 148] class [2, 2, 2]
+PASS exact atlas cell A1B0 f-vector [83, 229, 148] class [2, 2, 2]
+PASS exact atlas cell A1B1 f-vector [83, 229, 148] class [2, 3, 3]
+PASS exact atlas cell A1B2 f-vector [83, 229, 148] class [2, 3, 3]
+PASS exact atlas cell A1B3 f-vector [83, 229, 148] class [2, 2, 2]
+PASS exact incidence wall cross-gap 2-to-2 flip: edge (194,224) -> (195,223) 3852194381342928664599803947598243949/4057780865293838853250491281230200028
+PASS exact incidence wall terminal 2-to-2 flip: edge (122,225) -> (123,227) 440567886107778336032446075038885408/442969544327712919242293965634117707
+PASS isolated exact mechanical wall terminal U-H birth: sigma(227->226)=0 61958211851/62500000000 9913313896161/10000000000000
+PASS isolated exact mechanical wall terminal U-H death: sigma(226->227)=0 397914446751/400000000000 1243482646097/1250000000000
+PASS all eight exact first outgoing chambers, both incidence flips and both width-1e-13 U-H-U wall brackets; no chamber is (1,1,0)
+PASS exact positive-dot true-edge graph 2 components [45, 38]
+PASS all 1710 cross-component vertex-pair dot products are strictly negative
+PASS obstruction endpoints 226,227 are disconnected from target 8 under every nonpositive-support step
+PASS directed equal-angle necessary bounds exclude all routes with at most 18 edges; 19 is first not excluded
+PASS OBJ/STL watertight correspondence
+vertices triangles mesh_edges Euler 83 162 243 2
+volume 95.03325164350123 center_of_mass [-1.5701238453817013e-15, 7.726006223306784e-15, 2.570143199285523e-17] norm 7.883978793478446e-15
+ALL VERIFIERS PASS

@@ -1,0 +1,44 @@
+{
+  "at": "2026-09-16T00:23:57.743Z",
+  "status": "OPERATOR_SOURCE_ONLY_A_B_THIRD_MASS_AND_HAUSDORFF_PREDICATES_PASS",
+  "certificate": {
+    "bytes": 778,
+    "sha256": "f55bd545683ae78f08848743645012bdd3628db77ed79f5240f04cf8d7022096",
+    "V_E_F": [
+      54,
+      91,
+      39
+    ],
+    "audit_sha256": "caf78ccee9abec82174d346227b2da7d99a13b823c88a4ef405e3e8cb9d1967d",
+    "cylinder_radius": "1/8",
+    "delta": "9/1000",
+    "disk_radius": "3/100",
+    "hausdorff_closed_ball_conclusion": {
+      "S_at_least": 2,
+      "U_at_least": 2
+    },
+    "mass_fan_triangles": 104,
+    "normal": [
+      14,
+      5,
+      0
+    ],
+    "normalized_gap_floors_times_1e18": {
+      "cylinder": 573164817751833,
+      "disk_first_square": 54748884449310,
+      "disk_second_square": 1430638893,
+      "segment": 6637288574316,
+      "slab": 4760533815493
+    },
+    "object": "C182_TWO_PLANE222",
+    "own_centroid_recomputed": true,
+    "raw_sha256": "3a3d80e75979c004f995115dd4bfb491560af0f661af0840c6868f3b5f046d86",
+    "segment_half_length": "1/6",
+    "slab_half_height": "9/500",
+    "support_checks_per_inner_gate": 136,
+    "terminal": "C182_EXACT_DOUBLE_GEOMETRIC_HAUSDORFF_GATE_PASS",
+    "vertex_checks_per_outer_gate": 54
+  },
+  "numericalSearchesReplayed": false,
+  "scope": "SameoldC182own222; local own-centred Hausdorff radius9/1000 in original units/frame only, not a global complexity bound or new own110."
+}

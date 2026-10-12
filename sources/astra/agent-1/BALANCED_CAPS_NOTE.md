@@ -1,0 +1,16 @@
+# Balanced additions inside old-vertex escape balls
+
+## Conditional geometric lemma
+Let a convex polytope containing0 have a unique strict unstable vertexu relative to0, with no extra weak unstable vertices. Add finitely many pointsv, each satisfying v.(w-v)>0 for some OLD vertexw. Then the enlarged convex hull still has exactlyu as its strict unstable vertex relative to0. Every old nonmaximum retains its old positive escape witness, whether or not that witness remains extreme. Each new point escapes to its chosenw. Also |v|<|w|<=|u|, so u remains the unique farthest point and its strict inequalities remain negative. This is a fixed-reference statement; it alone says nothing about the new uniform centroid. The admissible set is the union of the open diameter-(0,w) balls, whose radial extent in directionn is the old support valueh_P(n).
+
+## Actual uniform-mass closure
+For a cap of heightd over a facet of areaA with area centroidc and outward unit normaln, with apex c+d*n, its added first moment is (A*d/3)*(c+d*n/4). Choose three vertex-disjoint untouched facets. Their positive cap heights can cancel the moment of a purposeful main addition. Initial positive heights solve the linearized3x3moment equation, then the quadratic formula is closed by Newton. The complete new convex hull is independently integrated afterward; interacting caps that break this additive calculation are rejected. All new points are inside old-vertex escape balls. Actual S/U is always checked.
+
+`balanced_cap_optimize.py` goes further: three cap heights solve the FULL convex hull first moment, including interactions. The analytic derivative is taken through its current oriented boundary triangles and was checked by centred finite differences. The outer search moves the purposeful added point. P remains empty in the observed admitted bodies; Q may fragment, so neither small mass residual nor tiny extra bars counts as success.
+
+## Complete exact nonwinning demonstration
+`artifacts/A1_BALANCED_CAP_C488_RAW` is V153/E244/F93,2E488,sum490, own211weak000primitive000, soleQ .18163930006045279,Pempty. It adds four literal rational points to the exact raw parent A1_C454_APEX10_G15. All original parent vertices/faces are preserved exactly where retained by the hull. Qhull only proposed triples: every plane was checked against every exact input point, all exact audited H-body vertices lie among the literal inputs, and exact boundedness was certified. Thus the audited H-body equals the intended convex hull.
+
+The original recipe adding decimals AFTER exact translation by a25257-character parent-centroid fraction was stopped uncertified due coefficient growth. Its source remains preserved. The certified RAW recipe defines a DIFFERENT rational body: exact unshifted parent vertices plus new literal decimals in that frame. Its own complete audit, not numerical closeness or a mass residual, establishes the stated physical class. Exact volume/first moments/centroid and all hull/sign data are in audit.json.
+
+The first600 cap nominations produced no110. A further three-variable balanced optimization reached numerical Q~.17674 but S5/U1 with tiny additional Q bars. Explicit eta-consolidation is underway. No family exclusion or optimality is claimed.

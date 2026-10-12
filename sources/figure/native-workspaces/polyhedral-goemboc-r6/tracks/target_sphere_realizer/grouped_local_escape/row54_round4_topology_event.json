@@ -1,0 +1,1966 @@
+{
+  "version": 1,
+  "method": "directed tangent LP plus exact quad determinant",
+  "source": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/target_sphere_realizer/grouped_local_escape/row54_combined_hard_slp_round4c_best.csv",
+  "direction": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -0.20525092244326099,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.18425637913962714,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -0.39959983262969484,
+    0.5637052856668925,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0
+  ],
+  "target_directional_derivatives": [
+    0.0013294814987634407,
+    0.0013229055389475525,
+    0.0012596291517875276,
+    0.0011298444983814382
+  ],
+  "protected_wall_directional_derivatives": [
+    -6.661338147750939e-15,
+    1.1102230246251565e-16
+  ],
+  "quad": [
+    7,
+    8,
+    245,
+    246
+  ],
+  "oriented_volume_root": 2.436369998418473e-08,
+  "oriented_volume_at_scalar_root": 1.0319068073612234e-18,
+  "wall_projection_correction_norm": 7.204986413587954e-17,
+  "flip": {
+    "removed_faces": [
+      [
+        7,
+        245,
+        246
+      ],
+      [
+        7,
+        8,
+        246
+      ]
+    ],
+    "added_faces": [
+      [
+        7,
+        8,
+        245
+      ],
+      [
+        8,
+        245,
+        246
+      ]
+    ]
+  },
+  "audits": {
+    "pre": {
+      "name": "pre",
+      "s": 0.0,
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            246,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5724032478771368,
+          0.0022808932294941108,
+          0.8451818472046253
+        ],
+        "topology_margin": 2.2241979410980995e-11,
+        "inactive_margin": Infinity
+      },
+      "base_face_present": true,
+      "rail_edges_present": {
+        "short": true,
+        "long": true
+      },
+      "guard_ledger": {
+        "('U-', 54)": -0.00028165565503793786,
+        "('H-', (6, 7))": -0.0002816309955121906,
+        "('H-', (198, 263))": -8.856995495842845e-05,
+        "('U-', 263)": 4.01863122214316e-12,
+        "('H-', (10, 263))": 9.281464485866309e-14,
+        "('U-', 1)": 3.710539696183511e-09,
+        "('H-', (1, 54))": 1.3174201781610583e-05
+      },
+      "hard_margin": -0.00028165565503793786
+    },
+    "wall": {
+      "name": "wall",
+      "s": 2.436369998418473e-08,
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            246,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5724032558375112,
+          0.002280899759168516,
+          0.845181904467505
+        ],
+        "topology_margin": 6.048338964725723e-10,
+        "inactive_margin": Infinity
+      },
+      "base_face_present": true,
+      "rail_edges_present": {
+        "short": true,
+        "long": true
+      },
+      "guard_ledger": {
+        "('U-', 54)": -0.00028165562245772194,
+        "('H-', (6, 7))": -0.0002816309632812118,
+        "('H-', (198, 263))": -8.856992743144776e-05,
+        "('U-', 263)": 4.097920934260571e-12,
+        "('H-', (10, 263))": 9.43689570931383e-14,
+        "('U-', 1)": 3.7103505956200136e-09,
+        "('H-', (1, 54))": 1.3173531898608431e-05
+      },
+      "hard_margin": -0.00028165562245772194
+    },
+    "far": {
+      "name": "far",
+      "s": 2.6560407074977965e-08,
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          3,
+          3
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54,
+          263
+        ],
+        "saddles": [
+          [
+            10,
+            263
+          ],
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5724032566061316,
+          0.002280900348100997,
+          0.8451819097063608
+        ],
+        "topology_margin": 2.1602459544877928e-12,
+        "inactive_margin": Infinity
+      },
+      "base_face_present": true,
+      "rail_edges_present": {
+        "short": true,
+        "long": true
+      },
+      "guard_ledger": {
+        "('U-', 54)": -0.0002816556199049247,
+        "('H-', (6, 7))": -0.00028163101251711155,
+        "('H-', (198, 263))": -8.856983821325937e-05,
+        "('U-', 263)": -3.896420775231972e-09,
+        "('H-', (10, 263))": -8.991118960466338e-11,
+        "('U-', 1)": 3.710729895211108e-09,
+        "('H-', (1, 54))": 1.317487873201869e-05
+      },
+      "hard_margin": -0.0002816556199049247
+    }
+  },
+  "first_certifiable_far_s": 2.6560407074977965e-08,
+  "first_certifiable_far_class222_s": null,
+  "first_certifiable_class233_s": 2.6560407074977965e-08,
+  "event_order": "quad wall first; no mandatory-Gram-valid far-side class222 sample was found before the U263/H(10,263) recross",
+  "scan": [
+    {
+      "s": 2.436469998418473e-08,
+      "delta_from_wall": 1e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338803967838e-10
+    },
+    {
+      "s": 2.436489108731801e-08,
+      "delta_from_wall": 1.191103133283008e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338958644747e-10
+    },
+    {
+      "s": 2.4365118710858846e-08,
+      "delta_from_wall": 1.418726674116599e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339219473652e-10
+    },
+    {
+      "s": 2.4365389833971542e-08,
+      "delta_from_wall": 1.6898497868124552e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338740267611e-10
+    },
+    {
+      "s": 2.436571276956058e-08,
+      "delta_from_wall": 2.0127853758499383e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339219466113e-10
+    },
+    {
+      "s": 2.436609741915253e-08,
+      "delta_from_wall": 2.3974349678010785e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338806983062e-10
+    },
+    {
+      "s": 2.436655557648672e-08,
+      "delta_from_wall": 2.855592301990112e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339355937144e-10
+    },
+    {
+      "s": 2.4367101289123008e-08,
+      "delta_from_wall": 3.401304938279246e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.04833863712636e-10
+    },
+    {
+      "s": 2.4367751289153963e-08,
+      "delta_from_wall": 4.051304969235378e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339198209758e-10
+    },
+    {
+      "s": 2.436852550622747e-08,
+      "delta_from_wall": 4.825522042741279e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339258858513e-10
+    },
+    {
+      "s": 2.4369447678609566e-08,
+      "delta_from_wall": 5.7476944248353586e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338855467357e-10
+    },
+    {
+      "s": 2.4370546081023305e-08,
+      "delta_from_wall": 6.846096838574672e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339452940193e-10
+    },
+    {
+      "s": 2.4371854391579915e-08,
+      "delta_from_wall": 8.154407395185153e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339322507669e-10
+    },
+    {
+      "s": 2.43734127243832e-08,
+      "delta_from_wall": 9.712740198471168e-12,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338594585201e-10
+    },
+    {
+      "s": 2.437526885946789e-08,
+      "delta_from_wall": 1.1568875283162833e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339280003317e-10
+    },
+    {
+      "s": 2.4377479707783064e-08,
+      "delta_from_wall": 1.3779723598335597e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338825036045e-10
+    },
+    {
+      "s": 2.4380113056138482e-08,
+      "delta_from_wall": 1.6413071953751266e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339595366301e-10
+    },
+    {
+      "s": 2.4383249645615643e-08,
+      "delta_from_wall": 1.9549661430912594e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339188914109e-10
+    },
+    {
+      "s": 2.438698564716971e-08,
+      "delta_from_wall": 2.3285662984981966e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339025088574e-10
+    },
+    {
+      "s": 2.4391435610326714e-08,
+      "delta_from_wall": 2.773562614198418e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338515500188e-10
+    },
+    {
+      "s": 2.4396735975386012e-08,
+      "delta_from_wall": 3.3035991201283464e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339307027017e-10
+    },
+    {
+      "s": 2.4403049256815687e-08,
+      "delta_from_wall": 3.9349272630958454e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.04833899455529e-10
+    },
+    {
+      "s": 2.4410569026107872e-08,
+      "delta_from_wall": 4.6869041923141924e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338933801212e-10
+    },
+    {
+      "s": 2.4419525846873358e-08,
+      "delta_from_wall": 5.5825862688627005e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339340099826e-10
+    },
+    {
+      "s": 2.443019434415138e-08,
+      "delta_from_wall": 6.649435996665032e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338869860539e-10
+    },
+    {
+      "s": 2.4442901624686654e-08,
+      "delta_from_wall": 7.92016405019254e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338930357678e-10
+    },
+    {
+      "s": 2.4458037306347728e-08,
+      "delta_from_wall": 9.433732216299774e-11,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339521586422e-10
+    },
+    {
+      "s": 2.4476065464198604e-08,
+      "delta_from_wall": 1.1236548001387516e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338171704505e-10
+    },
+    {
+      "s": 2.4497538859502106e-08,
+      "delta_from_wall": 1.3383887531737592e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339214759003e-10
+    },
+    {
+      "s": 2.45e-08,
+      "delta_from_wall": 1.3630001581527149e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338941764258e-10
+    },
+    {
+      "s": 2.452311588793033e-08,
+      "delta_from_wall": 1.5941590374560028e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338956635319e-10
+    },
+    {
+      "s": 2.4553580766631254e-08,
+      "delta_from_wall": 1.8988078244652612e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.04833972661214e-10
+    },
+    {
+      "s": 2.4589867579107017e-08,
+      "delta_from_wall": 2.2616759492228645e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.04833901341326e-10
+    },
+    {
+      "s": 2.4633088915143748e-08,
+      "delta_from_wall": 2.693889309590175e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338357751936e-10
+    },
+    {
+      "s": 2.4684569983921774e-08,
+      "delta_from_wall": 3.2086999973704435e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338627028728e-10
+    },
+    {
+      "s": 2.47e-08,
+      "delta_from_wall": 3.3630001581526997e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339275879338e-10
+    },
+    {
+      "s": 2.4745889246248042e-08,
+      "delta_from_wall": 3.821892620633115e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339718104036e-10
+    },
+    {
+      "s": 2.48e-08,
+      "delta_from_wall": 4.3630001581527086e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339213950796e-10
+    },
+    {
+      "s": 2.481892681173546e-08,
+      "delta_from_wall": 4.5522682755073096e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.04833881336395e-10
+    },
+    {
+      "s": 2.49e-08,
+      "delta_from_wall": 5.363000158152718e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339115627161e-10
+    },
+    {
+      "s": 2.490592208483489e-08,
+      "delta_from_wall": 5.422221006501592e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338815292094e-10
+    },
+    {
+      "s": 2.4963699984184728e-08,
+      "delta_from_wall": 6e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338577989955e-10
+    },
+    {
+      "s": 2.5e-08,
+      "delta_from_wall": 6.363000158152693e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338908118095e-10
+    },
+    {
+      "s": 2.500954242720443e-08,
+      "delta_from_wall": 6.458424430196992e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339202190945e-10
+    },
+    {
+      "s": 2.51e-08,
+      "delta_from_wall": 7.363000158152702e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338849222526e-10
+    },
+    {
+      "s": 2.5132964941672646e-08,
+      "delta_from_wall": 7.692649574879162e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339018647832e-10
+    },
+    {
+      "s": 2.52e-08,
+      "delta_from_wall": 8.363000158152711e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339214936825e-10
+    },
+    {
+      "s": 2.5279973885373404e-08,
+      "delta_from_wall": 9.162739011886731e-10,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339317040693e-10
+    },
+    {
+      "s": 2.536369998418473e-08,
+      "delta_from_wall": 1e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338688161362e-10
+    },
+    {
+      "s": 2.5455076698836003e-08,
+      "delta_from_wall": 1.0913767146512738e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339096446171e-10
+    },
+    {
+      "s": 2.55e-08,
+      "delta_from_wall": 1.1363000158152705e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339438596507e-10
+    },
+    {
+      "s": 2.5663642208597976e-08,
+      "delta_from_wall": 1.2999422244132475e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338775340022e-10
+    },
+    {
+      "s": 2.5912065240770225e-08,
+      "delta_from_wall": 1.548365256585496e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048339927730658e-10
+    },
+    {
+      "s": 2.6e-08,
+      "delta_from_wall": 1.6363000158152717e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338373754835e-10
+    },
+    {
+      "s": 2.620796269277026e-08,
+      "delta_from_wall": 1.8442627085855328e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338732032225e-10
+    },
+    {
+      "s": 2.636369998418473e-08,
+      "delta_from_wall": 2e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        161,
+        102
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "far_face_lattice": false,
+      "topology_margin": 6.048338954491041e-10
+    },
+    {
+      "s": 2.6560407074977965e-08,
+      "delta_from_wall": 2.1967070907932352e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 2.1602459544877928e-12
+    },
+    {
+      "s": 2.6980204682933555e-08,
+      "delta_from_wall": 2.6165046987488236e-09,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 2.7e-08,
+      "delta_from_wall": 2.6363000158152707e-09,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 2.7480226929114167e-08,
+      "delta_from_wall": 3.1165269449294367e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 3.064821543239526e-12
+    },
+    {
+      "s": 2.8075804993251086e-08,
+      "delta_from_wall": 3.7121050090663573e-09,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 2.8785199891559216e-08,
+      "delta_from_wall": 4.4214999073744864e-09,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 2.936369998418473e-08,
+      "delta_from_wall": 5e-09,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 4.917211039270379e-12
+    },
+    {
+      "s": 2.963016237766901e-08,
+      "delta_from_wall": 5.266462393484281e-09,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 3e-08,
+      "delta_from_wall": 5.636300015815268e-09,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 3.063659984238099e-08,
+      "delta_from_wall": 6.272899858196256e-09,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 3.183537066005279e-08,
+      "delta_from_wall": 7.471670675868066e-09,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 3.326323033706996e-08,
+      "delta_from_wall": 8.899530352885224e-09,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 3.436369998418473e-08,
+      "delta_from_wall": 1e-08,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 3.496395847225355e-08,
+      "delta_from_wall": 1.0600258488068825e-08,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 3.69897010829333e-08,
+      "delta_from_wall": 1.2626001098748577e-08,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 3.940256945373883e-08,
+      "delta_from_wall": 1.5038869469554102e-08,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 4.227654453040479e-08,
+      "delta_from_wall": 1.7912844546220058e-08,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 1.761630003460636e-11
+    },
+    {
+      "s": 4.4363699984184727e-08,
+      "delta_from_wall": 2e-08,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 4.5699745249198834e-08,
+      "delta_from_wall": 2.1336045265014108e-08,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 2.0982883692525504e-11
+    },
+    {
+      "s": 4.977713035121112e-08,
+      "delta_from_wall": 2.541343036702639e-08,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 5.4633716521819346e-08,
+      "delta_from_wall": 3.027001653763461e-08,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 2.97690655861573e-11
+    },
+    {
+      "s": 6.041841152668979e-08,
+      "delta_from_wall": 3.605471154250506e-08,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 6.730857987207745e-08,
+      "delta_from_wall": 4.294487988789272e-08,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 4.2234124054314096e-11
+    },
+    {
+      "s": 7.436369998418473e-08,
+      "delta_from_wall": 5e-08,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 7.551548097711618e-08,
+      "delta_from_wall": 5.115178099293145e-08,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 8.529074659787148e-08,
+      "delta_from_wall": 6.092704661368675e-08,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 5.991864778921513e-11
+    },
+    {
+      "s": 9.693409610742689e-08,
+      "delta_from_wall": 7.257039612324216e-08,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 7.136945716286045e-11
+    },
+    {
+      "s": 1.1080252619016753e-07,
+      "delta_from_wall": 8.64388262059828e-08,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 8.500811746019646e-11
+    },
+    {
+      "s": 1.2436369998418472e-07,
+      "delta_from_wall": 1e-07,
+      "valid": false,
+      "error": "ValueError('parallel face normals below 1e-26')",
+      "f_vector": null,
+      "class": null,
+      "far_face_lattice": false,
+      "topology_margin": -Infinity
+    },
+    {
+      "s": 1.27321256715436e-07,
+      "delta_from_wall": 1.0295755673125128e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 1.0125357827205823e-10
+    },
+    {
+      "s": 1.4699676840194115e-07,
+      "delta_from_wall": 1.2263306841775643e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 1.2060334875990474e-10
+    },
+    {
+      "s": 1.704323320206836e-07,
+      "delta_from_wall": 1.4606863203649889e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 1.4365088442156622e-10
+    },
+    {
+      "s": 1.983465052772213e-07,
+      "delta_from_wall": 1.739828052930366e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 1.7110302143273014e-10
+    },
+    {
+      "s": 2.3159516450608767e-07,
+      "delta_from_wall": 2.0723146452190295e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 2.038014662570732e-10
+    },
+    {
+      "s": 2.7119774669104984e-07,
+      "delta_from_wall": 2.468340467068651e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 2.42748480924926e-10
+    },
+    {
+      "s": 3.1836850641765553e-07,
+      "delta_from_wall": 2.940048064334708e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 2.891385115177872e-10
+    },
+    {
+      "s": 3.74553746127356e-07,
+      "delta_from_wall": 3.501900461431713e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 3.443936798282903e-10
+    },
+    {
+      "s": 4.4147616118983634e-07,
+      "delta_from_wall": 4.171124612056516e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 4.102083502094627e-10
+    },
+    {
+      "s": 5.211876594576234e-07,
+      "delta_from_wall": 4.968239594734387e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 4.886002478156853e-10
+    },
+    {
+      "s": 6.161322748030678e-07,
+      "delta_from_wall": 5.917685748188831e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 5.81973470592662e-10
+    },
+    {
+      "s": 7.29221103629375e-07,
+      "delta_from_wall": 7.048574036451903e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 6.048330780060017e-10
+    },
+    {
+      "s": 8.639215619836967e-07,
+      "delta_from_wall": 8.39557861999512e-07,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 6.048329552929968e-10
+    },
+    {
+      "s": 1.0243636999841848e-06,
+      "delta_from_wall": 1e-06,
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "far_face_lattice": true,
+      "topology_margin": 6.048327470961959e-10
+    }
+  ]
+}

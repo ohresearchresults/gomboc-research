@@ -1,0 +1,65 @@
+"""Deform the true physical contact body while preserving a specified reference110 chamber.
+The actual uniform centroid is independently integrated and driven toward the reference0.
+Reference guards alone never nominate a goal; only independently computed own110 can.
+All contacts, noncontacts, and genuine facet orientation are checked on every trial.
+"""
+import sys,json,time,numpy as np
+from scipy.linalg import svd
+from scipy.optimize import linprog
+from scipy.sparse import csr_matrix,hstack,vstack,eye
+import jax
+import jax.numpy as jnp
+from canonical_atlas import ROOT,Chart
+from support_persistence import barcode
+from geometry import angular_scores
+
+def run(folder,out,inputpath,iters=1500,eps=1e-6):
+ c=Chart(folder);q=c.q.copy() if inputpath is None else np.load(inputpath);out.mkdir(parents=True,exist_ok=True);V,F=c.meta['V'],c.F;D=len(q);flat=np.flatnonzero(~c.incidence.ravel());K=len(flat);nm=V+F;gapfloor=1e-10;trust=.02;history=[];start=time.time();g=c.graph(q);ur=int(np.argmax((g['X']**2).sum(1)));sr=int(np.argmax((g['Y']**2).sum(1)));bp,bw,bars=barcode(g['Q'],np.ones(F),c.es);child=int(bp[np.argmax(bars),0]);rr=[[ur],[sr]];active=np.ones(nm,bool);active[ur]=False;active[V+np.array(rr[1])]=False;ng=int(active.sum());(out/'roots.json').write_text(json.dumps(rr))
+ def pieces(q,up,sp):
+  X,Y,Z,Q,cent,vol,gap=c.physical(q)
+  def angles(A,p):
+   d=A[p]-A;return jnp.sum(A*d,axis=1)/jnp.sqrt(jnp.maximum(jnp.sum(A*A,axis=1)*jnp.sum(d*d,axis=1),1e-40))
+  return jnp.concatenate([gap.ravel()[flat],angles(X,up),angles(Y,sp),X.ravel(),Y.ravel()])
+ jac=jax.jit(jax.jacfwd(pieces,argnums=0))
+ def mass_cost(q):
+  cent=c.physical(q)[4];return jnp.sum(cent*cent)
+ mass_grad=jax.jit(jax.value_and_grad(mass_cost))
+ def state(q):
+  g=c.graph(q);up=angular_scores(g['X']).argmax(1);sp=angular_scores(g['Y']).argmax(1);guards=np.r_[angular_scores(g['X'])[np.arange(V),up],angular_scores(g['Y'])[np.arange(F),sp]];cost,gradient=mass_grad(q);return g,up,sp,guards,float(cost),np.asarray(gradient)
+ def retract(q,up,sp,W,radius):
+  for correction in range(8):
+   raw=np.asarray(pieces(q,up,sp));gap=raw[:K];gg=raw[K:K+nm][active]
+   if not np.isfinite(raw).all():return None
+   if gap.min()>.999*gapfloor and gg.min()>.999*eps:return q
+   J=np.asarray(jac(q,up,sp));C=np.vstack([J[:K],J[K:K+nm][active]])@W;target=np.r_[np.full(K,gapfloor),np.full(ng,eps)];values=np.r_[gap,gg];row_scale=np.r_[np.ones(K),np.full(ng,1000.)];bound=radius/np.sqrt(D);keep=(values-target <= bound*np.sum(abs(C),axis=1)+1e-10);C=C[keep];row_scale=row_scale[keep];values=values[keep];target=target[keep];I=eye(D);A=vstack([hstack([-csr_matrix(C*row_scale[:,None]),csr_matrix((len(C),D))]),hstack([I,-I]),hstack([-I,-I])],format='csr');b=np.r_[(values-target)*row_scale,np.zeros(2*D)]
+   lp=linprog(np.r_[np.zeros(D),np.ones(D)],A_ub=A,b_ub=b,bounds=[(-radius/np.sqrt(D),radius/np.sqrt(D))]*D+[(0,None)]*D,method='highs-ipm',options={'primal_feasibility_tolerance':1e-10,'dual_feasibility_tolerance':1e-9,'time_limit':10.})
+   if not lp.success:return None
+   q=q+W@lp.x[:D]
+  return None
+ for it in range(iters):
+  g,up,sp,guards,cost,grad=state(q);S=int((angular_scores(g['Q']).max(1)<0).sum());U=int((angular_scores(g['Z']).max(1)<0).sum());row=dict(it=it,S=S,U=U,reference_guard_minimum=float(guards[active].min()),own_centroid_distance=float(np.sqrt(cost)),centroid=g['c'].tolist(),loss=cost,trust=trust,seconds=time.time()-start);history.append(row);np.save(out/'latest_q.npy',q);(out/'history.json').write_text(json.dumps(history,indent=2)+'\n')
+  if it%5==0:print('REFERENCE_MASS_CLOSURE',row,flush=True)
+  if S==U==1:
+   np.save(out/'NUMERICAL_NOMINATION_q.npy',q);(out/'NUMERICAL_NOMINATION.json').write_text(json.dumps(row,indent=2)+'\n');print('NUMERICAL_REQUIRES_EXACT',row,flush=True);break
+  if guards[active].min()<.8*eps:raise ValueError('iterate does not satisfy strict reference root constraints')
+  J=np.asarray(jac(q,up,sp));jp=J[K+nm:];metric=np.vstack([jp[:3*V]/np.sqrt(np.mean(g['X']**2)),jp[3*V:]/np.sqrt(np.mean(g['Y']**2)),np.eye(D)*.05]);_,dd,Vt=svd(metric,full_matrices=False,check_finite=False);W=Vt.T/dd;gap=(1-g['Y']@g['X'].T).ravel()[flat];C=np.vstack([J[:K],J[K:K+nm][active]])@W;rhs=np.r_[gap-gapfloor,guards[active]-eps];row_scale=np.r_[np.ones(K),np.full(ng,1000.)];bound=trust/np.sqrt(D);keep=(rhs <= bound*np.sum(abs(C),axis=1)+1e-10);row['linear_constraints_total']=len(C);row['linear_constraints_needed']=int(keep.sum());C=C[keep];rhs=rhs[keep];row_scale=row_scale[keep];lp=linprog(grad@W,A_ub=-C*row_scale[:,None],b_ub=rhs*row_scale,bounds=[(-trust/np.sqrt(D),trust/np.sqrt(D))]*D,method='highs-ipm',options={'primal_feasibility_tolerance':1e-10,'dual_feasibility_tolerance':1e-9,'time_limit':10.})
+  if not lp.success:
+   trust*=.5;row['LP']=lp.message
+   if trust<1e-11:print('LP_TRUST_EXHAUSTED',row,flush=True);break
+   continue
+  dq=W@lp.x;accepted=False
+  for back in range(18):
+   qq=retract(q+2**-back*dq,up,sp,W,max(trust*2**-back,1e-7))
+   if qq is None:continue
+   try:
+    gg,pp,ss,vv,newcost,ngrad=state(qq)
+    if gg['minimum']<.9*gapfloor or vv[active].min()<.9*eps:continue
+   except (ValueError,np.linalg.LinAlgError):continue
+   if newcost<cost-1e-12*max(1,cost):
+    q=qq;accepted=True;row['alpha']=2**-back;break
+  if accepted and back==0:trust=min(.25,trust*1.2)
+  if not accepted:trust*=.4
+  if trust<1e-11:print('OWN_FLOW_STALLED',row,flush=True);break
+ return q
+if __name__=='__main__':
+ f=ROOT/(sys.argv[1] if len(sys.argv)>1 else 'artifacts/canonical_atlas/reference110_C490');run(f,f/'mass_closure',f/sys.argv[2] if len(sys.argv)>2 else None)

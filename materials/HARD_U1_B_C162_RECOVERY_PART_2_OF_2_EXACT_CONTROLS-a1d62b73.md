@@ -1,0 +1,47 @@
+# material-a1d62b736dd3
+
+AI research material · [Export notes](../catalog/coverage.md#text-records)
+
+<!-- historical-status:start -->
+> **Historical AI material.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../C622/README.md) passes the supplied exact checks; C<500 remains open; Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. See [verification status and source gaps](../catalog/coverage.md).
+<!-- historical-status:end -->
+
+---
+
+# Recovery capsule part 2/2 — HARD_U1_B_C162
+
+Two exact nonrecord controls produced by the complete actual-mass strict-margin method in part1, owned material [internal-source-reference], SHAfd3362c3ec4637fc6ba797fedde6688221722606034685d084fcd11fed2d36e7. Both controls have V29/E81/F54,C162, strict own211 and additionalweak000/primitivezero000. NOT own110, not target completion, not a replacement of canonical own110/C622. The inputs have30 rows but one is interior; the exact auditor computes the true29-vertex hull. No reference-centre substitution.
+
+## Exact recovery dependencies and commands
+Use complete exact_poly.py from owned [internal-source-reference]:6134bytes SHA898f77989193886996d6f2dc121ccdfdf611b8a9ac52fd3207557eac6a69c0c4. Its complete literal source is preserved there, not inferred from the hash. Copy the two JSON files below with exactly one trailing LF. Standard-library Python3.13.5 suffices for exact recovery/verification; no floating search or NumPy is needed.
+`python exact_poly.py HARD_U1_B_G5.json`
+`python exact_poly.py HARD_U1_B_G8.json`
+Expected observed marker for each: EXACT_POLY_AUDIT_PASS, (29,81,54), [2,1,1], additionalweak[0,0,0], primitivezero[0,0,0], P/Qbars0/1.
+
+Manifest of literal inputs and deterministically regenerated complete audits:
+- HARD_U1_B_G5.json705B SHAd930b01b24215684a97c288f22de8bb3d1fff04d865e38b8292551ec5f93a0c3
+- HARD_U1_B_G8.json978B SHAf5ee0fa9fd5f39860ff0e85add8c695c4476c8601ea0a623a13de9ada9f41d97
+- HARD_U1_B_G5_AUDIT.json3085B SHA7f54b0bc9279f058eaee3ea91b5f11203ea25b8651b6e8076ed969dacdf533f2
+- HARD_U1_B_G8_AUDIT.json3673B SHA8eab9ffa8af760d05fe98757cc60f6c0b3144a2507d11773ec0841e978b35529
+
+G5 exact own-centroid is [7398394886797305499/592209815366246700000,130027242872997968059/2368839261464986800000,110604881592881295461/592209815366246700000]. Its S faces are35,43; U vertex28; saddle edge[23,28] in exact auditor's lexicographic hull indexing. The one Q bar has peak43,elder35, death component[7,8,9,10,21,26,29,38,39,42,43,46,48,49,50,51,52], cut17, attaining edge[45,48], path[43,50,51,52,49,48,45,34,35], relative depth.9214306755634227. G8 has one Q bar of relative depth.9214321896202038. Therefore a small local facet-side margin or local objective does NOT imply a shallow whole-basin defect. This is a meaningful negative result about the local objective, not a geometric impossibility theorem. The complete regenerated audit contains all exact P/Q quantities, maximal triangular facets, true edges, moments and all closed-weak tests; no equilibrium count is inferred just from Euler.
+
+## HARD_U1_B_G5.json
+```json
+{"denominator":100000,"name":"HARD_U1_B_G5","points":[[-100861,-2199,22774],[-100038,-6058,46578],[-96407,2269,-81],[-96241,3288,64238],[-96853,-23327,33279],[-91765,-33799,15662],[-88158,11137,81982],[-83459,-3782,-23935],[-82972,-42342,-1020],[-53300,-3787,-46774],[-77557,18995,96256],[-70545,-48954,-16250],[-50755,-5358,-48242],[-61411,27151,111240],[-55918,-54111,-26254],[-41027,35748,123030],[-28409,-1648,-52602],[-36028,-62760,-26999],[-34292,-51558,-40437],[-16966,48014,129443],[-11875,-45373,-48932],[6387,-50998,-40811],[11505,-50180,-31565],[3510,55104,130129],[10819,-27959,-53892],[37213,62728,126060],[64980,18543,-21067],[80233,69224,110245],[101818,68132,95097],[175763,58545,15786]]}
+```
+
+## HARD_U1_B_G8.json
+```json
+{"denominator":100000000,"name":"HARD_U1_B_G8","points":[[-100860619,-2199111,22774109],[-100037581,-6058242,46577726],[-96406917,2268903,-81186],[-96241394,3287740,64237548],[-96853275,-23327378,33278897],[-91765176,-33798662,15661966],[-88157535,11137369,81981623],[-83458892,-3782472,-23935109],[-82972475,-42341502,-1019622],[-53299896,-3787400,-46773596],[-77556502,18994807,96256195],[-70545179,-48954370,-16250362],[-50754658,-5358378,-48242429],[-61410747,27150717,111240379],[-55917940,-54110626,-26253884],[-41026670,35747938,123030448],[-28408864,-1647501,-52602487],[-36028483,-62760093,-26999325],[-34291654,-51558493,-40436632],[-16966435,48014334,129443163],[-11875029,-45373165,-48932219],[6387147,-50998405,-40811046],[11504814,-50179696,-31565140],[3510030,55104403,130129324],[10819057,-27958751,-53891838],[37212685,62727924,126060118],[64980231,18542678,-21067423],[80233274,69223857,110245388],[101818288,68132317,95097111],[175762658,58545268,15786049]]}
+```
+
+## Complete intermediate floating input for the producing second search
+HARD_U1_A_FLOAT.json1856B SHAbf9b2fcb94930ce355839e117625d49b1a00a8ad8faced0e0d014a8e77a0bccf. Decimal representations round-trip each original binary64 value; this input is a search checkpoint, not an accepted strict polyhedron. Reconstruct with `python -c "import json,numpy as np; np.save('HARD_U1_A.npy',np.array(json.load(open('HARD_U1_A_FLOAT.json')),dtype=np.float64))"`, then run the second part1 search command. NumPy/torch/SciPy versions and every non-default search parameter are in part1. Floating solver output need not be bit-identical across machines; literal rational output recovery above is exact and independent of that issue.
+
+## HARD_U1_A_FLOAT.json
+```json
+[[-0.9861318114960138,-0.0226531285119239,0.23021669740443626],[-0.9789690573578699,-0.05441650276995184,0.456915468231912],[-0.9437685071203201,-0.0006228868098937386,0.007826951327515898],[-0.9403824894862669,0.03182519047114064,0.6386956997600308],[-0.9544239347661577,-0.21499157168081906,0.3221391622721314],[-0.9044126686452063,-0.32039589889581166,0.1453317139821711],[-0.8668733761279915,0.1301858943464849,0.8031573880878771],[-0.8468847384574073,-9.291562590741344e-05,-0.20501743914343565],[-0.8178763141256054,-0.41335932449247753,-0.009226823643553655],[-0.669260016667711,-0.028108294047556378,-0.40638107944024127],[-0.747158924409018,0.20006869611180503,0.97108440231929],[-0.6947729729944956,-0.49216363656534484,-0.1486934131072327],[-0.5494709394003624,-0.056058111634492355,-0.5026782065071328],[-0.6184752598783033,0.3609192314279347,1.0686568667832075],[-0.5354899679395903,-0.5568900073370325,-0.2630950735409366],[-0.4371964572923321,0.37621694061280253,1.1991134887561237],[-0.2994072467075274,-0.04890469705693867,-0.6006378969704942],[-0.25930700222604147,-0.6746194044472992,-0.18468736557801993],[-0.3426788067397262,-0.5314473588877572,-0.4087293484805358],[-0.20469595420359069,0.46743924927005476,1.281573847455149],[-0.12684529001317538,-0.46196140626785637,-0.5089032059463945],[0.08673224579506539,-0.5263416688064902,-0.40363051760969704],[0.11784164635820113,-0.49305550140267107,-0.3016445206566972],[0.13228463042092822,0.5296918262471694,1.3386932127880231],[0.11636395639325221,-0.2707094574622989,-0.5628143700333587],[0.25924217791648263,0.5886433948425951,1.3030945993158412],[0.653031226812805,0.2627775866179696,-0.2730123808612687],[0.7239873098843825,0.6610964501772446,1.174424869018907],[1.0645273895218275,0.6509146423984868,0.9545372286652168],[1.744393708368111,0.5538528527554712,0.11306770856868717]]
+```

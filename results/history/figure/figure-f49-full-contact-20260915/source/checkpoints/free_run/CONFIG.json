@@ -1,0 +1,16 @@
+{
+  "steps": 30,
+  "fixed_g": false,
+  "goal": 1e-08,
+  "trust": 0.03,
+  "qp_seconds": 2.0,
+  "initial_g": [
+    -0.012533688566502676,
+    0.006279895492828624,
+    -0.008889061183282553
+  ],
+  "svd_relative_cut": 1e-11,
+  "gap_floor": 1e-06,
+  "tetra_floor": 1e-09,
+  "grid": 100000000000000
+}

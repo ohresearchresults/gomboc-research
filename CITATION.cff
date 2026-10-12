@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this archive when using its constructions, code or research records."
+type: dataset
+title: "Gomboc research: AI-assisted constructions, searches and open problems"
+authors:
+  - family-names: Humeniuk
+    given-names: Oleksandr
+license:
+  - MIT
+  - CC-BY-4.0
+version: research-2026-10-12.3
+date-released: 2026-10-12
+repository-code: "https://github.com/ohresearchresults/gomboc-research"
+url: "https://github.com/ohresearchresults/gomboc-research/releases/tag/research-2026-10-12.3"
+abstract: "Exact constructions, verification code, numerical experiments and AI research reports on homogeneous mono-monostatic polyhedra."
+doi: 10.5281/zenodo.23307701

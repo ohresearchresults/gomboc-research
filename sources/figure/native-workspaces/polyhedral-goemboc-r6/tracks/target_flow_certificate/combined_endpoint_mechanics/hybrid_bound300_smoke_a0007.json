@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "method": "exact finite projective+tracefree-linear map after planarity-restored residual Euler step",
+  "source": "../../circuit_atlas/row54_combined_wall_rebuilt.csv",
+  "lp_json": "combined_four_death_bound300.json",
+  "alpha": 0.0007,
+  "lp_delta": 0.9685507986067262,
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "normalization_scale": 9.17747206193461,
+  "split_coefficients": {
+    "pole_0": 4.10473336943079,
+    "pole_1": 10.142826986575608,
+    "pole_2": 23.3710889978362,
+    "tracefree_0": 4.2760942802597715,
+    "tracefree_1": 5.102859543127072,
+    "tracefree_2": 7.430749120408381,
+    "tracefree_3": -0.36919877704583576,
+    "tracefree_4": -0.5121827203731748,
+    "translation_0": -0.8427361876805237,
+    "translation_1": -0.23428283340239744,
+    "translation_2": 0.26653252459275895,
+    "rotation_0": -1.2580124601326061,
+    "rotation_1": 8.616129015625031,
+    "rotation_2": -4.351806629168055,
+    "isotropic_scale": 0.9952074963296749
+  },
+  "projective_theta": [
+    0.002873313358601553,
+    0.0070999788906029255,
+    0.01635976229848534,
+    0.00299326599618184,
+    0.0035720016801889503,
+    0.005201524384285866,
+    -0.000258439143932085,
+    -0.00035852790426122236
+  ],
+  "minimum_projective_denominator": 0.9970444858637086,
+  "direction_l2_residual_fraction": 0.132191769443426,
+  "maximum_normalized_full_direction": 39.47510820061513,
+  "maximum_normalized_residual_direction": 4.5220004083583945,
+  "maximum_normalized_actual_displacement": 0.04401900561033472,
+  "base_planarity_smallest_singular_value": 3.5912033333935993e-16,
+  "quad_oriented_volume": 4.6451465994195467e-17,
+  "f_vector": [
+    61,
+    159,
+    100
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "faces_match": false,
+  "removed_faces": [
+    [
+      2,
+      3,
+      242
+    ],
+    [
+      2,
+      88,
+      242
+    ],
+    [
+      4,
+      243,
+      244
+    ],
+    [
+      5,
+      6,
+      245
+    ],
+    [
+      5,
+      244,
+      245
+    ],
+    [
+      12,
+      13,
+      262
+    ],
+    [
+      13,
+      261,
+      262
+    ],
+    [
+      198,
+      243,
+      244
+    ]
+  ],
+  "added_faces": [
+    [
+      2,
+      3,
+      88
+    ],
+    [
+      3,
+      88,
+      242
+    ],
+    [
+      5,
+      6,
+      244
+    ],
+    [
+      6,
+      244,
+      245
+    ],
+    [
+      4,
+      198,
+      243,
+      244
+    ],
+    [
+      12,
+      13,
+      261,
+      262
+    ]
+  ],
+  "all_vertices_active": true,
+  "lost_vertices": [],
+  "all_forced_rails_present": false,
+  "missing_forced_rails": [
+    [
+      243,
+      244
+    ]
+  ],
+  "topology_margin": 8.602132839374832e-09,
+  "death_ratios": {
+    "('face', (7, 8, 245, 246), (8, 246))": 0.10869886163037862,
+    "('vertex', 54, 1)": 0.9993479829524219,
+    "('edge', (6, 7), 'one_minus_t')": 0.9972380381021573,
+    "('edge', (9, 10), 't')": 0.9985272937592097
+  },
+  "minimum_signed_guard_ratio": -3.991856859909291,
+  "minimum_signed_guard": {
+    "key": "('edge', (229, 230), 't')",
+    "kind": "nonsaddle_edge_witness",
+    "baseline_value": -110465.72643738841,
+    "new_value": 440963.36786395207
+  }
+}

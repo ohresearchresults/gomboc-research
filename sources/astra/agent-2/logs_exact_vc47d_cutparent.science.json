@@ -1,0 +1,32 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 2,
+      "label": "EXACT_ATLAS",
+      "values": {
+        "V": 46,
+        "E": 69,
+        "F": 25,
+        "counts": [
+          1,
+          2,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 138,
+        "seconds": 0.1652970314025879,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    }
+  ]
+}

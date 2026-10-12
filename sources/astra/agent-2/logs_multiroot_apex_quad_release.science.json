@@ -1,0 +1,62 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 132,
+        "E": 215,
+        "F": 85,
+        "counts": [
+          51,
+          1,
+          50
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 430,
+        "VplusEplusF": 432
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "APEX_QUAD_RELEASE",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 51,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0031992180706597916,
+        "minimum_noncontact": 1.8093304632316176e-11,
+        "jitter": 1e-09,
+        "minimum_U_guard": 7.825405935812026e-08
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "APEX_QUAD_RELEASE",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 51,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0031992171534529815,
+        "minimum_noncontact": 1.3993806113887786e-11,
+        "jitter": 1e-09,
+        "minimum_U_guard": 8.449048791838117e-08
+      }
+    }
+  ]
+}

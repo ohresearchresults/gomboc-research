@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "status": "partial_interrupted_no_new_endpoint",
+  "starting_endpoint": {
+    "f_vector": {
+      "V": 61,
+      "E": 163,
+      "F": 104
+    },
+    "class": [
+      2,
+      1,
+      1
+    ],
+    "stable_faces": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      [
+        198,
+        224,
+        258
+      ]
+    ],
+    "unstable_vertices": [
+      8
+    ],
+    "saddle_edges": [
+      [
+        229,
+        247
+      ]
+    ],
+    "local_core": [
+      198,
+      224,
+      258,
+      229,
+      247,
+      228
+    ],
+    "local_rows": [
+      198,
+      224,
+      228,
+      229,
+      230,
+      241,
+      247,
+      248,
+      257,
+      258,
+      259
+    ]
+  },
+  "completed_this_continuation": [
+    "read latest durable journal terminal M42 entry",
+    "located fifth-stage exact bundle",
+    "checked principal SHA-256 hashes",
+    "inspected terminal verification transcript",
+    "recovered exact local-star atlas and core coordinates"
+  ],
+  "not_completed": [
+    "no new post-bistellar generator",
+    "no new circuit/cell atlas",
+    "no strict (1,1,0) candidate",
+    "no new exact or interval obstruction",
+    "no new verifier or mesh"
+  ],
+  "hashes": {
+    "journal": "aac19bf04bb8464f651f1a9c21c1e26fdf0d7b177d73f0c411ff802accbf63a3",
+    "fifth_bundle_zip": "1648d8f7ae35097d1d9a60196353dfa14f120ed617bd1e9e902264a6dd50d820",
+    "fifth_handoff": "6825dcbc57747eb7458e3273ec714ffea8f16e7917451c76b0021998681d2c2a"
+  }
+}

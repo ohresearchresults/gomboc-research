@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "source": "bound300_postq73_a0017.csv",
+  "lp_json": "bound300_postq73_lp.json",
+  "circuit": [
+    198,
+    228,
+    258,
+    259
+  ],
+  "bracket": [
+    0.0002,
+    0.0003
+  ],
+  "volume_bracket": [
+    4.978718489326451e-10,
+    -6.654015114722394e-10
+  ],
+  "alpha_wall": 0.00024967073215218107,
+  "epsilon": 5e-06,
+  "volume_at_wall": -7.02759123765455e-20,
+  "plane_tolerance": 1e-11,
+  "before": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        228,
+        258
+      ],
+      [
+        198,
+        258,
+        259
+      ]
+    ],
+    "topology_margin": 2.9356337638564156e-09
+  },
+  "at": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      157,
+      99
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        228,
+        258,
+        259
+      ]
+    ],
+    "topology_margin": 5.0893495417980716e-08
+  },
+  "after": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        228,
+        259
+      ],
+      [
+        228,
+        258,
+        259
+      ]
+    ],
+    "topology_margin": 4.293375849284686e-09
+  }
+}

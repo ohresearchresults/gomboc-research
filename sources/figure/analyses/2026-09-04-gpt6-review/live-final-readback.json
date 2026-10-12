@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-04T19:34:11.986671+00:00",
+  "run_id": "run_wNjVnjZHnDiKTeN2HaCH_0Q4",
+  "status": "running",
+  "revision": 4272,
+  "journal_sha256": "c0568dfa16ec34ac420419df39ecedfe2872538c4451f7f7737466b5735a7359",
+  "journal_matches_reviewed_snapshot": true,
+  "result_count": 252,
+  "live_result_updated_at": "2026-09-04T17:24:30.638Z"
+}

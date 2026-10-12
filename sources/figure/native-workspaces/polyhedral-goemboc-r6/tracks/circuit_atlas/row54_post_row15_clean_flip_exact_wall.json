@@ -1,0 +1,716 @@
+{
+  "version": 1,
+  "verdict": "CLEAN_TRANSVERSE_SUPPORT_FLIP_AFTER_EXACT_ROW15_BYPASS",
+  "source_endpoint": "row54_row15_exact_nullspace_bypass_audit.json",
+  "full44_D_inward_LP": {
+    "success": true,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "control_radius": 0.5,
+    "maximum_absolute_control_rate": 0.5,
+    "row15_determinant_derivative": 0.00029440859856637736,
+    "packet_normalized_derivatives": [
+      0.9999999999999447,
+      1.0000000000031426,
+      0.9999999999997139,
+      1.0000000000053773,
+      0.9999999999996806,
+      1.0000000000000426
+    ],
+    "minimum_normalized_preserved_guard_derivative": -2.168404344971009e-11,
+    "weakest_preserved_guards": [
+      {
+        "normalized_derivative": -2.168404344971009e-11,
+        "constraint": [
+          "topology",
+          1721,
+          [
+            "support",
+            28,
+            [
+              73,
+              261,
+              14
+            ],
+            13
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": -1.3322676295501878e-11,
+        "constraint": [
+          "mechanics",
+          103,
+          [
+            "radial_edge_numerator",
+            0,
+            54
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": -4.0657581468206416e-13,
+        "constraint": [
+          "topology",
+          429,
+          [
+            "support",
+            7,
+            [
+              88,
+              3,
+              242
+            ],
+            2
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": -1.9947620957712935e-15,
+        "constraint": [
+          "topology",
+          1180,
+          [
+            "support_circuit",
+            [
+              9,
+              198,
+              263,
+              264
+            ]
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": -1.9852334701272664e-16,
+        "constraint": [
+          "topology",
+          2829,
+          [
+            "support",
+            46,
+            [
+              230,
+              198,
+              229
+            ],
+            228
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.0,
+        "constraint": [
+          "topology",
+          1363,
+          [
+            "support_circuit",
+            [
+              11,
+              198,
+              262,
+              263
+            ]
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 1.8611563782443123e-16,
+        "constraint": [
+          "topology",
+          5085,
+          [
+            "support",
+            83,
+            [
+              230,
+              228,
+              231
+            ],
+            198
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 4.301339185275744e-15,
+        "constraint": [
+          "topology",
+          2890,
+          [
+            "support",
+            47,
+            [
+              231,
+              198,
+              230
+            ],
+            228
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 1.1154490276493177e-13,
+        "constraint": [
+          "topology",
+          893,
+          [
+            "support_circuit",
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 5.421010862427522e-13,
+        "constraint": [
+          "topology",
+          403,
+          [
+            "support",
+            6,
+            [
+              243,
+              3,
+              4
+            ],
+            244
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 2.168404344971009e-12,
+        "constraint": [
+          "topology",
+          1537,
+          [
+            "support",
+            25,
+            [
+              261,
+              262,
+              13
+            ],
+            12
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.00022365029783496705,
+        "constraint": [
+          "topology",
+          5635,
+          [
+            "support",
+            92,
+            [
+              251,
+              228,
+              250
+            ],
+            224
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.0011383091452939198,
+        "constraint": [
+          "topology",
+          613,
+          [
+            "support",
+            10,
+            [
+              4,
+              244,
+              243
+            ],
+            3
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.003160922194915344,
+        "constraint": [
+          "topology",
+          3077,
+          [
+            "support",
+            50,
+            [
+              234,
+              198,
+              233
+            ],
+            232
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.0036254168625600427,
+        "constraint": [
+          "topology",
+          3139,
+          [
+            "support",
+            51,
+            [
+              235,
+              198,
+              234
+            ],
+            233
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.004125680738632039,
+        "constraint": [
+          "topology",
+          2166,
+          [
+            "support",
+            35,
+            [
+              238,
+              237,
+              69
+            ],
+            236
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.004244841347821788,
+        "constraint": [
+          "topology",
+          5935,
+          [
+            "support",
+            97,
+            [
+              239,
+              238,
+              256
+            ],
+            69
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.0042822261268426745,
+        "constraint": [
+          "topology",
+          3511,
+          [
+            "support",
+            57,
+            [
+              241,
+              198,
+              240
+            ],
+            239
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.004295550306184424,
+        "constraint": [
+          "topology",
+          2953,
+          [
+            "support",
+            48,
+            [
+              232,
+              198,
+              231
+            ],
+            230
+          ]
+        ]
+      },
+      {
+        "normalized_derivative": 0.0043369968703399295,
+        "constraint": [
+          "topology",
+          3635,
+          [
+            "support",
+            59,
+            [
+              243,
+              198,
+              242
+            ],
+            241
+          ]
+        ]
+      }
+    ],
+    "direction": [
+      -0.2563616317510385,
+      0.3359041356918749,
+      0.5,
+      -0.42092549662364287,
+      -0.33302206779276217,
+      -0.15247247165478886,
+      -0.5,
+      -0.5,
+      0.40769321639579553,
+      -0.06239051456787944,
+      -0.5,
+      -0.5,
+      -0.5,
+      -0.5,
+      -0.5,
+      -0.5,
+      0.5,
+      -0.17892255212915137,
+      -0.5,
+      0.0049845758229327955,
+      -0.5,
+      0.11067514950587022,
+      0.5,
+      -0.06906024146310084,
+      -0.5,
+      -0.3367136521227415,
+      -0.5,
+      -0.5,
+      0.5,
+      -0.142586926894173,
+      0.5,
+      -0.2668336039339455,
+      0.5,
+      -0.06933311309229484,
+      0.5,
+      0.38083949366011505,
+      0.5,
+      0.5,
+      -0.5,
+      0.33466316946316355,
+      -0.5,
+      -0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "row15_circuit": {
+    "vertices": [
+      14,
+      15,
+      16,
+      72
+    ],
+    "common_determinant": "det(p15-p14,p16-p14,p72-p14)",
+    "start": 1.48381399753489e-11,
+    "valid_side": 5.896590787834195e-07,
+    "far_side": 7.373287037101183e-07
+  },
+  "new_wall": {
+    "circuit": [
+      12,
+      13,
+      261,
+      262
+    ],
+    "common_oriented_determinant": "N=det(p13-p12,p261-p12,p262-p12); both crossed normalized support guards are N divided by a strictly positive triangle-area denominator",
+    "common_support_rows": [
+      {
+        "guard_index": 1458,
+        "label": [
+          "support",
+          23,
+          [
+            12,
+            13,
+            262
+          ],
+          261
+        ],
+        "start": 9.033605617020379e-10,
+        "start_guard_over_common_determinant": 20.117604963008215,
+        "wall": -8.825405684032006e-17,
+        "far_old_cell_value": -2.384555660567278e-10
+      },
+      {
+        "guard_index": 1537,
+        "label": [
+          "support",
+          25,
+          [
+            261,
+            262,
+            13
+          ],
+          12
+        ],
+        "start": 9.201062519314726e-10,
+        "start_guard_over_common_determinant": 20.490527132904525,
+        "wall": -1.2793585635328952e-17,
+        "far_old_cell_value": -2.427974634495664e-10
+      }
+    ],
+    "valid_step": 0.002,
+    "far_step": 0.0025,
+    "wall_step": 0.0022276555419809482,
+    "wall_determinant": 2.121564257439914e-18,
+    "determinant_valid_side": 8.59853417864089e-12,
+    "determinant_far_side": -1.1485816410512437e-11,
+    "old_diagonal": [
+      13,
+      262
+    ],
+    "new_diagonal": [
+      12,
+      261
+    ],
+    "removed_faces": [
+      [
+        12,
+        13,
+        262
+      ],
+      [
+        13,
+        261,
+        262
+      ]
+    ],
+    "added_faces": [
+      [
+        12,
+        13,
+        261
+      ],
+      [
+        12,
+        261,
+        262
+      ]
+    ]
+  },
+  "wall": {
+    "coordinates": "row54_post_row15_clean_flip_exact_wall.csv",
+    "maximal_faces": "row54_post_row15_clean_flip_exact_wall_faces.json",
+    "f_vector": [
+      61,
+      161,
+      102
+    ],
+    "quad_present": true,
+    "minimum_projective_denominator": 0.22039542021329128
+  },
+  "strict_adjacent_cell": {
+    "coordinates": "row54_post_row15_clean_flip.csv",
+    "maximal_faces": "row54_post_row15_clean_flip_faces.json",
+    "audit": "row54_post_row15_clean_flip_audit.json",
+    "fresh": {
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "faces_match_fixed_cell": true,
+      "active": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54,
+        69,
+        72,
+        73,
+        88,
+        198,
+        224,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "centroid": [
+        -3.6264600370876416,
+        2.302208386637083,
+        1.2864106807708509
+      ],
+      "class": [
+        2,
+        3,
+        3
+      ],
+      "stable_faces": [
+        [
+          8,
+          246,
+          7
+        ],
+        [
+          0,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          54
+        ]
+      ],
+      "unstable_vertices": [
+        6,
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "all_forced_rail_edges_present": true,
+      "missing_forced_rail_edges": [],
+      "edge_0_1_present": false,
+      "all_61_rows_active": true,
+      "enlarged_base_present": true,
+      "enlarged_base_stable": true,
+      "U8_decision": 0.9961707445682138,
+      "U8_unstable": true,
+      "forced_rail_edge_count": 37
+    },
+    "required_invariants": {
+      "old_fixed_flip_new_diagonal_3_88": true,
+      "old_fixed_flip_old_diagonal_2_242_absent": true,
+      "new_diagonal_12_261": true,
+      "old_diagonal_13_262_absent": true,
+      "all_61_rows_active": true,
+      "enlarged_base_present": true,
+      "enlarged_base_stable": true,
+      "U8_unstable": true,
+      "all_forced_rail_edges_present": true
+    },
+    "packet": [
+      {
+        "value": -0.0010115477959737427,
+        "feature": [
+          "S-",
+          [
+            8,
+            246,
+            7
+          ]
+        ]
+      },
+      {
+        "value": -0.0032073455473888277,
+        "feature": [
+          "U-",
+          6
+        ]
+      },
+      {
+        "value": -0.0050419644509534295,
+        "feature": [
+          "U-",
+          54
+        ]
+      },
+      {
+        "value": -0.0002837599890976872,
+        "feature": [
+          "H-",
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "value": -0.0007885481240673458,
+        "feature": [
+          "H-",
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "value": -0.0050396390613896,
+        "feature": [
+          "H-",
+          [
+            9,
+            10
+          ]
+        ]
+      }
+    ]
+  }
+}

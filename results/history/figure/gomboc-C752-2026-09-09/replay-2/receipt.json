@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-09-09T03:48:33.006786+00:00",
+  "finishedAt": "2026-09-09T03:49:40.402576+00:00",
+  "elapsedSeconds": 67.39516166600515,
+  "exitCode": 0,
+  "python": "3.13.14 (main, Jun 10 2026, 12:24:04) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "outputs": {
+    "A.json": {
+      "bytes": 36881582,
+      "sha256": "387353545245a0c6373863d50c0d326ece350aab7a9e035fb52c308157006fe2",
+      "matchesAuthor": true
+    },
+    "B.json": {
+      "bytes": 36881691,
+      "sha256": "5a804794121cf33ecc6930b1d2d3e236d61b5b37c9ea96ed267cffccaceddc7d",
+      "matchesAuthor": true
+    },
+    "EXTRA.json": {
+      "bytes": 7549613,
+      "sha256": "ce80422cf0eb306c5878e629d4affd51bf86068d2b69731e278e59d14877e48e",
+      "matchesAuthor": true
+    },
+    "CONTROLS.json": {
+      "bytes": 238,
+      "sha256": "479674e5f16dbcc973c77f202c6f054ec63da9c248aea5a93f2ae47c0d219fc0",
+      "matchesAuthor": true
+    },
+    "SUMMARY.json": {
+      "bytes": 939,
+      "sha256": "273ca2def67c9e6402d157767b76cf375e473e3657846feb7c3f5c1e77acb9cc",
+      "matchesAuthor": true
+    }
+  },
+  "accepted": true,
+  "terminalMarkerPresent": true,
+  "sourcesUnchanged": true
+}

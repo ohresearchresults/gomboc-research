@@ -1,0 +1,166 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12001593245541033,
+        "ucost": 4.666081360666078e-05,
+        "scost": 0.34649937867294944,
+        "objective": 0.3465460394865561,
+        "minimum_noncontact": 3.985853851418142e-07,
+        "it": 0,
+        "seconds": 1.0063607692718506,
+        "trust": 0.03
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 3,
+        "U": 11,
+        "Pmax": 5.581744653900992e-12,
+        "Qmax": 0.12001902873882855,
+        "ucost": 2.3395979089953276e-05,
+        "scost": 0.34644068300067754,
+        "objective": 0.3464640789797675,
+        "minimum_noncontact": 4.0339624041152433e-07,
+        "it": 10,
+        "seconds": 11.675634860992432,
+        "trust": 6.881280000000002e-05
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002084764086982,
+        "ucost": 3.860554273301249e-09,
+        "scost": 0.3464412742135004,
+        "objective": 0.34644127807405467,
+        "minimum_noncontact": 3.4384882718896392e-09,
+        "it": 20,
+        "seconds": 14.739923000335693,
+        "trust": 0.00026435125248
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002084039712098,
+        "ucost": 3.8345175010522045e-09,
+        "scost": 0.3464412636035509,
+        "objective": 0.34644126743806836,
+        "minimum_noncontact": 1.2755352329918423e-11,
+        "it": 30,
+        "seconds": 22.53936791419983,
+        "trust": 1.691848015872e-05
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002084040094914,
+        "ucost": 3.812098928056221e-09,
+        "scost": 0.3464412634753287,
+        "objective": 0.34644126728742763,
+        "minimum_noncontact": 1.0233258684877455e-11,
+        "it": 40,
+        "seconds": 30.591381072998047,
+        "trust": 2.7719237892046857e-08
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002084163951082,
+        "ucost": 6.182376635294255e-10,
+        "scost": 0.3464412468723512,
+        "objective": 0.3464412474905889,
+        "minimum_noncontact": 1.0148548668098556e-11,
+        "it": 50,
+        "seconds": 33.482839822769165,
+        "trust": 8.692753002945894e-09
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002084172435237,
+        "ucost": 4.944944995780963e-10,
+        "scost": 0.3464412462660738,
+        "objective": 0.3464412467605683,
+        "minimum_noncontact": 1.0003442518780048e-11,
+        "it": 60,
+        "seconds": 38.97791910171509,
+        "trust": 3.115482676255809e-10
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "FINITE_MULTIPLE_CAP_DIRECT_STALLED",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002084173018117,
+        "ucost": 4.778976890473361e-10,
+        "scost": 0.34644124622867545,
+        "objective": 0.3464412467065731,
+        "minimum_noncontact": 1.0069944877955095e-11,
+        "it": 67,
+        "seconds": 45.95638585090637,
+        "trust": 1.786542385872132e-12
+      }
+    }
+  ]
+}

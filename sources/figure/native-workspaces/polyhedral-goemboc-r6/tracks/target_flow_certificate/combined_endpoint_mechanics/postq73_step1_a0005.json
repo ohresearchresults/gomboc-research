@@ -1,0 +1,1622 @@
+{
+  "version": 1,
+  "source": "bound300_postq73_a0017.csv",
+  "lp_json": "bound300_postq73_lp.json",
+  "alpha": 0.0005,
+  "lp_delta": 0.9588451425064142,
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "f_vector": [
+    59,
+    155,
+    98
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "faces_match": false,
+  "removed_faces": [
+    [
+      198,
+      228,
+      258
+    ],
+    [
+      198,
+      258,
+      259
+    ],
+    [
+      224,
+      250,
+      251
+    ],
+    [
+      224,
+      251,
+      252
+    ],
+    [
+      228,
+      250,
+      251
+    ],
+    [
+      228,
+      251,
+      252
+    ]
+  ],
+  "added_faces": [
+    [
+      198,
+      228,
+      259
+    ],
+    [
+      224,
+      228,
+      250
+    ],
+    [
+      224,
+      228,
+      252
+    ],
+    [
+      228,
+      258,
+      259
+    ]
+  ],
+  "all_vertices_active": false,
+  "lost_vertices": [
+    73,
+    251
+  ],
+  "all_forced_rails_present": false,
+  "missing_forced_rails": [
+    [
+      250,
+      251
+    ],
+    [
+      251,
+      252
+    ]
+  ],
+  "topology_margin": 2.9199381135214253e-08,
+  "death_ratios": {
+    "('face', (7, 8, 245, 246), (8, 246))": 0.995906263855518,
+    "('vertex', 54, 1)": 0.9995236305759624,
+    "('edge', (6, 7), 'one_minus_t')": 0.9995015669936581,
+    "('edge', (9, 10), 't')": 0.9992909015476011
+  },
+  "missing_selected_guards": [
+    {
+      "key": "('face', (198, 228, 258), (198, 258))",
+      "kind": "nonstable_face_witness"
+    },
+    {
+      "key": "('face', (198, 258, 259), (198, 259))",
+      "kind": "nonstable_face_witness"
+    },
+    {
+      "key": "('face', (228, 250, 251), (228, 251))",
+      "kind": "nonstable_face_witness"
+    },
+    {
+      "key": "('face', (224, 250, 251), (250, 251))",
+      "kind": "nonstable_face_witness"
+    },
+    {
+      "key": "('face', (228, 251, 252), (228, 252))",
+      "kind": "nonstable_face_witness"
+    },
+    {
+      "key": "('face', (224, 251, 252), (251, 252))",
+      "kind": "nonstable_face_witness"
+    },
+    {
+      "key": "('vertex', 251, 224)",
+      "kind": "nonunstable_vertex_witness"
+    },
+    {
+      "key": "('edge', (198, 258), 'beta2')",
+      "kind": "nonsaddle_edge_witness"
+    },
+    {
+      "key": "('edge', (224, 251), 'one_minus_t')",
+      "kind": "nonsaddle_edge_witness"
+    },
+    {
+      "key": "('edge', (228, 251), 't')",
+      "kind": "nonsaddle_edge_witness"
+    },
+    {
+      "key": "('edge', (250, 251), 'one_minus_t')",
+      "kind": "nonsaddle_edge_witness"
+    },
+    {
+      "key": "('edge', (251, 252), 't')",
+      "kind": "nonsaddle_edge_witness"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 0)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 1)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 2)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 3)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 4)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 5)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 6)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 7)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 8)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 9)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 10)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 11)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 12)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 13)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 14)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 15)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 16)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 54)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 69)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 72)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 73)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 88)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 224)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 229)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 230)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 231)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 232)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 233)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 234)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 235)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 236)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 237)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 238)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 239)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 240)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 241)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 242)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 243)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 244)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 245)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 246)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 247)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 248)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 249)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 250)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 251)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 252)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 253)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 254)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 255)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 256)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 257)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 259)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 260)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 261)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 262)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 263)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 228, 258), 264)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 0)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 1)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 2)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 3)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 4)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 5)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 6)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 7)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 8)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 9)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 10)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 11)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 12)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 13)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 14)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 15)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 16)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 54)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 69)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 72)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 73)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 88)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 224)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 228)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 229)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 230)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 231)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 232)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 233)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 234)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 235)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 236)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 237)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 238)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 239)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 240)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 241)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 242)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 243)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 244)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 245)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 246)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 247)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 248)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 249)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 250)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 251)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 252)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 253)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 254)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 255)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 256)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 257)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 260)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 261)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 262)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 263)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (198, 258, 259), 264)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 0)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 1)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 2)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 3)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 4)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 5)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 6)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 7)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 8)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 9)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 10)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 11)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 12)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 13)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 14)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 15)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 16)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 54)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 69)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 72)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 73)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 88)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 198)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 224)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 229)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 230)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 231)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 232)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 233)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 234)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 235)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 236)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 237)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 238)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 239)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 240)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 241)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 242)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 243)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 244)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 245)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 246)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 247)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 248)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 249)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 252)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 253)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 254)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 255)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 256)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 257)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 258)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 259)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 260)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 261)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 262)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 263)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 250, 251), 264)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 0)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 1)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 2)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 3)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 4)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 5)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 6)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 7)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 8)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 9)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 10)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 11)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 12)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 13)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 14)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 15)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 16)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 54)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 69)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 72)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 73)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 88)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 198)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 228)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 229)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 230)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 231)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 232)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 233)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 234)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 235)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 236)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 237)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 238)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 239)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 240)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 241)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 242)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 243)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 244)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 245)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 246)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 247)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 248)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 249)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 252)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 253)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 254)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 255)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 256)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 257)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 258)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 259)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 260)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 261)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 262)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 263)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 250, 251), 264)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 0)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 1)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 2)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 3)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 4)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 5)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 6)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 7)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 8)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 9)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 10)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 11)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 12)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 13)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 14)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 15)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 16)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 54)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 69)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 72)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 73)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 88)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 198)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 224)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 229)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 230)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 231)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 232)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 233)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 234)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 235)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 236)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 237)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 238)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 239)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 240)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 241)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 242)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 243)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 244)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 245)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 246)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 247)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 248)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 249)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 250)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 253)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 254)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 255)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 256)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 257)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 258)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 259)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 260)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 261)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 262)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 263)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (228, 251, 252), 264)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 0)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 1)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 2)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 3)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 4)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 5)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 6)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 7)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 8)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 9)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 10)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 11)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 12)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 13)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 14)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 15)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 16)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 54)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 69)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 72)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 73)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 88)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 198)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 228)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 229)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 230)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 231)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 232)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 233)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 234)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 235)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 236)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 237)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 238)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 239)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 240)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 241)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 242)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 243)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 244)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 245)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 246)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 247)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 248)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 249)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 250)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 253)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 254)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 255)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 256)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 257)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 258)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 259)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 260)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 261)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 262)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 263)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('topology', (224, 251, 252), 264)",
+      "kind": "support_slack"
+    },
+    {
+      "key": "('incidence', (198, 228, 258), (198, 258), 228)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (198, 228, 258), (228, 258), 198)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (198, 228, 258), (198, 228), 258)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (198, 258, 259), (198, 259), 258)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (198, 258, 259), (258, 259), 198)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (198, 258, 259), (198, 258), 259)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (228, 250, 251), (228, 250), 251)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (228, 250, 251), (250, 251), 228)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (228, 250, 251), (228, 251), 250)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (224, 250, 251), (224, 251), 250)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (224, 250, 251), (250, 251), 224)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (224, 250, 251), (224, 250), 251)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (228, 251, 252), (228, 251), 252)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (228, 251, 252), (251, 252), 228)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (228, 251, 252), (228, 252), 251)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (224, 251, 252), (224, 252), 251)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (224, 251, 252), (251, 252), 224)",
+      "kind": "incidence_slack"
+    },
+    {
+      "key": "('incidence', (224, 251, 252), (224, 251), 252)",
+      "kind": "incidence_slack"
+    }
+  ],
+  "minimum_signed_guard_ratio": -0.5189362344512537,
+  "minimum_signed_guard": {
+    "key": "('edge', (198, 259), 'beta1')",
+    "kind": "nonsaddle_edge_witness",
+    "baseline_value": -17637.248758316106,
+    "new_value": 9152.607456720609
+  }
+}

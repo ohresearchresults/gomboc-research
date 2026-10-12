@@ -1,0 +1,54 @@
+# material-67aade110691
+
+AI research material · [Export notes](../catalog/coverage.md#text-records)
+
+<!-- historical-status:start -->
+> **Historical AI material.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../C622/README.md) passes the supplied exact checks; C<500 remains open; Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. See [verification status and source gaps](../catalog/coverage.md).
+<!-- historical-status:end -->
+
+---
+
+# Recovery capsule part 1/2: SQP1 exact C336 controls
+Object identity SQP1_HARD_ESCAPE_V1. This is not110 and not a replacement for canonical110/C622. Both fine grids are new own211/weak000/primitivezero000 controls with V58/E168/F112,C336 and P0/oneQ. G8 Qdepth .44768656497521575; G10 .44768655918729555. Two coarser negative controls are preserved: G7 own323/P1Q2, G6 own12/15/25/P14Q11, all weak000/zero000. Rounding is NOT evidence that equilibrium counts survive. The originally computed floating state is not needed to recover these four exact objects.
+
+Part2 preserves the complete producing escape_sqp_v1.py and exact input dependency. For verification the REQUIRED exact source dependency is [internal-source-reference], JB_C168_OWN211_EXACT_RECOVERY_V1.md13684B,SHA2b1c5045a6bac634a6858e76e723cf3820fe4185a0ef3253bb1a845d696b84e2. Extract its literal exact_poly.py6134B SHA898f77989193886996d6f2dc121ccdfdf611b8a9ac52fd3207557eac6a69c0c4. Auditor uses only standard library and explicitly rejects nontriangular maximal facets. All four pass true triple-enumerated hull, own filled volume centroid, strict/closed weak S/U/H, exact P/Q bars.
+
+Write the code below exactly as recover_sqp1.py with final LF. Expected3205B SHA08be2f33043aa6a882618c07c11105cf48c395ddf27214635be25b383ec76bdb. Execute:
+```
+python recover_sqp1.py
+python exact_poly.py sqp1_BEST.json
+python exact_poly.py SQP1_G10.json
+python exact_poly.py SQP1_G7.json
+python exact_poly.py SQP1_G6.json
+```
+Expected terminal SQP1_RECOVERY_PASS and EXACT_POLY_AUDIT_PASS for each. Deterministic audit files:
+sqp1_BEST_AUDIT.json6054B SHA9b36a9a21609216eaf96e1b0d30f2ed8251e8fc6451f80e84000edffff588819;
+SQP1_G10_AUDIT.json6623B SHAc8c1e9cf4e6dc93bf00605d33e73c93e121e5cf2b29c8f88198c16981c71db72;
+SQP1_G7_AUDIT.json6904B SHA3b360b1054126dd687a889f868f2b1a77b24325f05baf459505c3004e08502e2;
+SQP1_G6_AUDIT.json17937B SHA29c616b3da91fe7244b8da9a36fe6e8ed361306d0f74173da293bd92c03d56a6.
+G8S48/97,U57,H36–57;soleQpeak97elder48,component33/cut21,attaining84–85,path97,98,99,100,96,108,105,107,106,89,91,90,82,84,85,83,104,69,70,67,103,102,101,48. Exact component/cut/birth/death and all moments are regenerated in audit. G8volume5828527837781725035221099/3000000000000000000000000;centroid29506885032884367948499098137411/4662822270225380028176879200000000,1888100300904749485509717130357/145713195944543125880527475000000,-18293485553247261124066984336759/2331411135112690014088439600000000.
+
+## recover_sqp1.py
+```python
+"""Reconstruct four exact rational SQP1 controls with integer ties-to-even rounding."""
+import json,hashlib
+from pathlib import Path
+RAW = {"denominator":10000000000,"name":"SQP1_G10","points":[[-10358645315,-1143746897,976977702],[-10195502225,-894928312,2888121157],[-10177188315,-1318586487,-923146009],[-10051328384,-2357529429,1260723934],[-9908903465,-228580796,-2301955405],[-9842784863,290966188,4517406950],[-9499446634,-3697744174,-181146339],[-9424654562,-1902457442,-2977074493],[-9065310261,1365163205,6155477365],[-9212150379,1737858222,-3320014268],[-8684421671,-4687986625,-1666577196],[-8831476975,693568837,-4399467232],[-8412839705,-3984484436,-3226805410],[-8247105413,-1995274655,-4946708317],[-7889580413,2215453739,7708613580],[-7656199190,-5374753343,-3060595204],[-7096733985,-1221411811,-6412214312],[-6853397544,-5089060256,-4612691916],[-6898675969,2267458629,-6080716174],[-6688606133,-6572809027,-2421887754],[-6362443604,2804279007,9110538928],[-5913823443,-4890401967,-5773841491],[-5731877766,-6481398794,-4031035510],[-5661515020,93520260,-7521862363],[-5307166789,-7466525769,-2665479396],[-4924984078,-4521160027,-6767558266],[-4375153719,3353402093,10340383856],[-4364636914,-3238829612,-7654579898],[-4212379239,-6064766690,-5731018035],[-3392689793,1815281863,-8020685288],[-2824190453,-8006774795,-3480768145],[-3152899362,-2412133652,-8355953653],[-3265549778,-5030316041,-7164975388],[-2101812133,3955231766,11122610227],[-2080085734,-7083092059,-5179447918],[-1664386796,-4957598502,-7553164309],[-396785134,-2777829141,-8251095274],[751131652,-7764597408,-247816051],[294604130,-5592881004,-6761677824],[288604866,-7325914831,-4502938295],[593834858,4579175704,11430558174],[1205937251,251403673,-7190500527],[1369039014,-6999527267,-4331043297],[3248065208,5192534602,11071066531],[5198690021,-488278368,-5129409431],[5648615463,-1941078352,-3910690851],[6636162154,3322940517,-4615413273],[6721553246,5942743587,9738224028],[9876988810,6537787705,7281503760],[15247922089,7276068329,-268023618],[793720582,4068292349,-5505804518],[5736515574,1397297758,5578700190],[-69274750,207748021,7412904695],[1264959546,-940006382,6049071234],[2803872278,-6402141476,-2049253367],[1614734674,1700441080,-6666400356],[7494905693,-1000961012,-2140934643],[8783417620,1429757812,-3039740052]]}
+def round_even(a,b):
+    q,r=divmod(a,b)
+    return q+int(2*r>b or (2*r==b and q%2))
+MANIFEST={
+ 'SQP1_G6':(6,1487,'c0ae7ff88fd9d64def8af0c44d5cc143dd90c3c99fd456b64411c1fa3bd9331c'),
+ 'SQP1_G7':(7,1662,'ce87fd2d3ec661ee336bc7c781fe2dcc22d6ddc25846fd74b75084abc9b1048d'),
+ 'sqp1_BEST':(8,1839,'354f11698c74a6e37d28f43c7934e86f9cc3500f6f42af9ce18f4feed9631719'),
+ 'SQP1_G10':(10,2188,'923be5aff0bdd96b9fd9a654c7e445817708a039f0a6ff0de582ffdfb48444f8')}
+for name,(digits,size,sha) in MANIFEST.items():
+    raw=dict(denominator=10**digits,name=name,points=[[round_even(a,10**(10-digits)) for a in row] for row in RAW['points']])
+    data=(json.dumps(raw,separators=(',',':'))+'\n').encode()
+    assert len(data)==size and hashlib.sha256(data).hexdigest()==sha
+    Path(name+'.json').write_bytes(data)
+    print('SQP1_RECOVERY_INPUT_PASS',name,size,sha)
+print('SQP1_RECOVERY_PASS')
+```

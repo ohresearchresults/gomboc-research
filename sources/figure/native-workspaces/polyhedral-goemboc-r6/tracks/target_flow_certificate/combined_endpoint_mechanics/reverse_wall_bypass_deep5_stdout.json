@@ -1,0 +1,141 @@
+{
+  "lp_delta": 0.9626115150715137,
+  "local_rank": 4,
+  "local_nullity": 2,
+  "nullspace_projection_norm": 0.0003133167595668686,
+  "death_y_leakage": 6.617444900424222e-24,
+  "quadrants": [
+    {
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "reverse_volume": 4.036297339699509e-12,
+      "reverse_faces": [
+        [
+          69,
+          228,
+          235
+        ],
+        [
+          69,
+          228,
+          255
+        ]
+      ],
+      "hard_valid": true
+    },
+    {
+      "quadrant": [
+        -1,
+        1
+      ],
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "reverse_volume": -6.6598847751543096e-12,
+      "reverse_faces": [
+        [
+          69,
+          235,
+          255
+        ],
+        [
+          228,
+          235,
+          255
+        ]
+      ],
+      "hard_valid": true
+    },
+    {
+      "quadrant": [
+        1,
+        -1
+      ],
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "reverse_volume": 6.710761085192292e-12,
+      "reverse_faces": [
+        [
+          69,
+          228,
+          235
+        ],
+        [
+          69,
+          228,
+          255
+        ]
+      ],
+      "hard_valid": true
+    },
+    {
+      "quadrant": [
+        1,
+        1
+      ],
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "reverse_volume": -3.9860882524173096e-12,
+      "reverse_faces": [
+        [
+          69,
+          235,
+          255
+        ],
+        [
+          228,
+          235,
+          255
+        ]
+      ],
+      "hard_valid": true
+    }
+  ],
+  "independent_event": {
+    "alpha": 0.00017064494724340916,
+    "root_shift_due_to_y": 2.310245094186425e-14,
+    "before_f_vector": [
+      60,
+      158,
+      100
+    ],
+    "at_f_vector": [
+      60,
+      157,
+      99
+    ],
+    "after_f_vector": [
+      60,
+      158,
+      100
+    ],
+    "reverse_volume_at_independent": -2.647479455018231e-12
+  },
+  "bypass_audit": {
+    "all_path_hard_valid": true,
+    "all_path_below_original_four_deaths": true,
+    "all_four_decrease_start_to_end": true,
+    "reverse_volume_sign_constant_on_path": true,
+    "reverse_faces_constant_start_to_independent": true,
+    "no_reverse_roots_on_any_segment": true,
+    "independent_wall_reached": true,
+    "post_independent_cell_valid": true,
+    "bypass_found": true,
+    "diagnosis": "avoidable codimension-one circuit wall, not a genuine limit cycle"
+  }
+}

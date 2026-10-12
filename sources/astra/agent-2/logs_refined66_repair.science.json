@@ -1,0 +1,99 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 66,
+        "F": 128,
+        "E": 192,
+        "nodes": 194,
+        "free": 194,
+        "depth": 5,
+        "levels": 12
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 0,
+        "S": 78,
+        "U": 23,
+        "minimum": -2.3315366906487382e-06,
+        "centroid": [
+          -2.823969289826842e-17,
+          5.8832693538059216e-18,
+          6.236265515034277e-17
+        ],
+        "merit": 5.500656779177952e-05,
+        "trust": 0.003,
+        "seconds": 0.6620051860809326
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 1,
+        "S": 1,
+        "U": 2,
+        "minimum": 9.994828653360488e-08,
+        "centroid": [
+          2.7798768692800235e-07,
+          1.0450688534106842e-08,
+          2.0588463176931802e-07
+        ],
+        "merit": 2.888353748301122e-10,
+        "trust": 0.0042,
+        "seconds": 2.438577175140381
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "STRICT121_REQUIRES_EXACT",
+      "values": {
+        "it": 1,
+        "S": 1,
+        "U": 2,
+        "minimum": 9.994828653360488e-08,
+        "centroid": [
+          2.7798768692800235e-07,
+          1.0450688534106842e-08,
+          2.0588463176931802e-07
+        ],
+        "merit": 2.888353748301122e-10,
+        "trust": 0.0042,
+        "seconds": 2.438577175140381
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "EXACT_ATLAS",
+      "values": {
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "counts": [
+          1,
+          2,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 384,
+        "seconds": 1.9990451335906982,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    }
+  ]
+}

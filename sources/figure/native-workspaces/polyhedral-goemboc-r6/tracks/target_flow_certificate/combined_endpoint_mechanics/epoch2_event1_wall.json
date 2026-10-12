@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "source": "epoch1_bypass3_endpoint.csv",
+  "lp_json": "epoch2_lp.json",
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "circuit": [
+    198,
+    229,
+    259,
+    260
+  ],
+  "bracket": [
+    0.00076625,
+    0.000775
+  ],
+  "volume_bracket": [
+    5.542313320888713e-11,
+    -1.533401779853765e-10
+  ],
+  "alpha_wall": 0.0007685884098317856,
+  "epsilon": 5e-06,
+  "volume_at_wall": -1.9880998092982224e-18,
+  "plane_tolerance": 1e-11,
+  "before": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        229,
+        259
+      ],
+      [
+        198,
+        259,
+        260
+      ]
+    ],
+    "topology_margin": 1.7052555478791476e-09
+  },
+  "at": {
+    "valid": true,
+    "mechanics_valid": true,
+    "f_vector": [
+      60,
+      157,
+      99
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        229,
+        259,
+        260
+      ]
+    ],
+    "topology_margin": 9.81769979202518e-09
+  },
+  "after": {
+    "valid": true,
+    "mechanics_valid": false,
+    "mechanics_error": "ValueError('parallel face normals')",
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": null,
+    "circuit_faces": [
+      [
+        198,
+        229,
+        260
+      ],
+      [
+        229,
+        259,
+        260
+      ]
+    ],
+    "topology_margin": 2.4593232450520475e-09
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "scope": "independent exact QQ-gcd and geometric-owner certificate for the first wall on the verified F21 ray",
+  "certifier": {
+    "path": "recovery2/main/post_transfer_round16/verify_exact_interior_first_wall.py",
+    "sha256": "4f6c07b161b172871a0e0295071ee5973a6ead606aeb4c7e0c8591ffce554095"
+  },
+  "inputs": {
+    "engine": {
+      "path": "recovery2/main/post_transfer_round16/verify_exact_interior.py",
+      "bytes": 105094,
+      "sha256": "be98869c6cfad29aa0b96ffff2cfe4d5bbee034c2feb6a94a21d0a9b647518da",
+      "snapshot_reads": 1
+    },
+    "unit_verification": {
+      "path": "recovery2/main/post_transfer_round16/exact_interior_verification.json",
+      "bytes": 227459,
+      "sha256": "7787d0c8a90346d23abac629d8678b82d504def1161aa4c5914016e81eb71d3b",
+      "snapshot_reads": 1
+    },
+    "t10_verifier": {
+      "path": "recovery2/main/post_transfer_round16/verify_exact_interior_t10.py",
+      "bytes": 17567,
+      "sha256": "e7eb52eb5584a3cc85a5148b7b771144b085e8d7e308f28725a94211691d10dd",
+      "snapshot_reads": 1
+    },
+    "t10_candidate": {
+      "path": "recovery2/main/post_transfer_round16/exact_interior_t10_candidate.csv",
+      "bytes": 343066,
+      "sha256": "0e9a5e84ae7907a1a07e686cc797c74e2840305963c28447199b7976f9eb7688",
+      "snapshot_reads": 1
+    },
+    "t10_verification": {
+      "path": "recovery2/main/post_transfer_round16/exact_interior_t10_verification.json",
+      "bytes": 53696,
+      "sha256": "e705c68a75331cd5775337f50a6ae3ce058cc1f4622854339467780b271bcd60",
+      "snapshot_reads": 1
+    },
+    "source": {
+      "path": "recovery2/main/post_transfer_round15/far.csv",
+      "bytes": 82321,
+      "sha256": "d34ebac9a1cfe81ce4d782049938ad68f1124eb82e3cd19342c30e5de14f39e3",
+      "snapshot_reads": 1
+    },
+    "faces": {
+      "path": "recovery2/main/post_transfer_round15/post_faces.json",
+      "bytes": 3283,
+      "sha256": "06b15585bd906ae1ee0cfc5aefff2a46a5e752a02dfb556abde9225e1df81c6b",
+      "snapshot_reads": 1
+    },
+    "unit_candidate": {
+      "path": "recovery2/main/post_transfer_round16/exact_interior_candidate.csv",
+      "bytes": 343273,
+      "sha256": "52136b5bef94379e00445a0688865c56936ea7bc31db78e3f9fe90e8f755f110",
+      "snapshot_reads": 1
+    },
+    "proposal": {
+      "path": "recovery2/main/post_transfer_round16/exact_interior_proposal.json",
+      "bytes": 1160861,
+      "sha256": "d1a481360259c1e5ecdeafbd9a4b2db38d7581c83ef995e475c295e71f17b30a",
+      "snapshot_reads": 1
+    },
+    "receipt": {
+      "path": "recovery2/main/post_transfer_round16/exact_interior_receipt.json",
+      "bytes": 24180,
+      "sha256": "8c13b9fbfa3f6d1dc16cb11213adbfac8658827dd19173a384722838ed447f8e",
+      "snapshot_reads": 1
+    },
+    "scan": {
+      "path": "recovery2/main/post_transfer_round16/exact_interior_event_scan.json",
+      "bytes": 8936000,
+      "sha256": "17cbafcb58c9072947d845409e02d8ae0740a166d89b91c820c057071f56b6d3",
+      "snapshot_reads": 1
+    }
+  },
+  "total_ray": {
+    "primitive_count": 12363,
+    "family_counts": {
+      "mechanics_denominator": 301,
+      "support": 10529,
+      "in_face_turn": 33,
+      "face_component": 300,
+      "vertex_component": 300,
+      "edge_component": 900
+    },
+    "path_primitive_sha256": "74f8a65a1c4e1c8748658128658d78d9b2b847ca89ec4b21316348cd6846a26e"
+  },
+  "overlap_ledger": {
+    "row_count": 82,
+    "family_counts": {
+      "edge_component": 21,
+      "support": 61
+    },
+    "all_scan_rows_equal_independent_polynomials": true,
+    "all_brackets_contain_common_root": true,
+    "exact_zero_set_at_root_count": 82,
+    "exact_zero_set_equals_overlap_ledger": true,
+    "zero_key_ledger_sha256": "d4fcb951fdd87d4b2e1b72e4e9b5821dfd8c72ed97820b7cfe518f739fa6bd83"
+  },
+  "common_factor": {
+    "qq_monic_polynomial_exact": [
+      "-12665681313162361071308204670375608028462385588208254037995321137619818510482582993422054737022760325252828159038404262875315823092260456938999515077260278475760887922205857799807850317883993277563744084900080154100097654520363244220752134895593471147969672752847994474328360481821272930731349420509796033429934147131502938427775510776882552595696282756371863772248756129365359037665207086561832180900239658366160026434840085687788749721991835498448109192587341385076490716490989601855116242493554668757793402238710817786721954047430618936696614402690790404804195328332803099097164087033712039059535707229275457960341919127220096691245571018528830223104706514201058301889284657140268830594724733493268064013776599/1265090499828719510219304730241797584299102790308312239125687913253835841219113139696351864024188039451138472283211946601847575170418952472687715871402477848093645137039855257762086124097160879198634395425946306868010907740546075039283441887710804979955792586740308068342586272063874089754522138016514549244614746537083818454416614840004954337992571120400818169341231280229125344648548972755501605062024787843962344274426540246756295089376029923301055107328100496952130223423678430019851325362208474527128530596076654649771672373201675092996929883196675804405709965288493562256648511844839302310889549483221903998666861825629125062071882391527432396726452787800403933286181290413473766731732694169000000000000000",
+      "1"
+    ],
+    "qq_monic_polynomial_sha256": "3bb01324668748fa481965bdd01bb2c813d1ede761bcd238c26969f3e9718b82",
+    "degree": 1,
+    "support_family_gcd_equal": true,
+    "edge_family_gcd_equal": true,
+    "root_exact": "12665681313162361071308204670375608028462385588208254037995321137619818510482582993422054737022760325252828159038404262875315823092260456938999515077260278475760887922205857799807850317883993277563744084900080154100097654520363244220752134895593471147969672752847994474328360481821272930731349420509796033429934147131502938427775510776882552595696282756371863772248756129365359037665207086561832180900239658366160026434840085687788749721991835498448109192587341385076490716490989601855116242493554668757793402238710817786721954047430618936696614402690790404804195328332803099097164087033712039059535707229275457960341919127220096691245571018528830223104706514201058301889284657140268830594724733493268064013776599/1265090499828719510219304730241797584299102790308312239125687913253835841219113139696351864024188039451138472283211946601847575170418952472687715871402477848093645137039855257762086124097160879198634395425946306868010907740546075039283441887710804979955792586740308068342586272063874089754522138016514549244614746537083818454416614840004954337992571120400818169341231280229125344648548972755501605062024787843962344274426540246756295089376029923301055107328100496952130223423678430019851325362208474527128530596076654649771672373201675092996929883196675804405709965288493562256648511844839302310889549483221903998666861825629125062071882391527432396726452787800403933286181290413473766731732694169000000000000000",
+    "root_decimal_readback": 10.01168004571781,
+    "root_strictly_after_t10": true
+  },
+  "geometric_owner": {
+    "kind": "row_73_enters_frozen_base_carrier_plane_and_base_fan_coalesces",
+    "carrier_face_index": 73,
+    "carrier_cycle": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "entering_witness": 73,
+    "fan_faces": {
+      "76": [
+        14,
+        13,
+        73
+      ],
+      "78": [
+        14,
+        73,
+        15
+      ],
+      "84": [
+        16,
+        15,
+        73
+      ],
+      "85": [
+        0,
+        16,
+        73
+      ]
+    },
+    "support_zero_counts_by_face": {
+      "73": 1,
+      "76": 15,
+      "78": 15,
+      "84": 15,
+      "85": 15
+    },
+    "edge_zero_owners": [
+      [
+        0,
+        16
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        73
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        73
+      ],
+      [
+        16,
+        73
+      ]
+    ],
+    "edge_zero_components_each": [
+      "beta1",
+      "beta2",
+      "gram"
+    ],
+    "local_vertex_owner_set": [
+      0,
+      13,
+      14,
+      15,
+      16,
+      73
+    ],
+    "row_73_exactly_on_base_plane_at_root": true,
+    "all_four_fan_faces_coalesce_with_base_plane_at_root": true
+  },
+  "verdict": "INDEPENDENT_EXACT_POST_C17_F21_FIRST_COMMON_WALL_GCD_PASS",
+  "proof_status": "FIRST_WALL_IDENTITY_AND_GEOMETRIC_OWNER_ONLY_NO_POST_WALL_CELL",
+  "winner_status": "NONWINNER_WALL_CERTIFICATE_ONLY",
+  "claim_boundary": "The common rational first wall is identified exactly. No post-wall combinatorics or crossing is certified."
+}

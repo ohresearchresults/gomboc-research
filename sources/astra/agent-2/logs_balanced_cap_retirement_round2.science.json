@@ -1,0 +1,120 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 146,
+        "E": 249,
+        "F": 105,
+        "S": 6,
+        "U": 2,
+        "Pmax": 0.0001519261356459125,
+        "Qmax": 0.09806746559841024,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 0,
+        "new_apex_candidates": 40,
+        "mass_error": 1.5612511283791264e-17,
+        "visible_facets": 6,
+        "solver_evaluations": 12
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 149,
+        "E": 249,
+        "F": 102,
+        "S": 6,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09116822802267405,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 2,
+        "new_apex_candidates": 40,
+        "mass_error": 1.0408340855860843e-17,
+        "visible_facets": 3,
+        "solver_evaluations": 10
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 150,
+        "E": 249,
+        "F": 101,
+        "S": 5,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0966622747126344,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 8,
+        "new_apex_candidates": 40,
+        "mass_error": 3.9898639947466563e-17,
+        "visible_facets": 1,
+        "solver_evaluations": 5
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 150,
+        "E": 249,
+        "F": 101,
+        "S": 4,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09726275678735934,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 22,
+        "new_apex_candidates": 40,
+        "mass_error": 1.3877787807814457e-17,
+        "visible_facets": 1,
+        "solver_evaluations": 5
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 150,
+        "E": 249,
+        "F": 101,
+        "S": 4,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09693324809793485,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 23,
+        "new_apex_candidates": 40,
+        "mass_error": 1.734723475976807e-17,
+        "visible_facets": 1,
+        "solver_evaluations": 5
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 150,
+        "E": 249,
+        "F": 101,
+        "S": 3,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09754136390810571,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 31,
+        "new_apex_candidates": 40,
+        "mass_error": 1.5612511283791264e-17,
+        "visible_facets": 1,
+        "solver_evaluations": 5
+      }
+    }
+  ]
+}

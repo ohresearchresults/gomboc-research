@@ -1,0 +1,4118 @@
+{
+  "version": 1,
+  "scope": "full-control proposal in safe (229,231)-diagonal cell with row-230-loss family pushed inward",
+  "source_hashes": {
+    "tracks/global_carrier_support/stage31_h1011_attack/continuation/main/exact_full_control_chain_far.csv": "76c34169fc8b18c6cff0a82f325f1b2b474c7a71278722c0cdd3b4319f332332",
+    "tracks/global_carrier_support/stage31_h1011_attack/continuation/main/exact_full_control_chain_post_faces.json": "c1d74d638df21a0492645aa39e4d3943b8401ed0732393505c838ec2f1c0ed77"
+  },
+  "source_signature": {
+    "f_vector": [
+      61,
+      162,
+      103
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "stable_faces": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54
+      ],
+      [
+        7,
+        8,
+        245
+      ]
+    ],
+    "unstable_vertices": [
+      8,
+      54
+    ],
+    "saddle_edges": [
+      [
+        5,
+        6
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "active_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      54,
+      69,
+      72,
+      73,
+      88,
+      198,
+      224,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264
+    ]
+  },
+  "mode_count": 165,
+  "mode_names": [
+    [
+      0,
+      "u"
+    ],
+    [
+      0,
+      "v"
+    ],
+    [
+      1,
+      "u"
+    ],
+    [
+      1,
+      "v"
+    ],
+    [
+      2,
+      "u"
+    ],
+    [
+      2,
+      "v"
+    ],
+    [
+      3,
+      "u"
+    ],
+    [
+      3,
+      "v"
+    ],
+    [
+      4,
+      "u"
+    ],
+    [
+      4,
+      "v"
+    ],
+    [
+      5,
+      "u"
+    ],
+    [
+      5,
+      "v"
+    ],
+    [
+      6,
+      "u"
+    ],
+    [
+      6,
+      "v"
+    ],
+    [
+      7,
+      "u"
+    ],
+    [
+      7,
+      "v"
+    ],
+    [
+      8,
+      "u"
+    ],
+    [
+      8,
+      "v"
+    ],
+    [
+      9,
+      "u"
+    ],
+    [
+      9,
+      "v"
+    ],
+    [
+      10,
+      "u"
+    ],
+    [
+      10,
+      "v"
+    ],
+    [
+      11,
+      "u"
+    ],
+    [
+      11,
+      "v"
+    ],
+    [
+      12,
+      "u"
+    ],
+    [
+      12,
+      "v"
+    ],
+    [
+      13,
+      "u"
+    ],
+    [
+      13,
+      "v"
+    ],
+    [
+      14,
+      "u"
+    ],
+    [
+      14,
+      "v"
+    ],
+    [
+      15,
+      "u"
+    ],
+    [
+      15,
+      "v"
+    ],
+    [
+      16,
+      "u"
+    ],
+    [
+      16,
+      "v"
+    ],
+    [
+      54,
+      "u"
+    ],
+    [
+      54,
+      "v"
+    ],
+    [
+      69,
+      "x"
+    ],
+    [
+      69,
+      "y"
+    ],
+    [
+      69,
+      "z"
+    ],
+    [
+      72,
+      "x"
+    ],
+    [
+      72,
+      "y"
+    ],
+    [
+      72,
+      "z"
+    ],
+    [
+      73,
+      "x"
+    ],
+    [
+      73,
+      "y"
+    ],
+    [
+      73,
+      "z"
+    ],
+    [
+      88,
+      "x"
+    ],
+    [
+      88,
+      "y"
+    ],
+    [
+      88,
+      "z"
+    ],
+    [
+      198,
+      "x"
+    ],
+    [
+      198,
+      "y"
+    ],
+    [
+      198,
+      "z"
+    ],
+    [
+      224,
+      "x"
+    ],
+    [
+      224,
+      "y"
+    ],
+    [
+      224,
+      "z"
+    ],
+    [
+      228,
+      "x"
+    ],
+    [
+      228,
+      "y"
+    ],
+    [
+      228,
+      "z"
+    ],
+    [
+      229,
+      "x"
+    ],
+    [
+      229,
+      "y"
+    ],
+    [
+      229,
+      "z"
+    ],
+    [
+      230,
+      "x"
+    ],
+    [
+      230,
+      "y"
+    ],
+    [
+      230,
+      "z"
+    ],
+    [
+      231,
+      "x"
+    ],
+    [
+      231,
+      "y"
+    ],
+    [
+      231,
+      "z"
+    ],
+    [
+      232,
+      "x"
+    ],
+    [
+      232,
+      "y"
+    ],
+    [
+      232,
+      "z"
+    ],
+    [
+      233,
+      "x"
+    ],
+    [
+      233,
+      "y"
+    ],
+    [
+      233,
+      "z"
+    ],
+    [
+      234,
+      "x"
+    ],
+    [
+      234,
+      "y"
+    ],
+    [
+      234,
+      "z"
+    ],
+    [
+      235,
+      "x"
+    ],
+    [
+      235,
+      "y"
+    ],
+    [
+      235,
+      "z"
+    ],
+    [
+      236,
+      "x"
+    ],
+    [
+      236,
+      "y"
+    ],
+    [
+      236,
+      "z"
+    ],
+    [
+      237,
+      "x"
+    ],
+    [
+      237,
+      "y"
+    ],
+    [
+      237,
+      "z"
+    ],
+    [
+      238,
+      "x"
+    ],
+    [
+      238,
+      "y"
+    ],
+    [
+      238,
+      "z"
+    ],
+    [
+      239,
+      "x"
+    ],
+    [
+      239,
+      "y"
+    ],
+    [
+      239,
+      "z"
+    ],
+    [
+      240,
+      "x"
+    ],
+    [
+      240,
+      "y"
+    ],
+    [
+      240,
+      "z"
+    ],
+    [
+      241,
+      "x"
+    ],
+    [
+      241,
+      "y"
+    ],
+    [
+      241,
+      "z"
+    ],
+    [
+      242,
+      "x"
+    ],
+    [
+      242,
+      "y"
+    ],
+    [
+      242,
+      "z"
+    ],
+    [
+      243,
+      "x"
+    ],
+    [
+      243,
+      "y"
+    ],
+    [
+      243,
+      "z"
+    ],
+    [
+      244,
+      "x"
+    ],
+    [
+      244,
+      "y"
+    ],
+    [
+      244,
+      "z"
+    ],
+    [
+      245,
+      "x"
+    ],
+    [
+      245,
+      "y"
+    ],
+    [
+      245,
+      "z"
+    ],
+    [
+      246,
+      "x"
+    ],
+    [
+      246,
+      "y"
+    ],
+    [
+      246,
+      "z"
+    ],
+    [
+      247,
+      "x"
+    ],
+    [
+      247,
+      "y"
+    ],
+    [
+      247,
+      "z"
+    ],
+    [
+      248,
+      "x"
+    ],
+    [
+      248,
+      "y"
+    ],
+    [
+      248,
+      "z"
+    ],
+    [
+      249,
+      "x"
+    ],
+    [
+      249,
+      "y"
+    ],
+    [
+      249,
+      "z"
+    ],
+    [
+      250,
+      "x"
+    ],
+    [
+      250,
+      "y"
+    ],
+    [
+      250,
+      "z"
+    ],
+    [
+      251,
+      "x"
+    ],
+    [
+      251,
+      "y"
+    ],
+    [
+      251,
+      "z"
+    ],
+    [
+      252,
+      "x"
+    ],
+    [
+      252,
+      "y"
+    ],
+    [
+      252,
+      "z"
+    ],
+    [
+      253,
+      "x"
+    ],
+    [
+      253,
+      "y"
+    ],
+    [
+      253,
+      "z"
+    ],
+    [
+      254,
+      "x"
+    ],
+    [
+      254,
+      "y"
+    ],
+    [
+      254,
+      "z"
+    ],
+    [
+      255,
+      "x"
+    ],
+    [
+      255,
+      "y"
+    ],
+    [
+      255,
+      "z"
+    ],
+    [
+      256,
+      "x"
+    ],
+    [
+      256,
+      "y"
+    ],
+    [
+      256,
+      "z"
+    ],
+    [
+      257,
+      "x"
+    ],
+    [
+      257,
+      "y"
+    ],
+    [
+      257,
+      "z"
+    ],
+    [
+      258,
+      "x"
+    ],
+    [
+      258,
+      "y"
+    ],
+    [
+      258,
+      "z"
+    ],
+    [
+      259,
+      "x"
+    ],
+    [
+      259,
+      "y"
+    ],
+    [
+      259,
+      "z"
+    ],
+    [
+      260,
+      "x"
+    ],
+    [
+      260,
+      "y"
+    ],
+    [
+      260,
+      "z"
+    ],
+    [
+      261,
+      "x"
+    ],
+    [
+      261,
+      "y"
+    ],
+    [
+      261,
+      "z"
+    ],
+    [
+      262,
+      "x"
+    ],
+    [
+      262,
+      "y"
+    ],
+    [
+      262,
+      "z"
+    ],
+    [
+      263,
+      "x"
+    ],
+    [
+      263,
+      "y"
+    ],
+    [
+      263,
+      "z"
+    ],
+    [
+      264,
+      "x"
+    ],
+    [
+      264,
+      "y"
+    ],
+    [
+      264,
+      "z"
+    ]
+  ],
+  "base_plane_normal": [
+    0.13551097218894312,
+    0.40747536958823477,
+    0.9031060843529619
+  ],
+  "finite_difference_diagnostics": [
+    {
+      "column": 57,
+      "accepted_step": 2.5e-09,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('plus active labels changed')"
+        }
+      ]
+    },
+    {
+      "column": 58,
+      "accepted_step": 6.25e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('plus active labels changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('plus active labels changed')"
+        }
+      ]
+    },
+    {
+      "column": 59,
+      "accepted_step": 6.25e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('plus active labels changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('plus active labels changed')"
+        }
+      ]
+    },
+    {
+      "column": 60,
+      "accepted_step": 6.25e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('minus active labels changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('minus active labels changed')"
+        }
+      ]
+    },
+    {
+      "column": 61,
+      "accepted_step": 1.5625e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('minus active labels changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('minus active labels changed')"
+        },
+        {
+          "step": 6.25e-10,
+          "error": "RuntimeError('minus active labels changed')"
+        }
+      ]
+    },
+    {
+      "column": 62,
+      "accepted_step": 1.5625e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('minus active labels changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('minus active labels changed')"
+        },
+        {
+          "step": 6.25e-10,
+          "error": "RuntimeError('minus active labels changed')"
+        }
+      ]
+    },
+    {
+      "column": 63,
+      "accepted_step": 6.25e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('plus active labels changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('plus active labels changed')"
+        }
+      ]
+    },
+    {
+      "column": 64,
+      "accepted_step": 6.25e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('plus active labels changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('plus active labels changed')"
+        }
+      ]
+    },
+    {
+      "column": 65,
+      "accepted_step": 1.5625e-10,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('plus active labels changed')"
+        },
+        {
+          "step": 2.5e-09,
+          "error": "RuntimeError('plus active labels changed')"
+        },
+        {
+          "step": 6.25e-10,
+          "error": "RuntimeError('plus active labels changed')"
+        }
+      ]
+    },
+    {
+      "column": 125,
+      "accepted_step": 2.5e-09,
+      "rejected_scales": [
+        {
+          "step": 1e-08,
+          "error": "RuntimeError('minus maximal faces changed')"
+        }
+      ]
+    }
+  ],
+  "near_support_count": 1184,
+  "all_support_count": 5959,
+  "dangerous_support_family": [
+    [
+      [
+        198,
+        229,
+        230
+      ],
+      231
+    ],
+    [
+      [
+        198,
+        230,
+        231
+      ],
+      229
+    ]
+  ],
+  "branches": [
+    {
+      "trust": 1e-08,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "constraint_count": 1878,
+      "common_fractional_descent": 1.6069363454282605e-06,
+      "physical_linf": 1.0000000000000002e-08,
+      "same_actual_cell": true,
+      "endpoint_signature": {
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          73,
+          88,
+          198,
+          224,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ]
+      },
+      "target_ratios": {
+        "S": 0.9999983926800151,
+        "U54": 0.9999983960566867,
+        "H56": 0.999998393081778,
+        "H1011": 0.999987337248266
+      },
+      "h910_endpoint": -1.2603537835609302e-07,
+      "danger_support_ratios": [
+        1.0978589555311684,
+        1.114624907842403
+      ],
+      "active_modes": [
+        {
+          "column": 26,
+          "label": 13,
+          "axis": "u",
+          "coefficient": -1.4464994773748987e-08
+        },
+        {
+          "column": 6,
+          "label": 3,
+          "axis": "u",
+          "coefficient": -1.4464994773748987e-08
+        },
+        {
+          "column": 16,
+          "label": 8,
+          "axis": "u",
+          "coefficient": -1.4464994773748987e-08
+        },
+        {
+          "column": 8,
+          "label": 4,
+          "axis": "u",
+          "coefficient": 1.4464994773748987e-08
+        },
+        {
+          "column": 20,
+          "label": 10,
+          "axis": "u",
+          "coefficient": -1.4464994773748987e-08
+        },
+        {
+          "column": 4,
+          "label": 2,
+          "axis": "u",
+          "coefficient": -1.4464994773748987e-08
+        },
+        {
+          "column": 2,
+          "label": 1,
+          "axis": "u",
+          "coefficient": -1.3451739387623722e-08
+        },
+        {
+          "column": 23,
+          "label": 11,
+          "axis": "v",
+          "coefficient": -1.3167334529708449e-08
+        },
+        {
+          "column": 35,
+          "label": 54,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-08
+        },
+        {
+          "column": 33,
+          "label": 16,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-08
+        },
+        {
+          "column": 31,
+          "label": 15,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-08
+        },
+        {
+          "column": 29,
+          "label": 14,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-08
+        },
+        {
+          "column": 25,
+          "label": 12,
+          "axis": "v",
+          "coefficient": -1.3167334529708449e-08
+        },
+        {
+          "column": 13,
+          "label": 6,
+          "axis": "v",
+          "coefficient": -1.3167334529708449e-08
+        },
+        {
+          "column": 11,
+          "label": 5,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-08
+        },
+        {
+          "column": 19,
+          "label": 9,
+          "axis": "v",
+          "coefficient": -1.3167334529708447e-08
+        },
+        {
+          "column": 1,
+          "label": 0,
+          "axis": "v",
+          "coefficient": 1.3167334529708447e-08
+        },
+        {
+          "column": 15,
+          "label": 7,
+          "axis": "v",
+          "coefficient": -1.2491255038145185e-08
+        },
+        {
+          "column": 72,
+          "label": 234,
+          "axis": "x",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 77,
+          "label": 235,
+          "axis": "z",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 76,
+          "label": 235,
+          "axis": "y",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 75,
+          "label": 235,
+          "axis": "x",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 74,
+          "label": 234,
+          "axis": "z",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 73,
+          "label": 234,
+          "axis": "y",
+          "coefficient": -1e-08
+        },
+        {
+          "column": 164,
+          "label": 264,
+          "axis": "z",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 71,
+          "label": 233,
+          "axis": "z",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 70,
+          "label": 233,
+          "axis": "y",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 69,
+          "label": 233,
+          "axis": "x",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 68,
+          "label": 232,
+          "axis": "z",
+          "coefficient": 1e-08
+        },
+        {
+          "column": 80,
+          "label": 236,
+          "axis": "z",
+          "coefficient": -1e-08
+        }
+      ]
+    },
+    {
+      "trust": 2e-08,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "constraint_count": 1878,
+      "common_fractional_descent": 3.2138784128666323e-06,
+      "physical_linf": 2.0000000000000007e-08,
+      "same_actual_cell": true,
+      "endpoint_signature": {
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          73,
+          88,
+          198,
+          224,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ]
+      },
+      "target_ratios": {
+        "S": 0.9999967850836944,
+        "U54": 0.9999967930195354,
+        "H56": 0.9999967861323128,
+        "H1011": 0.9999745405504662
+      },
+      "h910_endpoint": -1.2603536281297067e-07,
+      "danger_support_ratios": [
+        0.7212693048915272,
+        0.7518430621252649
+      ],
+      "active_modes": [
+        {
+          "column": 0,
+          "label": 0,
+          "axis": "u",
+          "coefficient": 2.8929989547497975e-08
+        },
+        {
+          "column": 20,
+          "label": 10,
+          "axis": "u",
+          "coefficient": -2.8929989547497975e-08
+        },
+        {
+          "column": 4,
+          "label": 2,
+          "axis": "u",
+          "coefficient": -2.8929989547497975e-08
+        },
+        {
+          "column": 30,
+          "label": 15,
+          "axis": "u",
+          "coefficient": 2.8929989547497975e-08
+        },
+        {
+          "column": 16,
+          "label": 8,
+          "axis": "u",
+          "coefficient": -2.8929989547497975e-08
+        },
+        {
+          "column": 34,
+          "label": 54,
+          "axis": "u",
+          "coefficient": -2.8929989547497968e-08
+        },
+        {
+          "column": 2,
+          "label": 1,
+          "axis": "u",
+          "coefficient": -2.888244844737366e-08
+        },
+        {
+          "column": 33,
+          "label": 16,
+          "axis": "v",
+          "coefficient": 2.6334669059416897e-08
+        },
+        {
+          "column": 27,
+          "label": 13,
+          "axis": "v",
+          "coefficient": 2.6334669059416897e-08
+        },
+        {
+          "column": 23,
+          "label": 11,
+          "axis": "v",
+          "coefficient": -2.6334669059416897e-08
+        },
+        {
+          "column": 29,
+          "label": 14,
+          "axis": "v",
+          "coefficient": 2.6334669059416897e-08
+        },
+        {
+          "column": 13,
+          "label": 6,
+          "axis": "v",
+          "coefficient": -2.6334669059416897e-08
+        },
+        {
+          "column": 11,
+          "label": 5,
+          "axis": "v",
+          "coefficient": 2.6334669059416897e-08
+        },
+        {
+          "column": 19,
+          "label": 9,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-08
+        },
+        {
+          "column": 15,
+          "label": 7,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-08
+        },
+        {
+          "column": 9,
+          "label": 4,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-08
+        },
+        {
+          "column": 25,
+          "label": 12,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-08
+        },
+        {
+          "column": 74,
+          "label": 234,
+          "axis": "z",
+          "coefficient": 2e-08
+        },
+        {
+          "column": 80,
+          "label": 236,
+          "axis": "z",
+          "coefficient": -2e-08
+        },
+        {
+          "column": 78,
+          "label": 236,
+          "axis": "x",
+          "coefficient": 2e-08
+        },
+        {
+          "column": 76,
+          "label": 235,
+          "axis": "y",
+          "coefficient": 2e-08
+        },
+        {
+          "column": 75,
+          "label": 235,
+          "axis": "x",
+          "coefficient": 2e-08
+        },
+        {
+          "column": 69,
+          "label": 233,
+          "axis": "x",
+          "coefficient": -2e-08
+        },
+        {
+          "column": 72,
+          "label": 234,
+          "axis": "x",
+          "coefficient": 2e-08
+        },
+        {
+          "column": 70,
+          "label": 233,
+          "axis": "y",
+          "coefficient": -2e-08
+        },
+        {
+          "column": 68,
+          "label": 232,
+          "axis": "z",
+          "coefficient": -2e-08
+        },
+        {
+          "column": 83,
+          "label": 237,
+          "axis": "z",
+          "coefficient": -2e-08
+        },
+        {
+          "column": 81,
+          "label": 237,
+          "axis": "x",
+          "coefficient": -2e-08
+        },
+        {
+          "column": 94,
+          "label": 241,
+          "axis": "y",
+          "coefficient": 2e-08
+        },
+        {
+          "column": 84,
+          "label": 238,
+          "axis": "x",
+          "coefficient": -2e-08
+        }
+      ]
+    },
+    {
+      "trust": 5e-08,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "constraint_count": 1878,
+      "removed_faces": [
+        [
+          198,
+          229,
+          230
+        ],
+        [
+          198,
+          230,
+          231
+        ],
+        [
+          229,
+          230,
+          231
+        ]
+      ],
+      "added_faces": [
+        [
+          198,
+          229,
+          231
+        ]
+      ],
+      "common_fractional_descent": 8.034690369695721e-06,
+      "physical_linf": 5.0000000000638396e-08,
+      "same_actual_cell": false,
+      "endpoint_signature": {
+        "f_vector": [
+          60,
+          159,
+          101
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          73,
+          88,
+          198,
+          224,
+          228,
+          229,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ]
+      },
+      "target_ratios": {},
+      "h910_endpoint": null,
+      "danger_support_ratios": [],
+      "active_modes": [
+        {
+          "column": 4,
+          "label": 2,
+          "axis": "u",
+          "coefficient": -7.232497386874493e-08
+        },
+        {
+          "column": 0,
+          "label": 0,
+          "axis": "u",
+          "coefficient": 7.232497386874492e-08
+        },
+        {
+          "column": 20,
+          "label": 10,
+          "axis": "u",
+          "coefficient": -7.232497386874492e-08
+        },
+        {
+          "column": 22,
+          "label": 11,
+          "axis": "u",
+          "coefficient": -7.211455359949808e-08
+        },
+        {
+          "column": 19,
+          "label": 9,
+          "axis": "v",
+          "coefficient": -6.583667264854223e-08
+        },
+        {
+          "column": 35,
+          "label": 54,
+          "axis": "v",
+          "coefficient": 6.583667264854223e-08
+        },
+        {
+          "column": 33,
+          "label": 16,
+          "axis": "v",
+          "coefficient": 6.583667264854223e-08
+        },
+        {
+          "column": 31,
+          "label": 15,
+          "axis": "v",
+          "coefficient": 6.583667264854223e-08
+        },
+        {
+          "column": 27,
+          "label": 13,
+          "axis": "v",
+          "coefficient": 6.583667264854223e-08
+        },
+        {
+          "column": 29,
+          "label": 14,
+          "axis": "v",
+          "coefficient": -6.583667264854223e-08
+        },
+        {
+          "column": 17,
+          "label": 8,
+          "axis": "v",
+          "coefficient": 6.583667264854223e-08
+        },
+        {
+          "column": 11,
+          "label": 5,
+          "axis": "v",
+          "coefficient": 6.583667264854223e-08
+        },
+        {
+          "column": 13,
+          "label": 6,
+          "axis": "v",
+          "coefficient": -6.583667264854223e-08
+        },
+        {
+          "column": 9,
+          "label": 4,
+          "axis": "v",
+          "coefficient": -6.583667264854223e-08
+        },
+        {
+          "column": 7,
+          "label": 3,
+          "axis": "v",
+          "coefficient": 6.583667264854223e-08
+        },
+        {
+          "column": 3,
+          "label": 1,
+          "axis": "v",
+          "coefficient": 6.57203638077588e-08
+        },
+        {
+          "column": 59,
+          "label": 229,
+          "axis": "z",
+          "coefficient": 5.0000000000638396e-08
+        },
+        {
+          "column": 72,
+          "label": 234,
+          "axis": "x",
+          "coefficient": 5e-08
+        },
+        {
+          "column": 85,
+          "label": 238,
+          "axis": "y",
+          "coefficient": -5e-08
+        },
+        {
+          "column": 73,
+          "label": 234,
+          "axis": "y",
+          "coefficient": -5e-08
+        },
+        {
+          "column": 75,
+          "label": 235,
+          "axis": "x",
+          "coefficient": 5e-08
+        },
+        {
+          "column": 77,
+          "label": 235,
+          "axis": "z",
+          "coefficient": 5e-08
+        },
+        {
+          "column": 78,
+          "label": 236,
+          "axis": "x",
+          "coefficient": 5e-08
+        },
+        {
+          "column": 79,
+          "label": 236,
+          "axis": "y",
+          "coefficient": 5e-08
+        },
+        {
+          "column": 81,
+          "label": 237,
+          "axis": "x",
+          "coefficient": -5e-08
+        },
+        {
+          "column": 83,
+          "label": 237,
+          "axis": "z",
+          "coefficient": 5e-08
+        },
+        {
+          "column": 84,
+          "label": 238,
+          "axis": "x",
+          "coefficient": 5e-08
+        },
+        {
+          "column": 96,
+          "label": 242,
+          "axis": "x",
+          "coefficient": 5e-08
+        },
+        {
+          "column": 87,
+          "label": 239,
+          "axis": "x",
+          "coefficient": 5e-08
+        },
+        {
+          "column": 88,
+          "label": 239,
+          "axis": "y",
+          "coefficient": -5e-08
+        }
+      ]
+    },
+    {
+      "trust": 1e-07,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "constraint_count": 1878,
+      "removed_faces": [
+        [
+          198,
+          229,
+          230
+        ],
+        [
+          198,
+          230,
+          231
+        ],
+        [
+          229,
+          230,
+          231
+        ]
+      ],
+      "added_faces": [
+        [
+          198,
+          229,
+          231
+        ]
+      ],
+      "common_fractional_descent": 1.6069373030602438e-05,
+      "physical_linf": 1.0000000000053036e-07,
+      "same_actual_cell": false,
+      "endpoint_signature": {
+        "f_vector": [
+          60,
+          159,
+          101
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          73,
+          88,
+          198,
+          224,
+          228,
+          229,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ]
+      },
+      "target_ratios": {},
+      "h910_endpoint": null,
+      "danger_support_ratios": [],
+      "active_modes": [
+        {
+          "column": 20,
+          "label": 10,
+          "axis": "u",
+          "coefficient": -1.4464994773748986e-07
+        },
+        {
+          "column": 4,
+          "label": 2,
+          "axis": "u",
+          "coefficient": -1.4464994773748986e-07
+        },
+        {
+          "column": 0,
+          "label": 0,
+          "axis": "u",
+          "coefficient": 1.4464994773748984e-07
+        },
+        {
+          "column": 22,
+          "label": 11,
+          "axis": "u",
+          "coefficient": -1.4464994773748984e-07
+        },
+        {
+          "column": 2,
+          "label": 1,
+          "axis": "u",
+          "coefficient": 1.332691570226277e-07
+        },
+        {
+          "column": 35,
+          "label": 54,
+          "axis": "v",
+          "coefficient": 1.3167334529708447e-07
+        },
+        {
+          "column": 33,
+          "label": 16,
+          "axis": "v",
+          "coefficient": 1.3167334529708447e-07
+        },
+        {
+          "column": 31,
+          "label": 15,
+          "axis": "v",
+          "coefficient": 1.3167334529708447e-07
+        },
+        {
+          "column": 29,
+          "label": 14,
+          "axis": "v",
+          "coefficient": -1.3167334529708447e-07
+        },
+        {
+          "column": 25,
+          "label": 12,
+          "axis": "v",
+          "coefficient": 1.3167334529708447e-07
+        },
+        {
+          "column": 27,
+          "label": 13,
+          "axis": "v",
+          "coefficient": 1.3167334529708447e-07
+        },
+        {
+          "column": 19,
+          "label": 9,
+          "axis": "v",
+          "coefficient": -1.3167334529708447e-07
+        },
+        {
+          "column": 17,
+          "label": 8,
+          "axis": "v",
+          "coefficient": 1.3167334529708447e-07
+        },
+        {
+          "column": 13,
+          "label": 6,
+          "axis": "v",
+          "coefficient": -1.3167334529708447e-07
+        },
+        {
+          "column": 11,
+          "label": 5,
+          "axis": "v",
+          "coefficient": 1.3167334529708447e-07
+        },
+        {
+          "column": 9,
+          "label": 4,
+          "axis": "v",
+          "coefficient": -1.3167334529708447e-07
+        },
+        {
+          "column": 7,
+          "label": 3,
+          "axis": "v",
+          "coefficient": 1.1090140741040049e-07
+        },
+        {
+          "column": 57,
+          "label": 229,
+          "axis": "x",
+          "coefficient": -1.0000000000053036e-07
+        },
+        {
+          "column": 87,
+          "label": 239,
+          "axis": "x",
+          "coefficient": 1e-07
+        },
+        {
+          "column": 73,
+          "label": 234,
+          "axis": "y",
+          "coefficient": -1e-07
+        },
+        {
+          "column": 75,
+          "label": 235,
+          "axis": "x",
+          "coefficient": 1e-07
+        },
+        {
+          "column": 77,
+          "label": 235,
+          "axis": "z",
+          "coefficient": -1e-07
+        },
+        {
+          "column": 78,
+          "label": 236,
+          "axis": "x",
+          "coefficient": -1e-07
+        },
+        {
+          "column": 80,
+          "label": 236,
+          "axis": "z",
+          "coefficient": -1e-07
+        },
+        {
+          "column": 81,
+          "label": 237,
+          "axis": "x",
+          "coefficient": -1e-07
+        },
+        {
+          "column": 84,
+          "label": 238,
+          "axis": "x",
+          "coefficient": -1e-07
+        },
+        {
+          "column": 86,
+          "label": 238,
+          "axis": "z",
+          "coefficient": 1e-07
+        },
+        {
+          "column": 98,
+          "label": 242,
+          "axis": "z",
+          "coefficient": 1e-07
+        },
+        {
+          "column": 88,
+          "label": 239,
+          "axis": "y",
+          "coefficient": -1e-07
+        },
+        {
+          "column": 89,
+          "label": 239,
+          "axis": "z",
+          "coefficient": 1e-07
+        }
+      ]
+    },
+    {
+      "trust": 2e-07,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "constraint_count": 1878,
+      "removed_faces": [
+        [
+          198,
+          229,
+          230
+        ],
+        [
+          198,
+          230,
+          231
+        ],
+        [
+          229,
+          230,
+          231
+        ]
+      ],
+      "added_faces": [
+        [
+          198,
+          229,
+          231
+        ]
+      ],
+      "common_fractional_descent": 3.213863369442571e-05,
+      "physical_linf": 2.000000028487549e-07,
+      "same_actual_cell": false,
+      "endpoint_signature": {
+        "f_vector": [
+          60,
+          159,
+          101
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          73,
+          88,
+          198,
+          224,
+          228,
+          229,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ]
+      },
+      "target_ratios": {},
+      "h910_endpoint": null,
+      "danger_support_ratios": [],
+      "active_modes": [
+        {
+          "column": 16,
+          "label": 8,
+          "axis": "u",
+          "coefficient": -2.8929989547497973e-07
+        },
+        {
+          "column": 20,
+          "label": 10,
+          "axis": "u",
+          "coefficient": -2.892998954749797e-07
+        },
+        {
+          "column": 30,
+          "label": 15,
+          "axis": "u",
+          "coefficient": 2.892998954749797e-07
+        },
+        {
+          "column": 0,
+          "label": 0,
+          "axis": "u",
+          "coefficient": 2.892998954749797e-07
+        },
+        {
+          "column": 11,
+          "label": 5,
+          "axis": "v",
+          "coefficient": 2.6334669059416894e-07
+        },
+        {
+          "column": 13,
+          "label": 6,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-07
+        },
+        {
+          "column": 15,
+          "label": 7,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-07
+        },
+        {
+          "column": 19,
+          "label": 9,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-07
+        },
+        {
+          "column": 23,
+          "label": 11,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-07
+        },
+        {
+          "column": 25,
+          "label": 12,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-07
+        },
+        {
+          "column": 29,
+          "label": 14,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-07
+        },
+        {
+          "column": 5,
+          "label": 2,
+          "axis": "v",
+          "coefficient": -2.6334669059416894e-07
+        },
+        {
+          "column": 33,
+          "label": 16,
+          "axis": "v",
+          "coefficient": 2.6334669059416894e-07
+        },
+        {
+          "column": 35,
+          "label": 54,
+          "axis": "v",
+          "coefficient": 2.6334669059416894e-07
+        },
+        {
+          "column": 9,
+          "label": 4,
+          "axis": "v",
+          "coefficient": -2.4152844876503857e-07
+        },
+        {
+          "column": 7,
+          "label": 3,
+          "axis": "v",
+          "coefficient": 2.15180700769954e-07
+        },
+        {
+          "column": 81,
+          "label": 237,
+          "axis": "x",
+          "coefficient": 2.000000028487549e-07
+        },
+        {
+          "column": 135,
+          "label": 255,
+          "axis": "x",
+          "coefficient": -2.0000000001370533e-07
+        },
+        {
+          "column": 38,
+          "label": 69,
+          "axis": "z",
+          "coefficient": -2e-07
+        },
+        {
+          "column": 75,
+          "label": 235,
+          "axis": "x",
+          "coefficient": 2e-07
+        },
+        {
+          "column": 79,
+          "label": 236,
+          "axis": "y",
+          "coefficient": 2e-07
+        },
+        {
+          "column": 80,
+          "label": 236,
+          "axis": "z",
+          "coefficient": 2e-07
+        },
+        {
+          "column": 36,
+          "label": 69,
+          "axis": "x",
+          "coefficient": -2e-07
+        },
+        {
+          "column": 163,
+          "label": 264,
+          "axis": "y",
+          "coefficient": -2e-07
+        },
+        {
+          "column": 83,
+          "label": 237,
+          "axis": "z",
+          "coefficient": 2e-07
+        },
+        {
+          "column": 84,
+          "label": 238,
+          "axis": "x",
+          "coefficient": 2e-07
+        },
+        {
+          "column": 85,
+          "label": 238,
+          "axis": "y",
+          "coefficient": -2e-07
+        },
+        {
+          "column": 87,
+          "label": 239,
+          "axis": "x",
+          "coefficient": 2e-07
+        },
+        {
+          "column": 88,
+          "label": 239,
+          "axis": "y",
+          "coefficient": -2e-07
+        },
+        {
+          "column": 90,
+          "label": 240,
+          "axis": "x",
+          "coefficient": 2e-07
+        }
+      ]
+    },
+    {
+      "trust": 5e-07,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "constraint_count": 1878,
+      "removed_faces": [
+        [
+          198,
+          229,
+          230
+        ],
+        [
+          198,
+          230,
+          231
+        ],
+        [
+          229,
+          230,
+          231
+        ]
+      ],
+      "added_faces": [
+        [
+          198,
+          229,
+          231
+        ]
+      ],
+      "common_fractional_descent": 8.034652078823378e-05,
+      "physical_linf": 5.000000000000001e-07,
+      "same_actual_cell": false,
+      "endpoint_signature": {
+        "f_vector": [
+          60,
+          159,
+          101
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          73,
+          88,
+          198,
+          224,
+          228,
+          229,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ]
+      },
+      "target_ratios": {},
+      "h910_endpoint": null,
+      "danger_support_ratios": [],
+      "active_modes": [
+        {
+          "column": 20,
+          "label": 10,
+          "axis": "u",
+          "coefficient": -7.232497386874493e-07
+        },
+        {
+          "column": 4,
+          "label": 2,
+          "axis": "u",
+          "coefficient": -7.232497386874493e-07
+        },
+        {
+          "column": 16,
+          "label": 8,
+          "axis": "u",
+          "coefficient": -7.232497386874493e-07
+        },
+        {
+          "column": 6,
+          "label": 3,
+          "axis": "u",
+          "coefficient": 7.232497386874493e-07
+        },
+        {
+          "column": 33,
+          "label": 16,
+          "axis": "v",
+          "coefficient": 6.583667264854224e-07
+        },
+        {
+          "column": 23,
+          "label": 11,
+          "axis": "v",
+          "coefficient": -6.583667264854224e-07
+        },
+        {
+          "column": 25,
+          "label": 12,
+          "axis": "v",
+          "coefficient": -6.583667264854224e-07
+        },
+        {
+          "column": 19,
+          "label": 9,
+          "axis": "v",
+          "coefficient": -6.583667264854224e-07
+        },
+        {
+          "column": 1,
+          "label": 0,
+          "axis": "v",
+          "coefficient": 6.583667264854224e-07
+        },
+        {
+          "column": 27,
+          "label": 13,
+          "axis": "v",
+          "coefficient": -6.583667264854224e-07
+        },
+        {
+          "column": 29,
+          "label": 14,
+          "axis": "v",
+          "coefficient": -6.583667264854224e-07
+        },
+        {
+          "column": 15,
+          "label": 7,
+          "axis": "v",
+          "coefficient": -6.583667264854224e-07
+        },
+        {
+          "column": 31,
+          "label": 15,
+          "axis": "v",
+          "coefficient": 6.583667264854224e-07
+        },
+        {
+          "column": 13,
+          "label": 6,
+          "axis": "v",
+          "coefficient": -6.583667264854224e-07
+        },
+        {
+          "column": 35,
+          "label": 54,
+          "axis": "v",
+          "coefficient": 6.583667264854224e-07
+        },
+        {
+          "column": 9,
+          "label": 4,
+          "axis": "v",
+          "coefficient": -6.583667264854224e-07
+        },
+        {
+          "column": 11,
+          "label": 5,
+          "axis": "v",
+          "coefficient": 6.583667264854224e-07
+        },
+        {
+          "column": 2,
+          "label": 1,
+          "axis": "u",
+          "coefficient": -5.994629879301589e-07
+        },
+        {
+          "column": 87,
+          "label": 239,
+          "axis": "x",
+          "coefficient": 5e-07
+        },
+        {
+          "column": 104,
+          "label": 244,
+          "axis": "z",
+          "coefficient": -5e-07
+        },
+        {
+          "column": 83,
+          "label": 237,
+          "axis": "z",
+          "coefficient": 5e-07
+        },
+        {
+          "column": 103,
+          "label": 244,
+          "axis": "y",
+          "coefficient": -5e-07
+        },
+        {
+          "column": 102,
+          "label": 244,
+          "axis": "x",
+          "coefficient": 5e-07
+        },
+        {
+          "column": 86,
+          "label": 238,
+          "axis": "z",
+          "coefficient": 5e-07
+        },
+        {
+          "column": 96,
+          "label": 242,
+          "axis": "x",
+          "coefficient": -5e-07
+        },
+        {
+          "column": 95,
+          "label": 241,
+          "axis": "z",
+          "coefficient": -5e-07
+        },
+        {
+          "column": 89,
+          "label": 239,
+          "axis": "z",
+          "coefficient": 5e-07
+        },
+        {
+          "column": 36,
+          "label": 69,
+          "axis": "x",
+          "coefficient": -5e-07
+        },
+        {
+          "column": 90,
+          "label": 240,
+          "axis": "x",
+          "coefficient": 5e-07
+        },
+        {
+          "column": 99,
+          "label": 243,
+          "axis": "x",
+          "coefficient": 5e-07
+        }
+      ]
+    },
+    {
+      "trust": 1e-06,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "constraint_count": 1878,
+      "removed_faces": [
+        [
+          198,
+          229,
+          230
+        ],
+        [
+          198,
+          230,
+          231
+        ],
+        [
+          229,
+          230,
+          231
+        ]
+      ],
+      "added_faces": [
+        [
+          198,
+          229,
+          231
+        ]
+      ],
+      "common_fractional_descent": 0.00016069310830257416,
+      "physical_linf": 1.0000000000000052e-06,
+      "same_actual_cell": false,
+      "endpoint_signature": {
+        "f_vector": [
+          60,
+          159,
+          101
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable_faces": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ],
+          [
+            7,
+            8,
+            245
+          ]
+        ],
+        "unstable_vertices": [
+          8,
+          54
+        ],
+        "saddle_edges": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "active_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54,
+          69,
+          72,
+          73,
+          88,
+          198,
+          224,
+          228,
+          229,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ]
+      },
+      "target_ratios": {},
+      "h910_endpoint": null,
+      "danger_support_ratios": [],
+      "active_modes": [
+        {
+          "column": 16,
+          "label": 8,
+          "axis": "u",
+          "coefficient": -1.4464994773748986e-06
+        },
+        {
+          "column": 20,
+          "label": 10,
+          "axis": "u",
+          "coefficient": -1.4464994773748986e-06
+        },
+        {
+          "column": 6,
+          "label": 3,
+          "axis": "u",
+          "coefficient": 1.4464994773748986e-06
+        },
+        {
+          "column": 4,
+          "label": 2,
+          "axis": "u",
+          "coefficient": -1.4464994773748986e-06
+        },
+        {
+          "column": 15,
+          "label": 7,
+          "axis": "v",
+          "coefficient": -1.3167334529708453e-06
+        },
+        {
+          "column": 19,
+          "label": 9,
+          "axis": "v",
+          "coefficient": -1.3167334529708449e-06
+        },
+        {
+          "column": 35,
+          "label": 54,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-06
+        },
+        {
+          "column": 23,
+          "label": 11,
+          "axis": "v",
+          "coefficient": -1.3167334529708449e-06
+        },
+        {
+          "column": 13,
+          "label": 6,
+          "axis": "v",
+          "coefficient": -1.3167334529708449e-06
+        },
+        {
+          "column": 11,
+          "label": 5,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-06
+        },
+        {
+          "column": 25,
+          "label": 12,
+          "axis": "v",
+          "coefficient": -1.3167334529708449e-06
+        },
+        {
+          "column": 27,
+          "label": 13,
+          "axis": "v",
+          "coefficient": -1.3167334529708449e-06
+        },
+        {
+          "column": 31,
+          "label": 15,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-06
+        },
+        {
+          "column": 33,
+          "label": 16,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-06
+        },
+        {
+          "column": 1,
+          "label": 0,
+          "axis": "v",
+          "coefficient": 1.3167334529708449e-06
+        },
+        {
+          "column": 3,
+          "label": 1,
+          "axis": "v",
+          "coefficient": 1.3144024166878445e-06
+        },
+        {
+          "column": 28,
+          "label": 14,
+          "axis": "u",
+          "coefficient": 1.247080507465525e-06
+        },
+        {
+          "column": 8,
+          "label": 4,
+          "axis": "u",
+          "coefficient": -1.1403856076463915e-06
+        },
+        {
+          "column": 36,
+          "label": 69,
+          "axis": "x",
+          "coefficient": -1e-06
+        },
+        {
+          "column": 92,
+          "label": 240,
+          "axis": "z",
+          "coefficient": -1e-06
+        },
+        {
+          "column": 95,
+          "label": 241,
+          "axis": "z",
+          "coefficient": -1e-06
+        },
+        {
+          "column": 57,
+          "label": 229,
+          "axis": "x",
+          "coefficient": -1e-06
+        },
+        {
+          "column": 96,
+          "label": 242,
+          "axis": "x",
+          "coefficient": -1e-06
+        },
+        {
+          "column": 48,
+          "label": 198,
+          "axis": "x",
+          "coefficient": -1e-06
+        },
+        {
+          "column": 49,
+          "label": 198,
+          "axis": "y",
+          "coefficient": -1e-06
+        },
+        {
+          "column": 99,
+          "label": 243,
+          "axis": "x",
+          "coefficient": 1e-06
+        },
+        {
+          "column": 100,
+          "label": 243,
+          "axis": "y",
+          "coefficient": -1e-06
+        },
+        {
+          "column": 54,
+          "label": 228,
+          "axis": "x",
+          "coefficient": 1e-06
+        },
+        {
+          "column": 102,
+          "label": 244,
+          "axis": "x",
+          "coefficient": -1e-06
+        },
+        {
+          "column": 103,
+          "label": 244,
+          "axis": "y",
+          "coefficient": -1e-06
+        }
+      ]
+    }
+  ],
+  "selected_branch": {
+    "trust": 1e-08,
+    "success": true,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "constraint_count": 1878,
+    "common_fractional_descent": 1.6069363454282605e-06,
+    "physical_linf": 1.0000000000000002e-08,
+    "same_actual_cell": true,
+    "endpoint_signature": {
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "stable_faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ],
+        [
+          7,
+          8,
+          245
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "active_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54,
+        69,
+        72,
+        73,
+        88,
+        198,
+        224,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ]
+    },
+    "target_ratios": {
+      "S": 0.9999983926800151,
+      "U54": 0.9999983960566867,
+      "H56": 0.999998393081778,
+      "H1011": 0.999987337248266
+    },
+    "h910_endpoint": -1.2603537835609302e-07,
+    "danger_support_ratios": [
+      1.0978589555311684,
+      1.114624907842403
+    ],
+    "active_modes": [
+      {
+        "column": 26,
+        "label": 13,
+        "axis": "u",
+        "coefficient": -1.4464994773748987e-08
+      },
+      {
+        "column": 6,
+        "label": 3,
+        "axis": "u",
+        "coefficient": -1.4464994773748987e-08
+      },
+      {
+        "column": 16,
+        "label": 8,
+        "axis": "u",
+        "coefficient": -1.4464994773748987e-08
+      },
+      {
+        "column": 8,
+        "label": 4,
+        "axis": "u",
+        "coefficient": 1.4464994773748987e-08
+      },
+      {
+        "column": 20,
+        "label": 10,
+        "axis": "u",
+        "coefficient": -1.4464994773748987e-08
+      },
+      {
+        "column": 4,
+        "label": 2,
+        "axis": "u",
+        "coefficient": -1.4464994773748987e-08
+      },
+      {
+        "column": 2,
+        "label": 1,
+        "axis": "u",
+        "coefficient": -1.3451739387623722e-08
+      },
+      {
+        "column": 23,
+        "label": 11,
+        "axis": "v",
+        "coefficient": -1.3167334529708449e-08
+      },
+      {
+        "column": 35,
+        "label": 54,
+        "axis": "v",
+        "coefficient": 1.3167334529708449e-08
+      },
+      {
+        "column": 33,
+        "label": 16,
+        "axis": "v",
+        "coefficient": 1.3167334529708449e-08
+      },
+      {
+        "column": 31,
+        "label": 15,
+        "axis": "v",
+        "coefficient": 1.3167334529708449e-08
+      },
+      {
+        "column": 29,
+        "label": 14,
+        "axis": "v",
+        "coefficient": 1.3167334529708449e-08
+      },
+      {
+        "column": 25,
+        "label": 12,
+        "axis": "v",
+        "coefficient": -1.3167334529708449e-08
+      },
+      {
+        "column": 13,
+        "label": 6,
+        "axis": "v",
+        "coefficient": -1.3167334529708449e-08
+      },
+      {
+        "column": 11,
+        "label": 5,
+        "axis": "v",
+        "coefficient": 1.3167334529708449e-08
+      },
+      {
+        "column": 19,
+        "label": 9,
+        "axis": "v",
+        "coefficient": -1.3167334529708447e-08
+      },
+      {
+        "column": 1,
+        "label": 0,
+        "axis": "v",
+        "coefficient": 1.3167334529708447e-08
+      },
+      {
+        "column": 15,
+        "label": 7,
+        "axis": "v",
+        "coefficient": -1.2491255038145185e-08
+      },
+      {
+        "column": 72,
+        "label": 234,
+        "axis": "x",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 77,
+        "label": 235,
+        "axis": "z",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 76,
+        "label": 235,
+        "axis": "y",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 75,
+        "label": 235,
+        "axis": "x",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 74,
+        "label": 234,
+        "axis": "z",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 73,
+        "label": 234,
+        "axis": "y",
+        "coefficient": -1e-08
+      },
+      {
+        "column": 164,
+        "label": 264,
+        "axis": "z",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 71,
+        "label": 233,
+        "axis": "z",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 70,
+        "label": 233,
+        "axis": "y",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 69,
+        "label": 233,
+        "axis": "x",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 68,
+        "label": 232,
+        "axis": "z",
+        "coefficient": 1e-08
+      },
+      {
+        "column": 80,
+        "label": 236,
+        "axis": "z",
+        "coefficient": -1e-08
+      }
+    ]
+  },
+  "physical_step": "5000000000000001/500000000000000000000000",
+  "velocity": {
+    "0": [
+      "-6189700196426903400057367376767852456102532327471295363480331354488970430115341554956430883841684820595232294107112504212476784382430553177369458666016014509/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "61897001964269002309445394624992382609748834695240869241815103189183562071055968137838541572734739187897468313437944129785775292266392853689511867279545853441/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-372797418413937132362933837517325220035175436547118062469308707317919939802781668447361739341045839509479378737599673272921459524235024762804215100552813261/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "1": [
+      "-4712410161232031582628810498562826081502807319010306143321486212398693653746358226680149740021855942005434165361963895701246270274285784700095142528033659577/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-61897001964269014029293492485252269390965980277402142316471701145987398134314554784566462194351712281543367973809629752359695960480424766147222020396425628227/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "699969519028446473192548121753319588191637372694006738813477322554481083574019714629650530049203728603145593643820304541776231787936439678458618064104569767/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "2": [
+      "-154742504910672522067803028415581118371509170985599480810066912459016794073129770408093993530719040215402110245239240951401135708086209564731006768372747161/154742504910672534362390528000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-1547425049106725660934925515825374877019030240407753349671073577690188453281291561791186868534722652452915570404276972923115632568936760968164840674894256611/1547425049106725343623905280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "18607574041333635403739747958092875424680233781108040125117046675595465784798229996941389178532446244882540070059037509144592728164340545222551942258949831/30948500982134506872478105600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "3": [
+      "-154742504910672522067803028415581118371509170985599480810066912459016794073129770408093993530719040215402110245239240951401135708086209564731006768372747161/154742504910672534362390528000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-1547425049106725660934925515825374877019030240407753349671073577690188453281291561791186868534722652452915570404276972923115632568936760968164840674894256611/1547425049106725343623905280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "18607574041333635403739747958092875424680233781108040125117046675595465784798229996941389178532446244882540070059037509144592728164340545222551942258949831/30948500982134506872478105600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "4": [
+      "154742504910672522067803028415581118371509170985599480810066912459016794073129770408093993530719040215402110245239240951401135708086209564731006768372747161/154742504910672534362390528000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "1547425049106725660934925515825374877019030240407753349671073577690188453281291561791186868534722652452915570404276972923115632568936760968164840674894256611/1547425049106725343623905280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-18607574041333635403739747958092875424680233781108040125117046675595465784798229996941389178532446244882540070059037509144592728164340545222551942258949831/30948500982134506872478105600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "5": [
+      "-6189700196426904783103435198536643128560574351164709354614511593676404362792328700762661246707224440294833178742529151790395553689873125929539680195587146323/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "61897001964269002259244011305810770891395488628374995312610394493319610429159808951319835849757147676718711437995133346030916552580298228695808241870996867327/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-372797418413937090404740168487038199056574629348653600740093838495787756418370519518045262302567576743920426970632932153796443137947467015316385537734690867/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "6": [
+      "6189700196426904783103435198536643128560574351164709354614511593676404362792328700762661246707224440294833178742529151790395553689873125929539680195587146323/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-61897001964269002259244011305810770891395488628374995312610394493319610429159808951319835849757147676718711437995133346030916552580298228695808241870996867327/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "372797418413937090404740168487038199056574629348653600740093838495787756418370519518045262302567576743920426970632932153796443137947467015316385537734690867/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "7": [
+      "1237940039285380565568812226768469254955019110174241614683827116191856171971056583146044010150897512906157482814996838967956397960653362173428945567986412379/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-10281669603782820493169388933327278208229054075438561753998331151294662852164595698230757098678501178601101846186847856512363621801973761710498566208154124071/12379400392853802748991242240000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "55629844222197870552822118011940582876942795514626961838461406123268881073751223912997574007620451632947241139256308011857033957485178006394320500220626491/247588007857076054979824844800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "8": [
+      "-154742504910672522067803028415581118371509170985599480810066912459016794073129770408093993530719040215402110245239240951401135708086209564731006768372747161/154742504910672534362390528000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-1547425049106725660934925515825374877019030240407753349671073577690188453281291561791186868534722652452915570404276972923115632568936760968164840674894256611/1547425049106725343623905280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "18607574041333635403739747958092875424680233781108040125117046675595465784798229996941389178532446244882540070059037509144592728164340545222551942258949831/30948500982134506872478105600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "9": [
+      "6189700196426903400057367376767852456102532327471295363480331354488970430115341554956430883841684820595232294107112504212476784382430553177369458666016014509/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-61897001964269002309445394624992382609748834695240869241815103189183562071055968137838541572734739187897468313437944129785775292266392853689511867279545853441/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "372797418413937132362933837517325220035175436547118062469308707317919939802781668447361739341045839509479378737599673272921459524235024762804215100552813261/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "10": [
+      "-154742504910672522067803028415581118371509170985599480810066912459016794073129770408093993530719040215402110245239240951401135708086209564731006768372747161/154742504910672534362390528000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-1547425049106725660934925515825374877019030240407753349671073577690188453281291561791186868534722652452915570404276972923115632568936760968164840674894256611/1547425049106725343623905280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "18607574041333635403739747958092875424680233781108040125117046675595465784798229996941389178532446244882540070059037509144592728164340545222551942258949831/30948500982134506872478105600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "11": [
+      "6189700196426904783103435198536643128560574351164709354614511593676404362792328700762661246707224440294833178742529151790395553689873125929539680195587146323/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-61897001964269002259244011305810770891395488628374995312610394493319610429159808951319835849757147676718711437995133346030916552580298228695808241870996867327/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "372797418413937090404740168487038199056574629348653600740093838495787756418370519518045262302567576743920426970632932153796443137947467015316385537734690867/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "12": [
+      "6189700196426904783103435198536643128560574351164709354614511593676404362792328700762661246707224440294833178742529151790395553689873125929539680195587146323/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-61897001964269002259244011305810770891395488628374995312610394493319610429159808951319835849757147676718711437995133346030916552580298228695808241870996867327/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "372797418413937090404740168487038199056574629348653600740093838495787756418370519518045262302567576743920426970632932153796443137947467015316385537734690867/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "13": [
+      "-154742504910672522067803028415581118371509170985599480810066912459016794073129770408093993530719040215402110245239240951401135708086209564731006768372747161/154742504910672534362390528000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-1547425049106725660934925515825374877019030240407753349671073577690188453281291561791186868534722652452915570404276972923115632568936760968164840674894256611/1547425049106725343623905280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "18607574041333635403739747958092875424680233781108040125117046675595465784798229996941389178532446244882540070059037509144592728164340545222551942258949831/30948500982134506872478105600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "14": [
+      "-6189700196426904783103435198536643128560574351164709354614511593676404362792328700762661246707224440294833178742529151790395553689873125929539680195587146323/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "61897001964269002259244011305810770891395488628374995312610394493319610429159808951319835849757147676718711437995133346030916552580298228695808241870996867327/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-372797418413937090404740168487038199056574629348653600740093838495787756418370519518045262302567576743920426970632932153796443137947467015316385537734690867/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "15": [
+      "-6189700196426904783103435198536643128560574351164709354614511593676404362792328700762661246707224440294833178742529151790395553689873125929539680195587146323/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "61897001964269002259244011305810770891395488628374995312610394493319610429159808951319835849757147676718711437995133346030916552580298228695808241870996867327/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-372797418413937090404740168487038199056574629348653600740093838495787756418370519518045262302567576743920426970632932153796443137947467015316385537734690867/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "16": [
+      "-6189700196426904783103435198536643128560574351164709354614511593676404362792328700762661246707224440294833178742529151790395553689873125929539680195587146323/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "61897001964269002259244011305810770891395488628374995312610394493319610429159808951319835849757147676718711437995133346030916552580298228695808241870996867327/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-372797418413937090404740168487038199056574629348653600740093838495787756418370519518045262302567576743920426970632932153796443137947467015316385537734690867/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "54": [
+      "-6189700196426904783103435198536643128560574351164709354614511593676404362792328700762661246707224440294833178742529151790395553689873125929539680195587146323/6189700196426901374495621120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "61897001964269002259244011305810770891395488628374995312610394493319610429159808951319835849757147676718711437995133346030916552580298228695808241870996867327/61897001964269013744956211200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-372797418413937090404740168487038199056574629348653600740093838495787756418370519518045262302567576743920426970632932153796443137947467015316385537734690867/1237940039285380274899124224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "69": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-43322914808403901/100000000000000000"
+    ],
+    "72": [
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "73": [
+      "99999999999999989/100000000000000000",
+      "-15487213900931679/25000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "88": [
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "198": [
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "224": [
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "228": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "229": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "3241041711199661/4000000000000000"
+    ],
+    "230": [
+      "2215636383392193/31250000000000000",
+      "-99999999999999989/100000000000000000",
+      "-5124920462789697/12500000000000000"
+    ],
+    "231": [
+      "-99999999999999989/100000000000000000",
+      "-10540895311807331/1250000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "232": [
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "233": [
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "234": [
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "235": [
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "236": [
+      "-99999999999999989/100000000000000000",
+      "-1322255694433527/31250000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "237": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "238": [
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "239": [
+      "99999999999999989/100000000000000000",
+      "1528736894040463/1562500000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "240": [
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "241": [
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "242": [
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "34925375914801611/500000000000000000"
+    ],
+    "243": [
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "244": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "245": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "58455257486835233/100000000000000000"
+    ],
+    "246": [
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "40760379781007583/100000000000000000"
+    ],
+    "247": [
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "248": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "249": [
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "250": [
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "-21732358734191881/500000000000000000"
+    ],
+    "251": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-7998413949031653/10000000000000000"
+    ],
+    "252": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "253": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "254": [
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "255": [
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "256": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "257": [
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "258": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "259": [
+      "-99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "260": [
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "261": [
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000"
+    ],
+    "262": [
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ],
+    "263": [
+      "99999999999999989/100000000000000000",
+      "-99999999999999989/100000000000000000",
+      "33217057889650803/50000000000000000"
+    ],
+    "264": [
+      "-99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000",
+      "99999999999999989/100000000000000000"
+    ]
+  },
+  "base_velocity_coefficients": {
+    "0": [
+      "-53538405584292983/10000000000000000",
+      "57880415562399081/10000000000000000"
+    ],
+    "1": [
+      "-88177730745390299/10000000000000000",
+      "13175834236183679/10000000000000000"
+    ],
+    "2": [
+      "-2684524255613307/250000000000000",
+      "22804308570239549/10000000000000000"
+    ],
+    "3": [
+      "-2684524255613307/250000000000000",
+      "22804308570239549/10000000000000000"
+    ],
+    "4": [
+      "2684524255613307/250000000000000",
+      "-22804308570239549/10000000000000000"
+    ],
+    "5": [
+      "-53538405584293001/10000000000000000",
+      "5788041556239909/1000000000000000"
+    ],
+    "6": [
+      "53538405584293001/10000000000000000",
+      "-5788041556239909/1000000000000000"
+    ],
+    "7": [
+      "11620061377808673/2000000000000000",
+      "-54908533756206097/10000000000000000"
+    ],
+    "8": [
+      "-2684524255613307/250000000000000",
+      "22804308570239549/10000000000000000"
+    ],
+    "9": [
+      "53538405584292983/10000000000000000",
+      "-57880415562399081/10000000000000000"
+    ],
+    "10": [
+      "-2684524255613307/250000000000000",
+      "22804308570239549/10000000000000000"
+    ],
+    "11": [
+      "53538405584293001/10000000000000000",
+      "-5788041556239909/1000000000000000"
+    ],
+    "12": [
+      "53538405584293001/10000000000000000",
+      "-5788041556239909/1000000000000000"
+    ],
+    "13": [
+      "-2684524255613307/250000000000000",
+      "22804308570239549/10000000000000000"
+    ],
+    "14": [
+      "-53538405584293001/10000000000000000",
+      "5788041556239909/1000000000000000"
+    ],
+    "15": [
+      "-53538405584293001/10000000000000000",
+      "5788041556239909/1000000000000000"
+    ],
+    "16": [
+      "-53538405584293001/10000000000000000",
+      "5788041556239909/1000000000000000"
+    ],
+    "54": [
+      "-53538405584293001/10000000000000000",
+      "5788041556239909/1000000000000000"
+    ]
+  },
+  "exact_selected_first_jets": {
+    "S": {
+      "degree": 41,
+      "value": "-1594310510738409173625206877184917422334196063621671305153803899638138467463647708210585573064099766901694490864884147589749755842907070896872994489719834448252959061075282070904699091693379676509361746405753287253089780129894620697971866021439009542355149042520174379600353021114581783761759268397091163584723872424697646502388916305910446791736079796288362319938514043439931401273269642587203141326873136696591217137259430121078939989161319146204139876926359742544417692723021806777806391256901618068103793222233573467015109605075826620838530123585913939689240981236721711029791291981806807053343691162410943524234386315748630825973027545390242750348173910480874357729255400732549871883616069712985127939876886414500984471809235082317004114516338043395216689426252136221962452335346448427811554436483566501101328887783654578567842139735884848483649148849873861019633500997952446667120674589045351005160310998611848114091428587196664531528473673184446685209830218044872314651420307142179638247828897775052130113600585438084697329084915190273326765374648523674877182774646122467441639245746856177966868350673420203015730400197277970897201275846486871638851304302990609135014101046589998150906510917049705376660034422822140783719288911354090416975204447359656185728594376285098811475683369752895118467464897970061607804345487721844211818417736873630647965249395927444276904295164027330236016444291409550656929368555096710493799614945560860467938579613080044973004857749154277816223873460155932741580410674077300094328428513255934504047919550303360859234918760630919037825561894175804667380348799515375952478416827422430117648246227311535741225375265741004122768250651785685399091464004069963037277940038260598356472919561197007028850446674380716434290424743815330194035010305160493473519611894519600577829511558817860750192888111526313686179958758354177992717701596422238196377928128792404264135452533118282270406291759084268427706652576428108052654593457742765244784170927686202419067249774244311453048725061033678403707805148055062180621234699766983624218798712426836434236109976129140292947704349953047885736656354210714062098432683823556703758664900486372746274932072607044981675474849673153532872349341991765637344284425466294143354493166596864628287924151574164777780700150618495168225123183775389904541883827995357765514889582636127803393124009242531006645568630781955994426530730599524729419218353554116695820693199340813862784938271099145230173823799148960378837467496067280867928825906255623309850164867518788257710137134337845846628609552265597922914410889547452755532639076845105868010405744949236879769123407906511331161879315283899920081309458500361411892043223907314717449740442842398782167560777282896547823539560379599430170611481898192371552782604046412010168086917525586587541211125399445371511461203638228234914327250425944211104109791288283173106472489072675425148085682589512061097385616240276142767387830624064115851904039971815218667156889449627441023895707489790184820605938352114851215187614181580169896869316114675668153488819331043853415452921857794035254090755924629075647249639499345495668021385649036810426488758871219714998219546797351437895604658069571726188210570239811661849344543011733295629767952030086627365586704004214978697543767151576928247247381959257932640547480822703125253842221637799835168188727469375846768203286704922896642201638378705079106742242427284532060690146415765954930151542173025598453413783013500493298723805944472453659200536538792652176226718661136821328037593096612729031081610923284321993997949179162085857093509911036467457143473512877031010181939856487475103272879711719757498227444520078485844091392853469867718987512606698685283017381517168031910926371031252522363888127372211676618571435383900994241058163281727600854120460127063184900244987730272757957273581360542362454948860301365485520661835947995396026609945861569366660879688624271627051557210584124636349672321271324242436066326043601222021602383471684343955153641114742119948059205378326705537386488501081941798998668588783658057840368277412295141111938817206278156946609649905969721871779563792193465579240585957073983343397005564788388069714882644000313726592022900951034404270386934979955334142134006079614125073280298842101334171492322512883623181317942542394036932627370499053601742634224800010749379819765697202518059414647689792956057722061714667264402222860953522267848808255225328260757548794362248795179727763629755821471572497953173404543629506652740301818854231947633481819623962402386978335470850621032560357126375115064182717746069524558346154851135601761567637891583211391040434755547543702681721933679187519845015605786416171483908332640964516981344718053882785986980596440923348278765507049297542692579781532901112670577353923866517291448218328403108625642206096974327444691427482637720114201228313222306113364398523137880344681710921327275249202993728942812000839008640793266843960516056576817053306062853027043027619587111269927234673686962108652256553342174656634670309715703693681961090111992737547943781259084173927129638789100280019294421305362476373130330262529048092718230887322468362697048047345770244640999847839714267168691929157587178626708407169325714389230823109863569527714232792924826218216045381991138166348838393902923733484582905404015675931262097002038727559192125569989620698143833053586591095693853396288433705491264402883333820799063742421969817003287779493094976209915688501922812893331342308933734144417798523302689001209755407273754212348882668134418990390383207677124965889151262895012298914786592106280763931305118084816355082498507453500901243954810176125933437299029352873720519001236744336894493795030974685917305541841004801130475194105355884323573966984548697604733625022243099814609315036366487965726034538124154023519343952994951/689631013438927230926477270971686409698541759739929451428166520513501327527854843991700635189986339559147796267457626725819520075327630018911901863357506004016965492591476355850553723966226418286294963715235428656233561236607067400855246270468906356749065947085572075261994447769606775259941198439593491823622832031030471814251853756968381043163735246587127706115534407061741972879439526003619313538778082339364285274500310726538380417933976185656747712027592462140835312354671081202700783866235548023965762033370928921850551495177667935260743654905586542746996368599818013952923216813420622410875278565170688114416036203465898126017317356738548144574103091962405390338398084640150813410220575028099192597809585578050238570506624420755201353242820083067204462250440398099047407996901094440058319616979085273797108317456587311244386182224956416575409730241384557519989640761565753044110995450346768914937961707479799873333989780000006239767338570899616588105220697865591264513579060990542359139954617499037984253007268941509072639897218516507644614214471443148708293611529700445049221986358817876763655092567692369851255375399576982701600062451006094326191601794956090124865176560010795806866621012711832862798724192017714148029911809720702091443263165292955002531413210969681653218544541073585437595113743193856207046920689970411571434646170507065246363782412525651454615121346709798425641894622672468506346419041671638822335968938833931723106044741406213470875097409605032771480927161972541442368377886888004521102729496226298478383566256559254760601529753668452316278965974010214570675677593289213129237022879790421957491175382328189844050668471839708064624796216482594109797111158736038750968569245034275089912879141217755336658814633024797389837139728398782006190871100571590435290694386057932587029651186930847251915475494589825635788304025035329330001500805540266164769630634730941469641085483918454834125104524868077916232182343682335622225231217464422958578250124621445194106742980275768755371577346756085576254957991435379325973418423571932618314970336902317979963097433145431521664041348020685772956626585980713001091852894712646072801401050690398602009476758376192978267398685817580073584285755373058067868783918249019245837312140299029678074560676680084203440291491624368524929902536399975222369192153662357504000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "polynomial_digest": "174d7a1997be26a002ff3c2bc2f3dd41225f337be1e133a9999eb13125b9e8f0"
+    },
+    "U54": {
+      "degree": 18,
+      "value": "-1907109706426475921477611468386461883449529623559375859931932129279477050645181287201839682371808875730693803423096800612038430177235701289319100252170190778909226143719446352721471278993652251409611317876548990016807195718753942895413724726312893973420389981034444281735897431168667122746406683357095929291726985971452631527093416138157785311293801090955132958848943818849102816040978881384422604633490338137719732075610501068014855635325646133855917758076015995329020442596358330223949798558689813668430378146945606171637466835818757916164021828538861943752277291243876307492669585293063986226308006044700915001791816237210418058488515713166829838368977954556183169470631903622204696812905913941784900359794125342344816905148555600817470405872679037314030190117286435545290641906133621710606626761747112970105217459016111777312334030799930107197920226342389912966024685030826351786416163638920180858688810549052499490606733127043277661123816320690191530803528068591343717753236562903301558870570187909289520656021307647680828088124722057054680502679179592979086720215420667967470279963698126061313077632047682835721103063527913271148403696394137172070096092544706241162678148143903623982820254569467727461892089057266547499504229880218197162496536306303893258480186593406409667904225492165699654389687358307333020635332779625182242328527631785308692160392401624277656589154088096948295580785524122747206236764975083017287982971956090244236365812947998804027679904678567875291228274139173057134285594264082399370217349093914111708920577753990964216422649248321764887934441207316499204612768552841141674986626151102551074152763683666662940373445134343609614242278808469123201862201403218558786545473248134846566741617942473028306524896292832975087786141179364234363985288241917943536925819150118541977847446006158147240875870342297593774465357839095240278791460718975845590558186577018026282180830163968347021051444819994439700873528031071466748769660287346282407367558239678018163594578005626806979323367761647953853878198515579526013928114595086596680101436205075766083715187290336738917570052395546567592817722392956897394771214663507285552756745987040910900538677303650160242461315134127945328165458460147833396800421052391120618212360374252404390049934162883794829952412718810708588967821056271740607633613494372297685062002374928540086319840797739167487808512244197692060706490224359789821074246396036777001817436650658025317219920785634908213691435016817997689437576188713643315444531715170243465463678034846091509204603443343171049706416051834842218001160697052209468394913179840313074317681177475281691449219774869909805086885444522510438169771862805804321232473577901040946873414528364815142807960912939/94038140893633110036549286063885088370228263859185974677546562810795607863954961433007840401398581148732892156061838472092596765390120259272358424374367828740253802184777941696180966962158018288240088560943565473506276365039151078101875344857488160728220352608633372035394096078643317828111755508281123330240102569304873792385839006780020479023072615415964775166275881242805774756267328054439848102423671893563974330574158051572045502006036141623420586284353923230088628476266973773751517571568483695767557718381590284574990641348967904587704148254608075225002405598343251178104503529051872904092793701324878817460910363667259229977685485571589201067614607975244503212984053438440617810942705187066513910838439363407450510354599130641382429491308706649197007968097323113484909016121704583893309664397368087370950497236690981866791625578864998795397050523450464388938001676878480898392920179524833190296690307489642611063960914496313419458033235033709336123596980261763372838418282889598813196632039746193060375179953111950001517125121909719040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "polynomial_digest": "d2c4ab2eef793c37bd4eec04fd5673a74dd8f1cf6995ccc4f48cdb1d21378532"
+    },
+    "H56": {
+      "degree": 18,
+      "value": "-1662252776861396455975271700019876903146837043708588220598438017485294123283504100463879490467308100008444434291888606319080093198995677037326277270640755097673840835395245819740910132996972257031351086235807975679840262606989586614672402989222006128940674433555110711414194464409382116233693886242777873135405418917996768218975111237403713493771882960302380579109834371021611484142768628581908215309153245081485147750029278188960886460705171203533418288593961420059806535387862946662420576504112809784676483395622545289137154942544642141661092119374332151021534758630551391031255965074963830811944429425730019802224812973726879569016642498627244201158437743221110896508506796430077529924514495363096722873649734108655929134653828046789774936140919515554700220951012689303074775045936996900396227093809517913965018208206748872566518925395008885793096795645624071724655898768588068977109391790216374330273898154564919941429509759026846533993533564256150938042656987274227165674211953264725818724319512595841669329845093122439293960599492925441862425610075230976793196845805349368103568685730545338129647067827456425274098919642716626516738402209929603018086252115426068826267149520182160137309530682707177328844638746254738101999732375484341215955125078251344946855334180931889180823081847824541260132233095592108271472826191471844613174889283440167944099566003049104705071833690160281239297206124419279204671417711145116922621548937139931725133268561678171081301089618843580526067918986218255800416347157709507835625498777923948436070981691443195880033038136328273259230098252418308437762190136369194256977323204467785040414026239433246058570060272411088181110009044275514123434180164995680156818955374021457542803440377444986203509419031028008011018259644216774346929145194008993183931131355855660750766146850259563695692593975550325002280551897948968555121687093152992809182330449964707172430552519070376386299983054378632674066250193012038066117141216997527732834178621765661365256179376993986949546867896696909871274783950521222900770916664916347003840127368532464195215911718879078608085293020512687201788341197665467258304777222712426080055169323322986920350416158341110736641648348520835670165277336509733768122602452742128025702433169391183621263809117607674632723255413345687829057293839719530712419149364110663768322013031190355300255260481659831437426265688204391489335660916813514182503489192195281308050305495371616233447315117767014801531488579600017181075936601904718353851401943703057053236616702539890192538702354548742056307069612550750600536758923347591507632951829737083036863606593086904509225087430817571737552298397773868065530388099862821536435227546214353203588649712833053283501781800191290719006151260753298240182707720762649013543286717902459184017075514633346844921968508115615546726188480041448239814577461/8757984348911150362021223275352743302493194477556829776386410259715803699936248495523616708945350828462549686065114892282765057439927035874906780605611189151206407899481984013335869364641422246418901585130353036663148213647226903410803093096007421680560368356167652833777861304454814440394915222030237627238044754537276345527343359475957274345967230891433057856399182345979453507463198905292884269954978664737564914913303968643028801493908850627338568333941877189100592255244681031792565954063877807535934980807974029758478574580416819507973654964436597677413598224366386530744331286200496638574897656340606400506655719472771438767917965126371868054160346088488074318783735245321003516292451432632889031510654777605780447866264649726579192047129264720640797910103325090695629736047396863241988202966504552156752953048487285325936193166194949186909669127636632359487749792344726705774005519181940070381079829064164553868021901184349639290760572537193944316692369083106831911803994596898445225938413268531957676185290618981234870583296000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "polynomial_digest": "2a891da48a0a9a18bb476ed38c5189bda049dc98b7954dcb3001f1eb3d3fd5f3"
+    },
+    "H1011": {
+      "degree": 18,
+      "value": "-792570064472691394210202815621532412013008659512550740141314204443201479857160708385083071053743746720699678928302125206609704351308136787384563606121457604846498161262485864165821671695558124133714725395875319784382822993862779503363481214030388086652530752508895638453621408818578382534388040949237694089454016123163464450570330137200641049939376259328003162145085340750163509560662368676620965691281786602355739921797438957367434306309768365310908999309953910067704523977710795791485743779369434070476460548169964707838056140143496280777960014568076090986591170480607933869811286284862078643143379370370700380814702400967513186551483432759700221939762165127691202216871587199639996596950171510418886848342818442784207283794351116531661118946540043439548197533076873296349683896891113114775598618727300223305789532844907796750967250661307163143499811402871394166049181802617812925985895854623661128241634688404789137260074361101511829150384338111076784021462507671317606822395025168651659437778490632007792142553810588159777694423866098446788536809348864588103037733023578803175138957639789135875333918152547951448619453666135190654039540525068153305712877189430842216746993321320871646372716018381507264611676340680856217942608925122754198062687836719033049085920980076510471825097947507556769615593935855512829387912527504258792076029187696414128191772039165685520394365421501911185056240375387536302663177239051145343919965013503190350722899606460241811653158779597539699526068965889263296210945742560657511524922810007545602999458876933328918562972792726271126361052125485951421866772079480130457909268209521953294126456334388939930848148974419880643292806740107922284784824435150339192424766057962633726335203837354737438140565361659399480347611351229010524345546528226465100648414669988003018329562958911999118939998844224454497478847842619586509932673766132048934140775977680007669455049264033040620182021034416978602724021563621035871080159095569811958151196180427072489782193374302470959644315541424946501511021008014762371481191098481110249282833885725268978461279563239369180331055404648552176460486004552673199434412735231892838062476446196648710234055691889413885884842185577742337395816746573380503801848318124499897392087702354611914181808792935579402688984332618271620876348556411607557578932829593196463103847780814359181220755332993901868088217064911409954779402243978260464833677234364718311792598137188762836789776380245334008104213952655682477408661236396704030364340210598781047844929504346151960474341124860650217017003338312891230614919008115776132125813362205623062831898797482747254221739916766809189120219540515992654601590290189080575043103530544716763358708240989928479389457729056057086533975577838929365659159403871192905111236235961252910286666519904117999234970536052872294896600781341017/179363519465700359414194652679224182835060622900363873820393682118979659774694369188323670199200784966913017570613552993951028376369705694718090866802917153816707233781391032593118604587856327606659104463469630190861275415495206981853247346606231996017876343934313530035770599515234599739287863747179266605835156572923419556399992002067604978605408888656549024899055254445659207832846313580398269848677963053825329457424465277809229854595253260847893879479129644832780129387411067531111750739228217498335948406947308129453641207406936463523300453671661520433430491635023596149643904741386171158013904001855619082376309134802359065966959925788095857749203887892235762048690897824174152013669405340321567365338209845366383572301100026400341853125207341478723541198916097857446496994250687759195918396754013228170300478433019603475173236043672559347910023733998230722309115747220002934251633032846132641404514899234090063217088536255480612674776525561731979605859718822027917553745809344480158227218703739534493208274751876735690149545902080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "polynomial_digest": "7a9330fdece66ce41454586464490c9120d1b69472bca5b02d8f7cb32d49721d"
+    }
+  },
+  "exact_h910_witness": {
+    "component": "one_minus_t",
+    "source": "-172837536333431545147201427326322661009387099552673147486834327877353327913663407609732821308744791456402752842923295711996860684426376622825903384184096373023874117825910064340370767163867507752403127692604572692364732481842135733972377911414775299097063265044971751971562510307603001036437620613023113791006810436916929898013862994286023503398571326585081240405534073448873402681942053771194488639354825745115191489378887618906304276398789031124012339158998202495514211256247553414787044996096508956945120261153859858895049519594498524551261277766534429451679063026925405239226629284000368227033710872706698442502189959826404044716920194699041004269319615987160660343008879313090520944049971937/5504920095284404349972854713211779144487639320603925471420297720708986928623460923557658523989593549155049219079733579056004073609401472619004500829713813229936769777479358249246711132655987277605575022620873817936091497385121794001057272842301962719105489305600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "endpoint": "-6751466548182041971387043918744316876768508714519780312439863646951187565247581707260341338015882848126489653577244153858288674443812049217023833799621798646579382418195691913426663945083087838944739829174304954870806529155449057787823756966681124787023994506856429134442304620383133926791798762206815523199533766934958480023079178354277126847758959646629462004892372660575827368101174407953068045152895396294153741836734845050724012478865689614196034302426101730091912320945342981284055893057672121769840769540000574828826556288425042298489802595988132308914043808301794959357988861073113205104275374503434988768725114604643755566187192291266090282478477851826537495279505790485275696666051219152162598187107382324481636107701158449832201131003282364687976263204714651447790233028480647123262510696674318777613906707/215035941222047044920814637234835122831548410961090838727355379715194801899353942326471036093343498013869110120302092931875159125367245024179863313660695829294405069432787431611199653619374503031467774321127883513128574116606320078166299720402420418715058176000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "exact_endpoint": {
+    "file": "post_safe_flip_candidate.csv",
+    "sha256": "ef829d3ebc130811a9e3fd6870b5f7764fa3f3a0264240ef8361420f98feb5a6",
+    "support": {
+      "f_vector": [
+        61,
+        162,
+        103
+      ],
+      "euler": 2,
+      "active_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54,
+        69,
+        72,
+        73,
+        88,
+        198,
+        224,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "strict_support_count": 5959,
+      "min_support_log10_abs": -15.634805665978803,
+      "coplanarity_equalities": 221,
+      "coplanar_interior_rows": []
+    },
+    "mechanics": {
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "stable_faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ],
+        [
+          7,
+          8,
+          245
+        ]
+      ],
+      "unstable_vertices": [
+        8,
+        54
+      ],
+      "saddle_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          10,
+          11
+        ]
+      ]
+    },
+    "forced_rail_count": 37,
+    "missing_forced_rails": []
+  },
+  "verdict": "POST_SAFE_FLIP_FULL_CONTROL_RATIONAL_DESCENT_PROPOSAL_PASS"
+}

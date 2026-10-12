@@ -1,0 +1,7 @@
+{
+  "assignmentId": "asg_hLx0kp6S8DK1LdqokerkVr6R",
+  "nativeRawSha256": "e0df11674e3a73f23bd5f91802800b15773bf62057b91d4a653033c411d41b92",
+  "receivedAt": "2026-09-15T09:48:56.119Z",
+  "backendSnapshot": "/REDACTED_HOME/pro-research/output/recovery-20260915-LyqbdO/figure-slot-5-result.json",
+  "note": "Two serialization boundaries preserved; source capsule must match byte-for-byte before unpacking. No mathematical replay by monitor."
+}

@@ -1,0 +1,54 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "EXACT_AUGMENTATION 925",
+      "values": {
+        "V": 132,
+        "E": 245,
+        "F": 115,
+        "counts": [
+          11,
+          30,
+          39
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 490,
+        "VplusEplusF": 492
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "EXACT_AUGMENTATION 5750",
+      "values": {
+        "V": 133,
+        "E": 248,
+        "F": 117,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 496,
+        "VplusEplusF": 498
+      }
+    }
+  ]
+}

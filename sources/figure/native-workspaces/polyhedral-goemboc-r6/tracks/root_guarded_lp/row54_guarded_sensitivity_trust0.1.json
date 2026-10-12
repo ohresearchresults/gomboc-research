@@ -1,0 +1,1927 @@
+{
+  "version": 1,
+  "trust": 0.1,
+  "bound": 20.0,
+  "atlas": [
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (245, 246))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 0)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 1)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 88)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 't')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'one_minus_t')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta1')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 't')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'one_minus_t')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta1')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "deaths": [
+        "('face', (8, 245, 246), (8, 245))",
+        "('vertex', 54, 257)",
+        "('edge', (6, 7), 'beta2')",
+        "('edge', (9, 10), 'beta2')"
+      ],
+      "success": false,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    }
+  ]
+}

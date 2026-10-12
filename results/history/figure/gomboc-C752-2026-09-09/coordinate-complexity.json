@@ -1,0 +1,16 @@
+{
+  "raw": {
+    "coordinateCount": 711,
+    "nonIntegerCoordinates": 708,
+    "maxNumeratorDigits": 19,
+    "maxDenominatorDigits": 19
+  },
+  "centred": {
+    "coordinateCount": 711,
+    "nonIntegerCoordinates": 711,
+    "maxNumeratorDigits": 7079,
+    "maxDenominatorDigits": 7079
+  },
+  "supportDenominator": 1000000,
+  "note": "Representation size is not manufacturing tolerance. Viewing coordinates are rounded derivatives."
+}

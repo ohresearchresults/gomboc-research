@@ -1,0 +1,44 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 3,
+      "label": "PATCH_FEWEST",
+      "values": {
+        "V": 150,
+        "E": 233,
+        "F": 85,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09958470308420035,
+        "loss": 0.009917113088368344,
+        "centroid": [
+          6.257550446438868e-17,
+          5.0901229339438885e-18,
+          -3.4397417778869964e-18
+        ],
+        "volume": 0.5200778721535338,
+        "minimum_nonroot": -0.07051658480604454,
+        "grouping_tolerance": 2e-08,
+        "t": [
+          0.0,
+          0.0,
+          0.0,
+          0.02386058978755512,
+          0.0,
+          0.0
+        ],
+        "normal": [
+          -0.3022757293391165,
+          0.8040299552838246,
+          0.5120207168257905
+        ],
+        "calls": 1,
+        "objective": 0.009917113088368344,
+        "seconds": 0.030998945236206055
+      }
+    }
+  ]
+}

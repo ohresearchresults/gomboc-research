@@ -1,0 +1,101 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 147,
+        "E": 252,
+        "F": 107,
+        "S": 5,
+        "U": 2,
+        "Pmax": 0.00018285074016055337,
+        "Qmax": 0.09813618280992949,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 0,
+        "new_apex_candidates": 41,
+        "mass_error": 1.1275702593849246e-17,
+        "visible_facets": 6,
+        "solver_evaluations": 13
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 151,
+        "E": 252,
+        "F": 103,
+        "S": 5,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09309689470908776,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 1,
+        "new_apex_candidates": 41,
+        "mass_error": 3.2959746043559335e-17,
+        "visible_facets": 2,
+        "solver_evaluations": 14
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 148,
+        "E": 252,
+        "F": 106,
+        "S": 5,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09111583573579078,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 2,
+        "new_apex_candidates": 41,
+        "mass_error": 5.204170427930421e-18,
+        "visible_facets": 5,
+        "solver_evaluations": 14
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 151,
+        "E": 251,
+        "F": 102,
+        "S": 4,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09634860502060265,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 8,
+        "new_apex_candidates": 41,
+        "mass_error": 1.3877787807814457e-17,
+        "visible_facets": 1,
+        "solver_evaluations": 4
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "MASS_BALANCED_ACTUAL_BODY",
+      "values": {
+        "V": 151,
+        "E": 251,
+        "F": 102,
+        "S": 3,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.09648946970256336,
+        "minimum_noncontact": 4.018631344804291e-06,
+        "removed": 22,
+        "new_apex_candidates": 41,
+        "mass_error": 5.204170427930421e-18,
+        "visible_facets": 1,
+        "solver_evaluations": 5
+      }
+    }
+  ]
+}

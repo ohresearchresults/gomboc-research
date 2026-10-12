@@ -1,0 +1,176 @@
+# figure-0113
+
+AI research report · 2026-08-27 UTC
+
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
+---
+
+# Slot-4 exact post-wall continuation: finite negative atlas
+
+## Immutable artifact
+
+Complete exact archive (`slot4_postwall_continuation_result.zip`) · SHA-256 record (`slot4_postwall_continuation_result.zip.sha256`)
+
+Archive SHA-256: `995387213fc3aa7daaad9cbcf3b72cf160f93fbfde726972ac2dbd461ce75817`. Internal `MANIFEST.json` SHA-256: `d27fed32985367609bbaf938f6381cdc9eb25cbc022e1998be136ff771659850`; 88 payload files. `unzip -t`, the internal checksum manifest, deterministic generator, geometry verifier, exact-wall/Sturm verifier, and independent endpoint interval verifier all pass.
+
+## Determination
+
+No homogeneous convex polyhedral Gömböc was reached in this finite continuation. Beginning with the true first post-wall incidence signature `f9ff70be8842745cf2bfbc15a8458871f6d04f2b5ae07f0c1c2027d65be22280`, I rebuilt the actual rational H/V lattice and crossed three additional exact circuit walls, obtaining `C0→C1→C2→C3`. Every accepted chamber has all 4,324 support rows irredundant, `V/E/F=(8644,12966,4324)`, and strict construction-centre `(1,1,0)`, but none is own-centred. Two Krawczyk-isolated five-equation roots lie beyond earlier actual walls and are rejected after full hull rebuilding because actual `M_x>0`. `C3` is the first still root-unclassified topology. A nonzero `2^-32` parameter box inside it is a rigorous nonwinner.
+
+This is a local finite atlas, not a global exclusion of `C3`, of the five-variable family, or of homogeneous polyhedral Gömböcs.
+
+## Exact deterministic family and moment equations
+
+For `p=(c1,c2,t0,t1,t2)` and `i=0,…,4323`,
+
+`q_i(p)=(Qint_i/2^48)(1+2^-24(C1_i c1+C2_i c2+D0_i t0+D1_i t1+D2_i t2))`,
+
+`P(p)={x:q_i(p)·x≤1 for all i}`.
+
+The normative integer arrays are `two_collar_generator.json` (SHA-256 `0992bea5c756b3a9f385e7d1fda0c20bae2ff09e11c51a80b44035daa3cf4e95`); canonical regeneration digest is `cdaf6a4996b69a0cc41a021a4221277a77806d73362cc6b6befb7de8b67090f8`. Complete collar supports are
+
+`C1={512,513,514,515,547,548,549,550,582,583,584,585,618,619}`,
+
+`C2={530,531,532,533,565,566,567,568,600,601,602,603,636,637}`.
+
+The three disjoint distributed supports have 772, 910, and 802 rows. Rows `0,4321,4322,4323` are frozen in all five fields.
+
+For an actual active triple `I=(i,j,k)`, `v_I(p)=A_I(p)^−1(1,1,1)^T`. For the stored outward-oriented actual triangulation `T`,
+
+`V(p)=Σ_T det(v_a,v_b,v_c)/6`,
+
+`M(p)=Σ_T det(v_a,v_b,v_c)(v_a+v_b+v_c)/24`.
+
+Thus every fixed-cell volume and first moment is an exact rational function of `p`; the ordinary centring equations are `M_x=M_y=M_z=0`. `actual_cell_equations.json` specifies the deterministic evaluator.
+
+## Inherited collar equations
+
+For `Q1={548,549,583,584}`, after primitive content 8, write
+
+`F1=A3 c1^3+B21 c1^2t0+A2 c1^2+B11 c1t0+A1 c1+B01 t0+A0`,
+
+with
+
+`(A3,B21,A2,B11,A1,B01,A0)=`
+
+`(20992678081426850848214386615094515394670194512906413313635867,1480033472221726809287228952138075897775040447595073695,47093514686061041837810133390844954015667882899270093997342720,3309772022768492598395550567298839154526435072844759040,26510205309975610854261502393831577309941020840121345471676416,1856964586281187228389627182603555964613474506044866560,-97044266239109786635689299201586362028915363863175626752)`.
+
+Diagonal identity: `(548,549,584),(548,583,584) ↔ (548,549,583),(549,583,584)`.
+
+For `Q2={566,567,601,602}`, after primitive content 2, the same monomial order has coefficients
+
+`(18381692582053203283900965284436790889889003307903026772171793,2127343107821260857226295214434870917604273377663873600,68771731502537149136842910566569067158768368517231305209937920,7939213086264848256729923398416337125391603699149701120,64509428278184679976345281572956456469466805647290050895937536,7427858345124935468785041865424875910989058839622451200,-388177065112947777668651793289210636333269723104164184064)`.
+
+Diagonal identity: `(566,567,602),(566,601,602) ↔ (566,567,601),(567,601,602)`.
+
+## Baseline true first wall
+
+The predecessor wall `(551, 552, 586, 587)` has primitive
+
+`2100330490797324800790965654010289579979611690003851011588785461 α − 242155860146655676091624565174441995963264859895166142513152=0`,
+
+with its unique positive root in
+
+`(258361969265861/2240893618609474953, 71249378703133/617979025780857268)`.
+
+It changes `(551,552,587),(551,586,587) ↔ (551,552,586),(552,586,587)`. `C0` is the exact strict post-wall chamber.
+
+## Traversed exact circuit sequence
+
+For every polynomial below, coefficients are primitive and listed low-to-high; each displayed rational interval has exact Sturm count one and opposite endpoint signs. The full census checks all 12,966 current true-edge circuits in each chamber and finds no competing root in the selected interval.
+
+1. `C0→C1`, quad `(569, 570, 604, 605)`:
+   `a=(-4394765599542528847310277351946144593695157778558848416927558371,36478635456335988216702205556908040513050870140578472452603682155235)`;
+   `I=(6496002095260149734778428414958096473359912313388565577630776157/53919893334301279589334030174039261347274288845081144962207220498432,3248001047630074867389214207479048236679956156694282788815388079/26959946667150639794667015087019630673637144422540572481103610249216)`;
+   root `≈1.2047505463308662e-4`;
+   `(569,570,605),(569,604,605) ↔ (569,570,604),(570,604,605)`.
+
+2. `C1→C2`, quad `(4173, 4174, 4208, 4209)`:
+   `a=(-12214075487091554668851919259603993953049035371528387835850245,242277611481168194927083963890561364997761003560598864598728740357)`;
+   `I=(2718293462672141894974867317669846997452160512348428721115282439/53919893334301279589334030174039261347274288845081144962207220498432,5436586925344283789949734635339693994904321024696857442230564879/107839786668602559178668060348078522694548577690162289924414440996864)`;
+   root `≈5.0413554155584586e-5`;
+   `(4173,4174,4209),(4173,4208,4209) ↔ (4173,4174,4208),(4174,4208,4209)`.
+
+3. `C2→C3`, quad `(516, 517, 551, 552)`:
+   `a=(-34412455489217911602698703907704615321527536705018617804199978000801215122822546133566861135243535261381897769,335669667713755233096836832583727162058087219774041909806604548807864071073159391544832167269824275690700519383675,49498730771026699360356219224888366055332608737630023499316673358637489231887159112074718482350391270068078069125,1824653024463029460919027458544652825714641143212322491186651553429360604711505605136051496565887421336224515625)`;
+   `I=(5527719831253258882549136970348904585532742856969038757079276253/53919893334301279589334030174039261347274288845081144962207220498432,2763859915626629441274568485174452292766371428484519378539638127/26959946667150639794667015087019630673637144422540572481103610249216)`;
+   root `≈1.0251726198680712e-4`;
+   `(516,517,551),(517,551,552) ↔ (516,517,552),(516,551,552)`.
+
+The first boundary not crossed is quad `(2263, 2298, 2299, 2334)` with
+
+`a=(-1409737011932724874047794228685282840348573196306705048140228784769173869409430696719162573326846954748079047166752293,5149049768586706849051348380539446313410228862343030809741205317628824214424514330914648054448273579782750502355248271983,-288656376606622898581389071381953834367186720330953463929222579262041570138549143911478309389734619665013477239992435311,4054990703578625055121981464436633540473628247710018372342970623567768004247438578639586277198776867117682842996303397)`,
+
+`I=(3690682720194192216907727085519825250970114449032542916955112701/13479973333575319897333507543509815336818572211270286240551805124608,1845341360097096108453863542759912625485057224516271458477556351/6739986666787659948666753771754907668409286105635143120275902562304)`, root `≈2.737900609196016e-4`, and flip `(2263,2298,2334),(2263,2299,2334) ↔ (2263,2298,2299),(2298,2299,2334)`.
+
+The certified piecewise-path order is
+
+`(569, 570, 604, 605) < (4173, 4174, 4208, 4209) < (516, 517, 551, 552) < (2263, 2298, 2299, 2334) < Q2 < Q1`.
+
+Degree histograms `(constant/linear/quadratic/cubic)` in `C0,C1,C2,C3` are respectively `4713/444/595/7214`, `4712/444/596/7214`, `4714/442/596/7214`, `4714/442/596/7214`; each selected interval has exactly its named root and zero other current-circuit roots.
+
+## Isolated five-equation roots and actual rebuilds
+
+The systems `(M_x,M_y,M_z,F1,F2)=0`, using each chamber's actual active triples and surface triangulation, have strict Krawczyk inclusions with radii `(2^-48,2^-48,2^-36,2^-36,2^-36)`:
+
+- `C0` centre `(0x1.ea9cea703df23p-19,0x1.933c54d0fa1bap-18,0x1.33bfe5f260e83p-4,-0x1.0611f1e07be54p-5,-0x1.1cf5580cf94f4p-4)`, K-image widths `(8.470329472543003e-22,1.6940658945086007e-21,2.220446049250313e-16,7.216449660063518e-16,2.220446049250313e-16)`.
+- `C1` centre `(0x1.eaa04ff872428p-19,0x1.933f1f7c7c23ap-18,0x1.2df814d333e77p-4,-0x1.1d95d0b9000eap-5,-0x1.218a9143354f2p-4)`, widths `(8.470329472543003e-22,1.6940658945086007e-21,2.498001805406602e-16,6.800116025829084e-16,2.220446049250313e-16)`.
+
+Both are counterfactual. Rebuilding the actual hull throughout the tight boxes gives:
+
+| nominal cell | actual signature | active/inactive H | V/E/F | actual V interval | actual M interval | own class |
+|---|---|---:|---:|---|---|---:|
+| C0 | `14915de1bf061db3fb9f4dc1221e86cb93066d0ff8ccb67c805142ca50b3b09d` | 2786/1538 | 5568/8352/2786 | `[4.183634251445381,4.183635272403411]` | `Mx=[0.19684237284880488,0.19684271188654281]`, `My=[-0.0016474244056508827,-0.00164705285187227]`, `Mz=[0.0029498811636202156,0.0029502727095728908]` | `(844,746,1588)` |
+| C1 | `1b5778024f6bc9f8a92f2c2e55fbedb475488ddb386a19a4388c35f1e7199e1c` | 2767/1557 | 5530/8295/2767 | `[4.186751708372647,4.186752516027777]` | `Mx=[0.19589528163425973,0.19589560244326404]`, `My=[-0.0015956870008902715,-0.0015954174336691809]`, `Mz=[0.0029257932784801004,0.0029260728632657896]` | `(853,766,1617)` |
+
+The common inactive-incidence gap lower bound is `1.4689128802203297e-9`; construction-centre classes are `(158,170,326)` and `(157,171,326)`. Hence neither box contains an actual centred body or Gömböc.
+
+## Accepted chamber ledger
+
+All four cells have `H_active/H_inactive/V/E/F/T=4324/0/8644/12966/4324/17284`, Euler value 2, and construction-centre `(1,1,0)`.
+
+| cell | exact sample | signature | directed V | directed `(Mx,My,Mz)` | own `(S,U,H)` | minimum nonincident gap |
+|---|---|---|---|---|---:|---:|
+| C0 | `2^-84(8153708031165623,13403094634895238,141027551182010630144,-115848602544656859136,-177975240238524465152)` | `f9ff70be8842745cf2bfbc15a8458871f6d04f2b5ae07f0c1c2027d65be22280` | `[4.201090519358441,4.201090519359271]` | `([0.12605221162648095,0.12605221162684666],[-3.0442752341432817e-7,-3.0442721233865476e-7],[-1.1596988301170361e-6,-1.1596985182312466e-6])` | `(2799,2864,5661)` | `9.144907053837412e-13` |
+| C1 | `2^-81(2536458915435734,4169440302889267,48815343286520659968,-27758779950409080832,-51123157293256335360)` | `e897f33838ce8a27e4edf48739c017a237b0a3902e14c3718c938a44d4faa458` | `[4.201098891031064,4.201098891031893]` | `([0.12606473111896738,0.12606473111933292],[-6.346482695962151e-7,-6.346479587660772e-7],[-2.1415449086723574e-6,-2.141544596960618e-6])` | `(2798,2864,5660)` | `1.4689265359635326e-9` |
+| C2 | `2^-81(3212091951891387,5280048322254731,62441651827721011200,-34201917300633133056,-64188333656542330880)` | `e6c6366a03ef3c048c41f2b3cd11934e93d662034aa117b61978a707860c0f30` | `[4.2011030473267255,4.201103047327554]` | `([0.12607033295718112,0.12607033295754666],[-7.896924884670589e-7,-7.896921774856388e-7],[-2.624545262600234e-6,-2.6245449508910963e-6])` | `(2798,2864,5660)` | `1.4689265359635326e-9` |
+| C3 | `2^-81(4198946998153136,6902244202549751,82344751025395892224,-43613006256824983552,-83271822072157732864)` | `df816aedc2371b44a17a593ea9b00c3930b84444a5d4d2c6cbe62399d46781a8` | `[4.201109113443497,4.2011091134443275]` | `([0.12607851702258188,0.1260785170229476],[-1.0156218616382546e-6,-1.0156215505315728e-6],[-3.3295273093169927e-6,-3.329526997476739e-6])` | `(2800,2861,5659)` | `1.4689265359635326e-9` |
+
+## Strongest audited endpoint and open box
+
+At exact `C3`, the centroid enclosure is
+
+`([0.030010769446360545,-2.417508886851516e-7,-7.925353089884162e-7],[0.030010769446453537,-2.4175081463163987e-7,-7.925352347601816e-7])`,
+
+and minimum oriented tetrahedron determinant is `[6.490693101418989e-10,6.490693126887986e-10]`. All 37,350,724 nonincident H/V pairs are separated; limiting row/triple is `4298/[4262,4263,4297]`.
+
+The box `|p-p_C3|∞≤2^-32` preserves signature, all H/V/E/F/T counts, and has
+
+`V∈[4.201093264472251,4.201124962415624]`,
+
+`Mx∈[0.12607108300670464,0.12608595103895273]`,
+
+`My∈[-5.713117306765865e-6,3.681873915000143e-6]`,
+
+`Mz∈[-8.160539740776058e-6,1.5014853906656295e-6]`,
+
+with minimum incidence gap `1.4689128802203297e-9`. Therefore `Mx>0` throughout and the whole box contains no own-centred body.
+
+Construction-centre interval audit over the box is exactly `(1,1,0)`: stable row 0 lower margin `0.0010381531105900104`, worst non-target face witness upper `-0.0001399543338282882`; unstable triple `[4321,4322,4323]` lower margin `0.3330166967253017`, worst non-target vertex component upper `-0.11400834505000258`; every true edge is nonsaddle, worst four-component upper minimum `-0.11346157600337332`.
+
+At the directed own centroid of the centre sample the exhaustive class is `(2800,2861,5659)`. Minimum positive / closest negative margins are: faces `1.0450297655874295e-8 / -1.678347500957283e-6`; vertices `9.049267375805567e-5 / -2.0830843185106574e-4`; four-component edge cones `1.5654182692559356e-5 / -2.833237342202205e-4`. The independent verifier recomputes the same counts with slightly wider outward enclosures and minimum incidence gap `1.4689044425253426e-9`.
+
+## Complete finite expansion and verification
+
+The archive contains, for every accepted chamber and both rejected root boxes, all 4,324 H rows with activity status, every exact rational vertex and active triple, every maximal-face cycle, every true edge, complete nonincident ledgers, and exhaustive face/vertex/four-component edge-normal-cone ledgers. `endpoint_C3.obj` and `endpoint_C3.stl` are matching watertight 8,644-vertex, 17,284-triangle meshes; every mesh edge has multiplicity two and Euler value is 2.
+
+Run `python verify_all.py`. It regenerates the five fields, rebuilds all six H/V lattices, checks directed mass and meshes, recomputes the exact circuit polynomials and all four 12,966-circuit censuses, checks both strict Krawczyk inclusions and actual `Mx>0` root-box rejections, and independently recomputes the complete `C3` perturbation and own-centroid interval audits. The successful transcript is included.
+
+## Continuation boundary
+
+The first still-unclassified topology is `C3`, signature `df816aedc2371b44a17a593ea9b00c3930b84444a5d4d2c6cbe62399d46781a8`. Its first certified boundary on the continued segment is `(2263, 2298, 2299, 2334)` above. The next valid step is to eliminate `(t0,t1,t2)` from the **C3 actual-cell** moments, isolate any root or root-manifold segment that remains inside C3, and cross that exact wall only if the isolated continuation reaches it. Nothing in this finite result excludes a winner elsewhere in C3, beyond that wall, or in another family component.

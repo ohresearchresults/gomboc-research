@@ -1,0 +1,1497 @@
+{
+  "version": 1,
+  "scope": "U54-priority material straight actual-cell route with residual-null correction",
+  "source": "epoch4_cluster_event3_deep_after.csv",
+  "branch": {
+    "h67": "t",
+    "h910": "beta2"
+  },
+  "base_minimax_displacement": 0.100021211740797,
+  "local_correction_rows": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    54,
+    245,
+    246
+  ],
+  "desired_fractional_changes": {
+    "quad": -0.001,
+    "U54": -0.0142,
+    "H67(1-t)": -0.0005,
+    "H910(t)": -0.013
+  },
+  "achieved_linear_fractional_changes": {
+    "quad": -0.0010000000314074747,
+    "U54": -0.014200000014101953,
+    "H67(1-t)": -0.0004999999803876713,
+    "H910(t)": -0.01299999998697553
+  },
+  "correction_l2": 0.017094501908997226,
+  "correction_max_abs": 0.011974624530572341,
+  "uncontrolled_direction_events": [
+    {
+      "circuit": [
+        69,
+        228,
+        235,
+        236
+      ],
+      "root": 0.1391928848471228
+    },
+    {
+      "circuit": [
+        69,
+        235,
+        236,
+        237
+      ],
+      "root": 0.3156821860008491
+    },
+    {
+      "circuit": [
+        69,
+        228,
+        235,
+        237
+      ],
+      "root": 0.39680078841052707
+    },
+    {
+      "circuit": [
+        198,
+        234,
+        236,
+        237
+      ],
+      "root": 0.5439867231189377
+    }
+  ],
+  "local_support_controls": [
+    {
+      "circuit": [
+        234,
+        235,
+        236,
+        237
+      ],
+      "control_rows": [
+        234,
+        235,
+        236,
+        237
+      ],
+      "root": 0.5531646860845344,
+      "factor": 2.0,
+      "local_columns": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "rank": 4,
+      "nullity": 8,
+      "singular_values": [
+        4.6780181507627405e-05,
+        6.564884109454364e-07,
+        1.8721649704711055e-08,
+        2.0177402966871582e-10
+      ],
+      "projection_norm": 7.429036270761586e-05,
+      "directional_volume_derivative": 2.665265149354133e-10,
+      "requested_volume_shift": -2.381869179359209e-10,
+      "control_l2": 3.2061617315472223e-06,
+      "control_max_abs": 1.8085608031936236e-06,
+      "control_coefficients": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.636026880595381e-06,
+        -1.0547374867463314e-06,
+        -2.414329315324563e-07,
+        -7.555438305350694e-08,
+        2.688256826075897e-07,
+        -6.560068969032261e-07,
+        1.8085608031936236e-06,
+        1.179688983267397e-06,
+        6.820285250130513e-07,
+        4.866150019007411e-07,
+        4.027705526616737e-07,
+        -6.301331954672095e-07,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fractional_residual_leakage": [
+        2.5849394142282115e-26,
+        4.0389678347315804e-28,
+        3.2311742677852644e-27,
+        -3.2311742677852644e-27
+      ],
+      "volume_before": -2.665020475954424e-14,
+      "volume_lifted": -2.378436249571438e-10,
+      "volume_endpoint": -6.902993396625822e-11,
+      "lift_polynomial": {
+        "endpoint_volumes": [
+          -2.665020475954424e-14,
+          -2.378436249571438e-10
+        ],
+        "normalized_power_coefficients": [
+          -0.00011204927087843413,
+          -1.0014435084620055,
+          0.0015555520596969754,
+          5.673186679035062e-09
+        ],
+        "real_roots_in_closed_segment": []
+      },
+      "horizontal_polynomial": {
+        "endpoint_volumes": [
+          -2.378436249571438e-10,
+          -6.902993396625822e-11
+        ],
+        "normalized_power_coefficients": [
+          -1.0000000000000004,
+          0.5014329257674709,
+          0.2069170828381157,
+          0.0014175583044094158
+        ],
+        "real_roots_in_closed_segment": []
+      }
+    },
+    {
+      "circuit": [
+        228,
+        234,
+        235,
+        237
+      ],
+      "control_rows": [
+        228,
+        234,
+        235,
+        237
+      ],
+      "root": 0.7735862885532907,
+      "factor": 2.0,
+      "local_columns": [
+        54,
+        55,
+        56,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        81,
+        82,
+        83
+      ],
+      "rank": 4,
+      "nullity": 8,
+      "singular_values": [
+        0.00017976635382979783,
+        5.806689515553966e-07,
+        1.543784359029205e-08,
+        1.3851542096943432e-10
+      ],
+      "projection_norm": 0.0007082190084570489,
+      "directional_volume_derivative": -1.2810481742741574e-09,
+      "requested_volume_shift": 5.800937433588857e-10,
+      "control_l2": 8.190880736492777e-07,
+      "control_max_abs": 5.822814105341445e-07,
+      "control_coefficients": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0955853845939104e-08,
+        6.215933539692966e-08,
+        3.275172367251473e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.724144809343154e-08,
+        1.945194188704975e-08,
+        -4.818702249996046e-08,
+        1.4098309815512262e-07,
+        5.466806373577594e-07,
+        5.822814105341445e-07,
+        0.0,
+        0.0,
+        0.0,
+        -1.922659908977205e-09,
+        -3.5413352905996136e-08,
+        -5.211616042737231e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fractional_residual_leakage": [
+        0.0,
+        0.0,
+        -4.0389678347315804e-28,
+        -8.077935669463161e-28
+      ],
+      "volume_before": 1.2809647883558986e-13,
+      "volume_lifted": 5.8021883519409e-10,
+      "volume_endpoint": 2.4695400483172635e-10,
+      "lift_polynomial": {
+        "endpoint_volumes": [
+          1.2809647883558986e-13,
+          5.8021883519409e-10
+        ],
+        "normalized_power_coefficients": [
+          0.00022077269999804284,
+          0.9997842443348806,
+          -5.01647472978936e-06,
+          -5.60148245951707e-10
+        ],
+        "real_roots_in_closed_segment": []
+      },
+      "horizontal_polynomial": {
+        "endpoint_volumes": [
+          5.8021883519409e-10,
+          2.4695400483172635e-10
+        ],
+        "normalized_power_coefficients": [
+          1.0000000000000004,
+          -0.4996828239592966,
+          -0.07450605247724047,
+          -0.00018894473654321552
+        ],
+        "real_roots_in_closed_segment": []
+      }
+    }
+  ],
+  "straight_homotopy_events": [
+    {
+      "bracket": [
+        0.0675,
+        0.07
+      ],
+      "candidate_circuits": [
+        [
+          69,
+          236,
+          237,
+          238
+        ]
+      ],
+      "exact_roots": [
+        {
+          "circuit": [
+            69,
+            236,
+            237,
+            238
+          ],
+          "root": 0.06905020256416683,
+          "volume_at_root": 2.655545297815575e-20
+        }
+      ],
+      "removed_faces": [
+        [
+          69,
+          236,
+          237
+        ],
+        [
+          69,
+          237,
+          238
+        ]
+      ],
+      "added_faces": [
+        [
+          69,
+          236,
+          238
+        ],
+        [
+          236,
+          237,
+          238
+        ]
+      ],
+      "right_audit": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.0748506806823599e-09,
+        "inactive_rows": [
+          73
+        ],
+        "base_present": true,
+        "quad_present": true,
+        "u8_retained": true,
+        "all_forced_rails_present": true,
+        "missing_forced_rails": [],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245,
+            246
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "ratios_to_original": {
+          "quad": 0.9798280882762627,
+          "U54": 0.9920554944344182,
+          "H67(1-t)": 0.9781835304688559,
+          "H910(t)": 0.9906911743817154
+        },
+        "ratios_to_epoch5_source": {
+          "quad": 0.9999334085276221,
+          "U54": 0.9990043719191923,
+          "H67(1-t)": 0.999965366898289,
+          "H910(t)": 0.9990905203684263
+        },
+        "hard_valid": true,
+        "structural_valid": true,
+        "four_monotone_from_source": true
+      }
+    },
+    {
+      "bracket": [
+        0.3125,
+        0.315
+      ],
+      "candidate_circuits": [
+        [
+          198,
+          233,
+          234,
+          236
+        ]
+      ],
+      "exact_roots": [
+        {
+          "circuit": [
+            198,
+            233,
+            234,
+            236
+          ],
+          "root": 0.312832372303935,
+          "volume_at_root": -7.502853320824193e-21
+        }
+      ],
+      "removed_faces": [
+        [
+          198,
+          233,
+          234
+        ],
+        [
+          198,
+          234,
+          236
+        ]
+      ],
+      "added_faces": [
+        [
+          198,
+          233,
+          236
+        ],
+        [
+          233,
+          234,
+          236
+        ]
+      ],
+      "right_audit": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 5.173355910326194e-10,
+        "inactive_rows": [
+          73
+        ],
+        "base_present": true,
+        "quad_present": true,
+        "u8_retained": true,
+        "all_forced_rails_present": true,
+        "missing_forced_rails": [],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245,
+            246
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "ratios_to_original": {
+          "quad": 0.9796525744866791,
+          "U54": 0.9885705001206446,
+          "H67(1-t)": 0.9780705782947866,
+          "H910(t)": 0.9875428750268008
+        },
+        "ratios_to_epoch5_source": {
+          "quad": 0.9997542933298015,
+          "U54": 0.9954949668757191,
+          "H67(1-t)": 0.9998498995461338,
+          "H910(t)": 0.9959155288855959
+        },
+        "hard_valid": true,
+        "structural_valid": true,
+        "four_monotone_from_source": true
+      }
+    },
+    {
+      "bracket": [
+        0.5750000000000001,
+        0.5775
+      ],
+      "candidate_circuits": [
+        [
+          198,
+          233,
+          234,
+          236
+        ]
+      ],
+      "exact_roots": [
+        {
+          "circuit": [
+            198,
+            233,
+            234,
+            236
+          ],
+          "root": 0.5759977681009207,
+          "volume_at_root": 1.5222343189210135e-20
+        }
+      ],
+      "removed_faces": [
+        [
+          198,
+          233,
+          236
+        ],
+        [
+          233,
+          234,
+          236
+        ]
+      ],
+      "added_faces": [
+        [
+          198,
+          233,
+          234
+        ],
+        [
+          198,
+          234,
+          236
+        ]
+      ],
+      "right_audit": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 4.0246736499049973e-10,
+        "inactive_rows": [
+          73
+        ],
+        "base_present": true,
+        "quad_present": true,
+        "u8_retained": true,
+        "all_forced_rails_present": true,
+        "missing_forced_rails": [],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245,
+            246
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "ratios_to_original": {
+          "quad": 0.9795554544064542,
+          "U54": 0.9847939173517347,
+          "H67(1-t)": 0.9779591595391747,
+          "H910(t)": 0.9841835961337462
+        },
+        "ratios_to_epoch5_source": {
+          "quad": 0.9996551804200802,
+          "U54": 0.9916919309384942,
+          "H67(1-t)": 0.9997359997580425,
+          "H910(t)": 0.9925277691234083
+        },
+        "hard_valid": true,
+        "structural_valid": true,
+        "four_monotone_from_source": true
+      }
+    },
+    {
+      "bracket": [
+        0.6425,
+        0.645
+      ],
+      "candidate_circuits": [
+        [
+          69,
+          236,
+          237,
+          238
+        ]
+      ],
+      "exact_roots": [
+        {
+          "circuit": [
+            69,
+            236,
+            237,
+            238
+          ],
+          "root": 0.6425669677506156,
+          "volume_at_root": -2.0146208838902582e-20
+        }
+      ],
+      "removed_faces": [
+        [
+          69,
+          236,
+          238
+        ],
+        [
+          236,
+          237,
+          238
+        ]
+      ],
+      "added_faces": [
+        [
+          69,
+          236,
+          237
+        ],
+        [
+          69,
+          237,
+          238
+        ]
+      ],
+      "right_audit": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 3.5774297413304623e-09,
+        "inactive_rows": [
+          73
+        ],
+        "base_present": true,
+        "quad_present": true,
+        "u8_retained": true,
+        "all_forced_rails_present": true,
+        "missing_forced_rails": [],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245,
+            246
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "ratios_to_original": {
+          "quad": 0.9795456299868316,
+          "U54": 0.9838156112751146,
+          "H67(1-t)": 0.9779320970253111,
+          "H910(t)": 0.9833220866116579
+        },
+        "ratios_to_epoch5_source": {
+          "quad": 0.9996451544109082,
+          "U54": 0.9907067722925298,
+          "H67(1-t)": 0.9997083346259258,
+          "H910(t)": 0.9916589554920942
+        },
+        "hard_valid": true,
+        "structural_valid": true,
+        "four_monotone_from_source": true
+      }
+    },
+    {
+      "bracket": [
+        0.725,
+        0.7275
+      ],
+      "candidate_circuits": [
+        [
+          69,
+          238,
+          239,
+          256
+        ]
+      ],
+      "exact_roots": [
+        {
+          "circuit": [
+            69,
+            238,
+            239,
+            256
+          ],
+          "root": 0.7263644798703022,
+          "volume_at_root": 3.8288294786274246e-20
+        }
+      ],
+      "removed_faces": [
+        [
+          69,
+          238,
+          256
+        ],
+        [
+          238,
+          239,
+          256
+        ]
+      ],
+      "added_faces": [
+        [
+          69,
+          238,
+          239
+        ],
+        [
+          69,
+          239,
+          256
+        ]
+      ],
+      "right_audit": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 7.941412250023205e-10,
+        "inactive_rows": [
+          73
+        ],
+        "base_present": true,
+        "quad_present": true,
+        "u8_retained": true,
+        "all_forced_rails_present": true,
+        "missing_forced_rails": [],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245,
+            246
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "ratios_to_original": {
+          "quad": 0.9795420170843037,
+          "U54": 0.9826158915194156,
+          "H67(1-t)": 0.9778998959851539,
+          "H910(t)": 0.9822704036360286
+        },
+        "ratios_to_epoch5_source": {
+          "quad": 0.9996414673743936,
+          "U54": 0.9894986490698421,
+          "H67(1-t)": 0.9996754165446738,
+          "H910(t)": 0.990598356065598
+        },
+        "hard_valid": true,
+        "structural_valid": true,
+        "four_monotone_from_source": true
+      }
+    },
+    {
+      "bracket": [
+        0.965,
+        0.9675
+      ],
+      "candidate_circuits": [
+        [
+          69,
+          228,
+          236,
+          237
+        ]
+      ],
+      "exact_roots": [
+        {
+          "circuit": [
+            69,
+            228,
+            236,
+            237
+          ],
+          "root": 0.9662326368972289,
+          "volume_at_root": 8.804959535773924e-21
+        }
+      ],
+      "removed_faces": [
+        [
+          69,
+          228,
+          236
+        ],
+        [
+          69,
+          236,
+          237
+        ]
+      ],
+      "added_faces": [
+        [
+          69,
+          228,
+          237
+        ],
+        [
+          228,
+          236,
+          237
+        ]
+      ],
+      "right_audit": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 2.8721914846485674e-09,
+        "inactive_rows": [
+          73
+        ],
+        "base_present": true,
+        "quad_present": true,
+        "u8_retained": true,
+        "all_forced_rails_present": true,
+        "missing_forced_rails": [],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245,
+            246
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "ratios_to_original": {
+          "quad": 0.9795838860964722,
+          "U54": 0.9791005785923744,
+          "H67(1-t)": 0.9778116549823828,
+          "H910(t)": 0.9792188811698259
+        },
+        "ratios_to_epoch5_source": {
+          "quad": 0.999684195506553,
+          "U54": 0.9859587130456176,
+          "H67(1-t)": 0.9995852106232256,
+          "H910(t)": 0.9875209619719469
+        },
+        "hard_valid": true,
+        "structural_valid": true,
+        "four_monotone_from_source": true
+      }
+    }
+  ],
+  "first_exact_event": {
+    "circuit": [
+      69,
+      236,
+      237,
+      238
+    ],
+    "root": 0.06905020256416683,
+    "epsilon": 1e-05,
+    "volume_at_root": 2.655545297815575e-20,
+    "csv": {
+      "before": "u54_material_actual_event1_before.csv",
+      "at": "u54_material_actual_event1_at.csv",
+      "after": "u54_material_actual_event1_after.csv"
+    },
+    "audits": {
+      "before": {
+        "valid": false,
+        "error": "RuntimeError(\"ValueError('parallel face normals')\")"
+      },
+      "at": {
+        "f_vector": [
+          60,
+          157,
+          99
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.4139962034587228e-08,
+        "inactive_rows": [
+          73
+        ],
+        "base_present": true,
+        "quad_present": true,
+        "u8_retained": true,
+        "all_forced_rails_present": true,
+        "missing_forced_rails": [],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245,
+            246
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "ratios_to_original": {
+          "quad": 0.9798289286577248,
+          "U54": 0.9920689304670549,
+          "H67(1-t)": 0.9781839853522506,
+          "H910(t)": 0.9907034040195524
+        },
+        "ratios_to_epoch5_source": {
+          "quad": 0.9999342661530668,
+          "U54": 0.9990179020648551,
+          "H67(1-t)": 0.9999658319108624,
+          "H910(t)": 0.999102853692419
+        },
+        "hard_valid": false,
+        "structural_valid": true,
+        "four_monotone_from_source": true
+      },
+      "after": {
+        "f_vector": [
+          60,
+          158,
+          100
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "topology_margin": 1.1335099525666692e-11,
+        "inactive_rows": [
+          73
+        ],
+        "base_present": true,
+        "quad_present": true,
+        "u8_retained": true,
+        "all_forced_rails_present": true,
+        "missing_forced_rails": [],
+        "stable_faces": [
+          [
+            7,
+            8,
+            245,
+            246
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            54
+          ]
+        ],
+        "ratios_to_original": {
+          "quad": 0.9798289198032788,
+          "U54": 0.9920687890073714,
+          "H67(1-t)": 0.9781839805622963,
+          "H910(t)": 0.9907032752580766
+        },
+        "ratios_to_epoch5_source": {
+          "quad": 0.9999342571169344,
+          "U54": 0.9990177596143137,
+          "H67(1-t)": 0.9999658270142472,
+          "H910(t)": 0.9991027238392689
+        },
+        "hard_valid": true,
+        "structural_valid": true,
+        "four_monotone_from_source": true
+      }
+    },
+    "local_faces": {
+      "before": [],
+      "at": [
+        [
+          69,
+          236,
+          237,
+          238
+        ]
+      ],
+      "after": [
+        [
+          69,
+          236,
+          238
+        ],
+        [
+          236,
+          237,
+          238
+        ]
+      ]
+    },
+    "both_adjacent_cells_structural_valid": false
+  },
+  "thin_band_evaluation_failures": [],
+  "noncell_band_samples": [],
+  "structural_failures": [],
+  "sampled_path_structural_valid": true,
+  "sampled_path_four_monotone": true,
+  "endpoint": {
+    "csv": "u54_material_actual_endpoint.csv",
+    "face_lattice_changed_from_source": true,
+    "audit": {
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "topology_margin": 1.7304509269955304e-08,
+      "inactive_rows": [
+        73
+      ],
+      "base_present": true,
+      "quad_present": true,
+      "u8_retained": true,
+      "all_forced_rails_present": true,
+      "missing_forced_rails": [],
+      "stable_faces": [
+        [
+          7,
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "ratios_to_original": {
+        "quad": 0.9795955361864916,
+        "U54": 0.9786216480599115,
+        "H67(1-t)": 0.9778003233647179,
+        "H910(t)": 0.9788065557342532
+      },
+      "ratios_to_epoch5_source": {
+        "quad": 0.9996960846474771,
+        "U54": 0.98547642783228,
+        "H67(1-t)": 0.9995736266772044,
+        "H910(t)": 0.9871051407305349
+      },
+      "hard_valid": true,
+      "structural_valid": true,
+      "four_monotone_from_source": true
+    }
+  },
+  "material_worst_ratio_below_0_98": true,
+  "conclusion": "material actual-cell direction exists"
+}

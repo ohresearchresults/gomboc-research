@@ -1,0 +1,106 @@
+{
+  "schema": "polyhedral-goemboc.exactification.material-step-receipt/v3",
+  "version": 3,
+  "type": "independent clean-room verification of exactified rail-bypass step",
+  "verdict": "INDEPENDENT_EXACT_LOCAL_OCT_RAIL255256_FULL_CONTROL_MATERIAL_STEP_PASS",
+  "certificate_file": "tracks/local_oct_cell_search/clean_flip_topology_escape/far_residual_attack/rail_bypass_255256/exactification2/hardened_step02_material_certificate.json",
+  "certificate_sha256": "0dfafecc12303349c9f83456fc234ade9829ae678c88d5d1185dd1a2744d7230",
+  "source_file": "tracks/local_oct_cell_search/clean_flip_topology_escape/far_residual_attack/rail_bypass_255256/exactification2/hardened_step01_material_endpoint.csv",
+  "source_sha256": "5a8a0f3959f3ac3a8178e0530601de9d3b04e29d5a88eca6fca56d97575241a9",
+  "path_definition_file": "tracks/local_oct_cell_search/clean_flip_topology_escape/far_residual_attack/rail_bypass_255256/exactification2/hardened_step02_certified_path.json",
+  "path_definition_sha256": "5d1252edd3906065283685f0035d5b23a3d105494e29c96a7b94c464df4d1a89",
+  "endpoint_file": "tracks/local_oct_cell_search/clean_flip_topology_escape/far_residual_attack/rail_bypass_255256/exactification2/hardened_step02_material_endpoint.csv",
+  "endpoint_sha256": "98afb98c71ba2db71ba88a13523965d8bd7ab0444af1e19a61b4702035ea2b2f",
+  "verifier_script_sha256": "b418b537087e0464a1fcb4d500fec38f1bd4e8a9e8b731645b86b1a003e23407",
+  "clean_exact_module_sha256": "5498478e54cc26f94ad61888113f0e1af90ba400048614933499559676b6c4ac",
+  "independent_candidate_max_abs_error": null,
+  "independent_velocity_digest": "06f614a25cb755a6da8b2aff6f42f0303c7b3ba6401df29b0f013772abf06a2e",
+  "fresh_source_hull": {
+    "qhull_triangle_count": 118,
+    "exact_maximal_face_count": 103,
+    "exact_true_edge_count": 162,
+    "active_row_count": 61,
+    "euler": 2,
+    "all_qhull_planes_exactly_supporting": true,
+    "all_coplanar_sets_merged": true
+  },
+  "fresh_endpoint_hull": {
+    "qhull_triangle_count": 118,
+    "exact_maximal_face_count": 103,
+    "exact_true_edge_count": 162,
+    "active_row_count": 61,
+    "euler": 2,
+    "all_qhull_planes_exactly_supporting": true,
+    "all_coplanar_sets_merged": true
+  },
+  "complete_interval_audit": {
+    "lo": "0",
+    "hi": "1/4096",
+    "primitive_count": 7904,
+    "family_counts": {
+      "mechanics_denominator": 325,
+      "support": 5959,
+      "face_component": 324,
+      "vertex_component": 324,
+      "edge_component": 972
+    },
+    "sign_counts": {
+      "positive": 1389,
+      "negative": 6515
+    },
+    "bernstein_leaf_count": 7904,
+    "minimum_bernstein_log10_abs": -39.70403416112276,
+    "primitive_digest": "bba4f5a351037d4ca5354a2e729c2d8fd6495e58822114c8fb9072dcc847eab2"
+  },
+  "source_exact_centroid_digest": "b09c04304a17ff726f9e2f0b2c82cafbb71520a9c338929be86c5a179f150f02",
+  "endpoint_exact_centroid_digest": "a4fcc47e597d01f45563964159377f6b465621053d385828c4310001c628fa12",
+  "endpoint_class": [
+    2,
+    2,
+    2
+  ],
+  "endpoint_f_vector": [
+    61,
+    162,
+    103
+  ],
+  "active_row_count": 61,
+  "forced_rail_count": 37,
+  "missing_forced_rails": [],
+  "target_residual_component_count": 14,
+  "active_residual_count": 4,
+  "circuit_determinant": {
+    "degree": 3,
+    "polynomial_digest": "439f8654458fd026941c453c0ebaa1e8e568e8450cae05a1ec73f9719b8cb42f",
+    "source_value": "1006794602749630947672350262173445053056905714830645976412555028260287225311328767521444128152392250409245317260831224006368208461741695281299015043586634155497323084938658995728518576597563751612515259279389843024377593959086369716927339890055676725333367012986267358061143435921379975083387766965152339693360147366629607566627326318603623662374596550099981553846166048665201042061840436842024047482854218909567750038194245804861589693193724581497946156063516686966225528048700335726225680914062368910759798391027854671471145182165529387267982313962657055640737704147375709351370402967484891615406942975634183555477003517927726224637537903765437515191/4377234262411589133618926802654472626392656271159076480443552664927113075146993377262199242710491571733528598162884115369698291631108602807491185224673947505875841918331502304799534271263231787413538430167377580978543733505515718959662546325769127698774398970262470719364495576368596531683188871724425274016139592252476581248109580850595419254510957022465847814703576338249662885983290490284347589609864057259063406254442287110502393351223725233659532152316055273326574223086317303286221950472740088792790335868902828788712591575903699543851494103758175541794322197404790260538784192700060218163200000000000000000000000000000000000000000000000000000000000000000000",
+    "endpoint_value": "251698658170881256363616512077637611583039474742172107853351595838261387259260932033597101049318933944105083693869158463506537505511296326927115532787152244354128469647317526278052577588859447150385126613810774716740773901304467474988119579714884284896407831961634298880788400903168502272729129310769513457608727021288133700653476577130220418128339493806852944939699593159254656942332176393556935326688925749915991291073218479370129475203397101428357031095728897401308304541275063684037300913759029577989669734669620872481228073726057928025366006631842514083172335664024041283216099396876139090846362711383881896372097613572272809406816446038850859231/1094308565602897283404731700663618156598164067789769120110888166231778268786748344315549810677622892933382149540721028842424572907777150701872796306168486876468960479582875576199883567815807946853384607541844395244635933376378929739915636581442281924693599742565617679841123894092149132920797217931106318504034898063119145312027395212648854813627739255616461953675894084562415721495822622571086897402466014314765851563610571777625598337805931308414883038079013818331643555771579325821555487618185022198197583967225707197178147893975924885962873525939543885448580549351197565134696048175015054540800000000000000000000000000000000000000000000000000000000000000000000",
+    "positive_sign": 1,
+    "positive_bernstein_leaves": 1,
+    "derivative_sign": 1,
+    "derivative_bernstein_leaves": 1
+  },
+  "open_neighborhood_reconstructed": true,
+  "winner": false,
+  "producer_trust": {
+    "schema": "polyhedral-goemboc.exactification.local-trust/v2",
+    "version": 2,
+    "role": "verifier",
+    "anchor": {
+      "file": "tracks/local_oct_cell_search/clean_flip_topology_escape/far_residual_attack/rail_bypass_255256/exactification2/exactification_provenance.py",
+      "sha256": "91171aae8fbba4362d5a270fee8d7a3363fcb0c8be859283dc00382bb7571d3d"
+    },
+    "entrypoint": {
+      "file": "tracks/local_oct_cell_search/clean_flip_topology_escape/far_residual_attack/rail_bypass_255256/exactification2/verify_exactification_certificate.py",
+      "sha256": "b418b537087e0464a1fcb4d500fec38f1bd4e8a9e8b731645b86b1a003e23407"
+    },
+    "dependencies": {
+      "clean_local_oct_exact": {
+        "file": "tracks/local_oct_cell_search/clean_flip_topology_escape/far_residual_attack/verify_exact_event_certificate.py",
+        "sha256": "5498478e54cc26f94ad61888113f0e1af90ba400048614933499559676b6c4ac"
+      }
+    },
+    "closure_sha256": "75e8235f5ca1e0e08efb16d4a2e8dc542ba0f946e20fc3751e0ad9464f2d240c",
+    "pinset_sha256": "55aad011d6e7ad62b2dbe380c596d7c6bca20f89b8a1dc1d2cd756171f9a4d16",
+    "trust_boundary": "Read-once local byte snapshots rooted in exactification_provenance.py pin the complete transitive local executable closure for each role. Dependencies are compiled and executed from the same bytes that are hashed. The mutable workspace must remain quiescent for the process lifetime; metadata checks detect ordinary concurrent replacement. This is not a signature against coordinated replacement of the helper, callers, pins, and artifacts in the whole mutable workspace."
+  }
+}

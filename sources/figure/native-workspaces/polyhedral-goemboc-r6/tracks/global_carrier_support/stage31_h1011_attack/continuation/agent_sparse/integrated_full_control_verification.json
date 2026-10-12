@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "source_certificate": "tracks/global_carrier_support/stage31_h1011_attack/continuation/main/exact_full_control_chain_certificate.json",
+  "source_certificate_sha256": "5cedb116b124cafb7346ca9110bd40ad01c5b10f15fb46cf4d219930850b8117",
+  "independent_reconstruction": {
+    "pre_primitive_count": 7904,
+    "post_primitive_count": 7904,
+    "event_count": 4,
+    "event_decimal_intervals": [
+      [
+        0.6304878300386273,
+        0.6304878300386273
+      ],
+      [
+        0.6306469498254694,
+        0.6306469498254694
+      ],
+      [
+        0.6307902358341029,
+        0.6307902358341029
+      ],
+      [
+        1.8448744265342492,
+        1.8448744265342492
+      ]
+    ],
+    "far_parameter": "2339804147633793970928634166103/1267650600228229401496703205376",
+    "far_class": [
+      2,
+      2,
+      2
+    ],
+    "forced_rails": 37,
+    "h910_strictly_dead": true,
+    "far_decisions": {
+      "S": 0.00010977891260888583,
+      "U54": 0.0014687707610462019,
+      "H56": 0.0011975249033894472,
+      "H1011": 4.49741035468303e-07
+    }
+  },
+  "verdict": "INDEPENDENT_INTEGRATED_EXACT_FULL_CONTROL_CHAIN_PASS"
+}

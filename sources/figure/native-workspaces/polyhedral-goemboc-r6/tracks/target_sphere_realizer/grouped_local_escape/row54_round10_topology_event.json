@@ -1,0 +1,2715 @@
+{
+  "version": 1,
+  "method": "double-topology-tangent 27D LP and independent quad root",
+  "source": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/target_sphere_realizer/grouped_local_escape/row54_combined_hard_slp_round10_double_tangent_best.csv",
+  "protected_quads": [
+    [
+      7,
+      8,
+      245,
+      246
+    ],
+    [
+      9,
+      198,
+      263,
+      264
+    ]
+  ],
+  "event_quad": [
+    8,
+    264,
+    246,
+    198
+  ],
+  "lp_predicted_hard": -0.00024117440164402886,
+  "direction": [
+    -1.767132558042823e-06,
+    -0.0001,
+    3.342678984035812e-05,
+    0.0001,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    0.0001,
+    0.0001,
+    -0.0001,
+    -8.771838114705266e-05,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    2.9108720744586717e-05,
+    0.0001,
+    0.0001,
+    -0.0001,
+    5.4964308696684227e-05,
+    -0.0001,
+    0.0001,
+    -0.0001,
+    -0.0001,
+    0.0001
+  ],
+  "protected_quad_derivatives": [
+    -5.17486875810925e-15,
+    -6.221888091600003e-14
+  ],
+  "source_event_oriented_volume": -1.5291498332869503e-13,
+  "root_alpha": 5.795993135803922e-06,
+  "oriented_volume_at_root": 2.99002630380768e-19,
+  "wall_projection_correction": 2.2283148796545095e-16,
+  "far_alpha": 1.202645938761516e-05,
+  "removed_faces": [
+    [
+      8,
+      246,
+      264
+    ],
+    [
+      198,
+      246,
+      264
+    ]
+  ],
+  "added_faces": [
+    [
+      8,
+      198,
+      246
+    ],
+    [
+      8,
+      198,
+      264
+    ]
+  ],
+  "audits": {
+    "pre": {
+      "name": "pre",
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5770300781121407,
+          0.006048278160121848,
+          0.8772825149178834
+        ],
+        "topology_margin": 3.2585868715111767e-12,
+        "inactive_margin": Infinity
+      },
+      "hard_margin": -0.00024219632952808662,
+      "guard_ledger": {
+        "('U-', 54)": -0.00024219632952808662,
+        "('H-', (6, 7))": -0.0002414615216259981,
+        "('S-', (7, 8, 245))": -0.00021195397919887047,
+        "('H-', (198, 263))": -7.841852411905048e-05,
+        "('U-', 263)": 8.991128531205492e-08,
+        "('H-', (10, 263))": 1.9526560368632317e-09,
+        "('U-', 1)": 7.290371361195384e-07,
+        "('H-', (1, 54))": 0.003019196129840128
+      },
+      "base_face_present": true,
+      "U8_present": true,
+      "rails": {
+        "short_literal": {
+          "all_edges_present": true,
+          "positive_dot_min": -0.29893524365856977,
+          "directed_support_min": -1.140332338959992
+        },
+        "long_literal": {
+          "all_edges_present": true,
+          "positive_dot_min": 0.000377670610577079,
+          "directed_support_min": -0.8353439812714991
+        },
+        "alternate_positive_dot": {
+          "all_edges_present": true,
+          "positive_dot_min": 0.0004231785951411927,
+          "directed_support_min": -1.1728092594057906
+        }
+      },
+      "old_quad_far_guard": 7.851204333098606e-12,
+      "round8_quad_pre_guard": 9.999966150811094e-11,
+      "event_oriented_volume": -1.5291498332869503e-13
+    },
+    "wall": {
+      "name": "wall",
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5770300783161666,
+          0.0060482783297878895,
+          0.8772825163224331
+        ],
+        "topology_margin": 6.770942474667346e-11,
+        "inactive_margin": Infinity
+      },
+      "hard_margin": -0.00024219632417741698,
+      "guard_ledger": {
+        "('U-', 54)": -0.00024219632417741698,
+        "('H-', (6, 7))": -0.00024146151995824082,
+        "('S-', (7, 8, 245))": -0.00021195397898529568,
+        "('H-', (198, 263))": -7.841852369017133e-05,
+        "('U-', 263)": 8.991106172605656e-08,
+        "('H-', (10, 263))": 1.9526511518819234e-09,
+        "('U-', 1)": 7.290334829080528e-07,
+        "('H-', (1, 54))": 0.0030191810218465156
+      },
+      "base_face_present": true,
+      "U8_present": true,
+      "rails": {
+        "short_literal": {
+          "all_edges_present": true,
+          "positive_dot_min": -0.2989352444707874,
+          "directed_support_min": -1.1403323417487956
+        },
+        "long_literal": {
+          "all_edges_present": true,
+          "positive_dot_min": 0.00037767060961714966,
+          "directed_support_min": -0.8353439833236054
+        },
+        "alternate_positive_dot": {
+          "all_edges_present": true,
+          "positive_dot_min": 0.0004231785940613725,
+          "directed_support_min": -1.172809262255412
+        }
+      },
+      "old_quad_far_guard": 7.851203812051751e-12,
+      "round8_quad_pre_guard": 9.999966258321218e-11,
+      "event_oriented_volume": -6.77965170982342e-18
+    },
+    "far": {
+      "name": "far",
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5770300785547021,
+          0.006048278512039521,
+          0.8772825178628099
+        ],
+        "topology_margin": 3.5877146808310814e-12,
+        "inactive_margin": Infinity
+      },
+      "hard_margin": -0.00024219631714826858,
+      "guard_ledger": {
+        "('U-', 54)": -0.00024219631714826858,
+        "('H-', (6, 7))": -0.00024146153810981292,
+        "('S-', (7, 8, 245))": -0.00021195397982247491,
+        "('H-', (198, 263))": -7.841848991441136e-05,
+        "('U-', 263)": 8.832242200171728e-08,
+        "('H-', (10, 263))": 1.918149861168672e-09,
+        "('U-', 1)": 7.290282825555407e-07,
+        "('H-', (1, 54))": 0.0030191595082447245
+      },
+      "base_face_present": true,
+      "U8_present": true,
+      "rails": {
+        "short_literal": {
+          "all_edges_present": true,
+          "positive_dot_min": -0.2989352454530728,
+          "directed_support_min": -1.1403323447813871
+        },
+        "long_literal": {
+          "all_edges_present": true,
+          "positive_dot_min": 0.000377670576173813,
+          "directed_support_min": -0.8353439855625195
+        },
+        "alternate_positive_dot": {
+          "all_edges_present": true,
+          "positive_dot_min": 0.000423178502667333,
+          "directed_support_min": -1.1728092653577182
+        }
+      },
+      "old_quad_far_guard": 7.851204339011458e-12,
+      "round8_quad_pre_guard": 9.999966135666447e-11,
+      "event_oriented_volume": 1.6437289795609173e-13
+    }
+  },
+  "scan": [
+    {
+      "alpha": 1e-12,
+      "event_oriented_volume": -1.5291514511198796e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588651431282664e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.1220184543019652e-12,
+      "event_oriented_volume": -1.5291512393616428e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258902580093706e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.258925411794166e-12,
+      "event_oriented_volume": -1.5291477495859e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258986002622977e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.4125375446227555e-12,
+      "event_oriented_volume": -1.529148088399079e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588338965271896e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.5848931924611108e-12,
+      "event_oriented_volume": -1.5291621745569918e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588778186362397e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.7782794100389228e-12,
+      "event_oriented_volume": -1.52916380933058e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258578912471279e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.9952623149688827e-12,
+      "event_oriented_volume": -1.5291923712815614e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258617528553731e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.238721138568338e-12,
+      "event_oriented_volume": -1.5291558556912053e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258748705322383e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.5118864315095823e-12,
+      "event_oriented_volume": -1.5291477919375475e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588845985591295e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.8183829312644492e-12,
+      "event_oriented_volume": -1.529173380802884e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258932352798489e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.1622776601683794e-12,
+      "event_oriented_volume": -1.5291461571639593e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258929405005938e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.5481338923357604e-12,
+      "event_oriented_volume": -1.529148859199061e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588860724553923e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.9810717055349695e-12,
+      "event_oriented_volume": -1.5291527216693005e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.259139287835783e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 4.466835921509635e-12,
+      "event_oriented_volume": -1.5291573634098514e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.259018723120326e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.011872336272715e-12,
+      "event_oriented_volume": -1.52913281639504e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.25880707161495e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.6234132519034904e-12,
+      "event_oriented_volume": -1.5291447510892668e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258680021755883e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 6.309573444801943e-12,
+      "event_oriented_volume": -1.5291590151240986e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588580684261394e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.079457843841373e-12,
+      "event_oriented_volume": -1.5291447256782784e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.259165817968771e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.943282347242821e-12,
+      "event_oriented_volume": -1.5291616493965645e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258438302766447e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 8.912509381337441e-12,
+      "event_oriented_volume": -1.5292038231670083e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258881355987288e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1e-11,
+      "event_oriented_volume": -1.5291732706886009e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258715395266506e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.1220184543019653e-11,
+      "event_oriented_volume": -1.529155220416495e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.259238038886317e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.2589254117941662e-11,
+      "event_oriented_volume": -1.5291777853742097e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.25850492287815e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.4125375446227554e-11,
+      "event_oriented_volume": -1.5291922272859604e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.259239218003342e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.5848931924611107e-11,
+      "event_oriented_volume": -1.5291471312518486e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2586499542718156e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.7782794100389227e-11,
+      "event_oriented_volume": -1.5291394571333465e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2586691149234156e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.9952623149688828e-11,
+      "event_oriented_volume": -1.529133587195022e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258788795301112e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.2387211385683377e-11,
+      "event_oriented_volume": -1.5291290216874363e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2587619703888616e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.5118864315095823e-11,
+      "event_oriented_volume": -1.5290898972356026e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588238740325015e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.8183829312644493e-11,
+      "event_oriented_volume": -1.5291370769707647e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2586057373834923e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.1622776601683794e-11,
+      "event_oriented_volume": -1.52916445307562e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.25867618962554e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.548133892335761e-11,
+      "event_oriented_volume": -1.5291336295466694e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588070716149405e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.9810717055349695e-11,
+      "event_oriented_volume": -1.5290757856667014e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258655849856922e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 4.4668359215096346e-11,
+      "event_oriented_volume": -1.5291076086945297e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2585075758914485e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.011872336272715e-11,
+      "event_oriented_volume": -1.529107219059374e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2586882755749902e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.6234132519034906e-11,
+      "event_oriented_volume": -1.5291371108520826e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2589756853489962e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 6.309573444801942e-11,
+      "event_oriented_volume": -1.5291733130402482e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2586537864020957e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.079457843841373e-11,
+      "event_oriented_volume": -1.5291809871587504e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588053029393657e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.943282347242822e-11,
+      "event_oriented_volume": -1.5291297755467594e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2589765696867483e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 8.912509381337441e-11,
+      "event_oriented_volume": -1.5291580833878566e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2592427553543568e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1e-10,
+      "event_oriented_volume": -1.5291268532830913e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2588147358755225e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.1220184543019652e-10,
+      "event_oriented_volume": -1.5291380764696424e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2587410410616645e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.2589254117941662e-10,
+      "event_oriented_volume": -1.52916380933058e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2587590225962333e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.4125375446227553e-10,
+      "event_oriented_volume": -1.5291264212962882e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258964778516493e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.584893192461111e-10,
+      "event_oriented_volume": -1.5291198652612765e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258628140606814e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.778279410038923e-10,
+      "event_oriented_volume": -1.529114012263611e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2586092747344495e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.9952623149688828e-10,
+      "event_oriented_volume": -1.5290753621502277e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2585594570402847e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.2387211385683377e-10,
+      "event_oriented_volume": -1.5291081592659454e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258693581601467e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.511886431509582e-10,
+      "event_oriented_volume": -1.5290776830205032e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258757548699875e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.818382931264449e-10,
+      "event_oriented_volume": -1.5291457251771562e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2585792072503318e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.1622776601683795e-10,
+      "event_oriented_volume": -1.5290313672589474e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2587566643620658e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.5481338923357605e-10,
+      "event_oriented_volume": -1.5289999677475926e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258440661000262e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.9810717055349694e-10,
+      "event_oriented_volume": -1.5290361614654288e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2589031696519356e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 4.4668359215096347e-10,
+      "event_oriented_volume": -1.5289979602795076e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2586555550773837e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.011872336272714e-10,
+      "event_oriented_volume": -1.5290304863446822e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258796754340669e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.623413251903491e-10,
+      "event_oriented_volume": -1.5290448096718203e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2587941013273216e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 6.309573444801942e-10,
+      "event_oriented_volume": -1.5289911755456001e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258421205569203e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.079457843841373e-10,
+      "event_oriented_volume": -1.528981205967811e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2584645381196964e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.943282347242822e-10,
+      "event_oriented_volume": -1.5288862451040943e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2584436087925014e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 8.912509381337441e-10,
+      "event_oriented_volume": -1.5289167382901954e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258315085037075e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1e-09,
+      "event_oriented_volume": -1.5288962146818835e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2582251773641205e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.1220184543019653e-09,
+      "event_oriented_volume": -1.5287933255897805e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2579984921166384e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.2589254117941663e-09,
+      "event_oriented_volume": -1.5287665678189767e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2581768335660485e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.4125375446227555e-09,
+      "event_oriented_volume": -1.5287426476085463e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2580603957600594e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.584893192461111e-09,
+      "event_oriented_volume": -1.5287633321531182e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.257938651927461e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.7782794100389228e-09,
+      "event_oriented_volume": -1.528671784832179e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.258219871336984e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.9952623149688828e-09,
+      "event_oriented_volume": -1.5285806440870544e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.25756723006538e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.2387211385683377e-09,
+      "event_oriented_volume": -1.5284986089461128e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2575177071503014e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.511886431509582e-09,
+      "event_oriented_volume": -1.5284626100458545e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.257409228384124e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.8183829312644493e-09,
+      "event_oriented_volume": -1.5283679879953167e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2565587902321082e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.1622776601683795e-09,
+      "event_oriented_volume": -1.528327050892976e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2570976467107185e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.5481338923357603e-09,
+      "event_oriented_volume": -1.5281243897900159e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.256370426287414e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.981071705534969e-09,
+      "event_oriented_volume": -1.5280681383319887e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2564016728881755e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 4.466835921509635e-09,
+      "event_oriented_volume": -1.527978894940666e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.256285529861201e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.011872336272715e-09,
+      "event_oriented_volume": -1.5277739637894073e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2559833811240365e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.623413251903491e-09,
+      "event_oriented_volume": -1.5277078613382036e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2562015177726062e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 6.309573444801943e-09,
+      "event_oriented_volume": -1.5275206501162014e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2557384195618997e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.0794578438413736e-09,
+      "event_oriented_volume": -1.5272623643595952e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2547830399946557e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.943282347242822e-09,
+      "event_oriented_volume": -1.5269922032010684e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.254039017153443e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 8.912509381337441e-09,
+      "event_oriented_volume": -1.5267553304373687e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.253843578506443e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1e-08,
+      "event_oriented_volume": -1.5264401748886838e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.253168828790094e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.122018454301963e-08,
+      "event_oriented_volume": -1.5261609758886099e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.252532105597586e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.2589254117941687e-08,
+      "event_oriented_volume": -1.5257956336378001e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2514455492612587e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.4125375446227554e-08,
+      "event_oriented_volume": -1.5254565409380258e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2509588687095316e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.584893192461114e-08,
+      "event_oriented_volume": -1.5249749434152055e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.250223689245385e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.7782794100389228e-08,
+      "event_oriented_volume": -1.5244662323677435e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2489481794059625e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.9952623149688786e-08,
+      "event_oriented_volume": -1.5238723436871056e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2475871835823073e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.2387211385683424e-08,
+      "event_oriented_volume": -1.523221780031967e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.245891613303614e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.511886431509582e-08,
+      "event_oriented_volume": -1.5225637455462335e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2449288642535903e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 2.818382931264455e-08,
+      "event_oriented_volume": -1.521637193145891e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2427690166472257e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.162277660168379e-08,
+      "event_oriented_volume": -1.5207696450606541e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2409649676018283e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.548133892335753e-08,
+      "event_oriented_volume": -1.5197488941262475e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2386969360081755e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 3.9810717055349776e-08,
+      "event_oriented_volume": -1.5186459301739803e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2365453422200773e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 4.4668359215096346e-08,
+      "event_oriented_volume": -1.517401664185452e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.233877589955429e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.011872336272725e-08,
+      "event_oriented_volume": -1.5158898458998748e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2303741385013608e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 5.6234132519034905e-08,
+      "event_oriented_volume": -1.5142687264827837e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.227152201235725e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 6.309573444801943e-08,
+      "event_oriented_volume": -1.512475388326857e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.2234303183524324e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.079457843841387e-08,
+      "event_oriented_volume": -1.5105149983330726e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.219278352534979e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 7.943282347242822e-08,
+      "event_oriented_volume": -1.508180685644723e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.214044546849607e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 8.912509381337459e-08,
+      "event_oriented_volume": -1.505629998389997e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.208566074381551e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1e-07,
+      "event_oriented_volume": -1.5027430644661997e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.202403419260966e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.1220184543019653e-07,
+      "event_oriented_volume": -1.49947573651612e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.195897346306989e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.2589254117941688e-07,
+      "event_oriented_volume": -1.4959120825597727e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 3.1877210540909924e-12,
+      "same_source_faces": true
+    },
+    {
+      "alpha": 1.4125375446227555e-07,
+      "event_oriented_volume": -1.4919401163712015e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770947435220057e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1.584893192461114e-07,
+      "event_oriented_volume": -1.4873396686764266e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770932666754201e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1.7782794100389227e-07,
+      "event_oriented_volume": -1.482145764287817e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.77094180488286e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1.995262314968883e-07,
+      "event_oriented_volume": -1.4765170101247458e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770937618985727e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 2.2387211385683422e-07,
+      "event_oriented_volume": -1.4700926463846482e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770941126823289e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 2.5118864315095823e-07,
+      "event_oriented_volume": -1.4629002439899572e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770936528227005e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 2.818382931264455e-07,
+      "event_oriented_volume": -1.454796171563807e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770940507702187e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 3.162277660168379e-07,
+      "event_oriented_volume": -1.4456632505682743e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770934435199278e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 3.5481338923357606e-07,
+      "event_oriented_volume": -1.4355508545538546e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770933285503821e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 3.981071705534977e-07,
+      "event_oriented_volume": -1.424059759951848e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770940861267416e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 4.466835921509635e-07,
+      "event_oriented_volume": -1.4112513088882948e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770948908670161e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 5.011872336272725e-07,
+      "event_oriented_volume": -1.3969623204659063e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770945666018653e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 5.62341325190349e-07,
+      "event_oriented_volume": -1.3807830594371072e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770941185284644e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 6.309573444801942e-07,
+      "event_oriented_volume": -1.3627023026153463e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770931457468976e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 7.079457843841387e-07,
+      "event_oriented_volume": -1.3424090957353573e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770941479851167e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 7.943282347242821e-07,
+      "event_oriented_volume": -1.3196067570370347e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770945017076036e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 8.912509381337459e-07,
+      "event_oriented_volume": -1.294001035744832e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770930484317183e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1e-06,
+      "event_oriented_volume": -1.2652391002845702e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770950764971064e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1.1220184543019652e-06,
+      "event_oriented_volume": -1.2330444621616067e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770933254905038e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1.2589254117941687e-06,
+      "event_oriented_volume": -1.196985871491506e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770923291166193e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1.4125375446227554e-06,
+      "event_oriented_volume": -1.156501813192874e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770952149830864e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1.584893192461114e-06,
+      "event_oriented_volume": -1.1110017358948853e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770941802827198e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1.7782794100389227e-06,
+      "event_oriented_volume": -1.059977487591823e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770935140533521e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 1.995262314968883e-06,
+      "event_oriented_volume": -1.0026921326789168e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770929244631425e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 2.2387211385683422e-06,
+      "event_oriented_volume": -9.384887632242532e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770941300747281e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 2.5118864315095823e-06,
+      "event_oriented_volume": -8.664382941989774e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770943835449796e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 2.818382931264455e-06,
+      "event_oriented_volume": -7.85522651292796e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770943510744846e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 3.162277660168379e-06,
+      "event_oriented_volume": -6.948494852957766e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770937113532581e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 3.5481338923357606e-06,
+      "event_oriented_volume": -5.930632555011103e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770941829436954e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 3.981071705534978e-06,
+      "event_oriented_volume": -4.789045425008425e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770935373138736e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 4.466835921509635e-06,
+      "event_oriented_volume": -3.506790347609099e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.77093053804934e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 5.011872336272725e-06,
+      "event_oriented_volume": -2.06870323077161e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770942387379106e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 5.623413251903491e-06,
+      "event_oriented_volume": -4.558089271148626e-15,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770942533875272e-11,
+      "same_source_faces": false
+    },
+    {
+      "alpha": 6.309573444801943e-06,
+      "event_oriented_volume": 1.3545974509188846e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770935546604522e-11,
+      "same_source_faces": false
+    }
+  ]
+}

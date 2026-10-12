@@ -1,0 +1,186 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002084172850105,
+        "ucost": 6.3503112365673195e-09,
+        "scost": 0.3464412463527608,
+        "objective": 0.346441252703072,
+        "minimum_noncontact": 1.593763457208297e-06,
+        "it": 0,
+        "seconds": 0.5829191207885742,
+        "trust": 0.03
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 150,
+        "E": 247,
+        "F": 99,
+        "S": 31,
+        "U": 8,
+        "Pmax": 3.768432953272049e-12,
+        "Qmax": 0.11985381013566164,
+        "ucost": 2.7305022699011328e-05,
+        "scost": 0.3463108249878745,
+        "objective": 0.3463381300105735,
+        "minimum_noncontact": 1.0616865352086613e-05,
+        "it": 10,
+        "seconds": 3.0220718383789062,
+        "trust": 0.03
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 39,
+        "U": 10,
+        "Pmax": 3.497887891278758e-12,
+        "Qmax": 0.11962532510625704,
+        "ucost": 3.0416981698452226e-05,
+        "scost": 0.3460043168689324,
+        "objective": 0.3460347338506309,
+        "minimum_noncontact": 1.9010567241295462e-05,
+        "it": 20,
+        "seconds": 5.66190505027771,
+        "trust": 0.03
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 29,
+        "U": 8,
+        "Pmax": 8.468235423094356e-12,
+        "Qmax": 0.11949945516840571,
+        "ucost": 3.0824458002421336e-05,
+        "scost": 0.34581581794206667,
+        "objective": 0.34584664240006907,
+        "minimum_noncontact": 1.256373227676022e-09,
+        "it": 30,
+        "seconds": 8.64159083366394,
+        "trust": 0.03
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 29,
+        "U": 8,
+        "Pmax": 8.46716445217074e-12,
+        "Qmax": 0.11949945091050945,
+        "ucost": 3.08229074682816e-05,
+        "scost": 0.3458158053505202,
+        "objective": 0.3458466282579885,
+        "minimum_noncontact": 1.0081713242016122e-11,
+        "it": 40,
+        "seconds": 15.750048875808716,
+        "trust": 0.0003072000000000001
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.1195102479320862,
+        "ucost": 4.5547222154555364e-09,
+        "scost": 0.3457035564216442,
+        "objective": 0.3457035609763664,
+        "minimum_noncontact": 1.2087775225211317e-11,
+        "it": 50,
+        "seconds": 19.573977947235107,
+        "trust": 0.00024084480000000004
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.11951024792353666,
+        "ucost": 4.536952740428895e-09,
+        "scost": 0.34570355635518396,
+        "objective": 0.3457035608921367,
+        "minimum_noncontact": 1.0274114892183661e-11,
+        "it": 60,
+        "seconds": 26.064500093460083,
+        "trust": 1.5784004812800013e-07
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.11951024902404503,
+        "ucost": 4.1480106555806065e-11,
+        "scost": 0.3457035441388797,
+        "objective": 0.3457035441803598,
+        "minimum_noncontact": 1.042721464727947e-11,
+        "it": 70,
+        "seconds": 30.69707417488098,
+        "trust": 1.267165160779286e-09
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "FINITE_MULTIPLE_CAP_DIRECT_STALLED",
+      "values": {
+        "V": 151,
+        "E": 249,
+        "F": 100,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.11951024902742295,
+        "ucost": 2.8422414797090833e-14,
+        "scost": 0.34570354414374677,
+        "objective": 0.3457035441437752,
+        "minimum_noncontact": 1.0101808278761837e-11,
+        "it": 79,
+        "seconds": 37.55793285369873,
+        "trust": 1.1626291036756388e-12
+      }
+    }
+  ]
+}

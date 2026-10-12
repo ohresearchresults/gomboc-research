@@ -1,0 +1,1570 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 0,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08535024452352537,
+        "min_noncontact": 7.378177261929686e-06,
+        "min_guard": 4.505810116637209e-07,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.02,
+        "seconds": 2.204301118850708
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 10,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08530667034520882,
+        "min_noncontact": 7.787690348148857e-06,
+        "min_guard": 9.00358949071413e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.02,
+        "seconds": 8.42231822013855
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 20,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08530652029420978,
+        "min_noncontact": 7.789548295056292e-06,
+        "min_guard": 9.000006415108757e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.02,
+        "seconds": 13.885147094726562
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 30,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08530648322986256,
+        "min_noncontact": 7.790008490049516e-06,
+        "min_guard": 9.000004444691162e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.02,
+        "seconds": 19.277164220809937
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 40,
+        "S": 2,
+        "U": 1,
+        "loss": 0.0852486348608345,
+        "min_noncontact": 7.955150317484616e-06,
+        "min_guard": 9.000437070918207e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.008,
+        "seconds": 24.000072956085205
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 50,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08524853785301055,
+        "min_noncontact": 7.95573321188403e-06,
+        "min_guard": 9.00005665742205e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.008,
+        "seconds": 28.95874834060669
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 60,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08524845933419686,
+        "min_noncontact": 7.956204862380467e-06,
+        "min_guard": 9.000081219328743e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.008,
+        "seconds": 34.130900144577026
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 70,
+        "S": 2,
+        "U": 1,
+        "loss": 0.0852483923701907,
+        "min_noncontact": 7.956607004699912e-06,
+        "min_guard": 9.000014002460573e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.008,
+        "seconds": 39.35176920890808
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 80,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08524832541342402,
+        "min_noncontact": 7.957009010017835e-06,
+        "min_guard": 9.000053664522616e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.008,
+        "seconds": 44.45127296447754
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 90,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08524823999614012,
+        "min_noncontact": 7.957521722001815e-06,
+        "min_guard": 9.000026136623587e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.008,
+        "seconds": 49.67539930343628
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 100,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08524750303728414,
+        "min_noncontact": 7.9485012642877e-06,
+        "min_guard": 9.000549209415373e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 54.97972917556763
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 110,
+        "S": 2,
+        "U": 1,
+        "loss": 0.085246240247428,
+        "min_noncontact": 7.932619941475316e-06,
+        "min_guard": 9.000291538969491e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 59.57910704612732
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 120,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08524489103776237,
+        "min_noncontact": 7.915640116706868e-06,
+        "min_guard": 9.000125954921181e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 63.97685623168945
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 130,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08524345616602122,
+        "min_noncontact": 7.897553758628995e-06,
+        "min_guard": 9.000200423205729e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 68.63649892807007
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 140,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08524193644751385,
+        "min_noncontact": 7.87831894732971e-06,
+        "min_guard": 9.000249213636232e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 73.13058114051819
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 150,
+        "S": 2,
+        "U": 1,
+        "loss": 0.0852403327561498,
+        "min_noncontact": 7.858250466674654e-06,
+        "min_guard": 9.000344358796283e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 77.35297894477844
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 160,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08523855743017081,
+        "min_noncontact": 7.836497643243234e-06,
+        "min_guard": 9.000697296032183e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 81.79422998428345
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 170,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08523661247308321,
+        "min_noncontact": 7.81316671305543e-06,
+        "min_guard": 9.000138300513534e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 86.1792562007904
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 180,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08523467586733574,
+        "min_noncontact": 7.790510430871755e-06,
+        "min_guard": 9.000094486973588e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 90.55433297157288
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 190,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08523274753584045,
+        "min_noncontact": 7.768511634864694e-06,
+        "min_guard": 9.000694931461935e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 94.92034816741943
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 200,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08523065318070214,
+        "min_noncontact": 7.745290785177161e-06,
+        "min_guard": 9.001067241327529e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 99.28000998497009
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 210,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08522839525931036,
+        "min_noncontact": 7.721150102502072e-06,
+        "min_guard": 9.00015667911205e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 103.67313718795776
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 220,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08522649376776598,
+        "min_noncontact": 7.701753036215564e-06,
+        "min_guard": 9.001065422938567e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 108.11193823814392
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 230,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08522408553097878,
+        "min_noncontact": 7.67789657407647e-06,
+        "min_guard": 9.000115126340125e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 112.43226909637451
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 240,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08522015752267482,
+        "min_noncontact": 7.63874630349548e-06,
+        "min_guard": 9.000493840026206e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 116.68094110488892
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 250,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08521357080908144,
+        "min_noncontact": 7.571759470192951e-06,
+        "min_guard": 9.000571413025176e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 120.99266409873962
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 260,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08521190117313263,
+        "min_noncontact": 7.555631208799873e-06,
+        "min_guard": 9.001276150521372e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 125.29271125793457
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 270,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08521007228270892,
+        "min_noncontact": 7.538806713114354e-06,
+        "min_guard": 9.00112037838052e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 129.70231819152832
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 280,
+        "S": 2,
+        "U": 1,
+        "loss": 0.0852082519574524,
+        "min_noncontact": 7.522463457809714e-06,
+        "min_guard": 9.000859500315598e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 133.9812240600586
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 290,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08520660471682308,
+        "min_noncontact": 7.50805413962663e-06,
+        "min_guard": 9.000291643428297e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 138.27062106132507
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 300,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08520521033867254,
+        "min_noncontact": 7.495877641927606e-06,
+        "min_guard": 9.000148705990282e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 143.24718117713928
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 310,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08520398445247786,
+        "min_noncontact": 7.485077357927139e-06,
+        "min_guard": 9.000334131191133e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 148.51841807365417
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 320,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08520284405642524,
+        "min_noncontact": 7.475179155114198e-06,
+        "min_guard": 9.00013885808588e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 153.56088304519653
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 330,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08520178837374798,
+        "min_noncontact": 7.466159124169813e-06,
+        "min_guard": 9.000223581936721e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 158.85520005226135
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 340,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08520081667387422,
+        "min_noncontact": 7.4580242824806575e-06,
+        "min_guard": 9.000253796941458e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 164.46703004837036
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 350,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519992828059181,
+        "min_noncontact": 7.450731319580406e-06,
+        "min_guard": 9.000640587687842e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 170.1530282497406
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 360,
+        "S": 2,
+        "U": 1,
+        "loss": 0.0851990420909551,
+        "min_noncontact": 7.443594064238113e-06,
+        "min_guard": 9.000703857089058e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 175.4526662826538
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 370,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519815809525225,
+        "min_noncontact": 7.436618300937781e-06,
+        "min_guard": 9.000449697534526e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 180.3637890815735
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 380,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519735637345859,
+        "min_noncontact": 7.430418619946977e-06,
+        "min_guard": 9.00084920391154e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 185.29752612113953
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 390,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519655644664331,
+        "min_noncontact": 7.424352210572138e-06,
+        "min_guard": 9.000780170682927e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 190.4991900920868
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 400,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519575830617918,
+        "min_noncontact": 7.418419514459984e-06,
+        "min_guard": 9.000607602257624e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 195.45278811454773
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 410,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519496194372442,
+        "min_noncontact": 7.412625704250608e-06,
+        "min_guard": 9.000077491137303e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 200.52404808998108
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 420,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519432613698756,
+        "min_noncontact": 7.408091413751983e-06,
+        "min_guard": 9.000143724128455e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 206.12059593200684
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 430,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519373109549289,
+        "min_noncontact": 7.403921146398318e-06,
+        "min_guard": 9.000058395902192e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 211.26703429222107
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 440,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519317661768952,
+        "min_noncontact": 7.400099045873354e-06,
+        "min_guard": 9.000179384823532e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 216.2448980808258
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 450,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519262299805799,
+        "min_noncontact": 7.396355442779168e-06,
+        "min_guard": 9.000175689884934e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 221.31949591636658
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 460,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519210969348738,
+        "min_noncontact": 7.392965315378142e-06,
+        "min_guard": 9.000145442783137e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 226.1209442615509
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 470,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519157742456408,
+        "min_noncontact": 7.389488731912586e-06,
+        "min_guard": 9.000058479293696e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 231.18531918525696
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 480,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519110496940384,
+        "min_noncontact": 7.386409579313025e-06,
+        "min_guard": 9.000236960064674e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 236.65732097625732
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 490,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519061349038988,
+        "min_noncontact": 7.383210289146902e-06,
+        "min_guard": 9.000066116072633e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 241.91686606407166
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 500,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08519014231074305,
+        "min_noncontact": 7.380146089253081e-06,
+        "min_guard": 9.000141023556896e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 246.96778917312622
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 510,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518967175314791,
+        "min_noncontact": 7.377088799942477e-06,
+        "min_guard": 9.000113719450609e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 252.09853601455688
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 520,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518920181577228,
+        "min_noncontact": 7.3740383869091986e-06,
+        "min_guard": 9.000126616005771e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 257.3855962753296
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 530,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518873249679094,
+        "min_noncontact": 7.370994818511889e-06,
+        "min_guard": 9.000241397310878e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 262.416081905365
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 540,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518828331154481,
+        "min_noncontact": 7.3680844647761035e-06,
+        "min_guard": 9.000140938856498e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 267.2801811695099
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 550,
+        "S": 2,
+        "U": 1,
+        "loss": 0.0851878151983311,
+        "min_noncontact": 7.365054212615796e-06,
+        "min_guard": 9.0001059091345e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 272.21882224082947
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 560,
+        "S": 2,
+        "U": 1,
+        "loss": 0.085187347698159,
+        "min_noncontact": 7.3620307107225e-06,
+        "min_guard": 9.000190841251476e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 277.2564799785614
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 570,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518688080935045,
+        "min_noncontact": 7.359014434271671e-06,
+        "min_guard": 9.00013232457754e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 282.6192729473114
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 580,
+        "S": 2,
+        "U": 1,
+        "loss": 0.0851864145362339,
+        "min_noncontact": 7.356013427828323e-06,
+        "min_guard": 9.000219465885207e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 287.4496419429779
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 590,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518597796589357,
+        "min_noncontact": 7.353198528403659e-06,
+        "min_guard": 9.000229943663895e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 292.27598905563354
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 600,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518551288844785,
+        "min_noncontact": 7.350172785081099e-06,
+        "min_guard": 9.000127989361909e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 297.1292769908905
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 610,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518500974517719,
+        "min_noncontact": 7.346860586787685e-06,
+        "min_guard": 9.00014788640186e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 301.8783931732178
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 620,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518450732266127,
+        "min_noncontact": 7.343490007749587e-06,
+        "min_guard": 9.000081113585044e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 306.65601801872253
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 630,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518404418948831,
+        "min_noncontact": 7.340348233020322e-06,
+        "min_guard": 9.000275509385315e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 312.5806131362915
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 640,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518354314797794,
+        "min_noncontact": 7.3369377219245635e-06,
+        "min_guard": 9.000221746311448e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 318.0820291042328
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 650,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518311975694884,
+        "min_noncontact": 7.334113686252586e-06,
+        "min_guard": 9.00011044887995e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 323.22380805015564
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 660,
+        "S": 2,
+        "U": 1,
+        "loss": 0.0851827160898462,
+        "min_noncontact": 7.331369063612314e-06,
+        "min_guard": 9.000070291924072e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 328.45238614082336
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "MONOSTATIC_ATLAS",
+      "values": {
+        "it": 670,
+        "S": 2,
+        "U": 1,
+        "loss": 0.08518229370015386,
+        "min_noncontact": 7.328507854786892e-06,
+        "min_guard": 9.000099997256404e-09,
+        "roots": [
+          [
+            63
+          ],
+          [
+            85,
+            110
+          ]
+        ],
+        "trust": 0.0032,
+        "seconds": 334.40634322166443
+      }
+    }
+  ]
+}

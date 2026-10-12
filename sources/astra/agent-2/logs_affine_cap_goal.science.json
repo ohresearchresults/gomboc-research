@@ -1,0 +1,38 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "AFFINE_ACTUAL_BODY",
+      "values": {
+        "evaluations": 1,
+        "seconds": 0.0019290447235107422,
+        "S": 3,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.08437955147982412,
+        "objective": 0.08447883072691877,
+        "E": 249,
+        "condition": 1.0,
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  ]
+}

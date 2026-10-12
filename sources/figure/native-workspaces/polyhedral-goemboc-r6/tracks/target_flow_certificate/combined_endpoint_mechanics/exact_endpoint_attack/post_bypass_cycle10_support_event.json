@@ -1,0 +1,787 @@
+{
+  "version": 1,
+  "scope": "recomputed intrinsic trust-SLP event locator",
+  "source": "/REDACTED_HOME/.pro-research/native-workspaces/polyhedral-goemboc-r6/tracks/target_flow_certificate/combined_endpoint_mechanics/exact_endpoint_attack/post_bypass_cycle10_pre_step_001.csv",
+  "trust": 1.5e-07,
+  "baseline": {
+    "valid": true,
+    "error": null,
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "stable": [
+      [
+        7,
+        8,
+        245,
+        246
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        54
+      ]
+    ],
+    "unstable": [
+      8,
+      54
+    ],
+    "saddles": [
+      [
+        6,
+        7
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    "topology_margin": 4.178619889096459e-12
+  },
+  "best": {
+    "h67_component": "beta2",
+    "h910_component": "beta2",
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "row_scale_minimum": 0.15,
+    "row_scale_maximum": 8560777859.070039,
+    "zero_step_maximum_violation": -0.0,
+    "common_fractional_descent": 5.013135404265858e-07,
+    "physical_linf": 1.9416446001695907e-07,
+    "coefficient_linf": 2.2310636704617025e-07,
+    "coefficients": [
+      7.966773712845246e-08,
+      2.017263403357331e-07,
+      -1.664290417304949e-07,
+      -3.631845776737326e-08,
+      -2.2057991866945262e-07,
+      6.691860090500139e-08,
+      -2.2057991866945262e-07,
+      6.691860090500139e-08,
+      -2.2057991866945262e-07,
+      6.691860090500139e-08,
+      -2.2057991866945262e-07,
+      6.691860090500139e-08,
+      -7.966773712845244e-08,
+      -2.017263403357331e-07,
+      7.966773712845246e-08,
+      2.017263403357331e-07,
+      -2.020202154409362e-08,
+      -1.750269189189209e-07,
+      -7.966773712845244e-08,
+      -2.017263403357331e-07,
+      3.9981187000947e-08,
+      -1.4800535142643554e-07,
+      -7.966773712845244e-08,
+      -2.017263403357331e-07,
+      -7.966773712845245e-08,
+      -2.0172634033573308e-07,
+      -7.966773712845244e-08,
+      -2.017263403357331e-07,
+      -7.966773712845244e-08,
+      -2.017263403357331e-07,
+      -7.966773712845245e-08,
+      -2.0172634033573308e-07,
+      -7.966773712845244e-08,
+      -2.017263403357331e-07,
+      7.966773712845246e-08,
+      2.017263403357331e-07,
+      -1.5e-07,
+      -2.2297626906670273e-08,
+      -1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.5e-07,
+      -1.500040165980831e-07,
+      -4.240035970276703e-08,
+      -1.5e-07,
+      -1.5e-07,
+      -4.36092784779665e-08,
+      -5.559232661095863e-09,
+      1.4999999990344054e-07,
+      -1.5e-07,
+      -9.524860729826223e-09,
+      1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.2164547412420833e-07,
+      -5.5569541852432905e-08,
+      1.5e-07,
+      1.5e-07,
+      -5.512606758600903e-08,
+      -6.79157946536783e-08,
+      -1.5e-07,
+      8.635862323844006e-08,
+      -1.5e-07,
+      1.0913915857078013e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.1558368208099759e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.4204667514055642e-07,
+      1.5e-07,
+      7.224756351256173e-08,
+      -1.5e-07,
+      -1.5e-07,
+      -1.4070157385329532e-07,
+      1.5e-07,
+      1.5e-07,
+      1.5e-07,
+      -1.4752152907741058e-07,
+      -1.5e-07,
+      1.5e-07,
+      -8.445505981836387e-08,
+      -1.5e-07,
+      1.3296450600717075e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.2761110397847596e-08,
+      -1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      8.882058336765642e-08,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.6235203979323728e-07,
+      1.6235203979323728e-07,
+      1.4878063108813094e-07,
+      1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.4999999999810722e-07,
+      -0.0,
+      -1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5280246860024328e-07,
+      -1.5e-07,
+      1.4771159556618293e-07,
+      1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.9416446001695907e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.415741811404547e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      -1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      1.4999999999998514e-07,
+      -1.5000000000001312e-07,
+      1.498553332392414e-07,
+      1.5e-07,
+      -1.5e-07,
+      1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      1.5e-07,
+      1.5e-07,
+      -1.5e-07,
+      1.5e-07,
+      1.5e-07,
+      1.5e-07,
+      1.5e-07,
+      -1.7134433748825354e-07,
+      -2.2310636704617025e-07
+    ],
+    "deaths": [
+      "('face', (7, 8, 245, 246), (8, 246))",
+      "('vertex', 54, 1)",
+      "('edge', (6, 7), 'beta2')",
+      "('edge', (9, 10), 'beta2')"
+    ],
+    "death_fractional_derivatives": [
+      -5.013135404265859e-07,
+      -5.013122952586407e-07,
+      -5.013135404265857e-07,
+      -5.013135404265863e-07
+    ],
+    "max_guard_fractional_worsening": 0.4095362716483635,
+    "active_modes": [
+      {
+        "column": 163,
+        "coefficient": -2.2310636704617025e-07,
+        "kind": "chart",
+        "row": 246,
+        "axis": "quad_b"
+      },
+      {
+        "column": 4,
+        "coefficient": -2.2057991866945262e-07,
+        "kind": "chart",
+        "row": 2,
+        "axis": "base_u"
+      },
+      {
+        "column": 6,
+        "coefficient": -2.2057991866945262e-07,
+        "kind": "chart",
+        "row": 3,
+        "axis": "base_u"
+      },
+      {
+        "column": 8,
+        "coefficient": -2.2057991866945262e-07,
+        "kind": "chart",
+        "row": 4,
+        "axis": "base_u"
+      },
+      {
+        "column": 10,
+        "coefficient": -2.2057991866945262e-07,
+        "kind": "chart",
+        "row": 5,
+        "axis": "base_u"
+      },
+      {
+        "column": 19,
+        "coefficient": -2.017263403357331e-07,
+        "kind": "chart",
+        "row": 9,
+        "axis": "base_v"
+      },
+      {
+        "column": 35,
+        "coefficient": 2.017263403357331e-07,
+        "kind": "chart",
+        "row": 54,
+        "axis": "base_v"
+      },
+      {
+        "column": 33,
+        "coefficient": -2.017263403357331e-07,
+        "kind": "chart",
+        "row": 16,
+        "axis": "base_v"
+      },
+      {
+        "column": 27,
+        "coefficient": -2.017263403357331e-07,
+        "kind": "chart",
+        "row": 13,
+        "axis": "base_v"
+      },
+      {
+        "column": 23,
+        "coefficient": -2.017263403357331e-07,
+        "kind": "chart",
+        "row": 11,
+        "axis": "base_v"
+      },
+      {
+        "column": 29,
+        "coefficient": -2.017263403357331e-07,
+        "kind": "chart",
+        "row": 14,
+        "axis": "base_v"
+      },
+      {
+        "column": 13,
+        "coefficient": -2.017263403357331e-07,
+        "kind": "chart",
+        "row": 6,
+        "axis": "base_v"
+      },
+      {
+        "column": 15,
+        "coefficient": 2.017263403357331e-07,
+        "kind": "chart",
+        "row": 7,
+        "axis": "base_v"
+      },
+      {
+        "column": 1,
+        "coefficient": 2.017263403357331e-07,
+        "kind": "chart",
+        "row": 0,
+        "axis": "base_v"
+      },
+      {
+        "column": 31,
+        "coefficient": -2.0172634033573308e-07,
+        "kind": "chart",
+        "row": 15,
+        "axis": "base_v"
+      },
+      {
+        "column": 25,
+        "coefficient": -2.0172634033573308e-07,
+        "kind": "chart",
+        "row": 12,
+        "axis": "base_v"
+      },
+      {
+        "column": 132,
+        "coefficient": 1.9416446001695907e-07,
+        "kind": "chart",
+        "row": 255,
+        "axis": "x"
+      },
+      {
+        "column": 17,
+        "coefficient": -1.750269189189209e-07,
+        "kind": "chart",
+        "row": 8,
+        "axis": "base_v"
+      },
+      {
+        "column": 162,
+        "coefficient": -1.7134433748825354e-07,
+        "kind": "chart",
+        "row": 246,
+        "axis": "quad_a"
+      },
+      {
+        "column": 2,
+        "coefficient": -1.664290417304949e-07,
+        "kind": "chart",
+        "row": 1,
+        "axis": "base_u"
+      }
+    ]
+  },
+  "solver_summary": {
+    "chart": {
+      "quad_alpha": 0.09910262552116811,
+      "quad_beta": 1.0823469319549153
+    },
+    "mode_count": 164,
+    "primitive_count": 7638,
+    "guard_count": 6708,
+    "finite_difference_failures": [
+      {
+        "column": 6,
+        "accepted_step": 1.5625e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 6.25e-11,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 7,
+        "accepted_step": 6.25e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 48,
+        "accepted_step": 6.25e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 49,
+        "accepted_step": 1.5625e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 6.25e-11,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 50,
+        "accepted_step": 1.5625e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 6.25e-11,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 79,
+        "accepted_step": 2.5e-10,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 80,
+        "accepted_step": 2.5e-10,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 82,
+        "accepted_step": 2.5e-10,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 83,
+        "accepted_step": 2.5e-10,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 96,
+        "accepted_step": 6.25e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 97,
+        "accepted_step": 1.5625e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 6.25e-11,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 98,
+        "accepted_step": 1.5625e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 6.25e-11,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 99,
+        "accepted_step": 6.25e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 100,
+        "accepted_step": 1.5625e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 6.25e-11,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      },
+      {
+        "column": 101,
+        "accepted_step": 1.5625e-11,
+        "rejected_scales": [
+          {
+            "step": 1e-09,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 2.5e-10,
+            "error": "RuntimeError('primitive key set changed')"
+          },
+          {
+            "step": 6.25e-11,
+            "error": "RuntimeError('primitive key set changed')"
+          }
+        ]
+      }
+    ]
+  },
+  "invalid_probe_count": 0,
+  "first_invalid_probes": [],
+  "event": {
+    "fraction_bracket": [
+      0.8968553385557607,
+      0.8968553385566921
+    ],
+    "physical_displacement_bracket": [
+      1.741374325240063e-07,
+      1.7413743252418713e-07
+    ],
+    "candidate_circuits": [
+      [
+        3,
+        198,
+        242,
+        243
+      ]
+    ],
+    "before_file": "post_bypass_cycle10_support_event_before.csv",
+    "after_file": "post_bypass_cycle10_support_event_after.csv",
+    "before": {
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        60,
+        158,
+        100
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "stable": [
+        [
+          7,
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable": [
+        8,
+        54
+      ],
+      "saddles": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "topology_margin": 3.484303247743131e-12
+    },
+    "after": {
+      "valid": true,
+      "error": null,
+      "f_vector": [
+        60,
+        157,
+        99
+      ],
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "stable": [
+        [
+          7,
+          8,
+          245,
+          246
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          54
+        ]
+      ],
+      "unstable": [
+        8,
+        54
+      ],
+      "saddles": [
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "topology_margin": 3.194062959434958e-11
+    },
+    "removed_faces": [
+      [
+        3,
+        242,
+        243
+      ],
+      [
+        198,
+        242,
+        243
+      ]
+    ],
+    "added_faces": [
+      [
+        3,
+        198,
+        242,
+        243
+      ]
+    ]
+  },
+  "conclusion": "first valid adjacent actual cell resolved"
+}

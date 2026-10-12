@@ -1,0 +1,61 @@
+{
+  "protected_stable_face": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "protected_unstable_vertex": 8,
+  "extra_stable_face": [
+    198,
+    224,
+    258
+  ],
+  "sole_saddle_edge": [
+    229,
+    247
+  ],
+  "extra_unstable_vertices": [],
+  "old_fourth_packet_rows_now_inactive": [
+    135,
+    183,
+    195,
+    223,
+    225,
+    226,
+    227
+  ],
+  "deleted_fourth_features": {
+    "stable_face_195_223_224": true,
+    "saddle_135_224": true,
+    "saddle_183_223": true,
+    "external_positive_edge_226_227": true
+  },
+  "incidence_bridge": {
+    "stable_face_to_saddle_graph_distance": 1,
+    "bridge_vertex": 224,
+    "adjacent_saddle_face": [
+      224,
+      229,
+      247
+    ],
+    "limiting_stable_boundary_edge": [
+      198,
+      224
+    ]
+  },
+  "interpretation": "The fourth-cell U-H branch is closed by both monotone rails; the acute graph becomes connected and only one S-H packet remains. The extra stable face and saddle are one incidence-star step apart but not incident to the same true edge."
+}

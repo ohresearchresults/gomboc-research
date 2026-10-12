@@ -1,0 +1,27 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "LITERAL_RETIREMENT_NUM211",
+      "values": {
+        "deleted": 0,
+        "V": 158,
+        "E": 241,
+        "F": 85,
+        "S": 2,
+        "U": 1,
+        "Pmax": 1.597734807481905e-16,
+        "Qmax": 0.09929152309524883,
+        "centroid": [
+          -3.329801950338432e-18,
+          -2.185182529909596e-18,
+          1.2738226731893636e-17
+        ],
+        "U1_guard": 9.99973583291966e-08,
+        "S2_guard": 9.999969079570768e-08
+      }
+    }
+  ]
+}

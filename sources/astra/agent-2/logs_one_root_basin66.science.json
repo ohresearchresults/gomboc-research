@@ -1,0 +1,310 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 0.1702229081987919,
+        "minimum": -0.17022127515234478,
+        "trust": 0.02,
+        "seconds": 0.3471670150756836
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 5,
+        "S": 24,
+        "U": 10,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 0.08304312964758205,
+        "minimum": -0.08097870567045916,
+        "trust": 0.10756479999999995,
+        "seconds": 0.8357381820678711
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 10,
+        "S": 28,
+        "U": 3,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 0.004046082669243473,
+        "minimum": -0.0017029709650923988,
+        "trust": 0.2108270079999999,
+        "seconds": 1.0871920585632324
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 15,
+        "S": 26,
+        "U": 3,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 0.00012676571843639453,
+        "minimum": -5.4837145371328714e-05,
+        "trust": 0.2108270079999999,
+        "seconds": 1.3717701435089111
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.122780499900084e-07,
+        "minimum": -1.0586680676942115e-07,
+        "trust": 0.29515781119999984,
+        "seconds": 1.8219630718231201
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 25,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.069638890608459e-07,
+        "minimum": -4.680595049491796e-08,
+        "trust": 0.29515781119999984,
+        "seconds": 2.383219003677368
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 30,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.064069454225418e-07,
+        "minimum": -7.777401510445643e-09,
+        "trust": 0.04722524979199998,
+        "seconds": 3.038382053375244
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 35,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.0256854205143922e-07,
+        "minimum": -3.3738913534189677e-09,
+        "trust": 0.04722524979199998,
+        "seconds": 3.5276761054992676
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 40,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.024631875930381e-07,
+        "minimum": -4.303377679308899e-08,
+        "trust": 0.04722524979199998,
+        "seconds": 4.097882986068726
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 45,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.0154082054939544e-07,
+        "minimum": -8.800020194433241e-08,
+        "trust": 0.018890099916799994,
+        "seconds": 4.6679041385650635
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 50,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.011869337494102e-07,
+        "minimum": -7.624813339768253e-08,
+        "trust": 0.007556039966719998,
+        "seconds": 5.21581506729126
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 55,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.0045837649748418e-07,
+        "minimum": -8.104187065931354e-08,
+        "trust": 0.0012089663946751998,
+        "seconds": 5.75300407409668
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 60,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.0045656569245676e-07,
+        "minimum": -2.009702931430483e-08,
+        "trust": 0.000193434623148032,
+        "seconds": 6.5245912075042725
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 65,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.004260503987517e-07,
+        "minimum": -5.0374048860324046e-08,
+        "trust": 1.237981588147405e-05,
+        "seconds": 6.9807891845703125
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 70,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.0020515684840252e-07,
+        "minimum": -4.886757931809154e-08,
+        "trust": 7.923082164143393e-07,
+        "seconds": 7.442193984985352
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 75,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.001999569611094e-07,
+        "minimum": -9.716033572565306e-08,
+        "trust": 5.070772585051772e-08,
+        "seconds": 7.844186305999756
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 80,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.0019988503502467e-07,
+        "minimum": -9.716002636019676e-08,
+        "trust": 3.2452944544331345e-09,
+        "seconds": 8.222492933273315
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 85,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.0019988503502467e-07,
+        "minimum": -9.716002636019676e-08,
+        "trust": 3.323181521339531e-11,
+        "seconds": 8.604280233383179
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "ONE_ROOT_FINITE_STALL",
+      "values": {
+        "it": 86,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.0019988503502467e-07,
+        "minimum": -9.716002636019676e-08,
+        "trust": 1.3292726085358125e-11,
+        "seconds": 8.679291009902954
+      }
+    }
+  ]
+}

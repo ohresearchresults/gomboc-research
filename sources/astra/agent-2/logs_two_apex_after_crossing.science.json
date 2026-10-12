@@ -1,0 +1,2406 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 143,
+        "E": 242,
+        "F": 101,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.22560911822738183,
+        "Qmax": 0.0,
+        "ucost": 0.4781883148839977,
+        "scost": 1.4478941222547932e-10,
+        "objective": 0.4781883150287871,
+        "minimum_noncontact": 5.24837663662403e-07,
+        "it": 0,
+        "seconds": 0.6255159378051758,
+        "trust": 0.03
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 143,
+        "E": 242,
+        "F": 101,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.22560911822738183,
+        "Qmax": 0.0,
+        "ucost": 0.4781883148839977,
+        "scost": 1.4478941222547932e-10,
+        "objective": 0.4781883150287871,
+        "minimum_noncontact": 5.24837663662403e-07,
+        "it": 10,
+        "seconds": 14.023504972457886,
+        "trust": 3.1457280000000023e-06
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.22560911816749668,
+        "Qmax": 0.0,
+        "ucost": 0.47818831467712963,
+        "scost": 4.82020103322598e-14,
+        "objective": 0.4781883146771778,
+        "minimum_noncontact": 1.799504989463685e-11,
+        "it": 20,
+        "seconds": 25.30458378791809,
+        "trust": 2.886218022912003e-09
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.2256091146394938,
+        "Qmax": 1.2031374606530599e-16,
+        "ucost": 0.47818831058922645,
+        "scost": 4.172869528759095e-14,
+        "objective": 0.4781883105892682,
+        "minimum_noncontact": 1.421459616679499e-10,
+        "it": 30,
+        "seconds": 27.076514959335327,
+        "trust": 8.34851998402924e-08
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.22560903753251976,
+        "Qmax": 0.0,
+        "ucost": 0.47818822615819034,
+        "scost": 1.1522814584041688e-12,
+        "objective": 0.47818822615934264,
+        "minimum_noncontact": 3.522308333891999e-09,
+        "it": 40,
+        "seconds": 28.752824068069458,
+        "trust": 2.4148482675406167e-06
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.22560681233965293,
+        "Qmax": 0.0,
+        "ucost": 0.4781858081193851,
+        "scost": 9.716603290792627e-10,
+        "objective": 0.4781858090910454,
+        "minimum_noncontact": 1.0122015992042321e-07,
+        "it": 50,
+        "seconds": 30.48896884918213,
+        "trust": 6.98506102446852e-05
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.2255422640221424,
+        "Qmax": 0.0,
+        "ucost": 0.4781170258696978,
+        "scost": 6.795260335018156e-07,
+        "objective": 0.4781177053957313,
+        "minimum_noncontact": 4.862152808149389e-07,
+        "it": 60,
+        "seconds": 32.276202917099,
+        "trust": 0.002020461416618946
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22540473576135517,
+        "Qmax": 0.0,
+        "ucost": 0.4779833600805854,
+        "scost": 6.274116771827322e-06,
+        "objective": 0.47798963419735724,
+        "minimum_noncontact": 1.1064560379026034e-10,
+        "it": 70,
+        "seconds": 36.20515990257263,
+        "trust": 0.0055441461272023864
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2253611898046404,
+        "Qmax": 1.7017286818936956e-16,
+        "ucost": 0.4779401930071412,
+        "scost": 2.640565549964779e-06,
+        "objective": 0.47794283357269113,
+        "minimum_noncontact": 1.337148802793564e-08,
+        "it": 80,
+        "seconds": 43.20170783996582,
+        "trust": 0.0024341019156869353
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22530446207632887,
+        "Qmax": 0.0,
+        "ucost": 0.47789041536648347,
+        "scost": 6.1547262431218645e-06,
+        "objective": 0.47789657009272657,
+        "minimum_noncontact": 1.5774350714536922e-09,
+        "it": 90,
+        "seconds": 46.707456827163696,
+        "trust": 0.0034077426819617094
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22530422537567218,
+        "Qmax": 0.0,
+        "ucost": 0.477890084254746,
+        "scost": 6.153060707364193e-06,
+        "objective": 0.47789623731545333,
+        "minimum_noncontact": 1.0570322395153653e-11,
+        "it": 100,
+        "seconds": 54.82109570503235,
+        "trust": 0.0013630970727846838
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22530343099268807,
+        "Qmax": 1.7019306611423154e-16,
+        "ucost": 0.47788969840044965,
+        "scost": 6.172679575503207e-06,
+        "objective": 0.4778958710800251,
+        "minimum_noncontact": 8.271901941192539e-09,
+        "it": 110,
+        "seconds": 61.13978695869446,
+        "trust": 0.0013630970727846838
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22524636965700692,
+        "Qmax": 0.0,
+        "ucost": 0.4777938911706834,
+        "scost": 3.283656774290454e-06,
+        "objective": 0.47779717482745765,
+        "minimum_noncontact": 2.446464819616523e-08,
+        "it": 120,
+        "seconds": 64.35673308372498,
+        "trust": 0.00267167026265798
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22524546282597538,
+        "Qmax": 1.2026898741486338e-16,
+        "ucost": 0.4777934847140159,
+        "scost": 3.275927684641287e-06,
+        "objective": 0.4777967606417005,
+        "minimum_noncontact": 1.047926245778541e-08,
+        "it": 130,
+        "seconds": 70.89008498191833,
+        "trust": 0.00267167026265798
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22524346420735042,
+        "Qmax": 1.6879380814586503e-16,
+        "ucost": 0.47779263369307645,
+        "scost": 3.26806096457355e-06,
+        "objective": 0.477795901754041,
+        "minimum_noncontact": 1.0884126933063953e-09,
+        "it": 140,
+        "seconds": 77.31844806671143,
+        "trust": 0.00267167026265798
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22524331594715916,
+        "Qmax": 0.0,
+        "ucost": 0.4777925751691217,
+        "scost": 3.2681236851804645e-06,
+        "objective": 0.4777958432928069,
+        "minimum_noncontact": 1.3337881910047145e-09,
+        "it": 150,
+        "seconds": 84.4814989566803,
+        "trust": 0.00267167026265798
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22524321923365478,
+        "Qmax": 0.0,
+        "ucost": 0.47779253025558244,
+        "scost": 3.2676167379187782e-06,
+        "objective": 0.47779579787232035,
+        "minimum_noncontact": 7.099386634124016e-10,
+        "it": 160,
+        "seconds": 91.6892819404602,
+        "trust": 0.00267167026265798
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22524319325977113,
+        "Qmax": 0.0,
+        "ucost": 0.47779251441619003,
+        "scost": 3.2671726558581048e-06,
+        "objective": 0.4777957815888459,
+        "minimum_noncontact": 1.8338552898455873e-11,
+        "it": 170,
+        "seconds": 99.8298499584198,
+        "trust": 0.00267167026265798
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22521982113131087,
+        "Qmax": 0.0,
+        "ucost": 0.4777675366188943,
+        "scost": 2.792867372221471e-06,
+        "objective": 0.4777703294862665,
+        "minimum_noncontact": 2.310929336779566e-09,
+        "it": 180,
+        "seconds": 104.33875703811646,
+        "trust": 0.0014961353470884689
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22521958855048782,
+        "Qmax": 1.7021844675164236e-16,
+        "ucost": 0.4777673100128028,
+        "scost": 2.7934627064817335e-06,
+        "objective": 0.4777701034755093,
+        "minimum_noncontact": 1.0022760399408526e-11,
+        "it": 190,
+        "seconds": 110.49275493621826,
+        "trust": 0.0014961353470884689
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.2252003079705801,
+        "Qmax": 0.0,
+        "ucost": 0.4777418021774458,
+        "scost": 2.2265284209026656e-06,
+        "objective": 0.4777440287058667,
+        "minimum_noncontact": 2.731768145025626e-10,
+        "it": 200,
+        "seconds": 114.15788006782532,
+        "trust": 0.0011729701121173596
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 1,
+        "U": 4,
+        "Pmax": 0.22519057090337308,
+        "Qmax": 0.0,
+        "ucost": 0.47773739478459454,
+        "scost": 3.1148168130874334e-06,
+        "objective": 0.4777405096014076,
+        "minimum_noncontact": 3.24710782706461e-08,
+        "it": 210,
+        "seconds": 117.4481840133667,
+        "trust": 0.0011729701121173596
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 144,
+        "E": 244,
+        "F": 102,
+        "S": 2,
+        "U": 3,
+        "Pmax": 0.22502660416212764,
+        "Qmax": 1.9057744323574522e-15,
+        "ucost": 0.47754643415526565,
+        "scost": 8.932531326641832e-06,
+        "objective": 0.4775553666865923,
+        "minimum_noncontact": 6.422287035512397e-09,
+        "it": 220,
+        "seconds": 119.65676403045654,
+        "trust": 0.006308514775794067
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494822739628462,
+        "Qmax": 0.0,
+        "ucost": 0.47747431654302763,
+        "scost": 3.1077416438627216e-06,
+        "objective": 0.4774774242846715,
+        "minimum_noncontact": 1.0427618252206727e-06,
+        "it": 230,
+        "seconds": 125.79766011238098,
+        "trust": 0.003532768274444678
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472988590006,
+        "Qmax": 0.0,
+        "ucost": 0.47747226602633713,
+        "scost": 3.421497273349479e-06,
+        "objective": 0.47747568752361047,
+        "minimum_noncontact": 1.0770939695703419e-11,
+        "it": 240,
+        "seconds": 132.96024894714355,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447293930009,
+        "Qmax": 0.0,
+        "ucost": 0.47747226547735466,
+        "scost": 3.421411840519734e-06,
+        "objective": 0.47747568688919517,
+        "minimum_noncontact": 1.0776823877733932e-11,
+        "it": 250,
+        "seconds": 141.0735547542572,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447289001096,
+        "Qmax": 0.0,
+        "ucost": 0.47747226492854067,
+        "scost": 3.4213264756272154e-06,
+        "objective": 0.4774756862550163,
+        "minimum_noncontact": 1.0776823877733932e-11,
+        "it": 260,
+        "seconds": 149.9874758720398,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472840721327,
+        "Qmax": 1.702307015839849e-16,
+        "ucost": 0.4774722643796284,
+        "scost": 3.4212410683935314e-06,
+        "objective": 0.4774756856206968,
+        "minimum_noncontact": 1.0771383784913269e-11,
+        "it": 270,
+        "seconds": 159.5612599849701,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472791430722,
+        "Qmax": 0.0,
+        "ucost": 0.4774722638305083,
+        "scost": 3.421155633780959e-06,
+        "objective": 0.47747568498614207,
+        "minimum_noncontact": 1.0772160941030506e-11,
+        "it": 280,
+        "seconds": 168.94984006881714,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472742140514,
+        "Qmax": 0.0,
+        "ucost": 0.4774722632815196,
+        "scost": 3.4210702202305964e-06,
+        "objective": 0.4774756843517398,
+        "minimum_noncontact": 1.077848921227087e-11,
+        "it": 290,
+        "seconds": 178.35360980033875,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472692851414,
+        "Qmax": 0.0,
+        "ucost": 0.47747226273283405,
+        "scost": 3.4209849105491743e-06,
+        "objective": 0.4774756837177446,
+        "minimum_noncontact": 1.0780154546807807e-11,
+        "it": 300,
+        "seconds": 188.01024079322815,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472643562985,
+        "Qmax": 0.0,
+        "ucost": 0.4774722621842818,
+        "scost": 3.4208996363849143e-06,
+        "objective": 0.4774756830839182,
+        "minimum_noncontact": 1.0778600234573332e-11,
+        "it": 310,
+        "seconds": 197.07474184036255,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447259427452,
+        "Qmax": 0.0,
+        "ucost": 0.47747226163578393,
+        "scost": 3.4208143884156836e-06,
+        "objective": 0.47747568245017236,
+        "minimum_noncontact": 1.0776490810826544e-11,
+        "it": 320,
+        "seconds": 207.18340492248535,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447254498407,
+        "Qmax": 1.7023070117326906e-16,
+        "ucost": 0.47747226108679086,
+        "scost": 3.4207289901209076e-06,
+        "objective": 0.477475681815781,
+        "minimum_noncontact": 1.0766720848209843e-11,
+        "it": 330,
+        "seconds": 216.32473301887512,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447249569105,
+        "Qmax": 0.0,
+        "ucost": 0.4774722605372076,
+        "scost": 3.420643483117155e-06,
+        "objective": 0.4774756811806907,
+        "minimum_noncontact": 1.0770051517283719e-11,
+        "it": 340,
+        "seconds": 225.12420797348022,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472446398578,
+        "Qmax": 0.0,
+        "ucost": 0.47747225998776666,
+        "scost": 3.420557990111205e-06,
+        "objective": 0.4774756805457568,
+        "minimum_noncontact": 1.0771161740308344e-11,
+        "it": 350,
+        "seconds": 233.20169377326965,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472397105747,
+        "Qmax": 0.0,
+        "ucost": 0.4774722594382538,
+        "scost": 3.4204724976737886e-06,
+        "objective": 0.47747567991075146,
+        "minimum_noncontact": 1.0767386982024618e-11,
+        "it": 360,
+        "seconds": 241.5791940689087,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447234781375,
+        "Qmax": 0.0,
+        "ucost": 0.47747225888901035,
+        "scost": 3.420387080497238e-06,
+        "objective": 0.47747567927609086,
+        "minimum_noncontact": 1.0772716052542819e-11,
+        "it": 370,
+        "seconds": 249.73943495750427,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447229852196,
+        "Qmax": 0.0,
+        "ucost": 0.4774722583398104,
+        "scost": 3.420301673219467e-06,
+        "objective": 0.4774756786414836,
+        "minimum_noncontact": 1.0769052316561556e-11,
+        "it": 380,
+        "seconds": 258.34439182281494,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447224922978,
+        "Qmax": 0.0,
+        "ucost": 0.47747225779055263,
+        "scost": 3.4202162659384523e-06,
+        "objective": 0.47747567800681856,
+        "minimum_noncontact": 1.0770939695703419e-11,
+        "it": 390,
+        "seconds": 266.98407006263733,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447219993866,
+        "Qmax": 1.702307006947915e-16,
+        "ucost": 0.4774722572415657,
+        "scost": 3.420130926266996e-06,
+        "objective": 0.47747567737249197,
+        "minimum_noncontact": 1.0770828673400956e-11,
+        "it": 400,
+        "seconds": 275.1970839500427,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472150647785,
+        "Qmax": 0.0,
+        "ucost": 0.4774722566926561,
+        "scost": 3.4200456130502914e-06,
+        "objective": 0.47747567673826913,
+        "minimum_noncontact": 1.0773937297869907e-11,
+        "it": 410,
+        "seconds": 282.8827860355377,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447210135609,
+        "Qmax": 0.0,
+        "ucost": 0.47747225614358835,
+        "scost": 3.4199602595003977e-06,
+        "objective": 0.47747567610384783,
+        "minimum_noncontact": 1.0773493208660057e-11,
+        "it": 420,
+        "seconds": 290.63553500175476,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447205206492,
+        "Qmax": 0.0,
+        "ucost": 0.477472255594648,
+        "scost": 3.4198749449216657e-06,
+        "objective": 0.4774756754695929,
+        "minimum_noncontact": 1.0774270364777294e-11,
+        "it": 430,
+        "seconds": 298.31026697158813,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494472002773588,
+        "Qmax": 0.0,
+        "ucost": 0.4774722550457242,
+        "scost": 3.4197896438754302e-06,
+        "objective": 0.47747567483536807,
+        "minimum_noncontact": 1.0774381387079757e-11,
+        "it": 440,
+        "seconds": 305.91508293151855,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471953481412,
+        "Qmax": 0.0,
+        "ucost": 0.4774722544965649,
+        "scost": 3.41970429950465e-06,
+        "objective": 0.4774756742008644,
+        "minimum_noncontact": 1.0768053115839393e-11,
+        "it": 450,
+        "seconds": 313.8913519382477,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471904188512,
+        "Qmax": 0.0,
+        "ucost": 0.47747225394728354,
+        "scost": 3.4196189012527344e-06,
+        "objective": 0.4774756735661848,
+        "minimum_noncontact": 1.0767275959722156e-11,
+        "it": 460,
+        "seconds": 321.97308897972107,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471854895598,
+        "Qmax": 0.0,
+        "ucost": 0.47747225339799976,
+        "scost": 3.419533540310094e-06,
+        "objective": 0.4774756729315401,
+        "minimum_noncontact": 1.0768275160444318e-11,
+        "it": 470,
+        "seconds": 330.23045587539673,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471805602984,
+        "Qmax": 0.0,
+        "ucost": 0.47747225284878286,
+        "scost": 3.4194481875926895e-06,
+        "objective": 0.47747567229697047,
+        "minimum_noncontact": 1.0759282353944855e-11,
+        "it": 480,
+        "seconds": 338.91650199890137,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471756307444,
+        "Qmax": 0.0,
+        "ucost": 0.47747225229891077,
+        "scost": 3.41936267672739e-06,
+        "objective": 0.4774756716615875,
+        "minimum_noncontact": 1.0756173729475904e-11,
+        "it": 490,
+        "seconds": 347.55978202819824,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.224944717070126,
+        "Qmax": 0.0,
+        "ucost": 0.4774722517492475,
+        "scost": 3.419277211462048e-06,
+        "objective": 0.477475671026459,
+        "minimum_noncontact": 1.0754175328031579e-11,
+        "it": 500,
+        "seconds": 356.1770830154419,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447165771672,
+        "Qmax": 0.0,
+        "ucost": 0.477472251199319,
+        "scost": 3.419191683406639e-06,
+        "objective": 0.4774756703910024,
+        "minimum_noncontact": 1.0749512391328153e-11,
+        "it": 510,
+        "seconds": 364.7967178821564,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471608420416,
+        "Qmax": 3.4046139974940424e-16,
+        "ucost": 0.4774722506493206,
+        "scost": 3.4191061547757146e-06,
+        "objective": 0.47747566975547534,
+        "minimum_noncontact": 1.0747513989883828e-11,
+        "it": 520,
+        "seconds": 374.12256598472595,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471559123844,
+        "Qmax": 1.6468483795506153e-16,
+        "ucost": 0.4774722500992448,
+        "scost": 3.419020599225592e-06,
+        "objective": 0.47747566911984407,
+        "minimum_noncontact": 1.074718092297644e-11,
+        "it": 530,
+        "seconds": 384.1588158607483,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471509827307,
+        "Qmax": 0.0,
+        "ucost": 0.4774722495492576,
+        "scost": 3.418935070891815e-06,
+        "objective": 0.4774756684843285,
+        "minimum_noncontact": 1.0741185718643464e-11,
+        "it": 540,
+        "seconds": 394.4167101383209,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471460530133,
+        "Qmax": 0.0,
+        "ucost": 0.4774722489991166,
+        "scost": 3.418849543270606e-06,
+        "objective": 0.47747566784865986,
+        "minimum_noncontact": 1.0739076294896677e-11,
+        "it": 550,
+        "seconds": 404.02797293663025,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471411232228,
+        "Qmax": 0.0,
+        "ucost": 0.47747224844880926,
+        "scost": 3.4187639376472964e-06,
+        "objective": 0.4774756672127469,
+        "minimum_noncontact": 1.0737188915754814e-11,
+        "it": 560,
+        "seconds": 414.5029900074005,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471361934423,
+        "Qmax": 1.202538614330896e-16,
+        "ucost": 0.4774722478985774,
+        "scost": 3.418678381730282e-06,
+        "objective": 0.4774756665769591,
+        "minimum_noncontact": 1.0741185718643464e-11,
+        "it": 570,
+        "seconds": 424.06098794937134,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471312638176,
+        "Qmax": 0.0,
+        "ucost": 0.47747224734874594,
+        "scost": 3.4185929283187033e-06,
+        "objective": 0.47747566594167423,
+        "minimum_noncontact": 1.0739853451013914e-11,
+        "it": 580,
+        "seconds": 432.9219899177551,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471263343155,
+        "Qmax": 0.0,
+        "ucost": 0.47747224679925704,
+        "scost": 3.418507558360094e-06,
+        "objective": 0.4774756653068154,
+        "minimum_noncontact": 1.0740741629433614e-11,
+        "it": 590,
+        "seconds": 441.9586138725281,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471214047548,
+        "Qmax": 0.0,
+        "ucost": 0.4774722462495989,
+        "scost": 3.418422156737429e-06,
+        "objective": 0.4774756646717556,
+        "minimum_noncontact": 1.0738743227989289e-11,
+        "it": 600,
+        "seconds": 452.7338719367981,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471164752491,
+        "Qmax": 0.0,
+        "ucost": 0.47747224570009655,
+        "scost": 3.4183367954378607e-06,
+        "objective": 0.477475664036892,
+        "minimum_noncontact": 1.0738743227989289e-11,
+        "it": 610,
+        "seconds": 464.4573380947113,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471115457154,
+        "Qmax": 0.0,
+        "ucost": 0.47747224515059755,
+        "scost": 3.4182514466974853e-06,
+        "objective": 0.4774756634020442,
+        "minimum_noncontact": 1.0740186517921302e-11,
+        "it": 620,
+        "seconds": 475.3420100212097,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471066162144,
+        "Qmax": 0.0,
+        "ucost": 0.47747224460115745,
+        "scost": 3.418166121187746e-06,
+        "objective": 0.47747566276727865,
+        "minimum_noncontact": 1.0735745625822801e-11,
+        "it": 630,
+        "seconds": 486.4967579841614,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494471016865425,
+        "Qmax": 0.0,
+        "ucost": 0.4774722440512852,
+        "scost": 3.4180806987497025e-06,
+        "objective": 0.47747566213198395,
+        "minimum_noncontact": 1.0725642596298712e-11,
+        "it": 640,
+        "seconds": 499.0254588127136,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470967567073,
+        "Qmax": 0.0,
+        "ucost": 0.4774722435010634,
+        "scost": 3.4179951873695763e-06,
+        "objective": 0.47747566149625076,
+        "minimum_noncontact": 1.0720979659595287e-11,
+        "it": 650,
+        "seconds": 509.5608479976654,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470918268478,
+        "Qmax": 0.0,
+        "ucost": 0.4774722429508279,
+        "scost": 3.417909666960929e-06,
+        "objective": 0.47747566086049487,
+        "minimum_noncontact": 1.0716205700589398e-11,
+        "it": 660,
+        "seconds": 521.5327310562134,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470868969987,
+        "Qmax": 0.0,
+        "ucost": 0.4774722424006638,
+        "scost": 3.417824171682802e-06,
+        "objective": 0.4774756602248355,
+        "minimum_noncontact": 1.0721867838014987e-11,
+        "it": 670,
+        "seconds": 531.9721188545227,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470819671744,
+        "Qmax": 0.0,
+        "ucost": 0.4774722418505502,
+        "scost": 3.4177386932207452e-06,
+        "objective": 0.47747565958924343,
+        "minimum_noncontact": 1.0717093879009099e-11,
+        "it": 680,
+        "seconds": 541.7070598602295,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447077037331,
+        "Qmax": 0.0,
+        "ucost": 0.4774722413004323,
+        "scost": 3.4176532290437255e-06,
+        "objective": 0.47747565895366134,
+        "minimum_noncontact": 1.0724088284064237e-11,
+        "it": 690,
+        "seconds": 551.439728975296,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470721075296,
+        "Qmax": 0.0,
+        "ucost": 0.4774722407504343,
+        "scost": 3.4175677934970225e-06,
+        "objective": 0.4774756583182278,
+        "minimum_noncontact": 1.0726530774718412e-11,
+        "it": 700,
+        "seconds": 563.1920440196991,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470671778793,
+        "Qmax": 1.7023069857842093e-16,
+        "ucost": 0.47747224020082585,
+        "scost": 3.417482478610366e-06,
+        "objective": 0.47747565768330447,
+        "minimum_noncontact": 1.07277520200455e-11,
+        "it": 710,
+        "seconds": 574.0322599411011,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470622483376,
+        "Qmax": 0.0,
+        "ucost": 0.47747223965154634,
+        "scost": 3.4173972607909737e-06,
+        "objective": 0.4774756570488071,
+        "minimum_noncontact": 1.0737410960359739e-11,
+        "it": 720,
+        "seconds": 584.6111290454865,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470573190614,
+        "Qmax": 1.2025385916933255e-16,
+        "ucost": 0.4774722391029069,
+        "scost": 3.4173122027564634e-06,
+        "objective": 0.4774756564151097,
+        "minimum_noncontact": 1.0750622614352778e-11,
+        "it": 730,
+        "seconds": 595.399582862854,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447052389968,
+        "Qmax": 1.202538590279637e-16,
+        "ucost": 0.4774722385547302,
+        "scost": 3.417227255187204e-06,
+        "objective": 0.47747565578198536,
+        "minimum_noncontact": 1.0754064305729116e-11,
+        "it": 740,
+        "seconds": 606.1797218322754,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 76,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470474610345,
+        "Qmax": 0.0,
+        "ucost": 0.47747223800697436,
+        "scost": 3.4171424335476017e-06,
+        "objective": 0.47747565514940793,
+        "minimum_noncontact": 1.0759837465457167e-11,
+        "it": 750,
+        "seconds": 616.5524778366089,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 77,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447042532193,
+        "Qmax": 0.0,
+        "ucost": 0.47747223745948486,
+        "scost": 3.4170576792490804e-06,
+        "objective": 0.4774756545171641,
+        "minimum_noncontact": 1.075950439854978e-11,
+        "it": 760,
+        "seconds": 626.5533649921417,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 78,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470376032027,
+        "Qmax": 0.0,
+        "ucost": 0.4774722369115605,
+        "scost": 3.416972842068498e-06,
+        "objective": 0.47747565388440255,
+        "minimum_noncontact": 1.074984545823554e-11,
+        "it": 770,
+        "seconds": 637.0465269088745,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 79,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470326741436,
+        "Qmax": 0.0,
+        "ucost": 0.47747223636355884,
+        "scost": 3.416887971502986e-06,
+        "objective": 0.47747565325153035,
+        "minimum_noncontact": 1.0752732038099566e-11,
+        "it": 780,
+        "seconds": 648.7815878391266,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 80,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447027745169,
+        "Qmax": 0.0,
+        "ucost": 0.47747223581577847,
+        "scost": 3.416803160767519e-06,
+        "objective": 0.47747565261893926,
+        "minimum_noncontact": 1.0752621015797104e-11,
+        "it": 790,
+        "seconds": 659.7885749340057,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 81,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470228160837,
+        "Qmax": 0.0,
+        "ucost": 0.477472235267733,
+        "scost": 3.416718293901377e-06,
+        "objective": 0.4774756519860269,
+        "minimum_noncontact": 1.0748402168303528e-11,
+        "it": 800,
+        "seconds": 670.0190110206604,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 82,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470178869755,
+        "Qmax": 0.0,
+        "ucost": 0.4774722347196935,
+        "scost": 3.41663341417145e-06,
+        "objective": 0.4774756513531077,
+        "minimum_noncontact": 1.0752287948889716e-11,
+        "it": 810,
+        "seconds": 680.8126430511475,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 83,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447012957855,
+        "Qmax": 0.0,
+        "ucost": 0.47747223417160783,
+        "scost": 3.416548541067966e-06,
+        "objective": 0.4774756507201489,
+        "minimum_noncontact": 1.074673683376659e-11,
+        "it": 820,
+        "seconds": 691.4174230098724,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 84,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494470080287202,
+        "Qmax": 0.0,
+        "ucost": 0.4774722336235277,
+        "scost": 3.416463672944166e-06,
+        "objective": 0.47747565008720066,
+        "minimum_noncontact": 1.0747847056791215e-11,
+        "it": 830,
+        "seconds": 701.2547528743744,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 85,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249447003099708,
+        "Qmax": 1.7023069768725857e-16,
+        "ucost": 0.4774722330757732,
+        "scost": 3.4163789083719967e-06,
+        "objective": 0.47747564945468157,
+        "minimum_noncontact": 1.0752509993494641e-11,
+        "it": 840,
+        "seconds": 711.7677478790283,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 86,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469981707274,
+        "Qmax": 0.0,
+        "ucost": 0.47747223252807053,
+        "scost": 3.4162941654024297e-06,
+        "objective": 0.4774756488222359,
+        "minimum_noncontact": 1.0753287149611879e-11,
+        "it": 850,
+        "seconds": 721.7052021026611,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 87,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469932417568,
+        "Qmax": 0.0,
+        "ucost": 0.4774722319804677,
+        "scost": 3.416209455782599e-06,
+        "objective": 0.47747564818992344,
+        "minimum_noncontact": 1.0750178525142928e-11,
+        "it": 860,
+        "seconds": 731.9420058727264,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 88,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469883126322,
+        "Qmax": 0.0,
+        "ucost": 0.47747223143245837,
+        "scost": 3.4161246523705048e-06,
+        "objective": 0.47747564755711075,
+        "minimum_noncontact": 1.0738854250291752e-11,
+        "it": 870,
+        "seconds": 743.7552959918976,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 89,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469833834635,
+        "Qmax": 1.6468484543212963e-16,
+        "ucost": 0.4774722308843956,
+        "scost": 3.4160397956614307e-06,
+        "objective": 0.47747564692419125,
+        "minimum_noncontact": 1.074096367403854e-11,
+        "it": 880,
+        "seconds": 754.119542837143,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 90,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469784542082,
+        "Qmax": 1.2025385690774318e-16,
+        "ucost": 0.47747223033614444,
+        "scost": 3.4159549316284473e-06,
+        "objective": 0.4774756462910761,
+        "minimum_noncontact": 1.0735412558915414e-11,
+        "it": 890,
+        "seconds": 763.8253228664398,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 91,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249446973524922,
+        "Qmax": 0.0,
+        "ucost": 0.47747222978781845,
+        "scost": 3.4158700503928007e-06,
+        "objective": 0.4774756456578688,
+        "minimum_noncontact": 1.0732192912144e-11,
+        "it": 900,
+        "seconds": 774.567177772522,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 92,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469685955723,
+        "Qmax": 1.2025385662497483e-16,
+        "ucost": 0.47747222923936306,
+        "scost": 3.4157851521319947e-06,
+        "objective": 0.47747564502451517,
+        "minimum_noncontact": 1.0730083488397213e-11,
+        "it": 910,
+        "seconds": 784.8164739608765,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 93,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249446963666145,
+        "Qmax": 0.0,
+        "ucost": 0.47747222869079686,
+        "scost": 3.41570021686009e-06,
+        "objective": 0.4774756443910137,
+        "minimum_noncontact": 1.0732748023656313e-11,
+        "it": 920,
+        "seconds": 794.8219780921936,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 94,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469587367558,
+        "Qmax": 1.7023069707050434e-16,
+        "ucost": 0.47747222814227935,
+        "scost": 3.415615290705931e-06,
+        "objective": 0.47747564375757007,
+        "minimum_noncontact": 1.0726752819323337e-11,
+        "it": 930,
+        "seconds": 804.7276268005371,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 95,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469538072678,
+        "Qmax": 1.2025385620076931e-16,
+        "ucost": 0.4774722275935421,
+        "scost": 3.41553032893888e-06,
+        "objective": 0.47747564312387103,
+        "minimum_noncontact": 1.0723866239459312e-11,
+        "it": 940,
+        "seconds": 816.532212972641,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 96,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469488777183,
+        "Qmax": 0.0,
+        "ucost": 0.4774722270447107,
+        "scost": 3.415445330742831e-06,
+        "objective": 0.47747564249004143,
+        "minimum_noncontact": 1.0723977261761775e-11,
+        "it": 950,
+        "seconds": 829.6793258190155,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 97,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469439482673,
+        "Qmax": 1.7023069686522868e-16,
+        "ucost": 0.4774722264961577,
+        "scost": 3.4153604134622647e-06,
+        "objective": 0.4774756418565712,
+        "minimum_noncontact": 1.0734191313588326e-11,
+        "it": 960,
+        "seconds": 841.4803249835968,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 98,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469390191352,
+        "Qmax": 0.0,
+        "ucost": 0.4774722259484029,
+        "scost": 3.4152757376355548e-06,
+        "objective": 0.47747564122414055,
+        "minimum_noncontact": 1.0740297540223764e-11,
+        "it": 970,
+        "seconds": 853.3238980770111,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 99,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469340899856,
+        "Qmax": 1.702306967280465e-16,
+        "ucost": 0.47747222540060297,
+        "scost": 3.415191030552604e-06,
+        "objective": 0.4774756405916335,
+        "minimum_noncontact": 1.0740408562526227e-11,
+        "it": 980,
+        "seconds": 866.0297000408173,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 100,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469291608926,
+        "Qmax": 1.7023069665942771e-16,
+        "ucost": 0.47747222485296,
+        "scost": 3.4151063727659613e-06,
+        "objective": 0.47747563995933273,
+        "minimum_noncontact": 1.0739409361804064e-11,
+        "it": 990,
+        "seconds": 877.8104281425476,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 101,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469242318751,
+        "Qmax": 0.0,
+        "ucost": 0.4774722243055491,
+        "scost": 3.415021777274195e-06,
+        "objective": 0.47747563932732634,
+        "minimum_noncontact": 1.0744405365414877e-11,
+        "it": 1000,
+        "seconds": 887.5841789245605,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 102,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469193029396,
+        "Qmax": 0.0,
+        "ucost": 0.4774722237583416,
+        "scost": 3.4149372469046794e-06,
+        "objective": 0.4774756386955885,
+        "minimum_noncontact": 1.0741629807853315e-11,
+        "it": 1010,
+        "seconds": 897.2724430561066,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 103,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249446914373965,
+        "Qmax": 0.0,
+        "ucost": 0.4774722232110656,
+        "scost": 3.414852708148422e-06,
+        "objective": 0.47747563806377374,
+        "minimum_noncontact": 1.0741296740945927e-11,
+        "it": 1020,
+        "seconds": 907.1284468173981,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 104,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469094449662,
+        "Qmax": 0.0,
+        "ucost": 0.4774722226637468,
+        "scost": 3.4147681572138296e-06,
+        "objective": 0.477475637431904,
+        "minimum_noncontact": 1.0742184919365627e-11,
+        "it": 1030,
+        "seconds": 919.2946939468384,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 105,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494469045160248,
+        "Qmax": 0.0,
+        "ucost": 0.47747222211660717,
+        "scost": 3.4146836674961803e-06,
+        "objective": 0.47747563680027466,
+        "minimum_noncontact": 1.074806910139614e-11,
+        "it": 1040,
+        "seconds": 930.2536149024963,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 106,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494468995871575,
+        "Qmax": 0.0,
+        "ucost": 0.4774722215696811,
+        "scost": 3.414599220416972e-06,
+        "objective": 0.47747563616890154,
+        "minimum_noncontact": 1.075028954744539e-11,
+        "it": 1050,
+        "seconds": 940.2431750297546,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 107,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249446894658417,
+        "Qmax": 0.0,
+        "ucost": 0.47747222102304354,
+        "scost": 3.414514888055446e-06,
+        "objective": 0.4774756355379316,
+        "minimum_noncontact": 1.074984545823554e-11,
+        "it": 1060,
+        "seconds": 950.533303976059,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 108,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249446889729753,
+        "Qmax": 0.0,
+        "ucost": 0.4774722204766425,
+        "scost": 3.414430610354609e-06,
+        "objective": 0.47747563490725287,
+        "minimum_noncontact": 1.0754619417241429e-11,
+        "it": 1070,
+        "seconds": 962.7911458015442,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 109,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494468848009913,
+        "Qmax": 0.0,
+        "ucost": 0.4774722199299911,
+        "scost": 3.414346254522627e-06,
+        "objective": 0.4774756342762456,
+        "minimum_noncontact": 1.074051958482869e-11,
+        "it": 1080,
+        "seconds": 973.3669090270996,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 110,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494468798721087,
+        "Qmax": 0.0,
+        "ucost": 0.47747221938311357,
+        "scost": 3.4142618460755964e-06,
+        "objective": 0.47747563364495965,
+        "minimum_noncontact": 1.0745626610741965e-11,
+        "it": 1090,
+        "seconds": 983.8166139125824,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 111,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249446874943261,
+        "Qmax": 0.0,
+        "ucost": 0.477472218836247,
+        "scost": 3.41417745927957e-06,
+        "objective": 0.4774756330137063,
+        "minimum_noncontact": 1.0738188116476977e-11,
+        "it": 1100,
+        "seconds": 994.4240727424622,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 112,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249446870014298,
+        "Qmax": 1.4593451872135512e-16,
+        "ucost": 0.4774722182892034,
+        "scost": 3.414093018880982e-06,
+        "objective": 0.4774756323822223,
+        "minimum_noncontact": 1.073963140640899e-11,
+        "it": 1110,
+        "seconds": 1004.7566938400269,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 113,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494468650853663,
+        "Qmax": 0.0,
+        "ucost": 0.47747221774223175,
+        "scost": 3.4140086064308475e-06,
+        "objective": 0.4774756317508382,
+        "minimum_noncontact": 1.0737188915754814e-11,
+        "it": 1120,
+        "seconds": 1016.2161498069763,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 114,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494468601563825,
+        "Qmax": 0.0,
+        "ucost": 0.47747221719514543,
+        "scost": 3.4139241857956634e-06,
+        "objective": 0.4774756311193312,
+        "minimum_noncontact": 1.0732081889841538e-11,
+        "it": 1130,
+        "seconds": 1026.4362008571625,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 115,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494468552274324,
+        "Qmax": 0.0,
+        "ucost": 0.4774722166482061,
+        "scost": 3.413839801381421e-06,
+        "objective": 0.4774756304880075,
+        "minimum_noncontact": 1.0734413358193251e-11,
+        "it": 1140,
+        "seconds": 1036.9363150596619,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 116,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494468502986228,
+        "Qmax": 0.0,
+        "ucost": 0.4774722161016583,
+        "scost": 3.413755514205744e-06,
+        "objective": 0.4774756298571725,
+        "minimum_noncontact": 1.0742517986273015e-11,
+        "it": 1150,
+        "seconds": 1046.3042359352112,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 117,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249446845369901,
+        "Qmax": 1.6881929308693162e-16,
+        "ucost": 0.47747221555530334,
+        "scost": 3.4136712994900376e-06,
+        "objective": 0.4774756292266028,
+        "minimum_noncontact": 1.074496047692719e-11,
+        "it": 1160,
+        "seconds": 1056.0482358932495,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 118,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494468404412896,
+        "Qmax": 1.7023069542188886e-16,
+        "ucost": 0.47747221500926396,
+        "scost": 3.4135871587233704e-06,
+        "objective": 0.4774756285964227,
+        "minimum_noncontact": 1.0751621815074941e-11,
+        "it": 1170,
+        "seconds": 1065.8785021305084,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 119,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.22494468355127378,
+        "Qmax": 0.0,
+        "ucost": 0.4774722144633622,
+        "scost": 3.4135030691632034e-06,
+        "objective": 0.47747562796643134,
+        "minimum_noncontact": 1.0747736034488753e-11,
+        "it": 1180,
+        "seconds": 1075.6717529296875,
+        "trust": 0.0005652429239111485
+      }
+    },
+    {
+      "source_line": 120,
+      "label": "MULTIPLE_CAP_DIRECT_GOAL",
+      "values": {
+        "V": 145,
+        "E": 246,
+        "F": 103,
+        "S": 1,
+        "U": 3,
+        "Pmax": 0.2249446830584094,
+        "Qmax": 0.0,
+        "ucost": 0.47747221391726763,
+        "scost": 3.4134189341324095e-06,
+        "objective": 0.47747562733620175,
+        "minimum_noncontact": 1.0745182521532115e-11,
+        "it": 1190,
+        "seconds": 1085.0277709960938,
+        "trust": 0.0005652429239111485
+      }
+    }
+  ]
+}

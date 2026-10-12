@@ -1,0 +1,5706 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 0,
+        "S": 2,
+        "U": 1,
+        "reference_guard_minimum": 0.00391003365089359,
+        "own_centroid_distance": 0.34072284900904454,
+        "centroid": [
+          -0.23561880103545113,
+          -0.012015571707690256,
+          0.2458281238426434
+        ],
+        "loss": 0.11609205983684018,
+        "trust": 0.02,
+        "seconds": 2.4056808948516846
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 5,
+        "S": 35,
+        "U": 48,
+        "reference_guard_minimum": 0.012833434709096054,
+        "own_centroid_distance": 0.34049595576040176,
+        "centroid": [
+          -0.23550479437630137,
+          -0.012035204852903913,
+          0.24562194844743443
+        ],
+        "loss": 0.11593749588918946,
+        "trust": 0.02,
+        "seconds": 6.2685980796813965
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 10,
+        "S": 35,
+        "U": 46,
+        "reference_guard_minimum": 0.007635297609028829,
+        "own_centroid_distance": 0.3404196420648913,
+        "centroid": [
+          -0.23546305120593797,
+          -0.01204421235461836,
+          0.2455557394343195
+        ],
+        "loss": 0.1158855327035887,
+        "trust": 0.02,
+        "seconds": 8.821125984191895
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 15,
+        "S": 36,
+        "U": 46,
+        "reference_guard_minimum": 0.007383277096455849,
+        "own_centroid_distance": 0.34039075048655776,
+        "centroid": [
+          -0.23544649973491283,
+          -0.012046430385688067,
+          0.24553144868701132
+        ],
+        "loss": 0.115865863016802,
+        "trust": 0.02,
+        "seconds": 11.21806001663208
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 20,
+        "S": 37,
+        "U": 46,
+        "reference_guard_minimum": 0.007363315230942333,
+        "own_centroid_distance": 0.3403609901056765,
+        "centroid": [
+          -0.23542945741308458,
+          -0.012048588369768711,
+          0.24550642697532957
+        ],
+        "loss": 0.1158456035857164,
+        "trust": 0.02,
+        "seconds": 13.137817859649658
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 25,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.007411504437066877,
+        "own_centroid_distance": 0.340330949454213,
+        "centroid": [
+          -0.23541225186429177,
+          -0.012050732675431167,
+          0.24548117375997422
+        ],
+        "loss": 0.1158251551564061,
+        "trust": 0.02,
+        "seconds": 14.815672159194946
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 30,
+        "S": 37,
+        "U": 46,
+        "reference_guard_minimum": 0.007490793158004946,
+        "own_centroid_distance": 0.3403007794108614,
+        "centroid": [
+          -0.23539503986672372,
+          -0.012052962671489632,
+          0.24545574298562048
+        ],
+        "loss": 0.11580462046763974,
+        "trust": 0.02,
+        "seconds": 16.4773108959198
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 35,
+        "S": 38,
+        "U": 45,
+        "reference_guard_minimum": 0.007579553736610377,
+        "own_centroid_distance": 0.34027062451832735,
+        "centroid": [
+          -0.2353782995994381,
+          -0.012055498558242027,
+          0.24542986562821142
+        ],
+        "loss": 0.11578409791009253,
+        "trust": 0.02,
+        "seconds": 18.19140601158142
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 40,
+        "S": 38,
+        "U": 44,
+        "reference_guard_minimum": 0.007654588031417769,
+        "own_centroid_distance": 0.3402405661144783,
+        "centroid": [
+          -0.2353619160752431,
+          -0.012058227526193803,
+          0.24540377022412968
+        ],
+        "loss": 0.11576364282990068,
+        "trust": 0.02,
+        "seconds": 20.08857798576355
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 45,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.0077436534285641925,
+        "own_centroid_distance": 0.34021047986644076,
+        "centroid": [
+          -0.23534550940744137,
+          -0.012060593757438984,
+          0.24537767602396884
+        ],
+        "loss": 0.11574317061095388,
+        "trust": 0.02,
+        "seconds": 21.898744106292725
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 50,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.00783294942122979,
+        "own_centroid_distance": 0.34018041251561587,
+        "centroid": [
+          -0.2353290973378967,
+          -0.012062783835981944,
+          0.24535162166073346
+        ],
+        "loss": 0.1157227130592946,
+        "trust": 0.02,
+        "seconds": 23.75899600982666
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 55,
+        "S": 38,
+        "U": 44,
+        "reference_guard_minimum": 0.00790990005884635,
+        "own_centroid_distance": 0.34015040877113545,
+        "centroid": [
+          -0.23531276004065999,
+          -0.01206500752832579,
+          0.24532558191627454
+        ],
+        "loss": 0.11570230058717053,
+        "trust": 0.02,
+        "seconds": 25.75362515449524
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 60,
+        "S": 38,
+        "U": 44,
+        "reference_guard_minimum": 0.008000239298366131,
+        "own_centroid_distance": 0.3401203826150691,
+        "centroid": [
+          -0.23529644008903108,
+          -0.012067243828024665,
+          0.24529949363593276
+        ],
+        "loss": 0.11568187467022101,
+        "trust": 0.02,
+        "seconds": 27.74787402153015
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 65,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.00809399011956133,
+        "own_centroid_distance": 0.3400903721453627,
+        "centroid": [
+          -0.23528013834771505,
+          -0.01206942599322028,
+          0.24527341209606385
+        ],
+        "loss": 0.1156614612259713,
+        "trust": 0.02,
+        "seconds": 29.750060081481934
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 70,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.008176457382486006,
+        "own_centroid_distance": 0.3400604260113019,
+        "centroid": [
+          -0.23526398644382637,
+          -0.01207158445899871,
+          0.2452472769883418
+        ],
+        "loss": 0.1156410933389881,
+        "trust": 0.02,
+        "seconds": 31.908017873764038
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 75,
+        "S": 38,
+        "U": 44,
+        "reference_guard_minimum": 0.008269461108665773,
+        "own_centroid_distance": 0.34003046516083063,
+        "centroid": [
+          -0.23524798233683733,
+          -0.012073727755476615,
+          0.2452209802240105
+        ],
+        "loss": 0.11562071723749086,
+        "trust": 0.02,
+        "seconds": 33.851398944854736
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 80,
+        "S": 38,
+        "U": 44,
+        "reference_guard_minimum": 0.008351360982807369,
+        "own_centroid_distance": 0.3400005624704096,
+        "centroid": [
+          -0.235232093100103,
+          -0.01207589318910341,
+          0.24519465259182296
+        ],
+        "loss": 0.1156003824801949,
+        "trust": 0.02,
+        "seconds": 36.09939098358154
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 85,
+        "S": 38,
+        "U": 44,
+        "reference_guard_minimum": 0.008445781315169,
+        "own_centroid_distance": 0.3399706201647701,
+        "centroid": [
+          -0.23521619021162768,
+          -0.012078049542861655,
+          0.2451682833418425
+        ],
+        "loss": 0.11558002257521839,
+        "trust": 0.02,
+        "seconds": 37.985774755477905
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 90,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.00853033529219591,
+        "own_centroid_distance": 0.3399407250197512,
+        "centroid": [
+          -0.23520046565841457,
+          -0.012079644334144164,
+          0.24514183582934107
+        ],
+        "loss": 0.1155596965269541,
+        "trust": 0.02,
+        "seconds": 40.124351024627686
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 95,
+        "S": 38,
+        "U": 44,
+        "reference_guard_minimum": 0.008621110607337945,
+        "own_centroid_distance": 0.3399107874249264,
+        "centroid": [
+          -0.2351844671754723,
+          -0.012082039461209696,
+          0.2451155526066848
+        ],
+        "loss": 0.1155393434078335,
+        "trust": 0.02,
+        "seconds": 42.04587197303772
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 100,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.00871342891843806,
+        "own_centroid_distance": 0.3398808325872531,
+        "centroid": [
+          -0.23516839064996117,
+          -0.012084836413684777,
+          0.2450893003135104
+        ],
+        "loss": 0.11551898036020436,
+        "trust": 0.02,
+        "seconds": 44.1017427444458
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 105,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.00879246469069233,
+        "own_centroid_distance": 0.33985093401557337,
+        "centroid": [
+          -0.235152410516857,
+          -0.012087851423586234,
+          0.2450630225622186
+        ],
+        "loss": 0.1154986573512576,
+        "trust": 0.02,
+        "seconds": 46.0632529258728
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 110,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.008895193219109882,
+        "own_centroid_distance": 0.3398209654556803,
+        "centroid": [
+          -0.23513658578422145,
+          -0.012091275808236218,
+          0.24503647817886082
+        ],
+        "loss": 0.11547828856323068,
+        "trust": 0.02,
+        "seconds": 48.07317399978638
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 115,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.008999586749447197,
+        "own_centroid_distance": 0.3397909811031998,
+        "centroid": [
+          -0.23512094980275144,
+          -0.012094856300989982,
+          0.24500972277439417
+        ],
+        "loss": 0.11545791083907506,
+        "trust": 0.02,
+        "seconds": 49.96798586845398
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 120,
+        "S": 38,
+        "U": 43,
+        "reference_guard_minimum": 0.00910073069743688,
+        "own_centroid_distance": 0.33976099185478276,
+        "centroid": [
+          -0.23510486524431023,
+          -0.012098672995064789,
+          0.24498337910225457
+        ],
+        "loss": 0.11543753158614574,
+        "trust": 0.02,
+        "seconds": 51.81067609786987
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 125,
+        "S": 39,
+        "U": 44,
+        "reference_guard_minimum": 0.009167166173946592,
+        "own_centroid_distance": 0.3397414872256097,
+        "centroid": [
+          -0.235094415439644,
+          -0.012101282771576452,
+          0.24496622813490748
+        ],
+        "loss": 0.1154242781422691,
+        "trust": 0.02,
+        "seconds": 53.88189196586609
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 130,
+        "S": 39,
+        "U": 44,
+        "reference_guard_minimum": 0.00919188668329385,
+        "own_centroid_distance": 0.33973398550473044,
+        "centroid": [
+          -0.2350903975011782,
+          -0.012102292321380556,
+          0.24495963020513056
+        ],
+        "loss": 0.1154191809069284,
+        "trust": 0.02,
+        "seconds": 56.140799045562744
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 135,
+        "S": 39,
+        "U": 44,
+        "reference_guard_minimum": 0.009216663667181244,
+        "own_centroid_distance": 0.3397264816412332,
+        "centroid": [
+          -0.2350863766388674,
+          -0.012103302828667822,
+          0.24495303204446622
+        ],
+        "loss": 0.11541408232833114,
+        "trust": 0.02,
+        "seconds": 58.64050316810608
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 140,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009241498099097589,
+        "own_centroid_distance": 0.3397189757167875,
+        "centroid": [
+          -0.2350823528101563,
+          -0.012104314348148367,
+          0.24494643380434358
+        ],
+        "loss": 0.11540898246206324,
+        "trust": 0.02,
+        "seconds": 60.99564790725708
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 145,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.009266390620581929,
+        "own_centroid_distance": 0.33971146785378165,
+        "centroid": [
+          -0.23507832607395113,
+          -0.012105326919676949,
+          0.24493983559602506
+        ],
+        "loss": 0.11540388139137091,
+        "trust": 0.02,
+        "seconds": 63.3862099647522
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 150,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.009291341593751288,
+        "own_centroid_distance": 0.3397039581999164,
+        "centroid": [
+          -0.2350742965947307,
+          -0.01210634055959829,
+          0.24493323746571863
+        ],
+        "loss": 0.11539877921669053,
+        "trust": 0.02,
+        "seconds": 65.68861293792725
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 155,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.009316350902198433,
+        "own_centroid_distance": 0.3396964469058319,
+        "centroid": [
+          -0.23507026462155964,
+          -0.012107355256556603,
+          0.24492663938389408
+        ],
+        "loss": 0.11539367604044666,
+        "trust": 0.02,
+        "seconds": 68.18238592147827
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 160,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.009341418347814417,
+        "own_centroid_distance": 0.3396889341019623,
+        "centroid": [
+          -0.23506623044853728,
+          -0.012108370973323707,
+          0.2449200412510476
+        ],
+        "loss": 0.1153885719513273,
+        "trust": 0.02,
+        "seconds": 71.03481912612915
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 165,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009366543414213967,
+        "own_centroid_distance": 0.33968141988681794,
+        "centroid": [
+          -0.23506219437547107,
+          -0.012109387653420034,
+          0.24491344291886505
+        ],
+        "loss": 0.11538346701632472,
+        "trust": 0.02,
+        "seconds": 73.59029984474182
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 170,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009391725851028742,
+        "own_centroid_distance": 0.3396739043227463,
+        "centroid": [
+          -0.2350581566781211,
+          -0.012110405228937538,
+          0.24490684421251482
+        ],
+        "loss": 0.11537836127785821,
+        "trust": 0.02,
+        "seconds": 76.26780796051025
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 175,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009416965274020918,
+        "own_centroid_distance": 0.33966638744250666,
+        "centroid": [
+          -0.23505411759515576,
+          -0.012111423627182651,
+          0.24490024495195714
+        ],
+        "loss": 0.11537325475824303,
+        "trust": 0.02,
+        "seconds": 78.94064211845398
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 180,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009442261652719485,
+        "own_centroid_distance": 0.3396588692545496,
+        "centroid": [
+          -0.2350500773241779,
+          -0.012112442775428592,
+          0.2448936449628474
+        ],
+        "loss": 0.11536814746327921,
+        "trust": 0.02,
+        "seconds": 81.58222007751465
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 185,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.00946686956359084,
+        "own_centroid_distance": 0.3396513527136853,
+        "centroid": [
+          -0.23504603777530192,
+          -0.01211346288245632,
+          0.2448870464997341
+        ],
+        "loss": 0.11536304140023625,
+        "trust": 0.02,
+        "seconds": 84.03443312644958
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 190,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009491321932239548,
+        "own_centroid_distance": 0.3396438355617344,
+        "centroid": [
+          -0.23504198995550882,
+          -0.01211446464360833,
+          0.24488045601729783
+        ],
+        "loss": 0.11535793503508647,
+        "trust": 0.02,
+        "seconds": 86.51990795135498
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 195,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009515527228719428,
+        "own_centroid_distance": 0.33963631807515976,
+        "centroid": [
+          -0.23503793640740994,
+          -0.012115454143802584,
+          0.24487387115796339
+        ],
+        "loss": 0.1153528285556511,
+        "trust": 0.02,
+        "seconds": 89.18089294433594
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 200,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009539795245217314,
+        "own_centroid_distance": 0.33962879905351406,
+        "centroid": [
+          -0.23503388164511113,
+          -0.012116443843776007,
+          0.2448672853076636
+        ],
+        "loss": 0.11534772114653224,
+        "trust": 0.02,
+        "seconds": 91.42905497550964
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 205,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.00956405460311258,
+        "own_centroid_distance": 0.33962127872285,
+        "centroid": [
+          -0.23502982792250895,
+          -0.012117452954244259,
+          0.24486069566584442
+        ],
+        "loss": 0.11534261296134374,
+        "trust": 0.02,
+        "seconds": 93.65621304512024
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 210,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009588379085692331,
+        "own_centroid_distance": 0.33961375667795224,
+        "centroid": [
+          -0.23502577431821328,
+          -0.012118474971229955,
+          0.24485410287640125
+        ],
+        "loss": 0.11533750372491136,
+        "trust": 0.02,
+        "seconds": 95.93175411224365
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 215,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009612764540369117,
+        "own_centroid_distance": 0.3396062329088471,
+        "centroid": [
+          -0.23502171953074286,
+          -0.012119497020230617,
+          0.24484750881176545
+        ],
+        "loss": 0.1153323934305381,
+        "trust": 0.02,
+        "seconds": 98.28969812393188
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 220,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009637851839294923,
+        "own_centroid_distance": 0.3395987048425855,
+        "centroid": [
+          -0.23501766211155103,
+          -0.012120518810115494,
+          0.24484091130804905
+        ],
+        "loss": 0.11532728033076148,
+        "trust": 0.02,
+        "seconds": 100.663743019104
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 225,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009662365241730093,
+        "own_centroid_distance": 0.3395911775257608,
+        "centroid": [
+          -0.23501360510688105,
+          -0.012121540773358207,
+          0.24483431441952644
+        ],
+        "loss": 0.11532216785333277,
+        "trust": 0.02,
+        "seconds": 102.87963700294495
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 230,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009686937694324054,
+        "own_centroid_distance": 0.3395836484185739,
+        "centroid": [
+          -0.23500954707851054,
+          -0.012122562624394309,
+          0.24482771601810246
+        ],
+        "loss": 0.11531705427326962,
+        "trust": 0.02,
+        "seconds": 105.13604617118835
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 235,
+        "S": 39,
+        "U": 44,
+        "reference_guard_minimum": 0.009711570217160112,
+        "own_centroid_distance": 0.33957611749350686,
+        "centroid": [
+          -0.235005488069212,
+          -0.012123584316491673,
+          0.24482111602685816
+        ],
+        "loss": 0.11531193957196398,
+        "trust": 0.02,
+        "seconds": 107.33860611915588
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 240,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009736261122108967,
+        "own_centroid_distance": 0.3395685847342284,
+        "centroid": [
+          -0.23500142812603197,
+          -0.012124605804649349,
+          0.24481451438020202
+        ],
+        "loss": 0.11530682373840685,
+        "trust": 0.02,
+        "seconds": 109.56506299972534
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 245,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009759131889795441,
+        "own_centroid_distance": 0.3395618012654678,
+        "centroid": [
+          -0.23499777199735905,
+          -0.012125524701878972,
+          0.24480856946935178
+        ],
+        "loss": 0.11530221687864904,
+        "trust": 0.02,
+        "seconds": 112.16978788375854
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 250,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009783947383023869,
+        "own_centroid_distance": 0.33955426490536417,
+        "centroid": [
+          -0.23499371036561925,
+          -0.012126545676586949,
+          0.24480196444059701
+        ],
+        "loss": 0.11529709881542223,
+        "trust": 0.02,
+        "seconds": 114.61782884597778
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 255,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009808654564544671,
+        "own_centroid_distance": 0.33954672578171474,
+        "centroid": [
+          -0.23498956929110512,
+          -0.01212743388455448,
+          0.2447954383987571
+        ],
+        "loss": 0.115291978989083,
+        "trust": 0.02,
+        "seconds": 117.17954802513123
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 260,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009834061309044075,
+        "own_centroid_distance": 0.339539181071448,
+        "centroid": [
+          -0.2349853739402864,
+          -0.012128239573347669,
+          0.24478896078390622
+        ],
+        "loss": 0.11528685548266952,
+        "trust": 0.02,
+        "seconds": 119.58000802993774
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 265,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009858829881793766,
+        "own_centroid_distance": 0.33953163684315724,
+        "centroid": [
+          -0.23498117905509752,
+          -0.012129045338573204,
+          0.2447824833733914
+        ],
+        "loss": 0.1152817324173936,
+        "trust": 0.02,
+        "seconds": 122.18784689903259
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 270,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.0098836709913211,
+        "own_centroid_distance": 0.3395240902544737,
+        "centroid": [
+          -0.23497698300739536,
+          -0.012129850893278294,
+          0.24477600380179645
+        ],
+        "loss": 0.115276607863128,
+        "trust": 0.02,
+        "seconds": 124.7231810092926
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 275,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009908586951130501,
+        "own_centroid_distance": 0.3395165412636905,
+        "centroid": [
+          -0.23497278581151465,
+          -0.012130656214741284,
+          0.24476952199862445
+        ],
+        "loss": 0.11527148179165926,
+        "trust": 0.02,
+        "seconds": 127.1358699798584
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 280,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009934335936311897,
+        "own_centroid_distance": 0.3395089868558784,
+        "centroid": [
+          -0.23496858575397528,
+          -0.012131461009803049,
+          0.24476303544132105
+        ],
+        "loss": 0.11526635215590499,
+        "trust": 0.02,
+        "seconds": 129.25455379486084
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 285,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009959405745006521,
+        "own_centroid_distance": 0.3395014330048043,
+        "centroid": [
+          -0.23496438640368597,
+          -0.012132265829747505,
+          0.24475654896261984
+        ],
+        "loss": 0.11526122301231562,
+        "trust": 0.02,
+        "seconds": 131.42293095588684
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 290,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.009984548415098039,
+        "own_centroid_distance": 0.3394938767149413,
+        "centroid": [
+          -0.23496018604944754,
+          -0.012133070385042768,
+          0.24475006006450822
+        ],
+        "loss": 0.11525609232693977,
+        "trust": 0.02,
+        "seconds": 133.40096306800842
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 295,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.01001046418215253,
+        "own_centroid_distance": 0.33948631477167573,
+        "centroid": [
+          -0.234955980472066,
+          -0.0121338561083361,
+          0.2447435692589402
+        ],
+        "loss": 0.11525095791725332,
+        "trust": 0.02,
+        "seconds": 135.50392389297485
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 300,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.01003576961121802,
+        "own_centroid_distance": 0.3394787532994168,
+        "centroid": [
+          -0.23495177908042317,
+          -0.012134659270157182,
+          0.2447370742104013
+        ],
+        "loss": 0.11524582394172628,
+        "trust": 0.02,
+        "seconds": 137.78468894958496
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 305,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.010060007793738657,
+        "own_centroid_distance": 0.33947119424995875,
+        "centroid": [
+          -0.23494756820131016,
+          -0.01213544528145677,
+          0.24473059246772713
+        ],
+        "loss": 0.11524069172549324,
+        "trust": 0.02,
+        "seconds": 140.07644701004028
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 310,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.010086408413798749,
+        "own_centroid_distance": 0.33946362400854224,
+        "centroid": [
+          -0.23494334135436531,
+          -0.012136199331391156,
+          0.24472411210186837
+        ],
+        "loss": 0.11523555202501294,
+        "trust": 0.02,
+        "seconds": 142.5548219680786
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 315,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.010113074930096527,
+        "own_centroid_distance": 0.33945605048627664,
+        "centroid": [
+          -0.23493912542986353,
+          -0.012136975440119113,
+          0.24471761559225438
+        ],
+        "loss": 0.11523041021174159,
+        "trust": 0.02,
+        "seconds": 144.93391013145447
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 320,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.010138734591190206,
+        "own_centroid_distance": 0.33944847881725354,
+        "centroid": [
+          -0.23493491168918618,
+          -0.012137752188033544,
+          0.24471111951189234
+        ],
+        "loss": 0.11522526977134742,
+        "trust": 0.02,
+        "seconds": 147.2479407787323
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 325,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.010165546142999906,
+        "own_centroid_distance": 0.33944090045583364,
+        "centroid": [
+          -0.23493069511540488,
+          -0.012138528764861694,
+          0.2447046168634431
+        ],
+        "loss": 0.11522012490226717,
+        "trust": 0.02,
+        "seconds": 149.4903109073639
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 330,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.010191310988217146,
+        "own_centroid_distance": 0.3394333245361541,
+        "centroid": [
+          -0.23492648318516743,
+          -0.012139323868776794,
+          0.2446981122116072
+        ],
+        "loss": 0.11521498180566611,
+        "trust": 0.02,
+        "seconds": 151.93003487586975
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 335,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.010218254781734918,
+        "own_centroid_distance": 0.33942574160537287,
+        "centroid": [
+          -0.23492226616852632,
+          -0.012140100642987086,
+          0.2446916036135682
+        ],
+        "loss": 0.11520983406435736,
+        "trust": 0.02,
+        "seconds": 154.21237707138062
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 340,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.010245108956998959,
+        "own_centroid_distance": 0.33941666179234015,
+        "centroid": [
+          -0.23491722202775736,
+          -0.012141049598500495,
+          0.24468380414662488
+        ],
+        "loss": 0.1152036703022558,
+        "trust": 0.02,
+        "seconds": 156.3047559261322
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 345,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.010283435406035157,
+        "own_centroid_distance": 0.33940603779728645,
+        "centroid": [
+          -0.2349113177724958,
+          -0.012142065317992255,
+          0.2446746850931991
+        ],
+        "loss": 0.11519645849325304,
+        "trust": 0.02,
+        "seconds": 159.0433747768402
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 350,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.010334346543734352,
+        "own_centroid_distance": 0.3393908726699977,
+        "centroid": [
+          -0.2349029056788534,
+          -0.012143600997856765,
+          0.24466164862956985
+        ],
+        "loss": 0.11518616445170257,
+        "trust": 0.02,
+        "seconds": 161.0628581047058
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 355,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.010390055766615917,
+        "own_centroid_distance": 0.33937568292224324,
+        "centroid": [
+          -0.23489447958033174,
+          -0.012145064173515392,
+          0.24464859500484623
+        ],
+        "loss": 0.115175854158939,
+        "trust": 0.02,
+        "seconds": 163.0912048816681
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 360,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.010445809150239826,
+        "own_centroid_distance": 0.3393604892916439,
+        "centroid": [
+          -0.23488605425517237,
+          -0.012146497765495493,
+          0.24463553666778057
+        ],
+        "loss": 0.11516554169226398,
+        "trust": 0.02,
+        "seconds": 165.1317241191864
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 365,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.010497151617877273,
+        "own_centroid_distance": 0.3393453119703896,
+        "centroid": [
+          -0.23487764693538188,
+          -0.012147971324306745,
+          0.244622481630538
+        ],
+        "loss": 0.11515524075628102,
+        "trust": 0.02,
+        "seconds": 167.21094512939453
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 370,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.010552937688042238,
+        "own_centroid_distance": 0.3393301168850399,
+        "centroid": [
+          -0.23486923082490826,
+          -0.01214941317196788,
+          0.24460941191317148
+        ],
+        "loss": 0.11514492822521484,
+        "trust": 0.02,
+        "seconds": 169.2926709651947
+      }
+    },
+    {
+      "source_line": 76,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 375,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.010608908818916995,
+        "own_centroid_distance": 0.33931492296068516,
+        "centroid": [
+          -0.23486081790182523,
+          -0.012150830910101022,
+          0.2445963418910747
+        ],
+        "loss": 0.11513461694381569,
+        "trust": 0.02,
+        "seconds": 171.44921612739563
+      }
+    },
+    {
+      "source_line": 77,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 380,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.010664833434350682,
+        "own_centroid_distance": 0.33929973099655186,
+        "centroid": [
+          -0.23485240055841095,
+          -0.0121521256842377,
+          0.24458328489011397
+        ],
+        "loss": 0.11512430745433246,
+        "trust": 0.02,
+        "seconds": 173.60734295845032
+      }
+    },
+    {
+      "source_line": 78,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 385,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.01071587367800728,
+        "own_centroid_distance": 0.3392845635282582,
+        "centroid": [
+          -0.23484400252267779,
+          -0.012153457454588524,
+          0.2445702414432073
+        ],
+        "loss": 0.11511401504856067,
+        "trust": 0.02,
+        "seconds": 175.79300618171692
+      }
+    },
+    {
+      "source_line": 79,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 390,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.010771513859976592,
+        "own_centroid_distance": 0.33926938165814025,
+        "centroid": [
+          -0.23483555957788985,
+          -0.012154716572424623,
+          0.2445572247010507
+        ],
+        "loss": 0.11510371333069683,
+        "trust": 0.02,
+        "seconds": 178.00693798065186
+      }
+    },
+    {
+      "source_line": 80,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 395,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.010826063978981377,
+        "own_centroid_distance": 0.33925420519666016,
+        "centroid": [
+          -0.23482720788711267,
+          -0.012155887641169998,
+          0.24454413216271545
+        ],
+        "loss": 0.1150934157436176,
+        "trust": 0.02,
+        "seconds": 180.19188499450684
+      }
+    },
+    {
+      "source_line": 81,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 400,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.01087675531882133,
+        "own_centroid_distance": 0.33923904659055715,
+        "centroid": [
+          -0.2348188582773024,
+          -0.012157085384181301,
+          0.24453106102083655
+        ],
+        "loss": 0.11508313073167019,
+        "trust": 0.02,
+        "seconds": 182.56288194656372
+      }
+    },
+    {
+      "source_line": 82,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 405,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.010931235183188233,
+        "own_centroid_distance": 0.339223875582826,
+        "centroid": [
+          -0.2348104889633489,
+          -0.012158271890438556,
+          0.24451799210459704
+        ],
+        "loss": 0.11507283776543263,
+        "trust": 0.02,
+        "seconds": 184.73416805267334
+      }
+    },
+    {
+      "source_line": 83,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 410,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.010985736967300406,
+        "own_centroid_distance": 0.33920870702176725,
+        "centroid": [
+          -0.2348021096440683,
+          -0.012159449479508951,
+          0.24450493658498867
+        ],
+        "loss": 0.11506254691937914,
+        "trust": 0.02,
+        "seconds": 187.1198410987854
+      }
+    },
+    {
+      "source_line": 84,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 415,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011036220810052712,
+        "own_centroid_distance": 0.339193556763586,
+        "centroid": [
+          -0.2347937306858768,
+          -0.012160620674046142,
+          0.24449190638007212
+        ],
+        "loss": 0.11505226894993204,
+        "trust": 0.02,
+        "seconds": 189.41451287269592
+      }
+    },
+    {
+      "source_line": 85,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 420,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011090400352017457,
+        "own_centroid_distance": 0.339178394208769,
+        "centroid": [
+          -0.23478529631940748,
+          -0.012161699654750982,
+          0.24447891686555462
+        ],
+        "loss": 0.11504198309803912,
+        "trust": 0.02,
+        "seconds": 191.73829674720764
+      }
+    },
+    {
+      "source_line": 86,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 425,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011144632856228373,
+        "own_centroid_distance": 0.339163235046806,
+        "centroid": [
+          -0.23477685182390956,
+          -0.01216276388136402,
+          0.2444659424742743
+        ],
+        "loss": 0.11503170000741499,
+        "trust": 0.02,
+        "seconds": 193.98399209976196
+      }
+    },
+    {
+      "source_line": 87,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 430,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011195146402925628,
+        "own_centroid_distance": 0.3391480947305905,
+        "centroid": [
+          -0.23476841497227716,
+          -0.012163826431993091,
+          0.24445298692657977
+        ],
+        "loss": 0.11502143015938956,
+        "trust": 0.02,
+        "seconds": 196.28409910202026
+      }
+    },
+    {
+      "source_line": 88,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 435,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011249341950915172,
+        "own_centroid_distance": 0.33913294467363614,
+        "centroid": [
+          -0.2347599633790272,
+          -0.012164811742404191,
+          0.24444003582179674
+        ],
+        "loss": 0.11501115416301157,
+        "trust": 0.02,
+        "seconds": 198.52058291435242
+      }
+    },
+    {
+      "source_line": 89,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 440,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011303641447852245,
+        "own_centroid_distance": 0.33911780142641684,
+        "centroid": [
+          -0.2347515132065351,
+          -0.012165798958144647,
+          0.2444270926620833
+        ],
+        "loss": 0.11500088324428667,
+        "trust": 0.02,
+        "seconds": 200.81346797943115
+      }
+    },
+    {
+      "source_line": 90,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 445,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011354508441956903,
+        "own_centroid_distance": 0.3391026784282819,
+        "centroid": [
+          -0.2347430696344579,
+          -0.012166793365121296,
+          0.24441417085561398
+        ],
+        "loss": 0.11499062651723475,
+        "trust": 0.02,
+        "seconds": 203.08785700798035
+      }
+    },
+    {
+      "source_line": 91,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 450,
+        "S": 39,
+        "U": 45,
+        "reference_guard_minimum": 0.011408638700120094,
+        "own_centroid_distance": 0.33908755055007606,
+        "centroid": [
+          -0.2347346363588735,
+          -0.012167826292820384,
+          0.24440123042821524
+        ],
+        "loss": 0.1149803669380504,
+        "trust": 0.02,
+        "seconds": 205.28317499160767
+      }
+    },
+    {
+      "source_line": 92,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 455,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011448304516238203,
+        "own_centroid_distance": 0.3390754690409725,
+        "centroid": [
+          -0.2347279073466262,
+          -0.012168697529961086,
+          0.24439088775658854
+        ],
+        "loss": 0.11497217370535551,
+        "trust": 0.02,
+        "seconds": 207.47532176971436
+      }
+    },
+    {
+      "source_line": 93,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 460,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011474770822645773,
+        "own_centroid_distance": 0.33906791162574473,
+        "centroid": [
+          -0.23472369994534617,
+          -0.012169289556856224,
+          0.24438441392587285
+        ],
+        "loss": 0.11496704869424383,
+        "trust": 0.02,
+        "seconds": 209.86177492141724
+      }
+    },
+    {
+      "source_line": 94,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 465,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.01150128097910365,
+        "own_centroid_distance": 0.3390603533376131,
+        "centroid": [
+          -0.23471949268999082,
+          -0.012169890345825921,
+          0.24437793829589236
+        ],
+        "loss": 0.11496192320542704,
+        "trust": 0.02,
+        "seconds": 212.20450687408447
+      }
+    },
+    {
+      "source_line": 95,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 470,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011527845427211547,
+        "own_centroid_distance": 0.3390527942777178,
+        "centroid": [
+          -0.23471528430703076,
+          -0.012170489040819661,
+          0.2443714627707283
+        ],
+        "loss": 0.11495679730752843,
+        "trust": 0.02,
+        "seconds": 214.7588129043579
+      }
+    },
+    {
+      "source_line": 96,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 475,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011554464580942055,
+        "own_centroid_distance": 0.33904523443955,
+        "centroid": [
+          -0.23471107474624348,
+          -0.012171085473121884,
+          0.2443649873980286
+        ],
+        "loss": 0.11495167099616942,
+        "trust": 0.02,
+        "seconds": 217.0629529953003
+      }
+    },
+    {
+      "source_line": 97,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 480,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011581137564829811,
+        "own_centroid_distance": 0.33903767383133815,
+        "centroid": [
+          -0.23470686397571067,
+          -0.012171679486720073,
+          0.24435851222767882
+        ],
+        "loss": 0.11494654427696482,
+        "trust": 0.02,
+        "seconds": 219.42300176620483
+      }
+    },
+    {
+      "source_line": 98,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 485,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011607842392150404,
+        "own_centroid_distance": 0.339030112560925,
+        "centroid": [
+          -0.23470265203561824,
+          -0.012172270953508715,
+          0.24435203737713213
+        ],
+        "loss": 0.11494141722307351,
+        "trust": 0.02,
+        "seconds": 221.68922090530396
+      }
+    },
+    {
+      "source_line": 99,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 490,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011634575891117115,
+        "own_centroid_distance": 0.3390225506836934,
+        "centroid": [
+          -0.23469843895270887,
+          -0.0121728597681073,
+          0.24434556290283863
+        ],
+        "loss": 0.11493628987207748,
+        "trust": 0.02,
+        "seconds": 223.9406669139862
+      }
+    },
+    {
+      "source_line": 100,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 495,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011661332490916726,
+        "own_centroid_distance": 0.3390149882946677,
+        "centroid": [
+          -0.2346942247990479,
+          -0.012173445868420582,
+          0.24433908887056177
+        ],
+        "loss": 0.11493116228843368,
+        "trust": 0.02,
+        "seconds": 226.2508909702301
+      }
+    },
+    {
+      "source_line": 101,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 500,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011688109283787837,
+        "own_centroid_distance": 0.33900742551361535,
+        "centroid": [
+          -0.23469000968571904,
+          -0.012174029244996552,
+          0.2443326153402949
+        ],
+        "loss": 0.11492603455336947,
+        "trust": 0.02,
+        "seconds": 228.49266695976257
+      }
+    },
+    {
+      "source_line": 102,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 505,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.01171491580005005,
+        "own_centroid_distance": 0.33899986244760216,
+        "centroid": [
+          -0.23468579373958928,
+          -0.01217460994390314,
+          0.2443261423364801
+        ],
+        "loss": 0.11492090673949318,
+        "trust": 0.02,
+        "seconds": 230.82050681114197
+      }
+    },
+    {
+      "source_line": 103,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 510,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011740764440885766,
+        "own_centroid_distance": 0.33899230317872153,
+        "centroid": [
+          -0.23468157945482915,
+          -0.012175188446768282,
+          0.24431967310326583
+        ],
+        "loss": 0.11491578161441426,
+        "trust": 0.02,
+        "seconds": 233.3190369606018
+      }
+    },
+    {
+      "source_line": 104,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 515,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.01176761999333929,
+        "own_centroid_distance": 0.33898474013144636,
+        "centroid": [
+          -0.23467736244567852,
+          -0.012175764169033026,
+          0.24431320137156717
+        ],
+        "loss": 0.11491065404198422,
+        "trust": 0.02,
+        "seconds": 235.8362581729889
+      }
+    },
+    {
+      "source_line": 105,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 520,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011793533027271989,
+        "own_centroid_distance": 0.33897718123572973,
+        "centroid": [
+          -0.2346731474830946,
+          -0.012176338046626684,
+          0.24430673351480256
+        ],
+        "loss": 0.11490552939852078,
+        "trust": 0.02,
+        "seconds": 238.46097111701965
+      }
+    },
+    {
+      "source_line": 106,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 525,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011820437421193278,
+        "own_centroid_distance": 0.33896961904788603,
+        "centroid": [
+          -0.234668929824602,
+          -0.012176910442007027,
+          0.24430026374224886
+        ],
+        "loss": 0.11490040263746899,
+        "trust": 0.02,
+        "seconds": 241.04077792167664
+      }
+    },
+    {
+      "source_line": 107,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 530,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011847384252717308,
+        "own_centroid_distance": 0.33896205752819425,
+        "centroid": [
+          -0.23466471164344874,
+          -0.012177482414513436,
+          0.24429379540849602
+        ],
+        "loss": 0.11489527644374685,
+        "trust": 0.02,
+        "seconds": 243.78323698043823
+      }
+    },
+    {
+      "source_line": 108,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 535,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.011873409903532407,
+        "own_centroid_distance": 0.33895450065977306,
+        "centroid": [
+          -0.23466049538795802,
+          -0.012178054447677056,
+          0.2442873316642999
+        ],
+        "loss": 0.11489015351751608,
+        "trust": 0.02,
+        "seconds": 246.44389390945435
+      }
+    },
+    {
+      "source_line": 109,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 540,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.01190042622228012,
+        "own_centroid_distance": 0.3389469410172402,
+        "centroid": [
+          -0.2346562767528839,
+          -0.012178625915950468,
+          0.2442808663735615
+        ],
+        "loss": 0.11488502882494452,
+        "trust": 0.02,
+        "seconds": 248.9064109325409
+      }
+    },
+    {
+      "source_line": 110,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 545,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.011927482840394816,
+        "own_centroid_distance": 0.33893938249071537,
+        "centroid": [
+          -0.23465205810608236,
+          -0.01217919726012243,
+          0.2442744026374156
+        ],
+        "loss": 0.11487990500318744,
+        "trust": 0.02,
+        "seconds": 251.45312595367432
+      }
+    },
+    {
+      "source_line": 111,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 550,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.011953626025155213,
+        "own_centroid_distance": 0.338931828954818,
+        "centroid": [
+          -0.23464784179709358,
+          -0.01217976890788386,
+          0.24426794355374334
+        ],
+        "loss": 0.11487478467865801,
+        "trust": 0.02,
+        "seconds": 253.79571509361267
+      }
+    },
+    {
+      "source_line": 112,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 555,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.0119807510535032,
+        "own_centroid_distance": 0.33892427298767436,
+        "centroid": [
+          -0.2346436234925425,
+          -0.012180340197453633,
+          0.244261483020119
+        ],
+        "loss": 0.1148696628202236,
+        "trust": 0.02,
+        "seconds": 256.3238868713379
+      }
+    },
+    {
+      "source_line": 113,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 560,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012007927779518104,
+        "own_centroid_distance": 0.33891671834033127,
+        "centroid": [
+          -0.23463940545308432,
+          -0.012180911529807287,
+          0.2442550240496714
+        ],
+        "loss": 0.11486454197057944,
+        "trust": 0.02,
+        "seconds": 259.1513919830322
+      }
+    },
+    {
+      "source_line": 114,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 565,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012034196567306275,
+        "own_centroid_distance": 0.3389091688580868,
+        "centroid": [
+          -0.23463518999088753,
+          -0.012181483313354228,
+          0.24424856973645878
+        ],
+        "loss": 0.11485942473607921,
+        "trust": 0.02,
+        "seconds": 261.97847604751587
+      }
+    },
+    {
+      "source_line": 115,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 570,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012061447298186164,
+        "own_centroid_distance": 0.3389016171000309,
+        "centroid": [
+          -0.2346309727455264,
+          -0.012182054875877311,
+          0.24424211397812856
+        ],
+        "loss": 0.11485430607301599,
+        "trust": 0.02,
+        "seconds": 264.8198730945587
+      }
+    },
+    {
+      "source_line": 116,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 575,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012087943392051027,
+        "own_centroid_distance": 0.3388940701122365,
+        "centroid": [
+          -0.23462675775242137,
+          -0.012182622210599247,
+          0.24423566287480997
+        ],
+        "loss": 0.11484919075723744,
+        "trust": 0.02,
+        "seconds": 267.7094941139221
+      }
+    },
+    {
+      "source_line": 117,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 580,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012115283765809202,
+        "own_centroid_distance": 0.33888652173390826,
+        "centroid": [
+          -0.23462254082894807,
+          -0.012183170736992713,
+          0.24422921262344638
+        ],
+        "loss": 0.11484407461290669,
+        "trust": 0.02,
+        "seconds": 270.43759989738464
+      }
+    },
+    {
+      "source_line": 118,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 585,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012142667292740774,
+        "own_centroid_distance": 0.3388789743946172,
+        "centroid": [
+          -0.23461832401094024,
+          -0.012183719687140425,
+          0.24422276368027257
+        ],
+        "loss": 0.11483895928674764,
+        "trust": 0.02,
+        "seconds": 272.95441579818726
+      }
+    },
+    {
+      "source_line": 119,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 590,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012170094546217194,
+        "own_centroid_distance": 0.3388714281155693,
+        "centroid": [
+          -0.2346141073354376,
+          -0.012184269091340153,
+          0.2442163160376289
+        ],
+        "loss": 0.11483384479308546,
+        "trust": 0.02,
+        "seconds": 275.385577917099
+      }
+    },
+    {
+      "source_line": 120,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 595,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.01219765802245217,
+        "own_centroid_distance": 0.3388638825050814,
+        "centroid": [
+          -0.2346098908499199,
+          -0.012184818243894521,
+          0.24420986914162493
+        ],
+        "loss": 0.11482873086641762,
+        "trust": 0.02,
+        "seconds": 278.15021896362305
+      }
+    },
+    {
+      "source_line": 121,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 600,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012224559852885392,
+        "own_centroid_distance": 0.33885634098323675,
+        "centroid": [
+          -0.23460565896772764,
+          -0.012185351015736586,
+          0.24420344351685375
+        ],
+        "loss": 0.1148236198245476,
+        "trust": 0.02,
+        "seconds": 280.85690903663635
+      }
+    },
+    {
+      "source_line": 122,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 605,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.01225157462062812,
+        "own_centroid_distance": 0.3388488004219344,
+        "centroid": [
+          -0.23460141567740658,
+          -0.012185873507602248,
+          0.24419703068710175
+        ],
+        "loss": 0.11481850954738392,
+        "trust": 0.02,
+        "seconds": 283.57017493247986
+      }
+    },
+    {
+      "source_line": 123,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 610,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012279402148716981,
+        "own_centroid_distance": 0.33884125789418545,
+        "centroid": [
+          -0.23459717097090008,
+          -0.012186396776408237,
+          0.24419061644005102
+        ],
+        "loss": 0.1148133980513139,
+        "trust": 0.02,
+        "seconds": 286.39667797088623
+      }
+    },
+    {
+      "source_line": 124,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 615,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012306210007385604,
+        "own_centroid_distance": 0.3388337194236664,
+        "centroid": [
+          -0.2345929214474071,
+          -0.012186919387116659,
+          0.24418421247308045
+        ],
+        "loss": 0.11480828941847589,
+        "trust": 0.02,
+        "seconds": 289.03374791145325
+      }
+    },
+    {
+      "source_line": 125,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 620,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012332979636768495,
+        "own_centroid_distance": 0.33882618148427585,
+        "centroid": [
+          -0.23458867452326063,
+          -0.012187444319431725,
+          0.24417780661967592
+        ],
+        "loss": 0.11480318125921543,
+        "trust": 0.02,
+        "seconds": 291.7276427745819
+      }
+    },
+    {
+      "source_line": 126,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 625,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012359783335680212,
+        "own_centroid_distance": 0.3388186440381533,
+        "centroid": [
+          -0.23458442794970677,
+          -0.01218797033086887,
+          0.24417140104970436
+        ],
+        "loss": 0.11479807354785285,
+        "trust": 0.02,
+        "seconds": 294.222718000412
+      }
+    },
+    {
+      "source_line": 127,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 630,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.01238495544795707,
+        "own_centroid_distance": 0.3388111114663621,
+        "centroid": [
+          -0.23458018927063806,
+          -0.01218848317722771,
+          0.24416499530575986
+        ],
+        "loss": 0.11479296925307167,
+        "trust": 0.02,
+        "seconds": 296.659126996994
+      }
+    },
+    {
+      "source_line": 128,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 635,
+        "S": 39,
+        "U": 47,
+        "reference_guard_minimum": 0.012409522192967985,
+        "own_centroid_distance": 0.33880358113293463,
+        "centroid": [
+          -0.23457595308549598,
+          -0.012188993828450533,
+          0.24415859037105817
+        ],
+        "loss": 0.11478786658850101,
+        "trust": 0.02,
+        "seconds": 299.22623801231384
+      }
+    },
+    {
+      "source_line": 129,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 640,
+        "S": 38,
+        "U": 47,
+        "reference_guard_minimum": 0.012451060637206609,
+        "own_centroid_distance": 0.33879003767818827,
+        "centroid": [
+          -0.23456837891131294,
+          -0.012189792856812192,
+          0.2441470339672693
+        ],
+        "loss": 0.11477868962998822,
+        "trust": 0.02,
+        "seconds": 302.12071800231934
+      }
+    },
+    {
+      "source_line": 130,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 645,
+        "S": 38,
+        "U": 47,
+        "reference_guard_minimum": 0.012485147268902015,
+        "own_centroid_distance": 0.338779497000402,
+        "centroid": [
+          -0.2345624941539975,
+          -0.012190452673421745,
+          0.24413802814743615
+        ],
+        "loss": 0.11477154758784537,
+        "trust": 0.02,
+        "seconds": 306.4849531650543
+      }
+    },
+    {
+      "source_line": 131,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 650,
+        "S": 38,
+        "U": 47,
+        "reference_guard_minimum": 0.012527541855252882,
+        "own_centroid_distance": 0.338765947409175,
+        "centroid": [
+          -0.2345549296003004,
+          -0.012191307299597089,
+          0.24412645114890938
+        ],
+        "loss": 0.11476236712403591,
+        "trust": 0.02,
+        "seconds": 309.2792489528656
+      }
+    },
+    {
+      "source_line": 132,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 655,
+        "S": 38,
+        "U": 47,
+        "reference_guard_minimum": 0.012561869334684372,
+        "own_centroid_distance": 0.3387554013817008,
+        "centroid": [
+          -0.2345490414766529,
+          -0.012191976983523483,
+          0.24411744059958884
+        ],
+        "loss": 0.11475522196527721,
+        "trust": 0.02,
+        "seconds": 312.78089714050293
+      }
+    },
+    {
+      "source_line": 133,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 660,
+        "S": 38,
+        "U": 47,
+        "reference_guard_minimum": 0.012599661455557241,
+        "own_centroid_distance": 0.33874335183715215,
+        "centroid": [
+          -0.2345423272811142,
+          -0.012192740598883364,
+          0.2441071326367087
+        ],
+        "loss": 0.11474705841386866,
+        "trust": 0.02,
+        "seconds": 316.02641797065735
+      }
+    },
+    {
+      "source_line": 134,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 665,
+        "S": 38,
+        "U": 47,
+        "reference_guard_minimum": 0.012645536804899594,
+        "own_centroid_distance": 0.3387282901922362,
+        "centroid": [
+          -0.23453395162823595,
+          -0.012193696251968936,
+          0.2440942315621464
+        ],
+        "loss": 0.11473685457655579,
+        "trust": 0.02,
+        "seconds": 318.4864110946655
+      }
+    },
+    {
+      "source_line": 135,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 670,
+        "S": 38,
+        "U": 47,
+        "reference_guard_minimum": 0.012685157111240483,
+        "own_centroid_distance": 0.3387132098999498,
+        "centroid": [
+          -0.23452552919592642,
+          -0.012194782640393576,
+          0.24408134298313672
+        ],
+        "loss": 0.11472663856072744,
+        "trust": 0.02,
+        "seconds": 321.02524280548096
+      }
+    },
+    {
+      "source_line": 136,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 675,
+        "S": 38,
+        "U": 47,
+        "reference_guard_minimum": 0.012719680417281868,
+        "own_centroid_distance": 0.3386981175498577,
+        "centroid": [
+          -0.23451707417685033,
+          -0.01219596513153386,
+          0.2440684641363101
+        ],
+        "loss": 0.11471641483181723,
+        "trust": 0.02,
+        "seconds": 323.5672130584717
+      }
+    },
+    {
+      "source_line": 137,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 680,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.012754174628025378,
+        "own_centroid_distance": 0.3386830201447097,
+        "centroid": [
+          -0.23450861718390753,
+          -0.012197160689282338,
+          0.24405557947310513
+        ],
+        "loss": 0.11470618813434182,
+        "trust": 0.02,
+        "seconds": 326.03220677375793
+      }
+    },
+    {
+      "source_line": 138,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 685,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.012788443046843036,
+        "own_centroid_distance": 0.3386679194807681,
+        "centroid": [
+          -0.23450016139539723,
+          -0.012198366652191423,
+          0.2440426885648971
+        ],
+        "loss": 0.114695959685432,
+        "trust": 0.02,
+        "seconds": 328.2619938850403
+      }
+    },
+    {
+      "source_line": 139,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 690,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.012821150671269687,
+        "own_centroid_distance": 0.33865282220871035,
+        "centroid": [
+          -0.23449171198674015,
+          -0.012199582823324418,
+          0.24402979567747235
+        ],
+        "loss": 0.11468573398992436,
+        "trust": 0.02,
+        "seconds": 330.68672490119934
+      }
+    },
+    {
+      "source_line": 140,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 695,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.01285405828600099,
+        "own_centroid_distance": 0.33863772340138,
+        "centroid": [
+          -0.23448326815800413,
+          -0.012200807734632507,
+          0.2440168948147517
+        ],
+        "loss": 0.11467550771046954,
+        "trust": 0.02,
+        "seconds": 332.9434540271759
+      }
+    },
+    {
+      "source_line": 141,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 700,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.012888498150064487,
+        "own_centroid_distance": 0.3386226274142693,
+        "centroid": [
+          -0.23447484402060925,
+          -0.0122019639174569,
+          0.24400398233432807
+        ],
+        "loss": 0.11466528379694305,
+        "trust": 0.02,
+        "seconds": 335.34038400650024
+      }
+    },
+    {
+      "source_line": 142,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 705,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.01292399813013778,
+        "own_centroid_distance": 0.33860754204210586,
+        "centroid": [
+          -0.2344664478816883,
+          -0.012203070450845498,
+          0.24399106011719304
+        ],
+        "loss": 0.11465506752779649,
+        "trust": 0.02,
+        "seconds": 337.7486457824707
+      }
+    },
+    {
+      "source_line": 143,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 710,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.012959495668008308,
+        "own_centroid_distance": 0.3385924712421129,
+        "centroid": [
+          -0.2344580775628429,
+          -0.012204174591843623,
+          0.24397813338475388
+        ],
+        "loss": 0.11464486158184103,
+        "trust": 0.02,
+        "seconds": 340.30813694000244
+      }
+    },
+    {
+      "source_line": 144,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 715,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.012994430792430338,
+        "own_centroid_distance": 0.3385774179304448,
+        "centroid": [
+          -0.23444973191887597,
+          -0.012205276617716912,
+          0.2439652072700107
+        ],
+        "loss": 0.11463466793244709,
+        "trust": 0.02,
+        "seconds": 343.0991880893707
+      }
+    },
+    {
+      "source_line": 145,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 720,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.013027874924104442,
+        "own_centroid_distance": 0.3385623840390655,
+        "centroid": [
+          -0.23444141564581894,
+          -0.012206377579965587,
+          0.24395227988804563
+        ],
+        "loss": 0.11462448788621568,
+        "trust": 0.02,
+        "seconds": 345.6111669540405
+      }
+    },
+    {
+      "source_line": 146,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 725,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.01306252855248006,
+        "own_centroid_distance": 0.33854735465364355,
+        "centroid": [
+          -0.23443324954805198,
+          -0.012207388370857117,
+          0.24393921890193002
+        ],
+        "loss": 0.1146143113429799,
+        "trust": 0.02,
+        "seconds": 348.27138686180115
+      }
+    },
+    {
+      "source_line": 147,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 730,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.013096719531715846,
+        "own_centroid_distance": 0.3385323378195505,
+        "centroid": [
+          -0.23442509714830506,
+          -0.012208414787619847,
+          0.24392616133771178
+        ],
+        "loss": 0.11460414374957026,
+        "trust": 0.02,
+        "seconds": 350.6316239833832
+      }
+    },
+    {
+      "source_line": 148,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 735,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.01312966344041023,
+        "own_centroid_distance": 0.3385173329932362,
+        "centroid": [
+          -0.23441693547254033,
+          -0.012209432907865218,
+          0.24391312971749746
+        ],
+        "loss": 0.11459398473685356,
+        "trust": 0.02,
+        "seconds": 353.2720048427582
+      }
+    },
+    {
+      "source_line": 149,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 740,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.01317443193041703,
+        "own_centroid_distance": 0.3384903714017965,
+        "centroid": [
+          -0.23440157187822278,
+          -0.012211022238425474,
+          0.24389039663061182
+        ],
+        "loss": 0.11457573153172612,
+        "trust": 0.02,
+        "seconds": 356.6837408542633
+      }
+    },
+    {
+      "source_line": 150,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 745,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.01324436858046915,
+        "own_centroid_distance": 0.3384603222861291,
+        "centroid": [
+          -0.23438447959060932,
+          -0.012212594032303228,
+          0.2438650406189287
+        ],
+        "loss": 0.11455538976203036,
+        "trust": 0.02,
+        "seconds": 359.9800021648407
+      }
+    },
+    {
+      "source_line": 151,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 750,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.013316875235342246,
+        "own_centroid_distance": 0.33843025445880237,
+        "centroid": [
+          -0.23436743883354577,
+          -0.012214092764537415,
+          0.24383961262599058
+        ],
+        "loss": 0.11453503713304972,
+        "trust": 0.02,
+        "seconds": 363.2538597583771
+      }
+    },
+    {
+      "source_line": 152,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 755,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.013400467303853296,
+        "own_centroid_distance": 0.3384001406530336,
+        "centroid": [
+          -0.23435040289386228,
+          -0.012215562530523133,
+          0.24381411749433254
+        ],
+        "loss": 0.1145146551939929,
+        "trust": 0.02,
+        "seconds": 366.51009583473206
+      }
+    },
+    {
+      "source_line": 153,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 760,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.013476408461201008,
+        "own_centroid_distance": 0.33837005851686014,
+        "centroid": [
+          -0.2343334000074876,
+          -0.012217080162082347,
+          0.24378863200310918
+        ],
+        "loss": 0.11449429650070335,
+        "trust": 0.02,
+        "seconds": 369.7225959300995
+      }
+    },
+    {
+      "source_line": 154,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 765,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.013559615754502199,
+        "own_centroid_distance": 0.33833995316024124,
+        "centroid": [
+          -0.23431636362374098,
+          -0.012218543979427907,
+          0.24376314903127544
+        ],
+        "loss": 0.11447392390447422,
+        "trust": 0.02,
+        "seconds": 372.95296478271484
+      }
+    },
+    {
+      "source_line": 155,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 770,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.01363191424775495,
+        "own_centroid_distance": 0.3383098893965743,
+        "centroid": [
+          -0.23429936479719266,
+          -0.012219865732688542,
+          0.24373769466504241
+        ],
+        "loss": 0.11445358126352234,
+        "trust": 0.02,
+        "seconds": 376.3348460197449
+      }
+    },
+    {
+      "source_line": 156,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 775,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.013704944107102384,
+        "own_centroid_distance": 0.33827983971677805,
+        "centroid": [
+          -0.23428227665955553,
+          -0.012221285546628918,
+          0.2437123406428412
+        ],
+        "loss": 0.11443324995880903,
+        "trust": 0.02,
+        "seconds": 379.7753028869629
+      }
+    },
+    {
+      "source_line": 157,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 780,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.01378657773539696,
+        "own_centroid_distance": 0.33824977542213785,
+        "centroid": [
+          -0.23426518876973404,
+          -0.012222723403924295,
+          0.24368696505229556
+        ],
+        "loss": 0.11441291057312669,
+        "trust": 0.02,
+        "seconds": 382.81623888015747
+      }
+    },
+    {
+      "source_line": 158,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 785,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.013862051388764127,
+        "own_centroid_distance": 0.3382197552259313,
+        "centroid": [
+          -0.23424814256240112,
+          -0.012224159278923358,
+          0.24366161056078853
+        ],
+        "loss": 0.11439260282508885,
+        "trust": 0.02,
+        "seconds": 385.05274081230164
+      }
+    },
+    {
+      "source_line": 159,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 790,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.013936037798991332,
+        "own_centroid_distance": 0.33818976402513984,
+        "centroid": [
+          -0.234231204857551,
+          -0.012225600326676987,
+          0.2436361916034071
+        ],
+        "loss": 0.11437231649137977,
+        "trust": 0.02,
+        "seconds": 387.0138919353485
+      }
+    },
+    {
+      "source_line": 160,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 795,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.014009835659025116,
+        "own_centroid_distance": 0.33815980022160336,
+        "centroid": [
+          -0.2342142922314704,
+          -0.01222705923179384,
+          0.2436107855226617
+        ],
+        "loss": 0.11435205048591468,
+        "trust": 0.02,
+        "seconds": 388.86749482154846
+      }
+    },
+    {
+      "source_line": 161,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 800,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.01408506613534815,
+        "own_centroid_distance": 0.3381298616113594,
+        "centroid": [
+          -0.23419740219634144,
+          -0.012228538882915939,
+          0.2435853915048912
+        ],
+        "loss": 0.11433180331331705,
+        "trust": 0.02,
+        "seconds": 390.9383900165558
+      }
+    },
+    {
+      "source_line": 162,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 805,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.014150821855135347,
+        "own_centroid_distance": 0.33809995568233836,
+        "centroid": [
+          -0.2341804654365662,
+          -0.012229937338589085,
+          0.24356009170840479
+        ],
+        "loss": 0.11431158003239916,
+        "trust": 0.02,
+        "seconds": 392.96548414230347
+      }
+    },
+    {
+      "source_line": 163,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 810,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.014213071132827196,
+        "own_centroid_distance": 0.33807007996631505,
+        "centroid": [
+          -0.2341636310556174,
+          -0.012231807319305617,
+          0.24353471158950357
+        ],
+        "loss": 0.11429137896843064,
+        "trust": 0.02,
+        "seconds": 394.97707200050354
+      }
+    },
+    {
+      "source_line": 164,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 815,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.014285191112941449,
+        "own_centroid_distance": 0.33804019894491166,
+        "centroid": [
+          -0.23414600579742711,
+          -0.012233748459254014,
+          0.24351008083950526
+        ],
+        "loss": 0.11427117610271545,
+        "trust": 0.02,
+        "seconds": 397.23390007019043
+      }
+    },
+    {
+      "source_line": 165,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 820,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.014360341831340266,
+        "own_centroid_distance": 0.33801027956062163,
+        "centroid": [
+          -0.2341280464669946,
+          -0.012235627014011709,
+          0.24348572109627373
+        ],
+        "loss": 0.11425094908864958,
+        "trust": 0.02,
+        "seconds": 399.53795409202576
+      }
+    },
+    {
+      "source_line": 166,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 825,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.014435366123769982,
+        "own_centroid_distance": 0.3379803283343367,
+        "centroid": [
+          -0.2341100023005753,
+          -0.01223741070349308,
+          0.2434614033950447
+        ],
+        "loss": 0.11423070234098605,
+        "trust": 0.02,
+        "seconds": 401.65753984451294
+      }
+    },
+    {
+      "source_line": 167,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 830,
+        "S": 38,
+        "U": 48,
+        "reference_guard_minimum": 0.014512692014432386,
+        "own_centroid_distance": 0.3379503400652831,
+        "centroid": [
+          -0.23409197324458003,
+          -0.012239249029847302,
+          0.24343701689735817
+        ],
+        "loss": 0.11421043235024046,
+        "trust": 0.02,
+        "seconds": 404.14671993255615
+      }
+    },
+    {
+      "source_line": 168,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 835,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.0145898931406289,
+        "own_centroid_distance": 0.3379203390896066,
+        "centroid": [
+          -0.23407390776199977,
+          -0.012241150182010708,
+          0.24341264453122197
+        ],
+        "loss": 0.11419015557043473,
+        "trust": 0.02,
+        "seconds": 406.20480394363403
+      }
+    },
+    {
+      "source_line": 169,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 840,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.014665507520868017,
+        "own_centroid_distance": 0.33789330777468285,
+        "centroid": [
+          -0.2340573067709866,
+          -0.012242716003729297,
+          0.2433910033071906
+        ],
+        "loss": 0.11417188743891654,
+        "trust": 0.02,
+        "seconds": 408.5988290309906
+      }
+    },
+    {
+      "source_line": 170,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 845,
+        "S": 37,
+        "U": 49,
+        "reference_guard_minimum": 0.014750233811465494,
+        "own_centroid_distance": 0.33786323096973647,
+        "centroid": [
+          -0.23403898416166485,
+          -0.012244451638412457,
+          0.24336678108969612
+        ],
+        "loss": 0.1141515628413095,
+        "trust": 0.02,
+        "seconds": 410.52816796302795
+      }
+    },
+    {
+      "source_line": 171,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 850,
+        "S": 37,
+        "U": 50,
+        "reference_guard_minimum": 0.014835388931536402,
+        "own_centroid_distance": 0.3378331030449919,
+        "centroid": [
+          -0.2340207647986527,
+          -0.012246247266537443,
+          0.24334238550640674
+        ],
+        "loss": 0.11413120551300815,
+        "trust": 0.02,
+        "seconds": 412.54060912132263
+      }
+    },
+    {
+      "source_line": 172,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 855,
+        "S": 37,
+        "U": 50,
+        "reference_guard_minimum": 0.014922033003170134,
+        "own_centroid_distance": 0.33780293109538584,
+        "centroid": [
+          -0.23400258402878074,
+          -0.012248078468882893,
+          0.24331788980325203
+        ],
+        "loss": 0.114110820256634,
+        "trust": 0.02,
+        "seconds": 414.66713404655457
+      }
+    },
+    {
+      "source_line": 173,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 860,
+        "S": 37,
+        "U": 50,
+        "reference_guard_minimum": 0.015008841819796196,
+        "own_centroid_distance": 0.33777273093190785,
+        "centroid": [
+          -0.2339844717993448,
+          -0.012249851078691875,
+          0.24329329186504614
+        ],
+        "loss": 0.11409041776119902,
+        "trust": 0.02,
+        "seconds": 416.8879249095917
+      }
+    },
+    {
+      "source_line": 174,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 865,
+        "S": 37,
+        "U": 50,
+        "reference_guard_minimum": 0.015096605859997255,
+        "own_centroid_distance": 0.3377425025083233,
+        "centroid": [
+          -0.23396637263127507,
+          -0.012251678560480829,
+          0.24326863926696088
+        ],
+        "loss": 0.11406999800058476,
+        "trust": 0.02,
+        "seconds": 419.45174980163574
+      }
+    },
+    {
+      "source_line": 175,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 870,
+        "S": 37,
+        "U": 50,
+        "reference_guard_minimum": 0.015183485633591464,
+        "own_centroid_distance": 0.33771226067940785,
+        "centroid": [
+          -0.23394828109814497,
+          -0.012253474203361392,
+          0.24324396221564723
+        ],
+        "loss": 0.11404957101319634,
+        "trust": 0.02,
+        "seconds": 421.88391304016113
+      }
+    },
+    {
+      "source_line": 176,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 875,
+        "S": 37,
+        "U": 50,
+        "reference_guard_minimum": 0.01527049730526814,
+        "own_centroid_distance": 0.33768200225347145,
+        "centroid": [
+          -0.23393018597826365,
+          -0.012255286475207612,
+          0.24321926463070126
+        ],
+        "loss": 0.1140291346459135,
+        "trust": 0.02,
+        "seconds": 424.1857171058655
+      }
+    },
+    {
+      "source_line": 177,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 880,
+        "S": 37,
+        "U": 50,
+        "reference_guard_minimum": 0.015358596810964503,
+        "own_centroid_distance": 0.3376517235306072,
+        "centroid": [
+          -0.2339120749524782,
+          -0.012257166132936329,
+          0.2431945506647001
+        ],
+        "loss": 0.11400868640318959,
+        "trust": 0.02,
+        "seconds": 426.71671509742737
+      }
+    },
+    {
+      "source_line": 178,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 885,
+        "S": 37,
+        "U": 50,
+        "reference_guard_minimum": 0.01544561866055439,
+        "own_centroid_distance": 0.33762143789211385,
+        "centroid": [
+          -0.23389395136560198,
+          -0.012259010078451461,
+          0.24316984087427523
+        ],
+        "loss": 0.1139882353243385,
+        "trust": 0.02,
+        "seconds": 428.892569065094
+      }
+    },
+    {
+      "source_line": 179,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 890,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.015533634364341773,
+        "own_centroid_distance": 0.3375911344639535,
+        "centroid": [
+          -0.23387580270736608,
+          -0.012260919000097832,
+          0.24314512711941677
+        ],
+        "loss": 0.11396777406865914,
+        "trust": 0.02,
+        "seconds": 431.05862498283386
+      }
+    },
+    {
+      "source_line": 180,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 895,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.015621096645579683,
+        "own_centroid_distance": 0.3375608264090948,
+        "centroid": [
+          -0.23385765182585744,
+          -0.012262780044323893,
+          0.2431204113892365
+        ],
+        "loss": 0.11394731152599102,
+        "trust": 0.02,
+        "seconds": 433.1020128726959
+      }
+    },
+    {
+      "source_line": 181,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 900,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.01570989929382568,
+        "own_centroid_distance": 0.3375305034202313,
+        "centroid": [
+          -0.23383948607163169,
+          -0.012264687308498905,
+          0.24309568679451038
+        ],
+        "loss": 0.11392684073911477,
+        "trust": 0.02,
+        "seconds": 435.5988919734955
+      }
+    },
+    {
+      "source_line": 182,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 905,
+        "S": 37,
+        "U": 49,
+        "reference_guard_minimum": 0.015771872928382225,
+        "own_centroid_distance": 0.33750927511545137,
+        "centroid": [
+          -0.2338268066143304,
+          -0.012265990464640511,
+          0.24307834287616692
+        ],
+        "loss": 0.11391251078895745,
+        "trust": 0.02,
+        "seconds": 437.85638999938965
+      }
+    },
+    {
+      "source_line": 183,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 910,
+        "S": 37,
+        "U": 49,
+        "reference_guard_minimum": 0.015815648057323058,
+        "own_centroid_distance": 0.3374941079451218,
+        "centroid": [
+          -0.23381784819624885,
+          -0.012266830136597375,
+          0.24306585864935726
+        ],
+        "loss": 0.11390227289767353,
+        "trust": 0.02,
+        "seconds": 440.62056493759155
+      }
+    },
+    {
+      "source_line": 184,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 915,
+        "S": 37,
+        "U": 49,
+        "reference_guard_minimum": 0.015859312649377406,
+        "own_centroid_distance": 0.3374789362152966,
+        "centroid": [
+          -0.23380889788406437,
+          -0.012267655015490188,
+          0.24305336101290254
+        ],
+        "loss": 0.11389203238900823,
+        "trust": 0.02,
+        "seconds": 443.4216639995575
+      }
+    },
+    {
+      "source_line": 185,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 920,
+        "S": 37,
+        "U": 49,
+        "reference_guard_minimum": 0.015903289987949508,
+        "own_centroid_distance": 0.3374637616599493,
+        "centroid": [
+          -0.23379992907287123,
+          -0.01226849003102772,
+          0.24304087670917007
+        ],
+        "loss": 0.11388179043368304,
+        "trust": 0.02,
+        "seconds": 445.9155578613281
+      }
+    },
+    {
+      "source_line": 186,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 925,
+        "S": 37,
+        "U": 49,
+        "reference_guard_minimum": 0.015947212185202567,
+        "own_centroid_distance": 0.3374485822243842,
+        "centroid": [
+          -0.23379099387687804,
+          -0.01226932673021246,
+          0.24302835317899812
+        ],
+        "loss": 0.11387154564524699,
+        "trust": 0.02,
+        "seconds": 448.5903289318085
+      }
+    },
+    {
+      "source_line": 187,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 930,
+        "S": 37,
+        "U": 49,
+        "reference_guard_minimum": 0.015993018488192564,
+        "own_centroid_distance": 0.33743339577944587,
+        "centroid": [
+          -0.23378196581635163,
+          -0.012270147179254955,
+          0.2430159100439512
+        ],
+        "loss": 0.11386129658724817,
+        "trust": 0.02,
+        "seconds": 451.52328085899353
+      }
+    },
+    {
+      "source_line": 188,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 935,
+        "S": 37,
+        "U": 49,
+        "reference_guard_minimum": 0.01603905544758982,
+        "own_centroid_distance": 0.33741820476427803,
+        "centroid": [
+          -0.2337728776710469,
+          -0.012271026988155223,
+          0.24300351534165504
+        ],
+        "loss": 0.11385104490634826,
+        "trust": 0.02,
+        "seconds": 454.411260843277
+      }
+    },
+    {
+      "source_line": 189,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 940,
+        "S": 37,
+        "U": 49,
+        "reference_guard_minimum": 0.016085717984413515,
+        "own_centroid_distance": 0.33740300945550866,
+        "centroid": [
+          -0.23376377815825686,
+          -0.012271876866187923,
+          0.24299112709930887
+        ],
+        "loss": 0.11384079078963406,
+        "trust": 0.02,
+        "seconds": 457.2921998500824
+      }
+    },
+    {
+      "source_line": 190,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 945,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.016132276820762147,
+        "own_centroid_distance": 0.3373878099088436,
+        "centroid": [
+          -0.23375467877210182,
+          -0.012272756457680622,
+          0.24297873132471473
+        ],
+        "loss": 0.11383053427508597,
+        "trust": 0.02,
+        "seconds": 460.3351728916168
+      }
+    },
+    {
+      "source_line": 191,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 950,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.016179465618397827,
+        "own_centroid_distance": 0.3373726063419752,
+        "centroid": [
+          -0.23374556316163728,
+          -0.012273614207076736,
+          0.24296634665426858
+        ],
+        "loss": 0.11382027550997735,
+        "trust": 0.02,
+        "seconds": 463.26446199417114
+      }
+    },
+    {
+      "source_line": 192,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 955,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.01622695783332119,
+        "own_centroid_distance": 0.3373573989864093,
+        "centroid": [
+          -0.2337364495607249,
+          -0.012274481208435328,
+          0.24295395429728214
+        ],
+        "loss": 0.11381001465087538,
+        "trust": 0.02,
+        "seconds": 466.4487371444702
+      }
+    },
+    {
+      "source_line": 193,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 960,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.01627440335009948,
+        "own_centroid_distance": 0.3373421878925099,
+        "centroid": [
+          -0.23372732163942408,
+          -0.012275363955009477,
+          0.2429415697058425
+        ],
+        "loss": 0.11379975173210546,
+        "trust": 0.02,
+        "seconds": 469.7650718688965
+      }
+    },
+    {
+      "source_line": 194,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 965,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.016322573584718995,
+        "own_centroid_distance": 0.3373269734247207,
+        "centroid": [
+          -0.2337181937294271,
+          -0.012276238788883424,
+          0.24292918079336315
+        ],
+        "loss": 0.1137894869998822,
+        "trust": 0.02,
+        "seconds": 473.1478867530823
+      }
+    },
+    {
+      "source_line": 195,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 970,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.016371144139384414,
+        "own_centroid_distance": 0.3373117557897213,
+        "centroid": [
+          -0.2337090537649764,
+          -0.012277096222479883,
+          0.24291679993480883
+        ],
+        "loss": 0.11377922059394457,
+        "trust": 0.02,
+        "seconds": 476.499351978302
+      }
+    },
+    {
+      "source_line": 196,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 975,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.01641985173187601,
+        "own_centroid_distance": 0.33729653496997075,
+        "centroid": [
+          -0.2336999466649949,
+          -0.01227789882389266,
+          0.24290438578172582
+        ],
+        "loss": 0.1137689525027487,
+        "trust": 0.02,
+        "seconds": 479.8559820652008
+      }
+    },
+    {
+      "source_line": 197,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 980,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.016468562411082084,
+        "own_centroid_distance": 0.33728131245346377,
+        "centroid": [
+          -0.2336908538932159,
+          -0.012278703371915065,
+          0.24289195536389263
+        ],
+        "loss": 0.11375868373033106,
+        "trust": 0.02,
+        "seconds": 483.4782757759094
+      }
+    },
+    {
+      "source_line": 198,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 985,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.01651635307921212,
+        "own_centroid_distance": 0.33726609255808243,
+        "centroid": [
+          -0.23368175209642258,
+          -0.012279502802106733,
+          0.24287953750259855
+        ],
+        "loss": 0.11374841718939702,
+        "trust": 0.02,
+        "seconds": 486.21836018562317
+      }
+    },
+    {
+      "source_line": 199,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 990,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.0165645445920142,
+        "own_centroid_distance": 0.33725087073591586,
+        "centroid": [
+          -0.23367263626560963,
+          -0.012280280647196886,
+          0.2428671315350012
+        ],
+        "loss": 0.11373814981213341,
+        "trust": 0.02,
+        "seconds": 489.01073479652405
+      }
+    },
+    {
+      "source_line": 200,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 995,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.016613197662215473,
+        "own_centroid_distance": 0.3372356470590838,
+        "centroid": [
+          -0.23366359923407998,
+          -0.01228119021067231,
+          0.2428546404896219
+        ],
+        "loss": 0.11372788164735893,
+        "trust": 0.02,
+        "seconds": 491.5497100353241
+      }
+    },
+    {
+      "source_line": 201,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1000,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.0166837707125075,
+        "own_centroid_distance": 0.337214330985473,
+        "centroid": [
+          -0.2336510965993818,
+          -0.012282540492522526,
+          0.24283700146175424
+        ],
+        "loss": 0.11371350502198013,
+        "trust": 0.02,
+        "seconds": 493.54393696784973
+      }
+    },
+    {
+      "source_line": 202,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1005,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.01674522170493463,
+        "own_centroid_distance": 0.33719605793574375,
+        "centroid": [
+          -0.2336403761977062,
+          -0.012283709477972672,
+          0.24282188241396316
+        ],
+        "loss": 0.11370118148740546,
+        "trust": 0.02,
+        "seconds": 495.72246408462524
+      }
+    },
+    {
+      "source_line": 203,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1010,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.016818447099360968,
+        "own_centroid_distance": 0.33717473812189547,
+        "centroid": [
+          -0.23362791776230687,
+          -0.012285150250960013,
+          0.24280419097068504
+        ],
+        "loss": 0.1136868040275688,
+        "trust": 0.02,
+        "seconds": 497.81960916519165
+      }
+    },
+    {
+      "source_line": 204,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1015,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.016905177047872453,
+        "own_centroid_distance": 0.33715037069962733,
+        "centroid": [
+          -0.23361368052541964,
+          -0.012286766795081677,
+          0.24278397001446897
+        ],
+        "loss": 0.11367037246289613,
+        "trust": 0.02,
+        "seconds": 499.81627893447876
+      }
+    },
+    {
+      "source_line": 205,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1020,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.016994965648215513,
+        "own_centroid_distance": 0.3371260034388134,
+        "centroid": [
+          -0.23359944824733522,
+          -0.012288382260157512,
+          0.2427637444813282
+        ],
+        "loss": 0.11365394219462681,
+        "trust": 0.02,
+        "seconds": 502.6276071071625
+      }
+    },
+    {
+      "source_line": 206,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1025,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.017076992510766793,
+        "own_centroid_distance": 0.3371046832329814,
+        "centroid": [
+          -0.23358698109387982,
+          -0.012289753836131075,
+          0.24274606417345557
+        ],
+        "loss": 0.1136395674576087,
+        "trust": 0.02,
+        "seconds": 505.70809602737427
+      }
+    },
+    {
+      "source_line": 207,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1030,
+        "S": 38,
+        "U": 49,
+        "reference_guard_minimum": 0.017151069112330792,
+        "own_centroid_distance": 0.33708641146769175,
+        "centroid": [
+          -0.23357620695290954,
+          -0.012291200331252482,
+          0.2427309842934655
+        ],
+        "loss": 0.11362724879616598,
+        "trust": 0.02,
+        "seconds": 509.6836669445038
+      }
+    },
+    {
+      "source_line": 208,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1035,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.017227786530819852,
+        "own_centroid_distance": 0.33706814962018133,
+        "centroid": [
+          -0.2335654357987681,
+          -0.012292561426000855,
+          0.24271591958932662
+        ],
+        "loss": 0.11361493748837294,
+        "trust": 0.02,
+        "seconds": 513.36323595047
+      }
+    },
+    {
+      "source_line": 209,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1040,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.017306506968610608,
+        "own_centroid_distance": 0.337049898825698,
+        "centroid": [
+          -0.23355467898824683,
+          -0.012293957509925797,
+          0.2427008546129461
+        ],
+        "loss": 0.11360263429841327,
+        "trust": 0.02,
+        "seconds": 516.6130669116974
+      }
+    },
+    {
+      "source_line": 210,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1045,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.01740100559362661,
+        "own_centroid_distance": 0.33702862221288316,
+        "centroid": [
+          -0.23354213162236528,
+          -0.012295548033616611,
+          0.24268330071628164
+        ],
+        "loss": 0.11358829219071433,
+        "trust": 0.02,
+        "seconds": 519.0880620479584
+      }
+    },
+    {
+      "source_line": 211,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1050,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.017477443848723788,
+        "own_centroid_distance": 0.3370103988234254,
+        "centroid": [
+          -0.23353134264896827,
+          -0.012296880668076892,
+          0.24266830786390198
+        ],
+        "loss": 0.11357600891512426,
+        "trust": 0.02,
+        "seconds": 521.6855309009552
+      }
+    },
+    {
+      "source_line": 212,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1055,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.01752102906459967,
+        "own_centroid_distance": 0.33699217725939135,
+        "centroid": [
+          -0.23352040878232086,
+          -0.012298109574093498,
+          0.24265346219880396
+        ],
+        "loss": 0.11356372753402505,
+        "trust": 0.02,
+        "seconds": 524.2066130638123
+      }
+    },
+    {
+      "source_line": 213,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1060,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.01756414727126102,
+        "own_centroid_distance": 0.33697091766143983,
+        "centroid": [
+          -0.23350758148129033,
+          -0.01229927821065119,
+          0.24263622255518325
+        ],
+        "loss": 0.11354939934959288,
+        "trust": 0.02,
+        "seconds": 526.0946769714355
+      }
+    },
+    {
+      "source_line": 214,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1065,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.017601431902123973,
+        "own_centroid_distance": 0.336952692718713,
+        "centroid": [
+          -0.23349659011184695,
+          -0.01230028183612328,
+          0.24262143887810797
+        ],
+        "loss": 0.1135371171303914,
+        "trust": 0.02,
+        "seconds": 528.3063809871674
+      }
+    },
+    {
+      "source_line": 215,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1070,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017645067125482364,
+        "own_centroid_distance": 0.33692838623446036,
+        "centroid": [
+          -0.23348194149701196,
+          -0.012301564301667742,
+          0.24260171467051822
+        ],
+        "loss": 0.1135207374505577,
+        "trust": 0.02,
+        "seconds": 530.9009439945221
+      }
+    },
+    {
+      "source_line": 216,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1075,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017650819960723672,
+        "own_centroid_distance": 0.33691016650431505,
+        "centroid": [
+          -0.23347097452937882,
+          -0.012302590619382775,
+          0.24258691351826728
+        ],
+        "loss": 0.11350846029396529,
+        "trust": 0.02,
+        "seconds": 533.2413640022278
+      }
+    },
+    {
+      "source_line": 217,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1080,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.01765702794878822,
+        "own_centroid_distance": 0.3368889168210363,
+        "centroid": [
+          -0.2334581884724892,
+          -0.012303712692456972,
+          0.24256965013368076
+        ],
+        "loss": 0.1134941422768511,
+        "trust": 0.02,
+        "seconds": 535.8324620723724
+      }
+    },
+    {
+      "source_line": 218,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1085,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017663484327936768,
+        "own_centroid_distance": 0.33686767114581967,
+        "centroid": [
+          -0.23344542007734304,
+          -0.01230487762655454,
+          0.2425523730964438
+        ],
+        "loss": 0.1134798278632081,
+        "trust": 0.02,
+        "seconds": 538.4742519855499
+      }
+    },
+    {
+      "source_line": 219,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1090,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017670046865463758,
+        "own_centroid_distance": 0.33684642647102203,
+        "centroid": [
+          -0.2334326436404501,
+          -0.012306050814561969,
+          0.2425351047223427
+        ],
+        "loss": 0.11346551502629766,
+        "trust": 0.02,
+        "seconds": 541.4207758903503
+      }
+    },
+    {
+      "source_line": 220,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1095,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.01767759411541271,
+        "own_centroid_distance": 0.3368220908436491,
+        "centroid": [
+          -0.23341787690603544,
+          -0.012307535074570506,
+          0.24251544322239466
+        ],
+        "loss": 0.11344912088028743,
+        "trust": 0.02,
+        "seconds": 544.0739300251007
+      }
+    },
+    {
+      "source_line": 221,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1100,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017683633005506544,
+        "own_centroid_distance": 0.3368038689545498,
+        "centroid": [
+          -0.23340682770138624,
+          -0.012308652075552673,
+          0.2425007134200061
+        ],
+        "loss": 0.11343684614275355,
+        "trust": 0.02,
+        "seconds": 547.0382919311523
+      }
+    },
+    {
+      "source_line": 222,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1105,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017690615691500912,
+        "own_centroid_distance": 0.3367826267377772,
+        "centroid": [
+          -0.23339394752903997,
+          -0.012309948160240846,
+          0.24248354192707777
+        ],
+        "loss": 0.11342253767239695,
+        "trust": 0.02,
+        "seconds": 549.3074188232422
+      }
+    },
+    {
+      "source_line": 223,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1110,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017698563935677477,
+        "own_centroid_distance": 0.33675837249241897,
+        "centroid": [
+          -0.23337924216369668,
+          -0.012311412990547095,
+          0.24246393521721457
+        ],
+        "loss": 0.11340620144374279,
+        "trust": 0.02,
+        "seconds": 551.6672389507294
+      }
+    },
+    {
+      "source_line": 224,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1115,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017700517441462626,
+        "own_centroid_distance": 0.3367432292548867,
+        "centroid": [
+          -0.2333699974817089,
+          -0.012312169897868729,
+          0.24245176261846882
+        ],
+        "loss": 0.11339600244900917,
+        "trust": 0.02,
+        "seconds": 554.2064709663391
+      }
+    },
+    {
+      "source_line": 225,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1120,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.0177030702943896,
+        "own_centroid_distance": 0.3367220470158105,
+        "centroid": [
+          -0.2333570353869792,
+          -0.01231325601881877,
+          0.24243476381932696
+        ],
+        "loss": 0.1133817369465177,
+        "trust": 0.02,
+        "seconds": 556.4103097915649
+      }
+    },
+    {
+      "source_line": 226,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1125,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.0177039500559135,
+        "own_centroid_distance": 0.3366917788041638,
+        "centroid": [
+          -0.23333820196545565,
+          -0.01231550822845242,
+          0.24241073754047102
+        ],
+        "loss": 0.11336135391431197,
+        "trust": 0.02,
+        "seconds": 558.1556890010834
+      }
+    },
+    {
+      "source_line": 227,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1130,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.017704987384366305,
+        "own_centroid_distance": 0.3366614876701856,
+        "centroid": [
+          -0.23331941010866306,
+          -0.012317870559298708,
+          0.24238663373159086
+        ],
+        "loss": 0.11334095728030255,
+        "trust": 0.02,
+        "seconds": 559.7017378807068
+      }
+    },
+    {
+      "source_line": 228,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1135,
+        "S": 37,
+        "U": 48,
+        "reference_guard_minimum": 0.017708186482288314,
+        "own_centroid_distance": 0.3366311725120883,
+        "centroid": [
+          -0.2333006321203205,
+          -0.012320405869544197,
+          0.24236247431962715
+        ],
+        "loss": 0.11332054630686336,
+        "trust": 0.02,
+        "seconds": 561.2207119464874
+      }
+    },
+    {
+      "source_line": 229,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1140,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017712108305467402,
+        "own_centroid_distance": 0.3366038378144905,
+        "centroid": [
+          -0.23328372963343613,
+          -0.012322730200099713,
+          0.24234065989877399
+        ],
+        "loss": 0.11330214363144382,
+        "trust": 0.02,
+        "seconds": 562.8888709545135
+      }
+    },
+    {
+      "source_line": 230,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1145,
+        "S": 37,
+        "U": 46,
+        "reference_guard_minimum": 0.017716077083889566,
+        "own_centroid_distance": 0.33657646252287055,
+        "centroid": [
+          -0.23326683627924497,
+          -0.012325022251854051,
+          0.24231878186218359
+        ],
+        "loss": 0.11328371512440928,
+        "trust": 0.02,
+        "seconds": 564.6155090332031
+      }
+    },
+    {
+      "source_line": 231,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1150,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017720536467971247,
+        "own_centroid_distance": 0.3365460098370532,
+        "centroid": [
+          -0.23324805713481903,
+          -0.012327525017560901,
+          0.24229443391670297
+        ],
+        "loss": 0.1132632167372419,
+        "trust": 0.02,
+        "seconds": 566.8358709812164
+      }
+    },
+    {
+      "source_line": 232,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1155,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017723671008546903,
+        "own_centroid_distance": 0.33652466959963734,
+        "centroid": [
+          -0.2332349384418767,
+          -0.012329292609922916,
+          0.2422773313434378
+        ],
+        "loss": 0.11324885324914509,
+        "trust": 0.02,
+        "seconds": 569.4263899326324
+      }
+    },
+    {
+      "source_line": 233,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1160,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.01772809288665653,
+        "own_centroid_distance": 0.33649416470797977,
+        "centroid": [
+          -0.2332162102781441,
+          -0.012331787139306183,
+          0.24225286205114763
+        ],
+        "loss": 0.11322832288252103,
+        "trust": 0.02,
+        "seconds": 571.8442380428314
+      }
+    },
+    {
+      "source_line": 234,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1165,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.01773250076944247,
+        "own_centroid_distance": 0.3364636315586529,
+        "centroid": [
+          -0.2331974630585768,
+          -0.012334230724144659,
+          0.24222837434356073
+        ],
+        "loss": 0.11320777536163693,
+        "trust": 0.02,
+        "seconds": 574.1364858150482
+      }
+    },
+    {
+      "source_line": 235,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1170,
+        "S": 37,
+        "U": 47,
+        "reference_guard_minimum": 0.017736884703377497,
+        "own_centroid_distance": 0.33643308497365104,
+        "centroid": [
+          -0.23317873567682523,
+          -0.012336561890914494,
+          0.2422038544981413
+        ],
+        "loss": 0.1131872206648879,
+        "trust": 0.02,
+        "seconds": 576.3966751098633
+      }
+    },
+    {
+      "source_line": 236,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1175,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.01773913997869858,
+        "own_centroid_distance": 0.33640250444147246,
+        "centroid": [
+          -0.23315989500455295,
+          -0.012338269855283038,
+          0.24217942821994395
+        ],
+        "loss": 0.1131666449944949,
+        "trust": 0.02,
+        "seconds": 578.8796548843384
+      }
+    },
+    {
+      "source_line": 237,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1180,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017738066351508847,
+        "own_centroid_distance": 0.33637190509895126,
+        "centroid": [
+          -0.2331408790150421,
+          -0.012339166231242166,
+          0.2421551858802721
+        ],
+        "loss": 0.11314605853989787,
+        "trust": 0.02,
+        "seconds": 581.242723941803
+      }
+    },
+    {
+      "source_line": 238,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1185,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017737104347202864,
+        "own_centroid_distance": 0.3363412807894282,
+        "centroid": [
+          -0.23312185424219403,
+          -0.012339987774671829,
+          0.24213092107261974
+        ],
+        "loss": 0.113125457163073,
+        "trust": 0.02,
+        "seconds": 583.6131598949432
+      }
+    },
+    {
+      "source_line": 239,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1190,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.01773635894285988,
+        "own_centroid_distance": 0.33631064894468404,
+        "centroid": [
+          -0.2331028515137191,
+          -0.012340779795847433,
+          0.24210662602208546
+        ],
+        "loss": 0.1131048525935945,
+        "trust": 0.02,
+        "seconds": 585.7053928375244
+      }
+    },
+    {
+      "source_line": 240,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1195,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017735773175561673,
+        "own_centroid_distance": 0.3362800032591968,
+        "centroid": [
+          -0.23308388935344104,
+          -0.012341598354453615,
+          0.24208227127556375
+        ],
+        "loss": 0.11308424059200542,
+        "trust": 0.02,
+        "seconds": 588.0882649421692
+      }
+    },
+    {
+      "source_line": 241,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1200,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017735431600991693,
+        "own_centroid_distance": 0.3362493550147401,
+        "centroid": [
+          -0.23306492941049856,
+          -0.012342315172879153,
+          0.2420579159682272
+        ],
+        "loss": 0.11306362874782873,
+        "trust": 0.02,
+        "seconds": 590.413831949234
+      }
+    },
+    {
+      "source_line": 242,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1205,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017735216147648676,
+        "own_centroid_distance": 0.33621871399512493,
+        "centroid": [
+          -0.23304602061758717,
+          -0.012343054915018734,
+          0.24203352022025293
+        ],
+        "loss": 0.11304302364053562,
+        "trust": 0.02,
+        "seconds": 592.894336938858
+      }
+    },
+    {
+      "source_line": 243,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1210,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017735185883554123,
+        "own_centroid_distance": 0.3361880723420452,
+        "centroid": [
+          -0.23302712547532192,
+          -0.012343721726363131,
+          0.24200911410876838
+        ],
+        "loss": 0.11302241998506021,
+        "trust": 0.02,
+        "seconds": 595.2149059772491
+      }
+    },
+    {
+      "source_line": 244,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1215,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.01773517658768332,
+        "own_centroid_distance": 0.33615743229546136,
+        "centroid": [
+          -0.2330082405895298,
+          -0.012344331917365427,
+          0.24198470318258428
+        ],
+        "loss": 0.1130018192874777,
+        "trust": 0.02,
+        "seconds": 597.6281769275665
+      }
+    },
+    {
+      "source_line": 245,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1220,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017732872192012857,
+        "own_centroid_distance": 0.3361268147369386,
+        "centroid": [
+          -0.23298949267614652,
+          -0.012345279300817587,
+          0.24196017434011108
+        ],
+        "loss": 0.11298123558520025,
+        "trust": 0.02,
+        "seconds": 599.8030569553375
+      }
+    },
+    {
+      "source_line": 246,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1225,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017724721294697505,
+        "own_centroid_distance": 0.3360961834248452,
+        "centroid": [
+          -0.23297083352233453,
+          -0.01234635664749552,
+          0.24193553421973535
+        ],
+        "loss": 0.11296064451274718,
+        "trust": 0.02,
+        "seconds": 602.1632180213928
+      }
+    },
+    {
+      "source_line": 247,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1230,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017715749866496065,
+        "own_centroid_distance": 0.33606553398106603,
+        "centroid": [
+          -0.23295214217284738,
+          -0.012347397662811396,
+          0.24191090169319973
+        ],
+        "loss": 0.11294004312997905,
+        "trust": 0.02,
+        "seconds": 604.2331049442291
+      }
+    },
+    {
+      "source_line": 248,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1235,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017707249662580114,
+        "own_centroid_distance": 0.33603487854643777,
+        "centroid": [
+          -0.23293347389174907,
+          -0.012348526816158835,
+          0.24188623405624315
+        ],
+        "loss": 0.11291943959971919,
+        "trust": 0.02,
+        "seconds": 606.5486018657684
+      }
+    },
+    {
+      "source_line": 249,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1240,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.01769924088292545,
+        "own_centroid_distance": 0.33600420489324734,
+        "centroid": [
+          -0.23291478725590134,
+          -0.01234964577673339,
+          0.24186155922897462
+        ],
+        "loss": 0.11289882570594335,
+        "trust": 0.02,
+        "seconds": 608.9910898208618
+      }
+    },
+    {
+      "source_line": 250,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1245,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017691763566482107,
+        "own_centroid_distance": 0.3359735154353371,
+        "centroid": [
+          -0.23289603875882675,
+          -0.01235064983611249,
+          0.24183692781097652
+        ],
+        "loss": 0.1128782030739787,
+        "trust": 0.02,
+        "seconds": 611.5529079437256
+      }
+    },
+    {
+      "source_line": 251,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1250,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.01768464054939691,
+        "own_centroid_distance": 0.3359428125037647,
+        "centroid": [
+          -0.2328772523561531,
+          -0.01235154077389005,
+          0.24181231988568966
+        ],
+        "loss": 0.1128575732729396,
+        "trust": 0.02,
+        "seconds": 614.3892779350281
+      }
+    },
+    {
+      "source_line": 252,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1255,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.01767773325056166,
+        "own_centroid_distance": 0.33591211747441546,
+        "centroid": [
+          -0.2328586542383831,
+          -0.012352596282739494,
+          0.24178753313086734
+        ],
+        "loss": 0.11283695066614548,
+        "trust": 0.02,
+        "seconds": 616.7665491104126
+      }
+    },
+    {
+      "source_line": 253,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1260,
+        "S": 38,
+        "U": 46,
+        "reference_guard_minimum": 0.017671247421034254,
+        "own_centroid_distance": 0.33588141519236636,
+        "centroid": [
+          -0.23284008517729118,
+          -0.012353516161322048,
+          0.24176271516656686
+        ],
+        "loss": 0.1128163250716268,
+        "trust": 0.02,
+        "seconds": 619.4568378925323
+      }
+    },
+    {
+      "source_line": 254,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1265,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.017665070636855042,
+        "own_centroid_distance": 0.3358507197707556,
+        "centroid": [
+          -0.23282146777526377,
+          -0.012354362504825305,
+          0.24173795697119174
+        ],
+        "loss": 0.1127957059705346,
+        "trust": 0.02,
+        "seconds": 622.0359399318695
+      }
+    },
+    {
+      "source_line": 255,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1270,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.017659140028483587,
+        "own_centroid_distance": 0.3358200318462974,
+        "centroid": [
+          -0.23280281213207513,
+          -0.012355138078454144,
+          0.24171324956590248
+        ],
+        "loss": 0.11277509378924817,
+        "trust": 0.02,
+        "seconds": 624.5105209350586
+      }
+    },
+    {
+      "source_line": 256,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1275,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.017653472287935536,
+        "own_centroid_distance": 0.3357893444745182,
+        "centroid": [
+          -0.23278412549605068,
+          -0.012355864529385812,
+          0.24168857521901413
+        ],
+        "loss": 0.11275448386262664,
+        "trust": 0.02,
+        "seconds": 627.0779888629913
+      }
+    },
+    {
+      "source_line": 257,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1280,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.017648022281031905,
+        "own_centroid_distance": 0.3357586585198253,
+        "centroid": [
+          -0.2327654104803635,
+          -0.012356558421288537,
+          0.24166393177079984
+        ],
+        "loss": 0.11273387677103264,
+        "trust": 0.02,
+        "seconds": 629.4665908813477
+      }
+    },
+    {
+      "source_line": 258,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1285,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.017642752691662152,
+        "own_centroid_distance": 0.335727985575069,
+        "centroid": [
+          -0.23274667577836497,
+          -0.01235721417302192,
+          0.24163932724268303
+        ],
+        "loss": 0.11271328029829372,
+        "trust": 0.02,
+        "seconds": 632.1971309185028
+      }
+    },
+    {
+      "source_line": 259,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1290,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.01763768028161467,
+        "own_centroid_distance": 0.3356973174172326,
+        "centroid": [
+          -0.23272791900527437,
+          -0.012357844631752171,
+          0.24161475185231993
+        ],
+        "loss": 0.1126926889211262,
+        "trust": 0.02,
+        "seconds": 634.8711030483246
+      }
+    },
+    {
+      "source_line": 260,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1295,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.017632011171848438,
+        "own_centroid_distance": 0.3356666544541952,
+        "centroid": [
+          -0.23270925987331936,
+          -0.012358599159730274,
+          0.24159008321637115
+        ],
+        "loss": 0.1126721029124721,
+        "trust": 0.02,
+        "seconds": 637.7390398979187
+      }
+    },
+    {
+      "source_line": 261,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1300,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.017628259497343233,
+        "own_centroid_distance": 0.33565132992004454,
+        "centroid": [
+          -0.2326999948457188,
+          -0.012359100697335606,
+          0.241577690000236
+        ],
+        "loss": 0.11266181527709458,
+        "trust": 0.02,
+        "seconds": 640.9791610240936
+      }
+    },
+    {
+      "source_line": 262,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1305,
+        "S": 39,
+        "U": 46,
+        "reference_guard_minimum": 0.017624557672215234,
+        "own_centroid_distance": 0.33563600773820185,
+        "centroid": [
+          -0.23269071710842973,
+          -0.012359613320059018,
+          0.24156531170799675
+        ],
+        "loss": 0.11265152969043829,
+        "trust": 0.02,
+        "seconds": 643.7218790054321
+      }
+    },
+    {
+      "source_line": 263,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1310,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.01762090756380114,
+        "own_centroid_distance": 0.3356206888786622,
+        "centroid": [
+          -0.23268142428281194,
+          -0.012360141324236925,
+          0.24155295175914268
+        ],
+        "loss": 0.11264124680338777,
+        "trust": 0.02,
+        "seconds": 645.7820060253143
+      }
+    },
+    {
+      "source_line": 264,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1315,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.01761662545782599,
+        "own_centroid_distance": 0.3356023164593296,
+        "centroid": [
+          -0.2326702682753382,
+          -0.012360766208294433,
+          0.2415381388772672
+        ],
+        "loss": 0.11262891481286799,
+        "trust": 0.02,
+        "seconds": 647.428426027298
+      }
+    },
+    {
+      "source_line": 265,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1320,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.017614016209209656,
+        "own_centroid_distance": 0.33558395381726625,
+        "centroid": [
+          -0.2326591104988632,
+          -0.012361392894375966,
+          0.24152334116440527
+        ],
+        "loss": 0.11261659005962907,
+        "trust": 0.02,
+        "seconds": 648.9880640506744
+      }
+    },
+    {
+      "source_line": 266,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1325,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.017612650056562644,
+        "own_centroid_distance": 0.33556865517989704,
+        "centroid": [
+          -0.23264980471887423,
+          -0.01236190683512732,
+          0.24151102244600342
+        ],
+        "loss": 0.11260632233924464,
+        "trust": 0.02,
+        "seconds": 650.71928191185
+      }
+    },
+    {
+      "source_line": 267,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1330,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.017611214911992256,
+        "own_centroid_distance": 0.3355533584528538,
+        "centroid": [
+          -0.23264047965223394,
+          -0.01236240760935103,
+          0.24149872561624033
+        ],
+        "loss": 0.11259605636898937,
+        "trust": 0.02,
+        "seconds": 652.5218760967255
+      }
+    },
+    {
+      "source_line": 268,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1335,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.017607072393068027,
+        "own_centroid_distance": 0.33553806153175075,
+        "centroid": [
+          -0.2326311280594943,
+          -0.012362920580631298,
+          0.24148645342745237
+        ],
+        "loss": 0.11258579073648496,
+        "trust": 0.02,
+        "seconds": 654.7081499099731
+      }
+    },
+    {
+      "source_line": 269,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1340,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.017596135295528777,
+        "own_centroid_distance": 0.33552276964941513,
+        "centroid": [
+          -0.23262174120152218,
+          -0.01236343238533557,
+          0.24147422225413578
+        ],
+        "loss": 0.11257552895321447,
+        "trust": 0.02,
+        "seconds": 657.2903428077698
+      }
+    },
+    {
+      "source_line": 270,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1345,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.017585165740701125,
+        "own_centroid_distance": 0.3355074859558233,
+        "centroid": [
+          -0.2326123322125071,
+          -0.01236394232717085,
+          0.24146202385713902
+        ],
+        "loss": 0.11256527313239696,
+        "trust": 0.02,
+        "seconds": 659.3374290466309
+      }
+    },
+    {
+      "source_line": 271,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1350,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.01757414664134571,
+        "own_centroid_distance": 0.33549221078422353,
+        "centroid": [
+          -0.23260291148457837,
+          -0.012364450601584158,
+          0.241449848678984
+        ],
+        "loss": 0.11255502349688588,
+        "trust": 0.02,
+        "seconds": 661.4974219799042
+      }
+    },
+    {
+      "source_line": 272,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1355,
+        "S": 40,
+        "U": 46,
+        "reference_guard_minimum": 0.017566940431363105,
+        "own_centroid_distance": 0.3354738893151559,
+        "centroid": [
+          -0.2325915969118966,
+          -0.01236505861839749,
+          0.24143526002548774
+        ],
+        "loss": 0.11254273041223747,
+        "trust": 0.02,
+        "seconds": 663.4248099327087
+      }
+    },
+    {
+      "source_line": 273,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1360,
+        "S": 40,
+        "U": 47,
+        "reference_guard_minimum": 0.017568567502201256,
+        "own_centroid_distance": 0.33545862814622424,
+        "centroid": [
+          -0.2325821034656702,
+          -0.012365600134970256,
+          0.241423172621298
+        ],
+        "loss": 0.11253249119774676,
+        "trust": 0.02,
+        "seconds": 665.3352358341217
+      }
+    },
+    {
+      "source_line": 274,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1365,
+        "S": 40,
+        "U": 47,
+        "reference_guard_minimum": 0.017570128101603463,
+        "own_centroid_distance": 0.33544337279658526,
+        "centroid": [
+          -0.23257260648450825,
+          -0.012366140647648611,
+          0.24141109674502023
+        ],
+        "loss": 0.11252225635314887,
+        "trust": 0.02,
+        "seconds": 667.7248148918152
+      }
+    },
+    {
+      "source_line": 275,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1370,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.01757162077804322,
+        "own_centroid_distance": 0.33542812320060933,
+        "centroid": [
+          -0.2325631067859693,
+          -0.012366680100353243,
+          0.24139903152091663
+        ],
+        "loss": 0.11251202583388316,
+        "trust": 0.02,
+        "seconds": 669.8911590576172
+      }
+    },
+    {
+      "source_line": 276,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1375,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.017573055904093568,
+        "own_centroid_distance": 0.33541287541770365,
+        "centroid": [
+          -0.2325536489898986,
+          -0.012367223253678651,
+          0.24138692824270466
+        ],
+        "loss": 0.11250179699597197,
+        "trust": 0.02,
+        "seconds": 672.3637278079987
+      }
+    },
+    {
+      "source_line": 277,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1380,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.01757433683775192,
+        "own_centroid_distance": 0.33539763636233566,
+        "centroid": [
+          -0.23254423879880456,
+          -0.012367764631490323,
+          0.24137479130378586
+        ],
+        "loss": 0.11249157447744156,
+        "trust": 0.02,
+        "seconds": 674.1231350898743
+      }
+    },
+    {
+      "source_line": 278,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1385,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.017575353758465265,
+        "own_centroid_distance": 0.33537630581526473,
+        "centroid": [
+          -0.23253099786598797,
+          -0.012368485611065417,
+          0.24135787142214923
+        ],
+        "loss": 0.11247726650229396,
+        "trust": 0.02,
+        "seconds": 675.6930770874023
+      }
+    },
+    {
+      "source_line": 279,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1390,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.017576011978749674,
+        "own_centroid_distance": 0.33535192612957376,
+        "centroid": [
+          -0.23251579345197468,
+          -0.012369309581369824,
+          0.24133860100426113
+        ],
+        "loss": 0.11246091435881508,
+        "trust": 0.02,
+        "seconds": 677.580039024353
+      }
+    },
+    {
+      "source_line": 280,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1395,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.01757601869644323,
+        "own_centroid_distance": 0.3353336399643728,
+        "centroid": [
+          -0.23250439989716232,
+          -0.012369974888617212,
+          0.2413241343949482
+        ],
+        "loss": 0.1124486500917556,
+        "trust": 0.02,
+        "seconds": 679.6775617599487
+      }
+    },
+    {
+      "source_line": 281,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1400,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.017573323974684335,
+        "own_centroid_distance": 0.3353184013209196,
+        "centroid": [
+          -0.2324949754330646,
+          -0.012370506564684068,
+          0.24131201219609666
+        ],
+        "loss": 0.11243843026441731,
+        "trust": 0.02,
+        "seconds": 681.5610980987549
+      }
+    },
+    {
+      "source_line": 282,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1405,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.017570327974238645,
+        "own_centroid_distance": 0.33530011049903524,
+        "centroid": [
+          -0.23248367222097457,
+          -0.012371114974415837,
+          0.2412974549505351
+        ],
+        "loss": 0.11242616410066525,
+        "trust": 0.02,
+        "seconds": 683.6162650585175
+      }
+    },
+    {
+      "source_line": 283,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1410,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.01756764552389524,
+        "own_centroid_distance": 0.33528486416986253,
+        "centroid": [
+          -0.23247426323295617,
+          -0.012371669725149987,
+          0.2412853059427971
+        ],
+        "loss": 0.11241594014140316,
+        "trust": 0.02,
+        "seconds": 685.8677179813385
+      }
+    },
+    {
+      "source_line": 284,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1415,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.017564881103253847,
+        "own_centroid_distance": 0.33526961628007884,
+        "centroid": [
+          -0.23246484832196446,
+          -0.012372224059441644,
+          0.2412731604780364
+        ],
+        "loss": 0.1124057156005913,
+        "trust": 0.02,
+        "seconds": 687.8692209720612
+      }
+    },
+    {
+      "source_line": 285,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1420,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.01756151766662129,
+        "own_centroid_distance": 0.3352513134910698,
+        "centroid": [
+          -0.23245350779391352,
+          -0.012372797762384547,
+          0.24125862427553477
+        ],
+        "loss": 0.11239344319748756,
+        "trust": 0.02,
+        "seconds": 690.261390209198
+      }
+    },
+    {
+      "source_line": 286,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1425,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.017556019679167336,
+        "own_centroid_distance": 0.33522995543337575,
+        "centroid": [
+          -0.23244026416270022,
+          -0.012373370603751842,
+          0.24124167615845205
+        ],
+        "loss": 0.1123791230198631,
+        "trust": 0.02,
+        "seconds": 692.3581068515778
+      }
+    },
+    {
+      "source_line": 287,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1430,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.01755120241480078,
+        "own_centroid_distance": 0.33521164226454325,
+        "centroid": [
+          -0.23242891167634294,
+          -0.012373895268852629,
+          0.24122713952314392
+        ],
+        "loss": 0.11236684510969211,
+        "trust": 0.02,
+        "seconds": 695.1279439926147
+      }
+    },
+    {
+      "source_line": 288,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1435,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.017546217499179815,
+        "own_centroid_distance": 0.3351933297867509,
+        "centroid": [
+          -0.23241755522547172,
+          -0.012374449268458852,
+          0.2412126061420645
+        ],
+        "loss": 0.11235456833352958,
+        "trust": 0.02,
+        "seconds": 696.9750328063965
+      }
+    },
+    {
+      "source_line": 289,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1440,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.017541352218162505,
+        "own_centroid_distance": 0.33517501711848563,
+        "centroid": [
+          -0.23240617588957543,
+          -0.012375001459748267,
+          0.2411980946185771
+        ],
+        "loss": 0.11234229210037712,
+        "trust": 0.02,
+        "seconds": 698.844024181366
+      }
+    },
+    {
+      "source_line": 290,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1445,
+        "S": 41,
+        "U": 47,
+        "reference_guard_minimum": 0.01753681194110019,
+        "own_centroid_distance": 0.33515671268917097,
+        "centroid": [
+          -0.2323947595362744,
+          -0.012375545330187658,
+          0.2411836306188071
+        ],
+        "loss": 0.1123300220606115,
+        "trust": 0.02,
+        "seconds": 700.4886209964752
+      }
+    },
+    {
+      "source_line": 291,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1450,
+        "S": 40,
+        "U": 47,
+        "reference_guard_minimum": 0.017529869772197056,
+        "own_centroid_distance": 0.33513839652883665,
+        "centroid": [
+          -0.23238424934323293,
+          -0.012376339380110428,
+          0.24116826430658378
+        ],
+        "loss": 0.11231774482791976,
+        "trust": 0.02,
+        "seconds": 702.1709229946136
+      }
+    },
+    {
+      "source_line": 292,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1455,
+        "S": 40,
+        "U": 48,
+        "reference_guard_minimum": 0.01751775499558038,
+        "own_centroid_distance": 0.3351108287638906,
+        "centroid": [
+          -0.23236790572724692,
+          -0.012377126870393575,
+          0.24114566277084284
+        ],
+        "loss": 0.11229926755482159,
+        "trust": 0.02,
+        "seconds": 703.986330986023
+      }
+    },
+    {
+      "source_line": 293,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1460,
+        "S": 40,
+        "U": 48,
+        "reference_guard_minimum": 0.017510156061917317,
+        "own_centroid_distance": 0.3350802083866697,
+        "centroid": [
+          -0.23234939933737264,
+          -0.012377942996126021,
+          0.2411209016389927
+        ],
+        "loss": 0.112278746052454,
+        "trust": 0.02,
+        "seconds": 705.9121689796448
+      }
+    },
+    {
+      "source_line": 294,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1465,
+        "S": 40,
+        "U": 48,
+        "reference_guard_minimum": 0.017533678246062313,
+        "own_centroid_distance": 0.335049602577658,
+        "centroid": [
+          -0.23233075251734467,
+          -0.012378621189288706,
+          0.24109630308161709
+        ],
+        "loss": 0.11225823618744656,
+        "trust": 0.02,
+        "seconds": 707.8919138908386
+      }
+    },
+    {
+      "source_line": 295,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1470,
+        "S": 40,
+        "U": 48,
+        "reference_guard_minimum": 0.01755660591430257,
+        "own_centroid_distance": 0.33501901958975655,
+        "centroid": [
+          -0.2323121267503981,
+          -0.01237940496560177,
+          0.24107171046036552
+        ],
+        "loss": 0.11223774348688169,
+        "trust": 0.02,
+        "seconds": 710.0368440151215
+      }
+    },
+    {
+      "source_line": 296,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1475,
+        "S": 40,
+        "U": 48,
+        "reference_guard_minimum": 0.01757945979352404,
+        "own_centroid_distance": 0.3349884593559743,
+        "centroid": [
+          -0.2322934851326622,
+          -0.012380191251697016,
+          0.24104716453669872
+        ],
+        "loss": 0.11221726790168926,
+        "trust": 0.02,
+        "seconds": 712.1875751018524
+      }
+    },
+    {
+      "source_line": 297,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1480,
+        "S": 40,
+        "U": 48,
+        "reference_guard_minimum": 0.017602288019903118,
+        "own_centroid_distance": 0.33495791865904734,
+        "centroid": [
+          -0.23227515684340933,
+          -0.012381060243630358,
+          0.24102233948954638
+        ],
+        "loss": 0.11219680727240096,
+        "trust": 0.02,
+        "seconds": 714.289351940155
+      }
+    },
+    {
+      "source_line": 298,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1485,
+        "S": 40,
+        "U": 48,
+        "reference_guard_minimum": 0.017621315064348303,
+        "own_centroid_distance": 0.3349274346206802,
+        "centroid": [
+          -0.23225819549763066,
+          -0.012382250500400139,
+          0.240996259220594
+        ],
+        "loss": 0.11217638646159002,
+        "trust": 0.02,
+        "seconds": 716.2002899646759
+      }
+    },
+    {
+      "source_line": 299,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1490,
+        "S": 40,
+        "U": 48,
+        "reference_guard_minimum": 0.01763780835032487,
+        "own_centroid_distance": 0.33489687668234347,
+        "centroid": [
+          -0.2322411384224625,
+          -0.01238354425399965,
+          0.2409701630234262
+        ],
+        "loss": 0.11215591801158875,
+        "trust": 0.02,
+        "seconds": 717.9630589485168
+      }
+    },
+    {
+      "source_line": 300,
+      "label": "REFERENCE_MASS_CLOSURE",
+      "values": {
+        "it": 1495,
+        "S": 40,
+        "U": 48,
+        "reference_guard_minimum": 0.017642741638894607,
+        "own_centroid_distance": 0.3348663002003625,
+        "centroid": [
+          -0.23222402736252287,
+          -0.012384853009900726,
+          0.24094409214864074
+        ],
+        "loss": 0.11213543900987931,
+        "trust": 0.02,
+        "seconds": 719.8876159191132
+      }
+    }
+  ]
+}

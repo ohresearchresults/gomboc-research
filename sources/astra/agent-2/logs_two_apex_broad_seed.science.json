@@ -1,0 +1,237 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 89,
+        "E": 155,
+        "F": 68,
+        "S": 13,
+        "U": 10,
+        "Pmax": 0.5753828655140891,
+        "Qmax": 0.5209070696795955,
+        "minimum_noncontact": 1.1459889703857584e-09,
+        "m": 44,
+        "n": 12,
+        "original_second_vertex": 100,
+        "inward": 0.0001,
+        "selector": 0,
+        "actual_second_degree": 5,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 80,
+        "E": 142,
+        "F": 64,
+        "S": 6,
+        "U": 9,
+        "Pmax": 0.5463467023782762,
+        "Qmax": 0.6394193755748808,
+        "minimum_noncontact": 5.284502480051856e-08,
+        "m": 44,
+        "n": 12,
+        "original_second_vertex": 91,
+        "inward": 0.0001,
+        "selector": 0,
+        "actual_second_degree": 6,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 80,
+        "E": 142,
+        "F": 64,
+        "S": 6,
+        "U": 9,
+        "Pmax": 0.5505564196692747,
+        "Qmax": 0.6392190610716888,
+        "minimum_noncontact": 1.998657805923898e-08,
+        "m": 44,
+        "n": 12,
+        "original_second_vertex": 91,
+        "inward": 0.01,
+        "selector": 0,
+        "actual_second_degree": 6,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 67,
+        "E": 124,
+        "F": 59,
+        "S": 4,
+        "U": 6,
+        "Pmax": 0.6928952760881946,
+        "Qmax": 0.6380504826980198,
+        "minimum_noncontact": 1.2143128724773078e-08,
+        "m": 44,
+        "n": 20,
+        "original_second_vertex": 91,
+        "inward": 0.0001,
+        "selector": 0,
+        "actual_second_degree": 9,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 67,
+        "E": 124,
+        "F": 59,
+        "S": 4,
+        "U": 5,
+        "Pmax": 0.7119861320740716,
+        "Qmax": 0.6351134005821264,
+        "minimum_noncontact": 9.765156161467559e-08,
+        "m": 44,
+        "n": 20,
+        "original_second_vertex": 91,
+        "inward": 0.08,
+        "selector": 0,
+        "actual_second_degree": 9,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 60,
+        "E": 115,
+        "F": 57,
+        "S": 4,
+        "U": 4,
+        "Pmax": 0.7423513081013001,
+        "Qmax": 0.66838439813322,
+        "minimum_noncontact": 2.6133425130581145e-06,
+        "m": 44,
+        "n": 32,
+        "original_second_vertex": 91,
+        "inward": 0.0001,
+        "selector": 0,
+        "actual_second_degree": 12,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 60,
+        "E": 115,
+        "F": 57,
+        "S": 4,
+        "U": 4,
+        "Pmax": 0.7423513016607872,
+        "Qmax": 0.6683843927049381,
+        "minimum_noncontact": 2.6133425130581145e-06,
+        "m": 44,
+        "n": 32,
+        "original_second_vertex": 91,
+        "inward": 0.0001,
+        "selector": 1,
+        "actual_second_degree": 12,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 60,
+        "E": 115,
+        "F": 57,
+        "S": 4,
+        "U": 3,
+        "Pmax": 0.740399655265706,
+        "Qmax": 0.6694770714970424,
+        "minimum_noncontact": 0.00021377373909881037,
+        "m": 44,
+        "n": 32,
+        "original_second_vertex": 91,
+        "inward": 0.01,
+        "selector": 0,
+        "actual_second_degree": 12,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 79,
+        "E": 143,
+        "F": 66,
+        "S": 3,
+        "U": 3,
+        "Pmax": 0.7433016754380118,
+        "Qmax": 0.7109619776062824,
+        "minimum_noncontact": 2.481848112800833e-06,
+        "m": 44,
+        "n": 44,
+        "original_second_vertex": 17,
+        "inward": 0.0001,
+        "selector": 0,
+        "actual_second_degree": 11,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 79,
+        "E": 143,
+        "F": 66,
+        "S": 3,
+        "U": 3,
+        "Pmax": 0.741065683879365,
+        "Qmax": 0.7136711109879089,
+        "minimum_noncontact": 0.0001448772227662376,
+        "m": 44,
+        "n": 44,
+        "original_second_vertex": 17,
+        "inward": 0.01,
+        "selector": 0,
+        "actual_second_degree": 11,
+        "apex_degree": 44
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 77,
+        "E": 140,
+        "F": 65,
+        "S": 3,
+        "U": 3,
+        "Pmax": 0.724491478182198,
+        "Qmax": 0.7326823475755687,
+        "minimum_noncontact": 0.0004470911074977435,
+        "m": 44,
+        "n": 44,
+        "original_second_vertex": 17,
+        "inward": 0.08,
+        "selector": 0,
+        "actual_second_degree": 11,
+        "apex_degree": 44
+      }
+    }
+  ]
+}

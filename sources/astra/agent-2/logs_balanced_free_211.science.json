@@ -1,0 +1,156 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 44,
+        "mass_error": 1.4310544688599456e-17,
+        "solver_evaluations": 7,
+        "V": 94,
+        "E": 192,
+        "F": 100,
+        "S": 6,
+        "U": 6,
+        "Pmax": 0.6434932626370767,
+        "Qmax": 0.4451140809844791,
+        "minimum_noncontact": 8.883642636514644e-06,
+        "visible_facets": 44,
+        "actual_centroid_error": 3.325049626697708e-17,
+        "independent_volume_error": 0.0,
+        "cap_point": [
+          -1.0298774823320425,
+          0.6255412085672568,
+          -0.6910000770680438
+        ]
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 45,
+        "mass_error": 2.244871287630562e-18,
+        "solver_evaluations": 11,
+        "V": 147,
+        "E": 247,
+        "F": 102,
+        "S": 5,
+        "U": 3,
+        "Pmax": 0.03160991636432126,
+        "Qmax": 0.12002461207593479,
+        "minimum_noncontact": 0.00019165729578296542,
+        "visible_facets": 4,
+        "actual_centroid_error": 1.3387516294865932e-17,
+        "independent_volume_error": 0.0,
+        "cap_point": [
+          0.26869324165953884,
+          -0.6268895389619743,
+          0.2765086732258706
+        ]
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 51,
+        "mass_error": 2.832725744959604e-19,
+        "solver_evaluations": 11,
+        "V": 144,
+        "E": 241,
+        "F": 99,
+        "S": 4,
+        "U": 2,
+        "Pmax": 0.0031476272538887985,
+        "Qmax": 0.12002461207593451,
+        "minimum_noncontact": 2.821921499784885e-05,
+        "visible_facets": 5,
+        "actual_centroid_error": 3.687000952513664e-18,
+        "independent_volume_error": 0.0,
+        "cap_point": [
+          -0.08780774616630306,
+          0.5517196682374187,
+          -0.11858991344868369
+        ]
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 53,
+        "mass_error": 3.06851798912072e-19,
+        "solver_evaluations": 78,
+        "V": 146,
+        "E": 248,
+        "F": 104,
+        "S": 3,
+        "U": 3,
+        "Pmax": 0.002573863966699585,
+        "Qmax": 0.12002461207593451,
+        "minimum_noncontact": 2.4333159517997416e-05,
+        "visible_facets": 4,
+        "actual_centroid_error": 3.96269831924317e-18,
+        "independent_volume_error": 1.1102230246251565e-16,
+        "cap_point": [
+          -0.3421075178932768,
+          -0.3154776583207899,
+          0.0413086348530594
+        ]
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 59,
+        "mass_error": 1.4236382571625682e-19,
+        "solver_evaluations": 30,
+        "V": 147,
+        "E": 242,
+        "F": 97,
+        "S": 2,
+        "U": 2,
+        "Pmax": 0.003418204594686625,
+        "Qmax": 0.1221794057297194,
+        "minimum_noncontact": 0.00024340355949836745,
+        "visible_facets": 3,
+        "actual_centroid_error": 2.0099739440016554e-17,
+        "independent_volume_error": 2.220446049250313e-16,
+        "cap_point": [
+          -0.33568891613430174,
+          0.017519198605354346,
+          0.35587783697591585
+        ]
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "CENTROID_BALANCED_FACET_CAP",
+      "values": {
+        "removed": 95,
+        "mass_error": 2.247944352463489e-19,
+        "solver_evaluations": 13,
+        "V": 147,
+        "E": 242,
+        "F": 97,
+        "S": 2,
+        "U": 2,
+        "Pmax": 0.004394935147061118,
+        "Qmax": 0.12002461207593451,
+        "minimum_noncontact": 0.00019165729578296542,
+        "visible_facets": 1,
+        "actual_centroid_error": 9.470478414098142e-18,
+        "independent_volume_error": 1.1102230246251565e-16,
+        "cap_point": [
+          -0.1730023514001626,
+          -0.3407978035575437,
+          0.23507784713004568
+        ]
+      }
+    }
+  ]
+}

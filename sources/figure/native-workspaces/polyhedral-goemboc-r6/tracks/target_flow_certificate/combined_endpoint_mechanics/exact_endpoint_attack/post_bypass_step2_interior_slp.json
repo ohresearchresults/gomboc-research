@@ -1,0 +1,2342 @@
+{
+  "version": 1,
+  "scope": "physical-trust post-exact-flip actual-cell SLP",
+  "source": "/REDACTED_HOME/.pro-research/native-workspaces/polyhedral-goemboc-r6/tracks/target_flow_certificate/combined_endpoint_mechanics/exact_endpoint_attack/post_bypass_intrinsic_step_interior.csv",
+  "parameters": {
+    "source": "post_bypass_intrinsic_step_interior.csv",
+    "prefix": "post_bypass_step2_interior",
+    "iterations": 20,
+    "trust": 1e-07,
+    "trust_maximum": 2e-05,
+    "guard_budget": 0.15,
+    "fd_step": 1e-09,
+    "bound": 300.0,
+    "plane_tol": 2e-12
+  },
+  "initial": {
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "topology_margin": 4.718211585537656e-10
+  },
+  "history": [
+    {
+      "iteration": 0,
+      "trust": 1e-07,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta1",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 3.446341118091152e-07,
+        "physical_linf": 1.883782847880369e-07,
+        "coefficient_linf": 2.3549433338287866e-07,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta1')"
+        ],
+        "death_fractional_derivatives": [
+          -3.4463411180911543e-07,
+          -5.4654987741662816e-05,
+          -3.446341118091153e-07,
+          -3.4463411180911527e-07
+        ],
+        "max_guard_fractional_worsening": 0.1500000288085196,
+        "active_modes": [
+          {
+            "column": 2,
+            "coefficient": 2.3549433338287866e-07,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          },
+          {
+            "column": 34,
+            "coefficient": -2.3549433338287866e-07,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_u"
+          },
+          {
+            "column": 131,
+            "coefficient": 1.6954596882381802e-07,
+            "kind": "chart",
+            "row": 254,
+            "axis": "z"
+          },
+          {
+            "column": 163,
+            "coefficient": -1.6921289502320742e-07,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 51,
+            "coefficient": 1.6161702821062073e-07,
+            "kind": "chart",
+            "row": 224,
+            "axis": "x"
+          },
+          {
+            "column": 125,
+            "coefficient": 1.538430399984283e-07,
+            "kind": "chart",
+            "row": 252,
+            "axis": "z"
+          },
+          {
+            "column": 6,
+            "coefficient": -1.4696443053145694e-07,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 8,
+            "coefficient": -1.4696443053145694e-07,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -1.4696443053145694e-07,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 83,
+            "coefficient": -1.3980312161429364e-07,
+            "kind": "chart",
+            "row": 237,
+            "axis": "z"
+          },
+          {
+            "column": 127,
+            "coefficient": -1.3843319417000742e-07,
+            "kind": "chart",
+            "row": 253,
+            "axis": "y"
+          },
+          {
+            "column": 17,
+            "coefficient": 1.343785311003095e-07,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 19,
+            "coefficient": -1.343785311003095e-07,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 1.343785311003095e-07,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -1.343785311003095e-07,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -1.343785311003095e-07,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 27,
+            "coefficient": -1.343785311003095e-07,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -1.343785311003095e-07,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -1.343785311003095e-07,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -1.343785311003095e-07,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.0991125453961148,
+          "quad_beta": 1.082360953073196
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9999996553667032,
+        "('vertex', 54, 1)": 0.9999453456686596,
+        "('edge', (6, 7), 'beta2')": 0.9999996553660795,
+        "('edge', (9, 10), 'beta1')": 0.9999996553660194
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_001.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 4.0105595347114754e-10
+    },
+    {
+      "iteration": 1,
+      "trust": 1.5e-07,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta1",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 5.003840576260569e-07,
+        "physical_linf": 1.9034270983446057e-07,
+        "coefficient_linf": 2.2044669484441968e-07,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta1')"
+        ],
+        "death_fractional_derivatives": [
+          -5.003840576260566e-07,
+          -5.003840576260357e-07,
+          -5.003840576260566e-07,
+          -5.003840576260569e-07
+        ],
+        "max_guard_fractional_worsening": 0.15000000000000213,
+        "active_modes": [
+          {
+            "column": 8,
+            "coefficient": -2.2044669484441968e-07,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 6,
+            "coefficient": -2.2044669484441968e-07,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 4,
+            "coefficient": -2.2044669484441968e-07,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -2.2044669484441968e-07,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 27,
+            "coefficient": -2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 19,
+            "coefficient": -2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -2.0156785495405248e-07,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 61,
+            "coefficient": 1.9034270983446057e-07,
+            "kind": "chart",
+            "row": 230,
+            "axis": "y"
+          },
+          {
+            "column": 120,
+            "coefficient": -1.9000099995555455e-07,
+            "kind": "chart",
+            "row": 251,
+            "axis": "x"
+          },
+          {
+            "column": 82,
+            "coefficient": -1.8406600870346698e-07,
+            "kind": "chart",
+            "row": 237,
+            "axis": "y"
+          },
+          {
+            "column": 123,
+            "coefficient": -1.7635758310793452e-07,
+            "kind": "chart",
+            "row": 252,
+            "axis": "x"
+          },
+          {
+            "column": 64,
+            "coefficient": 1.734496494896552e-07,
+            "kind": "chart",
+            "row": 231,
+            "axis": "y"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911254734274957,
+          "quad_beta": 1.082360946005223
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9999994996159824,
+        "('vertex', 54, 1)": 0.9999994995979959,
+        "('edge', (6, 7), 'beta2')": 0.9999994996157867,
+        "('edge', (9, 10), 'beta1')": 0.9999994996163192
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_002.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 3.4089552433014956e-10
+    },
+    {
+      "iteration": 2,
+      "trust": 2.25e-07,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 7.530151276743106e-07,
+        "physical_linf": 2.730040546763155e-07,
+        "coefficient_linf": 3.306701674024349e-07,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -7.530151276743098e-07,
+          -7.530151276743184e-07,
+          -7.53015127674311e-07,
+          -7.530151276743112e-07
+        ],
+        "max_guard_fractional_worsening": 0.15000000000000924,
+        "active_modes": [
+          {
+            "column": 4,
+            "coefficient": -3.306701674024349e-07,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 8,
+            "coefficient": -3.306701674024349e-07,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 6,
+            "coefficient": -3.3067016740243484e-07,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -3.3067016740243484e-07,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 163,
+            "coefficient": -3.2079879155648166e-07,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 23,
+            "coefficient": -3.023519311830316e-07,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 3.023519311830316e-07,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -3.023519311830316e-07,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -3.023519311830316e-07,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 27,
+            "coefficient": -3.023519311830316e-07,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -3.023519311830316e-07,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -3.023519311830316e-07,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 19,
+            "coefficient": -3.023519311830316e-07,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 3.023519311830316e-07,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -3.023519311830316e-07,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 3.023519311830316e-07,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 54,
+            "coefficient": -2.730040546763155e-07,
+            "kind": "chart",
+            "row": 228,
+            "axis": "x"
+          },
+          {
+            "column": 17,
+            "coefficient": -2.541799083867843e-07,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 61,
+            "coefficient": -2.5348853050374356e-07,
+            "kind": "chart",
+            "row": 230,
+            "axis": "y"
+          },
+          {
+            "column": 2,
+            "coefficient": -2.4965218541606486e-07,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911254276762879,
+          "quad_beta": 1.0823609389429234
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9999992469698485,
+        "('vertex', 54, 1)": 0.9999992469994398,
+        "('edge', (6, 7), 'beta2')": 0.9999992469851593,
+        "('edge', (9, 10), 'beta2')": 0.9999992469859821
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_003.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 2.909005135359111e-10
+    },
+    {
+      "iteration": 3,
+      "trust": 3.375e-07,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 1.1294157619022386e-06,
+        "physical_linf": 4.075816751316324e-07,
+        "coefficient_linf": 4.960055326486403e-07,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -1.1294157619022407e-06,
+          -1.1294157619022235e-06,
+          -1.129415761902238e-06,
+          -1.1294157619022392e-06
+        ],
+        "max_guard_fractional_worsening": 0.1500000000000199,
+        "active_modes": [
+          {
+            "column": 8,
+            "coefficient": -4.960055326486403e-07,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -4.960055326486403e-07,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 6,
+            "coefficient": -4.960055326486403e-07,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 4,
+            "coefficient": -4.960055326486402e-07,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 163,
+            "coefficient": -4.823022448683115e-07,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 35,
+            "coefficient": 4.5352823145426335e-07,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 4.5352823145426335e-07,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 4.5352823145426335e-07,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -4.535282314542633e-07,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 19,
+            "coefficient": -4.535282314542633e-07,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -4.535282314542633e-07,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -4.535282314542633e-07,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 27,
+            "coefficient": -4.535282314542633e-07,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -4.535282314542633e-07,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -4.535282314542633e-07,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -4.535282314542633e-07,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 91,
+            "coefficient": -4.075816751316324e-07,
+            "kind": "chart",
+            "row": 240,
+            "axis": "y"
+          },
+          {
+            "column": 140,
+            "coefficient": 3.819480734611069e-07,
+            "kind": "chart",
+            "row": 257,
+            "axis": "z"
+          },
+          {
+            "column": 17,
+            "coefficient": -3.8192795212126697e-07,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 70,
+            "coefficient": 3.7727940691051237e-07,
+            "kind": "chart",
+            "row": 233,
+            "axis": "y"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911253321556812,
+          "quad_beta": 1.0823609255432556
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9999988705925753,
+        "('vertex', 54, 1)": 0.9999988706069242,
+        "('edge', (6, 7), 'beta2')": 0.9999988705843893,
+        "('edge', (9, 10), 'beta2')": 0.9999988705852604
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_004.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 4.478086038857279e-10
+    },
+    {
+      "iteration": 4,
+      "trust": 5.0625e-07,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 1.6941694764123179e-06,
+        "physical_linf": 5.383071196987763e-07,
+        "coefficient_linf": 7.440089324432053e-07,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -1.6941694764123033e-06,
+          -1.69416947641237e-06,
+          -1.6941694764123185e-06,
+          -1.6941694764123175e-06
+        ],
+        "max_guard_fractional_worsening": 0.15000000000059543,
+        "active_modes": [
+          {
+            "column": 4,
+            "coefficient": -7.440089324432053e-07,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 6,
+            "coefficient": -7.440089324432053e-07,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 8,
+            "coefficient": -7.440089324432053e-07,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -7.440089324432053e-07,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 163,
+            "coefficient": -7.24170727862998e-07,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 23,
+            "coefficient": -6.802931002049712e-07,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 6.802931002049712e-07,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -6.802931002049712e-07,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -6.802931002049712e-07,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -6.802931002049712e-07,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -6.802931002049712e-07,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 27,
+            "coefficient": -6.802931002049712e-07,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 19,
+            "coefficient": -6.802931002049712e-07,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 6.802931002049712e-07,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -6.802931002049712e-07,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 6.802931002049712e-07,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 17,
+            "coefficient": -5.733196715137651e-07,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 2,
+            "coefficient": -5.617193601818115e-07,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          },
+          {
+            "column": 162,
+            "coefficient": -5.489298842312849e-07,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_a"
+          },
+          {
+            "column": 105,
+            "coefficient": 5.479452083575545e-07,
+            "kind": "chart",
+            "row": 245,
+            "axis": "x"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911251884328079,
+          "quad_beta": 1.0823609053976384
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9999983058432427,
+        "('vertex', 54, 1)": 0.9999983058441231,
+        "('edge', (6, 7), 'beta2')": 0.9999983058322613,
+        "('edge', (9, 10), 'beta2')": 0.9999983058325939
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_005.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 3.8059709097446686e-10
+    },
+    {
+      "iteration": 5,
+      "trust": 7.59375e-07,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 2.5414150823413227e-06,
+        "physical_linf": 7.642615037404292e-07,
+        "coefficient_linf": 1.1160148239678491e-06,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -2.541415082341326e-06,
+          -2.541415082341113e-06,
+          -2.5414150823413223e-06,
+          -2.5414150823413236e-06
+        ],
+        "max_guard_fractional_worsening": 0.1500000000045496,
+        "active_modes": [
+          {
+            "column": 4,
+            "coefficient": -1.1160148239678491e-06,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 6,
+            "coefficient": -1.1160148239678491e-06,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 8,
+            "coefficient": -1.1160148239678491e-06,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -1.1160148239678491e-06,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 163,
+            "coefficient": -1.0843796600217745e-06,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 19,
+            "coefficient": -1.0204413446090062e-06,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -1.0204413446090062e-06,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -1.0204413446090062e-06,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 27,
+            "coefficient": -1.0204413446090062e-06,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -1.0204413446090062e-06,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -1.0204413446090062e-06,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -1.0204413446090062e-06,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 1.0204413446090062e-06,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -1.0204413446090062e-06,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 1.020441344609006e-06,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 1.020441344609006e-06,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 17,
+            "coefficient": -8.588616302842192e-07,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 2,
+            "coefficient": -8.425762839624408e-07,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          },
+          {
+            "column": 106,
+            "coefficient": 8.219177895664645e-07,
+            "kind": "chart",
+            "row": 245,
+            "axis": "y"
+          },
+          {
+            "column": 105,
+            "coefficient": 8.219177895664645e-07,
+            "kind": "chart",
+            "row": 245,
+            "axis": "x"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911249725613297,
+          "quad_beta": 1.0823608751492535
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9999974586032246,
+        "('vertex', 54, 1)": 0.9999974585297913,
+        "('edge', (6, 7), 'beta2')": 0.9999974585899012,
+        "('edge', (9, 10), 'beta2')": 0.9999974585862708
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_006.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 1.2880582812574938e-09
+    },
+    {
+      "iteration": 6,
+      "trust": 1.1390625000000002e-06,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 3.8111854959641586e-06,
+        "physical_linf": 1.193652942450423e-06,
+        "coefficient_linf": 1.6740254428737007e-06,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -3.8111854959641565e-06,
+          -3.811185495964205e-06,
+          -3.811185495964157e-06,
+          -3.811185495964157e-06
+        ],
+        "max_guard_fractional_worsening": 0.15000000009750636,
+        "active_modes": [
+          {
+            "column": 8,
+            "coefficient": -1.6740254428737007e-06,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -1.6740254428737007e-06,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 4,
+            "coefficient": -1.6740254428737005e-06,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 6,
+            "coefficient": -1.6740254428737005e-06,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 163,
+            "coefficient": -1.6001213237613565e-06,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 31,
+            "coefficient": -1.5306658290952538e-06,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 1.5306658290952538e-06,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -1.5306658290952538e-06,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 19,
+            "coefficient": -1.5306658290952538e-06,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -1.5306658290952538e-06,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -1.5306658290952538e-06,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -1.5306658290952538e-06,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 1.5306658290952536e-06,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 1.5306658290952536e-06,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -1.5306658290952536e-06,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 17,
+            "coefficient": -1.2725302673672986e-06,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 2,
+            "coefficient": -1.263853500786338e-06,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          },
+          {
+            "column": 105,
+            "coefficient": 1.2328766327567827e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "x"
+          },
+          {
+            "column": 106,
+            "coefficient": 1.2328766327567827e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "y"
+          },
+          {
+            "column": 162,
+            "coefficient": -1.2053053877667362e-06,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_a"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911246495052742,
+          "quad_beta": 1.0823608298550629
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9999961888463728,
+        "('vertex', 54, 1)": 0.9999961884683184,
+        "('edge', (6, 7), 'beta2')": 0.9999961888273338,
+        "('edge', (9, 10), 'beta2')": 0.9999961888201341
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_007.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 1.1080137105938216e-09
+    },
+    {
+      "iteration": 7,
+      "trust": 1.7085937500000002e-06,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 5.712824987940863e-06,
+        "physical_linf": 1.801215112498182e-06,
+        "coefficient_linf": 2.5110453798875806e-06,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -5.712824987940856e-06,
+          -5.712824987940757e-06,
+          -5.71282498794086e-06,
+          -5.712824987940862e-06
+        ],
+        "max_guard_fractional_worsening": 0.15000000000880373,
+        "active_modes": [
+          {
+            "column": 6,
+            "coefficient": -2.5110453798875806e-06,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 8,
+            "coefficient": -2.5110453798875806e-06,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 4,
+            "coefficient": -2.51104537988758e-06,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -2.51104537988758e-06,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 163,
+            "coefficient": -2.312840229029324e-06,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 19,
+            "coefficient": -2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 27,
+            "coefficient": -2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -2.2960073211058002e-06,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 2,
+            "coefficient": -1.895809191582765e-06,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          },
+          {
+            "column": 17,
+            "coefficient": -1.856740005738192e-06,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 105,
+            "coefficient": 1.849314834938687e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "x"
+          },
+          {
+            "column": 106,
+            "coefficient": 1.849314834938687e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "y"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911241755085477,
+          "quad_beta": 1.0823607630185272
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9999942872469756,
+        "('vertex', 54, 1)": 0.9999942914460439,
+        "('edge', (6, 7), 'beta2')": 0.9999942871984537,
+        "('edge', (9, 10), 'beta2')": 0.999994287188658
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_008.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 2.0587844662166108e-09
+    },
+    {
+      "iteration": 8,
+      "trust": 2.5628906250000003e-06,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 8.567665128635818e-06,
+        "physical_linf": 2.6508839292715523e-06,
+        "coefficient_linf": 3.7665843042739515e-06,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -8.567665128635824e-06,
+          -8.567665128635614e-06,
+          -8.567665128635818e-06,
+          -8.567665128635823e-06
+        ],
+        "max_guard_fractional_worsening": 0.15000000000011227,
+        "active_modes": [
+          {
+            "column": 4,
+            "coefficient": -3.7665843042739515e-06,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 6,
+            "coefficient": -3.7665843042739515e-06,
+            "kind": "chart",
+            "row": 3,
+            "axis": "base_u"
+          },
+          {
+            "column": 8,
+            "coefficient": -3.7665843042739515e-06,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -3.7665843042739515e-06,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 13,
+            "coefficient": -3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 19,
+            "coefficient": -3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 27,
+            "coefficient": -3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 3.4440302804016216e-06,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 163,
+            "coefficient": -3.4202540200952118e-06,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 2,
+            "coefficient": -2.8436826332585907e-06,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          },
+          {
+            "column": 106,
+            "coefficient": 2.773972004816068e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "y"
+          },
+          {
+            "column": 105,
+            "coefficient": 2.773972004816068e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "x"
+          },
+          {
+            "column": 17,
+            "coefficient": -2.755901678870677e-06,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911234994768685,
+          "quad_beta": 1.0823606664120002
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.9999914324909239,
+        "('vertex', 54, 1)": 0.999991429991917,
+        "('edge', (6, 7), 'beta2')": 0.9999914323827471,
+        "('edge', (9, 10), 'beta2')": 0.999991432376253
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_009.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 1.0380174926544283e-09
+    },
+    {
+      "iteration": 9,
+      "trust": 3.8443359375e-06,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 1.28366210615568e-05,
+        "physical_linf": 3.863182908753071e-06,
+        "coefficient_linf": 5.854936549985752e-06,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -1.2836621061556802e-05,
+          -1.2836621061556685e-05,
+          -1.2836621061556797e-05,
+          -1.2836621061556799e-05
+        ],
+        "max_guard_fractional_worsening": 0.15000000036356376,
+        "active_modes": [
+          {
+            "column": 163,
+            "coefficient": -5.854936549985752e-06,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 8,
+            "coefficient": -5.649912983520948e-06,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 10,
+            "coefficient": -5.649912983520948e-06,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 19,
+            "coefficient": -5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 31,
+            "coefficient": -5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 27,
+            "coefficient": -5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 5.1660888428939894e-06,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 4,
+            "coefficient": 4.637611512029935e-06,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 17,
+            "coefficient": -4.565735923562854e-06,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 162,
+            "coefficient": -4.5305822494320865e-06,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_a"
+          },
+          {
+            "column": 2,
+            "coefficient": -4.26583416138059e-06,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          },
+          {
+            "column": 106,
+            "coefficient": 4.160957458011793e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "y"
+          },
+          {
+            "column": 105,
+            "coefficient": 4.160957458011793e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "x"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911225050468611,
+          "quad_beta": 1.082360523549275
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": false,
+      "full_step_error": null,
+      "accepted": true,
+      "ratios": {
+        "('face', (7, 8, 245, 246), (8, 246))": 0.999987163455892,
+        "('vertex', 54, 1)": 0.9999871594880205,
+        "('edge', (6, 7), 'beta2')": 0.9999871634986491,
+        "('edge', (9, 10), 'beta2')": 0.9999871634501393
+      },
+      "endpoint_file": "post_bypass_step2_interior_step_010.csv",
+      "endpoint_f_vector": [
+        60,
+        158,
+        100
+      ],
+      "endpoint_class": [
+        2,
+        2,
+        2
+      ],
+      "endpoint_topology_margin": 8.811354007266751e-10
+    },
+    {
+      "iteration": 10,
+      "trust": 5.76650390625e-06,
+      "best": {
+        "h67_component": "beta2",
+        "h910_component": "beta2",
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "common_fractional_descent": 1.9287434260125377e-05,
+        "physical_linf": 5.854153194271431e-06,
+        "coefficient_linf": 8.474951650149173e-06,
+        "deaths": [
+          "('face', (7, 8, 245, 246), (8, 246))",
+          "('vertex', 54, 1)",
+          "('edge', (6, 7), 'beta2')",
+          "('edge', (9, 10), 'beta2')"
+        ],
+        "death_fractional_derivatives": [
+          -1.928743426012536e-05,
+          -1.9287434260124815e-05,
+          -1.928743426012535e-05,
+          -1.9287434260125357e-05
+        ],
+        "max_guard_fractional_worsening": 0.15000000000078068,
+        "active_modes": [
+          {
+            "column": 10,
+            "coefficient": -8.474951650149173e-06,
+            "kind": "chart",
+            "row": 5,
+            "axis": "base_u"
+          },
+          {
+            "column": 8,
+            "coefficient": -8.474951650149173e-06,
+            "kind": "chart",
+            "row": 4,
+            "axis": "base_u"
+          },
+          {
+            "column": 4,
+            "coefficient": -8.474951650149173e-06,
+            "kind": "chart",
+            "row": 2,
+            "axis": "base_u"
+          },
+          {
+            "column": 163,
+            "coefficient": -7.943077565988939e-06,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_b"
+          },
+          {
+            "column": 31,
+            "coefficient": -7.749230953218997e-06,
+            "kind": "chart",
+            "row": 15,
+            "axis": "base_v"
+          },
+          {
+            "column": 29,
+            "coefficient": -7.749230953218997e-06,
+            "kind": "chart",
+            "row": 14,
+            "axis": "base_v"
+          },
+          {
+            "column": 25,
+            "coefficient": -7.749230953218997e-06,
+            "kind": "chart",
+            "row": 12,
+            "axis": "base_v"
+          },
+          {
+            "column": 23,
+            "coefficient": -7.749230953218997e-06,
+            "kind": "chart",
+            "row": 11,
+            "axis": "base_v"
+          },
+          {
+            "column": 19,
+            "coefficient": -7.749230953218997e-06,
+            "kind": "chart",
+            "row": 9,
+            "axis": "base_v"
+          },
+          {
+            "column": 33,
+            "coefficient": -7.749230953218997e-06,
+            "kind": "chart",
+            "row": 16,
+            "axis": "base_v"
+          },
+          {
+            "column": 13,
+            "coefficient": -7.749230953218997e-06,
+            "kind": "chart",
+            "row": 6,
+            "axis": "base_v"
+          },
+          {
+            "column": 1,
+            "coefficient": 7.749230953218996e-06,
+            "kind": "chart",
+            "row": 0,
+            "axis": "base_v"
+          },
+          {
+            "column": 27,
+            "coefficient": -7.749230953218996e-06,
+            "kind": "chart",
+            "row": 13,
+            "axis": "base_v"
+          },
+          {
+            "column": 15,
+            "coefficient": 7.749230953218996e-06,
+            "kind": "chart",
+            "row": 7,
+            "axis": "base_v"
+          },
+          {
+            "column": 35,
+            "coefficient": 7.749230953218996e-06,
+            "kind": "chart",
+            "row": 54,
+            "axis": "base_v"
+          },
+          {
+            "column": 2,
+            "coefficient": -6.398273789099074e-06,
+            "kind": "chart",
+            "row": 1,
+            "axis": "base_u"
+          },
+          {
+            "column": 17,
+            "coefficient": -6.348323902638211e-06,
+            "kind": "chart",
+            "row": 8,
+            "axis": "base_v"
+          },
+          {
+            "column": 105,
+            "coefficient": 6.241434776771868e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "x"
+          },
+          {
+            "column": 106,
+            "coefficient": 6.241434776771868e-06,
+            "kind": "chart",
+            "row": 245,
+            "axis": "y"
+          },
+          {
+            "column": 162,
+            "coefficient": -5.9415112546170814e-06,
+            "kind": "chart",
+            "row": 246,
+            "axis": "quad_a"
+          }
+        ]
+      },
+      "solver": {
+        "chart": {
+          "quad_alpha": 0.09911207233590821,
+          "quad_beta": 1.082360278991074
+        },
+        "mode_count": 164,
+        "primitive_count": 7638,
+        "guard_count": 6708,
+        "finite_difference_failures": []
+      },
+      "event_at_full_step": true,
+      "full_step_error": null,
+      "first_event": {
+        "iteration": 10,
+        "fraction_bracket": [
+          0.6000451591025922,
+          0.6000451591035016
+        ],
+        "coordinate_displacement_bracket": [
+          3.512756284867549e-06,
+          3.5127562848728733e-06
+        ],
+        "candidate_circuits": [
+          [
+            224,
+            250,
+            251,
+            252
+          ]
+        ],
+        "before_file": "post_bypass_step2_interior_event_before.csv",
+        "after_file": "post_bypass_step2_interior_event_after.csv",
+        "before_error": null,
+        "after_error": null,
+        "before_f_vector": [
+          60,
+          158,
+          100
+        ],
+        "after_f_vector": [
+          60,
+          157,
+          99
+        ],
+        "before_class": [
+          2,
+          2,
+          2
+        ],
+        "after_class": [
+          2,
+          2,
+          2
+        ],
+        "removed_faces": [
+          [
+            224,
+            250,
+            251
+          ],
+          [
+            224,
+            251,
+            252
+          ]
+        ],
+        "added_faces": [
+          [
+            224,
+            250,
+            251,
+            252
+          ]
+        ]
+      }
+    }
+  ],
+  "first_event": {
+    "iteration": 10,
+    "fraction_bracket": [
+      0.6000451591025922,
+      0.6000451591035016
+    ],
+    "coordinate_displacement_bracket": [
+      3.512756284867549e-06,
+      3.5127562848728733e-06
+    ],
+    "candidate_circuits": [
+      [
+        224,
+        250,
+        251,
+        252
+      ]
+    ],
+    "before_file": "post_bypass_step2_interior_event_before.csv",
+    "after_file": "post_bypass_step2_interior_event_after.csv",
+    "before_error": null,
+    "after_error": null,
+    "before_f_vector": [
+      60,
+      158,
+      100
+    ],
+    "after_f_vector": [
+      60,
+      157,
+      99
+    ],
+    "before_class": [
+      2,
+      2,
+      2
+    ],
+    "after_class": [
+      2,
+      2,
+      2
+    ],
+    "removed_faces": [
+      [
+        224,
+        250,
+        251
+      ],
+      [
+        224,
+        251,
+        252
+      ]
+    ],
+    "added_faces": [
+      [
+        224,
+        250,
+        251,
+        252
+      ]
+    ]
+  },
+  "final": {
+    "file": "post_bypass_step2_interior_final.csv",
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "topology_margin": 8.811354007266751e-10
+  },
+  "conclusion": "first actual event bracketed under bounded physical continuation"
+}

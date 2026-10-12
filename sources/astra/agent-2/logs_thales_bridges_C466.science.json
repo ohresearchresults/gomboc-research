@@ -1,0 +1,58 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "THALES_BRIDGE_BEST",
+      "values": {
+        "sample": 8,
+        "witness_start": 49,
+        "chain_lengths": 22,
+        "V": 137,
+        "E": 210,
+        "F": 75,
+        "S": 11,
+        "U": 9,
+        "reference_S": 1,
+        "reference_U": 7,
+        "centroid": [
+          -0.16068791612417962,
+          -0.01279512583925533,
+          0.05988801926814365
+        ],
+        "volume": 1.2497536712561308,
+        "Pmax": 0.34238600321326995,
+        "Qmax": 0.4384980805408788,
+        "loss": 0.34991500949737153,
+        "seconds": 0.17016029357910156
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "THALES_BRIDGE_BEST",
+      "values": {
+        "sample": 10,
+        "witness_start": 49,
+        "chain_lengths": 24,
+        "V": 141,
+        "E": 216,
+        "F": 77,
+        "S": 11,
+        "U": 8,
+        "reference_S": 1,
+        "reference_U": 8,
+        "centroid": [
+          -0.1642064237839495,
+          -0.015097159791794323,
+          0.060324052052642324
+        ],
+        "volume": 1.2393647293496632,
+        "Pmax": 0.3458180541619035,
+        "Qmax": 0.44251028902982315,
+        "loss": 0.35779820792980904,
+        "seconds": 0.19451904296875
+      }
+    }
+  ]
+}

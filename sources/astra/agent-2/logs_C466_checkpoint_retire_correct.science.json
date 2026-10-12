@@ -1,0 +1,1239 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 236,
+        "F": 86,
+        "counts": [
+          11,
+          22,
+          31
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 472,
+        "VplusEplusF": 474
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 152,
+        "F": 86,
+        "E": 236,
+        "nodes": 238,
+        "free": 238,
+        "depth": 5,
+        "levels": 12
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 0,
+        "S": 11,
+        "U": 22,
+        "minimum": -8.25458519869646e-07,
+        "centroid": [
+          -1.565244593102022e-17,
+          1.008713182221303e-16,
+          -2.2000382336378418e-16
+        ],
+        "merit": 2.0053282126146856e-05,
+        "trust": 0.003,
+        "seconds": 0.4586069583892822
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 1,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.9995206578745142e-07,
+        "centroid": [
+          1.5023997327714723e-07,
+          -4.074141343610958e-08,
+          2.0020332981009105e-08
+        ],
+        "merit": 1.7618314285855508e-10,
+        "trust": 0.0042,
+        "seconds": 2.165728807449341
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "STRICT211_REQUIRES_EXACT",
+      "values": {
+        "it": 1,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.9995206578745142e-07,
+        "centroid": [
+          1.5023997327714723e-07,
+          -4.074141343610958e-08,
+          2.0020332981009105e-08
+        ],
+        "merit": 1.7618314285855508e-10,
+        "trust": 0.0042,
+        "seconds": 2.165728807449341
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "EXACT_ATLAS",
+      "values": {
+        "V": 152,
+        "E": 236,
+        "F": 86,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 472,
+        "seconds": 3.2276628017425537,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 149,
+        "E": 233,
+        "F": 86,
+        "counts": [
+          23,
+          11,
+          32
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 466,
+        "VplusEplusF": 468
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 149,
+        "F": 86,
+        "E": 233,
+        "nodes": 235,
+        "free": 235,
+        "depth": 5,
+        "levels": 12
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 0,
+        "S": 23,
+        "U": 11,
+        "minimum": -0.033189621581400666,
+        "centroid": [
+          -1.0724846862955594e-17,
+          3.478328712309923e-18,
+          -6.553569852490179e-17
+        ],
+        "merit": 0.033202185975812766,
+        "trust": 0.003,
+        "seconds": 0.4104020595550537
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 1,
+        "S": 6,
+        "U": 2,
+        "minimum": -0.0324741824207111,
+        "centroid": [
+          6.3292331344618706e-06,
+          -9.630266415964211e-06,
+          -6.289224671935794e-06
+        ],
+        "merit": 0.03247865648171469,
+        "trust": 0.0042,
+        "seconds": 1.9117779731750488
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 2,
+        "S": 11,
+        "U": 6,
+        "minimum": -0.03147613889358461,
+        "centroid": [
+          1.5653946293275815e-05,
+          -2.2878950662603414e-05,
+          -1.527998824640544e-05
+        ],
+        "merit": 0.03148415431039624,
+        "trust": 0.005879999999999999,
+        "seconds": 2.5394580364227295
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 3,
+        "S": 18,
+        "U": 14,
+        "minimum": -0.030078229550408543,
+        "centroid": [
+          2.9407006547908583e-05,
+          -4.336221429476468e-05,
+          -2.6942421422779293e-05
+        ],
+        "merit": 0.03009489679578376,
+        "trust": 0.008231999999999998,
+        "seconds": 3.1491141319274902
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 4,
+        "S": 20,
+        "U": 21,
+        "minimum": -0.028121321121117447,
+        "centroid": [
+          5.047522513130718e-05,
+          -6.94320499888142e-05,
+          -4.048235386784787e-05
+        ],
+        "merit": 0.028152433408601588,
+        "trust": 0.011524799999999997,
+        "seconds": 3.761812925338745
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 5,
+        "S": 23,
+        "U": 22,
+        "minimum": -0.02539322665686086,
+        "centroid": [
+          8.118405837459924e-05,
+          -0.00010798391802458287,
+          -5.4734551777208195e-05
+        ],
+        "merit": 0.02544837903699172,
+        "trust": 0.016134719999999995,
+        "seconds": 4.386281967163086
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 6,
+        "S": 24,
+        "U": 24,
+        "minimum": -0.021551558696933894,
+        "centroid": [
+          0.00010891035923806227,
+          -0.0001486463410002923,
+          -7.956605433775325e-05
+        ],
+        "merit": 0.021635252384773537,
+        "trust": 0.022588607999999993,
+        "seconds": 4.990368127822876
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 7,
+        "S": 26,
+        "U": 27,
+        "minimum": -0.016133834577110595,
+        "centroid": [
+          0.00014870362154353577,
+          -0.00019339755881693721,
+          -0.00012034095744299571
+        ],
+        "merit": 0.01631926268342419,
+        "trust": 0.03162405119999999,
+        "seconds": 5.593888998031616
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 8,
+        "S": 27,
+        "U": 32,
+        "minimum": -0.008457895537091966,
+        "centroid": [
+          0.00023221816191894664,
+          -0.000299388312570729,
+          -8.479374457266738e-05
+        ],
+        "merit": 0.008901470255855203,
+        "trust": 0.04427367167999998,
+        "seconds": 6.2389960289001465
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 9,
+        "S": 20,
+        "U": 30,
+        "minimum": -3.7984982230045055e-05,
+        "centroid": [
+          0.0002787879021112099,
+          -0.000413098581942715,
+          -1.7840715921013226e-05
+        ],
+        "merit": 0.00018858523735340167,
+        "trust": 0.06198314035199997,
+        "seconds": 6.914308071136475
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 10,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.975927694996825e-07,
+        "centroid": [
+          0.0002788675475656899,
+          -0.000413073785386344,
+          -1.7590271659535148e-05
+        ],
+        "merit": 6.4800047525947066e-09,
+        "trust": 0.08677639649279996,
+        "seconds": 7.573957204818726
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "STRICT211_REQUIRES_EXACT",
+      "values": {
+        "it": 10,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.975927694996825e-07,
+        "centroid": [
+          0.0002788675475656899,
+          -0.000413073785386344,
+          -1.7590271659535148e-05
+        ],
+        "merit": 6.4800047525947066e-09,
+        "trust": 0.08677639649279996,
+        "seconds": 7.573957204818726
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "EXACT_ATLAS",
+      "values": {
+        "V": 149,
+        "E": 233,
+        "F": 86,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 466,
+        "seconds": 3.024336099624634,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 149,
+        "E": 233,
+        "F": 86,
+        "counts": [
+          19,
+          18,
+          35
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 466,
+        "VplusEplusF": 468
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 149,
+        "F": 86,
+        "E": 233,
+        "nodes": 235,
+        "free": 235,
+        "depth": 5,
+        "levels": 12
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 0,
+        "S": 19,
+        "U": 18,
+        "minimum": -0.037349926526338104,
+        "centroid": [
+          2.608640005317378e-18,
+          1.0434560021269512e-17,
+          -3.265328895544843e-17
+        ],
+        "merit": 0.03774841822701361,
+        "trust": 0.003,
+        "seconds": 0.4748659133911133
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 1,
+        "S": 3,
+        "U": 5,
+        "minimum": -0.03643216357109533,
+        "centroid": [
+          -4.228316833356269e-06,
+          -1.7872026334406767e-05,
+          1.6567876711009287e-05
+        ],
+        "merit": 0.0364361813038879,
+        "trust": 0.0042,
+        "seconds": 2.1235430240631104
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 2,
+        "S": 7,
+        "U": 12,
+        "minimum": -0.03517729980534951,
+        "centroid": [
+          -1.0134205011311124e-05,
+          -4.357531405449058e-05,
+          3.802731593230339e-05
+        ],
+        "merit": 0.035184970030483806,
+        "trust": 0.005879999999999999,
+        "seconds": 2.750890016555786
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 3,
+        "S": 10,
+        "U": 19,
+        "minimum": -0.03342264750487488,
+        "centroid": [
+          -1.7590733457102974e-05,
+          -7.542445605929995e-05,
+          6.288985502184942e-05
+        ],
+        "merit": 0.03343690630428168,
+        "trust": 0.008231999999999998,
+        "seconds": 3.3784990310668945
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 4,
+        "S": 16,
+        "U": 24,
+        "minimum": -0.030961798957397767,
+        "centroid": [
+          -2.783394368581081e-05,
+          -0.00012068394604281412,
+          9.89463958316657e-05
+        ],
+        "merit": 0.03098916687991266,
+        "trust": 0.011524799999999997,
+        "seconds": 4.001312017440796
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 5,
+        "S": 18,
+        "U": 31,
+        "minimum": -0.02750304002803472,
+        "centroid": [
+          -4.449949169532753e-05,
+          -0.00018197337664167292,
+          0.00015006496135291228
+        ],
+        "merit": 0.0275609862970117,
+        "trust": 0.016134719999999995,
+        "seconds": 4.618607997894287
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 6,
+        "S": 24,
+        "U": 30,
+        "minimum": -0.022635164687765864,
+        "centroid": [
+          -5.746813954638218e-05,
+          -0.0002885495721976334,
+          0.00021849488540854952
+        ],
+        "merit": 0.02274424889606252,
+        "trust": 0.022588607999999993,
+        "seconds": 5.232953071594238
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 7,
+        "S": 21,
+        "U": 31,
+        "minimum": -0.01568155153782968,
+        "centroid": [
+          -7.358740820295614e-05,
+          -0.00043270113105502546,
+          0.0003088063402487341
+        ],
+        "merit": 0.015826876289369247,
+        "trust": 0.03162405119999999,
+        "seconds": 5.8881049156188965
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 8,
+        "S": 28,
+        "U": 32,
+        "minimum": -0.0056200700013592005,
+        "centroid": [
+          -8.215880286744261e-05,
+          -0.0006462465912962059,
+          0.00042380196547721924
+        ],
+        "merit": 0.005912015967804501,
+        "trust": 0.04427367167999998,
+        "seconds": 6.522289752960205
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 9,
+        "S": 14,
+        "U": 10,
+        "minimum": -3.726359148295797e-06,
+        "centroid": [
+          -7.70765227567655e-05,
+          -0.0006665987631185088,
+          0.00043246757101447585
+        ],
+        "merit": 2.2096219181507477e-05,
+        "trust": 0.06198314035199997,
+        "seconds": 7.217648983001709
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 10,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.99990181488225e-07,
+        "centroid": [
+          -7.706441256809439e-05,
+          -0.00066661961701311,
+          0.0004325068643596952
+        ],
+        "merit": 2.1262313700314446e-11,
+        "trust": 0.08677639649279996,
+        "seconds": 7.934659957885742
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "STRICT211_REQUIRES_EXACT",
+      "values": {
+        "it": 10,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.99990181488225e-07,
+        "centroid": [
+          -7.706441256809439e-05,
+          -0.00066661961701311,
+          0.0004325068643596952
+        ],
+        "merit": 2.1262313700314446e-11,
+        "trust": 0.08677639649279996,
+        "seconds": 7.934659957885742
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "EXACT_ATLAS",
+      "values": {
+        "V": 149,
+        "E": 233,
+        "F": 86,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 466,
+        "seconds": 2.9304792881011963,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 149,
+        "E": 233,
+        "F": 86,
+        "counts": [
+          17,
+          20,
+          35
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 466,
+        "VplusEplusF": 468
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 149,
+        "F": 86,
+        "E": 233,
+        "nodes": 235,
+        "free": 235,
+        "depth": 5,
+        "levels": 12
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 0,
+        "S": 17,
+        "U": 20,
+        "minimum": -0.037517198827394,
+        "centroid": [
+          5.796933165661836e-19,
+          -6.956319798794204e-18,
+          2.5062678233416093e-17
+        ],
+        "merit": 0.03793332164476149,
+        "trust": 0.003,
+        "seconds": 0.44499778747558594
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 1,
+        "S": 4,
+        "U": 3,
+        "minimum": -0.03660619182228282,
+        "centroid": [
+          8.370718529641333e-06,
+          -1.8311804108977627e-05,
+          2.297513357870435e-05
+        ],
+        "merit": 0.03660935729787338,
+        "trust": 0.0042,
+        "seconds": 2.0283799171447754
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 2,
+        "S": 6,
+        "U": 8,
+        "minimum": -0.035355851217377984,
+        "centroid": [
+          1.5752522307318687e-05,
+          -4.3915690205862647e-05,
+          4.488920877202424e-05
+        ],
+        "merit": 0.035363058200385176,
+        "trust": 0.005879999999999999,
+        "seconds": 2.731851577758789
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 3,
+        "S": 9,
+        "U": 14,
+        "minimum": -0.033605432974875254,
+        "centroid": [
+          2.425044103416132e-05,
+          -7.971485640198309e-05,
+          7.77363202340978e-05
+        ],
+        "merit": 0.033618863207993954,
+        "trust": 0.008231999999999998,
+        "seconds": 3.419167995452881
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 4,
+        "S": 11,
+        "U": 22,
+        "minimum": -0.031151769601015584,
+        "centroid": [
+          3.858509528962636e-05,
+          -0.00013048762975160344,
+          0.00012569312903406264
+        ],
+        "merit": 0.031176777039763466,
+        "trust": 0.011524799999999997,
+        "seconds": 4.145346641540527
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 5,
+        "S": 12,
+        "U": 29,
+        "minimum": -0.027698739740037507,
+        "centroid": [
+          5.5751470868116134e-05,
+          -0.00019484501345531536,
+          0.00019688470620171983
+        ],
+        "merit": 0.02774815428450277,
+        "trust": 0.016134719999999995,
+        "seconds": 4.845010757446289
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 6,
+        "S": 15,
+        "U": 32,
+        "minimum": -0.02286271325082796,
+        "centroid": [
+          8.277351771425962e-05,
+          -0.0002838441907641793,
+          0.00028633192530666383
+        ],
+        "merit": 0.02295574570336768,
+        "trust": 0.022588607999999993,
+        "seconds": 5.511924982070923
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 7,
+        "S": 12,
+        "U": 33,
+        "minimum": -0.016032035498749774,
+        "centroid": [
+          0.00010291393128680239,
+          -0.00040100578762495453,
+          0.00040871316365888414
+        ],
+        "merit": 0.016237091006453454,
+        "trust": 0.03162405119999999,
+        "seconds": 6.173311948776245
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 8,
+        "S": 15,
+        "U": 31,
+        "minimum": -0.006428011176567899,
+        "centroid": [
+          0.00012235255663270528,
+          -0.0005773672152463265,
+          0.0005902283526577043
+        ],
+        "merit": 0.006820317687875414,
+        "trust": 0.04427367167999998,
+        "seconds": 6.904828786849976
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 9,
+        "S": 13,
+        "U": 10,
+        "minimum": -2.102463480495318e-06,
+        "centroid": [
+          0.00012425920715573903,
+          -0.0005749299019751718,
+          0.0006000083841369222
+        ],
+        "merit": 1.7220267453375447e-05,
+        "trust": 0.06198314035199997,
+        "seconds": 7.925666809082031
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 10,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.9997616879240744e-07,
+        "centroid": [
+          0.0001242977722844866,
+          -0.0005749688317591675,
+          0.0006000292974123548
+        ],
+        "merit": 8.54705092284536e-11,
+        "trust": 0.08677639649279996,
+        "seconds": 8.662023782730103
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "STRICT211_REQUIRES_EXACT",
+      "values": {
+        "it": 10,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.9997616879240744e-07,
+        "centroid": [
+          0.0001242977722844866,
+          -0.0005749688317591675,
+          0.0006000292974123548
+        ],
+        "merit": 8.54705092284536e-11,
+        "trust": 0.08677639649279996,
+        "seconds": 8.662023782730103
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "EXACT_ATLAS",
+      "values": {
+        "V": 149,
+        "E": 233,
+        "F": 86,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 466,
+        "seconds": 3.2132909297943115,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 150,
+        "E": 234,
+        "F": 86,
+        "counts": [
+          21,
+          16,
+          35
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C2E": 468,
+        "VplusEplusF": 470
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 150,
+        "F": 86,
+        "E": 234,
+        "nodes": 236,
+        "free": 236,
+        "depth": 5,
+        "levels": 12
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 0,
+        "S": 21,
+        "U": 16,
+        "minimum": -0.03881357736233125,
+        "centroid": [
+          2.724559637216246e-17,
+          3.478161238999463e-18,
+          -3.673807808693183e-17
+        ],
+        "merit": 0.039348892948345135,
+        "trust": 0.003,
+        "seconds": 0.4122629165649414
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 1,
+        "S": 5,
+        "U": 1,
+        "minimum": -0.03793939036207399,
+        "centroid": [
+          -1.718309961335183e-06,
+          -1.1585030262942604e-05,
+          1.4290328321335761e-05
+        ],
+        "merit": 0.03794263003828809,
+        "trust": 0.0042,
+        "seconds": 1.889873743057251
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 2,
+        "S": 6,
+        "U": 7,
+        "minimum": -0.03673946633174483,
+        "centroid": [
+          -7.223253231573276e-06,
+          -2.8292073460542323e-05,
+          3.0852655125216434e-05
+        ],
+        "merit": 0.03674531027331504,
+        "trust": 0.005879999999999999,
+        "seconds": 2.508166790008545
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 3,
+        "S": 15,
+        "U": 12,
+        "minimum": -0.03506024043448039,
+        "centroid": [
+          -1.675816402597502e-05,
+          -4.909364875629463e-05,
+          5.207813397474211e-05
+        ],
+        "merit": 0.0350731955536936,
+        "trust": 0.008231999999999998,
+        "seconds": 3.146965980529785
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 4,
+        "S": 21,
+        "U": 24,
+        "minimum": -0.032681822613991246,
+        "centroid": [
+          -2.9188829967841414e-05,
+          -7.926267088470097e-05,
+          8.465973040977261e-05
+        ],
+        "merit": 0.03270797445048964,
+        "trust": 0.011524799999999997,
+        "seconds": 3.779062032699585
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 5,
+        "S": 22,
+        "U": 24,
+        "minimum": -0.029328921939749283,
+        "centroid": [
+          -4.603300634450051e-05,
+          -0.00012559016313178387,
+          0.00013581526952678038
+        ],
+        "merit": 0.029376058199336887,
+        "trust": 0.016134719999999995,
+        "seconds": 4.394969940185547
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 6,
+        "S": 24,
+        "U": 26,
+        "minimum": -0.024641410828713003,
+        "centroid": [
+          -6.846649541036764e-05,
+          -0.00018619020554417693,
+          0.00019335595085358498
+        ],
+        "merit": 0.024729149366735335,
+        "trust": 0.022588607999999993,
+        "seconds": 5.010162830352783
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 7,
+        "S": 24,
+        "U": 29,
+        "minimum": -0.018100355013382495,
+        "centroid": [
+          -0.00011366774861610095,
+          -0.0002718746733802004,
+          0.0002791837149686539
+        ],
+        "merit": 0.018287097195569483,
+        "trust": 0.03162405119999999,
+        "seconds": 5.641139984130859
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 8,
+        "S": 25,
+        "U": 29,
+        "minimum": -0.008954897056299052,
+        "centroid": [
+          -0.00017186432890707598,
+          -0.0003902708056100357,
+          0.0004016933930302793
+        ],
+        "merit": 0.00931402765801803,
+        "trust": 0.04427367167999998,
+        "seconds": 6.281487703323364
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 9,
+        "S": 10,
+        "U": 20,
+        "minimum": -7.802376192712658e-06,
+        "centroid": [
+          -0.00018933460636616267,
+          -0.0004355113402111497,
+          0.0004545051306067744
+        ],
+        "merit": 3.921681015697968e-05,
+        "trust": 0.06198314035199997,
+        "seconds": 6.930384874343872
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 10,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.9982952138904532e-07,
+        "centroid": [
+          -0.00018936764482123245,
+          -0.0004355548948282295,
+          0.0004544876762840212
+        ],
+        "merit": 2.7721776323416737e-10,
+        "trust": 0.08677639649279996,
+        "seconds": 7.59456992149353
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "STRICT211_REQUIRES_EXACT",
+      "values": {
+        "it": 10,
+        "S": 2,
+        "U": 1,
+        "minimum": 1.9982952138904532e-07,
+        "centroid": [
+          -0.00018936764482123245,
+          -0.0004355548948282295,
+          0.0004544876762840212
+        ],
+        "merit": 2.7721776323416737e-10,
+        "trust": 0.08677639649279996,
+        "seconds": 7.59456992149353
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "EXACT_ATLAS",
+      "values": {
+        "V": 150,
+        "E": 234,
+        "F": 86,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 468,
+        "seconds": 2.9613089561462402,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    }
+  ]
+}

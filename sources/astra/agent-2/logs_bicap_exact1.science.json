@@ -1,0 +1,45 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 2,
+      "label": "EXACT",
+      "values": {
+        "V": 63,
+        "E": 173,
+        "F": 112,
+        "counts": [
+          2,
+          1,
+          1
+        ],
+        "weak": [
+          0,
+          0,
+          0
+        ],
+        "stable_face_ids": [
+          84,
+          107
+        ],
+        "unstable_vertices": [
+          62
+        ],
+        "saddle_edges": [
+          [
+            52,
+            62
+          ]
+        ],
+        "face_primitive_zero_count": 0,
+        "vertex_max_zero_count": 0,
+        "edge_primitive_zero_count": 0,
+        "C": 346,
+        "seconds": 1.7947349548339844,
+        "goal_candidate": false,
+        "sha256": {}
+      }
+    }
+  ]
+}

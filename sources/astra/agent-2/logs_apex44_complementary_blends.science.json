@@ -1,0 +1,166 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "COMPLEMENTARY_PHYSICAL_BLEND",
+      "values": {
+        "V": 151,
+        "E": 247,
+        "F": 98,
+        "S": 1,
+        "U": 34,
+        "Pmax": 0.11502193152068377,
+        "Qmax": 0.0,
+        "minimum_noncontact": 2.1849156928155367e-09,
+        "sample": 0,
+        "t": 0.0,
+        "phase": 0.0,
+        "scale": 0.9,
+        "anisotropy": 1.0,
+        "objective": 5.364564579280711
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "COMPLEMENTARY_PHYSICAL_BLEND",
+      "values": {
+        "V": 148,
+        "E": 241,
+        "F": 95,
+        "S": 13,
+        "U": 19,
+        "Pmax": 4.363783429269017e-12,
+        "Qmax": 0.12002458609951377,
+        "minimum_noncontact": 0.00019149435226506473,
+        "sample": 173,
+        "t": 0.999999683772234,
+        "phase": 0.0,
+        "scale": 1.0,
+        "anisotropy": 1.0,
+        "objective": 1.9460857493389454
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "COMPLEMENTARY_PHYSICAL_BLEND",
+      "values": {
+        "V": 148,
+        "E": 241,
+        "F": 95,
+        "S": 6,
+        "U": 6,
+        "Pmax": 3.506484017166602e-13,
+        "Qmax": 0.12002460386150919,
+        "minimum_noncontact": 0.00019160576837640164,
+        "sample": 174,
+        "t": 0.9999999,
+        "phase": 0.0,
+        "scale": 1.0,
+        "anisotropy": 1.0,
+        "objective": 1.9460858755350494
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "COMPLEMENTARY_PHYSICAL_BLEND",
+      "values": {
+        "V": 148,
+        "E": 241,
+        "F": 95,
+        "S": 4,
+        "U": 4,
+        "Pmax": 1.4237463404685077e-14,
+        "Qmax": 0.12002460947830888,
+        "minimum_noncontact": 0.00019164100137158968,
+        "sample": 175,
+        "t": 0.9999999683772234,
+        "phase": 0.0,
+        "scale": 1.0,
+        "anisotropy": 1.0,
+        "objective": 1.9460859155972878
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "COMPLEMENTARY_PHYSICAL_BLEND",
+      "values": {
+        "V": 148,
+        "E": 241,
+        "F": 95,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002461125449414,
+        "minimum_noncontact": 0.00019165214303629163,
+        "sample": 176,
+        "t": 0.99999999,
+        "phase": 0.0,
+        "scale": 1.0,
+        "anisotropy": 1.0,
+        "objective": 1.946085928280198
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "COMPLEMENTARY_PHYSICAL_BLEND",
+      "values": {
+        "V": 148,
+        "E": 241,
+        "F": 95,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002461111323003,
+        "minimum_noncontact": 0.00019165734804627022,
+        "sample": 443,
+        "t": 0.99999999,
+        "phase": -0.03,
+        "scale": 1.0,
+        "anisotropy": 1.0,
+        "objective": 1.9460859272713462
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "COMPLEMENTARY_PHYSICAL_BLEND",
+      "values": {
+        "V": 148,
+        "E": 241,
+        "F": 95,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002461050711315,
+        "minimum_noncontact": 0.00019165729931502895,
+        "sample": 977,
+        "t": 0.99999999,
+        "phase": -0.12,
+        "scale": 1.0,
+        "anisotropy": 1.0,
+        "objective": 1.9460859229427008
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "COMPLEMENTARY_PHYSICAL_BLEND",
+      "values": {
+        "V": 148,
+        "E": 241,
+        "F": 95,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.12002460936903701,
+        "minimum_noncontact": 0.00019165717889191303,
+        "sample": 1511,
+        "t": 0.99999999,
+        "phase": -0.3,
+        "scale": 1.0,
+        "anisotropy": 1.0,
+        "objective": 1.9460859148150234
+      }
+    }
+  ]
+}

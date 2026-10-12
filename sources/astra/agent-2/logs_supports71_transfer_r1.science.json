@@ -1,0 +1,756 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 0,
+        "cross": -0.10567938683804469,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 9.648524538212904e-08,
+        "noncontact": 2.1994685688642157e-05,
+        "seconds": 1.178380012512207,
+        "trust": 0.02
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 5,
+        "cross": -0.08781721397405486,
+        "reachable": 63,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999973744126025e-08,
+        "noncontact": 0.00011366184143746239,
+        "seconds": 5.36658501625061,
+        "trust": 0.0497664
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 10,
+        "cross": -0.060783308283873516,
+        "reachable": 65,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999995457209385e-08,
+        "noncontact": 2.433087169961823e-06,
+        "seconds": 7.1414899826049805,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 15,
+        "cross": -0.05478858041942512,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999589910051475e-08,
+        "noncontact": 1.0758465958105035e-06,
+        "seconds": 8.833147048950195,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 20,
+        "cross": -0.053164310522898814,
+        "reachable": 65,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999181538938786e-08,
+        "noncontact": 7.364882992355604e-08,
+        "seconds": 10.415195226669312,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 25,
+        "cross": -0.05269515149294175,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999997027321257e-08,
+        "noncontact": 4.975469702905855e-09,
+        "seconds": 12.278264999389648,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 30,
+        "cross": -0.05257790527388632,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999997262751078e-08,
+        "noncontact": 1.000000082740371e-09,
+        "seconds": 14.168280124664307,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 35,
+        "cross": -0.05249413323829434,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999981749147975e-08,
+        "noncontact": 1.000000082740371e-09,
+        "seconds": 16.157023906707764,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 40,
+        "cross": -0.05241033879840659,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999998016114193e-08,
+        "noncontact": 1.0000001937626735e-09,
+        "seconds": 18.141990184783936,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 45,
+        "cross": -0.052326520144958005,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999986761823597e-08,
+        "noncontact": 1.0000001937626735e-09,
+        "seconds": 20.055494785308838,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 50,
+        "cross": -0.05224267621879186,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999993627441307e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 22.144646883010864,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 55,
+        "cross": -0.05215881198078407,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999997871560304e-08,
+        "noncontact": 1.0000001937626735e-09,
+        "seconds": 24.1052348613739,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 60,
+        "cross": -0.05207493668569969,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999999008561147e-08,
+        "noncontact": 1.0000001937626735e-09,
+        "seconds": 26.140286922454834,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 65,
+        "cross": -0.05199107857245138,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999977360808064e-08,
+        "noncontact": 1.000000082740371e-09,
+        "seconds": 28.297702074050903,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 70,
+        "cross": -0.05190727073351074,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999997730295164e-08,
+        "noncontact": 9.99999860695766e-10,
+        "seconds": 30.430397987365723,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 75,
+        "cross": -0.05182351142516146,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999995637661528e-08,
+        "noncontact": 9.999997496734636e-10,
+        "seconds": 32.475730895996094,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 80,
+        "cross": -0.05173978533595702,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999994528417772e-08,
+        "noncontact": 9.999997496734636e-10,
+        "seconds": 34.48297691345215,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 85,
+        "cross": -0.05165608841176371,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999995438983904e-08,
+        "noncontact": 1.0000005268295808e-09,
+        "seconds": 36.445799827575684,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 90,
+        "cross": -0.0515724252734221,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999969682565934e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 38.46886086463928,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 95,
+        "cross": -0.051488801332186626,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999994232509924e-08,
+        "noncontact": 1.000000082740371e-09,
+        "seconds": 40.62726306915283,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 100,
+        "cross": -0.051405219614222564,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999987889522856e-08,
+        "noncontact": 1.0000001937626735e-09,
+        "seconds": 42.723100900650024,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 105,
+        "cross": -0.051321684655355936,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999998878739361e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 44.661750078201294,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 110,
+        "cross": -0.05123819003328297,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999998852044892e-08,
+        "noncontact": 1.0000001937626735e-09,
+        "seconds": 46.62316393852234,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 115,
+        "cross": -0.051154732031536476,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999996559135637e-08,
+        "noncontact": 1.000000082740371e-09,
+        "seconds": 48.719226121902466,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 120,
+        "cross": -0.05107130846293195,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999996028311876e-08,
+        "noncontact": 1.000000082740371e-09,
+        "seconds": 50.87982892990112,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 125,
+        "cross": -0.05098791787315892,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999964478956884e-08,
+        "noncontact": 9.999996386511611e-10,
+        "seconds": 52.829789876937866,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 130,
+        "cross": -0.050904558656392804,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999965836003754e-08,
+        "noncontact": 1.0000004158072784e-09,
+        "seconds": 54.80303692817688,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 135,
+        "cross": -0.05082123007705903,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999998085492581e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 56.704028844833374,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 140,
+        "cross": -0.05073793133835271,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999996243684512e-08,
+        "noncontact": 1.000000082740371e-09,
+        "seconds": 58.67213487625122,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 145,
+        "cross": -0.05065466200177357,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.99999572606078e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 60.568175077438354,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 150,
+        "cross": -0.05057142249425079,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999999448873275e-08,
+        "noncontact": 1.000000082740371e-09,
+        "seconds": 62.42647695541382,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 155,
+        "cross": -0.0504882129655679,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999997752410115e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 64.28538489341736,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 160,
+        "cross": -0.05040503363404281,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999993078296986e-08,
+        "noncontact": 1.0000001937626735e-09,
+        "seconds": 66.1991720199585,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 165,
+        "cross": -0.05032188455206749,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.99999851819686e-08,
+        "noncontact": 9.99999860695766e-10,
+        "seconds": 68.14477205276489,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 170,
+        "cross": -0.050238765558466715,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999999551248766e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 70.06901812553406,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 175,
+        "cross": -0.050155674993064656,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999997657730228e-08,
+        "noncontact": 9.99999860695766e-10,
+        "seconds": 72.00154495239258,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 180,
+        "cross": -0.05007261215080424,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999979354071645e-08,
+        "noncontact": 1.000000304784976e-09,
+        "seconds": 73.87224006652832,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 185,
+        "cross": -0.04998957611973962,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999998879276854e-08,
+        "noncontact": 9.999997496734636e-10,
+        "seconds": 75.9335401058197,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 190,
+        "cross": -0.04990656690175006,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999999301579517e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 78.32213997840881,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 195,
+        "cross": -0.04982358484436233,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999994067668963e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 80.23976016044617,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 200,
+        "cross": -0.04974063085284462,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999983031563454e-08,
+        "noncontact": 1.0000001937626735e-09,
+        "seconds": 82.17999005317688,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 205,
+        "cross": -0.04965770466960209,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999997190236e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 84.09817600250244,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 210,
+        "cross": -0.049574806870156855,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999993944209375e-08,
+        "noncontact": 9.99999860695766e-10,
+        "seconds": 86.05459713935852,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 215,
+        "cross": -0.0494919374150492,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999999318762304e-08,
+        "noncontact": 9.999996386511611e-10,
+        "seconds": 87.94995307922363,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 220,
+        "cross": -0.04940909379750024,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999998041002331e-08,
+        "noncontact": 1.0000004158072784e-09,
+        "seconds": 89.92017412185669,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 225,
+        "cross": -0.04932626804502442,
+        "reachable": 68,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999962241260334e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 92.0253438949585,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 230,
+        "cross": -0.049243455963081814,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999993972724556e-08,
+        "noncontact": 9.99999860695766e-10,
+        "seconds": 94.00648713111877,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 235,
+        "cross": -0.049160657795908856,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999997342381814e-08,
+        "noncontact": 9.999999717180685e-10,
+        "seconds": 96.01298785209656,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 240,
+        "cross": -0.04907787254290627,
+        "reachable": 58,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.999998118977529e-08,
+        "noncontact": 1.0000001937626735e-09,
+        "seconds": 97.98697900772095,
+        "trust": 0.071663616
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "BASIN_TRANSFER",
+      "values": {
+        "it": 245,
+        "cross": -0.048995099102483695,
+        "reachable": 57,
+        "S": 1,
+        "U": 2,
+        "minimum": 4.9999944662487834e-08,
+        "noncontact": 9.999997496734636e-10,
+        "seconds": 99.94281101226807,
+        "trust": 0.071663616
+      }
+    }
+  ]
+}

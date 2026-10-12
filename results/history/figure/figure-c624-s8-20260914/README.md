@@ -1,0 +1,9 @@
+# C624 S8 arithmetic improvement
+
+`COORD_CAP_RL_C624_STRONG_G8` (S8) is a distinct same-complexity construction reported by the coordinator: V=177, E=312, F=137, own-volume equilibria (1,1,0), weak-only (0,0,0). Its reported common centred denominator is 44,770 bits, versus 51,085 bits for INHERITED_G9: about 12.36% smaller, approximately 13.5 thousand decimal digits. This is not manufacturing precision or a proof of optimal arithmetic complexity.
+
+The complete 63,772-byte recovery Markdown was downloaded read-only from the exact originating ChatGPT message and matched its published SHA-256. Its 30 source files, all 29 manifest entries, base85/decoded hashes, decoder hash, Python syntax and byte-exact file readback were verified. `source/` also contains the four other exact variants, numerical methods, input checkpoints and failed proposals. No originating sandbox or external parent download is now needed to recover the finite exact bodies.
+
+The current coordinator reports repeating the S8 A/B, mass, details and coordinate-readback stages. The monitor has not independently run those mathematical audits. Its six canonical journal parts were additionally checked against their individual hashes and the downloaded source capsule. No new C below624 was found or claimed here, and no model-owned preferred-parent decision or global minimum was set by the monitor.
+
+Evidence: `download-receipt.json`, `source-integrity-receipt.json`, `journal-integration-receipt.json`. The earlier `handoff-preservation-receipt.json` records a historical incomplete state now superseded by the complete source recovery. The separate COMPLETE_HANDOFF JSON and optional full audit/coordinate ZIP were not downloaded because the verified standalone source capsule already preserves recovery of the critical data.

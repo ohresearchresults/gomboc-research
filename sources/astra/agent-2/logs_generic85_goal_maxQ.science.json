@@ -1,0 +1,3426 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011579159187781157,
+        "objective": 0.0011579159187781157,
+        "minimum_noncontact": 1.0000754335770523e-08,
+        "it": 0,
+        "trust": 0.025,
+        "seconds": 0.5720126628875732,
+        "Uguard": 9.999950853099835e-11
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011578038451722805,
+        "objective": 0.0011578038451722805,
+        "minimum_noncontact": 1.0420406362232626e-06,
+        "it": 10,
+        "trust": 0.025,
+        "seconds": 12.34087085723877,
+        "Uguard": 9.997896393096101e-11
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 2.193724807904111e-16,
+        "Qmax": 0.001157715929464577,
+        "objective": 0.001157715929464577,
+        "minimum_noncontact": 6.111377445217059e-07,
+        "it": 20,
+        "trust": 0.025,
+        "seconds": 24.353376626968384,
+        "Uguard": 9.998607392830636e-11
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011576112081725307,
+        "objective": 0.0011576112081725307,
+        "minimum_noncontact": 6.882975446265149e-07,
+        "it": 30,
+        "trust": 0.025,
+        "seconds": 36.03432297706604,
+        "Uguard": 9.997160783112647e-11
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011575169808792029,
+        "objective": 0.0011575169808792029,
+        "minimum_noncontact": 5.734677808177935e-07,
+        "it": 40,
+        "trust": 0.025,
+        "seconds": 47.97501277923584,
+        "Uguard": 9.994146228828568e-11
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011574528574445758,
+        "objective": 0.0011574528574445758,
+        "minimum_noncontact": 4.830924557053251e-07,
+        "it": 50,
+        "trust": 0.025,
+        "seconds": 61.29780077934265,
+        "Uguard": 9.998334246277623e-11
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011574098964326875,
+        "objective": 0.0011574098964326875,
+        "minimum_noncontact": 4.1076453616284425e-07,
+        "it": 60,
+        "trust": 0.025,
+        "seconds": 74.17353868484497,
+        "Uguard": 9.999963299496012e-11
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011573373478334715,
+        "objective": 0.0011573373478334715,
+        "minimum_noncontact": 5.622106927782866e-07,
+        "it": 70,
+        "trust": 0.025,
+        "seconds": 86.54700684547424,
+        "Uguard": 9.999016950622251e-11
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011572790786193172,
+        "objective": 0.0011572790786193172,
+        "minimum_noncontact": 5.170118488884157e-07,
+        "it": 80,
+        "trust": 0.025,
+        "seconds": 98.97200989723206,
+        "Uguard": 9.997648735277243e-11
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011572104608112235,
+        "objective": 0.0011572104608112235,
+        "minimum_noncontact": 4.466962894023041e-07,
+        "it": 90,
+        "trust": 0.025,
+        "seconds": 111.91286563873291,
+        "Uguard": 9.99636727292241e-11
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011571555271705058,
+        "objective": 0.0011571555271705058,
+        "minimum_noncontact": 4.6967570221934096e-07,
+        "it": 100,
+        "trust": 0.025,
+        "seconds": 124.52890181541443,
+        "Uguard": 9.99996756964827e-11
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011570773006650957,
+        "objective": 0.0011570773006650957,
+        "minimum_noncontact": 4.4378559604929535e-07,
+        "it": 110,
+        "trust": 0.025,
+        "seconds": 136.3165638446808,
+        "Uguard": 9.999918615958078e-11
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011570028758789378,
+        "objective": 0.0011570028758789378,
+        "minimum_noncontact": 4.907801988141003e-07,
+        "it": 120,
+        "trust": 0.025,
+        "seconds": 148.53854179382324,
+        "Uguard": 9.999972757700793e-11
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011569532043251333,
+        "objective": 0.0011569532043251333,
+        "minimum_noncontact": 3.8849560557441265e-07,
+        "it": 130,
+        "trust": 0.025,
+        "seconds": 161.69648694992065,
+        "Uguard": 9.999842154093604e-11
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011568773712993209,
+        "objective": 0.0011568773712993209,
+        "minimum_noncontact": 3.1232478536757924e-07,
+        "it": 140,
+        "trust": 0.025,
+        "seconds": 174.4105327129364,
+        "Uguard": 9.993443299963318e-11
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011567990458654265,
+        "objective": 0.0011567990458654265,
+        "minimum_noncontact": 2.3296505646808185e-07,
+        "it": 150,
+        "trust": 0.025,
+        "seconds": 186.8520646095276,
+        "Uguard": 9.99012031579456e-11
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 1.3452598317890715e-16,
+        "Qmax": 0.0011567253269510957,
+        "objective": 0.0011567253269510957,
+        "minimum_noncontact": 3.015107652437621e-07,
+        "it": 160,
+        "trust": 0.025,
+        "seconds": 199.54566979408264,
+        "Uguard": 9.999958851541492e-11
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.00115662527413789,
+        "objective": 0.00115662527413789,
+        "minimum_noncontact": 6.155552267905762e-07,
+        "it": 170,
+        "trust": 0.025,
+        "seconds": 211.03774285316467,
+        "Uguard": 9.999970388637671e-11
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001156534354487437,
+        "objective": 0.001156534354487437,
+        "minimum_noncontact": 5.765209057928544e-07,
+        "it": 180,
+        "trust": 0.025,
+        "seconds": 222.47397875785828,
+        "Uguard": 9.999876180650897e-11
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001156403259966004,
+        "objective": 0.001156403259966004,
+        "minimum_noncontact": 5.289912688999365e-07,
+        "it": 190,
+        "trust": 0.025,
+        "seconds": 233.5558488368988,
+        "Uguard": 9.996961904932677e-11
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 1.3446531618087695e-16,
+        "Qmax": 0.0011562161374074017,
+        "objective": 0.0011562161374074017,
+        "minimum_noncontact": 8.987388320336187e-05,
+        "it": 200,
+        "trust": 0.025,
+        "seconds": 245.1070306301117,
+        "Uguard": 9.999966291006972e-11
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011560300968541147,
+        "objective": 0.0011560300968541147,
+        "minimum_noncontact": 8.844652088679794e-05,
+        "it": 210,
+        "trust": 0.025,
+        "seconds": 257.33907198905945,
+        "Uguard": 9.999945052733429e-11
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011557797208448827,
+        "objective": 0.0011557797208448827,
+        "minimum_noncontact": 8.400381275130986e-05,
+        "it": 220,
+        "trust": 0.025,
+        "seconds": 268.56052470207214,
+        "Uguard": 9.996198752639232e-11
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011553830264913125,
+        "objective": 0.0011553830264913125,
+        "minimum_noncontact": 7.179597377138247e-05,
+        "it": 230,
+        "trust": 0.025,
+        "seconds": 278.84829592704773,
+        "Uguard": 9.999956336266273e-11
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001155117169052059,
+        "objective": 0.001155117169052059,
+        "minimum_noncontact": 6.55766745043529e-05,
+        "it": 240,
+        "trust": 0.025,
+        "seconds": 288.88842582702637,
+        "Uguard": 9.99996728137842e-11
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011548757552043655,
+        "objective": 0.0011548757552043655,
+        "minimum_noncontact": 5.8569982653189356e-05,
+        "it": 250,
+        "trust": 0.025,
+        "seconds": 299.98601174354553,
+        "Uguard": 9.9983163040827e-11
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 1.3325927534337572e-16,
+        "Qmax": 0.001154626500265869,
+        "objective": 0.001154626500265869,
+        "minimum_noncontact": 5.2321377707831296e-05,
+        "it": 260,
+        "trust": 0.025,
+        "seconds": 311.17102575302124,
+        "Uguard": 9.99830444789992e-11
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011543800832962748,
+        "objective": 0.0011543800832962748,
+        "minimum_noncontact": 4.3923324795414054e-05,
+        "it": 270,
+        "trust": 0.025,
+        "seconds": 321.5589687824249,
+        "Uguard": 9.991167879104322e-11
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011541472009132796,
+        "objective": 0.0011541472009132796,
+        "minimum_noncontact": 3.7067966088488724e-05,
+        "it": 280,
+        "trust": 0.025,
+        "seconds": 332.0059299468994,
+        "Uguard": 9.990275980191876e-11
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.00115393208465754,
+        "objective": 0.00115393208465754,
+        "minimum_noncontact": 3.164336118199884e-05,
+        "it": 290,
+        "trust": 0.025,
+        "seconds": 343.65012884140015,
+        "Uguard": 9.999951991554039e-11
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011536325586761049,
+        "objective": 0.0011536325586761049,
+        "minimum_noncontact": 2.6545868923033566e-06,
+        "it": 300,
+        "trust": 0.025,
+        "seconds": 353.9960777759552,
+        "Uguard": 9.999977233916836e-11
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011533551167562527,
+        "objective": 0.0011533551167562527,
+        "minimum_noncontact": 3.14837825251546e-05,
+        "it": 310,
+        "trust": 0.025,
+        "seconds": 363.8828899860382,
+        "Uguard": 9.999954767681485e-11
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 2.1956362440967307e-16,
+        "Qmax": 0.0011528871322260502,
+        "objective": 0.0011528871322260502,
+        "minimum_noncontact": 3.161545131336041e-05,
+        "it": 320,
+        "trust": 0.025,
+        "seconds": 373.73853063583374,
+        "Uguard": 9.999973984458672e-11
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011526735516383536,
+        "objective": 0.0011526735516383536,
+        "minimum_noncontact": 3.342245945092692e-05,
+        "it": 330,
+        "trust": 0.025,
+        "seconds": 384.94702076911926,
+        "Uguard": 9.998109519837645e-11
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.00115232267188484,
+        "objective": 0.00115232267188484,
+        "minimum_noncontact": 3.663824104349622e-05,
+        "it": 340,
+        "trust": 0.025,
+        "seconds": 395.8110568523407,
+        "Uguard": 9.999940969133039e-11
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011520641328675904,
+        "objective": 0.0011520641328675904,
+        "minimum_noncontact": 3.7765080611706914e-05,
+        "it": 350,
+        "trust": 0.025,
+        "seconds": 406.49489164352417,
+        "Uguard": 9.998989929385414e-11
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011517925993450807,
+        "objective": 0.0011517925993450807,
+        "minimum_noncontact": 3.970885656523482e-05,
+        "it": 360,
+        "trust": 0.025,
+        "seconds": 417.24391984939575,
+        "Uguard": 9.999876782512005e-11
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 58,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011516026193775762,
+        "objective": 0.0011516026193775762,
+        "minimum_noncontact": 3.829581150094352e-05,
+        "it": 370,
+        "trust": 0.025,
+        "seconds": 428.4947636127472,
+        "Uguard": 9.996563871853222e-11
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011512243265590276,
+        "objective": 0.0011512243265590276,
+        "minimum_noncontact": 3.688591412775999e-05,
+        "it": 380,
+        "trust": 0.025,
+        "seconds": 439.3535418510437,
+        "Uguard": 9.999971249732062e-11
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011508866370324364,
+        "objective": 0.0011508866370324364,
+        "minimum_noncontact": 3.811160624844767e-05,
+        "it": 390,
+        "trust": 0.025,
+        "seconds": 449.59030389785767,
+        "Uguard": 9.99993843302526e-11
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001150368811010211,
+        "objective": 0.001150368811010211,
+        "minimum_noncontact": 4.1362273122458326e-05,
+        "it": 400,
+        "trust": 0.025,
+        "seconds": 458.96380376815796,
+        "Uguard": 9.9999438210309e-11
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011499952107995894,
+        "objective": 0.0011499952107995894,
+        "minimum_noncontact": 2.8564473306569305e-05,
+        "it": 410,
+        "trust": 0.025,
+        "seconds": 469.41400480270386,
+        "Uguard": 9.999971300821066e-11
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011494078953532998,
+        "objective": 0.0011494078953532998,
+        "minimum_noncontact": 5.2222116936673224e-05,
+        "it": 420,
+        "trust": 0.025,
+        "seconds": 479.10518980026245,
+        "Uguard": 9.999967895962566e-11
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011490124112106578,
+        "objective": 0.0011490124112106578,
+        "minimum_noncontact": 6.190715452303319e-05,
+        "it": 430,
+        "trust": 0.025,
+        "seconds": 488.89716482162476,
+        "Uguard": 9.999942864895867e-11
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001148302249416801,
+        "objective": 0.001148302249416801,
+        "minimum_noncontact": 7.355122390606539e-05,
+        "it": 440,
+        "trust": 0.025,
+        "seconds": 497.99464988708496,
+        "Uguard": 9.997658649015688e-11
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011475401650424845,
+        "objective": 0.0011475401650424845,
+        "minimum_noncontact": 7.945846933177236e-05,
+        "it": 450,
+        "trust": 0.025,
+        "seconds": 506.12916469573975,
+        "Uguard": 9.999950996018814e-11
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011468551069378707,
+        "objective": 0.0011468551069378707,
+        "minimum_noncontact": 8.219617835403259e-05,
+        "it": 460,
+        "trust": 0.025,
+        "seconds": 515.1428048610687,
+        "Uguard": 9.999955860002028e-11
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011464224727127906,
+        "objective": 0.0011464224727127906,
+        "minimum_noncontact": 8.592847990729346e-05,
+        "it": 470,
+        "trust": 0.025,
+        "seconds": 524.9398708343506,
+        "Uguard": 9.999902576638907e-11
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011460686044179825,
+        "objective": 0.0011460686044179825,
+        "minimum_noncontact": 9.001112258888444e-05,
+        "it": 480,
+        "trust": 0.025,
+        "seconds": 535.4613018035889,
+        "Uguard": 9.999961515263576e-11
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3458468040604441e-16,
+        "Qmax": 0.0011458367039156318,
+        "objective": 0.0011458367039156318,
+        "minimum_noncontact": 9.266037641408875e-05,
+        "it": 490,
+        "trust": 0.025,
+        "seconds": 546.183828830719,
+        "Uguard": 9.999961382616703e-11
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011455974072728952,
+        "objective": 0.0011455974072728952,
+        "minimum_noncontact": 9.44956687163323e-05,
+        "it": 500,
+        "trust": 0.025,
+        "seconds": 557.1119387149811,
+        "Uguard": 9.999950880427522e-11
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011452736613691904,
+        "objective": 0.0011452736613691904,
+        "minimum_noncontact": 9.816646293037135e-05,
+        "it": 510,
+        "trust": 0.025,
+        "seconds": 566.9123198986053,
+        "Uguard": 9.99992181305067e-11
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3429210451755508e-16,
+        "Qmax": 0.0011449924159232037,
+        "objective": 0.0011449924159232037,
+        "minimum_noncontact": 0.00010168396908061261,
+        "it": 520,
+        "trust": 0.025,
+        "seconds": 578.3857216835022,
+        "Uguard": 9.999977392667042e-11
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3278560879585413e-16,
+        "Qmax": 0.0011448315748716668,
+        "objective": 0.0011448315748716668,
+        "minimum_noncontact": 0.00010512144348617802,
+        "it": 530,
+        "trust": 0.025,
+        "seconds": 589.7922565937042,
+        "Uguard": 9.999947922744335e-11
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011446472955272341,
+        "objective": 0.0011446472955272341,
+        "minimum_noncontact": 0.00010689522068307866,
+        "it": 540,
+        "trust": 0.025,
+        "seconds": 601.3762807846069,
+        "Uguard": 9.999817997077657e-11
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3421409103110263e-16,
+        "Qmax": 0.0011444869021426819,
+        "objective": 0.0011444869021426819,
+        "minimum_noncontact": 0.00010194395628870812,
+        "it": 550,
+        "trust": 0.025,
+        "seconds": 613.8472077846527,
+        "Uguard": 9.999972032849482e-11
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001144255469899031,
+        "objective": 0.001144255469899031,
+        "minimum_noncontact": 9.286523977181105e-05,
+        "it": 560,
+        "trust": 0.025,
+        "seconds": 623.7542088031769,
+        "Uguard": 9.999836369774778e-11
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011441182411886651,
+        "objective": 0.0011441182411886651,
+        "minimum_noncontact": 7.690989817876748e-05,
+        "it": 570,
+        "trust": 0.025,
+        "seconds": 635.4853036403656,
+        "Uguard": 9.99973715329553e-11
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011439307240768788,
+        "objective": 0.0011439307240768788,
+        "minimum_noncontact": 7.635067609323976e-05,
+        "it": 580,
+        "trust": 0.025,
+        "seconds": 646.9973888397217,
+        "Uguard": 9.999969210160198e-11
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.2951588422615122e-16,
+        "Qmax": 0.0011438009217354449,
+        "objective": 0.0011438009217354449,
+        "minimum_noncontact": 7.560023418984319e-05,
+        "it": 590,
+        "trust": 0.025,
+        "seconds": 658.5413439273834,
+        "Uguard": 9.999818905692366e-11
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011436287217661924,
+        "objective": 0.0011436287217661924,
+        "minimum_noncontact": 5.3507626696647215e-05,
+        "it": 600,
+        "trust": 0.025,
+        "seconds": 671.4533288478851,
+        "Uguard": 9.998928869097094e-11
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011435332296762264,
+        "objective": 0.0011435332296762264,
+        "minimum_noncontact": 2.959671773428152e-05,
+        "it": 610,
+        "trust": 0.025,
+        "seconds": 683.5051608085632,
+        "Uguard": 9.999972818143366e-11
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011434158264641977,
+        "objective": 0.0011434158264641977,
+        "minimum_noncontact": 1.757441708494234e-06,
+        "it": 620,
+        "trust": 0.025,
+        "seconds": 695.4152529239655,
+        "Uguard": 9.99957864697737e-11
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3415259132805204e-16,
+        "Qmax": 0.0011433049024772242,
+        "objective": 0.0011433049024772242,
+        "minimum_noncontact": 3.2867742446707204e-05,
+        "it": 630,
+        "trust": 0.025,
+        "seconds": 707.9491188526154,
+        "Uguard": 9.99996289030659e-11
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001143220480180243,
+        "objective": 0.001143220480180243,
+        "minimum_noncontact": 2.8136071023365794e-05,
+        "it": 640,
+        "trust": 0.025,
+        "seconds": 720.381041765213,
+        "Uguard": 9.999945417237132e-11
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011431660799025671,
+        "objective": 0.0011431660799025671,
+        "minimum_noncontact": 1.5866863161018152e-05,
+        "it": 650,
+        "trust": 0.025,
+        "seconds": 733.1743319034576,
+        "Uguard": 9.999743560050822e-11
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001143069970957772,
+        "objective": 0.001143069970957772,
+        "minimum_noncontact": 5.171054582531198e-06,
+        "it": 660,
+        "trust": 0.025,
+        "seconds": 744.2753207683563,
+        "Uguard": 9.999965928813655e-11
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011429982434925468,
+        "objective": 0.0011429982434925468,
+        "minimum_noncontact": 1.8865477890983584e-06,
+        "it": 670,
+        "trust": 0.025,
+        "seconds": 756.2890906333923,
+        "Uguard": 9.999909315447335e-11
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.2935828784510548e-16,
+        "Qmax": 0.00114287307724763,
+        "objective": 0.00114287307724763,
+        "minimum_noncontact": 6.926417570607413e-07,
+        "it": 680,
+        "trust": 0.025,
+        "seconds": 768.0549128055573,
+        "Uguard": 9.999944039750352e-11
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011427950471656664,
+        "objective": 0.0011427950471656664,
+        "minimum_noncontact": 3.1274436429473695e-07,
+        "it": 690,
+        "trust": 0.025,
+        "seconds": 778.6437408924103,
+        "Uguard": 9.999905461132376e-11
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3410287137295783e-16,
+        "Qmax": 0.0011427240638307563,
+        "objective": 0.0011427240638307563,
+        "minimum_noncontact": 1.5794961372161964e-07,
+        "it": 700,
+        "trust": 0.025,
+        "seconds": 789.6588077545166,
+        "Uguard": 9.998473417903652e-11
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011426630686411088,
+        "objective": 0.0011426630686411088,
+        "minimum_noncontact": 1.104160298748269e-07,
+        "it": 710,
+        "trust": 0.025,
+        "seconds": 801.9495418071747,
+        "Uguard": 9.996290286355177e-11
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011425995259763335,
+        "objective": 0.0011425995259763335,
+        "minimum_noncontact": 7.249291966715532e-08,
+        "it": 720,
+        "trust": 0.025,
+        "seconds": 813.6384928226471,
+        "Uguard": 9.997204503598699e-11
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011425238717253626,
+        "objective": 0.0011425238717253626,
+        "minimum_noncontact": 6.292766885351853e-08,
+        "it": 730,
+        "trust": 0.025,
+        "seconds": 824.0209758281708,
+        "Uguard": 9.996570308636156e-11
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011424531841779772,
+        "objective": 0.0011424531841779772,
+        "minimum_noncontact": 4.89692572047673e-08,
+        "it": 740,
+        "trust": 0.025,
+        "seconds": 835.2545218467712,
+        "Uguard": 9.999943037184685e-11
+      }
+    },
+    {
+      "source_line": 76,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011424049101051027,
+        "objective": 0.0011424049101051027,
+        "minimum_noncontact": 5.578806772099654e-08,
+        "it": 750,
+        "trust": 0.025,
+        "seconds": 847.3688960075378,
+        "Uguard": 9.997429441882313e-11
+      }
+    },
+    {
+      "source_line": 77,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011423200282841132,
+        "objective": 0.0011423200282841132,
+        "minimum_noncontact": 9.550599877616861e-08,
+        "it": 760,
+        "trust": 0.025,
+        "seconds": 857.1339819431305,
+        "Uguard": 9.996472543998653e-11
+      }
+    },
+    {
+      "source_line": 78,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011422325743294427,
+        "objective": 0.0011422325743294427,
+        "minimum_noncontact": 6.592543921879468e-08,
+        "it": 770,
+        "trust": 0.025,
+        "seconds": 866.6550378799438,
+        "Uguard": 9.999901593433127e-11
+      }
+    },
+    {
+      "source_line": 79,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.341631190259247e-16,
+        "Qmax": 0.0011421624864102029,
+        "objective": 0.0011421624864102029,
+        "minimum_noncontact": 5.471885355934347e-08,
+        "it": 780,
+        "trust": 0.025,
+        "seconds": 880.1368267536163,
+        "Uguard": 9.999759807537849e-11
+      }
+    },
+    {
+      "source_line": 80,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011421060517161753,
+        "objective": 0.0011421060517161753,
+        "minimum_noncontact": 3.158149064486082e-08,
+        "it": 790,
+        "trust": 0.025,
+        "seconds": 891.4864966869354,
+        "Uguard": 9.998137831797866e-11
+      }
+    },
+    {
+      "source_line": 81,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011420535664465,
+        "objective": 0.0011420535664465,
+        "minimum_noncontact": 3.162004036383337e-08,
+        "it": 800,
+        "trust": 0.025,
+        "seconds": 900.7799837589264,
+        "Uguard": 9.99971988099336e-11
+      }
+    },
+    {
+      "source_line": 82,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011419999564790146,
+        "objective": 0.0011419999564790146,
+        "minimum_noncontact": 4.489741500801614e-08,
+        "it": 810,
+        "trust": 0.025,
+        "seconds": 912.1131908893585,
+        "Uguard": 9.998178884597934e-11
+      }
+    },
+    {
+      "source_line": 83,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011419380610754818,
+        "objective": 0.0011419380610754818,
+        "minimum_noncontact": 4.541476983366266e-08,
+        "it": 820,
+        "trust": 0.025,
+        "seconds": 922.3030598163605,
+        "Uguard": 9.998588828811624e-11
+      }
+    },
+    {
+      "source_line": 84,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.00114188456872876,
+        "objective": 0.00114188456872876,
+        "minimum_noncontact": 3.3011529620985414e-08,
+        "it": 830,
+        "trust": 0.025,
+        "seconds": 932.9734048843384,
+        "Uguard": 9.999953698096235e-11
+      }
+    },
+    {
+      "source_line": 85,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011418356803469967,
+        "objective": 0.0011418356803469967,
+        "minimum_noncontact": 5.193285790294766e-08,
+        "it": 840,
+        "trust": 0.025,
+        "seconds": 944.8732438087463,
+        "Uguard": 9.99847204747467e-11
+      }
+    },
+    {
+      "source_line": 86,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011417828496759948,
+        "objective": 0.0011417828496759948,
+        "minimum_noncontact": 1.0558856566866837e-07,
+        "it": 850,
+        "trust": 0.025,
+        "seconds": 956.546927690506,
+        "Uguard": 9.996153307905025e-11
+      }
+    },
+    {
+      "source_line": 87,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011416942359983354,
+        "objective": 0.0011416942359983354,
+        "minimum_noncontact": 1.6115174883424288e-07,
+        "it": 860,
+        "trust": 0.025,
+        "seconds": 967.4348938465118,
+        "Uguard": 9.999468008823504e-11
+      }
+    },
+    {
+      "source_line": 88,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011416199001634461,
+        "objective": 0.0011416199001634461,
+        "minimum_noncontact": 9.357745267557505e-08,
+        "it": 870,
+        "trust": 0.025,
+        "seconds": 977.7499167919159,
+        "Uguard": 9.997069441549513e-11
+      }
+    },
+    {
+      "source_line": 89,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011415693664670404,
+        "objective": 0.0011415693664670404,
+        "minimum_noncontact": 9.405260315009656e-08,
+        "it": 880,
+        "trust": 0.025,
+        "seconds": 989.4231088161469,
+        "Uguard": 9.995012390436852e-11
+      }
+    },
+    {
+      "source_line": 90,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3424787418918613e-16,
+        "Qmax": 0.0011415170985831665,
+        "objective": 0.0011415170985831665,
+        "minimum_noncontact": 9.592393013235778e-08,
+        "it": 890,
+        "trust": 0.025,
+        "seconds": 1000.0225758552551,
+        "Uguard": 9.998762638318198e-11
+      }
+    },
+    {
+      "source_line": 91,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011414437324959816,
+        "objective": 0.0011414437324959816,
+        "minimum_noncontact": 7.544537405923535e-08,
+        "it": 900,
+        "trust": 0.025,
+        "seconds": 1011.5326976776123,
+        "Uguard": 9.992461293205366e-11
+      }
+    },
+    {
+      "source_line": 92,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011413747610767204,
+        "objective": 0.0011413747610767204,
+        "minimum_noncontact": 7.636751475637027e-08,
+        "it": 910,
+        "trust": 0.025,
+        "seconds": 1021.9139037132263,
+        "Uguard": 9.994230685265372e-11
+      }
+    },
+    {
+      "source_line": 93,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011413022610296541,
+        "objective": 0.0011413022610296541,
+        "minimum_noncontact": 6.56345930938329e-08,
+        "it": 920,
+        "trust": 0.025,
+        "seconds": 1033.5414888858795,
+        "Uguard": 9.999939028145764e-11
+      }
+    },
+    {
+      "source_line": 94,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011412197875867698,
+        "objective": 0.0011412197875867698,
+        "minimum_noncontact": 4.2512521614135323e-08,
+        "it": 930,
+        "trust": 0.025,
+        "seconds": 1043.900114774704,
+        "Uguard": 9.999863733413117e-11
+      }
+    },
+    {
+      "source_line": 95,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011411526069508575,
+        "objective": 0.0011411526069508575,
+        "minimum_noncontact": 4.6963369637609276e-08,
+        "it": 940,
+        "trust": 0.025,
+        "seconds": 1055.2053906917572,
+        "Uguard": 9.995643454497194e-11
+      }
+    },
+    {
+      "source_line": 96,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011411019427911338,
+        "objective": 0.0011411019427911338,
+        "minimum_noncontact": 5.0976900256571867e-08,
+        "it": 950,
+        "trust": 0.025,
+        "seconds": 1065.7443888187408,
+        "Uguard": 9.99660039190047e-11
+      }
+    },
+    {
+      "source_line": 97,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011410610961699501,
+        "objective": 0.0011410610961699501,
+        "minimum_noncontact": 4.499744166164277e-08,
+        "it": 960,
+        "trust": 0.025,
+        "seconds": 1076.0326616764069,
+        "Uguard": 9.999818725933323e-11
+      }
+    },
+    {
+      "source_line": 98,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011409944310726255,
+        "objective": 0.0011409944310726255,
+        "minimum_noncontact": 3.071182741454237e-08,
+        "it": 970,
+        "trust": 0.025,
+        "seconds": 1087.6227488517761,
+        "Uguard": 9.999928997635047e-11
+      }
+    },
+    {
+      "source_line": 99,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011409414538090406,
+        "objective": 0.0011409414538090406,
+        "minimum_noncontact": 3.166226869577571e-08,
+        "it": 980,
+        "trust": 0.025,
+        "seconds": 1098.2248048782349,
+        "Uguard": 9.996906249326801e-11
+      }
+    },
+    {
+      "source_line": 100,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011408985447110785,
+        "objective": 0.0011408985447110785,
+        "minimum_noncontact": 7.477424879276384e-08,
+        "it": 990,
+        "trust": 0.025,
+        "seconds": 1111.6259987354279,
+        "Uguard": 9.999886654973732e-11
+      }
+    },
+    {
+      "source_line": 101,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011408196673255483,
+        "objective": 0.0011408196673255483,
+        "minimum_noncontact": 4.544544995876976e-08,
+        "it": 1000,
+        "trust": 0.025,
+        "seconds": 1122.1595947742462,
+        "Uguard": 9.997151225897841e-11
+      }
+    },
+    {
+      "source_line": 102,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011407465208802163,
+        "objective": 0.0011407465208802163,
+        "minimum_noncontact": 7.943620150552277e-08,
+        "it": 1010,
+        "trust": 0.025,
+        "seconds": 1137.0191266536713,
+        "Uguard": 9.997015717453338e-11
+      }
+    },
+    {
+      "source_line": 103,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001140680163569309,
+        "objective": 0.001140680163569309,
+        "minimum_noncontact": 3.385466862404485e-08,
+        "it": 1020,
+        "trust": 0.025,
+        "seconds": 1149.4698958396912,
+        "Uguard": 9.99974928888297e-11
+      }
+    },
+    {
+      "source_line": 104,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011405597498947602,
+        "objective": 0.0011405597498947602,
+        "minimum_noncontact": 0.00016094401336863573,
+        "it": 1030,
+        "trust": 0.025,
+        "seconds": 1159.8764197826385,
+        "Uguard": 9.999966752516818e-11
+      }
+    },
+    {
+      "source_line": 105,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.341932157001053e-16,
+        "Qmax": 0.001140455605060025,
+        "objective": 0.001140455605060025,
+        "minimum_noncontact": 0.0002168613350121973,
+        "it": 1040,
+        "trust": 0.025,
+        "seconds": 1173.526057958603,
+        "Uguard": 9.997518306291845e-11
+      }
+    },
+    {
+      "source_line": 106,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011403453544859147,
+        "objective": 0.0011403453544859147,
+        "minimum_noncontact": 0.00021486474693543922,
+        "it": 1050,
+        "trust": 0.025,
+        "seconds": 1185.8285949230194,
+        "Uguard": 9.999920299162616e-11
+      }
+    },
+    {
+      "source_line": 107,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.00114017805695103,
+        "objective": 0.00114017805695103,
+        "minimum_noncontact": 0.00021184615308289523,
+        "it": 1060,
+        "trust": 0.025,
+        "seconds": 1198.5507097244263,
+        "Uguard": 9.999973400899002e-11
+      }
+    },
+    {
+      "source_line": 108,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3268749037960825e-16,
+        "Qmax": 0.001140066463049302,
+        "objective": 0.001140066463049302,
+        "minimum_noncontact": 0.0002099295653000821,
+        "it": 1070,
+        "trust": 0.025,
+        "seconds": 1209.4418869018555,
+        "Uguard": 9.99996408985505e-11
+      }
+    },
+    {
+      "source_line": 109,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011398719499588314,
+        "objective": 0.0011398719499588314,
+        "minimum_noncontact": 0.00020845087324483647,
+        "it": 1080,
+        "trust": 0.025,
+        "seconds": 1220.9430568218231,
+        "Uguard": 9.99996829431746e-11
+      }
+    },
+    {
+      "source_line": 110,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011397244086840065,
+        "objective": 0.0011397244086840065,
+        "minimum_noncontact": 0.00020746861370968261,
+        "it": 1090,
+        "trust": 0.025,
+        "seconds": 1232.5514450073242,
+        "Uguard": 9.996299545407541e-11
+      }
+    },
+    {
+      "source_line": 111,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001139543229562754,
+        "objective": 0.001139543229562754,
+        "minimum_noncontact": 0.0002067357207173881,
+        "it": 1100,
+        "trust": 0.025,
+        "seconds": 1243.690114736557,
+        "Uguard": 9.995627574720434e-11
+      }
+    },
+    {
+      "source_line": 112,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011393369005972993,
+        "objective": 0.0011393369005972993,
+        "minimum_noncontact": 0.00020602633410160553,
+        "it": 1110,
+        "trust": 0.025,
+        "seconds": 1254.7839679718018,
+        "Uguard": 9.999979217621448e-11
+      }
+    },
+    {
+      "source_line": 113,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001139199289165171,
+        "objective": 0.001139199289165171,
+        "minimum_noncontact": 0.00020631421503636282,
+        "it": 1120,
+        "trust": 0.025,
+        "seconds": 1266.9348738193512,
+        "Uguard": 9.99996371165554e-11
+      }
+    },
+    {
+      "source_line": 114,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3444765827938942e-16,
+        "Qmax": 0.0011390832322740684,
+        "objective": 0.0011390832322740684,
+        "minimum_noncontact": 0.00020679383913324578,
+        "it": 1130,
+        "trust": 0.025,
+        "seconds": 1279.5075018405914,
+        "Uguard": 9.999710107515265e-11
+      }
+    },
+    {
+      "source_line": 115,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011389996481902854,
+        "objective": 0.0011389996481902854,
+        "minimum_noncontact": 0.00020710689118330627,
+        "it": 1140,
+        "trust": 0.025,
+        "seconds": 1292.2672126293182,
+        "Uguard": 9.999967773206729e-11
+      }
+    },
+    {
+      "source_line": 116,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011389105251610042,
+        "objective": 0.0011389105251610042,
+        "minimum_noncontact": 0.00020814103886557245,
+        "it": 1150,
+        "trust": 0.025,
+        "seconds": 1305.1040518283844,
+        "Uguard": 9.991552690120897e-11
+      }
+    },
+    {
+      "source_line": 117,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.34497298333066e-16,
+        "Qmax": 0.0011387937051128632,
+        "objective": 0.0011387937051128632,
+        "minimum_noncontact": 0.0002081604565750128,
+        "it": 1160,
+        "trust": 0.025,
+        "seconds": 1320.7119297981262,
+        "Uguard": 9.999942917550814e-11
+      }
+    },
+    {
+      "source_line": 118,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011387045634898044,
+        "objective": 0.0011387045634898044,
+        "minimum_noncontact": 0.00020910171441357317,
+        "it": 1170,
+        "trust": 0.025,
+        "seconds": 1334.8625478744507,
+        "Uguard": 9.999966500357308e-11
+      }
+    },
+    {
+      "source_line": 119,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011386113753489478,
+        "objective": 0.0011386113753489478,
+        "minimum_noncontact": 0.00021034493021498957,
+        "it": 1180,
+        "trust": 0.025,
+        "seconds": 1349.1797277927399,
+        "Uguard": 9.999151264545997e-11
+      }
+    },
+    {
+      "source_line": 120,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011385643727243955,
+        "objective": 0.0011385643727243955,
+        "minimum_noncontact": 0.00021312642960613637,
+        "it": 1190,
+        "trust": 0.025,
+        "seconds": 1362.2103559970856,
+        "Uguard": 9.996918807573698e-11
+      }
+    },
+    {
+      "source_line": 121,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001138497214486811,
+        "objective": 0.001138497214486811,
+        "minimum_noncontact": 0.00021369332025278354,
+        "it": 1200,
+        "trust": 0.025,
+        "seconds": 1377.3987216949463,
+        "Uguard": 9.999837249107184e-11
+      }
+    },
+    {
+      "source_line": 122,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011384131279596388,
+        "objective": 0.0011384131279596388,
+        "minimum_noncontact": 0.0002150028491144651,
+        "it": 1210,
+        "trust": 0.025,
+        "seconds": 1390.549427986145,
+        "Uguard": 9.990491173834236e-11
+      }
+    },
+    {
+      "source_line": 123,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011383655636964694,
+        "objective": 0.0011383655636964694,
+        "minimum_noncontact": 0.00020562888621278308,
+        "it": 1220,
+        "trust": 0.025,
+        "seconds": 1405.9995367527008,
+        "Uguard": 9.999947661213759e-11
+      }
+    },
+    {
+      "source_line": 124,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3305886378236466e-16,
+        "Qmax": 0.0011383068077072274,
+        "objective": 0.0011383068077072274,
+        "minimum_noncontact": 0.00015236292786113825,
+        "it": 1230,
+        "trust": 0.025,
+        "seconds": 1419.669541835785,
+        "Uguard": 9.999944720614409e-11
+      }
+    },
+    {
+      "source_line": 125,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011382028067773628,
+        "objective": 0.0011382028067773628,
+        "minimum_noncontact": 0.00010408005459028313,
+        "it": 1240,
+        "trust": 0.025,
+        "seconds": 1432.4725897312164,
+        "Uguard": 9.999771104761502e-11
+      }
+    },
+    {
+      "source_line": 126,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001138133815492788,
+        "objective": 0.001138133815492788,
+        "minimum_noncontact": 4.0678700184093586e-05,
+        "it": 1250,
+        "trust": 0.025,
+        "seconds": 1445.1031959056854,
+        "Uguard": 9.999956868563478e-11
+      }
+    },
+    {
+      "source_line": 127,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011380585411990439,
+        "objective": 0.0011380585411990439,
+        "minimum_noncontact": 7.912508571195076e-05,
+        "it": 1260,
+        "trust": 0.025,
+        "seconds": 1457.3503046035767,
+        "Uguard": 9.995772881373087e-11
+      }
+    },
+    {
+      "source_line": 128,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011379828605566238,
+        "objective": 0.0011379828605566238,
+        "minimum_noncontact": 0.00023258667813430556,
+        "it": 1270,
+        "trust": 0.025,
+        "seconds": 1469.788337945938,
+        "Uguard": 9.998085382379268e-11
+      }
+    },
+    {
+      "source_line": 129,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011378466126525165,
+        "objective": 0.0011378466126525165,
+        "minimum_noncontact": 0.00023805469615678643,
+        "it": 1280,
+        "trust": 0.025,
+        "seconds": 1481.5105867385864,
+        "Uguard": 9.999944118757575e-11
+      }
+    },
+    {
+      "source_line": 130,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011377101214182634,
+        "objective": 0.0011377101214182634,
+        "minimum_noncontact": 0.0002446392153966359,
+        "it": 1290,
+        "trust": 0.025,
+        "seconds": 1493.9737317562103,
+        "Uguard": 9.999755661137298e-11
+      }
+    },
+    {
+      "source_line": 131,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3465522476865187e-16,
+        "Qmax": 0.0011376270987076835,
+        "objective": 0.0011376270987076835,
+        "minimum_noncontact": 0.0002476112643321482,
+        "it": 1300,
+        "trust": 0.025,
+        "seconds": 1506.4993469715118,
+        "Uguard": 9.999910763586961e-11
+      }
+    },
+    {
+      "source_line": 132,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011375139683086448,
+        "objective": 0.0011375139683086448,
+        "minimum_noncontact": 0.00025228599849602684,
+        "it": 1310,
+        "trust": 0.025,
+        "seconds": 1518.8140428066254,
+        "Uguard": 9.999927398784855e-11
+      }
+    },
+    {
+      "source_line": 133,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011373529505802026,
+        "objective": 0.0011373529505802026,
+        "minimum_noncontact": 0.0002474335667141947,
+        "it": 1320,
+        "trust": 0.025,
+        "seconds": 1530.763825893402,
+        "Uguard": 9.999952396708655e-11
+      }
+    },
+    {
+      "source_line": 134,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011372706322814539,
+        "objective": 0.0011372706322814539,
+        "minimum_noncontact": 0.00020776039389180934,
+        "it": 1330,
+        "trust": 0.025,
+        "seconds": 1543.5022559165955,
+        "Uguard": 9.9980266737826e-11
+      }
+    },
+    {
+      "source_line": 135,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011371762564716874,
+        "objective": 0.0011371762564716874,
+        "minimum_noncontact": 0.00018236421960227123,
+        "it": 1340,
+        "trust": 0.025,
+        "seconds": 1556.2718296051025,
+        "Uguard": 9.999855890236506e-11
+      }
+    },
+    {
+      "source_line": 136,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011370443201872585,
+        "objective": 0.0011370443201872585,
+        "minimum_noncontact": 0.00014041770622674754,
+        "it": 1350,
+        "trust": 0.025,
+        "seconds": 1568.8928289413452,
+        "Uguard": 9.999963661607903e-11
+      }
+    },
+    {
+      "source_line": 137,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001136968201034505,
+        "objective": 0.001136968201034505,
+        "minimum_noncontact": 0.00011313851481697945,
+        "it": 1360,
+        "trust": 0.025,
+        "seconds": 1582.1270008087158,
+        "Uguard": 9.997562091800373e-11
+      }
+    },
+    {
+      "source_line": 138,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3317549972243069e-16,
+        "Qmax": 0.001136906977294354,
+        "objective": 0.001136906977294354,
+        "minimum_noncontact": 9.146919093971917e-05,
+        "it": 1370,
+        "trust": 0.025,
+        "seconds": 1595.231389760971,
+        "Uguard": 9.998624431492478e-11
+      }
+    },
+    {
+      "source_line": 139,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001136800534235868,
+        "objective": 0.001136800534235868,
+        "minimum_noncontact": 3.706313634854741e-05,
+        "it": 1380,
+        "trust": 0.025,
+        "seconds": 1607.730007648468,
+        "Uguard": 9.999925851117072e-11
+      }
+    },
+    {
+      "source_line": 140,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001136698796687428,
+        "objective": 0.001136698796687428,
+        "minimum_noncontact": 1.630551590980911e-05,
+        "it": 1390,
+        "trust": 0.025,
+        "seconds": 1620.3340559005737,
+        "Uguard": 9.991174964378547e-11
+      }
+    },
+    {
+      "source_line": 141,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011365883735292358,
+        "objective": 0.0011365883735292358,
+        "minimum_noncontact": 4.7529700334281166e-05,
+        "it": 1400,
+        "trust": 0.025,
+        "seconds": 1631.8759198188782,
+        "Uguard": 9.999957891914998e-11
+      }
+    },
+    {
+      "source_line": 142,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011364526682437958,
+        "objective": 0.0011364526682437958,
+        "minimum_noncontact": 0.00010847461491547694,
+        "it": 1410,
+        "trust": 0.025,
+        "seconds": 1643.713416814804,
+        "Uguard": 9.999964539287902e-11
+      }
+    },
+    {
+      "source_line": 143,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001136302766057887,
+        "objective": 0.001136302766057887,
+        "minimum_noncontact": 0.00017823187257304252,
+        "it": 1420,
+        "trust": 0.025,
+        "seconds": 1655.3889799118042,
+        "Uguard": 9.999933386756144e-11
+      }
+    },
+    {
+      "source_line": 144,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001136166415436924,
+        "objective": 0.001136166415436924,
+        "minimum_noncontact": 0.0002251607005887557,
+        "it": 1430,
+        "trust": 0.025,
+        "seconds": 1667.5265588760376,
+        "Uguard": 9.997542625177843e-11
+      }
+    },
+    {
+      "source_line": 145,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.333599480740338e-16,
+        "Qmax": 0.0011360414282708398,
+        "objective": 0.0011360414282708398,
+        "minimum_noncontact": 0.00028431711889398414,
+        "it": 1440,
+        "trust": 0.025,
+        "seconds": 1678.9809317588806,
+        "Uguard": 9.99996029977355e-11
+      }
+    },
+    {
+      "source_line": 146,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001135915031880148,
+        "objective": 0.001135915031880148,
+        "minimum_noncontact": 0.000350394259193032,
+        "it": 1450,
+        "trust": 0.025,
+        "seconds": 1690.63787484169,
+        "Uguard": 9.999973513465165e-11
+      }
+    },
+    {
+      "source_line": 147,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3496859632215122e-16,
+        "Qmax": 0.0011357416532027738,
+        "objective": 0.0011357416532027738,
+        "minimum_noncontact": 0.00036825830412989813,
+        "it": 1460,
+        "trust": 0.025,
+        "seconds": 1702.456375837326,
+        "Uguard": 9.999951107048353e-11
+      }
+    },
+    {
+      "source_line": 148,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011356043728999086,
+        "objective": 0.0011356043728999086,
+        "minimum_noncontact": 0.00017355690782971944,
+        "it": 1470,
+        "trust": 0.025,
+        "seconds": 1714.1164507865906,
+        "Uguard": 9.99995275960095e-11
+      }
+    },
+    {
+      "source_line": 149,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001135453317942517,
+        "objective": 0.001135453317942517,
+        "minimum_noncontact": 0.00011960024226009836,
+        "it": 1480,
+        "trust": 0.025,
+        "seconds": 1725.323008775711,
+        "Uguard": 9.999928838800346e-11
+      }
+    },
+    {
+      "source_line": 150,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011353471563125615,
+        "objective": 0.0011353471563125615,
+        "minimum_noncontact": 0.0002474597305042181,
+        "it": 1490,
+        "trust": 0.025,
+        "seconds": 1737.431953907013,
+        "Uguard": 9.999965360449226e-11
+      }
+    },
+    {
+      "source_line": 151,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011352373032996318,
+        "objective": 0.0011352373032996318,
+        "minimum_noncontact": 0.000368091959924266,
+        "it": 1500,
+        "trust": 0.025,
+        "seconds": 1750.9077446460724,
+        "Uguard": 9.999955187749994e-11
+      }
+    },
+    {
+      "source_line": 152,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011351371530561043,
+        "objective": 0.0011351371530561043,
+        "minimum_noncontact": 0.0003846381569850843,
+        "it": 1510,
+        "trust": 0.025,
+        "seconds": 1762.7077567577362,
+        "Uguard": 9.99991529882376e-11
+      }
+    },
+    {
+      "source_line": 153,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011350590127376205,
+        "objective": 0.0011350590127376205,
+        "minimum_noncontact": 0.00038172794617274963,
+        "it": 1520,
+        "trust": 0.025,
+        "seconds": 1774.821189880371,
+        "Uguard": 9.999977655068376e-11
+      }
+    },
+    {
+      "source_line": 154,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011349657230191293,
+        "objective": 0.0011349657230191293,
+        "minimum_noncontact": 0.00035032816211155726,
+        "it": 1530,
+        "trust": 0.025,
+        "seconds": 1788.8726608753204,
+        "Uguard": 9.999884112569053e-11
+      }
+    },
+    {
+      "source_line": 155,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001134878928440135,
+        "objective": 0.001134878928440135,
+        "minimum_noncontact": 0.00037748172858897977,
+        "it": 1540,
+        "trust": 0.025,
+        "seconds": 1801.5534908771515,
+        "Uguard": 9.998072091604755e-11
+      }
+    },
+    {
+      "source_line": 156,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011348353972411955,
+        "objective": 0.0011348353972411955,
+        "minimum_noncontact": 0.000378629334973124,
+        "it": 1550,
+        "trust": 0.025,
+        "seconds": 1814.4785578250885,
+        "Uguard": 9.993435455898538e-11
+      }
+    },
+    {
+      "source_line": 157,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011347761905567532,
+        "objective": 0.0011347761905567532,
+        "minimum_noncontact": 0.00040496693318514687,
+        "it": 1560,
+        "trust": 0.025,
+        "seconds": 1826.861145734787,
+        "Uguard": 9.998505240581995e-11
+      }
+    },
+    {
+      "source_line": 158,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011347216883715165,
+        "objective": 0.0011347216883715165,
+        "minimum_noncontact": 0.0004115367272182757,
+        "it": 1570,
+        "trust": 0.025,
+        "seconds": 1840.0320768356323,
+        "Uguard": 9.999888372350566e-11
+      }
+    },
+    {
+      "source_line": 159,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001134659081765906,
+        "objective": 0.001134659081765906,
+        "minimum_noncontact": 0.00041442772309474574,
+        "it": 1580,
+        "trust": 0.025,
+        "seconds": 1852.9680037498474,
+        "Uguard": 9.999910288971574e-11
+      }
+    },
+    {
+      "source_line": 160,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011346011299999666,
+        "objective": 0.0011346011299999666,
+        "minimum_noncontact": 0.0003992342573817531,
+        "it": 1590,
+        "trust": 0.025,
+        "seconds": 1865.517003774643,
+        "Uguard": 9.999941536691095e-11
+      }
+    },
+    {
+      "source_line": 161,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011345419734253637,
+        "objective": 0.0011345419734253637,
+        "minimum_noncontact": 0.0003947035957123646,
+        "it": 1600,
+        "trust": 0.025,
+        "seconds": 1877.7605948448181,
+        "Uguard": 9.999962110002076e-11
+      }
+    },
+    {
+      "source_line": 162,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3515548608533225e-16,
+        "Qmax": 0.0011345022647323826,
+        "objective": 0.0011345022647323826,
+        "minimum_noncontact": 0.0003831904825386534,
+        "it": 1610,
+        "trust": 0.025,
+        "seconds": 1890.5708186626434,
+        "Uguard": 9.99651606802536e-11
+      }
+    },
+    {
+      "source_line": 163,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011344340341985315,
+        "objective": 0.0011344340341985315,
+        "minimum_noncontact": 0.0003720456653147908,
+        "it": 1620,
+        "trust": 0.025,
+        "seconds": 1903.3075647354126,
+        "Uguard": 9.99995907192545e-11
+      }
+    },
+    {
+      "source_line": 164,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001134383715295432,
+        "objective": 0.001134383715295432,
+        "minimum_noncontact": 0.00036766890703754385,
+        "it": 1630,
+        "trust": 0.025,
+        "seconds": 1915.8908398151398,
+        "Uguard": 9.999954764028963e-11
+      }
+    },
+    {
+      "source_line": 165,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001134320841834862,
+        "objective": 0.001134320841834862,
+        "minimum_noncontact": 0.00037933868275219496,
+        "it": 1640,
+        "trust": 0.025,
+        "seconds": 1928.2232148647308,
+        "Uguard": 9.999933761871951e-11
+      }
+    },
+    {
+      "source_line": 166,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011342294421526596,
+        "objective": 0.0011342294421526596,
+        "minimum_noncontact": 0.00037159465254399393,
+        "it": 1650,
+        "trust": 0.025,
+        "seconds": 1942.6129348278046,
+        "Uguard": 9.996777724790772e-11
+      }
+    },
+    {
+      "source_line": 167,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001134156349029208,
+        "objective": 0.001134156349029208,
+        "minimum_noncontact": 0.00028587910936217487,
+        "it": 1660,
+        "trust": 0.025,
+        "seconds": 1954.5782628059387,
+        "Uguard": 9.999971126841671e-11
+      }
+    },
+    {
+      "source_line": 168,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011340703109360163,
+        "objective": 0.0011340703109360163,
+        "minimum_noncontact": 0.00022448778879113895,
+        "it": 1670,
+        "trust": 0.025,
+        "seconds": 1967.0276057720184,
+        "Uguard": 9.993852501321098e-11
+      }
+    },
+    {
+      "source_line": 169,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011339738889330955,
+        "objective": 0.0011339738889330955,
+        "minimum_noncontact": 0.00015351662702234314,
+        "it": 1680,
+        "trust": 0.025,
+        "seconds": 1978.6802687644958,
+        "Uguard": 9.999950308117641e-11
+      }
+    },
+    {
+      "source_line": 170,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3519781442710388e-16,
+        "Qmax": 0.0011338987846904102,
+        "objective": 0.0011338987846904102,
+        "minimum_noncontact": 9.810421996014895e-05,
+        "it": 1690,
+        "trust": 0.025,
+        "seconds": 1990.7494258880615,
+        "Uguard": 9.996011884064073e-11
+      }
+    },
+    {
+      "source_line": 171,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011338019866530416,
+        "objective": 0.0011338019866530416,
+        "minimum_noncontact": 0.00015518001111225477,
+        "it": 1700,
+        "trust": 0.025,
+        "seconds": 2002.0990557670593,
+        "Uguard": 9.99996651948922e-11
+      }
+    },
+    {
+      "source_line": 172,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011337072623127142,
+        "objective": 0.0011337072623127142,
+        "minimum_noncontact": 0.00019134151791266873,
+        "it": 1710,
+        "trust": 0.025,
+        "seconds": 2014.128489971161,
+        "Uguard": 9.998316709658647e-11
+      }
+    },
+    {
+      "source_line": 173,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011335859625286372,
+        "objective": 0.0011335859625286372,
+        "minimum_noncontact": 0.0002658463086860907,
+        "it": 1720,
+        "trust": 0.025,
+        "seconds": 2025.9042658805847,
+        "Uguard": 9.999956219014651e-11
+      }
+    },
+    {
+      "source_line": 174,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001133495846297229,
+        "objective": 0.001133495846297229,
+        "minimum_noncontact": 0.0002728927393770286,
+        "it": 1730,
+        "trust": 0.025,
+        "seconds": 2037.2938177585602,
+        "Uguard": 9.999960358935241e-11
+      }
+    },
+    {
+      "source_line": 175,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011333700859027746,
+        "objective": 0.0011333700859027746,
+        "minimum_noncontact": 0.00025418754084749473,
+        "it": 1740,
+        "trust": 0.025,
+        "seconds": 2048.372186899185,
+        "Uguard": 9.9999553449664e-11
+      }
+    },
+    {
+      "source_line": 176,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001133268604825121,
+        "objective": 0.001133268604825121,
+        "minimum_noncontact": 0.00023894635156196387,
+        "it": 1750,
+        "trust": 0.025,
+        "seconds": 2059.825695991516,
+        "Uguard": 9.999972203101305e-11
+      }
+    },
+    {
+      "source_line": 177,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011331493992412383,
+        "objective": 0.0011331493992412383,
+        "minimum_noncontact": 0.00022491683509573424,
+        "it": 1760,
+        "trust": 0.025,
+        "seconds": 2071.331421852112,
+        "Uguard": 9.999929689566424e-11
+      }
+    },
+    {
+      "source_line": 178,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 1.3534641912388045e-16,
+        "Qmax": 0.0011330517258836435,
+        "objective": 0.0011330517258836435,
+        "minimum_noncontact": 0.00020662319498387927,
+        "it": 1770,
+        "trust": 0.025,
+        "seconds": 2083.2761669158936,
+        "Uguard": 9.992670982969101e-11
+      }
+    },
+    {
+      "source_line": 179,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011329347437120025,
+        "objective": 0.0011329347437120025,
+        "minimum_noncontact": 0.00020549764043065188,
+        "it": 1780,
+        "trust": 0.025,
+        "seconds": 2094.6356449127197,
+        "Uguard": 9.999972124189349e-11
+      }
+    },
+    {
+      "source_line": 180,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 166,
+        "E": 249,
+        "F": 85,
+        "S": 59,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.001132833125461194,
+        "objective": 0.001132833125461194,
+        "minimum_noncontact": 0.00020099430934239493,
+        "it": 1790,
+        "trust": 0.025,
+        "seconds": 2106.288316965103,
+        "Uguard": 9.999875986420247e-11
+      }
+    }
+  ]
+}

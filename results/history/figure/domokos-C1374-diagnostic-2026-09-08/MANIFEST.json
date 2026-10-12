@@ -1,0 +1,9 @@
+{
+  "check_stl_vertices.py": "f92de0b6ce8e5954315378f285bf920b20fedd5604e338966d7f2bcde6658f19",
+  "gomboc_C1374_V258_view.stl": "2885a642210256a32458272f5508e30e784f13335355d81862e7750884408766",
+  "README.md": "9007dfae3dd774a49e125880edb57a026198534943edcd63581e0286b2dcb805",
+  "diagnostic.json": "0e1a77f1f2cf23fae594fb440b388b86d982eed941e82dfb22bd158ae1fe8ec1",
+  "rational-source-diagnostic.json": "722195666e6ad59c7fe1243594a53385e81878dbfae529a6cff518eb4ae605e2",
+  "stl-surface-diagnostic.json": "c92506ad785f076df17d23bf87e189c3f08ccbfdb46c46abb5fce244dfb25e1f",
+  "check_rational_source.py": "920a1be04244fcf47f94d677824c607fc5067d1467d30f072c469024a610fc5d"
+}

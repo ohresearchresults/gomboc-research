@@ -1,0 +1,1576 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 2,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.17721331385054262,
+        "Qmax": 0.00044370347148668454,
+        "Pcount": 27,
+        "Qcount": 93,
+        "V": 74,
+        "nit": 1487,
+        "calls": 1684,
+        "seconds": 3.6139729022979736
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.24791855509024263,
+        "Qmax": 0.000187534154136268,
+        "Pcount": 28,
+        "Qcount": 91,
+        "V": 74,
+        "nit": 3500,
+        "calls": 3854,
+        "seconds": 12.080635786056519
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.29891086087226487,
+        "Qmax": 4.14118182505236e-05,
+        "Pcount": 28,
+        "Qcount": 90,
+        "V": 74,
+        "nit": 3500,
+        "calls": 3936,
+        "seconds": 20.819950819015503
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.32326217160326803,
+        "Qmax": 4.23688023647358e-06,
+        "Pcount": 30,
+        "Qcount": 90,
+        "V": 74,
+        "nit": 2084,
+        "calls": 2359,
+        "seconds": 25.86597776412964
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.33078796806360034,
+        "Qmax": 4.87150715714677e-07,
+        "Pcount": 27,
+        "Qcount": 88,
+        "V": 74,
+        "nit": 2590,
+        "calls": 3082,
+        "seconds": 32.65922784805298
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.3334988865833654,
+        "Qmax": 4.63142690656325e-08,
+        "Pcount": 28,
+        "Qcount": 91,
+        "V": 74,
+        "nit": 1471,
+        "calls": 1738,
+        "seconds": 36.6960289478302
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.33427999635303274,
+        "Qmax": 5.1787880849736925e-09,
+        "Pcount": 30,
+        "Qcount": 91,
+        "V": 74,
+        "nit": 1293,
+        "calls": 1559,
+        "seconds": 40.064472675323486
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.3346324045175368,
+        "Qmax": 5.102429482419912e-11,
+        "Pcount": 29,
+        "Qcount": 89,
+        "V": 74,
+        "nit": 1497,
+        "calls": 1654,
+        "seconds": 43.60762691497803
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.3346678856208223,
+        "Qmax": 4.700237453763735e-13,
+        "Pcount": 28,
+        "Qcount": 88,
+        "V": 74,
+        "nit": 703,
+        "calls": 837,
+        "seconds": 45.309266805648804
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 0,
+        "V": 74,
+        "Pmax": 0.3346678856208223,
+        "Qmax": 4.700237453763735e-13,
+        "Pcount": 28,
+        "Qcount": 88,
+        "seconds": 45.322875022888184
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.15109581288854565,
+        "Qmax": 0.000416308106304584,
+        "Pcount": 29,
+        "Qcount": 99,
+        "V": 78,
+        "nit": 2530,
+        "calls": 2998,
+        "seconds": 6.670898199081421
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.23451060663091347,
+        "Qmax": 0.00018788627810390583,
+        "Pcount": 31,
+        "Qcount": 96,
+        "V": 78,
+        "nit": 3500,
+        "calls": 4365,
+        "seconds": 17.045515060424805
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.2920349331622375,
+        "Qmax": 3.760471011276561e-05,
+        "Pcount": 32,
+        "Qcount": 96,
+        "V": 78,
+        "nit": 3500,
+        "calls": 4397,
+        "seconds": 26.384511947631836
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.31676007281323965,
+        "Qmax": 4.1783278048382585e-06,
+        "Pcount": 30,
+        "Qcount": 94,
+        "V": 78,
+        "nit": 3500,
+        "calls": 3925,
+        "seconds": 34.74061703681946
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.3245436423681846,
+        "Qmax": 4.94108271433755e-07,
+        "Pcount": 28,
+        "Qcount": 93,
+        "V": 78,
+        "nit": 649,
+        "calls": 830,
+        "seconds": 36.43900012969971
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.3273371157483228,
+        "Qmax": 4.397492817366584e-08,
+        "Pcount": 29,
+        "Qcount": 94,
+        "V": 78,
+        "nit": 3500,
+        "calls": 3936,
+        "seconds": 44.63364505767822
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.3281340460475622,
+        "Qmax": 4.777186060001039e-09,
+        "Pcount": 28,
+        "Qcount": 95,
+        "V": 78,
+        "nit": 854,
+        "calls": 958,
+        "seconds": 46.53294110298157
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.3284955594128075,
+        "Qmax": 4.8738753215949304e-11,
+        "Pcount": 29,
+        "Qcount": 94,
+        "V": 78,
+        "nit": 1268,
+        "calls": 1390,
+        "seconds": 49.35479211807251
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.32853179881964745,
+        "Qmax": 4.807145378864077e-13,
+        "Pcount": 28,
+        "Qcount": 92,
+        "V": 78,
+        "nit": 748,
+        "calls": 807,
+        "seconds": 51.16976833343506
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 1,
+        "V": 78,
+        "Pmax": 0.32853179881964745,
+        "Qmax": 4.807145378864077e-13,
+        "Pcount": 28,
+        "Qcount": 92,
+        "seconds": 96.50472807884216
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.15193232414724728,
+        "Qmax": 0.00038803889465656964,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 75,
+        "nit": 3500,
+        "calls": 4006,
+        "seconds": 9.620903015136719
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.2347679576253943,
+        "Qmax": 0.0001908218036338627,
+        "Pcount": 29,
+        "Qcount": 91,
+        "V": 74,
+        "nit": 3500,
+        "calls": 4483,
+        "seconds": 19.266560077667236
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.29212062097522634,
+        "Qmax": 3.492524609486943e-05,
+        "Pcount": 29,
+        "Qcount": 86,
+        "V": 73,
+        "nit": 3500,
+        "calls": 4403,
+        "seconds": 28.62289595603943
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.31750203137336364,
+        "Qmax": 3.878956707740193e-06,
+        "Pcount": 29,
+        "Qcount": 86,
+        "V": 73,
+        "nit": 3500,
+        "calls": 4478,
+        "seconds": 38.82564687728882
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.32534843797036356,
+        "Qmax": 4.362217917635046e-07,
+        "Pcount": 29,
+        "Qcount": 85,
+        "V": 73,
+        "nit": 499,
+        "calls": 607,
+        "seconds": 40.35651683807373
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.32810003725189585,
+        "Qmax": 3.630185725650356e-08,
+        "Pcount": 29,
+        "Qcount": 86,
+        "V": 74,
+        "nit": 545,
+        "calls": 634,
+        "seconds": 41.91999387741089
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.3288935200813576,
+        "Qmax": 4.5448190824137975e-09,
+        "Pcount": 28,
+        "Qcount": 86,
+        "V": 73,
+        "nit": 1286,
+        "calls": 1485,
+        "seconds": 45.665006160736084
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.3292553589719898,
+        "Qmax": 4.526214588344514e-11,
+        "Pcount": 28,
+        "Qcount": 86,
+        "V": 73,
+        "nit": 1254,
+        "calls": 1426,
+        "seconds": 49.321956157684326
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.32929162423286673,
+        "Qmax": 4.964754337764674e-13,
+        "Pcount": 28,
+        "Qcount": 86,
+        "V": 73,
+        "nit": 635,
+        "calls": 729,
+        "seconds": 51.04880213737488
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 2,
+        "V": 73,
+        "Pmax": 0.32929162423286673,
+        "Qmax": 4.964754337764674e-13,
+        "Pcount": 28,
+        "Qcount": 86,
+        "seconds": 147.56402111053467
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.15019469161843396,
+        "Qmax": 0.0004361548654882764,
+        "Pcount": 30,
+        "Qcount": 94,
+        "V": 75,
+        "nit": 3500,
+        "calls": 4432,
+        "seconds": 12.441434144973755
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.23139221870585755,
+        "Qmax": 0.00019578406589070845,
+        "Pcount": 29,
+        "Qcount": 96,
+        "V": 75,
+        "nit": 3500,
+        "calls": 4683,
+        "seconds": 26.91446590423584
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.289505152590821,
+        "Qmax": 3.656458798470863e-05,
+        "Pcount": 29,
+        "Qcount": 90,
+        "V": 75,
+        "nit": 3500,
+        "calls": 4342,
+        "seconds": 38.293821811676025
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.3149042897457532,
+        "Qmax": 3.849556058946126e-06,
+        "Pcount": 29,
+        "Qcount": 91,
+        "V": 75,
+        "nit": 3500,
+        "calls": 4460,
+        "seconds": 49.72372889518738
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.3227462969704587,
+        "Qmax": 4.5703418377668256e-07,
+        "Pcount": 28,
+        "Qcount": 90,
+        "V": 75,
+        "nit": 3500,
+        "calls": 4632,
+        "seconds": 62.38884496688843
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.3255314984488908,
+        "Qmax": 4.019950195615108e-08,
+        "Pcount": 28,
+        "Qcount": 90,
+        "V": 75,
+        "nit": 3500,
+        "calls": 4572,
+        "seconds": 74.58784794807434
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.32633801844341914,
+        "Qmax": 4.715587420335996e-09,
+        "Pcount": 30,
+        "Qcount": 90,
+        "V": 75,
+        "nit": 1224,
+        "calls": 1504,
+        "seconds": 78.71079182624817
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.32670251331243033,
+        "Qmax": 4.720588290805901e-11,
+        "Pcount": 28,
+        "Qcount": 90,
+        "V": 75,
+        "nit": 1593,
+        "calls": 1912,
+        "seconds": 83.97980690002441
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.32673861593222175,
+        "Qmax": 4.160655707236813e-13,
+        "Pcount": 27,
+        "Qcount": 90,
+        "V": 75,
+        "nit": 584,
+        "calls": 700,
+        "seconds": 85.9458589553833
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 3,
+        "V": 75,
+        "Pmax": 0.32673861593222175,
+        "Qmax": 4.160655707236813e-13,
+        "Pcount": 27,
+        "Qcount": 90,
+        "seconds": 233.52465891838074
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.14650618959243603,
+        "Qmax": 0.00040075256477915757,
+        "Pcount": 32,
+        "Qcount": 98,
+        "V": 76,
+        "nit": 1496,
+        "calls": 1959,
+        "seconds": 5.40113091468811
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.22716383717797833,
+        "Qmax": 0.0002122074053222598,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 76,
+        "nit": 3120,
+        "calls": 4208,
+        "seconds": 19.48284387588501
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.2859205661833822,
+        "Qmax": 3.9137233585104534e-05,
+        "Pcount": 31,
+        "Qcount": 94,
+        "V": 76,
+        "nit": 3500,
+        "calls": 4475,
+        "seconds": 33.34184718132019
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.3119508555593107,
+        "Qmax": 4.097798087861161e-06,
+        "Pcount": 30,
+        "Qcount": 92,
+        "V": 76,
+        "nit": 3500,
+        "calls": 4474,
+        "seconds": 47.66618227958679
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.31990808933393355,
+        "Qmax": 4.626384020049755e-07,
+        "Pcount": 29,
+        "Qcount": 90,
+        "V": 76,
+        "nit": 660,
+        "calls": 752,
+        "seconds": 50.147825956344604
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.3227593240095913,
+        "Qmax": 4.4654649508276555e-08,
+        "Pcount": 33,
+        "Qcount": 92,
+        "V": 76,
+        "nit": 2245,
+        "calls": 2743,
+        "seconds": 58.73363995552063
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.3235793277435669,
+        "Qmax": 4.917635001249741e-09,
+        "Pcount": 31,
+        "Qcount": 91,
+        "V": 76,
+        "nit": 1165,
+        "calls": 1489,
+        "seconds": 63.159844160079956
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.32394881358358835,
+        "Qmax": 5.007101295728339e-11,
+        "Pcount": 29,
+        "Qcount": 91,
+        "V": 76,
+        "nit": 1724,
+        "calls": 2023,
+        "seconds": 69.01065611839294
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.32398592251368136,
+        "Qmax": 4.617835925372709e-13,
+        "Pcount": 31,
+        "Qcount": 91,
+        "V": 76,
+        "nit": 680,
+        "calls": 771,
+        "seconds": 71.29085326194763
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 4,
+        "V": 76,
+        "Pmax": 0.32398592251368136,
+        "Qmax": 4.617835925372709e-13,
+        "Pcount": 31,
+        "Qcount": 91,
+        "seconds": 304.83418703079224
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.14448386618369577,
+        "Qmax": 0.00041468651620229927,
+        "Pcount": 31,
+        "Qcount": 103,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4388,
+        "seconds": 13.030151844024658
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.22594400806696652,
+        "Qmax": 0.00020889927743503447,
+        "Pcount": 30,
+        "Qcount": 101,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4339,
+        "seconds": 28.606348752975464
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.2846695835793186,
+        "Qmax": 3.8934205545181675e-05,
+        "Pcount": 29,
+        "Qcount": 98,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4291,
+        "seconds": 43.6579647064209
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.3106333948631146,
+        "Qmax": 4.142538307737764e-06,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4265,
+        "seconds": 58.77819585800171
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.3186246193170713,
+        "Qmax": 4.987492972014858e-07,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 81,
+        "nit": 1179,
+        "calls": 1470,
+        "seconds": 64.78494262695312
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.3214860269922813,
+        "Qmax": 4.457266125289611e-08,
+        "Pcount": 30,
+        "Qcount": 97,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4299,
+        "seconds": 80.93395686149597
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.3223078213776151,
+        "Qmax": 5.007730413643605e-09,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 81,
+        "nit": 1337,
+        "calls": 1601,
+        "seconds": 86.17694592475891
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.3226788051216457,
+        "Qmax": 5.651884636112662e-11,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 81,
+        "nit": 1558,
+        "calls": 1767,
+        "seconds": 92.07672572135925
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.3227159720922721,
+        "Qmax": 5.595320891691494e-13,
+        "Pcount": 29,
+        "Qcount": 96,
+        "V": 81,
+        "nit": 818,
+        "calls": 962,
+        "seconds": 95.08315062522888
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 5,
+        "V": 81,
+        "Pmax": 0.3227159720922721,
+        "Qmax": 5.595320891691494e-13,
+        "Pcount": 29,
+        "Qcount": 96,
+        "seconds": 399.95108103752136
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.14696148343034046,
+        "Qmax": 0.00044928624934425756,
+        "Pcount": 32,
+        "Qcount": 102,
+        "V": 80,
+        "nit": 3340,
+        "calls": 4433,
+        "seconds": 14.292894124984741
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.22657850504230184,
+        "Qmax": 0.00020515629430729884,
+        "Pcount": 32,
+        "Qcount": 102,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4674,
+        "seconds": 29.205519914627075
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.2843145483393921,
+        "Qmax": 3.801616811396929e-05,
+        "Pcount": 29,
+        "Qcount": 99,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4260,
+        "seconds": 42.867093086242676
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.3101476775907797,
+        "Qmax": 4.397692508151662e-06,
+        "Pcount": 29,
+        "Qcount": 97,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4341,
+        "seconds": 54.56003499031067
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.3181535735815417,
+        "Qmax": 5.344444228923127e-07,
+        "Pcount": 29,
+        "Qcount": 96,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4491,
+        "seconds": 66.7352831363678
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.32100613057710226,
+        "Qmax": 4.8468124737390714e-08,
+        "Pcount": 29,
+        "Qcount": 96,
+        "V": 80,
+        "nit": 800,
+        "calls": 947,
+        "seconds": 69.60754013061523
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.32183181209741224,
+        "Qmax": 5.793771247343599e-09,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 80,
+        "nit": 763,
+        "calls": 882,
+        "seconds": 72.59538912773132
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.3222042691256455,
+        "Qmax": 5.2672692931946023e-11,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 80,
+        "nit": 1730,
+        "calls": 1969,
+        "seconds": 79.3750171661377
+      }
+    },
+    {
+      "source_line": 76,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.3222413866725585,
+        "Qmax": 6.204622125840349e-13,
+        "Pcount": 27,
+        "Qcount": 94,
+        "V": 80,
+        "nit": 742,
+        "calls": 826,
+        "seconds": 81.63352704048157
+      }
+    },
+    {
+      "source_line": 77,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 6,
+        "V": 80,
+        "Pmax": 0.3222413866725585,
+        "Qmax": 6.204622125840349e-13,
+        "Pcount": 27,
+        "Qcount": 94,
+        "seconds": 481.6052429676056
+      }
+    },
+    {
+      "source_line": 79,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.14838142884715816,
+        "Qmax": 0.0004451467494484134,
+        "Pcount": 30,
+        "Qcount": 102,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4249,
+        "seconds": 12.406969785690308
+      }
+    },
+    {
+      "source_line": 80,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.22574419174203317,
+        "Qmax": 0.00020472416852922935,
+        "Pcount": 31,
+        "Qcount": 101,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4558,
+        "seconds": 25.954572677612305
+      }
+    },
+    {
+      "source_line": 81,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.2839550113042246,
+        "Qmax": 4.029933161172183e-05,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 79,
+        "nit": 3500,
+        "calls": 4242,
+        "seconds": 36.930699825286865
+      }
+    },
+    {
+      "source_line": 82,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.30981602135726927,
+        "Qmax": 4.5233962688865904e-06,
+        "Pcount": 29,
+        "Qcount": 95,
+        "V": 79,
+        "nit": 865,
+        "calls": 1007,
+        "seconds": 39.724100828170776
+      }
+    },
+    {
+      "source_line": 83,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.3178589639373713,
+        "Qmax": 5.240476766802851e-07,
+        "Pcount": 29,
+        "Qcount": 95,
+        "V": 79,
+        "nit": 3500,
+        "calls": 4125,
+        "seconds": 51.55038070678711
+      }
+    },
+    {
+      "source_line": 84,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.3207085811707727,
+        "Qmax": 4.651825614190769e-08,
+        "Pcount": 29,
+        "Qcount": 95,
+        "V": 79,
+        "nit": 3500,
+        "calls": 4421,
+        "seconds": 65.57095384597778
+      }
+    },
+    {
+      "source_line": 85,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.3215342217248977,
+        "Qmax": 5.28099046795045e-09,
+        "Pcount": 29,
+        "Qcount": 95,
+        "V": 79,
+        "nit": 474,
+        "calls": 600,
+        "seconds": 67.50160384178162
+      }
+    },
+    {
+      "source_line": 86,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.32190502804938237,
+        "Qmax": 4.913580852669283e-11,
+        "Pcount": 29,
+        "Qcount": 95,
+        "V": 79,
+        "nit": 854,
+        "calls": 1028,
+        "seconds": 71.07822680473328
+      }
+    },
+    {
+      "source_line": 87,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.3219422931065419,
+        "Qmax": 5.22527940950178e-13,
+        "Pcount": 29,
+        "Qcount": 94,
+        "V": 79,
+        "nit": 725,
+        "calls": 805,
+        "seconds": 73.81255078315735
+      }
+    },
+    {
+      "source_line": 88,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 7,
+        "V": 79,
+        "Pmax": 0.3219422931065419,
+        "Qmax": 5.22527940950178e-13,
+        "Pcount": 29,
+        "Qcount": 94,
+        "seconds": 555.4400119781494
+      }
+    },
+    {
+      "source_line": 90,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.14906165130026308,
+        "Qmax": 0.00046167344890334766,
+        "Pcount": 32,
+        "Qcount": 101,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4195,
+        "seconds": 13.975651979446411
+      }
+    },
+    {
+      "source_line": 91,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.22607744355586296,
+        "Qmax": 0.0002090428114531218,
+        "Pcount": 30,
+        "Qcount": 100,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4562,
+        "seconds": 26.65363597869873
+      }
+    },
+    {
+      "source_line": 92,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.2836936247818611,
+        "Qmax": 4.005838495971163e-05,
+        "Pcount": 29,
+        "Qcount": 96,
+        "V": 80,
+        "nit": 3192,
+        "calls": 3980,
+        "seconds": 38.83641719818115
+      }
+    },
+    {
+      "source_line": 93,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.30975697454570317,
+        "Qmax": 4.359997747042657e-06,
+        "Pcount": 31,
+        "Qcount": 96,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4384,
+        "seconds": 51.00674486160278
+      }
+    },
+    {
+      "source_line": 94,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.3177204328629378,
+        "Qmax": 4.879914443887683e-07,
+        "Pcount": 29,
+        "Qcount": 96,
+        "V": 80,
+        "nit": 3500,
+        "calls": 4650,
+        "seconds": 63.69085192680359
+      }
+    },
+    {
+      "source_line": 95,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.32059413429466366,
+        "Qmax": 4.67467980056002e-08,
+        "Pcount": 32,
+        "Qcount": 95,
+        "V": 80,
+        "nit": 1212,
+        "calls": 1458,
+        "seconds": 67.52108407020569
+      }
+    },
+    {
+      "source_line": 96,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.3214162428921682,
+        "Qmax": 5.246050803880741e-09,
+        "Pcount": 29,
+        "Qcount": 95,
+        "V": 80,
+        "nit": 1195,
+        "calls": 1458,
+        "seconds": 71.56787204742432
+      }
+    },
+    {
+      "source_line": 97,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.3217905680897483,
+        "Qmax": 5.651828581786989e-11,
+        "Pcount": 29,
+        "Qcount": 95,
+        "V": 80,
+        "nit": 1400,
+        "calls": 1643,
+        "seconds": 75.84312200546265
+      }
+    },
+    {
+      "source_line": 98,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.3218277397035865,
+        "Qmax": 6.798282490333381e-13,
+        "Pcount": 27,
+        "Qcount": 90,
+        "V": 80,
+        "nit": 628,
+        "calls": 705,
+        "seconds": 77.58937501907349
+      }
+    },
+    {
+      "source_line": 99,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 8,
+        "V": 80,
+        "Pmax": 0.3218277397035865,
+        "Qmax": 6.798282490333381e-13,
+        "Pcount": 27,
+        "Qcount": 90,
+        "seconds": 633.0561680793762
+      }
+    },
+    {
+      "source_line": 101,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 0,
+        "eta": 1.0,
+        "Pmax": 0.1486387542140119,
+        "Qmax": 0.00048352710079078434,
+        "Pcount": 30,
+        "Qcount": 102,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4299,
+        "seconds": 11.609277963638306
+      }
+    },
+    {
+      "source_line": 102,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 1,
+        "eta": 0.3,
+        "Pmax": 0.2254622277046924,
+        "Qmax": 0.00020733648369013186,
+        "Pcount": 32,
+        "Qcount": 101,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4644,
+        "seconds": 24.39780282974243
+      }
+    },
+    {
+      "source_line": 103,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 2,
+        "eta": 0.1,
+        "Pmax": 0.28346532973631955,
+        "Qmax": 3.9094181462344034e-05,
+        "Pcount": 30,
+        "Qcount": 98,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4403,
+        "seconds": 37.247424840927124
+      }
+    },
+    {
+      "source_line": 104,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 3,
+        "eta": 0.03,
+        "Pmax": 0.3094824664370341,
+        "Qmax": 4.28256897492302e-06,
+        "Pcount": 31,
+        "Qcount": 96,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4381,
+        "seconds": 51.324211835861206
+      }
+    },
+    {
+      "source_line": 105,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 4,
+        "eta": 0.01,
+        "Pmax": 0.3174829406140724,
+        "Qmax": 4.911390537921547e-07,
+        "Pcount": 29,
+        "Qcount": 97,
+        "V": 81,
+        "nit": 3500,
+        "calls": 4527,
+        "seconds": 65.38222575187683
+      }
+    },
+    {
+      "source_line": 106,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 5,
+        "eta": 0.003,
+        "Pmax": 0.32034070812548676,
+        "Qmax": 5.0256579588566607e-08,
+        "Pcount": 30,
+        "Qcount": 96,
+        "V": 81,
+        "nit": 741,
+        "calls": 911,
+        "seconds": 68.20355296134949
+      }
+    },
+    {
+      "source_line": 107,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 6,
+        "eta": 0.001,
+        "Pmax": 0.3211676704921251,
+        "Qmax": 5.492672454593897e-09,
+        "Pcount": 29,
+        "Qcount": 96,
+        "V": 81,
+        "nit": 729,
+        "calls": 921,
+        "seconds": 70.76705694198608
+      }
+    },
+    {
+      "source_line": 108,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 7,
+        "eta": 0.0001,
+        "Pmax": 0.3215413690113643,
+        "Qmax": 4.872722187588602e-11,
+        "Pcount": 29,
+        "Qcount": 96,
+        "V": 81,
+        "nit": 1049,
+        "calls": 1250,
+        "seconds": 74.21115374565125
+      }
+    },
+    {
+      "source_line": 109,
+      "label": "scientific numeric record",
+      "values": {
+        "stage": 8,
+        "eta": 1e-05,
+        "Pmax": 0.3215787110023229,
+        "Qmax": 5.392686391313902e-13,
+        "Pcount": 29,
+        "Qcount": 95,
+        "V": 81,
+        "nit": 848,
+        "calls": 937,
+        "seconds": 77.16094207763672
+      }
+    },
+    {
+      "source_line": 110,
+      "label": "ENRICHMENT_ENDPOINT",
+      "values": {
+        "iteration": 9,
+        "V": 81,
+        "Pmax": 0.3215787110023229,
+        "Qmax": 5.392686391313902e-13,
+        "Pcount": 29,
+        "Qcount": 95,
+        "seconds": 710.2338950634003
+      }
+    }
+  ]
+}

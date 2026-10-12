@@ -1,0 +1,475 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 2,
+      "label": "CONTACT_CAP_SEED",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10675743248005658,
+        "minimum_noncontact": 2.128514253740832e-09,
+        "carrier": 96,
+        "height": 2.12851418030864e-09
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CONTACT_CAP_SEED",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10675739241474069,
+        "minimum_noncontact": 8.68781300233934e-08,
+        "carrier": 96,
+        "height": 8.687812980851159e-08
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10675739279568565,
+        "objective": 0.10675739279568565,
+        "minimum_noncontact": 8.68797982445102e-08,
+        "it": 0,
+        "trust": 0.025,
+        "seconds": 0.7733731269836426,
+        "Uguard": 9.99996371862587e-11
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10652027856071523,
+        "objective": 0.10652027856071523,
+        "minimum_noncontact": 7.488839450930929e-05,
+        "it": 10,
+        "trust": 0.04225,
+        "seconds": 9.011523962020874,
+        "Uguard": 9.999958137150089e-11
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10625674601993848,
+        "objective": 0.10625674601993848,
+        "minimum_noncontact": 0.00015942314771744126,
+        "it": 20,
+        "trust": 0.04225,
+        "seconds": 17.913456916809082,
+        "Uguard": 9.999978487629342e-11
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10599229416078786,
+        "objective": 0.10599229416078786,
+        "minimum_noncontact": 0.0001617815846421955,
+        "it": 30,
+        "trust": 0.04225,
+        "seconds": 25.21831727027893,
+        "Uguard": 9.999968613206068e-11
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10568108728307851,
+        "objective": 0.10568108728307851,
+        "minimum_noncontact": 2.6127007907272848e-05,
+        "it": 40,
+        "trust": 0.04225,
+        "seconds": 32.795287132263184,
+        "Uguard": 9.999968526978794e-11
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10534342733437344,
+        "objective": 0.10534342733437344,
+        "minimum_noncontact": 9.927478488525043e-05,
+        "it": 50,
+        "trust": 0.04225,
+        "seconds": 40.50324106216431,
+        "Uguard": 9.999974428689459e-11
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 2.1602142097044069e-16,
+        "Qmax": 0.10504863381103016,
+        "objective": 0.10504863381103016,
+        "minimum_noncontact": 0.00012521884966398833,
+        "it": 60,
+        "trust": 0.04225,
+        "seconds": 48.00134205818176,
+        "Uguard": 9.999961739488603e-11
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10479277841967674,
+        "objective": 0.10479277841967674,
+        "minimum_noncontact": 0.00016541050046547934,
+        "it": 70,
+        "trust": 0.04225,
+        "seconds": 59.64154100418091,
+        "Uguard": 9.999975875171547e-11
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10458372648031916,
+        "objective": 0.10458372648031916,
+        "minimum_noncontact": 0.0001544752832196572,
+        "it": 80,
+        "trust": 0.04225,
+        "seconds": 68.13337206840515,
+        "Uguard": 9.999976917882531e-11
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10441845400936862,
+        "objective": 0.10441845400936862,
+        "minimum_noncontact": 0.0002099994037249031,
+        "it": 90,
+        "trust": 0.04225,
+        "seconds": 77.29378414154053,
+        "Uguard": 9.999975562245739e-11
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10429187854461376,
+        "objective": 0.10429187854461376,
+        "minimum_noncontact": 0.00018582560915414437,
+        "it": 100,
+        "trust": 0.04225,
+        "seconds": 85.74876093864441,
+        "Uguard": 9.999977452024615e-11
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10419927930213899,
+        "objective": 0.10419927930213899,
+        "minimum_noncontact": 0.00013837940531880033,
+        "it": 110,
+        "trust": 0.04225,
+        "seconds": 94.21653413772583,
+        "Uguard": 9.999969685965821e-11
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 2.0234652170109804e-16,
+        "Qmax": 0.10409333961521192,
+        "objective": 0.10409333961521192,
+        "minimum_noncontact": 1.5052632747591943e-05,
+        "it": 120,
+        "trust": 0.04225,
+        "seconds": 103.4775230884552,
+        "Uguard": 9.999971473968015e-11
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 1.9975416411620255e-16,
+        "Qmax": 0.10400510890936189,
+        "objective": 0.10400510890936189,
+        "minimum_noncontact": 8.212339825952597e-07,
+        "it": 130,
+        "trust": 0.04225,
+        "seconds": 114.29590725898743,
+        "Uguard": 9.999974474733637e-11
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10391515142004891,
+        "objective": 0.10391515142004891,
+        "minimum_noncontact": 4.605580446237489e-06,
+        "it": 140,
+        "trust": 0.04225,
+        "seconds": 124.2657310962677,
+        "Uguard": 9.999902066822158e-11
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 3.8897423415559102e-16,
+        "Qmax": 0.10382331484004448,
+        "objective": 0.10382331484004448,
+        "minimum_noncontact": 3.684457311692313e-06,
+        "it": 150,
+        "trust": 0.04225,
+        "seconds": 134.0342469215393,
+        "Uguard": 9.999950818782093e-11
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10374621763931759,
+        "objective": 0.10374621763931759,
+        "minimum_noncontact": 2.6209300322821427e-05,
+        "it": 160,
+        "trust": 0.04225,
+        "seconds": 143.1068980693817,
+        "Uguard": 9.999898252797296e-11
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 1.923011534778952e-16,
+        "Qmax": 0.10374449320771707,
+        "objective": 0.10374449320771707,
+        "minimum_noncontact": 2.984474889444755e-10,
+        "it": 170,
+        "trust": 0.006760000000000001,
+        "seconds": 149.47552704811096,
+        "Uguard": 9.994139786129542e-11
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.1037346615314885,
+        "objective": 0.1037346615314885,
+        "minimum_noncontact": 1.8366189680207867e-09,
+        "it": 180,
+        "trust": 0.0005624320000000002,
+        "seconds": 154.97867918014526,
+        "Uguard": 9.995025518137981e-11
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10373466133778282,
+        "objective": 0.10373466133778282,
+        "minimum_noncontact": 1.2121081915950072e-11,
+        "it": 190,
+        "trust": 2.3037214720000013e-06,
+        "seconds": 161.69374108314514,
+        "Uguard": 9.995074068249626e-11
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10373466009647998,
+        "objective": 0.10373466009647998,
+        "minimum_noncontact": 2.3694268769247628e-11,
+        "it": 200,
+        "trust": 1.5946912922337295e-08,
+        "seconds": 168.01940608024597,
+        "Uguard": 9.999981865553141e-11
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "scientific numeric record",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10373466009647998,
+        "objective": 0.10373466009647998,
+        "minimum_noncontact": 2.3694268769247628e-11,
+        "it": 210,
+        "trust": 1.6721550164452763e-12,
+        "seconds": 174.2695860862732,
+        "Uguard": 9.999981865553141e-11
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "FINITE_COMPLETE_Q_STALLED",
+      "values": {
+        "V": 152,
+        "E": 249,
+        "F": 99,
+        "S": 2,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.10373466009647998,
+        "objective": 0.10373466009647998,
+        "minimum_noncontact": 2.3694268769247628e-11,
+        "it": 210,
+        "trust": 1.6721550164452763e-12,
+        "seconds": 174.2695860862732,
+        "Uguard": 9.999981865553141e-11
+      }
+    }
+  ]
+}

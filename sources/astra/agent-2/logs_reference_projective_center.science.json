@@ -1,0 +1,20 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "ROBUST_REFERENCE_CHAMBER",
+      "values": {
+        "center": [
+          -0.04529171843765194,
+          0.40323486202620457,
+          -0.12372455509320637
+        ],
+        "margin": 0.004427034783987923,
+        "S": 1,
+        "U": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "REFERENCE_CENTER_ONLY",
+      "values": {
+        "box": 1.01,
+        "margin": 1e-08,
+        "status": 0,
+        "seconds": 37.2589168548584,
+        "reference_center_normalized": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "source_center_shift": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "source_reference_center": [
+          -0.013261051173605048,
+          0.005984297856020939,
+          -0.009588576332981895
+        ],
+        "own_centroid_unchanged": [
+          -0.013261051173605048,
+          0.005984297856020939,
+          -0.009588576332981895
+        ],
+        "S": 1,
+        "U": 1,
+        "nonroot_angular_floor": 6.234380797294693e-06,
+        "objective": 0.0,
+        "mip_gap": 0.0,
+        "rootU": [
+          95
+        ],
+        "rootS": [
+          3
+        ]
+      }
+    }
+  ]
+}

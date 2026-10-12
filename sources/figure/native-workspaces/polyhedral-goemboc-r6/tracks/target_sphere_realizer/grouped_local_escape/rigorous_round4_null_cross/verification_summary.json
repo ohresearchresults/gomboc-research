@@ -1,0 +1,816 @@
+{
+  "certificate_sha256": "c7453f272e7a550d5e304c0c3e26c9b9906101b2d663745f1b859fb0049d3936",
+  "circuit": {
+    "degree": 5,
+    "polynomial_digest": "c2402da1b7b4aa539b2ac90fea0859452fbc77eede465f5029101bd38a0f007c",
+    "unique_root": {
+      "decimal_interval": [
+        0.9172840764709894,
+        0.9172840764709894
+      ],
+      "derivative_bernstein_leaves": 1,
+      "derivative_sign": -1,
+      "hi": "169209046015493636785993/184467440737095516160000",
+      "lo": "1692090460154936367859929/1844674407370955161600000",
+      "value_hi": "-1269401014444853501990395525484040938315898492159860221681872208126771063124973939769365585494588828537635958049115421056314920502109957941692134345433603425856427549341537488828959133669126665690484172423258717663726010512568631255268287615661435127564277529/4465586101113408484405333362000833599295037351307669926904821433794722610123230227157632837419332992221687776864816313267397748511312638279441380590294164110310726364421044270392108771445715118236006236944661448802225356800000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value_lo": "217598997932445704055661563642693444090778921734819768683706046314517736285904401015461143830872758170606604097234890832375797356240401073128297548562175969796774836997651342393420432566341597535954713336063027951076117510764212411545539718036223962234278207575901/148852870037113616146844445400027786643167911710255664230160714459824087004107674238587761247311099740722925895493877108913258283710421275981379353009805470343690878814034809013070292381523837274533541231488714960074178560000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "whole_segment_derivative": {
+      "bernstein_leaf_count": 1,
+      "interval": [
+        "0",
+        "1"
+      ],
+      "min_bernstein_coefficient_log10_abs": -11.492027280762272,
+      "polynomial_digest": "4eadb6174ce2c88da1da365752e4a46e1a293119248695b85886f13e5f130b34",
+      "sign": -1
+    }
+  },
+  "continuum_proofs": {
+    "('full', 'buffered_cross_far')": {
+      "audit": {
+        "bernstein_leaf_count": 7904,
+        "certified_polynomial_count": 7904,
+        "interval": [
+          "169209046015493636785993/184467440737095516160000",
+          "1"
+        ],
+        "min_bernstein_coefficient_log10_abs": -72.07265600173935,
+        "primitive_digest": "ca802c074a9afae880ab3e97c8d1c5d79df12040a7b213e5a8129171abc576e9",
+        "skipped_primitives": []
+      },
+      "four_old_UH_guards": {
+        "edge:1,54:t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "169209046015493636785993/184467440737095516160000",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.180454324671018,
+            "polynomial_digest": "21bcc55cdf48854a1201dce9a6018cf212818e288e26a5c16d62d6df3cbd75ba",
+            "sign": -1
+          },
+          "identical_to": "vertex:1:54",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "edge:10,263:one_minus_t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "169209046015493636785993/184467440737095516160000",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -11.120163618614612,
+            "polynomial_digest": "0e2b2774360ca01736c182247f18d46e565f4c590b5cf9caf36cef30f3ab6c5d",
+            "sign": -1
+          },
+          "identical_to": "vertex:263:10",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:1:54": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "169209046015493636785993/184467440737095516160000",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.180454324671018,
+            "polynomial_digest": "21bcc55cdf48854a1201dce9a6018cf212818e288e26a5c16d62d6df3cbd75ba",
+            "sign": -1
+          },
+          "identical_to": "edge:1,54:t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:263:10": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "169209046015493636785993/184467440737095516160000",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -11.120163618614612,
+            "polynomial_digest": "0e2b2774360ca01736c182247f18d46e565f4c590b5cf9caf36cef30f3ab6c5d",
+            "sign": -1
+          },
+          "identical_to": "edge:10,263:one_minus_t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        }
+      },
+      "kind": "full_interval",
+      "lattice": "far",
+      "name": "buffered_cross_far"
+    },
+    "('full', 'buffered_cross_pre')": {
+      "audit": {
+        "bernstein_leaf_count": 7904,
+        "certified_polynomial_count": 7904,
+        "interval": [
+          "0",
+          "1692090460154936367859929/1844674407370955161600000"
+        ],
+        "min_bernstein_coefficient_log10_abs": -71.13830458165205,
+        "primitive_digest": "fdf5dfb52e91dd9ef8914b2696b2a0dc139ab01e98c6b552a71d3940cc4de2eb",
+        "skipped_primitives": []
+      },
+      "four_old_UH_guards": {
+        "edge:1,54:t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1692090460154936367859929/1844674407370955161600000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.181031077103057,
+            "polynomial_digest": "e80ba8aeb85d887c858945b276f720c499d04599fa5ab63838ddc7d94f7f2ef4",
+            "sign": -1
+          },
+          "identical_to": "vertex:1:54",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "edge:10,263:one_minus_t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1692090460154936367859929/1844674407370955161600000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -10.81644296838897,
+            "polynomial_digest": "c5c7bfb1b6331d311763d03f2d08a715f0a084019526ad6179008917332eba45",
+            "sign": -1
+          },
+          "identical_to": "vertex:263:10",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:1:54": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1692090460154936367859929/1844674407370955161600000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.181031077103057,
+            "polynomial_digest": "e80ba8aeb85d887c858945b276f720c499d04599fa5ab63838ddc7d94f7f2ef4",
+            "sign": -1
+          },
+          "identical_to": "edge:1,54:t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:263:10": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1692090460154936367859929/1844674407370955161600000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -10.81644296838897,
+            "polynomial_digest": "c5c7bfb1b6331d311763d03f2d08a715f0a084019526ad6179008917332eba45",
+            "sign": -1
+          },
+          "identical_to": "edge:10,263:one_minus_t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        }
+      },
+      "kind": "full_interval",
+      "lattice": "pre",
+      "name": "buffered_cross_pre"
+    },
+    "('full', 'far_deepen')": {
+      "audit": {
+        "bernstein_leaf_count": 7904,
+        "certified_polynomial_count": 7904,
+        "interval": [
+          "0",
+          "1"
+        ],
+        "min_bernstein_coefficient_log10_abs": -44.192935908029554,
+        "primitive_digest": "f6ca3e8cd31ddb9334c8117ed8912502767c5bcfd2205c7547ddad31bfd88197",
+        "skipped_primitives": []
+      },
+      "four_old_UH_guards": {
+        "edge:1,54:t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.250365527722778,
+            "polynomial_digest": "025e4b6e0a9114f6fdcd0cbd5f0d38b2faaf2b5f15f71648dfb0a3275e3f933e",
+            "sign": -1
+          },
+          "identical_to": "vertex:1:54",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "edge:10,263:one_minus_t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -11.120163618614612,
+            "polynomial_digest": "6af4eb8d58a7409a99a799f32abe87cd6e8c4c1b93d08d3d1e35b8470bc7a3c3",
+            "sign": -1
+          },
+          "identical_to": "vertex:263:10",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:1:54": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.250365527722778,
+            "polynomial_digest": "025e4b6e0a9114f6fdcd0cbd5f0d38b2faaf2b5f15f71648dfb0a3275e3f933e",
+            "sign": -1
+          },
+          "identical_to": "edge:1,54:t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:263:10": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -11.120163618614612,
+            "polynomial_digest": "6af4eb8d58a7409a99a799f32abe87cd6e8c4c1b93d08d3d1e35b8470bc7a3c3",
+            "sign": -1
+          },
+          "identical_to": "edge:10,263:one_minus_t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        }
+      },
+      "kind": "full_interval",
+      "lattice": "far",
+      "name": "far_deepen"
+    },
+    "('full', 'pre_to_buffer')": {
+      "audit": {
+        "bernstein_leaf_count": 7904,
+        "certified_polynomial_count": 7904,
+        "interval": [
+          "0",
+          "1"
+        ],
+        "min_bernstein_coefficient_log10_abs": -44.1929370334603,
+        "primitive_digest": "04a35ac195fe553e439c61eccc88bb9f3a6cc232ebfb39ad628909335559cda1",
+        "skipped_primitives": []
+      },
+      "four_old_UH_guards": {
+        "edge:1,54:t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.181031077103057,
+            "polynomial_digest": "7c2592569e6fb10da4d952f85febeb424f3060fe06205a3bdefd16cc9a528f8f",
+            "sign": -1
+          },
+          "identical_to": "vertex:1:54",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "edge:10,263:one_minus_t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -14.229002116374886,
+            "polynomial_digest": "ea34aa48443b71b8c34425ebd3acd7034ef9dc88ae3174a4e7ecc64e2d5afc39",
+            "sign": -1
+          },
+          "identical_to": "vertex:263:10",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:1:54": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.181031077103057,
+            "polynomial_digest": "7c2592569e6fb10da4d952f85febeb424f3060fe06205a3bdefd16cc9a528f8f",
+            "sign": -1
+          },
+          "identical_to": "edge:1,54:t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:263:10": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "0",
+              "1"
+            ],
+            "min_bernstein_coefficient_log10_abs": -14.229002116374886,
+            "polynomial_digest": "ea34aa48443b71b8c34425ebd3acd7034ef9dc88ae3174a4e7ecc64e2d5afc39",
+            "sign": -1
+          },
+          "identical_to": "edge:10,263:one_minus_t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        }
+      },
+      "kind": "full_interval",
+      "lattice": "pre",
+      "name": "pre_to_buffer"
+    },
+    "('root_local', 'far')": {
+      "audit": {
+        "bernstein_leaf_count": 7904,
+        "factor_ledger_digest": "a4a6972f3d1073d287ebb98439247844e4f571098d4ed4b7b5b1450d6bbc4323",
+        "interval": [
+          "1692090460154936367859929/1844674407370955161600000",
+          "169209046015493636785993/184467440737095516160000"
+        ],
+        "min_bernstein_coefficient_log10_abs": -44.19293511845876,
+        "strict_primitive_count": 7899,
+        "target_factored_primitive_count": 5,
+        "target_factored_primitives": [
+          {
+            "name": "support:f7:w246",
+            "quotient_degree": 0,
+            "quotient_digest": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "quotient_sign": 1,
+            "target_multiplicity": 1
+          },
+          {
+            "name": "support:f8:w7",
+            "quotient_degree": 0,
+            "quotient_digest": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "quotient_sign": 1,
+            "target_multiplicity": 1
+          },
+          {
+            "name": "edge_gram:8,245",
+            "quotient_degree": 4,
+            "quotient_digest": "c237a807314d67ddc3850bb9724abb3d177a5762a31eb903fc3cedde3acf5884",
+            "quotient_sign": 1,
+            "target_multiplicity": 2
+          },
+          {
+            "name": "edge:8,245:beta1",
+            "quotient_degree": 12,
+            "quotient_digest": "b5c97745a3c52fe5634e7711d43134c73f3fb48a0890ee09926fde5d650368b7",
+            "quotient_sign": 1,
+            "target_multiplicity": 1
+          },
+          {
+            "name": "edge:8,245:beta2",
+            "quotient_degree": 13,
+            "quotient_digest": "ae9b716c789ee807aa26c5d234fd48e7804d859e3090efae972e85c6353bc7b3",
+            "quotient_sign": -1,
+            "target_multiplicity": 1
+          }
+        ],
+        "total_primitive_count": 7904
+      },
+      "four_old_UH_guards": {
+        "edge:1,54:t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.180454324670904,
+            "polynomial_digest": "21bcc55cdf48854a1201dce9a6018cf212818e288e26a5c16d62d6df3cbd75ba",
+            "sign": -1
+          },
+          "identical_to": "vertex:1:54",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "edge:10,263:one_minus_t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -10.816442968388856,
+            "polynomial_digest": "0e2b2774360ca01736c182247f18d46e565f4c590b5cf9caf36cef30f3ab6c5d",
+            "sign": -1
+          },
+          "identical_to": "vertex:263:10",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:1:54": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.180454324670904,
+            "polynomial_digest": "21bcc55cdf48854a1201dce9a6018cf212818e288e26a5c16d62d6df3cbd75ba",
+            "sign": -1
+          },
+          "identical_to": "edge:1,54:t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:263:10": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -10.816442968388856,
+            "polynomial_digest": "0e2b2774360ca01736c182247f18d46e565f4c590b5cf9caf36cef30f3ab6c5d",
+            "sign": -1
+          },
+          "identical_to": "edge:10,263:one_minus_t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        }
+      },
+      "kind": "root_neighborhood",
+      "lattice": "far"
+    },
+    "('root_local', 'pre')": {
+      "audit": {
+        "bernstein_leaf_count": 7904,
+        "factor_ledger_digest": "3567d154d18c95b2ccc3c259b2dea3fcb01605ba71cdd58a4c925cceee8fec11",
+        "interval": [
+          "1692090460154936367859929/1844674407370955161600000",
+          "169209046015493636785993/184467440737095516160000"
+        ],
+        "min_bernstein_coefficient_log10_abs": -44.19293511845876,
+        "strict_primitive_count": 7899,
+        "target_factored_primitive_count": 5,
+        "target_factored_primitives": [
+          {
+            "name": "support:f4:w245",
+            "quotient_degree": 0,
+            "quotient_digest": "c5697c5ba04395319b0391ab1f21b6d1243062d922585aefb2cd7528dd8b2aaa",
+            "quotient_sign": -1,
+            "target_multiplicity": 1
+          },
+          {
+            "name": "support:f9:w8",
+            "quotient_degree": 0,
+            "quotient_digest": "c5697c5ba04395319b0391ab1f21b6d1243062d922585aefb2cd7528dd8b2aaa",
+            "quotient_sign": -1,
+            "target_multiplicity": 1
+          },
+          {
+            "name": "edge_gram:7,246",
+            "quotient_degree": 4,
+            "quotient_digest": "c0c57f2061ee9d8c986d680ca1f775f71d8f298c6577d8f65f15989cc18703ac",
+            "quotient_sign": 1,
+            "target_multiplicity": 2
+          },
+          {
+            "name": "edge:7,246:beta1",
+            "quotient_degree": 12,
+            "quotient_digest": "77707e18cf120c12e852fb530b1667165017c0a29a8928ca6f393a2d85cf722a",
+            "quotient_sign": 1,
+            "target_multiplicity": 1
+          },
+          {
+            "name": "edge:7,246:beta2",
+            "quotient_degree": 13,
+            "quotient_digest": "e5352a52f55a5ef3ae0869a10fb7284450c8ecc34a55dd3cf48ef45c2d5ee88b",
+            "quotient_sign": -1,
+            "target_multiplicity": 1
+          }
+        ],
+        "total_primitive_count": 7904
+      },
+      "four_old_UH_guards": {
+        "edge:1,54:t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.180454324670904,
+            "polynomial_digest": "e80ba8aeb85d887c858945b276f720c499d04599fa5ab63838ddc7d94f7f2ef4",
+            "sign": -1
+          },
+          "identical_to": "vertex:1:54",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "edge:10,263:one_minus_t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -10.81644296838897,
+            "polynomial_digest": "c5c7bfb1b6331d311763d03f2d08a715f0a084019526ad6179008917332eba45",
+            "sign": -1
+          },
+          "identical_to": "vertex:263:10",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:1:54": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.180454324670904,
+            "polynomial_digest": "e80ba8aeb85d887c858945b276f720c499d04599fa5ab63838ddc7d94f7f2ef4",
+            "sign": -1
+          },
+          "identical_to": "edge:1,54:t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:263:10": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -10.81644296838897,
+            "polynomial_digest": "c5c7bfb1b6331d311763d03f2d08a715f0a084019526ad6179008917332eba45",
+            "sign": -1
+          },
+          "identical_to": "edge:10,263:one_minus_t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        }
+      },
+      "kind": "root_neighborhood",
+      "lattice": "pre"
+    },
+    "('wall',)": {
+      "four_old_UH_guards": {
+        "edge:1,54:t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.180454324670904,
+            "polynomial_digest": "e80ba8aeb85d887c858945b276f720c499d04599fa5ab63838ddc7d94f7f2ef4",
+            "sign": -1
+          },
+          "identical_to": "vertex:1:54",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "edge:10,263:one_minus_t": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -10.81644296838897,
+            "polynomial_digest": "c5c7bfb1b6331d311763d03f2d08a715f0a084019526ad6179008917332eba45",
+            "sign": -1
+          },
+          "identical_to": "vertex:263:10",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:1:54": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -13.180454324670904,
+            "polynomial_digest": "e80ba8aeb85d887c858945b276f720c499d04599fa5ab63838ddc7d94f7f2ef4",
+            "sign": -1
+          },
+          "identical_to": "edge:1,54:t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        },
+        "vertex:263:10": {
+          "certificate": {
+            "bernstein_leaf_count": 1,
+            "interval": [
+              "1692090460154936367859929/1844674407370955161600000",
+              "169209046015493636785993/184467440737095516160000"
+            ],
+            "min_bernstein_coefficient_log10_abs": -10.81644296838897,
+            "polynomial_digest": "c5c7bfb1b6331d311763d03f2d08a715f0a084019526ad6179008917332eba45",
+            "sign": -1
+          },
+          "identical_to": "edge:10,263:one_minus_t",
+          "raw_numerator_sign": -1,
+          "requested_guard_sign": 1
+        }
+      },
+      "kind": "algebraic_wall",
+      "mechanics": {
+        "bernstein_leaf_count": 1933,
+        "certified_polynomial_count": 1933,
+        "interval": [
+          "1692090460154936367859929/1844674407370955161600000",
+          "169209046015493636785993/184467440737095516160000"
+        ],
+        "midpoint_formula_class": {
+          "class": [
+            2,
+            2,
+            2
+          ],
+          "saddle_edges": [
+            [
+              6,
+              7
+            ],
+            [
+              198,
+              263
+            ]
+          ],
+          "stable_faces": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              54
+            ],
+            [
+              7,
+              8,
+              245,
+              246
+            ]
+          ],
+          "unstable_vertices": [
+            8,
+            54
+          ]
+        },
+        "min_bernstein_coefficient_log10_abs": -44.19293511845876,
+        "primitive_digest": "17f27c63415d6e7b1adde12b41321be9f16d76811d36977f5edeaee0e47c976c"
+      },
+      "support": {
+        "base_and_all_rails": true,
+        "euler": 2,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "min_support_bernstein_log10_abs": -17.63721466359445,
+        "strict_nonmember_support_polynomial_count": 5900,
+        "support_bernstein_leaf_count": 5900,
+        "support_digest": "10cf17d0b05b94bc859053c4883f03cb476a210e5a824caf8701e01e9f466ae2",
+        "target_coplanarity_equalities": [
+          {
+            "face_index": 100,
+            "member": 245,
+            "target_ratio_exact": "-1"
+          }
+        ]
+      }
+    }
+  },
+  "face_transition": {
+    "added_diagonal": [
+      8,
+      245
+    ],
+    "added_faces": [
+      [
+        7,
+        8,
+        245
+      ],
+      [
+        8,
+        245,
+        246
+      ]
+    ],
+    "all_other_faces_unchanged": true,
+    "base_and_all_rails_in_pre_wall_far": true,
+    "merged_wall_face": [
+      7,
+      8,
+      245,
+      246
+    ],
+    "removed_diagonal": [
+      7,
+      246
+    ],
+    "removed_faces": [
+      [
+        7,
+        8,
+        246
+      ],
+      [
+        7,
+        245,
+        246
+      ]
+    ]
+  },
+  "frozen_nodes": {
+    "deep_far": {
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "coordinate_hash": "a37c1bbbd2c744c62f9408782c1ba37ae93be9e34ab541d6d6ce37b945105007",
+      "f_vector": [
+        61,
+        162,
+        103
+      ]
+    },
+    "far_good": {
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "coordinate_hash": "c958851c5530b9574578e7e382193e54c9a3e1399f50ef3d8f7d441b933d9973",
+      "f_vector": [
+        61,
+        162,
+        103
+      ]
+    },
+    "pre_buffer": {
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "coordinate_hash": "2253e9964de324226f63be72387870406e8a0288157852d48ebb3b130648d35c",
+      "f_vector": [
+        61,
+        162,
+        103
+      ]
+    },
+    "source": {
+      "class": [
+        2,
+        2,
+        2
+      ],
+      "coordinate_hash": "6a046079e645fe2aa1444972df02d0d8c5eaf5f215261a2b6e0a5225626d9d4b",
+      "f_vector": [
+        61,
+        162,
+        103
+      ]
+    }
+  },
+  "theorem_scope": "Exact theorem for four explicitly frozen rational coordinate nodes and three exact plane-preserving polynomial morphs. It certifies the complete actual lattice and mechanics along these morphs, including one algebraic quadrilateral flip. It is not a theorem about every path in the original nonlinear binary64 27D chart.",
+  "verdict": "EXACT_DIRECTED_ROUND4_NULL_CROSS_PASS",
+  "version": 1
+}

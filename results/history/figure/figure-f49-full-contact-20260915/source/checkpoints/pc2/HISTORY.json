@@ -1,0 +1,35 @@
+[
+  {
+    "it": 0,
+    "centre_distance": 8.664105387103545e-05,
+    "min_reference_exit": 1.9419432643309826e-08,
+    "min_gap": 0.0008350008168904743,
+    "seconds": 0.2963567230000308,
+    "accepted": {
+      "alpha": 0.0625,
+      "corrections": 4
+    }
+  },
+  {
+    "it": 1,
+    "centre_distance": 8.122598804561265e-05,
+    "min_reference_exit": 1.9956956445884004e-08,
+    "min_gap": 0.0008364591652438857,
+    "seconds": 7.771101234000071,
+    "accepted": {
+      "alpha": 0.0625,
+      "corrections": 3
+    }
+  },
+  {
+    "it": 2,
+    "centre_distance": 7.614936366155907e-05,
+    "min_reference_exit": 1.746613048284779e-08,
+    "min_gap": 0.0008398215538940601,
+    "seconds": 14.774980194000022,
+    "accepted": {
+      "alpha": 0.03125,
+      "corrections": 4
+    }
+  }
+]

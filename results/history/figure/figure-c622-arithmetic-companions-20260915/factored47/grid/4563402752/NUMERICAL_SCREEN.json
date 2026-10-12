@@ -1,0 +1,1 @@
+{"H_max_bits":313,"centroid":[-0.013524428525221798,0.005717267714441177,-0.009425627779529638],"counts":[1,2,1],"grid":4563402752,"nonowner_slack_min":0.0008816302704000023,"numerical_only":true,"owner_error_max":4.440892098500626e-16,"saddles":[[159,162]],"stable":[3],"triangle_det_min":1.6077581357186108e-05,"unstable":[94,162],"volume":0.4889856495705249}

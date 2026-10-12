@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "source": "../../circuit_atlas/row54_combined_wall_rebuilt.csv",
+  "lp_json": "combined_four_death_bound300.json",
+  "alpha": 0.0007,
+  "lp_delta": 0.9685507986067262,
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "f_vector": [
+    61,
+    161,
+    102
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "faces_match": true,
+  "removed_faces": [],
+  "added_faces": [],
+  "all_vertices_active": true,
+  "lost_vertices": [],
+  "all_forced_rails_present": true,
+  "missing_forced_rails": [],
+  "topology_margin": 3.453796604269144e-08,
+  "death_ratios": {
+    "('face', (7, 8, 245, 246), (8, 246))": 0.9982859060167255,
+    "('vertex', 54, 1)": 0.9992999795399792,
+    "('edge', (6, 7), 'one_minus_t')": 0.9972495428148621,
+    "('edge', (9, 10), 't')": 0.9985346410169986
+  },
+  "missing_selected_guards": [],
+  "minimum_signed_guard_ratio": -4.00040033949186,
+  "minimum_signed_guard": {
+    "key": "('edge', (229, 230), 't')",
+    "kind": "nonsaddle_edge_witness",
+    "baseline_value": -110465.72643738841,
+    "new_value": 441907.12954234355
+  }
+}

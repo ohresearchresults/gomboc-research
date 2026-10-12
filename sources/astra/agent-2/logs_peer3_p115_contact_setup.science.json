@@ -1,0 +1,34 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 84,
+        "F": 164,
+        "E": 246,
+        "nodes": 248,
+        "free": 248,
+        "depth": 6,
+        "levels": 15
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "PEER_SOURCE_CONTACT_CHART",
+      "values": {
+        "depth": 6,
+        "condition": 1932.2491520969356,
+        "maxJ": 811.0240989273444,
+        "minimum_noncontact": 1.8091212264925716e-06,
+        "contact_error": 4.440892098500626e-16,
+        "minimum_U_exclusion": 8.9289487687309e-07,
+        "minimum_S_exclusion": 9.388797911640171e-07,
+        "S": 1,
+        "U": 2
+      }
+    }
+  ]
+}

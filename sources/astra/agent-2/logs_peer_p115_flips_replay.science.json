@@ -1,0 +1,276 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "PHYSICAL_FLIP121",
+      "values": {
+        "facet": 53,
+        "vertex": 46,
+        "neighbors": [
+          61
+        ],
+        "gap": 9.999940320248868e-09,
+        "factor": 0.1,
+        "V": 84,
+        "E_upper": 246,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.11548987930945079,
+        "Qmax": 1.5473790826183804e-16,
+        "loss": 9.354439671045737,
+        "removed_facets": [
+          [
+            37,
+            46,
+            48
+          ],
+          [
+            37,
+            48,
+            59
+          ]
+        ],
+        "added_facets": [
+          [
+            37,
+            46,
+            59
+          ],
+          [
+            46,
+            48,
+            59
+          ]
+        ],
+        "max_displacement": 3.6491081949265136e-09
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "PHYSICAL_FLIP121",
+      "values": {
+        "facet": 53,
+        "vertex": 46,
+        "neighbors": [
+          61
+        ],
+        "gap": 9.999940320248868e-09,
+        "factor": 1.0,
+        "V": 84,
+        "E_upper": 246,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.11548987931328851,
+        "Qmax": 0.0,
+        "loss": 9.354439671061938,
+        "removed_facets": [
+          [
+            37,
+            46,
+            48
+          ],
+          [
+            37,
+            48,
+            59
+          ]
+        ],
+        "added_facets": [
+          [
+            37,
+            46,
+            59
+          ],
+          [
+            46,
+            48,
+            59
+          ]
+        ],
+        "max_displacement": 6.634742136196875e-09
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "PHYSICAL_FLIP121",
+      "values": {
+        "facet": 18,
+        "vertex": 37,
+        "neighbors": [
+          50
+        ],
+        "gap": 2.6358583982144523e-08,
+        "factor": 0.1,
+        "V": 84,
+        "E_upper": 246,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.11548987938301997,
+        "Qmax": 0.0,
+        "loss": 9.354439671667226,
+        "removed_facets": [
+          [
+            9,
+            32,
+            59
+          ],
+          [
+            32,
+            37,
+            59
+          ]
+        ],
+        "added_facets": [
+          [
+            9,
+            32,
+            37
+          ],
+          [
+            9,
+            37,
+            59
+          ]
+        ],
+        "max_displacement": 8.822455789086785e-09
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "PHYSICAL_FLIP121",
+      "values": {
+        "facet": 18,
+        "vertex": 11,
+        "neighbors": [
+          24
+        ],
+        "gap": 2.886677918922942e-08,
+        "factor": 0.1,
+        "V": 84,
+        "E_upper": 246,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.11548987935501018,
+        "Qmax": 1.5419123873214862e-16,
+        "loss": 9.354439671483087,
+        "removed_facets": [
+          [
+            9,
+            11,
+            32
+          ],
+          [
+            9,
+            32,
+            59
+          ]
+        ],
+        "added_facets": [
+          [
+            9,
+            11,
+            59
+          ],
+          [
+            11,
+            32,
+            59
+          ]
+        ],
+        "max_displacement": 9.661971361536072e-09
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "PHYSICAL_FLIP121",
+      "values": {
+        "facet": 1,
+        "vertex": 6,
+        "neighbors": [
+          35
+        ],
+        "gap": 4.483629401086375e-08,
+        "factor": 0.1,
+        "V": 84,
+        "E_upper": 246,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.11548988032447173,
+        "Qmax": 1.5419123887450954e-16,
+        "loss": 9.354439679833751,
+        "removed_facets": [
+          [
+            0,
+            4,
+            36
+          ],
+          [
+            4,
+            6,
+            36
+          ]
+        ],
+        "added_facets": [
+          [
+            0,
+            4,
+            6
+          ],
+          [
+            0,
+            6,
+            36
+          ]
+        ],
+        "max_displacement": 1.557454859559712e-08
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "PHYSICAL_FLIP121",
+      "values": {
+        "facet": 1,
+        "vertex": 6,
+        "neighbors": [
+          35
+        ],
+        "gap": 4.483629401086375e-08,
+        "factor": 1.0,
+        "V": 84,
+        "E_upper": 246,
+        "S": 1,
+        "U": 2,
+        "Pmax": 0.11548988414212497,
+        "Qmax": 1.541912394697137e-16,
+        "loss": 9.354439712951148,
+        "removed_facets": [
+          [
+            0,
+            4,
+            36
+          ],
+          [
+            4,
+            6,
+            36
+          ]
+        ],
+        "added_facets": [
+          [
+            0,
+            4,
+            6
+          ],
+          [
+            0,
+            6,
+            36
+          ]
+        ],
+        "max_displacement": 2.8317361055437625e-08
+      }
+    }
+  ]
+}

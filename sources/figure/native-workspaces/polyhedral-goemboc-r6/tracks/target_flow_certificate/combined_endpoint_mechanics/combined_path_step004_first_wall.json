@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "source": "combined_path_step003_wall.csv",
+  "lp_json": "combined_path_step003_wall_lp.json",
+  "circuit": [
+    198,
+    228,
+    229,
+    258
+  ],
+  "bracket": [
+    0.0012,
+    0.0013
+  ],
+  "volume_bracket": [
+    3.5959862710560826e-12,
+    -5.526785115972725e-13
+  ],
+  "alpha_wall": 0.0012871353722852452,
+  "epsilon": 2e-05,
+  "volume_at_wall": -8.26097945928937e-21,
+  "before": {
+    "valid": true,
+    "f_vector": [
+      61,
+      161,
+      102
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        229,
+        258
+      ],
+      [
+        228,
+        229,
+        258
+      ]
+    ],
+    "topology_margin": 1.0440695530355981e-09
+  },
+  "at": {
+    "valid": true,
+    "f_vector": [
+      61,
+      160,
+      101
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        228,
+        229,
+        258
+      ]
+    ],
+    "topology_margin": 4.202198444769323e-08
+  },
+  "after": {
+    "valid": true,
+    "f_vector": [
+      61,
+      161,
+      102
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "circuit_faces": [
+      [
+        198,
+        228,
+        229
+      ],
+      [
+        198,
+        228,
+        258
+      ]
+    ],
+    "topology_margin": 5.50472306626304e-10
+  }
+}

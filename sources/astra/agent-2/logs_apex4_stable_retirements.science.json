@@ -1,0 +1,38 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "LITERAL_STABLE_PLANE_RETIREMENT",
+      "values": {
+        "V": 163,
+        "E": 245,
+        "F": 84,
+        "S": 10,
+        "U": 1,
+        "Pmax": 2.5657114927868086e-16,
+        "Qmax": 0.026589620423212373,
+        "minimum_noncontact": 5.662292856811746e-11,
+        "deleted_support": 10,
+        "m": 4
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "LITERAL_STABLE_PLANE_RETIREMENT",
+      "values": {
+        "V": 163,
+        "E": 245,
+        "F": 84,
+        "S": 10,
+        "U": 1,
+        "Pmax": 1.3554833962597803e-16,
+        "Qmax": 0.026589616593163924,
+        "minimum_noncontact": 5.662292856811746e-11,
+        "deleted_support": 15,
+        "m": 4
+      }
+    }
+  ]
+}

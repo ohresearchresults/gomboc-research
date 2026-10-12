@@ -1,0 +1,1687 @@
+{
+  "version": 1,
+  "method": "far-wall tangent LP plus independent quad root",
+  "source": "/workspace/scratch/7f3a9535bb47/pro-research-native-transfer-20260831/tracks/target_sphere_realizer/grouped_local_escape/row54_combined_hard_slp_far_round8_projected_tangent_best.csv",
+  "old_quad": [
+    7,
+    8,
+    245,
+    246
+  ],
+  "new_quad": [
+    9,
+    198,
+    263,
+    264
+  ],
+  "lp_predicted_hard": -0.0002752033306566321,
+  "direction": [
+    -1.4069537148803305e-05,
+    -0.0001,
+    1.2652655370680539e-05,
+    0.0001,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    0.0001,
+    0.0001,
+    -0.0001,
+    -8.765128254277225e-05,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    -0.0001,
+    0.0001,
+    0.0001,
+    -0.0001,
+    5.5787691885325325e-05,
+    -0.0001,
+    0.0001,
+    -0.0001,
+    -0.0001,
+    0.0001
+  ],
+  "old_quad_gradient_dot_direction": -5.087611650145204e-15,
+  "source_new_oriented_volume": -1.1579415005875744e-13,
+  "root_alpha": 3.441866632876038e-05,
+  "oriented_volume_at_root": 2.3949139423815305e-19,
+  "wall_projection_correction": -1.1526520988340032e-16,
+  "far_alpha": 5.749296403453995e-05,
+  "removed_faces": [
+    [
+      9,
+      263,
+      264
+    ],
+    [
+      198,
+      263,
+      264
+    ]
+  ],
+  "added_faces": [
+    [
+      9,
+      198,
+      263
+    ],
+    [
+      9,
+      198,
+      264
+    ]
+  ],
+  "audits": {
+    "pre": {
+      "name": "pre",
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5731158662518305,
+          0.002811869902310621,
+          0.8498879255963363
+        ],
+        "topology_margin": 6.7811648355595156e-12,
+        "inactive_margin": Infinity
+      },
+      "hard_margin": -0.00027572345887067357,
+      "guard_ledger": {
+        "('U-', 54)": -0.00027572345887067357,
+        "('H-', (6, 7))": -0.00027551485284808656,
+        "('H-', (198, 263))": -8.722153122087128e-05,
+        "('U-', 263)": 2.7753393190181525e-08,
+        "('H-', (10, 263))": 6.348266357036891e-10,
+        "('U-', 1)": 2.0669951343260807e-07,
+        "('H-', (1, 54))": 0.0007502247995801785
+      },
+      "old_quad_guard": 7.999992537019113e-12,
+      "new_quad_oriented_volume": -1.1579415005875744e-13,
+      "base_face_present": true,
+      "rail_edges_present": {
+        "short": true,
+        "long": true
+      }
+    },
+    "wall": {
+      "name": "wall",
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          161,
+          102
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            6,
+            7
+          ],
+          [
+            198,
+            263
+          ]
+        ],
+        "centroid": [
+          -0.5731158674020765,
+          0.0028118708400188585,
+          0.849887933734376
+        ],
+        "topology_margin": 6.568858995789574e-11,
+        "inactive_margin": Infinity
+      },
+      "hard_margin": -0.00027572344089592975,
+      "guard_ledger": {
+        "('U-', 54)": -0.00027572344089592975,
+        "('H-', (6, 7))": -0.0002755148421254527,
+        "('H-', (198, 263))": -8.722152894391488e-05,
+        "('U-', 263)": 2.7752485414536765e-08,
+        "('H-', (10, 263))": 6.348057635108262e-10,
+        "('U-', 1)": 2.0669232649344746e-07,
+        "('H-', (1, 54))": 0.0007501987436483371
+      },
+      "old_quad_guard": 7.999992937873164e-12,
+      "new_quad_oriented_volume": -1.6619344307322992e-18,
+      "base_face_present": true,
+      "rail_edges_present": {
+        "short": true,
+        "long": false
+      }
+    },
+    "far": {
+      "name": "far",
+      "fresh_actual": {
+        "valid": true,
+        "error": null,
+        "f_vector": [
+          61,
+          162,
+          103
+        ],
+        "class": [
+          2,
+          2,
+          2
+        ],
+        "stable": [
+          [
+            7,
+            8,
+            245
+          ],
+          [
+            0,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            54
+          ]
+        ],
+        "unstable": [
+          8,
+          54
+        ],
+        "saddles": [
+          [
+            198,
+            263
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "centroid": [
+          -0.5731158681803057,
+          0.0028118714684093856,
+          0.8498879392015192
+        ],
+        "topology_margin": 3.5952703462038033e-12,
+        "inactive_margin": Infinity
+      },
+      "hard_margin": -0.0002757234284392437,
+      "guard_ledger": {
+        "('U-', 54)": -0.0002757234284392437,
+        "('H-', (6, 7))": -0.00027551484256403995,
+        "('H-', (198, 263))": -8.722151472284612e-05,
+        "('U-', 263)": 2.7176238722334677e-08,
+        "('H-', (10, 263))": 6.216249737178714e-10,
+        "('U-', 1)": 2.0668710363233427e-07,
+        "('H-', (1, 54))": 0.0007501798067440589
+      },
+      "old_quad_guard": 7.999994456787356e-12,
+      "new_quad_oriented_volume": 7.763292380055127e-14,
+      "base_face_present": true,
+      "rail_edges_present": {
+        "short": true,
+        "long": false
+      }
+    }
+  },
+  "scan": [
+    {
+      "alpha": 1e-10,
+      "oriented_volume": -1.1579663921333387e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781506110031579e-12
+    },
+    {
+      "alpha": 1.165914401179831e-10,
+      "oriented_volume": -1.157913065709432e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780987856054289e-12
+    },
+    {
+      "alpha": 1.3593563908785242e-10,
+      "oriented_volume": -1.1578965277593282e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780838661727555e-12
+    },
+    {
+      "alpha": 1.584893192461111e-10,
+      "oriented_volume": -1.1579561260561402e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781426378650349e-12
+    },
+    {
+      "alpha": 1.8478497974222944e-10,
+      "oriented_volume": -1.1579376915874868e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781253627324588e-12
+    },
+    {
+      "alpha": 2.1544346900318867e-10,
+      "oriented_volume": -1.157945556229498e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781242150837879e-12
+    },
+    {
+      "alpha": 2.511886431509582e-10,
+      "oriented_volume": -1.1579165814158682e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7812850366564434e-12
+    },
+    {
+      "alpha": 2.928644564625237e-10,
+      "oriented_volume": -1.1579580446934363e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781361747909385e-12
+    },
+    {
+      "alpha": 3.414548873833601e-10,
+      "oriented_volume": -1.1579098304265315e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780922017262038e-12
+    },
+    {
+      "alpha": 3.9810717055349694e-10,
+      "oriented_volume": -1.1579369560219897e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781048258615375e-12
+    },
+    {
+      "alpha": 4.6415888336127727e-10,
+      "oriented_volume": -1.1579138897499144e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781100808843749e-12
+    },
+    {
+      "alpha": 5.411695265464626e-10,
+      "oriented_volume": -1.157929379166434e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781253023298425e-12
+    },
+    {
+      "alpha": 6.309573444801942e-10,
+      "oriented_volume": -1.1579553112642878e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781396781394578e-12
+    },
+    {
+      "alpha": 7.356422544596422e-10,
+      "oriented_volume": -1.1579404729655742e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7811551711486376e-12
+    },
+    {
+      "alpha": 8.576958985908946e-10,
+      "oriented_volume": -1.1579336838945023e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780936513876061e-12
+    },
+    {
+      "alpha": 1e-09,
+      "oriented_volume": -1.1578803157074002e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780803628240679e-12
+    },
+    {
+      "alpha": 1.1659144011798312e-09,
+      "oriented_volume": -1.1579561832237208e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.781330338576235e-12
+    },
+    {
+      "alpha": 1.3593563908785241e-09,
+      "oriented_volume": -1.1579179878035903e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7810609431519106e-12
+    },
+    {
+      "alpha": 1.584893192461111e-09,
+      "oriented_volume": -1.1578820141516247e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780791547727532e-12
+    },
+    {
+      "alpha": 1.847849797422287e-09,
+      "oriented_volume": -1.1578857365624352e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7807824873429394e-12
+    },
+    {
+      "alpha": 2.1544346900318866e-09,
+      "oriented_volume": -1.157878443193297e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780979399692829e-12
+    },
+    {
+      "alpha": 2.511886431509582e-09,
+      "oriented_volume": -1.1578765743306718e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7809630910007224e-12
+    },
+    {
+      "alpha": 2.9286445646252374e-09,
+      "oriented_volume": -1.157809396733986e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7805372529419686e-12
+    },
+    {
+      "alpha": 3.4145488738336005e-09,
+      "oriented_volume": -1.1577877454197089e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7803832264095445e-12
+    },
+    {
+      "alpha": 3.981071705534969e-09,
+      "oriented_volume": -1.1578026771120026e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780615172244679e-12
+    },
+    {
+      "alpha": 4.641588833612773e-09,
+      "oriented_volume": -1.1577311726984767e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780151884597524e-12
+    },
+    {
+      "alpha": 5.411695265464648e-09,
+      "oriented_volume": -1.157776202075706e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780111414880197e-12
+    },
+    {
+      "alpha": 6.309573444801943e-09,
+      "oriented_volume": -1.157727462040518e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.780006314422033e-12
+    },
+    {
+      "alpha": 7.356422544596421e-09,
+      "oriented_volume": -1.1576832911639466e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.779777388712628e-12
+    },
+    {
+      "alpha": 8.576958985908945e-09,
+      "oriented_volume": -1.157660363760041e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7794252417776914e-12
+    },
+    {
+      "alpha": 1e-08,
+      "oriented_volume": -1.1575818427193846e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.779291148089197e-12
+    },
+    {
+      "alpha": 1.165914401179831e-08,
+      "oriented_volume": -1.1575339334989233e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.778918464282748e-12
+    },
+    {
+      "alpha": 1.3593563908785241e-08,
+      "oriented_volume": -1.1574876612850155e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.778687726495243e-12
+    },
+    {
+      "alpha": 1.584893192461114e-08,
+      "oriented_volume": -1.1574573981600297e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.778390545889708e-12
+    },
+    {
+      "alpha": 1.8478497974222906e-08,
+      "oriented_volume": -1.1573705911468644e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.777985848724256e-12
+    },
+    {
+      "alpha": 2.1544346900318866e-08,
+      "oriented_volume": -1.1572393057961715e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.777094910938611e-12
+    },
+    {
+      "alpha": 2.511886431509582e-08,
+      "oriented_volume": -1.15710992435678e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.77624565091962e-12
+    },
+    {
+      "alpha": 2.9286445646252374e-08,
+      "oriented_volume": -1.1569583995863753e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.775590283121999e-12
+    },
+    {
+      "alpha": 3.4145488738336004e-08,
+      "oriented_volume": -1.1568014165574565e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.774615989798977e-12
+    },
+    {
+      "alpha": 3.981071705534969e-08,
+      "oriented_volume": -1.1566035446163288e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.773418811023044e-12
+    },
+    {
+      "alpha": 4.641588833612773e-08,
+      "oriented_volume": -1.1563404628713875e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.771984250179344e-12
+    },
+    {
+      "alpha": 5.411695265464637e-08,
+      "oriented_volume": -1.1561627626021725e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.770969487136061e-12
+    },
+    {
+      "alpha": 6.30957344480193e-08,
+      "oriented_volume": -1.1558163403930094e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7689435852124474e-12
+    },
+    {
+      "alpha": 7.356422544596421e-08,
+      "oriented_volume": -1.1554851634914672e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.766933387952656e-12
+    },
+    {
+      "alpha": 8.576958985908945e-08,
+      "oriented_volume": -1.1550694697981403e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7643656750482924e-12
+    },
+    {
+      "alpha": 1e-07,
+      "oriented_volume": -1.1545536129661523e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7613050772397046e-12
+    },
+    {
+      "alpha": 1.1659144011798311e-07,
+      "oriented_volume": -1.1539720027705534e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.75795213103035e-12
+    },
+    {
+      "alpha": 1.3593563908785243e-07,
+      "oriented_volume": -1.1533631844729225e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.754323145111321e-12
+    },
+    {
+      "alpha": 1.584893192461114e-07,
+      "oriented_volume": -1.1526125030106822e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.74992402652934e-12
+    },
+    {
+      "alpha": 1.8478497974222906e-07,
+      "oriented_volume": -1.151690733893233e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.744566319292024e-12
+    },
+    {
+      "alpha": 2.1544346900318867e-07,
+      "oriented_volume": -1.1507336620545267e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.738953109213611e-12
+    },
+    {
+      "alpha": 2.5118864315095823e-07,
+      "oriented_volume": -1.149471951137552e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.7317120500972795e-12
+    },
+    {
+      "alpha": 2.928644564625237e-07,
+      "oriented_volume": -1.148081848118041e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.723375288508106e-12
+    },
+    {
+      "alpha": 3.414548873833601e-07,
+      "oriented_volume": -1.1464120633504445e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.713823227373085e-12
+    },
+    {
+      "alpha": 3.981071705534969e-07,
+      "oriented_volume": -1.1445572597264023e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.702740565320003e-12
+    },
+    {
+      "alpha": 4.6415888336127725e-07,
+      "oriented_volume": -1.142330353306192e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.689853678743756e-12
+    },
+    {
+      "alpha": 5.411695265464637e-07,
+      "oriented_volume": -1.1397470697332023e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.67447397844192e-12
+    },
+    {
+      "alpha": 6.30957344480193e-07,
+      "oriented_volume": -1.1367025870044443e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.656806229095471e-12
+    },
+    {
+      "alpha": 7.356422544596421e-07,
+      "oriented_volume": -1.133264263991171e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.636471102615804e-12
+    },
+    {
+      "alpha": 8.576958985908945e-07,
+      "oriented_volume": -1.129109586288121e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.6123130979997306e-12
+    },
+    {
+      "alpha": 1e-06,
+      "oriented_volume": -1.124310214098903e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.584305638116732e-12
+    },
+    {
+      "alpha": 1.165914401179831e-06,
+      "oriented_volume": -1.1186880463965052e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.551458724981046e-12
+    },
+    {
+      "alpha": 1.3593563908785242e-06,
+      "oriented_volume": -1.1122192675509725e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.513377325836518e-12
+    },
+    {
+      "alpha": 1.584893192461114e-06,
+      "oriented_volume": -1.104609471837987e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.468810503631212e-12
+    },
+    {
+      "alpha": 1.8478497974222906e-06,
+      "oriented_volume": -1.0958374855064847e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.417447789193939e-12
+    },
+    {
+      "alpha": 2.1544346900318822e-06,
+      "oriented_volume": -1.0853933212442384e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.356418248774736e-12
+    },
+    {
+      "alpha": 2.5118864315095823e-06,
+      "oriented_volume": -1.0734226481670522e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        162,
+        103
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.28618094183418e-12
+    },
+    {
+      "alpha": 2.9286445646252375e-06,
+      "oriented_volume": -1.0593685412666924e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568862935441373e-11
+    },
+    {
+      "alpha": 3.4145488738336005e-06,
+      "oriented_volume": -1.0430847897950943e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568852968344586e-11
+    },
+    {
+      "alpha": 3.981071705534969e-06,
+      "oriented_volume": -1.0239798986197532e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568867947393896e-11
+    },
+    {
+      "alpha": 4.641588833612782e-06,
+      "oriented_volume": -1.0017542967684245e-13,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568864775343067e-11
+    },
+    {
+      "alpha": 5.411695265464638e-06,
+      "oriented_volume": -9.75862118178476e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568859307842862e-11
+    },
+    {
+      "alpha": 6.30957344480193e-06,
+      "oriented_volume": -9.456413122408433e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568863746185519e-11
+    },
+    {
+      "alpha": 7.356422544596406e-06,
+      "oriented_volume": -9.104897458554933e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568855560186112e-11
+    },
+    {
+      "alpha": 8.576958985908945e-06,
+      "oriented_volume": -8.693816602413391e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568861266534903e-11
+    },
+    {
+      "alpha": 9.999999999999999e-06,
+      "oriented_volume": -8.215079312489698e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.56885531490839e-11
+    },
+    {
+      "alpha": 1.165914401179831e-05,
+      "oriented_volume": -7.656717463595175e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568865490438224e-11
+    },
+    {
+      "alpha": 1.359356390878524e-05,
+      "oriented_volume": -7.006034054136682e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568864038093135e-11
+    },
+    {
+      "alpha": 1.584893192461114e-05,
+      "oriented_volume": -6.247072824298117e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568859685979786e-11
+    },
+    {
+      "alpha": 1.8478497974222908e-05,
+      "oriented_volume": -5.3627427473681455e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568866326613525e-11
+    },
+    {
+      "alpha": 2.1544346900318823e-05,
+      "oriented_volume": -4.330806940901931e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568866050548667e-11
+    },
+    {
+      "alpha": 2.5118864315095822e-05,
+      "oriented_volume": -3.1284948462523695e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568866256998678e-11
+    },
+    {
+      "alpha": 2.9286445646252374e-05,
+      "oriented_volume": -1.7268142583696443e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568857311637848e-11
+    },
+    {
+      "alpha": 3.414548873833601e-05,
+      "oriented_volume": -9.133403655721092e-16,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568853227724012e-11
+    },
+    {
+      "alpha": 3.9810717055349695e-05,
+      "oriented_volume": 1.8145287701566072e-14,
+      "fresh_valid": true,
+      "fresh_f_vector": [
+        61,
+        161,
+        102
+      ],
+      "fresh_class": [
+        2,
+        2,
+        2
+      ],
+      "fresh_topology_margin": 6.568869468153463e-11
+    }
+  ]
+}

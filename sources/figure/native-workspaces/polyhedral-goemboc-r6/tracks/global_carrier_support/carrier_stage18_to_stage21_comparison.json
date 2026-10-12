@@ -1,0 +1,78 @@
+{
+  "branch_comparison": {
+    "actual_far": {
+      "H67_at_first_blocker": 0.02569978564466472,
+      "first_blocker": "vertex 250 loss; rails (249,250),(250,251) disappear",
+      "relative_reduction": 0.05259443958806176
+    },
+    "chosen": "pre_null_detour",
+    "common_H67_start": 0.027126488083403566,
+    "pre_null_detour": {
+      "H1011": -1.637756937053351e-05,
+      "H67_before_vertex6_transfer": 0.0006046704243371496,
+      "H910": 5.824650043950719e-06,
+      "relative_reduction": 0.9777092256661453,
+      "same_cell_circuit_bypass": true
+    },
+    "reason": "97% H67 descent versus 5% before the FAR rail blocker"
+  },
+  "passed": true,
+  "stage18_exact_transfer": {
+    "classes": [
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "root_gap": 2.1801318454250154e-08,
+    "roots": {
+      "11": 0.00022381466204310162,
+      "9": 0.00022383646336155587
+    }
+  },
+  "stage21_exact_vertex6_transfer": {
+    "base_u8_all37_rails_preserved": true,
+    "birth_root_N5": 0.007092765190310719,
+    "classes": [
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "death_root_N7": 0.008405420930909631,
+    "f_vector": [
+      61,
+      162,
+      103
+    ],
+    "far_H56": 0.0014806380935024066,
+    "far_H67": -0.00030246963945846777,
+    "far_S": 0.0009440591109025324,
+    "far_U54": 0.004550533983902071,
+    "far_U6": -0.0041963295999965355,
+    "root_gap": 0.0013126557405989119
+  },
+  "version": 1
+}

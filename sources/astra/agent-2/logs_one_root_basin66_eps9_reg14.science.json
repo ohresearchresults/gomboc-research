@@ -1,0 +1,134 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 0,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 9.816002636019675e-08,
+        "minimum": -9.716002636019676e-08,
+        "trust": 0.02,
+        "seconds": 0.35276198387145996
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 5,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.0865312094484052e-08,
+        "minimum": -1.9865312094484053e-08,
+        "trust": 0.0032,
+        "seconds": 1.058074951171875
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 10,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 1.2697823961081401e-08,
+        "minimum": -1.16978239610814e-08,
+        "trust": 0.00020480000000000004,
+        "seconds": 1.4706437587738037
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 15,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.5186286827587726e-09,
+        "minimum": -1.3782806978118342e-09,
+        "trust": 1.3107200000000007e-05,
+        "seconds": 1.8399739265441895
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 20,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.5185520891832e-09,
+        "minimum": -1.3150408194831713e-09,
+        "trust": 3.3554432000000026e-07,
+        "seconds": 2.2305638790130615
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 25,
+        "S": 1,
+        "U": 3,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.5185495885815654e-09,
+        "minimum": -4.864250791564185e-10,
+        "trust": 8.589934592000009e-09,
+        "seconds": 2.598526954650879
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "ONE_ROOT_PHYSICAL",
+      "values": {
+        "it": 30,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.5185442818500568e-09,
+        "minimum": -1.449674218486856e-09,
+        "trust": 2.1990232555520027e-10,
+        "seconds": 2.932926893234253
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "ONE_ROOT_FINITE_STALL",
+      "values": {
+        "it": 33,
+        "S": 1,
+        "U": 2,
+        "V": 66,
+        "E": 192,
+        "F": 128,
+        "merit": 2.5185442818500568e-09,
+        "minimum": -1.449674218486856e-09,
+        "trust": 1.407374883553282e-11,
+        "seconds": 3.135833978652954
+      }
+    }
+  ]
+}

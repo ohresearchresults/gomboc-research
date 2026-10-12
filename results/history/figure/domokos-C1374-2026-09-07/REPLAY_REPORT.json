@@ -1,0 +1,46 @@
+{
+  "status": "FRESH_STANDARD_LIBRARY_COMPLETE_REPLAY_PASS",
+  "VEF": [
+    258,
+    687,
+    431
+  ],
+  "C": 1374,
+  "SUH": [
+    1,
+    1,
+    0
+  ],
+  "stable": [
+    [
+      158,
+      163,
+      161
+    ]
+  ],
+  "unstable": [
+    138
+  ],
+  "saddles": [],
+  "degeneracies": [],
+  "centered_moments": [
+    "0",
+    "0",
+    "0"
+  ],
+  "capsule_sha256": "0470008c42fd61ca27045b001cddee34ab68a954dc6e8ec0198a63e9715409c8",
+  "witnesses": {
+    "K": 3467702,
+    "primal_root": 138,
+    "polar_root": 132,
+    "positive_rooted_primal_polar_witnesses": true
+  },
+  "independent_full_audits": 2,
+  "translation_moment_covariance": true,
+  "rejected_corruptions": [
+    "reversed_triangle",
+    "missing_triangle"
+  ],
+  "seconds": 209.15350198745728,
+  "new_below1000_winner": false
+}

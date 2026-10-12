@@ -1,0 +1,13 @@
+{
+  "files": 47,
+  "utf8_bytes": 203446,
+  "sha256": "2670fc5add42789172634e3106b0658eeda23b56fe447916d28a5da613c350ce",
+  "lzma_bytes": 48124,
+  "base85_chars": 60155,
+  "bodies": [
+    "C634_SOC",
+    "C636_H213_SOC",
+    "C642_GRID6_UNREPAIRED_OWN121",
+    "C642_GRID6_REPAIR169"
+  ]
+}

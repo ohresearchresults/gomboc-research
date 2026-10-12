@@ -1,0 +1,101 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "ACTUAL_MASS_BALANCED_SECOND_STAR",
+      "values": {
+        "V": 140,
+        "E": 237,
+        "F": 99,
+        "S": 1,
+        "U": 38,
+        "Pmax": 0.11350925724524279,
+        "Qmax": 1.5210983911984624e-16,
+        "minimum_noncontact": 6.7872550912895235e-09,
+        "m": 44,
+        "n": 16,
+        "removed": 60,
+        "centroid_error": 2.7755575615628914e-17,
+        "post_truncation_edge_bound": 253
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "ACTUAL_MASS_BALANCED_SECOND_STAR",
+      "values": {
+        "V": 140,
+        "E": 237,
+        "F": 99,
+        "S": 1,
+        "U": 38,
+        "Pmax": 0.11350925408199536,
+        "Qmax": 0.0,
+        "minimum_noncontact": 6.7872550912895235e-09,
+        "m": 44,
+        "n": 16,
+        "removed": 91,
+        "centroid_error": 4.163336342344337e-17,
+        "post_truncation_edge_bound": 253
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "ACTUAL_MASS_BALANCED_SECOND_STAR",
+      "values": {
+        "V": 138,
+        "E": 234,
+        "F": 98,
+        "S": 1,
+        "U": 38,
+        "Pmax": 0.1135092568480448,
+        "Qmax": 0.0,
+        "minimum_noncontact": 6.787254869244919e-09,
+        "m": 44,
+        "n": 16,
+        "removed": 60,
+        "centroid_error": 4.163336342344337e-17,
+        "post_truncation_edge_bound": 250
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "ACTUAL_MASS_BALANCED_SECOND_STAR",
+      "values": {
+        "V": 138,
+        "E": 234,
+        "F": 98,
+        "S": 1,
+        "U": 38,
+        "Pmax": 0.11350925684804383,
+        "Qmax": 0.0,
+        "minimum_noncontact": 6.787254980267221e-09,
+        "m": 44,
+        "n": 16,
+        "removed": 90,
+        "centroid_error": 2.7755575615628914e-17,
+        "post_truncation_edge_bound": 250
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "ACTUAL_MASS_BALANCED_SECOND_STAR",
+      "values": {
+        "V": 136,
+        "E": 231,
+        "F": 97,
+        "S": 1,
+        "U": 36,
+        "Pmax": 0.11355039101707395,
+        "Qmax": 0.0,
+        "minimum_noncontact": 6.788870354768051e-09,
+        "m": 44,
+        "n": 16,
+        "removed": 65,
+        "centroid_error": 5.828670879282072e-16,
+        "post_truncation_edge_bound": 247
+      }
+    }
+  ]
+}

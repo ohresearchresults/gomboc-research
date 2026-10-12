@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "scope": "independent reconstruction of nonlinear chart and exact dense jets",
+  "source_hashes": {
+    "nonlinear_chart.json": "e485304d831ee21da46c21f6a7b0aa33b5e85813708d424e400a2906036f4c7a",
+    "cells/endpoint.csv": "9655aa81e160e57747e88f2bc64ac61a6b5f6cfcb4a4867ebff8ff35cfb077c2",
+    "cells/endpoint.json": "7131992ff5e5a254947efc3282057f7e050079e62ff006bfd2481df7c1a867cd"
+  },
+  "endpoint": {
+    "f_vector": [
+      61,
+      150,
+      91
+    ],
+    "class": [
+      2,
+      4,
+      4
+    ]
+  },
+  "chart": {
+    "dimension": 156,
+    "base_dimension": 37,
+    "shell_dimension": 35,
+    "free_dimension": 84,
+    "local_inverse": "moving frame vertices, affine coordinates, and free rows",
+    "moving_plane_quotient_dimension_over_fixed_plane_chart": 6
+  },
+  "planarity": {
+    "base": {
+      "tested_direction_nonzero_coordinates": 156,
+      "dependent_rows_checked": 14,
+      "maximum_coordinate_degree": 2,
+      "all_coplanarity_determinants_identically_zero": true
+    },
+    "shell": {
+      "tested_direction_nonzero_coordinates": 156,
+      "dependent_rows_checked": 13,
+      "maximum_coordinate_degree": 2,
+      "all_coplanarity_determinants_identically_zero": true
+    }
+  },
+  "dense_jet_nonzero_counts": {
+    "P": [
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156
+    ],
+    "T": [
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156,
+      156
+    ]
+  },
+  "exact_ranks": {
+    "P": 30,
+    "T": 8,
+    "P_then_T": 38
+  },
+  "all_37_forced_rails_present_at_source": true,
+  "verdict": "INDEPENDENT_EXACT_POST_C17_NONLINEAR_156D_CHART_PASS",
+  "winner_status": "NONWINNER_CHART_ONLY",
+  "obstruction_status": "NONE_CLAIMED"
+}

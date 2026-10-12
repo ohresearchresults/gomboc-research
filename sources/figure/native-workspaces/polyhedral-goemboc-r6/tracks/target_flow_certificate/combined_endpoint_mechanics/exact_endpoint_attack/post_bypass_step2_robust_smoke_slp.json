@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "scope": "physical-trust post-exact-flip actual-cell SLP",
+  "source": "/REDACTED_HOME/.pro-research/native-workspaces/polyhedral-goemboc-r6/tracks/target_flow_certificate/combined_endpoint_mechanics/exact_endpoint_attack/post_bypass_intrinsic_step_interior.csv",
+  "parameters": {
+    "source": "post_bypass_intrinsic_step_interior.csv",
+    "prefix": "post_bypass_step2_robust_smoke",
+    "iterations": 0,
+    "trust": 1e-07,
+    "trust_maximum": 2e-05,
+    "guard_budget": 0.15,
+    "fd_step": 1e-09,
+    "bound": 300.0,
+    "plane_tol": 2e-12
+  },
+  "initial": {
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "topology_margin": 4.718211585537656e-10
+  },
+  "history": [],
+  "first_event": null,
+  "final": {
+    "file": "post_bypass_step2_robust_smoke_final.csv",
+    "f_vector": [
+      60,
+      158,
+      100
+    ],
+    "class": [
+      2,
+      2,
+      2
+    ],
+    "topology_margin": 4.718211585537656e-10
+  },
+  "conclusion": "iteration limit reached inside the strict source cell"
+}

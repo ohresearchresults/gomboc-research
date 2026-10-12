@@ -1,0 +1,72 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "POLISH",
+      "values": {
+        "S": 24,
+        "U": 37,
+        "floor": -0.06802781941966543,
+        "V": 63,
+        "E": 173,
+        "F": 112,
+        "C": 346,
+        "centroid": [
+          -0.023320093992889254,
+          0.013157292907352047,
+          0.2310802321298578
+        ],
+        "volume": 0.33582566486187093,
+        "it": 0,
+        "merit": 0.0016563966127166937,
+        "minimum": -9.408911214136248e-05,
+        "trust": 0.003,
+        "roots": [
+          [
+            62
+          ],
+          [
+            174,
+            8
+          ]
+        ],
+        "seconds": 0.132918119430542
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "STRICT_NUMERICAL_REQUIRES_EXACT",
+      "values": {
+        "S": 2,
+        "U": 1,
+        "floor": -0.06816674694359492,
+        "V": 63,
+        "E": 173,
+        "F": 112,
+        "C": 346,
+        "centroid": [
+          -0.023314194039129595,
+          0.01317050678356813,
+          0.23107644073492892
+        ],
+        "volume": 0.33582066656334575,
+        "it": 1,
+        "merit": 1.702995075730497e-07,
+        "minimum": 4.625500306511143e-07,
+        "trust": 0.0036,
+        "roots": [
+          [
+            62
+          ],
+          [
+            174,
+            8
+          ]
+        ],
+        "seconds": 0.6615622043609619
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "TWO_GENUINE_APEX_SEED",
+      "values": {
+        "V": 89,
+        "E": 155,
+        "F": 68,
+        "S": 13,
+        "U": 10,
+        "Pmax": 0.5753828655140891,
+        "Qmax": 0.5209070696795955,
+        "minimum_noncontact": 1.1459889703857584e-09,
+        "m": 44,
+        "n": 12,
+        "original_second_vertex": 100,
+        "inward": 0.0001,
+        "selector": 0,
+        "actual_second_degree": 5,
+        "apex_degree": 44
+      }
+    }
+  ]
+}

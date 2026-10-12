@@ -1,0 +1,1520 @@
+{
+  "schema": "polyhedral-goemboc.topology-guard-audit",
+  "version": 1,
+  "source": "/REDACTED_HOME/.pro-research/native-workspaces/polyhedral-goemboc-r6/tracks/target_flow_certificate/combined_endpoint_mechanics/exact_endpoint_attack/post_bypass_cycle21_pre_guarded_v2_exact_chain_checkpoint_001.csv",
+  "source_sha256": "5527caa4b8bb61d7221b963185d8d3edbc256940c4a0424dd2a7249a51c5d955",
+  "plane_tolerance": 1e-11,
+  "source_f_vector": [
+    60,
+    158,
+    100
+  ],
+  "source_class": [
+    2,
+    2,
+    2
+  ],
+  "all_37_forced_rails_retained": true,
+  "unique_triangle_point_circuit_count": 5451,
+  "reported_count": 64,
+  "circuits": [
+    {
+      "circuit": [
+        228,
+        236,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 2.8770816680252327e-12,
+      "representatives": [
+        {
+          "face": [
+            228,
+            237,
+            236
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 9.783773400248422e-12
+        },
+        {
+          "face": [
+            228,
+            238,
+            237
+          ],
+          "vertex": 236,
+          "normalized_support_slack": 2.8770816680252327e-12
+        }
+      ],
+      "sorted_orientation_determinant": 4.3577693636469085e-14
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 6.99027112964772e-12,
+      "representatives": [
+        {
+          "face": [
+            198,
+            233,
+            236
+          ],
+          "vertex": 237,
+          "normalized_support_slack": 6.99027112964772e-12
+        },
+        {
+          "face": [
+            198,
+            236,
+            237
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 1.0900426337859005e-11
+        }
+      ],
+      "sorted_orientation_determinant": -7.130619206065411e-14
+    },
+    {
+      "circuit": [
+        3,
+        198,
+        242,
+        243
+      ],
+      "minimum_normalized_support_slack": 7.288313993691589e-12,
+      "representatives": [
+        {
+          "face": [
+            3,
+            243,
+            242
+          ],
+          "vertex": 198,
+          "normalized_support_slack": 1.1147296726526012e-11
+        },
+        {
+          "face": [
+            198,
+            242,
+            243
+          ],
+          "vertex": 3,
+          "normalized_support_slack": 7.288313993691589e-12
+        }
+      ],
+      "sorted_orientation_determinant": 1.0860933235053354e-10
+    },
+    {
+      "circuit": [
+        4,
+        198,
+        243,
+        244
+      ],
+      "minimum_normalized_support_slack": 8.26256269616396e-12,
+      "representatives": [
+        {
+          "face": [
+            4,
+            244,
+            243
+          ],
+          "vertex": 198,
+          "normalized_support_slack": 1.0057516468257784e-11
+        },
+        {
+          "face": [
+            198,
+            243,
+            244
+          ],
+          "vertex": 4,
+          "normalized_support_slack": 8.26256269616396e-12
+        }
+      ],
+      "sorted_orientation_determinant": 2.2173059438790329e-10
+    },
+    {
+      "circuit": [
+        228,
+        234,
+        235,
+        236
+      ],
+      "minimum_normalized_support_slack": 8.814758333983446e-12,
+      "representatives": [
+        {
+          "face": [
+            228,
+            236,
+            235
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 1.8534792365670124e-11
+        },
+        {
+          "face": [
+            228,
+            235,
+            234
+          ],
+          "vertex": 236,
+          "normalized_support_slack": 8.814758333983446e-12
+        },
+        {
+          "face": [
+            234,
+            235,
+            236
+          ],
+          "vertex": 228,
+          "normalized_support_slack": 2.716192445622555e-11
+        }
+      ],
+      "sorted_orientation_determinant": 3.4106863304694725e-14
+    },
+    {
+      "circuit": [
+        233,
+        234,
+        235,
+        236
+      ],
+      "minimum_normalized_support_slack": 1.4855374997404088e-11,
+      "representatives": [
+        {
+          "face": [
+            233,
+            234,
+            236
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 3.304199566775139e-11
+        },
+        {
+          "face": [
+            234,
+            235,
+            236
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 1.4855374997404088e-11
+        }
+      ],
+      "sorted_orientation_determinant": 1.8653700544969358e-14
+    },
+    {
+      "circuit": [
+        228,
+        235,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 1.5603122099194222e-11,
+      "representatives": [
+        {
+          "face": [
+            228,
+            237,
+            236
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 1.5603122099194222e-11
+        },
+        {
+          "face": [
+            228,
+            236,
+            235
+          ],
+          "vertex": 237,
+          "normalized_support_slack": 3.7767247707433174e-11
+        }
+      ],
+      "sorted_orientation_determinant": 6.94975274455029e-14
+    },
+    {
+      "circuit": [
+        228,
+        233,
+        234,
+        235
+      ],
+      "minimum_normalized_support_slack": 1.594981080246063e-11,
+      "representatives": [
+        {
+          "face": [
+            228,
+            234,
+            233
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 7.05462203973626e-11
+        },
+        {
+          "face": [
+            228,
+            235,
+            234
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 1.594981080246063e-11
+        }
+      ],
+      "sorted_orientation_determinant": 6.171448133958745e-14
+    },
+    {
+      "circuit": [
+        228,
+        235,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 1.917145380469006e-11,
+      "representatives": [
+        {
+          "face": [
+            228,
+            238,
+            237
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 1.917145380469006e-11
+        }
+      ],
+      "sorted_orientation_determinant": 2.9038014081769926e-13
+    },
+    {
+      "circuit": [
+        198,
+        237,
+        238,
+        239
+      ],
+      "minimum_normalized_support_slack": 2.5316521205921658e-11,
+      "representatives": [
+        {
+          "face": [
+            198,
+            237,
+            238
+          ],
+          "vertex": 239,
+          "normalized_support_slack": 1.8001520600602069e-10
+        },
+        {
+          "face": [
+            198,
+            238,
+            239
+          ],
+          "vertex": 237,
+          "normalized_support_slack": 2.5316521205921658e-11
+        }
+      ],
+      "sorted_orientation_determinant": -3.276165595409419e-12
+    },
+    {
+      "circuit": [
+        198,
+        238,
+        239,
+        240
+      ],
+      "minimum_normalized_support_slack": 3.421584554327153e-11,
+      "representatives": [
+        {
+          "face": [
+            198,
+            238,
+            239
+          ],
+          "vertex": 240,
+          "normalized_support_slack": 1.280989114522754e-10
+        },
+        {
+          "face": [
+            198,
+            239,
+            240
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 3.421584554327153e-11
+        }
+      ],
+      "sorted_orientation_determinant": -1.65770657559581e-11
+    },
+    {
+      "circuit": [
+        228,
+        233,
+        235,
+        236
+      ],
+      "minimum_normalized_support_slack": 3.9421964694317384e-11,
+      "representatives": [
+        {
+          "face": [
+            228,
+            236,
+            235
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 3.9421964694317384e-11
+        }
+      ],
+      "sorted_orientation_determinant": 7.254246916741089e-14
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        234,
+        236
+      ],
+      "minimum_normalized_support_slack": 4.2876771970480414e-11,
+      "representatives": [
+        {
+          "face": [
+            198,
+            233,
+            236
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 4.2876771970480414e-11
+        },
+        {
+          "face": [
+            233,
+            234,
+            236
+          ],
+          "vertex": 198,
+          "normalized_support_slack": 7.747410735420408e-10
+        }
+      ],
+      "sorted_orientation_determinant": 4.3737619832889723e-13
+    },
+    {
+      "circuit": [
+        233,
+        234,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 4.584855547635325e-11,
+      "representatives": [
+        {
+          "face": [
+            233,
+            234,
+            236
+          ],
+          "vertex": 237,
+          "normalized_support_slack": 4.584855547635325e-11
+        }
+      ],
+      "sorted_orientation_determinant": -2.5883578804187717e-14
+    },
+    {
+      "circuit": [
+        198,
+        236,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 4.612508878929204e-11,
+      "representatives": [
+        {
+          "face": [
+            198,
+            236,
+            237
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 1.2832471009622403e-10
+        },
+        {
+          "face": [
+            198,
+            237,
+            238
+          ],
+          "vertex": 236,
+          "normalized_support_slack": 4.612508878929204e-11
+        }
+      ],
+      "sorted_orientation_determinant": -8.394489210149754e-13
+    },
+    {
+      "circuit": [
+        234,
+        235,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 4.913314856239091e-11,
+      "representatives": [
+        {
+          "face": [
+            234,
+            235,
+            236
+          ],
+          "vertex": 237,
+          "normalized_support_slack": 4.913314856239091e-11
+        }
+      ],
+      "sorted_orientation_determinant": -6.16958482604256e-14
+    },
+    {
+      "circuit": [
+        198,
+        237,
+        239,
+        240
+      ],
+      "minimum_normalized_support_slack": 5.3018717242215826e-11,
+      "representatives": [
+        {
+          "face": [
+            198,
+            239,
+            240
+          ],
+          "vertex": 237,
+          "normalized_support_slack": 5.3018717242215826e-11
+        }
+      ],
+      "sorted_orientation_determinant": -2.568676560945936e-11
+    },
+    {
+      "circuit": [
+        198,
+        234,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 5.324931325755693e-11,
+      "representatives": [
+        {
+          "face": [
+            198,
+            236,
+            237
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 5.324931325755693e-11
+        }
+      ],
+      "sorted_orientation_determinant": -3.483355349326273e-13
+    },
+    {
+      "circuit": [
+        228,
+        234,
+        235,
+        237
+      ],
+      "minimum_normalized_support_slack": 6.422952980939487e-11,
+      "representatives": [
+        {
+          "face": [
+            228,
+            235,
+            234
+          ],
+          "vertex": 237,
+          "normalized_support_slack": 6.422952980939487e-11
+        }
+      ],
+      "sorted_orientation_determinant": 2.485227704397277e-13
+    },
+    {
+      "circuit": [
+        228,
+        234,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 7.759388886925183e-11,
+      "representatives": [
+        {
+          "face": [
+            228,
+            237,
+            236
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 7.759388886925183e-11
+        }
+      ],
+      "sorted_orientation_determinant": 3.4560927308818104e-13
+    },
+    {
+      "circuit": [
+        198,
+        236,
+        238,
+        239
+      ],
+      "minimum_normalized_support_slack": 8.138691545329881e-11,
+      "representatives": [
+        {
+          "face": [
+            198,
+            238,
+            239
+          ],
+          "vertex": 236,
+          "normalized_support_slack": 8.138691545329881e-11
+        }
+      ],
+      "sorted_orientation_determinant": -1.0532143175967115e-11
+    },
+    {
+      "circuit": [
+        228,
+        234,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 8.505067816009619e-11,
+      "representatives": [
+        {
+          "face": [
+            228,
+            238,
+            237
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 8.505067816009619e-11
+        }
+      ],
+      "sorted_orientation_determinant": 1.288218814936917e-12
+    },
+    {
+      "circuit": [
+        198,
+        236,
+        239,
+        240
+      ],
+      "minimum_normalized_support_slack": 1.0767301439918668e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            239,
+            240
+          ],
+          "vertex": 236,
+          "normalized_support_slack": 1.0767301439918668e-10
+        }
+      ],
+      "sorted_orientation_determinant": -5.216594165618222e-11
+    },
+    {
+      "circuit": [
+        228,
+        233,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 1.1068570505392533e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            237,
+            236
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 1.1068570505392533e-10
+        }
+      ],
+      "sorted_orientation_determinant": 4.930028282912951e-13
+    },
+    {
+      "circuit": [
+        228,
+        233,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 1.1932209890776027e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            238,
+            237
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 1.1932209890776027e-10
+        }
+      ],
+      "sorted_orientation_determinant": 1.8073103179790593e-12
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 1.2534409492559944e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            237,
+            238
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 1.2534409492559944e-10
+        }
+      ],
+      "sorted_orientation_determinant": -2.281185545626269e-12
+    },
+    {
+      "circuit": [
+        228,
+        233,
+        234,
+        236
+      ],
+      "minimum_normalized_support_slack": 1.358053613767162e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            234,
+            233
+          ],
+          "vertex": 236,
+          "normalized_support_slack": 1.358053613767162e-10
+        },
+        {
+          "face": [
+            233,
+            234,
+            236
+          ],
+          "vertex": 228,
+          "normalized_support_slack": 2.1044158599606675e-10
+        }
+      ],
+      "sorted_orientation_determinant": 1.1880377916066708e-13
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        236,
+        238
+      ],
+      "minimum_normalized_support_slack": 1.554120718083909e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            233,
+            236
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 1.554120718083909e-10
+        }
+      ],
+      "sorted_orientation_determinant": -1.585323629818695e-12
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        235,
+        236
+      ],
+      "minimum_normalized_support_slack": 1.594463050463697e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            233,
+            236
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 1.594463050463697e-10
+        }
+      ],
+      "sorted_orientation_determinant": 1.6264758847940654e-12
+    },
+    {
+      "circuit": [
+        198,
+        235,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 1.6578020728330814e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            236,
+            237
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 1.6578020728330814e-10
+        }
+      ],
+      "sorted_orientation_determinant": -1.0844679984193792e-12
+    },
+    {
+      "circuit": [
+        198,
+        234,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 1.6693715999050155e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            237,
+            238
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 1.6693715999050155e-10
+        }
+      ],
+      "sorted_orientation_determinant": -3.0381542645413783e-12
+    },
+    {
+      "circuit": [
+        228,
+        235,
+        236,
+        238
+      ],
+      "minimum_normalized_support_slack": 1.7082814729514796e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            236,
+            235
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 1.7082814729514796e-10
+        }
+      ],
+      "sorted_orientation_determinant": 3.1434999901316885e-13
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        238,
+        239
+      ],
+      "minimum_normalized_support_slack": 1.7335635431111678e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            238,
+            239
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 1.7335635431111678e-10
+        }
+      ],
+      "sorted_orientation_determinant": -2.2433755140881373e-11
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        239,
+        240
+      ],
+      "minimum_normalized_support_slack": 1.9537833158513369e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            239,
+            240
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 1.9537833158513369e-10
+        }
+      ],
+      "sorted_orientation_determinant": -9.465783684416943e-11
+    },
+    {
+      "circuit": [
+        198,
+        232,
+        233,
+        236
+      ],
+      "minimum_normalized_support_slack": 2.0374962750552514e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            233,
+            236
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 2.0374962750552514e-10
+        },
+        {
+          "face": [
+            198,
+            232,
+            233
+          ],
+          "vertex": 236,
+          "normalized_support_slack": 8.554037681288626e-09
+        }
+      ],
+      "sorted_orientation_determinant": -2.078404203195864e-12
+    },
+    {
+      "circuit": [
+        198,
+        232,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 2.1474178044768824e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            236,
+            237
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 2.1474178044768824e-10
+        }
+      ],
+      "sorted_orientation_determinant": -1.4047546615146244e-12
+    },
+    {
+      "circuit": [
+        232,
+        233,
+        234,
+        236
+      ],
+      "minimum_normalized_support_slack": 2.1568375326171458e-10,
+      "representatives": [
+        {
+          "face": [
+            233,
+            234,
+            236
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 2.1568375326171458e-10
+        }
+      ],
+      "sorted_orientation_determinant": 1.217632115309346e-13
+    },
+    {
+      "circuit": [
+        198,
+        234,
+        238,
+        239
+      ],
+      "minimum_normalized_support_slack": 2.162834524340645e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            238,
+            239
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 2.162834524340645e-10
+        }
+      ],
+      "sorted_orientation_determinant": -2.7988878269252127e-11
+    },
+    {
+      "circuit": [
+        228,
+        232,
+        233,
+        234
+      ],
+      "minimum_normalized_support_slack": 2.1637151318066574e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            233,
+            232
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 9.420432021940258e-10
+        },
+        {
+          "face": [
+            228,
+            234,
+            233
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 2.1637151318066574e-10
+        }
+      ],
+      "sorted_orientation_determinant": 1.8928375470894048e-13
+    },
+    {
+      "circuit": [
+        234,
+        235,
+        236,
+        238
+      ],
+      "minimum_normalized_support_slack": 2.230003103920647e-10,
+      "representatives": [
+        {
+          "face": [
+            234,
+            235,
+            236
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 2.230003103920647e-10
+        }
+      ],
+      "sorted_orientation_determinant": -2.8001854779228905e-13
+    },
+    {
+      "circuit": [
+        233,
+        234,
+        236,
+        238
+      ],
+      "minimum_normalized_support_slack": 2.3400466025018444e-10,
+      "representatives": [
+        {
+          "face": [
+            233,
+            234,
+            236
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 2.3400466025018444e-10
+        }
+      ],
+      "sorted_orientation_determinant": -1.32106191893554e-13
+    },
+    {
+      "circuit": [
+        232,
+        234,
+        235,
+        236
+      ],
+      "minimum_normalized_support_slack": 2.3459867102265065e-10,
+      "representatives": [
+        {
+          "face": [
+            234,
+            235,
+            236
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 2.3459867102265065e-10
+        }
+      ],
+      "sorted_orientation_determinant": 2.945824586505835e-13
+    },
+    {
+      "circuit": [
+        228,
+        232,
+        234,
+        235
+      ],
+      "minimum_normalized_support_slack": 2.360368264637172e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            235,
+            234
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 2.360368264637172e-10
+        }
+      ],
+      "sorted_orientation_determinant": 9.13295284909907e-13
+    },
+    {
+      "circuit": [
+        198,
+        234,
+        239,
+        240
+      ],
+      "minimum_normalized_support_slack": 2.399666922087614e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            239,
+            240
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 2.399666922087614e-10
+        }
+      ],
+      "sorted_orientation_determinant": -1.1626021921959317e-10
+    },
+    {
+      "circuit": [
+        198,
+        239,
+        240,
+        241
+      ],
+      "minimum_normalized_support_slack": 2.488637026468632e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            239,
+            240
+          ],
+          "vertex": 241,
+          "normalized_support_slack": 8.768973436172351e-10
+        },
+        {
+          "face": [
+            198,
+            240,
+            241
+          ],
+          "vertex": 239,
+          "normalized_support_slack": 2.488637026468632e-10
+        }
+      ],
+      "sorted_orientation_determinant": -4.24843447873794e-10
+    },
+    {
+      "circuit": [
+        228,
+        234,
+        235,
+        238
+      ],
+      "minimum_normalized_support_slack": 2.536913566754547e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            235,
+            234
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 2.536913566754547e-10
+        }
+      ],
+      "sorted_orientation_determinant": 9.81605804073688e-13
+    },
+    {
+      "circuit": [
+        198,
+        237,
+        240,
+        241
+      ],
+      "minimum_normalized_support_slack": 2.5711603393109535e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            240,
+            241
+          ],
+          "vertex": 237,
+          "normalized_support_slack": 2.5711603393109535e-10
+        }
+      ],
+      "sorted_orientation_determinant": -4.389312763985192e-10
+    },
+    {
+      "circuit": [
+        198,
+        235,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 2.591286930952707e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            237,
+            238
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 2.591286930952707e-10
+        }
+      ],
+      "sorted_orientation_determinant": -4.7159839858920665e-12
+    },
+    {
+      "circuit": [
+        228,
+        232,
+        235,
+        236
+      ],
+      "minimum_normalized_support_slack": 2.6071971850231847e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            236,
+            235
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 2.6071971850231847e-10
+        }
+      ],
+      "sorted_orientation_determinant": 4.797642776522603e-13
+    },
+    {
+      "circuit": [
+        228,
+        233,
+        234,
+        237
+      ],
+      "minimum_normalized_support_slack": 2.747041871449483e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            234,
+            233
+          ],
+          "vertex": 237,
+          "normalized_support_slack": 2.747041871449483e-10
+        }
+      ],
+      "sorted_orientation_determinant": 2.4031374793941394e-13
+    },
+    {
+      "circuit": [
+        198,
+        236,
+        240,
+        241
+      ],
+      "minimum_normalized_support_slack": 2.8579909972067507e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            240,
+            241
+          ],
+          "vertex": 236,
+          "normalized_support_slack": 2.8579909972067507e-10
+        }
+      ],
+      "sorted_orientation_determinant": -4.878970975856274e-10
+    },
+    {
+      "circuit": [
+        198,
+        235,
+        238,
+        239
+      ],
+      "minimum_normalized_support_slack": 3.075526076437564e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            238,
+            239
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 3.075526076437564e-10
+        }
+      ],
+      "sorted_orientation_determinant": -3.979986696876202e-11
+    },
+    {
+      "circuit": [
+        198,
+        233,
+        240,
+        241
+      ],
+      "minimum_normalized_support_slack": 3.190739636805775e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            240,
+            241
+          ],
+          "vertex": 233,
+          "normalized_support_slack": 3.190739636805775e-10
+        }
+      ],
+      "sorted_orientation_determinant": -5.447017168262448e-10
+    },
+    {
+      "circuit": [
+        198,
+        232,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 3.290498446734306e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            237,
+            238
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 3.290498446734306e-10
+        }
+      ],
+      "sorted_orientation_determinant": -5.988504460252122e-12
+    },
+    {
+      "circuit": [
+        198,
+        238,
+        240,
+        241
+      ],
+      "minimum_normalized_support_slack": 3.2953107713730755e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            240,
+            241
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 3.2953107713730755e-10
+        }
+      ],
+      "sorted_orientation_determinant": -5.625533958253969e-10
+    },
+    {
+      "circuit": [
+        228,
+        232,
+        236,
+        237
+      ],
+      "minimum_normalized_support_slack": 3.350195567426365e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            237,
+            236
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 3.350195567426365e-10
+        }
+      ],
+      "sorted_orientation_determinant": 1.4922034084805693e-12
+    },
+    {
+      "circuit": [
+        198,
+        235,
+        239,
+        240
+      ],
+      "minimum_normalized_support_slack": 3.356497142902989e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            239,
+            240
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 3.356497142902989e-10
+        }
+      ],
+      "sorted_orientation_determinant": -1.626171906514139e-10
+    },
+    {
+      "circuit": [
+        228,
+        232,
+        237,
+        238
+      ],
+      "minimum_normalized_support_slack": 3.439551033922e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            238,
+            237
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 3.439551033922e-10
+        }
+      ],
+      "sorted_orientation_determinant": 5.209710676170771e-12
+    },
+    {
+      "circuit": [
+        198,
+        234,
+        240,
+        241
+      ],
+      "minimum_normalized_support_slack": 3.7615638130542726e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            240,
+            241
+          ],
+          "vertex": 234,
+          "normalized_support_slack": 3.7615638130542726e-10
+        }
+      ],
+      "sorted_orientation_determinant": -6.421489966284261e-10
+    },
+    {
+      "circuit": [
+        198,
+        232,
+        238,
+        239
+      ],
+      "minimum_normalized_support_slack": 3.7662622926167785e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            238,
+            239
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 3.7662622926167785e-10
+        }
+      ],
+      "sorted_orientation_determinant": -4.873856863368188e-11
+    },
+    {
+      "circuit": [
+        198,
+        232,
+        239,
+        240
+      ],
+      "minimum_normalized_support_slack": 3.9820741104128944e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            239,
+            240
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 3.9820741104128944e-10
+        }
+      ],
+      "sorted_orientation_determinant": -1.9292544624741843e-10
+    },
+    {
+      "circuit": [
+        198,
+        235,
+        240,
+        241
+      ],
+      "minimum_normalized_support_slack": 5.112104622978239e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            240,
+            241
+          ],
+          "vertex": 235,
+          "normalized_support_slack": 5.112104622978239e-10
+        }
+      ],
+      "sorted_orientation_determinant": -8.727042809367164e-10
+    },
+    {
+      "circuit": [
+        198,
+        232,
+        240,
+        241
+      ],
+      "minimum_normalized_support_slack": 5.187011492106313e-10,
+      "representatives": [
+        {
+          "face": [
+            198,
+            240,
+            241
+          ],
+          "vertex": 232,
+          "normalized_support_slack": 5.187011492106313e-10
+        }
+      ],
+      "sorted_orientation_determinant": -8.854918849056088e-10
+    },
+    {
+      "circuit": [
+        228,
+        233,
+        234,
+        238
+      ],
+      "minimum_normalized_support_slack": 7.193395642086889e-10,
+      "representatives": [
+        {
+          "face": [
+            228,
+            234,
+            233
+          ],
+          "vertex": 238,
+          "normalized_support_slack": 7.193395642086889e-10
+        }
+      ],
+      "sorted_orientation_determinant": 6.292848628899868e-13
+    }
+  ],
+  "verdict": "READ_ONLY_NEAR_TOPOLOGY_CIRCUIT_AUDIT_PASS"
+}

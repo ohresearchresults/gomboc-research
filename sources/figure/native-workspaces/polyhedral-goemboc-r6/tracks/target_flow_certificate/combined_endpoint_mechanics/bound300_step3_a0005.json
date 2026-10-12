@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "source": "bound300_turn_a0007.csv",
+  "lp_json": "bound300_turn_a0007_lp.json",
+  "alpha": 0.0005,
+  "lp_delta": 0.9688580052720805,
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "f_vector": [
+    61,
+    161,
+    102
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "faces_match": true,
+  "removed_faces": [],
+  "added_faces": [],
+  "all_vertices_active": true,
+  "lost_vertices": [],
+  "all_forced_rails_present": true,
+  "missing_forced_rails": [],
+  "topology_margin": 7.121619491345932e-08,
+  "death_ratios": {
+    "('face', (7, 8, 245, 246), (8, 246))": 0.9984928064579874,
+    "('vertex', 54, 1)": 0.9994625674744442,
+    "('edge', (6, 7), 'one_minus_t')": 0.9981361526947867,
+    "('edge', (9, 10), 't')": 0.9995010145045843
+  },
+  "missing_selected_guards": [],
+  "minimum_signed_guard_ratio": 0.005604608804981868,
+  "minimum_signed_guard": {
+    "key": "('edge', (13, 262), 'beta1')",
+    "kind": "nonsaddle_edge_witness",
+    "baseline_value": -867310.2159819662,
+    "new_value": -4860.934473143254
+  }
+}

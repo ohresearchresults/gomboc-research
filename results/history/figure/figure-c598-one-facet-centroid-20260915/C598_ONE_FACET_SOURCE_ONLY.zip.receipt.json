@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-15T16:22:10.755Z",
+  "file": "C598_ONE_FACET_SOURCE_ONLY.zip",
+  "bytes": 60956,
+  "sha256": "0ca77047fdfb6d9419ee9a391b5baaa6c170b3a13c145ffbb6ccb35de6442be5",
+  "sourceConversation": "6aa9667e-451c-83eb-9007-fdc0e643b5d3",
+  "sourceMessage": "3f9d9d25-c3af-47cc-99be-065aa9aea8d3",
+  "method": "Observed first-party sandbox download, same-origin authenticated endpoint, no redirects; author hash/length and local byte readback verified"
+}

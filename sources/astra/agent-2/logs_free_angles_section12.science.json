@@ -1,0 +1,4006 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 30,
+        "U": 34,
+        "Pmax": 0.05222445401149039,
+        "Qmax": 0.0780892089903996,
+        "ucost": 2.6346080378859718,
+        "scost": 2.665117876020492,
+        "objective": 5.299725913906464,
+        "minimum_noncontact": 2.1450339509822836e-05,
+        "it": 0,
+        "seconds": 0.025722742080688477,
+        "trust": 0.04
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 20,
+        "Pmax": 0.14097409467800132,
+        "Qmax": 0.12912748649927172,
+        "ucost": 1.4865724855020317,
+        "scost": 1.7419262421584216,
+        "objective": 3.2284987276604533,
+        "minimum_noncontact": 5.536205221750121e-09,
+        "it": 10,
+        "seconds": 3.4136948585510254,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.3033807649908099,
+        "Qmax": 0.24031277795614214,
+        "ucost": 0.6510554819111236,
+        "scost": 1.3616179484049518,
+        "objective": 2.0126734303160756,
+        "minimum_noncontact": 1.0828834269500429e-09,
+        "it": 20,
+        "seconds": 7.005170822143555,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 14,
+        "U": 15,
+        "Pmax": 0.2759309691803778,
+        "Qmax": 0.37878068715485114,
+        "ucost": 0.5391161882179559,
+        "scost": 1.0062073398442721,
+        "objective": 1.545323528062228,
+        "minimum_noncontact": 7.237892886620895e-09,
+        "it": 30,
+        "seconds": 10.856374025344849,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 18,
+        "Pmax": 0.2402048892116698,
+        "Qmax": 0.5113476476143829,
+        "ucost": 0.5136279787497311,
+        "scost": 0.7212566622502853,
+        "objective": 1.2348846410000163,
+        "minimum_noncontact": 5.569274863130022e-09,
+        "it": 40,
+        "seconds": 14.351892948150635,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 22,
+        "Pmax": 0.18929628685148256,
+        "Qmax": 0.5040270784430854,
+        "ucost": 0.4604014109837267,
+        "scost": 0.7135472581345678,
+        "objective": 1.1739486691182945,
+        "minimum_noncontact": 8.904776657169835e-09,
+        "it": 50,
+        "seconds": 17.971307039260864,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 19,
+        "Pmax": 0.16224849534800176,
+        "Qmax": 0.49492942062392986,
+        "ucost": 0.42028065384091495,
+        "scost": 0.7070913117111016,
+        "objective": 1.1273719655520167,
+        "minimum_noncontact": 1.0822189280124994e-09,
+        "it": 60,
+        "seconds": 21.41828179359436,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 15,
+        "U": 21,
+        "Pmax": 0.14111956955917931,
+        "Qmax": 0.5122574711192476,
+        "ucost": 0.38610318269609134,
+        "scost": 0.718666274231088,
+        "objective": 1.1047694569271793,
+        "minimum_noncontact": 1.8434140993766849e-09,
+        "it": 70,
+        "seconds": 25.49600887298584,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 13,
+        "U": 22,
+        "Pmax": 0.12942025210567812,
+        "Qmax": 0.5274274485490663,
+        "ucost": 0.369493977859573,
+        "scost": 0.7285212682910691,
+        "objective": 1.098015246150642,
+        "minimum_noncontact": 1.881566156132922e-09,
+        "it": 80,
+        "seconds": 29.04847002029419,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 24,
+        "Pmax": 0.11382297669802684,
+        "Qmax": 0.5436261136180909,
+        "ucost": 0.3488159199268058,
+        "scost": 0.7386367608634833,
+        "objective": 1.0874526807902891,
+        "minimum_noncontact": 3.194624036270283e-09,
+        "it": 90,
+        "seconds": 33.03873682022095,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 22,
+        "Pmax": 0.10602743930692268,
+        "Qmax": 0.5546142218605454,
+        "ucost": 0.3361022114525298,
+        "scost": 0.7456461166686554,
+        "objective": 1.0817483281211853,
+        "minimum_noncontact": 2.009484432292018e-09,
+        "it": 100,
+        "seconds": 39.28370690345764,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 22,
+        "Pmax": 0.10009621042592215,
+        "Qmax": 0.5625595803150377,
+        "ucost": 0.3277915063675344,
+        "scost": 0.7508295176750849,
+        "objective": 1.0786210240426193,
+        "minimum_noncontact": 2.056491961095834e-09,
+        "it": 110,
+        "seconds": 45.33482789993286,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 20,
+        "Pmax": 0.09611053700161035,
+        "Qmax": 0.5689146246248391,
+        "ucost": 0.32100398875287306,
+        "scost": 0.7551504735772326,
+        "objective": 1.0761544623301056,
+        "minimum_noncontact": 2.077075781131092e-09,
+        "it": 120,
+        "seconds": 52.02456879615784,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 22,
+        "Pmax": 0.09163485644229521,
+        "Qmax": 0.5770110673762995,
+        "ucost": 0.3133722073590844,
+        "scost": 0.7606596616123057,
+        "objective": 1.0740318689713901,
+        "minimum_noncontact": 3.454126089294119e-09,
+        "it": 130,
+        "seconds": 59.086220026016235,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.08292487116272866,
+        "Qmax": 0.5926353323475031,
+        "ucost": 0.2996104932899167,
+        "scost": 0.7708983131174137,
+        "objective": 1.0705088064073305,
+        "minimum_noncontact": 3.605925735056326e-09,
+        "it": 140,
+        "seconds": 66.08255577087402,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 14,
+        "U": 24,
+        "Pmax": 0.07655615012662312,
+        "Qmax": 0.6028408927968814,
+        "ucost": 0.29009745740119525,
+        "scost": 0.7775983781895396,
+        "objective": 1.0676958355907349,
+        "minimum_noncontact": 3.708034858569076e-09,
+        "it": 150,
+        "seconds": 74.14952874183655,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 13,
+        "U": 22,
+        "Pmax": 0.06856536400790784,
+        "Qmax": 0.617393608912906,
+        "ucost": 0.2756624884518861,
+        "scost": 0.7875208412610137,
+        "objective": 1.0631833297128999,
+        "minimum_noncontact": 2.3426580392107136e-09,
+        "it": 160,
+        "seconds": 81.86307978630066,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 13,
+        "U": 23,
+        "Pmax": 0.06389599388316745,
+        "Qmax": 0.6254218443336022,
+        "ucost": 0.26712131957486174,
+        "scost": 0.7923824882443609,
+        "objective": 1.0595038078192225,
+        "minimum_noncontact": 2.3610243076810386e-09,
+        "it": 170,
+        "seconds": 88.73166370391846,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 19,
+        "Pmax": 0.05749935064156943,
+        "Qmax": 0.6386281528677372,
+        "ucost": 0.2565886521714498,
+        "scost": 0.8000963513528102,
+        "objective": 1.05668500352426,
+        "minimum_noncontact": 2.3784773342469832e-09,
+        "it": 180,
+        "seconds": 92.0386438369751,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 18,
+        "Pmax": 0.05152208613857668,
+        "Qmax": 0.6499106994040654,
+        "ucost": 0.24405410883468173,
+        "scost": 0.807353283013686,
+        "objective": 1.0514073918483677,
+        "minimum_noncontact": 2.397088108207827e-09,
+        "it": 190,
+        "seconds": 95.22633862495422,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 21,
+        "Pmax": 0.047367858385210564,
+        "Qmax": 0.6592028735496639,
+        "ucost": 0.23464557505946582,
+        "scost": 0.8134926329961489,
+        "objective": 1.0481382080556148,
+        "minimum_noncontact": 3.9610879183040476e-09,
+        "it": 200,
+        "seconds": 97.89189887046814,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 20,
+        "Pmax": 0.04424743863982589,
+        "Qmax": 0.6665931660618415,
+        "ucost": 0.22743303387681918,
+        "scost": 0.8181836957122866,
+        "objective": 1.0456167295891057,
+        "minimum_noncontact": 3.7724370531587845e-09,
+        "it": 210,
+        "seconds": 100.34080481529236,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 24,
+        "Pmax": 0.04190401131263475,
+        "Qmax": 0.6725499304607302,
+        "ucost": 0.22180139046470024,
+        "scost": 0.8212615211150656,
+        "objective": 1.0430629115797658,
+        "minimum_noncontact": 2.4349257016397456e-09,
+        "it": 220,
+        "seconds": 103.36529588699341,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 22,
+        "Pmax": 0.03916306751429885,
+        "Qmax": 0.674311873669138,
+        "ucost": 0.21545518985125417,
+        "scost": 0.8230471158009872,
+        "objective": 1.0385023056522413,
+        "minimum_noncontact": 2.8407000012196173e-09,
+        "it": 230,
+        "seconds": 106.51378297805786,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 21,
+        "Pmax": 0.03751009184637975,
+        "Qmax": 0.6720742689512729,
+        "ucost": 0.21088431757893344,
+        "scost": 0.8210353803400597,
+        "objective": 1.031919697918993,
+        "minimum_noncontact": 2.5200436464285313e-09,
+        "it": 240,
+        "seconds": 110.21686291694641,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 21,
+        "Pmax": 0.03669592828166128,
+        "Qmax": 0.6738349449243913,
+        "ucost": 0.20780400275284538,
+        "scost": 0.8219619760520303,
+        "objective": 1.0297659788048756,
+        "minimum_noncontact": 2.3954840999942976e-09,
+        "it": 250,
+        "seconds": 113.94380068778992,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 24,
+        "Pmax": 0.0362704104932031,
+        "Qmax": 0.6751757408944928,
+        "ucost": 0.20656156581064977,
+        "scost": 0.8224554821430399,
+        "objective": 1.0290170479536895,
+        "minimum_noncontact": 2.344523241691431e-09,
+        "it": 260,
+        "seconds": 117.55109786987305,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 19,
+        "Pmax": 0.03568345331873144,
+        "Qmax": 0.6773468550291396,
+        "ucost": 0.20482432702180653,
+        "scost": 0.8235877258337884,
+        "objective": 1.028412052855595,
+        "minimum_noncontact": 2.338606380650733e-09,
+        "it": 270,
+        "seconds": 121.05029296875,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 21,
+        "Pmax": 0.03508709011215419,
+        "Qmax": 0.6795508251734216,
+        "ucost": 0.20268623546285558,
+        "scost": 0.8251592994410256,
+        "objective": 1.0278455349038813,
+        "minimum_noncontact": 2.30228326542137e-09,
+        "it": 280,
+        "seconds": 124.7897777557373,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 22,
+        "Pmax": 0.03461459954125671,
+        "Qmax": 0.6814694513740778,
+        "ucost": 0.20125777317046742,
+        "scost": 0.8261680477140028,
+        "objective": 1.0274258208844702,
+        "minimum_noncontact": 2.308878187133378e-09,
+        "it": 290,
+        "seconds": 128.4080138206482,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 23,
+        "Pmax": 0.03429829980089957,
+        "Qmax": 0.6828490738189457,
+        "ucost": 0.20019705013053524,
+        "scost": 0.8268473735222053,
+        "objective": 1.0270444236527405,
+        "minimum_noncontact": 2.3183246453030887e-09,
+        "it": 300,
+        "seconds": 131.793879032135,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 22,
+        "Pmax": 0.034057584313845785,
+        "Qmax": 0.6840016278014461,
+        "ucost": 0.1993231066932004,
+        "scost": 0.8274889742177296,
+        "objective": 1.02681208091093,
+        "minimum_noncontact": 2.366035841205428e-09,
+        "it": 310,
+        "seconds": 135.1439917087555,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 13,
+        "U": 23,
+        "Pmax": 0.033809274383398806,
+        "Qmax": 0.6851100169645407,
+        "ucost": 0.19850437414969999,
+        "scost": 0.8281293780238286,
+        "objective": 1.0266337521735285,
+        "minimum_noncontact": 2.301422657443634e-09,
+        "it": 320,
+        "seconds": 138.3218138217926,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 21,
+        "Pmax": 0.033646936206068276,
+        "Qmax": 0.6858870126455363,
+        "ucost": 0.19795176887181393,
+        "scost": 0.8285513566789617,
+        "objective": 1.0265031255507757,
+        "minimum_noncontact": 2.383289980235496e-09,
+        "it": 330,
+        "seconds": 141.49908089637756,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 21,
+        "Pmax": 0.033536351759183264,
+        "Qmax": 0.686396470150364,
+        "ucost": 0.19759970455651435,
+        "scost": 0.8288108404197275,
+        "objective": 1.026410544976242,
+        "minimum_noncontact": 2.283244725592036e-09,
+        "it": 340,
+        "seconds": 145.2055459022522,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 20,
+        "Pmax": 0.0334274036272544,
+        "Qmax": 0.6868564143027566,
+        "ucost": 0.1972711340818418,
+        "scost": 0.8290595308473853,
+        "objective": 1.026330664929227,
+        "minimum_noncontact": 2.3837211059273125e-09,
+        "it": 350,
+        "seconds": 148.26883482933044,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 20,
+        "Pmax": 0.033321591742256455,
+        "Qmax": 0.6873621254160536,
+        "ucost": 0.1969281345542783,
+        "scost": 0.8293505921214424,
+        "objective": 1.0262787266757207,
+        "minimum_noncontact": 2.2746888922658503e-09,
+        "it": 360,
+        "seconds": 152.44178080558777,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 18,
+        "Pmax": 0.03321325248046773,
+        "Qmax": 0.6878884448242767,
+        "ucost": 0.1965657011925395,
+        "scost": 0.8296524342043137,
+        "objective": 1.0262181353968531,
+        "minimum_noncontact": 2.3557219380649054e-09,
+        "it": 370,
+        "seconds": 155.60462474822998,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 19,
+        "Pmax": 0.03308353007266046,
+        "Qmax": 0.6885216625576756,
+        "ucost": 0.1961386834432618,
+        "scost": 0.830008794266943,
+        "objective": 1.0261474777102046,
+        "minimum_noncontact": 2.2699196523781793e-09,
+        "it": 380,
+        "seconds": 159.02109169960022,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 21,
+        "Pmax": 0.03295992136580443,
+        "Qmax": 0.6890965238328756,
+        "ucost": 0.19575320536522617,
+        "scost": 0.8303581111002161,
+        "objective": 1.0261113164654423,
+        "minimum_noncontact": 2.2663852439840753e-09,
+        "it": 390,
+        "seconds": 162.2914698123932,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 21,
+        "Pmax": 0.03284175260135816,
+        "Qmax": 0.6896610597640379,
+        "ucost": 0.19536807622366908,
+        "scost": 0.8306875762244962,
+        "objective": 1.0260556524481652,
+        "minimum_noncontact": 2.2645460340119868e-09,
+        "it": 400,
+        "seconds": 165.53863668441772,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 18,
+        "Pmax": 0.03271218805249502,
+        "Qmax": 0.6902687041183764,
+        "ucost": 0.1949576480219698,
+        "scost": 0.8310443236241329,
+        "objective": 1.0260019716461026,
+        "minimum_noncontact": 2.257820572191886e-09,
+        "it": 410,
+        "seconds": 169.87511086463928,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 19,
+        "Pmax": 0.03260463444401164,
+        "Qmax": 0.69080217507307,
+        "ucost": 0.19460946896413267,
+        "scost": 0.8313544405009315,
+        "objective": 1.025963909465064,
+        "minimum_noncontact": 2.2453867605154976e-09,
+        "it": 420,
+        "seconds": 174.48432683944702,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 18,
+        "Pmax": 0.03253449167700749,
+        "Qmax": 0.6910226854380922,
+        "ucost": 0.19440322205056745,
+        "scost": 0.8314582355033787,
+        "objective": 1.0258614575539462,
+        "minimum_noncontact": 2.346732893036094e-09,
+        "it": 430,
+        "seconds": 179.5089259147644,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 19,
+        "Pmax": 0.03250242479225382,
+        "Qmax": 0.6910643073861213,
+        "ucost": 0.19430848177563081,
+        "scost": 0.8314853823001194,
+        "objective": 1.0257938640757502,
+        "minimum_noncontact": 2.251884179689285e-09,
+        "it": 440,
+        "seconds": 184.64052987098694,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 18,
+        "Pmax": 0.03226331031003852,
+        "Qmax": 0.6918521607533709,
+        "ucost": 0.19367567238665873,
+        "scost": 0.831954295080304,
+        "objective": 1.0256299674669629,
+        "minimum_noncontact": 2.3405256395114965e-09,
+        "it": 450,
+        "seconds": 190.6530487537384,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 18,
+        "Pmax": 0.0320646080089978,
+        "Qmax": 0.6927361349186615,
+        "ucost": 0.1930305877369615,
+        "scost": 0.8325011339311781,
+        "objective": 1.0255317216681397,
+        "minimum_noncontact": 2.270645596311092e-09,
+        "it": 460,
+        "seconds": 196.52067399024963,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 18,
+        "Pmax": 0.03193371280830596,
+        "Qmax": 0.6933233721336731,
+        "ucost": 0.19261771257788987,
+        "scost": 0.8328307916788408,
+        "objective": 1.0254485042567307,
+        "minimum_noncontact": 2.3582675709445126e-09,
+        "it": 470,
+        "seconds": 202.4571578502655,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.03176610137585308,
+        "Qmax": 0.6941405189418266,
+        "ucost": 0.19208053323847973,
+        "scost": 0.8332865791607226,
+        "objective": 1.0253671123992023,
+        "minimum_noncontact": 2.2370521774089287e-09,
+        "it": 480,
+        "seconds": 208.450181722641,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.0316411888103807,
+        "Qmax": 0.6947561571988754,
+        "ucost": 0.19167289150055097,
+        "scost": 0.8336433372473545,
+        "objective": 1.0253162287479054,
+        "minimum_noncontact": 2.22889854051104e-09,
+        "it": 490,
+        "seconds": 216.3402669429779,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.031570853995489395,
+        "Qmax": 0.6951065191909549,
+        "ucost": 0.19143948914478562,
+        "scost": 0.8338442840085831,
+        "objective": 1.0252837731533688,
+        "minimum_noncontact": 2.219364228481932e-09,
+        "it": 500,
+        "seconds": 226.90762281417847,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 16,
+        "Pmax": 0.0314612853158081,
+        "Qmax": 0.6956479949367391,
+        "ucost": 0.19109109823557763,
+        "scost": 0.8341567963983219,
+        "objective": 1.0252478946338994,
+        "minimum_noncontact": 2.313449888812519e-09,
+        "it": 510,
+        "seconds": 236.6213698387146,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.031391966484428886,
+        "Qmax": 0.6959930479028793,
+        "ucost": 0.1908745715790564,
+        "scost": 0.8343496425714206,
+        "objective": 1.025224214150477,
+        "minimum_noncontact": 2.205451112453716e-09,
+        "it": 520,
+        "seconds": 247.21080088615417,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.031348305483724,
+        "Qmax": 0.6962232538429622,
+        "ucost": 0.19072226565425024,
+        "scost": 0.8344832697742361,
+        "objective": 1.0252055354284864,
+        "minimum_noncontact": 2.408964151547018e-09,
+        "it": 530,
+        "seconds": 257.4600648880005,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.031283384268953766,
+        "Qmax": 0.6965390601239609,
+        "ucost": 0.19052611997908242,
+        "scost": 0.8346674505262618,
+        "objective": 1.025193570505344,
+        "minimum_noncontact": 2.1939308198470618e-09,
+        "it": 540,
+        "seconds": 266.41533064842224,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 56,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.03125720680825131,
+        "Qmax": 0.6966805492183324,
+        "ucost": 0.19043219861185637,
+        "scost": 0.8347447112722332,
+        "objective": 1.0251769098840895,
+        "minimum_noncontact": 2.288757657207564e-09,
+        "it": 550,
+        "seconds": 275.65952372550964,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 57,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 13,
+        "Pmax": 0.03122375047430311,
+        "Qmax": 0.6968814223166947,
+        "ucost": 0.1903055071228241,
+        "scost": 0.8348574758701772,
+        "objective": 1.0251629829930013,
+        "minimum_noncontact": 2.292338395132159e-09,
+        "it": 560,
+        "seconds": 283.44838285446167,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 58,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.031221641756850448,
+        "Qmax": 0.6968647670107264,
+        "ucost": 0.19030928125549978,
+        "scost": 0.8348444186420184,
+        "objective": 1.0251536998975181,
+        "minimum_noncontact": 2.1864473000549864e-09,
+        "it": 570,
+        "seconds": 291.79523396492004,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 59,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.031208324660229134,
+        "Qmax": 0.6969331488411254,
+        "ucost": 0.1902648765343459,
+        "scost": 0.8348836993855675,
+        "objective": 1.0251485759199135,
+        "minimum_noncontact": 2.187952800871734e-09,
+        "it": 580,
+        "seconds": 300.6679790019989,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 60,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.031199720751556137,
+        "Qmax": 0.6969793991702963,
+        "ucost": 0.19023571293748848,
+        "scost": 0.8349082217573282,
+        "objective": 1.0251439346948166,
+        "minimum_noncontact": 2.284445488874331e-09,
+        "it": 590,
+        "seconds": 310.5449547767639,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 61,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.031197163074971283,
+        "Qmax": 0.6969877965368116,
+        "ucost": 0.1902280995712195,
+        "scost": 0.8349098884913534,
+        "objective": 1.0251379880625728,
+        "minimum_noncontact": 3.83777505747284e-09,
+        "it": 600,
+        "seconds": 319.58519077301025,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 62,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.031178121778922048,
+        "Qmax": 0.6970712340362962,
+        "ucost": 0.19017288861595608,
+        "scost": 0.8349559246876436,
+        "objective": 1.0251288133035996,
+        "minimum_noncontact": 2.1844336275452e-09,
+        "it": 610,
+        "seconds": 329.20687675476074,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 63,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.031180147146001782,
+        "Qmax": 0.6970668574977668,
+        "ucost": 0.190171118745231,
+        "scost": 0.834952714947946,
+        "objective": 1.025123833693177,
+        "minimum_noncontact": 2.284512828184281e-09,
+        "it": 620,
+        "seconds": 338.1720860004425,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 64,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.03120575855009358,
+        "Qmax": 0.6969835590875373,
+        "ucost": 0.19021507714291166,
+        "scost": 0.834902830063336,
+        "objective": 1.0251179072062477,
+        "minimum_noncontact": 2.1882555385760045e-09,
+        "it": 630,
+        "seconds": 345.62761092185974,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 65,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.031217653136278212,
+        "Qmax": 0.6969329048121026,
+        "ucost": 0.1902392616828618,
+        "scost": 0.8348718341937846,
+        "objective": 1.0251110958766465,
+        "minimum_noncontact": 2.188329521182672e-09,
+        "it": 640,
+        "seconds": 354.4408497810364,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 66,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.031233494229065118,
+        "Qmax": 0.6968491069851508,
+        "ucost": 0.19028699718563472,
+        "scost": 0.8348195270658508,
+        "objective": 1.0251065242514856,
+        "minimum_noncontact": 2.1926242021865464e-09,
+        "it": 650,
+        "seconds": 363.9382679462433,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 67,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.03122053745711561,
+        "Qmax": 0.6967905087359645,
+        "ucost": 0.19026562958679197,
+        "scost": 0.8347955086793212,
+        "objective": 1.0250611382661132,
+        "minimum_noncontact": 2.2811445058522268e-09,
+        "it": 660,
+        "seconds": 372.4454209804535,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 68,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 16,
+        "Pmax": 0.03112203060093883,
+        "Qmax": 0.6971329679716809,
+        "ucost": 0.19001173845041433,
+        "scost": 0.8350158200846504,
+        "objective": 1.0250275585350648,
+        "minimum_noncontact": 2.1501947338477925e-09,
+        "it": 670,
+        "seconds": 381.6421627998352,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 69,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 19,
+        "Pmax": 0.03105117693102402,
+        "Qmax": 0.6974379120724334,
+        "ucost": 0.18979527596015905,
+        "scost": 0.8351956804643299,
+        "objective": 1.024990956424489,
+        "minimum_noncontact": 2.1387479030057978e-09,
+        "it": 680,
+        "seconds": 390.4873569011688,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 70,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.031128882237258668,
+        "Qmax": 0.6969930185669384,
+        "ucost": 0.1900419260185479,
+        "scost": 0.8349244644812568,
+        "objective": 1.0249663904998048,
+        "minimum_noncontact": 2.1488449070188464e-09,
+        "it": 690,
+        "seconds": 399.52602982521057,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 71,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 14,
+        "Pmax": 0.031204001599085533,
+        "Qmax": 0.6966133357005714,
+        "ucost": 0.19025194490640543,
+        "scost": 0.8346960670707235,
+        "objective": 1.024948011977129,
+        "minimum_noncontact": 2.1546745248608833e-09,
+        "it": 700,
+        "seconds": 403.8275818824768,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 72,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.03127689826959159,
+        "Qmax": 0.6962690869805778,
+        "ucost": 0.19044639957173376,
+        "scost": 0.8344910448357995,
+        "objective": 1.0249374444075332,
+        "minimum_noncontact": 2.16369766185904e-09,
+        "it": 710,
+        "seconds": 407.10605788230896,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 73,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 15,
+        "Pmax": 0.03133065467977004,
+        "Qmax": 0.6959902111844046,
+        "ucost": 0.19059851770881348,
+        "scost": 0.8343273737567846,
+        "objective": 1.024925891465598,
+        "minimum_noncontact": 1.805898855325565e-09,
+        "it": 720,
+        "seconds": 409.79242277145386,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 74,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.0313356194925398,
+        "Qmax": 0.6959799482742441,
+        "ucost": 0.19059598592582755,
+        "scost": 0.8343139526518,
+        "objective": 1.0249099385776275,
+        "minimum_noncontact": 2.167268729766696e-09,
+        "it": 730,
+        "seconds": 412.5455627441406,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 75,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 16,
+        "Pmax": 0.03133366249059458,
+        "Qmax": 0.6959764115514911,
+        "ucost": 0.1905866374173988,
+        "scost": 0.834310029224664,
+        "objective": 1.024896666642063,
+        "minimum_noncontact": 1.2083872125182384e-09,
+        "it": 740,
+        "seconds": 415.334135055542,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 76,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 14,
+        "Pmax": 0.031326471196811076,
+        "Qmax": 0.6960294473067735,
+        "ucost": 0.19054549190794276,
+        "scost": 0.8343385674978365,
+        "objective": 1.0248840594057793,
+        "minimum_noncontact": 1.2108923897254054e-09,
+        "it": 750,
+        "seconds": 418.39398980140686,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 77,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.03132770816667851,
+        "Qmax": 0.6960018281751346,
+        "ucost": 0.19055768995290828,
+        "scost": 0.8343189310256107,
+        "objective": 1.024876620978519,
+        "minimum_noncontact": 2.1765493648408644e-09,
+        "it": 760,
+        "seconds": 421.48733592033386,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 78,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.031317330788594284,
+        "Qmax": 0.6960608855465501,
+        "ucost": 0.19051540311714427,
+        "scost": 0.8343523143597552,
+        "objective": 1.0248677174768994,
+        "minimum_noncontact": 2.1633994956596738e-09,
+        "it": 770,
+        "seconds": 424.5438587665558,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 79,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.03131694161087758,
+        "Qmax": 0.6960569945710926,
+        "ucost": 0.19051188811756295,
+        "scost": 0.8343484903165018,
+        "objective": 1.0248603784340649,
+        "minimum_noncontact": 1.2157302375995842e-09,
+        "it": 780,
+        "seconds": 427.3607597351074,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 80,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.03131277589541968,
+        "Qmax": 0.6960739908408194,
+        "ucost": 0.19049602664999635,
+        "scost": 0.8343577329451146,
+        "objective": 1.024853759595111,
+        "minimum_noncontact": 1.21650649637891e-09,
+        "it": 790,
+        "seconds": 430.41764283180237,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 81,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 14,
+        "Pmax": 0.03130700750185816,
+        "Qmax": 0.6960903596387185,
+        "ucost": 0.19047437118400076,
+        "scost": 0.834371434060155,
+        "objective": 1.0248458052441558,
+        "minimum_noncontact": 2.1654919195653e-09,
+        "it": 800,
+        "seconds": 433.2382028102875,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 82,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.03129692729610714,
+        "Qmax": 0.6961192685808294,
+        "ucost": 0.19043546328619174,
+        "scost": 0.8343914088519793,
+        "objective": 1.024826872138171,
+        "minimum_noncontact": 2.162607192222103e-09,
+        "it": 810,
+        "seconds": 436.77140188217163,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 83,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.03129488230292681,
+        "Qmax": 0.6960838587234915,
+        "ucost": 0.19043875021592307,
+        "scost": 0.8343668960698952,
+        "objective": 1.0248056462858184,
+        "minimum_noncontact": 2.156299428911936e-09,
+        "it": 820,
+        "seconds": 441.5324947834015,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 84,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 14,
+        "Pmax": 0.03129583133409416,
+        "Qmax": 0.6960467056723455,
+        "ucost": 0.190435071660388,
+        "scost": 0.834352227190649,
+        "objective": 1.0247872988510371,
+        "minimum_noncontact": 2.2573518056185213e-09,
+        "it": 830,
+        "seconds": 445.2286777496338,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 85,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.031287640658480484,
+        "Qmax": 0.6959656836958005,
+        "ucost": 0.19045012522714488,
+        "scost": 0.8343022874147001,
+        "objective": 1.024752412641845,
+        "minimum_noncontact": 2.1569276427914005e-09,
+        "it": 840,
+        "seconds": 448.693719625473,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 86,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.0313051630763281,
+        "Qmax": 0.695834505387226,
+        "ucost": 0.19050502477358375,
+        "scost": 0.8342197335154682,
+        "objective": 1.024724758289052,
+        "minimum_noncontact": 2.1561765907466395e-09,
+        "it": 850,
+        "seconds": 452.82503175735474,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 87,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.03130320777590959,
+        "Qmax": 0.6958666509784281,
+        "ucost": 0.1904714918198664,
+        "scost": 0.8342362565679411,
+        "objective": 1.0247077483878075,
+        "minimum_noncontact": 2.1548759247907277e-09,
+        "it": 860,
+        "seconds": 456.4544267654419,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 88,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.03130787366830403,
+        "Qmax": 0.6958006463092953,
+        "ucost": 0.19049965740161987,
+        "scost": 0.8341936944804574,
+        "objective": 1.0246933518820773,
+        "minimum_noncontact": 2.1540185255197456e-09,
+        "it": 870,
+        "seconds": 459.7763147354126,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 89,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 14,
+        "Pmax": 0.03131304374705841,
+        "Qmax": 0.6957677384295246,
+        "ucost": 0.1905098195663155,
+        "scost": 0.8341737103708325,
+        "objective": 1.024683529937148,
+        "minimum_noncontact": 2.248331240166809e-09,
+        "it": 880,
+        "seconds": 462.93552589416504,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 90,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.0313159284198225,
+        "Qmax": 0.6957365995697314,
+        "ucost": 0.1905200693994034,
+        "scost": 0.8341497618901283,
+        "objective": 1.0246698312895317,
+        "minimum_noncontact": 2.2472727734682103e-09,
+        "it": 890,
+        "seconds": 465.77839183807373,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 91,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 13,
+        "Pmax": 0.031321297746498764,
+        "Qmax": 0.6957037774901037,
+        "ucost": 0.19053358160284375,
+        "scost": 0.8341275237252641,
+        "objective": 1.0246611053281078,
+        "minimum_noncontact": 2.2468622350547535e-09,
+        "it": 900,
+        "seconds": 468.51197385787964,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 92,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 13,
+        "Pmax": 0.03132436188217731,
+        "Qmax": 0.6956655993692027,
+        "ucost": 0.1905465006833855,
+        "scost": 0.8341004701770919,
+        "objective": 1.0246469708604773,
+        "minimum_noncontact": 4.769224552316245e-09,
+        "it": 910,
+        "seconds": 471.1843228340149,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 93,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 12,
+        "Pmax": 0.03132533529455351,
+        "Qmax": 0.6956616464536994,
+        "ucost": 0.19054234987159735,
+        "scost": 0.8340956847139546,
+        "objective": 1.024638034585552,
+        "minimum_noncontact": 2.153699069299533e-09,
+        "it": 920,
+        "seconds": 473.8702688217163,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 94,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 12,
+        "Pmax": 0.03133438593624827,
+        "Qmax": 0.6956021967135242,
+        "ucost": 0.1905674437577138,
+        "scost": 0.8340581669300099,
+        "objective": 1.0246256106877236,
+        "minimum_noncontact": 3.8324875844977584e-09,
+        "it": 930,
+        "seconds": 476.58229875564575,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 95,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.0313357531972049,
+        "Qmax": 0.695587147722106,
+        "ucost": 0.19056753043689942,
+        "scost": 0.8340480497836126,
+        "objective": 1.024615580220512,
+        "minimum_noncontact": 4.777221937745603e-09,
+        "it": 940,
+        "seconds": 479.3317198753357,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 96,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.03132960263843255,
+        "Qmax": 0.695608203883451,
+        "ucost": 0.19054627875699262,
+        "scost": 0.8340605204069949,
+        "objective": 1.0246067991639876,
+        "minimum_noncontact": 2.244803739035946e-09,
+        "it": 950,
+        "seconds": 481.9591898918152,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 97,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.03133360795781759,
+        "Qmax": 0.6955846491149169,
+        "ucost": 0.19055182585653868,
+        "scost": 0.8340483301396984,
+        "objective": 1.024600155996237,
+        "minimum_noncontact": 2.1498606923374662e-09,
+        "it": 960,
+        "seconds": 484.642217874527,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 98,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 13,
+        "Pmax": 0.0313454220357801,
+        "Qmax": 0.6955059666395013,
+        "ucost": 0.19059095379806035,
+        "scost": 0.8340021347852877,
+        "objective": 1.024593088583348,
+        "minimum_noncontact": 2.2462804001916904e-09,
+        "it": 970,
+        "seconds": 487.41054582595825,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 99,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.0313388793730771,
+        "Qmax": 0.6955434929125757,
+        "ucost": 0.19055936730991807,
+        "scost": 0.8340223112157223,
+        "objective": 1.0245816785256405,
+        "minimum_noncontact": 2.2439014685760473e-09,
+        "it": 980,
+        "seconds": 490.4082758426666,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 100,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 12,
+        "Pmax": 0.03133812778772799,
+        "Qmax": 0.6955453281076992,
+        "ucost": 0.19054843664434473,
+        "scost": 0.8340240760834536,
+        "objective": 1.0245725127277985,
+        "minimum_noncontact": 2.1484346587272936e-09,
+        "it": 990,
+        "seconds": 493.42646074295044,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 101,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 13,
+        "Pmax": 0.03136060803760438,
+        "Qmax": 0.6954248258356038,
+        "ucost": 0.19060887441448376,
+        "scost": 0.833953304589785,
+        "objective": 1.0245621790042687,
+        "minimum_noncontact": 2.1545881386184224e-09,
+        "it": 1000,
+        "seconds": 496.32705879211426,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 102,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 12,
+        "Pmax": 0.03142220896309634,
+        "Qmax": 0.6951369507919758,
+        "ucost": 0.1907695206659497,
+        "scost": 0.8337844261962291,
+        "objective": 1.0245539468621787,
+        "minimum_noncontact": 2.9075409588190642e-09,
+        "it": 1010,
+        "seconds": 499.3414797782898,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 103,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 12,
+        "Pmax": 0.03148091086220675,
+        "Qmax": 0.6948476956828971,
+        "ucost": 0.19093095190573567,
+        "scost": 0.8336136947409188,
+        "objective": 1.0245446466466546,
+        "minimum_noncontact": 3.715571208265961e-09,
+        "it": 1020,
+        "seconds": 502.36257672309875,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 104,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.03153170170395347,
+        "Qmax": 0.6945814213716567,
+        "ucost": 0.19108190170229994,
+        "scost": 0.8334550281603503,
+        "objective": 1.0245369298626503,
+        "minimum_noncontact": 2.156646448964181e-09,
+        "it": 1030,
+        "seconds": 505.3595058917999,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 105,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.031549812887073495,
+        "Qmax": 0.6944974149693502,
+        "ucost": 0.1911245530498923,
+        "scost": 0.8334071696858949,
+        "objective": 1.0245317227357873,
+        "minimum_noncontact": 2.249429564853054e-09,
+        "it": 1040,
+        "seconds": 508.4254069328308,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 106,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.03156806132213714,
+        "Qmax": 0.6943799130261377,
+        "ucost": 0.1911875937313262,
+        "scost": 0.8333358316600623,
+        "objective": 1.0245234253913886,
+        "minimum_noncontact": 2.34630445248416e-09,
+        "it": 1050,
+        "seconds": 511.4905767440796,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 107,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 13,
+        "Pmax": 0.03157554990014084,
+        "Qmax": 0.6943334020971687,
+        "ucost": 0.19120379286044398,
+        "scost": 0.8333079215797662,
+        "objective": 1.02451171444021,
+        "minimum_noncontact": 2.1559103225690886e-09,
+        "it": 1060,
+        "seconds": 514.4394869804382,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 108,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 13,
+        "Pmax": 0.03158133618510194,
+        "Qmax": 0.6942801577158224,
+        "ucost": 0.19122662751828293,
+        "scost": 0.8332743817363563,
+        "objective": 1.0245010092546392,
+        "minimum_noncontact": 2.1575913764755502e-09,
+        "it": 1070,
+        "seconds": 517.4628307819366,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 109,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 14,
+        "Pmax": 0.0316029273441007,
+        "Qmax": 0.6941241245379561,
+        "ucost": 0.19130166939214244,
+        "scost": 0.8331819442447592,
+        "objective": 1.0244836136369018,
+        "minimum_noncontact": 2.246395160435948e-09,
+        "it": 1080,
+        "seconds": 520.4271438121796,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 110,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 15,
+        "Pmax": 0.03155564903549107,
+        "Qmax": 0.694273652730417,
+        "ucost": 0.19117097148700082,
+        "scost": 0.8332745904644989,
+        "objective": 1.0244455619514998,
+        "minimum_noncontact": 2.3455437095087597e-09,
+        "it": 1090,
+        "seconds": 523.0980958938599,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 111,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 13,
+        "Pmax": 0.031581210581558515,
+        "Qmax": 0.6941032346259426,
+        "ucost": 0.1912282731268696,
+        "scost": 0.8331868567913386,
+        "objective": 1.0244151299182083,
+        "minimum_noncontact": 2.3462280579193592e-09,
+        "it": 1100,
+        "seconds": 525.9394378662109,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 112,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.03159220527690566,
+        "Qmax": 0.6939964972300473,
+        "ucost": 0.19126738757999162,
+        "scost": 0.8331255153102781,
+        "objective": 1.0243929028902699,
+        "minimum_noncontact": 2.1544368670532433e-09,
+        "it": 1110,
+        "seconds": 528.9180936813354,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 113,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.03161249330344695,
+        "Qmax": 0.6938171067530492,
+        "ucost": 0.1913355106809473,
+        "scost": 0.8330188755317876,
+        "objective": 1.024354386212735,
+        "minimum_noncontact": 2.162042048292559e-09,
+        "it": 1120,
+        "seconds": 531.9433567523956,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 114,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 13,
+        "Pmax": 0.03162825864432633,
+        "Qmax": 0.6936812924554678,
+        "ucost": 0.19139154276406228,
+        "scost": 0.8329400337264921,
+        "objective": 1.0243315764905543,
+        "minimum_noncontact": 2.346585112808969e-09,
+        "it": 1130,
+        "seconds": 534.795795917511,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 115,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.03164024731773436,
+        "Qmax": 0.6935179093379803,
+        "ucost": 0.19146673531121536,
+        "scost": 0.8328397150385518,
+        "objective": 1.0243064503497672,
+        "minimum_noncontact": 2.1756067267755935e-09,
+        "it": 1140,
+        "seconds": 537.6233599185944,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 116,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.03172829889127554,
+        "Qmax": 0.692886673851356,
+        "ucost": 0.1918145510502957,
+        "scost": 0.8324664016294578,
+        "objective": 1.0242809526797536,
+        "minimum_noncontact": 2.1921179757002773e-09,
+        "it": 1150,
+        "seconds": 540.4597299098969,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 117,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.03184423677817223,
+        "Qmax": 0.6922350834177405,
+        "ucost": 0.1921550860990279,
+        "scost": 0.8320738858974484,
+        "objective": 1.0242289719964763,
+        "minimum_noncontact": 2.2456751021931785e-09,
+        "it": 1160,
+        "seconds": 543.1164107322693,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 118,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.031836388181803156,
+        "Qmax": 0.6922752727382808,
+        "ucost": 0.19211415722585007,
+        "scost": 0.8321030806215408,
+        "objective": 1.0242172378473908,
+        "minimum_noncontact": 2.2379065062127545e-09,
+        "it": 1170,
+        "seconds": 545.8725969791412,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 119,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 15,
+        "Pmax": 0.03185708717471444,
+        "Qmax": 0.6921232011695099,
+        "ucost": 0.19218314483872312,
+        "scost": 0.8320095939266381,
+        "objective": 1.024192738765361,
+        "minimum_noncontact": 2.2487323252302853e-09,
+        "it": 1180,
+        "seconds": 548.6153106689453,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 120,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 12,
+        "U": 17,
+        "Pmax": 0.031946822435969614,
+        "Qmax": 0.6915628711040447,
+        "ucost": 0.19248160036209758,
+        "scost": 0.8316797729387503,
+        "objective": 1.0241613733008479,
+        "minimum_noncontact": 4.482418792517057e-09,
+        "it": 1190,
+        "seconds": 551.5551397800446,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 121,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 17,
+        "Pmax": 0.032039735685211276,
+        "Qmax": 0.6910393390401199,
+        "ucost": 0.19276132616561148,
+        "scost": 0.8313714879740192,
+        "objective": 1.0241328141396306,
+        "minimum_noncontact": 2.3474943453940642e-09,
+        "it": 1200,
+        "seconds": 554.4039888381958,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 122,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 18,
+        "Pmax": 0.032144468126356955,
+        "Qmax": 0.6904358040103565,
+        "ucost": 0.19308913975984393,
+        "scost": 0.8310127962199815,
+        "objective": 1.0241019359798254,
+        "minimum_noncontact": 2.2779307864393376e-09,
+        "it": 1210,
+        "seconds": 557.4016988277435,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 123,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 18,
+        "Pmax": 0.032202009108975985,
+        "Qmax": 0.6901125122419357,
+        "ucost": 0.1932636715624697,
+        "scost": 0.8308195242628347,
+        "objective": 1.0240831958253045,
+        "minimum_noncontact": 2.282389446447324e-09,
+        "it": 1220,
+        "seconds": 560.6869299411774,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 124,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 18,
+        "Pmax": 0.0323005944386861,
+        "Qmax": 0.6895351403597869,
+        "ucost": 0.19358226632686315,
+        "scost": 0.8304651195951825,
+        "objective": 1.0240473859220458,
+        "minimum_noncontact": 2.2910853787068196e-09,
+        "it": 1230,
+        "seconds": 563.7292459011078,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 125,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 16,
+        "Pmax": 0.03234814602819716,
+        "Qmax": 0.6892707173344343,
+        "ucost": 0.19371722745218153,
+        "scost": 0.8303108349574528,
+        "objective": 1.0240280624096343,
+        "minimum_noncontact": 2.295669504817205e-09,
+        "it": 1240,
+        "seconds": 566.9003100395203,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 126,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.0323624066331001,
+        "Qmax": 0.6891766139068848,
+        "ucost": 0.19375853542737242,
+        "scost": 0.8302529937706257,
+        "objective": 1.024011529197998,
+        "minimum_noncontact": 3.6483785601335698e-09,
+        "it": 1250,
+        "seconds": 569.826878786087,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 127,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.03237091863413062,
+        "Qmax": 0.6891014846759212,
+        "ucost": 0.19379252599039834,
+        "scost": 0.8302002545848997,
+        "objective": 1.023992780575298,
+        "minimum_noncontact": 3.3702459363986567e-09,
+        "it": 1260,
+        "seconds": 572.6955358982086,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 128,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 16,
+        "Pmax": 0.03237508308627397,
+        "Qmax": 0.6890735251976251,
+        "ucost": 0.19380056217113073,
+        "scost": 0.8301823340614799,
+        "objective": 1.0239828962326105,
+        "minimum_noncontact": 4.936354959739601e-09,
+        "it": 1270,
+        "seconds": 575.5768258571625,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 129,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.03237796720385509,
+        "Qmax": 0.6890525322978255,
+        "ucost": 0.19380564839198125,
+        "scost": 0.8301692283711668,
+        "objective": 1.023974876763148,
+        "minimum_noncontact": 4.94035033215772e-09,
+        "it": 1280,
+        "seconds": 578.4561488628387,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 130,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.03238296259417303,
+        "Qmax": 0.6890199652706045,
+        "ucost": 0.19381845270824394,
+        "scost": 0.8301485297063037,
+        "objective": 1.0239669824145476,
+        "minimum_noncontact": 4.737241415387731e-09,
+        "it": 1290,
+        "seconds": 581.1514098644257,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 131,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.0323859524105646,
+        "Qmax": 0.689006794429654,
+        "ucost": 0.19382128538491805,
+        "scost": 0.8301398190698294,
+        "objective": 1.0239611044547474,
+        "minimum_noncontact": 2.2949073421713764e-09,
+        "it": 1300,
+        "seconds": 583.8487689495087,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 132,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.03239272178997708,
+        "Qmax": 0.688965286260421,
+        "ucost": 0.1938407513468284,
+        "scost": 0.8301134412961764,
+        "objective": 1.0239541926430047,
+        "minimum_noncontact": 2.433967388191785e-09,
+        "it": 1310,
+        "seconds": 586.5215218067169,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 133,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 15,
+        "Pmax": 0.03239465016763652,
+        "Qmax": 0.6889529387375926,
+        "ucost": 0.19384431670178975,
+        "scost": 0.8301046768024187,
+        "objective": 1.0239489935042085,
+        "minimum_noncontact": 2.2972088494831674e-09,
+        "it": 1320,
+        "seconds": 588.9582598209381,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 134,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.03240596759973443,
+        "Qmax": 0.6888711073412331,
+        "ucost": 0.19388792168076488,
+        "scost": 0.830053755200285,
+        "objective": 1.0239416768810499,
+        "minimum_noncontact": 2.2946595712472047e-09,
+        "it": 1330,
+        "seconds": 591.405012845993,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 135,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 15,
+        "Pmax": 0.03240850252930015,
+        "Qmax": 0.6888630523616334,
+        "ucost": 0.1938879398583349,
+        "scost": 0.8300470681908962,
+        "objective": 1.023935008049231,
+        "minimum_noncontact": 2.295322186698146e-09,
+        "it": 1340,
+        "seconds": 594.1570727825165,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 136,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 14,
+        "Pmax": 0.03241067323919442,
+        "Qmax": 0.6888471449942528,
+        "ucost": 0.1938938711885159,
+        "scost": 0.8300359779425466,
+        "objective": 1.0239298491310624,
+        "minimum_noncontact": 2.7372786970712466e-09,
+        "it": 1350,
+        "seconds": 597.4816839694977,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 137,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.032411468742199225,
+        "Qmax": 0.6888459015674442,
+        "ucost": 0.1938911485100499,
+        "scost": 0.8300334305772902,
+        "objective": 1.0239245790873401,
+        "minimum_noncontact": 3.809019465168122e-09,
+        "it": 1360,
+        "seconds": 600.6467568874359,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 138,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.03241264796989508,
+        "Qmax": 0.6888476781463602,
+        "ucost": 0.19388719641260233,
+        "scost": 0.8300324032730103,
+        "objective": 1.0239195996856125,
+        "minimum_noncontact": 4.737619772501514e-09,
+        "it": 1370,
+        "seconds": 604.047064781189,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 139,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.03241206172482377,
+        "Qmax": 0.6888557258721584,
+        "ucost": 0.19387937312705386,
+        "scost": 0.8300348835488851,
+        "objective": 1.023914256675939,
+        "minimum_noncontact": 2.2980338120230096e-09,
+        "it": 1380,
+        "seconds": 607.5123157501221,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 140,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 14,
+        "Pmax": 0.032417094958148755,
+        "Qmax": 0.6888085373789522,
+        "ucost": 0.1939013318664266,
+        "scost": 0.8300030324146294,
+        "objective": 1.023904364281056,
+        "minimum_noncontact": 5.456849640072171e-09,
+        "it": 1390,
+        "seconds": 610.9873390197754,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 141,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 13,
+        "Pmax": 0.032419607301713664,
+        "Qmax": 0.6888096519490229,
+        "ucost": 0.19389723462773817,
+        "scost": 0.8300011018522081,
+        "objective": 1.0238983364799463,
+        "minimum_noncontact": 4.9462906150873054e-09,
+        "it": 1400,
+        "seconds": 614.3378639221191,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 142,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 11,
+        "U": 13,
+        "Pmax": 0.03242814159424342,
+        "Qmax": 0.6887437744599977,
+        "ucost": 0.1939317713510109,
+        "scost": 0.8299600768416758,
+        "objective": 1.0238918481926866,
+        "minimum_noncontact": 4.943629148850889e-09,
+        "it": 1410,
+        "seconds": 617.4471228122711,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 143,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 13,
+        "Pmax": 0.03242644774830496,
+        "Qmax": 0.6887619210300063,
+        "ucost": 0.1939152575100601,
+        "scost": 0.8299692071190592,
+        "objective": 1.0238844646291194,
+        "minimum_noncontact": 2.3010658301073966e-09,
+        "it": 1420,
+        "seconds": 620.3585939407349,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 144,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 13,
+        "Pmax": 0.03242735522532422,
+        "Qmax": 0.6887451925673815,
+        "ucost": 0.1939195212695734,
+        "scost": 0.829959375496236,
+        "objective": 1.0238788967658095,
+        "minimum_noncontact": 2.4017426547637485e-09,
+        "it": 1430,
+        "seconds": 623.3198018074036,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 145,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 13,
+        "Pmax": 0.032428722177121096,
+        "Qmax": 0.6887450391681106,
+        "ucost": 0.19391572967133439,
+        "scost": 0.8299573375258036,
+        "objective": 1.0238730671971379,
+        "minimum_noncontact": 2.4536181813591543e-09,
+        "it": 1440,
+        "seconds": 626.6187958717346,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 146,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 13,
+        "Pmax": 0.032430701103096135,
+        "Qmax": 0.6887240809707597,
+        "ucost": 0.19392388737555596,
+        "scost": 0.8299446919582902,
+        "objective": 1.0238685793338462,
+        "minimum_noncontact": 3.7211767882102485e-09,
+        "it": 1450,
+        "seconds": 630.0275938510895,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 147,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 13,
+        "Pmax": 0.03243164792410963,
+        "Qmax": 0.688719112453451,
+        "ucost": 0.19392523551540825,
+        "scost": 0.8299400730380959,
+        "objective": 1.023865308553504,
+        "minimum_noncontact": 3.1215522071279106e-09,
+        "it": 1460,
+        "seconds": 633.260814666748,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 148,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 10,
+        "U": 12,
+        "Pmax": 0.032433080408888475,
+        "Qmax": 0.6887112850851858,
+        "ucost": 0.19392842287030243,
+        "scost": 0.8299339606291037,
+        "objective": 1.0238623834994063,
+        "minimum_noncontact": 4.131358854882162e-09,
+        "it": 1470,
+        "seconds": 636.0306718349457,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 149,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.032433268300585155,
+        "Qmax": 0.6887116218835088,
+        "ucost": 0.1939269414243283,
+        "scost": 0.8299331602248643,
+        "objective": 1.0238601016491926,
+        "minimum_noncontact": 4.945447573743002e-09,
+        "it": 1480,
+        "seconds": 638.6857929229736,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 150,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.03243490630142229,
+        "Qmax": 0.6887029825419653,
+        "ucost": 0.19393065032337492,
+        "scost": 0.829926874026756,
+        "objective": 1.0238575243501309,
+        "minimum_noncontact": 4.148855367217232e-09,
+        "it": 1490,
+        "seconds": 641.447233915329,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 151,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.032437405403710394,
+        "Qmax": 0.6886725817253755,
+        "ucost": 0.19394752232350573,
+        "scost": 0.8299073908191675,
+        "objective": 1.0238549131426733,
+        "minimum_noncontact": 4.017171952294645e-09,
+        "it": 1500,
+        "seconds": 644.1122167110443,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 152,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 8,
+        "U": 12,
+        "Pmax": 0.032435938775143114,
+        "Qmax": 0.6886958499111461,
+        "ucost": 0.19393214881342868,
+        "scost": 0.8299192144377924,
+        "objective": 1.0238513632512212,
+        "minimum_noncontact": 2.8720575292659236e-09,
+        "it": 1510,
+        "seconds": 646.6991150379181,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 153,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 9,
+        "U": 12,
+        "Pmax": 0.032436407690856116,
+        "Qmax": 0.6886796126460728,
+        "ucost": 0.19394013576922497,
+        "scost": 0.8299080973124644,
+        "objective": 1.0238482330816894,
+        "minimum_noncontact": 3.6424183895015848e-09,
+        "it": 1520,
+        "seconds": 649.4007699489594,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 154,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.03243735790558709,
+        "Qmax": 0.6886696089630016,
+        "ucost": 0.19394105375309734,
+        "scost": 0.8299016612225407,
+        "objective": 1.023842714975638,
+        "minimum_noncontact": 2.3000181958892676e-09,
+        "it": 1530,
+        "seconds": 651.977835893631,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 155,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 12,
+        "Pmax": 0.03243460628370264,
+        "Qmax": 0.6886890719351064,
+        "ucost": 0.19392592547489446,
+        "scost": 0.8299131551892938,
+        "objective": 1.0238390806641882,
+        "minimum_noncontact": 4.917014657391733e-09,
+        "it": 1540,
+        "seconds": 655.1604568958282,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 156,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.03243104851629548,
+        "Qmax": 0.6887149392398791,
+        "ucost": 0.19390730524782307,
+        "scost": 0.829927943097508,
+        "objective": 1.023835248345331,
+        "minimum_noncontact": 5.293629208407012e-09,
+        "it": 1550,
+        "seconds": 658.1807088851929,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 157,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 12,
+        "Pmax": 0.03242906997338657,
+        "Qmax": 0.6887274484253835,
+        "ucost": 0.1938987921648046,
+        "scost": 0.8299348667759532,
+        "objective": 1.0238336589407577,
+        "minimum_noncontact": 4.7305846599565996e-09,
+        "it": 1560,
+        "seconds": 661.6507787704468,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 158,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.03242699140095472,
+        "Qmax": 0.6887397404448089,
+        "ucost": 0.1938900722496291,
+        "scost": 0.8299413577221022,
+        "objective": 1.0238314299717313,
+        "minimum_noncontact": 4.7678954101601675e-09,
+        "it": 1570,
+        "seconds": 665.2292468547821,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 159,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.03242857373899805,
+        "Qmax": 0.688723246867814,
+        "ucost": 0.1938989379370471,
+        "scost": 0.8299305018908203,
+        "objective": 1.0238294398278673,
+        "minimum_noncontact": 3.988915646512693e-09,
+        "it": 1580,
+        "seconds": 668.562894821167,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 160,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 11,
+        "Pmax": 0.032428834896977274,
+        "Qmax": 0.6887247765476346,
+        "ucost": 0.19389726381662567,
+        "scost": 0.8299310941444084,
+        "objective": 1.023828357961034,
+        "minimum_noncontact": 3.797076030860279e-09,
+        "it": 1590,
+        "seconds": 671.7326006889343,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 161,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 11,
+        "Pmax": 0.03242877200986751,
+        "Qmax": 0.6887272575292762,
+        "ucost": 0.19389487931359511,
+        "scost": 0.8299319988512934,
+        "objective": 1.0238268781648885,
+        "minimum_noncontact": 3.5062866837066943e-09,
+        "it": 1600,
+        "seconds": 674.6752519607544,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 162,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 11,
+        "Pmax": 0.03242773569018023,
+        "Qmax": 0.6887351048106103,
+        "ucost": 0.19388951202871008,
+        "scost": 0.8299363645864833,
+        "objective": 1.0238258766151933,
+        "minimum_noncontact": 3.845089650576023e-09,
+        "it": 1610,
+        "seconds": 677.8752236366272,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 163,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 11,
+        "Pmax": 0.0324282747776135,
+        "Qmax": 0.6887314846515428,
+        "ucost": 0.19389076095249158,
+        "scost": 0.8299333723301725,
+        "objective": 1.023824133282664,
+        "minimum_noncontact": 3.939504894238711e-09,
+        "it": 1620,
+        "seconds": 681.1363608837128,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 164,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.03243330617041807,
+        "Qmax": 0.6886849034311425,
+        "ucost": 0.19391793245229574,
+        "scost": 0.8299032585423635,
+        "objective": 1.0238211909946593,
+        "minimum_noncontact": 4.134905622295702e-09,
+        "it": 1630,
+        "seconds": 683.6917760372162,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 165,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.032428822510643204,
+        "Qmax": 0.6887168768543117,
+        "ucost": 0.1938969807542141,
+        "scost": 0.8299222054842273,
+        "objective": 1.0238191862384414,
+        "minimum_noncontact": 3.4767181097756897e-09,
+        "it": 1640,
+        "seconds": 686.2805178165436,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 166,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.03243033524859757,
+        "Qmax": 0.6887041010545799,
+        "ucost": 0.19390350460353806,
+        "scost": 0.829913392292156,
+        "objective": 1.023816896895694,
+        "minimum_noncontact": 3.777932003824313e-09,
+        "it": 1650,
+        "seconds": 688.7447097301483,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 167,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.032430200643037706,
+        "Qmax": 0.6887125895284055,
+        "ucost": 0.19389690978502036,
+        "scost": 0.8299182760979215,
+        "objective": 1.0238151858829418,
+        "minimum_noncontact": 4.7171000855408934e-09,
+        "it": 1660,
+        "seconds": 691.2963509559631,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 168,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.03243418172257446,
+        "Qmax": 0.6886921475780176,
+        "ucost": 0.19390786908954802,
+        "scost": 0.829905209857951,
+        "objective": 1.023813078947499,
+        "minimum_noncontact": 3.891375215911984e-09,
+        "it": 1670,
+        "seconds": 693.8195428848267,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 169,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.03243103737203204,
+        "Qmax": 0.6887142132038372,
+        "ucost": 0.19389327357643554,
+        "scost": 0.8299181570486741,
+        "objective": 1.0238114306251096,
+        "minimum_noncontact": 5.147447634368269e-09,
+        "it": 1680,
+        "seconds": 696.3958866596222,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 170,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 11,
+        "Pmax": 0.032432187802264784,
+        "Qmax": 0.6887041373485421,
+        "ucost": 0.19389862212245007,
+        "scost": 0.829911569734502,
+        "objective": 1.023810191856952,
+        "minimum_noncontact": 4.892711127596371e-09,
+        "it": 1690,
+        "seconds": 698.9982106685638,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 171,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 10,
+        "Pmax": 0.032432915875259385,
+        "Qmax": 0.6886970425503558,
+        "ucost": 0.19390238875031057,
+        "scost": 0.8299070246758625,
+        "objective": 1.023809413426173,
+        "minimum_noncontact": 4.652145279509868e-09,
+        "it": 1700,
+        "seconds": 701.633181810379,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 172,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 10,
+        "Pmax": 0.03243218486563122,
+        "Qmax": 0.6887074245021513,
+        "ucost": 0.19389548775252033,
+        "scost": 0.8299128673555961,
+        "objective": 1.0238083551081165,
+        "minimum_noncontact": 4.6575788303292075e-09,
+        "it": 1710,
+        "seconds": 704.3185279369354,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 173,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 10,
+        "Pmax": 0.032432297424218166,
+        "Qmax": 0.6887065287707612,
+        "ucost": 0.19389561712458941,
+        "scost": 0.8299119074526229,
+        "objective": 1.0238075245772122,
+        "minimum_noncontact": 4.5065431467966564e-09,
+        "it": 1720,
+        "seconds": 706.9943790435791,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 174,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.032432530981007616,
+        "Qmax": 0.6887029102820867,
+        "ucost": 0.1938971634119658,
+        "scost": 0.8299093316941895,
+        "objective": 1.0238064951061552,
+        "minimum_noncontact": 4.124017274682318e-09,
+        "it": 1730,
+        "seconds": 709.6933786869049,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 175,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.032432590120648565,
+        "Qmax": 0.6887029505948677,
+        "ucost": 0.19389667382247294,
+        "scost": 0.8299089371814551,
+        "objective": 1.023805611003928,
+        "minimum_noncontact": 3.648158304268915e-09,
+        "it": 1740,
+        "seconds": 712.3866407871246,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 176,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.03243257189439767,
+        "Qmax": 0.6887029110700204,
+        "ucost": 0.19389617468375128,
+        "scost": 0.8299084851056661,
+        "objective": 1.0238046597894173,
+        "minimum_noncontact": 2.7965867920948445e-09,
+        "it": 1750,
+        "seconds": 715.0578558444977,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 177,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.03243237237918588,
+        "Qmax": 0.6887047240758922,
+        "ucost": 0.19389456166358754,
+        "scost": 0.8299091552708919,
+        "objective": 1.0238037169344794,
+        "minimum_noncontact": 2.8099791989810955e-09,
+        "it": 1760,
+        "seconds": 717.809238910675,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 178,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.03243220653801591,
+        "Qmax": 0.6887073307550703,
+        "ucost": 0.19389250975617087,
+        "scost": 0.8299102926281747,
+        "objective": 1.0238028023843455,
+        "minimum_noncontact": 2.585264385328554e-09,
+        "it": 1770,
+        "seconds": 720.4752876758575,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 179,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.032432281715898084,
+        "Qmax": 0.6887046534752711,
+        "ucost": 0.1938936859391575,
+        "scost": 0.8299083754778726,
+        "objective": 1.02380206141703,
+        "minimum_noncontact": 2.2971823803312647e-09,
+        "it": 1780,
+        "seconds": 723.4613738059998,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 180,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.032432552699977524,
+        "Qmax": 0.6887037407654406,
+        "ucost": 0.19389387069066474,
+        "scost": 0.8299075668830425,
+        "objective": 1.0238014375737072,
+        "minimum_noncontact": 2.297040659086649e-09,
+        "it": 1790,
+        "seconds": 726.3747289180756,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 181,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.032432530902143965,
+        "Qmax": 0.6887036326803277,
+        "ucost": 0.19389357214631134,
+        "scost": 0.8299072214632321,
+        "objective": 1.0238007936095435,
+        "minimum_noncontact": 2.357651397146179e-09,
+        "it": 1800,
+        "seconds": 729.0703449249268,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 182,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.03243300627401009,
+        "Qmax": 0.6886901428964746,
+        "ucost": 0.19390111696109735,
+        "scost": 0.8298986985237701,
+        "objective": 1.0237998154848675,
+        "minimum_noncontact": 2.29771247624836e-09,
+        "it": 1810,
+        "seconds": 731.7821476459503,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 183,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.03243267910863689,
+        "Qmax": 0.6887011229021885,
+        "ucost": 0.19389375873548018,
+        "scost": 0.8299049946978735,
+        "objective": 1.0237987534333537,
+        "minimum_noncontact": 2.570942574606169e-09,
+        "it": 1820,
+        "seconds": 734.7303218841553,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 184,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 10,
+        "Pmax": 0.03243504662479486,
+        "Qmax": 0.6886862532361202,
+        "ucost": 0.19390213199482195,
+        "scost": 0.829895918024543,
+        "objective": 1.0237980500193649,
+        "minimum_noncontact": 4.054663268012773e-09,
+        "it": 1830,
+        "seconds": 737.31968998909,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 185,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 10,
+        "Pmax": 0.03243528182862122,
+        "Qmax": 0.6886868085959584,
+        "ucost": 0.19390125263221442,
+        "scost": 0.8298960883183886,
+        "objective": 1.023797340950603,
+        "minimum_noncontact": 3.775057858826689e-09,
+        "it": 1840,
+        "seconds": 739.995641708374,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 186,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 10,
+        "Pmax": 0.0324346244927529,
+        "Qmax": 0.6886941305920534,
+        "ucost": 0.193896545308547,
+        "scost": 0.8299002739378382,
+        "objective": 1.023796819246385,
+        "minimum_noncontact": 3.6776604060843394e-09,
+        "it": 1850,
+        "seconds": 742.9749948978424,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 187,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 7,
+        "U": 10,
+        "Pmax": 0.03243509103572929,
+        "Qmax": 0.6886897664538619,
+        "ucost": 0.19389901319740882,
+        "scost": 0.8298974877102083,
+        "objective": 1.023796500907617,
+        "minimum_noncontact": 3.753246600738951e-09,
+        "it": 1860,
+        "seconds": 745.921041727066,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 188,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.03243480609097089,
+        "Qmax": 0.6886917134122826,
+        "ucost": 0.1938976403483004,
+        "scost": 0.8298983828027391,
+        "objective": 1.0237960231510395,
+        "minimum_noncontact": 3.751686365511251e-09,
+        "it": 1870,
+        "seconds": 748.6444396972656,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 189,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 10,
+        "Pmax": 0.03243465705128443,
+        "Qmax": 0.6886928215552905,
+        "ucost": 0.19389679303122354,
+        "scost": 0.8298988754798963,
+        "objective": 1.0237956685111198,
+        "minimum_noncontact": 3.7080256137845723e-09,
+        "it": 1880,
+        "seconds": 751.3055799007416,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 190,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 5,
+        "U": 10,
+        "Pmax": 0.032435587569286,
+        "Qmax": 0.6886863586145601,
+        "ucost": 0.19390049210770446,
+        "scost": 0.8298948005034049,
+        "objective": 1.0237952926111094,
+        "minimum_noncontact": 3.5710721135459494e-09,
+        "it": 1890,
+        "seconds": 754.2907598018646,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 191,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 9,
+        "Pmax": 0.032435048529354804,
+        "Qmax": 0.6886958170921382,
+        "ucost": 0.1938940931348273,
+        "scost": 0.829900092003361,
+        "objective": 1.0237941851381884,
+        "minimum_noncontact": 3.077117385893532e-09,
+        "it": 1900,
+        "seconds": 756.7885677814484,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 192,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 9,
+        "Pmax": 0.03243539901568628,
+        "Qmax": 0.688687299633722,
+        "ucost": 0.19389892201879866,
+        "scost": 0.8298946566401726,
+        "objective": 1.0237935786589714,
+        "minimum_noncontact": 3.313717486576241e-09,
+        "it": 1910,
+        "seconds": 759.4096097946167,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 193,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 9,
+        "Pmax": 0.03243554355287263,
+        "Qmax": 0.6886875903694766,
+        "ucost": 0.19389852875737573,
+        "scost": 0.8298946420507398,
+        "objective": 1.0237931708081156,
+        "minimum_noncontact": 3.4960955962727537e-09,
+        "it": 1920,
+        "seconds": 762.5317509174347,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 194,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 9,
+        "Pmax": 0.032434518815210985,
+        "Qmax": 0.6886968302312775,
+        "ucost": 0.19389271705980887,
+        "scost": 0.8299000160274982,
+        "objective": 1.0237927330873071,
+        "minimum_noncontact": 3.707159938339902e-09,
+        "it": 1930,
+        "seconds": 765.7125368118286,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 195,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 9,
+        "Pmax": 0.03243285503456085,
+        "Qmax": 0.6887025011609461,
+        "ucost": 0.1938890085866129,
+        "scost": 0.8299034521619252,
+        "objective": 1.023792460748538,
+        "minimum_noncontact": 3.5369336715691096e-09,
+        "it": 1940,
+        "seconds": 769.0642428398132,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 196,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 6,
+        "U": 9,
+        "Pmax": 0.032435196916193086,
+        "Qmax": 0.6886888551375749,
+        "ucost": 0.19389697612201262,
+        "scost": 0.8298950839772194,
+        "objective": 1.023792060099232,
+        "minimum_noncontact": 3.7617960045482596e-09,
+        "it": 1950,
+        "seconds": 772.2819218635559,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 197,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 5,
+        "U": 9,
+        "Pmax": 0.03243489854998012,
+        "Qmax": 0.6886887860193824,
+        "ucost": 0.19389616728221956,
+        "scost": 0.8298951848739083,
+        "objective": 1.023791352156128,
+        "minimum_noncontact": 3.4049378502445896e-09,
+        "it": 1960,
+        "seconds": 775.1350116729736,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 198,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 5,
+        "U": 9,
+        "Pmax": 0.032435480175748196,
+        "Qmax": 0.6886896318409925,
+        "ucost": 0.19389503792156518,
+        "scost": 0.8298955733509688,
+        "objective": 1.023790611272534,
+        "minimum_noncontact": 3.366763765587533e-09,
+        "it": 1970,
+        "seconds": 778.0625159740448,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 199,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 5,
+        "U": 9,
+        "Pmax": 0.03243396180236791,
+        "Qmax": 0.6886965784057527,
+        "ucost": 0.1938901822637698,
+        "scost": 0.8298995498922498,
+        "objective": 1.0237897321560196,
+        "minimum_noncontact": 3.2496800969959103e-09,
+        "it": 1980,
+        "seconds": 781.3885118961334,
+        "trust": 0.5
+      }
+    },
+    {
+      "source_line": 200,
+      "label": "FREE_AZIMUTH_SECTION_GOAL",
+      "values": {
+        "V": 121,
+        "E": 240,
+        "F": 121,
+        "S": 5,
+        "U": 9,
+        "Pmax": 0.03243485588153246,
+        "Qmax": 0.6886909770056499,
+        "ucost": 0.19389322011693605,
+        "scost": 0.8298959479894963,
+        "objective": 1.0237891681064324,
+        "minimum_noncontact": 3.1794673920327365e-09,
+        "it": 1990,
+        "seconds": 784.2562549114227,
+        "trust": 0.5
+      }
+    }
+  ]
+}

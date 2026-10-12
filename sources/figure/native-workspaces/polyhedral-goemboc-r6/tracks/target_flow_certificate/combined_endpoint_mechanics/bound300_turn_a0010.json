@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "source": "bound300_path_pre_wall.csv",
+  "lp_json": "bound300_path_pre_wall_lp.json",
+  "alpha": 0.001,
+  "lp_delta": 0.9673182920028318,
+  "lp_deaths": [
+    "('face', (7, 8, 245, 246), (8, 246))",
+    "('vertex', 54, 1)",
+    "('edge', (6, 7), 'one_minus_t')",
+    "('edge', (9, 10), 't')"
+  ],
+  "f_vector": [
+    61,
+    161,
+    102
+  ],
+  "class": [
+    2,
+    2,
+    2
+  ],
+  "faces_match": true,
+  "removed_faces": [],
+  "added_faces": [],
+  "all_vertices_active": true,
+  "lost_vertices": [],
+  "all_forced_rails_present": true,
+  "missing_forced_rails": [],
+  "topology_margin": 1.755126111113725e-08,
+  "death_ratios": {
+    "('face', (7, 8, 245, 246), (8, 246))": 0.9990619815085476,
+    "('vertex', 54, 1)": 0.999309247271759,
+    "('edge', (6, 7), 'one_minus_t')": 0.9957350278624009,
+    "('edge', (9, 10), 't')": 0.9990058846027245
+  },
+  "missing_selected_guards": [],
+  "minimum_signed_guard_ratio": -0.4253789245707427,
+  "minimum_signed_guard": {
+    "key": "('face', (198, 228, 229), (198, 229))",
+    "kind": "nonstable_face_witness",
+    "baseline_value": -0.9509861631823966,
+    "new_value": 0.4045294713761847
+  }
+}

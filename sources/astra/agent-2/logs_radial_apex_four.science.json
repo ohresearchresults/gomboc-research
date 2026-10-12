@@ -1,0 +1,996 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 57,
+        "U": 1,
+        "Pmax": 0.0,
+        "Qmax": 0.0011779179169151264,
+        "objective": 0.03432180880333712,
+        "minimum_noncontact": 2.3223667320770858e-05,
+        "it": 0,
+        "seconds": 0.03664994239807129,
+        "trust": 0.04
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 57,
+        "U": 41,
+        "Pmax": 1.2359953469263351e-05,
+        "Qmax": 0.0011619719620288222,
+        "objective": 0.034088709838425664,
+        "minimum_noncontact": 2.6865339746273698e-05,
+        "it": 1,
+        "seconds": 0.18747496604919434,
+        "trust": 0.054000000000000006
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 57,
+        "U": 40,
+        "Pmax": 6.703972790013714e-05,
+        "Qmax": 0.0011412942680771173,
+        "objective": 0.03378404705139948,
+        "minimum_noncontact": 3.354620686746301e-05,
+        "it": 2,
+        "seconds": 0.33240294456481934,
+        "trust": 0.0729
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 163,
+        "E": 245,
+        "F": 84,
+        "S": 57,
+        "U": 41,
+        "Pmax": 0.0001253599156148131,
+        "Qmax": 0.0011099991197083266,
+        "objective": 0.033317649286936146,
+        "minimum_noncontact": 2.5742415439289346e-05,
+        "it": 3,
+        "seconds": 1.1659891605377197,
+        "trust": 0.09841500000000002
+      }
+    },
+    {
+      "source_line": 5,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 57,
+        "U": 41,
+        "Pmax": 0.00013175475476763496,
+        "Qmax": 0.0011044892089600176,
+        "objective": 0.0332348563660607,
+        "minimum_noncontact": 2.524680294291315e-05,
+        "it": 4,
+        "seconds": 1.816680908203125,
+        "trust": 0.09841500000000002
+      }
+    },
+    {
+      "source_line": 6,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 56,
+        "U": 41,
+        "Pmax": 0.00031285891242588496,
+        "Qmax": 0.0010730407562828297,
+        "objective": 0.0327583008088676,
+        "minimum_noncontact": 2.8126024135266547e-05,
+        "it": 5,
+        "seconds": 1.988685131072998,
+        "trust": 0.13286025000000004
+      }
+    },
+    {
+      "source_line": 7,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 56,
+        "U": 38,
+        "Pmax": 0.0006540438435129088,
+        "Qmax": 0.0010550830670014832,
+        "objective": 0.03248304222337705,
+        "minimum_noncontact": 1.2147275679663672e-05,
+        "it": 6,
+        "seconds": 2.41471791267395,
+        "trust": 0.17936133750000008
+      }
+    },
+    {
+      "source_line": 8,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 56,
+        "U": 38,
+        "Pmax": 0.000698244646906355,
+        "Qmax": 0.0009973589770037633,
+        "objective": 0.031581990753994996,
+        "minimum_noncontact": 3.563924029392762e-05,
+        "it": 7,
+        "seconds": 2.8100690841674805,
+        "trust": 0.17936133750000008
+      }
+    },
+    {
+      "source_line": 9,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 56,
+        "U": 38,
+        "Pmax": 0.0007995723603586969,
+        "Qmax": 0.0009869875890447125,
+        "objective": 0.03141735862166063,
+        "minimum_noncontact": 2.7315241774239496e-05,
+        "it": 8,
+        "seconds": 3.0434861183166504,
+        "trust": 0.17936133750000008
+      }
+    },
+    {
+      "source_line": 10,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 55,
+        "U": 36,
+        "Pmax": 0.0008957875723631564,
+        "Qmax": 0.0009386770457755945,
+        "objective": 0.03063883683251292,
+        "minimum_noncontact": 1.240056696438785e-06,
+        "it": 9,
+        "seconds": 3.284914016723633,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 11,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 39,
+        "Pmax": 0.0008372115635350156,
+        "Qmax": 0.0009036594175470641,
+        "objective": 0.030061928421242383,
+        "minimum_noncontact": 1.736427578502564e-06,
+        "it": 10,
+        "seconds": 3.4849331378936768,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 12,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008348640255431182,
+        "Qmax": 0.0008991216977139312,
+        "objective": 0.029986358055456592,
+        "minimum_noncontact": 1.4453508186407227e-05,
+        "it": 11,
+        "seconds": 3.918837070465088,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 13,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008325683430419882,
+        "Qmax": 0.0008946849048349243,
+        "objective": 0.029912283904828273,
+        "minimum_noncontact": 1.4125385326635431e-05,
+        "it": 12,
+        "seconds": 4.2510552406311035,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 14,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008322852256332743,
+        "Qmax": 0.0008941444686697754,
+        "objective": 0.029903248555417254,
+        "minimum_noncontact": 1.4072084144389763e-05,
+        "it": 13,
+        "seconds": 4.7379231452941895,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 15,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321440164198199,
+        "Qmax": 0.0008938751187615502,
+        "objective": 0.029898744375815755,
+        "minimum_noncontact": 1.4045108680749152e-05,
+        "it": 14,
+        "seconds": 5.2055981159210205,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 16,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321087557239474,
+        "Qmax": 0.0008938078919593195,
+        "objective": 0.029897620075841874,
+        "minimum_noncontact": 1.403829978052773e-05,
+        "it": 15,
+        "seconds": 5.765125274658203,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 17,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321043494102968,
+        "Qmax": 0.0008937994920533282,
+        "objective": 0.029897479592979285,
+        "minimum_noncontact": 1.403744628070136e-05,
+        "it": 16,
+        "seconds": 6.538041114807129,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 18,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321021463375328,
+        "Qmax": 0.000893795292318889,
+        "objective": 0.02989740935495611,
+        "minimum_noncontact": 1.4037019456902833e-05,
+        "it": 17,
+        "seconds": 7.242182970046997,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 19,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321018709580706,
+        "Qmax": 0.0008937947673657828,
+        "objective": 0.02989740057541786,
+        "minimum_noncontact": 1.403696609481031e-05,
+        "it": 18,
+        "seconds": 7.985181093215942,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 20,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.000832101733269204,
+        "Qmax": 0.0008937945048903385,
+        "objective": 0.029897396185662613,
+        "minimum_noncontact": 1.4036939413486493e-05,
+        "it": 19,
+        "seconds": 8.788414001464844,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 21,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016644247941,
+        "Qmax": 0.0008937943736523772,
+        "objective": 0.029897393990786433,
+        "minimum_noncontact": 1.4036926072713563e-05,
+        "it": 20,
+        "seconds": 9.604438066482544,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 22,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016472134198,
+        "Qmax": 0.0008937943408429357,
+        "objective": 0.029897393442068685,
+        "minimum_noncontact": 1.4036922737381552e-05,
+        "it": 21,
+        "seconds": 10.532282829284668,
+        "trust": 0.24213780562500012
+      }
+    },
+    {
+      "source_line": 23,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016472134198,
+        "Qmax": 0.0008937943408429357,
+        "objective": 0.029897393442068685,
+        "minimum_noncontact": 1.4036922737381552e-05,
+        "it": 22,
+        "seconds": 11.38852310180664,
+        "trust": 0.09685512225000005
+      }
+    },
+    {
+      "source_line": 24,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016472134198,
+        "Qmax": 0.0008937943408429357,
+        "objective": 0.029897393442068685,
+        "minimum_noncontact": 1.4036922737381552e-05,
+        "it": 23,
+        "seconds": 12.235985040664673,
+        "trust": 0.03874204890000002
+      }
+    },
+    {
+      "source_line": 25,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016472134198,
+        "Qmax": 0.0008937943408429357,
+        "objective": 0.029897393442068685,
+        "minimum_noncontact": 1.4036922737381552e-05,
+        "it": 24,
+        "seconds": 13.111668109893799,
+        "trust": 0.015496819560000008
+      }
+    },
+    {
+      "source_line": 26,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016472134198,
+        "Qmax": 0.0008937943408429357,
+        "objective": 0.029897393442068685,
+        "minimum_noncontact": 1.4036922737381552e-05,
+        "it": 25,
+        "seconds": 14.50877594947815,
+        "trust": 0.006198727824000004
+      }
+    },
+    {
+      "source_line": 27,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016473529252,
+        "Qmax": 0.0008937943335018513,
+        "objective": 0.0298973933192915,
+        "minimum_noncontact": 1.4036924859128774e-05,
+        "it": 26,
+        "seconds": 16.188695192337036,
+        "trust": 0.006198727824000004
+      }
+    },
+    {
+      "source_line": 28,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016473529252,
+        "Qmax": 0.0008937943335018513,
+        "objective": 0.0298973933192915,
+        "minimum_noncontact": 1.4036924859128774e-05,
+        "it": 27,
+        "seconds": 17.048264026641846,
+        "trust": 0.0024794911296000016
+      }
+    },
+    {
+      "source_line": 29,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016458841554,
+        "Qmax": 0.0008937943219162254,
+        "objective": 0.02989739312553244,
+        "minimum_noncontact": 1.4036924400939732e-05,
+        "it": 28,
+        "seconds": 18.16660213470459,
+        "trust": 0.0024794911296000016
+      }
+    },
+    {
+      "source_line": 30,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016458841554,
+        "Qmax": 0.0008937943219162254,
+        "objective": 0.02989739312553244,
+        "minimum_noncontact": 1.4036924400939732e-05,
+        "it": 29,
+        "seconds": 19.00779914855957,
+        "trust": 0.0009917964518400006
+      }
+    },
+    {
+      "source_line": 31,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016454580699,
+        "Qmax": 0.0008937943191041169,
+        "objective": 0.029897393078499784,
+        "minimum_noncontact": 1.403692451462657e-05,
+        "it": 30,
+        "seconds": 19.821310997009277,
+        "trust": 0.0009917964518400006
+      }
+    },
+    {
+      "source_line": 32,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016454580699,
+        "Qmax": 0.0008937943191041169,
+        "objective": 0.029897393078499784,
+        "minimum_noncontact": 1.403692451462657e-05,
+        "it": 31,
+        "seconds": 20.687459230422974,
+        "trust": 0.00039671858073600026
+      }
+    },
+    {
+      "source_line": 33,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.000832101645274561,
+        "Qmax": 0.0008937943179545659,
+        "objective": 0.029897393059273445,
+        "minimum_noncontact": 1.403692457346839e-05,
+        "it": 32,
+        "seconds": 21.540386199951172,
+        "trust": 0.00039671858073600026
+      }
+    },
+    {
+      "source_line": 34,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.000832101645274561,
+        "Qmax": 0.0008937943179545659,
+        "objective": 0.029897393059273445,
+        "minimum_noncontact": 1.403692457346839e-05,
+        "it": 33,
+        "seconds": 22.37661910057068,
+        "trust": 0.0001586874322944001
+      }
+    },
+    {
+      "source_line": 35,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 34,
+        "seconds": 23.171308994293213,
+        "trust": 0.0001586874322944001
+      }
+    },
+    {
+      "source_line": 36,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 35,
+        "seconds": 23.978447914123535,
+        "trust": 6.347497291776005e-05
+      }
+    },
+    {
+      "source_line": 37,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 36,
+        "seconds": 24.893779039382935,
+        "trust": 2.538998916710402e-05
+      }
+    },
+    {
+      "source_line": 38,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 37,
+        "seconds": 25.718451976776123,
+        "trust": 1.015599566684161e-05
+      }
+    },
+    {
+      "source_line": 39,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 38,
+        "seconds": 26.545197010040283,
+        "trust": 4.062398266736644e-06
+      }
+    },
+    {
+      "source_line": 40,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 39,
+        "seconds": 27.355990171432495,
+        "trust": 1.6249593066946577e-06
+      }
+    },
+    {
+      "source_line": 41,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 40,
+        "seconds": 28.165446996688843,
+        "trust": 6.499837226778632e-07
+      }
+    },
+    {
+      "source_line": 42,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 41,
+        "seconds": 29.01865005493164,
+        "trust": 2.5999348907114525e-07
+      }
+    },
+    {
+      "source_line": 43,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 42,
+        "seconds": 29.87554097175598,
+        "trust": 1.0399739562845811e-07
+      }
+    },
+    {
+      "source_line": 44,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 43,
+        "seconds": 30.895791053771973,
+        "trust": 4.1598958251383246e-08
+      }
+    },
+    {
+      "source_line": 45,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 44,
+        "seconds": 31.805278062820435,
+        "trust": 1.6639583300553298e-08
+      }
+    },
+    {
+      "source_line": 46,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 45,
+        "seconds": 32.620193004608154,
+        "trust": 6.655833320221319e-09
+      }
+    },
+    {
+      "source_line": 47,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 46,
+        "seconds": 33.370810985565186,
+        "trust": 2.662333328088528e-09
+      }
+    },
+    {
+      "source_line": 48,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 47,
+        "seconds": 34.066612005233765,
+        "trust": 1.0649333312354111e-09
+      }
+    },
+    {
+      "source_line": 49,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 48,
+        "seconds": 34.765018939971924,
+        "trust": 4.259733324941645e-10
+      }
+    },
+    {
+      "source_line": 50,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 49,
+        "seconds": 35.463846921920776,
+        "trust": 1.7038933299766581e-10
+      }
+    },
+    {
+      "source_line": 51,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 50,
+        "seconds": 36.1843740940094,
+        "trust": 6.815573319906633e-11
+      }
+    },
+    {
+      "source_line": 52,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 51,
+        "seconds": 36.883535861968994,
+        "trust": 2.7262293279626532e-11
+      }
+    },
+    {
+      "source_line": 53,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 52,
+        "seconds": 37.585376024246216,
+        "trust": 1.0904917311850614e-11
+      }
+    },
+    {
+      "source_line": 54,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 53,
+        "seconds": 38.28452706336975,
+        "trust": 4.3619669247402456e-12
+      }
+    },
+    {
+      "source_line": 55,
+      "label": "RADIUS_ORDERED_PHYSICAL_GOAL",
+      "values": {
+        "V": 165,
+        "E": 248,
+        "F": 85,
+        "S": 54,
+        "U": 38,
+        "Pmax": 0.0008321016451276822,
+        "Qmax": 0.0008937943170347106,
+        "objective": 0.029897393043888845,
+        "minimum_noncontact": 1.4036924620652869e-05,
+        "it": 54,
+        "seconds": 39.00975584983826,
+        "trust": 1.7447867698960984e-12
+      }
+    }
+  ]
+}

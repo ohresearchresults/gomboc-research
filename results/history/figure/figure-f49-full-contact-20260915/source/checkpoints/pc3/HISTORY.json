@@ -1,0 +1,134 @@
+[
+  {
+    "it": 0,
+    "centre_distance": 7.376969604801989e-05,
+    "min_reference_exit": 1.9999301466794212e-08,
+    "min_gap": 0.0008408827404562391,
+    "seconds": 0.2625207529999898,
+    "accepted": {
+      "alpha": 0.03125,
+      "corrections": 3
+    }
+  },
+  {
+    "it": 1,
+    "centre_distance": 7.146439312205903e-05,
+    "min_reference_exit": 1.940002715622241e-08,
+    "min_gap": 0.000842874946034855,
+    "seconds": 3.1429342470000847,
+    "accepted": {
+      "alpha": 0.015625,
+      "corrections": 3
+    }
+  },
+  {
+    "it": 2,
+    "centre_distance": 7.034776198074603e-05,
+    "min_reference_exit": 1.9990035893015332e-08,
+    "min_gap": 0.0008431926224339303,
+    "seconds": 10.307069668000054,
+    "accepted": {
+      "alpha": 0.015625,
+      "corrections": 3
+    }
+  },
+  {
+    "it": 3,
+    "centre_distance": 6.924857807320637e-05,
+    "min_reference_exit": 1.522233143817353e-08,
+    "min_gap": 0.0008431925103605797,
+    "seconds": 17.529868431000068,
+    "accepted": {
+      "alpha": 0.015625,
+      "corrections": 5
+    }
+  },
+  {
+    "it": 4,
+    "centre_distance": 6.816656906547764e-05,
+    "min_reference_exit": 1.7549059653169148e-08,
+    "min_gap": 0.0008421579576948224,
+    "seconds": 27.204750685000022,
+    "accepted": {
+      "alpha": 0.0078125,
+      "corrections": 3
+    }
+  },
+  {
+    "it": 5,
+    "centre_distance": 6.763401863491255e-05,
+    "min_reference_exit": 1.1817016320946739e-08,
+    "min_gap": 0.0008414462403307787,
+    "seconds": 38.95566609800005,
+    "accepted": {
+      "alpha": 0.0078125,
+      "corrections": 4
+    }
+  },
+  {
+    "it": 6,
+    "centre_distance": 6.710562906441933e-05,
+    "min_reference_exit": 1.1334680329589797e-08,
+    "min_gap": 0.0008403470049933581,
+    "seconds": 50.71074807299999,
+    "accepted": {
+      "alpha": 0.0078125,
+      "corrections": 5
+    }
+  },
+  {
+    "it": 7,
+    "centre_distance": 6.658136634258168e-05,
+    "min_reference_exit": 1.995837830286158e-08,
+    "min_gap": 0.0008394467041645814,
+    "seconds": 62.673478818000035,
+    "accepted": {
+      "alpha": 0.00390625,
+      "corrections": 3
+    }
+  },
+  {
+    "it": 8,
+    "centre_distance": 6.632128427642048e-05,
+    "min_reference_exit": 1.4012256135652155e-08,
+    "min_gap": 0.0008388058584894997,
+    "seconds": 77.55240140400008,
+    "accepted": {
+      "alpha": 0.00390625,
+      "corrections": 3
+    }
+  },
+  {
+    "it": 9,
+    "centre_distance": 6.606221790843083e-05,
+    "min_reference_exit": 1.2893281823032289e-08,
+    "min_gap": 0.0008384621217699673,
+    "seconds": 94.2655746160001,
+    "accepted": {
+      "alpha": 0.00390625,
+      "corrections": 4
+    }
+  },
+  {
+    "it": 10,
+    "centre_distance": 6.580416246807771e-05,
+    "min_reference_exit": 1.9520950364923787e-08,
+    "min_gap": 0.0008378763304144332,
+    "seconds": 110.36687631500001,
+    "accepted": {
+      "alpha": 0.00390625,
+      "corrections": 4
+    }
+  },
+  {
+    "it": 11,
+    "centre_distance": 6.554711525735915e-05,
+    "min_reference_exit": 1.536814002533794e-08,
+    "min_gap": 0.0008375780654041876,
+    "seconds": 126.65955365500008,
+    "accepted": {
+      "alpha": 0.00390625,
+      "corrections": 4
+    }
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "format": "numeric-records-from-historical-experiment-output",
+  "scope": "Only numeric scientific dictionaries are retained; process messages, stack traces and other console text are omitted.",
+  "records": [
+    {
+      "source_line": 1,
+      "label": "CONTACT_CHART",
+      "values": {
+        "V": 132,
+        "F": 115,
+        "E": 245,
+        "nodes": 247,
+        "free": 247,
+        "depth": 6,
+        "levels": 16
+      }
+    },
+    {
+      "source_line": 2,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 0,
+        "S": 2,
+        "U": 1,
+        "minimum": 3.5233279348134626e-08,
+        "centroid": [
+          -2.426121213774716e-17,
+          -3.359244757534222e-17,
+          3.3965696992846026e-16
+        ],
+        "merit": 9.101506064668742e-08,
+        "trust": 0.003,
+        "seconds": 0.8454780578613281
+      }
+    },
+    {
+      "source_line": 3,
+      "label": "CANONICAL_CORRECT",
+      "values": {
+        "it": 1,
+        "S": 2,
+        "U": 1,
+        "minimum": 9.999982159961505e-08,
+        "centroid": [
+          1.4175120028000312e-10,
+          -1.0142210620138407e-09,
+          4.307039605152178e-11
+        ],
+        "merit": 7.417158770699725e-13,
+        "trust": 0.0042,
+        "seconds": 3.999506950378418
+      }
+    },
+    {
+      "source_line": 4,
+      "label": "STRICT211_REQUIRES_EXACT",
+      "values": {
+        "it": 1,
+        "S": 2,
+        "U": 1,
+        "minimum": 9.999982159961505e-08,
+        "centroid": [
+          1.4175120028000312e-10,
+          -1.0142210620138407e-09,
+          4.307039605152178e-11
+        ],
+        "merit": 7.417158770699725e-13,
+        "trust": 0.0042,
+        "seconds": 3.999506950378418
+      }
+    }
+  ]
+}
