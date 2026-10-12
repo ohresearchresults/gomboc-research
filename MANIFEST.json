@@ -496,8 +496,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5595,
-      "sha256": "226b03ea593eae0181fca46f9ea697d2c6ab8a0d5fd55cf705aa86d9cb5cbb4d"
+      "bytes": 5922,
+      "sha256": "484dff631a0acc45c41c3af9b3e2d6cf326e2a0f8fa6b377868fed3a4c977e1d"
     },
     {
       "path": "RIGHTS.md",
@@ -603,6 +603,36 @@
       "path": "catalog/reports.json",
       "bytes": 448696,
       "sha256": "c72ee425a15d68be8bfd48547efadb64cd4d8daa5d625a4dfd424f788f38b6f6"
+    },
+    {
+      "path": "checks/sagemath/C622-result.json",
+      "bytes": 185890,
+      "sha256": "29978f88e29d4c0c324150c3dd3f79f6abce21a1db198d8e86bd5f3c52ca6207"
+    },
+    {
+      "path": "checks/sagemath/C694-input.json",
+      "bytes": 42672,
+      "sha256": "4ca3319fada21b9093b5a3f6f51d55c7661ec5dd75d4e250a42677994ed4482c"
+    },
+    {
+      "path": "checks/sagemath/C694-margins.json",
+      "bytes": 3465,
+      "sha256": "a92c17879ea1587080b90958eb97890914759cf02b33d540e6fb63a22133dc21"
+    },
+    {
+      "path": "checks/sagemath/C694-result.json",
+      "bytes": 123676,
+      "sha256": "8494067015f77e84468a615dacdb11197b107ed9974639ea3f35ff1c12525cae"
+    },
+    {
+      "path": "checks/sagemath/README.md",
+      "bytes": 3120,
+      "sha256": "49addd75e6e66cf7ca61922320b11179b6ee4ddb39b28a9d32708791aa32fda9"
+    },
+    {
+      "path": "checks/sagemath/verify.py",
+      "bytes": 4495,
+      "sha256": "e21ce4666d08890f372614b5db33fbb38b28ce46e0d25554604ccbd0999513db"
     },
     {
       "path": "docs/.nojekyll",

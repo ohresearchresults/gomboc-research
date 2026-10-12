@@ -26,6 +26,8 @@ python3 -B -S C622/VERIFY.py fresh-proof
 
 The run takes about 20 seconds and ends with `LOCAL_C622_ENDPOINT_TWO_EXACT_AUDITS_AND_THIRD_MASS_PASS`. Results are written to `C622/fresh-proof/`. The program refuses to overwrite an earlier run, so delete that folder or give another name to run it again. [What is checked, and the exact definition of the body](C622/README.md).
 
+An additional [SageMath 10.6 check](checks/sagemath/) reconstructs C622 with the PPL geometry backend and confirms its vertices, volume centroid and equilibrium counts in exact rational arithmetic. The same check also confirms the 132-facet C694 construction, whose published escape certificate has a larger certified margin.
+
 ## Research branches
 
 [![The construction search: linked research directions and their saved reports](docs/research-map-preview.png)](https://ohresearchresults.github.io/gomboc-research/research-map.html)
