@@ -30,7 +30,7 @@ The run takes about 20 seconds and ends with `LOCAL_C622_ENDPOINT_TWO_EXACT_AUDI
 
 [![The construction search: linked research directions and their saved reports](docs/research-map-preview.png)](https://ohresearchresults.github.io/gomboc-research/research-map.html)
 
-[Explore the interactive map](https://ohresearchresults.github.io/gomboc-research/research-map.html): 92 construction-search branches and 82 minimum-search branches. Follow a direction to its parent, subbranches and saved reports. The links reproduce the recorded research tree; open and closed labels describe its saved checkpoints.
+[Explore the branches and their reports](https://ohresearchresults.github.io/gomboc-research/research-map.html).
 
 ## Explore the research
 

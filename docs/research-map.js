@@ -5,7 +5,7 @@
   const $ = (id) => document.getElementById(id);
   const GITHUB = "https://github.com/ohresearchresults/gomboc-research/blob/main/";
   const STUDIES = { figure: "Figure", minimum: "Minimum" };
-  const CARD = { width: 236, height: 102, column: 305, row: 118 };
+  const CARD = { width: 292, height: 116, column: 400, row: 150 };
   const state = { study: "figure", root: null, selected: null, expanded: new Set(), visible: [], positions: new Map(), width: 0, height: 0, x: 0, y: 0, scale: 1 };
   let data, branches, reports, children;
 
@@ -44,7 +44,6 @@
       button.tabIndex = current ? 0 : -1;
     }
     $("study-panel").setAttribute("aria-labelledby", `tab-${state.study}`);
-    $("study-label").textContent = `${STUDIES[state.study].toUpperCase()} STUDY`;
     $("root-select").replaceChildren(...roots(state.study).map((branch) => {
       const option = element("option", "", `${number(branch.id)} · ${branch.title}`);
       option.value = branch.id;
@@ -63,6 +62,7 @@
     updateStudyControls();
     renderMap();
     renderInspector();
+    setInspectorOpen(false);
     updateAddress();
     announce(`${STUDIES[state.study]}: ${branch.title}. ${state.visible.length} branches shown.`);
   }
@@ -80,6 +80,7 @@
     updateStudyControls();
     renderMap();
     renderInspector();
+    setInspectorOpen(true);
     updateAddress();
     if (focus) document.querySelector(`[data-node-id="${id}"] .node-card`).focus({ preventScroll: true });
     announce(`${branches.get(id).title}. ${statusText(branches.get(id))}.`);
@@ -88,6 +89,7 @@
     state.selected = id;
     highlightSelection();
     renderInspector();
+    setInspectorOpen(true);
     updateAddress();
     announce(`${branches.get(id).title}. ${statusText(branches.get(id))}. Details updated.`);
   }
@@ -128,22 +130,14 @@
       card.title = branch.title;
       card.setAttribute("aria-label", `${STUDIES[branch.study]} branch ${number(id)}. ${branch.title}. ${statusText(branch)}. ${branch.reports.length} linked reports. Select to inspect.`);
       card.setAttribute("aria-controls", "inspector-content");
-      const top = element("span", "node-top");
-      top.append(element("span", "", `BRANCH ${number(id)}`));
-      const status = element("span", "node-status");
-      status.append(element("i", `status-mark ${branch.recorded_status}`), document.createTextNode(`Saved · ${branch.recorded_status}`));
-      top.append(status);
-      const meta = element("span", "node-meta");
-      meta.append(element("span", "", `${branch.reports.length} ${branch.reports.length === 1 ? "report" : "reports"}`));
-      if (branch.unavailable_report_count) meta.append(element("span", "node-warning", `+${branch.unavailable_report_count} unavailable`));
-      card.append(top, element("span", "node-title", branch.title), meta);
+      card.append(element("span", "node-title", branch.title));
       card.addEventListener("click", () => selectCard(id));
       card.addEventListener("focus", () => ensureVisible(id));
       node.append(card);
       const childCount = children.get(id).length;
       if (childCount) {
         const expanded = state.expanded.has(id);
-        const toggle = element("button", "expand-node", `${expanded ? "−" : "+"} ${childCount}`);
+        const toggle = element("button", "expand-node", expanded ? "−" : "+");
         toggle.type = "button";
         toggle.title = `${expanded ? "Collapse" : "Expand"} ${childCount} child ${childCount === 1 ? "branch" : "branches"}`;
         toggle.setAttribute("aria-label", `${toggle.title} of ${branch.title}`);
@@ -183,7 +177,6 @@
     $("map-edges").setAttribute("height", String(state.height));
     $("map-world").style.width = `${state.width}px`;
     $("map-world").style.height = `${state.height}px`;
-    $("view-summary").textContent = `${state.visible.length} of ${data.stats.studies[state.study].branches} branches shown`;
     highlightSelection();
     fitView();
   }
@@ -194,14 +187,26 @@
       node.classList.toggle("selected", selected);
       node.classList.toggle("ancestor", !selected && lineage.has(node.dataset.nodeId));
       node.querySelector(".node-card").setAttribute("aria-pressed", String(selected));
+      node.querySelector(".node-card").setAttribute("aria-expanded", String(selected && !$("inspector").hidden));
     }
     for (const edge of document.querySelectorAll(".branch-edge")) edge.classList.toggle("lineage", lineage.has(edge.dataset.child));
   }
 
+  function setInspectorOpen(open) {
+    $("inspector").hidden = !open;
+    $("study-panel").classList.toggle("has-inspector", open);
+    for (const card of document.querySelectorAll(".node-card")) {
+      card.setAttribute("aria-expanded", String(open && card.closest("[data-node-id]").dataset.nodeId === state.selected));
+    }
+  }
+  function closeInspector() {
+    setInspectorOpen(false);
+    document.querySelector(`[data-node-id="${state.selected}"] .node-card`)?.focus({ preventScroll: true });
+  }
   function relatedButton(id) {
     const branch = branches.get(id);
     const button = element("button", "related-branch");
-    button.append(element("span", "relation-number", `BRANCH ${number(id)} ↗`), document.createTextNode(branch.title));
+    button.append(element("span", "relation-number", `#${number(id)} ↗`), document.createTextNode(branch.title));
     button.addEventListener("click", () => navigateTo(id, true));
     return button;
   }
@@ -228,8 +233,8 @@
     const content = $("inspector-content");
     const status = element("div", `detail-status ${branch.recorded_status}`);
     status.append(element("i", `status-mark ${branch.recorded_status}`), document.createTextNode(statusText(branch)));
-    content.replaceChildren(element("p", "detail-id", `${STUDIES[branch.study].toUpperCase()} / ${branch.id}`), element("h2", "detail-title", branch.title), status);
-    content.append(element("p", "evidence-note", "The saved status describes the research record, not verification of its claims."));
+    content.replaceChildren(element("p", "detail-id", branch.id), element("h2", "detail-title", branch.title), status);
+    content.append(element("p", "evidence-note", "Archived AI work. Branch status does not verify its claims."));
     if (branch.unavailable_report_count) content.append(element("p", "unavailable-note", `${branch.unavailable_report_count} additional report reference is unavailable. Its identifier and reason are not retained in the public index.`));
     const parent = section("Recorded parent");
     if (branch.parent) parent.append(relatedButton(branch.parent));
@@ -279,7 +284,7 @@
     const width = viewport.clientWidth;
     const height = viewport.clientHeight;
     if (!width || !height || !state.width) return;
-    const top = 45, bottom = 75;
+    const top = 40, bottom = 68;
     state.scale = Math.max(0.12, Math.min(1, (width - 48) / state.width, (height - top - bottom) / state.height));
     state.x = (width - state.width * state.scale) / 2;
     state.y = top + (height - top - bottom - state.height * state.scale) / 2;
@@ -326,7 +331,7 @@
     panel.replaceChildren(element("p", "results-heading", `${matches.length} ${matches.length === 1 ? "branch" : "branches"} across both studies`));
     for (const branch of matches) {
       const result = element("button", "search-result");
-      result.append(element("span", "", `${STUDIES[branch.study].toUpperCase()} / ${branch.id}`), element("strong", "", branch.title));
+      result.append(element("span", "", branch.id), element("strong", "", branch.title));
       result.addEventListener("click", () => navigateTo(branch.id, true));
       panel.append(result);
     }
@@ -349,6 +354,7 @@
         tab.focus();
       });
     }
+    $("inspector-close").addEventListener("click", closeInspector);
     $("reset-view").addEventListener("click", () => chooseRoot(state.root));
     $("fit-view").addEventListener("click", fitView);
     $("zoom-in").addEventListener("click", () => zoom(1.2));
@@ -376,6 +382,7 @@
     document.addEventListener("pointerdown", (event) => { if (!event.target.closest(".search-area")) closeSearch(); });
     document.addEventListener("focusin", (event) => { if (!event.target.closest(".search-area")) closeSearch(); });
     document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !event.target.closest("input,select,dialog") && !$("inspector").hidden) closeInspector();
       if (event.key === "/" && !event.target.closest("input,select,textarea,dialog")) {
         event.preventDefault();
         $("branch-search").focus();
@@ -461,11 +468,6 @@
       if (branch.reports.some((id) => !reports.has(id))) throw new Error(`Missing report metadata for ${branch.id}`);
     }
     if (branches.size !== data.branches.length || reports.size !== data.reports.length) throw new Error("Duplicate catalog identifiers");
-    $("branch-total").textContent = data.stats.branches;
-    $("report-total").textContent = data.stats.reports;
-    for (const study of Object.keys(STUDIES)) $(`${study}-total`).textContent = data.stats.studies[study].branches;
-    $("branch-search").placeholder = `Search all ${data.stats.branches} branches`;
-    $("coverage-summary").textContent = `${data.stats.linked_reports} of ${data.stats.reports} reports linked to branches · ${data.stats.unavailable_reports} unavailable report reference`;
     const coverage = $("coverage-detail");
     coverage.append(element("p", "", `${data.stats.branches} branches contain ${data.stats.report_links.toLocaleString("en-US")} report links to ${data.stats.linked_reports} unique reports. Reports can be shared by branches. ${data.stats.unlinked_reports.length} of the ${data.stats.reports} indexed reports have no recorded branch link:`));
     for (const id of data.stats.unlinked_reports) {
@@ -480,7 +482,6 @@
       note.append(button);
     }
     coverage.append(note);
-    if (new URLSearchParams(location.search).get("preview") === "1") document.documentElement.classList.add("preview-mode");
     bindControls();
     const params = new URLSearchParams(location.search);
     const selected = location.hash.slice(1) || params.get("branch");

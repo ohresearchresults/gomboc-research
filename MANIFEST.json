@@ -496,8 +496,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5689,
-      "sha256": "73ff13a6b88e875fc108bc31db6db2d079c75e4a8a2819a6fb70759ca7a13b20"
+      "bytes": 5468,
+      "sha256": "45b652d613a5820d85b1be24e807abb11d2a8aee8c055c46a19c448bb1e59c21"
     },
     {
       "path": "RIGHTS.md",
@@ -601,23 +601,23 @@
     },
     {
       "path": "docs/research-map-preview.png",
-      "bytes": 254993,
-      "sha256": "e06bcae5e972f672b895937b40cfa6949cc2dc59a87684bafcec14b003e37a34"
+      "bytes": 77915,
+      "sha256": "90f1219e4303dafe8f606100f29d3173348050b255b00144f2070e4e422108c2"
     },
     {
       "path": "docs/research-map.css",
-      "bytes": 20322,
-      "sha256": "cfa257c39f4de4ab20d8725bd4a8aa22361bd956d384d59171507ded0f2c6713"
+      "bytes": 10632,
+      "sha256": "198c1af9ce303c7befe535e15f7bb79f724fa02ac3a99a9ddeecf776d764c3e3"
     },
     {
       "path": "docs/research-map.html",
-      "bytes": 263881,
-      "sha256": "106568409f9459aca44fadf8ca97c67b75c409e624618f9b6cded11881e999f8"
+      "bytes": 261604,
+      "sha256": "1c2cf473a72bc620fbf754d39f975d350191faaff71f7c1701a3a481cbece2af"
     },
     {
       "path": "docs/research-map.js",
-      "bytes": 26174,
-      "sha256": "dd35676bc81398489c81a792c528d463595d5bcbb5da9886b8240145638fec64"
+      "bytes": 25451,
+      "sha256": "4644bc5119475f10e5204c81425300d5598ec865791966d56baa0a9bea9e2645"
     },
     {
       "path": "materials/ACTUAL_ADJACENT_TRIANGLES_E17_EXCEED_BIPYRAMID_BOUND_V1-complete-adapter-d6b2efc0.md",

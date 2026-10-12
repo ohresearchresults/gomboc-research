@@ -6,76 +6,48 @@
   <meta name="color-scheme" content="dark">
   <meta name="description" content="Explore 174 recorded branches of the Figure and Minimum studies, their explicit parent links, and historical AI scientific reports.">
   <title>Research map · Gömböc research</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath fill='%23101111' stroke='%23c5d3b2' d='m20 3 15 10 1 16-16 9L4 28 5 12Z M20 3 13 17 4 28 M20 3 28 18 36 29 M5 12 28 18 20 38 13 17 35 13 M13 17 28 18'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath fill='%23151515' stroke='%23cccccc' d='m20 3 15 10 1 16-16 9L4 28 5 12Z M20 3 13 17 4 28 M20 3 28 18 36 29 M5 12 28 18 20 38 13 17 35 13 M13 17 28 18'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="research-map.css">
   <script src="research-map.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#inspector">Skip to selected branch</a>
-  <div class="app-shell">
-    <header class="site-header">
-      <a class="brand" href="./index.html" aria-label="Gömböc research catalog">
-        <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="m20 3 15 10 1 16-16 9L4 28 5 12Z M20 3 13 17 4 28 M20 3 28 18 36 29 M5 12 28 18 20 38 13 17 35 13 M13 17 28 18"/></svg>
-        <span>Gömböc <span class="brand-sub">Research archive</span></span>
-      </a>
-      <nav aria-label="Research navigation">
-        <a href="./index.html">Catalog <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/ohresearchresults/gomboc-research">Repository <span aria-hidden="true">↗</span></a>
-        <a class="exact-link" href="https://github.com/ohresearchresults/gomboc-research/blob/main/C622/README.md">C622 exact check <span aria-hidden="true">↗</span></a>
-      </nav>
-    </header>
-
-    <section class="introduction" aria-labelledby="page-title">
-      <div><p class="eyebrow">THE RECORDED RESEARCH</p><h1 id="page-title">A map of the search<span>.</span></h1>
-        <p class="intro-copy">Explore directions, follow their lineage, and read the reports behind them.</p></div>
-      <dl class="archive-counts" aria-label="Public catalog coverage">
-        <div><dt>Branches</dt><dd id="branch-total">174</dd></div>
-        <div><dt>AI reports</dt><dd id="report-total">898</dd></div>
-        <div><dt>Studies</dt><dd>02</dd></div>
-      </dl>
-    </section>
-
-    <main class="explorer" aria-label="Research branch explorer">
-      <div class="explorer-toolbar">
-        <div class="study-tabs" role="tablist" aria-label="Study">
-          <button id="tab-figure" role="tab" aria-selected="true" aria-controls="study-panel" data-study="figure">Figure <span id="figure-total">92</span></button>
-          <button id="tab-minimum" role="tab" aria-selected="false" aria-controls="study-panel" data-study="minimum" tabindex="-1">Minimum <span id="minimum-total">82</span></button>
-        </div>
-        <label class="root-field"><span class="eyebrow">Root direction</span><select id="root-select" aria-label="Root direction: branches with no recorded parent"></select></label>
-        <div class="search-area">
-          <label class="search-box" for="branch-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="branch-search" type="search" aria-label="Search all branches by title, branch ID, or linked report ID" placeholder="Search all 174 branches" autocomplete="off" aria-controls="search-results" aria-expanded="false"><kbd>/</kbd></label>
-          <div id="search-results" class="search-results" hidden></div>
-        </div>
+  <a class="skip-link" href="#map-viewport">Skip to map</a>
+  <main class="app-shell" aria-label="Research branch explorer">
+    <div class="explorer-toolbar">
+      <a class="back-link" href="./index.html" aria-label="Back to research catalog" title="Research catalog">←</a>
+      <div class="study-tabs" role="tablist" aria-label="Study">
+        <button id="tab-figure" role="tab" aria-selected="true" aria-controls="study-panel" data-study="figure">Figure</button>
+        <button id="tab-minimum" role="tab" aria-selected="false" aria-controls="study-panel" data-study="minimum" tabindex="-1">Minimum</button>
       </div>
-
-      <div id="study-panel" class="study-panel" role="tabpanel" aria-labelledby="tab-figure">
-        <section class="map-panel" aria-label="Branch lineage">
-          <div class="map-heading"><div><span id="study-label" class="study-label">FIGURE STUDY</span><span class="heading-divider">/</span><span id="view-summary">Recorded parent links</span></div><button id="reset-view" class="quiet-button" title="Restore the first two levels of this root">Reset view</button></div>
-          <div id="map-viewport" class="map-viewport" tabindex="0" aria-label="Branch map. Use arrow keys to pan, plus and minus to zoom, F to fit. Tab to select branch cards." aria-describedby="map-help">
-            <div id="map-world" class="map-world"><svg id="map-edges" aria-hidden="true"></svg><div id="map-nodes"></div></div>
-          </div>
-          <div class="map-bottom">
-            <div class="map-legend"><span><i class="status-mark open"></i>Open</span><span><i class="status-mark closed"></i>Closed</span><span class="legend-note">at saved checkpoint</span></div>
-            <div class="map-controls" aria-label="Map controls"><button id="zoom-out" aria-label="Zoom out" title="Zoom out (−)">−</button><output id="zoom-level" aria-label="Zoom level">100%</output><button id="zoom-in" aria-label="Zoom in" title="Zoom in (+)">+</button><span></span><button id="fit-view" title="Fit visible branches (F)">Fit <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 2H2v4m8-4h4v4M2 10v4h4m8-4v4h-4"/></svg></button></div>
-          </div>
-          <p id="map-help" class="map-help">Drag the canvas to pan · Scroll to pan · Ctrl/⌘ + scroll to zoom · Select a card to inspect</p>
-        </section>
-
-        <aside id="inspector" class="inspector" tabindex="-1" aria-label="Selected branch details">
-          <div class="inspector-top"><span class="eyebrow">Branch details</span><span class="archive-badge">Saved record</span></div>
-          <div id="inspector-content"></div>
-        </aside>
+      <select id="root-select" aria-label="Root direction: branches with no recorded parent"></select>
+      <div class="search-area">
+        <label class="search-box" for="branch-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="branch-search" type="search" aria-label="Search all branches by title, branch ID, or linked report ID" placeholder="Search branches" autocomplete="off" aria-controls="search-results" aria-expanded="false"><kbd>/</kbd></label>
+        <div id="search-results" class="search-results" hidden></div>
       </div>
-    </main>
-    <footer class="archive-footer">
-      <span id="coverage-summary">895 of 898 reports linked to branches · 1 unavailable report reference</span>
-      <span>Edges show recorded parents only <span class="footer-dot">·</span> <a id="coverage-open" href="#coverage">About this map</a></span>
-    </footer>
-  </div>
+    </div>
+    <div id="study-panel" class="study-panel" role="tabpanel" aria-labelledby="tab-figure">
+      <section class="map-panel" aria-label="Branch lineage">
+        <div id="map-viewport" class="map-viewport" tabindex="0" aria-label="Branch map" aria-describedby="map-help">
+          <div id="map-world" class="map-world"><svg id="map-edges" aria-hidden="true"></svg><div id="map-nodes"></div></div>
+        </div>
+        <button id="coverage-open" class="info-button" aria-label="About this map" title="About this map">i</button>
+        <div class="map-controls" aria-label="Map controls">
+          <button id="reset-view" aria-label="Reset expanded branches" title="Reset expanded branches">↺</button>
+          <button id="zoom-out" aria-label="Zoom out" title="Zoom out (−)">−</button><output id="zoom-level" aria-label="Zoom level">100%</output><button id="zoom-in" aria-label="Zoom in" title="Zoom in (+)">+</button>
+          <button id="fit-view" aria-label="Fit visible branches" title="Fit visible branches (F)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 2H2v4m8-4h4v4M2 10v4h4m8-4v4h-4"/></svg></button>
+        </div>
+        <p id="map-help" class="sr-only">Drag or scroll to pan. Ctrl/⌘ + scroll to zoom. Arrow keys pan, plus and minus zoom, F fits. Select a branch to read its reports.</p>
+      </section>
+      <aside id="inspector" class="inspector" tabindex="-1" aria-label="Selected branch details" hidden>
+        <button id="inspector-close" class="close-button" aria-label="Close branch details" title="Close branch details (Esc)">×</button>
+        <div id="inspector-content"></div>
+      </aside>
+    </div>
+  </main>
 
   <dialog id="coverage-dialog" aria-labelledby="coverage-title">
-    <div class="dialog-heading"><p class="eyebrow">Reading the archive</p><button id="coverage-close" aria-label="Close map information">×</button></div>
-    <h2 id="coverage-title">A record of directions, not a proof graph.</h2>
+    <div class="dialog-heading"><button id="coverage-close" aria-label="Close map information">×</button></div>
+    <h2 id="coverage-title">About this map</h2>
     <p>Each card is a saved research branch. Every curve is an explicit parent link from the public catalog. Root directions have no recorded parent; choosing a root does not imply a scientific relationship between roots or studies.</p>
     <p>Open and closed describe saved checkpoints, not current activity or whether a mathematical claim was proved. Titles preserve the public English branch labels; report titles preserve the indexed wording and may be in another language.</p>
     <div id="coverage-detail"></div>
