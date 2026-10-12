@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-13",
+  "unit": "One of every ten saved cases in C622/source/EXPECTED.json; includes intermediate, conditioned and nonwinner bodies",
+  "command": "python3 -B -S C622/source/REPLAY.py --out ten-case-replay",
+  "terminal_status": "VQ20_C622_TWO_INDEPENDENT_EXACT_AUDITS_COLD_SOURCE_ONLY_PASS",
+  "all_controls_passed": true,
+  "cases": [
+    {
+      "id": "C620_121_NONWINNER",
+      "V": 176,
+      "E": 310,
+      "F": 136,
+      "mechanical_complexity": 618,
+      "strict_S_U_H": [
+        1,
+        2,
+        1
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": false,
+      "A_equals_B": true,
+      "report_sha256": "9429f3858cf517a2f824be70631e16aa7870d8a7a7d79adbf49aa75bfe1cfe93"
+    },
+    {
+      "id": "C622_ROUTED",
+      "V": 176,
+      "E": 311,
+      "F": 137,
+      "mechanical_complexity": 622,
+      "strict_S_U_H": [
+        1,
+        1,
+        0
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": true,
+      "A_equals_B": true,
+      "report_sha256": "142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0"
+    },
+    {
+      "id": "C622_ROUTING_WARM",
+      "V": 176,
+      "E": 311,
+      "F": 137,
+      "mechanical_complexity": 608,
+      "strict_S_U_H": [
+        8,
+        1,
+        7
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": false,
+      "A_equals_B": true,
+      "report_sha256": "2a8d3351608903e656ee0a393df0f245244c79e084d8ec95a0cdd3f329c776fc"
+    },
+    {
+      "id": "C624_132_NONWINNER",
+      "V": 177,
+      "E": 312,
+      "F": 137,
+      "mechanical_complexity": 620,
+      "strict_S_U_H": [
+        1,
+        3,
+        2
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": false,
+      "A_equals_B": true,
+      "report_sha256": "99d0bb24ed27faece82666ea9b17caf6b3478b0c75a25bbf65fc7b0646227bc3"
+    },
+    {
+      "id": "C624_233_NONWINNER",
+      "V": 177,
+      "E": 312,
+      "F": 137,
+      "mechanical_complexity": 618,
+      "strict_S_U_H": [
+        2,
+        3,
+        3
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": false,
+      "A_equals_B": true,
+      "report_sha256": "d630541455d9bdf1d2772adfd027aba3c0bf7ec3ec10727efc6beee9bf82ab83"
+    },
+    {
+      "id": "C624_NONSIMPLE",
+      "V": 177,
+      "E": 312,
+      "F": 137,
+      "mechanical_complexity": 624,
+      "strict_S_U_H": [
+        1,
+        1,
+        0
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": true,
+      "A_equals_B": true,
+      "report_sha256": "5c489e99339bcef124c9e71a032efca26bd85d7951dd1158e8650bd6e6a92237"
+    },
+    {
+      "id": "CONDITIONED_C624",
+      "V": 177,
+      "E": 312,
+      "F": 137,
+      "mechanical_complexity": 624,
+      "strict_S_U_H": [
+        1,
+        1,
+        0
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": true,
+      "A_equals_B": true,
+      "report_sha256": "5239900795da87e90f9cf97c5aa20a1a406ae8641f3db3d1c42d81b92cee502f"
+    },
+    {
+      "id": "CONDITIONED_C626",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "mechanical_complexity": 626,
+      "strict_S_U_H": [
+        1,
+        1,
+        0
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": true,
+      "A_equals_B": true,
+      "report_sha256": "5242cf200eb07b17bb22f81a6d9cf46928439118aefcaa2f99d1f922e7d81738"
+    },
+    {
+      "id": "PARENT",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "mechanical_complexity": 626,
+      "strict_S_U_H": [
+        1,
+        1,
+        0
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": true,
+      "A_equals_B": true,
+      "report_sha256": "da2fa56ff31186699a59b79a1a2bce6362aa362bcd34c735c2fb0a2424d811dd"
+    },
+    {
+      "id": "S8_DEPENDENCY",
+      "V": 177,
+      "E": 312,
+      "F": 137,
+      "mechanical_complexity": 624,
+      "strict_S_U_H": [
+        1,
+        1,
+        0
+      ],
+      "weak_S_U_H": [
+        0,
+        0,
+        0
+      ],
+      "meets_target": true,
+      "A_equals_B": true,
+      "report_sha256": "5c2b54b61cca05f62c4a52e8c124db831825d7743b6e1f9f306cd95e46a57922"
+    }
+  ]
+}

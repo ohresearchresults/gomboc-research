@@ -1,6 +1,6 @@
 # Dated construction history
 
-The search record identifies 136 distinct accepted constructions from 2026-09-04 through 2026-09-15. Each was reported with strict equilibrium counts (1,1,0): one stable, one unstable and no saddle.
+The catalog contains 136 construction records from 2026-09-04 through 2026-09-15. The retained row labels distinguish 63 explicit accepted records, five parallel accepted exact reports, 61 records without a row-level status and seven records with other explicit statuses. The [process analysis](../analysis/research-process/) retains these labels and computes progress both with and without the records whose status was omitted.
 
 Rows are ordered by recorded UTC time. Repeated V/E/F/C values can describe different exact bodies. Parent links are shown only when a body relationship is documented; neighboring rows do not imply ancestry. The separate C630-to-C622 route is described below.
 

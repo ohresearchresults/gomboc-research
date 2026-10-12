@@ -1,0 +1,25 @@
+{
+  "source": "results/history/figure/figure-c282-integer-own211-20260915/canonical-entries.md",
+  "evidence": "Contemporaneous recorded numerical runs; not a fresh numerical replay",
+  "batches": [
+    {
+      "method": "five-parameter affine search",
+      "starts": 32,
+      "own_centroid_closures": null,
+      "target_class_results": 0
+    },
+    {
+      "method": "single-chain search",
+      "starts": 60,
+      "own_centroid_closures": 0,
+      "target_class_results": 0
+    },
+    {
+      "method": "opposed-chain search",
+      "starts": 60,
+      "own_centroid_closures": 12,
+      "named_two_stable_one_unstable_results": 2,
+      "target_class_results": 0
+    }
+  ]
+}

@@ -496,13 +496,48 @@
     },
     {
       "path": "README.md",
-      "bytes": 5922,
-      "sha256": "484dff631a0acc45c41c3af9b3e2d6cf326e2a0f8fa6b377868fed3a4c977e1d"
+      "bytes": 6053,
+      "sha256": "f847b1393c3b5962f8d3c42e928a033e8b7072075a10007119b0bdd3c30c2e6d"
     },
     {
       "path": "RIGHTS.md",
       "bytes": 690,
       "sha256": "0c45ae23c929ba666009c0fd8b96c7b3e93cc1d6898fd5f3008e5d9c2331d4ac"
+    },
+    {
+      "path": "analysis/research-process/README.md",
+      "bytes": 3865,
+      "sha256": "2b3a8c37e76e4e937e70bf95feac46452e9711728f0994c08bbb26b89b036099"
+    },
+    {
+      "path": "analysis/research-process/analyze.py",
+      "bytes": 5241,
+      "sha256": "a13ef4163c91bb0635ad765fabd76979c5fcd1280a5c75b9df1d9ef8107f32cf"
+    },
+    {
+      "path": "analysis/research-process/construction-records.json",
+      "bytes": 52048,
+      "sha256": "0b7d3e4d088ed87203ae46e72bdb7550d437dc010a0f48ff50cc864dece8dc94"
+    },
+    {
+      "path": "analysis/research-process/failure-episodes.json",
+      "bytes": 1010,
+      "sha256": "1b70655e98f3ba00b7c45f50303d4a4de2bec17de798823aa6a70f394bfd218f"
+    },
+    {
+      "path": "analysis/research-process/reported-search-batches.json",
+      "bytes": 682,
+      "sha256": "9e9d4d6a9ff7638ed2095f67362efd2995d6b7ac903a2505b5ced175ac2b6b70"
+    },
+    {
+      "path": "analysis/research-process/summary.json",
+      "bytes": 17100,
+      "sha256": "b6bf45ef346ac1eaf41f703b8a8644f39fb38dfd89d17ed525d18ef8bcc47317"
+    },
+    {
+      "path": "analysis/research-process/verification-cases.json",
+      "bytes": 4363,
+      "sha256": "82e12073a6edf9993e355b7a5373ef920645d65f4d0e008b53fe86b788a1375a"
     },
     {
       "path": "catalog/README.md",
@@ -536,13 +571,13 @@
     },
     {
       "path": "catalog/construction-history.json",
-      "bytes": 109714,
-      "sha256": "63ddb03083e4473f874026d5d8ea850a8f8f8fef9f5e2292d4d77fc84b0c341f"
+      "bytes": 123796,
+      "sha256": "88c16b07f6a25b7c3249b68b63ed93f0954d4e6ff6e8cd46396a784fc14c70d6"
     },
     {
       "path": "catalog/construction-history.md",
-      "bytes": 45368,
-      "sha256": "9e47963987da0bf23be03a457c1c40d055840482444829b7f74061303c7c34bb"
+      "bytes": 45598,
+      "sha256": "206a12cc2e1e16b8394d88a82c5a571551ae87ffebf385b41fe1e3a24888b1ae"
     },
     {
       "path": "catalog/constructions.md",
@@ -551,8 +586,8 @@
     },
     {
       "path": "catalog/coverage.md",
-      "bytes": 2633,
-      "sha256": "74087595c23cba485206f808ad6608968df4da4c1dba4954be965bd01e3a73b4"
+      "bytes": 2840,
+      "sha256": "9c525eb854e2a15db4884957404bf1eaa7e5702ee5ca44a983da6ff8580ab01a"
     },
     {
       "path": "catalog/downloads.json",
@@ -641,8 +676,8 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 644496,
-      "sha256": "dac924f2a9f078da66169b82fdfdd2b3675a23802d13c958f85bb85083a27120"
+      "bytes": 644499,
+      "sha256": "806e7ba47add1b639bfba7a337c01b69fe01f3fa5f36b8ae8e4688daffc73a31"
     },
     {
       "path": "docs/research-map-preview.png",
@@ -43744,5 +43779,6 @@
       "bytes": 5884,
       "sha256": "ffd7103ace2b76fd8f8c0585be326bce6b2131e50eb4a00406641198387f88c7"
     }
-  ]
+  ],
+  "updated_on": "2026-10-13"
 }

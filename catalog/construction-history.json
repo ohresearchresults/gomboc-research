@@ -6,19 +6,26 @@
     "2026-09-15"
   ],
   "scope": {
-    "accepted_entry_count": 136,
     "complete_census": false,
     "package_path_matches": 33,
     "entries_without_a_recorded_package_path": 103,
-    "unit_of_count": "distinct accepted body identity; equal V/E/F/C tuples remain separate when the exact bodies differ",
-    "equilibrium_reporting": "Strict counts are taken from the accepted-entry ladder. Weak counts are included only when a cited journal line names the body and states the counts; otherwise they are unknown.",
+    "unit_of_count": "Catalogued construction record; row status and available source packages distinguish the retained evidence.",
+    "equilibrium_reporting": "Strict counts are reported by the source entries. Row-level acceptance status is retained separately. Weak counts are included only when the cited record states them.",
     "coverage_note": "The inspected journal has unread archive spans on 11, 13, and 14 September 2026. Additional accepted bodies may be absent; the 136 rows are not a complete census.",
     "excluded_unresolved_candidates": [
       "C762",
       "C798",
       "C816"
     ],
-    "replay_note": "This dated record is not a claim that all listed bodies were independently rerun while preparing this catalog. A package link means that a matching public package path was recorded and its target exists."
+    "replay_note": "This dated record is not a claim that all listed bodies were independently rerun while preparing this catalog. A package link means that a matching public package path was recorded and its target exists.",
+    "construction_record_count": 136,
+    "status_categories": {
+      "explicit_accepted_status": 63,
+      "parallel_accepted_exact_report": 5,
+      "record_status_omitted": 61,
+      "other_explicit_status": 7
+    },
+    "analysis": "analysis/research-process/"
   },
   "ordering_and_parentage": {
     "ordering": "Entries are sorted by their recorded UTC timestamps; chronology alone does not establish a parent-child relation.",
@@ -93,7 +100,9 @@
         1490,
         1503,
         1514
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260904T224109-l98-rh222935-q-c1337348",
@@ -118,7 +127,9 @@
       "public_package": null,
       "source_journal_lines": [
         1505
-      ]
+      ],
+      "record_status": "parallel exact report; not locally replayed",
+      "acceptance_category": "other_explicit_status"
     },
     {
       "id": "20260904T225159-unnamed-134131-vertex-exact-body-journal-giv-c804268",
@@ -145,7 +156,9 @@
         1526,
         1524,
         1528
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T021131-p50-4355-c26112",
@@ -173,7 +186,9 @@
         1723,
         1769,
         1790
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T021131-r31291-exact-rational-body-c187732",
@@ -198,7 +213,9 @@
       "public_package": null,
       "source_journal_lines": [
         1693
-      ]
+      ],
+      "record_status": "parallel exact body",
+      "acceptance_category": "other_explicit_status"
     },
     {
       "id": "20260905T021131-unnamed-76937-vertex-worker-body-formal-iden-c461584",
@@ -223,7 +240,9 @@
       "public_package": null,
       "source_journal_lines": [
         1705
-      ]
+      ],
+      "record_status": "parallel exact report",
+      "acceptance_category": "other_explicit_status"
     },
     {
       "id": "20260905T024030-p50l-4355-c26112",
@@ -251,7 +270,9 @@
         1730,
         1772,
         1790
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T024030-p50r-4355-c26112",
@@ -277,7 +298,9 @@
       "source_journal_lines": [
         1727,
         1790
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T031607-p50a-4355-c26112",
@@ -303,7 +326,9 @@
       "source_journal_lines": [
         1821,
         1823
-      ]
+      ],
+      "record_status": "accepted distinct same-count body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T032629-p50d-4333-c25980",
@@ -328,7 +353,9 @@
       "public_package": null,
       "source_journal_lines": [
         1846
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T033614-p50-fus4355-c23268-r-c23268",
@@ -354,7 +381,9 @@
       "source_journal_lines": [
         1864,
         1880
-      ]
+      ],
+      "record_status": "accepted exact parallel body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T042849-nh13-no575-r1213-c7260",
@@ -380,7 +409,9 @@
       "source_journal_lines": [
         1908,
         1916
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T045606-no575-flow985-r-c5892",
@@ -405,7 +436,9 @@
       "public_package": null,
       "source_journal_lines": [
         1950
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T051112-no575-shortcut897-r-c5368",
@@ -435,7 +468,9 @@
         1983,
         2000,
         2027
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T054621-no575-dynamic865-r-c5176",
@@ -461,7 +496,9 @@
       "source_journal_lines": [
         2027,
         2033
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T054621-unnamed-promoted-869-vertex-endpoint-c5200",
@@ -486,7 +523,9 @@
       "public_package": null,
       "source_journal_lines": [
         2027
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T054621-unnamed-promoted-885-vertex-endpoint-c5296",
@@ -511,7 +550,9 @@
       "public_package": null,
       "source_journal_lines": [
         2027
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T054621-unnamed-promoted-893-vertex-endpoint-c5344",
@@ -536,7 +577,9 @@
       "public_package": null,
       "source_journal_lines": [
         2027
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T063202-no575-multipath815-r-c4876",
@@ -561,7 +604,9 @@
       "public_package": null,
       "source_journal_lines": [
         2053
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T063202-unnamed-exact-847-vertex-multipath-endpoint-c5068",
@@ -586,7 +631,9 @@
       "public_package": null,
       "source_journal_lines": [
         2053
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T063202-unnamed-exact-881-vertex-multipath-endpoint-c5272",
@@ -611,7 +658,9 @@
       "public_package": null,
       "source_journal_lines": [
         2053
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T064528-no575-balanced631-r-c3772",
@@ -636,7 +685,9 @@
       "public_package": null,
       "source_journal_lines": [
         2077
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T064528-no575-balanced745-r-c4456",
@@ -661,7 +712,9 @@
       "public_package": null,
       "source_journal_lines": [
         2077
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T065757-no575-balanced573-r-c3424",
@@ -690,7 +743,9 @@
       "source_journal_lines": [
         2097,
         2243
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T065757-no575-global603-r-c3604",
@@ -715,7 +770,9 @@
       "public_package": null,
       "source_journal_lines": [
         2097
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T065757-no575-global609-r-c3640",
@@ -740,7 +797,9 @@
       "public_package": null,
       "source_journal_lines": [
         2097
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T065757-no575-global611-r-c3652",
@@ -765,7 +824,9 @@
       "public_package": null,
       "source_journal_lines": [
         2097
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T065757-no575-normal607-r-c3628",
@@ -790,7 +851,9 @@
       "public_package": null,
       "source_journal_lines": [
         2097
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T071730-no575-global571-r-c3412",
@@ -816,7 +879,9 @@
       "source_journal_lines": [
         2138,
         2140
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T073232-contract543-c3244",
@@ -842,7 +907,9 @@
       "source_journal_lines": [
         2159,
         2169
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T073232-no575-global559-r-c3340",
@@ -868,7 +935,9 @@
       "source_journal_lines": [
         2153,
         2159
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T073232-no575-normal511-r-c3052",
@@ -894,7 +963,9 @@
       "source_journal_lines": [
         2151,
         2159
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T073232-no575-rescued545-r-c3256",
@@ -920,7 +991,9 @@
       "source_journal_lines": [
         2153,
         2159
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T073232-no575-wide555-branch-endpoint-c3316",
@@ -946,7 +1019,9 @@
       "source_journal_lines": [
         2153,
         2159
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T074635-no575-deep497-r-c2968",
@@ -972,7 +1047,9 @@
       "source_journal_lines": [
         2176,
         2182
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T075859-no575-wide487-r-c2908",
@@ -997,7 +1074,9 @@
       "public_package": null,
       "source_journal_lines": [
         2212
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T085015-exact-507-vertex-body-branch-label-not-state-c3028",
@@ -1022,7 +1101,9 @@
       "public_package": null,
       "source_journal_lines": [
         2249
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T085015-exact-535-vertex-body-branch-name-not-stated-c3196",
@@ -1047,7 +1128,9 @@
       "public_package": null,
       "source_journal_lines": [
         2243
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T085015-exact-553-vertex-body-branch-name-not-stated-c3304",
@@ -1072,7 +1155,9 @@
       "public_package": null,
       "source_journal_lines": [
         2243
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T085015-exact-569-vertex-body-branch-name-not-stated-c3400",
@@ -1097,7 +1182,9 @@
       "public_package": null,
       "source_journal_lines": [
         2243
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T085015-rebuilt521-c3112",
@@ -1123,7 +1210,9 @@
       "source_journal_lines": [
         2245,
         2247
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T091800-contract479-c2860",
@@ -1148,7 +1237,9 @@
       "public_package": null,
       "source_journal_lines": [
         2258
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T091800-insert463-c2764",
@@ -1176,7 +1267,9 @@
         2258,
         2273,
         2277
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T091800-multi469-c2800",
@@ -1202,7 +1295,9 @@
       "source_journal_lines": [
         2265,
         2258
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T091800-multifinal467-c2788",
@@ -1228,7 +1323,9 @@
       "source_journal_lines": [
         2265,
         2258
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T091800-radial465-c2776",
@@ -1254,7 +1351,9 @@
       "source_journal_lines": [
         2268,
         2258
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T091800-rescaled475-c2836",
@@ -1280,7 +1379,9 @@
       "source_journal_lines": [
         2263,
         2258
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T091800-rescaled485-c2896",
@@ -1306,7 +1407,9 @@
       "source_journal_lines": [
         2263,
         2258
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T094602-insert457-c2728",
@@ -1332,7 +1435,9 @@
       "source_journal_lines": [
         2275,
         2289
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T101431-direct549-c3280",
@@ -1357,7 +1462,9 @@
       "public_package": null,
       "source_journal_lines": [
         2298
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T101431-free-radial485-c2876",
@@ -1382,7 +1489,9 @@
       "public_package": null,
       "source_journal_lines": [
         2298
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T101431-free-radial491-c2932",
@@ -1407,7 +1516,9 @@
       "public_package": null,
       "source_journal_lines": [
         2298
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T101431-insert525-c3136",
@@ -1432,7 +1543,9 @@
       "public_package": null,
       "source_journal_lines": [
         2298
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T102644-homotopy453-c2688",
@@ -1457,7 +1570,9 @@
       "public_package": null,
       "source_journal_lines": [
         2319
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T102644-rank429-c2544",
@@ -1483,7 +1598,9 @@
       "source_journal_lines": [
         2326,
         2340
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T110119-exact439-c2620",
@@ -1508,7 +1625,9 @@
       "public_package": null,
       "source_journal_lines": [
         2364
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T110119-exact495-c2956",
@@ -1533,7 +1652,9 @@
       "public_package": null,
       "source_journal_lines": [
         2364
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T110119-exact519-c3100",
@@ -1558,7 +1679,9 @@
       "public_package": null,
       "source_journal_lines": [
         2359
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T110119-exact555-c3316",
@@ -1583,7 +1706,9 @@
       "public_package": null,
       "source_journal_lines": [
         2359
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T111844-endpoint421-c2512",
@@ -1608,7 +1733,9 @@
       "public_package": null,
       "source_journal_lines": [
         2375
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T113141-balanced335-c1996",
@@ -1633,7 +1760,9 @@
       "public_package": null,
       "source_journal_lines": [
         2395
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T113141-balanced389-c2320",
@@ -1658,7 +1787,9 @@
       "public_package": null,
       "source_journal_lines": [
         2395
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T113141-balanced401-c2392",
@@ -1683,7 +1814,9 @@
       "public_package": null,
       "source_journal_lines": [
         2395
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T120244-arc331-c1972",
@@ -1708,7 +1841,9 @@
       "public_package": null,
       "source_journal_lines": [
         2416
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T120244-radial327-c1948",
@@ -1733,7 +1868,9 @@
       "public_package": null,
       "source_journal_lines": [
         2416
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T120244-strict323-c1924",
@@ -1758,7 +1895,9 @@
       "public_package": null,
       "source_journal_lines": [
         2409
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T195447-cn11-p50-r2033-q10-c12180",
@@ -1783,7 +1922,9 @@
       "public_package": null,
       "source_journal_lines": [
         2520
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T203640-relax323-a-exact-c1924",
@@ -1808,7 +1949,9 @@
       "public_package": null,
       "source_journal_lines": [
         2567
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260905T203640-strict319-a-exact-c1900",
@@ -1834,7 +1977,9 @@
       "source_journal_lines": [
         2567,
         2598
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T210950-strict307-star-exact-c1828",
@@ -1859,7 +2004,9 @@
       "public_package": null,
       "source_journal_lines": [
         2604
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260905T210950-strict311-b-exact-c1852",
@@ -1884,7 +2031,9 @@
       "public_package": null,
       "source_journal_lines": [
         2604
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260906T055424-strict262-direct-repair-exact-c1508",
@@ -1909,7 +2058,9 @@
       "public_package": null,
       "source_journal_lines": [
         2668
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260906T063507-strict260-pn03-c1440-c1440",
@@ -1934,7 +2085,9 @@
       "public_package": null,
       "source_journal_lines": [
         2727
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260906T065158-support260-pn03-c1416-c1416",
@@ -1960,7 +2113,9 @@
       "source_journal_lines": [
         2766,
         2796
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260906T081103-elastic259-pn03-c1402-c1402",
@@ -1986,7 +2141,9 @@
       "source_journal_lines": [
         2844,
         2874
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260906T085651-mass-forest258-pn03-c1398-c1398",
@@ -2011,7 +2168,9 @@
       "public_package": null,
       "source_journal_lines": [
         2888
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260906T133734-fusion258-pn03-c1386-c1386",
@@ -2036,7 +2195,9 @@
       "public_package": null,
       "source_journal_lines": [
         2932
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260906T135632-fusion258-pn03-c1374-c1374",
@@ -2065,7 +2226,9 @@
       "source_journal_lines": [
         2949,
         2973
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260908T044510-nn51-chain258-pn03-c1370-c1370",
@@ -2091,7 +2254,9 @@
       "source_journal_lines": [
         7929,
         8824
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260908T235704-coord-gate167-c990-r14-c990",
@@ -2120,7 +2285,9 @@
       "public_package": null,
       "source_journal_lines": [
         10008
-      ]
+      ],
+      "record_status": null,
+      "acceptance_category": "record_status_omitted"
     },
     {
       "id": "20260909T002556-coord-h160-c938-d100000-c938",
@@ -2152,7 +2319,9 @@
       },
       "source_journal_lines": [
         10041
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T011533-coord-h153-c892-d10000000-c892",
@@ -2181,7 +2350,9 @@
       "public_package": null,
       "source_journal_lines": [
         10137
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T013749-coord-h141-c820-d100000-c820",
@@ -2210,7 +2381,9 @@
       "public_package": null,
       "source_journal_lines": [
         10234
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T034824-coord-h138-c760-d177912706226730000000-c760",
@@ -2235,7 +2408,9 @@
       "public_package": null,
       "source_journal_lines": [
         10342
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T034824-coord-h141-c752-d1000000-c752",
@@ -2266,7 +2441,9 @@
         10275,
         11239,
         11245
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T034824-kr68-cap257-c1364-c1364",
@@ -2295,7 +2472,9 @@
       "public_package": null,
       "source_journal_lines": [
         10775
-      ]
+      ],
+      "record_status": "parallel accepted exact report",
+      "acceptance_category": "parallel_accepted_exact_report"
     },
     {
       "id": "20260909T034824-lynx139-c822",
@@ -2324,7 +2503,9 @@
       "public_package": null,
       "source_journal_lines": [
         11019
-      ]
+      ],
+      "record_status": "parallel accepted exact report",
+      "acceptance_category": "parallel_accepted_exact_report"
     },
     {
       "id": "20260909T034824-lynx144-c852",
@@ -2349,7 +2530,9 @@
       "public_package": null,
       "source_journal_lines": [
         11121
-      ]
+      ],
+      "record_status": "parallel accepted exact report",
+      "acceptance_category": "parallel_accepted_exact_report"
     },
     {
       "id": "20260909T034824-lynx145-c858",
@@ -2374,7 +2557,9 @@
       "public_package": null,
       "source_journal_lines": [
         11121
-      ]
+      ],
+      "record_status": "parallel accepted exact report",
+      "acceptance_category": "parallel_accepted_exact_report"
     },
     {
       "id": "20260909T035414-qr29-contact-h155-c792-r100000000000-c792",
@@ -2403,7 +2588,9 @@
       "public_package": null,
       "source_journal_lines": [
         11264
-      ]
+      ],
+      "record_status": "parallel accepted exact report",
+      "acceptance_category": "parallel_accepted_exact_report"
     },
     {
       "id": "20260909T052055-coord-flow-h140-c746-d100000000-c746",
@@ -2436,7 +2623,9 @@
       "source_journal_lines": [
         11489,
         11503
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T053423-coord-flow-h135-c716-d1000000000-c716",
@@ -2468,7 +2657,9 @@
       },
       "source_journal_lines": [
         11524
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T072007-coord-flow-h132-c698-d1000000000-c698",
@@ -2500,7 +2691,9 @@
       },
       "source_journal_lines": [
         11608
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T075133-coord-conditioned-contact23-h132-c696-c696",
@@ -2533,7 +2726,9 @@
       "source_journal_lines": [
         11641,
         11677
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T075133-coord-conditioned-h132-c698-d1000000000-c698",
@@ -2565,7 +2760,9 @@
       },
       "source_journal_lines": [
         11620
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T080733-coord-two-contacts-h132-c694-c694",
@@ -2598,7 +2795,9 @@
       "source_journal_lines": [
         11698,
         11759
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T095307-coord-five-contacts-h132-c688-c688",
@@ -2628,7 +2827,9 @@
       "source_journal_lines": [
         11783,
         11825
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T095307-unnamed-c692-intermediate-no-formal-body-ide-c692",
@@ -2654,7 +2855,9 @@
       "source_journal_lines": [
         11835,
         11837
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T101543-coord-six-contacts-h132-c686-c686",
@@ -2680,7 +2883,9 @@
       "source_journal_lines": [
         11890,
         11931
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T103418-coord-seven-contacts-h132-c684-c684",
@@ -2706,7 +2911,9 @@
       "source_journal_lines": [
         11989,
         12018
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T104420-coord-eight-contacts-h132-c682-c682",
@@ -2732,7 +2939,9 @@
       "source_journal_lines": [
         12032,
         12057
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T115830-lynx2-c698-area-d1e9-c698",
@@ -2761,7 +2970,9 @@
       "public_package": null,
       "source_journal_lines": [
         12159
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T115830-qr29-atlas-h136-c662-d1000000000000-c662",
@@ -2790,7 +3001,9 @@
       "public_package": null,
       "source_journal_lines": [
         12149
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T115830-qr29-atlas-h137-c652-d1000000000000-c652",
@@ -2819,7 +3032,9 @@
       "public_package": null,
       "source_journal_lines": [
         12149
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T115830-unnamed-nine-contact-132-support-c680-body-n-c680",
@@ -2844,7 +3059,9 @@
       "public_package": null,
       "source_journal_lines": [
         12167
-      ]
+      ],
+      "record_status": "reported exact strict-110 body; literal recovery append still pending at this journal point",
+      "acceptance_category": "other_explicit_status"
     },
     {
       "id": "20260909T133712-coord-conditioned-contact35-h137-c650-d10000-c650",
@@ -2877,7 +3094,9 @@
       "source_journal_lines": [
         12260,
         12295
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T135559-coord-conditioned-contact36-h137-c648-d10000-c648",
@@ -2907,7 +3126,9 @@
       "source_journal_lines": [
         12297,
         12496
-      ]
+      ],
+      "record_status": "reported strict-110 exact endpoint; not promoted because complete defining table was not recovered",
+      "acceptance_category": "other_explicit_status"
     },
     {
       "id": "20260909T193451-c648-rebuilt-r7-c648",
@@ -2936,7 +3157,9 @@
       "source_journal_lines": [
         12594,
         12629
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260909T194119-c648-rebuilt-r12-c648",
@@ -2968,7 +3191,9 @@
       },
       "source_journal_lines": [
         12629
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260910T063545-c634-soc-c634",
@@ -2997,7 +3222,9 @@
       "source_journal_lines": [
         12762,
         12796
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260910T070516-c636-grid7-c636",
@@ -3030,7 +3257,9 @@
       "source_journal_lines": [
         12784,
         12796
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260910T070516-c636-h213-soc-c636",
@@ -3063,7 +3292,9 @@
       "source_journal_lines": [
         12784,
         12796
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260910T070516-c638-h213-grid7-c638",
@@ -3096,7 +3327,9 @@
       "source_journal_lines": [
         12784,
         12796
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260910T070516-c642-grid6-repair169-c642",
@@ -3129,7 +3362,9 @@
       "source_journal_lines": [
         12784,
         12796
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260910T131126-bq13-c632-three-link-own110-c632",
@@ -3162,7 +3397,9 @@
       "source_journal_lines": [
         13053,
         13133
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260912T102403-cap-bright-c630-exact-body-full-identifier-u-c630",
@@ -3187,7 +3424,9 @@
       "public_package": null,
       "source_journal_lines": [
         13440
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260912T102403-coord-c630-base-grid7-own110-c630",
@@ -3213,7 +3452,9 @@
       "source_journal_lines": [
         13440,
         13484
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260912T102403-d9-c630-exact-body-full-identifier-unresolve-c630",
@@ -3238,7 +3479,9 @@
       "public_package": null,
       "source_journal_lines": [
         13440
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260912T102403-r5-c630-exact-body-full-identifier-unresolve-c630",
@@ -3263,7 +3506,9 @@
       "public_package": null,
       "source_journal_lines": [
         13440
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260912T102403-r7-c630-exact-body-full-identifier-unresolve-c630",
@@ -3288,7 +3533,9 @@
       "public_package": null,
       "source_journal_lines": [
         13440
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260912T115332-coord-c630-conditioned-grid6-own110-c630",
@@ -3314,7 +3561,9 @@
       "source_journal_lines": [
         13537,
         13566
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260912T150059-rl07-grid7-z18-94-c628-g1e9-c628",
@@ -3348,7 +3597,9 @@
         13704,
         13690,
         13726
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T004603-bq13-c628-vertex-71-73-r6-own110-c628",
@@ -3381,7 +3632,9 @@
       "source_journal_lines": [
         14156,
         14164
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body; distinct from RL07 C628 despite equal V/E/F/C",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T005139-coord-bq-rl-double-c626-own110-g14-c626",
@@ -3411,7 +3664,9 @@
         14176,
         14194,
         14200
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T005139-coord-bq-rl-double-c626-own110-g8-c626",
@@ -3441,7 +3696,9 @@
         14176,
         14194,
         14200
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T021327-bq13-c626-stable-cap-vertex-68-96-own110-ali-c626",
@@ -3469,7 +3726,9 @@
       },
       "source_journal_lines": [
         14462
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T042922-atlas56-adapt-c626",
@@ -3498,7 +3757,9 @@
       "source_journal_lines": [
         14801,
         14803
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T042922-atlas56-d3-small-c626-own110-c626",
@@ -3531,7 +3792,9 @@
       "source_journal_lines": [
         14801,
         14803
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T042922-atlas56-d3-strong-c626",
@@ -3560,7 +3823,9 @@
       "source_journal_lines": [
         14801,
         14803
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T050955-coord-cap-rl-c624-inherited-g9-c624",
@@ -3593,7 +3858,9 @@
       "source_journal_lines": [
         15047,
         14478
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T051322-coord-cap-rl-c624-strong-g8-alias-s8-c624",
@@ -3627,7 +3894,9 @@
         15047,
         15548,
         15965
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260914T075256-coord-s8-d132-c624-c624",
@@ -3659,7 +3928,9 @@
       },
       "source_journal_lines": [
         15263
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260915T120943-manifold2-c624-body-formal-full-identifier-n-c624",
@@ -3684,7 +3955,9 @@
       "public_package": null,
       "source_journal_lines": [
         15969
-      ]
+      ],
+      "record_status": "reported exact strict-110 body; ephemeral and not persisted",
+      "acceptance_category": "other_explicit_status"
     },
     {
       "id": "20260915T120943-pc2-c624-body-formal-full-identifier-not-sta-c624",
@@ -3709,7 +3982,9 @@
       "public_package": null,
       "source_journal_lines": [
         15969
-      ]
+      ],
+      "record_status": "reported exact strict-110 body; ephemeral and not persisted",
+      "acceptance_category": "other_explicit_status"
     },
     {
       "id": "20260915T143428-vq20-rl07-c626-z87-127-g1e9-c626",
@@ -3741,7 +4016,9 @@
       },
       "source_journal_lines": [
         16147
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     },
     {
       "id": "20260915T174319-vq20-c622-route88-118-g12-c622-routed-c622",
@@ -3776,7 +4053,9 @@
         16518,
         16545,
         16694
-      ]
+      ],
+      "record_status": "accepted exact strict-110 body",
+      "acceptance_category": "explicit_accepted_status"
     }
   ]
 }

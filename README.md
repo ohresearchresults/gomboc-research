@@ -41,8 +41,9 @@ An additional [SageMath 10.6 check](checks/sagemath/) reconstructs C622 with the
 | Material | Start here |
 | --- | --- |
 | Polyhedra, their sizes and verification results | [Construction gallery](catalog/constructions.md) |
-| 136 dated constructions, their methods and recorded predecessors | [Construction history](catalog/construction-history.md) |
+| 136 dated construction records, methods and recorded predecessors | [Construction history](catalog/construction-history.md) |
 | Earlier constructions, methods and unsuccessful directions | [Scientific collections](catalog/README.md) |
+| Progress, verification outcomes and unsuccessful search batches | [Reproducible process analysis](analysis/research-process/) |
 | 898 AI research reports | [Report index](reports/README.md) |
 | 1,101 source notes and proof drafts | [Scientific materials](materials/README.md) |
 | 174 recorded research branches | [Interactive map](https://ohresearchresults.github.io/gomboc-research/research-map.html) · [Branch index](catalog/branches.md) |

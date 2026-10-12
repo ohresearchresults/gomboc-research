@@ -6,6 +6,8 @@ The archive contains 158,763 scientific files (2.81 GB before compression), 898 
 
 [C622](../C622/README.md) passes the supplied exact verification programs. The search for C<500 remains open. The Minimum study contains proposed computer-assisted proofs of V≥10 and F≥9, retained for a separate mathematical assessment. Together, these bounds would imply C(1,1)≥34. Historical reports include incomplete and superseded arguments; their labels describe the status at the time.
 
+The [process analysis](../analysis/research-process/) distinguishes the 136 catalogued construction records by their retained acceptance labels and reports a fresh exact replay of all ten saved C622 cases.
+
 ## Missing material
 
 Seven submitted research tasks have no saved result. The J143 translation-mass-closure note lacks confirmed copies of four companion files: `input143.py`, `exact_translation143.py`, `quartic_census143.py` and `TRANSLATION143_EXACT_RECIPE.json`. The complete KL13C 100-file source bundle is also unavailable. C622 includes all inputs needed for its standalone check.

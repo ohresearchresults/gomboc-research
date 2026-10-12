@@ -1,0 +1,1989 @@
+{
+  "source": "catalog/construction-history.json and its preserved row-status annotations",
+  "unit": "Catalogued construction record; not necessarily a distinct, independently replayed body",
+  "records": [
+    {
+      "id": "20260904T223747-unnamed-171167-vertex-candidate-journal-give-c1026460",
+      "utc": "2026-09-04T22:37:47.552Z",
+      "V": 171167,
+      "E": 513230,
+      "F": 342065,
+      "C": 1026460,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        1490,
+        1503,
+        1514
+      ]
+    },
+    {
+      "id": "20260904T224109-l98-rh222935-q-c1337348",
+      "utc": "2026-09-04T22:41:09.428Z",
+      "V": 222935,
+      "E": 668674,
+      "F": 445741,
+      "C": 1337348,
+      "acceptance_category": "other_explicit_status",
+      "record_status": "parallel exact report; not locally replayed",
+      "public_package": null,
+      "journal_lines": [
+        1505
+      ]
+    },
+    {
+      "id": "20260904T225159-unnamed-134131-vertex-exact-body-journal-giv-c804268",
+      "utc": "2026-09-04T22:51:59.000Z",
+      "V": 134131,
+      "E": 402134,
+      "F": 268005,
+      "C": 804268,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        1524,
+        1526,
+        1528
+      ]
+    },
+    {
+      "id": "20260905T021131-p50-4355-c26112",
+      "utc": "2026-09-05T02:11:31.326Z",
+      "V": 4355,
+      "E": 13056,
+      "F": 8703,
+      "C": 26112,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        1674,
+        1723,
+        1769,
+        1790
+      ]
+    },
+    {
+      "id": "20260905T021131-r31291-exact-rational-body-c187732",
+      "utc": "2026-09-05T02:11:31.326Z",
+      "V": 31291,
+      "E": 93866,
+      "F": 62577,
+      "C": 187732,
+      "acceptance_category": "other_explicit_status",
+      "record_status": "parallel exact body",
+      "public_package": null,
+      "journal_lines": [
+        1693
+      ]
+    },
+    {
+      "id": "20260905T021131-unnamed-76937-vertex-worker-body-formal-iden-c461584",
+      "utc": "2026-09-05T02:11:31.326Z",
+      "V": 76937,
+      "E": 230792,
+      "F": 153857,
+      "C": 461584,
+      "acceptance_category": "other_explicit_status",
+      "record_status": "parallel exact report",
+      "public_package": null,
+      "journal_lines": [
+        1705
+      ]
+    },
+    {
+      "id": "20260905T024030-p50l-4355-c26112",
+      "utc": "2026-09-05T02:40:30.400Z",
+      "V": 4355,
+      "E": 13056,
+      "F": 8703,
+      "C": 26112,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        1729,
+        1730,
+        1772,
+        1790
+      ]
+    },
+    {
+      "id": "20260905T024030-p50r-4355-c26112",
+      "utc": "2026-09-05T02:40:30.400Z",
+      "V": 4355,
+      "E": 13056,
+      "F": 8703,
+      "C": 26112,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        1727,
+        1790
+      ]
+    },
+    {
+      "id": "20260905T031607-p50a-4355-c26112",
+      "utc": "2026-09-05T03:16:07.501Z",
+      "V": 4355,
+      "E": 13056,
+      "F": 8703,
+      "C": 26112,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted distinct same-count body",
+      "public_package": null,
+      "journal_lines": [
+        1821,
+        1823
+      ]
+    },
+    {
+      "id": "20260905T032629-p50d-4333-c25980",
+      "utc": "2026-09-05T03:26:29.735Z",
+      "V": 4333,
+      "E": 12990,
+      "F": 8659,
+      "C": 25980,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        1846
+      ]
+    },
+    {
+      "id": "20260905T033614-p50-fus4355-c23268-r-c23268",
+      "utc": "2026-09-05T03:36:14.123Z",
+      "V": 4355,
+      "E": 11634,
+      "F": 7281,
+      "C": 23268,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact parallel body",
+      "public_package": null,
+      "journal_lines": [
+        1864,
+        1880
+      ]
+    },
+    {
+      "id": "20260905T042849-nh13-no575-r1213-c7260",
+      "utc": "2026-09-05T04:28:49.584Z",
+      "V": 1213,
+      "E": 3630,
+      "F": 2419,
+      "C": 7260,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        1908,
+        1916
+      ]
+    },
+    {
+      "id": "20260905T045606-no575-flow985-r-c5892",
+      "utc": "2026-09-05T04:56:06.855Z",
+      "V": 985,
+      "E": 2946,
+      "F": 1963,
+      "C": 5892,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        1950
+      ]
+    },
+    {
+      "id": "20260905T051112-no575-shortcut897-r-c5368",
+      "utc": "2026-09-05T05:11:12.470Z",
+      "V": 897,
+      "E": 2684,
+      "F": 1789,
+      "C": 5368,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": "results/history/figure/langi-review-2026-09-05/shortcut897-source",
+      "journal_lines": [
+        1983,
+        2000,
+        2027
+      ]
+    },
+    {
+      "id": "20260905T054621-no575-dynamic865-r-c5176",
+      "utc": "2026-09-05T05:46:21.181Z",
+      "V": 865,
+      "E": 2588,
+      "F": 1725,
+      "C": 5176,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2027,
+        2033
+      ]
+    },
+    {
+      "id": "20260905T054621-unnamed-promoted-869-vertex-endpoint-c5200",
+      "utc": "2026-09-05T05:46:21.181Z",
+      "V": 869,
+      "E": 2600,
+      "F": 1733,
+      "C": 5200,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2027
+      ]
+    },
+    {
+      "id": "20260905T054621-unnamed-promoted-885-vertex-endpoint-c5296",
+      "utc": "2026-09-05T05:46:21.181Z",
+      "V": 885,
+      "E": 2648,
+      "F": 1765,
+      "C": 5296,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2027
+      ]
+    },
+    {
+      "id": "20260905T054621-unnamed-promoted-893-vertex-endpoint-c5344",
+      "utc": "2026-09-05T05:46:21.181Z",
+      "V": 893,
+      "E": 2672,
+      "F": 1781,
+      "C": 5344,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2027
+      ]
+    },
+    {
+      "id": "20260905T063202-unnamed-exact-847-vertex-multipath-endpoint-c5068",
+      "utc": "2026-09-05T06:32:02.337Z",
+      "V": 847,
+      "E": 2534,
+      "F": 1689,
+      "C": 5068,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2053
+      ]
+    },
+    {
+      "id": "20260905T063202-unnamed-exact-881-vertex-multipath-endpoint-c5272",
+      "utc": "2026-09-05T06:32:02.337Z",
+      "V": 881,
+      "E": 2636,
+      "F": 1757,
+      "C": 5272,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2053
+      ]
+    },
+    {
+      "id": "20260905T063202-no575-multipath815-r-c4876",
+      "utc": "2026-09-05T06:32:02.337Z",
+      "V": 815,
+      "E": 2438,
+      "F": 1625,
+      "C": 4876,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2053
+      ]
+    },
+    {
+      "id": "20260905T064528-no575-balanced631-r-c3772",
+      "utc": "2026-09-05T06:45:28.693Z",
+      "V": 631,
+      "E": 1886,
+      "F": 1257,
+      "C": 3772,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2077
+      ]
+    },
+    {
+      "id": "20260905T064528-no575-balanced745-r-c4456",
+      "utc": "2026-09-05T06:45:28.693Z",
+      "V": 745,
+      "E": 2228,
+      "F": 1485,
+      "C": 4456,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2077
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-balanced573-r-c3424",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "V": 573,
+      "E": 1712,
+      "F": 1141,
+      "C": 3424,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": "results/history/figure/latest-reproducible-gomboc/NO575_BALANCED573_VERIFIED",
+      "journal_lines": [
+        2097,
+        2243
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-global603-r-c3604",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "V": 603,
+      "E": 1802,
+      "F": 1201,
+      "C": 3604,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2097
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-global609-r-c3640",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "V": 609,
+      "E": 1820,
+      "F": 1213,
+      "C": 3640,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2097
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-global611-r-c3652",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "V": 611,
+      "E": 1826,
+      "F": 1217,
+      "C": 3652,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2097
+      ]
+    },
+    {
+      "id": "20260905T065757-no575-normal607-r-c3628",
+      "utc": "2026-09-05T06:57:57.176Z",
+      "V": 607,
+      "E": 1814,
+      "F": 1209,
+      "C": 3628,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2097
+      ]
+    },
+    {
+      "id": "20260905T071730-no575-global571-r-c3412",
+      "utc": "2026-09-05T07:17:30.962Z",
+      "V": 571,
+      "E": 1706,
+      "F": 1137,
+      "C": 3412,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2138,
+        2140
+      ]
+    },
+    {
+      "id": "20260905T073232-contract543-c3244",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "V": 543,
+      "E": 1622,
+      "F": null,
+      "C": 3244,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2159,
+        2169
+      ]
+    },
+    {
+      "id": "20260905T073232-no575-global559-r-c3340",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "V": 559,
+      "E": 1670,
+      "F": 1113,
+      "C": 3340,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2153,
+        2159
+      ]
+    },
+    {
+      "id": "20260905T073232-no575-normal511-r-c3052",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "V": 511,
+      "E": 1526,
+      "F": 1017,
+      "C": 3052,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2151,
+        2159
+      ]
+    },
+    {
+      "id": "20260905T073232-no575-rescued545-r-c3256",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "V": 545,
+      "E": 1628,
+      "F": 1085,
+      "C": 3256,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2153,
+        2159
+      ]
+    },
+    {
+      "id": "20260905T073232-no575-wide555-branch-endpoint-c3316",
+      "utc": "2026-09-05T07:32:32.197Z",
+      "V": 555,
+      "E": 1658,
+      "F": 1105,
+      "C": 3316,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2153,
+        2159
+      ]
+    },
+    {
+      "id": "20260905T074635-no575-deep497-r-c2968",
+      "utc": "2026-09-05T07:46:35.414Z",
+      "V": 497,
+      "E": 1484,
+      "F": 989,
+      "C": 2968,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2176,
+        2182
+      ]
+    },
+    {
+      "id": "20260905T075859-no575-wide487-r-c2908",
+      "utc": "2026-09-05T07:58:59.524Z",
+      "V": 487,
+      "E": 1454,
+      "F": 969,
+      "C": 2908,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2212
+      ]
+    },
+    {
+      "id": "20260905T085015-exact-507-vertex-body-branch-label-not-state-c3028",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "V": 507,
+      "E": 1514,
+      "F": 1009,
+      "C": 3028,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2249
+      ]
+    },
+    {
+      "id": "20260905T085015-exact-535-vertex-body-branch-name-not-stated-c3196",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "V": 535,
+      "E": 1598,
+      "F": 1065,
+      "C": 3196,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2243
+      ]
+    },
+    {
+      "id": "20260905T085015-exact-553-vertex-body-branch-name-not-stated-c3304",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "V": 553,
+      "E": 1652,
+      "F": 1101,
+      "C": 3304,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2243
+      ]
+    },
+    {
+      "id": "20260905T085015-exact-569-vertex-body-branch-name-not-stated-c3400",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "V": 569,
+      "E": 1700,
+      "F": 1133,
+      "C": 3400,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2243
+      ]
+    },
+    {
+      "id": "20260905T085015-rebuilt521-c3112",
+      "utc": "2026-09-05T08:50:15.233Z",
+      "V": 521,
+      "E": 1556,
+      "F": 1037,
+      "C": 3112,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2245,
+        2247
+      ]
+    },
+    {
+      "id": "20260905T091800-contract479-c2860",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "V": 479,
+      "E": 1430,
+      "F": 953,
+      "C": 2860,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2258
+      ]
+    },
+    {
+      "id": "20260905T091800-insert463-c2764",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "V": 463,
+      "E": 1382,
+      "F": 921,
+      "C": 2764,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2258,
+        2270,
+        2273,
+        2277
+      ]
+    },
+    {
+      "id": "20260905T091800-multi469-c2800",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "V": 469,
+      "E": 1400,
+      "F": 933,
+      "C": 2800,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2258,
+        2265
+      ]
+    },
+    {
+      "id": "20260905T091800-multifinal467-c2788",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "V": 467,
+      "E": 1394,
+      "F": 929,
+      "C": 2788,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2258,
+        2265
+      ]
+    },
+    {
+      "id": "20260905T091800-radial465-c2776",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "V": 465,
+      "E": 1388,
+      "F": 925,
+      "C": 2776,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2258,
+        2268
+      ]
+    },
+    {
+      "id": "20260905T091800-rescaled475-c2836",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "V": 475,
+      "E": 1418,
+      "F": 945,
+      "C": 2836,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2258,
+        2263
+      ]
+    },
+    {
+      "id": "20260905T091800-rescaled485-c2896",
+      "utc": "2026-09-05T09:18:00.661Z",
+      "V": 485,
+      "E": 1448,
+      "F": 965,
+      "C": 2896,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2258,
+        2263
+      ]
+    },
+    {
+      "id": "20260905T094602-insert457-c2728",
+      "utc": "2026-09-05T09:46:02.592Z",
+      "V": 457,
+      "E": 1364,
+      "F": 909,
+      "C": 2728,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2275,
+        2289
+      ]
+    },
+    {
+      "id": "20260905T101431-direct549-c3280",
+      "utc": "2026-09-05T10:14:31.774Z",
+      "V": 549,
+      "E": 1640,
+      "F": 1093,
+      "C": 3280,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2298
+      ]
+    },
+    {
+      "id": "20260905T101431-free-radial485-c2876",
+      "utc": "2026-09-05T10:14:31.774Z",
+      "V": 485,
+      "E": 1438,
+      "F": 955,
+      "C": 2876,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2298
+      ]
+    },
+    {
+      "id": "20260905T101431-free-radial491-c2932",
+      "utc": "2026-09-05T10:14:31.774Z",
+      "V": 491,
+      "E": 1466,
+      "F": 977,
+      "C": 2932,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2298
+      ]
+    },
+    {
+      "id": "20260905T101431-insert525-c3136",
+      "utc": "2026-09-05T10:14:31.774Z",
+      "V": 525,
+      "E": 1568,
+      "F": 1045,
+      "C": 3136,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2298
+      ]
+    },
+    {
+      "id": "20260905T102644-homotopy453-c2688",
+      "utc": "2026-09-05T10:26:44.439Z",
+      "V": 453,
+      "E": 1344,
+      "F": 893,
+      "C": 2688,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2319
+      ]
+    },
+    {
+      "id": "20260905T102644-rank429-c2544",
+      "utc": "2026-09-05T10:26:44.439Z",
+      "V": 429,
+      "E": 1272,
+      "F": 845,
+      "C": 2544,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2326,
+        2340
+      ]
+    },
+    {
+      "id": "20260905T110119-exact439-c2620",
+      "utc": "2026-09-05T11:01:19.068Z",
+      "V": 439,
+      "E": 1310,
+      "F": 873,
+      "C": 2620,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2364
+      ]
+    },
+    {
+      "id": "20260905T110119-exact495-c2956",
+      "utc": "2026-09-05T11:01:19.068Z",
+      "V": 495,
+      "E": 1478,
+      "F": 985,
+      "C": 2956,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2364
+      ]
+    },
+    {
+      "id": "20260905T110119-exact519-c3100",
+      "utc": "2026-09-05T11:01:19.068Z",
+      "V": 519,
+      "E": 1550,
+      "F": 1033,
+      "C": 3100,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2359
+      ]
+    },
+    {
+      "id": "20260905T110119-exact555-c3316",
+      "utc": "2026-09-05T11:01:19.068Z",
+      "V": 555,
+      "E": 1658,
+      "F": 1105,
+      "C": 3316,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2359
+      ]
+    },
+    {
+      "id": "20260905T111844-endpoint421-c2512",
+      "utc": "2026-09-05T11:18:44.539Z",
+      "V": 421,
+      "E": 1256,
+      "F": 837,
+      "C": 2512,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2375
+      ]
+    },
+    {
+      "id": "20260905T113141-balanced335-c1996",
+      "utc": "2026-09-05T11:31:41.070Z",
+      "V": 335,
+      "E": 998,
+      "F": 665,
+      "C": 1996,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2395
+      ]
+    },
+    {
+      "id": "20260905T113141-balanced389-c2320",
+      "utc": "2026-09-05T11:31:41.070Z",
+      "V": 389,
+      "E": 1160,
+      "F": 773,
+      "C": 2320,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2395
+      ]
+    },
+    {
+      "id": "20260905T113141-balanced401-c2392",
+      "utc": "2026-09-05T11:31:41.070Z",
+      "V": 401,
+      "E": 1196,
+      "F": 797,
+      "C": 2392,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2395
+      ]
+    },
+    {
+      "id": "20260905T120244-arc331-c1972",
+      "utc": "2026-09-05T12:02:44.401Z",
+      "V": 331,
+      "E": 986,
+      "F": 657,
+      "C": 1972,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2416
+      ]
+    },
+    {
+      "id": "20260905T120244-radial327-c1948",
+      "utc": "2026-09-05T12:02:44.401Z",
+      "V": 327,
+      "E": 974,
+      "F": 649,
+      "C": 1948,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2416
+      ]
+    },
+    {
+      "id": "20260905T120244-strict323-c1924",
+      "utc": "2026-09-05T12:02:44.401Z",
+      "V": 323,
+      "E": 962,
+      "F": 641,
+      "C": 1924,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2409
+      ]
+    },
+    {
+      "id": "20260905T195447-cn11-p50-r2033-q10-c12180",
+      "utc": "2026-09-05T19:54:47.410Z",
+      "V": 2033,
+      "E": 6090,
+      "F": 4059,
+      "C": 12180,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2520
+      ]
+    },
+    {
+      "id": "20260905T203640-relax323-a-exact-c1924",
+      "utc": "2026-09-05T20:36:40.825Z",
+      "V": 323,
+      "E": 962,
+      "F": 641,
+      "C": 1924,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        2567
+      ]
+    },
+    {
+      "id": "20260905T203640-strict319-a-exact-c1900",
+      "utc": "2026-09-05T20:36:40.825Z",
+      "V": 319,
+      "E": 950,
+      "F": 633,
+      "C": 1900,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2567,
+        2598
+      ]
+    },
+    {
+      "id": "20260905T210950-strict307-star-exact-c1828",
+      "utc": "2026-09-05T21:09:50.044Z",
+      "V": 307,
+      "E": 914,
+      "F": 609,
+      "C": 1828,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2604
+      ]
+    },
+    {
+      "id": "20260905T210950-strict311-b-exact-c1852",
+      "utc": "2026-09-05T21:09:50.044Z",
+      "V": 311,
+      "E": 926,
+      "F": 617,
+      "C": 1852,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2604
+      ]
+    },
+    {
+      "id": "20260906T055424-strict262-direct-repair-exact-c1508",
+      "utc": "2026-09-06T05:54:24.068Z",
+      "V": 262,
+      "E": 754,
+      "F": 494,
+      "C": 1508,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2668
+      ]
+    },
+    {
+      "id": "20260906T063507-strict260-pn03-c1440-c1440",
+      "utc": "2026-09-06T06:35:07.341Z",
+      "V": 260,
+      "E": 720,
+      "F": 462,
+      "C": 1440,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2727
+      ]
+    },
+    {
+      "id": "20260906T065158-support260-pn03-c1416-c1416",
+      "utc": "2026-09-06T06:51:58.595Z",
+      "V": 260,
+      "E": 708,
+      "F": 450,
+      "C": 1416,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2766,
+        2796
+      ]
+    },
+    {
+      "id": "20260906T081103-elastic259-pn03-c1402-c1402",
+      "utc": "2026-09-06T08:11:03.953Z",
+      "V": 259,
+      "E": 701,
+      "F": 444,
+      "C": 1402,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2844,
+        2874
+      ]
+    },
+    {
+      "id": "20260906T085651-mass-forest258-pn03-c1398-c1398",
+      "utc": "2026-09-06T08:56:51.116Z",
+      "V": 258,
+      "E": 699,
+      "F": 443,
+      "C": 1398,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2888
+      ]
+    },
+    {
+      "id": "20260906T133734-fusion258-pn03-c1386-c1386",
+      "utc": "2026-09-06T13:37:34.127Z",
+      "V": 258,
+      "E": 693,
+      "F": 437,
+      "C": 1386,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        2932
+      ]
+    },
+    {
+      "id": "20260906T135632-fusion258-pn03-c1374-c1374",
+      "utc": "2026-09-06T13:56:32.877Z",
+      "V": 258,
+      "E": 687,
+      "F": 431,
+      "C": 1374,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": "results/history/figure/domokos-C1374-2026-09-07",
+      "journal_lines": [
+        2949,
+        2973
+      ]
+    },
+    {
+      "id": "20260908T044510-nn51-chain258-pn03-c1370-c1370",
+      "utc": "2026-09-08T04:45:10.496Z",
+      "V": 258,
+      "E": 685,
+      "F": 429,
+      "C": 1370,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        7929,
+        8824
+      ]
+    },
+    {
+      "id": "20260908T235704-coord-gate167-c990-r14-c990",
+      "utc": "2026-09-08T23:57:04.249Z",
+      "V": 330,
+      "E": 495,
+      "F": 167,
+      "C": 990,
+      "acceptance_category": "record_status_omitted",
+      "record_status": null,
+      "public_package": null,
+      "journal_lines": [
+        10008
+      ]
+    },
+    {
+      "id": "20260909T002556-coord-h160-c938-d100000-c938",
+      "utc": "2026-09-09T00:25:56.797Z",
+      "V": 311,
+      "E": 469,
+      "F": 160,
+      "C": 938,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C752-2026-09-09",
+      "journal_lines": [
+        10041
+      ]
+    },
+    {
+      "id": "20260909T011533-coord-h153-c892-d10000000-c892",
+      "utc": "2026-09-09T01:15:33.833Z",
+      "V": 295,
+      "E": 446,
+      "F": 153,
+      "C": 892,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        10137
+      ]
+    },
+    {
+      "id": "20260909T013749-coord-h141-c820-d100000-c820",
+      "utc": "2026-09-09T01:37:49.733Z",
+      "V": 271,
+      "E": 410,
+      "F": 141,
+      "C": 820,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        10234
+      ]
+    },
+    {
+      "id": "20260909T034824-coord-h138-c760-d177912706226730000000-c760",
+      "utc": "2026-09-09T03:48:24.297Z",
+      "V": 244,
+      "E": 380,
+      "F": 138,
+      "C": 760,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        10342
+      ]
+    },
+    {
+      "id": "20260909T034824-coord-h141-c752-d1000000-c752",
+      "utc": "2026-09-09T03:48:24.297Z",
+      "V": 237,
+      "E": 376,
+      "F": 141,
+      "C": 752,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C752-2026-09-09",
+      "journal_lines": [
+        10275,
+        10293,
+        11239,
+        11245
+      ]
+    },
+    {
+      "id": "20260909T034824-kr68-cap257-c1364-c1364",
+      "utc": "2026-09-09T03:48:24.350Z",
+      "V": 257,
+      "E": 682,
+      "F": 427,
+      "C": 1364,
+      "acceptance_category": "parallel_accepted_exact_report",
+      "record_status": "parallel accepted exact report",
+      "public_package": null,
+      "journal_lines": [
+        10775
+      ]
+    },
+    {
+      "id": "20260909T034824-lynx139-c822",
+      "utc": "2026-09-09T03:48:24.372Z",
+      "V": 274,
+      "E": 411,
+      "F": 139,
+      "C": 822,
+      "acceptance_category": "parallel_accepted_exact_report",
+      "record_status": "parallel accepted exact report",
+      "public_package": null,
+      "journal_lines": [
+        11019
+      ]
+    },
+    {
+      "id": "20260909T034824-lynx144-c852",
+      "utc": "2026-09-09T03:48:24.385Z",
+      "V": 284,
+      "E": 426,
+      "F": 144,
+      "C": 852,
+      "acceptance_category": "parallel_accepted_exact_report",
+      "record_status": "parallel accepted exact report",
+      "public_package": null,
+      "journal_lines": [
+        11121
+      ]
+    },
+    {
+      "id": "20260909T034824-lynx145-c858",
+      "utc": "2026-09-09T03:48:24.385Z",
+      "V": 286,
+      "E": 429,
+      "F": 145,
+      "C": 858,
+      "acceptance_category": "parallel_accepted_exact_report",
+      "record_status": "parallel accepted exact report",
+      "public_package": null,
+      "journal_lines": [
+        11121
+      ]
+    },
+    {
+      "id": "20260909T035414-qr29-contact-h155-c792-r100000000000-c792",
+      "utc": "2026-09-09T03:54:14.114Z",
+      "V": 243,
+      "E": 396,
+      "F": 155,
+      "C": 792,
+      "acceptance_category": "parallel_accepted_exact_report",
+      "record_status": "parallel accepted exact report",
+      "public_package": null,
+      "journal_lines": [
+        11264
+      ]
+    },
+    {
+      "id": "20260909T052055-coord-flow-h140-c746-d100000000-c746",
+      "utc": "2026-09-09T05:20:55.894Z",
+      "V": 235,
+      "E": 373,
+      "F": 140,
+      "C": 746,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C746-2026-09-09",
+      "journal_lines": [
+        11489,
+        11503
+      ]
+    },
+    {
+      "id": "20260909T053423-coord-flow-h135-c716-d1000000000-c716",
+      "utc": "2026-09-09T05:34:23.005Z",
+      "V": 225,
+      "E": 358,
+      "F": 135,
+      "C": 716,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C716-2026-09-09",
+      "journal_lines": [
+        11524
+      ]
+    },
+    {
+      "id": "20260909T072007-coord-flow-h132-c698-d1000000000-c698",
+      "utc": "2026-09-09T07:20:07.721Z",
+      "V": 219,
+      "E": 349,
+      "F": 132,
+      "C": 698,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C698-2026-09-09",
+      "journal_lines": [
+        11608
+      ]
+    },
+    {
+      "id": "20260909T075133-coord-conditioned-contact23-h132-c696-c696",
+      "utc": "2026-09-09T07:51:33.277Z",
+      "V": 218,
+      "E": 348,
+      "F": 132,
+      "C": 696,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C696-2026-09-09",
+      "journal_lines": [
+        11641,
+        11677
+      ]
+    },
+    {
+      "id": "20260909T075133-coord-conditioned-h132-c698-d1000000000-c698",
+      "utc": "2026-09-09T07:51:33.277Z",
+      "V": 219,
+      "E": 349,
+      "F": 132,
+      "C": 698,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C698-2026-09-09",
+      "journal_lines": [
+        11620
+      ]
+    },
+    {
+      "id": "20260909T080733-coord-two-contacts-h132-c694-c694",
+      "utc": "2026-09-09T08:07:33.668Z",
+      "V": 217,
+      "E": 347,
+      "F": 132,
+      "C": 694,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C694-2026-09-09",
+      "journal_lines": [
+        11698,
+        11759
+      ]
+    },
+    {
+      "id": "20260909T095307-coord-five-contacts-h132-c688-c688",
+      "utc": "2026-09-09T09:53:07.309Z",
+      "V": 214,
+      "E": 344,
+      "F": 132,
+      "C": 688,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        11783,
+        11825
+      ]
+    },
+    {
+      "id": "20260909T095307-unnamed-c692-intermediate-no-formal-body-ide-c692",
+      "utc": "2026-09-09T09:53:07.309Z",
+      "V": 216,
+      "E": 346,
+      "F": 132,
+      "C": 692,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        11835,
+        11837
+      ]
+    },
+    {
+      "id": "20260909T101543-coord-six-contacts-h132-c686-c686",
+      "utc": "2026-09-09T10:15:43.410Z",
+      "V": 213,
+      "E": 343,
+      "F": 132,
+      "C": 686,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        11890,
+        11931
+      ]
+    },
+    {
+      "id": "20260909T103418-coord-seven-contacts-h132-c684-c684",
+      "utc": "2026-09-09T10:34:18.519Z",
+      "V": 212,
+      "E": 342,
+      "F": 132,
+      "C": 684,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        11989,
+        12018
+      ]
+    },
+    {
+      "id": "20260909T104420-coord-eight-contacts-h132-c682-c682",
+      "utc": "2026-09-09T10:44:20.186Z",
+      "V": 211,
+      "E": 341,
+      "F": 132,
+      "C": 682,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        12032,
+        12057
+      ]
+    },
+    {
+      "id": "20260909T115830-unnamed-nine-contact-132-support-c680-body-n-c680",
+      "utc": "2026-09-09T11:58:30.211Z",
+      "V": 210,
+      "E": 340,
+      "F": 132,
+      "C": 680,
+      "acceptance_category": "other_explicit_status",
+      "record_status": "reported exact strict-110 body; literal recovery append still pending at this journal point",
+      "public_package": null,
+      "journal_lines": [
+        12167
+      ]
+    },
+    {
+      "id": "20260909T115830-lynx2-c698-area-d1e9-c698",
+      "utc": "2026-09-09T11:58:30.211Z",
+      "V": 218,
+      "E": 349,
+      "F": 133,
+      "C": 698,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        12159
+      ]
+    },
+    {
+      "id": "20260909T115830-qr29-atlas-h136-c662-d1000000000000-c662",
+      "utc": "2026-09-09T11:58:30.211Z",
+      "V": 197,
+      "E": 331,
+      "F": 136,
+      "C": 662,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        12149
+      ]
+    },
+    {
+      "id": "20260909T115830-qr29-atlas-h137-c652-d1000000000000-c652",
+      "utc": "2026-09-09T11:58:30.211Z",
+      "V": 191,
+      "E": 326,
+      "F": 137,
+      "C": 652,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        12149
+      ]
+    },
+    {
+      "id": "20260909T133712-coord-conditioned-contact35-h137-c650-d10000-c650",
+      "utc": "2026-09-09T13:37:12.479Z",
+      "V": 190,
+      "E": 325,
+      "F": 137,
+      "C": 650,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C650-2026-09-09",
+      "journal_lines": [
+        12260,
+        12295
+      ]
+    },
+    {
+      "id": "20260909T135559-coord-conditioned-contact36-h137-c648-d10000-c648",
+      "utc": "2026-09-09T13:55:59.826Z",
+      "V": 189,
+      "E": 324,
+      "F": 137,
+      "C": 648,
+      "acceptance_category": "other_explicit_status",
+      "record_status": "reported strict-110 exact endpoint; not promoted because complete defining table was not recovered",
+      "public_package": null,
+      "journal_lines": [
+        12297,
+        12496
+      ]
+    },
+    {
+      "id": "20260909T193451-c648-rebuilt-r7-c648",
+      "utc": "2026-09-09T19:34:51.082Z",
+      "V": 189,
+      "E": 324,
+      "F": 137,
+      "C": 648,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C648-REBUILT-2026-09-09/C648_REBUILT_R7",
+      "journal_lines": [
+        12594,
+        12629
+      ]
+    },
+    {
+      "id": "20260909T194119-c648-rebuilt-r12-c648",
+      "utc": "2026-09-09T19:41:19.042Z",
+      "V": 189,
+      "E": 324,
+      "F": 137,
+      "C": 648,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C648-REBUILT-2026-09-09/C648_REBUILT_R12",
+      "journal_lines": [
+        12629
+      ]
+    },
+    {
+      "id": "20260910T063545-c634-soc-c634",
+      "utc": "2026-09-10T06:35:45.378Z",
+      "V": 182,
+      "E": 317,
+      "F": 137,
+      "C": 634,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C634-2026-09-10/source-only/C634_SOC",
+      "journal_lines": [
+        12762,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T070516-c636-grid7-c636",
+      "utc": "2026-09-10T07:05:16.197Z",
+      "V": 183,
+      "E": 318,
+      "F": 137,
+      "C": 636,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C634-2026-09-10/source-only/C636_GRID7",
+      "journal_lines": [
+        12784,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T070516-c636-h213-soc-c636",
+      "utc": "2026-09-10T07:05:16.197Z",
+      "V": 183,
+      "E": 318,
+      "F": 137,
+      "C": 636,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C634-2026-09-10/source-only/C636_H213_SOC",
+      "journal_lines": [
+        12784,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T070516-c638-h213-grid7-c638",
+      "utc": "2026-09-10T07:05:16.197Z",
+      "V": 184,
+      "E": 319,
+      "F": 137,
+      "C": 638,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C634-2026-09-10/source-only/C638_H213_GRID7",
+      "journal_lines": [
+        12784,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T070516-c642-grid6-repair169-c642",
+      "utc": "2026-09-10T07:05:16.197Z",
+      "V": 185,
+      "E": 321,
+      "F": 138,
+      "C": 642,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C634-2026-09-10/source-only/C642_GRID6_REPAIR169",
+      "journal_lines": [
+        12784,
+        12796
+      ]
+    },
+    {
+      "id": "20260910T131126-bq13-c632-three-link-own110-c632",
+      "utc": "2026-09-10T13:11:26.296Z",
+      "V": 180,
+      "E": 316,
+      "F": 138,
+      "C": 632,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/gomboc-C632-BQ13-2026-09-10",
+      "journal_lines": [
+        13053,
+        13133
+      ]
+    },
+    {
+      "id": "20260912T102403-cap-bright-c630-exact-body-full-identifier-u-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        13440
+      ]
+    },
+    {
+      "id": "20260912T102403-d9-c630-exact-body-full-identifier-unresolve-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        13440
+      ]
+    },
+    {
+      "id": "20260912T102403-coord-c630-base-grid7-own110-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        13440,
+        13484
+      ]
+    },
+    {
+      "id": "20260912T102403-r5-c630-exact-body-full-identifier-unresolve-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        13440
+      ]
+    },
+    {
+      "id": "20260912T102403-r7-c630-exact-body-full-identifier-unresolve-c630",
+      "utc": "2026-09-12T10:24:03.540Z",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        13440
+      ]
+    },
+    {
+      "id": "20260912T115332-coord-c630-conditioned-grid6-own110-c630",
+      "utc": "2026-09-12T11:53:32.843Z",
+      "V": 180,
+      "E": 315,
+      "F": 137,
+      "C": 630,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": null,
+      "journal_lines": [
+        13537,
+        13566
+      ]
+    },
+    {
+      "id": "20260912T150059-rl07-grid7-z18-94-c628-g1e9-c628",
+      "utc": "2026-09-12T15:00:59.178Z",
+      "V": 179,
+      "E": 314,
+      "F": 137,
+      "C": 628,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-vq20-c626-contact-mass-20260915",
+      "journal_lines": [
+        13690,
+        13704,
+        13726
+      ]
+    },
+    {
+      "id": "20260914T004603-bq13-c628-vertex-71-73-r6-own110-c628",
+      "utc": "2026-09-14T00:46:03.054Z",
+      "V": 179,
+      "E": 314,
+      "F": 137,
+      "C": 628,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body; distinct from RL07 C628 despite equal V/E/F/C",
+      "public_package": "results/history/figure/figure-c626-bq13-stable-cap-20260914/source/C628_WINNER",
+      "journal_lines": [
+        14156,
+        14164
+      ]
+    },
+    {
+      "id": "20260914T005139-coord-bq-rl-double-c626-own110-g14-c626",
+      "utc": "2026-09-14T00:51:39.245Z",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c626-source-20260914/exact/G14",
+      "journal_lines": [
+        14176,
+        14194,
+        14200
+      ]
+    },
+    {
+      "id": "20260914T005139-coord-bq-rl-double-c626-own110-g8-c626",
+      "utc": "2026-09-14T00:51:39.245Z",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c626-source-20260914/exact/G8",
+      "journal_lines": [
+        14176,
+        14194,
+        14200
+      ]
+    },
+    {
+      "id": "20260914T021327-bq13-c626-stable-cap-vertex-68-96-own110-ali-c626",
+      "utc": "2026-09-14T02:13:27.587Z",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c626-bq13-stable-cap-20260914/source/BASIN69_96",
+      "journal_lines": [
+        14462
+      ]
+    },
+    {
+      "id": "20260914T042922-atlas56-adapt-c626",
+      "utc": "2026-09-14T04:29:22.690Z",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c626-atlas56-arithmetic-20260914/source/ADAPT",
+      "journal_lines": [
+        14801,
+        14803
+      ]
+    },
+    {
+      "id": "20260914T042922-atlas56-d3-small-c626-own110-c626",
+      "utc": "2026-09-14T04:29:22.690Z",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c626-atlas56-arithmetic-20260914/source/D3_SMALL",
+      "journal_lines": [
+        14801,
+        14803
+      ]
+    },
+    {
+      "id": "20260914T042922-atlas56-d3-strong-c626",
+      "utc": "2026-09-14T04:29:22.690Z",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c626-atlas56-arithmetic-20260914/source/D3_STRONG",
+      "journal_lines": [
+        14801,
+        14803
+      ]
+    },
+    {
+      "id": "20260914T050955-coord-cap-rl-c624-inherited-g9-c624",
+      "utc": "2026-09-14T05:09:55.111Z",
+      "V": 177,
+      "E": 312,
+      "F": 137,
+      "C": 624,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c624-cap-rl-20260914",
+      "journal_lines": [
+        14478,
+        15047
+      ]
+    },
+    {
+      "id": "20260914T051322-coord-cap-rl-c624-strong-g8-alias-s8-c624",
+      "utc": "2026-09-14T05:13:22.035Z",
+      "V": 177,
+      "E": 312,
+      "F": 137,
+      "C": 624,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c624-s8-20260914",
+      "journal_lines": [
+        15047,
+        15548,
+        15965
+      ]
+    },
+    {
+      "id": "20260914T075256-coord-s8-d132-c624-c624",
+      "utc": "2026-09-14T07:52:56.776Z",
+      "V": 176,
+      "E": 312,
+      "F": 138,
+      "C": 624,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c624-d132-20260914",
+      "journal_lines": [
+        15263
+      ]
+    },
+    {
+      "id": "20260915T120943-manifold2-c624-body-formal-full-identifier-n-c624",
+      "utc": "2026-09-15T12:09:43.854Z",
+      "V": null,
+      "E": null,
+      "F": null,
+      "C": 624,
+      "acceptance_category": "other_explicit_status",
+      "record_status": "reported exact strict-110 body; ephemeral and not persisted",
+      "public_package": null,
+      "journal_lines": [
+        15969
+      ]
+    },
+    {
+      "id": "20260915T120943-pc2-c624-body-formal-full-identifier-not-sta-c624",
+      "utc": "2026-09-15T12:09:43.854Z",
+      "V": null,
+      "E": null,
+      "F": null,
+      "C": 624,
+      "acceptance_category": "other_explicit_status",
+      "record_status": "reported exact strict-110 body; ephemeral and not persisted",
+      "public_package": null,
+      "journal_lines": [
+        15969
+      ]
+    },
+    {
+      "id": "20260915T143428-vq20-rl07-c626-z87-127-g1e9-c626",
+      "utc": "2026-09-15T14:34:28.113Z",
+      "V": 178,
+      "E": 313,
+      "F": 137,
+      "C": 626,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-vq20-c626-contact-mass-20260915",
+      "journal_lines": [
+        16147
+      ]
+    },
+    {
+      "id": "20260915T174319-vq20-c622-route88-118-g12-c622-routed-c622",
+      "utc": "2026-09-15T17:43:19.339Z",
+      "V": 176,
+      "E": 311,
+      "F": 137,
+      "C": 622,
+      "acceptance_category": "explicit_accepted_status",
+      "record_status": "accepted exact strict-110 body",
+      "public_package": "results/history/figure/figure-c622-route-20260915",
+      "journal_lines": [
+        16518,
+        16545,
+        16694,
+        16698
+      ]
+    }
+  ]
+}
