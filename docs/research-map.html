@@ -19,7 +19,7 @@
         <button id="tab-figure" role="tab" aria-selected="true" aria-controls="study-panel" data-study="figure">Figure</button>
         <button id="tab-minimum" role="tab" aria-selected="false" aria-controls="study-panel" data-study="minimum" tabindex="-1">Minimum</button>
       </div>
-      <select id="root-select" aria-label="Root direction: branches with no recorded parent"></select>
+      <select id="root-select" aria-label="Show all branches or focus on one root"></select>
       <div class="search-area">
         <label class="search-box" for="branch-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="branch-search" type="search" aria-label="Search all branches by title, branch ID, or linked report ID" placeholder="Search branches" autocomplete="off" aria-controls="search-results" aria-expanded="false"><kbd>/</kbd></label>
         <div id="search-results" class="search-results" hidden></div>
@@ -32,7 +32,7 @@
         </div>
         <button id="coverage-open" class="info-button" aria-label="About this map" title="About this map">i</button>
         <div class="map-controls" aria-label="Map controls">
-          <button id="reset-view" aria-label="Reset expanded branches" title="Reset expanded branches">↺</button>
+          <button id="reset-view" aria-label="Reset expanded branches" title="Show all branches in the selected view">↺</button>
           <button id="zoom-out" aria-label="Zoom out" title="Zoom out (−)">−</button><output id="zoom-level" aria-label="Zoom level">100%</output><button id="zoom-in" aria-label="Zoom in" title="Zoom in (+)">+</button>
           <button id="fit-view" aria-label="Fit visible branches" title="Fit visible branches (F)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 2H2v4m8-4h4v4M2 10v4h4m8-4v4h-4"/></svg></button>
         </div>
@@ -48,7 +48,7 @@
   <dialog id="coverage-dialog" aria-labelledby="coverage-title">
     <div class="dialog-heading"><button id="coverage-close" aria-label="Close map information">×</button></div>
     <h2 id="coverage-title">About this map</h2>
-    <p>Each card is a saved research branch. Every curve is an explicit parent link from the public catalog. Root directions have no recorded parent; choosing a root does not imply a scientific relationship between roots or studies.</p>
+    <p>Each card is a saved research branch. Every curve is an explicit parent link from the public catalog. All branches are shown by default. The dropdown can focus on one root. Separate trees have no recorded parent link between them.</p>
     <p>Open and closed describe saved checkpoints, not current activity or whether a mathematical claim was proved. Titles preserve the public English branch labels; report titles preserve the indexed wording and may be in another language.</p>
     <div id="coverage-detail"></div>
     <p>Linked reports are historical AI scientific reports, including incomplete and superseded claims. The preserved <a href="https://github.com/ohresearchresults/gomboc-research/blob/main/C622/README.md">C622 endpoint has supplied exact checks</a>. C &lt; 500 remains open; Minimum’s proposed C ≥ 34 bound still needs a consolidated proof. The checks are not external peer review.</p>

@@ -601,23 +601,23 @@
     },
     {
       "path": "docs/research-map-preview.png",
-      "bytes": 77915,
-      "sha256": "90f1219e4303dafe8f606100f29d3173348050b255b00144f2070e4e422108c2"
+      "bytes": 96511,
+      "sha256": "516b2bddf08f126ddb74b48e71d1df77a7b53cf5b0e6d3061b04abc8af4eb288"
     },
     {
       "path": "docs/research-map.css",
-      "bytes": 10632,
-      "sha256": "198c1af9ce303c7befe535e15f7bb79f724fa02ac3a99a9ddeecf776d764c3e3"
+      "bytes": 10665,
+      "sha256": "02b2484377e69e755fba26acdd42f127dfb35a97a9b8e9f204be938452247b5c"
     },
     {
       "path": "docs/research-map.html",
-      "bytes": 261604,
-      "sha256": "1c2cf473a72bc620fbf754d39f975d350191faaff71f7c1701a3a481cbece2af"
+      "bytes": 261614,
+      "sha256": "9035fcfbc63d1376328666cb6ca178716823506fd02650831ae5810fbcdd1f54"
     },
     {
       "path": "docs/research-map.js",
-      "bytes": 25451,
-      "sha256": "4644bc5119475f10e5204c81425300d5598ec865791966d56baa0a9bea9e2645"
+      "bytes": 27859,
+      "sha256": "a5ca6da9642833f308c89bf922836c5918b696937ecc73ebad514a3591caaf69"
     },
     {
       "path": "materials/ACTUAL_ADJACENT_TRIANGLES_E17_EXCEED_BIPYRAMID_BOUND_V1-complete-adapter-d6b2efc0.md",

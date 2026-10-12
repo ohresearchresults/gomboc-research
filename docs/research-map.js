@@ -5,6 +5,7 @@
   const $ = (id) => document.getElementById(id);
   const GITHUB = "https://github.com/ohresearchresults/gomboc-research/blob/main/";
   const STUDIES = { figure: "Figure", minimum: "Minimum" };
+  const MIN_SCALE = 0.04;
   const CARD = { width: 292, height: 116, column: 400, row: 150 };
   const state = { study: "figure", root: null, selected: null, expanded: new Set(), visible: [], positions: new Map(), width: 0, height: 0, x: 0, y: 0, scale: 1 };
   let data, branches, reports, children;
@@ -31,11 +32,16 @@
   function announce(text) { $("announcer").textContent = text; }
   function updateAddress() {
     // HTTP deep links can be copied and opened directly; local-file rendering also works.
-    if (location.protocol === "http:" || location.protocol === "https:") history.replaceState(null, "", `${location.pathname}${location.search}#${state.selected}`);
+    if (location.protocol === "http:" || location.protocol === "https:") history.replaceState(null, "", `${location.pathname}${location.search}#${state.selected || state.study}`);
   }
 
   function initialExpansion(root) {
-    state.expanded = new Set([root, ...children.get(root)]);
+    state.expanded = new Set();
+    function expand(id) {
+      state.expanded.add(id);
+      for (const child of children.get(id)) expand(child);
+    }
+    for (const branch of root ? [branches.get(root)] : roots(state.study)) expand(branch.id);
   }
   function updateStudyControls() {
     for (const button of document.querySelectorAll("[data-study]")) {
@@ -44,15 +50,31 @@
       button.tabIndex = current ? 0 : -1;
     }
     $("study-panel").setAttribute("aria-labelledby", `tab-${state.study}`);
-    $("root-select").replaceChildren(...roots(state.study).map((branch) => {
+    const all = element("option", "", "All branches");
+    all.value = "";
+    $("root-select").replaceChildren(all, ...roots(state.study).map((branch) => {
       const option = element("option", "", `${number(branch.id)} · ${branch.title}`);
       option.value = branch.id;
       return option;
     }));
-    $("root-select").value = state.root;
-    $("root-select").title = `${data.stats.studies[state.study].roots} roots with no recorded parent. ${branches.get(state.root).title}`;
+    $("root-select").value = state.root || "";
+    $("root-select").title = state.root ? branches.get(state.root).title : "All recorded branches in this study";
+  }
+  function chooseStudy(study) {
+    state.study = study;
+    state.root = null;
+    state.selected = null;
+    initialExpansion(null);
+    closeSearch();
+    updateStudyControls();
+    setInspectorOpen(false);
+    $("inspector-content").replaceChildren();
+    renderMap();
+    updateAddress();
+    announce(`${STUDIES[study]}: all ${state.visible.length} branches shown.`);
   }
   function chooseRoot(id) {
+    if (!id) return chooseStudy(state.study);
     const branch = branches.get(id);
     state.study = branch.study;
     state.root = id;
@@ -69,11 +91,15 @@
   function navigateTo(id, focus = false) {
     if (!branches.has(id)) return;
     const path = ancestry(id);
-    state.study = branches.get(id).study;
-    if (state.root !== path[0]) {
+    const study = branches.get(id).study;
+    const changedStudy = state.study !== study;
+    state.study = study;
+    if (changedStudy) state.root = null;
+    if (state.root && state.root !== path[0]) {
       state.root = path[0];
       initialExpansion(state.root);
     }
+    if (changedStudy || !state.expanded.size) initialExpansion(state.root);
     for (const ancestor of path.slice(0, -1)) state.expanded.add(ancestor);
     state.selected = id;
     closeSearch();
@@ -81,6 +107,7 @@
     renderMap();
     renderInspector();
     setInspectorOpen(true);
+    focusSelection();
     updateAddress();
     if (focus) document.querySelector(`[data-node-id="${id}"] .node-card`).focus({ preventScroll: true });
     announce(`${branches.get(id).title}. ${statusText(branches.get(id))}.`);
@@ -90,29 +117,49 @@
     highlightSelection();
     renderInspector();
     setInspectorOpen(true);
+    focusSelection();
     updateAddress();
     announce(`${branches.get(id).title}. ${statusText(branches.get(id))}. Details updated.`);
   }
 
   function layout() {
-    const columns = [];
     state.visible = [];
-    function visit(id, depth) {
-      state.visible.push(id);
-      (columns[depth] ||= []).push(id);
-      if (state.expanded.has(id)) for (const child of children.get(id)) visit(child, depth + 1);
-    }
-    visit(state.root, 0);
-    // Preserve catalog sibling order. Compact each depth independently so shallow
-    // leaves do not create empty rows in every later column. No synthetic edges.
-    const rows = Math.max(...columns.map((column) => column.length));
-    state.height = (rows - 1) * CARD.row + CARD.height;
-    state.width = (columns.length - 1) * CARD.column + CARD.width;
     state.positions = new Map();
-    columns.forEach((column, depth) => {
-      const top = (rows - column.length) * CARD.row / 2;
-      column.forEach((id, row) => state.positions.set(id, { x: depth * CARD.column, y: top + row * CARD.row }));
+    // Each component contains only its recorded parent edges. Pack the separate
+    // trees into available rows without inventing a common scientific ancestor.
+    const trees = (state.root ? [branches.get(state.root)] : roots(state.study)).map((root) => {
+      const columns = [];
+      function visit(id, depth) {
+        state.visible.push(id);
+        (columns[depth] ||= []).push(id);
+        if (state.expanded.has(id)) for (const child of children.get(id)) visit(child, depth + 1);
+      }
+      visit(root.id, 0);
+      const rows = Math.max(...columns.map((column) => column.length));
+      const height = (rows - 1) * CARD.row + CARD.height;
+      const width = (columns.length - 1) * CARD.column + CARD.width;
+      return { columns, rows, width, height };
     });
+    const maxWidth = Math.max(...trees.map((tree) => tree.width));
+    const gap = CARD.row;
+    const shelves = [];
+    state.width = 0;
+    state.height = 0;
+    for (const tree of trees) {
+      let shelf = shelves.find((row) => tree.height <= row.height && row.used + gap + tree.width <= maxWidth);
+      if (!shelf) {
+        shelf = { y: shelves.length ? state.height + gap : 0, height: tree.height, used: 0 };
+        shelves.push(shelf);
+        state.height = shelf.y + tree.height;
+      }
+      const left = shelf.used ? shelf.used + gap : 0;
+      tree.columns.forEach((column, depth) => {
+        const top = shelf.y + (tree.rows - column.length) * CARD.row / 2;
+        column.forEach((id, row) => state.positions.set(id, { x: left + depth * CARD.column, y: top + row * CARD.row }));
+      });
+      shelf.used = left + tree.width;
+      state.width = Math.max(state.width, shelf.used);
+    }
   }
   function renderMap() {
     layout();
@@ -229,6 +276,7 @@
     return item;
   }
   function renderInspector() {
+    if (!state.selected) return;
     const branch = branches.get(state.selected);
     const content = $("inspector-content");
     const status = element("div", `detail-status ${branch.recorded_status}`);
@@ -276,7 +324,7 @@
   function applyTransform() {
     $("map-world").style.transform = `translate(${state.x}px,${state.y}px) scale(${state.scale})`;
     $("zoom-level").textContent = `${Math.round(state.scale * 100)}%`;
-    $("zoom-out").disabled = state.scale <= 0.12;
+    $("zoom-out").disabled = state.scale <= MIN_SCALE;
     $("zoom-in").disabled = state.scale >= 1.8;
   }
   function fitView() {
@@ -285,15 +333,24 @@
     const height = viewport.clientHeight;
     if (!width || !height || !state.width) return;
     const top = 40, bottom = 68;
-    state.scale = Math.max(0.12, Math.min(1, (width - 48) / state.width, (height - top - bottom) / state.height));
+    state.scale = Math.max(MIN_SCALE, Math.min(1, (width - 48) / state.width, (height - top - bottom) / state.height));
     state.x = (width - state.width * state.scale) / 2;
     state.y = top + (height - top - bottom - state.height * state.scale) / 2;
+    applyTransform();
+  }
+  function focusSelection() {
+    const point = state.positions.get(state.selected);
+    if (!point) return;
+    const viewport = $("map-viewport");
+    state.scale = Math.max(state.scale, Math.min(0.85, (viewport.clientWidth - 48) / CARD.width));
+    state.x = viewport.clientWidth / 2 - (point.x + CARD.width / 2) * state.scale;
+    state.y = viewport.clientHeight / 2 - (point.y + CARD.height / 2) * state.scale;
     applyTransform();
   }
   function zoom(factor, origin) {
     const viewport = $("map-viewport");
     const anchor = origin || { x: viewport.clientWidth / 2, y: viewport.clientHeight / 2 };
-    const scale = Math.max(0.12, Math.min(1.8, state.scale * factor));
+    const scale = Math.max(MIN_SCALE, Math.min(1.8, state.scale * factor));
     state.x = anchor.x - (anchor.x - state.x) * scale / state.scale;
     state.y = anchor.y - (anchor.y - state.y) * scale / state.scale;
     state.scale = scale;
@@ -345,7 +402,7 @@
     $("root-select").addEventListener("change", (event) => chooseRoot(event.target.value));
     const tabs = [...document.querySelectorAll("[data-study]")];
     for (const button of tabs) {
-      button.addEventListener("click", () => chooseRoot(roots(button.dataset.study)[0].id));
+      button.addEventListener("click", () => chooseStudy(button.dataset.study));
       button.addEventListener("keydown", (event) => {
         if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
         event.preventDefault();
@@ -437,7 +494,7 @@
         else zoom(key === "-" ? 1 / 1.2 : 1.2);
       }
     });
-    new ResizeObserver(fitView).observe(viewport);
+    new ResizeObserver(() => $("inspector").hidden ? fitView() : focusSelection()).observe(viewport);
     $("coverage-open").addEventListener("click", (event) => {
       event.preventDefault();
       $("coverage-dialog").showModal();
@@ -445,7 +502,8 @@
     $("coverage-close").addEventListener("click", () => $("coverage-dialog").close());
     window.addEventListener("hashchange", () => {
       const id = location.hash.slice(1);
-      if (branches.has(id) && state.selected !== id) navigateTo(id);
+      if (STUDIES[id]) chooseStudy(id);
+      else if (branches.has(id) && state.selected !== id) navigateTo(id);
     });
   }
 
@@ -485,9 +543,9 @@
     bindControls();
     const params = new URLSearchParams(location.search);
     const selected = location.hash.slice(1) || params.get("branch");
-    const study = params.get("study");
+    const study = STUDIES[selected] ? selected : params.get("study");
     if (selected && branches.has(selected)) navigateTo(selected);
-    else chooseRoot(roots(study && STUDIES[study] ? study : "figure")[0].id);
+    else chooseStudy(study && STUDIES[study] ? study : "figure");
     document.documentElement.dataset.mapReady = "true";
   }
 

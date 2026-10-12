@@ -52,7 +52,7 @@ kbd { font: 11px var(--mono); color: var(--muted); }
 .map-viewport:focus-visible { outline-offset: -4px; }
 .map-world { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
 #map-edges { position: absolute; inset: 0; overflow: visible; pointer-events: none; }
-.branch-edge { fill: none; stroke: #5b5b5b; stroke-width: 1.3; }
+.branch-edge { fill: none; stroke: #5b5b5b; stroke-width: 1; vector-effect: non-scaling-stroke; }
 .branch-edge.lineage { stroke: #aaa; stroke-width: 1.5; }
 .node { width: 292px; height: 116px; position: absolute; border: 1px solid #474747; border-radius: 10px; background: #252525; }
 .node.selected { border-color: #999; background: #2c2c2c; }
