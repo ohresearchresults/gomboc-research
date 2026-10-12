@@ -1,6 +1,6 @@
 # Gömböc research
 
-**An explicit polyhedral gömböc with 137 faces, and the record of the AI-assisted search that found it** · Oleksandr Humeniuk
+**An explicit polyhedral gömböc with 137 faces, and the record of the AI-assisted search that found it**
 
 A gömböc is a convex body of uniform density with exactly two equilibria on a horizontal plane: one stable and one unstable. It has a single stable resting pose. Várkonyi and Domokos [proved in 2006](https://www.gomboc.eu/docs/100.pdf) that such bodies exist; their example has a smooth curved surface. This repository is about the same question for polyhedra, where every face, edge and vertex is a possible resting point and the centre of mass moves whenever the shape is changed.
 
