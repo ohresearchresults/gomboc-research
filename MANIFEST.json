@@ -15,6 +15,11 @@
       "sha256": "f1f44b664fd0b18a559a0b9378c3fb22a1d5adb02f5823262461732023b1bfa0"
     },
     {
+      "path": ".zenodo.json",
+      "bytes": 1630,
+      "sha256": "dd778370bb3359f4b9b586e6cd871cf76c4dc9d4114ed4e94e1a635d4a164950"
+    },
+    {
       "path": "C622/ENDPOINT_A.json",
       "bytes": 311825,
       "sha256": "142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0"
@@ -482,7 +487,7 @@
     {
       "path": "CITATION.cff",
       "bytes": 628,
-      "sha256": "27c8df42bd8cd501625bcf3c389ef0c60ff0b7d8936d44ded410c29cf416b212"
+      "sha256": "0e4e52e1609c0c719d10156ab70ec8517f782bf78596b83dc705f33e9c3f1563"
     },
     {
       "path": "LICENSE",
