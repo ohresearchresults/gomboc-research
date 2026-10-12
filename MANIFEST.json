@@ -486,8 +486,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 628,
-      "sha256": "0e4e52e1609c0c719d10156ab70ec8517f782bf78596b83dc705f33e9c3f1563"
+      "bytes": 657,
+      "sha256": "b5de3dd9a0db1444a0cf757b687f5311e01a4d9b440fe090bba0b03728e2e650"
     },
     {
       "path": "LICENSE",
@@ -496,8 +496,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4835,
-      "sha256": "1e4ff50061dde35ef6fa42c3320a15b026141cc7547fad0a75c2227da836649a"
+      "bytes": 4918,
+      "sha256": "589e3ec9687c0b701f8838a3b898b36437252a35f24ed41936894b5e13b7fa91"
     },
     {
       "path": "RIGHTS.md",
@@ -596,8 +596,8 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 630619,
-      "sha256": "b1bd3eaf72ee68f7cfe0bba333375ad62ae3968cd7ec250ed79c8514b909f710"
+      "bytes": 630688,
+      "sha256": "06f7571cf0c07f9d4b239ebb5dd7ad768cd86aca2aed25522b3add6eebf10523"
     },
     {
       "path": "materials/ACTUAL_ADJACENT_TRIANGLES_E17_EXCEED_BIPYRAMID_BOUND_V1-complete-adapter-d6b2efc0.md",

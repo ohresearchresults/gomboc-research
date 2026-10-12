@@ -74,4 +74,4 @@ flowchart LR
 
 Tancredi Schettini Gherardini’s [paper](https://arxiv.org/abs/2609.07827) and [repository](https://github.com/Tancredi-Schettini-Gherardini/certified_gomboc) present an independent construction. The paper asks for an example with fewer than 1,000 faces; C622 has 137.
 
-[Citation](CITATION.cff) · [License](RIGHTS.md): code under MIT, data and text under CC BY 4.0
+[Archive DOI: 10.5281/zenodo.23307702](https://doi.org/10.5281/zenodo.23307702) · [Citation](CITATION.cff) · [License](RIGHTS.md): code under MIT, data and text under CC BY 4.0
