@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-28 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 # Keen Lynx 13 — whole-P cancellation, four exact nonwinners, and a carrier-release bridge

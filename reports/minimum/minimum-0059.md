@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 A new complete physical domain is excluded: **no uniformly dense convex three-polytope with ten genuine vertices and seventeen true edges admits the weak true-edge escape tree312**, with respect to its own volume centroid and any one common SPD metric. The exact parent tuple is

@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-28 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 # FOUR_CENTRAL_SECTIONS_TETRAHEDRAL_SHELL_1OVER42_AND_FULL_CUT_STACK_1OVER512_V1

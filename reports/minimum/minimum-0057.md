@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
 ---
 
 **Nine additional genuine C34/V9 types are now physically excluded, and the new U≥2 bound is sharp for local type375.** The newly closed local types are **104,329,344,366,375,482,554,578,581**. Every realization of any of these literal face lattices, centered at its own ordinary uniform-volume centroid and equipped with any SPD metric, has at least two strict unstable vertices. The proof covers all **650 terminal-broom automorphism orbits**, or **1,300 labelled brooms**, using only their eight weak true-edge escape inequalities. It needs neither extra absent-shadow signs nor polar inequalities.

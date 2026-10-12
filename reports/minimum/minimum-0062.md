@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-12 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
 ---
 
 **NIMBLE99_C34_COMMON_BODY_GEOMETRIC_GAPS_AND_PROJECTIVE_V3.** The new global result is constructive: every actual joint candidate in the entire (V,E,F)=(10,17,9) slice has separated facet poles, quantitatively recoverable actual slacks, and

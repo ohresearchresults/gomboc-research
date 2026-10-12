@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-25 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 # H5_FULL_RATIO_Q_CUT_FOUR_CUBE_ALLROOT_NONZERO_PSD_V1

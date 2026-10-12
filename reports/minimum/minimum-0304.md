@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-28 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> The claimed exclusion requires the parallel zero-density edge to form the entire upper graph; other cases remain open. The report also states that it could not certify a complete input read or a new executed source run.
+<!-- historical-status:end -->
+
 ---
 
 # POSITIVE_MARKED_DENSITY_PARALLEL_CAP_EXCLUSION_AND_JOINT_CURVATURE_GATE_V1

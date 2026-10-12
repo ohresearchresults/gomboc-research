@@ -10,7 +10,8 @@
       "bytes": 128631563,
       "sha256": "9ae3ee48add20d5946ecaf672fb60c8b3d82fa6367485a9623003ec987674455",
       "url": "https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/astra-aristotle.tar.gz",
-      "extract_to": "repository root"
+      "extract_to": "repository root",
+      "archive_url": "https://zenodo.org/records/23307925/files/astra-aristotle.tar.gz?download=1"
     },
     {
       "id": "astra-herschel",
@@ -20,7 +21,8 @@
       "bytes": 286592868,
       "sha256": "4ea9236d7442016f90c02cf381fde75e0f988daa15dae570401b3438d0e9d9aa",
       "url": "https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/astra-herschel.tar.gz",
-      "extract_to": "repository root"
+      "extract_to": "repository root",
+      "archive_url": "https://zenodo.org/records/23307925/files/astra-herschel.tar.gz?download=1"
     },
     {
       "id": "astra-peirce",
@@ -30,7 +32,8 @@
       "bytes": 163886160,
       "sha256": "8c90b589d6f3235e7019d9e1dd113a3092ad9cb26942dea5846e96a57762cad8",
       "url": "https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/astra-peirce.tar.gz",
-      "extract_to": "repository root"
+      "extract_to": "repository root",
+      "archive_url": "https://zenodo.org/records/23307925/files/astra-peirce.tar.gz?download=1"
     },
     {
       "id": "astra-shared",
@@ -40,7 +43,8 @@
       "bytes": 333370,
       "sha256": "a566b41b3d4562d9a0b676bf02bee727ae0438f4220f9e38b65011e8656ee465",
       "url": "https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/astra-shared.tar.gz",
-      "extract_to": "repository root"
+      "extract_to": "repository root",
+      "archive_url": "https://zenodo.org/records/23307925/files/astra-shared.tar.gz?download=1"
     },
     {
       "id": "figure-workspaces",
@@ -50,7 +54,8 @@
       "bytes": 159014612,
       "sha256": "b189173843a4caa371fb7d77c54f87ef72cb1ff15f666a1aa70d0cdcbc7c4994",
       "url": "https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/figure-workspaces.tar.gz",
-      "extract_to": "repository root"
+      "extract_to": "repository root",
+      "archive_url": "https://zenodo.org/records/23307925/files/figure-workspaces.tar.gz?download=1"
     },
     {
       "id": "historical-constructions",
@@ -60,7 +65,8 @@
       "bytes": 197701165,
       "sha256": "9cd24a8be0a9a385a08e9c22617b29467a46dfbc4b1dfb2c1935481bf96e8904",
       "url": "https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/historical-constructions.tar.gz",
-      "extract_to": "repository root"
+      "extract_to": "repository root",
+      "archive_url": "https://zenodo.org/records/23307925/files/historical-constructions.tar.gz?download=1"
     },
     {
       "id": "minimum",
@@ -70,7 +76,8 @@
       "bytes": 220065,
       "sha256": "2f925a51cc2659afb287a7cc41e60ded2e1730955a559abb5b94122ef38ef874",
       "url": "https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/minimum.tar.gz",
-      "extract_to": "repository root"
+      "extract_to": "repository root",
+      "archive_url": "https://zenodo.org/records/23307925/files/minimum.tar.gz?download=1"
     },
     {
       "id": "recovered-science",
@@ -80,7 +87,14 @@
       "bytes": 859637,
       "sha256": "8dfcb9e78cecc3a52a3116064ad29e514f70bb5781f9764f1e31430fd77f1a66",
       "url": "https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/recovered-science.tar.gz",
-      "extract_to": "repository root"
+      "extract_to": "repository root",
+      "archive_url": "https://zenodo.org/records/23307925/files/recovered-science.tar.gz?download=1"
     }
-  ]
+  ],
+  "archive": {
+    "doi": "10.5281/zenodo.23307925",
+    "url": "https://doi.org/10.5281/zenodo.23307925",
+    "record_id": 23307925,
+    "companion_repository_doi": "10.5281/zenodo.23307702"
+  }
 }

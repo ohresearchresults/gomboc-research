@@ -1,5 +1,11 @@
 # Saved scientific reports
 
+<!-- historical-status:start -->
+> **Historical AI records.** The titles and claims in these records reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../C622/README.md) passes the supplied exact checks; C<500 remains open; Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. See [verification status and source gaps](../catalog/coverage.md).
+<!-- historical-status:end -->
+
 898 AI research reports from the Figure and Minimum searches, in their original language. They include experiments, proof attempts and negative results. [Coverage](../catalog/coverage.md) summarizes verification status and export notes; [notation](../catalog/README.md#notation) explains the recurring shorthand.
 
 [Browse and search the catalog](https://ohresearchresults.github.io/gomboc-research/) · [Machine-readable index](../catalog/reports.json)

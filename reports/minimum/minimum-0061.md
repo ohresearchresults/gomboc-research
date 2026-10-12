@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 Получены три новых точных результата для буквальной TREE253=(0,0,1,2,3,4,5,0,7): три исключённых замкнутых коэффициентных сектора; универсальная оценка направления корневого полюса относительно собственного вектора метрики; обязательная конечная дизъюнкция общевершинных Λ-ограничений. **Полное универсальное исключение TREE253 и полное исключение её совместных реализаций V10/E17/F9 пока не доказаны.** Границы V≥10, F≥9, C≥34, а также исходные 633 типа / 52635 совместных корневых орбит не изменяются. Существование при C=34 не утверждается.

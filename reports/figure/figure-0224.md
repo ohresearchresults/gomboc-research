@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
 ---
 
 The attached journal's acceptance gate requires a finite uniform-density body evaluated at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/edge evidence, independent verification, and matching OBJ/STL; wall points and near-solutions do not qualify.

@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-23 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
 ---
 
 # RH08 — changed-geometry construction handoff

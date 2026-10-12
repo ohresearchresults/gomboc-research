@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-26 UTC
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 # H5_BASAL_MAXIMUM_ROOT_CHILD_AND_SHARP_REFLECTION_THRESHOLD_V1

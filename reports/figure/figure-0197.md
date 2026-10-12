@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-02 UTC
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 The supplied journal's accepted boundary was the completed quartet collar: all 16 adjacent chambers were nonwinners, `PRE_16494` remained the strongest fixed-lattice endpoint, and the requested successor was a nonlocal stable-component exit preserving row `2092` and vertex `2693`. The run's non-negotiable acceptance gate requires an exact finite own-centred polyhedron with actual incidence, exhaustive strict mechanics, independent verification, and matching mesh data.

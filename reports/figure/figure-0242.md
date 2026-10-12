@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-03 UTC
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 # Vivid Atlas 32 — P9-XG10 five-row carrier-free full-star determination

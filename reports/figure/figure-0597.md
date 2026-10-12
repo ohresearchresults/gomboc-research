@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-28 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> The report obtains no qualifying gömböc. Its [full 100-file source bundle](../../catalog/coverage.md#missing-material) is not confirmed in the retained archive.
+<!-- historical-status:end -->
+
 ---
 
 # KL13C — certified finite stable-carrier replacement, physical port changes, and exact nonwinners

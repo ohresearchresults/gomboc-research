@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-09 UTC
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 # Quiet Raven 29 — alternating-contact atlas; exact C652 and a distinct C662 facet-fusion branch

@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
 ---
 
 **The universal nine-vertex direction is closed, conditional only on the inherited universal escape-tree reduction to the literal broom.** A complete exact certificate now excludes the eight weak arrows of `T=(0,0,1,2,3,4,5,6,0)` using two common apex moment families and no boundary sphere. Consequently every full-dimensional homogeneous convex three-polytope with exactly nine actual vertices has at least two strict unstable vertices at its own volume centroid, for every one common SPD metric. The conclusion includes all roots, genuine nonsimplicial maximal facets, selected zero-volume cells, weak shadows, norm ties, and arbitrary metric conditioning.

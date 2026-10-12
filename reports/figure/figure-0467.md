@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> The reported C=198 candidate still has two unstable equilibria and one saddle; it does not meet the gömböc condition.
+<!-- historical-status:end -->
+
 ---
 
 # Steady Comet 83 — exact BF35 whole-packet contraction under C<500

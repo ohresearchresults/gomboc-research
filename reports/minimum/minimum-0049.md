@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
 ---
 
 **Whole MP9:19 is excluded: every body in its stated physical domain has U≥2. All 93 prospective new canonical C32 exclusions follow, raising the accepted whole register from 201 to 294 of 296 types.** Canonical types 73 and 285 remain outside the whole register.

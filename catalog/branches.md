@@ -1,5 +1,7 @@
 # Recorded research branches
 
+[Explore the interactive research map](https://ohresearchresults.github.io/gomboc-research/research-map.html).
+
 174 directions from the saved Figure and Minimum research maps, with parent links and associated reports. Statuses reflect the saved checkpoints. Titles are the working titles of the search; see [notation](README.md#notation).
 
 | Branch | Recorded parent | Reports |

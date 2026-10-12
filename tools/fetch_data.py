@@ -98,6 +98,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('collection', choices=['all', *choices])
     parser.add_argument('--verify-only', action='store_true', help='check files already installed, without downloading')
+    parser.add_argument('--source', choices=['zenodo', 'github'], default='zenodo',
+                        help='download host (default: zenodo); both copies have the same hashes')
     args = parser.parse_args()
     names = list(choices) if args.collection == 'all' else [args.collection]
     files = {name: {} for name in names}
@@ -107,7 +109,12 @@ def main():
             if row['collection'] in files:
                 files[row['collection']][row['path']] = row
     for name in names:
-        install(choices[name], files[name], args.verify_only)
+        dataset = dict(choices[name])
+        if not args.verify_only and args.source == 'zenodo':
+            if not dataset.get('archive_url'):
+                raise ValueError('No Zenodo archive URL recorded for ' + name)
+            dataset['url'] = dataset['archive_url']
+        install(dataset, files[name], args.verify_only)
 
 
 if __name__ == '__main__':

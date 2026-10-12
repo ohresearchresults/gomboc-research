@@ -2,6 +2,14 @@
 
 AI research report · 2026-08-22 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> The exclusion claimed here is restricted to the specified 14-normal, 24-vertex Reshetov support cell.
+<!-- historical-status:end -->
+
 ---
 
 # Exact global attack: completed exclusion theorem

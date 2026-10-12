@@ -5,7 +5,7 @@
       "name": "Humeniuk, Oleksandr"
     }
   ],
-  "description": "<p>Exact constructions, verification code and research records from an AI-assisted investigation of homogeneous mono-monostatic polyhedra. The C622 construction has 176 vertices, 311 edges and 137 faces, with exactly one stable and one unstable equilibrium at its uniform-volume centroid.</p><p>Licenses: program code is licensed under the MIT License. Constructions, numerical data, reports, notes, catalogs, images and documentation are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). Attributed third-party components retain their own terms. See RIGHTS.md in the archive for the license scopes.</p><p>This deposit preserves the Git repository. The eight larger numerical datasets are available from the linked GitHub dataset release and are indexed in catalog/downloads.json.</p>",
+  "description": "<p>Exact constructions, verification code and research records from an AI-assisted investigation of homogeneous mono-monostatic polyhedra. The C622 construction has 176 vertices, 311 edges and 137 faces, with exactly one stable and one unstable equilibrium at its uniform-volume centroid.</p><p>Licenses: program code is licensed under the MIT License. Constructions, numerical data, reports, notes, catalogs, images and documentation are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). Attributed third-party components retain their own terms. See RIGHTS.md in the archive for the license scopes.</p><p>This deposit preserves the Git repository. The eight larger numerical datasets are preserved in the linked Zenodo deposit (DOI 10.5281/zenodo.23307925), with identical copies on the GitHub dataset release. They are indexed in catalog/downloads.json.</p>",
   "version": "research-2026-10-12.2",
   "publication_date": "2026-10-12",
   "upload_type": "dataset",
@@ -28,6 +28,11 @@
       "identifier": "https://github.com/ohresearchresults/gomboc-research/releases/tag/research-2026-10-12",
       "relation": "isSupplementedBy",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23307925",
+      "relation": "isSupplementedBy",
+      "scheme": "doi"
     }
   ]
 }

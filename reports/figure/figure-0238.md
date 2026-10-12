@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-03 UTC
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 The durable journal required the fifth-support continuation to delete the complete `[1371,2369]` forcing component, release old rows when necessary, and audit every inserted or inherited star-changed internal edge before moment closure. The acceptance gate remains a finite uniform-density body at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete incidence and margins, independent verification, and matching mesh data.

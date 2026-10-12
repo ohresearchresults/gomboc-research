@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-13 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 **New result: 4,316 additional whole rooted incidence domains are excluded for the actual E17/tree410 problem.** The complete conservative register is now **14,128 whole exclusions and 10,719 remaining domains** among the 24,847 rooted labelled genuine incidences. Another 355 remaining domains are confined to a strict, explicitly reconstructed cap sector. Whole tree410 and the global bounds remain open at their previous values.

@@ -26,6 +26,12 @@ python3 -B -S C622/VERIFY.py fresh-proof
 
 The run takes about 20 seconds and ends with `LOCAL_C622_ENDPOINT_TWO_EXACT_AUDITS_AND_THIRD_MASS_PASS`. Results are written to `C622/fresh-proof/`. The program refuses to overwrite an earlier run, so delete that folder or give another name to run it again. [What is checked, and the exact definition of the body](C622/README.md).
 
+## Research branches
+
+[![The construction search: linked research directions and their saved reports](docs/research-map-preview.png)](https://ohresearchresults.github.io/gomboc-research/research-map.html)
+
+[Explore the interactive map](https://ohresearchresults.github.io/gomboc-research/research-map.html): 92 construction-search branches and 82 minimum-search branches. Follow a direction to its parent, subbranches and saved reports. The links reproduce the recorded research tree; open and closed labels describe its saved checkpoints.
+
 ## Explore the research
 
 **[Search the scientific catalog](https://ohresearchresults.github.io/gomboc-research/)**
@@ -36,7 +42,7 @@ The run takes about 20 seconds and ends with `LOCAL_C622_ENDPOINT_TWO_EXACT_AUDI
 | Earlier constructions, methods and unsuccessful directions | [Scientific collections](catalog/README.md) |
 | 898 AI research reports | [Report index](reports/README.md) |
 | 1,101 source notes and proof drafts | [Scientific materials](materials/README.md) |
-| 174 recorded research branches | [Branch map and linked reports](catalog/branches.md) |
+| 174 recorded research branches | [Interactive map](https://ohresearchresults.github.io/gomboc-research/research-map.html) · [Branch index](catalog/branches.md) |
 | Dated constructions and verification checkpoints | [Scientific chronology](catalog/chronology.md) |
 | 158,763 scientific files; 2.81 GB before compression | [Download numerical collections](catalog/downloads.md) |
 | Verification status and missing material | [Coverage](catalog/coverage.md) |
@@ -47,7 +53,7 @@ To add the large datasets to a checkout:
 python3 tools/fetch_data.py all
 ```
 
-The downloader verifies archive and file hashes. C622 needs no additional downloads.
+The downloader uses the [Zenodo dataset archive](https://doi.org/10.5281/zenodo.23307925) and verifies archive and file hashes. Use `--source github` for the identical GitHub copies. C622 needs no additional downloads.
 
 The reports and notes are working records written during the search, with their own shorthand. [Notation](catalog/README.md#notation) explains the recurring terms.
 
@@ -74,4 +80,4 @@ flowchart LR
 
 Tancredi Schettini Gherardini’s [paper](https://arxiv.org/abs/2609.07827) and [repository](https://github.com/Tancredi-Schettini-Gherardini/certified_gomboc) present an independent construction. The paper asks for an example with fewer than 1,000 faces; C622 has 137.
 
-[Archive DOI: 10.5281/zenodo.23307702](https://doi.org/10.5281/zenodo.23307702) · [Citation](CITATION.cff) · [License](RIGHTS.md): code under MIT, data and text under CC BY 4.0
+[Code and records DOI](https://doi.org/10.5281/zenodo.23307702) · [Datasets DOI](https://doi.org/10.5281/zenodo.23307925) · [Citation](CITATION.cff) · [License](RIGHTS.md): code under MIT, data and text under CC BY 4.0

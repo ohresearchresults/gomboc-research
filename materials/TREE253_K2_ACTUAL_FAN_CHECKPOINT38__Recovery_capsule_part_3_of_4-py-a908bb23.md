@@ -2,6 +2,12 @@
 
 AI research material
 
+<!-- historical-status:start -->
+> **Historical AI material.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../C622/README.md) passes the supplied exact checks; C<500 remains open; Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. See [verification status and source gaps](../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
  'E&a;lLO_}{A3<$o6iiHmxf=#k`I*om09b78e!Dz~2)%8jlHI-rYM<zV8q5vSgLMFw(K^Q?b<-lYVcYl0>%c5XvzXx8Hr!at>v8Vf6UZTasz9Qf'

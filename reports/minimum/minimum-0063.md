@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-12 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
 ---
 
 The result is a complete physical exclusion of **10 joint-root orbits in the canonical (V,E,F)=(10,17,9) slice**, representing 16 labelled root pairs, together with a complete regenerated necessary frontier and new actual facet–edge inequalities. The final frontier contains **633 types, 52,625 joint-root orbits, 3,848,435 selected-primal-parent/root orbits, and 13,982,767 matching/full-pole-graph domains**. No whole type, unrestricted F≥10 theorem, or improvement of the accepted C≥34 bound is claimed.

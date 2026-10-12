@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-11 UTC
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 **Main result: a new facet-moment/flux sandwich, including constraints expressed entirely in the actual matrix Λ, and an exact nine-facet application proving that the added geometric information is essential.** The universal inequality excludes a complete interval of proposed covariance data that satisfies the full parent rank-four, rank-three, coordinate-flux and sharp-trace necessary system. A sharper inequality for centrally symmetric facets excludes every nonphysical member of the demonstrated family. This proves no F≥10 theorem, no nine-facet monostability exclusion, and no new C32 whole-type or root exclusion. The accepted C≥32 and 116-whole/180-remaining status is unchanged.

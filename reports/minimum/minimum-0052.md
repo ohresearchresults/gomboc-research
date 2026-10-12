@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 **Result.** I obtained **36 new complete physical joint-root exclusions in canonical C32 type 1**, removing **204 graph domains and 70 matching branches**. The exact remaining frontier is **95 canonical types, 4,337 joint-root orbits, 27,688 graph orbits, and 7,848 matching branches**. Canonical1 now has only **four roots, 26 graph domains, and four matching branches**. No additional whole type is closed, and no universal facet-number lower bound is claimed.

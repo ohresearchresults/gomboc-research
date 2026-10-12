@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 **A complete physical continuous domain in the open (V,E,F)=(10,17,9) slice is now excluded.** Every SPD metric on the exact local520 body below has at least two strictly stable facets. The same conclusion holds for every actual body with its literal face lattice whose own-centred normalized poles satisfy

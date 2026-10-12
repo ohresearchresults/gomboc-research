@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
 ---
 
 **Completed: a homogeneous whole-MP9:43 theorem, with 23 additional whole canonical C32 exclusions.** Relative to the fixed authoritative parent, the whole register increases from 201 to **224 of 296 types**, leaving **72**. The proof has **206 exact certificates, 5,454 integer blocks, and 49,086 positive leading principal minors in each of two arithmetic implementations**. All accepted certificates use only the eight base weak escapes. No norm or ratio hypothesis remains.

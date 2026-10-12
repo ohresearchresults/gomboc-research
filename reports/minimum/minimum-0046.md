@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> This public text omits encoded source blocks; code in the affected passages is incomplete.
+<!-- historical-status:end -->
+
 ---
 
 The new result is **85 additional whole canonical C32 exclusions**: a whole-MP9:49 actual-moment theorem supplies82, and separate direct proofs supply canonical49,260,282. The supplied whole register grows from116 to201 of296. All486 new certificates pass independent scalar expansion, integer Bareiss and rational LDL checks:19196 integer blocks and172764 leading minors in each arithmetic. Both the complete source capsule's fresh reconstruction and its separate standard-library frozen check finished successfully with the expected hashes.

@@ -2,6 +2,12 @@
 
 AI research report · 2026-09-11 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> Minimum’s C≥34 remains a working lower bound requiring a consolidated proof. [C622](../../C622/README.md) passes the supplied exact checks. See [verification status and source gaps](../../catalog/coverage.md).
+<!-- historical-status:end -->
+
 ---
 
 Resolved affirmatively for all six assigned literal canonical types286,287,289,290,291,292. Each has one fixed combinatorial boundary triangulation, chosen independently of the realization and before introducing auxiliary weights, on which full formal cycle moments of total degree at most2 force the common moments to be the genuine homogeneous volume moments. The proof includes the exceptional coplanarity strata. No counterexample or unresolved realization stratum remains for these six types.

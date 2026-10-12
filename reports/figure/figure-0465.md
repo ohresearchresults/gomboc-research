@@ -2,6 +2,14 @@
 
 AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md#text-records)
 
+<!-- historical-status:start -->
+> **Historical AI report.** The title and claims below reflect the AI’s assessment at the time. Claims of proof, certification or completion are not a current verification verdict.
+>
+> [C622](../../C622/README.md) passes the supplied exact checks; the search for C<500 remains open. See [verification status and source gaps](../../catalog/coverage.md).
+>
+> The report introduces no new geometry and records that its parent’s literal recovery source was incomplete.
+<!-- historical-status:end -->
+
 ---
 
 # Calm Comet 31 — NW37 C<500 edge-budget handoff
