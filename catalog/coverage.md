@@ -4,7 +4,7 @@ The archive contains 158,763 scientific files (2.81 GB before compression), 898 
 
 ## Verification status
 
-[C622](../C622/README.md) passes the supplied exact verification programs. The search for C<500 remains open. The Minimum study’s proposed C≥34 lower bound still needs a consolidated proof. Historical reports include incomplete and superseded arguments; their labels describe the status at the time.
+[C622](../C622/README.md) passes the supplied exact verification programs. The search for C<500 remains open. The Minimum study contains proposed computer-assisted proofs of V≥10 and F≥9, retained for a separate mathematical assessment. Together, these bounds would imply C(1,1)≥34. Historical reports include incomplete and superseded arguments; their labels describe the status at the time.
 
 ## Missing material
 
