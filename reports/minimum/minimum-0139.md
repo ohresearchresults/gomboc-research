@@ -26,9 +26,9 @@ The complete supplied journal and all four supplied materials were read through 
 - `[internal-source-reference]`, authoritative exploratory source: 1030 bytes, SHA-256 `d164a50a0950ef359de36376c77838dcce6c81eeb658cd4252cbe362d1654b60`.
 - `[internal-source-reference]`, ancillary correction: 1817 bytes, SHA-256 `f49c8c9723077de629921c049d6e09d2466072e6feb41a7738bd27b9cecc7823`.
 
-The corrected 1030-byte source, not the longer illustrative fence, is authoritative. That enumeration is not used in this proof and was not claimed as a new computational replay. The correction expressly leaves the analytic theorem unchanged. :contentReference[oaicite:0]{index=0}
+The corrected 1030-byte source, not the longer illustrative fence, is authoritative. That enumeration is not used in this proof and was not claimed as a new computational replay. The correction expressly leaves the analytic theorem unchanged.
 
-The supplied theorem is used only after polyhedrality has been established below. Its premise is local maximality against all nearby admissible convex bodies, not maximality in a fixed realization stratum. :contentReference[oaicite:1]{index=1}
+The supplied theorem is used only after polyhedrality has been established below. Its premise is local maximality against all nearby admissible convex bodies, not maximality in a fixed realization stratum.
 
 This handoff contains a new analytic proof, not a numerical finding. No new coefficient array, computed body, solver output, or unavailable archive source is a dependency. The argument has not been proof-assistant formalized or independently audited by a second executor. The two particularly useful audit points are the angular-edge variation in Section 7 and the finite-extreme-point argument in Section 9.
 
@@ -42,7 +42,7 @@ Fix `0<b<1` and `c,d>0`. Put
     n=(1+b+c)x+(1+b+d)y,
     W={x>=0, y>=0, ell>=0}.
 
-An admissible body P is bounded, full-dimensional, and convex, with `T0 subset P subset W`, and its root `F0=P intersect {ell=0}` has positive two-dimensional area. Coordinate support patches may exceed the canonical triangles. These are exactly the supplied original-body definitions. :contentReference[oaicite:2]{index=2}
+An admissible body P is bounded, full-dimensional, and convex, with `T0 subset P subset W`, and its root `F0=P intersect {ell=0}` has positive two-dimensional area. Coordinate support patches may exceed the canonical triangles. These are exactly the supplied original-body definitions.
 
 Write
 
@@ -66,7 +66,7 @@ For any admissible competitor P', let `Delta V`, `Delta E`, and `Delta N` be its
       iff Delta N-r Delta V-q Delta E
            > [N/(VE)] Delta V Delta E.                 (1)
 
-The expression on the left is the signed integral of the frozen affine function g over the change of body. In particular, for an added or removed region of volume w in a common bounded container, the right side has magnitude `O(w^2)`. The added-region and removed-region forms agree with the supplied finite tests. :contentReference[oaicite:3]{index=3}
+The expression on the left is the signed integral of the frozen affine function g over the change of body. In particular, for an added or removed region of volume w in a common bounded container, the right side has magnitude `O(w^2)`. The added-region and removed-region forms agree with the supplied finite tests.
 
 For centroid bookkeeping, write `J=integral_P p dp`, where p is the position vector. Every variation below has
 
@@ -532,7 +532,7 @@ P is now known to be polyhedral, and its local maximality is still against the e
 
     number of true vertices of P<=16.                   (28)
 
-The inherited theorem and its stronger special-incidence formula are available in the supplied exact source. :contentReference[oaicite:4]{index=4}
+The inherited theorem and its stronger special-incidence formula are available in the supplied exact source.
 
 Accordingly, (28) is no longer conditional on an a priori polyhedrality assumption. It remains conditional on P actually being a local maximum in the admissible class.
 
@@ -557,7 +557,7 @@ Thus the exact remaining global bridge is:
     prove attainment with positive root area
     in the original fixed-parameter marked class,
 
-or establish a separate valid treatment of every maximizing boundary escape. Once that bridge is supplied, the polyhedral-maximizer question is resolved by this handoff, with the existing bound of sixteen. The old warning about applying the theorem to arbitrary polytope approximants remains valid. :contentReference[oaicite:5]{index=5}
+or establish a separate valid treatment of every maximizing boundary escape. Once that bridge is supplied, the polyhedral-maximizer question is resolved by this handoff, with the existing bound of sixteen. The old warning about applying the theorem to arbitrary polytope approximants remains valid.
 
 ## 11. What was tried, reusable mechanisms, and continuation
 
@@ -565,8 +565,8 @@ The initial route was to analyze smooth conical/developable patches generated by
 
 The useful replacement was to work with the exact tangent-cone envelope (6), hold all other cone constraints fixed, and integrate radial sectors with their actual `rho^2` Jacobian. Angular deletion and angular convex-hull addition then prove the same balance without any curvature hypothesis. A planar countability argument removes non-atomic boundary area. The angular-edge lemma subsequently supplies whole-facet stationarity even when neighboring normals accumulate; this is what permits ordinary-facet rigidity to extend to arbitrary bodies. Finally, compact level-cones and extremality replace finite vertex-link arguments and eliminate an infinite collection of facets.
 
-The planar polygonality literature was checked as an alternative route. Its standard sufficient theorem uses a strong concavity condition in an angular derivative variable and separately treats corner accumulation at active constraints. Those hypotheses were not established for the present radial weights, so that theorem was not imported. The elementary angular-edge argument above is independent of it. :contentReference[oaicite:6]{index=6}
+The planar polygonality literature was checked as an alternative route. Its standard sufficient theorem uses a strong concavity condition in an angular derivative variable and separately treats corner accumulation at active constraints. Those hypotheses were not established for the present radial weights, so that theorem was not imported. The elementary angular-edge argument above is independent of it.
 
 The most useful continuation is now attainment/noncollapse, using the original integrals and the positive-root condition explicitly. There is no remaining need to assume regularity of an attained maximizing boundary or to classify smooth ruled candidates first. The exact variation formulas (7), (8), and the angular-edge limits (14), (15) are also reusable for that continuation.
 
-No universal numerical trace bound, `T<51/25` theorem, mechanical exclusion, attaining 110 body, or registry change follows merely from this structure theorem. The accepted mechanical interval remains `34<=C_min<=622`. :contentReference[oaicite:7]{index=7}
+No universal numerical trace bound, `T<51/25` theorem, mechanical exclusion, attaining 110 body, or registry change follows merely from this structure theorem. The accepted mechanical interval remains `34<=C_min<=622`.

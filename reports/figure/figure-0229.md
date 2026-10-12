@@ -10,31 +10,31 @@ AI research report · 2026-09-02 UTC
 
 **EXACT NONWINNER.** `J50_XL2_terminal10` is a finite rational uniform-density convex polyhedron at its own exact ordinary-volume centroid. Its irredundant primal lattice is `(V,E,F)=(16,24,10)`, complexity `48`, and its exhaustive strict equilibrium class is `(S,U,H)=(2,2,2)`, not `(1,1,0)`.
 
-The run's acceptance gate requires a materialized finite own-centred body with exactly one stable maximal face, one unstable vertex, no saddle true edges, a complete exact incidence/mechanics audit, an independent verifier, and matching meshes; auxiliary-centre, degenerate, smooth, near-solution, or unexpanded-generator claims do not qualify. :contentReference[oaicite:0]{index=0}
+The run's acceptance gate requires a materialized finite own-centred body with exactly one stable maximal face, one unstable vertex, no saddle true edges, a complete exact incidence/mechanics audit, an independent verifier, and matching meshes; auxiliary-centre, degenerate, smooth, near-solution, or unexpanded-generator claims do not qualify.
 
-The accepted parent `J49_DO4_terminal8` was exact own-centred `(12,18,8)`, `(2,2,2)`. Its linked double-octahedral ball removed the preceding J48 packet but created stable `7000`, unstable `(2475,7001,7002)`, saddles `(2475,7000)` and `(7000,7002)`, and forcing edge `(7000,7001)`; the journal identified a cross-linked two-circuit terminal volume as the first unclassified successor. :contentReference[oaicite:1]{index=1}
+The accepted parent `J49_DO4_terminal8` was exact own-centred `(12,18,8)`, `(2,2,2)`. Its linked double-octahedral ball removed the preceding J48 packet but created stable `7000`, unstable `(2475,7001,7002)`, saddles `(2475,7000)` and `(7000,7002)`, and forcing edge `(7000,7001)`; the journal identified a cross-linked two-circuit terminal volume as the first unclassified successor.
 
 The present branch makes that nonserial topology exit. A connected exact positive-volume 32-tetrahedron annular shell replaces the complete literal J49 dual boundary, removes support `7000`, forcing edge `(7000,7001)`, stable `7000`, cap `(2475,7001,7002)`, and both inherited saddles. Intended stable face `2475` and intended unstable vertex `(2475,5000,5003)` remain strict. The failure is a newly born Euler-neutral packet, not survival or mere relocation of the old labels.
 
 ## Reproducible artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Nimble_Comet_79_J50_XL2_terminal10_exact_NONWINNER.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Nimble_Comet_79_J50_XL2_terminal10_exact_NONWINNER.zip.sha256)
-- [Independent verification receipt](sandbox:/mnt/data/Nimble_Comet_79_J50_XL2_terminal10_VERIFICATION_RECEIPT.json)
-- [Expanded result report](sandbox:/mnt/data/Nimble_Comet_79_J50_XL2_terminal10_exact_NONWINNER_RESULT.md)
-- [Deterministic exact source](sandbox:/mnt/data/J50_XL2_terminal10_exact_source.json)
-- [Exact centroid certificate](sandbox:/mnt/data/J50_exact_ordinary_centroid.json)
-- [Exact incidence/irredundancy certificate](sandbox:/mnt/data/J50_exact_incidence_irredundancy.json)
-- [Exact mechanics summary](sandbox:/mnt/data/J50_exact_mechanics_summary.json)
-- [Full exact mechanics ledger](sandbox:/mnt/data/J50_mechanical_ledgers_point.json.gz)
-- [Connected positive-volume transition shell](sandbox:/mnt/data/J49_to_J50_connected_positive_volume_shell.json)
-- [Residual forcing certificate](sandbox:/mnt/data/J50_residual_forcing_obstruction.json)
-- [Two-control response certificate](sandbox:/mnt/data/J50_two_control_exact_response.json)
-- [Exact perturbation certificate](sandbox:/mnt/data/J50_exact_metric_perturbation_box.json)
-- [First remaining topology certificate](sandbox:/mnt/data/J50_first_remaining_nonserial_successor.json)
-- Exact lattice tables: [active H](sandbox:/mnt/data/J50_H_active_exact.tsv.gz), [supplied H](sandbox:/mnt/data/J50_H_supplied_exact.tsv.gz), [V](sandbox:/mnt/data/J50_V_exact.tsv.gz), [maximal-face cycles](sandbox:/mnt/data/J50_maximal_face_cycles.tsv.gz), [true edges](sandbox:/mnt/data/J50_true_edges.tsv)
-- Verifiers: [endpoint](sandbox:/mnt/data/verify_nimble_comet79_J50.py), [connected shell](sandbox:/mnt/data/verify_j50_connected_shell.py)
-- Meshes: [watertight OBJ](sandbox:/mnt/data/J50_XL2_terminal10.obj), [watertight binary STL](sandbox:/mnt/data/J50_XL2_terminal10.stl)
+- Complete exact archive (`Nimble_Comet_79_J50_XL2_terminal10_exact_NONWINNER.zip`)
+- Archive SHA-256 receipt (`Nimble_Comet_79_J50_XL2_terminal10_exact_NONWINNER.zip.sha256`)
+- Independent verification receipt (`Nimble_Comet_79_J50_XL2_terminal10_VERIFICATION_RECEIPT.json`)
+- Expanded result report (`Nimble_Comet_79_J50_XL2_terminal10_exact_NONWINNER_RESULT.md`)
+- Deterministic exact source (`J50_XL2_terminal10_exact_source.json`)
+- Exact centroid certificate (`J50_exact_ordinary_centroid.json`)
+- Exact incidence/irredundancy certificate (`J50_exact_incidence_irredundancy.json`)
+- Exact mechanics summary (`J50_exact_mechanics_summary.json`)
+- Full exact mechanics ledger (`J50_mechanical_ledgers_point.json.gz`)
+- Connected positive-volume transition shell (`J49_to_J50_connected_positive_volume_shell.json`)
+- Residual forcing certificate (`J50_residual_forcing_obstruction.json`)
+- Two-control response certificate (`J50_two_control_exact_response.json`)
+- Exact perturbation certificate (`J50_exact_metric_perturbation_box.json`)
+- First remaining topology certificate (`J50_first_remaining_nonserial_successor.json`)
+- Exact lattice tables: active H (`J50_H_active_exact.tsv.gz`), supplied H (`J50_H_supplied_exact.tsv.gz`), V (`J50_V_exact.tsv.gz`), maximal-face cycles (`J50_maximal_face_cycles.tsv.gz`), true edges (`J50_true_edges.tsv`)
+- Verifiers: endpoint (`verify_nimble_comet79_J50.py`), connected shell (`verify_j50_connected_shell.py`)
+- Meshes: watertight OBJ (`J50_XL2_terminal10.obj`), watertight binary STL (`J50_XL2_terminal10.stl`)
 
 Archive SHA-256 is `75e71a51ebf1bf6a0d98ebfd19fb9485595a92c83423f0a129177b14c2af730c`. Exact-source SHA-256 is `38ffb964e74ca3ad18e4a8f3e1d54279f8aa6a2ee966f4f2beabf55329660724`; manifest SHA-256 is `06248cab1f92ac25c5fe2094661e6dfdac0ab476b47e81828d939c0f6a45c3c4`; verification-transcript SHA-256 is `a0a29edfba39d7dc0c8f72b2827903872851d14544210a79fb0dfc51b6e45ee7`.
 

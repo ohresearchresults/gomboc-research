@@ -446,7 +446,7 @@ Save as `restore_antecedent.py` and run, for example:
 python -B -S restore_antecedent.py restored regular_horizon_sector_v2.zip
 ```
 
-The archive is the already supplied [native antecedent source archive](sandbox:/mnt/data/cut_stack_regular_sector/regular_horizon_sector_v2.zip). The restoration target marker is `REGULAR_HORIZON_ANTECEDENT_IDENTITIES_RESTORED`.
+The archive is the already supplied native antecedent source archive (`regular_horizon_sector_v2.zip`). The restoration target marker is `REGULAR_HORIZON_ANTECEDENT_IDENTITIES_RESTORED`.
 
 ```python
 #!/usr/bin/env python3

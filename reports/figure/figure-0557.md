@@ -24,7 +24,7 @@ The parent's advertised immutable identity is SHA-256 `e0dc5597e1a1410335dfc2d50
 INNER_ROOT_SOURCE_RECOVERY_PASS 37 221890 8bdb8f3ba1705eedd8629e485116cb87f355d470869cd9e3bc420e543b39ca88
 ```
 
-The literal26 rows begin `[4555,1456,-2626]` and end `[5718,-2436,-3536]`, with physical coordinates `(999 I + (4800,300,-2700))/10^7`. No old75-point body, polar substitute, moved reference centre, or alternate label was used. The accepted parent has S=[22], U=[3,12], H=[[1,6]], where face22 is `[7,12,19]`, and one P-bar of depth `.8556668615746156`. These are the parent and affine formulation stated in the supplied branch memory. :contentReference[oaicite:0]{index=0}
+The literal26 rows begin `[4555,1456,-2626]` and end `[5718,-2436,-3536]`, with physical coordinates `(999 I + (4800,300,-2700))/10^7`. No old75-point body, polar substitute, moved reference centre, or alternate label was used. The accepted parent has S=[22], U=[3,12], H=[[1,6]], where face22 is `[7,12,19]`, and one P-bar of depth `.8556668615746156`. These are the parent and affine formulation stated in the supplied branch memory.
 
 There is no missing continuation-critical input. The new recovery capsule includes all26 literal rows, all48 oriented facets, the own-volume data, every new affine matrix, both logical cover implementations, two full mechanics auditors, and all required helpers. The advertised outer parent digest is treated as its supplied identity; the journal, decoder and decoded-dictionary digests above were independently checked locally.
 
@@ -253,7 +253,7 @@ DIAGONAL_COVER_RETRAVERSAL_PASS 28
 AFFINE26_COLD_RECOVERY_ALL_CERTIFICATES_PASS 15
 ```
 
-The15 pinned generated receipts include the entire matrix/cycle certificate, both logical refutations, all four full audits from each mechanics implementation, the interval certificate and the diagonal cover. Convenience copies supplement, but do not replace, the inline source: [recovery program](sandbox:/mnt/data/RECOVER_AFFINE26.py) and [complete source, observed certificates, audits and finite-screen records](sandbox:/mnt/data/AFFINE26_COMPLETE_HANDOFF.zip). The ZIP is336548 bytes, SHA-256 `e03b1993164575cca68ae0876798af867fef03dbaa33adcc0af3196f6ee2e3b9`.
+The15 pinned generated receipts include the entire matrix/cycle certificate, both logical refutations, all four full audits from each mechanics implementation, the interval certificate and the diagonal cover. Convenience copies supplement, but do not replace, the inline source: recovery program (`RECOVER_AFFINE26.py`) and complete source, observed certificates, audits and finite-screen records (`AFFINE26_COMPLETE_HANDOFF.zip`). The ZIP is336548 bytes, SHA-256 `e03b1993164575cca68ae0876798af867fef03dbaa33adcc0af3196f6ee2e3b9`.
 
 ```python
 """Self-contained exact affine-orbit exclusion and four rational affine controls."""

@@ -1,6 +1,6 @@
 # Constructions and exact checks
 
-Complexity is C = V + E + F − 2 = 2E, counting true edges and maximal facets. Equilibrium counts refer to each filled solid’s own uniform-volume centroid.
+The size measure is C = V + E + F − 2 = 2E, counted after merging coplanar faces. Equilibrium counts are (stable, unstable, saddle) about each solid’s own centre of mass at uniform density; “strict” counts hold with a margin and “weak” counts are borderline cases. [Notation](README.md#notation) lists the other terms.
 
 | Construction | V / E / F | Evidence in this release | Scientific package |
 | --- | --- | --- | --- |

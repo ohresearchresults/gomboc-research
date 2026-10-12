@@ -28,7 +28,7 @@ The direct mathematical anchor is
     SHA256 d4c4b2cbdc44607097e175a09d64c0181f19cd95da40fbce5fdb52974bff3e3a
     PRISMATOID_FOUR_CUT_FULL_DOMAIN_U2_V1.
 
-Its fixed-slope family, all48790 rooted trees and actual-centred2^-22 tube remain closed. I did not reopen its320 systems or independently replay its large certificate. The old family is used for identity and comparison; the new quotient-tree certificate is independent. The parent's complete true-tree coverage and tube have their stated narrower scope. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+Its fixed-slope family, all48790 rooted trees and actual-centred2^-22 tube remain closed. I did not reopen its320 systems or independently replay its large certificate. The old family is used for identity and comparison; the new quotient-tree certificate is independent. The parent's complete true-tree coverage and tube have their stated narrower scope.
 
 ## 3. Complete nine-modulus prismatoid chart
 
@@ -499,7 +499,7 @@ Expected terminal markers:
     THREE_NEW_SHAPES_ALL_L_GE16384_SAME_INVERSE_222_WEAK000_PASS
     HEPTAGON_TRIANGLE_MODULI_RECOVERY_PASS 191888 ba1e61f8916f2bc9a42debc31715ffd5af501667e6e9f30dce6f62793ad6ed8d
 
-Supplementary copies: [source](sandbox:/mnt/data/prism_moduli/heptagon_triangle_moduli.py), [full exact report](sandbox:/mnt/data/prism_moduli/heptagon_triangle_moduli.json), [complete bundle](sandbox:/mnt/data/HEPTAGON_TRIANGLE_MODULI_EXPANSION7_bundle.zip). The literal source below is sufficient without those files.
+Supplementary copies: source (`heptagon_triangle_moduli.py`), full exact report (`heptagon_triangle_moduli.json`), complete bundle (`HEPTAGON_TRIANGLE_MODULI_EXPANSION7_bundle.zip`). The literal source below is sufficient without those files.
 
 ### Complete runnable source
 

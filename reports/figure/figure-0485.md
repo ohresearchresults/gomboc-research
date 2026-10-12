@@ -31,7 +31,7 @@ I read the complete supplied journal, including all three literal immutable pare
 
 The decoded parent source units matched their embedded byte counts and hashes. I reran the normal-form verifier, the rational shear control, the apex-root algebra verifier, and the complete shadow enumerator. The latter reproduced 150,528 trees, apex counts 45,192/101,248/159, base counts 89,998/314,104/309, and union309. Its two output hashes matched the parent manifests. No required dependency for the present work was missing. Historical materials merely mentioned in the journal were not treated as separately accessible files.
 
-Two source statements need qualification. First, the third parent's sentence that any zero outgoing dot makes the configuration weak is too strong. A vertex is additional weak-U precisely when **all** outgoing dots are nonpositive and their maximum is zero. A zero accompanied by a positive outgoing dot is not a weak equilibrium. The apex-root theorem survives: the corrected premise needed in its path argument is that every nonroot in a weak-U-free configuration has a positive outgoing arrow. Second, the first labelled representative of an abstract marked-tree code does not cover every geometric incidence embedding. The 309 codes remain an index, not 309 interchangeable labelled systems. The new wheel enumeration below retains all labelled trees in its stated coverage. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+Two source statements need qualification. First, the third parent's sentence that any zero outgoing dot makes the configuration weak is too strong. A vertex is additional weak-U precisely when **all** outgoing dots are nonpositive and their maximum is zero. A zero accompanied by a positive outgoing dot is not a weak equilibrium. The apex-root theorem survives: the corrected premise needed in its path argument is that every nonroot in a weak-U-free configuration has a positive outgoing arrow. Second, the first labelled representative of an abstract marked-tree code does not cover every geometric incidence embedding. The 309 codes remain an index, not 309 interchangeable labelled systems. The new wheel enumeration below retains all labelled trees in its stated coverage.
 
 ## 2. Actual-mass coordinates
 
@@ -49,7 +49,7 @@ Require `p ∈ int(X)`. For heights `a>b>0`, set
 
 `D=(p,−(a+3b)/4)`.
 
-These formulas give the actual homogeneous filled centroid exactly zero. The volume is `area(X)(a+b)/3`. Both the base centroid and apex projection are inside X, so their convex combination `0=(3c+p)/4` is also strictly inside X. This is the parent's normal form with `x_i=c+s_i`; its crossing condition is unchanged. :contentReference[oaicite:2]{index=2}
+These formulas give the actual homogeneous filled centroid exactly zero. The volume is `area(X)(a+b)/3`. Both the base centroid and apex projection are inside X, so their convex combination `0=(3c+p)/4` is also strictly inside X. This is the parent's normal form with `x_i=c+s_i`; its crossing condition is unchanged.
 
 Define
 
@@ -181,7 +181,7 @@ The parent short-side reserve becomes
 
 `R_i^−=w_i(w_i+3)−k t(1−t)|u_i|²=4|u_i|²(F_i−B)`.
 
-The top reserves are always positive for a>b. Therefore the top polar ring always supplies a strict U, hence a strict top stable facet. :contentReference[oaicite:3]{index=3}
+The top reserves are always positive for a>b. Therefore the top polar ring always supplies a strict U, hence a strict top stable facet.
 
 For physical S1 with no additional weak-S, at least one bottom reserve must be **strictly negative**, not merely nonpositive. To see this, choose a bottom-ring vertex of maximal squared norm. Both of its cycle dots are strictly negative. Unless its lateral dot is positive, that vertex would be a strict or weak polar U. Since the unique stable facet is already on the top side, a weak-free S1 body must give this bottom-ring maximum a positive lateral escape. Thus some `B>F_i` is necessary.
 
@@ -368,7 +368,7 @@ Here `D2=0`, so the physical U1 height condition is genuinely feasible. But
 
 and exact comparison gives `F_min>L`. Thus every base-root U1 height pair has `B<κL<F_min` and both polar rings retain strict U roots. The other height chambers are covered by the apex-root exclusion or the equal-height stable exclusion. **This fixed planar base has no orthogonal strict110/weak000 height choice**, even though its physical U1 chamber is open and nonempty.
 
-The larger control was nominated using projection-chain geometry of the kind described in the Conway-spiral literature, but its acceptance here is entirely by uniform-volume exact arithmetic, not by a point-mass argument. No minimality or priority claim is made. :contentReference[oaicite:4]{index=4}
+The larger control was nominated using projection-chain geometry of the kind described in the Conway-spiral literature, but its acceptance here is entirely by uniform-volume exact arithmetic, not by a point-mass argument. No minimality or priority claim is made.
 
 ### Verification level
 
@@ -463,7 +463,7 @@ The decoded source dictionary has 36,275 bytes, SHA-256 `059893836ba9e6857bd0a41
 
 Optional finite-method invocations are `python scout_orth.py`, `python search_orth_torch.py 6 both`, `python search_orth_torch.py 4 Q`, `python search_p_optimal.py 20`, `python wheel_sdp_base.py 120`, `python wheel_sdp.py 120`, and `python wheel_inside_probe.py 10000`. These reproduce the prescribed methods and finite windows, not exact exclusion certificates. The optional C90 numerical rediscovery is `python NOMINATE_ORTHOGONAL_C90.py --search`; exact body recovery does not depend on repeating that floating trajectory.
 
-A convenience copy of the same decoder is available at [RECOVER_C48_HEIGHT_REDUCTION.py](sandbox:/mnt/data/RECOVER_C48_HEIGHT_REDUCTION.py). The complete source recovery follows inline.
+A convenience copy of the same decoder is available at RECOVER_C48_HEIGHT_REDUCTION.py. The complete source recovery follows inline.
 
 ```python
 import base64,hashlib,json,lzma,pathlib,sys

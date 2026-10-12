@@ -19,7 +19,7 @@ I obtained genuine value exclusions, not a completion of the whole two-anchor pr
    has T < 51/25 in that G sector. This allows arbitrary lower-star geometry, positive-ell auxiliary vertices, and overhang. The proof uses an actual upper-facet flux budget and the inherited actual joint-mass theorem, not independently fitted projection moments.
 4. I constructed and exactly audited a **new proper33 two-anchor 10/17/9 body with T = 2.0286234686803257...**, a positive-ell auxiliary vertex, and already optimal greedy vertical placement for its own K,R. Its true own-centroid Euclidean census is strict (S,U,H)=(4,4,6), with no physical weak point. It is not stationary: an ordinary A-facet is a genuine quadrilateral. This is a near-sharp nonwinning continuation fixture, not a threshold counterexample or a mono-monostatic body.
 
-The unresolved putative high-trace joint maximum must therefore have **both nonroot stars nonflat, proper33, epsilon_B > 1/64**, and all the full polygon/ordinary/root stationarity conditions. I have not proved T < 51/25 on that remaining sector and have not constructed T >= 51/25. Nothing here changes 34 <= Cmin <= 622 or excludes the mechanical E17 layer. The notebook's separation between those obligations remains essential. :contentReference[oaicite:0]{index=0}
+The unresolved putative high-trace joint maximum must therefore have **both nonroot stars nonflat, proper33, epsilon_B > 1/64**, and all the full polygon/ordinary/root stationarity conditions. I have not proved T < 51/25 on that remaining sector and have not constructed T >= 51/25. Nothing here changes 34 <= Cmin <= 622 or excludes the mechanical E17 layer. The notebook's separation between those obligations remains essential.
 
 ## Input reading, identities, and missing dependencies
 
@@ -35,15 +35,15 @@ I read all seven supplied files, including the entire 1,112-line journal and bra
 | [internal-source-reference], hinge/small fan | 21305 | 213f109c9edcabe8224f12a24f57b7431a34621d23d1ef9867ef903a7d3a0ecd |
 | [internal-source-reference], joint root variation | 18784 | 73eb04d63deeab693d29533819d3b95c4e1af3cc01d756987381aaa2bb4c2ed8 |
 
-The branch asks for the old greedy executable [internal-source-reference] as well as its proof, but that executable was not attached. The old root-duality executable [internal-source-reference] and the full capacity source [internal-source-reference] were also not attached. I did not invent or replay those programs. The supplied greedy proof explicitly identifies the absent part 1; its analytic theorem is nevertheless fully present. :contentReference[oaicite:1]{index=1} The supplied projected-mass erratum was read; it distinguishes exact source-byte repair from mathematical correction. :contentReference[oaicite:2]{index=2}
+The branch asks for the old greedy executable [internal-source-reference] as well as its proof, but that executable was not attached. The old root-duality executable [internal-source-reference] and the full capacity source [internal-source-reference] were also not attached. I did not invent or replay those programs. The supplied greedy proof explicitly identifies the absent part 1; its analytic theorem is nevertheless fully present. The supplied projected-mass erratum was read; it distinguishes exact source-byte repair from mathematical correction.
 
-The prior assignment is identified in the supplied branch as an unrelated duplicate; it contributes no two-anchor result here. :contentReference[oaicite:3]{index=3}
+The prior assignment is identified in the supplied branch as an unrelated duplicate; it contributes no two-anchor result here.
 
 One inherited analytic input is used explicitly below: for an actual eligible proper body, t=6V and its own centroid satisfy
 
     gx,gy >= 1/4,       4(gx+gy) <= t+1.
 
-The latter is the accepted actual joint-mass theorem in the supplied notebook, not a theorem about free moments. Its full original proof source is not separately attached, and I do not claim a new independent proof of that inherited theorem. The new flat-B and upper-defect implications are proved from this stated input. The flat-A geometric reduction and its independent value certificate do not use the joint upper bound. :contentReference[oaicite:4]{index=4}
+The latter is the accepted actual joint-mass theorem in the supplied notebook, not a theorem about free moments. Its full original proof source is not separately attached, and I do not claim a new independent proof of that inherited theorem. The new flat-B and upper-defect implications are proved from this stated input. The flat-A geometric reduction and its independent value certificate do not use the joint upper bound.
 
 ## 1. Optimization class and notation
 
@@ -64,7 +64,7 @@ with convex homogeneous piecewise-linear hA,hB, containing T0=conv(A,B,C,D), and
     g=(gx,gy,gz), r=N/V, q=N/E, t=6V, T=q/t,
     G=n-r-q ell.
 
-All moments are those of this same uniformly filled P. No reference center is chosen independently. Every numerical joint-extremal conclusion below is in the sector G(C),G(D)>=0; the mark-reaction lemma itself does not need those two signs. A joint local maximum means a maximum among all nearby marked bodies and positive affine endpoint data, with all face lattices permitted. The supplied proof obtains this two-anchor representation from the genuine G(C),G(D)>=0 joint-extremal sector; it is not an assertion about fixed-lattice critical points. :contentReference[oaicite:5]{index=5}
+All moments are those of this same uniformly filled P. No reference center is chosen independently. Every numerical joint-extremal conclusion below is in the sector G(C),G(D)>=0; the mark-reaction lemma itself does not need those two signs. A joint local maximum means a maximum among all nearby marked bodies and positive affine endpoint data, with all face lattices permitted. The supplied proof obtains this two-anchor representation from the genuine G(C),G(D)>=0 joint-extremal sector; it is not an assertion about fixed-lattice critical points.
 
 ## 2. Joint mark reactions force proper33
 
@@ -78,7 +78,7 @@ where X=integral_P x and Y=integral_P y are the old physical moments. Thus the d
 
     (b+2c)dy-alpha dz.
 
-Both the determinant factor and the changed endpoint value are included. This is the actual mark-reaction formula in the supplied joint-variation proof. :contentReference[oaicite:6]{index=6}
+Both the determinant factor and the changed endpoint value are included. This is the actual mark-reaction formula in the supplied joint-variation proof.
 
 Containment gives hA(0,1)<=0. If it were negative, choose C'=(0,1,-epsilon) inside the existing vertical fibre, with epsilon>0 arbitrarily small. The displayed exact numerator increases by alpha epsilon X. The affine image remains a uniformly filled admissible marked body, its endpoint values remain positive, and it converges to P. This contradicts joint local maximality. Hence hA(0,1)=0. The same argument at D gives hA(1,0)=0.
 
@@ -109,9 +109,9 @@ The necessary full-class fixed-ell variations remain available. For clarity, the
 
     G(Y)=G(Z)=LB=(r+qb)/3>0.
 
-The variations act on an entire polygonal facet and allow nonsimple vertices to split. They do not assume an available fixed-lattice vertex slide. These are the supplied full geometric lemmas. :contentReference[oaicite:7]{index=7} :contentReference[oaicite:8]{index=8}
+The variations act on an entire polygonal facet and allow nonsimple vertices to split. They do not assume an available fixed-lattice vertex slide. These are the supplied full geometric lemmas.
 
-There are exactly two special upper facets, containing BC and BD respectively. If they were the same facet, hB=x+y, and with hA=0 the root would be inactive on T0. An ordinary B-base can lie only on the root or on the one flat lower facet. Each of those polygons can contain at most one supporting edge at level LB. There cannot be one on each: the root then has an ordinary base as a supporting level-LB edge and lies entirely on one side of it. If the root lies below that level, the two noncollinear bases force a positive constant-G facet; if it lies above, the genuine root-lower edge would coincide with the lower facet's ordinary base and be incident to three facets. This is the flat-star count argument, including the genuine root-lower edge, not a triangulation count. Hence there is at most one ordinary B-facet. :contentReference[oaicite:9]{index=9} :contentReference[oaicite:10]{index=10}
+There are exactly two special upper facets, containing BC and BD respectively. If they were the same facet, hB=x+y, and with hA=0 the root would be inactive on T0. An ordinary B-base can lie only on the root or on the one flat lower facet. Each of those polygons can contain at most one supporting edge at level LB. There cannot be one on each: the root then has an ordinary base as a supporting level-LB edge and lies entirely on one side of it. If the root lies below that level, the two noncollinear bases force a positive constant-G facet; if it lies above, the genuine root-lower edge would coincide with the lower facet's ordinary base and be incident to three facets. This is the flat-star count argument, including the genuine root-lower edge, not a triangulation count. Hence there is at most one ordinary B-facet.
 
 **New angular step.** Write theta=x/(x+y). With hA=0,
 
@@ -235,7 +235,7 @@ On K\R this integrand is nonnegative. Delta belongs to K, and restricting to Del
 
     24E >= t+b+S-epsilon_B.                    (5.1)
 
-This does not assume R misses Delta when the upper star is nonflat; the positive part is essential. If hB=x+y, epsilon_B=0 and it gives the stronger flat-upper flux budget 24E>=t+b+S. :contentReference[oaicite:11]{index=11}
+This does not assume R misses Delta when the upper star is nonflat; the positive part is essential. If hB=x+y, epsilon_B=0 and it gives the stronger flat-upper flux budget 24E>=t+b+S.
 
 The inherited actual joint-mass theorem and gx,gy>=1/4 imply
 
@@ -334,7 +334,7 @@ There is exactly one curvature atom outside I, at theta=500000/500001, and
 
     eta''{theta}=kappa''{theta}=500001/10^10.
 
-There is no other tail curvature. Both proper endpoint budgets are therefore already filled greedily. The body is in the inherited exact vertical normal form for its own actual K,R, without replaying the missing old greedy program. The stated greedy criterion is the one proved in the attached complete analytic source. :contentReference[oaicite:12]{index=12}
+There is no other tail curvature. Both proper endpoint budgets are therefore already filled greedily. The body is in the inherited exact vertical normal form for its own actual K,R, without replaying the missing old greedy program. The stated greedy criterion is the one proved in the attached complete analytic source.
 
 Its actual star defects, with epsilon_A=-6 alpha integral_Delta hA, are
 
@@ -866,4 +866,4 @@ print(json.dumps(o));open('/mnt/data/two_anchor_work/search_flat_b.json','w').wr
 {"seed": 515, "x": [0.9500791828749631, 9.863831973433435e-12, 6.211864356231445e-12, 3.6693315053071274e-11, 8.344704252984142, 3.448750808833246, 3.359336681299583, 8.791553226764416, 1.8177969277899333, 0.0, 0.0, 0.0, 0.0], "moments": [1.9999999999908153, 0.16666666667278243, 0.08125329928865545, 0.16250659858252772, 0.041666666669724274, 0.041666666668195525], "nfev": 29098, "message": "Optimization terminated successfully."}
 ```
 
-Convenience copy: [complete new sources, exact reports, and discovery records](sandbox:/mnt/data/two_anchor_recovery.zip). The full recovery sources and exact inputs above remain authoritative; this archive is supplementary.
+Convenience copy: complete new sources, exact reports, and discovery records (`two_anchor_recovery.zip`). The full recovery sources and exact inputs above remain authoritative; this archive is supplementary.

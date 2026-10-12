@@ -12,7 +12,7 @@ AI research report · 2026-09-07 UTC · [Export notes](../../catalog/coverage.md
 
 The proof is a finite, exact computer-assisted theorem: a new actual-volume inequality closes the last eight escape-tree cases; the supplied standalone checker covers all **1,680** spanning trees. There is no numerical or SMT UNSAT verdict being substituted for the proof.
 
-**No whole combinatorial type is declared closed and no attainer is produced.** The remaining unstable vertices of this type are `{0,1,2,3,4,5,6,7}`. The accepted global bracket remains **30 ≤ C_min ≤ 1374**. The journal's 178,131-record file remains its existing checkpoint, not a newly filtered post-exclusion remainder; I do not claim a new global record count. The inherited status was that all 74 types were globally open. :contentReference[oaicite:0]{index=0}
+**No whole combinatorial type is declared closed and no attainer is produced.** The remaining unstable vertices of this type are `{0,1,2,3,4,5,6,7}`. The accepted global bracket remains **30 ≤ C_min ≤ 1374**. The journal's 178,131-record file remains its existing checkpoint, not a newly filtered post-exclusion remainder; I do not claim a new global record count. The inherited status was that all 74 types were globally open.
 
 There is also a new analytic maximum-separation lemma for all three degree-six types. It reduces each of the other two types' twelve apex-root maximum-choice strata to an eight-stratum necessary cover, without claiming those remaining strata feasible or closing their entire apex-root classes.
 
@@ -30,7 +30,7 @@ degree6_roof_max_v1_report.json
 92d26a38f7380c9327ed4a2b34b906152df249fa32dba2cab4e57571ba375d34
 ```
 
-No new conflict with the literal parent was found. The discarded identifier `46388460` is not used. The correct third type is `51318223`; its degree-six vertex is the **physical primal vertex 8**, not a polar vertex or a relabelled integration apex. The parent's cap/ridge labels and two-pyramid decomposition are the starting evidence. :contentReference[oaicite:1]{index=1}
+No new conflict with the literal parent was found. The discarded identifier `46388460` is not used. The correct third type is `51318223`; its degree-six vertex is the **physical primal vertex 8**, not a polar vertex or a relabelled integration apex. The parent's cap/ridge labels and two-pyramid decomposition are the starting evidence.
 
 The closed root class uses precisely these eight maximal facets:
 
@@ -201,7 +201,7 @@ These give eight distinct cases. The exhaustive tree loop proves that, together 
 
 `(Z8+Zr)ᵀM(Z8+Zr)-4ZbᵀMZb ≤ 0`.
 
-They differ from their physical versions by the positive factor K². No sign of Delta is selected, and no small nonzero Cramer denominator is discarded. The parent's negative-Delta domain therefore remains covered. Its denominator-sign treatment is explicit in the literal parent. :contentReference[oaicite:2]{index=2}
+They differ from their physical versions by the positive factor K². No sign of Delta is selected, and no small nonzero Cramer denominator is discarded. The parent's negative-Delta domain therefore remains covered. Its denominator-sign treatment is explicit in the literal parent.
 
 **Strict incidence and geometric boundaries.** Each facet is assumed to be the stated genuine maximal facet of a convex realization, with strict nonincidence and genuine extreme vertices. Every chosen facet triangulation then has positive area, and coning from a nonincident vertex has positive volume. There is no uniform lower bound on those volumes, angles, or slacks. Arbitrarily close strict realizations are included. A collapsed facet or changed maximal face lattice is not silently counted as this strict type.
 
@@ -654,4 +654,4 @@ SOURCE 15920 a131e4b3bfc83a4badf4783e31210fa2a5798d8b24d7d2d0592b71fceec712e2
 NO_WHOLE_TYPE_OR_GLOBAL_BOUND_IMPROVEMENT
 ```
 
-Convenience copies: [complete source](sandbox:/mnt/data/degree6_apex_513_v1.py) and [reconstructed exact report](sandbox:/mnt/data/degree6_apex_513_v1_report.json). The inline recovery does not require either download.
+Convenience copies: complete source (`degree6_apex_513_v1.py`) and reconstructed exact report (`degree6_apex_513_v1_report.json`). The inline recovery does not require either download.

@@ -10,7 +10,7 @@ AI research report · 2026-08-26 UTC
 
 **No strict homogeneous convex polyhedral Gömböc was found.** I found no own-centroid open cell with `(S,U,H)=(1,1,0)`, and I produced no exact exclusion certificate for any of the inherited unresolved `V=8` systems. The rigorous frontier count therefore does not move.
 
-The acceptance gate used here is the journal's original one: uniform volume density; equilibrium at the body's own exact volume centroid; exactly one stable maximal face, one unstable vertex, and no saddle true edge; a complete finite H/V representation, realized face lattice, exhaustive positive-margin audit, verifier, and mesh. :contentReference[oaicite:0]{index=0} The inherited theorem excludes every `V<=7` body but leaves `24,835` labeled necessary `V=8` systems, `17,253` rooted orbits, and `207,036` stable-face chambers unresolved. :contentReference[oaicite:1]{index=1} This continuation followed the reopened discovery-first instruction to search those cells and permit `V=9–12`, nonsimplicial cells, and controlled splits without converting numerical nonhits into proofs. :contentReference[oaicite:2]{index=2}
+The acceptance gate used here is the journal's original one: uniform volume density; equilibrium at the body's own exact volume centroid; exactly one stable maximal face, one unstable vertex, and no saddle true edge; a complete finite H/V representation, realized face lattice, exhaustive positive-margin audit, verifier, and mesh. The inherited theorem excludes every `V<=7` body but leaves `24,835` labeled necessary `V=8` systems, `17,253` rooted orbits, and `207,036` stable-face chambers unresolved. This continuation followed the reopened discovery-first instruction to search those cells and permit `V=9–12`, nonsimplicial cells, and controlled splits without converting numerical nonhits into proofs.
 
 ## What changed relative to the supplied journal
 
@@ -100,14 +100,14 @@ The standalone verifier uses only Python's standard library and `fractions.Fract
 {"verified":true,"V":12,"E":30,"F":20,"centroid":["0","0","0"],"S":2,"U":3,"H":3,"target":false}
 ```
 
-- [Exact rational candidate JSON](sandbox:/mnt/data/slot8_v12_exact_near_candidate.json)
-- [Full exact face/vertex/edge/support audit](sandbox:/mnt/data/slot8_v12_exact_near_audit.json)
-- [Standalone exact verifier](sandbox:/mnt/data/slot8_v12_exact_near_verify.py)
-- [Verifier transcript](sandbox:/mnt/data/slot8_v12_exact_near_verification.txt)
-- [Vertex CSV](sandbox:/mnt/data/slot8_v12_exact_near_vertices.csv)
-- [OBJ](sandbox:/mnt/data/slot8_v12_exact_near.obj)
-- [STL](sandbox:/mnt/data/slot8_v12_exact_near.stl)
-- [V12 exact bundle](sandbox:/mnt/data/slot8_v12_exact_near_bundle.zip), SHA-256 `c61dd15aa38080edf0a2d46f5b955481d6d9d9b59df15260d150342ee5577d03`
+- Exact rational candidate JSON (`slot8_v12_exact_near_candidate.json`)
+- Full exact face/vertex/edge/support audit (`slot8_v12_exact_near_audit.json`)
+- Standalone exact verifier (`slot8_v12_exact_near_verify.py`)
+- Verifier transcript (`slot8_v12_exact_near_verification.txt`)
+- Vertex CSV (`slot8_v12_exact_near_vertices.csv`)
+- OBJ (`slot8_v12_exact_near.obj`)
+- STL (`slot8_v12_exact_near.stl`)
+- V12 exact bundle (`slot8_v12_exact_near_bundle.zip`), SHA-256 `c61dd15aa38080edf0a2d46f5b955481d6d9d9b59df15260d150342ee5577d03`
 
 ## Exact `V=8` wall object
 
@@ -116,12 +116,12 @@ A second exactification gives a bounded simplicial rational polyhedron with exac
 
 Its stable faces are `(2,0,5)` at `0.15799105893872503` and `(1,0,3)` at `0.15007990226579848`. Its robust unstable vertices are `0` and `5`; vertices `4` and `7` are additionally unstable by only `1.3706524649028658e-7` and `4.217674789590734e-7`. Its four saddles are `(0,7)`, `(2,4)`, `(4,6)`, and `(5,7)`, with margins from `4.205845951547612e-8` to `2.2219558612978527e-7`. The nearest inactive edge is already separated at about `-9.410809803696821e-4`. This is an exact witness of a coherent multi-transfer wall, not an open `(1,1,0)` cell.
 
-- [Exact V8 candidate](sandbox:/mnt/data/slot8_v8_exact_near_candidate.json)
-- [Full V8 exact audit](sandbox:/mnt/data/slot8_v8_exact_near_audit.json)
-- [V8 exact verifier](sandbox:/mnt/data/slot8_v8_exact_near_verify.py)
-- [V8 OBJ](sandbox:/mnt/data/slot8_v8_exact_near.obj)
-- [V8 STL](sandbox:/mnt/data/slot8_v8_exact_near.stl)
-- [V8 exact bundle](sandbox:/mnt/data/slot8_v8_exact_near_bundle.zip), SHA-256 `cee70381a7bd65ec6f7c2e3db8efd7f6faff350e78f6ddd36ff2525870d3f85f`
+- Exact V8 candidate (`slot8_v8_exact_near_candidate.json`)
+- Full V8 exact audit (`slot8_v8_exact_near_audit.json`)
+- V8 exact verifier (`slot8_v8_exact_near_verify.py`)
+- V8 OBJ (`slot8_v8_exact_near.obj`)
+- V8 STL (`slot8_v8_exact_near.stl`)
+- V8 exact bundle (`slot8_v8_exact_near_bundle.zip`), SHA-256 `cee70381a7bd65ec6f7c2e3db8efd7f6faff350e78f6ddd36ff2525870d3f85f`
 
 ## Search coverage and falsification attempts
 
@@ -148,7 +148,7 @@ None of those nonhits is an exact infeasibility certificate. The searches sample
 | rooted automorphism orbits | `17,253` | `0` | `17,253` |
 | stable-face chambers | `207,036` | `0` | `207,036` |
 
-The same accounting is available as [machine-readable JSON](sandbox:/mnt/data/slot8_frontier_counts.json). No lower-bound statement stronger than `V>=8` is justified by this continuation.
+The same accounting is available as machine-readable JSON (`slot8_frontier_counts.json`). No lower-bound statement stronger than `V>=8` is justified by this continuation.
 
 ## Most useful continuation
 
@@ -158,9 +158,9 @@ For the literal `V=8` frontier, the next copy should consume the inherited neces
 
 ## Reproducibility package
 
-- [Complete combined bundle](sandbox:/mnt/data/slot8_low_vertex_frontier_bundle.zip), SHA-256 `1e0be26793034277cb73a1c006ad390d247c7811aa03fcf56c9835861f8bed46`
-- [Combined manifest](sandbox:/mnt/data/slot8_low_vertex_frontier_manifest.json)
-- [Machine-readable search report](sandbox:/mnt/data/slot8_search_report.json)
-- [Standalone Markdown handoff](sandbox:/mnt/data/slot8_research_handoff.md)
+- Complete combined bundle (`slot8_low_vertex_frontier_bundle.zip`), SHA-256 `1e0be26793034277cb73a1c006ad390d247c7811aa03fcf56c9835861f8bed46`
+- Combined manifest (`slot8_low_vertex_frontier_manifest.json`)
+- Machine-readable search report (`slot8_search_report.json`)
+- Standalone Markdown handoff (`slot8_research_handoff.md`)
 
 The combined archive contains both exact candidates, complete audits, independent verifiers and transcripts, OBJ/STL files, the unresolved-count record, representative `V=8` and recovered `V=9` graph realizations, and the principal search/evaluation scripts.

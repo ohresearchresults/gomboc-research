@@ -10,7 +10,7 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 **Exact topology-changing nonwinner.** I did not obtain strict `(S,U,H)=(1,1,0)`. I did materialize the requested smallest nine-active-vertex carrier-splitting basin insertion. It removes the parent adverse carrier `[AT,AW]`, leaves `[0,AT]` absent, deactivates `AT`, destroys both parent stable/saddle roles, keeps `C` unstable, and gives both replacement edges strict negative external arrows at the exact ordinary-volume centroid. The endpoint is nevertheless strict `(2,2,2)` because a new carrier-free Euler-neutral packet is born at `AX`.
 
-Parent authority: `figure-0279`, SHA-256 `ef634da1ba4229d09a956635d8a24a879b52b66f54c57e14dc6322b64e1052ff`; 58 supplied rows, active `{0,C,H,AS,AT,AU,AV,AW}`, `(V,E,F)=(8,17,11)`, stable `[C,AU,AW]`, `[0,AW,AT,H]`, unstable `C,AT`, saddles `[0,C]`, `[AT,AV]`, and unique nonprotected all-external-positive edge `[AT,AW]`. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} The completed 1,681-point one-plane atlas and compatible collar were nonwinning. :contentReference[oaicite:3]{index=3}
+Parent authority: `figure-0279`, SHA-256 `ef634da1ba4229d09a956635d8a24a879b52b66f54c57e14dc6322b64e1052ff`; 58 supplied rows, active `{0,C,H,AS,AT,AU,AV,AW}`, `(V,E,F)=(8,17,11)`, stable `[C,AU,AW]`, `[0,AW,AT,H]`, unstable `C,AT`, saddles `[0,C]`, `[AT,AV]`, and unique nonprotected all-external-positive edge `[AT,AW]`. The completed 1,681-point one-plane atlas and compatible collar were nonwinning.
 
 ## Exact deterministic construction
 
@@ -171,10 +171,10 @@ The first truly unrepresented successor is **joint AX-star metric cancellation**
 
 `verify_cleanroom.py` does not import the construction kernel or trust stored H/F/E ledgers. It independently rebuilds hull, H-to-V, volume, centroid, zero moments, all face/vertex/edge mechanics, arrows, and mesh incidence. The primary exact verifier, interval verifier, clean-room verifier, and clean extraction all pass. OBJ has 9 vertices, 14 oriented triangles, and 21 undirected edges each used twice; STL has the same 14 facets.
 
-- [Complete exact handoff with all rational mechanics rows](sandbox:/mnt/data/Calm_Finch_13_AX9_exact_NONWINNER/HANDOFF.md)
-- [Deterministic exact archive](sandbox:/mnt/data/Calm_Finch_13_AX9_exact_NONWINNER.zip), SHA-256 `099616b9ef7ef06ffba713e434d5fbcb2c5e28c07810b6f17bcb215332a6cb67`
-- [Immutable manifest](sandbox:/mnt/data/Calm_Finch_13_AX9_exact_NONWINNER/MANIFEST.json), SHA-256 `bb2ea6e2c2c73721b3d608840cc2c74b6fb5170978b4edbf214645508fc8b0ce`
-- [Independent clean-extraction receipt](sandbox:/mnt/data/Calm_Finch_13_AX9_clean_extraction_receipt.json)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Finch_13_AX9_exact_NONWINNER/mesh/body.obj) and [STL](sandbox:/mnt/data/Calm_Finch_13_AX9_exact_NONWINNER/mesh/body.stl)
+- Complete exact handoff with all rational mechanics rows (`HANDOFF.md`)
+- Deterministic exact archive (`Calm_Finch_13_AX9_exact_NONWINNER.zip`), SHA-256 `099616b9ef7ef06ffba713e434d5fbcb2c5e28c07810b6f17bcb215332a6cb67`
+- Immutable manifest (`MANIFEST.json`), SHA-256 `bb2ea6e2c2c73721b3d608840cc2c74b6fb5170978b4edbf214645508fc8b0ce`
+- Independent clean-extraction receipt (`Calm_Finch_13_AX9_clean_extraction_receipt.json`)
+- Watertight OBJ (`body.obj`) and STL (`body.stl`)
 
 Exact generator SHA-256: `8fbd37ade9de63001afd4af3881b880265baac1f01a67e4992197de552166f0d`.

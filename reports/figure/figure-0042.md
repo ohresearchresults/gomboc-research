@@ -19,7 +19,7 @@ The completed exact result is nevertheless substantially stronger than the prece
 5. a complete outward-rounded face/vertex/edge audit showing that point has `(S,U,H)=(3,3,4)`;
 6. a nonzero closed **eight-dimensional** rational parameter box around that point on which interval arithmetic proves `U>=2` everywhere.
 
-The original transcript had correctly isolated full-basin replacement followed by exact centroid control as the remaining construction problem. :contentReference[oaicite:0]{index=0} This assignment instead exhausts the global projective denominator geometry and the finite witness-sign logic of the exact 27-vertex cancellation seed.
+The original transcript had correctly isolated full-basin replacement followed by exact centroid control as the remaining construction problem. This assignment instead exhausts the global projective denominator geometry and the finite witness-sign logic of the exact 27-vertex cancellation seed.
 
 ## 1. Exact coverage of the three projective variables
 
@@ -41,7 +41,7 @@ Every one of the 27 chamber facets is ordered as a cycle and triangulated. Conin
 
 If one denominator becomes zero, a source vertex maps to infinity. If one becomes negative, continuity along the segment from `C_R` to that vertex forces a pole inside the body. Such parameters do not represent a bounded convex image.
 
-Artifacts: [exact chamber](sandbox:/mnt/data/gomboc_slot5/assignment2/full_positive_denominator_chamber.json) and [exact chamber verifier report](sandbox:/mnt/data/gomboc_slot5/assignment2/full_positive_denominator_chamber.verify.json).
+Artifacts: exact chamber (`full_positive_denominator_chamber.json`) and exact chamber verifier report (`full_positive_denominator_chamber.verify.json`).
 
 ## 2. Exact coverage of the five metric variables
 
@@ -109,7 +109,7 @@ With 27 possible unstable roots and 33 possible stable roots, the exact compress
 
 rooted tree-pair architectures.
 
-Artifacts: [theorem](sandbox:/mnt/data/gomboc_slot5/assignment2/SIGN_ARCHITECTURE_THEOREM.md), [machine-readable partition](sandbox:/mnt/data/gomboc_slot5/assignment2/sign_architecture_partition.json), and [exact verifier](sandbox:/mnt/data/gomboc_slot5/assignment2/verify_sign_architecture_partition.py).
+Artifacts: theorem (`SIGN_ARCHITECTURE_THEOREM.md`), machine-readable partition (`sign_architecture_partition.json`), and exact verifier (`verify_sign_architecture_partition.py`).
 
 ## 4. Explicit rational point in the full eight-parameter orbit
 
@@ -142,7 +142,7 @@ For `z_i=y_i/(1+d^T y_i)`, the exact uniform-volume centroid `mu(d)` is recomput
 
 The minimum projective denominator is rigorously larger than `0.2034014564378200107`, so this is an interior point, not a denominator-boundary artifact.
 
-Artifacts: [rational transformation](sandbox:/mnt/data/gomboc_slot5/assignment2/active_wall_rational_transform.json), [all exact coordinates and centroid](sandbox:/mnt/data/gomboc_slot5/assignment2/active_wall_exact_coordinates.json), and [exact coordinate identity audit](sandbox:/mnt/data/gomboc_slot5/assignment2/active_wall_exact_coordinates.verify.json).
+Artifacts: rational transformation (`active_wall_rational_transform.json`), all exact coordinates and centroid (`active_wall_exact_coordinates.json`), and exact coordinate identity audit (`active_wall_exact_coordinates.verify.json`).
 
 ## 5. Complete own-centroid audit of the rational near-solution
 
@@ -162,7 +162,7 @@ with:
 
 Strict positive lower bounds include approximately `2.16479308984e-5` for the limiting face predicate, `3.84263936384e-5` for the limiting normalized vertex direction, and `4.16964316044e-9` for the limiting positive edge-support predicate.
 
-Artifacts: [interval certificate](sandbox:/mnt/data/gomboc_slot5/assignment2/active_wall_interval_certificate.json), [independent interval verifier](sandbox:/mnt/data/gomboc_slot5/assignment2/verify_active_wall_interval.py), and [OBJ](sandbox:/mnt/data/gomboc_slot5/assignment2/active_wall.obj).
+Artifacts: interval certificate (`active_wall_interval_certificate.json`), independent interval verifier (`verify_active_wall_interval.py`), and OBJ (`active_wall.obj`).
 
 ## 6. Exact active walls
 
@@ -226,13 +226,13 @@ U\ge2
 
 throughout this nonzero full-dimensional box, exactly excluding `S=1,U=1,H=0` there.
 
-Artifacts: [exact box](sandbox:/mnt/data/gomboc_slot5/assignment2/full8_exclusion_box.json), [interval report](sandbox:/mnt/data/gomboc_slot5/assignment2/full8_exclusion_box.verify.json), and [box verifier](sandbox:/mnt/data/gomboc_slot5/assignment2/verify_full8_exclusion_box.py).
+Artifacts: exact box (`full8_exclusion_box.json`), interval report (`full8_exclusion_box.verify.json`), and box verifier (`verify_full8_exclusion_box.py`).
 
 ## 8. Remaining problem and scope
 
 The result gives exact coverage of the projective chamber, exact global elimination of every cyclic witness architecture, a complete compressed representation of all surviving tree-pair branches, and one rigorously excluded full-dimensional eight-variable box. It does **not** interval-exclude all surviving arborescence regions.
 
-The exact unresolved system is recorded in [remaining_semialgebraic_problem.json](sandbox:/mnt/data/gomboc_slot5/assignment2/remaining_semialgebraic_problem.json). The appropriate continuation is a DPLL/interval solver over the 62 exact denominator tetrahedra, with:
+The exact unresolved system is recorded in remaining_semialgebraic_problem.json. The appropriate continuation is a DPLL/interval solver over the 62 exact denominator tetrahedra, with:
 
 1. parent-edge branching only;
 2. immediate cycle rejection by the exact radius theorem;
@@ -242,10 +242,10 @@ The exact unresolved system is recorded in [remaining_semialgebraic_problem.json
 
 ## Reproducibility bundle
 
-- [Complete self-contained bundle](sandbox:/mnt/data/gomboc_slot5/assignment2_full_orbit_exact_bundle.zip)
-- [Bundle SHA-256](sandbox:/mnt/data/gomboc_slot5/assignment2_full_orbit_exact_bundle.zip.sha256)
-- [Full technical report](sandbox:/mnt/data/gomboc_slot5/assignment2/RESULT.md)
-- [Manifest](sandbox:/mnt/data/gomboc_slot5/assignment2/MANIFEST.sha256)
-- [Captured successful verification run](sandbox:/mnt/data/gomboc_slot5/assignment2/VERIFICATION.log)
+- Complete self-contained bundle (`assignment2_full_orbit_exact_bundle.zip`)
+- Bundle SHA-256 (`assignment2_full_orbit_exact_bundle.zip.sha256`)
+- Full technical report (`RESULT.md`)
+- Manifest (`MANIFEST.sha256`)
+- Captured successful verification run (`VERIFICATION.log`)
 
 Run `./run_all.sh` inside the extracted bundle to regenerate the exact coordinates and repeat every exact and interval audit.

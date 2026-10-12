@@ -15,7 +15,7 @@ No single materialized body yet satisfies all three requirements simultaneously:
 
 The most important new discovery is that an apparent `(1,1,50)` failure was an audit error: all 50 reported saddles were triangulation diagonals internal to two nonsimplicial actuator facets. After grouping coplanar hull triangles into maximal faces and retaining only true edges, the body is exactly `(1,1,0)` at its construction centre. The remaining obligation is therefore not equilibrium closure. It is preserving the four planar pyramid bases while applying that cover closure and then solving the already-certified actuator equations.
 
-The computations use exactly the centred high-curvature `k=3` Fourier-phase seed specified in the journal, including `β=1/160`, the `a=-1/3` phase flattening, relative recursion, reserved control regions, and the requirement that the smooth body serve only as a source. :contentReference[oaicite:2]{index=2}
+The computations use exactly the centred high-curvature `k=3` Fourier-phase seed specified in the journal, including `β=1/160`, the `a=-1/3` phase flattening, relative recursion, reserved control regions, and the requirement that the smooth body serve only as a source.
 
 ## 1. Deterministic corrected-relative-margin body
 
@@ -61,11 +61,11 @@ Materialized statistics:
 
 The higher-resolution materialization has `17,284` rows, construction class `(1,1,0)`, centroid x-coordinate `0.0149243255`, and first moment x-coordinate `0.0626751015`:
 
-[High-resolution corrected body data](sandbox:/mnt/data/high480fine.npz)
+High-resolution corrected body data (`high480fine.npz`)
 
-[Deterministic seed, hull, mass, and audit implementation](sandbox:/mnt/data/gomboc_search.py)
+Deterministic seed, hull, mass, and audit implementation (`gomboc_search.py`)
 
-[Standalone 4,324-row reconstruction](sandbox:/mnt/data/gomboc_work.py)
+Standalone 4,324-row reconstruction (`gomboc_work.py`)
 
 ## 2. Scale-invariant exclusion certificate
 
@@ -91,9 +91,9 @@ A saddle requires `0<t<1`, `α>0`, and `β>0`. The reported edge margin is the n
 
 For a maximal polar face with dual vertex `v`, the verifier tests the foot `v/||v||²` against the complete maximal polygon, not an arbitrary Qhull triangle. This correction is essential for the actuator facets.
 
-[Common-witness certificate data](sandbox:/mnt/data/common_witnesses.npz)
+Common-witness certificate data (`common_witnesses.npz`)
 
-[Common-witness audit script](sandbox:/mnt/data/common_witness_audit.py)
+Common-witness audit script (`common_witness_audit.py`)
 
 ## 3. Corrected terminal fan and legacy residual rows
 
@@ -116,7 +116,7 @@ The rebuilt terminal construction deletes the defective terminal tail before hul
 
 Those three rows form the active maximal polar facet of the sole unstable primal vertex, with equal barycentric coordinates `1/3` in the symmetric repaired instance.
 
-[Terminal-fixed diagnostic body](sandbox:/mnt/data/terminal_win.npz)
+Terminal-fixed diagnostic body (`terminal_win.npz`)
 
 ## 4. Four literal actuator pyramids and exact nonlinear centroid closure
 
@@ -194,11 +194,11 @@ Checks against an independent full convex-hull reconstruction give
 
 This is a genuine finite ordinary-centroid closure by four disjoint pyramids, not a smooth existence argument. Its current own-centroid equilibrium class is nevertheless `(3516,3194,6735)`, so it is not the final Gömböc.
 
-[Exact four-pyramid centred source](sandbox:/mnt/data/top_independent_d0.088.npz)
+Exact four-pyramid centred source (`top_independent_d0.088.npz`)
 
-[Polar reconstruction and four disjoint actuator facets](sandbox:/mnt/data/top088_polar.npz)
+Polar reconstruction and four disjoint actuator facets (`top088_polar.npz`)
 
-[Actuator construction and nonlinear solver](sandbox:/mnt/data/diag_top_controls.py)
+Actuator construction and nonlinear solver (`diag_top_controls.py`)
 
 ## 5. Maximal-face correction: the apparent 50 saddles were not edges
 
@@ -219,9 +219,9 @@ The corrected verifier clusters normalized Qhull plane equations, reconstructs e
 - volume: `4.673658234114131`;
 - centroid: `(0.519631147,1.93876e-5,5.57015e-7)`.
 
-[Plane-preserving cover candidate](sandbox:/mnt/data/mode_plane_ls_k0.7.npz)
+Plane-preserving cover candidate (`mode_plane_ls_k0.7.npz`)
 
-[Triangulation-diagonal diagnosis](sandbox:/mnt/data/plane_saddles.log)
+Triangulation-diagonal diagnosis (`plane_saddles.log`)
 
 The first stable-cap repair used `q_s=(-2,0,0)`. That point slightly violated two actuator planes and destroyed actuator groups 0 and 1. Replacing it by
 
@@ -246,7 +246,7 @@ Their active primal vertex coordinates are
 
 `(-0.07645297,-0.91265735,-0.16556207)`.
 
-[Four-plane-preserving `(1,1,0)` candidate](sandbox:/mnt/data/cap_preserve_candidate.npz)
+Four-plane-preserving `(1,1,0)` candidate (`cap_preserve_candidate.npz`)
 
 ## 6. Why the four-plane candidate is not yet a winner
 
@@ -264,9 +264,9 @@ A second attempt inserted the four cuts after closing the high-resolution `(1,1,
 
 The solved apices therefore passed beyond their individual cones and saw thousands of nonbase triangles. The formula ceased to describe the actual union, the actual centroid became `(-0.008527,-0.000102,-0.0000275)`, and the final class became `(69,5,1313)`. This breaks the naive strategy of cutting four negative-x bases after cover closure.
 
-[Failed cut-after-cover body and complete numerical data](sandbox:/mnt/data/cuts_after_cover_D0.088.npz)
+Failed cut-after-cover body and complete numerical data (`cuts_after_cover_D0.088.npz`)
 
-[Failure analysis log](sandbox:/mnt/data/cuts_after_cover_D088.log)
+Failure analysis log (`cuts_after_cover_D088.log`)
 
 ## 7. Strongest continuation
 

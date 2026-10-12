@@ -16,7 +16,7 @@ A simpler companion **KF27H_COMPACT_G6**,68/198/132,own211, has20-bit coordinate
 
 A second new result is an exact **19-arrow fixed-ray/retained-corner mass obstruction**, valid at any proposed reference centre and over arbitrary positive support offsets. It identifies why one reference-feasible polar policy cannot coexist with the body's actual centroid. The successful outer construction genuinely leaves its hypotheses by retiring the relevant old supporting planes. A separate30-cut control removes the old corner but remains own659 despite exact reference110.
 
-The supplied journal's canonical own110 remains C622, outside E<=249. None of the new bodies is a target or a new own110 record. fileciteturn50file0L9-L22
+The supplied journal's canonical own110 remains C622, outside E<=249. None of the new bodies is a target or a new own110 record.
 
 ### Source authority and reading
 
@@ -317,7 +317,7 @@ Selected exact receipts:
 
 The exact-zero body supplies a finite real-mass/U1 chart with the old host fixed. Use that achieved compatibility to change the **whole41-facet current Q component and its25 crossings**, not only the shared stable edge or a chosen root label. Recompute/reselect the exact controllers at fan changes, and permit old-host retirement or a new elder when needed. The19-arrow theorem identifies one forbidden retained-ray/corner mechanism; it does not constrain this already-escaped geometry. COMPACT_G6 permits easier independent material movement with17 additional point slots. The unresolved requirement is S1 on the same actual U1 body, with every newborn bar checked.
 
-Supplementary copies: [complete new delta](sandbox:/mnt/data/KF27H_CAPSULE.py), [sources, exact outputs and finite numerical records](sandbox:/mnt/data/KF27H_HANDOFF.zip). The complete literal delta below with its named retained parents is the recovery source; these links are not substitutes.
+Supplementary copies: complete new delta (`KF27H_CAPSULE.py`), sources, exact outputs and finite numerical records (`KF27H_HANDOFF.zip`). The complete literal delta below with its named retained parents is the recovery source; these links are not substitutes.
 
 ## 9. Complete literal source/input delta
 

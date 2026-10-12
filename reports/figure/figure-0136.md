@@ -107,9 +107,9 @@ This makes edge 242 the first sharply defined topology-changing exit for that ex
 
 Artifacts:
 
-- [Original 36-row exact circuit](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/exact_positive_circuit_matching35.json)
-- [Original circuit summary](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/exact_positive_circuit_matching35_summary.json)
-- [Original circuit footprint](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/exact_matching35_footprint.csv)
+- Original 36-row exact circuit (`exact_positive_circuit_matching35.json`)
+- Original circuit summary (`exact_positive_circuit_matching35_summary.json`)
+- Original circuit footprint (`exact_matching35_footprint.csv`)
 
 ---
 
@@ -154,11 +154,11 @@ No other face or true edge changes. This is a literal one-circuit adjacent hull 
 
 Artifacts:
 
-- [Exact adjacent dyadic coordinates and rebuilt lattice](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/adjacent_wall242/Q_wall242_dyadic.npz)
-- [Complete adjacent vertex coordinates](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/adjacent_wall242/Q_wall242_vertices.csv)
-- [All 8,638 rebuilt actual faces](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/adjacent_wall242/Q_wall242_faces.csv)
-- [Exact wall and hull-change summary](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/adjacent_wall242/wall242_summary.json)
-- [Deterministic dyadic materializer and full circuit-sign audit](sandbox:/mnt/data/materialize_wall242_dyadic.py)
+- Exact adjacent dyadic coordinates and rebuilt lattice (`Q_wall242_dyadic.npz`)
+- Complete adjacent vertex coordinates (`Q_wall242_vertices.csv`)
+- All 8,638 rebuilt actual faces (`Q_wall242_faces.csv`)
+- Exact wall and hull-change summary (`wall242_summary.json`)
+- Deterministic dyadic materializer and full circuit-sign audit (`materialize_wall242_dyadic.py`)
 
 ---
 
@@ -196,8 +196,8 @@ The unrestricted fixed-assignment max–min support LP has
 
 Artifact:
 
-- [Transferred matching, full target data and LP endpoint](sandbox:/mnt/data/wall242_transferred.npz)
-- [Deterministic transfer and tree/cotree audit](sandbox:/mnt/data/transfer_matching_flip242.py)
+- Transferred matching, full target data and LP endpoint (`wall242_transferred.npz`)
+- Deterministic transfer and tree/cotree audit (`transfer_matching_flip242.py`)
 
 ---
 
@@ -244,10 +244,10 @@ This is stronger than the pre-flip circuit. The original obstruction could in pr
 
 Artifacts:
 
-- [Exact post-flip separator-only circuit](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/adjacent_wall242/exact_positive_circuit_after_flip242.json)
-- [Post-flip circuit summary](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/adjacent_wall242/exact_positive_circuit_after_flip242_summary.json)
-- [Post-flip circuit footprint](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/adjacent_wall242/exact_after_flip242_footprint.csv)
-- [Exact post-flip circuit constructor](sandbox:/mnt/data/build_exact_adjacent_circuit.py)
+- Exact post-flip separator-only circuit (`exact_positive_circuit_after_flip242.json`)
+- Post-flip circuit summary (`exact_positive_circuit_after_flip242_summary.json`)
+- Post-flip circuit footprint (`exact_after_flip242_footprint.csv`)
+- Exact post-flip circuit constructor (`build_exact_adjacent_circuit.py`)
 
 ---
 
@@ -274,10 +274,10 @@ This numerical branch is weaker as an exact endpoint than the one-wall result ab
 
 Relevant artifacts:
 
-- [Exact 42-row circuit after the first pivot](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/exact_positive_circuit_matching41.json)
-- [Its compact summary](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/exact_positive_circuit_matching41_summary.json)
-- [Exact 47-row later circuit](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/exact_positive_circuit_matching_ipm3.json)
-- [Exact 176-row migrated circuit](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/exact_positive_circuit_matching_widest2.json)
+- Exact 42-row circuit after the first pivot (`exact_positive_circuit_matching41.json`)
+- Its compact summary (`exact_positive_circuit_matching41_summary.json`)
+- Exact 47-row later circuit (`exact_positive_circuit_matching_ipm3.json`)
+- Exact 176-row migrated circuit (`exact_positive_circuit_matching_widest2.json`)
 
 ---
 
@@ -298,11 +298,11 @@ The strongest fully completed own-centroid audit remains the previous exact dyad
 
 The baseline archive contains the exact H/V data, maximal-face cycles, all true edges, interval centroid certificate, exhaustive full-normal-cone verifier, and watertight OBJ/STL:
 
-- [Baseline exact own-centroid archive](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint.zip)
-- [Baseline full interval audit](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/interval_full_audit.json)
-- [Baseline Santaló enclosure](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/santalo_interval.json)
-- [Baseline own-centred P OBJ](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/P_own_centroid.obj)
-- [Baseline own-centred P STL](sandbox:/mnt/data/calm_atlas34_treecotree_endpoint/P_own_centroid.stl)
+- Baseline exact own-centroid archive (`calm_atlas34_treecotree_endpoint.zip`)
+- Baseline full interval audit (`interval_full_audit.json`)
+- Baseline Santaló enclosure (`santalo_interval.json`)
+- Baseline own-centred P OBJ (`P_own_centroid.obj`)
+- Baseline own-centred P STL (`P_own_centroid.stl`)
 
 The new wall-242 body has **not** yet received an interval-isolated Santaló solve, own-centroid full-normal-cone audit, perturbation box, independent second implementation, or OBJ/STL export. I therefore do not report an equilibrium class for its own centroid. Its completed certification is limited to exact coordinates, exact circuit-sign separation, the rebuilt actual H/V lattice, the exact tree/cotree transfer, and the exact separator-only infeasibility circuit.
 

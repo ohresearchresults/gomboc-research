@@ -33,7 +33,7 @@ The deterministic exact source consists of 45 hexadecimal binary64 triples, each
 
 `P=P0-c`, `Q_i=q_i/(1-q_i·c)`.
 
-The identity `(T_c Q)^polar=P0-c` proves the final centroid is exactly zero; no numerical root solve or auxiliary center is used. Full source coordinates are in [longstrip_rec0_source_hex.json](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/longstrip_rec0_source_hex.json), and the complete exact reconstruction record is [longstrip_rec0_exact.json](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/longstrip_rec0_exact.json).
+The identity `(T_c Q)^polar=P0-c` proves the final centroid is exactly zero; no numerical root solve or auxiliary center is used. Full source coordinates are in longstrip_rec0_source_hex.json, and the complete exact reconstruction record is longstrip_rec0_exact.json.
 
 ## Required long branches
 
@@ -87,7 +87,7 @@ The four saddles, identified invariantly by their Q edges, are:
 
 Closest excluded full edge cone: Q edge `(3,17)`, margin `-0.0011533309555635163`.
 
-Complete data: [maximal faces](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/maximal_faces.json), [true edges](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/true_edges.csv), [face audit](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/face_audit.csv), [vertex audit](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/vertex_audit.csv), and [edge/full-cone audit](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/edge_audit.csv).
+Complete data: maximal faces (`maximal_faces.json`), true edges (`true_edges.csv`), face audit (`face_audit.csv`), vertex audit (`vertex_audit.csv`), and edge/full-cone audit (`edge_audit.csv`).
 
 ## Incidence and perturbation certificate
 
@@ -110,7 +110,7 @@ For that entire box it certifies the same complete lattice and class `(2,4,4)`, 
 - audited vertex-sign witness: `1.387612399382275175522729590e-11`;
 - audited edge-cone sign witness: `8.642186024059738463809333476e-8`.
 
-Certificate: [interval_certificate.json](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/interval_certificate.json). Directed verifier: [verify_interval.py](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/verify_interval.py).
+Certificate: interval_certificate.json. Directed verifier: verify_interval.py.
 
 ## Exact independent verification
 
@@ -124,7 +124,7 @@ The independent standard-library verifier does not trust the recorded face latti
 6. applies the exact projective gauge;
 7. classifies all faces, vertices, and full edge cones with exact signs.
 
-Its verified result is `P=(86,129,45)`, `Q=(45,129,86)`, centroid `(0,0,0)`, class `(2,4,4)`. Runtime in this environment was about 21 seconds. Run [verify_exact_independent.py](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/verify_exact_independent.py); transcript: [verify_exact.log](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/verify_exact.log).
+Its verified result is `P=(86,129,45)`, `Q=(45,129,86)`, centroid `(0,0,0)`, class `(2,4,4)`. Runtime in this environment was about 21 seconds. Run verify_exact_independent.py; transcript: verify_exact.log.
 
 ## Circuit and deactivation ledger
 
@@ -152,7 +152,7 @@ The direct moment-closed strip has class `(1,11,10)`. Metric polishing crosses t
 
 It contains one material 2–2 lattice flip near interpolation parameter `0.9775`: facets `(6,34,35)` and `(6,35,36)` are replaced by `(6,34,36)` and `(34,35,36)`, on circuit `{6,34,35,36}`.
 
-Full ledger: [circuit_ledger.json](sandbox:/mnt/data/long_bifurcated_strip_handoff/search/circuit_ledger.json). Portable replay: [rebuild_circuit_ledger.py](sandbox:/mnt/data/long_bifurcated_strip_handoff/search/rebuild_circuit_ledger.py).
+Full ledger: circuit_ledger.json. Portable replay: rebuild_circuit_ledger.py.
 
 ## Search actually performed
 
@@ -160,7 +160,7 @@ After constructing the moment-closed three-branch architecture, I searched only 
 
 A shorter counterbranch produced lower raw equilibrium counts, including `(4,2,4)`, but failed the proved effective-chain requirement: its main branches had negative radial-dominance links. It was rejected rather than reported as progress toward the requested architecture.
 
-Search record: [topology_norm_results.json](sandbox:/mnt/data/long_bifurcated_strip_handoff/search/topology_norm_results.json). This is an empirical search boundary, not a global impossibility theorem.
+Search record: topology_norm_results.json. This is an empirical search boundary, not a global impossibility theorem.
 
 ## Why the strip still transfers instead of cancels
 
@@ -172,14 +172,14 @@ The smallest surviving connected obstruction is therefore not a too-short chain.
 
 ## Reconstruction files
 
-- [P vertices](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/P_vertices.csv)
-- [Q vertices](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/Q_vertices.csv)
-- [P OBJ](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/longstrip_rec0_P.obj)
-- [P STL](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/longstrip_rec0_P.stl)
-- [Q OBJ](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/longstrip_rec0_Q.obj)
-- [Q STL](sandbox:/mnt/data/long_bifurcated_strip_handoff/endpoint/longstrip_rec0_Q.stl)
+- P vertices (`P_vertices.csv`)
+- Q vertices (`Q_vertices.csv`)
+- P OBJ (`longstrip_rec0_P.obj`)
+- P STL (`longstrip_rec0_P.stl`)
+- Q OBJ (`longstrip_rec0_Q.obj`)
+- Q STL (`longstrip_rec0_Q.stl`)
 
-Complete archive: [long_bifurcated_strip_handoff.zip](sandbox:/mnt/data/long_bifurcated_strip_handoff.zip)  
+Complete archive: long_bifurcated_strip_handoff.zip  
 SHA-256: `c0dabdbbdca161fc8d6af321baf745ba2399232bb5d76e836e0ea30eac996236`.
 
 ## Reproduction

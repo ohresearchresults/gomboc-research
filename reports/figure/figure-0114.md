@@ -6,9 +6,9 @@ AI research report · 2026-08-27 UTC
 
 # Verdict
 
-No literal homogeneous polyhedral Gömböc was reached in this direction. The materialized endpoint below is an exact, finite, own-centred **nonwinner** with strict `(S,U,H)=(2,2,2)`. This respects the journal’s acceptance gate: an auxiliary-centre object, a wall point, or a merely formal mixed-volume identity is not reported as completion. :contentReference[oaicite:0]{index=0}
+No literal homogeneous polyhedral Gömböc was reached in this direction. The materialized endpoint below is an exact, finite, own-centred **nonwinner** with strict `(S,U,H)=(2,2,2)`. This respects the journal’s acceptance gate: an auxiliary-centre object, a wall point, or a merely formal mixed-volume identity is not reported as completion.
 
-What is new relative to the supplied journal is a fully expanded Minkowski construction: four asymmetric full-dimensional rational polytopes, their exact common normal fan, all 20 mixed-volume coefficients and all `3×35` mixed first-moment coefficients, an exact isolated positive centroid root, literal irredundant H/V data, every maximal face and true edge, a complete exact equilibrium ledger, a certified perturbation box, an independent verifier, and watertight OBJ/STL. The journal supplied the reconstructible nine-support `P9` seed and its incidence/equilibrium block, :contentReference[oaicite:1]{index=1} while the present assignment introduced Minkowski mixed-moment synthesis as a new architecture. :contentReference[oaicite:2]{index=2}
+What is new relative to the supplied journal is a fully expanded Minkowski construction: four asymmetric full-dimensional rational polytopes, their exact common normal fan, all 20 mixed-volume coefficients and all `3×35` mixed first-moment coefficients, an exact isolated positive centroid root, literal irredundant H/V data, every maximal face and true edge, a complete exact equilibrium ledger, a certified perturbation box, an independent verifier, and watertight OBJ/STL. The journal supplied the reconstructible nine-support `P9` seed and its incidence/equilibrium block, while the present assignment introduced Minkowski mixed-moment synthesis as a new architecture.
 
 ## Exact finite construction
 
@@ -77,7 +77,7 @@ The exact coefficient normalization is the ordinary Minkowski polarization: with
 
 `V(B[α_0],C_1[α_1],C_2[α_2],C_3[α_3]) = v_α α_0!α_1!α_2!α_3!/3!`,
 
-and analogously, with degree four, for each mixed first-moment component. There are exactly 20 nonzero `v_α` and 35 nonzero coefficients in each of `M_x,M_y,M_z`. Every coefficient is stored as its full integer numerator and denominator in [mixed_coefficients.csv](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/mixed_coefficients.csv) and redundantly in [certificate.json](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/certificate.json); the independent verifier recomputes all 125 coefficients from the summand H-data rather than trusting the table.
+and analogously, with degree four, for each mixed first-moment component. There are exactly 20 nonzero `v_α` and 35 nonzero coefficients in each of `M_x,M_y,M_z`. Every coefficient is stored as its full integer numerator and denominator in mixed_coefficients.csv and redundantly in certificate.json; the independent verifier recomputes all 125 coefficients from the summand H-data rather than trusting the table.
 
 For scale orientation, the 20 volume coefficients are:
 
@@ -127,7 +127,7 @@ Its 14 exact vertices are the intersections of these active label triples, in ve
 (27,32,103), (27,100,103).
 ```
 
-Each coordinate is the exact rational solution `v_I=A_I^{-1}s_I`; all literal fractions are in [final_V.csv](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/final_V.csv). The exact irredundant halfspaces are in [final_H.csv](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/final_H.csv), and all four summand H/V tables are in [summands_H.csv](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/summands_H.csv) and [summands_V.csv](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/summands_V.csv).
+Each coordinate is the exact rational solution `v_I=A_I^{-1}s_I`; all literal fractions are in final_V.csv. The exact irredundant halfspaces are in final_H.csv, and all four summand H/V tables are in summands_H.csv and summands_V.csv.
 
 The outward maximal-face cycles are:
 
@@ -203,10 +203,10 @@ Retain `C_1,C_2,C_3` as exact three-axis moment controls: their mixed first-mome
 
 ## Reproducible artifact bundle
 
-- [Complete ZIP bundle](sandbox:/mnt/data/minkowski_gomboc_slot9/minkowski_common_fan_fallback.zip) — SHA-256 `1c273ef52eac0e30de335a780be56f5e0923c91958f8865683124df8022c97ae`.
-- [Exact certificate](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/certificate.json) — all rational data, coefficients, incidence and primitive ledgers.
-- [All mixed coefficients](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/mixed_coefficients.csv).
-- [Independent clean-room verifier](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/verify_independent.py) and [verification transcript](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/verification.txt).
-- [OBJ](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/final_p9.obj) and [STL](sandbox:/mnt/data/minkowski_gomboc_slot9/artifact/final_p9.stl).
+- Complete ZIP bundle (`minkowski_common_fan_fallback.zip`) — SHA-256 `1c273ef52eac0e30de335a780be56f5e0923c91958f8865683124df8022c97ae`.
+- Exact certificate (`certificate.json`) — all rational data, coefficients, incidence and primitive ledgers.
+- All mixed coefficients (`mixed_coefficients.csv`).
+- Independent clean-room verifier (`verify_independent.py`) and verification transcript (`verification.txt`).
+- OBJ (`final_p9.obj`) and STL (`final_p9.stl`).
 
 The verifier, run from a clean extraction of the ZIP, reports: exact H/V reconstruction; `(14,21,9)` incidence; centroid exactly zero; identical irredundant fan and exact metric asymmetry for all four summands; exact recomputation of `20+3×35` coefficients; isolated root `(1,1,1)`; exhaustive `(2,2,2)` mechanics; certified `2^-27` support box; and a watertight 24-triangle STL with every triangulation edge occurring exactly twice.

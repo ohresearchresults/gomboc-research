@@ -24,7 +24,7 @@ canonical_C32_transports = []
 
 ## 2. Authority and literal combinatorics
 
-The immutable parent is `minimum-0039`, SHA-256 `a8dc9aab660b5e9b5a6b4db109797d548b9562b9dac14a8ca2fa04f55e999eee`. Its stated scope is whole roots3,4,5, including genuine cofacial triangulations, while root0 was explicitly open. This result uses that exact scope rather than treating the parent as an existing whole-graph theorem. :contentReference[oaicite:0]{index=0}
+The immutable parent is `minimum-0039`, SHA-256 `a8dc9aab660b5e9b5a6b4db109797d548b9562b9dac14a8ca2fa04f55e999eee`. Its stated scope is whole roots3,4,5, including genuine cofacial triangulations, while root0 was explicitly open. This result uses that exact scope rather than treating the parent as an existing whole-graph theorem.
 
 I authenticated the parent's **68993-byte** compact UTF-8 version2 JSON envelope, with the Markdown's final LF included, from the current `research-journal(7).md` checkpoint:
 
@@ -610,7 +610,7 @@ The useful next application is a separately verified cofacial transport: provide
 
 The theorem's remaining uncertainty is the ordinary auditability of a finite computer-assisted proof, not an unclosed continuous branch: all new coefficients, coverage and physical cancellations have completed exact checks with cold-reconstruction pins. Root3's proof remains an explicitly identified immutable premise, rather than a falsely claimed new replay. The global bound and the accepted canonical-type register are unchanged by this handoff alone.
 
-Supplementary files: [Exact successor patch](sandbox:/mnt/data/patch_mp45_root0.py), [standalone root0 recovery](sandbox:/mnt/data/recover_mp45_root0.py), and [frozen proof bundle](sandbox:/mnt/data/NOVA54_MP45_WHOLE_GRAPH_ACTUAL_MOMENTS_V4.zip).
+Supplementary files: Exact successor patch (`patch_mp45_root0.py`), standalone root0 recovery (`recover_mp45_root0.py`), and frozen proof bundle (`NOVA54_MP45_WHOLE_GRAPH_ACTUAL_MOMENTS_V4.zip`).
 
 The standalone recovery contains all13 source/input files without requiring a parent-source argument:33979 bytes/SHA-256 `6c3afa9a8a0a0853e0dbd6309d0dfac338fbf8cb172976e565b7a99ac2ef5cd2`. It produced the same cold and frozen transcripts as the inline exact-parent patch.
 

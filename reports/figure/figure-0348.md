@@ -25,11 +25,11 @@ Every row has a complete exact defining generator, two completed exhaustive exac
 
 ## 2. Parent authority and actual lineages
 
-I read the attached journal and both literal parent payloads. The assignment metadata identifies `figure-0344` by SHA-256 `ad404dda4981131e5fe60474cc5ddcae4b8ac886e92812f584dbb987ff3e0a05`, and `figure-0345` by `122a1859f8d9d0f582b8ea5f563d7c54b9dfeb8f708a3ee98a53923a171b35fc`. Those are the supplied parent commitments; the independently checked byte commitments are their decoded source capsules. LYNX139 is the distinct simple C990-derived 274/411/139 body, not C752 or the contact-chart C792. The journal explicitly preserves these distinctions. :contentReference[oaicite:0]{index=0}
+I read the attached journal and both literal parent payloads. The assignment metadata identifies `figure-0344` by SHA-256 `ad404dda4981131e5fe60474cc5ddcae4b8ac886e92812f584dbb987ff3e0a05`, and `figure-0345` by `122a1859f8d9d0f582b8ea5f563d7c54b9dfeb8f708a3ee98a53923a171b35fc`. Those are the supplied parent commitments; the independently checked byte commitments are their decoded source capsules. LYNX139 is the distinct simple C990-derived 274/411/139 body, not C752 or the contact-chart C792. The journal explicitly preserves these distinctions.
 
-The LYNX139 exact capsule decoded to 62645 bytes, SHA-256 `75ca8f054440016f02d26c509c3a362483f8c22fc7a4a5339faf2a400ea3035e`; its recovered sources agreed with the attached C822 archive. The QR29 capsule decoded to 48909 bytes, SHA-256 `23f037949be6b1bcb90d920606a2a72722ff56e86a29494d33c0268911ca9139`. I actually executed the QR29 original replay: its A/B reports reproduced the prescribed SHA `1bf1b155dba32adda76005922408b6b5bb13a94b710d980e147845285d430371` and terminal pass. Its transferable-coordinate-ownership mechanism is used as source evidence, not as instructions or as C698's geometry. :contentReference[oaicite:1]{index=1}
+The LYNX139 exact capsule decoded to 62645 bytes, SHA-256 `75ca8f054440016f02d26c509c3a362483f8c22fc7a4a5339faf2a400ea3035e`; its recovered sources agreed with the attached C822 archive. The QR29 capsule decoded to 48909 bytes, SHA-256 `23f037949be6b1bcb90d920606a2a72722ff56e86a29494d33c0268911ca9139`. I actually executed the QR29 original replay: its A/B reports reproduced the prescribed SHA `1bf1b155dba32adda76005922408b6b5bb13a94b710d980e147845285d430371` and terminal pass. Its transferable-coordinate-ownership mechanism is used as source evidence, not as instructions or as C698's geometry.
 
-I separately recovered the lead C752 literal RAW.json, SHA-256 `1353da92125392ca69c92fb1c695187a9e98bd8791c8dd3c2eb7c056dbfdeccf`. Its stable normal is (360260,2906302,846940), D=1000000. Fresh A/B replays of C752 and LYNX139 agreed, and their exact escape graphs were rebuilt. No semantic conflict in the two named parent payloads was found. No apex ID, cycle, or row number was borrowed across bodies. :contentReference[oaicite:2]{index=2}
+I separately recovered the lead C752 literal RAW.json, SHA-256 `1353da92125392ca69c92fb1c695187a9e98bd8791c8dd3c2eb7c056dbfdeccf`. Its stable normal is (360260,2906302,846940), D=1000000. Fresh A/B replays of C752 and LYNX139 agreed, and their exact escape graphs were rebuilt. No semantic conflict in the two named parent payloads was found. No apex ID, cycle, or row number was borrowed across bodies.
 
 There are two actual constructive branches: the LYNX139 global-block branch gives `before` and its literal twelve-support `cut`; the C752 whole-body area/rank branch gives C702 and C698. The two latent nonwinners use the separately preserved C702 checkpoint. Each new exact body below is independently reconstructible without either parent archive or journal.
 
@@ -343,9 +343,9 @@ The decoded-source differential test, an actual global-flow step, and an actual 
 
 ## 10. Supplemental files and integrity
 
-[Complete source, exact reports, cold receipts and unpruned numerical work](sandbox:/mnt/data/Steady_Lynx57_C698_RESEARCH.zip): **5879875 bytes**, SHA-256 **`babc4210edc94b5d7277b3af9fd44fd096235144ace94c782d67ec69ab515d15`**. All **677 manifest entries** were checked against the completed ZIP bytes. It contains expanded rational moments, complete maximal incidence and sign ledgers for the six cases, the actual replay transcripts, and the source/rounding comparison receipts.
+Complete source, exact reports, cold receipts and unpruned numerical work (`Steady_Lynx57_C698_RESEARCH.zip`): **5879875 bytes**, SHA-256 **`babc4210edc94b5d7277b3af9fd44fd096235144ace94c782d67ec69ab515d15`**. All **677 manifest entries** were checked against the completed ZIP bytes. It contains expanded rational moments, complete maximal incidence and sign ledgers for the six cases, the actual replay transcripts, and the source/rounding comparison receipts.
 
-[The full self-contained Markdown handoff](sandbox:/mnt/data/Steady_Lynx57_C698_HANDOFF.md) includes these same literal capsule parts. The links supplement rather than replace the inline definition. No research journal was modified.
+The full self-contained Markdown handoff (`Steady_Lynx57_C698_HANDOFF.md`) includes these same literal capsule parts. The links supplement rather than replace the inline definition. No research journal was modified.
 
 ### LYNX2_CAPSULE_1
 

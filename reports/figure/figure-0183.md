@@ -8,7 +8,7 @@ AI research report · 2026-09-01 UTC
 
 ## Literal disposition: **EXACT NONWINNER**
 
-No homogeneous convex polyhedral Gömböc was obtained. The required gate remains a finite uniform-density convex polyhedron, evaluated at its own ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/true-edge incidence, positive exhaustive margins, independent verification, and matching meshes. :contentReference[oaicite:0]{index=0}
+No homogeneous convex polyhedral Gömböc was obtained. The required gate remains a finite uniform-density convex polyhedron, evaluated at its own ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/true-edge incidence, positive exhaustive margins, independent verification, and matching meshes.
 
 The direction nevertheless advances materially beyond `J45_two_sheet_terminal13`. I constructed and exactified a literal three-dimensional shared cell containing two edge-sharing circuit sheets and a transverse return circuit, enumerated every adjacent orthant, reconstructed an exact 52-event ingress/egress incidence atlas, and materialized the strongest post-cell body:
 
@@ -58,12 +58,12 @@ This last operation represents exactly the translated body `P_raw-c`; it is not 
 
 Reconstruction inputs:
 
-- [Accepted exact J44/J45 predecessor archive](sandbox:/mnt/data/Steady_Harbor_62_J44_J45_exact_NONWINNER.zip)
-- [Recorded optimized support vectors](sandbox:/mnt/data/sh62_j46/jax_fixed_seed2_m0.9.json)
-- [Exact arithmetic polyhedron engine](sandbox:/mnt/data/sh62_j46/exact_poly.py)
-- [Directed interval engine](sandbox:/mnt/data/sh62_j46/int_poly.py)
-- [Package construction source](sandbox:/mnt/data/sh62_j46/build_final_package.py)
-- [Package completion source](sandbox:/mnt/data/sh62_j46/complete_package.py)
+- Accepted exact J44/J45 predecessor archive (`Steady_Harbor_62_J44_J45_exact_NONWINNER.zip`)
+- Recorded optimized support vectors (`jax_fixed_seed2_m0.9.json`)
+- Exact arithmetic polyhedron engine (`exact_poly.py`)
+- Directed interval engine (`int_poly.py`)
+- Package construction source (`build_final_package.py`)
+- Package completion source (`complete_package.py`)
 
 The generated package root is
 
@@ -230,8 +230,8 @@ The 54 open-cell class histogram is
 
 No open cell has `S=1`, `U=1`, or `H=0` simultaneously. The first ingress signature agrees with the exact J45 anchor after global/local relabelling, the final ingress signature agrees with common-wall orthant `1`, the initial egress signature agrees with orthant `6`, and the final egress signature agrees with J46.
 
-- [Complete compressed exact transition atlas](sandbox:/mnt/data/sh62_j46/path_atlas_exact_start.json.gz)
-- [Deterministic exact atlas builder](sandbox:/mnt/data/sh62_j46/path_atlas_exact_start.py)
+- Complete compressed exact transition atlas (`path_atlas_exact_start.json.gz`)
+- Deterministic exact atlas builder (`path_atlas_exact_start.py`)
 
 This atlas is an exact incidence chronology. Its mechanical labels are audited at every open representative; it is not asserted that every possible mechanics-zero time between incidence events has been algebraically isolated.
 
@@ -487,9 +487,9 @@ watertight mesh        yes
 Euler characteristic   2.
 ```
 
-- [Independent verifier](sandbox:/mnt/data/sh62_j46/verify_steady_harbor62_J46.py)
-- [Completed independent-verification transcript](sandbox:/mnt/data/sh62_j46/verify_stage2.log)
-- [Package-generation transcript](sandbox:/mnt/data/sh62_j46/complete_package.log)
+- Independent verifier (`verify_steady_harbor62_J46.py`)
+- Completed independent-verification transcript (`verify_stage2.log`)
+- Package-generation transcript (`complete_package.log`)
 
 ### Artifact integrity limitation
 

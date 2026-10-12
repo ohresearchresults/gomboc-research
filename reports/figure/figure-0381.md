@@ -22,7 +22,7 @@ Six distinct new rational nonwinners completed **two independently implemented e
 
 Parent: **figure-0377**, supplied transport SHA256 **5adada920118a005e19cde4a5ef4a1c35934f712470a2ce6fd4d6587238e2f7f**. Its relevant body is **BQ13_C590_TRANSVERSE_FACET_FLIP_LATENT_OWN121 / C590_LOWBIT**,163/295/134, own121/weak000, S physical input3,U raw3/81,H(3,36), physical supports107/113. This is BASIN69_96 lineage, not C590_REPAIRED, C592_LEAF or S8/RL.
 
-The current synthesis and complete ten-source exact capsule at02:35:11.887 were recovered before construction. The02:35:57.400 entry records its completed replay and separates physical exposure from the coordinator's affine-metric frontier. The supplied accepted benchmark remains VQ20_C622_ROUTE88_118_G12,E311; this work does not change it. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The current synthesis and complete ten-source exact capsule at02:35:11.887 were recovered before construction. The02:35:57.400 entry records its completed replay and separates physical exposure from the coordinator's affine-metric frontier. The supplied accepted benchmark remains VQ20_C622_ROUTE88_118_G12,E311; this work does not change it.
 
 The parent generator remains byte-identical: **9871bytes/SHA09c89672c767cfcfe20718db6231051fc31ca47b2ed31d9d9ac5ab1f2bccb1e3**. Its135 construction normals include latent113; explicit output_indices omits that vector and selects134 physical halfspaces. Grid10^14, anchor135=(0,0,1),175 controls and300 free coordinates are retained. Latent113 is not a physical facet or mass. Relevant complete helpers from the prior139-file capsule were recovered and their manifest checked. No defining-data conflict was found; rendered Markdown was not mistaken for immutable transport bytes.
 
@@ -209,13 +209,13 @@ STAR588 supplies an executed finite exposed replacement with edge headroom; VISI
 
 ## 9. Supplemental artifacts
 
-[Full Markdown handoff](sandbox:/mnt/data/BQ13_C590_SHADOW_RESULT.md):102769bytes,SHA42f1872e2e9e7987395a1419a397b00269a78409251e65ea7b5e31820480e414.
+Full Markdown handoff (`BQ13_C590_SHADOW_RESULT.md`):102769bytes,SHA42f1872e2e9e7987395a1419a397b00269a78409251e65ea7b5e31820480e414.
 
-[Full v2 JSON handoff](sandbox:/mnt/data/BQ13_C590_SHADOW_RESULT_v2.json):103724bytes,SHA98998c6d97f5d1dca4d9c17b392e60318ca1c5179a9a3661791dd8e950b0a899.
+Full v2 JSON handoff (`BQ13_C590_SHADOW_RESULT_v2.json`):103724bytes,SHA98998c6d97f5d1dca4d9c17b392e60318ca1c5179a9a3661791dd8e950b0a899.
 
-[Source-only ZIP](sandbox:/mnt/data/BQ13_C590_SHADOW_SOURCE_ONLY.zip):71files,116878bytes,SHA0d45983b322a186b4da0f9026a60bb6edd1c7c42f2b4150cd3a2327b66b1890d.
+Source-only ZIP (`BQ13_C590_SHADOW_SOURCE_ONLY.zip`):71files,116878bytes,SHA0d45983b322a186b4da0f9026a60bb6edd1c7c42f2b4150cd3a2327b66b1890d.
 
-[Verified full ZIP](sandbox:/mnt/data/BQ13_C590_SHADOW_VERIFIED_FULL.zip):128files,4496846bytes,SHA4dfde81d2ce0bed7844a32412ff7439afd3ef693970f9a82a1a489ffa8258822.
+Verified full ZIP (`BQ13_C590_SHADOW_VERIFIED_FULL.zip`):128files,4496846bytes,SHA4dfde81d2ce0bed7844a32412ff7439afd3ef693970f9a82a1a489ffa8258822.
 
 Both archive manifests were read back. The complete artifact JSON was parsed, its capsule decoded, and every source byte compared with the actual cold-replay directory: **FINAL_HANDOFF_71_SOURCES_BYTE_IDENTICAL_TO_EXECUTED_COLD_REPLAY**. The links supplement, not replace, the full literal definition below.
 

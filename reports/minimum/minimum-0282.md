@@ -34,7 +34,7 @@ This compactification also identifies an important obstruction to a proposed sho
 
 The full positive horizontal sector remains undecided by this handoff. The proposed numerical 24-cube cover and the balanced/corridor variants are not promoted: a verified complete terminal certificate and reproducible output pins for those larger searches are not established here. The new mechanical theorem below is analytic and does not depend on those searches.
 
-No canonical incidence count or global complexity bound changes. The inherited interval remains `34<=C_min<=622`; no U1 or 110 attainer is supplied. fileciteturn30file0L19-L23
+No canonical incidence count or global complexity bound changes. The inherited interval remains `34<=C_min<=622`; no U1 or 110 attainer is supplied.
 
 ## 2. Input authority and evidence status
 
@@ -101,7 +101,7 @@ Use exactly the positive fan
 (7,9,8,2), (7,9,2,3), (7,9,3,4).
 ```
 
-These are integration tetrahedra. Their diagonals are not mechanical edges. The literal geometry and the actual-refill convention agree with the supplied parents. fileciteturn37file0L49-L108
+These are integration tetrahedra. Their diagonals are not mechanical edges. The literal geometry and the actual-refill convention agree with the supplied parents.
 
 For a tetrahedron T, let `w_T` be its source six-volume determinant. Set
 
@@ -192,7 +192,7 @@ It has f-vector `(6,10,6)`. If `c_base` is the actual area centroid of that disp
 
 The usual signed polygon formula, or the supplied fan, recovers both remaining coordinates rationally. At `a=0,h>0,k=0`, the true body is the tetrahedron with vertices `e1,e2,e3,(0,-b*h,0)`, six-volume `1+b*h`, and centroid `(1,1-b*h,1)/4`. The reflected statement holds for `a=0,h=0,k>0`. All these limits are full-dimensional.
 
-These formulas identify every simultaneous-rate limit in the closed wedge by continuity. They are affine normalizations of actual uniformly refilled images, not centroids transported through a non-affine map. The pentagonal-pyramid limit is consistent with the literal parent's lower compactification. fileciteturn37file0L141-L175
+These formulas identify every simultaneous-rate limit in the closed wedge by continuity. They are affine normalizations of actual uniformly refilled images, not centroids transported through a non-affine map. The pentagonal-pyramid limit is consistent with the literal parent's lower compactification.
 
 ## 5. Actual-centroid bounds on the entire cube
 

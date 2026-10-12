@@ -14,7 +14,7 @@ The strongest result is a new, executed **entire-family actual-mass obstruction*
 
 That geometry was then changed finitely. The exact axial normal cone changes from four incident supports to ten; a subsequent mixed material replacement returns it to four while modifying the complete lower interface. The selected rational endpoint **KF27K_C2_MINOR_G8** has **V137/E206/F71, own154, additionalweak000, primitivezero000, Q=[], and four strictly positive P bars**. Two smaller P bars are reduced substantially but are **not cancelled**; the two dominant bars survive. The original J own121 bodies remain useful and should not be displaced by an unconditional ranking of this new family.
 
-There are **ten distinct exactly audited rational bodies**, including three coarse-rounding controls and two auxiliary back bodies. The reduced MIN71 file is an **identical representation**, not an eleventh construction. The supplied research's accepted C622 body remains outside the E249 goal. fileciteturn93file0L17-L19
+There are **ten distinct exactly audited rational bodies**, including three coarse-rounding controls and two auxiliary back bodies. The reduced MIN71 file is an **identical representation**, not an eleventh construction. The supplied research's accepted C622 body remains outside the E249 goal.
 
 ### Source authority
 
@@ -54,7 +54,7 @@ The exact **C2_AXIAL_G8→C2_CONE_G8** comparison proves that the same axial poi
 
 The exact **C2_CONE_G8→C2_MINOR_G8** comparison is instead mixed: **26 old vertices lie outside the new body and24 new vertices lie outside the old body**. The same axial point remains, but its support count changes **10→4**. These are exact support-violation witnesses, not removed/added volume totals. A net volume increase must not be called pure added material.
 
-C2 symmetry is not itself a no-go restriction. Domokos, Lángi and Várkonyi's Theorem2 in arXiv:2112.06079v2 includes mono-monostatic convex polyhedra with cyclic C2 symmetry. No edge bound or construction certificate from that theorem is being transferred to these bodies. citeturn499923view0
+C2 symmetry is not itself a no-go restriction. Domokos, Lángi and Várkonyi's Theorem2 in arXiv:2112.06079v2 includes mono-monostatic convex polyhedra with cyclic C2 symmetry. No edge bound or construction certificate from that theorem is being transferred to these bodies.
 
 ## 2. Exact all-height actual-mass obstruction
 
@@ -277,7 +277,7 @@ For the symmetric route, **the axial mass equation is now a finite physical cont
 
 The outstanding target is the complete current P landscape: the dominant43-node component, the17-node axial component and both lower single-vertex components, with actual S1 and actual mass coupled. A smaller minor bar, a retired inactive label, a reference110 route or exact transverse mass symmetry alone is not that cancellation.
 
-Supplementary files: [complete new delta](sandbox:/mnt/data/KF27K_DELTA.py), [full exact ledger](sandbox:/mnt/data/KF27K_LEDGER.json), [all-height certificates](sandbox:/mnt/data/KF27K_ALL_HEIGHT_EXACT.json), [working sources and exact outputs](sandbox:/mnt/data/KF27K_HANDOFF.zip). The following literal delta and the explicitly retained I/J dependencies, not these links alone, supply the recovery source.
+Supplementary files: complete new delta (`KF27K_DELTA.py`), full exact ledger (`KF27K_LEDGER.json`), all-height certificates (`KF27K_ALL_HEIGHT_EXACT.json`), working sources and exact outputs (`KF27K_HANDOFF.zip`). The following literal delta and the explicitly retained I/J dependencies, not these links alone, supply the recovery source.
 
 ## 7. Complete literal new-source/input delta
 

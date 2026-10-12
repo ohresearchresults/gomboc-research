@@ -8,7 +8,7 @@ AI research report · 2026-08-24 UTC
 
 ## Verdict
 
-No finite homogeneous polyhedral Gömböc with strict own-centroid class `(1,1,0)` was certified. The acceptance gate remains unmet: the requested result requires a materialized finite representation, its own uniform centroid, an exhaustive strict all-feature audit, independent verification, and matching OBJ/STL; neither a smooth body nor a transfer-wall numerical candidate qualifies. :contentReference[oaicite:10]{index=10}
+No finite homogeneous polyhedral Gömböc with strict own-centroid class `(1,1,0)` was certified. The acceptance gate remains unmet: the requested result requires a materialized finite representation, its own uniform centroid, an exhaustive strict all-feature audit, independent verification, and matching OBJ/STL; neither a smooth body nor a transfer-wall numerical candidate qualifies.
 
 This continuation produced three useful outcomes:
 
@@ -39,16 +39,16 @@ Its genuine equilibria are:
 - saddle edge `(0,15)`, margin `0.003059821576867843`;
 - saddle edge `(21,22)`, margin `0.002922610322336109`.
 
-Thus this remains a valid topology-changed, bottom-face-retaining descendant of the journal’s fivefold-belt seed, but its true class is `(3,2,3)`, not the class reported previously. The original Qloc coordinates and the fivefold block being replaced are recorded in the journal. :contentReference[oaicite:11]{index=11}
+Thus this remains a valid topology-changed, bottom-face-retaining descendant of the journal’s fivefold-belt seed, but its true class is `(3,2,3)`, not the class reported previously. The original Qloc coordinates and the fivefold block being replaced are recorded in the journal.
 
 Artifacts:
 
-- [Actual six-ring descendant](sandbox:/mnt/data/freshbot_m6_404_best_Q.npy)
-- [Geometry and Santaló verifier](sandbox:/mnt/data/gomboc_geom.py)
+- Actual six-ring descendant (`freshbot_m6_404_best_Q.npy`)
+- Geometry and Santaló verifier (`gomboc_geom.py`)
 
 ## 2. Best verified Qloc-derived topology bridge
 
-The strongest retained Qloc-derived body is [nearH1_705_Q.npy](sandbox:/mnt/data/nearH1_705_Q.npy). It contains 14 binary64 rows, 13 of which are active hull vertices. Re-solving the three Santaló equations gives
+The strongest retained Qloc-derived body is nearH1_705_Q.npy. It contains 14 binary64 rows, 13 of which are active hull vertices. Re-solving the three Santaló equations gives
 
 ` s = (0.00771075256, 0.00248622880, -0.33100967256) `
 
@@ -74,7 +74,7 @@ The sharp circuit nearest the extra stable face remains the four-point set `{3,5
 
 ## 3. Independent 19-vertex own-centroid `(2,2,2)` body
 
-A separate direct-coordinate search produced [candidate4203_centered.npy](sandbox:/mnt/data/candidate4203_centered.npy). Unlike the Qloc bodies, its rows are already centered at their own uniform-volume centroid to numerical error below `8e-17`.
+A separate direct-coordinate search produced candidate4203_centered.npy. Unlike the Qloc bodies, its rows are already centered at their own uniform-volume centroid to numerical error below `8e-17`.
 
 Its full binary64 V-representation is:
 
@@ -124,15 +124,15 @@ with
 
 `eta(theta) = (3 pi/2)(cos(theta) - cos(theta)^3/3)`
 
-and `beta=0.023` has now been subjected to interval/Krawczyk verification; the amended computation reports strict convexity in the relevant regime and exactly one stable and one unstable equilibrium with no unresolved boxes. This is an actual certified smooth Gömböc, although not a polyhedral answer. :contentReference[oaicite:2]{index=2}
+and `beta=0.023` has now been subjected to interval/Krawczyk verification; the amended computation reports strict convexity in the relevant regime and exactly one stable and one unstable equilibrium with no unresolved boxes. This is an actual certified smooth Gömböc, although not a polyhedral answer.
 
-Lángi’s theorem gives the correct topology-aware polyhedral mechanism: isolate each smooth equilibrium in a dedicated local polyhedral replacement, cover the non-equilibrium remainder by sufficiently small inward-shifted support-plane patches, and use four small controlling cones whose height parameters span the three first moments. The proof explicitly treats the local stable/unstable patches, the no-new-equilibrium support cover, and the final centroid correction. It is not equivalent to uniform triangulation or a generic tangent-plane mesh. :contentReference[oaicite:3]{index=3}
+Lángi’s theorem gives the correct topology-aware polyhedral mechanism: isolate each smooth equilibrium in a dedicated local polyhedral replacement, cover the non-equilibrium remainder by sufficiently small inward-shifted support-plane patches, and use four small controlling cones whose height parameters span the three first moments. The proof explicitly treats the local stable/unstable patches, the no-new-equilibrium support cover, and the final centroid correction. It is not equivalent to uniform triangulation or a generic tangent-plane mesh.
 
 I implemented the radial surface, its analytic tangent normal, a dedicated stable truncation plane, a conical unstable cap, inward-shifted support planes on the remainder, halfspace intersection, own-volume-centroid integration, maximal-face merging, true-edge recovery, and a complete face/vertex/edge audit:
 
-- [Sloan–Lángi construction experiment](sandbox:/mnt/data/langi_sloan_construct.py)
-- [Parameter-grid driver](sandbox:/mnt/data/langi_scan_grid.py)
-- [First materialized halfspace experiment](sandbox:/mnt/data/langi_test.npy)
+- Sloan–Lángi construction experiment (`langi_sloan_construct.py`)
+- Parameter-grid driver (`langi_scan_grid.py`)
+- First materialized halfspace experiment (`langi_test.npy`)
 
 The first attempt deliberately tested the tempting simplification of replacing Lángi’s finite local cover by a quasi-uniform collection of shifted tangent planes. It failed decisively:
 
@@ -143,7 +143,7 @@ The first attempt deliberately tested the tempting simplification of replacing L
 | 800 | `(1483,2231,750)` | `(596,904,1498)` | approximately `(-0.0110278,-6.65e-7,1.44e-7)` |
 | 1200 | `(2289,3442,1155)` | `(804,1155,1957)` | `(-0.00566977,4.95e-8,-2.08e-7)` |
 
-Every row satisfies `S+U-H=2`. Increasing the global sampling density reduced the centroid error but did not suppress the polyhedral equilibria. This independently reproduces the warning in Lángi’s paper that an equidistant or generic fine approximation can create many extra equilibria. The failure is geometric, not a centroid bug: a successful implementation must construct the local support patches so that the perpendicular foot is excluded from each entire maximal face and one common strict separator excludes the complete normal cone of every mixed edge and vertex. :contentReference[oaicite:4]{index=4}
+Every row satisfies `S+U-H=2`. Increasing the global sampling density reduced the centroid error but did not suppress the polyhedral equilibria. This independently reproduces the warning in Lángi’s paper that an equidistant or generic fine approximation can create many extra equilibria. The failure is geometric, not a centroid bug: a successful implementation must construct the local support patches so that the perpendicular foot is excluded from each entire maximal face and one common strict separator excludes the complete normal cone of every mixed edge and vertex.
 
 Reproduction of the largest completed experiment:
 

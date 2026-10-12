@@ -14,11 +14,11 @@ These are not new Gömböc upper bounds. The strongest established mechanical ou
 
 **Delivery limitation:** the complete literal recovery capsule is present in the generated handoff file, but is not reproduced in this message. It contains160764 base64 characters and103 complete source/input files. Under the requested inline-recovery criterion, the newly computed bodies therefore remain **unpromoted as durable successors in this message**; their computational checks were completed, but this inline handoff does not itself supply every defining row and materially used source. The prepared JSON below contains the complete literal capsule inside its own `result_markdown`, rather than referring onward to another archive:
 
-[Complete handoff JSON, including the entire literal103-file recovery capsule](sandbox:/mnt/data/NH72_angular_result.json)
+Complete handoff JSON, including the entire literal103-file recovery capsule (`NH72_angular_result.json`)
 
-[The same complete handoff as Markdown](sandbox:/mnt/data/NH72_angular_result.md)
+The same complete handoff as Markdown (`NH72_angular_result.md`)
 
-[Supplementary source, exact reports, receipts and search records](sandbox:/mnt/data/NH72_angular_filled_mass_handoff.zip)
+Supplementary source, exact reports, receipts and search records (`NH72_angular_filled_mass_handoff.zip`)
 
 The mathematical mechanism, observed endpoints, exact verification status and most useful continuation are recorded below so that this response is not merely a file pointer.
 
@@ -32,7 +32,7 @@ metadata SHA-256
 
 `924f64945bea3a24606d980567758cba55c1da59f49a0f0cffd207b7f78ea22f`.
 
-Its centroidal radial-distortion theorem was used analytically. Its threshold checker was not inherited as executed, and the approximate9.37/9.86 stable thresholds were not freshly certified here. The latest journal integration explicitly retains that distinction and the accepted **VQ20_C622_ROUTE88_118_G12**,176/311/137 own110/weak000 benchmark. :contentReference[oaicite:2]{index=2}
+Its centroidal radial-distortion theorem was used analytically. Its threshold checker was not inherited as executed, and the approximate9.37/9.86 stable thresholds were not freshly certified here. The latest journal integration explicitly retains that distinction and the accepted **VQ20_C622_ROUTE88_118_G12**,176/311/137 own110/weak000 benchmark.
 
 **No TURNOVER, S8, K99, C602, C592 or VQ20_C626 coordinate table is a coordinate parent of the new bodies.** The new inputs are independently generated angular point families. Four complete exact-checking source units were reused, unchanged, from the journaled NH40 capsule: the point-hull checker, its exact hull helper, the independent halfspace-pair checker and the centred-mass checker. They are included in the new capsule; old numerical coordinates are not substituted.
 

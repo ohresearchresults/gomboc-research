@@ -18,15 +18,15 @@ Two further advances are retained. Every surviving unique-adverse full stress ha
 
 The controls clarify the limits. A new rational pure-four-A body on the centroid-height wall has a wrong-sign fold on its **entire local base-pointwise-fixed, fixed-centroid, fixed-metric realization family**. This is stronger than failure of one frozen star, but is not a full obstruction: its full intrinsic and tensor ranks are four. A normal-metric correction and genuine coupled shape motion regularize it. Another exact body realizes the unique-adverse sign conflict, where either sign of the normal-height-only motion creates an unwanted strict pair, yet actual free-star and affine mechanisms succeed.
 
-The full unequal-height problem is not closed. No body with an obstructing full nonnegative intrinsic stress cone, and no obstruction to arbitrary-small unrestricted regularization, is supplied. Non-B8 E17 lattices and mixed EF/VF points remain outside these theorems. No110 attainer, census change, or improvement of34<=C_min<=622 is claimed. :contentReference[oaicite:0]{index=0}
+The full unequal-height problem is not closed. No body with an obstructing full nonnegative intrinsic stress cone, and no obstruction to arbitrary-small unrestricted regularization, is supplied. Non-B8 E17 lattices and mixed EF/VF points remain outside these theorems. No110 attainer, census change, or improvement of34<=C_min<=622 is claimed.
 
 ## 2. Inputs and evidence status
 
 The complete new1650-line `research-journal(20260920-185950).md` was read consecutively through EOF, including the full literal parent and its executable capsule. It has308730 UTF-8 bytes and SHA-256 `8731c1f26dec74b84ce2cd6cf66f496471b6b6148ec72eb2a5ec211450660b16`.
 
-The authoritative parent is `minimum-0135`, title `PARALLEL_RIDGE_FOUR_A_COMPLETE_V1`. Its36449-byte compact JSON envelope authenticates to `06bcaecddd17941df222ba6114e96630b6ef21dee59acab656dfe79ce8456e4e`. Serialization is UTF-8, `ensure_ascii=False`, separators `(',',':')`, keys `version,result_markdown`, one terminal LF inside the Markdown string and none after the envelope. No source conflict was found, and the new computation has no missing exact dependency. The parent's full parallel-ridge theorem remains accepted and is not reproved here. :contentReference[oaicite:1]{index=1}
+The authoritative parent is `minimum-0135`, title `PARALLEL_RIDGE_FOUR_A_COMPLETE_V1`. Its36449-byte compact JSON envelope authenticates to `06bcaecddd17941df222ba6114e96630b6ef21dee59acab656dfe79ce8456e4e`. Serialization is UTF-8, `ensure_ascii=False`, separators `(',',':')`, keys `version,result_markdown`, one terminal LF inside the Markdown string and none after the envelope. No source conflict was found, and the new computation has no missing exact dependency. The parent's full parallel-ridge theorem remains accepted and is not reproved here.
 
-The inherited basal flow, true realization chart and polygon-reaction stress equations are used as working premises. In particular, the basal construction supplies a genuine tangent direction positive on every basal A row, not merely a sequence of nearby bodies. :contentReference[oaicite:2]{index=2}
+The inherited basal flow, true realization chart and polygon-reaction stress equations are used as working premises. In particular, the basal construction supplies a genuine tangent direction positive on every basal A row, not merely a sequence of nearby bodies.
 
 The new source imports no predecessor code or report. Original build/check, fresh source-only build/check and fresh capsule-only build/check all executed with byte parity. Exact acceptance uses only rational arithmetic in the Python standard library. The continuous theorems below are analytic; the controls and interval certificates do not substitute for their proofs. No proof-assistant formalization or priority claim is made.
 
@@ -141,7 +141,7 @@ No signed-stress dimension-one statement follows or is used.
 
 ## 5. Unequal heights: orientation of every adverse full stress
 
-Now let 0<H_a<H_b with h_a=H_a-gamma!=0. In the unresolved sign-conflict sector, e is the unique positive-beta packet. It is either a->b with h_a>0, or a->B with h_a<0. All other nonbasal beta values are negative; there is no nonbasal zero in this sector. The classification and the positive coefficient of e are inherited; the following stronger resultant identity is new. :contentReference[oaicite:3]{index=3}
+Now let 0<H_a<H_b with h_a=H_a-gamma!=0. In the unresolved sign-conflict sector, e is the unique positive-beta packet. It is either a->b with h_a>0, or a->B with h_a<0. All other nonbasal beta values are negative; there is no nonbasal zero in this sector. The classification and the positive coefficient of e are inherited; the following stronger resultant identity is new.
 
 For any nonzero full nonnegative intrinsic stress, write c_alpha=sum alpha_i u_i. The basal tangent and normal metric test imply alpha_e>0 and at least one supported negative-beta row. Then
 
@@ -454,7 +454,7 @@ Exact main stdout:
     wall_roof.json 2463311 cb0f1b0ba0394aa0b9251fb4e0d0c79b9c967017863ce73e1250125bad514de6
     UNEQUAL_WALL_AND_FREE_CHORD_RECOVERY_PASS
 
-Convenience copies: [complete source](sandbox:/mnt/data/unequal/wall_roof.py), [exact report](sandbox:/mnt/data/unequal/wall_roof.json), [capsule](sandbox:/mnt/data/unequal/recover_wall.py), [executed receipt](sandbox:/mnt/data/unequal/build.txt). The literal capsule below is sufficient without these links.
+Convenience copies: complete source (`wall_roof.py`), exact report (`wall_roof.json`), capsule (`recover_wall.py`), executed receipt (`build.txt`). The literal capsule below is sufficient without these links.
 
 ```python
 """UNEQUAL_WALL_AND_FREE_CHORD_REGULARIZATION_V1 exact recovery.

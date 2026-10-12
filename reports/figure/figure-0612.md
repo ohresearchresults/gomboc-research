@@ -22,7 +22,7 @@ Fifteen selected new rational bodies are preserved: **eleven own211, one own615,
 
 The complete429043-byte journal was read consecutively through EOF1932, SHA256 `6dbe62dff793776d3771bda2fe7cf2822390e67ebc136c65e1d0acd43e366122`, including the controlling parent `figure-0600`, SHA256 `47999f5dc83edaa744dbfffebd55e6f04dedd464f0d139b15334683664def579`. Its seventeen-unit KL13D capsule is already literal autonomous evidence. The older unselected B/C publication gaps are not being declared closed merely by reference to their hashes. This handoff directly includes the exact selected C/D inputs and every new dependency used by the retained constructions.
 
-The inherited geometry source remains `geometry121.py`,5112 bytes/SHA256 `b64da8c4140fba3954b28323d603be3813b0643ed6aca18b195a2b62f2c44bf1`. No R82, C622 or absent coordinator trajectory was used as a computational input. The parent39-row theorem fixes its normal directions, selected triples/rays and Q-route forms; it is not a no-go theorem for the altered geometry below. fileciteturn44file0L37-L51
+The inherited geometry source remains `geometry121.py`,5112 bytes/SHA256 `b64da8c4140fba3954b28323d603be3813b0643ed6aca18b195a2b62f2c44bf1`. No R82, C622 or absent coordinator trajectory was used as a computational input. The parent39-row theorem fixes its normal directions, selected triples/rays and Q-route forms; it is not a no-go theorem for the altered geometry below.
 
 ## 1. A different physical ray, then complete removal of the four subsidiary Q defects
 
@@ -1537,4 +1537,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Supplementary copies: [source recovery](sandbox:/mnt/data/KL13E_RECOVER.py), [full handoff](sandbox:/mnt/data/KL13E_HANDOFF.zip), and [source-bearing JSON result](sandbox:/mnt/data/KL13E_RESULT.json).
+Supplementary copies: source recovery (`KL13E_RECOVER.py`), full handoff (`KL13E_HANDOFF.zip`), and source-bearing JSON result (`KL13E_RESULT.json`).

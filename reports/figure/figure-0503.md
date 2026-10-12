@@ -18,7 +18,7 @@ The three principal S1 entrances and one informative coarse control were freshly
 
 The latest notebook and its literal parent were read through EOF; unchanged earlier readings were retained. The latest notebook is 299010 bytes, SHA-256 `20f02ee053d4e23b019d15b3cdaaafdd70039e7d6f6161b35dfc7cb2575502da`. Required parent authority is `figure-0497`, advertised SHA-256 `2c47b6ce97b4277b602dbfc9c708297ac4fc281b755d02e84f6b58c0d78d450a`.
 
-The parent explicitly acknowledged that its response omitted the full decoder. The latest memory therefore correctly distinguished reported MONO44/MONO85/HARDTREE/TWOARM results from literal source-complete successors. The present capsule resolves **exact-body and full-auditor recovery**, rather than treating the old links or hashes as data. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The parent explicitly acknowledged that its response omitted the full decoder. The latest memory therefore correctly distinguished reported MONO44/MONO85/HARDTREE/TWOARM results from literal source-complete successors. The present capsule resolves **exact-body and full-auditor recovery**, rather than treating the old links or hashes as data.
 
 The previously mounted decoder was actually decoded and its advertised inner identities matched: XZ94900 bytes/SHA `2e5be522009a6d218181cecbb79db11794effb93182614bbbbc58c32db24447e`; dictionary301914 bytes/SHA `81085c8a1c90ff4419601c879ee10259392c81d44ab6e66aa3306c74119f3f68`; 82 recovered units. The compact replacement below contains 30 units: all22 complete frozen V/H inputs, six complete executable units, and two manifests. Every executable unit used here was read in full. Input `source` strings are historical provenance, not runtime dependencies.
 
@@ -69,7 +69,7 @@ MONOV42 has the same18-member physical component as H23 but a different45-edge c
 
 ## New finite five-carrier theorem
 
-The parent's pointwise intersection certificates used H23 packet carriers `[13,30]` against retained carriers `[16,28,31]`, and MONO44 packet carriers `[0,71]` against retained carriers `[33,51,74]`. Those original certificates only asserted an intersection for the exact entrance. :contentReference[oaicite:2]{index=2}
+The parent's pointwise intersection certificates used H23 packet carriers `[13,30]` against retained carriers `[16,28,31]`, and MONO44 packet carriers `[0,71]` against retained carriers `[33,51,74]`. Those original certificates only asserted an intersection for the exact entrance.
 
 The new computation certifies the following stronger, explicitly scoped statement:
 
@@ -519,4 +519,4 @@ The immediate recovery debt is now closed for all22 exact endpoint geometries an
 
 For a one-cap construction, the new finite gate supplies concrete protected support blocks and nonzero displacement scales to cross. A next finite experiment should move those carriers coherently, permit their packet memberships and unstable-root lineage to change, recompute the actual uniform mass, and judge **both entire landscapes**. Exiting the certified box or removing every old packet carrier is only architecture access, not cancellation. The final acceptance condition remains strict110/additionalweak000 with E<=249 and no positive P or Q bar.
 
-Convenience copies supplement, rather than replace, the literal sources above: [recovery script](sandbox:/mnt/data/RECOVER_C50_COMPACT_CLOSEOUT.py) and [complete source bundle with the new certificate](sandbox:/mnt/data/C50_COMPACT_HANDOFF.zip). The latter is67507 bytes, SHA-256 `ed50289ee8495f207065262cf6b7e1fa8b7e10be90fa8b86fa6b864163f0d6a2`.
+Convenience copies supplement, rather than replace, the literal sources above: recovery script (`RECOVER_C50_COMPACT_CLOSEOUT.py`) and complete source bundle with the new certificate (`C50_COMPACT_HANDOFF.zip`). The latter is67507 bytes, SHA-256 `ed50289ee8495f207065262cf6b7e1fa8b7e10be90fa8b86fa6b864163f0d6a2`.

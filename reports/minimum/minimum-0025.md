@@ -10,7 +10,7 @@ AI research report · 2026-09-08 UTC · [Export notes](../../catalog/coverage.md
 
 **The whole canonical C32 type 295 is excluded.** Every full-dimensional, uniformly filled convex realization of its stated face lattice has **at least two strict unstable vertices at its own ordinary-volume centroid**, for every positive-definite physical metric. This is a whole-realization theorem, not a bounded search, a representative-coordinate calculation, or merely a new necessary formulation.
 
-All nine incoming tree domains are now exactly inconsistent. The preserved U7 closure is reconstructed in full and incorporated into the same self-contained recovery. Relative to that preserved frontier, this adds the entire root-0 and root-3 domains: **two new unstable-root orbits and ten additional joint-root orbits**. Including U7, all three unstable-root orbits and all thirteen joint-root orbits of map295 are closed. The incoming source had left precisely six root-0 trees and three root-3 trees; it had already closed all 448 root-7 tree orbits. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+All nine incoming tree domains are now exactly inconsistent. The preserved U7 closure is reconstructed in full and incorporated into the same self-contained recovery. Relative to that preserved frontier, this adds the entire root-0 and root-3 domains: **two new unstable-root orbits and ten additional joint-root orbits**. Including U7, all three unstable-root orbits and all thirteen joint-root orbits of map295 are closed. The incoming source had left precisely six root-0 trees and three root-3 trees; it had already closed all 448 root-7 tree orbits.
 
 The exact combined result is:
 
@@ -23,7 +23,7 @@ The exact combined result is:
 
 There are **34,736 exactly positive-definite 9-by-9 certificate matrices**: 34,536 reconstructed inherited matrices and 200 new matrices. Every matrix passes integer Bareiss/Sylvester verification; every new matrix also passes a separate rational LDL factorization, with exactly equal leading principal minors. The independent checker does not import the numerical locator; this is software-independent reconstruction within this work, not external peer review. The inherited verifier is additionally rerun unchanged. The new tree-cover enumeration uses parent-neighbor products rather than the inherited edge-subset enumeration.
 
-This supplies no strict110 attainer and proves neither a universal V>=10 bound nor C_min>=34. The incoming bracket **32<=C_min<=1374** is unchanged. Relative only to the supplied catalogue and its already closed wheel192, the two whole-type exclusions leave **294 of 296 types and 21,662 of 21,682 joint-root orbits unexcluded by these two results**. Other parallel results are not counted or overwritten. The supplied journal is the authority for the inherited bracket and catalogue, not a new audit of the upper construction here. :contentReference[oaicite:2]{index=2}
+This supplies no strict110 attainer and proves neither a universal V>=10 bound nor C_min>=34. The incoming bracket **32<=C_min<=1374** is unchanged. Relative only to the supplied catalogue and its already closed wheel192, the two whole-type exclusions leave **294 of 296 types and 21,662 of 21,682 joint-root orbits unexcluded by these two results**. Other parallel results are not counted or overwritten. The supplied journal is the authority for the inherited bracket and catalogue, not a new audit of the upper construction here.
 
 ## 2. Literal geometric input and complete tree coverage
 
@@ -42,7 +42,7 @@ The true edges are exactly:
 (3,6),(3,7),(4,7),(4,8),(5,8),(6,7),(6,8),(7,8)
 ```
 
-These agree with the literal preserved source. In particular, the ring `(3,4,8,6)` is **not a facet and is not assumed planar**. Integration diagonals are not mechanical escape edges. :contentReference[oaicite:3]{index=3}
+These agree with the literal preserved source. In particular, the ring `(3,4,8,6)` is **not a facet and is not assumed planar**. Integration diagonals are not mechanical escape edges.
 
 Let x_i be centered vertices, M positive definite, N_i=x_i^T M x_i, and suppose exactly one vertex is strictly unstable. At every other vertex choose a true neighbor p(i) with
 
@@ -96,7 +96,7 @@ sum_t f_at d_t X^T chi_t = 0,
 sum_t f_at d_t X^T J_t X = 20 D C.
 ```
 
-The second-moment identity follows from `E(lambda_i lambda_j)=(1+delta_ij)/20` on a uniform tetrahedron. These are identities of the same physical vertices, determinant masses, centroid, covariance and metric. The parent's distinction between full material covariance and between-tetrahedron covariance is retained. No independent row masses, false Loewner comparison, or polar-centroid substitution is used. :contentReference[oaicite:4]{index=4}
+The second-moment identity follows from `E(lambda_i lambda_j)=(1+delta_ij)/20` on a uniform tetrahedron. These are identities of the same physical vertices, determinant masses, centroid, covariance and metric. The parent's distinction between full material covariance and between-tetrahedron covariance is retained. No independent row masses, false Loewner comparison, or polar-centroid substitution is used.
 
 ### 3.2 Exact dual lemma
 
@@ -200,11 +200,11 @@ All 28 checked fan plans give exactly the same D, B and J. In particular, their 
 
 The named immutable parent is `minimum-0023`, advertised SHA-256 `e98bce6278e66a9d3f6c8f0863d55e65cc1a1ebb3c239742c782107c5cc61815`, titled `C32_COMMON_MASS_VARIANCE_KERNEL_V1`. I used its actual-moment results, not its special movable-corner coordinate family as a universal map295 input.
 
-The preserved later `C32_MAP295_ACTUAL_MULTIFAN_ROOT_AND_NINE_TREE_FRONTIER_V1` is treated as source evidence, not as an already immutable cancelled-turn result. Its complete 12022-byte source, every coefficient batch, its 2540458-byte report, and its original exact verification transcript were reconstructed with the stated hashes. The present capsule incorporates that source literally and reruns it, rather than promoting an alias or an unavailable artifact. The journal explicitly distinguishes preserved mathematics from immutable-result insertion. :contentReference[oaicite:5]{index=5}
+The preserved later `C32_MAP295_ACTUAL_MULTIFAN_ROOT_AND_NINE_TREE_FRONTIER_V1` is treated as source evidence, not as an already immutable cancelled-turn result. Its complete 12022-byte source, every coefficient batch, its 2540458-byte report, and its original exact verification transcript were reconstructed with the stated hashes. The present capsule incorporates that source literally and reruns it, rather than promoting an alias or an unavailable artifact. The journal explicitly distinguishes preserved mathematics from immutable-result insertion.
 
-There remains an export-level authentication caveat already identified in the preserved response. The uploaded parent-Markdown suffix has 45639 bytes and SHA-256 `7924c974570cac1f64254eaca90b4a0e7337f58f42cabe4237c62e1a55458e19`, which is not the advertised immutable digest. The cause is not established; I do not silently reconcile them. Its embedded Python source does match 15812 bytes and SHA-256 `dea16976288841caf9361815ab1812525ae8d5681f94f0e344e16f58aa5119aa`, and its exact replay reproduces the reported output. No semantic facet, label, incidence, or parent-array conflict was found. The new theorem depends on the fully displayed lattice and self-contained physical identities, not on recovering that export digest or an inaccessible parent object. :contentReference[oaicite:6]{index=6}
+There remains an export-level authentication caveat already identified in the preserved response. The uploaded parent-Markdown suffix has 45639 bytes and SHA-256 `7924c974570cac1f64254eaca90b4a0e7337f58f42cabe4237c62e1a55458e19`, which is not the advertised immutable digest. The cause is not established; I do not silently reconcile them. Its embedded Python source does match 15812 bytes and SHA-256 `dea16976288841caf9361815ab1812525ae8d5681f94f0e344e16f58aa5119aa`, and its exact replay reproduces the reported output. No semantic facet, label, incidence, or parent-array conflict was found. The new theorem depends on the fully displayed lattice and self-contained physical identities, not on recovering that export digest or an inaccessible parent object.
 
-The external paper by Bozoki, Domokos, Papp and Regos supplies methodological precedent for numerical SDP discovery followed by independent exact inconsistency certificates. Its published seven-vertex result is not substituted for the project's stronger inherited bounds, and historical priority for the shared-tetrahedron/second-moment construction is not asserted. :contentReference[oaicite:7]{index=7}
+The external paper by Bozoki, Domokos, Papp and Regos supplies methodological precedent for numerical SDP discovery followed by independent exact inconsistency certificates. Its published seven-vertex result is not substituted for the project's stronger inherited bounds, and historical priority for the shared-tetrahedron/second-moment construction is not asserted.
 
 ## 7. Complete recovery and observed verification
 
@@ -463,4 +463,4 @@ src=Path(__file__).read_bytes();print('CAPSULE',len(src),hashlib.sha256(src).hex
 
 The reusable next step is the shared-tetrahedron first/second-moment certificate on another complete root frontier, with individually switched actual facet triangulations before adding further arbitrary apices. When exact certificates are genuinely only PSD, use their complete common kernel and the parent's actual-moment eigenspace/Krylov reduction rather than numerical rank estimates. No further map295 bounded samples or alternate-reference-center optimization is needed for this objective.
 
-Supplementary files: [complete frozen exact archive](sandbox:/mnt/data/C32_MAP295_WHOLE_TYPE_ACTUAL_SHARED_MOMENTS_V1.zip) and [readable complete handoff](sandbox:/mnt/data/C32_MAP295_WHOLE_TYPE_ACTUAL_SHARED_MOMENTS_V1.md). The archive is **1125625 bytes**, SHA-256 **ee042bbef4a8b7c38800f3fa188dba8236d19762d0d0cf518f2ffd848f218f0e**. Its twelve-member manifest was verified before and after fresh-extraction exact replay. The separate release replay is 1103 bytes, SHA-256 `1fb6bfa7ff7cc1c18c80b44057ff7b66f4adafac9252b22eff741eb727cdc56c`. The inline proof and complete capsule, not these links, are the continuation authority.
+Supplementary files: complete frozen exact archive (`C32_MAP295_WHOLE_TYPE_ACTUAL_SHARED_MOMENTS_V1.zip`) and readable complete handoff (`C32_MAP295_WHOLE_TYPE_ACTUAL_SHARED_MOMENTS_V1.md`). The archive is **1125625 bytes**, SHA-256 **ee042bbef4a8b7c38800f3fa188dba8236d19762d0d0cf518f2ffd848f218f0e**. Its twelve-member manifest was verified before and after fresh-extraction exact replay. The separate release replay is 1103 bytes, SHA-256 `1fb6bfa7ff7cc1c18c80b44057ff7b66f4adafac9252b22eff741eb727cdc56c`. The inline proof and complete capsule, not these links, are the continuation authority.

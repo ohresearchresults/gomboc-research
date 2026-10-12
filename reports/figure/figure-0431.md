@@ -159,7 +159,7 @@ L=Σ_{i≠8} min(max_{j≠i}(Q_i·Q_j/|Q_i|²−1)−ε,0)².
 
 Контрольные размеры и hashes: Base85 без whitespace72395 символов, SHA-256 96a453b9e7929ff33048d38ed8c2c286202233ee1f77c8c08eb4c12a0e483f4a; XZ57916 байт, SHA-256 b0679735d6605d8f6ebaf1cd96bc2593a53fd2377166093c3c579fd643a41904; распакованный JSON215455 байт, SHA-256 6d81228b5fe22ec6f200f47f5d23e5400d5566bb93df12322a6802c0b3135792. Полный исходный RECOVER_NC21.py74331 байт, SHA-256 c9742864e5dfdb4bdd2d3123de05e37a258eb97edc1610fc391d46bab292ef31.
 
-Дополнительные удобные копии: [скрипт восстановления](sandbox:/mnt/data/RECOVER_NC21.py), [все исходники ZIP](sandbox:/mnt/data/NC21_COMPLETE_SOURCE.zip), [сводная таблица](sandbox:/mnt/data/NC21_TABLE.md). ZIP162944 байта, SHA-256 a54957edb7c49a581eb3ae826c8e324252bef54027c5510dd035f63aef7da18b. Ссылки не являются единственным способом восстановления: полный скрипт находится далее.
+Дополнительные удобные копии: скрипт восстановления (`RECOVER_NC21.py`), все исходники ZIP (`NC21_COMPLETE_SOURCE.zip`), сводная таблица (`NC21_TABLE.md`). ZIP162944 байта, SHA-256 a54957edb7c49a581eb3ae826c8e324252bef54027c5510dd035f63aef7da18b. Ссылки не являются единственным способом восстановления: полный скрипт находится далее.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

@@ -305,15 +305,15 @@ if __name__=='__main__':
 
 The retained files are available at the following previously established paths:
 
-[Completed-discovery small-sector certificate](sandbox:/mnt/data/right_width_v3/work/fast_small/certificate.json)
+Completed-discovery small-sector certificate (`certificate.json`)
 
-[Full-width compiler, locator and recursive checker](sandbox:/mnt/data/right_width_v3/work/fullwidth_fast.py)
+Full-width compiler, locator and recursive checker (`fullwidth_fast.py`)
 
-[Exact integer-lower checker driver](sandbox:/mnt/data/right_width_v3/work/quant_execute.py)
+Exact integer-lower checker driver (`quant_execute.py`)
 
-[Independent geometry, polynomial and physical audit](sandbox:/mnt/data/right_width_v3/work/fullwidth_audit.py)
+Independent geometry, polynomial and physical audit (`fullwidth_audit.py`)
 
-[Original balanced-width native source archive](sandbox:/mnt/data/cut_stack_regular_sector/regular_horizon_sector_v2.zip)
+Original balanced-width native source archive (`regular_horizon_sector_v2.zip`)
 
 The recorded environment was CPython3.13.5, NumPy2.3.5, SciPy1.17.0 and SymPy1.14.0 with `OPENBLAS_NUM_THREADS=1`. There was no random seed. The current source defines all geometry, degrees, margin, tree order, cut tolerances, integer-weight rounding and subdivision rules.
 

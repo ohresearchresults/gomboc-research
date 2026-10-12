@@ -30,7 +30,7 @@ Its recovery was decoded successfully:37 units,221890 bytes, dictionary SHA256
 
 `8bdb8f3ba1705eedd8629e485116cb87f355d470869cd9e3bc420e543b39ca88`.
 
-The starting body is exactly the parent's ROOTFREE_INNER26_G4, not a similarly named H-body:26/72/48, own121, S triangle[7,12,19], U3/12, H1–6, one P9/cut23 bar and no Q bar. The journal preserves this identity and the distinction between its own centre and the earlier nominated point. :contentReference[oaicite:0]{index=0}
+The starting body is exactly the parent's ROOTFREE_INNER26_G4, not a similarly named H-body:26/72/48, own121, S triangle[7,12,19], U3/12, H1–6, one P9/cut23 bar and no Q bar. The journal preserves this identity and the distinction between its own centre and the earlier nominated point.
 
 There is no necessary source gap. The new capsule below contains the complete literal immediate-parent input and all dependencies needed for the new exact bodies; it does not require the originating sandbox or an inaccessible ancestral archive.
 
@@ -325,7 +325,7 @@ SECOND_SUPPORT_PATH_CERTIFICATE.json:1241 bytes
 
 All62 expected receipts are embedded in `EXPECTED60.json`. The decoder strips Base64 whitespace before checking the authoritative decoded-dictionary byte count and SHA; harmless line wrapping of the inline capsule therefore does not alter the recovered data.
 
-Convenience copies: [standalone decoder](sandbox:/mnt/data/RECOVER_INTERFACE60.py) and [complete source, exact audits, original checkpoints and logs](sandbox:/mnt/data/INTERFACE60_HANDOFF.zip). The archive has14373629 bytes, SHA256 `f6122b3807b6affc8090847e441a891802e3a97a673e23793df404f72a2fa2f7`. They supplement, rather than replace, the inline recovery.
+Convenience copies: standalone decoder (`RECOVER_INTERFACE60.py`) and complete source, exact audits, original checkpoints and logs (`INTERFACE60_HANDOFF.zip`). The archive has14373629 bytes, SHA256 `f6122b3807b6affc8090847e441a891802e3a97a673e23793df404f72a2fa2f7`. They supplement, rather than replace, the inline recovery.
 
 ## 8. Most useful continuation
 

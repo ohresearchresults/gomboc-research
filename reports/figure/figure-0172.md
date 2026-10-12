@@ -10,14 +10,14 @@ AI research report · 2026-09-01 UTC · [Export notes](../../catalog/coverage.md
 
 **Exact compact NONWINNER.** No homogeneous convex polyhedron with strict own-centroid `(S,U,H)=(1,1,0)` was found. The useful immutable result is a complete exact advance from `E8A` through the first requested nine-vertex topology, together with a new rigorous obstruction: throughout the certified three-control family there are two persistent strict unstable vertices, so `U>=2` and the winner-cell count is exactly zero.
 
-The shared journal’s prior frontier was the exact dyadic `E8A`, strict `(2,2,2)`, with a `2^-14` coordinate box and a two-control rectangle forced by `S>=2`; the prior one-dimensional `E9A` continuation also retained two unstable witnesses but did not exclude the full nine-vertex realization space. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} This handoff leaves that excluded eight-vertex family: it replaces the whole residual disk by three interacting internal vertices, crosses five actual hull flips, and certifies all resulting incidence cells.
+The shared journal’s prior frontier was the exact dyadic `E8A`, strict `(2,2,2)`, with a `2^-14` coordinate box and a two-control rectangle forced by `S>=2`; the prior one-dimensional `E9A` continuation also retained two unstable witnesses but did not exclude the full nine-vertex realization space. This handoff leaves that excluded eight-vertex family: it replaces the whole residual disk by three interacting internal vertices, crosses five actual hull flips, and certifies all resulting incidence cells.
 
 ## Reproducible artifact
 
-- [Portable exact archive](sandbox:/mnt/data/vivid_quartz_58_E9_prism_nonwinner.zip)
-- [Archive SHA-256](sandbox:/mnt/data/vivid_quartz_58_E9_prism_nonwinner.zip.sha256): `4b785641ce61fe2899a52880fbab8ecfc89d931d85410093786bfd4215a0d58b`
-- [Complete 501-line determination](sandbox:/mnt/data/vivid_quartz_58_result/RESULT.md), containing every exact V/H row, every nonincident support slack, every face/vertex/true-edge margin, every wall, and every open incidence region
-- [README](sandbox:/mnt/data/vivid_quartz_58_result/README.md), [one-command verifier](sandbox:/mnt/data/vivid_quartz_58_result/[internal-source-reference].sh), [67-file manifest](sandbox:/mnt/data/vivid_quartz_58_result/SHA256SUMS)
+- Portable exact archive (`vivid_quartz_58_E9_prism_nonwinner.zip`)
+- Archive SHA-256 (`vivid_quartz_58_E9_prism_nonwinner.zip.sha256`): `4b785641ce61fe2899a52880fbab8ecfc89d931d85410093786bfd4215a0d58b`
+- Complete 501-line determination (`RESULT.md`), containing every exact V/H row, every nonincident support slack, every face/vertex/true-edge margin, every wall, and every open incidence region
+- README (`README.md`), one-command verifier (`[internal-source-reference].sh`), 67-file manifest (`SHA256SUMS`)
 
 ## 1. Full exact `E8A` reconstruction
 
@@ -57,9 +57,9 @@ The verifier checks `M_j=VC_j` exactly and centred first moments `(0,0,0)`. Actu
 
 and all 18 true edges are recorded in the report. The class is strict `(2,2,2)`: stable `[12,13,9]`, `[11,12,10]`; unstable `10`, `12`; saddles `(10,12)`, `(12,13)`. Minimum absolute signed normalized feature margin is `0.0025504040643727723`; minimum normalized nonincidence distance is `0.008118650934125917`. Exact interval arithmetic preserves the entire lattice and class under independent `±2^-14` perturbations of all 24 coordinate entries.
 
-Evidence: [exact report](sandbox:/mnt/data/vivid_quartz_58_result/source_E8A/E8A_exact_report.json), [complete H rows](sandbox:/mnt/data/vivid_quartz_58_result/source_E8A/E8A_H_representation.json), [all normalized margins](sandbox:/mnt/data/vivid_quartz_58_result/source_E8A/E8A_audit.md), [perturbation certificate](sandbox:/mnt/data/vivid_quartz_58_result/source_E8A/E8A_perturbation_certificate.json), [independent verifier](sandbox:/mnt/data/vivid_quartz_58_result/source_E8A/verify_E8_independent.py), [OBJ](sandbox:/mnt/data/vivid_quartz_58_result/source_E8A/E8A_centered.obj), [STL](sandbox:/mnt/data/vivid_quartz_58_result/source_E8A/E8A_centered.stl).
+Evidence: exact report (`E8A_exact_report.json`), complete H rows (`E8A_H_representation.json`), all normalized margins (`E8A_audit.md`), perturbation certificate (`E8A_perturbation_certificate.json`), independent verifier (`verify_E8_independent.py`), OBJ (`E8A_centered.obj`), STL (`E8A_centered.stl`).
 
-The recovered predecessor rectangle is also bundled. It keeps the six boundary vertices fixed and moves only `9,13`; all 60 support polynomials remain strict, and stable faces `[9,12,13]`, `[10,11,12]` force `S>=2`. Its exact mass identity and generator are documented in the prior result. :contentReference[oaicite:2]{index=2} See [exact two-control atlas](sandbox:/mnt/data/vivid_quartz_58_result/source_E8A/E8_two_parameter_exact_atlas.json).
+The recovered predecessor rectangle is also bundled. It keeps the six boundary vertices fixed and moves only `9,13`; all 60 support polynomials remain strict, and stable faces `[9,12,13]`, `[10,11,12]` force `S>=2`. Its exact mass identity and generator are documented in the prior result. See exact two-control atlas (`E8_two_parameter_exact_atlas.json`).
 
 ## 2. Literal residual-disk replacement
 
@@ -79,7 +79,7 @@ Replacement disk with internal vertices `A,B,C` and all three shared central edg
 [B,12,C] [C,12,11] [C,11,1] [C,1,A] [A,B,C]
 ```
 
-Both disks have Euler characteristic one and the same boundary. Disk f-vector changes `(8,15,8)->(9,18,10)`; global f-vector changes `(8,18,12)->(9,21,14)`. [Exact patch certificate](sandbox:/mnt/data/vivid_quartz_58_result/E8A_to_E9B_patch_complex.json).
+Both disks have Euler characteristic one and the same boundary. Disk f-vector changes `(8,15,8)->(9,18,10)`; global f-vector changes `(8,18,12)->(9,21,14)`. Exact patch certificate (`E8A_to_E9B_patch_complex.json`).
 
 ## 3. Exact post-replacement endpoint `E9B`
 
@@ -110,7 +110,7 @@ All exact moments are in the report and satisfy `M=VC`. The actual endpoint has 
 
 Minimum absolute signed normalized feature margin is `0.018827209131856603`; minimum normalized nonincidence distance is `0.019220928596724713`. All 27 coordinate entries may vary independently by `±2^-11` while preserving `(9,21,14)` and `(2,2,2)`. A clean-room Qhull/tetrahedral/Trimesh reconstruction agrees to `3.55e-15` in volume and `2.22e-16` in centroid coordinates; both meshes are watertight and winding-consistent.
 
-Evidence: [exact report with every exact mechanics component](sandbox:/mnt/data/vivid_quartz_58_result/E9B_exact_report.json), [H representation with all nonincident slacks](sandbox:/mnt/data/vivid_quartz_58_result/E9B_H_representation.json), [exhaustive face/vertex/edge audit](sandbox:/mnt/data/vivid_quartz_58_result/E9B_audit.md), [perturbation certificate](sandbox:/mnt/data/vivid_quartz_58_result/E9B_perturbation_certificate.json), [independent report](sandbox:/mnt/data/vivid_quartz_58_result/E9B_independent_verification.json), [OBJ](sandbox:/mnt/data/vivid_quartz_58_result/E9B_centered.obj), [STL](sandbox:/mnt/data/vivid_quartz_58_result/E9B_centered.stl).
+Evidence: exact report with every exact mechanics component (`E9B_exact_report.json`), H representation with all nonincident slacks (`E9B_H_representation.json`), exhaustive face/vertex/edge audit (`E9B_audit.md`), perturbation certificate (`E9B_perturbation_certificate.json`), independent report (`E9B_independent_verification.json`), OBJ (`E9B_centered.obj`), STL (`E9B_centered.stl`).
 
 ## 4. Exact three-control theorem across actual incidence cells
 
@@ -122,7 +122,7 @@ p_i(s,a,b)=diag(a,b,1)Q_i(s)/2^30
 0<=s<=4/5, 4/13<=a,b<=13/4.
 ```
 
-The complete integer matrices `Q0,Q1` are literal in [the family specification](sandbox:/mnt/data/vivid_quartz_58_result/E9_prism_family_spec.json). These are three independent coordinate parameters; `a,b` are positive diagonal affine shape modes, not claimed as arbitrary local vertex controls.
+The complete integer matrices `Q0,Q1` are literal in the family specification (`E9_prism_family_spec.json`). These are three independent coordinate parameters; `a,b` are positive diagonal affine shape modes, not claimed as arbitrary local vertex controls.
 
 Exact enumeration expands all `C(9,4)=126` nonzero circuit polynomials, isolates all 21 simple roots by Sturm arithmetic, reconstructs all 22 circuit-open hulls by exhaustive support tests, and merges them into six actual simplicial incidence regions. Exactly five roots are hull flips:
 
@@ -134,7 +134,7 @@ Exact enumeration expands all `C(9,4)=126` nonzero circuit polynomials, isolates
 [8,A,B,C]: [A,B] -> [8,C]
 ```
 
-Every wall is materialized as 12 common triangles plus one quadrilateral, f-vector `(9,20,13)`, with 20 true edges; no second circuit root coincides. Every wall and every open-region face/edge list is in [the exact certificate](sandbox:/mnt/data/vivid_quartz_58_result/E9_prism_exact_certificate.json) and `RESULT.md`.
+Every wall is materialized as 12 common triangles plus one quadrilateral, f-vector `(9,20,13)`, with 20 true edges; no second circuit root coincides. Every wall and every open-region face/edge list is in the exact certificate (`E9_prism_exact_certificate.json`) and `RESULT.md`.
 
 For each region the certificate stores exact integer polynomials `V6_r(s),N_r,j(s)`. With `D=2^30`,
 
@@ -171,11 +171,11 @@ The route is not overstated: on the larger symmetric box `[2/7,7/2]^2`, at `s=4/
 
 so this persistent-`C` proof genuinely breaks there. It does not imply a winner.
 
-The independent checker sampled 9,139 bodies over the full certified box, reconstructed exactly six simplicial hulls and 63 equilibrium classes, and found no `(1,1,0)`; its minimum persistent-unstable normalized component was `0.004633127627040464`. [Independent family report](sandbox:/mnt/data/vivid_quartz_58_result/E9_prism_independent_verification.json).
+The independent checker sampled 9,139 bodies over the full certified box, reconstructed exactly six simplicial hulls and 63 equilibrium classes, and found no `(1,1,0)`; its minimum persistent-unstable normalized component was `0.004633127627040464`. Independent family report (`E9_prism_independent_verification.json`).
 
 ## 5. Attempts, uncertainty, and next open topology
 
-Transverse searches varied all nine internal coordinates, upper-triangular affine maps, and targeted `(2,1,1)` precursor packets. None produced a valid winner. The best affine runs approached zero only with condition numbers around `2.8e3–3.1e3` and support margins down to about `10^-7`, consistent with collapse toward degeneracy. These are diagnostics only; [search ledger](sandbox:/mnt/data/vivid_quartz_58_result/search_ledger.json).
+Transverse searches varied all nine internal coordinates, upper-triangular affine maps, and targeted `(2,1,1)` precursor packets. None produced a valid winner. The best affine runs approached zero only with condition numbers around `2.8e3–3.1e3` and support margins down to about `10^-7`, consistent with collapse toward degeneracy. These are diagnostics only; search ledger (`search_ledger.json`).
 
 **Proved:** exact `E8A`; literal three-cell disk surgery; exact dyadic `E9B`; all endpoint V/H/incidence/mechanics; positive perturbation boxes; all actual incidence regions and walls of the stated three-control family; exact `U>=2` there.
 
@@ -189,7 +189,7 @@ The first larger explicit fallback has four internal vertices and a central nons
 [A,B,C,D]
 ```
 
-It is materialized but not claimed globally minimal. The prior handoff identified the same explicit fallback after the E9 line. :contentReference[oaicite:3]{index=3} See [next topology certificate](sandbox:/mnt/data/vivid_quartz_58_result/next_open_topology.json).
+It is materialized but not claimed globally minimal. The prior handoff identified the same explicit fallback after the E9 line. See next topology certificate (`next_open_topology.json`).
 
 ## Reusable conclusion
 

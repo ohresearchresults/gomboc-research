@@ -16,7 +16,7 @@ At closeout, the accessible working directory contained the supplied attachments
 
 ## 2. Source authority and a transport discrepancy
 
-I read all three supplied files through EOF, including the embedded canonical parent, and all sixteen decoded source files. The geometric entrance is exactly **VQ20_C622_ROUTE88_118_G12**, assigned parent `figure-0373`; it is not CONDITION25 or C622_HOMOTOPY_POSITIVE. The two scoped recovery parts supply the exact generator and independent auditors. Their stated canonical generator and raw-support identities were reproduced. :contentReference[oaicite:0]{index=0}
+I read all three supplied files through EOF, including the embedded canonical parent, and all sixteen decoded source files. The geometric entrance is exactly **VQ20_C622_ROUTE88_118_G12**, assigned parent `figure-0373`; it is not CONDITION25 or C622_HOMOTOPY_POSITIVE. The two scoped recovery parts supply the exact generator and independent auditors. Their stated canonical generator and raw-support identities were reproduced.
 
 Required exact dependencies remain the two supplied materials:
 
@@ -289,6 +289,6 @@ The following complete manifest covers the exact geometric inputs, both full rep
 
 `SCOUT24.json`: 9297 bytes; SHA-256 `771534c8506e9ef8aa5722bc80ed95f199cf96261914c26c64378f82015650dc`.
 
-A convenience archive contains the selected source dependencies, complete decoded sources, all exact outputs, numerical ledger and decoder: [NF66 complete working package](sandbox:/mnt/data/NF66_MACRO_HANDOFF.zip). Its size is 5,969,282 bytes, SHA-256 `a2fedf5fd5be9bd4a150f0bcad0349955bf2b3cd80c611282689b8f7b69322cc`. The archive is supplementary: the inline capsule plus the two explicitly selected materials suffices for recovery.
+A convenience archive contains the selected source dependencies, complete decoded sources, all exact outputs, numerical ledger and decoder: NF66 complete working package (`NF66_MACRO_HANDOFF.zip`). Its size is 5,969,282 bytes, SHA-256 `a2fedf5fd5be9bd4a150f0bcad0349955bf2b3cd80c611282689b8f7b69322cc`. The archive is supplementary: the inline capsule plus the two explicitly selected materials suffices for recovery.
 
 **Final status:** three durable, exactly audited under-budget macroscopic descendants; 24 completed numerical subset evaluations; no own110 construction, no joint repair result, and no general exclusion.

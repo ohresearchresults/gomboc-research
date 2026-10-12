@@ -18,11 +18,11 @@ The reduction was implemented and checked against the exact parent reports. It a
 
 ## 2. Exact bodies and source authority
 
-The CONDITION25 control is the distinct `COORD_C622_CONDITION25_G12` body, V176/E311/F137, own110/weak000. It is not a renaming of the canonical C622 body. Its complete reconstruction requires all three CONDITION25 source parts. :contentReference[oaicite:0]{index=0}
+The CONDITION25 control is the distinct `COORD_C622_CONDITION25_G12` body, V176/E311/F137, own110/weak000. It is not a renaming of the canonical C622 body. Its complete reconstruction requires all three CONDITION25 source parts.
 
-The first target is exactly `COORD_C620_ALLWITNESS174_G12_OWN132`, V175/E310/F137. At its filled centroid, S is support3, U is raw-lex94/173/174, and H consists of 172–174 and 173–174; weak-only counts are000. :contentReference[oaicite:1]{index=1}
+The first target is exactly `COORD_C620_ALLWITNESS174_G12_OWN132`, V175/E310/F137. At its filled centroid, S is support3, U is raw-lex94/173/174, and H consists of 172–174 and 173–174; weak-only counts are000.
 
-The second target is exactly `COORD_C616_COLLAPSE132_OWN132`, V174/E308/F136. Support84 is redundant. At its filled centroid, S is support3, U is raw-lex94/166/173, and H consists of166–168 and172–173; weak-only counts are000. This is not either old delete99/117 C616own121 body. :contentReference[oaicite:2]{index=2}
+The second target is exactly `COORD_C616_COLLAPSE132_OWN132`, V174/E308/F136. Support84 is redundant. At its filled centroid, S is support3, U is raw-lex94/166/173, and H consists of166–168 and172–173; weak-only counts are000. This is not either old delete99/117 C616own121 body.
 
 The exact report identities used and reproduced are:
 
@@ -34,7 +34,7 @@ The exact report identities used and reproduced are:
 
 Actual replay status in this turn: both independent A/B reports completed and agreed for C620 and C616. CONDITION25 B completed with its expected report hash. A separate fresh-source B reconstruction also reproduced all three report hashes. That fresh reconstruction was interrupted during the third body and its final B invocation was resumed separately. The third centered-mass integrations in the original full audit wrappers did not complete in this turn; their terminal whole-wrapper markers are not claimed here. The parent capsules report their earlier completed A/B/third-mass checks. The newly executed free-reference checks use the exact geometry and centroid in the hash-identified reports.
 
-The prior100-start center search remains only a finite negative observation, with frozen beta−0.03646264655608652 and displacement0.01574467954494654. It is not a global exclusion. :contentReference[oaicite:3]{index=3} The exact own-centered bottleneck certificates likewise do not exclude another reference center; the physical barriers near−0.055759458 and−0.055759573 concern the specified centered bodies. :contentReference[oaicite:4]{index=4}
+The prior100-start center search remains only a finite negative observation, with frozen beta−0.03646264655608652 and displacement0.01574467954494654. It is not a global exclusion. The exact own-centered bottleneck certificates likewise do not exclude another reference center; the physical barriers near−0.055759458 and−0.055759573 concern the specified centered bodies.
 
 Historical library reading was selective, not an exhaustive audit. I read the complete material `[internal-source-reference]`, SHA-256 `9e864723da43fed083af74156fcb2df539db72a6588a1e48a9933949be8b8f33`, through EOF. It concerns the different `COORD_C620_VIRTUAL99_REFERENCE110_OWN60_78_136` body. Its reported exact nearest point belongs to one selected witness cell, with active physical130→144 and polar37→66/133→27 and distance between173199/10^9 and173201/10^9. That result is not an all-cell exclusion and cannot be transferred to either assigned target. No complete historical all-root exclusion for these two targets was recovered in this pass; this is not a claim that no such source exists elsewhere in the history.
 
@@ -291,7 +291,7 @@ The source file is11491 bytes, SHA-256 `88cbab1d3e300fd463076a2cea3398d0667b4fa9
 
 The complete frozen records are inside the inline capsule. Formula generation is deterministic for these exact inputs and timeout setting. RESULT identities also contain the interpreter version and observed solver outcomes, so those identities need not survive a different environment or a differently completed time-limited solve. A future target SAT result printed by this script is a candidate until its rational model is independently passed through the full interior and feature census; a future UNSAT result is not the independently replayable exclusion certificate requested here unless its proof or complete coverage certificate is also preserved.
 
-For convenience, the [supplementary executable bundle](sandbox:/mnt/data/CH03_GLOBAL_REFERENCE_LRA_v1.zip) contains the source, parent material texts, all three exact reports, formulas and frozen records. It is1124004 bytes, SHA-256 `c914cb2258c8c389eb33f1b0c1ddea75e90b8cd78f23e603d6100169a368e290`. The inline source capsule and the named immutable parent reconstruction above remain the durable recovery route; the bundle is not the sole source.
+For convenience, the supplementary executable bundle (`CH03_GLOBAL_REFERENCE_LRA_v1.zip`) contains the source, parent material texts, all three exact reports, formulas and frozen records. It is1124004 bytes, SHA-256 `c914cb2258c8c389eb33f1b0c1ddea75e90b8cd78f23e603d6100169a368e290`. The inline source capsule and the named immutable parent reconstruction above remain the durable recovery route; the bundle is not the sole source.
 
 ## 6. Mass closure and the most useful continuation
 

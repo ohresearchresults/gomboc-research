@@ -8,7 +8,7 @@ AI research report · 2026-08-26 UTC
 
 **No strict homogeneous convex polyhedral Gömböc was found.** The required finite own-centroid class is `(S,U,H)=(1,1,0)`; the strongest exact connected double-Y endpoint is instead a gate-valid `(2,1,1)` body. Two additional exact endpoints expose the attempted cancellation as a sequential Morse-pair transfer and fail the primal inactive-separation gate.
 
-The journal requires an actual uniform-density finite body at its own volume centroid, with complete incidence and strict one-stable/one-unstable/no-saddle mechanics. :contentReference[oaicite:0]{index=0} It identified row `18`, its eleven-row one-ring, and Q edge `(20,23)` as the coupled continuation from the predecessor gate. :contentReference[oaicite:1]{index=1}
+The journal requires an actual uniform-density finite body at its own volume centroid, with complete incidence and strict one-stable/one-unstable/no-saddle mechanics. It identified row `18`, its eleven-row one-ring, and Q edge `(20,23)` as the coupled continuation from the predecessor gate.
 
 ## What was constructed
 
@@ -27,11 +27,11 @@ T_u(q)=q/(1-q·u),  (T_u Q)^polar=Q^polar-u,
 F(u)=centroid((T_u Q)^polar)=c-u,  DF=-I_3.
 ```
 
-Setting `u=c` solves all three first moments identically. Every exact endpoint has first moment `(0,0,0)`, Santaló root `s=0`, positive projective denominators, and a positive tetrahedron containing the origin. For the box `[-2^-80,2^-80]^3`, the exact bounds `max_p 2^-80||p||_1` are `1.84519e-24`, `1.84769e-24`, and `1.84773e-24`, all below `1`; hence the full root box lies in `int(Q)` and polarity is bounded throughout. See [the exact root-box certificate](sandbox:/mnt/data/santalo_double_y/artifact/root_box_boundedness_certificate.json).
+Setting `u=c` solves all three first moments identically. Every exact endpoint has first moment `(0,0,0)`, Santaló root `s=0`, positive projective denominators, and a positive tetrahedron containing the origin. For the box `[-2^-80,2^-80]^3`, the exact bounds `max_p 2^-80||p||_1` are `1.84519e-24`, `1.84769e-24`, and `1.84773e-24`, all below `1`; hence the full root box lies in `int(Q)` and polarity is bounded throughout. See the exact root-box certificate (`root_box_boundedness_certificate.json`).
 
 ## Exact endpoint 1: strongest gate-valid body
 
-[Full exact certificate](sandbox:/mnt/data/santalo_double_y/artifact/double_y_gate_safe_exact.json)
+Full exact certificate (`double_y_gate_safe_exact.json`)
 
 - Q/P f-vectors: Q `(28,78,52)`, P `(52,78,28)`; all 28 Q rows are extreme.
 - Exact own-centroid class: `(2,1,1)`.
@@ -45,11 +45,11 @@ Setting `u=c` solves all three first moments identically. Every exact endpoint h
 
 The old saddle `(20,23)` is gone, but it has transferred to `(23,27)`; stable row `18` has transferred to row `1`. This is an open strict nonwinner.
 
-Meshes: [P OBJ](sandbox:/mnt/data/santalo_double_y/artifact/double_y_gate_safe_P.obj), [P STL](sandbox:/mnt/data/santalo_double_y/artifact/double_y_gate_safe_P.stl), [Q OBJ](sandbox:/mnt/data/santalo_double_y/artifact/double_y_gate_safe_Q.obj), [Q STL](sandbox:/mnt/data/santalo_double_y/artifact/double_y_gate_safe_Q.stl).
+Meshes: P OBJ (`double_y_gate_safe_P.obj`), P STL (`double_y_gate_safe_P.stl`), Q OBJ (`double_y_gate_safe_Q.obj`), Q STL (`double_y_gate_safe_Q.stl`).
 
 ## Exact endpoint 2: three-node transfer cell
 
-[Full exact certificate](sandbox:/mnt/data/santalo_double_y/artifact/double_y_near_transition_exact.json)
+Full exact certificate (`double_y_near_transition_exact.json`)
 
 - Q/P f-vectors: Q `(28,78,52)`, P `(52,78,28)`.
 - Exact class `(2,2,2)`.
@@ -64,7 +64,7 @@ This exact body exposes one extra unstable vertex joining two genuine saddle edg
 
 ## Exact endpoint 3: five-node frontier
 
-[Full exact certificate](sandbox:/mnt/data/santalo_double_y/artifact/double_y_five_node_frontier_exact.json)
+Full exact certificate (`double_y_five_node_frontier_exact.json`)
 
 Two further lower-branch rows `28,29` were inserted and optimized jointly. The exact result has Q `(30,84,56)`, P `(56,84,30)`, class `(2,2,2)`, protected margins `0.9682446922303948` and `0.6436812659477315`, residual stable margin `2.1299111893263773e-5`, extra unstable margin `1.6535417387840118e-5`, and saddles `(23,27)` and `(23,29)`.
 
@@ -80,7 +80,7 @@ Repeated stellar subdivision therefore approaches an incidence wall faster than 
 
 ## Circuit and Morse map
 
-[Complete exact circuit map](sandbox:/mnt/data/santalo_double_y/artifact/branch_circuit_map.json)
+Complete exact circuit map (`branch_circuit_map.json`)
 
 The scalar insertion path crosses fourteen exact rational four-row circuits, with row sets and approximate thresholds:
 
@@ -114,7 +114,7 @@ with short intermediate `(3,1,2)` and `(2,2,2)` pair-birth cells.
 
 ## Structural obstruction
 
-[Local witness Jacobian](sandbox:/mnt/data/santalo_double_y/artifact/local_transfer_jacobian.json) shows that the gradients of saddles `(23,25)` and `(23,27)` are nearly exact negatives. Local LP and direct searches found no direction making the residual stable witness, both saddle witnesses, and the extra unstable witness simultaneously negative while preserving the row-17 and vertex-7 barriers. Suppressing either outgoing saddle strengthens the other.
+Local witness Jacobian (`local_transfer_jacobian.json`) shows that the gradients of saddles `(23,25)` and `(23,27)` are nearly exact negatives. Local LP and direct searches found no direction making the residual stable witness, both saddle witnesses, and the extra unstable witness simultaneously negative while preserving the row-17 and vertex-7 barriers. Suppressing either outgoing saddle strengthens the other.
 
 Deletion/deactivation scans transfer the stable feature to row `1`; larger lower deletions transfer the saddle to another neighboring edge. Great-circle and bifurcated radial-ascent rails with 12–32 segments can witness against row `1`, but create multiple additional unstable-saddle pairs near protected row `17`. Three-, four-, and five-node stellar continuations improve residual magnitudes while destroying primal incidence separation.
 
@@ -132,20 +132,20 @@ Current exact-record hashes match stored PASS reports:
 d255e4e91a9835bea440e0a1b3d2595b84e470f77a438ce5c14b6a66fc58604f  five-node
 ```
 
-- [Full-triple exact verifier](sandbox:/mnt/data/santalo_double_y/artifact/verify_double_y_independent.py) independently enumerates every polar triple for the 28-row objects.
-- [Exact-support verifier](sandbox:/mnt/data/santalo_double_y/artifact/verify_double_y_support_independent.py) uses an independent facet proposal followed by exact support/nonincidence, closed-sphere, Euler, connectivity, centroid, gauge, lattice, and complete mechanics checks.
-- [Integrity and mesh audit](sandbox:/mnt/data/santalo_double_y/artifact/verification_integrity_check.json).
-- PASS reports: [gate-safe](sandbox:/mnt/data/santalo_double_y/artifact/independent_verification_double_y_gate_safe_exact.json), [near-transition](sandbox:/mnt/data/santalo_double_y/artifact/independent_verification_double_y_near_transition_exact.json), [five-node](sandbox:/mnt/data/santalo_double_y/artifact/independent_verification_double_y_five_node_frontier_exact.json).
+- Full-triple exact verifier (`verify_double_y_independent.py`) independently enumerates every polar triple for the 28-row objects.
+- Exact-support verifier (`verify_double_y_support_independent.py`) uses an independent facet proposal followed by exact support/nonincidence, closed-sphere, Euler, connectivity, centroid, gauge, lattice, and complete mechanics checks.
+- Integrity and mesh audit (`verification_integrity_check.json`).
+- PASS reports: gate-safe (`independent_verification_double_y_gate_safe_exact.json`), near-transition (`independent_verification_double_y_near_transition_exact.json`), five-node (`independent_verification_double_y_five_node_frontier_exact.json`).
 
 Every maximal face, true edge, vertex, incidence/nonincidence, stable projection, vertex full normal cone, and edge segment/two-normal cone is stored and audited. No perturbation radius is claimed because no winner exists; the gate-safe nonwinner nevertheless lies in an exact open `(2,1,1)` chamber.
 
 ## Reproducible archive
 
-- [README](sandbox:/mnt/data/santalo_double_y/artifact/README.md)
-- [Certificate summary](sandbox:/mnt/data/santalo_double_y/artifact/certificate_summary.json)
-- [Manifest](sandbox:/mnt/data/santalo_double_y/artifact/MANIFEST.json)
-- [SHA256SUMS](sandbox:/mnt/data/santalo_double_y/artifact/SHA256SUMS)
-- [Complete archive](sandbox:/mnt/data/santalo_double_y_result.zip)
+- README (`README.md`)
+- Certificate summary (`certificate_summary.json`)
+- Manifest (`MANIFEST.json`)
+- SHA256SUMS
+- Complete archive (`santalo_double_y_result.zip`)
 
 Archive SHA-256:
 

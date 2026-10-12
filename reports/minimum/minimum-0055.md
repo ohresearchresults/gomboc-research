@@ -432,4 +432,4 @@ for name,p in DATA.items():pin(Path(name).read_bytes(),p)
 sys.stdout.buffer.write(b'VIVID_UNRESTRICTED_COMPLETE_RECOVERY_PASS\n')
 ```
 
-Expanded proof copy: [vivid_unrestricted_result.md](sandbox:/workspace/scratch/fb3926fc1efb/vivid_unrestricted_result.md). Standalone source: [recover_vivid_unrestricted.py](sandbox:/workspace/scratch/fb3926fc1efb/recover_vivid_unrestricted.py). The complete literal recovery above needs neither link.
+Expanded proof copy: vivid_unrestricted_result.md. Standalone source: recover_vivid_unrestricted.py. The complete literal recovery above needs neither link.

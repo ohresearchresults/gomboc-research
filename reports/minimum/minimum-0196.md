@@ -24,13 +24,13 @@ For λ>1, write ρ=κ/t and W=t+s. Three complete, overlapping domains finish th
 
 Every positive parameter is included: first separateλ≤1; otherwise either ρ≤7/5, or ρ>7/5 and W lies on one side of7/100. **B needs the literal fullgraph theorem; A/C need only their three indicated arrows.** No tree-containment theorem is inferred from B.
 
-This is a full unbounded three-parameter actual-body theorem, not a collar aroundλ=2. It is **not** an all-orientation110 exclusion, a whole-incidence exclusion, or a canonical-count reduction. The accepted interval34≤C_min≤622 and all registers remain unchanged. :contentReference[oaicite:0]{index=0}
+This is a full unbounded three-parameter actual-body theorem, not a collar aroundλ=2. It is **not** an all-orientation110 exclusion, a whole-incidence exclusion, or a canonical-count reduction. The accepted interval34≤C_min≤622 and all registers remain unchanged.
 
 ## 2. Exact authority, construction and labels
 
-The immutable continuation parent is `minimum-0193`, SHA-256 `7331bfed675703cd64d0360fad8dd5462f2bc0c8b40034a9717b6f3d67a4bb17`. Its complete payload is present in the current journal. The prior result closesλ=2 but explicitly leaves independent lower-height freedom and all-orientation questions separate. :contentReference[oaicite:1]{index=1}
+The immutable continuation parent is `minimum-0193`, SHA-256 `7331bfed675703cd64d0360fad8dd5462f2bc0c8b40034a9717b6f3d67a4bb17`. Its complete payload is present in the current journal. The prior result closesλ=2 but explicitly leaves independent lower-height freedom and all-orientation questions separate.
 
-The literal general `double_stack` constructor supplies the independent lower height; this is not obtained by guessing which occurrences of2t to replace in a vertex array. Fix its r_base=1/2,alpha=gamma=1/10,e=t²,upper height=t,lower height=s. :contentReference[oaicite:2]{index=2}
+The literal general `double_stack` constructor supplies the independent lower height; this is not obtained by guessing which occurrences of2t to replace in a vertex array. Fix its r_base=1/2,alpha=gamma=1/10,e=t²,upper height=t,lower height=s.
 
 In original raw plane order0,…,8, the normals and constants are exactly `planes(t,s)` in the recovery source. The positive projectivity is unchanged:
 
@@ -43,7 +43,7 @@ FULL_ORDER=(2,4,8,5,3,0,1,7,6), and
 
 TREE=((1,0),(2,1),(3,2),(4,3),(5,4),(6,5),(7,0),(8,7)).
 
-FULL253 means the complete nonnegative ordered pole-pair graph consists of these eight arrows, with the selected arrows on true adjacent facets. Merely containing TREE with extra nonnegative shadows is a different premise. The accepted input FULL253⇒Λ05+Λ06>51/25 comes from `minimum-0069`, SHA-256 `d0f91982420a008eef0bc169a4c7b9f999710361057096a930facbf9715942ff`; its208-block concentration proof is not claimed freshly replayed here. :contentReference[oaicite:3]{index=3}
+FULL253 means the complete nonnegative ordered pole-pair graph consists of these eight arrows, with the selected arrows on true adjacent facets. Merely containing TREE with extra nonnegative shadows is a different premise. The accepted input FULL253⇒Λ05+Λ06>51/25 comes from `minimum-0069`, SHA-256 `d0f91982420a008eef0bc169a4c7b9f999710361057096a930facbf9715942ff`; its208-block concentration proof is not claimed freshly replayed here.
 
 The prior limitation concerning the journal token“orbit(1,)” is retained: no unprovided canonical-orbit identification is invented. All claims below use the explicit labelled construction.
 
@@ -309,7 +309,7 @@ These trace lines need not be mechanical edges; no such incidence is assumed. Si
 
 The strongest reusable mechanism is the actual support-ratio/apex-fan lemma, together with the exact incidence-wall circuit. The full-family coverage additionally needs the actual moment coupling in its three global polynomial certificates. No shape-independent universalG6 inequality is asserted.
 
-The broader problems remain: other realizations of either incidence chamber; all-orientation110 on these bodies; other FULL253 incidences; and the globalE17 layer. The separate implication from strict F0 stability plus65,54,21 is not settled here; the earlier λ=2 own244/323 controls retain their original meanings. :contentReference[oaicite:4]{index=4} The natural next actual construction parameter is **independent e>0 instead ofe=t²**, with the same two heights and genuine refill. That changes the remaining roof-bevel shape relation; it requires a fresh incidence and actual-centroid analysis. Repeating searches over the now-covered positive(t,κ,λ) family is not the outstanding FULL253 question.
+The broader problems remain: other realizations of either incidence chamber; all-orientation110 on these bodies; other FULL253 incidences; and the globalE17 layer. The separate implication from strict F0 stability plus65,54,21 is not settled here; the earlier λ=2 own244/323 controls retain their original meanings. The natural next actual construction parameter is **independent e>0 instead ofe=t²**, with the same two heights and genuine refill. That changes the remaining roof-bevel shape relation; it requires a fresh incidence and actual-centroid analysis. Repeating searches over the now-covered positive(t,κ,λ) family is not the outstanding FULL253 question.
 
 ## 9. Recovery and observed verification
 
@@ -333,7 +333,7 @@ Generated full report:6087741 bytes, SHA-256 `7142b6ba576668831830cd09c927c9dfcb
 
 The normal build and check completed. A fresh directory initially contained only the final source; its build and check also completed with exit0, the terminal marker, and matching source/report pins. The exact control computations and lattice/identity checks were additionally run separately. This is observed author-side exact execution, not a coordinator replay or proof-assistant formalization.
 
-Convenience copies: [complete source](sandbox:/mnt/data/lynx54_v3/height_full253.py), [full exact report](sandbox:/mnt/data/lynx54_v3/height_full253_report.json), [observed replay receipts](sandbox:/mnt/data/lynx54_v3/replay_receipts.json). The literal source below is the durable recovery capsule.
+Convenience copies: complete source (`height_full253.py`), full exact report (`height_full253_report.json`), observed replay receipts (`replay_receipts.json`). The literal source below is the durable recovery capsule.
 
 ```python
 """DOUBLESTACK_ALL_INDEPENDENT_HEIGHTS_FULL253_V1.

@@ -14,7 +14,7 @@ Assignment: `figure-0403`.
 
 One unwanted unstable equilibrium and its saddle are actually absent in the exact endpoint. The remaining pair has a substantial normalized escape deficit; the theorem explains why changing tiny contacts or root identities alone cannot settle it inside the certified neighborhood.
 
-The starting object is exactly `COORD_C616_COLLAPSE132_OWN132`, not an old delete99/117 body: V174/E308/F136, S=input3, U=raw-lex94/166/173, H=166–168 and172–173, support84 redundant. Its supplied deterministic patch and exact identities were reconstructed and replayed. :contentReference[oaicite:0]{index=0} The parent generator is11939 bytes, SHA256 `4eb48034bf6d6d429c593977bee2b934759ba2c3a22865788880d4e18741720a`; its A/B report is312051 bytes, SHA256 `ba4bd93b8fade753cea37dc5a7b36f030fc2d55127fb7c043e01893f4ff94eb9`.
+The starting object is exactly `COORD_C616_COLLAPSE132_OWN132`, not an old delete99/117 body: V174/E308/F136, S=input3, U=raw-lex94/166/173, H=166–168 and172–173, support84 redundant. Its supplied deterministic patch and exact identities were reconstructed and replayed. The parent generator is11939 bytes, SHA256 `4eb48034bf6d6d429c593977bee2b934759ba2c3a22865788880d4e18741720a`; its A/B report is312051 bytes, SHA256 `ba4bd93b8fade753cea37dc5a7b36f030fc2d55127fb7c043e01893f4ff94eb9`.
 
 All exact objects below are defined by complete rational contact inputs, not optimizer trajectories. The self-contained capsule in section7 contains every necessary parent coordinate, generator, auditor, numerical producer, exact patch, and expected receipt. No prior sandbox or external Library dependency is required for its exact replay.
 
@@ -81,7 +81,7 @@ The complete rational patches, all nondefault deltas, all frozen repaired genera
 
 ## 4. Topology-unrestricted Hausdorff persistence theorem
 
-The supplied predecessor certificate treated fixed-body SPD metric perturbations and disjoint vertex traps. It did not exclude nonaffine shape changes. :contentReference[oaicite:1]{index=1} The following result permits arbitrary changes of vertices, facets, edges, incidences, and unstable-vertex identities, while recomputing the perturbed body's own filled centroid.
+The supplied predecessor certificate treated fixed-body SPD metric perturbations and disjoint vertex traps. It did not exclude nonaffine shape changes. The following result permits arbitrary changes of vertices, facets, edges, incidences, and unstable-vertex identities, while recomputing the perturbed body's own filled centroid.
 
 **Executed conclusion for the original centered COLLAPSE132 body K:** every convex polytope L with Euclidean Hausdorff distance `d_H(K,L) <= 7/20000` has at least two strict unstable equilibria relative to L's own uniform-volume centroid.
 
@@ -739,6 +739,6 @@ ldNw*lVhv$00El+0?dRClkq1%vBYQl0ssI200dcD
 
 ## Supplemental files
 
-The in-message capsule above is the recovery authority. Convenience copies and observed reports are available in the [complete source and exact audit bundle](sandbox:/mnt/data/BH26_EXACT_FRONTIER_HANDOFF.zip), [standalone encoded capsule](sandbox:/mnt/data/bh26/BH26_CAPSULE.b85), [decoder](sandbox:/mnt/data/bh26/RECOVER_BH26.py), and [complete Markdown handoff](sandbox:/mnt/data/BH26_RESULT.md).
+The in-message capsule above is the recovery authority. Convenience copies and observed reports are available in the complete source and exact audit bundle (`BH26_EXACT_FRONTIER_HANDOFF.zip`), standalone encoded capsule (`BH26_CAPSULE.b85`), decoder (`RECOVER_BH26.py`), and complete Markdown handoff (`BH26_RESULT.md`).
 
 **Final disposition:** exact first-pair cancellation and nine useful reconstructible own121 bodies; rigorous local own-mass/topology-free obstruction; no own110 body and no global exclusion claimed.

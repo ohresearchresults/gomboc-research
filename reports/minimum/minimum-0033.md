@@ -18,9 +18,9 @@ Thus the proposed shortcut “the obtuse terminal facet must itself contain a co
 
 ### Authority
 
-The literal direct parent is `minimum-0032`, SHA-256 `3c4347c3beb52ca549da23ff0b0eb42a85251a52c2a920bbf1deb68b4b73fe4d`. I retain its analytic lemma and its honestly conditional recovery status. The lead's later, distinct result completed both numerical reconstruction and independent frozen verification and accepted the universal285/omitted0567 reduction. It is that later result—not a relabelled parent—that makes the terminal lemma necessary for every actual nine-vertex U1 candidate. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The literal direct parent is `minimum-0032`, SHA-256 `3c4347c3beb52ca549da23ff0b0eb42a85251a52c2a920bbf1deb68b4b73fe4d`. I retain its analytic lemma and its honestly conditional recovery status. The lead's later, distinct result completed both numerical reconstruction and independent frozen verification and accepted the universal285/omitted0567 reduction. It is that later result—not a relabelled parent—that makes the terminal lemma necessary for every actual nine-vertex U1 candidate.
 
-The imported checkpoint is `recover_quad10.py`, 24,289 bytes, SHA-256 `fc6fb7a3b0fd6e44fa4e69145e38453d131136e34cbe1cd9033e27791954f5f2`, including the journal's explicit transcription repair. Its universal coefficient file is 1,289,123 bytes, SHA-256 `3a00b679c994255debd3acbe5d3230e336d1e292b9cf88507dc1d2c61fc94496`. I did not repeat that numerical recovery. The new control below needs neither file as a reconstruction input. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+The imported checkpoint is `recover_quad10.py`, 24,289 bytes, SHA-256 `fc6fb7a3b0fd6e44fa4e69145e38453d131136e34cbe1cd9033e27791954f5f2`, including the journal's explicit transcription repair. Its universal coefficient file is 1,289,123 bytes, SHA-256 `3a00b679c994255debd3acbe5d3230e336d1e292b9cf88507dc1d2c61fc94496`. I did not repeat that numerical recovery. The new control below needs neither file as a reconstruction input.
 
 ## 2. Sharp terminal-facet geometry
 
@@ -28,7 +28,7 @@ Write `D_ij=⟨x_i,x_j−x_i⟩_M`. The accepted reduction supplies
 
 `T=(0,0,1,2,3,4,5,6,0)`,
 
-with true terminal triangular maximal facet567, `D65≥0`, `D76≥0`, and `D75<0`. The last inequality is essential: replacing `7→6` by the actual edge `7→5` would give a different, excluded rooted-tree shape. Index278 is the rooted-tree index, not canonical C32 type278. :contentReference[oaicite:4]{index=4}
+with true terminal triangular maximal facet567, `D65≥0`, `D76≥0`, and `D75<0`. The last inequality is essential: replacing `7→6` by the actual edge `7→5` would give a different, excluded rooted-tree shape. Index278 is the rooted-tree index, not canonical C32 type278.
 
 ### 2.1 Complete local normal form, including weak equalities
 
@@ -326,7 +326,7 @@ Observed full-replay transcript:
 
 The separately executed frozen check reproduced the last eight lines and its pinned report. The source and report identities remained unchanged after both executions. This is an independently checked computer-assisted physical control, not proof-assistant formalization or external peer review.
 
-Supplementary [complete bundle, including readable sources and transcripts](sandbox:/mnt/data/NOVA24_terminal_geometry_control.zip). It is a convenience; the complete reconstruction source follows inline.
+Supplementary complete bundle, including readable sources and transcripts (`NOVA24_terminal_geometry_control.zip`). It is a convenience; the complete reconstruction source follows inline.
 
 ## 7. Complete literal recovery capsule
 

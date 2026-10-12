@@ -239,7 +239,7 @@ W51_SUPPLEMENTARY_EXACT_PASS 2792 3d19f03fabfa9df3d33f9340e625b7c1298c4c831eb40b
 
 The decoder contains82 complete files totaling166367 decoded file bytes. Its source is61061 bytes, SHA256 `9cad65f5688d803d536d995be50f2ae475c7d53d5791f960a72b027f9dbfb577`; the171845-byte source dictionary has SHA256 `ce7c3f1ad9ce6d5696792ac9fd6ad791c37c39dbb5442783e9413477c1eea559`. Every nonmanifest source/input is bound by `SOURCE51_MANIFEST.json`. Full producing source, exact row arrays, trees and critical pins are present; no external research archive is needed.
 
-Convenience copies: [recovery source](sandbox:/mnt/data/RECOVER_W51.py), [source archive](sandbox:/mnt/data/W51_SOURCE.zip), [observed exact audits and numerical ledgers](sandbox:/mnt/data/W51_OBSERVED_AUDITS_AND_LEDGERS.zip). They supplement, rather than replace, the inline capsule.
+Convenience copies: recovery source (`RECOVER_W51.py`), source archive (`W51_SOURCE.zip`), observed exact audits and numerical ledgers (`W51_OBSERVED_AUDITS_AND_LEDGERS.zip`). They supplement, rather than replace, the inline capsule.
 
 ```python
 """Self-contained W51 exact bodies, auditors, certificates and producing sources.

@@ -37,7 +37,7 @@ There is also a complete bijective projective reduction of the remaining positiv
 
 Read the entire new `research-journal(20260919-130619).md` through EOF, all 1943 logical lines, including the full literal parent and its complete encoded source. It is 314533 bytes, SHA256 `aebfa1519f145d360785afa8ba4df11717a6c604a888511f9b6de39d2b106ea9`. Truncated display windows were filled consecutively; no part of the new journal is being treated as read from a preview. The earlier unchanged journal and result remain the same-chat context; their completed reading was not restarted.
 
-The literal authority is `minimum-0108`, immutable envelope SHA256 `9d2258a0428a16c3385c0eef316795821c6d613f5191ecd44257927d51393770`, UNRESTRICTED_TRIANGLE_TRACE_TWO_ENDPOINT_CHAMBERS_V1. Its small-c/d conclusions and its distinction between actual and formal controls are retained unchanged. No scientific conflict with that payload was found. :contentReference[oaicite:0]{index=0}
+The literal authority is `minimum-0108`, immutable envelope SHA256 `9d2258a0428a16c3385c0eef316795821c6d613f5191ecd44257927d51393770`, UNRESTRICTED_TRIANGLE_TRACE_TWO_ENDPOINT_CHAMBERS_V1. Its small-c/d conclusions and its distinction between actual and formal controls are retained unchanged. No scientific conflict with that payload was found.
 
 The parent's source-only extraction was authenticated and both complete source units were read: `endpoint_chambers_exact.py`, 9960 bytes, SHA `43a04827cc017d9acb19c734914129739d3833c91272f9d13256522a89fa4692`; `section_trace_exact.py`, 16575 bytes, SHA `b93e8851742110527b2c53d1d692e08f1e0b6c4b68fc1ede51748450144e7d48`. Extraction is not a new replay of the parent's certificates. The new recovery reproduces the needed hull/fan primitives in full and imports no parent file.
 
@@ -51,7 +51,7 @@ T>=51/25 implies t<45/7;
 T>=2 implies t<25/3.
 ```
 
-These are accepted mathematical inputs, not newly inferred from sampled controls. Their original older full source units were not supplied separately here, so no new computational replay of those lemmas is claimed. The volume and x/y/s bounds are recorded in the branch memory; the height corridor is recorded with its original endpoint-corridor authority. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} The improved quadratic cone additionally uses the accepted physical single-facet boundary bound c3<10/9, whose analytic proof and normalization are in the delivered common memory. :contentReference[oaicite:3]{index=3} Neither new floor certificate uses the old 393-cell free-prism program or the parent's 19-cell endpoint program.
+These are accepted mathematical inputs, not newly inferred from sampled controls. Their original older full source units were not supplied separately here, so no new computational replay of those lemmas is claimed. The volume and x/y/s bounds are recorded in the branch memory; the height corridor is recorded with its original endpoint-corridor authority. The improved quadratic cone additionally uses the accepted physical single-facet boundary bound c3<10/9, whose analytic proof and normalization are in the delivered common memory. Neither new floor certificate uses the old 393-cell free-prism program or the parent's 19-cell endpoint program.
 
 ## 3. One actual geometry and two exact deficit identities
 
@@ -503,7 +503,7 @@ Actual terminal markers:
 
 These receipts certify the stated finite algebra, complete closed-cell cover and exact physical constructions. They are not proof-assistant formalization of the accepted geometric premises or a universal theorem derived from the number of controls.
 
-Convenience copies: [recovery source](sandbox:/mnt/data/recover_large_endpoint.py), [complete floor certificate](sandbox:/mnt/data/large_endpoint_cold/floor_cert.json), [complete physical geometries and weighted integrals](sandbox:/mnt/data/large_endpoint_cold/large_endpoint_geometry.json). None is required in addition to the full source capsule below.
+Convenience copies: recovery source (`recover_large_endpoint.py`), complete floor certificate (`floor_cert.json`), complete physical geometries and weighted integrals (`large_endpoint_geometry.json`). None is required in addition to the full source capsule below.
 
 ### Complete autonomous source capsule
 

@@ -6,7 +6,7 @@ AI research report · 2026-09-01 UTC · [Export notes](../../catalog/coverage.md
 
 # Nimble Comet 70 — wall-242 post-replacement determination
 
-The current durable journal identifies the accepted source as the exact own-centred 19-vertex wall-242 endpoint of class `(2,2,2)` and explicitly assigns the next step as one connected cross-linked edge-sharing 2-/3-cell replacement of its complete four-feature block. :contentReference[oaicite:0]{index=0}
+The current durable journal identifies the accepted source as the exact own-centred 19-vertex wall-242 endpoint of class `(2,2,2)` and explicitly assigns the next step as one connected cross-linked edge-sharing 2-/3-cell replacement of its complete four-feature block.
 
 ## Literal verdict
 
@@ -250,24 +250,24 @@ Its exact forced edge `[2732,3296]` proves `U>=2` throughout the current externa
 
 ## Portable artifact index
 
-- [Complete exact post-replacement bundle](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER.zip) — SHA-256 `0a7a7ade6e80bc4254efe2194039986680d88fc595ef54eff80a36db6d7f103a`.
-- [Standalone report](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/REPORT.md)
-- [Machine-readable candidate](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/candidate.json)
-- [Deterministic exact generator](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/scripts/generate_candidate.py)
-- [Primary exact verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/scripts/verify_exact.py)
-- [Independent clean-room verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/scripts/verify_independent.py)
-- [Own-centroid interval-box verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/scripts/verify_interval_own_centroid.py)
-- [Complete centred V-data](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/data/wall242_postreplacement16_exact_V_exact.csv)
-- [Complete irredundant H-data](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/data/wall242_postreplacement16_exact_H_irredundant.csv)
-- [All maximal faces](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/data/wall242_postreplacement16_exact_faces.csv)
-- [All true edges and full four-component cones](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/data/wall242_postreplacement16_exact_true_edges_full_cones.csv)
-- [Exact centroid and mechanics audit](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/data/wall242_postreplacement16_exact_exact_audit.json)
-- [Forced-edge obstruction certificate](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/certificates/forced_edge_obstruction.json)
-- [Replacement topology certificate](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/certificates/replacement_topology_certificate.json)
-- [Perturbation certificate](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [OBJ mesh](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/mesh/body.obj)
-- [STL mesh](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/mesh/body.stl)
-- [Combined verification transcript](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/RUN_ALL_VERIFIERS.txt)
-- [Fresh-extraction verification transcript](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER_FRESH_VERIFY.txt) — SHA-256 `820b97b5179105ce952a6214bedd7cd776286f42f4968f7c54ed736301c21792`.
-- [SHA-256 manifest](sandbox:/mnt/data/Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER/SHA256SUMS.txt)
-- [Accepted 19-vertex parent archive](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff.zip) — SHA-256 `fe92046adee61f4d6e706d541df55c387b38933119c5aa81997b954369747ee9`.
+- Complete exact post-replacement bundle (`Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER.zip`) — SHA-256 `0a7a7ade6e80bc4254efe2194039986680d88fc595ef54eff80a36db6d7f103a`.
+- Standalone report (`REPORT.md`)
+- Machine-readable candidate (`candidate.json`)
+- Deterministic exact generator (`generate_candidate.py`)
+- Primary exact verifier (`verify_exact.py`)
+- Independent clean-room verifier (`verify_independent.py`)
+- Own-centroid interval-box verifier (`verify_interval_own_centroid.py`)
+- Complete centred V-data (`wall242_postreplacement16_exact_V_exact.csv`)
+- Complete irredundant H-data (`wall242_postreplacement16_exact_H_irredundant.csv`)
+- All maximal faces (`wall242_postreplacement16_exact_faces.csv`)
+- All true edges and full four-component cones (`wall242_postreplacement16_exact_true_edges_full_cones.csv`)
+- Exact centroid and mechanics audit (`wall242_postreplacement16_exact_exact_audit.json`)
+- Forced-edge obstruction certificate (`forced_edge_obstruction.json`)
+- Replacement topology certificate (`replacement_topology_certificate.json`)
+- Perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- OBJ mesh (`body.obj`)
+- STL mesh (`body.stl`)
+- Combined verification transcript (`RUN_ALL_VERIFIERS.txt`)
+- Fresh-extraction verification transcript (`Nimble_Comet_70_wall242_postreplacement_exact_NONWINNER_FRESH_VERIFY.txt`) — SHA-256 `820b97b5179105ce952a6214bedd7cd776286f42f4968f7c54ed736301c21792`.
+- SHA-256 manifest (`SHA256SUMS.txt`)
+- Accepted 19-vertex parent archive (`rapid_maple42_wall242_handoff.zip`) — SHA-256 `fe92046adee61f4d6e706d541df55c387b38933119c5aa81997b954369747ee9`.

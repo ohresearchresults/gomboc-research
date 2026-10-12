@@ -22,7 +22,7 @@ Thus −(19/60)Q is not contained in Q. Since 19/60<1/3 and 0∈Q, containment �
 
 This is an all-shape theorem. Selected arrows may be weak, all equality walls of the necessary scalar inequalities are included, and no equal-turn, tight-arrow, fixed-radius, uniform-area-centroid or prescribed polygon-family assumption is made. A fixed planar SPD can be absorbed by a linear isometry before the Euclidean normalization, so the corresponding common-planar-metric statement follows as well.
 
-The parent’s ≤6-corner result and the coordinator’s separate 4+2 obstruction are inputs to the broader branch context, not substitutes for this endpoint proof. The only seven-corner branch form left by their combination with the present result is **5+1**, up to reflection. No all-seven-corner theorem, actual 3D lift, 110 attainer, or changed complexity bound is asserted. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The parent’s ≤6-corner result and the coordinator’s separate 4+2 obstruction are inputs to the broader branch context, not substitutes for this endpoint proof. The only seven-corner branch form left by their combination with the present result is **5+1**, up to reflection. No all-seven-corner theorem, actual 3D lift, 110 attainer, or changed complexity bound is asserted.
 
 ## 2. Source identity and proof organization
 
@@ -65,7 +65,7 @@ For any contiguous m-step chain, concavity of logcos gives a radius ratio at mos
 (q1)x≥0,  (q2)x≥−1/8,  (q3)x≥−1/4.
 ```
 
-They follow by maximizing (−cosθ)cos^m(θ/m) where cosθ<0; its maximum is cos^(m+1)(π/(m+1)). This is the inherited radial-chain calculation, also valid for weak arrows. :contentReference[oaicite:2]{index=2}
+They follow by maximizing (−cosθ)cos^m(θ/m) where cosθ<0; its maximum is cos^(m+1)(π/(m+1)). This is the inherited radial-chain calculation, also valid for weak arrows.
 
 Set λ=19/60, L=60/19. Suppose, toward a contradiction, that min_i(qi)x≤−λ and −λq2∈Q. Since λ>1/4, some k∈{4,5,6} satisfies (qk)x≤−λ.
 
@@ -248,7 +248,7 @@ The coordinator’s existing endpoint6 polygon is preserved unchanged: divide th
 (−131243132,−152453615).
 ```
 
-It has six strict selected arrows,14 nonzero boundary primitives, strict convexity,0 interior, and strict containment −(3/10)Q⊂intQ. It fails1/3, as its literal source already establishes. :contentReference[oaicite:3]{index=3} The new exact audit also gives its actual maximum self-containment coefficient
+It has six strict selected arrows,14 nonzero boundary primitives, strict convexity,0 interior, and strict containment −(3/10)Q⊂intQ. It fails1/3, as its literal source already establishes. The new exact audit also gives its actual maximum self-containment coefficient
 
 ```text
 5698653538325253/18802575268045409 ≈0.3030783526770398,
@@ -316,9 +316,9 @@ For a uniformly filled 3D polytope centred at its actual volume centroid, an act
 −a/3=Σ θT(bT+cT+dT)/3 ∈P.
 ```
 
-Hence −P/3⊂P, and every linear shadow inherits −Q/3⊂Q. The marginal on the shadow is its real concave fibre-length density, not uniform planar area density. :contentReference[oaicite:4]{index=4} The present endpoint6 obstruction therefore rules out this boundary-tree form for every such rank-two shadow. Combined with the accepted≤6,3+3 and4+2 results, a seven-corner shadow with a sole strict radial maximum must have the5+1 form.
+Hence −P/3⊂P, and every linear shadow inherits −Q/3⊂Q. The marginal on the shadow is its real concave fibre-length density, not uniform planar area density. The present endpoint6 obstruction therefore rules out this boundary-tree form for every such rank-two shadow. Combined with the accepted≤6,3+3 and4+2 results, a seven-corner shadow with a sole strict radial maximum must have the5+1 form.
 
-The parent’s exposed-fibre argument remains necessary when transporting planar maxima to true3D weak reachability: an exposed shadow corner lifts to a true vertex or edge, and its strictly negative outgoing boundary prevents escape even when internal edges collapse. Projected edges are not silently identified with true primal edges. :contentReference[oaicite:5]{index=5}
+The parent’s exposed-fibre argument remains necessary when transporting planar maxima to true3D weak reachability: an exposed shadow corner lifts to a true vertex or edge, and its strictly negative outgoing boundary prevents escape even when internal edges collapse. Projected edges are not silently identified with true primal edges.
 
 The5+1 universal planar question is not resolved here. A possible planar witness in any remaining class would still need an actual homogeneous3D lift and then the common reciprocal metric, saddle and weak-point checks. Nor does exclusion at a rank-two boundary by itself exclude an SPD component away from that boundary. No canonical incidence register or global bound is changed.
 
@@ -355,7 +355,7 @@ THREE_TRUE_PLANAR_CONTROLS_36_NONZERO_SIX_WEAK_ARROWS_PASS
 ENDPOINT6_ALL_SHAPES_WEAK_WALLS_TWO_ANTIPODES_19_OVER60_PASS 1263595 2d3646c0d4b07cb190c0163e634ee01a1aa9c9e759cd8ba890d56a4ed27fc7f9
 ```
 
-Supplementary copies: [source](sandbox:/mnt/data/endpoint6_exact.py), [complete bundle](sandbox:/mnt/data/ENDPOINT6_19_OVER60_bundle.zip). The full source below is sufficient without these links or any previous code.
+Supplementary copies: source (`endpoint6_exact.py`), complete bundle (`ENDPOINT6_19_OVER60_bundle.zip`). The full source below is sufficient without these links or any previous code.
 
 ### Complete runnable source
 

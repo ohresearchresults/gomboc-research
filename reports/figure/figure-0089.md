@@ -6,9 +6,9 @@ AI research report · 2026-08-26 UTC
 
 # Determination
 
-**No finite homogeneous polyhedral Gömböc was obtained.** The acceptance target remains a uniform-density finite body evaluated at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete H/V and face-lattice data, exhaustive face/vertex/true-edge audits, independent verification, and matching meshes; auxiliary-centre, wall, near-solution, or unexpanded objects do not count. :contentReference[oaicite:0]{index=0}
+**No finite homogeneous polyhedral Gömböc was obtained.** The acceptance target remains a uniform-density finite body evaluated at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete H/V and face-lattice data, exhaustive face/vertex/true-edge audits, independent verification, and matching meshes; auxiliary-centre, wall, near-solution, or unexpanded objects do not count.
 
-The branch does, however, materially advance the exact Santaló frontier recorded in the supplied journal. The predecessor had already produced a gate-valid hard-centred double-Y endpoint of class `(2,1,1)` and identified a non-stellar connected two-cell/five-row crossing as the next operation. :contentReference[oaicite:1]{index=1} I constructed such a crossing exactly and continued through old-row deactivation, but the complete residual stable–saddle pair **transfers again rather than cancels**.
+The branch does, however, materially advance the exact Santaló frontier recorded in the supplied journal. The predecessor had already produced a gate-valid hard-centred double-Y endpoint of class `(2,1,1)` and identified a non-stellar connected two-cell/five-row crossing as the next operation. I constructed such a crossing exactly and continued through old-row deactivation, but the complete residual stable–saddle pair **transfers again rather than cancels**.
 
 The strongest returned object is therefore a **fallback**, not a winner:
 
@@ -67,7 +67,7 @@ and inserts
 (4,25), (4,15).
 ```
 
-All three supporting triangles on each side have exact positive support gaps; all five signed four-point determinants on both sides are included in [the exact coupled-five-row map](sandbox:/mnt/data/santalo_five_circuit/artifact/coupled_five_row_circuit_map.json). The standalone builder is [build_coupled_five_row_map.py](sandbox:/mnt/data/santalo_five_circuit/artifact/build_coupled_five_row_map.py).
+All three supporting triangles on each side have exact positive support gaps; all five signed four-point determinants on both sides are included in the exact coupled-five-row map (`coupled_five_row_circuit_map.json`). The standalone builder is build_coupled_five_row_map.py.
 
 ### Scope limitation
 
@@ -144,11 +144,11 @@ max P-support displacement upper bound = 1.848039258549812e-24 < 1
 max Q-control dot-product upper bound   = 3.201412630319599e-22 < 1.
 ```
 
-Thus both polar boundedness and every projective denominator remain strict throughout the enclosure. The complete rational inequalities are in [the root-box certificate](sandbox:/mnt/data/santalo_five_circuit/artifact/root_box_boundedness_certificate.json).
+Thus both polar boundedness and every projective denominator remain strict throughout the enclosure. The complete rational inequalities are in the root-box certificate (`root_box_boundedness_certificate.json`).
 
 ## 3. Strongest exact post-circuit endpoint
 
-The full exact object is [post_five_circuit_gate_exact.json](sandbox:/mnt/data/santalo_five_circuit/artifact/post_five_circuit_gate_exact.json), SHA-256
+The full exact object is post_five_circuit_gate_exact.json, SHA-256
 
 ```text
 5052877ceab54b250090af0dc9e96d4f10b703c1f902dcac11fedacacb932977
@@ -230,7 +230,7 @@ P minimum normalized inactive separation = 3.983506966992064e-5
 Q minimum normalized inactive separation = 0.007975039242218398.
 ```
 
-Both comparisons with `10^-5` are proved exactly by rational squared inequalities. The compact decisive record is [certificate_summary.json](sandbox:/mnt/data/santalo_five_circuit/artifact/certificate_summary.json).
+Both comparisons with `10^-5` are proved exactly by rational squared inequalities. The compact decisive record is certificate_summary.json.
 
 ## 4. What the continuation actually ruled out
 
@@ -281,7 +281,7 @@ first holds at `m=13`. Finite two-rail scans with `12,13,14,16,18` links yielded
 
 A direct flip of the local residual quadrilateral either deactivates the local row or creates multiple row-17-star pairs. It never opens a strict `(1,1,0)` cell.
 
-The exact/empirical distinction, checkpoints, and source files are consolidated in [search_obstruction_summary.json](sandbox:/mnt/data/santalo_five_circuit/artifact/search_obstruction_summary.json).
+The exact/empirical distinction, checkpoints, and source files are consolidated in search_obstruction_summary.json.
 
 ## 5. Structural obstruction and next topology
 
@@ -304,7 +304,7 @@ Local pentagon exchange alone, a single quadrilateral flip, stellar subdivision,
 
 ## 6. Independent verification and meshes
 
-[verify_post_five_independent.py](sandbox:/mnt/data/santalo_five_circuit/artifact/verify_post_five_independent.py) uses only the Python standard library and does not import the generator or trust the stored topology. Starting solely from the hexadecimal input rows, it independently:
+verify_post_five_independent.py uses only the Python standard library and does not import the generator or trust the stored topology. Starting solely from the hexadecimal input rows, it independently:
 
 - enumerates every polar triple;
 - reconstructs the complete P and Q face lattices;
@@ -317,13 +317,13 @@ Local pentagon exchange alone, a single quadrilateral flip, stellar subdivision,
 - proves both inactive separations exceed `10^-5` exactly;
 - proves strict origin interior and root-box boundedness.
 
-The stored report is `PASS`: [independent verification report](sandbox:/mnt/data/santalo_five_circuit/artifact/independent_verification_post_five_circuit_gate_exact.json), SHA-256
+The stored report is `PASS`: independent verification report (`independent_verification_post_five_circuit_gate_exact.json`), SHA-256
 
 ```text
 60ef82c819a6fccb2534089afd70e3dbca5e7f7ba32eb52d60912f6bafb6997a
 ```
 
-[The integrity audit](sandbox:/mnt/data/santalo_five_circuit/artifact/verification_integrity_check.json) also reports `PASS` and confirms:
+The integrity audit (`verification_integrity_check.json`) also reports `PASS` and confirms:
 
 | Mesh | Vertices | Maximal OBJ faces | STL triangles | Certified cycles match |
 |---|---:|---:|---:|:---:|
@@ -332,42 +332,42 @@ The stored report is `PASS`: [independent verification report](sandbox:/mnt/data
 
 Finite reconstruction files:
 
-- [P coordinates](sandbox:/mnt/data/santalo_five_circuit/artifact/post_five_circuit_gate_P.csv)
-- [Q coordinates](sandbox:/mnt/data/santalo_five_circuit/artifact/post_five_circuit_gate_Q.csv)
-- [P OBJ](sandbox:/mnt/data/santalo_five_circuit/artifact/post_five_circuit_gate_P.obj)
-- [P STL](sandbox:/mnt/data/santalo_five_circuit/artifact/post_five_circuit_gate_P.stl)
-- [Q OBJ](sandbox:/mnt/data/santalo_five_circuit/artifact/post_five_circuit_gate_Q.obj)
-- [Q STL](sandbox:/mnt/data/santalo_five_circuit/artifact/post_five_circuit_gate_Q.stl)
+- P coordinates (`post_five_circuit_gate_P.csv`)
+- Q coordinates (`post_five_circuit_gate_Q.csv`)
+- P OBJ (`post_five_circuit_gate_P.obj`)
+- P STL (`post_five_circuit_gate_P.stl`)
+- Q OBJ (`post_five_circuit_gate_Q.obj`)
+- Q STL (`post_five_circuit_gate_Q.stl`)
 
 No coordinate-ball perturbation radius is claimed because the returned body is not a winner. Its exact strict signs and inactive gaps do prove an open `(2,1,1)` chamber.
 
 ## 7. Reproducible package
 
-The complete distributable archive is [santalo_five_circuit_result.zip](sandbox:/mnt/data/santalo_five_circuit_result.zip).
+The complete distributable archive is santalo_five_circuit_result.zip.
 
 ```text
 archive SHA-256
 b0f34fc10ecd1f57e0ca9ca646def3704eefcdf6547c581da7ac506766a3b1a1
 ```
 
-The checksum sidecar is [santalo_five_circuit_result.zip.sha256](sandbox:/mnt/data/santalo_five_circuit_result.zip.sha256).
+The checksum sidecar is santalo_five_circuit_result.zip.sha256.
 
 Principal files:
 
-- [README](sandbox:/mnt/data/santalo_five_circuit/artifact/README.md)
-- [deterministic generator](sandbox:/mnt/data/santalo_five_circuit/artifact/generate_post_five_exact.py)
-- [exact geometry core](sandbox:/mnt/data/santalo_five_circuit/artifact/exact_core.py)
-- [complete pipeline driver](sandbox:/mnt/data/santalo_five_circuit/artifact/rebuild_all.py)
-- [exact endpoint certificate](sandbox:/mnt/data/santalo_five_circuit/artifact/post_five_circuit_gate_exact.json)
-- [exact coupled-five-row map](sandbox:/mnt/data/santalo_five_circuit/artifact/coupled_five_row_circuit_map.json)
-- [root-box certificate](sandbox:/mnt/data/santalo_five_circuit/artifact/root_box_boundedness_certificate.json)
-- [compact certificate summary](sandbox:/mnt/data/santalo_five_circuit/artifact/certificate_summary.json)
-- [search obstruction summary](sandbox:/mnt/data/santalo_five_circuit/artifact/search_obstruction_summary.json)
-- [independent verifier](sandbox:/mnt/data/santalo_five_circuit/artifact/verify_post_five_independent.py)
-- [verification report](sandbox:/mnt/data/santalo_five_circuit/artifact/independent_verification_post_five_circuit_gate_exact.json)
-- [integrity report](sandbox:/mnt/data/santalo_five_circuit/artifact/verification_integrity_check.json)
-- [manifest](sandbox:/mnt/data/santalo_five_circuit/artifact/MANIFEST.json)
-- [SHA256SUMS](sandbox:/mnt/data/santalo_five_circuit/artifact/SHA256SUMS)
+- README (`README.md`)
+- deterministic generator (`generate_post_five_exact.py`)
+- exact geometry core (`exact_core.py`)
+- complete pipeline driver (`rebuild_all.py`)
+- exact endpoint certificate (`post_five_circuit_gate_exact.json`)
+- exact coupled-five-row map (`coupled_five_row_circuit_map.json`)
+- root-box certificate (`root_box_boundedness_certificate.json`)
+- compact certificate summary (`certificate_summary.json`)
+- search obstruction summary (`search_obstruction_summary.json`)
+- independent verifier (`verify_post_five_independent.py`)
+- verification report (`independent_verification_post_five_circuit_gate_exact.json`)
+- integrity report (`verification_integrity_check.json`)
+- manifest (`MANIFEST.json`)
+- SHA256SUMS
 
 Manifest SHA-256:
 

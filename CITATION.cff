@@ -3,9 +3,12 @@ message: "Please cite this archive when using its constructions, code or researc
 type: dataset
 title: "Gomboc research: AI-assisted constructions, searches and open problems"
 authors:
-  - family-names: H.
+  - family-names: Humeniuk
     given-names: Oleksandr
-version: research-2026-10-12
+license:
+  - MIT
+  - CC-BY-4.0
+version: research-2026-10-12.1
 date-released: 2026-10-12
 repository-code: "https://github.com/ohresearchresults/gomboc-research"
 url: "https://github.com/ohresearchresults/gomboc-research"

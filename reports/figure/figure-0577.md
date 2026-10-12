@@ -20,9 +20,9 @@ The accompanying exact certificate is stronger than tracking one old root: **no 
 
 The complete assignment fragment [0,9726), the entire updated notebook through EOF923, and the complete required literal parent were read. The updated notebook is **188786 bytes**, SHA-256 **2886f6b99a3b17e1df787eeecd26c3860ddaa3d74c15ff275234eaca05a4aba2**. Required parent **figure-0572**, SHA-256 **9189185bcbf2e31b0efd71a540c4113173870f80e7905e3b43480f26ac5b6976**, agrees with the supplied previous result. Its three complete decoded source units were recovered and read; unchanged earlier sources were not treated as missing or silently replaced.
 
-The immediate computational parent is exactly **SQ74_PORT_C414_G14**, input **4987 bytes / 4815563894fc5e3d1e9aa5d260bbb828f5956a54a2cac4ea66ba7cda188a3693**. Its author-reported V138/E207/F71, own121/weak000, P=0.41011287493816145, Q=[] was used as the starting premise. Original redundant support80 was removed before the new numerical deformations. The starting unwanted root is {46,73,−1}; the starting live saddle carrier is30/82. Neither was confused with retired48/62/73 or65/80. fileciteturn0file0L458-L462
+The immediate computational parent is exactly **SQ74_PORT_C414_G14**, input **4987 bytes / 4815563894fc5e3d1e9aa5d260bbb828f5956a54a2cac4ea66ba7cda188a3693**. Its author-reported V138/E207/F71, own121/weak000, P=0.41011287493816145, Q=[] was used as the starting premise. Original redundant support80 was removed before the new numerical deformations. The starting unwanted root is {46,73,−1}; the starting live saddle carrier is30/82. Neither was confused with retired48/62/73 or65/80.
 
-The underlying J88 C474 input remains **5483 bytes / 93b20d84d6167fff91687276bbe348f4e91aeb16b037ca72effececcc5674335**. No J89 input, 19-unit J88H workspace, FULL76, or C622 construction was supplied or used. No supplied required dependency remains unread or unavailable. The latest notebook's joint-repair correction informed a separate LP implementation; its J89 geometry was not substituted for C414. fileciteturn0file0L415-L419 No research connector, scheduler, or journal write was used. The accepted own110 record is unchanged by this work.
+The underlying J88 C474 input remains **5483 bytes / 93b20d84d6167fff91687276bbe348f4e91aeb16b037ca72effececcc5674335**. No J89 input, 19-unit J88H workspace, FULL76, or C622 construction was supplied or used. No supplied required dependency remains unread or unavailable. The latest notebook's joint-repair correction informed a separate LP implementation; its J89 geometry was not substituted for C414. No research connector, scheduler, or journal write was used. The accepted own110 record is unchanged by this work.
 
 ## Four exact support-patch descendants
 
@@ -161,7 +161,7 @@ DELETE55 INPUT **12407B / 050bd513ab5e5d589f8cbe4e893359d9e0ced93a3187de21ce55fc
 
 CHORD_COVER_EXACT **204313B / f5d6c9fb6d49ac3f9f28ee815f0d02510f4388efd9fcacfb782685246522ab04**. The remaining endpoint and diagnostic manifests are complete in the capsule.
 
-Supplementary copies: [complete source, exact outputs, and numerical evidence archive](sandbox:/mnt/data/SQ74C_FINITE_PATCH_HANDOFF.zip), [standalone recovery script](sandbox:/mnt/data/sq74c/SQ74C_RECOVER.py), [this full handoff](sandbox:/mnt/data/sq74c/SQ74C_RESULT_MARKDOWN.md). No reconstruction depends on these links.
+Supplementary copies: complete source, exact outputs, and numerical evidence archive (`SQ74C_FINITE_PATCH_HANDOFF.zip`), standalone recovery script (`SQ74C_RECOVER.py`), this full handoff (`SQ74C_RESULT_MARKDOWN.md`). No reconstruction depends on these links.
 
 ### Literal complete source capsule
 

@@ -139,13 +139,13 @@ The coefficient matrices are rational because the immutable AX9 coordinates are 
 
 Reproducible files:
 
-- [Target `[0,AX,H]` complementary-tree atlas](sandbox:/mnt/data/ax9_trees_t0.npz)
-- [Target `[AU,AX,AW]` complementary-tree atlas](sandbox:/mnt/data/ax9_trees_t1.npz)
-- [Fixed-shape centre LP driver](sandbox:/mnt/data/ax9_center_tree_lp.py)
-- [Target-0 centre batches](sandbox:/mnt/data/ax9_center_lp_t0_0_20000.npz)
-- [Target-0 remaining batches](sandbox:/mnt/data/ax9_center_lp_t0_20000_37000.npz)
-- [Target-1 centre batches](sandbox:/mnt/data/ax9_center_lp_t1_0_18000.npz)
-- [Target-1 remaining batches](sandbox:/mnt/data/ax9_center_lp_t1_18000_35000.npz)
+- Target `[0,AX,H]` complementary-tree atlas (`ax9_trees_t0.npz`)
+- Target `[AU,AX,AW]` complementary-tree atlas (`ax9_trees_t1.npz`)
+- Fixed-shape centre LP driver (`ax9_center_tree_lp.py`)
+- Target-0 centre batches (`ax9_center_lp_t0_0_20000.npz`)
+- Target-0 remaining batches (`ax9_center_lp_t0_20000_37000.npz`)
+- Target-1 centre batches (`ax9_center_lp_t1_0_18000.npz`)
+- Target-1 remaining batches (`ax9_center_lp_t1_18000_35000.npz`)
 
 ## The AX9 graph itself admits robust mono-monostatic centre chambers
 
@@ -214,13 +214,13 @@ with strict positive denominators and numerical residual below `10^-15`. The pro
 
 Relevant files:
 
-- [Robust target-`[0,AX,H]` free-centre realization](sandbox:/mnt/data/ax9_fcu_tf2_5001.npz)
-- [Second target-`[0,AX,H]` realization](sandbox:/mnt/data/ax9_fcu_tf2_5201.npz)
-- [Target-`[AU,AX,AW]` realization](sandbox:/mnt/data/ax9_fcu_tf13_5301.npz)
-- [Positive target-0 tree IDs](sandbox:/mnt/data/ax9_fcu_tf2_5001_trees.npz)
-- [Positive target-1 tree IDs](sandbox:/mnt/data/ax9_fcu_tf13_5301_trees.npz)
-- [Tree-constrained homotopy driver](sandbox:/mnt/data/ax9_homotopy_tree.py)
-- [Projective-centroid root solver](sandbox:/mnt/data/projective_centroid_root.py)
+- Robust target-`[0,AX,H]` free-centre realization (`ax9_fcu_tf2_5001.npz`)
+- Second target-`[0,AX,H]` realization (`ax9_fcu_tf2_5201.npz`)
+- Target-`[AU,AX,AW]` realization (`ax9_fcu_tf13_5301.npz`)
+- Positive target-0 tree IDs (`ax9_fcu_tf2_5001_trees.npz`)
+- Positive target-1 tree IDs (`ax9_fcu_tf13_5301_trees.npz`)
+- Tree-constrained homotopy driver (`ax9_homotopy_tree.py`)
+- Projective-centroid root solver (`projective_centroid_root.py`)
 
 ## Smallest ten-vertex connected two-cell topology tested
 
@@ -350,14 +350,14 @@ No branch reached the ordinary centroid. This closes the four robust free-centre
 
 Files:
 
-- [Robust ten-vertex free-centre realization](sandbox:/mnt/data/ax10_fcu_s2_t14_10001.npz)
-- [Complete target-14 tree atlas](sandbox:/mnt/data/split2_trees_t14.npz)
-- [Positive branch ledger](sandbox:/mnt/data/split2_fcu_positive_trees.npz)
-- [Branch 152668 homotopy](sandbox:/mnt/data/ax10_hom_152668.npz)
-- [Branch 152698 homotopy](sandbox:/mnt/data/ax10_hom_152698.npz)
-- [Branch 153280 homotopy](sandbox:/mnt/data/ax10_hom_153280.npz)
-- [Branch 153366 homotopy](sandbox:/mnt/data/ax10_hom_153366.npz)
-- [Ten-vertex tree homotopy driver](sandbox:/mnt/data/ax10_homotopy_tree.py)
+- Robust ten-vertex free-centre realization (`ax10_fcu_s2_t14_10001.npz`)
+- Complete target-14 tree atlas (`split2_trees_t14.npz`)
+- Positive branch ledger (`split2_fcu_positive_trees.npz`)
+- Branch 152668 homotopy (`ax10_hom_152668.npz`)
+- Branch 152698 homotopy (`ax10_hom_152698.npz`)
+- Branch 153280 homotopy (`ax10_hom_153280.npz`)
+- Branch 153366 homotopy (`ax10_hom_153366.npz`)
+- Ten-vertex tree homotopy driver (`ax10_homotopy_tree.py`)
 
 ## Ten-vertex projective hard-centering tests
 
@@ -424,10 +424,10 @@ Nonprotected all-external-positive edges `[0,H]` and `[AU,AV]` are also present.
 
 Files:
 
-- [Projective-centroid root solver for ten vertices](sandbox:/mnt/data/projective_centroid_root10.py)
-- [Stored second projective root](sandbox:/mnt/data/ax10_fcu_t14_projroot.npz)
-- [Projective-plus-metric search driver](sandbox:/mnt/data/ax10_projmetric_global.py)
-- [Best projective-plus-metric state](sandbox:/mnt/data/ax10_pmg_fc14_11001.npz)
+- Projective-centroid root solver for ten vertices (`projective_centroid_root10.py`)
+- Stored second projective root (`ax10_fcu_t14_projroot.npz`)
+- Projective-plus-metric search driver (`ax10_projmetric_global.py`)
+- Best projective-plus-metric state (`ax10_pmg_fc14_11001.npz`)
 
 ## Attempts that were deliberately rejected
 
@@ -465,7 +465,7 @@ The first continuation that does not repeat the exhausted searches is the **comp
 
 1. Run the global free-centre search for all sixteen maximal faces of `split2`, not only faces `0,1,2,14`.
 2. For each robust chamber, enumerate its positive complementary trees, solve every finite projective centroid root, and seed the full projective-plus-metric orbit from each root.
-3. Run direct own-centred tree optimization on the complete `193,776` target branch set. The prepared batched driver is [ax10_tree_global.py](sandbox:/mnt/data/ax10_tree_global.py); it was created but not completed in this determination.
+3. Run direct own-centred tree optimization on the complete `193,776` target branch set. The prepared batched driver is ax10_tree_global.py; it was created but not completed in this determination.
 4. Freshly reconstruct the hull after every putative crossing. Require ten actual vertices, sixteen actual maximal faces or an explicitly accepted adjacent topology, positive raw separation, `C` as the sole unstable vertex, one stable face, zero full-cone saddle edges, and a strict negative external witness for every nonprotected true edge.
 5. Only after a positive actual-hull chamber appears should its coordinates be rounded to dyadic rationals and the exact AX9 packaging pipeline be rerun to produce irredundant H/V data, exact volume and moments, exhaustive mechanics, perturbation radius, independent verifier, manifest, OBJ, and STL.
 
@@ -473,16 +473,16 @@ If the complete ten-vertex target-diversity sweep remains separated from centrin
 
 ## Reproducibility index
 
-- [Authoritative exact AX9 archive](sandbox:/mnt/data/Calm_Finch_13_AX9_exact_NONWINNER.zip)
-- [Authoritative AX9 handoff](sandbox:/mnt/data/Calm_Finch_13_AX9_exact_NONWINNER/HANDOFF.md)
-- [AX9 exact manifest](sandbox:/mnt/data/Calm_Finch_13_AX9_exact_NONWINNER/MANIFEST.json)
-- [AX9 clean extraction receipt](sandbox:/mnt/data/Calm_Finch_13_AX9_clean_extraction_receipt.json)
-- [Generic actual-hull evaluator](sandbox:/mnt/data/generic_eval.py)
-- [Nine-vertex affine-gauge model](sandbox:/mnt/data/ax9_model.py)
-- [Ten-vertex split generator data](sandbox:/mnt/data/ax10_split2.npz)
-- [Ten-vertex actual-hull evaluator and optimizer](sandbox:/mnt/data/topofree10_cma.py)
-- [Ten-vertex free-centre optimizer](sandbox:/mnt/data/ax10_freecenter_unbranched.py)
-- [Prepared complete ten-vertex tree search](sandbox:/mnt/data/ax10_tree_global.py)
+- Authoritative exact AX9 archive (`Calm_Finch_13_AX9_exact_NONWINNER.zip`)
+- Authoritative AX9 handoff (`HANDOFF.md`)
+- AX9 exact manifest (`MANIFEST.json`)
+- AX9 clean extraction receipt (`Calm_Finch_13_AX9_clean_extraction_receipt.json`)
+- Generic actual-hull evaluator (`generic_eval.py`)
+- Nine-vertex affine-gauge model (`ax9_model.py`)
+- Ten-vertex split generator data (`ax10_split2.npz`)
+- Ten-vertex actual-hull evaluator and optimizer (`topofree10_cma.py`)
+- Ten-vertex free-centre optimizer (`ax10_freecenter_unbranched.py`)
+- Prepared complete ten-vertex tree search (`ax10_tree_global.py`)
 
 ## Final statement
 

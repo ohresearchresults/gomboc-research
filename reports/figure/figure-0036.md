@@ -18,22 +18,22 @@ seven-vertex shadow-tree/tetrahedron systems.
 
 **Certificate-verified theorem:** every full-dimensional homogeneous convex polyhedron in \(\mathbb R^3\) with a unique nondegenerate unstable equilibrium has at least **eight vertices**. Therefore every strict homogeneous polyhedral Gömböc has at least eight vertices.
 
-The current published framework supplies the rooted shadow-tree reduction and the root-cone tetrahedral decomposition, and explicitly reports that its original quadratic certificate leaves roughly one percent of the seven-vertex systems unresolved. :contentReference[oaicite:0]{index=0} The present result closes exactly that finite remainder.
+The current published framework supplies the rooted shadow-tree reduction and the root-cone tetrahedral decomposition, and explicitly reports that its original quadratic certificate leaves roughly one percent of the seven-vertex systems unresolved. The present result closes exactly that finite remainder.
 
-**Complete reusable artifact:** [v7_complete_exclusion_artifact.zip](sandbox:/mnt/data/v7_complete_exclusion_artifact.zip)  
+**Complete reusable artifact:** v7_complete_exclusion_artifact.zip  
 ZIP SHA-256: `3a1a9121c74b3bc27b2d1aff773567fc1f4cfbf3ab02d0e64642ab06bef776c6`
 
 Principal files:
 
-- [Theorem and proof](sandbox:/mnt/data/v7_complete_exclusion/THEOREM_AND_PROOF.md)
-- [Machine-readable theorem summary](sandbox:/mnt/data/v7_complete_exclusion/v7_exclusion_summary.json)
-- [All 869 orbit certificates](sandbox:/mnt/data/v7_complete_exclusion/v7_moment_exclusion_certificate.json)
-- [Explicit mapping of all 1,714 labeled survivors](sandbox:/mnt/data/v7_complete_exclusion/v7_survivor_orbit_mapping.json)
-- [Independent exact Fraction verifier](sandbox:/mnt/data/v7_complete_exclusion/verify_v7_moment_exclusion_independent.py)
-- [Saved independent verification](sandbox:/mnt/data/v7_complete_exclusion/v7_moment_independent_verification.json)
-- [Expanded sample branch certificate](sandbox:/mnt/data/v7_complete_exclusion/v7_moment_sample_branch.json)
-- [Manifest](sandbox:/mnt/data/v7_complete_exclusion/MANIFEST.json)
-- [Checksums](sandbox:/mnt/data/v7_complete_exclusion/SHA256SUMS.txt)
+- Theorem and proof (`THEOREM_AND_PROOF.md`)
+- Machine-readable theorem summary (`v7_exclusion_summary.json`)
+- All 869 orbit certificates (`v7_moment_exclusion_certificate.json`)
+- Explicit mapping of all 1,714 labeled survivors (`v7_survivor_orbit_mapping.json`)
+- Independent exact Fraction verifier (`verify_v7_moment_exclusion_independent.py`)
+- Saved independent verification (`v7_moment_independent_verification.json`)
+- Expanded sample branch certificate (`v7_moment_sample_branch.json`)
+- Manifest (`MANIFEST.json`)
+- Checksums (`SHA256SUMS.txt`)
 
 ## The decisive exact centroid consequence
 
@@ -132,7 +132,7 @@ The independent run also rechecks both bundle self-hashes, every graph6 identifi
 
 The certified system is a relaxation containing every actual convex realization. A genuine realization supplies positive tetrahedral volumes and therefore satisfies every centroid-moment disjunction. A Gömböc must first satisfy the necessary condition \(U=1\). Since even that relaxed necessary system is empty for every seven-vertex type, adding strict convexity determinants, one stable-face chamber, and no-saddle edge disjunctions only shrinks an already empty set.
 
-For completeness, the artifact retains the independent rational polyhedron verifier and the complete face, vertex, and edge predicates. The transcript correctly required exact tetrahedral centroid sums, strict orientation tests, unstable-vertex dot products, convexity determinants, and positive margins rather than floating-point classification. :contentReference[oaicite:1]{index=1}
+For completeness, the artifact retains the independent rational polyhedron verifier and the complete face, vertex, and edge predicates. The transcript correctly required exact tetrahedral centroid sums, strict orientation tests, unstable-vertex dot products, convexity determinants, and positive margins rather than floating-point classification.
 
 After centering:
 

@@ -41,9 +41,9 @@ APEX2_MATCH_G6_AUDIT.json 139796B
 86bf822bdd1b37e1215d34fb0afaa6b5692eac01743f35da9ef27e45c3714f88
 ```
 
-Observed parent marker: `J115_EXACT_PASS VEF=164/247/85 SUH=1/2/1 weak=000 P=1 Q=0`. Its actual volume is approximately1.7020728735202415 and actual centroid approximately(.04036976439039653,-.05247696868069229,.011217612666787068). This is the stated literal parent, not C434, QW49D, or the unavailable C622 construction. J124’s exact endpoint and common-apex scope are supplied in the recovery materials. fileciteturn24file0L9-L15
+Observed parent marker: `J115_EXACT_PASS VEF=164/247/85 SUH=1/2/1 weak=000 P=1 Q=0`. Its actual volume is approximately1.7020728735202415 and actual centroid approximately(.04036976439039653,-.05247696868069229,.011217612666787068). This is the stated literal parent, not C434, QW49D, or the unavailable C622 construction. J124’s exact endpoint and common-apex scope are supplied in the recovery materials.
 
-J125 excludes **unmoved independent original-vertex deletion**, including replacement of the old unstable labels. It does not exclude connected patches, moved retained vertices or new material. Its separate101-case scout is finite numerical evidence, not a theorem about every adjacent patch. fileciteturn24file3L3-L6 fileciteturn24file5L3-L6
+J125 excludes **unmoved independent original-vertex deletion**, including replacement of the old unstable labels. It does not exclude connected patches, moved retained vertices or new material. Its separate101-case scout is finite numerical evidence, not a theorem about every adjacent patch.
 
 The deleted block here is exactly `CUT125_NOMINATION.json['blocks'][1]`, size96. On the original exact graph it is connected, contains115 internal edges, and has58 crossing edges. The survivors are these68 original labels:
 
@@ -281,7 +281,7 @@ J125’s independent-deletion obstruction was not refuted or worked around by a 
 
 The most direct continuation is a finite change of those new polar crossings with actual mass and the physical U1 forest coupled. H58/H59 offer detached stable carriers and27/26 new-H slots; V41 offers44 material-point slots and substantially simpler arithmetic. A new sole stable carrier, root turnover and intermediate births remain allowed. Neither preserving the obsolete original stable20-gon nor restoring an arbitrary zero reference centre is an acceptance requirement.
 
-Convenience copies supplement, rather than replace, the inline capsule: [decoder](sandbox:/mnt/data/RECOVER_QW49F.py), [complete sources, numeric checkpoints and exact outputs](sandbox:/mnt/data/QW49F_COMPLETE_RESEARCH.zip), [Markdown handoff](sandbox:/mnt/data/QW49F_RESULT.md), [structured handoff](sandbox:/mnt/data/QW49F_RESULT.json).
+Convenience copies supplement, rather than replace, the inline capsule: decoder (`RECOVER_QW49F.py`), complete sources, numeric checkpoints and exact outputs (`QW49F_COMPLETE_RESEARCH.zip`), Markdown handoff (`QW49F_RESULT.md`), structured handoff (`QW49F_RESULT.json`).
 
 ## Complete literal source/data recovery capsule
 

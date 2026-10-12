@@ -10,18 +10,18 @@ AI research report · 2026-09-02 UTC
 
 No literal exact own-centred `(S,U,H)=(1,1,0)` polyhedron was found. I did, however, instantiate and independently certify the smallest exact topology-transfer neighbourhood I could realize around the M42 benchmark, classify its complete codimension-two and codimension-three regular-subdivision landscape, and close the fixed-row one-support/page promotion families by exact sparse Gordan certificates.
 
-The supplied journal starts from the accepted exact rational M42 body `(V,E,F)=(61,163,104)`, strict `(2,1,1)`, with extra stable triangle `[198,224,258]`, unique unstable vertex `8`, and saddle edge `(229,247)`; it identifies the shared packet and core replacement set `{198,224,258,229,247,228}`. :contentReference[oaicite:0]{index=0}
+The supplied journal starts from the accepted exact rational M42 body `(V,E,F)=(61,163,104)`, strict `(2,1,1)`, with extra stable triangle `[198,224,258]`, unique unstable vertex `8`, and saddle edge `(229,247)`; it identifies the shared packet and core replacement set `{198,224,258,229,247,228}`.
 
 The new exact endpoint **literally deletes both named unwanted features**: rows `224` and `229` are removed, so `[198,224,258]` is not a hull face and `(229,247)` is not a hull edge. The actual full hull nevertheless contains a replacement Euler-neutral pair, stable triangle `[1000,1025,3000]` and saddle edge `(1027,3001)`. Thus this is an exact topology-changing nonwinner, not a claimed Gömböc.
 
-**Portable complete bundle:** [M42_slot1_Clear_Willow_25_complete.zip](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_complete.zip)  
+**Portable complete bundle:** M42_slot1_Clear_Willow_25_complete.zip  
 **ZIP SHA-256:** `629e7690827f7b677eecaec3bed6e98e7c626119b1a1f53c6087428ca212107b`  
-**Human-readable report:** [README.md](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/README.md)  
-**Machine-readable summary:** [result_summary.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/result_summary.json)
+**Human-readable report:** README.md  
+**Machine-readable summary:** result_summary.json
 
 ## Exact instantiated transfer body
 
-I reconstructed the 61 active M42 rows from the parent common lattice, then applied two exact rational clipping halfspaces. The first removes `224` and creates 26 exact edge intersections `1000..1025`; the second removes `229` and creates four exact intersections `1026..1029`. Two exact exterior supports `3000,3001` complete the cap. The exact planes, crossing parameters, and support coordinates are in [construction.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/rational_candidate/construction.json); the complete exact coordinates are in [coordinates_exact.csv](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/final_exact_transfer/coordinates_exact.csv), and a single 2918-bit common lattice is in [coordinates_common_lattice.csv](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/final_exact_transfer/coordinates_common_lattice.csv).
+I reconstructed the 61 active M42 rows from the parent common lattice, then applied two exact rational clipping halfspaces. The first removes `224` and creates 26 exact edge intersections `1000..1025`; the second removes `229` and creates four exact intersections `1026..1029`. Two exact exterior supports `3000,3001` complete the cap. The exact planes, crossing parameters, and support coordinates are in construction.json; the complete exact coordinates are in coordinates_exact.csv, and a single 2918-bit common lattice is in coordinates_common_lattice.csv.
 
 A fresh all-row hull computation gives:
 
@@ -45,7 +45,7 @@ C = (-0.8998929470452524...,
      -0.15345263936534168...)
 ```
 
-with the complete exact fractions in [certificate.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/final_exact_transfer/certificate.json). Translation obeys the exact identity `M(P+τ)=M(P)+Vτ`; because `V>0`, `τ=-C` is the unique centring solution and the moment Jacobian is `V I₃`. The exact mechanics verifier recomputes three zero centred first moments.
+with the complete exact fractions in certificate.json. Translation obeys the exact identity `M(P+τ)=M(P)+Vτ`; because `V>0`, `τ=-C` is the unique centring solution and the moment Jacobian is `V I₃`. The exact mechanics verifier recomputes three zero centred first moments.
 
 Strict normalized margins are:
 
@@ -60,13 +60,13 @@ replacement saddle                         5.939874719300841e-4
 strict nonsaddle-edge clearance            1.3342352902887952e-3
 ```
 
-All underlying tests are exact rational signs, not floating acceptance. Complete incidence is in [face_cycles.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/final_exact_transfer/face_cycles.json) and [true_edges.csv](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/final_exact_transfer/true_edges.csv); exhaustive face, vertex, and edge mechanics are in the three `*_mechanics_exact.json` files.
+All underlying tests are exact rational signs, not floating acceptance. Complete incidence is in face_cycles.json and true_edges.csv; exhaustive face, vertex, and edge mechanics are in the three `*_mechanics_exact.json` files.
 
 The construction has 12 nontranslation shape coordinates—three for each cut plane and three for each support—plus three translation controls. Exact centring eliminates only translations, leaving 12 shape dimensions in the open incidence chamber. A codimension-two simultaneous circuit therefore leaves 10 dimensions; the codimension-three route cell leaves 9.
 
 ## Exact oriented-matroid and regular-subdivision atlas
 
-The complete machine-readable atlas is [oriented_matroid_regular_atlas.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/oriented_matroid_regular_atlas.json). It records exact rank-four chirotopes, every minimal circuit, integer Gale bases, exact open topes, lifting weights, and lower tetrahedralizations for 19 cells: two apical codimension-one cells, all 16 direct codimension-two octahedra, and one codimension-three route cell. Weight `0` on a promoted cell and `1` on every other point is an explicit exact regular-cell certificate.
+The complete machine-readable atlas is oriented_matroid_regular_atlas.json. It records exact rank-four chirotopes, every minimal circuit, integer Gale bases, exact open topes, lifting weights, and lower tetrahedralizations for 19 cells: two apical codimension-one cells, all 16 direct codimension-two octahedra, and one codimension-three route cell. Weight `0` on a promoted cell and `1` on every other point is an explicit exact regular-cell certificate.
 
 ### Apical circuits
 
@@ -94,7 +94,7 @@ and sign `+--+`.
 
 ### Six-vertex codimension-two cells
 
-The four stable-side triangles and four saddle-side triangles form all `4×4=16` pairings. Every pairing is an exact empty octahedron with affine nullity two, eight triangular facets, six minimal five-point circuits, 12 realizable open topes, and six distinct regular triangulations. The full incidence and all 96 circuit vectors are in [octahedron_atlas.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/octahedron_atlas.json) and the master atlas.
+The four stable-side triangles and four saddle-side triangles form all `4×4=16` pairings. Every pairing is an exact empty octahedron with affine nullity two, eight triangular facets, six minimal five-point circuits, 12 realizable open topes, and six distinct regular triangulations. The full incidence and all 96 circuit vectors are in octahedron_atlas.json and the master atlas.
 
 Representative `O0` is
 
@@ -174,11 +174,11 @@ This separates the two issues cleanly: simultaneous circuit signatures are orien
 
 1. **Fixed direct octahedra.** All 16 are empty regular cells, but none is base-compatible as a boundary promotion.
 
-2. **Direct octahedron plus one existing adjacent connector.** All `16×11=176` combinations were rebuilt; 175 are strict seven-vertex ten-facet cells, all empty, and zero are base-compatible. Incidence is in [heptahedron_atlas.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/heptahedron_atlas.json).
+2. **Direct octahedron plus one existing adjacent connector.** All `16×11=176` combinations were rebuilt; 175 are strict seven-vertex ten-facet cells, all empty, and zero are base-compatible. Incidence is in heptahedron_atlas.json.
 
-3. **Direct octahedron plus one arbitrary new connector.** All `16×64=1024` visibility signatures were enumerated. There are 37 nonempty strict local chambers. Under the exact global local-star contract—every new horizon triangle supports all 91 old points, all remote old faces remain protected, and the connector is genuinely extreme—zero are feasible. [single_connector_global_farkas.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/single_connector_global_farkas.json) contains one exact four-constraint Gordan certificate for each of the 37 chambers.
+3. **Direct octahedron plus one arbitrary new connector.** All `16×64=1024` visibility signatures were enumerated. There are 37 nonempty strict local chambers. Under the exact global local-star contract—every new horizon triangle supports all 91 old points, all remote old faces remain protected, and the connector is genuinely extreme—zero are feasible. single_connector_global_farkas.json contains one exact four-constraint Gordan certificate for each of the 37 chambers.
 
-4. **Fixed K7 plus one arbitrary new page.** Of 128 visibility patterns, 15 are strict local chambers and six have local base-compatible witnesses. Full actual-hull recomputation of those six witnesses deactivates the entire target base and `U8`; classes range from `(2,2,2)` to `(2,19,19)`. Under the same exact global support/remote-protection contract, all 15 chambers are infeasible. [K7_one_page_global_farkas.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/K7_one_page_global_farkas.json) contains 15 exact four-constraint Gordan certificates.
+4. **Fixed K7 plus one arbitrary new page.** Of 128 visibility patterns, 15 are strict local chambers and six have local base-compatible witnesses. Full actual-hull recomputation of those six witnesses deactivates the entire target base and `U8`; classes range from `(2,2,2)` to `(2,19,19)`. Under the same exact global support/remote-protection contract, all 15 chambers are infeasible. K7_one_page_global_farkas.json contains 15 exact four-constraint Gordan certificates.
 
 Each Gordan certificate consists of positive rational multipliers summing to one, a zero weighted affine coefficient vector, and a nonpositive weighted constant; therefore strict satisfaction of all defining inequalities is impossible. The independent verifiers reconstruct all identities without invoking an optimiser.
 
@@ -211,7 +211,7 @@ cells=19 octahedral_topes=192 K7_topes=282 K7_regular_triangulations=25
 
 The Gordan replays end with exact passes for 37 and 15 chambers respectively. A clean extraction of the ZIP was independently recompiled and reproduced every marker and every packaged SHA-256.
 
-The watertight meshes are [body.obj](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/final_exact_transfer/body.obj) and [body.stl](sandbox:/mnt/data/M42_slot1_Clear_Willow_25/final_exact_transfer/body.stl). The mesh verifier reports 91 vertices, 178 triangles, 267 mesh edges, Euler characteristic two, volume `1050.2209976887918`, and centroid norm `1.688×10^-15`.
+The watertight meshes are body.obj and body.stl. The mesh verifier reports 91 vertices, 178 triangles, 267 mesh edges, Euler characteristic two, volume `1050.2209976887918`, and centroid norm `1.688×10^-15`.
 
 ## Smallest unclassified realizable complex and continuation
 

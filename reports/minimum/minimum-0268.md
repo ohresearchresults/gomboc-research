@@ -75,7 +75,7 @@ The parent is **minimum-0264**, SHA-256
 
 Its compact UTF-8 JSON envelope reconstructs to **43316 bytes** with that digest. Earlier unchanged covariance, finite-height and self-polar evidence was retained. No inaccessible exact dependency is used. The archived coordinator support theorem was not needed or reconstructed from its summary.
 
-The inherited 8.3 theorem and actual lower counterfamilies keep their literal identities. The new sources below have been executed normally and rebuilt from the source blocks in this handoff in a clean directory. These are author exact executions and an analytic proof, not a coordinator replay or proof-assistant formalization. The accepted parent and its physical scope are recorded in the current notebook. fileciteturn30file0L45-L54
+The inherited 8.3 theorem and actual lower counterfamilies keep their literal identities. The new sources below have been executed normally and rebuilt from the source blocks in this handoff in a clean directory. These are author exact executions and an analytic proof, not a coordinator replay or proof-assistant formalization. The accepted parent and its physical scope are recorded in the current notebook.
 
 ## 3. Actual-volume reduction
 
@@ -87,7 +87,7 @@ An origin-fixing affine change and homothety give an actual body K with
 \mathbb E_KX=0,\qquad\operatorname{Cov}(K)=3I/5.
 \]
 
-The factor becomes \(\Upsilon_I(K)\), and is unchanged by the homothety. It is the maximum of \(\|y\|^2/h_K(-e)^2\) over unit e and \(y\in K\cap e^\perp\): the polar vector \(-e/h_K(-e)\) gives one direction of this identity, and radial extension of a polar vector gives the other. The same pair exchange proves self-polarity. fileciteturn23file7L21-L39
+The factor becomes \(\Upsilon_I(K)\), and is unchanged by the homothety. It is the maximum of \(\|y\|^2/h_K(-e)^2\) over unit e and \(y\in K\cap e^\perp\): the polar vector \(-e/h_K(-e)\) gives one direction of this identity, and radial extension of a polar vector gives the other. The same pair exchange proves self-polarity.
 
 Choose orthonormal coordinates for a nonzero tested point so that \(y=Re_3\), with relevant support \(X_1\le a\). Polar integration about y gives
 
@@ -117,7 +117,7 @@ For a centered scalar coordinate with upper support a, section concavity gives t
 \tag{6}
 \]
 
-Here is the argument, including its actual-body content. Rays from a support-minimizing point give the centroid reflection inequality \(-\min X_1\le3a\). The square root of the actual scalar density is concave by planar Brunn–Minkowski. Subtracting the affine square root of the comparison density gives a concave function, so the density difference has sign pattern nonpositive, nonnegative, nonpositive. Subtract the chord of φ across its positive interval; the product has nonpositive sign. The affine part integrates to zero by the common mass and mean. In particular (6) gives a≥1. This is the section argument in the supplied covariance source. fileciteturn23file11L42-L66
+Here is the argument, including its actual-body content. Rays from a support-minimizing point give the centroid reflection inequality \(-\min X_1\le3a\). The square root of the actual scalar density is concave by planar Brunn–Minkowski. Subtracting the affine square root of the comparison density gives a concave function, so the density difference has sign pattern nonpositive, nonnegative, nonpositive. Subtract the chord of φ across its positive interval; the product has nonpositive sign. The affine part integrates to zero by the common mass and mean. In particular (6) gives a≥1. This is the section argument in the supplied covariance source.
 
 For true scalar support \([-b,h]\), the parent's lower comparison is against the centered squared tent with peak at \(c=(b-h)/2\):
 
@@ -137,7 +137,7 @@ Zero-length legs are omitted. Centroid reflection puts c inside the support. The
 \tag{8}
 \]
 
-This is an inherited theorem, not a new claim of priority. The complete parent proof and its equality calibration are in the supplied payload. fileciteturn30file0L173-L225
+This is an inherited theorem, not a new claim of priority. The complete parent proof and its equality calibration are in the supplied payload.
 
 ### Common coordinates and support rectangle
 
@@ -466,7 +466,7 @@ Self-polarity is the identity \(\Upsilon_C(P)=\Upsilon_{C^{-1}}(P^\circ)\), obta
 \tag{22}
 \]
 
-U1 supplies the first tree; S1 supplies the polar tree. A distinct nonnegative arrow strictly increases quadratic norm, so extra weak contacts do not defeat either tree. No positive-arrow-only assumption has been added. fileciteturn23file7L43-L63
+U1 supplies the first tree; S1 supplies the polar tree. A distinct nonnegative arrow strictly increases quadratic norm, so extra weak contacts do not defeat either tree. No positive-arrow-only assumption has been added.
 
 At V=10,F=9, use h≤9,k≤8 and the exact inherited majorants \(p_0=7024915/10^6>9f(10)\), \(q_0=6832329/10^6>9f(9)\). Source A rechecks them using rational Machin and cosine bounds. Multiplication by 41/45 gives p and q in (3).
 
@@ -501,7 +501,7 @@ The exact stress coefficient becomes
 \]
 
 In particular the rounded floor I/48 permits the convenient sufficient stress test
-\(Q+(1/45)\operatorname{tr}(\Sigma^{-1}Q)\Sigma\succ0\), where Q is the negative weighted sum of the true primal arrow tensors. Under hypothetical joint S1/U1 it forces some selected arrow to be negative. This uses the existing floor-dual identity; it is not an all-SPD U2 assertion. fileciteturn23file12L59-L71
+\(Q+(1/45)\operatorname{tr}(\Sigma^{-1}Q)\Sigma\succ0\), where Q is the negative weighted sum of the true primal arrow tensors. Under hypothetical joint S1/U1 it forces some selected arrow to be negative. This uses the existing floor-dual identity; it is not an all-SPD U2 assertion.
 
 For arbitrary finite f-vector joint S1/U1 polytopes, the common adjacent cap is 41/5, condition is below 1681/25, and both normalized matrices have the common window
 
@@ -515,7 +515,7 @@ and the analogous window for the normalized inverse. For Euclidean physical M=I 
 \sqrt{125/5733}\,B\subset P\subset\sqrt{8405/637}\,B,
 \]
 
-with radius ratio strictly below 123/5. These follow from the actual covariance sandwich; an anisotropic physical-metric reset is not made. fileciteturn23file11L68-L82
+with radius ratio strictly below 123/5. These follow from the actual covariance sandwich; an anisotropic physical-metric reset is not made.
 
 The universal maxima over covariance-normalized bodies remain attained, by the retained compact sandwich and moment continuity. Thus the current strict brackets are
 
@@ -524,7 +524,7 @@ The universal maxima over covariance-normalized bodies remain attained, by the r
 \qquad 5.088862048<\mathcal U_3<8.2.
 \]
 
-The lower endpoints are inherited actual-body results, not the nonphysical number in (18). The literal pyramid P0, simplicial bipyramid controls and cut/cut/stack E17 family are unchanged. fileciteturn29file0L165-L169 fileciteturn30file0L14-L20
+The lower endpoints are inherited actual-body results, not the nonphysical number in (18). The literal pyramid P0, simplicial bipyramid controls and cut/cut/stack E17 family are unchanged.
 
 ## 8. What was tried and what remains
 
@@ -532,7 +532,7 @@ The useful change was to allow projective denominators with a genuine support-di
 
 Exploratory larger probe and moment lists did not establish a stronger certified universal constant than the one returned here. No conclusion of feasibility or impossibility is drawn from those failures. The full oblique hierarchy, the sharp geometric constant, and a direct relation to true escape-path configurations remain unresolved by this result.
 
-No regional atlas has been rerun with the new floor, and no equilibrium census is transferred through an auxiliary projective refill. A change of auxiliary reference still changes the transported physical matrix. The minimum bracket **34≤C_min≤622**, all root/incidence counts, and the attaining upper construction are unchanged. fileciteturn23file0L10-L11
+No regional atlas has been rerun with the new floor, and no equilibrium census is transferred through an auxiliary projective refill. A change of auxiliary reference still changes the transported physical matrix. The minimum bracket **34≤C_min≤622**, all root/incidence counts, and the attaining upper construction are unchanged.
 
 The most useful continuation is to couple additional actual directional support information or true path vertices to the oblique common-law tests. Section 6 identifies exactly why supplying more tests in only the old vertical direction cannot replace that missing geometry.
 
@@ -573,7 +573,7 @@ Its exact saved output reproduces the literal caps and duals in Source A. Floati
 
 The reports include the complete regenerated polynomial coefficient arrays, cover paths, exact minima, moments and spectral constants. Their hashes are pins, not substitutes for data: every array regenerates from the literal source without a download.
 
-Convenience copies: [Source A](sandbox:/mnt/data/joint_support_v5/oblique_refill_41_over_5.py), [Source B](sandbox:/mnt/data/joint_support_v5/axial_common_law_barrier.py), [Source C](sandbox:/mnt/data/joint_support_v5/locate_oblique_duals.py), [A report](sandbox:/mnt/data/joint_support_v5/oblique_refill_report.out), [B report](sandbox:/mnt/data/joint_support_v5/axial_barrier_report.out), [locator output](sandbox:/mnt/data/joint_support_v5/located_duals.json), and [Markdown handoff](sandbox:/mnt/data/joint_support_v5/result_markdown_v5.md).
+Convenience copies: Source A (`oblique_refill_41_over_5.py`), Source B (`axial_common_law_barrier.py`), Source C (`locate_oblique_duals.py`), A report (`oblique_refill_report.out`), B report (`axial_barrier_report.out`), locator output (`located_duals.json`), and Markdown handoff (`result_markdown_v5.md`).
 
 ### Source A: oblique_refill_41_over_5.py
 

@@ -12,7 +12,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 The new ingredient is a **same-body root-and-section moment constraint**. At the smaller remaining endpoint height, the actual section area and upper-cap volume are determined by the same original C-fan data that determine `E`. A root-area inequality alone is insufficient; an exact nonbody control below demonstrates that failure. Adding the actual-section constraint permits an exact six-variable exclusion. No endpoint, frame, root-edge, or full joint stationarity is assumed.
 
-The starting parent is literal `minimum-0170`, SHA-256 `a9c5e679db7f7205a17ee83ce9b8196b26960822b4fe5e8e9089082458a5e279`. Its actual four-corner reduction supplies a bounded polygonal successor for a general convex root, without changing `V,E`, and without decreasing `N`. The present work resolves its remaining value problem, rather than repeating its horizon repair. :contentReference[oaicite:0]{index=0}
+The starting parent is literal `minimum-0170`, SHA-256 `a9c5e679db7f7205a17ee83ce9b8196b26960822b4fe5e8e9089082458a5e279`. Its actual four-corner reduction supplies a bounded polygonal successor for a general convex root, without changing `V,E`, and without decreasing `N`. The present work resolves its remaining value problem, rather than repeating its horizon repair.
 
 ## 1. Theorem, actual integrals, and inherited inputs
 
@@ -47,9 +47,9 @@ N=(1+b+c)Jx+(1+b+d)Jy.
 
 The proof uses precisely the following **previously accepted actual-body bounds**, with their stated scope in the supplied working memory. These are inherited analytic inputs, not newly rerun older certificates:
 
-* A genuine `T>=51/25` body has `1<t<45/7`. :contentReference[oaicite:1]{index=1}
-* After reflecting `x<->y` and `c<->d`, write `c=max(c,d)>=1`. High trace requires `d<3/4` and `c<943(1+b)/1352`. Consequently `b>409/943` and `c<943/676`. These endpoint bounds apply to actual shapes, not only stationary maxima. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
-* With `u=4gx,v=4gy,w=4gz`, the accepted canonical actual-mass inequality is `u+v+w<=t+2`. Also `u,v,w>=1` here: a positive fan from respectively `D,C,B` proves these lower bounds directly because all coordinates are nonnegative. The upper sum bound is the supplied `z0<=t+2-(u+v)` statement. :contentReference[oaicite:4]{index=4}
+* A genuine `T>=51/25` body has `1<t<45/7`.
+* After reflecting `x<->y` and `c<->d`, write `c=max(c,d)>=1`. High trace requires `d<3/4` and `c<943(1+b)/1352`. Consequently `b>409/943` and `c<943/676`. These endpoint bounds apply to actual shapes, not only stationary maxima.
+* With `u=4gx,v=4gy,w=4gz`, the accepted canonical actual-mass inequality is `u+v+w<=t+2`. Also `u,v,w>=1` here: a positive fan from respectively `D,C,B` proves these lower bounds directly because all coordinates are nonnegative. The upper sum bound is the supplied `z0<=t+2-(u+v)` statement.
 
 Thus a putative counterexample lies in the closed overcover
 
@@ -388,7 +388,7 @@ The residual chart has no inverse-horizon singularity and no division by `1-b`, 
 
 For a marked-closure body with `F` touching a coordinate plane, contracting `F` toward a point of it with positive x and y gives proper approximants. Original moments converge, so the proper theorem gives the conservative extension **`T<=51/25`** in that closure. Strictness there is not claimed by this limit argument, and enlarged coordinate faces must not be called maximal triangles.
 
-J55 and this complement now cover all positive-endpoint positive-octant root-only bodies with `a>b`. J55's stronger `203/100` constant has not been transferred to the high-endpoint sector. :contentReference[oaicite:5]{index=5}
+J55 and this complement now cover all positive-endpoint positive-octant root-only bodies with `a>b`. J55's stronger `203/100` constant has not been transferred to the high-endpoint sector.
 
 The sharp high-endpoint supremum remains undetermined. The most useful continuation is the negative-z root-only sector: investigate the same actual-cut synchronization, but replace or translate the quadrant area-product argument while retaining every resulting offset moment. No full endpoint reaction may be imposed merely to reuse this proof. No E17/FULL/LOCAL registry change or whole mechanical exclusion is asserted without an exact incidence bridge.
 
@@ -433,7 +433,7 @@ identities.txt: 52 bytes, SHA256 4f445f0a23dc0278a1acb5e8a2aedef59028c5f7d654093
 
 The additional terminal markers are `HIGH_ENDPOINT_ORIGINAL_BODY_SECTION_AUDIT_PASS` and `HIGH_ENDPOINT_FAN_SECTION_AND_TRACE_IDENTITIES_PASS`. Normal execution, clean source-only recovery, and a C++ run with undefined-behavior sanitization were completed; reports match byte-for-byte. The analytic geometric argument is not a proof-assistant formalization. The old global endpoint/mass proofs remain inherited at the explicitly stated evidence tier.
 
-Convenience files: [recovery capsule](sandbox:/mnt/data/recover_high_endpoint.py), [integer certificate source](sandbox:/mnt/data/high_value_exact.cpp), [rational body audit](sandbox:/mnt/data/high_value_controls.json). The complete inline capsule is the durable recovery source.
+Convenience files: recovery capsule (`recover_high_endpoint.py`), integer certificate source (`high_value_exact.cpp`), rational body audit (`high_value_controls.json`). The complete inline capsule is the durable recovery source.
 
 ```python
 # Recover all sources for POSITIVE_OCTANT_HIGH_ENDPOINT_TRACE_51_OVER_25_V1.

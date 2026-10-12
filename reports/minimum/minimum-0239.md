@@ -20,13 +20,13 @@ The adverse-spoke frontier splits into three genuinely different mechanisms. Thi
 
 The last construction uses a new uniform-moment fact: **any two distinct lateral triangular facets provide a rank-three centroid actuator when each plane is allowed to rotate about its fixed top vertex**. Their top vertices may be nonsimple and may even be the same vertex. The actual uniform centroid, through its strict quarter-height inequality, rules out the rank-collapse value. This is stronger than requiring two completely plane-movable facets.
 
-These are analytic results. No new physical input, numerical search, interval computation, exact output file or execution certificate is asserted. In particular there is no supplied weak S1U1 body. For an actual weak S1U1 input satisfying one of the new hypotheses, regularization gives proper110 at the same lattice. The accepted internal interval remains 34<=C_min<=622. fileciteturn26file0L9-L13
+These are analytic results. No new physical input, numerical search, interval computation, exact output file or execution certificate is asserted. In particular there is no supplied weak S1U1 body. For an actual weak S1U1 input satisfying one of the new hypotheses, regularization gives proper110 at the same lattice. The accepted internal interval remains 34<=C_min<=622.
 
 ## 2. Authority and notation
 
 The complete new journal, including the entire immutable parent payload, was read through EOF. Its mounted-byte check matches 332494 bytes and SHA256 `827ca1c14fe203e15d0e30b7da3857baa34dce7aca41fb74eb7c1e4a965d7b0c`.
 
-The direct parent is `minimum-0236`, SHA256 `2cdfe63ea89504b3f6471af8939a5307ee172baa38fd23e5e1493804f8130477`, **PARALLEL_HEPTAGON_TRIANGLE_FULL_PACKET_ESCAPE_V1**. Its full actual-centroid recipe and paired VF argument are retained. No conflict with that literal payload was found. fileciteturn33file0L90-L120
+The direct parent is `minimum-0236`, SHA256 `2cdfe63ea89504b3f6471af8939a5307ee172baa38fd23e5e1493804f8130477`, **PARALLEL_HEPTAGON_TRIANGLE_FULL_PACKET_ESCAPE_V1**. Its full actual-centroid recipe and paired VF argument are retained. No conflict with that literal payload was found.
 
 Throughout, P is a genuine uniformly filled V10/E17/F9 body at its actual volume centroid 0. Its two parallel true end facets are F, a heptagon, and T, a triangle. An edge between the ends is a spoke. Use one physical SPD metric M and its actual inverse N=M^-1.
 
@@ -36,7 +36,7 @@ After one constant physical linear normalization and a rotation, write
     F: z=h,       T: z=k,       h>0>k,
     q_F=e_z/h,    q_T=e_z/k.                              (2.1)
 
-There are seven spokes, exactly one at each F vertex. The boundary is F, T, three lateral quads and four lateral triangles. The seven lateral facets form a cycle, with consecutive members meeting along spokes. These are the parent's true-incidence facts, not a boundary triangulation. fileciteturn33file0L138-L167
+There are seven spokes, exactly one at each F vertex. The boundary is F, T, three lateral quads and four lateral triangles. The seven lateral facets form a cycle, with consecutive members meeting along spokes. These are the parent's true-incidence facts, not a boundary triangulation.
 
 A packet is *carried* by an end when its VEs use edges of that end and its EF/VF is borne by that end. Points on an end but borne by a lateral facet are not automatically in the carried packet.
 
@@ -51,7 +51,7 @@ At a spoke EF, r is its bearing pole, s the other lateral pole, and
     p=N r/rho in relint(spoke),
     gamma=(q_F^T N r)[q_F^T N(s-r)].                     (2.3)
 
-Only physical points are counted. In particular a VF represented on two edges remains one point. Keeping all originally nonzero primitive signs and providing positive exits for the original weak vertex/facet groups retains every original strict label and creates no other equilibrium. The supplied index theorem gives S+U-H=2 even with weak points, so actual weak S1U1 already has H=0. fileciteturn26file8L78-L93 fileciteturn26file8L7-L13
+Only physical points are counted. In particular a VF represented on two edges remains one point. Keeping all originally nonzero primitive signs and providing positive exits for the original weak vertex/facet groups retains every original strict label and creates no other equilibrium. The supplied index theorem gives S+U-H=2 even with weak points, so actual weak S1U1 already has H=0.
 
 ## 3. The other normal direction: an unconditional adverse-sign class
 
@@ -73,11 +73,11 @@ For an original spoke EF,
 
 The sign follows from h^2 gamma=r_z(s_z-r_z)<0. All such EFs are opened at order one by the SAME direction. Both end feet and tangent restrictions remain fixed, and every end-carried zero row remains exactly zero.
 
-The literal parent's subsequent top-tilt response matrices are affine pencils in lambda. Their determinant polynomials are nonzero: the two-VE leading determinant is k^2 det(e_1,e_2), the exceptional EF/VE determinant has its nonzero incidence-forced linear coefficient, and the VF mismatch matrix has leading determinant k^2. Consequently their rational inverses have the same pole-order bounds along lambda=1+t as along lambda=1-t. No polynomial nonzero on one side becomes identically zero on the other. fileciteturn34file0L127-L195 fileciteturn35file0L9-L42
+The literal parent's subsequent top-tilt response matrices are affine pencils in lambda. Their determinant polynomials are nonzero: the two-VE leading determinant is k^2 det(e_1,e_2), the exceptional EF/VE determinant has its nonzero incidence-forced linear coefficient, and the VF mismatch matrix has leading determinant k^2. Consequently their rational inverses have the same pole-order bounds along lambda=1+t as along lambda=1-t. No polynomial nonzero on one side becomes identically zero on the other.
 
 Thus replace every occurrence of 1-t in those response inverses by 1+t. For simple top packets use L(t)=t^5 A(1+t)^-1 1; for a lone top VF use t^5 R(1+t)^-1 w; for top VF+VE use t^7 R(1+t)^-1 w, choosing w from the leading Laurent row on this side. The pointed VF bad cone again guarantees a compatible choice. Top exits have the same orders five through nine and the actual tilt is O(t^3) or smaller. It cannot destroy (3.2).
 
-Open F at amplitude t^10 and use the parent's exact fixed-F neutrality. Both members of every selected VF pair are retained, including at right corners. The actual fan centroid is recomputed under each shape change, and M_lambda,N_lambda remain one inverse pair. The parent's final positive-guard argument now proves the theorem. Its complete reconstruction supplies the underlying tilt and centroid formulas; this change is precisely the opposite sign of the normal parameter and the corresponding one-sided Laurent choices. fileciteturn35file0L44-L143
+Open F at amplitude t^10 and use the parent's exact fixed-F neutrality. Both members of every selected VF pair are retained, including at right corners. The actual fan centroid is recomputed under each shape change, and M_lambda,N_lambda remain one inverse pair. The parent's final positive-guard argument now proves the theorem. Its complete reconstruction supplies the underlying tilt and centroid formulas; this change is precisely the opposite sign of the normal parameter and the corresponding one-sided Laurent choices.
 
 This is not applicable in the presence of an additional spoke VE, a lateral VF at an end, or a lateral-bearing EF on an end boundary: those are opened by the opposite normal direction in the parent. Nor does (3.1) resolve gamma=0. Those limitations motivate the next constructions.
 
@@ -169,7 +169,7 @@ When the other cross contacts are present, sigma=+1. The parent supplies a stric
 
 All original nonzero signs persist locally. At each sufficiently small t>0 the only remaining weak points are end-carried points, and the strict labels are still exactly the original ones. There are no surviving spoke EFs. Apply the literal parent theorem to this actual body and metric, obtaining regularizations arbitrarily close to it. Choose the additional displacement smaller than both t^2 and a neighborhood preserving all its already positive selected exits. This explicitly protects the first-stage work; no unproved sequential isolation is used.
 
-These proper realizations accumulate at the original body with its original metric. The local true-lattice, actual-centroid, common-inverse and selected-sign conditions are semialgebraic in the supplied rational realization description. Consequently a Nash curve can be selected through the original point into that successful class. This last step supplies one analytic arc, rather than only an accumulating sequence; it does not supply the parent's small order-ten bound for this two-stage construction. The curve-selection input is classical, not a new result here. fileciteturn31file0L111-L114 citeturn589756academia1
+These proper realizations accumulate at the original body with its original metric. The local true-lattice, actual-centroid, common-inverse and selected-sign conditions are semialgebraic in the supplied rational realization description. Consequently a Nash curve can be selected through the original point into that successful class. This last step supplies one analytic arc, rather than only an accumulating sequence; it does not supply the parent's small order-ten bound for this two-stage construction. The curve-selection input is classical, not a new result here.
 
 ### Useful automatic subcases
 
@@ -227,7 +227,7 @@ At actual centroid zero, the derivative of the uniform centroid is
 
     D_p g=-(w/V)T_p.                                    (7.2)
 
-This follows from the actual boundary normal velocity -(delta p.x)/|p| and differentiation of the volume first moment. The matrix T_p is SPD: a nonzero linear form cannot vanish on an open subset of an affine facet plane not through zero. The inherited whole-facet derivative agrees with (7.2). fileciteturn28file0L20-L23
+This follows from the actual boundary normal velocity -(delta p.x)/|p| and differentiation of the volume first moment. The matrix T_p is SPD: a nonzero linear form cannot vanish on an open subset of an affine facet plane not through zero. The inherited whole-facet derivative agrees with (7.2).
 
 Since every F vertex is simple, its entire supporting plane can move in three parameters. Equation (7.2) is invertible. The analytic implicit function theorem therefore gives a unique nearby pole q_F(t) keeping the ORIGINAL uniformly filled body's actual centroid zero, while preserving all prescribed r_i(t) and q_0. All moments are computed from the genuine oriented fan, not from freely chosen masses.
 
@@ -417,7 +417,7 @@ The top-fixed construction handles mixed signs by a different actual shape mecha
 
 A residual nonregularizable weak S1U1 input must defeat all of these applicable classes. In particular it must have an adverse or blind spoke EF by the parent, and it cannot be a strict-negative-only spoke packet with all other points end-carried. A blind packet may still fail the tangential half-plane condition. Mixed signs may couple a spoke-EF row directly to the protected end footprint, consume the lateral triangles needed for centroid repair, or create a fixed-node positivity-propagation conflict in (9.2).
 
-These are precisely delimited failures of particular mechanisms. They are not a construction of a nonregularizable body. The most concrete remaining coupling is an EF whose forced basal VE makes both its poles part of the end-protection footprint. Equal-height blind EFs below the centroid necessarily have such a basal partner by Section 6. The old reflection example shows that this overlap can nevertheless be rescued by a genuine shape change, so it is not itself an obstruction; that unchanged example remains strict446, not110. fileciteturn32file0L83-L87
+These are precisely delimited failures of particular mechanisms. They are not a construction of a nonregularizable body. The most concrete remaining coupling is an EF whose forced basal VE makes both its poles part of the end-protection footprint. Equal-height blind EFs below the centroid necessarily have such a basal partner by Section 6. The old reflection example shows that this overlap can nevertheless be rescued by a genuine shape change, so it is not itself an obstruction; that unchanged example remains strict446, not110.
 
 No universal feasibility result for the complete four-dimensional calibrated heptagon class follows. Nor does this continuation close nonparallel end geometry, other heptagonal incidences, the whole E17 layer, or the separate attaining problem.
 

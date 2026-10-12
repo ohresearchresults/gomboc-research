@@ -20,7 +20,7 @@ All new computational certificates, controls, the generic rational single-vertex
 
 Read the entire current journal, including the literal parent and its complete executable source, through EOF. Current journal research-journal(20260920-140556).md: 312753 bytes, SHA-256 a618320f58fc3cf14c7406c3729d248a963f18487f4facf61bb91211fc366c8e. Unchanged earlier materials remain the earlier supplied evidence; no inaccessible archive was assumed.
 
-Required parent: **minimum-0123**, supplied immutable SHA-256 **cfcf3fdd7e401178bd9b9626830ba970f0460a54e11105158977d888331d4f9d**. No scientific, incidence, or alias conflict was found. Its 38/37 and 18/17 figures count true vertices and are not trace bounds. Its actual-moment coupling and its fixed-root deletion obstruction are retained. :contentReference[oaicite:0]{index=0}
+Required parent: **minimum-0123**, supplied immutable SHA-256 **cfcf3fdd7e401178bd9b9626830ba970f0460a54e11105158977d888331d4f9d**. No scientific, incidence, or alias conflict was found. Its 38/37 and 18/17 figures count true vertices and are not trace bounds. Its actual-moment coupling and its fixed-root deletion obstruction are retained.
 
 There is now an observed replay of the parent's formerly unreceipted audit. Its unchanged extracted root_trace_audit_v1.py is 10751 bytes, SHA-256 **aa1391a86e83f6d427567562ad55cf816ba4249f6946f5e320bacc6d4c627b6d**. Both build and verify printed ROOT_FIXED_ROOT_DELETION_EXACT_PASS for the 70968-byte report, SHA-256 **36a384c42671eba668c8c7d2cf1ca123ccba9ae3f497ca7395b9f1f54577b5f5**. This closes an execution-receipt gap, not a mathematical gap or a new trace exclusion.
 
@@ -168,7 +168,7 @@ Thus both are individually fixed once volume is fixed. This is an actual 10/21/1
 
 Its value is between 2 and 2.001. Complete coordinates reconstruct from the parent's literal parameters, which are also embedded in the new independent generator. This obstruction is only to an individual fixed-volume move; it is not an obstruction to joint vertex/facet motions.
 
-If a step reaches a coordinate patch, the quotient from the unchanged n and ell is explicitly a marked-patch functional, not a trace of two falsely relabelled triangles. The original positive-area root has not disappeared. For a strict value above 51/25, the accepted root-preserving patch resolution transfers it to nearby genuine triangular-pair bodies. An endpoint value exactly 51/25 still requires an equality argument. The reduction does not settle that boundary. :contentReference[oaicite:1]{index=1}
+If a step reaches a coordinate patch, the quotient from the unchanged n and ell is explicitly a marked-patch functional, not a trace of two falsely relabelled triangles. The original positive-area root has not disappeared. For a strict value above 51/25, the accepted root-preserving patch resolution transfers it to nearby genuine triangular-pair bodies. An endpoint value exactly 51/25 still requires an equality argument. The reduction does not settle that boundary.
 
 Once a genuine root-only endpoint with 0<b<1,c,d>0 is reached, the parent's finite-vertex reduction remains available. It does not become a trace bound merely by composition with this new reduction. The unresolved alternatives are the individually rigid auxiliary strata, joint deformations across those strata, the root-only maximum itself, and the global threshold-equality boundary. No uniform bound on the terminal number of vertices or facets is proved. This is a finite-polytope reduction, not a bounded-complexity reduction for arbitrary nonpolyhedral maximizers in the compact closure.
 
@@ -361,7 +361,7 @@ Original build/verify and a fresh source-only extraction/build/verify all comple
 
 Observed terminal markers include AUXILIARY_TRACE_EXACT_PASS, FIXED_VOLUME_TWO_GENUINE_ROOT_COLLISIONS_PASS, and AUXILIARY_TRACE_SELF_CONTAINED_RECOVERY_PASS. The source regenerates every exact polynomial, supporting row, coefficient, actual body, and moment in the report; report hashes are not substitutes for missing recovery data.
 
-Convenience copies: [complete recovery](sandbox:/mnt/data/recover_auxiliary_trace_v1.py), [plain generic routine and verifier](sandbox:/mnt/data/auxiliary_trace_v1.py), and [complete sources and reports](sandbox:/mnt/data/auxiliary_trace_v1_complete.zip). The embedded recovery, not these links, is the durable handoff.
+Convenience copies: complete recovery (`recover_auxiliary_trace_v1.py`), plain generic routine and verifier (`auxiliary_trace_v1.py`), and complete sources and reports (`auxiliary_trace_v1_complete.zip`). The embedded recovery, not these links, is the durable handoff.
 
 ### Autonomous recovery source
 

@@ -14,7 +14,7 @@ The substantive outputs are: a complete description of **all convex fixed-z chor
 
 I read the entire 906-line attached journal, both five-hinge capsules, and the complete JSON coordinator payload, including its literal source units. The required IDs were `[internal-source-reference]`, `[internal-source-reference]`, and `[internal-source-reference]`. No additional archive, parent coordinate file, research connector, or journal mutation was used. There is no missing dependency for the results below.
 
-The supplied five-hinge construction is a convex, actual-mass chart, not an equilibrium certificate; its stated open complex is V64/E180/F118. The supplied finite joint searches do not exclude that chart or more general fractional transfers. My new construction does not reinterpret those finite failures as a theorem. The old all-direction uniform-mixing exclusion is also left intact. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The supplied five-hinge construction is a convex, actual-mass chart, not an equilibrium certificate; its stated open complex is V64/E180/F118. The supplied finite joint searches do not exclude that chart or more general fractional transfers. My new construction does not reinterpret those finite failures as a theorem. The old all-direction uniform-mixing exclusion is also left intact.
 
 The sole geometric input needed by the new capsule is the original `farthest_merged_G10000.json`, 2051 bytes, SHA-256 `89599e0825f7075c151639b70d9db5959fcdc058c0be555d1a96d8598ccdea3e`. Its 53 integer points, grid10000, and 102 oriented triangles are included in full inside the recovery capsule. No C318 labels or C318 obstruction are transferred to it.
 
@@ -441,6 +441,6 @@ print('QR11_COMPLETE_SOURCE_RECOVERY_PASS',len(z['files']))
 | `Y9_D20_MID_EXACT.json` | 99938 | `d9121b14fe02e809009e871044443153dae5066df41fd1fe2070421736fb38a3` |
 | `Y9_D20_MID_AUDIT.json` | 4423 | `8c31c5cb1415fd6567848c3483a3a3279ed95bec2ba7225732c9523983cd6ba7` |
 
-Supplemental copies of the readable sources, all principal and extended exact objects, manifests and executed replay logs are in the [proof/source archive](sandbox:/mnt/data/QR11_FRACTIONAL_HANDOFF.zip) (1149011 bytes; SHA-256 `2119e1fdf1b09a8c00073f13ece90916377a13998249140303849992758f2cb9`). This archive is optional: the complete reconstruction input and source are embedded above.
+Supplemental copies of the readable sources, all principal and extended exact objects, manifests and executed replay logs are in the proof/source archive (`QR11_FRACTIONAL_HANDOFF.zip`) (1149011 bytes; SHA-256 `2119e1fdf1b09a8c00073f13ece90916377a13998249140303849992758f2cb9`). This archive is optional: the complete reconstruction input and source are embedded above.
 
 **Acceptance boundary:** a new 64-dimensional exact parameterization, exact complexity law, complete support-six screen, and a C580 family are established; C328 is an exact own121/weak000 nonwinner. No own110 successor or exclusion of the surviving constructive families is claimed.

@@ -239,7 +239,7 @@ The four endpoint cold replays reproduced their exact audit bytes. The Bernstein
 | `exact/RAY_100/audit.json` | 31575791 | `52ecb51e520bce4840c9ecfec9324093ef161b86c9f4bd294797c942a3e4a8d5` |
 | `exact/RAY_3/audit.json` | 38244021 | `94a02b6af215a78270033338d31fefbcf65ec14a32bf6fbc1e7f95925be4ef66` |
 
-For convenience, the same sources and generated exact reports are also packaged in [the continuation archive](sandbox:/mnt/data/RA41/RA41_sources_and_exact_audits.zip). That file is supplementary; the following literal capsule is sufficient on its own.
+For convenience, the same sources and generated exact reports are also packaged in the continuation archive (`RA41_sources_and_exact_audits.zip`). That file is supplementary; the following literal capsule is sufficient on its own.
 
 ```python
 import base64,hashlib,json,lzma

@@ -30,7 +30,7 @@ The inline recovery reconstructs22 independent base freezes, of which16 are211, 
 
 The complete current journal was read through EOF, including the literal parent `figure-0484`, supplied assignment SHA `ac0aeef2e480e71f41eb36d17df18fb0e24e3e7aa21ac16f05385e5eae07048a`. All23 decoded parent source units were read completely. The current journal bytes were235309, SHA `1281223e881c632936c227b69df017d8b312f8ee190f358435dfc07c9415d51c`.
 
-The parent was reconstructed without rerunning either excluded F9 atlas. Its actual C68 report reproduced40302 bytes and SHA `c32b1d309d81b156acabdf98e4d5cce95a1bc09e11dd5f22368dcdb9e23a006d`. This verifies the exact V21/E34/F15, degree-four-contact entrance rather than its previously rejected floating V26/E39 surrogate. Both old packets had already been removed at that entrance; its transferred stable pentagon, cap nonagon and remaining physical/polar features were the starting geometry. :contentReference[oaicite:0]{index=0}
+The parent was reconstructed without rerunning either excluded F9 atlas. Its actual C68 report reproduced40302 bytes and SHA `c32b1d309d81b156acabdf98e4d5cce95a1bc09e11dd5f22368dcdb9e23a006d`. This verifies the exact V21/E34/F15, degree-four-contact entrance rather than its previously rejected floating V26/E39 surrogate. Both old packets had already been removed at that entrance; its transferred stable pentagon, cap nonagon and remaining physical/polar features were the starting geometry.
 
 The advertised enclosing assignment SHA is provenance supplied by the runtime. I verified the decoded source dictionary and exact geometry/report bytes, not a matching digest of the citation-rendered enclosing Markdown. No row, incidence or class conflict was found. Other branches' C84/C336 and bipyramid coordinate parents were not supplied and were not silently used. No inaccessible source is needed for any exact object below.
 
@@ -229,7 +229,7 @@ CALM_RAVEN68_INLINE_EXACT_RECOVERY_PASS
 
 Source-only cold reconstruction was executed successfully. Complete numerical producer source units and the principal deterministic discovery chain from the literal F9/C68 inputs are also included. Optional rediscovery is `python -B PRINCIPAL_NUMERIC_REPLAY.py` in a fresh recovered directory, using the observed NumPy2.3.5/SciPy1.17.0/Torch2.10.0+cpu, float64 and single BLAS/OpenMP threads. This numerical chain was not cold-replayed end-to-end, and numerical trajectories/termination are not promised bitwise portable. Exact successors are recovered directly from their complete literal rational inputs and do not depend on reproducing those trajectories.
 
-Original binary64 pin files are supplied as a convenience in [the complete source-and-pin archive](sandbox:/mnt/data/CR68_FULL_SOURCES_AND_PINS.zip),119616 bytes, SHA `f792900f453cdcb3b28cbb8d43bd0a5f8cbba4ec278bacca1e4cb1db78091fa5`; they are not needed to recover or continue any promoted rational body. [The same recovery program](sandbox:/mnt/data/RECOVER_CR68_U1.py) is also available separately. The full continuation-critical recovery program follows inline.
+Original binary64 pin files are supplied as a convenience in the complete source-and-pin archive (`CR68_FULL_SOURCES_AND_PINS.zip`),119616 bytes, SHA `f792900f453cdcb3b28cbb8d43bd0a5f8cbba4ec278bacca1e4cb1db78091fa5`; they are not needed to recover or continue any promoted rational body. The same recovery program (`RECOVER_CR68_U1.py`) is also available separately. The full continuation-critical recovery program follows inline.
 
 ```python
 #!/usr/bin/env python3

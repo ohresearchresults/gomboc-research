@@ -191,17 +191,17 @@ Still-open combinatorial domains are branch-specific double/multiple deletions c
 
 ## Reusable artifacts
 
-- [Complete continuation bundle](sandbox:/mnt/data/santalo_asym_two_rail_family_bundle.zip)
-- [Root report](sandbox:/mnt/data/santalo_asym_two_rail_family/root_report.json)
-- [Family and complete topology graph](sandbox:/mnt/data/santalo_asym_two_rail_family/family_and_topology_graph.json)
-- [Independent binary verifier](sandbox:/mnt/data/santalo_asym_two_rail_family/verify_family_standalone.py)
-- [Independent interval/Krawczyk verifier](sandbox:/mnt/data/santalo_asym_two_rail_family/interval_certificate_standalone.py)
-- [Normalized Q V-coordinates](sandbox:/mnt/data/santalo_asym_two_rail_family/Q_centered_normalized_V.csv)
-- [Normalized P V-coordinates](sandbox:/mnt/data/santalo_asym_two_rail_family/P_centroid_normalized_V.csv)
-- [P H-coordinates](sandbox:/mnt/data/santalo_asym_two_rail_family/P_H.csv)
-- [Q H-coordinates](sandbox:/mnt/data/santalo_asym_two_rail_family/Q_H.csv)
-- [Q OBJ](sandbox:/mnt/data/santalo_asym_two_rail_family/Q_centered_normalized.obj) and [Q STL](sandbox:/mnt/data/santalo_asym_two_rail_family/Q_centered_normalized.stl)
-- [P OBJ](sandbox:/mnt/data/santalo_asym_two_rail_family/P_centroid_normalized.obj) and [P STL](sandbox:/mnt/data/santalo_asym_two_rail_family/P_centroid_normalized.stl)
-- [Prior exact rational C=104 anchor bundle](sandbox:/mnt/data/santalo_asymmetric_nearobject_bundle.zip)
+- Complete continuation bundle (`santalo_asym_two_rail_family_bundle.zip`)
+- Root report (`root_report.json`)
+- Family and complete topology graph (`family_and_topology_graph.json`)
+- Independent binary verifier (`verify_family_standalone.py`)
+- Independent interval/Krawczyk verifier (`interval_certificate_standalone.py`)
+- Normalized Q V-coordinates (`Q_centered_normalized_V.csv`)
+- Normalized P V-coordinates (`P_centroid_normalized_V.csv`)
+- P H-coordinates (`P_H.csv`)
+- Q H-coordinates (`Q_H.csv`)
+- Q OBJ (`Q_centered_normalized.obj`) and Q STL (`Q_centered_normalized.stl`)
+- P OBJ (`P_centroid_normalized.obj`) and P STL (`P_centroid_normalized.stl`)
+- Prior exact rational C=104 anchor bundle (`santalo_asymmetric_nearobject_bundle.zip`)
 
 Both standalone verifiers return `PASS` after a clean unzip. Bundle SHA-256: `e367b454b81ed826f4c217059e4cc7f38f82b1878826eb3a7194ffb171ef3b7d`. Manifest SHA-256: `e161ddfbbfce37b94b81b5e1919f17a66d7b95b4c5895c7740934785f483531e`.

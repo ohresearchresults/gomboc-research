@@ -20,7 +20,7 @@ All promoted endpoint claims below were executed with exact rational hull, mass,
 
 The new403079-byte research-journal.md, SHA256 **d0a9e98a7ec6179edff1f7f6e79001be1c854d87fb365e29248df0f03082c6db**, was read through **EOF1977**, including the entire direct immutable parent **figure-0605**, SHA256 **99e7202b5c1842e9fcdcb80543981fe5834bb5774be8ab4815955fe0fcfbda7c**. Its complete BH18_MAIN_CAP.py was extracted unchanged:17940 bytes, SHA256 **fd78f9d253871dfef02fd0939785a5e2a94113039c9b1485fabe7e94c9179a56**.
 
-That parent supplied the finite reference-U1 cap but explicitly had no observed own census. Its literal underlying body is BH18_FINAL49_REPAIRED_G6 from **figure-0592**, SHA256 **d577f7aba424866ea8acf49ca911ab012bab826aff94dad92b447caa5505773a**:49/141/94, own211/weak000, P[], Q≈.6626794440888322, original junior triangle{7,27,18}, elder{20,36,48}, U12, H45--47. These identities were not replaced by an alias or by the former unconfirmed FOREST/EV/CCBEST files. fileciteturn22file0L11-L25
+That parent supplied the finite reference-U1 cap but explicitly had no observed own census. Its literal underlying body is BH18_FINAL49_REPAIRED_G6 from **figure-0592**, SHA256 **d577f7aba424866ea8acf49ca911ab012bab826aff94dad92b447caa5505773a**:49/141/94, own211/weak000, P[], Q≈.6626794440888322, original junior triangle{7,27,18}, elder{20,36,48}, U12, H45--47. These identities were not replaced by an alias or by the former unconfirmed FOREST/EV/CCBEST files.
 
 Earlier unchanged same-chat evidence was retained. I did not rerun the older37-unit/51-output parent package merely for authentication, and do not claim to have decoded and read every old inner module in this turn. The complete new recovery below has no dependency on that old workspace. One initial ambiguous Files reference returned the older2047-line journal; using the explicit new file ID resolved it. This was a retrieval-reference mismatch, not a conflict between constructions.
 
@@ -286,7 +286,7 @@ The newly established obstruction says not to keep the geometry inside the entir
 
 No simultaneous110, full-bar cancellation, optimality claim, or global family impossibility is inferred. The primary gain is a source-complete finite mass/geometric escape and two exact exclusions that materially change which next construction is worth attempting.
 
-Supplementary copies: [complete execution and traces](sandbox:/mnt/data/BH18_CAP_CONTINUATION_FULL.zip), [recovery script](sandbox:/mnt/data/RECOVER_BH18_CAP_CONTINUATION.py), [complete Markdown handoff](sandbox:/mnt/data/BH18_CAP_RESULT.md). The inline capsule below, not these links, supplies durable recovery.
+Supplementary copies: complete execution and traces (`BH18_CAP_CONTINUATION_FULL.zip`), recovery script (`RECOVER_BH18_CAP_CONTINUATION.py`), complete Markdown handoff (`BH18_CAP_RESULT.md`). The inline capsule below, not these links, supplies durable recovery.
 
 ## Complete lossless source/input capsule
 

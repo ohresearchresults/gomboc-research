@@ -324,23 +324,23 @@ This is the smallest operation not already subsumed by the failed one-sided, iso
 
 ## Reproducible artifacts
 
-- [Complete exact fallback bundle](sandbox:/mnt/data/p28_double_y_exact_fallback_bundle.zip) — SHA-256 `32bc03d1a07e98dc54127d3d4ca598269e4b39c75d3218025448c6b863af1fac`.
-- [Bundle README](sandbox:/mnt/data/p28_double_y_exact_fallback/README.md)
-- [Full exact certificate](sandbox:/mnt/data/p28_double_y_exact_fallback/p17_exact.json)
-- [Deterministic exact generator](sandbox:/mnt/data/p28_double_y_exact_fallback/generate_p17_exact.py)
-- [Independent exact verifier](sandbox:/mnt/data/p28_double_y_exact_fallback/verify_p17_exact.py)
-- [Directed interval stratum verifier](sandbox:/mnt/data/p28_double_y_exact_fallback/verify_stratum_radius.py)
-- [Exact H rows](sandbox:/mnt/data/p28_double_y_exact_fallback/H_exact.csv)
-- [Exact V coordinates](sandbox:/mnt/data/p28_double_y_exact_fallback/V_exact.csv)
-- [Maximal-face cycles](sandbox:/mnt/data/p28_double_y_exact_fallback/faces.txt)
-- [True-edge list](sandbox:/mnt/data/p28_double_y_exact_fallback/edges.txt)
-- [OBJ export](sandbox:/mnt/data/p28_double_y_exact_fallback/p17_exact.obj)
-- [STL export](sandbox:/mnt/data/p28_double_y_exact_fallback/p17_exact.stl)
-- [Exact verification transcript](sandbox:/mnt/data/p28_double_y_exact_fallback/verification.txt)
-- [Interval-radius certificate](sandbox:/mnt/data/p28_double_y_exact_fallback/stratum_radius.json)
-- [Search record and continuation](sandbox:/mnt/data/p28_double_y_exact_fallback/SEARCH_RECORD.md)
-- [Integrity manifest](sandbox:/mnt/data/p28_double_y_exact_fallback/manifest.json)
-- [Original exact P28 bundle](sandbox:/mnt/data/sloan_cubature_fallback_bundle.zip)
+- Complete exact fallback bundle (`p28_double_y_exact_fallback_bundle.zip`) — SHA-256 `32bc03d1a07e98dc54127d3d4ca598269e4b39c75d3218025448c6b863af1fac`.
+- Bundle README (`README.md`)
+- Full exact certificate (`p17_exact.json`)
+- Deterministic exact generator (`generate_p17_exact.py`)
+- Independent exact verifier (`verify_p17_exact.py`)
+- Directed interval stratum verifier (`verify_stratum_radius.py`)
+- Exact H rows (`H_exact.csv`)
+- Exact V coordinates (`V_exact.csv`)
+- Maximal-face cycles (`faces.txt`)
+- True-edge list (`edges.txt`)
+- OBJ export (`p17_exact.obj`)
+- STL export (`p17_exact.stl`)
+- Exact verification transcript (`verification.txt`)
+- Interval-radius certificate (`stratum_radius.json`)
+- Search record and continuation (`SEARCH_RECORD.md`)
+- Integrity manifest (`manifest.json`)
+- Original exact P28 bundle (`sloan_cubature_fallback_bundle.zip`)
 
 Reproduction commands are
 

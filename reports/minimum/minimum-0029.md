@@ -20,9 +20,9 @@ The strongest new theorem is a mechanically conditioned, uniform gap from tetrah
 
 This is about actual volume and actual equilibria, not an arbitrary trace matrix. In particular, two edge-adjacent triangular facets cannot approach reciprocal-product one inside the strict110 mechanical domain. A second theorem gives substantially larger excluded sectors when a four- or five-vertex facet-pair core is closed under an actual escape tree to the unique unstable vertex. A third, weaker but general nine-vertex estimate excludes the symmetric saturation tail left by the preserved physical counterexample.
 
-The immutable analytical parent is **minimum-0024**, SHA-256 **b578a01ead261c6f7745122c22f4bb4767884e46ac46e1531b4e749a19332f95**, `NOVA24_F9_SYNTHESIS_AND_RECIPROCAL_ACTUAL_TRACE_V1`. Its complete payload was read and authenticated: the Markdown, with terminal LF, is 57109 bytes, SHA-256 `927f610bfdf4e8a21074a32aa5581fffe4e1725727bf7ec848a22a26db66b6c3`; its prescribed indented v2 JSON envelope is 57975 bytes and reproduces the declared parent hash. No parent/title/formula conflict was found. The parent's older restricted-wheel discussion is superseded by the journal's complete all-pyramid theorem, not treated as a remaining wheel problem. :contentReference[oaicite:0]{index=0}
+The immutable analytical parent is **minimum-0024**, SHA-256 **b578a01ead261c6f7745122c22f4bb4767884e46ac46e1531b4e749a19332f95**, `NOVA24_F9_SYNTHESIS_AND_RECIPROCAL_ACTUAL_TRACE_V1`. Its complete payload was read and authenticated: the Markdown, with terminal LF, is 57109 bytes, SHA-256 `927f610bfdf4e8a21074a32aa5581fffe4e1725727bf7ec848a22a26db66b6c3`; its prescribed indented v2 JSON envelope is 57975 bytes and reproduces the declared parent hash. No parent/title/formula conflict was found. The parent's older restricted-wheel discussion is superseded by the journal's complete all-pyramid theorem, not treated as a remaining wheel problem.
 
-The inherited bracket remains **32≤C_min≤1374**. Equality requires (V,E,F)=(9,16,9). The accepted catalogue has 296 types and 21682 joint-root orbits; removing wheel192 removes seven such orbits. Thus the post-wheel catalogue has 295 types and 21675 joint-root orbits, before intersecting any separately recorded root/tree exclusions. This turn removes **zero additional complete types and zero complete joint-root orbits**. The upper construction and the parent's 1890 eight-vector certificates were not reverified in this turn. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The inherited bracket remains **32≤C_min≤1374**. Equality requires (V,E,F)=(9,16,9). The accepted catalogue has 296 types and 21682 joint-root orbits; removing wheel192 removes seven such orbits. Thus the post-wheel catalogue has 295 types and 21675 joint-root orbits, before intersecting any separately recorded root/tree exclusions. This turn removes **zero additional complete types and zero complete joint-root orbits**. The upper construction and the parent's 1890 eight-vector certificates were not reverified in this turn.
 
 ## 2. Same-body trace and pole mechanics: retained context
 
@@ -43,7 +43,7 @@ For K_ij=conv(F_i∪F_j), put v_ij=Vol(K_ij)/V. Then
     T_ij=A_i dist(c_j,aff F_i)/V,
     Lambda_ij Lambda_ji=T_ij T_ji≤v_ij^2.
 
-These quantities all come from the same body's actual mass. In particular, the entries are not chosen independently. The parent proves the uniform physical entry cap c3<10/9 and hence F≥9; that inherited theorem is not extended merely by adding a new matrix identity here. :contentReference[oaicite:3]{index=3}
+These quantities all come from the same body's actual mass. In particular, the entries are not chosen independently. The parent proves the uniform physical entry cap c3<10/9 and hence F≥9; that inherited theorem is not extended merely by adding a new matrix identity here.
 
 The preserved `NOVA24_PHYSICAL_C32_CYCLE_BARRIERS_V1` is settled context, not a new discovery of this turn:
 
@@ -53,7 +53,7 @@ The preserved `NOVA24_PHYSICAL_C32_CYCLE_BARRIERS_V1` is settled context, not a 
       T_ij+T_ji=2v_ij−t_ij,
       Lambda_ij Lambda_ji=(v_ij−t_ij/2)^2−s_ij^2.
 
-* For a three-triangle chain, the normalized forward/reverse cycle sum is 2−tau, not two separately valid bounds by one. Actual nonpyramidal controls can approach reciprocal product one. The negative third principal minor also rules out treating I+Lambda as P0 without an additional hypothesis. These controls are not strict110 bodies. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+* For a three-triangle chain, the normalized forward/reverse cycle sum is 2−tau, not two separately valid bounds by one. Actual nonpyramidal controls can approach reciprocal product one. The negative third principal minor also rules out treating I+Lambda as P0 without an additional hypothesis. These controls are not strict110 bodies.
 
 I reran the preserved complete barrier source and reproduced its 57105-byte report, SHA-256 `5ce27a7e13b1eb0ea63f46d5a60c5d2c0d4f6c65f068af774ca0d9cfc7e2f42a`, including the negative minor `−2626495209961/103553973712244`. This is a replay of inherited evidence, not a new counterexample.
 
@@ -69,7 +69,7 @@ The outer inclusion follows by coning from any actual vertex a: if G is the weig
 
     20(Sigma−aa^t/15)=G+sum_i alpha_i(x_i+a/3)(x_i+a/3)^t ⪰0.
 
-The inner inclusion is the p=1,2 instance of classical Berwald: for f=h_P(n)−n·x, `10 E(f^2)≤16(Ef)^2`, giving `h_P(n)^2≥(5/3)n^t Sigma n`. The classical inequality was checked against the authors' primary HTML statement, equation (1); the mechanical consequences are journal deductions, not claims made by that paper. :contentReference[oaicite:6]{index=6}
+The inner inclusion is the p=1,2 instance of classical Berwald: for f=h_P(n)−n·x, `10 E(f^2)≤16(Ef)^2`, giving `h_P(n)^2≥(5/3)n^t Sigma n`. The classical inequality was checked against the authors' primary HTML statement, equation (1); the mechanical consequences are journal deductions, not claims made by that paper.
 
 For completeness, if a central plane has section radius R0 and both open half-bodies contain points of larger norm, maximizing norm separately on the two half-bodies gives two strict unstable vertices. Off-plane maximizers are actual vertices. An edge crossing the plane has a point of smaller norm, and the squared-edge identity makes its outgoing derivative strictly negative; norm ties do not spoil strictness.
 
@@ -77,7 +77,7 @@ Apply this lemma to P and then to its actual polar. If lambda1≥lambda2≥lambd
 
     R(P)/r(P)≤3 sqrt(lambda1/lambda3)≤27.                 (A)
 
-This imports neither an independently centred polar nor an arbitrary metric cutoff. Every affine metric is allowed; (A) is a consequence of the hypothetical joint mechanics in its actual Euclidean coordinates. The inherited journal theorem also permits zero nonroot primitives. :contentReference[oaicite:7]{index=7}
+This imports neither an independently centred polar nor an arbitrary metric cutoff. Every affine metric is allowed; (A) is a consequence of the hypothetical joint mechanics in its actual Euclidean coordinates. The inherited journal theorem also permits zero nonroot primitives.
 
 ## 3. New whole-domain tetrahedral-core exclusion
 
@@ -222,7 +222,7 @@ This section additionally uses the journal's quantitative eight-vertex theorem a
     dist(v,conv(other vertices))>1/(8N^3),
     every three-vertex triangle area>1/(16N^4).
 
-For the unique unstable root the distance bound improves to 1/(2N^2). The proofs permit weak nonroot escapes; the old C30 label does not restrict these nine-vertex lemmas to E=15. Their geometric premises also hold at C32. :contentReference[oaicite:8]{index=8}
+For the unique unstable root the distance bound improves to 1/(2N^2). The proofs permit weak nonroot escapes; the old C30 label does not restrict these nine-vertex lemmas to E=15. Their geometric premises also hold at C32.
 
 **New conversion to actual volume.** Put
 
@@ -253,7 +253,7 @@ Use epsilon_u when the pair omits u. For one-vertex triangular pairs, the strong
 
 This closes the possibility of saturation along a mechanically valid nine-vertex sequence, though the constant is very small. It does not supply the missing finite-type elimination.
 
-The separate eligible-leaf estimate **alpha_v>1/7169** is already in the journal and is not claimed new. It requires that the retained full-dimensional hull inherit escape to the retained root. :contentReference[oaicite:9]{index=9} :contentReference[oaicite:10]{index=10}
+The separate eligible-leaf estimate **alpha_v>1/7169** is already in the journal and is not claimed new. It requires that the retained full-dimensional hull inherit escape to the retained root.
 
 ## 6. A fully reconstructed physical C32 family and explicit excluded sectors
 
@@ -504,4 +504,4 @@ assert len(r)==63296 and hashlib.sha256(r).hexdigest()=='2e787b76337194b0d6f7a9e
 print('NOVA24_CONDITIONED_CORE_COMPLETE_RECOVERY_PASS')
 ```
 
-Supplementary convenience files: [Markdown handoff](sandbox:/mnt/data/NOVA24_C32_CONDITIONED_CORE_OBSTRUCTIONS_V1.md), [complete decoded source](sandbox:/mnt/data/c32work/nova24_mass_gap.py), [exact report](sandbox:/mnt/data/c32work/nova24_mass_gap.json), and [standalone recovery](sandbox:/mnt/data/c32work/recover_nova24_conditioned.py). The inline capsule above is sufficient without these files.
+Supplementary convenience files: Markdown handoff (`NOVA24_C32_CONDITIONED_CORE_OBSTRUCTIONS_V1.md`), complete decoded source (`nova24_mass_gap.py`), exact report (`nova24_mass_gap.json`), and standalone recovery (`recover_nova24_conditioned.py`). The inline capsule above is sufficient without these files.

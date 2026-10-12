@@ -6,9 +6,9 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 # Calm Quartz 90 — exact wall-242 eighth-stage six-node annular cage
 
-The durable acceptance gate is a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete finite H/V/true-edge mechanics, an independent exact or directed verifier, and matching OBJ/STL. :contentReference[oaicite:0]{index=0}
+The durable acceptance gate is a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete finite H/V/true-edge mechanics, an independent exact or directed verifier, and matching OBJ/STL.
 
-The immutable source `figure-0262`, payload SHA-256 `b7e95105ebfcd422b0d7b696924a3ee095336d353dca41145d1eeb37a4eddb5c`, is the exact eight-active-vertex seventh-support cage with unique nonprotected carrier `[0,Z]`; the journal requires a coupled annular/prismatic successor changing that complete star. :contentReference[oaicite:1]{index=1} The literal parent marker and digest agree with the supplied immutable payload. :contentReference[oaicite:2]{index=2}
+The immutable source `figure-0262`, payload SHA-256 `b7e95105ebfcd422b0d7b696924a3ee095336d353dca41145d1eeb37a4eddb5c`, is the exact eight-active-vertex seventh-support cage with unique nonprotected carrier `[0,Z]`; the journal requires a coupled annular/prismatic successor changing that complete star. The literal parent marker and digest agree with the supplied immutable payload.
 
 ## Literal disposition
 
@@ -645,30 +645,30 @@ Serial use of these exchanges would repeat packet transfer. The first genuinely 
 
 ## Delivered artifacts
 
-- [Complete exact NONWINNER archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER.zip)
-- [Complete self-contained handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_handoff.md)
-- [Structured wrapper result](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_result.json)
-- [Clean-extraction verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_clean_verification.json)
-- [Clean full replay](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_clean_replay.txt)
-- [Exact 48-row source/target generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/data/generator_exact.json)
-- [Exact own-centred active V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Primitive irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/data/thirteenth_cage9_exact_H_irredundant.csv)
-- [Complete face ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/data/thirteenth_cage9_exact_faces.csv)
-- [Complete directed vertex ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/data/thirteenth_cage9_exact_vertex_primitives.csv)
-- [Complete physical-edge full-cone ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/data/thirteenth_cage9_exact_true_edges_full_cones.csv)
-- [Complete changed-edge arrow ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/data/external_arrow_full_ledger.csv)
-- [Connected positive-volume transition](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/certificates/thirteenth_cage_shared_global_patch.json)
-- [Exact twelve-event chronology](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/certificates/source_to_target_death_before_birth_obstruction.json)
-- [External-arrow and adverse-graph certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/certificates/external_arrow_design_certificate.json)
-- [Residual forcing-edge theorem](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/certificates/residual_forced_edge_0_AM.json)
-- [Radius-2^-20 own-centroid interval certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Independent clean-room verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/scripts/verify_independent.py)
-- [Independent chronology verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/scripts/verify_chronology.py)
-- [Aggregate verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/RUN_ALL_VERIFIERS.sh)
-- [Package verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/verify_package.py)
-- [SHA-256 manifest](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/SHA256SUMS.txt)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER/mesh/body.stl)
+- Complete exact NONWINNER archive (`Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_exact_NONWINNER.zip`)
+- Complete self-contained handoff (`Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_handoff.md`)
+- Structured wrapper result (`Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_result.json`)
+- Clean-extraction verification receipt (`Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_clean_verification.json`)
+- Clean full replay (`Calm_Quartz_90_wall242_thirteenth_eighth_stage_annular_cage_clean_replay.txt`)
+- Exact 48-row source/target generator (`generator_exact.json`)
+- Exact own-centred active V-data (`active_vertices_centered_exact.csv`)
+- Primitive irredundant H-data (`thirteenth_cage9_exact_H_irredundant.csv`)
+- Complete face ledger (`thirteenth_cage9_exact_faces.csv`)
+- Complete directed vertex ledger (`thirteenth_cage9_exact_vertex_primitives.csv`)
+- Complete physical-edge full-cone ledger (`thirteenth_cage9_exact_true_edges_full_cones.csv`)
+- Complete changed-edge arrow ledger (`external_arrow_full_ledger.csv`)
+- Connected positive-volume transition (`thirteenth_cage_shared_global_patch.json`)
+- Exact twelve-event chronology (`source_to_target_death_before_birth_obstruction.json`)
+- External-arrow and adverse-graph certificate (`external_arrow_design_certificate.json`)
+- Residual forcing-edge theorem (`residual_forced_edge_0_AM.json`)
+- Radius-2^-20 own-centroid interval certificate (`own_centroid_perturbation_certificate.json`)
+- Independent clean-room verifier (`verify_independent.py`)
+- Independent chronology verifier (`verify_chronology.py`)
+- Aggregate verifier (`RUN_ALL_VERIFIERS.sh`)
+- Package verifier (`verify_package.py`)
+- SHA-256 manifest (`SHA256SUMS.txt`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 ## Package integrity
 

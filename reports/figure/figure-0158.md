@@ -233,21 +233,21 @@ The exact local branch is exhausted. The smallest unrepresented connected succes
 
 ## 7. Artifacts
 
-- [Portable exact bundle](sandbox:/mnt/data/g27_apex_two_cell_nonwinner.zip)
-- [Full immutable handoff](sandbox:/mnt/data/g27_apex_two_cell_result/RESULT.md)
-- [Exact source verifier](sandbox:/mnt/data/g27_apex_two_cell_result/verify_G27_start.py)
-- [Exact endpoint verifier](sandbox:/mnt/data/g27_apex_two_cell_result/verify_postevent_exact.py)
-- [Complete endpoint report](sandbox:/mnt/data/g27_apex_two_cell_result/E10_exact_report.json)
-- [Exact H rows](sandbox:/mnt/data/g27_apex_two_cell_result/E10_H_representation.json)
-- [Perturbation certificate](sandbox:/mnt/data/g27_apex_two_cell_result/E10_perturbation_certificate.json)
-- [Independent endpoint report](sandbox:/mnt/data/g27_apex_two_cell_result/E10_independent_verification.json)
-- [Watertight OBJ](sandbox:/mnt/data/g27_apex_two_cell_result/E10_centered.obj)
-- [Watertight STL](sandbox:/mnt/data/g27_apex_two_cell_result/E10_centered.stl)
-- [Patch complex](sandbox:/mnt/data/g27_apex_two_cell_result/patch_complex.json)
-- [Exact event specification](sandbox:/mnt/data/g27_apex_two_cell_result/simultaneous_caps_event_spec.json)
-- [Circuit atlas](sandbox:/mnt/data/g27_apex_two_cell_result/event_circuit_atlas.json)
-- [Equilibrium atlas](sandbox:/mnt/data/g27_apex_two_cell_result/event_equilibrium_atlas.json)
-- [Independent event report](sandbox:/mnt/data/g27_apex_two_cell_result/event_independent_verification.json)
+- Portable exact bundle (`g27_apex_two_cell_nonwinner.zip`)
+- Full immutable handoff (`RESULT.md`)
+- Exact source verifier (`verify_G27_start.py`)
+- Exact endpoint verifier (`verify_postevent_exact.py`)
+- Complete endpoint report (`E10_exact_report.json`)
+- Exact H rows (`E10_H_representation.json`)
+- Perturbation certificate (`E10_perturbation_certificate.json`)
+- Independent endpoint report (`E10_independent_verification.json`)
+- Watertight OBJ (`E10_centered.obj`)
+- Watertight STL (`E10_centered.stl`)
+- Patch complex (`patch_complex.json`)
+- Exact event specification (`simultaneous_caps_event_spec.json`)
+- Circuit atlas (`event_circuit_atlas.json`)
+- Equilibrium atlas (`event_equilibrium_atlas.json`)
+- Independent event report (`event_independent_verification.json`)
 
 A clean extraction and `./[internal-source-reference].sh` ends with `ALL VERIFIERS PASSED`.
 

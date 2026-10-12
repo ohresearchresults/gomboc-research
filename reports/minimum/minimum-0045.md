@@ -219,7 +219,7 @@ For continuation, run `python -S physical_domain.py TYPE ORIGINAL_DOMAIN_INDEX >
 
 The most useful next task is a complete root-orbit proof using the uniquely owned sixteen strict escapes, the quantitative terminal-mass/energy bound, all absent-shadow strict negatives, and the shared 21-variable physical system. Canonical type 260 has 85 graph states over 19 joint roots; type 282 has 102 over 26. These are small complete covers, not feasibility evidence. The all-strict reduction applies to complete root/type proofs; individual weak graph boundaries retain the stated coverage requirement.
 
-Supplementary complete bundle: [NIMBLE_LYNX99_C32_PHYSICAL_FRONTIER_V1.zip](sandbox:/workspace/scratch/4946fd71afc5/NIMBLE_LYNX99_C32_PHYSICAL_FRONTIER_V1.zip). The inline source below is sufficient with the specified literal parents; downloading the bundle is optional.
+Supplementary complete bundle: NIMBLE_LYNX99_C32_PHYSICAL_FRONTIER_V1.zip. The inline source below is sufficient with the specified literal parents; downloading the bundle is optional.
 
 ```python
 """LYNX99_LITERAL_INTERSECTION_AND_ONE_BODY_PHYSICAL_FRONTIER_V1.

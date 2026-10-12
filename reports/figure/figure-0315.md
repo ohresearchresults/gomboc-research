@@ -12,9 +12,9 @@ AI research report · 2026-09-05 UTC
 
 **(V,E,F,C)=(79,216,139,432), exact own-volume-centroid (S,U,H)=(4,1,3), and no degenerate equilibria.**
 
-It has one unwanted threefold orbit of stable–saddle pairs, not the requested class (1,1,0). Its complexity is below1000, but that alone is not success. This is an independent object, not a successor or alias of the lead’s accepted815-vertex body. The journal expressly leaves the previous C3 assignment’s mathematical outcome unknown; I have not interpreted its transport failure as a negative result. :contentReference[oaicite:0]{index=0}
+It has one unwanted threefold orbit of stable–saddle pairs, not the requested class (1,1,0). Its complexity is below1000, but that alone is not success. This is an independent object, not a successor or alias of the lead’s accepted815-vertex body. The journal expressly leaves the previous C3 assignment’s mathematical outcome unknown; I have not interpreted its transport failure as a negative result.
 
-The material additional findings are an executed exact69-parameter preserving box for the79-vertex nonwinner, an exact exclusion of its entire inherited-C3-preserving affine metric family, and a broader roundness theorem: **any strict C3-invariant110 polyhedron with concentric inradius/circumradius r/R≥47/50 has C≥1008.** The latter is not a universal symmetry obstruction. C3-symmetric homogeneous polyhedral Gömböcs are permitted by the existence theorem of Domokos–Lángi–Várkonyi; their Theorem2 explicitly includes cyclic symmetry groups. :contentReference[oaicite:1]{index=1}
+The material additional findings are an executed exact69-parameter preserving box for the79-vertex nonwinner, an exact exclusion of its entire inherited-C3-preserving affine metric family, and a broader roundness theorem: **any strict C3-invariant110 polyhedron with concentric inradius/circumradius r/R≥47/50 has C≥1008.** The latter is not a universal symmetry obstruction. C3-symmetric homogeneous polyhedral Gömböcs are permitted by the existence theorem of Domokos–Lángi–Várkonyi; their Theorem2 explicitly includes cyclic symmetry groups.
 
 ## 1. Exact finite body: every coordinate and maximal face
 
@@ -406,7 +406,7 @@ For independent new C3 architectures aimed at C<1000, the roundness theorem supp
 
 ## 9. Portable artifacts and replay record
 
-The exact definition, complete lattice, both full implementations, all exact diagnostic certificates, exact centred rational CSV, raw exact-decimal OBJ/STL, proofs and replay are in [C3_RA04_EXACT_HANDOFF.zip](sandbox:/mnt/data/C3_RA04_EXACT_HANDOFF.zip).
+The exact definition, complete lattice, both full implementations, all exact diagnostic certificates, exact centred rational CSV, raw exact-decimal OBJ/STL, proofs and replay are in C3_RA04_EXACT_HANDOFF.zip.
 
 ```text
 Archive size: 85248 bytes
@@ -424,8 +424,8 @@ Raw ASCII STL SHA-256:
 fa745a077e42d11ee81604cad416664b803e5b87cf089f966dc7308687fa547b
 ```
 
-The frozen archive was freshly extracted, all26 payload hashes were checked, and `python -S REPLAY.py` completed with **C3_RA04_EXACT_NONWINNER_FRESH_REPLAY_PASS**. Do not use Python−O. The separate actual replay report is [C3_RA04_ARCHIVE_REPLAY.json](sandbox:/mnt/data/C3_RA04_ARCHIVE_REPLAY.json), SHA-256120bcf5eb96c973f6793a3d5991afc476797633accf9bf994d3856cec4ffbd3d.
+The frozen archive was freshly extracted, all26 payload hashes were checked, and `python -S REPLAY.py` completed with **C3_RA04_EXACT_NONWINNER_FRESH_REPLAY_PASS**. Do not use Python−O. The separate actual replay report is C3_RA04_ARCHIVE_REPLAY.json, SHA-256120bcf5eb96c973f6793a3d5991afc476797633accf9bf994d3856cec4ffbd3d.
 
-The numerical programs, proposals, prior exact nonwinners and frozen search logs are supplementary in [C3_RA04_DISCOVERY_RESEARCH.zip](sandbox:/mnt/data/C3_RA04_DISCOVERY_RESEARCH.zip),920696bytes, SHA-256b2b0f67b2cf3e1d6f81ea036e91fa50e6886c3f0048c994584e659ca5d16650c. Those numerical checkpoints are not acceptance certificates. The complete primary79-point reconstruction data, moment identities, feature lists, predicates and continuation formulas are all present above; continuation does not require recovering a worker-local omitted mask.
+The numerical programs, proposals, prior exact nonwinners and frozen search logs are supplementary in C3_RA04_DISCOVERY_RESEARCH.zip,920696bytes, SHA-256b2b0f67b2cf3e1d6f81ea036e91fa50e6886c3f0048c994584e659ca5d16650c. Those numerical checkpoints are not acceptance certificates. The complete primary79-point reconstruction data, moment identities, feature lists, predicates and continuation formulas are all present above; continuation does not require recovering a worker-local omitted mask.
 
 **Final scope:** a rigorously verified sparse homogeneous C3 nonwinner, a nontrivial exact preserving neighborhood, two sharply scoped exact obstructions, and a concrete whole-orbit moment-coupled continuation—not a claimed polyhedral Gömböc.

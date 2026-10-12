@@ -24,9 +24,9 @@ The 64/58 totals count all positive P/Q bar records across those inputs, includi
 
 ## Input authority
 
-The entire four-file input pack was available and read through EOF. R3 was recovered without old R2/SQP trajectories. Its rerun receipt matches the supplied exact identity: input2177 bytes, SHA256 `43d6adb06bc3a027dac4257de57455692b3fb964e1ef4e872c6e16d32d965a2b`; audit6631 bytes, SHA256 `4ebb493fd0d11a0a2d4d166841586969e24d78c34f5a1cb1feaad0a0e9cbc3d5`. It is V58/E168/F112, own211, P0/Q1, S52/105, U57, H38–57 and Q33/cut21. These are sorted exact labels, not input-row or R2 labels. :contentReference[oaicite:0]{index=0}
+The entire four-file input pack was available and read through EOF. R3 was recovered without old R2/SQP trajectories. Its rerun receipt matches the supplied exact identity: input2177 bytes, SHA256 `43d6adb06bc3a027dac4257de57455692b3fb964e1ef4e872c6e16d32d965a2b`; audit6631 bytes, SHA256 `4ebb493fd0d11a0a2d4d166841586969e24d78c34f5a1cb1feaad0a0e9cbc3d5`. It is V58/E168/F112, own211, P0/Q1, S52/105, U57, H38–57 and Q33/cut21. These are sorted exact labels, not input-row or R2 labels.
 
-The supplied `exact_poly.py` has SHA256 `898f77989193886996d6f2dc121ccdfdf611b8a9ac52fd3207557eac6a69c0c4`; it explicitly rejects nontriangular maximal facets. Consequently it could not certify the new H bodies unchanged. The supplied numerical core provided actual-volume centroid and live radial-forest conventions. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The supplied `exact_poly.py` has SHA256 `898f77989193886996d6f2dc121ccdfdf611b8a9ac52fd3207557eac6a69c0c4`; it explicitly rejects nontriangular maximal facets. Consequently it could not certify the new H bodies unchanged. The supplied numerical core provided actual-volume centroid and live radial-forest conventions.
 
 No missing historical dependency is needed for the constructions below. The mounted journal wrapper had170978 bytes, SHA256 `b9432b21a2ed16838b8316355905c16992605126ad79b856a33e307559fd3b39`; that is the wrapper-file hash, not its internal memory hash.
 
@@ -254,7 +254,7 @@ Six W49_RETAINED_PIN_EXACT_GRID_PASS markers
 
 The capsule contains every rational endpoint, original R3/JB dependencies, both auditors, complete proofs and producing/search modules, exact audit byte/hash manifest, the650-case ledger and all critical retained pins. `FILES_SHA256.json` binds every other decoded file. No earlier sandbox, external library, optimizer replay or downloaded audit is required for exact recovery.
 
-Convenience copies: [recovery source](sandbox:/mnt/data/RECOVER_W49.py), [source archive](sandbox:/mnt/data/W49_SOURCE.zip), [observed exact audits](sandbox:/mnt/data/W49_OBSERVED_AUDITS.zip). They supplement the complete inline source below.
+Convenience copies: recovery source (`RECOVER_W49.py`), source archive (`W49_SOURCE.zip`), observed exact audits (`W49_OBSERVED_AUDITS.zip`). They supplement the complete inline source below.
 
 ```python
 """Recover all W49 exact inputs, auditors, proofs, and complete producing sources.

@@ -18,10 +18,10 @@ The work nevertheless produced three reusable advances beyond the supplied journ
 
 A deterministic reconstruction, full-hull verifier, dyadic coordinate materialization, Santaló solver, and OBJ/STL exporter are included here:
 
-- [Complete reproducibility bundle](sandbox:/mnt/data/calm_atlas34_bundle.zip)
-- [Generator and verifier](sandbox:/mnt/data/calm_atlas34_bundle/generate_and_verify.py)
-- [Bundle README](sandbox:/mnt/data/calm_atlas34_bundle/README.md)
-- [Machine audit](sandbox:/mnt/data/calm_atlas34_bundle/generated/audit.json)
+- Complete reproducibility bundle (`calm_atlas34_bundle.zip`)
+- Generator and verifier (`generate_and_verify.py`)
+- Bundle README (`README.md`)
+- Machine audit (`audit.json`)
 
 The dyadic Q coordinates in the bundle are literal rational coordinates. The current Santaló solve and normal-cone audit are numerical rather than interval-certified, so the bundle is an exact finite endpoint but not an exact own-centroid winner certificate.
 

@@ -6,7 +6,7 @@ AI research report · 2026-08-23 UTC
 
 # Verifier-gated circumscribed polyhedral Gömböc result
 
-The complete branch-specific research result is serialized in the [canonical worker payload](sandbox:/mnt/data/worker_final_payload.json). The corresponding [canonical machine status](sandbox:/mnt/data/polyhedral_gomboc_final.json) records whether an exact rational witness passed the independent verification gate; when no candidate passes, it instead identifies the quantitatively strongest reproducible circumscribed near-witness.
+The complete branch-specific research result is serialized in the canonical worker payload (`worker_final_payload.json`). The corresponding canonical machine status (`polyhedral_gomboc_final.json`) records whether an exact rational witness passed the independent verification gate; when no candidate passes, it instead identifies the quantitatively strongest reproducible circumscribed near-witness.
 
 ## Work performed
 
@@ -18,10 +18,10 @@ Promotion to an exact result required a fresh independent verifier run reporting
 
 ## Reusable artifacts
 
-- [Complete artifact bundle](sandbox:/mnt/data/polyhedral_gomboc_bundle.zip)
-- [Canonical worker result](sandbox:/mnt/data/worker_final_payload.json)
-- [Canonical verifier-gated status](sandbox:/mnt/data/polyhedral_gomboc_final.json)
-- [Research report](sandbox:/mnt/data/polyhedral_gomboc_artifact/REPORT.md)
-- [Artifact manifest with SHA-256 hashes](sandbox:/mnt/data/polyhedral_gomboc_artifact/MANIFEST.json)
+- Complete artifact bundle (`polyhedral_gomboc_bundle.zip`)
+- Canonical worker result (`worker_final_payload.json`)
+- Canonical verifier-gated status (`polyhedral_gomboc_final.json`)
+- Research report (`REPORT.md`)
+- Artifact manifest with SHA-256 hashes (`MANIFEST.json`)
 
 The bundle contains the deterministic generators, rationalizers, exact verifier implementations, search records, predicate audits, and—when promoted—the complete rational certificate together with printable OBJ and STL meshes.

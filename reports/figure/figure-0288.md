@@ -378,16 +378,16 @@ The triangulated mesh has 32 vertices, 60 coherently oriented triangles, 90 mesh
 
 Artifacts:
 
-- [Complete exact replay archive](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER.zip), SHA-256 `31aa1dfdab125daa85cc343486cc21de4a22ad1c6b211e8601446c5a7ba47bcc`.
-- [Archive SHA-256](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER.zip.sha256).
-- [Standalone handoff](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/RESEARCH_HANDOFF.md).
-- [Exact active source and complete mechanics](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/source/root8_exact_source.json).
-- [Common 50-row ledger](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/source/common_family_ledger.json).
-- [Exact FAN17 atlas](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/certificates/fan17_exact_atlas.json).
-- [Exact chronology](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/certificates/root8_incidence_chronology.json).
-- [Independent verifier](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/verifier/verify_cleanroom.py).
-- [Deterministic rebuild](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/construction/rebuild_from_source.py).
-- [Maximal-face OBJ](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/body/root8_maximal_faces.obj), [triangulated OBJ](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/body/root8_triangulated.obj), and [STL](sandbox:/mnt/data/Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER/body/root8.stl).
+- Complete exact replay archive (`Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER.zip`), SHA-256 `31aa1dfdab125daa85cc343486cc21de4a22ad1c6b211e8601446c5a7ba47bcc`.
+- Archive SHA-256 (`Keen_Quartz_73_cross_family_FAN17_exact_NONWINNER.zip.sha256`).
+- Standalone handoff (`RESEARCH_HANDOFF.md`).
+- Exact active source and complete mechanics (`root8_exact_source.json`).
+- Common 50-row ledger (`common_family_ledger.json`).
+- Exact FAN17 atlas (`fan17_exact_atlas.json`).
+- Exact chronology (`root8_incidence_chronology.json`).
+- Independent verifier (`verify_cleanroom.py`).
+- Deterministic rebuild (`rebuild_from_source.py`).
+- Maximal-face OBJ (`root8_maximal_faces.obj`), triangulated OBJ (`root8_triangulated.obj`), and STL (`root8.stl`).
 
 ## Bottom line
 

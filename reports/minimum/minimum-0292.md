@@ -43,11 +43,11 @@ No additional historical source or missing geometry dependency is required for t
 
 **Source-delivery qualification:** the complete literal executable recovery payload is preserved in the separately generated version-2 JSON and Markdown below, but is not reproduced inside this response's `result_markdown` field. Thus this message alone is not a source-complete computational successor under the requested inline copy contract. The linked version-2 JSON contains the full source-only recovery unit, including all three runnable programs, and is the computational handoff to preserve. This is a delivery qualification, not an unobserved-execution qualification: the exact normal and source-only cold computations described below completed.
 
-[Source-complete version-2 handoff JSON](sandbox:/mnt/data/regular_horizon_work/result.json)
+Source-complete version-2 handoff JSON (`result.json`)
 
-[Source-complete Markdown handoff](sandbox:/mnt/data/regular_horizon_work/result_markdown.md)
+Source-complete Markdown handoff (`result_markdown.md`)
 
-[Complete archive: readable sources, exact certificate, reports and execution receipt](sandbox:/mnt/data/cut_stack_regular_sector/regular_horizon_sector_v2.zip)
+Complete archive: readable sources, exact certificate, reports and execution receipt (`regular_horizon_sector_v2.zip`)
 
 ## 3. Complete actual continuous domain
 

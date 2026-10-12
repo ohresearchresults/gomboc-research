@@ -43,11 +43,11 @@ I read all four complete supplied attachments, including the entire shared noteb
 - INTRINSIC_REFERENCE_ELLIPSOID_FINITE_HEIGHT_WINDOW_V1: 7853 bytes; SHA-256 d40619accf0fc38f68f9155c87c3ea2f5cf8ce8c590dfa1b3477cad75cbbe100.
 - research-journal.md: 285454 bytes; SHA-256 b84cf5ebf92d44ae72b95eeb743220e6a073c8ad969719d04b830040d6245742.
 
-The branch's actual-body and primal-only requirements are retained. The intrinsic-reference theorem changes the matrix when its reference ellipsoid changes; the new universal result below is specifically in the actual covariance gauge. fileciteturn0file3L934-L949 fileciteturn0file2L40-L57
+The branch's actual-body and primal-only requirements are retained. The intrinsic-reference theorem changes the matrix when its reference ellipsoid changes; the new universal result below is specifically in the actual covariance gauge.
 
-One provenance mismatch should remain visible: the finite-height source's dependency note names an older covariance digest beginning `4f0c3336`, whereas the supplied covariance file has the manifest digest beginning `e43bdb2b`. I used the complete supplied covariance proof directly and do not claim byte identity with that older digest. No missing archive payload is needed for the new theorem or the executable below. fileciteturn0file0L3-L4
+One provenance mismatch should remain visible: the finite-height source's dependency note names an older covariance digest beginning `4f0c3336`, whereas the supplied covariance file has the manifest digest beginning `e43bdb2b`. I used the complete supplied covariance proof directly and do not claim byte identity with that older digest. No missing archive payload is needed for the new theorem or the executable below.
 
-The only outside geometric inequality used is classical Berwald, already supplied in the covariance material. Its dimension/exponent constants and equality statement were also checked against Langharst–Putterman, *Weighted Berwald's Inequality*, equation (1) and Corollary 1.4. The new joint theorem is proved below rather than attributed to that paper. fileciteturn0file1L42-L66 citeturn848892view0
+The only outside geometric inequality used is classical Berwald, already supplied in the covariance material. Its dimension/exponent constants and equality statement were also checked against Langharst–Putterman, *Weighted Berwald's Inequality*, equation (1) and Corollary 1.4. The new joint theorem is proved below rather than attributed to that paper.
 
 ## 1. Actual radial decomposition and its exact deficit
 
@@ -329,19 +329,19 @@ For an actual body P at its uniform centroid, let Sigma be its actual covariance
 
 `K=Sigma^(-1/2)P`, `H=Sigma^(1/2) M Sigma^(1/2)`.
 
-The supplied finite-height argument follows a true-edge escape path from a negative support vertex to its first crossing y of the central eigenplane. Reversing the transformed path gives shadow inequalities `z_j·z_(j-1)>=||z_j||²`. The angle sum and concavity of log cos yield `|e·z_d|<=b_h||z_0||`, where `b_h=cos(pi/[2(h+1)])^(h+1)`. This argument accepts nonnegative, not just positive, selected arrows. fileciteturn0file0L6-L34
+The supplied finite-height argument follows a true-edge escape path from a negative support vertex to its first crossing y of the central eigenplane. Reversing the transformed path gives shadow inequalities `z_j·z_(j-1)>=||z_j||²`. The angle sum and concavity of log cos yield `|e·z_d|<=b_h||z_0||`, where `b_h=cos(pi/[2(h+1)])^(h+1)`. This argument accepts nonnegative, not just positive, selected arrows.
 
 Keeping the actual support instead of substituting separate radii now gives
 
 `lambda1 a² <= b_h² lambda2 ||y||² < (897/100)b_h² lambda2 a²`.
 
-This proves the new strict primal gap. A unique strict unstable vertex supplies a rooted tree even with incidental weak contacts: every other vertex has a nonnegative true-edge escape, and each distinct escape strictly increases squared H-norm. Thus no cycle occurs, every path ends at the unique strict root, and h<=V-1. Equality of a selected arrow does not evade the argument. The latest supplied intrinsic theorem explicitly includes this weak-contact scope. fileciteturn0file2L22-L38
+This proves the new strict primal gap. A unique strict unstable vertex supplies a rooted tree even with incidental weak contacts: every other vertex has a nonnegative true-edge escape, and each distinct escape strictly increases squared H-norm. Thus no cycle occurs, every path ends at the unique strict root, and h<=V-1. Equality of a selected arrow does not evade the argument. The latest supplied intrinsic theorem explicitly includes this weak-contact scope.
 
 The same-origin polar has the inherited radial shell ratio 3, but need not have its own uniform centroid at 0 or covariance I. Accordingly, only its old bound is used:
 
 `lambda2/lambda3 <= 9 f(k+1)`, with `f(m)=cos(pi/[2m])^(2m)`.
 
-A unique strict stable facet corresponds to a unique strict unstable polar vertex under H^(-1). This is the inherited same-origin, same-inverse step, not a new uniform-polar assertion. fileciteturn0file0L36-L45
+A unique strict stable facet corresponds to a unique strict unstable polar vertex under H^(-1). This is the inherited same-origin, same-inverse step, not a new uniform-polar assertion.
 
 For V=10,F=9, the independent exact cosine check below reconfirms the parent ceilings `p0=7024915/10^6` and `q0=6832329/10^6`. Since `(897/100)/9=299/300`, put
 
@@ -369,7 +369,7 @@ The trace-floor stress parameter from the intrinsic-reference source becomes
 
 `alpha=1/(D-3)=20000000000000/1053377420842231`.
 
-This substitution is justified at `C=Sigma`. It does not insert the universal constant into an unchanged matrix for a different reference ellipsoid. Shape-specific intrinsic shells may still be imposed in their own transported frames. fileciteturn0file2L53-L73
+This substitution is justified at `C=Sigma`. It does not insert the universal constant into an unchanged matrix for a different reference ellipsoid. Shape-specific intrinsic shells may still be imposed in their own transported frames.
 
 ## 8. What was tried, remaining uncertainty, and useful continuation
 
@@ -401,7 +401,7 @@ Normal execution and a source-only reconstruction extracted from this Markdown i
 
 The code checks exact algebra, rational bounds, the sharp family maximizer by Sturm isolation, and true supporting facets for every literal rational control. It is not a proof-assistant formalization of the analytic cone-measure argument. The complete source and proofs here are sufficient to continue without any sandbox or historical archive.
 
-Convenience copies: [runnable source](sandbox:/mnt/data/joint_support/joint_support_section_v1.py), [exact output](sandbox:/mnt/data/joint_support/joint_support_section_v1.out), and [Markdown handoff](sandbox:/mnt/data/joint_support/result_markdown.md).
+Convenience copies: runnable source (`joint_support_section_v1.py`), exact output (`joint_support_section_v1.out`), and Markdown handoff (`result_markdown.md`).
 
 ```python
 #!/usr/bin/env python3

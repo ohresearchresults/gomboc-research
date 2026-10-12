@@ -18,9 +18,9 @@ These are exclusions, not attainers. The inherited bracket **32 ≤ C_min ≤ 13
 
 ## 1. Authority and the resolved recovery boundary
 
-The literal immutable parent is `minimum-0028`, compact UTF-8 v2 envelope **55,093 bytes**, SHA-256 `5f6eaed3622219fa7396da4a238658123f1197ce0928671209939a632cd5f954`. It is **`RAVEN24_C32_TYPE72_U4_EXCLUSION_V1`**, closing only canonical U4 and its nine stable-root choices. Its 161 records and 1,188 per-fan-occurrence blocks must not be relabeled as an all-root result. The supplied literal parent states this restriction explicitly. :contentReference[oaicite:0]{index=0}
+The literal immutable parent is `minimum-0028`, compact UTF-8 v2 envelope **55,093 bytes**, SHA-256 `5f6eaed3622219fa7396da4a238658123f1197ce0928671209939a632cd5f954`. It is **`RAVEN24_C32_TYPE72_U4_EXCLUSION_V1`**, closing only canonical U4 and its nine stable-root choices. Its 161 records and 1,188 per-fan-occurrence blocks must not be relabeled as an all-root result. The supplied literal parent states this restriction explicitly.
 
-The late all72 source is a separate extension, previously preserved in the journal rather than immutably published. Its complete proof bytes now reproduce, including the original 12,174-byte recovery wrapper. The increment over the literal parent is exactly canonical U roots `{0,1,2,3,5,6,7,8}` and their **72 labeled joint-root pairs**. The new representation also rechecks U4 with **1,157 distinct physical-tetrahedron blocks**, rather than the parent's 1,188 fan-occurrence blocks; these are different certificates, not inconsistent counts. The late source already distinguished these representations. :contentReference[oaicite:1]{index=1}
+The late all72 source is a separate extension, previously preserved in the journal rather than immutably published. Its complete proof bytes now reproduce, including the original 12,174-byte recovery wrapper. The increment over the literal parent is exactly canonical U roots `{0,1,2,3,5,6,7,8}` and their **72 labeled joint-root pairs**. The new representation also rechecks U4 with **1,157 distinct physical-tetrahedron blocks**, rather than the parent's 1,188 fan-occurrence blocks; these are different certificates, not inconsistent counts. The late source already distinguished these representations.
 
 I authenticated the supplied current journal as **3,106,034 bytes**, SHA-256 `3b68fd6e90de488da5c8e427ffffb003ff9974616e8232f635a3f82fdd9ea251`, recovered the parent envelope with its terminal Markdown LF, and obtained the stated parent hash. No literal-parent identity conflict was found. The older source-research journal does not contain the late all72 capsule; the current attached journal does. The historical all72 ZIP itself was not recovered; the newly packaged archive below has a distinct identity. This does not leave any proof coefficient or helper missing.
 
@@ -40,7 +40,7 @@ normal true edges   = 01,03,07,08,12,17,26,28,34,38,45,48,56,58,68,78
 canonical true edges= 01,02,03,13,14,24,25,34,36,45,46,47,48,58,67,78
 ```
 
-Here `w=normal0=canonical3`, `a=normal7=canonical1`, and `b=normal8=canonical4`. The fixed-quarter edge is **w–b**, normal08/canonical34, not a–b. The automorphism group is trivial. These maps and actual cycles agree with the literal parent and recovered whole72 source. :contentReference[oaicite:2]{index=2}
+Here `w=normal0=canonical3`, `a=normal7=canonical1`, and `b=normal8=canonical4`. The fixed-quarter edge is **w–b**, normal08/canonical34, not a–b. The automorphism group is trivial. These maps and actual cycles agree with the literal parent and recovered whole72 source.
 
 ### Type178
 
@@ -55,7 +55,7 @@ canonical involution= (7,4,8,6,1,5,3,0,2)
 facet involution    = (6,1,8,3,7,5,0,4,2)
 ```
 
-The type178 incidence and normal map are inherited literal geometry; their complete graph, face-cycle automorphism group and induced facet permutation were newly checked. :contentReference[oaicite:3]{index=3}
+The type178 incidence and normal map are inherited literal geometry; their complete graph, face-cycle automorphism group and induced facet permutation were newly checked.
 
 Its canonical vertex-root orbits are `{5}`, `{0,7}`, `{1,4}`, `{2,8}`, `{3,6}`. Stored normal representatives are `(0,1,3,4,7)`, corresponding to canonical `(5,1,0,2,3)`. Nevertheless, **all nine** rooted tree lists are independently enumerated, and every target-root matrix is checked after explicit permutation. The relabeled physical source fan is used; it is not silently replaced by a different minimum-label target fan.
 
@@ -91,7 +91,7 @@ g=N/(4*D)
 Vol_physical=sqrt(det(G))*D/6.
 ```
 
-Here `M_L=3L*area_centroid(left cap)`, and analogously on the right. This is one five-vertex core plus two actual cap pyramids with disjoint interiors; there are no independently chosen masses or centers. In particular, `t=1` is not divided away. These coupled identities are the source's physical formulas. :contentReference[oaicite:4]{index=4}
+Here `M_L=3L*area_centroid(left cap)`, and analogously on the right. This is one five-vertex core plus two actual cap pyramids with disjoint interiors; there are no independently chosen masses or centers. In particular, `t=1` is not divided away. These coupled identities are the source's physical formulas.
 
 The exclusion proof is stronger in scope than reliance on this chart: it starts with an **arbitrary actual convex realization of the stated face lattice** and its genuine vertex-apex decompositions.
 
@@ -107,7 +107,7 @@ Xᵀ sum(T in F_a) m_T chi_T = 0
 sum(T in F_a) m_T <H_T,A> = 20 E_P[||x||_G²].
 ```
 
-Indeed a uniform tetrahedron has `E[lambda_i]=1/4` and `E[lambda_i lambda_j]=(1+delta_ij)/20`, giving its vertex-sum centroid and the displayed second-moment matrix. Thus all fans share the same zeroth, first and second moments of **one solid at one centroid**. This is the recovered all72 mechanism, extended here to multiple triangulations at the same apex. :contentReference[oaicite:5]{index=5}
+Indeed a uniform tetrahedron has `E[lambda_i]=1/4` and `E[lambda_i lambda_j]=(1+delta_ij)/20`, giving its vertex-sum centroid and the displayed second-moment matrix. Thus all fans share the same zeroth, first and second moments of **one solid at one centroid**. This is the recovered all72 mechanism, extended here to multiple triangulations at the same apex.
 
 Only necessary identities of the **actual determinant masses** are used. I do not assert that arbitrary degree-two-moment-matched weights must be uniform or physically realizable.
 
@@ -129,7 +129,7 @@ The new verifier reconstructs the complete supporting hull of the literal equal-
 
 It obtains `Vol=911/54` and `g=(49253/196776,3965153/393552,1811/3644)`. Independent boundary-cone integration and **all 96 genuine apex-fan decompositions** agree exactly on mass, all three first moments and the full second-moment matrix, before and after translation by the same g. Identical tetrahedra also have explicitly compared equal determinant masses.
 
-Vertex 4 is the unique farthest base vertex but has the positive escape product `2143515235/7083936` toward apex 7. Thus the old farthest-base shortcut cannot be restored. The coordinates and this countercontrol originate in the attached geometry result; the 96-fan second-moment replay is new. :contentReference[oaicite:6]{index=6}
+Vertex 4 is the unique farthest base vertex but has the positive escape product `2143515235/7083936` toward apex 7. Thus the old farthest-base shortcut cannot be restored. The coordinates and this countercontrol originate in the attached geometry result; the 96-fan second-moment replay is new.
 
 ## 4. Complete proof mechanism
 
@@ -190,7 +190,7 @@ Each row covers all 2,466 trees. Shared counts include two- and three-fan record
 |8|5|1321|436|564|145|5826|
 |Total||14253|3081|3658|1202|40660|
 
-The 4,860 records comprise 3,658 single-fan, 1,197 two-fan and five three-fan records; 1,195 use nonzero second-moment coefficients. The five triple plans, in normal labels and zero-based lexicographic tree ordinals, are `(2,734,(2,1,6))`, `(2,1100,(2,1,6))`, `(3,2,(3,0,4))`, `(3,909,(3,0,4))`, `(3,1368,(3,0,4))`. These recovered counts match the late source and its frozen report. :contentReference[oaicite:7]{index=7}
+The 4,860 records comprise 3,658 single-fan, 1,197 two-fan and five three-fan records; 1,195 use nonzero second-moment coefficients. The five triple plans, in normal labels and zero-based lexicographic tree ordinals, are `(2,734,(2,1,6))`, `(2,1100,(2,1,6))`, `(3,2,(3,0,4))`, `(3,909,(3,0,4))`, `(3,1368,(3,0,4))`. These recovered counts match the late source and its frozen report.
 
 ## 6. New whole178 coverage and the decisive advance
 
@@ -248,7 +248,7 @@ The complete 72 plan is 4,860 bytes, SHA-256 `47203739824bec01bad0faa51f2091c261
 
 The complete 178 plan is 4,482 bytes, SHA-256 `7f4d5fa91ef3ed7fd644c5d0aac7dd91389a8f00745448b9832e4e8a5666cfe3`: representative normal roots `(0,1,3,4,7)`, then tree ordinals, skipping the projection branches. Code 0 selects the root fan; codes 1–96 add fan `code-1`; 255 selects the 26-fan order above. Both full plans are losslessly embedded in the recovered numerical source.
 
-**Coefficient location is not proof checking.** The deterministic generator starts at the zero coefficient vector, uses an analytic gradient and L-BFGS-B to minimize half the sum of squared eigenvalue deficits below 1, then rounds onto denominators `(1,2,4,16,256,65536)`. It imposes nonnegativity only on shadow multipliers. Explicit options are `maxiter=1800`, `ftol=1e-15`, `gtol=1e-10`, `maxls=40`, `maxcor=40`. Numerical filters 0.65 and 1e-5 only select attempted exact certificates; the integer PD gate is authoritative. The documented optimizer limits are stopping conditions, not infeasibility certificates. :contentReference[oaicite:8]{index=8}
+**Coefficient location is not proof checking.** The deterministic generator starts at the zero coefficient vector, uses an analytic gradient and L-BFGS-B to minimize half the sum of squared eigenvalue deficits below 1, then rounds onto denominators `(1,2,4,16,256,65536)`. It imposes nonnegativity only on shadow multipliers. Explicit options are `maxiter=1800`, `ftol=1e-15`, `gtol=1e-10`, `maxls=40`, `maxcor=40`. Numerical filters 0.65 and 1e-5 only select attempted exact certificates; the integer PD gate is authoritative. The documented optimizer limits are stopping conditions, not infeasibility certificates.
 
 Actually used and replayed: **CPython3.13.5, NumPy2.3.5, SciPy1.17.0, OpenBLAS0.3.30/SkylakeX, XZ/liblzma5.8.1**, assertions enabled, `OPENBLAS_NUM_THREADS=1`, `OMP_NUM_THREADS=1`, four independent worker processes. The environment is set before child-process startup. No random seed or optimizer checkpoint is an input.
 
@@ -274,7 +274,7 @@ All following source, proof, report and transcript identities were actually repr
 |verify178.txt|3247|f239f2001486adc80baba3e8d991c1ca0814c54337e90198059231f3282c8e4f|
 |combined replay.txt|16023|27bfcf0355faff4307ca7a5df5f0f651fed9f7d9e2bf6127f092cf5271418aa2|
 
-The separately executed literal all72 wrapper also reproduced its original **5,785-byte** replay SHA-256 `88cbcc7c598731928892072671548d6177bcf1f520a07787afa65408c87c669f`. The larger combined log above is intentionally a different transcript. The original late source's corresponding frozen identities agree. :contentReference[oaicite:9]{index=9}
+The separately executed literal all72 wrapper also reproduced its original **5,785-byte** replay SHA-256 `88cbcc7c598731928892072671548d6177bcf1f520a07787afa65408c87c669f`. The larger combined log above is intentionally a different transcript. The original late source's corresponding frozen identities agree.
 
 The following markers are **expected and actually observed**; each whole-root marker is accompanied by all nine root reports:
 
@@ -312,6 +312,6 @@ The useful continuation is to retire **both complete types72 and178** and apply 
 
 ### Supplementary artifacts
 
-[New 24-member exact proof/source/log archive](sandbox:/mnt/data/RAVEN24_TYPES72_178_EXACT_RECOVERY.zip) — **1,715,674 bytes**, SHA-256 `6442e494b99887a968461385578c8539765d6e7e128361e37dabfa8b8e67fd4b`. Its members were read back and compared byte-for-byte with the manifest after packaging.
+New 24-member exact proof/source/log archive (`RAVEN24_TYPES72_178_EXACT_RECOVERY.zip`) — **1,715,674 bytes**, SHA-256 `6442e494b99887a968461385578c8539765d6e7e128361e37dabfa8b8e67fd4b`. Its members were read back and compared byte-for-byte with the manifest after packaging.
 
-[Verification receipt](sandbox:/mnt/data/RAVEN24_TYPES72_178_VERIFICATION_RECEIPT.json) — **4,467 bytes**, SHA-256 `48cfb2f5b39c4cd84e31bd7dacf9480e1d11f54a274cbeddaa79271564ffc42e`. [Recovery source](sandbox:/mnt/data/recover_raven24_72_178.py) and [the same self-contained Markdown handoff](sandbox:/mnt/data/RAVEN24_TYPES72_178_RESULT.md) are conveniences; the complete inline capsule is the durable source authority.
+Verification receipt (`RAVEN24_TYPES72_178_VERIFICATION_RECEIPT.json`) — **4,467 bytes**, SHA-256 `48cfb2f5b39c4cd84e31bd7dacf9480e1d11f54a274cbeddaa79271564ffc42e`. Recovery source (`recover_raven24_72_178.py`) and the same self-contained Markdown handoff (`RAVEN24_TYPES72_178_RESULT.md`) are conveniences; the complete inline capsule is the durable source authority.

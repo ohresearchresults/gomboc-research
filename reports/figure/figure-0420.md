@@ -163,4 +163,4 @@ python REPLAY_SEARCH.py coarse_radial_20 NEW_SEARCH_DIRECTORY
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Supplemental artifact: [Full sources, terminal floating checkpoints, and exact audit outputs](sandbox:/mnt/data/KM10_FULL_RECOVERY.zip). The ZIP is 799,987 bytes, SHA-256 `ed78e1061db126e82195035455600b0aecf4fd9dde364af27c8e4a636ec49e00`; it is supplementary, not a dependency of the inline recovery.
+Supplemental artifact: Full sources, terminal floating checkpoints, and exact audit outputs (`KM10_FULL_RECOVERY.zip`). The ZIP is 799,987 bytes, SHA-256 `ed78e1061db126e82195035455600b0aecf4fd9dde364af27c8e4a636ec49e00`; it is supplementary, not a dependency of the inline recovery.

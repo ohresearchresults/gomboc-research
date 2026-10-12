@@ -34,7 +34,7 @@ and let P=conv(T0,F), filled with its original uniform volume density. Then the 
 
 No restriction on the number of root vertices is imposed. Curved compact convex roots are included.
 
-**Consequently every geometric realization of all ten marked positive-octant proper10/17/9 root-only fan patterns in the parent satisfies (1).** This is a whole-shape value theorem, not another open parameter collar. The ten-pattern classification itself is inherited, not counted as a new result. The parent had closed quantitative subdomains of those patterns, not their complete parameter spaces. :contentReference[oaicite:0]{index=0}
+**Consequently every geometric realization of all ten marked positive-octant proper10/17/9 root-only fan patterns in the parent satisfies (1).** This is a whole-shape value theorem, not another open parameter collar. The ten-pattern classification itself is inherited, not counted as a new result. The parent had closed quantitative subdomains of those patterns, not their complete parameter spaces.
 
 The new geometric mechanism is stronger than a vertex-count reduction. There is an actual proper root-only successor with at most six root vertices and ten total true vertices that preserves the same root plane, all four endpoint values, actual root area, V, Bell, and the **entire original ell-marginal**, while not decreasing N. In fact it does not decrease
 
@@ -51,7 +51,7 @@ The sharp supremum of this whole class is not determined. The proved interval is
 
 The lower side follows from the proper detached sequence already preserved in the preceding handoff. It is not an assertion of proper attainment.
 
-The unrestricted adjacent-triangle problem remains open outside this class. In particular, negative-z root geometry, an opposite endpoint at least1, and positive-ell auxiliary vertices are not silently absorbed into the theorem. No whole mechanical E17 exclusion, catalogue decrement,110 construction or change to34<=Cmin<=622 follows. Those endpoints remain the accepted lower and upper bounds, respectively. :contentReference[oaicite:1]{index=1}
+The unrestricted adjacent-triangle problem remains open outside this class. In particular, negative-z root geometry, an opposite endpoint at least1, and positive-ell auxiliary vertices are not silently absorbed into the theorem. No whole mechanical E17 exclusion, catalogue decrement,110 construction or change to34<=Cmin<=622 follows. Those endpoints remain the accepted lower and upper bounds, respectively.
 
 ## 2. Authority and evidence boundary
 
@@ -69,7 +69,7 @@ The immutable upstream parent remains
 
 The complete2179-line current journal, including that literal parent and its complete source, had already been read consecutively through EOF in this chat. No new external scientific source is used here, and no inaccessible older source is imported into the new computation.
 
-The only inherited value input needed for the full-class conclusion is the accepted **original-body projection-prism theorem**: a proper body containing T0 with actual xy projection Delta={x,y>=0,x+y<=1} has T<203/100. Its authority is minimum-0089, SHA891b41773841961163f155590af8f226a198ce4a68017e870a8a492b3c7c1f52. That theorem is used only on an actual containing-body support sector, never on a uniformly refilled projective image. Its older393-leaf proof is not rerun or imported by this capsule. :contentReference[oaicite:2]{index=2}
+The only inherited value input needed for the full-class conclusion is the accepted **original-body projection-prism theorem**: a proper body containing T0 with actual xy projection Delta={x,y>=0,x+y<=1} has T<203/100. Its authority is minimum-0089, SHA891b41773841961163f155590af8f226a198ce4a68017e870a8a492b3c7c1f52. That theorem is used only on an actual containing-body support sector, never on a uniformly refilled projective image. Its older393-leaf proof is not rerun or imported by this capsule.
 
 Everything new—the corner replacement, its complete parameter coverage, the complementary polynomial certificates, and the actual controls—is reconstructed by the single autonomous capsule below. Normal build, normal verification, fresh-directory build, and a separately completed fresh-directory verification were observed. An initial combined cold command reached its timeout after the build; that uncompleted verification was not counted. The subsequent separate cold verification completed and matched every pin.
 
@@ -220,7 +220,7 @@ Its original ell-marginal has density
 
     Ai/gell * (1-w/h_i)^2, 0<=w<=h_i.                 (9)
 
-These are the parent's genuine separate corner contributions; they are not replaced by total area alone. :contentReference[oaicite:3]{index=3}
+These are the parent's genuine separate corner contributions; they are not replaced by total area alone.
 
 Apply the corner lemma separately in original affine root coordinates with cost n. The replacement missing triangles have the same three individual areas Ai and no larger three individual n-area integrals. Their allowed triangles are disjoint, so their complements intersect in one actual convex positive-area root F*. The old side-contact marks remain in F*. In particular the same containing triangle is retained.
 
@@ -626,7 +626,7 @@ The standard-library wrapper deliberately launches its exact child without-S so 
     POSITIVE_OCTANT_ROOT_ONLY_203_EXACT_PASS
     POSITIVE_OCTANT_ROOT_203_SELF_CONTAINED_RECOVERY_PASS
 
-Convenience copies: [complete readable source](sandbox:/mnt/data/positive_octant_root_203_v1.py), [exact certificate and actual-body report](sandbox:/mnt/data/positive_octant_root_203_v1.json), and [autonomous recovery wrapper](sandbox:/mnt/data/recover_positive_octant_root_203_v1.py). The following literal capsule contains every source byte and exact new input; none of those links is a dependency.
+Convenience copies: complete readable source (`positive_octant_root_203_v1.py`), exact certificate and actual-body report (`positive_octant_root_203_v1.json`), and autonomous recovery wrapper (`recover_positive_octant_root_203_v1.py`). The following literal capsule contains every source byte and exact new input; none of those links is a dependency.
 
 ## Complete autonomous capsule
 

@@ -44,9 +44,9 @@ Required literal parent:
     minimum-0176
     SHA-256 9b2d327e6f4fbd2bfdf827e072ff769efde7981b0257bb418cc5e5f4df5aabe2
 
-Its complete two-chart reduction, true incidences, full-volume cone budget and original-density conventions are accepted working premises. The parent expressly did not close either simultaneous stationary system. :contentReference[oaicite:0]{index=0}
+Its complete two-chart reduction, true incidences, full-volume cone budget and original-density conventions are accepted working premises. The parent expressly did not close either simultaneous stationary system.
 
-The additional inherited input is (J), as recorded in the supplied common notebook's actual fan-variable bounds. It is a relation for the **same actual body**, not a newly fitted moment constraint. The endpoint screen used below is likewise the accepted actual-body large-endpoint theorem. I did not replay the larger archived endpoint certificate; its exact archive is not supplied for a computational successor. The present polynomial certificate and controls have no computational dependency on that archive. :contentReference[oaicite:1]{index=1}
+The additional inherited input is (J), as recorded in the supplied common notebook's actual fan-variable bounds. It is a relation for the **same actual body**, not a newly fitted moment constraint. The endpoint screen used below is likewise the accepted actual-body large-endpoint theorem. I did not replay the larger archived endpoint certificate; its exact archive is not supplied for a computational successor. The present polynomial certificate and controls have no computational dependency on that archive.
 
 The new statements are analytic deductions under these accepted inputs. Exact algebra and actual-control recovery were executed normally and then in an empty directory from the new source alone. They are not proof-assistant formalizations. No new parent conflict was found; the earlier B-B correction to 61/2040 is already incorporated in the supplied update.
 
@@ -69,7 +69,7 @@ The parent full-boundary fan gives, at every p in the actual proper33 body,
 
     24E >= n(p)+t*ell(p).                             (C)
 
-The entire boundary is coned from p: the true ABC and ABD pyramids contribute x(p)/6 and y(p)/6, and the apex ell(p) contribution uses the whole V. The parent explains why the t in (C) is not merely the volume of conv(T0,p). :contentReference[oaicite:2]{index=2}
+The entire boundary is coned from p: the true ABC and ABD pyramids contribute x(p)/6 and y(p)/6, and the apex ell(p) contribution uses the whole V. The parent explains why the t in (C) is not merely the volume of conv(T0,p).
 
 Because c>=d, (J) implies
 
@@ -209,14 +209,14 @@ The accepted negative-z full-maximum theorem gives
 
     T<3(1+b+c)/(2+b+c),
 
-so a putative target maximum requires b+c>9/8. This condition is explicitly retained in the local ascent statement; it is not imposed on arbitrary bodies by a clipping operation. :contentReference[oaicite:3]{index=3}
+so a putative target maximum requires b+c>9/8. This condition is explicitly retained in the local ascent statement; it is not imposed on arbitrary bodies by a clipping operation.
 
 The accepted actual-body large-endpoint screen gives
 
     R=9405c^2+1013cd+10418c(1+b)
        +1750d^2-6737d(1+b)-8487(1+b)^2 <0,           (R)
 
-as well as 0<b<1, d<3/4 and c<943(1+b)/1352<7/5, whenever T>=tau. These are inherited actual-body exclusions, not newly asserted realizability conditions. :contentReference[oaicite:4]{index=4}
+as well as 0<b<1, d<3/4 and c<943(1+b)/1352<7/5, whenever T>=tau. These are inherited actual-body exclusions, not newly asserted realizability conditions.
 
 Put h=b+c-9/8, so h>0. The decisive exact identity is
 
@@ -331,7 +331,7 @@ The exact slope tuples (u,v,kappa,lambda) are
 
 Their recovered T values are approximately 1.502496380229249, 1.400125863440336 and 1.377434209075113. Their own G(D)/r values are approximately 0.030713672557679, 0.041733298165115 and -0.054974370107418. Thus both-negative signs and small positive G(D) certainly occur in actual geometry below the stated threshold; the new theorem must not be read as an unconditional geometric impossibility.
 
-All three are true 8/13/7 proper33 bodies, have one negative-z positive-ell auxiliary, positive G at every auxiliary, both coordinate-mark supports, and positive root area. Their original V,J,E,N,T,G, vertex lists, facets and edges were compared **exactly** with the supplied parent JSON and matched. Original A- and B-apex fans and a third interior-apex fan agree. The genuine B-root pyramid has E_root=b V_root/4. Their whole hinges and root reaction residuals are nonzero, so none is stationary. Their actual own-centroid Euclidean mechanics remain strict 446,345,345, weak000; all 156 true-edge primal/polar primitives are nonzero. The parent provides these controls as nonstationary bodies, not as 110 attainments. :contentReference[oaicite:5]{index=5}
+All three are true 8/13/7 proper33 bodies, have one negative-z positive-ell auxiliary, positive G at every auxiliary, both coordinate-mark supports, and positive root area. Their original V,J,E,N,T,G, vertex lists, facets and edges were compared **exactly** with the supplied parent JSON and matched. Original A- and B-apex fans and a third interior-apex fan agree. The genuine B-root pyramid has E_root=b V_root/4. Their whole hinges and root reaction residuals are nonzero, so none is stationary. Their actual own-centroid Euclidean mechanics remain strict 446,345,345, weak000; all 156 true-edge primal/polar primitives are nonzero. The parent provides these controls as nonstationary bodies, not as 110 attainments.
 
 The new exact report retains every original integral and full fan piece, adds the actual joint-moment slack, normalized G(D), and complete quadratic moment polynomials for the genuine inward ear path. The source below is a complete reconstruction recipe; the report is not the only source of any continuation-critical datum.
 
@@ -365,7 +365,7 @@ and the full root reactions, with p=X+Y and k0=|grad ell|,
     int_root Gy/k0=qY-X,
     int_root Gz/k0=qZ-p.
 
-There are three independent root equations. They are reactions of the original root/body/frame objective, not independent moment fits. :contentReference[oaicite:6]{index=6} The new proof does not purport to solve this full system outside the excluded sector: it proves that a necessary subsystem already fails inside the stated sector.
+There are three independent root equations. They are reactions of the original root/body/frame objective, not independent moment fits. The new proof does not purport to solve this full system outside the excluded sector: it proves that a necessary subsystem already fails inside the stated sector.
 
 The most useful continuation is this single, strongly mixed U_D system with its actual root triangle and the endpoint-dependent cut retained. The parent L_D determinant problem and the U_D both-negative search are no longer the appropriate high-trace frontier under (J).
 
@@ -404,7 +404,7 @@ Complete expected stdout:
     report_sha256=1122d59373a64677538a9fb5962d16925e0ea2978858d7f14b2ef6e224e7528a
     PROPER33_STATIONARY_SECTOR_V1_RECOVERY_PASS
 
-Normal execution and a separate empty-directory source-only execution were actually completed, with byte-identical report and stdout. Optional copies: [source](sandbox:/mnt/data/proper33_stationary_sector_v1.py), [full report](sandbox:/mnt/data/proper33_stationary_sector_v1.json), [stdout](sandbox:/mnt/data/proper33_stationary_sector_v1.out).
+Normal execution and a separate empty-directory source-only execution were actually completed, with byte-identical report and stdout. Optional copies: source (`proper33_stationary_sector_v1.py`), full report (`proper33_stationary_sector_v1.json`), stdout (`proper33_stationary_sector_v1.out`).
 
 The search for a hinge determinant was not resumed. The useful connection was the actual joint first-moment budget (J) with the parent's full-t cone bound. Exact polynomial elimination and an exact choice of positive multipliers produced (I); the complete identity, rather than success or failure of a numerical search, proves the continuous exclusion.
 
@@ -416,4 +416,4 @@ The search for a hinge determinant was not resumed. The useful connection was th
 
 The only added research premise beyond the parent reduction is the explicitly retained inherited same-body inequality (J), together with the already accepted actual-body endpoint screen at the target threshold. No independently weighted triangle/star, surrogate G, extra root-moment completion, or assumed simultaneous stationarity of integration triangles is used. The all-positive endpoints, a>b, proper33, true maximal triangles and actual uniform filling are essential hypotheses. No statement is made for a fixed-lattice or fixed-sign constrained optimizer that lacks the accepted full-class reactions.
 
-The remaining strongly mixed U_D chart is genuinely unresolved here. Low-endpoint negative-z root-only VALUE, zero endpoints, other protected-facet patterns and the actual trace-to-mechanical-incidence bridge remain separate. In particular, no numerical determinant survey is an exclusion, and an auxiliary 8/13/7 trace reduction is not a mechanical E17 decrement. There is no new 110 attainer and no change to 34<=C_min<=622; the whole minimum remains open. :contentReference[oaicite:7]{index=7}
+The remaining strongly mixed U_D chart is genuinely unresolved here. Low-endpoint negative-z root-only VALUE, zero endpoints, other protected-facet patterns and the actual trace-to-mechanical-incidence bridge remain separate. In particular, no numerical determinant survey is an exclusion, and an auxiliary 8/13/7 trace reduction is not a mechanical E17 decrement. There is no new 110 attainer and no change to 34<=C_min<=622; the whole minimum remains open.

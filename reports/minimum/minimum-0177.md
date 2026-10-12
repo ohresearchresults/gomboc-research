@@ -25,7 +25,7 @@ In each of these classes, the inherited octant theorem then gives **`T(P)<203/10
 
 The entire one-negative-vertex comparison is **not yet proved**. Its remaining geometry is sharply specified below. The exact depth polynomial has a strictly positive quadratic coefficient on the whole low-endpoint domain. Thus the genuinely unresolved high-trace comparison reduces to the sign of a first coefficient for an actual positive root body and an admissible root direction, rather than to independently completed cap moments.
 
-The starting authority is literal `minimum-0175`, SHA-256 `7fdabeeb8e9da0f3dde099dfe8da71f49287ef9d85d5ba6e17d4742f24a32bdd`. Its pyramidal-cap erasure, and its warning that a B-negative-root edge creates a positive-ell clipping vertex, are used at their stated scope. The newly supplied A-cone material is used only for the additional location inequalities in §8, not as a substitute for a body. :contentReference[oaicite:0]{index=0}
+The starting authority is literal `minimum-0175`, SHA-256 `7fdabeeb8e9da0f3dde099dfe8da71f49287ef9d85d5ba6e17d4742f24a32bdd`. Its pyramidal-cap erasure, and its warning that a B-negative-root edge creates a positive-ell clipping vertex, are used at their stated scope. The newly supplied A-cone material is used only for the additional location inequalities in §8, not as a substitute for a body.
 
 ## 1. Actual bodies and normalization
 
@@ -336,7 +336,7 @@ The preceding argument proves `mcrit>0`: for `b>=d` this is immediate; for `b<d`
 
 ### 5.5. Value corollaries
 
-Whenever one of these comparison conditions holds, the proper positive-octant root-only theorem of J55 gives `T(P)<203/100`. If Fplus has zero area, both Q and the actual Pplus are B-pyramids over their respective zero-height bases, with trace below two; the original one-negative-cap theorem therefore gives T(P)<2 on that boundary directly. Positive root area is not presumed after a degenerate clip. The inherited J55 theorem is used only for the genuine root-only Q. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+Whenever one of these comparison conditions holds, the proper positive-octant root-only theorem of J55 gives `T(P)<203/100`. If Fplus has zero area, both Q and the actual Pplus are B-pyramids over their respective zero-height bases, with trace below two; the original one-negative-cap theorem therefore gives T(P)<2 on that boundary directly. Positive root area is not presumed after a degenerate clip. The inherited J55 theorem is used only for the genuine root-only Q.
 
 ## 6. An additional steep-direction value theorem
 
@@ -435,7 +435,7 @@ This specializes the supplied location theorem to an exact identity, rather than
  <=(1+alpha*h)(2+alpha*h).                               (8.1)
 ```
 
-By (3.1), all three are explicit quadratic inequalities along the same original depth ray. The exact body auditor checks them. They are available for the remaining coefficient problem, but they were not assumed sufficient for realization or used to claim an unproved threshold closure. :contentReference[oaicite:3]{index=3}
+By (3.1), all three are explicit quadratic inequalities along the same original depth ray. The exact body auditor checks them. They are available for the remaining coefficient problem, but they were not assumed sufficient for realization or used to claim an unproved threshold closure.
 
 ## 9. Exact controls, including a failed stronger implication
 
@@ -579,7 +579,7 @@ The visible-tetrahedron theorem uses proper coordinate triangles, a root-only bo
 
 All main denominators are explicit: `delta,epsilon,d>0`, `h>0`, and the B-projection denominator `1+h>1`. The formulas have no division by `c-d` or `b-d`; both equality walls are covered. The wall `eta=0` is the no-extra-wedge boundary. Coordinate-zero endpoints and b=1 are algebraic limits, not extensions of the stated proper positive-endpoint theorem. Root-cut degeneracy and the absence of positive-height root area are handled separately as above.
 
-The main comparison proof uses neither full joint stationarity nor the inherited high-trace endpoint, volume, J, or height-law relaxations. The separate high-endpoint negative-z theorem remains an accepted earlier result, not a new replay or a consequence of this work. :contentReference[oaicite:4]{index=4}
+The main comparison proof uses neither full joint stationarity nor the inherited high-trace endpoint, volume, J, or height-law relaxations. The separate high-endpoint negative-z theorem remains an accepted earlier result, not a new replay or a consequence of this work.
 
 The most useful continuation is the exact actual-body coefficient problem (7.1) in the residual `m>mcrit` sector, using the genuine supporting inequality (2.1), retained cut endpoints, and the quadratic A-cone constraints (8.1). A negative above-two coefficient would immediately give a recoverable actual counterexample family; proving its nonnegativity, together with the low-Q discriminant alternative, would finish the one-negative-vertex comparison. Neither outcome is asserted here.
 
@@ -629,7 +629,7 @@ Normal execution and clean source-only recovery/build/check were completed. Repo
 
 The symbolic unit verifies the full algebraic positivity identities. The continuous geometric proofs above are not inferred from the finite controls and are not proof-assistant formalizations.
 
-Convenience copies: [recovery capsule](sandbox:/mnt/data/recover_cap_pair.py), [body and visibility auditor](sandbox:/mnt/data/cap_pair/cap_pair.py), [symbolic verifier](sandbox:/mnt/data/cap_pair/cap_pair_identities.py), [complete exact report](sandbox:/mnt/data/cap_pair/cap_pair.json). The literal capsule below is sufficient without those files.
+Convenience copies: recovery capsule (`recover_cap_pair.py`), body and visibility auditor (`cap_pair.py`), symbolic verifier (`cap_pair_identities.py`), complete exact report (`cap_pair.json`). The literal capsule below is sufficient without those files.
 
 ```python
 # ONE_NEGATIVE_ROOT_PAIRED_WEDGE_DOMINANCE_AND_DEPTH_NORMAL_FORM_V1

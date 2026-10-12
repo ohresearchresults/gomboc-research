@@ -26,11 +26,11 @@ The literal parent distinguishes its complete nonnegative-shadow graph from mere
 
 (1,0),(2,1),(3,2),(4,3),(5,4),(6,5),(7,0),(8,7).
 
-That distinction is retained throughout. The inherited high trace and separation statements are taken as inputs, not reproved. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+That distinction is retained throughout. The inherited high trace and separation statements are taken as inputs, not reproved.
 
-The supplied sharp five-pole theorem is likewise a mathematical input. Its six positivity requirements are essential; it explicitly leaves the actual-body implication open. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+The supplied sharp five-pole theorem is likewise a mathematical input. Its six positivity requirements are essential; it explicitly leaves the actual-body implication open.
 
-The new bodies use exactly the supplied double-stack plane order and FULL_ORDER=(2,4,8,5,3,0,1,7,6). They are not aliases for an older historical control. The original explicit L control is recovered unchanged as a calibration case. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+The new bodies use exactly the supplied double-stack plane order and FULL_ORDER=(2,4,8,5,3,0,1,7,6). They are not aliases for an older historical control. The original explicit L control is recovered unchanged as a calibration case.
 
 **Identification limitation:** the literal parent supplies a catalogue and an epsilon fixture, but no unique incidence object explicitly identified by the token “orbit(1,)”. I therefore make no unsupported canonical-orbit identification. The complete labelled incidence used below is supplied literally; neither the inherited tree nor the five distinguished pole labels is changed.
 
@@ -390,7 +390,7 @@ Generated exact report: 1353558 bytes, SHA-256 558cb10fb778a49a1c6897d7c51c52175
 
 Both build and check completed normally. I then copied **only this final source** into a fresh directory, rebuilt the report, and ran check again. Both final pins matched and the terminal marker was observed in both cold commands. This verifies the stated finite exact computations; the general analytic theorems are proved above, not inferred from sampled bodies.
 
-Convenience copies: [complete source](sandbox:/mnt/data/lynx54/lynx54_bridge.py) and [exact generated report](sandbox:/mnt/data/lynx54/lynx54_bridge_report.json). The following literal source is the durable recovery data.
+Convenience copies: complete source (`lynx54_bridge.py`) and exact generated report (`lynx54_bridge_report.json`). The following literal source is the durable recovery data.
 
 ```python
 """LYNX54_ACTUAL_HIGH_TRACE_COUNTERFAMILY_AND_QUAD_GATE_V1.

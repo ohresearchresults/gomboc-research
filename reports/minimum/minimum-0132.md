@@ -46,7 +46,7 @@ The required parent is `minimum-0130`, literal title `FACET_FIXED_UNIFORM_CENTRO
 
 Authentication uses UTF-8, `ensure_ascii=False`, separators `(',',':')`, keys `version,result_markdown`, one final LF inside the Markdown string and no envelope-final LF. No source conflict was found. Earlier unchanged evidence remains the supplied same-chat context; no missing exact computational dependency is needed by the new capsule.
 
-The parent’s all-basal theorem is used as accepted evidence, not re-announced as new work. Its exact centroid correction fixes one facet pointwise; it does not fix two independent facets or automatically protect nonbasal endpoints. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} The general normal-sign reduction also uses the shared accepted theorem for at most three simple A points; its actual projective refilling, rather than transported mass, is essential. :contentReference[oaicite:2]{index=2}
+The parent’s all-basal theorem is used as accepted evidence, not re-announced as new work. Its exact centroid correction fixes one facet pointwise; it does not fix two independent facets or automatically protect nonbasal endpoints. The general normal-sign reduction also uses the shared accepted theorem for at most three simple A points; its actual projective refilling, rather than transported mass, is essential.
 
 All new exact controls and both interval certificates were executed. The final source completed an original check and fresh source-only build/check with byte parity. A preceding unoptimized check timed out; it is not counted as a successful run. Replacing symbolic rational differentiation by exact coefficient jets preserved the report bytes and allowed the final checks to complete. Wrapper extraction was independently byte-matched to that final source. No proof-assistant or literature-priority certification is claimed.
 
@@ -177,7 +177,7 @@ Suppose the ridge escape from(8) has leading term c_r s^r, with c_r>0 and r=1 or
 
 Then every basal escape has leading coefficient epsilon d_i>0, and the ridge coefficient is at least c_r/2. Thus the full body regularizes to first order when the free slide has A≠0, and to second order when A=0. Actual uniform COM is fixed at every parameter value.
 
-The construction automatically includes the polygon-curvature term in the intrinsic second jet. In the parent’s notation, its vertex/pole jets obey C z2=−d, and stress pairing is alpha·b−lambda·d, not alpha·b alone. :contentReference[oaicite:3]{index=3} Equation(8), together with the positive ridge coefficient of every full nonnegative stress, is also a direct whole-cone explanation of the second-order rescue.
+The construction automatically includes the polygon-curvature term in the intrinsic second jet. In the parent’s notation, its vertex/pole jets obey C z2=−d, and stress pairing is alpha·b−lambda·d, not alpha·b alone. Equation(8), together with the positive ridge coefficient of every full nonnegative stress, is also a direct whole-cone explanation of the second-order rescue.
 
 The concrete recovery uses the simpler safe choice delta=s³ for its ridge control. That particular curve is not asserted to have minimal order.
 
@@ -402,7 +402,7 @@ Exact main stdout:
 
 Fresh-source receipts ended `NONBASAL_FINAL_SOURCE_ONLY_COLD_BUILD_BYTE_PARITY_PASS` and `NONBASAL_FINAL_SOURCE_ONLY_COLD_CHECK_BYTE_PARITY_PASS`. Wrapper extraction ended `NONBASAL_SOURCE_EXTRACTION_PASS` and matched the final source bytes. Optional locator stdout pins are97 bytes/SHA `e9f06136346bcf3e30fcd0f98fa90a37afe22e8ccdd18fe86aaffd1de6c3ab41` and110 bytes/SHA `2d34cdc12a4b8ebeaed2a88824821e88038e11b5ccc0658edb280405de626e98`.
 
-Convenience copies: [plain source](sandbox:/mnt/data/nonbasal/nonbasal_e17.py), [complete exact report](sandbox:/mnt/data/nonbasal/nonbasal_e17.json), [recovery capsule](sandbox:/mnt/data/nonbasal/recover_nonbasal.py), [build receipt](sandbox:/mnt/data/nonbasal/build.txt). Recovery does not require these links.
+Convenience copies: plain source (`nonbasal_e17.py`), complete exact report (`nonbasal_e17.json`), recovery capsule (`recover_nonbasal.py`), build receipt (`build.txt`). Recovery does not require these links.
 
 ```python
 """Recover NONBASAL_E17_NORMAL_AND_HORIZONTAL_RIDGE_V1.

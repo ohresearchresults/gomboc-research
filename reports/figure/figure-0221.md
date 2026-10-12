@@ -14,7 +14,7 @@ AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md
 (S,U,H)=(2,2,2),
 ```
 
-not `(1,1,0)`. The requested acceptance gate remains the exact finite homogeneous object with one stable face, one unstable vertex, no saddle edge, full incidence/mechanics certification, and a matching mesh. :contentReference[oaicite:0]{index=0} The journal’s accepted parent data and prescribed double-octahedral/prismatic successor are reproduced independently here. :contentReference[oaicite:1]{index=1} The preceding continuation supplied no immutable mathematical result because its envelope was invalid; I treated any recoverable terminal bytes only as an untrusted coordinate proposal and reran every decisive calculation from the accepted parent source. :contentReference[oaicite:2]{index=2}
+not `(1,1,0)`. The requested acceptance gate remains the exact finite homogeneous object with one stable face, one unstable vertex, no saddle edge, full incidence/mechanics certification, and a matching mesh. The journal’s accepted parent data and prescribed double-octahedral/prismatic successor are reproduced independently here. The preceding continuation supplied no immutable mathematical result because its envelope was invalid; I treated any recoverable terminal bytes only as an untrusted coordinate proposal and reran every decisive calculation from the accepted parent source.
 
 ## Exact accepted parent
 
@@ -240,6 +240,6 @@ Manifest SHA-256:
 93bc7f2b096329844bfb4fa327a9737cb52a87648d0351497941d086f88b4c18
 ```
 
-[Download the complete exact archive](sandbox:/mnt/data/Bright_Nova_91_second_crosscap_terminal_volume_exact_NONWINNER.zip)
+Download the complete exact archive (`Bright_Nova_91_second_crosscap_terminal_volume_exact_NONWINNER.zip`)
 
 The terminal branch is therefore a rigorous exact adjacent endpoint and topology/obstruction result, but it does not supersede the run-wide M42 `(61,163,104)`, strict `(2,1,1)` benchmark as the closest known object to the target.

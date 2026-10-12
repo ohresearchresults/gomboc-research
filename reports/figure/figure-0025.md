@@ -8,7 +8,7 @@ AI research report · 2026-08-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Outcome
 
-No strict homogeneous polyhedral Gömböc was found. The completed reusable artifact is instead a **global exact exclusion** of the full Reshetov 14-normal, 24-vertex support cell, plus the exact centroid system and a complete finite certificate stack. This is not another local optimizer result. The supplied transcript shows the recurring failure mode that motivated the change: equilibria transferred to neighboring elements or disappeared only at topology/degeneracy walls, and the last candidate still lacked a strict certificate. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+No strict homogeneous polyhedral Gömböc was found. The completed reusable artifact is instead a **global exact exclusion** of the full Reshetov 14-normal, 24-vertex support cell, plus the exact centroid system and a complete finite certificate stack. This is not another local optimizer result. The supplied transcript shows the recurring failure mode that motivated the change: equilibria transferred to neighboring elements or disappeared only at topology/degeneracy walls, and the last candidate still lacked a strict certificate.
 
 ### Certified theorem
 
@@ -124,7 +124,7 @@ The seed uniform-volume centroid is approximately
 (-104.1014775785565,\ 8.465022473324968,\ -47.56244776570032).
 \]
 
-[The exact seed certificate](sandbox:/mnt/data/gomboc_global_sat_attack/reshetov_seed_exact_certificate.json) contains all 24 rational coordinates, all 264 topology slacks, exact volume and centroid, all face inequalities, all 72 vertex coefficients, all 36 edge tests, and the final classification. A visualization-only [OBJ](sandbox:/mnt/data/gomboc_global_sat_attack/reshetov_seed_nearmiss.obj) is also included.
+The exact seed certificate (`reshetov_seed_exact_certificate.json`) contains all 24 rational coordinates, all 264 topology slacks, exact volume and centroid, all face inequalities, all 72 vertex coefficients, all 36 edge tests, and the final classification. A visualization-only OBJ (`reshetov_seed_nearmiss.obj`) is also included.
 
 ## Exact DPLL(LRA)/Farkas exclusion
 
@@ -168,11 +168,11 @@ Complete proof statistics:
 
 Vertex 9 blocks every target except target 9; vertex 16 blocks target 9. All three possible exclusion components of the blocking vertex are separately refuted.
 
-[Exact certificate](sandbox:/mnt/data/gomboc_global_sat_attack/reshetov_exact_unsat_certificate.json) — SHA-256 `9bd0afc9c27619de43477c4d8b488b163bcce2919b5762f721d3cc63c0a21147`.
+Exact certificate (`reshetov_exact_unsat_certificate.json`) — SHA-256 `9bd0afc9c27619de43477c4d8b488b163bcce2919b5762f721d3cc63c0a21147`.
 
 ## Exact centroid system
 
-[The sparse polynomial file](sandbox:/mnt/data/gomboc_global_sat_attack/reshetov_centroid_quartics.json) contains:
+The sparse polynomial file (`reshetov_centroid_quartics.json`) contains:
 
 ```text
 6V: 106 degree-3 monomials
@@ -181,7 +181,7 @@ Vertex 9 blocks every target except target 9; vertex 16 blocks target 9. All thr
 24M_z: 176 degree-4 monomials
 ```
 
-[The coefficient verifier](sandbox:/mnt/data/gomboc_global_sat_attack/verify_reshetov_centroid_coefficients.py) reconstructs every coefficient independently from the integer normals, triples, and face cycles using only `fractions.Fraction`. [The direct evaluator](sandbox:/mnt/data/gomboc_global_sat_attack/verify_reshetov_centroid_polynomials.py) compares the sparse polynomials with tetrahedral formulas at three rational support vectors. Polynomial SHA-256: `066108a509ebcc1a19132efc4a160bb9065c4e1e8d7cd67878568c1c99fd94b4`.
+The coefficient verifier (`verify_reshetov_centroid_coefficients.py`) reconstructs every coefficient independently from the integer normals, triples, and face cycles using only `fractions.Fraction`. The direct evaluator (`verify_reshetov_centroid_polynomials.py`) compares the sparse polynomials with tetrahedral formulas at three rational support vectors. Polynomial SHA-256: `066108a509ebcc1a19132efc4a160bb9065c4e1e8d7cd67878568c1c99fd94b4`.
 
 ## Enumeration log
 
@@ -195,7 +195,7 @@ largest maximin margin = 0
 runtime = 188.4641385 s
 ```
 
-The reduced 24-case mono-unstable model already had optimum zero for every target, exposing the stronger obstruction. Numerical output was used only to discover the compact exact proof. Reproducible files: [results](sandbox:/mnt/data/gomboc_global_sat_attack/RESH_ALL_PAIRS.json), [solver log](sandbox:/mnt/data/gomboc_global_sat_attack/resh_all_pairs.log), and [DPLL summary](sandbox:/mnt/data/gomboc_global_sat_attack/reshetov_dpll_summary.csv).
+The reduced 24-case mono-unstable model already had optimum zero for every target, exposing the stronger obstruction. Numerical output was used only to discover the compact exact proof. Reproducible files: results (`RESH_ALL_PAIRS.json`), solver log (`resh_all_pairs.log`), and DPLL summary (`reshetov_dpll_summary.csv`).
 
 ## Exact validation and package
 
@@ -227,7 +227,7 @@ arithmetic: fractions.Fraction only
 EXACT SEED CERTIFICATE REGENERATION MATCHED BYTE-FOR-BYTE
 ```
 
-[Complete package](sandbox:/mnt/data/gomboc_global_sat_attack.zip), SHA-256 `662dfb8a5a45a37372f9882a4554a12d03caad4054d503fc416c8aaa34cc217b`. See the [README](sandbox:/mnt/data/gomboc_global_sat_attack/README.md), [verification log](sandbox:/mnt/data/gomboc_global_sat_attack/PACKAGE_VERIFICATION.log), and [manifest](sandbox:/mnt/data/gomboc_global_sat_attack/MANIFEST.sha256).
+Complete package (`gomboc_global_sat_attack.zip`), SHA-256 `662dfb8a5a45a37372f9882a4554a12d03caad4054d503fc416c8aaa34cc217b`. See the README (`README.md`), verification log (`PACKAGE_VERIFICATION.log`), and manifest (`MANIFEST.sha256`).
 
 ## Consequence and next frontier
 
@@ -235,7 +235,7 @@ Optimizing only the fourteen supports inside this fan is now provably futile: no
 
 The next global run should enumerate one-ridge-flip, truncation, stacking, and local basin-replacement fans adjacent to the exact extra maximum-saddle pair. For each topology: build the rational realization cone; run the unique-unstable DPLL filter first; add stable-face and edge clauses to surviving Boolean cells; solve the three centroid quartics by interval branch-and-bound and interval Newton/Krawczyk; then rationalize and exact-certify any positive-margin witness.
 
-The explicit 21-vertex Conway object is a point-mass/0-skeleton construction rather than a uniform-volume example, and the exact homogeneous Conway-spiral family is separately ruled out in the source literature. :contentReference[oaicite:2]{index=2}
+The explicit 21-vertex Conway object is a point-mass/0-skeleton construction rather than a uniform-volume example, and the exact homogeneous Conway-spiral family is separately ruled out in the source literature.
 
 ## Limit
 

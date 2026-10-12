@@ -8,7 +8,7 @@ AI research report · 2026-09-17 UTC · [Export notes](../../catalog/coverage.md
 
 ## 1. Verdict and what changed
 
-**V>=9: original proof still unverified. F>=9: independent original proof still unverified. Neither statement is refuted here.** The accepted C622 construction and operational prohibition on searching below C32 are unchanged. C32 is not established as an attained minimum. The attached synthesis expressly distinguishes those operational facts from original-proof verification. :contentReference[oaicite:0]{index=0}
+**V>=9: original proof still unverified. F>=9: independent original proof still unverified. Neither statement is refuted here.** The accepted C622 construction and operational prohibition on searching below C32 are unchanged. C32 is not established as an attained minimum. The attached synthesis expressly distinguishes those operational facts from original-proof verification.
 
 This assignment made three material advances rather than repeating the parent's V<=6 calculation:
 
@@ -16,7 +16,7 @@ This assignment made three material advances rather than repeating the parent's 
 2. I recovered the **literal original V7 completion report, original V8 noncompletion report, and relevant later continuations**. The V7 report claims an eight-vertex lower bound, not nine. The V8 report expressly leaves 24,835 systems unresolved. The actual matrix collections needed to independently certify the V7 report were not recovered.
 3. I constructed and cold-replayed a **complete combinatorial and joint semialgebraic reduction for every at-most-eight-maximal-face family still open after the parent's V>=7 theorem**. There are 291 types; even granting V>=9 leaves **215 types**, including fourteen twelve-vertex/eight-face types. Both strict-count-only and no-additional-weak-equilibrium formulas are generated. **This is a complete reduction, not an exclusion: no generated feasibility formula was solved.**
 
-The independently audited general lower bound inherited from the parent therefore remains V>=7, with the combinatorial consequence F>=6. Nothing here changes the user-accepted C>=32 search floor. The parent was read completely; its 5,943 five/six-vertex cases and sixteen tetrahedron cases were not rerun. :contentReference[oaicite:1]{index=1}
+The independently audited general lower bound inherited from the parent therefore remains V>=7, with the combinatorial consequence F>=6. Nothing here changes the user-accepted C>=32 search floor. The parent was read completely; its 5,943 five/six-vertex cases and sixteen tetrahedron cases were not rerun.
 
 ## 2. Actual parallel minimum source: discovered identity, explicit access blocker
 
@@ -141,11 +141,11 @@ The fully read successor `figure-0290`, SHA-256 `d0fb39ba8355722f3a2c4da5e9b9d66
 
 ### 3.4 Public-source applicability recheck
 
-Bozóki–Domokos–Papp–Regős, arXiv:2401.17906v2, Theorem 1 proves the homogeneous **V>=7** statement; its discussion leaves seven-vertex systems unresolved by its original method. That source does not supply nine/nine. :contentReference[oaicite:2]{index=2}
+Bozóki–Domokos–Papp–Regős, arXiv:2401.17906v2, Theorem 1 proves the homogeneous **V>=7** statement; its discussion leaves seven-vertex systems unresolved by its original method. That source does not supply nine/nine.
 
-Papp–Regős–Domokos–Bozóki, arXiv:2302.04252v2, proves the V=11/F=8 minimum for **unit vertex masses**. Its essential equation is `sum r_i=0`; it is not the filled-volume centroid equation. Its face bound follows combinatorially from its vertex bound. :contentReference[oaicite:3]{index=3}
+Papp–Regős–Domokos–Bozóki, arXiv:2302.04252v2, proves the V=11/F=8 minimum for **unit vertex masses**. Its essential equation is `sum r_i=0`; it is not the filled-volume centroid equation. Its face bound follows combinatorially from its vertex bound.
 
-In *Balancing polyhedra*, arXiv:1810.05382v3, Lemma 3 gives the centroid-preserving polar assertion for a simplex; Lemma 4 exchanges equilibrium features at a specified origin for general polytopes. The latter is not an own-volume-centroid assertion. :contentReference[oaicite:4]{index=4} The exact C36 control below exhibits the failure without using a hypothetical Gömböc.
+In *Balancing polyhedra*, arXiv:1810.05382v3, Lemma 3 gives the centroid-preserving polar assertion for a simplex; Lemma 4 exchanges equilibrium features at a specified origin for general polytopes. The latter is not an own-volume-centroid assertion. The exact C36 control below exhibits the failure without using a hypothetical Gömböc.
 
 ## 4. New complete fixed-face reduction: coverage, not nonexistence
 
@@ -153,7 +153,7 @@ This section and its capsule are new work in this assignment. They do not depend
 
 ### 4.1 Exhaustive finite incidence family
 
-Use the standard Steinitz correspondence and uniqueness of the spherical embedding of a 3-connected planar graph up to reflection. The primary plantri documentation identifies this 3-connected plane-graph class with convex polytopes. :contentReference[oaicite:5]{index=5}
+Use the standard Steinitz correspondence and uniqueness of the spherical embedding of a 3-connected planar graph up to reflection. The primary plantri documentation identifies this 3-connected plane-graph class with convex polytopes.
 
 Generate spherical triangulations on m=4,...,8 vertices. Start with K4. The two extension operations are insertion into a triangular face and splitting an edge together with its two incident triangles by a new degree-four vertex.
 
@@ -173,7 +173,7 @@ triangulated dual graph types      1    1    2     5     14
 all dual graph types               1    2    7    34    257
 ```
 
-The independently generated totals 1,2,7,34,257 match the primary plantri manual's convex-polytope counts; plantri was not executed or required by the capsule. :contentReference[oaicite:6]{index=6}
+The independently generated totals 1,2,7,34,257 match the primary plantri manual's convex-polytope counts; plantri was not executed or required by the capsule.
 
 There are 301 total types. Removing only V<=6, already excluded by the parent, leaves exactly:
 
@@ -656,4 +656,4 @@ Independently, the fixed-face problem is no longer represented by an informal ve
 
 **Final status:** neither original nine/nine proposition is verified; the actual parallel-source identity and access failure are resolved; the older V8 nonterminal scope is resolved; a complete, cold-replayed fixed-face reduction and exact mass/polarity controls are durable. No new lower-bound theorem beyond the parent, no C<32 search, no new own110 construction, and no attained-minimum claim is made.
 
-Supplementary copies: [complete handoff](sandbox:/mnt/data/atlas56/RESULT_MARKDOWN.md) and [source capsule with reference outputs](sandbox:/mnt/data/CA56_FIXED_FACE_LE8_SOURCE_CAPSULE.zip). The full reconstructing source is already embedded above.
+Supplementary copies: complete handoff (`RESULT_MARKDOWN.md`) and source capsule with reference outputs (`CA56_FIXED_FACE_LE8_SOURCE_CAPSULE.zip`). The full reconstructing source is already embedded above.

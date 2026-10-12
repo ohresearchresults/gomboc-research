@@ -250,9 +250,9 @@ The most useful continuation is another whole-body XYZ margin-improvement phase 
 
 The package's `final_native.npz` stores **D0=10^10 and the new paired ordering**. Do not feed it unchanged into scripts assuming D10^14 or apex4354. The included and exercised `prepare_restart.py` rescales integers exactly by10000, builds the new parent/mate interface and changes apex constants to2032. Historical original-ID correspondence is supplementary; no old-ID mask is needed to reconstruct the final figure.
 
-[Complete exact package, discovery sources, checkpoints and replay implementations](sandbox:/mnt/data/CN11_P50_R2033_Q10_FULL_HANDOFF.zip): **16030146bytes**, SHA256 **f59cb69bbc3206abf39493dbdf1fc43a90ed9056cab3ad837be58b6bd18ead31**. All425 manifest entries were checked against the ZIP bytes. A fresh extraction regenerated the entire body from the codec, passed the standalone all-pairs audit and the second verifier, and reproduced identical core inputs.
+Complete exact package, discovery sources, checkpoints and replay implementations (`CN11_P50_R2033_Q10_FULL_HANDOFF.zip`): **16030146bytes**, SHA256 **f59cb69bbc3206abf39493dbdf1fc43a90ed9056cab3ad837be58b6bd18ead31**. All425 manifest entries were checked against the ZIP bytes. A fresh extraction regenerated the entire body from the codec, passed the standalone all-pairs audit and the second verifier, and reproduced identical core inputs.
 
-[Fresh exact replay](sandbox:/mnt/data/CN11_ARCHIVE_EXACT_REPLAY.json), [fresh second-implementation replay](sandbox:/mnt/data/CN11_ARCHIVE_SECOND_REPLAY.json), and [complete handoff file](sandbox:/mnt/data/CN11_P50_R2033_Q10_HANDOFF.md).
+Fresh exact replay (`CN11_ARCHIVE_EXACT_REPLAY.json`), fresh second-implementation replay (`CN11_ARCHIVE_SECOND_REPLAY.json`), and complete handoff file (`CN11_P50_R2033_Q10_HANDOFF.md`).
 
 Save the following two complete blocks as `self_contained.py` and `standalone_recipe.json`; run
 

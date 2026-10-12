@@ -18,9 +18,9 @@ The new class permits substantial overhang and values of q outside the old small
 
 Read the complete supplied journal and literal parent through EOF, including its encoded recovery; decoded and read all five complete source/checkpoint files. The journal is 303982 bytes, SHA256 a9164a8a1be672d83dc975e5bd8d5c85684b7374091fdc8f6f21b175c2cc7025. The required parent is minimum-0115, immutable envelope 52111 bytes, SHA256 31f05520aa6dbb2d24198b670bc41133b0fc57ba7366eea3e348fab85bb2f081. Its envelope was authenticated; no alias, incidence, or scientific conflict was found. The parent recovery was decoded in sources mode only; I do not claim to have rerun its old full certificate suite.
 
-The parent establishes a compact actual-body overcover, while explicitly leaving its maximum and boundary equality problem unresolved. This distinction is retained here. Its objective is the original weighted J In/(6 I4 Iell), not the uniformly refilled image objective. :contentReference[oaicite:0]{index=0}
+The parent establishes a compact actual-body overcover, while explicitly leaving its maximum and boundary equality problem unresolved. This distinction is retained here. Its objective is the original weighted J In/(6 I4 Iell), not the uniformly refilled image objective.
 
-There is no missing computational dependency for the new result. The complete older endpoint-floor recovery is not separately attached as a literal parent in this pack; its theorem is an accepted notebook premise, used only for the optional q>13/16 extension. The new q<=13/16 theorem is independent of it. :contentReference[oaicite:1]{index=1}
+There is no missing computational dependency for the new result. The complete older endpoint-floor recovery is not separately attached as a literal parent in this pack; its theorem is an accepted notebook premise, used only for the optional q>13/16 extension. The new q<=13/16 theorem is independent of it.
 
 ## 1. The exact actual-body class
 
@@ -173,7 +173,7 @@ At eta=0 the coordinate triangles generally grow into patches. At eta=r the near
 
 The affine coordinate map divides by alpha, so it is NOT used at b=1. Nevertheless, for a sequence from this class converging in the parent's compact weighted body space, the ORIGINAL weighted integrals are continuous and its limiting functional is at most 203/100. Thus that part of the b->1 boundary cannot carry equality 51/25. Arbitrary b=1 bodies remain covered only by the independently accepted balanced theorem. At b=0 the inherited zero-common-endpoint theorem applies; it is not obtained by dividing an image formula by b.
 
-No monotonicity of the parent's general patch resolution is asserted. No bound for all coordinate patches, all root-area-zero bodies, or all balanced bodies is inferred from this special family's limits. The parent's root-preserving contraction construction remains a separate tool. :contentReference[oaicite:2]{index=2}
+No monotonicity of the parent's general patch resolution is asserted. No bound for all coordinate patches, all root-area-zero bodies, or all balanced bodies is inferred from this special family's limits. The parent's root-preserving contraction construction remains a separate tool.
 
 ## 5. Genuine controls and the transverse-filling obstruction
 
@@ -300,7 +300,7 @@ A case name may be appended to build/verify to process below, beyond, middle, st
 
 Terminal markers include ROOT_TRAPEZOID_EXACT_PASS for every case, SYMMETRIC_CONSTANT_DEFICIT_ROOT_TRAPEZOIDS_203_RECOVERY_PASS, and ROOT_TRAPEZOID_203_SELF_CONTAINED_RECOVERY_PASS. The report stores the exact power polynomials and coefficient-stream hashes; the source regenerates every coefficient, so those hashes are not being used as substitutes for missing arrays. Verification is exact computational algebra plus the geometric proof above, not a proof-assistant formalization.
 
-Convenience copies: [autonomous recovery](sandbox:/mnt/data/recover_root_trapezoid.py), [plain exact generator and verifier](sandbox:/mnt/data/root_trapezoid.py), and [all exact reports](sandbox:/mnt/data/root_trapezoid_reports.zip). The complete recovery below, not these links, is the durable handoff.
+Convenience copies: autonomous recovery (`recover_root_trapezoid.py`), plain exact generator and verifier (`root_trapezoid.py`), and all exact reports (`root_trapezoid_reports.zip`). The complete recovery below, not these links, is the durable handoff.
 
 ### Complete autonomous source
 

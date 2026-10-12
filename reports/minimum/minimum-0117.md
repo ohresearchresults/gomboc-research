@@ -16,17 +16,17 @@ The resulting pure-A regularization theorem covers arbitrary numbers of simple A
 
 For the exact degree-five fold, two coordinates of that vertex and one coordinate of a second vertex already have a nonsingular centroid-control minor. A separate explicit two-vertex curve keeps the true centroid exactly constant, crosses from positive to negative one-vertex determinant, and preserves the entire lattice and strict mechanics on a proved closed interval. Thus the fold does **not** obstruct general shape regularization.
 
-**The example is strict233/weak000, not a four-A body and not weak110. General simplicial pure-A all4 remains open in the precisely stated residual configurations below; mixed A/B and the earlier VF remainder are not closed.** There is no new attaining body, lower-bound change, catalogue subtraction, or general barrier≥5 assertion. The inherited bracket remains **34≤C_min≤622** and the first open minimum layer is10/17/9. :contentReference[oaicite:0]{index=0}
+**The example is strict233/weak000, not a four-A body and not weak110. General simplicial pure-A all4 remains open in the precisely stated residual configurations below; mixed A/B and the earlier VF remainder are not closed.** There is no new attaining body, lower-bound change, catalogue subtraction, or general barrier≥5 assertion. The inherited bracket remains **34≤C_min≤622** and the first open minimum layer is10/17/9.
 
 ## 2. Input authority and what was actually read
 
 The new `research-journal(20260919-154628).md` was read consecutively from line1 through line1845 and EOF, including the complete shared notebook, branch memory, literal parent and its complete recovery stream. The file has325895 bytes and SHA-256 `dd9dd66ee88869225ff097275d36be220addd841d36a8ab7f44f869b83ff9b71`.
 
-The authoritative parent is `minimum-0114`, **FACET_MOMENT_AND_DEGREE4_VERTEX_OWN_COM_ACTUATORS_V1**,63488 bytes, SHA-256 `be6f8c354f3fc1dee4427ab7081abd98d0b34646ca7a7c72eda409ab5f313bfb`. Its degree-four and planar-cap theorems remain valid. In particular, the new degree-five fold is outside those hypotheses and does not contradict the parent's indefinite-symmetric-part control with positive determinant. :contentReference[oaicite:1]{index=1}
+The authoritative parent is `minimum-0114`, **FACET_MOMENT_AND_DEGREE4_VERTEX_OWN_COM_ACTUATORS_V1**,63488 bytes, SHA-256 `be6f8c354f3fc1dee4427ab7081abd98d0b34646ca7a7c72eda409ab5f313bfb`. Its degree-four and planar-cap theorems remain valid. In particular, the new degree-five fold is outside those hypotheses and does not contradict the parent's indefinite-symmetric-part control with positive determinant.
 
 The parent envelope was authenticated from its literal journal payload. The separately mounted convenience `centroid_actuator/result.json` has different serialized bytes; comparison showed citation/link rendering and an input-list clarification, not a mathematical or coordinate conflict. The literal journal payload retains authority; no parent was repinned.
 
-The predecessor executable gap was already closed by this parent. Its complete literal recovery contains the unchanged `four_vf_sectors.py` and `tetra_four.py`, together with `actuator.py` and the optional probes. No old malformed or truncated immutable payload is silently repaired again. The present exact program has **no import from any predecessor**, no missing computational dependency, and all its inputs are included below. Unchanged earlier sources are retained as inherited evidence rather than described as newly replayed suites. The old numerical determinant probes are not used as proof. :contentReference[oaicite:2]{index=2}
+The predecessor executable gap was already closed by this parent. Its complete literal recovery contains the unchanged `four_vf_sectors.py` and `tetra_four.py`, together with `actuator.py` and the optional probes. No old malformed or truncated immutable payload is silently repaired again. The present exact program has **no import from any predecessor**, no missing computational dependency, and all its inputs are included below. Unchanged earlier sources are retained as inherited evidence rather than described as newly replayed suites. The old numerical determinant probes are not used as proof.
 
 The new analytic arguments below use true boundary integration, elementary cone geometry, the inverse/implicit-function theorem and finite-dimensional strict separation. No external research result is invoked as a proof of the new assertions, and no literature-priority or proof-assistant certification is claimed.
 
@@ -792,4 +792,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Supplementary convenience files: [exact executable source](sandbox:/mnt/data/vertex_frontier/vertex_fold.py), [complete exact report](sandbox:/mnt/data/vertex_frontier/vertex_fold.json), [complete handoff](sandbox:/mnt/data/vertex_frontier/result.json). All reconstruction-critical source and data are already literal above.
+Supplementary convenience files: exact executable source (`vertex_fold.py`), complete exact report (`vertex_fold.json`), complete handoff (`result.json`). All reconstruction-critical source and data are already literal above.

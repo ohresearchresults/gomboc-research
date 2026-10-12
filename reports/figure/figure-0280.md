@@ -21,19 +21,19 @@ complexity=890,
 (S,U,H)=(2,2,2).
 ```
 
-A new Euler-neutral packet `S183/U100/H10/H335` is born. No homogeneous polyhedral Gömböc is claimed. The governing acceptance gate remains a finite own-volume-centred object with strict `(1,1,0)`, complete H/V/E data, exhaustive full-normal-cone mechanics, independent replay, and matching meshes. :contentReference[oaicite:0]{index=0}
+A new Euler-neutral packet `S183/U100/H10/H335` is born. No homogeneous polyhedral Gömböc is claimed. The governing acceptance gate remains a finite own-volume-centred object with strict `(1,1,0)`, complete H/V/E data, exhaustive full-normal-cone mechanics, independent replay, and matching meshes.
 
 ## Complete reusable artifact
 
-- [Exact replay bundle](sandbox:/mnt/data/Calm_Raven_06_threeSpokeF15_exact_NONWINNER.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Calm_Raven_06_threeSpokeF15_exact_NONWINNER.zip.sha256)
-- [Full report](sandbox:/mnt/data/Calm_Raven_06_threeSpokeF15_exact_NONWINNER/RESULT.md)
-- [Master exact certificate](sandbox:/mnt/data/Calm_Raven_06_threeSpokeF15_exact_NONWINNER/physicalF15_master_certificate.json)
-- [Independent clean-room receipt](sandbox:/mnt/data/Calm_Raven_06_threeSpokeF15_exact_NONWINNER/independent_threeSpokeF15_verification.json)
-- [Independent full-GMP receipt](sandbox:/mnt/data/Calm_Raven_06_threeSpokeF15_exact_NONWINNER/independent_threeSpokeF15_full_gmp_verification.json)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Raven_06_threeSpokeF15_exact_NONWINNER/endpoint/endpoint_centered.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Raven_06_threeSpokeF15_exact_NONWINNER/endpoint/endpoint_centered.stl)
-- [Pristine extracted-archive replay](sandbox:/mnt/data/threeSpokeF15_final_pristine_replay.log)
+- Exact replay bundle (`Calm_Raven_06_threeSpokeF15_exact_NONWINNER.zip`)
+- Archive SHA-256 receipt (`Calm_Raven_06_threeSpokeF15_exact_NONWINNER.zip.sha256`)
+- Full report (`RESULT.md`)
+- Master exact certificate (`physicalF15_master_certificate.json`)
+- Independent clean-room receipt (`independent_threeSpokeF15_verification.json`)
+- Independent full-GMP receipt (`independent_threeSpokeF15_full_gmp_verification.json`)
+- Watertight OBJ (`endpoint_centered.obj`)
+- Watertight STL (`endpoint_centered.stl`)
+- Pristine extracted-archive replay (`threeSpokeF15_final_pristine_replay.log`)
 
 Archive SHA-256:
 

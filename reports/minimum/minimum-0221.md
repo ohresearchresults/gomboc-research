@@ -40,9 +40,9 @@ New coordinator premise:
     3d9a495f54852bbaab9d638b687296cb0d01373bf1c0d62f30e1a6d5d57e89d3
     FULL_COMPONENT_FIVE_PHYSICAL_WEAK_CONTACTS_V1.
 
-I use its definitions of W_r and genuine weak sources, and its component theorem. In particular its five-contact conclusion requires a vertex of the convex hull of an entire U1 component, and its strict-U1 perturbation requires the original metric already to have a sole strict root. Those hypotheses are not dropped in interpreting the new control. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+I use its definitions of W_r and genuine weak sources, and its component theorem. In particular its five-contact conclusion requires a vertex of the convex hull of an entire U1 component, and its strict-U1 perturbation requires the original metric already to have a sole strict root. Those hypotheses are not dropped in interpreting the new control.
 
-The retraction's continuity at singular matrices also uses the already supplied complete seven-corner shadow theorem: a full-dimensional polygon with0 interior and −Q/3⊂Q cannot have a sole strict radial maximum with at most seven true corners. Its actual exposed-fibre transfer is retained. No old endpoint certificate, vector-cap certificate, or projective coefficient grid is replayed here. :contentReference[oaicite:2]{index=2}
+The retraction's continuity at singular matrices also uses the already supplied complete seven-corner shadow theorem: a full-dimensional polygon with0 interior and −Q/3⊂Q cannot have a sole strict radial maximum with at most seven true corners. Its actual exposed-fibre transfer is retained. No old endpoint certificate, vector-cap certificate, or projective coefficient grid is replayed here.
 
 ## 3. Complete normal-level proof
 
@@ -79,7 +79,7 @@ The trace is positive even at t=1, since K has rank two. For every nonroot true 
 
 Thus every weak rooted tree feasible at M remains feasible throughout(2). For t<1 the metric is SPD, and its selected weak arrows still strictly increase squared radius along every nonzero edge. They force the same sole strict root r. At t=1 they form a genuine weak rooted tree of the singular matrix K; collapsed edges have not been deleted.
 
-This establishes absence of singular-disconnected components already. This basic descent needs only an interior reference satisfying(1); actual homogeneous centring is used to construct the physical families below and in the singular-continuity argument. Unlike the parent's general normal-port situation, no essential positive-beta port exists here. The rank-one descent identity is inherited; the all-shape height characterization and its complete application are the new geometric step. :contentReference[oaicite:3]{index=3}
+This establishes absence of singular-disconnected components already. This basic descent needs only an interior reference satisfying(1); actual homogeneous centring is used to construct the physical families below and in the singular-continuity argument. Unlike the parent's general normal-port situation, no essential positive-beta port exists here. The rank-one descent identity is inherited; the all-shape height characterization and its complete application are the new geometric step.
 
 The SAME reciprocal metric for t<1 is explicit. With N=M⁻¹,
 
@@ -90,7 +90,7 @@ Feet on planes parallel to the level planes are fixed under this descent. Other 
 
 ### 3.3. Continuity on all of W_r
 
-No trace-one rank-one matrix belongs to W_r: the positive-maximum and negative-minimum endpoint fibres of its one-dimensional projection are two disjoint closed sets. This is the parent's rank-one argument and uses the actual interior reference. :contentReference[oaicite:4]{index=4}
+No trace-one rank-one matrix belongs to W_r: the positive-maximum and negative-minimum endpoint fibres of its one-dimensional projection are two disjoint closed sets. This is the parent's rank-one argument and uses the actual interior reference.
 
 Let M∈W_r have rank two and kernel spanned by k. Necessarily n·k≠0. Otherwise each of the three level planes projects to a line, and its finitely many vertices contribute at most the two endpoints of a segment. The exceptional root contributes at most one further point. The actual shadow therefore has at most seven true corners. An actual positive tetrahedral fan from a vertex a gives −a/3 as an average of(b+c+d)/3 from its opposite triangles, hence −P/3⊂P and −Q/3⊂Q. The shadow has0 interior, so the accepted shadow theorem gives two closed maximum fibres, contradicting the limiting rooted tree.
 
@@ -155,7 +155,7 @@ The facets and true edges are exactly
 
     01,02,03,04,05,08,12,17,28,29,34,39,46,56,57,67,89.
 
-One simple corner is cut at B0; the opposite cut at B3 passes through the retained B2. They occupy disjoint corner subpyramids, so the entire open parameter cube retains the actual10/17/9 lattice. These are true maximal faces, not independently moved integrating triangles. The supplied parent has the same raw construction and literal incidence. :contentReference[oaicite:5]{index=5}
+One simple corner is cut at B0; the opposite cut at B3 passes through the retained B2. They occupy disjoint corner subpyramids, so the entire open parameter cube retains the actual10/17/9 lattice. These are true maximal faces, not independently moved integrating triangles. The supplied parent has the same raw construction and literal incidence.
 
 ### 4.2. Actual volume and complete centroid formula
 
@@ -206,7 +206,7 @@ Here l(Y)=(1−b·Y)/4 and n=−b/4. Equations(7)–(8) define a NEW family
 
     HEX6_ACTUAL_MIDDLE_LEVEL_THREE_CUT_FAMILY_V1.
 
-It is NOT the parent's fixed-six-pole star-centred body: I do not apply its c-equations or transport its old centroid. The parent instead uses X_i=A+(Y_i−A)/(1+c·(Y_i−A)) at a specific actual-centroid root. Those different final geometries must not be aliased. :contentReference[oaicite:6]{index=6}
+It is NOT the parent's fixed-six-pole star-centred body: I do not apply its c-equations or transport its old centroid. The parent instead uses X_i=A+(Y_i−A)/(1+c·(Y_i−A)) at a specific actual-centroid root. Those different final geometries must not be aliased.
 
 The source includes an exact rational new member with
 
@@ -437,7 +437,7 @@ Expected terminal lines include
     LITERAL_HEX6_GRAPH_NEW_ACTUAL_MIDDLE_LAYER_CONTROL_OWN_356_WEAK000_PASS
     THREE_LEVEL_NORMAL_RETRACTION_ACTUAL_CONTACT_RECOVERY_PASS 110501 8456d7865f62a9dd923d400d208a5f243a6635052265b715261d4133629db0d6
 
-Supplementary copies: [source](sandbox:/mnt/data/weak5_work/level_prismatoid_weak5.py), [complete bundle](sandbox:/mnt/data/THREE_LEVEL_WEAK5_bundle.zip). The entire executable is included below; the handoff does not depend on either link.
+Supplementary copies: source (`level_prismatoid_weak5.py`), complete bundle (`THREE_LEVEL_WEAK5_bundle.zip`). The entire executable is included below; the handoff does not depend on either link.
 
 ### Complete runnable source
 

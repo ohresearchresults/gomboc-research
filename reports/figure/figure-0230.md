@@ -8,7 +8,7 @@ AI research report · 2026-09-02 UTC
 
 ## Verdict
 
-No literal homogeneous convex polyhedral Gömböc was obtained. The required acceptance gate remains a finite uniform-density body evaluated at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete all-feature verification, and matching finite geometry; auxiliary-centre mechanics, wall points, and unexpanded constructions do not qualify. :contentReference[oaicite:0]{index=0}
+No literal homogeneous convex polyhedral Gömböc was obtained. The required acceptance gate remains a finite uniform-density body evaluated at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete all-feature verification, and matching finite geometry; auxiliary-centre mechanics, wall points, and unexpanded constructions do not qualify.
 
 I did construct and independently verify an exact rational/dyadic **row-54-deactivating full-hull endpoint** that lies beyond the fixed-old-row K7 families. It destroys the old K7 route cell, deletes the previously created stable carrier `[1000,1025,3000]`, and deletes the previously created saddle carrier `(1027,3001)`. The complete actual hull nevertheless contains a new strict stable–saddle pair, so the topology transfer remains Euler-neutral.
 
@@ -41,12 +41,12 @@ Thus the supplied set still has 91 rows, while the reconstructed irredundant hul
 
 The body is represented by exact rational coordinates: inherited M42 rows retain their original exact fractions and the newly introduced rows are interpreted as their exact binary64 dyadic rationals. The complete supplied/active ledger and exact coordinates are available here:
 
-- [Exact supplied and active coordinates](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/coordinates_exact.csv)
-- [Exact own-centred coordinates](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/coordinates_own_centered_exact.csv)
-- [Single common integer lattice](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/coordinates_common_lattice.csv)
-- [Simplified common-lattice table](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/coordinates_common_lattice_simple.csv)
-- [Deterministic exact builder](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/build_exact_endpoint.py)
-- [Machine-readable exact certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/certificate.json)
+- Exact supplied and active coordinates (`coordinates_exact.csv`)
+- Exact own-centred coordinates (`coordinates_own_centered_exact.csv`)
+- Single common integer lattice (`coordinates_common_lattice.csv`)
+- Simplified common-lattice table (`coordinates_common_lattice_simple.csv`)
+- Deterministic exact builder (`build_exact_endpoint.py`)
+- Machine-readable exact certificate (`certificate.json`)
 
 ## Exact ordinary volume and centroid
 
@@ -74,10 +74,10 @@ as rational identities, not numerical tolerances.
 
 All maximal faces and true edges were reconstructed from the complete 91-row supplied set rather than inherited from a local ledger:
 
-- [All 132 maximal-face cycles](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/face_cycles.json)
-- [Tab-separated maximal-face cycles](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/face_cycles.tsv)
-- [Exact supporting planes](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/face_planes_exact.json)
-- [All 216 true edges](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/true_edges.csv)
+- All 132 maximal-face cycles (`face_cycles.json`)
+- Tab-separated maximal-face cycles (`face_cycles.tsv`)
+- Exact supporting planes (`face_planes_exact.json`)
+- All 216 true edges (`true_edges.csv`)
 
 The minimum normalized active-face/nonincident-row separation is
 
@@ -149,9 +149,9 @@ Every other true edge is strictly nonsaddle. The minimum normalized exclusion ma
 
 The exhaustive exact ledgers are:
 
-- [All face mechanics](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/faces_mechanics_exact.json)
-- [All vertex mechanics](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/vertices_mechanics_exact.json)
-- [All four-component true-edge cone mechanics](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/edges_mechanics_exact.json)
+- All face mechanics (`faces_mechanics_exact.json`)
+- All vertex mechanics (`vertices_mechanics_exact.json`)
+- All four-component true-edge cone mechanics (`edges_mechanics_exact.json`)
 
 ## Proof that the previous replacement carriers crossed their walls
 
@@ -219,8 +219,8 @@ edges=216
 
 Files:
 
-- [Independent GMP verifier source](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/verify_exact_hull_gmp.cpp)
-- [Independent GMP verifier transcript](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/verify_exact_hull_gmp.log)
+- Independent GMP verifier source (`verify_exact_hull_gmp.cpp`)
+- Independent GMP verifier transcript (`verify_exact_hull_gmp.log`)
 
 ### Exact mass and mechanics replay
 
@@ -238,15 +238,15 @@ saddles [(248,5006)]
 
 Files:
 
-- [Independent exact mass/mechanics verifier](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/verify_exact_mass_mechanics.py)
-- [Independent exact mass/mechanics transcript](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/verify_exact_mass_mechanics.log)
+- Independent exact mass/mechanics verifier (`verify_exact_mass_mechanics.py`)
+- Independent exact mass/mechanics transcript (`verify_exact_mass_mechanics.log`)
 
 ## Meshes
 
 Finite OBJ and binary STL exports were generated from the reconstructed maximal-face cycles:
 
-- [OBJ mesh](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/body.obj)
-- [STL mesh](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/body.stl)
+- OBJ mesh (`body.obj`)
+- STL mesh (`body.stl`)
 
 The exact hull reconstruction proves that the intended underlying boundary complex is a convex two-sphere with Euler characteristic two. I did not complete a separate byte-level OBJ/STL parity and edge-multiplicity replay before the run boundary, so these exports should be treated as generated meshes accompanying the exact hull certificate, not as independently mesh-certified artifacts.
 
@@ -256,7 +256,7 @@ Every incidence and mechanics primitive at the exact endpoint is a strict ration
 
 An explicit all-coordinate interval verifier was written:
 
-- [Interval verifier](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/verify_interval.py)
+- Interval verifier (`verify_interval.py`)
 
 It attempted to propagate rational intervals through all 132-by-91 incidence tests, exact mass integration, centroid division, and all face/vertex/edge cone formulas. Two executions, including a ten-minute execution, did not finish and produced no passing transcript. Consequently I do **not** claim an explicit certified coordinate-box radius for this endpoint. This is the principal missing acceptance item in the promoted artifact, although it does not affect the exact pointwise hull, centroid, or equilibrium determination.
 
@@ -340,18 +340,18 @@ not merely the much smaller current stable barycentric margin. This explains why
 
 Primary endpoint files:
 
-- [Exact certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/certificate.json)
-- [Exact coordinates](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/coordinates_exact.csv)
-- [Exact own-centred coordinates](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/coordinates_own_centered_exact.csv)
-- [Maximal faces](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/face_cycles.json)
-- [True edges](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/true_edges.csv)
-- [Face mechanics](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/faces_mechanics_exact.json)
-- [Vertex mechanics](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/vertices_mechanics_exact.json)
-- [Edge mechanics](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/edges_mechanics_exact.json)
-- [Independent exact hull verifier](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/verify_exact_hull_gmp.cpp)
-- [Independent exact mechanics verifier](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/verify_exact_mass_mechanics.py)
-- [OBJ](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/body.obj)
-- [STL](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_two_page_final/row54_deactivating_endpoint/body.stl)
+- Exact certificate (`certificate.json`)
+- Exact coordinates (`coordinates_exact.csv`)
+- Exact own-centred coordinates (`coordinates_own_centered_exact.csv`)
+- Maximal faces (`face_cycles.json`)
+- True edges (`true_edges.csv`)
+- Face mechanics (`faces_mechanics_exact.json`)
+- Vertex mechanics (`vertices_mechanics_exact.json`)
+- Edge mechanics (`edges_mechanics_exact.json`)
+- Independent exact hull verifier (`verify_exact_hull_gmp.cpp`)
+- Independent exact mechanics verifier (`verify_exact_mass_mechanics.py`)
+- OBJ (`body.obj`)
+- STL (`body.stl`)
 
 ## Final disposition
 

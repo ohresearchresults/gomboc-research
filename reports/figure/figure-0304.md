@@ -22,24 +22,24 @@ is a finite rational uniform-density convex polyhedron evaluated at its own exac
 
 not `(1,1,0)`.
 
-The run’s acceptance gate requires a fully materialized body at its own exact volume centroid with one stable maximal face, one unstable vertex, no saddle true edge, exhaustive positive-margin mechanics, independent verification, and matching OBJ/STL; auxiliary-centre, wall, and near-solution objects do not qualify. :contentReference[oaicite:0]{index=0}
+The run’s acceptance gate requires a fully materialized body at its own exact volume centroid with one stable maximal face, one unstable vertex, no saddle true edge, exhaustive positive-margin mechanics, independent verification, and matching OBJ/STL; auxiliary-centre, wall, and near-solution objects do not qualify.
 
 The construction nevertheless realizes the first genuinely shared-volume bifurcated successor to the literal parent. Five new exact supports form two full-dimensional tetrahedral cells sharing a genuine internal triangle, all five are active, and three non-collinear true-edge ports attach the complex to the old body. Row `5003` remains strictly nonextreme. The parent carrier edge `(30001,30003)`, parent extra stable row, both parent saddles, and both parent replacement unstable sectors are absent. A new Euler-neutral packet is born instead.
 
 ## Immutable deliverables
 
-**Complete archive:** [Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER.zip](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER.zip)  
+**Complete archive:** Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER.zip  
 **Archive SHA-256:** `41b885ec39c9f36be1b2a0a24315923f0ebdf9e658c93f098a7fe960f9018156`  
 **Archive bytes:** `29,465,780`  
-**Archive checksum:** [ZIP SHA-256 sidecar](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER.zip.sha256)  
-**Final delivery hash ledger:** [FINAL_DELIVERY_SHA256SUMS.txt](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER_FINAL_DELIVERY_SHA256SUMS.txt)  
-**Readable report:** [README.md](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/README.md)  
-**Verification receipt:** [VERIFICATION_RECEIPT.json](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/VERIFICATION_RECEIPT.json)  
-**Immutable manifest:** [MANIFEST.sha256](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/MANIFEST.sha256)  
-**One-command replay:** [REPLAY.sh](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/REPLAY.sh)  
-**Embedded pristine-extraction transcript:** [CLEANROOM_VERIFY.log](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/CLEANROOM_VERIFY.log), SHA-256 `118f540d6530f0c5f736cbcbad08de2d2184a1927f28ca2456f532ebab60c379`  
-**Replay of the final archive bytes:** [FINAL_ARCHIVE_REPLAY.log](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER_FINAL_ARCHIVE_REPLAY.log), SHA-256 `9654d95f3e4605dbc56b90bd01eb3671739c1fe37be03d646c5462b1f03ce4c4`  
-**Replay-log checksum:** [FINAL_ARCHIVE_REPLAY.log.sha256](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER_FINAL_ARCHIVE_REPLAY.log.sha256)
+**Archive checksum:** ZIP SHA-256 sidecar (`Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER.zip.sha256`)  
+**Final delivery hash ledger:** FINAL_DELIVERY_SHA256SUMS.txt (`Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER_FINAL_DELIVERY_SHA256SUMS.txt`)  
+**Readable report:** README.md  
+**Verification receipt:** VERIFICATION_RECEIPT.json  
+**Immutable manifest:** MANIFEST.sha256  
+**One-command replay:** REPLAY.sh  
+**Embedded pristine-extraction transcript:** CLEANROOM_VERIFY.log, SHA-256 `118f540d6530f0c5f736cbcbad08de2d2184a1927f28ca2456f532ebab60c379`  
+**Replay of the final archive bytes:** FINAL_ARCHIVE_REPLAY.log (`Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER_FINAL_ARCHIVE_REPLAY.log`), SHA-256 `9654d95f3e4605dbc56b90bd01eb3671739c1fe37be03d646c5462b1f03ce4c4`  
+**Replay-log checksum:** FINAL_ARCHIVE_REPLAY.log.sha256 (`Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER_FINAL_ARCHIVE_REPLAY.log.sha256`)
 
 Both clean runs terminate with
 
@@ -59,7 +59,7 @@ parent source SHA   be6520630eb583443c59b269c037cba31ad2f0434f409f03e55d59142802
 underlying J55 SHA  ba6f45ae283e444a4ee92ff14e4987041ca4e442a181892675f6b8af00759fa3.
 ```
 
-The journal records this parent as a material exact topology-changing nonwinner with 22 supplied rows, 19 active rows, inactive `14001,14014,5003`, primal `(34,51,19)`, and strict `(2,2,2)`. :contentReference[oaicite:1]{index=1} Its obstruction is the true dual edge `(30001,30003)`, whose nonmutual external arrows are all positive at both endpoints; the parent’s next unrepresented topology was explicitly the shared-interface two-cell cage attacked here. :contentReference[oaicite:2]{index=2}
+The journal records this parent as a material exact topology-changing nonwinner with 22 supplied rows, 19 active rows, inactive `14001,14014,5003`, primal `(34,51,19)`, and strict `(2,2,2)`. Its obstruction is the true dual edge `(30001,30003)`, whose nonmutual external arrows are all positive at both endpoints; the parent’s next unrepresented topology was explicitly the shared-interface two-cell cage attacked here.
 
 The parent exact reconstruction is included inside the archive and independently rechecked by an all-triples GMP program. No alias, unavailable endpoint rational, or recovered orphan-winner datum was used.
 
@@ -67,7 +67,7 @@ The parent exact reconstruction is included inside the archive and independently
 
 Start with the 18 exact J55 support rows serialized in
 
-[the exact J55 source](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/source/J55_D17R_anti_carrier18_exact_source.json),
+the exact J55 source (`J55_D17R_anti_carrier18_exact_source.json`),
 
 whose SHA-256 is
 
@@ -99,9 +99,9 @@ q_32004 = ( 0.31097476297928495,
              0.3064243650768409).
 ```
 
-The deterministic implementation is [build_exact_endpoint.py](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/build_exact_endpoint.py), SHA-256 `fe68f5eb0b4c3745072e7412aaf4c6e627f9e8cbed275037d2142966fa20b203`. The complete endpoint source is [endpoint/exact_source.json](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/endpoint/exact_source.json), SHA-256 `24a090f890189f1e0a80129aeaee9fcb1f5a8c50bb9ffe3403d11217d878817c`.
+The deterministic implementation is build_exact_endpoint.py, SHA-256 `fe68f5eb0b4c3745072e7412aaf4c6e627f9e8cbed275037d2142966fa20b203`. The complete endpoint source is endpoint/exact_source.json, SHA-256 `24a090f890189f1e0a80129aeaee9fcb1f5a8c50bb9ffe3403d11217d878817c`.
 
-The construction uses the same exact polar-centroid gauge as the parent: build the raw polar `P_raw={x:q_i·x<=1}`, reconstruct its exact primal vertices, integrate its ordinary volume and first moment, and apply `h_i=q_i/(1-q_i·c)` with primal translation `p_v=p_v_raw-c`. The parent payload records this exact centring mechanism. :contentReference[oaicite:3]{index=3}
+The construction uses the same exact polar-centroid gauge as the parent: build the raw polar `P_raw={x:q_i·x<=1}`, reconstruct its exact primal vertices, integrate its ordinary volume and first moment, and apply `h_i=q_i/(1-q_i·c)` with primal translation `p_v=p_v_raw-c`. The parent payload records this exact centring mechanism.
 
 ## Exact two-cell geometry and oriented matroid
 
@@ -168,7 +168,7 @@ Weight zero on the equator and weight one on both apices gives the two tetrahedr
 
 The lifting is extended to the complete 23-row supplied configuration by one common exact high weight on every retained old row. The minimum old-row lower slack is exactly at least `1`; hence `A,B` are strict lower cells of a global regular subdivision, not only of the five-row subconfiguration.
 
-The complete certificate is [bifurcated_two_cell_certificate.json](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/certificates/bifurcated_two_cell_certificate.json), SHA-256 `e36e6dbbdf73f96738842f06df034de9d47a9eb04b15e2fdc26b40caba00446b`.
+The complete certificate is bifurcated_two_cell_certificate.json, SHA-256 `e36e6dbbdf73f96738842f06df034de9d47a9eb04b15e2fdc26b40caba00446b`.
 
 ## Exact preservation of row-5003 inactivity
 
@@ -209,7 +209,7 @@ M = sum det(a,b,c)(a+b+c)/24,
 c = M/V.
 ```
 
-The resulting ordinary volume is a positive reduced rational whose numerator has 2,887 decimal digits and denominator has 2,886 decimal digits. Its complete literal fraction is the field `ordinary_volume_exact` in [endpoint/certificate.json](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/endpoint/certificate.json), SHA-256 `91b6502014344bc9d1844ad8e4d528b04d9609ced1b2f5b9304be2d1da78a869`. Numerically,
+The resulting ordinary volume is a positive reduced rational whose numerator has 2,887 decimal digits and denominator has 2,886 decimal digits. Its complete literal fraction is the field `ordinary_volume_exact` in endpoint/certificate.json, SHA-256 `91b6502014344bc9d1844ad8e4d528b04d9609ced1b2f5b9304be2d1da78a869`. Numerically,
 
 ```text
 V = 10.22323320091809...
@@ -275,7 +275,7 @@ The minimum exact inactive-row separation is positive, with decimal diagnostic
 0.05703106538952026.
 ```
 
-The complete supplied-versus-active ledger is [supplied_active.csv](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/endpoint/supplied_active.csv).
+The complete supplied-versus-active ledger is supplied_active.csv.
 
 ### Complete primal vertex incidence
 
@@ -344,7 +344,7 @@ Vertex IDs in the following cycles refer to the preceding 34-vertex order:
 32004: [8,11,13,15,17,19,21,23,27,6,4].
 ```
 
-The machine-readable cycles are [face_cycles.json](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/endpoint/face_cycles.json), SHA-256 `0e61dd6ba12927953385f12332e02e11f7cfc66a19ea750377984cb2cebc5e84`.
+The machine-readable cycles are face_cycles.json, SHA-256 `0e61dd6ba12927953385f12332e02e11f7cfc66a19ea750377984cb2cebc5e84`.
 
 ### Every true edge
 
@@ -368,7 +368,7 @@ The complete true dual/primal edge pairs are
 (32000,32003) (32001,32002) (32001,32003) (32002,32004).
 ```
 
-The exact edge-to-face incidence table is [true_edges.csv](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/endpoint/true_edges.csv), SHA-256 `40da1b26d49a2d2ff79379fa7843995d39420875da2171a513467aac1271b8a5`. Display triangulation diagonals are absent from this list and from the mechanics audit.
+The exact edge-to-face incidence table is true_edges.csv, SHA-256 `40da1b26d49a2d2ff79379fa7843995d39420875da2171a513467aac1271b8a5`. Display triangulation diagonals are absent from this list and from the mechanics audit.
 
 ## Exhaustive exact own-centroid equilibrium classification
 
@@ -441,7 +441,7 @@ Every other true edge has an exact nonpositive component; the minimum exclusion 
 0.025238523131479937.
 ```
 
-The complete feature-by-feature exact ledger is [mechanics_exact.json](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/endpoint/mechanics_exact.json), SHA-256 `62d0a2014ca0d0ebff871de1dd091cdabb4fd71928b2bb8cdf6d569bd1e2c77a`.
+The complete feature-by-feature exact ledger is mechanics_exact.json, SHA-256 `62d0a2014ca0d0ebff871de1dd091cdabb4fd71928b2bb8cdf6d569bd1e2c77a`.
 
 ## Physical connectivity and outgoing ports
 
@@ -527,7 +527,7 @@ saddles (14002,30001),(14012,32003).
 
 Thus the explicit connected ingress is death-after-birth: the replacement stable and saddle carriers are strict while parent stable row `30001` and an old saddle remain strict. This is an exact finite chamber witness, not a root-complete exclusion of every path in the entire abstract bipyramid realization space.
 
-The certificate is [exact_replacement_chronology.json](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/certificates/exact_replacement_chronology.json), SHA-256 `84cda3575fba42cc5690f6adffe6c454237c6716cedc0be976b1dcd9545c790e`.
+The certificate is exact_replacement_chronology.json, SHA-256 `84cda3575fba42cc5690f6adffe6c454237c6716cedc0be976b1dcd9545c790e`.
 
 ## Exact surviving forcing component
 
@@ -557,9 +557,9 @@ The complete all-edge audit finds exactly these all-positive-external true edges
 (32001,32003).
 ```
 
-The first two belong to the protected sink sector. The third is the adverse replacement carrier. The exact audit is [external_arrow_audit.json](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/certificates/external_arrow_audit.json), SHA-256 `ecd77c8f7ff3d6669fd53b10d178c088c6cc4eaf6f571fea1ee5776c41916856`.
+The first two belong to the protected sink sector. The third is the adverse replacement carrier. The exact audit is external_arrow_audit.json, SHA-256 `ecd77c8f7ff3d6669fd53b10d178c088c6cc4eaf6f571fea1ee5776c41916856`.
 
-The smallest connected residual component has ten named rows and 18 induced true edges. It joins `(32001,32003)`, both surviving saddle sectors, both unstable branches, and protected row `2475`. Its exact graph and connecting paths are in [residual_forcing_component.json](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/certificates/residual_forcing_component.json), SHA-256 `a352fc69deba7398e4f0dec4517dbad1fd23ad07d2565bc8dd68eee6aaeed2b2`.
+The smallest connected residual component has ten named rows and 18 induced true edges. It joins `(32001,32003)`, both surviving saddle sectors, both unstable branches, and protected row `2475`. Its exact graph and connecting paths are in residual_forcing_component.json, SHA-256 `a352fc69deba7398e4f0dec4517dbad1fd23ad07d2565bc8dd68eee6aaeed2b2`.
 
 ## Exact perturbation certification
 
@@ -579,9 +579,9 @@ yz minimum guarded lower bound 0.009839357244149059.
 
 Certificates:
 
-- [XY shear interval](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/certificates/one_parameter_xy_shear_box.json), SHA-256 `c58de019b08b6795ca7192be59f448519a8a71dfdd9e650cae1efd13c5902a8e`
-- [YZ shear interval](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/certificates/one_parameter_yz_shear_box.json), SHA-256 `fbe1f6667f2f03a7ccdeac7daa8fe54ea5cba27a288f2b4fcfe39de678fc272e`
-- [Independent-direction summary](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/certificates/two_independent_shear_directions.json)
+- XY shear interval (`one_parameter_xy_shear_box.json`), SHA-256 `c58de019b08b6795ca7192be59f448519a8a71dfdd9e650cae1efd13c5902a8e`
+- YZ shear interval (`one_parameter_yz_shear_box.json`), SHA-256 `fbe1f6667f2f03a7ccdeac7daa8fe54ea5cba27a288f2b4fcfe39de678fc272e`
+- Independent-direction summary (`two_independent_shear_directions.json`)
 
 These provide two independent nonzero physical tangent controls after ordinary-moment closure. I do not claim that the full Cartesian product of the two displayed intervals was interval-certified. Pointwise strict rational margins imply some multidimensional open neighbourhood by continuity, but no explicit all-coordinate radius is promoted beyond the two certified axes.
 
@@ -635,8 +635,8 @@ This supplies the independent all-triples parent reconstruction missing from the
 
 ## Watertight display meshes
 
-- [J57_BIPY5_shared_interface.obj](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/mesh/J57_BIPY5_shared_interface.obj), SHA-256 `0893e288585e0061f3d3a4be6ade86df5672f4b1d7fd3874316b10331ab166a6`
-- [J57_BIPY5_shared_interface.stl](sandbox:/mnt/data/Clear_Willow_25_J57_BIPY5_shared_interface_exact_NONWINNER/mesh/J57_BIPY5_shared_interface.stl), SHA-256 `9260c9642c2295ace645be7505a03fc6efbc098fd7623e68c0bd5b21a2324acf`
+- J57_BIPY5_shared_interface.obj, SHA-256 `0893e288585e0061f3d3a4be6ade86df5672f4b1d7fd3874316b10331ab166a6`
+- J57_BIPY5_shared_interface.stl, SHA-256 `9260c9642c2295ace645be7505a03fc6efbc098fd7623e68c0bd5b21a2324acf`
 
 The independent mesh audit gives
 

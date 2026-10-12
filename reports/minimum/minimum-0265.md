@@ -21,9 +21,9 @@ The direct box is the cube of radius **3/100 in all five parameters** about \((3
 
 The proof has **605 closed shape cells, all 49 necessary paired-arrow cases on every cell, and 29,645 exact strict dual contradictions**. Each cell has a fixed auxiliary reference with a proved whole-cell orthogonal factor at most 32/5. The proof retains both reciprocal lower coupling inequalities, not only the predecessor's reciprocal SUM inequality.
 
-The whole new box lies inside the previously proved **Gamma-template blind box**. Thus this is a common-inverse exclusion where the earlier standalone Gamma-product comparison fails for every reference. The stronger orthogonal scalar-template barrier at the exact lambda=13/100 centre is also retained and bypassed; that particular stronger barrier is not asserted throughout the macro-box. fileciteturn29file0L22-L28 fileciteturn29file0L36-L39
+The whole new box lies inside the previously proved **Gamma-template blind box**. Thus this is a common-inverse exclusion where the earlier standalone Gamma-product comparison fails for every reference. The stronger orthogonal scalar-template barrier at the exact lambda=13/100 centre is also retained and bypassed; that particular stronger barrier is not asserted throughout the macro-box.
 
-**Global bounds remain 34≤C_min≤622.** This is not a whole-H5/E17 theorem, an unrestricted all-metric U2 theorem, a canonical incidence-count subtraction, or an attaining110 construction. fileciteturn18file7L9-L13
+**Global bounds remain 34≤C_min≤622.** This is not a whole-H5/E17 theorem, an unrestricted all-metric U2 theorem, a canonical incidence-count subtraction, or an attaining110 construction.
 
 ## 2. Input authority and completed execution
 
@@ -85,7 +85,7 @@ K_z&=As^2/2+\lambda/2+\lambda^2/4.
 \end{aligned}
 \]
 
-Symbolic boundary integration agrees identically: D has 9 monomials and K has 20,20,9. Every moving vertex is \(v_i=z_i-K/D\), and every pole is the actual support \(q_f=n_f/(h_f-n_f\cdot g)\). No moment or polar centre is independently chosen. These are the predecessor's literal body and moment conventions. fileciteturn18file0L10-L32
+Symbolic boundary integration agrees identically: D has 9 monomials and K has 20,20,9. Every moving vertex is \(v_i=z_i-K/D\), and every pole is the actual support \(q_f=n_f/(h_f-n_f\cdot g)\). No moment or polar centre is independently chosen. These are the predecessor's literal body and moment conventions.
 
 At each cell midpoint, the auxiliary C is that calibration body's actual volume covariance. The second moment comes from the complete oriented boundary: for each integration triangle (a,b,c), put d=a·(b×c), t=a+b+c and add
 
@@ -126,7 +126,7 @@ Likewise choose a nonbasal pole q of largest nonbasal M⁻¹-norm and set
 
 Both coefficients are positive and sum to one. W and A put \(-u q-\omega q_0\) in the actual polar on a top-vertex-dual face, hence in the convex hull of nonbasal poles. A nonnegative q→q0 derivative would make this point's norm strictly exceed q's norm. All other outgoing derivatives are strictly negative by maximality. Thus a strict nonbasal S is unavoidable, using exactly M⁻¹.
 
-Under hypothetical S=U=1, a maximum-norm top vertex j is **not** the unstable root. Its top-neighbour derivatives are strictly negative even in a norm tie, so one genuine basal spoke j→b is nonnegative. The basal pole q0 is **not** the polar root, so one q0→qf, f=1,…,7, is nonnegative. The case also retains both comparisons that j is top-maximal. Seven spokes times seven basal-polar exits give exactly **49 necessary cases**. Zero escape derivatives are permitted. These are the predecessor's root directions, not an assumed stable base or unstable top. fileciteturn18file0L34-L54
+Under hypothetical S=U=1, a maximum-norm top vertex j is **not** the unstable root. Its top-neighbour derivatives are strictly negative even in a norm tie, so one genuine basal spoke j→b is nonnegative. The basal pole q0 is **not** the polar root, so one q0→qf, f=1,…,7, is nonnegative. The case also retains both comparisons that j is top-maximal. Seven spokes times seven basal-polar exits give exactly **49 necessary cases**. Zero escape derivatives are permitted. These are the predecessor's root directions, not an assumed stable base or unstable top.
 
 ## 5. Direct moving-shape orthogonal-factor certification
 
@@ -137,7 +137,7 @@ For the cell's fixed C>0 define
 (w^TC^{-1}w)(n^TCn).
 \]
 
-Exchanging w,n proves self-polarity with C⁻¹. In three dimensions a maximum can be chosen on genuine primal and polar edges: maximize each convex squared norm in the other's central planar section in succession. Section vertices lie on genuine edges or vertices, including endpoint and nonsimplicial cases. fileciteturn18file8L21-L39 fileciteturn18file8L65-L88
+Exchanging w,n proves self-polarity with C⁻¹. In three dimensions a maximum can be chosen on genuine primal and polar edges: maximize each convex squared norm in the other's central planar section in succession. Section vertices lie on genuine edges or vertices, including endpoint and nonsimplicial cases.
 
 The new regional computation avoids dividing by an orthogonality denominator or assuming that pointwise rational-curve topology persists. For each of all 289 edge pairs write
 
@@ -165,7 +165,7 @@ All interval arithmetic is outward-rounded **integer dyadic arithmetic at 70 bit
 
 The exact replay examines **714,391 edge-parameter rectangles**: 198,239 are excluded by strict orthogonality signs and 246,379 are product-bound leaves. They cover all 174,845 true-edge-pair/shape-cell combinations. Only proved-empty edge-parameter rectangles are removed; no shape cell is pruned.
 
-For the spectral consequence use the one physical matrix \(H=C^{1/2}MC^{1/2}\). The finite-height shadow-chain estimate from a negative leading-axis support point to the first central-plane crossing gives \(\lambda_1/\lambda_2\le\Upsilon_C f(10)\). Applied to the same-origin polar and H⁻¹, it gives \(\lambda_2/\lambda_3\le\Upsilon_C f(9)\), where \(f(m)=\cos(\pi/(2m))^{2m}\). Both trees exist under joint S1/U1, with weak escapes included. fileciteturn18file8L41-L63
+For the spectral consequence use the one physical matrix \(H=C^{1/2}MC^{1/2}\). The finite-height shadow-chain estimate from a negative leading-axis support point to the first central-plane crossing gives \(\lambda_1/\lambda_2\le\Upsilon_C f(10)\). Applied to the same-origin polar and H⁻¹, it gives \(\lambda_2/\lambda_3\le\Upsilon_C f(9)\), where \(f(m)=\cos(\pi/(2m))^{2m}\). Both trees exist under joint S1/U1, with weak escapes included.
 
 Exact Machin and cosine estimates prove f(10)<25/32 and f(9)<19/25. Consequently **both physical adjacent gaps are strictly below5 in this cell's C frame**. No constant has been transplanted into a different covariance frame.
 
@@ -435,7 +435,7 @@ d281ef1e9a0dbb2358d47929e16b02a7461b98294ad23d40a13d9f96fa18ff9a
 
 Every individual source pin is checked inside the source map. The report is regenerated, not an input. Its per-cell proof digests never replace recomputation of the full exact checks.
 
-Convenience copies supplement the complete inline recovery: [recovery source](sandbox:/mnt/data/pair_macro/recover_h5_paired_macro.py), [exact verification report](sandbox:/mnt/data/pair_macro/macro_wide_atlas_exact_report.json), and [complete source/atlas/report bundle](sandbox:/mnt/data/h5_paired_macro_certificate.zip).
+Convenience copies supplement the complete inline recovery: recovery source (`recover_h5_paired_macro.py`), exact verification report (`macro_wide_atlas_exact_report.json`), and complete source/atlas/report bundle (`h5_paired_macro_certificate.zip`).
 
 ```python
 """Complete source-only recovery for H5 paired reciprocal macro exclusion.

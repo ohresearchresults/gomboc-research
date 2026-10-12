@@ -8,7 +8,7 @@ AI research report · 2026-09-01 UTC
 
 ## Disposition: **EXACT NONWINNER**
 
-I reconstructed the accepted exact P9 finite-thickness endpoint and advanced it through a genuinely cross-gap, simultaneous incidence event. The predecessor is the 27-row/12-active own-centred `(V,E,F)=(20,30,12)` body of strict class `(2,2,2)` whose transferred obstructions were stable sinks `o9,o27`, unstable sinks `(o102,XS,XR)` and `(C0,XS,XU)`, and saddles `(A5,C1)` and `(XS,o102)`. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} Its exact witness obstruction required a successor that removed `o9` and the extra source in one cross-gap cell rather than another serial band. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+I reconstructed the accepted exact P9 finite-thickness endpoint and advanced it through a genuinely cross-gap, simultaneous incidence event. The predecessor is the 27-row/12-active own-centred `(V,E,F)=(20,30,12)` body of strict class `(2,2,2)` whose transferred obstructions were stable sinks `o9,o27`, unstable sinks `(o102,XS,XR)` and `(C0,XS,XU)`, and saddles `(A5,C1)` and `(XS,o102)`. Its exact witness obstruction required a successor that removed `o9` and the extra source in one cross-gap cell rather than another serial band.
 
 The new wall event reaches the requested cross-gap **incidence topology**: one moving row crosses two coplanar circuits at the same exact parameter, and the two positive-volume polar cells share the same interior edge. But the decisive self-check breaks the stronger hoped-for conclusion. In the immediate pre-cell, `S9` is no longer stable and `(SC0,SS,SU)` is not unstable; the actual packet has already transferred to stable `SC1,H` and unstable `(SS,SU,S102)`, and those equilibria survive the wall. Thus this is simultaneous carrier deletion, not simultaneous actual sink cancellation. The robust endpoint has **two** stable faces, **two** unstable vertices, and **two** saddle edges, so it is not a homogeneous polyhedral Gömböc.
 
@@ -215,10 +215,10 @@ The smallest topology now forced open is a **three-page shared-interior-edge cro
 
 ## Reusable artifacts
 
-- [Complete exact bundle](sandbox:/mnt/data/Steady_Willow_02_P9_XG2_exact_NONWINNER.zip) — SHA-256 `24c4c2e870aa8e4ec7b20b08eb3cbb23fd4cb5f0a066e9682dee711a1e66efe6`.
-- [Full handoff](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/STEADY_WILLOW_02_HANDOFF.md)
-- [Exact certificate JSON](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/p9_xg2_exact.json)
-- [Exact source rows](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/p9_xg2_source_rows.csv) · [vertices](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/p9_xg2_vertices.csv) · [all edge cones](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/p9_xg2_edges.csv)
-- [Exact witness obstruction](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/p9_xg2_witness_obstruction_exact.json) · [directed perturbation certificate](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/p9_xg2_perturbation_interval.json)
-- [Clean-room verifier](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/verify_p9_xg2_cleanroom.py) · [interval verifier](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/verify_p9_xg2_perturbation_interval.py) · [verification receipt](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/VERIFICATION_RECEIPT.txt)
-- [OBJ mesh](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/p9_xg2.obj) · [STL mesh](sandbox:/mnt/data/p9_crossgap_work/p9_xg2_exact/p9_xg2.stl)
+- Complete exact bundle (`Steady_Willow_02_P9_XG2_exact_NONWINNER.zip`) — SHA-256 `24c4c2e870aa8e4ec7b20b08eb3cbb23fd4cb5f0a066e9682dee711a1e66efe6`.
+- Full handoff (`STEADY_WILLOW_02_HANDOFF.md`)
+- Exact certificate JSON (`p9_xg2_exact.json`)
+- Exact source rows (`p9_xg2_source_rows.csv`) · vertices (`p9_xg2_vertices.csv`) · all edge cones (`p9_xg2_edges.csv`)
+- Exact witness obstruction (`p9_xg2_witness_obstruction_exact.json`) · directed perturbation certificate (`p9_xg2_perturbation_interval.json`)
+- Clean-room verifier (`verify_p9_xg2_cleanroom.py`) · interval verifier (`verify_p9_xg2_perturbation_interval.py`) · verification receipt (`VERIFICATION_RECEIPT.txt`)
+- OBJ mesh (`p9_xg2.obj`) · STL mesh (`p9_xg2.stl`)

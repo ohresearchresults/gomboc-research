@@ -8,9 +8,9 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 ## Literal verdict
 
-**EXACT MATERIALIZED NONWINNER.** No finite homogeneous convex polyhedron with strict own-centroid `(S,U,H)=(1,1,0)` was obtained. The run’s completion gate requires exact own-volume centring, finite V/H/E data, exhaustive strict face/vertex/full-edge-cone mechanics, an independent verifier, and matching OBJ/STL. :contentReference[oaicite:0]{index=0}
+**EXACT MATERIALIZED NONWINNER.** No finite homogeneous convex polyhedron with strict own-centroid `(S,U,H)=(1,1,0)` was obtained. The run’s completion gate requires exact own-volume centring, finite V/H/E data, exhaustive strict face/vertex/full-edge-cone mechanics, an independent verifier, and matching OBJ/STL.
 
-The immutable source is `figure-0282`, SHA-256 `656038ebc281b3ef2277b7bac63a97fc14d8ba2f83baaebf974970fc03829c63`. It supplies exact `E27AB2`, `(V,E,F)=(27,75,50)`, strict `(3,2,3)`, with stable faces `[8,A,B]`, `[8,RA,A]`, `[8,RB,O1]`, unstable vertices `8,RB`, and saddles `(8,A),(8,B),(10,RA)`; the journal identifies the six-face `E29-HX2` disk as its first nonrepeating successor. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The immutable source is `figure-0282`, SHA-256 `656038ebc281b3ef2277b7bac63a97fc14d8ba2f83baaebf974970fc03829c63`. It supplies exact `E27AB2`, `(V,E,F)=(27,75,50)`, strict `(3,2,3)`, with stable faces `[8,A,B]`, `[8,RA,A]`, `[8,RB,O1]`, unstable vertices `8,RB`, and saddles `(8,A),(8,B),(10,RA)`; the journal identifies the six-face `E29-HX2` disk as its first nonrepeating successor.
 
 The literal six-triangle disk is geometrically realizable, but it leaves both `(8,A)` and `(8,B)` stars unchanged, has `RB→RD>0`, and is `(3,3,4)`. A stronger 29-vertex topology changes both stars through two communicating finite-thickness pages and achieves a strict negative chain `RB→RD→RC→RA`; the extra unstable equilibrium transfers to `RA`. The promoted exact endpoint `E29HX2S` is `(29,81,54)`, strict `(2,2,2)`, and has a certified all-coordinate chamber with `U≥2`.
 
@@ -18,8 +18,8 @@ No CAD or global exclusion of either 29-vertex realization space is claimed.
 
 ## Immutable package
 
-- [Exact archive](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER.zip), SHA-256 `da4cfde285ea8ab90dd30c330385cbe8154f4c24211ff0c34e77e7aa04deae81`.
-- [SHA file](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER.zip.sha256), [full 604-line report](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/RESULT.md), [one-command replay](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/[internal-source-reference].sh), [clean transcript](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/CLEAN_VERIFICATION_TRANSCRIPT.txt), and [49-entry manifest](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/SHA256SUMS).
+- Exact archive (`Vivid_Quartz_58_E29_HX2_exact_NONWINNER.zip`), SHA-256 `da4cfde285ea8ab90dd30c330385cbe8154f4c24211ff0c34e77e7aa04deae81`.
+- SHA file (`Vivid_Quartz_58_E29_HX2_exact_NONWINNER.zip.sha256`), full 604-line report (`RESULT.md`), one-command replay (`[internal-source-reference].sh`), clean transcript (`CLEAN_VERIFICATION_TRANSCRIPT.txt`), and 49-entry manifest (`SHA256SUMS`).
 - The replay ends `VIVID_QUARTZ_58_E29_HX2_FULL_REPLAY_PASS`; the ZIP passes a complete compressed-data test.
 
 ## 1. Literal requested cell `E29HX2L`
@@ -74,7 +74,7 @@ saddles  (8,A), (8,B), (10,RA), (Z1,RA).
 
 The denominator-cleared arrow `RB→RD=36470535957682074821696127264>0`; therefore the literal incidence is not the requested anti-carrier cell. Minimum normalized mechanics separation is `0.0018173110752397563`; normalized nonincidence is `7.403587124119378e-7`.
 
-Evidence: [exact report](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2_literal/E29HX2L_exact_report.json), [H rows](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2_literal/E29HX2L_H_representation.json), [audit](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2_literal/E29HX2L_audit.md), [patch](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E27AB2_to_E29HX2L_patch.json).
+Evidence: exact report (`E29HX2L_exact_report.json`), H rows (`E29HX2L_H_representation.json`), audit (`E29HX2L_audit.md`), patch (`E27AB2_to_E29HX2L_patch.json`).
 
 ## 2. Stronger same-size, star-changing connected cell
 
@@ -123,7 +123,7 @@ saddles  (8,A), (8,RD), (Z1,RA).
 
 The desired arrow `RB→RD<0` is achieved, but `RD` is born unstable at activation.
 
-[Connected-patch certificate](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E27AB2_to_E29HX2A_connected_two_stage_patch.json) · [anchor report](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2_anchor/E29HX2A_exact_report.json).
+Connected-patch certificate (`E27AB2_to_E29HX2A_connected_two_stage_patch.json`) · anchor report (`E29HX2A_exact_report.json`).
 
 ## 3. Complete exact declared-path chronology
 
@@ -175,7 +175,7 @@ RD→RB = t(10684872422803939 t²
 
 for all `0<t≤1`. Thus the intended escape is present as soon as the new cell exists, but the replacement unstable vertex is also present immediately: death-before-birth fails exactly.
 
-[Full chronology with every exact cell](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E27AB2_to_E29HX2A_exact_chronology.json) · [escape-polynomial certificate](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2_anchor/E29HX2A_stage2_escape_polynomials.json).
+Full chronology with every exact cell (`E27AB2_to_E29HX2A_exact_chronology.json`) · escape-polynomial certificate (`E29HX2A_stage2_escape_polynomials.json`).
 
 ## 4. Promoted robust endpoint `E29HX2S`
 
@@ -278,7 +278,7 @@ Then the uncentred row is `n·p≤h/65536`, and the centred row is
 n·x≤h/65536-n·c.
 ```
 
-The V table and oriented face list above therefore regenerate all exact H rows without hidden data. [The expanded 54-row H table and every nonincident slack](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_H_representation.json) are supplied. Every row is irredundant. Minimum primitive-integer nonincident slack is `96401`; Euclidean separation is `3.1722305851075076e-5`; circumradius-normalized separation is `3.295687931356116e-5`.
+The V table and oriented face list above therefore regenerate all exact H rows without hidden data. The expanded 54-row H table and every nonincident slack (`E29HX2S_H_representation.json`) are supplied. Every row is irredundant. Minimum primitive-integer nonincident slack is `96401`; Euclidean separation is `3.1722305851075076e-5`; circumradius-normalized separation is `3.295687931356116e-5`.
 
 ## 5. Exhaustive own-centroid mechanics
 
@@ -305,7 +305,7 @@ H(10,RA)   = (0.14667606223171065,0.8533239377682894,
               0.3277107304835722,0.9806036553300208).
 ```
 
-Every other face, vertex, and true edge has an exact negative component witness. The minimum absolute signed normalized separation across the full 54-face, 29-vertex, and 81-edge ledger is `0.016370596113234877`. Face tests use all projection barycentrics; vertex tests use every actual-neighbour arrow `-x_i·(x_j-x_i)`; edge tests use `t`, `1-t`, and both coefficients of the foot in the cone generated by the two incident outward normals. [Exact complete report](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_exact_report.json) and [human-readable exhaustive audit](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_audit.md) contain every exact component.
+Every other face, vertex, and true edge has an exact negative component witness. The minimum absolute signed normalized separation across the full 54-face, 29-vertex, and 81-edge ledger is `0.016370596113234877`. Face tests use all projection barycentrics; vertex tests use every actual-neighbour arrow `-x_i·(x_j-x_i)`; edge tests use `t`, `1-t`, and both coefficients of the foot in the cone generated by the two incident outward normals. Exact complete report (`E29HX2S_exact_report.json`) and human-readable exhaustive audit (`E29HX2S_audit.md`) contain every exact component.
 
 ## 6. Exact escape and residual forcing theorem
 
@@ -321,7 +321,7 @@ So `RB,RD,RC` are non-unstable along `RB→RD→RC→RA`. The chain terminates a
 u(8→RA)+u(RA→8)=|RA-8|²=4980575555/2147483648>0.
 ```
 
-Therefore `8` and `RA` remain unstable on the complete certified chamber, including mechanics walls: `U≥2`. This is a local theorem, not a global graph theorem. [Exact arrow and forcing ledger](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_residual_forcing_certificate.json).
+Therefore `8` and `RA` remain unstable on the complete certified chamber, including mechanics walls: `U≥2`. This is a local theorem, not a global graph theorem. Exact arrow and forcing ledger (`E29HX2S_residual_forcing_certificate.json`).
 
 ## 7. Open chamber, moment controls, and independent replay
 
@@ -357,12 +357,12 @@ Thus the three moments determine a unique dependent centroid. The full cube lies
 
 A separately coded SciPy/Qhull–tetrahedral-moment–full-normal-cone verifier reconstructs all 29 vertices, 54 faces, 81 edges, the exact-label equilibrium set, and watertight winding-consistent Euler-two meshes.
 
-- [Perturbation certificate](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_perturbation_certificate.json)
-- [Three-control family](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_three_control_family.json)
-- [Independent family replay](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_three_control_independent_verification.json)
-- [Independent endpoint report](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_independent_verification.json)
-- [Centred OBJ](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_centered.obj)
-- [Centred STL](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/E29HX2S/E29HX2S_centered.stl)
+- Perturbation certificate (`E29HX2S_perturbation_certificate.json`)
+- Three-control family (`E29HX2S_three_control_family.json`)
+- Independent family replay (`E29HX2S_three_control_independent_verification.json`)
+- Independent endpoint report (`E29HX2S_independent_verification.json`)
+- Centred OBJ (`E29HX2S_centered.obj`)
+- Centred STL (`E29HX2S_centered.stl`)
 
 ## 8. Search scope and next exact frontier
 
@@ -391,7 +391,7 @@ and replace it by
 [RF,Z1,RC] [RF,RC,8] [8,RE,RF] [O1,RF,RE].
 ```
 
-The exact sphere architecture has `(V,E,F)=(30,84,56)`, true shared edge `(RE,RF)`, all edges degree two, connected dual, and preserved `[8,A,B]`; `RA` occurs only in the removed disk and becomes inactive. It contains the whole residual stable/unstable/saddle packet in one event. It is **combinatorially exact but not geometrically realized**. A fixed-coordinate sequential visibility LP was infeasible, which is search failure at that metric, not a nonrealizability proof. [Exact topology certificate](sandbox:/mnt/data/Vivid_Quartz_58_E29_HX2_exact_NONWINNER/next_open_topology.json).
+The exact sphere architecture has `(V,E,F)=(30,84,56)`, true shared edge `(RE,RF)`, all edges degree two, connected dual, and preserved `[8,A,B]`; `RA` occurs only in the removed disk and becomes inactive. It contains the whole residual stable/unstable/saddle packet in one event. It is **combinatorially exact but not geometrically realized**. A fixed-coordinate sequential visibility LP was infeasible, which is search failure at that metric, not a nonrealizability proof. Exact topology certificate (`next_open_topology.json`).
 
 ## Exact claim boundary
 

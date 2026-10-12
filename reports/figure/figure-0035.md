@@ -10,19 +10,19 @@ AI research report · 2026-08-22 UTC
 
 No strict homogeneous polyhedral Gömböc was found in this direction. The fallback deliverable is complete: four exact infinite-family exclusions, a fully exact global certificate for all `V<=6` cases, an exhaustive exact-certificate partition of the seven-vertex shadow systems, a centroid-hardwired seven-vertex continuation family, and a rational verifier covering every face, vertex, and edge.
 
-**Complete artifact:** [low_complexity_gomboc_research_artifact.zip](sandbox:/mnt/data/low_complexity_gomboc_research_artifact.zip)  
+**Complete artifact:** low_complexity_gomboc_research_artifact.zip  
 ZIP SHA-256: `d211f7de27a7674122ab1b09a651b23faa72db9a2c7f2ab3f63214b03156389f`
 
 Direct entry points:
 
-- [Research report](sandbox:/mnt/data/low_complexity_gomboc/RESEARCH_RESULT.md)
-- [Manifest](sandbox:/mnt/data/low_complexity_gomboc/MANIFEST.json)
-- [SHA-256 list](sandbox:/mnt/data/low_complexity_gomboc/SHA256SUMS.txt)
-- [Exact family-exclusion certificate](sandbox:/mnt/data/low_complexity_gomboc/family_exclusion_certificate.json)
-- [Exact `V=5,6` certificate bundle](sandbox:/mnt/data/low_complexity_gomboc/shadow_certificates_5_6.json)
-- [Exact `V=7` partition bundle](sandbox:/mnt/data/low_complexity_gomboc/v7_shadow_partition_bundle.json)
-- [Exact polyhedron verifier](sandbox:/mnt/data/low_complexity_gomboc/exact_polyhedron_verifier.py)
-- [Centroid-hardwired pentagonal-bipyramid builder](sandbox:/mnt/data/low_complexity_gomboc/pentagonal_bipyramid_parametric.py)
+- Research report (`RESEARCH_RESULT.md`)
+- Manifest (`MANIFEST.json`)
+- SHA-256 list (`SHA256SUMS.txt`)
+- Exact family-exclusion certificate (`family_exclusion_certificate.json`)
+- Exact `V=5,6` certificate bundle (`shadow_certificates_5_6.json`)
+- Exact `V=7` partition bundle (`v7_shadow_partition_bundle.json`)
+- Exact polyhedron verifier (`exact_polyhedron_verifier.py`)
+- Centroid-hardwired pentagonal-bipyramid builder (`pentagonal_bipyramid_parametric.py`)
 
 ## 1. Exact equilibrium predicates
 
@@ -72,7 +72,7 @@ and
 
 `b_k·(a-b_k)=-||p_k||^2-h^2/4<0`.
 
-Thus `b_k` is a second unstable vertex and every homogeneous right/centroidal-axis pyramid has `U>=2`. This rules out all base sizes, not only a fixed normal fan. The transcript's oblique-pyramid centroid hardwiring is the more general identity `A=(-3C_x,-3C_y,3)` for a base in `z=-1`. :contentReference[oaicite:0]{index=0}
+Thus `b_k` is a second unstable vertex and every homogeneous right/centroidal-axis pyramid has `U>=2`. This rules out all base sizes, not only a fixed normal fan. The transcript's oblique-pyramid centroid hardwiring is the more general identity `A=(-3C_x,-3C_y,3)` for a base in `z=-1`.
 
 ### Centroidal-axis bipyramids
 
@@ -106,7 +106,7 @@ and that a root-based tetrahedral decomposition of a centroid-zero polyhedron ha
 
 `sum_{k in T} r_{k,1} <= 0`.
 
-It then reduces the problem to finitely many inhomogeneous quadratic systems and certifies infeasibility by positive rational weighted sums whose augmented matrices are positive definite. The paper states the rooted-tree/tetrahedron algorithm, the exact counts `375` for `V=5`, `5568` for `V=6`, and `5943` total, while its official repository provides independently rational-verifiable supplementary material. :contentReference[oaicite:1]{index=1}
+It then reduces the problem to finitely many inhomogeneous quadratic systems and certifies infeasibility by positive rational weighted sums whose augmented matrices are positive definite. The paper states the rooted-tree/tetrahedron algorithm, the exact counts `375` for `V=5`, `5568` for `V=6`, and `5943` total, while its official repository provides independently rational-verifiable supplementary material.
 
 This run independently regenerated all `5943` cases and stored an integer weight vector for every one. `certify_shadow.py` reconstructs each augmented integer matrix and proves positive definiteness using fraction-free Bareiss/Sylvester pivots—no floating-point sign is trusted.
 
@@ -122,7 +122,7 @@ Consequently every homogeneous mono-unstable polyhedron, and therefore every hom
 
 ## 4. Exhaustive seven-vertex shadow partition
 
-The same necessary-condition search was run over every maximal planar graph on seven vertices, every representative unstable-root orbit, every rooted spanning tree, and every root tetrahedron. The simplicial reduction is globally applicable here: the source paper explains that an arbitrarily small perturbation can preserve mono-instability while making the polyhedron simplicial, so maximal planar graphs suffice. :contentReference[oaicite:2]{index=2}
+The same necessary-condition search was run over every maximal planar graph on seven vertices, every representative unstable-root orbit, every rooted spanning tree, and every root tetrahedron. The simplicial reduction is globally applicable here: the source paper explains that an arbitrarily small perturbation can preserve mono-instability while making the polyhedron simplicial, so maximal planar graphs suffice.
 
 | graph6 | architecture | systems | exact PD exclusions | run remainder | remainder orbits |
 |---|---|---:|---:|---:|---:|
@@ -137,7 +137,7 @@ Every listed exclusion is an exact positive-integer-weight positive-definite cer
 
 Bundle internal SHA-256: `d13260088b7a769ffb0d48f4e62b514d3cbb3cd91c8a1e026bf774499e4eb39a`.
 
-This agrees with the source paper's warning that Algorithm 2 resolves only approximately 99% at `V=7`; the positive-definite weighted-sum condition is sufficient, not necessary. :contentReference[oaicite:3]{index=3} The 1,714 systems are therefore an exact search remainder, not claimed feasible.
+This agrees with the source paper's warning that Algorithm 2 resolves only approximately 99% at `V=7`; the positive-definite weighted-sum condition is sufficient, not necessary. The 1,714 systems are therefore an exact search remainder, not claimed feasible.
 
 ## 5. Smallest surviving centroid-hardwired family
 

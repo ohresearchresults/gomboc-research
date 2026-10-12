@@ -12,7 +12,7 @@ AI research report · 2026-09-01 UTC
 
 I obtained no homogeneous convex polyhedral Gömböc. The strongest completed object is an exact rational rank-12 Minkowski endpoint with `D=(8,12,6)`, common refinement `(V,E,F)=(48,89,43)`, an isolated positive three-control centring root, complete exact H/V/E data, exhaustive strict own-centroid mechanics, two certified perturbation boxes, and a watertight mesh. Its class is strictly `(S,U,H)=(2,2,2)`, not `(1,1,0)`.
 
-The run’s acceptance gate remains a finite uniform-density body evaluated at its own exact volume centroid, with one stable maximal face, one unstable vertex, no saddle edge, complete incidence and positive-margin audits, an independent verifier, and a matching OBJ/STL. Auxiliary-centre, smooth, wall-point, near-solution, or unexpanded-generator claims do not qualify. :contentReference[oaicite:0]{index=0}
+The run’s acceptance gate remains a finite uniform-density body evaluated at its own exact volume centroid, with one stable maximal face, one unstable vertex, no saddle edge, complete incidence and positive-margin audits, an independent verifier, and a matching OBJ/STL. Auxiliary-centre, smooth, wall-point, near-solution, or unexpanded-generator claims do not qualify.
 
 ## 1. Material correction to the predecessor
 
@@ -45,7 +45,7 @@ At the post-row-6 wall centre, the valid exact pivot chart is `[2,0,1,0,0,0]`. I
 
 `r0.n0, r0.n1, r1.n1, r1.n2, r1.d, r2.n0, r2.n2, r2.d, r3.n1, r3.n2, r3.d, r4.n1, r4.n2, r5.n1, r5.n2`.
 
-The new 12-direction family has exact physical rank 12. Appending `r3.n1,r3.n2,r3.d` gives exact physical and raw rank 15. The exact basis, row-rescaling quotient, pivot calculation, and coordinate matrix are in [protected_nullspace.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/protected_nullspace.json), [rank12_shape_directions.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/rank12_shape_directions.csv), and [rank15_completion_basis.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/rank15_completion_basis.csv).
+The new 12-direction family has exact physical rank 12. Appending `r3.n1,r3.n2,r3.d` gives exact physical and raw rank 15. The exact basis, row-rescaling quotient, pivot calculation, and coordinate matrix are in protected_nullspace.json, rank12_shape_directions.csv, and rank15_completion_basis.csv.
 
 ## 2. Literal exact rank-12 family
 
@@ -65,7 +65,7 @@ The 12 independent shape coordinates are
 
 The first four are the coupled packet-wall variables; `q5,q6` are independent support-depth modes; `r7,r8` are transverse incidence-preserving normal modes; and the four new coordinates rotate protected rows 0 and 4 while preserving their incidence with `p`.
 
-The exact family definition, two dense cube matrices, scales, offsets, selected rows, and exact coefficients are in [rank12_family_exact.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/rank12_family_exact.json) and [rank12_exact_core.py](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/rank12_exact_core.py).
+The exact family definition, two dense cube matrices, scales, offsets, selected rows, and exact coefficients are in rank12_family_exact.json and rank12_exact_core.py.
 
 ## 3. Strongest completed exact endpoint
 
@@ -86,7 +86,7 @@ The six active `D` rows form eight vertices with active triples
 
 `034,035,045,123,125,135,234,245`.
 
-Thus row 6 remains absent and the protected `[0,4,5]` vertex is actual. The exact summand data are in [summands_H.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/summands_H.csv) and [summands_V.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/summands_V.csv).
+Thus row 6 remains absent and the protected `[0,4,5]` vertex is actual. The exact summand data are in summands_H.csv and summands_V.csv.
 
 The rebuilt common refinement has
 
@@ -96,11 +96,11 @@ The rebuilt common refinement has
 
 with complexity `2E=178`. Every affine Minkowski vertex, maximal face cycle, and true edge is explicit in:
 
-- [common_V_affine.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/common_V_affine.csv)
-- [common_H_affine.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/common_H_affine.csv)
-- [common_edges.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/common_edges.csv)
+- common_V_affine.csv
+- common_H_affine.csv
+- common_edges.csv
 
-The exact own-centred final lattice is in [final_centered_V.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/final_centered_V.csv) and [final_centered_H.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/final_centered_H.csv).
+The exact own-centred final lattice is in final_centered_V.csv and final_centered_H.csv.
 
 The minimum exact nonincident H/V slack is positive and approximately
 
@@ -121,7 +121,7 @@ M_q(t)=\sum_{i+j+k\le4}m^q_{ijk}t_1^it_2^jt_3^k,
 \qquad q\in\{x,y,z\}.
 \]
 
-All 125 exact rational coefficients were independently regenerated using GMP and are in [mixed_volume_first_moments.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/mixed_volume_first_moments.csv).
+All 125 exact rational coefficients were independently regenerated using GMP and are in mixed_volume_first_moments.csv.
 
 The three moment equations have the exact positive solution
 
@@ -135,7 +135,7 @@ The mixed-first-moment Jacobian is nonsingular. Directed interval/Krawczyk arith
 [1-2^{-24},1+2^{-24}]^3.
 \]
 
-The exact Jacobian, determinant, inverse preconditioner, and isolating box are in [root_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/root_certificate.json) and [directed_interval_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/directed_interval_certificate.json).
+The exact Jacobian, determinant, inverse preconditioner, and isolating box are in root_certificate.json and directed_interval_certificate.json.
 
 ## 5. Exhaustive own-centroid mechanics
 
@@ -160,9 +160,9 @@ The two saddle edges are:
 1. `P9:13|Dvertex(2;3;4) || P9edge(13;26)|Dedge(2;4)`, normalized margin `0.36401867789317754`;
 2. `P9:100|Dvertex(0;3;5) || P9edge(27;100)|Dedge(0;5)`, normalized margin `0.22640126763688154`.
 
-All face, vertex, and four-component true-edge primitives are exact, nonzero, and expanded in [face_audit_exact.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/face_audit_exact.csv), [vertex_audit_exact.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/vertex_audit_exact.csv), and [edge_audit_exact.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/edge_audit_exact.csv).
+All face, vertex, and four-component true-edge primitives are exact, nonzero, and expanded in face_audit_exact.csv, vertex_audit_exact.csv, and edge_audit_exact.csv.
 
-The consolidated endpoint certificate is [exact_nonwinner_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/exact_nonwinner_certificate.json).
+The consolidated endpoint certificate is exact_nonwinner_certificate.json.
 
 ## 6. Open neighborhoods
 
@@ -174,11 +174,11 @@ Holding all normals and other shape coordinates fixed, the independent support-d
 |\Delta q_5|,|\Delta q_6|\le2^{-30}
 \]
 
-also preserves `D=(8,12,6)`, the common refinement `(48,89,43)`, and the strict `(2,2,2)` mechanics. See [perturbation_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/perturbation_certificate.json) and [shape_support_box_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/shape_support_box_certificate.json).
+also preserves `D=(8,12,6)`, the common refinement `(48,89,43)`, and the strict `(2,2,2)` mechanics. See perturbation_certificate.json and shape_support_box_certificate.json.
 
 ## 7. Mesh
 
-The matching centred mesh is [OBJ](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/postCU10_rank12_selected_centered.obj) / [STL](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/postCU10_rank12_selected_centered.stl). It has 48 vertices, 92 oriented triangles, 138 triangulated mesh edges, every mesh edge incident with exactly two triangles, Euler characteristic 2, and exact outward orientation. The audit is [mesh_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/mesh_certificate.json).
+The matching centred mesh is OBJ (`postCU10_rank12_selected_centered.obj`) / STL (`postCU10_rank12_selected_centered.stl`). It has 48 vertices, 92 oriented triangles, 138 triangulated mesh edges, every mesh edge incident with exactly two triangles, Euler characteristic 2, and exact outward orientation. The audit is mesh_certificate.json.
 
 ## 8. Rank-12 arrangement evidence and self-attack
 
@@ -192,7 +192,7 @@ No sampled cell had `S=1`, `U=1`, or `H=0`. A further 32,000-point numerical sea
 
 Several corner adjacencies change all tracked residual packet identities between endpoints. Exact event-polynomial enumeration shows why this does not yield the requested one-event cancellation. On representative slice-0 edge mask 54 to mask 118, 296 exact candidate circuit polynomials have five roots in `[-1,1]`; the relevant candidate walls include the quadratic `P13_D2_D3` root near `-0.9607272616189353` and `P100_D3_D5` near `0.1679114493640807`. The common-fan changes seen numerically occur sequentially rather than at one shared root. A second representative edge, mask 55 to mask 183, splits its endpoint packet change into five distinct transitions. Thus dense coupling changes all packets globally but still relays the Euler-neutral block through multiple circuit walls.
 
-The exact atlas generator and exact algebraic transition decomposer are preserved as [generate_rank12_atlas_batch.py](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/generate_rank12_atlas_batch.py) and [generate_coupled_transition_atlas.py](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/generate_coupled_transition_atlas.py).
+The exact atlas generator and exact algebraic transition decomposer are preserved as generate_rank12_atlas_batch.py and generate_coupled_transition_atlas.py.
 
 ### Incomplete evidence caused by the execution cutoff
 
@@ -212,14 +212,14 @@ Should the full physical 15-dimensional six-facet family again contain only tran
 
 ## Reusable files
 
-- [Exact core](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/rank12_exact_core.py)
-- [Deterministic selected-endpoint generator](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/generate_rank12_selected.py)
-- [Generator transcript](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/generate_selected.log)
-- [Exact endpoint certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/exact_nonwinner_certificate.json)
-- [Corrected protected nullspace](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/protected_nullspace.json)
-- [Exact rank-12 family](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/rank12_family_exact.json)
-- [Exact mixed system](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/mixed_volume_first_moments.csv)
-- [Isolated-root certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/root_certificate.json)
-- [Exact transition-atlas generator](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank12_corrected_exact_NONWINNER/generate_coupled_transition_atlas.py)
+- Exact core (`rank12_exact_core.py`)
+- Deterministic selected-endpoint generator (`generate_rank12_selected.py`)
+- Generator transcript (`generate_selected.log`)
+- Exact endpoint certificate (`exact_nonwinner_certificate.json`)
+- Corrected protected nullspace (`protected_nullspace.json`)
+- Exact rank-12 family (`rank12_family_exact.json`)
+- Exact mixed system (`mixed_volume_first_moments.csv`)
+- Isolated-root certificate (`root_certificate.json`)
+- Exact transition-atlas generator (`generate_coupled_transition_atlas.py`)
 
 **Final literal verdict: exact strict `(2,2,2)` NONWINNER.**

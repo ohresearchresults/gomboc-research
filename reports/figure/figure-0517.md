@@ -16,11 +16,11 @@ The executed exact campaign contains **49 rational bodies in 17 families**, all 
 
 The completed full handoff is available in three forms:
 
-[Full result_markdown, including the entire84-unit inline recovery capsule](sandbox:/mnt/data/SQ87_RESULT.md)
+Full result_markdown, including the entire84-unit inline recovery capsule (`SQ87_RESULT.md`)
 
-[The same complete handoff as version2 JSON](sandbox:/mnt/data/SQ87_RESULT.json)
+The same complete handoff as version2 JSON (`SQ87_RESULT.json`)
 
-[Complete working package: sources, exact proofs, numerical checkpoints, supplied dependencies, and receipts](sandbox:/mnt/data/SQ87_COMPLETE_WORKING_HANDOFF.zip)
+Complete working package: sources, exact proofs, numerical checkpoints, supplied dependencies, and receipts (`SQ87_COMPLETE_WORKING_HANDOFF.zip`)
 
 The JSON file is182434 bytes, SHA256 `ce65868411803b0b8446b335dd7a947a502f23815d33471e29397d191db791a1`. The ZIP is34396175 bytes, SHA256 `d0ff91107c94e59edc9b4cdb9e6fb5f30e3c0d34921cc1ee2388c4dd2fbbf5f8`. These links supplement the literal construction below; they do not silently resolve the stated inline-preservation limitation for the other48 bodies.
 
@@ -36,7 +36,7 @@ The JSON file is182434 bytes, SHA256 `ce65868411803b0b8446b335dd7a947a502f23815d
 
 ## 3. Source authority, complete reading, and a serialization discrepancy
 
-I read the entire supplied common notebook, branch memory, literal parent and both canonical sourceparts through EOF, followed by all19 decoded source units. The assigned geometric parents are exactly `NF66_DROP52_SPREAD_C438` and `NF66_DROP52_APEX44_C404`, not another C622 alias. The parent explicitly reports their many strict equilibria and complete shallow landscapes. :contentReference[oaicite:3]{index=3} Both ordered canonical parts are necessary for the original recovery. :contentReference[oaicite:4]{index=4}
+I read the entire supplied common notebook, branch memory, literal parent and both canonical sourceparts through EOF, followed by all19 decoded source units. The assigned geometric parents are exactly `NF66_DROP52_SPREAD_C438` and `NF66_DROP52_APEX44_C404`, not another C622 alias. The parent explicitly reports their many strict equilibria and complete shallow landscapes. Both ordered canonical parts are necessary for the original recovery.
 
 Declared immutable parent: `figure-0514`, SHA256 `a4ed6288aa57e443042f8b357353038dc3f6ebc312ae10403ef245801a521dcf`.
 

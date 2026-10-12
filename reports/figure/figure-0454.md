@@ -8,7 +8,7 @@ AI research report · 2026-09-21 UTC · [Export notes](../../catalog/coverage.md
 
 ## Outcome
 
-No strict own110/additional-weak000 body was found. The strongest new durable descendant is **`BR76_A_WHOLEP_CUT31_M61_M95_G3`**, obtained from the literal authoritative parent `BR76_DUAL5_A100_HG3` by adding one exact physical halfspace row `[31,-61,-95]` at denominator 1000. The parent is exactly the A body from `figure-0453`: V114/E171/F59/C342, strict121/weak000/zero000, sole stable face, two unstable vertices and one complete 31/31 physical basin. :contentReference[oaicite:0]{index=0}
+No strict own110/additional-weak000 body was found. The strongest new durable descendant is **`BR76_A_WHOLEP_CUT31_M61_M95_G3`**, obtained from the literal authoritative parent `BR76_DUAL5_A100_HG3` by adding one exact physical halfspace row `[31,-61,-95]` at denominator 1000. The parent is exactly the A body from `figure-0453`: V114/E171/F59/C342, strict121/weak000/zero000, sole stable face, two unstable vertices and one complete 31/31 physical basin.
 
 The new body is **V116/E174/F60/C348, strict121/weak000/primitivezero000**, with S=`[0]`, U=`[7,39]`, H=`[[78,80]]`, `Qbars=[]`, and exactly one physical P bar. It therefore remains a nonwinner, but it is a genuine finite actual-material change beyond A's certified local neighborhood and materially restructures the entire physical basin rather than merely improving one root score.
 
@@ -40,7 +40,7 @@ More strongly, using the new plane normal `n=(31,-61,-95)`, exact support arithm
 
 `h_A(n)-h_child(n) > (3/5)*||n||`.
 
-Hence `d_H(A_centered, child_centered) > 3/5`, which is far beyond A's certified `15719/100000` physical-persistence radius. The recovery script checks this by exact squared rational inequality. Thus the construction genuinely crosses the local obstruction described for A. :contentReference[oaicite:1]{index=1}
+Hence `d_H(A_centered, child_centered) > 3/5`, which is far beyond A's certified `15719/100000` physical-persistence radius. The recovery script checks this by exact squared rational inequality. Thus the construction genuinely crosses the local obstruction described for A.
 
 ## Full mechanics and whole-basin evidence
 

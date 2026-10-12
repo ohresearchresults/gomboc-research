@@ -23,7 +23,7 @@ This continuation also constructed and checked genuinely moved smaller physical 
 
 All six have **zero equilibrium degeneracies and zero zero-valued ordinary true-feature primitives** in the executed audits. They are accepted here as exact **nonwinners**, not as strict110 successors.
 
-Parent authority is `figure-0329`, supplied SHA-256 `4be0a02da35fe080f6215990d9a5d1e35189d8da54edc0f0e4d036730142222a`. Its response withheld complete data and observed acceptance; that historical status is not changed retroactively. The recovered H64 bytes match its specified hash exactly. The current journal's strict110 record is **258/687/431/C1374**, not the parent's stale258/693/437; I did not replay that separate record. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+Parent authority is `figure-0329`, supplied SHA-256 `4be0a02da35fe080f6215990d9a5d1e35189d8da54edc0f0e4d036730142222a`. Its response withheld complete data and observed acceptance; that historical status is not changed retroactively. The recovered H64 bytes match its specified hash exactly. The current journal's strict110 record is **258/687/431/C1374**, not the parent's stale258/693/437; I did not replay that separate record.
 
 The recovery capsule in Section9 was decoded into a new empty directory, and its own `RUN_EXACT.py` was executed with `python -S`. The observed terminal output was:
 
@@ -464,10 +464,10 @@ This is exploratory; a small ordinary guard raises rather than declaring a winne
 
 The in-message rows and capsule suffice without files. The supplementary archive retains decoded sources, literal data, newly generated proof reports, observed terminal logs, display meshes and wider exploratory scripts/checkpoints:
 
-[SC43_RUN3_VERIFIED_NONWINNERS.zip](sandbox:/mnt/data/SC43_RUN3_VERIFIED_NONWINNERS.zip)
+SC43_RUN3_VERIFIED_NONWINNERS.zip
 
 Archive size4374192 bytes; SHA-256 `c97ff0c0fe4b67a4a5a93ac19a947b775af83b3cc37e432779d4ec1fdb849c8b`.
 
-[SC43_RUN3_HANDOFF.md](sandbox:/mnt/data/SC43_RUN3_HANDOFF.md)
+SC43_RUN3_HANDOFF.md
 
 **Disposition:** H64's recovery and observed-acceptance gap is closed. H29, H27, H21, H20A and H20B are independently checked exact homogeneous nonwinners with complete definitions here. Two scoped fixed-normal obstructions were proved; H20A's was escaped by an executed, byte-replayable moved-normal construction. Finite all-feature basin repair attacked the remaining S/H pair but did not cancel it. No strict110 body below500 true edges is claimed; the separate journal's258/687/431 strict110 record is unchanged.

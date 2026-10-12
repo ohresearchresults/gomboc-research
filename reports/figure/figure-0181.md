@@ -20,7 +20,7 @@ No homogeneous convex polyhedral Gömböc was obtained. The strongest selected b
 - nonzero certified neighborhoods in both moment-control space and support-depth shape space;
 - an independent GMP/Python/C++ verification and matching watertight OBJ/STL mesh.
 
-The durable predecessor state identified `CU10` as an exact `(2,2,2)` endpoint where deletion of row 6 transferred the source to `[1,2,3]` and left a coupled higher-rank common-fan construction as the next frontier. :contentReference[oaicite:0]{index=0} This continuation is that higher-rank construction, but the transferred Euler-neutral packet still does not collapse to `(1,1,0)`.
+The durable predecessor state identified `CU10` as an exact `(2,2,2)` endpoint where deletion of row 6 transferred the source to `[1,2,3]` and left a coupled higher-rank common-fan construction as the next frontier. This continuation is that higher-rank construction, but the transferred Euler-neutral packet still does not collapse to `(1,1,0)`.
 
 ## 1. Exact finite Minkowski sum
 
@@ -38,15 +38,15 @@ P(x;t)=B_{\mathrm{centered}}+t_1C_1+t_2C_2+t_3C_3+\lambda D(x),
 034,\ 035,\ 045,\ 124,\ 125,\ 134,\ 135,\ 245.
 \]
 
-Every summand is fully expanded in [summands_H.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/summands_H.csv) and [summands_V.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/summands_V.csv). The exact multiplier is in [lambda.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/lambda.csv).
+Every summand is fully expanded in summands_H.csv and summands_V.csv. The exact multiplier is in lambda.csv.
 
-For every common vertex, [common_V_affine.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/common_V_affine.csv) records the literal identity
+For every common vertex, common_V_affine.csv records the literal identity
 
 \[
 v(t)=v_B+\lambda v_D+t_1v_{C1}+t_2v_{C2}+t_3v_{C3},
 \]
 
-including summand lineage. [common_H_affine.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/common_H_affine.csv) contains all maximal face cycles and affine supports; [common_edges.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/common_edges.csv) contains all 85 true edges and their two incident maximal faces.
+including summand lineage. common_H_affine.csv contains all maximal face cycles and affine supports; common_edges.csv contains all 85 true edges and their two incident maximal faces.
 
 ## 2. Exact rank-eight coupled shape family
 
@@ -115,7 +115,7 @@ and the wall coordinates are
 w=\left(\frac{9135}{65536},\frac{2403}{65536},-\frac{37271}{65536},-\frac{4887}{65536}\right).
 \]
 
-All exact row derivatives are in [rank8_shape_directions.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/rank8_shape_directions.csv); the selected exact rows, active triples, coordinates, and protected slacks are in [rank8_family_exact.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/rank8_family_exact.json). Exact Gaussian elimination gives rank 8.
+All exact row derivatives are in rank8_shape_directions.csv; the selected exact rows, active triples, coordinates, and protected slacks are in rank8_family_exact.json. Exact Gaussian elimination gives rank 8.
 
 ## 3. Correct protected nullspace after row 6 removal
 
@@ -144,7 +144,7 @@ There are six independent positive row-rescaling gauges. Therefore the physical 
 
 Equivalently, six oriented planes contribute 18 physical parameters and quotienting three translations gives 15. Fixing the protected point is the translation-gauge choice; its three equations cannot be subtracted a second time.
 
-The explicit 15-dimensional fixed gauge freezes rows 0 and 4, varies all four affine coefficients of rows 1,2,3, and varies the row-5 normal with `δh5=p·δn5`. The present rank-eight family leaves an exact seven-dimensional complement. The literal basis and ranks are in [protected_nullspace.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/protected_nullspace.json), [rank15_completion_basis.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/rank15_completion_basis.csv), and [rank15_completion_basis.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/rank15_completion_basis.json).
+The explicit 15-dimensional fixed gauge freezes rows 0 and 4, varies all four affine coefficients of rows 1,2,3, and varies the row-5 normal with `δh5=p·δn5`. The present rank-eight family leaves an exact seven-dimensional complement. The literal basis and ranks are in protected_nullspace.json, rank15_completion_basis.csv, and rank15_completion_basis.json.
 
 Unlike the preceding selected four-coordinate cell, this endpoint contains `[0,4,5]` as an actual `D` vertex. Its strict slacks against rows 1,2,3 are approximately `8.64123`, `0.823390`, and `0.0128558`.
 
@@ -181,13 +181,13 @@ The cube has 192 coordinate adjacencies. Canonical exact incidence comparison fi
 
 Thus `w9,w13,w100` change the actual common fan across every shared cube wall. The partial `w15,q5,q6` walls reveal the remaining obstruction: 40 adjacencies change shape and mechanical margins without changing canonical common incidence.
 
-Across all 64 cells, the independent exact GMP reconstruction checks 2,640 vertices, 4,880 true edges, 2,368 maximal faces, and 19,520 edge-cone components. The complete transition atlas is [arrangement6_atlas.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/arrangement6_atlas.json); every cell’s exact data are included under `atlas_cells/arrangement6/` in the bundle.
+Across all 64 cells, the independent exact GMP reconstruction checks 2,640 vertices, 4,880 true edges, 2,368 maximal faces, and 19,520 edge-cone components. The complete transition atlas is arrangement6_atlas.json; every cell’s exact data are included under `atlas_cells/arrangement6/` in the bundle.
 
 ## 5. Transverse normal-mode cells
 
 Exact `r7,r8` square atlases at radii `2^-8` and `2^-7` add eight strict cells. Their combined class histogram is five `(2,2,2)` cells and three `(2,3,3)` cells. All eight preserve the actual protected `[0,4,5]` vertex.
 
-These modes alter mechanical margins within one common-fan chamber: their local square edges do not change canonical incidence. The independent GMP reconstruction checks 368 vertices, 680 edges, 328 faces, and 2,720 edge-cone components. See [normal_mode_square_eps_2m8.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/normal_mode_square_eps_2m8.json) and [normal_mode_square_eps_2m7.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/normal_mode_square_eps_2m7.json).
+These modes alter mechanical margins within one common-fan chamber: their local square edges do not change canonical incidence. The independent GMP reconstruction checks 368 vertices, 680 edges, 328 faces, and 2,720 edge-cone components. See normal_mode_square_eps_2m8.json and normal_mode_square_eps_2m7.json.
 
 ## 6. Exact mixed-volume and mixed-first-moment system
 
@@ -202,7 +202,7 @@ M_q(t)=\sum_{i+j+k\le4}m^q_{ijk}t_1^it_2^jt_3^k,
 \qquad q\in\{x,y,z\}.
 \]
 
-There are exactly 20 nonzero volume coefficients and 35 coefficients in each first-moment component. All 125 exact rational coefficients are in [mixed_volume_first_moments.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/mixed_volume_first_moments.csv).
+There are exactly 20 nonzero volume coefficients and 35 coefficients in each first-moment component. All 125 exact rational coefficients are in mixed_volume_first_moments.csv.
 
 The centroid equations
 
@@ -216,7 +216,7 @@ have the exact positive root
 (t_1,t_2,t_3)=(1,1,1).
 \]
 
-The exact Jacobian determinant is nonzero and is recorded in [root_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/root_certificate.json); numerically it is about `601619.8570319937`. A strict Krawczyk certificate isolates the unique root in
+The exact Jacobian determinant is nonzero and is recorded in root_certificate.json; numerically it is about `601619.8570319937`. A strict Krawczyk certificate isolates the unique root in
 
 \[
 \left[1-2^{-20},1+2^{-20}\right]^3
@@ -235,7 +235,7 @@ At the positive root the selected body has
 \qquad 46-85+41=2,
 \]
 
-with complexity `2E=170`. Its exact rational volume is in [exact_nonwinner_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/exact_nonwinner_certificate.json), approximately
+with complexity `2E=170`. Its exact rational volume is in exact_nonwinner_certificate.json, approximately
 
 \[
 8771.240371804517.
@@ -243,7 +243,7 @@ with complexity `2E=170`. Its exact rational volume is in [exact_nonwinner_certi
 
 The minimum nonincident H/V slack is an exact positive rational, approximately `0.007486387705075478`.
 
-The full own-centred lattice is expanded in [final_centered_V.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/final_centered_V.csv) and [final_centered_H.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/final_centered_H.csv). The strict class is `(2,2,2)`:
+The full own-centred lattice is expanded in final_centered_V.csv and final_centered_H.csv. The strict class is `(2,2,2)`:
 
 | type | exact lineage | normalized margin |
 |---|---|---:|
@@ -254,7 +254,7 @@ The full own-centred lattice is expanded in [final_centered_V.csv](sandbox:/mnt/
 | saddle | `P9:26|Dvertex(2;4;5) || P9edge(13;26)|Dedge(2;4)` | `0.027062197318714596` |
 | saddle | `P9edge(15;27)|Dedge(0;5) || P9edge(15;27)|Dedge(3;5)` | `0.028582470219827724` |
 
-Every equilibrium primitive is exact and nonzero. The ledgers contain all face, vertex, and four-component edge-cone tests: [face audit](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/face_audit_exact.csv), [vertex audit](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/vertex_audit_exact.csv), and [edge audit](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/edge_audit_exact.csv).
+Every equilibrium primitive is exact and nonzero. The ledgers contain all face, vertex, and four-component edge-cone tests: face audit (`face_audit_exact.csv`), vertex audit (`vertex_audit_exact.csv`), and edge audit (`edge_audit_exact.csv`).
 
 ## 8. Positive perturbation boxes
 
@@ -280,15 +280,15 @@ With all other shape coordinates fixed,
 
 preserves D topology `(8,12,6)`, common fan `(46,85,41)`, and class `(2,2,2)`. The minimum nonactive D slack stays above `0.010357390550934846`; common inactive slack stays above `0.0074855000987019684`.
 
-The exact/directed certificates are [directed_interval_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/directed_interval_certificate.json), [perturbation_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/perturbation_certificate.json), and [shape_support_box_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/shape_support_box_certificate.json). Independent directed C++ verifiers return `PASS p=20` and `PASS p=24`.
+The exact/directed certificates are directed_interval_certificate.json, perturbation_certificate.json, and shape_support_box_certificate.json. Independent directed C++ verifiers return `PASS p=20` and `PASS p=24`.
 
 ## 9. Independent verification and mesh
 
-[verify_rank8_independent.py](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/verify_rank8_independent.py) does not import the generator or exact core. It independently reconstructs the summands, selected H/V/E lattice, exact volume and first moments, all 125 mixed coefficients through GMP, rank-eight family, exact arrangement aggregates, canonical fan adjacencies, directed boxes, and mesh. Its recorded status is `ALL_CHECKS_PASS` in [independent_verification.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/independent_verification.json).
+verify_rank8_independent.py does not import the generator or exact core. It independently reconstructs the summands, selected H/V/E lattice, exact volume and first moments, all 125 mixed coefficients through GMP, rank-eight family, exact arrangement aggregates, canonical fan adjacencies, directed boxes, and mesh. Its recorded status is `ALL_CHECKS_PASS` in independent_verification.json.
 
-The 64 arrangement cells were freshly recomputed as sixteen standalone GMP batches. [arrangement_gmp_verification.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/arrangement_gmp_verification.json) records `ALL_64_EXACT_CELLS_PASS`; [normal_modes_gmp_verification.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/normal_modes_gmp_verification.json) records `ALL_8_EXACT_CELLS_PASS`. The consolidated transcript is [RUN_ALL_VERIFIERS.log](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/RUN_ALL_VERIFIERS.log).
+The 64 arrangement cells were freshly recomputed as sixteen standalone GMP batches. arrangement_gmp_verification.json records `ALL_64_EXACT_CELLS_PASS`; normal_modes_gmp_verification.json records `ALL_8_EXACT_CELLS_PASS`. The consolidated transcript is RUN_ALL_VERIFIERS.log.
 
-The matching mesh is [OBJ](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/postCU10_rank8_selected_centered.obj) / [STL](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/postCU10_rank8_selected_centered.stl): 46 vertices, 88 oriented triangles, 132 mesh edges, every edge incident to two triangles, Euler characteristic 2, and exact outward orientation.
+The matching mesh is OBJ (`postCU10_rank8_selected_centered.obj`) / STL (`postCU10_rank8_selected_centered.stl`): 46 vertices, 88 oriented triangles, 132 mesh edges, every edge incident to two triangles, Euler characteristic 2, and exact outward orientation.
 
 ## 10. Exact obstruction and next genuinely higher-rank deformation
 
@@ -302,7 +302,7 @@ This is not a global impossibility theorem for the full post-row-6 shape space. 
 
 gives exact combined rank 15 and spans the entire protected fixed gauge.
 
-A numerical first-order calculation—explicitly not an exact winner certificate—finds rank 4 for the four residual defect margins on this seven-dimensional complement and a bounded complement direction decreasing all four at first order, with maximum derivative approximately `-0.0004368191161237612`. See [rank15_completion_sensitivity.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/rank15_completion_sensitivity.json).
+A numerical first-order calculation—explicitly not an exact winner certificate—finds rank 4 for the four residual defect margins on this seven-dimensional complement and a bounded complement direction decreasing all four at first order, with maximum derivative approximately `-0.0004368191161237612`. See rank15_completion_sensitivity.json.
 
 The next nonrepeating continuation is therefore a rank-12 or full rank-15 common-fan arrangement: retain the exact rank-eight endpoint and the three dependent full-rank moment controls; add at least four independent complement modes; locate the first simultaneous finite crossing of the extra stable face, transferred source vertex, `13/26` saddle, and `15/27` return saddle; rebuild actual incidence and all mixed coefficients after each transition; preserve the protected stable `P9:27|D[0,4,5]` and unstable `P9[15,26,27]|D[0,4,5]` features strictly.
 
@@ -310,10 +310,10 @@ The linearized descent does not prove that a finite wall crossing reaches a winn
 
 ## Complete artifact
 
-- [Full exact rank-eight NONWINNER bundle](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER.zip)
-- [Bundle SHA-256](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER.zip.sha256)
-- [Standalone full handoff](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/RESULT.md)
-- [Artifact index](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/ARTIFACT_INDEX.json)
-- [Manifest](sandbox:/mnt/data/Clear_Raven_08_postCU10_rank8_exact_NONWINNER/MANIFEST.sha256)
+- Full exact rank-eight NONWINNER bundle (`Clear_Raven_08_postCU10_rank8_exact_NONWINNER.zip`)
+- Bundle SHA-256 (`Clear_Raven_08_postCU10_rank8_exact_NONWINNER.zip.sha256`)
+- Standalone full handoff (`RESULT.md`)
+- Artifact index (`ARTIFACT_INDEX.json`)
+- Manifest (`MANIFEST.sha256`)
 
 ZIP SHA-256: `de2eecc17f6bd99451df722593bd5360110b10da7c759ac175c15f751e10dede`.

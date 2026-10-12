@@ -10,9 +10,9 @@ AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md
 
 **Two new continuous shape classes are excluded by U_strict >= 2 for every SPD3 metric at the actual uniform volume centroid.** The first has four independently variable corner cuts and an arbitrary positive apex separation. It consequently includes an entire positive vertical-denominator projective pencil for each base. The second is a four-parameter, horizontally projectively deformed class in which one apex is below the true centroid throughout the entire shape domain. Neither theorem assumes S=1, H=0, absence of weak contacts, an external unstable root, a selected full star, or a condition-number bound.
 
-These are actual balanced two-apex bodies with (V,E,F)=(10,17,9), not arbitrary realizations of that incidence type. They are not the three literal pencils closed by parent minimum-0116, declared SHA-256 2cef2760b08850b346dc9334ba45a1de8c0ba6445d2de2d48526a19c9ac7b1d8. That parent fixes three particular bases and an x-denominator pencil; its explicit remaining complement includes other bases and denominator directions. Projective-orbit separation is proved below. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+These are actual balanced two-apex bodies with (V,E,F)=(10,17,9), not arbitrary realizations of that incidence type. They are not the three literal pencils closed by parent minimum-0116, declared SHA-256 2cef2760b08850b346dc9334ba45a1de8c0ba6445d2de2d48526a19c9ac7b1d8. That parent fixes three particular bases and an x-denominator pencil; its explicit remaining complement includes other bases and denominator directions. Projective-orbit separation is proved below.
 
-The accepted global interval remains **34 <= C_min <= 622**. There is no new 110 attainer, whole-E17 exclusion, whole balanced-incidence exclusion, or incidence-registry delta. All certificate counts below are local proof-space counts. :contentReference[oaicite:2]{index=2}
+The accepted global interval remains **34 <= C_min <= 622**. There is no new 110 attainer, whole-E17 exclusion, whole balanced-incidence exclusion, or incidence-registry delta. All certificate counts below are local proof-space counts.
 
 ## 2. The five-parameter genuine geometry
 
@@ -311,7 +311,7 @@ At s=w=n=e=1/2 all eight new base vertices lie on x^2+y^2=5/4. For the first six
 -48503/781250000 != 0.
 ```
 
-Thus even those six old points lie on no conic. Conic containment is preserved by an invertible projective plane map, and the unique octagonal maximal facet must map to the unique octagonal maximal facet. Hence this new symmetric specimen, its vertical projective pencil and its secondary horizontal projective image are outside the full projective orbit of the old balanced base, not just outside its closed pencil. The other parent types have degree pairs (3,7),(4,6), not (5,5). Both the determinant and the new conic identity are exactly checked. Literal parent coordinates, rather than incidence aliases, are used. :contentReference[oaicite:3]{index=3}
+Thus even those six old points lie on no conic. Conic containment is preserved by an invertible projective plane map, and the unique octagonal maximal facet must map to the unique octagonal maximal facet. Hence this new symmetric specimen, its vertical projective pencil and its secondary horizontal projective image are outside the full projective orbit of the old balanced base, not just outside its closed pencil. The other parent types have degree pairs (3,7),(4,6), not (5,5). Both the determinant and the new conic identity are exactly checked. Literal parent coordinates, rather than incidence aliases, are used.
 
 The remaining complement includes unequal/non-45-degree corner cuts, other boundary shapes, cuts beyond the certified box, general horizontal projective parameters, multi-direction denominators, and other incidence types outside their known literal orbits. No arbitrary balanced-octagon realization theorem is claimed.
 
@@ -321,7 +321,7 @@ The initial direction examined root-consistent central planes. A pointwise limit
 
 A sufficient all-plane-blindness construction was explored numerically: place each nonglobal U vertex in the positive cone of points connected to the global maximum by true-edge paths strictly outside the ball at its radius. A separating central plane would then meet one such path above that radius. No certified all-plane counterconstruction resulted. The complete optional locator and literal floating checkpoint are included as exploratory_visibility.py and numerical_visibility_checkpoint.json. The locator input is seed 94821 and 20000 iterations. Its retained checkpoint, iteration 3403, has four numerical U vertices and global root 5; only vertices 4 and 9 of the three other numerical U vertices pass the locator's masking test. It is NONPROOF floating data, not a rationally verified body, all-plane obstruction or 110 construction. Neither theorem uses it.
 
-The successful change of direction was independent actual base parameters and a full unbounded apex-separation parameter, with the real filled centroid and an affine endpoint normalization. The secondary four-shape projective sector retains a below-COM apex over a whole domain; it does not revive the parent's withdrawn alpha=1/2 claim. The parent retains its distinct corrected below-COM sector and full-lens sparsity theorem. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+The successful change of direction was independent actual base parameters and a full unbounded apex-separation parameter, with the real filled centroid and an affine endpoint normalization. The secondary four-shape projective sector retains a below-COM apex over a whole domain; it does not revive the parent's withdrawn alpha=1/2 claim. The parent retains its distinct corrected below-COM sector and full-lens sparsity theorem.
 
 The most useful continuation is a whole independent-slope corner-cut class, or a continuous horizontal denominator parameter coupled to the four actual cuts, retaining the actual fan centroid and one reciprocal metric. More metric searches on the two classes proved here are exhausted. The pointwise maximum observation may also help formulate a uniform plane-selection theorem over genuinely varying shapes; it is not itself a global exclusion.
 
@@ -376,7 +376,7 @@ Exact pins:
 | projective_exact_report.json | 453 | 8eac2451c9259024df084f70d196b08a23444cb02b94402d30e40a785c27d873 |
 | actual_controls.json | 47835 | 5f5bdcfb5c2fca47332759765949aee64697f00809357dc56463609533c80976 |
 
-Individual source pins are embedded and checked before execution. Supplementary copies: [recovery wrapper](sandbox:/mnt/data/recover_fourcuts.py), [complete exact controls](sandbox:/mnt/data/fourcuts_sources/actual_controls.json). Neither link is required by the literal recovery.
+Individual source pins are embedded and checked before execution. Supplementary copies: recovery wrapper (`recover_fourcuts.py`), complete exact controls (`actual_controls.json`). Neither link is required by the literal recovery.
 
 ### Complete self-contained source
 

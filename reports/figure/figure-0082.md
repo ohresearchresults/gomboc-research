@@ -8,9 +8,9 @@ AI research report · 2026-08-26 UTC
 
 ## Determination
 
-**No strict homogeneous convex polyhedral Gömböc was obtained.** I retained the run’s non-negotiable gate: the uniform-volume centroid of the body itself, one stable maximal face, one unstable vertex, no saddle true edge, complete incidence/cone reconstruction, positive raw separation, and a finite expanded mesh. :contentReference[oaicite:0]{index=0}
+**No strict homogeneous convex polyhedral Gömböc was obtained.** I retained the run’s non-negotiable gate: the uniform-volume centroid of the body itself, one stable maximal face, one unstable vertex, no saddle true edge, complete incidence/cone reconstruction, positive raw separation, and a finite expanded mesh.
 
-The supplied journal ended with the exact 20-vertex `(2,1,1)` prismatoid and a rejected four-circuit 22-vertex wall, and explicitly isolated a 24–26-input bifurcated Y-strip as the smallest untried continuation. :contentReference[oaicite:1]{index=1} This continuation actually crosses that frontier. The strongest result is an exact 25-input Y-strip hull with one obsolete row deactivated, `(V,E,F,C)=(24,52,30,104)`, and a wide strict own-centroid class `(S,U,H)=(2,1,1)`. It eliminates the old unwanted witnesses but transfers their Morse pair to a new stable triangle and a new lower-fork edge. It is a robust nonwinner, not a wall point.
+The supplied journal ended with the exact 20-vertex `(2,1,1)` prismatoid and a rejected four-circuit 22-vertex wall, and explicitly isolated a 24–26-input bifurcated Y-strip as the smallest untried continuation. This continuation actually crosses that frontier. The strongest result is an exact 25-input Y-strip hull with one obsolete row deactivated, `(V,E,F,C)=(24,52,30,104)`, and a wide strict own-centroid class `(S,U,H)=(2,1,1)`. It eliminates the old unwanted witnesses but transfers their Morse pair to a new stable triangle and a new lower-fork edge. It is a robust nonwinner, not a wall point.
 
 Relative to the journal, the material advances are:
 
@@ -243,10 +243,10 @@ This is sharply delimited: a single arbitrary apex, one-face closure, determinan
 
 ## Reproducible artifacts
 
-- [Complete archive](sandbox:/mnt/data/skew_prismatoid_y_strip_result.zip), SHA-256 `034a76427b742740ea23d4ebfef683fa9aa8a087c1e7d9515223126795c0de49`.
-- [README](sandbox:/mnt/data/skew_prismatoid_y_strip_result/README.md), SHA-256 `6194491773d9ac980abe1d90e74b4365888fe83e2c5bd9b090b19094b9698541`.
-- [Exact Fraction/interval verifier](sandbox:/mnt/data/skew_prismatoid_y_strip_result/verify_fraction.py), SHA-256 `d7cd4cf1a1001f8e66b44abf8f237fec8ae8460719947803270f0b34e956fc72`.
-- [Complete exact audit](sandbox:/mnt/data/skew_prismatoid_y_strip_result/verification.json), SHA-256 `788e1fce4f9b5ef348eee82982984ce103e6884d6772eeb2d7515290e9d941f3`.
-- [Independent all-triples/SciPy verifier](sandbox:/mnt/data/skew_prismatoid_y_strip_result/independent_scipy.py), SHA-256 `85e478e956ba918f30c009ad68a9e75973d9fc13395e34b18d504f5527ac1461`.
-- [OBJ](sandbox:/mnt/data/skew_prismatoid_y_strip_result/body.obj), SHA-256 `3a1a2ac8fd17533c7a05d9dd7e2083c26df2c0924791630d2521e04d28fabd21`; [binary STL](sandbox:/mnt/data/skew_prismatoid_y_strip_result/body.stl), SHA-256 `8ddebeb332edd7e419a469afadefc713f2de1dca6dfe5123edda5196a87dff1f`.
+- Complete archive (`skew_prismatoid_y_strip_result.zip`), SHA-256 `034a76427b742740ea23d4ebfef683fa9aa8a087c1e7d9515223126795c0de49`.
+- README (`README.md`), SHA-256 `6194491773d9ac980abe1d90e74b4365888fe83e2c5bd9b090b19094b9698541`.
+- Exact Fraction/interval verifier (`verify_fraction.py`), SHA-256 `d7cd4cf1a1001f8e66b44abf8f237fec8ae8460719947803270f0b34e956fc72`.
+- Complete exact audit (`verification.json`), SHA-256 `788e1fce4f9b5ef348eee82982984ce103e6884d6772eeb2d7515290e9d941f3`.
+- Independent all-triples/SciPy verifier (`independent_scipy.py`), SHA-256 `85e478e956ba918f30c009ad68a9e75973d9fc13395e34b18d504f5527ac1461`.
+- OBJ (`body.obj`), SHA-256 `3a1a2ac8fd17533c7a05d9dd7e2083c26df2c0924791630d2521e04d28fabd21`; binary STL (`body.stl`), SHA-256 `8ddebeb332edd7e419a469afadefc713f2de1dca6dfe5123edda5196a87dff1f`.
 - `RUN_ALL.sh` reruns the exact audit, two independent reconstructions, mesh checks, and the standalone Farkas certificate verifier.

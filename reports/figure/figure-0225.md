@@ -8,21 +8,21 @@ AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md
 
 ## Literal disposition
 
-**EXACT MATERIALIZED NONWINNER.** No finite homogeneous convex polyhedral Gömböc was obtained. The acceptance gate requires uniform volume density, evaluation at the body’s own exact ordinary-volume centroid, strict `(S,U,H)=(1,1,0)`, complete irredundant V/H incidence, every maximal face and true edge, exhaustive positive-margin face/vertex/full-edge-cone mechanics, independent verification, and matching meshes; auxiliary-centre and wall-point objects do not qualify. :contentReference[oaicite:0]{index=0}
+**EXACT MATERIALIZED NONWINNER.** No finite homogeneous convex polyhedral Gömböc was obtained. The acceptance gate requires uniform volume density, evaluation at the body’s own exact ordinary-volume centroid, strict `(S,U,H)=(1,1,0)`, complete irredundant V/H incidence, every maximal face and true edge, exhaustive positive-margin face/vertex/full-edge-cone mechanics, independent verification, and matching meshes; auxiliary-centre and wall-point objects do not qualify.
 
-The durable frontier was the exact adjacent `E19Z` incidence cell with true edge `(F,8)`, absent edge `(X,Y)`, and faces `[F,X,8]`, `[F,8,Y]`; the journal explicitly prescribed full-dimensional search followed, if necessary, by a two-support nonserial shared-volume replacement. :contentReference[oaicite:1]{index=1} This result performs both operations. It does **not** claim a CAD or global exclusion of every continuous realization of the `E19Z` graph.
+The durable frontier was the exact adjacent `E19Z` incidence cell with true edge `(F,8)`, absent edge `(X,Y)`, and faces `[F,X,8]`, `[F,8,Y]`; the journal explicitly prescribed full-dimensional search followed, if necessary, by a two-support nonserial shared-volume replacement. This result performs both operations. It does **not** claim a CAD or global exclusion of every continuous realization of the `E19Z` graph.
 
 ## Immutable artifacts
 
-- [Portable exact archive](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_nonwinner.zip), SHA-256 `b1ba0a0e6965f354f8e124f4977d51d079b547e0e9727a31499dac352f1bb55e`; [hash file](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_nonwinner.zip.sha256).
-- [Complete 605-line determination](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/RESULT.md), [README](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/README.md), [one-command verifier](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/[internal-source-reference].sh), [verification record](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/VERIFICATION_RECORD.json), and [107-entry manifest](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/SHA256SUMS).
-- Main endpoint: [exact report](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_exact_report.json), [H rows](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_H_representation.json), [exhaustive audit](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_audit.md), [perturbation certificate](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_perturbation_certificate.json), [independent report](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_independent_verification.json), [OBJ](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_centered.obj), and [STL](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_centered.stl).
+- Portable exact archive (`vivid_quartz_58_e19z_shared_nonwinner.zip`), SHA-256 `b1ba0a0e6965f354f8e124f4977d51d079b547e0e9727a31499dac352f1bb55e`; hash file (`vivid_quartz_58_e19z_shared_nonwinner.zip.sha256`).
+- Complete 605-line determination (`RESULT.md`), README (`README.md`), one-command verifier (`[internal-source-reference].sh`), verification record (`VERIFICATION_RECORD.json`), and 107-entry manifest (`SHA256SUMS`).
+- Main endpoint: exact report (`E21S_exact_report.json`), H rows (`E21S_H_representation.json`), exhaustive audit (`E21S_audit.md`), perturbation certificate (`E21S_perturbation_certificate.json`), independent report (`E21S_independent_verification.json`), OBJ (`E21S_centered.obj`), and STL (`E21S_centered.stl`).
 
 A clean default replay ends with `ALL VIVID QUARTZ 58 E19Z/SHARED-CELL VERIFIERS PASS`. Setting `VQ58_FULL_REGENERATE=1` additionally regenerates the complete symbolic/interval atlases; all individual generators were executed successfully in this run.
 
 ## 1. What was tried and what changed
 
-The search moved every old and new vertex coordinate modulo translation/scale, always rebuilt the actual Qhull incidence, reintegrated the uniform-volume centroid, and scored every maximal face, actual vertex neighbour, and all four components of every true-edge cone. It covered fixed-incidence all-coordinate continuation, determinant-one projective/metric orbits, branch-assigned JAX searches, actual vertex-deactivation walls, a 200-transform mechanical-centre MILP screen, and explicit 21-vertex shared-cell searches. No strict target occurred. Best low-count checkpoints included `(3,3,4)`, `(2,3,3)`, `(4,2,4)`, and `(2,2,2)`; near improvements remained negative or approached support walls. These are empirical discovery receipts only. [Search ledger](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/search_ledger.json).
+The search moved every old and new vertex coordinate modulo translation/scale, always rebuilt the actual Qhull incidence, reintegrated the uniform-volume centroid, and scored every maximal face, actual vertex neighbour, and all four components of every true-edge cone. It covered fixed-incidence all-coordinate continuation, determinant-one projective/metric orbits, branch-assigned JAX searches, actual vertex-deactivation walls, a 200-transform mechanical-centre MILP screen, and explicit 21-vertex shared-cell searches. No strict target occurred. Best low-count checkpoints included `(3,3,4)`, `(2,3,3)`, `(4,2,4)`, and `(2,2,2)`; near improvements remained negative or approached support walls. These are empirical discovery receipts only. Search ledger (`search_ledger.json`).
 
 The strongest exact target-preserving source `E19ZC` has `(V,E,F)=(19, 51, 34)`, strict class `(2, 2, 2)`, stable faces `[['8', 'A', 'B'], ['8', 'Y', 'W']]`, unstable vertices `['8', 'F']`, and saddles `[['2', 'A'], ['B', 'X']]`. It retains `(F,8)`, omits `(X,Y)`, and contains `[F,X,8]`, `[F,8,Y]`. Its exact volume is
 
@@ -46,13 +46,13 @@ with exact first moments
 -1019143550504431613352542527522753497544822872804329/2298743311298833287537520540725463775428108683275403264
 ```
 
-satisfying `M_j=V C_j`; centred moments are zero. Its minimum absolute normalized mechanics margin is `0.0001076985852850003` and normalized nonincidence is `0.00018361456235792828`. All 57 coordinates have a class-preserving box `2^-23`. [Complete source package](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/source_E19ZC/E19ZC_exact_report.json).
+satisfying `M_j=V C_j`; centred moments are zero. Its minimum absolute normalized mechanics margin is `0.0001076985852850003` and normalized nonincidence is `0.00018361456235792828`. All 57 coordinates have a class-preserving box `2^-23`. Complete source package (`E19ZC_exact_report.json`).
 
 ## 2. Exact wall sequence and nonserial shared-volume cell
 
 ### Stage 1 — simultaneous support insertion
 
-At exact parameter `t=0`, new points `U,V` are the barycentres of `[F,X,8]` and `[F,8,Y]`. For every `0<t<=1`, both are extreme while `(F,8)` remains true and `(U,V)`, `(X,Y)` remain absent. The exact insertion atlas expands all `5,985` ambient circuits, `684` active support predicates, and `456` own-centroid mechanics primitives. It has one mechanically irrelevant ambient circuit root, no support root, no mechanics root, constant class `(2,2,2)`, and zero winner cells. [Insertion atlas](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/event/E19ZC_to_E21_pre_exact_insertion_atlas.json).
+At exact parameter `t=0`, new points `U,V` are the barycentres of `[F,X,8]` and `[F,8,Y]`. For every `0<t<=1`, both are extreme while `(F,8)` remains true and `(U,V)`, `(X,Y)` remain absent. The exact insertion atlas expands all `5,985` ambient circuits, `684` active support predicates, and `456` own-centroid mechanics primitives. It has one mechanically irrelevant ambient circuit root, no support root, no mechanics root, constant class `(2,2,2)`, and zero winner cells. Insertion atlas (`E19ZC_to_E21_pre_exact_insertion_atlas.json`).
 
 ### Stage 2 — actual `2↔3/3↔2` circuit
 
@@ -64,7 +64,7 @@ t* = 79251460511394851134421777092008788/83214033531420052841717693218263371
 circuit = {F,8,U,V}.
 ```
 
-The pre-cell has true edge `(F,8)`; the post-cell has true edge `(U,V)`. The wall has `(V,E,F)=(21,56,37)` and one maximal quadrilateral `[8,F,U,V]`. Both strict sides have `(21,57,38)`, class `(2,2,2)`, no mechanics root, and no winner. Edge `(X,Y)` remains absent. A clean-room verifier reconstructs `2,001` samples. [Combined sequence](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E19Z_to_E21S_wall_sequence.json), [full event atlas](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/event/E19Z_to_E21S_exact_event_atlas.json), [independent replay](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/event/E19Z_to_E21S_event_independent_verification.json).
+The pre-cell has true edge `(F,8)`; the post-cell has true edge `(U,V)`. The wall has `(V,E,F)=(21,56,37)` and one maximal quadrilateral `[8,F,U,V]`. Both strict sides have `(21,57,38)`, class `(2,2,2)`, no mechanics root, and no winner. Edge `(X,Y)` remains absent. A clean-room verifier reconstructs `2,001` samples. Combined sequence (`E19Z_to_E21S_wall_sequence.json`), full event atlas (`E19Z_to_E21S_exact_event_atlas.json`), independent replay (`E19Z_to_E21S_event_independent_verification.json`).
 
 The literal disk replacement is
 
@@ -83,7 +83,7 @@ It changes disk f-vector `(4,5,2)->(6,11,6)` and global f-vector `(19,51,34)->(2
 856671683203235607797941980924080477/16333553612205046246241981156724874149888 > 0.
 ```
 
-Thus this is a finite-thickness nonserial shared-volume cell, not another stacked apex. [Patch certificate](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E19ZC_to_E21S_patch_complex.json), [volume certificate](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_shared_volume_cell_certificate.json).
+Thus this is a finite-thickness nonserial shared-volume cell, not another stacked apex. Patch certificate (`E19ZC_to_E21S_patch_complex.json`), volume certificate (`E21S_shared_volume_cell_certificate.json`).
 
 ## 3. Exact endpoint `E21S`
 
@@ -241,7 +241,7 @@ V=V6/(6D^3), M_j=N_j/(24D^4), C_j=N_j/(4DV6),
 G_j=M_j-VC_j, dG/dC=-V I_3, det(dG/dC)=-V^3<0,
 ```
 
-the three ordinary-moment equations have a unique exact dependent centroid throughout the box. The entire physical family lies inside the `2^-23` endpoint neighbourhood and remains `(2,2,2)`; a clean-room `5×5×5` grid confirms all 125 samples. [Exact family](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_three_control_family.json), [independent family report](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_three_control_independent_verification.json).
+the three ordinary-moment equations have a unique exact dependent centroid throughout the box. The entire physical family lies inside the `2^-23` endpoint neighbourhood and remains `(2,2,2)`; a clean-room `5×5×5` grid confirms all 125 samples. Exact family (`E21S_three_control_family.json`), independent family report (`E21S_three_control_independent_verification.json`).
 
 ## 6. Rigorous surviving carrier theorem
 
@@ -263,7 +263,7 @@ All `15` directed components at protected vertex `8` are independently positive.
 ||p_j-C||^2-||p_i-C||^2 >= ||p_j-p_i||^2 > 0.
 ```
 
-If neither `F` nor `M` were unstable, positive external arrows would force each to choose the other as a nonpositive arrow, an impossible two-cycle of strict radial increase. Thus one of `F,M` is unstable throughout the complete certified chamber, including mechanics walls; vertex `8` is independently unstable. Therefore **`U>=2` throughout the E21S chamber**. [Exact theorem](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/E21S_component_certificate.json), [independent Fraction-interval replay](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/verify_E21S_component_independent.py).
+If neither `F` nor `M` were unstable, positive external arrows would force each to choose the other as a nonpositive arrow, an impossible two-cycle of strict radial increase. Thus one of `F,M` is unstable throughout the complete certified chamber, including mechanics walls; vertex `8` is independently unstable. Therefore **`U>=2` throughout the E21S chamber**. Exact theorem (`E21S_component_certificate.json`), independent Fraction-interval replay (`verify_E21S_component_independent.py`).
 
 ## 7. First compact successor beyond that theorem
 
@@ -284,7 +284,7 @@ normalized nonincidence=7.781321258298094e-05
 perturbation box=2^-23
 ```
 
-It is also a nonwinner: true edge `(A,B)` and positive external arrows force one of `A,B` unstable throughout its certified chamber while `8` is independently unstable. [Patch](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/next_E17K/E21S_to_E17K_patch_complex.json), [exact report](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/next_E17K/E17K_exact_report.json), [audit](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/next_E17K/E17K_audit.md), [component theorem](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/next_E17K/E17K_component_certificate.json), [independent report](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/next_E17K/E17K_independent_verification.json), [OBJ](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/next_E17K/E17K_centered.obj), [STL](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/next_E17K/E17K_centered.stl).
+It is also a nonwinner: true edge `(A,B)` and positive external arrows force one of `A,B` unstable throughout its certified chamber while `8` is independently unstable. Patch (`E21S_to_E17K_patch_complex.json`), exact report (`E17K_exact_report.json`), audit (`E17K_audit.md`), component theorem (`E17K_component_certificate.json`), independent report (`E17K_independent_verification.json`), OBJ (`E17K_centered.obj`), STL (`E17K_centered.stl`).
 
 ## 8. Scope, uncertainty, and continuation
 
@@ -292,7 +292,7 @@ It is also a nonwinner: true edge `(A,B)` and positive external arrows force one
 
 **Not proved:** no global quantifier-elimination exclusion of all `E19Z` realizations; the finite search receipts are empirical. The `E21S->E17K` patch compares exact endpoint spheres and does not assert a coordinate homotopy between their unrelated coordinates. No global minimum-vertex theorem is claimed.
 
-The first genuinely nonrepeating cell must break the `{A,B}` forcing carrier without destroying intended stable `[8,A,B]`: give `A` or `B` a strictly nonpositive external arrow, or pass through a nonsimplicial event that replaces the intended stable carrier while jointly removing stable `[Z0,A,B]` and saddles `(8,A),(8,B),(A,B)` before replacement births. Another serial subdivision that leaves all external `A/B` arrows positive is rigorously redundant. [Next-open-topology statement](sandbox:/mnt/data/vivid_quartz_58_e19z_shared_result/next_open_topology.json).
+The first genuinely nonrepeating cell must break the `{A,B}` forcing carrier without destroying intended stable `[8,A,B]`: give `A` or `B` a strictly nonpositive external arrow, or pass through a nonsimplicial event that replaces the intended stable carrier while jointly removing stable `[Z0,A,B]` and saddles `(8,A),(8,B),(A,B)` before replacement births. Another serial subdivision that leaves all external `A/B` arrows positive is rigorously redundant. Next-open-topology statement (`next_open_topology.json`).
 
 ## Reusable conclusion
 

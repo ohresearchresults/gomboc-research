@@ -20,7 +20,7 @@ The full D_B problem is not solved here. No actual U1 body or strict110weak000 a
 
 The complete supplied journal, including its immutable parent payload and all eight decoded source/data units, was read through EOF. The upload is 330457 UTF-8 bytes, 1977 lines, SHA-256 d8061360661cbff3cf1c83051b43f8811cd9acbf182e7cbf6ad9cb0a63ef9381. No external research archive or research connector was used.
 
-The required parent is minimum-0107, advertised SHA-256 37b21117ba32f0a13744c8144bca7aaf5d013efc95413c0c9bdbc95894ff674e. Its full-pencil theorem is retained as a working premise, not reinterpreted as a full-orbit theorem. The supplied literal statement explicitly uses the newly refilled volume centroid and every SPD metric. :contentReference[oaicite:0]{index=0}
+The required parent is minimum-0107, advertised SHA-256 37b21117ba32f0a13744c8144bca7aaf5d013efc95413c0c9bdbc95894ff674e. Its full-pencil theorem is retained as a working premise, not reinterpreted as a full-orbit theorem. The supplied literal statement explicitly uses the newly refilled volume centroid and every SPD metric.
 
 There is a serialization discrepancy to preserve: the literal UTF-8 substring from the parent heading through attachment EOF is 73330 bytes, SHA-256 559e159bdc8eabd0ec842f585adeae0f34d4ce5d8067701ac69f305519a3785e, whereas the journal advertises 74128 bytes and the parent SHA above. I did not recover that advertised envelope by changing line endings. This is not a discovered mathematical incidence conflict. All eight decoded parent units matched their individually declared sizes and hashes; in particular pencil_core.py is 11191 bytes, SHA-256 d272ec9d2ad68879431e0bde4aebbb4be164e542ca95fe546af24007afebb64e. The construction here uses the literal coordinates and supports, independently checks their hull, and needs no inaccessible parent checkpoint.
 
@@ -185,7 +185,7 @@ Volume(T_p(B)) = A(p)/(768 L(p)),
 g(p) = (1/4)[sum_i Xi/(1+p·Xi) - grad A(p)/A(p)].
 ```
 
-This is an explicit realization of the inherited true-refilled mass-potential formula, not transport of the old centroid. The journal's general centroid-map statement is retained only in that actual-mass sense. :contentReference[oaicite:1]{index=1}
+This is an explicit realization of the inherited true-refilled mass-potential formula, not transport of the old centroid. The journal's general centroid-map statement is retained only in that actual-mass sense.
 
 All 84 exact coefficients are reconstructed without a symbolic algebra dependency. Put U_i=4Xi and h_i=4 tau+U_i·p. For the sixteen outward origin-fan triangles, form
 
@@ -392,11 +392,11 @@ Relative to this result and the inherited full pencil, the remaining projective 
 D_B minus [C9 union {(0,h,0): -1/2<h<1}].
 ```
 
-No assertion is made that every point of this written complement escapes every previously known affine-family theorem; I did not classify all such overlaps. The existing four-shape theorem and eleven-dimensional realization frontier remain as stated in the supplied memory. :contentReference[oaicite:2]{index=2}
+No assertion is made that every point of this written complement escapes every previously known affine-family theorem; I did not classify all such overlaps. The existing four-shape theorem and eleven-dimensional realization frontier remain as stated in the supplied memory.
 
 Exploration of broader facet-star coverage did not produce a completed all-D_B certificate or a U1 construction. The `build all 3/4` continuation mode is not an accepted theorem; it may stop with an unresolved shape/tree cell. Such a failure is not an exclusion proof or evidence of U1. The most useful next direction is to combine the exact full-D_B adjoint with the fixed-simplex orthant charts, which keep the actual bodies full-dimensional at shape infinity, then handle the common-metric weak-tree obligations and their rank-degenerate metric limits. Merely bounding metric condition numbers would miss the remaining problem.
 
-Supplemental artifacts: [frozen source-and-literal-proof capsule](sandbox:/mnt/data/bevel3_handoff/recover_bevel3.py) and [verified complete bundle](sandbox:/mnt/data/bevel3_handoff.zip).
+Supplemental artifacts: frozen source-and-literal-proof capsule (`recover_bevel3.py`) and verified complete bundle (`bevel3_handoff.zip`).
 
 ## Complete runnable source unit 1: bevel3_recovery.py
 

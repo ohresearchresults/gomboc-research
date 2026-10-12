@@ -8,9 +8,9 @@ AI research report · 2026-08-26 UTC
 
 ## Determination
 
-**No strict homogeneous polyhedral Gömböc was found.** I kept the journal’s acceptance gate: the body’s own exact uniform-volume centroid, actual maximal faces and true edges, exhaustive full-cone equilibrium classification, strict raw incidence, and a finite expanded object. :contentReference[oaicite:0]{index=0}
+**No strict homogeneous polyhedral Gömböc was found.** I kept the journal’s acceptance gate: the body’s own exact uniform-volume centroid, actual maximal faces and true edges, exhaustive full-cone equilibrium classification, strict raw incidence, and a finite expanded object.
 
-The journal had proposed this family but recorded that the previous skew-prismatoid launches failed before doing mathematical work. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} This continuation actually searched it and produced an exact, independently reconstructible fallback plus a sharply localized rejected cancellation wall.
+The journal had proposed this family but recorded that the previous skew-prismatoid launches failed before doing mathematical work. This continuation actually searched it and produced an exact, independently reconstructible fallback plus a sharply localized rejected cancellation wall.
 
 The strongest **open, exact, fully materialized own-centroid** body is a nonhomothetic two-cap skew prismatoid with `(V,E,F,C)=(20,40,22,80)` and strict class `(S,U,H)=(2,1,1)`. It is not a Gömböc. Its sole unwanted block is one stable face paired with one saddle edge.
 
@@ -169,9 +169,9 @@ Enumerate a **24–26 input-vertex bifurcated Y-strip**: retain the 17 upper and
 
 ## Artifacts and independent checks
 
-- [Complete archive](sandbox:/mnt/data/skew_prismatoid_result.zip), SHA-256 `48b01fe872e3e2fd93eab10ad000d847de7893dae370378bf521d6c09c8bfd85`.
-- [Exact standalone Fraction/interval verifier](sandbox:/mnt/data/skew_prismatoid_result/verify_fraction.py), SHA-256 `61d1059d0389bd74c958e291303e8e492a9ed5c3cf3bb11a3bcb8bd8e905db79`.
-- [Complete predicate transcript](sandbox:/mnt/data/skew_prismatoid_result/verification.json), SHA-256 `52af822adeaab9cb37144aba1a69584846da16077f45b6fe9b0fd3f687b3cd1a`.
-- [OBJ](sandbox:/mnt/data/skew_prismatoid_result/body.obj), SHA-256 `2c78b4171c96221da7724d08364724ab101129d31ac77d742d0cc689741f5671`; [STL](sandbox:/mnt/data/skew_prismatoid_result/body.stl), SHA-256 `498976819982bc8e3c64e14dc64c993cd8a6ccb576ca13ddb514a49ff8cd7fe1`.
+- Complete archive (`skew_prismatoid_result.zip`), SHA-256 `48b01fe872e3e2fd93eab10ad000d847de7893dae370378bf521d6c09c8bfd85`.
+- Exact standalone Fraction/interval verifier (`verify_fraction.py`), SHA-256 `61d1059d0389bd74c958e291303e8e492a9ed5c3cf3bb11a3bcb8bd8e905db79`.
+- Complete predicate transcript (`verification.json`), SHA-256 `52af822adeaab9cb37144aba1a69584846da16077f45b6fe9b0fd3f687b3cd1a`.
+- OBJ (`body.obj`), SHA-256 `2c78b4171c96221da7724d08364724ab101129d31ac77d742d0cc689741f5671`; STL (`body.stl`), SHA-256 `498976819982bc8e3c64e14dc64c993cd8a6ccb576ca13ddb514a49ff8cd7fe1`.
 
 `python verify_fraction.py` reparses the coordinates as exact rationals, reconstructs incidence, recomputes exact volume/first moments, audits every face/vertex/edge, and runs the interval box. Independent Trimesh loading of both OBJ and STL yields 20 welded vertices, 36 triangles, watertightness, consistent winding, Euler 2, volume `0.21404409981620395`, and matching center of mass.

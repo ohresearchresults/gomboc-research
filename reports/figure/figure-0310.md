@@ -14,7 +14,7 @@ AI research report · 2026-09-05 UTC
 (V,E,F)=(65,146,83),\qquad 2E=292,\qquad(S,U,H)=(3,1,2).
 \]
 
-It has 42 triangular maximal faces, 40 quadrilateral maximal faces and one hexagonal maximal face. It is not a `(1,1,0)` successor or a compression record for the successful large Gömböcs. Throughout, 292 is the requested edge-budget quantity `2E`; the script field `C` uses that convention. The equilibrium-subtracted definition `V+E+F-(S+U+H)` would instead give 288 for this nonwinner. :contentReference[oaicite:0]{index=0}
+It has 42 triangular maximal faces, 40 quadrilateral maximal faces and one hexagonal maximal face. It is not a `(1,1,0)` successor or a compression record for the successful large Gömböcs. Throughout, 292 is the requested edge-budget quantity `2E`; the script field `C` uses that convention. The equilibrium-subtracted definition `V+E+F-(S+U+H)` would instead give 288 for this nonwinner.
 
 The more consequential result is a **global obstruction to the proposed fixed-polygon discretization**, not a failed parameter sweep:
 
@@ -22,7 +22,7 @@ The more consequential result is a **global obstruction to the proposed fixed-po
 * For the prescribed phase and amplitude `epsilon=1/50`, **every reflection-compatible regular polygon B is blocked**, regardless of the number or placement of horizontal knots, vertical rescaling, or the choice of an even physical x-centre correction, provided the resulting layered body is convex and mechanics use its actual volume centroid.
 * An explicit rational pentagon is also blocked. For this pentagon the obstruction holds whenever the first-band shear ratio is below the exact threshold `rho_* = 334932435151317941936/345214080486663242745`, approximately `0.9702166107452778`. The prescribed phase is rigorously below `0.54`, not merely observed to be small. The same proof blocks amplitudes up to `1/28` for this pentagon.
 
-The regular-polygon phase claim uses the piecewise-linear interpolants of the displayed a and c_y samples, symmetric point-end sections, and an arbitrary even c_x profile. It does not cover arbitrary changes to a or c_y. These exclusions do **not** cover all nonregular polygons, layer-dependent polygons, asymmetric architectures, or all bodies with `2E<1000`. In particular, `C2` symmetry itself is not an obstruction: the published symmetry classification allows it. The obstruction below concerns the finite central-section geometry, not the abstract symmetry group. :contentReference[oaicite:1]{index=1}
+The regular-polygon phase claim uses the piecewise-linear interpolants of the displayed a and c_y samples, symmetric point-end sections, and an arbitrary even c_x profile. It does not cover arbitrary changes to a or c_y. These exclusions do **not** cover all nonregular polygons, layer-dependent polygons, asymmetric architectures, or all bodies with `2E<1000`. In particular, `C2` symmetry itself is not an obstruction: the published symmetry classification allows it. The obstruction below concerns the finite central-section geometry, not the abstract symmetry group.
 
 No immutable worker parent was used or modified. No old small-winner alias is promoted here. The new exact body, the proofs, and all reconstruction data are given below.
 
@@ -598,4 +598,4 @@ if __name__=='__main__':
 
 ## Supplemental files
 
-[Exact replay package](sandbox:/mnt/data/layered_compression_handoff.zip) contains both independent checkers, the literal replay, exact inputs and outputs, fresh-extraction replay logs, the obstruction subcertificate, and this handoff. The final archive is 44,228 bytes with SHA-256 `192687fc0bf61194f767b1e0c73daf1a9199575eb9b0de1b721f2201a3b7fdff`. [Standalone Markdown handoff](sandbox:/mnt/data/layered_compression_result.md). All continuation-critical definitions, claims, and replay algorithms are reproduced above; these links are supplements.
+Exact replay package (`layered_compression_handoff.zip`) contains both independent checkers, the literal replay, exact inputs and outputs, fresh-extraction replay logs, the obstruction subcertificate, and this handoff. The final archive is 44,228 bytes with SHA-256 `192687fc0bf61194f767b1e0c73daf1a9199575eb9b0de1b721f2201a3b7fdff`. Standalone Markdown handoff (`layered_compression_result.md`). All continuation-critical definitions, claims, and replay algorithms are reproduced above; these links are supplements.

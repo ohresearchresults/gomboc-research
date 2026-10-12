@@ -6,7 +6,7 @@ AI research report · 2026-08-27 UTC
 
 # P9 communicating-annulus post-event body — exact fallback handoff
 
-The starting seed and acceptance gate are those fixed in the attached journal: exact nine-row P9, exact own-centering, the localized four-feature block, and the requirement that a transferred `(2,2,2)` state not be called a Gömböc. :contentReference[oaicite:0]{index=0}
+The starting seed and acceptance gate are those fixed in the attached journal: exact nine-row P9, exact own-centering, the localized four-feature block, and the requirement that a transferred `(2,2,2)` state not be called a Gömböc.
 
 ## Verdict
 
@@ -249,15 +249,15 @@ Do not continue by another short local cap. The residual block is concentrated o
 
 ## Files
 
-- Bundle: [p9_post_event_bundle.zip](sandbox:/mnt/data/p9_post_event_bundle.zip)
-- Exact certificate: [certificate.json](sandbox:/mnt/data/certificate.json)
-- Manifest: [manifest.json](sandbox:/mnt/data/manifest.json)
-- Generator: [post_event_exact.py](sandbox:/mnt/data/post_event_exact.py)
-- Independent verifier: [verify_cleanroom.py](sandbox:/mnt/data/verify_cleanroom.py)
-- Perturbation verifier: [verify_perturbation_box_iv.py](sandbox:/mnt/data/verify_perturbation_box_iv.py)
-- Topology path: [topology_path.json](sandbox:/mnt/data/topology_path.json) / [topology_path.py](sandbox:/mnt/data/topology_path.py)
-- Meshes: [post_event.obj](sandbox:/mnt/data/post_event.obj), [post_event.stl](sandbox:/mnt/data/post_event.stl)
+- Bundle: p9_post_event_bundle.zip
+- Exact certificate: certificate.json
+- Manifest: manifest.json
+- Generator: post_event_exact.py
+- Independent verifier: verify_cleanroom.py
+- Perturbation verifier: verify_perturbation_box_iv.py
+- Topology path: topology_path.json / topology_path.py
+- Meshes: post_event.obj, post_event.stl
 
-- Full human-readable report: [post_event_report.md](sandbox:/mnt/data/post_event_report.md)
-- Verification transcript: [verification.log](sandbox:/mnt/data/verification.log)
-- Mesh audit: [mesh_audit.log](sandbox:/mnt/data/mesh_audit.log)
+- Full human-readable report: post_event_report.md
+- Verification transcript: verification.log
+- Mesh audit: mesh_audit.log

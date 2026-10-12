@@ -32,11 +32,11 @@ research-journal(20260924-144518).md
 SHA256 f4bb7e8bb95115fa1c74a572c65b36b0ca8245f88137ff148cef76b477f5e31b
 ```
 
-The mathematical starting source is `[internal-source-reference]`. Its actual closed atlas and everywhere-full-rank incidence Jacobian are working premises, not an independent-replay task. In particular, it explicitly leaves mechanical strict feasibility unresolved; maximum-simplex ties are chart boundaries, not intrinsic restrictions on local physical motion. :contentReference[oaicite:0]{index=0}
+The mathematical starting source is `[internal-source-reference]`. Its actual closed atlas and everywhere-full-rank incidence Jacobian are working premises, not an independent-replay task. In particular, it explicitly leaves mechanical strict feasibility unresolved; maximum-simplex ties are chart boundaries, not intrinsic restrictions on local physical motion.
 
-The shared journal already records actual same-lattice regularization for all at-most-three physical weak points, along with narrower later special configurations. I do not relabel those as new results. The present mixed-eight example is different, and its entire exact construction below has no dependency on an earlier worker's source or sandbox. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The shared journal already records actual same-lattice regularization for all at-most-three physical weak points, along with narrower later special configurations. I do not relabel those as new results. The present mixed-eight example is different, and its entire exact construction below has no dependency on an earlier worker's source or sandbox.
 
-No missing exact dependency affects this handoff. The global S1U1 existence and proper110-density questions remain separate, as in the supplied branch memory. :contentReference[oaicite:3]{index=3}
+No missing exact dependency affects this handoff. The global S1U1 existence and proper110-density questions remain separate, as in the supplied branch memory.
 
 ## 3. Complete physical-contact sectors: VF requires two crossed escapes
 
@@ -829,4 +829,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Convenience copies: [complete source](sandbox:/mnt/data/full_manifold_work/full_shape_escape.py), [exact generated report](sandbox:/mnt/data/full_manifold_work/full_shape_escape.json). The literal source above is sufficient without either link.
+Convenience copies: complete source (`full_shape_escape.py`), exact generated report (`full_shape_escape.json`). The literal source above is sufficient without either link.

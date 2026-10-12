@@ -30,7 +30,7 @@ has **gamma>1/3**. Consequently every body in that subbox is outside the parent'
 
 The new turning argument establishes three strict conclusions on these regions: a basal U always exists; a nonbasal S always exists; and U1 forces the basal facet to be strictly stable. Thus U1 implies S≥2. It does **not** prove unrestricted U≥2 on these regions.
 
-The portions extending past the previous BROAD/WIDE/DEEP cutoffs are new. The two skew boxes and their reflections have neither p nor q as large as 3/4, so they are outside the complementary all-taper covariance-atlas box and its reflection. All five boxes avoid the old x≥15/16 macro and its reflection, and the off-macro radius-2^-28 tubes. Intersections with older lower-dimensional slices are not counted as new registry entries. The accepted full-basal cutoff remains 1/300; hence the global residual taper remains **1/300<lambda<3/5**, outside the old exclusions and the new union. The minimum interval remains **34≤C_min≤622**, with no new attainer or canonical incidence/root count. The inherited residual interval and the distinction between a joint theorem and unrestricted U2 are literal parent premises. fileciteturn25file0L12-L22
+The portions extending past the previous BROAD/WIDE/DEEP cutoffs are new. The two skew boxes and their reflections have neither p nor q as large as 3/4, so they are outside the complementary all-taper covariance-atlas box and its reflection. All five boxes avoid the old x≥15/16 macro and its reflection, and the off-macro radius-2^-28 tubes. Intersections with older lower-dimensional slices are not counted as new registry entries. The accepted full-basal cutoff remains 1/300; hence the global residual taper remains **1/300<lambda<3/5**, outside the old exclusions and the new union. The minimum interval remains **34≤C_min≤622**, with no new attainer or canonical incidence/root count. The inherited residual interval and the distinction between a joint theorem and unrestricted U2 are literal parent premises.
 
 ## 2. Reading, parent authority, and execution status
 
@@ -43,7 +43,7 @@ The two registered parent JSON envelopes were reconstructed and their hashes mat
 | minimum-0253 | 37319 | 0bf1ea8d44110e8f0f712137c4fc3bff5ff4f48962e0e3a5b4c3c79b6b14db45 |
 | minimum-0254 | 44777 | 54910bbef02f3039f114fe487568a3710a65cbf08331a42511807f836c39c2d0 |
 
-The normalized envelope uses the literal parent Markdown with one final LF and compact UTF-8 JSON for `{version:2,result_markdown:...}`. There is no source-identity conflict. The covariance atlas is used only to identify already closed scope, not regenerated or used as a mathematical premise of the new geometric proof. Its actual moving-covariance and conditioned-versus-unrestricted distinction remains intact. fileciteturn22file0L16-L69
+The normalized envelope uses the literal parent Markdown with one final LF and compact UTF-8 JSON for `{version:2,result_markdown:...}`. There is no source-identity conflict. The covariance atlas is used only to identify already closed scope, not regenerated or used as a mathematical premise of the new geometric proof. Its actual moving-covariance and conditioned-versus-unrestricted distinction remains intact.
 
 No missing exact dependency is required for the result below. Its source is standalone. Exact arithmetic checks the complete scalar region certificates, actual moments, true hulls and same-inverse censuses. The continuous geometric proof is supplied here; it is not claimed to have been proof-assistant formalized.
 
@@ -109,7 +109,7 @@ and
     alpha_C-(gamma+1/4)
       =2(gamma-1/4)(gamma+1/2)/(1-2gamma)≥0.
 
-The reflections have the same fixed point, so C implies R7 by convex interpolation. The converse fails on an exact actual control below. The parent required C and did not use the seven-vertex turning budget. fileciteturn25file0L36-L64
+The reflections have the same fixed point, so C implies R7 by convex interpolation. The converse fails on an exact actual control below. The parent required C and did not use the seven-vertex turning budget.
 
 ## 4. Proof, including the two strict root conclusions
 
@@ -423,7 +423,7 @@ Expected pins:
 
 The terminal marker is `H5_SEVEN_TURN_REFLECTION_JOINT_EXTENSION_V1_PASS`. The final source was executed normally and in a directory containing only that source; report and stdout were byte-identical. These are author executions, not a claimed coordinator replay. The report includes the complete coefficient vectors, inverse power checks, all true supports, actual moments, exact M/N pairs, all 340 physical primitives, the weak point, and the eight-arrow method-boundary chain.
 
-Convenience copies supplement the complete inline recovery: [source](sandbox:/mnt/data/h5_seven_turn_reflection.py), [exact report](sandbox:/mnt/data/h5_seven_turn_reflection_report.json), [verification output](sandbox:/mnt/data/h5_seven_turn_reflection.out).
+Convenience copies supplement the complete inline recovery: source (`h5_seven_turn_reflection.py`), exact report (`h5_seven_turn_reflection_report.json`), verification output (`h5_seven_turn_reflection.out`).
 
 ```python
 #!/usr/bin/env python3

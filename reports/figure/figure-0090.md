@@ -8,7 +8,7 @@ AI research report · 2026-08-26 UTC
 
 ## Verdict
 
-The journal records endpoint F as exact own-centroid `(2,2,2)`, with the old cap component `K={8,11,12}` forcing a second maximum in its fixed sign cell and requiring a volume-moving bifurcated escape. :contentReference[oaicite:0]{index=0}
+The journal records endpoint F as exact own-centroid `(2,2,2)`, with the old cap component `K={8,11,12}` forcing a second maximum in its fixed sign cell and requiring a volume-moving bifurcated escape.
 
 **No homogeneous convex polyhedral Gömböc was found; no `(1,1,0)` claim is made.** The requested old obstruction was genuinely destroyed. A connected asymmetric two-rail replacement shifts the uniform-volume centroid toward the old cap, makes all three old K vertices strictly interior, removes the old stable quad `(6,7,2,1)`, neutralizes and then deletes `(0,1)`, and removes `(7,10)`. The strongest exact endpoint **G** is a robust rational 19-vertex body of class `(2,2,2)`.
 
@@ -22,7 +22,7 @@ The first post-cap exact stage already makes K strictly interior:
 - F11: raw=400023051323018669415235475892391508506124318524561726038717981/3125000000000000000000000000000000000000000000000000000000000000000, normalized≈1.015677971313658707E-4
 - F12: raw=4952032998036739051147829003723707242779437360641306811860922623/62500000000000000000000000000000000000000000000000000000000000000000, normalized≈6.286726243261904522E-5
 
-The exact certificate is [source_K_deactivation_certificate.json](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/source_K_deactivation_certificate.json).
+The exact certificate is source_K_deactivation_certificate.json.
 
 ## Exact topology/moment path
 
@@ -41,16 +41,16 @@ Every accepted stage is reconstructed from its rational coordinates, has exact c
 09_delete_F7_final: VEF=(19, 51, 34), C=('-0.50891289885676427', '0.020550962468919538', '0.014549422490392844'), extraS=['G15', 'G8', 'G6'], extraU=G5, H=[['G10', 'G12'], ['G11', 'G13']], inactive=2.805949238552601458593782E-6
 ```
 
-The old `F0-F1` edge is already strictly nonsaddle at stage 01; F1 is deleted at stage 08 and F7 at stage 09. The centroid-to-old-K-barycenter distance decreases from `2.514549772790089724E+0` to `2.087581386925557137E+0`, with positive exact capward dot product and capward projection `4.270900752306748272E-1`. Volume grows by ratio `3.163795013026745613E+1`. Full exact stage data: [topology_path_certificate.json](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/topology_path_certificate.json).
+The old `F0-F1` edge is already strictly nonsaddle at stage 01; F1 is deleted at stage 08 and F7 at stage 09. The centroid-to-old-K-barycenter distance decreases from `2.514549772790089724E+0` to `2.087581386925557137E+0`, with positive exact capward dot product and capward projection `4.270900752306748272E-1`. Volume grows by ratio `3.163795013026745613E+1`. Full exact stage data: topology_path_certificate.json.
 
 # Exact endpoint G
 
 ## Finite H/V data
 
-- deterministic exact generator: [generate_candidate.py](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/generate_candidate.py)
-- all 19 exact rational coordinates and genealogy: [candidate.json](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/candidate.json)
-- centered rational vertices: [vertices_centered.csv](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/vertices_centered.csv)
-- complete primitive integer H-representation: [halfspaces_centered_integer.csv](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/halfspaces_centered_integer.csv)
+- deterministic exact generator: generate_candidate.py
+- all 19 exact rational coordinates and genealogy: candidate.json
+- centered rational vertices: vertices_centered.csv
+- complete primitive integer H-representation: halfspaces_centered_integer.csv
 
 `(V,E,F,C)=(19,51,34,102)`, Euler characteristic `2`. All 19 vertices and 34 H-rows are irredundant; all faces are triangular.
 
@@ -109,18 +109,18 @@ saddles: E37=(10,12), 1-t margin [3.715352426181918745920569E-3,3.71535242618191
 (S,U,H)=(2,2,2), S+U-H=2.
 ```
 
-Every constituent raw exact primitive—not only each limiter—is materialized in [face_primitives.csv](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/face_primitives.csv), [vertex_primitives.csv](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/vertex_primitives.csv), and [edge_primitives.csv](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/edge_primitives.csv).
+Every constituent raw exact primitive—not only each limiter—is materialized in face_primitives.csv, vertex_primitives.csv, and edge_primitives.csv.
 
 ## Incidence separation and strict boxes
 
-Minimum inactive unit-normal/diameter separation is `[2.805949238552601458593782E-6,2.805949238552601458593782E-6]` at face 26, vertex 12; exact raw value `9950861017785467299613379637/1000000000000`. All inactive slacks: [inactive_incidence.csv](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/inactive_incidence.csv).
+Minimum inactive unit-normal/diameter separation is `[2.805949238552601458593782E-6,2.805949238552601458593782E-6]` at face 26, vertex 12; exact raw value `9950861017785467299613379637/1000000000000`. All inactive slacks: inactive_incidence.csv.
 
 Two exact open certificates hold:
 
 1. all 57 uncentered coordinate components independently vary by `±1/10000000000` while incidence and every primitive sign remain fixed;
 2. all five parameters of `A(t)=I+t0 diag(1,0,-1)+t1 diag(0,1,-1)+t2(E01+E10)+t3(E02+E20)+t4(E12+E21)` independently vary by `±1/10000000000` with `det A>0`, exact transformed moments, unchanged incidence, and unchanged class.
 
-Certificates: [coordinate_box_certificate.json](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/coordinate_box_certificate.json), [metric_box_certificate.json](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/metric_box_certificate.json).
+Certificates: coordinate_box_certificate.json, metric_box_certificate.json.
 
 # Proof-level obstruction in G's realized cell
 
@@ -140,11 +140,11 @@ At a maximum-radius member `v*` of R, each internal support is also strict posit
 
 `-x_v*·(x_u-x_v*)=||x_v*||²-x_v*·x_u≥||x_v*||²-||x_v*||||x_u||≥0`,
 
-with equality impossible for distinct endpoints. Hence R always contains an unstable vertex throughout this fixed-incidence/external-positive sign cell. Target V4 is independently unstable, so the cell has `U≥2`. Exact proof: [rail_cluster_obstruction_certificate.json](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/rail_cluster_obstruction_certificate.json).
+with equality impossible for distinct endpoints. Hence R always contains an unstable vertex throughout this fixed-incidence/external-positive sign cell. Target V4 is independently unstable, so the cell has `U≥2`. Exact proof: rail_cluster_obstruction_certificate.json.
 
 ## Search scope
 
-A ten-parameter, eight-section connected asymmetric profile family was audited at each body's own centroid: 2499 of 2500 random profiles were valid; 909 were strict target-preserving `(2,2,2)`; none was `(1,1,0)`. The class histogram and parameters are in [search_summary.json](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/search/search_summary.json). A complete 192-branch fixed-topology first-order separator screen had best common margin `-0.02243536147322095` and no positive branch. These searches are empirical/first-order evidence only.
+A ten-parameter, eight-section connected asymmetric profile family was audited at each body's own centroid: 2499 of 2500 random profiles were valid; 909 were strict target-preserving `(2,2,2)`; none was `(1,1,0)`. The class histogram and parameters are in search_summary.json. A complete 192-branch fixed-topology first-order separator screen had best common margin `-0.02243536147322095` and no positive branch. These searches are empirical/first-order evidence only.
 
 ## Exact closure and continuation
 
@@ -159,17 +159,17 @@ The smallest nonredundant next architecture is a **cross-rail 2×2 zipper/annula
 
 ## Reproducibility
 
-- [complete bundle ZIP](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle.zip)
-- [full standalone report](sandbox:/mnt/data/F_bifurcated_volume_moving_research_REPORT.md)
-- [combined verifier transcript](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/RUN_ALL_VERIFIERS.txt)
-- [fresh-extraction transcript](sandbox:/mnt/data/F_bifurcated_volume_moving_research_FRESH_VERIFY.txt)
-- [SHA-256 manifest](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/SHA256SUMS.txt)
-- [ZIP SHA-256 record](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle.zip.sha256)
-- [primary exact verifier](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/verify_exact.py)
-- [independent exact reconstructor](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/verify_independent.py)
-- [mesh verifier](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/verify_mesh.py)
-- [OBJ](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/body.obj)
-- [STL](sandbox:/mnt/data/F_bifurcated_volume_moving_research_bundle/endpoint_G_bifurcated_postcap/body.stl)
+- complete bundle ZIP (`F_bifurcated_volume_moving_research_bundle.zip`)
+- full standalone report (`F_bifurcated_volume_moving_research_REPORT.md`)
+- combined verifier transcript (`RUN_ALL_VERIFIERS.txt`)
+- fresh-extraction transcript (`F_bifurcated_volume_moving_research_FRESH_VERIFY.txt`)
+- SHA-256 manifest (`SHA256SUMS.txt`)
+- ZIP SHA-256 record (`F_bifurcated_volume_moving_research_bundle.zip.sha256`)
+- primary exact verifier (`verify_exact.py`)
+- independent exact reconstructor (`verify_independent.py`)
+- mesh verifier (`verify_mesh.py`)
+- OBJ (`body.obj`)
+- STL (`body.stl`)
 
 Run `bash RUN_ALL_VERIFIERS.sh` after extraction. Fresh extraction verified all 229 manifest-tracked files before and after rerunning every verifier. ZIP SHA-256:
 

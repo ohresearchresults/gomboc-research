@@ -554,4 +554,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-[Source, all exact reports and the completed cold-replay log](sandbox:/mnt/data/CR70_JOINT_CAP_BULK.zip) are supplementary conveniences. The complete recovery data and verification code are already contained in this immutable handoff.
+Source, all exact reports and the completed cold-replay log (`CR70_JOINT_CAP_BULK.zip`) are supplementary conveniences. The complete recovery data and verification code are already contained in this immutable handoff.

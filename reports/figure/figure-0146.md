@@ -8,13 +8,13 @@ AI research report · 2026-08-29 UTC · [Export notes](../../catalog/coverage.md
 
 **NONWINNER.** I did not obtain a finite uniform-density convex polyhedron with strict own-centroid `(S,U,H)=(1,1,0)`. I did obtain and fully materialize an exact dyadic 13-vertex Conway-compression endpoint with strict class `(3,2,3)`, then exhaust an exact, genuinely connected lower-plus-two-upper topology-changing family on its declared parameter domain. That family has zero winner cells.
 
-This is a fresh reconstruction, not a transport recovery. The durable journal explicitly excludes `figure-0142` because its immutable body contained only worker-local links and omitted the literal verdict, coordinates, counts, residual packet, and obstruction. :contentReference[oaicite:0]{index=0} No hidden coordinate or verdict from that copy is used here. Because the journal contains no 13-vertex coordinate matrix, I cannot claim byte-for-byte identity with the inaccessible prior endpoint; “reconstructed” below means an independently exactified body in the same recorded `(13,31,20)`, bottom-pentagon/apex, two-upper-plus-one-lower residual architecture.
+This is a fresh reconstruction, not a transport recovery. The durable journal explicitly excludes `figure-0142` because its immutable body contained only worker-local links and omitted the literal verdict, coordinates, counts, residual packet, and obstruction. No hidden coordinate or verdict from that copy is used here. Because the journal contains no 13-vertex coordinate matrix, I cannot claim byte-for-byte identity with the inaccessible prior endpoint; “reconstructed” below means an independently exactified body in the same recorded `(13,31,20)`, bottom-pentagon/apex, two-upper-plus-one-lower residual architecture.
 
-The journal’s acceptance gate requires raw incidence, maximal faces, true edges, full normal cones, exact or directed ordinary-volume centering, open perturbation margin, independent verification, and mesh data. :contentReference[oaicite:1]{index=1} This handoff supplies those items inline and in a portable bundle.
+The journal’s acceptance gate requires raw incidence, maximal faces, true edges, full normal cones, exact or directed ordinary-volume centering, open perturbation margin, independent verification, and mesh data. This handoff supplies those items inline and in a portable bundle.
 
 ## 1. What I actually tried and what changed
 
-1. I independently rebuilt the original 21-vertex Conway `n=4,k=5` generator, including the secant correction to ring radii and the apex lift. The journal records the same formulas and warns that omitting either correction produces the false geometry. :contentReference[oaicite:2]{index=2}
+1. I independently rebuilt the original 21-vertex Conway `n=4,k=5` generator, including the secant correction to ring radii and the apex lift. The journal records the same formulas and warns that omitting either correction produces the false geometry.
 2. I searched compressed tall-cap 13-vertex bodies with a fixed lower pentagon and upper apex, rebuilding the convex hull and own ordinary-volume centroid at every evaluation. A robust `(3,2,3)` chamber was found and rounded to a common dyadic denominator, then re-proved exactly.
 3. A first connected dual-tree cap construction was rejected: before its inserted vertices acquired cross-edges it was only a set of serial caps; after cross-edges appeared it created extra stable/saddle pairs. I therefore changed the architecture from added caps to a connected deformation of the existing active vertex-star strip.
 4. Three tangent modes were built around the upper-A, upper-B, and lower defect packets. A `21^3=9,261` grid over the three-mode box produced 4,344 valid 13-vertex hulls and no winner; 91 samples retained `(3,2,3)`. This grid is discovery evidence only, not a continuous exclusion.
@@ -26,7 +26,7 @@ For `k=5` and `alpha=(66.173,44.519,29.875,19.716)°`, define
 
 `r_i=prod_{j<=i} cos(alpha_j)`, `theta_i=sum_{j<=i} alpha_j`, `x_i=r_i sin(theta_i)`, `z_i=r_i cos(theta_i)`, `rho_i=x_i/cos(pi/5)`,
 
-then place five aligned vertices `(rho_i cos(2*pi*j/5),rho_i sin(2*pi*j/5),z_i)` on each of four rings and the apex at `(0,0,1+h)`, `h=sin^2(alpha_1)tan^2(pi/5)`. This matches the durable construction. :contentReference[oaicite:3]{index=3}
+then place five aligned vertices `(rho_i cos(2*pi*j/5),rho_i sin(2*pi*j/5),z_i)` on each of four rings and the apex at `(0,0,1+h)`, `h=sin^2(alpha_1)tan^2(pi/5)`. This matches the durable construction.
 
 My independent reconstruction gives:
 
@@ -37,7 +37,7 @@ My independent reconstruction gives:
 - ordinary-volume centroid `(-6.93e-18,-5.28e-19,0.3175674749086905)`, or `+0.3329214929` in `z` relative to the arithmetic center;
 - at its own ordinary-volume centroid, class `(6,21,25)`.
 
-Thus the Conway flow skeleton is real but is not a homogeneous body at its ordinary-volume centroid, exactly the mismatch recorded in the journal. :contentReference[oaicite:4]{index=4} The deterministic reconstruction and full machine audit are in the bundle.
+Thus the Conway flow skeleton is real but is not a homogeneous body at its ordinary-volume centroid, exactly the mismatch recorded in the journal. The deterministic reconstruction and full machine audit are in the bundle.
 
 ## 3. Exact 13-vertex endpoint `C13`
 
@@ -376,19 +376,19 @@ A guard tangent that forces `V2` and `E(2,3)` farther inactive merely moves the 
 
 The portable archive contains source, exact reports, event isolators, verification summaries, SHA-256 manifest, and a `[internal-source-reference].sh` entry point:
 
-- [Complete portable bundle](sandbox:/mnt/data/conway13_connected_three_patch_nonwinner.zip)
-- [Exact integer/Fraction endpoint verifier](sandbox:/mnt/data/verify_conway13_exact.py)
-- [Complete exact endpoint report](sandbox:/mnt/data/conway13_exact_report.json)
-- [Independent Qhull/mesh verifier](sandbox:/mnt/data/verify_conway13_independent.py)
-- [Exact perturbation certificate](sandbox:/mnt/data/perturbation_certificate.json)
-- [Centered watertight OBJ](sandbox:/mnt/data/conway13_endpoint_centered.obj)
-- [Centered watertight STL](sandbox:/mnt/data/conway13_endpoint_centered.stl)
-- [Self-contained exact connected-family generator](sandbox:/mnt/data/connected_three_patch_family.py)
-- [Exact verification of all family subcells](sandbox:/mnt/data/family_exact_verification.json)
-- [All equilibrium-component root clusters](sandbox:/mnt/data/equilibrium_cluster_report.json)
-- [Exact circuit/topology event report](sandbox:/mnt/data/circuit_event_report.json)
+- Complete portable bundle (`conway13_connected_three_patch_nonwinner.zip`)
+- Exact integer/Fraction endpoint verifier (`verify_conway13_exact.py`)
+- Complete exact endpoint report (`conway13_exact_report.json`)
+- Independent Qhull/mesh verifier (`verify_conway13_independent.py`)
+- Exact perturbation certificate (`perturbation_certificate.json`)
+- Centered watertight OBJ (`conway13_endpoint_centered.obj`)
+- Centered watertight STL (`conway13_endpoint_centered.stl`)
+- Self-contained exact connected-family generator (`connected_three_patch_family.py`)
+- Exact verification of all family subcells (`family_exact_verification.json`)
+- All equilibrium-component root clusters (`equilibrium_cluster_report.json`)
+- Exact circuit/topology event report (`circuit_event_report.json`)
 
-A clean extraction was tested by rerunning the exact endpoint verifier, independent verifier, perturbation verifier, exact family verifier, Conway-21 reconstruction, family generator, and SHA-256 manifest. The acceptance gate described in the journal—full H/V data, exact or isolated centroid, positive margins, independent verification, perturbation radius, and OBJ/STL—is met for the **nonwinner endpoint and the closed family**, but not for a Gömböc. :contentReference[oaicite:5]{index=5}
+A clean extraction was tested by rerunning the exact endpoint verifier, independent verifier, perturbation verifier, exact family verifier, Conway-21 reconstruction, family generator, and SHA-256 manifest. The acceptance gate described in the journal—full H/V data, exact or isolated centroid, positive margins, independent verification, perturbation radius, and OBJ/STL—is met for the **nonwinner endpoint and the closed family**, but not for a Gömböc.
 
 ## 6. Reusable conclusion
 

@@ -27,7 +27,7 @@ The exact COARSE input is the literal parent input, not a journal-derived replac
 - `figure-0459`, declared payload SHA-256 `bdb999984adf0469cd9eba7849b5f0423d0f44580f0c3beda8a9fda4bbfdbff5`.
 - `figure-0466`, declared payload SHA-256 `7939f2aab5f6b71911d2546a87ee7e3888f045b957e7fec261e0531f15272b63`.
 
-The first parent's source capsule was decoded. Its14221-byte exact auditor matched SHA-256 `afa840b4f4b9b4ad4c949899adc2d083e787b81786479cefa0ef649b477f0bca`. The second parent's literal patch was executed against that source and reproduced its9313-byte pair report with SHA-256 `565b8f5e4635b9e8eb90f12a27f0dfa2e29480d315f38d255aa47a32f7ca2a7b`. Both source units are also inside the handoff capsule. The literal inputs and patch are supported by the supplied parent text. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The first parent's source capsule was decoded. Its14221-byte exact auditor matched SHA-256 `afa840b4f4b9b4ad4c949899adc2d083e787b81786479cefa0ef649b477f0bca`. The second parent's literal patch was executed against that source and reproduced its9313-byte pair report with SHA-256 `565b8f5e4635b9e8eb90f12a27f0dfa2e29480d315f38d255aa47a32f7ca2a7b`. Both source units are also inside the handoff capsule. The literal inputs and patch are supported by the supplied parent text.
 
 ## 1. Exact C50 cap architecture and actual root transfer
 
@@ -438,7 +438,7 @@ C50_FRONTIER_METRICS.json 18111
 0b6c404e76cf782838ffa7c5e10cb203b5285cbb3a6c1c42e260a8f1e7d2875a
 ```
 
-The complete nine-body-report manifest is inside `EXACT_INPUTS.json`; the two proof hashes are checked by the replay source. Convenience copy containing all sources and full reports: [C50 branch handoff ZIP](sandbox:/mnt/data/C50_BRANCH_HANDOFF.zip). That link is supplementary, not the recovery authority.
+The complete nine-body-report manifest is inside `EXACT_INPUTS.json`; the two proof hashes are checked by the replay source. Convenience copy containing all sources and full reports: C50 branch handoff ZIP (`C50_BRANCH_HANDOFF.zip`). That link is supplementary, not the recovery authority.
 
 ### Complete base85 payload
 

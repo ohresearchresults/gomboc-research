@@ -19,9 +19,9 @@ Here C=1-c and E=1-d. THIRD_BAND excludes all 48,790 labelled true-edge weak roo
 
 This is **not** the entire corner-third theorem. Depths below 1/4 mixed with depths above 1/4 remain outside THIRD_BAND unless another accepted region applies. It is not a central-half theorem, an all-shape polar S>=2 theorem, or a whole-incidence exclusion.
 
-The extension relative to the supplied parent is explicit. QUARTER allowed six independent depths up to 1/4; WIDE allowed depths [1/10,3/10] but restricted u,v to [1/50,1/25]. THIRD_BAND permits all six depths to reach 1/3 and retains the entire origin-corner triangle, for every positive taper. Its intersection with QUARTER is only the six-depth boundary where all depths equal 1/4. EXPANSION_10_OVER3 replaces the former unrestricted-basal expansion threshold 7 by 10/3, newly covering the entire admissible basal chart for 10/3<=rho<7. The existing regions remain a union, not a newly asserted nesting. fileciteturn0file2L1016-L1034 fileciteturn0file2L950-L952
+The extension relative to the supplied parent is explicit. QUARTER allowed six independent depths up to 1/4; WIDE allowed depths [1/10,3/10] but restricted u,v to [1/50,1/25]. THIRD_BAND permits all six depths to reach 1/3 and retains the entire origin-corner triangle, for every positive taper. Its intersection with QUARTER is only the six-depth boundary where all depths equal 1/4. EXPANSION_10_OVER3 replaces the former unrestricted-basal expansion threshold 7 by 10/3, newly covering the entire admissible basal chart for 10/3<=rho<7. The existing regions remain a union, not a newly asserted nesting.
 
-Four exact actual controls below attain U=2, with full same-inverse strict222weak000 censuses along unbounded metric rays. None is U1 or 110. The working global bracket remains 34<=C_min<=622; no canonical registry count is subtracted. fileciteturn0file2L9-L11
+Four exact actual controls below attain U=2, with full same-inverse strict222weak000 censuses along unbounded metric rays. None is U1 or 110. The working global bracket remains 34<=C_min<=622; no canonical registry count is subtracted.
 
 ## 2. Input authority, complete reading, and a repaired literal-source discrepancy
 
@@ -57,11 +57,11 @@ minimum-0284
 T5sYbYhz}  ->  T5sYhz}
 ```
 
-After that replacement, the entire wrapper is **exactly** the parent's recorded 24,316-byte object, SHA `fbc19ff24d8909f2bb6cb6fd8799150051a8105894aa6df11c7bf7f767a604ac`. The decoded 53,488-byte source map also matches its recorded SHA `35cfc6df1cb25cfbaef66cd4e9409d4c216300a3274c674da4d2908ab355e8a8`, and all six decoded source pins match. The recorded wrapper/source pins and the literal affected payload line are in the supplied parent. This was a hash-verified repair, not an invented substitute program. fileciteturn1file0L105-L131 fileciteturn1file0L149-L155
+After that replacement, the entire wrapper is **exactly** the parent's recorded 24,316-byte object, SHA `fbc19ff24d8909f2bb6cb6fd8799150051a8105894aa6df11c7bf7f767a604ac`. The decoded 53,488-byte source map also matches its recorded SHA `35cfc6df1cb25cfbaef66cd4e9409d4c216300a3274c674da4d2908ab355e8a8`, and all six decoded source pins match. The recorded wrapper/source pins and the literal affected payload line are in the supplied parent. This was a hash-verified repair, not an invented substitute program.
 
 The new capsule below includes the complete, unchanged `h5_nine_exact.py` core directly, so continuing this result does not depend on repeating that repair or having an old sandbox. No settled QUARTER certificate was rechecked as the research target.
 
-The later parent's generic equality hexagon is centrally symmetric only at delta=1/3, as already corrected in the supplied journal. Neither new theorem uses that adjective, the sharp-volume equality collar, or an unevaluated nine-vertex gap. fileciteturn0file2L1038-L1044
+The later parent's generic equality hexagon is centrally symmetric only at delta=1/3, as already corrected in the supplied journal. Neither new theorem uses that adjective, the sharp-volume equality collar, or an unevaluated nine-vertex gap.
 
 ## 3. Literal moving body and physical conventions
 
@@ -89,7 +89,7 @@ FACES = (
 EDGES = 01,06,07,12,18,23,28,34,39,45,49,56,57,67,78,79,89.
 ```
 
-These are the supplied full-chart labels, not integration diagonals or a lower-feature alias. The new computations keep these coordinates and their actual moments coupled. fileciteturn0file2L1136-L1174
+These are the supplied full-chart labels, not integration diagonals or a lower-feature alias. The new computations keep these coordinates and their actual moments coupled.
 
 At the actual volume centroid g, write X_i=Y_i-g and
 
@@ -527,7 +527,7 @@ These are observed author computations and exact mathematical certificates, not 
 
 ## 9. Complete autonomous recovery capsule
 
-The following is the entire recovery source, not an abbreviated payload. A convenience archive contains the same readable sources, accepted certificates, reports, logs and unverified-search checkpoints, but reconstruction does not require that archive: [source, certificates and evidence bundle](sandbox:/mnt/data/H5_THIRD_BAND_AND_EXPANSION_10_OVER3_U2_V1.zip).
+The following is the entire recovery source, not an abbreviated payload. A convenience archive contains the same readable sources, accepted certificates, reports, logs and unverified-search checkpoints, but reconstruction does not require that archive: source, certificates and evidence bundle (`H5_THIRD_BAND_AND_EXPANSION_10_OVER3_U2_V1.zip`).
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

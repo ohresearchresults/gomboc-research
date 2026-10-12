@@ -14,13 +14,13 @@ Consequently this closes **one previously unresolved complete type and all 45 of
 
 The proof is finite and exact: **12,183 rooted-tree orbit certificates, comprising 104,736 integer symmetric 9-by-9 matrices**. Every matrix minus the identity is positive definite. An independent standard-library verifier reconstructed the scalar quadratic polynomials and checked all **942,624 leading principal minors**, with integer Bareiss elimination and a separately implemented rational LDL factorization giving identical minors.
 
-This is **not** a universal nine-facet obstruction, a C34 determination, an improved global complexity lower bound, or an attainer. The inherited bracket remains **32 ≤ C_min ≤ 1374**; the previously accepted whole192/294/295 and individual53/U3,72/U4 closures are retained. The journal explicitly distinguished its conditioned-core results from a whole139 theorem; that distinction is respected here. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+This is **not** a universal nine-facet obstruction, a C34 determination, an improved global complexity lower bound, or an attainer. The inherited bracket remains **32 ≤ C_min ≤ 1374**; the previously accepted whole192/294/295 and individual53/U3,72/U4 closures are retained. The journal explicitly distinguished its conditioned-core results from a whole139 theorem; that distinction is respected here.
 
 ## 2. Authority and exact combinatorial domain
 
-The authoritative parent is `minimum-0029`, `NOVA24_C32_CONDITIONED_CORE_OBSTRUCTIONS_V1`, SHA-256 `07da26de37a7076fae43373e6ecd0c85ba0b45ffbe359ed38b707c462083dd8c`. I authenticated its **36,226-byte compact UTF-8 version-2 JSON envelope**, with the Markdown's final LF included, and replayed its complete recovery source. The inherited 63,296-byte report and 618-byte transcript matched their pins. The transcript SHA-256 was `f7b68bc5984b3186cbfc6c125bf2f88e337f60237ef76cf54204f58f0a37eb4b`. No incidence or alias conflict was found. The parent's older catalogue counts are historical, not replacements for the assignment's later accepted closures. The recorded parent replay pins are also in the supplied journal. :contentReference[oaicite:2]{index=2}
+The authoritative parent is `minimum-0029`, `NOVA24_C32_CONDITIONED_CORE_OBSTRUCTIONS_V1`, SHA-256 `07da26de37a7076fae43373e6ecd0c85ba0b45ffbe359ed38b707c462083dd8c`. I authenticated its **36,226-byte compact UTF-8 version-2 JSON envelope**, with the Markdown's final LF included, and replayed its complete recovery source. The inherited 63,296-byte report and 618-byte transcript matched their pins. The transcript SHA-256 was `f7b68bc5984b3186cbfc6c125bf2f88e337f60237ef76cf54204f58f0a37eb4b`. No incidence or alias conflict was found. The parent's older catalogue counts are historical, not replacements for the assignment's later accepted closures. The recorded parent replay pins are also in the supplied journal.
 
-The canonical label is bound to the accepted 240,929-byte catalogue with SHA-256 `efb10a4657a891cd13f6f62db94164bd4b3005e908dc55aae87db450930f704d`. The new proof uses the following complete literal face lattice, which agrees with the parent, rather than requiring that catalogue as a reconstruction input. :contentReference[oaicite:3]{index=3}
+The canonical label is bound to the accepted 240,929-byte catalogue with SHA-256 `efb10a4657a891cd13f6f62db94164bd4b3005e908dc55aae87db450930f704d`. The new proof uses the following complete literal face lattice, which agrees with the parent, rather than requiring that catalogue as a reconstruction input.
 
 ```python
 FS = [
@@ -120,7 +120,7 @@ Indeed a tetrahedron's mean is the sum of its four vertices divided by four, and
 
 A repeated unordered tetrahedron has **one actual value of `d_t`**, regardless of which fan contains it. The proof does not assign it independent masses. These equations are used only in the valid direction **actual homogeneous solid implies (1)**. There is no claim that arbitrary positive or signed weights satisfying moments through degree two are the actual uniform measure. The coordinator's stronger degree-five physical gate is not needed to justify this direction.
 
-This extends the actual shared-tetrahedron and common-covariance certificate architecture already recorded for whole295; it does not import that type's incidences or its finite coverage. :contentReference[oaicite:4]{index=4}
+This extends the actual shared-tetrahedron and common-covariance certificate architecture already recorded for whole295; it does not import that type's incidences or its finite coverage.
 
 ### 3.3 Exact quadratic contradictions for every tree
 
@@ -169,7 +169,7 @@ The parent's local-to-canonical map is `(5,8,7,4,2,6,3,1,0)`. Its small cap `678
 A=\{0,1,3\},
 \]
 
-whose only external ports are `(0,2),(1,4),(3,6)`. The parent correctly required root closure for its heavy-core inequalities and left forced communicating excursions through this cap as an unresolved complement. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+whose only external ports are `(0,2),(1,4),(3,6)`. The parent correctly required root closure for its heavy-core inequalities and left forced communicating excursions through this cap as an unresolved complement.
 
 For a root outside `A`, call a selected tree a cap-transit tree when some arrow starts in `A^c` and ends in `A`. Because the tree's root is outside, that path must subsequently exit the cap. The independent verifier counts and covers **767, 767, 385, and 385** such tree orbits for roots **2, 5, 6, and 8**, respectively. These are combinatorial coverage counts, not assertions that all those trees have physical realizations. The paths are neither removed nor shortened in the proof.
 
@@ -186,7 +186,7 @@ selected_fans = [[7,0],[6,0]]
 
 It has the path `1 -> 3 -> 0 -> 2 -> 5 -> 8 -> 7 -> 6`, with `4 -> 6`. Its complete shared certificate has 15 distinct tetrahedra and 184 integer coefficients; the last coefficient, the covariance multiplier in the convention (3), is **-2404**. The complete coefficient vector is regenerated by the capsule. The differing initial and selected fan orders are intentional: the source records and verifies the exact row permutation used in generation.
 
-I first used depth/first-moment screens to locate difficult trees, then tested alternative actual apex fans and finally shared covariance certificates. **The final proof depends on none of the preliminary screens:** every rooted-tree orbit was subsequently assigned and checked by the explicit quadratic-certificate route. Numerical failure of an earlier template was not treated as a feasible physical control or as an exclusion. The general strategy of locating quadratic contradictions numerically and verifying the resulting finite certificates exactly has a published precedent; the full type139 coverage and data here are the new result relative to the supplied state. :contentReference[oaicite:7]{index=7}
+I first used depth/first-moment screens to locate difficult trees, then tested alternative actual apex fans and finally shared covariance certificates. **The final proof depends on none of the preliminary screens:** every rooted-tree orbit was subsequently assigned and checked by the explicit quadratic-certificate route. Numerical failure of an earlier template was not treated as a feasible physical control or as an exclusion. The general strategy of locating quadratic contradictions numerically and verifying the resulting finite certificates exactly has a published precedent; the full type139 coverage and data here are the new result relative to the supplied state.
 
 ## 5. Recovery, exact evidence, and pins
 
@@ -254,7 +254,7 @@ The remaining uncertainty is outside the stated theorem, together with the ordin
 
 The useful continuation is to port the same full-tree, actual-cell/common-covariance test to a genuinely different remaining face lattice, preserving physical tetrahedron identification across fans. Use the complete three-cofacial-apex degree-five gate when lower-moment certificates fail, but do not reinterpret such failure as feasibility or silently contract cap excursions. The 33 compact shared plans and the root6/836 example provide fully reconstructible tests for that extension.
 
-Supplementary copies: [Markdown handoff](sandbox:/mnt/data/type139_handoff/NOVA24_C32_TYPE139_WHOLE_ACTUAL_U_GE_2_V1.md), [recovery source](sandbox:/mnt/data/type139_handoff/recover139.py), [exact coefficient checkpoint](sandbox:/mnt/data/type139_handoff/type139_exact.json), and [verification report](sandbox:/mnt/data/type139_handoff/type139_verification.json). The full executable recovery follows.
+Supplementary copies: Markdown handoff (`NOVA24_C32_TYPE139_WHOLE_ACTUAL_U_GE_2_V1.md`), recovery source (`recover139.py`), exact coefficient checkpoint (`type139_exact.json`), and verification report (`type139_verification.json`). The full executable recovery follows.
 
 ## 7. Complete inline recovery capsule
 

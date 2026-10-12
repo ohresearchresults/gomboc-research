@@ -8,15 +8,15 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 ## Reproducible handoff bundle
 
-- [Complete exact archive](sandbox:/mnt/data/Nimble_Comet_79_J52_A4_terminal8_exact_NONWINNER.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Nimble_Comet_79_J52_A4_terminal8_exact_NONWINNER.zip.sha256)
-- [Expanded report](sandbox:/mnt/data/Nimble_Comet_79_J52_A4_terminal8_exact_NONWINNER_RESULT.md)
-- [Independent verification receipt](sandbox:/mnt/data/Nimble_Comet_79_J52_A4_terminal8_VERIFICATION_RECEIPT.json) and [clean-extraction transcript](sandbox:/mnt/data/Nimble_Comet_79_J52_A4_terminal8_VERIFICATION_TRANSCRIPT.txt)
-- [Deterministic exact source](sandbox:/mnt/data/J52_A4_terminal8_exact_source.json)
-- Endpoint certificates: [ordinary centroid](sandbox:/mnt/data/J52_exact_ordinary_centroid.json), [irredundant incidence](sandbox:/mnt/data/J52_exact_incidence_irredundancy.json), [mechanics summary](sandbox:/mnt/data/J52_exact_mechanics_summary.json), [full mechanics ledger](sandbox:/mnt/data/J52_mechanical_ledgers_point.json.gz)
-- Transition certificates: [positive-volume shell and all-sector spine](sandbox:/mnt/data/J51_to_J52_A4_connected_positive_volume_shell.json), [feature genealogy](sandbox:/mnt/data/J51_to_J52_feature_genealogy.json), [complete external-arrow census](sandbox:/mnt/data/J52_complete_external_arrow_census.json), [residual forcing proof](sandbox:/mnt/data/J52_residual_forcing_obstruction.json), [death-before-birth chronology obstruction](sandbox:/mnt/data/J52_death_before_birth_chronology.json), [two-control response](sandbox:/mnt/data/J52_two_control_exact_response.json), [perturbation chamber](sandbox:/mnt/data/J52_exact_metric_perturbation_box.json), and [next topology](sandbox:/mnt/data/J52_first_remaining_nonserial_successor.json)
-- Exact lattice tables: [active H](sandbox:/mnt/data/J52_H_active_exact.tsv.gz), [supplied H](sandbox:/mnt/data/J52_H_supplied_exact.tsv.gz), [V](sandbox:/mnt/data/J52_V_exact.tsv.gz), [maximal-face cycles](sandbox:/mnt/data/J52_maximal_face_cycles.tsv.gz), [true edges](sandbox:/mnt/data/J52_true_edges.tsv), [all nonincidences](sandbox:/mnt/data/J52_nonincident_all.tsv.gz)
-- Independent code and meshes: [endpoint verifier](sandbox:/mnt/data/verify_nimble_comet79_J52.py), [perturbation verifier](sandbox:/mnt/data/verify_j52_shape_box.py), [exact geometry library](sandbox:/mnt/data/J52_exact_geometry.py), [watertight OBJ](sandbox:/mnt/data/J52_A4_terminal8.obj), [watertight STL](sandbox:/mnt/data/J52_A4_terminal8.stl)
+- Complete exact archive (`Nimble_Comet_79_J52_A4_terminal8_exact_NONWINNER.zip`)
+- Archive SHA-256 receipt (`Nimble_Comet_79_J52_A4_terminal8_exact_NONWINNER.zip.sha256`)
+- Expanded report (`Nimble_Comet_79_J52_A4_terminal8_exact_NONWINNER_RESULT.md`)
+- Independent verification receipt (`Nimble_Comet_79_J52_A4_terminal8_VERIFICATION_RECEIPT.json`) and clean-extraction transcript (`Nimble_Comet_79_J52_A4_terminal8_VERIFICATION_TRANSCRIPT.txt`)
+- Deterministic exact source (`J52_A4_terminal8_exact_source.json`)
+- Endpoint certificates: ordinary centroid (`J52_exact_ordinary_centroid.json`), irredundant incidence (`J52_exact_incidence_irredundancy.json`), mechanics summary (`J52_exact_mechanics_summary.json`), full mechanics ledger (`J52_mechanical_ledgers_point.json.gz`)
+- Transition certificates: positive-volume shell and all-sector spine (`J51_to_J52_A4_connected_positive_volume_shell.json`), feature genealogy (`J51_to_J52_feature_genealogy.json`), complete external-arrow census (`J52_complete_external_arrow_census.json`), residual forcing proof (`J52_residual_forcing_obstruction.json`), death-before-birth chronology obstruction (`J52_death_before_birth_chronology.json`), two-control response (`J52_two_control_exact_response.json`), perturbation chamber (`J52_exact_metric_perturbation_box.json`), and next topology (`J52_first_remaining_nonserial_successor.json`)
+- Exact lattice tables: active H (`J52_H_active_exact.tsv.gz`), supplied H (`J52_H_supplied_exact.tsv.gz`), V (`J52_V_exact.tsv.gz`), maximal-face cycles (`J52_maximal_face_cycles.tsv.gz`), true edges (`J52_true_edges.tsv`), all nonincidences (`J52_nonincident_all.tsv.gz`)
+- Independent code and meshes: endpoint verifier (`verify_nimble_comet79_J52.py`), perturbation verifier (`verify_j52_shape_box.py`), exact geometry library (`J52_exact_geometry.py`), watertight OBJ (`J52_A4_terminal8.obj`), watertight STL (`J52_A4_terminal8.stl`)
 
 Archive SHA-256: `e390209e6f86890719a346a96d5d1b803e70ade7d8110332e82b22f1ae07b00b`. Exact-source SHA-256: `7564ed131a4df85d2f52bd1f4fc86464946295805e66a7c6ea59b36c5bb70661`. Integrity-manifest SHA-256: `aa8f67f304a55c20dfe7fbe0629915033fda8693c65c1bd4d9801a0ff580a9ef`. The clean extraction reproduced all three terminal markers and passed the internal manifest.
 

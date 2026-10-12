@@ -20,16 +20,16 @@ with strict own-centred class
 (S,U,H)=(2,1,1),
 ```
 
-not `(1,1,0)`. It is a rigorous finite **NONWINNER**, but it improves the supplied G44 endpoint from `(2,2,2)` to `(2,1,1)` and performs the assigned joint boundary deletion. The supplied journal records G44 as a 25,849-row, 14,424-active-facet exact endpoint whose two independent external-positive true-edge components force `U>=2`; it also requires their simultaneous removal in the next nonrepeating incidence change. :contentReference[oaicite:0]{index=0}
+not `(1,1,0)`. It is a rigorous finite **NONWINNER**, but it improves the supplied G44 endpoint from `(2,2,2)` to `(2,1,1)` and performs the assigned joint boundary deletion. The supplied journal records G44 as a 25,849-row, 14,424-active-facet exact endpoint whose two independent external-positive true-edge components force `U>=2`; it also requires their simultaneous removal in the next nonrepeating incidence change.
 
 Artifacts:
 
-- [Complete exact archive](sandbox:/mnt/data/AQ32_G44_GLOBAL_M42_EXACT_NONWINNER.zip)
-- [Complete detailed handoff](sandbox:/mnt/data/AQ32_G44_GLOBAL_M42_EXACT_NONWINNER/AQ32_G44_GLOBAL_M42_complete_handoff.md)
-- [Independent verifier](sandbox:/mnt/data/AQ32_G44_GLOBAL_M42_EXACT_NONWINNER/verify_AQ32_G44_GLOBAL_M42_independent.py)
-- [Q OBJ](sandbox:/mnt/data/AQ32_G44_GLOBAL_M42_EXACT_NONWINNER/AQ32_G44_GLOBAL_M42_Q.obj) · [Q STL](sandbox:/mnt/data/AQ32_G44_GLOBAL_M42_EXACT_NONWINNER/AQ32_G44_GLOBAL_M42_Q.stl) · [Q display preview](sandbox:/mnt/data/AQ32_G44_GLOBAL_M42_EXACT_NONWINNER/AQ32_G44_GLOBAL_M42_Q_preview_affine_normalized.png)
-- [Polar P OBJ](sandbox:/mnt/data/AQ32_G44_GLOBAL_M42_EXACT_NONWINNER/AQ32_G44_GLOBAL_M42_P.obj) · [P STL](sandbox:/mnt/data/AQ32_G44_GLOBAL_M42_EXACT_NONWINNER/AQ32_G44_GLOBAL_M42_P.stl)
-- [Archive SHA-256 record](sandbox:/mnt/data/AQ32_G44_GLOBAL_M42_EXACT_NONWINNER.zip.sha256)
+- Complete exact archive (`AQ32_G44_GLOBAL_M42_EXACT_NONWINNER.zip`)
+- Complete detailed handoff (`AQ32_G44_GLOBAL_M42_complete_handoff.md`)
+- Independent verifier (`verify_AQ32_G44_GLOBAL_M42_independent.py`)
+- Q OBJ (`AQ32_G44_GLOBAL_M42_Q.obj`) · Q STL (`AQ32_G44_GLOBAL_M42_Q.stl`) · Q display preview (`AQ32_G44_GLOBAL_M42_Q_preview_affine_normalized.png`)
+- Polar P OBJ (`AQ32_G44_GLOBAL_M42_P.obj`) · P STL (`AQ32_G44_GLOBAL_M42_P.stl`)
+- Archive SHA-256 record (`AQ32_G44_GLOBAL_M42_EXACT_NONWINNER.zip.sha256`)
 
 Archive SHA-256:
 

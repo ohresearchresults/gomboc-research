@@ -12,15 +12,15 @@ AI research report · 2026-08-27 UTC · [Export notes](../../catalog/coverage.md
 
 The first genuine continuation primitive is not either prescribed wall. On the compensated ray it is the exact circuit `{551,552,586,587}` at `alpha≈1.1529416975455552e-4`, strictly before the two inherited circuits near `alpha=1`. I crossed that wall by exact dyadic pre/post points, rebuilt both chambers, and stopped there as required. The post-wall chamber is the first root-unclassified actual topology. This is therefore a rigorous chamber-by-chamber result through the first genuinely new wall, not a global exclusion of every disconnected component of the five-parameter family.
 
-The supplied journal identified the two inherited walls and required a root strictly inside an actual own-centroid mechanical chamber. :contentReference[oaicite:0]{index=0} It also fixed the deterministic 4,324-row source and the two diagonal identities used below. :contentReference[oaicite:1]{index=1}
+The supplied journal identified the two inherited walls and required a root strictly inside an actual own-centroid mechanical chamber. It also fixed the deterministic 4,324-row source and the two diagonal identities used below.
 
 ## Verified artifact
 
-The complete exact atlas, ledgers, verifier, and meshes are in [slot4_two_collar_verified_nonwinner.zip](sandbox:/mnt/data/slot4_two_collar_verified_nonwinner.zip); its SHA-256 is
+The complete exact atlas, ledgers, verifier, and meshes are in slot4_two_collar_verified_nonwinner.zip; its SHA-256 is
 
 `b2e4d2f67d9bf86a6f1a142524df193e8c00755aad38fd74ed623af3d06513e3`.
 
-The checksum file is [slot4_two_collar_verified_nonwinner.zip.sha256](sandbox:/mnt/data/slot4_two_collar_verified_nonwinner.zip.sha256). In this runtime I independently re-ran the original manifest check, deterministic generator, full geometry verifier, and certificate verifier. All passed. The deterministic regeneration reports digest `cdaf6a4996b69a0cc41a021a4221277a77806d73362cc6b6befb7de8b67090f8`; the normative `two_collar_generator.json` file SHA-256 is `0992bea5c756b3a9f385e7d1fda0c20bae2ff09e11c51a80b44035daa3cf4e95`.
+The checksum file is slot4_two_collar_verified_nonwinner.zip.sha256. In this runtime I independently re-ran the original manifest check, deterministic generator, full geometry verifier, and certificate verifier. All passed. The deterministic regeneration reports digest `cdaf6a4996b69a0cc41a021a4221277a77806d73362cc6b6befb7de8b67090f8`; the normative `two_collar_generator.json` file SHA-256 is `0992bea5c756b3a9f385e7d1fda0c20bae2ff09e11c51a80b44035daa3cf4e95`.
 
 ## Exact deterministic five-variable family
 

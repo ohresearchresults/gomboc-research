@@ -34,15 +34,15 @@ The exact supplementary escape certificate has **K=3334696**, primal root **138*
 
 The following are actual retained endpoint and replay files, not provisional filenames:
 
-[Six-file standalone exact recovery bundle, JSON](sandbox:/mnt/data/kr68/KR68_CAP257_C1364/bundle.json)
+Six-file standalone exact recovery bundle, JSON (`bundle.json`)
 
-[The same complete bundle, base85/zlib](sandbox:/mnt/data/kr68/KR68_CAP257_C1364/bundle.b85)
+The same complete bundle, base85/zlib (`bundle.b85`)
 
-[Exact PN03 defining bytes](sandbox:/mnt/data/kr68/KR68_CAP257_C1364/capsule.pn03)
+Exact PN03 defining bytes (`capsule.pn03`)
 
-[Completed full replay report](sandbox:/mnt/data/kr68/KR68_CAP257_C1364/REPLAY_REPORT.json)
+Completed full replay report (`REPLAY_REPORT.json`)
 
-[Observed fresh source-only replay receipt](sandbox:/mnt/data/kr68/KR68_CAP257_C1364/COLD_RECEIPT.json)
+Observed fresh source-only replay receipt (`COLD_RECEIPT.json`)
 
 The inline reconstruction in Section 6 is a **parent-relative deterministic replay**, with the assigned journal as an explicit input. It does not require any of these sandbox files. The standalone bundle bypasses numerical discovery entirely and needs only Python's standard library. The bundle's literal encoded body is not duplicated inline here; this is a delivery limitation relative to the requested fully inlined, journal-independent byte capsule. The parent-relative program is supplied so continuation does not depend solely on a sandbox attachment.
 

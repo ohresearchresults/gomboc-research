@@ -8,9 +8,9 @@ AI research report · 2026-08-27 UTC
 
 ## Verdict
 
-**No homogeneous convex polyhedral Gömböc was obtained.** The run’s acceptance gate requires a finite uniform-density body evaluated at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete irredundant H/V data, every maximal face and true edge, positive full-normal-cone margins, an independent exact or directed verifier, and matching OBJ/STL; artificial centres, wall points, near-solutions, and unmaterialized existence arguments are excluded. :contentReference[oaicite:0]{index=0}
+**No homogeneous convex polyhedral Gömböc was obtained.** The run’s acceptance gate requires a finite uniform-density body evaluated at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete irredundant H/V data, every maximal face and true edge, positive full-normal-cone margins, an independent exact or directed verifier, and matching OBJ/STL; artificial centres, wall points, near-solutions, and unmaterialized existence arguments are excluded.
 
-The predecessor Conway result had already isolated the correct remaining mechanism: its 21-vertex `C5` hull is mechanically `(1,1,0)` in an open axial chamber, but its volume centroid lies `0.38190820146601345` above that chamber; the first face/edge walls arrive after only `1.11%–1.21%` of the linearized centring step, and 12,672 ordinary fifth-ring hulls found no winner. The journal therefore called for a complete fivefold two-cell volumetric collar with counterphased layers. :contentReference[oaicite:1]{index=1}
+The predecessor Conway result had already isolated the correct remaining mechanism: its 21-vertex `C5` hull is mechanically `(1,1,0)` in an open axial chamber, but its volume centroid lies `0.38190820146601345` above that chamber; the first face/edge walls arrive after only `1.11%–1.21%` of the linearized centring step, and 12,672 ordinary fifth-ring hulls found no winner. The journal therefore called for a complete fivefold two-cell volumetric collar with counterphased layers.
 
 That architecture has now been materialized and audited exactly. It genuinely adds two counterphased pentagonal layers, transports macroscopic volume downward, preserves a broad strict `(1,1,0)` mechanical chamber, and nearly synchronizes the two target fivefold wall packets. The synchronization has the wrong sign: it creates, rather than cancels, complete equilibrium orbits. At the body’s own exact volume centroid the class is
 
@@ -85,8 +85,8 @@ q_f=\frac{(v_b-v_a)\times(v_c-v_a)}
 
 The expanded exact field coefficients of **all 31 centred V rows and all 51 normalized H rows** are in the machine certificate:
 
-- [Expanded exact certificate](sandbox:/mnt/data/conway_two_cell_collar/two_cell_certificate.json)
-- [Compact normative generator](sandbox:/mnt/data/conway_two_cell_collar/two_cell_generator.json)
+- Expanded exact certificate (`two_cell_certificate.json`)
+- Compact normative generator (`two_cell_generator.json`)
 
 ## 3. Actual rebuilt lattice
 
@@ -379,23 +379,23 @@ Only if that two-layer mode-one cell still transfers the Euler-neutral block sho
 
 ## 10. Artifacts
 
-- [Complete checksummed handoff ZIP](sandbox:/mnt/data/conway_two_cell_collar_handoff.zip) — SHA-256 `b2ed82e0099f81c57bfd9267da53a0b02d256f63c15732d7d7eca30a420b5bfb`.
-- [ZIP SHA-256 file](sandbox:/mnt/data/conway_two_cell_collar_handoff.zip.sha256)
-- [Full Markdown handoff with all faces and edges](sandbox:/mnt/data/conway_two_cell_collar/README.md)
-- [Compact exact generator data](sandbox:/mnt/data/conway_two_cell_collar/two_cell_generator.json)
-- [Expanded exact H/V, topology, moment and mechanics certificate](sandbox:/mnt/data/conway_two_cell_collar/two_cell_certificate.json)
-- [Deterministic algebraic generator and primary verifier](sandbox:/mnt/data/conway_two_cell_collar/generate_exact_two_cell.py)
-- [Clean-room exact verifier](sandbox:/mnt/data/conway_two_cell_collar/independent_exact_verify.py)
-- [Clean-room verifier output](sandbox:/mnt/data/conway_two_cell_collar/independent_exact_verify_output.json)
-- [Directed perturbation-box verifier](sandbox:/mnt/data/conway_two_cell_collar/verify_parameter_box.py)
-- [Perturbation-box certificate](sandbox:/mnt/data/conway_two_cell_collar/parameter_box_output.json)
-- [Independent mesh/Qhull audit](sandbox:/mnt/data/conway_two_cell_collar/independent_mesh_audit.py)
-- [Independent mesh audit output](sandbox:/mnt/data/conway_two_cell_collar/independent_mesh_audit_output.json)
-- [Watertight maximal-face OBJ](sandbox:/mnt/data/conway_two_cell_collar/two_cell_collar.obj)
-- [Watertight 58-triangle STL](sandbox:/mnt/data/conway_two_cell_collar/two_cell_collar.stl)
-- [Search scope and rejected routes](sandbox:/mnt/data/conway_two_cell_collar/search_report.json)
-- [Fresh combined verifier transcript](sandbox:/mnt/data/conway_two_cell_collar/RUN_ALL_VERIFIERS.txt)
-- [SHA-256 manifest](sandbox:/mnt/data/conway_two_cell_collar/MANIFEST.sha256)
+- Complete checksummed handoff ZIP (`conway_two_cell_collar_handoff.zip`) — SHA-256 `b2ed82e0099f81c57bfd9267da53a0b02d256f63c15732d7d7eca30a420b5bfb`.
+- ZIP SHA-256 file (`conway_two_cell_collar_handoff.zip.sha256`)
+- Full Markdown handoff with all faces and edges (`README.md`)
+- Compact exact generator data (`two_cell_generator.json`)
+- Expanded exact H/V, topology, moment and mechanics certificate (`two_cell_certificate.json`)
+- Deterministic algebraic generator and primary verifier (`generate_exact_two_cell.py`)
+- Clean-room exact verifier (`independent_exact_verify.py`)
+- Clean-room verifier output (`independent_exact_verify_output.json`)
+- Directed perturbation-box verifier (`verify_parameter_box.py`)
+- Perturbation-box certificate (`parameter_box_output.json`)
+- Independent mesh/Qhull audit (`independent_mesh_audit.py`)
+- Independent mesh audit output (`independent_mesh_audit_output.json`)
+- Watertight maximal-face OBJ (`two_cell_collar.obj`)
+- Watertight 58-triangle STL (`two_cell_collar.stl`)
+- Search scope and rejected routes (`search_report.json`)
+- Fresh combined verifier transcript (`RUN_ALL_VERIFIERS.txt`)
+- SHA-256 manifest (`MANIFEST.sha256`)
 
 ## Bottom line
 

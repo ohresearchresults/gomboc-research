@@ -16,7 +16,7 @@ All137 supplied support planes are active. The sole stable maximal facet is **in
 
 Both independent full exact implementations actually completed on this new body. Their complete normalized records agree byte-for-byte. Both completed again from a clean directory restored solely from the literal capsule below, together with a third centred-integer mass integration, complete parent-complex comparison and nonvacuous weak-equilibrium fixtures. The complete numerical proposal also actually reproduced the entire frozen winner generator byte-for-byte.
 
-The immutable parent is **`figure-0359`**, journal SHA-256 **5f57852087082e58a87bf09e4674cddc11627f384f7ac9124c0c8102d12d1d29**, defining `BQ13_C628_VERTEX_71_73_R6_OWN110`. Its complete27-file capsule was recovered, its manifest checked, and every decoded file compared with the supplied source ZIP. No parent-definition conflict was found. The current synthesis explicitly distinguishes this degree-six body from RL07 and identifies the old positive-epsilon checkpoint as own121, not C626. :contentReference[oaicite:0]{index=0}
+The immutable parent is **`figure-0359`**, journal SHA-256 **5f57852087082e58a87bf09e4674cddc11627f384f7ac9124c0c8102d12d1d29**, defining `BQ13_C628_VERTEX_71_73_R6_OWN110`. Its complete27-file capsule was recovered, its manifest checked, and every decoded file compared with the supplied source ZIP. No parent-definition conflict was found. The current synthesis explicitly distinguishes this degree-six body from RL07 and identifies the old positive-epsilon checkpoint as own121, not C626.
 
 This result improves the **specified lineage**. It is not a literature-wide record, global-minimum proof, C32 lower-bound theorem, or the coordinator's separate RL07-contact construction. The winner has **no vertex carrying all of [16,18,71,94]**.
 
@@ -229,11 +229,11 @@ OPENBLAS_NUM_THREADS=1 python BQ13_C626/RECOVER_EXPERIMENTS.py DOUBLE38_69 --out
 
 The finite winning proposal is `contract.py --source C628_WINNER --an154 --bn159`; the original basin closure additionally supplies the literal `experiments/BLOWUP_CHECKPOINT.json` with nodes152/155. `REPROPOSE626.py` contains every nondefault parameter and actually re-executes both complete contractions and the reference-only repair. Frozen generators, not another platform's floating roundoff, define the exact bodies.
 
-[Verified full bundle](sandbox:/mnt/data/BQ13_C626_VERIFIED_FULL.zip): **9297988bytes**,167 files, SHA-256 **339ad4f636899d5ee0032ecf2d91272994a39735865c0816d949d8ebdb3a5d02**. It contains actual audits/receipts, exact coordinates and mass, display-only OBJ, all critical sources and optional archival numerical probes.
+Verified full bundle (`BQ13_C626_VERIFIED_FULL.zip`): **9297988bytes**,167 files, SHA-256 **339ad4f636899d5ee0032ecf2d91272994a39735865c0816d949d8ebdb3a5d02**. It contains actual audits/receipts, exact coordinates and mass, display-only OBJ, all critical sources and optional archival numerical probes.
 
-[Source-only archive](sandbox:/mnt/data/BQ13_C626_SOURCE_ONLY.zip): **103524bytes**,45 files, SHA-256 **f2fd6ad34a36f20f6138b7fa85ce1c3431efb3fc61aead1cc2dc71452e287d2b**. Both archive manifests were read back and checked.
+Source-only archive (`BQ13_C626_SOURCE_ONLY.zip`): **103524bytes**,45 files, SHA-256 **f2fd6ad34a36f20f6138b7fa85ce1c3431efb3fc61aead1cc2dc71452e287d2b**. Both archive manifests were read back and checked.
 
-[Markdown handoff](sandbox:/mnt/data/BQ13_C626_RESULT.md) and [v2 JSON handoff](sandbox:/mnt/data/BQ13_C626_RESULT_v2.json) are supplemental copies. None of these links is needed to recover the three exact definitions below.
+Markdown handoff (`BQ13_C626_RESULT.md`) and v2 JSON handoff (`BQ13_C626_RESULT_v2.json`) are supplemental copies. None of these links is needed to recover the three exact definitions below.
 
 The capsule contains **45 complete UTF-8 text files**, with44 manifest-bound payloads: literal parent and new generators, all ordered incidences, all rational reconstruction and verification code, successful proposal source/helpers/inputs, retained regular checkpoints and scoped unsuccessful methods. No unspecified helper or previous sandbox is required. Legacy unused optimization/CLI tails were removed; every required callable helper remains, and the reduced sources were actually replayed.
 

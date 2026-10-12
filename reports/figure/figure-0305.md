@@ -22,7 +22,7 @@ These are uniform-volume moment inequalities, not point-mass statements. They gi
 
 ## 2. Literal source and independent reconstruction
 
-The authoritative parent is `figure-0302`, SHA-256 `7bee5c7c2ae1d9f02028c3b1568cf6d081bb8f8014bb9044bd6a37ffaeb16aaf`. Its literal AX12 endpoint is origin-relative `(1,1,0)` and own-centroid `(6,9,13)`. Its fixed-old-vertex two-apex cell has the inherited positive-moment obstruction. No conflict was found in its coordinates, incidence, mass or endpoint mechanical class. I independently reconstructed those endpoint facts; I did not re-certify the parent's continuous cancellation chronology. :contentReference[oaicite:0]{index=0}
+The authoritative parent is `figure-0302`, SHA-256 `7bee5c7c2ae1d9f02028c3b1568cf6d081bb8f8014bb9044bd6a37ffaeb16aaf`. Its literal AX12 endpoint is origin-relative `(1,1,0)` and own-centroid `(6,9,13)`. Its fixed-old-vertex two-apex cell has the inherited positive-moment obstruction. No conflict was found in its coordinates, incidence, mass or endpoint mechanical class. I independently reconstructed those endpoint facts; I did not re-certify the parent's continuous cancellation chronology.
 
 Let `D=1073741824`. The following integer table defines `v_i=N_i/D`. The label `0` denotes a vertex, **not** the mechanical origin.
 
@@ -42,7 +42,7 @@ BP    -566452371   -64944888     6045068
 BM    -357321279  -165773795   -89441010
 ```
 
-The first ten rows are AX10. All twelve are the literal AX12 endpoint, not a new deformation or a relabelled seed. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The first ten rows are AX10. All twelve are the literal AX12 endpoint, not a new deformation or a relabelled seed.
 
 ### Complete actual incidence
 
@@ -68,7 +68,7 @@ AW-AX AW-AY AW-BP
 AX-BP AX-BM AY-BP AY-BM BP-BM
 ```
 
-For AX10, remove the six AX12 triangles containing `BP` or `BM` and insert `[AW,AX,AY]` and `[AT,AY,AX]`. This gives its complete sixteen-face lattice; its 24 true edges are exactly the unordered pairs in those cycles. These incidences agree with the literal parent. :contentReference[oaicite:3]{index=3}
+For AX10, remove the six AX12 triangles containing `BP` or `BM` and insert `[AW,AX,AY]` and `[AT,AY,AX]`. This gives its complete sixteen-face lattice; its 24 true edges are exactly the unordered pairs in those cycles. These incidences agree with the literal parent.
 
 An exact H representation is reconstructed from each face `(a,b,c)` by `n=(b-a)×(c-a)`, `h=n·a`, `n·x<=h`, followed by clearing denominators and integer-gcd reduction. The new audit enumerates **all** input triples, accepts precisely the globally supporting planes, groups by primitive integer plane, and recovers the stated triangles and edges without a numerical hull oracle.
 
@@ -96,7 +96,7 @@ g12.z = 1652705611035370547567172720577370379
          /18717444829315929351592901827926949888
 ```
 
-Thus `g10≈(-0.07953061,0.49303796,0.08910712)` and `g12≈(-0.0828854311,0.4878244688,0.0882976083)`. Exact first moments are `M10=V10*g10`, `M12=V12*g12`; the latter reproduce the parent's printed fractions. Translation by the respective exact centroid gives exactly zero ordinary first moments, but not the desired mechanics. The AX12 values agree with the parent. :contentReference[oaicite:4]{index=4}
+Thus `g10≈(-0.07953061,0.49303796,0.08910712)` and `g12≈(-0.0828854311,0.4878244688,0.0882976083)`. Exact first moments are `M10=V10*g10`, `M12=V12*g12`; the latter reproduce the parent's printed fractions. Translation by the respective exact centroid gives exactly zero ordinary first moments, but not the desired mechanics. The AX12 values agree with the parent.
 
 I integrated each body twice: first using the origin and outward boundary triangles, then using tetrahedra with common vertex `C` and the opposite boundary. Both rational computations give identical volumes and all three first moments. Explicitly, the origin-based sums are `V=sum det(a,b,c)/6` and `M=sum det(a,b,c)*(a+b+c)/24`.
 
@@ -128,7 +128,7 @@ AX12 at its exact own centroid: (6,9,13)
     AT-BM,AU-AX,AW-BP,AY-BP,AY-BM,BP-BM
 ```
 
-The AX12 classifications reproduce the immutable endpoint. :contentReference[oaicite:5]{index=5} The AX10 own-centroid classification above is an additional exact audit in this continuation.
+The AX12 classifications reproduce the immutable endpoint. The AX10 own-centroid classification above is an additional exact audit in this continuation.
 
 For reproducibility, the complete sign-test recipe is as follows. Center every vertex at the point being tested. On oriented triangle `(a,b,c)`, set `n=(b-a)×(c-a)` and, cyclically, evaluate `-a·(n×(b-a))/||n||²`; the three values sum to one, and the face is stable exactly when all three are positive. At vertex `a`, evaluate `a·(a-b)/||a-b||²` for every true neighbour `b`; all must be positive for instability. On true edge `a,b`, put `d=b-a`, `t=-a·d/||d||²`, `p=a+td`; using both incident outward normals, solve the exact 2×2 Gram system `p=beta1*n1+beta2*n2`. The edge is a saddle exactly when `t,1-t,beta1,beta2` are all positive. No edge is dropped because a face or endpoint is noncritical.
 
@@ -292,7 +292,7 @@ bounds every path using that direction. The unique unstable target is allowed to
 
 The last cone angles are approximately `3.182°` and `2.292°`; their exact cosine thresholds are `1295/1297` and `2499/2501`. The cone-union statements allow arbitrary numbers of vertices, any stable and unstable identities, any hull incidence, and unbounded positive radial motion. A path may revisit cone labels, but all inter-cone upper weights are at most one; removing an abstract loop cannot decrease its upper product. The finite maximum-path calculation therefore bounds paths of arbitrary length.
 
-In particular, literal AX12 with all twelve radial scales released plus a completely free `BR` return apex remains impossible to centre in a unique-unstable chamber. This is a larger moving-material class than the old fixed-source AX13 suggestion. It is separate from the inherited six-support-plane capacity result, which assumes containment of the original AX10 and the inherited origin. :contentReference[oaicite:6]{index=6}
+In particular, literal AX12 with all twelve radial scales released plus a completely free `BR` return apex remains impossible to centre in a unique-unstable chamber. This is a larger moving-material class than the old fixed-source AX13 suggestion. It is separate from the inherited six-support-plane capacity result, which assumes containment of the original AX10 and the inherited origin.
 
 ## 7. Complete finite certificate recipe
 
@@ -402,15 +402,15 @@ Moving the mechanical reference is another genuine escape only when it changes t
 
 ## 10. Supplementary replay package
 
-[Exact scripts, complete rational ledgers, source audits and replay transcript](sandbox:/mnt/data/AX_moving_geometry_exact_KQ73.zip)
+Exact scripts, complete rational ledgers, source audits and replay transcript (`AX_moving_geometry_exact_KQ73.zip`)
 
-[Standalone integer obstruction verifier](sandbox:/mnt/data/AX_moving_geometry_standalone.py)
+Standalone integer obstruction verifier (`AX_moving_geometry_standalone.py`)
 
-[Complete handoff, including inline executable verifier, as Markdown](sandbox:/mnt/data/AX_moving_geometry_HANDOFF.md)
+Complete handoff, including inline executable verifier, as Markdown (`AX_moving_geometry_HANDOFF.md`)
 
-[Machine-readable handoff](sandbox:/mnt/data/AX_moving_geometry_result.json)
+Machine-readable handoff (`AX_moving_geometry_result.json`)
 
-[Clean-extraction replay transcript](sandbox:/mnt/data/AX_moving_geometry_clean_replay.txt)
+Clean-extraction replay transcript (`AX_moving_geometry_clean_replay.txt`)
 
 Run `bash RUN_ALL.sh` from a clean extraction. The replay joins all isolated component processes and ends with:
 

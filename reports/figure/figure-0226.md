@@ -8,13 +8,13 @@ AI research report · 2026-09-02 UTC
 
 ## Artifact
 
-[Replay bundle](sandbox:/mnt/data/Calm_Raven_06_closededge21_exact_NONWINNER.zip) · [SHA-256](sandbox:/mnt/data/Calm_Raven_06_closededge21_exact_NONWINNER.zip.sha256) · [full report](sandbox:/mnt/data/Calm_Raven_06_closededge21_exact_NONWINNER/RESULT.md) · [master certificate](sandbox:/mnt/data/Calm_Raven_06_closededge21_exact_NONWINNER/closededge21_master_certificate.json) · [independent receipt](sandbox:/mnt/data/Calm_Raven_06_closededge21_exact_NONWINNER/independent_closededge21_verification.json) · [OBJ](sandbox:/mnt/data/Calm_Raven_06_closededge21_exact_NONWINNER/endpoint21/endpoint_centered.obj) · [STL](sandbox:/mnt/data/Calm_Raven_06_closededge21_exact_NONWINNER/endpoint21/endpoint_centered.stl).
+Replay bundle (`Calm_Raven_06_closededge21_exact_NONWINNER.zip`) · SHA-256 (`Calm_Raven_06_closededge21_exact_NONWINNER.zip.sha256`) · full report (`RESULT.md`) · master certificate (`closededge21_master_certificate.json`) · independent receipt (`independent_closededge21_verification.json`) · OBJ (`endpoint_centered.obj`) · STL (`endpoint_centered.stl`).
 
 Archive SHA-256: `78b7fd3400557003a9dc897254821cb5ab19ff68e7307255fdf339bfc6130a4b`. A pristine extraction passed all 104 immutable manifest entries and terminated with `INDEPENDENT_EXACT_CLOSEDEDGE21_PASS` and `ALL_EXACT_CLOSEDEDGE21_VERIFIERS_PASS`.
 
 ## Determination
 
-**Exact nonwinner.** The accepted `crosslinked17` parent was advanced through the requested nonserial closed shared-interior-edge terminal volume. Four new supports are genuine extreme facets. The endpoint has 21 supplied rows but 11 actual facets, summand `(V,E,F)=(16,25,11)`, exact ordinary-centred common refinement `(71,132,63)`, complexity 264, and strict `(S,U,H)=(2,2,2)`. It therefore does not satisfy the required materialized own-centroid `(1,1,0)` gate. :contentReference[oaicite:0]{index=0}
+**Exact nonwinner.** The accepted `crosslinked17` parent was advanced through the requested nonserial closed shared-interior-edge terminal volume. Four new supports are genuine extreme facets. The endpoint has 21 supplied rows but 11 actual facets, summand `(V,E,F)=(16,25,11)`, exact ordinary-centred common refinement `(71,132,63)`, complexity 264, and strict `(S,U,H)=(2,2,2)`. It therefore does not satisfy the required materialized own-centroid `(1,1,0)` gate.
 
 The event deletes parent carriers `D(1,13,15)` and `D(6,15,16)`, their old extra-U/extra-S identities, structural edge `(4,8)`, and all old saddle pairs `(4,8),(4,16),(13,15),(14,15)`. Intended `D045` and `D048` survive exactly. A replacement Euler-neutral packet is born, so this is deletion-and-rebirth rather than cancellation.
 

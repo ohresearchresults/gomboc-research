@@ -320,9 +320,9 @@ result.update({'unchanged_common_physical_points':173,'delta_V_E_F':[1,1,0],
 print(json.dumps(result,sort_keys=True,separators=(',',':')))
 ```
 
-Convenience copies, not substitutes for the literal recovery below: [source-only archive](sandbox:/mnt/data/ATLAS59_SOURCE_ONLY.zip),54377 bytes/SHA `f9a0f45d34c7ae6c7f4fd145da851775deb673718e5d3655e5863dadc3cc4c00`; [full completed proofs and logs](sandbox:/mnt/data/ATLAS59_VERIFIED_FULL.zip),1657709 bytes/SHA `5a7ada69804b76e6dccfcca9dd11b5e310371c5565b479b0a916b8596134998c`. Both archives were read back byte-for-byte. The source archive contains the14 core files plus the decoder, payload and additional route checker.
+Convenience copies, not substitutes for the literal recovery below: source-only archive (`ATLAS59_SOURCE_ONLY.zip`),54377 bytes/SHA `f9a0f45d34c7ae6c7f4fd145da851775deb673718e5d3655e5863dadc3cc4c00`; full completed proofs and logs (`ATLAS59_VERIFIED_FULL.zip`),1657709 bytes/SHA `5a7ada69804b76e6dccfcca9dd11b5e310371c5565b479b0a916b8596134998c`. Both archives were read back byte-for-byte. The source archive contains the14 core files plus the decoder, payload and additional route checker.
 
-Additional copies: [complete Markdown handoff](sandbox:/mnt/data/ATLAS59_RESULT.md) and [v2 JSON handoff](sandbox:/mnt/data/ATLAS59_RESULT_v2.json).
+Additional copies: complete Markdown handoff (`ATLAS59_RESULT.md`) and v2 JSON handoff (`ATLAS59_RESULT_v2.json`).
 
 ### Literal core payload
 

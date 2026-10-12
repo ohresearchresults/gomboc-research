@@ -16,9 +16,9 @@ There are three concrete outputs, which must not be conflated:
 2. A **constructive, exactly centred, partly polyhedral `(1,1,0)` body**: its two critical neighborhoods are replaced by explicitly specified finite polyhedral collars, including a complete common-separator proof at their interfaces with the remaining curved surface. Its noncritical belt is still curved. The two truncated collar meshes were actually expanded, with 94,209 and 94,208 vertices. This is not an all-polyhedral Gömböc.
 3. An exact band/slab moment operator that permits local remeshing or section translation while keeping volume moments hard-constrained and leaving all distant complete feature stars unchanged. This supplies a route for joining the first two outputs, but I did not finish that compatible finite belt.
 
-The attached journal's latest allocation distinguishes this intrinsic route from the coordinator's projective route. I used no unprovided formulas or artifacts from the cancelled smooth assignment. All data and proofs below were reconstructed in this turn. Journal input SHA-256: `909a949e6b9ef6c03d71f654109c20b2c1559f09004f85cb25b7b15f81f7a54e`. :contentReference[oaicite:0]{index=0}
+The attached journal's latest allocation distinguishes this intrinsic route from the coordinator's projective route. I used no unprovided formulas or artifacts from the cancelled smooth assignment. All data and proofs below were reconstructed in this turn. Journal input SHA-256: `909a949e6b9ef6c03d71f654109c20b2c1559f09004f85cb25b7b15f81f7a54e`.
 
-The smooth source below is a translated-section construction, not the journal's `R^4` radial surface. The published radial representation is useful context, but is not a premise of these calculations; no priority claim is made for the alternative source. :contentReference[oaicite:1]{index=1}
+The smooth source below is a translated-section construction, not the journal's `R^4` radial surface. The published radial representation is useful context, but is not a premise of these calculations; no priority claim is made for the alternative source.
 
 ## 1. A volume-centred smooth source with linear section moments
 
@@ -736,8 +736,8 @@ if __name__=='__main__':
 
 ## 9. Supplementary artifacts
 
-[Complete proof, exact data, checks, and meshes](sandbox:/mnt/data/keen_quartz_mass_balance_handoff.zip). Archive SHA-256: `88d2fac95165c3be9a321d21e3d86fd4ea40191ea0bc39dc337a80d9eec1cec2`.
+Complete proof, exact data, checks, and meshes (`keen_quartz_mass_balance_handoff.zip`). Archive SHA-256: `88d2fac95165c3be9a321d21e3d86fd4ea40191ea0bc39dc337a80d9eec1cec2`.
 
-[Standalone exact finite checker](sandbox:/mnt/data/keen_quartz_mass_balance/replay_exact.py). Its complete source is also embedded above.
+Standalone exact finite checker (`replay_exact.py`). Its complete source is also embedded above.
 
-[Readable Markdown handoff](sandbox:/mnt/data/keen_quartz_mass_balance/HANDOFF.md). None of these links is the sole source of a continuation-critical construction.
+Readable Markdown handoff (`HANDOFF.md`). None of these links is the sole source of a continuation-critical construction.

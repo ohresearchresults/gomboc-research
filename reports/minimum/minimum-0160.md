@@ -30,13 +30,13 @@ Two reusable structural conclusions are proved en route:
 
 Thus a surviving proper33 negative-anchor joint maximum must have at least two root-adjacent unprotected polygons, and either at least three unprotected nonsimplicial facets or an unprotected facet with at least five true vertices.
 
-**The proper33 hypothesis is additional in the negative-anchor sector.** It has not been proved automatic there. Enlarged coordinate patches, redundant C/D marks, three or more free quadrilaterals, and free pentagons or larger facets are not eliminated by the main theorem. No universal `T<51/25`, no numerical bound on the supremum of arbitrary bodies in this nonclosed sector, and no finite termination of improving variations is asserted. The mechanical interval remains `34<=C_min<=622`. :contentReference[oaicite:0]{index=0}
+**The proper33 hypothesis is additional in the negative-anchor sector.** It has not been proved automatic there. Enlarged coordinate patches, redundant C/D marks, three or more free quadrilaterals, and free pentagons or larger facets are not eliminated by the main theorem. No universal `T<51/25`, no numerical bound on the supremum of arbitrary bodies in this nonclosed sector, and no finite termination of improving variations is asserted. The mechanical interval remains `34<=C_min<=622`.
 
 ## 2. Input closure and evidence
 
 The complete new journal was read through line 1745/EOF, including the full literal parent payload and its source code. Its whole-file identity is 289,523 UTF-8 bytes, SHA-256 `a546e2111e8362d830c95c35dd7128761c8fff12ed5c2faab3564ee31dfb62d9`. The new cap-erasure proof was read through EOF: 10,958 bytes, SHA-256 `c23e9d7f45f6fa3436daac568156befa6dd5bd7d7c8d43205a47d23601a50337`.
 
-The unchanged three analytic sources and earlier journal had already been read fully in this chat. The parent is the runtime-identified `minimum-0156`, declared SHA-256 `7432ccd712e9d766758a21f7ee4a1bfe2992a54e3e0cbc25154611566f8ac5aa`. Its simplicial-unprotected exclusion is inherited, not re-proved as a new result. :contentReference[oaicite:1]{index=1} No mathematical conflict between that literal payload and the new journal's description was found. The attached previous audit source/output also retain their stated 7,004/5,208-byte identities.
+The unchanged three analytic sources and earlier journal had already been read fully in this chat. The parent is the runtime-identified `minimum-0156`, declared SHA-256 `7432ccd712e9d766758a21f7ee4a1bfe2992a54e3e0cbc25154611566f8ac5aa`. Its simplicial-unprotected exclusion is inherited, not re-proved as a new result. No mathematical conflict between that literal payload and the new journal's description was found. The attached previous audit source/output also retain their stated 7,004/5,208-byte identities.
 
 The new proof below is independent of a reconstruction of the historical <=16-vertex localization or the old covariance-control executables. Those missing historical executable sources are not dependencies of this result. The finite audit and actual-body control below have no external data-file dependency.
 
@@ -76,7 +76,7 @@ At a full-class fixed-ell local maximum, every auxiliary true vertex has strictl
 max_H G + 3 mean_H G <= 0.                         (3.1)
 ```
 
-These are the supplied cap/thin-edge-cap and outward-pyramid variation results, not fixed-lattice stationarity. They imply that every unprotected facet contains a canonical mark. The supplied one-canonical rigidity theorem makes a one-mark facet a triangle `[X,u,v]`, with `G(u)=G(v)=-G(X)/3>0`. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+These are the supplied cap/thin-edge-cap and outward-pyramid variation results, not fixed-lattice stationarity. They imply that every unprotected facet contains a canonical mark. The supplied one-canonical rigidity theorem makes a one-mark facet a triangle `[X,u,v]`, with `G(u)=G(v)=-G(X)/3>0`.
 
 For a true triangular facet and an auxiliary vertex z, the entire-plane displacement given by its barycentric coordinate lambda_z fixes every canonical mark in that triangle. Both signs are admissible, so
 
@@ -97,7 +97,7 @@ Indeed, it vanishes on the kernel `h(X)=h(Y)=0`, because those whole-plane motio
 
 A facet containing three canonical marks is not treated as ordinary. Its three reactions remain; the plane is not freely rotatable through three fixed noncollinear marks. The finite audit explicitly omits any triangle equations on ACD or BCD.
 
-All these motions are available inside the full joint problem. We only need its fixed-ell subfamily; neither independent root moments nor projective covariance completions are substituted. The genuine positive-endpoint root-plane identities remain valid under the supplied hypotheses, but are not needed for the contradiction. In particular, none is imposed on the nonstationary control below or extended to a zero-endpoint boundary. :contentReference[oaicite:4]{index=4}
+All these motions are available inside the full joint problem. We only need its fixed-ell subfamily; neither independent root moments nor projective covariance completions are substituted. The genuine positive-endpoint root-plane identities remain valid under the supplied hypotheses, but are not needed for the contradiction. In particular, none is imposed on the nonstationary control below or extended to a zero-endpoint boundary.
 
 ## 4. New auxiliary-vertex localization
 
@@ -749,7 +749,7 @@ if __name__ == '__main__':
     print('PROPER33_TWO_QUADRILATERAL_OBSTRUCTION_EXACT_AUDIT_PASS')
 ```
 
-Convenience copies, not recovery dependencies: [complete source](sandbox:/mnt/data/two_quad_obstruction_audit.py) and [complete exact output](sandbox:/mnt/data/two_quad_obstruction_audit.out).
+Convenience copies, not recovery dependencies: complete source (`two_quad_obstruction_audit.py`) and complete exact output (`two_quad_obstruction_audit.out`).
 
 ## 10. Most useful continuation and unresolved alternatives
 
@@ -764,6 +764,6 @@ For any surviving full joint maximum with `T>=tau`, the supplied new cap theorem
 H_tau=max(a,b,c,d,(a+c+d)/tau).
 ```
 
-This remains available in the negative-anchor branch. Its stronger `ell<=a` conclusion requires `G(C),G(D)>=0` and has not been imported here. Clipping preserves the root and proper33 when initially present, but need not preserve a prescribed G-sign sector. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+This remains available in the negative-anchor branch. Its stronger `ell<=a` conclusion requires `G(C),G(D)>=0` and has not been imported here. Clipping preserves the root and proper33 when initially present, but need not preserve a prescribed G-sign sector.
 
 The most direct next calculation is the full coupled area-reaction system of a three-quadrilateral proper33 fan, allowing an off-root auxiliary vertex only where the new localization permits it. The alternative that a remaining polygonal class supports `T>=51/25` is unresolved. No abstract moment completion, separately optimized root polygon, or auxiliary annular fan has been identified with a realized stationary uniform body.

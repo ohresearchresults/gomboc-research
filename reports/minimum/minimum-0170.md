@@ -16,7 +16,7 @@ This is a whole-sector reduction, **not a proof of `T<51/25` on the resulting fi
 
 ## 1. Input authority and a byte-identity limitation
 
-I read the supplied journal through all 1,775 lines, including the literal parent, and decoded and read the parent's complete 28,298-byte source through EOF. The starting theorem is the literal `minimum-0164`, declared SHA-256 `24b1e77ad400149d28a7ab046bbf9f750c5360fde51ae076aeab5565d3a18d84`. Its small-endpoint theorem and its explicit exclusion of the high-endpoint horizon case are the starting point, not conclusions extended by analogy. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+I read the supplied journal through all 1,775 lines, including the literal parent, and decoded and read the parent's complete 28,298-byte source through EOF. The starting theorem is the literal `minimum-0164`, declared SHA-256 `24b1e77ad400149d28a7ab046bbf9f750c5360fde51ae076aeab5565d3a18d84`. Its small-endpoint theorem and its explicit exclusion of the high-endpoint horizon case are the starting point, not conclusions extended by analogy.
 
 There is a serialization identity limitation: the scientific-parent suffix actually present in this journal, from its title through EOF, is 45,680 UTF-8 bytes with SHA-256 `39e2c5e55f64034039ae4d23545887b248ce6f898fe465a46115352107b57257`, whereas the journal describes a 46,500-byte immutable publication. I cannot authenticate that separate publication envelope from these bytes. I saw no truncation marker or incomplete code block and do not infer what any envelope difference contained. Crucially, the embedded source decodes and authenticates exactly to 28,298 bytes, SHA-256 `8c39f3c5fcc647d89794aa13a81c9c8f475ddedf323a56fb65c001f9e36f8cb9`, matching the parent's source pin. The parent certificate was not rerun. No mathematical conflict between its supplied proof and the journal summary was found.
 
@@ -92,7 +92,7 @@ L_D=Lbase+r/d, L_C=Lbase+r/c, L_B=Lbase+r/b,
 
 also shows that any corner on or beyond the inverse horizon is attached to the **unique largest** of `b,c,d`. A tied pair of horizon-bad corners is impossible. In the assigned high-endpoint sector that anchor is `C` or `D`, never `B`.
 
-This gives the precise old applicability boundary: the uncut minima triangle has a finite positive inverse exactly when `min(L_B,L_C,L_D)>0`. Positivity merely on `F'` does not imply it. The parent explicitly identified this obstruction. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+This gives the precise old applicability boundary: the uncut minima triangle has a finite positive inverse exactly when `min(L_B,L_C,L_D)>0`. Positivity merely on `F'` does not imply it. The parent explicitly identified this obstruction.
 
 ### The new cut is an actual height cap, not an artificial density truncation
 
@@ -117,7 +117,7 @@ Since a positive-area root has another point outside this five-point hull, `1<H<
 delta>2/(6V-1).
 ```
 
-In conjunction with the previously accepted actual high-trace necessity `6V<45/7`, this gives `delta>7/19` for any `T>=51/25` candidate. That last numerical corollary uses the inherited volume cap; the reduction itself does not need it. :contentReference[oaicite:4]{index=4}
+In conjunction with the previously accepted actual high-trace necessity `6V<45/7`, this gives `delta>7/19` for any `T>=51/25` candidate. That last numerical corollary uses the inherited volume cap; the reduction itself does not need it.
 
 ## 4. Why the difference is four actual cones
 
@@ -149,13 +149,13 @@ conv(T0,K) \ P = disjoint union_i cone(a_i,S_i),
 
 where `S_i` is the original inverse missing region, `a_i` is `B`, `C`, or `D`, and there are at most four terms. For a clipped `C` corner the four anchors are, cyclically, `B,D,C,C`; reflection gives the `D` version. A cone over a nonconvex missing region means its union of segments from the anchor, not its convex hull.
 
-This is the parent's translated-chain argument with one additional supporting normal inserted **inside a single canonical vertex cone**. No fifth anchor, signed mass, or projective refill is introduced. The parent's original three-cone argument and original density formulas are the relevant source, rather than its endpoint-specific polynomial certificate. :contentReference[oaicite:5]{index=5}
+This is the parent's translated-chain argument with one additional supporting normal inserted **inside a single canonical vertex cone**. No fifth anchor, signed mass, or projective refill is introduced. The parent's original three-cone argument and original density formulas are the relevant source, rather than its endpoint-specific polynomial certificate.
 
 There is one important degeneration. If `delta` equals the second-smallest vertex value of `L`, an old side of `R'` can shrink to a point in `K'`. Its required root contact forces that merged corner itself to belong to `F'`. Its missing region is zero. Omit that term; the other nonzero corner normal cones still have single canonical anchors. Thus no uncovered equality wall is hidden in the quadrilateral description.
 
 ## 5. Original-area corner replacement
 
-Here is the needed planar lemma, including its selection rule. It is the literal parent's elementary lemma, applied **after inversion in actual affine root coordinates**. :contentReference[oaicite:6]{index=6}
+Here is the needed planar lemma, including its selection rule. It is the literal parent's elementary lemma, applied **after inversion in actual affine root coordinates**.
 
 For a normalized missing corner
 
@@ -331,7 +331,7 @@ There remains a genuine value problem on the finite model. The parent's substitu
 
 The most useful continuation is an exact bound on the four-corner model, separating the repeated-highest-anchor pair from the two other anchors and exploiting the preserved actual radial height. The high-trace volume cap confines both the original root and its containing polygon to `x+y+z<45/7`, with inverse denominator `L>7/19`. Those are actual geometric constraints that should stay coupled to the corner fractions and moments.
 
-The theorem requires positive endpoint values, `a>b`, bounded positive-area root, `z>=0`, and `P=conv(T0,F)`. Zero endpoints, `a=b`, negative-z visibility, unbounded roots and positive-ell auxiliary vertices are not covered by the new argument. Coordinate-facet mergers are distinguished from proper `ABC/ABD`. No unconstrained endpoint reaction, full marked stationarity, E17 incidence identification or mechanical exclusion is assumed. The shared bounds and registries remain unchanged. :contentReference[oaicite:7]{index=7}
+The theorem requires positive endpoint values, `a>b`, bounded positive-area root, `z>=0`, and `P=conv(T0,F)`. Zero endpoints, `a=b`, negative-z visibility, unbounded roots and positive-ell auxiliary vertices are not covered by the new argument. Coordinate-facet mergers are distinguished from proper `ABC/ABD`. No unconstrained endpoint reaction, full marked stationarity, E17 incidence identification or mechanical exclusion is assumed. The shared bounds and registries remain unchanged.
 
 ## 9. Recovery, verification status and exact pins
 
@@ -360,7 +360,7 @@ terminal marker:
 
 These are executed exact controls and an analytic geometric proof, not a proof-assistant formalization of the entire continuous theorem or a certificate of the remaining threshold inequality.
 
-Convenience copies: [source](sandbox:/mnt/data/horizon_four_corner.py), [exact audit report](sandbox:/mnt/data/horizon_four_corner.json), [execution receipt](sandbox:/mnt/data/horizon_build.txt). The literal source below is sufficient without these links.
+Convenience copies: source (`horizon_four_corner.py`), exact audit report (`horizon_four_corner.json`), execution receipt (`horizon_build.txt`). The literal source below is sufficient without these links.
 
 ## Complete runnable source
 

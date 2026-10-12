@@ -40,7 +40,7 @@ Every one of the **48790 true labelled rooted weak escape systems** is excluded 
 
 No stable-root, covariance-spectrum, conditioning, shear, tangential-metric or weak-freedom premise is used. Every nonsingular affine image is also excluded from U1. In particular, joint proper S=U=1 is impossible on these domains, but **S>=2 for every metric is not asserted**.
 
-This does not decide the full nine-modulus parallel chart, the separate eleven-modulus nonparallel chart, or all E17 incidences. No canonical count is subtracted and no new own110weak000 attainer is supplied. **34<=Cmin<=622 remains unchanged.** fileciteturn20file0L9-L11 The complete chart and the older expansion theorem remain separately scoped. fileciteturn26file0L35-L41
+This does not decide the full nine-modulus parallel chart, the separate eleven-modulus nonparallel chart, or all E17 incidences. No canonical count is subtracted and no new own110weak000 attainer is supplied. **34<=Cmin<=622 remains unchanged.** The complete chart and the older expansion theorem remain separately scoped.
 
 ### 2. Input authority and parent preservation
 
@@ -72,7 +72,7 @@ The earlier five-domain certificate remains unchanged at 1958864 bytes, SHA-256 
 
 The raw-gauge parent's previously unobserved checking program was successfully replayed **in this execution**. Its unchanged extracted source is 12289 bytes, SHA `4d1022f4c7a7edfa04f28acf54b5eea4142a22a5066cea5a707abfcf95308f69`; the observed report is 50408 bytes, SHA `e55a7c0c2296a65360b33a2510b12ea1aaa4e3aeb98d3a851fbc7bb262e65dec`, with its specified PASS marker. This does not retroactively change its original execution qualification.
 
-The parent's positive-volume distinction is used rather than evaded: the present domains have explicit positive lower volume bounds. No zero-volume raw PSD tree is promoted to a physical survivor, and b,a,u_B,v_B are genuine variables throughout. fileciteturn26file0L90-L99
+The parent's positive-volume distinction is used rather than evaded: the present domains have explicit positive lower volume bounds. No zero-volume raw PSD tree is promoted to a physical survivor, and b,a,u_B,v_B are genuine variables throughout.
 
 ### 3. One actual body, true geometry and moving moments
 
@@ -390,7 +390,7 @@ Each piece prints its own `ALL_48790_NONZERO_PSD_TREES_PASS` marker with the ful
 
 The decoded six-source JSON map is 53488 bytes, SHA `35cfc6df1cb25cfbaef66cd4e9409d4c216300a3274c674da4d2908ab355e8a8`. The recovery source is 24316 bytes, SHA `fbc19ff24d8909f2bb6cb6fd8799150051a8105894aa6df11c7bf7f767a604ac`.
 
-Convenience bundle: [complete certificates, reports, all readable source units and handoff](sandbox:/mnt/data/H5_NINE_MODULI_CERTIFIED_REGIONS_U2_V1.zip). `HANDOFF.md` inside it also contains all six readable programs literally. The following capsule supplies their complete bytes independently of that link.
+Convenience bundle: complete certificates, reports, all readable source units and handoff (`H5_NINE_MODULI_CERTIFIED_REGIONS_U2_V1.zip`). `HANDOFF.md` inside it also contains all six readable programs literally. The following capsule supplies their complete bytes independently of that link.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

@@ -14,10 +14,10 @@ The continuation nevertheless resolves the requested separator-only obstruction 
 
 The complete deterministic archive is:
 
-- [Calm Atlas 34 matching atlas ZIP](sandbox:/mnt/data/calm_atlas34_matching_atlas.zip) — SHA-256 `fcf5a5ddedc1bffbea8da5ba8d91cca66ff246607fd559ceeaea00c29a63d350`.
-- [Self-contained README](sandbox:/mnt/data/calm_atlas34_matching_atlas/README.md).
-- [Independent exact/numerical verifier](sandbox:/mnt/data/calm_atlas34_matching_atlas/verify_matching_atlas.py).
-- [Combined verification report](sandbox:/mnt/data/calm_atlas34_matching_atlas/verification_report.json).
+- Calm Atlas 34 matching atlas ZIP (`calm_atlas34_matching_atlas.zip`) — SHA-256 `fcf5a5ddedc1bffbea8da5ba8d91cca66ff246607fd559ceeaea00c29a63d350`.
+- Self-contained README (`README.md`).
+- Independent exact/numerical verifier (`verify_matching_atlas.py`).
+- Combined verification report (`verification_report.json`).
 
 The exact verifier passed a fresh hull reconstruction, the complete integer H/V audit, every retained tree/cotree check, independent reconstruction of every exact separator row, all rational circuit identities, all modular nonsingularity checks, and the hitting-set enumeration. A separate HiGHS pass reproduced the five reported numerical separator margins.
 
@@ -52,13 +52,13 @@ Every one of the 12,957 true edges has exactly two oppositely oriented incident 
 
 Exact geometry artifacts:
 
-- [Dyadic coordinate generator/state](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242_dyadic.npz).
-- [Complete exact V-list](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242_V_exact.csv).
-- [Complete primitive irredundant H-list](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242_H_irredundant.csv).
-- [All maximal-face cycles](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242_faces.csv).
-- [Every true edge and both incident faces](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242_true_edges.csv).
-- [Exact one-wall audit](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/wall242_summary.json).
-- [OBJ](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242.obj) and [STL](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242.stl).
+- Dyadic coordinate generator/state (`Q_wall242_dyadic.npz`).
+- Complete exact V-list (`Q_wall242_V_exact.csv`).
+- Complete primitive irredundant H-list (`Q_wall242_H_irredundant.csv`).
+- All maximal-face cycles (`Q_wall242_faces.csv`).
+- Every true edge and both incident faces (`Q_wall242_true_edges.csv`).
+- Exact one-wall audit (`wall242_summary.json`).
+- OBJ (`Q_wall242.obj`) and STL (`Q_wall242.stl`).
 
 No further hull wall was used in this continuation. Every matching branch below is owned on this rebuilt actual fan; no graph-only diagonal or stale triangulation claim is made.
 
@@ -116,7 +116,7 @@ The circuit has support size 36 on 35 support columns. Its first 35 primitive ro
 
 Certificate:
 
-- [Exact post-flip `C0`](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/base_exact_positive_circuit.json).
+- Exact post-flip `C0` (`base_exact_positive_circuit.json`).
 
 This is the clause that the present continuation branches rather than preserving.
 
@@ -128,7 +128,7 @@ For each of the 35 changeable separator rows of `C0`, I found its shortest genui
 
 Every one of the 35 branches is blocked by a support-minimal exact rational positive circuit. The archive contains all certificates and their SHA-256 manifest:
 
-- [Level-1 exact atlas manifest](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/exact_branch_atlas/level1/manifest.json).
+- Level-1 exact atlas manifest (`manifest.json`).
 
 The best first-level margin is
 
@@ -155,7 +155,7 @@ Although these cycles differ, their numerical dual supports exactify to the same
 
 `C1` has support size 44 on 43 columns: 38 vertex rows, five face rows and `G_0>0`. Its square determinant has 4,305 bits and residue `1619232489` modulo `2147483647`; all rational weights are positive.
 
-- [Exact `C1` certificate](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/deep/C1_exact_positive_circuit.json).
+- Exact `C1` certificate (`C1_exact_positive_circuit.json`).
 
 ---
 
@@ -170,8 +170,8 @@ Results:
 
 The complete branch data and exact certificates are in:
 
-- [Level-2 exact atlas manifest](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/exact_branch_atlas/level2/manifest.json).
-- [All 43 numerical shortest-cycle branches](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/level2_shortest_cycle_atlas.json).
+- Level-2 exact atlas manifest (`manifest.json`).
+- All 43 numerical shortest-cycle branches (`level2_shortest_cycle_atlas.json`).
 
 The two non-exactified branches are the second gate:
 
@@ -248,9 +248,9 @@ The exact positive circuit has support size 44, determinant bit length 4,381 and
 
 Certificates:
 
-- [Exact `C2`](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/deep/C2_exact_positive_circuit.json).
-- [Exact `C3`](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/deep/C3_exact_positive_circuit.json).
-- [Exact `C4`](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/deep/C4_exact_positive_circuit.json).
+- Exact `C2` (`C2_exact_positive_circuit.json`).
+- Exact `C3` (`C3_exact_positive_circuit.json`).
+- Exact `C4` (`C4_exact_positive_circuit.json`).
 
 Hitting the new `C4` face row `fsep:2092:4908:770` with the four-cycle
 
@@ -265,7 +265,7 @@ reaches the strongest unrestricted separator margin found in this continuation:
 
 The resulting edge assignment still passes both tree checks. Its numerical dual is broad, however, and no support-minimal exact circuit was isolated. This is therefore a numerical endpoint only, not a rational impossibility theorem.
 
-- [Strongest broad branch record](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/gates/strongest_broad_branch.json).
+- Strongest broad branch record (`strongest_broad_branch.json`).
 
 ---
 
@@ -302,7 +302,7 @@ and one row from
 
 This is the exact finite `2×2` reduction.
 
-- [Complete exact hitting-set data](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/gates/hitting_set_clauses.json).
+- Complete exact hitting-set data (`hitting_set_clauses.json`).
 
 The independent verifier reconstructs the 74 unique clauses from the certificate files, proves their intersection is empty, enumerates all candidate pairs, and reproduces exactly these four and no others.
 
@@ -331,8 +331,8 @@ Across the four numerical duals, 472 row names are common. The strongest common 
 
 In one representative gate state, the root-connected broad component has 812 dual rows and 932 support variables. I attempted an exact modular reduction of an 812-by-812 selected subsystem; it did not finish within the computation budget. That timeout is not evidence of singularity, nonsingularity, feasibility or infeasibility and is not used as a conclusion.
 
-- [Four-gate dual comparison](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/gates/four_gate_dual_summary.json).
-- [Broad component decomposition](sandbox:/mnt/data/calm_atlas34_matching_atlas/matching/gates/broad_components.json).
+- Four-gate dual comparison (`four_gate_dual_summary.json`).
+- Broad component decomposition (`broad_components.json`).
 
 ---
 
@@ -405,4 +405,4 @@ A fast exact structural pass that omits the full H/V slack sweep is:
 python verify_matching_atlas.py --quick
 ```
 
-The archived [verification report](sandbox:/mnt/data/calm_atlas34_matching_atlas/verification_report.json) records `PASS` for both the complete exact audit and the separate numerical LP audit.
+The archived verification report (`verification_report.json`) records `PASS` for both the complete exact audit and the separate numerical LP audit.

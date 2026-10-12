@@ -4,9 +4,9 @@ AI research report · 2026-09-03 UTC
 
 ---
 
-The durable journal fixes the acceptance gate at a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/true-edge mechanics, independent verification, and matching OBJ/STL; auxiliary-centre, wall, near-solution, and unexpanded theorem objects do not qualify. :contentReference[oaicite:0]{index=0}
+The durable journal fixes the acceptance gate at a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/true-edge mechanics, independent verification, and matching OBJ/STL; auxiliary-centre, wall, near-solution, and unexpanded theorem objects do not qualify.
 
-The accepted source is the exact eighth three-support cage: 26 supplied dyadic points, 11 active vertices, `(V,E,F,C)=(11,27,18,54)`, strict own-centred `(2,2,2)`, with packet stable `[N,O,P]`, unstable `0`, saddles `[H,O]`,`[L,P]`, and unique nonprotected forcing edge `[0,N]`. The journal identifies a closed four-support/equivalent linked cell changing that whole star as the first nonserial successor. :contentReference[oaicite:1]{index=1}
+The accepted source is the exact eighth three-support cage: 26 supplied dyadic points, 11 active vertices, `(V,E,F,C)=(11,27,18,54)`, strict own-centred `(2,2,2)`, with packet stable `[N,O,P]`, unstable `0`, saddles `[H,O]`,`[L,P]`, and unique nonprotected forcing edge `[0,N]`. The journal identifies a closed four-support/equivalent linked cell changing that whole star as the first nonserial successor.
 
 # Calm Quartz 90 — exact ninth four-support carrier cage
 
@@ -316,28 +316,28 @@ Serial use would repeat packet transfer. The first nonrepeating successor is a c
 
 ## Artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER.zip)
-- [Full handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_result.json)
-- [Clean verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_clean_verification.json)
-- [Clean aggregate replay](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_clean_replay.txt)
-- [Exact generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/data/generator_exact.json)
-- [Supplied V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/data/input_vertices_exact.csv)
-- [Own-centred active V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/data/ninth_cage8_exact_H_irredundant.csv)
-- [Face ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/data/ninth_cage8_exact_faces.csv)
-- [Directed vertex ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/data/ninth_cage8_exact_vertex_primitives.csv)
-- [True-edge full-cone ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/data/ninth_cage8_exact_true_edges_full_cones.csv)
-- [External-arrow ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/data/external_arrow_full_ledger.csv)
-- [Transition certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/certificates/ninth_cage_shared_global_patch.json)
-- [Chronology certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/certificates/source_to_target_death_before_birth_obstruction.json)
-- [Arrow certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/certificates/external_arrow_design_certificate.json)
-- [Forcing certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/certificates/residual_forced_edge_0_R.json)
-- [Perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Independent verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/scripts/verify_independent.py)
-- [Aggregate verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/RUN_ALL_VERIFIERS.sh)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER/mesh/body.stl)
+- Complete exact archive (`Calm_Quartz_90_wall242_ninth_four_support_cage_exact_NONWINNER.zip`)
+- Full handoff (`Calm_Quartz_90_wall242_ninth_four_support_cage_handoff.md`)
+- Structured result (`Calm_Quartz_90_wall242_ninth_four_support_cage_result.json`)
+- Clean verification receipt (`Calm_Quartz_90_wall242_ninth_four_support_cage_clean_verification.json`)
+- Clean aggregate replay (`Calm_Quartz_90_wall242_ninth_four_support_cage_clean_replay.txt`)
+- Exact generator (`generator_exact.json`)
+- Supplied V-data (`input_vertices_exact.csv`)
+- Own-centred active V-data (`active_vertices_centered_exact.csv`)
+- Irredundant H-data (`ninth_cage8_exact_H_irredundant.csv`)
+- Face ledger (`ninth_cage8_exact_faces.csv`)
+- Directed vertex ledger (`ninth_cage8_exact_vertex_primitives.csv`)
+- True-edge full-cone ledger (`ninth_cage8_exact_true_edges_full_cones.csv`)
+- External-arrow ledger (`external_arrow_full_ledger.csv`)
+- Transition certificate (`ninth_cage_shared_global_patch.json`)
+- Chronology certificate (`source_to_target_death_before_birth_obstruction.json`)
+- Arrow certificate (`external_arrow_design_certificate.json`)
+- Forcing certificate (`residual_forced_edge_0_R.json`)
+- Perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Independent verifier (`verify_independent.py`)
+- Aggregate verifier (`RUN_ALL_VERIFIERS.sh`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 ```text
 archive SHA-256  347fc8d83e39a833bd56348636521e064fb7be658db1e7ea81b61658976b7739

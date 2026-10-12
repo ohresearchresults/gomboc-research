@@ -330,7 +330,7 @@ KF27G_ALL_FOURTEEN_ROUNDED_TABLES_AND_WHOLE83_FOREST_MAP_REPRODUCED
 
 Use **QDESC_G4's47 free material-point slots and its already disjoint stable carriers** for a finite whole-Q interface/normal-fan change while retaining actual U1; the old point subset, elder and reference centre need not survive. HFREE_G5 is a shallower-Q alternative with15 H slots, but its gate requires a new sole stable carrier for small-centre cut-only completion. The exact reference110 and own143 controls show why selecting such a carrier and then separately restoring mass is still insufficient. The next success must simultaneously retire every current/new Q basin and preserve or restore the actual U1—not repeat another isolated one-sided cancellation or shrink a chosen bar.
 
-Supplementary copies: [complete source delta](sandbox:/mnt/data/KF27G_CAPSULE.py) and [sources, exact outputs and numerical records](sandbox:/mnt/data/KF27G_HANDOFF.zip). The literal capsule below, with the explicit already-retained parents, is the durable handoff; these links are not its substitute.
+Supplementary copies: complete source delta (`KF27G_CAPSULE.py`) and sources, exact outputs and numerical records (`KF27G_HANDOFF.zip`). The literal capsule below, with the explicit already-retained parents, is the durable handoff; these links are not its substitute.
 
 ## 8. Complete literal source/input delta
 

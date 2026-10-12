@@ -21,7 +21,7 @@ The branch nevertheless advances the journal in four concrete ways:
 3. it solves all three first-moment/Santaló equations identically on every accepted branch by three independent mechanically inactive controls with Jacobian `-I_3`;
 4. it isolates a specific transfer obstruction: the original stable–saddle pair is replaced, but a new stable equilibrium remains on the upper trunk while the saddle migrates to the lower fork.
 
-The journal’s acceptance gate requires a finite own-centroid strict `(1,1,0)` object with complete incidence and all-feature certification, not an auxiliary-centre or wall state. :contentReference[oaicite:0]{index=0} The durable Santaló frontier specified a robust asymmetric one-pair seed and called specifically for a connected Y replacement with hard moment controls and inactive slacks above `10^-5`. :contentReference[oaicite:1]{index=1}
+The journal’s acceptance gate requires a finite own-centroid strict `(1,1,0)` object with complete incidence and all-feature certification, not an auxiliary-centre or wall state. The durable Santaló frontier specified a robust asymmetric one-pair seed and called specifically for a connected Y replacement with hard moment controls and inactive slacks above `10^-5`.
 
 ## 1. Relation to the journal and dual convention
 
@@ -67,7 +67,7 @@ The origin is strictly inside `Q_seed`: rows `(0,2,8,15)` form a containing tetr
 (0.2523518487, 0.2484750289, 0.2492515937, 0.2499215288).
 ```
 
-The complete seed coordinates, maximal cycles, edge list, incidence table, exact volume/centroid, and exact equilibrium witnesses are in [the exact reconstructed seed](sandbox:/mnt/data/santalo_y_patch_fallback/seed_one_pair_exact.json).
+The complete seed coordinates, maximal cycles, edge list, incidence table, exact volume/centroid, and exact equilibrium witnesses are in the exact reconstructed seed (`seed_one_pair_exact.json`).
 
 ## 3. Genuine asymmetric connected Y surgery
 
@@ -116,7 +116,7 @@ The pre-gate shape parameters are:
   0.027048261948600463).
 ```
 
-The full deterministic row formula, deleted/retained label map, exact circuit polynomial, branch direction, and sampled topology states are in [the branch/circuit record](sandbox:/mnt/data/santalo_y_patch_fallback/branch_family.json) and [branch replay script](sandbox:/mnt/data/santalo_y_patch_fallback/replay_branch.py).
+The full deterministic row formula, deleted/retained label map, exact circuit polynomial, branch direction, and sampled topology states are in the branch/circuit record (`branch_family.json`) and branch replay script (`replay_branch.py`).
 
 ## 4. Three hard Santaló/first-moment controls
 
@@ -259,7 +259,7 @@ The exact polar volume is stored as a rational number; its floating value is app
 0.021361762463550777.
 ```
 
-Every maximal face cycle, true edge, vertex incidence, nonincidence slack, face projection witness, vertex tangent/full-normal-cone witness, and edge segment/full-normal-cone witness is stored in [the exact Y-patch certificate](sandbox:/mnt/data/santalo_y_patch_fallback/y_patch_gate_exact.json). The complete coordinate tables are [P coordinates](sandbox:/mnt/data/santalo_y_patch_fallback/y_patch_gate_P.csv) and [Q coordinates](sandbox:/mnt/data/santalo_y_patch_fallback/y_patch_gate_Q.csv).
+Every maximal face cycle, true edge, vertex incidence, nonincidence slack, face projection witness, vertex tangent/full-normal-cone witness, and edge segment/full-normal-cone witness is stored in the exact Y-patch certificate (`y_patch_gate_exact.json`). The complete coordinate tables are P coordinates (`y_patch_gate_P.csv`) and Q coordinates (`y_patch_gate_Q.csv`).
 
 ## 6. Topology transitions and active circuit branches
 
@@ -339,7 +339,7 @@ No Euclidean coordinate perturbation radius is claimed for this nonwinner. Exact
 
 ## 8. Independent verification and finite meshes
 
-[The independent verifier](sandbox:/mnt/data/santalo_y_patch_fallback/verify_independent.py) uses only the Python standard library and does not import the generator. Starting from the hexadecimal input, it independently rebuilds:
+The independent verifier (`verify_independent.py`) uses only the Python standard library and does not import the generator. Starting from the hexadecimal input, it independently rebuilds:
 
 - exact V- and H-hulls and polarity;
 - exact volume and first moments;
@@ -362,7 +362,7 @@ y_patch_gate_exact.json
 4b94055beb83ff9935d20702f4bd7cfa7874827daa4c3929553a424bbc84da30
 ```
 
-See [the verification report](sandbox:/mnt/data/santalo_y_patch_fallback/independent_verification.json). A fresh full verifier invocation in the present response exceeded the 900-second execution limit, so the attached stored PASS transcript was inspected and hash-checked but not newly regenerated end-to-end during this turn.
+See the verification report (`independent_verification.json`). A fresh full verifier invocation in the present response exceeded the 900-second execution limit, so the attached stored PASS transcript was inspected and hash-checked but not newly regenerated end-to-end during this turn.
 
 Mesh reconstruction was separately checked:
 
@@ -375,14 +375,14 @@ Mesh reconstruction was separately checked:
 
 The STL files are fan triangulations of the exact OBJ maximal-face cycles:
 
-- [gate P OBJ](sandbox:/mnt/data/santalo_y_patch_fallback/y_patch_gate_P.obj)
-- [gate P STL](sandbox:/mnt/data/santalo_y_patch_fallback/y_patch_gate_P.stl)
-- [gate Q OBJ](sandbox:/mnt/data/santalo_y_patch_fallback/y_patch_gate_Q.obj)
-- [gate Q STL](sandbox:/mnt/data/santalo_y_patch_fallback/y_patch_gate_Q.stl)
+- gate P OBJ (`y_patch_gate_P.obj`)
+- gate P STL (`y_patch_gate_P.stl`)
+- gate Q OBJ (`y_patch_gate_Q.obj`)
+- gate Q STL (`y_patch_gate_Q.stl`)
 
 ## 9. Reproducible artifact bundle
 
-The complete archive is [santalo_y_patch_fallback.zip](sandbox:/mnt/data/santalo_y_patch_fallback.zip).
+The complete archive is santalo_y_patch_fallback.zip.
 
 ```text
 SHA-256
@@ -391,17 +391,17 @@ SHA-256
 
 Principal files:
 
-- [README](sandbox:/mnt/data/santalo_y_patch_fallback/README.md)
-- [deterministic exact generator](sandbox:/mnt/data/santalo_y_patch_fallback/generate_exact.py)
-- [independent verifier](sandbox:/mnt/data/santalo_y_patch_fallback/verify_independent.py)
-- [exact reconstructed seed](sandbox:/mnt/data/santalo_y_patch_fallback/seed_one_pair_exact.json)
-- [exact Y-patch certificate](sandbox:/mnt/data/santalo_y_patch_fallback/y_patch_gate_exact.json)
-- [branch/circuit record](sandbox:/mnt/data/santalo_y_patch_fallback/branch_family.json)
-- [branch replay](sandbox:/mnt/data/santalo_y_patch_fallback/replay_branch.py)
-- [certificate summary](sandbox:/mnt/data/santalo_y_patch_fallback/certificate_summary.json)
-- [verification report](sandbox:/mnt/data/santalo_y_patch_fallback/independent_verification.json)
-- [manifest](sandbox:/mnt/data/santalo_y_patch_fallback/MANIFEST.json)
-- [SHA256SUMS](sandbox:/mnt/data/santalo_y_patch_fallback/SHA256SUMS)
+- README (`README.md`)
+- deterministic exact generator (`generate_exact.py`)
+- independent verifier (`verify_independent.py`)
+- exact reconstructed seed (`seed_one_pair_exact.json`)
+- exact Y-patch certificate (`y_patch_gate_exact.json`)
+- branch/circuit record (`branch_family.json`)
+- branch replay (`replay_branch.py`)
+- certificate summary (`certificate_summary.json`)
+- verification report (`independent_verification.json`)
+- manifest (`MANIFEST.json`)
+- SHA256SUMS
 
 Reproduction commands:
 

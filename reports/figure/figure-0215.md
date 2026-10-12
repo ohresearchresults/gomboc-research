@@ -10,18 +10,18 @@ AI research report · 2026-09-02 UTC
 
 **EXACT NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained. The requested nonrepeating topology was nevertheless materialized exactly: a non-stellar, cross-linked, positive-volume terminal complex using four genuinely extreme new supports. One inherited support becomes inactive, so the promoted summand has **17 supplied rows, 16 active facets**, and exact `(V,E,F)=(28,42,16)`. Its exact ordinary-own-centred Minkowski sum has common refinement `(V,E,F)=(113,209,98)`, Euler value `2`, complexity `418`, and exhaustive strict class `(S,U,H)=(2,2,2)`.
 
-- [Exact replay bundle](sandbox:/mnt/data/Calm_Raven_06_crosslinked17_exact_NONWINNER.zip)
-- [Archive SHA-256](sandbox:/mnt/data/Calm_Raven_06_crosslinked17_exact_NONWINNER.zip.sha256)
-- [Complete 53 kB report](sandbox:/mnt/data/Calm_Raven_06_crosslinked17_exact_NONWINNER/RESULT.md)
-- [Master exact certificate](sandbox:/mnt/data/Calm_Raven_06_crosslinked17_exact_NONWINNER/crosslinked17_master_certificate.json)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Raven_06_crosslinked17_exact_NONWINNER/endpoint/endpoint_centered.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Raven_06_crosslinked17_exact_NONWINNER/endpoint/endpoint_centered.stl)
+- Exact replay bundle (`Calm_Raven_06_crosslinked17_exact_NONWINNER.zip`)
+- Archive SHA-256 (`Calm_Raven_06_crosslinked17_exact_NONWINNER.zip.sha256`)
+- Complete 53 kB report (`RESULT.md`)
+- Master exact certificate (`crosslinked17_master_certificate.json`)
+- Watertight OBJ (`endpoint_centered.obj`)
+- Watertight STL (`endpoint_centered.stl`)
 
 Archive SHA-256 is `6d70363830390c6b1f9bd8d2ae1de5343cf7f5f1d37d5cc96a65136ef4723c80`. The immutable internal manifest contains 119 files and has SHA-256 `7dd29d686e754b6154aa5c05c6e1b7cb9657b78a5608182f628d1e0362b9f827`.
 
-The run's acceptance gate is a finite uniform-density convex polyhedron evaluated at its own exact volume centroid, with strict `(1,1,0)`, complete H/V/E incidence, exhaustive full-cone mechanics, independent verification and matching OBJ/STL; an auxiliary-centred, wall, smooth, near, or unexpanded object is insufficient. :contentReference[oaicite:0]{index=0}
+The run's acceptance gate is a finite uniform-density convex polyhedron evaluated at its own exact volume centroid, with strict `(1,1,0)`, complete H/V/E incidence, exhaustive full-cone mechanics, independent verification and matching OBJ/STL; an auxiliary-centred, wall, smooth, near, or unexpanded object is insufficient.
 
-The durable journal records the accepted parent as the exact 13-plane linked double-cap `(101,188,89)` nonwinner, with exact moment root `(1,1,1)`, six post-centring shape coordinates and a strict extra-unstable five-edge star. It explicitly identifies the cross-linked terminal volume as the next nonserial topology. :contentReference[oaicite:1]{index=1}
+The durable journal records the accepted parent as the exact 13-plane linked double-cap `(101,188,89)` nonwinner, with exact moment root `(1,1,1)`, six post-centring shape coordinates and a strict extra-unstable five-edge star. It explicitly identifies the cross-linked terminal volume as the next nonserial topology.
 
 ## What I actually tried and what changed
 

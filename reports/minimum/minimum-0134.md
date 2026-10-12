@@ -20,7 +20,7 @@ The complete latest research-journal(20260920-150804).md, including its literal 
 
 The mounted standalone joint_bevel.py was confirmed to be 16510 bytes, SHA-256 b41d54ce690bf3b1d81a53aa24817b2514f6098a23c4635ffef59841cd978434, matching the accepted parent. This was a source-identity check, not a rebuild or solver run. No mathematical conflict with the required literal parent was found.
 
-The accepted parent closes the full projective horizon quantitatively and supplies the nine-variable exact common-metric model. It expressly leaves interior feasibility undecided. Its original exact expansion and control checks are inherited evidence, not new results of this continuation. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The accepted parent closes the full projective horizon quantitatively and supplies the nine-variable exact common-metric model. It expressly leaves interior feasibility undecided. Its original exact expansion and control checks are inherited evidence, not new results of this continuation.
 
 ## 1. A reciprocal-cofactor obstruction
 
@@ -198,7 +198,7 @@ Their supporting pairs a_f·X<=b_f, in the same order, are
 (0,-4,-4):7.
 ```
 
-True edges are consecutive unordered pairs in these maximal cycles, with duplicates removed. Two facets are true polar neighbors precisely when they share one of those true edges. The literal parent's dataset uses exactly these conventions. :contentReference[oaicite:2]{index=2}
+True edges are consecutive unordered pairs in these maximal cycles, with duplicates removed. Two facets are true polar neighbors precisely when they share one of those true edges. The literal parent's dataset uses exactly these conventions.
 
 For any p in D, put h_i=4+U_i·p and Y_i=U_i/h_i. Triangulate each displayed facet cycle (v0,...,vk) into (v0,vj,vj+1), j=1,...,k-1, and denote the resulting sixteen triangles by T. The origin is interior, their oriented determinants are positive, and exact actual mass is
 
@@ -244,7 +244,7 @@ c9=(-1/30,-16/75,-9/50),
 C9=conv(0,c9+(3/4)(F9-c9)) intersect D.
 ```
 
-This is the inherited domain boundary, not a newly computed complement or an exhaustive overlap classification with every affine-family theorem. :contentReference[oaicite:3]{index=3}
+This is the inherited domain boundary, not a newly computed complement or an exhaustive overlap classification with every affine-family theorem.
 
 The most useful next step for the new lemma is to seek actual small-support primal/polar weight pairs on a nontrivial remaining interior cell, verify their inertia and cofactor comparisons exactly, and then establish complete Boolean or root-pattern coverage of that cell. Until those steps are executed, the lemma is a reusable joint-compatibility tool only.
 

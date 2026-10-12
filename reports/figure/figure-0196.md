@@ -8,13 +8,13 @@ AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md
 
 ## Literal determination
 
-**No homogeneous convex polyhedral Gömböc was obtained.** The acceptance gate remains a finite uniform-density body evaluated at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete actual incidence, exhaustive positive-margin mechanics, independent verification, and matching meshes; auxiliary-centre, wall-point, near-solution, or unexpanded constructions do not qualify. :contentReference[oaicite:0]{index=0}
+**No homogeneous convex polyhedral Gömböc was obtained.** The acceptance gate remains a finite uniform-density body evaluated at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete actual incidence, exhaustive positive-margin mechanics, independent verification, and matching meshes; auxiliary-centre, wall-point, near-solution, or unexpanded constructions do not qualify.
 
-The inherited exact `AQ32-ALL-OUTLET-C48` endpoint had 25,843 supplied rows but only nine active, exact lattices `Q:(9,21,14)` and `P:(14,21,9)`, and strict own-centred class `(2,2,2)`. Its one-apex theorem and radius gap compelled a full-row higher-valence split of the eight-face `C0` star. :contentReference[oaicite:1]{index=1}
+The inherited exact `AQ32-ALL-OUTLET-C48` endpoint had 25,843 supplied rows but only nine active, exact lattices `Q:(9,21,14)` and `P:(14,21,9)`, and strict own-centred class `(2,2,2)`. Its one-apex theorem and radius gap compelled a full-row higher-valence split of the eight-face `C0` star.
 
 That split is now materialized exactly. The new endpoint `AQ32-C0-FP4-D25` replaces `C0` by four extreme page rows in one continuous exact hull cell and contains a face-to-face three-tetrahedron core. Nevertheless its exact own-centred class is again `(2,2,2)`. It is therefore a rigorous finite **NONWINNER**, not a Gömböc.
 
-**Artifacts:** [complete exact archive](sandbox:/mnt/data/AQ32_C0_FP4_EXACT_NONWINNER.zip) · [complete handoff](sandbox:/mnt/data/AQ32_C0_FP4_EXACT_NONWINNER/AQ32_C0_FP4_complete_handoff.md) · [certificate](sandbox:/mnt/data/AQ32_C0_FP4_EXACT_NONWINNER/AQ32_C0_FP4_certificate.json)
+**Artifacts:** complete exact archive (`AQ32_C0_FP4_EXACT_NONWINNER.zip`) · complete handoff (`AQ32_C0_FP4_complete_handoff.md`) · certificate (`AQ32_C0_FP4_certificate.json`)
 
 ```text
 archive SHA-256 9294e570675abba573f0fc191a4a99f48d30f2e388d11e40149606c699e9b8af

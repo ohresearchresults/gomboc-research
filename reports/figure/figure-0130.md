@@ -18,7 +18,7 @@ The journal supplied the exact nine-row seed and a 14-row biconnected `(2,2,2)` 
 
 ## Exact source P9
 
-The nine rows are the following hexadecimal binary64 values, interpreted as exact dyadic rationals, with support constant one. This reconstructs the durable journal seed. :contentReference[oaicite:0]{index=0} The full exact reconstruction is in `p9_exact_data.json`.
+The nine rows are the following hexadecimal binary64 values, interpreted as exact dyadic rationals, with support constant one. This reconstructs the durable journal seed. The full exact reconstruction is in `p9_exact_data.json`.
 
 ```text
 9    [ 0x1.f9b5a727c027ap+2, -0x1.81e6cb4c6d6eap+1, -0x1.4a0af64ced04fp-2 ]
@@ -188,12 +188,12 @@ The complete artifact bundle includes exact JSON/CSV data, the 18 exact circuit 
 
 ## Artifact links
 
-- [Complete ZIP bundle](sandbox:/mnt/data/P9_shared_multiwall_nonwinner_bundle.zip).
-- [Exact H/V, centroid and full endpoint/source audits](sandbox:/mnt/data/p9_exact_data.json).
-- [Clean-room independent exact verifier](sandbox:/mnt/data/verify_p9_transfer_independent.py) and [verification transcript](sandbox:/mnt/data/verification_report.txt).
-- [Exact circuit path](sandbox:/mnt/data/p9_circuit_path.json), [Sturm-isolated roots](sandbox:/mnt/data/p9_circuit_roots.json), and [19-cell audit summary](sandbox:/mnt/data/p9_path_summary.md).
-- [All 483 true-edge four-component audits](sandbox:/mnt/data/p9_edge_four_components.csv), [face ledger](sandbox:/mnt/data/p9_face_ledger.csv), and [vertex ledger](sandbox:/mnt/data/p9_vertex_ledger.csv).
-- Meshes: [source OBJ](sandbox:/mnt/data/P9_exact_source.obj), [source STL](sandbox:/mnt/data/P9_exact_source.stl), [endpoint OBJ](sandbox:/mnt/data/P9_connected_transfer_nonwinner.obj), [endpoint STL](sandbox:/mnt/data/P9_connected_transfer_nonwinner.stl).
-- [Standalone Markdown handoff](sandbox:/mnt/data/P9_RESEARCH_HANDOFF.md).
+- Complete ZIP bundle (`P9_shared_multiwall_nonwinner_bundle.zip`).
+- Exact H/V, centroid and full endpoint/source audits (`p9_exact_data.json`).
+- Clean-room independent exact verifier (`verify_p9_transfer_independent.py`) and verification transcript (`verification_report.txt`).
+- Exact circuit path (`p9_circuit_path.json`), Sturm-isolated roots (`p9_circuit_roots.json`), and 19-cell audit summary (`p9_path_summary.md`).
+- All 483 true-edge four-component audits (`p9_edge_four_components.csv`), face ledger (`p9_face_ledger.csv`), and vertex ledger (`p9_vertex_ledger.csv`).
+- Meshes: source OBJ (`P9_exact_source.obj`), source STL (`P9_exact_source.stl`), endpoint OBJ (`P9_connected_transfer_nonwinner.obj`), endpoint STL (`P9_connected_transfer_nonwinner.stl`).
+- Standalone Markdown handoff (`P9_RESEARCH_HANDOFF.md`).
 
 Bundle ZIP SHA-256: `f340fd644f2e753d39e656f5f73fdb76b8ad60fc4416686391328abfb9e511d3`.

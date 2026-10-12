@@ -28,9 +28,9 @@ AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md
 
 Новый `research-journal(20260919-112719).md` прочитан последовательно целиком, все1996 строк, включая весь буквальный parent и его полную recovery. Файл имеет333443 bytes, SHA-256 `5f913de1571df8bbcd56023f0831339308e9881b79341f99ca7c599858ccdcc2`. Неизменённые ранее прочитанные источники не заменялись предположениями. Нужные исходники parent восстановлены и прочитаны полностью; отсутствующей вычислительной зависимости нет.
 
-Авторитетный parent — `minimum-0104`, SHA-256 `4ff810064e672e253e9b78e0d59fcc525651da2a11f45e228cca436de13bad41`, **BEVEL_FOUR_SHAPE_AND_NONPARALLEL_ALL_SPD_U2_V1**. :contentReference[oaicite:0]{index=0}
+Авторитетный parent — `minimum-0104`, SHA-256 `4ff810064e672e253e9b78e0d59fcc525651da2a11f45e228cca436de13bad41`, **BEVEL_FOUR_SHAPE_AND_NONPARALLEL_ALL_SPD_U2_V1**.
 
-Его полный четырёхпараметрический all-SPD запрет и непараллельный сектор −1/4≤h≤1/2 приняты как прежние результаты. Открытыми у отдельного pencil были именно −1/2<h<−1/4 и1/2<h<1; нового метрического остатка внутри прежнего сектора не было. Эти два геометрических остатка теперь устранены. :contentReference[oaicite:1]{index=1}
+Его полный четырёхпараметрический all-SPD запрет и непараллельный сектор −1/4≤h≤1/2 приняты как прежние результаты. Открытыми у отдельного pencil были именно −1/2<h<−1/4 и1/2<h<1; нового метрического остатка внутри прежнего сектора не было. Эти два геометрических остатка теперь устранены.
 
 Нового конфликта меток, решётки, массы или source authority не найдено. Уже исправленная parent-граница396vs548 не переоткрывалась. Новый конечный сертификат вычислен с пустым набором начальных строк и **не требует старых396 или395 строк** для восстановления либо проверки.
 
@@ -408,7 +408,7 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python recover_pencil
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Удобные дополнительные копии: [recovery](sandbox:/mnt/data/bevel_projective_full/recover_pencil_full.py), [вся буквальная таблица](sandbox:/mnt/data/bevel_pencil_cold/pencil_coefficients.json), [полный exact-отчёт](sandbox:/mnt/data/bevel_pencil_cold/pencil_full.json), [все коэффициентные матрицы](sandbox:/mnt/data/bevel_pencil_cold/pencil_matrix_stream.txt). Продолжение не зависит от этих ссылок: полный источник следует ниже.
+Удобные дополнительные копии: recovery (`recover_pencil_full.py`), вся буквальная таблица (`pencil_coefficients.json`), полный exact-отчёт (`pencil_full.json`), все коэффициентные матрицы (`pencil_matrix_stream.txt`). Продолжение не зависит от этих ссылок: полный источник следует ниже.
 
 ```python
 """Complete self-contained BEVEL full positive projective pencil recovery.

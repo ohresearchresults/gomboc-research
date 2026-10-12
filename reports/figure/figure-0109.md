@@ -19,7 +19,7 @@ saddles   = [3,16], [29,B20]
 witness graph = acyclic, sinks 0 and B03
 ```
 
-It is therefore a certified nonwinner, not a Gömböc and not a wall point. The acceptance gate requires an explicit finite uniform-density body evaluated at its own exact volume centroid, with strict `(1,1,0)`, complete H/V incidence and all-feature verification. :contentReference[oaicite:0]{index=0} The inherited L15 endpoint and its true-edge `[1,25]` obstruction are recorded in the journal. :contentReference[oaicite:1]{index=1}
+It is therefore a certified nonwinner, not a Gömböc and not a wall point. The acceptance gate requires an explicit finite uniform-density body evaluated at its own exact volume centroid, with strict `(1,1,0)`, complete H/V incidence and all-feature verification. The inherited L15 endpoint and its true-edge `[1,25]` obstruction are recorded in the journal.
 
 ## What was achieved
 
@@ -203,14 +203,14 @@ crosssheet_endpoint.stl      d8cb2373de8baf984ef3374854e1aec42370d043f96f5a83f84
 
 ## Finite artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/l15_crosssheet_best_final.zip), SHA-256 `7d77ef35edab87166334b05dd88fc8f187c8d97bd1801d57a747d8b375e94cf0`.
-- [Self-contained expanded handoff](sandbox:/mnt/data/l15_crosssheet_best_final/RESULT.md), containing all 48 coordinates, all 92 face cycles, all 138 true edges, the complete endpoint face/vertex/four-component edge audit, graph, margins and hashes.
-- [Exact endpoint certificate](sandbox:/mnt/data/l15_crosssheet_best_final/endpoint_exact.json).
-- [Exact 118-event construction path](sandbox:/mnt/data/l15_crosssheet_best_final/construction_path.json).
-- [Exact relay obstruction certificate](sandbox:/mnt/data/l15_crosssheet_best_final/obstruction_certificate.json).
-- [Complete SHA-256 manifest](sandbox:/mnt/data/l15_crosssheet_best_final/SHA256SUMS.json).
-- [OBJ](sandbox:/mnt/data/l15_crosssheet_best_final/crosssheet_endpoint.obj) and [STL](sandbox:/mnt/data/l15_crosssheet_best_final/crosssheet_endpoint.stl).
-- [Complete verifier transcript](sandbox:/mnt/data/l15_crosssheet_best_final/verifier_output.txt).
+- Complete exact archive (`l15_crosssheet_best_final.zip`), SHA-256 `7d77ef35edab87166334b05dd88fc8f187c8d97bd1801d57a747d8b375e94cf0`.
+- Self-contained expanded handoff (`RESULT.md`), containing all 48 coordinates, all 92 face cycles, all 138 true edges, the complete endpoint face/vertex/four-component edge audit, graph, margins and hashes.
+- Exact endpoint certificate (`endpoint_exact.json`).
+- Exact 118-event construction path (`construction_path.json`).
+- Exact relay obstruction certificate (`obstruction_certificate.json`).
+- Complete SHA-256 manifest (`SHA256SUMS.json`).
+- OBJ (`crosssheet_endpoint.obj`) and STL (`crosssheet_endpoint.stl`).
+- Complete verifier transcript (`verifier_output.txt`).
 
 ## Bottom line
 

@@ -69,7 +69,7 @@ These are uncentered vertices `q_i`; mechanics uses `x_i=q_i-C`.
       1116238212141/15625000000000)
 ```
 
-The machine-readable V-representation and the complete 20-row primitive centered H-representation are [candidate.json](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/candidate.json) and [halfspaces_centered_integer.csv](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/halfspaces_centered_integer.csv).
+The machine-readable V-representation and the complete 20-row primitive centered H-representation are candidate.json and halfspaces_centered_integer.csv.
 
 ## Exact uniform volume and moment closure
 
@@ -202,7 +202,7 @@ unstable: V5, V8
 saddles: (0,1), (7,10)
 ```
 
-Full exact data: [face primitives](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/face_primitives.csv), [vertex primitives](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/vertex_primitives.csv), [edge primitives](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/edge_primitives.csv), and [complete limiting table](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/complete_margin_summary.csv).
+Full exact data: face primitives (`face_primitives.csv`), vertex primitives (`vertex_primitives.csv`), edge primitives (`edge_primitives.csv`), and complete limiting table (`complete_margin_summary.csv`).
 
 ## Inactive separation and exact open cell
 
@@ -249,7 +249,7 @@ Choose `v* in K` with maximum radius. For each internal neighbor `u in K`,
  >= 0.
 ```
 
-Equality would require equal radii and equal direction, hence the same point, so the inequality is strict. All external supports are strict by the certificate. Thus some K vertex is necessarily unstable. Target V5 is independently unstable, so **every realization preserving this incidence and these external-support signs has `U>=2`**. The exact support certificate is [cluster_obstruction_certificate.json](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/cluster_obstruction_certificate.json).
+Equality would require equal radii and equal direction, hence the same point, so the inequality is strict. All external supports are strict by the certificate. Thus some K vertex is necessarily unstable. Target V5 is independently unstable, so **every realization preserving this incidence and these external-support signs has `U>=2`**. The exact support certificate is cluster_obstruction_certificate.json.
 
 This generalizes X's two-endpoint identity: after deleting both offending edges, the transferred maximum becomes trapped in an externally positive three-vertex cap component.
 
@@ -290,20 +290,20 @@ At F's fixed centroid, cap maximum V8 and target V5 are `179.671046276368°` apa
 
 Run `bash RUN_ALL_VERIFIERS.sh` after extracting the archive. The independent exact verifier does not trust the declared faces. The mesh verifier reconstructs the exact hull and confirms that OBJ/STL contain 13 vertices and the same 22-triangle maximal-face fan triangulation.
 
-- [Complete portable bundle ZIP](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle.zip)
-- [Standalone full report](sandbox:/mnt/data/post_edge_deletion_bridge_research_REPORT.md)
-- [Combined verifier transcript](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/RUN_ALL_VERIFIERS.txt)
-- [Fresh-extraction manifest/verifier transcript](sandbox:/mnt/data/post_edge_deletion_bridge_research_FRESH_VERIFY.txt)
-- [SHA-256 manifest](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/SHA256SUMS.txt)
-- [ZIP SHA-256 record](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle.zip.sha256)
-- [F exact verifier](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/verify_exact.py)
-- [F independent verifier](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/verify_independent.py)
-- [F metric-box verifier](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/verify_metric_box.py)
-- [F mesh verifier](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/verify_mesh.py)
-- [F OBJ](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/body.obj)
-- [F STL](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_F_vertex6_deactivated/body.stl)
-- [Parent E candidate](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/endpoint_E_successor_edge_deleted/candidate.json)
-- [Deletion enumeration](sandbox:/mnt/data/post_edge_deletion_bridge_research_bundle/subhull_exhaustion_summary.json)
+- Complete portable bundle ZIP (`post_edge_deletion_bridge_research_bundle.zip`)
+- Standalone full report (`post_edge_deletion_bridge_research_REPORT.md`)
+- Combined verifier transcript (`RUN_ALL_VERIFIERS.txt`)
+- Fresh-extraction manifest/verifier transcript (`post_edge_deletion_bridge_research_FRESH_VERIFY.txt`)
+- SHA-256 manifest (`SHA256SUMS.txt`)
+- ZIP SHA-256 record (`post_edge_deletion_bridge_research_bundle.zip.sha256`)
+- F exact verifier (`verify_exact.py`)
+- F independent verifier (`verify_independent.py`)
+- F metric-box verifier (`verify_metric_box.py`)
+- F mesh verifier (`verify_mesh.py`)
+- F OBJ (`body.obj`)
+- F STL (`body.stl`)
+- Parent E candidate (`candidate.json`)
+- Deletion enumeration (`subhull_exhaustion_summary.json`)
 
 The final archive contains 110 manifest-tracked files. Fresh extraction verified every hash and all exact, independent, interval-box, mesh and diagnostic checks. ZIP SHA-256:
 

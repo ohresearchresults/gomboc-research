@@ -8,7 +8,7 @@ AI research report · 2026-08-28 UTC
 
 **No winner.** I materialized a genuine finite-width, four-sector two-cell/Y-zipper beyond the M42 terminal relay and exactified its strongest endpoint. The new body deletes the inherited true edge `(47,53)`, deactivates both relay endpoints 47 and 52, gives the terminal sector three independent outgoing true-edge routes, and replaces the inherited stable and saddle stars in one global hull rebuild. After exact closure of all three ordinary moments and a complete own-centroid audit, the endpoint is a strict open `(S,U,H)=(2,2,2)` nonwinner. A new cell-wide external-positive obstruction occurs on true edge `(64,68)`.
 
-The supplied journal explicitly materializes the original 42 M42-SLP rows :contentReference[oaicite:0]{index=0}, but it records the later `(35,85,52,170)` relay only by its f-vector, class, deleted rows, and obstruction `(47,53)`, without listing the relay coordinates. :contentReference[oaicite:1]{index=1} Consequently, I rebuilt an exact terminating-decimal representative of that same reported terminal cell. It exactly matches `(V,E,F,C)=(35,85,52,170)`, strict `(3,3,4)`, the row labels, independent unstable vertex 8, and the external-positive true edge `(47,53)`. I do **not** claim byte identity with the unavailable worker-local relay object.
+The supplied journal explicitly materializes the original 42 M42-SLP rows, but it records the later `(35,85,52,170)` relay only by its f-vector, class, deleted rows, and obstruction `(47,53)`, without listing the relay coordinates. Consequently, I rebuilt an exact terminating-decimal representative of that same reported terminal cell. It exactly matches `(V,E,F,C)=(35,85,52,170)`, strict `(3,3,4)`, the row labels, independent unstable vertex 8, and the external-positive true edge `(47,53)`. I do **not** claim byte identity with the unavailable worker-local relay object.
 
 # What was constructed
 
@@ -269,16 +269,16 @@ to deactivate while both Morse cancellations cross together.
 
 # Materialized artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/M42_2cell_postbridge_exact.zip) — SHA-256 `5c0eabcf0ab96bf9e75b8672460f81b77d4cb198d7d8bda70421b7f99e107ddc`
-- [Full research handoff](sandbox:/mnt/data/M42_2cell_postbridge_exact/research_handoff.md)
-- [Exact independent V/H verifier](sandbox:/mnt/data/M42_2cell_postbridge_exact/verify_exact.py)
-- [Outward interval verifier](sandbox:/mnt/data/M42_2cell_postbridge_exact/verify_interval.py)
-- [Exact centered V-representation](sandbox:/mnt/data/M42_2cell_postbridge_exact/coordinates_postbridge_active_centered.csv)
-- [Exact centered H-representation](sandbox:/mnt/data/M42_2cell_postbridge_exact/halfspaces_postbridge_centered.csv)
-- [Complete 121-edge four-component audit](sandbox:/mnt/data/M42_2cell_postbridge_exact/edges_postbridge_four_component_audit.csv)
-- [Complete actual face incidence](sandbox:/mnt/data/M42_2cell_postbridge_exact/faces_postbridge.json)
-- [Next-topology certificate](sandbox:/mnt/data/M42_2cell_postbridge_exact/next_topology.json)
-- [OBJ](sandbox:/mnt/data/M42_2cell_postbridge_exact/body.obj)
-- [STL](sandbox:/mnt/data/M42_2cell_postbridge_exact/body.stl)
+- Complete exact archive (`M42_2cell_postbridge_exact.zip`) — SHA-256 `5c0eabcf0ab96bf9e75b8672460f81b77d4cb198d7d8bda70421b7f99e107ddc`
+- Full research handoff (`research_handoff.md`)
+- Exact independent V/H verifier (`verify_exact.py`)
+- Outward interval verifier (`verify_interval.py`)
+- Exact centered V-representation (`coordinates_postbridge_active_centered.csv`)
+- Exact centered H-representation (`halfspaces_postbridge_centered.csv`)
+- Complete 121-edge four-component audit (`edges_postbridge_four_component_audit.csv`)
+- Complete actual face incidence (`faces_postbridge.json`)
+- Next-topology certificate (`next_topology.json`)
+- OBJ (`body.obj`)
+- STL (`body.stl`)
 
 The archive was extracted into a clean directory; `sha256sum -c SHA256SUMS`, `python3 verify_exact.py`, and `python3 verify_interval.py` all passed there.

@@ -308,9 +308,9 @@ SUMMARY.json
   51bf9204f2e50c57cfb966ac90d11d5818ca6a5d1a2982cf8e798a54f2b6a849
 ```
 
-[Exact source, both full audit pairs, complete incidence/mass ledgers, cells, envelope certificates and corrected cold-replay receipt](sandbox:/mnt/data/SQ24_POLAR121_EXACT.zip): **62,416,995 bytes**, SHA-256 `b10fa89528ed28144e14c32456cecb55f73e7c931889b584b86f62dcfc9b0065`. All **39** manifest payloads were checked; the archive has 40 files including its manifest.
+Exact source, both full audit pairs, complete incidence/mass ledgers, cells, envelope certificates and corrected cold-replay receipt (`SQ24_POLAR121_EXACT.zip`): **62,416,995 bytes**, SHA-256 `b10fa89528ed28144e14c32456cecb55f73e7c931889b584b86f62dcfc9b0065`. All **39** manifest payloads were checked; the archive has 40 files including its manifest.
 
-[Discovery source, logs and explicitly unpromoted numerical checkpoints](sandbox:/mnt/data/SQ24_POLAR121_RESEARCH.zip): **461,479 bytes**, SHA-256 `5fb03728bfafef7fdbd6e91c3a89e73353519019898e933e03c2424a2635080e`. All **220** manifest payloads were checked; the archive has 221 files including its manifest.
+Discovery source, logs and explicitly unpromoted numerical checkpoints (`SQ24_POLAR121_RESEARCH.zip`): **461,479 bytes**, SHA-256 `5fb03728bfafef7fdbd6e91c3a89e73353519019898e933e03c2424a2635080e`. All **220** manifest payloads were checked; the archive has 221 files including its manifest.
 
 The corrected final replay receipt has SHA-256 `ef08357ba78ca8ca24f64efc944b4bb660aa82d18870f4f8e2e919fde18c8b3e`. These archives supplement the complete inline exact source below; they are not its only defining data.
 

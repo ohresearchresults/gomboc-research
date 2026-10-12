@@ -270,14 +270,14 @@ The endpoint OBJ/STL has `5296` vertices and `10588` triangles, is connected and
 
 ## Artifacts
 
-- [Complete exact package](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner.zip), SHA-256 `b14ccea6c9693b98f5faefb2053e8e58723491e8f851380ef299070bdb89c833`; `unzip -t` reports no errors.
-- [Full 55-cell/81-wall handoff with all exact tables](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/RESULT_FINAL.md), SHA-256 `90504391ceae3aa51ff9a490556604333b199fdc3452c5e0a54ce40e4237089d`.
-- [Canonical machine-readable atlas](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/atlas/complete_atlas.json), SHA-256 `fcb1f7b452b193fda68beb976a68d8986b11e52f912607e60d28860ed9cfd8e0`.
-- [Projected rank-two certificate](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/certificates/projected_response_interval_certificate.json), SHA-256 `5e98d02d8494a6b91d4cd066038c923e52cd03e2b7dc57b8a621c11d16a04bdf`.
-- [Strongest endpoint perturbation certificate](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/certificates/strongest_endpoint_perturbation.json), SHA-256 `b9306538b0ba7acfd7e63fa67992a745acdd916923ebc8ae656cd7e155acb2cd`.
-- [Independent verifier](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/verifier/verify_multidim_independent.py), [passing report](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/verifier/verification_report.json), and [transcript](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/verifier/verification_transcript.txt).
-- [C44 OBJ](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/meshes/strongest_postdeactivation_C44.obj) and [C44 STL](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/meshes/strongest_postdeactivation_C44.stl).
-- [SHA-256 manifest](sandbox:/mnt/data/slot4_multidimensional_wholepair_exact_nonwinner/MANIFEST.sha256), SHA-256 `c82e0d5e182c202507bb5135268ba89c7983ca108cc7347dcb858213683ac0c8`.
+- Complete exact package (`slot4_multidimensional_wholepair_exact_nonwinner.zip`), SHA-256 `b14ccea6c9693b98f5faefb2053e8e58723491e8f851380ef299070bdb89c833`; `unzip -t` reports no errors.
+- Full 55-cell/81-wall handoff with all exact tables (`RESULT_FINAL.md`), SHA-256 `90504391ceae3aa51ff9a490556604333b199fdc3452c5e0a54ce40e4237089d`.
+- Canonical machine-readable atlas (`complete_atlas.json`), SHA-256 `fcb1f7b452b193fda68beb976a68d8986b11e52f912607e60d28860ed9cfd8e0`.
+- Projected rank-two certificate (`projected_response_interval_certificate.json`), SHA-256 `5e98d02d8494a6b91d4cd066038c923e52cd03e2b7dc57b8a621c11d16a04bdf`.
+- Strongest endpoint perturbation certificate (`strongest_endpoint_perturbation.json`), SHA-256 `b9306538b0ba7acfd7e63fa67992a745acdd916923ebc8ae656cd7e155acb2cd`.
+- Independent verifier (`verify_multidim_independent.py`), passing report (`verification_report.json`), and transcript (`verification_transcript.txt`).
+- C44 OBJ (`strongest_postdeactivation_C44.obj`) and C44 STL (`strongest_postdeactivation_C44.stl`).
+- SHA-256 manifest (`MANIFEST.sha256`), SHA-256 `c82e0d5e182c202507bb5135268ba89c7983ca108cc7347dcb858213683ac0c8`.
 
 ## Continuation
 

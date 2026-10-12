@@ -12,7 +12,7 @@ Slot: Sharp Lynx 54. Branch: [internal-source-reference].
 
 **For every t>0 and κ>0, the literal actual double-stack body of the parent, uniformly refilled after its projectivity and centered at its own volume centroid, cannot realize FULL253 under any common physical SPD metric.** The theorem includes every finite positive parameter, arbitrary metric conditioning, and weak chosen arrows. It also includes every affine image of these bodies.
 
-There is no remaining parameter cell in the assigned positive (t,κ) quadrant for this literal fullgraph. This is **not** a whole-incidence theorem, an all-orientation110 exclusion, or a new complexity bound. The interval 34≤C_min≤622 and all canonical counts remain unchanged. :contentReference[oaicite:0]{index=0}
+There is no remaining parameter cell in the assigned positive (t,κ) quadrant for this literal fullgraph. This is **not** a whole-incidence theorem, an all-orientation110 exclusion, or a new complexity bound. The interval 34≤C_min≤622 and all canonical counts remain unchanged.
 
 The proof covers the quadrant by three explicit overlapping domains:
 
@@ -26,13 +26,13 @@ A and C need only their three listed arrows, not a fullgraph, a stable root, U1,
 
 ## 2. Literal source authority, graph and actual geometry
 
-The exact continuation parent is `minimum-0192`, SHA-256 `662e3cea120774e0849ae53566fe634335f4a2c4a7560d82ba5bfa79f47aba15`. Its planes, vertex labels, FULL facet order and tree are unchanged. The parent's identification limitation concerning the journal token “orbit(1,)” remains: no unprovided canonical-orbit map is invented. :contentReference[oaicite:1]{index=1}
+The exact continuation parent is `minimum-0192`, SHA-256 `662e3cea120774e0849ae53566fe634335f4a2c4a7560d82ba5bfa79f47aba15`. Its planes, vertex labels, FULL facet order and tree are unchanged. The parent's identification limitation concerning the journal token “orbit(1,)” remains: no unprovided canonical-orbit map is invented.
 
 Here FULL253 means that the complete graph of nonnegative ordered pole-pair primitives, with i≠j, consists exactly of
 
 TREE=((1,0),(2,1),(3,2),(4,3),(5,4),(6,5),(7,0),(8,7)),
 
-with these arrows on true adjacent facets. Merely containing TREE with additional nonnegative shadows is a different hypothesis. The literal primary ancestor `minimum-0069`, SHA-256 `d0f91982420a008eef0bc169a4c7b9f999710361057096a930facbf9715942ff`, supplies the mathematical input FULL253⇒Λ05+Λ06>51/25, valid at the actual homogeneous centroid without U1 or a conditioning bound. I use that accepted theorem, not a new replay of its208-block concentration certificate. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+with these arrows on true adjacent facets. Merely containing TREE with additional nonnegative shadows is a different hypothesis. The literal primary ancestor `minimum-0069`, SHA-256 `d0f91982420a008eef0bc169a4c7b9f999710361057096a930facbf9715942ff`, supplies the mathematical input FULL253⇒Λ05+Λ06>51/25, valid at the actual homogeneous centroid without U1 or a conditioning bound. I use that accepted theorem, not a new replay of its208-block concentration certificate.
 
 The raw double-stack parameters are
 
@@ -55,7 +55,7 @@ Vertex–facet incidences are
 0:(2,5,6,8); 1:(3,4,5,6); 2:(0,5,7,8); 3:(0,1,4,5);
 4:(2,7,8); 5:(1,3,4); 6:(0,1,7); 7:(1,2,7); 8:(1,2,3); 9:(2,3,6).
 
-Thus every positive parameter pair has ten true vertices, seventeen true edges and nine maximal facets. The high pair is the **whole quadrilateral F5 and whole triangle F6**; F0 is triangular. The window set is W={0,1,3,5,6}, K=5, not a K2 fixture. The parent establishes this all-parameter lattice, and the new recovery unit repeats its symbolic strict-slack/face-convexity checks. :contentReference[oaicite:4]{index=4}
+Thus every positive parameter pair has ten true vertices, seventeen true edges and nine maximal facets. The high pair is the **whole quadrilateral F5 and whole triangle F6**; F0 is triangular. The window set is W={0,1,3,5,6}, K=5, not a K2 fixture. The parent establishes this all-parameter lattice, and the new recovery unit repeats its symbolic strict-slack/face-convexity checks.
 
 Write D=6Vol(P), h0=1−g_x−g_y, and
 
@@ -90,7 +90,7 @@ The parent’s sharp quad identity is
 −D43/C−D65−(1−χ)D54
 =||y−(x+z)/2||²_N+(3/4−χ)||z−x||²_N.
 
-Consequently χ≤3/4 forbids even three weak arrows65,54,43. At χ=3/4 the stress is nonzero rank-one PSD; below it the displayed rank-two PSD stress is still strictly positive against every SPD N. :contentReference[oaicite:5]{index=5}
+Consequently χ≤3/4 forbids even three weak arrows65,54,43. At χ=3/4 the stress is nonzero rank-one PSD; below it the displayed rank-two PSD stress is still strictly positive against every SPD N.
 
 **New actual-centroid inequality:** for all t>0 and0<κ≤2t,
 
@@ -188,7 +188,7 @@ Set R=(t1−t2)²/(4t1t2). From(C3), R<9/16. Consequently the signed-gate quanti
 
 J=R−U−V<9/16−196/165=−1651/2640<0.       (C4)
 
-In particular this entire actual strip lies in the forbidden side of the parent’s signed five-pole theorem. The original requirement s1,s2>0 is unnecessary and is not reintroduced. The parent’s signed extension and weak-boundary scope are used exactly as stated. :contentReference[oaicite:6]{index=6}
+In particular this entire actual strip lies in the forbidden side of the parent’s signed five-pole theorem. The original requirement s1,s2>0 is unnecessary and is not reintroduced. The parent’s signed extension and weak-boundary scope are used exactly as stated.
 
 ### Explicit positive-definite common-metric stress
 
@@ -274,7 +274,7 @@ Observed final pins:
 Source:14,919 bytes, SHA-256 `05ad55f71c7168286f41c0e987438efdb48bd727d72415c3976eaa5da6fb9211`.
 Report:640,359 bytes, SHA-256 `e58a1c4337f7c912951ce6c2100b4f6320e1f6c72fa5b83cffa8e701eacc9f72`.
 
-Convenience copies: [source](sandbox:/mnt/data/lynx54_v2/doublestack_full253.py), [exact report](sandbox:/mnt/data/lynx54_v2/doublestack_full253_report.json), [observed replay receipts](sandbox:/mnt/data/lynx54_v2/replay_receipts.json). The literal source below is sufficient without those links.
+Convenience copies: source (`doublestack_full253.py`), exact report (`doublestack_full253_report.json`), observed replay receipts (`replay_receipts.json`). The literal source below is sufficient without those links.
 
 ```python
 """DOUBLESTACK_FULL_POSITIVE_TWO_PARAMETER_FULL253_EXCLUSION_V1.

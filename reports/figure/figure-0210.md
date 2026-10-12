@@ -21,7 +21,7 @@ Thus the required topology is realized and the prior component is genuinely dele
 
 ## Relation to the supplied journal
 
-The inherited accepted boundary was the exact nine-row P9 two-row terminal `P:(V,E,F)=(14,21,9)`, own-centred `(2,2,2)`, with forcing true edge `M-N`. The journal identified a second-spine/fifth-page octahedral or triangular-prismatic pair with at least three post-centering controls as the first unclassified successor. :contentReference[oaicite:0]{index=0} This package is the first exact realization of that successor in this continuation.
+The inherited accepted boundary was the exact nine-row P9 two-row terminal `P:(V,E,F)=(14,21,9)`, own-centred `(2,2,2)`, with forcing true edge `M-N`. The journal identified a second-spine/fifth-page octahedral or triangular-prismatic pair with at least three post-centering controls as the first unclassified successor. This package is the first exact realization of that successor in this continuation.
 
 The prior source is reproduced verbatim in `source_p9_xg5_two_row_exact.json`; its SHA-256 is bound by `input_rows_exact.json`.
 
@@ -529,19 +529,19 @@ RUN_ALL_OUTPUT.txt                         fresh complete transcript
 
 ## Downloadable artifact links
 
-- [Complete exact bundle](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER.zip)
-- [Archive SHA-256 file](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER.zip.sha256)
-- [Complete Markdown handoff](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/RESEARCH_HANDOFF.md)
-- [Exact before/after support rows](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/input_rows_exact.json)
-- [Complete exact H/V/E/mass/mechanics ledger](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/p9_xg6_second_spine_exact.json)
-- [Exact volume, moments, and centroid](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/exact_mass_centroid.json)
-- [Exact 17-tetrahedron shared-shell certificate](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/shared_shell_exact_certificate.json)
-- [Independent 39-coordinate perturbation certificate](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/perturbation_box_certificate.json)
-- [Independent clean-room verification report](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/independent_verification_report.json)
-- [Independent verifier](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/p9_xg6_second_spine_centered.obj)
-- [Watertight STL](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/p9_xg6_second_spine_centered.stl)
-- [Fresh full verification transcript](sandbox:/mnt/data/P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER/RUN_ALL_OUTPUT.txt)
+- Complete exact bundle (`P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER.zip`)
+- Archive SHA-256 file (`P9_XG6_SECOND_SPINE_FIFTH_PAGE_EXACT_NONWINNER.zip.sha256`)
+- Complete Markdown handoff (`RESEARCH_HANDOFF.md`)
+- Exact before/after support rows (`input_rows_exact.json`)
+- Complete exact H/V/E/mass/mechanics ledger (`p9_xg6_second_spine_exact.json`)
+- Exact volume, moments, and centroid (`exact_mass_centroid.json`)
+- Exact 17-tetrahedron shared-shell certificate (`shared_shell_exact_certificate.json`)
+- Independent 39-coordinate perturbation certificate (`perturbation_box_certificate.json`)
+- Independent clean-room verification report (`independent_verification_report.json`)
+- Independent verifier (`verify_independent.py`)
+- Watertight OBJ (`p9_xg6_second_spine_centered.obj`)
+- Watertight STL (`p9_xg6_second_spine_centered.stl`)
+- Fresh full verification transcript (`RUN_ALL_OUTPUT.txt`)
 
 Archive SHA-256:
 

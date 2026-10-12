@@ -12,18 +12,18 @@ I completed the requested **finite 315,000 rooted-tree atlas** for the literal r
 
 > **For this fixed raw C40 profile, no SPD Gram matrix can give strict `U=1` with additional-weak-U `=0`. Therefore no invertible affine image of this fixed raw shape can be strict `110/weak000`.**
 
-The parent body itself remains the already-audited exact `V10/E20/F12/C40`, strict `(S,U,H)=(2,2,2)`, weak `000`, with `S=[0,9]`, `U=[1,3]`, and explicit mixed saddles `H=[[0,3],[5,6]]`; I do **not** infer H from Morse count. Its complete physical and same-centre-polar packets are the exact 2-node packets recorded by the parent. :contentReference[oaicite:0]{index=0}
+The parent body itself remains the already-audited exact `V10/E20/F12/C40`, strict `(S,U,H)=(2,2,2)`, weak `000`, with `S=[0,9]`, `U=[1,3]`, and explicit mixed saddles `H=[[0,3],[5,6]]`; I do **not** infer H from Morse count. Its complete physical and same-centre-polar packets are the exact 2-node packets recorded by the parent.
 
 Because the exact atlas excludes every weak-free U1 metric for this fixed raw geometry, there is no rational feasible U1 Gram matrix on which a further S/H audit could produce a candidate. I therefore do not manufacture a full-orbit S/H claim: the new theorem is an exact U-side affine-orbit obstruction sufficient to exclude `110/weak000` on this profile.
 
-I then made the requested **controlled raw-profile change**, varying only `kappa[0][0]=t` while fixing both knots and the other seven curvature coefficients. Using exact polynomial matrices and Bernstein certificates, I prove the same affine U1 obstruction for **every real `t` in the closed interval `[99/100,103/100]`**. All curvatures stay positive there, so the support-stack chart retains `V10/E20/F12/C40` by the positive-curvature incidence theorem. :contentReference[oaicite:1]{index=1} This closes a genuine one-parameter C40 subchart across *all* SPD affine metrics; it is not another finite metric sample and does not reuse the sterile shear ray.
+I then made the requested **controlled raw-profile change**, varying only `kappa[0][0]=t` while fixing both knots and the other seven curvature coefficients. Using exact polynomial matrices and Bernstein certificates, I prove the same affine U1 obstruction for **every real `t` in the closed interval `[99/100,103/100]`**. All curvatures stay positive there, so the support-stack chart retains `V10/E20/F12/C40` by the positive-curvature incidence theorem. This closes a genuine one-parameter C40 subchart across *all* SPD affine metrics; it is not another finite metric sample and does not reuse the sterile shear ray.
 
 No strict `110/weak000` C40 body is promoted in this handoff.
 
 ## 1. Source authority and literal profile
 
 The continuation parent is immutable `figure-0466`, SHA-256
-`7939f2aab5f6b71911d2546a87ee7e3888f045b957e7fec261e0531f15272b63`. Its literal `C40_PACKET2X2_COARSE100` data are: :contentReference[oaicite:2]{index=2}
+`7939f2aab5f6b71911d2546a87ee7e3888f045b957e7fec261e0531f15272b63`. Its literal `C40_PACKET2X2_COARSE100` data are:
 
 ~~~text
 knots = [19/25, 81/100]
@@ -40,7 +40,7 @@ parent presentation affine map A =
 [23/20, 97/100, 17/25]
 ~~~
 
-The fixed-geometry atlas works in the **raw** profile and replaces the presentation `A` by an arbitrary SPD Gram matrix `G=A^T A`; this is exactly the fixed-shape reduction recorded in the branch. :contentReference[oaicite:3]{index=3}
+The fixed-geometry atlas works in the **raw** profile and replaces the presentation `A` by an arbitrary SPD Gram matrix `G=A^T A`; this is exactly the fixed-shape reduction recorded in the branch.
 
 The verifier independently reconstructs the raw profile and checks
 
@@ -57,7 +57,7 @@ spanning trees = 31500
 root-labelled spanning trees = 315000
 ~~~
 
-The true graph is the ten-vertex C40 stack graph already used by the exact tree reduction. The supplied metric material establishes why weak-free mono-U is exactly a finite rooted-tree sign problem: a positive escape strictly increases squared `G`-radius, so one positive escape chosen from every nonroot forms an acyclic tree directed to the sole strict-U root. :contentReference[oaicite:4]{index=4}
+The true graph is the ten-vertex C40 stack graph already used by the exact tree reduction. The supplied metric material establishes why weak-free mono-U is exactly a finite rooted-tree sign problem: a positive escape strictly increases squared `G`-radius, so one positive escape chosen from every nonroot forms an acyclic tree directed to the sole strict-U root.
 
 ## 2. Exact blocker certificate for all 315,000 rooted trees
 
@@ -211,7 +211,7 @@ This is a scoped subchart theorem only. It does not cover changing other curvatu
 
 ## 4. Why no new S/H endpoint is audited
 
-The requested workflow says to rationalize a feasible U1 cone and then audit full S/U/H and same-centre polar mechanics. The exact atlas finds **no feasible weak-free U1 cone**, so that branch of the workflow never arises. The existing literal parent already has a full exact maximal-face/true-edge audit with `S=[0,9]`, `U=[1,3]`, `H=[[0,3],[5,6]]`, weak `000`, and complete P/Q landscapes. :contentReference[oaicite:5]{index=5}
+The requested workflow says to rationalize a feasible U1 cone and then audit full S/U/H and same-centre polar mechanics. The exact atlas finds **no feasible weak-free U1 cone**, so that branch of the workflow never arises. The existing literal parent already has a full exact maximal-face/true-edge audit with `S=[0,9]`, `U=[1,3]`, `H=[[0,3],[5,6]]`, weak `000`, and complete P/Q landscapes.
 
 Thus I make no unsupported claim such as `H=0` for another metric. The new obstruction is entirely on the U side and is already sufficient to close the fixed raw profile and the stated one-parameter raw family against `110/weak000`.
 
@@ -259,7 +259,7 @@ C40_COARSE100_U1_INTERVAL_EXACT_PASS 558 33 1904 7ebf5ebba56de6a7e9dceca822eb321
 
 Fresh-directory replay reproduced both output hashes byte-for-byte.
 
-Convenience copies from this execution: [atlas verifier](sandbox:/mnt/data/VERIFY_C40_COARSE100_U1_ATLAS.py), [atlas report](sandbox:/mnt/data/C40_COARSE100_U1_ATLAS.json), [interval verifier](sandbox:/mnt/data/VERIFY_C40_COARSE100_U1_INTERVAL.py), [interval report](sandbox:/mnt/data/C40_COARSE100_U1_INTERVAL.json). These links are supplements; the complete runnable source is embedded below.
+Convenience copies from this execution: atlas verifier (`VERIFY_C40_COARSE100_U1_ATLAS.py`), atlas report (`C40_COARSE100_U1_ATLAS.json`), interval verifier (`VERIFY_C40_COARSE100_U1_INTERVAL.py`), interval report (`C40_COARSE100_U1_INTERVAL.json`). These links are supplements; the complete runnable source is embedded below.
 
 ### Complete source: `VERIFY_C40_COARSE100_U1_ATLAS.py`
 

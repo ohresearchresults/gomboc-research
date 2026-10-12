@@ -4,9 +4,9 @@ AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md
 
 ---
 
-The attached journal's acceptance gate requires a finite uniform-density body evaluated at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/edge evidence, independent verification, and matching OBJ/STL; wall points and near-solutions do not qualify. :contentReference[oaicite:0]{index=0}
+The attached journal's acceptance gate requires a finite uniform-density body evaluated at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/edge evidence, independent verification, and matching OBJ/STL; wall points and near-solutions do not qualify.
 
-The accepted starting point was the exact second-support `(16,42,28)`, `(2,2,2)` body with forced edge `[2152,2369]`; the journal explicitly named the third-support `H` event coupling `[2152,2369]→[0,2515]`, `[3296,D]→[1258,G]`, `[3290,D]→[2152,C]`, and the blocked `[F,G]` route. :contentReference[oaicite:1]{index=1}
+The accepted starting point was the exact second-support `(16,42,28)`, `(2,2,2)` body with forced edge `[2152,2369]`; the journal explicitly named the third-support `H` event coupling `[2152,2369]→[0,2515]`, `[3296,D]→[1258,G]`, `[3290,D]→[2152,C]`, and the blocked `[F,G]` route.
 
 # Calm Quartz 90 — exact wall-242 third-support/full-star determination
 
@@ -496,26 +496,26 @@ Not closed:
 
 ## Delivered artifacts
 
-- [Complete exact NONWINNER archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER.zip) — SHA-256 `a9a9cd35dc31c9650cfb2535828589695c31f14cb1093f0d420699fd963321af`, 488,089 bytes.
-- [Full Markdown handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_result.json)
-- [Final clean-extraction receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_clean_verification.json)
-- [Clean replay transcript](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_clean_replay.txt)
-- [Exact 18-row generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/data/generator_exact.json)
-- [Supplied exact V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/data/input_vertices_exact.csv)
-- [Exact own-centred active V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Primitive irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/data/third_support17_exact_H_irredundant.csv)
-- [All maximal-face mechanics](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/data/third_support17_exact_faces.csv)
-- [All directed vertex primitives](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/data/third_support17_exact_vertex_primitives.csv)
-- [All true edges and four-component cones](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/data/third_support17_exact_true_edges_full_cones.csv)
-- [Same-boundary full-star certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/certificates/third_support_shared_terminal_patch.json)
-- [Minimal bridge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/certificates/minimal_same_boundary_bridge.json)
-- [Own-centroid perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Residual forced-edge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/certificates/residual_forced_edge_1975_2732.json)
-- [Next-topology certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/certificates/first_successor_topology.json)
-- [Independent clean-room verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/scripts/verify_independent.py)
-- [Aggregate replay script](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/RUN_ALL_VERIFIERS.sh)
-- [Package verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/verify_package.py)
-- [SHA-256 manifest](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/SHA256SUMS.txt) — 43 manifested entries, manifest SHA-256 `5c4aa07b28398d24d97ecf1c1958fc7197eafc256334515b817360153406c540`.
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_third_support_exact_NONWINNER/mesh/body.stl)
+- Complete exact NONWINNER archive (`Calm_Quartz_90_wall242_third_support_exact_NONWINNER.zip`) — SHA-256 `a9a9cd35dc31c9650cfb2535828589695c31f14cb1093f0d420699fd963321af`, 488,089 bytes.
+- Full Markdown handoff (`Calm_Quartz_90_wall242_third_support_handoff.md`)
+- Structured result (`Calm_Quartz_90_wall242_third_support_result.json`)
+- Final clean-extraction receipt (`Calm_Quartz_90_wall242_third_support_clean_verification.json`)
+- Clean replay transcript (`Calm_Quartz_90_wall242_third_support_clean_replay.txt`)
+- Exact 18-row generator (`generator_exact.json`)
+- Supplied exact V-data (`input_vertices_exact.csv`)
+- Exact own-centred active V-data (`active_vertices_centered_exact.csv`)
+- Primitive irredundant H-data (`third_support17_exact_H_irredundant.csv`)
+- All maximal-face mechanics (`third_support17_exact_faces.csv`)
+- All directed vertex primitives (`third_support17_exact_vertex_primitives.csv`)
+- All true edges and four-component cones (`third_support17_exact_true_edges_full_cones.csv`)
+- Same-boundary full-star certificate (`third_support_shared_terminal_patch.json`)
+- Minimal bridge certificate (`minimal_same_boundary_bridge.json`)
+- Own-centroid perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Residual forced-edge certificate (`residual_forced_edge_1975_2732.json`)
+- Next-topology certificate (`first_successor_topology.json`)
+- Independent clean-room verifier (`verify_independent.py`)
+- Aggregate replay script (`RUN_ALL_VERIFIERS.sh`)
+- Package verifier (`verify_package.py`)
+- SHA-256 manifest (`SHA256SUMS.txt`) — 43 manifested entries, manifest SHA-256 `5c4aa07b28398d24d97ecf1c1958fc7197eafc256334515b817360153406c540`.
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)

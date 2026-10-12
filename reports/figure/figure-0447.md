@@ -260,7 +260,7 @@ NW37_MONO85_QUARTER_G6_EXACT_CHAMBERS.json
 
 The canonical41-file source dictionary is287207bytes, SHA256 `939ee82786c952c9abebbb2f8df72c02a2c9c862cf7a5948cd69116f3be2cb1c`. ItsXZpayload is69396bytes, SHA256 `33789fcbaee1bc0cb01be23966db52d0a9ee6af0e620f341256775bb7cf2ca26`; base64 has92528non-whitespace characters. The decoder checks archive and every per-source receipt.
 
-Convenience copies: [sources and decoder](sandbox:/mnt/data/NW37_CONTINUATION_SOURCES.zip),198643bytes,SHA256 `7ca35600dfbcbdb672c1696523656b5a2883fdd34d05963ddc56b75f075e352f`; [all exact reports](sandbox:/mnt/data/NW37_CONTINUATION_EXACT_REPORTS.zip),68515027bytes,SHA256 `046b4a2bee6c52d8f2aa70200232a6fbbe7564f4996ee4aba92a0187bc7b717d`. The inline capsule is sufficient without those files.
+Convenience copies: sources and decoder (`NW37_CONTINUATION_SOURCES.zip`),198643bytes,SHA256 `7ca35600dfbcbdb672c1696523656b5a2883fdd34d05963ddc56b75f075e352f`; all exact reports (`NW37_CONTINUATION_EXACT_REPORTS.zip`),68515027bytes,SHA256 `046b4a2bee6c52d8f2aa70200232a6fbbe7564f4996ee4aba92a0187bc7b717d`. The inline capsule is sufficient without those files.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

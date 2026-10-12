@@ -22,13 +22,13 @@ There are **25 distinct new rational bodies**, comprising18 own121 bodies, six o
 
 ## 1. Input authority and preservation boundary
 
-The direct scientific parent is `figure-0618`, SHA256 `175a3e59df4b325321fb17cd840963166f88abf8de551837f030f97202667928`. The supplied journal,554314 bytes, SHA256 `7a62a1df8d3d1f564da99fc3e360207f415e8fef03ff4f45d632bd77b053e97b`, was read in complete consecutive ranges through line2871/EOF. Its LOW43 entrance, actual-centroid requirement and distinction between LOW and cancellation were retained. fileciteturn40file0L9-L12
+The direct scientific parent is `figure-0618`, SHA256 `175a3e59df4b325321fb17cd840963166f88abf8de551837f030f97202667928`. The supplied journal,554314 bytes, SHA256 `7a62a1df8d3d1f564da99fc3e360207f415e8fef03ff4f45d632bd77b053e97b`, was read in complete consecutive ranges through line2871/EOF. Its LOW43 entrance, actual-centroid requirement and distinction between LOW and cancellation were retained.
 
 The exact starting input remains **QW49I_LOW43_G9_INPUT.json**,1534 bytes, SHA256 `c9cfe9c62a5835f6aecbbb77513ab9727a6a2a08f34429d22e0873d76f9dc6f6`. Its exact audit is7752 bytes, SHA256 `a708e0fd51b00a9d99ce8cfdb0156966e58b6db507b45702a7250e13f66f76ef`.
 
 **The selected LOW62 endpoint is recovered literally in this response**, with complete rational coordinates, actual mass and a runnable recovery/producing delta against the unchanged source units already present in the parent’s44-unit capsule. Its exact recovery does not require optimization.
 
-The larger **55-unit complete source/checkpoint decoder** was also created and decoded successfully: [RECOVER_QW49J.py](sandbox:/mnt/data/RECOVER_QW49J.py),91913 bytes, SHA256 `5fb273b8b789e294abf3e386f392b2bc93bccc906a1cdc9420adb4f34fe46162`. It contains42 Python units, the complete exact C++ auditor,17 literal binary64 endpoint/start checkpoints, all25 exact reconstruction recipes, selected no-scan input recipes, finite-run parameters and111 expected output receipts. Its decoded dictionary is218025 bytes, SHA256 `6bfa3002ab2527a00baf0a97d007c06a57b264cb2f7b22f602a706862e15935e`.
+The larger **55-unit complete source/checkpoint decoder** was also created and decoded successfully: RECOVER_QW49J.py,91913 bytes, SHA256 `5fb273b8b789e294abf3e386f392b2bc93bccc906a1cdc9420adb4f34fe46162`. It contains42 Python units, the complete exact C++ auditor,17 literal binary64 endpoint/start checkpoints, all25 exact reconstruction recipes, selected no-scan input recipes, finite-run parameters and111 expected output receipts. Its decoded dictionary is218025 bytes, SHA256 `6bfa3002ab2527a00baf0a97d007c06a57b264cb2f7b22f602a706862e15935e`.
 
 **Delivery limitation:** those91913 decoder bytes are not duplicated inline here. Thus the auxiliary24 bodies and the entire floating-checkpoint archive remain file-dependent/ephemeral under the strict inline copy contract until that linked55-unit payload is retained. The auxiliary table alone is not their coordinate recovery. The selected LOW62 body below does not have that coordinate gap.
 
@@ -144,7 +144,7 @@ QW49J_LOW62_G9_DIAG.json
 SHA256 24ca159e5bb836d5de143f64627a8f10b0280c12e6f31deb8d28b35d1e8a3f61
 ```
 
-Convenience copies: [literal input](sandbox:/mnt/data/qw49j/QW49J_LOW62_G9_INPUT.json), [full maximal-lattice/mass/census audit](sandbox:/mnt/data/qw49j/QW49J_LOW62_G9_AUDIT.json), [whole-basin and LOW diagnostics](sandbox:/mnt/data/qw49j/QW49J_LOW62_G9_DIAG.json).
+Convenience copies: literal input (`QW49J_LOW62_G9_INPUT.json`), full maximal-lattice/mass/census audit (`QW49J_LOW62_G9_AUDIT.json`), whole-basin and LOW diagnostics (`QW49J_LOW62_G9_DIAG.json`).
 
 ## 4. Whole-P cancellation on an opposed-route alternative
 
@@ -283,7 +283,7 @@ Q=[.46127876573906457,
    .00000017694547024111567].
 ```
 
-The complete exact ledger contains every actual centroid, volume, strict set, stable cycle, bar birth/death/depth and source/audit identity: [LEDGER49J.json](sandbox:/mnt/data/qw49j/LEDGER49J.json),3687592 bytes, SHA256 `0c779584c1b2ddaf392e97b4bf4849c1a50bb97142422be30b5a56376ad403ee`. The full decoder reconstructs this ledger rather than assuming its claims.
+The complete exact ledger contains every actual centroid, volume, strict set, stable cycle, bar birth/death/depth and source/audit identity: LEDGER49J.json,3687592 bytes, SHA256 `0c779584c1b2ddaf392e97b4bf4849c1a50bb97142422be30b5a56376ad403ee`. The full decoder reconstructs this ledger rather than assuming its claims.
 
 ### LOW can change while the entire equilibrium census does not
 

@@ -16,7 +16,7 @@ The strongest finite endpoint is a 30,724-row polyhedron that is strict `(S,U,H)
 
 ## Reproducible continuation bundle
 
-The principal artifact is the complete [continuation bundle](sandbox:/mnt/data/fourier_santalo_continuation_bundle.zip), with its [SHA-256 record](sandbox:/mnt/data/fourier_santalo_continuation_bundle.sha256).
+The principal artifact is the complete continuation bundle (`fourier_santalo_continuation_bundle.zip`), with its SHA-256 record (`fourier_santalo_continuation_bundle.sha256`).
 
 It contains:
 
@@ -55,16 +55,16 @@ Every saved coordinate is a binary64 number and therefore has a literal exact-dy
 
 Materialized levels include:
 
-- `nr=40`: [level file](sandbox:/mnt/data/continuation_work/refine_level_40_full.npz)
-- `nr=60`: [level file](sandbox:/mnt/data/continuation_work/refine_level_60_full.npz)
-- `nr=80`: [level file](sandbox:/mnt/data/continuation_work/refine_level_80_full.npz)
-- `nr=100`: [level file](sandbox:/mnt/data/continuation_work/refine_level_100_full.npz)
-- `nr=120`: [level file](sandbox:/mnt/data/continuation_work/refine_level_120_full.npz)
-- `nr=160`: [level file](sandbox:/mnt/data/continuation_work/refine_level_160_full.npz)
-- `nr=200`: [level file](sandbox:/mnt/data/continuation_work/refine_level_200.npz)
-- `nr=240`: [level file](sandbox:/mnt/data/continuation_work/refine_level_240.npz)
-- `nr=280`: [level file](sandbox:/mnt/data/continuation_work/refine_level_280_threshold.npz)
-- `nr=320`: [level file](sandbox:/mnt/data/continuation_work/refine_level_320_threshold.npz)
+- `nr=40`: level file (`refine_level_40_full.npz`)
+- `nr=60`: level file (`refine_level_60_full.npz`)
+- `nr=80`: level file (`refine_level_80_full.npz`)
+- `nr=100`: level file (`refine_level_100_full.npz`)
+- `nr=120`: level file (`refine_level_120_full.npz`)
+- `nr=160`: level file (`refine_level_160_full.npz`)
+- `nr=200`: level file (`refine_level_200.npz`)
+- `nr=240`: level file (`refine_level_240.npz`)
+- `nr=280`: level file (`refine_level_280_threshold.npz`)
+- `nr=320`: level file (`refine_level_320_threshold.npz`)
 
 ### Level 200
 
@@ -108,7 +108,7 @@ Santaló x = -0.0151552542059
 Santaló-centred class = (9587,9219,18804)
 ```
 
-The complete literal level is [refine_level_280_threshold.npz](sandbox:/mnt/data/continuation_work/refine_level_280_threshold.npz).
+The complete literal level is refine_level_280_threshold.npz.
 
 ### Level 320 — strongest endpoint
 
@@ -128,11 +128,11 @@ normalized centroid residual approximately 1e-15
 
 At `kappa=0.0189`, immediately below the selected value, the raw class is `(1,5,4)`. Thus the construction-centre winner lies close to a genuine finite mechanical threshold, while its Santaló displacement is about ninety times the raw stable-face margin.
 
-The complete literal level is [refine_level_320_threshold.npz](sandbox:/mnt/data/continuation_work/refine_level_320_threshold.npz).
+The complete literal level is refine_level_320_threshold.npz.
 
 ## Independent reconstruction
 
-I wrote a second verifier that does not call the primary equilibrium-audit implementation: [independent_refinement_verifier.py](sandbox:/mnt/data/continuation_work/independent_refinement_verifier.py).
+I wrote a second verifier that does not call the primary equilibrium-audit implementation: independent_refinement_verifier.py.
 
 It independently performs the following operations:
 
@@ -144,7 +144,7 @@ It independently performs the following operations:
 6. solves the Santaló equations using the normalized centroid residual;
 7. translates Q and independently audits the centred polar.
 
-Its complete output is [independent_refinement_report.json](sandbox:/mnt/data/continuation_work/independent_refinement_report.json).
+Its complete output is independent_refinement_report.json.
 
 For level 280 it reproduces
 
@@ -170,7 +170,7 @@ These independent results rule out a stale-feature or primary-classifier explana
 
 ## Quantified obstruction in this refinement mechanism
 
-The complete numerical ledger is [refinement_scaling_evidence.json](sandbox:/mnt/data/continuation_work/refinement_scaling_evidence.json).
+The complete numerical ledger is refinement_scaling_evidence.json.
 
 Across all ten materialized levels, the following ratios are exceptionally rigid:
 
@@ -214,16 +214,16 @@ with nonlinear monotone transforms, axial mixing, phase shifts, ring/fan paramet
 
 Four randomized searches initially appeared to produce raw and Santaló-centred `(1,1,0)` bodies:
 
-- [seed 1](sandbox:/mnt/data/continuation_work/helical_random/raw_seed1_it2415.npz)
-- [seed 2](sandbox:/mnt/data/continuation_work/helical_random/raw_seed2_it3277.npz)
-- [seed 3](sandbox:/mnt/data/continuation_work/helical_random/raw_seed3_it1953.npz)
-- [seed 4](sandbox:/mnt/data/continuation_work/helical_random/raw_seed4_it758.npz)
+- seed 1 (`raw_seed1_it2415.npz`)
+- seed 2 (`raw_seed2_it3277.npz`)
+- seed 3 (`raw_seed3_it1953.npz`)
+- seed 4 (`raw_seed4_it758.npz`)
 
 They are **not** winners.
 
 The old Newton stopping rule accepted `||M||<10^-12`, where `M` is the unnormalized first moment. These bodies had polar volumes between roughly `10^-13` and `10^-23`; consequently an absolute first-moment tolerance was almost vacuous. A tiny absolute `M` did not imply a small centroid `M/V`.
 
-I implemented a corrected affine-whitened, line-searched Santaló solver that stops on the scale-invariant residual `||M||/V` and enforces a positive denominator margin: [robust_santalo.py](sandbox:/mnt/data/continuation_work/robust_santalo.py).
+I implemented a corrected affine-whitened, line-searched Santaló solver that stops on the scale-invariant residual `||M||/V` and enforces a positive denominator margin: robust_santalo.py.
 
 The corrected centred classes are
 
@@ -234,7 +234,7 @@ seed 3: (3,2,3), minimum polar denominator 0.437747
 seed 4: (2,2,2), minimum polar denominator 0.461658
 ```
 
-The complete correction ledger is [helical_false_positive_correction.json](sandbox:/mnt/data/continuation_work/helical_false_positive_correction.json).
+The complete correction ledger is helical_false_positive_correction.json.
 
 This is a reusable certification rule for all later work:
 
@@ -256,8 +256,8 @@ Two determinant-one SPD metric searches were then run:
 
 The first remained at best near score `-0.06687`, class `(2,3,3)`; the second remained near `-0.3219`, class `(2,4,4)` or adjacent cells. Saved metric checkpoints include
 
-- [metric_helical_seed101.npz](sandbox:/mnt/data/continuation_work/metric_helical_seed101.npz)
-- [metric_helical_seed102.npz](sandbox:/mnt/data/continuation_work/metric_helical_seed102.npz)
+- metric_helical_seed101.npz
+- metric_helical_seed102.npz
 
 No open SPD chamber with `(1,1,0)` was found.
 
@@ -265,8 +265,8 @@ No open SPD chamber with `(1,1,0)` was found.
 
 A level-set contour construction was also materialized with 20 longitudinal contours and 400 transverse samples per contour:
 
-- [contour20_400.npz](sandbox:/mnt/data/continuation_work/contour20_400.npz)
-- [contour20_400.log](sandbox:/mnt/data/continuation_work/contour20_400.log)
+- contour20_400.npz
+- contour20_400.log
 
 It has approximately 8,002 rows and centroid norm only `1.11e-5`, but its construction-centre class is
 
@@ -280,9 +280,9 @@ Thus fine transverse sampling alone does not supply the required complete common
 
 The earlier exact-cover artifacts remain the best exact/directed baseline for the complete finite machinery:
 
-- [exact deterministic generator](sandbox:/mnt/data/exact_cover/generator.json)
-- [Santaló Krawczyk certificate](sandbox:/mnt/data/exact_cover/santalo_krawczyk_certificate.json)
-- [exact dyadic metric certificate](sandbox:/mnt/data/exact_cover/metric_A_dyadic_certificate.json)
+- exact deterministic generator (`generator.json`)
+- Santaló Krawczyk certificate (`santalo_krawczyk_certificate.json`)
+- exact dyadic metric certificate (`metric_A_dyadic_certificate.json`)
 
 The 4,324-row body is strict `(1,1,0)` at its construction centre. Its exactly centred/metric-audited fallback is `(2,2,2)`, not the target.
 

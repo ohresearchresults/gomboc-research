@@ -12,11 +12,11 @@ AI research report · 2026-09-10 UTC · [Export notes](../../catalog/coverage.md
 
 The theorem includes **weak escape equalities, all real positive-definite reciprocal metrics, and arbitrarily small positive actual cone volumes**. Application uses rows of one actual original-body Lambda at its ordinary uniform-volume centroid. Convex decomposition weights are not fitted physical masses; the polar is not assumed uniformly centred.
 
-Specification parent: `minimum-0035`, SHA-256 `8c1f1ed216fa9ce12e3141e4b177040958865e3dbbc42c88b8a7f4fcf68faf36`. I used its literal specification and discrete plans, not its unavailable predecessor coefficients as evidence. The current journal explicitly records the malformed original publication and the conditional status of the previous graph replay. No tree/C32-label conflict was found in the specification used here. :contentReference[oaicite:0]{index=0}
+Specification parent: `minimum-0035`, SHA-256 `8c1f1ed216fa9ce12e3141e4b177040958865e3dbbc42c88b8a7f4fcf68faf36`. I used its literal specification and discrete plans, not its unavailable predecessor coefficients as evidence. The current journal explicitly records the malformed original publication and the conditional status of the previous graph replay. No tree/C32-label conflict was found in the specification used here.
 
 **These are new source and coefficient bytes.** The old four source units remain unavailable. The old decoder's claimed `11977 / 5b568871fbf047909ed0c738c8f4df4fc61985d99492bfb14e5f7358d18e8c14` identity is not recovered, and no new output is represented as matching the old historical matrix-stream pins.
 
-**No additional survivor exclusion using the matrix-square or triangle-chain volume constraints is certified here.** The five remaining forms are unexcluded, not declared physically realizable. The accepted research register remains `32<=C_min<=1374`, with the same 17 whole C32 types `{33,34,72,139,149,152,159,163,164,178,192,217,284,288,293,294,295}` excluded. The unpersisted coordinator 7954 package is not promoted. No new `F>=10`, `V>=10`, `C>=34`, named whole-type exclusion, or attainer is claimed. :contentReference[oaicite:1]{index=1}
+**No additional survivor exclusion using the matrix-square or triangle-chain volume constraints is certified here.** The five remaining forms are unexcluded, not declared physically realizable. The accepted research register remains `32<=C_min<=1374`, with the same 17 whole C32 types `{33,34,72,139,149,152,159,163,164,178,192,217,284,288,293,294,295}` excluded. The unpersisted coordinator 7954 package is not promoted. No new `F>=10`, `V>=10`, `C>=34`, named whole-type exclusion, or attainer is claimed.
 
 ## 2. Exact tree coverage and complete complement
 
@@ -71,7 +71,7 @@ Consequently the **same** physical Lambda has zero diagonal, positive off-diagon
 
 `c3=max_(r>=0) 3(1+2r+3r^2)/[(1+r+r^2)(3+2r+r^2)]`.
 
-This turn proves the finite capped-row implication, not that earlier trace theorem. The algebraic proof includes the closed cap 10/9 and zero coefficients, while its physical application uses the actual areas, centroids and cone volumes just defined. Arbitrary capped rows are not asserted to be physical. :contentReference[oaicite:2]{index=2}
+This turn proves the finite capped-row implication, not that earlier trace theorem. The algebraic proof includes the closed cap 10/9 and zero coefficients, while its physical application uses the actual areas, centroids and cone volumes just defined. Arbitrary capped rows are not asserted to be physical.
 
 For any primal physical metric `M>0`, use its single reciprocal metric `N=M^-1`, and put `H=Q N Q^T`. H is nonzero PSD, and has rank three for the actual body. The certificate argument does not need a rank bound, a condition-number bound, a coordinate box, or a positive lower bound on any cone volume.
 
@@ -205,7 +205,7 @@ An earlier long invocation timed out and was not counted as a complete replay. P
 
 After obtaining recoverable integer certificates, I explored adding reciprocal-volume coupling between actual coefficient rows. No additional tree-form exclusion from that exploration is certified here. Numerical non-success is not evidence of feasibility or impossibility, and experimental arrays are not promoted as successor checkpoints.
 
-A precise analytic continuation is available. For `x=Lambda_ab`, `y=Lambda_ba`, and the actual pair-hull volume fraction r, the inherited physical inequality is `xy<=r^2`, with `0<=x,y<=10/9`. It comes from the same actual facet traces, not independently fitted masses. :contentReference[oaicite:3]{index=3}
+A precise analytic continuation is available. For `x=Lambda_ab`, `y=Lambda_ba`, and the actual pair-hull volume fraction r, the inherited physical inequality is `xy<=r^2`, with `0<=x,y<=10/9`. It comes from the same actual facet traces, not independently fitted masses.
 
 The exact identity
 
@@ -335,7 +335,7 @@ REMAINING_TREE_ORDINALS 253 266 272 278 285
 
 The separate frozen replay reproduced the independent matrix and graph checks and the final recovery marker, with exit 0. The full and frozen transcripts are pinned above.
 
-Supplementary [new complete proof and frozen checkpoint](sandbox:/mnt/data/NOVA24_CAP9_NEW_281_RESTORED_V1.zip): 1,200,135 bytes, SHA-256 `aae5596a83abc3a163473b5e2dbdf41f1638c67d2cb697c06601cbc71df77f0e`. This archive is optional; the complete reconstruction material follows.
+Supplementary new complete proof and frozen checkpoint (`NOVA24_CAP9_NEW_281_RESTORED_V1.zip`): 1,200,135 bytes, SHA-256 `aae5596a83abc3a163473b5e2dbdf41f1638c67d2cb697c06601cbc71df77f0e`. This archive is optional; the complete reconstruction material follows.
 
 ## 7. Complete literal new source units
 

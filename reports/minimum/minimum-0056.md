@@ -154,7 +154,7 @@ The wrapper is 28361 bytes, SHA-256 `ebf05fef861e25571f7654e7df6f4c7121142691d81
 
 Each norm block/minor stream is the concatenation of compact JSON `[Q,minors]` plus LF in literal occurrence order. All 24 stream SHA values are embedded in the generator, and both complete reports reconstruct their byte counts. The primal stream uses compact JSON `[upper_triangle,minors]` plus LF in its literal 504-cell order. No large table is left recoverable only from a filename or hash.
 
-A convenience copy is [recover_universal73_complete.py](sandbox:/workspace/scratch/2d4a4bd60c77/recover_universal73_complete.py). The entire source below is the recovery authority.
+A convenience copy is recover_universal73_complete.py. The entire source below is the recovery authority.
 
 ```python
 """UNIVERSAL73_COMPLETE_V1: complete 24-record broom exclusion and barriers.

@@ -8,11 +8,11 @@ AI research report · 2026-09-01 UTC
 
 ## Literal disposition
 
-**RIGOROUS DELIMITED NONWINNER.** No open trace-one SPD metric box with strict own-centred `(S,U,H)=(1,1,0)` was found. The first genuinely open joint transition beyond `B8_alt` was nevertheless resolved exactly: the actual all-wall connector, a rank-two coupled stable-death plaque, all four adjacent full-dimensional orthants, and the first rank-three extension were materialized on the unchanged Santaló-centred lattice. Every certified connector chamber and every certified positive-radius box has at least two stable equilibria. This closes the exact frontier left open in the supplied journal, but it does **not** exclude the remaining compact SPD core globally. :contentReference[oaicite:0]{index=0}
+**RIGOROUS DELIMITED NONWINNER.** No open trace-one SPD metric box with strict own-centred `(S,U,H)=(1,1,0)` was found. The first genuinely open joint transition beyond `B8_alt` was nevertheless resolved exactly: the actual all-wall connector, a rank-two coupled stable-death plaque, all four adjacent full-dimensional orthants, and the first rank-three extension were materialized on the unchanged Santaló-centred lattice. Every certified connector chamber and every certified positive-radius box has at least two stable equilibria. This closes the exact frontier left open in the supplied journal, but it does **not** exclude the remaining compact SPD core globally.
 
 ## Recovery and independent rerun
 
-The transport-interrupted continuation had left a complete immutable archive in the user library. I materialized it, verified the outer archive SHA-256, checked all 133 internally manifested files byte-for-byte, and ran the independent verifier from a fresh extraction. It returned `PASS`, reconstructed the complete lattice, replayed all 2,101 ordered wall roots, and audited all sixteen open metric boxes. The recovered handoff gives the exact family and complete wall system. :contentReference[oaicite:1]{index=1}
+The transport-interrupted continuation had left a complete immutable archive in the user library. I materialized it, verified the outer archive SHA-256, checked all 133 internally manifested files byte-for-byte, and ran the independent verifier from a fresh extraction. It returned `PASS`, reconstructed the complete lattice, replayed all 2,101 ordered wall roots, and audited all sixteen open metric boxes. The recovered handoff gives the exact family and complete wall system.
 
 ```text
 bundle SHA-256 = ea0ed57c24a3063eb4f1850249b9a8a75f7497194a9bc60c95e60f7efc373a42
@@ -207,7 +207,7 @@ The first genuine rank-three plaque adds wall 11193, `1878→1843` at edge 5596.
 +++ (5,4,7) S={1308,1343,1878,2938,2973}.
 ```
 
-The third wall is adverse: its positive side births stable row 1878. Hence neither the rank-two nor rank-three local arrangement contains a winner. The exact plaque data and interval proof are in the recovered handoff. :contentReference[oaicite:2]{index=2}
+The third wall is adverse: its positive side births stable row 1878. Hence neither the rank-two nor rank-three local arrangement contains a winner. The exact plaque data and interval proof are in the recovered handoff.
 
 ## Exhaustive positive-radius box ledger
 
@@ -245,15 +245,15 @@ All four connector segments remain outside every one of the 289 inherited relati
 5683438210257271341818531686427809504257764044079351342469/340282366920938463463374607431768211456.
 ```
 
-The independent verifier reconstructs all 8,644 vertices from active triples, validates all H/V/E incidence, recomputes every path polynomial and Santaló perturbation bound, checks every root bracket and chamber replay, recomputes all sixteen box ledgers and both plaque collars, checks all edge cones and 289 nonmembership inequalities, verifies plaque ranks and energy identities, and checks the compact-core covers. It ends in `PASS`. :contentReference[oaicite:3]{index=3}
+The independent verifier reconstructs all 8,644 vertices from active triples, validates all H/V/E incidence, recomputes every path polynomial and Santaló perturbation bound, checks every root bracket and chamber replay, recomputes all sixteen box ledgers and both plaque collars, checks all edge cones and 289 nonmembership inequalities, verifies plaque ranks and energy identities, and checks the compact-core covers. It ends in `PASS`.
 
 Artifacts:
 
-- [Complete exact bundle](sandbox:/mnt/data/Calm_Quartz_90_fixed_lattice_NONWINNER.zip)
-- [Fresh wrapper verifier](sandbox:/mnt/data/Calm_Quartz_90_verifier.py)
-- [Fresh verification receipt](sandbox:/mnt/data/Calm_Quartz_90_fresh_verification.json)
-- [Full expanded handoff](sandbox:/mnt/data/Calm_Quartz_90_full_handoff.md)
-- [Structured result file](sandbox:/mnt/data/Calm_Quartz_90_result.json)
+- Complete exact bundle (`Calm_Quartz_90_fixed_lattice_NONWINNER.zip`)
+- Fresh wrapper verifier (`Calm_Quartz_90_verifier.py`)
+- Fresh verification receipt (`Calm_Quartz_90_fresh_verification.json`)
+- Full expanded handoff (`Calm_Quartz_90_full_handoff.md`)
+- Structured result file (`Calm_Quartz_90_result.json`)
 
 No winner mesh is emitted. The bundle supplies the complete fixed H/V representation, all maximal-face cycles, all true edges, deterministic transforms, box ledgers, verifier, and watertight endpoint meshes used for the nonwinner atlas.
 
@@ -272,7 +272,7 @@ Reverse walls 7918 and 17701 are excluded by the positive SPD energy identity. T
 [7919,17700,bA,bB].
 ```
 
-A discovery-only double-precision sweep over these 25 systems enumerated 711,630 non-target root groups and found no numerical `(1,1,0)` interval; nineteen systems reached no better than `(2,2,2)`, one no better than `(4,2,4)`, and five had no numerical SPD interval. This is not an exact exclusion. The rigorous continuation is an adaptive exact per-cell all-wall atlas with direct inherited-cell membership/separation and full face/vertex/edge interval ledgers. A successful child must make rows 1308 and 2973 nonstable before any other stable birth and then expand to a positive-radius trace-one SPD box. The recovered handoff identifies this boundary explicitly. :contentReference[oaicite:4]{index=4}
+A discovery-only double-precision sweep over these 25 systems enumerated 711,630 non-target root groups and found no numerical `(1,1,0)` interval; nineteen systems reached no better than `(2,2,2)`, one no better than `(4,2,4)`, and five had no numerical SPD interval. This is not an exact exclusion. The rigorous continuation is an adaptive exact per-cell all-wall atlas with direct inherited-cell membership/separation and full face/vertex/edge interval ledgers. A successful child must make rows 1308 and 2973 nonstable before any other stable birth and then expand to a positive-radius trace-one SPD box. The recovered handoff identifies this boundary explicitly.
 
 ## Final statement
 

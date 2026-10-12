@@ -18,10 +18,10 @@ This is the first endpoint in the exact M42 lineage that reduces the fourth-stag
 
 ## Reproducible artifact
 
-- [Complete exact bundle](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete.zip), SHA-256 `1648d8f7ae35097d1d9a60196353dfa14f120ed617bd1e9e902264a6dd50d820`; [ZIP checksum](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete.zip.sha256).
-- [Self-contained research handoff](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/RESEARCH_HANDOFF.md), SHA-256 `6825dcbc57747eb7458e3273ec714ffea8f16e7917451c76b0021998681d2c2a`.
-- [Final combined verification transcript](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/FINAL_VERIFICATION_SUMMARY.txt), SHA-256 `7257eccdea27951b63f8e64f8d2effe78854d0b081c117cfa558a879e5887822`; it ends with `ALL FINAL COMBINED VERIFIERS PASS`.
-- [127-file SHA-256 manifest](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/SHA256SUMS.txt), [integrity verifier](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/verify_integrity.py), and [integrity result](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/INTEGRITY_VERIFICATION.txt). I unpacked the final ZIP separately and reran the integrity verifier successfully.
+- Complete exact bundle (`M42_acute_bridge_fifth_cell_complete.zip`), SHA-256 `1648d8f7ae35097d1d9a60196353dfa14f120ed617bd1e9e902264a6dd50d820`; ZIP checksum (`M42_acute_bridge_fifth_cell_complete.zip.sha256`).
+- Self-contained research handoff (`RESEARCH_HANDOFF.md`), SHA-256 `6825dcbc57747eb7458e3273ec714ffea8f16e7917451c76b0021998681d2c2a`.
+- Final combined verification transcript (`FINAL_VERIFICATION_SUMMARY.txt`), SHA-256 `7257eccdea27951b63f8e64f8d2effe78854d0b081c117cfa558a879e5887822`; it ends with `ALL FINAL COMBINED VERIFIERS PASS`.
+- 127-file SHA-256 manifest (`SHA256SUMS.txt`), integrity verifier (`verify_integrity.py`), and integrity result (`INTEGRITY_VERIFICATION.txt`). I unpacked the final ZIP separately and reran the integrity verifier successfully.
 
 ## Exact three-stage lineage
 
@@ -35,11 +35,11 @@ The package contains all three complete exact stages. The parent clean-room veri
 
 The parent-to-fourth verifier reconstructs the exact projective/linear/common-lattice lineage, the four linked nonsimplicial cells, rank-five moment/topology control system, and the fourth endpoint’s complete `(83,229,148)` lattice. The fourth endpoint deletes the parent packet but transfers it to stable `[195,224,223]`, unstable `227`, saddles `(135,224),(183,223)`, and edge `(226,227)`. Its exact positive-dot graph has components of sizes 45 and 38, with all 1,710 cross-component vertex pairs strictly negative.
 
-The new [fourth-to-fifth verifier](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/verify_fourth_to_fifth_lineage.py) proves that the fifth generator is exactly the 83 actual fourth-stage vertices, unchanged as rational points, plus rows `229..264`; it independently reconstructs the transition from `(2,2,2)` to `(2,1,1)` and the acute-graph merger. The corresponding exact certificate is [here](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fourth_to_fifth_lineage_certificate.json).
+The new fourth-to-fifth verifier (`verify_fourth_to_fifth_lineage.py`) proves that the fifth generator is exactly the 83 actual fourth-stage vertices, unchanged as rational points, plus rows `229..264`; it independently reconstructs the transition from `(2,2,2)` to `(2,1,1)` and the acute-graph merger. The corresponding exact certificate is here (`fourth_to_fifth_lineage_certificate.json`).
 
 ## Authoritative fifth-stage H/V/E data
 
-The authoritative finite generator is [input_rows_common_lattice.csv](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/input_rows_common_lattice.csv), SHA-256 `3619a51daacb422b3908fa2f0a4a4343fe03fd99ea12e362bf8fb53535ee385d`. Every row is
+The authoritative finite generator is input_rows_common_lattice.csv, SHA-256 `3619a51daacb422b3908fa2f0a4a4343fe03fd99ea12e362bf8fb53535ee385d`. Every row is
 
 ```text
 q_i=(x_int,y_int,z_int)/S,
@@ -67,7 +67,7 @@ Inactive rows:
 223 225 226 227
 ```
 
-Complete machine-readable data are materialized as [all exact coordinates](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/coordinates_all_exact.csv), [61 centred vertices](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/coordinates_active_centered.csv), [104 irredundant halfspaces](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/halfspaces_centered.csv), [all maximal-face cycles](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/face_cycles.json), [all 163 true edges](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/true_edges.csv), [all face mechanics](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/faces_mechanics.json), [all vertex cones](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/vertices_mechanics.csv), and [all four-component edge cones](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/edges_four_component_audit.csv).
+Complete machine-readable data are materialized as all exact coordinates (`coordinates_all_exact.csv`), 61 centred vertices (`coordinates_active_centered.csv`), 104 irredundant halfspaces (`halfspaces_centered.csv`), all maximal-face cycles (`face_cycles.json`), all 163 true edges (`true_edges.csv`), all face mechanics (`faces_mechanics.json`), all vertex cones (`vertices_mechanics.csv`), and all four-component edge cones (`edges_four_component_audit.csv`).
 
 ## Exact volume, moments, and own centroid
 
@@ -93,7 +93,7 @@ Cz=-4302643372999357052165197955427950881004198712929763820230922537671898969190
     27933791803640444262551240155536974552768263548574941197309387646366035984119639551052226568000000000000
 ```
 
-Direct signed-tetrahedron summation proves `M_k-V C_k=0` in all three coordinates. The dependent translation `tau=-C` therefore gives first moments exactly `(0/1,0/1,0/1)`. Its moment Jacobian is `V I_3`, with exact determinant `V^3>0` and rank 3. The complete exact mass record is in [certificate.json](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/certificate.json), SHA-256 `a27d8db90a4190e200e6e4afbf1e4224f90edd5e45ea5aa3acc3016dbc281689`.
+Direct signed-tetrahedron summation proves `M_k-V C_k=0` in all three coordinates. The dependent translation `tau=-C` therefore gives first moments exactly `(0/1,0/1,0/1)`. Its moment Jacobian is `V I_3`, with exact determinant `V^3>0` and rank 3. The complete exact mass record is in certificate.json, SHA-256 `a27d8db90a4190e200e6e4afbf1e4224f90edd5e45ea5aa3acc3016dbc281689`.
 
 ## Exhaustive equilibrium classification
 
@@ -152,11 +152,11 @@ x_a·x_b>0,
 x_a·(x_b-x_a)>0.
 ```
 
-Consequently every nonterminal rail vertex has a strict outward witness toward protected unstable vertex 8. Minimum directed supports are `2.343592223102722` and `2.330631239732005`; maximum step angles are below 13 degrees. The exact fifth positive-dot true-edge graph is connected, with 134 positive-dot and 29 nonpositive-dot edges. The prior `45+38` component obstruction is therefore destroyed rather than merely regraded. Full exact graph data are in [acute_bridge_graph.json](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/acute_bridge_graph.json), SHA-256 `8abe92c898864c637ccb04024cf5d7a8cb6ba3b20f021772c7156a041d0dfe40`.
+Consequently every nonterminal rail vertex has a strict outward witness toward protected unstable vertex 8. Minimum directed supports are `2.343592223102722` and `2.330631239732005`; maximum step angles are below 13 degrees. The exact fifth positive-dot true-edge graph is connected, with 134 positive-dot and 29 nonpositive-dot edges. The prior `45+38` component obstruction is therefore destroyed rather than merely regraded. Full exact graph data are in acute_bridge_graph.json, SHA-256 `8abe92c898864c637ccb04024cf5d7a8cb6ba3b20f021772c7156a041d0dfe40`.
 
 ## Shared-interior-edge volumetric replacement
 
-The [fifth-cell atlas](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/fifth_cell_complex.json), SHA-256 `536780178a08eab3ace137c7799967ae63395fda0835d243249b43f7822c7e9b`, contains 64 strict triangular-bipyramidal centroid-fan edge-star cells; 58 touch new rows. In every cell the two apex determinants have opposite nonzero signs, the apex segment meets the relative interior of the equatorial triangle, and all five segment/barycentric components are positive.
+The fifth-cell atlas (`fifth_cell_complex.json`), SHA-256 `536780178a08eab3ace137c7799967ae63395fda0835d243249b43f7822c7e9b`, contains 64 strict triangular-bipyramidal centroid-fan edge-star cells; 58 touch new rows. In every cell the two apex determinants have opposite nonzero signs, the apex segment meets the relative interior of the equatorial triangle, and all five segment/barycentric components are positive.
 
 Two principal shared-interior-edge cells span the bridge:
 
@@ -186,7 +186,7 @@ sole saddle edge  (229,247)
 extra unstable vertices: none.
 ```
 
-The features are one incidence-star step apart: face `[224,229,247]` is incident to the saddle, while the stable face is limited by edge `(198,224)`; vertex 224 links the two stars. They are not yet incident to a single common cancelling true edge. The exact incidence packet is recorded in [residual_packet_graph.json](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/residual_packet_graph.json).
+The features are one incidence-star step apart: face `[224,229,247]` is incident to the saddle, while the stable face is limited by edge `(198,224)`; vertex 224 links the two stars. They are not yet incident to a single common cancelling true edge. The exact incidence packet is recorded in residual_packet_graph.json.
 
 ## Positive box and independent antibirth controls
 
@@ -207,7 +207,7 @@ cell barycentric              7.660526872790403e-6
 closure-fan determinant       1.9952772649452366
 ```
 
-See the [interval certificate](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/interval_certificate.json), SHA-256 `50489534999e007bb0ef5799043cba913bdd51ed55ba886a9516b030d5675784`.
+See the interval certificate (`interval_certificate.json`), SHA-256 `50489534999e007bb0ef5799043cba913bdd51ed55ba886a9516b030d5675784`.
 
 Two exact, disjoint one-sided antibirth controls remain inside this box:
 
@@ -218,13 +218,13 @@ long rail:  move row 248 along the centred row-247 direction;
             witness 247→248; support derivative 1001.7367668354448.
 ```
 
-For each control `0≤s≤10^-14`; maximum coordinate displacements are `2.504×10^-13` and `3.105×10^-13`. Their row supports are disjoint. Together with the three dependent translations, the exact combined control rank is 5. The [control certificate](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/control_certificate.json), SHA-256 `9f272816cbe5881eb9b19cc4194ac877173b920652d00406c5e011bb44d7bd2d`, and [independent control verifier](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/verify_controls.py) recompute these claims from the generator.
+For each control `0≤s≤10^-14`; maximum coordinate displacements are `2.504×10^-13` and `3.105×10^-13`. Their row supports are disjoint. Together with the three dependent translations, the exact combined control rank is 5. The control certificate (`control_certificate.json`), SHA-256 `9f272816cbe5881eb9b19cc4194ac877173b920652d00406c5e011bb44d7bd2d`, and independent control verifier (`verify_controls.py`) recompute these claims from the generator.
 
 ## Independent reconstruction and mesh parity
 
-The [clean-room exact verifier](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/verify_exact_cleanroom.py) uses standard-library `Fraction` arithmetic and does not trust stored H/E incidence. It enumerates every unique supporting triple among all 119 rows, independently reconstructs 104 maximal planes, 163 true edges, the connected Euler-2 boundary, exact volume/centroid/zero moments, every face/vertex/edge equilibrium cone, both rail inequalities, the connected positive-dot graph, all 64 strict bipyramids, the 95-face closure, predecessor deletion, and the residual S–H pair.
+The clean-room exact verifier (`verify_exact_cleanroom.py`) uses standard-library `Fraction` arithmetic and does not trust stored H/E incidence. It enumerates every unique supporting triple among all 119 rows, independently reconstructs 104 maximal planes, 163 true edges, the connected Euler-2 boundary, exact volume/centroid/zero moments, every face/vertex/edge equilibrium cone, both rail inequalities, the connected positive-dot graph, all 64 strict bipyramids, the 95-face closure, predecessor deletion, and the residual S–H pair.
 
-The matching [OBJ](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/body.obj), SHA-256 `353267b2978ca69253a98752d23852ff3d075ba2a2eabf920de71b3fb5e1296e`, and [STL](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/body.stl), SHA-256 `a78c9e4bc4e1f40f523477562ae255d16daeec63cd2ca0f6447b46d0333e0bcf`, are watertight and mutually consistent:
+The matching OBJ (`body.obj`), SHA-256 `353267b2978ca69253a98752d23852ff3d075ba2a2eabf920de71b3fb5e1296e`, and STL (`body.stl`), SHA-256 `a78c9e4bc4e1f40f523477562ae255d16daeec63cd2ca0f6447b46d0333e0bcf`, are watertight and mutually consistent:
 
 ```text
 vertices 61
@@ -248,7 +248,7 @@ Beyond the exact construction, I recorded at least 4,973 explicit numerical eval
 256  local deletion subsets.
 ```
 
-No strict `(1,1,0)` state appeared. A mixed-integer affine-primitive center test reported the exact fifth incidence numerically infeasible even at zero margin; this HiGHS result is retained only as numerical evidence, not an exact obstruction theorem. Across the finite campaigns, local caps and replacements either preserve the sole S–H pair or transfer/multiply equilibria. The complete scope and files are in [search_obstruction_summary.json](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/search_obstruction_summary.json).
+No strict `(1,1,0)` state appeared. A mixed-integer affine-primitive center test reported the exact fifth incidence numerically infeasible even at zero margin; this HiGHS result is retained only as numerical evidence, not an exact obstruction theorem. Across the finite campaigns, local caps and replacements either preserve the sole S–H pair or transfer/multiply equilibria. The complete scope and files are in search_obstruction_summary.json.
 
 ## First topology not yet classified
 
@@ -258,4 +258,4 @@ The exact remaining local star is
 {198,224,258,229,247,228}.
 ```
 
-The first nonduplicative topology is a **coupled two-cell bistellar S–H replacement**—a `2↔3 / 3↔2` pair, triangular prism, or octahedral complex—that replaces stable limiting edge `(198,224)` and saddle edge `(229,247)` inside one shared three-dimensional cell, or creates a new shared interior edge incident to both stars. Its two independent incidence coordinates must make the stable-foot death and saddle-beta death sheets overlap before any compensating U–H birth. It should preserve the base 17-gon, unstable vertex 8, both exact 19-edge rails, both antibirth directions, and the three dependent moment translations. The full exact local H/V/E/cone atlas is [next_topology_atlas.json](sandbox:/mnt/data/M42_acute_bridge_fifth_cell_complete/fifth_cell_endpoint/next_topology_atlas.json).
+The first nonduplicative topology is a **coupled two-cell bistellar S–H replacement**—a `2↔3 / 3↔2` pair, triangular prism, or octahedral complex—that replaces stable limiting edge `(198,224)` and saddle edge `(229,247)` inside one shared three-dimensional cell, or creates a new shared interior edge incident to both stars. Its two independent incidence coordinates must make the stable-foot death and saddle-beta death sheets overlap before any compensating U–H birth. It should preserve the base 17-gon, unstable vertex 8, both exact 19-edge rails, both antibirth directions, and the three dependent moment translations. The full exact local H/V/E/cone atlas is next_topology_atlas.json.

@@ -8,9 +8,9 @@ AI research report · 2026-08-29 UTC
 
 ## Literal verdict
 
-**No homogeneous convex polyhedral Gömböc was obtained.** The strongest endpoint is the fully expanded exact-dyadic AQ32-FBR380 body. It is a rigorous finite nonwinner, not a near-wall or auxiliary-centre claim. The run’s acceptance gate requires a materialized finite uniform-density polyhedron at its own exact volume centroid, strict `(S,U,H)=(1,1,0)`, complete H/V incidence and true-edge/full-normal-cone auditing, an independent exact or directed verifier, and matching OBJ/STL. :contentReference[oaicite:0]{index=0}
+**No homogeneous convex polyhedral Gömböc was obtained.** The strongest endpoint is the fully expanded exact-dyadic AQ32-FBR380 body. It is a rigorous finite nonwinner, not a near-wall or auxiliary-centre claim. The run’s acceptance gate requires a materialized finite uniform-density polyhedron at its own exact volume centroid, strict `(S,U,H)=(1,1,0)`, complete H/V incidence and true-edge/full-normal-cone auditing, an independent exact or directed verifier, and matching OBJ/STL.
 
-AQ32-FBR380 directly continues the journal’s exact AQ32-A2 frontier: AQ32-A2 had 22,541 rows, own-centred class `(2871,903,3772)`, removed the original sectors `6/14` packet, and transferred it to sectors `4/12` near `gamma=0.4417..0.4437`; the assigned successor was a genuine two-dimensional half-turn four-branch return cell with independent axial leverage. :contentReference[oaicite:1]{index=1}
+AQ32-FBR380 directly continues the journal’s exact AQ32-A2 frontier: AQ32-A2 had 22,541 rows, own-centred class `(2871,903,3772)`, removed the original sectors `6/14` packet, and transferred it to sectors `4/12` near `gamma=0.4417..0.4437`; the assigned successor was a genuine two-dimensional half-turn four-branch return cell with independent axial leverage.
 
 The new endpoint has
 
@@ -23,15 +23,15 @@ It therefore fails the target decisively. However, it genuinely removes the assi
 
 ## Complete reusable artifact
 
-- [Complete exact archive](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint.zip) — SHA-256 `af6576d817e1c1bbc3712b8814c90a4917c82fd84547dd64f7f313ff09969c98`; `unzip -tq` passes.
-- [Full handoff](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_complete_handoff.md) — SHA-256 `392c7652d266779dda7eb1909382303ae96db4279f460743bc9b68307dd2ae9f`.
-- [README and reproduction commands](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/README.md) — SHA-256 `07d027e35fc9663799c71ff8f3fa6717df5995524958ecb4c1449019c7edbddd`.
-- [Consolidated certificate](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_certificate.json) — SHA-256 `0029aad2e9f506051a0822c6719ac9b0c4ac8a47f903f7547121b52a7c3c0a96`.
-- [Deterministic exact generator](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/generate_AQ32_FBR380_exact.py) — SHA-256 `c4161c693213a1b8879686a68dafc494c9d9c6bf858f67e851644a8188bfe6e0`.
-- [Independent verifier](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/verify_AQ32_FBR380_exact.py) — SHA-256 `0b3b4a14c794a4461ab4cc6cfdcd9e81be1e1d2493b74577e366f1f40a36a14a`.
-- [Verifier transcript](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/VERIFY_OUTPUT.json) — SHA-256 `3c4bb3a5efe09c10ffe3a4b5cbd63636273b20f9cf298cb21b79d9dfc00085f9`.
-- [Canonical exact arrays](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_exact_data.npz).
-- [SHA-256 manifest](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/SHA256SUMS.txt).
+- Complete exact archive (`RQ69_AQ32_FBR380_exact_endpoint.zip`) — SHA-256 `af6576d817e1c1bbc3712b8814c90a4917c82fd84547dd64f7f313ff09969c98`; `unzip -tq` passes.
+- Full handoff (`AQ32_FBR380_complete_handoff.md`) — SHA-256 `392c7652d266779dda7eb1909382303ae96db4279f460743bc9b68307dd2ae9f`.
+- README and reproduction commands (`README.md`) — SHA-256 `07d027e35fc9663799c71ff8f3fa6717df5995524958ecb4c1449019c7edbddd`.
+- Consolidated certificate (`AQ32_FBR380_certificate.json`) — SHA-256 `0029aad2e9f506051a0822c6719ac9b0c4ac8a47f903f7547121b52a7c3c0a96`.
+- Deterministic exact generator (`generate_AQ32_FBR380_exact.py`) — SHA-256 `c4161c693213a1b8879686a68dafc494c9d9c6bf858f67e851644a8188bfe6e0`.
+- Independent verifier (`verify_AQ32_FBR380_exact.py`) — SHA-256 `0b3b4a14c794a4461ab4cc6cfdcd9e81be1e1d2493b74577e366f1f40a36a14a`.
+- Verifier transcript (`VERIFY_OUTPUT.json`) — SHA-256 `3c4bb3a5efe09c10ffe3a4b5cbd63636273b20f9cf298cb21b79d9dfc00085f9`.
+- Canonical exact arrays (`AQ32_FBR380_exact_data.npz`).
+- SHA-256 manifest (`SHA256SUMS.txt`).
 
 A clean-room extraction of the ZIP independently passed `sha256sum -c SHA256SUMS.txt` and reran the verifier to `PASS` with the same f-vectors and class.
 
@@ -60,7 +60,7 @@ Its half-sector branches are
 
 This is not four independent one-dimensional rays. The staggered integer and half-sector branches rebuild into transverse cross-links and shared terminal faces. The candidate contains 23,173 rows: 552 AQ32-A2 rows are changed and 632 gap candidates are inserted. Exact hull reconstruction proves 66 candidates redundant—44 central rows and 22 gap candidates—and all 23,107 emitted rows irredundant.
 
-The stable square, unstable apex, all 5,952 critical-collar rows, and the first 16-row seam ring are copied without coordinate change. The exact coordinates and source mappings are in [the expanded Q row table](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_Q_vertices_exact.csv) and the canonical NPZ.
+The stable square, unstable apex, all 5,952 critical-collar rows, and the first 16-row seam ring are copied without coordinate change. The exact coordinates and source mappings are in the expanded Q row table (`AQ32_FBR380_Q_vertices_exact.csv`) and the canonical NPZ.
 
 ## Actual exact incidence
 
@@ -85,8 +85,8 @@ physical magnitude `3.464902217509549e-27`.
 
 Expanded incidence is available as:
 
-- [Q maximal faces](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_Q_maximal_faces_exact.jsonl) and [Q true edges](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_Q_true_edges.csv).
-- [P halfspaces over the root box](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_P_H_rows_root_box.csv), [P root-midpoint vertices](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_P_vertices_root_midpoint.csv), [P maximal faces](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_P_maximal_faces.jsonl), and [P true edges](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_P_true_edges.csv).
+- Q maximal faces (`AQ32_FBR380_Q_maximal_faces_exact.jsonl`) and Q true edges (`AQ32_FBR380_Q_true_edges.csv`).
+- P halfspaces over the root box (`AQ32_FBR380_P_H_rows_root_box.csv`), P root-midpoint vertices (`AQ32_FBR380_P_vertices_root_midpoint.csv`), P maximal faces (`AQ32_FBR380_P_maximal_faces.jsonl`), and P true edges (`AQ32_FBR380_P_true_edges.csv`).
 
 The 66 omitted candidate rows have minimum directed distance `1.2696884279123912e-6` from the final boundary. The final H/V representation itself is irredundant.
 
@@ -116,7 +116,7 @@ Every projective denominator is positive and lies in
 [0.97641842346198369859,1.00638908182215616523].
 ```
 
-Positive definiteness of the Santaló Jacobian gives global uniqueness. The independent verifier uses a separate 70-digit recomputation and still obtains radius `1.9219394921111856e-71 < 1e-50`. The full data are in [the high-precision Santaló certificate](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_santalo_high_precision.json).
+Positive definiteness of the Santaló Jacobian gives global uniqueness. The independent verifier uses a separate 70-digit recomputation and still obtains radius `1.9219394921111856e-71 < 1e-50`. The full data are in the high-precision Santaló certificate (`AQ32_FBR380_santalo_high_precision.json`).
 
 ## Exhaustive full-cone mechanics
 
@@ -151,7 +151,7 @@ vertex  1.8866343285545124e-5
 edge    1.8866343285545124e-5.
 ```
 
-The complete directed audit is in [the root-box summary](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_exact_rootbox_audit.json), [face ledger](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_faces_rootbox_ledger.csv.gz), [vertex ledger](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_vertices_rootbox_ledger.csv.gz), and [edge ledger](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_edges_rootbox_ledger.csv.gz).
+The complete directed audit is in the root-box summary (`AQ32_FBR380_exact_rootbox_audit.json`), face ledger (`AQ32_FBR380_faces_rootbox_ledger.csv.gz`), vertex ledger (`AQ32_FBR380_vertices_rootbox_ledger.csv.gz`), and edge ledger (`AQ32_FBR380_edges_rootbox_ledger.csv.gz`).
 
 ## Precise first remaining packets
 
@@ -191,7 +191,7 @@ gamma 1.3197242886757834,
 margin 9.761144118731246e-5.
 ```
 
-The complete exact terminal packet is in [AQ32_FBR380_changed_terminal_packet.json](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_changed_terminal_packet.json).
+The complete exact terminal packet is in AQ32_FBR380_changed_terminal_packet.json.
 
 ## Exact finite atlas and its honest boundary
 
@@ -204,9 +204,9 @@ central endpoint:(22497,67484,44989), Q class (905,2637,3540).
 
 Exactly 44 old rows deactivate; 466 true edges and 690 maximal faces are removed, while 334 true edges and 602 maximal faces are added.
 
-Among these changes, 284 are endpoint-recognizable 2–2 circuits. On the exact linear coordinate homotopy, every one has an integer polynomial and a unique rational root interval of width at most `2^-100`; the 284 roots are totally ordered in [the exact central root file](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_central_2x2_roots.json.gz). The full endpoint incidence delta is in [the central batch atlas](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_central_batch_atlas.json.gz).
+Among these changes, 284 are endpoint-recognizable 2–2 circuits. On the exact linear coordinate homotopy, every one has an integer polynomial and a unique rational root interval of width at most `2^-100`; the 284 roots are totally ordered in the exact central root file (`AQ32_FBR380_central_2x2_roots.json.gz`). The full endpoint incidence delta is in the central batch atlas (`AQ32_FBR380_central_batch_atlas.json.gz`).
 
-The 610 final-active gap rows are then inserted one at a time in increasing `(gamma,azimuth)` order. Each exact event records the visible patch, horizon, removed and added triangles, and positive outside-plane distance. The final incremental triangulation equals the canonical final triangulation exactly; both set differences are zero. See [the insertion atlas](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_gap_incremental_atlas.json).
+The 610 final-active gap rows are then inserted one at a time in increasing `(gamma,azimuth)` order. Each exact event records the visible patch, horizon, removed and added triangles, and positive outside-plane distance. The final incremental triangulation equals the canonical final triangulation exactly; both set differences are zero. See the insertion atlas (`AQ32_FBR380_gap_incremental_atlas.json`).
 
 Thus `284+610=894` transition events are fully explicit and exactly ordered within their stated paths.
 
@@ -225,7 +225,7 @@ allowed budget                            3.1342152657311286e-7
 violation factor                          1,292,059.7146224403.
 ```
 
-The actual Santaló displacement is `20.714739978125262` required local-margin units. Local exact geometry survives; the old conditional global support-error theorem does not apply. See [the support-error ledger](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_support_error_ledger.json).
+The actual Santaló displacement is `20.714739978125262` required local-margin units. Local exact geometry survives; the old conditional global support-error theorem does not apply. See the support-error ledger (`AQ32_FBR380_support_error_ledger.json`).
 
 ## Perturbation certificate
 
@@ -235,14 +235,14 @@ The exact coordinatewise open box is
 |delta q_ij| <= 2^-400 = 3.8725919148493183e-121.
 ```
 
-Directed multilinear bounds preserve topology, root enclosure, projective interiority, target/collar signs, terminal-packet signs, and the global class. The smallest proof ratio is `1.4771594238854177e84>1`, from the edge-cone denominator. The root remains inside the `1e-50` box. See [the perturbation proof](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_perturbation_proof.json).
+Directed multilinear bounds preserve topology, root enclosure, projective interiority, target/collar signs, terminal-packet signs, and the global class. The smallest proof ratio is `1.4771594238854177e84>1`, from the edge-cone denominator. The root remains inside the `1e-50` box. See the perturbation proof (`AQ32_FBR380_perturbation_proof.json`).
 
 ## Independent verifier and meshes
 
 `verify_AQ32_FBR380_exact.py` regenerates every row, independently rebuilds and exact-repairs the hull, reconstructs grouped maximal faces and true edges, recomputes the root box, audits every full cone, and checks the atlas, perturbation proof, manifest and meshes. It returns `PASS` with the numbers above.
 
-- [Q OBJ](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_Q.obj) and [Q STL](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_Q.stl): 23,107 vertices, 46,210 triangles.
-- [P OBJ](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_P_at_santalo_midpoint.obj) and [P STL](sandbox:/mnt/data/RQ69_AQ32_FBR380_exact_endpoint/AQ32_FBR380_P_at_santalo_midpoint.stl): 46,209 vertices, 92,414 triangles.
+- Q OBJ (`AQ32_FBR380_Q.obj`) and Q STL (`AQ32_FBR380_Q.stl`): 23,107 vertices, 46,210 triangles.
+- P OBJ (`AQ32_FBR380_P_at_santalo_midpoint.obj`) and P STL (`AQ32_FBR380_P_at_santalo_midpoint.stl`): 46,209 vertices, 92,414 triangles.
 
 Every mesh edge has incidence exactly two.
 

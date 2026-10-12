@@ -6,7 +6,7 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 # Calm Maple 15 — exact continuation handoff
 
-The acceptance gate remains a finite, fully materialized uniform-density convex polyhedron at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete H/V/E data, exhaustive full-cone verification, and matching OBJ/STL; near-solutions and unexpanded generators do not qualify. :contentReference[oaicite:0]{index=0}
+The acceptance gate remains a finite, fully materialized uniform-density convex polyhedron at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete H/V/E data, exhaustive full-cone verification, and matching OBJ/STL; near-solutions and unexpanded generators do not qualify.
 
 ## Literal verdict
 
@@ -28,19 +28,19 @@ The endpoint nevertheless performs the assignment’s essential topology deletio
 
 ## Artifacts and reproduction
 
-- [Complete deterministic archive](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER.zip)
-- [Archive SHA-256 sidecar](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER.zip.sha256)
-- [Complete expanded handoff](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_complete_handoff.md)
-- [Artifact index](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/ARTIFACT_INDEX.json)
-- [Primary exact certificate](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_certificate.json)
-- [Finite source specification](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_source_spec.json)
-- [Complete 26,063-row table](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_all_supplied_Q_rows_exact.csv.gz)
-- [Deterministic generator](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/generate_AQ32_G44_CAP2R119_R136_exact.py)
-- [Independent clean-room verifier](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/verify_AQ32_G44_CAP2R119_R136_independent.py)
-- [Exact one-support obstruction](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_one_support_obstruction.json)
-- [Terminal-complex certificate](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_terminal_complex.json)
-- [Q OBJ](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_Q.obj) · [Q STL](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_Q.stl) · [preview](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_Q_preview.png)
-- [P OBJ](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_P.obj) · [P STL](sandbox:/mnt/data/AQ32_G44_CAP2R119_R136_EXACT_NONWINNER/AQ32_G44_CAP2R119_R136_P.stl)
+- Complete deterministic archive (`AQ32_G44_CAP2R119_R136_EXACT_NONWINNER.zip`)
+- Archive SHA-256 sidecar (`AQ32_G44_CAP2R119_R136_EXACT_NONWINNER.zip.sha256`)
+- Complete expanded handoff (`AQ32_G44_CAP2R119_R136_complete_handoff.md`)
+- Artifact index (`ARTIFACT_INDEX.json`)
+- Primary exact certificate (`AQ32_G44_CAP2R119_R136_certificate.json`)
+- Finite source specification (`AQ32_G44_CAP2R119_R136_source_spec.json`)
+- Complete 26,063-row table (`AQ32_G44_CAP2R119_R136_all_supplied_Q_rows_exact.csv.gz`)
+- Deterministic generator (`generate_AQ32_G44_CAP2R119_R136_exact.py`)
+- Independent clean-room verifier (`verify_AQ32_G44_CAP2R119_R136_independent.py`)
+- Exact one-support obstruction (`AQ32_G44_CAP2R119_R136_one_support_obstruction.json`)
+- Terminal-complex certificate (`AQ32_G44_CAP2R119_R136_terminal_complex.json`)
+- Q OBJ (`AQ32_G44_CAP2R119_R136_Q.obj`) · Q STL (`AQ32_G44_CAP2R119_R136_Q.stl`) · preview (`AQ32_G44_CAP2R119_R136_Q_preview.png`)
+- P OBJ (`AQ32_G44_CAP2R119_R136_P.obj`) · P STL (`AQ32_G44_CAP2R119_R136_P.stl`)
 
 Archive SHA-256:
 

@@ -8,7 +8,7 @@ AI research report · 2026-09-01 UTC · [Export notes](../../catalog/coverage.md
 
 ## Disposition: **EXACT NONWINNER**
 
-I recovered the transport-interrupted immutable `Quiet_Quartz_33` result, verified `303/303` archive-manifest entries from a clean extraction, and independently reran its clean-room verifier to `QUIET_QUARTZ33_ALL_CHECKS_PASS`. No homogeneous convex polyhedral Gömböc was obtained. The strongest certified endpoint is the uniform-density, own-centred convex polyhedron `J43_shared_metric` with strict `(S,U,H)=(3,3,4)`, not `(1,1,0)`. It does, however, exactify the first unknown incidence exit and leave the previously excluded forced-edge sign cell through a genuinely connected volumetric replacement. :contentReference[oaicite:0]{index=0}
+I recovered the transport-interrupted immutable `Quiet_Quartz_33` result, verified `303/303` archive-manifest entries from a clean extraction, and independently reran its clean-room verifier to `QUIET_QUARTZ33_ALL_CHECKS_PASS`. No homogeneous convex polyhedral Gömböc was obtained. The strongest certified endpoint is the uniform-density, own-centred convex polyhedron `J43_shared_metric` with strict `(S,U,H)=(3,3,4)`, not `(1,1,0)`. It does, however, exactify the first unknown incidence exit and leave the previously excluded forced-edge sign cell through a genuinely connected volumetric replacement.
 
 ## 1. Reconstructed `J40_final/J41_postwall` frontier
 
@@ -19,7 +19,7 @@ The exact deterministic source, dyadic H rows, exact Cramer vertices, maximal-fa
 | `J40_final` | `(2686,5368,8052)` | `(7,39,44)` | `0,2348,2349,2351,2366,2367,2369` | `[-2^-38,2^-38]^3` |
 | `J41_postwall` | `(2687,5370,8055)` | `(7,39,44)` | same seven | `[-2^-38,2^-38]^3` |
 
-This corrects the journal's count-equivalence statement: the exact `J40→J41` wall adds one active row, two vertices, and three true edges without changing mechanics. Each box has a unique interval-Krawczyk root of `Mx=My=Mz=0`, so the origin is the ordinary uniform-volume centroid. Directed volumes are `[3.371288156755192,3.3712881567551927]` and `[3.371366126416678,3.371366126416679]`. :contentReference[oaicite:1]{index=1}
+This corrects the journal's count-equivalence statement: the exact `J40→J41` wall adds one active row, two vertices, and three true edges without changing mechanics. Each box has a unique interval-Krawczyk root of `Mx=My=Mz=0`, so the origin is the ordinary uniform-volume centroid. Directed volumes are `[3.371288156755192,3.3712881567551927]` and `[3.371366126416678,3.371366126416679]`.
 
 The exact row-disjoint forcing matching is
 
@@ -84,11 +84,11 @@ Thus the sign pattern is `(+,-,-,+)`, a genuine convex quadrilateral circuit. Th
 
 Each has a unique moment root in `[-2^-42,2^-42]^3`. The quad boundary is `2351–2456–3474–3439–2351`. Pre-wall facets are `(2351,2456,3439)` and `(2456,3439,3474)` with true diagonal `(2456,3439)`; post-wall facets are `(2351,2456,3474)` and `(2351,3439,3474)` with true diagonal `(2351,3474)`. At the wall there is one nonsimplicial quadrilateral face and neither diagonal is true.
 
-Only the two opposite incidences vanish. Every other actual nonincidence has lower gap at least `1.4679164550557287e-9`, and every fixed-triple determinant has absolute lower bound `4.574261744522253e-5`. No simultaneous or intervening incidence event occurs, and the equilibrium delta is exactly `(0,0,0)`. The full certificate is `certificates/J42_exit_wall/exit_wall_certificate.json`. :contentReference[oaicite:2]{index=2}
+Only the two opposite incidences vanish. Every other actual nonincidence has lower gap at least `1.4679164550557287e-9`, and every fixed-triple determinant has absolute lower bound `4.574261744522253e-5`. No simultaneous or intervening incidence event occurs, and the equilibrium delta is exactly `(0,0,0)`. The full certificate is `certificates/J42_exit_wall/exit_wall_certificate.json`.
 
 ## 3. Connected forcing complex and joint replacement
 
-Deterministic routing on actual maximal faces and true edges has no cycles. All `7+39+44=90` inherited equilibrium nodes lie in one Morse component; its support carrier has `1675` rows, one-ring `2148`, and external boundary `473`. The seven matching edges are therefore forcing certificates, not seven independent defects. :contentReference[oaicite:3]{index=3}
+Deterministic routing on actual maximal faces and true edges has no cycles. All `7+39+44=90` inherited equilibrium nodes lie in one Morse component; its support carrier has `1675` rows, one-ring `2148`, and external boundary `473`. The seven matching edges are therefore forcing certificates, not seven independent defects.
 
 `J43_shared_metric` replaces rings `33..67` across all 36 sectors in one batch: 1260 affected labels; 378 predecessor-active rows forming one connected induced graph; 368 active rows removed; 51 active rows added; 1225 rows suppressed and all endpoint-inactive; a 35-row helical selector with 10 endpoint-extreme rows. The exact family is `source/J43_shared_metric_local_family.json.gz`, SHA-256 `71e0e9e282dfdabe81f3b2cdc8c3e0665e58d3409acf2c5809d396e4000400eb`.
 
@@ -103,7 +103,7 @@ strict class=(3,3,4).
 
 Relative to `J42_adj_post`, `Δ(H,V,E)=(-317,-634,-951)`. Its directed volume is `[3.588656983954403,3.588656983954404]`. The three hard moment equations have one and only one root in `[-2^-38,2^-38]^3`; the midpoint Jacobian determinant is `0.010224277355180878`, condition number `40.96951013140733`, and the Krawczyk image is strictly interior. Therefore all three ordinary moments are exactly zero at the isolated root. The complete incidence audit checks all `20,464,256` actual row/nonincident-vertex pairs; the minimum certified gap is `1.4574461637550937e-9`.
 
-The replacement preserves stable row `0`, true edge `(0,36)`, and terminal unstable facet `(4321,4322,4323)`. Simultaneously, rows `2348,2349,2351,2366,2367,2369` become inactive/nonstable; their six forcing edges disappear; none of the 38 old nonprotected unstable labels remains unstable; and none of the 44 old saddle labels remains a saddle. Thus it genuinely leaves the old forced-edge cell. :contentReference[oaicite:4]{index=4}
+The replacement preserves stable row `0`, true edge `(0,36)`, and terminal unstable facet `(4321,4322,4323)`. Simultaneously, rows `2348,2349,2351,2366,2367,2369` become inactive/nonstable; their six forcing edges disappear; none of the 38 old nonprotected unstable labels remains unstable; and none of the 44 old saddle labels remains a saddle. Thus it genuinely leaves the old forced-edge cell.
 
 ## 4. Complete endpoint mechanics and robust nonwinner box
 
@@ -121,9 +121,9 @@ Directed full-feature bounds on the moment-root box are
 | unstable | `7.87225021519423e-2` | `-1.8338729206143458e-2` |
 | saddle | `5.073493928392392e-2` | `-2.915655016545226e-3` |
 
-Every true edge is derived from grouped maximal-face cycles and audited through all four normal-cone components; mesh diagonals are excluded. Five independent trace-free symmetric metric controls satisfy `|s_k|≤2^-25`. They preserve exact own-centering, have rank 5, singular-value lower bound `0.9999998509883881`, determinant interval `[0.9999998807907112,1.0000001192092987]`, and retain the entire strict `(3,3,4)` classification on the combined `3+5` box. This is an open exact nonwinner, not an unresolved boundary point. :contentReference[oaicite:5]{index=5}
+Every true edge is derived from grouped maximal-face cycles and audited through all four normal-cone components; mesh diagonals are excluded. Five independent trace-free symmetric metric controls satisfy `|s_k|≤2^-25`. They preserve exact own-centering, have rank 5, singular-value lower bound `0.9999998509883881`, determinant interval `[0.9999998807907112,1.0000001192092987]`, and retain the entire strict `(3,3,4)` classification on the combined `3+5` box. This is an open exact nonwinner, not an unresolved boundary point.
 
-The archive supplies, for every conclusion-bearing cell, complete `H_exact.tsv.gz`, `V_exact.tsv.gz`, `maximal_face_cycles.tsv.gz`, `true_edges.tsv`, oriented `surface_triangles.tsv`, point and root-box mechanics ledgers, root certificates, OBJ, and STL. The independent verifier reparses these data and reproduced watertight Euler-2 meshes for both J42 sides and J43. :contentReference[oaicite:6]{index=6}
+The archive supplies, for every conclusion-bearing cell, complete `H_exact.tsv.gz`, `V_exact.tsv.gz`, `maximal_face_cycles.tsv.gz`, `true_edges.tsv`, oriented `surface_triangles.tsv`, point and root-box mechanics ledgers, root certificates, OBJ, and STL. The independent verifier reparses these data and reproduced watertight Euler-2 meshes for both J42 sides and J43.
 
 ## 5. Exact NONWINNER residual and smallest new topology
 
@@ -147,7 +147,7 @@ The low cluster `{0,18,33,53,54,89}` and high cluster `{2454,2455,2463,2472,2473
 
 The terminal one-rings contain 103 rows; a Steiner connector uses 60 rows and 59 edges; the explicit finite-thickness carrier has 143 rows and 213 external-boundary rows, all enumerated in `research/J43_smallest_new_topology.json`.
 
-The smallest evidence-supported successor topology is a finite-thickness two-sheet replacement with two edge-sharing nonsimplicial `2↔3/3↔2` cells and one shared volumetric terminal cell. Besides dependent controls for `Mx=My=Mz=0`, it needs: a low U–H death-sheet control on `(18,53,54),(53,54,89),(0,33),(53,54)`; a high S–H death-sheet control on `2463,2481,(2454,2455),(2472,2473)`; and an independent cross-gap relay/antibirth control forcing both deaths to overlap before any compensating birth. It must preserve row `0` and facet `(4321,4322,4323)` while removing all six unwanted extrema and four saddles in one rebuilt exact cell. :contentReference[oaicite:7]{index=7}
+The smallest evidence-supported successor topology is a finite-thickness two-sheet replacement with two edge-sharing nonsimplicial `2↔3/3↔2` cells and one shared volumetric terminal cell. Besides dependent controls for `Mx=My=Mz=0`, it needs: a low U–H death-sheet control on `(18,53,54),(53,54,89),(0,33),(53,54)`; a high S–H death-sheet control on `2463,2481,(2454,2455),(2472,2473)`; and an independent cross-gap relay/antibirth control forcing both deaths to overlap before any compensating birth. It must preserve row `0` and facet `(4321,4322,4323)` while removing all six unwanted extrema and four saddles in one rebuilt exact cell.
 
 ## Reproducibility
 
@@ -157,9 +157,9 @@ Archive SHA-256:
 57a458f0ba75ab844eb0a7f651b45f60705ea0277da665271e0a33f05529e634
 ```
 
-- [Exact source, H/V/circuit/replacement certificates, verifier, OBJ and STL](sandbox:/mnt/data/Steady_Harbor_62_exact_exit_shared_NONWINNER.zip)
-- [Independent verification receipt](sandbox:/mnt/data/Steady_Harbor_62_verification_receipt.txt)
+- Exact source, H/V/circuit/replacement certificates, verifier, OBJ and STL (`Steady_Harbor_62_exact_exit_shared_NONWINNER.zip`)
+- Independent verification receipt (`Steady_Harbor_62_verification_receipt.txt`)
 
 Run `bash [internal-source-reference].sh` from the extracted archive root. The terminal verdict is `QUIET_QUARTZ33_ALL_CHECKS_PASS`.
 
-The literal frontier is now `J43_shared_metric`. It is an exact ordinary-centred, irredundantly audited, watertight **NONWINNER**. The next nonredundant continuation is the explicit 143-row shared two-sheet/cross-gap cell with three topology controls and three dependent ordinary-moment controls. :contentReference[oaicite:8]{index=8}
+The literal frontier is now `J43_shared_metric`. It is an exact ordinary-centred, irredundantly audited, watertight **NONWINNER**. The next nonredundant continuation is the explicit 143-row shared two-sheet/cross-gap cell with three topology controls and three dependent ordinary-moment controls.

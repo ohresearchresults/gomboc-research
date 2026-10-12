@@ -219,9 +219,9 @@ No global minimum, C<1000 success, prize eligibility, fabrication tolerance, ext
 
 ## 7. Archive and fresh replay
 
-[Verified exact tables, both implementations, source-frame restart, construction scripts and display meshes](sandbox:/mnt/data/NH13_NFSC_R567_VERIFIED.zip).
+Verified exact tables, both implementations, source-frame restart, construction scripts and display meshes (`NH13_NFSC_R567_VERIFIED.zip`).
 
-[Complete self-contained handoff](sandbox:/mnt/data/NH13_NFSC_R567_HANDOFF.md).
+Complete self-contained handoff (`NH13_NFSC_R567_HANDOFF.md`).
 
 The archive is **249473 bytes**, SHA256 `361471aa063dc22bdeeb4978a31d101b6bd7cd6bd4b0628579b75c873831749e`. Its fresh extraction completed `NH13_NFSC_R567_ARCHIVE_REPLAY_PASS` with both implementations. All76 manifest entries passed before and after replay. The raw and centred vertex tables, triangles, source labels, definition, maximal faces and true-edge table were reconstructed byte-for-byte in a separate temporary directory. The exact source, offset-fold, centring interval, full ascent graph, scoped frozen-pool theorem and fixtures were also executed. The final archive bytes were unchanged after replay.
 

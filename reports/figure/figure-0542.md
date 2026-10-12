@@ -20,9 +20,9 @@ I read the complete supplied journal, branch memory, and literal W51 parent thro
 
 There is an outer-serialization distinction: extracting the displayed parent Markdown did not reproduce that advertised outer-result hash. I do not claim to have independently verified the runtime’s outer serialization. However, the embedded `RECOVER_W51.py` matched its published **61061-byte** source and SHA-256 `9cad65f5688d803d536d995be50f2ae475c7d53d5791f960a72b027f9dbfb577`; its decoded **171845-byte** dictionary matched `ce7c3f1ad9ce6d5696792ac9fd6ad791c37c39dbb5442783e9413477c1eea559`. Both literal input bodies were then independently reaudited. No coordinate or incidence substitution was made.
 
-Write A for literal `W51_ROBUST_G3`, and B for the physical halfspace body `R3_HBRIDGE_S1_G3`. They are not a polar pair. A has 32 input rows, with **original row3 interior**, and true 31/87/58. Its volume and centroid agree exactly with J49, not J48’s withdrawn row4/mass7.5906 claim. Original-row equilibria are S=[[4,30,31],[10,29,30]], U=[0], H=[[2,5]]. B has true 44/66/24 and own121. These identities and the original complexity bounds are supported by the supplied source. :contentReference[oaicite:0]{index=0}
+Write A for literal `W51_ROBUST_G3`, and B for the physical halfspace body `R3_HBRIDGE_S1_G3`. They are not a polar pair. A has 32 input rows, with **original row3 interior**, and true 31/87/58. Its volume and centroid agree exactly with J49, not J48’s withdrawn row4/mass7.5906 claim. Original-row equilibria are S=[[4,30,31],[10,29,30]], U=[0], H=[[2,5]]. B has true 44/66/24 and own121. These identities and the original complexity bounds are supported by the supplied source.
 
-The complete A and B inputs are included in the inline capsule. The source A volume is `10865185711/1500000000`, and its centroid is `(-386613615871/10865185711000,-3857015486057/21730371422000,57133873364297/173842971376000)`. The reexecuted A audit reproduced the parent’s 2839-byte receipt, SHA-256 `5a77084f44934652c84a5af6345729acfc72e8ea493a2198fca46baf163f80a7`. The inherited material-tree certificate is useful context, but was not assumed to survive new material changes. :contentReference[oaicite:1]{index=1}
+The complete A and B inputs are included in the inline capsule. The source A volume is `10865185711/1500000000`, and its centroid is `(-386613615871/10865185711000,-3857015486057/21730371422000,57133873364297/173842971376000)`. The reexecuted A audit reproduced the parent’s 2839-byte receipt, SHA-256 `5a77084f44934652c84a5af6345729acfc72e8ea493a2198fca46baf163f80a7`. The inherited material-tree certificate is useful context, but was not assumed to survive new material changes.
 
 No required coordinate or auditor dependency remains inaccessible for the results below.
 
@@ -226,7 +226,7 @@ HYBRID_MATERIAL_LINEAGE_AND_REDUCTIONS_PASS 2095 71a5c0a8de8ef491b57c8a73611e220
 
 Optional numerical replay uses `OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1`, then `python donor_seeds.py`, `python root_registration.py`, and `python run_methods.py registration`, `graft`, `coupled`, `intersection`, or `flip`. The intersection replay intentionally stops at565. The9 hull starts use `pose_search.py --start 0 --stop 3 --iterations 200` and `--start 3 --stop 9 --iterations 300`; the8 intersection starts use `intersection_search.py --start 0 --stop 8 --iterations 300`. Other finite grids are literal in their complete source units.
 
-Convenience copies supplement this inline source: [recovery source](sandbox:/mnt/data/RECOVER_HYBRID_INLINE.py) and [complete source, observed audits, pins and numerical ledgers](sandbox:/mnt/data/HYBRID_COMPLETE_HANDOFF.zip). The ZIP SHA-256 is `0899c776270c5ce87151af1b45451a86bcfd2b9eaf148d5787feaf3f6b21b32a`.
+Convenience copies supplement this inline source: recovery source (`RECOVER_HYBRID_INLINE.py`) and complete source, observed audits, pins and numerical ledgers (`HYBRID_COMPLETE_HANDOFF.zip`). The ZIP SHA-256 is `0899c776270c5ce87151af1b45451a86bcfd2b9eaf148d5787feaf3f6b21b32a`.
 
 ```python
 """Self-contained complementary W51/H24 exact controls and numerical methods."""

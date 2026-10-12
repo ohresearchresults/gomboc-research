@@ -8,9 +8,9 @@ AI research report · 2026-09-22 UTC
 
 ## Outcome
 
-No strict own-centred `110` / additional-weak `000` body was found. The parent is the exact `BR76_C114_CAP_RECON222_A4`, V38/E57/F21,C114 strict222/weak000 with one physical and one same-centre polar residual feature; the journal explicitly identifies changed truncating-plane orientation plus retained-support motion, with the fixed-incidence SPD cell as the complementary subproblem. :contentReference[oaicite:0]{index=0} The active target is C<500 (E<=249). :contentReference[oaicite:1]{index=1}
+No strict own-centred `110` / additional-weak `000` body was found. The parent is the exact `BR76_C114_CAP_RECON222_A4`, V38/E57/F21,C114 strict222/weak000 with one physical and one same-centre polar residual feature; the journal explicitly identifies changed truncating-plane orientation plus retained-support motion, with the fixed-incidence SPD cell as the complementary subproblem. The active target is C<500 (E<=249).
 
-The strongest new result is substantially lower than C114: an exact **`BR76_C42_PRUNE5_RECON222_G2`**, V14/E21/F9,C42, strict222/weak000/primitivezero000, with exactly one P bar and one Q bar, followed by an exact theorem excluding **its entire nonsingular affine orbit** from weak-free U1 and therefore from strict110/weak000. C42 is only eight complexity units above the accepted internal lower bound C>=34 and it sits exactly at the accepted face floor F>=9; unlike the further strict222 pruning descendants with F<=8, this incidence is still combinatorially compatible with the known necessary bounds for own110. :contentReference[oaicite:2]{index=2}
+The strongest new result is substantially lower than C114: an exact **`BR76_C42_PRUNE5_RECON222_G2`**, V14/E21/F9,C42, strict222/weak000/primitivezero000, with exactly one P bar and one Q bar, followed by an exact theorem excluding **its entire nonsingular affine orbit** from weak-free U1 and therefore from strict110/weak000. C42 is only eight complexity units above the accepted internal lower bound C>=34 and it sits exactly at the accepted face floor F>=9; unlike the further strict222 pruning descendants with F<=8, this incidence is still combinatorially compatible with the known necessary bounds for own110.
 
 ## 1. Geometry-changing route C114 -> C84 -> C72 -> C42
 

@@ -8,7 +8,7 @@ AI research report · 2026-09-01 UTC · [Export notes](../../catalog/coverage.md
 
 ## Literal determination
 
-**NONWINNER.** I did not obtain a uniform-density convex polyhedron with strict own-centroid `(S,U,H)=(1,1,0)`. The original acceptance gate requires a finite exact V/H body, its own ordinary-volume centroid, exhaustive maximal-face/vertex/full-true-edge-cone margins, an open strict neighbourhood, independent verification, and matching meshes. :contentReference[oaicite:0]{index=0} The inherited frontier was the exact `E10R` body `(10,24,16)`, class `(2,2,2)`, whose one-dimensional central-circuit atlas was exhausted and whose next construction required at least four transverse controls. :contentReference[oaicite:1]{index=1}
+**NONWINNER.** I did not obtain a uniform-density convex polyhedron with strict own-centroid `(S,U,H)=(1,1,0)`. The original acceptance gate requires a finite exact V/H body, its own ordinary-volume centroid, exhaustive maximal-face/vertex/full-true-edge-cone margins, an open strict neighbourhood, independent verification, and matching meshes. The inherited frontier was the exact `E10R` body `(10,24,16)`, class `(2,2,2)`, whose one-dimensional central-circuit atlas was exhausted and whose next construction required at least four transverse controls.
 
 This work genuinely leaves that line. It materializes exact connected residual-disk replacements and actual-cell controls
 
@@ -25,19 +25,19 @@ The strongest mechanical endpoint is `E14C`. Every original residual feature of 
 
 ## Immutable artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/vivid_quartz_58_four_control_nonwinner.zip), SHA-256 `d891aded39167da2ff4806022f5290491c5dbb9e24fbeda3c8abdf49986e8268`; [hash file](sandbox:/mnt/data/vivid_quartz_58_four_control_nonwinner.zip.sha256).
-- [Full determination](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/RESULT.md), [README](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/README.md), [one-command verifier](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/[internal-source-reference].sh), [123-file manifest](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/SHA256SUMS), and [verification record](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/VERIFICATION_RECORD.json).
+- Complete exact archive (`vivid_quartz_58_four_control_nonwinner.zip`), SHA-256 `d891aded39167da2ff4806022f5290491c5dbb9e24fbeda3c8abdf49986e8268`; hash file (`vivid_quartz_58_four_control_nonwinner.zip.sha256`).
+- Full determination (`RESULT.md`), README (`README.md`), one-command verifier (`[internal-source-reference].sh`), 123-file manifest (`SHA256SUMS`), and verification record (`VERIFICATION_RECORD.json`).
 
 ## 1. First four-control escape and exact preemption
 
-`E11S` replaces old vertex `D` and its six-face star by internal vertices `E,F` sharing true edge `(E,F)`. It is exact `(11,27,18)`, strict `(2,2,2)`, with stable `[1,11,E]`,`[8,A,B]`, unstable `8,E`, saddles `(1,A),(11,12)`, and a simultaneous `2^-12` coordinate box. A direct exact Jacobian using controls `11.x,11.y,A.z,E.z` has rank four and decreases the four selected residual sheets at first order; see [first-jet certificate](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E11S_four_control_first_jet.json).
+`E11S` replaces old vertex `D` and its six-face star by internal vertices `E,F` sharing true edge `(E,F)`. It is exact `(11,27,18)`, strict `(2,2,2)`, with stable `[1,11,E]`,`[8,A,B]`, unstable `8,E`, saddles `(1,A),(11,12)`, and a simultaneous `2^-12` coordinate box. A direct exact Jacobian using controls `11.x,11.y,A.z,E.z` has rank four and decreases the four selected residual sheets at first order; see first-jet certificate (`E11S_four_control_first_jet.json`).
 
 The complete exact own-centroid event atlas on `0<=t<=3/20` expands all 216 active support/mechanical primitives. Its only events are:
 
 - `t≈0.1167210975479633`: `[8,10,11]`/`(8,10)` witness transfer, class unchanged.
 - `t≈0.1392410386132671`: compensating `U11/H(8,11)` birth, class `(2,2,2)->(2,3,3)`.
 
-None of the four intended deaths occurs first. Exact disposition: `COMMON_DESCENT_PREEMPTED_BEFORE_SELECTED_DEATHS`; [atlas](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E11S_common_descent_event_atlas.json), [independent verification](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E11S_common_descent_independent_verification.json).
+None of the four intended deaths occurs first. Exact disposition: `COMMON_DESCENT_PREEMPTED_BEFORE_SELECTED_DEATHS`; atlas (`E11S_common_descent_event_atlas.json`), independent verification (`E11S_common_descent_independent_verification.json`).
 
 A separate exact `E-F` transfer atlas has roots `0.001042888715279273` and `0.002338746250850858`, with class `(2,2,2)->(2,3,3)->(2,2,2)`. The exact identity
 
@@ -45,7 +45,7 @@ A separate exact `E-F` transfer atlas has roots `0.001042888715279273` and `0.00
 [-x_E·(x_F-x_E)] + [-x_F·(x_E-x_F)] = ||x_E-x_F||^2 > 0
 ```
 
-plus strict external arrows forces at least one of `E,F` unstable; together with protected `8`, `U>=2`. [Transfer atlas](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E11S_EF_transfer_atlas.json).
+plus strict external arrows forces at least one of `E,F` unstable; together with protected `8`, `U>=2`. Transfer atlas (`E11S_EF_transfer_atlas.json`).
 
 ## 2. Strongest exact four-control endpoint `E14C`
 
@@ -99,7 +99,7 @@ edges:
 (1,2) (1,8) (1,11) (1,E) (1,K) (2,8) (2,A) (2,K) (8,10) (8,11) (8,A) (8,B) (10,12) (10,11) (10,B) (10,L) (12,B) (12,C) (12,E) (12,F) (12,L) (12,M) (11,E) (11,L) (A,B) (A,E) (A,F) (A,K) (A,M) (B,C) (B,F) (C,F) (E,K) (E,L) (E,M) (F,M)
 ```
 
-Thus `(V,E,F)=(14,36,24)` and Euler characteristic is two. [Complete exact H representation](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E14C_H_representation.json) records the primitive integer outward normal, integer support, centred rational RHS, and every nonincident slack for all 24 faces.
+Thus `(V,E,F)=(14,36,24)` and Euler characteristic is two. Complete exact H representation (`E14C_H_representation.json`) records the primitive integer outward normal, integer support, centred rational RHS, and every nonincident slack for all 24 faces.
 
 ### Exhaustive own-centroid mechanics
 
@@ -111,7 +111,7 @@ Thus `(V,E,F)=(14,36,24)` and Euler characteristic is two. [Complete exact H rep
 - minimum circumradius-normalized nonincidence separation: `0.0001704264077852687`;
 - simultaneous all-42-coordinate perturbation radius: `2^-19`.
 
-Every face component, every directed neighbour component at every vertex, and all four components `(t,1-t,alpha,beta)` for every true edge are in the [exhaustive audit](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E14C_audit.md) and [exact report](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E14C_exact_report.json). The clean-room Qhull/tetrahedral/full-cone/Trimesh reconstruction returns `INDEPENDENT_E14C_RECONSTRUCTION_PASS`; [report](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E14C_independent_verification.json), [OBJ](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E14C_centered.obj), [STL](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E14C_centered.stl).
+Every face component, every directed neighbour component at every vertex, and all four components `(t,1-t,alpha,beta)` for every true edge are in the exhaustive audit (`E14C_audit.md`) and exact report (`E14C_exact_report.json`). The clean-room Qhull/tetrahedral/full-cone/Trimesh reconstruction returns `INDEPENDENT_E14C_RECONSTRUCTION_PASS`; report (`E14C_independent_verification.json`), OBJ (`E14C_centered.obj`), STL (`E14C_centered.stl`).
 
 ### Genuine four-dimensional cell
 
@@ -121,7 +121,7 @@ The residual primitives are stable `[E,1,11]` component 0, unstable `M->E`, sadd
 [4.666808274756124, 3.4907504945146703, 1.6598842288776647, 0.1471711867059291]
 ```
 
-and the exact dual basis satisfies `A*B=-I_4`. Each parameter ranges in `[-2^-22,2^-22]`, strictly inside the `2^-19` coordinate box, preserving the actual hull, class, `[8,A,B]`, and `8`. The connected external-positive component `{E,F,M}` forces another unstable vertex, so `U>=2` throughout this certified four-cube. [Four-control certificate](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E14C_four_control_certificate.json).
+and the exact dual basis satisfies `A*B=-I_4`. Each parameter ranges in `[-2^-22,2^-22]`, strictly inside the `2^-19` coordinate box, preserving the actual hull, class, `[8,A,B]`, and `8`. The connected external-positive component `{E,F,M}` forces another unstable vertex, so `U>=2` throughout this certified four-cube. Four-control certificate (`E14C_four_control_certificate.json`).
 
 ## 3. Rigorous one-support obstruction and exact two-support escape
 
@@ -134,7 +134,7 @@ For each face incident to `M`, the fixed-plane cap system admits a positive inte
 1035228257188886394340634831459418012156157657265942969792934579469901037062411547631758428630286336
 ```
 
-Consequently one new visibility-cap vertex cannot simultaneously delete `(2,K)`, delete `(11,L)`, and attach to `M`; demanding stable `[E,1,11]` death only adds an inequality. This is a rigorous fixed-source-plane lower bound, not a global arbitrary-motion theorem. [Farkas certificate](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E14C_single_vertex_cap_obstruction.json).
+Consequently one new visibility-cap vertex cannot simultaneously delete `(2,K)`, delete `(11,L)`, and attach to `M`; demanding stable `[E,1,11]` death only adds an inequality. This is a rigorous fixed-source-plane lower bound, not a global arbitrary-motion theorem. Farkas certificate (`E14C_single_vertex_cap_obstruction.json`).
 
 `E15A` realizes the minimal two-support alternative in that model: `K` becomes inactive, new vertices `N,P` are extreme, `(N,P)` is true, and route `M-N-P-8` crosses the gap. Both old E14C saddles are absent. Exact endpoint:
 
@@ -147,7 +147,7 @@ Consequently one new visibility-cap vertex cannot simultaneously delete `(2,K)`,
 - minimum normalized nonincidence `1.4933679776531778e-05`;
 - simultaneous perturbation box `2^-24`.
 
-See [exact report](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E15A_exact_report.json), [H representation](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E15A_H_representation.json), [patch complex](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E14C_to_E15A_patch_complex.json), [independent verification](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E15A_independent_verification.json), [OBJ](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E15A_centered.obj), [STL](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E15A_centered.stl).
+See exact report (`E15A_exact_report.json`), H representation (`E15A_H_representation.json`), patch complex (`E14C_to_E15A_patch_complex.json`), independent verification (`E15A_independent_verification.json`), OBJ (`E15A_centered.obj`), STL (`E15A_centered.stl`).
 
 At fixed E15A planes, one further cap deleting all three saddle channels is again infeasible: the exact positive weighted support sum is
 
@@ -155,15 +155,15 @@ At fixed E15A planes, one further cap deleting all three saddle channels is agai
 11292940902961509670967631941816435349282570656859557826618041883466132490638151891739817766969746565282415517528592
 ```
 
-with zero weighted normal sum. [Second obstruction](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E15A_one_cap_obstruction.json).
+with zero weighted normal sum. Second obstruction (`E15A_one_cap_obstruction.json`).
 
 ## 4. Next topology materialized
 
-The smallest supplied fixed-plane successor therefore uses two new supports `Q,R`. `E17G` replaces seven faces by eleven connected faces, adds true edge `(Q,R)`, and provides route `M-R-Q-P-8`. It is a strict exact dyadic convex realization with `(V,E,F)=(17,45,30)`, exact own centring, complete H/V/E reconstruction, and independent watertight meshes. Its first realization is mechanically poor: `(S,U,H)=(24,12,34)`, not a candidate. [Exact report](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E17G_exact_report.json), [H representation](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E17G_H_representation.json), [patch](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E15A_to_E17G_patch_complex.json), [independent verification](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/E17G_independent_verification.json).
+The smallest supplied fixed-plane successor therefore uses two new supports `Q,R`. `E17G` replaces seven faces by eleven connected faces, adds true edge `(Q,R)`, and provides route `M-R-Q-P-8`. It is a strict exact dyadic convex realization with `(V,E,F)=(17,45,30)`, exact own centring, complete H/V/E reconstruction, and independent watertight meshes. Its first realization is mechanically poor: `(S,U,H)=(24,12,34)`, not a candidate. Exact report (`E17G_exact_report.json`), H representation (`E17G_H_representation.json`), patch (`E15A_to_E17G_patch_complex.json`), independent verification (`E17G_independent_verification.json`).
 
 ## 5. Search scope, uncertainty, and continuation
 
-Dynamic actual-hull searches explored 23 E11S incidence cells, six E14C cells, seven E15A cells, and 87,344 valid two-cap-pair trials. No strict `(1,1,0)` body occurred; near-zero objectives lay at support/topology floors and are not exclusion proofs. Hash-bound receipts and exact/empirical separation are in the [search ledger](sandbox:/mnt/data/vivid_quartz_58_four_control_final_result/search_ledger.json).
+Dynamic actual-hull searches explored 23 E11S incidence cells, six E14C cells, seven E15A cells, and 87,344 valid two-cap-pair trials. No strict `(1,1,0)` body occurred; near-zero objectives lay at support/topology floors and are not exclusion proofs. Hash-bound receipts and exact/empirical separation are in the search ledger (`search_ledger.json`).
 
 What is proved:
 

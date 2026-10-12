@@ -10,7 +10,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 I did **not** find an own-centred strict `110` / additional-weak `000` C40 member, and I do not claim a C40 exclusion. I did obtain two new exact rational C40 checkpoints that materially improve the branch in the requested whole-basin sense: **both complete transferred positive packets contract to two vertices simultaneously**. The primary low-arithmetic body `C40_PACKET2X2_COARSE100` is still strict `222/weak000/zero000`, but its physical dying component is `2 vertices / 6 cut edges` and its same-centre-polar dying component is `2 vertices / 4 cut edges`, versus the exact parent ROBUST_TRANSFER packets `4/8` and `5/6`. The second exact checkpoint `C40_PACKET2X2_THICK1000` has the same `2/6 + 2/4` packet sizes with substantially larger normalized edge and inradius guards.
 
-The supplied parent establishes the ROBUST_TRANSFER exact class and its complete two residual basins; I used that literal payload as authority, not the journal synopsis. :contentReference[oaicite:0]{index=0} The supplied metric material gives the exact 315,000 rooted-tree reduction for fixed-geometry mono-U feasibility; I use that below as the cleanest next exact subproblem, but I did **not** complete that atlas and therefore make no affine-metric exclusion claim. :contentReference[oaicite:1]{index=1} No supplied source was truncated, no required dependency was missing, and I found no conflict between the literal parent and the journal summary.
+The supplied parent establishes the ROBUST_TRANSFER exact class and its complete two residual basins; I used that literal payload as authority, not the journal synopsis. The supplied metric material gives the exact 315,000 rooted-tree reduction for fixed-geometry mono-U feasibility; I use that below as the cleanest next exact subproblem, but I did **not** complete that atlas and therefore make no affine-metric exclusion claim. No supplied source was truncated, no required dependency was missing, and I found no conflict between the literal parent and the journal summary.
 
 ## 1. Primary exact checkpoint: `C40_PACKET2X2_COARSE100`
 
@@ -96,7 +96,7 @@ so the face histogram is exactly `8 triangles + 4 maximal quadrilaterals`. Every
 5-9 6-9 7-9 8-9
 ~~~
 
-which is the exact C40 graph recorded in the supplied metric-reduction material. :contentReference[oaicite:2]{index=2} The common denominator of all centred vertex coordinates is only **57 bits**.
+which is the exact C40 graph recorded in the supplied metric-reduction material. The common denominator of all centred vertex coordinates is only **57 bits**.
 
 ### Full strict / weak mechanics
 
@@ -211,7 +211,7 @@ Its birth-relative depths are about `0.889689618` (P) and `0.944047039` (Q), and
 
 ## 3. What changed relative to the exact parent
 
-The authoritative parent `C40_ROBUST_TRANSFER_G1` is exact `222/weak000`, with physical component `[1,2,5,6]` and cut 8, and polar component `[7,8,9,10,11]` and cut 6. :contentReference[oaicite:3]{index=3} Both new exact checkpoints retain C40 and apex escapes, but reduce those complete packet sizes simultaneously:
+The authoritative parent `C40_ROBUST_TRANSFER_G1` is exact `222/weak000`, with physical component `[1,2,5,6]` and cut 8, and polar component `[7,8,9,10,11]` and cut 6. Both new exact checkpoints retain C40 and apex escapes, but reduce those complete packet sizes simultaneously:
 
 ~~~text
                          physical packet      polar packet
@@ -224,7 +224,7 @@ No own110 endpoint appears: both new bodies remain exact strict222 with two expl
 
 ## 4. Fixed-geometry metric evidence and scope
 
-For a fixed raw C40 geometry, the supplied exact reduction says mono-U is equivalent to one of 315,000 rooted-tree linear sign systems in the six symmetric entries of `G`, together with `G` SPD; every feasible strict cone contains rational `G`. :contentReference[oaicite:4]{index=4} I did not enumerate those 315,000 systems for either new raw profile, so I make **no** fixed-profile `U>=2` claim and no C40 obstruction claim.
+For a fixed raw C40 geometry, the supplied exact reduction says mono-U is equivalent to one of 315,000 rooted-tree linear sign systems in the six symmetric entries of `G`, together with `G` SPD; every feasible strict cone contains rational `G`. I did not enumerate those 315,000 systems for either new raw profile, so I make **no** fixed-profile `U>=2` claim and no C40 obstruction claim.
 
 I also did not reuse the parent's proved sterile shear half-line `s>=1673/500`; the discovery search varied knots, positive curvatures and oblique SPD metrics.
 
@@ -323,7 +323,7 @@ C40_PACKET2X2_PAIR.json       9313 bytes
 SHA-256 565b8f5e4635b9e8eb90f12a27f0dfa2e29480d315f38d255aa47a32f7ca2a7b
 ~~~
 
-The JSON contains the literal inputs, exact Gram matrices and the full exact audit objects, including actual mass, all S/U/H labels, full P/Q bar data, raw/transformed centroids, `own_H`, feature guards and exact normalized intervals. Convenience copies from this execution are [verifier](sandbox:/mnt/data/VERIFY_C40_PACKET2X2_PAIR.py) and [full exact report](sandbox:/mnt/data/C40_PACKET2X2_PAIR.json); they are supplements only, not the recovery authority.
+The JSON contains the literal inputs, exact Gram matrices and the full exact audit objects, including actual mass, all S/U/H labels, full P/Q bar data, raw/transformed centroids, `own_H`, feature guards and exact normalized intervals. Convenience copies from this execution are verifier (`VERIFY_C40_PACKET2X2_PAIR.py`) and full exact report (`C40_PACKET2X2_PAIR.json`); they are supplements only, not the recovery authority.
 
 Evidence tier: one inherited exhaustive exact H/V mechanics-and-mass implementation, not two independent full auditors. It nevertheless performs three mutually consistent exact mass calculations and reconstructs the maximal complex from supporting triples rather than trusting nominations.
 

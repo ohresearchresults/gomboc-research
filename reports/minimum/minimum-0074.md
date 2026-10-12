@@ -30,17 +30,17 @@ The statement is existential about a suitably selected attainer, **not a mechani
 
 An exact physical C34 control has one edge–facet contact whose decisive shadow is `t²/(1−2t²)` along an actual own-centred affine family. Its first derivative is zero but the contact disappears on both sides. The complete census remains `(S,U,H)=(6,5,9)`, not `(1,1,0)`; it is a diagnostic construction, not a counterexample to the main regularization question.
 
-**No full type or joint root is removed. C≥34 and the accepted 632/52585 register remain unchanged.** The parent explicitly left mechanical zeros unbounded; its positive η concerned geometry and specified positive integration cells. :contentReference[oaicite:0]{index=0}
+**No full type or joint root is removed. C≥34 and the accepted 632/52585 register remain unchanged.** The parent explicitly left mechanical zeros unbounded; its positive η concerned geometry and specified positive integration cells.
 
 ## Authority and scope
 
 The immutable parent is `minimum-0067`, SHA-256 `2507653be048f3201aff59b4472d22d6c992a622803cb4cbc950b3db0add05ad`. Its complete literal mathematical text and 13392-byte source were read. Authentication uses the literal Markdown with trailing whitespace stripped, compact JSON `{'version':2,'result_markdown':md}`, `ensure_ascii=False`, separators `(',',':')`, and no terminal envelope LF. This gives **48408 bytes** and the advertised SHA. The source has SHA `e85a9b5fb2604aba2ab4b333c0a28c80bf2df3d9a16571694ce6efc452546b4f`.
 
-The current journal is `research-journal(20260916-161111).md`, **4886482 bytes**, SHA `639a79e3e6625f1a470a169f26a2ed39fdbc398515e16cfba550adbc579c1cd7`. No source-identity or incidence conflict was found. The latest quartic actual-moment inverse theorem was read, but is not used to infer regularization: it explicitly controls weights on one already-realized geometry, not mechanics under deformation. :contentReference[oaicite:1]{index=1}
+The current journal is `research-journal(20260916-161111).md`, **4886482 bytes**, SHA `639a79e3e6625f1a470a169f26a2ed39fdbc398515e16cfba550adbc579c1cd7`. No source-identity or incidence conflict was found. The latest quartic actual-moment inverse theorem was read, but is not used to infer regularization: it explicitly controls weights on one already-realized geometry, not mechanics under deformation.
 
 The global alternative inherits the parent's accepted weak-scope `U1⇒V≥10`, `S1⇒F≥9`, and `R/r≤27`, including the explicitly inherited universal285 premise. Those historical certificate families are **not newly re-executed**. The isolated-contact and affine-orbit theorems themselves do not need those lower bounds, a condition-number cutoff, or the numerical value of η.
 
-Define the weak class \(\mathcal W\) to consist of actual full-dimensional convex polytopes with the specified saturated face lattice, constant volume density, own centroid zero, one SPD pair \(M,N=M^{-1}\), and simultaneous rooted weak escape trees on actual primal and polar edges. This means exactly one *strict* unstable vertex and one *strict* stable facet, but permits additional degenerate equilibrium contacts. Strict saddle edges are not silently ruled out by this definition. The inherited saturation argument is valid after label collisions because weak arrows between distinct points strictly increase squared norm; it restores all ten genuine vertices, nine genuine facets and 34 incidences. :contentReference[oaicite:2]{index=2}
+Define the weak class \(\mathcal W\) to consist of actual full-dimensional convex polytopes with the specified saturated face lattice, constant volume density, own centroid zero, one SPD pair \(M,N=M^{-1}\), and simultaneous rooted weak escape trees on actual primal and polar edges. This means exactly one *strict* unstable vertex and one *strict* stable facet, but permits additional degenerate equilibrium contacts. Strict saddle edges are not silently ruled out by this definition. The inherited saturation argument is valid after label collisions because weak arrows between distinct points strictly increase squared norm; it restores all ten genuine vertices, nine genuine facets and 34 incidences.
 
 Local regularization here means arbitrarily close actual bodies, with their own volume centroid, the same maximal-face lattice, and no equilibria other than the two strict targets. Preserving the full lattice is stronger than preserving its f-vector. Affine regularization is a sufficient but restricted subclass of such deformations.
 
@@ -146,7 +146,7 @@ D_c=4dN^2(N')^2,\quad
 N=(2d+6)(2d+5)^{k-1},\quad N'=5(k(2d+4)+2)N.
 \]
 
-Here k=5,d=2, so N=65610, N′=13778100 and \(D_c=6537455226269295048000000\). The exact statements were checked on the primary paper's pages3 and12. :contentReference[oaicite:3]{index=3}
+Here k=5,d=2, so N=65610, N′=13778100 and \(D_c=6537455226269295048000000\). The exact statements were checked on the primary paper's pages3 and12.
 
 Take a primitive real analytic uniformizer on the selected irreducible branch of this curve. A selected strict witness polynomial of degree≤2 is not identically zero on that branch. Its vanishing order is at most2D_c: that order is one nonnegative summand in its local intersection multiplicity with the normalization, and the total curve/hypersurface intersection multiplicity is at most degree(curve) times degree(polynomial), by Bézout. Truncating all five coordinate series through degree2D_c therefore preserves every selected leading sign. The trace constraint is built into the five coordinates; SPD is open at I.
 
@@ -271,7 +271,7 @@ For any literal V10/E17/F9 face lattice and any two true-edge rooted trees, use 
 \sum_\tau\Delta_\tau(x_a+x_b+x_c)=0.
 \]
 
-These are one actual determinant/moment family. The inherited closed saturation proof restores the genuine body even at initially allowed geometric degeneracies: the oriented boundary cycle covers its convex hull with constant positive multiplicity; actual centering follows, weak trees descend, universal V10/F9 prevents lost labels, and34 incidences prevent new contacts. No altered facet lattice or fake positive weights can satisfy the closed model. :contentReference[oaicite:4]{index=4}
+These are one actual determinant/moment family. The inherited closed saturation proof restores the genuine body even at initially allowed geometric degeneracies: the oriented boundary cycle covers its convex hull with constant positive multiplicity; actual centering follows, weak trees descend, universal V10/F9 prevents lost labels, and34 incidences prevent new contacts. No altered facet lattice or fake positive weights can satisfy the closed model.
 
 Add a variable0≤τ≤1. Require each of the17 selected tree escapes≥τ; every outgoing root shadow≤−τ; and, for each true edge, one selected member of its four-tuple(2)≥τ. All four choices are allowed independently; no complementary-tree restriction is imposed. Root degrees total at most17: a vertex misses a facet, and a facet misses a vertex. There are at most181 constraints, including37 equations; pad with zero polynomials to exactly181. The set is compact, and every point with τ>0 is a complete strict attainer by Section1.
 
@@ -288,7 +288,7 @@ If a connected component contains τ>0, apply Jeronimo–Perrucci–Tsigaridas T
 \widetilde H=\max(H,2n+2m).
 \]
 
-The author-hosted primary version and its printed page2 were checked; the theorem requires no nonsingular active-set assumption. :contentReference[oaicite:5]{index=5}
+The author-hosted primary version and its printed page2 were checked; the theorem requires no nonsingular active-set assumption.
 
 Here n=54,m=249,d=4,\(\widetilde H=2^{19}\), so the base is2¹⁰⁴ and the positive optimum satisfies
 
@@ -490,4 +490,4 @@ assert r.returncode==0
 print('BOUNDARY_COMPLETE_LITERAL_CAPSULE_PASS',*SOURCE_PIN)
 ```
 
-Supplementary complete source, output, and proof bundle: [C34_MECHANICAL_BOUNDARY_AND_STRICT_ALTERNATIVE_V1.zip](sandbox:/mnt/data/C34_MECHANICAL_BOUNDARY_AND_STRICT_ALTERNATIVE_V1.zip). The inline capsule is sufficient without the archive.
+Supplementary complete source, output, and proof bundle: C34_MECHANICAL_BOUNDARY_AND_STRICT_ALTERNATIVE_V1.zip. The inline capsule is sufficient without the archive.

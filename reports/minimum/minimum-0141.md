@@ -20,7 +20,7 @@ The inherited triangle-root-leaf exclusion is not being renamed as a new ledger 
 
 I read the entire2036-line journal update, including common memory, branch memory and the literal parent `minimum-0136`, declared SHA-256 `b6789e45d05a9964faba66158c9a89ff82ba2f753f2296e0ef2bb3b90ebb213a`, and both newly supplied coordinator materials through EOF. The mounted update is348676 bytes, SHA-256 `558463a689ed4be3e3c06fdaf2d1acc3009ce99a0f6c4b0f64530476ca88fd85`. The new proof is11874 bytes, SHA-256 `591d67555c7a3a78bc62c3d9c5d347223f34b9341721cb9fa7a19aeecaeed0fb`; its complete7695-byte source matches `3c85287035cbd3d0d06f3307fbdb43e761db77a88469fc1881465f5b614bfc45`. No source conflict or missing dependency is required here. The new source is independent of the older repaired wrappers.
 
-The coordinator's alternative is used with its precise scope: for one symmetric A of inertia (+,−,−) and nonzero B, either B≤c adj(A) for c≥0, excluding the joint weak scalar pair, or ONE SPD M makes A:M and B:M⁻¹ both strictly positive. It is not a completeness theorem for several inequalities. :contentReference[oaicite:0]{index=0}
+The coordinator's alternative is used with its precise scope: for one symmetric A of inertia (+,−,−) and nonzero B, either B≤c adj(A) for c≥0, excluding the joint weak scalar pair, or ONE SPD M makes A:M and B:M⁻¹ both strictly positive. It is not a completeness theorem for several inequalities.
 
 The balanced domain uses eight positive cuts `((sx,sy),(wx,wy),(nx,ny),(ex,ey))`, with `sx+ex,wx+nx,sy+wy,ny+ey<2`, and a>0. Its raw vertices are
 
@@ -40,7 +40,7 @@ F1=(0,8,1) F2=(1,8,2) F3=(2,8,3) F4=(3,8,9,4)
 F5=(4,9,5) F6=(5,9,6) F7=(6,9,7) F8=(7,9,8,0).
 ```
 
-Their cycles give17 true edges. This is the accepted whole balanced normal form, not an equal-angle or small-cut restriction. :contentReference[oaicite:1]{index=1}
+Their cycles give17 true edges. This is the accepted whole balanced normal form, not an equal-angle or small-cut restriction.
 
 Throughout, `M>0`, `N=M⁻¹`, and actual poles satisfy `q_f·X_i≤1`. Polar mass is NEVER refilled or independently recentered. The theorems below in fact require only an actual interior reference; applying them at the true uniform centroid is therefore valid. All geometric collapse boundaries remain outside the stated strict face stratum; mechanical zero-arrow walls are included explicitly.
 
@@ -136,7 +136,7 @@ All three actual polar-chain vertices p,r,q are incident to x, so x·p=x·r=x·q
 
 `xᵀ B x=0`
 
-for EVERY choice of polar aggregation weights. The polar triangle is nondegenerate, so positive weights likewise give B inertia (+,−,−). Hence `B≤c adj(A)` is impossible for c>0 by evaluation at x, and impossible for c=0 because B has a positive eigenvalue. The supplied scalar alternative proves that one SPD M makes BOTH aggregates strictly positive. Allowing one weight to vanish does not help: the resulting individually feasible rank-two arrow is covered by the general scalar alternative. :contentReference[oaicite:2]{index=2}
+for EVERY choice of polar aggregation weights. The polar triangle is nondegenerate, so positive weights likewise give B inertia (+,−,−). Hence `B≤c adj(A)` is impossible for c>0 by evaluation at x, and impossible for c=0 because B has a positive eigenvalue. The supplied scalar alternative proves that one SPD M makes BOTH aggregates strictly positive. Allowing one weight to vanish does not help: the resulting individually feasible rank-two arrow is covered by the general scalar alternative.
 
 This is an actual, disjoint-edge, two-source/two-source counterexample to a proposed completeness of single aggregate certificates. It is not the coordinator's formal traceless-matrix countercontrol and not an independently chosen polar.
 
@@ -621,4 +621,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Supplemental copies: [standalone source](sandbox:/mnt/data/triangle_reciprocal.py), [complete handoff](sandbox:/mnt/data/triangular_reciprocal_handoff.md), and [source, full exact report and cold receipt](sandbox:/mnt/data/triangular_reciprocal_handoff.zip). The source above is the complete recovery.
+Supplemental copies: standalone source (`triangle_reciprocal.py`), complete handoff (`triangular_reciprocal_handoff.md`), and source, full exact report and cold receipt (`triangular_reciprocal_handoff.zip`). The source above is the complete recovery.

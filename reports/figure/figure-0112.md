@@ -8,7 +8,7 @@ AI research report · 2026-08-27 UTC
 
 ## Literal verdict
 
-**NO CERTIFIED WINNER.** No strict open own-centroid `(S,U,H)=(1,1,0)` chamber was certified. The normative verdict field in the complete original `generator.json` is `no_gomboc_found_in_certified_metric_box`; the exact Euclidean Santaló audit is a certified nonwinner, and the only exact open SPD chamber published has class `(2,2,2)`, not `(1,1,0)`. The complete result explicitly says that no homogeneous polyhedral Gömböc was found in the certified metric region and that the unsampled SPD complement remains unexcluded. :contentReference[oaicite:0]{index=0}
+**NO CERTIFIED WINNER.** No strict open own-centroid `(S,U,H)=(1,1,0)` chamber was certified. The normative verdict field in the complete original `generator.json` is `no_gomboc_found_in_certified_metric_box`; the exact Euclidean Santaló audit is a certified nonwinner, and the only exact open SPD chamber published has class `(2,2,2)`, not `(1,1,0)`. The complete result explicitly says that no homogeneous polyhedral Gömböc was found in the certified metric region and that the unsampled SPD complement remains unexcluded.
 
 The later wrapper artifacts were inconsistent only at the packaging layer: `/mnt/data/santalo_fixed_cover_status.json` was absent and the fallback wrapper recorded `artifact_status_missing`. The mathematical result is instead present in the complete original archive `projective_centered_4324_handoff.zip`. Its immutable SHA-256 is `b776fbee4903521019e58bb7cd5db0a5f0f7c2a3670c8d8e1139d28180dd4c85`; its original 28-file manifest verifies without mismatch. This resolves the earlier conditional handoff: **there was no winner hidden behind the links.**
 
@@ -40,7 +40,7 @@ The exhaustive irredundancy audit performed `37,350,724` inactive comparisons wi
 = 1.4689270837501888e-9,
 ```
 
-at primal vertex `7391`, inactive row `4298`, active triple `(4262,4263,4297)`. Translation of `Q` and the subsequent invertible map preserve this complete lattice. :contentReference[oaicite:1]{index=1}
+at primal vertex `7391`, inactive row `4298`, active triple `(4262,4263,4297)`. Translation of `Q` and the subsequent invertible map preserve this complete lattice.
 
 ## Unique Santaló point and exact own-centering
 
@@ -97,7 +97,7 @@ Mz in [-7.724879342814636733872941690049356875799e-27,
         7.724879340153030466470049716444279155128e-27].
 ```
 
-At the isolated root the three first moments vanish exactly, so `P=(Q-a_*)^circ` has exact ordinary centroid zero. :contentReference[oaicite:2]{index=2}
+At the isolated root the three first moments vanish exactly, so `P=(Q-a_*)^circ` has exact ordinary centroid zero.
 
 ## Euclidean identity-metric audit
 
@@ -119,7 +119,7 @@ unstable vertex: +6.1032645636054800e-5 ; -1.7482810607154846e-4
 saddle edge:     +1.0533045298141923e-4 ; -1.7095879979851859e-4.
 ```
 
-Thus exact Santaló centring preserves every incidence but does not preserve the construction-centre equilibrium gates. :contentReference[oaicite:3]{index=3}
+Thus exact Santaló centring preserves every incidence but does not preserve the construction-centre equilibrium gates.
 
 ## Exact published SPD representative and open chamber
 
@@ -184,7 +184,7 @@ saddle edge 2363:   endpoints (3580,5815), incident faces (776,811)
 saddle edge 10407:  endpoints (6579,8565), incident faces (3457,3528).
 ```
 
-The metric certificate itself has verdict `PASS`, but that verdict means the `(2,2,2)` exclusion chamber is rigorously certified; it does **not** mean a Gömböc was found. :contentReference[oaicite:4]{index=4}
+The metric certificate itself has verdict `PASS`, but that verdict means the `(2,2,2)` exclusion chamber is rigorously certified; it does **not** mean a Gömböc was found.
 
 ## Decision-critical margins in the certified metric box
 
@@ -291,7 +291,7 @@ S(p) = [ p0  p2       p3
 C(p)=exp(S(p))=A^-1 A^-T.
 ```
 
-The deterministic run used seed `202608275353`, attempted `10,000` radial-mixture samples with `||p||_2<=6`, and found no `(1,1,0)` sample. The minimum observed stable count was `2`, the minimum observed unstable count was `2`, and `3,148` samples had class `(2,2,2)`. The finite search therefore did not even produce a sampled `(2,1,1)` or `(1,2,1)` chamber. :contentReference[oaicite:5]{index=5}
+The deterministic run used seed `202608275353`, attempted `10,000` radial-mixture samples with `||p||_2<=6`, and found no `(1,1,0)` sample. The minimum observed stable count was `2`, the minimum observed unstable count was `2`, and `3,148` samples had class `(2,2,2)`. The finite search therefore did not even produce a sampled `(2,1,1)` or `(1,2,1)` chamber.
 
 **Certified metric wall crossings actually obtained: none.** No continuous crossing path, adjacent interval chamber, `(2,1,1)` chamber, `(1,2,1)` chamber, or `(1,1,0)` chamber was certified. The earlier conditional wording about crossing saved one-pair chambers was unsupported and is withdrawn.
 
@@ -304,13 +304,13 @@ remove saddle edges 2363 and 10407,
 preserve stable row 1455 and unstable vertex 3539,
 ```
 
-with transfer guards row `2840`, vertex `907`, and edge `10513`. :contentReference[oaicite:6]{index=6}
+with transfer guards row `2840`, vertex `907`, and edge `10513`.
 
 ## Precise remaining SPD gap
 
 Certified finite evidence consists of the exact Santaló root box, the identity-metric nonwinner audit, and the single six-entry box around `A_0`. The `10,000` samples are not coverage.
 
-The unexcluded region is the rest of the noncompact five-dimensional SPD shape quotient: the entire exterior `||p||_2>6` was not sampled, and even inside `||p||_2<=6` the continuum between the finite samples was not interval-covered. No global branch-and-bound, CAD, or complete chamber atlas across the four identified walls was performed. Therefore a strict `(1,1,0)` chamber elsewhere in the fixed lattice's SPD orbit remains possible; the result is **not** a metric-orbit obstruction theorem and does not justify refinement yet. The original result states this limitation explicitly. :contentReference[oaicite:7]{index=7}
+The unexcluded region is the rest of the noncompact five-dimensional SPD shape quotient: the entire exterior `||p||_2>6` was not sampled, and even inside `||p||_2<=6` the continuum between the finite samples was not interval-covered. No global branch-and-bound, CAD, or complete chamber atlas across the four identified walls was performed. Therefore a strict `(1,1,0)` chamber elsewhere in the fixed lattice's SPD orbit remains possible; the result is **not** a metric-orbit obstruction theorem and does not justify refinement yet. The original result states this limitation explicitly.
 
 ## Independent verifier and mesh identity
 
@@ -337,10 +337,10 @@ mesh/metric_A_midpoint.obj
 mesh/metric_A_midpoint.stl.
 ```
 
-They use the exact dyadic centre `a_c` of the isolated root box for finite mesh coordinates; the root and metric interval certificates prove that this replacement preserves every listed incidence and sign. The mesh certificate gives signed volumes `4.193528867075553` and `4.193814036776825`, `det(A_0)=1.000068002322223`, and volume-transform ratio `1.0000000000000002`. :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}
+They use the exact dyadic centre `a_c` of the isolated root box for finite mesh coordinates; the root and metric interval certificates prove that this replacement preserves every listed incidence and sign. The mesh certificate gives signed volumes `4.193528867075553` and `4.193814036776825`, `det(A_0)=1.000068002322223`, and volume-transform ratio `1.0000000000000002`.
 
 ## Immutable supplemental archive
 
-[Complete authoritative 28-file archive](sandbox:/mnt/data/recovered_projective/projective_centered_4324_handoff.zip)
+Complete authoritative 28-file archive (`projective_centered_4324_handoff.zip`)
 
 **Final disposition:** `no certified winner`; exact Santaló centring and lattice preservation are certified; one robust open `(2,2,2)` SPD chamber is certified; no `(1,1,0)` chamber or global SPD obstruction is certified.

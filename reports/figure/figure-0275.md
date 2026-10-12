@@ -17,7 +17,7 @@ This continuation does materially change the low-vertex frontier. It provides:
 - a new exact uniform-density eight-vertex polyhedron at its own ordinary-volume centroid with strict class `(S,U,H)=(2,1,1)` and a six-dimensional positive chamber;
 - a clean identification of the first incidence mechanism not represented by the completed simplicial and affine atlases.
 
-No global eight-vertex impossibility theorem is claimed. The inherited exact theorem still proves only that a strict homogeneous polyhedral Gömböc needs at least eight vertices. It exactly closes all systems through seven vertices, while the eight-vertex simplicial ledger retains 24,835 unresolved labeled necessary systems. :contentReference[oaicite:0]{index=0} The prior numerical continuation closed none of those systems exactly, so its unresolved counts remained unchanged. 
+No global eight-vertex impossibility theorem is claimed. The inherited exact theorem still proves only that a strict homogeneous polyhedral Gömböc needs at least eight vertices. It exactly closes all systems through seven vertices, while the eight-vertex simplicial ledger retains 24,835 unresolved labeled necessary systems. The prior numerical continuation closed none of those systems exactly, so its unresolved counts remained unchanged. 
 
 ## 1. Complete eight-vertex combinatorial atlas
 
@@ -39,9 +39,9 @@ The finite generation is exact:
 
 This establishes complete **incidence coverage**, not complete semialgebraic realization-space coverage.
 
-- [Complete 257-type combinatorial atlas](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/complete_8vertex_combinatorial_atlas.json)
-- [Independent combinatorial verifier](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/verify_combinatorial_atlas.py)
-- [Independent verification transcript](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/verify_combinatorial_atlas.log)
+- Complete 257-type combinatorial atlas (`complete_8vertex_combinatorial_atlas.json`)
+- Independent combinatorial verifier (`verify_combinatorial_atlas.py`)
+- Independent verification transcript (`verify_combinatorial_atlas.log`)
 
 The verifier ends with:
 
@@ -64,9 +64,9 @@ The package contains one exact integer-coordinate, generic convex realization fo
 
 None of the 14 selected exact anchors is `(1,1,0)`. These are exact representative chambers, not exclusions of the complete realization space of any type.
 
-- [Exact 14-type anchor atlas](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/simplicial_exact_anchor_atlas/anchor_certificates.json)
-- [Anchor-atlas summary](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/simplicial_exact_anchor_atlas/atlas_summary.json)
-- [Independent exact anchor verifier](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/simplicial_exact_anchor_atlas/verify_exact_anchor_atlas.py)
+- Exact 14-type anchor atlas (`anchor_certificates.json`)
+- Anchor-atlas summary (`atlas_summary.json`)
+- Independent exact anchor verifier (`verify_exact_anchor_atlas.py`)
 
 The exact inherited accounting therefore remains:
 
@@ -136,9 +136,9 @@ Set `q_i=r_i-c`. Let `A` be the literal exact positive-determinant lower-triangu
 p_i = A q_i.
 ```
 
-- [Exact affine matrix](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/affine_map_exact.csv)
-- [Frozen self-contained source and matrix](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/frozen_source.json)
-- [Frozen-source verifier](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/verify_frozen_source.py)
+- Exact affine matrix (`affine_map_exact.csv`)
+- Frozen self-contained source and matrix (`frozen_source.json`)
+- Frozen-source verifier (`verify_frozen_source.py`)
 
 The exact volume satisfies
 
@@ -210,21 +210,21 @@ All normalized endpoint nonincidence, active-equilibrium, and inactive-feature m
 
 The underlying signs are exact rational signs; the decimal lower bound is only a compact presentation.
 
-- [Principal exact certificate](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/certificate.json)
-- [Exact own-centred V-data](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/vertices_centered_exact.csv)
-- [Complete irredundant H-data](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/H_irredundant.json)
-- [Maximal-face cycles](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/face_cycles.json)
-- [True-edge incidence](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/true_edges.csv)
-- [Every face cone](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/faces_full_cones.json)
-- [Every vertex cone](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/vertices_full_cones.json)
-- [Every four-component edge cone](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/true_edges_full_cones.json)
+- Principal exact certificate (`certificate.json`)
+- Exact own-centred V-data (`vertices_centered_exact.csv`)
+- Complete irredundant H-data (`H_irredundant.json`)
+- Maximal-face cycles (`face_cycles.json`)
+- True-edge incidence (`true_edges.csv`)
+- Every face cone (`faces_full_cones.json`)
+- Every vertex cone (`vertices_full_cones.json`)
+- Every four-component edge cone (`true_edges_full_cones.json`)
 
 ### Complete directed-arrow census
 
 The exact arrow audit includes both directions of all 18 primal true edges and all 18 adjacent-face edges in the polar. Mutual arrows are checked against the exact squared-distance identity rather than inferred from equilibrium labels.
 
-- [Complete primal and polar arrow census](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/complete_external_arrow_census.json)
-- [Arrow-census constructor](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/build_external_arrow_census.py)
+- Complete primal and polar arrow census (`complete_external_arrow_census.json`)
+- Arrow-census constructor (`build_external_arrow_census.py`)
 
 ## 4. Positive exact chamber
 
@@ -244,9 +244,9 @@ Throughout the complete box:
 
 The interval certificate supplies a strictly positive rational lower bound for every active witness and a strictly negative rational upper bound for every selected exclusion witness.
 
-- [Exact six-dimensional perturbation certificate](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/affine_perturbation_certificate.json)
-- [Independent exact endpoint verifier](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/verify_independent.py)
-- [Verification transcript](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/verify_independent.log)
+- Exact six-dimensional perturbation certificate (`affine_perturbation_certificate.json`)
+- Independent exact endpoint verifier (`verify_independent.py`)
+- Verification transcript (`verify_independent.log`)
 
 The verifier ends with
 
@@ -259,8 +259,8 @@ class=2,1,1 centroid=0 mesh=watertight box=2^-80
 
 The promoted endpoint mesh contains exactly the eight certified vertices and the twelve certified maximal triangular faces. Independent replay obtains 18 mesh edges, each with multiplicity two, and Euler characteristic two. OBJ and STL contain the same triangle set.
 
-- [Watertight OBJ](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/strongest_exact_endpoint_211/body.stl)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 ## 6. Search architecture and honest scope
 
@@ -280,11 +280,11 @@ saddle-diagonal gate.
 
 No robust numerical `(1,1,0)` point passed the complete hull classifier in those recorded searches. These nonhits are empirical and remove no unresolved exact necessary system.
 
-- [Numerical search-scope ledger](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/numerical_search_scope.json)
-- [Inherited broad-search report](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/inherited_global_search_report.json)
-- [Unchanged exact frontier counts](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/inherited_V8_frontier_counts.json)
+- Numerical search-scope ledger (`numerical_search_scope.json`)
+- Inherited broad-search report (`inherited_global_search_report.json`)
+- Unchanged exact frontier counts (`inherited_V8_frontier_counts.json`)
 
-Prior global low-vertex work likewise reported all fourteen simplicial graph types, differentiable fixed-cell searches, topology-free searches, controlled splits, and nonsimplicial cube/prismatoid scans without an exact target; its nonhits were explicitly numerical rather than exclusions. :contentReference[oaicite:2]{index=2}
+Prior global low-vertex work likewise reported all fourteen simplicial graph types, differentiable fixed-cell searches, topology-free searches, controlled splits, and nonsimplicial cube/prismatoid scans without an exact target; its nonhits were explicitly numerical rather than exclusions.
 
 ## 7. Rigorous conclusions and nonclaims
 
@@ -364,9 +364,9 @@ so a nonzero four-point circuit cannot become coplanar inside the affine chamber
 
 A targeted eight-parameter family—two coplanar shape controls plus six affine controls—was searched with 32 global differential-evolution runs. It produced no numerical winner, but that is not an exact exclusion.
 
-- [Exact next-incidence specification](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/first_uncovered_quadrilateral_gate.json)
-- [Coplanar-gate search report](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/quadrilateral_gate_search_report.json)
-- [Reproducible search implementation](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/search_quad_gate.py)
+- Exact next-incidence specification (`first_uncovered_quadrilateral_gate.json`)
+- Coplanar-gate search report (`quadrilateral_gate_search_report.json`)
+- Reproducible search implementation (`search_quad_gate.py`)
 
 ### Required continuation
 
@@ -382,13 +382,13 @@ The complete replay executes:
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-- [Complete exact package](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER.zip)
-- [Archive SHA-256](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER.zip.sha256)
-- [Full research handoff](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/RESEARCH_HANDOFF.md)
-- [Run all exact verifiers](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/RUN_ALL.sh)
-- [Current replay transcript](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/CURRENT_SESSION_REVERIFY.log)
-- [Package manifest](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/manifest.json)
-- [SHA-256 manifest](sandbox:/mnt/data/Keen_Quartz_89_global_V8_exact_atlas_NONWINNER/SHA256SUMS.txt)
+- Complete exact package (`Keen_Quartz_89_global_V8_exact_atlas_NONWINNER.zip`)
+- Archive SHA-256 (`Keen_Quartz_89_global_V8_exact_atlas_NONWINNER.zip.sha256`)
+- Full research handoff (`RESEARCH_HANDOFF.md`)
+- Run all exact verifiers (`RUN_ALL.sh`)
+- Current replay transcript (`CURRENT_SESSION_REVERIFY.log`)
+- Package manifest (`manifest.json`)
+- SHA-256 manifest (`SHA256SUMS.txt`)
 
 ## Bottom line
 

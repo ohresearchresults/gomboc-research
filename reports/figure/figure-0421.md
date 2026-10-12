@@ -16,7 +16,7 @@ All new exact claims below were reconstructed in a fresh source-only directory. 
 
 The literal parents are `figure-0414`, SHA-256 `6837898e4ebf09d5d8228ac8e1de77cc6eff6a2921842bd07360200d99148e00`, and `figure-0419`, SHA-256 `51279e4c288187ef00ba5a828f7d83998e750a9a800e1c6351ad36404b02e0aa`. The latter’s previously expected midpoint markers are now replaced by actual execution results, not retrospectively treated as previously observed results.
 
-The unchanged geometric input is the complete 53-point/grid10000 C306 table with its 102 oriented triangles: `farthest_merged_G10000.json`, 2051 bytes, SHA-256 `89599e0825f7075c151639b70d9db5959fcdc058c0be555d1a96d8598ccdea3e`. Its literal rows, rather than any C318 alias, define the starting solid. :contentReference[oaicite:0]{index=0}
+The unchanged geometric input is the complete 53-point/grid10000 C306 table with its 102 oriented triangles: `farthest_merged_G10000.json`, 2051 bytes, SHA-256 `89599e0825f7075c151639b70d9db5959fcdc058c0be555d1a96d8598ccdea3e`. Its literal rows, rather than any C318 alias, define the starting solid.
 
 The updated 1546-line journal and the required literal parent payloads were available in full. No additional research archive or connector was used. The old continuation’s unavailable optimizer receipts remain unavailable; the finite campaigns reported here are fresh, separately preserved executions.
 
@@ -301,7 +301,7 @@ Principal exact output identities:
 
 The normalized base64 below has33852 characters, SHA-256 `f630ee7ecfd8cf62a3e10d88f1e1446c335332ed009def1c28e267a8e5fb658e`; its XZ has25388bytes, SHA-256 `52b6ebadca2404ab5bf62f5a98c87ccc934391f299553e4953ac182ffb97a722`; decoded JSON has91383bytes, SHA-256 `8023d29ace62bd789be58fe5920376b18f8e52185f3cb6f38c232884799d2e3f`. Each restored file is separately checked.
 
-Supplemental [executed source, exact outputs and finite-search receipts](sandbox:/mnt/data/QR11_SIGNED_CONSTRUCTION_AND_TWO_U_PROOF.zip):1314374bytes, SHA-256 `7caa754e2bb8874cd09f922ca7a054a161f1d528424b2a7d977a650023ee8b73`. The archive is optional; the complete recovery closure follows.
+Supplemental executed source, exact outputs and finite-search receipts (`QR11_SIGNED_CONSTRUCTION_AND_TWO_U_PROOF.zip`):1314374bytes, SHA-256 `7caa754e2bb8874cd09f922ca7a054a161f1d528424b2a7d977a650023ee8b73`. The archive is optional; the complete recovery closure follows.
 
 ```python
 # Complete self-contained source/input recovery for QR11 signed continuation.

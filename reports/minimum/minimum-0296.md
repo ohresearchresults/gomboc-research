@@ -55,7 +55,7 @@ I read the complete new journal, lines 1–1711 through EOF, including the compl
 
 Earlier unchanged context was retained. The previously supplied 11970-byte `positive_shell.py` was read completely before reusing its exact geometry utilities. The new audit below is standalone: it imports no parent module and needs none of the older numerical pencil/beta packages. Those unprovided packages were not replayed. No necessary unread dependency remains for the new result.
 
-The accepted parent's shell, actual-centroid convention, complete weight-boundary treatment and unresolved larger scale are the antecedent, not a substitute for the new proof. Its three encoded DATA corrections remain part of its historical recovery; the new readable source needs **no patches**. fileciteturn6file0L19-L38
+The accepted parent's shell, actual-centroid convention, complete weight-boundary treatment and unresolved larger scale are the antecedent, not a substitute for the new proof. Its three encoded DATA corrections remain part of its historical recovery; the new readable source needs **no patches**.
 
 ## 3. Actual geometry, fresh uniform moments and true weight boundaries
 
@@ -70,7 +70,7 @@ S=(-s,sum_j u_j(B_j)_y,sum_j u_j(B_j)_z)/d_s,
 Delta=s-sum_j u_j p_j.
 ```
 
-The actual body is their convex hull. Theorems A and B have `s>max p_j`, hence `Delta>0` for every allowed weight and maximal positive-denominator interval exactly `(-1/s,1+1/Q)`. These are the parent's actual coordinates. fileciteturn7file0L17-L31
+The actual body is their convex hull. Theorems A and B have `s>max p_j`, hence `Delta>0` for every allowed weight and maximal positive-denominator interval exactly `(-1/s,1+1/Q)`. These are the parent's actual coordinates.
 
 For positive weights the outward maximal cycles and genuine edges are
 
@@ -82,7 +82,7 @@ F6=(3,5,9)        F7=(4,9,5)    F8=(6,7,8)
 02,03,06,12,14,17,25,28,34,35,39,45,49,59,67,68,78.
 ```
 
-These are true mechanical features, not integration diagonals. At `a=0`, the left part is the prismatoid between the transverse triangle and the affine graph `x=-sum p_j lambda_j`; the right vertices lie on the three segments from B_j towards `(1,0,0)`. The stack point lies beyond the left triangular cut and within its side halfspaces. The positive projectivity `X/(1-a X_x)` gives precisely the displayed general-a hull. This establishes geometry only; every resulting hull is refilled uniformly. fileciteturn7file0L33-L43
+These are true mechanical features, not integration diagonals. At `a=0`, the left part is the prismatoid between the transverse triangle and the affine graph `x=-sum p_j lambda_j`; the right vertices lie on the three segments from B_j towards `(1,0,0)`. The stack point lies beyond the left triangular cut and within its side halfspaces. The positive projectivity `X/(1-a X_x)` gives precisely the displayed general-a hull. This establishes geometry only; every resulting hull is refilled uniformly.
 
 Its seven actual positive tetrahedra have the following six-volumes:
 
@@ -106,7 +106,7 @@ E[XX^T]=sum_t w_t(C_t C_t^T+J_t)/(20D),
 Sigma_a=E[XX^T]-g_a g_a^T.
 ```
 
-They are recomputed after every shape/projective change. fileciteturn7file0L45-L64
+They are recomputed after every shape/projective change.
 
 The actual weight-boundary changes remain explicit:
 
@@ -116,7 +116,7 @@ u1=0: merge F1/F6, delete L0--L2;
 u2=0: merge F0/F5, delete L0--L1.
 ```
 
-Exactly one zero weight gives **10/16/8**, with a pentagonal merger in the first two cases and a heptagonal merger in the third. At `u_j=1`, two mergers occur, L_j lies strictly between B_j and S and is removed as a redundant label, giving **9/14/7**. The proof uses the resulting true vertices and edges; it does not apply a nine-vertex exclusion to a ten-vertex facet-merging edge of the weight triangle. fileciteturn7file0L68-L78
+Exactly one zero weight gives **10/16/8**, with a pentagonal merger in the first two cases and a heptagonal merger in the third. At `u_j=1`, two mergers occur, L_j lies strictly between B_j and S and is removed as a redundant label, giving **9/14/7**. The proof uses the resulting true vertices and edges; it does not apply a nine-vertex exclusion to a ten-vertex facet-merging edge of the weight triangle.
 
 ## 4. New four-section alternative on a regular tetrahedron
 
@@ -332,7 +332,7 @@ lambda_S(L_j)=d_s A_j/(H d_j),
 lambda_Ri(L_j)=(e_i/d_j)[delta_ij+p_j o_i-v_i A_j/H].
 ```
 
-The R and S rows are unit rows. Every row reconstructs its literal vertex and sums to one; its S-coordinate is nonnegative. Also `6Vol(T_a^R)=H/(d_s e0 e1 e2)>0`. These inherited identities are used without changing their comparison tetrahedron. fileciteturn8file0L48-L83
+The R and S rows are unit rows. Every row reconstructs its literal vertex and sums to one; its S-coordinate is nonnegative. Also `6Vol(T_a^R)=H/(d_s e0 e1 e2)>0`. These inherited identities are used without changing their comparison tetrahedron.
 
 Let eta(a) be the largest negative part of all these barycentric coordinates. The bracket signs are independent of a, and
 
@@ -341,7 +341,7 @@ e_i'=-q_i,
 (e_i/d_j)'=-(q_i+p_j+p_j q_i)/d_j^2 <0.
 ```
 
-Thus eta is nonincreasing on the admissible pencil. This transports **inclusion only**; all uniform centres and physical arrows remain those of the newly refilled body. fileciteturn8file0L85-L100
+Thus eta is nonincreasing on the admissible pencil. This transports **inclusion only**; all uniform centres and physical arrows remain those of the newly refilled body.
 
 Map the four comparison vertices affinely to z0,z1,z2,z3. Since their sum is zero, coordinates bounded below by `-eta` imply
 
@@ -875,6 +875,6 @@ A failed shell estimate or failed finite multiplier search is not a feasible com
 
 The most useful continuation is to exploit the centre-aware gap before its uniform estimate, or choose a geometry-adaptive contained simplex and section family for the remaining larger cuts. The exact `1/4` four-section obstruction explains why simply raising that particular constant without changing the sections cannot finish the next enlargement.
 
-No whole cut-stack incidence, E17 type or canonical root registry count is subtracted. The global working bracket remains **34 <= C_min <= 622**, and all thirteen new controls are nonattainers. fileciteturn0file0L9-L11
+No whole cut-stack incidence, E17 type or canonical root registry count is subtracted. The global working bracket remains **34 <= C_min <= 622**, and all thirteen new controls are nonattainers.
 
-Convenience files, not recovery dependencies: [exact acceptance source](sandbox:/mnt/data/shell2/large_shell.py), [discovery source](sandbox:/mnt/data/shell2/fourcuts.py), [complete exact report](sandbox:/mnt/data/shell2/large_shell_report.json), [complete Markdown handoff](sandbox:/mnt/data/shell2/result_markdown.md).
+Convenience files, not recovery dependencies: exact acceptance source (`large_shell.py`), discovery source (`fourcuts.py`), complete exact report (`large_shell_report.json`), complete Markdown handoff (`result_markdown.md`).

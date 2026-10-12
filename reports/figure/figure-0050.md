@@ -8,7 +8,7 @@ AI research report · 2026-08-24 UTC
 
 ## Вердикт
 
-В этом направлении **не найден строгий однородный полиэдральный гёмбёц**. Ни один полученный объект не прошёл обязательный критерий собственного объёмного центроида и открытого класса `(S,U,H)=(1,1,0)`. Поэтому я не продвигаю near-candidate как решение: это прямо запрещено исходным acceptance gate. :contentReference[oaicite:5]{index=5}
+В этом направлении **не найден строгий однородный полиэдральный гёмбёц**. Ни один полученный объект не прошёл обязательный критерий собственного объёмного центроида и открытого класса `(S,U,H)=(1,1,0)`. Поэтому я не продвигаю near-candidate как решение: это прямо запрещено исходным acceptance gate.
 
 Тем не менее прямой поиск дал существенно более близкую, полностью материализованную 45-вершинную архитектуру, исправил ошибку в прежней постановке saddle-ограничений и выявил конкретный топологический блок, который теперь отделяет кандидата от решения.
 
@@ -16,8 +16,8 @@ AI research report · 2026-08-24 UTC
 
 Канонический файл с полным массивом координат:
 
-- [ULP6_GUARD.npz](sandbox:/mnt/data/gomboc_work/ULP6_GUARD.npz)
-- независимый полный классификатор: [reconstruct.py](sandbox:/mnt/data/gomboc_work/reconstruct.py)
+- ULP6_GUARD.npz
+- независимый полный классификатор: reconstruct.py
 
 Результат повторного вычисления относительно **собственного равномерного объёмного центроида**:
 
@@ -57,8 +57,8 @@ AI research report · 2026-08-24 UTC
 
 Файл:
 
-- [ULP_G1.npz](sandbox:/mnt/data/gomboc_work/ULP_G1.npz)
-- [ULP_G1.log](sandbox:/mnt/data/gomboc_work/ULP_G1.log)
+- ULP_G1.npz
+- ULP_G1.log
 
 Показатели:
 
@@ -79,7 +79,7 @@ AI research report · 2026-08-24 UTC
 
 В прежнем active-set оптимизаторе коэффициенты нормального конуса ребра вычислялись относительно необработанных cross-product normals. Их длины зависят от площади грани, поэтому знак оставался осмысленным, но численный margin и max-min баланс искажались произвольным масштабом соседних граней.
 
-В [vertex_suh_active.py](sandbox:/mnt/data/gomboc_work/vertex_suh_active.py) обе incident normals теперь сначала нормируются:
+В vertex_suh_active.py обе incident normals теперь сначала нормируются:
 
 ```python
 nu = n / (nl[:, None] + 1e-30)
@@ -91,7 +91,7 @@ n2 = nu[ef[:, 1]]
 
 ### 2. Fixed-topology SCP заменён на topology-changing LP continuation
 
-Обычный sequential convex programming с hull-guard inequalities остановился на стенах перестройки. Новый алгоритм [unguarded_lp_search.py](sandbox:/mnt/data/gomboc_work/unguarded_lp_search.py):
+Обычный sequential convex programming с hull-guard inequalities остановился на стенах перестройки. Новый алгоритм unguarded_lp_search.py:
 
 1. вычисляет истинный объёмный центроид;
 2. строит текущий полный convex hull;
@@ -104,8 +104,8 @@ n2 = nu[ef[:, 1]]
 Последовательность checkpoints:
 
 - исходная 45-вершинная архитектура: `q=-0.0024111078465`, `(3,2,3)`;
-- fixed-topology continuation: [SCP_CONT4.npz](sandbox:/mnt/data/gomboc_work/SCP_CONT4.npz), `q=-1.0733e-4`;
-- CMA around active blocks: [CMA_ALLACTIVE2.npz](sandbox:/mnt/data/gomboc_work/CMA_ALLACTIVE2.npz), `q=-4.1036e-5`;
+- fixed-topology continuation: SCP_CONT4.npz, `q=-1.0733e-4`;
+- CMA around active blocks: CMA_ALLACTIVE2.npz, `q=-4.1036e-5`;
 - unguarded topology-changing LP: `-1.2803e-5`, `-7.7603e-6`, `-5.9901e-6`, `-5.2686e-6`, затем примерно `-5.196e-6`;
 - guarded open checkpoint: `q≈-5.88012e-6`;
 - узкий лучший checkpoint: `q=-5.109245886e-6`.
@@ -125,14 +125,14 @@ n2 = nu[ef[:, 1]]
 
 Некоторые переходы действительно уничтожали две stable-saddle пары и давали класс `(2,2,2)`. Пример:
 
-- [branch_00_r4_e3e-05_m3.npz](sandbox:/mnt/data/gomboc_work/cross_branches/branch_00_r4_e3e-05_m3.npz), первоначально `q≈-0.01795`;
-- после продолжения [BR0_ULP4.npz](sandbox:/mnt/data/gomboc_work/BR0_ULP4.npz), `q≈-0.001042`, класс `(2,2,2)`.
+- branch_00_r4_e3e-05_m3.npz, первоначально `q≈-0.01795`;
+- после продолжения BR0_ULP4.npz, `q≈-0.001042`, класс `(2,2,2)`.
 
 Однако новые saddle margins на этих ветвях оказались на три порядка крупнее дефектов основной ветви. Поэтому переход является доказанно реальным, но пока не полезным endpoint.
 
 ## Пересчёт центроида и равновесий
 
-[reconstruct.py](sandbox:/mnt/data/gomboc_work/reconstruct.py) использует объёмную тетраэдрализацию. Для внутренней опорной точки `r` и ориентированных треугольников поверхности `(a,b,d)` вычисляются
+reconstruct.py использует объёмную тетраэдрализацию. Для внутренней опорной точки `r` и ориентированных треугольников поверхности `(a,b,d)` вычисляются
 
 `V_T = |det(a-r,b-r,d-r)|/6`,
 
@@ -230,4 +230,4 @@ mesh.export('ULP6_GUARD_centered.stl')
 3. Параллельно пересечь одним согласованным шагом четыре apex walls `[36,37,44]/35`, `[8,35,44]/36`, `[11,3,44]/2`, `[2,1,44]/3`. По отдельности они переносят saddle; совместный шаг должен заменить полный четырёхреберный saddle basin.
 4. При первом checkpoint с `q>1e-4` округлить координаты к рациональным числам, заново построить face lattice и запустить interval audit объёма, центроида и всех margins до экспорта окончательных OBJ/STL.
 
-Итог направления: получен небольшой, полностью координатный, topology-changing live candidate с дефектом около пяти миллионных и точно локализованным basin, но требуемый железный объект пока не создан. Предыдущий общий отчёт также не продвигал ни одного кандидата без результата `verified=true, S=1, U=1, H=0`. :contentReference[oaicite:6]{index=6}
+Итог направления: получен небольшой, полностью координатный, topology-changing live candidate с дефектом около пяти миллионных и точно локализованным basin, но требуемый железный объект пока не создан. Предыдущий общий отчёт также не продвигал ни одного кандидата без результата `verified=true, S=1, U=1, H=0`.

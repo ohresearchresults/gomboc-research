@@ -8,7 +8,7 @@ AI research report · 2026-08-25 UTC
 
 ## Verdict
 
-No own-centroid strict `(S,U,H)=(1,1,0)` polyhedron was found. The run therefore does not meet the materialized-object acceptance gate. :contentReference[oaicite:0]{index=0} The materialized endpoint that preserves the mechanically distinguished origin is still `(15,21,34)` at its own uniform-volume centroid. The two endpoints with the largest moment displacement are post-wall `(3,1,2)` and `(2,1,1)` bodies, not Gömböcs. No rationalization or winner claim is warranted.
+No own-centroid strict `(S,U,H)=(1,1,0)` polyhedron was found. The run therefore does not meet the materialized-object acceptance gate. The materialized endpoint that preserves the mechanically distinguished origin is still `(15,21,34)` at its own uniform-volume centroid. The two endpoints with the largest moment displacement are post-wall `(3,1,2)` and `(2,1,1)` bodies, not Gömböcs. No rationalization or winner claim is warranted.
 
 The run nevertheless completed the requested simultaneous replacement experiment: the entire old active chain was removed at once; five polar rows were introduced with independent radial/transverse search freedom; obsolete old rows were permitted to become redundant and were deleted; every accepted topology was rebuilt by exhaustive H-plane triple enumeration; and all maximal faces, vertices, and true edges were audited at both the distinguished origin and the recomputed own volume centroid.
 
@@ -29,7 +29,7 @@ Its equality threshold is `2e-10`. Every reported inactive slack exceeds that th
 
 ## Baseline P60 independently re-audited
 
-The inherited body `P60` was the journal frontier: a robust origin-relative body whose next prescribed operation was this simultaneous chain replacement. :contentReference[oaicite:1]{index=1}
+The inherited body `P60` was the journal frontier: a robust origin-relative body whose next prescribed operation was this simultaneous chain replacement.
 
 It re-audits as:
 
@@ -276,14 +276,14 @@ The ZIP bundle contains the complete H/V data, maximal-face cycles, true-edge li
 
 ## Artifact index
 
-- [Complete handoff ZIP](sandbox:/mnt/data/conway_multibulge_handoff.zip) — all 57 files, including source seeds, H/V data, full incidence, feature scores, verifiers, logs, OBJ/STL, and SHA-256 manifest.
-- [ZIP SHA-256](sandbox:/mnt/data/conway_multibulge_handoff.zip.sha256) — `66cae879451bb59662f7794f61c8e45acbf7d89f597fc5ae37ebba8c9d2e55c6`.
-- [Standalone report](sandbox:/mnt/data/conway_multibulge_report.md).
-- Robust strict-reference endpoint: [NPZ](sandbox:/mnt/data/conway_5rail_strict_t0256.npz), [H matrix](sandbox:/mnt/data/conway_5rail_strict_t0256_H.txt), [V matrix](sandbox:/mnt/data/conway_5rail_strict_t0256_V.txt), [complete incidence and scores](sandbox:/mnt/data/conway_5rail_strict_t0256_incidence.json), [OBJ](sandbox:/mnt/data/conway_5rail_strict_t0256.obj), [STL](sandbox:/mnt/data/conway_5rail_strict_t0256.stl).
-- Moment-efficient wall endpoint: [NPZ](sandbox:/mnt/data/conway_5bulge_wall_t1.npz), [H matrix](sandbox:/mnt/data/conway_5bulge_wall_t1_H.txt), [complete incidence](sandbox:/mnt/data/conway_5bulge_wall_t1_incidence.json), [OBJ](sandbox:/mnt/data/conway_5bulge_wall_t1.obj), [STL](sandbox:/mnt/data/conway_5bulge_wall_t1.stl).
-- Clean `(2,1,1)` pair endpoint: [NPZ](sandbox:/mnt/data/conway_5bulge_pair_t1.npz), [H matrix](sandbox:/mnt/data/conway_5bulge_pair_t1_H.txt), [complete incidence](sandbox:/mnt/data/conway_5bulge_pair_t1_incidence.json), [OBJ](sandbox:/mnt/data/conway_5bulge_pair_t1.obj), [STL](sandbox:/mnt/data/conway_5bulge_pair_t1.stl).
-- Verification: [independent exhaustive H verifier](sandbox:/mnt/data/independent_h_verifier.py), [two-route verification driver](sandbox:/mnt/data/verify_conway_multibulge.py), [verification log](sandbox:/mnt/data/verify_conway_multibulge.log), [80-digit verifier](sandbox:/mnt/data/mp_verify_multibulge.py), [80-digit audit JSON](sandbox:/mnt/data/conway_multibulge_mp80.json).
-- Transition evidence: [wall roots and witness-chain bounds](sandbox:/mnt/data/conway_multibulge_walls.json), [sampled circuit crossings](sandbox:/mnt/data/conway_multibulge_circuit_crossings.json), [15-DOF reusable search parameterization](sandbox:/mnt/data/multibulge_search.py).
+- Complete handoff ZIP (`conway_multibulge_handoff.zip`) — all 57 files, including source seeds, H/V data, full incidence, feature scores, verifiers, logs, OBJ/STL, and SHA-256 manifest.
+- ZIP SHA-256 (`conway_multibulge_handoff.zip.sha256`) — `66cae879451bb59662f7794f61c8e45acbf7d89f597fc5ae37ebba8c9d2e55c6`.
+- Standalone report (`conway_multibulge_report.md`).
+- Robust strict-reference endpoint: NPZ (`conway_5rail_strict_t0256.npz`), H matrix (`conway_5rail_strict_t0256_H.txt`), V matrix (`conway_5rail_strict_t0256_V.txt`), complete incidence and scores (`conway_5rail_strict_t0256_incidence.json`), OBJ (`conway_5rail_strict_t0256.obj`), STL (`conway_5rail_strict_t0256.stl`).
+- Moment-efficient wall endpoint: NPZ (`conway_5bulge_wall_t1.npz`), H matrix (`conway_5bulge_wall_t1_H.txt`), complete incidence (`conway_5bulge_wall_t1_incidence.json`), OBJ (`conway_5bulge_wall_t1.obj`), STL (`conway_5bulge_wall_t1.stl`).
+- Clean `(2,1,1)` pair endpoint: NPZ (`conway_5bulge_pair_t1.npz`), H matrix (`conway_5bulge_pair_t1_H.txt`), complete incidence (`conway_5bulge_pair_t1_incidence.json`), OBJ (`conway_5bulge_pair_t1.obj`), STL (`conway_5bulge_pair_t1.stl`).
+- Verification: independent exhaustive H verifier (`independent_h_verifier.py`), two-route verification driver (`verify_conway_multibulge.py`), verification log (`verify_conway_multibulge.log`), 80-digit verifier (`mp_verify_multibulge.py`), 80-digit audit JSON (`conway_multibulge_mp80.json`).
+- Transition evidence: wall roots and witness-chain bounds (`conway_multibulge_walls.json`), sampled circuit crossings (`conway_multibulge_circuit_crossings.json`), 15-DOF reusable search parameterization (`multibulge_search.py`).
 
 ## Change relative to the supplied journal
 

@@ -8,7 +8,7 @@ AI research report · 2026-09-23 UTC · [Export notes](../../catalog/coverage.md
 
 ## Result
 
-**No strict110/additionalweak000 body was found. A new, genuinely nonaffine MASS descendant was constructed and exactly audited:** `CH95_MASS_RECON71_G6`, with **V71/E206/F137, C412, own strict312, additionalweak000 and primitivezero000**. Its physical landscape has no positive bars; its polar landscape has exactly two. The incoming literal MASS body had V75/E218/F145 and strict25/1/24, with 24 positive Q bars, not the class or facet labels of S3_PROJECT73. The literal input and auditor were used directly. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+**No strict110/additionalweak000 body was found. A new, genuinely nonaffine MASS descendant was constructed and exactly audited:** `CH95_MASS_RECON71_G6`, with **V71/E206/F137, C412, own strict312, additionalweak000 and primitivezero000**. Its physical landscape has no positive bars; its polar landscape has exactly two. The incoming literal MASS body had V75/E218/F145 and strict25/1/24, with 24 positive Q bars, not the class or facet labels of S3_PROJECT73. The literal input and auditor were used directly.
 
 This is a **root-count and true-complexity improvement**, not stable-basin annihilation: 22 of the 24 positive Q features disappear, while the two surviving features become deeper. The new body retains r/R approximately 0.47333, close to MASS's 0.47905 and very different from the old S3 geometry. The G6 minimum selected positive TRUE-edge cosine is about 9.66748e-5, approximately twelve times the incoming MASS margin. Actual volume and centroid were rebuilt after every finite shape change; no reference-centre substitution was used.
 
@@ -75,7 +75,7 @@ For symmetric H with operator norm at most delta, `|x^T H d| <= delta |x||d| < s
 
 The verified radii are **delta=1/32768 for G5** and **delta=1/16384 for G6, G8 and BASE_TARGET_G6**. The same checker verifies 1/131072 for the literal parent as a comparison. Every exact positive slack is regenerated in `CH95_HANDOFF_REPORT.json`. No claim is made that these balls preserve S or exclude a remote S1 affine chamber.
 
-The new G5/G6/G8 and BASE_TARGET_G6 have **zero retained-halfspace mass-floor blockers**, tested at their own new bottom heights and unchanged top height. The parent theorem and its scope are inherited, not newly invented here. :contentReference[oaicite:2]{index=2} The zero count is only a necessary-screen result. In particular, G6 still has BASE-distance/inradius approximately **1.167440541006**, so BASE is not the uniquely nearest support.
+The new G5/G6/G8 and BASE_TARGET_G6 have **zero retained-halfspace mass-floor blockers**, tested at their own new bottom heights and unchanged top height. The parent theorem and its scope are inherited, not newly invented here. The zero count is only a necessary-screen result. In particular, G6 still has BASE-distance/inradius approximately **1.167440541006**, so BASE is not the uniquely nearest support.
 
 ## Numerical construction and finite failures
 
@@ -122,7 +122,7 @@ There is a transport-identity discrepancy that I cannot resolve from the supplie
 
 The full old affine proof and old numerical-producer materials mentioned by ID are not supplied. They were not reconstructed or newly verified. No new result here depends on their missing bytes: the new exact capsule contains the literal MASS input and the standalone auditor. The old affine conclusion is inherited context only; it is not transferred to the changed71-vertex body.
 
-Exact acceptance uses exhaustive supporting triples, maximal polygonal faces and true two-owner edges, two-origin filled-volume integration, direct facet-foot/polar agreement, full mixed edge-cone and segment tests, additionalweak distinct from primitive zeros, and simultaneous equal-level complete P/Q forests. These are the inherited full audit and new exact certificate checks, **not two independently written full mechanical auditors**. Cube, tetrahedron and weak-prism controls passed. :contentReference[oaicite:3]{index=3} Two cold executions regenerated all13 exact receipts; repeated execution is not independent mathematics.
+Exact acceptance uses exhaustive supporting triples, maximal polygonal faces and true two-owner edges, two-origin filled-volume integration, direct facet-foot/polar agreement, full mixed edge-cone and segment tests, additionalweak distinct from primitive zeros, and simultaneous equal-level complete P/Q forests. These are the inherited full audit and new exact certificate checks, **not two independently written full mechanical auditors**. Cube, tetrahedron and weak-prism controls passed. Two cold executions regenerated all13 exact receipts; repeated execution is not independent mathematics.
 
 ## Recovery and continuation
 
@@ -161,7 +161,7 @@ The complete13-receipt manifest, not just this table, is inside the capsule. Obs
 
 **Most useful continuation:** use G6's thicker S3/U1 geometry and its actual true-edge reserve as the new nonaffine entrance. Jointly move the top-star source carriers `{10,34,45,69}`, the current saddle-interface carriers `{3,20,38,55}`, and BASE parameters, while judging the complete34/36 and25/20 Q packages at the new filled centroid. These labels belong only to this new input. They are a suggested coupled block, not a proved sufficient operation or restriction of the search space. Allow temporary roots and incidence changes. Inactive source rows are deliberately retained for possible reactivation. The successful quota-three repair is a reconsolidation tool; repeating its near-zero loss cannot by itself produce S1. A successful continuation must turn BASE into the actual sole stable root, not merely remove the remaining small local deficits.
 
-Supplementary copies, not the sole recovery data: [complete archive including all captured per-iteration ledgers](sandbox:/mnt/data/ch95/CH95_COMPLETE_SUPPLEMENT.zip), [decoder](sandbox:/mnt/data/ch95/RECOVER_CH95.py), [full exact handoff report](sandbox:/mnt/data/ch95/CH95_HANDOFF_REPORT.json).
+Supplementary copies, not the sole recovery data: complete archive including all captured per-iteration ledgers (`CH95_COMPLETE_SUPPLEMENT.zip`), decoder (`RECOVER_CH95.py`), full exact handoff report (`CH95_HANDOFF_REPORT.json`).
 
 ### Complete self-contained recovery source
 

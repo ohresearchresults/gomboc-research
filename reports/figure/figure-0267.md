@@ -10,18 +10,18 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACT NONWINNER.** I materialized the requested nonserial physical D–F gate around the parent route `70→69→71`. The gate destroys every unwanted carrier of the exact coupled `D′+E10+F5` parent, preserves the strict negative D exit and the intended `D045/D048` descendants, and has two independent physical gate-incidence coordinates. The promoted homogeneous Minkowski sum nevertheless has strict own-centroid class `(S,U,H)=(2,2,2)`, not `(1,1,0)`.
 
-The immutable parent is `figure-0259`, SHA-256 `3b1af6e6c088803bc2370adb7221175071dd6b84b776d50a97091afc853e0527`. Its literal payload and the reconstructed parent files agree. The journal records the parent common fan `(168,337,171)`, packet `S150/U70/H5/H277`, and exact nonforcing route `70→69→71` as the required next physical topology. :contentReference[oaicite:0]{index=0} The run-wide gate remains a finite uniform-density body at its own exact ordinary-volume centroid with strict `(1,1,0)`, complete H/V/E mechanics, independent verification and matching meshes. :contentReference[oaicite:1]{index=1}
+The immutable parent is `figure-0259`, SHA-256 `3b1af6e6c088803bc2370adb7221175071dd6b84b776d50a97091afc853e0527`. Its literal payload and the reconstructed parent files agree. The journal records the parent common fan `(168,337,171)`, packet `S150/U70/H5/H277`, and exact nonforcing route `70→69→71` as the required next physical topology. The run-wide gate remains a finite uniform-density body at its own exact ordinary-volume centroid with strict `(1,1,0)`, complete H/V/E mechanics, independent verification and matching meshes.
 
 ## Artifacts
 
-- [Exact 31 MB replay bundle](sandbox:/mnt/data/Calm_Raven_06_closedDFgateF7_exact_NONWINNER.zip)
-- [Archive SHA-256](sandbox:/mnt/data/Calm_Raven_06_closedDFgateF7_exact_NONWINNER.zip.sha256)
-- [Full report](sandbox:/mnt/data/Calm_Raven_06_closedDFgateF7_exact_NONWINNER/RESULT.md)
-- [Master exact certificate](sandbox:/mnt/data/Calm_Raven_06_closedDFgateF7_exact_NONWINNER/closedDFgateF7_master_certificate.json)
-- [Independent clean-room receipt](sandbox:/mnt/data/Calm_Raven_06_closedDFgateF7_exact_NONWINNER/independent_closedDFgateF7_verification.json)
-- [Independent full-GMP receipt](sandbox:/mnt/data/Calm_Raven_06_closedDFgateF7_exact_NONWINNER/independent_closedDFgateF7_full_gmp_verification.json)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Raven_06_closedDFgateF7_exact_NONWINNER/endpoint/endpoint_centered.obj) and [STL](sandbox:/mnt/data/Calm_Raven_06_closedDFgateF7_exact_NONWINNER/endpoint/endpoint_centered.stl)
-- [Pristine extracted-archive replay](sandbox:/mnt/data/closedDFgateF7_zip_pristine_replay.log)
+- Exact 31 MB replay bundle (`Calm_Raven_06_closedDFgateF7_exact_NONWINNER.zip`)
+- Archive SHA-256 (`Calm_Raven_06_closedDFgateF7_exact_NONWINNER.zip.sha256`)
+- Full report (`RESULT.md`)
+- Master exact certificate (`closedDFgateF7_master_certificate.json`)
+- Independent clean-room receipt (`independent_closedDFgateF7_verification.json`)
+- Independent full-GMP receipt (`independent_closedDFgateF7_full_gmp_verification.json`)
+- Watertight OBJ (`endpoint_centered.obj`) and STL (`endpoint_centered.stl`)
+- Pristine extracted-archive replay (`closedDFgateF7_zip_pristine_replay.log`)
 
 Archive SHA-256 is `a0efa3e138292070586d8da9954ec0e058ab9ef7e1e0e97304d10511c24a3e66`. A pristine extraction passed all 164 manifest entries and ended with `INDEPENDENT_EXACT_CLOSED_DF_GATE_F7_PASS`, `INDEPENDENT_EXACT_CLOSED_DF_GATE_F7_FULL_GMP_PASS`, `INDEPENDENT_EXACT_DF7_PHYSICAL_CHRONOLOGY_PASS`, and `ALL_EXACT_CLOSED_DF_GATE_F7_VERIFIERS_PASS`.
 

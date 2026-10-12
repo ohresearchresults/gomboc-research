@@ -26,7 +26,7 @@ Consequently the WHOLE continuous sector sigma<=103/100 satisfies T<51/25. There
     eta = max(h kappa,h+d)/min(h kappa,h+d),
     T(P) < Cstar R(eta).
 
-Thus eta<=103/100 is another complete excluded sector. Neither condition is asserted automatic. The value premise is precisely the supplied parent's homothetic-shell theorem, not an extension of that theorem by analogy. The parent explicitly leaves changing section geometry outside its scope. :contentReference[oaicite:0]{index=0}
+Thus eta<=103/100 is another complete excluded sector. Neither condition is asserted automatic. The value premise is precisely the supplied parent's homothetic-shell theorem, not an extension of that theorem by analogy. The parent explicitly leaves changing section geometry outside its scope.
 
 For ALL aspects in the intrinsic chord class, there is a trace-nondecreasing sequence of genuine body operations ending at
 
@@ -57,14 +57,14 @@ with ensure_ascii=False and separators=(',',':') gives exactly 36874 bytes and S
 
     80e36a50ac09768d59f513ea33b5340c3a3bad4d301fc4bc083d7a868a162cd9.
 
-This matches minimum-0147. There is no payload/journal identity conflict. The parent itself distinguishes its accepted analytic theorem from an unexecuted old control receipt; that distinction has not been changed. :contentReference[oaicite:1]{index=1}
+This matches minimum-0147. There is no payload/journal identity conflict. The parent itself distinguishes its accepted analytic theorem from an unexecuted old control receipt; that distinction has not been changed.
 
 The sole inherited value theorem needed here is
 
     Cstar = max_{0<b<1,0<rho<1}
       2(1-b^2)(1-b rho^3)/[(1-b rho^2)(1-b^2 rho^2)] < 203/100,
 
-together with the parent's whole homothetic-shell domination. Its older two-anchor optimizer certificate is not separately attached, and no replay of that unavailable certificate is claimed. This is an explicitly inherited premise. :contentReference[oaicite:2]{index=2}
+together with the parent's whole homothetic-shell domination. Its older two-anchor optimizer certificate is not separately attached, and no replay of that unavailable certificate is claimed. This is an explicitly inherited premise.
 
 The five new exact physical audits below were actually executed twice, in separate directories, with identical report bytes. Their source has no external input or parent-code dependency. The continuous proofs below are analytic; they are not proof-assistant formalizations.
 
@@ -84,7 +84,7 @@ Use the invertible affine coordinates (x,y,w), w=ell. Their inverse is
 
     z=[1+(d-1)x-y-w]/alpha.
 
-Let K be the image of P. Its marked points are (0,0,1), (0,0,b), (0,1,0), and (1,0,d). All integrals refer to the uniform volume of this one body and its inverse affine image, as in the parent. :contentReference[oaicite:3]{index=3}
+Let K be the image of P. Its marked points are (0,0,1), (0,0,b), (0,1,0), and (1,0,d). All integrals refer to the uniform volume of this one body and its inverse affine image, as in the parent.
 
 For each interior height w, suppose K_w has positive outer axis intercepts a_x(w), a_y(w), contains their joining segment, and is contained in
 
@@ -147,7 +147,7 @@ because
 
 Equality requires the missing radial threshold to be constant almost everywhere at that height. This is the actual geometric reason a simultaneous replacement works here.
 
-The underlying covolume convexity belongs to the established coconvex/reversed Brunn-Minkowski framework. The argument above is self-contained; no novelty is claimed for that standalone inequality. The new use here is the synchronized trace replacement with the canonical endpoint checks. :contentReference[oaicite:4]{index=4}
+The underlying covolume convexity belongs to the established coconvex/reversed Brunn-Minkowski framework. The argument above is self-contained; no novelty is claimed for that standalone inequality. The new use here is the synchronized trace replacement with the canonical endpoint checks.
 
 ## 5. A whole value sector, not merely a profile relaxation
 
@@ -234,7 +234,7 @@ Exactly as a direct containment calculation, not a monotonicity claim,
     N_lambda <= N,
     T(K_lambda)<=lambda^(-7)T(P).
 
-The coordinate faces are exactly ABC and ABD because every point in the contracted body has positive x,y. The root remains two-dimensional. These are genuine maximal-face statements. The parent's proper-transfer argument is used with its actual hypotheses, not as a representation theorem for all proper bodies. :contentReference[oaicite:5]{index=5}
+The coordinate faces are exactly ABC and ABD because every point in the contracted body has positive x,y. The root remains two-dimensional. These are genuine maximal-face statements. The parent's proper-transfer argument is used with its actual hypotheses, not as a representation theorem for all proper bodies.
 
 A convenient whole proper family is:
 
@@ -795,10 +795,10 @@ The most useful successor is the exact normal form (NF), not another independent
 
 The value theorem currently closes eta<=103/100 or sigma<=103/100 in the intrinsic chord class, plus the stated proper-resolution family. The all-aspect chord class has the stronger genuine reduction but not yet a full 51/25 value bound.
 
-Outside it remain sections that extend beyond their two axis intercepts, sections that do not meet both axes, and max ell>1 bodies. In particular a general proper one-zero root need not meet the second coordinate axis, so the chord hypothesis cannot be silently transferred to the thirteen-vertex localization. The supplied branch memory itself warns that the thirteen-vertex conclusion concerns attained joint maxima and does not make arbitrary one-zero bodies members of a special section family. :contentReference[oaicite:6]{index=6}
+Outside it remain sections that extend beyond their two axis intercepts, sections that do not meet both axes, and max ell>1 bodies. In particular a general proper one-zero root need not meet the second coordinate axis, so the chord hypothesis cannot be silently transferred to the thirteen-vertex localization. The supplied branch memory itself warns that the thirteen-vertex conclusion concerns attained joint maxima and does not make arbitrary one-zero bodies members of a special section family.
 
 The proper high-trace B-loss control isolates the canonical difficulty for a broader replacement: the common edge has to survive as a nondegenerate axis interval, not merely as a set of zero-area marked points. The translated-rectangle control separately isolates the three-dimensional convexity difficulty. Neither failure is repaired by preserving all height moments alone.
 
 No claim of universal one-zero exclusion, full maxell>A exclusion, E17 census change, new attaining complexity, or proof-assistant certification follows. The exact controls and both useful failures are durable in the embedded source.
 
-Convenience copies, not dependencies: [runnable source](sandbox:/mnt/data/one_zero_new/coconvex_trace.py), [full exact report](sandbox:/mnt/data/one_zero_new/coconvex_trace.json), and [execution receipt](sandbox:/mnt/data/one_zero_new/receipt.txt).
+Convenience copies, not dependencies: runnable source (`coconvex_trace.py`), full exact report (`coconvex_trace.json`), and execution receipt (`receipt.txt`).

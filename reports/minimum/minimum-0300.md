@@ -33,7 +33,7 @@ Immediate literal parent: `[internal-source-reference]-`, SHA-256 `91b7c0b0ce110
 
 The unchanged exact-reduction, clipping, conic-attainment, full convex-height and triangular45/32 evidence from the earlier turns remains available and was not silently replaced. In particular the immediate parent's zero-length opposite-wing chart is NOT treated as every one-arc body. No missing external archive or inaccessible sandbox is needed for the new proof or its recovery.
 
-The imported conic theorem supplies actual strong attainment, the common self-consistent parabola, the restriction that positive-density straight edges meet marked endpoints, and the positive separation of a supercritical parabola from the marked edge. These are analytical inputs, not numerical vertex localization. The new adapted-test theorem is used only where stated in Section7. Neither imported program was assigned a routine replay here. fileciteturn4file4L40-L45 fileciteturn4file4L47-L85 fileciteturn4file0L53-L95
+The imported conic theorem supplies actual strong attainment, the common self-consistent parabola, the restriction that positive-density straight edges meet marked endpoints, and the positive separation of a supercritical parabola from the marked edge. These are analytical inputs, not numerical vertex localization. The new adapted-test theorem is used only where stated in Section7. Neither imported program was assigned a routine replay here.
 
 ## 3. Both complete incident-zero-edge one-arc families
 
@@ -73,7 +73,7 @@ The marked whole facet is P intersect{t=0}, projecting to the ENTIRE edge -1≤r
 
 **Actual convexity.** F is convex: its slopes are0, k, and k+j+2(r-u). It is nonnegative, F(-1)=0 and F(v)=H, so the chord U dominates F throughout. For ell_U, nonnegativity is exactly t≤U. For ell_L, the core satisfies t≥0≥k(r-1), the stem has equality, and the arc has t-k(r-1)≥j(r-u)+(r-u)²≥0. The lift is convex because its defining upper/lower height constraints are affine over convex K. Its moments below are uniform-volume moments, not vertex masses.
 
-**Why these are the complete incident-zero-edge alternatives.** At a one-arc supercritical conic maximum, orient the arc to the right of the marked-test interval. The lower connector joins(0,1) to the near arc end and the upper return joins the far arc end to(0,-1). If the zero edge meets a marked endpoint, it is one of these connectors. An additional off-mark corner would require a further nonzero-density straight edge with neither endpoint on the marked edge, forbidden by the imported boundary theorem; subdividing the zero line does not create another edge. The nonnegative affine density is therefore proportional either to U-t or to t-k(r-1). Normalize the quadratic coefficient by a positive t scaling and normalize the marked interval to[-1,1]. Convexity gives exactly j≥0. Thus the above is a genuine exhaustive chart for this mechanism, not an assumption that an unrelated corner lies on the parabola. fileciteturn4file4L55-L75
+**Why these are the complete incident-zero-edge alternatives.** At a one-arc supercritical conic maximum, orient the arc to the right of the marked-test interval. The lower connector joins(0,1) to the near arc end and the upper return joins the far arc end to(0,-1). If the zero edge meets a marked endpoint, it is one of these connectors. An additional off-mark corner would require a further nonzero-density straight edge with neither endpoint on the marked edge, forbidden by the imported boundary theorem; subdividing the zero line does not create another edge. The nonnegative affine density is therefore proportional either to U-t or to t-k(r-1). Normalize the quadratic coefficient by a positive t scaling and normalize the marked interval to[-1,1]. Convexity gives exactly j≥0. Thus the above is a genuine exhaustive chart for this mechanism, not an assumption that an unrelated corner lies on the parabola.
 
 ### Theorem A
 
@@ -245,7 +245,7 @@ The moved endpoint shortens the whole marked edge, but ell(p)=0 makes its remove
 
 For completeness, a lower tangent join cannot evade the hinge equation: there kappa=1 and Phi is negative on the connector interior; the inward hinge alone removes negative-Phi mass and improves the ratio. It is realized by intersecting the old convex body with the tilted halfspace. An upper tangent return is incompatible with a nonempty strictly convex lower arc lying below it. At the remaining nontangent joins both hinge signs are admissible; positivity of ell away from its isolated marked zero persists on the small rotated cone.
 
-This first-order ascent does NOT discard the parent's second-order density-zero marked-endpoint correction. That correction remains necessary for neutral first variations; here the leading derivative is already strictly positive. fileciteturn4file0L63-L84
+This first-order ascent does NOT discard the parent's second-order density-zero marked-endpoint correction. That correction remains necessary for neutral first variations; here the leading derivative is already strictly positive.
 
 If ell also vanished at another point, convexity and affinity would make the zero set a whole supporting segment through p. That is the incident-zero-edge case closed by Theorem A. Since B0>0 excludes ell vanishing on the entire marked edge, these two alternatives exhaust all one-arc supercritical maxima with any marked density zero. A surviving one-arc maximum must therefore satisfy min_e ell>0.
 
@@ -307,7 +307,7 @@ H_form(psi)+2Kpsi²/gamma+G_Gamma(psi)<=0,
 G_Gamma(psi)=int_Gamma Phi psi² ds/|grad ell|.
 ```
 
-This is stronger than the former averaged condition with G_Gamma/2. It follows from the new full-release raw expansion and the accepted adapted-test identity; an O(s) test change times the O(s²) boundary correction has no second-order contribution. It holds at a full joint maximum, not a maximum confined to the unreleased fixed support. The old adapted-test formula alone did not supply this full Gram penalty. fileciteturn4file0L16-L28 fileciteturn4file0L32-L49 fileciteturn4file0L71-L95
+This is stronger than the former averaged condition with G_Gamma/2. It follows from the new full-release raw expansion and the accepted adapted-test identity; an O(s) test change times the O(s²) boundary correction has no second-order contribution. It holds at a full joint maximum, not a maximum confined to the unreleased fixed support. The old adapted-test formula alone did not supply this full Gram penalty.
 
 There is an explicit positive definite quotient form. Normalize f(r)=r²+2Br+C and ell=t-Z_line(r), where Z_line is the chord of f between c<d. Put a0=(c+d)/2 and w=(d-c)/2. If psi restricted to Gamma is A0+B0(r-a0), then
 
@@ -426,7 +426,7 @@ REPORT 52473 52d6b4e1c1539cd478fff993a1f0e9fa39fabca9e12105b82f183034b896ff27
 INCIDENT_ZERO_EDGE_ONE_ARC_EXACT_RECOVERY_PASS
 ```
 
-Convenience copies supplement the complete inline recovery: [standalone source](sandbox:/mnt/data/one_arc_zero/one_arc_zero_edge_exact.py), [source, coefficients and exact outputs](sandbox:/mnt/data/one_arc_zero_edge_capsule.zip). The capsule is1098088 bytes, SHA-256 `2efec7cfbddc86f4e1115ce4f8bca5523a38571d50f3f39da21e9eaf96fbb762`.
+Convenience copies supplement the complete inline recovery: standalone source (`one_arc_zero_edge_exact.py`), source, coefficients and exact outputs (`one_arc_zero_edge_capsule.zip`). The capsule is1098088 bytes, SHA-256 `2efec7cfbddc86f4e1115ce4f8bca5523a38571d50f3f39da21e9eaf96fbb762`.
 
 ```python
 """INCIDENT_ZERO_EDGE_ONE_ARC_SHARP_THREE_HALVES_V1.

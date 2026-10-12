@@ -22,7 +22,7 @@ It includes every equal-cut body with 1/4<=t<1 and a genuine five-dimensional in
 
 Every actual body in this band has a nonapical strict U under every SPD metric. The conclusion extends to every actual own-centred realization of the same labelled true-edge graph within Euclidean vertex distance 10^-11 of the band. No stable-facet, saddle, conditioning, chosen-forest, or local polar-arrow premise is needed.
 
-No full-U1 or110 body was constructed. No other possible U root, whole combinatorial type, canonical count, or global mechanical bound is closed. The interval remains 34<=C_min<=622. :contentReference[oaicite:0]{index=0}
+No full-U1 or110 body was constructed. No other possible U root, whole combinatorial type, canonical count, or global mechanical bound is closed. The interval remains 34<=C_min<=622.
 
 ## 2. Source authority and literal geometry
 
@@ -32,7 +32,7 @@ The new journal was read through its actual EOF, including the complete literal 
     SHA256 acb40dcb4bb79552340ae90405e0af1c37fd8044f44a91bebd1b501309d079ef
     HEX6_GLOBAL_FIXED_POLE_ATLAS_AND_COMPACT_METRIC_BOUNDARY_V3.
 
-The supplied journal has 288178 bytes and SHA256 c6fd5dc21a2f52d30587196753ecbbbe6f7e593fc2e2f9d11aae00fcac0b8d47. Its embedded V3 source contains the transcription tokens `ndef ps`, `ndef pd`, and `ndef pe`, whereas the earlier same-chat handoff has `def`. This is a source-delivery defect, not a mathematical alias. The new computation does not execute that fence or depend on a repair; its complete autonomous sources are embedded below. :contentReference[oaicite:1]{index=1}
+The supplied journal has 288178 bytes and SHA256 c6fd5dc21a2f52d30587196753ecbbbe6f7e593fc2e2f9d11aae00fcac0b8d47. Its embedded V3 source contains the transcription tokens `ndef ps`, `ndef pd`, and `ndef pe`, whereas the earlier same-chat handoff has `def`. This is a source-delivery defect, not a mathematical alias. The new computation does not execute that fence or depend on a repair; its complete autonomous sources are embedded below.
 
 Use the CHANGED hexagon, not the original integer hexagon and not a degree-five pentagon control:
 
@@ -70,7 +70,7 @@ The true edges are
 
     01,02,03,04,05,08,12,17,28,29,34,39,46,56,57,67,89.
 
-Thus (V,E,F)=(10,17,9), degree(0)=6, degree(2)=4, and the remaining vertices are simple. The partial cut through B2 is retained literally; it is not replaced by a generic truncation. The parent’s global atlas identifies every open-cube source with its unique uniformly refilled star-centred fixed-pole completion. :contentReference[oaicite:2]{index=2}
+Thus (V,E,F)=(10,17,9), degree(0)=6, degree(2)=4, and the remaining vertices are simple. The partial cut through B2 is retained literally; it is not replaced by a generic truncation. The parent’s global atlas identifies every open-cube source with its unique uniformly refilled star-centred fixed-pole completion.
 
 Write U_i=Y_i-A and
 
@@ -684,4 +684,4 @@ if args!=['extract']:
     b=Path(target).read_bytes();assert (len(b),hashlib.sha256(b).hexdigest())==PINS[target]
 ```
 
-Convenience copies, not dependencies of this handoff: [complete recovery wrapper](sandbox:/mnt/data/recover_hex6_deep_v4.py), [readable mathematical core](sandbox:/mnt/data/hex6_deep_core.py), [readable verifier](sandbox:/mnt/data/hex6_deep_verify.py), [exact report](sandbox:/mnt/data/hex6_deep_report.json).
+Convenience copies, not dependencies of this handoff: complete recovery wrapper (`recover_hex6_deep_v4.py`), readable mathematical core (`hex6_deep_core.py`), readable verifier (`hex6_deep_verify.py`), exact report (`hex6_deep_report.json`).

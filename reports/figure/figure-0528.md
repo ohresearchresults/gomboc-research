@@ -16,7 +16,7 @@ The primary body is `NORMALIZED64/RATIONAL_OWN121_PARENT_MASS.audit.json`. Its i
 
 ## Input authority and a necessary source repair
 
-The literal parent distinguishes its accepted own165 entrance from its unexecuted finite reservoir proposal. :contentReference[oaicite:0]{index=0}
+The literal parent distinguishes its accepted own165 entrance from its unexecuted finite reservoir proposal.
 
 The supplied journal was read through EOF: 1180 lines, 164277 bytes, SHA-256 `60ddefdad06a6cc2740f19ad27b84fe1dae28e633b5030d55d2c6a7300c8f7a8`. The required literal parent is `figure-0524`, advertised immutable SHA-256 `3a2fe93659768c29265f3227ca0398a0e6b4e5eee4fdab9c5eaf7a3767437eed`.
 
@@ -179,7 +179,7 @@ There is exactly one positive P interface, peak 104, elder 2. Its complete curre
 
 Its birth is approximately 4.026525405457943, death approximately 0.6633356672519483, and relative depth approximately 0.8352585416814212. Exact recovery is particularly simple once the rational vertices have been reconstructed: with X_i=v_i-g0, birth is X_104 dot X_104. Put a=X_110 dot X_110, b=X_110 dot X_111, c=X_111 dot X_111. The exact death is `(a*c-b*b)/(a+c-2*b)`, and relative depth is `(birth-death)/birth`. The full rational values are also emitted directly.
 
-**This is now a 43-vertex/29-boundary-edge senior interface, not the parent's 41/25 packet.** Its relative depth has worsened from about 0.8287164863643938 in the parent. :contentReference[oaicite:1]{index=1} No old separator certificate is transferred to it by alias.
+**This is now a 43-vertex/29-boundary-edge senior interface, not the parent's 41/25 packet.** Its relative depth has worsened from about 0.8287164863643938 in the parent. No old separator certificate is transferred to it by alias.
 
 ## Finite body ledger, including nonrecords
 
@@ -541,4 +541,4 @@ Selected exact artifact receipts:
 
 The replay manifest inside the copied COMET63 main retains that parent's own earlier `figure-0521` ancestry fields. They are historical source metadata, not a relabelling of this assignment's required COMET63 payload.
 
-Convenience artifacts: [complete exact and numerical sources](sandbox:/mnt/data/comet64_sources.zip), [all full exact audits and interfaces](sandbox:/mnt/data/comet64_audits.zip), and [the standalone recovery decoder](sandbox:/mnt/data/COMET64_RECOVERY.py). The inline capsule, not these links, carries the construction's recovery data.
+Convenience artifacts: complete exact and numerical sources (`comet64_sources.zip`), all full exact audits and interfaces (`comet64_audits.zip`), and the standalone recovery decoder (`COMET64_RECOVERY.py`). The inline capsule, not these links, carries the construction's recovery data.

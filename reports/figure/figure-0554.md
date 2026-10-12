@@ -329,7 +329,7 @@ Selected executed receipts:
 | `PHYSICAL_CERTIFICATE.json` |46970|`bc9ee57a30f4a08ed6b3268b2687874512ac2902a937d0d288c1a2da8115cfa1`|
 | `INSERTION_LEDGER.json` |5220|`ec8f58a591d2b1b0ffc2557b7d9d2b0cead805a92810c8f1aa0410b69951e011`|
 
-The supplementary [source-and-audit archive](sandbox:/mnt/data/RA43/RA43_sources_and_exact_audits.zip) is1033130 bytes, SHA-256 `0eb8b97adddbeb4d4a524cf771e263e7931b7394f7a098f6963fc24f82d6350e`. It is convenient but not required by the literal recovery capsule.
+The supplementary source-and-audit archive (`RA43_sources_and_exact_audits.zip`) is1033130 bytes, SHA-256 `0eb8b97adddbeb4d4a524cf771e263e7931b7394f7a098f6963fc24f82d6350e`. It is convenient but not required by the literal recovery capsule.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

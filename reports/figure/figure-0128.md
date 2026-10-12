@@ -8,22 +8,22 @@ AI research report · 2026-08-28 UTC
 
 ## Result type and decisive delta
 
-No accepted finite homogeneous polyhedral Gömböc was produced. The run’s gate requires a materialized finite H/V representation, exact own-volume centroid, grouped maximal faces and true edges, an exhaustive positive-margin face/vertex/edge audit, an independent exact or directed verifier, and matching meshes; neither a smooth body nor an unexpanded astronomical generator qualifies. :contentReference[oaicite:0]{index=0}
+No accepted finite homogeneous polyhedral Gömböc was produced. The run’s gate requires a materialized finite H/V representation, exact own-volume centroid, grouped maximal faces and true edges, an exhaustive positive-margin face/vertex/edge audit, an independent exact or directed verifier, and matching meshes; neither a smooth body nor an unexpanded astronomical generator qualifies.
 
 This direction nevertheless closes the quantitative part of the refinement-plus-Santaló bridge and localizes the remaining obstruction to one finite combinatorial object:
 
-1. **The materialized cumulative axial ladder is quantitatively obstructed.** Its strongest level moves by `90.66453549010153` weakest-margin units under the true Santaló correction. Keeping a factor-four reserve would require suppressing its degree-one response by `362.6581419604061×`. All ten saved levels fail after true centring. :contentReference[oaicite:1]{index=1}
+1. **The materialized cumulative axial ladder is quantitatively obstructed.** Its strongest level moves by `90.66453549010153` weakest-margin units under the true Santaló correction. Keeping a factor-four reserve would require suppressing its degree-one response by `362.6581419604061×`. All ten saved levels fail after true centring.
 2. **Curvature, active-star diameter, exact dyadic target primitives, support error, and normalized Santaló displacement do close at an explicit finite scale.** Among the tested uniform cubed-sphere levels, level `19` gives a conditional root/chamber factor `3.2035528738770935`; level `20` gives `23.9056467237352` and a factor-ten reserve. Level `18` provably consumes the noncritical separator.
 3. **The exact remaining obstruction is not centring.** It is a missing finite collar/cross-seam incidence complex. Its rebuilt *actual* maximal faces, nonsimple full normal cones, and true edges must all have the prescribed signs with margin at least `1.915868198716011e-6`, while its support deficit stays inside the stated `L¹` budget. No such collar lattice, complete H/V reconstruction, or mesh is present in this result.
 
-The journal records an earlier branch-complete but unexpanded theorem with fewer than `2^391` rows and six common-separator classes. It remains theorem-level existence evidence only and was explicitly rejected as a materialized endpoint. :contentReference[oaicite:2]{index=2}
+The journal records an earlier branch-complete but unexpanded theorem with fewer than `2^391` rows and six common-separator classes. It remains theorem-level existence evidence only and was explicitly rejected as a materialized endpoint.
 
 ### Reproducible artifacts
 
-- [Directed certificate script](sandbox:/mnt/data/refinement_santalo_quantitative_certificate.py) — SHA-256 `230bd87b239e3754aa11dac571c0991885c133fe05a354b6b20d13fe618600e0`.
-- [Certificate constants](sandbox:/mnt/data/refinement_santalo_quantitative_constants.json) — SHA-256 `7dda2e87c6ad95e38183740c6176c8a2d1e6ff0a8687b227845fef4d99d0ffd6`.
-- [Reproduction notes](sandbox:/mnt/data/refinement_santalo_README.md) — SHA-256 `08d919859a1511399525816ae03e8e500ac678b5c114cf9c79a4e27776c2f46b`.
-- [Bundle](sandbox:/mnt/data/refinement_santalo_quantitative_handoff.zip) — SHA-256 `cef727cc04f6077bb9b7952ae7d215fa2ded6952d5de1619dcbf11fbdb1c8181`.
+- Directed certificate script (`refinement_santalo_quantitative_certificate.py`) — SHA-256 `230bd87b239e3754aa11dac571c0991885c133fe05a354b6b20d13fe618600e0`.
+- Certificate constants (`refinement_santalo_quantitative_constants.json`) — SHA-256 `7dda2e87c6ad95e38183740c6176c8a2d1e6ff0a8687b227845fef4d99d0ffd6`.
+- Reproduction notes (`refinement_santalo_README.md`) — SHA-256 `08d919859a1511399525816ae03e8e500ac678b5c114cf9c79a4e27776c2f46b`.
+- Bundle (`refinement_santalo_quantitative_handoff.zip`) — SHA-256 `cef727cc04f6077bb9b7952ae7d215fa2ded6952d5de1619dcbf11fbdb1c8181`.
 
 The default checker scans a fixed `512×1024` partition. It uses `mpmath.iv` for trigonometric ranges, exact-rational degree-12 binomial series with an explicit geometric tail for the three fractional powers, and outward `nextafter` arithmetic for the remaining interval operations. A clean run reproduces the JSON ledger and deliberately reports `materialized_object_exists_in_this_artifact=false`.
 
@@ -40,7 +40,7 @@ P(θ)=η(θ)-(1/3)sin(3η(θ)),
 η(θ)=(3π/2)(cosθ-cos^3θ/3).
 ```
 
-This is the journal’s exact Fourier seed. :contentReference[oaicite:3]{index=3} It was previously identified as having `P'(π/2)=0` and minimum Gaussian curvature near `0.515`. :contentReference[oaicite:4]{index=4}
+This is the journal’s exact Fourier seed. It was previously identified as having `P'(π/2)=0` and minimum Gaussian curvature near `0.515`.
 
 The centring is symbolic, not numerical. Since
 
@@ -76,7 +76,7 @@ The exact centroid identity becomes the Santaló equation at zero:
 
 For a finite `Q`, the own-centred output is `(Q-s(Q))°`; one must audit `Q` relative to its Santaló point, not treat centring as an ordinary Euclidean translation of `Q°`.
 
-Lángi’s Theorem 2 proves qualitatively that a centred smooth nondegenerate body has centred polyhedral approximants with the same stable/unstable counts. :contentReference[oaicite:5]{index=5} The proof explicitly separates four moment-controlling regions, critical-point truncations, and a compact finite cover of the remaining boundary, but its “sufficiently small/close” choices do not provide the finite constants or actual collar lattice needed here. :contentReference[oaicite:6]{index=6}
+Lángi’s Theorem 2 proves qualitatively that a centred smooth nondegenerate body has centred polyhedral approximants with the same stable/unstable counts. The proof explicitly separates four moment-controlling regions, critical-point truncations, and a compact finite cover of the remaining boundary, but its “sufficiently small/close” choices do not provide the finite constants or actual collar lattice needed here.
 
 ---
 
@@ -282,7 +282,7 @@ m_{\rm bg}
 1.915868198716011\times10^{-6}.
 \]
 
-This single separator excludes equilibria on every actual certified-background maximal face, every simple or nonsimple vertex/full normal cone, and every true edge. It directly addresses the mixed-feature failure that invalidated the earlier per-facet approximation claim. :contentReference[oaicite:7]{index=7}
+This single separator excludes equilibria on every actual certified-background maximal face, every simple or nonsimple vertex/full normal cone, and every true edge. It directly addresses the mixed-feature failure that invalidated the earlier per-facet approximation claim.
 
 The statement is deliberately restricted to features whose active source normals lie wholly in a certified noncritical background star. Every feature meeting a target cap or the annular/corner gap belongs to the explicit collar obligation below.
 
@@ -495,7 +495,7 @@ DF(a)=4\int_{S^2}
 \frac{uu^T}{(h_Q(u)-a\cdot u)^5}\,d\omega.
 \]
 
-The scale-invariant residual is `||M||/V`, exactly as required by the journal’s correction of the false small-volume polar roots. :contentReference[oaicite:8]{index=8}
+The scale-invariant residual is `||M||/V`, exactly as required by the journal’s correction of the false small-volume polar roots.
 
 Let `e=h_Q-h₀`, `E₁=∫|e|dω`. If denominators on `|a|≤A` lie in `[r,R]`, exact centring of `Q₀` gives
 
@@ -598,7 +598,7 @@ Santaló displacement ≈ 1.42111007e-2,
 Santaló-centred class = (11035,10333,21366).
 ```
 
-:contentReference[oaicite:9]{index=9} The endpoint archive itself was not attached, so no row-by-row reconstruction is claimed. The supplied arithmetic is independently reproduced:
+ The endpoint archive itself was not attached, so no row-by-row reconstruction is claimed. The supplied arithmetic is independently reproduced:
 
 ```text
 |s|/κ                         = 0.7499261583113456,
@@ -637,15 +637,15 @@ Therefore:
 - a genuine asymptotic wall-crossing obstruction follows when some signed wall score has expansion `σ(κ,a)=m(κ)-ℓ·a+o(κ+|a|)`, with `m(κ)=o(κ)` and `ℓ·(4J₀^{-1}b_f)>0`;
 - if a certified chamber contains a Euclidean ball of radius `Bκ+o(κ)`, `|4J₀^{-1}b_f|<B` is a sufficient, not necessary, survival criterion.
 
-The ten saved levels have `||s||/κ` near `0.75002`, while the fitted weakest isotropic margin decays much faster. This is finite scaling evidence, not an asymptotic identification of `f` or a direction-independent impossibility theorem, but it closes every materialized level and the present one-dimensional cumulative axial profile. :contentReference[oaicite:10]{index=10}
+The ten saved levels have `||s||/κ` near `0.75002`, while the fitted weakest isotropic margin decays much faster. This is finite scaling evidence, not an asymptotic identification of `f` or a direction-independent impossibility theorem, but it closes every materialized level and the present one-dimensional cumulative axial profile.
 
-The fixed `4,324`-row cover shows the same mismatch: its weakest reported construction-centre witness is `1.43388e-4`, while its exact Santaló point is near `(-0.03000124168057223,…)`; centring preserves the lattice but creates thousands of equilibria. :contentReference[oaicite:11]{index=11} :contentReference[oaicite:12]{index=12} The shift/witness ratio is
+The fixed `4,324`-row cover shows the same mismatch: its weakest reported construction-centre witness is `1.43388e-4`, while its exact Santaló point is near `(-0.03000124168057223,…)`; centring preserves the lattice but creates thousands of equilibria. The shift/witness ratio is
 
 ```text
 209.23118866691934.
 ```
 
-The exact distributed correction hits its first circuit wall at amplitude `0.002051991092060539` with `93.6887%` of the original `x` moment still present, so only `6.3113%` of the needed correction fits in the old chamber: a capacity deficit of about `15.845×`. :contentReference[oaicite:13]{index=13}
+The exact distributed correction hits its first circuit wall at amplitude `0.002051991092060539` with `93.6887%` of the original `x` moment still present, so only `6.3113%` of the needed correction fits in the old chamber: a capacity deficit of about `15.845×`.
 
 This identifies the dominating bound in the failed architecture: a global weighted degree-one support error, not insufficient mesh density.
 
@@ -666,7 +666,7 @@ The smooth seed does not need replacement. The smallest nonrepeating change is l
 
    or reserve four positive control rays whose weighted moment cone contains the required correction in its interior. This converts the axial `Θ(κ)` global mode into a localized higher-order error.
 5. **Use three support coefficients as dependent Santaló controls inside each actual incidence cell.** Solve `G=M/V=0` by interval Newton or Krawczyk only after rebuilding the actual hull.
-6. **Enumerate circuit walls in their true order.** The journal’s exact collar atlas found a primitive four-row wall long before the nominal controls, after thousands of expected facets had already disappeared. :contentReference[oaicite:14]{index=14} A formal root in an inherited incidence model is not evidence.
+6. **Enumerate circuit walls in their true order.** The journal’s exact collar atlas found a primitive four-row wall long before the nominal controls, after thousands of expected facets had already disappeared. A formal root in an inherited incidence model is not evidence.
 
 A finite local-control acceptance inequality is
 

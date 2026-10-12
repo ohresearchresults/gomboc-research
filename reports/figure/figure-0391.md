@@ -22,7 +22,7 @@ The complete inline recovery capsule below contains 45 source/data files, all de
 
 ### Source reconciliation
 
-The dual census is **not claimed as first observed here**. After independently computing it, I read the complete earlier `COORD_RELEASED8_CENTRED_DUAL_EXACT_V1_REPORT.md`. It already records the same own132 body, U87/U89/U90, saddle edges, and independent audits. Its standard B output is byte-identical to the B reconstructed here. The assignment's description of that census as unobserved was stale. The earlier specialized A contains different auxiliary fields; its different byte count is not a mathematical contradiction. This changes the actual cancellation problem from S/H to extra-U/H cancellation. :contentReference[oaicite:0]{index=0}
+The dual census is **not claimed as first observed here**. After independently computing it, I read the complete earlier `COORD_RELEASED8_CENTRED_DUAL_EXACT_V1_REPORT.md`. It already records the same own132 body, U87/U89/U90, saddle edges, and independent audits. Its standard B output is byte-identical to the B reconstructed here. The assignment's description of that census as unobserved was stale. The earlier specialized A contains different auxiliary fields; its different byte count is not a mathematical contradiction. This changes the actual cancellation problem from S/H to extra-U/H cancellation.
 
 The complete selected CORE7, not the incomplete older CORE20, was recovered and replayed. Its parent point-hull and plane-pair audits are byte-identical: 23384 bytes, SHA-256 `227315395058e6fe8a06bc1eac26579cd3de2ba512468c10c275fa79d93db91d`. The parent has actual61/177/118, own211/weak000, from97 input points. The complete K-matrix/compensating-tangent output of the old `facet_mass_chart.py` was not executed to completion or adopted as new evidence. The finite geometry and mechanics below use the complete separate sources in this capsule.
 
@@ -229,7 +229,7 @@ Selected A=B bindings:
 
 The manifest binds all source bytes. The aggregate binds the complete regenerated per-output records. `SUMMARY.json` supplies every active input, stable label, unstable owner set, saddle owner set, weak feature list, primitive-zero counter, and arithmetic cost. RAW/A/B/mass/certificate files are reconstructed from the embedded input and full sources, not fetched from a secondary location.
 
-Supplementary copies, not dependencies: [complete handoff JSON](sandbox:/mnt/data/NH72_FINITE_SUPPORT_MASS_CUTS_V1.json), [complete Markdown handoff](sandbox:/mnt/data/NH72_FINITE_SUPPORT_MASS_CUTS_V1.md), [sources and all exact proof outputs](sandbox:/mnt/data/NH72_FINITE_SUPPORT_MASS_CUTS_V1.zip). The ZIP is5029934 bytes, SHA-256 `a3f77e6d7357f8bf50080115c1af827d1e631668b479373839ac4332372d2811`.
+Supplementary copies, not dependencies: complete handoff JSON (`NH72_FINITE_SUPPORT_MASS_CUTS_V1.json`), complete Markdown handoff (`NH72_FINITE_SUPPORT_MASS_CUTS_V1.md`), sources and all exact proof outputs (`NH72_FINITE_SUPPORT_MASS_CUTS_V1.zip`). The ZIP is5029934 bytes, SHA-256 `a3f77e6d7357f8bf50080115c1af827d1e631668b479373839ac4332372d2811`.
 
 Save the next Python block as `RECOVER.py`, and the entire subsequent text block as `SOURCE.b64`. Whitespace between base64 lines is ignored. Both output directories must initially be absent.
 

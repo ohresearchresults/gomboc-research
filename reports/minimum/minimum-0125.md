@@ -14,7 +14,7 @@ Every genuine balanced two-apex body is an affine image of a member of an explic
 
 The three new controls are outside the **full projective orbits of every body in the parent's isosceles-cut classes**, not merely outside its stated parameter boxes. They are also outside the full projective orbit of the older literal balanced pencil. One control has a below-COM apex and strict222; another has both strict unstable vertices in the base and strict222. None is110.
 
-The accepted parent remains `minimum-0120`, declared SHA-256 `a4c45b5618195f1a579a49db25bfc93d945d69697fde14db4f689d25a098e26e`. Its two all-SPD exclusions are inherited results, not new results of this continuation. The global interval remains **34 <= C_min <= 622**, and no incidence registry changes. :contentReference[oaicite:0]{index=0}
+The accepted parent remains `minimum-0120`, declared SHA-256 `a4c45b5618195f1a579a49db25bfc93d945d69697fde14db4f689d25a098e26e`. Its two all-SPD exclusions are inherited results, not new results of this continuation. The global interval remains **34 <= C_min <= 622**, and no incidence registry changes.
 
 The new 1,939-line journal update was read through EOF, including the literal parent. Its mounted bytes are 335566, SHA-256 `65830298e80a2c03aa3ced87984be6801658f72e958a5db1b08e8f85639f454a`. The unchanged supplied recovery wrapper still matches 20099 bytes and SHA-256 `0dfcb0c3b855b1d1e1a6256e958c6af3503d780353add523b559639411c8c44f`. No parent coefficient search was replayed. No unavailable archive, decoded BNw source, or research connector is a dependency of the new work.
 
@@ -411,7 +411,7 @@ A local source build/check and a source-only build/check in a fresh directory bo
 
 The useful continuation is to work on this complete independent-cut/two-denominator domain, using its exact determinant moments and one M,N pair, rather than enlarge an isosceles-cut collar. The decisive missing step is a genuine common-metric exclusion or a verified110 point in that domain; the three222/323 controls must not be mistaken for either.
 
-No literature priority is claimed. Projective centroid fitting is a separate established topic, including Izmestiev's *Fitting centroids by a projective transformation*; no theorem from that paper is required by the elementary normalization and exact control checks supplied here. :contentReference[oaicite:1]{index=1}
+No literature priority is claimed. Projective centroid fitting is a separate established topic, including Izmestiev's *Fitting centroids by a projective transformation*; no theorem from that paper is required by the elementary normalization and exact control checks supplied here.
 
 ## 8. Complete recovery capsule
 
@@ -445,7 +445,7 @@ REPORT 24161 2c7c960cf460a1c407064ce26de8d4a7dc8d848d47322833f83b6085557bf54a
 BALANCED_E17_EIGHT_CUT_TWO_PROJECTIVE_TRUE_GEOMETRY_RECOVERY_PASS
 ```
 
-Supplementary copies: [source](sandbox:/mnt/data/balanced_cut_normal_form.py) and [complete exact report](sandbox:/mnt/data/balanced_cut_normal_form.json). The literal source below reconstructs the report without either link or any parent file.
+Supplementary copies: source (`balanced_cut_normal_form.py`) and complete exact report (`balanced_cut_normal_form.json`). The literal source below reconstructs the report without either link or any parent file.
 
 ```python
 """Exact balanced-E17 normal form and independent-slope controls.

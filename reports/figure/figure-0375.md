@@ -194,6 +194,6 @@ for n,t in d.items():
 print('FINCH3_SOURCE_RECOVERED',len(d))
 ```
 
-Supplemental copies: [Complete source package](sandbox:/mnt/data/FINCH3_SOURCE.zip); [research archive with exact reports, numerical records and completed cold receipts](sandbox:/mnt/data/FINCH3_RESEARCH.zip); [JSON handoff](sandbox:/mnt/data/FINCH3_RESULT.json). Recovery does not require these downloads.
+Supplemental copies: Complete source package (`FINCH3_SOURCE.zip`); research archive with exact reports, numerical records and completed cold receipts (`FINCH3_RESEARCH.zip`); JSON handoff (`FINCH3_RESULT.json`). Recovery does not require these downloads.
 
 **Final status: finite own334→own222 reduction through independently checked exact contact quotients; exact C592/222, C450/222 and C182/222 retained with weak000; no own110 endpoint below624, and no global exclusion.**

@@ -36,7 +36,7 @@ omega^T Lambda = 3 omega^T,
 
 together with incidence-sensitive overload bounds and a 7/6 version of the lead's complete moving-plane filter. Two new exact actual-Santaló controls have sharp over-unit caps; their complete affine orbits are now excluded.
 
-**This is not a proof of F>=9 or a closure of an entire C30 combinatorial type.** The remaining geometric/mass problem is the strict 7/6 cap exterior. No physical member of that exterior satisfying the complete necessary escape conditions was established here. The inherited bracket 30<=C_min<=1374 and canonical remainder 178115 records / 4366 joint root orbits / 74 types remain unchanged; these are preserved journal figures, not a new enumeration. :contentReference[oaicite:0]{index=0}
+**This is not a proof of F>=9 or a closure of an entire C30 combinatorial type.** The remaining geometric/mass problem is the strict 7/6 cap exterior. No physical member of that exterior satisfying the complete necessary escape conditions was established here. The inherited bracket 30<=C_min<=1374 and canonical remainder 178115 records / 4366 joint root orbits / 74 types remain unchanged; these are preserved journal figures, not a new enumeration.
 
 ## 1. Authority and scope
 
@@ -46,7 +46,7 @@ The literal parent identities used are
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-The later durable `NOVA24_THREE_BAD_POLES_AND_UNBOUNDED_STRIP_V1` supplies the immediate comparison point: it left a connected three-unit-bad-pole alternative under the common cap 20/19. The present theorem eliminates that entire alternative. :contentReference[oaicite:1]{index=1} No mathematical alias, facet-order, or incidence conflict was found. The supplied immutable hashes are retained as authority identities; normalized local extractions of displayed Markdown are not represented as reproducing those envelope hashes.
+The later durable `NOVA24_THREE_BAD_POLES_AND_UNBOUNDED_STRIP_V1` supplies the immediate comparison point: it left a connected three-unit-bad-pole alternative under the common cap 20/19. The present theorem eliminates that entire alternative. No mathematical alias, facet-order, or incidence conflict was found. The supplied immutable hashes are retained as authority identities; normalized local extractions of displayed Markdown are not represented as reproducing those envelope hashes.
 
 The inherited 17 C,A tables are embedded literally in the new source through a checksummed compressed representation: decoded table JSON 5705 bytes, SHA-256 `34f501da2c4cabec97a55ca8311381a78eee0603c9c46c7c375a3f3dbf859af6`. They are reused as exact input, not as an unexecuted certificate. Every new matrix is reconstructed and checked. The already excluded beta in [1/2,1], T>=12 strip was not rerun.
 
@@ -73,7 +73,7 @@ The third identity uses the uniform-volume centroid of P; the centroid of conv(0
 Lambda_ai = 3 omega_i (1-q_a.c_i)
 ```
 
-have zero diagonal, strictly positive off-diagonal entries, row sum three, and vector sum -q_a. These are the parent's physical rows, not optimized LP coefficients. :contentReference[oaicite:2]{index=2}
+have zero diagonal, strictly positive off-diagonal entries, row sum three, and vector sum -q_a. These are the parent's physical rows, not optimized LP coefficients.
 
 ### 2.1 The matrix-square identity
 
@@ -107,7 +107,7 @@ These identities are necessary for the one physical matrix. Independently optimi
 
 ### 2.2 Actual concentration and incidence bounds
 
-For poles in an affine k-flat, actual cone weights satisfy sum omega_i <= (k+1)/4; in particular omega_i<=1/4. This is the affine subspace concentration theorem of Freyer–Henk–Kipp, not a new claim of this handoff. The normalization q_i.x<=1 is essential. :contentReference[oaicite:3]{index=3}
+For poles in an affine k-flat, actual cone weights satisfy sum omega_i <= (k+1)/4; in particular omega_i<=1/4. This is the affine subspace concentration theorem of Freyer–Henk–Kipp, not a new claim of this handoff. The normalization q_i.x<=1 is essential.
 
 The singleton bound also has a direct slicing proof. Measure inward distance t from a facet, let U(t) be the volume beyond distance t, and let A be the facet area. Brunn–Minkowski makes U(t)^(1/3) concave. Its tangent at zero gives U(t)<=V(1-At/(3V))^3 up to its zero. Integrating the tail gives the centroid distance h<=3V/(4A), hence A h/(3V)<=1/4.
 
@@ -320,7 +320,7 @@ Finally, the prefix belongs to the complete weak escape graph, not just a select
 
 ## 4. Whole-C30 actual-mass filter at 7/6
 
-The lead's simultaneous capped-row criterion and complete moving-plane reduction can now be used at tau=7/6, rather than 41/40. Its incidence counts are inherited, not newly enumerated. :contentReference[oaicite:4]{index=4} Here is the full argument needed for the new corollary.
+The lead's simultaneous capped-row criterion and complete moving-plane reduction can now be used at tau=7/6, rather than 41/40. Its incidence counts are inherited, not newly enumerated. Here is the full argument needed for the new corollary.
 
 Because 0=sum omega_i q_i and omega_i<=1/4, zero lies in the convex hull of sums of four distinct poles. Thus for ordered projections x_1<=...<=x_8, the four largest sum to a nonnegative number.
 
@@ -521,7 +521,7 @@ Whitespace-free base85(XZ/LZMA preset9)  15965 bytes
 499425beb26f6d1f8bc4b75a357a1aa18df7d1612b503846f4ae61f0990f763d
 ```
 
-The exact checks are software-independent arithmetic replays within this work, not external peer review or proof-assistant formalization. Convenience copies are [the decoder](sandbox:/mnt/data/nova_mass/recover_nova_cap7.py), [the finite proof ledger](sandbox:/mnt/data/nova_mass/cap7_pd_ledger.json), and [the exact physical controls](sandbox:/mnt/data/nova_mass/mass_controls_7.json). The embedded capsule, rather than those links, is the durable recovery source.
+The exact checks are software-independent arithmetic replays within this work, not external peer review or proof-assistant formalization. Convenience copies are the decoder (`recover_nova_cap7.py`), the finite proof ledger (`cap7_pd_ledger.json`), and the exact physical controls (`mass_controls_7.json`). The embedded capsule, rather than those links, is the durable recovery source.
 
 ```python
 """NOVA24_WEIGHTED_CAP_7_6_AND_PHYSICAL_FLUX_V1.

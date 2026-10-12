@@ -8,7 +8,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Disposition
 
-No strict110/additionalweak000 body is promoted. The authoritative entrance remains `QC52_SURVIVING_ROOT124_G9_F8B57E0F` from `figure-0434` (SHA `037b2078e4f89986594472b0f6e0df78ecf3cb43bbfb82dee2eea017099c529f`), V174/E308/F136,C616, strict121/weak000, S3,U94/124,H124–134. :contentReference[oaicite:0]{index=0} The tangent-axis affine family is already exactly closed and is not reused. :contentReference[oaicite:1]{index=1}
+No strict110/additionalweak000 body is promoted. The authoritative entrance remains `QC52_SURVIVING_ROOT124_G9_F8B57E0F` from `figure-0434` (SHA `037b2078e4f89986594472b0f6e0df78ecf3cb43bbfb82dee2eea017099c529f`), V174/E308/F136,C616, strict121/weak000, S3,U94/124,H124–134. The tangent-axis affine family is already exactly closed and is not reused.
 
 This turn gives (i) a source-complete **changed-interface C618 own121 checkpoint** with one spare edge and (ii) an exact exclusion of the entire one-parameter changed-interface family containing it.
 

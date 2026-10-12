@@ -63,15 +63,15 @@ The proper subclass has exactly
 
 and a positive-area root. Those equalities make the two triangles genuine maximal facets and AB their genuine common edge.
 
-The two selected original proofs give the cone-tail concentration and the joint mass inequality in the extended fixed-patch setting. The latter explicitly permits larger coordinate facets and redundant canonical marks. Its proof is for compact convex bodies, not only polytopes. :contentReference[oaicite:0]{index=0}
+The two selected original proofs give the cone-tail concentration and the joint mass inequality in the extended fixed-patch setting. The latter explicitly permits larger coordinate facets and redundant canonical marks. Its proof is for compact convex bodies, not only polytopes.
 
-The inherited local proof is `ALL_BODY_POLYHEDRAL_FREE_BOUNDARY_V1`, parent `minimum-0139`, advertised assignment SHA-256 `c58993f6099c9026b8aece0f2dcedf5b45aed4f8c933eacc92d639040f2c8a2f`. Its exact original scope is fixed `0<b<1,c,d>0`, positive root area, and local maximality against all nearby admissible convex bodies. It proves polyhedrality before applying the sixteen-vertex count. :contentReference[oaicite:1]{index=1}
+The inherited local proof is `ALL_BODY_POLYHEDRAL_FREE_BOUNDARY_V1`, parent `minimum-0139`, advertised assignment SHA-256 `c58993f6099c9026b8aece0f2dcedf5b45aed4f8c933eacc92d639040f2c8a2f`. Its exact original scope is fixed `0<b<1,c,d>0`, positive root area, and local maximality against all nearby admissible convex bodies. It proves polyhedrality before applying the sixteen-vertex count.
 
 One further accepted notebook premise is used, in its **minimal needed scope**:
 
 > A proper adjacent-triangle POLYTOPE with a=b has T<51/25.
 
-This is the balanced proper-pair exclusion recorded in the shared notebook. We do not assume a strict balanced bound on arbitrary marked-patch limits. The argument in Section 8 deliberately avoids needing that stronger statement. The full balanced proof source is not one of the newly selected attachments; its accepted statement, rather than an invented reconstruction of its certificates, is the inherited premise here. :contentReference[oaicite:2]{index=2}
+This is the balanced proper-pair exclusion recorded in the shared notebook. We do not assume a strict balanced bound on arbitrary marked-patch limits. The argument in Section 8 deliberately avoids needing that stronger statement. The full balanced proof source is not one of the newly selected attachments; its accepted statement, rather than an invented reconstruction of its certificates, is the inherited premise here.
 
 ## 3. High-trace compactness, including closed endpoint faces
 
@@ -99,7 +99,7 @@ The supplied Brunn-Minkowski argument gives the upper bound
 
     E_P[(ell/mu-t)_+] <= (1-t/4)_+^4
 
-for any convex body. No facet enumeration is needed for this upper bound. :contentReference[oaicite:3]{index=3}
+for any convex body. No facet enumeration is needed for this upper bound.
 
 At `t=11/8`, the monotonicity argument at `m=13/15,T=51/25` has the exact positive gap
 
@@ -117,7 +117,7 @@ hence
 
     h>7/45,   6V<45/7,   V<15/14.                     (C1)
 
-The quoted rational gap and the conversion from mass to h are proved in the supplied tail source; the only extension made above is the explicitly justified use of the two fixed support patches instead of whole selected facets. :contentReference[oaicite:4]{index=4}
+The quoted rational gap and the conversion from mass to h are proved in the supplied tail source; the only extension made above is the explicitly justified use of the two fixed support patches instead of whole selected facets.
 
 Also `h<=1`, because Tetra is retained, and therefore
 
@@ -182,7 +182,7 @@ It follows that
     0<=x,y,  x+y<=6V,
     1-6V<=z<=6V.
 
-This is the exact pointwise container calculation in the supplied joint-mass proof. :contentReference[oaicite:5]{index=5}
+This is the exact pointwise container calculation in the supplied joint-mass proof.
 
 Let
 
@@ -338,7 +338,7 @@ The rest of the analytic proof needs these sign and nonconstancy facts, not posi
 
 In particular, none of the new zero-endpoint cases is treated by approximating it with fixed positive c,d local maxima. Such approximants need not be local maxima at all.
 
-The parent then gives at most `4+2+2sl+binomial(s,3)<=162` extreme points, with `s<=9,l<=4`, and thus polyhedrality. Its exact cone-sector formulas, nonsmooth angular variations, and finite-extreme-point argument remain the accepted proof machinery. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+The parent then gives at most `4+2+2sl+binomial(s,3)<=162` extreme points, with `s<=9,l<=4`, and thus polyhedrality. Its exact cone-sector formulas, nonsmooth angular variations, and finite-extreme-point argument remain the accepted proof machinery.
 
 At a joint maximum with T>2, (S6) supplies `max_F g>0`. Thus the extension covers all zero-C/D endpoint strata needed for the global problem.
 
@@ -360,7 +360,7 @@ An auxiliary vertex on exactly one special facet has no increasing g edge direct
 
     g(v)=g(w)=h>0, g(X)=g(Y)=-3h.
 
-These are precisely the local ingredients of the original skeleton argument. :contentReference[oaicite:8]{index=8}
+These are precisely the local ingredients of the original skeleton argument.
 
 ### 5.3 Closed-endpoint incidence accounting
 
@@ -420,7 +420,7 @@ so Delta r=0. Therefore
 
     ell(X)=ell(Y), n(X)=n(Y).
 
-With a>b>0, the only distinct canonical pair satisfying both equalities is C,D, and then c=d. This is the original exact ear mechanism, with the root-admissibility check above replacing the old statement that the root is unchanged. :contentReference[oaicite:9]{index=9}
+With a>b>0, the only distinct canonical pair satisfying both equalities is C,D, and then c=d. This is the original exact ear mechanism, with the root-admissibility check above replacing the old statement that the root is unchanged.
 
 Exactly one of c,d being zero makes c=d impossible. Therefore e=0 when k=1. Substitution in (V2) proves
 
@@ -640,4 +640,4 @@ HIGH_TRACE_COMPACTNESS_CONSTANTS_PASS 15/14 1/24 7/180 7/1125
 
 Output: 172 bytes, SHA256 `5e3d2c791b0fc2a6e0704e5aaf4bf654b97e3bba13373107652c99f5424c77bc`. The source was executed, then copied alone into a new temporary directory and executed again. Both output files matched byte for byte. This is an actual completed algebra replay, not a promised future check or proof-assistant formalization.
 
-Convenience copies: [complete handoff](sandbox:/mnt/data/high_trace_variable_endpoint_localization.md), [complete runnable audit](sandbox:/mnt/data/high_trace_endpoint_bridge.py), and [observed audit output](sandbox:/mnt/data/high_trace_endpoint_bridge.out). The full recovery unit and all continuation-critical formulas are embedded above; none depends on those links.
+Convenience copies: complete handoff (`high_trace_variable_endpoint_localization.md`), complete runnable audit (`high_trace_endpoint_bridge.py`), and observed audit output (`high_trace_endpoint_bridge.out`). The full recovery unit and all continuation-critical formulas are embedded above; none depends on those links.

@@ -24,11 +24,11 @@ A separately preserved companion, **SF90_RESTORED100_G5**, has the same V/E/F/C 
 
 ## Source authority and reading
 
-The entire supplied journal, its branch memory and literal parent payload, and all four finite-addition materials were read. The decoded21-unit parent source capsule was also read completely. Parent identity is `figure-0438`, supplied payload SHA-256 `16684588638a09e8929f3ce23437b244db8ef4f46a3cfe29b4deea8a906b0547`. Its decoded61,794-byte source dictionary authenticated against `f529bf432bfb07042cf6ab5e3663957cef664386bc140af84f705b94d55fe937`; the defining415-byte physical input authenticated against `df0a606ee746a5546f046a4800f1eed5c833bf27e0fbe31d28da4984a482a6f2`. This is the V21/E57/F38 physical own211 hull, not CONTACT2's21-halfspace own121 solid. :contentReference[oaicite:0]{index=0}
+The entire supplied journal, its branch memory and literal parent payload, and all four finite-addition materials were read. The decoded21-unit parent source capsule was also read completely. Parent identity is `figure-0438`, supplied payload SHA-256 `16684588638a09e8929f3ce23437b244db8ef4f46a3cfe29b4deea8a906b0547`. Its decoded61,794-byte source dictionary authenticated against `f529bf432bfb07042cf6ab5e3663957cef664386bc140af84f705b94d55fe937`; the defining415-byte physical input authenticated against `df0a606ee746a5546f046a4800f1eed5c833bf27e0fbe31d28da4984a482a6f2`. This is the V21/E57/F38 physical own211 hull, not CONTACT2's21-halfspace own121 solid.
 
-Part4's mandatory correction was applied only to the erroneous MANIFEST extraction header. Fresh execution of the supplied addition replay reproduced its14 expected outputs, including `C114_ADDITION_EIGHT_SOURCE_UNITS_RECOVERED_WITH_HEADER_FIX` and `C114_FINITE_ADDITION_SOURCE_ONLY_EXACT_FIVE_BODIES_PASS 14`. The correction changes transport metadata, not coordinates or mathematical predicates. :contentReference[oaicite:1]{index=1}
+Part4's mandatory correction was applied only to the erroneous MANIFEST extraction header. Fresh execution of the supplied addition replay reproduced its14 expected outputs, including `C114_ADDITION_EIGHT_SOURCE_UNITS_RECOVERED_WITH_HEADER_FIX` and `C114_FINITE_ADDITION_SOURCE_ONLY_EXACT_FIVE_BODIES_PASS 14`. The correction changes transport metadata, not coordinates or mathematical predicates.
 
-The supplied ADDED_G4/G5/G6 own233 and CENTERED_G6 own222 bodies remain inherited controls, not new discoveries here. Their demonstrated difference between local cosine loss and whole-basin cancellation informed the new objective. No missing external dependency is needed for the present handoff. :contentReference[oaicite:2]{index=2}
+The supplied ADDED_G4/G5/G6 own233 and CENTERED_G6 own222 bodies remain inherited controls, not new discoveries here. Their demonstrated difference between local cosine loss and whole-basin cancellation informed the new objective. No missing external dependency is needed for the present handoff.
 
 ## Executed constructive work
 
@@ -167,7 +167,7 @@ All exact birth/death fractions and the full maximal incidence are regenerated. 
 
 ## Scoped whole-interface obstacle
 
-The notebook's support-persistence argument applies to the exact full polar bars. The following asymmetric formulation makes it useful for actual material additions without claiming a global exclusion. :contentReference[oaicite:3]{index=3}
+The notebook's support-persistence argument applies to the exact full polar bars. The following asymmetric formulation makes it useful for actual material additions without claiming a global exclusion.
 
 For own-centred K, a polar bar with squared birth b and death d corresponds, through `rho_(K°)(u)=1/h_K(u)`, to a support basin with minimum `alpha=1/sqrt(b)` and merge height `beta=1/sqrt(d)`. Put `Delta=beta-alpha` and `eta=Delta/2`.
 
@@ -256,7 +256,7 @@ python sf90_minor.py
 
 These commands overwrite numerical checkpoint filenames; do not run them in the immutable replay directory.
 
-[Recovery program](sandbox:/mnt/data/RECOVER_SF90_C120.py) and [complete source, exact outputs and supplementary original reports](sandbox:/mnt/data/SF90_C120_COMPLETE.zip) are conveniences only. The following capsule is self-contained.
+Recovery program (`RECOVER_SF90_C120.py`) and complete source, exact outputs and supplementary original reports (`SF90_C120_COMPLETE.zip`) are conveniences only. The following capsule is self-contained.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

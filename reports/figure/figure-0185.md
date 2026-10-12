@@ -410,12 +410,12 @@ AQ32_OUTLET_METRIC_residual_basin_graph.json
 AQ32_OUTLET_METRIC_certificate.json
 ```
 
-The SHA-256 ledger authenticates, among others, the exact endpoint, candidate selector, matrix, Santaló certificate, root-box audit, inactive separation, perturbation proof, obstruction, and residual graph. :contentReference[oaicite:17]{index=17}
+The SHA-256 ledger authenticates, among others, the exact endpoint, candidate selector, matrix, Santaló certificate, root-box audit, inactive separation, perturbation proof, obstruction, and residual graph.
 
 Materialized archives:
 
-- [AQ32 outlet exact archive](sandbox:/mnt/data/aq32archives/AQ32_OUTLET_METRIC_EXACT_archive.zip)
-- [AQ32-CR3D580 parent archive](sandbox:/mnt/data/aq32archives/AQ32-CR3D580-exact-archive.zip)
+- AQ32 outlet exact archive (`AQ32_OUTLET_METRIC_EXACT_archive.zip`)
+- AQ32-CR3D580 parent archive (`AQ32-CR3D580-exact-archive.zip`)
 
 ## 14. Mesh audit
 
@@ -427,7 +427,7 @@ P: 44,061 vertices, 88,118 triangles,
    signed volume about 4.301795208063975
 ```
 
-Every triangulation edge in both meshes has incidence exactly two. The Q OBJ/STL, Q exact row/face/edge files, certificate, and exact-data hashes are recorded in the archive checksum ledger.  :contentReference[oaicite:19]{index=19}
+Every triangulation edge in both meshes has incidence exactly two. The Q OBJ/STL, Q exact row/face/edge files, certificate, and exact-data hashes are recorded in the archive checksum ledger.
 
 ## Final research judgment
 

@@ -10,7 +10,7 @@ AI research report · 2026-08-30 UTC
 
 **No homogeneous convex polyhedral Gömböc was found in this continuation.** In particular, no positive-radius trace-one SPD box was isolated with strict own-centred `(S,U,H)=(1,1,0)`. The result is instead a complete exact/directed chamber atlas through the requested wall `19674 (3267→3303)`, then through the mechanically relevant successor `19880 (3302→3303)`, plus the independent post-`4421` survivor wall `21352 (3547→3582)`.
 
-The acceptance gate remains the journal’s literal uniform-volume, own-centroid, all-maximal-face/all-vertex/all-true-edge requirement; auxiliary centres and wall points do not qualify. :contentReference[oaicite:0]{index=0} The journal also records that the predecessor transport failed without publishing an immutable result and reassigned this exact frontier to slot 3, Nimble Comet 34. :contentReference[oaicite:1]{index=1}
+The acceptance gate remains the journal’s literal uniform-volume, own-centroid, all-maximal-face/all-vertex/all-true-edge requirement; auxiliary centres and wall points do not qualify. The journal also records that the predecessor transport failed without publishing an immutable result and reassigned this exact frontier to slot 3, Nimble Comet 34.
 
 ## What changed relative to the supplied journal
 
@@ -20,7 +20,7 @@ The interrupted worker-local bundle was recoverable from the persistent file lib
 30f8cfc921ff5341c04dc6b865112f6ef17d6a4f7443f0409d67ec661abae37b
 ```
 
-and reran its unified verifier from a fresh extraction. The rerun exited `0`, took `127.3693356513977` seconds, reconstructed the lattice and mechanics rather than trusting stored counts, and ended `PASS`. Therefore the predecessor direction is no longer mathematically unknown: its exact no-winner atlas is now surfaced, independently rerun, and augmented with explicit target-wall equations and a compact cell/sign ledger. The recovered certificate states the same literal nonwinner result and exact transitions. :contentReference[oaicite:2]{index=2}
+and reran its unified verifier from a fresh extraction. The rerun exited `0`, took `127.3693356513977` seconds, reconstructed the lattice and mechanics rather than trusting stored counts, and ended `PASS`. Therefore the predecessor direction is no longer mathematically unknown: its exact no-winner atlas is now surfaced, independently rerun, and augmented with explicit target-wall equations and a compact cell/sign ledger. The recovered certificate states the same literal nonwinner result and exact transitions.
 
 ## Exact fixed body, centring, and compact SPD domain
 
@@ -271,20 +271,20 @@ post-21352 / stable component 725:  wall 12042 (1984→2055)
 post-21352 / stable component 3582: wall 17162 (2847→2883).
 ```
 
-These are the exact first failures of the enlarged disjoint sink certificates, not coordinate scans. :contentReference[oaicite:3]{index=3} A successor should build actual wall-adjacent children outside the two certified `B(C,2)` regions and seek a coupled event that destroys both disjoint stable components before another stable birth. Refinement inside either relative cell is redundant.
+These are the exact first failures of the enlarged disjoint sink certificates, not coordinate scans. A successor should build actual wall-adjacent children outside the two certified `B(C,2)` regions and seek a coupled event that destroys both disjoint stable components before another stable birth. Refinement inside either relative cell is redundant.
 
 ## Independent verifier and artifacts
 
-The clean rerun verifies source hashes, the `(4324,8644,12966)` lattice, all seven full boxes, all five one-wall corridors, both long connectors and all `5,668` ordered roots, both relative cells and `544` outward boundaries, nonmembership in all `287` prior cells, H/V reconstruction, and the watertight mesh. The verifier’s published orchestration matches this scope. :contentReference[oaicite:4]{index=4}
+The clean rerun verifies source hashes, the `(4324,8644,12966)` lattice, all seven full boxes, all five one-wall corridors, both long connectors and all `5,668` ordered roots, both relative cells and `544` outward boundaries, nonmembership in all `287` prior cells, H/V reconstruction, and the watertight mesh. The verifier’s published orchestration matches this scope.
 
-- [Complete recovered-and-augmented exact atlas](sandbox:/mnt/data/Nimble_Comet_34_SPD_19674_exact_atlas.zip)
-- [Archive SHA-256](sandbox:/mnt/data/Nimble_Comet_34_SPD_19674_exact_atlas.zip.sha256): `6b62f03071e5a290f4aee0495e06366dfe82fb2d8f0f209133a3b89a2ca094a0`
-- [Full Markdown handoff](sandbox:/mnt/data/Nimble_Comet_34_SPD_19674_handoff.md)
-- [Independent rerun transcript](sandbox:/mnt/data/Nimble_Comet_34_independent_rerun.log)
-- [Strongest endpoint H table](sandbox:/mnt/data/Nimble_Comet_34_O19880_post_H.csv)
-- [Strongest endpoint V table](sandbox:/mnt/data/Nimble_Comet_34_O19880_post_V.csv)
-- [Watertight OBJ](sandbox:/mnt/data/Nimble_Comet_34_O19880_post.obj)
-- [Watertight STL](sandbox:/mnt/data/Nimble_Comet_34_O19880_post.stl)
+- Complete recovered-and-augmented exact atlas (`Nimble_Comet_34_SPD_19674_exact_atlas.zip`)
+- Archive SHA-256 (`Nimble_Comet_34_SPD_19674_exact_atlas.zip.sha256`): `6b62f03071e5a290f4aee0495e06366dfe82fb2d8f0f209133a3b89a2ca094a0`
+- Full Markdown handoff (`Nimble_Comet_34_SPD_19674_handoff.md`)
+- Independent rerun transcript (`Nimble_Comet_34_independent_rerun.log`)
+- Strongest endpoint H table (`Nimble_Comet_34_O19880_post_H.csv`)
+- Strongest endpoint V table (`Nimble_Comet_34_O19880_post_V.csv`)
+- Watertight OBJ (`Nimble_Comet_34_O19880_post.obj`)
+- Watertight STL (`Nimble_Comet_34_O19880_post.stl`)
 
 ## Unresolved uncertainty
 

@@ -16,7 +16,7 @@ I did **not** obtain a strict homogeneous polyhedral Gömböc. The acceptance ta
 - an exact 22-support, 40-vertex own-centred endpoint with exhaustive H/V/face/edge/full-normal-cone audit, positive perturbation radius, independent verifier, and watertight OBJ/STL;
 - a rigorous endpoint-local theorem excluding every **one-new-row relay**, which identifies the smallest still-unexcluded continuation.
 
-The durable journal records P9's exact rows, incidence, `(2,2,2)` audit, norm-reversal obstruction, and the need for a communicating 10–14-support replacement. :contentReference[oaicite:0]{index=0} It also records the prior Bright-Comet 11-support endpoint and its desired four-circuit double-Y successor, but not that endpoint's coordinates or its 18-event path. :contentReference[oaicite:1]{index=1} Consequently, that particular predecessor could not be reconstructed literally from the durable state; I instead reconstructed P9 exactly and built a new exact path to a stronger, explicitly prismatic endpoint. This does not alter the journal's global status: no certified `(1,1,0)` object existed at the assignment boundary. :contentReference[oaicite:2]{index=2}
+The durable journal records P9's exact rows, incidence, `(2,2,2)` audit, norm-reversal obstruction, and the need for a communicating 10–14-support replacement. It also records the prior Bright-Comet 11-support endpoint and its desired four-circuit double-Y successor, but not that endpoint's coordinates or its 18-event path. Consequently, that particular predecessor could not be reconstructed literally from the durable state; I instead reconstructed P9 exactly and built a new exact path to a stronger, explicitly prismatic endpoint. This does not alter the journal's global status: no certified `(1,1,0)` object existed at the assignment boundary.
 
 ## Exact reconstruction of P9
 
@@ -44,7 +44,7 @@ The reconstructed seed has `(F,E,V,C)=(9,21,14,42)`, raw volume `0.4411466153008
 - unstable triples: `(o9,o100,o103)`, `(o15,o26,o27)`;
 - saddle row-pairs: `(o13,o26)`, `(o27,o100)`.
 
-Complete exact P9 data and meshes are in [p9_exact.json](sandbox:/mnt/data/p9_exact.json), [p9_source_rows_exact.csv](sandbox:/mnt/data/p9_source_rows_exact.csv), [p9_geometry.py](sandbox:/mnt/data/p9_geometry.py), [OBJ](sandbox:/mnt/data/p9_exact.obj), and [STL](sandbox:/mnt/data/p9_exact.stl).
+Complete exact P9 data and meshes are in p9_exact.json, p9_source_rows_exact.csv, p9_geometry.py, OBJ (`p9_exact.obj`), and STL (`p9_exact.stl`).
 
 ## Exact prismatic endpoint
 
@@ -85,11 +85,11 @@ The final own-centred rows are exactly
 
 The expanded rational H-data, all exact vertices, active triples, maximal face cycles, and true edges are supplied rather than truncated in prose:
 
-- [complete exact endpoint JSON](sandbox:/mnt/data/belt_222_dyadic20_exact.json);
-- [compact dyadic source rows](sandbox:/mnt/data/belt_222_source_rows_dyadic20.csv);
-- [expanded centred H rows](sandbox:/mnt/data/belt_222_centered_H.csv);
-- [expanded exact V-data](sandbox:/mnt/data/belt_222_vertices.csv);
-- [compact incidence complex](sandbox:/mnt/data/belt_222_incidence_compact.json).
+- complete exact endpoint JSON (`belt_222_dyadic20_exact.json`);
+- compact dyadic source rows (`belt_222_source_rows_dyadic20.csv`);
+- expanded centred H rows (`belt_222_centered_H.csv`);
+- expanded exact V-data (`belt_222_vertices.csv`);
+- compact incidence complex (`belt_222_incidence_compact.json`).
 
 The endpoint has `(F,E,V,C)=(22,60,40,122)`, Euler characteristic two, exact ordinary centroid zero, volume `0.21481741875733254`, and exact centred inactive separation `0.00034337080922406646`.
 
@@ -133,7 +133,7 @@ Every other face is certified nonstable, every other vertex cone has a strictly 
 
 I used a fixed 26-row affine raw-support homotopy. New rail rows begin as generic dyadic interior points; obsolete P9 rows end as generic dyadic interior points. At every parameter value the three ordinary moments are eliminated by the exact dependent projective translation control described below. All affine 4-row determinant polynomials were enumerated and every actual hull event was isolated.
 
-There are 47 events: 26 `2→2` flips, 17 `1→3` activations, and 4 `3→1` deactivations. The complete exact integer polynomials and rational root intervals are in [p9_to_prism_circuit_atlas_exact.json](sandbox:/mnt/data/p9_to_prism_circuit_atlas_exact.json). The circuit identities are:
+There are 47 events: 26 `2→2` flips, 17 `1→3` activations, and 4 `3→1` deactivations. The complete exact integer polynomials and rational root intervals are in p9_to_prism_circuit_atlas_exact.json. The circuit identities are:
 
 | # | type | `t` decimal locator | exact circuit row set |
 |---:|:---:|---:|---|
@@ -204,7 +204,7 @@ All 48 samples have positive certified inactive and mechanical-decision lower bo
 - 5 cells of `(3,3,4)`;
 - 6 cells of `(4,2,4)`.
 
-No open cell has `(1,1,0)`. The final open-cell sample has centred inactive lower bound `2.5954823185313247e-4` and mechanical decision lower bound `1.2042992929909779e-4`. The complete atlas is [p9_to_prism_chamber_audit_interval.json](sandbox:/mnt/data/p9_to_prism_chamber_audit_interval.json).
+No open cell has `(1,1,0)`. The final open-cell sample has centred inactive lower bound `2.5954823185313247e-4` and mechanical decision lower bound `1.2042992929909779e-4`. The complete atlas is p9_to_prism_chamber_audit_interval.json.
 
 ## Isolated ordinary-moment root and rank-three controls
 
@@ -219,7 +219,7 @@ This is not a numerical centring heuristic: exactly `P(u)=P(B)-u`. Therefore
 - ordinary first moment: `M(u)=V(c_B-u)`;
 - Jacobian: `DM=-V I_3`, rank three, determinant `-V^3`.
 
-The unique positive-denominator root is the exact rational `u=c_B`. For the final endpoint it is isolated in a dyadic box of width `2^-120≈7.52316384526264e-37`. Full exact data are in [belt_222_moment_root_box.json](sandbox:/mnt/data/belt_222_moment_root_box.json).
+The unique positive-denominator root is the exact rational `u=c_B`. For the final endpoint it is isolated in a dyadic box of width `2^-120≈7.52316384526264e-37`. Full exact data are in belt_222_moment_root_box.json.
 
 ## Positive perturbation radius
 
@@ -235,11 +235,11 @@ followed by recomputation of the exact dependent centroid control. On that entir
 - centred inactive lower bound is `0.00026136851897556066`;
 - mechanical decision lower bound is `2.0432197503427553e-05`.
 
-The enclosure at `2^-27` was inconclusive and is not claimed. Certificate: [belt_222_perturbation_radius_interval.json](sandbox:/mnt/data/belt_222_perturbation_radius_interval.json).
+The enclosure at `2^-27` was inconclusive and is not claimed. Certificate: belt_222_perturbation_radius_interval.json.
 
 ## Independent verifier and meshes
 
-The clean-room verifier [verify_p9_prismatic_cleanroom.py](sandbox:/mnt/data/verify_p9_prismatic_cleanroom.py) imports none of the construction routines. Using exact `Fraction` arithmetic, it independently:
+The clean-room verifier verify_p9_prismatic_cleanroom.py imports none of the construction routines. Using exact `Fraction` arithmetic, it independently:
 
 1. reconstructs all feasible intersections among `C(22,3)` triples;
 2. proves 40 simple vertices, 22 irredundant maximal faces, 60 true edges, and Euler consistency;
@@ -249,9 +249,9 @@ The clean-room verifier [verify_p9_prismatic_cleanroom.py](sandbox:/mnt/data/ver
 6. audits every stable face, every full vertex normal cone, and all four components of every true edge;
 7. checks the OBJ vertex/facet inventory.
 
-It returns `PASS`; canonical source-row SHA-256 is `516658719e00416c0f9aa75347f5a79128e47dd9ebaac123ae62e4f1e31b23a1`. Report: [verify_p9_prismatic_report.json](sandbox:/mnt/data/verify_p9_prismatic_report.json).
+It returns `PASS`; canonical source-row SHA-256 is `516658719e00416c0f9aa75347f5a79128e47dd9ebaac123ae62e4f1e31b23a1`. Report: verify_p9_prismatic_report.json.
 
-The endpoint [OBJ](sandbox:/mnt/data/belt_222_dyadic20.obj) and [STL](sandbox:/mnt/data/belt_222_dyadic20.stl) independently load as watertight, consistently wound genus-zero volumes with 40 merged vertices, 76 triangles, Euler number two, and volume `0.2148174187573326`. Mesh report: [mesh_validation_report.json](sandbox:/mnt/data/mesh_validation_report.json).
+The endpoint OBJ (`belt_222_dyadic20.obj`) and STL (`belt_222_dyadic20.stl`) independently load as watertight, consistently wound genus-zero volumes with 40 merged vertices, 76 triangles, Euler number two, and volume `0.2148174187573326`. Mesh report: mesh_validation_report.json.
 
 ## First remaining obstruction
 
@@ -271,7 +271,7 @@ and
 
 `(2||q||²-q·w)²-||q||²||w||²>0`.
 
-Hence the maximum is strictly below `||q||²` for every `w`. The tightest row is `B0`, but even it reaches only the ratio `0.6697348948348723`. Therefore **one new relay row is impossible** at this endpoint. Full exact guards are in [belt_222_one_relay_obstruction_exact.json](sandbox:/mnt/data/belt_222_one_relay_obstruction_exact.json).
+Hence the maximum is strictly below `||q||²` for every `w`. The tightest row is `B0`, but even it reaches only the ratio `0.6697348948348723`. Therefore **one new relay row is impossible** at this endpoint. Full exact guards are in belt_222_one_relay_obstruction_exact.json.
 
 There is a second coupled obstruction: `||H_o9||≈12.6811593` exceeds `||H_o27||≈12.1902311`. Any strict witness chain has increasing projected radius, so the continuation must simultaneously reverse the target norm/support-centroid ordering rather than merely append a local cap.
 
@@ -293,4 +293,4 @@ This is an endpoint-local lower bound and continuation design, not a claim of gl
 
 ## Reusable artifact bundle
 
-The complete bundle, including README and SHA-256 manifest, is [p9_prismatic_research_bundle.zip](sandbox:/mnt/data/p9_prismatic_research_bundle.zip). The archive contains `SHA256SUMS_P9_PRISMATIC.txt` for every member.
+The complete bundle, including README and SHA-256 manifest, is p9_prismatic_research_bundle.zip. The archive contains `SHA256SUMS_P9_PRISMATIC.txt` for every member.

@@ -21,7 +21,7 @@ The locus is a genuine positive-definite one-dimensional algebraic branch. It is
 
 The quartet is also pre-empted on the canonical source-to-locus route. After 116 simple, pairwise-separated but mechanically neutral primitive roots, vertex wall `16494` is the first equilibrium-changing event. It births unstable vertex `699` together with saddle edge `8247`, changing `(2,2,2)` to `(2,3,3)`.
 
-The acceptance gate requires an exact finite own-centred H/V object, actual maximal faces and true edges, exhaustive positive-margin mechanics, an independent verifier, and OBJ/STL; auxiliary-centre, wall-point, smooth, near-solution, or unexpanded objects do not qualify. :contentReference[oaicite:0]{index=0}
+The acceptance gate requires an exact finite own-centred H/V object, actual maximal faces and true edges, exhaustive positive-margin mechanics, an independent verifier, and OBJ/STL; auxiliary-centre, wall-point, smooth, near-solution, or unexpanded objects do not qualify.
 
 ## Rigorous scope and provenance
 
@@ -307,32 +307,32 @@ The all-minus quartet chamber already contains stable rows `{489,524,2057,2092,2
 
 ## Reusable artifacts
 
-- [Complete exact NONWINNER archive](sandbox:/mnt/data/Calm_Quartz_90_joint4_exact_NONWINNER.zip)
-- [Full Markdown handoff](sandbox:/mnt/data/Calm_Quartz_90_joint4_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_joint4_result.json)
-- [Clean-extraction verification receipt](sandbox:/mnt/data/Calm_Quartz_90_joint4_clean_verification.json)
-- [Independent verifier](sandbox:/mnt/data/calm_quartz_joint4/verify_calm_quartz_joint4.py)
-- [Verifier output](sandbox:/mnt/data/calm_quartz_joint4/CALM_QUARTZ_JOINT4_VERIFY_OUTPUT.json)
-- [Exact conic model](sandbox:/mnt/data/calm_quartz_joint4/JOINT4_CENTRAL_CONIC_MODEL.json)
-- [Branch isolation certificate](sandbox:/mnt/data/calm_quartz_joint4/JOINT4_BRANCH_ISOLATION.json)
-- [Fixed-slice algebraic root](sandbox:/mnt/data/calm_quartz_joint4/JOINT4_FIXED_SLICE_ROOT.json)
-- [Protected-feature certificate](sandbox:/mnt/data/calm_quartz_joint4/JOINT4_PROTECTED_FEATURE_CERTIFICATE.json)
-- [Complete fixed-sign collar ledger](sandbox:/mnt/data/calm_quartz_joint4/JOINT4_COLLAR_FIXED_SIGNS.json.gz)
-- [Transverse fan](sandbox:/mnt/data/calm_quartz_joint4/JOINT4_TRANSVERSE_FAN.json)
-- [Sixteen-chamber atlas](sandbox:/mnt/data/calm_quartz_joint4/JOINT4_ORTHANT_ATLAS.json)
-- [Thirty-two local adjacencies](sandbox:/mnt/data/calm_quartz_joint4/JOINT4_LOCAL_ADJACENCY.json)
-- [Source-to-locus connector](sandbox:/mnt/data/calm_quartz_joint4/SOURCE_TO_JOINT4_LOCUS_CONNECTOR.json)
-- [First-event exact atlas](sandbox:/mnt/data/calm_quartz_joint4/SOURCE_FIRST_EVENT_EXACT_ATLAS.json)
-- [Strongest-box certificate](sandbox:/mnt/data/calm_quartz_joint4/PRE_16494_MATERIALIZATION.json)
-- [Strongest-box H data](sandbox:/mnt/data/calm_quartz_joint4/pre16494_H.csv)
-- [Strongest-box V data](sandbox:/mnt/data/calm_quartz_joint4/pre16494_V.csv)
-- [Strongest-box true edges](sandbox:/mnt/data/calm_quartz_joint4/pre16494_true_edges.csv)
-- [Strongest-box OBJ](sandbox:/mnt/data/calm_quartz_joint4/pre16494_mesh.obj)
-- [Strongest-box STL](sandbox:/mnt/data/calm_quartz_joint4/pre16494_mesh.stl)
-- [Exact integer generator](sandbox:/mnt/data/calm_quartz_joint4/generator.json)
-- [Actual topology](sandbox:/mnt/data/calm_quartz_joint4/topology.json)
-- [Complete wall manifest](sandbox:/mnt/data/calm_quartz_joint4/wall_system_manifest.json)
-- [Santaló Krawczyk certificate](sandbox:/mnt/data/calm_quartz_joint4/santalo_krawczyk_certificate.json)
+- Complete exact NONWINNER archive (`Calm_Quartz_90_joint4_exact_NONWINNER.zip`)
+- Full Markdown handoff (`Calm_Quartz_90_joint4_handoff.md`)
+- Structured result (`Calm_Quartz_90_joint4_result.json`)
+- Clean-extraction verification receipt (`Calm_Quartz_90_joint4_clean_verification.json`)
+- Independent verifier (`verify_calm_quartz_joint4.py`)
+- Verifier output (`CALM_QUARTZ_JOINT4_VERIFY_OUTPUT.json`)
+- Exact conic model (`JOINT4_CENTRAL_CONIC_MODEL.json`)
+- Branch isolation certificate (`JOINT4_BRANCH_ISOLATION.json`)
+- Fixed-slice algebraic root (`JOINT4_FIXED_SLICE_ROOT.json`)
+- Protected-feature certificate (`JOINT4_PROTECTED_FEATURE_CERTIFICATE.json`)
+- Complete fixed-sign collar ledger (`JOINT4_COLLAR_FIXED_SIGNS.json.gz`)
+- Transverse fan (`JOINT4_TRANSVERSE_FAN.json`)
+- Sixteen-chamber atlas (`JOINT4_ORTHANT_ATLAS.json`)
+- Thirty-two local adjacencies (`JOINT4_LOCAL_ADJACENCY.json`)
+- Source-to-locus connector (`SOURCE_TO_JOINT4_LOCUS_CONNECTOR.json`)
+- First-event exact atlas (`SOURCE_FIRST_EVENT_EXACT_ATLAS.json`)
+- Strongest-box certificate (`PRE_16494_MATERIALIZATION.json`)
+- Strongest-box H data (`pre16494_H.csv`)
+- Strongest-box V data (`pre16494_V.csv`)
+- Strongest-box true edges (`pre16494_true_edges.csv`)
+- Strongest-box OBJ (`pre16494_mesh.obj`)
+- Strongest-box STL (`pre16494_mesh.stl`)
+- Exact integer generator (`generator.json`)
+- Actual topology (`topology.json`)
+- Complete wall manifest (`wall_system_manifest.json`)
+- Santaló Krawczyk certificate (`santalo_krawczyk_certificate.json`)
 
 Package integrity:
 

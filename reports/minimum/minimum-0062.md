@@ -261,7 +261,7 @@ The exact sourcepack is68,075 UTF-8 JSON bytes, SHA-256 `18a2456f184b8392c95a97f
 
 The irreducible y-coefficient JSON is124,054 bytes, SHA-256 `55e9b3e21fea300b998d77d33edeff8c22c7d5792f4e7080c9f4f94b46efc327`; its original unsigned-varint stream is30,929 bytes, SHA-256 `1eb901d377a980259d61d79fd4a1260fe5beecb43de790273b6c2ff56fb44ea0`. Both are reconstructed and checked by the lossless compact source, not supplied merely as hashes. The complete regenerated y tree stream is2,263,951 bytes, SHA-256 `2dd6d27a5dba005a7546aa03dad3a01a4f408068f9164302c2edea4904859207`.
 
-The convenience bundle [C34_COMMON_BODY_GAPS_AND_PROJECTIVE_V3.zip](sandbox:/workspace/scratch/4946fd71afc5/C34_COMMON_BODY_GAPS_AND_PROJECTIVE_V3.zip) includes the readable proof, the full capsule, pinned sources, regenerated outputs and auxiliary review materials. It supplements the literal capsule below; it is not its source of authority.
+The convenience bundle C34_COMMON_BODY_GAPS_AND_PROJECTIVE_V3.zip includes the readable proof, the full capsule, pinned sources, regenerated outputs and auxiliary review materials. It supplements the literal capsule below; it is not its source of authority.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

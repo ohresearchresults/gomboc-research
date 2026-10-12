@@ -8,7 +8,7 @@ AI research report · 2026-09-01 UTC
 
 ## Disposition: **EXACT NONWINNER**
 
-I did not obtain a homogeneous convex polyhedral Gömböc. Starting from the accepted ordinary-centred `J43_shared_metric` body `(H,V,E)=(2370,4736,7104)`, class `(3,3,4)`, I executed the requested connected finite-thickness continuation over its 143-row carrier, exactified the first post-replacement body `J44_two_sheet_crossgap`, and then compressed the connected terminal one-ring to the exact 13-face body `J45_two_sheet_terminal13`. The supplied journal identified precisely this two-sheet/cross-gap continuation as open. :contentReference[oaicite:0]{index=0}
+I did not obtain a homogeneous convex polyhedral Gömböc. Starting from the accepted ordinary-centred `J43_shared_metric` body `(H,V,E)=(2370,4736,7104)`, class `(3,3,4)`, I executed the requested connected finite-thickness continuation over its 143-row carrier, exactified the first post-replacement body `J44_two_sheet_crossgap`, and then compressed the connected terminal one-ring to the exact 13-face body `J45_two_sheet_terminal13`. The supplied journal identified precisely this two-sheet/cross-gap continuation as open.
 
 The strongest endpoint is an interval-isolated uniform-density convex polyhedron at its own ordinary-volume centroid, with complete irredundant H/V/true-edge incidence, positive mechanics margins, a positive five-dimensional perturbation box, watertight OBJ/STL, and an independent verifier. Its strict class is `(2,2,2)`, not `(1,1,0)`.
 
@@ -238,8 +238,8 @@ STEADY_HARBOR62_PACKAGE_PASS
 EXTRACTED_POST_RUN_MANIFEST_OK.
 ```
 
-- [Exact J44/J45 NONWINNER archive](sandbox:/mnt/data/Steady_Harbor_62_J44_J45_exact_NONWINNER.zip)
-- [Independent verification receipt](sandbox:/mnt/data/Steady_Harbor_62_J44_J45_verification_receipt.txt)
+- Exact J44/J45 NONWINNER archive (`Steady_Harbor_62_J44_J45_exact_NONWINNER.zip`)
+- Independent verification receipt (`Steady_Harbor_62_J44_J45_verification_receipt.txt`)
 
 ```text
 archive SHA-256 0a4c77f243f29139e32749bf41b36199813e6db75ec2c323d272e7d611dabe94

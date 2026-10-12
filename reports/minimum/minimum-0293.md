@@ -56,7 +56,7 @@ The new source proves that all metrics preserving the same stable foot, modulo p
 
 `G=[[1/Q,0,0],[0,A,c],[0,c,B]]`,
 
-with `A>0`, `B>0`, `AB>c^2`. The target source primitive is exactly `u^T M e=c`. Its complete source-VE wall is `c=0`. The actual target-normal-cone condition on that wall is controlled by `a=r·p0`, `b=1-a`. fileciteturn18file0L19-L64
+with `A>0`, `B>0`, `AB>c^2`. The target source primitive is exactly `u^T M e=c`. Its complete source-VE wall is `c=0`. The actual target-normal-cone condition on that wall is controlled by `a=r·p0`, `b=1-a`.
 
 On this literal body the exact interval computation proves `a<0` (approximately `-0.16197900382989325`), while `Q` is approximately `10.957039100237484`. Therefore **there is no finite upper restriction on B: the entire positive quadrant A,B>0 is a genuine target-VE wall.** Both target EF primitives are strict throughout it, every other outgoing edge at u is strict negative, and facet3 stays strictly stable. This verifies, rather than assumes, the analytical note's relevant branch.
 
@@ -132,7 +132,7 @@ The analytical source's positive rank-one inverse family preserves p0 and has ta
 
 `D(1-s)/(1+s T_lambda C_lambda)`.
 
-For every `lambda>0`, its critical value is `s=1`, and every finite `s>=1` belongs to the c>=0 domain just excluded. Therefore the entire positive rank-one subclass has no clean target wall and no proper110 endpoint on its post-critical part. This follows from the larger physical-domain certificate; no separate sampled lambda search is substituted for it. fileciteturn19file0L9-L41
+For every `lambda>0`, its critical value is `s=1`, and every finite `s>=1` belongs to the c>=0 domain just excluded. Therefore the entire positive rank-one subclass has no clean target wall and no proper110 endpoint on its post-critical part. This follows from the larger physical-domain certificate; no separate sampled lambda search is substituted for it.
 
 ## 6. Proof of the post-side cover and its exact acceptance
 
@@ -315,7 +315,7 @@ cb6a6951d08e41b0bd6a4440a00b890c69567c5d79a04adc3e876186eeeaaca1
 
 Every nondefault tolerance, weight-rationalization denominator, grid, seed and optional search bound is in its complete source unit. Only the separate exploratory differential-evolution probe uses a random seed, fixed at59202. The exact acceptance does not depend on numerical software.
 
-Convenience copies: [standalone recovery](sandbox:/mnt/data/recover_c592_foot.py) and [complete sources, reports and receipts](sandbox:/mnt/data/c592_stable_foot_handoff.zip). The27-entry bundle is198807 bytes, SHA-256 `9e1e6962bbd03a279d01d1560abf1a016e90e106510329449b9face7c61d76c8`. These supplement the complete embedded recovery below. The results are author-executed exact certificates and mathematical proofs, not proof-assistant formalizations or a claimed independent coordinator replay.
+Convenience copies: standalone recovery (`recover_c592_foot.py`) and complete sources, reports and receipts (`c592_stable_foot_handoff.zip`). The27-entry bundle is198807 bytes, SHA-256 `9e1e6962bbd03a279d01d1560abf1a016e90e106510329449b9face7c61d76c8`. These supplement the complete embedded recovery below. The results are author-executed exact certificates and mathematical proofs, not proof-assistant formalizations or a claimed independent coordinator replay.
 
 ## 10. Complete self-contained recovery capsule
 

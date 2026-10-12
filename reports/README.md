@@ -1,6 +1,6 @@
 # Saved scientific reports
 
-898 AI research reports from the Figure and Minimum searches, in their original language. They include experiments, proof attempts and negative results. [Coverage](../catalog/coverage.md) summarizes verification status and export notes.
+898 AI research reports from the Figure and Minimum searches, in their original language. They include experiments, proof attempts and negative results. [Coverage](../catalog/coverage.md) summarizes verification status and export notes; [notation](../catalog/README.md#notation) explains the recurring shorthand.
 
 [Browse and search the catalog](https://ohresearchresults.github.io/gomboc-research/) · [Machine-readable index](../catalog/reports.json)
 
@@ -9,18 +9,18 @@
 | Date (UTC) | Report | Scientific title |
 | --- | --- | --- |
 | 2026-08-22 | [figure-0025](figure/figure-0025.md) | Exact global attack: completed exclusion theorem |
-| 2026-08-22 | [figure-0026](figure/figure-0026.md) | Result |
+| 2026-08-22 | [figure-0026](figure/figure-0026.md) | Result: I completed the exact-certification direction and implemented it as an executable package |
 | 2026-08-22 | [figure-0027](figure/figure-0027.md) | Conway-polar auxiliary-center continuation: explicit strict wall crossing |
 | 2026-08-22 | [figure-0028](figure/figure-0028.md) | Result: exact exclusion of the adjacent fixed-normal Reshetov programme |
 | 2026-08-22 | [figure-0029](figure/figure-0029.md) | Explicit full-basin maximum–saddle cancellation for Reshetov’s 14-face polyhedron |
 | 2026-08-22 | [figure-0030](figure/figure-0030.md) | Exact eight-cap moment-control theorem for the rational Reshetov cancellation seed |
-| 2026-08-22 | [figure-0031](figure/figure-0031.md) | Verdict |
+| 2026-08-22 | [figure-0031](figure/figure-0031.md) | Verdict: No already-published finite homogeneous polyhedral Gömböc was recovered from the accessible 2026 repository/archive… |
 | 2026-08-22 | [figure-0032](figure/figure-0032.md) | Exact nonsimple-boundary classification of the Reshetov obstruction |
 | 2026-08-22 | [figure-0033](figure/figure-0033.md) | Result: exact shell obstruction and a rational threshold corridor |
 | 2026-08-22 | [figure-0034](figure/figure-0034.md) | Pattern A resolved by a global exact obstruction |
 | 2026-08-22 | [figure-0035](figure/figure-0035.md) | Low-complexity homogeneous polyhedral Gömböc direction |
 | 2026-08-22 | [figure-0036](figure/figure-0036.md) | Complete resolution of the seven-vertex remainder |
-| 2026-08-22 | [figure-0037](figure/figure-0037.md) | Result |
+| 2026-08-22 | [figure-0037](figure/figure-0037.md) | Result: I do not claim an exact-certified strict rational S=1,U=1,H=0 witness |
 | 2026-08-23 | [figure-0038](figure/figure-0038.md) | Verifier-gated circumscribed polyhedral Gömböc result |
 | 2026-08-23 | [figure-0039](figure/figure-0039.md) | Effective circumscribed transfer theorem for the exact spectral-phase seed |
 | 2026-08-23 | [figure-0040](figure/figure-0040.md) | Recovered affine corridor and exact asymmetric-cap closure package |
@@ -30,14 +30,14 @@
 | 2026-08-23 | [figure-0044](figure/figure-0044.md) | Decisive result for the verifier-gated circumscribed branch |
 | 2026-08-23 | [figure-0045](figure/figure-0045.md) | Exact yes/no outcome for the affine-corridor asymmetric-cap route |
 | 2026-08-23 | [figure-0046](figure/figure-0046.md) | Decisive audit of SPG-EFFECTIVE |
-| 2026-08-23 | [figure-0047](figure/figure-0047.md) | Decisive independent verdict |
-| 2026-08-23 | [figure-0048](figure/figure-0048.md) | Outcome |
+| 2026-08-23 | [figure-0047](figure/figure-0047.md) | Decisive independent verdict: PASS at theorem level |
+| 2026-08-23 | [figure-0048](figure/figure-0048.md) | Outcome: The required deliverable has not been obtained |
 | 2026-08-23 | [figure-0049](figure/figure-0049.md) | Result of the Conway/polar support-patch direction |
 | 2026-08-24 | [figure-0050](figure/figure-0050.md) | Результат topology-changing coordinate search |
-| 2026-08-24 | [figure-0051](figure/figure-0051.md) | Итог направления |
-| 2026-08-24 | [figure-0052](figure/figure-0052.md) | Verdict |
-| 2026-08-24 | [figure-0053](figure/figure-0053.md) | Итог направления |
-| 2026-08-24 | [figure-0054](figure/figure-0054.md) | Continuation result |
+| 2026-08-24 | [figure-0051](figure/figure-0051.md) | Итог направления: Проверенный однородный полиэдральный гёмбёц в этом направлении не найден |
+| 2026-08-24 | [figure-0052](figure/figure-0052.md) | Verdict: This direction did not produce an accepted homogeneous polyhedral Gömböc |
+| 2026-08-24 | [figure-0053](figure/figure-0053.md) | Итог направления: Материализованный однородный выпуклый полиэдральный гёмбёц с механикой относительно собственного объёмного… |
+| 2026-08-24 | [figure-0054](figure/figure-0054.md) | Continuation result: No finite homogeneous polyhedral Gömböc with strict own-centroid class (1,1,0) was certified |
 | 2026-08-24 | [figure-0055](figure/figure-0055.md) | Continued Conway-polar investigation |
 | 2026-08-25 | [figure-0056](figure/figure-0056.md) | Нелинейный 192-ветвевой поиск для 13-гранного кандидата |
 | 2026-08-25 | [figure-0057](figure/figure-0057.md) | Simultaneous multi-vertex replacement of the Conway polar chain |
@@ -49,35 +49,35 @@
 | 2026-08-25 | [figure-0063](figure/figure-0063.md) | Topology-free Santaló-polar continuation: interval-certified asymmetric family, no winner |
 | 2026-08-25 | [figure-0064](figure/figure-0064.md) | Literal finite Sloan–Lángi construction: completed handoff |
 | 2026-08-25 | [figure-0065](figure/figure-0065.md) | Chiral multilayer-tower search: self-contained handoff |
-| 2026-08-25 | [figure-0066](figure/figure-0066.md) | Outcome |
-| 2026-08-25 | [figure-0067](figure/figure-0067.md) | Verdict |
+| 2026-08-25 | [figure-0066](figure/figure-0066.md) | Outcome: No finite homogeneous polyhedral Gömböc was found in this direction |
+| 2026-08-25 | [figure-0067](figure/figure-0067.md) | Verdict: No strict homogeneous polyhedral Gömböc was found in this direction |
 | 2026-08-25 | [figure-0068](figure/figure-0068.md) | Complete research handoff — algebraically centered stacked/tetrahedral family |
-| 2026-08-25 | [figure-0069](figure/figure-0069.md) | Verdict |
+| 2026-08-25 | [figure-0069](figure/figure-0069.md) | Verdict: No strict homogeneous polyhedral Gömböc was found |
 | 2026-08-26 | [figure-0070](figure/figure-0070.md) | Bilateral P2 handoff — no certified winner |
 | 2026-08-26 | [figure-0071](figure/figure-0071.md) | Bright Comet 68 — low-vertex frontier handoff |
-| 2026-08-26 | [figure-0072](figure/figure-0072.md) | Verdict |
+| 2026-08-26 | [figure-0072](figure/figure-0072.md) | Verdict: No finite homogeneous polyhedral Gömböc was obtained |
 | 2026-08-26 | [figure-0073](figure/figure-0073.md) | Skew-prismatoid/generalized-antiprism direction — complete handoff |
 | 2026-08-26 | [figure-0074](figure/figure-0074.md) | Complete research handoff — coupled two-region continuation from exact body B |
 | 2026-08-26 | [figure-0075](figure/figure-0075.md) | Simultaneous full-dual-basin P2 replacement — complete handoff |
 | 2026-08-26 | [figure-0076](figure/figure-0076.md) | Bright Comet 68 — connected two-pair surgery handoff |
-| 2026-08-26 | [figure-0077](figure/figure-0077.md) | Verdict |
-| 2026-08-26 | [figure-0078](figure/figure-0078.md) | Verdict |
+| 2026-08-26 | [figure-0077](figure/figure-0077.md) | Verdict: No strict own-centroid homogeneous convex polyhedral Gömböc was found |
+| 2026-08-26 | [figure-0078](figure/figure-0078.md) | Verdict: No strict homogeneous convex polyhedral Gömböc was found |
 | 2026-08-26 | [figure-0079](figure/figure-0079.md) | Exact whole-block continuation — negative handoff |
 | 2026-08-26 | [figure-0080](figure/figure-0080.md) | Rapid Atlas 90 — coupled P28 defect-patch handoff |
 | 2026-08-26 | [figure-0081](figure/figure-0081.md) | Complete research handoff — deleting X's obstruction edge |
 | 2026-08-26 | [figure-0082](figure/figure-0082.md) | Skew-prismatoid whole-basin continuation — complete handoff |
-| 2026-08-26 | [figure-0083](figure/figure-0083.md) | Determination |
+| 2026-08-26 | [figure-0083](figure/figure-0083.md) | Determination: This continuation did not find a strict homogeneous polyhedral Gömböc |
 | 2026-08-26 | [figure-0084](figure/figure-0084.md) | Bright Comet 68 — whole-block replacement handoff |
 | 2026-08-26 | [figure-0085](figure/figure-0085.md) | Branched-annular P2 continuation — complete handoff |
 | 2026-08-26 | [figure-0086](figure/figure-0086.md) | Rapid Atlas 90 — P17 four-support three-circuit continuation |
-| 2026-08-26 | [figure-0087](figure/figure-0087.md) | Complete research handoff |
-| 2026-08-26 | [figure-0088](figure/figure-0088.md) | High-curvature `k=3` Fourier-phase branch: resolved verdict and topology-changing continuation |
-| 2026-08-26 | [figure-0089](figure/figure-0089.md) | Determination |
+| 2026-08-26 | [figure-0087](figure/figure-0087.md) | Complete research handoff: The authoritative, self-contained research result is COMPLETE_HANDOFF.md |
+| 2026-08-26 | [figure-0088](figure/figure-0088.md) | High-curvature k=3 Fourier-phase branch: resolved verdict and topology-changing continuation |
+| 2026-08-26 | [figure-0089](figure/figure-0089.md) | Determination: No finite homogeneous polyhedral Gömböc was obtained |
 | 2026-08-26 | [figure-0090](figure/figure-0090.md) | Complete handoff — volume-moving bifurcated continuation from endpoint F |
 | 2026-08-26 | [figure-0091](figure/figure-0091.md) | Long bifurcated source-strip continuation |
 | 2026-08-26 | [figure-0092](figure/figure-0092.md) | Rapid Atlas 90 — P15 whole-star continuation |
-| 2026-08-26 | [figure-0093](figure/figure-0093.md) | Verdict |
-| 2026-08-26 | [figure-0094](figure/figure-0094.md) | Verdict |
+| 2026-08-26 | [figure-0093](figure/figure-0093.md) | Verdict: No finite homogeneous convex polyhedral Gömböc was found |
+| 2026-08-26 | [figure-0094](figure/figure-0094.md) | Verdict: No finite homogeneous convex polyhedral Gömböc was certified in this turn |
 | 2026-08-27 | [figure-0095](figure/figure-0095.md) | Result: exact three-sheet/two-band Santaló annulus fallback |
 | 2026-08-27 | [figure-0096](figure/figure-0096.md) | Result: exact post-three-lobe fallback, no Gömböc |
 | 2026-08-27 | [figure-0097](figure/figure-0097.md) | P9 communicating-annulus post-event body — exact fallback handoff |
@@ -86,54 +86,54 @@
 | 2026-08-27 | [figure-0100](figure/figure-0100.md) | Finite-construction handoff |
 | 2026-08-27 | [figure-0101](figure/figure-0101.md) | Complete handoff: no Gömböc; exact post-deactivation long-strip fallback |
 | 2026-08-27 | [figure-0102](figure/figure-0102.md) | Coupled post-ladder surgery handoff |
-| 2026-08-27 | [figure-0103](figure/figure-0103.md) | Literal verdict |
+| 2026-08-27 | [figure-0103](figure/figure-0103.md) | Literal verdict: NONWINNER. No construction-centre-only body, near-root body, or floating-point sign audit is accepted as a… |
 | 2026-08-27 | [figure-0104](figure/figure-0104.md) | Nested two-cycle / sixteen-block Santaló continuation |
-| 2026-08-27 | [figure-0105](figure/figure-0105.md) | The complete finite result—including the final clean-verifier status, isolated coefficient box or first certified blocker, exact binary support-row family, thre |
+| 2026-08-27 | [figure-0105](figure/figure-0105.md) | The complete finite result—including the final clean-verifier status, isolated coefficient box or first certified blocker, exact binary… |
 | 2026-08-27 | [figure-0106](figure/figure-0106.md) | Rapid Maple 23 — complete finite handoff |
-| 2026-08-27 | [figure-0107](figure/figure-0107.md) | Literal verdict |
+| 2026-08-27 | [figure-0107](figure/figure-0107.md) | Literal verdict: NONWINNER. The selected distributed three-profile moment zero is rigorously isolated only for a counterfactual… |
 | 2026-08-27 | [figure-0108](figure/figure-0108.md) | Sharp Comet 13 — exact distributed moment-compensator handoff |
 | 2026-08-27 | [figure-0109](figure/figure-0109.md) | Complete handoff: exact cross-linked-sheet fallback, no Gömböc |
 | 2026-08-27 | [figure-0110](figure/figure-0110.md) | Slot-4 exact two-collar continuation — certified finite negative result |
-| 2026-08-27 | [figure-0111](figure/figure-0111.md) | Complete research handoff |
+| 2026-08-27 | [figure-0111](figure/figure-0111.md) | Complete research handoff: The branch-specific, machine-generated result is preserved in the following artifacts: |
 | 2026-08-27 | [figure-0112](figure/figure-0112.md) | Fixed-cover Santaló-plus-SPD search — literal resolved outcome |
 | 2026-08-27 | [figure-0113](figure/figure-0113.md) | Slot-4 exact post-wall continuation: finite negative atlas |
-| 2026-08-27 | [figure-0114](figure/figure-0114.md) | Verdict |
+| 2026-08-27 | [figure-0114](figure/figure-0114.md) | Verdict: No literal homogeneous polyhedral Gömböc was reached in this direction |
 | 2026-08-27 | [figure-0115](figure/figure-0115.md) | Calm Lynx 78 — exact equatorial four-star / 2×2 zipper handoff |
 | 2026-08-27 | [figure-0116](figure/figure-0116.md) | Fourier-balanced ring continuation — terminal handoff |
 | 2026-08-27 | [figure-0117](figure/figure-0117.md) | Slot-4 handoff: exact exclusion of the complete connected C3 chamber |
-| 2026-08-27 | [figure-0118](figure/figure-0118.md) | Determination |
+| 2026-08-27 | [figure-0118](figure/figure-0118.md) | Determination: No strict finite homogeneous polyhedral Gömböc was found |
 | 2026-08-27 | [figure-0119](figure/figure-0119.md) | Slot-4 far-side independent-cell result |
 | 2026-08-27 | [figure-0120](figure/figure-0120.md) | Conway counterphased two-cell collar — complete research handoff |
-| 2026-08-27 | [figure-0121](figure/figure-0121.md) | Literal verdict |
+| 2026-08-27 | [figure-0121](figure/figure-0121.md) | Literal verdict: NO — I did not obtain a strict own-centroid (S,U,H)=(1,1,0) polyhedron |
 | 2026-08-27 | [figure-0122](figure/figure-0122.md) | Fixed-cover Santaló-centred SPD orbit: exact wall system, certified global collars, and the remaining compact core |
 | 2026-08-27 | [figure-0123](figure/figure-0123.md) | Vertically mode-one Conway collar — terminal exact handoff |
-| 2026-08-27 | [figure-0124](figure/figure-0124.md) | Determination |
+| 2026-08-27 | [figure-0124](figure/figure-0124.md) | Determination: No strict homogeneous convex polyhedral Gömböc was found |
 | 2026-08-27 | [figure-0125](figure/figure-0125.md) | Nimble Finch 54 — continued Fourier/Santaló finite-construction handoff |
-| 2026-08-27 | [figure-0126](figure/figure-0126.md) | Literal verdict |
+| 2026-08-27 | [figure-0126](figure/figure-0126.md) | Literal verdict: NO WINNER. I constructed and certified a genuine exact shared multiwall deformation of the seven-face summand D… |
 | 2026-08-28 | [figure-0127](figure/figure-0127.md) | Calm Lynx 78 — exact inner-star lens continuation |
 | 2026-08-28 | [figure-0128](figure/figure-0128.md) | Quantitative refinement-plus-Santaló handoff |
 | 2026-08-28 | [figure-0129](figure/figure-0129.md) | Exact/directed asymmetric-belt continuation — slot-4 handoff |
 | 2026-08-28 | [figure-0130](figure/figure-0130.md) | P9 shared-multiwall assignment — exact nonwinner handoff |
 | 2026-08-28 | [figure-0131](figure/figure-0131.md) | Calm Atlas 34 — finite endpoint, obstruction, and continuation |
-| 2026-08-28 | [figure-0132](figure/figure-0132.md) | Determination |
+| 2026-08-28 | [figure-0132](figure/figure-0132.md) | Determination: No winner. I materialized a genuine finite-width, four-sector two-cell/Y-zipper beyond the M42 terminal relay and… |
 | 2026-08-28 | [figure-0133](figure/figure-0133.md) | Conway upper mode-two / counter-rotating continuation — exact finite handoff |
 | 2026-08-28 | [figure-0134](figure/figure-0134.md) | Research handoff: M42 minimal 13-face/two-rail continuation |
 | 2026-08-28 | [figure-0135](figure/figure-0135.md) | Rapid Quartz 69 — finite AQ16 collar materialization |
 | 2026-08-28 | [figure-0136](figure/figure-0136.md) | Calm Atlas 34 — exact one-wall tree–cotree obstruction |
 | 2026-08-28 | [figure-0137](figure/figure-0137.md) | Exact rank-two fan-changing Minkowski atlas |
-| 2026-08-28 | [figure-0138](figure/figure-0138.md) | The complete reusable handoff—including the exact outcome classification, all old/new rational inputs, ordinary-volume and first-moment certificate, rebuilt irr |
+| 2026-08-28 | [figure-0138](figure/figure-0138.md) | The complete reusable handoff—including the exact outcome classification, all old/new rational inputs, ordinary-volume and first-moment… |
 | 2026-08-28 | [figure-0139](figure/figure-0139.md) | Steady Willow 49 — bounded trace-one SPD core continuation |
 | 2026-08-28 | [figure-0140](figure/figure-0140.md) | Keen Quartz 40 — exact multidimensional whole-pair continuation |
 | 2026-08-28 | [figure-0141](figure/figure-0141.md) | Calm Lynx 78 — exact paired whole-packet continuation |
-| 2026-08-28 | [figure-0142](figure/figure-0142.md) | Complete research handoff |
+| 2026-08-28 | [figure-0142](figure/figure-0142.md) | Complete research handoff: The connected three-patch investigation, exactification branch, and strongest materialized fallback… |
 | 2026-08-28 | [figure-0143](figure/figure-0143.md) | M42 volumetric successor: literal recovered outcome |
 | 2026-08-28 | [figure-0144](figure/figure-0144.md) | Steady Willow 49 — exact four-wall continuation inside the fixed 4,324-row trace-one SPD core |
 | 2026-08-29 | [figure-0145](figure/figure-0145.md) | Calm Atlas 34 — exact matching/circuit atlas for the wall-242 fan |
-| 2026-08-29 | [figure-0146](figure/figure-0146.md) | Literal verdict |
+| 2026-08-29 | [figure-0146](figure/figure-0146.md) | Literal verdict: NONWINNER. I did not obtain a finite uniform-density convex polyhedron with strict own-centroid (S,U,H)=(1,1,0) |
 | 2026-08-29 | [figure-0147](figure/figure-0147.md) | Rapid Quartz 69 — AQ32-A2 exact adaptive refinement |
 | 2026-08-29 | [figure-0148](figure/figure-0148.md) | Result: exact P9 reconstruction and a connected prismatic nonwinner |
 | 2026-08-29 | [figure-0149](figure/figure-0149.md) | Calm Lynx 78 — global support-connected network handoff |
-| 2026-08-29 | [figure-0150](figure/figure-0150.md) | Literal verdict |
+| 2026-08-29 | [figure-0150](figure/figure-0150.md) | Literal verdict: NONWINNER. I constructed and exactly certified the requested genuinely two-parameter connected guarded Y-family… |
 | 2026-08-29 | [figure-0151](figure/figure-0151.md) | Steady Willow 49 — exact first-exit atlas beyond R0/R1/R2 |
 | 2026-08-29 | [figure-0152](figure/figure-0152.md) | Keen Quartz 40 — replacement-layer continuation |
 | 2026-08-29 | [figure-0153](figure/figure-0153.md) | Calm Atlas 34 — broad-gate relay atlas and strongest finite endpoint |
@@ -141,7 +141,7 @@
 | 2026-08-29 | [figure-0155](figure/figure-0155.md) | M42 graded cross-linked volumetric witness sheet |
 | 2026-08-29 | [figure-0156](figure/figure-0156.md) | P9 shared-transverse-cross-edge continuation |
 | 2026-08-29 | [figure-0157](figure/figure-0157.md) | Steady Willow 49 — exact trace-one SPD continuation through walls 19672 and 4421 |
-| 2026-08-29 | [figure-0158](figure/figure-0158.md) | Literal verdict |
+| 2026-08-29 | [figure-0158](figure/figure-0158.md) | Literal verdict: NONWINNER. No strict own-centroid (S,U,H)=(1,1,0) polyhedron was obtained |
 | 2026-08-29 | [figure-0159](figure/figure-0159.md) | Calm Lynx 78 — connected residual-patch continuation |
 | 2026-08-29 | [figure-0160](figure/figure-0160.md) | Bright Lynx 56 — higher-rank Minkowski handoff |
 | 2026-08-29 | [figure-0161](figure/figure-0161.md) | Exact M42 edge-sharing two-nonsimplicial-cell continuation |
@@ -153,7 +153,7 @@
 | 2026-08-30 | [figure-0167](figure/figure-0167.md) | Rapid Quartz 33 — recovered joint eight-edge breaker |
 | 2026-08-30 | [figure-0168](figure/figure-0168.md) | Sharp Maple 55 — exact joint-component fixed-lattice determination |
 | 2026-08-30 | [figure-0169](figure/figure-0169.md) | Sharp Harbor 48 continuation — exact acute-component-merging M42 fifth cell |
-| 2026-08-30 | [figure-0170](figure/figure-0170.md) | Steady Comet 92 — exact complete replacement of the `E10` residual disk |
+| 2026-08-30 | [figure-0170](figure/figure-0170.md) | Steady Comet 92 — exact complete replacement of the E10 residual disk |
 | 2026-08-30 | [figure-0171](figure/figure-0171.md) | Bright Nova 52 — exact P9 finite-thickness three-cell successor |
 | 2026-09-01 | [figure-0172](figure/figure-0172.md) | Vivid Quartz 58 — exact handoff |
 | 2026-09-01 | [figure-0173](figure/figure-0173.md) | Calm Quartz 90 — exact fixed-lattice determination |
@@ -164,51 +164,51 @@
 | 2026-09-01 | [figure-0178](figure/figure-0178.md) | Steady Harbor 62 — exact J44/J45 finite determination |
 | 2026-09-01 | [figure-0179](figure/figure-0179.md) | Nimble Comet 70 — wall-242 post-replacement determination |
 | 2026-09-01 | [figure-0180](figure/figure-0180.md) | Vivid Quartz 58 — complete low-complexity realization-frontier handoff |
-| 2026-09-01 | [figure-0181](figure/figure-0181.md) | Clear Raven 08 continuation — exact rank-eight post-`CU10` determination |
+| 2026-09-01 | [figure-0181](figure/figure-0181.md) | Clear Raven 08 continuation — exact rank-eight post-CU10 determination |
 | 2026-09-01 | [figure-0182](figure/figure-0182.md) | Steady Willow 02 — exact finite handoff |
 | 2026-09-01 | [figure-0183](figure/figure-0183.md) | Steady Harbor 62 — exact shared-cell continuation from J45 |
 | 2026-09-01 | [figure-0184](figure/figure-0184.md) | Nimble Comet 70 — exact wall-242 coupled-cell determination |
 | 2026-09-01 | [figure-0185](figure/figure-0185.md) | Quiet Raven 13 — exact AQ32 outlet handoff |
 | 2026-09-01 | [figure-0186](figure/figure-0186.md) | Steady Willow 02 — exact P9-XG3 three-page shared-spine determination |
-| 2026-09-01 | [figure-0187](figure/figure-0187.md) | Clear Raven 08 — corrected rank-12 post-`CU10` continuation |
-| 2026-09-01 | [figure-0188](figure/figure-0188.md) | Vivid Quartz 58 — exact four-control continuation of `E10R` |
+| 2026-09-01 | [figure-0187](figure/figure-0187.md) | Clear Raven 08 — corrected rank-12 post-CU10 continuation |
+| 2026-09-01 | [figure-0188](figure/figure-0188.md) | Vivid Quartz 58 — exact four-control continuation of E10R |
 | 2026-09-01 | [figure-0189](figure/figure-0189.md) | Calm Quartz 90 — exact rank-five and genuine tube-exit determination |
 | 2026-09-01 | [figure-0190](figure/figure-0190.md) | Calm Quartz 90 — exact coordinated quartet determination |
 | 2026-09-01 | [figure-0191](figure/figure-0191.md) | Quiet Raven 13 — exact all-outlet volumetric continuation |
 | 2026-09-02 | [figure-0192](figure/figure-0192.md) | Steady Willow 02 — exact P9-XG4 fourth-page/shared-terminal determination |
-| 2026-09-02 | [figure-0193](figure/figure-0193.md) | Clear Raven 08 — full-rank post-`CU10` seven-facet continuation |
+| 2026-09-02 | [figure-0193](figure/figure-0193.md) | Clear Raven 08 — full-rank post-CU10 seven-facet continuation |
 | 2026-09-02 | [figure-0194](figure/figure-0194.md) | Nimble Comet 70 — wall-242 higher-valence shared-terminal determination |
 | 2026-09-02 | [figure-0195](figure/figure-0195.md) | Steady Quartz 25 — topology-first nonannular polar bridge |
-| 2026-09-02 | [figure-0196](figure/figure-0196.md) | Quiet Raven 13 — `AQ32-C0-FP4-D25` |
+| 2026-09-02 | [figure-0196](figure/figure-0196.md) | Quiet Raven 13 — AQ32-C0-FP4-D25 |
 | 2026-09-02 | [figure-0197](figure/figure-0197.md) | Calm Quartz 90 — exact nonlocal preserved-row obstruction |
 | 2026-09-02 | [figure-0198](figure/figure-0198.md) | Steady Quartz 25 — second finite-thickness cross-cap |
 | 2026-09-02 | [figure-0199](figure/figure-0199.md) | Vivid Atlas 32 — exact P9 two-row terminal determination |
 | 2026-09-02 | [figure-0200](figure/figure-0200.md) | Clear Raven 08 — exact nonsimple seven-facet shared-circuit determination |
 | 2026-09-02 | [figure-0201](figure/figure-0201.md) | Nimble Comet 79 — exact J45 higher-valence terminal determination |
-| 2026-09-02 | [figure-0202](figure/figure-0202.md) | Calm Maple 15 — exact post-`AQ32-C0-FP4-D25` determination |
+| 2026-09-02 | [figure-0202](figure/figure-0202.md) | Calm Maple 15 — exact post-AQ32-C0-FP4-D25 determination |
 | 2026-09-02 | [figure-0203](figure/figure-0203.md) | Calm Quartz 90 — global exact resolution of the alternate-stable-row frontier |
-| 2026-09-02 | [figure-0204](figure/figure-0204.md) | Vivid Quartz 58 — terminal-diamond continuation beyond `E19X` |
+| 2026-09-02 | [figure-0204](figure/figure-0204.md) | Vivid Quartz 58 — terminal-diamond continuation beyond E19X |
 | 2026-09-02 | [figure-0205](figure/figure-0205.md) | Steady Quartz 25 — exact five-point shared-volume handoff |
 | 2026-09-02 | [figure-0206](figure/figure-0206.md) | Calm Raven 06 — exact post-CU10 bridge-pair determination |
 | 2026-09-02 | [figure-0207](figure/figure-0207.md) | Calm Quartz 90 — exact wall-242 simultaneous four-circuit determination |
 | 2026-09-02 | [figure-0208](figure/figure-0208.md) | Calm Raven 06 — exact post-CU10 eleven-plane bridge-cell determination |
-| 2026-09-02 | [figure-0209](figure/figure-0209.md) | Vivid Quartz 58 — exact two-page higher-valence continuation beyond `E21D` |
+| 2026-09-02 | [figure-0209](figure/figure-0209.md) | Vivid Quartz 58 — exact two-page higher-valence continuation beyond E21D |
 | 2026-09-02 | [figure-0210](figure/figure-0210.md) | Vivid Atlas 32 — P9-XG6 second-spine/fifth-page exact determination |
 | 2026-09-02 | [figure-0211](figure/figure-0211.md) | Calm Quartz 90 — exact wall-242 fifth-circuit shared-terminal handoff |
 | 2026-09-02 | [figure-0212](figure/figure-0212.md) | Calm Raven 06 — exact post-CU10 linked double-cap determination |
 | 2026-09-02 | [figure-0213](figure/figure-0213.md) | Nimble Comet 79 — exact J48 codimension-three interior-cell determination |
 | 2026-09-02 | [figure-0214](figure/figure-0214.md) | Keen Quartz 89 — exact M42 acute-bridge fifth-cell handoff |
 | 2026-09-02 | [figure-0215](figure/figure-0215.md) | Calm Raven 06 — exact post-CU10 cross-linked terminal-volume determination |
-| 2026-09-02 | [figure-0216](figure/figure-0216.md) | Vivid Quartz 58 — exact continuation through `E18F` and the central-`Y` spine |
+| 2026-09-02 | [figure-0216](figure/figure-0216.md) | Vivid Quartz 58 — exact continuation through E18F and the central-Y spine |
 | 2026-09-02 | [figure-0217](figure/figure-0217.md) | Calm Quartz 90 — exact wall-242 second-support/two-cell determination |
 | 2026-09-02 | [figure-0218](figure/figure-0218.md) | Clear Willow 25 — complete research handoff |
 | 2026-09-02 | [figure-0219](figure/figure-0219.md) | Vivid Atlas 32 — exact P9-XG7 third-spine/sixth-page determination |
 | 2026-09-02 | [figure-0220](figure/figure-0220.md) | Nimble Comet 79 — exact J49 linked-double-octahedral terminal determination |
 | 2026-09-02 | [figure-0221](figure/figure-0221.md) | Bright Nova 91 — exact terminal-volume continuation |
-| 2026-09-02 | [figure-0222](figure/figure-0222.md) | Calm Maple 15 — exact global full-row successor beyond `AQ32-C0-SP2-FP5-G44` |
+| 2026-09-02 | [figure-0222](figure/figure-0222.md) | Calm Maple 15 — exact global full-row successor beyond AQ32-C0-SP2-FP5-G44 |
 | 2026-09-02 | [figure-0223](figure/figure-0223.md) | Keen Quartz 89 — exact M42 connected-route continuation |
 | 2026-09-02 | [figure-0224](figure/figure-0224.md) | Calm Quartz 90 — exact wall-242 third-support/full-star determination |
-| 2026-09-02 | [figure-0225](figure/figure-0225.md) | Vivid Quartz 58 — exact `E19Z` realization-frontier handoff |
+| 2026-09-02 | [figure-0225](figure/figure-0225.md) | Vivid Quartz 58 — exact E19Z realization-frontier handoff |
 | 2026-09-02 | [figure-0226](figure/figure-0226.md) | Calm Raven 06 — exact closed shared-interior-edge determination |
 | 2026-09-02 | [figure-0227](figure/figure-0227.md) | Vivid Atlas 32 — P9-XG8 exact three-row double-cap |
 | 2026-09-02 | [figure-0228](figure/figure-0228.md) | Bright Nova 91 — exact one-boundary triple-spine continuation |
@@ -227,14 +227,14 @@
 | 2026-09-03 | [figure-0241](figure/figure-0241.md) | Clear Willow 25 — exact active connected shared-volume determination |
 | 2026-09-03 | [figure-0242](figure/figure-0242.md) | Vivid Atlas 32 — P9-XG10 five-row carrier-free full-star determination |
 | 2026-09-03 | [figure-0243](figure/figure-0243.md) | Calm Quartz 90 — exact wall-242 sixth-support/full-star determination |
-| 2026-09-03 | [figure-0244](figure/figure-0244.md) | Vivid Quartz 58 — exact nonflippable-core continuation beyond `E25N` |
+| 2026-09-03 | [figure-0244](figure/figure-0244.md) | Vivid Quartz 58 — exact nonflippable-core continuation beyond E25N |
 | 2026-09-03 | [figure-0245](figure/figure-0245.md) | Keen Quartz 89 — exact M42 T37 escape continuation |
 | 2026-09-03 | [figure-0246](figure/figure-0246.md) | Calm Quartz 90 — exact wall-242 seventh two-support carrier cage |
 | 2026-09-03 | [figure-0247](figure/figure-0247.md) | Vivid Atlas 32 — P9-XG11 distributed seven-row target-star split |
 | 2026-09-03 | [figure-0248](figure/figure-0248.md) | Bright Nova 91 — exact forked four-stage terminal-volume handoff |
 | 2026-09-03 | [figure-0249](figure/figure-0249.md) | Calm Raven 06 — exact physical E8 continuation |
 | 2026-09-03 | [figure-0250](figure/figure-0250.md) | Calm Quartz 90 — exact eighth three-support carrier cage |
-| 2026-09-03 | [figure-0251](figure/figure-0251.md) | Vivid Quartz 58 — `E23-CY3` source-integrity determination |
+| 2026-09-03 | [figure-0251](figure/figure-0251.md) | Vivid Quartz 58 — E23-CY3 source-integrity determination |
 | 2026-09-03 | [figure-0252](figure/figure-0252.md) | Calm Raven 06 — exact physical E10 paired edge-surgery determination |
 | 2026-09-03 | [figure-0253](figure/figure-0253.md) | Calm Quartz 90 — exact ninth four-support carrier cage |
 | 2026-09-03 | [figure-0254](figure/figure-0254.md) | Bright Nova 91 — exact asymmetric open-V fifth-stage determination |
@@ -247,14 +247,14 @@
 | 2026-09-03 | [figure-0261](figure/figure-0261.md) | Clear Willow 25 — incomplete two-boundary drainage determination |
 | 2026-09-03 | [figure-0262](figure/figure-0262.md) | Calm Quartz 90 — exact wall-242 seventh-support linked cage |
 | 2026-09-03 | [figure-0263](figure/figure-0263.md) | Quiet Quartz 19 — exact P9-XG12 determination and changed-incidence continuation |
-| 2026-09-03 | [figure-0264](figure/figure-0264.md) | Calm Maple 15 — exact two-page/two-return successor `AQ32-G44-TP2R2-R139` |
-| 2026-09-03 | [figure-0265](figure/figure-0265.md) | Vivid Quartz 58 — exact `E26-DO2` continuation beyond the corrected E24 frontier |
+| 2026-09-03 | [figure-0264](figure/figure-0264.md) | Calm Maple 15 — exact two-page/two-return successor AQ32-G44-TP2R2-R139 |
+| 2026-09-03 | [figure-0265](figure/figure-0265.md) | Vivid Quartz 58 — exact E26-DO2 continuation beyond the corrected E24 frontier |
 | 2026-09-03 | [figure-0266](figure/figure-0266.md) | Bright Harbor 30 — exact finite handoff |
 | 2026-09-03 | [figure-0267](figure/figure-0267.md) | Calm Raven 06 — exact closed physical D–F gate determination |
 | 2026-09-03 | [figure-0268](figure/figure-0268.md) | Calm Quartz 90 — exact wall-242 eighth-stage six-node annular cage |
 | 2026-09-03 | [figure-0269](figure/figure-0269.md) | Bright Nova 91 — crossed-base seventh-stage exact determination |
 | 2026-09-03 | [figure-0270](figure/figure-0270.md) | Calm Quartz 90 — exact wall-242 fourteenth linked two-cell cage |
-| 2026-09-03 | [figure-0271](figure/figure-0271.md) | Keen Quartz 89 — continuation beyond exact `KQ89-DP2` |
+| 2026-09-03 | [figure-0271](figure/figure-0271.md) | Keen Quartz 89 — continuation beyond exact KQ89-DP2 |
 | 2026-09-03 | [figure-0272](figure/figure-0272.md) | Quiet Quartz 19 — P9-XG16-TRFS11-FP5 exact post-TR determination |
 | 2026-09-03 | [figure-0273](figure/figure-0273.md) | Calm Raven 06 — exact physical F10 second-crosslink determination |
 | 2026-09-03 | [figure-0274](figure/figure-0274.md) | Calm Quartz 90 — exact wall-242 fifteenth global linked cage |
@@ -265,28 +265,28 @@
 | 2026-09-03 | [figure-0279](figure/figure-0279.md) | Calm Quartz 90 — exact nonsimplicial eight-vertex carrier escape |
 | 2026-09-03 | [figure-0280](figure/figure-0280.md) | Calm Raven 06 — exact physical three-spoke F15 cage determination |
 | 2026-09-04 | [figure-0281](figure/figure-0281.md) | Clear Willow 25 — exact whole-basin annular cage |
-| 2026-09-04 | [figure-0282](figure/figure-0282.md) | Vivid Quartz 58 — full-coordinate `E25D` frontier and connected two-support successor |
+| 2026-09-04 | [figure-0282](figure/figure-0282.md) | Vivid Quartz 58 — full-coordinate E25D frontier and connected two-support successor |
 | 2026-09-04 | [figure-0283](figure/figure-0283.md) | Clear Willow 25 — immutable-parent source-collision determination |
-| 2026-09-04 | [figure-0284](figure/figure-0284.md) | Vivid Quartz 58 — exact `E29-HX2` determination |
+| 2026-09-04 | [figure-0284](figure/figure-0284.md) | Vivid Quartz 58 — exact E29-HX2 determination |
 | 2026-09-04 | [figure-0285](figure/figure-0285.md) | Calm Finch 13 — exact finite determination |
-| 2026-09-04 | [figure-0286](figure/figure-0286.md) | Steady Lynx 98 — exact finite handoff<br>**Verdict:** no Gömböc. `P9-XG18-P0FS11-RC3-E15` is an exact own-centred `(2,2,2)` fallback. It replaces the proposed 9-row model by 11 jointly enter |
+| 2026-09-04 | [figure-0286](figure/figure-0286.md) | Steady Lynx 98 — exact finite handoff |
 | 2026-09-04 | [figure-0287](figure/figure-0287.md) | Bright Lynx 17 — exact finite determination |
 | 2026-09-04 | [figure-0288](figure/figure-0288.md) | Keen Quartz 73 — exact FAN17 cross-family determination |
 | 2026-09-04 | [figure-0289](figure/figure-0289.md) | Clear Willow 25 — exact unpinched three-boundary M42 successor |
 | 2026-09-04 | [figure-0290](figure/figure-0290.md) | Keen Quartz 89 — exact QCAD5-X3 ninth-vertex handoff |
-| 2026-09-04 | [figure-0291](figure/figure-0291.md) | Downloadable artifacts |
+| 2026-09-04 | [figure-0291](figure/figure-0291.md) | Downloadable artifacts: Complete exact archive (Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL.zip) |
 | 2026-09-04 | [figure-0292](figure/figure-0292.md) | Keen Quartz 73 — J56 orphan reconstruction and exact determination |
-| 2026-09-04 | [figure-0293](figure/figure-0293.md) | Bright Lynx 17 — independent clean-room audit of orphan `J56_TB9_metric_cancel_belt24` |
+| 2026-09-04 | [figure-0293](figure/figure-0293.md) | Bright Lynx 17 — independent clean-room audit of orphan J56_TB9_metric_cancel_belt24 |
 | 2026-09-04 | [figure-0294](figure/figure-0294.md) | Vivid Nova 45 — exact closed one-spoke F16 post-gate determination |
 | 2026-09-04 | [figure-0295](figure/figure-0295.md) | Calm Finch 13 — global AX-star search and ten-vertex two-cell continuation |
 | 2026-09-04 | [figure-0296](figure/figure-0296.md) | Steady Lynx 98 — exact P9-XG20 handoff |
-| 2026-09-04 | [figure-0297](figure/figure-0297.md) | Calm Maple 15 — exact deactivation successor `AQ32-G44-D14-R132` |
-| 2026-09-04 | [figure-0298](figure/figure-0298.md) | Clear Willow 25 — exact disposition of orphan `J56_TB9_metric_cancel_belt24` |
+| 2026-09-04 | [figure-0297](figure/figure-0297.md) | Calm Maple 15 — exact deactivation successor AQ32-G44-D14-R132 |
+| 2026-09-04 | [figure-0298](figure/figure-0298.md) | Clear Willow 25 — exact disposition of orphan J56_TB9_metric_cancel_belt24 |
 | 2026-09-04 | [figure-0299](figure/figure-0299.md) | Keen Quartz 73 — exact AX10 ballast determination |
-| 2026-09-04 | [figure-0300](figure/figure-0300.md) | Steady Lynx 98 — exact P9-XG21 determination<br><br>## Verdict<br><br>**EXACT FINITE COMPLETE-`YT5`-PACKET-TURNOVER NONWINNER.** I did not obtain the requested homogeneous convex polyhedral  |
+| 2026-09-04 | [figure-0300](figure/figure-0300.md) | Steady Lynx 98 — exact P9-XG21 determination |
 | 2026-09-04 | [figure-0301](figure/figure-0301.md) | Clear Willow 25 — exact minimal swallowing-cage continuation of J55 |
 | 2026-09-04 | [figure-0302](figure/figure-0302.md) | Keen Quartz 73 — exact AX12 mechanics-changing target turnover |
-| 2026-09-04 | [figure-0303](figure/figure-0303.md) | Steady Lynx 98 — P9-XG22 exact finite determination<br><br>## Verdict<br><br>**EXACT FINITE COMPLETE-22-TRIANGLE-DISK-AND-REMOTE-TURNOVER NONWINNER.** I did not obtain the requested homogene |
+| 2026-09-04 | [figure-0303](figure/figure-0303.md) | Steady Lynx 98 — P9-XG22 exact finite determination |
 | 2026-09-04 | [figure-0304](figure/figure-0304.md) | Clear Willow 25 — exact shared-interface bifurcated two-cell continuation |
 | 2026-09-04 | [figure-0305](figure/figure-0305.md) | AX moving geometry: exact global moment barriers and a target-turnover atlas |
 | 2026-09-04 | [figure-0306](figure/figure-0306.md) | Keen Quartz 89 — intrinsic moment conservation and certified critical collars |
@@ -650,28 +650,28 @@
 | 2026-09-10 | [minimum-0041](minimum/minimum-0041.md) | NOVA54_MP45_WHOLE_GRAPH_ACTUAL_MOMENTS_V4 |
 | 2026-09-10 | [minimum-0042](minimum/minimum-0042.md) | C32_ELEVEN_FRAME_JOINT_ROOT_EXCLUSIONS_AND_UNIQUE_MATCHING_V1 |
 | 2026-09-10 | [minimum-0043](minimum/minimum-0043.md) | NOVA54_C32_MP45_103_GENUINE_TRANSPORTS_V1 |
-| 2026-09-11 | [minimum-0044](minimum/minimum-0044.md) | Resolved affirmatively for all six assigned literal canonical types286,287,289,290,291,292. Each has one fixed combinatorial boundary triangulation, chosen inde |
+| 2026-09-11 | [minimum-0044](minimum/minimum-0044.md) | Resolved affirmatively for all six assigned literal canonical types286,287,289,290,291,292. Each has one fixed combinatorial boundary… |
 | 2026-09-11 | [minimum-0045](minimum/minimum-0045.md) | LYNX99_LITERAL_INTERSECTION_AND_ONE_BODY_PHYSICAL_FRONTIER_V1 |
-| 2026-09-11 | [minimum-0046](minimum/minimum-0046.md) | The new result is **85 additional whole canonical C32 exclusions**: a whole-MP9:49 actual-moment theorem supplies82, and separate direct proofs supply canonical |
+| 2026-09-11 | [minimum-0046](minimum/minimum-0046.md) | The new result is 85 additional whole canonical C32 exclusions: a whole-MP9:49 actual-moment theorem supplies82, and separate direct proofs… |
 | 2026-09-11 | [minimum-0047](minimum/minimum-0047.md) | FACET_EDGE_MOMENT_OBSTRUCTION_V1 — completed research handoff. |
-| 2026-09-11 | [minimum-0048](minimum/minimum-0048.md) | Main result: a new facet-moment/flux sandwich, including constraints expressed entirely in the actual matrix Λ, and an exact nine-facet application proving that |
-| 2026-09-11 | [minimum-0049](minimum/minimum-0049.md) | Whole MP9:19 is excluded: every body in its stated physical domain has U≥2. All 93 prospective new canonical C32 exclusions follow, raising the accepted whole r |
+| 2026-09-11 | [minimum-0048](minimum/minimum-0048.md) | Main result: a new facet-moment/flux sandwich, including constraints expressed entirely in the actual matrix Λ, and an exact nine-facet… |
+| 2026-09-11 | [minimum-0049](minimum/minimum-0049.md) | Whole MP9:19 is excluded: every body in its stated physical domain has U≥2. All 93 prospective new canonical C32 exclusions follow, raising… |
 | 2026-09-11 | [minimum-0050](minimum/minimum-0050.md) | C32_CANONICAL260_UNCONDITIONAL_U_GE_2_TWO_ACTUAL_FANS_V1 |
-| 2026-09-11 | [minimum-0051](minimum/minimum-0051.md) | The new result is a physical exclusion on explicit complete domains, together with stronger constraints coupling the actual covariance, the same Lambda, and gen |
-| 2026-09-11 | [minimum-0052](minimum/minimum-0052.md) | Result.** I obtained **36 new complete physical joint-root exclusions in canonical C32 type 1**, removing **204 graph domains and 70 matching branches**. The ex |
-| 2026-09-11 | [minimum-0053](minimum/minimum-0053.md) | Completed: a homogeneous whole-MP9:43 theorem, with 23 additional whole canonical C32 exclusions.** Relative to the fixed authoritative parent, the whole regist |
-| 2026-09-11 | [minimum-0054](minimum/minimum-0054.md) | Universal nine-vertex mono-unstable impossibility is proved. Every full-dimensional homogeneous convex three-polytope with exactly one strict unstable vertex at |
-| 2026-09-11 | [minimum-0055](minimum/minimum-0055.md) | Unrestricted TREE285 exclusion.** No full-dimensional homogeneous convex three-polytope with exactly nine maximal facets, at its own uniform-volume centroid, ca |
-| 2026-09-11 | [minimum-0056](minimum/minimum-0056.md) | The universal nine-vertex direction is closed, conditional only on the inherited universal escape-tree reduction to the literal broom.** A complete exact certif |
-| 2026-09-11 | [minimum-0057](minimum/minimum-0057.md) | Nine additional genuine C34/V9 types are now physically excluded, and the new U≥2 bound is sharp for local type375.** The newly closed local types are **104,329 |
-| 2026-09-11 | [minimum-0058](minimum/minimum-0058.md) | Result.** I obtained new physical inequalities from a three-roof affine-density lift, an entire-column facet-pair constraint with a geometric equality classific |
-| 2026-09-11 | [minimum-0059](minimum/minimum-0059.md) | A new complete physical domain is excluded: **no uniformly dense convex three-polytope with ten genuine vertices and seventeen true edges admits the weak true-e |
-| 2026-09-11 | [minimum-0060](minimum/minimum-0060.md) | A complete physical continuous domain in the open (V,E,F)=(10,17,9) slice is now excluded.** Every SPD metric on the exact local520 body below has at least two  |
-| 2026-09-11 | [minimum-0061](minimum/minimum-0061.md) | Получены три новых точных результата для буквальной TREE253=(0,0,1,2,3,4,5,0,7): три исключённых замкнутых коэффициентных сектора; универсальная оценка направле |
-| 2026-09-12 | [minimum-0062](minimum/minimum-0062.md) | NIMBLE99_C34_COMMON_BODY_GEOMETRIC_GAPS_AND_PROJECTIVE_V3.** The new global result is constructive: every actual joint candidate in the entire (V,E,F)=(10,17,9) |
-| 2026-09-12 | [minimum-0063](minimum/minimum-0063.md) | The result is a complete physical exclusion of **10 joint-root orbits in the canonical (V,E,F)=(10,17,9) slice**, representing 16 labelled root pairs, together  |
+| 2026-09-11 | [minimum-0051](minimum/minimum-0051.md) | The new result is a physical exclusion on explicit complete domains, together with stronger constraints coupling the actual covariance, the… |
+| 2026-09-11 | [minimum-0052](minimum/minimum-0052.md) | Result. I obtained 36 new complete physical joint-root exclusions in canonical C32 type 1, removing 204 graph domains and 70 matching… |
+| 2026-09-11 | [minimum-0053](minimum/minimum-0053.md) | Completed: a homogeneous whole-MP9:43 theorem, with 23 additional whole canonical C32 exclusions. Relative to the fixed authoritative… |
+| 2026-09-11 | [minimum-0054](minimum/minimum-0054.md) | Universal nine-vertex mono-unstable impossibility is proved. Every full-dimensional homogeneous convex three-polytope with exactly one… |
+| 2026-09-11 | [minimum-0055](minimum/minimum-0055.md) | Unrestricted TREE285 exclusion. No full-dimensional homogeneous convex three-polytope with exactly nine maximal facets, at its own… |
+| 2026-09-11 | [minimum-0056](minimum/minimum-0056.md) | The universal nine-vertex direction is closed, conditional only on the inherited universal escape-tree reduction to the literal broom. A… |
+| 2026-09-11 | [minimum-0057](minimum/minimum-0057.md) | Nine additional genuine C34/V9 types are now physically excluded, and the new U≥2 bound is sharp for local type375. The newly closed local… |
+| 2026-09-11 | [minimum-0058](minimum/minimum-0058.md) | Result. I obtained new physical inequalities from a three-roof affine-density lift, an entire-column facet-pair constraint with a geometric… |
+| 2026-09-11 | [minimum-0059](minimum/minimum-0059.md) | A new complete physical domain is excluded: no uniformly dense convex three-polytope with ten genuine vertices and seventeen true edges… |
+| 2026-09-11 | [minimum-0060](minimum/minimum-0060.md) | A complete physical continuous domain in the open (V,E,F)=(10,17,9) slice is now excluded. Every SPD metric on the exact local520 body… |
+| 2026-09-11 | [minimum-0061](minimum/minimum-0061.md) | Получены три новых точных результата для буквальной TREE253=(0,0,1,2,3,4,5,0,7): три исключённых замкнутых коэффициентных сектора… |
+| 2026-09-12 | [minimum-0062](minimum/minimum-0062.md) | NIMBLE99_C34_COMMON_BODY_GEOMETRIC_GAPS_AND_PROJECTIVE_V3. The new global result is constructive: every actual joint candidate in the… |
+| 2026-09-12 | [minimum-0063](minimum/minimum-0063.md) | The result is a complete physical exclusion of 10 joint-root orbits in the canonical (V,E,F)=(10,17,9) slice, representing 16 labelled root… |
 | 2026-09-13 | [minimum-0064](minimum/minimum-0064.md) | VIVID63_ACTUAL_LAMBDA_SYNCHRONIZATION_AND_TRIANGLE_FRONTIER_V4 |
-| 2026-09-13 | [minimum-0065](minimum/minimum-0065.md) | New result: 4,316 additional whole rooted incidence domains are excluded for the actual E17/tree410 problem.** The complete conservative register is now **14,12 |
+| 2026-09-13 | [minimum-0065](minimum/minimum-0065.md) | New result: 4,316 additional whole rooted incidence domains are excluded for the actual E17/tree410 problem. The complete conservative… |
 | 2026-09-16 | [minimum-0066](minimum/minimum-0066.md) | TREE410: все 355 строгих AC-каповых остатков исключены |
 | 2026-09-16 | [minimum-0067](minimum/minimum-0067.md) | C34_R1_EFFECTIVE_SATURATION_GAP_V1 |
 | 2026-09-16 | [minimum-0068](minimum/minimum-0068.md) | ROOF_E17_ACTUAL_AFFINE_FLUX_RANK8_V1 |

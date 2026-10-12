@@ -18,9 +18,9 @@ Consequently, every homogeneous mono-unstable convex 3-polytope has **V ≥ 8**.
 
 Two additional reductions are proved below. First, the unique unstable vertex of a homogeneous mono-unstable polytope leaves at least **five other vertices outside its closed diameter ball**. Second, a strict homogeneous polyhedral Gömböc necessarily satisfies **R/r ≤ 27**, where r and R are its actual centroidal inradius and circumradius. The latter is a derived bound, not an extra hypothesis.
 
-This independently establishes the V ≥ 8 statement that the journal had left pending recovery of its old certificate collection; it does not recover or validate that collection. The latest journal explicitly distinguished that pending claim from the externally established V ≥ 7 baseline. :contentReference[oaicite:0]{index=0} The primary paper by Bozóki–Domokos–Papp–Regős proves V ≥ 7 and explains that its root-direction necessary systems leave some seven-vertex cases unresolved. :contentReference[oaicite:1]{index=1}
+This independently establishes the V ≥ 8 statement that the journal had left pending recovery of its old certificate collection; it does not recover or validate that collection. The latest journal explicitly distinguished that pending claim from the externally established V ≥ 7 baseline. The primary paper by Bozóki–Domokos–Papp–Regős proves V ≥ 7 and explains that its root-direction necessary systems leave some seven-vertex cases unresolved.
 
-The exact global minimum is not determined here. The journal-accepted upper witness remains FUSION258_PN03_C1374, with (V,E,F) = (258,687,431); its full audits were not rerun in this assignment. Thus this handoff alone gives **24 ≤ C_min ≤ 1374**, not equality at either endpoint. :contentReference[oaicite:2]{index=2}
+The exact global minimum is not determined here. The journal-accepted upper witness remains FUSION258_PN03_C1374, with (V,E,F) = (258,687,431); its full audits were not rerun in this assignment. Thus this handoff alone gives **24 ≤ C_min ≤ 1374**, not equality at either endpoint.
 
 ## 1. The two necessary structures
 
@@ -32,7 +32,7 @@ At a vertex v, nondegenerate instability means v·(w−v) < 0 for every adjacent
 
     v·p ≥ |v|².                                      (1)
 
-Indeed, the incident edge directions generate the tangent cone: a linear functional that is strictly negative on every incident edge is strictly negative on every other direction into the polytope. The adjacent-shadow criterion is also the starting point of the published approach. :contentReference[oaicite:3]{index=3}
+Indeed, the incident edge directions generate the tangent cone: a linear functional that is strictly negative on every incident edge is strictly negative on every other direction into the polytope. The adjacent-shadow criterion is also the starting point of the published approach.
 
 For distinct p and v, (1) implies
 
@@ -51,7 +51,7 @@ Fix any actual vertex a. Triangulate each maximal face not containing a, using o
     λ_T > 0,     Σ_T λ_T = 1,
     4g = a + Σ_T λ_T(b+c+d).                         (4)
 
-This is an identity for uniform solid volume, not for equal vertex masses. Internal face diagonals are integration devices and are not counted as true edges. The published method likewise uses a root-based tetrahedral decomposition; the change here is retaining the vector identity and allowing a separator different from the maximum-radius vertex. :contentReference[oaicite:4]{index=4}
+This is an identity for uniform solid volume, not for equal vertex masses. Internal face diagonals are integration devices and are not counted as true edges. The published method likewise uses a root-based tetrahedral decomposition; the change here is retaining the vector identity and allowing a separator different from the maximum-radius vertex.
 
 ## 2. A dimension-independent four-deep-vertices lemma
 
@@ -504,7 +504,7 @@ print('centroid', *g)
 print('OWN_CENTROID_UNSTABLE_VERTICES', own_U)
 ```
 
-Supplemental copies: [complete recovery source](sandbox:/mnt/data/v8_recovery.py), [two exact matrix certificates](sandbox:/mnt/data/tree_certificates.json), [exact seven-vertex control](sandbox:/mnt/data/chain7_counterexample.json). These copies are conveniences; the definition and verification source are fully embedded above.
+Supplemental copies: complete recovery source (`v8_recovery.py`), two exact matrix certificates (`tree_certificates.json`), exact seven-vertex control (`chain7_counterexample.json`). These copies are conveniences; the definition and verification source are fully embedded above.
 
 ## 7. What was tried, what failed, and the continuation
 
@@ -527,7 +527,7 @@ for m in range(3,10):
     print(m,best.fun,best.x, np.cumprod((1+np.exp(1j*best.x))/2))
 ```
 
-That unit is 435 bytes with SHA-256 9eb882a9ff361a71bad6b2e0c4af8127e6b17576aee19e6ef84b569fb17f7c4e; [supplemental source](sandbox:/mnt/data/path_probe.py).
+That unit is 435 bytes with SHA-256 9eb882a9ff361a71bad6b2e0c4af8127e6b17576aee19e6ef84b569fb17f7c4e; supplemental source (`path_probe.py`).
 
 ### A precise next relaxation, rather than an extrapolated bound
 

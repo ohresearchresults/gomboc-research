@@ -8,31 +8,31 @@ AI research report · 2026-08-26 UTC
 
 ## Verdict
 
-I did **not** find a certified homogeneous convex polyhedral Gömböc. The acceptance gate remains an explicit finite uniform-density body evaluated at its own volume centroid with strict `(S,U,H)=(1,1,0)`, complete H/V incidence, an independent verifier, and matching mesh; an auxiliary center, wall point, or near-solution does not qualify. :contentReference[oaicite:0]{index=0}
+I did **not** find a certified homogeneous convex polyhedral Gömböc. The acceptance gate remains an explicit finite uniform-density body evaluated at its own volume centroid with strict `(S,U,H)=(1,1,0)`, complete H/V incidence, an independent verifier, and matching mesh; an auxiliary center, wall point, or near-solution does not qualify.
 
-The requested nonredundant operation was nevertheless carried out: starting from the inherited robust R160 endpoint, I removed the complete recorded dual basin and replaced it by a **single connected two-dimensional polar support complex**, rather than appending another serial cap. The journal identified R160 as `(45,80,37,C=160)`, strict own-centroid `(2,1,1)`, and specified simultaneous deactivation of the two dual paths as the next move. :contentReference[oaicite:1]{index=1}
+The requested nonredundant operation was nevertheless carried out: starting from the inherited robust R160 endpoint, I removed the complete recorded dual basin and replaced it by a **single connected two-dimensional polar support complex**, rather than appending another serial cap. The journal identified R160 as `(45,80,37,C=160)`, strict own-centroid `(2,1,1)`, and specified simultaneous deactivation of the two dual paths as the next move.
 
 The strongest resulting open body is **B210**, an explicit 68-vertex uniform convex polyhedron with strict own-centroid class `(2,1,1)`. It preserves the 17-gonal stable base and unique unstable vertex 8 but still has one stable–saddle pair. It is therefore a reusable post-basin endpoint, **not** a Gömböc.
 
 ## Reproducible artifact
 
-The complete archive is [p2_full_basin_replacement_bundle.zip](sandbox:/mnt/data/p2_full_basin_replacement_bundle.zip), SHA-256
+The complete archive is p2_full_basin_replacement_bundle.zip, SHA-256
 
 `3944c3780f606b4c8012bd4eacddaf3dd6f70ebcc2f720456e832ccb34f58375`.
 
-It contains 147 files: every saved H/V state, complete maximal-face and true-edge audits, raw and centered polar supports, deterministic reconstruction, independent verifiers, topology path, selected search programs/logs, and OBJ/STL. The checksum inventory is [MANIFEST.sha256](sandbox:/mnt/data/p2_full_basin_bundle/MANIFEST.sha256).
+It contains 147 files: every saved H/V state, complete maximal-face and true-edge audits, raw and centered polar supports, deterministic reconstruction, independent verifiers, topology path, selected search programs/logs, and OBJ/STL. The checksum inventory is MANIFEST.sha256.
 
 Primary files:
 
-- [B210 centered V-coordinates](sandbox:/mnt/data/p2_full_basin_bundle/B210_full_basin_centered_P.csv) — SHA-256 `adc8ce2390dc276ed0f91fd3a13d54a36240fee6982e150ff5be8f504e8b3773`
-- [B210 raw Q supports](sandbox:/mnt/data/p2_full_basin_bundle/B210_full_basin_raw_Q.csv) — SHA-256 `81b36d7a8738bdb4c0b254e298f21e6517b02acc836f4b1843fb06ffab0d7741`
-- [all centered H rows](sandbox:/mnt/data/p2_full_basin_bundle/B210_full_basin_centered_H_all.csv) and [39 irredundant H rows](sandbox:/mnt/data/p2_full_basin_bundle/B210_full_basin_centered_H_active.csv)
-- [complete P audit](sandbox:/mnt/data/p2_full_basin_bundle/B210_full_basin_centered_P.audit.json), [complete Q audit](sandbox:/mnt/data/p2_full_basin_bundle/B210_full_basin_centered_Q.audit.json), and [human-readable combinatorics](sandbox:/mnt/data/p2_full_basin_bundle/B210_full_basin_centered_P.combinatorics.txt)
-- [support provenance and connected-complex incidence](sandbox:/mnt/data/p2_full_basin_bundle/B210_support_metadata.json)
-- [deterministic generator](sandbox:/mnt/data/p2_full_basin_bundle/B210_generator.py), [independent V-verifier](sandbox:/mnt/data/p2_full_basin_bundle/independent_verify.py), and [independent polar/H–V verifier](sandbox:/mnt/data/p2_full_basin_bundle/verify_polar_pair.py)
-- [OBJ](sandbox:/mnt/data/p2_full_basin_bundle/B210_full_basin_centered_P.obj) and [STL](sandbox:/mnt/data/p2_full_basin_bundle/B210_full_basin_centered_P.stl)
-- [topology path](sandbox:/mnt/data/p2_full_basin_bundle/TOPOLOGY_PATH.md) and [machine-readable path](sandbox:/mnt/data/p2_full_basin_bundle/topology_path.json)
-- [bundle README](sandbox:/mnt/data/p2_full_basin_bundle/README.md)
+- B210 centered V-coordinates (`B210_full_basin_centered_P.csv`) — SHA-256 `adc8ce2390dc276ed0f91fd3a13d54a36240fee6982e150ff5be8f504e8b3773`
+- B210 raw Q supports (`B210_full_basin_raw_Q.csv`) — SHA-256 `81b36d7a8738bdb4c0b254e298f21e6517b02acc836f4b1843fb06ffab0d7741`
+- all centered H rows (`B210_full_basin_centered_H_all.csv`) and 39 irredundant H rows (`B210_full_basin_centered_H_active.csv`)
+- complete P audit (`B210_full_basin_centered_P.audit.json`), complete Q audit (`B210_full_basin_centered_Q.audit.json`), and human-readable combinatorics (`B210_full_basin_centered_P.combinatorics.txt`)
+- support provenance and connected-complex incidence (`B210_support_metadata.json`)
+- deterministic generator (`B210_generator.py`), independent V-verifier (`independent_verify.py`), and independent polar/H–V verifier (`verify_polar_pair.py`)
+- OBJ (`B210_full_basin_centered_P.obj`) and STL (`B210_full_basin_centered_P.stl`)
+- topology path (`TOPOLOGY_PATH.md`) and machine-readable path (`topology_path.json`)
+- bundle README (`README.md`)
 
 ## What changed relative to R160
 

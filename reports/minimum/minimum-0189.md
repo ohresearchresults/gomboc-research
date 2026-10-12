@@ -14,7 +14,7 @@ The stronger reusable results are an exact full-facet reciprocal-defect minimum,
 
 There is also a consequential negative result: even on one fixed actual own-centred body, a facet-only primal arrow system can have strictly feasible independent blind pairs with rho tending to zero. A positive uniform gap therefore needs metric compactness or constraints outside that facet.
 
-**This is not an actual body with separately feasible complete U1 and S1 cones.** The main fixture is an affine image of the notebook's already all-SPD-U2-excluded bevel family. Its full primal U1 cone is therefore already empty; its newly verified LOCAL three-arrow cone is strictly nonempty. The complete polar S1 cone is not decided here. The new geometric lemmas apply beyond that affine family, but no whole E17 type, global rooted registry or complexity bound is newly closed. The accepted interval remains **34 <= C_min <= 622**. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+**This is not an actual body with separately feasible complete U1 and S1 cones.** The main fixture is an affine image of the notebook's already all-SPD-U2-excluded bevel family. Its full primal U1 cone is therefore already empty; its newly verified LOCAL three-arrow cone is strictly nonempty. The complete polar S1 cone is not decided here. The new geometric lemmas apply beyond that affine family, but no whole E17 type, global rooted registry or complexity bound is newly closed. The accepted interval remains **34 <= C_min <= 622**.
 
 ## 1. Evidence read and replayed
 
@@ -28,7 +28,7 @@ All three supplied files were read through EOF. No unselected archival payload o
 
 The journal-file hash refers to the complete delivered file, not its separately displayed internal working-memory hash. The full parent source was replayed with CPython 3.13.5, assertions enabled, using `python -B -S reciprocal_gap.py build` and then `check`. Outputs were byte-identical: JSON 7766 bytes, SHA-256 `7dd6c0bda600482c6ac92c536b11e4bbbe67df2235097e13d9547bd5aafe1a72`; stdout 389 bytes, SHA-256 `4271c3883c86e7414ceb9428ea0ead6d9173f672f99d919bd7386851c0295141`.
 
-The inherited theorem used here is precisely that an independently feasible SPD pair with Delta > 0 survives all the specified mutual aggregate/cofactor operations, including weak limits. Its scope does not include additional mixed polynomial identities. :contentReference[oaicite:2]{index=2} The parent's directional defect inequality is retained, but the full-facet minimum below is new work in this handoff. :contentReference[oaicite:3]{index=3}
+The inherited theorem used here is precisely that an independently feasible SPD pair with Delta > 0 survives all the specified mutual aggregate/cofactor operations, including weak limits. Its scope does not include additional mixed polynomial identities. The parent's directional defect inequality is retained, but the full-facet minimum below is new work in this handoff.
 
 ## 2. Exact full-facet reciprocal-defect minimum
 
@@ -423,7 +423,7 @@ Exact controls epsilon=1,1/10,1/100 and both associated physical censuses are pr
 
 ### Open candidate sector using accepted metric compactness
 
-The notebook supplies the necessary joint-candidate bound `kappa(Sigma^(1/2) M Sigma^(1/2))<48`, with Sigma the ACTUAL volume covariance. This is inherited, not freshly replayed from its unselected original capsule. :contentReference[oaicite:4]{index=4}
+The notebook supplies the necessary joint-candidate bound `kappa(Sigma^(1/2) M Sigma^(1/2))<48`, with Sigma the ACTUAL volume covariance. This is inherited, not freshly replayed from its unselected original capsule.
 
 For a general true quadrilateral let `w=x3-x2+e`. The third arrow is `c=-a-m-k+x2^T M w`. If some tau in (0,1] satisfies
 
@@ -645,4 +645,4 @@ if __name__ == '__main__':
     main()
 ```
 
-Optional convenience copies: [decoded source](sandbox:/mnt/data/quad_blind/quad_blind.py), [exact report](sandbox:/mnt/data/quad_blind/quad_blind.json), [source capsule](sandbox:/mnt/data/quad_blind/recover_quad_blind.py). The embedded capsule is sufficient without these links.
+Optional convenience copies: decoded source (`quad_blind.py`), exact report (`quad_blind.json`), source capsule (`recover_quad_blind.py`). The embedded capsule is sufficient without these links.

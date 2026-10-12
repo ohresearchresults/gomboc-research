@@ -55,7 +55,7 @@ At `(a,b)=(0,0)`, `D` is irredundant with `(V,E,F)=(10,15,7)` and the actual com
 | `A9` | `9` | `(2,6)` |
 | `A100` | `100` | `(3,5)` |
 
-Their complete exact coefficients in the bivariate basis `1,a,b,a²,ab,b²` are in [entrance_circuits.csv](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/entrance_circuits.csv). The global verifier regenerates those coefficients from the exact family, reconstructs the entrance H/V bodies, enumerates all `317` candidate circuits on each radial chamber, and proves that no additional active circuit occurs on any open sample ray.
+Their complete exact coefficients in the bivariate basis `1,a,b,a²,ab,b²` are in entrance_circuits.csv. The global verifier regenerates those coefficients from the exact family, reconstructs the entrance H/V bodies, enumerates all `317` candidate circuits on each radial chamber, and proves that no additional active circuit occurs on any open sample ray.
 
 ## Exact common-fan atlas and isolated moment roots
 
@@ -76,7 +76,7 @@ Each box is wholly positive, its exact Krawczyk image lies strictly in its inter
 | `E6_pppm` | `+++-` | `(13/67108864,-1/4194304)` | `(54,100,48)` | `200` | `(271646439800381/140737488355328, 9537801108145/576460752303423488, 5543983294457625/70368744177664)` | `(2,2,2)` |
 | `E7_ppmm` | `++--` | `(1/8388608,1/134217728)` | `(56,104,50)` | `208` | `(2174566987679119/1125899906842624, 606306764419/576460752303423488, 2772040350837079/35184372088832)` | `(2,2,2)` |
 
-The exact lower and upper endpoints, not only the midpoint-radius form, are indexed in [root_boxes.csv](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/root_boxes.csv).
+The exact lower and upper endpoints, not only the midpoint-radius form, are indexed in root_boxes.csv.
 
 ## Exact mixed-volume and mixed-first-moment coefficients
 
@@ -97,7 +97,7 @@ Every traversed cell has its own exact actual-fan expansion in `(t1,t2,t3)`:
 | `E6_pppm` | `e2cf920e486e34c33d3c54b68864b0d7df1ec3bf2c5bbc4514309dddd0e3aca2` |
 | `E7_ppmm` | `2a1ffa93509899cb1967b1340c5c2214932cd5214f6ddec64865cb8ee66800a9` |
 
-The per-cell files and counts are indexed by [mixed_coefficients_manifest.csv](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/mixed_coefficients_manifest.csv). `verify_independent.py` regenerates the coefficients from the affine H/V body rather than trusting these exports.
+The per-cell files and counts are indexed by mixed_coefficients_manifest.csv. `verify_independent.py` regenerates the coefficients from the affine H/V body rather than trusting these exports.
 
 ## Exact circuit transitions
 
@@ -114,7 +114,7 @@ Each exact straight segment between cyclic neighboring samples crosses one and o
 | `E6→E7` | `A9` | `[277431394206164911650598919/618970019642690137449562112, 554862788412329823301197839/1237940039285380274899124224]` | `2 / 1` | `(2,4,2)` | `(0,0,0)` |
 | `E7→E0` | `A100` | `[167952533025682801241071109/1237940039285380274899124224, 83976266512841400620535555/618970019642690137449562112]` | `1 / 0` | `(0,0,0)` | `(0,0,0)` |
 
-The exact removed and added lineages, cone intervals, and inactive-root witnesses are in [transition_summary.csv](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/transition_summary.csv) and `transition_path_certificate.json` inside the full bundle.
+The exact removed and added lineages, cone intervals, and inactive-root witnesses are in transition_summary.csv and `transition_path_certificate.json` inside the full bundle.
 
 ## Complete defect-transfer audit
 
@@ -127,7 +127,7 @@ Across all eight sectors:
 - the inherited saddle alternates among `P9:13/P9:26` and mixed `P9edge(13,26)` lineages;
 - the return saddle alternates among `P9:100` and mixed `P9edge(27,100)` lineages.
 
-Therefore every traversed circuit changes the actual fan but has `Δ(S,U,H)=(0,0,0)`. The cell-local feature IDs, edge endpoints, active rows, and exact lineages are in [critical_transfer_ledger.csv](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/critical_transfer_ledger.csv).
+Therefore every traversed circuit changes the actual fan but has `Δ(S,U,H)=(0,0,0)`. The cell-local feature IDs, edge endpoints, active rows, and exact lineages are in critical_transfer_ledger.csv.
 
 ## Strongest materialized body
 
@@ -166,7 +166,7 @@ Mesh verification passes with `54` vertices, `104` triangles, `156` mesh edges, 
 - OBJ: `6aaeb45c0e2a85238a29295359328d092024e94ca4c7e186078f507ce7d924ab`
 - STL: `76c3ad5a12b718ba6c41aa6189c185cde357b2e3db653744eb5d6aa441513ae3`
 
-[Strongest exact H data](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/strongest/body_midpoint_centered_H.csv) · [Strongest exact V data](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/strongest/body_midpoint_centered_V.csv) · [OBJ mesh](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/strongest/strongest_E6_pppm.obj) · [STL mesh](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/strongest/strongest_E6_pppm.stl)
+Strongest exact H data (`body_midpoint_centered_H.csv`) · Strongest exact V data (`body_midpoint_centered_V.csv`) · OBJ mesh (`strongest_E6_pppm.obj`) · STL mesh (`strongest_E6_pppm.stl`)
 
 ## Independent verification
 
@@ -179,7 +179,7 @@ The bundle contains independent scripts that read the exported exact files rathe
 - `verify_minkowski_expansion.py`: proves every affine body vertex is literally `B+t1C1+t2C2+t3C3+lambda D` and every common-face support function agrees;
 - `verify_strongest_mesh.py`: checks the materialized mesh against exact H/V data.
 
-All eight cell verifiers, the global common-fan verifier, the transition verifier, the exact Minkowski-expansion verifier, the direct own-centroid audits, and the strongest mesh verifier report `PASS`. See [verification_summary.json](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/verification_summary.json).
+All eight cell verifiers, the global common-fan verifier, the transition verifier, the exact Minkowski-expansion verifier, the direct own-centroid audits, and the strongest mesh verifier report `PASS`. See verification_summary.json.
 
 ## Scope and unresolved uncertainty
 
@@ -202,10 +202,10 @@ Retain `(t1,t2,t3)` as dependent full-rank moment controls and re-expand the act
 
 The `tar.zst` archive is the smaller full bundle; the store-mode ZIP is provided for compatibility.
 
-- [Full exact bundle — TAR.ZST](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner.tar.zst) — `201,441,299` bytes; SHA-256 `4b9d9fa9338d9c39c922f2f907d1446346161bf90c5af5e3b8aacdca02552794`
-- [TAR.ZST checksum](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner.tar.zst.sha256)
-- [Full exact bundle — ZIP](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner.zip) — `470,017,599` bytes; SHA-256 `e07617607206d53f0e6ba3151715694a295c1b9b46b6ded282992170a201d650`
-- [ZIP checksum](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner.zip.sha256)
-- [Detailed README](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/README.md)
-- [Complete exact atlas](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/atlas.json)
-- [Integrity manifest](sandbox:/mnt/data/minkowski_2d_atlas_exact_nonwinner/manifest.sha256)
+- Full exact bundle — TAR.ZST (`minkowski_2d_atlas_exact_nonwinner.tar.zst`) — `201,441,299` bytes; SHA-256 `4b9d9fa9338d9c39c922f2f907d1446346161bf90c5af5e3b8aacdca02552794`
+- TAR.ZST checksum (`minkowski_2d_atlas_exact_nonwinner.tar.zst.sha256`)
+- Full exact bundle — ZIP (`minkowski_2d_atlas_exact_nonwinner.zip`) — `470,017,599` bytes; SHA-256 `e07617607206d53f0e6ba3151715694a295c1b9b46b6ded282992170a201d650`
+- ZIP checksum (`minkowski_2d_atlas_exact_nonwinner.zip.sha256`)
+- Detailed README (`README.md`)
+- Complete exact atlas (`atlas.json`)
+- Integrity manifest (`manifest.sha256`)

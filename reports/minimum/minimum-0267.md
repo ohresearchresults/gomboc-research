@@ -37,9 +37,9 @@ bfcc1a56683308cd9ba36d337656a9bbebb9065375f6d531d489c9f28c03c4b5
 
 No source-authority conflict was found. The older optional `h5_seven_turn_reflection.py` is not attached and was not imported or needed. The new recovery is autonomous. The chord parent's qualification about its original unobserved probe executions remains unchanged.
 
-The supplied regional theorem had excluded only a specified shear rectangle on the literal body, while expressly leaving its complete affine orbit undecided. The present theorem supersedes that restricted-shear decision on this body and adds the five-parameter family above. The older theorem and its diagnostic controls remain valid. fileciteturn0file2L13-L25
+The supplied regional theorem had excluded only a specified shear rectangle on the literal body, while expressly leaving its complete affine orbit undecided. The present theorem supersedes that restricted-shear decision on this body and adds the five-parameter family above. The older theorem and its diagnostic controls remain valid.
 
-The supplied common-height reduction correctly identifies dropping det(K)=ac-b^2 with two independent heights. I did not make that relaxation. Neither the old nor the new covariance trace floor is used as an assumption of the new exclusion; actual covariance appears only as a numerical preconditioner during optional certificate discovery. fileciteturn0file1L43-L57
+The supplied common-height reduction correctly identifies dropping det(K)=ac-b^2 with two independent heights. I did not make that relaxation. Neither the old nor the new covariance trace floor is used as an assumption of the new exclusion; actual covariance appears only as a numerical preconditioner during optional certificate discovery.
 
 ## 2. One actual body and its true geometry
 
@@ -82,7 +82,7 @@ The 17 true edges are
 45, 49, 56, 57, 67, 78, 79, 89.
 ```
 
-These are exactly the supplied compact core's geometry and indexing, not a replacement incidence. The source reconstructs actual volume moments and independently recovers the supporting facets from all vertex triples at the controls. fileciteturn0file0L21-L61
+These are exactly the supplied compact core's geometry and indexing, not a replacement incidence. The source reconstructs actual volume moments and independently recovers the supporting facets from all vertex triples at the controls.
 
 For the whole box, the new checker proves 56 strict nonincident support inequalities and 34 strict polygon-corner turn inequalities. Together with the prescribed two-facet incidence at every edge, these certify the listed maximal facets and true edges throughout the closed domain. Triangulation diagonals occur only in volume integration.
 
@@ -108,7 +108,7 @@ g=(7368835529/28201312000,
 
 The checker additionally proves all 147 strict W support inequalities and all 24 strict A products over the whole box. It proves 1/4<gamma<1/2 and verifies failure of the stronger R7 containment using the **same fixed offending support throughout**: basal vertex 3, top vertex 9, basal edge 0->1.
 
-Here W is `-k B_g-2 gamma T_g subset B_g`, k=1-2 gamma, and A is `1+q_f.(Z_j-g)>0` for every nonbasal pole and each top vertex. For the R7 test, alpha=gamma+1/4 and beta=gamma(1+alpha)/(1-gamma); the tested reflected raw point is `(1+alpha+beta)g-alpha Z3-beta Z9`. Its edge-01 support slack is strictly negative throughout the box. Thus no R7 premise is being smuggled into the proof. These are the same W/A/R7 conventions as the supplied regional source. fileciteturn0file2L115-L130
+Here W is `-k B_g-2 gamma T_g subset B_g`, k=1-2 gamma, and A is `1+q_f.(Z_j-g)>0` for every nonbasal pole and each top vertex. For the R7 test, alpha=gamma+1/4 and beta=gamma(1+alpha)/(1-gamma); the tested reflected raw point is `(1+alpha+beta)g-alpha Z3-beta Z9`. Its edge-01 support slack is strictly negative throughout the box. Thus no R7 premise is being smuggled into the proof. These are the same W/A/R7 conventions as the supplied regional source.
 
 The positive-upper corner has gamma=4548897/13555588>1/3. Therefore this family theorem is not confined to the gamma<=1/3 range of the inherited chord argument. W/A and R7 failure identify the domain; they are not needed to justify the new primal stress contradiction.
 
@@ -264,7 +264,7 @@ Numerical eigenvector cutting planes and linear programming located integer weig
 
 Observed executions completed successfully: the autonomous discovery/build, a fresh directory containing only that source followed by build and check, and a second fresh directory containing only the recovery capsule below. All reproduced the same certificate and report bytes. These are observed exact executions, not a proof-assistant formalization.
 
-The result does **not** prove W/A=>U2 for arbitrary actual shapes. Outside this five-box and its stated collar, neither full U1 feasibility nor common-inverse feasibility has been decided here. No whole incidence, canonical orbit count, or global lower bound is changed. The supplied global bracket remains **34<=Cmin<=622**. fileciteturn0file6L9-L11
+The result does **not** prove W/A=>U2 for arbitrary actual shapes. Outside this five-box and its stated collar, neither full U1 feasibility nor common-inverse feasibility has been decided here. No whole incidence, canonical orbit count, or global lower bound is changed. The supplied global bracket remains **34<=Cmin<=622**.
 
 ## 7. Complete deterministic recovery capsule
 
@@ -313,7 +313,7 @@ Expected final marker:
 W_ONLY_MACRO_U2_V1_ALL_48790_ROOTS_ALL_SPD_CLOSED_FIVE_BOX_PASS
 ```
 
-Convenience copies: [complete bundle](sandbox:/mnt/data/W_ONLY_MACRO_U2_V1.zip), [readable builder/checker](sandbox:/mnt/data/W_ONLY_MACRO_U2_V1/w_only_macro_u2.py), and [exact report](sandbox:/mnt/data/W_ONLY_MACRO_U2_V1/report.json). The embedded capsule, not those links, supplies the full recovery.
+Convenience copies: complete bundle (`W_ONLY_MACRO_U2_V1.zip`), readable builder/checker (`w_only_macro_u2.py`), and exact report (`report.json`). The embedded capsule, not those links, supplies the full recovery.
 
 ```python
 #!/usr/bin/env python3

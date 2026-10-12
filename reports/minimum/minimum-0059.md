@@ -598,4 +598,4 @@ for name,want in sorted(d['outputs'].items()):assert pin((root/name).read_bytes(
 print('TEN_SUCCESSOR_ALL5152_E17_TRUE312_19_WEAK_ARROWS_84_SPHERE_EMBEDDINGS_13_NORM_CERTIFICATES_5152_COLLARS_PASS')
 ```
 
-Expanded handoff and convenience source: [universal10_continuation_handoff.md](sandbox:/workspace/scratch/1aaf3e20bea0/universal10_continuation_handoff.md), [recover_ten_successor.py](sandbox:/workspace/scratch/1aaf3e20bea0/recover_ten_successor.py).
+Expanded handoff and convenience source: universal10_continuation_handoff.md, recover_ten_successor.py.

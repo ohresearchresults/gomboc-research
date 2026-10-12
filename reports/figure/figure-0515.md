@@ -147,7 +147,7 @@ RN_AFFINE_GUARD_G1000000_audit.json: 65524B 63ebe61ce87d4a88e0140940f6f1eceb30f1
 RN_CERTIFICATE.json: 46019B bb3537555d49f36062cbee5e51b8b824de6ab245d8bddef7f075f804bed41425
 ```
 
-`EXPECTED_NEW.json` carries the remaining complete receipts, including every coarse-grid input and audit and both source-body audits. [Convenience bundle](sandbox:/mnt/data/RN29_handoff.zip); the inline capsule below does not depend on it.
+`EXPECTED_NEW.json` carries the remaining complete receipts, including every coarse-grid input and audit and both source-body audits. Convenience bundle (`RN29_handoff.zip`); the inline capsule below does not depend on it.
 
 ```python
 """Complete RN29 recovery, CPython standard library only."""

@@ -14,7 +14,7 @@ This closeout does not claim a newly completed nonlinear optimization campaign. 
 
 ## 1. Source authority and the recovered execution failures
 
-The mounted `BH81_SECTION_AREA_FULL.zip` is present: 1,055,899 bytes, SHA-256 `ee37024bf6ea4684fc00c0903926e60a50f42332aa17375dc5c89800fcad248e`. Its companion report's completed-endpoint ledger is literally `{}`; that report did not establish an exact nonlinear endpoint. :contentReference[oaicite:0]{index=0}
+The mounted `BH81_SECTION_AREA_FULL.zip` is present: 1,055,899 bytes, SHA-256 `ee37024bf6ea4684fc00c0903926e60a50f42332aa17375dc5c89800fcad248e`. Its companion report's completed-endpoint ledger is literally `{}`; that report did not establish an exact nonlinear endpoint.
 
 The recovered logs now identify concrete failures. `contact_conic.py` stopped because `clarabel` was unavailable. `exact_h.py` then requested the nonexistent `CONIC_BEST.json`. The old `VERIFY_EXIT.py` failed while attempting to patch a string absent from its supplied auditor and also expected a different auditor interface. No CONIC endpoint or completed independent verification follows from that pipeline.
 
@@ -78,7 +78,7 @@ Consequently `rho/R≈0.30397141161 < 1/3`, `r/R≈0.10386923109`, and `Volume/R
 
 For all four bodies, **`thin_box=false`, but the radius gate fails and the area lower bound is positive**. The directly measured opposite cap is even more restrictive: its squared peak radius is approximately0.999763282629 of R², whereas the central section reaches only approximately0.092399 of R². The two far peaks therefore remain almost equal in radius, with a deep region between them.
 
-Compared with the supplied LOW121 C132 entrance, this C114 geometry has fewer vertices, edges and facets, and better normalized inradius and volume. However, its complete relative physical bar is approximately3.77 times LOW121's inherited0.24427816109 bar. It is a lower-complexity and conditioning **nonwinner**, not an improvement in cancelling that basin. LOW121 remains a distinct useful entrance. :contentReference[oaicite:1]{index=1}
+Compared with the supplied LOW121 C132 entrance, this C114 geometry has fewer vertices, edges and facets, and better normalized inradius and volume. However, its complete relative physical bar is approximately3.77 times LOW121's inherited0.24427816109 bar. It is a lower-complexity and conditioning **nonwinner**, not an improvement in cancelling that basin. LOW121 remains a distinct useful entrance.
 
 The G6 companion is the simplest retained arithmetic version of this new21-support geometry. It is **not** the original C252 reference110 G6 body.
 
@@ -110,7 +110,7 @@ Save the complete program below as `RECOVER_BH81_C114.py`, then run:
 
 Decoded source dictionary: **20424 bytes**, SHA-256 `8c4a9976dd478f18f4850f790aece897374ee2de29a33c5ba017af315253ed15`. Executable:11294 bytes, SHA-256 `5e8cfab53ec6870b61a3c580759ab1d36cd7fe6df93b1290edf58d3420a4d212`.
 
-[Recovery program](sandbox:/mnt/data/RECOVER_BH81_C114.py), [verified outputs and execution log](sandbox:/mnt/data/BH81_C114_VERIFIED.zip), and [file-form handoff with capsule](sandbox:/mnt/data/BH81_C114_FINISH_HANDOFF.md) supplement the complete inline recovery below.
+Recovery program (`RECOVER_BH81_C114.py`), verified outputs and execution log (`BH81_C114_VERIFIED.zip`), and file-form handoff with capsule (`BH81_C114_FINISH_HANDOFF.md`) supplement the complete inline recovery below.
 
 ## 6. Remaining constructive question
 

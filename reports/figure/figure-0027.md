@@ -10,7 +10,7 @@ AI research report · 2026-08-22 UTC
 
 No strict `t=1` homogeneous polyhedral Gömböc was obtained. The assignment's alternative deliverable was completed: a generic simple `38V/21F/57E` branch was continued to `t=0.37`; a precise four-plane circuit wall was located and crossed; strict `S=U=1` holds on both sides; and a robust post-wall branch was continued to `t=0.38`. This is a verified numerical wall-crossing result, not a nonexistence theorem for `t=1`.
 
-The corrected Conway `P_{4,5}` construction and its point-mass `(1,1)` status are documented in the supplied transcript. :contentReference[oaicite:0]{index=0} The transcript's polar-support/full-rank centroid-control route is the starting point of this continuation. :contentReference[oaicite:1]{index=1}
+The corrected Conway `P_{4,5}` construction and its point-mass `(1,1)` status are documented in the supplied transcript. The transcript's polar-support/full-rank centroid-control route is the starting point of this continuation.
 
 ## Polyhedron and fixed normals
 
@@ -165,11 +165,11 @@ Positive face margin means stable; positive vertex margin means unstable. Margin
 
 ## Reproducible artifacts
 
-- [Full package: normals, all support vectors, every vertex coordinate, ordered face cycles, all edges, true centroids, and all branch/endpoint margins](sandbox:/mnt/data/conway_aux_center_wall_package.json), SHA-256 `6cfebc251ba9d9f93496fef8300861b958c1fc5afbd06ce3af309f5b3ff79632`.
-- [Compact supports/normal data](sandbox:/mnt/data/conway_aux_center_candidates.npz), SHA-256 `0d15c0d2f9174fe75107f2f49403b2bfffdbb7d8935873d2875a8089db42f7b1`.
-- [Independent verifier](sandbox:/mnt/data/verify_conway_aux_wall.py), SHA-256 `09eb513bc296895f00cb136d66da5fffd7c492dd81a26e33568357070a05174b`; [geometry kernel](sandbox:/mnt/data/conway_aux_conway_geom.py), SHA-256 `07742c4d6f5c73264a65998612ac4af61fec1dba7cb9883271adaadf910bc195`.
-- [Verifier output](sandbox:/mnt/data/conway_aux_verifier_output.txt), SHA-256 `16b45fd60479ec57d09433301dcf070fefb134f944dec31d709f1b939aa83f8d`.
-- [Post-wall OBJ](sandbox:/mnt/data/conway_postwall_t037.obj); [farther `t=0.38` OBJ](sandbox:/mnt/data/conway_farther_t038.obj).
+- Full package: normals, all support vectors, every vertex coordinate, ordered face cycles, all edges, true centroids, and all branch/endpoint margins (`conway_aux_center_wall_package.json`), SHA-256 `6cfebc251ba9d9f93496fef8300861b958c1fc5afbd06ce3af309f5b3ff79632`.
+- Compact supports/normal data (`conway_aux_center_candidates.npz`), SHA-256 `0d15c0d2f9174fe75107f2f49403b2bfffdbb7d8935873d2875a8089db42f7b1`.
+- Independent verifier (`verify_conway_aux_wall.py`), SHA-256 `09eb513bc296895f00cb136d66da5fffd7c492dd81a26e33568357070a05174b`; geometry kernel (`conway_aux_conway_geom.py`), SHA-256 `07742c4d6f5c73264a65998612ac4af61fec1dba7cb9883271adaadf910bc195`.
+- Verifier output (`conway_aux_verifier_output.txt`), SHA-256 `16b45fd60479ec57d09433301dcf070fefb134f944dec31d709f1b939aa83f8d`.
+- Post-wall OBJ (`conway_postwall_t037.obj`); farther `t=0.38` OBJ (`conway_farther_t038.obj`).
 
 Verifier summary:
 

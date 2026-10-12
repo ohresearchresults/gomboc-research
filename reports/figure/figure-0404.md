@@ -32,11 +32,11 @@ The assignment and navigation summary identify C544 as V128/E272/F146 and C506 a
 | `CR70_C544_COARSEN8_G14` | 154/272/120 | 1/3/2 | 000 |
 | `CR70_C506_COARSEN15_G14` | 142/253/113 | 1/4/3 | 000 |
 
-The conflict is visible between the navigation summary and the literal table. I followed the literal recipes rather than inventing a conversion between the conflicting aliases. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The conflict is visible between the navigation summary and the literal table. I followed the literal recipes rather than inventing a conversion between the conflicting aliases.
 
-For the literal C544, the retained apex is raw-lex87, degree44; the unstable vertices are `[82,87,139]`, and saddle edges are `[[83,129],[141,145]]`. For literal C506, the apex is raw-lex74, and the unstable vertices are `[30,69,74,133]`. The sole stable carrier in these parent monostable bodies is original input support3. :contentReference[oaicite:2]{index=2}
+For the literal C544, the retained apex is raw-lex87, degree44; the unstable vertices are `[82,87,139]`, and saddle edges are `[[83,129],[141,145]]`. For literal C506, the apex is raw-lex74, and the unstable vertices are `[30,69,74,133]`. The sole stable carrier in these parent monostable bodies is original input support3.
 
-Likewise, the literal parent's fixed-body center-ball obstruction has radius **2/25**, not 1/2000. It concerns fixed geometry, not an affine or shape exclusion. :contentReference[oaicite:3]{index=3}
+Likewise, the literal parent's fixed-body center-ball obstruction has radius **2/25**, not 1/2000. It concerns fixed geometry, not an affine or shape exclusion.
 
 The literal `C572_DUAL` is the physical body obtained by adding a polar relay inequality and correcting physical mass. I did not reinterpret it as the independently centered geometric polar of another named body.
 
@@ -363,7 +363,7 @@ These are finite observations. They exclude neither the continuous support famil
 
 ### Complete standalone artifact
 
-[Standalone complete decoder: RECOVER_SC83.py](sandbox:/mnt/data/RECOVER_SC83.py)
+Standalone complete decoder: RECOVER_SC83.py
 
 Decoder: **84671bytes**, SHA-256
 
@@ -395,9 +395,9 @@ The full source-only replay completed first from the assembled source and then i
 
 The terminal receipt pins58 source identities and29 regenerated output receipts/certificates; each body receipt additionally pins its generated raw geometry, A/B reports, centered-mass report, and arithmetic-cost report. The final decoded replay was observed through its terminal marker, not inferred from intermediate output.
 
-[Expanded prepared handoff](sandbox:/mnt/data/sc83/HANDOFF_PREFIX.md) and [capsule identity sheet](sandbox:/mnt/data/sc83/HANDOFF_IDENTITIES.md) accompany the source.
+Expanded prepared handoff (`HANDOFF_PREFIX.md`) and capsule identity sheet (`HANDOFF_IDENTITIES.md`) accompany the source.
 
-[Complete research archive, including standalone source and working records](sandbox:/mnt/data/SC83_RESEARCH_HANDOFF.zip)
+Complete research archive, including standalone source and working records (`SC83_RESEARCH_HANDOFF.zip`)
 
 The archive's observed size is18,868,999bytes. The decoder hash above is the pinned recovery identity; no unverified archive hash is asserted.
 

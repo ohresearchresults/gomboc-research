@@ -12,9 +12,9 @@ No exact homogeneous own-centred strict110/additionalweak000 body was found, so 
 
 Thus the old C186 conditional target is superseded on this branch: the topology-changing second-carrier move earns six complexity units before the cap, and the whole-packet cap earns twelve more, giving C180. Final acceptance still requires strict110/weak000 with E<=249; no such endpoint is claimed.
 
-The authoritative incoming result is `figure-0476`, SHA-256 `896976dda03b904508bcc928b7ce54fd26da87458381587b26dfc7c45bc64b86`. It supplies `SC83_BF35_CARRIER17_M50_G4`, V66/E99/F35/C198 strict222/weak000, and the transferred exact convex interlock on packet vertices `{2,9,47}` versus retained `{22,40}`. :contentReference[oaicite:0]{index=0} The literal parent records the exact child mechanics and positive barycentric obstruction. :contentReference[oaicite:1]{index=1}
+The authoritative incoming result is `figure-0476`, SHA-256 `896976dda03b904508bcc928b7ce54fd26da87458381587b26dfc7c45bc64b86`. It supplies `SC83_BF35_CARRIER17_M50_G4`, V66/E99/F35/C198 strict222/weak000, and the transferred exact convex interlock on packet vertices `{2,9,47}` versus retained `{22,40}`. The literal parent records the exact child mechanics and positive barycentric obstruction.
 
-I read the supplied 967-line continuation journal through EOF. Mounted receipt: 162468 bytes, SHA-256 `05fbc56d6e6944292dba0d4a9d6f460c805fa33a21f1e86b3af3e2b22f525d5d`. The active target is C<500, hence E<=249. :contentReference[oaicite:2]{index=2}
+I read the supplied 967-line continuation journal through EOF. Mounted receipt: 162468 bytes, SHA-256 `05fbc56d6e6944292dba0d4a9d6f460c805fa33a21f1e86b3af3e2b22f525d5d`. The active target is C<500, hence E<=249.
 
 ## 1. Coordinated second-carrier replacement
 

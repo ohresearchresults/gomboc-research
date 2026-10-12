@@ -20,7 +20,7 @@ The two missing fixed-heptagon freedoms are now explicit genuine shape actuators
 
 There is also a low-degree all-orders reduction for the complete calibrated heptagon class: eliminate the normal metric scalar by explicit polynomial inequalities in three genuine shape variables and a radius. The degree bounds are 36 in the linear incidence case and 54 in the exceptional case. This is not an executed quantifier-elimination computation, nor the coordinator's stronger univariate rational-witness algorithm extended without proof.
 
-No actual weak S1U1 input, universal density theorem, full-shape obstruction or new minimum bound is supplied. The internal interval remains 34<=C_min<=622. The global minimum and attainment obligations are unchanged. fileciteturn7file2L9-L13
+No actual weak S1U1 input, universal density theorem, full-shape obstruction or new minimum bound is supplied. The internal interval remains 34<=C_min<=622. The global minimum and attainment obligations are unchanged.
 
 ## 2. Input authority and conventions
 
@@ -35,7 +35,7 @@ The new journal and both selected materials were read completely. Their mounted-
 
 The authoritative literal parents are U0, `minimum-0232`, SHA `8f50ef8265eca079539078c4b0edce571a7ca4548fba2850729bd16d2e756f03`, and Nyhe, `minimum-0233`, SHA `a4bef2adf830eae50e01705edefbc80edc6388626b8e4e627efe6db99c7bb875`. U0 is unchanged and explicitly identified as already supplied; the new journal includes the complete Nyhe payload. No new conflict between these authorities was found. No older workspace is a computational dependency.
 
-U0's relative-rank theorem and actual centroid completion are retained, not re-audited. In particular the actual-centred fixed-heptagon fibre has dimension three. The supplied coordinator theorem identifies exactly why its axial shape coordinate is complete for an octagon but not for a heptagon. fileciteturn12file0L52-L68 fileciteturn7file0L20-L24
+U0's relative-rank theorem and actual centroid completion are retained, not re-audited. In particular the actual-centred fixed-heptagon fibre has dimension three. The supplied coordinator theorem identifies exactly why its axial shape coordinate is complete for an octagon but not for a heptagon.
 
 Write P for the original uniformly filled body, initially at its actual centroid 0; M>0 and N=M^-1 are one physical inverse pair. The carrier is a true heptagon F in H={x:q.x=1}. Its three outside vertices are a,b,c. All noncarrier vertices have 1-q.x>0.
 
@@ -50,7 +50,7 @@ Only true maximal facets and true edges are mechanical features. A boundary fan 
     J=sum det(Y_i,Y_j,Y_k)(Y_i+Y_j+Y_k),
     Vol=D/6,             g=J/(4D).                       (2.1)
 
-Protecting all originally nonzero primitive signs and opening the original weak vertex/facet groups preserves the labelled strict equilibria and removes every weak point. This is the supplied physical selector theorem, not an assumption that every algebraic zero must become positive. fileciteturn7file5L78-L102
+Protecting all originally nonzero primitive signs and opening the original weak vertex/facet groups preserves the labelled strict equilibria and removes every weak point. This is the supplied physical selector theorem, not an assumption that every algebraic zero must become positive.
 
 ## 3. Complete rational coordinates for every fixed heptagon
 
@@ -64,7 +64,7 @@ fixes H pointwise, is locally invertible and sends the uniform centroid exactly 
 
     A_g(x)=x+g(1-q.x).                                   (3.2)
 
-This is actual shape correction, not movement of the reference point in an unchanged body. The parent proves this exact retraction; its inverse is useful for the new chart. fileciteturn12file0L134-L159
+This is actual shape correction, not movement of the reference point in an unchanged body. The parent proves this exact retraction; its inverse is useful for the new chart.
 
 Choose one outside label a. In the raw chart hold its spatial position equal to the initial a_0. Every nearby centred P' with a-coordinate a' has a unique plane-fixing affine image with that anchor:
 
@@ -181,7 +181,7 @@ Its foot and tangent restriction on H are unchanged. Every within-carrier P row 
     q^T N_tau(r_new-q)
       =lambda_r/(1+tau q^T Nq) * q^T N(r-q).             (5.3)
 
-Hence the complete four-parameter fixed-heptagon chart plus (5.2) is exactly neutral on the carrier packet. By the coordinator's metric calibration lemma, these are all nearby metrics with the same carrier foot and tangent restriction. This establishes calibrated completeness, not completeness among motions that move the carrier polygon. fileciteturn7file0L20-L24
+Hence the complete four-parameter fixed-heptagon chart plus (5.2) is exactly neutral on the carrier packet. By the coordinator's metric calibration lemma, these are all nearby metrics with the same carrier foot and tangent restriction. This establishes calibrated completeness, not completeness among motions that move the carrier polygon.
 
 ### 5.2 Actual centroid loads in the four-column test
 
@@ -221,7 +221,7 @@ At a VF the original identities remain
 
     P=Gu, Q_1=s delta_1 u_2, Q_2=s delta_2 u_1,
 
-and the selected pair is (P_1,Q_2) or (P_2,Q_1). Both functions are required positive. No higher-order test substitutes the first-order compressed row, so right-corner threshold behavior and equality cases are not bypassed. fileciteturn11file0L64-L66
+and the selected pair is (P_1,Q_2) or (P_2,Q_1). Both functions are required positive. No higher-order test substitutes the first-order compressed row, so right-corner threshold behavior and equality cases are not bypassed.
 
 ## 6. Complete calibrated heptagon germ: low-degree metric elimination
 
@@ -260,9 +260,9 @@ Indeed these respectively handle blind rows, lower bounds below delta, upper bou
 
 The origin is in the closure of the selected positive calibrated class exactly when (6.3) has such a z for every sufficiently small delta>0, for at least one valid VF selector. The polynomial degrees are at most 36 or54, respectively; the single-radius expressions have degree at most19 or28. No geometry guard has been weakened globally: restrict to a sufficiently small genuine chart neighborhood, where the original guards already persist.
 
-This supplies a finite semialgebraic all-orders problem for the **entire** calibrated heptagon fibre. Standard Nash curve selection supplies an analytic arc from an accumulating feasible class; its finite positive leading orders permit the gluing above. It does not promise a rational path of the coordinator's univariate form. No quantifier elimination or full-packet feasibility solve was executed here. The curve-selection input is classical, not a new theorem of this handoff. citeturn931263search3turn584702academia10
+This supplies a finite semialgebraic all-orders problem for the **entire** calibrated heptagon fibre. Standard Nash curve selection supplies an analytic arc from an accumulating feasible class; its finite positive leading orders permit the gluing above. It does not promise a rational path of the coordinator's univariate form. No quantifier elimination or full-packet feasibility solve was executed here. The curve-selection input is classical, not a new theorem of this handoff.
 
-The coordinator's univariate rational-interval decision remains preferable on its axial/normal subfamily and is complete for the calibrated octagon. Its heptagonal subfamily bound does not decide this enlarged four-parameter class. fileciteturn7file0L47-L69
+The coordinator's univariate rational-interval decision remains preferable on its axial/normal subfamily and is complete for the calibrated octagon. Its heptagonal subfamily bound does not decide this enlarged four-parameter class.
 
 ## 7. A genuine paired rescue invisible to every axial/normal germ
 
@@ -409,9 +409,9 @@ Exact pins:
 
 Normal build/check and fresh source-only build/check were actually executed successfully. The fresh report was compared byte-for-byte and matched. The complete report regenerates the literal initial and endpoint coordinates, poles, true edges, primitive values, actual moment jets, full response matrices, rational chart data/inverse, and all interval enclosures. The source implements the linear chart on this specified control; the general exceptional-chart proof in Section3 is not claimed to have received an executed geometric control. No proof-assistant formalization is claimed.
 
-Convenience files: [complete source](sandbox:/mnt/data/hept_fibre/hept_fibre.py) and [complete exact report](sandbox:/mnt/data/hept_fibre/hept_fibre_report.json). The embedded source, rather than these links, is the durable recovery capsule. All earlier parent constructions remain unchanged.
+Convenience files: complete source (`hept_fibre.py`) and complete exact report (`hept_fibre_report.json`). The embedded source, rather than these links, is the durable recovery capsule. All earlier parent constructions remain unchanged.
 
-For weak S1U1, successful full-fibre simultaneous escape or the corner-pair theorem immediately gives proper110 at the same lattice, because all original strict labels persist and the weak-inclusive index theorem already forces H=0. Neither the nonvanishing moment condition, the four-column cone test nor the calibrated all-orders feasibility is proved automatic for that target class. fileciteturn7file5L7-L13
+For weak S1U1, successful full-fibre simultaneous escape or the corner-pair theorem immediately gives proper110 at the same lattice, because all original strict labels persist and the weak-inclusive index theorem already forces H=0. Neither the nonvanishing moment condition, the four-column cone test nor the calibrated all-orders feasibility is proved automatic for that target class.
 
 The remaining issue is therefore not access to the two missing heptagon freedoms: they are now explicit, rationally parameterized and demonstrably effective. It is whether a residual actual S1U1 packet can defeat every compatible simultaneous selector in this complete calibrated class, and, even then, whether moving the carrier polygon supplies a rescue. Failure of the full four-column first-jet test is not failure of the germ test; failure of the calibrated germ test is still not failure of all nearby genuine realizations. No such target-class failure has been exhibited.
 

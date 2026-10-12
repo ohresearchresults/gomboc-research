@@ -16,9 +16,9 @@ The two previously supplied tested source units are preserved below as complete,
 
 ## 1. Inputs and source boundary
 
-I read the complete1881-line journal update, common and branch memory, and the literal parent `minimum-0133`, identified by SHA-256 `4e27ee583f503313afd13f38d9e359bb89cf413b6cb6f799e05688914eb5fba7`. The update is343414 bytes, SHA-256 `ebb6b6373cee4e8b53010a55e5ee681aef5a095e1caaa3f65ca02c4fc3e12ae9`. The actual mounted18217-byte generator and4797-byte locator were read completely, and their hashes match the parent's tested pins. No authority conflict or missing source dependency is needed for this successor. The parent's explicit warning concerns its corrupted inline stream, not these actual tested units. :contentReference[oaicite:0]{index=0}
+I read the complete1881-line journal update, common and branch memory, and the literal parent `minimum-0133`, identified by SHA-256 `4e27ee583f503313afd13f38d9e359bb89cf413b6cb6f799e05688914eb5fba7`. The update is343414 bytes, SHA-256 `ebb6b6373cee4e8b53010a55e5ee681aef5a095e1caaa3f65ca02c4fc3e12ae9`. The actual mounted18217-byte generator and4797-byte locator were read completely, and their hashes match the parent's tested pins. No authority conflict or missing source dependency is needed for this successor. The parent's explicit warning concerns its corrupted inline stream, not these actual tested units.
 
-The parent's full-domain drift theorem remains an accepted premise: for d=(1,0,-u), Delta=c1-c0, and q_theta=(u,v+theta,1), one has q_theta.Delta>0 throughout the CLOSED theta interval[-1,1]. It controls the genuine centroid's drift toward both ridge quadrilaterals. It does not assert that a two-high-half angle must exist. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The parent's full-domain drift theorem remains an accepted premise: for d=(1,0,-u), Delta=c1-c0, and q_theta=(u,v+theta,1), one has q_theta.Delta>0 throughout the CLOSED theta interval[-1,1]. It controls the genuine centroid's drift toward both ridge quadrilaterals. It does not assert that a two-high-half angle must exist.
 
 ## 2. Complete geometry and the two actual reciprocal fans
 
@@ -40,7 +40,7 @@ F1=(0,8,1) F2=(1,8,2) F3=(2,8,3) F4=(3,8,9,4)
 F5=(4,9,5) F6=(5,9,6) F7=(6,9,7) F8=(7,9,8,0).
 ```
 
-Their cycles supply exactly17 true edges. This is the whole strictly admissible balanced normal form, not an equal-angle or small-cut assumption. The new counterbox below is a specified subset of it. :contentReference[oaicite:3]{index=3}
+Their cycles supply exactly17 true edges. This is the whole strictly admissible balanced normal form, not an equal-angle or small-cut assumption. The new counterbox below is a specified subset of it.
 
 Use ONE M>0 and N=M^-1. Let Q=P^polar have actual vertices q_f with q_f.X_i<=1. No uniform polar refill or polar centroid is introduced.
 
@@ -731,4 +731,4 @@ if __name__=='__main__':
  print(out);print(f.name,len(raw),hashlib.sha256(raw).hexdigest())
 ```
 
-Supplemental copies: [all four readable sources and reports](sandbox:/mnt/data/balanced_ridge_fan_handoff.zip), [complete Markdown handoff](sandbox:/mnt/data/balanced_ridge_fan_handoff.md), and [new exact report](sandbox:/mnt/data/ridge_fan_blind.json). The code above is the complete recovery, not merely a reference to those copies.
+Supplemental copies: all four readable sources and reports (`balanced_ridge_fan_handoff.zip`), complete Markdown handoff (`balanced_ridge_fan_handoff.md`), and new exact report (`ridge_fan_blind.json`). The code above is the complete recovery, not merely a reference to those copies.

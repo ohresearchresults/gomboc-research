@@ -28,7 +28,7 @@ No U1 or110 construction, canonical catalogue identification or count subtractio
 
 ## 2. Authority and reading
 
-The required literal parent is `minimum-0211`, SHA-256 `e209b482f96d8e2db8230776f2c48e4aa227cb43efea145355c5afb0a5fce084`. Its actual family and apical-only conclusion are retained unchanged. The parent explicitly left sole U at other vertices open; that is the obligation closed here. :contentReference[oaicite:0]{index=0}
+The required literal parent is `minimum-0211`, SHA-256 `e209b482f96d8e2db8230776f2c48e4aa227cb43efea145355c5afb0a5fce084`. Its actual family and apical-only conclusion are retained unchanged. The parent explicitly left sole U at other vertices open; that is the obligation closed here.
 
 The complete new `research-journal(20260923-212129).md`, including its literal parent payload and recovery capsule, was read through EOF. Its actual mounted bytes are276542, SHA-256 `e7a557dce243a1eb70321c44b5938a7c33709962adc2259f64e574a60ce8e8c2`. The complete decoded parent source was also read. No mathematical conflict or missing dependency was encountered. No old research connector, unselected archive, or parent output table is needed by the new autonomous verifier.
 
@@ -78,7 +78,7 @@ The seventeen TRUE edges, in the exact order used by the certificate, are
 01,02,03,04,05,06,07,12,19,23,34,45,58,67,68,79,89.
 ```
 
-Each edge ij with i<j contributes directed indices2k for i->j and2k+1 for j->i, starting at k=0. The degree sequence is7 followed by nine3s. F7 is the heptagonal cap and F8 the quadrilateral cap. Triangle089 is an internal interface, not a maximal facet;08 and09 are not mechanical edges. This is precisely the parent's nonconic family, not a parabolic-cone alias. :contentReference[oaicite:1]{index=1}
+Each edge ij with i<j contributes directed indices2k for i->j and2k+1 for j->i, starting at k=0. The degree sequence is7 followed by nine3s. F7 is the heptagonal cap and F8 the quadrilateral cap. Triangle089 is an internal interface, not a maximal facet;08 and09 are not mechanical edges. This is precisely the parent's nonconic family, not a parabolic-cone alias.
 
 The new standalone source certifies all35 nonincident section-polygon determinants and all56 nonincident three-dimensional support slacks over the full interval. The first five section x-coordinates are strictly negative and the last two strictly positive, so the seam crosses exactly the two stated open section edges. The cone construction gives the entire displayed true lattice. Its two seam quadrilaterals are planar by construction: they lie in span(b5,b6) and span(b7,b1), respectively, through the actual apex. No arbitrary independent creased nonagon is substituted.
 
@@ -107,7 +107,7 @@ Set **Xi=Yi-g once**. The exact common-centroid identity is
 
 `X0+3 sum_s lambda_s*(c_s(raw)-g)=0`.
 
-These are true uniform volume fractions and full-facet area centroids, not adjustable masses. They are reconstructed symbolically in the capsule. The same moment definitions are part of the literal parent. :contentReference[oaicite:2]{index=2}
+These are true uniform volume fractions and full-facet area centroids, not adjustable masses. They are reconstructed symbolically in the capsule. The same moment definitions are part of the literal parent.
 
 For a convenient explicit denominator define
 
@@ -498,4 +498,4 @@ p.write_bytes(src)
 print('NONAPICAL_SOURCE_RECOVERED',len(src),hashlib.sha256(src).hexdigest())
 ```
 
-Convenience copies: [decoded autonomous source](sandbox:/mnt/data/nonapical_twocap.py), [exact report](sandbox:/mnt/data/nonapical_twocap.json), [recovery capsule](sandbox:/mnt/data/recover_nonapical.py). The embedded capsule reconstructs everything without these links.
+Convenience copies: decoded autonomous source (`nonapical_twocap.py`), exact report (`nonapical_twocap.json`), recovery capsule (`recover_nonapical.py`). The embedded capsule reconstructs everything without these links.

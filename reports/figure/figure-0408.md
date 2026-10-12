@@ -14,7 +14,7 @@ Branch: `[internal-source-reference]`.
 
 The strongest new results are a finite-shape ordinary-mass obstruction for three small partial witness systems, a real E308 fixed-reference mass correction that reduces every ordinary first-moment error component by more than 10.4%, and a separate actual-hull continuation to E177 nonwinners, including a 61-vertex body with a 129-bit common centred denominator.
 
-The complete five-text input pack was read, including the entire journal, its literal parent payload and the four coordinate source materials. The source closure was sufficient; no fifth C616 patch or external archive was needed. I used the literal parent `figure-0406`, envelope SHA-256 `8f63bbe8ff6c44a2ffa9e6030c14db1962f3e21e22ece583de1ea1db0cc68246`. Source-authoritative C616 is V174/E308/F136, own132; C620 is V175/E310/F137, own132, not HA39/V174/F138 or an own121 alias. The inherited rational reference centres and their different stable roots are used as supplied. :contentReference[oaicite:0]{index=0}
+The complete five-text input pack was read, including the entire journal, its literal parent payload and the four coordinate source materials. The source closure was sufficient; no fifth C616 patch or external archive was needed. I used the literal parent `figure-0406`, envelope SHA-256 `8f63bbe8ff6c44a2ffa9e6030c14db1962f3e21e22ece583de1ea1db0cc68246`. Source-authoritative C616 is V174/E308/F136, own132; C620 is V175/E310/F137, own132, not HA39/V174/F138 or an own121 alias. The inherited rational reference centres and their different stable roots are used as supplied.
 
 I did not rerun the solved global fixed-shape centre search or closest-centre optimization. Their inherited conclusions are kept separate from the new physical bodies. The capsule below embeds the complete required parent generator, exact recovery code, new inputs and all necessary auditors. It needs no supplied material file, journal, sandbox or numerical rediscovery to recover these seven exact endpoints.
 
@@ -138,7 +138,7 @@ Thus **every ordinary first-moment error component is reduced by more than 10.4%
 
 The Euclidean centroid-gap ratio is strictly between 0.923439887 and 0.923439888, a reduction of about 7.6560%. The new exact L-infinity gap lies in `[0.256021822336, 0.256021822337)`.
 
-That is below the inherited fixed-C616 infimum 0.27721934672215..., because the geometry has actually changed. It is not a new fixed-body optimum and proves no Hausdorff-distance statement. The parent explicitly restricts its old bound to the unchanged body. :contentReference[oaicite:1]{index=1}
+That is below the inherited fixed-C616 infimum 0.27721934672215..., because the geometry has actually changed. It is not a new fixed-body optimum and proves no Hausdorff-distance statement. The parent explicitly restricts its old bound to the unchanged body.
 
 ### 3.2 Genuine witness turnover, not frozen old choices
 
@@ -310,7 +310,7 @@ Decoded UTF-8 JSON dictionary: 206113 bytes, 44 complete source files
 SHA256 1b19dac3308a9bdb41921797bbfe8cfbce67a377525e8efdc82dc37613355414
 ```
 
-[Supplementary source, original inputs, numerical observations and complete cold outputs](sandbox:/mnt/data/R82_FINITE_PHYSICAL_MASS_GATES.zip):3102191 bytes, SHA-256 `65261d594323b5cd92d544e4fea7ecae3da3f61a279e8576eafcf4e21984c508`. The following inline capsule, not that ZIP, is the durable recovery source.
+Supplementary source, original inputs, numerical observations and complete cold outputs (`R82_FINITE_PHYSICAL_MASS_GATES.zip`):3102191 bytes, SHA-256 `65261d594323b5cd92d544e4fea7ecae3da3f61a279e8576eafcf4e21984c508`. The following inline capsule, not that ZIP, is the durable recovery source.
 
 ### 6.3 Complete decoder
 

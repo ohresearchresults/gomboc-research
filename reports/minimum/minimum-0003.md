@@ -19,11 +19,11 @@ Consequently every nondegenerate homogeneous convex three-polytope with one unst
 \[
 E=V+F-2\ge14,\qquad \boxed{C=2E\ge28}.
 \]
-Combining this with the lead's already executed upper-witness replay gives **\(28\le C_{\min}\le1374\)**. I did not rerun that upper-witness audit in this assignment. Its replay and exact identity are recorded in the attached journal. :contentReference[oaicite:0]{index=0}
+Combining this with the lead's already executed upper-witness replay gives **\(28\le C_{\min}\le1374\)**. I did not rerun that upper-witness audit in this assignment. Its replay and exact identity are recorded in the attached journal.
 
 The full-reflection relaxation is **sharp in point count**: below I give an exact, full-dimensional eight-vertex polyhedron with a strict positive-escape tree and even \(-qQ\subset\operatorname{int}Q\) for \(q=1/3\). Its origin is neither its ordinary volume centroid nor its Santaló point. A separate exact seven-vertex fixture satisfies the lead's weaker factor \(q=5/16\), so simply extending the six-point theorem at that unchanged factor would be false.
 
-The proof below is independent of the inherited, unlocated V7 certificate collection. Its conceptual parent is the lead's literal six-point proof, not the older V>=8 summary. :contentReference[oaicite:1]{index=1}
+The proof below is independent of the inherited, unlocated V7 certificate collection. Its conceptual parent is the lead's literal six-point proof, not the older V>=8 summary.
 
 ## 1. Projection estimates and a tighter near-antipode lemma
 
@@ -613,7 +613,7 @@ print('SEVEN_POINT_REFLECTION_RECOVERY_PASS')
 
 The productive sequence was to generalize the near-antipode lemma to a common internal bottleneck, exclude the entire branched seven-node case, and then split the remaining chain at indices 2 and 4. The decisive extra observation was that the endpoint required to support the reflection of \(x_2\) becomes too short to support the reflection of \(x_0\). This replaces the unresolved two-prefix difficulty by the explicit two-variable inequality (14). Numerical exploration helped locate the boundary fixtures, but no search failure or numerical optimality assertion is a premise of the theorem or of their acceptance; their literal rational definitions and exact verifier suffice to reproduce every claimed property.
 
-The checked primary paper by Bozóki–Domokos–Papp–Regős, arXiv:2401.17906v2, proves the homogeneous lower bound V>=7 using 5943 certified quadratic systems. The proof above independently strengthens that bound in the present strict nondegenerate scope and gives a separate facet-side result. I do not claim historical priority relative to all later work. :contentReference[oaicite:2]{index=2} The older eight-vertex result for uniform point masses concerns a different center and is not used here. :contentReference[oaicite:3]{index=3}
+The checked primary paper by Bozóki–Domokos–Papp–Regős, arXiv:2401.17906v2, proves the homogeneous lower bound V>=7 using 5943 certified quadratic systems. The proof above independently strengthens that bound in the present strict nondegenerate scope and gives a separate facet-side result. I do not claim historical priority relative to all later work. The older eight-vertex result for uniform point masses concerns a different center and is not used here.
 
 The new analytic proof has a complete case split and its nontrivial constants have passed exact rational checks, but it has not yet received an independent mathematician's review. The two boundary fixtures have been fully checked by the provided exact implementation; this is not a claim of two independent verifier implementations. There is no new homogeneous Gömböc upper witness and no determination of the exact minimum.
 
@@ -623,4 +623,4 @@ The new analytic proof has a complete case split and its nontrivial constants ha
 \]
 for an outward triangulation of the actual boundary. On the facet-pole side it is the corresponding equation for the actual vertices of \(Q^\circ\), equivalently \(g(Q^\circ)=0\), not \(g(Q)=0\). The eight-point fixture is an exact regression test against silently replacing either condition by \(-Q/3\subseteq Q\). The counting/bottleneck lemma also continues to exclude every eight-node escape tree of height at most four.
 
-Convenience copies: [complete exact source](sandbox:/mnt/data/atlas13/seven_point_reflection.py) and [exact report](sandbox:/mnt/data/atlas13/seven_point_reflection_report.json). The complete inline source and literal input points above, rather than these links, define the recoverable handoff.
+Convenience copies: complete exact source (`seven_point_reflection.py`) and exact report (`seven_point_reflection_report.json`). The complete inline source and literal input points above, rather than these links, define the recoverable handoff.

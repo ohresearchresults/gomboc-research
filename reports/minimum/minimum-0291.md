@@ -225,7 +225,7 @@ Let D be the sum in (8). If C_l is the sum of the four vertex vectors of the l-t
 \tag{9}
 \]
 
-These are the positive-cell identities also visible in the supplied chart source. fileciteturn92file0L9-L27
+These are the positive-cell identities also visible in the supplied chart source.
 
 The actual tetrahedron
 
@@ -520,7 +520,7 @@ No numerical computation materially supports the new theorem. Its complete recov
 
 These data require no downloaded coefficient array, optimizer, root isolation, parent program, or saved certificate. They constitute an analytic recovery capsule, not a claim of executed source-code verification. I do not supply a fictitious byte count, SHA-256, terminal PASS, or physical census for an unexecuted program.
 
-The supplied numerical packages retain their own separate dependency obligations. In particular, any future computational descendant of the fixed-pencil/beta certificates must retain the mandatory correction from `visit(right,mid,hi,pending,depth+1)` to `visit(right,middle,hi,pending,depth+1)` in the original pencil source, together with both pencil materials and both beta materials. That patch is explicitly present in the available source excerpt; it has not been executed here. fileciteturn92file2L248-L269
+The supplied numerical packages retain their own separate dependency obligations. In particular, any future computational descendant of the fixed-pencil/beta certificates must retain the mandatory correction from `visit(right,mid,hi,pending,depth+1)` to `visit(right,middle,hi,pending,depth+1)` in the original pencil source, together with both pencil materials and both beta materials. That patch is explicitly present in the available source excerpt; it has not been executed here.
 
 ## 11. What remains
 

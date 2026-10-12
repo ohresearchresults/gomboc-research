@@ -8,7 +8,7 @@ AI research report · 2026-09-09 UTC
 
 ## 1. Verdict and acceptance boundary
 
-**No new homogeneous own-centred strict110 body is promoted. The supplied COORD_FLOW_H132_C698_D1000000000 remains the strict110 starting body; the C<500 Gömböc target was not attained.** I recovered its literal132-row definition and reconstructed its219/349/132 maximal complex, ordinary volume and centroid before the new work. I did not substitute the old NN51 or KR68_CAP257 geometry. The journal’s parent audit receipts are distinguished from the new executions below. :contentReference[oaicite:0]{index=0}
+**No new homogeneous own-centred strict110 body is promoted. The supplied COORD_FLOW_H132_C698_D1000000000 remains the strict110 starting body; the C<500 Gömböc target was not attained.** I recovered its literal132-row definition and reconstructed its219/349/132 maximal complex, ordinary volume and centroid before the new work. I did not substitute the old NN51 or KR68_CAP257 geometry. The journal’s parent audit receipts are distinguished from the new executions below.
 
 Two new finite bodies were exactly materialized:
 
@@ -359,7 +359,7 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python REMAKE_SELECTED.py
 
 The actual fresh execution returned `matches_frozen_definition True` with the principal RAW SHA above and identical reference-A numerators. Broader commands, seeds and parameters are in README.txt and the complete source units.
 
-Supplementary artifacts: [complete source dictionary](sandbox:/mnt/data/kr68_metric/HANDOFF_SOURCE.json), [observed unified cold receipt](sandbox:/mnt/data/kr68_metric/UNIFIED_COLD_RECEIPT.json), [exact sources, reports and atlases](sandbox:/mnt/data/KR68_metric_exact_gates.zip). The literal capsule is sufficient without these links.
+Supplementary artifacts: complete source dictionary (`HANDOFF_SOURCE.json`), observed unified cold receipt (`UNIFIED_COLD_RECEIPT.json`), exact sources, reports and atlases (`KR68_metric_exact_gates.zip`). The literal capsule is sufficient without these links.
 
 ```text
 KR68_METRIC_CAPSULE_BEGIN

@@ -503,4 +503,4 @@ if '--full'in sys.argv or '--check'in sys.argv:
 
 Start with literal385 in the new374971-byte checkpoint. Reuse the eight-escape actual-moment method, trying the three apices at broom positions `[0,1,5]` before broad nine-fan searches. Complete coverage and exact certificates remain necessary before removing another root or type. The ten-vertex slice and any stronger global complexity bound remain outside this result.
 
-For convenience, the reconstructed coefficients, all sources, all ten pinned outputs and the full handoff are also in [C34_V9_NINE_ACTUAL_FACET_EXCLUSIONS_V2.zip](sandbox:/workspace/scratch/4946fd71afc5/C34_V9_NINE_ACTUAL_FACET_EXCLUSIONS_V2.zip). The complete inline capsule above is sufficient without the archive.
+For convenience, the reconstructed coefficients, all sources, all ten pinned outputs and the full handoff are also in C34_V9_NINE_ACTUAL_FACET_EXCLUSIONS_V2.zip. The complete inline capsule above is sufficient without the archive.

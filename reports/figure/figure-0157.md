@@ -10,7 +10,7 @@ AI research report · 2026-08-29 UTC
 
 **No homogeneous convex polyhedral Gömböc was found.** In particular, no open trace-one SPD metric box was isolated whose unchanged Santaló-centred 4,324-row lattice has strict own-centroid class `(S,U,H)=(1,1,0)`. The entire bounded five-dimensional SPD core is not covered, so no global fixed-lattice nonexistence theorem is claimed.
 
-The run's acceptance gate remains a finite uniform-density convex polyhedron evaluated at its own exact volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle edge, a positive perturbation margin, independently reconstructible H/V and incidence data, a complete full-cone audit, and matching OBJ/STL. :contentReference[oaicite:0]{index=0} The supplied journal identified walls `19672 (3267→3302)` and `4421 (760→725)` as the first useful continuations after the three previous exact S–H exits. :contentReference[oaicite:1]{index=1}
+The run's acceptance gate remains a finite uniform-density convex polyhedron evaluated at its own exact volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle edge, a positive perturbation margin, independently reconstructible H/V and incidence data, a complete full-cone audit, and matching OBJ/STL. The supplied journal identified walls `19672 (3267→3302)` and `4421 (760→725)` as the first useful continuations after the three previous exact S–H exits.
 
 This continuation resolves both targets by exact actual chamber paths. It adds:
 
@@ -525,17 +525,17 @@ No refinement inside the two new relative cells is useful: their complete nonwin
 
 ## Downloadable artifacts
 
-- [Complete self-contained bundle](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas.zip)
-- [Bundle SHA-256 file](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas.zip.sha256)
-- [Complete Markdown handoff](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas/RESULT.md)
-- [Global exact certificate](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas/GLOBAL_CERTIFICATE.json)
-- [Complete continuation atlas](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas/continuation_atlas.json)
-- [Unified independent verifier](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas/verify_all.py)
-- [Completed full verification transcript](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas/FULL_VERIFICATION.txt)
-- [Strongest endpoint H table](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas/strongest_endpoint_H.csv)
-- [Strongest endpoint V table](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas/strongest_endpoint_V.csv)
-- [Watertight OBJ](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas/strongest_endpoint.obj)
-- [Watertight STL](sandbox:/mnt/data/Steady_Willow_49_19672_4421_atlas/strongest_endpoint.stl)
+- Complete self-contained bundle (`Steady_Willow_49_19672_4421_atlas.zip`)
+- Bundle SHA-256 file (`Steady_Willow_49_19672_4421_atlas.zip.sha256`)
+- Complete Markdown handoff (`RESULT.md`)
+- Global exact certificate (`GLOBAL_CERTIFICATE.json`)
+- Complete continuation atlas (`continuation_atlas.json`)
+- Unified independent verifier (`verify_all.py`)
+- Completed full verification transcript (`FULL_VERIFICATION.txt`)
+- Strongest endpoint H table (`strongest_endpoint_H.csv`)
+- Strongest endpoint V table (`strongest_endpoint_V.csv`)
+- Watertight OBJ (`strongest_endpoint.obj`)
+- Watertight STL (`strongest_endpoint.stl`)
 
 Final bundle SHA-256:
 

@@ -217,12 +217,12 @@ Selected exact input receipts: RESERVE42_G5,932bytes,SHA256 `b3cb940d430aa31dae1
 
 The full Markdown includes the literal self-contained decoder, all recovery data and verification commands. Its numerical production commands are inside PRODUCTION.md after extraction; exact replay is `python -B -S RECOVER_CF82.py CF82_RECOVERED`, requiring no old sandbox, journal or external library once the complete decoder bytes have been preserved.
 
-[Complete Markdown handoff with literal recovery capsule](sandbox:/mnt/data/CF82_HANDOFF.md)
+Complete Markdown handoff with literal recovery capsule (`CF82_HANDOFF.md`)
 
-[Complete version2 JSON handoff with literal recovery capsule](sandbox:/mnt/data/CF82_HANDOFF.json)
+Complete version2 JSON handoff with literal recovery capsule (`CF82_HANDOFF.json`)
 
-[Standalone self-contained recovery source](sandbox:/mnt/data/RECOVER_CF82.py)
+Standalone self-contained recovery source (`RECOVER_CF82.py`)
 
-[Full evidence archive](sandbox:/mnt/data/CF82_FULL_EVIDENCE.zip)
+Full evidence archive (`CF82_FULL_EVIDENCE.zip`)
 
 The full evidence archive is3842251bytes,SHA256 `73161f1367b1d6ed075ca320cb69dd1cb7c08fd515a262e4aef4c6c3b7979ef8`. The final handoff prose corrects the affine scout accounting to31 total minimizations; the producing source and execution records already contain the correct fifteen linear plus sixteen gap runs.

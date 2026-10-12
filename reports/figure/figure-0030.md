@@ -10,7 +10,7 @@ AI research report · 2026-08-22 UTC
 
 No homogeneous polyhedral Gömböc is obtained in this direction. The completed result is the requested quantitative fallback: an explicit finite rational moment-control family, exact volume/first-moment polynomials, a full-rank three-control Jacobian, a certified open `(S,U,H)=(1,1,0)` parameter box, and an exact proof that the current centroid target is outside the reachable set of the entire eight-control family.
 
-The persistent transcript had already localized the remaining task to full-basin cancellation followed by exact centroid restoration. :contentReference[oaicite:0]{index=0}
+The persistent transcript had already localized the remaining task to full-basin cancellation followed by exact centroid restoration.
 
 ## Seed
 
@@ -206,13 +206,13 @@ The three centroid equations have no solution anywhere in this finite control ar
 
 `independent_check.py` imports no construction code. It reconstructs the parent coefficients, checks every published controlled vertex against its exact parameter formula, rebuilds the 82-edge graph from the face cycles, proves every listed face is a complete strict supporting face, recomputes exact volume and centroid, classifies every face/vertex/edge, rechecks the moment formula, and verifies the no-go and Jacobian determinant.
 
-- [Complete self-contained package](sandbox:/mnt/data/gomboc_moment_control/remote_cap_certificate.zip)
-- [Full rational coordinate/face/moment certificate](sandbox:/mnt/data/gomboc_moment_control/remote_cap_certificate/remote_caps_certificate.json)
-- [Exact constructor and verifier](sandbox:/mnt/data/gomboc_moment_control/remote_cap_certificate/verify_remote_caps.py)
-- [Independent exact checker](sandbox:/mnt/data/gomboc_moment_control/remote_cap_certificate/independent_check.py)
-- [Exact rational interval report](sandbox:/mnt/data/gomboc_moment_control/remote_cap_certificate/remote_caps_interval_report_fraction.json)
-- [Outward-rounded interval report](sandbox:/mnt/data/gomboc_moment_control/remote_cap_certificate/remote_caps_interval_report.json)
-- [OBJ](sandbox:/mnt/data/gomboc_moment_control/remote_cap_certificate/remote_caps_baseline.obj)
+- Complete self-contained package (`remote_cap_certificate.zip`)
+- Full rational coordinate/face/moment certificate (`remote_caps_certificate.json`)
+- Exact constructor and verifier (`verify_remote_caps.py`)
+- Independent exact checker (`independent_check.py`)
+- Exact rational interval report (`remote_caps_interval_report_fraction.json`)
+- Outward-rounded interval report (`remote_caps_interval_report.json`)
+- OBJ (`remote_caps_baseline.obj`)
 
 Package SHA-256:
 

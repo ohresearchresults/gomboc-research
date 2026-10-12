@@ -8,13 +8,13 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Outcome
 
-No exact strict110/additionalweak000 body was found, so this branch is **not complete** and I do not claim a new accepted record. The strongest exact changed body obtained is **`SC83_BF35_REPLACE5_PACKET24_G4`**, an own-centred homogeneous `V66/E99/F35/C198` strict121, weak000, primitive-zero000 descendant of BF35REC_G4. It keeps the same-centre polar landscape exactly cancelled (`Qbars=[]`) while contracting the entire physical packet from the literal BF35 parent’s corrected **29 vertices / 25 cut edges** to **24 vertices / 20 cut edges**. The authoritative parent explicitly corrects 30→29. :contentReference[oaicite:0]{index=0}
+No exact strict110/additionalweak000 body was found, so this branch is **not complete** and I do not claim a new accepted record. The strongest exact changed body obtained is **`SC83_BF35_REPLACE5_PACKET24_G4`**, an own-centred homogeneous `V66/E99/F35/C198` strict121, weak000, primitive-zero000 descendant of BF35REC_G4. It keeps the same-centre polar landscape exactly cancelled (`Qbars=[]`) while contracting the entire physical packet from the literal BF35 parent’s corrected **29 vertices / 25 cut edges** to **24 vertices / 20 cut edges**. The authoritative parent explicitly corrects 30→29.
 
-The live acceptance target is `C=2E<500`, hence `E<=249`; the older generic E<=310 target is obsolete. :contentReference[oaicite:1]{index=1} The new body has E99, leaving 150 final-edge slots.
+The live acceptance target is `C=2E<500`, hence `E<=249`; the older generic E<=310 target is obsolete. The new body has E99, leaving 150 final-edge slots.
 
 ## Source authority and reading closure
 
-I read the attached 2066-line journal through EOF, including both literal parent payloads, and decoded/read the portable exact source pack before research. Journal snapshot: 238713 bytes, SHA-256 `fe0f29f9b06ae2353c755d6852a196ef8baccc0a5c732939a6a71f2bafb350fb`. Authoritative parents are `figure-0450`, SHA-256 `4acbb52f78b198f4db9f9fc83e18ec2b6b446d3703b82c4ab1b238b5275533f8` :contentReference[oaicite:2]{index=2} and `figure-0451`, SHA-256 `0bfa541ab2de1a9c2b23e2917ca7c671e99c34053e05cca39db1d0838c5bb62c` :contentReference[oaicite:3]{index=3}. No source conflict was found beyond the already-declared BF35 29/25 correction.
+I read the attached 2066-line journal through EOF, including both literal parent payloads, and decoded/read the portable exact source pack before research. Journal snapshot: 238713 bytes, SHA-256 `fe0f29f9b06ae2353c755d6852a196ef8baccc0a5c732939a6a71f2bafb350fb`. Authoritative parents are `figure-0450`, SHA-256 `4acbb52f78b198f4db9f9fc83e18ec2b6b446d3703b82c4ab1b238b5275533f8` and `figure-0451`, SHA-256 `0bfa541ab2de1a9c2b23e2917ca7c671e99c34053e05cca39db1d0838c5bb62c`. No source conflict was found beyond the already-declared BF35 29/25 correction.
 
 Portable-parent receipts: XZ 47316 bytes / SHA-256 `45b634630ba18cf489f4dd1487eb60d42feee425cc5cad8009b7b1aea99558b0`; decoded dictionary 156800 bytes / SHA-256 `2ab044fb2306d7ffe31d58a05e5458e2b6b06c593ccfd255d828d9831be708db`. A new all-52-body cold replay was **not** completed here; the exact BF35 computations below were freshly executed.
 
@@ -224,7 +224,7 @@ Additional marker:
 SC83_BF35_ALL35_SINGLE_DELETIONS_NO_110_OR_121_PASS [9] 10769 e9bf28a0582a040fce433e800913bc82a21a2ad73cc67fb4e2cb365c44f53a82
 ```
 
-Convenience copy only: [BF35_PACKET24_RECOVER.py](sandbox:/mnt/data/BF35_PACKET24_RECOVER.py). The inline compressed payload is the durable recovery authority.
+Convenience copy only: BF35_PACKET24_RECOVER.py. The inline compressed payload is the durable recovery authority.
 
 ## Most useful continuation
 

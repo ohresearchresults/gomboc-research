@@ -6,11 +6,11 @@ AI research report · 2026-08-27 UTC
 
 # Result: exact three-sheet/two-band Santaló annulus fallback
 
-**Verdict.** No homogeneous convex polyhedral Gömböc was found in the tested family. The requested new topology was nevertheless materialized exactly: a finite-thickness three-sheet communicating annulus, a true 13-edge C-sheet ascent, two transverse two-cell closure bands, two separated interior circuits, and one exact wall at which all four blocks cross simultaneously. The strongest gate-valid endpoint is exact own-centroid `(S,U,H)=(2,2,2)`, not a wall point and not a winner. :contentReference[oaicite:0]{index=0} The journal’s unavailable two-sheet endpoint was therefore reconstructed and strictly advanced rather than assumed. :contentReference[oaicite:1]{index=1}
+**Verdict.** No homogeneous convex polyhedral Gömböc was found in the tested family. The requested new topology was nevertheless materialized exactly: a finite-thickness three-sheet communicating annulus, a true 13-edge C-sheet ascent, two transverse two-cell closure bands, two separated interior circuits, and one exact wall at which all four blocks cross simultaneously. The strongest gate-valid endpoint is exact own-centroid `(S,U,H)=(2,2,2)`, not a wall point and not a winner. The journal’s unavailable two-sheet endpoint was therefore reconstructed and strictly advanced rather than assumed.
 
 ## Exact finite object
 
-Positive/gate endpoint: `Q=(V,E,F)=(30,84,56)`, `P=Q^circ=(56,84,30)`, complexity `168`, all 30 Q rows extreme, all 56 P vertices actual, exact uniform centroid and exact first moment `(0,0,0)`, P inactive separation `3.4506256306799736e-5`, Q inactive separation `0.048049583353331746`. The negative strict side has the same f-vectors and exact centering, class `(3,2,3)`, P/Q separations `1.903490389483464e-5` and `0.03565070087309026`. :contentReference[oaicite:2]{index=2}
+Positive/gate endpoint: `Q=(V,E,F)=(30,84,56)`, `P=Q^circ=(56,84,30)`, complexity `168`, all 30 Q rows extreme, all 56 P vertices actual, exact uniform centroid and exact first moment `(0,0,0)`, P inactive separation `3.4506256306799736e-5`, Q inactive separation `0.048049583353331746`. The negative strict side has the same f-vectors and exact centering, class `(3,2,3)`, P/Q separations `1.903490389483464e-5` and `0.03565070087309026`.
 
 ## Deterministic exact Q generator
 
@@ -70,7 +70,7 @@ For the positive endpoint `c≈(0.023697032965585074,0.0145120547324014,-0.00075
 
 `T_u(q)=q/(1-q·u)`, `u=c`, `Q=T_c(Q_raw)`, `P=P0-c`.
 
-Then `(T_uQ_raw)^circ=P0-u`, so `F(u)=centroid((T_uQ_raw)^circ)=c-u` and `DF=-I3`. Thus `u=c` is the unique exact centering solution; in centered coordinates the root is exactly zero and isolated in `[-2^-80,2^-80]^3`. Rows `(0,2,18,25)` positively span zero; all projective denominators lie in `[0.6756503497606984,2.463374558613933]`. On the root box, P support displacement is below `1.3788577408045493e-25` and Q control dot below `1.0511485658633125e-22`, proving origin interiority and bounded polarity throughout. :contentReference[oaicite:3]{index=3}
+Then `(T_uQ_raw)^circ=P0-u`, so `F(u)=centroid((T_uQ_raw)^circ)=c-u` and `DF=-I3`. Thus `u=c` is the unique exact centering solution; in centered coordinates the root is exactly zero and isolated in `[-2^-80,2^-80]^3`. Rows `(0,2,18,25)` positively span zero; all projective denominators lie in `[0.6756503497606984,2.463374558613933]`. On the root box, P support displacement is below `1.3788577408045493e-25` and Q control dot below `1.0511485658633125e-22`, proving origin interiority and bounded polarity throughout.
 
 ## Four-block event and deactivation
 
@@ -87,7 +87,7 @@ The final input genuinely omits `old2,old10,old14,old24,A0-A4,A11,A12,B0,B6,B7`;
 
 ## Exhaustive own-centroid audit
 
-The independent verifier rebuilt the complete P/Q lattices and tested all 30 maximal P faces, all 56 P vertices with complete three-normal cones, and all 84 true P edges with segment and complete two-normal-cone conditions. :contentReference[oaicite:4]{index=4}
+The independent verifier rebuilt the complete P/Q lattices and tested all 30 maximal P faces, all 56 P vertices with complete three-normal cones, and all 84 true P edges with segment and complete two-normal-cone conditions.
 
 Positive endpoint equilibria:
 
@@ -106,25 +106,25 @@ The complete literal positive and negative maximal-face cycles, both true-edge l
 
 A new exact noncongruent family `P_s=diag(1+s,1,1)P`, `Q_s=diag((1+s)^-1,1,1)Q` is certified for every rational `s∈[-2^-9,2^-9]`. Centroid zero, polarity and incidence are exact; 1,542 primitive face/vertex/full-cone/edge signs remain fixed by directed polynomial bounds. The condition number is at most `513/511`, and both inactive gates remain above `1e-5`.
 
-Fresh standalone standard-library `Fraction` verification, importing neither the generator nor stored topology, passed for both endpoints. Positive SHA-256: `052905e3dadc281d660e6a231e5fba6d489c8990f31cf2053dbd2a24ffbd0d66`; negative SHA-256: `e6c070a0f68c7b45010f693d492c165a56b88ef717f96eda04462f2a082e10f0`. The rebuilt OBJ/STL meshes match all certified cycles and edge counts. :contentReference[oaicite:5]{index=5}
+Fresh standalone standard-library `Fraction` verification, importing neither the generator nor stored topology, passed for both endpoints. Positive SHA-256: `052905e3dadc281d660e6a231e5fba6d489c8990f31cf2053dbd2a24ffbd0d66`; negative SHA-256: `e6c070a0f68c7b45010f693d492c165a56b88ef717f96eda04462f2a082e10f0`. The rebuilt OBJ/STL meshes match all certified cycles and edge counts.
 
 ## Precise obstruction and next topology
 
 The old relays are gone, but the positive side retains two new Euler-neutral relay blocks: root unstable `(B2,B3,C10)` with saddle `(B2,B3)`, and upper/return stable rows `B10,C2` with unstable `(A10,B12,C2)` and saddle `(C8,C12)`. Crossing all four blocks creates the new `B5/(B5,B8)` pair instead of annihilating the old block. Searches covering 4,000 tubular/spindle proposals, 971 valid direct C-sheet continuations, and 19,200 topology-aware local proposals found no `(1,1,0)` state.
 
-The smallest architecture not subsumed is a four-sheet communicating annulus, or a three-sheet annulus with a third genuine transverse closure band and nonannular two-cell replacement. It must replace `B2,B3,B10,C2,C8,C10,C12,A10,B12` together, likely deactivate `B9,C3,C9,C11`, and cross at least six coupled circuit blocks while retaining the exact `u=c`, `DF=-I3` centering identity. :contentReference[oaicite:6]{index=6}
+The smallest architecture not subsumed is a four-sheet communicating annulus, or a three-sheet annulus with a third genuine transverse closure band and nonannular two-cell replacement. It must replace `B2,B3,B10,C2,C8,C10,C12,A10,B12` together, likely deactivate `B9,C3,C9,C11`, and cross at least six coupled circuit blocks while retaining the exact `u=c`, `DF=-I3` centering identity.
 
 ## Reproducible artifacts
 
-- [Complete self-contained handoff with all face cycles and true edges](sandbox:/mnt/data/three_sheet_bundle/SELF_CONTAINED_HANDOFF.md)
-- [Portable exact bundle ZIP](sandbox:/mnt/data/three_sheet_annulus_exact_fallback_bundle.zip)
-- [ZIP SHA-256](sandbox:/mnt/data/three_sheet_annulus_exact_fallback_bundle.zip.sha256)
-- [Positive exact certificate](sandbox:/mnt/data/three_sheet_bundle/three_sheet_two_band_gate_exact.json)
-- [Negative exact certificate](sandbox:/mnt/data/three_sheet_bundle/three_sheet_four_block_negative_compact_exact.json)
-- [Independent exact verifier](sandbox:/mnt/data/three_sheet_bundle/verify_three_sheet_independent.py)
-- [Fresh PASS report](sandbox:/mnt/data/three_sheet_bundle/verification/independent_verification_fresh_combined.json)
-- [Perturbation certificate](sandbox:/mnt/data/three_sheet_bundle/metric_perturbation_certificate.json)
-- [Positive P OBJ](sandbox:/mnt/data/three_sheet_bundle/three_sheet_two_band_gate_P.obj) / [STL](sandbox:/mnt/data/three_sheet_bundle/three_sheet_two_band_gate_P.stl)
-- [Positive Q OBJ](sandbox:/mnt/data/three_sheet_bundle/three_sheet_two_band_gate_Q.obj) / [STL](sandbox:/mnt/data/three_sheet_bundle/three_sheet_two_band_gate_Q.stl)
-- [Negative P OBJ](sandbox:/mnt/data/three_sheet_bundle/three_sheet_four_block_negative_P.obj) / [STL](sandbox:/mnt/data/three_sheet_bundle/three_sheet_four_block_negative_P.stl)
-- [Negative Q OBJ](sandbox:/mnt/data/three_sheet_bundle/three_sheet_four_block_negative_Q.obj) / [STL](sandbox:/mnt/data/three_sheet_bundle/three_sheet_four_block_negative_Q.stl)
+- Complete self-contained handoff with all face cycles and true edges (`SELF_CONTAINED_HANDOFF.md`)
+- Portable exact bundle ZIP (`three_sheet_annulus_exact_fallback_bundle.zip`)
+- ZIP SHA-256 (`three_sheet_annulus_exact_fallback_bundle.zip.sha256`)
+- Positive exact certificate (`three_sheet_two_band_gate_exact.json`)
+- Negative exact certificate (`three_sheet_four_block_negative_compact_exact.json`)
+- Independent exact verifier (`verify_three_sheet_independent.py`)
+- Fresh PASS report (`independent_verification_fresh_combined.json`)
+- Perturbation certificate (`metric_perturbation_certificate.json`)
+- Positive P OBJ (`three_sheet_two_band_gate_P.obj`) / STL (`three_sheet_two_band_gate_P.stl`)
+- Positive Q OBJ (`three_sheet_two_band_gate_Q.obj`) / STL (`three_sheet_two_band_gate_Q.stl`)
+- Negative P OBJ (`three_sheet_four_block_negative_P.obj`) / STL (`three_sheet_four_block_negative_P.stl`)
+- Negative Q OBJ (`three_sheet_four_block_negative_Q.obj`) / STL (`three_sheet_four_block_negative_Q.stl`)

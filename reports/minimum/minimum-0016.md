@@ -14,7 +14,7 @@ The constructive advance is a **globally surjective actual-mass gauge for the en
 
 There is also a global boundary theorem, applicable across all 74 C30 types: at an actual polar mass center, failure of the distinct-triple core can occur only across an **internal plane containing at least three vertices and having exactly one or two vertices strictly above it**. For this mask, at most **38 moving oriented planes**, hence 304 scalar tests at any shape, suffice. Their actual-mass tests are cubic in the true centroid before its rational substitution. Supporting-facet directions are eliminated by strict physical reflection, not sampled or ignored.
 
-**No entire type or additional root orbit is declared excluded.** The inherited bracket remains 30 ≤ C_min ≤ 1374, and the 178131 necessary tree-pair records are unchanged. All 74 types remain globally open in this handoff. The preceding nine-dimensional certified patch remains valid and is not replaced or replayed. Its scope and the inherited frontier are explicit in the journal. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+**No entire type or additional root orbit is declared excluded.** The inherited bracket remains 30 ≤ C_min ≤ 1374, and the 178131 necessary tree-pair records are unchanged. All 74 types remain globally open in this handoff. The preceding nine-dimensional certified patch remains valid and is not replaced or replayed. Its scope and the inherited frontier are explicit in the journal.
 
 ## 1. Authority, identities, and preserved checkpoint
 
@@ -58,7 +58,7 @@ For clarity, the P-facet cycles indexed by their corresponding Q vertices are:
 PF = (012, 0243, 035, 0561, 3765, 3487, 1678, 1842).
 ```
 
-Every strict realization admits the following single affine chart. The anchor is 0,1,3,4, not a maximum-simplex chart. Vertices 0,1,3 lie in the strict quadrilateral facet 0123, and vertex 4 is strictly off its plane. Thus this anchor cannot become singular anywhere in the strict type. This is the parent's global chart, with its originally unbounded domain retained. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+Every strict realization admits the following single affine chart. The anchor is 0,1,3,4, not a maximum-simplex chart. Vertices 0,1,3 lie in the strict quadrilateral facet 0123, and vertex 4 is strictly off its plane. Thus this anchor cannot become singular anywhere in the strict type. This is the parent's global chart, with its originally unbounded domain retained.
 
 ```text
 X0 = (0,0,0)
@@ -118,7 +118,7 @@ P = conv(p_f),
 Q = conv(v_i) = P^polar.
 ```
 
-Then **g(P)=0 and s(Q)=0**, where s denotes the Santaló point. Neither `g(Q)=0` nor `sum_i v_i=0` is assumed. The centroid characterization of the Santaló point is the standard polar-volume identity; it is also explicitly stated in the primary literature. :contentReference[oaicite:4]{index=4}
+Then **g(P)=0 and s(Q)=0**, where s denotes the Santaló point. Neither `g(Q)=0` nor `sum_i v_i=0` is assumed. The centroid characterization of the Santaló point is the standard polar-volume identity; it is also explicitly stated in the primary literature.
 
 For completeness, in dimension three, if `Phi(c)=Vol((Q-c)^polar)`, differentiation of the spherical radial integral gives
 
@@ -151,7 +151,7 @@ g(P0) = -T^(-T)a,
 P0-g(P0) = T^(-T)P.
 ```
 
-This proves surjectivity onto the complete physical affine-class space. Conversely, the auxiliary P0 in the forward construction has analytic center 0 because `sum q_i=0`; uniqueness recovers the original raw affine class. The map is rational forward and has an analytic inverse on the strict realization spaces. Hence it preserves their nine-dimensional local shape dimension. The analytic-center/projective-centering connection is established background; no historical priority is claimed for that general connection. The coverage argument above supplies its use in this particular mass/metric reduction. :contentReference[oaicite:5]{index=5}
+This proves surjectivity onto the complete physical affine-class space. Conversely, the auxiliary P0 in the forward construction has analytic center 0 because `sum q_i=0`; uniqueness recovers the original raw affine class. The map is rational forward and has an analytic inverse on the strict realization spaces. Hence it preserves their nine-dimensional local shape dimension. The analytic-center/projective-centering connection is established background; no historical priority is claimed for that general connection. The coverage argument above supplies its use in this particular mass/metric reduction.
 
 The construction also works abstractly for other polytope types whenever a complete raw realization parameterization is available. It does not require independent mass weights or a Santaló root solver.
 
@@ -177,7 +177,7 @@ For Q scores it multiplies by the positive common factor d*e, avoiding inverse-m
 
 The resulting QF_NRA formula has fourteen free real variables, 5160 derived polynomial expressions, 195 distinct positive guards, and seventeen mechanics assertions. There are no free centroid/reference variables and no residual incidence or mass equations. Derived expressions are definitions, not additional free unknowns.
 
-For comparison, the inherited adapted-corner rule gives this mask fifteen variables and one residual incidence equation: the exact graph calculation in the new source verifies `max s(c)=2`, while the parent rule is `17-s(c)` variables and `3-s(c)` incidence equations. :contentReference[oaicite:6]{index=6}
+For comparison, the inherited adapted-corner rule gives this mask fifteen variables and one residual incidence equation: the exact graph calculation in the new source verifies `max s(c)=2`, while the parent rule is `17-s(c)` variables and `3-s(c)` incidence equations.
 
 **The SMT file is an unsolved complete formulation, not an infeasibility certificate.** Its arithmetic directed acyclic graph was evaluated exactly against the independently reconstructed rational snapshot below. No SMT-solver SAT or UNSAT verdict was obtained or is implied.
 
@@ -196,7 +196,7 @@ The inherited eight-vector theorem gives
 0 in Cdist(V)  =>  S(P,M) >= 2 for EVERY SPD M.
 ```
 
-It excludes a weak escape tree when `-conv(V) subset S3(V)`. It is a full-core theorem, not an individual-root membership test. Its exact inherited identity is `minimum-0006`, SHA-256 `4480a792dec44a82e252175c8263360cd2cac11c705c881fe30da85b47087f08`. I use that previously certified lemma, rather than claiming to have rerun its finite matrix proof in the present new scripts. The old patch states both the lemma and the all-metric implication explicitly. :contentReference[oaicite:7]{index=7}
+It excludes a weak escape tree when `-conv(V) subset S3(V)`. It is a full-core theorem, not an individual-root membership test. Its exact inherited identity is `minimum-0006`, SHA-256 `4480a792dec44a82e252175c8263360cd2cac11c705c881fe30da85b47087f08`. I use that previously certified lemma, rather than claiming to have rerun its finite matrix proof in the present new scripts. The old patch states both the lemma and the all-metric implication explicitly.
 
 ### 3.1 Complete moving-normal reduction
 
@@ -577,6 +577,6 @@ family_certificate.json
 
 Recovery was executed in a fresh directory. Both recovered sources were byte-compared with the originals; all four regenerated outputs were byte-compared with the first exact execution. The manifest expressly says `NOT_SOLVED`. A generated formula must not be promoted into an UNSAT certificate.
 
-Convenience copies supplement the inline capsule: [complete source recovery](sandbox:/mnt/data/cr62_work/recover_cr62_global.py), [actual-centroid and full-normal-cone audit](sandbox:/mnt/data/cr62_work/cr62_global_audit.json), and [complete unsolved whole-type formula](sandbox:/mnt/data/cr62_work/cr62_full_type.smt2).
+Convenience copies supplement the inline capsule: complete source recovery (`recover_cr62_global.py`), actual-centroid and full-normal-cone audit (`cr62_global_audit.json`), and complete unsolved whole-type formula (`cr62_full_type.smt2`).
 
 **Final scope:** a globally complete actual-mass parameterization and internal-cut boundary theorem, plus a rigorous unbounded obstruction to universal Santaló/core localization in the requested type. The previous certified patch is preserved. No entire type closure, no new numerical lower bound, and no homogeneous 110 attainer is claimed.

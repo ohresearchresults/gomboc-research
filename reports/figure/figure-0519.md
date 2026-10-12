@@ -18,7 +18,7 @@ Twelve new exact bodies were preserved and audited: nine strict121 bodies, two c
 
 ## Input authority and reading
 
-The complete updated journal was read consecutively through all1258 lines, including branch memory and the literal parent. The seventeen decoded parent units were also read. Earlier unchanged context was retained rather than substituted by inaccessible archive IDs. The assigned parent is `figure-0515`, advertised SHA256 `0489e256acf135722e25795031587a09e9d71ac8a014e8c3d581782a382d44fe`. Its literal RN29 definition, not the previously lost28-vertex nominee, was used. The supplied parent distinguishes RN29’s own211 body from its prior two-apex parent and limits the five-carrier theorem to the fixed visibility partition. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The complete updated journal was read consecutively through all1258 lines, including branch memory and the literal parent. The seventeen decoded parent units were also read. Earlier unchanged context was retained rather than substituted by inaccessible archive IDs. The assigned parent is `figure-0515`, advertised SHA256 `0489e256acf135722e25795031587a09e9d71ac8a014e8c3d581782a382d44fe`. Its literal RN29 definition, not the previously lost28-vertex nominee, was used. The supplied parent distinguishes RN29’s own211 body from its prior two-apex parent and limits the five-carrier theorem to the fixed visibility partition.
 
 The updated journal is266121 bytes, SHA256 `8f20843cff80a1396c83ce56aeba22866220b126c778e1e68a48a0ba25a37110`. The rendered parent heading through EOF is38462 bytes, SHA256 `53036f2868c64c385d2098472bc81aacb4769d74d52677fbc093159756c93a71`, not the advertised outer serialization. This remains an outer-identity limitation, not an identified coordinate conflict. The inner56469-byte dictionary matches `f627fb2d5eae97ebd7bbfaf33c4a077458a916cdd2255567082222c39bded3b3`; a fresh RN29 audit reproduces46900 bytes and SHA256 `01963c7d92b97243985e838c30ecc40f353c3141ea8d120888a0df3807efbdc2`. The preserved RN29 input is2337 bytes, SHA256 `24f020913c72cc151d7d581bf4b9d0503f6c29f2173aa80e9d7b0efd7e503244`.
 
@@ -200,7 +200,7 @@ EXPECTED_RN30.json 4792B
 4442aa33684451fb1dc200e57c133c1c01f2ca0c2bf7c4d5b564b70fe6a70ff3
 ```
 
-[Convenience bundle](sandbox:/mnt/data/RN30_handoff.zip). The complete inline recovery below, not that link, is the durable handoff.
+Convenience bundle (`RN30_handoff.zip`). The complete inline recovery below, not that link, is the durable handoff.
 
 ```python
 """Complete RN30/RN36/RN38 exact bodies and producing methods; stdlib only."""

@@ -356,12 +356,12 @@ The smallest evidence-supported successor is a **fourth-page shared-terminal non
 
 ## Reusable artifacts
 
-- [Complete exact bundle](sandbox:/mnt/data/Steady_Willow_02_P9_XG3_three_page_exact_NONWINNER.zip) — SHA-256 `6e39e6d4ff75f247ec867e5aca79b1bb59dffc1f738de6aeb69dd66058b7d3fb`.
-- [Full exact handoff](sandbox:/mnt/data/STEADY_WILLOW_02_P9_XG3_HANDOFF.md)
-- [Verification receipt](sandbox:/mnt/data/STEADY_WILLOW_02_P9_XG3_VERIFICATION_RECEIPT.txt)
-- [Authoritative exact certificate](sandbox:/mnt/data/p9_crossgap_work/p9_xg3_exact/p9_xg3_exact.json)
-- [Complete exact H/V/E tables](sandbox:/mnt/data/p9_crossgap_work/p9_xg3_exact/P9_XG3_COMPLETE_TABLES.md)
-- [Three-page topology certificate](sandbox:/mnt/data/p9_crossgap_work/p9_xg3_exact/p9_xg3_three_page_topology.json)
-- [All exact wall-side audits](sandbox:/mnt/data/p9_crossgap_work/p9_xg3_exact/p9_xg3_path_cell_audits.json)
-- [Clean-room verifier](sandbox:/mnt/data/p9_crossgap_work/p9_xg3_exact/verify_p9_xg3_cleanroom.py)
-- [OBJ mesh](sandbox:/mnt/data/p9_crossgap_work/p9_xg3_exact/p9_xg3.obj) and [STL mesh](sandbox:/mnt/data/p9_crossgap_work/p9_xg3_exact/p9_xg3.stl)
+- Complete exact bundle (`Steady_Willow_02_P9_XG3_three_page_exact_NONWINNER.zip`) — SHA-256 `6e39e6d4ff75f247ec867e5aca79b1bb59dffc1f738de6aeb69dd66058b7d3fb`.
+- Full exact handoff (`STEADY_WILLOW_02_P9_XG3_HANDOFF.md`)
+- Verification receipt (`STEADY_WILLOW_02_P9_XG3_VERIFICATION_RECEIPT.txt`)
+- Authoritative exact certificate (`p9_xg3_exact.json`)
+- Complete exact H/V/E tables (`P9_XG3_COMPLETE_TABLES.md`)
+- Three-page topology certificate (`p9_xg3_three_page_topology.json`)
+- All exact wall-side audits (`p9_xg3_path_cell_audits.json`)
+- Clean-room verifier (`verify_p9_xg3_cleanroom.py`)
+- OBJ mesh (`p9_xg3.obj`) and STL mesh (`p9_xg3.stl`)

@@ -20,14 +20,14 @@ I explored copy/split realizations of that whole forcing region, finite coordina
 
 not `(1,1,0)`.
 
-**Complete immutable archive:** [M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete.zip](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete.zip)  
+**Complete immutable archive:** M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete.zip  
 **Archive SHA-256:** `856d267cea5e21c2782b08032d7fe43d048b53fbdb52cb5f162472b662ec7fe8`  
-**Checksum file:** [ZIP SHA-256](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete.zip.sha256)  
-**Readable report:** [README.md](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/README.md)  
-**Machine summary:** [result_summary.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/result_summary.json)  
-**Immutable manifest:** [MANIFEST.sha256](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/MANIFEST.sha256)  
-**One-command replay:** [REPLAY.sh](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/REPLAY.sh)  
-**Clean-room transcript:** [CLEANROOM_VERIFY.log](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/CLEANROOM_VERIFY.log)
+**Checksum file:** ZIP SHA-256 (`M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete.zip.sha256`)  
+**Readable report:** README.md  
+**Machine summary:** result_summary.json  
+**Immutable manifest:** MANIFEST.sha256  
+**One-command replay:** REPLAY.sh  
+**Clean-room transcript:** CLEANROOM_VERIFY.log
 
 ## Literal source authority
 
@@ -465,20 +465,20 @@ The old pinched forcing annulus and inherited stable–saddle pair are genuinely
 
 ## Direct artifact index
 
-- [Exact deterministic source metadata](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/exact_source.json)
-- [Exact source builder](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/build_exact_source.py)
-- [Discovery source coordinates](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/discovery_source.json)
-- [Complete exact coordinates](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/coordinates_exact.csv)
-- [Common integer lattice](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/coordinates_common_lattice.csv)
-- [Endpoint certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/certificate.json)
-- [All maximal-face cycles](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/face_cycles.json)
-- [All true edges](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/true_edges.csv)
-- [Three-boundary exchange certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/three_boundary_exchange_certificate.json)
-- [Positive-volume regular-complex certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/inserted_regular_complex.json)
-- [All-edge external-arrow audit](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/external_arrow_audit.json)
-- [Exact 63-dimensional box certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/full_63d_box_certificate.json)
-- [Residual forcing certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/residual_forcing_certificate.json)
-- [Independent GMP hull verifier](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/verify_exact_hull_gmp.cpp)
-- [Independent exact endpoint verifier](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/verify_exact_endpoint.py)
-- [Watertight OBJ](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/body.obj)
-- [Watertight STL](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_unpinched_three_boundary_exact_complete/unpinched_three_boundary_endpoint/body.stl)
+- Exact deterministic source metadata (`exact_source.json`)
+- Exact source builder (`build_exact_source.py`)
+- Discovery source coordinates (`discovery_source.json`)
+- Complete exact coordinates (`coordinates_exact.csv`)
+- Common integer lattice (`coordinates_common_lattice.csv`)
+- Endpoint certificate (`certificate.json`)
+- All maximal-face cycles (`face_cycles.json`)
+- All true edges (`true_edges.csv`)
+- Three-boundary exchange certificate (`three_boundary_exchange_certificate.json`)
+- Positive-volume regular-complex certificate (`inserted_regular_complex.json`)
+- All-edge external-arrow audit (`external_arrow_audit.json`)
+- Exact 63-dimensional box certificate (`full_63d_box_certificate.json`)
+- Residual forcing certificate (`residual_forcing_certificate.json`)
+- Independent GMP hull verifier (`verify_exact_hull_gmp.cpp`)
+- Independent exact endpoint verifier (`verify_exact_endpoint.py`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)

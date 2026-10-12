@@ -10,7 +10,7 @@ AI research report · 2026-08-27 UTC
 
 No strict own-centroid `(1,1,0)` polyhedron was found. The strongest realized endpoint is the exact finite body `L15` below, with `(V,E,F,C)=(15,39,26,78)` and strict own-centroid class **`(2,2,2)`**. It is therefore a certified nonwinner, not a Gömböc.
 
-The work starts from the journal's exact-decimal 11-vertex acyclic two-sink seed and its required simultaneous endpoint surgery. The seed and assignment are recorded at :contentReference[oaicite:0]{index=0}. Relative to that state, this continuation:
+The work starts from the journal's exact-decimal 11-vertex acyclic two-sink seed and its required simultaneous endpoint surgery. The seed and assignment are recorded at. Relative to that state, this continuation:
 
 - recomputes and removes the tiny exact-decimal mass-centroid defect;
 - deactivates vertices `5` and `24` at one exact common radial event;
@@ -589,21 +589,21 @@ The V-driven verifier enumerates all `C(15,3)` candidate supporting triangles. T
 
 Artifacts:
 
-- [Complete archive](sandbox:/mnt/data/v11_long_strip_fallback.zip), SHA-256 `7fc33dc9d4a4c7181d2861c5cbceaf6dfb2352aad05d42c694a7558c96269b29`.
-- [Exact audit JSON](sandbox:/mnt/data/v11_long_strip_fallback/audit.json).
-- [Exact path certificate](sandbox:/mnt/data/v11_long_strip_fallback/path_certificate.json).
-- [Exact fixed-incidence mechanical-transfer certificate](sandbox:/mnt/data/v11_long_strip_fallback/mechanical_transfer.json).
-- [Exhaustive 50-wall/69-cell certificate](sandbox:/mnt/data/v11_long_strip_fallback/full_path_mechanical.json).
-- [Deterministic path generator](sandbox:/mnt/data/v11_long_strip_fallback/path_generator.json).
-- [V-driven verifier](sandbox:/mnt/data/v11_long_strip_fallback/verify_v.py).
-- [H-driven verifier](sandbox:/mnt/data/v11_long_strip_fallback/verify_h.py).
-- [Exact interval verifier](sandbox:/mnt/data/v11_long_strip_fallback/verify_interval.py).
-- [Mechanical-transfer verifier](sandbox:/mnt/data/v11_long_strip_fallback/verify_mechanical_transfer.py).
-- [Full-path verifier](sandbox:/mnt/data/v11_long_strip_fallback/verify_full_path.py).
-- [OBJ/STL mesh verifier](sandbox:/mnt/data/v11_long_strip_fallback/verify_mesh.py).
-- [Per-file SHA-256 manifest](sandbox:/mnt/data/v11_long_strip_fallback/SHA256SUMS.json).
-- [OBJ](sandbox:/mnt/data/v11_long_strip_fallback/long_strip.obj).
-- [STL](sandbox:/mnt/data/v11_long_strip_fallback/long_strip.stl).
+- Complete archive (`v11_long_strip_fallback.zip`), SHA-256 `7fc33dc9d4a4c7181d2861c5cbceaf6dfb2352aad05d42c694a7558c96269b29`.
+- Exact audit JSON (`audit.json`).
+- Exact path certificate (`path_certificate.json`).
+- Exact fixed-incidence mechanical-transfer certificate (`mechanical_transfer.json`).
+- Exhaustive 50-wall/69-cell certificate (`full_path_mechanical.json`).
+- Deterministic path generator (`path_generator.json`).
+- V-driven verifier (`verify_v.py`).
+- H-driven verifier (`verify_h.py`).
+- Exact interval verifier (`verify_interval.py`).
+- Mechanical-transfer verifier (`verify_mechanical_transfer.py`).
+- Full-path verifier (`verify_full_path.py`).
+- OBJ/STL mesh verifier (`verify_mesh.py`).
+- Per-file SHA-256 manifest (`SHA256SUMS.json`).
+- OBJ (`long_strip.obj`).
+- STL (`long_strip.stl`).
 
 ## Bottom line
 

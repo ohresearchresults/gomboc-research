@@ -15,17 +15,17 @@ For the unchanged actual uniformly filled H5 family, define
 
 **Every one of the 48,790 labelled complete rooted primal trees is impossible under every common nonzero PSD metric at every parameter point of Γ.** On the genuine subset—x<1, p,q>0, p+q<1 and lambda>0—every physical SPD metric therefore has **at least two strict unstable vertices**, including when other weak contacts occur.
 
-This closes the requested **p+q>1/2 residual on the whole macro x/r box**. It also independently closes the lower half at lambda<=1/16, rather than inheriting the older half-triangle theorem only at lambda<=1/64. The earlier norm-coupling cover had 26,689 trees on this same genuine macro domain; the new result covers the entire 48,790-tree universe directly, not by adding partially overlapping counts. The earlier half-triangle and coupled-norm scopes are recorded in the supplied notebook. fileciteturn26file0L31-L35 fileciteturn26file0L65-L71
+This closes the requested **p+q>1/2 residual on the whole macro x/r box**. It also independently closes the lower half at lambda<=1/16, rather than inheriting the older half-triangle theorem only at lambda<=1/64. The earlier norm-coupling cover had 26,689 trees on this same genuine macro domain; the new result covers the entire 48,790-tree universe directly, not by adding partially overlapping counts. The earlier half-triangle and coupled-norm scopes are recorded in the supplied notebook.
 
 The exact atlas has **1,456 integer stresses, 1,264 distinct supports, 27 closed triangular parameter cells, and 8,267 stress/cell applications**. Its acceptance checks **6,613,600 shifted positive-definite coefficient matrices and 19,840,800 positive leading minors**. Every cell covers all 4,879 trees at each of the ten roots. There are no unexcluded tree alternatives inside Γ.
 
-This is not an all-shape H5 or whole-E17 exclusion. The inherited all-x/r five-arrow caps remain useful outside Γ; they are not globally superseded by this macro-box theorem. The reflected macro box also closes by the unchanged physical reflection, but its count is not added to this one. No global complexity bound, canonical graph-orbit count, or attaining construction changes: the accepted interval remains **34<=C_min<=622**. fileciteturn20file0L9-L11
+This is not an all-shape H5 or whole-E17 exclusion. The inherited all-x/r five-arrow caps remain useful outside Γ; they are not globally superseded by this macro-box theorem. The reflected macro box also closes by the unchanged physical reflection, but its count is not added to this one. No global complexity bound, canonical graph-orbit count, or attaining construction changes: the accepted interval remains **34<=C_min<=622**.
 
 ## 1. Reading, source identity, and route
 
 The complete new journal was read consecutively through line 1692/EOF, including the entire literal parent **minimum-0247**, SHA256 **f31e0f04d48f1b80f427df0b3ac4342cd2b61e84f1edaaf280330521e356cce1**. The journal's verified identity is 326191 bytes, SHA256 **223670530111c1f5a3b7096a55d851bf5f0ca22a3f78a9299a94ef5603fe2bfd**. Earlier unchanged sources remain available in this chat; no required dependency was missing or silently replaced.
 
-The parent source **h5_path_energy_cap.py**, 19488 bytes, SHA256 **c594ce7bfcba34b06dc6bfe290d8939edc80dd6a11d3cbdb9b68509968ca8c09**, was retained without changing its labels or moment formulas. The path-energy source identity is the corrected **6dc7106cabaa16510d7f067ac60cff45a53c08dd55482a97025aa011b8ad4866**, not the obsolete alternate hash. fileciteturn26file0L89-L107
+The parent source **h5_path_energy_cap.py**, 19488 bytes, SHA256 **c594ce7bfcba34b06dc6bfe290d8939edc80dd6a11d3cbdb9b68509968ca8c09**, was retained without changing its labels or moment formulas. The path-energy source identity is the corrected **6dc7106cabaa16510d7f067ac60cff45a53c08dd55482a97025aa011b8ad4866**, not the obsolete alternate hash.
 
 The substantive change was to allow **coupled original-arrow stresses on different basal routes**, instead of requiring one source component's fixed residual fit to certify itself. I searched for common nonnegative weights on the original polynomial coefficient matrices, rationalized them, and independently checked all resulting integer certificates. The only parameter subdivision in the final atlas is in the physical p/q triangle: **x, r and lambda retain their full displayed intervals in every cell**. No quadratic lowering, frozen centroid, spectral cap, or independent polar metric is used.
 
@@ -63,7 +63,7 @@ the actual volume and first moments are
     Jy=s³by/4+s²lambda(1−3rq/4)/24+lambda²/24,
     Jz=A s²/12+lambda/12+lambda²/24.
 
-Always set **g=J/V**. These are the unchanged parent moments, not freely selected masses or a basal-centroid approximation. fileciteturn27file0L29-L57
+Always set **g=J/V**. These are the unchanged parent moments, not freely selected masses or a basal-centroid approximation.
 
 The new verifier checks all four fan identities as full five-variable polynomial identities, all 34 physical/parameter reflection identities, and all 34 zero incidences. The 56 nonincident support inequalities have 36,048 positive and 8,752 zero Bernstein coefficients, minimum positive coefficient **1/1536**. Positive coefficients occur on every relevant included macro boundary face, proving strict nonincidence for the entire genuine domain, not only at a sample.
 
@@ -115,7 +115,7 @@ Their support-size histogram is
 
 All 34 literal directed edge directions occur. There are 6,320 positive integer weight terms; the largest individual weight is **146** and the largest row sum is **512**.
 
-This coupling is within the original negative-arrow cone. In the supplied path formula one may take v=0, mu concentrated at the source, and eta equal to an arrow's weight, obtaining the elementary matrix −eta H_ab; nonnegative sums give the rows used here. Individual elementary matrices need not be PD. **I do not claim 1,456 successful individual G−rrᵀ fits**, nor a stronger SDP relaxation. The new result is the exact common-metric positivity and complete coverage of their coupled sums. This is consistent with the path source's coupling scope. fileciteturn20file1L29-L57 fileciteturn20file1L98-L104
+This coupling is within the original negative-arrow cone. In the supplied path formula one may take v=0, mu concentrated at the source, and eta equal to an arrow's weight, obtaining the elementary matrix −eta H_ab; nonnegative sums give the rows used here. Individual elementary matrices need not be PD. **I do not claim 1,456 successful individual G−rrᵀ fits**, nor a stronger SDP relaxation. The new result is the exact common-metric positivity and complete coverage of their coupled sums. This is consistent with the path source's coupling scope.
 
 ## 4. Complete closed parameter cover and labelled-tree census
 
@@ -150,7 +150,7 @@ The checkpoint stores all 1,456 complete integer rows in the declared directed-e
 
     (0,0,88,45,23,0,0,0,28,24),
 
-and the twenty older seven-arrow extensions. These are comparisons on the appropriate intersections: the parent cap p>=9/16 and the older lambda<=1/64 prism. They are **not** extra counts added to 48,790. The parent's larger all-x/r cap scope remains distinct. fileciteturn28file0L15-L39
+and the twenty older seven-arrow extensions. These are comparisons on the appropriate intersections: the parent cap p>=9/16 and the older lambda<=1/64 prism. They are **not** extra counts added to 48,790. The parent's larger all-x/r cap scope remains distinct.
 
 Finally, under SPD M, every weak selected true-edge arrow strictly increases uᵀMu, because the edge increment has positive squared M-length. If there were only one strict unstable vertex, choosing a nonnegative incident escape at each other vertex would give an acyclic complete tree ending at that vertex. The all-tree certificate contradicts this. It follows that U>=2 without assuming that other contacts are nonweak.
 
@@ -256,4 +256,4 @@ This is the entire capsule. Its payload includes the readable verifier and every
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Supplementary copies: [complete recovery capsule](sandbox:/mnt/data/recover_h5_macro_allroot.py), [readable verifier](sandbox:/mnt/data/h5_macro_allroot_verify.py), [literal exact checkpoint](sandbox:/mnt/data/h5-macro-output/h5_macro_atlas_checkpoint.json), and [exact report](sandbox:/mnt/data/h5-macro-output/h5_macro_allroot_report.json). The embedded capsule already reconstructs every proof input and computation without these downloads.
+Supplementary copies: complete recovery capsule (`recover_h5_macro_allroot.py`), readable verifier (`h5_macro_allroot_verify.py`), literal exact checkpoint (`h5_macro_atlas_checkpoint.json`), and exact report (`h5_macro_allroot_report.json`). The embedded capsule already reconstructs every proof input and computation without these downloads.

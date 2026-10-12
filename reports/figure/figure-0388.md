@@ -10,7 +10,7 @@ AI research report · 2026-09-16 UTC · [Export notes](../../catalog/coverage.md
 
 **No own-filled-volume-centred strict110/weak000 body was obtained.** The exact census of the previously unobserved CF6_SUB35_PROPOSAL is now completed: **V35/E91/F58, C182, own211/weak000**. A distinct low-arithmetic quantization has **V35/E99/F66, C198, own211/weak000**, with ten-bit raw coordinates and a39-bit common centred denominator. These are finite homogeneous constructions, not reference-centre results.
 
-The selected upstream array for the tentative CF6_PREF_FIVE_CONTACT_G12 was not recovered. Mounted files, bounded Library retrieval and retained-context retrieval supplied its formal chart and explicit non-adoption, not its missing coordinates. Its hypothetical C376/110 label remains unadopted; none of the new arrays below is represented as that checkpoint. The supplied current synthesis retains VQ20_C622_ROUTE88_118_G12/E311 as the own110 benchmark. :contentReference[oaicite:0]{index=0}
+The selected upstream array for the tentative CF6_PREF_FIVE_CONTACT_G12 was not recovered. Mounted files, bounded Library retrieval and retained-context retrieval supplied its formal chart and explicit non-adoption, not its missing coordinates. Its hypothetical C376/110 label remains unadopted; none of the new arrays below is represented as that checkpoint. The supplied current synthesis retains VQ20_C622_ROUTE88_118_G12/E311 as the own110 benchmark.
 
 The immediate parent is figure-0385, declared immutable SHA f06f32e99f46ee7ed828ce51a384cf6829b9c9f5f27a15d920e648fe05cf96c7. Its complete relevant payload and current synthesis were read. The unchanged parent core decoded to36611bytes/SHA05782a9ef9d79ff8aa18cd74afa9abba785532909965b4caefb749fe5c14ff42. No defining-data or incidence conflict was found. The transport hash is not claimed to have been recomputed from citation-normalized Markdown.
 
@@ -191,6 +191,6 @@ for name,text in f.items():
 print('CF7_LITERAL_SOURCE_RECOVERED',len(f))
 ```
 
-Supplemental copies: [complete source and self-contained recovery unit](sandbox:/mnt/data/FINCH7_SOURCE.zip); [completed exact reports, cold receipts and numerical records](sandbox:/mnt/data/FINCH7_RESEARCH.zip); [JSON handoff](sandbox:/mnt/data/FINCH7_RESULT.json). These links are not needed to reconstruct any reported exact body.
+Supplemental copies: complete source and self-contained recovery unit (`FINCH7_SOURCE.zip`); completed exact reports, cold receipts and numerical records (`FINCH7_RESEARCH.zip`); JSON handoff (`FINCH7_RESULT.json`). These links are not needed to reconstruct any reported exact body.
 
 **Final status: the exact SUB35 gate and all nine cold replays are complete; the alleged CF6 selected checkpoint remains unrecovered; no own110 body is adopted. The preferred small continuation is the35-vertex GRID1000 own211 scaffold. On the PREF branch, the proper fivefold junction is already noncritical; the actual remaining unstable region and an active material controller must be redesigned instead of reusing its nominal label or inactive row29.**

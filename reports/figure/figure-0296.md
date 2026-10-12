@@ -278,14 +278,14 @@ verifier SHA256=d815bddc73ce4813d34b9e89bc0a0f65dd73f7bb9c2451dd62bd8a85e53faacb
 mesh=(26 vertices,48 triangles,72 edges,multiplicity 2,Euler 2)
 ```
 
-- [Deterministic exact ZIP](sandbox:/mnt/data/Steady_Lynx_98_P9_XG20_Y1FS6_RC5_exact_nonwinner.zip)
-- [Full exact handoff](sandbox:/mnt/data/steady_lynx98_p9_xg20_y1fs6_rc5/RESEARCH_HANDOFF.md)
-- [Exact 64-row input](sandbox:/mnt/data/steady_lynx98_p9_xg20_y1fs6_rc5/p9_xg20_y1fs6_rc5_rows_exact.json)
-- [Complete exact ledger](sandbox:/mnt/data/steady_lynx98_p9_xg20_y1fs6_rc5/p9_xg20_y1fs6_rc5_exact_ledger.json)
-- [Independent verifier](sandbox:/mnt/data/steady_lynx98_p9_xg20_y1fs6_rc5/verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/steady_lynx98_p9_xg20_y1fs6_rc5/p9_xg20_y1fs6_rc5_centered_triangulated.obj)
-- [Watertight STL](sandbox:/mnt/data/steady_lynx98_p9_xg20_y1fs6_rc5/p9_xg20_y1fs6_rc5_centered.stl)
-- [Verification receipt](sandbox:/mnt/data/Steady_Lynx_98_P9_XG20_Y1FS6_RC5_VERIFICATION_RECEIPT.json)
+- Deterministic exact ZIP (`Steady_Lynx_98_P9_XG20_Y1FS6_RC5_exact_nonwinner.zip`)
+- Full exact handoff (`RESEARCH_HANDOFF.md`)
+- Exact 64-row input (`p9_xg20_y1fs6_rc5_rows_exact.json`)
+- Complete exact ledger (`p9_xg20_y1fs6_rc5_exact_ledger.json`)
+- Independent verifier (`verify_independent.py`)
+- Watertight OBJ (`p9_xg20_y1fs6_rc5_centered_triangulated.obj`)
+- Watertight STL (`p9_xg20_y1fs6_rc5_centered.stl`)
+- Verification receipt (`Steady_Lynx_98_P9_XG20_Y1FS6_RC5_VERIFICATION_RECEIPT.json`)
 
 ## First nonrepeating successor
 

@@ -24,7 +24,7 @@ The numerical corollary uses the existing low-endpoint and coordinator high-c va
 
 I read the entire supplied journal, all 1,867 lines, including the complete literal parent and its complete source through EOF. The actual mounted journal is 311,658 bytes, SHA-256 `f338f7c4e0a12b1aa80d31bee7b51718c1047a3429d49514436e2034b20359d3`. The required parent is `minimum-0171`, published SHA-256 `9b15d20252180b1b48406f3d65ea1211cd57c733e1cfbc3903deb332736ca3df`. Its extracted 15,873-byte source authenticates to `8b61165d38d10e5f96dd8d7f7e2915f73d2975b6ac5ab38f954d7aaee9687aaf`.
 
-The parent expressly left negative z open except for its B4/d<=a triangularity and endpoint inequality. I have not attributed a negative-z result to its identical-hash republication. The branch's older sentence leaving octant high c open is chronologically superseded by the common notebook and active assignment; it is not used as a current open problem. The accepted current octant closure is recorded separately. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The parent expressly left negative z open except for its B4/d<=a triangularity and endpoint inequality. I have not attributed a negative-z result to its identical-hash republication. The branch's older sentence leaving octant high c open is chronologically superseded by the common notebook and active assignment; it is not used as a current open problem. The accepted current octant closure is recorded separately.
 
 The archived B4 effective-volume source was not supplied. It is **not a dependency** of the proof or new computation below. No research connector, archive, or external source was used. The old parent certificate was not rerun in full. New exact algebra and controls were run normally and again from source alone in an empty directory, with byte-identical report and stdout. The geometric theorem is an analytic proof under the accepted variation premises, not a proof-assistant formalization or an inference from sampled controls.
 
@@ -46,7 +46,7 @@ The accepted maximum conditions used are: every auxiliary true vertex has positi
     hC=(b+2c)(y-1)-alpha*z<=0 on Fx,
     hD=(b+2d)(x-1)-alpha*z<=0 on Fy.
 
-For G(C)<0 and expanded Fx, AC is a true edge, BC is not, and every auxiliary vertex of Fx has z>0. Ordinary B facets, when present, are the accepted minimum-G-root-edge triangles; there is at most one. These are inherited premises with their stated full-maximum scope. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+For G(C)<0 and expanded Fx, AC is a true edge, BC is not, and every auxiliary vertex of Fx has z>0. Ordinary B facets, when present, are the accepted minimum-G-root-edge triangles; there is at most one. These are inherited premises with their stated full-maximum scope.
 
 For a true triangle XYZ and affine H with H(X)=H(Y)=0, the integration formula used below is
 
@@ -69,7 +69,7 @@ For a nonroot base, both incident true facets contain a negative-G point: a free
 
     H_X=G-L+(4L/ell(X))*ell=0,
 
-whose body side is H_X<=0. This is the parent's genuine equal-positive-edge mechanism, not an arbitrary sign assignment. :contentReference[oaicite:4]{index=4}
+whose body side is H_X<=0. This is the parent's genuine equal-positive-edge mechanism, not an arbitrary sign assignment.
 
 Now apply the whole hinge of the true AC facet, with H=x>=0. Triangulate that whole polygon from whichever of A,C has G=-3L, for integration only. Every contribution is nonpositive when all vertex G<=L. The triangle incident to the actual edge AC is strictly negative because its other canonical endpoint has G<0<L. Thus the **whole** hinge is strictly negative, contradicting stationarity.
 
@@ -225,7 +225,7 @@ They require G(C)=G(D), contradicting the strict mixed signs. There is no negati
 
 ## 6. Consequences, independent useful inequalities, and precise scope
 
-The new theorem removes the z>=0 hypothesis from the parent's mixed expanded-Fx/true-BD classification. Thus the only full maxima in this sector are its actual S5, I4, I5 root-only types. For c<=a, including its endpoint limit, the accepted bound is 203/100. For c>=a the coordinator's accepted bound on these same types is 3/2. Because c>d, these cases cover all positive endpoints. The whole sector therefore has T<=203/100. The reflected statement exchanges C,D and x,y. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+The new theorem removes the z>=0 hypothesis from the parent's mixed expanded-Fx/true-BD classification. Thus the only full maxima in this sector are its actual S5, I4, I5 root-only types. For c<=a, including its endpoint limit, the accepted bound is 203/100. For c>=a the coordinator's accepted bound on these same types is 3/2. Because c>d, these cases cover all positive endpoints. The whole sector therefore has T<=203/100. The reflected statement exchanges C,D and x,y.
 
 An earlier route produced a reusable independent quantitative lemma. Before the stronger mark-exposure contradiction, a hypothetical Fy=ABDZ with true ACZ hinge would satisfy
 
@@ -346,7 +346,7 @@ Complete expected stdout:
     report_sha256=8f1ee4309d031c61eb3d4c01428b4b36b06e24ed6857446b4203bf8ffd0dd1ed
     NEGATIVE_Z_MIXED_SPECIAL_B_EXCLUSION_V1_RECOVERY_PASS
 
-Normal execution and an empty-directory source-only run were actually completed; `cmp` matched both report and stdout. Optional copies are [source](sandbox:/mnt/data/negative_z_mixed_special_b_v1.py), [report](sandbox:/mnt/data/negative_z_mixed_special_b_v1.json), and [stdout](sandbox:/mnt/data/negative_z_mixed_special_b_v1.out). Nothing in the handoff requires these links: the entire source follows.
+Normal execution and an empty-directory source-only run were actually completed; `cmp` matched both report and stdout. Optional copies are source (`negative_z_mixed_special_b_v1.py`), report (`negative_z_mixed_special_b_v1.json`), and stdout (`negative_z_mixed_special_b_v1.out`). Nothing in the handoff requires these links: the entire source follows.
 
 ```python
 #!/usr/bin/env python3
@@ -676,4 +676,4 @@ if __name__=='__main__':
 
 The highest-value continuation is an independent mathematical audit of the two CD cases in Section 3 and the true-facet closure at the final negative vertex in Section 5, then integration of the theorem with the already accepted octant value result. The proof deliberately distinguishes one nontriangular CD facet from two genuine CD facets; replacing that distinction by independent motions of a triangulation would invalidate it.
 
-After that audit, the assigned negative-z mixed special-B maximum sector has no remaining value problem: every such full maximum is already one of the closed octant S5/I4/I5 types. Arbitrary actual negative-z root-only VALUE remains a separate problem because such bodies need not obey these maximum, exposure and incidence hypotheses. Other stars, zero-endpoint sectors, and the trace-to-actual-mechanical-E17 bridge remain outside this theorem. There is no new 110 attainer and no change to the accepted global interval 34<=C_min<=622; the whole minimum remains open. :contentReference[oaicite:7]{index=7}
+After that audit, the assigned negative-z mixed special-B maximum sector has no remaining value problem: every such full maximum is already one of the closed octant S5/I4/I5 types. Arbitrary actual negative-z root-only VALUE remains a separate problem because such bodies need not obey these maximum, exposure and incidence hypotheses. Other stars, zero-endpoint sectors, and the trace-to-actual-mechanical-E17 bridge remain outside this theorem. There is no new 110 attainer and no change to the accepted global interval 34<=C_min<=622; the whole minimum remains open.

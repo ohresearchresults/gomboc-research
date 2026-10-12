@@ -257,7 +257,7 @@ The decoded60-file pack is177831 bytes, SHA256 `a40a7e72de7d7ac027d1c17fdde3ee21
 | Depth-seven mass certificate |47451|27b27600c60a2d4c79a50ff0916d72122e7154fdf4025917ae7b35a3ca147a64|
 | Complete exact ledger |29530|a51b5cfdf920386ade5ceb96439ee1a98bd98abd33cf7ac4d4b9bc412aea3b4d|
 
-Supplementary copies: [complete source capsule](sandbox:/mnt/data/KF27E_CAPSULE.py), [full sources, exact audits and supplemental exploratory records](sandbox:/mnt/data/KF27E_HANDOFF.zip). The literal capsule below is the durable recovery source; these links are not its replacement.
+Supplementary copies: complete source capsule (`KF27E_CAPSULE.py`), full sources, exact audits and supplemental exploratory records (`KF27E_HANDOFF.zip`). The literal capsule below is the durable recovery source; these links are not its replacement.
 
 ## 8. Complete literal capsule
 

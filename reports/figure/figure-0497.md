@@ -20,7 +20,7 @@ Two new exact results identify restrictions that a successful next construction 
 
 The supplied update, branch memory, and literal parent were read through EOF, including the complete decoded parent source capsule. Earlier unchanged context had already been supplied and read. The update `research-journal(20260922-224951).md` is 333590 bytes, SHA-256 `fb7b3687563339b428c3827d8bb58dc06a893e0dbf69067ea4225656d1b17177`.
 
-Literal parent authority is `figure-0493`, supplied outer-result SHA-256 `3c31917ce2149e221994949a9077cc0e3d6ee8574fe06b80014ad66b0d575ccb`. Its 30-unit inner dictionary was recovered and byte-matched: 157591 bytes, SHA-256 `feaaea04b217ca6b86349643bbb4dc967167b42cd18c9019c091ba79792d9c99`. The bare Markdown and enclosing-result serializations have different hashes; I do not claim to have reproduced the enclosing serialization. No scientific conflict or missing required exact dependency was found. Historical source IDs were not treated as accessible files. The incoming WHOLEQ58 and ROOTTURN62 identities and their prior limitations remain those of the literal parent. :contentReference[oaicite:0]{index=0}
+Literal parent authority is `figure-0493`, supplied outer-result SHA-256 `3c31917ce2149e221994949a9077cc0e3d6ee8574fe06b80014ad66b0d575ccb`. Its 30-unit inner dictionary was recovered and byte-matched: 157591 bytes, SHA-256 `feaaea04b217ca6b86349643bbb4dc967167b42cd18c9019c091ba79792d9c99`. The bare Markdown and enclosing-result serializations have different hashes; I do not claim to have reproduced the enclosing serialization. No scientific conflict or missing required exact dependency was found. Historical source IDs were not treated as accessible files. The incoming WHOLEQ58 and ROOTTURN62 identities and their prior limitations remain those of the literal parent.
 
 ## Exact new-body census
 
@@ -199,13 +199,13 @@ HARDTREE58/84 preserve actual U1 with source-indexed guards and lower Q depth, b
 
 The complete self-contained handoff, including the entire literal82-unit recovery capsule, is preserved in the following generated files:
 
-[Complete result JSON with inline recovery capsule](sandbox:/mnt/data/steady_raven_continuation_result.json)
+Complete result JSON with inline recovery capsule (`steady_raven_continuation_result.json`)
 
-[Complete result Markdown with inline recovery capsule](sandbox:/mnt/data/steady_raven_continuation_result_markdown.md)
+Complete result Markdown with inline recovery capsule (`steady_raven_continuation_result_markdown.md`)
 
-[Standalone recovery script](sandbox:/mnt/data/RECOVER_STEADY_RAVEN_CONTINUATION.py)
+Standalone recovery script (`RECOVER_STEADY_RAVEN_CONTINUATION.py`)
 
-[Sources and structural proofs](sandbox:/mnt/data/steady_raven_continuation_sources_and_proofs.zip)
+Sources and structural proofs (`steady_raven_continuation_sources_and_proofs.zip`)
 
 The full capsule was created and tested, but its120591-byte literal decoder is **not reproduced inside this response's result_markdown**. Consequently, this response alone is not the requested download-independent complete handoff for all22 successors. The attached complete result JSON/Markdown contains that literal capsule; continuation must retain those bytes rather than treating the filenames or hashes below as replacements. The readable H23 halfspaces above recover that solid's geometry directly, but not the full audit/producer pack by themselves.
 

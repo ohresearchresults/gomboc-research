@@ -25,13 +25,13 @@ Two additional results clarify the boundary. First, the ENTIRE independent-cut c
 
 A new unequal actual control inside the cylinder has **no unstable vertex on the heptagonal base**. It has strict424, weak000 under a small rational metric, and strict222, weak000 under an exact unbounded metric tail. Its only U are the apex0 and the off-base vertex7. Thus the global obstruction cannot be reduced to an inherited permanent basal U.
 
-The union of this cylinder with the parent's previously closed tied-fraction cube is a strict enlargement of the accepted excluded set. The cylinder alone does not contain all of that old cube. **No whole-incidence exclusion, complete-U1 witness,110 construction, canonical count subtraction or new minimum bound is claimed. The interval remains34<=C_min<=622.** The notebook explicitly distinguishes actual controls and family exclusions from attaining the mechanical minimum. :contentReference[oaicite:0]{index=0}
+The union of this cylinder with the parent's previously closed tied-fraction cube is a strict enlargement of the accepted excluded set. The cylinder alone does not contain all of that old cube. **No whole-incidence exclusion, complete-U1 witness,110 construction, canonical count subtraction or new minimum bound is claimed. The interval remains34<=C_min<=622.** The notebook explicitly distinguishes actual controls and family exclusions from attaining the mechanical minimum.
 
 ## 2. Evidence and source authority
 
 The complete updated journal, including its literal parent payload, was read through EOF. Delivered journal: `research-journal(20260923-064747).md`, **298756 bytes**, SHA-256 `7edf842a434301421766dc91520ab64763e72428056b6ce7e385b828314d2686`. It has1591 raw logical lines; Files rendered1603. This is the delivered-file hash, not its internal working-memory hash.
 
-The authoritative parent is **minimum-0199**, SHA-256 `818ef0f09b76ed0128685b8ca263e1898784ba9fdb4a78881206817ae46020d0`, PENTAGON_E17_THREE_CUT_ALL_SPD_U2_V1. Its complete mounted39189-byte `pentagon_u2.py`, SHA-256 `5a8a2e139b587623fe2496648055de6b4b50bc166f401b5b6a7c5699e1e654c3`, was read for the actual chart, stress inputs and audit routines. No generic replay of the accepted parent theorem was undertaken or needed. There is no source conflict or missing exact dependency. :contentReference[oaicite:1]{index=1}
+The authoritative parent is **minimum-0199**, SHA-256 `818ef0f09b76ed0128685b8ca263e1898784ba9fdb4a78881206817ae46020d0`, PENTAGON_E17_THREE_CUT_ALL_SPD_U2_V1. Its complete mounted39189-byte `pentagon_u2.py`, SHA-256 `5a8a2e139b587623fe2496648055de6b4b50bc166f401b5b6a7c5699e1e654c3`, was read for the actual chart, stress inputs and audit routines. No generic replay of the accepted parent theorem was undertaken or needed. There is no source conflict or missing exact dependency.
 
 The new generator is autonomous: no old source, report, array, catalogue, research connector or external mathematical source is required. Earlier unchanged local-realization and Schur results are not reopened. Their literal moderate-cut apex0 identity is retained throughout, not replaced by the coordinator's different apex4 construction.
 
@@ -394,7 +394,7 @@ the full strict census is
 S={2,3,4,5}, U={0,7}, H={02,07,18,23}, weak000.
 ```
 
-All68 primitives are nonzero. Neither U belongs to the true heptagonal baseF5. The pyramid's guaranteed basal-U property therefore cannot simply be inherited by unequal cuts; the notebook's pyramid theorem itself has its original, narrower scope. :contentReference[oaicite:2]{index=2}
+All68 primitives are nonzero. Neither U belongs to the true heptagonal baseF5. The pyramid's guaranteed basal-U property therefore cannot simply be inherited by unequal cuts; the notebook's pyramid theorem itself has its original, narrower scope.
 
 ### A continuous, unbounded sharp222 tail on the same unequal body
 
@@ -850,4 +850,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Optional convenience copies: [decoded source](sandbox:/mnt/data/unequal/unequal_u2.py), [complete exact report](sandbox:/mnt/data/unequal/unequal_u2.json), [source-only recovery capsule](sandbox:/mnt/data/unequal/recover_unequal_u2.py). The embedded capsule is sufficient without these links.
+Optional convenience copies: decoded source (`unequal_u2.py`), complete exact report (`unequal_u2.json`), source-only recovery capsule (`recover_unequal_u2.py`). The embedded capsule is sufficient without these links.

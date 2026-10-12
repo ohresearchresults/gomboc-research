@@ -2,7 +2,7 @@
   {
     "id": "figure-branch-001",
     "study": "figure",
-    "title": "C622: контакты, укрупнение и точная масса",
+    "title": "C622: contacts, coarsening and exact mass",
     "parent": null,
     "recorded_status": "open",
     "reports": [
@@ -44,7 +44,7 @@
   {
     "id": "figure-branch-002",
     "study": "figure",
-    "title": "Малые непирамидальные тела и объёмные препятствия",
+    "title": "Small non-pyramidal bodies and volume obstructions",
     "parent": null,
     "recorded_status": "open",
     "reports": [
@@ -71,7 +71,7 @@
   {
     "id": "figure-branch-003",
     "study": "figure",
-    "title": "C320: опоры, общий интерфейс и корень",
+    "title": "C320: supports, shared interface and root",
     "parent": "figure-branch-001",
     "recorded_status": "open",
     "reports": [
@@ -85,7 +85,7 @@
   {
     "id": "figure-branch-004",
     "study": "figure",
-    "title": "C510: собственная масса и отмена устойчивой пары",
+    "title": "C510: own centroid and cancellation of a stable pair",
     "parent": "figure-branch-003",
     "recorded_status": "open",
     "reports": [
@@ -101,7 +101,7 @@
   {
     "id": "figure-branch-005",
     "study": "figure",
-    "title": "Опорный центр → однородная физическая конструкция",
+    "title": "From a reference centre to a homogeneous physical construction",
     "parent": "figure-branch-001",
     "recorded_status": "open",
     "reports": [
@@ -121,7 +121,7 @@
   {
     "id": "figure-branch-006",
     "study": "figure",
-    "title": "История: закрытые и отложенные направления",
+    "title": "History: closed and postponed directions",
     "parent": null,
     "recorded_status": "closed",
     "reports": [
@@ -460,7 +460,7 @@
   {
     "id": "figure-branch-007",
     "study": "figure",
-    "title": "C366: устранение целой неустойчивой области при собственной массе",
+    "title": "C366: removing a whole unstable region at the own centroid",
     "parent": "figure-branch-003",
     "recorded_status": "open",
     "reports": [
@@ -473,7 +473,7 @@
   {
     "id": "figure-branch-008",
     "study": "figure",
-    "title": "C288/C330: устойчивый бассейн, новые опоры и объёмная компенсация",
+    "title": "C288/C330: stable basin, new supports and volume compensation",
     "parent": "figure-branch-003",
     "recorded_status": "open",
     "reports": [
@@ -486,7 +486,7 @@
   {
     "id": "figure-branch-009",
     "study": "figure",
-    "title": "Малые V-описания: reference110 → действительная однородная масса",
+    "title": "Small vertex descriptions: from a reference-centre (1,1,0) body to true homogeneous mass",
     "parent": "figure-branch-002",
     "recorded_status": "open",
     "reports": [
@@ -504,7 +504,7 @@
   {
     "id": "figure-branch-010",
     "study": "figure",
-    "title": "C318/C306: конечная замена лишнего радиального бассейна",
+    "title": "C318/C306: finite replacement of the extra radial basin",
     "parent": "figure-branch-003",
     "recorded_status": "open",
     "reports": [],
@@ -513,7 +513,7 @@
   {
     "id": "figure-branch-011",
     "study": "figure",
-    "title": "C306: разреженные переносы хорд и выбор направления для полного U-бассейна",
+    "title": "C306: sparse chord transfers and choice of direction for the full unstable basin",
     "parent": "figure-branch-010",
     "recorded_status": "open",
     "reports": [
@@ -526,7 +526,7 @@
   {
     "id": "figure-branch-012",
     "study": "figure",
-    "title": "G6: глубокие цепочки новых граней и физическое центрирование срезами",
+    "title": "G6: deep chains of new faces and physical centring by cuts",
     "parent": "figure-branch-009",
     "recorded_status": "open",
     "reports": [
@@ -548,7 +548,7 @@
   {
     "id": "figure-branch-014",
     "study": "figure",
-    "title": "C306/C454: физическое изменение ширины и проекции с собственным центром масс",
+    "title": "C306/C454: physical change of width and projection at the own centroid",
     "parent": "figure-branch-011",
     "recorded_status": "open",
     "reports": [
@@ -586,7 +586,7 @@
   {
     "id": "figure-branch-017",
     "study": "figure",
-    "title": "C114 с 21 вершиной: устранение целой устойчивой области при U1",
+    "title": "C114 with 21 vertices: removing a whole stable region with one unstable equilibrium",
     "parent": "figure-branch-009",
     "recorded_status": "open",
     "reports": [
@@ -718,7 +718,7 @@
   {
     "id": "figure-branch-025",
     "study": "figure",
-    "title": "Обычные бипирамиды: собственная масса, точные камеры и устойчивые бассейны",
+    "title": "Ordinary bipyramids: own centroid, exact chambers and stable basins",
     "parent": "figure-branch-002",
     "recorded_status": "open",
     "reports": [
@@ -765,7 +765,7 @@
   {
     "id": "figure-branch-028",
     "study": "figure",
-    "title": "Круговые сечения CIRCLE5/POLYSECT14: точная масса и конечная полиэдрализация",
+    "title": "Circular sections CIRCLE5/POLYSECT14: exact mass and finite polyhedral approximation",
     "parent": null,
     "recorded_status": "open",
     "reports": [],
@@ -774,7 +774,7 @@
   {
     "id": "figure-branch-029",
     "study": "figure",
-    "title": "Наклонная бипирамида C186: устранение лишнего устойчивого бассейна при U1",
+    "title": "Oblique bipyramid C186: removing the extra stable basin with one unstable equilibrium",
     "parent": "figure-branch-025",
     "recorded_status": "closed",
     "reports": [
@@ -788,7 +788,7 @@
   {
     "id": "figure-branch-030",
     "study": "figure",
-    "title": "GREEN_STACK: точная конечная масса, выпуклость по кривизне и отмена полных P/Q-пакетов",
+    "title": "GREEN_STACK: exact finite mass, convexity by curvature and cancellation of full P/Q packets",
     "parent": "figure-branch-028",
     "recorded_status": "open",
     "reports": [],
@@ -797,7 +797,7 @@
   {
     "id": "figure-branch-031",
     "study": "figure",
-    "title": "IGS: независимые опоры конечных сечений и точные запреты перемещения центра по оси",
+    "title": "IGS: independent supports of finite sections and exact obstructions to moving the centre along the axis",
     "parent": "figure-branch-030",
     "recorded_status": "open",
     "reports": [],
@@ -806,7 +806,7 @@
   {
     "id": "figure-branch-032",
     "study": "figure",
-    "title": "Парные C2-цепи: структурное U1, точное замыкание массы и уничтожение полного Q-бассейна",
+    "title": "Paired C2 chains: structural single unstable equilibrium, exact mass closure and removal of the full Q basin",
     "parent": null,
     "recorded_status": "open",
     "reports": [
@@ -818,7 +818,7 @@
   {
     "id": "figure-branch-033",
     "study": "figure",
-    "title": "MORSE6: разреженная конечная реализация с критическими гранями и собственной массой",
+    "title": "MORSE6: sparse finite realization with critical faces at the own centroid",
     "parent": "figure-branch-028",
     "recorded_status": "open",
     "reports": [
@@ -896,7 +896,7 @@
   {
     "id": "figure-branch-039",
     "study": "figure",
-    "title": "Внутреннее укрупнение C622: освобождение пластины и собственной объёмной массы",
+    "title": "Internal coarsening of C622: freeing the plate and the own volume mass",
     "parent": "figure-branch-038",
     "recorded_status": "open",
     "reports": [
@@ -909,7 +909,7 @@
   {
     "id": "figure-branch-040",
     "study": "figure",
-    "title": "RESERVE31: область reference110 и достижимость собственной объёмной массы",
+    "title": "RESERVE31: the reference-centre (1,1,0) region and reachability of the own centroid",
     "parent": "figure-branch-027",
     "recorded_status": "open",
     "reports": [
@@ -922,7 +922,7 @@
   {
     "id": "figure-branch-041",
     "study": "figure",
-    "title": "Прямые строгие запасы равновесий при собственной массе: свободная геометрия FREE_LIVE30",
+    "title": "Direct strict equilibrium margins at the own centroid: free geometry FREE_LIVE30",
     "parent": "figure-branch-040",
     "recorded_status": "open",
     "reports": [],
@@ -931,7 +931,7 @@
   {
     "id": "figure-branch-042",
     "study": "figure",
-    "title": "Конечное добавление цепей и граней к малым own211: расход бюджета E249",
+    "title": "Finite addition of chains and faces to small own-centroid (2,1,1) bodies: spending the E249 budget",
     "parent": "figure-branch-041",
     "recorded_status": "open",
     "reports": [],
@@ -940,7 +940,7 @@
   {
     "id": "figure-branch-043",
     "study": "figure",
-    "title": "R3: конечная перестройка полного Q-бассейна при свободном бюджете E249",
+    "title": "R3: finite rebuilding of the full Q basin with a free E249 budget",
     "parent": "figure-branch-042",
     "recorded_status": "open",
     "reports": [
@@ -953,7 +953,7 @@
   {
     "id": "figure-branch-044",
     "study": "figure",
-    "title": "Собственная поляра R3: центр полярности, Сантало и материальная смена лишнего бассейна",
+    "title": "Own polar of R3: centre of polarity, Santaló point and material change of the extra basin",
     "parent": "figure-branch-042",
     "recorded_status": "open",
     "reports": [],
@@ -962,7 +962,7 @@
   {
     "id": "figure-branch-045",
     "study": "figure",
-    "title": "W49: конечная проективно-метрическая орбита точных малых тел с собственным центром",
+    "title": "W49: finite projective-metric orbit of exact small bodies at their own centroid",
     "parent": "figure-branch-043",
     "recorded_status": "open",
     "reports": [
@@ -973,7 +973,7 @@
   {
     "id": "figure-branch-046",
     "study": "figure",
-    "title": "H44 собственная поляра и метрика: точные C252/211 тела, конечная отмена Q53",
+    "title": "H44 own polar and metric: exact C252 (2,1,1) bodies, finite cancellation of Q53",
     "parent": "figure-branch-044",
     "recorded_status": "open",
     "reports": [
@@ -984,7 +984,7 @@
   {
     "id": "figure-branch-047",
     "study": "figure",
-    "title": "W51 own211: совместная перестройка последней устойчивой–седловой пары",
+    "title": "W51 own-centroid (2,1,1): joint rebuilding of the last stable–saddle pair",
     "parent": "figure-branch-043",
     "recorded_status": "open",
     "reports": [
@@ -997,7 +997,7 @@
   {
     "id": "figure-branch-048",
     "study": "figure",
-    "title": "COMPACT_G6: свободная массовая перестройка последнего неустойчивого бассейна",
+    "title": "COMPACT_G6: free mass rebuilding of the last unstable basin",
     "parent": "figure-branch-033",
     "recorded_status": "open",
     "reports": [
@@ -1010,7 +1010,7 @@
   {
     "id": "figure-branch-049",
     "study": "figure",
-    "title": "H24 + ROBUST_G3: физическое пересечение и выпуклое объединение комплементарных тел",
+    "title": "H24 + ROBUST_G3: physical intersection and convex union of complementary bodies",
     "parent": "figure-branch-047",
     "recorded_status": "open",
     "reports": [
@@ -1569,7 +1569,7 @@
   {
     "id": "minimum-branch-001",
     "study": "minimum",
-    "title": "E17: настоящие рёбра, инцидентности и два апекса",
+    "title": "E17: true edges, incidences and two apexes",
     "parent": null,
     "recorded_status": "open",
     "reports": [
@@ -1591,7 +1591,7 @@
   {
     "id": "minimum-branch-002",
     "study": "minimum",
-    "title": "Девять граней: физический след и наклонные волокна",
+    "title": "Nine faces: physical trace and oblique fibres",
     "parent": null,
     "recorded_status": "open",
     "reports": [
@@ -1616,7 +1616,7 @@
   {
     "id": "minimum-branch-003",
     "study": "minimum",
-    "title": "Истинные моменты и общий центр массы",
+    "title": "True moments and the common centre of mass",
     "parent": null,
     "recorded_status": "open",
     "reports": [
@@ -1642,7 +1642,7 @@
   {
     "id": "minimum-branch-004",
     "study": "minimum",
-    "title": "Глобальная радиальная топология и слабые контакты",
+    "title": "Global radial topology and weak contacts",
     "parent": null,
     "recorded_status": "open",
     "reports": [
@@ -1657,7 +1657,7 @@
   {
     "id": "minimum-branch-005",
     "study": "minimum",
-    "title": "Доказанные границы и завершённые нижние слои",
+    "title": "Proved bounds and completed lower layers",
     "parent": null,
     "recorded_status": "closed",
     "reports": [
@@ -1709,7 +1709,7 @@
   {
     "id": "minimum-branch-006",
     "study": "minimum",
-    "title": "Наклонный корень: полный след соседних треугольников",
+    "title": "Oblique root: full trace of adjacent triangles",
     "parent": "minimum-branch-002",
     "recorded_status": "open",
     "reports": [
@@ -1735,7 +1735,7 @@
   {
     "id": "minimum-branch-007",
     "study": "minimum",
-    "title": "Два апекса после полных цепей: оставшаяся геометрия E17",
+    "title": "Two apexes after full chains: the remaining E17 geometry",
     "parent": "minimum-branch-001",
     "recorded_status": "open",
     "reports": [
@@ -1762,7 +1762,7 @@
   {
     "id": "minimum-branch-008",
     "study": "minimum",
-    "title": "Настоящий центр и глобальный нерв на E17",
+    "title": "True centre and global nerve on E17",
     "parent": "minimum-branch-003",
     "recorded_status": "closed",
     "reports": [
@@ -1777,7 +1777,7 @@
   {
     "id": "minimum-branch-009",
     "study": "minimum",
-    "title": "Независимая малая конструкция с собственным центром",
+    "title": "Independent small construction at its own centroid",
     "parent": null,
     "recorded_status": "open",
     "reports": [
@@ -1793,7 +1793,7 @@
   {
     "id": "minimum-branch-010",
     "study": "minimum",
-    "title": "Максимальный базовый конец: оставшиеся выбранные звёзды",
+    "title": "Maximal base end: the remaining selected stars",
     "parent": "minimum-branch-007",
     "recorded_status": "closed",
     "reports": [
@@ -1806,7 +1806,7 @@
   {
     "id": "minimum-branch-011",
     "study": "minimum",
-    "title": "Три и более слабых контакта: собственная проективная регуляризация",
+    "title": "Three or more weak contacts: own projective regularization",
     "parent": "minimum-branch-004",
     "recorded_status": "closed",
     "reports": [
@@ -1819,7 +1819,7 @@
   {
     "id": "minimum-branch-012",
     "study": "minimum",
-    "title": "Полное пространство реализаций bevel-типа E17",
+    "title": "Full realization space of the bevel-type E17",
     "parent": "minimum-branch-008",
     "recorded_status": "open",
     "reports": [
@@ -1835,7 +1835,7 @@
   {
     "id": "minimum-branch-013",
     "study": "minimum",
-    "title": "Общая метрика: коллективные замыкания и корневые cap-свидетели",
+    "title": "Common metric: collective closures and root cap witnesses",
     "parent": "minimum-branch-008",
     "recorded_status": "open",
     "reports": [
@@ -1846,7 +1846,7 @@
   {
     "id": "minimum-branch-014",
     "study": "minimum",
-    "title": "Три физические слабые точки с пакетами вершина–грань",
+    "title": "Three physical weak points with vertex–face packets",
     "parent": "minimum-branch-011",
     "recorded_status": "closed",
     "reports": [
@@ -1859,7 +1859,7 @@
   {
     "id": "minimum-branch-015",
     "study": "minimum",
-    "title": "Четыре физические слабые точки: полная собственная регуляризация",
+    "title": "Four physical weak points: full own regularization",
     "parent": "minimum-branch-014",
     "recorded_status": "open",
     "reports": [
@@ -1877,7 +1877,7 @@
   {
     "id": "minimum-branch-016",
     "study": "minimum",
-    "title": "Сжатие точного C622: совместимые настоящие удаления и собственный центр",
+    "title": "Compressing the exact C622: compatible true deletions and the own centroid",
     "parent": "minimum-branch-009",
     "recorded_status": "open",
     "reports": [
@@ -1893,7 +1893,7 @@
   {
     "id": "minimum-branch-017",
     "study": "minimum",
-    "title": "Настоящее проективное центрирование внутри механической области: выпуклый потенциал и совместная геометрия",
+    "title": "True projective centring inside the mechanical region: convex potential and joint geometry",
     "parent": null,
     "recorded_status": "open",
     "reports": [],
@@ -1902,7 +1902,7 @@
   {
     "id": "minimum-branch-018",
     "study": "minimum",
-    "title": "Внутренность проективного класса после общего запрета горизонта",
+    "title": "Interior of the projective class after the general horizon obstruction",
     "parent": "minimum-branch-017",
     "recorded_status": "open",
     "reports": [
@@ -1916,7 +1916,7 @@
   {
     "id": "minimum-branch-019",
     "study": "minimum",
-    "title": "Четыре слабых контакта при сохранении нетреугольных граней E17",
+    "title": "Four weak contacts while keeping the non-triangular faces of E17",
     "parent": "minimum-branch-015",
     "recorded_status": "open",
     "reports": [
@@ -1933,7 +1933,7 @@
   {
     "id": "minimum-branch-020",
     "study": "minimum",
-    "title": "След с произвольными добавочными вершинами: глобальное достижение и свободная граница",
+    "title": "Trace with arbitrary additional vertices: global attainment and free boundary",
     "parent": "minimum-branch-006",
     "recorded_status": "closed",
     "reports": [
@@ -1945,7 +1945,7 @@
   {
     "id": "minimum-branch-021",
     "study": "minimum",
-    "title": "Значение полного следа на границе с одним нулевым концом C/D",
+    "title": "Value of the full trace on the boundary with one zero end C/D",
     "parent": "minimum-branch-020",
     "recorded_status": "closed",
     "reports": [
@@ -1962,7 +1962,7 @@
   {
     "id": "minimum-branch-022",
     "study": "minimum",
-    "title": "Полярная формулировка следа и совместные вариации корня и объёмных моментов",
+    "title": "Polar formulation of the trace and joint variations of the root and volume moments",
     "parent": "minimum-branch-020",
     "recorded_status": "open",
     "reports": [
@@ -1973,7 +1973,7 @@
   {
     "id": "minimum-branch-023",
     "study": "minimum",
-    "title": "Двухъякорный след после точного распределения кривизны",
+    "title": "Two-anchor trace after exact distribution of curvature",
     "parent": "minimum-branch-022",
     "recorded_status": "closed",
     "reports": [
@@ -1987,7 +1987,7 @@
   {
     "id": "minimum-branch-024",
     "study": "minimum",
-    "title": "Положительные корневые значения с отрицательным G(C) или G(D): третий и четвёртый якоря",
+    "title": "Positive root values with negative G(C) or G(D): third and fourth anchors",
     "parent": "minimum-branch-022",
     "recorded_status": "open",
     "reports": [
@@ -2002,7 +2002,7 @@
   {
     "id": "minimum-branch-025",
     "study": "minimum",
-    "title": "Неположительные отметки: расширенные защищённые грани3/4/5 и корневые цепи",
+    "title": "Non-positive marks: extended protected faces 3/4/5 and root chains",
     "parent": "minimum-branch-024",
     "recorded_status": "open",
     "reports": [
@@ -2061,7 +2061,7 @@
   {
     "id": "minimum-branch-029",
     "study": "minimum",
-    "title": "Октантные S5/I4/I5: точная граница высокого конца T≤3/2",
+    "title": "Octant S5/I4/I5: exact boundary of the high end T≤3/2",
     "parent": "minimum-branch-028",
     "recorded_status": "closed",
     "reports": [
@@ -2087,7 +2087,7 @@
   {
     "id": "minimum-branch-031",
     "study": "minimum",
-    "title": "Полный расширенный октант после уплощения A: охват высоких максимумов",
+    "title": "Full extended octant after flattening A: coverage of high maxima",
     "parent": "minimum-branch-024",
     "recorded_status": "closed",
     "reports": [
@@ -2136,7 +2136,7 @@
   {
     "id": "minimum-branch-034",
     "study": "minimum",
-    "title": "Взаимные кофакторные запреты: точная область слепоты и смешанный метрический дефект",
+    "title": "Reciprocal cofactor obstructions: exact blind region and mixed metric defect",
     "parent": "minimum-branch-013",
     "recorded_status": "open",
     "reports": [],
@@ -2145,7 +2145,7 @@
   {
     "id": "minimum-branch-035",
     "study": "minimum",
-    "title": "Реальные E17-патчи за пределами взаимных кофакторных запретов",
+    "title": "Real E17 patches beyond the reciprocal cofactor obstructions",
     "parent": "minimum-branch-034",
     "recorded_status": "closed",
     "reports": [
@@ -2158,7 +2158,7 @@
   {
     "id": "minimum-branch-036",
     "study": "minimum",
-    "title": "FULL253: от истинных граней и центра масс к запрещённой зависимости пяти полюсов",
+    "title": "FULL253: from true faces and centre of mass to a forbidden dependence of five poles",
     "parent": "minimum-branch-033",
     "recorded_status": "open",
     "reports": [
@@ -2172,7 +2172,7 @@
   {
     "id": "minimum-branch-037",
     "study": "minimum",
-    "title": "Общий метрический критерий для полярных путей при вершинах высокой степени",
+    "title": "General metric criterion for polar paths at high-degree vertices",
     "parent": "minimum-branch-036",
     "recorded_status": "closed",
     "reports": [
@@ -2183,7 +2183,7 @@
   {
     "id": "minimum-branch-038",
     "study": "minimum",
-    "title": "Реализация полярных пятиугольных запретов при собственном центре масс E17",
+    "title": "Realizing pentagonal polar obstructions at the own centroid of E17",
     "parent": "minimum-branch-037",
     "recorded_status": "open",
     "reports": [
@@ -2194,7 +2194,7 @@
   {
     "id": "minimum-branch-039",
     "study": "minimum",
-    "title": "Пятиугольная полярная грань E17: полная U1-совместимость за локальными запретами",
+    "title": "Pentagonal polar face of E17: full single-unstable compatibility beyond local obstructions",
     "parent": "minimum-branch-038",
     "recorded_status": "open",
     "reports": [
@@ -2207,7 +2207,7 @@
   {
     "id": "minimum-branch-040",
     "study": "minimum",
-    "title": "E17 degree6: пятистрелочный локальный запрет при полной U1-совместимости",
+    "title": "E17 degree 6: five-arrow local obstruction under full single-unstable compatibility",
     "parent": "minimum-branch-037",
     "recorded_status": "open",
     "reports": [
@@ -2227,7 +2227,7 @@
   {
     "id": "minimum-branch-041",
     "study": "minimum",
-    "title": "Точное исключение нормального параметра для апикальных U1/110",
+    "title": "Exact exclusion of the normal parameter for apical single-unstable (1,1,0) bodies",
     "parent": null,
     "recorded_status": "closed",
     "reports": [],

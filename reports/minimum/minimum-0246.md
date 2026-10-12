@@ -17,13 +17,13 @@ Coupling the reflected-hull inequalities across different source components give
 | 15/16<=x<1, 1/4<=r<=1/2 | 26,409 | **26,689** | 280 |
 | 4/5<=x,r<1 | 27,939 | **28,315** | 376 |
 
-The first row is a calibration, not a new all-shape result. The second and fourth rows are new continuous shape domains for these counts. Relative to the supplied full-domain 22,941-tree theorem, they add 2,239 and 5,374 exclusions, respectively, **on their stated domains**. The local column on the new domains is newly evaluated, not attributed to the parent's published domain. The supplied parent gives 22,941 globally and 26,409 on its macro box. fileciteturn2file0L14-L29
+The first row is a calibration, not a new all-shape result. The second and fourth rows are new continuous shape domains for these counts. Relative to the supplied full-domain 22,941-tree theorem, they add 2,239 and 5,374 exclusions, respectively, **on their stated domains**. The local column on the new domains is newly evaluated, not attributed to the parent's published domain. The supplied parent gives 22,941 globally and 26,409 on its macro box.
 
 The more consequential result is a proved limit of the norm-only continuation. Even an unrealistically strong oracle granting every possible spanning basal-hull norm inequality leaves **exactly 5,189 rooted trees** feasible in the necessary scalar-order model. Allowing every possible two-point hull inequality still leaves **3,185**. This is an exact combinatorial obstruction, not failure of a finite chord library. Moreover, a rational **actual SPD metric on a genuine body** satisfies the complete T56 norm ordering and every relevant reflected-hull norm consequence, throughout an explicit metric cube, while a selected true arrow stays below -1/25. Thus recomputing the actual centroid or enforcing actual metric-realizable norms does not by itself repair this norm-only loss.
 
-**No complete actual-centred PSD/SPD weak-arrow survivor is claimed. No all-root U>=2 theorem follows from this handoff.** The current partial atlas leaves 22,101 trees outside its cover on the macro prism and 20,475 on the high-x/high-r corner. On the intersection of the original macro prism with lambda<=1/64, the original twenty-tree stress adds its fifteen remaining root-2 trees: the union is **26,704**, leaving **22,086**. That twenty-tree certificate has not been extended to lambda<=1/16, to the strip, or to the high-r corner. Its original domain and support are unchanged. fileciteturn2file3L7-L12 fileciteturn2file3L102-L110
+**No complete actual-centred PSD/SPD weak-arrow survivor is claimed. No all-root U>=2 theorem follows from this handoff.** The current partial atlas leaves 22,101 trees outside its cover on the macro prism and 20,475 on the high-x/high-r corner. On the intersection of the original macro prism with lambda<=1/64, the original twenty-tree stress adds its fifteen remaining root-2 trees: the union is **26,704**, leaving **22,086**. That twenty-tree certificate has not been extended to lambda<=1/16, to the strip, or to the high-r corner. Its original domain and support are unchanged.
 
-These are labelled-tree counts, not canonical orbit counts or whole-H5/E17 exclusions. Bounds 34<=C_min<=622 and the separate attaining construction are unchanged. fileciteturn2file2L9-L11
+These are labelled-tree counts, not canonical orbit counts or whole-H5/E17 exclusions. Bounds 34<=C_min<=622 and the separate attaining construction are unchanged.
 
 ## Input and evidence status
 
@@ -57,7 +57,7 @@ There are 17 true edges. The apical neighbours of basal labels 0,...,6 are (7,8,
     Jy=s^3 By/4+s^2 lambda(1-3rq/4)/24+lambda^2/24,
     Jz=A s^2/12+lambda/12+lambda^2/24.
 
-Always use g=J/V=(c,gamma). The literal geometry and these volume moments are the supplied ones, not a surrogate basal measure. fileciteturn2file3L18-L52
+Always use g=J/V=(c,gamma). The literal geometry and these volume moments are the supplied ones, not a surrogate basal measure.
 
 The source verifies the four full five-variable oriented-fan identities. Since A>=7/64 and
 
@@ -85,7 +85,7 @@ For a->b, suppose all the other norms are <=n_a. In the M^(1/2) image, A.B>=n_a 
     ||W||^2 >= (1-t)^2 n_b+(2t-t^2)n_a >=n_a,
     W.B=-(1-t)n_b-t A.B<0.
 
-B cannot vanish: that would force A and every other vector in S to vanish, whereas the centred vectors from three noncollinear basal points span R^3 because gamma>0. Interior containment gives a convex representation of W with positive coefficient on B. Applying the functional W contradicts W.W: the B term is strictly smaller and each other term is <=||W||sqrt(n_a)<=||W||^2. This extends the supplied local lemma by retaining its norm consequence without insisting that all vertices of S belong to one source component. fileciteturn2file0L69-L105
+B cannot vanish: that would force A and every other vector in S to vanish, whereas the centred vectors from three noncollinear basal points span R^3 because gamma>0. Interior containment gives a convex representation of W with positive coefficient on B. Applying the functional W contradicts W.W: the B term is strictly smaller and each other term is <=||W||sqrt(n_a)<=||W||^2. This extends the supplied local lemma by retaining its norm consequence without insisting that all vertices of S belong to one source component.
 
 For b->a, assume all other S norms are <=n_b. With d=A-B,
 
@@ -221,7 +221,7 @@ All 68 true-edge primal/polar primitives are nonzero. In lexicographic undirecte
     P: +--+-----------------++------++-+-
     E: -----+--+---+----+---------+-+---+
 
-This body and all its exact primitives are regenerated by the capsule. It is a nonattaining control, **not a complete physical tree survivor**. In fact the supplied original-cubic stress already excludes this entire T56 tree cone for every nonzero PSD metric on the original prism, which contains this body. fileciteturn2file3L56-L100
+This body and all its exact primitives are regenerated by the capsule. It is a nonattaining control, **not a complete physical tree survivor**. In fact the supplied original-cubic stress already excludes this entire T56 tree cone for every nonzero PSD metric on the original prism, which contains this body.
 
 The missing information is transparent in the exact identity
 
@@ -408,4 +408,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Supplementary copies: [recovery capsule](sandbox:/mnt/data/recover_h5_coupled_norm.py), [readable decoded verifier](sandbox:/mnt/data/h5_coupled_reflection_norm.py), and [exact report](sandbox:/mnt/data/h5-coupled-output/coupled_reflection_report.json). The embedded capsule already reconstructs every coefficient and control without these downloads.
+Supplementary copies: recovery capsule (`recover_h5_coupled_norm.py`), readable decoded verifier (`h5_coupled_reflection_norm.py`), and exact report (`coupled_reflection_report.json`). The embedded capsule already reconstructs every coefficient and control without these downloads.

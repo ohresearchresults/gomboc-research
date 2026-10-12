@@ -20,7 +20,7 @@ The strongest negative result is a **complete actual-mass, incidence-independent
 
 The entire delivered1284-line journal, shared memory, branch memory, literal required parent, and all eight decoded parent source/data units were read. The journal is268328bytes, SHA256 `f5f73d3cded5827d8ca0464caa44c746bcc1f135b1275368a171dbec41448755`.
 
-The parent authority is `figure-0516`, advertised immutable SHA256 `1206117678c844963c8d0acb436b6c1b07cb78fb1a29984dfc31fd6c7388fe5b`. Its G4/G6 bodies, source-index conventions, destroyed BASE protection and complete31/27 Q packet are the starting evidence, not assumptions about an inaccessible older body. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The parent authority is `figure-0516`, advertised immutable SHA256 `1206117678c844963c8d0acb436b6c1b07cb78fb1a29984dfc31fd6c7388fe5b`. Its G4/G6 bodies, source-index conventions, destroyed BASE protection and complete31/27 Q packet are the starting evidence, not assumptions about an inaccessible older body.
 
 The rendered parent heading-through-EOF substring is39479bytes, SHA256 `ea49e4dbc5ad110a2f7ec473058e70fb924c5bb7a42439207098b975419e894f`, rather than its advertised39967bytes/immutable hash. This is an unresolved outer-byte discrepancy, not an identified coordinate or incidence disagreement. The embedded20630-byte decoder matches SHA256 `ebfecab0b4123d54b3db52bd637a3f9bb53a148fe072ee439bb16c2aea92b91b`; its42473-byte eight-unit dictionary matches `bdcf497ec86820521bfde35c94642feedddc9a3201ee0a50d0df2ac2bcf7e876`. A fresh parent replay reproduced all four bodies and all nine expected receipts.
 
@@ -872,4 +872,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-A convenience copy of the same source capsule and exact reports is [COMET62_COMPLETE.zip](sandbox:/mnt/data/COMET62_COMPLETE.zip),31867294bytes,SHA256 `ca8985a3c2ebf979ee102f28f6e1a1b02a42225cd4d7ee2f2d781c46168710ce`. The inline source above is the primary recovery route.
+A convenience copy of the same source capsule and exact reports is COMET62_COMPLETE.zip,31867294bytes,SHA256 `ca8985a3c2ebf979ee102f28f6e1a1b02a42225cd4d7ee2f2d781c46168710ce`. The inline source above is the primary recovery route.

@@ -18,7 +18,7 @@ The only original geometric dependency was the complete D100 source, material `[
 
 **Preservation limitation:** the complete source capsule and fully assembled handoff were created and cold-replayed, but the entire 67,736-character encoded capsule is not reproduced inside this response. Consequently, this response does not meet the requested source-inline durability standard for all seven constructions. The exact D717 coordinates and its mathematical certificates below are literal; continuation of the complete computational work requires the accompanying handoff or source files. Do not replace the last independently recoverable parent using this abbreviated response alone.
 
-Complete assembled handoff, including the entire literal recovery capsule: [BQ13_D100_RESULT.json](sandbox:/mnt/data/BQ13_D100_RESULT.json). Readable equivalent: [BQ13_D100_RESULT.md](sandbox:/mnt/data/BQ13_D100_RESULT.md). Complete source archive: [BQ13_D100_RECOVERY_SOURCE.zip](sandbox:/mnt/data/BQ13_D100_RECOVERY_SOURCE.zip). Encoded recovery capsule: [BQ13_D100_RECOVERY.b64](sandbox:/mnt/data/BQ13_D100_RECOVERY.b64).
+Complete assembled handoff, including the entire literal recovery capsule: BQ13_D100_RESULT.json. Readable equivalent: BQ13_D100_RESULT.md. Complete source archive: BQ13_D100_RECOVERY_SOURCE.zip. Encoded recovery capsule: BQ13_D100_RECOVERY.b64.
 
 ## Exact constructions and verification
 

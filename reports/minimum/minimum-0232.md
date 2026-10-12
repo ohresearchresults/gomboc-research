@@ -21,7 +21,7 @@ There is also a dual completion retaining the actual centroid of the ORIGINAL un
 
 These are alternatives, not a theorem about the union of two separately carried packets. An EF/VF merely lying on F but borne by another facet does not meet condition 1. A VE at the other endpoint of an edge incident to v does not meet condition 2.
 
-In particular, **every actual weak S1U1 first-layer body satisfying either carrier condition has arbitrarily close proper110 realizations of the same lattice**. No feasible S1U1 input is asserted. The accepted internal bounds remain 34<=C_min<=622; no whole-layer exclusion, new attaining body, or global density result follows. The supplied index theorem already makes strict H=0 automatic for weak S1U1. fileciteturn0file2L9-L13 fileciteturn0file1L7-L15
+In particular, **every actual weak S1U1 first-layer body satisfying either carrier condition has arbitrarily close proper110 realizations of the same lattice**. No feasible S1U1 input is asserted. The accepted internal bounds remain 34<=C_min<=622; no whole-layer exclusion, new attaining body, or global density result follows. The supplied index theorem already makes strict H=0 automatic for weak S1U1.
 
 A new exact heptagon/three-outside-vertex control demonstrates the extension beyond BOTH old incidence hypotheses. It has strict (S,U,H)=(4,5,7), four VE points and one VF, and therefore is expressly **not S1U1**. Its complete source-only recovery and continuous certificate appear below.
 
@@ -29,9 +29,9 @@ A new exact heptagon/three-outside-vertex control demonstrates the extension bey
 
 The unchanged journal, selected atlas, radial-index source, and literal parent hY remain the inputs read in the preceding turn; no new source pack was supplied. The exact literal parent is `minimum-0230`, SHA-256 `daa0643fe164f5e11709744cc9493058547276f9356231fc732b06ef31aef86e`. Its actual flag identities and reduced physical selectors are retained unchanged.
 
-Rather than finding another isolated metric blockage, I examined the relative incidence Jacobian obtained when the ENTIRE carrying polygon is prescribed. The ordinary full-row-rank proof in the atlas does not immediately settle this relative problem: its pinned boundary vertices need not have four incident nonzero stress coefficients. The new boundary count below is the additional argument. fileciteturn0file0L163-L186
+Rather than finding another isolated metric blockage, I examined the relative incidence Jacobian obtained when the ENTIRE carrying polygon is prescribed. The ordinary full-row-rank proof in the atlas does not immediately settle this relative problem: its pinned boundary vertices need not have four incident nonzero stress coefficients. The new boundary count below is the additional argument.
 
-A Tutte–Maxwell construction was considered but not used. The checked formulation has a triangular outer face and does not supply the local arbitrary-heptagon extension through the given realization that is needed here. No generic edge-length-rigidity claim is substituted for relative incidence surjectivity. citeturn630684view0
+A Tutte–Maxwell construction was considered but not used. The checked formulation has a triangular outer face and does not supply the local arbitrary-heptagon extension through the given realization that is needed here. No generic edge-length-rigidity claim is substituted for relative incidence surjectivity.
 
 ## 3. Relative incidence-rank theorem
 
@@ -158,7 +158,7 @@ The selected q is unchanged. The centroid is always computed from the genuine or
     J=sum det(Y_a,Y_b,Y_c)(Y_a+Y_b+Y_c),
     g=J/(4D).                                             (4.3)
 
-These are the actual-volume quantities of the supplied parent. They are not free masses or a formal centroid completion. fileciteturn0file2L1044-L1061
+These are the actual-volume quantities of the supplied parent. They are not free masses or a formal centroid completion.
 
 At an initially centred body the corrected vertex velocity is
 
@@ -190,7 +190,7 @@ The linear factor preserves a zero centroid. More importantly, its induced map o
 
     R_hat = { r + [p/(1+p.v)](1-v.r) : r in R }.            (4.7)
 
-This is an affine map fixing the entire plane H_v POINTWISE. It leaves the prescribed polar polygon unchanged and preserves the true lattice. The polar metric is still N=M^{-1}; no polar volume centroid enters. The journal's actual projective centroid law is used here, not a new independent-polar density assumption. fileciteturn0file2L342-L347
+This is an affine map fixing the entire plane H_v POINTWISE. It leaves the prescribed polar polygon unchanged and preserves the true lattice. The polar metric is still N=M^{-1}; no polar volume centroid enters. The journal's actual projective centroid law is used here, not a new independent-polar density assumption.
 
 For completeness, the required centring exists uniquely. The positive domain is bounded because 0 is interior to Q. Its volume functional satisfies
 
@@ -208,7 +208,7 @@ an invertible matrix. Thus centring is analytic along any sufficiently small ana
     p'=(5 Sigma)^(-1)c,
     r_i'^new=r_i'+(1-v.r_i)p'.                            (4.9)
 
-Again the correction vanishes on the prescribed polar facet. Equation (4.8) can also be read directly from (4.5), using the actual initial centroid zero. It retains the real moving-volume law at all orders, not just its first jet. fileciteturn0file2L279-L281
+Again the correction vanishes on the prescribed polar facet. Equation (4.8) can also be read directly from (4.5), using the actual initial centroid zero. It retains the real moving-volume law at all orders, not just its first jet.
 
 Accordingly, the local image of either a primal or a polar facet-restriction map is unchanged by imposing the actual ORIGINAL-body centroid condition. On the primal side x -> x+b(1-q.x) fixes the carrier and has centroid b at an initially centred body, so the centroid map has rank three within the fixed-polygon fibre; on the polar side (4.8) gives rank three. Where the relative-rank lemma applies, the fibre over a fixed m-gon and fixed carrier plane is smooth of dimension E-2m after actual centring. This is a count in vertex-position coordinates with the carrier plane fixed, not the atlas's affine-normalized parameter count.
 
@@ -254,11 +254,11 @@ At a bearing VF, choose a=e_1. In the literal parent's notation v-p=E u and G=E^
     P_1'(0)=e_1^T A e_1>0,
     Q_2'(0)=s delta_2>0.                                  (5.5)
 
-These are the complementary CROSS-edge exits. The proof works for acute, obtuse and right corners. At a right corner it succeeds at first order and therefore does not invoke, discard or weaken the parent's higher-jet threshold. Choosing a=e_2 realizes the other paired choice. fileciteturn0file2L903-L944 fileciteturn0file2L991-L1042
+These are the complementary CROSS-edge exits. The proof works for acute, obtuse and right corners. At a right corner it succeeds at first order and therefore does not invoke, discard or weaken the parent's higher-jet threshold. Choosing a=e_2 realizes the other paired choice.
 
 Use the relative-rank lemma to extend (5.1), then the corresponding actual-centroid retraction of Section 4. Both corrections fix the full carrier polygon. VE primitives on its edges are unchanged by the correction; the EF/VF exit signs are determined by the same carrier foot/edge data and their strictly positive genuine incidence factors. Thus (5.3)–(5.5) remain valid.
 
-All originally nonzero primitives retain their signs in a sufficiently small neighborhood. The supplied extremal-selector equivalence therefore removes every physical weak point and preserves the exact original strict S,U,H labels. No weak-edge group or demand that all algebraic zeros disappear is added. fileciteturn0file1L78-L102
+All originally nonzero primitives retain their signs in a sufficiently small neighborhood. The supplied extremal-selector equivalence therefore removes every physical weak point and preserves the exact original strict S,U,H labels. No weak-edge group or demand that all algebraic zeros disappear is added.
 
 For a polar carrier, the same-origin polarity simply interchanges the two primitive families: its primal rows are the original Q rows, and its polar rows are the original P rows, using the SAME N and M. This proves the primal-vertex-star alternative without ever refilling and independently centring the polar.
 
@@ -380,7 +380,7 @@ Exact pins:
 
 Build/check and a fresh source-only build/check were actually executed successfully in this continuation. The fresh report was compared byte-for-byte with the original and matched. The general relative-rank and centroid-completion theorems are analytic proofs, not conclusions inferred from this one control or proof-assistant formalizations.
 
-Convenience copies: [complete source](sandbox:/mnt/data/facet_relative/relative_facet.py) and [complete exact report](sandbox:/mnt/data/facet_relative/relative_facet_report.json). The report includes all exact endpoint coordinates, poles, rows, labelled censuses, interval bounds and the full relative matrix. The source below reconstructs them without these links.
+Convenience copies: complete source (`relative_facet.py`) and complete exact report (`relative_facet_report.json`). The report includes all exact endpoint coordinates, poles, rows, labelled censuses, interval bounds and the full relative matrix. The source below reconstructs them without these links.
 
 The preceding four controls and their `facet_anchor.py` recovery remain unchanged and useful. Their source SHA is `93b928295fccf90bb58a6d5309dcc0d7acb8805c3ce7440ef769c6f10447ac36`. They are not discarded or replaced by the new control; what is superseded is the need for the old geometric hypotheses when proving a one-carrier first-layer escape.
 
@@ -388,7 +388,7 @@ The preceding four controls and their `facet_anchor.py` recovery remain unchange
 
 The completed step is local extension and actual-COM completion for an ENTIRE individual carrier, on either side of the same inverse pair. The previous overloaded-anchor residue is therefore no longer an open obstruction for a first-layer packet carried by one facet.
 
-I have not proved that every actual S1U1 packet has either carrier. A genuine all-orders counterexample would have to have at least four physical weak points by the previously accepted <=3 theorem, and its complete packet would have to fail BOTH carrier tests above. For every paired selector, first-order failure would require a nonnegative full-tangent dependence; the physical support of that dependence must also fail both one-carrier tests. The four-point requirement concerns an all-orders counterexample's COMPLETE packet, not the support size of an individual first-order stress. fileciteturn0file2L299-L302
+I have not proved that every actual S1U1 packet has either carrier. A genuine all-orders counterexample would have to have at least four physical weak points by the previously accepted <=3 theorem, and its complete packet would have to fail BOTH carrier tests above. For every paired selector, first-order failure would require a nonnegative full-tangent dependence; the physical support of that dependence must also fail both one-carrier tests. The four-point requirement concerns an all-orders counterexample's COMPLETE packet, not the support size of an individual first-order stress.
 
 No implication is proved from failure of a carrier test to nonregularizability. Likewise, the present flows do not isolate a carrier from other weak contacts, so combining or sequencing them requires a simultaneous sign argument. The remaining issue is a contact packet not carried by any single primal or polar facet, with its actual centroid and genuine incidence still enforced. That is the useful continuation, rather than further tests of the obsolete four-anchor obstruction in a singly carried first-layer packet.
 

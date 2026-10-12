@@ -20,7 +20,7 @@ A real escape was also constructed and exactly audited: **VC47_HOST_ESCAPE_G10**
 
 I read the complete supplied journal consecutively through its EOF, 2,126 lines. The mounted bytes match the supplied 413,548-byte SHA-256 `de84c7ac8e774efa64030153ed586cfd325ebb5927aa6bb646f1d0c1304d8ab0`.
 
-The supplied parent is `figure-0611`. Re-encoding its complete embedded Markdown in the compact UTF-8 object `{"version":2,"result_markdown":...}`, with `ensure_ascii=False`, produces 34,570 bytes and the required SHA-256 `18da4f98d5716341eaefaf4f5d208fe4e8ac6fe28fc2d11b0421272b5bcad5a8`. Its extracted standalone Python source is 19,123 bytes, SHA-256 `f4d38340f7843c0adfe4a7792d51b12d6f305ec5b6aeb7889c0e210483d9204a`. The parent explicitly left the new route bodies unaudited; this handoff replaces that execution uncertainty with observed exact results. fileciteturn9file0L368-L374
+The supplied parent is `figure-0611`. Re-encoding its complete embedded Markdown in the compact UTF-8 object `{"version":2,"result_markdown":...}`, with `ensure_ascii=False`, produces 34,570 bytes and the required SHA-256 `18da4f98d5716341eaefaf4f5d208fe4e8ac6fe28fc2d11b0421272b5bcad5a8`. Its extracted standalone Python source is 19,123 bytes, SHA-256 `f4d38340f7843c0adfe4a7792d51b12d6f305ec5b6aeb7889c0e210483d9204a`. The parent explicitly left the new route bodies unaudited; this handoff replaces that execution uncertainty with observed exact results.
 
 The legacy Python constants `PARENT_ID` and `PARENT_SHA` identify the earlier Xbvm data lineage. They were preserved when reproducing its output files; they are not a claim that Xbvm is this assignment's supplied parent. I found no conflicting point data, class, or incidence in the required parent. No absent historical workspace or archive was used.
 
@@ -222,7 +222,7 @@ FLOW_A reduced summed Q depth but fragmented the landscape. FLOW_C used a regula
 
 The post-mass flow allowed all compact points to move, including the former anchors and root point. Although the surviving U label remains 12, the original anchor/root coordinates are only protected in HOST_ESCAPE, not in FLOW_A or FLOW_C. Exact hull reconstruction, rather than the floating optimizer's last facet labels, is authoritative after rounding.
 
-The optional numerical producer uses NumPy 2.3.5, SciPy 1.17.0, PyTorch 2.10.0+cpu, Python 3.13.5, and one BLAS/OpenMP/Torch thread. SciPy's triangulated Qhull output is used only for nomination; exact maximal facets are reconstructed independently for every reported rational endpoint. citeturn156786view0
+The optional numerical producer uses NumPy 2.3.5, SciPy 1.17.0, PyTorch 2.10.0+cpu, Python 3.13.5, and one BLAS/OpenMP/Torch thread. SciPy's triangulated Qhull output is used only for nomination; exact maximal facets are reconstructed independently for every reported rational endpoint.
 
 ## 4. Most useful continuation
 
@@ -274,7 +274,7 @@ Critical output identities:
 | FROZEN/VC47_FLOW_A_G10_EXACT.json | 92272 | 781a1a0f0e195cb5e3a3ef785b6ddb6a34eafce9b567fc5d31fdf0fa7436071c |
 | FROZEN/VC47_FLOW_C_G10_EXACT.json | 92857 | 4d0ce915cb56e1110bbba8b82de299e14f305a92addffccbbbe8ae5a9e4cd5b2 |
 
-The replay writes a full manifest and checks the required hashes itself. The supplementary ZIP contains the same sources, computed reports, original parent driver and floating checkpoints; it is not the sole recovery source: [VC47 supplementary research package](sandbox:/mnt/data/VC47_RESEARCH_HANDOFF.zip).
+The replay writes a full manifest and checks the required hashes itself. The supplementary ZIP contains the same sources, computed reports, original parent driver and floating checkpoints; it is not the sole recovery source: VC47 supplementary research package (`VC47_RESEARCH_HANDOFF.zip`).
 
 ### exact47.py
 

@@ -39,9 +39,9 @@ A new exact actual control shows that this second residual cannot be discarded b
 
 ## 2. Premises, source authority and reading
 
-The authoritative parent is `minimum-0215`, SHA-256 `7e379625c02a74dacfba1f6db9e4e291a8c3e8eecc0e39c90cfd01b879c33242`. Its axial all-root theorem and its literal family are retained, not rechecked or relabelled. The parent explicitly left general unbounded c and joint epsilon0 limits open. :contentReference[oaicite:0]{index=0}
+The authoritative parent is `minimum-0215`, SHA-256 `7e379625c02a74dacfba1f6db9e4e291a8c3e8eecc0e39c90cfd01b879c33242`. Its axial all-root theorem and its literal family are retained, not rechecked or relabelled. The parent explicitly left general unbounded c and joint epsilon0 limits open.
 
-The new analytical input is `[internal-source-reference]`, SEVEN_SHADOW_PSD_REFINEMENT_AND_HORIZON_REDUCTION_V1. I use its accepted conclusions: an actual own-centred uniform body with at most seven true vertices admits no weak rooted system under any nonzero PSD metric, even after adding arbitrary contained labels; and bounded full-dimensional affine-normalized limits of this kind have all-SPD U2 collars. Its rank-three argument uses the accepted universal V>=10 theorem; its rank-two argument uses the completed seven-corner shadow theorem. No fresh replay of those underlying chains is claimed. :contentReference[oaicite:1]{index=1}
+The new analytical input is `[internal-source-reference]`, SEVEN_SHADOW_PSD_REFINEMENT_AND_HORIZON_REDUCTION_V1. I use its accepted conclusions: an actual own-centred uniform body with at most seven true vertices admits no weak rooted system under any nonzero PSD metric, even after adding arbitrary contained labels; and bounded full-dimensional affine-normalized limits of this kind have all-SPD U2 collars. Its rank-three argument uses the accepted universal V>=10 theorem; its rank-two argument uses the completed seven-corner shadow theorem. No fresh replay of those underlying chains is claimed.
 
 The entire updated journal was read consecutively through EOF, including the complete literal parent and recovery capsule; the entire new synthesis was read as well. Mounted input pins are:
 
@@ -102,7 +102,7 @@ The true edges are
 01,02,03,04,05,06,07,12,19,23,34,45,58,67,68,79,89.
 ```
 
-Neither08 nor09 is an edge. Triangle089 is an internal interface. Positive projectivities preserve this full lattice, because the transformed slack is the old slack divided by its positive actual denominator. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+Neither08 nor09 is an edge. Triangle089 is an internal interface. Positive projectivities preserve this full lattice, because the transformed slack is the old slack divided by its positive actual denominator.
 
 Every actual centroid in this result is obtained from positive volume tetrahedra, never chosen vertex weights. For a cap fan triangle(i,j,k), the transformed six-volume is det(Yi,Yj,Yk)/(d_i d_j d_k), d_i=1+c.Y_i. With Z_i=Y_i/d_i,
 
@@ -111,7 +111,7 @@ D=sum d_ijk=6Vol,
 g_c=sum d_ijk*(Z_i+Z_j+Z_k)/(4D).
 ```
 
-The poles are the actual same-origin poles after subtracting g_c. These are the parent’s exact uniform-refill conventions. :contentReference[oaicite:4]{index=4}
+The poles are the actual same-origin poles after subtracting g_c. These are the parent’s exact uniform-refill conventions.
 
 ### 3.2 Interior reference used ONLY to compactify parameters
 
@@ -198,7 +198,7 @@ This is exactly the transverse section q_*.u=1 of the true tangent cone of P0 at
 
 Each normalized body is uniformly filled. Its bounded full-dimensional convex limit has the uniform volume law of K: volume and first moments converge, so the **new actual centroids** converge to g_K. This also follows by dominated convergence of the bounded convex-body indicators, since the limit boundary has volume zero.
 
-If an approaching sequence had U1, choose a recurring rooted true-edge escape tree, transport each metric to the normalized coordinates as A_n^-T M_n A_n^-1, and normalize its trace to1. A subsequence tends to a nonzero PSD matrix. Every selected arrow tends to a weak arrow on the FULL retained label set, centred at g_K. The supplied seven-vertex PSD/refinement theorem contradicts this whenever K has<=7 true vertices. :contentReference[oaicite:5]{index=5}
+If an approaching sequence had U1, choose a recurring rooted true-edge escape tree, transport each metric to the normalized coordinates as A_n^-T M_n A_n^-1, and normalize its trace to1. A subsequence tends to a nonzero PSD matrix. Every selected arrow tends to a weak arrow on the FULL retained label set, centred at g_K. The supplied seven-vertex PSD/refinement theorem contradicts this whenever K has<=7 true vertices.
 
 In particular collapsed labels are not deleted from a putative rooted system. The proof includes arbitrary conditioning, finite zero-arrow walls and extra physical weak contacts. The collar is an existence theorem, not an evaluated radius.
 
@@ -216,7 +216,7 @@ If d is in the interior of the dual cone, the explicit normalization by ||c_n|| 
 
 for every nonzero label; apex0 stays0. The seven ray endpoints give the true heptagonal section of C_epsilon_bar by d.Y=1. The two seam labels become nonextreme points on its boundary. The limit is exactly an eight-vertex heptagonal pyramid.
 
-For a U1 sequence, a rank-three limiting metric is excluded by the accepted V>=10 theorem, rank one by the two interval endpoint fibres, and rank two with<=7 shadow corners by the new shadow theorem. The sole remaining possibility is the reserved rank-two/eight-corner pyramid shadow with projected apex a and projected base heptagon B satisfying **a+3c_B=0**, where c_B is its actual AREA centroid. This is the source’s unresolved core, not a newly claimed exclusion. :contentReference[oaicite:6]{index=6}
+For a U1 sequence, a rank-three limiting metric is excluded by the accepted V>=10 theorem, rank one by the two interval endpoint fibres, and rank two with<=7 shadow corners by the new shadow theorem. The sole remaining possibility is the reserved rank-two/eight-corner pyramid shadow with projected apex a and projected base heptagon B satisfying **a+3c_B=0**, where c_B is its actual AREA centroid. This is the source’s unresolved core, not a newly claimed exclusion.
 
 Thus the complete unbounded fixed-positive-epsilon problem reduces to that one geometric core; boundary directions of the dual cone do not create another core.
 
@@ -743,4 +743,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Convenience copies: [complete source](sandbox:/mnt/data/twocap_escape_channels.py), [exact report](sandbox:/mnt/data/twocap_escape_channels.json). The embedded source and proofs are sufficient without these links.
+Convenience copies: complete source (`twocap_escape_channels.py`), exact report (`twocap_escape_channels.json`). The embedded source and proofs are sufficient without these links.

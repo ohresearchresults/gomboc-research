@@ -54,9 +54,9 @@ The exact geometry and reconstruction antecedent is `minimum-0217`, SHA-256 `d85
 
 The entire new `research-journal(20260924-010405).md`, including both literal parent payloads, was read consecutively through EOF. Mounted input:309708bytes,SHA-256 `ec635156d0e5fe64581228a170084863ed883438eed2ac035cf1d32bf8837c66`. No missing exact dependency or literal geometry conflict affects this result.
 
-The current notebook has already closed all projective-boundary and epsilon-to-zero channels, including both formerly exceptional points. Those closures remain settled. The result below instead works with bounded transverse projective parameters and a positive actual-denominator margin. The historical open-channel wording in the older literal payload is not the current frontier. :contentReference[oaicite:0]{index=0}
+The current notebook has already closed all projective-boundary and epsilon-to-zero channels, including both formerly exceptional points. Those closures remain settled. The result below instead works with bounded transverse projective parameters and a positive actual-denominator margin. The historical open-channel wording in the older literal payload is not the current frontier.
 
-Maple's general alternative permits an SPD weak-rooted component to avoid rank two: such a component has an SPD metric ray determined by five independent zero arrows at distinct nonroot sources. The present all-root PD stresses eliminate both alternatives on the stated block; they do not assume that full-rank feasible components meet a singular boundary. No candidate counts or six-pole-specific footprint from that different lattice are transferred. :contentReference[oaicite:1]{index=1}
+Maple's general alternative permits an SPD weak-rooted component to avoid rank two: such a component has an SPD metric ray determined by five independent zero arrows at distinct nonroot sources. The present all-root PD stresses eliminate both alternatives on the stated block; they do not assume that full-rank feasible components meet a singular boundary. No candidate counts or six-pole-specific footprint from that different lattice are transferred.
 
 ## 3. Literal actual family, true incidence and homogeneous refill
 
@@ -103,7 +103,7 @@ The seventeen true edges are
 01,02,03,04,05,06,07,12,19,23,34,45,58,67,68,79,89.
 ```
 
-Neither08 nor09 is an edge. Triangle089 is an internal interface. No cap integration diagonal is inserted into the mechanical graph. These are the literal parent's family and incidence, not the older parabolic controls. :contentReference[oaicite:2]{index=2}
+Neither08 nor09 is an edge. Triangle089 is an internal interface. No cap integration diagonal is inserted into the mechanical graph. These are the literal parent's family and incidence, not the older parabolic controls.
 
 The source checks all35 nonincident section-polygon determinants as exact univariate polynomials over the entire epsilon interval, dividing only powers of epsilon for the nonphysical epsilon0 limit. The remaining quotients are strictly positive by exact quadratic endpoint/critical-point tests. The first five section x-coordinates are negative and the other two positive, so the seam crosses precisely the two designated edges. The cone/cap construction gives the displayed true lattice for every epsilon>0.
 
@@ -727,4 +727,4 @@ p.write_bytes(b)
 print('TRANSVERSE_TWOCAP_SOURCE_RECOVERED',len(b),hashlib.sha256(b).hexdigest())
 ```
 
-Convenience copies: [autonomous verifier](sandbox:/mnt/data/transverse_twocap.py), [exact report](sandbox:/mnt/data/transverse_twocap.json), [source-only decoder](sandbox:/mnt/data/recover_transverse_twocap.py). The embedded capsule is sufficient without these links.
+Convenience copies: autonomous verifier (`transverse_twocap.py`), exact report (`transverse_twocap.json`), source-only decoder (`recover_transverse_twocap.py`). The embedded capsule is sufficient without these links.

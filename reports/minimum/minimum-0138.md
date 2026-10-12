@@ -28,9 +28,9 @@ All controls are nonwinning; none is a threshold counterexample or a 110 body. N
 
 ## 2. Source authority, reading and execution
 
-The entire current research-journal(20260920-180557).md was read in consecutive chunks through EOF, including the complete literal parent and its encoded recovery. It has 324592 bytes and SHA-256 9aec3e0731016cfbfa375cc09722e4ac25a2630a2c76d1cea5382ee7610725dc. The required parent is **minimum-0131**, supplied immutable SHA-256 **d3756f66557a0c54904607b6213c9e6307c97e45dfc49c2b044b0538c73ac499**. Its two-canonical sharp theorem and proper-versus-patch distinction are inherited as stated. :contentReference[oaicite:0]{index=0}
+The entire current research-journal(20260920-180557).md was read in consecutive chunks through EOF, including the complete literal parent and its encoded recovery. It has 324592 bytes and SHA-256 9aec3e0731016cfbfa375cc09722e4ac25a2630a2c76d1cea5382ee7610725dc. The required parent is **minimum-0131**, supplied immutable SHA-256 **d3756f66557a0c54904607b6213c9e6307c97e45dfc49c2b044b0538c73ac499**. Its two-canonical sharp theorem and proper-versus-patch distinction are inherited as stated.
 
-The complete new analytic material POLYHEDRAL_TRACE_STATIONARITY_RIGIDITY_V1, [internal-source-reference], was also read: 14798 bytes, SHA-256 8dc6ce8812298f59a61b404ccba7c09fef867bb8844a8952bf1cacc638bcc2b9. Its 90-vertex conclusion is conditional on a polyhedral local maximum over the full marked class. No polyhedral-attainment or unrestricted finite-supremum claim is imported from it. The new theorem below does not require that hypothesis. :contentReference[oaicite:1]{index=1}
+The complete new analytic material POLYHEDRAL_TRACE_STATIONARITY_RIGIDITY_V1, [internal-source-reference], was also read: 14798 bytes, SHA-256 8dc6ce8812298f59a61b404ccba7c09fef867bb8844a8952bf1cacc638bcc2b9. Its 90-vertex conclusion is conditional on a polyhedral local maximum over the full marked class. No polyhedral-attainment or unrestricted finite-supremum claim is imported from it. The new theorem below does not require that hypothesis.
 
 The earlier complete transverse reduction and the parent's two complete source units were available and read; unchanged historical inputs were not restarted. No source-authority conflict or missing dependency affects the new result. The parent's sharp algebra is included self-contained in the new recovery, with its rational isolator inlined. No old sandbox import is needed.
 
@@ -447,9 +447,9 @@ The theorem assumes 0<b<1 and a true positive-area root. Its estimates have the 
 
 All canonical status changes and c=1,d=1, upper/lower-controller equalities are included by the actual formulas and hull coalescences. A formal unit-cube face representing an infinite intercept, a zero denominator in reciprocal coordinates, or a zero-area root is only part of the algebraic overcover, never an asserted geometric member.
 
-The supplied transverse theorem yields a dominating f<=9 marked patch at fixed positive endpoint values; the literal parent strengthens its root count to k<=8 and its proper supremum count to 12. :contentReference[oaicite:2]{index=2} If that dominating patch is coordinate-saturated, the new uniform bound excludes T>=51/25 for the starting proper body, INCLUDING equality. No proper resolution is needed for that implication.
+The supplied transverse theorem yields a dominating f<=9 marked patch at fixed positive endpoint values; the literal parent strengthens its root count to k<=8 and its proper supremum count to 12. If that dominating patch is coordinate-saturated, the new uniform bound excludes T>=51/25 for the starting proper body, INCLUDING equality. No proper resolution is needed for that implication.
 
-Conversely, a bound for coordinate-saturated patches does not automatically bound all their proper contractions: Section 9.2 shows why. The general contraction theorem transfers strict violations and suprema, not equality, attainment, moment preservation or a fixed face lattice. :contentReference[oaicite:3]{index=3} The remaining root-only terminal strata have three or four true canonical vertices and at least one root vertex with x,y>0. There is no proof here that the remaining roots can be reduced to the axes, that the unrestricted maximum is polyhedral, or that arbitrary positive-ell auxiliaries disappear.
+Conversely, a bound for coordinate-saturated patches does not automatically bound all their proper contractions: Section 9.2 shows why. The general contraction theorem transfers strict violations and suprema, not equality, attainment, moment preservation or a fixed face lattice. The remaining root-only terminal strata have three or four true canonical vertices and at least one root vertex with x,y>0. There is no proof here that the remaining roots can be reduced to the axes, that the unrestricted maximum is polyhedral, or that arbitrary positive-ell auxiliaries disappear.
 
 ## 11. Most useful continuation
 
@@ -482,7 +482,7 @@ Actual environment: CPython3.13.5, assertions enabled. The geometry child uses o
 
 Original and fresh final-wrapper source-only build/verify runs produced matching reports. Observed markers are COORDINATE_SATURATED_ROOT_ACTUAL_GEOMETRY_AND_WEIGHTS_PASS, COORDINATE_SATURATED_ROOT_ALL_ORTHANTS_BERNSTEIN_PASS, TWO_CANONICAL_ROOT_UNIQUE_SHARP_MAXIMUM_PASS and COORDINATE_SATURATED_ROOT_SELF_CONTAINED_RECOVERY_PASS. Every coefficient tensor, original power polynomial, input body, true facet, volume, first moment, transformed-density identity and interval guard regenerates from the source. Hashes are not being used as substitutes for missing arrays. This is exact computational algebra plus the geometric proof above, not a proof-assistant formalization.
 
-Convenience copies: [autonomous recovery](sandbox:/mnt/data/recover_axis_root_v1.py), [plain actual-body audit](sandbox:/mnt/data/axis_trace_geometry_v1.py), [plain continuous algebra certificate](sandbox:/mnt/data/axis_trace_algebra_v1.py), and [complete sources and reports](sandbox:/mnt/data/axis_root_v1_complete.zip). The complete embedded recovery, not these links, is the durable handoff.
+Convenience copies: autonomous recovery (`recover_axis_root_v1.py`), plain actual-body audit (`axis_trace_geometry_v1.py`), plain continuous algebra certificate (`axis_trace_algebra_v1.py`), and complete sources and reports (`axis_root_v1_complete.zip`). The complete embedded recovery, not these links, is the durable handoff.
 
 ### Complete autonomous source
 

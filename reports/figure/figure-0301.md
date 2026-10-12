@@ -20,7 +20,7 @@ J56_TET4_swallow5003_exact_NONWINNER.
 
 Its decisive obstruction is a new true dual edge `(30001,30003)`: every nonmutual row-star arrow at both endpoints is strictly positive. The mutual-arrow identity then forces at least one endpoint to be stable throughout the corresponding strict sign chamber. Since protected row `2475` is independently stable, that chamber has `S>=2`.
 
-The immutable parent `figure-0298`, SHA-256 `091ec5e67ff68955ef13a261fd943972b9c6ed90894e91c5f883be54227ba33a`, established that the purported J56 winner was false and that a valid continuation must make `5003` nonextreme or cross one of its star inequalities no later than the old-pair wall. The underlying exact geometric source is `J55_D17R_anti_carrier18`, strict own-centred `(1,2,1)`. :contentReference[oaicite:0]{index=0}
+The immutable parent `figure-0298`, SHA-256 `091ec5e67ff68955ef13a261fd943972b9c6ed90894e91c5f883be54227ba33a`, established that the purported J56 winner was false and that a valid continuation must make `5003` nonextreme or cross one of its star inequalities no later than the old-pair wall. The underlying exact geometric source is `J55_D17R_anti_carrier18`, strict own-centred `(1,2,1)`.
 
 ## Exact deterministic construction
 
@@ -86,7 +86,7 @@ with ordinary centroid exactly zero. Direct rational reintegration gives
 Mx=My=Mz=0.
 ```
 
-The exact source and deterministic construction are available as [parent source](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/source/J55_D17R_anti_carrier18_exact_source.json), [endpoint source](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/endpoint/exact_source.json), and [builder](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/build_exact_endpoint.py).
+The exact source and deterministic construction are available as parent source (`J55_D17R_anti_carrier18_exact_source.json`), endpoint source (`exact_source.json`), and builder (`build_exact_endpoint.py`).
 
 ## Complete actual hull
 
@@ -157,16 +157,16 @@ and the exact raw centroid has decimal value
  -1.5621929903196745).
 ```
 
-The exact numerator and denominator of the volume, all three centroid fractions, the zero translated moments, and all inactive gaps are serialized in [certificate.json](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/endpoint/certificate.json).
+The exact numerator and denominator of the volume, all three centroid fractions, the zero translated moments, and all inactive gaps are serialized in certificate.json.
 
 Complete finite data:
 
-- [All supplied exact H rows](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/endpoint/H_supplied_exact.csv)
-- [Raw exact support rows](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/endpoint/Q_raw_exact.csv)
-- [All exact primal vertices](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/endpoint/V_exact.csv)
-- [Supplied-versus-active ledger](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/endpoint/supplied_active.csv)
-- [Every maximal-face cycle](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/endpoint/face_cycles.json)
-- [Every true edge](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/endpoint/true_edges.csv)
+- All supplied exact H rows (`H_supplied_exact.csv`)
+- Raw exact support rows (`Q_raw_exact.csv`)
+- All exact primal vertices (`V_exact.csv`)
+- Supplied-versus-active ledger (`supplied_active.csv`)
+- Every maximal-face cycle (`face_cycles.json`)
+- Every true edge (`true_edges.csv`)
 
 The minimum exact all-supplied active-face nonincidence separation is positive; its decimal value is
 
@@ -240,7 +240,7 @@ The two saddle true edges correspond to the dual row pairs
 
 All four components are exactly positive for each listed edge. Every other true edge has an exact nonpositive component.
 
-The full feature-by-feature ledger is [mechanics_exact.json](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/endpoint/mechanics_exact.json).
+The full feature-by-feature ledger is mechanics_exact.json.
 
 ## Literal death and replacement of the J55 packet
 
@@ -300,7 +300,7 @@ Since row `2475` is independently stable, the chamber satisfies
 S>=2.
 ```
 
-At the promoted endpoint the selected sink is `30001`. The exact complete audit and the forcing identity are in [external_arrow_audit.json](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/certificates/external_arrow_audit.json).
+At the promoted endpoint the selected sink is `30001`. The exact complete audit and the forcing identity are in external_arrow_audit.json.
 
 This is the precise residual obstruction. It is stronger than merely observing the endpoint class: every realization retaining this incidence and all of these strict external signs remains a nonwinner.
 
@@ -338,7 +338,7 @@ t=1
 
 At `t=1/100`, the additional stable faces include rows `14002,14003,14004,14008,14009,14010`, in addition to protected row `2475`; their exact positive components coexist with the old U-H pair. This proves that the canonical activation fails death-before-birth before the old packet disappears.
 
-The certificate deliberately makes no unsupported claim that these three samples isolate every algebraic root. It proves the required negative ordering statement for this explicit ingress. Full data are in [exact_activation_chronology.json](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/certificates/exact_activation_chronology.json).
+The certificate deliberately makes no unsupported claim that these three samples isolate every algebraic root. It proves the required negative ordering statement for this explicit ingress. Full data are in exact_activation_chronology.json.
 
 ## Nonzero exact perturbation chamber
 
@@ -372,8 +372,8 @@ and the same active/inactive labels and critical features. The smallest reported
 
 Files:
 
-- [Exact shear-box certificate](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/certificates/one_parameter_shear_box.json)
-- [Exact polynomial verifier](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/verifier/verify_1d_shear_box_poly.py)
+- Exact shear-box certificate (`one_parameter_shear_box.json`)
+- Exact polynomial verifier (`verify_1d_shear_box_poly.py`)
 
 The verifier terminates with
 
@@ -397,7 +397,7 @@ own-centred tetra volume     positive
 new-row graph connected      yes.
 ```
 
-The exact certificate is [tetrahedral_cage_certificate.json](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/certificates/tetrahedral_cage_certificate.json).
+The exact certificate is tetrahedral_cage_certificate.json.
 
 The construction is genuinely three-dimensional and endpoint-changing. Its failure cannot be attributed to a sheet, isolated stellar insertion, inactive arc, or failure to deactivate `5003`.
 
@@ -405,8 +405,8 @@ The construction is genuinely three-dimensional and endpoint-changing. Its failu
 
 Finite display meshes were generated from the exact primal vertices and maximal-face cycles:
 
-- [OBJ](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/mesh/J56_TET4_swallow5003.obj), SHA-256 `fddeaa4d5cef0600fddb0eb7f72a99a744c3e25f65ac169190a10d69587e1063`
-- [STL](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/mesh/J56_TET4_swallow5003.stl), SHA-256 `449b8455d9c7243d858b97f3ae67b1f193c1bf7f999896bbb1c1fda1720e49a6`
+- OBJ (`J56_TET4_swallow5003.obj`), SHA-256 `fddeaa4d5cef0600fddb0eb7f72a99a744c3e25f65ac169190a10d69587e1063`
+- STL (`J56_TET4_swallow5003.stl`), SHA-256 `449b8455d9c7243d858b97f3ae67b1f193c1bf7f999896bbb1c1fda1720e49a6`
 
 The OBJ contains 34 exact-source vertices and 64 display triangles. Display triangulation diagonals are not included in the 51-edge mechanics ledger.
 
@@ -427,7 +427,7 @@ eight-support cubical cages.
 
 No sampled body was `(1,1,0)`. The strongest one-port/two-port numerical states remained `(2,2,2)` with maximum unwanted margins on the order of `9.3e-5` to `3.5e-4`. The best near-branch linearized common margin remained negative, approximately `-2.36e-5`.
 
-These are finite empirical screens only. They do not exclude the full continuous realization spaces of those abstract topologies. Reproducible records are under [empirical](sandbox:/mnt/data/Clear_Willow_25_J56_TET4_swallow5003_exact_NONWINNER/empirical/).
+These are finite empirical screens only. They do not exclude the full continuous realization spaces of those abstract topologies. Reproducible records are under empirical.
 
 ## What changed relative to the supplied journal
 

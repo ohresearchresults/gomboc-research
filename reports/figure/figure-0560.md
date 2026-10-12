@@ -18,11 +18,11 @@ Observed cold replay: **49 matching byte receipts;45 named endpoint audits;44 di
 
 ## 1. Authority and execution
 
-The controlling parents are RA43 `figure-0554`, SHA-256 `75f535724577c7ccca10bff31683fac02ec7a7fc1793b92ba46afb01c671b1b0`, and RA44 `figure-0556`, SHA-256 `beb379cd059c48312f860afd0f2a8c82fc8700c0fa43aa98aac6f60889853ef1`. The journal explicitly distinguishes the executed RA43 constructions from RA44’s then-unexecuted, unembedded mechanism. fileciteturn10file0L5-L6
+The controlling parents are RA43 `figure-0554`, SHA-256 `75f535724577c7ccca10bff31683fac02ec7a7fc1793b92ba46afb01c671b1b0`, and RA44 `figure-0556`, SHA-256 `beb379cd059c48312f860afd0f2a8c82fc8700c0fa43aa98aac6f60889853ef1`. The journal explicitly distinguishes the executed RA43 constructions from RA44’s then-unexecuted, unembedded mechanism.
 
 The complete current345096-byte journal was read through EOF and hash-checked at `6fe52099097ae6a52ede7f5bb469d422571068a5db42523cf2e32c3b5ccbb3ed`; the complete25-unit RA43 source capsule was restored and read. No required dependency was inaccessible. No FULL76, C622 input, or research connector was used.
 
-T37 and T43 G3 were re-audited from their literal inputs. Their respective baseline classes remain222, with counts37/105/70 and43/123/82; they are not renamed121 bodies. fileciteturn10file0L19-L21 RA44’s standalone exact endpoint program also actually ran in this turn, producing its expected446→345 marker and4762-byte report, SHA `c97a1eb67f6528e845e37ca5940c433c80748e04b96cecce43c4bd69ae35e40b`. A second endpoint check used the general maximal-hull auditor.
+T37 and T43 G3 were re-audited from their literal inputs. Their respective baseline classes remain222, with counts37/105/70 and43/123/82; they are not renamed121 bodies. RA44’s standalone exact endpoint program also actually ran in this turn, producing its expected446→345 marker and4762-byte report, SHA `c97a1eb67f6528e845e37ca5940c433c80748e04b96cecce43c4bd69ae35e40b`. A second endpoint check used the general maximal-hull auditor.
 
 ## 2. Improved compact222 bodies from finite physical reshaping
 
@@ -282,7 +282,7 @@ Selected cold-reproduced files:
 
 Every other exact report, every positive bar and every proof bank regenerates from this capsule and is checked against its included receipt manifest. `SUMMARY45.json` collects all endpoint masses, strict/closed-weak features and complete bar interfaces. `RUNS.json` and `NOMINATION_SELECTION.json` identify the producing methods and actual selected checkpoints; floating reruns are not needed to recover any promoted geometry.
 
-The supplementary [source-and-audit archive](sandbox:/mnt/data/RA45/RA45_sources_and_exact_audits.zip) also contains the selected binary64 arrays, discovery traces and executed logs. It is8417614 bytes, SHA-256 `c3ab83638f885b829864ef119a17385195637be4c816aeb8b7876d0c328931c3`. It is not a dependency of the following literal recovery.
+The supplementary source-and-audit archive (`RA45_sources_and_exact_audits.zip`) also contains the selected binary64 arrays, discovery traces and executed logs. It is8417614 bytes, SHA-256 `c3ab83638f885b829864ef119a17385195637be4c816aeb8b7876d0c328931c3`. It is not a dependency of the following literal recovery.
 
 ```python
 import base64,hashlib,json,lzma

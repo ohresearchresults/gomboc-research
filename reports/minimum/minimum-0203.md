@@ -16,7 +16,7 @@ Within the whole subfamily whose five cuts are at most 1/25, the local/apical sh
 
 There are two further advances beyond that exclusion. First, I prove a **global vertex-centred projective centring theorem**, replacing the local small-cut centroid repair by a uniquely determined global construction. It supplies prescribed-pole, actual-centred completions throughout the entire open five-cut cube (0,1)^5. Second, I preserve two exact distant completions: one defeats extrapolation of the new highest-nonroot obstruction, and another is bounded even though releasing its two cut facets gives an unbounded virtual pyramid. Both remain in the local apical sharp-five chamber.
 
-No full-U1 witness was obtained. No proper110 construction, whole-incidence exclusion, canonical count change, or change to 34≤C_min≤622 follows. The preceding parent’s two all-SPD centre exclusions remain accepted inputs, rather than new claims here. :contentReference[oaicite:0]{index=0}
+No full-U1 witness was obtained. No proper110 construction, whole-incidence exclusion, canonical count change, or change to 34≤C_min≤622 follows. The preceding parent’s two all-SPD centre exclusions remain accepted inputs, rather than new claims here.
 
 ## 2. Source identity and actual geometry
 
@@ -185,7 +185,7 @@ The exclusion is invariant under simultaneous affine transport of body and metri
 
 ## 5. Root eligibility is satisfied throughout this excluded family
 
-The supplied core criterion makes unique-global-radius eligibility necessary, but not sufficient, for U1. The present family gives a continuous, explicit actual-geometric separation between those properties. :contentReference[oaicite:1]{index=1}
+The supplied core criterion makes unique-global-radius eligibility necessary, but not sufficient, for U1. The present family gives a continuous, explicit actual-geometric separation between those properties.
 
 Use the raw covector ell(Y)=-b·Y and put alpha=ell(A)=-b·A. On the parent base ell=-1, and the actual parent-pyramid mean is
 
@@ -317,7 +317,7 @@ This provides an actual own-centred 10/17/9 completion with these exact six pole
 
 The five cut parameters remain genuine. If two labelled centred outputs were equal, their raw bodies would differ by a vertex-centred projectivity preserving the original base plane. In A-relative coordinates that plane has equation b·u=h with h≠0. Preservation would require h/(1+e·u)=h on an open part of the plane, hence e·u=0 there and e=0. The original cut fractions then coincide. The same argument at first order rules out loss of differential rank.
 
-This extends the earlier local small-cut centroid repair; it does not assume that the new uniform centroid is the image of the old centroid. The supplied original construction had explicitly restricted its implicit-function repair to sufficiently small cuts. :contentReference[oaicite:2]{index=2}
+This extends the earlier local small-cut centroid repair; it does not assume that the new uniform centroid is the image of the old centroid. The supplied original construction had explicitly restricted its implicit-function repair to sufficiently small cuts.
 
 ### Exact algebraic recovery equations
 
@@ -436,7 +436,7 @@ The proved all-metric domain is the explicit five-cut cube through 1/10 with the
 
 The two distant rational controls preserve useful nonwinning geometry. The half-cut control shows that a proof for the wider chart must sometimes control a lower trapped maximum, rather than prohibit the top nonroot’s entry into the apex. Its explicit six-edge cutset identifies the actual boundary that must change. The 99-percent control shows why a proof cannot require positivity at removed virtual vertices or assume that releasing the cut facets gives a bounded pyramid.
 
-No unsuccessful numerical search is used as an exclusion. The exact finite certificates prove only their stated full domains. Full U1 outside them, all proper subsystems being full-U1-compatible on ONE body, and actual110 remain separate unresolved obligations. The generic outside-polar determinant coupling in the supplied reciprocal slice theorem is not removed by these results. :contentReference[oaicite:3]{index=3}
+No unsuccessful numerical search is used as an exclusion. The exact finite certificates prove only their stated full domains. Full U1 outside them, all proper subsystems being full-U1-compatible on ONE body, and actual110 remain separate unresolved obligations. The generic outside-polar determinant coupling in the supplied reciprocal slice theorem is not removed by these results.
 
 ## 10. Complete source-only recovery capsule
 
@@ -620,4 +620,4 @@ assert len(r)==4213189
 assert hashlib.sha256(r).hexdigest()=='522c3a4e4d24dd0c56ffb9f53681bf8d84b247a6c4b06a81492c0e3f749bf7fb'
 ```
 
-Convenience copies, not dependencies: [recovery wrapper](sandbox:/mnt/data/recover_hex6_completion_v2.py), [complete readable source](sandbox:/mnt/data/hex6_completion_v2.py), [exact report](sandbox:/mnt/data/hex6_completion_v2.json), [stdout](sandbox:/mnt/data/hex6_completion_v2.out).
+Convenience copies, not dependencies: recovery wrapper (`recover_hex6_completion_v2.py`), complete readable source (`hex6_completion_v2.py`), exact report (`hex6_completion_v2.json`), stdout (`hex6_completion_v2.out`).

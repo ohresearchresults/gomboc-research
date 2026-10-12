@@ -28,7 +28,7 @@ The excluded domain is five-dimensional, not a neighborhood of one basal shape. 
 
     1/400000 < lambda < 3/5
 
-as the remaining taper interval, still outside the other accepted exclusions. No whole-H5, whole-incidence, registry-count, or minimum-bound conclusion follows. The accepted interval remains 34 <= C_min <= 622. The starting exclusion map and bounds are recorded in the supplied memory. fileciteturn0file4L910-L919
+as the remaining taper interval, still outside the other accepted exclusions. No whole-H5, whole-incidence, registry-count, or minimum-bound conclusion follows. The accepted interval remains 34 <= C_min <= 622. The starting exclusion map and bounds are recorded in the supplied memory.
 
 The argument produces strict equilibria and tolerates incidental weak contacts. In particular, it also excludes a body with exactly one strict S and one strict U plus additional weak rests: such a body supplies the nonnegative primal and polar escape trees used below. No claim of existence of an all-U1 metric outside the joint cone is made.
 
@@ -46,7 +46,7 @@ I read the entire supplied journal, including its branch memory and the complete
 
 The parent is the embedded minimum-0250, registered SHA-256 2cf87f1bc07e373e4dd87a52a48d1a91b98eb48ba17601cf28e76afe3e39c233. Its three extracted Python sources matched their literal source pins: h5_normal_cone.py, 11669 bytes, 3ee5d85e8d3489286a3afbe3704f25250849036ec79328b759d4aae68a0a7f76; h5_taper_atlas.py, 5309 bytes, ef1abbd36b9d78c35aed1cf2e2adb5f34788fa2d689990688eccbe05703cee10; h5_verify_taper.py, 6488 bytes, a50817ce6f03a99fabc54085f477d87282f55aa2c23d7a8b917e1db75e6bffd6.
 
-There is a byte-representation qualification: hashing the parent Markdown literally from its H5 title through journal EOF gives 42922 bytes and 449496fe9e89d6d1839526b35c5b553d58abf8dd065368f047cb871901ab3c96, not the registered parent digest. I do not infer the unavailable original hashed envelope from that difference. The literal geometry and all three code pins agree, and no semantic/incidence conflict was found. The older covariance bibliographic digest inside the finite-height source is likewise not the digest of the supplied current covariance bytes, as already noted in the compactness proof. fileciteturn0file0L23-L29
+There is a byte-representation qualification: hashing the parent Markdown literally from its H5 title through journal EOF gives 42922 bytes and 449496fe9e89d6d1839526b35c5b553d58abf8dd065368f047cb871901ab3c96, not the registered parent digest. I do not infer the unavailable original hashed envelope from that difference. The literal geometry and all three code pins agree, and no semantic/incidence conflict was found. The older covariance bibliographic digest inside the finite-height source is likewise not the digest of the supplied current covariance bytes, as already noted in the compactness proof.
 
 No unprovided archive, parent output certificate, or research connector was used. Historical exclusions are working premises, not newly replayed results. The new proof and source below need no additional exact dependency.
 
@@ -58,13 +58,13 @@ Put s = 1-lambda and
              (0,1-3r/4), (0,1/4), (1/16,1/16)),
     P = conv((sB,0), ((0,0),1), ((lambda,0),1), ((0,lambda),1)),
 
-where 0 < x,r < 1, p,q > 0, p+q < 1. The nine true facet cycles and seventeen true edges are those in the supplied literal geometry and are repeated in the complete code. fileciteturn0file0L31-L40
+where 0 < x,r < 1, p,q > 0, p+q < 1. The nine true facet cycles and seventeen true edges are those in the supplied literal geometry and are repeated in the complete code.
 
 Suppose, for contradiction, that one physical M > 0 gives S = U = 1. Let Sigma be the actual uniform-volume covariance. The supplied finite-height theorem bounds the adjacent eigenvalue ratios of H = Sigma^(1/2) M Sigma^(1/2) by
 
     p0 = 7024915/1000000,  q0 = 6832329/1000000,
 
-both strictly smaller than kappa = 281/40. The polar tree uses M^(-1) at the same origin. fileciteturn0file2L36-L53
+both strictly smaller than kappa = 281/40. The polar tree uses M^(-1) at the same origin.
 
 This step does not require rejecting harmless or physical weak zeros. At every vertex other than the unique strict U, some true-edge derivative is nonnegative. A nonnegative arrow strictly increases squared M-norm, so choosing one per nonroot yields a rooted tree. Apply the identical reasoning to the actual same-origin polar and its unique strict U, which is the primal strict S. Thus the finite-height tree hypotheses hold even in the presence of additional weak rests.
 
@@ -77,7 +77,7 @@ The supplied actual covariance sandwich then implies, for the physical body cent
 
     (1/6) Ball is contained in P-g, and P-g is contained in (18/5) Ball.       (1)
 
-Indeed 8000/275403 > 1/36 and 1184415/91801 < 324/25. The covariance sandwich concerns actual volume, not vertex averages. fileciteturn0file3L9-L20
+Indeed 8000/275403 > 1/36 and 1184415/91801 < 324/25. The covariance sandwich concerns actual volume, not vertex averages.
 
 The proof below in fact works for every M whose two covariance-weighted adjacent ratios are at most 281/40. It is this closed metric cone, containing all joint candidates, that is excluded. The unrestricted all-U1 cone is not constrained this way.
 
@@ -117,7 +117,7 @@ The actual six-volume is
 
     D = lambda + 2 A s^2,    A = (31-24xp-24rq)/64 >= 7/64,
 
-whereas Q has six-volume D0 = 2 A s^2. Thus the actual added volume P minus Q is lambda/6 before the common physical linear map. These are the literal actual moment formulas, independently checked in the source. fileciteturn0file1L65-L81
+whereas Q has six-volume D0 = 2 A s^2. Thus the actual added volume P minus Q is lambda/6 before the common physical linear map. These are the literal actual moment formulas, independently checked in the source.
 
 At g = 0 let c_add be the centroid of the actual added region. The exact balance is
 
@@ -349,7 +349,7 @@ Expected output pin:
 
 Expected stdout, including final LF: 233 bytes, SHA-256 7db0a5afd54cfdc6f5ac469253dda794322ac3c2bebe9f92c6665e470c433def. Its final marker is H5_APEX_CLUSTER_JOINT_EXCLUSION_V1_PASS; the two census lines are COVARIANCE_ISOTROPIC (7, 8, 13) WEAK 0 ZEROS 0 and BASE_NOT_STABLE (2, 2, 2) WEAK 0 ZEROS 0.
 
-Convenience copies supplement, but are not required by, the complete source below: [source](sandbox:/mnt/data/h5_apex_cluster_joint.py) and [exact report](sandbox:/mnt/data/h5_apex_cluster_joint_report.json).
+Convenience copies supplement, but are not required by, the complete source below: source (`h5_apex_cluster_joint.py`) and exact report (`h5_apex_cluster_joint_report.json`).
 
 ```python
 #!/usr/bin/env python3

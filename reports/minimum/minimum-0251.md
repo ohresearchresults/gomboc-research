@@ -10,7 +10,7 @@ AI research report · 2026-09-26 UTC · [Export notes](../../catalog/coverage.md
 
 **The joint tangential-metric/shear problem admits a complete five-arrow reduction, and five is sharp on the literal actual-centroid H5 family.** The new reduction is over every SPD metric simultaneously, not a collection of fixed-G or fixed-shear controls. I also eliminated the tangential metric from the parent's normal-boundary formulation: for each fixed rational H5 shape, the complete U1 question becomes an explicit Boolean feasibility problem in the two unrestricted shear coordinates, using polynomial signs of degree at most four. Weak same-layer exits are retained.
 
-An exact minimal five-arrow obstruction, with five rational SPD proper-subpacket witnesses and their full actual-inverse physical censuses, establishes sharpness. The geometry is the coordinator's existing shape A; the joint obstruction and the five physical metrics are new calculations. No genuine U1 or proper110 body was found. The quartic reduction was compiled and checked, but a global shear-plane CAD was **not** executed. Whole-H5 exclusion and the accepted bounds **34 <= C_min <= 622** remain unchanged. The inherited frontier is below lambda=3/5 outside the named macro/reflection and tubes. fileciteturn0file2L910-L919
+An exact minimal five-arrow obstruction, with five rational SPD proper-subpacket witnesses and their full actual-inverse physical censuses, establishes sharpness. The geometry is the coordinator's existing shape A; the joint obstruction and the five physical metrics are new calculations. No genuine U1 or proper110 body was found. The quartic reduction was compiled and checked, but a global shear-plane CAD was **not** executed. Whole-H5 exclusion and the accepted bounds **34 <= C_min <= 622** remain unchanged. The inherited frontier is below lambda=3/5 outside the named macro/reflection and tubes.
 
 ## Input authority and completeness
 
@@ -27,7 +27,7 @@ research-journal(20260926-192018).md
 
 Parent identity: `minimum-0250`, SHA-256 `2cf87f1bc07e373e4dd87a52a48d1a91b98eb48ba17601cf28e76afe3e39c233`. I reproduced this digest exactly: take the journal's Markdown substring beginning at the parent's title through EOF, append one LF, and serialize `{'version':2,'result_markdown':text}` using `json.dumps({'version':2,'result_markdown':text},ensure_ascii=False,separators=(',',':'))`. The resulting envelope has 43879 bytes. Its three extracted source units also matched their advertised byte counts and hashes. There is no unresolved identity conflict or missing dependency for this handoff. Historical atlases were accepted as supplied research results, not independently replayed.
 
-The parent already eliminates eta. I do not count that observation as new. The additions here are the **joint convex projection**, its sharp five-arrow alternative, and the explicit all-G quartic sign reduction. The literal geometry is seven basal vertices and three upper vertices; the nine maximal facet cycles and seventeen genuine edges are preserved in the complete source below. fileciteturn0file2L1044-L1076 fileciteturn0file2L1321-L1340
+The parent already eliminates eta. I do not count that observation as new. The additions here are the **joint convex projection**, its sharp five-arrow alternative, and the explicit all-G quartic sign reduction. The literal geometry is seven basal vertices and three upper vertices; the nine maximal facet cycles and seventeen genuine edges are preserved in the complete source below.
 
 ## 1. Complete joint convex cone and the sharp five-arrow theorem
 
@@ -83,7 +83,7 @@ With `tr G=1`, the variables `(G,b)` have dimension four. Each same-layer condit
 [[G,b],[b^T,L_e(G,b)]] > 0,
 ```
 
-so it too is convex. Finite Helly in dimension four therefore gives the following theorem; no boundedness, conditioning hypothesis, or closure of the individual sets is required. The classical finite convex-set theorem used at this step is stated in the introduction of Frankl–Jung–Tomon's primary research paper. citeturn266368view0
+so it too is convex. Finite Helly in dimension four therefore gives the following theorem; no boundedness, conditioning hypothesis, or closure of the individual sets is required. The classical finite convex-set theorem used at this step is stated in the introduction of Frankl–Jung–Tomon's primary research paper.
 
 **Five-arrow theorem.** For a fixed two-layer geometry and interior reference, a finite packet of original weak arrows is SPD-feasible if and only if every subpacket of at most five arrows is SPD-feasible.
 
@@ -134,7 +134,7 @@ d L_e-Q>0                        for selected cross arrows.        (3)
 
 At fixed rational shape, the same-layer polynomials are affine and the cross polynomials have degree at most three. The apparent nonlinear inequalities define convex sets by the displayed LMI.
 
-There is also a conditioning-free bounded-entry enclosure for every complete H5 U1 cone. The supplied cap identity bounds `m=Mzz` by `max_cross(r_i^T G r_i+d_e^T G d_e)`. fileciteturn0file0L31-L41 Here the raw horizontal vertices and their actual centroid lie in the unit triangle, `|h_i-gamma|>1/4`, and a basal-to-top displacement has squared Euclidean length at most `(1-lambda)^2+lambda^2<1`. Therefore
+There is also a conditioning-free bounded-entry enclosure for every complete H5 U1 cone. The supplied cap identity bounds `m=Mzz` by `max_cross(r_i^T G r_i+d_e^T G d_e)`. Here the raw horizontal vertices and their actual centroid lie in the unit triangle, `|h_i-gamma|>1/4`, and a basal-to-top displacement has squared Euclidean length at most `(1-lambda)^2+lambda^2<1`. Therefore
 
 ```text
 0 < Mzz < 33,     ||b||^2 < 33,     tr G=1.               (4)
@@ -150,7 +150,7 @@ Use the coordinator's shape A, which is below lambda=3/5 and outside the named m
 theta=(x,r,p,q,lambda)=(13/20,3/4,4/5,1/10,3/10).
 ```
 
-The pre-existing source used this shape only for a fixed-G shear control. fileciteturn0file0L59-L63 Its literal rational vertices are
+The pre-existing source used this shape only for a fixed-G shear control. Its literal rational vertices are
 
 ```text
 0 (7/40,0,0)          1 (287/800,0,0)
@@ -781,4 +781,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Convenience copy: [complete sources, compiled model, exact reports, and this handoff](sandbox:/mnt/data/h5_joint_capsule.zip). The inline sources above are the durable recovery capsule; this link is not a dependency.
+Convenience copy: complete sources, compiled model, exact reports, and this handoff (`h5_joint_capsule.zip`). The inline sources above are the durable recovery capsule; this link is not a dependency.

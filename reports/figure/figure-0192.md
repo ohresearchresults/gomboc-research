@@ -8,7 +8,7 @@ AI research report · 2026-09-02 UTC
 
 ## Literal disposition
 
-**EXACT NONWINNER.** The run’s acceptance gate remains a finite uniform-density convex polyhedron at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete maximal-face/vertex/true-edge mechanics, positive margins, independent verification, and matching OBJ/STL. :contentReference[oaicite:0]{index=0} The supplied journal records XG3 as an exact `(V,E,F)=(14,21,9)`, `(2,2,2)` three-page book and names a fourth-page/higher-valence `L` cell as the first admissible successor. :contentReference[oaicite:1]{index=1}
+**EXACT NONWINNER.** The run’s acceptance gate remains a finite uniform-density convex polyhedron at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete maximal-face/vertex/true-edge mechanics, positive margins, independent verification, and matching OBJ/STL. The supplied journal records XG3 as an exact `(V,E,F)=(14,21,9)`, `(2,2,2)` three-page book and names a fourth-page/higher-valence `L` cell as the first admissible successor.
 
 I constructed and exactified that successor. It has an entrance four-page polar book on one new row `L`, followed by a genuine higher-valence terminal contraction in which `K` becomes inactive. This changes the XG3 incidences and destroys the old `K` support-norm sink, the old extra source `(SU,S102,K)`, and both `K` saddle edges. It does **not** cancel the Euler-neutral packet: before the terminal wall, all four unwanted mechanical identities transfer to `L`.
 
@@ -86,7 +86,7 @@ Lt = (3048242568040493/8796093022208,
 L(3/2) ≈ (474.24319469645553,-85.35837295341275,19.79870270851295).
 ```
 
-Endpoint active rows are exactly `T27,TR,SU,SC1,SA5,S102,G,L`. Inactive are all 27 `old_*` rows plus `S9,SC0,SS,H,K`. Every one of the 40 exact raw rows and all 40 normalized own-centred rows `H_i=B_i/(1-B_i·c)` is completely expanded in [P9_XG4_COMPLETE_TABLES.md](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/P9_XG4_COMPLETE_TABLES.md), [p9_xg4_source_rows.csv](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_source_rows.csv), and [p9_xg4_H_all.csv](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_H_all.csv). The eight active normalized-row locators are
+Endpoint active rows are exactly `T27,TR,SU,SC1,SA5,S102,G,L`. Inactive are all 27 `old_*` rows plus `S9,SC0,SS,H,K`. Every one of the 40 exact raw rows and all 40 normalized own-centred rows `H_i=B_i/(1-B_i·c)` is completely expanded in P9_XG4_COMPLETE_TABLES.md, p9_xg4_source_rows.csv, and p9_xg4_H_all.csv. The eight active normalized-row locators are
 
 ```text
 T27  (-80.45370632806817, 12.00358100481321, -1.428479477402775)
@@ -101,7 +101,7 @@ L    ( 91.17177414426821,-16.40988081065009,  3.806238807170268)
 
 ## Exact centring, boundedness, and irredundancy
 
-The exact raw volume is the positive rational stored in `endpoint.volume` of [p9_xg4_exact.json](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_exact.json), with decimal locator `0.0016858357536371645`. The exact ordinary-volume centroid is the rational triple stored in `endpoint.centroid`, with locator
+The exact raw volume is the positive rational stored in `endpoint.volume` of p9_xg4_exact.json, with decimal locator `0.0016858357536371645`. The exact ordinary-volume centroid is the rational triple stored in `endpoint.centroid`, with locator
 
 `c=(-0.004012591915208559,0.017183803062927334,-0.042018865598700356)`.
 
@@ -142,7 +142,7 @@ True edges:
 (4,9) (5,6) (5,10) (6,11) (7,8) (7,9) (8,11) (9,10) (10,11)
 ```
 
-Exact coordinates, radii, supporting sets, and all incidence slacks are in [p9_xg4_vertices.csv](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_vertices.csv) and [p9_xg4_incidence.json](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_incidence.json).
+Exact coordinates, radii, supporting sets, and all incidence slacks are in p9_xg4_vertices.csv and p9_xg4_incidence.json.
 
 ## Exact four-page entrance and shared-terminal topology
 
@@ -175,7 +175,7 @@ P_GA5∩P_AL   = conv(0,K,SA5)
 opposite page pairs intersect exactly in [0,K].
 ```
 
-Thus all pages share the same interior radial feature `[0,K]`. The three entrance circuit gradients with respect to `L` have exact nonzero determinant, so entrance shape rank is three; two explicit relative controls independently change page timing/diagonal choice. Together with the three dependent moment controls, the local block has rank six. Full exact volumes, separators, and controls are in [p9_xg4_entrance_topology.json](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_entrance_topology.json) and [p9_xg4_control_rank_exact.json](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_control_rank_exact.json).
+Thus all pages share the same interior radial feature `[0,K]`. The three entrance circuit gradients with respect to `L` have exact nonzero determinant, so entrance shape rank is three; two explicit relative controls independently change page timing/diagonal choice. Together with the three dependent moment controls, the local block has rank six. Full exact volumes, separators, and controls are in p9_xg4_entrance_topology.json and p9_xg4_control_rank_exact.json.
 
 At `s=1`, exactly `K=(2/3)G+(1/3)L`. The positive terminal cells
 
@@ -184,7 +184,7 @@ C_A5  = conv(0,SA5,G,L)
 C_102 = conv(0,S102,G,L)
 ```
 
-are each pre-triangulated through `K`; exact subvolume sums equal the unsplit tetrahedral volumes. An exact separator places `SA5` and `S102` on opposite sides, proving `C_A5∩C_102=conv(0,G,L)` and disjoint relative interiors. Both share `[0,L]`. The event removes `(G,K,S102),(G,K,SA5),(K,L,S102),(K,L,SA5)`, adds `(G,L,S102),(G,L,SA5)`, and deactivates `K` in one actual higher-valence incidence event. See [p9_xg4_terminal_topology.json](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_terminal_topology.json).
+are each pre-triangulated through `K`; exact subvolume sums equal the unsplit tetrahedral volumes. An exact separator places `SA5` and `S102` on opposite sides, proving `C_A5∩C_102=conv(0,G,L)` and disjoint relative interiors. Both share `[0,L]`. The event removes `(G,K,S102),(G,K,SA5),(K,L,S102),(K,L,SA5)`, adds `(G,L,S102),(G,L,SA5)`, and deactivates `K` in one actual higher-valence incidence event. See p9_xg4_terminal_topology.json.
 
 An exact one-row concurrency theorem explains why this is not the desired single cancellation wall: the intersection line of the two entrance page planes differs from the terminal `G-K` line, and `L0,G,K` are not collinear. With surrounding rows fixed, one nondegenerate `L` cannot simultaneously enter through the page wall and contract `K`. A second shape row or old-plane motion is required.
 
@@ -203,7 +203,7 @@ M5 U-H birth, S102    0.37526883061029082
 M6 U-H death, S102    0.37875829906852659
 ```
 
-Exact primitive polynomials, rational isolators, denominator certificates, and Bernstein root-free side covers are in [p9_xg4_event_polynomials.json](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_event_polynomials.json).
+Exact primitive polynomials, rational isolators, denominator certificates, and Bernstein root-free side covers are in p9_xg4_event_polynomials.json.
 
 Every open cell was rebuilt from all 40 rows at its own recomputed exact centroid:
 
@@ -221,7 +221,7 @@ Every open cell was rebuilt from all 40 rows at its own recomputed exact centroi
 | post terminal | 5/4 | 12/18/8 | 2/2/2 | T27,L |
 | endpoint | 3/2 | 12/18/8 | 2/2/2 | T27,L |
 
-The 17 MB certificate [p9_xg4_path_cell_audits.json](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_path_cell_audits.json) contains, for every cell, every supplied-row face-foot decision, every vertex cone, and all four components of every true-edge cone. The clean-room verifier reconstructs and compares every entry.
+The 17 MB certificate p9_xg4_path_cell_audits.json contains, for every cell, every supplied-row face-foot decision, every vertex cone, and all four components of every true-edge cone. The clean-room verifier reconstructs and compares every entry.
 
 ## Endpoint equilibrium audit
 
@@ -241,7 +241,7 @@ edge (9,10), faces (L,SA5):
   ≈ (0.2135466099,0.7864533901,0.0004748481272,0.005324000805)
 ```
 
-All other 16 true edges have at least one strict negative component; the closest nonsaddle exclusion is `-0.0002107403193`. Every exact face, vertex, and four-component edge decision is expanded in [P9_XG4_COMPLETE_TABLES.md](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/P9_XG4_COMPLETE_TABLES.md) and [p9_xg4_edges.csv](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_edges.csv).
+All other 16 true edges have at least one strict negative component; the closest nonsaddle exclusion is `-0.0002107403193`. Every exact face, vertex, and four-component edge decision is expanded in P9_XG4_COMPLETE_TABLES.md and p9_xg4_edges.csv.
 
 ## How the old DAG obstructions are overcome—and recreated
 
@@ -254,7 +254,7 @@ The endpoint face-witness DAG has sinks exactly `T27,L`; the endpoint radius DAG
 r²(v8)-r²(v6)        ≈ 0.060792253964604685 > 0.
 ```
 
-Exact rational-function and Bernstein certificates keep both gaps positive throughout `s∈[1,3/2]`. Thus `L` cannot drain to `T27`, and `v8` cannot drain to `v6`, without another incidence change or a macroscopic reversal. Full DAGs and persistence proofs are in [p9_xg4_witness_obstruction_exact.json](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_witness_obstruction_exact.json).
+Exact rational-function and Bernstein certificates keep both gaps positive throughout `s∈[1,3/2]`. Thus `L` cannot drain to `T27`, and `v8` cannot drain to `v6`, without another incidence change or a macroscopic reversal. Full DAGs and persistence proofs are in p9_xg4_witness_obstruction_exact.json.
 
 ## Positive perturbation box
 
@@ -269,7 +269,7 @@ positive mechanical primitive      0.0004748481272462103
 negative exclusion clearance       0.00021074031928519367
 ```
 
-Certificate: [p9_xg4_perturbation_interval.json](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_perturbation_interval.json).
+Certificate: p9_xg4_perturbation_interval.json.
 
 ## Independent replay and meshes
 
@@ -287,14 +287,14 @@ The smallest nonrepeating successor requires **at least two independent new shap
 
 ## Reusable artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Steady_Willow_02_P9_XG4_exact_NONWINNER.zip)
-- [Full handoff](sandbox:/mnt/data/STEADY_WILLOW_02_P9_XG4_HANDOFF.md)
-- [Verification receipt](sandbox:/mnt/data/STEADY_WILLOW_02_P9_XG4_VERIFICATION_RECEIPT.txt)
-- [ZIP checksum](sandbox:/mnt/data/STEADY_WILLOW_02_P9_XG4_ZIP_SHA256.txt)
-- [Authoritative exact JSON](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_exact.json)
-- [Complete exact H/V/E and mechanics tables](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/P9_XG4_COMPLETE_TABLES.md)
-- [Entrance topology certificate](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_entrance_topology.json)
-- [Terminal topology certificate](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_terminal_topology.json)
-- [Every wall-side audit](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4_path_cell_audits.json)
-- [Independent verifier](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/verify_p9_xg4_cleanroom.py)
-- [OBJ](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4.obj) and [STL](sandbox:/mnt/data/p9_xg4_work/p9_xg4_exact/p9_xg4.stl)
+- Complete exact archive (`Steady_Willow_02_P9_XG4_exact_NONWINNER.zip`)
+- Full handoff (`STEADY_WILLOW_02_P9_XG4_HANDOFF.md`)
+- Verification receipt (`STEADY_WILLOW_02_P9_XG4_VERIFICATION_RECEIPT.txt`)
+- ZIP checksum (`STEADY_WILLOW_02_P9_XG4_ZIP_SHA256.txt`)
+- Authoritative exact JSON (`p9_xg4_exact.json`)
+- Complete exact H/V/E and mechanics tables (`P9_XG4_COMPLETE_TABLES.md`)
+- Entrance topology certificate (`p9_xg4_entrance_topology.json`)
+- Terminal topology certificate (`p9_xg4_terminal_topology.json`)
+- Every wall-side audit (`p9_xg4_path_cell_audits.json`)
+- Independent verifier (`verify_p9_xg4_cleanroom.py`)
+- OBJ (`p9_xg4.obj`) and STL (`p9_xg4.stl`)

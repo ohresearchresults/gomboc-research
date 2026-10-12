@@ -6,9 +6,9 @@ AI research report · 2026-08-25 UTC
 
 # Outcome
 
-No finite homogeneous polyhedral Gömböc was found in this direction. I did, however, move the ψ-ring branch from an unmaterialized construction idea to two **fully expanded exact rational polyhedra** with rebuilt incidence, exact own-centroid integration, exhaustive maximal-face/vertex/true-edge normal-cone audits, two independent exact verifiers, and matching OBJ/STL exports. This respects the run’s acceptance boundary: no auxiliary-center mechanics, no tolerance-merged incidence, and no facetwise substitute for mixed normal-cone tests. :contentReference[oaicite:0]{index=0} The construction starts exactly from the journal’s analytically centered original Sloan body and its explicit untwisted coordinate `ψ=t`. :contentReference[oaicite:1]{index=1}
+No finite homogeneous polyhedral Gömböc was found in this direction. I did, however, move the ψ-ring branch from an unmaterialized construction idea to two **fully expanded exact rational polyhedra** with rebuilt incidence, exact own-centroid integration, exhaustive maximal-face/vertex/true-edge normal-cone audits, two independent exact verifiers, and matching OBJ/STL exports. This respects the run’s acceptance boundary: no auxiliary-center mechanics, no tolerance-merged incidence, and no facetwise substitute for mixed normal-cone tests. The construction starts exactly from the journal’s analytically centered original Sloan body and its explicit untwisted coordinate `ψ=t`.
 
-**Complete reproducible archive:** [sloan_psi_ring_handoff.zip](sandbox:/mnt/data/sloan_psi_ring_handoff.zip)  
+**Complete reproducible archive:** sloan_psi_ring_handoff.zip  
 **SHA-256:** `884c84ffd873dcdabe449fb2c23e8238c88fef882e69a7f607f3c863cb668aa8`
 
 The archive contains exact source generators, centered V and H tables, maximal-face cycles, true-edge incidence, every individual feature audit, exact volume/centroid certificates, OBJ/STL, a hash manifest, and verifier transcripts. The two exact verifiers pass from clean reconstruction:
@@ -39,7 +39,7 @@ A significant exactification failure was also resolved. Quantizing the *final* f
 
 # Strongest mechanically concentrated reframe: `trimmed_psi8`
 
-Files: [certificate](sandbox:/mnt/data/sloan_psi_ring_handoff/trimmed_psi8/certificate.json), [exact vertices](sandbox:/mnt/data/sloan_psi_ring_handoff/trimmed_psi8/vertices_exact.csv), [exact halfspaces](sandbox:/mnt/data/sloan_psi_ring_handoff/trimmed_psi8/halfspaces_exact.csv), [maximal faces](sandbox:/mnt/data/sloan_psi_ring_handoff/trimmed_psi8/maximal_faces.json), [true edges](sandbox:/mnt/data/sloan_psi_ring_handoff/trimmed_psi8/true_edges.csv), [OBJ](sandbox:/mnt/data/sloan_psi_ring_handoff/trimmed_psi8/polyhedron.obj), [STL](sandbox:/mnt/data/sloan_psi_ring_handoff/trimmed_psi8/polyhedron.stl).
+Files: certificate (`certificate.json`), exact vertices (`vertices_exact.csv`), exact halfspaces (`halfspaces_exact.csv`), maximal faces (`maximal_faces.json`), true edges (`true_edges.csv`), OBJ (`polyhedron.obj`), STL (`polyhedron.stl`).
 
 ## Exact construction
 
@@ -74,7 +74,7 @@ Every other feature has an explicit strict separator witness. The closest non-eq
 - vertex: **`-0.220336695747353`**;
 - edge/full normal cone: **`-0.0550569847146886`**.
 
-Thus this is not wall dust. Its defect is one coherent central block plus one second saddle: the two stable faces share the saddle edge `[1,6]`, and both endpoints of that edge are unstable. The other saddle `[4,5]` lies in the adjacent lower/side strip. The exact mixed-cone audit is essential here; the journal already showed why incident-facet residuals cannot certify an edge. :contentReference[oaicite:2]{index=2}
+Thus this is not wall dust. Its defect is one coherent central block plus one second saddle: the two stable faces share the saddle edge `[1,6]`, and both endpoints of that edge are unstable. The other saddle `[4,5]` lies in the adjacent lower/side strip. The exact mixed-cone audit is essential here; the journal already showed why incident-facet residuals cannot certify an edge.
 
 ## Smallest modification not excluded
 
@@ -89,7 +89,7 @@ This would most naturally search 9–10 vertices and still remain far below comp
 
 # Faithful requested architecture: `faithful_psi29`
 
-Files: [certificate](sandbox:/mnt/data/sloan_psi_ring_handoff/faithful_psi29/certificate.json), [fully expanded ring generator](sandbox:/mnt/data/sloan_psi_ring_handoff/faithful_psi29/source_generator.py), [exact vertices](sandbox:/mnt/data/sloan_psi_ring_handoff/faithful_psi29/vertices_exact.csv), [exact halfspaces](sandbox:/mnt/data/sloan_psi_ring_handoff/faithful_psi29/halfspaces_exact.csv), [maximal faces](sandbox:/mnt/data/sloan_psi_ring_handoff/faithful_psi29/maximal_faces.json), [true edges](sandbox:/mnt/data/sloan_psi_ring_handoff/faithful_psi29/true_edges.csv), [OBJ](sandbox:/mnt/data/sloan_psi_ring_handoff/faithful_psi29/polyhedron.obj), [STL](sandbox:/mnt/data/sloan_psi_ring_handoff/faithful_psi29/polyhedron.stl).
+Files: certificate (`certificate.json`), fully expanded ring generator (`source_generator.py`), exact vertices (`vertices_exact.csv`), exact halfspaces (`halfspaces_exact.csv`), maximal faces (`maximal_faces.json`), true edges (`true_edges.csv`), OBJ (`polyhedron.obj`), STL (`polyhedron.stl`).
 
 ## Exact generator
 
@@ -144,7 +144,7 @@ Two independent exact paths are included:
 1. `verify_rebuild.py`: starts from each exact source generator, enumerates every supporting plane from V triples, reconstructs actual maximal faces and true edges, integrates the exact uniform centroid, and audits all complete feature predicates.
 2. `verify_independent.py`: starts from the published centered H/V tables, enumerates all feasible H-triple intersections, reconstructs the vertex set and incidence independently, integrates the exact first moments, and reclassifies every face, vertex, and complete two-normal edge cone.
 
-Both pass; their transcripts are [here](sandbox:/mnt/data/sloan_psi_ring_handoff/verify_rebuild.log) and [here](sandbox:/mnt/data/sloan_psi_ring_handoff/verify_independent.log). No tolerance is used to decide incidence or equilibrium signs. Decimal OBJ/STL files are generated from the exact centered V tables and the certified maximal-face cycles; `SHA256SUMS.txt` binds every artifact.
+Both pass; their transcripts are here (`verify_rebuild.log`) and here (`verify_independent.log`). No tolerance is used to decide incidence or equilibrium signs. Decimal OBJ/STL files are generated from the exact centered V tables and the certified maximal-face cycles; `SHA256SUMS.txt` binds every artifact.
 
 A formal coordinate perturbation radius is intentionally **not claimed**, because neither body is a successful `(1,1,0)` witness. The exact strict margins do establish that the reported fallback classes are open, but the deliverable does not convert that fact into an all-coordinate box certificate.
 

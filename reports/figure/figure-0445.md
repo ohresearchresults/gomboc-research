@@ -209,7 +209,7 @@ NW37_PRUNE94_G6_EXACT.json
 
 The capsule's raw dictionary is 112857 bytes, SHA-256 `5c096b6eaa82aa1565e26b265682e2b3e5bb142668be4929093e58076c2e43d7`; its XZ payload is 36072 bytes, SHA-256 `3a6004ddadf9002822378e141e676b75bc0ef1a1c61512acbd7238a99798de2a`. The base64 text has 48096 non-whitespace characters. The decoder's observed final marker is `NW37_RECOVERY_SOURCE_SHA_PASS 22 5c096b6eaa82aa1565e26b265682e2b3e5bb142668be4929093e58076c2e43d7`.
 
-A convenience archive containing the same sources and all generated exact reports is [NW37_FINITE_INTERFACE_HANDOFF.zip](sandbox:/mnt/data/NW37_FINITE_INTERFACE_HANDOFF.zip), 973062 bytes, SHA-256 `a461d5c6de38584e64b9b7d7a55202f9caa2fff639ba3ee4c11d20f02f36dc28`. It supplements, rather than replaces, the following complete inline recovery data.
+A convenience archive containing the same sources and all generated exact reports is NW37_FINITE_INTERFACE_HANDOFF.zip, 973062 bytes, SHA-256 `a461d5c6de38584e64b9b7d7a55202f9caa2fff639ba3ee4c11d20f02f36dc28`. It supplements, rather than replaces, the following complete inline recovery data.
 
 ```python
 """Decode the complete NW37 source capsule; no external input is required."""

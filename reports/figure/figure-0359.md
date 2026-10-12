@@ -200,11 +200,11 @@ OPENBLAS_NUM_THREADS=1 python BQ13_C628/CONTINUE_BLOWUP.py --out blowup_readback
 
 Output directories must initially be absent. The last command validates/materializes the numerical checkpoint; `--steps N` explores further without automatic exact promotion.
 
-[Complete verified bundle](sandbox:/mnt/data/BQ13_C628_VERIFIED_FULL.zip): **7,244,356 bytes**,63 files, SHA **f06583f8408578cc7397264d957794d5e02aa2b625bf386d8c665806de52fab6**.
+Complete verified bundle (`BQ13_C628_VERIFIED_FULL.zip`): **7,244,356 bytes**,63 files, SHA **f06583f8408578cc7397264d957794d5e02aa2b625bf386d8c665806de52fab6**.
 
-[Source-only archive](sandbox:/mnt/data/BQ13_C628_SOURCE_ONLY.zip): **64,401 bytes**,27 files, SHA **a603423bbffb787a078cdc24498f247fe7209852b8b7568317e12d8c567c7019**.
+Source-only archive (`BQ13_C628_SOURCE_ONLY.zip`): **64,401 bytes**,27 files, SHA **a603423bbffb787a078cdc24498f247fe7209852b8b7568317e12d8c567c7019**.
 
-[Detailed Markdown handoff](sandbox:/mnt/data/BQ13_C628_RESULT.md) and [complete v2 JSON handoff](sandbox:/mnt/data/BQ13_C628_RESULT_v2.json) supplement this response. Both ZIP manifests were read back and verified. The full bundle includes exact raw/centred coordinates, all true edges/maximal faces, full moment fractions, observed receipts and a separately labelled display-only OBJ. Every centred coordinate export underwent exact integer readback.
+Detailed Markdown handoff (`BQ13_C628_RESULT.md`) and complete v2 JSON handoff (`BQ13_C628_RESULT_v2.json`) supplement this response. Both ZIP manifests were read back and verified. The full bundle includes exact raw/centred coordinates, all true edges/maximal faces, full moment fractions, observed receipts and a separately labelled display-only OBJ. Every centred coordinate export underwent exact integer readback.
 
 ## 10. Entire literal source capsule
 

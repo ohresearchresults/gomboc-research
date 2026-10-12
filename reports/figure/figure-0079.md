@@ -10,9 +10,9 @@ AI research report · 2026-08-26 UTC
 
 **No homogeneous convex polyhedral Gömböc was found.** The strongest realized endpoint is an exact, uniform-density, own-centroid, open `(S,U,H)=(2,1,1)` body. It has one residual stable–saddle pair and is not a Gömböc.
 
-The acceptance gate is a finite materialized body at its own uniform-volume centroid with strict `(1,1,0)`, complete incidence and all-feature witnesses, exact/directed verification, and OBJ/STL; near-wall or auxiliary-center objects do not qualify. :contentReference[oaicite:0]{index=0}
+The acceptance gate is a finite materialized body at its own uniform-volume centroid with strict `(1,1,0)`, complete incidence and all-feature witnesses, exact/directed verification, and OBJ/STL; near-wall or auxiliary-center objects do not qualify.
 
-The supplied journal records the requested seed as exact `(V,E,F,C)=(16,42,28,84)`, centroid zero, class `(2,3,3)`, with defect strip `F11→F05→F04→F00`, extra `V0,V7`, and saddles `(0,1),(0,7),(1,7)`. :contentReference[oaicite:1]{index=1} Its literal coordinate artifact was not present in the attachment, so I do not claim direct coordinate surgery on it. The assignment allowed abandoning it for a better small topology; the continued exact Santaló/projective topology begins at one pair `(2,1,1)` and hard-wires the own centroid.
+The supplied journal records the requested seed as exact `(V,E,F,C)=(16,42,28,84)`, centroid zero, class `(2,3,3)`, with defect strip `F11→F05→F04→F00`, extra `V0,V7`, and saddles `(0,1),(0,7),(1,7)`. Its literal coordinate artifact was not present in the attachment, so I do not claim direct coordinate surgery on it. The assignment allowed abandoning it for a better small topology; the continued exact Santaló/projective topology begins at one pair `(2,1,1)` and hard-wires the own centroid.
 
 ## Strongest exact body: `postwall22`
 
@@ -92,7 +92,7 @@ Stars mark equilibria. Thus stable faces are exactly `F10:+1.23111339577e-5` and
 
 For every coordinate in the `2^-38` box, the realized f-vectors remain `P:(40,60,22)`, `Q:(22,60,40)`, and class remains `(2,1,1)`. This is an open strict fallback, not a wall point.
 
-Artifacts: [source](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/postwall22_source_hex.json), [generator](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/generate_postwall22.py), [independent Fraction verifier](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/verify_postwall22.py), [directed verifier](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/verify_interval_postwall22_decimal.py), [exact record](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/postwall22_exact.json), [face audit](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/face_audit.csv), [vertex audit](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/vertex_audit.csv), [edge audit](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/edge_audit.csv), [P OBJ](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/postwall22_P.obj), [P STL](sandbox:/mnt/data/wholeblock_continuation_v2/postwall22/postwall22_P.stl).
+Artifacts: source (`postwall22_source_hex.json`), generator (`generate_postwall22.py`), independent Fraction verifier (`verify_postwall22.py`), directed verifier (`verify_interval_postwall22_decimal.py`), exact record (`postwall22_exact.json`), face audit (`face_audit.csv`), vertex audit (`vertex_audit.csv`), edge audit (`edge_audit.csv`), P OBJ (`postwall22_P.obj`), P STL (`postwall22_P.stl`).
 
 ## Actual crossed topologies
 
@@ -108,7 +108,7 @@ Every checkpoint below is rebuilt from exact dyadic binary64 values with a direc
 | `jax_refine1.json` | `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]` | `(40, 60, 22)/(22, 60, 40)` | `(3, 1, 2)` | `[10, 17, 21]` | `(19,21);(20,21)` | `True` | `2.8795231e-07` |
 | `jax_refine2.json` | `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]` | `(40, 60, 22)/(22, 60, 40)` | `(2, 1, 1)` | `[10, 17]` | `(19,21)` | `False` | `8.3507047e-08` |
 
-Certified sequence: `(3,1,2)` six times, then `(2,1,1)`. Several incidence signatures change; original row `24` is replaced by rows `20,21`. The final `jax_refine1→jax_refine2` step performs a real `S–H` cancellation inside the same final lattice. No checkpoint is `(1,1,0)`. Full realized incidence for every checkpoint: [directed_transition_ledger.json](sandbox:/mnt/data/wholeblock_continuation_v2/search/directed_transition_ledger.json). Replay: [rebuild_directed_transition_ledger.py](sandbox:/mnt/data/wholeblock_continuation_v2/search/rebuild_directed_transition_ledger.py).
+Certified sequence: `(3,1,2)` six times, then `(2,1,1)`. Several incidence signatures change; original row `24` is replaced by rows `20,21`. The final `jax_refine1→jax_refine2` step performs a real `S–H` cancellation inside the same final lattice. No checkpoint is `(1,1,0)`. Full realized incidence for every checkpoint: directed_transition_ledger.json. Replay: rebuild_directed_transition_ledger.py.
 
 ## Smallest surviving coupled obstruction
 
@@ -120,7 +120,7 @@ For a strict radial-dominance chain `q0,…,qm`, multiplication of `r_{i+1}cos(d
 - `postwall22_exact.json` row `10→17`: angle `179.777448552°`, minimum `13` edges; ratio at `m-1` `0.972511762907`, at `m` `1.00471991339`.
 - `postwall22_exact.json` row `1→17`: angle `179.780308071°`, minimum `13` edges; ratio at `m-1` `0.972503602205`, at `m` `1.00471255756`.
 
-Thus final rows `10→17` and `1→17` require at least thirteen edges. Also, Cauchy–Schwarz shows `1-a·b/||a||²` and `1-a·b/||b||²` cannot both be negative, so rows `1,10` can only transfer the source; a third row and a long two-dimensional strip are mandatory. Runnable proof: [radial_chain_obstruction.py](sandbox:/mnt/data/wholeblock_continuation_v2/radial_chain_obstruction.py).
+Thus final rows `10→17` and `1→17` require at least thirteen edges. Also, Cauchy–Schwarz shows `1-a·b/||a||²` and `1-a·b/||b||²` cannot both be negative, so rows `1,10` can only transfer the source; a third row and a long two-dimensional strip are mandatory. Runnable proof: radial_chain_obstruction.py.
 
 ## Search boundary
 
@@ -149,10 +149,10 @@ cd .. && python radial_chain_obstruction.py
 sha256sum -c SHA256SUMS.txt
 ```
 
-Archive: [wholeblock_continuation_v2.zip](sandbox:/mnt/data/wholeblock_continuation_v2.zip)  
+Archive: wholeblock_continuation_v2.zip  
 SHA-256: `d09886ddd9a00ef4698e79588b84f9b2910aa77fe43b208c55c6409869666228`  
-Guide: [README.md](sandbox:/mnt/data/wholeblock_continuation_v2/README.md)  
-Manifest: [SEARCH_MANIFEST.json](sandbox:/mnt/data/wholeblock_continuation_v2/SEARCH_MANIFEST.json)
+Guide: README.md  
+Manifest: SEARCH_MANIFEST.json
 
 ## Final determination
 

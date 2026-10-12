@@ -10,7 +10,7 @@ AI research report · 2026-08-30 UTC
 
 **NONWINNER.** No strict own-centroid `(S,U,H)=(1,1,0)` homogeneous convex polyhedron was obtained. The strongest materialized successor is an exact rational, uniformly dense, own-centred polyhedron with strict class **`(2,2,2)`**.
 
-The durable journal’s incoming endpoint was the exact two-nonsimplicial-cell `(90,250,162)` body, whose six-vertex radial-superlevel packet forced the present third-cell assignment. :contentReference[oaicite:0]{index=0} This turn genuinely crosses that frontier: it jointly removes the old residual core, the whole six-vertex superlevel terminal packet, both old paired-birth gates, and edges `(218,219)` and `(146,219)`. The former radial-order obstruction is solved—protected vertex `8` becomes the unique exact global farthest vertex—but the Euler-neutral block transfers to a new exact true-edge obstruction.
+The durable journal’s incoming endpoint was the exact two-nonsimplicial-cell `(90,250,162)` body, whose six-vertex radial-superlevel packet forced the present third-cell assignment. This turn genuinely crosses that frontier: it jointly removes the old residual core, the whole six-vertex superlevel terminal packet, both old paired-birth gates, and edges `(218,219)` and `(146,219)`. The former radial-order obstruction is solved—protected vertex `8` becomes the unique exact global farthest vertex—but the Euler-neutral block transfers to a new exact true-edge obstruction.
 
 ## Exact finite endpoint
 
@@ -279,8 +279,8 @@ STL                 e44c664d997f75f9195e9347b16fb05a064b06857c1821a0ab9d855a19b0
 transcript          276151387a4d0599e7048e35c6012ffcf985cdcc571c4fbcc2996bc5adeb432f
 ```
 
-[Complete self-contained handoff with all 134 rows, 166 face cycles, 256 true edges, exact V and H tables](sandbox:/mnt/data/m42_three_cell_exact/research_handoff.md)
+Complete self-contained handoff with all 134 rows, 166 face cycles, 256 true edges, exact V and H tables (`research_handoff.md`)
 
-[Deterministic exact archive](sandbox:/mnt/data/m42_three_cell_exact_handoff.zip) · [archive digest](sandbox:/mnt/data/m42_three_cell_exact_handoff.zip.sha256) · [per-file manifest](sandbox:/mnt/data/m42_three_cell_exact/SHA256SUMS.txt)
+Deterministic exact archive (`m42_three_cell_exact_handoff.zip`) · archive digest (`m42_three_cell_exact_handoff.zip.sha256`) · per-file manifest (`SHA256SUMS.txt`)
 
-[Generator](sandbox:/mnt/data/m42_three_cell_exact/generate_exact_endpoint.py) · [master certificate](sandbox:/mnt/data/m42_three_cell_exact/certificate.json) · [exact verifier](sandbox:/mnt/data/m42_three_cell_exact/verify_exact_cleanroom.py) · [interval verifier](sandbox:/mnt/data/m42_three_cell_exact/verify_interval.py) · [three-cell certificate](sandbox:/mnt/data/m42_three_cell_exact/three_cell_complex.json) · [first chamber atlas](sandbox:/mnt/data/m42_three_cell_exact/first_chamber_atlas.json) · [atlas verifier](sandbox:/mnt/data/m42_three_cell_exact/verify_first_chamber_atlas.py) · [route certificate](sandbox:/mnt/data/m42_three_cell_exact/route_bound_certificate.json) · [route verifier](sandbox:/mnt/data/m42_three_cell_exact/verify_route_bound.py) · [transcript](sandbox:/mnt/data/m42_three_cell_exact/RUN_ALL_VERIFIERS.txt) · [OBJ](sandbox:/mnt/data/m42_three_cell_exact/body.obj) · [STL](sandbox:/mnt/data/m42_three_cell_exact/body.stl)
+Generator (`generate_exact_endpoint.py`) · master certificate (`certificate.json`) · exact verifier (`verify_exact_cleanroom.py`) · interval verifier (`verify_interval.py`) · three-cell certificate (`three_cell_complex.json`) · first chamber atlas (`first_chamber_atlas.json`) · atlas verifier (`verify_first_chamber_atlas.py`) · route certificate (`route_bound_certificate.json`) · route verifier (`verify_route_bound.py`) · transcript (`RUN_ALL_VERIFIERS.txt`) · OBJ (`body.obj`) · STL (`body.stl`)

@@ -14,9 +14,9 @@ Branch `[internal-source-reference]`; executor Nimble Finch 93; transaction `211
 
 Subsequent exact own211 bodies retain E105 while reducing the remaining Q depth to .5994120407171956, or trade a slightly larger Q depth .6125097164688554 for a substantially larger certified U1 reference-centre neighbourhood. A genuine vertex-addition continuation reaches V45/E129/F86, own211, Q=.5505447402657211. A still smaller main Q in a later body comes with **twenty stable equilibria**, not cancellation. Those bodies and controls are retained separately below.
 
-The starting object is the supplied exact `J88_FULL_C_G8_MASS`: V46/E132/F88, own121/weak000, centroid exactly zero, P=.44727218265729163 and Q empty. Its literal C input and mass correction are in the event capsule. The earlier numerical-method note predates that exact freeze; it is not used to downgrade or replace the later exact input. fileciteturn0file5L4-L10 fileciteturn0file5L23-L26
+The starting object is the supplied exact `J88_FULL_C_G8_MASS`: V46/E132/F88, own121/weak000, centroid exactly zero, P=.44727218265729163 and Q empty. Its literal C input and mass correction are in the event capsule. The earlier numerical-method note predates that exact freeze; it is not used to downgrade or replace the later exact input.
 
-All eight supplied file byte counts and SHA-256 values matched their manifest. All supplied files were read in full. No required selected input was missing. The historical J85 raw input is not needed: the recovery below embeds the selected C coordinates and the exact target volume. None of these bodies is an alias for RA40, N40, the low-S C276 body, or the journal's C622 own110 reference construction. No replacement of that reference construction is claimed. fileciteturn0file7L351-L359
+All eight supplied file byte counts and SHA-256 values matched their manifest. All supplied files were read in full. No required selected input was missing. The historical J85 raw input is not needed: the recovery below embeds the selected C coordinates and the exact target volume. None of these bodies is an alias for RA40, N40, the low-S C276 body, or the journal's C622 own110 reference construction. No replacement of that reference construction is claimed.
 
 ## Exact endpoints
 
@@ -128,7 +128,7 @@ The subsequent38-addition experiment starts from exact EXPANDED and temporarily 
 
 ## Exact verification and two reusable results
 
-The first audit reuses the supplied J88 Fraction census core: actual supporting planes, homogeneous volume and centroid, global primal/polar root predicates, direct edge saddle/weak predicates and all positive bars. fileciteturn0file0L61-L100 The new second check uses direct projected-foot edge signs for facets and local true-edge guards for vertices. It also integrates over strictly positive tetrahedra based at the mean of all true vertices; its volume and centroid agree exactly with the signed-origin integration. These are distinct census/mass computations sharing the same certified hull and basic rational vector operations, not a claimed completely independent second hull engine. The additional direct-incidence zero diagnostics are000 for the nine primary entries.
+The first audit reuses the supplied J88 Fraction census core: actual supporting planes, homogeneous volume and centroid, global primal/polar root predicates, direct edge saddle/weak predicates and all positive bars. The new second check uses direct projected-foot edge signs for facets and local true-edge guards for vertices. It also integrates over strictly positive tetrahedra based at the mean of all true vertices; its volume and centroid agree exactly with the signed-origin integration. These are distinct census/mass computations sharing the same certified hull and basic rational vector operations, not a claimed completely independent second hull engine. The additional direct-incidence zero diagnostics are000 for the nine primary entries.
 
 The exact supporting-triple routine deliberately rejects nonsimplicial endpoints. Every claimed body passes its triangular-maximal-facet requirement. A future nonsimplicial nominee needs a genuine maximal-facet extension, not acceptance of a triangulation count.
 
@@ -177,7 +177,7 @@ python NF93_EXACT.py
 Expected terminal marker: `NF93_EXACT_RECOVERY_PASS_WHOLE_P_CANCELLED_NO_110`.
 The recovered canonical `NF93_MANIFEST.json` is10734 bytes, SHA-256 `db5511156163637eba2aace71283baa758eb98224c47305db74ad25919129e9d`; its78 entries cover the parent reconstruction, all24 new primary/control bodies, certificates and cut data. The program checks this exact manifest digest after checking geometry, mass, census, weak equilibria, Euler and all positive-bar counts. The manifest itself is an additional output file.
 
-The complete numerical unit uses CPython3.13.5, NumPy2.3.5, SciPy1.17.0 and PyTorch2.10.0+cpu, float64 and one Torch thread. Its historical floating bar cutoff is1e-14 and is nomination-only, never the exact acceptance criterion. fileciteturn0file6L29-L48 Run selected producing prefixes with:
+The complete numerical unit uses CPython3.13.5, NumPy2.3.5, SciPy1.17.0 and PyTorch2.10.0+cpu, float64 and one Torch thread. Its historical floating bar cutoff is1e-14 and is nomination-only, never the exact acceptance criterion. Run selected producing prefixes with:
 
 ```sh
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python NF93_NUMERICAL.py bridge
@@ -877,4 +877,4 @@ if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('stage',choices=['bridge','dual','crossover','descent','expanded','fragmented']);ap.add_argument('--exact-dir',default=str(Path(__file__).resolve().parent/'NF93_EXACT_OUTPUT'));a=ap.parse_args();recipe(a.stage,a.exact_dir)
 ```
 
-Readable copies and generated audit data are also available in [the recovery bundle](sandbox:/mnt/data/NF93_J88_RECOVERY.zip) and [the Markdown handoff](sandbox:/mnt/data/NF93_RESULT.md). These supplement the complete literal recovery units above.
+Readable copies and generated audit data are also available in the recovery bundle (`NF93_J88_RECOVERY.zip`) and the Markdown handoff (`NF93_RESULT.md`). These supplement the complete literal recovery units above.

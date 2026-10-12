@@ -18,13 +18,13 @@ Two further results are useful outside regularization. An independently movable 
 
 Two new exact noncentral bodies and two whole-interval arcs verify the mechanisms. Their four contact tensors have positive rank-three stress, but the physical source positions are not regular-tetrahedral up to similarity. An actual degree-four vertex Jacobian has positive determinant yet an indefinite symmetric part: treating it as SPD would be false. All 240 directed primitives are audited on 0<t≤1/65536, with true uniform centroids, actual hulls, and M=N=I.
 
-**General all4 remains open.** The remaining simple pure-B slice has F≤8 and no free facet. The uncovered simplicial pure-A slice has no available free degree≤4 or planar-cap actuator; arbitrary nonplanar degree≥5 vertex controllability is not proved. Mixed A/B and ≤2VF configurations outside earlier accepted sectors are not closed here. There is no new weak110 seed, attaining improvement, or registry subtraction. The accepted bracket remains **34≤C_min≤622**, and the first open layer remains 10/17/9. :contentReference[oaicite:0]{index=0}
+**General all4 remains open.** The remaining simple pure-B slice has F≤8 and no free facet. The uncovered simplicial pure-A slice has no available free degree≤4 or planar-cap actuator; arbitrary nonplanar degree≥5 vertex controllability is not proved. Mixed A/B and ≤2VF configurations outside earlier accepted sectors are not closed here. There is no new weak110 seed, attaining improvement, or registry subtraction. The accepted bracket remains **34≤C_min≤622**, and the first open layer remains 10/17/9.
 
 ## 2. Source authority and the now-complete executable closure
 
 The newly supplied research-journal(20260919-135400).md was read consecutively through all 1638 lines and EOF, including the complete shared notebook, branch memory and literal parent. It is 320120 bytes, SHA-256 `529e5f4db88a2729d34432aad7f9c9c01afc2a6e271f77c667437895df34829a`.
 
-Literal parent `minimum-0110` was authenticated at 60946 bytes, SHA `ae32dbe1b0de3e635f0635f2d8a06648ad36bb63230458b6349bb32da96b9d3c`. Its accepted tetrahedral all16, noncentral full-cone criterion and degree-three-ear statements are inherited, not claimed as new. The parent's last explicit disclaimer, rather than its earlier completeness sentence, controls its displayed truncated DATA. Neither immutable predecessor has been rewritten. :contentReference[oaicite:1]{index=1}
+Literal parent `minimum-0110` was authenticated at 60946 bytes, SHA `ae32dbe1b0de3e635f0635f2d8a06648ad36bb63230458b6349bb32da96b9d3c`. Its accepted tetrahedral all16, noncentral full-cone criterion and degree-three-ear statements are inherited, not claimed as new. The parent's last explicit disclaimer, rather than its earlier completeness sentence, controls its displayed truncated DATA. Neither immutable predecessor has been rewritten.
 
 The settled conversation actually supplies independently mounted full readable `four_vf_sectors.py` and `tetra_four.py`, and the complete working `recover_tetra.py`. These readable units and the complete decoder were read through EOF. The working decoder was executed into a fresh directory, and its two recovered files matched the independently mounted source bytes exactly. This does not infer a repair by removing suspicious padding from the malformed immutable text.
 
@@ -693,4 +693,4 @@ for name,text in units.items():
 print('ACTUATORS_COMPLETE_PREDECESSOR_AND_NEW_SOURCE_CLOSURE_PASS')
 ```
 
-Supplementary convenience copies: [complete recovery](sandbox:/mnt/data/centroid_actuator/recover_actuators.py), [complete exact report](sandbox:/mnt/data/centroid_actuator/actuator.json), [full literal handoff file](sandbox:/mnt/data/centroid_actuator/result.json). The reconstruction does not require any of these links.
+Supplementary convenience copies: complete recovery (`recover_actuators.py`), complete exact report (`actuator.json`), full literal handoff file (`result.json`). The reconstruction does not require any of these links.

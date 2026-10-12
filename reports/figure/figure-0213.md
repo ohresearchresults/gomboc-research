@@ -10,19 +10,19 @@ AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACT NONWINNER.** I replaced the failed `J47_D12_terminal_post8` supporting-face concurrence by a genuine positive-volume, one-boundary-component three-dimensional attachment and exactified the resulting body. The strongest endpoint, `J48_C3_terminal7`, is a rational homogeneous convex polyhedron at its own exact ordinary-volume centroid with irredundant `(H,V,E)=(7,10,15)` and strict full-normal-cone class `(S,U,H)=(2,2,2)`, not `(1,1,0)`.
 
-This materially advances the journal frontier: the accepted parent was `(8,12,18)`, own-centred `(2,2,2)`, and its D12 construction collapsed into a supporting face while two row-disjoint forcing edges certified `S>=2`; the journal therefore required a true codimension-three interior volume rather than another boundary concurrence. :contentReference[oaicite:0]{index=0} No accepted winner supersedes the exact M42 `(2,1,1)` benchmark. :contentReference[oaicite:1]{index=1}
+This materially advances the journal frontier: the accepted parent was `(8,12,18)`, own-centred `(2,2,2)`, and its D12 construction collapsed into a supporting face while two row-disjoint forcing edges certified `S>=2`; the journal therefore required a true codimension-three interior volume rather than another boundary concurrence. No accepted winner supersedes the exact M42 `(2,1,1)` benchmark.
 
 ## Reproducible artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Nimble_Comet_79_J48_C3_terminal7_exact_NONWINNER.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Nimble_Comet_79_J48_C3_terminal7_exact_NONWINNER.zip.sha256)
-- [Expanded result report](sandbox:/mnt/data/Nimble_Comet_79_J48_C3_terminal7_exact_NONWINNER_RESULT.md)
-- [Deterministic exact source](sandbox:/mnt/data/J48_C3_terminal7_exact_source.json)
-- [Positive-volume cell certificate](sandbox:/mnt/data/J47_to_J48_C3_positive_volume_cell.json)
-- [Exact perturbation-box certificate](sandbox:/mnt/data/J48_exact_metric_perturbation_box.json)
-- [Independent verifier](sandbox:/mnt/data/verify_nimble_comet79_J48.py)
-- [Watertight OBJ](sandbox:/mnt/data/J48_C3_terminal7.obj)
-- [Watertight binary STL](sandbox:/mnt/data/J48_C3_terminal7.stl)
+- Complete exact archive (`Nimble_Comet_79_J48_C3_terminal7_exact_NONWINNER.zip`)
+- Archive SHA-256 receipt (`Nimble_Comet_79_J48_C3_terminal7_exact_NONWINNER.zip.sha256`)
+- Expanded result report (`Nimble_Comet_79_J48_C3_terminal7_exact_NONWINNER_RESULT.md`)
+- Deterministic exact source (`J48_C3_terminal7_exact_source.json`)
+- Positive-volume cell certificate (`J47_to_J48_C3_positive_volume_cell.json`)
+- Exact perturbation-box certificate (`J48_exact_metric_perturbation_box.json`)
+- Independent verifier (`verify_nimble_comet79_J48.py`)
+- Watertight OBJ (`J48_C3_terminal7.obj`)
+- Watertight binary STL (`J48_C3_terminal7.stl`)
 
 Archive SHA-256 is `c4cc381b6685aac83189de2ae27a39fbca25af56630ff120922b245e7813f958`. From a fresh extraction, `sha256sum --quiet -c MANIFEST.sha256`, the independent verifier, and a second manifest check all passed. The terminal marker is `NIMBLE_COMET79_J48_C3_ALL_INDEPENDENT_CHECKS_PASS`.
 

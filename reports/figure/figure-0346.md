@@ -16,7 +16,7 @@ The strongest new conclusion is global within a precisely stated family: **the c
 
 The parent material-side and finite-generation insertion certificates, previously proposed without terminal receipts, were actually executed and passed. Four complete exact A/B audit pairs, both independent nonlinear cap-domain checks, every zero-primitive check, controls, and the global dual/material certificate were rerun in a fresh source-only cold replay and matched their pinned hashes.
 
-The current journal records the completed B023 cold replay and treats H162 as a distinct branch. I did not transfer CAVITY147 labels to H162 or modify the journal. :contentReference[oaicite:0]{index=0}
+The current journal records the completed B023 cold replay and treats H162 as a distinct branch. I did not transfer CAVITY147 labels to H162 or modify the journal.
 
 ## 2. Source identity and exact finite definitions
 
@@ -36,7 +36,7 @@ Delete exactly these original B023 rows:
 
 Keep every other row unchanged in increasing original order. Thus local row j corresponds to `keep[j]`, where `keep=[i for i in range(166) if i not in C]`. Its defining SHA-256 is `1be8e6c7905dc162bac34ed62d1eae357aad5257dfb531eb32f26ee35fd70145`; the original-row-map SHA-256 is `58aec71b1b9001e965826a379d33a5bab59c9cdf28fcbc8c879a56ae9c542f5d`.
 
-The parent correctly distinguishes this 19-row ball-sublevel component from its complete supporting closure. The exposed reference stable supports are original B023 **3,50,75**. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The parent correctly distinguishes this 19-row ball-sublevel component from its complete supporting closure. The exposed reference stable supports are original B023 **3,50,75**.
 
 ### ARC34 and the rational endpoint JOIN_R12
 
@@ -332,7 +332,7 @@ A genuinely fresh empty directory was populated solely by decoding the frozen15-
 
 The completed cold transcript is5353 bytes, SHA-256 `3aacd3e34962123b7a54953137bfe9877465910745f02c4f453aec320e0b10f9`. No pending job is being substituted for this receipt.
 
-[Compact complete source package and cold receipt](sandbox:/mnt/data/QW83_FINITE_SOURCE.zip):120142 bytes, SHA-256 `2940d8ff23f4c32f3e2378fd8644f78bcdea0703b53b1038e429f3c4a8d15393`. [Full exact audit and certificate archive](sandbox:/mnt/data/QW83_FINITE_EXACT.zip):379300795 bytes, SHA-256 `0adad140a7ee850fc516cc1e1ded70109db34466d0b01afe94308af8e6f80153`; all51 manifest payloads were read back and hashed. [Standalone exact recovery](sandbox:/mnt/data/RECOVER_QW83_FINITE.py). [Extended handoff](sandbox:/mnt/data/QW83_FINITE_HANDOFF.md). [Numerical discovery source, states and logs](sandbox:/mnt/data/QW83_FINITE_RESEARCH.zip). These supplement, rather than replace, the inline defining source below.
+Compact complete source package and cold receipt (`QW83_FINITE_SOURCE.zip`):120142 bytes, SHA-256 `2940d8ff23f4c32f3e2378fd8644f78bcdea0703b53b1038e429f3c4a8d15393`. Full exact audit and certificate archive (`QW83_FINITE_EXACT.zip`):379300795 bytes, SHA-256 `0adad140a7ee850fc516cc1e1ded70109db34466d0b01afe94308af8e6f80153`; all51 manifest payloads were read back and hashed. Standalone exact recovery (`RECOVER_QW83_FINITE.py`). Extended handoff (`QW83_FINITE_HANDOFF.md`). Numerical discovery source, states and logs (`QW83_FINITE_RESEARCH.zip`). These supplement, rather than replace, the inline defining source below.
 
 ## 10. Complete standalone exact source capsule
 

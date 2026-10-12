@@ -6,7 +6,7 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 # Calm Quartz 90 — exact wall-242 seventh-support linked cage
 
-The journal requires a finite uniform-density body at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete H/V/true-edge mechanics, independent verification, and matching OBJ/STL. :contentReference[oaicite:0]{index=0} The immutable parent is the exact six-support `(9,21,14)`, `(2,2,2)` cage with sole nonprotected carrier `[Z,AA]`; its next frontier is precisely a seventh-support/linked-cell replacement of that whole star. :contentReference[oaicite:1]{index=1}
+The journal requires a finite uniform-density body at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete H/V/true-edge mechanics, independent verification, and matching OBJ/STL. The immutable parent is the exact six-support `(9,21,14)`, `(2,2,2)` cage with sole nonprotected carrier `[Z,AA]`; its next frontier is precisely a seventh-support/linked-cell replacement of that whole star.
 
 ## Disposition
 
@@ -220,16 +220,16 @@ The next nonserial cell must jointly couple `[0,Z]→[AD,AE]`, stable death `[AD
 
 ## Artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_exact_NONWINNER.zip)
-- [Complete handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_result.json)
-- [Clean verification](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_clean_verification.json)
-- [Exact generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_exact_NONWINNER/data/generator_exact.json)
-- [Irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_exact_NONWINNER/data/twelfth_cage8_exact_H_irredundant.csv)
-- [Full mechanics ledgers](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_exact_NONWINNER/data/twelfth_cage8_exact_faces.csv)
-- [Independent verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_exact_NONWINNER/scripts/verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_exact_NONWINNER/mesh/body.stl)
+- Complete exact archive (`Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_exact_NONWINNER.zip`)
+- Complete handoff (`Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_handoff.md`)
+- Structured result (`Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_result.json`)
+- Clean verification (`Calm_Quartz_90_wall242_twelfth_seventh_support_linked_cage_clean_verification.json`)
+- Exact generator (`generator_exact.json`)
+- Irredundant H-data (`twelfth_cage8_exact_H_irredundant.csv`)
+- Full mechanics ledgers (`twelfth_cage8_exact_faces.csv`)
+- Independent verifier (`verify_independent.py`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 ```text
 archive SHA-256 c716f4279a8d692ac20cb5d90428b4bac69a98726f31c80b76199740f8b4e7a4

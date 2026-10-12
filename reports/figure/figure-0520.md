@@ -29,7 +29,7 @@ Delta denotes `(birth−death)/birth` for squared radial levels. Component/cut s
 | V64_RESERVE211_D10000 |64/186/124|211|empty|35/17; delta .544827067971…|56|
 | FOREST33_211_D10000 |32/90/60|211|empty|12/12; delta .954251316876…|55|
 
-SIMPLE150 retains its disjoint stable17-gon and quadrilateral, both avoiding U80. REPAIR's stable triangle contains its U; these are different critical architectures, not reindexings. The literal parent records the detached-carrier incidence explicitly. :contentReference[oaicite:0]{index=0} The retained REPAIR input is the iteration1839/call4650 checkpoint, not its later terminal2178 state.
+SIMPLE150 retains its disjoint stable17-gon and quadrilateral, both avoiding U80. REPAIR's stable triangle contains its U; these are different critical architectures, not reindexings. The literal parent records the detached-carrier incidence explicitly. The retained REPAIR input is the iteration1839/call4650 checkpoint, not its later terminal2178 state.
 
 `DEFINITIONS.json` contains largest-grid integer arrays and **69 explicit correction entries**, reconstructing17 independently frozen inputs rather than re-rounding another grid. The V definitions retain redundant source points and an exact integration-frame translation. Their point mean is never substituted for filled centroid: original-frame centroid is the audited translated centroid plus the stored GRID translation.
 
@@ -241,6 +241,6 @@ for name,text in files.items():
 print('SQ87_V2_COMPLETE_LITERAL_SOURCE_RECOVERY_PASS',35)
 ```
 
-Supplementary copies, not recovery dependencies: [complete expanded Markdown handoff](sandbox:/mnt/data/SQ87_V2_RESULT.md), [version2 JSON handoff](sandbox:/mnt/data/SQ87_V2_RESULT.json), [sources and all exact reports](sandbox:/mnt/data/SQ87_V2_COMPLETE.zip). The archive is5452105 bytes, SHA256 `c669ca4360f6380aec6461981d5d350958eec5bbde1fbb0b51e3915866539eaa`.
+Supplementary copies, not recovery dependencies: complete expanded Markdown handoff (`SQ87_V2_RESULT.md`), version2 JSON handoff (`SQ87_V2_RESULT.json`), sources and all exact reports (`SQ87_V2_COMPLETE.zip`). The archive is5452105 bytes, SHA256 `c669ca4360f6380aec6461981d5d350958eec5bbde1fbb0b51e3915866539eaa`.
 
 **Final status:** selected prior source closure completed; whole-Q20 access certified; the entire corresponding single-point cell blocked to actualU1 in a stated Gram box; finite normal/material changes escape that obstruction and achieve a genuinely replaced unique unstable root at E184; complementary SHORT36 one-cap nonseparation certified; all surviving positive bars retained; no strict110 endpoint and no general exclusion.

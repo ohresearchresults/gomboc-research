@@ -14,7 +14,7 @@ AI research report · 2026-09-21 UTC · [Export notes](../../catalog/coverage.md
 
 This includes every finite continuous concave upper profile U, both root-section regimes, the regime switch, m=0, and the closed lower-cut boundary m=q. The proof actually drops the parent's weighted maximizing-D condition. It retains p<=q, max ell=ell(A)=1, and the actual marked tetrahedron; those are genuine geometric hypotheses, not normalizations of an arbitrary one-zero body.
 
-Consequently the parent's entire CH class, with arbitrary compatible lower section geometry and every aspect, also has T<203/100 by its accepted trace-dominating reduction. The parent proves an actual-body reduction, not an independently fitted section law. Its last operation changes V,E and root area, and the present theorem evaluates the resulting body's own moments. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+Consequently the parent's entire CH class, with arbitrary compatible lower section geometry and every aspect, also has T<203/100 by its accepted trace-dominating reduction. The parent proves an actual-body reduction, not an independently fitted section law. Its last operation changes V,E and root area, and the present theorem evaluates the resulting body's own moments.
 
 There is no extension here to all proper one-zero bodies, to the full thirteen-vertex localization, or to max ell>ell(A). No E17 incidence count, minimum-complexity bound, or attaining construction changes.
 
@@ -32,7 +32,7 @@ Required parent: minimum-0150. Extracting its Markdown from its title through EO
 
     5e8296567dc16cfab235ec6069f21d3ce50e228fd6f176791acae439b2ff8f43.
 
-The notebook's 44586B label is therefore a byte-count metadata discrepancy for that authenticated compact envelope, not a theorem or incidence conflict. The conflicting label is present in both common and branch summaries. :contentReference[oaicite:2]{index=2}
+The notebook's 44586B label is therefore a byte-count metadata discrepancy for that authenticated compact envelope, not a theorem or incidence conflict. The conflicting label is present in both common and branch summaries.
 
 The new NF estimate is self-contained and does not use Cstar or the unavailable older optimizer certificate. Only the corollary back to CH uses the supplied parent's accepted geometric reductions. The new finite certificate and all three physical controls were executed normally and then from the sole source file in a clean directory, with byte-identical reports and receipts.
 
@@ -732,10 +732,10 @@ if __name__=='__main__':main()
 
 The full NF threshold problem is closed, as is the parent's all-aspect CH class under its accepted actual-body domination. No additional upper-profile localization assumption remains in that implication.
 
-What remains is genuinely different geometry: one-zero sections not satisfying CH, including sections missing an axis or extending beyond their outer axis chord; and bodies with max ell>ell(A). The earlier proper high-trace control that loses B under naive n-aligned radial replacement remains a valid warning for that complement. Neither the present overshoot estimate nor the CH reduction licenses that replacement there. :contentReference[oaicite:3]{index=3}
+What remains is genuinely different geometry: one-zero sections not satisfying CH, including sections missing an axis or extending beyond their outer axis chord; and bodies with max ell>ell(A). The earlier proper high-trace control that loses B under naive n-aligned radial replacement remains a valid warning for that complement. Neither the present overshoot estimate nor the CH reduction licenses that replacement there.
 
 The most useful next geometric target is an actual upper section with more than one supporting positive normal, retaining its common-edge interval and common uniform mass. The reusable ingredient here is the simultaneous accounting of the same clipped-away auxiliary region in volume and mixed moment, followed by a sign-safe bound on its actual size. A freely assigned section centroid or an independent area profile would not supply that identity.
 
 No E17 exclusion, new monostatic body, improved complexity endpoint, or sharp NF supremum is claimed. The source and the exact nonwinning constructions are durable in this handoff.
 
-Convenience copies, not dependencies: [source](sandbox:/mnt/data/nf_work/nf_full_certificate.py), [exact report](sandbox:/mnt/data/nf_work/nf_full_certificate.json), [execution receipt](sandbox:/mnt/data/nf_work/nf_full_receipt.txt).
+Convenience copies, not dependencies: source (`nf_full_certificate.py`), exact report (`nf_full_certificate.json`), execution receipt (`nf_full_receipt.txt`).

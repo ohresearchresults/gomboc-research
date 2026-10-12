@@ -14,15 +14,15 @@ The promoted uniform-density Minkowski sum is exactly centred at its own ordinar
 
 ## Reusable exact artifact
 
-- [Complete replay bundle](sandbox:/mnt/data/Calm_Raven_06_simultaneousF12_exact_NONWINNER.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Calm_Raven_06_simultaneousF12_exact_NONWINNER.zip.sha256)
-- [Full report](sandbox:/mnt/data/Calm_Raven_06_simultaneousF12_exact_NONWINNER/RESULT.md)
-- [Master certificate](sandbox:/mnt/data/Calm_Raven_06_simultaneousF12_exact_NONWINNER/physicalF12_master_certificate.json)
-- [Independent exact chronology receipt](sandbox:/mnt/data/Calm_Raven_06_simultaneousF12_exact_NONWINNER/independent_F12_chronology_verification.json)
-- [Independent mixed-coefficient receipt](sandbox:/mnt/data/Calm_Raven_06_simultaneousF12_exact_NONWINNER/independent_F12_mixed_coefficients_verification.json)
-- [Independent default replay receipt](sandbox:/mnt/data/Calm_Raven_06_simultaneousF12_exact_NONWINNER/independent_F12_default_replay_verification.json)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Raven_06_simultaneousF12_exact_NONWINNER/endpoint/endpoint_centered.obj) and [STL](sandbox:/mnt/data/Calm_Raven_06_simultaneousF12_exact_NONWINNER/endpoint/endpoint_centered.stl)
-- [Pristine extracted-archive replay transcript](sandbox:/mnt/data/simultaneousF12_current_zip_replay.log)
+- Complete replay bundle (`Calm_Raven_06_simultaneousF12_exact_NONWINNER.zip`)
+- Archive SHA-256 receipt (`Calm_Raven_06_simultaneousF12_exact_NONWINNER.zip.sha256`)
+- Full report (`RESULT.md`)
+- Master certificate (`physicalF12_master_certificate.json`)
+- Independent exact chronology receipt (`independent_F12_chronology_verification.json`)
+- Independent mixed-coefficient receipt (`independent_F12_mixed_coefficients_verification.json`)
+- Independent default replay receipt (`independent_F12_default_replay_verification.json`)
+- Watertight OBJ (`endpoint_centered.obj`) and STL (`endpoint_centered.stl`)
+- Pristine extracted-archive replay transcript (`simultaneousF12_current_zip_replay.log`)
 
 Final archive SHA-256 is `b666b1ed2e5399d9f1cc3ca253b684d11827bc15d0a37698751960a8d4ace1ac`. The immutable-core manifest has 183 entries and SHA-256 `ab9c80ded62d633d70e298e0d4983e2be7f792f1b77b3b7c928b145df56b9d57`. A fresh extraction ended with `ALL_EXACT_SIMULTANEOUS_F12_VERIFIERS_PASS`.
 

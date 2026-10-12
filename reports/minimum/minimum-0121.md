@@ -10,7 +10,7 @@ AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md
 
 **Theorem.** Let P be a full-dimensional simplicial convex three-polytope of uniform volume density, evaluated at its own actual volume centroid. Suppose its only physical weak equilibria are at most four distinct simple A=VE points. If at least one true vertex is neither endpoint of any weak edge, then P has arbitrarily small genuine regularizations with the same full face lattice and exactly the original feature-labelled strict S/U/H equilibria, and with no additional strict or weak equilibrium.
 
-In particular, **every simplicial pure-four-A body with n≥9 vertices regularizes**. The theorem includes a singleton free fold and every adjacent free edge, triangle or K4, without restrictions on degrees, common left kernels, fold signs, metric condition number, or endpoint overlap. It closes the entire previously unresolved nonempty-free sector, not just a subset of its adjacent pairs. The older n≥13 nonadjacent theorem remains valid, including its any-number-of-contacts scope. :contentReference[oaicite:0]{index=0}
+In particular, **every simplicial pure-four-A body with n≥9 vertices regularizes**. The theorem includes a singleton free fold and every adjacent free edge, triangle or K4, without restrictions on degrees, common left kernels, fold signs, metric condition number, or endpoint overlap. It closes the entire previously unresolved nonempty-free sector, not just a subset of its adjacent pairs. The older n≥13 nonadjacent theorem remains valid, including its any-number-of-contacts scope.
 
 The new mechanism does not attempt to make the free-vertex centroid maps nonsingular. Their ranks are unchanged by the affine preliminary motion. Instead, one or at most two arbitrarily small genuine affine motions destroy the obstructing FULL vertex-shape stress, after which an all-positive actual shape derivative exists. The final motion may use every actual vertex and is recentered by its true uniform-volume centroid.
 
@@ -26,7 +26,7 @@ Current journal: `research-journal(20260920-032441).md`, 314514 bytes, SHA-256 `
 
 Required parent: `minimum-0118`, authenticated at 41544 bytes and SHA-256 `259e7b4e515ce6b410d6f2351defa241288252361b2f0739c3364f504ff792cc`. Authentication uses compact UTF-8 JSON, keys `version,result_markdown`, `ensure_ascii=False`, separators `(',',':')`, exactly one final LF inside the Markdown string, and no envelope-final LF. No source-identity or scientific conflict was found. The notebook has two headings numbered51; the nonadjacent theorem is identified here by its title and immutable parent, not the duplicate section number.
 
-The sole substantial inherited mathematical input needed below is the actual triangular-star theorem `rank D_w g≥2`, together with the genuine contact and shape-derivative semantics. The new argument, including the small-forest lemma, is proved below. The exact computations are new executed audits, not the universal proof inferred from samples. The parent suites were not routinely rerun. External lookup supplied no additional premise; no literature-priority or proof-assistant certification is claimed. :contentReference[oaicite:1]{index=1}
+The sole substantial inherited mathematical input needed below is the actual triangular-star theorem `rank D_w g≥2`, together with the genuine contact and shape-derivative semantics. The new argument, including the small-forest lemma, is proved below. The exact computations are new executed audits, not the universal proof inferred from samples. The parent suites were not routinely rerun. External lookup supplied no additional premise; no literature-priority or proof-assistant certification is claimed.
 
 ## 3. Actual full-shape stresses and the contact forest
 
@@ -57,7 +57,7 @@ These are the literal full equations from the parent. Testing actual affine fiel
 
     R^T alpha=0  implies  Σ_i alpha_i T_i=0.              (3)
 
-There is no converse assertion. :contentReference[oaicite:2]{index=2}
+There is no converse assertion.
 
 ### Lemma 1. The weak contact graph is a rooted forest, and F is injective
 
@@ -84,7 +84,7 @@ If A_w is nonsingular, ker R^T=0. Otherwise, whenever a nonzero full stress alph
 
     ker A_w^T=span(c_alpha).                             (5)
 
-This argument concerns the whole signed stress space. It is stronger than selecting or orienting a particular nonnegative stress ray. The accepted rank input applies at every degree; no positive symmetric part or cone-positive inverse is assumed. :contentReference[oaicite:3]{index=3}
+This argument concerns the whole signed stress space. It is stronger than selecting or orienting a particular nonnegative stress ray. The accepted rank input applies at every degree; no positive symmetric part or cone-positive inverse is assumed.
 
 For clarity, the strict linear alternative used below also has a short direct proof. There is a nonzero alpha≥0 with R^T alpha=0 exactly when 0 belongs to the convex hull of the row vectors of R. Otherwise its closest point z is nonzero and satisfies row_i·z≥|z|²>0 for every i. Taking h=z gives Rh>0. Thus absence of the full nonnegative stress cone gives a genuine positive shape velocity.
 
@@ -181,7 +181,7 @@ Suppose, to the contrary, L(H)=0 for every H∈W^perp. At the free vertex this g
 
     Hc=lambda_H c for every H∈W^perp.                    (11)
 
-This is precisely the previously exceptional situation W(c)⊂W. It is not being dismissed as nonphysical: the literal parent contains an actual four-A body with that tensor geometry. :contentReference[oaicite:4]{index=4}
+This is precisely the previously exceptional situation W(c)⊂W. It is not being dismissed as nonphysical: the literal parent contains an actual four-A body with that tensor geometry.
 
 Since dim W^perp=3 and I∈W^perp, the maps H−lambda_H I, restricted to c^perp, form a two-dimensional subspace of symmetric2×2 matrices. Its common kernel is zero: the symmetric2×2 matrices annihilating one prescribed nonzero vector form only a one-dimensional space. Thus the common kernel of all H−lambda_H I in three dimensions is exactly span(c).
 
@@ -239,7 +239,7 @@ Every shared-triangle mixed determinant is included in d2. The true quadratic es
 
     b_i(v)=(v_(x_i)−g1)·(v_(y_i)−v_(x_i))−u_i·g2.       (14)
 
-These are the complete jets retained in the literal parent, now used with the new rank-lifting direction. :contentReference[oaicite:5]{index=5}
+These are the complete jets retained in the literal parent, now used with the new rank-lifting direction.
 
 Reverse v if necessary so sigma>0. Put tau=alpha·b(v) and choose
 
@@ -272,7 +272,7 @@ Once an actual body has a velocity with all required A escapes positive to first
                          [v_i(s)+v_j(s)+v_k(s)]/24,
     g(s)=J(s)/V(s).
 
-These formulas do not assume nonadjacency. V(0)>0 makes g analytic. The positive leading terms therefore persist on a sufficiently short punctured interval. Every original strict or excluding feature guard is open, the complete simplicial face chamber is open, and the positive A primitive removes its complete original simple packet. Harmless zeros with another positive primitive remain excluded from the weak census. All old strict labels remain, no new strict equilibrium is born, and no physical weak packet remains. This is the same physical escape convention as the parent, not independent sign choices for primitive zeros. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+These formulas do not assume nonadjacency. V(0)>0 makes g analytic. The positive leading terms therefore persist on a sufficiently short punctured interval. Every original strict or excluding feature guard is open, the complete simplicial face chamber is open, and the positive A primitive removes its complete original simple packet. Harmless zeros with another positive primitive remain excluded from the weak census. All old strict labels remain, no new strict equilibrium is born, and no physical weak packet remains. This is the same physical escape convention as the parent, not independent sign choices for primitive zeros.
 
 In particular, singular co-aligned free maps need not become nonsingular and need not compensate a prescribed missing normal centroid displacement. The affine motion breaks the full contact stress, sometimes at an endpoint equation while the free centroid ranks are entirely unchanged. The final vertex motion and its genuine recentering supply the physical regularization.
 
@@ -368,7 +368,7 @@ The regularization constructor included in the source supplies genuine small met
 
 The genuinely adjacent nonempty-free simplicial pure-four-A remainder is no longer open under the stated hypotheses. Remaining four-A cases not covered by this theorem are the **no-free-vertex endpoint-cover sector**, necessarily 5≤n≤8 by the forest count, except for affine-separable cases and where older accepted results already apply; and nonsimplicial bodies where arbitrary vertex velocities need not preserve maximal-facet planarity. The latter includes the minimum's10/17/9 layer. Mixed A/B and VF configurations outside the previously accepted sectors remain separate. For five or more A contacts, the signed-stress dimension bound and low-tensor-rank theorem persist, but general tensor rank≥3 beyond the older nonadjacent and other accepted criteria is not closed.
 
-The existence of an original actual full stress with only same-side co-aligned free folds is still not settled here. What is settled is that it cannot be an all-orders regularization obstruction for four simple A contacts with a free vertex. The new theorem does not say that a frozen free clique alone has an open centroid map. Nor does it turn the graph nullity controls or the rational nonwinning bodies into a weak110 construction. The accepted global bracket34≤C_min≤622 is unchanged. :contentReference[oaicite:8]{index=8}
+The existence of an original actual full stress with only same-side co-aligned free folds is still not settled here. What is settled is that it cannot be an all-orders regularization obstruction for four simple A contacts with a free vertex. The new theorem does not say that a frozen free clique alone has an open centroid map. Nor does it turn the graph nullity controls or the rational nonwinning bodies into a weak110 construction. The accepted global bracket34≤C_min≤622 is unchanged.
 
 The most useful continuation is the no-free four-A endpoint-cover problem using the same full-force map and its at-most-three-dimensional signed stress space. Repeating a search for an all-orders obstruction in the now-closed free-clique sector is not necessary.
 
@@ -402,7 +402,7 @@ Exact stdout:
 
 The separate cold comparison marker was `FREE_VERTEX_FOUR_A_FINAL_SOURCE_ONLY_COLD_BYTE_PARITY_PASS`. The report is regenerated from source; it is not an input. For a nonidentity metric returned by the constructor, exact physical coordinates are obtained with `B=M.cholesky().T`, so `B.T*B==M`, followed by the prescribed actual-centroid subtraction. The dual metric is always `M.inv()`.
 
-Convenience copies: [plain complete source](sandbox:/mnt/data/adjacent/free_vertex_four_a.py) and [complete exact report](sandbox:/mnt/data/adjacent/free_vertex_four_a.json). They are optional: all recovery bytes follow in this handoff.
+Convenience copies: plain complete source (`free_vertex_four_a.py`) and complete exact report (`free_vertex_four_a.json`). They are optional: all recovery bytes follow in this handoff.
 
 ```python
 """FREE_VERTEX_FOUR_A_AFFINE_SHAPE_REGULARIZATION_V1.

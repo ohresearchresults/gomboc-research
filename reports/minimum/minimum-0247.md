@@ -28,13 +28,13 @@ with all actual moments recomputed. It excludes **208 complete labelled rooted t
 
 A retained negative result identifies a useful limitation: the fixed-fit sufficient test G−rrᵀ>0 fails at another genuine point of that larger cap, although its derived five-arrow stress remains positive definite. One should therefore retain and test the complete stress, not discard it when its initial Schur-complement sufficient test stops working.
 
-The global accepted interval remains 34<=C_min<=622, and attainment is separate. These calculations do not supply an actual complete weak-arrow PSD/SPD survivor. fileciteturn13file2L9-L11
+The global accepted interval remains 34<=C_min<=622, and attainment is separate. These calculations do not supply an actual complete weak-arrow PSD/SPD survivor.
 
 ## 1. Inputs, source authority, and research route
 
 The complete new 965-line journal was read through EOF, together with both new analytic sources. The unchanged local H5 proof/code and the literal parent minimum-0245, SHA256 3a4889dd902249e2904ddfa747f00575a10c16646d44cf15224164893c8056be, remain fully supplied in this chat. No required exact dependency was unavailable.
 
-There is one source-identity discrepancy: the new branch memory associates the path-energy source with SHA256 777d3b2e307553b77a92f077911d7040e94b73f764ad8b68b6c96baaf66e3633e. The manifested and actually verified attached file is **9224 bytes, SHA256 6dc7106cabaa16510d7f067ac60cff45a53c08dd55482a97025aa011b8ad4866**. Only the attached, manifest-matching version is used below. fileciteturn19file0L123-L128
+There is one source-identity discrepancy: the new branch memory associates the path-energy source with SHA256 777d3b2e307553b77a92f077911d7040e94b73f764ad8b68b6c96baaf66e3633e. The manifested and actually verified attached file is **9224 bytes, SHA256 6dc7106cabaa16510d7f067ac60cff45a53c08dd55482a97025aa011b8ad4866**. Only the attached, manifest-matching version is used below.
 
 I used the rational, unit-path-weight identity, not the optional sharper trigonometric constants. A nonnegative least-squares fit located three useful source/path columns. Exact three-by-three elimination reconstructs that fit, and upward rounding to quarters gives the fixed rational certificate. I then proved a full residual box and explicit separation from every closed reflected-edge test. Finally I tested the resulting original stress directly on the larger cap. All accepted statements below use exact rational/integer arithmetic; numerical fitting only located the coefficients.
 
@@ -54,7 +54,7 @@ The exact maximal-face cycles are
     (6,5,4,3,2,1,0), (8,7,0,1), (7,6,0), (1,2,8),
     (9,8,2,3), (9,3,4), (4,5,7,9), (6,7,5), (7,8,9).
 
-For 0<x,r<1, p,q>0, p+q<1 and 0<lambda<1, this is the genuine 10/17/9 body. The original positive-volume indexed boundary convention is retained; a collapsed boundary is not called a genuine E17 body. fileciteturn13file6L18-L36
+For 0<x,r<1, p,q>0, p+q<1 and 0<lambda<1, this is the genuine 10/17/9 body. The original positive-volume indexed boundary convention is retained; a collapsed boundary is not called a genuine E17 body.
 
 The actual volume and first moments are
 
@@ -66,7 +66,7 @@ The actual volume and first moments are
     Jy=s³by/4+s²lambda(1−3rq/4)/24+lambda²/24,
     Jz=A s²/12+lambda/12+lambda²/24.
 
-Throughout, **g=J/V** and u_i=z_i−g. The verifier proves these four moment formulas against the eight-tetrahedron oriented fan as full five-variable polynomial identities, and proves all 34 parameter/physical reflection identities. The inherited bounds 7/192<=V<=1/6 are also immediate from 7/64<=A<=31/64 and the displayed volume polynomial. No surrogate physical masses, frozen centroid, or independently recentered polar enters. fileciteturn13file6L41-L52
+Throughout, **g=J/V** and u_i=z_i−g. The verifier proves these four moment formulas against the eight-tetrahedron oriented fan as full five-variable polynomial identities, and proves all 34 parameter/physical reflection identities. The inherited bounds 7/192<=V<=1/6 are also immediate from 7/64<=A<=31/64 and the displayed volume polynomial. No surrogate physical masses, frozen centroid, or independently recentered polar enters.
 
 ## 3. Explicit path-energy certificate
 
@@ -138,7 +138,7 @@ The source's complete cut identity then gives
           =(G−rrᵀ)/2+(u1−r)(u1−r)ᵀ/2
             +sum_i v_i S_i+(1/2)sum_i mu_i sum_path Delta_e Delta_eᵀ.
 
-Every term after (G−rrᵀ)/2 is PSD, and all coefficients of the negative arrows are nonnegative. The complete runnable unit checks the four nonzero-depth path identities and all six symmetric entries of this cut identity symbolically on the moving family. This is precisely the rational path-energy mechanism of the supplied source. fileciteturn13file0L24-L55
+Every term after (G−rrᵀ)/2 is PSD, and all coefficients of the negative arrows are nonnegative. The complete runnable unit checks the four nonzero-depth path identities and all six symmetric entries of this cut identity symbolically on the moving family. This is precisely the rational path-energy mechanism of the supplied source.
 
 Multiplying by 20 gives the claimed small-integer stress
 
@@ -181,7 +181,7 @@ The supplied closed-reflection theorem tests, for an edge a->b with source compo
     2g=(1−t)z_b+t z_a+sum_{i in S} theta_i z_i,
     theta_i>=0, sum theta_i=1, 0<=t<1.
 
-Its kernel conclusion includes mixed layers. The path-energy source also identifies the extended admissible beta=1−t+theta_b>=0 qualification. fileciteturn13file1L8-L23 fileciteturn13file0L59-L79
+Its kernel conclusion includes mixed layers. The path-energy source also identifies the extended admissible beta=1−t+theta_b>=0 qualification.
 
 There is a simple exact certificate of failure even in that larger class. Every such representation, for arbitrary real t and beta>=0, can be rewritten
 
@@ -216,7 +216,7 @@ have degrees (2,2,2,2,3). All **6156 Bernstein coefficients** are strictly posit
 
 These strict scalar certificates prove failure of actual containment uniformly, not merely failure to find its barycentric coefficients. They include small components and mixed-layer source components. In particular, the selected 1->2 path-energy certificate is not secretly an exact closed reflected-hull certificate on another edge of T56.
 
-All of Ω satisfies p+q in [55/64,57/64] and lambda in [3/128,5/128]. It lies in the requested p+q>1/2 residual and entirely above the old twenty-tree certificate's lambda<=1/64 range. The local reflection results extend to lambda<=1/16, but their actual containment condition is explicitly disproved here for this tree. The older half-triangle all-root result is also not being reused on the complementary triangle. fileciteturn13file3L14-L36 fileciteturn19file0L101-L105
+All of Ω satisfies p+q in [55/64,57/64] and lambda in [3/128,5/128]. It lies in the requested p+q>1/2 residual and entirely above the old twenty-tree certificate's lambda<=1/64 range. The local reflection results extend to lambda<=1/16, but their actual containment condition is explicitly disproved here for this tree. The older half-triangle all-root result is also not being reused on the complementary triangle.
 
 ## 5. The same five weights on a macroscopic full-x/r cap
 
@@ -242,7 +242,7 @@ Exact reconstruction of all complete extensions yields rootwise counts
 
     (0,0,88,45,23,0,0,0,28,24), total 208.
 
-The source emits all 208 full nine-arrow trees, not only their count. Exactly 20 contain the old seven-arrow T56 support; this is a support-overlap count, not a claim of 188 new exclusions after every historical result. The old twenty-tree theorem has its own smaller x/r/lambda domain. The new cap is demonstrably nonredundant with the supplied closed-reflection tests because it contains the whole box Ω and T56 there fails all nine such tests. No closed-reflection census for the other 207 extensions is asserted. fileciteturn13file6L7-L12 fileciteturn13file6L102-L110
+The source emits all 208 full nine-arrow trees, not only their count. Exactly 20 contain the old seven-arrow T56 support; this is a support-overlap count, not a claim of 188 new exclusions after every historical result. The old twenty-tree theorem has its own smaller x/r/lambda domain. The new cap is demonstrably nonredundant with the supplied closed-reflection tests because it contains the whole box Ω and T56 there fails all nine such tests. No closed-reflection census for the other 207 extensions is asserted.
 
 The unchanged reflection permutation (5,4,3,2,1,0,6,7,9,8) gives
 
@@ -319,7 +319,7 @@ Expected normal markers:
     H5_FIXED_FIT_SCHUR_FAILURE_POSITIVE_STRESS_PASS
     H5_PATH_ENERGY_CAP_RECOVERY_PASS
 
-The scientific continuation is now concrete: use quantitative path fits on other basal-route source components, preserving the complete resulting stresses when a particular residual floor weakens. The open issue is coverage of the other complete-tree supports and the omitted p/q region, not whether this mechanism can add anything beyond exact reflection—it now demonstrably can. The original stress cone is unchanged, as the supplied method explicitly warns; no all-root conclusion or complexity improvement follows merely from these 208 extensions. fileciteturn13file0L98-L104
+The scientific continuation is now concrete: use quantitative path fits on other basal-route source components, preserving the complete resulting stresses when a particular residual floor weakens. The open issue is coverage of the other complete-tree supports and the omitted p/q region, not whether this mechanism can add anything beyond exact reflection—it now demonstrably can. The original stress cone is unchanged, as the supplied method explicitly warns; no all-root conclusion or complexity improvement follows merely from these 208 extensions.
 
 ## 8. Complete standalone source
 
@@ -720,4 +720,4 @@ if __name__=='__main__':
     main(args.out)
 ```
 
-Supplementary copies: [standalone source](sandbox:/mnt/data/h5_path_energy_cap.py), [exact report](sandbox:/mnt/data/h5-energy-output/h5_path_energy_report.json), [matrix certificates](sandbox:/mnt/data/h5-energy-output/h5_path_energy_matrices.json), and [closed-reflection separating guards](sandbox:/mnt/data/h5-energy-output/h5_closed_reflection_separators.json). The complete executable recovery is already embedded above.
+Supplementary copies: standalone source (`h5_path_energy_cap.py`), exact report (`h5_path_energy_report.json`), matrix certificates (`h5_path_energy_matrices.json`), and closed-reflection separating guards (`h5_closed_reflection_separators.json`). The complete executable recovery is already embedded above.

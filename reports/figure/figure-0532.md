@@ -25,7 +25,7 @@ All three new bodies have **primitive-zero counts 000**, positive filled volume,
 
 The updated journal was read through line 1044, including the entire immutable parent. The parent Markdown, serialized as compact UTF-8 JSON with `version=2` and `result_markdown`, reproduces exactly **49,663 bytes** and SHA-256 **068561478600e3762da427d542c3e881ba409c91eb7fb963ded6c7071474b37f**. Its recovery program also matches the advertised 28,725-byte source and reconstructs the 73,054-byte dictionary. There is no unresolved parent-identity conflict in this closeout.
 
-The parent's two-stable restriction was real: its `Surgery` program deliberately protected both stable carriers. Its terminal insertion mechanism was also real, but belonged to that different retained corpus. Neither the old two-stable constraint nor the old terminal insertion's census is assumed for the new constructions. :contentReference[oaicite:0]{index=0}
+The parent's two-stable restriction was real: its `Surgery` program deliberately protected both stable carriers. Its terminal insertion mechanism was also real, but belonged to that different retained corpus. Neither the old two-stable constraint nor the old terminal insertion's census is assumed for the new constructions.
 
 ## Exact finite construction and the restriction removed
 
@@ -247,7 +247,7 @@ Recovery program: 11202 bytes
 86c62c4b761cca9f9d0372341651b43c1a4d5e6320b52a4d97bfab6c7904c2a9
 ```
 
-Convenience copies: [recovery program](sandbox:/mnt/data/RECOVER_RESERVE_RELEASE_CLOSEOUT.py) and [expanded sources and exact reports](sandbox:/mnt/data/RESERVE_RELEASE_CLOSEOUT.zip).
+Convenience copies: recovery program (`RECOVER_RESERVE_RELEASE_CLOSEOUT.py`) and expanded sources and exact reports (`RESERVE_RELEASE_CLOSEOUT.zip`).
 
 ## Complete runnable source capsule
 

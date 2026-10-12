@@ -20,7 +20,7 @@ The useful successor is the metric-versus-mass separation theorem, the full nonp
 
 The complete1945-line update, common and branch memory, and the literal parent `minimum-0141` were read consecutively through EOF. The update is347732 bytes, SHA-256 `a728d2394f9b97ebda967cccd51aeaf50b2657088e2266cb609ec5857c804527`. The parent’s declared immutable SHA-256 is `e79d71a14bb612f97a157af9fbb102ae49960c17325b2c53f40bac3d1d824d41`. Its literal title is **BALANCED_TRIANGULAR_RECIPROCAL_CIRCUITS_V1**; the branch’s descriptive alias `TRIANGLE_RECIPROCAL_PRODUCT_AND_SCALARIZATION_LIMIT_V1` is not its literal title. No mathematical datum conflicts. The readable17089-byte parent source is present and matches its accepted pin; it was not routinely rerun. No missing archive or computational dependency is used below.
 
-The parent’s actual mixed identity, its four-distinct-edge product consequence, and its scalarization limitation are inherited premises. Their precise statements include the VF boundary and do not claim full selected-pattern coverage. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The parent’s actual mixed identity, its four-distinct-edge product consequence, and its scalarization limitation are inherited premises. Their precise statements include the VF boundary and do not claim full selected-pattern coverage.
 
 For clarity the complete balanced chart is restated. Choose eight positive cuts `((sx,sy),(wx,wy),(nx,ny),(ex,ey))`, with
 
@@ -45,7 +45,7 @@ F1=(0,8,1) F2=(1,8,2) F3=(2,8,3) F4=(3,8,9,4)
 F5=(4,9,5) F6=(5,9,6) F7=(6,9,7) F8=(7,9,8,0).
 ```
 
-Their cycles determine17 TRUE edges. This is the accepted full type(5,5) cover; the unbalanced types(3,7),(4,6) are not silently assigned these labels. :contentReference[oaicite:2]{index=2}
+Their cycles determine17 TRUE edges. This is the accepted full type(5,5) cover; the unbalanced types(3,7),(4,6) are not silently assigned these labels.
 
 Let `K=conv(Y_i)`, V its actual uniform volume, g its actual uniform centroid. At an interior reference c write `X_i=Y_i−c` and `q_f=n_f/(b_f−n_f·c)`, where `n_f·Y≤b_f` are actual unnormalized support inequalities. Mechanical calculations always use one M>0 and N=M⁻¹. A reference c different from g is explicitly labelled as such; its mechanics is not presented as homogeneous own-COM mechanics. The actual polar is never independently recentered.
 
@@ -126,7 +126,7 @@ In particular, once triangular stable-root leaves and simple unstable-root leave
 
 If the leaf is the root, all other pole norms are strictly smaller, hence the root is strictly stable. Let f be its actual interior foot. For a chain x→y→z, the tangent vector y−f has strictly positive M-pairing with all three tangent vertex vectors, using the two weak arrow inequalities. For a fork x→y←z the same follows from the two incoming arrows. This contradicts the strictly positive barycentric relation among x−f,y−f,z−f. The same proof on the actual polar excludes an unstable simple root of primal degree1. It requires no polar mass centroid.
 
-This explains the inherited triangular root-leaf theorem rather than renaming it. :contentReference[oaicite:3]{index=3} It is distinct from the centroid-dependent theorem excluding an outside root whose sole child is the other apex.
+This explains the inherited triangular root-leaf theorem rather than renaming it. It is distinct from the centroid-dependent theorem excluding an outside root whose sole child is the other apex.
 
 ### Complete native overlap audit, not a registry subtraction
 
@@ -348,7 +348,7 @@ The small homothet H is strictly inside K. Its true volume is ε³V and its cent
 
 Thus A(K−c), filled with the displayed two-level positive NONUNIFORM density, is a genuine own-density110/weak000 body. The internal density interface is not an outer mechanical facet or edge. This is not an attaining construction for the uniform problem.
 
-For external context only, weighted mono-monostatic representatives for every legal non-tetrahedral f-vector were already proved by Almádi–Dawson–Domokos–Regős, *On equilibria of tetrahedra*, Theorem5, arXiv2304.06984v1. That is an f-vector statement, not a theorem for every prescribed combinatorial class. The present use is the exact labelled balanced common-metric comparison and explicit density—not a priority claim for weighted existence. :contentReference[oaicite:4]{index=4}
+For external context only, weighted mono-monostatic representatives for every legal non-tetrahedral f-vector were already proved by Almádi–Dawson–Domokos–Regős, *On equilibria of tetrahedra*, Theorem5, arXiv2304.06984v1. That is an f-vector statement, not a theorem for every prescribed combinatorial class. The present use is the exact labelled balanced common-metric comparison and explicit density—not a priority claim for weighted existence.
 
 ### Whole closed counterdomain
 
@@ -1049,4 +1049,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Supplemental copies: [complete readable handoff](sandbox:/mnt/data/global_triangle_handoff.md), [source and exact reports](sandbox:/mnt/data/global_triangle_handoff.zip), and [main exact generator/verifier](sandbox:/mnt/data/global_triangle_bridge.py). The three source blocks above are the complete recovery; these copies are conveniences.
+Supplemental copies: complete readable handoff (`global_triangle_handoff.md`), source and exact reports (`global_triangle_handoff.zip`), and main exact generator/verifier (`global_triangle_bridge.py`). The three source blocks above are the complete recovery; these copies are conveniences.

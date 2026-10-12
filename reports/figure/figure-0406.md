@@ -18,7 +18,7 @@ is strictly interior and has exhaustive reference `(S,U,H)=(1,1,0)`, weak-only `
 
 **These are reference-center results, not new own-centroid Gömböcs.** The fixed homogeneous bodies still have own132/weak000.
 
-There is a material conflict in the assignment/navigation text. The actual immutable parent is `figure-0405`, SHA-256 **`f28886751ec1209009224f9c96a7bb23712d246f46417379d11378ca3c28ad08`**, confirmed by a complete worker-library read. Its literal payload and the supplied recovery material identify C620 as **`COORD_C620_ALLWITNESS174_G12_OWN132`, V175/E310/F137**, not the alleged `C620HA39G12`, V174/E310/F138. Its method is `REFERENCE_LRA.py`, not the alternative method described in the brief. The brief/context hash beginning `f288aafaa73e...` is not the attached immutable payload's hash. I followed the literal source rather than manufacture an identification of those different objects. **No result below is claimed for an independently defined V174/E310/F138 HA39 body.** The supplied material explicitly confirms the V175 C620 identity. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+There is a material conflict in the assignment/navigation text. The actual immutable parent is `figure-0405`, SHA-256 **`f28886751ec1209009224f9c96a7bb23712d246f46417379d11378ca3c28ad08`**, confirmed by a complete worker-library read. Its literal payload and the supplied recovery material identify C620 as **`COORD_C620_ALLWITNESS174_G12_OWN132`, V175/E310/F137**, not the alleged `C620HA39G12`, V174/E310/F138. Its method is `REFERENCE_LRA.py`, not the alternative method described in the brief. The brief/context hash beginning `f288aafaa73e...` is not the attached immutable payload's hash. I followed the literal source rather than manufacture an identification of those different objects. **No result below is claimed for an independently defined V174/E310/F138 HA39 body.** The supplied material explicitly confirms the V175 C620 identity.
 
 The exact inputs reconstructed and used were:
 
@@ -27,7 +27,7 @@ The exact inputs reconstructed and used were:
 | `COORD_C616_COLLAPSE132_OWN132` | 174/308/136 | 312051 | `ba4bd93b8fade753cea37dc5a7b36f030fc2d55127fb7c043e01893f4ff94eb9` |
 | `COORD_C620_ALLWITNESS174_G12_OWN132` | 175/310/137 | 314808 | `f30fc15a826c78fb05d994a506d97e953e6793472657749f2abc99fce006660a` |
 
-These match the immutable parent report identities. C616 has redundant original support84, explaining the one-index shift in later local facet labels. Neither target is an own121 branch. :contentReference[oaicite:2]{index=2}
+These match the immutable parent report identities. C616 has redundant original support84, explaining the one-index shift in later local facet labels. Neither target is an own121 branch.
 
 ## 2. Three preserved rational centers, complete cells and independent feature audits
 
@@ -104,7 +104,7 @@ The point `p` is also regenerated without literal long fractions by solving the 
 
 ## 4. Decision algorithm and global coverage
 
-The useful change from the parent's large Boolean formula was to search first with the **no-saddle necessary condition**, leaving S and U completely unfixed. For an edge, the four shared rational affine predicates are its two directed vertex forms and its two adjacent facet-side forms. A strict saddle has all four positive; a weak-only saddle has all four nonnegative with a zero. Therefore absence of both requires at least one strictly negative predicate. The inherited implementation independently derives and checks the line-foot/normal-cone identity on every true edge. :contentReference[oaicite:3]{index=3}
+The useful change from the parent's large Boolean formula was to search first with the **no-saddle necessary condition**, leaving S and U completely unfixed. For an edge, the four shared rational affine predicates are its two directed vertex forms and its two adjacent facet-side forms. A strict saddle has all four positive; a weak-only saddle has all four nonnegative with a zero. Therefore absence of both requires at least one strictly negative predicate. The inherited implementation independently derives and checks the line-foot/normal-cone identity on every true edge.
 
 The searched relaxation is exactly:
 
@@ -139,7 +139,7 @@ For an actual homogeneous modification P' at a selected target c, mass closure s
 
 `V(P)*(g-c) + integral_(P' minus P)(x-c) dx - integral_(P minus P')(x-c) dx = 0`.
 
-Pure addition with volume v and centroid a requires `v*(a-c)=V(P)*(c-g)`; pure removal requires `v*(a-c)=V(P)*(g-c)`. These are necessary mass identities, not a convex modification construction. :contentReference[oaicite:4]{index=4}
+Pure addition with volume v and centroid a requires `v*(a-c)=V(P)*(c-g)`; pure removal requires `v*(a-c)=V(P)*(g-c)`. These are necessary mass identities, not a convex modification construction.
 
 A useful next construction attempt should jointly move exposed geometry near the identified facet-side walls and the material contributing the required moment, recomputing exact mass and the complete feature census after contact turnover. It must not substitute nonuniform density or a point mass for uniform filling. For the C<622 goal, C616's308 edges leave only two extra true edges; C620's310 leave no edge increase without compensating coarsening. No particular mass correction was completed here, and the canonical own-centroid record is unchanged.
 
@@ -154,7 +154,7 @@ Use these four immutable materials unchanged, in the indicated order:
 | `part3.md` | `[internal-source-reference]` |12100|`ecb59180686fbea53343e4b78e64b70478df5ede3679acd200c163185c1e29d4`|
 | `own132.md` | `[internal-source-reference]` |14491|`ea73bb56a864135d250099bb0ecedfd09f53884c559efe5913c2906d00a3b2df`|
 
-The three CONDITION25 parts concatenate to normalized base64 length36568, SHA `6311ad9802f5a98c2600fa2d856a64af0f7a19d055c2d9849e0080c141f00c50`, decoding to the complete24-file source dictionary93169bytes, SHA `631fae9cb3d532ace34aa06230c4a5a1c03aec1d99055805e536d2442cb697b3`. The own132 material has normalized base64 length10536, SHA `7e00bccdeb2da1228fa060f2c5f8997f5cca71c2954f733beea58b703df0f85a`, decoding to19545bytes, SHA `8c876916dba1c272adcf8ec3ee4e16df120ad479b4386060e09e2b7b18a65c15`. These complete parent units are sufficient; no ancestor sandbox or numerical rediscovery is needed. :contentReference[oaicite:5]{index=5}
+The three CONDITION25 parts concatenate to normalized base64 length36568, SHA `6311ad9802f5a98c2600fa2d856a64af0f7a19d055c2d9849e0080c141f00c50`, decoding to the complete24-file source dictionary93169bytes, SHA `631fae9cb3d532ace34aa06230c4a5a1c03aec1d99055805e536d2442cb697b3`. The own132 material has normalized base64 length10536, SHA `7e00bccdeb2da1228fa060f2c5f8997f5cca71c2954f733beea58b703df0f85a`, decoding to19545bytes, SHA `8c876916dba1c272adcf8ec3ee4e16df120ad479b4386060e09e2b7b18a65c15`. These complete parent units are sufficient; no ancestor sandbox or numerical rediscovery is needed.
 
 The capsule includes the entire authoritative `REFERENCE_LRA.py`,11491bytes, SHA `88cbab1d3e300fd463076a2cea3398d0667b4fa9b69cb316509525705028940a`. Its recovery routine reconstructs C620 generator SHA `38ebffa8f00ba3b67e105463bf162f8ac766ce2d738bf3e7a8271539d8d05cd6`; it then performs the complete C616 support105/group31/point168/axis0 collapse and DAG reordering, verifying generator SHA `4eb48034bf6d6d429c593977bee2b934759ba2c3a22865788880d4e18741720a`.
 
@@ -227,7 +227,7 @@ These optional runs use the numerical dependency versions specified above; their
 
 Normalized base64:27772characters, SHA-256 `c7c0161c7514a83843e4d5d62045284696271734e6a945f3da0661f8f76e5c95`. XZ:20828bytes, SHA-256 `476dd64a0616b6fa57f38b3efc9c9f74efeb05d412869d8ccc4f646713b1c64c`. Decoded UTF-8 JSON dictionary:118035bytes, SHA-256 `29133f0fbcbe5908a3ee7c64f4648917b6b4f26c6c20b00d4d7d2381e24123e1`.
 
-[Supplementary executable bundle, including the four parent materials and complete cold outputs](sandbox:/mnt/data/R82_GLOBAL_CENTERS_AND_EXACT_DISTANCE.zip). 2717768 bytes; SHA-256 `3896bf441dfde762ff68007be9dae6a0e0b4a9528bdc7cd6e65009270178b782`. The inline capsule and exact parent recovery above are the durable handoff; the ZIP is only a convenience.
+Supplementary executable bundle, including the four parent materials and complete cold outputs (`R82_GLOBAL_CENTERS_AND_EXACT_DISTANCE.zip`). 2717768 bytes; SHA-256 `3896bf441dfde762ff68007be9dae6a0e0b4a9528bdc7cd6e65009270178b782`. The inline capsule and exact parent recovery above are the durable handoff; the ZIP is only a convenience.
 
 ```base64
 /Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4c0SURpdAD2IhCQjKaWPB1pY7V31hkjB0EsVDfP+C5Wan+HqVINOdK3a8xtfFuy7sfmLWPh8Z+ti1V5bzJwwGNkp

@@ -99,9 +99,9 @@ This is complete for the exact endpoint `CU10` and its full positive control box
 
 ## Artifacts
 
-* [Exact self-contained archive](sandbox:/mnt/data/Bright_Lynx_56_rank4_Minkowski_exact_nonwinner.zip), SHA-256 `42c42c385d4bf066649bd8c0e37c4ea1a57723dcd3afa9ce835901c7494faa5e`.
-* [Archive checksum](sandbox:/mnt/data/Bright_Lynx_56_rank4_Minkowski_exact_nonwinner.zip.sha256).
-* [Full research handoff](sandbox:/mnt/data/Bright_Lynx_56_rank4_Minkowski_exact_nonwinner/RESULT.md).
-* [Exact-file manifest](sandbox:/mnt/data/Bright_Lynx_56_rank4_Minkowski_exact_nonwinner/MANIFEST.sha256).
-* [Watertight OBJ](sandbox:/mnt/data/Bright_Lynx_56_rank4_Minkowski_exact_nonwinner/CU10_own_centered.obj).
-* [Watertight STL](sandbox:/mnt/data/Bright_Lynx_56_rank4_Minkowski_exact_nonwinner/CU10_own_centered.stl).
+* Exact self-contained archive (`Bright_Lynx_56_rank4_Minkowski_exact_nonwinner.zip`), SHA-256 `42c42c385d4bf066649bd8c0e37c4ea1a57723dcd3afa9ce835901c7494faa5e`.
+* Archive checksum (`Bright_Lynx_56_rank4_Minkowski_exact_nonwinner.zip.sha256`).
+* Full research handoff (`RESULT.md`).
+* Exact-file manifest (`MANIFEST.sha256`).
+* Watertight OBJ (`CU10_own_centered.obj`).
+* Watertight STL (`CU10_own_centered.stl`).

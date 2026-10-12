@@ -20,10 +20,10 @@ The recovered four-defect state and all associated source arrays/scripts were ma
 
 The machine-generated handoff contains the actual winner/no-winner determination, all numerical branch outcomes, centering enclosure, limiting margins, topology transitions, and the precise certification boundary:
 
-- [Complete Markdown handoff](sandbox:/mnt/data/gomboc_slot2_handoff.md)
-- [Machine status and strongest-state classification](sandbox:/mnt/data/gomboc_slot2_status.json)
-- [Exact runtime result wrapper](sandbox:/mnt/data/gomboc_slot2_final_result.json)
-- [Complete localized-search bundle](sandbox:/mnt/data/gomboc_slot2_localized_bundle.tar.gz)
-- [Artifact checksums](sandbox:/mnt/data/gomboc_slot2_checksums.txt)
+- Complete Markdown handoff (`gomboc_slot2_handoff.md`)
+- Machine status and strongest-state classification (`gomboc_slot2_status.json`)
+- Exact runtime result wrapper (`gomboc_slot2_final_result.json`)
+- Complete localized-search bundle (`gomboc_slot2_localized_bundle.tar.gz`)
+- Artifact checksums (`gomboc_slot2_checksums.txt`)
 
 The archive includes the recovered inputs, search and audit source, raw logs, every completed branch directory, topology-transition inventory, strongest-state coordinates and transforms when available, independent verification JSON, standalone verifier, and OBJ/STL outputs. No exact or open `(1,1,0)` claim should be taken from this wrapper independently of the machine-generated handoff and independent-verification record.

@@ -6,7 +6,7 @@ AI research report · 2026-08-27 UTC
 
 # Determination
 
-No strict finite homogeneous polyhedral Gömböc was found. The required gate remains an explicit uniform-density polyhedron evaluated at its own exact volume centroid with exhaustive strict `(S,U,H)=(1,1,0)` mechanics; auxiliary centres, wall points and near-solutions do not qualify. :contentReference[oaicite:0]{index=0}
+No strict finite homogeneous polyhedral Gömböc was found. The required gate remains an explicit uniform-density polyhedron evaluated at its own exact volume centroid with exhaustive strict `(S,U,H)=(1,1,0)` mechanics; auxiliary centres, wall points and near-solutions do not qualify.
 
 This continuation nevertheless advances the M42 branch in three concrete ways:
 
@@ -14,11 +14,11 @@ This continuation nevertheless advances the M42 branch in three concrete ways:
 2. the strongest genuinely separated transverse endpoint was exactified, fully audited, given a nonzero perturbation box, and exported as OBJ/STL;
 3. an exact nonlocal obstruction was isolated at its terminal relay.
 
-The complete detailed handoff, including all 50 coordinates, all maximal-face cycles, all 67 true edges, exact primitive ledgers and continuation details, is [here](sandbox:/mnt/data/m42_research_handoff.md).
+The complete detailed handoff, including all 50 coordinates, all maximal-face cycles, all 67 true edges, exact primitive ledgers and continuation details, is here (`m42_research_handoff.md`).
 
 # Exact M42 seed reconstruction
 
-The 42 journal coordinates were interpreted literally as terminating rationals. The exact reconstruction agrees with the recorded active set and frontier. :contentReference[oaicite:1]{index=1}
+The 42 journal coordinates were interpreted literally as terminating rationals. The exact reconstruction agrees with the recorded active set and frontier.
 
 ```text
 active =
@@ -255,19 +255,19 @@ The decisive next test is whether distributed positive/negative volume can shift
 
 # Artifacts
 
-- [Complete exact bundle](sandbox:/mnt/data/m42_transverse_bundle.zip)
-- [Full research handoff with every coordinate, maximal face and true edge](sandbox:/mnt/data/m42_research_handoff.md)
-- [Exact endpoint certificate](sandbox:/mnt/data/m42_transverse_bundle/m42_transverse_certificate.json)
-- [Exact seed certificate](sandbox:/mnt/data/m42_transverse_bundle/m42_seed_certificate.json)
-- [Independent exact verifier](sandbox:/mnt/data/m42_transverse_bundle/m42_transverse_verifier.py)
-- [Directed interval box verifier](sandbox:/mnt/data/m42_transverse_bundle/m42_transverse_box_verifier.py)
-- [Verification transcript](sandbox:/mnt/data/m42_transverse_bundle/verification_transcript.txt)
-- [Exact terminal-component certificate](sandbox:/mnt/data/m42_transverse_bundle/m42_terminal_pair_certificate.txt)
-- [Obstruction/radial-bound report](sandbox:/mnt/data/m42_transverse_bundle/m42_obstruction_report.json)
-- [Exhaustive 256-subset scan](sandbox:/mnt/data/m42_transverse_bundle/bridge_subset_scan.json)
-- [OBJ](sandbox:/mnt/data/m42_transverse_bundle/m42_transverse.obj)
-- [STL](sandbox:/mnt/data/m42_transverse_bundle/m42_transverse.stl)
-- [Collapsed score-extremal checkpoint](sandbox:/mnt/data/cma03.npz)
+- Complete exact bundle (`m42_transverse_bundle.zip`)
+- Full research handoff with every coordinate, maximal face and true edge (`m42_research_handoff.md`)
+- Exact endpoint certificate (`m42_transverse_certificate.json`)
+- Exact seed certificate (`m42_seed_certificate.json`)
+- Independent exact verifier (`m42_transverse_verifier.py`)
+- Directed interval box verifier (`m42_transverse_box_verifier.py`)
+- Verification transcript (`verification_transcript.txt`)
+- Exact terminal-component certificate (`m42_terminal_pair_certificate.txt`)
+- Obstruction/radial-bound report (`m42_obstruction_report.json`)
+- Exhaustive 256-subset scan (`bridge_subset_scan.json`)
+- OBJ (`m42_transverse.obj`)
+- STL (`m42_transverse.stl`)
+- Collapsed score-extremal checkpoint (`cma03.npz`)
 
 Bundle SHA-256:
 

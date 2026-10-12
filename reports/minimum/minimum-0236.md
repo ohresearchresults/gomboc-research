@@ -22,7 +22,7 @@ The conclusion still holds when joining-edge EF points occur, provided **gamma_E
 
 The proof constructs one analytic curve. A common negative-normal metric motion first opens all permitted contacts not carried by the two end facets. The two genuine top-plane tilt freedoms then resolve the complete triangle-carried packet. A later heptagon-opening motion is protected by exact fixed-heptagon neutrality. Singular first-response matrices are bypassed by an explicit contact-preserving metric premove, not assumed nonsingular. All selected physical exits can be made positive with leading orders at most **ten** in the resulting parameter.
 
-For a weak-inclusive S1U1 input in this class, the curve gives arbitrarily close proper110 bodies of the same lattice. No actual S1U1 input is asserted, and no lower or upper complexity bound changes. The accepted internal interval remains 34<=C_min<=622. fileciteturn16file1L9-L13
+For a weak-inclusive S1U1 input in this class, the curve gives arbitrarily close proper110 bodies of the same lattice. No actual S1U1 input is asserted, and no lower or upper complexity bound changes. The accepted internal interval remains 34<=C_min<=622.
 
 ### Target-class structural consequence
 
@@ -42,7 +42,7 @@ The entire updated journal, including the complete literal parent, and the suppl
     OCTAGON_NEUTRAL_SHARP_GERMS_V2.md: 11454 bytes
     SHA256 2b7ece164c049acfbda00688770a77c8446c9c915b624196818c9b7fd1e5e1be
 
-The direct immutable parent is `minimum-0234`, SHA256 `147eb971dd88329f6c7420454ae7ece06003d4b0e48e1919078aed8b99542edc`. Its complete fixed-heptagon fibre, actual-centroid correction, exact neutrality and VF pairing are working premises. No new discrepancy with that payload was found. fileciteturn22file0L114-L130
+The direct immutable parent is `minimum-0234`, SHA256 `147eb971dd88329f6c7420454ae7ece06003d4b0e48e1919078aed8b99542edc`. Its complete fixed-heptagon fibre, actual-centroid correction, exact neutrality and VF pairing are working premises. No new discrepancy with that payload was found.
 
 The new step is not another coordinate-access result. I used the two tilt freedoms to study the **complete physical packet on the opposite triangle**. Its contact geometry sharply limits the simultaneous obligations. A normal-metric parameter makes the relevant response matrices polynomial pencils; genuine quad incidence prevents the only potentially persistent two-simple-contact rank defect. VF pairing is handled by its actual corner cone. This supplies a successful higher-order curve even at exceptional metric values where the original first-response test is singular.
 
@@ -64,7 +64,7 @@ There are seven F-boundary edges and three T-boundary edges. Every F vertex has 
 
 In particular each top vertex is incident to two of the quads. The corresponding two base edges are parallel to its two top edges and hence are not parallel to each other. Their supporting lines meet at a finite point B_i in the plane z=h. The line X_i B_i is the intersection of the two actual quad planes.
 
-These are true face-intersection statements. No integration diagonal is used as an edge. The parent also records this precise heptagon–triangle incidence and the genuine quad-line actuators. fileciteturn23file0L49-L75
+These are true face-intersection statements. No integration diagonal is used as an edge. The parent also records this precise heptagon–triangle incidence and the genuine quad-line actuators.
 
 ### Physical partition of the weak packet
 
@@ -128,7 +128,7 @@ Let G be the actual positive-definite corner Gram matrix. At the VF the supplied
     Q_1=s delta_1 u_2,     Q_2=s delta_2 u_1,
     s,delta_1,delta_2>0.                                  (4.6)
 
-Since p^T G^-1 p>0, some i has both p_i>0 and (G^-1 p)_i>0. The corresponding **complementary** pair, (P_1,Q_2) or (P_2,Q_1), therefore has two positive first derivatives. This includes a right corner; it does not discard one side of the VF obligation. The identities and their higher-order pairing semantics are retained from the literal parent. fileciteturn23file0L131-L135
+Since p^T G^-1 p>0, some i has both p_i>0 and (G^-1 p)_i>0. The corresponding **complementary** pair, (P_1,Q_2) or (P_2,Q_1), therefore has two positive first derivatives. This includes a right corner; it does not discard one side of the VF obligation. The identities and their higher-order pairing semantics are retained from the literal parent.
 
 ### 4.4 EF in a spoke
 
@@ -158,7 +158,7 @@ Then apply the physical affine map
 
     C_g(x)=x-g(1-z/h)/(1-g_z/h).                          (5.3)
 
-It fixes F pointwise and sends the actual uniform centroid exactly to 0. It is locally invertible, so the true face lattice is unchanged. This is the parent's exact actual-volume retraction, not transported old-centroid data. fileciteturn22file0L170-L184
+It fixes F pointwise and sends the actual uniform centroid exactly to 0. It is locally invertible, so the true face lattice is unchanged. This is the parent's exact actual-volume retraction, not transported old-centroid data.
 
 For a direction L, let c(L) be the raw centroid derivative at zero. It is a linear map of L, determined by (5.2). More explicitly, with d_abc=det(X_a,X_b,X_c) and W_i the raw velocities from (5.1),
 
@@ -389,7 +389,7 @@ Every denominator in (10.2) is positive: a carried VE cannot be the carrier foot
 
     P_ij'=K r_i |e_ij|^2+a.e_ij>0.
 
-The inward translation opens the bearing EF. At a bearing VF, the outgoing-edge translation gives u'=(1,0), hence the corresponding positive complementary pair, also at a right corner. These are the inherited carrier signs, with the exact physical pairing retained. fileciteturn21file0L93-L98
+The inward translation opens the bearing EF. At a bearing VF, the outgoing-edge translation gives u'=(1,0), hence the corresponding positive complementary pair, also at a right corner. These are the inherited carrier signs, with the exact physical pairing retained.
 
 An explicit raw extension of (10.1) is available in this incidence. Keep the top height k. For each of the three base edges associated with a top edge, take its moving horizontal edge vector, rotate it by ninety degrees to obtain a line normal, and retain the original top-line constant. Intersect the three top lines pairwise in their original cyclic order. Their initial pairwise determinants are nonzero. Each moving top edge is parallel to its associated base edge, so the three true quads remain planar. The remaining lateral faces are triangles. Compute the actual uniform centroid and apply (5.3), preserving the prescribed F polygon pointwise.
 
@@ -409,7 +409,7 @@ The F-carried rows are protected exactly. A genuine fixed-F-polygon motion sends
 
     r_new=q+mu_r(r-q),       mu_r>0.
 
-Thus its within-F primal rows are unchanged, and under the normal pencil its F-source polar rows are multiplied by a positive factor. Both members of each selected carrier VF pair retain their signs. This exact neutrality is the parent's full-fibre identity, not a sequential-isolation assumption. fileciteturn23file0L79-L95
+Thus its within-F primal rows are unchanged, and under the normal pencil its F-source polar rows are multiplied by a positive factor. Both members of each selected carrier VF pair retain their signs. This exact neutrality is the parent's full-fibre identity, not a sequential-isolation assumption.
 
 The resulting leading-order bookkeeping is:
 
@@ -421,7 +421,7 @@ The resulting leading-order bookkeeping is:
 | Its additional VE | Between 5 and 9 |
 | Heptagon-carried packet | 10 |
 
-Every originally nonzero primitive is retained by continuity in a sufficiently small true-lattice neighborhood. Every original weak vertex and weak facet now has a positive physical exit. The supplied extremal-selector equivalence therefore retains all original strict S,U,H labels and leaves no other strict or weak equilibria. fileciteturn16file7L78-L102
+Every originally nonzero primitive is retained by continuity in a sufficiently small true-lattice neighborhood. Every original weak vertex and weak facet now has a positive physical exit. The supplied extremal-selector equivalence therefore retains all original strict S,U,H labels and leaves no other strict or weak equilibria.
 
 All intermediate shape centring uses the ORIGINAL uniformly filled body's actual fan moments. No uniformly recentered polar is introduced. The common metric and inverse are exactly (4.1) or (4.2). To obtain a curve with the initial physical metric fixed, absorb M_lambda at the end by the analytic linear map diag(1,1,sqrt(lambda)) in the normalized frame. It preserves the zero uniform centroid and the face lattice. At t=0 this map is the identity.
 
@@ -447,12 +447,12 @@ A sufficiently small positive interval exists by the proved nonzero determinant 
 
 ## 12. What this changes for S1U1, and what remains
 
-For weak S1U1, strict H=0 is already forced by the supplied weak radial-index identity. The construction therefore converts every input satisfying the theorem's geometric/contact hypotheses to proper110 without cancelling or adding any original strict equilibrium. It does not assume that such an input has been found. fileciteturn16file7L7-L13
+For weak S1U1, strict H=0 is already forced by the supplied weak radial-index identity. The construction therefore converts every input satisfying the theorem's geometric/contact hypotheses to proper110 without cancelling or adding any original strict equilibrium. It does not assume that such an input has been found.
 
 The new result is stronger than access to the full fibre or a generic four-column cone test. It proves success on a complete class of dispersed physical packets, including arbitrary numbers of VE/VF contacts across both end facets and all their spokes. The triangle's physical contact classification, the nonzero determinant coefficient in the parallel EF–VE case, and the pointed VF bad cone replace generic rank assumptions. A moment coefficient may vanish; the normal-metric resonance bypass still works.
 
-The unresolved residual in this parallel class is now concentrated on **adverse or normal-blind EF points inside spokes**, potentially coupled to other contacts. Their occurrence is not a nonregularizability certificate. The unchanged parent `HEPT_REFLECTION_FIVE_WEAK` is an instructive boundary: its literal poles satisfy q_8-q_2=(0,c,0), so its spoke EF has gamma_EF=0, yet the parent already gives genuine full-fibre escape. Its strict count is446, not S1U1. This confirms that (1.2) identifies a remaining mechanism rather than an obstruction. fileciteturn23file0L245-L258 fileciteturn24file0L20-L30
+The unresolved residual in this parallel class is now concentrated on **adverse or normal-blind EF points inside spokes**, potentially coupled to other contacts. Their occurrence is not a nonregularizability certificate. The unchanged parent `HEPT_REFLECTION_FIVE_WEAK` is an instructive boundary: its literal poles satisfy q_8-q_2=(0,c,0), so its spoke EF has gamma_EF=0, yet the parent already gives genuine full-fibre escape. Its strict count is446, not S1U1. This confirms that (1.2) identifies a remaining mechanism rather than an obstruction.
 
-The supplied octagon V2 theorem remains a different, conditional statement: its mixed calibrated germs have positive orders at most12 and carrier gluing order13, but it does not establish feasibility for every packet. The order-ten construction here exploits parallel heptagon–triangle contact geometry and is not a replacement for that general octagonal screen. fileciteturn16file0L64-L70
+The supplied octagon V2 theorem remains a different, conditional statement: its mixed calibrated germs have positive orders at most12 and carrier gluing order13, but it does not establish feasibility for every packet. The order-ten construction here exploits parallel heptagon–triangle contact geometry and is not a replacement for that general octagonal screen.
 
 Finally, no conclusion is made that a failed original calibrated first jet is an all-orders failure, or that a failed calibrated germ is a full-shape obstruction. The present construction explicitly illustrates the former distinction: it can begin with a singular response at the original metric and still integrate to an analytic simultaneous escape. Nonparallel end geometry, other heptagonal incidences, adverse spoke-EF packets and the complete E17 S1U1 question remain separate. No attaining construction, canonical registry subtraction or bound improvement follows.

@@ -10,7 +10,7 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACT NONWINNER. No finite homogeneous convex polyhedral Gömböc with strict own-centred `(S,U,H)=(1,1,0)` was constructed.**
 
-The immutable parent `figure-0275`, SHA-256 `0f7bb810ecc8015121db8968b288d5d4087780b1e029e9a8c48babcfc5d412d2`, is the exact eight-vertex `(8,18,12)`, `(2,1,1)` QCAD body with stable faces `[0,H,C]`, `[C,AG,AD]`, unique unstable `C`, and saddle `[C,AD]`. :contentReference[oaicite:0]{index=0} This continuation does not beat that equilibrium count. It materially advances the topology by realizing and certifying the first two inclusion-minimal ninth-vertex repairs and closing the complete affine/SPD orbit of each frozen exact shape.
+The immutable parent `figure-0275`, SHA-256 `0f7bb810ecc8015121db8968b288d5d4087780b1e029e9a8c48babcfc5d412d2`, is the exact eight-vertex `(8,18,12)`, `(2,1,1)` QCAD body with stable faces `[0,H,C]`, `[C,AG,AD]`, unique unstable `C`, and saddle `[C,AD]`. This continuation does not beat that equilibrium count. It materially advances the topology by realizing and certifying the first two inclusion-minimal ninth-vertex repairs and closing the complete affine/SPD orbit of each frozen exact shape.
 
 ## Complete graph scope
 
@@ -198,16 +198,16 @@ A continuation should choose a full gauge for its hexagon and two nontriangular 
 
 Independent reconstruction reads exact V-data, enumerates supporting triples, reconstructs maximal faces and true edges, recomputes exact ordinary volume and centroid, audits every face, vertex, and four-component edge cone, rebuilds primal/polar arrow censuses, and checks OBJ/STL parity. Display diagonals of nonsimplicial faces are not treated as true edges. The clean replay ends with `ALL_KQ89_QCAD5_X3_EXACT_CHECKS_PASS`; the SHA manifest covers 166 files.
 
-- [Complete exact archive](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER.zip) — SHA-256 `81629c2acc2f02793d4d92be04479b616411eaf423ec098fc3ef6ee3dc9166f9`.
-- [Archive hash](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER.zip.sha256).
-- [Full handoff](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/RESEARCH_HANDOFF.md).
-- [README](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/README.md).
-- [Result summary](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/result_summary.json).
-- [Continuation atlas](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/next_unclassified_topology.json).
-- [Replay script](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/RUN_ALL.sh) and [successful transcript](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/CURRENT_SESSION_REVERIFY.log).
-- [Manifest](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/manifest.json) and [SHA list](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/SHA256SUMS.txt).
-- Primary: [V-data](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/vertices_centered_exact.csv), [H-data](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/H_irredundant.json), [faces](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/face_cycles.json), [true edges](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/true_edges.csv), [OBJ](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/body.obj), [STL](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/body.stl).
-- Second: [V-data](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/qcad5_x3_0abad_endpoint/vertices_centered_exact.csv), [H-data](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/qcad5_x3_0abad_endpoint/H_irredundant.json), [faces](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/qcad5_x3_0abad_endpoint/face_cycles.json), [true edges](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/qcad5_x3_0abad_endpoint/true_edges.csv), [OBJ](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/qcad5_x3_0abad_endpoint/body.obj), [STL](sandbox:/mnt/data/Keen_Quartz_89_QCAD5_X3_exact_NONWINNER/qcad5_x3_0abad_endpoint/body.stl).
+- Complete exact archive (`Keen_Quartz_89_QCAD5_X3_exact_NONWINNER.zip`) — SHA-256 `81629c2acc2f02793d4d92be04479b616411eaf423ec098fc3ef6ee3dc9166f9`.
+- Archive hash (`Keen_Quartz_89_QCAD5_X3_exact_NONWINNER.zip.sha256`).
+- Full handoff (`RESEARCH_HANDOFF.md`).
+- README (`README.md`).
+- Result summary (`result_summary.json`).
+- Continuation atlas (`next_unclassified_topology.json`).
+- Replay script (`RUN_ALL.sh`) and successful transcript (`CURRENT_SESSION_REVERIFY.log`).
+- Manifest (`manifest.json`) and SHA list (`SHA256SUMS.txt`).
+- Primary: V-data (`vertices_centered_exact.csv`), H-data (`H_irredundant.json`), faces (`face_cycles.json`), true edges (`true_edges.csv`), OBJ (`body.obj`), STL (`body.stl`).
+- Second: V-data (`vertices_centered_exact.csv`), H-data (`H_irredundant.json`), faces (`face_cycles.json`), true edges (`true_edges.csv`), OBJ (`body.obj`), STL (`body.stl`).
 
 ## Bottom line
 

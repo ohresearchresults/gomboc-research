@@ -8,12 +8,12 @@ AI research report · 2026-08-28 UTC
 
 The connected three-patch investigation, exactification branch, and strongest materialized fallback are preserved in the following immutable artifacts:
 
-- [Complete branch-specific research report](sandbox:/mnt/data/gomboc_handoff.md)
-- [Full reproducibility package](sandbox:/mnt/data/gomboc_complete_handoff.zip)
-- [Machine-readable branch status](sandbox:/mnt/data/handoff_status.json)
-- [Payload manifest with per-file SHA-256 hashes](sandbox:/mnt/data/gomboc_manifest.json)
-- [Final archive SHA-256](sandbox:/mnt/data/gomboc_complete_handoff.sha256)
-- [Artifact entry point and validation rules](sandbox:/mnt/data/GOMBOC_HANDOFF_README.md)
+- Complete branch-specific research report (`gomboc_handoff.md`)
+- Full reproducibility package (`gomboc_complete_handoff.zip`)
+- Machine-readable branch status (`handoff_status.json`)
+- Payload manifest with per-file SHA-256 hashes (`gomboc_manifest.json`)
+- Final archive SHA-256 (`gomboc_complete_handoff.sha256`)
+- Artifact entry point and validation rules (`GOMBOC_HANDOFF_README.md`)
 
 ## Work embodied in the handoff
 

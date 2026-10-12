@@ -11,7 +11,7 @@ AI research report · 2026-09-21 UTC · [Export notes](../../catalog/coverage.md
 
 The enlargement is substantive in two ways. The entire family remains outside the previous opposite-pair error tube. Moreover, an exact own-COM control inside the new family violates an actual weighted-arrow inequality of the parent's broader fixed-row coefficient domain, within that row's original parameter cell. Thus the new result is not merely an application of that previously certified intrinsic domain.
 
-The complete recovery below also contains the **unchanged original 504-row and 624-row source/data units**, together with their original physical controls. Unlike the preceding two handoffs, its compressed input is complete. The required parent is `minimum-0157`, declared immutable SHA-256 `44fc5a97e018853bbce49bd9861e28ef9216c77c292f756be15da57aa43da0c5`. Its two-parameter coefficient theorem is recorded in the supplied journal. :contentReference[oaicite:0]{index=0}
+The complete recovery below also contains the **unchanged original 504-row and 624-row source/data units**, together with their original physical controls. Unlike the preceding two handoffs, its compressed input is complete. The required parent is `minimum-0157`, declared immutable SHA-256 `44fc5a97e018853bbce49bd9861e28ef9216c77c292f756be15da57aa43da0c5`. Its two-parameter coefficient theorem is recorded in the supplied journal.
 
 No own110 attainer, whole balanced11shape exclusion, whole E17 exclusion, or registry decrement is claimed.
 
@@ -361,7 +361,7 @@ There is **one physical VF point** at vertex0, represented by packets on two act
 
 Including the two endpoints of the row123 countercontrol, the new audit contains six own-COM mechanical records on five distinct actual geometries: five weak000 records and one single-VF record. For every true edge it verifies the edge-foot/normal-cone identity with the same inverse pair, then merges coincident points. A zero primitive is never counted as a weak equilibrium without the whole nonpositive packet.
 
-The earlier controls are also preserved unchanged: the three central222 bodies, the genuine small-tube nonparallel body, own277 versus non-own312, the original own446 VF control, and the original free-reference110/own334 control. The last remains a non-attainer; the supplied sources explicitly distinguish its false center from uniform g. :contentReference[oaicite:1]{index=1}
+The earlier controls are also preserved unchanged: the three central222 bodies, the genuine small-tube nonparallel body, own277 versus non-own312, the original own446 VF control, and the original free-reference110/own334 control. The last remains a non-attainer; the supplied sources explicitly distinguish its false center from uniform g.
 
 ## 8. What was done and what remains
 
@@ -369,7 +369,7 @@ The latest1785-line journal was read consecutively through EOF, including the co
 
 The scientific work first lifted the actual two-fan moments to an independent second basal motion. The unchanged624-row attempt then failed as the exact counts above show. Numerical cutting-plane work located additional rows; the final scientific evidence is the **complete frozen integer input and exact verifier**, not numerical solver status. Every coefficient inequality, continuous cell cover, and actual control asserted here has been executed with exact arithmetic. A fresh directory containing only the final recovery wrapper reproduced the new report on build and then checked it byte for byte.
 
-The old504-row and624-row suites were not rerun merely to re-establish authorship. Their **original executable bytes and full row data** are transported and separately runnable. This repairs the specific earlier truncation; it does not pretend that the old truncated inline strings were valid. The earlier payload explicitly identified that transport failure. :contentReference[oaicite:2]{index=2}
+The old504-row and624-row suites were not rerun merely to re-establish authorship. Their **original executable bytes and full row data** are transported and separately runnable. This repairs the specific earlier truncation; it does not pretend that the old truncated inline strings were valid. The earlier payload explicitly identified that transport failure.
 
 The open complement includes the other six fixed cut coordinates, the two projective slopes outside the stated fixed values, general valid pencils outside the available positive coefficient domains, unbalanced B8 types3/7 and4/6, and E17 without an octagonal facet. The theorem does not remove any of those restrictions by normalization.
 
@@ -948,4 +948,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Supplemental copies: [complete readable handoff](sandbox:/mnt/data/b8_three_shape_handoff.md), [all source units and exact reports](sandbox:/mnt/data/b8_three_shape_handoff.zip), and [complete JSON handoff](sandbox:/mnt/data/b8_three_shape_result.json). The inline capsule above is the full recovery; these files are conveniences.
+Supplemental copies: complete readable handoff (`b8_three_shape_handoff.md`), all source units and exact reports (`b8_three_shape_handoff.zip`), and complete JSON handoff (`b8_three_shape_result.json`). The inline capsule above is the full recovery; these files are conveniences.

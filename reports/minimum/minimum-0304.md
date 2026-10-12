@@ -35,7 +35,7 @@ Recovery capsule part 2 of 2 - MARKED_FACET_VARIATION_COMPLETE_EXECUTABLE_V1.md:
 3c3a1548d1643bb82eff6d5d47f161acda3da2dd61195e07e6fc565008b6bcb2
 ```
 
-No new argument below relies on an uninspected detail of those two tilt files. The required clipping, conic, convex-height and adapted-test premises are already present in the unchanged supplied context. The exact two-mean reduction and actual planar conventions remain those of `minimum-0290`; the new theorems do not repeat or modify that reduction. fileciteturn11file0L24-L27
+No new argument below relies on an uninspected detail of those two tilt files. The required clipping, conic, convex-height and adapted-test premises are already present in the unchanged supplied context. The exact two-mean reduction and actual planar conventions remain those of `minimum-0290`; the new theorems do not repeat or modify that reduction.
 
 ## 3. Actual conventions
 
@@ -63,7 +63,7 @@ f(Y)=m+A Y²+2m eta Y,         A=J/I>0,
 Phi(t,Y)=(t-f(Y))/J.
 ```
 
-At R>3/2, f has strictly positive minimum. Off-marked extreme points satisfy Phi>=0. Positive-density straight edges must meet a marked endpoint, and the remaining curved boundary is made from arcs of this same parabola. These are imported conic facts, not a new finite-vertex localization. fileciteturn11file0L56-L62
+At R>3/2, f has strictly positive minimum. Off-marked extreme points satisfy Phi>=0. Positive-density straight edges must meet a marked endpoint, and the remaining curved boundary is made from arcs of this same parabola. These are imported conic facts, not a new finite-vertex localization.
 
 At a full joint maximum, actual affine clipping gives
 
@@ -71,7 +71,7 @@ At a full joint maximum, actual affine clipping gives
 nu(psi)=int_K Phi psi + int_e Y² psi/B2 =0
 ```
 
-for every affine psi, including density-zero cases. The derivative bulk integrals here are unweighted. fileciteturn11file0L88-L94
+for every affine psi, including density-zero cases. The derivative bulk integrals here are unweighted.
 
 ## 4. Complete parallel-ceiling directional theorem
 
@@ -320,7 +320,7 @@ gamma=D_Z/I-C_Z/B2>0,
 B_Z=int_e ell Z=-m(B0-B1²/B2).
 ```
 
-The positivity of gamma is the accepted consequence of actual test stationarity and the strict normal spectral gap, not an extra numerical hypothesis. Both Y and Z are centered and orthogonal in the original volume and facet quadratic forms. fileciteturn12file0L17-L23
+The positivity of gamma is the accepted consequence of actual test stationarity and the strict normal spectral gap, not an extra numerical hypothesis. Both Y and Z are centered and orthogonal in the original volume and facet quadratic forms.
 
 Let psi be an affine density variation and let h be any twice continuously differentiable function compactly supported inside the free arcs, away from their joins and any density-zero points. Move each lower arc by
 

@@ -8,7 +8,7 @@ AI research report · 2026-08-25 UTC
 
 ## Verdict
 
-**Fallback. No own-centroid homogeneous polyhedral Gömböc was found.** The exact final body is a finite rational convex polyhedron with exact uniform-volume centroid at the origin and strict incidence separation, but its actual equilibrium class is **`(S,U,H)=(2,3,3)`**, not `(1,1,0)`. That fails the run's explicit acceptance gate, which excludes artificial centers, wall points, and incomplete graph-only audits. :contentReference[oaicite:0]{index=0} This resolves the ambiguity noted after the prior wrapper-only result. :contentReference[oaicite:1]{index=1}
+**Fallback. No own-centroid homogeneous polyhedral Gömböc was found.** The exact final body is a finite rational convex polyhedron with exact uniform-volume centroid at the origin and strict incidence separation, but its actual equilibrium class is **`(S,U,H)=(2,3,3)`**, not `(1,1,0)`. That fails the run's explicit acceptance gate, which excludes artificial centers, wall points, and incomplete graph-only audits. This resolves the ambiguity noted after the prior wrapper-only result.
 
 Literal `OUTCOME.json`:
 

@@ -6,7 +6,7 @@ AI research report · 2026-08-27 UTC
 
 # Finite handoff — exact post-bridge fallback, not a winner
 
-No strict `(1,1,0)` body was found. The strongest fully materialized post-bridge state has exact class `(2,2,2)`, with 20 active bridge vertices and true f-vector `(30,84,56,168)`. It reconstructs the journal's dyadic `radial_balanced14` seed and its target/residual features exactly. :contentReference[oaicite:0]{index=0} It audits every true edge over all four exclusion components and permits cyclic assignments, as required by the journal's correction. :contentReference[oaicite:1]{index=1}
+No strict `(1,1,0)` body was found. The strongest fully materialized post-bridge state has exact class `(2,2,2)`, with 20 active bridge vertices and true f-vector `(30,84,56,168)`. It reconstructs the journal's dyadic `radial_balanced14` seed and its target/residual features exactly. It audits every true edge over all four exclusion components and permits cyclic assignments, as required by the journal's correction.
 
 ## Exact generator and closure
 
@@ -93,14 +93,14 @@ In the polar dual, `q_F=n_F/h_F`; stable primal faces are unstable polar vertice
 
 ## Independent artifacts
 
-- [Complete reproducible bundle](sandbox:/mnt/data/radial_cyclic_bridge_bundle.zip)
-- [Exact rational H/V/incidence/full audit](sandbox:/mnt/data/radial_cyclic_bridge_bundle/candidate_exact.json)
-- [Exact dyadic generator rows](sandbox:/mnt/data/radial_cyclic_bridge_bundle/source_vertices_dyadic.csv)
-- [Independent clean-room verifier](sandbox:/mnt/data/radial_cyclic_bridge_bundle/verify_bridge_cleanroom.py)
-- [Verification certificate](sandbox:/mnt/data/radial_cyclic_bridge_bundle/cleanroom_verification.json)
-- [68-cell hull-rebuilding cascade](sandbox:/mnt/data/radial_cyclic_bridge_bundle/homotopy_report.md)
-- [Mixed witness and obstruction report](sandbox:/mnt/data/radial_cyclic_bridge_bundle/obstruction_and_witness_report.md)
-- [OBJ](sandbox:/mnt/data/radial_cyclic_bridge_bundle/candidate.obj)
-- [STL](sandbox:/mnt/data/radial_cyclic_bridge_bundle/candidate.stl)
+- Complete reproducible bundle (`radial_cyclic_bridge_bundle.zip`)
+- Exact rational H/V/incidence/full audit (`candidate_exact.json`)
+- Exact dyadic generator rows (`source_vertices_dyadic.csv`)
+- Independent clean-room verifier (`verify_bridge_cleanroom.py`)
+- Verification certificate (`cleanroom_verification.json`)
+- 68-cell hull-rebuilding cascade (`homotopy_report.md`)
+- Mixed witness and obstruction report (`obstruction_and_witness_report.md`)
+- OBJ (`candidate.obj`)
+- STL (`candidate.stl`)
 
 Exact-data SHA-256: `791a80aebfdf5ece78c99853db158b1549494ba4579223575f02b8c74a50a77c`. Most useful continuation: subdivide the angular bottlenecks `9-17` and `27-1`, increase the target polar radius relative to `[5,11,25]`, and constrain one shared circuit parameter so the `13/7/9`, `0/10`, and `1/10/108` event brackets collapse to the same isolated root.

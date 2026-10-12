@@ -8,9 +8,9 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Disposition
 
-No new own110/additionalweak000 body is promoted. The authoritative entrance remains **QC52_SURVIVING_ROOT124_G9_F8B57E0F**, the source-complete f8b57e0f surviving realization, not the unrecovered historical 8adb object. It is V174/E308/F136, C616, own121/additionalweak000, with S input/face 3, U raw 94/124 and H124–134; its complete physical bar and one-cap exclusion are the inherited certified data. :contentReference[oaicite:0]{index=0}
+No new own110/additionalweak000 body is promoted. The authoritative entrance remains **QC52_SURVIVING_ROOT124_G9_F8B57E0F**, the source-complete f8b57e0f surviving realization, not the unrecovered historical 8adb object. It is V174/E308/F136, C616, own121/additionalweak000, with S input/face 3, U raw 94/124 and H124–134; its complete physical bar and one-cap exclusion are the inherited certified data.
 
-The new exact result closes a previously open finite window: **every positive parameter of the specific tangent-axis affine family used by the QC52 gate-opening countercontrol is excluded from own110/additionalweak000.** The earlier parent proved only that sufficiently large tangent stretch opens L and Psi while eventually forcing two strict U; it explicitly left the finite initial interval and the full affine orbit open. :contentReference[oaicite:1]{index=1} This handoff proves the entire one-dimensional axis, including compression, by an exhaustive exact root-interval sweep. It is a scoped obstruction, not a full-affine or changed-contact exclusion.
+The new exact result closes a previously open finite window: **every positive parameter of the specific tangent-axis affine family used by the QC52 gate-opening countercontrol is excluded from own110/additionalweak000.** The earlier parent proved only that sufficiently large tangent stretch opens L and Psi while eventually forcing two strict U; it explicitly left the finite initial interval and the full affine orbit open. This handoff proves the entire one-dimensional axis, including compression, by an exhaustive exact root-interval sweep. It is a scoped obstruction, not a full-affine or changed-contact exclusion.
 
 ## Exact parent replay actually used
 

@@ -243,7 +243,7 @@ C192_FINITE_CHART_CERTIFICATE.json
 
 The source dictionary has27,937 bytes, SHA-256 `9821e87bdf743b8e1b9732bc2e3c40623e9b6b1cf5e41d9fba3bde6e3694ce1b`; its XZ payload has9,464 bytes, SHA-256 `ca4ae42b3f179d6a8d34a1a1254285ef7cf3662677c08543c924a1b922946839`. The decoder has12,746 bytes, SHA-256 `f6922c845714c89d5b73102476ab89764000261820427224f20717a250e6b15c`.
 
-A convenience copy is [RECOVER_C192_FINITE_ENVELOPE.py](sandbox:/mnt/data/RECOVER_C192_FINITE_ENVELOPE.py). The complete decoder follows inline; it reconstructs all exact source and input bytes independently of that link.
+A convenience copy is RECOVER_C192_FINITE_ENVELOPE.py. The complete decoder follows inline; it reconstructs all exact source and input bytes independently of that link.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

@@ -4,7 +4,7 @@ AI research report · 2026-09-03 UTC
 
 ---
 
-The durable journal required the fifth-support continuation to delete the complete `[1371,2369]` forcing component, release old rows when necessary, and audit every inserted or inherited star-changed internal edge before moment closure. :contentReference[oaicite:0]{index=0} The acceptance gate remains a finite uniform-density body at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete incidence and margins, independent verification, and matching mesh data. :contentReference[oaicite:1]{index=1}
+The durable journal required the fifth-support continuation to delete the complete `[1371,2369]` forcing component, release old rows when necessary, and audit every inserted or inherited star-changed internal edge before moment closure. The acceptance gate remains a finite uniform-density body at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete incidence and margins, independent verification, and matching mesh data.
 
 # Calm Quartz 90 — exact wall-242 fifth-support/full-star determination
 
@@ -270,25 +270,25 @@ The first nonrepeating successor is a sixth support `K`, or a two-support change
 
 ## Artifacts
 
-- [Complete exact NONWINNER archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER.zip) — SHA-256 `57aa099ad28254339858fcb9b582d094dafcba849d9b1f0ec3039116f99f6ef9`, 831,050 bytes.
-- [Full handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_result.json)
-- [Clean verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_clean_verification.json)
-- [Clean replay transcript](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_clean_replay.txt)
-- [Exact generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/data/generator_exact.json)
-- [Exact supplied V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/data/input_vertices_exact.csv)
-- [Exact own-centred active V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/data/fifth_support17_exact_H_irredundant.csv)
-- [All face mechanics](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/data/fifth_support17_exact_faces.csv)
-- [All directed vertex primitives](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/data/fifth_support17_exact_vertex_primitives.csv)
-- [All true-edge full cones](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/data/fifth_support17_exact_true_edges_full_cones.csv)
-- [Complete external-arrow ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/data/external_arrow_full_ledger.csv)
-- [Full-star transition certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/certificates/fifth_support_shared_global_patch.json)
-- [External-arrow certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/certificates/external_arrow_design_certificate.json)
-- [Perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Forcing-edge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/certificates/residual_forced_edge_2369_2732.json)
-- [Independent verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/scripts/verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER/mesh/body.stl)
+- Complete exact NONWINNER archive (`Calm_Quartz_90_wall242_fifth_support_exact_NONWINNER.zip`) — SHA-256 `57aa099ad28254339858fcb9b582d094dafcba849d9b1f0ec3039116f99f6ef9`, 831,050 bytes.
+- Full handoff (`Calm_Quartz_90_wall242_fifth_support_handoff.md`)
+- Structured result (`Calm_Quartz_90_wall242_fifth_support_result.json`)
+- Clean verification receipt (`Calm_Quartz_90_wall242_fifth_support_clean_verification.json`)
+- Clean replay transcript (`Calm_Quartz_90_wall242_fifth_support_clean_replay.txt`)
+- Exact generator (`generator_exact.json`)
+- Exact supplied V-data (`input_vertices_exact.csv`)
+- Exact own-centred active V-data (`active_vertices_centered_exact.csv`)
+- Irredundant H-data (`fifth_support17_exact_H_irredundant.csv`)
+- All face mechanics (`fifth_support17_exact_faces.csv`)
+- All directed vertex primitives (`fifth_support17_exact_vertex_primitives.csv`)
+- All true-edge full cones (`fifth_support17_exact_true_edges_full_cones.csv`)
+- Complete external-arrow ledger (`external_arrow_full_ledger.csv`)
+- Full-star transition certificate (`fifth_support_shared_global_patch.json`)
+- External-arrow certificate (`external_arrow_design_certificate.json`)
+- Perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Forcing-edge certificate (`residual_forced_edge_2369_2732.json`)
+- Independent verifier (`verify_independent.py`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 **Final statement:** `NONWINNER`, rigorously delimited. Fifth support `J` and release of `1371,I` genuinely destroy the fourth-support packet in one connected exact positive-volume full-star replacement. The endpoint remains open `(2,2,2)` solely because star-changed edge `[2369,2732]` becomes the next exact forcing component; no changed internal edge was left unaudited.

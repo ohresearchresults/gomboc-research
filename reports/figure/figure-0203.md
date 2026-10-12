@@ -93,7 +93,7 @@ boundary triangles=17284,
 8644-12966+4324=2.
 ```
 
-The clean verifier reconstructs those counts directly from the 8,644 active triples and verifies that each of the 12,966 support-row pairs has exactly two incident vertices. It also reconstructs all 25,932 directed face adjacencies and all 25,932 directed vertex adjacencies. :contentReference[oaicite:1]{index=1}
+The clean verifier reconstructs those counts directly from the 8,644 active triples and verifies that each of the 12,966 support-row pairs has exactly two incident vertices. It also reconstructs all 25,932 directed face adjacencies and all 25,932 directed vertex adjacencies.
 
 ## Complete mechanical wall system
 
@@ -153,7 +153,7 @@ where the eigenvalues are ordered
 lambda1>=lambda2>=lambda3>0.
 ```
 
-The independently rerun stable cover performs 1,708,848 exact outward boundary checks. The unstable cover performs 826,913 exact outward boundary checks. The end-to-end verifier extracts and reruns both verifiers from the hash-locked parent archive rather than trusting stored labels. :contentReference[oaicite:2]{index=2}
+The independently rerun stable cover performs 1,708,848 exact outward boundary checks. The unstable cover performs 826,913 exact outward boundary checks. The end-to-end verifier extracts and reruns both verifiers from the hash-locked parent archive rather than trusting stored labels.
 
 A possible winner surviving both collars must satisfy
 
@@ -196,7 +196,7 @@ Hence every still-possible trace-one winner lies in the explicit closed five-coo
 |K01|,|K02|,|K12| <= 2029/4262.
 ```
 
-The recovered atlas records this sharpened box and the exact derivation. :contentReference[oaicite:3]{index=3}
+The recovered atlas records this sharpened box and the exact derivation.
 
 ## Exact no-gap core atlas
 
@@ -258,7 +258,7 @@ The clean-room verifier reconstructs every subset from its member hash, regenera
 unresolved_cells=0.
 ```
 
-Its implementation explicitly excludes discovery state, floating search margins, and stored unverified boundary lists from the proof. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+Its implementation explicitly excludes discovery state, floating search margins, and stored unverified boundary lists from the proof.
 
 ## Consequence for the six assigned entrances
 
@@ -348,7 +348,7 @@ and its minimum directed vertex-wall clearance is approximately
 
 The exact rational Sylvester bounds and all 51,864 primitive intervals are retained in the prior endpoint archive. Its H table contains 4,324 actual maximal-face rows; its V table contains 8,644 actual vertices; its edge table contains all 12,966 true edges. The OBJ/STL contain 17,284 oriented boundary triangles and are watertight, with every triangulated edge of multiplicity two.
 
-The acceptance gate requires exactly this kind of finite H/V, true-edge, positive-margin and mesh evidence; a near-wall or merely theorem-level unexpanded candidate would not qualify as a winner. :contentReference[oaicite:6]{index=6}
+The acceptance gate requires exactly this kind of finite H/V, true-edge, positive-margin and mesh evidence; a near-wall or merely theorem-level unexpanded candidate would not qualify as a winner.
 
 ## Independent verification
 
@@ -392,7 +392,7 @@ No invertible linear/SPD image of the exact Santaló-centred fixed
 4,324-row lattice has strict own-centroid class (1,1,0).
 ```
 
-The verifier source expressly reads no discovery pickle or floating search result. :contentReference[oaicite:7]{index=7}
+The verifier source expressly reads no discovery pickle or floating search result.
 
 The complete recovered package was also extracted into a clean directory and replayed through `verify_package.py`. The package verifier checks every manifested SHA-256 before rerunning all three theorem verifiers.
 
@@ -445,23 +445,23 @@ A useful successor must introduce a genuine circuit or support-row event that in
 
 ## Reusable artifacts
 
-- [Complete global fixed-lattice impossibility archive](sandbox:/mnt/data/Calm_Quartz_90_fixed_SPD_global_impossibility.zip)
-- [Complete Markdown handoff](sandbox:/mnt/data/Calm_Quartz_90_global_fixed_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_global_fixed_result.json)
-- [Clean package-verification transcript](sandbox:/mnt/data/Calm_Quartz_90_fixed_SPD_global_impossibility_VERIFY.txt)
-- [End-to-end theorem receipt](sandbox:/mnt/data/Calm_Quartz_90_global_fixed_FULL_VERIFY_RESULT.json)
-- [Core-atlas verification receipt](sandbox:/mnt/data/Calm_Quartz_90_global_fixed_CORE_VERIFY_RESULT.json)
-- [Exact compressed no-gap core atlas](sandbox:/mnt/data/Calm_Quartz_90_fixed_SPD_global_impossibility/core_atlas.json.gz)
-- [Independent core verifier](sandbox:/mnt/data/Calm_Quartz_90_fixed_SPD_global_impossibility/verify_core_atlas_dual.py)
-- [End-to-end theorem verifier](sandbox:/mnt/data/Calm_Quartz_90_fixed_SPD_global_impossibility/verify_full_theorem.py)
-- [Six-entrance global coverage certificate](sandbox:/mnt/data/Calm_Quartz_90_fixed_SPD_global_impossibility/ALTERNATE_STABLE_SIX_ENTRANCE_GLOBAL_COVERAGE.json)
-- [SHA-256 manifest](sandbox:/mnt/data/Calm_Quartz_90_fixed_SPD_global_impossibility/SHA256SUMS.txt)
-- [PRE endpoint H data](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_H.csv)
-- [PRE endpoint V data](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_V.csv)
-- [PRE endpoint true-edge data](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_true_edges.csv)
-- [PRE endpoint OBJ](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_mesh.obj)
-- [PRE endpoint STL](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_mesh.stl)
-- [Prior fully audited endpoint archive](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER.zip)
+- Complete global fixed-lattice impossibility archive (`Calm_Quartz_90_fixed_SPD_global_impossibility.zip`)
+- Complete Markdown handoff (`Calm_Quartz_90_global_fixed_handoff.md`)
+- Structured result (`Calm_Quartz_90_global_fixed_result.json`)
+- Clean package-verification transcript (`Calm_Quartz_90_fixed_SPD_global_impossibility_VERIFY.txt`)
+- End-to-end theorem receipt (`Calm_Quartz_90_global_fixed_FULL_VERIFY_RESULT.json`)
+- Core-atlas verification receipt (`Calm_Quartz_90_global_fixed_CORE_VERIFY_RESULT.json`)
+- Exact compressed no-gap core atlas (`core_atlas.json.gz`)
+- Independent core verifier (`verify_core_atlas_dual.py`)
+- End-to-end theorem verifier (`verify_full_theorem.py`)
+- Six-entrance global coverage certificate (`ALTERNATE_STABLE_SIX_ENTRANCE_GLOBAL_COVERAGE.json`)
+- SHA-256 manifest (`SHA256SUMS.txt`)
+- PRE endpoint H data (`pre16494_H.csv`)
+- PRE endpoint V data (`pre16494_V.csv`)
+- PRE endpoint true-edge data (`pre16494_true_edges.csv`)
+- PRE endpoint OBJ (`pre16494_mesh.obj`)
+- PRE endpoint STL (`pre16494_mesh.stl`)
+- Prior fully audited endpoint archive (`Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER.zip`)
 
 ## Final statement
 

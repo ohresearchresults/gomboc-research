@@ -19,7 +19,7 @@ The new excluded basal domain is
 
 **Every genuine homogeneous H5 body in this domain has at least two strict unstable vertices under every SPD metric, including arbitrary conditioning and incidental weak contacts.** Its reflected domain is excluded as well. More strongly, every complete rooted true-edge weak-arrow cone is empty for every nonzero PSD metric. The collapsed taper endpoints assert indexed matrix limits, not ten-vertex bodies.
 
-This does not close all H5, any complete E17 incidence class, or the proper110 problem. The supplied accepted interval **34 <= C_min <= 622 remains unchanged**. fileciteturn0file3L9-L11 The new work is not an extension of the coordinator's full-basal high-lambda collar: the new basal centre lies outside both all-taper macros, and its exclusion covers every taper, including the lower/middle frontier. It is nevertheless a local basal tube, not a full-basal theorem.
+This does not close all H5, any complete E17 incidence class, or the proper110 problem. The supplied accepted interval **34 <= C_min <= 622 remains unchanged**. The new work is not an extension of the coordinator's full-basal high-lambda collar: the new basal centre lies outside both all-taper macros, and its exclusion covers every taper, including the lower/middle frontier. It is nevertheless a local basal tube, not a full-basal theorem.
 
 ## Input authority and reading
 
@@ -30,11 +30,11 @@ I read the complete single assignment fragment and all four supplied files throu
 - Three-quarters proof/verifier: 9887 bytes, `03b93a1aba81c8e48f9557af603bb072d4c426b8dcfcd0bbc03312552e153d8f`.
 - Journal: 282584 bytes, `cdcc565ed833295d0f294c6eb0129aa894085eb78fc85d9203f82d1f14f92f0b`.
 
-The literal geometry and actual moment convention are those of the supplied source, not an arithmetic vertex centre. fileciteturn0file0L76-L100 The supplied full-basal lambda >= 3/4 theorem and the all-taper macro/reflection determine the starting boundary. fileciteturn0file2L3-L6 fileciteturn0file3L910-L921 Archived sources mentioned in the journal were not treated as accessible computational inputs. No missing archived dependency is needed to reconstruct the results below. I did not independently replay the supplied 332-certificate atlas; the new atlas has its own independent exact checker.
+The literal geometry and actual moment convention are those of the supplied source, not an arithmetic vertex centre. The supplied full-basal lambda >= 3/4 theorem and the all-taper macro/reflection determine the starting boundary. Archived sources mentioned in the journal were not treated as accessible computational inputs. No missing archived dependency is needed to reconstruct the results below. I did not independently replay the supplied 332-certificate atlas; the new atlas has its own independent exact checker.
 
 ## 1. Exact physical normal-metric elimination
 
-Normal contraction was already recorded in the notebook; I do not count that observation alone as new. fileciteturn0file3L758-L761 The useful additions are an exact necessary-and-sufficient threshold criterion, correct treatment of zero cross-layer derivatives, a complete fixed-shear tangential-metric decision, and the physical inverse-metric census.
+Normal contraction was already recorded in the notebook; I do not count that observation alone as new. The useful additions are an exact necessary-and-sufficient threshold criterion, correct treatment of zero cross-layer derivatives, a complete fixed-shear tangential-metric decision, and the physical inverse-metric census.
 
 Fix an actual body with vertices on z=0 and z=1 and its actual interior centre g=(c,gamma), 0<gamma<1. Every SPD metric is uniquely
 
@@ -745,4 +745,4 @@ def verify():
 if __name__=='__main__':verify()
 ```
 
-Convenience copy: [complete source-and-output capsule](sandbox:/mnt/data/h5_frontier_capsule.zip).
+Convenience copy: complete source-and-output capsule (`h5_frontier_capsule.zip`).

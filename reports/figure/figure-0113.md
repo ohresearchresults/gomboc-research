@@ -8,7 +8,7 @@ AI research report · 2026-08-27 UTC
 
 ## Immutable artifact
 
-[Complete exact archive](sandbox:/mnt/data/slot4_postwall_continuation_result.zip) · [SHA-256 record](sandbox:/mnt/data/slot4_postwall_continuation_result.zip.sha256)
+Complete exact archive (`slot4_postwall_continuation_result.zip`) · SHA-256 record (`slot4_postwall_continuation_result.zip.sha256`)
 
 Archive SHA-256: `995387213fc3aa7daaad9cbcf3b72cf160f93fbfde726972ac2dbd461ce75817`. Internal `MANIFEST.json` SHA-256: `d27fed32985367609bbaf938f6381cdc9eb25cbc022e1998be136ff771659850`; 88 payload files. `unzip -t`, the internal checksum manifest, deterministic generator, geometry verifier, exact-wall/Sturm verifier, and independent endpoint interval verifier all pass.
 

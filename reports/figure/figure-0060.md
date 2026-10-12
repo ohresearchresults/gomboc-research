@@ -8,11 +8,11 @@ AI research report · 2026-08-25 UTC
 
 ## Вердикт
 
-Открытый однородный полиэдральный гёмбёц в исследованном 13-гранном локальном кластере **не найден**. Ни один сохранённый или просканированный объект не имеет собственного-центроидного класса `(S,U,H)=(1,1,0)`. Поэтому победная рационализация и OBJ/STL гёмбёца не выполнялись: исходный критерий требует конечного точного H/V-объекта, собственного точного объёмного центроида и строгого полного аудита, а стеночный или приблизительный объект не принимается. :contentReference[oaicite:0]{index=0}
+Открытый однородный полиэдральный гёмбёц в исследованном 13-гранном локальном кластере **не найден**. Ни один сохранённый или просканированный объект не имеет собственного-центроидного класса `(S,U,H)=(1,1,0)`. Поэтому победная рационализация и OBJ/STL гёмбёца не выполнялись: исходный критерий требует конечного точного H/V-объекта, собственного точного объёмного центроида и строгого полного аудита, а стеночный или приблизительный объект не принимается.
 
-Оставленный журналом эксперимент — намеренно немонотонная двухстадийная отмена через две сохранённые клетки `(2,3,3)` с повторным построением всей оболочки после каждой circuit-стенки — завершён. :contentReference[oaicite:1]{index=1} Получены две полностью материализованные траектории. В каждой первая `U–H`-пара действительно отменяется, но следующая `S–H`-пара не исчезает: она переносится на другие грани/рёбра либо переживает крупный коллапс числа активных фасеток.
+Оставленный журналом эксперимент — намеренно немонотонная двухстадийная отмена через две сохранённые клетки `(2,3,3)` с повторным построением всей оболочки после каждой circuit-стенки — завершён. Получены две полностью материализованные траектории. В каждой первая `U–H`-пара действительно отменяется, но следующая `S–H`-пара не исчезает: она переносится на другие грани/рёбра либо переживает крупный коллапс числа активных фасеток.
 
-Полный воспроизводимый архив: [c66_two_stage_handoff.zip](sandbox:/mnt/data/gomboc_langi/c66_two_stage_handoff.zip). Его SHA-256 — `7f52c3fe481c71209222e8c8fcc7db8c5de07decb728c6267c00705acaaeaa7d`; файл проверки: [c66_two_stage_handoff.zip.sha256](sandbox:/mnt/data/gomboc_langi/c66_two_stage_handoff.zip.sha256).
+Полный воспроизводимый архив: c66_two_stage_handoff.zip. Его SHA-256 — `7f52c3fe481c71209222e8c8fcc7db8c5de07decb728c6267c00705acaaeaa7d`; файл проверки: c66_two_stage_handoff.zip.sha256.
 
 ## 1. Дисциплина вычисления
 
@@ -33,7 +33,7 @@ AI research report · 2026-08-25 UTC
 
 Поиск не переносил фиксированный witness-list через стенку. Каждая новая incidence-signature проходила глобальный rebuild. Beam сохранял топологически различные клетки и разрешал временное ухудшение scalar score; ранжирование велось по числу дефектов, фазе cancellation, сохранению целевых равновесий и открытому incidence-запасу, а не по монотонному max-min.
 
-В архиве это воспроизводят [dynamic_morse_beam.py](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/records/dynamic_morse_beam.py), [raw_h_audit.py](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/records/raw_h_audit.py) и [safe_scan_one.py](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/records/safe_scan_one.py).
+В архиве это воспроизводят dynamic_morse_beam.py, raw_h_audit.py и safe_scan_one.py.
 
 ## 2. Траектория A: логическая клетка 062
 
@@ -79,7 +79,7 @@ AI research report · 2026-08-25 UTC
 
 То есть вторая cancellation не состоялась; произошёл перенос полного Morse-блока. Отдельная post-wall клетка с 12 активными фасетками имеет `(20,30,12)`, `(2,2,2)` и robust raw inactive slack `0.0178218322212602`. Лучший объект полного ray-scan A имеет `(12,18,8)`, всё ещё `(2,2,2)`, при slack `0.0500307488731029`.
 
-Полный graph-by-graph манифест: [trajectory_A_manifest.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/trajectory_A_manifest.json). Ключевые тела: [A00 source](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/A00_source_233.source.npz), [A01 after real cancellation](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/A01_first_cancellation_root.source.npz), [A04 transferred block](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/A04_best_transfer.source.npz).
+Полный graph-by-graph манифест: trajectory_A_manifest.json. Ключевые тела: A00 source (`A00_source_233.source.npz`), A01 after real cancellation (`A01_first_cancellation_root.source.npz`), A04 transferred block (`A04_best_transfer.source.npz`).
 
 ## 3. Траектория B: логическая клетка 105
 
@@ -126,7 +126,7 @@ AI research report · 2026-08-25 UTC
 
 Таким образом, крупная topology collapse не приблизила систему к границе cancellation: она открыла прочную семифасеточную `(2,2,2)` камеру.
 
-Траектория B материализует 18 crossed cells: `B06_cross_000..004`, `B09_cross_000..005`, `B12_cross_000..006`. Полный манифест: [trajectory_B_manifest.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/trajectory_B_manifest.json). Ключевые тела: [B00 source](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/B00_source_233.source.npz), [B01 after real cancellation](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/B01_first_cancellation_13facet.source.npz), [B07b robust seven-facet cell](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/B07b_best_7facet_pruned.source.npz), [B13 final child](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/states/B13_third_best.source.npz).
+Траектория B материализует 18 crossed cells: `B06_cross_000..004`, `B09_cross_000..005`, `B12_cross_000..006`. Полный манифест: trajectory_B_manifest.json. Ключевые тела: B00 source (`B00_source_233.source.npz`), B01 after real cancellation (`B01_first_cancellation_13facet.source.npz`), B07b robust seven-facet cell (`B07b_best_7facet_pruned.source.npz`), B13 final child (`B13_third_best.source.npz`).
 
 ## 4. Полное локальное покрытие вокруг двух траекторий
 
@@ -149,11 +149,11 @@ AI research report · 2026-08-25 UTC
 
 Всего `8,730` valid deletion bodies; победителей `0`. Это исчерпывает дискретные удаления этих четырёх наборов коэффициентов, но не является доказательством невозможности непрерывной деформации.
 
-Агрегаты и точный scope: [cluster_exhaustion_summary.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/cluster_exhaustion_summary.json).
+Агрегаты и точный scope: cluster_exhaustion_summary.json.
 
 ## 5. Независимый точный аудит 42 materialized states
 
-Чтобы устранить зависимость от floating hull tolerances, написан второй, независимый verifier: [independent_exact_graph_verifier.py](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/records/independent_exact_graph_verifier.py).
+Чтобы устранить зависимость от floating hull tolerances, написан второй, независимый verifier: independent_exact_graph_verifier.py.
 
 Он интерпретирует каждый binary64 коэффициент как **точное dyadic rational число** и затем:
 
@@ -184,7 +184,7 @@ AI research report · 2026-08-25 UTC
 
 Он очень мал, но его знак не tolerance-dependent: exact Fraction-аудит доказывает строгую положительность. Для source B точный минимум равен приблизительно `3.9656428370551294e-10`. Все sampled post-wall состояния дополнительно фильтровались более жёстким raw-gap порогом; принятие исходных двух клеток опирается именно на точный знак, а не на эвристический incidence tolerance.
 
-Полный индекс с 42 отчётами: [independent_exact_graph_audits/index.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/independent_exact_graph_audits/index.json). Общий state index с NPZ, audit и OBJ: [state_index.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/state_index.json). Итоговая целостность: [VERIFICATION_FULL_PASS.json](sandbox:/mnt/data/gomboc_langi/two_stage_c66/final_handoff/VERIFICATION_FULL_PASS.json).
+Полный индекс с 42 отчётами: independent_exact_graph_audits/index.json. Общий state index с NPZ, audit и OBJ: state_index.json. Итоговая целостность: VERIFICATION_FULL_PASS.json.
 
 ## 6. Что доказано и что не доказано
 

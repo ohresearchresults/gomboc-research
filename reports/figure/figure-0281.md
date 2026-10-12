@@ -8,18 +8,18 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 ## Final disposition
 
-**EXACT NONWINNER.** I did not obtain the requested homogeneous convex polyhedral Gömböc. The promoted finite body is an exact rational/dyadic uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, but its strict equilibrium class is `(S,U,H)=(2,1,1)`, not `(1,1,0)`. The acceptance gate remains the literal finite own-centred object with complete H/V/E and full-normal-cone certification. :contentReference[oaicite:0]{index=0}
+**EXACT NONWINNER.** I did not obtain the requested homogeneous convex polyhedral Gömböc. The promoted finite body is an exact rational/dyadic uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, but its strict equilibrium class is `(S,U,H)=(2,1,1)`, not `(1,1,0)`. The acceptance gate remains the literal finite own-centred object with complete H/V/E and full-normal-cone certification.
 
 This continuation realizes the first full-dimensional whole-basin cage beyond the immutable parent. It removes the parent residual stable face `[10014,257,200001]` and saddle edge `(7003,200002)`, replaces a complete two-boundary annular portion of the hull by a larger connected annulus, and inserts a 32-vertex rank-four positive-volume regular complex. The Morse pair transfers to stable face `[900005,900024,900031]` and saddle edge `(900017,900032)`.
 
-**Complete immutable archive:** [M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete.zip](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete.zip)  
+**Complete immutable archive:** M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete.zip  
 **Archive SHA-256:** `8f390dae69ad2ea7fbb97f1cbe5c0616273b3b47654fed9e2315358c90d02cda`  
-**Checksum file:** [ZIP SHA-256](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete.zip.sha256)  
-**Readable report:** [README.md](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/README.md)  
-**Machine summary:** [result_summary.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/result_summary.json)  
-**Immutable file manifest:** [MANIFEST.sha256](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/MANIFEST.sha256)  
-**One-command replay:** [REPLAY.sh](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/REPLAY.sh)  
-**Clean-room transcript:** [CLEANROOM_VERIFY.log](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/CLEANROOM_VERIFY.log)
+**Checksum file:** ZIP SHA-256 (`M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete.zip.sha256`)  
+**Readable report:** README.md  
+**Machine summary:** result_summary.json  
+**Immutable file manifest:** MANIFEST.sha256  
+**One-command replay:** REPLAY.sh  
+**Clean-room transcript:** CLEANROOM_VERIFY.log
 
 A clean extraction recompiles the independent GMP verifier, reconstructs every exact certificate, checks every packaged hash, and ends with `CLEANROOM_WHOLE_BASIN_CAGE_EXACT_REPLAYS_PASS`.
 
@@ -37,15 +37,15 @@ and immutable parent archive SHA-256
 5cd46ab50dcb55ad6a8ae3d05ac21444ea13d27ae951ced60c365bd255a5d58a.
 ```
 
-No conflict was found between that immutable payload and the journal summary. The parent is the exact 96-supplied/89-active full-basin endpoint with `(V,E,F)=(89,247,160)`, protected stable 17-gon `[0..16]`, protected unstable vertex `8`, extra stable `[10014,257,200001]`, and saddle `(7003,200002)`. :contentReference[oaicite:1]{index=1}
+No conflict was found between that immutable payload and the journal summary. The parent is the exact 96-supplied/89-active full-basin endpoint with `(V,E,F)=(89,247,160)`, protected stable 17-gon `[0..16]`, protected unstable vertex `8`, extra stable `[10014,257,200001]`, and saddle `(7003,200002)`.
 
-The endpoint's finite source is [discovery_source.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/discovery_source.json). [rebuild_exact_source.py](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/rebuild_exact_source.py) interprets every recorded finite decimal literally as a rational number and then projects rows `0..16` exactly onto the rational plane through rows `0,1,2`. It deterministically regenerates [coordinates_exact.csv](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/coordinates_exact.csv), SHA-256
+The endpoint's finite source is discovery_source.json. rebuild_exact_source.py interprets every recorded finite decimal literally as a rational number and then projects rows `0..16` exactly onto the rational plane through rows `0,1,2`. It deterministically regenerates coordinates_exact.csv, SHA-256
 
 ```text
 05d070dd3206f174bd4aa4a2ddb580c0065c1f944cca34acde0950ecd9f48e11,
 ```
 
-the 282-bit common-denominator integer lattice, and [construction.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/construction.json).
+the 282-bit common-denominator integer lattice, and construction.json.
 
 Relative to the parent supplied set, these six rows are removed:
 
@@ -70,7 +70,7 @@ The parent active rows deactivated by the operation are
 10019,10020,10021,200001,200002,200004.
 ```
 
-The 65 retained parent active rows and every supplied-versus-active flag are recorded in [annular_exchange_certificate.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/annular_exchange_certificate.json) and [supplied_active.csv](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/supplied_active.csv).
+The 65 retained parent active rows and every supplied-versus-active flag are recorded in annular_exchange_certificate.json and supplied_active.csv.
 
 ## Complete actual hull
 
@@ -91,13 +91,13 @@ The 27 inactive supplied rows are exactly
 10018,10019,10020,10021,200001,200003,200004,900025,900029.
 ```
 
-The complete 176 maximal-face cycles are in [face_cycles.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/face_cycles.json), SHA-256
+The complete 176 maximal-face cycles are in face_cycles.json, SHA-256
 
 ```text
 913a5e2d62cdfc3d5a18cabfd037624cadaf8b4ec9250384ea7e797b4bd06303,
 ```
 
-and all 271 true edges, with their two incident maximal faces, are in [true_edges.csv](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/true_edges.csv), SHA-256
+and all 271 true edges, with their two incident maximal faces, are in true_edges.csv, SHA-256
 
 ```text
 89f68c55da6143433ef745197b4957f77b9a704f6d83238bc6e8c657f24944bf.
@@ -144,7 +144,7 @@ Exact signed-tetrahedron integration verifies `M(P+tau)=M(P)+V tau`. Since `V>0`
 Mx = My = Mz = 0
 ```
 
-as rational identities. The exact own-centred coordinates are in [coordinates_own_centered_exact.csv](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/coordinates_own_centered_exact.csv).
+as rational identities. The exact own-centred coordinates are in coordinates_own_centered_exact.csv.
 
 ## Exhaustive exact equilibrium audit
 
@@ -175,7 +175,7 @@ The saddle's four exact-positive component diagnostics are
  805.4940111159056).
 ```
 
-The full exact ledgers are [faces_mechanics_exact.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/faces_mechanics_exact.json), [vertices_mechanics_exact.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/vertices_mechanics_exact.json), and [edges_mechanics_exact.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/edges_mechanics_exact.json). The endpoint certificate is [certificate.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/certificate.json), SHA-256 `6ad91c4caf424efac969364e9fb57c7e5a4d55565d2c6ba3d2f6b4c40ea64596`.
+The full exact ledgers are faces_mechanics_exact.json, vertices_mechanics_exact.json, and edges_mechanics_exact.json. The endpoint certificate is certificate.json, SHA-256 `6ad91c4caf424efac969364e9fb57c7e5a4d55565d2c6ba3d2f6b4c40ea64596`.
 
 The parent stable `[10014,257,200001]` is absent because row `10014` is not supplied. Parent saddle `(7003,200002)` is absent because both endpoint labels are not supplied. Their disappearance is established from the rebuilt actual hull, not a local assumed ledger.
 
@@ -215,11 +215,11 @@ Its exact positive volume is
 15000000000000000000000000000000000000000000000000
 ```
 
-or approximately `847.3998079864061`. This is a physical full-dimensional incidence replacement, not a supporting-face coincidence, inactive arc, serial sheet relay, or coordinate-only metric image. The exact regular data are in [inserted_regular_complex.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/inserted_regular_complex.json), SHA-256 `a9fcb0a36d06b038590313f26b3adf4eec766067c0900c6401e58d3f1ed17cd3`.
+or approximately `847.3998079864061`. This is a physical full-dimensional incidence replacement, not a supporting-face coincidence, inactive arc, serial sheet relay, or coordinate-only metric image. The exact regular data are in inserted_regular_complex.json, SHA-256 `a9fcb0a36d06b038590313f26b3adf4eec766067c0900c6401e58d3f1ed17cd3`.
 
 ## Complete changed-carrier antibirth audit
 
-[external_arrow_audit.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/external_arrow_audit.json), SHA-256 `3702956ee53e1c415efc11fd51bf777769aa4b3163fcd8c1c838997bd1ce71f3`, audits all 271 true edges; 171 are new or star-changed relative to the parent.
+external_arrow_audit.json, SHA-256 `3702956ee53e1c415efc11fd51bf777769aa4b3163fcd8c1c838997bd1ce71f3`, audits all 271 true edges; 171 are new or star-changed relative to the parent.
 
 For every true edge `(i,j)`, the verifier checks exactly
 
@@ -259,7 +259,7 @@ positive saddle term   2.3721462134051785e-4
 nonsaddle witness      4.960120566952274e-15.
 ```
 
-The exact certificate is [full_96d_box_certificate.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/full_96d_box_certificate.json), SHA-256 `10a5ab47e940162be8a55c560c3b859f4a98fb52d20487c52a428010f89ece96`. This is an open full-dimensional nonwinner chamber, not a wall point.
+The exact certificate is full_96d_box_certificate.json, SHA-256 `10a5ab47e940162be8a55c560c3b859f4a98fb52d20487c52a428010f89ece96`. This is an open full-dimensional nonwinner chamber, not a wall point.
 
 ## Exact residual forcing component
 
@@ -301,7 +301,7 @@ N(900032)={900000,900003,900016,900017,900018,900033}.
 
 The old diagonal `(261,262)` remains a true edge, incident to `[261,900009,262]` and `[900026,261,262]`.
 
-The exact certificates are [basin_saddle_certificate.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/basin_saddle_certificate.json), SHA-256 `49bc3bf13c79994b700a524dff87ee0a97b7ddb51611cf2c673b6d3d9ae22e34`, and [residual_forcing_certificate.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/residual_forcing_certificate.json), SHA-256 `52c65ab6ffecd3ef2c7ca0b3f5e6622f691103b268f365687ff2ec8c57096c8b`.
+The exact certificates are basin_saddle_certificate.json, SHA-256 `49bc3bf13c79994b700a524dff87ee0a97b7ddb51611cf2c673b6d3d9ae22e34`, and residual_forcing_certificate.json, SHA-256 `52c65ab6ffecd3ef2c7ca0b3f5e6622f691103b268f365687ff2ec8c57096c8b`.
 
 ## Exact no-reference-centre theorem for the fixed complex
 
@@ -356,7 +356,7 @@ The boundary cycles are
  900005,900012,900030,900020,900021,900022].
 ```
 
-The cover is inclusion-minimal: for every one of its 22 faces, an exact dyadic witness centre makes that omitted face strict while supplying strict non-equilibrium witnesses for all retained cover faces. The proof files are [exact_center_obstruction.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/fixed_complex_no_center_faces/exact_center_obstruction.json), SHA-256 `438271cc2b23938331f36dfa6b357c894f47a7487604994ef246cb92319b1c19`, [forcing_surface_summary.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/fixed_complex_no_center_faces/forcing_surface_summary.json), and [cover_irredundancy_witnesses.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/fixed_complex_no_center_faces/cover_irredundancy_witnesses.json).
+The cover is inclusion-minimal: for every one of its 22 faces, an exact dyadic witness centre makes that omitted face strict while supplying strict non-equilibrium witnesses for all retained cover faces. The proof files are exact_center_obstruction.json, SHA-256 `438271cc2b23938331f36dfa6b357c894f47a7487604994ef246cb92319b1c19`, forcing_surface_summary.json, and cover_irredundancy_witnesses.json.
 
 This theorem is exact but scoped to the fixed incidence complex. It does not exclude a topology-changing successor.
 
@@ -374,9 +374,9 @@ The independent replay produces these terminal markers:
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-The [OBJ](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/body.obj), SHA-256 `e7dcb9c610eea673db936345c2546606b7357257cf63146397b633563d42a2c5`, has 97 vertices, 190 triangles, 285 triangulated edges, Euler characteristic two, and every edge multiplicity two. Its reconstructed volume is `1343.5918040241852` and centroid norm `7.17e-15`.
+The OBJ (`body.obj`), SHA-256 `e7dcb9c610eea673db936345c2546606b7357257cf63146397b633563d42a2c5`, has 97 vertices, 190 triangles, 285 triangulated edges, Euler characteristic two, and every edge multiplicity two. Its reconstructed volume is `1343.5918040241852` and centroid norm `7.17e-15`.
 
-The [binary STL](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_whole_basin_cage_exact_complete/whole_basin_cage_endpoint/body.stl), SHA-256 `95c93d303559df8164a6cec888d85cebe94519222eaac890f9c2c6b0da25c7eb`, has identical watertight combinatorics. Its small mass drift is the expected float32 export effect.
+The binary STL (`body.stl`), SHA-256 `95c93d303559df8164a6cec888d85cebe94519222eaac890f9c2c6b0da25c7eb`, has identical watertight combinatorics. Its small mass drift is the expected float32 export effect.
 
 ## Empirical continuation work
 

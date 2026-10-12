@@ -20,26 +20,26 @@ with strict own-centred class
 (S,U,H)=(2,1,1),
 ```
 
-not `(1,1,0)`. It is a rigorous finite **NONWINNER**, not a wall point or an auxiliary-centre near-solution. The run’s acceptance gate requires an explicit uniform-density body at its own exact centroid with strict `(1,1,0)`, complete H/V/E data, exhaustive margins, independent verification, and matching meshes. :contentReference[oaicite:0]{index=0}
+not `(1,1,0)`. It is a rigorous finite **NONWINNER**, not a wall point or an auxiliary-centre near-solution. The run’s acceptance gate requires an explicit uniform-density body at its own exact centroid with strict `(1,1,0)`, complete H/V/E data, exhaustive margins, independent verification, and matching meshes.
 
 The requested first nonrepeating topology was nevertheless realized on the actual complete hull. Four new supports move simultaneously from exact parent carriers. The parent stable triangle `[25944,26061,26057]`, saddle edge `[25956,25976]`, and all thirteen faces of their certified connecting disk disappear. The final body contains two extreme pages and two communicating transverse returns in a connected positive-volume terminal. The protected stable 17-gon and unique unstable `N3=25840` survive. A replacement stable triangle `[26042,26057,26064]` and replacement saddle `[25975,26063]` are born, and an exact three-arc theorem proves `S>=2` throughout the endpoint cell.
 
 ## Reusable artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER.zip)
-- [Complete expanded handoff](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_complete_handoff.md)
-- [Finite exact source specification](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_source_spec.json)
-- [Deterministic generator](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/generate_AQ32_G44_TP2R2_R139_exact.py)
-- [Independent endpoint verifier](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/verify_AQ32_G44_TP2R2_R139_independent.py)
-- [Independent common-homotopy verifier](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/verify_AQ32_G44_TP2R2_R139_homotopy.py)
-- [Exact endpoint certificate](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_certificate.json)
-- [Complete 26,067-row exact table](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_all_supplied_Q_rows_exact.csv.gz)
-- [Exact homotopy atlas](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_exact_common_homotopy_atlas.json)
-- [Terminal-complex certificate](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_terminal_complex.json)
-- [Residual obstruction certificate](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_dual_component_obstruction.json)
-- [Q OBJ](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_Q.obj) · [Q STL](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_Q.stl) · [display preview](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_Q_preview.png)
-- [P OBJ](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_P.obj) · [P STL](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER/AQ32_G44_TP2R2_R139_P.stl)
-- [Archive SHA-256 sidecar](sandbox:/mnt/data/AQ32_G44_TP2R2_R139_EXACT_NONWINNER.zip.sha256)
+- Complete exact archive (`AQ32_G44_TP2R2_R139_EXACT_NONWINNER.zip`)
+- Complete expanded handoff (`AQ32_G44_TP2R2_R139_complete_handoff.md`)
+- Finite exact source specification (`AQ32_G44_TP2R2_R139_source_spec.json`)
+- Deterministic generator (`generate_AQ32_G44_TP2R2_R139_exact.py`)
+- Independent endpoint verifier (`verify_AQ32_G44_TP2R2_R139_independent.py`)
+- Independent common-homotopy verifier (`verify_AQ32_G44_TP2R2_R139_homotopy.py`)
+- Exact endpoint certificate (`AQ32_G44_TP2R2_R139_certificate.json`)
+- Complete 26,067-row exact table (`AQ32_G44_TP2R2_R139_all_supplied_Q_rows_exact.csv.gz`)
+- Exact homotopy atlas (`AQ32_G44_TP2R2_R139_exact_common_homotopy_atlas.json`)
+- Terminal-complex certificate (`AQ32_G44_TP2R2_R139_terminal_complex.json`)
+- Residual obstruction certificate (`AQ32_G44_TP2R2_R139_dual_component_obstruction.json`)
+- Q OBJ (`AQ32_G44_TP2R2_R139_Q.obj`) · Q STL (`AQ32_G44_TP2R2_R139_Q.stl`) · display preview (`AQ32_G44_TP2R2_R139_Q_preview.png`)
+- P OBJ (`AQ32_G44_TP2R2_R139_P.obj`) · P STL (`AQ32_G44_TP2R2_R139_P.stl`)
+- Archive SHA-256 sidecar (`AQ32_G44_TP2R2_R139_EXACT_NONWINNER.zip.sha256`)
 
 ```text
 archive SHA-256 = 1e1d494e3e582b3c92af4ce29e13dc2192867c49fa67f4e85ba329e8e77fe5b8

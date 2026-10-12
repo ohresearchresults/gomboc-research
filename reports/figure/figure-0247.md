@@ -8,9 +8,9 @@ AI research report · 2026-09-03 UTC
 
 ## Verdict
 
-**EXACT FINITE NONWINNER.** No strict own-centroid `(S,U,H)=(1,1,0)` homogeneous convex polyhedral Gömböc was obtained. The run requires a finite uniform-density body at its own exact ordinary-volume centroid, with actual maximal faces/true edges, exhaustive strict full-cone mechanics, independent verification, and matching meshes. :contentReference[oaicite:0]{index=0}
+**EXACT FINITE NONWINNER.** No strict own-centroid `(S,U,H)=(1,1,0)` homogeneous convex polyhedral Gömböc was obtained. The run requires a finite uniform-density body at its own exact ordinary-volume centroid, with actual maximal faces/true edges, exhaustive strict full-cone mechanics, independent verification, and matching meshes.
 
-The exact P9-XG10 source is the 27-supplied/12-active, complexity-60, own-centred `(2,2,2)` body whose only nonprotected obstruction is the singleton all-positive row-star `G`; the journal identifies a six-row target-star split or distributed seven-to-nine-row prism as the first nonrepeating frontier. :contentReference[oaicite:1]{index=1}
+The exact P9-XG10 source is the 27-supplied/12-active, complexity-60, own-centred `(2,2,2)` body whose only nonprotected obstruction is the singleton all-positive row-star `G`; the journal identifies a six-row target-star split or distributed seven-to-nine-row prism as the first nonrepeating frontier.
 
 I realized a **distributed seven-row closed full-star prism**. It deletes old `G,V0,…,V4`, preserves intended unstable `TR/S102/GT`, and has six independent controls after exact moment elimination. It remains `(2,2,2)` because target and return descendants are joined by a new external-positive true edge `GT-GR`. The obstruction genuinely changes from a singleton sink to a two-row connected component; it is not merely renamed, but it is not cancelled.
 
@@ -360,30 +360,30 @@ No strict own-centroid `(1,1,0)` body is claimed.
 
 ## Artifacts
 
-- [Complete exact ZIP](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER.zip)
-- [ZIP SHA-256](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER.zip.sha256)
-- [Standalone handoff](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/RESEARCH_HANDOFF.md)
-- [Final summary](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/FINAL_SUMMARY.json)
-- [Exact rows](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/input_rows_exact.json)
-- [Complete exact ledger](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/p9_xg11_target_star_split_exact.json)
-- [Exact mass/centroid](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/exact_mass_centroid.json)
-- [Connected-event certificate](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/shared_event_exact_certificate.json)
-- [Deletion certificate](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/predecessor_packet_deletion_certificate.json)
-- [Directed-arrow ledger](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/directed_arrow_ledger.json)
-- [Arrow table](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/external_arrow_table.csv)
-- [Residual obstruction](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/component_obstruction_certificate.json)
-- [Rank-six controls](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/control_rank_certificate.json)
-- [`2^-42` box](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/perturbation_box_certificate.json)
-- [Exact H table](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/H_supplied_exact.csv)
-- [Exact V table](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/V_exact.csv)
-- [Maximal faces](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/maximal_faces.csv)
-- [True-edge cones](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/true_edges_full_cones.csv)
-- [Independent verifier](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/verify_independent.py)
-- [Independent report](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/independent_verification_report.json)
-- [Watertight OBJ](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/p9_xg11_target_star_split_centered.obj)
-- [Watertight STL](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/p9_xg11_target_star_split_centered.stl)
-- [Packaged verifier transcript](sandbox:/mnt/data/P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER/RUN_ALL_OUTPUT.txt)
-- [Clean-extraction transcript](sandbox:/mnt/data/P9_XG11_CLEAN_VERIFY.txt)
+- Complete exact ZIP (`P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER.zip`)
+- ZIP SHA-256 (`P9_XG11_DISTRIBUTED_SEVEN_ROW_TARGET_STAR_EXACT_NONWINNER.zip.sha256`)
+- Standalone handoff (`RESEARCH_HANDOFF.md`)
+- Final summary (`FINAL_SUMMARY.json`)
+- Exact rows (`input_rows_exact.json`)
+- Complete exact ledger (`p9_xg11_target_star_split_exact.json`)
+- Exact mass/centroid (`exact_mass_centroid.json`)
+- Connected-event certificate (`shared_event_exact_certificate.json`)
+- Deletion certificate (`predecessor_packet_deletion_certificate.json`)
+- Directed-arrow ledger (`directed_arrow_ledger.json`)
+- Arrow table (`external_arrow_table.csv`)
+- Residual obstruction (`component_obstruction_certificate.json`)
+- Rank-six controls (`control_rank_certificate.json`)
+- `2^-42` box (`perturbation_box_certificate.json`)
+- Exact H table (`H_supplied_exact.csv`)
+- Exact V table (`V_exact.csv`)
+- Maximal faces (`maximal_faces.csv`)
+- True-edge cones (`true_edges_full_cones.csv`)
+- Independent verifier (`verify_independent.py`)
+- Independent report (`independent_verification_report.json`)
+- Watertight OBJ (`p9_xg11_target_star_split_centered.obj`)
+- Watertight STL (`p9_xg11_target_star_split_centered.stl`)
+- Packaged verifier transcript (`RUN_ALL_OUTPUT.txt`)
+- Clean-extraction transcript (`P9_XG11_CLEAN_VERIFY.txt`)
 
 Archive SHA-256:
 

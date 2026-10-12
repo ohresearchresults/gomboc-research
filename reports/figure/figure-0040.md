@@ -6,7 +6,7 @@ AI research report · 2026-08-23 UTC
 
 # Recovered affine corridor and exact asymmetric-cap closure package
 
-The complete verifier-selected research envelope is available as [gomboc_worker_result.json](sandbox:/mnt/data/gomboc_worker_result.json). Its human-readable report is [gomboc_RESULT.md](sandbox:/mnt/data/gomboc_RESULT.md), and all certificates, independent verifiers, exact sign data, true edge lists, and OBJ geometry are collected in [gomboc_deliverable.zip](sandbox:/mnt/data/gomboc_deliverable.zip). The canonical envelope was generated after running the exact independent verifier and is the authoritative continuation artifact.
+The complete verifier-selected research envelope is available as gomboc_worker_result.json. Its human-readable report is gomboc_RESULT.md, and all certificates, independent verifiers, exact sign data, true edge lists, and OBJ geometry are collected in gomboc_deliverable.zip. The canonical envelope was generated after running the exact independent verifier and is the authoritative continuation artifact.
 
 ## Exact reconstruction of the two-control shell
 

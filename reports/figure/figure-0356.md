@@ -14,7 +14,7 @@ AI research report · 2026-09-10 UTC · [Export notes](../../catalog/coverage.md
 
 Both complete independent exact implementations actually finished, agreed on their entire normalized records, and subsequently finished again from the decoded source-only recovery capsule. The sole stable maximal facet is **input facet 3**. The sole unstable vertex is **raw lexicographic vertex 98**, the raw apex **(0,0,1)**. There are **no saddle true edges and no weak face, vertex, or edge equilibria**. Every one of the 138 supplied support planes is active.
 
-This improves the supplied accepted **C634_SOC** baseline by one true edge. It is not the coordinator's existing C632 nonwinner, and it does not reclassify the C630 starting body. The journal identifies those two earlier objects as strict121/weak000; that distinction is preserved. There is no invented immutable parent assignment. The new f-vector differs from both C630 and C634, so this is not an affine image of either. :contentReference[oaicite:0]{index=0}
+This improves the supplied accepted **C634_SOC** baseline by one true edge. It is not the coordinator's existing C632 nonwinner, and it does not reclassify the C630 starting body. The journal identifies those two earlier objects as strict121/weak000; that distinction is preserved. There is no invented immutable parent assignment. The new f-vector differs from both C630 and C634, so this is not an affine image of either.
 
 ## 2. Exact lineage and the actual whole-basin operation
 
@@ -119,7 +119,7 @@ A useful false-merit-resistant identity used in this direction is
 
 `sum_cycle eta(i,j)|z_j−z_i|² = −(1/2)sum_cycle|z_j−z_i|²`.
 
-Thus a collapsing closed witness cycle cannot make all its chord-normalized exits approach zero: at least one is at most −1/2. This improves diagnosis of the journal's shrinking-cycle failure, but the actual success here came from a new three-link physical patch plus full mass closure, not from a residual score alone. The older journal explicitly warns that small shrinking-edge residuals and finite guarded-forest attempts did not prove cancellation. :contentReference[oaicite:1]{index=1}
+Thus a collapsing closed witness cycle cannot make all its chord-normalized exits approach zero: at least one is at most −1/2. This improves diagnosis of the journal's shrinking-cycle failure, but the actual success here came from a new three-link physical patch plus full mass closure, not from a residual score alone. The older journal explicitly warns that small shrinking-edge residuals and finite guarded-forest attempts did not prove cancellation.
 
 ## 4. Exact definition, filled moments and arithmetic cost
 
@@ -223,11 +223,11 @@ For continuation, use **C632_WINNER as the new finite baseline**: no residual U/
 
 ## 7. Supplemental files and complete textual recovery
 
-[Complete verified data, exact raw/centred tables, both checkers and actual receipts](sandbox:/mnt/data/BQ13_C632_VERIFIED_FULL.zip) — **8,439,215 bytes**, SHA-256 `ee655d1b3d6a3f67343d7813f8e9d01671fb189165688f684548bf01835b0593`.
+Complete verified data, exact raw/centred tables, both checkers and actual receipts (`BQ13_C632_VERIFIED_FULL.zip`) — **8,439,215 bytes**, SHA-256 `ee655d1b3d6a3f67343d7813f8e9d01671fb189165688f684548bf01835b0593`.
 
-[Small source-only portable archive](sandbox:/mnt/data/BQ13_C632_SOURCE_ONLY.zip) — **95,907 bytes**, SHA-256 `23278c4b4740139abbddc820c6dcecf2044c61cc908ef11d0587295ed7e64c0b`.
+Small source-only portable archive (`BQ13_C632_SOURCE_ONLY.zip`) — **95,907 bytes**, SHA-256 `23278c4b4740139abbddc820c6dcecf2044c61cc908ef11d0587295ed7e64c0b`.
 
-[Complete Markdown handoff](sandbox:/mnt/data/BQ13_RESULT_MARKDOWN.md) and [complete v2 JSON handoff](sandbox:/mnt/data/BQ13_RESULT_v2.json) are also present as supplemental copies.
+Complete Markdown handoff (`BQ13_RESULT_MARKDOWN.md`) and complete v2 JSON handoff (`BQ13_RESULT_v2.json`) are also present as supplemental copies.
 
 Both archive byte sets were inspected and their complete internal manifests checked. The full bundle also includes an exact centred common-integer coordinate table with rational readback, all true maximal face cycles and edges, full exact mass fractions, and a separately labelled display-only OBJ. These archives supplement the complete defining capsule below.
 

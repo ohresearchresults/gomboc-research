@@ -18,7 +18,7 @@ No strict own110/additional-weak000 body was found. The strongest durable succes
 - sole saddle true edge `[53,55]`;
 - **`Qbars=[]` exactly** and exactly one positive physical P bar.
 
-This remains a nonwinner, but it is a much stronger exact continuation seed than the authoritative incoming checkpoint `BR76_A_WHOLEP_CUT31_M61_M95_G3`, which was V116/E174/F60/C348, own121/weak000 with a 33-vertex/31-cut physical packet. :contentReference[oaicite:0]{index=0} The new body reduces the maximal-complexity count by **60 true edges** (`C:348→228`), shrinks the whole dying P component from **33→26 vertices** and the cut from **31→24 edges**, preserves the unique stable region and keeps the entire polar/stable side canceled.
+This remains a nonwinner, but it is a much stronger exact continuation seed than the authoritative incoming checkpoint `BR76_A_WHOLEP_CUT31_M61_M95_G3`, which was V116/E174/F60/C348, own121/weak000 with a 33-vertex/31-cut physical packet. The new body reduces the maximal-complexity count by **60 true edges** (`C:348→228`), shrinks the whole dying P component from **33→26 vertices** and the cut from **31→24 edges**, preserves the unique stable region and keeps the entire polar/stable side canceled.
 
 Its actual uniformly-filled volume is approximately `90.03103941097532`, and its actual homogeneous centroid is approximately
 

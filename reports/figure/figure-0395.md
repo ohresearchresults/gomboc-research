@@ -20,7 +20,7 @@ The main constructive consequence is that moving the reference point alone solve
 
 I read all five complete NONAFFINE source parts, decoded their dictionary, verified its manifest, and reran its complete exact replay. The correct fifth material is `[internal-source-reference]`. The verified concatenation has 41,484 base64 bytes, SHA256 `c9976cd443a1873b5d96570ac7299a2b6dfaf431519d4e6240fa8f2b995d88fd`; the XZ has 31,112 bytes, SHA256 `8913f442e91a09d6883140d25269587d5ab8400094c9ad122a25e884610d9e5f`; the complete 25-file dictionary has 182,103 bytes, SHA256 `c8b33ea6c12782951664571a8ce48023252c16ddb3af8188e5fd200d157e97e0`. These match the literal decoder. The immutable Bright parent `figure-0393`, SHA256 `2ee8abc72403f981770152547d685735c7cc724a253f7ac7b354dff4fc7e19f1`, was also read completely. The final capsule below does not depend on recovering either original archive.
 
-**The uploaded summary conflicts with the decoded scientific source.** In particular, its D1000 volume/centroid and its assertion that both stable facets have index51 are not the outputs reproduced from EXPECTED.json. I use the decoded geometry, not those narrative numbers. :contentReference[oaicite:0]{index=0}
+**The uploaded summary conflicts with the decoded scientific source.** In particular, its D1000 volume/centroid and its assertion that both stable facets have index51 are not the outputs reproduced from EXPECTED.json. I use the decoded geometry, not those narrative numbers.
 
 The correct ordinary filled values in the recovered raw coordinate gauge are:
 
@@ -202,7 +202,7 @@ The exact result does not depend on bitwise reproduction of numerical trajectori
 
 Capsule identities: source dictionary39655 bytes SHA256 `fe25355976162d75ca10229a3ad8d65a1ce0509d849c9bf999da92237c9ed3e3`; XZ15000 bytes SHA256 `4165565117de8b15995de8a5805f41de3cd14561196304beb54388edd49bb344`; normalized base6420000 bytes SHA256 `97dc82634c962d4972061d57fbb013ed08b7025822225594750342b8e8aeef82`; decoder21536 bytes SHA256 `4ee2e1affe6b26674edb33d204d059b3627026faaa77895e781a8870abc52487`. The embedded manifest additionally hashes both complete source files and RECEIPTS.json.
 
-Convenience copies, not recovery dependencies: [complete source and report archive](sandbox:/mnt/data/RL04_C162_COMPLETE.zip), [standalone recovery program](sandbox:/mnt/data/RL04_RECOVER.py), and [exact report](sandbox:/mnt/data/RL04_C162_CENTER_REPORT.json).
+Convenience copies, not recovery dependencies: complete source and report archive (`RL04_C162_COMPLETE.zip`), standalone recovery program (`RL04_RECOVER.py`), and exact report (`RL04_C162_CENTER_REPORT.json`).
 
 ### Literal standalone recovery program
 

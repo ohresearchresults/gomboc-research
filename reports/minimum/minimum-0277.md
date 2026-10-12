@@ -12,7 +12,7 @@ AI research report · 2026-09-27 UTC · [Export notes](../../catalog/coverage.md
 
 The exclusion is stronger than joint S1/U1 infeasibility: all **48,790 labelled true-edge rooted primal trees** are infeasible even for a nonzero PSD matrix, in each of three closed normalized charts. Thus no stable-root choice, actual root-foot position, or reciprocal polar escape alternative can produce S1/U1 in this domain. No covariance cap or independent polar metric is used. There is no assertion that S>=2 for every metric.
 
-This completes a substantial nonparallel region that the literal parent had left unverified. It is a **newly generated and checked certificate**, not a recovery claim for the parent's unfinished certificate files. The eight basal projective invariants remain those of W; this is not the full eleven-modulus incidence. No canonical registry subtraction or global minimum improvement follows. The recorded interval remains 34<=C_min<=622. fileciteturn38file0L15-L33 fileciteturn29file0L9-L11
+This completes a substantial nonparallel region that the literal parent had left unverified. It is a **newly generated and checked certificate**, not a recovery claim for the parent's unfinished certificate files. The eight basal projective invariants remain those of W; this is not the full eleven-modulus incidence. No canonical registry subtraction or global minimum improvement follows. The recorded interval remains 34<=C_min<=622.
 
 ## 2. Input authority and observed parent replay
 
@@ -20,7 +20,7 @@ I read the current journal consecutively through line 1781/EOF, including the en
 
 The required parent is `minimum-0272`, manifest SHA-256 `51da02e247f4ec433c0cb936d8cf81aba1ed7724a3987ff134b945cc30a1e26c`. Its literal geometry, not an alias or an old unfinished library, is the input. The new proof programs import no earlier research program or certificate.
 
-I also extracted and actually executed the parent's formerly unobserved consolidated source. `nonparallel_rational_controls.py` is 15676 bytes, SHA `c7ba52cfdf4562cfb9c708d2f7b9c4f5f212bd7352054070f572c7053f705ef0`; its regenerated report is 353698 bytes, SHA `71026ca27b8a6650fec69e34b996ba4c3e6847b1fa0872cc00d7a1cf6147033d`. Execution exited successfully with `NONPARALLEL_CHART_AND_RATIONAL_222_RECOVERY_PASS` and empty stderr. This repairs that execution gap; those generic 222 rays are not the new exclusion mechanism. No parent-geometry conflict was found. The parent's previous execution qualification is explicit. fileciteturn38file0L35-L51
+I also extracted and actually executed the parent's formerly unobserved consolidated source. `nonparallel_rational_controls.py` is 15676 bytes, SHA `c7ba52cfdf4562cfb9c708d2f7b9c4f5f212bd7352054070f572c7053f705ef0`; its regenerated report is 353698 bytes, SHA `71026ca27b8a6650fec69e34b996ba4c3e6847b1fa0872cc00d7a1cf6147033d`. Execution exited successfully with `NONPARALLEL_CHART_AND_RATIONAL_222_RECOVERY_PASS` and empty stderr. This repairs that execution gap; those generic 222 rays are not the new exclusion mechanism. No parent-geometry conflict was found. The parent's previous execution qualification is explicit.
 
 ## 3. Exact continuous domain and actual refill
 
@@ -56,7 +56,7 @@ Use exactly the nine positive tetrahedra
 (7,9,8,2), (7,9,2,3), (7,9,3,4).
 ```
 
-These are integration tetrahedra, not additional mechanical faces or edges. The source is the compact W body at `(x,r,p,q,lambda)=(1/10,9/10,3/25,3/5,3/20)`. Its literal parent supplies precisely these coordinates, cycles and fan. fileciteturn37file0L49-L108
+These are integration tetrahedra, not additional mechanical faces or edges. The source is the compact W body at `(x,r,p,q,lambda)=(1/10,9/10,3/25,3/5,3/20)`. Its literal parent supplies precisely these coordinates, cycles and fan.
 
 For the theorem's entire domain, set
 
@@ -111,7 +111,7 @@ x>=0, y>=0, h*x+k*y<=1,
 (3+c*h)*x+(1+c*k)*y>=c.
 ```
 
-These five inequalities prove the limiting hull for every h,k in the square. Both limits retain positive volume; neither is a raw dimensional-loss artifact. The positive fan moments extend to the true limiting volume moments. These compactifications were established in the literal parent; the advance here is the completed mechanical certificate on their **entire closed cubes**, not an unevaluated neighborhood argument. fileciteturn37file0L118-L175
+These five inequalities prove the limiting hull for every h,k in the square. Both limits retain positive volume; neither is a raw dimensional-loss artifact. The positive fan moments extend to the true limiting volume moments. These compactifications were established in the literal parent; the advance here is the completed mechanical certificate on their **entire closed cubes**, not an unevaluated neighborhood argument.
 
 ## 4. Complete true-tree implication
 
@@ -718,4 +718,4 @@ The theorem does not decide horizontal denominator parameters outside this squar
 
 Ordinary actual-centroid primal stresses suffice here. The exact inverse/root-foot method remains relevant outside this domain, but this computation neither needs it nor proves it necessary. The most useful continuation is to enlarge the actual horizontal-denominator domain or release basal invariants while retaining the complete true-tree cover, invoking foot disjunction only after a genuine one-sided survivor—not a failed finite library—has been established.
 
-Convenience copy: [complete sources, exact certificates, reports and replay receipt](sandbox:/mnt/data/nonparallel_v2/nonparallel_complete_handoff.zip). Every proof-critical reconstruction input is also inline above.
+Convenience copy: complete sources, exact certificates, reports and replay receipt (`nonparallel_complete_handoff.zip`). Every proof-critical reconstruction input is also inline above.

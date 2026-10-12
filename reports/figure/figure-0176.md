@@ -8,13 +8,13 @@ AI research report · 2026-09-01 UTC
 
 ## Literal disposition
 
-**EXACT NONWINNER.** I did not obtain a homogeneous convex polyhedral Gömböc. The wall-242 branch does contain a rigorously positive tree–cotree separator chamber after the matching is rebuilt on each *actual irredundant hull*, but the first small strict `(1,1,0)` realization is centred at an auxiliary construction point. Translating it to its own uniform-volume centroid changes its class to `(3,2,3)`. The strongest fully materialized homogeneous endpoint is an exact own-centred 19-vertex polyhedron of strict class `(2,2,2)`, not a winner. This respects the run’s acceptance gate: auxiliary-centre mechanics and near-solutions are explicitly insufficient. :contentReference[oaicite:0]{index=0}
+**EXACT NONWINNER.** I did not obtain a homogeneous convex polyhedral Gömböc. The wall-242 branch does contain a rigorously positive tree–cotree separator chamber after the matching is rebuilt on each *actual irredundant hull*, but the first small strict `(1,1,0)` realization is centred at an auxiliary construction point. Translating it to its own uniform-volume centroid changes its class to `(3,2,3)`. The strongest fully materialized homogeneous endpoint is an exact own-centred 19-vertex polyhedron of strict class `(2,2,2)`, not a winner. This respects the run’s acceptance gate: auxiliary-centre mechanics and near-solutions are explicitly insufficient.
 
 I recovered the complete immutable wall-242 successor bundle from the persistent library, verified every archived SHA-256 entry, and independently reran both clean-room exact verifiers. Both terminate in `ALL_CHECKS_PASS`. The determination below is therefore based on literal finite H/V/E data rather than the earlier numerical `B*` trace alone.
 
 ## What changed relative to the durable journal
 
-The journal’s live frontier was the broad 812-separator/932-support component, with retained `C81≈-1.2907×10^-4` and best numerical trial `B*=-1.270184992×10^-4`. It called for exactifying `B*`, appending its circuit clause, exhausting genuine alternating cycles, and crossing topology walls when the current cell was blocked. The recovered continuation completes that program far enough to establish four new facts: `B*` is an exact tree–cotree matching but its stored support vector does not realize the 4,321-row fan; alternating cycles really do cross separator zero; recursive matching on the actual hull reaches a robust 16-vertex construction-centre `(1,1,0)` body; and exact mass centring transports the remaining Euler-neutral block rather than preserving the target class. :contentReference[oaicite:1]{index=1}
+The journal’s live frontier was the broad 812-separator/932-support component, with retained `C81≈-1.2907×10^-4` and best numerical trial `B*=-1.270184992×10^-4`. It called for exactifying `B*`, appending its circuit clause, exhausting genuine alternating cycles, and crossing topology walls when the current cell was blocked. The recovered continuation completes that program far enough to establish four new facts: `B*` is an exact tree–cotree matching but its stored support vector does not realize the 4,321-row fan; alternating cycles really do cross separator zero; recursive matching on the actual hull reaches a robust 16-vertex construction-centre `(1,1,0)` body; and exact mass centring transports the remaining Euler-neutral block rather than preserving the target class.
 
 ## 1. Complete primal-tree / complementary-dual-tree reconstruction at `B*`
 
@@ -30,7 +30,7 @@ On the inherited wall-242 adjacent fan:
 - the complementary `8,637` face-owned edges form a dual spanning tree;
 - the stored separator optimum is exactly the binary64 rational represented by `t=-0.000127018499211592999`;
 - the minimum stored selected separator is `-0.00012711078015326116`;
-- all stored support distances lie in `[0.9984682625223652,1.272402233246424]`. :contentReference[oaicite:2]{index=2}
+- all stored support distances lie in `[0.9984682625223652,1.272402233246424]`.
 
 The support-minimal exact positive circuit added at `B*` has rank eight and the nine rows
 
@@ -46,7 +46,7 @@ vsep:111:148:363
 positive:0
 ```
 
-All coefficients are exact and strictly positive; the circuit is stored in `sources/Bstar_exact_positive_circuit.json`. :contentReference[oaicite:3]{index=3}
+All coefficients are exact and strictly positive; the circuit is stored in `sources/Bstar_exact_positive_circuit.json`.
 
 ## 2. Exact active support realization: the parent fan disappears
 
@@ -64,7 +64,7 @@ where `N_i` is the exact integer ray numerator and `h_i` is the exact dyadic sup
 - exact volume `V≈3.0679676289948299` and centroid
   `(-0.066824961126834406,-0.0045373994949321293,-0.0062596555413044867)`.
 
-Thus `B*` is not merely separator-negative: the supposed 4,321-row physical chamber is absent at the stored support vector. This is the precise resolution of the durable broad-component ambiguity—matching feasibility must be coupled to irredundancy and actual support realization. :contentReference[oaicite:4]{index=4}
+Thus `B*` is not merely separator-negative: the supposed 4,321-row physical chamber is absent at the stored support vector. This is the precise resolution of the durable broad-component ambiguity—matching feasibility must be coupled to irredundancy and actual support realization.
 
 ## 3. Full alternating-cycle freedom crosses the separator wall
 
@@ -82,7 +82,7 @@ fsep:4880:4879:81
 vsep:15:0:14
 ```
 
-It preserves both spanning trees and violates none of the accumulated exact circuit clauses. A second positive branch, `cycG11_0003`, is also retained. But literal reconstruction again matters: the first abstract positive support vector has only `(V,E,F)=(282,840,560)`, with 4,039 parent rows inactive, centroid approximately `(-0.2086486367,-0.1437302644,-0.0621589581)`, and construction-origin class `(2,3,3)`. Abstract separator positivity alone is not a polyhedral Gömböc certificate. :contentReference[oaicite:5]{index=5}
+It preserves both spanning trees and violates none of the accumulated exact circuit clauses. A second positive branch, `cycG11_0003`, is also retained. But literal reconstruction again matters: the first abstract positive support vector has only `(V,E,F)=(282,840,560)`, with 4,039 parent rows inactive, centroid approximately `(-0.2086486367,-0.1437302644,-0.0621589581)`, and construction-origin class `(2,3,3)`. Abstract separator positivity alone is not a polyhedral Gömböc certificate.
 
 ## 4. Irredundancy-aware actual-hull recursion
 
@@ -98,7 +98,7 @@ At every stage the transported parent matching was discarded, the true active hu
 | `actual19_matching_move` | 19 | 16 | `(16,42,28)` | `0.7550647260809709` |
 | `actual16_fixed_fan_polish` | 16 | 16 | `(16,42,28)` | `1.949556280487089` |
 
-The decisive 31-row alternating cycle replaces `fsep:9:31:20` by `fsep:9:10:19` and `vsep:2762:0:20`. This is the first point where the *actual* hull enters a strong positive separator chamber. :contentReference[oaicite:6]{index=6}
+The decisive 31-row alternating cycle replaces `fsep:9:31:20` by `fsep:9:10:19` and `vsep:2762:0:20`. This is the first point where the *actual* hull enters a strong positive separator chamber.
 
 ## 5. Exact 16-vertex positive separator realization
 
@@ -117,7 +117,7 @@ Its construction-centre certificate is:
 - minimum nonincident geometric distance approximately `4.23508150779×10^-5`;
 - 15 selected primal-tree edges and 27 complementary-dual-tree edges, with every exact separator positive;
 - matching/root inequalities remain positive throughout `|Δh_i|≤1/2`;
-- all incidences and all mechanical signs remain unchanged throughout the coordinate box `|δx_ij|≤2^-26`. :contentReference[oaicite:7]{index=7}
+- all incidences and all mechanical signs remain unchanged throughout the coordinate box `|δx_ij|≤2^-26`.
 
 ### Exact mass-centre failure
 
@@ -131,7 +131,7 @@ numerically. Translating by this exactly integrated centroid gives exact zero fi
 - unstable vertices `0,1618`;
 - saddle edges `[0,262]`, `[0,470]`, `[0,2762]`.
 
-Hence this body is a robust auxiliary-centre Gömböc only and is rejected. No Santaló approximation is being substituted for the mass condition: centring is the exact rational ordinary-volume centroid obtained by signed tetrahedral integration. In polar coordinates the equivalent translation gauge is the exact row renormalization `q_i↦q_i/(1-q_i·c)`. :contentReference[oaicite:8]{index=8}
+Hence this body is a robust auxiliary-centre Gömböc only and is rejected. No Santaló approximation is being substituted for the mass condition: centring is the exact rational ordinary-volume centroid obtained by signed tetrahedral integration. In polar coordinates the equivalent translation gauge is the exact row renormalization `q_i↦q_i/(1-q_i·c)`.
 
 ## 6. Strongest exact homogeneous endpoint
 
@@ -161,7 +161,7 @@ followed by subtraction of its exact rational ordinary-volume centroid. The full
 - 34 irredundant maximal triangular faces and all 51 true edges;
 - minimum nonincident distance `1.6503208084248217×10^-7`;
 - coordinatewise certified preserving box `|δx_ij|≤2^-43`;
-- strict class `(S,U,H)=(2,2,2)`. :contentReference[oaicite:9]{index=9}
+- strict class `(S,U,H)=(2,2,2)`.
 
 Its complete positive features are:
 
@@ -174,7 +174,7 @@ Its complete positive features are:
 | saddle edge | `[262,3188]` | `0.01927364714943831` |
 | saddle edge | `[470,3578]` | `0.0027065936095149105` |
 
-The nearest excluded saddle primitive is `[1258,3578]` at approximately `-0.0015054002333458082`. The object is therefore an open exact nonwinner, not a transfer-wall artefact. Every true edge is audited with the full four-component normal-cone test. :contentReference[oaicite:10]{index=10}
+The nearest excluded saddle primitive is `[1258,3578]` at approximately `-0.0015054002333458082`. The object is therefore an open exact nonwinner, not a transfer-wall artefact. Every true edge is audited with the full four-component normal-cone test.
 
 ## 7. Exhaustion boundary inside the 19-vertex cell
 
@@ -185,7 +185,7 @@ The archived continuation recomputed or algebraically preserved the ordinary cen
 - exhaustive deletion of every subset of at most four vertices;
 - 1,493 positive-support samples of the 31-row fan followed by hard projective centring.
 
-No target cell was found. The best linearized branch remained negative at `-0.036787536316909106`, and the best metric target score was approximately `-0.04576557058424324`. These computations do not prove a global impossibility theorem, but they close fixed-cell polishing, low-order deletions, and the tested metric/projective slices as credible next moves. :contentReference[oaicite:11]{index=11}
+No target cell was found. The best linearized branch remained negative at `-0.036787536316909106`, and the best metric target score was approximately `-0.04576557058424324`. These computations do not prove a global impossibility theorem, but they close fixed-cell polishing, low-order deletions, and the tested metric/projective slices as credible next moves.
 
 ## 8. Exact obstruction certificate and first genuinely new successor topology
 
@@ -196,7 +196,7 @@ The residual incidence complex is connected and cannot be treated as two indepen
 - saddle stars of `[262,3188]` and `[470,3578]`;
 - while protecting stable `[1258,2635,3296]` and unstable vertex `1258`.
 
-The exact fixed-cell screens show that merely moving the four witnesses transfers the block. The first genuinely new successor is therefore an **edge-sharing two-/three-cell replacement**—equivalently a small triangular-prismatic, octahedral, or double-Y volumetric patch—with two or three new cross-linked extreme supports. It must allow old labels `(470,2635,2762,3578,262,3188)` to become non-extreme together, reserve three dependent variables for exact ordinary-volume moment closure, and retain at least two independent incidence coordinates so the `S–H` and `U–H` death sheets overlap before any compensating birth. Every adjacent four-point circuit must be enumerated, and after every crossing the true hull, matching, maximal faces, true edges, and four-component edge cones must be rebuilt. Exactification should be attempted only with raw inactive separation above `10^-7`. :contentReference[oaicite:12]{index=12}
+The exact fixed-cell screens show that merely moving the four witnesses transfers the block. The first genuinely new successor is therefore an **edge-sharing two-/three-cell replacement**—equivalently a small triangular-prismatic, octahedral, or double-Y volumetric patch—with two or three new cross-linked extreme supports. It must allow old labels `(470,2635,2762,3578,262,3188)` to become non-extreme together, reserve three dependent variables for exact ordinary-volume moment closure, and retain at least two independent incidence coordinates so the `S–H` and `U–H` death sheets overlap before any compensating birth. Every adjacent four-point circuit must be enumerated, and after every crossing the true hull, matching, maximal faces, true edges, and four-component edge cones must be rebuilt. Exactification should be attempted only with raw inactive separation above `10^-7`.
 
 This topology is forced by the evidence: another serial rail, isolated support move, determinant-one metric, or fixed-cell separator adjustment repeats an already tested mechanism.
 
@@ -207,20 +207,20 @@ The recovered bundle contains two independent clean-room verifiers:
 - `scripts/verify_rapid_maple42_cleanroom.py` reconstructs the 16-vertex construction-centre body, its own-centred translation, and the exact centred 19-vertex body from exported rational data; enumerates all supporting triples, maximal faces, true edges, and full edge cones; integrates exact volume and moments; checks the tree/cotree certificate; and validates OBJ topology.
 - `scripts/verify_bstar_exact_support_cleanroom.py`, together with the exact C++ homogeneous-determinant checker, reconstructs all literal `B*` support points, checks all H incidences, all 5,121 true edges, exact mechanics, and exact mass integrals.
 
-I reran both verifiers in a fresh recovered extraction; both ended `ALL_CHECKS_PASS`. I also reran the complete SHA-256 manifest with no mismatch. :contentReference[oaicite:13]{index=13}
+I reran both verifiers in a fresh recovered extraction; both ended `ALL_CHECKS_PASS`. I also reran the complete SHA-256 manifest with no mismatch.
 
 ### Portable artifacts
 
-- [Complete wall-242 exact archive](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff.zip) — SHA-256 `fe92046adee61f4d6e706d541df55c387b38933119c5aa81997b954369747ee9`.
-- [Nimble Comet 70 verification wrapper](sandbox:/mnt/data/Nimble_Comet_70_wall242_exact_NONWINNER.zip) — SHA-256 `bc22408ed724328f7defcaf3644913ec7087d373262d18c40c94126dbb422aac`.
-- [Exact 19-vertex V-data](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff/rapid_maple42_wall242_handoff/exact/wall242_centered19_metric_exact_V_exact.csv)
-- [Exact irredundant H-data](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff/rapid_maple42_wall242_handoff/exact/wall242_centered19_metric_exact_H_irredundant.csv)
-- [All maximal faces](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff/rapid_maple42_wall242_handoff/exact/wall242_centered19_metric_exact_faces.csv)
-- [All true edges and four-component cone data](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff/rapid_maple42_wall242_handoff/exact/wall242_centered19_metric_exact_true_edges_full_cones.csv)
-- [Exact centroid/mechanics audit](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff/rapid_maple42_wall242_handoff/exact/wall242_centered19_metric_exact_exact_audit.json)
-- [Perturbation certificate](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff/rapid_maple42_wall242_handoff/exact/wall242_centered19_metric_exact_perturbation_certificate.json)
-- [OBJ](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff/rapid_maple42_wall242_handoff/exact/wall242_centered19_metric_exact.obj)
-- [STL](sandbox:/mnt/data/wall242_recovery/rapid_maple42_wall242_handoff/rapid_maple42_wall242_handoff/exact/wall242_centered19_metric_exact.stl)
+- Complete wall-242 exact archive (`rapid_maple42_wall242_handoff.zip`) — SHA-256 `fe92046adee61f4d6e706d541df55c387b38933119c5aa81997b954369747ee9`.
+- Nimble Comet 70 verification wrapper (`Nimble_Comet_70_wall242_exact_NONWINNER.zip`) — SHA-256 `bc22408ed724328f7defcaf3644913ec7087d373262d18c40c94126dbb422aac`.
+- Exact 19-vertex V-data (`wall242_centered19_metric_exact_V_exact.csv`)
+- Exact irredundant H-data (`wall242_centered19_metric_exact_H_irredundant.csv`)
+- All maximal faces (`wall242_centered19_metric_exact_faces.csv`)
+- All true edges and four-component cone data (`wall242_centered19_metric_exact_true_edges_full_cones.csv`)
+- Exact centroid/mechanics audit (`wall242_centered19_metric_exact_exact_audit.json`)
+- Perturbation certificate (`wall242_centered19_metric_exact_perturbation_certificate.json`)
+- OBJ (`wall242_centered19_metric_exact.obj`)
+- STL (`wall242_centered19_metric_exact.stl`)
 
 ## Final determination
 

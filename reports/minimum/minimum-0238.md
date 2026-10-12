@@ -10,7 +10,7 @@ AI research report · 2026-09-25 UTC · [Export notes](../../catalog/coverage.md
 
 **The entire admissible q interval is now closed, together with the entire two-cut square.** For every `(x,y,q) in [0,1]^3`, all **48,790 labelled rooted primal trees** are infeasible for every **nonzero positive-semidefinite matrix**. Every genuine interior body consequently has **at least two strict unstable vertices under every SPD metric**, without a condition-number bound, stable-root assumption, selected-forest restriction, or weak-contact regularization premise.
 
-The parent fixed `q=1/4`; this result varies it over `[0,1]`, not over another perturbation collar. The supplied parent identity is `minimum-0237`, SHA256 `4eede392385c2ecabeaa3f933476c06a2caf571a5b4b672d4f37bbbd5ae44e4c`. Its accepted full-square result and independent-carrier continuation target are recorded in the supplied journal. fileciteturn4file0L103-L108
+The parent fixed `q=1/4`; this result varies it over `[0,1]`, not over another perturbation collar. The supplied parent identity is `minimum-0237`, SHA256 `4eede392385c2ecabeaa3f933476c06a2caf571a5b4b672d4f37bbbd5ae44e4c`. Its accepted full-square result and independent-carrier continuation target are recorded in the supplied journal.
 
 The exact certificate has **646 distinct integer stresses**, **1,345 stress/domain applications**, and **48,420 shifted positive-definite Bernstein matrices**. Every rooted tree contains a certified stress whose actual weighted arrow mean satisfies
 
@@ -235,7 +235,7 @@ A unique strict U would therefore supply one enumerated rooted tree. Its contain
 
 ## 6. Search evidence and meaningful negative controls
 
-The locator began with the 321 distinct parent weight vectors. On the sixteen quarter-q/half-xy boxes it made 586 calls and found 586 additional exact stresses, with no unresolved calls in that run. The resulting 907 distinct vectors were reduced deterministically by greedy cover and reverse deletion to the final atlas. Linear programming and eigenvector cutting planes locate multipliers only; every retained certificate is rationally rechecked. The locator uses SciPy's `highs-ds` interface with explicit feasibility tolerances. citeturn254784view0
+The locator began with the 321 distinct parent weight vectors. On the sixteen quarter-q/half-xy boxes it made 586 calls and found 586 additional exact stresses, with no unresolved calls in that run. The resulting 907 distinct vectors were reduced deterministically by greedy cover and reverse deletion to the final atlas. Linear programming and eigenvector cutting planes locate multipliers only; every retained certificate is rationally rechecked. The locator uses SciPy's `highs-ds` interface with explicit feasibility tolerances.
 
 The selected whole-cube stresses cover 42,429 trees. Adding the corresponding full-square slab stresses gives 44,895; 48,246; 48,254; and 48,674. These coarse-atlas gaps are **not physical survivors**. The sixteen closed leaf covers eliminate every one of them. No completeness claim is made for the numerical stress solver, no minimality is claimed for the atlas, and no solver failure is turned into a body.
 
@@ -701,4 +701,4 @@ This settles the entire q carrier interval, the entire two-cut square, all roote
 
 The moving-carrier mechanism is now two explicit actual tetrahedral defects rather than a frozen nine-vertex background. A useful independent continuation is a macroscopic d variation while retaining this full `(c,p,q)` domain: it changes the R-corner tetrahedron and its genuine moments, so the current 646 vectors and 36-block construction are exact reusable seeds, not automatically valid certificates. Lambda remains separate. On the domain settled here there is no complete one-sided survivor that would justify escalating to reciprocal coupling.
 
-The evidence is an analytical reduction plus executed exhaustive rational certificates, not proof-assistant formalization. Every numerical gap is kept distinct from physical feasibility. All continuation-critical source/data are inline above; [the recovery bundle](sandbox:/mnt/data/h5_full_q_carrier_recovery.zip) and [the exact report](sandbox:/mnt/data/h5_full_q_carrier_report.json) are supplemental copies.
+The evidence is an analytical reduction plus executed exhaustive rational certificates, not proof-assistant formalization. Every numerical gap is kept distinct from physical feasibility. All continuation-critical source/data are inline above; the recovery bundle (`h5_full_q_carrier_recovery.zip`) and the exact report (`h5_full_q_carrier_report.json`) are supplemental copies.

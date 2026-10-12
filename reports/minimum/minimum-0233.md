@@ -20,13 +20,13 @@ A second advance resolves more dispersed packets. There is an explicit two-param
 
 Three new exact actual E17 controls have six physical weak points each, with strict counts respectively (2,4,4), (4,5,7), and (6,4,8). All regularize on the entire interval 0<t<=2^-24. The last has a right-corner VF: the correct complementary pair becomes positive while two other algebraic zeros persist harmlessly. None of the controls is S1U1.
 
-Every theorem consequently applies to a weak S1U1 input meeting its stated hypotheses, but **no such first-layer input is supplied, no universal density or obstruction theorem is proved, and no complexity bound changes**. The supplied working interval remains 34<=C_min<=622. fileciteturn0file0L9-L13
+Every theorem consequently applies to a weak S1U1 input meeting its stated hypotheses, but **no such first-layer input is supplied, no universal density or obstruction theorem is proved, and no complexity bound changes**. The supplied working interval remains 34<=C_min<=622.
 
 ## 2. Authority, notation, and the retained parent input
 
 The updated journal was read completely, including its complete immutable parent payload. Its mounted bytes match 316405 bytes and SHA-256 `0117862a2121c22529a823d7e5c0f2b2cfc5d537d95c44c6eb6f8aa9c4879ac5`. The unchanged atlas and radial-index sources remain the earlier supplied inputs. No inaccessible archive, source-only hash, private parent workspace, or hypothetical S1U1 body is a computational dependency.
 
-The parent proves arbitrary local analytic prescription of every individual primal or polar facet polygon in this layer, with genuine incidence and actual ORIGINAL-body centroid completion. Its carrier consists of VEs on edges of that facet and the EF/VF borne by it. It explicitly does not license sequencing such flows across different carriers. Those are the premises used here. fileciteturn4file0L33-L44 fileciteturn5file0L45-L51
+The parent proves arbitrary local analytic prescription of every individual primal or polar facet polygon in this layer, with genuine incidence and actual ORIGINAL-body centroid completion. Its carrier consists of VEs on edges of that facet and the EF/VF borne by it. It explicitly does not license sequencing such flows across different carriers. Those are the premises used here.
 
 Work initially at the actual centroid 0. The original body has metric M and inverse N=M^-1. To give one formula for either side, let Z denote P or its same-origin polar P°, and set
 
@@ -41,7 +41,7 @@ Choose a true carrier facet of Z in H={x:q.x=1}. Put
 
 The geometry and metric variables used below have the single common inverse D=A^-1 at every parameter value. The metric pencil is genuine physical actuation, not a second freely chosen polar metric. It can alternatively be absorbed into an analytic linear deformation of the body: for original coordinates with metric M(t), apply C(t)=M(0)^-1/2 M(t)^1/2. Then C(t)^T M(0) C(t)=M(t), C(0)=I, and the actual uniform centroid remains zero. Thus the regularizations also have a fixed-physical-metric realization.
 
-The physical selectors remain those of the supplied radial-index theorem: protect all originally nonzero primitives and give a positive exit at each original weak vertex/facet. This removes weak points without adding equilibria and retains the strict labels; no weak-edge groups or demand that every algebraic zero disappear is introduced. fileciteturn0file2L78-L102
+The physical selectors remain those of the supplied radial-index theorem: protect all originally nonzero primitives and give a positive exit at each original weak vertex/facet. This removes weak points without adding equilibria and retains the strict labels; no weak-edge groups or demand that every algebraic zero disappear is introduced.
 
 ## 3. An exact two-parameter carrier-neutral family
 
@@ -63,7 +63,7 @@ For an outward true boundary fan the actual quantities used in (3.2) are
     J0=sum det(Y_a,Y_b,Y_c)(Y_a+Y_b+Y_c),
     g=J0/(4D0).                                          (3.3)
 
-The parent's exact affine centroid retraction is the source of (3.2); (3.1) supplies the additional carrier-neutral freedom exploited here. fileciteturn4file0L165-L185
+The parent's exact affine centroid retraction is the source of (3.2); (3.1) supplies the additional carrier-neutral freedom exploited here.
 
 The uniform-volume Jacobian of (3.1) is
 
@@ -91,9 +91,9 @@ Thus the full prescribed polar polygon is fixed pointwise. The actual original-v
     g_Q(p)= integral_Q x(1+p.x)^-5 dx
             / integral_Q (1+p.x)^-4 dx.
 
-At Q=P,p=0 its p-derivative is -5 Sigma_P. Local analytic centring follows by the implicit function theorem; positive denominators and the original lattice persist locally. Since the raw centroid derivative in (3.5) is -v, p'=-(5 Sigma_P)^-1 v. This gives exactly (3.4), now with K=(5 Sigma_P)^-1. The parent's polar completion retains this original-body volume law. fileciteturn4file0L189-L229
+At Q=P,p=0 its p-derivative is -5 Sigma_P. Local analytic centring follows by the implicit function theorem; positive denominators and the original lattice persist locally. Since the raw centroid derivative in (3.5) is -v, p'=-(5 Sigma_P)^-1 v. This gives exactly (3.4), now with K=(5 Sigma_P)^-1. The parent's polar completion retains this original-body volume law.
 
-General projective centroid fitting is established background, not a novelty claim of this handoff; the new use here is the mechanically neutral carrier family and its simultaneous off-carrier responses. citeturn647465academia10
+General projective centroid fitting is established background, not a novelty claim of this handoff; the new use here is the mechanically neutral carrier family and its simultaneous off-carrier responses.
 
 ### 3.3 Independent normal-metric parameter
 
@@ -185,7 +185,7 @@ For the normal direction, p=P' is nonnegative and nonzero. Since
 
     p^T G0^-1 p>0,
 
-some i has both p_i>0 and (G0^-1 p)_i>0. Thus the SAME direction gives a strict positive first derivative for P_i and its complementary Q. This argument includes right corners and does not replace the two paired exits by an unrelated row. The exact flag coupling is retained from the parent. fileciteturn3file0L50-L54
+some i has both p_i>0 and (G0^-1 p)_i>0. Thus the SAME direction gives a strict positive first derivative for P_i and its complementary Q. This argument includes right corners and does not replace the two paired exits by an unrelated row. The exact flag coupling is retained from the parent.
 
 Every off-carrier contact has now been opened by one common neutral direction. Every carried contact is left untouched. Section 4 glues this direction to the carrier flow, proving the closed-facet theorem.
 
@@ -262,7 +262,7 @@ Take tau=t and sigma=epsilon t^2, choosing epsilon=1 or -1 so that the resulting
 
 Combining this with (6.1), a single off-carrier VF is rescued whenever its bearing facet is not parallel to the chosen carrier, or when the two are parallel but ell_T!=0. The remaining parallel case with ell_T=0 is not ruled out by these neutral motions. No corresponding blanket assertion is made for all blind EF cases, or for several simultaneously blind off-carrier points.
 
-All order statements here concern explicitly integrated actual deformations. They do not rely on truncating the full problem at a guessed universal jet order. The supplied general rational retraction and all-orders criterion remain separate available tools. fileciteturn3file0L56-L59
+All order statements here concern explicitly integrated actual deformations. They do not rely on truncating the full problem at a guessed universal jet order. The supplied general rational retraction and all-orders criterion remain separate available tools.
 
 ## 7. Three new exact actual E17 controls
 
@@ -390,7 +390,7 @@ Exact pins:
 
 Normal build/check and a fresh source-only build/check were actually executed successfully. The cold report matches byte-for-byte. The report regenerates all literal endpoint coordinates, true poles, moments, primitive values, response vectors, jets and interval enclosures. Exploratory metric-wall calculations located these examples; they are not asserted to be exhaustive, and the complete exact generator/checker below does not depend on those locators.
 
-Convenience copies: [complete source](sandbox:/mnt/data/multicarrier/carrier_neutral.py) and [complete exact report](sandbox:/mnt/data/multicarrier/carrier_neutral_report.json). The embedded source is the durable recovery capsule; these links are supplementary. All five earlier one-carrier controls and their recovery capsules remain unchanged.
+Convenience copies: complete source (`carrier_neutral.py`) and complete exact report (`carrier_neutral_report.json`). The embedded source is the durable recovery capsule; these links are supplementary. All five earlier one-carrier controls and their recovery capsules remain unchanged.
 
 The new analytic results are not inferred from the controls and are not proof-assistant formalizations. Their unresolved boundary is explicit. A genuinely nonregularizable first-layer packet must fail both closed-facet tests: its physical weak locations cannot all lie in one facet, and its exposed rest-support faces cannot all contain one vertex. For each attempted carrier, every compatible off-carrier selector must also defeat the simultaneous neutral screen. A three-row circuit of that screen, a failed VF rank condition, and failure of every genuine deformation are different claims. In the one-additional-point sectors, the higher-order arguments remove some zero-response cases as well.
 

@@ -305,7 +305,7 @@ NO_UNEXHAUSTED_JOINT_C32_DOMAIN_PROMOTED
 
 The separately executed frozen check reproduced the independent matrix/graph markers and final recovery marker, again with all pins matching.
 
-Supplementary [accepted source, coefficients, reports and completed replay transcripts](sandbox:/mnt/data/NOVA24_F9_FIVE_TREES_25_ESCAPE_FRAMES_V1.zip). The complete source below is the durable recovery, not that archive.
+Supplementary accepted source, coefficients, reports and completed replay transcripts (`NOVA24_F9_FIVE_TREES_25_ESCAPE_FRAMES_V1.zip`). The complete source below is the durable recovery, not that archive.
 
 ## 8. Complete literal recovery capsule
 

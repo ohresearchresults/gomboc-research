@@ -256,4 +256,4 @@ reverse616_INPUT.json 7661 da7ecbea63106bc6d3bdacd631f3895b0fdfd5fe871dd8081595c
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Удобные копии дополняют, но не заменяют буквальную капсулу: [recovery source](sandbox:/mnt/data/recover_c616_monostability.py), [полный проверенный source/output bundle](sandbox:/mnt/data/c616_monostability_verified_bundle.zip).
+Удобные копии дополняют, но не заменяют буквальную капсулу: recovery source (`recover_c616_monostability.py`), полный проверенный source/output bundle (`c616_monostability_verified_bundle.zip`).

@@ -46,9 +46,9 @@ The authoritative parent is `minimum-0219`, SHA-256 `fe20565818ac05c081e8e74a110
 alpha in[-1/2,1/2], beta in[0,1/4], |gamma|<=2^-75.
 ```
 
-That theorem remains a working premise, not the subject of a generic replay. Its domain is not an enclosing box for hypothetical U1 members. The new wedge and that block are different sets, neither containing the other. :contentReference[oaicite:0]{index=0}
+That theorem remains a working premise, not the subject of a generic replay. Its domain is not an enclosing box for hypothetical U1 members. The new wedge and that block are different sets, neither containing the other.
 
-The new coordinator material `[internal-source-reference]`, FULL_COMPONENT_FIVE_PHYSICAL_WEAK_CONTACTS_V1, was also read completely. It strengthens the singular-disconnected component alternative to at least five genuinely weak-unstable nonroot sources, not merely five zero primitives. Exactly five permit strict-U1 perturbation on the same actual body; this does not imply S1 or110. No new five-contact census is claimed here. The all-PSD/tree proof below eliminates both singular-connected and singular-disconnected feasible components on the wedge without assuming that every SPD component approaches rank two. :contentReference[oaicite:1]{index=1}
+The new coordinator material `[internal-source-reference]`, FULL_COMPONENT_FIVE_PHYSICAL_WEAK_CONTACTS_V1, was also read completely. It strengthens the singular-disconnected component alternative to at least five genuinely weak-unstable nonroot sources, not merely five zero primitives. Exactly five permit strict-U1 perturbation on the same actual body; this does not imply S1 or110. No new five-contact census is claimed here. The all-PSD/tree proof below eliminates both singular-connected and singular-disconnected feasible components on the wedge without assuming that every SPD component approaches rank two.
 
 The entire updated journal, including its complete literal parent payload and recovery capsule, was read consecutively through EOF. Input pins are
 
@@ -566,4 +566,4 @@ PYTHON_GMP_CPP_ALL_FIRST_CELL_COEFFICIENT_MINIMA_MATCH 5084058
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Convenience copies: [complete recovery capsule](sandbox:/mnt/data/recover_two_cap_wedge.py), [exact report](sandbox:/mnt/data/wedge_final/two_cap_wedge.json). The embedded capsule and proof suffice without these links.
+Convenience copies: complete recovery capsule (`recover_two_cap_wedge.py`), exact report (`two_cap_wedge.json`). The embedded capsule and proof suffice without these links.

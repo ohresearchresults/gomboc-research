@@ -499,6 +499,6 @@ print('RR11_COMPLETE_SOURCE_RECOVERED',root)
 
 ## 9. Supplemental artifacts
 
-[Complete exact replay, audit outputs, and discovery supplement](sandbox:/mnt/data/RR11_sparse_physical_handoff.zip). [Standalone source recovery program](sandbox:/mnt/data/RR11_RECOVER.py). [Expanded Markdown handoff including the full rational P35 volume](sandbox:/mnt/data/RR11_result_markdown.md).
+Complete exact replay, audit outputs, and discovery supplement (`RR11_sparse_physical_handoff.zip`). Standalone source recovery program (`RR11_RECOVER.py`). Expanded Markdown handoff including the full rational P35 volume (`RR11_result_markdown.md`).
 
 These files supplement the full inline capsule. No supplemental link is the sole source of a claimed exact checkpoint, moment, audit procedure or continuation-critical generator.

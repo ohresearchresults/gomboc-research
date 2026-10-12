@@ -28,9 +28,9 @@ The complete new 2133-line journal was read through EOF, including the entire li
 
 Current input: `research-journal(20260920-043445).md`, 336967 UTF-8 bytes, SHA-256 `91ea21e1f9af692ac23c42fdc32dd63cebcd8670e2e0260371c1b5d4ded9d674`.
 
-Literal parent: `minimum-0121`, 53417 bytes, authenticated SHA-256 `5b7a015a3854870aa9d3d3450d95cb8c92e4f9fe85a0a6582486bf3030421fc6`. The authenticated envelope uses compact UTF-8 JSON, keys `version,result_markdown`, `ensure_ascii=False`, separators `(',',':')`, one final LF inside the Markdown string, and no envelope-final LF. No source-identity or scientific conflict was found. The parent closes the nonempty-free sector and explicitly leaves the endpoint-cover problem addressed here. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+Literal parent: `minimum-0121`, 53417 bytes, authenticated SHA-256 `5b7a015a3854870aa9d3d3450d95cb8c92e4f9fe85a0a6582486bf3030421fc6`. The authenticated envelope uses compact UTF-8 JSON, keys `version,result_markdown`, `ensure_ascii=False`, separators `(',',':')`, one final LF inside the Markdown string, and no envelope-final LF. No source-identity or scientific conflict was found. The parent closes the nonempty-free sector and explicitly leaves the endpoint-cover problem addressed here.
 
-The inherited geometric inputs used below are actual triangular-star rank at least two, nonsingularity at true degree three or four, and the already accepted free-vertex regularization theorem. In particular the degree-four input is the positive determinant formula for the actual deletion cap, not positivity of a symmetric part or a claim about arbitrary high-degree vertices. These distinctions and the formula are preserved in the supplied journal. :contentReference[oaicite:2]{index=2}
+The inherited geometric inputs used below are actual triangular-star rank at least two, nonsingularity at true degree three or four, and the already accepted free-vertex regularization theorem. In particular the degree-four input is the positive determinant formula for the actual deletion cap, not positivity of a symmetric part or a claim about arbitrary high-degree vertices. These distinctions and the formula are preserved in the supplied journal.
 
 For explicit low-degree recovery, a planar deletion cap of height h and volume v has det A=(v/(4V))³[2+4(H−n·g)/h]>0, with unit n and base plane n·x=H; the bulk lies below that plane and the cap centroid has height h/4 above it. In the nonplanar degree-four chart, T>0 and the true remainder satisfy G_K≥1/4, and
 
@@ -55,7 +55,7 @@ Here the radial plane at x_i exposes exactly the true edge [x_i,y_i]. Let A_j=D_
                           +Σ_(target i=j)alpha_i x_i,
     R^T alpha=0  iff  F_j(alpha)=A_j^T c_alpha for EVERY j.       (1)
 
-Testing all affine vertex fields also gives Σalpha_i T_i=0. These are actual full-shape equations, strictly stronger than tensor stress. :contentReference[oaicite:3]{index=3}
+Testing all affine vertex fields also gives Σalpha_i T_i=0. These are actual full-shape equations, strictly stronger than tensor stress.
 
 The simple contacts form a rooted forest: there is at most one outgoing edge at a source, and |y_i|²−|x_i|²=|u_i|²>0. A directed cycle is impossible, and an undirected cycle with outdegree at most one would be directed. The force map F is injective on signed coefficients: remove source leaves successively, using their nonzero force factor p=y−2x, with x·p=−|x|². Hence c is injective on ker R^T.
 
@@ -85,7 +85,7 @@ For H∈U and sufficiently small epsilon, M=I+epsilon H is positive definite. A 
 
     M F_j(beta)=A_j^T M c_beta.                              (2)
 
-The coefficient space L={beta:Σbeta_i T_i=0} remains unchanged under tensor congruence. This handles every new stress, including changed supports. No transported nonuniform volume law is used. :contentReference[oaicite:4]{index=4}
+The coefficient space L={beta:Σbeta_i T_i=0} remains unchanged under tensor congruence. This handles every new stress, including changed supports. No transported nonuniform volume law is used.
 
 ### 4.2 Rank-one projection lemma for a contact forest
 
@@ -95,7 +95,7 @@ For nonzero weights on a forest let K have off-diagonal edge weight alpha_i, sou
 
 Then z=0 at every endpoint. Indeed a source leaf gives z_target=2z_source; its contact equation then gives z_source²=0 and both coordinates vanish. Delete the leaf and repeat. This lemma permits signed nonzero weights; isolated vertices are not included in its conclusion.
 
-For positive weights on at most four edges, K has nullity at most one. A path has this property by its nonzero off-diagonal recurrence. A star or the five-vertex fork reduces to a path by eliminating nonroot leaves at the nonzero pivots −2alpha. One- and two-edge components are nonsingular, and there is at most one larger component. This supplies a short complete proof of the small-forest fact used below, consistent with the literal parent. :contentReference[oaicite:5]{index=5}
+For positive weights on at most four edges, K has nullity at most one. A path has this property by its nonzero off-diagonal recurrence. A star or the five-vertex fork reduces to a path by eliminating nonroot leaves at the nonzero pivots −2alpha. One- and two-edge components are nonsingular, and there is at most one larger component. This supplies a short complete proof of the small-forest fact used below, consistent with the literal parent.
 
 ### 4.3 The common-factor geometry is genuinely constrained
 
@@ -205,11 +205,11 @@ where Sigma is the actual original uniform covariance. This identity follows dir
 
 Existence of nn^T∈U is a finite exact test: among the16 choices s_i∈{x_i,u_i}, some 3×4 matrix [s_1 s_2 s_3 s_4] must have rank at most two. Thus every surviving residual must have rank three in **all16** factor selections.
 
-When a rank-three full-positive case has a nonzero(5), the parent's original-body quadratic construction also applies: R_H^T alpha cannot belong to im R^T, because testing a hypothetical correcting stress on all affine fields makes it a multiple of alpha. Choose v∈ker R with alpha R_H v>0, use the complete actual quadratic centroid coefficient, and add an order-s² vertex correction. This is not asserted as a uniform quadratic bound for the new rank-two theorem. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+When a rank-three full-positive case has a nonzero(5), the parent's original-body quadratic construction also applies: R_H^T alpha cannot belong to im R^T, because testing a hypothetical correcting stress on all affine fields makes it a multiple of alpha. Choose v∈ker R with alpha R_H v>0, use the complete actual quadratic centroid coefficient, and add an order-s² vertex correction. This is not asserted as a uniform quadratic bound for the new rank-two theorem.
 
 ## 7. The four-type residual and the six-vertex inertia restrictions
 
-Four contact edges covering five vertices form one rooted tree. Its four sources are not strict U, and the remaining vertex is the only possible strict U; a maximum-norm true vertex guarantees that it is strict. Such an own-centroid body is excluded already by the accepted U=1⇒n≥10 theorem, including weak contacts. This is a vacuous endpoint-cover sector, not a new minimum bound. :contentReference[oaicite:8]{index=8}
+Four contact edges covering five vertices form one rooted tree. Its four sources are not strict U, and the remaining vertex is the only possible strict U; a maximum-norm true vertex guarantees that it is strict. Such an own-centroid body is excluded already by the accepted U=1⇒n≥10 theorem, including weak contacts. This is a vacuous endpoint-cover sector, not a new minimum bound.
 
 For six vertices, positive full-support tensor balance means X^T KX=0 with rank X=3. If K has inertia (p,q,z), a totally isotropic subspace has dimension at most z+min(p,q). A positive two-edge component has inertia(1,2,0); a matching component has(1,1,0). Thus 2+2 components cannot support a full-dimensional positive tensor stress. A three-edge star has(1,3,0) for either root type; adjoining one matching edge is again impossible. Proper-support and lower-rank cases were already handled above. This proves Theorem C.
 
@@ -241,7 +241,7 @@ After a valid preliminary affine motion, choose the positive actual shape veloci
                         [v_i(s)+v_j(s)+v_k(s)]/24,
     g(s)=J(s)/V(s).
 
-No adjacent mixed determinant is omitted. Recenter by this g(s), not its first-order approximation. Positive leading A escapes eliminate each whole original simple packet. The finite strict and excluding guards preserve the true lattice, original strict labels and absence of new equilibria. Harmless primitive zeros elsewhere need not be individually removed. The same M and M^(-1) govern the primal and dual throughout. This is the physical convention retained in the literal parent. :contentReference[oaicite:9]{index=9}
+No adjacent mixed determinant is omitted. Recenter by this g(s), not its first-order approximation. Positive leading A escapes eliminate each whole original simple packet. The finite strict and excluding guards preserve the true lattice, original strict labels and absence of new equilibria. Harmless primitive zeros elsewhere need not be individually removed. The same M and M^(-1) govern the primal and dual throughout. This is the physical convention retained in the literal parent.
 
 ### Two rational no-free rank-two controls
 
@@ -345,7 +345,7 @@ Exact main stdout:
 
 The independent cold receipt ended `ENDPOINT_COVER_COMPLETE_CAPSULE_COLD_PASS`. Optional commands `locate20`, `locate50` and `atlas` reproduce the exact finite discovery units. The two rational searches use reduced fractions with denominator at most20 or50, respectively, giving127 or773 candidates per scalar grid, with0<q<a<1 and b>0; the latter additionally requires p>1/2 and returns exactly C1,C2. Their absence of additional hits is not an exclusion or completeness theorem over shapes.
 
-Convenience copies: [plain source](sandbox:/mnt/data/nofree/endpoint_cover_four_a.py), [exact report](sandbox:/mnt/data/nofree/endpoint_cover_four_a.json), [capsule](sandbox:/mnt/data/nofree/recover_endpoint_cover.py).
+Convenience copies: plain source (`endpoint_cover_four_a.py`), exact report (`endpoint_cover_four_a.json`), capsule (`recover_endpoint_cover.py`).
 
 The useful continuation is now the four explicit forests(9), not the closed free-clique or no-free matching sector. It should retain the one-dimensional signed stress space, the full actual residual(5), the rank-one factor test, the actual trace's six-vertex limitation, and complete mixed moment jets. The nonsimplicial, mixed A/B and VF complements are unchanged. The global bracket34≤C_min≤622 and every polytope-incidence registry count remain unchanged; none of the new graph counts or nonrecord controls is a minimum claim.
 

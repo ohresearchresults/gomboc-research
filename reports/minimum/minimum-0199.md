@@ -16,9 +16,9 @@ The exclusion also holds on a **radius 1/20000 tube of actual own-centred, same-
 
 The proof is an exact actual-centroid, true-edge stress cover: **533 integer rows, 1,758 row/cell applications, 210,960 shifted SPD Bernstein matrices, and 632,880 positive leading minors**, with a second exact determinant evaluation for every block. All **46,150 rooted true-edge trees** are covered in each of five closed parameter cells.
 
-At the central body all four supplied apical proper-subsystem pencils attain strict **222, weak000**, for `0<delta<=1/20000`. These give a sharp U2 control for EACH proper subsystem on the SAME body, not U1. The new result closes all other metrics of that body as well; the supplied theorem had expressly excluded only four particular tangent/footpoint tubes. :contentReference[oaicite:0]{index=0}
+At the central body all four supplied apical proper-subsystem pencils attain strict **222, weak000**, for `0<delta<=1/20000`. These give a sharp U2 control for EACH proper subsystem on the SAME body, not U1. The new result closes all other metrics of that body as well; the supplied theorem had expressly excluded only four particular tangent/footpoint tubes.
 
-**None of the positive construction tiers A–D is achieved.** Instead, arbitrary-root U1, apical U1 with a proper subsystem, all four proper-subsystem U1 realizations on one body, and110 are all excluded on the entire family and the stated tube. Global compatibility on genuinely different completions remains open. There is no canonical-registry subtraction or new bound: **34 <= C_min <= 622** remains unchanged. :contentReference[oaicite:1]{index=1}
+**None of the positive construction tiers A–D is achieved.** Instead, arbitrary-root U1, apical U1 with a proper subsystem, all four proper-subsystem U1 realizations on one body, and110 are all excluded on the entire family and the stated tube. Global compatibility on genuinely different completions remains open. There is no canonical-registry subtraction or new bound: **34 <= C_min <= 622** remains unchanged.
 
 ## 2. Sources, reading, and identity
 
@@ -31,7 +31,7 @@ The new journal was read consecutively through EOF, including its complete liter
 
 The journal has1407 raw logical lines; Files rendered1419. Its delivered-file hash is not its internal working-memory hash. The Schur file has332 raw logical lines and333 rendered lines.
 
-Authoritative literal parent: **minimum-0197**, SHA-256 `a7b006ad09534e46e35a14bb5255b09a5f091f2f1672ad26878cb0d4d6dbfc94`, OWN_CENTRED_E17_UNIVERSAL_PENTAGON_FACE_REALIZATION_V1. This is the **moderate-cut body with apex0**, not the coordinator's distinct one-corner family with apex4. The delivered source `pentagon_e17.py`,18130 bytes, SHA-256 `cdf46290aadcf61f5127120a0e267d62c7041d227c047194f3fd86d775043f01`, was read for its exact construction and audit routines. The parent’s full geometry and same-origin pole prescription are literal, not reconstructed from a summary alias. :contentReference[oaicite:2]{index=2}
+Authoritative literal parent: **minimum-0197**, SHA-256 `a7b006ad09534e46e35a14bb5255b09a5f091f2f1672ad26878cb0d4d6dbfc94`, OWN_CENTRED_E17_UNIVERSAL_PENTAGON_FACE_REALIZATION_V1. This is the **moderate-cut body with apex0**, not the coordinator's distinct one-corner family with apex4. The delivered source `pentagon_e17.py`,18130 bytes, SHA-256 `cdf46290aadcf61f5127120a0e267d62c7041d227c047194f3fd86d775043f01`, was read for its exact construction and audit routines. The parent’s full geometry and same-origin pole prescription are literal, not reconstructed from a summary alias.
 
 The supplied Schur source was extracted unchanged and executed in build/check modes. Its12232-byte source SHA-256 is `2f4fcfd1c2cd73fd47c7f95565cc373c5435ba88ab562f674773a824e3cab37c`; its301990-byte report matched `e9b76379a35c176f33d573d7b9a194630e3293e669f920eee894a0eb09bf16ed`. This turn replayed normal build/check; the coordinator's separately reported earlier cold replay is not represented as another new audit.
 
@@ -383,7 +383,7 @@ The exact last inequality is verified. A hypothetical nonnegative escape tree of
 
 The radius is in the specified coordinate frame; it is not compared numerically to the differently normalized Schur-tube radius. The theorem does not permit new edges or facet splits to be ignored, and it assumes each perturbed vertex array has already been centred by its OWN actual uniform-volume centroid.
 
-In particular, the supplied full-rank centroid actuator and seven-dimensional fixed-ACTUAL-pole fibre cannot produce U1 by a sufficiently small completion change around this parent: all such nearby actual realizations fall into the tube. This uses the parent's actual fibre theorem without claiming its whole global fibre has been covered. :contentReference[oaicite:3]{index=3}
+In particular, the supplied full-rank centroid actuator and seven-dimensional fixed-ACTUAL-pole fibre cannot produce U1 by a sufficiently small completion change around this parent: all such nearby actual realizations fall into the tube. This uses the parent's actual fibre theorem without claiming its whole global fibre has been covered.
 
 ## 7. Preserved actual reciprocal controls and sharpness
 
@@ -697,4 +697,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Optional convenience copies: [decoded source](sandbox:/mnt/data/pentagon_u2/pentagon_u2.py), [exact reconstruction report](sandbox:/mnt/data/pentagon_u2/pentagon_u2.json), [source-only recovery capsule](sandbox:/mnt/data/pentagon_u2/recover_pentagon_u2.py). The embedded capsule is sufficient without these links.
+Optional convenience copies: decoded source (`pentagon_u2.py`), exact reconstruction report (`pentagon_u2.json`), source-only recovery capsule (`recover_pentagon_u2.py`). The embedded capsule is sufficient without these links.

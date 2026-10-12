@@ -12,10 +12,12 @@ Seven submitted research tasks have no saved result. The J143 translation-mass-c
 
 ## Text records
 
-Reports and source notes preserve their original language. Internal identifiers, private links and machine paths have been replaced where necessary. Some encoded source blocks are omitted and marked in the text; those passages cannot be run as complete programs. The [report index](reports.json) and [material index](materials.json) record substitutions, omission counts and file hashes.
+Reports and source notes preserve their original language. Internal identifiers, private links and machine paths have been replaced where necessary. `[internal-source-reference]` stands for a reference to another record of the research system that has no public address. Markers left by the chat interface (citation tags and links to its temporary file storage) have been removed; where such a link named a file, the file name is kept in the text. Some encoded source blocks are omitted and marked in the text; those passages cannot be run as complete programs. The [report index](reports.json) and [material index](materials.json) record substitutions, omission counts and file hashes. Index titles are taken from each record's first heading; where that heading was a single word such as “Verdict”, the first sentence of the record is appended.
 
 ## Data formats and reproduction
 
 [NumPy format notes](numpy-format.md) document array conversions and the replacement for a ragged object array. A symbolic pickle cache and binary payloads that could not be fully inspected are omitted.
 
 Historical scripts require their stated dependencies, and many write outputs beside their inputs. Run them in a working copy. The [C622 check](../C622/README.md) uses only the Python standard library and writes to a new output directory.
+
+The Python files in `C622/` have been reformatted for readability, and its source guide has been rewritten in English. The algorithms and exact construction data are unchanged; source-file checksums have been updated.

@@ -10,7 +10,7 @@ AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md
 
 **No C<622 own110/weak000 construction was obtained.** I constructed and independently audited changed rational bodies, rather than only replaying the incumbent. The useful retained endpoint is **CN63_C616_DELETE99_U144_RELEASE_G12_OWN121**: V174/E308/F136, strict(S,U,H)=(1,2,1), weak000. It comes directly from canonical C622 by genuine maximal-facet suppression followed by a whole-contact-coordinate repair using the filled-volume centroid. The extra unstable vertex and its saddle remain.
 
-The source authority is literal parent `figure-0411`, declared SHA-256 `8fcc52aa7ec1d0556b774912061d81594425ea912bf5bfee8caada67a4026e0b`. It supplies VQ20_C622_ROUTE88_118_G12, not CONDITION25 or an own132 descendant. I read the complete 1748-line supplied journal, including this parent, and all sixteen decoded source files before the experiments. No necessary exact dependency was missing. The parent itself explicitly claimed no changed construction. :contentReference[oaicite:0]{index=0}
+The source authority is literal parent `figure-0411`, declared SHA-256 `8fcc52aa7ec1d0556b774912061d81594425ea912bf5bfee8caada67a4026e0b`. It supplies VQ20_C622_ROUTE88_118_G12, not CONDITION25 or an own132 descendant. I read the complete 1748-line supplied journal, including this parent, and all sixteen decoded source files before the experiments. No necessary exact dependency was missing. The parent itself explicitly claimed no changed construction.
 
 The canonical reconstruction and existing A/B/centered-mass/controls replay completed. Canonical A=B remained311825bytes, SHA `142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0`; scoped receipt remained `6ca0671aace64125886235d1060235f93290915c512bd7e9ac1e0789d7ec3f8a`. These were calibration checks, not the constructive result.
 
@@ -55,7 +55,7 @@ All exact centroid fractions and raw coordinates regenerate in A.json/B.json. Ex
 
 I did not use the two-support edge-quotient helper. Removing original canonical support99 and rebuilding the exposed intersection gives a **reverse triangular truncation**. Original facet99 contains three degree-three raw-lex vertices133,145,146. They cease to be extreme. Exactly one new extreme vertex appears, DELETE99 raw-lex144, at original supports44,81,100. Every other original vertex is unchanged. Thus deltaV=-2,deltaE=-3,deltaF=-1, not a nominal V-1/E-1 operation with fixed F.
 
-Every child's degree histogram is131x3,34x4,5x5,3x6,1x44. Degree excess remains94, including41 at the apex: an actual k=1,ell=0 support-loss operation. This satisfies the inherited necessary budget inequality but does not preserve equilibrium class automatically. The parent explicitly distinguished genuine facet loss from the quotient helper's restricted operation. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+Every child's degree histogram is131x3,34x4,5x5,3x6,1x44. Degree excess remains94, including41 at the apex: an actual k=1,ell=0 support-loss operation. This satisfies the inherited necessary budget inequality but does not preserve equilibrium class automatically. The parent explicitly distinguished genuine facet loss from the quotient helper's restricted operation.
 
 The child facet histogram is50x3,34x4,25x5,12x6,7x7,3x8,2x9,1x10,1x12,1x20. Its344 integration triangles are not344 physical facets.
 
@@ -69,7 +69,7 @@ Label discipline: original support100 becomes child input99. Child apex control1
 
 Numerical edge histogram: E308:20,E309:42,E310:52,E311:17,E312:4,E313:2. There were114 numerically under-budget deletions and no numerical own110. Row99 had the smallest observed centroid displacement, approximately1.773e-8, and was selected for exact continuation. The 206319-byte screen output is reproducible; observed SHA `c6b7557ed29f091fb32ee9547dfddd4bf474ffcbecbb3dbde9c2034aee24d784`.
 
-The new `REPAIR.py` uses311 free contact coordinates on the rebuilt deletion chart, filled-mass derivatives, and dynamic best all-point physical/polar witnesses. Both retained-root scores participate in its residual, unlike the inherited SVD inner-merit omission. Stable input3 and apex raw94 are retained. :contentReference[oaicite:3]{index=3}
+The new `REPAIR.py` uses311 free contact coordinates on the rebuilt deletion chart, filled-mass derivatives, and dynamic best all-point physical/polar witnesses. Both retained-root scores participate in its residual, unlike the inherited SVD inner-merit omission. Stable input3 and apex raw94 are retained.
 
 **ONE99:** nonroot cosine goal1e-8; all-root floors; nonowner and positive-tetrahedron guards; analytic-Jacobian SciPy least_squares; max_nfev150; ftol=xtol=gtol=1e-12. It used150 function/139 Jacobian evaluations and stopped at the evaluation limit. Cost fell from approximately6.0472e-4 to3.3367300227157873e-6, while exact own counts worsened from59/55/112 to95/102/195. This is a retained exact surrogate countercontrol. It does not rely on a vanishing true edge: the mechanism checker proves all308 true edges of every retained child have squared length>1/10000, hence length>1/100 in this coordinate scale.
 
@@ -482,4 +482,4 @@ Use the frozen TWO99 generator, not ONE99, as the canonical-derived one-pair ent
 
 **Final status: canonical own110 incumbent remains C622. Three changed C616 rational nonwinners are durable; TWO99 is exactly own121/weak000. No lower-C own110 endpoint and no broader exclusion are claimed.**
 
-Supplementary copies, not dependencies of the inline recovery: [expanded handoff](sandbox:/mnt/data/CN63_HANDOFF.md), [self-contained recovery program](sandbox:/mnt/data/CN63_RECOVER.py), [source and completed exact reports](sandbox:/mnt/data/CN63_COMPLETE.zip).
+Supplementary copies, not dependencies of the inline recovery: expanded handoff (`CN63_HANDOFF.md`), self-contained recovery program (`CN63_RECOVER.py`), source and completed exact reports (`CN63_COMPLETE.zip`).

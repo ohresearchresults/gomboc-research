@@ -36,13 +36,13 @@ D_(i,j)(M) = (Z_i-g)^T M (Z_j-Z_i).
 
 Thus every rooted tree has an original arrow with derivative at most `-2^(-33)`.
 
-The supplied finite-height theorem puts every joint S1/U1 candidate inside the strict covariance-weighted cap48; this is not a restriction on arbitrary U1 metrics. Consequently the atlas excludes S=U=1, even with additional weak rests, on its stated region. fileciteturn9file0L23-L30 Combining it with the accepted all-basal, all-metric `lambda>=3/5` exclusion removes **all 0<lambda<1** over B_new. The upper-taper result is an inherited premise, not a new replay. fileciteturn8file0L124-L129
+The supplied finite-height theorem puts every joint S1/U1 candidate inside the strict covariance-weighted cap48; this is not a restriction on arbitrary U1 metrics. Consequently the atlas excludes S=U=1, even with additional weak rests, on its stated region. Combining it with the accepted all-basal, all-metric `lambda>=3/5` exclusion removes **all 0<lambda<1** over B_new. The upper-taper result is an inherited premise, not a new replay.
 
 The coordinate reflection `(x,r,p,q)->(r,x,q,p)` gives the reflected basal box as well. Its vertex permutation is `(5,4,3,2,1,0,6,7,9,8)`, together with interchange of the first two spatial coordinates. This preserves the covariance-weighted condition number and the actual mechanics. Reflection is a theorem consequence, not a second independently counted atlas.
 
 Both boxes are outside the named all-taper macro/reflection and the off-macro tiny tube in the assignment. The central shape A is now covered as part of a complete common-metric regional exclusion, rather than only through the parent's four- or five-arrow containment counts.
 
-**No whole-H5 or whole-E17 exclusion, proper110 construction, canonical-registry subtraction, or global minimum-bound improvement follows.** The accepted bounds remain `34<=C_min<=622`. fileciteturn8file0L124-L133
+**No whole-H5 or whole-E17 exclusion, proper110 construction, canonical-registry subtraction, or global minimum-bound improvement follows.** The accepted bounds remain `34<=C_min<=622`.
 
 ## 2. Source authority and reading
 
@@ -164,7 +164,7 @@ tr(MQ)
 
 Selected weak exits instead imply `tr(MQ)=-sum w_e D_e<=0`. This is a contradiction.
 
-The lemma is a convenient subclass of the supplied complete `P-N` dual certificate system. fileciteturn2file0L48-L71 It does **not** restrict the physical metric to an isotropic metric. Only the certificate's negative part is chosen proportional to the actual covariance. That negative part is unrelated to the physical inverse metric used for equilibrium censuses.
+The lemma is a convenient subclass of the supplied complete `P-N` dual certificate system. It does **not** restrict the physical metric to an isotropic metric. Only the certificate's negative part is chosen proportional to the actual covariance. That negative part is unrelated to the physical inverse metric used for equilibrium censuses.
 
 The useful implementation point is linearity in the arrow weights:
 
@@ -915,4 +915,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Convenience copy: [complete source-and-output capsule](sandbox:/mnt/data/h5_cap48_macro_capsule.zip). The four inline sources, exact inputs and commands above are sufficient without this archive.
+Convenience copy: complete source-and-output capsule (`h5_cap48_macro_capsule.zip`). The four inline sources, exact inputs and commands above are sufficient without this archive.

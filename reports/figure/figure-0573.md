@@ -39,9 +39,9 @@ These and the table entries are the entire positive-bar lists, displayed approxi
 
 ## Input authority and reading
 
-I read all six supplied files completely, including the entire 111,780-byte journal and its branch memory. I reconstructed the actual selected G8 → single lambda1/2 → double lambda1/4 → third-stellar parent. Its input was 2,985 bytes with SHA256 `32cba83de40271ce4bf02ba6ff22d38a839879b64da33c6637089e72876e757b`; its original 8,107-byte exact report reproduced SHA256 `6be7e0521fe41380bb2a19b7559de46c74c58edf764e78c35001a71de2ca702a`. The parent was indeed 48/138/92, own121/weak000, S{45,46,47}, U0/40, H21--30, P0.45529621853755375. Its complete stable triangle lies below the remaining death level, as specified in the supplied source. fileciteturn0file4L15-L26
+I read all six supplied files completely, including the entire 111,780-byte journal and its branch memory. I reconstructed the actual selected G8 → single lambda1/2 → double lambda1/4 → third-stellar parent. Its input was 2,985 bytes with SHA256 `32cba83de40271ce4bf02ba6ff22d38a839879b64da33c6637089e72876e757b`; its original 8,107-byte exact report reproduced SHA256 `6be7e0521fe41380bb2a19b7559de46c74c58edf764e78c35001a71de2ca702a`. The parent was indeed 48/138/92, own121/weak000, S{45,46,47}, U0/40, H21--30, P0.45529621853755375. Its complete stable triangle lies below the remaining death level, as specified in the supplied source.
 
-I did not substitute dynamicG10 or the separate detached-B family. The raw G10 serialization issue is not a dependency here. The late literal G8 recovery supersedes the historical missing-coordinate warning; there was no missing exact dependency for this computation. fileciteturn0file5L362-L375
+I did not substitute dynamicG10 or the separate detached-B family. The raw G10 serialization issue is not a dependency here. The late literal G8 recovery supersedes the historical missing-coordinate warning; there was no missing exact dependency for this computation.
 
 ## 1. A finite geometric improvement with S1 retained
 
@@ -537,4 +537,4 @@ print('QW49_SOURCE_CAPSULE_PASS',31,'fd2d8001be16812a2941203a27a60dfc03a180a4d6f
 print('Run: cd',str(out),'&& python replay49.py && python verify_diagnostics49.py')
 ```
 
-Convenience copies: [recovery Python](sandbox:/mnt/data/QW49_RECOVER.py), [sources, exact reports, and captured numerical checkpoints](sandbox:/mnt/data/QW49_FULL.zip), and [this handoff](sandbox:/mnt/data/QW49_RESULT.md).
+Convenience copies: recovery Python (`QW49_RECOVER.py`), sources, exact reports, and captured numerical checkpoints (`QW49_FULL.zip`), and this handoff (`QW49_RESULT.md`).

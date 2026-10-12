@@ -597,4 +597,4 @@ Its balanced-axis subfamily is rigorously the wrong place to seek uniqueU: both 
 
 BF35's literal29/25 physical basin and BA69's34/30 basin remain the actual parent targets. No new obstruction to their full nonlinear continuation has been proved here. No unknown numerical output is used to claim that the present finite searches failed mathematically.
 
-Supplementary files: [standalone exact profile/control source](sandbox:/mnt/data/NWD_PROFILE_EXACT.py), [unreviewed numerical sources, inputs, logs and receipts](sandbox:/mnt/data/NWD_UNREVIEWED_EXPERIMENTS.zip), and [unreviewed tool-receipt collection](sandbox:/mnt/data/NWD_TOOL_RECEIPTS_UNREVIEWED.json). The mathematical construction and complete inline source above do not depend on these links.
+Supplementary files: standalone exact profile/control source (`NWD_PROFILE_EXACT.py`), unreviewed numerical sources, inputs, logs and receipts (`NWD_UNREVIEWED_EXPERIMENTS.zip`), and unreviewed tool-receipt collection (`NWD_TOOL_RECEIPTS_UNREVIEWED.json`). The mathematical construction and complete inline source above do not depend on these links.

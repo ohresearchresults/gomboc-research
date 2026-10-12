@@ -25,7 +25,7 @@ The defining parent is the literal22-file capsule in `figure-0434`, SHA256 `037b
 
 Its surviving G9 generator is10178bytes, SHA256 `f8b57e0f2b61c5c91093b6e989e7bc15486cb69a5e0e1a5458abc9cbe7684241`; RAW is11693bytes, SHA256 `a2a309b2b8ed47fdeeeccc0b30a6eec38ee3e9bb030869fcbb221c0407eb4f2e`; A=B is230639bytes, SHA256 `bf713a4201231250cfb98d45cc35f47f27afee73a7938f700ce51359ef3b19f5`.
 
-The parent has V174/E308/F136, own strict121/additionalweak000, stable input3, unstable vertices94 and124, and saddle124--134. The source-specific star is u124,w120,z134,q109. The complete physical elder bar is in[418537478,418537479]/10^12 after division by V^(2/3). These are inherited certified facts, not newly computed statistics in this turn. The unrecovered8adb/6212 object, own132 DROPFB30 alias, and d<L/16 navigation conflation are not used. :contentReference[oaicite:0]{index=0}
+The parent has V174/E308/F136, own strict121/additionalweak000, stable input3, unstable vertices94 and124, and saddle124--134. The source-specific star is u124,w120,z134,q109. The complete physical elder bar is in[418537478,418537479]/10^12 after division by V^(2/3). These are inherited certified facts, not newly computed statistics in this turn. The unrecovered8adb/6212 object, own132 DROPFB30 alias, and d<L/16 navigation conflation are not used.
 
 The second literal parent, `figure-0436`, SHA256 `03f411835ef54fbd0de37d4a09ec0580c3c6e84b257141d04d9133166d893ae6`, supplies the coupled-chord identity and its precise hypotheses. I use its definition
 

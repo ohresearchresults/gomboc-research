@@ -18,7 +18,7 @@ These are counterexamples to proposed proof mechanisms, not110 constructions. A 
 
 The complete 1,677-line journal update was read through EOF, including common memory, branch memory and literal parent. Its325218 bytes have SHA-256 `e6153bf6571fc2a5ddb690def9d8ce627cf5b7e5c0d62e42f8cf39031d15af98`. The literal parent `minimum-0129` authenticates as a27952-byte compact version-2 envelope with the required SHA-256 `7e0b1f5f3c7675c7733a26653deeb42edde348807a2a55883e4f5be444417d45`.
 
-The supplied complete repair wrapper was read and executed, and both decoded source units were read completely. Its13001 bytes match SHA-256 `7fcf13683f4b90d836dcdff1d630703881e5aec93cfa3dd2ef8c9f1a34035ee7`. The repaired units match their parent pins. There is no authority conflict or missing computational dependency for the new work. The previous two expensive inner-fibre certificates were retained as inherited evidence, not unnecessarily rerun. The repair’s complete decoding and pin checks are explicit in the supplied material. :contentReference[oaicite:0]{index=0}
+The supplied complete repair wrapper was read and executed, and both decoded source units were read completely. Its13001 bytes match SHA-256 `7fcf13683f4b90d836dcdff1d630703881e5aec93cfa3dd2ef8c9f1a34035ee7`. The repaired units match their parent pins. There is no authority conflict or missing computational dependency for the new work. The previous two expensive inner-fibre certificates were retained as inherited evidence, not unnecessarily rerun. The repair’s complete decoding and pin checks are explicit in the supplied material.
 
 Use eight strictly positive cuts `((sx,sy),(wx,wy),(nx,ny),(ex,ey))`, with
 
@@ -42,7 +42,7 @@ F1=(0,8,1) F2=(1,8,2) F3=(2,8,3) F4=(3,8,9,4)
 F5=(4,9,5) F6=(5,9,6) F7=(6,9,7) F8=(7,9,8,0).
 ```
 
-Their cycles determine17 true edges. The parent’s complete coverage theorem identifies this domain, up to affine equivalence, with the whole balanced realization type. :contentReference[oaicite:1]{index=1}
+Their cycles determine17 true edges. The parent’s complete coverage theorem identifies this domain, up to affine equivalence, with the whole balanced realization type.
 
 Write the raw base as `l(y)<=x<=r(y)`, `-1<=y<=1`, where l is convex and r concave. Put
 
@@ -70,7 +70,7 @@ Vol=W/(6k),
 g(a)=lambda*c0+(1-lambda)*c1-a^2*u*d/(2k).
 ```
 
-Here g is the TRUE centroid of the uniformly refilled projective image. The persistent central plane is `n.(Y-c0)=0`, with `n=Delta cross d`; after actual centering `X=Y-g`, it is `n.X=0`. These are the parent’s coupled actual moments, not independently chosen centers. :contentReference[oaicite:2]{index=2}
+Here g is the TRUE centroid of the uniformly refilled projective image. The persistent central plane is `n.(Y-c0)=0`, with `n=Delta cross d`; after actual centering `X=Y-g`, it is `n.X=0`. These are the parent’s coupled actual moments, not independently chosen centers.
 
 ## 2. Full-domain theorem: strict ridge-normal drift
 
@@ -227,7 +227,7 @@ max_pole ||q||_N^2<11/2,
 every vertex-pole product <176.
 ```
 
-These are stronger than the inherited convenient necessary kappa<48 and product caps for a joint candidate. They are NECESSARY-bound compatibility, not joint feasibility: this body really has two S and two U. The inherited bounds and their covariance gauge are explicit in the notebook. :contentReference[oaicite:3]{index=3}
+These are stronger than the inherited convenient necessary kappa<48 and product caps for a joint candidate. They are NECESSARY-bound compatibility, not joint feasibility: this body really has two S and two U. The inherited bounds and their covariance gauge are explicit in the notebook.
 
 For any stress on either demonstrated low half, its weighted actual squared norm is below the section maximum. The stress’s shear-minimized energy cannot exceed that weighted norm. Thus increasing support size, including allowing all vertices rather than at most three, cannot supply an H witness for that half at this SAME metric. A base-L fallback that forces the actual base to be stable cannot cover it either.
 
@@ -385,4 +385,4 @@ Expected terminal markers include:
 
 **Recovery limitation:** The inline compressed stream above is not a faithful copy of the tested wrapper and will not pass its integrity checks. It must not be treated as a durable source capsule. The analytic proofs, explicitly stated parameter inputs and reconstruction formulas in Sections1–7 remain self-contained, but the newly computed certificate reports remain ephemeral for an executor receiving only this response. Their complete tested computational dependency is the exact13560-byte wrapper or its two complete decoded source units; these contents must not be guessed from the corrupted inline stream.
 
-The complete tested files are preserved for transfer: [recovery wrapper](sandbox:/mnt/data/recover_ridge_bridge.py), [readable exact generator/verifier](sandbox:/mnt/data/balanced_ridge_bridge.py), [complete optional numerical locator](sandbox:/mnt/data/locate_ridge_bridge.py), and [full exact audit and certificates](sandbox:/mnt/data/balanced_ridge_bridge.json).
+The complete tested files are preserved for transfer: recovery wrapper (`recover_ridge_bridge.py`), readable exact generator/verifier (`balanced_ridge_bridge.py`), complete optional numerical locator (`locate_ridge_bridge.py`), and full exact audit and certificates (`balanced_ridge_bridge.json`).

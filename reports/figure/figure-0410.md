@@ -22,9 +22,9 @@ Thus actual mass closure is achieved by changing the filled shape, but this simp
 
 ## Input authority
 
-I read the complete delivered journal and both supplied source files. The literal G6/G8 rows, not similarly named mutable checkpoints, are the parents. The source explicitly distinguishes their own152538 census from reference110 and describes its original replay as one auditor, not an independent pair. I independently re-established the parent hulls, mass and censuses by exhaustive exact supporting-triple enumeration. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+I read the complete delivered journal and both supplied source files. The literal G6/G8 rows, not similarly named mutable checkpoints, are the parents. The source explicitly distinguishes their own152538 census from reference110 and describes its original replay as one auditor, not an independent pair. I independently re-established the parent hulls, mass and censuses by exhaustive exact supporting-triple enumeration.
 
-The later source correction is respected. No missing scout, external archive, research connector or undeclared checkpoint is used. Earlier unfinished numerical `.npy` scratch was absent after runtime replacement; it is not a dependency or a claimed successor here. :contentReference[oaicite:2]{index=2}
+The later source correction is respected. No missing scout, external archive, research connector or undeclared checkpoint is used. Earlier unfinished numerical `.npy` scratch was absent after runtime replacement; it is not a dependency or a claimed successor here.
 
 Exact input identities, with no trailing newline:
 
@@ -145,7 +145,7 @@ G8: `(−2.2005843e−10, −6.3515873e−11, −8.3164493e−11)`.
 
 **These rational centroids are not asserted to be exactly zero.** Their own-centroid222 census is exact. They remove approximately26.82593% and26.82591% of the respective original volumes. The old U input0 and cone apex input21 are removed, so the additive obstruction does not apply.
 
-The new exact implementation and the separately executed delivered auditor agree on actual maximal face sets, V/E/F, volume, exact centroid, and complete strict/weak census. The only patch to the supplied auditor changes floating nomination from integer-to-float-before-division to rational-to-float-after-division, avoiding overflow at the large common grid. Exact predicates are unchanged. The complete original auditor, precise patching driver and comparison assertions are inside the capsule. :contentReference[oaicite:3]{index=3}
+The new exact implementation and the separately executed delivered auditor agree on actual maximal face sets, V/E/F, volume, exact centroid, and complete strict/weak census. The only patch to the supplied auditor changes floating nomination from integer-to-float-before-division to rational-to-float-after-division, avoiding overflow at the large common grid. Exact predicates are unchanged. The complete original auditor, precise patching driver and comparison assertions are inside the capsule.
 
 ### Exactly zero-centroid bodies
 
@@ -236,7 +236,7 @@ Principal exact output receipts:
 | G6_CUT_ROOT_CERT.json | 1087 | `ad6d05316a59ac658ece570af9685c94197ac88dd1a5f51b98e0dc1b908309eb` |
 | G8_CUT_ROOT_CERT.json | 1082 | `04c8c0da4d0c6e377b691ea2d0724e30f5334eba3838d11724f11a108ae0601f` |
 
-Optional convenience copies: [executable capsule](sandbox:/mnt/data/RECOVER_BH81.py) and [complete recovery bundle](sandbox:/mnt/data/BH81_COMPLETE_RECOVERY.zip). The inline capsule is sufficient without either link.
+Optional convenience copies: executable capsule (`RECOVER_BH81.py`) and complete recovery bundle (`BH81_COMPLETE_RECOVERY.zip`). The inline capsule is sufficient without either link.
 
 ```python
 """BH81 self-contained source capsule: exact inputs plus every retained source unit.

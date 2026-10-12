@@ -12,9 +12,9 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 I did not construct `M42_WB25_BIHEX27`, add rows `6601,6602`, or claim a Gömböc. The assignment's named source and the runtime-owned literal parent payload are different exact polyhedra. The research-copy contract explicitly makes the literal payload authoritative and requires reporting a conflict rather than inventing missing data.
 
-The journal integration summary identifies `figure-0281` as `M42_WB25_HX2_C8`, with 97 supplied rows, 71 active vertices, `(V,E,F)=(71,193,124)`, stable faces `[258,259,6503]` and `[6501,6502,6503]`, unstable vertex `248`, saddle `(248,6526)`, and proposed successor `M42_WB25_BIHEX27`. :contentReference[oaicite:0]{index=0}
+The journal integration summary identifies `figure-0281` as `M42_WB25_HX2_C8`, with 97 supplied rows, 71 active vertices, `(V,E,F)=(71,193,124)`, stable faces `[258,259,6503]` and `[6501,6502,6503]`, unstable vertex `248`, saddle `(248,6526)`, and proposed successor `M42_WB25_BIHEX27`.
 
-Fourteen lines later, the immutable-payload section for the same result ID and the same declared SHA-256 begins `Clear Willow 25 — exact whole-basin annular cage`, not `M42_WB25_HX2_C8`. :contentReference[oaicite:1]{index=1} Its referenced archive is the whole-basin-cage object, not an HX2 archive. :contentReference[oaicite:2]{index=2}
+Fourteen lines later, the immutable-payload section for the same result ID and the same declared SHA-256 begins `Clear Willow 25 — exact whole-basin annular cage`, not `M42_WB25_HX2_C8`. Its referenced archive is the whole-basin-cage object, not an HX2 archive.
 
 ## Exact collision matrix
 
@@ -35,11 +35,11 @@ This cannot be a harmless relabeling: supplied-row count, active-vertex count, a
 
 I materialized an independently replayable source-integrity certificate:
 
-- [Complete collision-audit archive](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_parent_source_collision_audit.zip), SHA-256 `6191a2c56f594e41f7b9217f59faeddcb5b2af70b29c5f9bb591bbb72b72a168`.
-- [Machine-readable audit](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_parent_source_collision_audit/source_collision_audit.json), SHA-256 `c8675556f433db99b259d87d43a51657c8d0439d63f6a14032bc96811ce41a88`.
-- [Independent verifier](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_parent_source_collision_audit/verify_source_collision.py), SHA-256 `aa6b8f747f24fd1d0d47f9bd4a6b47011a5b467bd8a412fdbac88a6ca1c95fc9`.
-- [Clean replay transcript](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_parent_source_collision_audit/CLEAN_REPLAY.log).
-- [Final manifest](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_parent_source_collision_audit/FINAL_MANIFEST.sha256).
+- Complete collision-audit archive (`M42_slot1_Clear_Willow_25_parent_source_collision_audit.zip`), SHA-256 `6191a2c56f594e41f7b9217f59faeddcb5b2af70b29c5f9bb591bbb72b72a168`.
+- Machine-readable audit (`source_collision_audit.json`), SHA-256 `c8675556f433db99b259d87d43a51657c8d0439d63f6a14032bc96811ce41a88`.
+- Independent verifier (`verify_source_collision.py`), SHA-256 `aa6b8f747f24fd1d0d47f9bd4a6b47011a5b467bd8a412fdbac88a6ca1c95fc9`.
+- Clean replay transcript (`CLEAN_REPLAY.log`).
+- Final manifest (`FINAL_MANIFEST.sha256`).
 
 The verifier checks the following without relying on the summary interpretation:
 

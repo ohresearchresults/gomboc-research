@@ -22,7 +22,7 @@ The operation replaces the entire old packet without spending a true edge, but i
 | RH08_H1_POLISH_G4, H49 | 94/141/49 | 1/2/1 | 000 | 1/0 | Unchanged complementary parent; not re-audited here |
 | **RH08_P49_QPACKET_2POINT_G3** | **49/141/94** | **7/6/11** | **000** | **5/6** | **New exact material nonwinner** |
 
-The two parent classes and their 108-edge reserve are inherited from the literal parent result, not new discoveries in this closeout. :contentReference[oaicite:0]{index=0} The new construction also leaves **108 true edges** below E249.
+The two parent classes and their 108-edge reserve are inherited from the literal parent result, not new discoveries in this closeout. The new construction also leaves **108 true edges** below E249.
 
 ## What was actually executed
 
@@ -223,7 +223,7 @@ The new theorem identifies a concrete restriction on **single-point fixed-comple
 
 The two-point body demonstrates that full old-packet replacement is affordable at E141, but its large actual mass shift and new high-valence apices create substantial physical and polar defects. It is therefore preserved as a **different-architecture nonwinner and exact failure control**, not ranked above P49 as a near110 entrance.
 
-The most useful next finite experiment is coordinated motion of the blocking support carriers `{31,46,60,67,72}` and retained material, or free deformation of this already-replaced two-apex architecture, with actual moment compensation and complete two-landscape reconsolidation. The parent’s U1 condition must be recovered or replaced explicitly; the old U4 label must not be protected by assumption. H49 remains a separate S1-first physical body, not a recentered diagnostic polar of P49. Its unchanged complementary status is supported by the literal parent. :contentReference[oaicite:1]{index=1}
+The most useful next finite experiment is coordinated motion of the blocking support carriers `{31,46,60,67,72}` and retained material, or free deformation of this already-replaced two-apex architecture, with actual moment compensation and complete two-landscape reconsolidation. The parent’s U1 condition must be recovered or replaced explicitly; the old U4 label must not be protected by assumption. H49 remains a separate S1-first physical body, not a recentered diagnostic polar of P49. Its unchanged complementary status is supported by the literal parent.
 
 ## 6. Source integrity and execution limits
 
@@ -295,7 +295,7 @@ for name,maximum in [('RH08_B1_Q2_G3',12),('RH08_P49_QPACKET_2POINT_G3',22)]:
     print(name,dict(sorted(Counter(degrees.values()).items())))
 ```
 
-Convenience copies: [complete recovery program](sandbox:/mnt/data/RECOVER_RH08_FINISH.py), [new exact input](sandbox:/mnt/data/RH08_FINISH_COLD/RH08_P49_QPACKET_2POINT_G3.json), [full exact audit](sandbox:/mnt/data/RH08_FINISH_COLD/RH08_P49_QPACKET_2POINT_G3_audit.json), [visibility and whole-landscape certificate](sandbox:/mnt/data/RH08_FINISH_COLD/RH08_TWOPOINT_CERTIFICATE.json). The following inline program is the durable source; these links are supplementary.
+Convenience copies: complete recovery program (`RECOVER_RH08_FINISH.py`), new exact input (`RH08_P49_QPACKET_2POINT_G3.json`), full exact audit (`RH08_P49_QPACKET_2POINT_G3_audit.json`), visibility and whole-landscape certificate (`RH08_TWOPOINT_CERTIFICATE.json`). The following inline program is the durable source; these links are supplementary.
 
 ### Complete RECOVER_RH08_FINISH.py
 

@@ -8,7 +8,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Disposition
 
-No strict110/additionalweak000 body is promoted. The authoritative entrance remains `QC52_SURVIVING_ROOT124_G9_F8B57E0F`, not the unrecovered historical 8adb object. The attached branch update identifies the prior C618 changed-interface checkpoint and the intended one-anchor E310 continuation. :contentReference[oaicite:0]{index=0}
+No strict110/additionalweak000 body is promoted. The authoritative entrance remains `QC52_SURVIVING_ROOT124_G9_F8B57E0F`, not the unrecovered historical 8adb object. The attached branch update identifies the prior C618 changed-interface checkpoint and the intended one-anchor E310 continuation.
 
 This turn materially advances that continuation in two ways:
 

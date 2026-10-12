@@ -10,7 +10,7 @@ AI research report · 2026-08-29 UTC
 
 **No strict own-centroid `(1,1,0)` endpoint was found in the certified architecture.** The eight stable rows inherited from C44 are all destroyed, but the cancellation is again a transfer: eight successor stable rows are born before the original eight die. The strongest materialized endpoint is exact, open, own-centred, and has class `(S,U,H)=(9,39,46)`.
 
-The run’s acceptance gate remains a finite homogeneous polyhedron evaluated at its own exact uniform-volume centroid, with strict class `(1,1,0)`, complete H/V/E and full-cone audits, an independent verifier, and matching OBJ/STL; near-solutions and wall points do not qualify. :contentReference[oaicite:0]{index=0}
+The run’s acceptance gate remains a finite homogeneous polyhedron evaluated at its own exact uniform-volume centroid, with strict class `(1,1,0)`, complete H/V/E and full-cone audits, an independent verifier, and matching OBJ/STL; near-solutions and wall points do not qualify.
 
 ## What changed from the previous C44 result
 
@@ -265,17 +265,17 @@ For every exact `(s,gamma)` in this rectangle, there is exactly one `(du,dt1,dt2
 
 ## Artifacts completed
 
-- [Deterministic exact generator](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/generator/replacement_layer_generator.json)
-- [Projected rank certificate](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/certificates/projected_response_rank.json)
-- [Complete 42-cell atlas](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/atlas/complete_atlas.json)
-- [Mechanical and remote lineage](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/atlas/equilibrium_lineage.json)
-- [Nonlocal ingress comparison](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/atlas/nonlocal_ingress_comparison.json)
-- [Endpoint eight-pair obstruction](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/certificates/endpoint_pair_obstruction.json)
-- [Positive endpoint perturbation box](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/certificates/endpoint_perturbation_box.json)
-- [R41 OBJ](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/meshes/strongest_endpoint_R41.obj)
-- [R41 STL](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/meshes/strongest_endpoint_R41.stl)
-- [Mesh report](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/meshes/mesh_report.json)
-- [Independent clean-room verifier source](sandbox:/mnt/data/slot4_replacement_layer_exact_nonwinner/verifier/verify_replacement_layer.py)
+- Deterministic exact generator (`replacement_layer_generator.json`)
+- Projected rank certificate (`projected_response_rank.json`)
+- Complete 42-cell atlas (`complete_atlas.json`)
+- Mechanical and remote lineage (`equilibrium_lineage.json`)
+- Nonlocal ingress comparison (`nonlocal_ingress_comparison.json`)
+- Endpoint eight-pair obstruction (`endpoint_pair_obstruction.json`)
+- Positive endpoint perturbation box (`endpoint_perturbation_box.json`)
+- R41 OBJ (`strongest_endpoint_R41.obj`)
+- R41 STL (`strongest_endpoint_R41.stl`)
+- Mesh report (`mesh_report.json`)
+- Independent clean-room verifier source (`verify_replacement_layer.py`)
 
 The R41 mesh contains 5,316 vertices and 10,628 triangles. Its 15,942 unoriented mesh edges occur exactly twice, it is connected and watertight, its Euler characteristic is 2, and its oriented midpoint volume is approximately `3.287887767634981`.
 

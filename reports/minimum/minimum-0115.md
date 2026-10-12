@@ -46,9 +46,9 @@ Read the new `research-journal(20260919-145148).md` consecutively through EOF, i
 
 The authoritative parent is `minimum-0111`, immutable envelope SHA256 `64909830719ea325d6660a5d6d081ded07c9b30b980c16c647d4b81ee5d2c822`, LARGE_ENDPOINT_FLOORS_AND_TRUE_PROJECTIVE_REDUCTION_V1. Its six literal original controls, five image controls, map, and weighted-integral definitions are unchanged. No conflict requiring alteration of that payload was found.
 
-Only two inherited trace results are needed for the new height exclusion: the unrestricted **zero-common-endpoint bound T<=2**, and `T>=51/25 ==> 6Vol(P)<45/7`. Both are explicitly supplied mathematical premises. No new replay of their older proof sources, the free-prism 393-cell program, or either earlier endpoint program is claimed. The new exact capsule has no computational dependency on those programs. The parent states the zero-endpoint theorem and its genuine tetrahedral equality case; it also records the high-trace volume bound. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+Only two inherited trace results are needed for the new height exclusion: the unrestricted **zero-common-endpoint bound T<=2**, and `T>=51/25 ==> 6Vol(P)<45/7`. Both are explicitly supplied mathematical premises. No new replay of their older proof sources, the free-prism 393-cell program, or either earlier endpoint program is claimed. The new exact capsule has no computational dependency on those programs. The parent states the zero-endpoint theorem and its genuine tetrahedral equality case; it also records the high-trace volume bound.
 
-The compact endpoint and projection bounds used after the new height theorem are inherited unchanged. They are not assumed for its proof. The coordinator's new one-facet centroid actuator and centering-cut theorem were read, but are not used to assign a centroid or mass to any trace body here. :contentReference[oaicite:2]{index=2}
+The compact endpoint and projection bounds used after the new height theorem are inherited unchanged. They are not assumed for its proof. The coordinator's new one-facet centroid actuator and centering-cut theorem were read, but are not used to assign a centroid or mass to any trace body here.
 
 ## 3. The actual extension theorem
 
@@ -190,7 +190,7 @@ T(P) < 2chi*(1+beta)^2
      <= 2(1-b^2)*(1+b/((1-b)Z))^2.
 ```
 
-The map and target being transformed are exactly the parent's `I4,Iell,In`, not the ordinary volume trace of the image. :contentReference[oaicite:3]{index=3}
+The map and target being transformed are exactly the parent's `I4,Iell,In`, not the ordinary volume trace of the image.
 
 ## 4. Closing the complete high-image end
 
@@ -540,7 +540,7 @@ Actual terminal markers include
 
 These receipts verify the finite algebra, complete interval certificates and actual constructions. They do not turn the accepted mathematical premises into newly replayed proofs, or formalize the continuous geometric argument in a proof assistant.
 
-Convenience copies: [autonomous recovery source](sandbox:/mnt/data/recover_weighted_tail.py) and [complete exact geometries and certificates](sandbox:/mnt/data/weighted_tail_cold_v2/trace_tail_exact.json). The complete source below contains all five files, including both numerical checkpoints; no download or predecessor file is needed for reconstruction.
+Convenience copies: autonomous recovery source (`recover_weighted_tail.py`) and complete exact geometries and certificates (`trace_tail_exact.json`). The complete source below contains all five files, including both numerical checkpoints; no download or predecessor file is needed for reconstruction.
 
 ### Complete autonomous source
 

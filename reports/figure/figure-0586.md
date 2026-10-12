@@ -32,7 +32,7 @@ The complete new journal was read through EOF:323208 bytes, SHA-256 `fed7c7cefe5
 - `figure-0581`, SHA-256 `f4d4df1390c5e9bd18047aad823f3cd12e8c85751a66dbfc62ae50f67c779461`.
 - `figure-0582`, SHA-256 `a3072e33bc5eac5dada0e55a6b4430fba0140e447e3dfa86c86e886588ac9626`.
 
-The required geometric input is the complete82-row `KH93_C434_R82_G6.txt`,1888 bytes, SHA-256 `9765712b5ffaa464ed4d677974256294c6d867b77fe77b930d166853f66a92a7`. Its rows mean `n·x ≤ 1000000`. Those rows are literal in the supplied parent. fileciteturn7file0L32-L118
+The required geometric input is the complete82-row `KH93_C434_R82_G6.txt`,1888 bytes, SHA-256 `9765712b5ffaa464ed4d677974256294c6d867b77fe77b930d166853f66a92a7`. Its rows mean `n·x ≤ 1000000`. Those rows are literal in the supplied parent.
 
 The three seeds used by the certificate retain their existing exact classifications; they are not new constructions:
 
@@ -42,7 +42,7 @@ The three seeds used by the certificate retain their existing exact classificati
 | NF93_R82_ORBIT_BUFFER_G12 |160/240/82|2/1/1|000|[]|.11601261582503426|
 | NF93_R82_ORBIT_BIRTH43_G12 |160/240/82|3/1/2|000|[]|.11616939941430654; 6.686788244330881e-10|
 
-In particular, the small BIRTH43 bar is still positive. Its disappearance alone would not remove the original surviving Q branch. The original R82 stable input facets7/18 and physical vertex7 are different index domains. fileciteturn6file0L109-L120
+In particular, the small BIRTH43 bar is still positive. Its disappearance alone would not remove the original surviving Q branch. The original R82 stable input facets7/18 and physical vertex7 are different index domains.
 
 J99’s separate F99 body is not used. Neither its geometry nor a three-cut edge guarantee is imported into this calculation.
 
@@ -363,6 +363,6 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Convenience copies: [source/input recovery bundle](sandbox:/mnt/data/NF93_CUT_GATE_RECOVERY.zip), [the complete source unit](sandbox:/mnt/data/NF93_CUT_GATE.py), and [source/output manifest](sandbox:/mnt/data/NF93_CUT_GATE_MANIFEST.json).
+Convenience copies: source/input recovery bundle (`NF93_CUT_GATE_RECOVERY.zip`), the complete source unit (`NF93_CUT_GATE.py`), and source/output manifest (`NF93_CUT_GATE_MANIFEST.json`).
 
-The [exploratory working snapshot](sandbox:/mnt/data/NF93_FEW_CUTS_WORKING_RECOVERY.zip) is separate. Its numerical checkpoints are unpromoted and must not be treated as exact successors to the literal R82/BUFFER/BIRTH43 parents. The promoted conclusion of this handoff is the explicitly scoped finite-cut carrier/depth obstruction, not a new110 body.
+The exploratory working snapshot (`NF93_FEW_CUTS_WORKING_RECOVERY.zip`) is separate. Its numerical checkpoints are unpromoted and must not be treated as exact successors to the literal R82/BUFFER/BIRTH43 parents. The promoted conclusion of this handoff is the explicitly scoped finite-cut carrier/depth obstruction, not a new110 body.

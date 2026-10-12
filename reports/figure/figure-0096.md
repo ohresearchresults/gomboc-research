@@ -8,9 +8,9 @@ AI research report · 2026-08-27 UTC
 
 ## Literal verdict
 
-No strict homogeneous polyhedral Gömböc was found. The strongest endpoint is a finite, exactly own-centred, open polyhedron with exhaustive class `(S,U,H)=(2,2,2)`, so it must not be reported as a winner. The journal's gate requires the body's own ordinary volume centroid and strict `(1,1,0)`, with complete maximal-face, vertex/full-normal-cone, and true-edge audits; auxiliary-centre and wall states are excluded. :contentReference[oaicite:0]{index=0}
+No strict homogeneous polyhedral Gömböc was found. The strongest endpoint is a finite, exactly own-centred, open polyhedron with exhaustive class `(S,U,H)=(2,2,2)`, so it must not be reported as a winner. The journal's gate requires the body's own ordinary volume centroid and strict `(1,1,0)`, with complete maximal-face, vertex/full-normal-cone, and true-edge audits; auxiliary-centre and wall states are excluded.
 
-The inherited MA300 state and the exact 36-row critical one-ring are the durable starting obstruction. :contentReference[oaicite:1]{index=1} Because the MA300 worker archive was unavailable, I rebuilt a clean-room equivalent frontier from the journal's exact P9-derived outer support data rather than claiming access to missing bytes. :contentReference[oaicite:2]{index=2}
+The inherited MA300 state and the exact 36-row critical one-ring are the durable starting obstruction. Because the MA300 worker archive was unavailable, I rebuilt a clean-room equivalent frontier from the journal's exact P9-derived outer support data rather than claiming access to missing bytes.
 
 ## What was actually constructed
 
@@ -24,7 +24,7 @@ q_new(t) = (0.05+0.95 t) q_new
 
 with seven outer rows fixed. At `t=0`, all 36 old rows and no new rows are extreme. At `t=1`, all 36 old rows are redundant and exactly 36 new annulus rows are extreme. The Q-hull path contains 168 reconstructed circuit/topology events; 167 are four-row events and event 152 is a simultaneous seven-row cluster at `t∈[0.9227369369714950,0.9227369369714951]` on rows `9,N0_03,N0_04,N1_03,N1_04,N1_06,N2_02`. After every crossing the tracer rebuilds Q, the polar P, ordinary uniform centroid, projective own-centering, maximal faces, true edges, and full vertex/edge cones. Circuit surfaces necessarily have zero combinatorial gap; the final gate state is strictly separated.
 
-The complete deterministic path is materialized in [circuit_path.json](sandbox:/mnt/data/three_lobe_annulus_result/circuit_path.json), [circuit_path.csv](sandbox:/mnt/data/three_lobe_annulus_result/circuit_path.csv), and the standalone [circuit tracer](sandbox:/mnt/data/three_lobe_annulus_result/trace_three_lobe_circuits.py).
+The complete deterministic path is materialized in circuit_path.json, circuit_path.csv, and the standalone circuit tracer (`trace_three_lobe_circuits.py`).
 
 ## New communicating support complex
 
@@ -67,7 +67,7 @@ All supplied coordinates are exact IEEE-754 dyadics interpreted by
 Fraction.from_float(float.fromhex(token))
 ```
 
-The standalone [exact generator/verifier](sandbox:/mnt/data/three_lobe_annulus_result/three_lobe_generator.py) embeds every old and final row; it needs no worker-local archive. It enumerates all `C(52,3)=22100` candidate triple intersections exactly, reconstructs the irredundant polar, integrates exact uniform volume and first moments, audits all features by exact rational signs, and exports H/V tables and meshes.
+The standalone exact generator/verifier (`three_lobe_generator.py`) embeds every old and final row; it needs no worker-local archive. It enumerates all `C(52,3)=22100` candidate triple intersections exactly, reconstructs the irredundant polar, integrates exact uniform volume and first moments, audits all features by exact rational signs, and exports H/V tables and meshes.
 
 For raw support points, define
 
@@ -98,7 +98,7 @@ volume(P_raw)=0.36059968903661122
 centroid((T_u*Q_raw)^circ)=(0,0,0) exactly.
 ```
 
-The full exact rational strings are in [exact_scalars.txt](sandbox:/mnt/data/three_lobe_annulus_result/exact_scalars.txt), with hashes:
+The full exact rational strings are in exact_scalars.txt, with hashes:
 
 ```text
 volume 578a48bd99dd52b4de0711cf95f8490cc532f4e2a93a2bfff97654b1ea32b0ed
@@ -145,7 +145,7 @@ Redundant temporary rows:
 N0_07 N0_08 N0_09 N0_10 N0_11 N0_12 N0_13 N1_01 N1_02
 ```
 
-Every exact raw row is listed in [final_input_rows.tsv](sandbox:/mnt/data/three_lobe_annulus_result/final_input_rows.tsv); every clean-room old-frontier row is in [old_frontier_rows.tsv](sandbox:/mnt/data/three_lobe_annulus_result/old_frontier_rows.tsv). The generator embeds both tables directly. Exact irredundant H data and exact P vertices are in [final_centered_Q_exact.tsv](sandbox:/mnt/data/three_lobe_annulus_result/final_centered_Q_exact.tsv) and [final_P_vertices_exact.tsv](sandbox:/mnt/data/three_lobe_annulus_result/final_P_vertices_exact.tsv). All 43 maximal-face cycles and all 123 true edges are explicitly enumerated in [maximal_face_cycles.txt](sandbox:/mnt/data/three_lobe_annulus_result/maximal_face_cycles.txt) and [true_edges.txt](sandbox:/mnt/data/three_lobe_annulus_result/true_edges.txt).
+Every exact raw row is listed in final_input_rows.tsv; every clean-room old-frontier row is in old_frontier_rows.tsv. The generator embeds both tables directly. Exact irredundant H data and exact P vertices are in final_centered_Q_exact.tsv and final_P_vertices_exact.tsv. All 43 maximal-face cycles and all 123 true edges are explicitly enumerated in maximal_face_cycles.txt and true_edges.txt.
 
 ## Exhaustive own-centroid mechanics
 
@@ -179,7 +179,7 @@ edge (N2_12,N2_13) -0.000283018687367838
 edge (26,N0_06)    -0.00032438715504019334
 ```
 
-The complete exact sign record for every face, every full vertex cone, and every true edge is [exact_signs.txt](sandbox:/mnt/data/three_lobe_annulus_result/exact_signs.txt), SHA-256 `0be2e080646f212649535fbf5bfaefa656d42910cc73ae0296643de0436cec16`.
+The complete exact sign record for every face, every full vertex cone, and every true edge is exact_signs.txt, SHA-256 `0be2e080646f212649535fbf5bfaefa656d42910cc73ae0296643de0436cec16`.
 
 ## Inactive separations
 
@@ -194,7 +194,7 @@ Both final Euclidean P and Q gaps exceed `1e-5`.
 
 ## Certified open perturbation region
 
-The independent [clean-room interval verifier](sandbox:/mnt/data/three_lobe_annulus_result/verify_three_lobe_interval.py) reads only the final TSV and does not import the generator. It certifies independent perturbations
+The independent clean-room interval verifier (`verify_three_lobe_interval.py`) reads only the final TSV and does not import the generator. It certifies independent perturbations
 
 ```text
 |Delta q_ij| <= 2^-40
@@ -212,11 +212,11 @@ minimum 4-point determinant/bound ratio 5208.096106629981
 minimum origin-triple ratio 48630.63881528079
 ```
 
-For every body in this box, projective own-centering is exact and the full class remains `(2,2,2)`. The report is [interval_verifier_report.json](sandbox:/mnt/data/three_lobe_annulus_result/interval_verifier_report.json).
+For every body in this box, projective own-centering is exact and the full class remains `(2,2,2)`. The report is interval_verifier_report.json.
 
 ## Matching finite meshes
 
-The [OBJ](sandbox:/mnt/data/three_lobe_annulus_result/three_lobe_fallback.obj) and [STL](sandbox:/mnt/data/three_lobe_annulus_result/three_lobe_fallback.stl) use the same 82 vertices and 160 face-fan triangles. The triangulated mesh has 240 unique edges, zero boundary edges, zero nonmanifold edges, and Euler characteristic two.
+The OBJ (`three_lobe_fallback.obj`) and STL (`three_lobe_fallback.stl`) use the same 82 vertices and 160 face-fan triangles. The triangulated mesh has 240 unique edges, zero boundary edges, zero nonmanifold edges, and Euler characteristic two.
 
 ```text
 OBJ SHA-256 72c1b300d9f90faa1c0e9175a3357d53a5f784764607832771408e71234edff9
@@ -250,7 +250,7 @@ A finite-difference Jacobian of those four unwanted signs plus the retained stab
 0.102652784927, 0.0658000327170, 0.00425926181066.
 ```
 
-Thus rank is not the obstruction. A nominal full linear reversal requires `||Delta q||_infinity=0.2393129683492846` and `||Delta q||_2=0.5892341524018461`; after rebuilding the exact hull only 22 new supports remain active and saddle `(27,N2_12)` is still positive. At half correction the class has already changed to `(3,2,3)` and only 28 new supports survive. This is a scale/circuit-transfer obstruction after a genuine complete replacement, rather than the old two-sheet MA300 seam. The reproducible diagnostic is [analyze_mechanical_obstruction.py](sandbox:/mnt/data/three_lobe_annulus_result/analyze_mechanical_obstruction.py) with [mechanical_obstruction.json](sandbox:/mnt/data/three_lobe_annulus_result/mechanical_obstruction.json).
+Thus rank is not the obstruction. A nominal full linear reversal requires `||Delta q||_infinity=0.2393129683492846` and `||Delta q||_2=0.5892341524018461`; after rebuilding the exact hull only 22 new supports remain active and saddle `(27,N2_12)` is still positive. At half correction the class has already changed to `(3,2,3)` and only 28 new supports survive. This is a scale/circuit-transfer obstruction after a genuine complete replacement, rather than the old two-sheet MA300 seam. The reproducible diagnostic is analyze_mechanical_obstruction.py with mechanical_obstruction.json.
 
 ## Most useful continuation
 
@@ -266,7 +266,7 @@ and inserts a third transverse return band coupling the lower-left and upper-rig
 
 ## Reproducibility bundle
 
-[Complete archive](sandbox:/mnt/data/three_lobe_annulus_result.zip) · [README](sandbox:/mnt/data/three_lobe_annulus_result/README.md) · [SHA256SUMS](sandbox:/mnt/data/three_lobe_annulus_result/SHA256SUMS.txt)
+Complete archive (`three_lobe_annulus_result.zip`) · README (`README.md`) · SHA256SUMS (`SHA256SUMS.txt`)
 
 Archive SHA-256:
 

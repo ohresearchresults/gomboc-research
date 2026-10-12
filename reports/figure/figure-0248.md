@@ -31,9 +31,9 @@ The exact rational M42 `(V,E,F)=(61,163,104)`, strict `(2,1,1)`, remains the str
 
 ## Journal basis
 
-The run's acceptance gate requires a finite homogeneous convex polyhedron of uniform density at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, full maximal-face/true-edge mechanics, independent verification, and a matching mesh; near-solutions and unmaterialized generators do not qualify. :contentReference[oaicite:0]{index=0}
+The run's acceptance gate requires a finite homogeneous convex polyhedron of uniform density at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, full maximal-face/true-edge mechanics, independent verification, and a matching mesh; near-solutions and unmaterialized generators do not qualify.
 
-The accepted parent was the exact 3,507-row braided-antibirth endpoint with forcing triangle `(2431,720000,720001)`, extra stable/saddle packet, open `2^-100` chamber, and the prescribed forked four-stage antibirth successor. :contentReference[oaicite:1]{index=1}
+The accepted parent was the exact 3,507-row braided-antibirth endpoint with forcing triangle `(2431,720000,720001)`, extra stable/saddle packet, open `2^-100` chamber, and the prescribed forked four-stage antibirth successor.
 
 ## 1. Exact deterministic source
 
@@ -412,7 +412,7 @@ NEXT CELL                                   ASYMMETRIC OPEN-V QUADRILATERAL RETU
 
 ## Reproducible archive and final replay
 
-[Download the complete exact archive](sandbox:/mnt/data/Bright_Nova_91_forked_four_stage_exact_NONWINNER.zip)
+Download the complete exact archive (`Bright_Nova_91_forked_four_stage_exact_NONWINNER.zip`)
 
 ```text
 archive bytes       17,303,949

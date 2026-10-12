@@ -14,7 +14,7 @@ The facet lower bound is established: **every full-dimensional homogeneous conve
 
 The same exact finite-vector lemma also recovers `U=1 => V>=9`. Thus a strict homogeneous `110` body has `E>=16` and `C=V+E+F-2=2E>=32`; equality requires `(V,E,F)=(9,16,9)`. This establishes a lower bound, not an exact minimum or an attaining body.
 
-The immutable parent is `minimum-0021`, SHA-256 `5eba4891ccbcf0917f0390ff3e42f18b1fcd040b72f92a3a7fc8a18f1b2a6557`, entitled `NOVA24_WEIGHTED_CAP_7_6_AND_PHYSICAL_FLUX_V1`. I read its complete literal payload and the complete later journal text `NOVA24_ACTUAL_TRACE_CAP_F9_V1`. The latter was preserved late text, not another immutable parent. The old parent correctly left the actual 7/6 exterior open; the later trace theorem closes it. No mathematical parent/alias conflict was found. Historical catalogue counts in the decoded reports are not fresh enumerations and are unnecessary to this universal proof. The attached late theorem and literal parent are the source of the inherited proof below. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The immutable parent is `minimum-0021`, SHA-256 `5eba4891ccbcf0917f0390ff3e42f18b1fcd040b72f92a3a7fc8a18f1b2a6557`, entitled `NOVA24_WEIGHTED_CAP_7_6_AND_PHYSICAL_FLUX_V1`. I read its complete literal payload and the complete later journal text `NOVA24_ACTUAL_TRACE_CAP_F9_V1`. The latter was preserved late text, not another immutable parent. The old parent correctly left the actual 7/6 exterior open; the later trace theorem closes it. No mathematical parent/alias conflict was found. Historical catalogue counts in the decoded reports are not fresh enumerations and are unnecessary to this universal proof. The attached late theorem and literal parent are the source of the inherited proof below.
 
 The new nine-facet work produces a further universal, genuinely coupled physical inequality,
 
@@ -37,7 +37,7 @@ Then `m B0/Y <= c3`. There is no aspect-ratio, simplicity, or metric bound.
 
 ### Classical input and its hypotheses
 
-Fradelizi's author restatement of Fradelizi–Guedon, printed p.17 of arXiv:0807.0080, applies to compact convex K, upper-semicontinuous f, `s in [-infinity,1/2]`, and convex upper-semicontinuous functionals on probabilities with the weak topology. The supremum over s-concave probabilities satisfying `integral f>=0` is attained either at a Dirac mass with `f>=0`, or at an s-affine segment measure with `integral f=0`. On that segment [a,b], either `integral_[a,x] f dnu>0` for every interior x, or `integral_[x,b] f dnu>0` for every interior x. Borell's density conversion on p.3 is `gamma=s/(1-ds)` in affine support dimension d. Thus `s=1/3,d=1` gives squared nonnegative affine density. Uniform volume in dimension three is 1/3-concave. I checked both printed pages as primary-source page images. The original reference is Fradelizi–Guedon, DCG 31 (2004), 327–335, DOI 10.1007/s00454-003-2868-y. :contentReference[oaicite:2]{index=2}
+Fradelizi's author restatement of Fradelizi–Guedon, printed p.17 of arXiv:0807.0080, applies to compact convex K, upper-semicontinuous f, `s in [-infinity,1/2]`, and convex upper-semicontinuous functionals on probabilities with the weak topology. The supremum over s-concave probabilities satisfying `integral f>=0` is attained either at a Dirac mass with `f>=0`, or at an s-affine segment measure with `integral f=0`. On that segment [a,b], either `integral_[a,x] f dnu>0` for every interior x, or `integral_[x,b] f dnu>0` for every interior x. Borell's density conversion on p.3 is `gamma=s/(1-ds)` in affine support dimension d. Thus `s=1/3,d=1` gives squared nonnegative affine density. Uniform volume in dimension three is 1/3-concave. I checked both printed pages as primary-source page images. The original reference is Fradelizi–Guedon, DCG 31 (2004), 327–335, DOI 10.1007/s00454-003-2868-y.
 
 Only **one** constraint is used below. The integral of y remains in the objective. We prove the requisite bound for all squared-affine needles, so the extra one-sided-integral condition can be discarded, not presumed absent from the theorem.
 
@@ -317,7 +317,7 @@ For completeness, at any actual vertex a of an own-centered P, triangulate nonin
 
 `-a=sum_T w_T(b_T+c_T+d_T)`, `sum_T w_T=1`.
 
-Each triangle has three distinct vertices different from a. Thus every apex-excluded coefficient is at most one, and the same lemma proves `U=1 => V>=9`, without assuming that the polar has its own centroid at zero. The earlier journal vertex bound is thereby recovered from the included certificate. :contentReference[oaicite:3]{index=3}
+Each triangle has three distinct vertices different from a. Thus every apex-excluded coefficient is at most one, and the same lemma proves `U=1 => V>=9`, without assuming that the polar has its own centroid at zero. The earlier journal vertex bound is thereby recovered from the included certificate.
 
 For strict 110, Euler now gives `E=V+F-2>=16` and C>=32. No enumeration of C30 is needed to exclude every C30 realization.
 
@@ -346,7 +346,7 @@ Its complete top physical row is
 
 `(132/119,0,1125/3808,675/1904,1125/3808,1125/3808,675/1904,1125/3808)`.
 
-The reverse coefficient is `51/77`. The exact ordinary centroid of Q is `(0,0,728/8415)`, not zero. P's identity-metric class is `(8,12,18)`. The decoder reconstructs both hulls by supporting triples, all facet and edge lists, two distinct-apex volume integrations, every facet centroid and cone weight, the full physical matrix, all true-edge components, and all 255 nonempty-subset mass/flux checks. This is the unchanged late trace control, independently rerun here, not a new 110 candidate. :contentReference[oaicite:4]{index=4}
+The reverse coefficient is `51/77`. The exact ordinary centroid of Q is `(0,0,728/8415)`, not zero. P's identity-metric class is `(8,12,18)`. The decoder reconstructs both hulls by supporting triples, all facet and edge lists, two distinct-apex volume integrations, every facet centroid and cone weight, the full physical matrix, all true-edge components, and all 255 nonempty-subset mass/flux checks. This is the unchanged late trace control, independently rerun here, not a new 110 candidate.
 
 ## 6. New reciprocal actual-facet trace theorem
 
@@ -381,7 +381,7 @@ then
 
 This also handles facets meeting at an edge or vertex: their common zero set has zero weighted facet contribution. Because K is compact, r has a positive lower bound. Truncate `L_R=L intersect {r<=R}`; these are compact convex sets. For all sufficiently large R their endpoint sections E0,E1 are full-dimensional and of positive weighted area.
 
-On the fixed compact convex set `conv(E0 union E1)` in the (z,r) plane, the density `r^-4` is gamma-concave with gamma=-1/4. Borell's conversion in dimension two therefore gives measure parameter -1/2. This is an application of the same primary density theorem, not an assumption of concavity for arbitrary weights. :contentReference[oaicite:5]{index=5}
+On the fixed compact convex set `conv(E0 union E1)` in the (z,r) plane, the density `r^-4` is gamma-concave with gamma=-1/4. Borell's conversion in dimension two therefore gives measure parameter -1/2. This is an application of the same primary density theorem, not an assumption of concavity for arbitrary weights.
 
 Since `(1-s)E0+sE1` is contained in the s-section of L_R,
 
@@ -484,7 +484,7 @@ where d sigma_b is the ordinary one-dimensional coarea measure of p_b on the tri
 
 To restrict this chart to C32 one must still impose that the **same** original H-polytope has exactly nine actual vertices and sixteen true edges, including all nonsimple incidences; all nine rows must remain irredundant. The original recession cone `{d>=0:alpha_l.d>=0 for all six l}` must be trivial. There are no suppressed metric variables: M ranges over the full positive-definite cone and the primal metric is M^-1.
 
-This chart is a recovery recipe for the full actual moment problem, not an elimination certificate. A promising remaining target is a three-cycle analogue of the reciprocal inequality using its three boundary integrals; no such inequality sufficient to close nine poles was proved here. The journal's rank-three, all-apex cap-one nine-vector controls already prevent an unqualified extension of the old eight-vector lemma. :contentReference[oaicite:6]{index=6}
+This chart is a recovery recipe for the full actual moment problem, not an elimination certificate. A promising remaining target is a three-cycle analogue of the reciprocal inequality using its three boundary integrals; no such inequality sufficient to close nine poles was proved here. The journal's rank-three, all-apex cap-one nine-vector controls already prevent an unqualified extension of the old eight-vector lemma.
 
 The remaining gap is consequently precise: the actual coupled nine-pole system, with the six physical planes, the three displayed moment equations, full incidence and reciprocal mechanics, has not been proved infeasible or given a strict 110 solution. Strengthening a necessary system is not being recorded as exclusion of that system's entire geometric domain.
 

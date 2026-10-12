@@ -16,7 +16,7 @@ Every new body below has **V160/E240/F82, C480**. The inherited substring C434 i
 
 The complete304496-byte journal was read consecutively through EOF; SHA-256 `5a874d807672babffd7366b6f3b4cb862182bda0c5102a305a90b2bdf0956bc7`. All47 decoded parent source/input units were read completely and checked against their manifest. The required literal parent is `figure-0581`; its canonical version2 JSON payload is83839 bytes with the required SHA-256 `f4d4df1390c5e9bd18047aad823f3cd12e8c85751a66dbfc62ae50f67c779461`. The83059-byte bare Markdown is a different serialization, not a conflicting payload. There is no missing dependency for this result. The earlier NF93 J88 bridge constructions remain separate.
 
-The selected parent is exactly `KH93_C434_R82_G6.txt`,1888 bytes, SHA-256 `9765712b5ffaa464ed4d677974256294c6d867b77fe77b930d166853f66a92a7`. Its82 integer normals use denominator10^6. Its actual class is211, P[], Q=.11600403115840405; the original stable input facets are7 and18, physical unstable vertex7, and saddle64–104. Facet7 and physical vertex7 are different index spaces. fileciteturn6file0L74-L82 fileciteturn6file0L109-L120
+The selected parent is exactly `KH93_C434_R82_G6.txt`,1888 bytes, SHA-256 `9765712b5ffaa464ed4d677974256294c6d867b77fe77b930d166853f66a92a7`. Its82 integer normals use denominator10^6. Its actual class is211, P[], Q=.11600403115840405; the original stable input facets are7 and18, physical unstable vertex7, and saddle64–104. Facet7 and physical vertex7 are different index spaces.
 
 ## Exact rational images and tradeoffs
 
@@ -518,4 +518,4 @@ for name,item in json.loads(files['SOURCE_MANIFEST.json']).items():
 print('NF93_R82_SOURCE_RECOVERY_PASS',len(files),len(raw),hashlib.sha256(raw).hexdigest())
 ```
 
-Convenience copies: [source and exact-output bundle](sandbox:/mnt/data/NF93_R82_PROJECTIVE_RECOVERY.zip), [complete Markdown handoff](sandbox:/mnt/data/NF93_R82_RESULT.md), and [machine-readable result JSON](sandbox:/mnt/data/NF93_R82_RESULT.json). These supplement, not replace, the literal recovery above.
+Convenience copies: source and exact-output bundle (`NF93_R82_PROJECTIVE_RECOVERY.zip`), complete Markdown handoff (`NF93_R82_RESULT.md`), and machine-readable result JSON (`NF93_R82_RESULT.json`). These supplement, not replace, the literal recovery above.

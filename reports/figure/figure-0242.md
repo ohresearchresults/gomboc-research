@@ -12,7 +12,7 @@ AI research report · 2026-09-03 UTC
 
 I did obtain and independently verify the first five-row successor in this branch that satisfies the prescribed **edge-level carrier-free condition**: every inserted or inherited star-changed nonprotected true edge has a strictly negative external-arrow witness. The complete P9-XG9 residual packet and its forcing edge are deleted in one connected positive-volume full-star event. The endpoint nevertheless remains strict `(2,2,2)` because the packet reappears as a **singleton/full-row-star carrier at `G`**, rather than another external-positive edge component.
 
-This advances exactly the journal frontier. P9-XG9 was an exact complexity-54 `(2,2,2)` endpoint whose stable `W2` was forced by star-changed edge `W2-W3`; the journal required a five-row carrier-free double-bipyramid or stronger connected full-star replacement with at least six post-moment controls. :contentReference[oaicite:3]{index=3} The global acceptance gate remains a finite uniform-density body at its own exact volume centroid with one stable maximal face, one unstable vertex, no saddle edge, complete actual incidence, positive margins, independent verification, and matching meshes. :contentReference[oaicite:4]{index=4}
+This advances exactly the journal frontier. P9-XG9 was an exact complexity-54 `(2,2,2)` endpoint whose stable `W2` was forced by star-changed edge `W2-W3`; the journal required a five-row carrier-free double-bipyramid or stronger connected full-star replacement with at least six post-moment controls. The global acceptance gate remains a finite uniform-density body at its own exact volume centroid with one stable maximal face, one unstable vertex, no saddle edge, complete actual incidence, positive margins, independent verification, and matching meshes.
 
 ## Exact finite construction
 
@@ -561,43 +561,43 @@ All core exact artifacts and individual verifiers are materialized. The endpoint
 
 ### Exact data and certificates
 
-- [Exact supplied rows and provenance](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/input_rows_exact.json)
-- [Embedded exact P9-XG9 parent](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/parent_p9_xg9_closed_cell_exact.json)
-- [Complete exact endpoint ledger](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/p9_xg10_edge_carrier_free_exact.json)
-- [Exact volume, moments, and centroid](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/exact_mass_centroid.json)
-- [Positive connected-event certificate](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/shared_event_exact_certificate.json)
-- [Inherited-packet deletion certificate](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/inherited_component_deletion_certificate.json)
-- [Complete external-arrow ledger](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/external_arrow_ledger.json)
-- [External-arrow table](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/external_arrow_table.csv)
-- [Singleton/full-star obstruction certificate](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/component_obstruction_certificate.json)
-- [Rank-six control certificate](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/control_rank_certificate.json)
-- [Directed perturbation certificate](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/perturbation_box_certificate.json)
+- Exact supplied rows and provenance (`input_rows_exact.json`)
+- Embedded exact P9-XG9 parent (`parent_p9_xg9_closed_cell_exact.json`)
+- Complete exact endpoint ledger (`p9_xg10_edge_carrier_free_exact.json`)
+- Exact volume, moments, and centroid (`exact_mass_centroid.json`)
+- Positive connected-event certificate (`shared_event_exact_certificate.json`)
+- Inherited-packet deletion certificate (`inherited_component_deletion_certificate.json`)
+- Complete external-arrow ledger (`external_arrow_ledger.json`)
+- External-arrow table (`external_arrow_table.csv`)
+- Singleton/full-star obstruction certificate (`component_obstruction_certificate.json`)
+- Rank-six control certificate (`control_rank_certificate.json`)
+- Directed perturbation certificate (`perturbation_box_certificate.json`)
 
 ### Expanded H/V/E tables
 
-- [Exact supplied H table](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/H_supplied_exact.csv)
-- [Exact V table](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/V_exact.csv)
-- [Maximal-face cycles](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/maximal_faces.csv)
-- [True-edge full-cone ledger](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/true_edges_full_cones.csv)
-- [Before/after raw support rows](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/raw_support_rows_before_after.csv)
+- Exact supplied H table (`H_supplied_exact.csv`)
+- Exact V table (`V_exact.csv`)
+- Maximal-face cycles (`maximal_faces.csv`)
+- True-edge full-cone ledger (`true_edges_full_cones.csv`)
+- Before/after raw support rows (`raw_support_rows_before_after.csv`)
 
 ### Reproduction and independent verification
 
-- [Exact endpoint generator](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/generate_endpoint.py)
-- [Directed interval verifier](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/certify_perturbation.py)
-- [Independent clean-room verifier](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/verify_independent.py)
-- [Independent verification report](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/independent_verification_report.json)
-- [Independent verifier transcript](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/verify_independent_output.txt)
-- [Interval verifier transcript](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/certify_perturbation_output.txt)
-- [Package verifier](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/verify_package.py)
-- [Aggregate runner](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/RUN_ALL.sh)
+- Exact endpoint generator (`generate_endpoint.py`)
+- Directed interval verifier (`certify_perturbation.py`)
+- Independent clean-room verifier (`verify_independent.py`)
+- Independent verification report (`independent_verification_report.json`)
+- Independent verifier transcript (`verify_independent_output.txt`)
+- Interval verifier transcript (`certify_perturbation_output.txt`)
+- Package verifier (`verify_package.py`)
+- Aggregate runner (`RUN_ALL.sh`)
 
 ### Meshes
 
-- [Watertight OBJ](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/p9_xg10_edge_carrier_free_centered.obj)
-- [Watertight STL](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/p9_xg10_edge_carrier_free_centered.stl)
+- Watertight OBJ (`p9_xg10_edge_carrier_free_centered.obj`)
+- Watertight STL (`p9_xg10_edge_carrier_free_centered.stl`)
 
 ### Discovery evidence
 
-- [Numerical exploration record](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/numerical_exploration.json)
-- [Promoted exact discovery seed](sandbox:/mnt/data/P9_XG10_FIVE_ROW_EDGE_CARRIER_FREE_FULL_STAR_EXACT_NONWINNER/discovery_carrierfree_exact_seed.json)
+- Numerical exploration record (`numerical_exploration.json`)
+- Promoted exact discovery seed (`discovery_carrierfree_exact_seed.json`)

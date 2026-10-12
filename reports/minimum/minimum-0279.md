@@ -29,7 +29,7 @@ The actual control has strict census \((S,U,H)=(3,5,6)\), weak000, throughout th
 
 An important limit is also preserved: the complementary **dual** tree is not blind on this control. An explicit same-origin pole circuit rejects the entire metric cube. Therefore this is **not** a counterexample to simultaneous primal-plus-dual centroid-flow testing.
 
-No new universal orthogonal factor, whole-E17 exclusion, catalogue subtraction, or attaining upper example follows. The accepted \(\Upsilon_\Sigma<41/5\), E17 condition ceiling below 40, and global bracket \(34\le C_{\min}\le622\) remain unchanged. fileciteturn55file0L81-L95 fileciteturn45file1L10-L11
+No new universal orthogonal factor, whole-E17 exclusion, catalogue subtraction, or attaining upper example follows. The accepted \(\Upsilon_\Sigma<41/5\), E17 condition ceiling below 40, and global bracket \(34\le C_{\min}\le622\) remain unchanged.
 
 ## 2. Input authority and reading status
 
@@ -45,9 +45,9 @@ The literal parent is **minimum-0276**, SHA-256
 
 `08ba2642537a354443744c217de7b00b23a5e4e61bea4a3ea0f2931e867f36c0`.
 
-Its compact UTF-8 version-2 JSON envelope reconstructs to **58506 bytes** with that digest when the literal Markdown retains its final LF. No new source-authority conflict was found. The older correction remains: the accepted probe tuples are ordered as \((\theta,\eta)\), not \((\eta,\theta)\). fileciteturn53file0L85-L92
+Its compact UTF-8 version-2 JSON envelope reconstructs to **58506 bytes** with that digest when the literal Markdown retains its final LF. No new source-authority conflict was found. The older correction remains: the accepted probe tuples are ordered as \((\theta,\eta)\), not \((\eta,\theta)\).
 
-The coordinator's result that all visible-coordinate projectivities preserve the projected nonconcave countercontrol is accepted as supplied. No further projected-probe search or duplicate profile-Hessian verification is used here. The new control is full spatial **uniform volume**, not that projected countermeasure. fileciteturn45file0L2-L2
+The coordinator's result that all visible-coordinate projectivities preserve the projected nonconcave countercontrol is accepted as supplied. No further projected-probe search or duplicate profile-Hessian verification is used here. The new control is full spatial **uniform volume**, not that projected countermeasure.
 
 Earlier unchanged evidence is retained. The new recovery program is standalone: it requires no inaccessible archive, parent program, saved moment table, or originating sandbox. “Centroid-balanced” below describes an auxiliary stress construction, never a replacement physical mass distribution.
 
@@ -96,7 +96,7 @@ Q(\lambda)=-\sum_k\lambda_kT_k\succ0
 \tag{6}
 \]
 
-excludes the complete tree for every nonzero PSD M. This is the centroid-subtree mechanism already recorded in the notebook. The new results determine its full polynomial closure and demonstrate its strict inadequacy on an actual first-layer control. fileciteturn57file2L28-L28
+excludes the complete tree for every nonzero PSD M. This is the centroid-subtree mechanism already recorded in the notebook. The new results determine its full polynomial closure and demonstrate its strict inadequacy on an actual first-layer control.
 
 For the parent's true-incidence polynomials, write the actual facets as \(\ell_f(x)=h_f-n_f\cdot x\ge0\). At each vertex choose a fan of its true polar face and set, in dimension three,
 
@@ -119,7 +119,7 @@ When F=9 these have degree at most six, are positive in the interior, nonnegativ
 \tag{8}
 \]
 
-These are genuine same-volume identities, including at nonsimple vertices. The polar in their derivation is auxiliary geometry, not a newly centered uniform body. The complete parent proof supplies (7)–(8). fileciteturn54file0L225-L240 fileciteturn54file0L253-L271 The connection to the literature on Wachspress polynomial coordinates is background, not a priority claim for those coordinates. citeturn963868academia20
+These are genuine same-volume identities, including at nonsimple vertices. The polar in their derivation is auxiliary geometry, not a newly centered uniform body. The complete parent proof supplies (7)–(8). The connection to the literature on Wachspress polynomial coordinates is background, not a priority claim for those coordinates.
 
 ## 4. Exact polynomial-flow closure
 
@@ -250,7 +250,7 @@ Take the convex hull of \(B_0,B_1,B_2,L_0,L_1,L_2,R_0,R_1,R_2,C+t(B_--C)\), with
 \tag{14}
 \]
 
-This is a different rational control in a two-cut-and-stack construction. It is **not** the accepted fixed \(b=1/6\), symmetric-small-cut \(P_\varepsilon\) family and does not rename or replace that family's lower bounds. fileciteturn57file3L42-L44
+This is a different rational control in a two-cut-and-stack construction. It is **not** the accepted fixed \(b=1/6\), symmetric-small-cut \(P_\varepsilon\) family and does not rename or replace that family's lower bounds.
 
 The exact raw vertex order is
 
@@ -320,7 +320,7 @@ gives exactly TREE410's literal parent vector
 (0,0,1,2,3,4,0,6,7,8).
 ```
 
-Every selected arrow is a true edge. TREE410 remains in the recorded rooted-shape remainder, but this control is **not asserted to lie outside every previously closed labeled incidence sector**. No registry novelty or subtraction follows from the shape name. fileciteturn45file1L58-L60
+Every selected arrow is a true edge. TREE410 remains in the recorded rooted-shape remainder, but this control is **not asserted to lie outside every previously closed labeled incidence sector**. No registry novelty or subtraction follows from the shape name.
 
 ### Independent mechanical separation
 
@@ -452,7 +452,7 @@ H^{-1}/\operatorname{tr}H^{-1}\succ I/43.
 \tag{29}
 \]
 
-These are stricter than the retained universal E17 caps \(p=57604303/9000000\), \(q=93375163/15000000\), their product and their trace floors. They are properties of this control's metric cube, **not improved universal constants**. fileciteturn55file0L81-L95
+These are stricter than the retained universal E17 caps \(p=57604303/9000000\), \(q=93375163/15000000\), their product and their trace floors. They are properties of this control's metric cube, **not improved universal constants**.
 
 ### Actual roots and census throughout the cube
 
@@ -514,7 +514,7 @@ Exploration initially produced aggregate false passes outside the known spectral
 
 The useful continuation is to keep **independent nonnegative edge multipliers**, or terms coupling different edge increments to actual shape moments, rather than route all coefficients through (9)–(10). Complete dual obligations must remain in a joint application: Section 8 shows why a stable root fan and covariance caps alone cannot replace them.
 
-The universal \(41/5\) factor, same-H E17 condition bound, canonical C622 attainer, lower counterfamilies and \(34\le C_{\min}\le622\) are unchanged. There is no all-root U2 claim on this control, no full TREE410 realization-class exclusion, and no whole-E17 result. fileciteturn45file1L10-L11
+The universal \(41/5\) factor, same-H E17 condition bound, canonical C622 attainer, lower counterfamilies and \(34\le C_{\min}\le622\) are unchanged. There is no all-root U2 claim on this control, no full TREE410 realization-class exclusion, and no whole-E17 result.
 
 ## 10. Complete deterministic recovery
 
@@ -539,7 +539,7 @@ The report contains all centered moments through degree eight, incidence polynom
 
 Normal exact execution and clean source-only reconstruction both passed with byte-identical source and report. These are author executions, not coordinator replays or proof-assistant formalization. The analytic closure and duality proofs above are separate from the finite checks.
 
-Convenience copies: [complete source](sandbox:/mnt/data/joint_support_v7/centroid_flow_blind.py), [exact report](sandbox:/mnt/data/joint_support_v7/centroid_flow_blind_report.json), and [expanded Markdown handoff](sandbox:/mnt/data/joint_support_v7/result_markdown_v7.md). The complete source follows; none of those links is required for continuation.
+Convenience copies: complete source (`centroid_flow_blind.py`), exact report (`centroid_flow_blind_report.json`), and expanded Markdown handoff (`result_markdown_v7.md`). The complete source follows; none of those links is required for continuation.
 
 ```python
 #!/usr/bin/env python3

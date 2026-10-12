@@ -10,7 +10,7 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACT FINITE POST-XG16 NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained. I materialized a finite exact dyadic endpoint, `P9-XG17-U4H1-THETA3-DC2-E18`, genuinely outside the P9-XG16 incidence chamber and outside its one-page carrier flip. It deletes the XG16 carrier, both incident facets, the old extra stable face, old remote unstable facet, and both old saddles, while realizing one connected full-dimensional three-route/three-page cell. Its own-centred strict class is `(S,U,H)=(2,2,2)`, not `(1,1,0)`.
 
-The immutable parent is `figure-0272`, SHA-256 `6592b23232f7ce2025b03d4310c0e64d722abe416ee28f0c5afa4bc5f7921837`; the journal records the exact XG16 census and the XG17 theta successor. :contentReference[oaicite:0]{index=0} No conflict was found between the literal payload, archived parent input, and journal summary.
+The immutable parent is `figure-0272`, SHA-256 `6592b23232f7ce2025b03d4310c0e64d722abe416ee28f0c5afa4bc5f7921837`; the journal records the exact XG16 census and the XG17 theta successor. No conflict was found between the literal payload, archived parent input, and journal summary.
 
 The endpoint's surviving obstruction is a new **degree-seven full row-star sink `P0`**, not the old `U4-H1` edge or its `U3-H1` one-page transfer. Three changed edges incident to `P0` have all endpoint-external arrows positive: `P0-T`, `P0-E0`, `P0-E3`. The exact inequality `||H_P0||²-||H_T27||²>0` also excludes any finite strict-negative-arrow path from fixed `P0` to fixed protected sink `T27`. A successor must move or deactivate `P0`.
 
@@ -393,17 +393,17 @@ The next topology is **P9-XG18-P0FS9-RC3**: a complete degree-seven P0-star turn
 
 ## Artifacts
 
-- [Complete deterministic package](sandbox:/mnt/data/Quiet_Quartz_19_P9_XG17_THETA3_DC2_exact_nonwinner.zip)
-- [Detailed full handoff](sandbox:/mnt/data/quiet_quartz19_p9xg17_theta3_dc2/RESEARCH_HANDOFF.md)
-- [Package manifest](sandbox:/mnt/data/quiet_quartz19_p9xg17_theta3_dc2/PACKAGE_MANIFEST.json)
-- [Verification receipt](sandbox:/mnt/data/Quiet_Quartz_19_P9_XG17_THETA3_DC2_VERIFICATION_RECEIPT.json)
-- [Exact endpoint rows](sandbox:/mnt/data/quiet_quartz19_p9xg17_theta3_dc2/p9_xg17_theta3_dc2_rows_exact.json)
-- [Complete exact ledger](sandbox:/mnt/data/quiet_quartz19_p9xg17_theta3_dc2/p9_xg17_theta3_dc2_exact_ledger.json)
-- [Independent verifier](sandbox:/mnt/data/quiet_quartz19_p9xg17_theta3_dc2/verify_independent.py)
-- [Perturbation certificate](sandbox:/mnt/data/quiet_quartz19_p9xg17_theta3_dc2/perturbation_chamber.json)
-- [Watertight OBJ](sandbox:/mnt/data/quiet_quartz19_p9xg17_theta3_dc2/p9_xg17_theta3_dc2_centered_triangulated.obj)
-- [Watertight STL](sandbox:/mnt/data/quiet_quartz19_p9xg17_theta3_dc2/p9_xg17_theta3_dc2_centered.stl)
-- [P9-XG18 specification](sandbox:/mnt/data/quiet_quartz19_p9xg17_theta3_dc2/P9_XG18_successor_spec.json)
+- Complete deterministic package (`Quiet_Quartz_19_P9_XG17_THETA3_DC2_exact_nonwinner.zip`)
+- Detailed full handoff (`RESEARCH_HANDOFF.md`)
+- Package manifest (`PACKAGE_MANIFEST.json`)
+- Verification receipt (`Quiet_Quartz_19_P9_XG17_THETA3_DC2_VERIFICATION_RECEIPT.json`)
+- Exact endpoint rows (`p9_xg17_theta3_dc2_rows_exact.json`)
+- Complete exact ledger (`p9_xg17_theta3_dc2_exact_ledger.json`)
+- Independent verifier (`verify_independent.py`)
+- Perturbation certificate (`perturbation_chamber.json`)
+- Watertight OBJ (`p9_xg17_theta3_dc2_centered_triangulated.obj`)
+- Watertight STL (`p9_xg17_theta3_dc2_centered.stl`)
+- P9-XG18 specification (`P9_XG18_successor_spec.json`)
 
 ## Final status
 

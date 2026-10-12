@@ -28,7 +28,7 @@ has strict class
 (S,U,H)_P = (2075,587,2660),
 ```
 
-not `(1,1,0)`. This is a rigorous finite nonwinner, not a wall point or an auxiliary-centre construction. The journal’s predecessor endpoint had class `(2611,901,3510)` and left the two packets assigned here; AQ32-CR3D580 removes both named packets and reduces the total equilibrium count by `1700`, but a new outlet packet remains. :contentReference[oaicite:0]{index=0}
+not `(1,1,0)`. This is a rigorous finite nonwinner, not a wall point or an auxiliary-centre construction. The journal’s predecessor endpoint had class `(2611,901,3510)` and left the two packets assigned here; AQ32-CR3D580 removes both named packets and reduces the total equilibrium count by `1700`, but a new outlet packet remains.
 
 ## What changed
 
@@ -253,38 +253,38 @@ The actual Santaló displacement is `4.565401395854277e-5`, or `23.8294126856635
 
 ## Artifacts
 
-- [Complete mathematical handoff](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_complete_handoff.md)
-- [Machine-readable certificate](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_certificate.json)
-- [README](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/README.md)
-- [Deterministic exact generator](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/generate_AQ32_CR3D580_exact.py)
-- [Independent verifier](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/verify_AQ32_CR3D580_exact.py)
-- [Verifier output](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/VERIFY_OUTPUT.json)
-- [Canonical exact arrays](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_exact_data.npz)
-- [Expanded exact Q rows](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_Q_vertices_exact.csv)
-- [Q maximal faces](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_Q_maximal_faces_exact.jsonl)
-- [Q true edges](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_Q_true_edges.csv)
-- [Expanded P halfspaces](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_P_H_rows_root_box.csv)
-- [P root-midpoint vertices](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_P_vertices_root_midpoint.csv)
-- [P maximal faces](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_P_maximal_faces.jsonl)
-- [P true edges](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_P_true_edges.csv)
-- [High-precision Santaló certificate](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_santalo_high_precision.json)
-- [Complete root-box audit](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_exact_rootbox_audit.json)
-- [Face ledger](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_faces_rootbox_ledger.csv.gz)
-- [Vertex ledger](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_vertices_rootbox_ledger.csv.gz)
-- [True-edge ledger](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_edges_rootbox_ledger.csv.gz)
-- [Residual packet](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_changed_packet.json)
-- [Support connectivity](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_support_connectivity.json)
-- [Rank-three coupling certificate](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_coupling_certificate.json)
-- [Exact inactive-row separation proof](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_inactive_separation_exact.json)
-- [Atlas summary](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_atlas_summary.json)
-- [Central batch atlas](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_central_batch_atlas.json.gz)
-- [Exact central circuit roots](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_central_2x2_roots.json.gz)
-- [Exact incremental insertion atlas](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_incremental_atlas.json)
-- [Perturbation proof](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_perturbation_proof.json)
-- [Support-error ledger](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_support_error_ledger.json)
-- [Finite numerical-search ledger](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_numerical_search_ledger.json)
-- [Q OBJ](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_Q.obj) and [Q STL](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_Q.stl)
-- [P OBJ](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_P_at_santalo_midpoint.obj) and [P STL](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_P_at_santalo_midpoint.stl)
+- Complete mathematical handoff (`AQ32_CR3D580_complete_handoff.md`)
+- Machine-readable certificate (`AQ32_CR3D580_certificate.json`)
+- README (`README.md`)
+- Deterministic exact generator (`generate_AQ32_CR3D580_exact.py`)
+- Independent verifier (`verify_AQ32_CR3D580_exact.py`)
+- Verifier output (`VERIFY_OUTPUT.json`)
+- Canonical exact arrays (`AQ32_CR3D580_exact_data.npz`)
+- Expanded exact Q rows (`AQ32_CR3D580_Q_vertices_exact.csv`)
+- Q maximal faces (`AQ32_CR3D580_Q_maximal_faces_exact.jsonl`)
+- Q true edges (`AQ32_CR3D580_Q_true_edges.csv`)
+- Expanded P halfspaces (`AQ32_CR3D580_P_H_rows_root_box.csv`)
+- P root-midpoint vertices (`AQ32_CR3D580_P_vertices_root_midpoint.csv`)
+- P maximal faces (`AQ32_CR3D580_P_maximal_faces.jsonl`)
+- P true edges (`AQ32_CR3D580_P_true_edges.csv`)
+- High-precision Santaló certificate (`AQ32_CR3D580_santalo_high_precision.json`)
+- Complete root-box audit (`AQ32_CR3D580_exact_rootbox_audit.json`)
+- Face ledger (`AQ32_CR3D580_faces_rootbox_ledger.csv.gz`)
+- Vertex ledger (`AQ32_CR3D580_vertices_rootbox_ledger.csv.gz`)
+- True-edge ledger (`AQ32_CR3D580_edges_rootbox_ledger.csv.gz`)
+- Residual packet (`AQ32_CR3D580_changed_packet.json`)
+- Support connectivity (`AQ32_CR3D580_support_connectivity.json`)
+- Rank-three coupling certificate (`AQ32_CR3D580_coupling_certificate.json`)
+- Exact inactive-row separation proof (`AQ32_CR3D580_inactive_separation_exact.json`)
+- Atlas summary (`AQ32_CR3D580_atlas_summary.json`)
+- Central batch atlas (`AQ32_CR3D580_central_batch_atlas.json.gz`)
+- Exact central circuit roots (`AQ32_CR3D580_central_2x2_roots.json.gz`)
+- Exact incremental insertion atlas (`AQ32_CR3D580_incremental_atlas.json`)
+- Perturbation proof (`AQ32_CR3D580_perturbation_proof.json`)
+- Support-error ledger (`AQ32_CR3D580_support_error_ledger.json`)
+- Finite numerical-search ledger (`AQ32_CR3D580_numerical_search_ledger.json`)
+- Q OBJ (`AQ32_CR3D580_Q.obj`) and Q STL (`AQ32_CR3D580_Q.stl`)
+- P OBJ (`AQ32_CR3D580_P_at_santalo_midpoint.obj`) and P STL (`AQ32_CR3D580_P_at_santalo_midpoint.stl`)
 
 A monolithic ZIP and final SHA-256 manifest were not completed before this handoff. The README’s manifest command should therefore be disregarded unless a manifest is generated subsequently; the linked endpoint files themselves are complete and the generator/verifier reruns passed.
 

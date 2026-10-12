@@ -49,7 +49,7 @@ c=\left(
 \frac{57133873364297}{173842971376000}
 \right).
 \]
-The parent gives canonical stable facets 11 and 14, unstable vertex 1, and saddle edge 2–7. These are not original material-row labels. The contradictory row-4/volume-7.590617 claims elsewhere in the notebook were not used. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The parent gives canonical stable facets 11 and 14, unstable vertex 1, and saddle edge 2–7. These are not original material-row labels. The contradictory row-4/volume-7.590617 claims elsewhere in the notebook were not used.
 
 The 565-byte baseline input hash is `0fa93190d2a33864b219b2b73b6a433236f1e1338dea7ec49075c3ca2ac033fc`. I reran the parent's complete exact baseline audit; its 2839-byte output matched `5a77084f44934652c84a5af6345729acfc72e8ea493a2198fca46baf163f80a7`. The new standalone checker independently reconstructs the normals, verifies row retention, V/E/F, volume, and centroid. It does not claim to be a second complete equilibrium auditor.
 
@@ -579,4 +579,4 @@ b=encoded(out);Path('H24_COMPATIBILITY_RECEIPT.json').write_bytes(b)
 print('H24_KNOWN_OWN_S1_CLOSURE_COMPATIBILITY_PASS',r,8,len(b),hashlib.sha256(b).hexdigest())
 ```
 
-Convenience copies supplement the full recovery source above: [standalone exact verifier](sandbox:/mnt/data/W51_FIXED_NORMAL_NO_S1.py), [exact receipt](sandbox:/mnt/data/W51_NO_S1_RECEIPT.json), and [positive-control patch](sandbox:/mnt/data/H24_COMPATIBILITY.py).
+Convenience copies supplement the full recovery source above: standalone exact verifier (`W51_FIXED_NORMAL_NO_S1.py`), exact receipt (`W51_NO_S1_RECEIPT.json`), and positive-control patch (`H24_COMPATIBILITY.py`).

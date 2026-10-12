@@ -8,7 +8,7 @@ AI research report · 2026-08-27 UTC · [Export notes](../../catalog/coverage.md
 
 ## Verdict
 
-**No homogeneous convex polyhedral Gömböc was found.** The run’s gate remains a literal independently checkable own-centroid strict `(S,U,H)=(1,1,0)` polyhedron; it was unmet before this continuation. :contentReference[oaicite:0]{index=0} The planar predecessor had reduced the Conway mass gap but made two almost coincident fivefold packets birth/transfer rather than cancel, so the journal opened the present asymmetric mode-one cell. :contentReference[oaicite:1]{index=1}
+**No homogeneous convex polyhedral Gömböc was found.** The run’s gate remains a literal independently checkable own-centroid strict `(S,U,H)=(1,1,0)` polyhedron; it was unmet before this continuation. The planar predecessor had reduced the Conway mass gap but made two almost coincident fivefold packets birth/transfer rather than cancel, so the journal opened the present asymmetric mode-one cell.
 
 The strongest fully exact all-active endpoint breaks physical `C5` rotational symmetry, has exact own-centroid moments, actual lattice
 
@@ -68,10 +68,10 @@ n_f=(v_b-v_a)×(v_c-v_a), h_f=n_f·v_a>0, q_f=n_f/h_f,
 
 so the irredundant H representation is `q_f·x<=1`, `f=0,…,55`. Every expanded centred V row, normalized H row, face cycle and true edge is supplied in the certificate and row tables:
 
-- [Exact V/H/topology/moment/mechanics certificate](sandbox:/mnt/data/conway_mode1_exact/mode1_certificate.json)
-- [Centred vertex rows](sandbox:/mnt/data/conway_mode1_exact/vertices_centered_exact.csv)
-- [Normalized support rows](sandbox:/mnt/data/conway_mode1_exact/support_rows_exact.csv)
-- [All 85 true edges with incident faces](sandbox:/mnt/data/conway_mode1_exact/true_edges.csv)
+- Exact V/H/topology/moment/mechanics certificate (`mode1_certificate.json`)
+- Centred vertex rows (`vertices_centered_exact.csv`)
+- Normalized support rows (`support_rows_exact.csv`)
+- All 85 true edges with incident faces (`true_edges.csv`)
 
 ## Exact moments and actual hull
 
@@ -161,7 +161,7 @@ lambda2≈0.892012192819044092: V1 cancels with E(0,1)
 lambda3≈0.909295989679479333: V2 cancels with E(1,2).
 ```
 
-The exact rational isolating intervals, exact field roots, derivative signs and four directed open-cell boxes are in the [wall-event certificate](sandbox:/mnt/data/conway_mode1_exact/lambda_event_certificate.json).
+The exact rational isolating intervals, exact field roots, derivative signs and four directed open-cell boxes are in the wall-event certificate (`lambda_event_certificate.json`).
 
 The initial lower packet is
 
@@ -197,7 +197,7 @@ positive primitive >8.777701426169157e-49,
 exclusion clearance >1.3330854626136012e-19.
 ```
 
-See the [box certificate](sandbox:/mnt/data/conway_mode1_exact/parameter_box_output.json) and [box verifier](sandbox:/mnt/data/conway_mode1_exact/verify_parameter_box.py).
+See the box certificate (`parameter_box_output.json`) and box verifier (`verify_parameter_box.py`).
 
 ## Exact topology-changing fallback
 
@@ -218,10 +218,10 @@ centered moments=(0,0,0) exactly,
 
 Two complete source layers disappear and direct ring-to-return-layer cross-links form, but the upper fivefold stable–saddle packet survives. A separate `±2^-45` box preserves this cell. This shows that the 31-vertex failure is not merely an artifact of retaining obsolete collar layers.
 
-- [Compact exact certificate](sandbox:/mnt/data/conway_mode1_exact/compact20_certificate.json)
-- [Compact generator](sandbox:/mnt/data/conway_mode1_exact/compact20_generator.json)
-- [Compact OBJ](sandbox:/mnt/data/conway_mode1_exact/compact20.obj)
-- [Compact STL](sandbox:/mnt/data/conway_mode1_exact/compact20.stl)
+- Compact exact certificate (`compact20_certificate.json`)
+- Compact generator (`compact20_generator.json`)
+- Compact OBJ (`compact20.obj`)
+- Compact STL (`compact20.stl`)
 
 ## Search conclusion and smallest new cell
 
@@ -233,18 +233,18 @@ The smallest genuinely new topology adds **no vertices**: give one upper return 
 
 The independent exact verifier reports `PASS`, independently reconstructing `(31,85,56)`, exact zero centred moments and `(6,3,7)`. The independent decimal mesh audit reports volume `0.024685095263320356`, centroid residual below `7e-17`, 56 OBJ faces, 58 watertight STL triangles and the same complete class.
 
-- [Complete checksummed handoff ZIP](sandbox:/mnt/data/conway_mode1_collar_handoff.zip) — SHA-256 `6555e72ec5b1d299922b2966b42ddf151d59f5461973d76c83c122bba77067ed`
-- [Full handoff Markdown](sandbox:/mnt/data/conway_mode1_exact/COMPLETE_HANDOFF.md)
-- [Normative generator](sandbox:/mnt/data/conway_mode1_exact/mode1_generator.json)
-- [Deterministic exact generator/verifier](sandbox:/mnt/data/conway_mode1_exact/generate_exact_mode1.py)
-- [Independent exact verifier and output](sandbox:/mnt/data/conway_mode1_exact/independent_exact_verify.py), [output](sandbox:/mnt/data/conway_mode1_exact/independent_exact_verify_output.json)
-- [Independent mesh auditor and output](sandbox:/mnt/data/conway_mode1_exact/independent_mesh_audit.py), [output](sandbox:/mnt/data/conway_mode1_exact/independent_mesh_audit_output.json)
-- [Watertight OBJ](sandbox:/mnt/data/conway_mode1_exact/mode1_endpoint.obj)
-- [Watertight STL](sandbox:/mnt/data/conway_mode1_exact/mode1_endpoint.stl)
-- [Empirical search report](sandbox:/mnt/data/conway_mode1_exact/search_report.json)
-- [Fresh verifier transcript](sandbox:/mnt/data/conway_mode1_exact/RUN_ALL_VERIFIERS.txt)
-- [Reproduction script](sandbox:/mnt/data/conway_mode1_exact/[internal-source-reference].sh)
-- [SHA-256 manifest](sandbox:/mnt/data/conway_mode1_exact/MANIFEST.sha256)
+- Complete checksummed handoff ZIP (`conway_mode1_collar_handoff.zip`) — SHA-256 `6555e72ec5b1d299922b2966b42ddf151d59f5461973d76c83c122bba77067ed`
+- Full handoff Markdown (`COMPLETE_HANDOFF.md`)
+- Normative generator (`mode1_generator.json`)
+- Deterministic exact generator/verifier (`generate_exact_mode1.py`)
+- Independent exact verifier and output (`independent_exact_verify.py`), output (`independent_exact_verify_output.json`)
+- Independent mesh auditor and output (`independent_mesh_audit.py`), output (`independent_mesh_audit_output.json`)
+- Watertight OBJ (`mode1_endpoint.obj`)
+- Watertight STL (`mode1_endpoint.stl`)
+- Empirical search report (`search_report.json`)
+- Fresh verifier transcript (`RUN_ALL_VERIFIERS.txt`)
+- Reproduction script (`[internal-source-reference].sh`)
+- SHA-256 manifest (`MANIFEST.sha256`)
 
 ## Bottom line
 

@@ -19,6 +19,8 @@ Replace `all` with a collection ID to download one dataset. The downloader verif
 | `minimum` | 79 | [0.2 MiB](https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/minimum.tar.gz) | `2f925a51cc2659afb287a7cc41e60ded2e1730955a559abb5b94122ef38ef874` |
 | `recovered-science` | 36 | [0.8 MiB](https://github.com/ohresearchresults/gomboc-research/releases/download/research-2026-10-12/recovered-science.tar.gz) | `8dfcb9e78cecc3a52a3116064ad29e514f70bb5781f9764f1e31430fd77f1a66` |
 
+`astra-herschel`, `astra-aristotle` and `astra-peirce` unpack to `sources/astra/agent-1`, `agent-2` and `agent-3` respectively.
+
 The tar.gz archives can also be unpacked at the repository root. Their relative paths match [files.jsonl](files.jsonl).
 
 Historical scripts may contain `/RESEARCH` or `/REDACTED_HOME` path placeholders. Replace them with local paths before running those scripts. The standalone C622 check needs no path changes.

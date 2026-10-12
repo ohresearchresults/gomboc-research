@@ -6,9 +6,9 @@ AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md
 
 # Calm Quartz 90 — exact wall-242 fourth-support/full-star determination
 
-The durable acceptance gate requires a finite uniform-density body at its own exact ordinary-volume centroid, strict `(S,U,H)=(1,1,0)`, a complete finite H/V/edge audit, an independent exact or directed verifier, and matching OBJ/STL; wall points, auxiliary-centre mechanics, and near-solutions do not qualify. :contentReference[oaicite:0]{index=0}
+The durable acceptance gate requires a finite uniform-density body at its own exact ordinary-volume centroid, strict `(S,U,H)=(1,1,0)`, a complete finite H/V/edge audit, an independent exact or directed verifier, and matching OBJ/STL; wall points, auxiliary-centre mechanics, and near-solutions do not qualify.
 
-The supplied frontier says the third-support event genuinely deleted its predecessor packet but left a new forcing component on `[1975,2732]`, together with stable limiting edge `[2152,3290]` and the new saddle routes. It specifically calls for a fourth support in the same multi-cell event and for external-arrow anti-carrier constraints before moment closure. :contentReference[oaicite:1]{index=1}
+The supplied frontier says the third-support event genuinely deleted its predecessor packet but left a new forcing component on `[1975,2732]`, together with stable limiting edge `[2152,3290]` and the new saddle routes. It specifically calls for a fourth support in the same multi-cell event and for external-arrow anti-carrier constraints before moment closure.
 
 ## Literal disposition
 
@@ -550,28 +550,28 @@ Not closed:
 
 ## Delivered artifacts
 
-- [Complete exact NONWINNER archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER.zip) — SHA-256 `de7be1923236e57fe6f04b41521d0cd4dee5522998c54237cd871d2f3aab6200`, 627,242 bytes.
-- [Full Markdown handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_result.json)
-- [Clean-extraction verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_clean_verification.json)
-- [Clean replay transcript](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_clean_replay.txt)
-- [Exact 19-row generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/data/generator_exact.json)
-- [Supplied exact V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/data/input_vertices_exact.csv)
-- [Exact own-centred active V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Primitive irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/data/fourth_support18_exact_H_irredundant.csv)
-- [All maximal-face mechanics](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/data/fourth_support18_exact_faces.csv)
-- [All 96 directed vertex primitives](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/data/fourth_support18_exact_vertex_primitives.csv)
-- [All 48 true edges and full cones](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/data/fourth_support18_exact_true_edges_full_cones.csv)
-- [Full external-arrow ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/data/external_arrow_full_ledger.csv)
-- [Same-boundary full-star certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/certificates/fourth_support_shared_terminal_patch.json)
-- [External-arrow design certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/certificates/external_arrow_design_certificate.json)
-- [Minimal bridge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/certificates/minimal_same_boundary_bridge.json)
-- [Own-centroid perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Residual forcing-edge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/certificates/residual_forced_edge_1371_2369.json)
-- [Next-topology certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/certificates/first_successor_topology.json)
-- [Independent clean-room verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/scripts/verify_independent.py)
-- [Aggregate verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/RUN_ALL_VERIFIERS.sh)
-- [Package verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/verify_package.py)
-- [SHA-256 manifest](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/SHA256SUMS.txt) — 39 entries, SHA-256 `749aaeb48902e5a0f40cf7e5389fab55d5bd0630f7657bad98964294414293ac`.
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER/mesh/body.stl)
+- Complete exact NONWINNER archive (`Calm_Quartz_90_wall242_fourth_support_exact_NONWINNER.zip`) — SHA-256 `de7be1923236e57fe6f04b41521d0cd4dee5522998c54237cd871d2f3aab6200`, 627,242 bytes.
+- Full Markdown handoff (`Calm_Quartz_90_wall242_fourth_support_handoff.md`)
+- Structured result (`Calm_Quartz_90_wall242_fourth_support_result.json`)
+- Clean-extraction verification receipt (`Calm_Quartz_90_wall242_fourth_support_clean_verification.json`)
+- Clean replay transcript (`Calm_Quartz_90_wall242_fourth_support_clean_replay.txt`)
+- Exact 19-row generator (`generator_exact.json`)
+- Supplied exact V-data (`input_vertices_exact.csv`)
+- Exact own-centred active V-data (`active_vertices_centered_exact.csv`)
+- Primitive irredundant H-data (`fourth_support18_exact_H_irredundant.csv`)
+- All maximal-face mechanics (`fourth_support18_exact_faces.csv`)
+- All 96 directed vertex primitives (`fourth_support18_exact_vertex_primitives.csv`)
+- All 48 true edges and full cones (`fourth_support18_exact_true_edges_full_cones.csv`)
+- Full external-arrow ledger (`external_arrow_full_ledger.csv`)
+- Same-boundary full-star certificate (`fourth_support_shared_terminal_patch.json`)
+- External-arrow design certificate (`external_arrow_design_certificate.json`)
+- Minimal bridge certificate (`minimal_same_boundary_bridge.json`)
+- Own-centroid perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Residual forcing-edge certificate (`residual_forced_edge_1371_2369.json`)
+- Next-topology certificate (`first_successor_topology.json`)
+- Independent clean-room verifier (`verify_independent.py`)
+- Aggregate verifier (`RUN_ALL_VERIFIERS.sh`)
+- Package verifier (`verify_package.py`)
+- SHA-256 manifest (`SHA256SUMS.txt`) — 39 entries, SHA-256 `749aaeb48902e5a0f40cf7e5389fab55d5bd0630f7657bad98964294414293ac`.
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)

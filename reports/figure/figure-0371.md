@@ -16,7 +16,7 @@ Its sole stable maximal facet is input3; its two unstable vertices are **final r
 
 Ten distinct new rational bodies, including this C602 endpoint, completed **both independent full exact audits, a third centred-integer mass integration and whole-parent maximal-complex comparisons**. All ten then completed a fresh source-only cold replay. A separate numerical production replay reproduced all ten frozen normal-form generators byte-for-byte. These smaller bodies are nonwinners, not an improvement to the accepted own110 bound.
 
-The accepted own110 baseline of this lineage remains **`BQ13_C626_STABLE_CAP_VERTEX_68_96_OWN110`**, alias `BASIN69_96`, literal parent **`figure-0362`**, journal-declared immutable SHA256 **e4b02b73abe4b9f212844982334fd28adf447de9a106e47e30a205829a4d33c4**. The journal distinguishes this body from the coordinator's double-contact C626 and assigns the independent50/113 frontier. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The accepted own110 baseline of this lineage remains **`BQ13_C626_STABLE_CAP_VERTEX_68_96_OWN110`**, alias `BASIN69_96`, literal parent **`figure-0362`**, journal-declared immutable SHA256 **e4b02b73abe4b9f212844982334fd28adf447de9a106e47e30a205829a4d33c4**. The journal distinguishes this body from the coordinator's double-contact C626 and assigns the independent50/113 frontier.
 
 I decoded the parent's entire45-file defining capsule, checked all44 payload hashes and compared every file with the supplied source-only ZIP. No defining-data or incidence conflict was found. The rendered Markdown has citation normalization; I do **not** claim that hashing that rendered text recomputes the original immutable transport hash.
 
@@ -303,13 +303,13 @@ The useful next physical frontier is C602's genuine edge headroom together with 
 
 The complete self-contained handoff containing the **entire literal77-file capsule**, all exact generators, all59 certificate triples, both auditors, every required helper/input and both retained numerical checkpoints has been created and validated:
 
-[Complete Markdown with the entire literal recovery capsule](sandbox:/mnt/data/BQ13_C602_RESULT.md) —146570bytes, SHA256 **1775862984f77c629a23a01a3c8c07866ce839a64040e0cd013d9d2dff1f6fcd**.
+Complete Markdown with the entire literal recovery capsule (`BQ13_C602_RESULT.md`) —146570bytes, SHA256 **1775862984f77c629a23a01a3c8c07866ce839a64040e0cd013d9d2dff1f6fcd**.
 
-[Complete v2 JSON with the entire literal recovery capsule](sandbox:/mnt/data/BQ13_C602_RESULT_v2.json) —147953bytes, SHA256 **a97919ac1ba0060b4da6b16e96b8dfcffc6e6f7e63830e0071269226d573cdd4**.
+Complete v2 JSON with the entire literal recovery capsule (`BQ13_C602_RESULT_v2.json`) —147953bytes, SHA256 **a97919ac1ba0060b4da6b16e96b8dfcffc6e6f7e63830e0071269226d573cdd4**.
 
-[Source-only archive](sandbox:/mnt/data/BQ13_C602_SOURCE_ONLY.zip) —161153bytes,78ZIP entries, SHA256 **20363319a852e2d578e8fbd42516d409c2a90b38f9d418130cbd27bd31032c33**.
+Source-only archive (`BQ13_C602_SOURCE_ONLY.zip`) —161153bytes,78ZIP entries, SHA256 **20363319a852e2d578e8fbd42516d409c2a90b38f9d418130cbd27bd31032c33**.
 
-[Verified full bundle](sandbox:/mnt/data/BQ13_C602_VERIFIED_FULL.zip) —10649291bytes,285files, SHA256 **7dfe3cb1113a2c219bfdd3ac989c962243147e9172bf58347f01cd3501d94a59**.
+Verified full bundle (`BQ13_C602_VERIFIED_FULL.zip`) —10649291bytes,285files, SHA256 **7dfe3cb1113a2c219bfdd3ac989c962243147e9172bf58347f01cd3501d94a59**.
 
 Both archive manifests were read back and checked. The final JSON was parsed, its literal capsule decoded, and all77 restored source files byte-compared against the actual cold-replay sources. Observed marker: **FINAL_HANDOFF_77_SOURCE_FILES_BYTE_IDENTICAL_TO_ACTUAL_COLD_REPLAY**.
 

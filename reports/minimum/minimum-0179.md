@@ -18,11 +18,11 @@ The root can have arbitrarily many vertices; the proof uses its actual area and 
 
 More specifically, **`T(Q)>=2` forces the parent's `C1>=0` in this class**. Therefore `b_tau>0` for `tau=T(Q)>2`: an actual negative appendage cannot increase a trace already above two. When `C1<0`, the whole admissible depth family remains strictly below two, even when the unconstrained depth polynomial has positive discriminant.
 
-Using the accepted positive single-B-fan bound gives the stronger value corollary **`T(P)<Cstar<2.029`**. Independently, J55 gives `T(P)<203/100`. The positive single-B-fan bound and Cstar are inherited inputs at the supplied notebook's evidence tier, not newly recomputed sharp constants. :contentReference[oaicite:0]{index=0}
+Using the accepted positive single-B-fan bound gives the stronger value corollary **`T(P)<Cstar<2.029`**. Independently, J55 gives `T(P)<203/100`. The positive single-B-fan bound and Cstar are inherited inputs at the supplied notebook's evidence tier, not newly recomputed sharp constants.
 
 The arbitrary unequal-endpoint class and equal-endpoint clipped bodies with additional non-B, nonroot facets remain open under this comparison. A new exact above-two control realizes that latter distinction. No actual counterexample to `T(P)<=max(2,T(Q))` is claimed.
 
-The geometric starting point is literal `minimum-0177`, SHA-256 `dbe60e47a944154d8a3acc376b60f1a45bad6b2a6feae1779c20e7ac3d49e376`, including its actual paired wedge and retained root-cut endpoints. :contentReference[oaicite:1]{index=1}
+The geometric starting point is literal `minimum-0177`, SHA-256 `dbe60e47a944154d8a3acc376b60f1a45bad6b2a6feae1779c20e7ac3d49e376`, including its actual paired wedge and retained root-cut endpoints.
 
 ## 1. Exact hypotheses and original integrals
 
@@ -82,7 +82,7 @@ Convexity of the original root gives `y>=r+mz` on Fplus. The parent proves that 
 P minus Q = conv(p,K0) disjoint-union conv(p,B,D,R).       (2.1)
 ```
 
-The second piece has volume `h*eta`. Its positive clipping wedge has volume `h*eta/(1+h)` and its negative partner has volume `h^2*eta/(1+h)`. They are two portions of one actual tetrahedron, not adjustable cap masses. These are the literal parent's geometric conclusions. :contentReference[oaicite:2]{index=2}
+The second piece has volume `h*eta`. Its positive clipping wedge has volume `h*eta/(1+h)` and its negative partner has volume `h^2*eta/(1+h)`. They are two portions of one actual tetrahedron, not adjustable cap masses. These are the literal parent's geometric conclusions.
 
 The new single-B-fan hypothesis supplies the other genuine support plane: the facet along the base edge CS contains B. Its root-plane inequality is
 
@@ -325,7 +325,7 @@ The inherited single-B-fan octant theorem gives `T(Q)<=Cstar`, where the accepte
 2(1-b^2)(1-b*z^3)/[(1-b*z^2)(1-b^2*z^2)], 0<b,z<1,
 ```
 
-and `2.0287830356734117251411563027<Cstar<2.0287830356734117251411563029`. Strict paired dominance gives `T(P)<Cstar`. This sharp positive-core result is inherited, not recertified here. The new coefficient theorem itself needs no numerical value of Cstar. :contentReference[oaicite:3]{index=3}
+and `2.0287830356734117251411563027<Cstar<2.0287830356734117251411563029`. Strict paired dominance gives `T(P)<Cstar`. This sharp positive-core result is inherited, not recertified here. The new coefficient theorem itself needs no numerical value of Cstar.
 
 ## 7. Exact actual controls and useful failures
 
@@ -465,9 +465,9 @@ No mechanical S/U/H or weak-contact census is claimed for any of these controls.
 
 ## 8. Role of the new deficit material and the remaining problem
 
-The supplied `ROOT_CONE_SLICE_DEFICIT_V2` is a necessary actual-body theorem, not a threshold certificate or a body realization. Its formal separator remains a nonbody. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+The supplied `ROOT_CONE_SLICE_DEFICIT_V2` is a necessary actual-body theorem, not a threshold certificate or a body realization. Its formal separator remains a nonbody.
 
-For the new actual controls, the original A-cone coefficient is exactly `kappa=1` on Q and `kappa=1+alpha*h` on P. The auditor checks the Jensen, first-height, reflected-height and both directional-strip deficit inequalities on these actual moments. Their inputs are computed from the reconstructed hull, never freely completed. The new comparison proof needs the more specific actual single-B-fan formulas, root width capacity and coordinate depth wall, rather than inferring realization from those necessary deficit tests. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+For the new actual controls, the original A-cone coefficient is exactly `kappa=1` on Q and `kappa=1+alpha*h` on P. The auditor checks the Jensen, first-height, reflected-height and both directional-strip deficit inequalities on these actual moments. Their inputs are computed from the reconstructed hull, never freely completed. The new comparison proof needs the more specific actual single-B-fan formulas, root width capacity and coordinate depth wall, rather than inferring realization from those necessary deficit tests.
 
 The general remaining interface is now clearer. Equal endpoints make n on the root depend only on z, and the two actual B-cones make V and E depend on exactly the same root area. Their compatibility supplies (4.3) and the positive polynomial in §5. Unequal endpoints retain a transverse first moment. Additional non-B facets retain extra original determinant volumes and their first moments, as the above-two C-facet control explicitly demonstrates. Neither correction can be omitted.
 
@@ -479,7 +479,7 @@ The theorem covers all positive b,q below a, all genuine positive-area roots of 
 
 The e=0 visible-wedge wall is covered by the direct zero-tetrahedron formulas or the parent's cap theorem. If the B-projection lies strictly inside K0, the parent gives the comparison directly. If Fplus has zero area, Q and the positive clip are B-pyramids with trace below two, and the actual negative cap is pyramidal; the parent then gives T(P)<2. The equality h=0 is the unchanged body Q and is excluded from the new strict comparison. No q=0, q=1 or b=1 extension is claimed.
 
-There is one metadata conflict in the supplied journal: the branch note gives parent-wrapper SHA `736347952c74f07a0a88bf7ec080aafb8c638328575f132de0516f9d36ad2fd7`, while the literal parent gives `775187275a045f86c46a7b6cab213b5bc09d8cd8f085c7f05382ebfc08a3923e`. The literal parent pin is the retained one; this discrepancy has no role in the new theorem or its standalone recovery. :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}
+There is one metadata conflict in the supplied journal: the branch note gives parent-wrapper SHA `736347952c74f07a0a88bf7ec080aafb8c638328575f132de0516f9d36ad2fd7`, while the literal parent gives `775187275a045f86c46a7b6cab213b5bc09d8cd8f085c7f05382ebfc08a3923e`. The literal parent pin is the retained one; this discrepancy has no role in the new theorem or its standalone recovery.
 
 ## 10. Complete recovery and actual execution status
 
@@ -536,7 +536,7 @@ Normal execution and fresh-directory source-only recovery/build/check were compl
 
 The coefficient expansion certifies a whole unbounded continuous parameter domain. The finite bodies are controls, not a sampling-based proof of that domain. The geometric proof is not a proof-assistant formalization. The older sharp Cstar and octant results retain their inherited evidence status.
 
-Convenience copies: [recovery capsule](sandbox:/mnt/data/recover_equal_cap.py), [actual-body auditor](sandbox:/mnt/data/equal_cap/equal_cap_audit.py), [whole-domain certificate](sandbox:/mnt/data/equal_cap/equal_cap_certificate.py), [exact control report](sandbox:/mnt/data/equal_cap/controls.json). The following literal capsule is sufficient without these files.
+Convenience copies: recovery capsule (`recover_equal_cap.py`), actual-body auditor (`equal_cap_audit.py`), whole-domain certificate (`equal_cap_certificate.py`), exact control report (`controls.json`). The following literal capsule is sufficient without these files.
 
 ```python
 # EQUAL_ENDPOINT_SINGLE_B_FAN_NEGATIVE_APPENDAGE_V1

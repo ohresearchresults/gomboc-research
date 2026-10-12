@@ -16,7 +16,7 @@ During closeout I read the supplied journal and literal parent, decoded and read
 
 ## Source authority and integrity
 
-The construction authority remains **figure-0496**, advertised SHA-256 `cb70d6ffe26a61c3c58741ee3b706dcffc73f31be5b9ec4f19e7f29513befc8d`. The supplied literal payload contains the seventeen-unit recovery capsule and exact rational inputs; no additional archive dependency was needed to read them. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The construction authority remains **figure-0496**, advertised SHA-256 `cb70d6ffe26a61c3c58741ee3b706dcffc73f31be5b9ec4f19e7f29513befc8d`. The supplied literal payload contains the seventeen-unit recovery capsule and exact rational inputs; no additional archive dependency was needed to read them.
 
 Observed local transport identities:
 
@@ -39,13 +39,13 @@ These are **inherited results**, not newly computed bodies:
 | S1_VGRID_D10000 | 39/111/74; 222 | 1/2/1 | One P component/cut 17/35; Q empty | 138 |
 | QH83_CAPBOOST5 | 72/108/38; 216 | 8/7/13 | Six positive P bars and seven positive Q bars | 141 |
 
-All three have inherited additionalweak000 and primitivezero000. C222's 56-bit common centred denominator remains a distinct arithmetic advantage; CAPBOOST5 remains a thicker, lower-P-energy but multi-basin alternative. These merits do not establish proximity to cancellation. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+All three have inherited additionalweak000 and primitivezero000. C222's 56-bit common centred denominator remains a distinct arithmetic advantage; CAPBOOST5 remains a thicker, lower-P-energy but multi-basin alternative. These merits do not establish proximity to cancellation.
 
-The supplied cap obstruction remains precisely bounded: unchanged original C144 supports, cap normal `(-22,-24,-6)`, the complete specified offset interval, and the entrywise Gram box of radius `1/16`. It does **not** exclude joint support/normal/material changes in C120, C222, or CAPBOOST5. The parent's cap already demonstrates why deleting every old packet vertex is insufficient: its surviving physical component contains both new cap vertices and formerly retained vertices. :contentReference[oaicite:5]{index=5}
+The supplied cap obstruction remains precisely bounded: unchanged original C144 supports, cap normal `(-22,-24,-6)`, the complete specified offset interval, and the entrywise Gram box of radius `1/16`. It does **not** exclude joint support/normal/material changes in C120, C222, or CAPBOOST5. The parent's cap already demonstrates why deleting every old packet vertex is insufficient: its surviving physical component contains both new cap vertices and formerly retained vertices.
 
 ## Exact current-carrier diagnostic
 
-I derived the following directly from the parent's **complete C120 maximal face cycles**, without borrowing C144 labels. Those literal cycles and the complete 16-edge cut are the input authority. :contentReference[oaicite:6]{index=6}
+I derived the following directly from the parent's **complete C120 maximal face cycles**, without borrowing C144 labels. Those literal cycles and the complete 16-edge cut are the input authority.
 
 For **S1_C120_G1000**, with face numbers equal to the displayed 22-row support order:
 
@@ -148,4 +148,4 @@ There is no new endpoint here for which to provide a new volume/centroid certifi
 
 For a fresh executor, retain the complete literal MFW parent as the construction dependency. The diagnostic above is independently reconstructible, but intentionally does not replace the parent's geometry generator and full auditor.
 
-Supplementary convenience copy: [the seventeen unchanged supplied source/input units and the new interface diagnostic](sandbox:/mnt/data/QQ41_closeout_sources.zip). The archive contains no claimed new polyhedron or newly replayed fifteen-report audit set.
+Supplementary convenience copy: the seventeen unchanged supplied source/input units and the new interface diagnostic (`QQ41_closeout_sources.zip`). The archive contains no claimed new polyhedron or newly replayed fifteen-report audit set.

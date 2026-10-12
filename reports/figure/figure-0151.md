@@ -8,9 +8,9 @@ AI research report · 2026-08-29 UTC
 
 ## Literal verdict
 
-**No homogeneous convex polyhedral Gömböc was found.** The required acceptance gate remains a materialized uniform-density finite polyhedron at its own exact volume centroid with strict `(1,1,0)`, complete H/V/incidence and full-normal-cone audit, an independent verifier, and matching OBJ/STL. :contentReference[oaicite:0]{index=0} No trace-one SPD metric box with strict own-centroid `(S,U,H)=(1,1,0)` was reached, and the entire bounded five-dimensional core is not covered. Global fixed-lattice nonexistence is therefore **not** proved.
+**No homogeneous convex polyhedral Gömböc was found.** The required acceptance gate remains a materialized uniform-density finite polyhedron at its own exact volume centroid with strict `(1,1,0)`, complete H/V/incidence and full-normal-cone audit, an independent verifier, and matching OBJ/STL. No trace-one SPD metric box with strict own-centroid `(S,U,H)=(1,1,0)` was reached, and the entire bounded five-dimensional core is not covered. Global fixed-lattice nonexistence is therefore **not** proved.
 
-The previous durable frontier required exact children at walls `6112`, `21145`, and `21563`, while forbidding further refinement inside the already certified cells R0/R1/R2. :contentReference[oaicite:1]{index=1} This continuation resolves all three requested exits and strictly reduces the unresolved core.
+The previous durable frontier required exact children at walls `6112`, `21145`, and `21563`, while forbidding further refinement inside the already certified cells R0/R1/R2. This continuation resolves all three requested exits and strictly reduces the unresolved core.
 
 ## Exact delta
 
@@ -247,18 +247,18 @@ The three requested exits are no longer unresolved. Each is an exact S-H cancell
 
 ## Downloadable artifacts
 
-- [Complete self-contained bundle](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas.zip)
-- [Bundle SHA-256](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas.zip.sha256)
-- [Complete Markdown handoff](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/RESULT.md)
-- [Global machine-readable certificate](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/GLOBAL_CERTIFICATE.json)
-- [Complete first-exit atlas](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/first_exit_atlas.json)
-- [Unified independent verifier](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/verify_all.py)
-- [Completed full verification transcript](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/FULL_VERIFICATION.txt)
-- [Manifest](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/MANIFEST.sha256)
-- [Strongest endpoint H table](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/strongest_endpoint_H.csv)
-- [Strongest endpoint V table](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/strongest_endpoint_V.csv)
-- [Watertight OBJ](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/strongest_endpoint.obj)
-- [Watertight STL](sandbox:/mnt/data/Steady_Willow_49_first_exit_atlas/strongest_endpoint.stl)
+- Complete self-contained bundle (`Steady_Willow_49_first_exit_atlas.zip`)
+- Bundle SHA-256 (`Steady_Willow_49_first_exit_atlas.zip.sha256`)
+- Complete Markdown handoff (`RESULT.md`)
+- Global machine-readable certificate (`GLOBAL_CERTIFICATE.json`)
+- Complete first-exit atlas (`first_exit_atlas.json`)
+- Unified independent verifier (`verify_all.py`)
+- Completed full verification transcript (`FULL_VERIFICATION.txt`)
+- Manifest (`MANIFEST.sha256`)
+- Strongest endpoint H table (`strongest_endpoint_H.csv`)
+- Strongest endpoint V table (`strongest_endpoint_V.csv`)
+- Watertight OBJ (`strongest_endpoint.obj`)
+- Watertight STL (`strongest_endpoint.stl`)
 
 Bundle SHA-256:
 

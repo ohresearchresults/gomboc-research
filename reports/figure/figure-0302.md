@@ -10,7 +10,7 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 **USED exact nonwinner.** The first mechanics-changing incidence topology requested from immutable parent `figure-0299` (SHA-256 `2c28fe4781353da1c2fdd2b85cb4f28fc41e59870e8fdbfcfd291e002831fd72`) is realized, reconstructed from scratch, and exactly delimited. The old stable plane and edge are genuinely removed, the replacement band has full three-dimensional moment response, and a later stable–saddle pair cancels with no replacement birth. Nevertheless the fixed-parent two-apex topology cannot have zero ordinary first moment: an exact rational capacity certificate gives `My>1/4` for every realization in the cell. The promoted endpoint is strict `(1,1,0)` only relative to the inherited mechanical centre; at its own exact centroid it is `(6,9,13)`, so it is not a homogeneous polyhedral Gömböc.
 
-The parent result establishes the preceding AX10 mass-capacity obstruction and names this two-apex turnover as the first nonrepeating topology. :contentReference[oaicite:0]{index=0} Its literal robust split2 source has stable `[AT,AY,AX]`, unique unstable `C`, and no saddle relative to a free mechanical centre, but its ordinary centroid is far away. :contentReference[oaicite:1]{index=1}
+The parent result establishes the preceding AX10 mass-capacity obstruction and names this two-apex turnover as the first nonrepeating topology. Its literal robust split2 source has stable `[AT,AY,AX]`, unique unstable `C`, and no saddle relative to a free mechanical centre, but its ordinary centroid is far away.
 
 ## 1. Literal exact source
 
@@ -369,21 +369,21 @@ KQ73_AX12_PACKAGE_ALL_PASS.
 
 Artifacts:
 
-- [Complete package](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER.zip), 96,066 bytes, SHA-256 `a16e71337fa99566e6c0957e48d862f300d820860de75290dc9e0cb790a27ad7`.
-- [Archive sidecar](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER.zip.sha256).
-- [Standalone handoff](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/RESEARCH_HANDOFF.md), SHA-256 `b31680684204808a717ee07328462e0f7c8d4e580a3ca0988518713ea6758013`.
-- [Exact generator](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/source/generator.json), SHA-256 `e8d6927fcfd382c721621fad114cef9c9f1993a29407f10843597e9f6e5e2333`.
-- [Exact mechanical-centre V](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/data/V_mechanical_exact.tsv) / [exact own-centred V](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/data/V_own_centered_exact.tsv).
-- [Exact mechanical-centre H](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/data/H_mechanical_exact.tsv) / [exact own-centred H](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/data/H_own_centered_exact.tsv).
-- [Parent-to-source chronology](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/certificates/parent_to_source_split_chronology.json), SHA-256 `90baf149b62c9e5e754b9d01315fa3adc86a4906041feddef9fca8d2e32d8961`.
-- [Source-to-endpoint chronology](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/certificates/equilibrium_chronology.json), SHA-256 `b80c47eb47d4cbce9215081e89b2a9ea4d144017ddaae8cf2bf5afc6bb4a69da`.
-- [Global moment obstruction](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/certificates/fixed_parent_band_moment_obstruction.json), SHA-256 `98d670af656c7bdbda6189dc7d976234462d12f951b3821d0c51df5275220af3`.
-- [Moment rank](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/certificates/moment_response_rank.json), SHA-256 `0d03b52f1178e9243c7af6d453c3c6aec745846cdc3bed13b8978e3f5fc8ff70`.
-- [Perturbation box](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/certificates/perturbation_box.json), SHA-256 `f4655f5065239281b1cfd2c3d388bcec05d9ed248b1bcff57140351a5c9ea043`.
-- [AX13 successor seed](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/certificates/next_AX13_F11_return_seed.json), SHA-256 `f9252b950e4f5cb92cc188d84193418e566f502930a966d37747f650a911a62d`.
-- [Independent verifier](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/verifier/verify_cleanroom.py), SHA-256 `642e30654d5206924081e79e34227138e6f401a382d8755d540f9460a69a15cc`.
-- [Watertight OBJ](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/mesh/body.obj) / [STL](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER/mesh/body.stl), SHA-256 `6ae69b4deff3670f3cbc86a3c78962482ac483b685f9f54f63f8875670f0753e` / `6a2f7f3bc0ee28645a7b220ddd7d3ca3d6524b0c9c2b3deba4288bcb370b87d7`.
-- [Clean replay transcript](sandbox:/mnt/data/Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER_CLEAN_EXTRACTION.log), SHA-256 `ecc62a5670d738b5440ff2863b496c19629034f31a67b10e99c9db14cdd03fac`.
+- Complete package (`Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER.zip`), 96,066 bytes, SHA-256 `a16e71337fa99566e6c0957e48d862f300d820860de75290dc9e0cb790a27ad7`.
+- Archive sidecar (`Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER.zip.sha256`).
+- Standalone handoff (`RESEARCH_HANDOFF.md`), SHA-256 `b31680684204808a717ee07328462e0f7c8d4e580a3ca0988518713ea6758013`.
+- Exact generator (`generator.json`), SHA-256 `e8d6927fcfd382c721621fad114cef9c9f1993a29407f10843597e9f6e5e2333`.
+- Exact mechanical-centre V (`V_mechanical_exact.tsv`) / exact own-centred V (`V_own_centered_exact.tsv`).
+- Exact mechanical-centre H (`H_mechanical_exact.tsv`) / exact own-centred H (`H_own_centered_exact.tsv`).
+- Parent-to-source chronology (`parent_to_source_split_chronology.json`), SHA-256 `90baf149b62c9e5e754b9d01315fa3adc86a4906041feddef9fca8d2e32d8961`.
+- Source-to-endpoint chronology (`equilibrium_chronology.json`), SHA-256 `b80c47eb47d4cbce9215081e89b2a9ea4d144017ddaae8cf2bf5afc6bb4a69da`.
+- Global moment obstruction (`fixed_parent_band_moment_obstruction.json`), SHA-256 `98d670af656c7bdbda6189dc7d976234462d12f951b3821d0c51df5275220af3`.
+- Moment rank (`moment_response_rank.json`), SHA-256 `0d03b52f1178e9243c7af6d453c3c6aec745846cdc3bed13b8978e3f5fc8ff70`.
+- Perturbation box (`perturbation_box.json`), SHA-256 `f4655f5065239281b1cfd2c3d388bcec05d9ed248b1bcff57140351a5c9ea043`.
+- AX13 successor seed (`next_AX13_F11_return_seed.json`), SHA-256 `f9252b950e4f5cb92cc188d84193418e566f502930a966d37747f650a911a62d`.
+- Independent verifier (`verify_cleanroom.py`), SHA-256 `642e30654d5206924081e79e34227138e6f401a382d8755d540f9460a69a15cc`.
+- Watertight OBJ (`body.obj`) / STL (`body.stl`), SHA-256 `6ae69b4deff3670f3cbc86a3c78962482ac483b685f9f54f63f8875670f0753e` / `6a2f7f3bc0ee28645a7b220ddd7d3ca3d6524b0c9c2b3deba4288bcb370b87d7`.
+- Clean replay transcript (`Keen_Quartz_73_AX12_target_turnover_EXACT_NONWINNER_CLEAN_EXTRACTION.log`), SHA-256 `ecc62a5670d738b5440ff2863b496c19629034f31a67b10e99c9db14cdd03fac`.
 
 ## Bottom line
 

@@ -14,7 +14,7 @@ All three have the actual maximal complex **V178/E313/F137, C=2E=626**, with all
 
 This improves arithmetic, **not C below626**. The common centred denominator falls from43316 bits for the assigned G8 parent to24734 bits, a **42.90% reduction**. The stronger endpoint uses25069 bits, a42.13% reduction.
 
-The source checkpoint is the literal **COORD_BQ_RL_DOUBLE_C626_OWN110_G8**, generator9661 bytes, SHA256 `62603f3208113ddca3d8a5196e7a4085c67f22c7ee00e7118cfaeb0372c1b66b`. Its accepted status, both merger owners and full recovery were already established by the coordinator; I did not restart its full audit merely out of distrust. Its literal generator is included below. The earlier evidence parent remains **figure-0359**, tagged SHA256 `5f57852087082e58a87bf09e4674cddc11627f384f7ac9124c0c8102d12d1d29`: that parent is BQ13's distinct C628 physical merger, not the coordinator's C626 body. Its complete source capsule was decoded with its stated source-map checksums. No mathematical definition conflict was found. The coordinator's added contact is not assigned an invented worker-parent ID. :contentReference[oaicite:0]{index=0}
+The source checkpoint is the literal **COORD_BQ_RL_DOUBLE_C626_OWN110_G8**, generator9661 bytes, SHA256 `62603f3208113ddca3d8a5196e7a4085c67f22c7ee00e7118cfaeb0372c1b66b`. Its accepted status, both merger owners and full recovery were already established by the coordinator; I did not restart its full audit merely out of distrust. Its literal generator is included below. The earlier evidence parent remains **figure-0359**, tagged SHA256 `5f57852087082e58a87bf09e4674cddc11627f384f7ac9124c0c8102d12d1d29`: that parent is BQ13's distinct C628 physical merger, not the coordinator's C626 body. Its complete source capsule was decoded with its stated source-map checksums. No mathematical definition conflict was found. The coordinator's added contact is not assigned an invented worker-parent ID.
 
 ## 2. Actual fraction costs and certified endpoint clearances
 
@@ -243,7 +243,7 @@ OPENBLAS_NUM_THREADS=1 python -B fresh-source/simplify56.py --source fresh-sourc
 OPENBLAS_NUM_THREADS=1 python -B fresh-source/simplify56.py --source fresh-source/PARENT_G8.json --faces fresh-source/FACES.json --eps 1e-7 --out nonwinner-e7
 ```
 
-Supplemental convenience archives, not the only source of any endpoint: [source-only archive](sandbox:/mnt/data/ATLAS56_C626_ARITHMETIC_SOURCE_ONLY.zip) and [completed verification/reproposal bundle](sandbox:/mnt/data/ATLAS56_C626_ARITHMETIC_VERIFIED_FULL.zip). The source-only ZIP has68759 bytes, SHA256 `edcf31199a437f9e429311689c71ac72321881c62cad427e0cbc4c26d0587697`; its contents were read back and checked. The full bundle has640715 bytes, SHA256 `3a0358764e2c897ef15b5afae05c432ea95edcc14c52376567d0fe86507b9fd1`, and includes the complete handoff, exact outputs, observed logs and separately labelled numerical nonwinners.
+Supplemental convenience archives, not the only source of any endpoint: source-only archive (`ATLAS56_C626_ARITHMETIC_SOURCE_ONLY.zip`) and completed verification/reproposal bundle (`ATLAS56_C626_ARITHMETIC_VERIFIED_FULL.zip`). The source-only ZIP has68759 bytes, SHA256 `edcf31199a437f9e429311689c71ac72321881c62cad427e0cbc4c26d0587697`; its contents were read back and checked. The full bundle has640715 bytes, SHA256 `3a0358764e2c897ef15b5afae05c432ea95edcc14c52376567d0fe86507b9fd1`, and includes the complete handoff, exact outputs, observed logs and separately labelled numerical nonwinners.
 
 ### Complete capsule
 

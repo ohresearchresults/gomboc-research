@@ -231,11 +231,11 @@ A concrete minimal continuation is a half-turn-paired four-star or `2x2` equator
 
 The complete bundle contains the exact generator, parameter modes, interval certificates, full irredundant H/V data, maximal-face cycles, every true edge, full normal-cone ledgers, volume/moment data, verifier, and OBJ/STL exports:
 
-[Download the complete exact finite compensator bundle](sandbox:/mnt/data/slot9_distributed_compensator.zip)
+Download the complete exact finite compensator bundle (`slot9_distributed_compensator.zip`)
 
-[Read the full research handoff](sandbox:/mnt/data/slot9_distributed_compensator/research_handoff.md)
+Read the full research handoff (`research_handoff.md`)
 
-[Download the bundle SHA-256 record](sandbox:/mnt/data/slot9_distributed_compensator.zip.sha256)
+Download the bundle SHA-256 record (`slot9_distributed_compensator.zip.sha256`)
 
 Bundle SHA-256:
 

@@ -8,7 +8,7 @@ AI research report · 2026-09-15 UTC · [Export notes](../../catalog/coverage.md
 
 ## 1. Attained result and limits
 
-**No strict110/weak000 endpoint was obtained.** The strongest new body is **D16_ONE_GRID7**, a rational, uniformly filled, own-volume-centred convex polyhedron with **V174/E306/F134, C612, strict(1,2,1), weak(0,0,0)**. Its remaining extra unstable–saddle pair is explicit. This improves the complexity of our reconstructible nonwinner from C618 to C612; it does **not** improve the accepted strict110 level C628. The latest supplied synthesis identifies that benchmark and distinguishes this basin from the other workers’ branches. :contentReference[oaicite:0]{index=0}
+**No strict110/weak000 endpoint was obtained.** The strongest new body is **D16_ONE_GRID7**, a rational, uniformly filled, own-volume-centred convex polyhedron with **V174/E306/F134, C612, strict(1,2,1), weak(0,0,0)**. Its remaining extra unstable–saddle pair is explicit. This improves the complexity of our reconstructible nonwinner from C618 to C612; it does **not** improve the accepted strict110 level C628. The latest supplied synthesis identifies that benchmark and distinguishes this basin from the other workers’ branches.
 
 A second useful endpoint is **MARGIN2_GRID6**, C616/own121/weak000, with a smaller common centred denominator than D16_ONE_GRID7. Both were recovered from the literal capsule below in fresh directories and passed complete independent exact A/B, third centred-mass integration, and source-only cold replay. The original146 cancellation is preserved exactly in both. The subsequent cancellation of the deletion16-induced88 basin is also exact in D16_ONE_GRID7.
 
@@ -210,6 +210,6 @@ for name, text in sources.items():
 print('FINCH2_SOURCE_RECOVERED', len(sources))
 ```
 
-Supplemental artifacts: [24-file source ZIP](sandbox:/mnt/data/FINCH2_SOURCE.zip), [full experimental archive, reports and completed cold receipts](sandbox:/mnt/data/FINCH2_RESEARCH.zip), [complete JSON handoff](sandbox:/mnt/data/FINCH2_RESULT.json). These links are not needed for recovery.
+Supplemental artifacts: 24-file source ZIP (`FINCH2_SOURCE.zip`), full experimental archive, reports and completed cold receipts (`FINCH2_RESEARCH.zip`), complete JSON handoff (`FINCH2_RESULT.json`). These links are not needed for recovery.
 
 **Final status: exact, cold-replayed C612/121/weak000 and C616/121/weak000; original146 cancellation retained, deletion16-induced88 pair cancelled; remaining82–85 pair not eliminated; no strict110 improvement below628 and no global exclusion.**

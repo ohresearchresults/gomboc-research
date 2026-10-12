@@ -196,7 +196,7 @@ Optional replay marker: `ALL30_TWO_FAN_LITERAL_COEFFICIENTS_NUMERIC_REPLAY_MATCH
 
 Recovery source: **29,979 bytes**, SHA-256 `a4cf24d6b5f83273031fa7ec6555eae487448583d04e8b32941550ee0be4f266`. Decoded complete source package: **52,359 bytes**, SHA-256 `ac1e64ad86f28c4dc53f19374cf0cbb7f8348d1e861c8e7d777d74596e8ef2a0`. Source manifest: **686 bytes**, SHA-256 `73b3ada69594b8f0835291f278e35cfbd251f54ea7b6199edd51250febab6538`. Individual source pins are enforced inside the capsule. Its enhanced standalone integer verifier is29,302bytes, SHA-256 `0948793539aa8b2174cb4ad412d76b7939f97059c238bb275a96416644b6ff86`; it includes the complete literal coefficients, the two independent path enumerations, the two exact definiteness checks, and the scalar identity checks.
 
-Supplementary ready-to-run bundle: [C32_CANONICAL260_U_GE_2_TWO_ACTUAL_FANS_V1.zip](sandbox:/workspace/scratch/4946fd71afc5/C32_CANONICAL260_U_GE_2_TWO_ACTUAL_FANS_V1.zip). It also contains the pinned parent checkpoint for convenient frontier replay. The inline capsule supplies the complete new proof and deterministic successor recipe without requiring the bundle.
+Supplementary ready-to-run bundle: C32_CANONICAL260_U_GE_2_TWO_ACTUAL_FANS_V1.zip. It also contains the pinned parent checkpoint for convenient frontier replay. The inline capsule supplies the complete new proof and deterministic successor recipe without requiring the bundle.
 
 ```python
 """C32_CANONICAL260_UNCONDITIONAL_U_GE_2_TWO_ACTUAL_FANS_V1.

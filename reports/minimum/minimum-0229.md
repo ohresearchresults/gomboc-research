@@ -18,7 +18,7 @@ More precisely, the theorem excludes this packet for every reciprocal metric sat
 
 The result is genuinely joint at the packet level: at an exact body in this cylinder, the two primal signs and the polar sign are separately feasible under strictly capped independent metrics lying inside the recorded cofactor blind cone. Conversely, an explicit uncapped **same-inverse** metric realizes all three signs, both on a parallel body and on a newly refilled nonparallel body. Thus neither a one-sided packet obstruction nor an all-SPD packet claim describes the result.
 
-The source authority is literal parent `minimum-0226`, SHA-256 `cf8ddaa5aae98ac90b2315d8789415d1d8766915cfed139d27a69ac1201a3539`, and the supplied two-part `RECIPROCAL_ONE_CURVE_HULL_V1`. The parent supplies the actual chart and true incidence; the new recovery below has no computational dependency on its implementation. No necessary exact input is missing. The supplied exclusions and branch residual are recorded explicitly. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The source authority is literal parent `minimum-0226`, SHA-256 `cf8ddaa5aae98ac90b2315d8789415d1d8766915cfed139d27a69ac1201a3539`, and the supplied two-part `RECIPROCAL_ONE_CURVE_HULL_V1`. The parent supplies the actual chart and true incidence; the new recovery below has no computational dependency on its implementation. No necessary exact input is missing. The supplied exclusions and branch residual are recorded explicitly.
 
 ## 2. The complete actual shape cylinder
 
@@ -74,7 +74,7 @@ The 17 true edges are
 
 Thus all three packet arrows are genuine: `28` and `34` are primal edges, and F8/F6 meet at `79`. No integration diagonal or projected eight-corner surrogate is used.
 
-For clarity about new coverage, `p≥79/100`, `1-c≥29/100`, and `1-d≥59/100`. The whole cylinder is outside the corner-tenth sector and outside the literal old fixed-slope relation `c=1-p`. Its `rho=7` boundary overlaps the earlier expansion theorem and is not counted as new; `rho<7` is the substantive residual range. The theorem includes all affine images with their carried metric/inverse and actual moments. It does not assert that no other historical certificate could overlap a portion of this cylinder. :contentReference[oaicite:2]{index=2}
+For clarity about new coverage, `p≥79/100`, `1-c≥29/100`, and `1-d≥59/100`. The whole cylinder is outside the corner-tenth sector and outside the literal old fixed-slope relation `c=1-p`. Its `rho=7` boundary overlaps the earlier expansion theorem and is not counted as new; `rho<7` is the substantive residual range. The theorem includes all affine images with their carried metric/inverse and actual moments. It does not assert that no other historical certificate could overlap a portion of this cylinder.
 
 ### Actual moment reconstruction
 
@@ -114,7 +114,7 @@ h1/h2 ≤ Pcap = 7024915/1000000,
 h2/h3 ≤ Qcap = 6832329/1000000.
 ```
 
-These are used only as a joint S1/U1 necessary restriction, never as an U1-only fact. The supplied finite-height statement and exact reciprocal hull retain this distinction. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+These are used only as a joint S1/U1 necessary restriction, never as an U1-only fact. The supplied finite-height statement and exact reciprocal hull retain this distinction.
 
 There are explicitly specified, piecewise-linear nonnegative weights `lambda(rho),mu(rho)` such that throughout the entire eleven-parameter cylinder,
 
@@ -178,7 +178,7 @@ Pxi=xi Qcap+Qcap+1,
 Qxi=xi Qcap+xi+1.
 ```
 
-This is the **entire asymmetric reciprocal hull**, not a single asymmetric corner approximation. Its three-effect dual and square-root-free covariance congruence are the accepted inputs. :contentReference[oaicite:5]{index=5}
+This is the **entire asymmetric reciprocal hull**, not a single asymmetric corner approximation. Its three-effect dual and square-root-free covariance congruence are the accepted inputs.
 
 ### Reusable moving-covariance witness transport
 
@@ -296,7 +296,7 @@ For `T=tr(MN)` and `U=tr(MNMN)`,
  >0.
 ```
 
-The positive first quantity places the pair inside the recorded aggregate/cofactor blind cone; the second confirms that it is not a scalar reciprocal pair. The supplied blind-cone theorem, rather than an asserted body construction from formal rows, is the relevant comparison. :contentReference[oaicite:6]{index=6}
+The positive first quantity places the pair inside the recorded aggregate/cofactor blind cone; the second confirms that it is not a scalar reciprocal pair. The supplied blind-cone theorem, rather than an asserted body construction from formal rows, is the relevant comparison.
 
 **The independent pair has no physical census.** The verifier instead computes two distinct, legitimate physical inverse-pair controls on this same body:
 
@@ -374,7 +374,7 @@ The independent capped control and the uncapped common-inverse controls were ret
 
 The surviving task is now sharply defined: force this packet, its reflection, or a covering collection of analogous genuine packets from the remaining common-inverse orientations. The top facet has three possible exits, so varying its actual exit while retaining outside-facet primal obligations is a concrete next step. The moving-covariance witness transport can also be reused to widen these cells or treat other nonparallel regions without freezing the COM.
 
-No whole heptagon–triangle S1/U1 exclusion, actual U1/S1 candidate, weak110 candidate or attaining construction is claimed. The accepted interval remains **34≤C_min≤622**; the lower prohibition and an attaining example remain separate. :contentReference[oaicite:7]{index=7}
+No whole heptagon–triangle S1/U1 exclusion, actual U1/S1 candidate, weak110 candidate or attaining construction is claimed. The accepted interval remains **34≤C_min≤622**; the lower prohibition and an attaining example remain separate.
 
 ## 9. Complete recovery and observed verification
 
@@ -425,7 +425,7 @@ SELECTED_PAIR_PACKET_CENSUS_PASS 4879 13159 16 65
 HEPTAGON_TRIANGLE_2P1Q_RECOVERY_PASS 90063 177888e8a36e9ac5a472b84c8b12201237dc25a12f8e25ff32fd769747dc1da1
 ```
 
-Supplementary convenience copies: [readable exact verifier](sandbox:/mnt/data/heptagon_reciprocal.py), [complete exact report](sandbox:/mnt/data/heptagon_recovery/heptagon_reciprocal.json), [recovery bundle](sandbox:/mnt/data/heptagon_reciprocal_recovery.zip). The literal capsule below is sufficient without those links.
+Supplementary convenience copies: readable exact verifier (`heptagon_reciprocal.py`), complete exact report (`heptagon_reciprocal.json`), recovery bundle (`heptagon_reciprocal_recovery.zip`). The literal capsule below is sufficient without those links.
 
 ### Complete lossless source capsule
 

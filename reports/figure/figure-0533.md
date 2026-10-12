@@ -544,4 +544,4 @@ Selected exact receipts; the decoded `EXPECTED65.json` contains all fifty-five:
 | comet65_sources.zip | 1179951 | `6b9b32c81f5e48eabdb8278723a4cf4d7fa939d93be8ecf6b26a2143c0e31ceb` |
 | comet65_audits.zip | 288370840 | `572ea45bf6468639bfef1f094b779c71ec24c1fa8a84513ee87916e43cca5de0` |
 
-Convenience artifacts: [standalone exact recovery](sandbox:/mnt/data/COMET65_RECOVERY.py), [complete sources and historical checkpoints](sandbox:/mnt/data/comet65_sources.zip), and [all full exact audits and interfaces](sandbox:/mnt/data/comet65_audits.zip). The inline capsule, not these links, carries the promoted constructions' recovery data.
+Convenience artifacts: standalone exact recovery (`COMET65_RECOVERY.py`), complete sources and historical checkpoints (`comet65_sources.zip`), and all full exact audits and interfaces (`comet65_audits.zip`). The inline capsule, not these links, carries the promoted constructions' recovery data.

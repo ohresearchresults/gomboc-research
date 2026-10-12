@@ -8,9 +8,9 @@ AI research report · 2026-09-02 UTC
 
 ## Determination
 
-**Exact finite NONWINNER.** The requested three-row hexahedral/octahedral double-cap was realized, but no homogeneous convex polyhedral Gömböc was obtained. The target requires a materialized uniform-density body at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual incidence and full-cone verification; auxiliary-centre, smooth, wall, near-solution, or unexpanded-generator objects are excluded. :contentReference[oaicite:0]{index=0}
+**Exact finite NONWINNER.** The requested three-row hexahedral/octahedral double-cap was realized, but no homogeneous convex polyhedral Gömböc was obtained. The target requires a materialized uniform-density body at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual incidence and full-cone verification; auxiliary-centre, smooth, wall, near-solution, or unexpanded-generator objects are excluded.
 
-The journal’s accepted predecessor is P9-XG7 with 15 supplied/13 active rows, primal `(22,33,13)`, own-centred `(2,2,2)`, and overlapping forcing edges `X2-Y1`,`X3-Y1`; it explicitly identifies the three-row double-cap as the next unclassified topology. :contentReference[oaicite:1]{index=1}
+The journal’s accepted predecessor is P9-XG7 with 15 supplied/13 active rows, primal `(22,33,13)`, own-centred `(2,2,2)`, and overlapping forcing edges `X2-Y1`,`X3-Y1`; it explicitly identifies the three-row double-cap as the next unclassified topology.
 
 ## What changed
 
@@ -189,21 +189,21 @@ The smallest genuinely new successor is a **four-row closed octahedral/hexahedra
 
 The clean-room verifier imports neither generator nor exact-core code and ends `P9_XG8_INDEPENDENT_CLEAN_ROOM_PASS`. OBJ has `18/27/11`, Euler two, and every polygon edge twice. STL has 32 triangles and every triangle edge twice. Clean extraction ends `ALL P9-XG8 VIVID ATLAS 32 VERIFIERS PASS`.
 
-- [Complete exact package](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER.zip)
-- [Archive SHA-256](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER.zip.sha256)
-- [Complete handoff](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/RESEARCH_HANDOFF.md)
-- [Exact rows](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/input_rows_exact.json)
-- [Complete exact ledger](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/p9_xg8_double_cap_exact.json)
-- [Exact mass/centroid](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/exact_mass_centroid.json)
-- [Shared-event certificate](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/shared_event_exact_certificate.json)
-- [Deletion certificate](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/inherited_component_deletion_certificate.json)
-- [Obstruction certificate](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/component_obstruction_certificate.json)
-- [Perturbation certificate](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/perturbation_box_certificate.json)
-- [Independent verifier](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/verify_independent.py)
-- [Verification report](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/independent_verification_report.json)
-- [OBJ](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/p9_xg8_double_cap_centered.obj)
-- [STL](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER/p9_xg8_double_cap_centered.stl)
-- [Clean verification transcript](sandbox:/mnt/data/P9_XG8_VIVID_ATLAS_32_CLEAN_VERIFY.txt)
+- Complete exact package (`P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER.zip`)
+- Archive SHA-256 (`P9_XG8_VIVID_ATLAS_32_EXACT_NONWINNER.zip.sha256`)
+- Complete handoff (`RESEARCH_HANDOFF.md`)
+- Exact rows (`input_rows_exact.json`)
+- Complete exact ledger (`p9_xg8_double_cap_exact.json`)
+- Exact mass/centroid (`exact_mass_centroid.json`)
+- Shared-event certificate (`shared_event_exact_certificate.json`)
+- Deletion certificate (`inherited_component_deletion_certificate.json`)
+- Obstruction certificate (`component_obstruction_certificate.json`)
+- Perturbation certificate (`perturbation_box_certificate.json`)
+- Independent verifier (`verify_independent.py`)
+- Verification report (`independent_verification_report.json`)
+- OBJ (`p9_xg8_double_cap_centered.obj`)
+- STL (`p9_xg8_double_cap_centered.stl`)
+- Clean verification transcript (`P9_XG8_VIVID_ATLAS_32_CLEAN_VERIFY.txt`)
 
 Archive SHA-256: `c5387e767c7cd7a26979caab789c5e21be8832f7dcf1560af6d39e3b9cdc53ab`.
 

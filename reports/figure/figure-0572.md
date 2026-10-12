@@ -16,9 +16,9 @@ A further exact descendant, **SQ74_STELLAR3_G22**, has **V141/E219/F80, strict12
 
 I read the complete supplied assignment fragment [0,10682), the entire 437-line shared/branch notebook, and the entire archived coordinator output, including its literal Python capsule. The mounted files match the manifest: notebook **129757 bytes**, SHA-256 **e0069c0b2cbf880bca688d16156840f7e79a76cf2027532252ab490da0d1e624**; archived output **25828 bytes**, SHA-256 **8627e922dab959ff1160d975e4b88938098af2319c3231c6e2709be4139644af**. No supplied dependency remains unread. Historical source gaps inside the notebook were not silently filled.
 
-The computational parent is exactly **J88_PROJECTED_C474_G14**, input **5483 bytes**, SHA-256 **93b20d84d6167fff91687276bbe348f4e91aeb16b037ca72effececcc5674335**. I used the author's own121 result as the starting premise and reconstructed its geometry for new calculations, not as a substitute verification assignment. The literal source, rather than historical vertex labels, determines all indices. fileciteturn0file0L3-L3
+The computational parent is exactly **J88_PROJECTED_C474_G14**, input **5483 bytes**, SHA-256 **93b20d84d6167fff91687276bbe348f4e91aeb16b037ca72effececcc5674335**. I used the author's own121 result as the starting premise and reconstructed its geometry for new calculations, not as a substitute verification assignment. The literal source, rather than historical vertex labels, determines all indices.
 
-The 19-unit J88H numerical workspace, FULL76, and the exact C622 construction were not supplied and were not used. The numerical H-geometry and support-repair implementation here is complete and newly written from the literal planes and stated mathematics. No research connector, archive lookup, scheduler, or journal write was used. The finite-support branch remains distinct from the coordinator's continuous independent-normal optimizer. fileciteturn0file1L415-L429
+The 19-unit J88H numerical workspace, FULL76, and the exact C622 construction were not supplied and were not used. The numerical H-geometry and support-repair implementation here is complete and newly written from the literal planes and stated mathematics. No research connector, archive lookup, scheduler, or journal write was used. The finite-support branch remains distinct from the coordinator's continuous independent-normal optimizer.
 
 ## Exact constructions
 
@@ -152,7 +152,7 @@ C414 INPUT: **4987 bytes / 4815563894fc5e3d1e9aa5d260bbb828f5956a54a2cac4ea66ba7
 
 After extraction, numerical modes are `delete`, `greedy`, `merge`, `rootmerge`, `rootsweep`, `port`, `safe`, `chain`, `cutrepair`, `scan`, `refscan`, and `freeze`. Example: `OPENBLAS_NUM_THREADS=1 python SQ74_NUMERICAL_METHODS.py greedy`. `cutrepair` uses the `safe` mode's generated safe_cuts.json. Resume-aware modes use local state; use a new working directory for fresh trials. The full planned grids are preserved, so finishing an interrupted grid is new computation, not evidence that it was already completed.
 
-Supplementary copies: [complete source, exact outputs, and numerical evidence archive](sandbox:/mnt/data/SQ74_FINITE_SURGERY_HANDOFF.zip), [readable handoff with all three uncompressed source units](sandbox:/mnt/data/sq74/SQ74_RESULT_MARKDOWN.md). The reconstruction does not depend on these links.
+Supplementary copies: complete source, exact outputs, and numerical evidence archive (`SQ74_FINITE_SURGERY_HANDOFF.zip`), readable handoff with all three uncompressed source units (`SQ74_RESULT_MARKDOWN.md`). The reconstruction does not depend on these links.
 
 ```python
 import base64,hashlib,json,lzma,runpy,sys

@@ -8,11 +8,11 @@ AI research report · 2026-09-01 UTC · [Export notes](../../catalog/coverage.md
 
 ## Disposition
 
-**NONWINNER. No homogeneous convex polyhedral Gömböc was obtained.** The acceptance gate remains a literal finite uniform-density body at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete actual H/V/incidence, exhaustive face/vertex/four-component-edge mechanics, independent verification, and matching meshes. :contentReference[oaicite:0]{index=0}
+**NONWINNER. No homogeneous convex polyhedral Gömböc was obtained.** The acceptance gate remains a literal finite uniform-density body at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete actual H/V/incidence, exhaustive face/vertex/four-component-edge mechanics, independent verification, and matching meshes.
 
-This continuation does complete the next geometric step left open in the journal: the exactified `AQ32-CR3D580` outlet is replaced by one nonannular, finite-thickness, genuinely three-dimensional event spanning all four residual stable–saddle channel combinations. The result `AQ32-ALL-OUTLET-C48` is an exact-dyadic own-centred endpoint, but its class is `(2,2,2)`, not `(1,1,0)`. The old packet is destroyed and a new compact Euler-neutral packet is born at the shared terminal. This is therefore a materialized topology advance, not a winner. The journal explicitly identified the all-outlet volumetric cell as this branch’s next frontier. :contentReference[oaicite:1]{index=1}
+This continuation does complete the next geometric step left open in the journal: the exactified `AQ32-CR3D580` outlet is replaced by one nonannular, finite-thickness, genuinely three-dimensional event spanning all four residual stable–saddle channel combinations. The result `AQ32-ALL-OUTLET-C48` is an exact-dyadic own-centred endpoint, but its class is `(2,2,2)`, not `(1,1,0)`. The old packet is destroyed and a new compact Euler-neutral packet is born at the shared terminal. This is therefore a materialized topology advance, not a winner. The journal explicitly identified the all-outlet volumetric cell as this branch’s next frontier.
 
-**Artifacts:** [complete exact archive](sandbox:/mnt/data/AQ32_ALL_OUTLET_C48_EXACT_NONWINNER.zip) · [standalone mathematical handoff](sandbox:/mnt/data/AQ32_ALL_OUTLET_C48_EXACT_NONWINNER/AQ32_ALL_OUTLET_C48_complete_handoff.md)
+**Artifacts:** complete exact archive (`AQ32_ALL_OUTLET_C48_EXACT_NONWINNER.zip`) · standalone mathematical handoff (`AQ32_ALL_OUTLET_C48_complete_handoff.md`)
 
 ```text
 archive SHA-256  7492e86c39a0c6d65426ef010116105c2a4644a6fcd55a24dcaa59c6cfdcc84f

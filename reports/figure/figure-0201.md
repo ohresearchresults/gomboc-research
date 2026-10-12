@@ -8,25 +8,25 @@ AI research report · 2026-09-02 UTC
 
 ## Disposition
 
-**EXACT NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained. The strongest realized continuation is the rational, uniform-density, ordinary-own-centred polyhedron `J47_D12_terminal_post8`, with irredundant `(H,V,E)=(8,12,18)` and exhaustive strict class `(S,U,H)=(2,2,2)`. The accepted global benchmark therefore remains the exact M42 `(2,1,1)` near-object. :contentReference[oaicite:0]{index=0}
+**EXACT NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained. The strongest realized continuation is the rational, uniform-density, ordinary-own-centred polyhedron `J47_D12_terminal_post8`, with irredundant `(H,V,E)=(8,12,18)` and exhaustive strict class `(S,U,H)=(2,2,2)`. The accepted global benchmark therefore remains the exact M42 `(2,1,1)` near-object.
 
 This work nevertheless leaves the serial-sheet regime. It realizes the smallest convex higher-valence **boundary incidence** available in the reopened J45/J46 chart—a 12-triangle D12 base concurrence—and proves that this incidence transfers rather than cancels the full residual packet. It also isolates the first remaining nonserial successor: a genuinely communicating shared terminal **volume** carrying one S–H death and one U–H death at the same incidence event.
 
 ## Reproducible artifacts
 
-- [Exact archive: source, H/V/E tables, certificates, transition atlases, verifier, OBJ and STL](sandbox:/mnt/data/Nimble_Comet_79_J47_D12_exact_NONWINNER.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Nimble_Comet_79_J47_D12_exact_NONWINNER.zip.sha256)
-- [Expanded report](sandbox:/mnt/data/Nimble_Comet_79_J47_D12_exact_NONWINNER_RESULT.md)
-- [Deterministic exact endpoint source](sandbox:/mnt/data/J47_D12_terminal_post8_exact_source.json)
-- Exact tables: [active H](sandbox:/mnt/data/J47_H_active_exact.tsv.gz), [all supplied H](sandbox:/mnt/data/J47_H_supplied_exact.tsv.gz), [V](sandbox:/mnt/data/J47_V_exact.tsv.gz), [face cycles](sandbox:/mnt/data/J47_maximal_face_cycles.tsv.gz), [true edges](sandbox:/mnt/data/J47_true_edges.tsv), [nonincidence ledger](sandbox:/mnt/data/J47_nonincident_per_row.tsv.gz), [full mechanics ledger](sandbox:/mnt/data/J47_mechanical_ledgers_point.json.gz)
-- Meshes: [watertight OBJ](sandbox:/mnt/data/J47_D12_terminal_post8.obj), [watertight binary STL](sandbox:/mnt/data/J47_D12_terminal_post8.stl)
-- Verifiers: [main exact verifier](sandbox:/mnt/data/verify_nimble_comet79.py), [parallel full-atlas verifier](sandbox:/mnt/data/verify_full_atlas_parallel.py)
+- Exact archive: source, H/V/E tables, certificates, transition atlases, verifier, OBJ and STL (`Nimble_Comet_79_J47_D12_exact_NONWINNER.zip`)
+- Archive SHA-256 receipt (`Nimble_Comet_79_J47_D12_exact_NONWINNER.zip.sha256`)
+- Expanded report (`Nimble_Comet_79_J47_D12_exact_NONWINNER_RESULT.md`)
+- Deterministic exact endpoint source (`J47_D12_terminal_post8_exact_source.json`)
+- Exact tables: active H (`J47_H_active_exact.tsv.gz`), all supplied H (`J47_H_supplied_exact.tsv.gz`), V (`J47_V_exact.tsv.gz`), face cycles (`J47_maximal_face_cycles.tsv.gz`), true edges (`J47_true_edges.tsv`), nonincidence ledger (`J47_nonincident_per_row.tsv.gz`), full mechanics ledger (`J47_mechanical_ledgers_point.json.gz`)
+- Meshes: watertight OBJ (`J47_D12_terminal_post8.obj`), watertight binary STL (`J47_D12_terminal_post8.stl`)
+- Verifiers: main exact verifier (`verify_nimble_comet79.py`), parallel full-atlas verifier (`verify_full_atlas_parallel.py`)
 
 Archive SHA-256: `90d44db112428f35ab134bfbb71b3baf1a5380f0d419396bd496f29e04cdffca`. A fresh extraction passed `sha256sum --quiet -c MANIFEST.sha256`; the main independent verifier passed with `NIMBLE_COMET79_ALL_INDEPENDENT_CHECKS_PASS`.
 
 ## Branch state and change from the journal
 
-The input state was exact `J45_two_sheet_terminal13`, `(H,V,E)=(13,22,33)`, class `(2,2,2)`, with forcing edges `(2463,2490)` and `(2475,2481)`, followed by exact `J46_double_circuit_cell9`, `(9,14,21)`, class `(2,2,2)`. J46 genuinely removed the old forcing configuration but transferred the packet to stable rows `1160,2475`, unstable facets `(1160,2475,4137),(2453,2481,4137)`, and saddles `(0,4229),(2475,4137)`. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The input state was exact `J45_two_sheet_terminal13`, `(H,V,E)=(13,22,33)`, class `(2,2,2)`, with forcing edges `(2463,2490)` and `(2475,2481)`, followed by exact `J46_double_circuit_cell9`, `(9,14,21)`, class `(2,2,2)`. J46 genuinely removed the old forcing configuration but transferred the packet to stable rows `1160,2475`, unstable facets `(1160,2475,4137),(2453,2481,4137)`, and saddles `(0,4229),(2475,4137)`.
 
 The reopened search found:
 

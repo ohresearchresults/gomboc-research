@@ -12,7 +12,7 @@ The strongest new object is **RESERVE19_G5**: 31 vertices, **87 true edges**, 58
 
 The geometric change releases the protected root, moves 19 material vertices, retains 12 old extreme material points, and is neither an inner nor an outer modification alone. An exact realization uses **13 nontrivial halfspace cuts followed by 19 convex-hull point additions**. The final root addition alone changes an actual-mass own `(10,17,25)` body into own211. This is a finite mass-and-carrier mechanism, not a scan of reference centres.
 
-The accepted fixed-K theorem is used only with its stated scope: it excludes reference110 centres of unchanged K at `cx >= -56057/200000`, together with the retained-p30 inner-centroid bound. It is not an impossibility theorem for changed bodies. No part of that exclusion was re-proved here. :contentReference[oaicite:0]{index=0} The supplied parent is the complete 56-row `H23_CAP_RESERVE31_G5` input, not an inferred 31-row reconstruction from an unavailable archive. :contentReference[oaicite:1]{index=1}
+The accepted fixed-K theorem is used only with its stated scope: it excludes reference110 centres of unchanged K at `cx >= -56057/200000`, together with the retained-p30 inner-centroid bound. It is not an impossibility theorem for changed bodies. No part of that exclusion was re-proved here. The supplied parent is the complete 56-row `H23_CAP_RESERVE31_G5` input, not an inferred 31-row reconstruction from an unavailable archive.
 
 The exact bank contains **45 input names describing 44 different filled bodies, including the unchanged parent**: thus 43 new, nonwinning bodies. `RESERVE19_ADD19` and `RESERVE19_G5` are the one intentional geometric duplicate. All 45 inputs received the primary exact audit and the independent checks described below. Their reports contain 300 positive-bar records, counting the parent and the duplicate input name. These include nonwinning intermediate constructions and arithmetic controls, not just the best endpoint.
 
@@ -29,7 +29,7 @@ All four rows below have true `(V,E,F)=(31,87,58)`, strict own211, additional we
 
 G5 and G6 are distinct bodies, not aliases. G5 changes six material-labelled facets relative to the parent; G6 preserves the parent's material-labelled facet sets. G5's largest individual centroid-coordinate denominator has 70 bits; G6's has 85 bits. This is an explicitly defined arithmetic comparison, not a claim of a global arithmetic record.
 
-The supplied FREE_FIRST_G8 and FREE_LIVE_FULLBAR_G8 are two distinct own817 checkpoints, neither of which is a new body in this handoff. :contentReference[oaicite:2]{index=2} The correct supplied recovery authority for the latter is `[internal-source-reference]`; the obsolete unowned capsule identifiers are not dependencies here. :contentReference[oaicite:3]{index=3} The new result is not better than every supplied body on scalar persistence: its merit is the retained **one-bar, own211 census**, modest arithmetic and released material/root geometry.
+The supplied FREE_FIRST_G8 and FREE_LIVE_FULLBAR_G8 are two distinct own817 checkpoints, neither of which is a new body in this handoff. The correct supplied recovery authority for the latter is `[internal-source-reference]`; the obsolete unowned capsule identifiers are not dependencies here. The new result is not better than every supplied body on scalar persistence: its merit is the retained **one-bar, own211 census**, modest arithmetic and released material/root geometry.
 
 ### Literal RESERVE19_G5 input
 
@@ -185,7 +185,7 @@ The core and all 19 completed addition bodies have full primary and independent 
 
 ## Producing method and verification status
 
-The numerical construction moves a selected block of actual material vertices, including the old root, and recomputes filled-volume mass at every objective/constraint evaluation. It uses the supplied actual-moment/full-bar modules as complete source dependencies. :contentReference[oaicite:4]{index=4} The new `Surgery` subclass protects physical U1 and deliberately keeps both current stable carriers while forcing other faces outside their stable regions. It minimizes the sum of `log(birth/death)` over positive Q bars. Consequently this run is a **better-own211-entrance search**, not an own110 search: keeping both S guards prevents an own110 endpoint until the junior guard is released.
+The numerical construction moves a selected block of actual material vertices, including the old root, and recomputes filled-volume mass at every objective/constraint evaluation. It uses the supplied actual-moment/full-bar modules as complete source dependencies. The new `Surgery` subclass protects physical U1 and deliberately keeps both current stable carriers while forcing other faces outside their stable regions. It minimizes the sum of `log(birth/death)` over positive Q bars. Consequently this run is a **better-own211-entrance search**, not an own110 search: keeping both S guards prevents an own110 endpoint until the junior guard is released.
 
 Numerical acceptance tolerances and even successful SLSQP status are not exact certificates. The rounded bodies were re-hulled exhaustively, which is why actual facet changes and coarse failures appear in the reports.
 
@@ -265,7 +265,7 @@ Start from **the exact RESERVE19_G6 or the simpler RESERVE19_G5**, not an old re
 
 A continuation must explicitly **release the junior-S guard** in the producing program; otherwise it is still constrained to S>=2. The released material/root, the exact 30-vertex pre-root body, its three-face visibility disk, and the full finite moment ledger provide concrete geometry for that step. Endpoint audits must still test every small positive bar and all closed weak cases. None of the finite trials above establishes that such a coupled cancellation is impossible, and no own110 endpoint has been verified here.
 
-Convenience copies are the [standalone recovery program](sandbox:/mnt/data/RECOVER_RESERVE_FINITE_V1.py) and [expanded sources and exact reports](sandbox:/mnt/data/RESERVE_FINITE_V1.zip). The complete literal recovery program follows; no download or external library is required to reconstruct the exact results.
+Convenience copies are the standalone recovery program (`RECOVER_RESERVE_FINITE_V1.py`) and expanded sources and exact reports (`RESERVE_FINITE_V1.zip`). The complete literal recovery program follows; no download or external library is required to reconstruct the exact results.
 
 ## Complete executable recovery capsule
 

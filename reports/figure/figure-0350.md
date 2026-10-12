@@ -22,7 +22,7 @@ The reusable mechanism goes beyond local rank: an explicit finite cube of402 sou
 
 The supplied immutable parent `figure-0344`, SHA-256 `ad404dda4981131e5fe60474cc5ddcae4b8ac886e92812f584dbb987ff3e0a05`, was read completely. Its LYNX139/C822 geometry is distinct; its direction-normalized escape method informed the numerical chart. No LYNX139 coordinates, critical IDs or conditioning numbers were transplanted.
 
-The actual geometric seed was **COORD_FLOW_H135_C716_D1000000000**,225/358/135, strict110, weak000. Its full C746 seven-source capsule and C716 two-file replacement were decoded and hash-checked. `C716_RAW.json` is included here, SHA-256 `98c8cad8a7d66453399d487a68f49375621d42f4645e6b886d674da8c62fc31a`. The journal reports its completed independent audits and source-only executions. :contentReference[oaicite:0]{index=0}
+The actual geometric seed was **COORD_FLOW_H135_C716_D1000000000**,225/358/135, strict110, weak000. Its full C746 seven-source capsule and C716 two-file replacement were decoded and hash-checked. `C716_RAW.json` is included here, SHA-256 `98c8cad8a7d66453399d487a68f49375621d42f4645e6b886d674da8c62fc31a`. The journal reports its completed independent audits and source-only executions.
 
 The exact physical target used here is
 
@@ -118,7 +118,7 @@ The exact algebraic volume is `V*=Σ_T det(Xa(s*),Xb(s*),Xc(s*))/6`, with the co
 
 ## 5. The executed reduced mass-closed chart
 
-The assigned facet-flux identity is `J_i=dg/dq_i=-(K_i-gB_i^T)/V`, where `B_i=∫Fi x dA/|q_i|` and `K_i=∫Fi xx^T dA/|q_i|`. :contentReference[oaicite:1]{index=1} Since `K_i q_i=B_i`, one obtains
+The assigned facet-flux identity is `J_i=dg/dq_i=-(K_i-gB_i^T)/V`, where `B_i=∫Fi x dA/|q_i|` and `K_i=∫Fi xx^T dA/|q_i|`. Since `K_i q_i=B_i`, one obtains
 
 `J_i=-(I-gq_i^T)K_i/V`,
 
@@ -259,7 +259,7 @@ All17 output bindings are in EXPECTED.json. The fresh source-only execution matc
 
 Its4712-byte transcript has SHA-256 `b70d7f76b0ca21c17da543fbfda2231ea054b7f5565748462fbfd87574e6f469`. No pending check is counted.
 
-[Compact complete source and cold transcript](sandbox:/mnt/data/QW83_MASS_C662_SOURCE.zip):76196bytes, SHA-256 `2e775f24b3372e7598ced41bce84f3ce14a36f823a98d6e1a109cc853046cc59`. [Full exact audit/certificate archive](sandbox:/mnt/data/QW83_MASS_C662_EXACT.zip):141745755bytes, SHA-256 `52377003c10cc41850f3798a4c5f15169c2b4f31a7acac0e814d3d9b11040c80`,38 manifest payloads read back and hashed. [Discovery programs, literal states and logs](sandbox:/mnt/data/QW83_MASS_C662_RESEARCH.zip):464357bytes, SHA-256 `042a426d8fffe07d92d3f33c0ed043e6d20483a887409f9779380553235f8ac7`,118 checked payloads. [Standalone exact recovery](sandbox:/mnt/data/RECOVER_QW83_MASS_C662.py). [Extended self-contained handoff](sandbox:/mnt/data/QW83_MASS_C662_HANDOFF.md). These supplement the inline sources below.
+Compact complete source and cold transcript (`QW83_MASS_C662_SOURCE.zip`):76196bytes, SHA-256 `2e775f24b3372e7598ced41bce84f3ce14a36f823a98d6e1a109cc853046cc59`. Full exact audit/certificate archive (`QW83_MASS_C662_EXACT.zip`):141745755bytes, SHA-256 `52377003c10cc41850f3798a4c5f15169c2b4f31a7acac0e814d3d9b11040c80`,38 manifest payloads read back and hashed. Discovery programs, literal states and logs (`QW83_MASS_C662_RESEARCH.zip`):464357bytes, SHA-256 `042a426d8fffe07d92d3f33c0ed043e6d20483a887409f9779380553235f8ac7`,118 checked payloads. Standalone exact recovery (`RECOVER_QW83_MASS_C662.py`). Extended self-contained handoff (`QW83_MASS_C662_HANDOFF.md`). These supplement the inline sources below.
 
 ## 10. Complete standalone exact recovery
 

@@ -12,11 +12,11 @@ AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md
 
 The completed work is a fresh reconstruction and full exact replay of the unchanged canonical parent, a successful numerical-entry test, and a source-level audit identifying important restrictions of the supplied continuation machinery. These results establish a usable starting point; they are not a construction advance.
 
-The authoritative parent remains `figure-0373`, with declared immutable payload SHA-256 `8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d`, defining **VQ20_C622_ROUTE88_118_G12**. Its historical inline-source limitation is resolved by the supplied scoped16 materials. I did not substitute CONDITION25, C622_HOMOTOPY_POSITIVE, or an own132 body. :contentReference[oaicite:0]{index=0}
+The authoritative parent remains `figure-0373`, with declared immutable payload SHA-256 `8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d`, defining **VQ20_C622_ROUTE88_118_G12**. Its historical inline-source limitation is resolved by the supplied scoped16 materials. I did not substitute CONDITION25, C622_HOMOTOPY_POSITIVE, or an own132 body.
 
 ## 2. Reading and source completeness
 
-I read the complete supplied research-journal, including the branch memory and literal canonical parent payload, both complete recovery materials, and all sixteen decoded source files. The required canonical dependencies were present and readable; no missing FULL76 dependency remains for this scoped reconstruction. The two materials explicitly preserve the complete generator, independent auditors, centered integration, controls, and numerical entry point. :contentReference[oaicite:1]{index=1}
+I read the complete supplied research-journal, including the branch memory and literal canonical parent payload, both complete recovery materials, and all sixteen decoded source files. The required canonical dependencies were present and readable; no missing FULL76 dependency remains for this scoped reconstruction. The two materials explicitly preserve the complete generator, independent auditors, centered integration, controls, and numerical entry point.
 
 Verified supplied-file identities:
 
@@ -63,7 +63,7 @@ The completed exact result is:
 | Common centered denominator bits | 56802 |
 | Largest common-denominator coordinate bits | 56802 |
 
-Auditor A reconstructs the hull from feasible halfspace triples. Auditor B independently reconstructs through pair-plane line clipping. Their complete reports agree byte-for-byte. The separate centered integer-tetrahedron integration agrees with their volume and gives exactly zero first moments. H=0 is checked using the true edges and both incident normal-cone coefficients, not inferred solely from an index identity. These are the existing independent software implementations, freshly executed here—not newly authored independent implementations or independent human review. The results reproduce the supplied canonical expectations. :contentReference[oaicite:2]{index=2}
+Auditor A reconstructs the hull from feasible halfspace triples. Auditor B independently reconstructs through pair-plane line clipping. Their complete reports agree byte-for-byte. The separate centered integer-tetrahedron integration agrees with their volume and gives exactly zero first moments. H=0 is checked using the true edges and both incident normal-cone coefficients, not inferred solely from an index identity. These are the existing independent software implementations, freshly executed here—not newly authored independent implementations or independent human review. The results reproduce the supplied canonical expectations.
 
 Both auditors also classified the regular tetrahedron as strict446/weak000 and the deliberately weak prism as strict446/weak123, rejected both as winners, and each rejected three invalid fixtures.
 
@@ -95,7 +95,7 @@ centroid_discrepancy = 7.632783294297951e-17
 
 Executed environment: CPython3.13.5; NumPy2.3.5; SciPy1.17.0; float64; `OPENBLAS_NUM_THREADS=1`; `OMP_NUM_THREADS=1`. The exact replay uses the standard library with assertions enabled.
 
-This checks agreement of the numerical contact/mass entry with the exact parent. It is not an optimized child, a finite perturbation certificate, or a manufacturing tolerance. It matches the supplied smoke expectations. :contentReference[oaicite:3]{index=3}
+This checks agreement of the numerical contact/mass entry with the exact parent. It is not an optimized child, a finite perturbation certificate, or a manufacturing tolerance. It matches the supplied smoke expectations.
 
 ## 5. Continuation-critical source observations
 
@@ -123,7 +123,7 @@ The outer `rooted_correct` subsequently evaluates `v[:s.mechlen]`, including the
 
 The convenience driver constructs `FlexibleAtlas` with stable support3 by default; the unstable root is identified by the raw anchored point `(0,0,1)`. Rebuilding witness routes is not the same as changing these protected roots. A root-changing search must explicitly choose the new root, rebuild the retained index sets, and reanchor the contact representation consistently.
 
-These distinctions matter because the successful historical canonical step already demonstrated that inherited local witness restrictions can be too narrow: its exact warm body was own817, and the subsequent successful phase changed47 of175 physical and14 of136 polar witness choices. That is inherited evidence, not a new experiment here. :contentReference[oaicite:4]{index=4}
+These distinctions matter because the successful historical canonical step already demonstrated that inherited local witness restrictions can be too narrow: its exact warm body was own817, and the subsequent successful phase changed47 of175 physical and14 of136 polar witness choices. That is inherited evidence, not a new experiment here.
 
 ## 6. Exact edge-budget accounting for whole-interface loss
 
@@ -145,7 +145,7 @@ and maximal-facet histogram
 1 twenty-gon.
 ```
 
-These agree with the canonical parent. :contentReference[oaicite:5]{index=5}
+These agree with the canonical parent.
 
 Let D=sum_v(deg(v)−3). From the degree sum and Euler identity,
 
@@ -550,6 +550,6 @@ facets_lost 2 required_excess_for_E_at_most_310 89
 BH26_CANONICAL_EDGE_BUDGET_PASS
 ```
 
-Convenience copies, supplementary to the complete recovery text above: [self-contained canonical source recovery](sandbox:/mnt/data/BH26_C622_PARENT_SOURCE.py), [executed exact receipt](sandbox:/mnt/data/BH26_CANONICAL_PROOF/RECEIPT.json), and [budget-inspection program](sandbox:/mnt/data/BH26_BUDGET.py).
+Convenience copies, supplementary to the complete recovery text above: self-contained canonical source recovery (`BH26_C622_PARENT_SOURCE.py`), executed exact receipt (`RECEIPT.json`), and budget-inspection program (`BH26_BUDGET.py`).
 
 **Final scientific status:** the canonical C622 incumbent is freshly reproduced and ready for continuation. The requested lower-C construction remains unachieved in this execution; no unsuccessful search or broader geometric exclusion is inferred from that fact.

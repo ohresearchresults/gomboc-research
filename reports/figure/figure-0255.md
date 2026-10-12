@@ -12,15 +12,15 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 The previous handoff had only a numerical eight-support split strip. I first exactified that strip, then advanced it to a stronger exact twelve-support internally linked regular 3-ball. The promoted body deletes both residual carriers from the supplied 96-row endpoint, preserves the intended stable 17-gon and unstable vertex `8`, has a full 36-dimensional exact shape chamber, and performs one genuine unstable–saddle Morse cancellation without any replacement birth. It nevertheless retains an independent strict stable–saddle pair, so its exact own-centred class is `(S,U,H)=(2,1,1)`, not `(1,1,0)`.
 
-The supplied journal identified the first nonrepeating frontier as a two-boundary or internally linked prismatic/cubical 3-ball changing both complete residual stars, with active shared volume and independent antibirth timing controls. :contentReference[oaicite:0]{index=0} The construction below realizes the internally linked positive-volume part of that frontier exactly and localizes the remaining boundary obstruction.
+The supplied journal identified the first nonrepeating frontier as a two-boundary or internally linked prismatic/cubical 3-ball changing both complete residual stars, with active shared volume and independent antibirth timing controls. The construction below realizes the internally linked positive-volume part of that frontier exactly and localizes the remaining boundary obstruction.
 
-**Complete immutable archive:** [M42_slot1_Clear_Willow_25_tri_prism_exact_complete.zip](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_complete.zip)  
+**Complete immutable archive:** M42_slot1_Clear_Willow_25_tri_prism_exact_complete.zip  
 **Archive SHA-256:** `95d0e03d0d6ee45f5750be64847aee113c40a34f4af4a97b02582a5dd1ec3ef7`  
-**Readable report:** [README.md](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/README.md)  
-**Machine summary:** [result_summary.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/result_summary.json)  
-**Immutable manifest:** [MANIFEST.sha256](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/MANIFEST.sha256)  
-**One-command replay:** [REPLAY.sh](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/REPLAY.sh)  
-**Clean-room transcript:** [CLEANROOM_VERIFY.log](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/CLEANROOM_VERIFY.log)
+**Readable report:** README.md  
+**Machine summary:** result_summary.json  
+**Immutable manifest:** MANIFEST.sha256  
+**One-command replay:** REPLAY.sh  
+**Clean-room transcript:** CLEANROOM_VERIFY.log
 
 A fresh post-packaging replay reproduced every exact verifier marker and the manifest. The archive checksum file also passes independently.
 
@@ -39,7 +39,7 @@ are then removed, and twelve exact dyadic rows
 6306, 6307, 6308, 6309, 6310, 6311
 ```
 
-are supplied. All twelve are actual extreme vertices. The compact source is [exact_finite_source.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/exact_finite_source.json), SHA-256 `bf0cbe2bf7de044dee50d12248fbada564783de60d5d6108971714a52db3a137`. The deterministic builder is [build_exact_tri_prism_endpoint.py](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/build_exact_tri_prism_endpoint.py).
+are supplied. All twelve are actual extreme vertices. The compact source is exact_finite_source.json, SHA-256 `bf0cbe2bf7de044dee50d12248fbada564783de60d5d6108971714a52db3a137`. The deterministic builder is build_exact_tri_prism_endpoint.py.
 
 Old coordinates are copied as exact inherited rationals. Each new coordinate is interpreted as the exact dyadic rational represented by its recorded binary64 discovery value. Floating hull code is used only to propose face cycles; every supporting sign, mass identity, centroid coordinate, and equilibrium primitive is recomputed over exact rational arithmetic.
 
@@ -64,13 +64,13 @@ The prior residual stable `[257,258,6001]` is literally absent because `6001` is
 
 Exact coordinates and complete incidence:
 
-- [supplied coordinates](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/coordinates_exact.csv)
-- [exact own-centred coordinates](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/coordinates_own_centered_exact.csv)
-- [single common integer lattice](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/coordinates_common_lattice.csv)
-- [all 120 maximal-face cycles](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/face_cycles.json), SHA-256 `99bbbf5d0005c7a48bd863d4696857880d5f23451f9a4bb2986b562c6a8aec1e`
-- [exact supporting planes](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/face_planes_exact.json)
-- [all 187 true edges](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/true_edges.csv), SHA-256 `ce9630bb9283ba8d890f263a16c165524c466d7d73eaecb9bfe97f06d49f356d`
-- [complete endpoint certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/certificate.json), SHA-256 `d198716852b24b0e99b49d5ddbb97e0be99ca000f20f6d7110e5528a5d8fd93c`
+- supplied coordinates (`coordinates_exact.csv`)
+- exact own-centred coordinates (`coordinates_own_centered_exact.csv`)
+- single common integer lattice (`coordinates_common_lattice.csv`)
+- all 120 maximal-face cycles (`face_cycles.json`), SHA-256 `99bbbf5d0005c7a48bd863d4696857880d5f23451f9a4bb2986b562c6a8aec1e`
+- exact supporting planes (`face_planes_exact.json`)
+- all 187 true edges (`true_edges.csv`), SHA-256 `ce9630bb9283ba8d890f263a16c165524c466d7d73eaecb9bfe97f06d49f356d`
+- complete endpoint certificate (`certificate.json`), SHA-256 `d198716852b24b0e99b49d5ddbb97e0be99ca000f20f6d7110e5528a5d8fd93c`
 
 The minimum normalized active-face/nonincident-row support separation is `3.869169282446657e-6`; the minimum normalized inactive-row separation is `0.003990653834304637`.
 
@@ -136,9 +136,9 @@ Every maximal face is tested with all of its boundary inequalities; every active
 
 Complete exact ledgers:
 
-- [face mechanics](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/faces_mechanics_exact.json)
-- [vertex mechanics](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/vertices_mechanics_exact.json)
-- [four-component true-edge mechanics](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/edges_mechanics_exact.json)
+- face mechanics (`faces_mechanics_exact.json`)
+- vertex mechanics (`vertices_mechanics_exact.json`)
+- four-component true-edge mechanics (`edges_mechanics_exact.json`)
 
 Thus the endpoint is unambiguously a nonwinner. Its replacement packet is
 
@@ -166,11 +166,11 @@ The common boundary cycle is
  253,252,251,250,249,248,1026].
 ```
 
-Both route rows `228` and `1026` remain active. The full certificate, including the removed and inserted faces, shared boundary, carrier deaths, and connectivity checks, is [disk_exchange_certificate.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/disk_exchange_certificate.json).
+Both route rows `228` and `1026` remain active. The full certificate, including the removed and inserted faces, shared boundary, carrier deaths, and connectivity checks, is disk_exchange_certificate.json.
 
 ## 5. Exact internally linked positive-volume regular 3-ball
 
-Rows `6300..6311` form a uniform affine oriented matroid of rank four. The exact certificate [new_cell_oriented_matroid.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/new_cell_oriented_matroid.json), SHA-256 `44716debc448eec49acef99be2cbf99d57ddcd640a3bdd5fdaf5735c84656571`, contains
+Rows `6300..6311` form a uniform affine oriented matroid of rank four. The exact certificate new_cell_oriented_matroid.json, SHA-256 `44716debc448eec49acef99be2cbf99d57ddcd640a3bdd5fdaf5735c84656571`, contains
 
 ```text
 chirotope bases                    495
@@ -206,7 +206,7 @@ The cell therefore realizes finite active thickness and independent internal rou
 
 ## 6. Complete external-arrow audit
 
-[external_arrow_audit.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/external_arrow_audit.json) audits every true edge that is new, removed, star-changed, or incident to a new row:
+external_arrow_audit.json audits every true edge that is new, removed, star-changed, or incident to a new row:
 
 ```text
 audited changed/star edges       103
@@ -224,7 +224,7 @@ is checked, and at least one nonpositive external witness prevents the exposed a
 
 ## 7. Positive full-dimensional perturbation chamber
 
-[verify_full_36d_box.py](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/verify_full_36d_box.py) proves with exact rational interval arithmetic that all 36 uncentred coordinates of rows `6300..6311` vary independently by
+verify_full_36d_box.py proves with exact rational interval arithmetic that all 36 uncentred coordinates of rows `6300..6311` vary independently by
 
 ```text
 ±2^-36 = ±1/68719476736.
@@ -243,7 +243,7 @@ the unstable vertex remains 8;
 the saddle remains (248,6310).
 ```
 
-The exact interval certificate is [full_36d_box_certificate.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/full_36d_box_certificate.json), SHA-256 `0a5118dadff9a4cfaa9ced29d98283df016f7d96483f95768425b5aefc194eea`. Its smallest raw certified lower bounds include `1.1364e-5` for facet support, `2.21098e-4` for inactive support, `0.00768186` for nonstable witnesses, and `0.004613406` for nonsaddle witnesses.
+The exact interval certificate is full_36d_box_certificate.json, SHA-256 `0a5118dadff9a4cfaa9ced29d98283df016f7d96483f95768425b5aefc194eea`. Its smallest raw certified lower bounds include `1.1364e-5` for facet support, `2.21098e-4` for inactive support, `0.00768186` for nonstable witnesses, and `0.004613406` for nonsaddle witnesses.
 
 This is an open 36-dimensional shape chamber, not a wall or isolated numerical point.
 
@@ -285,7 +285,7 @@ and midpoint approximately `0.8309812326740449`.
 
 Before `t*`, vertex `6310` is unstable and `(1026,6310)` is a saddle. At `t*`, both become degenerate through the same primitive. After `t*`, both are excluded. No other face, vertex, or edge becomes an equilibrium anywhere on the segment. This is a literal exact unstable–saddle cancellation without replacement birth and without a hull change.
 
-The complete certificate is [same_lattice_cancellation_chronology.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/same_lattice_cancellation_chronology.json), SHA-256 `98e2fd7c89c72852925da9f84b4b8983daba2f38c160d2d82c71b5335f3fd9b5`.
+The complete certificate is same_lattice_cancellation_chronology.json, SHA-256 `98e2fd7c89c72852925da9f84b4b8983daba2f38c160d2d82c71b5335f3fd9b5`.
 
 The requested final cancellation nevertheless fails because the independent pair
 
@@ -346,21 +346,21 @@ The replay suite independently produces these terminal markers:
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-The GMP verifier [verify_exact_hull_gmp.cpp](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/verify_exact_hull_gmp.cpp) enumerates all `C(76,3)=70,300` triples and performs 1,218,350 exact support-sign checks, recovering 120 maximal faces and 187 true edges.
+The GMP verifier verify_exact_hull_gmp.cpp enumerates all `C(76,3)=70,300` triples and performs 1,218,350 exact support-sign checks, recovering 120 maximal faces and 187 true edges.
 
-The independent rational verifier [verify_exact_mass_mechanics.py](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/verify_exact_mass_mechanics.py) reconstructs the complete incidence, exact volume, exact centroid, zero centred moments, and every face/vertex/four-component edge-cone decision.
+The independent rational verifier verify_exact_mass_mechanics.py reconstructs the complete incidence, exact volume, exact centroid, zero centred moments, and every face/vertex/four-component edge-cone decision.
 
 Meshes and verifier:
 
-- [watertight OBJ](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/body.obj), SHA-256 `39011b2ced584d71ee9f488aa9547a26c62ee770c2ae3d2db21ce22c3970abba`
-- [watertight STL](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/body.stl), SHA-256 `36b79d9f71aa784511b243233e1549a6f1f4ee8d9df2557d684a21dd63914135`
-- [mesh verifier](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/verify_mesh.py)
+- watertight OBJ (`body.obj`), SHA-256 `39011b2ced584d71ee9f488aa9547a26c62ee770c2ae3d2db21ce22c3970abba`
+- watertight STL (`body.stl`), SHA-256 `36b79d9f71aa784511b243233e1549a6f1f4ee8d9df2557d684a21dd63914135`
+- mesh verifier (`verify_mesh.py`)
 
 The OBJ has 69 vertices, 134 triangles, 201 triangulated edges, Euler characteristic two, and every mesh edge has multiplicity two. Its reconstructed volume is `1413.4189306560654` and its centroid norm is about `3.02e-15`. The independent float32 STL has identical watertight combinatorics; its separately reported mass drift is the expected float32 export effect.
 
 ## 11. Intermediate exactification and empirical scope
 
-The prior numerical eight-support split strip was also exactified completely. Its exact archive is [M42_slot1_Clear_Willow_25_split_exact_complete.zip](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_split_exact_complete.zip), SHA-256 `e830c4c3fecdd0f2656138ac2c57271094e2507eb7e8c5c62f53b4e80b9568ce`. It has 72 supplied rows, actual `(V,E,F)=(65,175,112)`, strict `(2,1,1)`, a positive-volume rank-four eight-row cell, a 24-coordinate box of radius `2^-26`, exact external-arrow and visibility-Gordan audits, and matching meshes. The twelve-support object supersedes it because it has two edge-disjoint internal routes, no bridge interior triangle, 36 independent shape coordinates, and an exact no-birth U–H cancellation.
+The prior numerical eight-support split strip was also exactified completely. Its exact archive is M42_slot1_Clear_Willow_25_split_exact_complete.zip, SHA-256 `e830c4c3fecdd0f2656138ac2c57271094e2507eb7e8c5c62f53b4e80b9568ce`. It has 72 supplied rows, actual `(V,E,F)=(65,175,112)`, strict `(2,1,1)`, a positive-volume rank-four eight-row cell, a 24-coordinate box of radius `2^-26`, exact external-arrow and visibility-Gordan audits, and matching meshes. The twelve-support object supersedes it because it has two edge-disjoint internal routes, no bridge interior triangle, 36 independent shape coordinates, and an exact no-birth U–H cancellation.
 
 Finite floating screens included in the final archive are explicitly empirical:
 

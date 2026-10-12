@@ -12,7 +12,7 @@ I constructed and independently audited **QR29_CONTACT_H155_C792_R100000000000**
 
 This is **73 fewer true edges than C938, a 15.56503198294243% reduction**. The requested **C<500 / E<250 is not reached**: another 147 true edges must be removed to reach E=249. This is a new finite homogeneous positive endpoint, not a minimality claim or a verification-only handoff.
 
-I used the latest attached journal's literal C938 construction, not C990 or the obsolete SQ24 assignment. The C938 mapping decoded to the prescribed 35203 bytes and SHA-256 `8864456e0833a2533cda3512bbac6d3d63ea292a3dcd1880dc1488c81788db0e`. I also executed its original two-auditor replay. No C990 coordinates or indices, unreturned worker results, or inherited moment-actuator bounds enter the new definition. The attached journal identifies C938 as the distinct 311/469/160 positive seed. :contentReference[oaicite:0]{index=0}
+I used the latest attached journal's literal C938 construction, not C990 or the obsolete SQ24 assignment. The C938 mapping decoded to the prescribed 35203 bytes and SHA-256 `8864456e0833a2533cda3512bbac6d3d63ea292a3dcd1880dc1488c81788db0e`. I also executed its original two-auditor replay. No C990 coordinates or indices, unreturned worker results, or inherited moment-actuator bounds enter the new definition. The attached journal identifies C938 as the distinct 311/469/160 positive seed.
 
 ## Exact definition and actual complex
 
@@ -190,7 +190,7 @@ python -S EXACTIFY.py next_contacts/winner.json new_exact --grid 100000000000
 
 The most useful next frontier is coordinated maximal-face fusion and higher-order contact architecture with reassignable or coupled coordinate constraints. At the present degree excess of 63, reaching F=106 while retaining that excess would give E=249; at fixed F=155, another 147 units of degree excess would be needed. Those are architectural accounting targets, not claims that either deformation exists. The present finite body is a new starting point with real own110 mechanics, not evidence that further cancellation is impossible.
 
-The supplementary [exact certificate archive](sandbox:/mnt/data/QR29_C792_exact_certificate.zip) includes generated full rational reports and the observed replay receipt. It is not needed for reconstruction because the complete defining capsule follows.
+The supplementary exact certificate archive (`QR29_C792_exact_certificate.zip`) includes generated full rational reports and the observed replay receipt. It is not needed for reconstruction because the complete defining capsule follows.
 
 ```text
 QR29_CAPSULE_BEGIN

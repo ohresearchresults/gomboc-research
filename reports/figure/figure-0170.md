@@ -125,15 +125,15 @@ The minimal nonrepeating compact topology is a nine-vertex disk with three inter
 
 ## Reproducible artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/e10_two_internal_edge_nonwinner.zip) and [SHA-256](sandbox:/mnt/data/e10_two_internal_edge_nonwinner.zip.sha256)
-- [Current complete wrapper](sandbox:/mnt/data/steady_comet_92_e10_whole_disk_complete.zip) and [current rerun log](sandbox:/mnt/data/steady_comet_92_e10_whole_disk/current_rerun.log)
-- [Full detailed handoff](sandbox:/mnt/data/e10_two_internal_edge_result/RESULT.md)
-- [Exact E10 verifier](sandbox:/mnt/data/e10_two_internal_edge_result/verify_source_E10_exact.py), [report](sandbox:/mnt/data/e10_two_internal_edge_result/E10_exact_report.json), [OBJ](sandbox:/mnt/data/e10_two_internal_edge_result/E10_centered.obj), and [STL](sandbox:/mnt/data/e10_two_internal_edge_result/E10_centered.stl)
-- [Exact E8A verifier](sandbox:/mnt/data/e10_two_internal_edge_result/verify_E8_exact.py), [H rows](sandbox:/mnt/data/e10_two_internal_edge_result/E8A_H_representation.json), [vertices](sandbox:/mnt/data/e10_two_internal_edge_result/E8A_vertices.csv), [OBJ](sandbox:/mnt/data/e10_two_internal_edge_result/E8A_centered.obj), and [STL](sandbox:/mnt/data/e10_two_internal_edge_result/E8A_centered.stl)
-- [Perturbation certificate](sandbox:/mnt/data/e10_two_internal_edge_result/E8A_perturbation_certificate.json), [independent verifier](sandbox:/mnt/data/e10_two_internal_edge_result/verify_E8_independent.py), and [independent report](sandbox:/mnt/data/e10_two_internal_edge_result/E8A_independent_verification.json)
-- [Exact two-parameter atlas](sandbox:/mnt/data/e10_two_internal_edge_result/E8_two_parameter_exact_atlas.json), [builder](sandbox:/mnt/data/e10_two_internal_edge_result/build_E8_two_parameter_certificate.py), and [independent 4,941-hull grid check](sandbox:/mnt/data/e10_two_internal_edge_result/E8_family_independent_verification.json)
-- [Connected patch complex](sandbox:/mnt/data/e10_two_internal_edge_result/E10_to_E8_patch_complex.json) and [one-command verifier](sandbox:/mnt/data/e10_two_internal_edge_result/[internal-source-reference].sh)
-- [Central-triangle probe audit](sandbox:/mnt/data/steady_comet_92_e10_whole_disk/central_triangle_probe/e9_gauge_best_audit.txt) and [raw run ledger](sandbox:/mnt/data/steady_comet_92_e10_whole_disk/central_triangle_probe/e9_gauge_search.json)
+- Complete exact archive (`e10_two_internal_edge_nonwinner.zip`) and SHA-256 (`e10_two_internal_edge_nonwinner.zip.sha256`)
+- Current complete wrapper (`steady_comet_92_e10_whole_disk_complete.zip`) and current rerun log (`current_rerun.log`)
+- Full detailed handoff (`RESULT.md`)
+- Exact E10 verifier (`verify_source_E10_exact.py`), report (`E10_exact_report.json`), OBJ (`E10_centered.obj`), and STL (`E10_centered.stl`)
+- Exact E8A verifier (`verify_E8_exact.py`), H rows (`E8A_H_representation.json`), vertices (`E8A_vertices.csv`), OBJ (`E8A_centered.obj`), and STL (`E8A_centered.stl`)
+- Perturbation certificate (`E8A_perturbation_certificate.json`), independent verifier (`verify_E8_independent.py`), and independent report (`E8A_independent_verification.json`)
+- Exact two-parameter atlas (`E8_two_parameter_exact_atlas.json`), builder (`build_E8_two_parameter_certificate.py`), and independent 4,941-hull grid check (`E8_family_independent_verification.json`)
+- Connected patch complex (`E10_to_E8_patch_complex.json`) and one-command verifier (`[internal-source-reference].sh`)
+- Central-triangle probe audit (`e9_gauge_best_audit.txt`) and raw run ledger (`e9_gauge_search.json`)
 
 ## Reusable conclusion
 

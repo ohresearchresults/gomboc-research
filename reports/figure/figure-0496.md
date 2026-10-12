@@ -184,4 +184,4 @@ for name,text in sorted(files.items()):
 print('QH83_SOURCE_RECOVERY_PASS',len(files),len(raw),hashlib.sha256(raw).hexdigest())
 ```
 
-Supplementary convenience copy: [complete sources, full audits, certificate, report and receipts](sandbox:/mnt/data/QH83_complete_handoff.zip). The inline capsule above is the durable recovery path.
+Supplementary convenience copy: complete sources, full audits, certificate, report and receipts (`QH83_complete_handoff.zip`). The inline capsule above is the durable recovery path.

@@ -373,7 +373,7 @@ INNER121_ROBUST_CHAMBER.json:65649 bytes
 b88f4ef1eb7ebdc57cb44f7007d0a6f4adea261d9125020c69f1d23d72a123e2
 ```
 
-All42 exact-output receipts are in `EXPECTED_INNER_OUTPUTS.json`. The [standalone decoder](sandbox:/mnt/data/RECOVER_INNER_ROOTS.py) and [complete source, checkpoint, audit, proof and log bundle](sandbox:/mnt/data/INNER_ROOTS_HANDOFF.zip) are convenience copies; the complete inline capsule is sufficient without them.
+All42 exact-output receipts are in `EXPECTED_INNER_OUTPUTS.json`. The standalone decoder (`RECOVER_INNER_ROOTS.py`) and complete source, checkpoint, audit, proof and log bundle (`INNER_ROOTS_HANDOFF.zip`) are convenience copies; the complete inline capsule is sufficient without them.
 
 The most useful next physical freedom is **asymmetric/nonparallel inner reconstruction of the new P9 interface**, coupled to the stable triangle[7,12,19], saddle1–6 and new roots3/12. There is room for59 additional input points under the sufficient V<=85 budget, or177 actual edge units. The old anchored material is already gone. The two proved failures specify particular cap families that must be changed; they do not close inner root replacement or establish an unavoidable P/Q tradeoff.
 

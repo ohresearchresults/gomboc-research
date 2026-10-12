@@ -21,13 +21,13 @@ There is a delivery limitation that must remain explicit: the complete source/da
 
 The principal recovery files are:
 
-[SC43_RESULT.json — generated handoff containing the complete inline source/data recovery unit](sandbox:/mnt/data/SC43_RESULT.json)
+SC43_RESULT.json — generated handoff containing the complete inline source/data recovery unit
 
-[SC43_RESULT.md — the same generated handoff in Markdown](sandbox:/mnt/data/SC43_RESULT.md)
+SC43_RESULT.md — the same generated handoff in Markdown
 
-[SC43_LOW_FACET_EXACT_HANDOFF.zip — frozen inputs, source, incidence, mass and feature reports](sandbox:/mnt/data/SC43_LOW_FACET_EXACT_HANDOFF.zip)
+SC43_LOW_FACET_EXACT_HANDOFF.zip — frozen inputs, source, incidence, mass and feature reports
 
-[recover_sc43.py — standalone source/data recovery and replay entry point](sandbox:/mnt/data/SC43_SUPPORT_CONTINUATION/recover_sc43.py)
+recover_sc43.py — standalone source/data recovery and replay entry point
 
 Execution assertions in the generated draft should be checked against a fresh terminal replay before they are copied into the canonical journal.
 

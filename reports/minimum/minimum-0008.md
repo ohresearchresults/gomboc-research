@@ -31,11 +31,11 @@ h\cdot(-q_3)-\max_{|T|=3}\;h\cdot\sum_{i\in T}q_i>4/5.
 
 The example satisfies **g(Q°)=g(P)=0**, not a surrogate centering condition. Thus even the closest strictly stable facet of an actual-volume-centred body on the exact first joint f-vector need not admit a three-pole representation with all coefficients at most one.
 
-This is stronger than failure of the particular transposed mass operator. The journal's 46/45 control disproves its entrywise cap; the new control proves that **no alternative capped coefficient row exists** at the displayed root. The earlier control alone did not establish that conclusion. :contentReference[oaicite:0]{index=0}
+This is stronger than failure of the particular transposed mass operator. The journal's 46/45 control disproves its entrywise cap; the new control proves that **no alternative capped coefficient row exists** at the displayed root. The earlier control alone did not establish that conclusion.
 
 The barrier is sharp in facet count: such a closest-root failure first occurs at **five facets**. For the five-facet seed below, the exact smallest possible coefficient cap is **51/50**. That number is the optimum for this seed, not a claimed universal optimum over all convex bodies.
 
-The second stable facet is essential to the scope: the boundary control is **not S1, not U1, and not 110**. It is not an upper witness for a monostatic minimum. The inherited universal bounds remain **F≥8, V≥9, E≥15, C≥30**, with first unexcluded joint f-vector (9,15,8). :contentReference[oaicite:1]{index=1}
+The second stable facet is essential to the scope: the boundary control is **not S1, not U1, and not 110**. It is not an upper witness for a monostatic minimum. The inherited universal bounds remain **F≥8, V≥9, E≥15, C≥30**, with first unexcluded joint f-vector (9,15,8).
 
 ## Parent identities and what was attempted
 
@@ -73,7 +73,7 @@ Differentiation gives
 =4\operatorname{Vol}(Q^\circ)g(Q^\circ).
 \]
 
-Its Hessian is the positive-definite matrix `4∫ uuᵀ(h_Q(u)−z·u)^−5 dσ(u)`. Thus the verified equation g(P)=0 really makes 0 the Santaló point of Q. This agrees with the usual polar-volume definition; no ordinary-centroid assertion about Q is used. :contentReference[oaicite:2]{index=2}
+Its Hessian is the positive-definite matrix `4∫ uuᵀ(h_Q(u)−z·u)^−5 dσ(u)`. Thus the verified equation g(P)=0 really makes 0 the Santaló point of Q. This agrees with the usual polar-volume definition; no ordinary-centroid assertion about Q is used.
 
 ## 2. A minimal five-facet seed and its sharp cap
 
@@ -541,8 +541,8 @@ The exact new conclusion is that **Santaló centering plus a unique closest, str
 
 What remains possible is an inequality conditioned on **S1 itself**, or on the full joint 110 escape/matching structure. In particular, a proof that supplies the needed capped relations at both the root and the relevant secondary apices only under those hypotheses would not be contradicted here. The second stable facet in this control is precisely a missing hypothesis; the counterexample must not be represented as an eight-pole escape-tree example.
 
-No combinatorial type on the first joint boundary is declared excluded by this handoff. The inherited unrestricted eight-pole/15-edge catalogue has 74 graph types; all remain within the unresolved joint realization problem unless separately excluded by another result. Its 509 one-sided root orbits are not a count of joint root pairs. :contentReference[oaicite:3]{index=3} The appropriate continuing formulation retains actual cross-slack volume compatibility, the compatible primal/dual metric, and existential quantification over all sign-compatible complementary tree pairs. It must not replace actual volume by a free common family or replace existential matching by a preselected tree pair.
+No combinatorial type on the first joint boundary is declared excluded by this handoff. The inherited unrestricted eight-pole/15-edge catalogue has 74 graph types; all remain within the unresolved joint realization problem unless separately excluded by another result. Its 509 one-sided root orbits are not a count of joint root pairs. The appropriate continuing formulation retains actual cross-slack volume compatibility, the compatible primal/dual metric, and existential quantification over all sign-compatible complementary tree pairs. It must not replace actual volume by a free common family or replace existential matching by a preselected tree pair.
 
 The strongest established universal facet bound remains **F≥8**, and the accepted joint lower bound remains **C≥30**. There is no F≥9 proof, C30 attainer, or full boundary infeasibility certificate in this result. The new positive object is fully reconstructible, with no essential datum left only in a sandbox file.
 
-Convenience copies: [recovery source](sandbox:/mnt/data/facet8/santalo_root_cap_barrier_v1.py) and [complete exact object](sandbox:/mnt/data/facet8/santalo-root-cap-barrier-v1.json). The inline construction and executable, not these links, are the durable handoff.
+Convenience copies: recovery source (`santalo_root_cap_barrier_v1.py`) and complete exact object (`santalo-root-cap-barrier-v1.json`). The inline construction and executable, not these links, are the durable handoff.

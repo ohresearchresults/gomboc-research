@@ -13,7 +13,7 @@ The earlier one-cone proposal is discarded. A straight cone can acquire stable s
 * a rational tangent-sphere collar around the stable equilibrium of the polar;
 * a rational Thales spiral around the unstable equilibrium of the polar.
 
-The spiral is the effective version of the decreasing-distance polygonal curve in Lángi's Lemma 3 and unstable-patch construction. Lángi proves qualitative equilibrium-preserving polyhedral approximation, but his proof leaves the mesh size, cap depths, number of rotations, finite cover, and centroid tolerance unevaluated. :contentReference[oaicite:0]{index=0}
+The spiral is the effective version of the decreasing-distance polygonal curve in Lángi's Lemma 3 and unstable-patch construction. Lángi proves qualitative equilibrium-preserving polyhedral approximation, but his proof leaves the mesh size, cap depths, number of rotations, finite cover, and centroid tolerance unevaluated.
 
 The fixed constants below remove those choices for the transcript's particular smooth body.
 
@@ -39,7 +39,7 @@ The two critical directions are
 
 `u_+=(cos(1/100),sin(1/100),0)` and `u_-=-u_+`.
 
-The maximum of `rho` is at `u_+`; the minimum is at `u_-`. These are the unique unstable and stable equilibria of `K`, respectively. :contentReference[oaicite:1]{index=1}
+The maximum of `rho` is at `u_+`; the minimum is at `u_-`. These are the unique unstable and stable equilibria of `K`, respectively.
 
 Let `L=K^o`. Its support function is explicit:
 
@@ -305,7 +305,7 @@ The meridional points `X_i=A_u a^i(C_i,S_i)` satisfy the exact identities
 
 `=A_u^2 a^(2i-1) S(1+a^2-2aC)>0`.                                    (33)
 
-Equation (33) proves convexity of the profile. Equation (32) is the strict, rational version of the Thales-chain condition in Lángi's Lemma 3. :contentReference[oaicite:2]{index=2}
+Equation (33) proves convexity of the profile. Equation (32) is the strict, rational version of the Thales-chain condition in Lángi's Lemma 3.
 
 For a side point with a fixed `w in bd(W)`, the endpoint radial derivative is
 

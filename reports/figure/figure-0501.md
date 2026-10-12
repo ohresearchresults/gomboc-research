@@ -10,7 +10,7 @@ AI research report · 2026-09-23 UTC · [Export notes](../../catalog/coverage.md
 
 **No new strict110/additionalweak000 endpoint with E≤249 is established by this continuation. No changed post-parent rational solid, new geometric exclusion, or reproducible post-parent optimization checkpoint was recovered.** The interrupted continuation must not be recorded as a completed unsuccessful search: there is no surviving trial ledger from which to infer its coverage or results.
 
-The last durable scientific result remains **figure-0496**, advertised SHA-256 **cb70d6ffe26a61c3c58741ee3b706dcffc73f31be5b9ec4f19e7f29513befc8d**. Its eight exact nonwinning constructions, complete source capsule, actual-mass audits and bounded cap-chart theorem remain the continuation authority. This closeout does not supersede that parent or narrow its open geometric families. The supplied journal likewise identifies those constructions as nonwinning and source-complete. :contentReference[oaicite:0]{index=0}
+The last durable scientific result remains **figure-0496**, advertised SHA-256 **cb70d6ffe26a61c3c58741ee3b706dcffc73f31be5b9ec4f19e7f29513befc8d**. Its eight exact nonwinning constructions, complete source capsule, actual-mass audits and bounded cap-chart theorem remain the continuation authority. This closeout does not supersede that parent or narrow its open geometric families. The supplied journal likewise identifies those constructions as nonwinning and source-complete.
 
 ## What was actually completed at closeout
 
@@ -36,7 +36,7 @@ The complementary entrances remain distinct; none is a new result of this contin
 | S1_VGRID_D10000 |39/111/74;222|1/2/1|One P packet17/35; Q bars empty|138|
 | QH83_CAPBOOST5 |72/108/38;216|8/7/13|Six P bars and seven Q bars|141|
 
-All three have inherited exact additionalweak000 and primitivezero000 audits at their own uniform-volume centroids. C120 supplies the smaller H-description, C222 the 56-bit centred-denominator V-description, and CAPBOOST5 the thicker, lower-P-energy but multi-equilibrium alternative. These are different tradeoffs, not evidence that one is already near strict110. :contentReference[oaicite:1]{index=1}
+All three have inherited exact additionalweak000 and primitivezero000 audits at their own uniform-volume centroids. C120 supplies the smaller H-description, C222 the 56-bit centred-denominator V-description, and CAPBOOST5 the thicker, lower-P-energy but multi-equilibrium alternative. These are different tradeoffs, not evidence that one is already near strict110.
 
 For the unchanged **S1_C120_G1000**, the exact equilibrium labels are S=[14], U=[4,39], H=[[3,18]]. Its complete sole P interface remains:
 
@@ -53,7 +53,7 @@ Q_roots = [14]
 Q_bars = []
 ```
 
-The complete literal twenty-two H rows, maximal face cycles, exact mass and producing/reconstruction machinery remain in the parent; the interface above is not a substitute for that source capsule. :contentReference[oaicite:2]{index=2}
+The complete literal twenty-two H rows, maximal face cycles, exact mass and producing/reconstruction machinery remain in the parent; the interface above is not a substitute for that source capsule.
 
 ## Closed scope and open continuation
 
@@ -63,11 +63,11 @@ The inherited obstruction still covers **only** the assigned C144 geometry with 
 -10351409240000/1134288460661 < h < -43366068800000/5981830694787,
 ```
 
-and every symmetric Gram matrix satisfying `max_ij |G_ij-I_ij|≤1/16`. Throughout that scope the actual-centred body has at least two strict U. It does not exclude another cap orientation, arbitrary SPD metrics, independently moved retained supports, or the changed C120/C222/CAPBOOST5 geometries. No extension of this theorem was proved during the interrupted continuation. :contentReference[oaicite:3]{index=3}
+and every symmetric Gram matrix satisfying `max_ij |G_ij-I_ij|≤1/16`. Throughout that scope the actual-centred body has at least two strict U. It does not exclude another cap orientation, arbitrary SPD metrics, independently moved retained supports, or the changed C120/C222/CAPBOOST5 geometries. No extension of this theorem was proved during the interrupted continuation.
 
-The inherited cap examples remain transfer controls: removing the entire old packet does not annihilate the rebuilt physical basin. In the C132 cap, the new main component contains all seventeen new cap vertices **and fourteen retained vertices**. The C120 whole-packet cap similarly yields strict929 rather than110. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+The inherited cap examples remain transfer controls: removing the entire old packet does not annihilate the rebuilt physical basin. In the C132 cap, the new main component contains all seventeen new cap vertices **and fourteen retained vertices**. The C120 whole-packet cap similarly yields strict929 rather than110.
 
-The continuation should therefore retain the same construction objective: a finite, coordinated change of the whole remaining basin and actual volume distribution, permitting temporary P/Q births and root exchanges, followed by full reconsolidation. The proposed carrier block8/14 and5/23 uses **original C144 support indices**; those numbers must not be silently applied to the reordered C120 or C222 descriptions. Their role is inherited guidance outside the cap theorem, not an executed repair or a sufficiency claim. :contentReference[oaicite:6]{index=6}
+The continuation should therefore retain the same construction objective: a finite, coordinated change of the whole remaining basin and actual volume distribution, permitting temporary P/Q births and root exchanges, followed by full reconsolidation. The proposed carrier block8/14 and5/23 uses **original C144 support indices**; those numbers must not be silently applied to the reordered C120 or C222 descriptions. Their role is inherited guidance outside the cap theorem, not an executed repair or a sufficiency claim.
 
 ## Recovery boundary and complete closeout checker
 
@@ -86,7 +86,7 @@ QH83_ALL_EXACT_RECEIPTS_PASS 15
 QH83_C144_PACKET_ACCESS_C120_S1_LOWGRID_AND_FULL_OFFSET_GRAM_HANDOFF_PASS
 ```
 
-The earlier unresolved outer-digest discrepancy involving figure-0492 is neither resolved nor evidence of a geometry mismatch in this closeout. The current seventeen-unit capsule does not need that older archive to reconstruct its objects. :contentReference[oaicite:7]{index=7}
+The earlier unresolved outer-digest discrepancy involving figure-0492 is neither resolved nor evidence of a geometry mismatch in this closeout. The current seventeen-unit capsule does not need that older archive to reconstruct its objects.
 
 The following is the complete source of the **new byte-integrity check only**. It uses CPython3.13.5 standard library, has 1962 bytes and SHA-256 `a1b41f031ea053898d92883ca5a70adac8df9b6ef99729d0881ee8d0c3792621` when saved exactly with a trailing newline. The alternate archive location is intentional: `S1_VGRID_D10000_input.json` is stored under `source/`, although it is also one of the fifteen output-manifest entries.
 
@@ -141,6 +141,6 @@ Observed command:
 python -B -S qh83_closeout_verify.py 'research-journal(20260923-002651).md' QH83_complete_handoff.zip
 ```
 
-Convenience copies: [byte-integrity checker](sandbox:/mnt/data/qh83_closeout_verify.py) and [unchanged parent sources, audits and certificates](sandbox:/mnt/data/QH83_complete_handoff.zip).
+Convenience copies: byte-integrity checker (`qh83_closeout_verify.py`) and unchanged parent sources, audits and certificates (`QH83_complete_handoff.zip`).
 
 **Integration instruction:** record this as an interrupted continuation with recovered, integrity-checked parent materials—not a new construction, not a completed finite-search failure, and not a closed research branch.

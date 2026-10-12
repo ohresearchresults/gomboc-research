@@ -10,7 +10,7 @@ Assignment: `figure-0401`.
 
 ## Closing outcome
 
-**No new polyhedron, exact nonwinner, or own110 endpoint is claimed.** The retained construction is the inherited `C260_COARSEN_COUNT`: V74/E130/F58, C260, own211/weak000, with180 true edges of headroom under E<=310. Its stable carriers are original C384 planes31/77; its own labels are S14/37, U65, and saddle edge66--72. The unstable vertex is a genuinely new intersection, not an inherited C384 vertex. The accepted own110 C622 endpoint is unchanged by this assignment. These parent identities agree with the attached immutable payload. :contentReference[oaicite:0]{index=0}
+**No new polyhedron, exact nonwinner, or own110 endpoint is claimed.** The retained construction is the inherited `C260_COARSEN_COUNT`: V74/E130/F58, C260, own211/weak000, with180 true edges of headroom under E<=310. Its stable carriers are original C384 planes31/77; its own labels are S14/37, U65, and saddle edge66--72. The unstable vertex is a genuinely new intersection, not an inherited C384 vertex. The accepted own110 C622 endpoint is unchanged by this assignment. These parent identities agree with the attached immutable payload.
 
 The new result is **`BW35_C260_OWN_MASS_CORE_RESTRICTIONS_V1`**, an exact C260-specific disk/slab certificate and three infinite-family restrictions that incorporate the successor's actual uniform mass. In particular, a contained disk-preserving cut cannot produce own110 while retaining at least92% of C260's volume. Two homothetic sandwich families also cannot produce own110, without imposing the successor's centroid externally.
 
@@ -313,4 +313,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Supplementary active-runtime copies: [standalone decoder](sandbox:/mnt/data/BW35_RECOVER.py), [source and exact certificates](sandbox:/mnt/data/BW35_C260_CORE_CAPSULE.zip), and [complete Markdown handoff](sandbox:/mnt/data/BW35_RESULT.md). None is required in addition to the inline recovery program.
+Supplementary active-runtime copies: standalone decoder (`BW35_RECOVER.py`), source and exact certificates (`BW35_C260_CORE_CAPSULE.zip`), and complete Markdown handoff (`BW35_RESULT.md`). None is required in addition to the inline recovery program.

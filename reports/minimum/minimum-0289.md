@@ -14,7 +14,7 @@ On this new body, an explicit common-metric deformation **genuinely annihilates 
 
 A second exact body, `C594_OPEN_U_H_CORRIDOR_V1`, and a full actual-centroid interval certificate establish a genuine boundary approach to the new direct adjacency. Both geometric endpoints remain121weak000.
 
-**Canonical attaining C622 and `34 <= C_min <= 622` are unchanged.** The new C592 is not the older `multi592=(168,296,130),own132`; equal complexity does not identify the bodies. The supplied notebook separately identifies the attaining C622 and the nonattaining construction direction. fileciteturn16file0L19-L23
+**Canonical attaining C622 and `34 <= C_min <= 622` are unchanged.** The new C592 is not the older `multi592=(168,296,130),own132`; equal complexity does not identify the bodies. The supplied notebook separately identifies the attaining C622 and the nonattaining construction direction.
 
 | Exact object or parameter | True `(V,E,F)` | Strict `(S,U,H)` | Physical weak `(VE,EF,VF)` |
 |---|---|---|---|
@@ -362,7 +362,7 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -B REPLAY_DISCOVERY.py
 
 Its observed final marker is `C592_SAVED_DISCOVERY_INPUT_RATIONALIZATION_REPLAY_PASS`. The exact reconstruction does not depend on rerunning that locator.
 
-Convenience copies: [standalone recovery](sandbox:/mnt/data/recover_c592.py) and [source, complete reports and receipts](sandbox:/mnt/data/c592_exact_handoff.zip). The bundle is1092419 bytes, SHA-256 `cf64454b559c520a3c48f81750e26c6eb7c506743000f4317ca6242cc9f47594`. These links supplement the complete embedded recovery; no claimed new object is download-only. The mathematical proofs and exact computations are not claimed to be proof-assistant formalizations.
+Convenience copies: standalone recovery (`recover_c592.py`) and source, complete reports and receipts (`c592_exact_handoff.zip`). The bundle is1092419 bytes, SHA-256 `cf64454b559c520a3c48f81750e26c6eb7c506743000f4317ca6242cc9f47594`. These links supplement the complete embedded recovery; no claimed new object is download-only. The mathematical proofs and exact computations are not claimed to be proof-assistant formalizations.
 
 ## 11. Complete self-contained recovery capsule
 

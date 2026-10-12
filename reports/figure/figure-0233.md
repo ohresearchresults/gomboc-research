@@ -12,18 +12,18 @@ AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md
 
 `(H,V,E)=(11,18,27)`, equivalently primal `(V,E,F)=(18,27,11)`, complexity `54`, and strict `(S,U,H)=(2,2,2)`.
 
-The acceptance gate remains a finite own-centred body with one stable maximal face, one unstable vertex, no saddle true edges, exact incidence and mass data, positive margins, independent verification, and matching meshes. :contentReference[oaicite:0]{index=0} The parent J50 packet and the required all-sector successor are recorded in the journal. :contentReference[oaicite:1]{index=1}
+The acceptance gate remains a finite own-centred body with one stable maximal face, one unstable vertex, no saddle true edges, exact incidence and mass data, positive margins, independent verification, and matching meshes. The parent J50 packet and the required all-sector successor are recorded in the journal.
 
 ## Exact artifacts
 
-- [Complete archive](sandbox:/mnt/data/Nimble_Comet_79_J51_Y3_terminal11_exact_NONWINNER.zip) — SHA-256 `dd44e3d94964cb7fd444df3e63da58222dac5a163ca324bded0bb3ef58e44f72`
-- [Expanded mathematical report](sandbox:/mnt/data/Nimble_Comet_79_J51_Y3_terminal11_exact_NONWINNER_RESULT.md)
-- [Archive hash receipt](sandbox:/mnt/data/Nimble_Comet_79_J51_Y3_terminal11_exact_NONWINNER.zip.sha256), [independent verification receipt](sandbox:/mnt/data/Nimble_Comet_79_J51_Y3_terminal11_VERIFICATION_RECEIPT.json), and [transcript](sandbox:/mnt/data/Nimble_Comet_79_J51_Y3_terminal11_VERIFICATION_TRANSCRIPT.txt)
-- [Deterministic exact source](sandbox:/mnt/data/J51_Y3_terminal11_exact_source.json), [centroid certificate](sandbox:/mnt/data/J51_exact_ordinary_centroid.json), [incidence certificate](sandbox:/mnt/data/J51_exact_incidence_irredundancy.json), [mechanics summary](sandbox:/mnt/data/J51_exact_mechanics_summary.json), and [full mechanics ledger](sandbox:/mnt/data/J51_mechanical_ledgers_point.json.gz)
-- [Connected shell](sandbox:/mnt/data/J50_to_J51_connected_positive_volume_shell.json), [Y-spine](sandbox:/mnt/data/J51_Y_shaped_cross_link_spine.json), [feature genealogy](sandbox:/mnt/data/J50_to_J51_feature_genealogy.json), [external-arrow census](sandbox:/mnt/data/J51_complete_external_arrow_census.json), [forcing proof](sandbox:/mnt/data/J51_residual_forcing_obstruction.json), and [chronology obstruction](sandbox:/mnt/data/J51_death_before_birth_chronology_obstruction.json)
-- [Two-control certificate](sandbox:/mnt/data/J51_two_control_exact_response.json), [perturbation certificate](sandbox:/mnt/data/J51_exact_metric_perturbation_box.json), [full perturbation ledger](sandbox:/mnt/data/J51_exact_two_parameter_shape_box_full.json), and [next-topology certificate](sandbox:/mnt/data/J51_first_remaining_nonserial_successor.json)
-- Exact tables: [active H](sandbox:/mnt/data/J51_H_active_exact.tsv.gz), [supplied H](sandbox:/mnt/data/J51_H_supplied_exact.tsv.gz), [V](sandbox:/mnt/data/J51_V_exact.tsv.gz), [face cycles](sandbox:/mnt/data/J51_maximal_face_cycles.tsv.gz), [true edges](sandbox:/mnt/data/J51_true_edges.tsv), [nonincidences](sandbox:/mnt/data/J51_nonincident_all.tsv.gz)
-- Meshes: [watertight OBJ](sandbox:/mnt/data/J51_Y3_terminal11.obj), [watertight STL](sandbox:/mnt/data/J51_Y3_terminal11.stl)
+- Complete archive (`Nimble_Comet_79_J51_Y3_terminal11_exact_NONWINNER.zip`) — SHA-256 `dd44e3d94964cb7fd444df3e63da58222dac5a163ca324bded0bb3ef58e44f72`
+- Expanded mathematical report (`Nimble_Comet_79_J51_Y3_terminal11_exact_NONWINNER_RESULT.md`)
+- Archive hash receipt (`Nimble_Comet_79_J51_Y3_terminal11_exact_NONWINNER.zip.sha256`), independent verification receipt (`Nimble_Comet_79_J51_Y3_terminal11_VERIFICATION_RECEIPT.json`), and transcript (`Nimble_Comet_79_J51_Y3_terminal11_VERIFICATION_TRANSCRIPT.txt`)
+- Deterministic exact source (`J51_Y3_terminal11_exact_source.json`), centroid certificate (`J51_exact_ordinary_centroid.json`), incidence certificate (`J51_exact_incidence_irredundancy.json`), mechanics summary (`J51_exact_mechanics_summary.json`), and full mechanics ledger (`J51_mechanical_ledgers_point.json.gz`)
+- Connected shell (`J50_to_J51_connected_positive_volume_shell.json`), Y-spine (`J51_Y_shaped_cross_link_spine.json`), feature genealogy (`J50_to_J51_feature_genealogy.json`), external-arrow census (`J51_complete_external_arrow_census.json`), forcing proof (`J51_residual_forcing_obstruction.json`), and chronology obstruction (`J51_death_before_birth_chronology_obstruction.json`)
+- Two-control certificate (`J51_two_control_exact_response.json`), perturbation certificate (`J51_exact_metric_perturbation_box.json`), full perturbation ledger (`J51_exact_two_parameter_shape_box_full.json`), and next-topology certificate (`J51_first_remaining_nonserial_successor.json`)
+- Exact tables: active H (`J51_H_active_exact.tsv.gz`), supplied H (`J51_H_supplied_exact.tsv.gz`), V (`J51_V_exact.tsv.gz`), face cycles (`J51_maximal_face_cycles.tsv.gz`), true edges (`J51_true_edges.tsv`), nonincidences (`J51_nonincident_all.tsv.gz`)
+- Meshes: watertight OBJ (`J51_Y3_terminal11.obj`), watertight STL (`J51_Y3_terminal11.stl`)
 
 A clean extraction passed `MANIFEST.sha256` before and after all independent replays.
 

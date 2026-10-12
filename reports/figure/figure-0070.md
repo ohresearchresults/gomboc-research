@@ -8,20 +8,20 @@ AI research report · 2026-08-26 UTC
 
 ## Outcome
 
-I did **not** find a certified own-centroid `(1,1,0)` polyhedron. The target 17-gonal base and unstable vertex 8 survive every retained checkpoint, but every connected bilateral continuation either remains in `(2,1,1)`, enters a genuine `(3,1,2)`/`(4,1,3)` transfer cell, or approaches a numerically degenerate support circuit without opening a target chamber. This respects the journal's requirement that any accepted object be checked with the body's true uniform-volume centroid and complete feature cones, rather than an origin surrogate. :contentReference[oaicite:0]{index=0}
+I did **not** find a certified own-centroid `(1,1,0)` polyhedron. The target 17-gonal base and unstable vertex 8 survive every retained checkpoint, but every connected bilateral continuation either remains in `(2,1,1)`, enters a genuine `(3,1,2)`/`(4,1,3)` transfer cell, or approaches a numerically degenerate support circuit without opening a target chamber. This respects the journal's requirement that any accepted object be checked with the body's true uniform-volume centroid and complete feature cones, rather than an origin surrogate.
 
-The starting C104 body and its residual witnesses were independently reproduced from the journal's 26 rows. :contentReference[oaicite:1]{index=1} The new work goes beyond the journal's rejected one-sided rail by splitting the central link, adding controls on both incident saddle strips and both top/bottom sides, then performing connected polar support cuts and two-sided dual caps. The journal correctly anticipated that a stable-only rail merely splits the pair. :contentReference[oaicite:2]{index=2}
+The starting C104 body and its residual witnesses were independently reproduced from the journal's 26 rows. The new work goes beyond the journal's rejected one-sided rail by splitting the central link, adding controls on both incident saddle strips and both top/bottom sides, then performing connected polar support cuts and two-sided dual caps. The journal correctly anticipated that a stable-only rail merely splits the pair.
 
 ## Reusable artifact
 
-The complete bundle is [p2_bilateral_patch_bundle.zip](sandbox:/mnt/data/p2_bilateral_patch_bundle.zip), SHA-256 `621d86ae900665a0333a222716f974227965537db0426009205dbf3a0f707192`. It includes all coordinates, strict audits, maximal-face cycles, true edges, OBJ/STL meshes, the complete topology path, polar rows, deterministic R160 generator, and a standalone verifier.
+The complete bundle is p2_bilateral_patch_bundle.zip, SHA-256 `621d86ae900665a0333a222716f974227965537db0426009205dbf3a0f707192`. It includes all coordinates, strict audits, maximal-face cycles, true edges, OBJ/STL meshes, the complete topology path, polar rows, deterministic R160 generator, and a standalone verifier.
 
 Key files:
 
-- [R160 coordinates](sandbox:/mnt/data/p2_bilateral_bundle/R160_bilateral_cut_centered.csv), [audit](sandbox:/mnt/data/p2_bilateral_bundle/R160_bilateral_cut_centered.audit.json), [combinatorics](sandbox:/mnt/data/p2_bilateral_bundle/R160_bilateral_cut_centered.combinatorics.txt), [OBJ](sandbox:/mnt/data/p2_bilateral_bundle/R160_bilateral_cut_centered.obj), [STL](sandbox:/mnt/data/p2_bilateral_bundle/R160_bilateral_cut_centered.stl)
-- [standalone verifier](sandbox:/mnt/data/p2_bilateral_bundle/independent_verify.py), [deterministic generator](sandbox:/mnt/data/p2_bilateral_bundle/R160_generator.py), [cut parameters](sandbox:/mnt/data/p2_bilateral_bundle/R160_cut_parameters.json)
-- [complete topology path](sandbox:/mnt/data/p2_bilateral_bundle/TOPOLOGY_PATH.md), [machine-readable path](sandbox:/mnt/data/p2_bilateral_bundle/topology_path.json), [continuation samples](sandbox:/mnt/data/p2_bilateral_bundle/cut_continuation.json), [Jacobian](sandbox:/mnt/data/p2_bilateral_bundle/cut_jacobian.json)
-- [D198 multi-rail wall coordinates](sandbox:/mnt/data/p2_bilateral_bundle/D198_multirail_wall_centered.csv), [strict audit](sandbox:/mnt/data/p2_bilateral_bundle/D198_multirail_wall_centered.audit.json), [polar support rows](sandbox:/mnt/data/p2_bilateral_bundle/D198_polar_support_rows.csv)
+- R160 coordinates (`R160_bilateral_cut_centered.csv`), audit (`R160_bilateral_cut_centered.audit.json`), combinatorics (`R160_bilateral_cut_centered.combinatorics.txt`), OBJ (`R160_bilateral_cut_centered.obj`), STL (`R160_bilateral_cut_centered.stl`)
+- standalone verifier (`independent_verify.py`), deterministic generator (`R160_generator.py`), cut parameters (`R160_cut_parameters.json`)
+- complete topology path (`TOPOLOGY_PATH.md`), machine-readable path (`topology_path.json`), continuation samples (`cut_continuation.json`), Jacobian (`cut_jacobian.json`)
+- D198 multi-rail wall coordinates (`D198_multirail_wall_centered.csv`), strict audit (`D198_multirail_wall_centered.audit.json`), polar support rows (`D198_polar_support_rows.csv`)
 
 ## Strongest robust open bilateral body: R160
 
@@ -45,7 +45,7 @@ Key files:
 - minimum inactive support slack: `9.873017514649973e-9`
 - maximum incident-plane residual: `7.605027718682322e-15`
 
-The support slack is about 9,873 times the verifier's `1e-12` adjacent-plane tolerance, so R160 is a real open `(2,1,1)` cell. It is not a near-merged false target. The journal's warning that a `2e-7*scale` incidence threshold can corrupt maximal faces is directly relevant here. :contentReference[oaicite:3]{index=3}
+The support slack is about 9,873 times the verifier's `1e-12` adjacent-plane tolerance, so R160 is a real open `(2,1,1)` cell. It is not a near-merged false target. The journal's warning that a `2e-7*scale` incidence threshold can corrupt maximal faces is directly relevant here.
 
 ## Strongest fully explicit multi-rail wall: D198, rejected as a certificate
 

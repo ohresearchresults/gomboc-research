@@ -26,7 +26,7 @@ implies
 
 This second theorem is an actual-body value inequality: it does not require the body to be stationary, does not require either G(C) or G(D) to have a specified sign, and does not impose the ordinary-B rigidity equation on a surrogate G. A complete three-domain exact certificate covers the full unbounded large-endpoint ranges. It has 1,649,998 nonnegative Bernstein coefficients, of which 1,254,665 are positive.
 
-The structural theorem uses full fixed-parameter **body** maximality, not maximality within a chosen incidence stratum. It also uses V2's canonical-mark exposure, whose stated source hypothesis is full marked-frame variation. Thus the exclusion applies to the full marked-body[private-runtime-path] maximum relevant to the global-attainment setup. The A-star theorem alone is not being silently upgraded into the same statement for a bare fixed-endpoint-only optimizer lacking that exposure. This distinction is material: V2 expressly identifies mark exposure as its additional joint hypothesis. :contentReference[oaicite:0]{index=0}
+The structural theorem uses full fixed-parameter **body** maximality, not maximality within a chosen incidence stratum. It also uses V2's canonical-mark exposure, whose stated source hypothesis is full marked-frame variation. Thus the exclusion applies to the full marked-body[private-runtime-path] maximum relevant to the global-attainment setup. The A-star theorem alone is not being silently upgraded into the same statement for a bare fixed-endpoint-only optimizer lacking that exposure. This distinction is material: V2 expressly identifies mark exposure as its additional joint hypothesis.
 
 No new mechanical E17 exclusion or attaining 110 body is claimed.
 
@@ -82,7 +82,7 @@ Use
 
 E denotes an integral. Every occurrence of r,q,G below belongs to this same actual uniformly filled body.
 
-For T>2, the supplied full-patch theorem permits a>b after interchanging A,B, puts P in z>=0, and makes A simple with facets x=0,y=0,z=0. Its proof allows expanded coordinate patches. :contentReference[oaicite:1]{index=1}
+For T>2, the supplied full-patch theorem permits a>b after interchanging A,B, puts P in z>=0, and makes A simple with facets x=0,y=0,z=0. Its proof allows expanded coordinate patches.
 
 Reflect x,y once, if necessary, so Fx is expanded and Fy=ABD. **Do not subsequently order c,d:** c is now the endpoint of the expanded patch, and either endpoint may be larger.
 
@@ -90,7 +90,7 @@ By V2, C,D are true vertices. Therefore AC and AD are true axis edges, and all a
 
     A,B,U,C  or  A,B,U,R,C,
 
-with BC not a true edge. In the pentagonal case UR is a true root edge. All auxiliary true vertices have positive G. A one-mark free facet is a genuine triangle XUV with G(U)=G(V)=-G(X)/3>0. Whole-facet hinges, rather than hinges of arbitrary triangulation pieces, are the allowed reactions. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+with BC not a true edge. In the pentagonal case UR is a true root edge. All auxiliary true vertices have positive G. A one-mark free facet is a genuine triangle XUV with G(U)=G(V)=-G(X)/3>0. Whole-facet hinges, rather than hinges of arbitrary triangulation pieces, are the allowed reactions.
 
 The true edge BD has a second free maximal facet F_BD containing exactly B,D. It cannot also contain C: the BCD plane would support Fx along BC, contradicting expansion. The only other possible free facets, apart from the base Fz and root, are a CD facet and ordinary one-mark B,C,D triangles. No additional A facet survives the A-star theorem; no mark-free free facet survives the positive-G spike condition.
 
@@ -108,7 +108,7 @@ For an ordinary triangle XUV with equal positive base level L, a nonroot base yi
 
 Since G=n-r is nonconstant on the positive-area root, that minimum edge is unique. It cannot have root, B and D as three incident facets. Thus there is at most one ordinary B/D facet in total.
 
-This is a **new argument in the enlarged octant**. The previous general “at most one ordinary facet, root-minimum base” theorem was stated only for proper33 or negative-z bodies; I have not imported it without its hypothesis. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+This is a **new argument in the enlarged octant**. The previous general “at most one ordinary facet, root-minimum base” theorem was stated only for proper33 or negative-z bodies; I have not imported it without its hypothesis.
 
 ### 3.3. The C-side coordinate edge cannot lead to an ordinary C facet
 
@@ -327,9 +327,9 @@ This includes S5 at zero cut and I4 at its appropriate endpoint cut. No geometri
 
 ### 5.4. Completion of the assigned value exclusion
 
-If 0<c,d<a, contract the actual root slightly toward an interior root point with x,y,z>0. The resulting actual root-only bodies have proper coordinate triangles, retain ell, and their V,E,N converge to the original body's integrals. The accepted octant root-only theorem gives T<203/100 along the contraction, hence T<=203/100 at the enlarged-patch limit. Its stated marked-closure bound has a margin of 1/100 below 51/25. :contentReference[oaicite:6]{index=6}
+If 0<c,d<a, contract the actual root slightly toward an interior root point with x,y,z>0. The resulting actual root-only bodies have proper coordinate triangles, retain ell, and their V,E,N converge to the original body's integrals. The accepted octant root-only theorem gives T<203/100 along the contraction, hence T<=203/100 at the enlarged-patch limit. Its stated marked-closure bound has a margin of 1/100 below 51/25.
 
-If one endpoint is at least a and the other at most a, the new certificate above gives T<=2. If both exceed a, the accepted large-minimum-endpoint theorem, min(c,d)>=13a/16 => T<2, applies. Its notebook statement covers all actual shapes/overhangs; no new replay is claimed here. :contentReference[oaicite:7]{index=7}
+If one endpoint is at least a and the other at most a, the new certificate above gives T<=2. If both exceed a, the accepted large-minimum-endpoint theorem, min(c,d)>=13a/16 => T<2, applies. Its notebook statement covers all actual shapes/overhangs; no new replay is claimed here.
 
 Thus every endpoint case of the structural family has T<=203/100. This closes the assigned full marked one-expanded/two-nonpositive high-maximizer sector, without borrowing the old mixed-sign high-c certificate.
 
@@ -435,7 +435,7 @@ Complete expected stdout:
     report_sha256=6f2c4c535d7b64db0955d94e1e3c18e10e29c8aa90cd5bee7c0777cc323c854f
     ONE_EXPANDED_TWO_NONPOSITIVE_V1_RECOVERY_PASS
 
-The final six-control source was run normally and then copied alone into a separate directory. The second report and stdout matched byte for byte. Optional copies: [source](sandbox:/mnt/data/one_expanded_v1.py), [full report](sandbox:/mnt/data/one_expanded_v1.json), [stdout](sandbox:/mnt/data/one_expanded_v1.out).
+The final six-control source was run normally and then copied alone into a separate directory. The second report and stdout matched byte for byte. Optional copies: source (`one_expanded_v1.py`), full report (`one_expanded_v1.json`), stdout (`one_expanded_v1.out`).
 
 The complete executable source follows. The coefficient arrays are regenerated and verified by it; hashes in the report are not substitutes for an unavailable coefficient table.
 
@@ -727,4 +727,4 @@ For a weaker optimization that fixes endpoints and forbids the mark/frame reacti
 
 The new value calculation is reusable outside stationarity: it covers all actual members of the stated root-only families with the C-side exposure bound and one endpoint on each side of a. It does not say that releasing a cut is monotone, that G-signs persist under a cut, or that an arbitrary root polygon can be replaced by one of these shapes.
 
-Zero endpoints, other expansion/sign patterns without a proved incidence mapping, and the physical common-SPD/mechanical E17 bridge remain separate. The six controls are nonwinning bodies, not attaining witnesses. No global registry count or lower complexity endpoint changes: 34<=C_min<=622 remains the accepted interval, and the exact mechanical minimum remains unresolved. :contentReference[oaicite:8]{index=8}
+Zero endpoints, other expansion/sign patterns without a proved incidence mapping, and the physical common-SPD/mechanical E17 bridge remain separate. The six controls are nonwinning bodies, not attaining witnesses. No global registry count or lower complexity endpoint changes: 34<=C_min<=622 remains the accepted interval, and the exact mechanical minimum remains unresolved.

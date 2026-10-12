@@ -4,7 +4,7 @@ AI research report · 2026-09-02 UTC
 
 ---
 
-The supplied journal's accepted boundary was the completed quartet collar: all 16 adjacent chambers were nonwinners, `PRE_16494` remained the strongest fixed-lattice endpoint, and the requested successor was a nonlocal stable-component exit preserving row `2092` and vertex `2693`. :contentReference[oaicite:0]{index=0} The run's non-negotiable acceptance gate requires an exact finite own-centred polyhedron with actual incidence, exhaustive strict mechanics, independent verification, and matching mesh data. :contentReference[oaicite:1]{index=1}
+The supplied journal's accepted boundary was the completed quartet collar: all 16 adjacent chambers were nonwinners, `PRE_16494` remained the strongest fixed-lattice endpoint, and the requested successor was a nonlocal stable-component exit preserving row `2092` and vertex `2693`. The run's non-negotiable acceptance gate requires an exact finite own-centred polyhedron with actual incidence, exhaustive strict mechanics, independent verification, and matching mesh data.
 
 # Calm Quartz 90 — exact nonlocal preserved-row obstruction
 
@@ -153,22 +153,22 @@ The exact next fixed-lattice question is a simultaneous exchange across one of t
 
 ## Delivered artifacts
 
-- [Complete exact NONWINNER archive](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER.zip) — SHA-256 `dafc244ec044481775fbd0a33d3b7ad75b7d6b9ab87f7c4ef207a3c67320df95`.
-- [Full Markdown handoff](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/CALM_QUARTZ_NONLOCAL_ROW2092_HANDOFF.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/CALM_QUARTZ_NONLOCAL_ROW2092_RESULT.json)
-- [Exact 67-node/56-leaf obstruction certificate](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/UNIQUE_STABLE_2092_EXACT_BRANCH_CERTIFICATE.json)
-- [Independent exact verifier](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/verify_unique_stable2092.py)
-- [Verifier PASS output](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/UNIQUE_STABLE_2092_VERIFY_OUTPUT.json)
-- [Exact row-2092 boundary and relay atlas](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/ROW2092_BOUNDARY_AND_RELAY_ATLAS.json)
-- [Clean verification receipt](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/CLEAN_VERIFICATION.json)
-- [Package verifier](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/verify_package.py)
-- [PRE endpoint H data](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_H.csv)
-- [PRE endpoint V data](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_V.csv)
-- [PRE endpoint true-edge data](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_true_edges.csv)
-- [PRE endpoint OBJ](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_mesh.obj)
-- [PRE endpoint STL](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/pre16494_mesh.stl)
-- [Accepted parent global spectral archive](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/Bright_Atlas_91_fixed_cover_SPD_global_frontier.zip)
-- [Prior complete quartet archive](sandbox:/mnt/data/Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER/Calm_Quartz_90_joint4_exact_NONWINNER.zip)
+- Complete exact NONWINNER archive (`Calm_Quartz_90_nonlocal_row2092_exact_NONWINNER.zip`) — SHA-256 `dafc244ec044481775fbd0a33d3b7ad75b7d6b9ab87f7c4ef207a3c67320df95`.
+- Full Markdown handoff (`CALM_QUARTZ_NONLOCAL_ROW2092_HANDOFF.md`)
+- Structured result (`CALM_QUARTZ_NONLOCAL_ROW2092_RESULT.json`)
+- Exact 67-node/56-leaf obstruction certificate (`UNIQUE_STABLE_2092_EXACT_BRANCH_CERTIFICATE.json`)
+- Independent exact verifier (`verify_unique_stable2092.py`)
+- Verifier PASS output (`UNIQUE_STABLE_2092_VERIFY_OUTPUT.json`)
+- Exact row-2092 boundary and relay atlas (`ROW2092_BOUNDARY_AND_RELAY_ATLAS.json`)
+- Clean verification receipt (`CLEAN_VERIFICATION.json`)
+- Package verifier (`verify_package.py`)
+- PRE endpoint H data (`pre16494_H.csv`)
+- PRE endpoint V data (`pre16494_V.csv`)
+- PRE endpoint true-edge data (`pre16494_true_edges.csv`)
+- PRE endpoint OBJ (`pre16494_mesh.obj`)
+- PRE endpoint STL (`pre16494_mesh.stl`)
+- Accepted parent global spectral archive (`Bright_Atlas_91_fixed_cover_SPD_global_frontier.zip`)
+- Prior complete quartet archive (`Calm_Quartz_90_joint4_exact_NONWINNER.zip`)
 
 ## Final statement
 

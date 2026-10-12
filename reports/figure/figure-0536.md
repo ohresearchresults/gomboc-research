@@ -14,7 +14,7 @@ The interrupted continuation left no inspectable post-parent candidate, complete
 
 During closeout I recovered the literal COMET65 source, reran its tetrahedron/cube/closed-weak/false-weak controls, and completed fresh full exact audits of **COMPACT_G6** and **FAST_WHOLE_G7**. All six parent input/audit/summary byte receipts matched. I also constructed exact active-only H descriptions and verified that removing the inactive rows leaves the entire body, maximal facets, and true edges unchanged. The resulting carrier index is supplied below. These are recovery and representation checks on existing bodies—not new physical constructions or an independent second hull implementation.
 
-The strongest reconstructible construction remains the COMET65 parent, whose two selected mass-normalized bodies are own121, not own110. Its finite senior-carrier replacement transfers the root rather than annihilating it. :contentReference[oaicite:0]{index=0}
+The strongest reconstructible construction remains the COMET65 parent, whose two selected mass-normalized bodies are own121, not own110. Its finite senior-carrier replacement transfers the root rather than annihilating it.
 
 ## Source and context receipt
 
@@ -53,7 +53,7 @@ M = (-0.16126667563778715, -0.027420680148476564, 0.14546608999900723)
 g = (-0.08208588994214196, -0.013957322080986188, 0.07404327897718714)
 ```
 
-These decimals are displays only. The self-contained source below reconstructs and emits the complete rational volume, first moments, centroid, vertices, planes, and all mechanical tests. COMPACT_G6 retains the useful 60/61-bit maximum vertex numerator/denominator complexity reported by its parent; it does not require the 20536-bit mass-normalized coordinates for further construction. :contentReference[oaicite:1]{index=1}
+These decimals are displays only. The self-contained source below reconstructs and emits the complete rational volume, first moments, centroid, vertices, planes, and all mechanical tests. COMPACT_G6 retains the useful 60/61-bit maximum vertex numerator/denominator complexity reported by its parent; it does not require the 20536-bit mass-normalized coordinates for further construction.
 
 ### Complete raw COMPACT_G6 positive interface
 
@@ -97,7 +97,7 @@ relative depth approximately 0.42500966445761024
 Q positive interfaces = []
 ```
 
-**Raw FAST's stable facet is 0, not the normalized MASS_FAST65 facet 3.** The polygon is the corresponding stable carrier; canonical plane ordering changes under normalization. Likewise, the raw relative depths above are not numerically identical to those of the rational, slightly anisotropic normalized bodies. The latter's values and labels remain as stated in the parent, not substituted into these raw audits. :contentReference[oaicite:2]{index=2}
+**Raw FAST's stable facet is 0, not the normalized MASS_FAST65 facet 3.** The polygon is the corresponding stable carrier; canonical plane ordering changes under normalization. Likewise, the raw relative depths above are not numerically identical to those of the rational, slightly anisotropic normalized bodies. The latter's values and labels remain as stated in the parent, not substituted into these raw audits.
 
 For exact recovery of either bar, use the emitted rational centred coordinates X_i=v_i−g. Birth is X_peak·X_peak. On the stated saddle edge a–b, put A=X_a·X_a, B=X_a·X_b, C=X_b·X_b; death is `(A*C-B*B)/(A+C-2*B)`. The source independently verifies that death is the maximum cut weight and the minimum weight on the attaining path.
 
@@ -122,13 +122,13 @@ The following maps are freshly computed. “Original row” means the original r
 
 Accordingly, a concrete **candidate carrier block for investigation**, not a sufficiency theorem, is COMPACT active rows `[8,17,24,25,47]`, with stable row1 retained or released deliberately. FAST's analogous active block is `[17,21,25,48,57]`, again with stable row1 optional. These blocks identify the current root and saddle carriers; they do not encompass or cancel the entire P component by definition.
 
-The parent's nonsimple controls remain valuable: uniform WHOLE30_SEED is a genuine 151/227/78 body with a degree-four contact, while the old floating active-triple mapper duplicates a point there. That is an implementation limitation, not a geometric exclusion. Those controls and their many real positive bars remain preserved by the full literal parent; they were not newly reaudited in this closeout. :contentReference[oaicite:3]{index=3}
+The parent's nonsimple controls remain valuable: uniform WHOLE30_SEED is a genuine 151/227/78 body with a degree-four contact, while the old floating active-triple mapper duplicates a point there. That is an implementation limitation, not a geometric exclusion. Those controls and their many real positive bars remain preserved by the full literal parent; they were not newly reaudited in this closeout.
 
 ## What remains unresolved
 
 No new finite root cancellation, actual-mass compensation construction, contact-preserving deformation, or scoped impossibility theorem was completed beyond the parent. No finite-search count or optimizer success is credited to the interrupted interval.
 
-The continuation target remains simultaneous cancellation of the last positive P bar and preservation or recovery of S1 at the actual filled centroid. The primary raw entrance is COMPACT_G6 because of its 111-edge reserve and simpler arithmetic; FAST is a distinct shallower-bar alternative. Historical mass normalization is unnecessary for the original goal and is not a cancellation mechanism. The parent's normalization was a real affine remodelling followed by full exact re-audit, not evaluation at an assigned centre. :contentReference[oaicite:4]{index=4}
+The continuation target remains simultaneous cancellation of the last positive P bar and preservation or recovery of S1 at the actual filled centroid. The primary raw entrance is COMPACT_G6 because of its 111-edge reserve and simpler arithmetic; FAST is a distinct shallower-bar alternative. Historical mass normalization is unnecessary for the original goal and is not a cancellation mechanism. The parent's normalization was a real affine remodelling followed by full exact re-audit, not evaluation at an assigned centre.
 
 For a nonsimple continuation, deduplicating coincident active-triple intersections is necessary but not by itself a valid differential model: all incident supporting planes must remain concurrent when a contact is claimed to be preserved. No such new feasible contact deformation is certified here. The exact active-only inputs and carrier maps remove an avoidable representation ambiguity and provide an executable starting point without repeating historical recovery work.
 
@@ -331,6 +331,6 @@ The two audit lines additionally print elapsed execution time and their receipt 
 | COMET65_CLOSEOUT_SOURCES.zip | 27624 | `85f95f46245f652f73ea571b5d9077a2d54a2723523423464e2286196ab07344` |
 | COMET65_CLOSEOUT_AUDITS.zip | 18491846 | `b650eaa252c1dbe464f1e01fbad42ce1192173aa0ea82bbbeb771c1ac0928fd4` |
 
-Convenience copies: [standalone closeout recovery](sandbox:/mnt/data/COMET65_CLOSEOUT_RECOVERY.py), [complete closeout sources and observed log](sandbox:/mnt/data/COMET65_CLOSEOUT_SOURCES.zip), and [both full exact audits, active inputs, and carrier index](sandbox:/mnt/data/COMET65_CLOSEOUT_AUDITS.zip). The inline capsule is independently sufficient for recovery.
+Convenience copies: standalone closeout recovery (`COMET65_CLOSEOUT_RECOVERY.py`), complete closeout sources and observed log (`COMET65_CLOSEOUT_SOURCES.zip`), and both full exact audits, active inputs, and carrier index (`COMET65_CLOSEOUT_AUDITS.zip`). The inline capsule is independently sufficient for recovery.
 
 **Scientific endpoint unchanged: COMET65 own121 entrances remain valid; the last S/U/H defect pair has not been cancelled.**

@@ -8,7 +8,7 @@ AI research report · 2026-08-27 UTC
 
 ## Verdict
 
-**No finite homogeneous polyhedral Gömböc was obtained in the continuation.** The acceptance gate remains an exact own-volume-centroid class `(S,U,H)=(1,1,0)` with a finite H/V representation, complete maximal-face and true-edge lattice, positive full-normal-cone margins, independent verification, and matching OBJ/STL. :contentReference[oaicite:0]{index=0}
+**No finite homogeneous polyhedral Gömböc was obtained in the continuation.** The acceptance gate remains an exact own-volume-centroid class `(S,U,H)=(1,1,0)` with a finite H/V representation, complete maximal-face and true-edge lattice, positive full-normal-cone margins, independent verification, and matching OBJ/STL.
 
 The continuation did not supersede the previously delivered exact 16-vertex balanced-ring fallback. It did, however, identify a stronger mechanically correct ring seed and quantify why its fixed topology cannot supply the necessary mass transport before crossing real equilibrium walls.
 
@@ -19,7 +19,7 @@ The previous result established two facts:
 1. Sampling the Sloan fourth-root radial law does not inherit finite Fourier cancellation merely because `R^4` has azimuthal modes zero and one. Actual tetrahedral moment terms contain mixed factors such as `R_a^2R_bR_c`, with unbounded Fourier support.
 2. Five-point cancellation is exact when the **vertex coordinates themselves** have Laurent degree at most one, because `det(a,b,c)` then has degree at most three and `det(a,b,c)(a+b+c)` degree at most four.
 
-That addressed the moment half of the journal’s proposed ring architecture. :contentReference[oaicite:1]{index=1} The present continuation attacked the mechanical half by starting from the reconstructed Conway four-pentagonal-ring geometry, which is already strict `(1,1,0)` relative to a known axial mechanical centre.
+That addressed the moment half of the journal’s proposed ring architecture. The present continuation attacked the mechanical half by starting from the reconstructed Conway four-pentagonal-ring geometry, which is already strict `(1,1,0)` relative to a known axial mechanical centre.
 
 The principal new conclusion is:
 
@@ -295,28 +295,28 @@ Accordingly, no new object is claimed as a Gömböc or as an exact candidate.
 
 ### Previously certified exact fallback
 
-- [Complete exact ring handoff](sandbox:/mnt/data/fourier_ring_complete_handoff.zip)
-- [Exact algebraic generator and verifier](sandbox:/mnt/data/fourier_ring_handoff/exact_fourier_candidate.py)
-- [Machine-readable exact certificate](sandbox:/mnt/data/fourier_ring_handoff/fourier_ring_certificate.json)
-- [Expanded exact H/V/topology data](sandbox:/mnt/data/fourier_ring_handoff/fourier_ring_full_exact_data.json)
-- [Watertight OBJ](sandbox:/mnt/data/fourier_ring_handoff/fourier_ring_fallback.obj)
-- [Watertight STL](sandbox:/mnt/data/fourier_ring_handoff/fourier_ring_fallback.stl)
-- [Original full research bundle](sandbox:/mnt/data/fourier_ring_handoff/fourier_ring_research_bundle.zip)
+- Complete exact ring handoff (`fourier_ring_complete_handoff.zip`)
+- Exact algebraic generator and verifier (`exact_fourier_candidate.py`)
+- Machine-readable exact certificate (`fourier_ring_certificate.json`)
+- Expanded exact H/V/topology data (`fourier_ring_full_exact_data.json`)
+- Watertight OBJ (`fourier_ring_fallback.obj`)
+- Watertight STL (`fourier_ring_fallback.stl`)
+- Original full research bundle (`fourier_ring_research_bundle.zip`)
 
 ### New continuation artifacts
 
-- [Deterministic Conway ring reconstruction](sandbox:/mnt/data/fourier_ring_continuation/conway_affine_seed.py)
-- [Reconstructed Conway vertices, rings, faces and centres](sandbox:/mnt/data/fourier_ring_continuation/conway_affine_seed.json)
-- [Axial mechanical-interval constructor](sandbox:/mnt/data/fourier_ring_continuation/axis_mechanical_intervals.py)
-- [Centroid Jacobian and first-wall certificate](sandbox:/mnt/data/fourier_ring_continuation/conway_linear_certificate.json)
-- [Linear-analysis driver](sandbox:/mnt/data/fourier_ring_continuation/conway_linear_analysis.py)
-- [Fast full-feature fixed-topology evaluator](sandbox:/mnt/data/fourier_ring_continuation/conway_numba.py)
-- [Differentiable fixed-topology continuation](sandbox:/mnt/data/fourier_ring_continuation/torch_conway_center.py)
-- [Fixed separator-branch continuation](sandbox:/mnt/data/fourier_ring_continuation/torch_conway_branch.py)
-- [Global fixed-lattice CMA driver](sandbox:/mnt/data/fourier_ring_continuation/cma_conway_center.py)
-- [Strongest fixed-lattice CMA state](sandbox:/mnt/data/fourier_ring_continuation/cma_conway/s5.json)
-- [Coarse fifth-collar search driver](sandbox:/mnt/data/fourier_ring_continuation/search_conway_collar_coarse.py)
-- [Completed fifth-collar search manifest](sandbox:/mnt/data/fourier_ring_continuation/conway_collar_coarse.json)
+- Deterministic Conway ring reconstruction (`conway_affine_seed.py`)
+- Reconstructed Conway vertices, rings, faces and centres (`conway_affine_seed.json`)
+- Axial mechanical-interval constructor (`axis_mechanical_intervals.py`)
+- Centroid Jacobian and first-wall certificate (`conway_linear_certificate.json`)
+- Linear-analysis driver (`conway_linear_analysis.py`)
+- Fast full-feature fixed-topology evaluator (`conway_numba.py`)
+- Differentiable fixed-topology continuation (`torch_conway_center.py`)
+- Fixed separator-branch continuation (`torch_conway_branch.py`)
+- Global fixed-lattice CMA driver (`cma_conway_center.py`)
+- Strongest fixed-lattice CMA state (`s5.json`)
+- Coarse fifth-collar search driver (`search_conway_collar_coarse.py`)
+- Completed fifth-collar search manifest (`conway_collar_coarse.json`)
 
 ## Bottom line
 

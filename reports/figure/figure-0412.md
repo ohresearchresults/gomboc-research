@@ -12,7 +12,7 @@ Branch: `[internal-source-reference]`.
 
 **No new own110/weak000 construction, new exact nonwinner, or new geometric exclusion is established by this continuation.** The interrupted turn did not leave a recoverable continuation-specific candidate, solver transcript, or certificate in the mounted materials inspected for this closeout. I cannot reconstruct unrecorded experiments or assign them mathematical outcomes.
 
-The durable construction frontier therefore remains the supplied parent’s **B217 and Q53**, both own312/weak000, not own110. This closeout confirms preservation of their source closure; it does not present that confirmation as a scientific advance. The own110 incumbent recorded in the supplied notebook remains C622, V176/E311/F137. :contentReference[oaicite:0]{index=0}
+The durable construction frontier therefore remains the supplied parent’s **B217 and Q53**, both own312/weak000, not own110. This closeout confirms preservation of their source closure; it does not present that confirmation as a scientific advance. The own110 incumbent recorded in the supplied notebook remains C622, V176/E311/F137.
 
 ## 1. Source reading and what was actually checked now
 
@@ -34,13 +34,13 @@ The checks actually executed in this closeout were:
 - Authentication of the inherited 4,158-byte replay receipt and all **37 output files across its six bodies** against the receipt’s byte counts and SHA-256 values.
 - Recovery of the unchanged parent envelope, source tree, and inherited receipt into a fresh directory.
 
-**I did not rerun the geometric auditors or the numerical optimizers in this closeout.** The independent A/B, all-feature, tree/cut and third-mass audit results remain the parent’s previously executed results, whose preserved bytes were checked here. This distinction matters: checking a receipt’s identity is not a fresh mathematical replay. The parent explicitly documents the independent reconstruction and integration methods. :contentReference[oaicite:1]{index=1}
+**I did not rerun the geometric auditors or the numerical optimizers in this closeout.** The independent A/B, all-feature, tree/cut and third-mass audit results remain the parent’s previously executed results, whose preserved bytes were checked here. This distinction matters: checking a receipt’s identity is not a fresh mathematical replay. The parent explicitly documents the independent reconstruction and integration methods.
 
 No necessary exact dependency is missing for recovering B217 or Q53. The missing information is any unsaved work from the interrupted continuation—not the parent geometry or its auditors.
 
 ## 2. Exact frontier retained without alteration
 
-The following are inherited audited bodies, not newly computed successors in this turn. :contentReference[oaicite:2]{index=2}
+The following are inherited audited bodies, not newly computed successors in this turn.
 
 | Body | V/E/F | Strict S/U/H | Weak-only | Minimal common centered denominator bits |
 |---|---:|---:|---:|---:|
@@ -63,7 +63,7 @@ Its exact filled centroid is
 
 `(35633953978486748375803/2370444780652048591000000, 22896900476332098186943/1896355824521638872800000, 25161526167117592444393/948177912260819436400000)`.
 
-The canonical stable-face indices are `[0,49,104]`, the unique unstable vertex is raw-lex `14`, and the saddle edges are `[[40,41],[44,45]]`. These are own-filled-centroid classifications, not classifications about a freely chosen reference center. :contentReference[oaicite:3]{index=3}
+The canonical stable-face indices are `[0,49,104]`, the unique unstable vertex is raw-lex `14`, and the saddle edges are `[[40,41],[44,45]]`. These are own-filled-centroid classifications, not classifications about a freely chosen reference center.
 
 Exact input `VBASIN217_G1000000.json`: **2,592 bytes**, SHA-256
 
@@ -77,7 +77,7 @@ This is the separate exact contact completion obtained from B217 by changing onl
 
 `23407939183977069/31993770212000000`.
 
-The rational construction makes inputs51/53/54/55 coplanar, removes true edge53–55, and gives maximal quadrilateral face67. It is **not** the tolerance-merged numerical scout preceding B217’s grid freeze. Its stable-face indices are `[0,48,101]`, its unstable vertex is14, and its saddles remain `[[40,41],[44,45]]`. :contentReference[oaicite:4]{index=4}
+The rational construction makes inputs51/53/54/55 coplanar, removes true edge53–55, and gives maximal quadrilateral face67. It is **not** the tolerance-merged numerical scout preceding B217’s grid freeze. Its stable-face indices are `[0,48,101]`, its unstable vertex is14, and its saddles remain `[[40,41],[44,45]]`.
 
 Its generated exact input is **4,408 bytes**, SHA-256
 
@@ -91,17 +91,17 @@ Both B217 and Q53 retain an inherited complete physical true-edge escape tree wi
 
 `W(x,y) = x·(y−x)/(|x||y−x|) > 1/125000`
 
-at the body’s own filled centroid. Their physical bottleneck lies in `(8e-6,9e-6)`, and their centered-polar true-edge bottleneck lies in `(-0.241997,-0.241996)`. This is a complete physical U1 certificate for each fixed parent, not permission to reuse its arrows after changing the body or centroid. :contentReference[oaicite:5]{index=5}
+at the body’s own filled centroid. Their physical bottleneck lies in `(8e-6,9e-6)`, and their centered-polar true-edge bottleneck lies in `(-0.241997,-0.241996)`. This is a complete physical U1 certificate for each fixed parent, not permission to reuse its arrows after changing the body or centroid.
 
 The Q53 polar bottleneck cut is exactly
 
 `[38,40,41,48,49,52,56,57,59,60,61,62,63,64,65,69,72,73,74,75,76,77,83,84,85,87,89,92,93,96]`.
 
-**Stable face101 is outside that cut.** The two unwanted stable triangles are `[5,46,40]` and `[40,46,41]`, sharing true edge40–46. Both saddle carriers40–41 and44–45 remain unresolved. No deletion, cancellation, or finite redesign of either complete stable region is claimed in this continuation. :contentReference[oaicite:6]{index=6}
+**Stable face101 is outside that cut.** The two unwanted stable triangles are `[5,46,40]` and `[40,46,41]`, sharing true edge40–46. Both saddle carriers40–41 and44–45 remain unresolved. No deletion, cancellation, or finite redesign of either complete stable region is claimed in this continuation.
 
-The most useful continuation remains a finite physical replacement that treats those two stable carriers, both saddles, their supporting interface, and the volume response together. B217 supplies lower arithmetic cost; Q53 supplies an exact nonsimplicial contact. Neither the quadrilateral nor the present exposed-point list must remain fixed. The 56-point description allows 49 additional supplied points while retaining the sufficient bound V≤105 and hence E≤309. That is a complexity allowance, not an equilibrium-preservation guarantee. :contentReference[oaicite:7]{index=7}
+The most useful continuation remains a finite physical replacement that treats those two stable carriers, both saddles, their supporting interface, and the volume response together. B217 supplies lower arithmetic cost; Q53 supplies an exact nonsimplicial contact. Neither the quadrilateral nor the present exposed-point list must remain fixed. The 56-point description allows 49 additional supplied points while retaining the sufficient bound V≤105 and hence E≤309. That is a complexity allowance, not an equilibrium-preservation guarantee.
 
-AP300 remains a relevant exact control: improving its negative complete-graph polar bottleneck worsened its true-edge bottleneck and increased the stable count from3 to6. It must not be presented as evidence that scalar surrogate descent solves the complete-region problem. Previous finite solver stops and single-deletion screens also remain finite observations, not family exclusions. :contentReference[oaicite:8]{index=8}
+AP300 remains a relevant exact control: improving its negative complete-graph polar bottleneck worsened its true-edge bottleneck and increased the stable count from3 to6. It must not be presented as evidence that scalar surrogate descent solves the complete-region problem. Previous finite solver stops and single-deletion screens also remain finite observations, not family exclusions.
 
 ## 4. Reproducible closeout check
 
@@ -224,9 +224,9 @@ The parent’s previously observed mathematical terminal marker is:
 SC83_BRANCH_EXACT_6_BODIES_AB_MASS_TREES_AND_CONTROLS_PASS 4158 9efb2cac8e9145b687a6522694253441f996bd66a9723beae95c93703c3e6788
 ```
 
-That marker was **not newly generated here**. The exact input definitions, independent auditors, geometry generators, numerical producers, checkpoints, all non-default numerical settings, and expected mathematical output hashes remain in the supplied parent capsule. :contentReference[oaicite:9]{index=9}
+That marker was **not newly generated here**. The exact input definitions, independent auditors, geometry generators, numerical producers, checkpoints, all non-default numerical settings, and expected mathematical output hashes remain in the supplied parent capsule.
 
-Convenience artifacts confirmed or created in the active runtime: [closeout recovery/check program](sandbox:/mnt/data/SC83_FINISH_RECOVERY.py), [recovered authoritative parent envelope](sandbox:/mnt/data/SC83_FINISH_PRESERVED/PARENT_RESULT.json), and [preserved full parent archive](sandbox:/mnt/data/SC83_BRANCH_HANDOFF.zip).
+Convenience artifacts confirmed or created in the active runtime: closeout recovery/check program (`SC83_FINISH_RECOVERY.py`), recovered authoritative parent envelope (`PARENT_RESULT.json`), and preserved full parent archive (`SC83_BRANCH_HANDOFF.zip`).
 
 ## Final scientific status
 

@@ -263,8 +263,8 @@ STL               8e10a6a79182080ae040ade6645fced82ec948b861740c6eb8005cebf17bf3
 transcript        75fb1a95bba49dc1f5b3e42d1865aa6dd1cfd71ab9916f3b7c86dc07c0417fcd
 ```
 
-[Complete self-contained handoff, including all 162 face cycles and 250 true edges](sandbox:/mnt/data/m42_two_cell_exact/research_handoff.md)
+Complete self-contained handoff, including all 162 face cycles and 250 true edges (`research_handoff.md`)
 
-[Deterministic exact archive](sandbox:/mnt/data/m42_two_cell_exact_handoff.zip) · [archive digest](sandbox:/mnt/data/m42_two_cell_exact_handoff.zip.sha256) · [complete per-file manifest](sandbox:/mnt/data/m42_two_cell_exact/SHA256SUMS.txt)
+Deterministic exact archive (`m42_two_cell_exact_handoff.zip`) · archive digest (`m42_two_cell_exact_handoff.zip.sha256`) · complete per-file manifest (`SHA256SUMS.txt`)
 
-[Generator](sandbox:/mnt/data/m42_two_cell_exact/generate_exact_endpoint.py) · [master certificate](sandbox:/mnt/data/m42_two_cell_exact/certificate.json) · [exact verifier](sandbox:/mnt/data/m42_two_cell_exact/verify_exact_cleanroom.py) · [interval verifier](sandbox:/mnt/data/m42_two_cell_exact/verify_interval.py) · [first chamber atlas](sandbox:/mnt/data/m42_two_cell_exact/first_chamber_atlas.json) · [radial certificate](sandbox:/mnt/data/m42_two_cell_exact/radial_order_certificate.json) · [two-cell certificate](sandbox:/mnt/data/m42_two_cell_exact/two_cell_complex.json) · [verification transcript](sandbox:/mnt/data/m42_two_cell_exact/RUN_ALL_VERIFIERS.txt) · [OBJ](sandbox:/mnt/data/m42_two_cell_exact/body.obj) · [STL](sandbox:/mnt/data/m42_two_cell_exact/body.stl)
+Generator (`generate_exact_endpoint.py`) · master certificate (`certificate.json`) · exact verifier (`verify_exact_cleanroom.py`) · interval verifier (`verify_interval.py`) · first chamber atlas (`first_chamber_atlas.json`) · radial certificate (`radial_order_certificate.json`) · two-cell certificate (`two_cell_complex.json`) · verification transcript (`RUN_ALL_VERIFIERS.txt`) · OBJ (`body.obj`) · STL (`body.stl`)

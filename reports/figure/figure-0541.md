@@ -240,7 +240,7 @@ For the best own211 endpoint, `W53_GAUGE85_G6.json`: **2756 bytes**, SHA256 `9c7
 
 For the shared-root entrance, `W53_RETURN85_G6.json`: **2765 bytes**, SHA256 `087592d92c4bcad9e941c11b2b75bc6bfa8814f8ee1428464a8ec773e60215ca`; its audit: **113687 bytes**, SHA256 `e24801a7d37c6d02d2b2179082418c2dc8f2c984acc7372f528782b308e89526`.
 
-A [convenience bundle with all already-generated audits, carriers, clipping certificates and source](sandbox:/mnt/data/W53_HANDOFF.zip) and the [standalone decoder](sandbox:/mnt/data/W53_RECOVERY.py) supplement, but do not replace, the complete inline recovery source below.
+A convenience bundle with all already-generated audits, carriers, clipping certificates and source (`W53_HANDOFF.zip`) and the standalone decoder (`W53_RECOVERY.py`) supplement, but do not replace, the complete inline recovery source below.
 
 ## Complete runnable recovery capsule
 

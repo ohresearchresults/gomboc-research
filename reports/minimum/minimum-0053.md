@@ -174,7 +174,7 @@ The wrapper is **32,934 bytes**, SHA-256 `26810caf418a188d47eee8ecc5c6bfec17939b
 |Rebuilt inherited canonical296 catalogue|240929|efb10a4657a891cd13f6f62db94164bd4b3005e908dc55aae87db450930f704d|
 |Rebuilt inherited future3 ledger|148643|c4ad2a6251069a01ee6e117b9621f033c5965740bc6502034f3694c38f335516|
 
-A convenience copy is [recover_whole43.py](sandbox:/workspace/scratch/2d4a4bd60c77/recover_whole43.py). The full source below is the recovery authority; the link is supplementary.
+A convenience copy is recover_whole43.py. The full source below is the recovery authority; the link is supplementary.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

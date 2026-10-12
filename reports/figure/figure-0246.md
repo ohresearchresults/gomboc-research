@@ -22,7 +22,7 @@ positive independent-coordinate radius 2^-22
 
 Protected stable face `[0,H,C]` and protected unstable vertex `C` remain strict. The new packet is extra stable `[G,L,M]`, extra unstable `1975`, saddles `[1975,H]` and `[C,L]`, and the sole nonprotected all-external-positive changed edge `[0,1975]`.
 
-The accepted target requires a finite own-volume-centred strict `(1,1,0)` body with full H/V/E and cone evidence, exact or directed perturbation proof, independent replay, and OBJ/STL; theorem-only, auxiliary-centre, wall, and near-solution objects remain inadmissible. :contentReference[oaicite:0]{index=0} The immediate source and requested surgery are the sixth-support endpoint and seventh/two-support cage frontier recorded in the journal. :contentReference[oaicite:1]{index=1}
+The accepted target requires a finite own-volume-centred strict `(1,1,0)` body with full H/V/E and cone evidence, exact or directed perturbation proof, independent replay, and OBJ/STL; theorem-only, auxiliary-centre, wall, and near-solution objects remain inadmissible. The immediate source and requested surgery are the sixth-support endpoint and seventh/two-support cage frontier recorded in the journal.
 
 ## What changed relative to the supplied journal
 
@@ -540,31 +540,31 @@ Performing these as serial flips would repeat the transfer mechanism. The first 
 
 ## Delivered artifacts
 
-- [Complete exact NONWINNER archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER.zip)
-- [Complete Markdown handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_COMPLETE_HANDOFF.md)
-- [Structured wrapper result](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_COMPLETE_RESULT.json)
-- [Clean-extraction verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_clean_verification.json)
-- [Clean package replay](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_clean_replay.txt)
-- [Fresh clean replay from this continuation](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_clean_replay_final.txt)
-- [Exact 23-point generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/data/generator_exact.json)
-- [Supplied exact V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/data/input_vertices_exact.csv)
-- [Exact own-centred active V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Primitive irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/data/seventh_cage12_exact_H_irredundant.csv)
-- [All maximal-face mechanics](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/data/seventh_cage12_exact_faces.csv)
-- [All 60 directed vertex primitives](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/data/seventh_cage12_exact_vertex_primitives.csv)
-- [All 30 true edges and 120 full-cone components](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/data/seventh_cage12_exact_true_edges_full_cones.csv)
-- [Complete external-arrow ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/data/external_arrow_full_ledger.csv)
-- [Exact same-boundary transition certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/certificates/seventh_cage_shared_global_patch.json)
-- [Exact packet chronology](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/certificates/source_to_target_death_before_birth_obstruction.json)
-- [External-arrow anti-carrier certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/certificates/external_arrow_design_certificate.json)
-- [Residual forcing-edge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/certificates/residual_forced_edge_0_1975.json)
-- [Own-centroid perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Independent clean-room verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/scripts/verify_independent.py)
-- [Aggregate verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/RUN_ALL_VERIFIERS.sh)
-- [Package verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/verify_package.py)
-- [SHA-256 manifest](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/SHA256SUMS.txt)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER/mesh/body.stl)
+- Complete exact NONWINNER archive (`Calm_Quartz_90_wall242_seventh_cage_exact_NONWINNER.zip`)
+- Complete Markdown handoff (`Calm_Quartz_90_wall242_seventh_cage_COMPLETE_HANDOFF.md`)
+- Structured wrapper result (`Calm_Quartz_90_wall242_seventh_cage_COMPLETE_RESULT.json`)
+- Clean-extraction verification receipt (`Calm_Quartz_90_wall242_seventh_cage_clean_verification.json`)
+- Clean package replay (`Calm_Quartz_90_wall242_seventh_cage_clean_replay.txt`)
+- Fresh clean replay from this continuation (`Calm_Quartz_90_wall242_seventh_cage_clean_replay_final.txt`)
+- Exact 23-point generator (`generator_exact.json`)
+- Supplied exact V-data (`input_vertices_exact.csv`)
+- Exact own-centred active V-data (`active_vertices_centered_exact.csv`)
+- Primitive irredundant H-data (`seventh_cage12_exact_H_irredundant.csv`)
+- All maximal-face mechanics (`seventh_cage12_exact_faces.csv`)
+- All 60 directed vertex primitives (`seventh_cage12_exact_vertex_primitives.csv`)
+- All 30 true edges and 120 full-cone components (`seventh_cage12_exact_true_edges_full_cones.csv`)
+- Complete external-arrow ledger (`external_arrow_full_ledger.csv`)
+- Exact same-boundary transition certificate (`seventh_cage_shared_global_patch.json`)
+- Exact packet chronology (`source_to_target_death_before_birth_obstruction.json`)
+- External-arrow anti-carrier certificate (`external_arrow_design_certificate.json`)
+- Residual forcing-edge certificate (`residual_forced_edge_0_1975.json`)
+- Own-centroid perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Independent clean-room verifier (`verify_independent.py`)
+- Aggregate verifier (`RUN_ALL_VERIFIERS.sh`)
+- Package verifier (`verify_package.py`)
+- SHA-256 manifest (`SHA256SUMS.txt`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 ## Package integrity
 

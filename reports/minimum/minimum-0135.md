@@ -16,13 +16,13 @@ That critical geometry is **physically realizable as pure four-A**. A new exact 
 
 Thus the failed free-target actuator is a real physical method boundary, but not a full-shape obstruction. The new proof closes the **whole** critical horizontal residual, not just this family or a finite sample. Combined with the accepted normal-height and basal theorems, it closes all parallel-ridge four-A configurations, including weak spokes and all three two-apex degree types3/7,4/6,5/5.
 
-Unequal-height unique-adverse configurations and the apex-at-centroid-height wall remain outside the new theorem. Non-B8 E17 lattices and mixed EF/VF packets remain separate. No weak110 body,110 attainer, wholeE17 exclusion, census change or improvement of34<=C_min<=622 is claimed. :contentReference[oaicite:0]{index=0}
+Unequal-height unique-adverse configurations and the apex-at-centroid-height wall remain outside the new theorem. Non-B8 E17 lattices and mixed EF/VF packets remain separate. No weak110 body,110 attainer, wholeE17 exclusion, census change or improvement of34<=C_min<=622 is claimed.
 
 ## 2. Input authority and verification status
 
 The complete1680-line `research-journal(20260920-180602).md` was read consecutively through EOF, including the full literal required parent and its recovery capsule. It has302440 UTF-8 bytes and SHA-256 `a2a9f942eb269188f01da4c748bd6e895bb7092d9217f20bd4028219bdf760f3`.
 
-The authoritative parent is `minimum-0132`, title `NONBASAL_E17_NORMAL_AND_HORIZONTAL_RIDGE_V1`. Its41068-byte compact JSON envelope authenticates to the required SHA-256 `efc1244ee8a82c455c640b3c9f5674520f4579b93aff31d50744e24cb616496c`. Serialization is UTF-8, `ensure_ascii=False`, separators `(',',':')`, keys `version,result_markdown`, exactly one final LF in the Markdown string and no envelope-final LF. No source conflict was found. The parent's stated critical boundary and absence of a realizing pure-four fixture are preserved as historical status, now advanced below. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The authoritative parent is `minimum-0132`, title `NONBASAL_E17_NORMAL_AND_HORIZONTAL_RIDGE_V1`. Its41068-byte compact JSON envelope authenticates to the required SHA-256 `efc1244ee8a82c455c640b3c9f5674520f4579b93aff31d50744e24cb616496c`. Serialization is UTF-8, `ensure_ascii=False`, separators `(',',':')`, keys `version,result_markdown`, exactly one final LF in the Markdown string and no envelope-final LF. No source conflict was found. The parent's stated critical boundary and absence of a realizing pure-four fixture are preserved as historical status, now advanced below.
 
 The inherited basal and at-most-three-A results are working premises, not new claims or generic replays. The new computation imports no parent source or report. The full new source, original build/check, fresh source-only build/check and capsule-only build/check all executed with byte parity. All signs are exact in a real quadratic field; no floating tolerance or failed search is used as a proof. The analytic theorem is proved below independently of the controls. No proof-assistant formalization or literature-priority claim is made.
 
@@ -159,7 +159,7 @@ After opening the ridge, apply the inherited basal flow and its true quadrilater
 
     epsilon=min(1,c/[2(1+abs(R0))]),  delta=epsilon t^r.  (12)
 
-Every basal leading coefficient is epsilon d_i>0, and the ridge coefficient is at least c/2. This supplies a genuine first-order full regularization in the new target-critical sector. A source-side free vertex from the parent may require r=2; its exact negative Jx quadratic then gives the same second-order conclusion. The coupled realization is analytic because the original nonzero plane-intersection pivots remain nonzero. The intrinsic second jet necessarily includes C z2=-d and alpha.b-lambda.d; it is not obtained by adding frozen-star Hessians. The underlying basal construction and polygon-reaction distinction are the accepted parent's premises. :contentReference[oaicite:3]{index=3}
+Every basal leading coefficient is epsilon d_i>0, and the ridge coefficient is at least c/2. This supplies a genuine first-order full regularization in the new target-critical sector. A source-side free vertex from the parent may require r=2; its exact negative Jx quadratic then gives the same second-order conclusion. The coupled realization is analytic because the original nonzero plane-intersection pivots remain nonzero. The intrinsic second jet necessarily includes C z2=-d and alpha.b-lambda.d; it is not obtained by adding frozen-star Hessians. The underlying basal construction and polygon-reaction distinction are the accepted parent's premises.
 
 More generally, a horizontal weak ridge plus any number of basal simple A points regularizes by these arguments whenever at least two base vertices avoid all basal weak endpoints, on a polygonal roof with the same two-quadrilateral side structure.
 
@@ -335,7 +335,7 @@ Expected complete main stdout:
     critical_ridge.json 1969450 dc02862ba308f010514504b70860a32c1f98fd9cbd46f26c5bf9d0511ff79c79
     PARALLEL_RIDGE_FOUR_A_COMPLETE_RECOVERY_PASS
 
-Convenience copies: [plain complete source](sandbox:/mnt/data/ridge_complete/critical_ridge.py), [complete exact report](sandbox:/mnt/data/ridge_complete/critical_ridge.json), [recovery capsule](sandbox:/mnt/data/ridge_complete/recover_critical_ridge.py), [executed receipt](sandbox:/mnt/data/ridge_complete/build.txt). The literal capsule is sufficient without these links.
+Convenience copies: plain complete source (`critical_ridge.py`), complete exact report (`critical_ridge.json`), recovery capsule (`recover_critical_ridge.py`), executed receipt (`build.txt`). The literal capsule is sufficient without these links.
 
 ```python
 """PARALLEL_RIDGE_FOUR_A_COMPLETE_V1 exact recovery.

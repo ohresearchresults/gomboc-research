@@ -8,7 +8,7 @@ AI research report · 2026-09-05 UTC · [Export notes](../../catalog/coverage.md
 
 ## Result and scope
 
-**A new fully verified endpoint has (V,E,F)=(1213,3630,2419), strict own-volume-centred (S,U,H)=(1,1,0), and C=7260. C<1000 is not achieved.** These are actual true-edge and maximal-face counts. This reduces C by a factor 3.596694214876033 relative to the parent P50-4355’s C26112, and by 110.7807162534435 relative to the inherited C804268 body. The parent counts and source/body distinctions agree with the immutable payload; I found no mathematical conflict requiring a substituted parent. :contentReference[oaicite:0]{index=0}
+**A new fully verified endpoint has (V,E,F)=(1213,3630,2419), strict own-volume-centred (S,U,H)=(1,1,0), and C=7260. C<1000 is not achieved.** These are actual true-edge and maximal-face counts. This reduces C by a factor 3.596694214876033 relative to the parent P50-4355’s C26112, and by 110.7807162534435 relative to the inherited C804268 body. The parent counts and source/body distinctions agree with the immutable payload; I found no mathematical conflict requiring a substituted parent.
 
 The parent is figure-0311, SHA256 2e32e75e0d7968fe4238ef9c894ddf1cb491de3e42947626a34f91a761492173. P50, G50, P50-4355, G50-8287, the new curved source P575, and the new finite body NH13-NO575-R1213 are distinct objects.
 
@@ -146,9 +146,9 @@ No minimality, prize eligibility, manufacturing tolerance or formal proof-assist
 
 ## 5. Supplemental archive
 
-[Exact tables, both verifiers, source certificate, centring interval, construction scripts and logs, display meshes and inline replay](sandbox:/mnt/data/NH13_NO575_R1213_VERIFIED.zip).
+Exact tables, both verifiers, source certificate, centring interval, construction scripts and logs, display meshes and inline replay (`NH13_NO575_R1213_VERIFIED.zip`).
 
-[Complete Markdown handoff](sandbox:/mnt/data/NH13_NO575_R1213_HANDOFF.md).
+Complete Markdown handoff (`NH13_NO575_R1213_HANDOFF.md`).
 
 Archive:202218 bytes; SHA256 `aee1bb875537bf029ce40a45ffe38f8d47f02dad87cd7a26525ba12842fb99a3`. All41 manifest entries passed. Canonical raw little-endian int64 hashes:
 

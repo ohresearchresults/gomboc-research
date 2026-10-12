@@ -12,7 +12,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 At closeout I completed a source-integrity check and fresh exact reconstruction of both assigned entrances. Both remain uniformly filled, actual-volume-centred **strict211/additionalweak000/primitivezero000** bodies. Their entire reconstructed audit objects agree with the corresponding objects in the supplied parent archive. Neither has been renamed or presented as a new construction.
 
-The two entrances remain scientifically distinct: C84 provides low arithmetic and207 final edge slots; C336 provides substantially greater thickness and a lower birth-relative polar depth, with81 final edge slots. The supplied parent already establishes these alternatives and explicitly leaves the mass-coupled cancellation problem open. :contentReference[oaicite:0]{index=0}
+The two entrances remain scientifically distinct: C84 provides low arithmetic and207 final edge slots; C336 provides substantially greater thickness and a lower birth-relative polar depth, with81 final edge slots. The supplied parent already establishes these alternatives and explicitly leaves the mass-coupled cancellation problem open.
 
 ## Source authority and recovery status
 
@@ -120,7 +120,7 @@ Its complete selected physical escape tree is
 
 Only U5 is exempt. Tree depth is10; the minimum selected positive cosine is in `[1944420330,1944420331]/10^12`. The polar forest has roots9 and10, depth7 and minimum selected positive cosine in `[3311039536,3311039537]/10^12`.
 
-The body retains the parent's45-bit centred denominator. Its r/R is approximately0.0561815113 and Q birth-relative depth approximately0.9728654505. Those are conditioning and landscape descriptors, not evidence that the second stable basin is nearly cancelled. The literal parent records the same geometry, mass and full residual interface. :contentReference[oaicite:1]{index=1}
+The body retains the parent's45-bit centred denominator. Its r/R is approximately0.0561815113 and Q birth-relative depth approximately0.9728654505. Those are conditioning and landscape descriptors, not evidence that the second stable basin is nearly cancelled. The literal parent records the same geometry, mass and full residual interface.
 
 ## Preserved entrance B: C50_ENRICH59_RECON15_G4
 
@@ -163,11 +163,11 @@ path=[72,82,84,85,83,90,94,93,100,97,95,96,7]
 
 The exact physical escape forest has only root26, depth37 and minimum selected positive cosine in `[2150416650,2150416651]/10^12`. The polar forest has roots7 and72, depth20 and minimum selected positive cosine in `[2722215370,2722215371]/10^12`. Both complete forests are regenerated in `TWO_ENTRANCE_CHECKS.json`.
 
-The inherited r/R is approximately0.3148821279 and Q birth-relative depth approximately0.4924032568. The correct remaining interface is **24 vertices/22 cut edges**, as in the literal parent. :contentReference[oaicite:2]{index=2}
+The inherited r/R is approximately0.3148821279 and Q birth-relative depth approximately0.4924032568. The correct remaining interface is **24 vertices/22 cut edges**, as in the literal parent.
 
 ## Interpretation and continuation
 
-Nothing in this closeout changes the mathematical acceptance boundary. Both bodies still have two stable equilibria and one explicitly detected mixed-edge saddle. Empty P-bar lists establish genuine physical U1 at these endpoints, not simultaneous110. The earlier midpoint-C50 all-SPD obstruction does not transfer to either enriched geometry. The earlier whole-Q insertions on C168/C294 are material nonwinners, not stable cancellation; they remain preserved in the original parent capsule. :contentReference[oaicite:3]{index=3}
+Nothing in this closeout changes the mathematical acceptance boundary. Both bodies still have two stable equilibria and one explicitly detected mixed-edge saddle. Empty P-bar lists establish genuine physical U1 at these endpoints, not simultaneous110. The earlier midpoint-C50 all-SPD obstruction does not transfer to either enriched geometry. The earlier whole-Q insertions on C168/C294 are material nonwinners, not stable cancellation; they remain preserved in the original parent capsule.
 
 For the next construction attempt, I would start with **C336**, because its actual-centroid U1 is already verified and its polar well is appreciably less deep relative to birth. Its58-vertex representation permits up to27 additional vertices while staying within the sufficient `V<=85 => E<=249` bound. That is an incidence budget, not a feasibility guarantee. C84 should remain available as the low-arithmetic alternative with much more room for enrichment.
 
@@ -215,7 +215,7 @@ CAP_AUDIT_CONTROLS_TETRA_CUBE_AFFINE_GRAM_THREE_MASSES_PASS
 C50_CLOSEOUT_UNCHANGED_TWO_ENTRANCES_3_HASHES_PASS
 ```
 
-Convenience copies: [complete recovery script](sandbox:/mnt/data/RECOVER_C50_CLOSEOUT.py) and [six sources plus complete exact reports](sandbox:/mnt/data/C50_UNCHANGED_ENTRANCES_CLOSEOUT.zip). The ZIP is304017 bytes, SHA-256 `5a9d0445180d1b92bff1674475c193c7dc1f5116c5733314b260182b12a73df3`. These links supplement the complete inline recovery below.
+Convenience copies: complete recovery script (`RECOVER_C50_CLOSEOUT.py`) and six sources plus complete exact reports (`C50_UNCHANGED_ENTRANCES_CLOSEOUT.zip`). The ZIP is304017 bytes, SHA-256 `5a9d0445180d1b92bff1674475c193c7dc1f5116c5733314b260182b12a73df3`. These links supplement the complete inline recovery below.
 
 ```python
 from pathlib import Path

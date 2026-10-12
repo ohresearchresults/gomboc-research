@@ -32,9 +32,9 @@ Then for every real pair
 
 and for **every SPD Gram matrix `G`**, the corresponding raw rectangular support-stack cannot have strict `U=1` with additional-weak-U `=0`. Consequently no nonsingular affine member of this entire rectangle can be strict `110/weak000`.
 
-This direction is genuinely transverse to the immediately preceding theorem: the parent fixed `q=54/5=10.8` and varied `kappa[0][1]` with the second knot, whereas here `kappa[0][1]=7/50` is fixed and `q=kappa[1][0]` varies over `[10,12]`. The parent rectangle and its exact scope are recorded in the supplied journal. :contentReference[oaicite:0]{index=0}
+This direction is genuinely transverse to the immediately preceding theorem: the parent fixed `q=54/5=10.8` and varied `kappa[0][1]` with the second knot, whereas here `kappa[0][1]=7/50` is fixed and `q=kappa[1][0]` varies over `[10,12]`. The parent rectangle and its exact scope are recorded in the supplied journal.
 
-All curvatures are strictly positive and `1/2 < s < 1`; the positive-curvature N=4,M=2 chart therefore retains the standard maximal incidence `V=10,E=20,F=12,C=40`. :contentReference[oaicite:1]{index=1}
+All curvatures are strictly positive and `1/2 < s < 1`; the positive-curvature N=4,M=2 chart therefore retains the standard maximal incidence `V=10,E=20,F=12,C=40`.
 
 ## Exact certificate
 
@@ -54,7 +54,7 @@ C_ij(s,q) = V(s,q) B_ij(s,q).
 
 If a set of required positive arrows has sum `S=sum C_ij` negative definite, those arrows cannot all be positive under an SPD `G`: their positivity would imply `tr(SG)>0`, while `S<0` and `G>0` imply `tr(SG)<0`.
 
-The C40 graph has 31,500 spanning trees, hence 315,000 root-labelled escape trees; weak-free mono-U requires one of these positive rooted trees. This exact reduction is part of the supplied branch evidence. :contentReference[oaicite:2]{index=2}
+The C40 graph has 31,500 spanning trees, hence 315,000 root-labelled escape trees; weak-free mono-U requires one of these positive rooted trees. This exact reduction is part of the supplied branch evidence.
 
 Six closed `s`-subboxes cover the whole rectangle. The exact blocker counts are:
 
@@ -193,7 +193,7 @@ def main(payload,out):
 if __name__=='__main__':main(sys.argv[1] if len(sys.argv)>1 else 'C40_COUPLED_SQ_RECOVERY.b85.txt',sys.argv[2] if len(sys.argv)>2 else 'C40_COUPLED_SQ_RECOVERY')
 ~~~
 
-The literal payload is preserved in the generated recovery file rather than repeated a second time in this chat handoff; its exact byte count and cryptographic hashes above are authoritative, and the replay commands below consume that exact payload. Convenience copy: [C40_COUPLED_SQ_RECOVERY.b85.txt](sandbox:/mnt/data/C40_COUPLED_SQ_RECOVERY.b85.txt).
+The literal payload is preserved in the generated recovery file rather than repeated a second time in this chat handoff; its exact byte count and cryptographic hashes above are authoritative, and the replay commands below consume that exact payload. Convenience copy: C40_COUPLED_SQ_RECOVERY.b85.txt.
 
 Replay:
 
@@ -204,7 +204,7 @@ python -B -S C40_COUPLED_SQ_RECOVERY/VERIFY_C40_COUPLED_SQ_EXCLUSION.py C40_COUP
 
 The decoder was cold-executed and reproduced all three payload files byte-for-byte, after which the recovered exact verifier reproduced the theorem marker above.
 
-Convenience copies only: [payload](sandbox:/mnt/data/C40_COUPLED_SQ_RECOVERY.b85.txt), [decoder](sandbox:/mnt/data/RECOVER_C40_COUPLED_SQ_HANDOFF.py), [verifier](sandbox:/mnt/data/VERIFY_C40_COUPLED_SQ_EXCLUSION.py), [banks](sandbox:/mnt/data/C40_COUPLED_SQ_BANKS.json).
+Convenience copies only: payload (`C40_COUPLED_SQ_RECOVERY.b85.txt`), decoder (`RECOVER_C40_COUPLED_SQ_HANDOFF.py`), verifier (`VERIFY_C40_COUPLED_SQ_EXCLUSION.py`), banks (`C40_COUPLED_SQ_BANKS.json`).
 
 ## Most useful continuation
 

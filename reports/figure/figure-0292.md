@@ -8,7 +8,7 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 ## Journal status reconciled
 
-The recovered response was explicitly recorded as source evidence rather than an immutable or accepted completion, so none of its endpoint claims could be inherited without replay. :contentReference[oaicite:0]{index=0} The prose claims that an exact `alpha_star` and three dyadic belt depths exist, but supplies only formulas and says those four values are serialized in a missing exact-source file. :contentReference[oaicite:1]{index=1} The latest journal correction therefore asks for literal reconstruction or precise falsification of this orphan rather than acceptance by description. :contentReference[oaicite:2]{index=2}
+The recovered response was explicitly recorded as source evidence rather than an immutable or accepted completion, so none of its endpoint claims could be inherited without replay. The prose claims that an exact `alpha_star` and three dyadic belt depths exist, but supplies only formulas and says those four values are serialized in a missing exact-source file. The latest journal correction therefore asks for literal reconstruction or precise falsification of this orphan rather than acceptance by description.
 
 ## Determination
 
@@ -71,7 +71,7 @@ The canonical label order is
  2475,5000,14008,14009,14010,14011,14012,14013,14014,5003].
 ```
 
-These are the literal finite parent data recorded in the recovered source description. :contentReference[oaicite:3]{index=3}
+These are the literal finite parent data recorded in the recovered source description.
 
 Enumerate the raw dual hull exactly, solve `q_i·p=1` for each maximal dual face, and integrate
 
@@ -334,19 +334,19 @@ The first continuation is therefore forensic, not geometric: recover the literal
 
 ## Reproducible artifacts and immutable hashes
 
-- [Complete exact falsification archive](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION.zip) — SHA-256 `70483d3611d8d4d4e34e42c57486505aeb8244261c9b724a1970ac6bab299362`, 2,489,165 bytes.
-- [Archive SHA-256 sidecar](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION.zip.sha256).
-- [Standalone mathematical report](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/RESULT.md) — SHA-256 `1a518ad0366c3d47a3e48fff9228e63d138a50bfd198596b95cf30784734614d`.
-- [Compact exact source](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/source/compact_source.json) — SHA-256 `6b517290b553e5654c91c2c52bd3052054023379dfe7890b06b9c9a6ed53b89d`.
-- [Independent rational verifier](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/verifier/verify_exact_falsification.py) — SHA-256 `84418c2dc1d65d8d142e8ede25b53a5b9bc19f3639cf43f6f6b9c44a9c02f6b3`.
-- [Exact shear-wall contradiction](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/certificates/exact_shear_wall_contradiction.json) — SHA-256 `c5565b13fea5e55e3b762ca3d3c5817e63db0a4767746c829807097bf8cb0b33`.
-- [Exact shear chronology](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/certificates/exact_shear_chronology.json) — SHA-256 `dbcdfed5996b23adcef9a8426a491ec3c2ddd342b7d549cba52e0dd74ea57eb5`.
-- [Canonical post-wall H data](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/body/canonical_postwall_H_exact.tsv) — SHA-256 `f3133fcc6849a863ab6fb49fcebf39a569f860790c3e659708b0716213828aa9`.
-- [Canonical post-wall V data](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/body/canonical_postwall_V_exact.tsv) — SHA-256 `2710561abf2506427fcf69adad2d6582abea208fae98b4b0693add3b920e5be3`.
-- [Canonical post-wall OBJ](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/body/canonical_postwall.obj) / [STL](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/body/canonical_postwall.stl) — SHA-256 `ecfe2c7b8a31ac99555ab96a553c9bfa9ca94f63fc6b0b259af41baddc63addf` / `917d48787bf8144cb82ef1cb757af9fd4ef16c30fa915134f78918fe98a79eb1`.
-- [Exact 21-vertex belt-template OBJ](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/body/belt_template.obj) / [STL](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/body/belt_template.stl) — SHA-256 `2da4f57dd5caadca2d29aef42452123724887b9e4b5b43508aca66e015487583` / `38afd884038890bafba1edacd581f9a3a6dbbe2ebf4a1a9fdd6641bafd10c569`.
-- [SHA-256 manifest](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION/MANIFEST.sha256) — SHA-256 `70f38f8cc1f7708c4438e303403bcdd3eab9e58033e105b1d3230e3592966389`.
-- [Clean-extraction replay transcript](sandbox:/mnt/data/Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION_CLEAN_EXTRACTION.log) — SHA-256 `2518e243dfc30703e569f1d1dd90d93a153d369296c1efde54a9135da38cdb7d`.
+- Complete exact falsification archive (`Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION.zip`) — SHA-256 `70483d3611d8d4d4e34e42c57486505aeb8244261c9b724a1970ac6bab299362`, 2,489,165 bytes.
+- Archive SHA-256 sidecar (`Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION.zip.sha256`).
+- Standalone mathematical report (`RESULT.md`) — SHA-256 `1a518ad0366c3d47a3e48fff9228e63d138a50bfd198596b95cf30784734614d`.
+- Compact exact source (`compact_source.json`) — SHA-256 `6b517290b553e5654c91c2c52bd3052054023379dfe7890b06b9c9a6ed53b89d`.
+- Independent rational verifier (`verify_exact_falsification.py`) — SHA-256 `84418c2dc1d65d8d142e8ede25b53a5b9bc19f3639cf43f6f6b9c44a9c02f6b3`.
+- Exact shear-wall contradiction (`exact_shear_wall_contradiction.json`) — SHA-256 `c5565b13fea5e55e3b762ca3d3c5817e63db0a4767746c829807097bf8cb0b33`.
+- Exact shear chronology (`exact_shear_chronology.json`) — SHA-256 `dbcdfed5996b23adcef9a8426a491ec3c2ddd342b7d549cba52e0dd74ea57eb5`.
+- Canonical post-wall H data (`canonical_postwall_H_exact.tsv`) — SHA-256 `f3133fcc6849a863ab6fb49fcebf39a569f860790c3e659708b0716213828aa9`.
+- Canonical post-wall V data (`canonical_postwall_V_exact.tsv`) — SHA-256 `2710561abf2506427fcf69adad2d6582abea208fae98b4b0693add3b920e5be3`.
+- Canonical post-wall OBJ (`canonical_postwall.obj`) / STL (`canonical_postwall.stl`) — SHA-256 `ecfe2c7b8a31ac99555ab96a553c9bfa9ca94f63fc6b0b259af41baddc63addf` / `917d48787bf8144cb82ef1cb757af9fd4ef16c30fa915134f78918fe98a79eb1`.
+- Exact 21-vertex belt-template OBJ (`belt_template.obj`) / STL (`belt_template.stl`) — SHA-256 `2da4f57dd5caadca2d29aef42452123724887b9e4b5b43508aca66e015487583` / `38afd884038890bafba1edacd581f9a3a6dbbe2ebf4a1a9fdd6641bafd10c569`.
+- SHA-256 manifest (`MANIFEST.sha256`) — SHA-256 `70f38f8cc1f7708c4438e303403bcdd3eab9e58033e105b1d3230e3592966389`.
+- Clean-extraction replay transcript (`Keen_Quartz_73_J56_orphan_EXACT_FALSIFICATION_CLEAN_EXTRACTION.log`) — SHA-256 `2518e243dfc30703e569f1d1dd90d93a153d369296c1efde54a9135da38cdb7d`.
 
 ## Bottom line for continuation
 

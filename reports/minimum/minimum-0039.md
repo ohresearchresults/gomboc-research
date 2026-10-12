@@ -20,7 +20,7 @@ The proof has 151 root-specific records and 7477 integer matrix blocks. Includin
 
 ## 2. Authority, identities, and corrections to the parent
 
-The immutable parent is `minimum-0036`, SHA-256 `0a98364ee55c3f09547ba8066a783f79a5e89ad9e2571bb1311a08f257d09875`. Its39,588-byte compact UTF-8 version2 JSON envelope was authenticated from the current attachment, with **no final LF in its Markdown value**. It explicitly left the aggregate execution boundary open; this result does not reinterpret its individual checks as an already completed aggregate. :contentReference[oaicite:0]{index=0}
+The immutable parent is `minimum-0036`, SHA-256 `0a98364ee55c3f09547ba8066a783f79a5e89ad9e2571bb1311a08f257d09875`. Its39,588-byte compact UTF-8 version2 JSON envelope was authenticated from the current attachment, with **no final LF in its Markdown value**. It explicitly left the aggregate execution boundary open; this result does not reinterpret its individual checks as an already completed aggregate.
 
 The current journal checkpoint is 3235486 bytes/SHA-256 `1078a1c318b1d9a06cd0dd06b93e78ab7a0c305c03f6522a8044d0861918db3d`; the earlier checkpoint used for literal source extraction is 3204366 bytes/SHA-256 `60e55fd7ae0576c644d1cfc87d6c2fb825fe4c41d336382b24611bfa8d116d26`.
 
@@ -189,7 +189,7 @@ has `tr(G L_i)=-2D_i<=0`. A squared-norm comparison contributes twice the corres
 
 Now weight the contractions by the **actual** `d_t`, or by actual fan occurrences `f_at d_t` in ordinary records. First moments cancel by actual centering; offsets cancel by the genuine volume/cycle identities; second moments cancel by the common actual covariance tensor. The remaining escape and explicitly branched comparison terms have nonpositive total pairing withG. But `G` is nonzero PSD, every checked block is strictly positive definite, and the actual total fan mass is positive, so the same total pairing is strictly positive. This contradiction proves each stated continuous chamber exclusion.
 
-No moment-matching converse is used. In particular, the proof never replaces actual volumes by independently feasible positive weights, and never divides by a generic second-moment minor. The lead's degree-five actual-mass rigidity theorem and its exceptional full-second-tensor cube countercontrol are consistent with this argument: determinant substitution makes the rank-drop locus irrelevant to the validity of these certificates. :contentReference[oaicite:1]{index=1}
+No moment-matching converse is used. In particular, the proof never replaces actual volumes by independently feasible positive weights, and never divides by a generic second-moment minor. The lead's degree-five actual-mass rigidity theorem and its exceptional full-second-tensor cube countercontrol are consistent with this argument: determinant substitution makes the rank-drop locus irrelevant to the validity of these certificates.
 
 ### Complete continuous domain
 
@@ -345,6 +345,6 @@ The next graph-level obligation is representative root0, not another run on the 
 
 The complete source-only reconstruction and exact checks above are the durable result. The supplementary frozen bundle allows the standard-library checker to run without numerical regeneration:
 
-[Recovery source](sandbox:/mnt/data/recover_mp45_root3.py) · [Frozen coefficients, sources, reports and transcripts](sandbox:/mnt/data/NOVA54_MP45_ROOT3_WHOLE_DOMAIN_V3.zip).
+Recovery source (`recover_mp45_root3.py`) · Frozen coefficients, sources, reports and transcripts (`NOVA54_MP45_ROOT3_WHOLE_DOMAIN_V3.zip`).
 
 The frozen archive has 960594 bytes and SHA-256 `a1388687d46afe77d3206d44f56890e0cfd7ac6af7eb82f9e94c02fbd240bd77`. Its 40 manifest entries were checked after clean extraction, and the extracted standard-library replay produced exactly the 843-byte frozen-check transcript pinned above. No archive-only object is required by the source capsule.

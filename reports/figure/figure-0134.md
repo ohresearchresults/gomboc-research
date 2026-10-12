@@ -6,7 +6,7 @@ AI research report · 2026-08-28 UTC · [Export notes](../../catalog/coverage.md
 
 # Research handoff: M42 minimal 13-face/two-rail continuation
 
-The run's acceptance gate is still a finite homogeneous convex polyhedron evaluated at its own exact uniform-volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual H/V incidence, positive full-feature margins, independent verification, and OBJ/STL. :contentReference[oaicite:0]{index=0} The immediate inherited M42 frontier was the exact 47-vertex two-cell bridge whose defect had transferred to structural edge `(64,68)`, with the minimal 13-face/two-rail continuation explicitly identified. :contentReference[oaicite:1]{index=1}
+The run's acceptance gate is still a finite homogeneous convex polyhedron evaluated at its own exact uniform-volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual H/V incidence, positive full-feature margins, independent verification, and OBJ/STL. The immediate inherited M42 frontier was the exact 47-vertex two-cell bridge whose defect had transferred to structural edge `(64,68)`, with the minimal 13-face/two-rail continuation explicitly identified.
 
 ## What changed relative to the supplied journal
 
@@ -141,26 +141,26 @@ It should permit at least `82,83,76,77,87,89,94` and obsolete old rows `49,60,62
 
 ## Materialized artifacts
 
-- [Complete checksummed archive](sandbox:/mnt/data/M42_13face_two_rail_exact.zip) — SHA-256 `5bee9a05fdf00ce5b4f9884738453755b5efe12487ead2b07baa9b9d63d3c4b9`.
-- [Archive checksum](sandbox:/mnt/data/M42_13face_two_rail_exact.zip.sha256)
-- [Full standalone research handoff](sandbox:/mnt/data/M42_13face_two_rail_exact/research_handoff.md)
-- [Primary exact certificate](sandbox:/mnt/data/M42_13face_two_rail_exact/certificate.json)
-- [Exact coordinate and hard-moment generator](sandbox:/mnt/data/M42_13face_two_rail_exact/generate_exact_coordinates.py)
-- [Exact topology-cell atlas generator](sandbox:/mnt/data/M42_13face_two_rail_exact/generate_topology_event_atlas.py)
-- [All 95 old and new exact lattice rows with final active/inactive flags](sandbox:/mnt/data/M42_13face_two_rail_exact/coordinates_all_lattice.csv)
-- [Exact centred active V-representation](sandbox:/mnt/data/M42_13face_two_rail_exact/coordinates_active_centered.csv)
-- [Exact centred H-representation](sandbox:/mnt/data/M42_13face_two_rail_exact/halfspaces_centered.csv)
-- [Complete actual maximal-face cycles and face mechanics](sandbox:/mnt/data/M42_13face_two_rail_exact/faces.json)
-- [Complete 130-edge four-component audit](sandbox:/mnt/data/M42_13face_two_rail_exact/edges_four_component_audit.csv)
-- [Complete vertex mechanics](sandbox:/mnt/data/M42_13face_two_rail_exact/vertices_mechanics.csv)
-- [Complete 15-cell actual incidence and row-status atlas](sandbox:/mnt/data/M42_13face_two_rail_exact/topology_event_atlas.json)
-- [Compact topology-event ledger](sandbox:/mnt/data/M42_13face_two_rail_exact/topology_event_summary.csv)
-- [Independent exact V→H/H→V verifier](sandbox:/mnt/data/M42_13face_two_rail_exact/verify_exact.py)
-- [Directed interval-box verifier](sandbox:/mnt/data/M42_13face_two_rail_exact/verify_interval.py)
-- [Topology-atlas audit](sandbox:/mnt/data/M42_13face_two_rail_exact/verify_event_atlas.py)
-- [Watertight mesh verifier](sandbox:/mnt/data/M42_13face_two_rail_exact/verify_mesh.py)
-- [Run-all transcript](sandbox:/mnt/data/M42_13face_two_rail_exact/RUN_ALL_VERIFIERS.txt)
-- [OBJ](sandbox:/mnt/data/M42_13face_two_rail_exact/body.obj)
-- [STL](sandbox:/mnt/data/M42_13face_two_rail_exact/body.stl)
+- Complete checksummed archive (`M42_13face_two_rail_exact.zip`) — SHA-256 `5bee9a05fdf00ce5b4f9884738453755b5efe12487ead2b07baa9b9d63d3c4b9`.
+- Archive checksum (`M42_13face_two_rail_exact.zip.sha256`)
+- Full standalone research handoff (`research_handoff.md`)
+- Primary exact certificate (`certificate.json`)
+- Exact coordinate and hard-moment generator (`generate_exact_coordinates.py`)
+- Exact topology-cell atlas generator (`generate_topology_event_atlas.py`)
+- All 95 old and new exact lattice rows with final active/inactive flags (`coordinates_all_lattice.csv`)
+- Exact centred active V-representation (`coordinates_active_centered.csv`)
+- Exact centred H-representation (`halfspaces_centered.csv`)
+- Complete actual maximal-face cycles and face mechanics (`faces.json`)
+- Complete 130-edge four-component audit (`edges_four_component_audit.csv`)
+- Complete vertex mechanics (`vertices_mechanics.csv`)
+- Complete 15-cell actual incidence and row-status atlas (`topology_event_atlas.json`)
+- Compact topology-event ledger (`topology_event_summary.csv`)
+- Independent exact V→H/H→V verifier (`verify_exact.py`)
+- Directed interval-box verifier (`verify_interval.py`)
+- Topology-atlas audit (`verify_event_atlas.py`)
+- Watertight mesh verifier (`verify_mesh.py`)
+- Run-all transcript (`RUN_ALL_VERIFIERS.txt`)
+- OBJ (`body.obj`)
+- STL (`body.stl`)
 
 The archive was extracted into a clean directory; `sha256sum -c SHA256SUMS` and the complete `[internal-source-reference].sh` suite passed there.

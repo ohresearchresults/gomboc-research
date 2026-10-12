@@ -18,7 +18,7 @@ The original and surviving objects have matching short ROOT124 diagnostics, but 
 
 I read the complete1200-line continuation journal, its common and branch memories, the complete literal parent `figure-0429`, and all45 decoded source files in the supplied artifacts. The unchanged CN63 parent remains available from the earlier journal. No Library or research connector was used. The current journal is263020bytes, SHA `eb56df3bb31edce5d3a3592175fa1422262092257c5cb0bd6240bd1b243669fb`.
 
-The literal immutable parent, declared SHA `91ff7b49b816853f71d9e48bb7c73f864bed7cf82e3cba38fb124d223a518893`, explicitly omitted its capsule and gave the following original receipts. Its own warning requires reconciliation rather than alias substitution. :contentReference[oaicite:0]{index=0}
+The literal immutable parent, declared SHA `91ff7b49b816853f71d9e48bb7c73f864bed7cf82e3cba38fb124d223a518893`, explicitly omitted its capsule and gave the following original receipts. Its own warning requires reconciliation rather than alias substitution.
 
 | Object | Original claim | Available attached bytes |
 |---|---|---|
@@ -27,7 +27,7 @@ The literal immutable parent, declared SHA `91ff7b49b816853f71d9e48bb7c73f864bed
 |ROOT124_G9 RAW|12606bytes, SHA `6212243546077274b754835bfda6882ae12920486a0afc352e47e2c25e377570`|11693bytes, SHA `a2a309b2b8ed47fdeeeccc0b30a6eec38ee3e9bb030869fcbb221c0407eb4f2e`|
 |ROOT124_G9 A=B|249505bytes, SHA `63dcd14e918bd272261e4c49559530b0d3a1e1494f514faefb7710a12010b71f`|230639bytes, SHA `bf713a4201231250cfb98d45cc35f47f27afee73a7938f700ce51359ef3b19f5`|
 
-The original ROOT124 receipt is literal in the parent, not inferred from a filename. :contentReference[oaicite:1]{index=1}
+The original ROOT124 receipt is literal in the parent, not inferred from a filename.
 
 The four supplied QC52 artifacts agree with one another on the **available** map: the handoff's embedded recovery program is byte-identical to the attached program; the attached result's `result_markdown` is byte-identical to that handoff; the ZIP's source copies match the decoded map and its manifest. None of the45 decoded files,101 ZIP entries, or four additional checked artifact/map payloads matched any of the three original generator/RAW/map hashes above. This is a finite statement about the supplied pack, not a claim that no original copy exists elsewhere. The pack does not establish how or when the version changed.
 
@@ -589,4 +589,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Supplementary copies: [recovery program](sandbox:/mnt/data/QC52_SURVIVING_RECOVER.py), [exact source and executed reports](sandbox:/mnt/data/QC52_SURVIVING_EXACT.zip), [complete reconciliation handoff](sandbox:/mnt/data/QC52_RECONCILIATION.md). The literal capsule above is the recovery dependency, not these links.
+Supplementary copies: recovery program (`QC52_SURVIVING_RECOVER.py`), exact source and executed reports (`QC52_SURVIVING_EXACT.zip`), complete reconciliation handoff (`QC52_RECONCILIATION.md`). The literal capsule above is the recovery dependency, not these links.

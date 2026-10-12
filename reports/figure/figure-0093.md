@@ -6,7 +6,7 @@ AI research report · 2026-08-26 UTC
 
 # Verdict
 
-**No finite homogeneous convex polyhedral Gömböc was found.** The strongest requirement-complete exact endpoint is a fully certified fallback of strict own-centroid class `(S,U,H)=(2,2,2)`, not the required `(1,1,0)`. The journal's acceptance gate is a finite uniform-density body evaluated at its own exact volume centroid, with one stable face, one unstable vertex, no saddle, complete incidence, independent verification, and matching meshes. :contentReference[oaicite:0]{index=0} The supplied frontier required a connected nonlocal annulus with at least 13 ascent edges, an independent return branch, simultaneous separated circuit crossings, exact projective centring, and both inactive gaps above `10^-5`. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+**No finite homogeneous convex polyhedral Gömböc was found.** The strongest requirement-complete exact endpoint is a fully certified fallback of strict own-centroid class `(S,U,H)=(2,2,2)`, not the required `(1,1,0)`. The journal's acceptance gate is a finite uniform-density body evaluated at its own exact volume centroid, with one stable face, one unstable vertex, no saddle, complete incidence, independent verification, and matching meshes. The supplied frontier required a connected nonlocal annulus with at least 13 ascent edges, an independent return branch, simultaneous separated circuit crossings, exact projective centring, and both inactive gaps above `10^-5`.
 
 ## Exact connected annulus
 
@@ -17,7 +17,7 @@ A0--A1--...--A12--old17
 B0--B1--...--B12--old17.
 ```
 
-Every displayed segment is a true Q edge. Both ascent and return therefore contain exactly 13 actual extreme-row edges; all 31 Q rows are extreme. Full exact rational rows, centred Q, polar P, cycles, edges, and incidences are in [the exact endpoint](sandbox:/mnt/data/santalo_nonlocal_annulus_result/nonlocal_annulus_coupled_gate_exact.json). [This exact recurrence](sandbox:/mnt/data/santalo_nonlocal_annulus_result/regenerate_coupled_from_ruled.py) regenerates its raw Q rows from the ruled parent.
+Every displayed segment is a true Q edge. Both ascent and return therefore contain exactly 13 actual extreme-row edges; all 31 Q rows are extreme. Full exact rational rows, centred Q, polar P, cycles, edges, and incidences are in the exact endpoint (`nonlocal_annulus_coupled_gate_exact.json`). This exact recurrence (`regenerate_coupled_from_ruled.py`) regenerates its raw Q rows from the ruled parent.
 
 ## Simultaneous separated circuit crossing
 
@@ -35,7 +35,7 @@ negative side: (B0,A1),(B10,A11) = (18,6),(28,16)
 positive side: (A0,B1),(A10,B11) = (5,19),(15,29).
 ```
 
-The exact endpoint uses `t=-2549/2048` and global Q scale `515/512`. Both negative-side diagonals are true, both positive-side diagonals absent, and no row is lost. The wall has Q/P f-vectors `(31,75,46)/(46,75,31)`; either strict side has `(31,77,48)/(48,77,31)`. Exact determinants, supports, side topologies, and endpoint signs are in [the circuit map](sandbox:/mnt/data/santalo_nonlocal_annulus_result/simultaneous_separated_circuit_map.json).
+The exact endpoint uses `t=-2549/2048` and global Q scale `515/512`. Both negative-side diagonals are true, both positive-side diagonals absent, and no row is lost. The wall has Q/P f-vectors `(31,75,46)/(46,75,31)`; either strict side has `(31,77,48)/(48,77,31)`. Exact determinants, supports, side topologies, and endpoint signs are in the circuit map (`simultaneous_separated_circuit_map.json`).
 
 ## Exact centring and bounded polarity
 
@@ -51,7 +51,7 @@ u=c.
 
 Thus all three volume moments are equations, not penalties. For the strongest endpoint, the pre-gauge polar centroid is approximately `(0.5153654266332737,-2.8512996798005927,-0.005669350369481013)`, the projective denominator interval is `[0.5139783895862224,152.86220637702496]`, and the post-gauge first moment and centroid are exactly zero. The isolated control/Santaló root is exactly `(0,0,0)` in `[-2^-80,2^-80]^3`.
 
-Q rows `(0,1,3,4)` contain the origin with positive exact barycentric weights approximately `(0.1503220004,0.3301655804,0.3483472791,0.1711651401)`. The maximum support displacement on the whole root box is `1.3884889171728745e-23<1`, so the origin stays strictly interior and polarity stays bounded. Exact inequalities are in [the root-box certificate](sandbox:/mnt/data/santalo_nonlocal_annulus_result/root_box_boundedness_all.json).
+Q rows `(0,1,3,4)` contain the origin with positive exact barycentric weights approximately `(0.1503220004,0.3301655804,0.3483472791,0.1711651401)`. The maximum support displacement on the whole root box is `1.3884889171728745e-23<1`, so the origin stays strictly interior and polarity stays bounded. Exact inequalities are in the root-box certificate (`root_box_boundedness_all.json`).
 
 ## Strongest exact endpoint
 
@@ -95,13 +95,13 @@ P edge (9,46), dual Q edge (18,24)=(B0,B6)
 margin 0.05788110498123615.
 ```
 
-Closest excluded face, vertex, and edge margins are respectively `-0.018596391703338447`, `-0.0471896913423373`, and `-0.018598117646176453`. Every maximal face, every vertex including nonsimple full cones, and all 77 true edges are audited exactly. See [the complete normal-cone audit](sandbox:/mnt/data/santalo_nonlocal_annulus_result/full_normal_cone_audit.json) and [the compact certificate](sandbox:/mnt/data/santalo_nonlocal_annulus_result/certificate_summary.json).
+Closest excluded face, vertex, and edge margins are respectively `-0.018596391703338447`, `-0.0471896913423373`, and `-0.018598117646176453`. Every maximal face, every vertex including nonsimple full cones, and all 77 true edges are audited exactly. See the complete normal-cone audit (`full_normal_cone_audit.json`) and the compact certificate (`certificate_summary.json`).
 
 ## Independent return-branch moment control
 
 A separate closed 13+13 annulus tests internal pre-gauge cancellation. Three return-complex controls—relative branch separation, return-only radial bulge, and south-junction scale—solve the raw centroid to about `3e-14`. The centroid Jacobian has rank three, determinant `-2.1963479936224e-9`, singular values `(0.00470006999,0.00130005354,0.00035944760)`, and condition number `13.0758`. Thus moment rank is not the obstruction.
 
-After dyadic exactification and exact `u=c`, that body has Q/P f-vectors `(26,72,48)/(48,72,26)`, class `(5,2,5)`, and P/Q inactive gaps about `0.00107124`. Internal cancellation therefore multiplies the Morse block in this two-sheet topology. See [the moment cone](sandbox:/mnt/data/santalo_nonlocal_annulus_result/return_branch_moment_cone.json) and [the exact moment-balanced endpoint](sandbox:/mnt/data/santalo_nonlocal_annulus_result/nonlocal_annulus_moment_balanced_exact.json). No single returned endpoint simultaneously has the coupled endpoint's best mechanics and exactly zero pre-gauge moment; both are exactly own-centred after the required analytic gauge.
+After dyadic exactification and exact `u=c`, that body has Q/P f-vectors `(26,72,48)/(48,72,26)`, class `(5,2,5)`, and P/Q inactive gaps about `0.00107124`. Internal cancellation therefore multiplies the Morse block in this two-sheet topology. See the moment cone (`return_branch_moment_cone.json`) and the exact moment-balanced endpoint (`nonlocal_annulus_moment_balanced_exact.json`). No single returned endpoint simultaneously has the coupled endpoint's best mechanics and exactly zero pre-gauge moment; both are exactly own-centred after the required analytic gauge.
 
 ## Transferred equilibrium block
 
@@ -125,7 +125,7 @@ This is a finite-family delimitation, not a global impossibility theorem. The pa
 - `4,000` low-residual three-sheet trials (`3,975` valid); the stored `(2,2,2)` state had P gap `8.43e-8`;
 - local SQP/SLP refinements, all transferring or multiplying the closure block.
 
-Raw scope and checkpoints are in [search_obstruction_summary.json](sandbox:/mnt/data/santalo_nonlocal_annulus_result/search_obstruction_summary.json).
+Raw scope and checkpoints are in search_obstruction_summary.json.
 
 ## Structural obstruction and next topology
 
@@ -135,36 +135,36 @@ The smallest architecture not subsumed is a **finite-thickness three-sheet commu
 
 ## Independent verification and finite meshes
 
-[The independent verifier](sandbox:/mnt/data/santalo_nonlocal_annulus_result/verify_nonlocal_annulus_independent.py) uses only the Python standard library, enumerates every polar triple, rebuilds P/Q topology, recomputes exact volume moments and gauge, and audits every face, vertex full cone, true edge, incidence, and nonincidence. A fresh coupled run completed in `28.67 s`, returned `PASS`, and matched exact-record SHA-256
+The independent verifier (`verify_nonlocal_annulus_independent.py`) uses only the Python standard library, enumerates every polar triple, rebuilds P/Q topology, recomputes exact volume moments and gauge, and audits every face, vertex full cone, true edge, incidence, and nonincidence. A fresh coupled run completed in `28.67 s`, returned `PASS`, and matched exact-record SHA-256
 
 ```text
 6b0973875b7c3532333d24f602fda2451a4d9dc5e805362c3a13faec3d609ea6.
 ```
 
-Reports: [independent verification](sandbox:/mnt/data/santalo_nonlocal_annulus_result/verification/independent_verification_nonlocal_annulus_coupled_gate_exact.json), [fresh transcript](sandbox:/mnt/data/santalo_nonlocal_annulus_result/verification/verify_coupled_fresh_transcript.txt), and [mesh audit](sandbox:/mnt/data/santalo_nonlocal_annulus_result/mesh_integrity_report.json).
+Reports: independent verification (`independent_verification_nonlocal_annulus_coupled_gate_exact.json`), fresh transcript (`verify_coupled_fresh_transcript.txt`), and mesh audit (`mesh_integrity_report.json`).
 
 The strongest P mesh has `48` vertices, `31` maximal faces, `77` true edges, `92` STL triangles; Q has `31`, `48`, `77`, `58`. OBJ cycles match the certified cycles up to reversal.
 
-- [P OBJ](sandbox:/mnt/data/santalo_nonlocal_annulus_result/nonlocal_annulus_coupled_gate_P.obj)
-- [P STL](sandbox:/mnt/data/santalo_nonlocal_annulus_result/nonlocal_annulus_coupled_gate_P.stl)
-- [Q OBJ](sandbox:/mnt/data/santalo_nonlocal_annulus_result/nonlocal_annulus_coupled_gate_Q.obj)
-- [Q STL](sandbox:/mnt/data/santalo_nonlocal_annulus_result/nonlocal_annulus_coupled_gate_Q.stl)
+- P OBJ (`nonlocal_annulus_coupled_gate_P.obj`)
+- P STL (`nonlocal_annulus_coupled_gate_P.stl`)
+- Q OBJ (`nonlocal_annulus_coupled_gate_Q.obj`)
+- Q STL (`nonlocal_annulus_coupled_gate_Q.stl`)
 
 No coordinate-ball perturbation radius is claimed because there is no winner; exact strict signs and gaps prove open nonwinner chambers.
 
 ## Reproducible package
 
-[Complete archive](sandbox:/mnt/data/santalo_nonlocal_annulus_result.zip)
+Complete archive (`santalo_nonlocal_annulus_result.zip`)
 
 ```text
 SHA-256 19df5705efccf875ddf2bf45937fcd13747d0815ad85dd5c38604c6750000eee
 ```
 
-- [README](sandbox:/mnt/data/santalo_nonlocal_annulus_result/README.md)
-- [manifest](sandbox:/mnt/data/santalo_nonlocal_annulus_result/MANIFEST.json)
-- [SHA256SUMS](sandbox:/mnt/data/santalo_nonlocal_annulus_result/SHA256SUMS)
-- [replay driver](sandbox:/mnt/data/santalo_nonlocal_annulus_result/rebuild_all.py)
-- [coordinate/mesh rebuilder](sandbox:/mnt/data/santalo_nonlocal_annulus_result/rebuild_from_certificates.py)
+- README (`README.md`)
+- manifest (`MANIFEST.json`)
+- SHA256SUMS
+- replay driver (`rebuild_all.py`)
+- coordinate/mesh rebuilder (`rebuild_from_certificates.py`)
 
 Reproduction after unpacking:
 

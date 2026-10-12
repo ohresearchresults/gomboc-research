@@ -8,11 +8,11 @@ AI research report · 2026-08-27 UTC
 
 The branch-specific, machine-generated result is preserved in the following artifacts:
 
-- [Authoritative exact worker-result JSON](sandbox:/mnt/data/santalo_fixed_cover_final.json)
-- [Literal verdict, equilibrium class, and hard margin](sandbox:/mnt/data/santalo_fixed_cover_status.json)
-- [Complete Markdown handoff](sandbox:/mnt/data/santalo_fixed_cover_result/HANDOFF.md)
-- [Full certificate, verifier, exact generators, topology, audits, and meshes](sandbox:/mnt/data/santalo_fixed_cover_bundle.zip)
-- [Independent finite verifier](sandbox:/mnt/data/santalo_fixed_cover_result/verify_independent.py)
+- Authoritative exact worker-result JSON (`santalo_fixed_cover_final.json`)
+- Literal verdict, equilibrium class, and hard margin (`santalo_fixed_cover_status.json`)
+- Complete Markdown handoff (`HANDOFF.md`)
+- Full certificate, verifier, exact generators, topology, audits, and meshes (`santalo_fixed_cover_bundle.zip`)
+- Independent finite verifier (`verify_independent.py`)
 
 ## Fixed-cover reconstruction and Santaló audit
 

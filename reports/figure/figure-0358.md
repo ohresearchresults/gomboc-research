@@ -643,6 +643,6 @@ The new distinction is between three different obstacles: insufficient ascent bu
 
 The most useful next execution is to obtain the star114 receipt, evaluate the exact boundary-hop predicates, and then work on the face100 cavity with its exterior anchors allowed to move. A successful fixed-centre cavity should next receive an exact filled-moment correction and a complete own-centre audit. It should not be called own110 before that final step.
 
-Supplementary execution files, which are not a substitute for the literal definitions above: [primal-cavity work archive](sandbox:/mnt/data/atlas56_primal_cavity_handoff.zip).
+Supplementary execution files, which are not a substitute for the literal definitions above: primal-cavity work archive (`atlas56_primal_cavity_handoff.zip`).
 
 No global minimum, exclusion of unrestricted geometry, or new accepted C<630 record is asserted.

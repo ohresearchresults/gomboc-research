@@ -16,13 +16,13 @@ A second useful result is an exactly verified failure control for unrestricted w
 
 ## 1. Input authority and completed reading
 
-I read the complete supplied journal through its final branch-memory lines, all six selected source materials, and all sixteen decoded canonical source units. The original canonical computational closure was recovered from BOTH supplied parts, not replaced by another C622 identity. The named immutable canonical parent is figure-0373, SHA-256 8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d. Its separately published full historical envelope was not an additional computational dependency: the supplied scoped16 closure contains the complete generator, auditors, and numerical helpers used here. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+I read the complete supplied journal through its final branch-memory lines, all six selected source materials, and all sixteen decoded canonical source units. The original canonical computational closure was recovered from BOTH supplied parts, not replaced by another C622 identity. The named immutable canonical parent is figure-0373, SHA-256 8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d. Its separately published full historical envelope was not an additional computational dependency: the supplied scoped16 closure contains the complete generator, auditors, and numerical helpers used here.
 
-I executed the canonical exact replay, rather than relying only on inherited receipts. It produced SCOPED_EXACT_A_PASS, SCOPED_EXACT_B_PASS, and COORD_C622_SCOPED_CANONICAL_AB_MASS_CONTROLS_PASS. The resulting A.json and B.json were each 311825 bytes with SHA-256 142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0; raw.json was 15437 bytes with SHA-256 ac01d1625274b64f336a715e1f5462f40686f647f0b7d1a4d90a5ee21765adb5. This reproduces the canonical true176/311/137, ownstrict110weak000, not a new upper bound. :contentReference[oaicite:2]{index=2}
+I executed the canonical exact replay, rather than relying only on inherited receipts. It produced SCOPED_EXACT_A_PASS, SCOPED_EXACT_B_PASS, and COORD_C622_SCOPED_CANONICAL_AB_MASS_CONTROLS_PASS. The resulting A.json and B.json were each 311825 bytes with SHA-256 142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0; raw.json was 15437 bytes with SHA-256 ac01d1625274b64f336a715e1f5462f40686f647f0b7d1a4d90a5ee21765adb5. This reproduces the canonical true176/311/137, ownstrict110weak000, not a new upper bound.
 
-There is one concrete metadata conflict in the supplied pack: the global-cut proof says the second normalized base64 fragment has 13840 characters and the combined payload 27840. The literal canonical parts and successful decoder instead give **13864 and 27864**. The literal payload hashes and decoded 68603-byte source map match the canonical decoder. I used those actual bytes; no geometric identity was inferred from the mistyped lengths. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+There is one concrete metadata conflict in the supplied pack: the global-cut proof says the second normalized base64 fragment has 13840 characters and the combined payload 27840. The literal canonical parts and successful decoder instead give **13864 and 27864**. The literal payload hashes and decoded 68603-byte source map match the canonical decoder. I used those actual bytes; no geometric identity was inferred from the mistyped lengths.
 
-The previous 780 fixed-metric global-cut trials were not repeated. Their 773 numerical-root/Euler-valid records, all with numerical U>=2, remain inherited finite-locator evidence. The supplied twenty literal checkpoints were used as new starting inputs. :contentReference[oaicite:5]{index=5}
+The previous 780 fixed-metric global-cut trials were not repeated. Their 773 numerical-root/Euler-valid records, all with numerical U>=2, remain inherited finite-locator evidence. The supplied twenty literal checkpoints were used as new starting inputs.
 
 ## 2. New exact geometric controls
 
@@ -97,7 +97,7 @@ I ran the supplied metric_cut.py without modification on all twenty checkpoints.
 
     python -B metric_cut.py proof/A.json proof/raw.json global_checkpoint20.json metric20.json 20
 
-The completed report is 72397 bytes, SHA-256 9f6d13d0f7c9468c047c5b1e5f5374778c5b9f694a9801f2fe3be29aa28f4465. Observed terminal marker: COMMON_METRIC_CENTERED_CUT_LOCATOR_FINISHED_NOT_CERTIFICATE 20. This is a finite local locator result, not an all-SPD exclusion. The supplied source's reciprocal-metric and optimization definitions are retained unchanged. :contentReference[oaicite:6]{index=6}
+The completed report is 72397 bytes, SHA-256 9f6d13d0f7c9468c047c5b1e5f5374778c5b9f694a9801f2fe3be29aa28f4465. Observed terminal marker: COMMON_METRIC_CENTERED_CUT_LOCATOR_FINISHED_NOT_CERTIFICATE 20. This is a finite local locator result, not an all-SPD exclusion. The supplied source's reciprocal-metric and optimization definitions are retained unchanged.
 
 ### Positive projectivity plus common reciprocal metric on all twenty cut checkpoints
 
@@ -105,7 +105,7 @@ I also ran the supplied projective_ear.py in cut mode on all twenty checkpoints.
 
     python -B projective_ear.py proof/A.json proof/raw.json global_checkpoint20.json projective20.json cut 20
 
-The completed report is 116150 bytes, SHA-256 59b180d9bed5d0643921d8dd0c3acf40b7f61e6715e08ea74f6c0ea7431a652e. Observed marker: PROJECTIVE_AFFINE_TRUE_COM_LOCATOR_FINISHED_NOT_CERTIFICATE 20. The determinant-weighted projective refill and actual centroid calculation are the supplied ones. :contentReference[oaicite:7]{index=7}
+The completed report is 116150 bytes, SHA-256 59b180d9bed5d0643921d8dd0c3acf40b7f61e6715e08ea74f6c0ea7431a652e. Observed marker: PROJECTIVE_AFFINE_TRUE_COM_LOCATOR_FINISHED_NOT_CERTIFICATE 20. The determinant-weighted projective refill and actual centroid calculation are the supplied ones.
 
 All forty literal final parameter arrays, their checkpoint indices, numerical count pairs, and margins are included in NUMERICAL_ENDPOINTS.json in the capsule: 7017 bytes, SHA-256 dce4ae2accf3bc1e4dad47d4a79cb481ea6507a248da9734adb56128dc4bc201. No endpoint array is abbreviated.
 
@@ -150,7 +150,7 @@ I also inspected twenty shortest eligible edge-contraction starts through the su
 
 The protected exact C618 body is a more informative continuation object than an unprotected minimax endpoint: it preserves the small equilibrium census, has fully audited mechanics, and has already moved outside the labelled projective orbit.
 
-Its unwanted stable facet134 is the triangle [5,10,93]. Those vertices have degrees3,4,43 respectively, so arbitrary independent motion of that entire plane is NOT licensed by the simple-facet actuator theorem. The unwanted unstable vertex160 has true neighbors [152,159,163] and incident facets [45,99,135]. Facet99 has cycle [153,163,160,159,157,154], and facet135 has cycle [146,152,160,163,165,167,156]; every vertex of each of these two facets has degree3. They therefore supply actual independently movable local plane controls, unlike facet134. The inherited two-facet rank4 statement concerns their true volume/first-moment derivative, not automatic preservation of mechanics. :contentReference[oaicite:8]{index=8}
+Its unwanted stable facet134 is the triangle [5,10,93]. Those vertices have degrees3,4,43 respectively, so arbitrary independent motion of that entire plane is NOT licensed by the simple-facet actuator theorem. The unwanted unstable vertex160 has true neighbors [152,159,163] and incident facets [45,99,135]. Facet99 has cycle [153,163,160,159,157,154], and facet135 has cycle [146,152,160,163,165,167,156]; every vertex of each of these two facets has degree3. They therefore supply actual independently movable local plane controls, unlike facet134. The inherited two-facet rank4 statement concerns their true volume/first-moment derivative, not automatic preservation of mechanics.
 
 A useful next search should start from the frozen protected generator, preserve all currently safe nonroot and designated-root guards, and couple the nonsimple-root contact patch near facet134 with the genuine facet99/135 controls near vertex160. A nonlinear or second-order correction may be needed: the present protected first-order procedure made little progress. No successful root-annihilation path is supplied here. The unrestricted scalar minimax strategy should not be mistaken for progress merely because its worst deficit approaches zero.
 
@@ -564,4 +564,4 @@ For trajectory reproduction using the already supplied canonical numerical closu
 
 Floating trace byte identity is tied to the stated versions and numerical implementation, whereas the frozen exact-body verification is rational and independent of rerunning those locators. The protected frozen generator is sufficient to rebuild a fresh continuation chart with zero incremental parameters; it does not depend on the old transient optimizer vector.
 
-Convenience copies: [complete thirty-file original-plus-new source recovery](sandbox:/mnt/data/c622_work/SLOT2_COMPLETE_RECOVER.py), [exact audit outputs and numerical traces](sandbox:/mnt/data/slot2_c622_evidence.zip), and [exact final receipt](sandbox:/mnt/data/c622_work/checked2/SLOT2_RECEIPT.json). The thirty-file recovery is 73716 bytes, SHA-256 a02ed23631e0f14554a3b921392891d4c5b0e7f157e8c94a8ae59d40e59735f0. These links supplement, rather than replace, the embedded exact recovery above.
+Convenience copies: complete thirty-file original-plus-new source recovery (`SLOT2_COMPLETE_RECOVER.py`), exact audit outputs and numerical traces (`slot2_c622_evidence.zip`), and exact final receipt (`SLOT2_RECEIPT.json`). The thirty-file recovery is 73716 bytes, SHA-256 a02ed23631e0f14554a3b921392891d4c5b0e7f157e8c94a8ae59d40e59735f0. These links supplement, rather than replace, the embedded exact recovery above.

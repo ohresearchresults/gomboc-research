@@ -8,7 +8,7 @@ AI research report · 2026-08-27 UTC
 
 ## Verdict
 
-No 34–42-input own-centroid Gömböc was found. The strongest fully materialized endpoint is the exact 42-input rational body **M42-SLP**, but its exhaustive own-centroid class is strictly `(S,U,H)=(2,2,2)`, so I do **not** report it as a Gömböc. It does complete the requested macroscopic step: all inherited rows `17–24` become interior, the old stable triangle `(18,20,22)` and saddle `(23,24)` disappear from the rebuilt lattice, twelve new macroscopic rows carry body-scale volume and actuate all three first moments, and the defect transfers to one extra stable face, one extra unstable vertex, and two saddle edges. The exact seed and assigned corridor target are in the journal. :contentReference[oaicite:0]{index=0} The prior exclusion of shallow/local continuation is also preserved. :contentReference[oaicite:1]{index=1}
+No 34–42-input own-centroid Gömböc was found. The strongest fully materialized endpoint is the exact 42-input rational body **M42-SLP**, but its exhaustive own-centroid class is strictly `(S,U,H)=(2,2,2)`, so I do **not** report it as a Gömböc. It does complete the requested macroscopic step: all inherited rows `17–24` become interior, the old stable triangle `(18,20,22)` and saddle `(23,24)` disappear from the rebuilt lattice, twelve new macroscopic rows carry body-scale volume and actuate all three first moments, and the defect transfers to one extra stable face, one extra unstable vertex, and two saddle edges. The exact seed and assigned corridor target are in the journal. The prior exclusion of shallow/local continuation is also preserved.
 
 ## Exact generator and inputs
 
@@ -167,17 +167,17 @@ Four smallest immediate determinant walls were crossed independently: row 40 thr
 
 A separate SciPy-Qhull implementation with an independent interior-reference tetrahedral mass formula and separately coded cone audit reproduces `(29,67,40)`, volume `1.2340189751961848`, centroid `(0.2517395468588277,-0.6905980464951867,-0.1422907880625304)`, and exactly the same `(2,2,2)` feature set. The OBJ has 29 vertices/40 maximal faces; its triangulation and the 54-triangle STL are identical and watertight.
 
-- [Complete bundle](sandbox:/mnt/data/skew_corridor_M42_bundle.zip) — SHA-256 `7d5f92709664283edc284ad723f203f5a0f6934979f44ed271008466e5e43031`
-- [Exact rational generator/verifier](sandbox:/mnt/data/skew_corridor_M42_exact.py)
-- [Independent verifier](sandbox:/mnt/data/skew_corridor_M42_independent.py)
-- [42 exact inputs](sandbox:/mnt/data/skew_corridor_M42_input.csv)
-- [Exact own-centred rational rows](sandbox:/mnt/data/skew_corridor_M42_centered_rational.csv)
-- [Complete all-feature audit](sandbox:/mnt/data/skew_corridor_M42_audit.json)
-- [All 16 immediate circuit cells](sandbox:/mnt/data/skew_corridor_M42_circuit_cells.json)
-- [OBJ](sandbox:/mnt/data/skew_corridor_M42.obj)
-- [STL](sandbox:/mnt/data/skew_corridor_M42.stl)
-- [Independent report](sandbox:/mnt/data/skew_corridor_M42_independent_report.json)
-- [Full checksums](sandbox:/mnt/data/skew_corridor_M42_FULL_SHA256SUMS.txt)
+- Complete bundle (`skew_corridor_M42_bundle.zip`) — SHA-256 `7d5f92709664283edc284ad723f203f5a0f6934979f44ed271008466e5e43031`
+- Exact rational generator/verifier (`skew_corridor_M42_exact.py`)
+- Independent verifier (`skew_corridor_M42_independent.py`)
+- 42 exact inputs (`skew_corridor_M42_input.csv`)
+- Exact own-centred rational rows (`skew_corridor_M42_centered_rational.csv`)
+- Complete all-feature audit (`skew_corridor_M42_audit.json`)
+- All 16 immediate circuit cells (`skew_corridor_M42_circuit_cells.json`)
+- OBJ (`skew_corridor_M42.obj`)
+- STL (`skew_corridor_M42.stl`)
+- Independent report (`skew_corridor_M42_independent_report.json`)
+- Full checksums (`skew_corridor_M42_FULL_SHA256SUMS.txt`)
 
 Reproduce with `python skew_corridor_M42_exact.py --outdir .`, `python skew_corridor_M42_independent.py`, and `python skew_corridor_M42_circuit_cells.py`.
 

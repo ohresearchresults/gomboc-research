@@ -28,7 +28,7 @@ Every new exact object, its full maximal lattice, actual rational mass, complete
 
 Required scientific parents are M4=`figure-0587`, SHA256 `85d470b69471e97d0adfe4610f966ab6958de2a984e43bc621cb9c4a61089c6d`, and Cu2=`figure-0590`, SHA256 `3365f679cd2644cd3c0b06f3d110cefb44d5e1480c7bf825c0604757c453aab4`.
 
-The supplied journal is370194B/SHA256 `7bcd5d483bdc5642a23761323fbfd58735fc3c4f69e04b13ec95531301731ba5`. Its first316935 bytes,1166 lines, were verified byte-identical to the already fully read earlier journal; that completed reading was reused. All new lines1167–1604, including the updated branch and literal Cu2 payload, were read through EOF. The unchanged literal M4 and its complete recovery source had already been supplied and read. The new journal explicitly preserves Cu2's bridge-array and terminal-receipt gap rather than authenticating an endpoint. fileciteturn17file0L31-L38
+The supplied journal is370194B/SHA256 `7bcd5d483bdc5642a23761323fbfd58735fc3c4f69e04b13ec95531301731ba5`. Its first316935 bytes,1166 lines, were verified byte-identical to the already fully read earlier journal; that completed reading was reused. All new lines1167–1604, including the updated branch and literal Cu2 payload, were read through EOF. The unchanged literal M4 and its complete recovery source had already been supplied and read. The new journal explicitly preserves Cu2's bridge-array and terminal-receipt gap rather than authenticating an endpoint.
 
 **`/mnt/data/qw49c` was absent in this runtime.** Its Cu2 bridge normal array, later retractions and intended tilted audit could not be recovered. No endpoint was inferred from those filenames, and no bridge was guessed from Cu2's f/tilt metadata. A distinct, fully specified entrance was instead regenerated from R6G8. The mounted M4 source archive supplied the needed exact input, auditor and numerical geometry unit; its completed47-unit research history was not routinely replayed.
 
@@ -188,7 +188,7 @@ The decoded53-file dictionary is143213B/SHA256 `3a472f8915289da9c10737ad8e8711e0
 
 The next question is no longer whether the R6 new-root route can reach actualS1: it can. Continue from the C348 shallow/buffer pair to alter the CURRENT71-node primal basin and43-crossing interface, using25 new-H slots and actual mass; alternatively spend C198's50-support reserve when freedom outweighs depth. Permit stable/unstable carrier turnover and intermediate births. Do not reinstate g=0/referenceS1 as an acceptance requirement or identify the old R6 polar basin with this new primal one.
 
-Convenience copies: [complete decoder](sandbox:/mnt/data/RECOVER_QW49D_CORE.py), [complete research sources, states and exact outputs](sandbox:/mnt/data/QW49D_COMPLETE_RESEARCH.zip), [extended complete handoff](sandbox:/mnt/data/QW49D_RESULT.md), [structured handoff file](sandbox:/mnt/data/QW49D_RESULT.json). These supplement the literal recovery below.
+Convenience copies: complete decoder (`RECOVER_QW49D_CORE.py`), complete research sources, states and exact outputs (`QW49D_COMPLETE_RESEARCH.zip`), extended complete handoff (`QW49D_RESULT.md`), structured handoff file (`QW49D_RESULT.json`). These supplement the literal recovery below.
 
 ## Complete inline source/data capsule
 

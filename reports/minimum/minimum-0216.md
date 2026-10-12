@@ -10,7 +10,7 @@ AI research report · 2026-09-24 UTC · [Export notes](../../catalog/coverage.md
 
 **No: the constrained octagon in the assignment cannot have a sole strict radial maximum.** For every genuine convex heptagon B, its actual uniform area centroid c_B, and a=−3c_B, whenever Q=conv(a,B) has eight distinct true corners, Q has at least TWO strict radial-maximum corners under every positive-definite planar metric. Every possible root is covered, including a base root. Selected weak-arrow equalities are allowed.
 
-The missing connection is not a sharper angular estimate. Actual base area supplies **eight simultaneous own-vertex-excluded coefficient rows, each of total mass3 and with EVERY coefficient at most1**. The notebook already contains a dimension-free eight-vector obstruction with the weaker cap7/6. Applying that accepted algebraic theorem to these actual area rows closes the constrained heptagon completely. This is a new transfer of accepted working mathematics, not an independent re-proof of that finite vector theorem. :contentReference[oaicite:0]{index=0}
+The missing connection is not a sharper angular estimate. Actual base area supplies **eight simultaneous own-vertex-excluded coefficient rows, each of total mass3 and with EVERY coefficient at most1**. The notebook already contains a dimension-free eight-vector obstruction with the weaker cap7/6. Applying that accepted algebraic theorem to these actual area rows closes the constrained heptagon completely. This is a new transfer of accepted working mathematics, not an independent re-proof of that finite vector theorem.
 
 The transfer also extends the supplied PSD/refinement and collar theorem from at most seven to **at most eight actual true vertices**. Consequently the finite heptagonal-cap horizon c_H=(2/7,0,−1) of the direct projective parent has an all-root/all-SPD U2 collar. Its width is not evaluated. The positive-projective interior, unbounded parameter directions and joint epsilon→0 remain separate questions.
 
@@ -26,7 +26,7 @@ SHA256 7e379625c02a74dacfba1f6db9e4e291a8c3e8eecc0e39c90cfd01b879c33242
 POSITIVE_PROJECTIVE_TWO_CAP_AXIAL_ORBIT_AND_FINITE_HORIZONS_V1.
 ```
 
-The new coordinator material is `[internal-source-reference]`, `SEVEN_SHADOW_PSD_REFINEMENT_AND_HORIZON_REDUCTION_V1`. It identifies precisely the actual eight-vertex pyramid core and the relation a+3c_B=0. :contentReference[oaicite:1]{index=1} Neither the mother's2023 stresses nor the earlier endpoint6 certificate was replayed or modified.
+The new coordinator material is `[internal-source-reference]`, `SEVEN_SHADOW_PSD_REFINEMENT_AND_HORIZON_REDUCTION_V1`. It identifies precisely the actual eight-vertex pyramid core and the relation a+3c_B=0. Neither the mother's2023 stresses nor the earlier endpoint6 certificate was replayed or modified.
 
 The additional **accepted shared premise**, stated explicitly in the supplied notebook, is the following finite-vector theorem:
 
@@ -45,7 +45,7 @@ SHA256 b578a01ead261c6f7745122c22f4bb4767884e46ac46e1531b4e749a19332f95
 NOVA24_F9_SYNTHESIS_AND_RECIPROCAL_ACTUAL_TRACE_V1.
 ```
 
-The supplied notebook describes its complete115 rooted-type/5040-array coverage and1890 shifted-PD identities, and separately notes the primal cap1 consequence. :contentReference[oaicite:2]{index=2} I use that recorded theorem as an accepted premise. Its original finite certificate is not newly attached, reread or independently replayed here. In particular I do NOT substitute the physical conclusion F≥9 for the vector theorem, assume a uniform centroid of the polar, or require the physical Lambda identities. All new geometric steps below are proved explicitly; the new executable has no dependency on the old verifier.
+The supplied notebook describes its complete115 rooted-type/5040-array coverage and1890 shifted-PD identities, and separately notes the primal cap1 consequence. I use that recorded theorem as an accepted premise. Its original finite certificate is not newly attached, reread or independently replayed here. In particular I do NOT substitute the physical conclusion F≥9 for the vector theorem, assume a uniform centroid of the polar, or require the physical Lambda identities. All new geometric steps below are proved explicitly; the new executable has no dependency on the old verifier.
 
 ## 3. Exact actual-area mechanism
 
@@ -179,7 +179,7 @@ At rank3, an actual positive tetrahedral fan from each true vertex x_i gives
 
 where j,k,l are distinct and different from i, w_T are actual volume fractions and sum_Tw_T=1. Thus the same cap1 condition holds. The projected true vertices are distinct and nonzero. If their complete weak graph had a unique sink, norm growth would yield a rooted weak tree, contrary to the accepted eight-vector theorem. Therefore it has at least two sinks.
 
-At rank2, if LK has at most seven corners, use the supplied complete seven-corner theorem, since actual apex fans also give −K/3⊂K. If LK has eight corners, K has exactly eight true vertices and all project to distinct true corners; their projected actual tetrahedral rows again have cap1, so the eight-vector theorem applies. The complete seven-corner theorem is supplied in the new material, not an unfinished endpoint enumeration. :contentReference[oaicite:3]{index=3}
+At rank2, if LK has at most seven corners, use the supplied complete seven-corner theorem, since actual apex fans also give −K/3⊂K. If LK has eight corners, K has exactly eight true vertices and all project to distinct true corners; their projected actual tetrahedral rows again have cap1, so the eight-vector theorem applies. The complete seven-corner theorem is supplied in the new material, not an unfinished endpoint enumeration.
 
 At rank1 the projected interval has a negative and a positive endpoint, since the actual centroid is interior. Both endpoint fibres are closed.
 
@@ -204,7 +204,7 @@ Facet horizon, maximal-area image triangle i1,i2,i3:
  A_c=diag(h_i1,h_i2,h_i3)[Y_i1 Y_i2 Y_i3]⁻¹.
 ```
 
-The first limit is a pyramid with degree(v)+1 vertices, so degree≤7 now suffices. In the second, the three chosen facet vertices become e1,e2,e3; all other facet vertices have bounded barycentric coordinates, and all off-facet labels tend to0. A facet with at most seven corners therefore gives a full-dimensional limit with at most eight true vertices. Maximal-triangle ties and arbitrary relative denominator rates are handled by subsequences exactly as in the parent. Edge horizons remain the unrestricted-ratio tetrahedral case. :contentReference[oaicite:4]{index=4}
+The first limit is a pyramid with degree(v)+1 vertices, so degree≤7 now suffices. In the second, the three chosen facet vertices become e1,e2,e3; all other facet vertices have bounded barycentric coordinates, and all off-facet labels tend to0. A facet with at most seven corners therefore gives a full-dimensional limit with at most eight true vertices. Maximal-triangle ties and arbitrary relative denominator rates are handled by subsequences exactly as in the parent. Edge horizons remain the unrestricted-ratio tetrahedral case.
 
 In particular **c_H=(2/7,0,−1), exposing the heptagonal cap, is no longer an unresolved finite horizon**. It now has an all-root/all-SPD U2 collar for every fixed0<epsilon≤5. No claim is made that the entire neighborhood has one unchanged singular root labelling.
 
@@ -214,7 +214,7 @@ A compact consequence strengthens the parent's denominator statement: for any ep
 epsilon∈[epsilon0,5], |c|≤R, all actual h_i>0
 ```
 
-has min_i h_i≥delta. The old additional restriction staying a fixed distance from c_H can be dropped. A contrary sequence reaches a finite horizon at some positive epsilon limit, now excluded. This is an existence statement, not an evaluated bound. The mother's original finite-boundary description and former exception are literal in the parent. :contentReference[oaicite:5]{index=5}
+has min_i h_i≥delta. The old additional restriction staying a fixed distance from c_H can be dropped. A contrary sequence reaches a finite horizon at some positive epsilon limit, now excluded. This is an existence statement, not an evaluated bound. The mother's original finite-boundary description and former exception are literal in the parent.
 
 The remaining mother-domain questions are the positive interior outside the accepted axial band, unbounded c, and joint epsilon→0. The new collar is not an all-orbit exclusion or a conclusion about S1 under an independently chosen polar metric.
 
@@ -271,7 +271,7 @@ The notebook gives the following earlier rooted octagon, divided by10000:
 (−3091,3496),(−3780,1265),(−3235,−763),(2462,−4283).
 ```
 
-Its parent array is(0,0,1,2,3,4,5,0), all selected arrows are strict and0 is the sole strict radial maximum. This is an inherited control, not newly invented coordinates. The same notebook explicitly distinguishes its failed homogeneous lift. :contentReference[oaicite:6]{index=6}
+Its parent array is(0,0,1,2,3,4,5,0), all selected arrows are strict and0 is the sole strict radial maximum. This is an inherited control, not newly invented coordinates. The same notebook explicitly distinguishes its failed homogeneous lift.
 
 The new exact audit verifies all16 nonzero boundary primitives, strict convexity,0 interior and all64 strict −Q/3 support tests. But with n=(7,5), every distinct triple from the other seven vertices satisfies
 
@@ -314,7 +314,7 @@ Terminal markers:
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-The useful continuation is now the mother's noncompact projective tails or finite-distance positive interior, not another search over this constrained heptagon. No global bound or register is changed. Supplementary copies: [source](sandbox:/mnt/data/pyramid_heptagon_area_fan.py), [full bundle](sandbox:/mnt/data/PYRAMID_HEPTAGON_AREA_FAN_bundle.zip). The complete source follows and requires neither link.
+The useful continuation is now the mother's noncompact projective tails or finite-distance positive interior, not another search over this constrained heptagon. No global bound or register is changed. Supplementary copies: source (`pyramid_heptagon_area_fan.py`), full bundle (`PYRAMID_HEPTAGON_AREA_FAN_bundle.zip`). The complete source follows and requires neither link.
 
 ### Complete runnable source
 

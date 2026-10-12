@@ -8,7 +8,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Outcome and source boundary
 
-I read the continuation journal through EOF and used the literal parent `figure-0474`, SHA-256 `a03ab041f25c69669ce6f4010d5318f60be3d7c0c7c6dc02b5cbcbd3fad3865e`, as source authority. There is no conflict between its literal payload and the journal synopsis. The parent supplies the mass-closed own-centred normal form, the durable 159 apex-root shadow shapes, and the orthogonal reserve/apex-gate partition. :contentReference[oaicite:0]{index=0}
+I read the continuation journal through EOF and used the literal parent `figure-0474`, SHA-256 `a03ab041f25c69669ce6f4010d5318f60be3d7c0c7c6dc02b5cbcbd3fad3865e`, as source authority. There is no conflict between its literal payload and the journal synopsis. The parent supplies the mass-closed own-centred normal form, the durable 159 apex-root shadow shapes, and the orthogonal reserve/apex-gate partition.
 
 No exact C48 strict110 body was found. Instead, the assigned **entire orthogonal unequal-height apex-root chamber is now excluded exactly**. The exclusion is stronger than the inherited short-side reserve disjunction and in fact does not need to branch over the 159 shadow systems: in a weak-free own-centred ordinary bipyramid whose apex line is perpendicular to the base plane, **an apex can never be the unique strict unstable equilibrium**. Therefore all 159 durable apex-root systems have zero survivors at `rho=0`.
 
@@ -24,7 +24,7 @@ Use the parent's mass-closed gauge. Let the planar base octagon be `S=conv(s_i)`
 
 `B_i=(c+s_i,z_0)`.
 
-Ordinary incidence is the parent's exact crossing condition `-4c in int(S)`, which guarantees the ordinary bipyramid graph: the eight base-cycle edges and all sixteen apex-to-base edges. The actual uniform filled centroid is exactly the origin. :contentReference[oaicite:1]{index=1}
+Ordinary incidence is the parent's exact crossing condition `-4c in int(S)`, which guarantees the ordinary bipyramid graph: the eight base-cycle edges and all sixteen apex-to-base edges. The actual uniform filled centroid is exactly the origin.
 
 For the proof it is convenient to put
 
@@ -107,7 +107,7 @@ The parent orthogonal analysis defines
 
 `A_+=a(3a+b)/4`, `A_-=b(a+3b)/4`,
 
-and for `a>b` has `A_-<A_+`. It already established the exact apex-gate partition and the mandatory short-side polar reserve failure for an S1 survivor. :contentReference[oaicite:2]{index=2}
+and for `a>b` has `A_-<A_+`. It already established the exact apex-gate partition and the mandatory short-side polar reserve failure for an S1 survivor.
 
 Combining that partition with the new theorem gives the complete weak-free orthogonal apex classification:
 

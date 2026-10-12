@@ -10,9 +10,9 @@ AI research report · 2026-08-26 UTC
 
 **No homogeneous convex polyhedral Gömböc was found.** No endpoint in this continuation has strict own-centroid class `(S,U,H)=(1,1,0)`, and no searched continuous family has been exactly excluded.
 
-The requested acceptance gate remains a finite homogeneous convex polyhedron, evaluated at its own exact uniform-volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle true edge, complete incidence, positive separation from every wall, independent verification, and OBJ/STL. Near-solutions and wall points do not qualify. :contentReference[oaicite:3]{index=3}
+The requested acceptance gate remains a finite homogeneous convex polyhedron, evaluated at its own exact uniform-volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle true edge, complete incidence, positive separation from every wall, independent verification, and OBJ/STL. Near-solutions and wall points do not qualify.
 
-The continuation did, however, satisfy the central negative-result requirement: it produced and exactified a **connected simultaneous surgery in which both robust V10 core saddle edges `(0,4)` and `(2,5)` are absent in the same realized open cell**. They were not cancelled. The complete Euler-neutral defect migrated to a new connected block. This advances the previous state, where the exact V12 body reduced to a robust V10 `(2,2,2)` core and isolated caps or rails only transferred the two pairs. :contentReference[oaicite:4]{index=4}
+The continuation did, however, satisfy the central negative-result requirement: it produced and exactified a **connected simultaneous surgery in which both robust V10 core saddle edges `(0,4)` and `(2,5)` are absent in the same realized open cell**. They were not cancelled. The complete Euler-neutral defect migrated to a new connected block. This advances the previous state, where the exact V12 body reduced to a robust V10 `(2,2,2)` core and isolated caps or rails only transferred the two pairs.
 
 ## Strongest endpoint
 
@@ -68,16 +68,16 @@ original_core_saddles_absent_together=true, connected_patch=true
 
 Artifacts:
 
-- [Exact endpoint coordinates, face cycles, and true edges](sandbox:/mnt/data/slot8_connected_v11_IY_candidate.json)
-- [Exhaustive exact all-feature audit](sandbox:/mnt/data/slot8_connected_v11_IY_audit.json)
-- [Independent Fraction verifier](sandbox:/mnt/data/slot8_connected_v11_IY_verify.py)
-- [Verifier transcript](sandbox:/mnt/data/slot8_connected_v11_IY_verification.txt)
-- [Decimal vertex CSV](sandbox:/mnt/data/slot8_connected_v11_IY_vertices.csv)
-- [OBJ](sandbox:/mnt/data/slot8_connected_v11_IY.obj)
-- [STL](sandbox:/mnt/data/slot8_connected_v11_IY.stl)
-- [Machine-readable endpoint report](sandbox:/mnt/data/slot8_connected_v11_IY_report.json)
-- [Endpoint manifest](sandbox:/mnt/data/slot8_connected_v11_IY_manifest.json)
-- [Exact endpoint bundle](sandbox:/mnt/data/slot8_connected_v11_IY_bundle.zip), SHA-256 `daed6ba9e4e5f2ae086c02e958dfc1f7988c7687fdc863753219ea41c299099c`
+- Exact endpoint coordinates, face cycles, and true edges (`slot8_connected_v11_IY_candidate.json`)
+- Exhaustive exact all-feature audit (`slot8_connected_v11_IY_audit.json`)
+- Independent Fraction verifier (`slot8_connected_v11_IY_verify.py`)
+- Verifier transcript (`slot8_connected_v11_IY_verification.txt`)
+- Decimal vertex CSV (`slot8_connected_v11_IY_vertices.csv`)
+- OBJ (`slot8_connected_v11_IY.obj`)
+- STL (`slot8_connected_v11_IY.stl`)
+- Machine-readable endpoint report (`slot8_connected_v11_IY_report.json`)
+- Endpoint manifest (`slot8_connected_v11_IY_manifest.json`)
+- Exact endpoint bundle (`slot8_connected_v11_IY_bundle.zip`), SHA-256 `daed6ba9e4e5f2ae086c02e958dfc1f7988c7687fdc863753219ea41c299099c`
 
 ## Connected surgery and topology changes
 
@@ -98,13 +98,13 @@ saddles:           [0,10]         +0.02945505262585677
 
 Both original core saddle edges were already absent, but the two pairs had transferred separately to the ends of the strip.
 
-- [Stage-1 exact candidate](sandbox:/mnt/data/slot8_connected_v11_stage1_candidate.json)
-- [Stage-1 exhaustive audit](sandbox:/mnt/data/slot8_connected_v11_stage1_audit.json)
-- [Stage-1 verifier](sandbox:/mnt/data/slot8_connected_v11_stage1_verify.py)
-- [Stage-1 transcript](sandbox:/mnt/data/slot8_connected_v11_stage1_verification.txt)
-- [Stage-1 OBJ](sandbox:/mnt/data/slot8_connected_v11_stage1.obj)
-- [Stage-1 STL](sandbox:/mnt/data/slot8_connected_v11_stage1.stl)
-- [Stage-1 exact bundle](sandbox:/mnt/data/slot8_connected_v11_stage1_bundle.zip), SHA-256 `2ba8d635009a3b7d60bb9ecc74b6b70c9f8497d6e1e98832b5136a0519f4fc10`
+- Stage-1 exact candidate (`slot8_connected_v11_stage1_candidate.json`)
+- Stage-1 exhaustive audit (`slot8_connected_v11_stage1_audit.json`)
+- Stage-1 verifier (`slot8_connected_v11_stage1_verify.py`)
+- Stage-1 transcript (`slot8_connected_v11_stage1_verification.txt`)
+- Stage-1 OBJ (`slot8_connected_v11_stage1.obj`)
+- Stage-1 STL (`slot8_connected_v11_stage1.stl`)
+- Stage-1 exact bundle (`slot8_connected_v11_stage1_bundle.zip`), SHA-256 `2ba8d635009a3b7d60bb9ecc74b6b70c9f8497d6e1e98832b5136a0519f4fc10`
 
 ### Stage 2: connected Y replacement
 
@@ -150,10 +150,10 @@ final_counts=(2,2,2),
 final_original_core_saddles_absent_together=true
 ```
 
-- [Exact 35-cell topology-path record](sandbox:/mnt/data/slot8_connected_two_pair_exact_topology_path.json)
-- [Independent exact path verifier](sandbox:/mnt/data/slot8_connected_two_pair_path_verify.py)
-- [Path-verifier transcript](sandbox:/mnt/data/slot8_connected_two_pair_path_verification.txt)
-- [Deterministic topology-path generator](sandbox:/mnt/data/slot8next/work/exact_topology_path.py)
+- Exact 35-cell topology-path record (`slot8_connected_two_pair_exact_topology_path.json`)
+- Independent exact path verifier (`slot8_connected_two_pair_path_verify.py`)
+- Path-verifier transcript (`slot8_connected_two_pair_path_verification.txt`)
+- Deterministic topology-path generator (`exact_topology_path.py`)
 
 Path-record SHA-256: `b8891d3bc59d718289a23cedf6b59d057df9519980e3b552e545291176df4532`.
 
@@ -171,13 +171,13 @@ The search was deliberately concentrated on the concrete two-pair geometry rathe
 
 These screens are useful diagnostics, not exact infeasibility certificates. They linearize within fixed realized cells and do not exclude macroscopic coordinate changes, additional vertices, or different circuit sequences.
 
-- [First strip search, shard 0](sandbox:/mnt/data/slot8next/work/batchA0.log)
-- [First strip search, shard 1](sandbox:/mnt/data/slot8next/work/batchA1.log)
-- [Y-patch search, shard 0](sandbox:/mnt/data/slot8next/work/batchIY0.log)
-- [Y-patch search, shard 1](sandbox:/mnt/data/slot8next/work/batchIY1.log)
-- [Stage-1 general branch screen](sandbox:/mnt/data/slot8next/work/scr11_35.json)
-- [Stage-1 exhaustive acyclic screen](sandbox:/mnt/data/slot8next/work/scr11_acy.json)
-- [Final-cell general branch screen](sandbox:/mnt/data/slot8next/work/scrIY_35.json)
+- First strip search, shard 0 (`batchA0.log`)
+- First strip search, shard 1 (`batchA1.log`)
+- Y-patch search, shard 0 (`batchIY0.log`)
+- Y-patch search, shard 1 (`batchIY1.log`)
+- Stage-1 general branch screen (`scr11_35.json`)
+- Stage-1 exhaustive acyclic screen (`scr11_acy.json`)
+- Final-cell general branch screen (`scrIY_35.json`)
 
 ## Smallest remaining whole-block operation
 
@@ -203,7 +203,7 @@ No exact low-vertex system was closed in this continuation. The rigorous lower b
 | rooted automorphism orbits | `17,253` | `0` | `17,253` |
 | stable-face chambers | `207,036` | `0` | `207,036` |
 
-- [Machine-readable frontier counts](sandbox:/mnt/data/slot8_frontier_counts.json)
+- Machine-readable frontier counts (`slot8_frontier_counts.json`)
 
 ## Bottom line
 

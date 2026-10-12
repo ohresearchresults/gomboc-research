@@ -12,7 +12,7 @@ AI research report · 2026-09-28 UTC · [Export notes](../../catalog/coverage.md
 
 This escape first gives an exact own132 body. A subsequent finite support change removes its entire additional small strict-superlevel component and gives **`KF27F_REPLACED_G8`, V90/E135/F47, own121/weak000**. The original high component remains absent. One new lower P basin still survives.
 
-The most useful lower-P continuation from this changed geometry is **`KF27F_DETACHED_PROTECTED`, V94/E141/F49, C282, own121/weak000**, whose two unstable vertices are both separated from the unique stable facet by the exact normalized gap **3/2002**. Its sole P depth is .626466581546763518637800353547…; Q is empty. A simpler, more reference-centre-robust companion is retained. These are geometric and physical-moment advances, **not an unconditional persistence improvement over the parent's FLOW10_G8 P≈.50710**, and not a new own110 record. The supplied journal's canonical own110 remains C622, outside the E≤249 goal. fileciteturn23file1L13-L20
+The most useful lower-P continuation from this changed geometry is **`KF27F_DETACHED_PROTECTED`, V94/E141/F49, C282, own121/weak000**, whose two unstable vertices are both separated from the unique stable facet by the exact normalized gap **3/2002**. Its sole P depth is .626466581546763518637800353547…; Q is empty. A simpler, more reference-centre-robust companion is retained. These are geometric and physical-moment advances, **not an unconditional persistence improvement over the parent's FLOW10_G8 P≈.50710**, and not a new own110 record. The supplied journal's canonical own110 remains C622, outside the E≤249 goal.
 
 ### Reading and source identity
 
@@ -91,7 +91,7 @@ The two old cores remain separate:
 | Inball/elder core; w=(−536,−84,840), δ=1/250 |.20999250120830082|78.48277151278474|+2.9371449064816386|.6829631920690905|
 | Depth-seven core; w=(90,744,662), δ=1/500 |.30539974403027953|55.68153360881738|−.8897492362373155|.6128741565898436|
 
-Here ℓ(x)=w·(x−g0), T is the removed portion of the relevant core, and A=L\Ω. The supplied J121 argument gives a necessary deletion/addition tradeoff, not a sufficiency theorem for centroid feasibility or cancellation. fileciteturn23file0L5-L24 The new calculation evaluates the actual signed added moment rather than choosing a conservative B, and verifies exactly
+Here ℓ(x)=w·(x−g0), T is the removed portion of the relevant core, and A=L\Ω. The supplied J121 argument gives a necessary deletion/addition tradeoff, not a sufficiency theorem for centroid feasibility or cancellation. The new calculation evaluates the actual signed added moment rather than choosing a conservative B, and verifies exactly
 
 `∫T ℓ+ − ∫A ℓ + δ‖w‖₁ Vol(A) ≥ Γ−δ‖w‖₁ Vol(Ω)`.
 
@@ -271,7 +271,7 @@ Selected exact outputs:
 | DETACHED_ROBUST audit |47776|246ee2caf6312c723853cc3cd5f8920df5decb2495e1b4e5f5573b4187e7c60b|
 | Current detached basin/cut |340057|5ad2c95f99984e1a7a5bdf015160fe7767c73cf0b3ecef36dc02a25c4bf7369d|
 
-Supplementary copies: [complete delta capsule](sandbox:/mnt/data/KF27F_CAPSULE.py), [sources, exact outputs and originating/cold-replay evidence](sandbox:/mnt/data/KF27F_HANDOFF.zip). The entire delta below, together with the explicit already-supplied parent, is the recovery source. Those links are not required dependencies.
+Supplementary copies: complete delta capsule (`KF27F_CAPSULE.py`), sources, exact outputs and originating/cold-replay evidence (`KF27F_HANDOFF.zip`). The entire delta below, together with the explicit already-supplied parent, is the recovery source. Those links are not required dependencies.
 
 ## 9. Complete literal delta capsule
 

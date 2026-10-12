@@ -24,7 +24,7 @@ A strict local independent-feasibility witness uses **four genuine primal arrows
 
 and thus remains inside the mutual cofactor blind cone, although no reciprocal pair realizes those signs. Its primal metric has actual-covariance condition number **less than 7**. This is not a separately feasible complete U1/S1 system.
 
-**No whole E17 type, entire S1/U1 realization family, C34 attainer, or global lower bound is newly established. The accepted interval remains 34 ≤ C_min ≤ 622.** The parent expressly separates local feasibility from its older full-U1-empty bevel fixture; that distinction is retained. :contentReference[oaicite:0]{index=0}
+**No whole E17 type, entire S1/U1 realization family, C34 attainer, or global lower bound is newly established. The accepted interval remains 34 ≤ C_min ≤ 622.** The parent expressly separates local feasibility from its older full-U1-empty bevel fixture; that distinction is retained.
 
 ## 2. Source authority and reading
 
@@ -32,7 +32,7 @@ The entire continuation journal, including the literal B9 payload, was read cons
 
 Authoritative parent: `minimum-0189`, SHA-256 `72a6196fc990a16a545b77e6c52a543c4eac04d17fa9cd4b9372e2c2f17b8cfa`. Its accepted endpoint proof, facet-foot lift, mixed cubic, and true-feature conventions are used without claiming a new independent replay. The unchanged earlier evidence remains available. The mounted complete `quad_blind.py` was read for its exact geometry helpers. No scientific alias conflict or missing computational dependency was found. No research connector, unselected archive, or external source is used.
 
-The new source below is autonomous: it includes every helper and input rather than importing the parent. The new proof is given here, separately from the inherited results. B9's actual endpoint637 sharpness control is not renamed as one of the new internal-root controls. :contentReference[oaicite:1]{index=1}
+The new source below is autonomous: it includes every helper and input rather than importing the parent. The new proof is given here, separately from the inherited results. B9's actual endpoint637 sharpness control is not renamed as one of the new internal-root controls.
 
 ## 3. Complete internal-root proof
 
@@ -48,7 +48,7 @@ Put `A=a^TMe` and `B=(a+e)^TMf`. The first two weak arrows give A,B≥0. The act
 
 `eta+t theta=-A`, `t eta+(t²+d)theta=t-B`.
 
-Hence `d theta=t(A+1)-B>0`, since theta>0 at an interior foot. Thus t>0. This is also the tangent restriction encoded by B9's actual-edge mixed cubic; no diagonal is being treated as an edge. :contentReference[oaicite:2]{index=2}
+Hence `d theta=t(A+1)-B>0`, since theta>0 at an interior foot. Thus t>0. This is also the tangent restriction encoded by B9's actual-edge mixed cubic; no diagonal is being treated as an edge.
 
 If u≥0, the interior foot has eta,theta>0, and
 
@@ -104,7 +104,7 @@ This completes both directions, including weak selected arrows in the necessity 
 
 ## 4. The largest-ear rule and what it does not exclude
 
-B9 gives the endpoint case `0→1→2→3` exactly when u<0,v>1. :contentReference[oaicite:3]{index=3} For completeness, the first two arrows give u<0,t>0 as above, and the third is
+B9 gives the endpoint case `0→1→2→3` exactly when u<0,v>1. For completeness, the first two arrows give u<0,t>0 as above, and the third is
 
 `(u-1)(A+1+t)+(v-1)(B+t²+d)≥0`,
 
@@ -427,7 +427,7 @@ R=39410303281/12800000000,
 rho=39410303281/108096690578.
 ```
 
-Therefore the SAME pair survives every inherited mutual aggregate/cofactor operation. The hierarchy's precise scope, not an arbitrary mixed inference system, is what is being defeated. :contentReference[oaicite:4]{index=4}
+Therefore the SAME pair survives every inherited mutual aggregate/cofactor operation. The hierarchy's precise scope, not an arbitrary mixed inference system, is what is being defeated.
 
 At this own centroid the external cone coefficients for w=X5,b=X1 are
 
@@ -507,7 +507,7 @@ Moreover, attempting independent matrices only as `M=MC(y_high)`, `N=MC(y_low)^-
 
 The explicit external theorem rules out a zero defect on the CLOSED local sign systems. On the compact three-parameter box, normalize `tr(Sigma M)=3`, impose any fixed finite actual-covariance condition cap, and normalize `tr(MN)=3`. Allowing N to be PSD in closure gives a compact feasible set: M stays uniformly SPD and N is bounded. At R=0, trace normalization forces N=M^-1, which is forbidden by the closed-system theorem. Therefore any nonempty such set has a **strictly positive uniform minimum rho**. For the nine-sign system the cap48 set is nonempty, as the strict witness even has cap7.
 
-This is an exact existence conclusion from compactness, **not a computed numerical value for the uniform floor**. The effective quantities delivered here are the mixed identity, the forced-negative-arrow estimate, the all-height separation, and the exact fixed-M minimum. B9's unrestricted facet-only rho→0 theorem remains intact; it does not retain this actual external continuation and compact metric hypothesis. :contentReference[oaicite:5]{index=5}
+This is an exact existence conclusion from compactness, **not a computed numerical value for the uniform floor**. The effective quantities delivered here are the mixed identity, the forced-negative-arrow estimate, the all-height separation, and the exact fixed-M minimum. B9's unrestricted facet-only rho→0 theorem remains intact; it does not retain this actual external continuation and compact metric hypothesis.
 
 ## 11. What was tried, uncertainty and concrete continuation
 
@@ -706,4 +706,4 @@ if __name__=='__main__':
     main()
 ```
 
-Optional convenience copies: [decoded source](sandbox:/mnt/data/quad_gate/quad_gate.py), [complete exact report](sandbox:/mnt/data/quad_gate/quad_gate.json), [source-only recovery capsule](sandbox:/mnt/data/quad_gate/recover_quad_gate.py). The embedded capsule is sufficient without these links.
+Optional convenience copies: decoded source (`quad_gate.py`), complete exact report (`quad_gate.json`), source-only recovery capsule (`recover_quad_gate.py`). The embedded capsule is sufficient without these links.

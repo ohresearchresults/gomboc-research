@@ -8,9 +8,9 @@ AI research report · 2026-08-26 UTC
 
 ## Determination
 
-**No homogeneous convex polyhedral Gömböc was obtained.** I do not claim a `(1,1,0)` winner. The run’s acceptance gate remains an ordinary uniform-density finite polyhedron evaluated at its own exact volume centroid, with one stable maximal face, one unstable vertex, no saddle true edge, complete H/V and lattice data, strict open margins, an independent verifier, and matching OBJ/STL; auxiliary-center, wall-point, theorem-only, and near-solution outputs are inadmissible. :contentReference[oaicite:0]{index=0}
+**No homogeneous convex polyhedral Gömböc was obtained.** I do not claim a `(1,1,0)` winner. The run’s acceptance gate remains an ordinary uniform-density finite polyhedron evaluated at its own exact volume centroid, with one stable maximal face, one unstable vertex, no saddle true edge, complete H/V and lattice data, strict open margins, an independent verifier, and matching OBJ/STL; auxiliary-center, wall-point, theorem-only, and near-solution outputs are inadmissible.
 
-Starting from the journal’s exact P17 body, the assignment was to replace stable row `35`, extra unstable facet `[2,18,27]`, and saddle pairs `[15,27]`, `[25,32]` in one four-support operation while retaining row `27`, rebuilding the intended unstable lineage, and keeping the three uniform-volume moments hard. :contentReference[oaicite:1]{index=1}
+Starting from the journal’s exact P17 body, the assignment was to replace stable row `35`, extra unstable facet `[2,18,27]`, and saddle pairs `[15,27]`, `[25,32]` in one four-support operation while retaining row `27`, rebuilding the intended unstable lineage, and keeping the three uniform-volume moments hard.
 
 The strongest fully materialized endpoint is the ordinary uniform-density rational H-polytope
 
@@ -308,28 +308,28 @@ The only smaller alternative is excluded by the witness-length certificate. A lo
 
 # Reproducible artifacts
 
-- [Complete P15 exact fallback bundle](sandbox:/mnt/data/p15_four_support_exact_fallback_bundle.zip) — SHA-256 `5b3ec86620937b9d6869d901ce35fe71c40743457562a993d0ac074786af6579`.
-- [README and reproduction guide](sandbox:/mnt/data/p15_four_support_exact_fallback/README.md)
-- [Full exact certificate](sandbox:/mnt/data/p15_four_support_exact_fallback/p15_exact.json)
-- [Deterministic exact generator](sandbox:/mnt/data/p15_four_support_exact_fallback/generate_p15_exact.py)
-- [Independent exact verifier](sandbox:/mnt/data/p15_four_support_exact_fallback/verify_p15_exact.py)
-- [Exact H rows](sandbox:/mnt/data/p15_four_support_exact_fallback/H_exact.csv)
-- [Exact V coordinates](sandbox:/mnt/data/p15_four_support_exact_fallback/V_exact.csv)
-- [Maximal-face cycles](sandbox:/mnt/data/p15_four_support_exact_fallback/faces.txt)
-- [True-edge list](sandbox:/mnt/data/p15_four_support_exact_fallback/edges.txt)
-- [OBJ export](sandbox:/mnt/data/p15_four_support_exact_fallback/p15_exact.obj)
-- [STL export](sandbox:/mnt/data/p15_four_support_exact_fallback/p15_exact.stl)
-- [Full coefficient interval verifier](sandbox:/mnt/data/p15_four_support_exact_fallback/verify_coefficient_radius.py)
-- [Interval-radius certificate](sandbox:/mnt/data/p15_four_support_exact_fallback/coefficient_radius.json)
-- [Complete adjacent-cell path](sandbox:/mnt/data/p15_four_support_exact_fallback/topology_path_numeric.json)
-- [Independent path replay](sandbox:/mnt/data/p15_four_support_exact_fallback/verify_topology_path_numeric.py)
-- [Three-circuit summary](sandbox:/mnt/data/p15_four_support_exact_fallback/circuit_summary.json)
-- [Directed witness-length verifier](sandbox:/mnt/data/p15_four_support_exact_fallback/verify_witness_length_obstruction.py)
-- [Witness-length certificate](sandbox:/mnt/data/p15_four_support_exact_fallback/witness_length_obstruction.json)
-- [Search record](sandbox:/mnt/data/p15_four_support_exact_fallback/SEARCH_RECORD.md)
-- [Combined verifier script](sandbox:/mnt/data/p15_four_support_exact_fallback/RUN_ALL_VERIFIERS.sh)
-- [Combined verifier transcript](sandbox:/mnt/data/p15_four_support_exact_fallback/RUN_ALL_VERIFIERS.txt)
-- [Integrity manifest](sandbox:/mnt/data/p15_four_support_exact_fallback/manifest.json)
+- Complete P15 exact fallback bundle (`p15_four_support_exact_fallback_bundle.zip`) — SHA-256 `5b3ec86620937b9d6869d901ce35fe71c40743457562a993d0ac074786af6579`.
+- README and reproduction guide (`README.md`)
+- Full exact certificate (`p15_exact.json`)
+- Deterministic exact generator (`generate_p15_exact.py`)
+- Independent exact verifier (`verify_p15_exact.py`)
+- Exact H rows (`H_exact.csv`)
+- Exact V coordinates (`V_exact.csv`)
+- Maximal-face cycles (`faces.txt`)
+- True-edge list (`edges.txt`)
+- OBJ export (`p15_exact.obj`)
+- STL export (`p15_exact.stl`)
+- Full coefficient interval verifier (`verify_coefficient_radius.py`)
+- Interval-radius certificate (`coefficient_radius.json`)
+- Complete adjacent-cell path (`topology_path_numeric.json`)
+- Independent path replay (`verify_topology_path_numeric.py`)
+- Three-circuit summary (`circuit_summary.json`)
+- Directed witness-length verifier (`verify_witness_length_obstruction.py`)
+- Witness-length certificate (`witness_length_obstruction.json`)
+- Search record (`SEARCH_RECORD.md`)
+- Combined verifier script (`RUN_ALL_VERIFIERS.sh`)
+- Combined verifier transcript (`RUN_ALL_VERIFIERS.txt`)
+- Integrity manifest (`manifest.json`)
 
 Reproduction:
 

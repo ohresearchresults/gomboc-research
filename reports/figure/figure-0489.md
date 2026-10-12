@@ -222,7 +222,7 @@ The source dictionary is **89447 bytes**, SHA-256 `19cfd3720ac7dd6bf1c34bd840ca3
 
 The full point-cell report is26755 bytes, SHA-256 `3ebc619d29770e5601cf0b8c9163a2ca262ee636f741eb6b7a19e64480147416`; the complete840-matrix bank is18864051 bytes, SHA-256 `b28e372c18b32372c1e08b3f44c9a3b3539a5661a18012ce12dbb54a2d8b7936`. The generator reconstructs that large bank compactly; it is not an ephemeral object behind a hash.
 
-Convenience copies, not dependencies of the inline recovery: [complete source/audit bundle](sandbox:/mnt/data/SC83_FINITE_GEOMETRY_HANDOFF.zip), [source-only bundle](sandbox:/mnt/data/SC83_FINITE_SOURCE_ONLY.zip), and [decoder](sandbox:/mnt/data/RECOVER_SC83_FINITE_INLINE.py).
+Convenience copies, not dependencies of the inline recovery: complete source/audit bundle (`SC83_FINITE_GEOMETRY_HANDOFF.zip`), source-only bundle (`SC83_FINITE_SOURCE_ONLY.zip`), and decoder (`RECOVER_SC83_FINITE_INLINE.py`).
 
 ```python
 # Complete exact definitions/auditors and reusable finite nomination sources.

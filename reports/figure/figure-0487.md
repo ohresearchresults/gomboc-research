@@ -26,7 +26,7 @@ I read the new journal completely through EOF, including the literal parent `fig
 
 The new journal has 229,604 bytes and SHA-256 `381a15083fc5a132feabab2e6edfc8f63b7711f53ebaad16a379ba6aff1b3cd0`. The supplied previous decoder has 16,634 bytes and SHA-256 `3cfca31a93e2108fe08d088d254f2f49a3a81f2151b1b941988289b72de05eb4`.
 
-The parent owns the sharp orthogonal criterion with κ=7−4√3, and explicitly distinguishes the coupled reserve gate from S1. The work below uses that distinction rather than promoting a gate crossing to a construction. :contentReference[oaicite:0]{index=0}
+The parent owns the sharp orthogonal criterion with κ=7−4√3, and explicitly distinguishes the coupled reserve gate from S1. The work below uses that distinction rather than promoting a gate crossing to a construction.
 
 All weak tests use complete outgoing maxima. A zero primitive accompanied by a positive outgoing arrow is not an additional weak equilibrium. No abstract-tree representative is used as a substitute for all labelled geometric embeddings.
 
@@ -362,7 +362,7 @@ The complete sources preserve these finite numerical windows:
 
 A separate 125,000-height orthogonal scout found no S1 in its sampled apex-escape chamber. None of these finite campaigns excludes a geometry family. Near-zero penalties, fragile crossing margins, or floating blocker outcomes were not accepted as exact constructions.
 
-Projection-chain parametrizations were motivated by the Conway-spiral literature. Its point-mass constructions and its special homogeneous spiral exclusions were not transferred to these uniformly filled arbitrary bipyramids; the new conclusions rest on the explicit mass calculations and certificates above. :contentReference[oaicite:1]{index=1}
+Projection-chain parametrizations were motivated by the Conway-spiral literature. Its point-mass constructions and its special homogeneous spiral exclusions were not transferred to these uniformly filled arbitrary bipyramids; the new conclusions rest on the explicit mass calculations and certificates above.
 
 ## 10. Most useful continuation
 
@@ -426,7 +426,7 @@ C90_ROOT_LIFT_211_ROOTLIFT_ATLAS.json
 52851 4646c2473d2b008d5be8c71558ebe7d62e12f61002a78cb2fe268907db6523ed
 ```
 
-The source dictionary has 94,281 bytes, SHA-256 `a7e2257ce307dca3f7301259b8a1700c1d1c75992d7d936a1b1ff113a9bad159`; XZ payload 22,260 bytes, SHA-256 `d29b445e55e29325d8ae3fc05216328f4105bd4e0be3641e3a2000d95414ccea`. The decoder has 29,371 bytes, SHA-256 `751262b25734a37abd3dd0596adf3a36045aa7535bc65bbe13cbd0f9ceaadd26`. A convenience copy is [RECOVER_C48_GATE_ROOTLIFT.py](sandbox:/mnt/data/RECOVER_C48_GATE_ROOTLIFT.py); the complete decoder is also included inline:
+The source dictionary has 94,281 bytes, SHA-256 `a7e2257ce307dca3f7301259b8a1700c1d1c75992d7d936a1b1ff113a9bad159`; XZ payload 22,260 bytes, SHA-256 `d29b445e55e29325d8ae3fc05216328f4105bd4e0be3641e3a2000d95414ccea`. The decoder has 29,371 bytes, SHA-256 `751262b25734a37abd3dd0596adf3a36045aa7535bc65bbe13cbd0f9ceaadd26`. A convenience copy is RECOVER_C48_GATE_ROOTLIFT.py; the complete decoder is also included inline:
 
 ```python
 import base64,hashlib,json,lzma,pathlib,sys

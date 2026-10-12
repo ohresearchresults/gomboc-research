@@ -8,7 +8,7 @@ AI research report · 2026-08-28 UTC
 
 ## Verdict
 
-No homogeneous convex polyhedral Gömböc was obtained. The durable acceptance gate still requires a finite own-centroid strict `(S,U,H)=(1,1,0)` body with exact/isolated coordinates, complete actual incidence and full-cone audit, independent verification, and matching OBJ/STL. :contentReference[oaicite:0]{index=0} The strongest exact post-circuit endpoint is an own-centred rational 13-vertex polyhedron with
+No homogeneous convex polyhedral Gömböc was obtained. The durable acceptance gate still requires a finite own-centroid strict `(S,U,H)=(1,1,0)` body with exact/isolated coordinates, complete actual incidence and full-cone audit, independent verification, and matching OBJ/STL. The strongest exact post-circuit endpoint is an own-centred rational 13-vertex polyhedron with
 
 ```text
 (V,E,F,C) = (13,31,20,62)
@@ -346,20 +346,20 @@ No file in the package claims a Gömböc.
 
 ## 11. Downloadable artifact index
 
-- [Complete checksummed archive](sandbox:/mnt/data/conway_mode2_joint_handoff.zip) — SHA-256 `f2ec999e686d86466af3bdc13cb3dc98982fc0590ac8b8be133cdd062ef7ae2c`.
-- [Archive checksum](sandbox:/mnt/data/conway_mode2_joint_handoff.zip.sha256)
-- [Exact 13-vertex generator](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/postcircuit13_generator.json)
-- [Exact 13-vertex certificate](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/postcircuit13_certificate.json)
-- [Exact V rows](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/vertices_centered_exact.csv)
-- [Exact H rows](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/support_rows_exact.csv)
-- [True-edge incidence](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/true_edges.csv)
-- [Deterministic exact generator/verifier](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/generate_exact_postcircuit13.py)
-- [Independent clean-room exact verifier](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/independent_exact_verify_postcircuit13.py) and [output](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/independent_exact_verify_postcircuit13_output.json)
-- [Directed perturbation verifier](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/verify_parameter_box_fraction.py) and [box certificate](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/postcircuit13_parameter_box_output.json)
-- [14-to-13 exact event certificate](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/path_event_certificate.json) and [verification output](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/path_verification_output.json)
-- [Mode-two/counter-rotating generator](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/mode2_generator.json), [event certificate](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/mode2_path_event_certificate.json), and [full-cell certificate](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/mode2_path_cell_certificate.json)
-- [Watertight OBJ](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/postcircuit13.obj) and [STL](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/postcircuit13.stl)
-- [Independent mesh audit](sandbox:/mnt/data/conway_mode2_joint_handoff/postcircuit_exact/independent_mesh_audit_output.json)
-- [Exact connected-patch generator](sandbox:/mnt/data/conway_mode2_joint_handoff/connected_patch_exact/patch_generator.json), [certificate](sandbox:/mnt/data/conway_mode2_joint_handoff/connected_patch_exact/patch_certificate.json), [OBJ](sandbox:/mnt/data/conway_mode2_joint_handoff/connected_patch_exact/patch_endpoint.obj), and [STL](sandbox:/mnt/data/conway_mode2_joint_handoff/connected_patch_exact/patch_endpoint.stl)
-- [Combined verifier transcript](sandbox:/mnt/data/conway_mode2_joint_handoff/RUN_ALL_FINAL_VERIFIERS.txt)
-- [SHA-256 manifest](sandbox:/mnt/data/conway_mode2_joint_handoff/MANIFEST.sha256) and [manifest verification](sandbox:/mnt/data/conway_mode2_joint_handoff/SHA256_VERIFY.txt)
+- Complete checksummed archive (`conway_mode2_joint_handoff.zip`) — SHA-256 `f2ec999e686d86466af3bdc13cb3dc98982fc0590ac8b8be133cdd062ef7ae2c`.
+- Archive checksum (`conway_mode2_joint_handoff.zip.sha256`)
+- Exact 13-vertex generator (`postcircuit13_generator.json`)
+- Exact 13-vertex certificate (`postcircuit13_certificate.json`)
+- Exact V rows (`vertices_centered_exact.csv`)
+- Exact H rows (`support_rows_exact.csv`)
+- True-edge incidence (`true_edges.csv`)
+- Deterministic exact generator/verifier (`generate_exact_postcircuit13.py`)
+- Independent clean-room exact verifier (`independent_exact_verify_postcircuit13.py`) and output (`independent_exact_verify_postcircuit13_output.json`)
+- Directed perturbation verifier (`verify_parameter_box_fraction.py`) and box certificate (`postcircuit13_parameter_box_output.json`)
+- 14-to-13 exact event certificate (`path_event_certificate.json`) and verification output (`path_verification_output.json`)
+- Mode-two/counter-rotating generator (`mode2_generator.json`), event certificate (`mode2_path_event_certificate.json`), and full-cell certificate (`mode2_path_cell_certificate.json`)
+- Watertight OBJ (`postcircuit13.obj`) and STL (`postcircuit13.stl`)
+- Independent mesh audit (`independent_mesh_audit_output.json`)
+- Exact connected-patch generator (`patch_generator.json`), certificate (`patch_certificate.json`), OBJ (`patch_endpoint.obj`), and STL (`patch_endpoint.stl`)
+- Combined verifier transcript (`RUN_ALL_FINAL_VERIFIERS.txt`)
+- SHA-256 manifest (`MANIFEST.sha256`) and manifest verification (`SHA256_VERIFY.txt`)

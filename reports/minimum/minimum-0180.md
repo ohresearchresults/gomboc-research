@@ -22,7 +22,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 Точный исходный генератор protectedC618:12851 байт, SHA-256 `6c31d8ba6d2b688d20901a2eacdc67552e024e5009e0bf1c7d1cf1b4197a2edd`. Он, его полный реконструктор и полный аудитор включены в капсулу ниже. Старый канонический архив не требуется.
 
-Родительский факт используется именно в своей условной форме: для положительных весов `B_R=-Σw sym(Y_s(Y_t-Y_s)^T)` и `G>0` имеем `ΣwD_st=-tr(GB_R)`. Ненулевой PSD-пакет вместе с неотрицательными guards запрещает target. Это не запрет произвольной геометрии. :contentReference[oaicite:0]{index=0} Двойственный пакет использует настоящие полюса и ту же взаимно-обратную пару M,N, а не отдельное центрирование поляра. :contentReference[oaicite:1]{index=1}
+Родительский факт используется именно в своей условной форме: для положительных весов `B_R=-Σw sym(Y_s(Y_t-Y_s)^T)` и `G>0` имеем `ΣwD_st=-tr(GB_R)`. Ненулевой PSD-пакет вместе с неотрицательными guards запрещает target. Это не запрет произвольной геометрии. Двойственный пакет использует настоящие полюса и ту же взаимно-обратную пару M,N, а не отдельное центрирование поляра.
 
 Все номера ниже — **семантические номера protected-предка**, если не сказано иначе. После рациональной реконструкции лексикографические номера некоторых вершин меняются. Каждый новый REPORT содержит полное отображение `parent_to_hull_vertex_labels`; аудит A использует собственную истинную нумерацию. В COLLAPSE метка160 удалена, а не переименована в новый самостоятельный объект.
 
@@ -268,4 +268,4 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python delete134.py both
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Удобные копии дополняют буквальную капсулу: [recovery-source](sandbox:/mnt/data/recover_steady_maple36.py), [полный проверенный source/output bundle](sandbox:/mnt/data/steady_maple36_verified_bundle.zip).
+Удобные копии дополняют буквальную капсулу: recovery-source (`recover_steady_maple36.py`), полный проверенный source/output bundle (`steady_maple36_verified_bundle.zip`).

@@ -16,9 +16,9 @@ The tool returns available to me in this continuation were replaced by `Skipped 
 
 The invoked preservation program freezes available new H- and V-inputs, reconstructs their exact maximal complexes, computes their actual uniform-volume centroids and complete strict/weak census, checks mass by a separate projected-polygon formula, computes exact radial persistence, and attempts source-only replay. It records a failure rather than declaring success when these steps do not complete. The final preservation call also saves available sources and checkpoints when the final replay report is absent.
 
-[Generated nonlinear handoff and literal recovery capsule](sandbox:/mnt/data/BH81_NONLINEAR_HANDOFF.md)
+Generated nonlinear handoff and literal recovery capsule (`BH81_NONLINEAR_HANDOFF.md`)
 
-[Complete nonlinear source, checkpoint, and output snapshot](sandbox:/mnt/data/BH81_NONLINEAR_FULL.zip)
+Complete nonlinear source, checkpoint, and output snapshot (`BH81_NONLINEAR_FULL.zip`)
 
 **The new computational capsule is not reproduced literally in this JSON. Accordingly, its possible numerical or rational endpoints are not promoted here as self-contained inline successors.** The generated report must be inspected, including its status and literal capsule, before any endpoint is integrated. The supplied LOW121/CUT121 closure remains the authoritative starting evidence.
 

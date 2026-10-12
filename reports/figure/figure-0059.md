@@ -8,7 +8,7 @@ AI research report · 2026-08-25 UTC
 
 ## Determination
 
-**No winner was found.** This branch did not produce a strict own-volume-centroid `(S,U,H)=(1,1,0)` body. The run’s acceptance gate requires an explicit finite body at its own exact centroid and rejects a near-state or wall state. :contentReference[oaicite:0]{index=0} The journal was also correct that the previous wrapper was not usable as evidence. :contentReference[oaicite:1]{index=1}
+**No winner was found.** This branch did not produce a strict own-volume-centroid `(S,U,H)=(1,1,0)` body. The run’s acceptance gate requires an explicit finite body at its own exact centroid and rejects a near-state or wall state. The journal was also correct that the previous wrapper was not usable as evidence.
 
 Forensic inspection of the worker-local archive found that the intended earlier driver never started:
 

@@ -14,13 +14,13 @@ Assignment: `figure-0407`.
 
 I checked the inherited source capsule and archived verification outputs during this closeout. Those checks passed, but they are **transport and stored-receipt integrity checks, not fresh hull, equilibrium, or mass computations**. The archived experiments and mathematical verification receipts belong to the preceding assignment; they must not be counted as new work here.
 
-The supplied journal continues to identify `VQ20_C622_ROUTE88_118_G12`, V176/E311/F137, strict110/weak000, as the accepted own-centroid record. Nothing in this closeout changes that record. :contentReference[oaicite:0]{index=0}
+The supplied journal continues to identify `VQ20_C622_ROUTE88_118_G12`, V176/E311/F137, strict110/weak000, as the accepted own-centroid record. Nothing in this closeout changes that record.
 
 ## 2. Retained exact frontier — inherited, not newly computed
 
 The source authority is the literal immutable parent `figure-0403`, with supplied SHA-256 `57a30ff4beea29d389969aaefc31deaf972b38f7f56c51e80c1fe9599b3df4d5`. Its complete 57-file recovery capsule remains intact.
 
-The parent reports independent maximal-hull A/B agreement, a separate centered-mass integration, strict121, weak000, primitive000, sole stable original support3, and exactly zero centered filled first moments for all nine bodies below. I verified that the archived files still match their embedded expected receipts; I did not rerun those mathematical auditors in this successor closeout. :contentReference[oaicite:1]{index=1}
+The parent reports independent maximal-hull A/B agreement, a separate centered-mass integration, strict121, weak000, primitive000, sole stable original support3, and exactly zero centered filled first moments for all nine bodies below. I verified that the archived files still match their embedded expected receipts; I did not rerun those mathematical auditors in this successor closeout.
 
 | Inherited object | Exact directory | V/E/F | C | Raw-lex unstable vertices | Saddle edge | Centered denominator bits |
 |---|---|---|---:|---|---|---:|
@@ -34,15 +34,15 @@ The parent reports independent maximal-hull A/B agreement, a separate centered-m
 | TRIPLE FRONT | `triple_front_exact` |176/310/136|620|94,175|173–175|57514|
 | TRIPLE FRONT SQP3000 | `triple_front_bridge_exact` |176/310/136|620|94,175|174–175|56962|
 
-The construction advance remains the parent's actual cancellation of U166 and saddle166–168 without adding an edge. The remaining CANCEL166 G12 escape173→172 is approximately−0.05756129067, not a vanishing deficit. :contentReference[oaicite:2]{index=2}
+The construction advance remains the parent's actual cancellation of U166 and saddle166–168 without adding an edge. The remaining CANCEL166 G12 escape173→172 is approximately−0.05756129067, not a vanishing deficit.
 
-`RELEASE103104@159` remains a particularly useful alternative: its two incidence releases cost one actual edge, giving E309 and leaving one edge of headroom. `FREE105` is a different E309 body with a different saddle. The triple-front bodies already use E310. Control-point, logical-vertex, and raw-lex vertex indices must remain distinct. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+`RELEASE103104@159` remains a particularly useful alternative: its two incidence releases cost one actual edge, giving E309 and leaving one edge of headroom. `FREE105` is a different E309 body with a different saddle. The triple-front bodies already use E310. Control-point, logical-vertex, and raw-lex vertex indices must remain distinct.
 
 ## 3. Obstruction and unsuccessful-search scope remain unchanged
 
-The inherited Hausdorff theorem is local. It forces at least two strict unstable equilibria at the perturbed polytope's actual filled centroid for arbitrary-topology perturbations within7/20000 of the original centered COLLAPSE132 body, or within3/8000 of centered CANCEL166 G12/G8/G7M14. It does not exclude a larger deformation, a nonlocal replacement, or the full affine orbit. The separate3/2500 bound has the stronger hypothesis of moving the same174 labelled points and does not permit arbitrary added points. These are parent results, not new certificates from this assignment. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+The inherited Hausdorff theorem is local. It forces at least two strict unstable equilibria at the perturbed polytope's actual filled centroid for arbitrary-topology perturbations within7/20000 of the original centered COLLAPSE132 body, or within3/8000 of centered CANCEL166 G12/G8/G7M14. It does not exclude a larger deformation, a nonlocal replacement, or the full affine orbit. The separate3/2500 bound has the stronger hypothesis of moving the same174 labelled points and does not permit arbitrary added points. These are parent results, not new certificates from this assignment.
 
-No additional numerical coverage is claimed. In particular, the96 projective trials,444 corridor proposals,744 transverse/mass-closure proposals, and prior forced-bridge continuations were not rerun here. Their finite unsuccessful outcomes do not become global exclusions through this closeout. The parent's near-zero SQP feasibility residual excluded the forced bridge and therefore was not an own110 acceptance test. :contentReference[oaicite:7]{index=7}
+No additional numerical coverage is claimed. In particular, the96 projective trials,444 corridor proposals,744 transverse/mass-closure proposals, and prior forced-bridge continuations were not rerun here. Their finite unsuccessful outcomes do not become global exclusions through this closeout. The parent's near-zero SQP feasibility residual excluded the forced bridge and therefore was not an own110 acceptance test.
 
 ## 4. Checks actually executed during this closeout
 
@@ -144,12 +144,12 @@ cd BH26_SOURCE
 python -B -S REPLAY_BH26.py
 ```
 
-The latter procedure reconstructs and audits the inherited bodies and certificates; its expected final marker is `BH26_EXACT_FRONTIER_AND_HAUSDORFF_REPLAY_PASS 10 5`. That marker was reported by the parent and was not newly generated in this closeout. The complete coordinates, reconstruction programs, independent auditors, theorem verifiers, and expected receipts are embedded in the literal parent capsule. :contentReference[oaicite:8]{index=8}
+The latter procedure reconstructs and audits the inherited bodies and certificates; its expected final marker is `BH26_EXACT_FRONTIER_AND_HAUSDORFF_REPLAY_PASS 10 5`. That marker was reported by the parent and was not newly generated in this closeout. The complete coordinates, reconstruction programs, independent auditors, theorem verifiers, and expected receipts are embedded in the literal parent capsule.
 
 ## 6. Continuation point
 
 Resume the geometric work from exact `double159_exact`, not from an assumed own110 endpoint or a mislabeled C616 body. Its remaining task is to replace the escape architecture of the U174/H173–174 basin through an exposed nonlocal interface, permitting return-path witness turnover and coupled filled-mass motion. One additional true edge is available unless another simplification pays for more. No such exposed replacement was constructed or verified in this assignment. The parent remains the last durable construction frontier.
 
-Verified convenience copies: [parent source and archived exact audits](sandbox:/mnt/data/BH26_EXACT_FRONTIER_HANDOFF.zip), [complete parent handoff and embedded recovery capsule](sandbox:/mnt/data/BH26_RESULT.md), [normalized parent capsule](sandbox:/mnt/data/bh26/BH26_CAPSULE.b85), [parent decoder](sandbox:/mnt/data/bh26/RECOVER_BH26.py), and [transport-check source](sandbox:/mnt/data/BH26_VERIFY_PARENT_TRANSPORT.py).
+Verified convenience copies: parent source and archived exact audits (`BH26_EXACT_FRONTIER_HANDOFF.zip`), complete parent handoff and embedded recovery capsule (`BH26_RESULT.md`), normalized parent capsule (`BH26_CAPSULE.b85`), parent decoder (`RECOVER_BH26.py`), and transport-check source (`BH26_VERIFY_PARENT_TRANSPORT.py`).
 
 **Final disposition:** no new scientific successor; inherited nine-body frontier recovered intact; no new mathematical replay claimed; nonlocal own110 construction with E≤310 remains unresolved by this assignment.

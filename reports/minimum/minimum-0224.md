@@ -30,7 +30,7 @@ All three selected materials were used as the ordered authority:
     [internal-source-reference]
     [internal-source-reference].
 
-The mandatory repair was actually executed. It produced the12509-byte prism_shadow_exact.py with SHA2565023d1f20dea0654406ca5812431110f2218bd9262e5e2913146e0745f9383c7. The uncorrected mask98 witness was not used as executable authority. No new replay of the coordinator's128-pattern classification is claimed. Its five cycles and320-system reduction are the starting result, not the new conclusion. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The mandatory repair was actually executed. It produced the12509-byte prism_shadow_exact.py with SHA2565023d1f20dea0654406ca5812431110f2218bd9262e5e2913146e0745f9383c7. The uncorrected mask98 witness was not used as executable authority. No new replay of the coordinator's128-pattern classification is claimed. Its five cycles and320-system reduction are the starting result, not the new conclusion.
 
 I first examined compression to capped coefficient rows on the eight visible corners. The two actual controls in section8 show that the cap7/6 premise can fail even with the correct solid centroid. I therefore retained all TEN actual vertices and used their exact volume/first-moment dependence before eliminating the common3x3 metric. This avoids fitting planar masses or trying to repair an incomplete projected path afterwards.
 
@@ -59,7 +59,7 @@ The true edges are
 
     01,06,07,12,18,23,28,34,39,45,49,56,57,67,78,79,89.
 
-These are the inherited genuine10/17/9 features; integration diagonals are not in this list. :contentReference[oaicite:2]{index=2}
+These are the inherited genuine10/17/9 features; integration diagonals are not in this list.
 
 An affine change z/H makes H=1. Carry M to the same new coordinates and N to its inverse; do not reset the metric. This accounts for all H>0, including unbounded height ratios.
 
@@ -75,7 +75,7 @@ with the exact simplified moment formulas
     Jcal_z=6-S2,
     g=Jcal/(4D), Xi=Yi-g.                            (1)
 
-These are the parent's actual solid moments expressed in t, not a vertex mean. :contentReference[oaicite:3]{index=3}
+These are the parent's actual solid moments expressed in t, not a vertex mean.
 
 For an independent derivation, at height s∈[0,1] the horizontal section is the triangle x,y>=0,x+y<=1 with its three corner regions scaled by1-s. Their bottom areas are(a^2+t^2)/2,p^2/2,q^2/2. The first region has first moment((a^3+3at^2)/6,(a^3+t^3)/6); the other two have the usual triangular first moments about(1,0) and(0,1). Integrating(1-s)^2,(1-s)^3 and s(1-s)^2 gives(1). The executable independently verifies the entire polynomial identities using TWO complete actual apex fans, from0 and9.
 
@@ -324,7 +324,7 @@ Expected final markers:
     TWO_ACTUAL_OCTAGON_CAP7_OVER6_FAILURES_SAME_INVERSE_CENSUS_PASS
     PRISMATOID_FULL_DOMAIN_SOURCE_ONLY_RECOVERY_PASS 65611 34b1ba3b5570a378b86e09ed4dbceb38264048082987a24f2d9def684eff977f
 
-Supplementary files: [decoded verifier](sandbox:/mnt/data/prism_frontier/prismatoid_full_domain.py), [recovery program](sandbox:/mnt/data/prism_frontier/recover_prismatoid_full.py), [complete bundle](sandbox:/mnt/data/PRISMATOID_FULL_DOMAIN_U2_bundle.zip). The following literal program is sufficient without those links.
+Supplementary files: decoded verifier (`prismatoid_full_domain.py`), recovery program (`recover_prismatoid_full.py`), complete bundle (`PRISMATOID_FULL_DOMAIN_U2_bundle.zip`). The following literal program is sufficient without those links.
 
 ### Complete lossless executable recovery source
 

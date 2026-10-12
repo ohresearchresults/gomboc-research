@@ -8,7 +8,7 @@ AI research report · 2026-08-28 UTC
 
 ## Verdict
 
-**Sharply characterized nonwinner; no strict own-centroid `(1,1,0)` endpoint was found.** The supplied journal ended at the far-side exact root `(H,V,E)=(2638,5272,7908)`, class `(37,37,72)`, with first unclassified gate `(1390,1425,1426,2337)` and prescribed an azimuthally localized asymmetric belt with `(u,t1,t2)` kept as hard moment variables. :contentReference[oaicite:0]{index=0} The acceptance gate still requires a literal finite own-centroid `(1,1,0)` body with complete H/V/E, exhaustive strict audits, verifier, and mesh. :contentReference[oaicite:1]{index=1}
+**Sharply characterized nonwinner; no strict own-centroid `(1,1,0)` endpoint was found.** The supplied journal ended at the far-side exact root `(H,V,E)=(2638,5272,7908)`, class `(37,37,72)`, with first unclassified gate `(1390,1425,1426,2337)` and prescribed an azimuthally localized asymmetric belt with `(u,t1,t2)` kept as hard moment variables. The acceptance gate still requires a literal finite own-centroid `(1,1,0)` body with complete H/V/E, exhaustive strict audits, verifier, and mesh.
 
 I rebuilt the named gate, reduced the inherited relay, then traversed an exact 220-row half-turn-odd localized field through **28 actual incidence cells and 27 isolated circuit walls**. The best and farthest pre-birth endpoint is `C26`, with `(H,V,E)=(2666,5328,7992)` and strict class `(5,39,42)`. The next certified circuit event `W26` is a birth, not a cancellation, and its post-cell `C27` is `(2665,5326,7989)`, class `(5,40,43)`. Thus 32 of the 36 inherited nonprotected stable equilibria are destroyed, but four extra stable rows remain.
 
@@ -126,13 +126,13 @@ Beyond `C27`, independently rebuilt fibres bracket the next incidence change at 
 
 A standalone verifier re-read the normative integer generator and human-readable cell files, reconstructed all 28 H sets and every V by exact Cramer arithmetic, regenerated every E from dual row-pair incidence, checked maximal cycles, closed-manifold/Euler identities, root and wall inclusions, actual wall adjacency, remote-support evidence, and the terminal mesh. The portable staged rerun returned `PASS=true`, `cells_verified=28`, `walls_verified=27`. It does not read a serialized hull checkpoint.
 
-- [Complete 508-file exact bundle](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner.zip), SHA-256 `dddc3c1a61763a2e59aceb746465b0d3fe4946a4fca9365f1e33f24adf775934`.
-- [Full exact handoff with the 28-cell root-box table, 27-wall facet table, and all per-cell margins](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner/RESULT_FINAL.md).
-- [Canonical machine-readable atlas](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner/atlas/complete_atlas.json), source-atlas SHA-256 `34698dd70cd9489b7facf1f15d608079d7f74275c93e185bd7c216be0ceb5bc3`.
-- [Independent verifier](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner/verifier/verify_localized_independent.py) and [passing transcript](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner/verifier/verification_localized_bundle.txt).
-- [Strongest pre-birth `C26` OBJ](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner/meshes/strongest_prebirth_C26.obj) / [STL](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner/meshes/strongest_prebirth_C26.stl).
-- [Terminal `C27` OBJ](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner/meshes/terminal_C27.obj) / [STL](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner/meshes/terminal_C27.stl).
-- [SHA-256 manifest](sandbox:/mnt/data/slot4_localized_asymmetric_belt_exact_nonwinner/MANIFEST.sha256), manifest SHA-256 `7f88853e86753e7f187373c1a7df67af08c2c940b9954d88c75a33f8f34a3b3c`.
+- Complete 508-file exact bundle (`slot4_localized_asymmetric_belt_exact_nonwinner.zip`), SHA-256 `dddc3c1a61763a2e59aceb746465b0d3fe4946a4fca9365f1e33f24adf775934`.
+- Full exact handoff with the 28-cell root-box table, 27-wall facet table, and all per-cell margins (`RESULT_FINAL.md`).
+- Canonical machine-readable atlas (`complete_atlas.json`), source-atlas SHA-256 `34698dd70cd9489b7facf1f15d608079d7f74275c93e185bd7c216be0ceb5bc3`.
+- Independent verifier (`verify_localized_independent.py`) and passing transcript (`verification_localized_bundle.txt`).
+- Strongest pre-birth `C26` OBJ (`strongest_prebirth_C26.obj`) / STL (`strongest_prebirth_C26.stl`).
+- Terminal `C27` OBJ (`terminal_C27.obj`) / STL (`terminal_C27.stl`).
+- SHA-256 manifest (`MANIFEST.sha256`), manifest SHA-256 `7f88853e86753e7f187373c1a7df67af08c2c940b9954d88c75a33f8f34a3b3c`.
 
 `unzip -t` reports no compressed-data error.
 

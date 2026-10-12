@@ -8,7 +8,7 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 ## Exact determination
 
-**FALSIFIED.** The orphan is not a valid exact winner and must not be restored as a parent or completion ticket. The journal explicitly classified the recovered message as source evidence rather than an immutable accepted result, although its embedded report asserted strict `(S,U,H)=(1,1,0)`. :contentReference[oaicite:0]{index=0}
+**FALSIFIED.** The orphan is not a valid exact winner and must not be restored as a parent or completion ticket. The journal explicitly classified the recovered message as source evidence rather than an immutable accepted result, although its embedded report asserted strict `(S,U,H)=(1,1,0)`.
 
 The reported determinant-one shear does put the parent residual 17-gon unstable primitive and closure-edge saddle primitive on zero simultaneously. However, an independently written exact-`Fraction` reconstruction finds this different strict packet already present at that same wall:
 
@@ -18,7 +18,7 @@ unstable: [2475,5000,5003], [5003,14001,14014]
 saddles:  [5003,14003], [5003,14011]
 ```
 
-At the exact rational point `alpha=alpha0+2^-30`, all **272** mechanics primitives of the unchanged 18-row lattice are nonzero and the class is strictly `(2,2,2)`, not `(1,1,0)`. Its minimum absolute primitive is greater than `2^-24`. This directly contradicts the orphan's statement that the first post-wall chamber is already a Gömböc and that no replacement feature is born. The exact shear equations and that no-birth claim appear in the recovered report. :contentReference[oaicite:1]{index=1}
+At the exact rational point `alpha=alpha0+2^-30`, all **272** mechanics primitives of the unchanged 18-row lattice are nonzero and the class is strictly `(2,2,2)`, not `(1,1,0)`. Its minimum absolute primitive is greater than `2^-24`. This directly contradicts the orphan's statement that the first post-wall chamber is already a Gömböc and that no replacement feature is born. The exact shear equations and that no-birth claim appear in the recovered report.
 
 This audit did not use or conflate the distinct immutable Bright Lynx `(2,2,2)` continuation.
 
@@ -238,7 +238,7 @@ Canonical primal vertex indices are the line numbers below:
 20: 15006,15007,15008
 ```
 
-The long line `02` is one 20-gonal Q facet, not twenty facets. This resolves the apparent mismatch between 21 primal vertices and the longer incidence list. The orphan's claimed active/supplied counts are recorded in the journal. :contentReference[oaicite:2]{index=2}
+The long line `02` is one 20-gonal Q facet, not twenty facets. This resolves the apparent mismatch between 21 primal vertices and the longer incidence list. The orphan's claimed active/supplied counts are recorded in the journal.
 
 ### All 43 true edges
 
@@ -371,21 +371,21 @@ bash run_all.sh
 
 Artifacts:
 
-- [Final portable falsification archive](sandbox:/mnt/data/J56_TB9_orphan_cleanroom_FALSIFICATION.zip)
-- [Archive SHA-256 companion](sandbox:/mnt/data/J56_TB9_orphan_cleanroom_FALSIFICATION.zip.sha256)
-- [Final clean-extraction replay](sandbox:/mnt/data/J56_TB9_orphan_cleanroom_CLEAN_REPLAY.txt)
-- [Clean-replay SHA-256 companion](sandbox:/mnt/data/J56_TB9_orphan_cleanroom_CLEAN_REPLAY.txt.sha256)
-- [Standalone report](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/RESULT.md)
-- [Verification receipt](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/VERIFICATION_RECEIPT.json)
-- [Internal hash manifest](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/SHA256SUMS.txt)
-- [Independent exact verifier](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/verifier/audit_orphan_j56.py)
-- [Exact source](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/source/audit_source.json)
-- [Fatal wall ledger](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/certificates/wall_exact_mechanics.json)
-- [Immediate post-wall ledger](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/certificates/post_wall_exact_mechanics.json)
-- [Canonical belt ledger](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/certificates/canonical_belt_exact_mechanics.json)
-- [Perturbation certificate](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/certificates/canonical_belt_perturbation_square.json)
-- [Watertight OBJ](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/body/J56_TB9_canonical_exact_NONWINNER.obj)
-- [Watertight STL](sandbox:/mnt/data/J56_orphan_cleanroom_falsification/body/J56_TB9_canonical_exact_NONWINNER.stl)
+- Final portable falsification archive (`J56_TB9_orphan_cleanroom_FALSIFICATION.zip`)
+- Archive SHA-256 companion (`J56_TB9_orphan_cleanroom_FALSIFICATION.zip.sha256`)
+- Final clean-extraction replay (`J56_TB9_orphan_cleanroom_CLEAN_REPLAY.txt`)
+- Clean-replay SHA-256 companion (`J56_TB9_orphan_cleanroom_CLEAN_REPLAY.txt.sha256`)
+- Standalone report (`RESULT.md`)
+- Verification receipt (`VERIFICATION_RECEIPT.json`)
+- Internal hash manifest (`SHA256SUMS.txt`)
+- Independent exact verifier (`audit_orphan_j56.py`)
+- Exact source (`audit_source.json`)
+- Fatal wall ledger (`wall_exact_mechanics.json`)
+- Immediate post-wall ledger (`post_wall_exact_mechanics.json`)
+- Canonical belt ledger (`canonical_belt_exact_mechanics.json`)
+- Perturbation certificate (`canonical_belt_perturbation_square.json`)
+- Watertight OBJ (`J56_TB9_canonical_exact_NONWINNER.obj`)
+- Watertight STL (`J56_TB9_canonical_exact_NONWINNER.stl`)
 
 ## Integration boundary
 

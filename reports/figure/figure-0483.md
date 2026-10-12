@@ -18,9 +18,9 @@ Its new vertex is 16-valent. It has a certified three-dimensional point-position
 
 I read the complete supplied journal, including its literal parent payload and decoder, and decoded/read the entire standalone source before research. The mounted journal is 177154 bytes, 1007 physical text lines, SHA-256 `a388ed17d3064a7b61255c2f2e64a0ae94fa7cf6a5158618b2b87122a382cae5`.
 
-The required parent is `figure-0481`, advertised immutable SHA-256 `7b61883c3932f89c25f224d4d392259488c1cf0673b4bc72c39941bdbd9d3b9d`. The parent supplies the exact affine frame, strict222 census and complete P29/25 and Q10/16 interfaces. :contentReference[oaicite:0]{index=0}
+The required parent is `figure-0481`, advertised immutable SHA-256 `7b61883c3932f89c25f224d4d392259488c1cf0673b4bc72c39941bdbd9d3b9d`. The parent supplies the exact affine frame, strict222 census and complete P29/25 and Q10/16 interfaces.
 
-There is a **transport-hash limitation, not a geometry substitution**: the Markdown span extracted from its heading through mounted EOF has 21522 bytes and SHA-256 `3396598c6c442eab51bdf36b5f1b021342ce967906ece14373cb00ed6e25954c`, which does not reproduce the advertised outer-result hash. I do not infer the unavailable original serialization. The embedded source independently decodes to exactly **17276 bytes**, SHA-256 `033968bb2c49df312a8d92cc89d3a2e015404b329529761fe824f77ec34aabe7`; fresh execution reproduces **all six parent input/audit receipts byte-for-byte**, including the C180 affine input and full audit. Those source and receipt identities are explicitly provided by the literal payload. :contentReference[oaicite:1]{index=1} No coordinate, incidence, centroid or index conflict was found. No missing additional source is needed for the findings below.
+There is a **transport-hash limitation, not a geometry substitution**: the Markdown span extracted from its heading through mounted EOF has 21522 bytes and SHA-256 `3396598c6c442eab51bdf36b5f1b021342ce967906ece14373cb00ed6e25954c`, which does not reproduce the advertised outer-result hash. I do not infer the unavailable original serialization. The embedded source independently decodes to exactly **17276 bytes**, SHA-256 `033968bb2c49df312a8d92cc89d3a2e015404b329529761fe824f77ec34aabe7`; fresh execution reproduces **all six parent input/audit receipts byte-for-byte**, including the C180 affine input and full audit. Those source and receipt identities are explicitly provided by the literal payload. No coordinate, incidence, centroid or index conflict was found. No missing additional source is needed for the findings below.
 
 I then performed a second fresh replay from the new **source-only capsule**, in a new directory. It reconstructed all parent objects, checked the new global exclusion, rebuilt the new C176 body's actual mass/mechanics/landscapes, and matched all ten expected output hashes.
 
@@ -84,7 +84,7 @@ A complete standard-library integer/bitset domain search rejects every root. Obs
 
 These are **search-tree/domain-check counts**, not counts of distinct physical metric cells or spanning trees. The code performs exhaustive branching on every surviving parent option, exact unit propagation of the forbidden selections, and memoization only of already proved impossible domains. Removing all metric blockers leaves a satisfiable root-0 combinatorial control, which is checked during replay.
 
-The final exact checker uses **neither an SDP solver nor Z3 nor SciPy**. Numerical linear-programming/eigenvector cuts were used only to nominate positive integer blocker weights; a finite weighted-triple bank and symbolic clause learning supplied candidates. SciPy's optimization interface was the numerical front end, not the proof authority. :contentReference[oaicite:2]{index=2} The capsule includes complete reusable cone and finite-grid nominators, with their settings and observed dependency versions. It does not rely on reproducing discarded SAT models or their trial order.
+The final exact checker uses **neither an SDP solver nor Z3 nor SciPy**. Numerical linear-programming/eigenvector cuts were used only to nominate positive integer blocker weights; a finite weighted-triple bank and symbolic clause learning supplied candidates. SciPy's optimization interface was the numerical front end, not the proof authority. The capsule includes complete reusable cone and finite-grid nominators, with their settings and observed dependency versions. It does not rely on reproducing discarded SAT models or their trial order.
 
 **Scientific consequence:** changing only the affine metric on this C180 parent cannot finish the assignment. Geometry really must change. Rational affine reparameterization cannot reopen this closed orbit.
 
@@ -238,7 +238,7 @@ SC83_RESULT_TEN_OUTPUT_HASHES_PASS10
 SC83_C180_GLOBAL_AFFINE_EXCLUSION_AND_C176_MATERIAL_HANDOFF_PASS
 ```
 
-Convenience copies, not dependencies of the inline recovery: [source-and-audit bundle](sandbox:/mnt/data/SC83_C180_SPD_C176_HANDOFF.zip) and [decoder](sandbox:/mnt/data/RECOVER_SC83_C180_SPD_C176.py).
+Convenience copies, not dependencies of the inline recovery: source-and-audit bundle (`SC83_C180_SPD_C176_HANDOFF.zip`) and decoder (`RECOVER_SC83_C180_SPD_C176.py`).
 
 ### Complete inline decoder and source payload
 

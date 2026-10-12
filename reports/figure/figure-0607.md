@@ -35,9 +35,9 @@ research-journal(20260928-194815).md
 
 The older inability to inspect the CYCLE2 input does **not** apply to this turn: its complete literal77-row H input was extracted from the supplied coordinator source and matched2723 bytes/SHA `15bd743f76a69e8bec0c7b348adff53a33d62742729cadf9aba5e6f796b5bf48`. The capsule below includes it. The names KH123_CYCLE2_G10 and KH123_CYCLE2_FINAL_G10 refer here to those same input bytes.
 
-The supplied APEX2/APEX_RELAY exact findings were used as working premises. Their common-apex geometry and real E247/E249 budgets, not a new F85 assumption, informed the construction. Only the two actual computational seeds, CYCLE2 and APEX2_MATCH_G6, were reconstructed for their current mass and lattice; the historical94-file KH123 workspace was not replayed. The new J124 hosts remain own121 nonwinners as the sources state. fileciteturn53file0L9-L15
+The supplied APEX2/APEX_RELAY exact findings were used as working premises. Their common-apex geometry and real E247/E249 budgets, not a new F85 assumption, informed the construction. Only the two actual computational seeds, CYCLE2 and APEX2_MATCH_G6, were reconstructed for their current mass and lattice; the historical94-file KH123 workspace was not replayed. The new J124 hosts remain own121 nonwinners as the sources state.
 
-Exact audits use the supplied **exact115.cpp**,11038 bytes/SHA `d7fd1244c086a0c5354844cca3453c42b26ed31a55b89720aa9e3987f0a06736`. It enumerates all H-triples, proves boundedness, reconstructs maximal facets and true edges, integrates actual uniform mass twice, checks direct/global equilibrium predicates and retains every positive bar. This is **one reused census engine with internal cross-checks**, not two independently written physics verifiers. fileciteturn53file2L3-L5
+Exact audits use the supplied **exact115.cpp**,11038 bytes/SHA `d7fd1244c086a0c5354844cca3453c42b26ed31a55b89720aa9e3987f0a06736`. It enumerates all H-triples, proves boundedness, reconstructs maximal facets and true edges, integrates actual uniform mass twice, checks direct/global equilibrium predicates and retains every positive bar. This is **one reused census engine with internal cross-checks**, not two independently written physics verifiers.
 
 ## 3. All new exact endpoints
 
@@ -220,7 +220,7 @@ Combining the two assumed direct exits with the certified inequality yields
 
 so every old point satisfies **`w·r>−|r|²/4`**.
 
-The depth-three support-envelope bound gives the same nonstrict lower bound for every newly added point a: **`a·r≥−|r|²/4`**. For m positive/nonnegative steps to r, the closed directional support is `|r||z| cos(angle(z,r)/(m+1))^(m+1)`; apply z=−r and m≤3. At m=3 its factor is cos(pi/4)^4=1/4. This general depth obstruction is already present in the supplied journal, and is not claimed as a new universal lemma. The new result is the exact **five-host certificate that absorbs every old vertex while leaving its old witness depth unrestricted**. fileciteturn60file0L127-L133
+The depth-three support-envelope bound gives the same nonstrict lower bound for every newly added point a: **`a·r≥−|r|²/4`**. For m positive/nonnegative steps to r, the closed directional support is `|r||z| cos(angle(z,r)/(m+1))^(m+1)`; apply z=−r and m≤3. At m=3 its factor is cos(pi/4)^4=1/4. This general depth obstruction is already present in the supplied journal, and is not claimed as a new universal lemma. The new result is the exact **five-host certificate that absorbs every old vertex while leaving its old witness depth unrestricted**.
 
 Now the linear coordinate y=r·(x−c) on L has minimum a≥−|r|²/4 and maximum b≥|r|², since r_0 belongs to L. For any homogeneous convex3-body, its mean coordinate is at least `(b+3a)/4`. Indeed, homothetic copies centred at a maximizing point show that the fraction above a level s is at least `((b−s)/(b−a))³`; integration over s gives the bound. Therefore the actual mean satisfies `r·(g_L−c)≥|r|²/16`.
 
@@ -285,7 +285,7 @@ KH125_SEVEN_EXACT_BODIES_SEVEN_P_ONE_REAL_Q_FIVE_MASS_GAPS_NO110 7 7 1 5
 
 This is a reconstruction check with the same census implementation, not a second independent physics engine. The five universal mass inequalities have their separate complete rational-algebra program and mathematical proof above.
 
-Supplemental convenience copies: [complete source and output archive](sandbox:/mnt/data/KH125_COMPLETE_HANDOFF.zip), [standalone decoder](sandbox:/mnt/data/RECOVER_KH125.py), and [full Markdown handoff](sandbox:/mnt/data/KH125_RESULT.md). Their existence does not replace the inline source below.
+Supplemental convenience copies: complete source and output archive (`KH125_COMPLETE_HANDOFF.zip`), standalone decoder (`RECOVER_KH125.py`), and full Markdown handoff (`KH125_RESULT.md`). Their existence does not replace the inline source below.
 
 ## 10. Full literal recovery capsule
 

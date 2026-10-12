@@ -96,6 +96,24 @@ Browse code and reports below. [Downloads](downloads.md) add numerical data at t
 | minimum | 3 | 0.0 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/recovered/minimum/op_minimum_height_variation_handoff_source_preserve_20260928T0309Z/facet_height_variations_exact.py) |
 | workflow-20260925 | 29 | 1.7 | [source](https://github.com/ohresearchresults/gomboc-research/blob/main/sources/recovered/workflow-20260925/RECOVER_RA40.py) |
 
+## Notation
+
+The reports, notes and source folders are working records and use the shorthand of the search. The recurring terms:
+
+| Term | Meaning |
+| --- | --- |
+| C622, C624, … | A body of size C = V + E + F − 2 = 2E, counted after merging coplanar faces. Several different bodies can share one number. |
+| (S,U,H), for example (1,1,0) | Numbers of stable, unstable and saddle equilibria. The target is (1,1,0). Also written without punctuation: `110`, `211`, `817`. |
+| strict / weak | Strict equilibria satisfy the relevant inequalities strictly; weak ones satisfy the non-strict conditions with at least one equality. `weak000` means no weak equilibria of any kind. |
+| own, actual, physical centroid | The centre of mass of the uniform solid itself. Counts about any other point are called reference counts (`reference110`). |
+| true edge, maximal facet | An edge between two non-coplanar faces; a face after merging coplanar pieces. |
+| winner / nonwinner | A body that does or does not reach strict (1,1,0) with no weak equilibria about its own centroid. A nonwinner is an exact record of a failed attempt. |
+| U1 | Exactly one unstable equilibrium. |
+| support, H-representation | A half-space a·x ≤ d bounding the body; the body written as a list of such half-spaces. |
+| recovery capsule | A note that contains the complete source needed to rebuild a result. |
+| Figure, Minimum | The two studies: Figure looks for small bodies with counts (1,1,0); Minimum works on lower bounds for their size. |
+| VQ20, S8, BQ13, NH72, … | Labels of individual constructions or research threads. They carry no meaning beyond identification. |
+
 [files.jsonl](files.jsonl) lists file sizes, SHA-256 hashes and download locations. [Coverage](coverage.md) describes verification status and missing material.
 
 [Saved AI reports](../reports/README.md) · [Research branches](branches.md) · [Downloads](downloads.md) · [Chronology](chronology.md)

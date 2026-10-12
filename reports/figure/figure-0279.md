@@ -10,9 +10,9 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACT DELIMITED NONWINNER.** No materialized homogeneous convex polyhedral Gömböc was obtained in the topology closed here.
 
-The acceptance gate is an explicit finite uniform-density convex polyhedron at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, actual H/V/incidence, an exhaustive positive-margin face/vertex/true-edge audit, independent verification, and matching OBJ/STL. Wall points, auxiliary centres, near-solutions, and unexpanded theorem objects do not qualify. :contentReference[oaicite:0]{index=0}
+The acceptance gate is an explicit finite uniform-density convex polyhedron at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, actual H/V/incidence, an exhaustive positive-margin face/vertex/true-edge audit, independent verification, and matching OBJ/STL. Wall points, auxiliary centres, near-solutions, and unexpanded theorem objects do not qualify.
 
-The immutable parent `figure-0274`, payload SHA-256 `febe7249e478426e95d60296cd8698dc3aa35dcf84c0a10ab1afd09212733ed1`, is the recurrent simplicial eight-vertex `(8,18,12)`, strict `(2,2,2)` cage with sole nonprotected carrier `[0,AT]`. The journal identifies a nonsimplicial eight-vertex circuit or minimally enlarged basin as the first unrepresented continuation. :contentReference[oaicite:1]{index=1} Exact prior work proves that any strict homogeneous polyhedral Gömböc has at least eight vertices, while the eight-vertex case remains open. :contentReference[oaicite:2]{index=2}
+The immutable parent `figure-0274`, payload SHA-256 `febe7249e478426e95d60296cd8698dc3aa35dcf84c0a10ab1afd09212733ed1`, is the recurrent simplicial eight-vertex `(8,18,12)`, strict `(2,2,2)` cage with sole nonprotected carrier `[0,AT]`. The journal identifies a nonsimplicial eight-vertex circuit or minimally enlarged basin as the first unrepresented continuation. Exact prior work proves that any strict homogeneous polyhedral Gömböc has at least eight vertices, while the eight-vertex case remains open.
 
 I realized the first literal nonsimplicial successor by imposing
 
@@ -304,23 +304,23 @@ manifest SHA-256 c29b922c09e7d3171876ace365a256ed4b2ca61a036c66fbd2e840cb5c78e60
 clean extraction PASS
 ```
 
-- [Complete exact archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER.zip)
-- [Full self-contained handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_COMPLETE_HANDOFF.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_COMPLETE_RESULT.json)
-- [Clean verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_clean_verification.json)
-- [Clean replay](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_clean_replay.txt)
-- [Exact generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/data/generator_exact.json)
-- [Exact H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/data/sixteenth_ns8_exact_H_irredundant.csv)
-- [Exact centred V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Face ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/data/sixteenth_ns8_exact_faces.csv)
-- [Vertex ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/data/sixteenth_ns8_exact_vertex_primitives.csv)
-- [True-edge cone ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/data/sixteenth_ns8_exact_true_edges_full_cones.csv)
-- [Grid atlas](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/certificates/carrier_escape_grid_atlas.json)
-- [Second-circuit atlas](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/certificates/carrier_escape_second_circuit_atlas.json)
-- [Chronology certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/certificates/source_to_target_death_before_birth_obstruction.json)
-- [Relative-box certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/certificates/own_centroid_relative_stratum_perturbation_certificate.json)
-- [Independent verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/scripts/verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER/mesh/body.stl)
+- Complete exact archive (`Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_exact_NONWINNER.zip`)
+- Full self-contained handoff (`Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_COMPLETE_HANDOFF.md`)
+- Structured result (`Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_COMPLETE_RESULT.json`)
+- Clean verification receipt (`Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_clean_verification.json`)
+- Clean replay (`Calm_Quartz_90_wall242_sixteenth_nonsimplicial_circuit_clean_replay.txt`)
+- Exact generator (`generator_exact.json`)
+- Exact H-data (`sixteenth_ns8_exact_H_irredundant.csv`)
+- Exact centred V-data (`active_vertices_centered_exact.csv`)
+- Face ledger (`sixteenth_ns8_exact_faces.csv`)
+- Vertex ledger (`sixteenth_ns8_exact_vertex_primitives.csv`)
+- True-edge cone ledger (`sixteenth_ns8_exact_true_edges_full_cones.csv`)
+- Grid atlas (`carrier_escape_grid_atlas.json`)
+- Second-circuit atlas (`carrier_escape_second_circuit_atlas.json`)
+- Chronology certificate (`source_to_target_death_before_birth_obstruction.json`)
+- Relative-box certificate (`own_centroid_relative_stratum_perturbation_certificate.json`)
+- Independent verifier (`verify_independent.py`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 **Final statement:** `NONWINNER`, rigorously delimited. The first genuine nonsimplicial eight-vertex carrier escape removes `[0,AT]`, but transfers the one-edge forcing obstruction to `[AT,AW]`; the exact finite one-plane and compatible second-circuit collars contain no winner.

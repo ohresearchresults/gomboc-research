@@ -8,7 +8,7 @@ AI research report · 2026-08-25 UTC
 
 ## Verdict
 
-**No strict own-centroid homogeneous polyhedral Gömböc was found.** Every candidate was evaluated at its own uniform-volume centroid, with maximal coplanar faces merged before reconstructing true edges. Auxiliary-center successes, degenerate wall points, and incomplete layer realizations were rejected, in accordance with the assignment’s acceptance boundary. :contentReference[oaicite:0]{index=0}
+**No strict own-centroid homogeneous polyhedral Gömböc was found.** Every candidate was evaluated at its own uniform-volume centroid, with maximal coplanar faces merged before reconstructing true edges. Auxiliary-center successes, degenerate wall points, and incomplete layer realizations were rejected, in accordance with the assignment’s acceptance boundary.
 
 The strongest robust, fully active multilayer body found has six horizontal levels, 26 vertices, 40 true edges, 16 maximal faces, and complexity `C=80`. Its own-centroid equilibrium class is **`(S,U,H)=(2,2,2)`**. It is therefore four equilibrium features short of the target: one unwanted stable face, one unwanted unstable vertex, and two saddle edges must be removed, while the intended lower cap is presently not stable. This is a genuine open numerical body rather than a transfer-wall artifact, but it is not a Gömböc.
 
@@ -18,10 +18,10 @@ A second search state approached the target inequalities more closely, reaching 
 
 The selected fallback is the full-active projective–affine six-level tower:
 
-- [Expanded 26-coordinate candidate](sandbox:/mnt/data/proj_affine_clean_aligned.npz)
-- [Unaligned generating coordinates and transformation data](sandbox:/mnt/data/proj_affine_clean_raw.npz)
-- [Deterministic reconstruction script](sandbox:/mnt/data/reconstruct_clean.py)
-- [Hull, centroid, maximal-face, true-edge, and normal-cone auditor](sandbox:/mnt/data/tower_geom.py)
+- Expanded 26-coordinate candidate (`proj_affine_clean_aligned.npz`)
+- Unaligned generating coordinates and transformation data (`proj_affine_clean_raw.npz`)
+- Deterministic reconstruction script (`reconstruct_clean.py`)
+- Hull, centroid, maximal-face, true-edge, and normal-cone auditor (`tower_geom.py`)
 
 The NPZ field `points` is the complete `26×3` vertex matrix in the vertex numbering used below. No input point is inactive.
 
@@ -139,8 +139,8 @@ Several states had a smaller numerical target defect, but they were supported on
 
 The near-wall alternative is available for continuation but must not be presented as an open body:
 
-- [Near-wall own-centroid optimizer endpoint](sandbox:/mnt/data/nl_actual_best.npz)
-- [Near-wall optimization transcript](sandbox:/mnt/data/nl_actual.log)
+- Near-wall own-centroid optimizer endpoint (`nl_actual_best.npz`)
+- Near-wall optimization transcript (`nl_actual.log`)
 
 Its class is `(4,3,5)`, normalized target hard score approximately `-6.98875e-4`, and normalized minimum active-support separation approximately `3.03e-8`.
 
@@ -152,8 +152,8 @@ A dynamic hull search sampled 50,000 towers across 19 layer-cardinality patterns
 
 Artifacts:
 
-- [Unequal-layer search driver](sandbox:/mnt/data/search_mixed_random.py)
-- [Stored mixed-family candidates](sandbox:/mnt/data/mixedruns/)
+- Unequal-layer search driver (`search_mixed_random.py`)
+- Stored mixed-family candidates (`mixedruns`)
 
 This experiment rules out only the sampled parameter distributions, not the complete unequal-layer family.
 
@@ -165,9 +165,9 @@ The orbit crosses genuine mechanical and incidence walls. It did not locate an o
 
 Artifacts:
 
-- [Projective–affine search](sandbox:/mnt/data/proj_affine_search.py)
-- [Search transcript](sandbox:/mnt/data/proj_affine_search.log)
-- [Best transformed body before clean reconstruction](sandbox:/mnt/data/proj_affine_best.npz)
+- Projective–affine search (`proj_affine_search.py`)
+- Search transcript (`proj_affine_search.log`)
+- Best transformed body before clean reconstruction (`proj_affine_best.npz`)
 
 ### 3. Own-centroid fixed-cell and topology-changing continuation
 
@@ -183,16 +183,16 @@ with old diagonal `10–11` and alternate diagonal `3–20`. Immediately before 
 
 Artifacts:
 
-- [Own-centroid sequential maximin optimizer](sandbox:/mnt/data/own_layer_slp.py)
-- [Explicit circuit-crossing driver](sandbox:/mnt/data/cross_clean_circuit.py)
-- [Circuit-crossing transcript](sandbox:/mnt/data/cross_clean_circuit.log)
-- [Post-crossing candidates](sandbox:/mnt/data/cross_clean_best0.npz)
+- Own-centroid sequential maximin optimizer (`own_layer_slp.py`)
+- Explicit circuit-crossing driver (`cross_clean_circuit.py`)
+- Circuit-crossing transcript (`cross_clean_circuit.log`)
+- Post-crossing candidates (`cross_clean_best0.npz`)
 
 A second earlier free-layer continuation crossed the distinct side circuit whose diagonal changed from `7–16` to `12–13`. The post-flip branch reduced the reference-centroid error but met a subsequent unstable–saddle wall before reaching the own centroid.
 
-- [Post-flip seed](sandbox:/mnt/data/postflip_centered.npz)
-- [Post-flip continuation endpoint](sandbox:/mnt/data/postflip_cont_best.npz)
-- [Continuation transcript](sandbox:/mnt/data/postflip_cont.log)
+- Post-flip seed (`postflip_centered.npz`)
+- Post-flip continuation endpoint (`postflip_cont_best.npz`)
+- Continuation transcript (`postflip_cont.log`)
 
 ### 4. Lower-layer moment actuation
 
@@ -200,23 +200,23 @@ Ten thousand broad random affine deformations of the lower two layers were evalu
 
 Artifacts:
 
-- [Lower-layer affine search](sandbox:/mnt/data/random_base_affine.py)
-- [Search transcript](sandbox:/mnt/data/random_base_affine.log)
-- [Stored best samples](sandbox:/mnt/data/base_affine_best.pkl)
+- Lower-layer affine search (`random_base_affine.py`)
+- Search transcript (`random_base_affine.log`)
+- Stored best samples (`base_affine_best.pkl`)
 
 ### 5. Symmetric helical subfamily
 
 A separate search sampled concentric but independently twisted regular pentagonal towers with three, four, and five polygonal levels plus an apex. In the completed 20,000-sample three-ring run, the lowest equilibrium count was repeatedly `(6,6,10)`: the intended axial equilibria plus one fivefold orbit of stable faces, one fivefold orbit of unstable vertices, and two fivefold saddle orbits. No sample had fewer defects. This is evidence that exact fivefold symmetry compresses cancellation into simultaneous five-feature walls, but it is not an impossibility proof.
 
-- [Symmetric global sampler](sandbox:/mnt/data/search_symmetric_global.py)
-- [Completed three-ring transcript](sandbox:/mnt/data/symglobal_R3.log)
+- Symmetric global sampler (`search_symmetric_global.py`)
+- Completed three-ring transcript (`symglobal_R3.log`)
 
 ### 6. Horizontal slices of an analytically centered smooth Sloan body
 
 Several towers were generated from horizontal sections of the exactly centered Sloan-type smooth Gömböc. Direct low-order section samplings produced classes no better than approximately `(4,16,18)` for triangular sections, with counts worsening as the polygon order increased. The failure agrees with the journal’s warning that generic dense inscribed meshes proliferate mixed polyhedral equilibria.
 
-- [Sloan horizontal-slice generator and auditor](sandbox:/mnt/data/sloan_tower.py)
-- [Search output](sandbox:/mnt/data/sloan_tower.out)
+- Sloan horizontal-slice generator and auditor (`sloan_tower.py`)
+- Search output (`sloan_tower.out`)
 
 ## Architecture-specific obstruction isolated
 

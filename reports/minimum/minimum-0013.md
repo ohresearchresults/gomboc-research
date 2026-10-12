@@ -10,7 +10,7 @@ AI research report · 2026-09-07 UTC · [Export notes](../../catalog/coverage.md
 
 **No additional whole combinatorial type or complete joint-root class is closed, and no C30 attainer is asserted.** The accepted bracket remains **30 ≤ C_min ≤ 1374**. The new result is an exact, unrestricted-domain obstruction for all three degree-six types: an apex-root realization must have a strict interleaving of the maximum squared radii on its two caps and their common ridge. An explicit positive quadratic identity proves the obstruction. In the surviving interleaving sectors it additionally forces a true escape edge, a strictly negative *nonedge* comparison, and a strict inequality involving the two **actual pyramid volumes**.
 
-This is a proved exclusion of complete norm-order sectors in the joint realization/physical-metric space, not a sampled shape box, a whole-type exclusion, or a claim that the same shape is excluded for every metric regardless of its norm order. The parent's necessary-and-sufficient physical systems remain authoritative; their three degree-six members have fourteen real variables and no incidence equations. :contentReference[oaicite:0]{index=0}
+This is a proved exclusion of complete norm-order sectors in the joint realization/physical-metric space, not a sampled shape box, a whole-type exclusion, or a claim that the same shape is excluded for every metric regardless of its norm order. The parent's necessary-and-sufficient physical systems remain authoritative; their three degree-six members have fourteen real variables and no incidence equations.
 
 ## 1. Authority reconciliation and exact three-type input
 
@@ -179,7 +179,7 @@ Select maxima using the `N_i`; the common divisor `K²` is positive. Use outward
 
 **`D_L^Z e_r^Z+D_H^Z e_p^Z<0`.**
 
-Its sign is exactly the physical sign: coordinate denominators contribute positive powers of `K`, and the physical affine Jacobian is a common positive volume factor. The inherited identity `K=4 Delta⁴ W_raw>0` explicitly covers either sign of `Delta` and arbitrarily small nonzero Cramer denominators. :contentReference[oaicite:1]{index=1}
+Its sign is exactly the physical sign: coordinate denominators contribute positive powers of `K`, and the physical affine Jacobian is a common positive volume factor. The inherited identity `K=4 Delta⁴ W_raw>0` explicitly covers either sign of `Delta` and arbitrarily small nonzero Cramer denominators.
 
 Positive definiteness is unrestricted. The strictness comes from `Q1>0` for every SPD `M`, not from a selected diagonal metric or a conditioning bound. Singular metrics are outside the physical domain; arbitrarily ill-conditioned positive-definite metrics are included.
 
@@ -187,7 +187,7 @@ The proof assumes the listed objects are genuine vertices and maximal facets of 
 
 No norm-order tie has been thrown away. Equality between a private maximum and the ridge maximum is excluded by the proof itself. Equal maxima within a ridge or private set are covered by all choices, and require no generic perturbation.
 
-The argument uses a **necessary U-only consequence**. It neither chooses an independent dual metric nor imposes a homogeneous centroid on the polar. Every unexcluded system must still keep the parent's one `M` and exact inverse, every stable-root choice, all genuine edges, and the complete four-component nonsaddle disjunctions. Those conditions are not replaced by the new comparisons. :contentReference[oaicite:2]{index=2}
+The argument uses a **necessary U-only consequence**. It neither chooses an independent dual metric nor imposes a homogeneous centroid on the polar. Every unexcluded system must still keep the parent's one `M` and exact inverse, every stable-root choice, all genuine edges, and the complete four-component nonsaddle disjunctions. Those conditions are not replaced by the new comparisons.
 
 ## 6. Exact remaining strata and what was not proved
 
@@ -208,7 +208,7 @@ D_L^Z e_r^Z+D_H^Z e_p^Z < 0.
 
 All eight stable-root choices remain represented within this necessary reduction, subject to the inherited certified frontier. **The other eight unstable-root choices are not closed or removed by the interleaving theorem.** The general moment identity remains available for them, but I have not turned it into a complete new root-class exclusion there.
 
-The inherited cone remainder is not replaced or recounted. In particular, the previously reported three closed joint-root orbits belong to that earlier result and are not new achievements here; their catalogue labels should not be transferred without a checked crosswalk. Its 178,131-record frontier and the fact that all 74 types remain are unchanged. :contentReference[oaicite:3]{index=3}
+The inherited cone remainder is not replaced or recounted. In particular, the previously reported three closed joint-root orbits belong to that earlier result and are not new achievements here; their catalogue labels should not be transferred without a checked crosswalk. Its 178,131-record frontier and the fact that all 74 types remain are unchanged.
 
 I reconstructed the complete parent, extracted and authenticated the degree-six incidence data, replaced the high-degree whole-system attack by the two-cap geometric decomposition, derived the positive identity, and checked it both symbolically and on three exact actual-mass controls. Exploratory metric searches supplied no promoted result. **There is no CAD/SMT UNSAT verdict, no numerical non-discovery theorem, and no exact SAT attainer in this handoff.** The proved UNSAT statements are precisely the analytic norm-order exclusions in Section 3 and violations of the necessary mixed-sector inequalities in Section 4.
 
@@ -504,4 +504,4 @@ THREE_EXACT_ACTUAL_MASS_CONTROLS_PASS
 NO_WHOLE_TYPE_OR_JOINT_ROOT_CLASS_CLOSED
 ```
 
-Convenience copies, unnecessary for the inline reconstruction: [complete source](sandbox:/mnt/data/degree6_roof_max_v1.py) and [exact generated report](sandbox:/mnt/data/degree6_roof_max_v1_report.json).
+Convenience copies, unnecessary for the inline reconstruction: complete source (`degree6_roof_max_v1.py`) and exact generated report (`degree6_roof_max_v1_report.json`).

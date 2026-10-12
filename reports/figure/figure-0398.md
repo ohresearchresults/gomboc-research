@@ -152,4 +152,4 @@ Expected final markers are `NC57_C384_NONLINEAR_EIGHT_NEW_BODIES_AB_MASS_TWO_SCO
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Convenience copies, not dependencies of the embedded recovery: [decoder](sandbox:/mnt/data/RECOVER_NC57.py), [source and exact certificates](sandbox:/mnt/data/NC57_C384_NONLINEAR_CAPSULE.zip), and [complete Markdown handoff](sandbox:/mnt/data/NC57_RESULT.md).
+Convenience copies, not dependencies of the embedded recovery: decoder (`RECOVER_NC57.py`), source and exact certificates (`NC57_C384_NONLINEAR_CAPSULE.zip`), and complete Markdown handoff (`NC57_RESULT.md`).

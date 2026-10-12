@@ -26,7 +26,7 @@ The remaining obstruction is the homogeneous-centroid condition. The replacement
 
 What is complete is the requested fallback artifact: exact reconstruction, exact basin boundary, an explicit rational patch with a strict fixed-center certificate, exact centroid residual equations, a three-parameter exact correction family with full-rank Jacobian, and the finite inequalities that remain to be preserved during centroid correction.
 
-Reshetov’s primary construction is indeed a 14-face homogeneous monostable polyhedron proved using rational arithmetic. :contentReference[oaicite:0]{index=0} Lángi’s approximation theorem establishes existence of centered polyhedral bodies with prescribed nondegenerate equilibria and supplies the theoretical remote-cap correction mechanism, but its parameter choices are non-explicit and local. :contentReference[oaicite:1]{index=1} The earlier transcript correctly isolated full-basin replacement, rather than vertex truncation, as the remaining operation. :contentReference[oaicite:7]{index=7}
+Reshetov’s primary construction is indeed a 14-face homogeneous monostable polyhedron proved using rational arithmetic. Lángi’s approximation theorem establishes existence of centered polyhedral bodies with prescribed nondegenerate equilibria and supplies the theoretical remote-cap correction mechanism, but its parameter choices are non-explicit and local. The earlier transcript correctly isolated full-basin replacement, rather than vertex truncation, as the remaining operation.
 
 ## 1. Exact reconstruction of the starting polyhedron
 
@@ -99,7 +99,7 @@ Normalized starting margins are:
 | extra unstable vertex \(v_{24}\) | \(+9.2845652326\times10^{-1}\) |
 | saddle edge \([v_{10},v_{15}]\) | \(+2.7992108730\times10^{-2}\) |
 
-The exact reconstruction code is [reshetov_core.py](sandbox:/mnt/data/reshetov_core.py).
+The exact reconstruction code is reshetov_core.py.
 
 ## 2. Exact saddle and complete basin boundary
 
@@ -150,7 +150,7 @@ The boundary loop, in cyclic order, is
 q,A_1,A_2,A_3,A_4,A_5,p,B_9,B_8,B_7,B_6,B_5,B_4,B_3,B_2.
 \]
 
-Its complete exact coordinates are in [exact_separatrix_boundary.json](sandbox:/mnt/data/reshetov_basin_cancellation/exact_separatrix_boundary.json). The exact derivation is in [separatrix_exact.py](sandbox:/mnt/data/separatrix_exact.py).
+Its complete exact coordinates are in exact_separatrix_boundary.json. The exact derivation is in separatrix_exact.py.
 
 ## 3. Explicit rational monotone replacement patch
 
@@ -176,7 +176,7 @@ C_{
 m mech}=V+E+F-2=116.
 \]
 
-All 27 rational coordinates and all 33 face cycles are in [certificate.json](sandbox:/mnt/data/reshetov_basin_cancellation/certificate.json). The corresponding visualization mesh is [strict_fixed_center_patch.obj](sandbox:/mnt/data/reshetov_basin_cancellation/strict_fixed_center_patch.obj).
+All 27 rational coordinates and all 33 face cycles are in certificate.json. The corresponding visualization mesh is strict_fixed_center_patch.obj.
 
 ### Strict equilibrium certificate relative to \(C_R\)
 
@@ -213,7 +213,7 @@ The certificate contains, as exact fractions:
 
 This last item is the discrete monotonicity certificate for the replacement patch: no vertex in the substituted basin can inherit the removed maximum.
 
-The generator and exact assertions are in [strict_patch_exact.py](sandbox:/mnt/data/strict_patch_exact.py).
+The generator and exact assertions are in strict_patch_exact.py.
 
 ## 4. Before/after comparison
 
@@ -335,12 +335,12 @@ All remaining equilibrium inequalities have larger slack. Thus any subsequent ce
 
 ## 8. Reusable artifacts
 
-- [Exact rational certificate: coordinates, faces, signs, centroid and correction Jacobian](sandbox:/mnt/data/reshetov_basin_cancellation/certificate.json)
-- [Exact rational separatrix boundary](sandbox:/mnt/data/reshetov_basin_cancellation/exact_separatrix_boundary.json)
-- [OBJ of the strict fixed-center patch](sandbox:/mnt/data/reshetov_basin_cancellation/strict_fixed_center_patch.obj)
-- [Exact candidate generator](sandbox:/mnt/data/strict_patch_exact.py)
-- [Exact Reshetov reconstruction](sandbox:/mnt/data/reshetov_core.py)
-- [Exact separatrix derivation](sandbox:/mnt/data/separatrix_exact.py)
+- Exact rational certificate: coordinates, faces, signs, centroid and correction Jacobian (`certificate.json`)
+- Exact rational separatrix boundary (`exact_separatrix_boundary.json`)
+- OBJ of the strict fixed-center patch (`strict_fixed_center_patch.obj`)
+- Exact candidate generator (`strict_patch_exact.py`)
+- Exact Reshetov reconstruction (`reshetov_core.py`)
+- Exact separatrix derivation (`separatrix_exact.py`)
 
 ## 9. Strongest next direction
 

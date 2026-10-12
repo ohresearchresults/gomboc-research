@@ -54,7 +54,7 @@ The new attachment bytes and SHA-256 values match the manifest:
 
 The immutable parent is `minimum-0257`, 35515 bytes, SHA-256 `021513490f20418bb9b9874eadd7521ca0ff54f04c9300bd35fddb0608fe53f7`. Its digest was verified by reconstructing the compact UTF-8 JSON envelope with keys `version`, `result_markdown`, `ensure_ascii=False`, separators `(',', ':')`, and a final LF in the Markdown string. The Markdown-only representation is 34824 bytes; the different counts are an envelope distinction, not a conflicting parent. Its embedded 10547-byte Python source also matches `ede99b2df3bff51b55b51c72d84008977dfdbf043141015a4ad874a35271eaf5`.
 
-The governing source identities are retained: the factor is self-polar under the same origin and reciprocal reference, and changing C changes the transported physical matrix rather than the body or M. fileciteturn0file0L21-L39 The fixed-U sublevels are linear matrix inequalities; this does not make the general mixed factor/angle objective convex. fileciteturn0file1L11-L27 fileciteturn0file1L58-L66
+The governing source identities are retained: the factor is self-polar under the same origin and reciprocal reference, and changing C changes the transported physical matrix rather than the body or M. The fixed-U sublevels are linear matrix inequalities; this does not make the general mixed factor/angle objective convex.
 
 No unavailable H5 program, historical archive object, or new external mathematical theorem is a dependency of the certificate below.
 
@@ -113,7 +113,7 @@ First, choose \(r_0B\subset P\) and \(\rho_0B\subset P^\circ\). Unit eigenvector
 \Upsilon_C(P)\ge r_0^2\rho_0^2\operatorname{cond}(C).
 \]
 
-After normalizing \(\operatorname{tr}C=1\), any bounded-objective sublevel therefore stays away from singular matrices and is compact. The maximum defining the factor is continuous because its index set is fixed and compact. This proves attainment, as in the supplied existence argument. fileciteturn0file1L30-L38
+After normalizing \(\operatorname{tr}C=1\), any bounded-objective sublevel therefore stays away from singular matrices and is compact. The maximum defining the factor is continuous because its index set is fixed and compact. This proves attainment, as in the supplied existence argument.
 
 By an origin-fixing reciprocal change of coordinates, take \(C_*=I\). For a fixed pair, the derivative of
 
@@ -273,7 +273,7 @@ z3 = (6687351908,-4477546045, -5935562810)
 
 There is **no omitted normalization** in these matrices. Their common scale is immaterial. They are optimization-dual multipliers, not weights assigned to the body's vertices or density.
 
-Let S and T be the sums in the source's dual criterion. fileciteturn0file1L90-L101 Put
+Let S and T be the sums in the source's dual criterion. Put
 
 \[
 L_0=\frac{159026939}{31250000}=5.088862048.
@@ -351,7 +351,7 @@ The exact factor is
 \tag{14}
 \]
 
-The first pair in (10) attains \(R_0\). The upper proof does not stop at the six selected pairs. It uses the supplied true-edge-pair reduction over the entire body and polar. fileciteturn0file0L65-L88
+The first pair in (10) attains \(R_0\). The upper proof does not stop at the six selected pairs. It uses the supplied true-edge-pair reduction over the entire body and polar.
 
 For each of the 64 edge pairs, write \(w=a+su\), \(n=b+tv\). The orthogonality relation is
 
@@ -613,9 +613,9 @@ If a physical M had S=U=1, the accepted self-polar finite-height theorem would g
 \mu_2/\mu_3\le\Upsilon_{C_0}(P_\epsilon)f(9),
 \]
 
-where \(f(m)=\cos(\pi/(2m))^{2m}\). The polar uses exactly \(H^{-1}\), by self-polarity; no polar volume-centroid assumption enters. The theorem admits nonnegative true escape arrows, so incidental weak contacts do not evade it. fileciteturn0file0L43-L63
+where \(f(m)=\cos(\pi/(2m))^{2m}\). The polar uses exactly \(H^{-1}\), by self-polarity; no polar volume-centroid assumption enters. The theorem admits nonnegative true escape arrows, so incidental weak contacts do not evade it.
 
-Use the already certified strict trigonometric majorants \(p_0=7024915/10^6>9f(10)\), \(q_0=6832329/10^6>9f(9)\). fileciteturn0file3L47-L53 Since \((2547/500)/9=283/500\), all such hypothetical joint metrics obey
+Use the already certified strict trigonometric majorants \(p_0=7024915/10^6>9f(10)\), \(q_0=6832329/10^6>9f(9)\). Since \((2547/500)/9=283/500\), all such hypothetical joint metrics obey
 
 \[
 \frac{\mu_1}{\mu_2}<p=\frac{397610189}{100000000},\qquad
@@ -659,7 +659,7 @@ The scalar trace-floor stress parameter is
 \frac{50000000000000000}{862153736575051223}.
 \]
 
-These are new necessary reference-window bounds for the entire constructed family, **not an exclusion obtained from them**. They are not bounds for the unchanged covariance-gauge H unless C is actually the covariance. The universal 47.677087 ceiling from the accepted 8.97 result remains the current global ceiling in that covariance gauge. fileciteturn0file0L194-L217
+These are new necessary reference-window bounds for the entire constructed family, **not an exclusion obtained from them**. They are not bounds for the unchanged covariance-gauge H unless C is actually the covariance. The universal 47.677087 ceiling from the accepted 8.97 result remains the current global ceiling in that covariance gauge.
 
 ## 10. Universal limitation, uncertainty, and continuation
 
@@ -707,7 +707,7 @@ The output includes both complete exact S/T matrices, both dual checks, the all-
 
 Normal execution and a source-only reconstruction extracted from this Markdown into a clean directory both passed with byte-identical source and output. This is an author replay, not an independent coordinator replay or proof-assistant formalization. The finite certificates and analytic proofs above are the mathematical evidence; the hashes identify their exact recovery units.
 
-Convenience files: [complete runnable source](sandbox:/mnt/data/joint_support_v2/orthogonal_reference_obstruction_v2.py), [exact report](sandbox:/mnt/data/joint_support_v2/reference_report.out), and [Markdown handoff](sandbox:/mnt/data/joint_support_v2/result_markdown_v2.md).
+Convenience files: complete runnable source (`orthogonal_reference_obstruction_v2.py`), exact report (`reference_report.out`), and Markdown handoff (`result_markdown_v2.md`).
 
 ```python
 #!/usr/bin/env python3

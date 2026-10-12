@@ -14,7 +14,7 @@ More strongly, the exclusion holds for every genuine centred polyhedron with the
 
 The proof consists of **131 literal nonnegative integer separators**, their independently checked reflected versions, **262 positive-definite 3×3 matrices**, and **786 strictly positive interval-enclosed leading minors**. They exclude **all 60,000 rooted weak-escape spanning trees**, namely all ten rootings of all 6,000 true-edge spanning trees. The metric is completely unrestricted. The certificates also give a uniform negative-arrow bound in the fixed coordinate chart.
 
-**The global assertion that every bare-rank-deficient E17 shape is incompatible with110 remains unresolved.** No classification of all nonsymmetric rank-deficient strata is asserted. The accepted global bounds and canonical register remain `V≥10,F≥9,C≥34` and `632/52585`; no complete global type or registered root orbit is removed. The supplied parent distinguishes that register from mass-rank controls. :contentReference[oaicite:0]{index=0}
+**The global assertion that every bare-rank-deficient E17 shape is incompatible with110 remains unresolved.** No classification of all nonsymmetric rank-deficient strata is asserted. The accepted global bounds and canonical register remain `V≥10,F≥9,C≥34` and `632/52585`; no complete global type or registered root orbit is removed. The supplied parent distinguishes that register from mass-rank controls.
 
 ## 1. Authority and the interval repair
 
@@ -32,7 +32,7 @@ The completed object remains literally **E17_SECOND_MOMENT_KERNEL_ALGEBRAIC_CAND
 |second_flux_candidate.json|89160|3f737edbca23e4c645fe60879b1c22ff48cfa94229f2361a29c6c70d38390881|
 |repaired_replay.log|464|87395e798900390ac8b7a8beda1bb7e2e8e042acad156e84fdde57dcb89f0a34|
 
-The exact repair is retained: for the full b interval the residual is enclosed using `A F(CENTER,b0)+A ∂_bF(CENTER,B)(b−b0)`, rather than repeated natural-interval substitution into `F(CENTER,b)`. The equations, root box, parameter interval and rounded preconditioner are unchanged. The old natural-interval failure is not reused as nonexistence evidence. The journal supplies the completed algebraic-kernel proof beyond interval zero containment. :contentReference[oaicite:1]{index=1}
+The exact repair is retained: for the full b interval the residual is enclosed using `A F(CENTER,b0)+A ∂_bF(CENTER,B)(b−b0)`, rather than repeated natural-interval substitution into `F(CENTER,b)`. The equations, root box, parameter interval and rounded preconditioner are unchanged. The old natural-interval failure is not reused as nonexistence evidence. The journal supplies the completed algebraic-kernel proof beyond interval zero containment.
 
 The new main proof is mechanical, not another audit of mass rigidity. It uses actual centred vertices and genuine edges. The inherited rank-eight fact identifies the exceptional stratum to which the new exclusion applies.
 
@@ -163,7 +163,7 @@ The actual centred poles, centres and moments are `q_i=n_i/hhat_i`, `c_i=g_i−o
 
 `ν=(hhat0κ0,hhat1κ1,hhat2κ2,hhat3κ3,−hhat0κ0,−hhat1κ1,−hhat2κ2,−hhat3κ3,0)`.
 
-The inherited repaired contraction proof establishes existence and uniqueness for every b in the entire closed interval. Reflection and the five exact equations prove the null identity; the nonzero8×8 minor proves `rank[Φ;c;T]=8`. This is not a near-zero-residual inference. :contentReference[oaicite:2]{index=2}
+The inherited repaired contraction proof establishes existence and uniqueness for every b in the entire closed interval. Reflection and the five exact equations prove the null identity; the nonzero8×8 minor proves `rank[Φ;c;T]=8`. This is not a near-zero-residual inference.
 
 The new verifier independently integrates **all nine actual polygonal facets throughout the full six-parameter box**, including points not satisfying the rank equations. Each polygon is triangulated only for integration. For a triangle with vertices u,v,w and s=u+v+w, its actual mean is s/3 and its second moment is `(ssᵀ+uuᵀ+vvᵀ+wwᵀ)/12`. Its area-to-normal factor is obtained from the oriented cross product divided by `2||n_i||²`. Summing these factors a_i gives
 
@@ -189,7 +189,7 @@ M0=[[100,30,20],[30,10,9],[20,9,1301/100]];
 N0=[[491/10,-2103/10,70],[-2103/10,901,-300],[70,-300,100]].
 ~~~
 
-The completed, corrected journal capsule establishes class222 on the entire parameter enclosure: stable facets0,5; unstable vertices2,4; saddle edges(4,6),(7,8), with all162 unequal shadows strict. Its recovery was reproduced in this run. Thus U=2 is attained, and the new all-metric lower bound cannot be improved to U≥3 on this family. These are not newly invented metric objects or new110 witnesses. :contentReference[oaicite:3]{index=3}
+The completed, corrected journal capsule establishes class222 on the entire parameter enclosure: stable facets0,5; unstable vertices2,4; saddle edges(4,6),(7,8), with all162 unequal shadows strict. Its recovery was reproduced in this run. Thus U=2 is attained, and the new all-metric lower bound cannot be improved to U≥3 on this family. These are not newly invented metric objects or new110 witnesses.
 
 ## 5. What was tried, what changed, and what remains
 
@@ -226,7 +226,7 @@ Observed full terminal transcript:
 SOURCE 11663 8fa232cde279335aaebffc732db080f6c7becf89cede4acf7531e8b351f49019
 ~~~
 
-Supplementary copies: [complete source](sandbox:/mnt/data/mirror_mech_work/mirror_metric_exclusion.py), [exact report](sandbox:/mnt/data/mirror_mech_work/mirror_metric_exclusion.json), [observed log](sandbox:/mnt/data/mirror_mech_work/mirror_metric_exclusion.log). The following literal source, rather than these files or their hashes alone, is the durable certificate.
+Supplementary copies: complete source (`mirror_metric_exclusion.py`), exact report (`mirror_metric_exclusion.json`), observed log (`mirror_metric_exclusion.log`). The following literal source, rather than these files or their hashes alone, is the durable certificate.
 
 ```python
 """MIRROR_BELT_ALL_AFFINE_METRICS_U_GE2_V1.

@@ -8,9 +8,9 @@ AI research report · 2026-09-03 UTC
 
 ## Journal basis
 
-The run accepts only an explicit finite uniform-density convex polyhedron at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete maximal-face and true-edge incidence, exhaustive positive-margin mechanics, independent verification, and matching OBJ/STL. :contentReference[oaicite:0]{index=0}
+The run accepts only an explicit finite uniform-density convex polyhedron at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete maximal-face and true-edge incidence, exhaustive positive-margin mechanics, independent verification, and matching OBJ/STL.
 
-The accepted forked four-stage parent had supplied/active `3513/1577`, primal `(V,E,F)=(3150,4725,1577)`, replacement packet `S500004`, `U(2846,730000,730001)`, `H(1838,500004)`, `H(500004,730004)`, and the exact unique nonforcing exit `(730000,730001)` prescribed for this physical fifth-stage continuation. :contentReference[oaicite:1]{index=1}
+The accepted forked four-stage parent had supplied/active `3513/1577`, primal `(V,E,F)=(3150,4725,1577)`, replacement packet `S500004`, `U(2846,730000,730001)`, `H(1838,500004)`, `H(500004,730004)`, and the exact unique nonforcing exit `(730000,730001)` prescribed for this physical fifth-stage continuation.
 
 ## Immutable result
 
@@ -389,7 +389,7 @@ NEXT CELL                                   SIXTH-STAGE SPLIT-ARM OPEN-QUADRILAT
 
 ## Immutable archive and clean-extraction replay
 
-[Download the complete exact archive](sandbox:/mnt/data/Bright_Nova_91_openV_fifth_stage_exact_NONWINNER.zip)
+Download the complete exact archive (`Bright_Nova_91_openV_fifth_stage_exact_NONWINNER.zip`)
 
 ```text
 archive files       161

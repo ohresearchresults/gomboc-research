@@ -12,7 +12,7 @@ The exact arrangement has three full-dimensional hull topologies and five full-d
 
 `(3,2,3) -> (3,2,3) -> (3,2,3) -> (4,2,4) -> (3,2,3)`.
 
-The decisive obstruction is stronger than failure of a numerical search: two distinct maximal faces remain strictly stable throughout the entire parameter square by exact tensor-Bernstein certificates, so `S>=2` everywhere off the wall curves. Every wall itself has a zero primitive or incidence margin and therefore cannot supply the positive ambient perturbation box required by the project’s acceptance gate. That gate excludes wall points, auxiliary centres, and near-solutions and requires a fully materialized exact object with complete incidence and all-feature verification. :contentReference[oaicite:0]{index=0}
+The decisive obstruction is stronger than failure of a numerical search: two distinct maximal faces remain strictly stable throughout the entire parameter square by exact tensor-Bernstein certificates, so `S>=2` everywhere off the wall curves. Every wall itself has a zero primitive or incidence margin and therefore cannot supply the positive ambient perturbation box required by the project’s acceptance gate. That gate excludes wall points, auxiliary centres, and near-solutions and requires a fully materialized exact object with complete incidence and all-feature verification.
 
 A separate broader connected-coordinate search produced a stronger exact 12-vertex endpoint `G27` of class `(2,2,2)`. It is fully materialized, independently reconstructed, and watertight, but it is also a literal nonwinner. It is not asserted to lie in the certified affine parameter square.
 
@@ -469,27 +469,27 @@ A useful alternative seed is exact endpoint `G27`. Its residual block is compact
 
 ### Exact guarded-Y atlas
 
-- [Exact two-parameter circuit and equilibrium atlas](sandbox:/mnt/data/conway13_guarded_y2d/guarded_y2d_exact_atlas.json)
-- [Deterministic exact atlas builder and verifier](sandbox:/mnt/data/conway13_guarded_y2d/build_guarded_y2d_certificate.py)
-- [Exact guarded-Y family generator](sandbox:/mnt/data/conway13_guarded_y2d/guarded_y2d_family.py)
-- [Exact bivariate Bernstein arithmetic](sandbox:/mnt/data/conway13_guarded_y2d/bivar_exact.py)
-- [Independent Qhull family cross-check](sandbox:/mnt/data/conway13_guarded_y2d/verify_guarded_y2d_independent.py)
-- [Independent family verification report](sandbox:/mnt/data/conway13_guarded_y2d/guarded_y2d_independent_verification.json)
+- Exact two-parameter circuit and equilibrium atlas (`guarded_y2d_exact_atlas.json`)
+- Deterministic exact atlas builder and verifier (`build_guarded_y2d_certificate.py`)
+- Exact guarded-Y family generator (`guarded_y2d_family.py`)
+- Exact bivariate Bernstein arithmetic (`bivar_exact.py`)
+- Independent Qhull family cross-check (`verify_guarded_y2d_independent.py`)
+- Independent family verification report (`guarded_y2d_independent_verification.json`)
 
 The independent checker audits all five rational representatives and a separate `21x21` actual-hull grid. It reproduces the exact representative classes and finds no winner. The exact atlas, rather than that grid, supplies the continuous proof.
 
 ### Exact `G27` endpoint
 
-- [Complete exact endpoint report](sandbox:/mnt/data/conway13_guarded_y2d/G27_exact_report.json)
-- [Standalone exact Fraction verifier](sandbox:/mnt/data/conway13_guarded_y2d/verify_G27_exact.py)
-- [Exact-verifier output](sandbox:/mnt/data/conway13_guarded_y2d/G27_exact_verification.json)
-- [Independent Qhull and Trimesh verifier](sandbox:/mnt/data/conway13_guarded_y2d/verify_G27_independent.py)
-- [Independent endpoint report](sandbox:/mnt/data/conway13_guarded_y2d/G27_independent_verification.json)
-- [Exact perturbation-box verifier](sandbox:/mnt/data/conway13_guarded_y2d/verify_G27_perturbation.py)
-- [Perturbation certificate](sandbox:/mnt/data/conway13_guarded_y2d/G27_perturbation_certificate.json)
-- [Exact numerator coordinate table](sandbox:/mnt/data/conway13_guarded_y2d/G27_vertices.csv)
-- [Centred watertight OBJ](sandbox:/mnt/data/conway13_guarded_y2d/G27_centered.obj)
-- [Centred watertight STL](sandbox:/mnt/data/conway13_guarded_y2d/G27_centered.stl)
+- Complete exact endpoint report (`G27_exact_report.json`)
+- Standalone exact Fraction verifier (`verify_G27_exact.py`)
+- Exact-verifier output (`G27_exact_verification.json`)
+- Independent Qhull and Trimesh verifier (`verify_G27_independent.py`)
+- Independent endpoint report (`G27_independent_verification.json`)
+- Exact perturbation-box verifier (`verify_G27_perturbation.py`)
+- Perturbation certificate (`G27_perturbation_certificate.json`)
+- Exact numerator coordinate table (`G27_vertices.csv`)
+- Centred watertight OBJ (`G27_centered.obj`)
+- Centred watertight STL (`G27_centered.stl`)
 
 No consolidated ZIP was generated in this continuation; the mathematical generators, ledgers, verifiers, reports, and meshes are individually materialized above.
 

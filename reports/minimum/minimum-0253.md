@@ -21,19 +21,19 @@ The genuine-domain condition p+q<1 applies to every row. Upper taper endpoints a
 
 The main extension is **not a recalibration of the parent Hausdorff estimate**. An exact centroid-coupled reflection condition gives a strict basal U and forces the basal facet to be strictly stable under U1. A second exact reflection in the **actual same-origin polar under the same inverse** forces a nonbasal strict S. These arguments work for arbitrary SPD metrics without a condition-number hypothesis. They do **not** prove U≥2 for every metric.
 
-The three boxed basal regions are disjoint from the named x≥15/16 macro, its reflection, and the radius-2^-28 tubes: their x,r are at most 9/10 and their p,q at most 1/2. Their taper is below 3/5. Their portions above 1/400000 therefore supply new coverage beyond those accepted exclusions and the parent's apex-cluster theorem. DEEP also has p+q≥3/5 and avoids the historical x=1/3 and r=1/3 slices. Other previously closed lower-dimensional slices may intersect BROAD or WIDE; no disjoint catalogue subtraction is claimed. The supplied exclusion map distinguishes these domains. fileciteturn9file0L86-L95
+The three boxed basal regions are disjoint from the named x≥15/16 macro, its reflection, and the radius-2^-28 tubes: their x,r are at most 9/10 and their p,q at most 1/2. Their taper is below 3/5. Their portions above 1/400000 therefore supply new coverage beyond those accepted exclusions and the parent's apex-cluster theorem. DEEP also has p+q≥3/5 and avoids the historical x=1/3 and r=1/3 slices. Other previously closed lower-dimensional slices may intersect BROAD or WIDE; no disjoint catalogue subtraction is claimed. The supplied exclusion map distinguishes these domains.
 
 Combining FULL_BASAL with the accepted lambda≥3/5 exclusion leaves the universal taper interval
 
     1/300 < lambda < 3/5,
 
-with the three larger regional exclusions and all earlier exclusions removed as well. **Whole H5 and the minimum problem remain open; 34≤C_min≤622 is unchanged.** No new attainer or canonical incidence/root count is claimed. The original bound is a working premise from the supplied memory. fileciteturn4file0L9-L11
+with the three larger regional exclusions and all earlier exclusions removed as well. **Whole H5 and the minimum problem remain open; 34≤C_min≤622 is unchanged.** No new attainer or canonical incidence/root count is claimed. The original bound is a working premise from the supplied memory.
 
 ## 2. Reading and authority
 
 I read the complete new journal, including the entire literal parent and its source block, consecutively through line 1604/EOF. The mounted journal has 325022 bytes and SHA-256 `cd57923031a0a59ac549d0e904f6571dfda559ebeb86787fab50aa2d08343dee`. The four earlier standalone geometry/covariance/finite-height sources remain available and unchanged; their completed reading was retained rather than restarted.
 
-The immediate parent is `minimum-0252`, registered envelope SHA-256 `c166ef43daf3b0236b4e6c5360246aaf15fec13adfb79c3a1f22541c4d49bce9`. Its source pin remains 11918 bytes, `d956d2609f5406319a1dbd6e7ecd88ac411d0b606d36fd39a75ba68ca97115c2`. The earlier Markdown-versus-registered-hash qualification is resolved: the registered digest identifies the JSON envelope. There is no semantic source conflict. The update explicitly preserves that correction and the parent's actual control counts. fileciteturn10file0L29-L36
+The immediate parent is `minimum-0252`, registered envelope SHA-256 `c166ef43daf3b0236b4e6c5360246aaf15fec13adfb79c3a1f22541c4d49bce9`. Its source pin remains 11918 bytes, `d956d2609f5406319a1dbd6e7ecd88ac411d0b606d36fd39a75ba68ca97115c2`. The earlier Markdown-versus-registered-hash qualification is resolved: the registered digest identifies the JSON envelope. There is no semantic source conflict. The update explicitly preserves that correction and the parent's actual control counts.
 
 No unavailable archive or research connector was used. The new proof and reconstruction below are self-contained and do not import a parent source or saved certificate. Historical exclusions are accepted inputs for comparison, not newly replayed results. The executable checks exact algebra, whole parameter regions, and actual controls; it is not a proof-assistant formalization of the geometric argument.
 
@@ -287,7 +287,7 @@ Its M leading minors are 149, 393445, 26988600. The three covariance-weighted ei
 
     (9/10,1), (5,6), (33,34),
 
-as certified by exact characteristic-polynomial signs. Thus the two descending adjacent ratios are less than 34/5 and 20/3, respectively, both inside the supplied strict finite-height bounds. Those bounds are necessary for joint S1/U1, not sufficient. fileciteturn4file3L47-L53
+as certified by exact characteristic-polynomial signs. Thus the two descending adjacent ratios are less than 34/5 and 20/3, respectively, both inside the supplied strict finite-height bounds. Those bounds are necessary for joint S1/U1, not sufficient.
 
 Nevertheless **its only unstable vertices are the two top vertices 8 and 9**. Its strict saddles are edges (2,3), (5,6), (7,9), (8,9). Therefore the parent's stronger intermediate assertion, an unavoidable basal U throughout the necessary covariance cone, cannot be extended across the whole residual taper domain without an additional geometric hypothesis. This is not a counterexample to U1⇒basal stability, because this control has U=2; nor is it a counterexample to the joint exclusion target.
 
@@ -336,7 +336,7 @@ Expected stdout `h5_paired_end_reflection.out`:
 
 The final marker is `H5_PAIRED_END_REFLECTION_JOINT_REGION_V1_PASS`. I executed the source and a second build in a fresh directory containing only that source; report and stdout were byte-identical. The earlier combined command timed out during its second build; the fresh second build was then rerun to completion and compared, so no unfinished run is counted as verification.
 
-Convenience copies: [source](sandbox:/mnt/data/h5_paired_end_reflection.py), [complete exact report](sandbox:/mnt/data/h5_paired_end_reflection_report.json), [verification output](sandbox:/mnt/data/h5_paired_end_reflection.out). These links supplement the complete embedded recovery source, not replace it.
+Convenience copies: source (`h5_paired_end_reflection.py`), complete exact report (`h5_paired_end_reflection_report.json`), verification output (`h5_paired_end_reflection.out`). These links supplement the complete embedded recovery source, not replace it.
 
 ```python
 #!/usr/bin/env python3

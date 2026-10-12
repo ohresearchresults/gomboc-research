@@ -18,11 +18,11 @@ The new exact theorem identifies a specific inward-surgery limitation: retaining
 
 ## 2. Sources and identity
 
-The complete supplied journal was read consecutively through2231 lines and EOF. Its462133 bytes match SHA-256 **7f275f62e526893b2e4f785fb82adaee92efc8f084c1f56b3f821a2722c1e247**. The controlling literal parent is **[internal-source-reference]-**, SHA **cccb18daa20631a37e4ea83dfdca07867b9bcad92e246189cbae63d4548ac29e**. The journal's accepted KH125 facts and the distinction between its conditional protected-apex budget and the target were retained. fileciteturn77file0L19-L21
+The complete supplied journal was read consecutively through2231 lines and EOF. Its462133 bytes match SHA-256 **7f275f62e526893b2e4f785fb82adaee92efc8f084c1f56b3f821a2722c1e247**. The controlling literal parent is **[internal-source-reference]-**, SHA **cccb18daa20631a37e4ea83dfdca07867b9bcad92e246189cbae63d4548ac29e**. The journal's accepted KH125 facts and the distinction between its conditional protected-apex budget and the target were retained.
 
 The actual chosen input is **KH125_COMPRESSED36_G10_INPUT.json**,5434 bytes/SHA **acbffdaf3e2482510cb01251a65b9eb756b9728dc125f970059f54b6550e3556**. Its exact Gram-projected H description has11668 bytes/SHA **412cd1053e8d2209129fa221a4a7e8a4baaceaff66e99e6ea5fe854f6a78bece**. The accepted parent has128/211/85, own121, P≈0.17714080146714686, Q[], degree surplus38 at31 common apices. Only the parent lattice/mass needed by the new constructions and theorem was reconstructed; no general replay of the seven old endpoints or the historical KH12394-file workspace was undertaken.
 
-The full chosen input and every necessary inherited helper are included in the autonomous capsule below. Other branches' named coordinates were not assumed available. The target continues to use actual filled-volume mass and true maximal facets/edges, not a reference centre or persistence floor. fileciteturn77file0L34-L37
+The full chosen input and every necessary inherited helper are included in the autonomous capsule below. Other branches' named coordinates were not assumed available. The target continues to use actual filled-volume mass and true maximal facets/edges, not a reference centre or persistence floor.
 
 ## 3. Exact inward-neck theorem: arbitrary new cuts cannot bypass two retained anchors near the old centre
 
@@ -254,7 +254,7 @@ KH128_EXACT_DIAGNOSTICS_COMPLETE 8 17 22
 KH128_EIGHT_EXACT_BODIES_NECK_AND_INTERFACE_PASS_NO110 8 17 22
 ```
 
-Supplemental convenience copies are [the full JSON handoff](sandbox:/mnt/data/KH128_RESULT_FULL.json), [the complete source/output archive](sandbox:/mnt/data/KH128_COMPLETE_HANDOFF.zip), and [the standalone selected-source decoder](sandbox:/mnt/data/RECOVER_KH128_SELECTED.py). The following literal capsule, not these links, supplies the continuation-critical bytes.
+Supplemental convenience copies are the full JSON handoff (`KH128_RESULT_FULL.json`), the complete source/output archive (`KH128_COMPLETE_HANDOFF.zip`), and the standalone selected-source decoder (`RECOVER_KH128_SELECTED.py`). The following literal capsule, not these links, supplies the continuation-critical bytes.
 
 ## 9. Complete literal recovery capsule
 

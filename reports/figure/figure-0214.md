@@ -10,7 +10,7 @@ AI research report · 2026-09-02 UTC
 
 **NONWINNER. No strict own-centred homogeneous convex polyhedron with `(S,U,H)=(1,1,0)` was obtained.** I therefore make no Gömböc claim.
 
-I recovered and independently reconstructed the accepted exact M42 fifth-cell benchmark, explored several genuine full-hull replacements of its residual stable–saddle component, and localized the next nonrepeating topology more sharply. The strongest new constructions are double-precision discovery objects rather than exact or interval-certified endpoints, so they do **not** satisfy the assignment’s acceptance gate. The strongest accepted exact body remains the rational fifth-cell benchmark `(V,E,F)=(61,163,104)`, strict `(2,1,1)`; the strongest recovered exact topology-changing successor remains the independently verified six-flip local-octahedral branch, but its far cell is `(2,2,2)`, not a Gömböc. The journal likewise records that the benchmark remains the closest accepted body and that no higher-valence branch had yet won. :contentReference[oaicite:0]{index=0}
+I recovered and independently reconstructed the accepted exact M42 fifth-cell benchmark, explored several genuine full-hull replacements of its residual stable–saddle component, and localized the next nonrepeating topology more sharply. The strongest new constructions are double-precision discovery objects rather than exact or interval-certified endpoints, so they do **not** satisfy the assignment’s acceptance gate. The strongest accepted exact body remains the rational fifth-cell benchmark `(V,E,F)=(61,163,104)`, strict `(2,1,1)`; the strongest recovered exact topology-changing successor remains the independently verified six-flip local-octahedral branch, but its far cell is `(2,2,2)`, not a Gömböc. The journal likewise records that the benchmark remains the closest accepted body and that no higher-valence branch had yet won.
 
 ## Exact material recovered and checked
 
@@ -24,14 +24,14 @@ The complete M42 bundle was recovered from the user’s Library and unpacked. It
 - minimum nonincidence/topology separation approximately `3.8691692825e-6` in the numerical replay;
 - a certified nonzero rational perturbation neighbourhood in the supplied exact certificate.
 
-This is the assignment’s independently accepted starting point and not a new result. The journal identifies the six-row residual octahedral star and the requirement that the stable and saddle death sheets meet inside one shared three-dimensional cell rather than through serial flips. :contentReference[oaicite:1]{index=1}
+This is the assignment’s independently accepted starting point and not a new result. The journal identifies the six-row residual octahedral star and the requirement that the stable and saddle death sheets meet inside one shared three-dimensional cell rather than through serial flips.
 
-Exact benchmark archive: [M42 acute-bridge fifth-cell complete bundle](sandbox:/mnt/data/m42_recovered/M42_acute_bridge_fifth_cell_complete%281%29.zip)
+Exact benchmark archive: M42 acute-bridge fifth-cell complete bundle (`M42_acute_bridge_fifth_cell_complete%281%29.zip`)
 
 The recovered exact six-flip local-octahedral successor can be audited through its frozen certificate and independent verifier:
 
-- [Exact six-flip certificate](sandbox:/mnt/data/m42_recovered/checkpoint/pro-research-native-transfer-20260831/tracks/local_oct_cell_search/clean_flip_topology_escape/certificate.json)
-- [Independent six-flip verifier](sandbox:/mnt/data/m42_recovered/checkpoint/pro-research-native-transfer-20260831/tracks/local_oct_cell_search/clean_flip_topology_escape/verify_certificate.py)
+- Exact six-flip certificate (`certificate.json`)
+- Independent six-flip verifier (`verify_certificate.py`)
 
 That passage changes actual boundary incidence in six exact support flips and reaches a strict far cell with residual packet `S[198,243,245]`, `U1`, `H(4,5)`, and `H(12,13)`. It is rigorous reusable material, but it increases the defect to `(2,2,2)` and therefore is not preferable to the fifth-cell benchmark as an equilibrium result.
 
@@ -75,9 +75,9 @@ d2 = 28.608418274611044
 
 Reproducible discovery data:
 
-- [Two-plane search ledger](sandbox:/mnt/data/m42_slot7/opt_two_plane/result.json)
-- [Two-plane best structural sample](sandbox:/mnt/data/m42_slot7/opt_two_plane/best_001.npz)
-- [Two-plane construction and search code](sandbox:/mnt/data/m42_slot7/opt_two_plane.py)
+- Two-plane search ledger (`result.json`)
+- Two-plane best structural sample (`best_001.npz`)
+- Two-plane construction and search code (`opt_two_plane.py`)
 
 These coordinates are floating-point discovery data only. I did not promote them to an exact endpoint because they are a strict nonwinner and exactifying them would not advance the accepted equilibrium frontier.
 
@@ -132,9 +132,9 @@ This is direct evidence for two local relay mechanisms: pushing the positive sta
 
 Reproducible discovery artifacts:
 
-- [Two-support search implementation](sandbox:/mnt/data/m42_slot7/add_two_point_on_twoplane.py)
-- [Two-support search ledger](sandbox:/mnt/data/m42_slot7/add_two_point_on_twoplane/result.json)
-- [Best balanced two-support sample](sandbox:/mnt/data/m42_slot7/add_two_point_on_twoplane/best_000.npz)
+- Two-support search implementation (`add_two_point_on_twoplane.py`)
+- Two-support search ledger (`result.json`)
+- Best balanced two-support sample (`best_000.npz`)
 
 ### 3. Connected radial-arc support chains
 
@@ -142,8 +142,8 @@ I tested chains of three through eight exterior points along the spherical/radia
 
 The arc points commonly retopologized and reduced the stable star, reaching extra-stable margins as low as roughly `3.8e-5`, but the saddle `(1028,1029)` remained near `0.0031243`. Most intermediate points were swallowed by the hull; only two to four became extreme. This falsifies the simplest thin one-spine bridge, but not a finite-thickness two-page or prismatic bridge.
 
-- [Arc-chain search implementation](sandbox:/mnt/data/m42_slot7/add_arc_chain_search.py)
-- [Arc-chain search ledger](sandbox:/mnt/data/m42_slot7/add_arc_chain_search/result.json)
+- Arc-chain search implementation (`add_arc_chain_search.py`)
+- Arc-chain search ledger (`result.json`)
 
 ### 4. Additional cutting-plane tests
 
@@ -165,7 +165,7 @@ Relevant scripts and ledgers are retained under:
 
 I linearized the full near-zero face, vertex, and edge decision set with respect to the six coordinates of the two added supports. Small trust-region steps reduce one named primitive but immediately encounter the adjacent relay sheets. Larger steps produce `(3,1,2)` or `(2,2,2)` before a common negative chamber is reached. In particular, one linearized step reduced the named saddle prediction but created an extra unstable point and two saddle carriers; another crossed the stable fan and generated a stable–saddle pair on edge `(1000,3000)`.
 
-This six-coordinate chart is therefore not the missing higher-valence cell. The calculation is reproducible with [the local decision-Jacobian and LP script](sandbox:/mnt/data/m42_slot7/local_linear_step.py).
+This six-coordinate chart is therefore not the missing higher-valence cell. The calculation is reproducible with the local decision-Jacobian and LP script (`local_linear_step.py`).
 
 ## Observation, inference, and limitation
 
@@ -179,7 +179,7 @@ This six-coordinate chart is therefore not the missing higher-valence cell. The 
 
 ### Inference
 
-The smallest still credible operation is not another serial flip, single clipping plane, or one-dimensional support chain. It is a **one-boundary-component finite-thickness multi-page cell**, with at least two genuinely transverse support layers, spanning both residual stars and the intervening boundary strip. This is consistent with the journal’s repeated exact finding that realizable shell changes transfer the Euler-neutral packet unless the full component is deleted in one event. :contentReference[oaicite:2]{index=2}
+The smallest still credible operation is not another serial flip, single clipping plane, or one-dimensional support chain. It is a **one-boundary-component finite-thickness multi-page cell**, with at least two genuinely transverse support layers, spanning both residual stars and the intervening boundary strip. This is consistent with the journal’s repeated exact finding that realizable shell changes transfer the Euler-neutral packet unless the full component is deleted in one event.
 
 ### Limitation
 
@@ -261,7 +261,7 @@ The benchmark bundle’s `build_exact_endpoint.py`, `verify_exact_cleanroom.py`,
 
 ## Reusable implementation
 
-The principal evaluator used for the discovery work is [fast_eval2.py](sandbox:/mnt/data/m42_slot7/fast_eval2.py). It independently performs Qhull reconstruction, adjacent-simplex coplanar merging, maximal-face boundary cycles, exact-form ordinary centroid formulas in floating arithmetic, true-edge incidence, and exhaustive stable/unstable/saddle decisions. It should remain a proposer only; the exact benchmark verifiers remain authoritative.
+The principal evaluator used for the discovery work is fast_eval2.py. It independently performs Qhull reconstruction, adjacent-simplex coplanar merging, maximal-face boundary cycles, exact-form ordinary centroid formulas in floating arithmetic, true-edge incidence, and exhaustive stable/unstable/saddle decisions. It should remain a proposer only; the exact benchmark verifiers remain authoritative.
 
 ## Bottom line
 

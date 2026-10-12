@@ -16,9 +16,9 @@ The new distinction from the previous handoff is **whole-root cancellation, not 
 
 The complete latest assignment fragment [0,10531), the updated notebook through EOF1163, and the complete literal required parent were read. The notebook is **224148 bytes**, SHA-256 **30d18cfe3f9864558697aa44212c34df274c1eb81ec54bb47c40961b1992c59c**. Required parent **figure-0577**, SHA-256 **e50283583f88c4a7d16c5e636796f478143b4909e6f9cec4404e845cb98d79be**, agrees with the previous handoff. All 18 decoded parent source units were read completely; all source hashes matched. No supplied required dependency remains unread or inaccessible.
 
-The computational parent is **SQ74C_PATCH8_C330_G14**, INPUT **4063B / a2ddcb2cd1aa4b2472e315fbecce277c470f7a677dc9614ccab6d1ff3a8d89cb**. Its author-reported V110/E165/F57, own121/weak000, soleP=0.49977630600242395, Q=[] was the starting premise. Redundant provenance16 was removed before numerical H deformations. Its actual current interface is −200/−206 and its dying upper component has33 vertices, not the old C414 port30/82 or55-set. fileciteturn6file0L22-L25
+The computational parent is **SQ74C_PATCH8_C330_G14**, INPUT **4063B / a2ddcb2cd1aa4b2472e315fbecce277c470f7a677dc9614ccab6d1ff3a8d89cb**. Its author-reported V110/E165/F57, own121/weak000, soleP=0.49977630600242395, Q=[] was the starting premise. Redundant provenance16 was removed before numerical H deformations. Its actual current interface is −200/−206 and its dying upper component has33 vertices, not the old C414 port30/82 or55-set.
 
-No J89 input, FULL76/C622 construction, or old19-unit J88H numerical workspace was substituted. The C414 inherited-unmoved-subhull exclusion is not an exclusion of these changed C330 surfaces with new vertices. fileciteturn6file0L26-L27
+No J89 input, FULL76/C622 construction, or old19-unit J88H numerical workspace was substituted. The C414 inherited-unmoved-subhull exclusion is not an exclusion of these changed C330 surfaces with new vertices.
 
 ## Exact endpoint ledger
 
@@ -86,7 +86,7 @@ The first8 added rows of the basic two-route input are exactly those of the cont
 
 These are differences of **finite convex-hull integrals**, not sums of independently overlapping cap approximations. Their exact first moments telescope. The opposed addition counterbalances the first material increment, but **does not restore g0 exactly**. The final actual centroid is **(−0.03842993307882831,−0.014254129261513792,0.023079683998601316)**, volume **3.885854740148923**, factor **2.03781697221428** over C330. This actual center gives U1 and P=[].
 
-The counterbent sibling has actual centroid **(−0.04083661502910475,0.0148635471925406,0.009542771475898656)**, volume **4.28277946582529**, factor **2.245971933416921** over C330. The large volume growth is a material cost, not a small perturbation. The same-center safe-addition principle in J91 motivated the use of positive routes, but its same-center hypothesis was not simply assumed here. fileciteturn6file0L13-L15
+The counterbent sibling has actual centroid **(−0.04083661502910475,0.0148635471925406,0.009542771475898656)**, volume **4.28277946582529**, factor **2.245971933416921** over C330. The large volume growth is a material cost, not a small perturbation. The same-center safe-addition principle in J91 motivated the use of positive routes, but its same-center hypothesis was not simply assumed here.
 
 ## What disappeared, what remains, and the current identities
 
@@ -183,7 +183,7 @@ Selected full output identities; every other size/hash is embedded in OUTPUT_MAN
 
 **Finite moment comparison:** 218427B / 893fa3199b87ae401659b1f01682d6e0db3ebd42e26eb3ca2d0b361c6bda8f4b.
 
-Supplementary copies: [complete source, exact outputs, and numerical evidence](sandbox:/mnt/data/SQ74D_FINITE_ROUTE_HANDOFF.zip), [recovery script](sandbox:/mnt/data/sq74d/SQ74D_RECOVER.py), [complete handoff](sandbox:/mnt/data/sq74d/SQ74D_RESULT_MARKDOWN.md). The literal delta and already supplied parent, not these links, carry the reconstruction.
+Supplementary copies: complete source, exact outputs, and numerical evidence (`SQ74D_FINITE_ROUTE_HANDOFF.zip`), recovery script (`SQ74D_RECOVER.py`), complete handoff (`SQ74D_RESULT_MARKDOWN.md`). The literal delta and already supplied parent, not these links, carry the reconstruction.
 
 ### Complete literal continuation delta
 

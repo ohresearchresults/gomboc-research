@@ -29,7 +29,7 @@ All four supplied files were read completely, including the journal consecutivel
 
 The exact H5 source is SHA-256 `54374c6e67c89467a37f68dca0c076ee20a8581acc2791d228f0c8e8f6d9aad8`. The whole-root proof is SHA-256 `c9db1bd5bf6233a7336f5a268c0270c5617a7a4ffe6c7f7ce09abf3b8ba498a2`; its supplied executable is SHA-256 `a720b725ff3670fb37e7f900638a183d2ef4f7e16cafb0a8ea7c45e4cf6afc47`. No alias or geometry conflict was found.
 
-CWN's optional old extension requires `h5_seven_turn_reflection.py`, 18,109 bytes, SHA-256 `125da77daa965228d1486bad45fdf6dce556a54e6269aa08c0242d9741170d97`. Those source bytes are not in this pack. I did not execute that extension or treat its unobserved execution as evidence. The new sources below do not depend on it. LjZ's covariance theorem was read, but no covariance floor or spectral cap is used in these exclusions. The old extension's dependency and execution qualification are explicit in the parent. fileciteturn1file0L13-L31
+CWN's optional old extension requires `h5_seven_turn_reflection.py`, 18,109 bytes, SHA-256 `125da77daa965228d1486bad45fdf6dce556a54e6269aa08c0242d9741170d97`. Those source bytes are not in this pack. I did not execute that extension or treat its unobserved execution as evidence. The new sources below do not depend on it. LjZ's covariance theorem was read, but no covariance floor or spectral cap is used in these exclusions. The old extension's dependency and execution qualification are explicit in the parent.
 
 ### Geometry and actual moments
 
@@ -72,7 +72,7 @@ The complete true edge list is
 (3,9),(4,5),(4,9),(5,6),(5,7),(6,7),(7,8),(7,9),(8,9).
 ```
 
-These agree with the exact supplied realization; integration diagonals never enter the mechanical graph. fileciteturn0file2L28-L71
+These agree with the exact supplied realization; integration diagonals never enter the mechanical graph.
 
 The actual moment formulas are
 
@@ -131,7 +131,7 @@ for all three genuine root edges. Hence, for every SPD metric whose actual norma
 \le-\operatorname{tr}(M)/2000<0.}
 \]
 
-All three arrows cannot be weakly nonnegative. This tests the whole facet, not a chosen or sampled foot. The accepted whole-facet representation supplies the general dual theorem. fileciteturn0file0L9-L16 fileciteturn0file0L62-L71
+All three arrows cannot be weakly nonnegative. This tests the whole facet, not a chosen or sampled foot. The accepted whole-facet representation supplies the general dual theorem.
 
 The sufficiency needed here also has a direct self-contained proof. For a physical foot `p` in the closed facet,
 
@@ -252,7 +252,7 @@ g = (7368835529/28201312000,
      50317/153268).
 ```
 
-This is the whole-shape challenge identified in the supplied branch memory. fileciteturn0file3L950-L956
+This is the whole-shape challenge identified in the supplied branch memory.
 
 For numerical scaling only, the complete cover uses the rational gauge `X=L*v`, `L=diag(1,2,1)`. Its metric is `M_X=L^-T*M_raw*L^-1`, and its inverse is `L*M_raw^-1*L^T`; they are not independently chosen. All tensors in this cover are expressed in X-coordinates.
 
@@ -354,7 +354,7 @@ A failed novelty test is made exact: the candidate packet `(0->1,1->8,8->2)` is 
 
 The initial single-box Bernstein tests for the wider taper failed for two edge polynomials. They were not treated as physical counterexamples; the two-child closed partitions above passed exact coefficient tests. LP directional cuts are discovery only. Every accepted numerical result is rationally checked. A solver failure or iteration limit is an unresolved case, not a physical survivor or an exclusion.
 
-No convex-root-hull feasible point is used as one physical metric. The supplied warning that an average of strict-root metrics can have a foot anywhere in the facet plane remains applicable. fileciteturn0file0L73-L86
+No convex-root-hull feasible point is used as one physical metric. The supplied warning that an average of strict-root metrics can have a foot anywhere in the facet plane remains applicable.
 
 ## 6. Recovery and verification status
 
@@ -955,4 +955,4 @@ print(path.name,len(raw),hashlib.sha256(raw).hexdigest())
 print('WILLOW_STRICT_PRIMAL_LOCATORS_AND_OVERLAP_PASS')
 ```
 
-Convenience files: [all sources and exact outputs](sandbox:/mnt/data/willow3/willow_handoff.zip), [root locator/checker](sandbox:/mnt/data/willow3/willow_root_cover.py), [regional verifier](sandbox:/mnt/data/willow3/willow_root_region.py), and [diagnostics](sandbox:/mnt/data/willow3/willow_root_diagnostics.py). The complete inline source units are sufficient without these links.
+Convenience files: all sources and exact outputs (`willow_handoff.zip`), root locator/checker (`willow_root_cover.py`), regional verifier (`willow_root_region.py`), and diagnostics (`willow_root_diagnostics.py`). The complete inline source units are sufficient without these links.

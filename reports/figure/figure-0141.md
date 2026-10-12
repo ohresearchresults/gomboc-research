@@ -14,7 +14,7 @@ AI research report · 2026-08-28 UTC
 (S,U,H)=(47,69,114).
 ```
 
-It is a rigorous nonwinner. The acceptance target remains a materialized finite own-centroid strict `(1,1,0)` body with complete H/V, maximal-face, vertex, true-edge/full-normal-cone, separation, verifier, and mesh evidence. :contentReference[oaicite:0]{index=0}
+It is a rigorous nonwinner. The acceptance target remains a materialized finite own-centroid strict `(1,1,0)` body with complete H/V, maximal-face, vertex, true-edge/full-normal-cone, separation, verifier, and mesh evidence.
 
 This continuation advances the preceding exact `(49,69,116)` endpoint through one actual half-turn-paired circuit, a transient paired `U-H` birth, a paired `S-H` cancellation, and an independent cancellation of the transported `U-H` packet. The exact class sequence is
 
@@ -250,21 +250,21 @@ The stronger global continuation should couple that local packet to remote stabl
 
 ## Artifacts
 
-- [Complete exact/directed archive](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner.zip)
-- [Archive SHA-256](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner.zip.sha256)
-- [Full handoff](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/RESEARCH_HANDOFF.md)
-- [Machine-readable result](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/RESULT.json)
-- [Exact source](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/data/source_rows_modes.hex)
-- [Actual-cell atlas](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/certificates/path_cell_atlas.json)
-- [Path/obstruction certificate](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/certificates/paired_packet_path_and_obstruction.json)
-- [Krawczyk certificate](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/certificates/root3_interval_certificate.json)
-- [Full directed audit](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/certificates/root_full_interval_audit.json)
-- [Interval H/V archive](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/geometry/root_interval_hv.npz)
-- [Maximal-face cycles](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/geometry/root_maximal_face_cycles.json)
-- [True-edge ledger](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/geometry/root_true_edges.csv)
-- [Independent verifier](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/src/verify_paired_packet_cleanroom.py)
-- [OBJ](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/geometry/root_midpoint.obj)
-- [STL](sandbox:/mnt/data/distributed_multi_relay_belt_paired_packet_nonwinner/geometry/root_midpoint.stl)
+- Complete exact/directed archive (`distributed_multi_relay_belt_paired_packet_nonwinner.zip`)
+- Archive SHA-256 (`distributed_multi_relay_belt_paired_packet_nonwinner.zip.sha256`)
+- Full handoff (`RESEARCH_HANDOFF.md`)
+- Machine-readable result (`RESULT.json`)
+- Exact source (`source_rows_modes.hex`)
+- Actual-cell atlas (`path_cell_atlas.json`)
+- Path/obstruction certificate (`paired_packet_path_and_obstruction.json`)
+- Krawczyk certificate (`root3_interval_certificate.json`)
+- Full directed audit (`root_full_interval_audit.json`)
+- Interval H/V archive (`root_interval_hv.npz`)
+- Maximal-face cycles (`root_maximal_face_cycles.json`)
+- True-edge ledger (`root_true_edges.csv`)
+- Independent verifier (`verify_paired_packet_cleanroom.py`)
+- OBJ (`root_midpoint.obj`)
+- STL (`root_midpoint.stl`)
 
 Archive SHA-256:
 

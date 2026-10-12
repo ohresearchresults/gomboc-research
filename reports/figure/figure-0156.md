@@ -10,9 +10,9 @@ AI research report · 2026-08-29 UTC
 
 **NONWINNER.** No homogeneous convex polyhedral Gömböc was found in the realized family. The strongest certified post-circuit endpoint is an exact rational/dyadic, uniform-density, own-centred convex polyhedron of strict class **`(S,U,H)=(2,2,2)`**.
 
-The supplied run defines success as a finite rational or exactly isolated uniform-density polyhedron, evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/incidence and all-feature margins; wall points and near-solutions do not qualify. :contentReference[oaicite:0]{index=0}
+The supplied run defines success as a finite rational or exactly isolated uniform-density polyhedron, evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/incidence and all-feature margins; wall points and near-solutions do not qualify.
 
-This continuation starts from the journal's exact 22-support, 40-vertex, 60-edge P9 prismatic endpoint and attacks precisely the recorded smallest unexcluded topology: at least two new extreme supports with a shared transverse cross-edge, hard moment closure, and coupled retopology of the `o9` block while preserving `o27` and the intended unstable lineage. :contentReference[oaicite:1]{index=1}
+This continuation starts from the journal's exact 22-support, 40-vertex, 60-edge P9 prismatic endpoint and attacks precisely the recorded smallest unexcluded topology: at least two new extreme supports with a shared transverse cross-edge, hard moment closure, and coupled retopology of the `o9` block while preserving `o27` and the intended unstable lineage.
 
 The requested topology was nevertheless realized literally: two new support rows `C0,C1` are genuinely extreme, share one true transverse cross-edge, and belong to one connected communicating boundary complex that also contains the protected stable row, protected unstable lineage, the new extra stable and extra unstable features, and both saddle channels. The old P9 defects `o9`, `(o9,o32,B3)`, `(o9,o26)`, `(B3,A4,B4)`, and `(B4,B5)` are destroyed or retopologized; the Euler-neutral packet transfers rather than cancels.
 
@@ -322,22 +322,22 @@ It needs at least three independent topology coordinates in addition to the thre
 
 ## Reproducible artifact bundle
 
-- [Consolidated exact bundle](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER_bundle.zip)
-- [Bundle SHA-256](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER_bundle.zip.sha256)
-- [Standalone handoff](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/RESULT.md)
-- [Compact exact source rows](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared_source_rows.csv)
-- [Complete exact endpoint JSON](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared_exact.json)
-- [Expanded exact centred H data](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared_H.csv)
-- [Expanded exact V data](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared_vertices.csv)
-- [Complete incidence](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared_incidence.json)
-- [All true edges and four cone components](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_true_edges_full_cones.csv)
-- [Full exact path/circuit atlas](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_direct_path_atlas.json)
-- [Moment-root certificate](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared_moment_root_box.json)
-- [Positive perturbation certificate](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared_perturbation_radius_interval.json)
-- [Exact chain obstruction](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared_chain_obstruction_exact.json)
-- [Independent exact endpoint verifier](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/verify_p9_C01_shared_cleanroom.py)
-- [Independent exact path verifier](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/verify_p9_C01_path.py)
-- [Directed perturbation verifier](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/verify_p9_C01_perturbation_interval.py)
-- [All-verifier transcript](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/RUN_ALL_VERIFIERS.log)
-- [Watertight OBJ](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared.obj)
-- [Watertight STL](sandbox:/mnt/data/P9_C01_shared_crossedge_NONWINNER/p9_C01_shared.stl)
+- Consolidated exact bundle (`P9_C01_shared_crossedge_NONWINNER_bundle.zip`)
+- Bundle SHA-256 (`P9_C01_shared_crossedge_NONWINNER_bundle.zip.sha256`)
+- Standalone handoff (`RESULT.md`)
+- Compact exact source rows (`p9_C01_shared_source_rows.csv`)
+- Complete exact endpoint JSON (`p9_C01_shared_exact.json`)
+- Expanded exact centred H data (`p9_C01_shared_H.csv`)
+- Expanded exact V data (`p9_C01_shared_vertices.csv`)
+- Complete incidence (`p9_C01_shared_incidence.json`)
+- All true edges and four cone components (`p9_C01_true_edges_full_cones.csv`)
+- Full exact path/circuit atlas (`p9_C01_direct_path_atlas.json`)
+- Moment-root certificate (`p9_C01_shared_moment_root_box.json`)
+- Positive perturbation certificate (`p9_C01_shared_perturbation_radius_interval.json`)
+- Exact chain obstruction (`p9_C01_shared_chain_obstruction_exact.json`)
+- Independent exact endpoint verifier (`verify_p9_C01_shared_cleanroom.py`)
+- Independent exact path verifier (`verify_p9_C01_path.py`)
+- Directed perturbation verifier (`verify_p9_C01_perturbation_interval.py`)
+- All-verifier transcript (`RUN_ALL_VERIFIERS.log`)
+- Watertight OBJ (`p9_C01_shared.obj`)
+- Watertight STL (`p9_C01_shared.stl`)

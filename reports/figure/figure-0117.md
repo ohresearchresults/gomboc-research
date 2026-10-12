@@ -8,7 +8,7 @@ AI research report · 2026-08-27 UTC
 
 ## Immutable artifact
 
-[Complete exact C3 component archive](sandbox:/mnt/data/slot4_c3_component_exclusion.zip) · [SHA-256 record](sandbox:/mnt/data/slot4_c3_component_exclusion.zip.sha256)
+Complete exact C3 component archive (`slot4_c3_component_exclusion.zip`) · SHA-256 record (`slot4_c3_component_exclusion.zip.sha256`)
 
 Archive SHA-256: `ec281c6865f3d616c5b1aa4799ad961fdb2fb119658e87da55a695cfc17f89f6`. Internal payload digest: `d4e721495e31728a5e765cca09963bfdb0388ee0f96be3fe2a6922b939dea0e0`; `MANIFEST.json` SHA-256: `db317150af440b3d35b7b3f1ebe4902339f34fbd116ca45b37e203941608713f`. The ZIP integrity test, 103-file manifest, deterministic generator, exact 12,966-circuit regeneration, component gate, directed moment exclusion, full prior H/V audit, exact path-wall/Sturm audit, endpoint perturbation audit, and watertight mesh checks all pass; transcripts are included.
 
@@ -20,7 +20,7 @@ Archive SHA-256: `ec281c6865f3d616c5b1aa4799ad961fdb2fb119658e87da55a695cfc17f89
 
 Consequently the three equations `M_x=M_y=M_z=0` have no solution in `C3`. Under the assignment's explicit topology-continuation rule, the next circuit `(2263,2298,2299,2334)` is **not crossed**, because no isolated centred continuation reaches it. The observed far-side ray signature `ac0cfc05c16540eeb4849333234d61069e05b838d3ca74e56a2a553a28f1a2f8` remains the first unaccepted topology, not a classified successor chamber.
 
-This resolves the exact continuation boundary recorded in the supplied journal: the prior finite atlas left `C3`, signature `df816aedc2371b44a17a593ea9b00c3930b84444a5d4d2c6cbe62399d46781a8`, as the first chamber whose **actual** moment map still required elimination. :contentReference[oaicite:0]{index=0}
+This resolves the exact continuation boundary recorded in the supplied journal: the prior finite atlas left `C3`, signature `df816aedc2371b44a17a593ea9b00c3930b84444a5d4d2c6cbe62399d46781a8`, as the first chamber whose **actual** moment map still required elimination.
 
 ## What changed relative to the supplied journal
 

@@ -8,18 +8,18 @@ AI research report · 2026-09-02 UTC
 
 ## Literal disposition
 
-**EXACT NONWINNER.** No strict homogeneous convex polyhedral Gömböc was obtained. The strongest accepted endpoint is a fully materialized exact-dyadic H-polytope, translated by its exact ordinary-volume centroid, with strict class `(S,U,H)=(2,2,2)`. The current journal had accepted the seven-hub predecessor and isolated loss of buttresses `500006` and `500002` as the preempting event; it therefore required the shared finite-thickness cross-cap attempted here. :contentReference[oaicite:0]{index=0}
+**EXACT NONWINNER.** No strict homogeneous convex polyhedral Gömböc was obtained. The strongest accepted endpoint is a fully materialized exact-dyadic H-polytope, translated by its exact ordinary-volume centroid, with strict class `(S,U,H)=(2,2,2)`. The current journal had accepted the seven-hub predecessor and isolated loss of buttresses `500006` and `500002` as the preempting event; it therefore required the shared finite-thickness cross-cap attempted here.
 
 The new cell **does overcome that incidence preemption**: both old buttresses and both new extreme supports remain active. It does **not** cancel the Euler-neutral block; it recreates it on a new carrier and exposes a rigorous forced-extra-unstable edge obstruction.
 
 ## Reproducible package
 
-- [Complete archive](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER.zip), SHA-256 `493aded62e9ddfb627e3b4547707c0e95a6f13b34fb8f9586b5717517a51c025`
-- [SHA-256 sidecar](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER.zip.sha256)
-- [Standalone handoff](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/STEADY_QUARTZ_25_CROSSCAP2_HANDOFF.md)
-- [Compact result certificate](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/result_summary.json)
-- [Internal manifest](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/MANIFEST.sha256), SHA-256 `31ad1b2465e8c845054f2ef7c3a3403e2e08bce30628391e7573a282308aa02c`
-- [One-command verifier](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/verify_steady_quartz25_crosscap2.sh)
+- Complete archive (`Steady_Quartz_25_crosscap2_exact_NONWINNER.zip`), SHA-256 `493aded62e9ddfb627e3b4547707c0e95a6f13b34fb8f9586b5717517a51c025`
+- SHA-256 sidecar (`Steady_Quartz_25_crosscap2_exact_NONWINNER.zip.sha256`)
+- Standalone handoff (`STEADY_QUARTZ_25_CROSSCAP2_HANDOFF.md`)
+- Compact result certificate (`result_summary.json`)
+- Internal manifest (`MANIFEST.sha256`), SHA-256 `31ad1b2465e8c845054f2ef7c3a3403e2e08bce30628391e7573a282308aa02c`
+- One-command verifier (`verify_steady_quartz25_crosscap2.sh`)
 
 ## Exact final representation and incidence
 
@@ -29,7 +29,7 @@ The supplied raw body is
 P_raw={x in R^3 : q_i·x<=1, i=1,...,3490}.
 ```
 
-All 3,490 supplied rows are given as exact hexadecimal dyadics in [supplied_endpoint_rows.hex](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/data/supplied_endpoint_rows.hex), and on a common `2^109` integer lattice in [supplied_endpoint_rows_integer.csv](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/data/supplied_endpoint_rows_integer.csv). The exact all-row audit proves precisely 1,631 active irredundant rows and 1,859 strictly inactive rows. The active rows are separately supplied on a common `2^69` lattice in [raw_polar_rows_integer.csv](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/data/raw_polar_rows_integer.csv).
+All 3,490 supplied rows are given as exact hexadecimal dyadics in supplied_endpoint_rows.hex, and on a common `2^109` integer lattice in supplied_endpoint_rows_integer.csv. The exact all-row audit proves precisely 1,631 active irredundant rows and 1,859 strictly inactive rows. The active rows are separately supplied on a common `2^69` lattice in raw_polar_rows_integer.csv.
 
 The two inserted supports are
 
@@ -49,7 +49,7 @@ oriented surface triangles        6512
 Euler F-E+V                          2.
 ```
 
-Every exact Cramer vertex is in [primal_vertices_exact.csv.gz](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/geometry/primal_vertices_exact.csv.gz), every maximal-face cycle in [maximal_face_cycles.json](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/geometry/maximal_face_cycles.json), and every true edge with its two incident maximal faces in [true_edges.csv](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/geometry/true_edges.csv).
+Every exact Cramer vertex is in primal_vertices_exact.csv.gz, every maximal-face cycle in maximal_face_cycles.json, and every true edge with its two incident maximal faces in true_edges.csv.
 
 The independent exact `cpp_int` verifier performs 11,360,646 nonincident determinant checks and proves: no extra coplanar supplied row, no outside row, all 3,258 dual facets connected, minimum nonincident primal slack
 
@@ -63,7 +63,7 @@ and minimum inactive supplied-row slack
 >1.7538767343858914579767352546038874965e-3.
 ```
 
-The complete report is [exact_supplied_hull_report.json](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/exact_supplied_hull_report.json).
+The complete report is exact_supplied_hull_report.json.
 
 ## Exact cross-cap combinatorics and finite thickness
 
@@ -82,7 +82,7 @@ old: (1801,1802,500006), (1801,500001,500006)
 new: (1801,500006,500007), (1801,500006,500008).
 ```
 
-Thus saddle side A `{1802,500006,500005,500001}` and side B `{2592,500002,500003,500000}` are changed in one connected cross-cap, not by serial star repairs. Full combinatorics are in [crosscap2_topology.json](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/crosscap2_topology.json).
+Thus saddle side A `{1802,500006,500005,500001}` and side B `{2592,500002,500003,500000}` are changed in one connected cross-cap, not by serial star repairs. Full combinatorics are in crosscap2_topology.json.
 
 Finite thickness is exact. Two positive-volume Delaunay tetrahedra in `conv(Q)` are
 
@@ -98,7 +98,7 @@ V_B=2207936394842913301373802875771098297236187 /
    =2.517885644059446020e-7....
 ```
 
-They share the interior face `(500002,500007,500008)`, occupy exact opposite sides of it, share new edge `(500007,500008)`, and have strict empty circumspheres against all other 1,627 active rows. This is certified in [exact_finite_thickness_crosscap.json](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/exact_finite_thickness_crosscap.json).
+They share the interior face `(500002,500007,500008)`, occupy exact opposite sides of it, share new edge `(500007,500008)`, and have strict empty circumspheres against all other 1,627 active rows. This is certified in exact_finite_thickness_crosscap.json.
 
 Activity after the crossing is exact:
 
@@ -120,7 +120,7 @@ Nine independent shape pivots are used:
 500002-y, 500006-y, 500003-z, 500005-z, 500004-x.
 ```
 
-Their exact supplied-row Jacobian contains a literal `9×9` identity minor, so shape rank is nine. The `500002-y` and `500006-y` columns are dedicated anti-inactivity controls for the predecessor’s first-lost buttresses. Details are in [control_space.json](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/control_space.json).
+Their exact supplied-row Jacobian contains a literal `9×9` identity minor, so shape rank is nine. The `500002-y` and `500006-y` columns are dedicated anti-inactivity controls for the predecessor’s first-lost buttresses. Details are in control_space.json.
 
 For every shape setting, the three dependent centroid variables satisfy exactly
 
@@ -142,9 +142,9 @@ and rank six for the complete six-feature map. Control dimension is therefore no
 
 ## Rebuilt incidence path and search scope
 
-The deterministic chord from the exact predecessor to this endpoint was rebuilt with the **actual all-row hull** at every sampled signature change. The recorded representatives occur at `t=0,0.01,0.06,0.94,0.95,1`; they show exact endpoint carriers `500000/500001` becoming inactive, support `500008` entering, and then the final simultaneous 15-triangle exchange with `500007` entering while `500002/500006` remain active. The complete changed-facet lists are in [crosscap2_actual_hull_path_scan.json](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/search/crosscap2_actual_hull_path_scan.json). These sampled parameter locations are discovery data, not claimed exact wall roots; the predecessor lattice, post-crossing lattice, and their disk symmetric difference are independently exact.
+The deterministic chord from the exact predecessor to this endpoint was rebuilt with the **actual all-row hull** at every sampled signature change. The recorded representatives occur at `t=0,0.01,0.06,0.94,0.95,1`; they show exact endpoint carriers `500000/500001` becoming inactive, support `500008` entering, and then the final simultaneous 15-triangle exchange with `500007` entering while `500002/500006` remain active. The complete changed-facet lists are in crosscap2_actual_hull_path_scan.json. These sampled parameter locations are discovery data, not claimed exact wall roots; the predecessor lattice, post-crossing lattice, and their disk symmetric difference are independently exact.
 
-A separate 199-state two-support roof scan rebuilt the full hull, centroid, and complete mechanics for every retained candidate; every recorded state had class `(2,2,2)`. The nine-control common-descent continuation likewise found no sampled `(1,1,0)` cell before further incidence change. These scans support the selected endpoint and successor choice but are not global exclusions. The raw records are [roof grid](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/search/sq25_crosscap_roof_grid.json) and [post-wall common descent](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/search/common_descent_postwall_scan.json).
+A separate 199-state two-support roof scan rebuilt the full hull, centroid, and complete mechanics for every retained candidate; every recorded state had class `(2,2,2)`. The nine-control common-descent continuation likewise found no sampled `(1,1,0)` cell before further incidence change. These scans support the selected endpoint and successor choice but are not global exclusions. The raw records are roof grid (`sq25_crosscap_roof_grid.json`) and post-wall common descent (`common_descent_postwall_scan.json`).
 
 ## Exact ordinary volume and first moments
 
@@ -180,7 +180,7 @@ The canonical certificate stores the complete reduced numerators and denominator
 Mx-Vcx=0, My-Vcy=0, Mz-Vcz=0.
 ```
 
-The accepted own-centred body is `P_raw-c`; equivalently its normalized exact H rows are `q_i/(1-q_i·c)`. See [exact_mass_centroid.json](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/exact_mass_centroid.json) and the independent [delta-circuit derivation](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/exact_mass_centroid_delta_circuit.json).
+The accepted own-centred body is `P_raw-c`; equivalently its normalized exact H rows are `q_i/(1-q_i·c)`. See exact_mass_centroid.json and the independent delta-circuit derivation (`exact_mass_centroid_delta_circuit.json`).
 
 ## Exhaustive mechanics and strict margins
 
@@ -214,7 +214,7 @@ minimum positive saddle component: H(2592,500003)
  0.0952158386440844522425856011009103866].
 ```
 
-Closest excluded margins are about `-3.169826338e-4` for faces, `-1.247011528e-2` for vertices, and `-7.891535217e-3` for edge-cone components. The complete audit and individual ledgers are [here](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/full_interval_mechanics_radius_2^-100.json), [stable](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/stable_margin_ledger.csv.gz), [unstable](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/unstable_margin_ledger.csv.gz), and [saddle](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/saddle_margin_ledger.csv.gz).
+Closest excluded margins are about `-3.169826338e-4` for faces, `-1.247011528e-2` for vertices, and `-7.891535217e-3` for edge-cone components. The complete audit and individual ledgers are here (`full_interval_mechanics_radius_2^-100.json`), stable (`stable_margin_ledger.csv.gz`), unstable (`unstable_margin_ledger.csv.gz`), and saddle (`saddle_margin_ledger.csv.gz`).
 
 ## Certified open cell
 
@@ -224,24 +224,24 @@ The exact determinant proof certifies the full independent supplied-coordinate b
 |delta q_ij|<=2^-100=7.888609052210118054e-31.
 ```
 
-The all-row determinant certificate preserves the active/inactive set, all Q triangles, all primal maximal faces and true edges. Combined with the active-row interval mechanics certificate, this preserves `(2,2,2)` throughout the full supplied-row box. The endpoint is an open nonwinner, not a wall point. See [exact_topology_radius_2^-100.json](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/exact_topology_radius_2^-100.json).
+The all-row determinant certificate preserves the active/inactive set, all Q triangles, all primal maximal faces and true edges. Combined with the active-row interval mechanics certificate, this preserves `(2,2,2)` throughout the full supplied-row box. The endpoint is an open nonwinner, not a wall point. See exact_topology_radius_2^-100.json.
 
 ## Independent verification and mesh
 
-A fresh replay after final packaging passed both the manifest and the normal verifier. The clean-room [verify_independent.py](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/src/verify_independent.py) imports no builder or search evaluator. It reconstructs the original 3,481-face source, predecessor and final all-row hull; rebuilds cycles and edges; checks exact Cramer equalities; independently recomputes the changed-face moment delta and exact centroid identities; reruns the finite-thickness, forced-edge and interval certificates; and reloads both meshes. It ends with
+A fresh replay after final packaging passed both the manifest and the normal verifier. The clean-room verify_independent.py imports no builder or search evaluator. It reconstructs the original 3,481-face source, predecessor and final all-row hull; rebuilds cycles and edges; checks exact Cramer equalities; independently recomputes the changed-face moment delta and exact centroid identities; reruns the finite-thickness, forced-edge and interval certificates; and reloads both meshes. It ends with
 
 ```text
 INDEPENDENT_EXACT_CROSSCAP2_RECONSTRUCTION_PASS.
 ```
 
-The independent exact [C++ verifier](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/src/verify_exact_supplied_hull.cpp) ends with
+The independent exact C++ verifier (`verify_exact_supplied_hull.cpp`) ends with
 
 ```text
 INDEPENDENT_EXACT_SUPPLIED_HULL_PASS
 rows=3490 active=1631 facets=3258 edges=4887 checks=11360646.
 ```
 
-The [OBJ](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/geometry/crosscap2_own_centered.obj) has 3,258 vertices and 1,631 maximal polygon faces. The [STL](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/geometry/crosscap2_own_centered.stl) has 6,512 consistently oriented triangles and 9,768 undirected triangle edges; every edge has incidence two, Euler characteristic is two, and reload is watertight. Its float32 reload volume is `5.310004825149934`, differing from the exact volume by about `2.73e-8` solely at mesh encoding precision.
+The OBJ (`crosscap2_own_centered.obj`) has 3,258 vertices and 1,631 maximal polygon faces. The STL (`crosscap2_own_centered.stl`) has 6,512 consistently oriented triangles and 9,768 undirected triangle edges; every edge has incidence two, Euler characteristic is two, and reload is watertight. Its float32 reload volume is `5.310004825149934`, differing from the exact volume by about `2.73e-8` solely at mesh encoding precision.
 
 ## First rigorous residual obstruction
 
@@ -259,7 +259,7 @@ support(A toward B)+support(B toward A)=||A-B||^2
 ||A-B||^2=1.950811276701591308e-6...>0.
 ```
 
-They therefore cannot both be nonpositive. Since every external support is positive, at least one endpoint of this true edge is strictly unstable throughout every fixed-incidence chamber retaining these signs. The protected vertex `(2024,2377,500004)` is independently strict, so `U>=2` throughout that certified chamber. The exact proof is [exact_forced_unstable_edge_obstruction.json](sandbox:/mnt/data/Steady_Quartz_25_crosscap2_exact_NONWINNER/certificates/exact_forced_unstable_edge_obstruction.json).
+They therefore cannot both be nonpositive. Since every external support is positive, at least one endpoint of this true edge is strictly unstable throughout every fixed-incidence chamber retaining these signs. The protected vertex `(2024,2377,500004)` is independently strict, so `U>=2` throughout that certified chamber. The exact proof is exact_forced_unstable_edge_obstruction.json.
 
 This is a local chamber theorem, not a global nonexistence theorem. The edge is the current diagonal of circuit `{1836,2775,2811,500008}`; merely reversing it recreates the predecessor channel. Diagnostic isolated flips of the saddle channels also transfer rather than cancel.
 

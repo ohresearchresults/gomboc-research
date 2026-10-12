@@ -70,7 +70,7 @@ It lies on `x=-275789182181101/D`; its stable foot is `(-275789182181101/D,0,0)`
 
 ## Construction and the consequential repair
 
-The starting analytic geometry was the journal's new circular-section phase with `epsilon=1/50`, `eta=(3*pi/2)*(z-z^3/3)`, and `P=eta-(41/100)sin(2eta)-(9/200)sin(4eta)`. The journal separates that smooth result from a finite polyhedron and supplies the radial-height identity and the one-axis quadratic moment mechanism. I used those as construction guidance, not as a substitute for a finite hull or equilibrium certificate. I did not independently rerun its 4096-cell smooth-curvature certificate; **the finite proof below does not depend on that certificate being correct**. :contentReference[oaicite:0]{index=0}
+The starting analytic geometry was the journal's new circular-section phase with `epsilon=1/50`, `eta=(3*pi/2)*(z-z^3/3)`, and `P=eta-(41/100)sin(2eta)-(9/200)sin(4eta)`. The journal separates that smooth result from a finite polyhedron and supplies the radial-height identity and the one-axis quadratic moment mechanism. I used those as construction guidance, not as a substitute for a finite hull or equilibrium certificate. I did not independently rerun its 4096-cell smooth-curvature certificate; **the finite proof below does not depend on that certificate being correct**.
 
 An initial radial-level mesh and a globally integrated gradient-trajectory mesh were not adequate. The `1600 x 256` radial-level experiment retained numerical class `(4941,6613,11552)` after centring. The global trajectory experiment suffered severe trajectory bunching and was rejected as a reliable discretization. These were exploratory floating-point experiments, not exact nonexistence results.
 
@@ -90,7 +90,7 @@ classes:
 
 Two supplied points are interior and are discarded, leaving exactly 222,935 actual vertices. This trace is numerical discovery evidence only. Acceptance came afterwards.
 
-The remote weights are the exact dyadic `B_i/D` stored in the file, generated from the journal's even bump `b=0` for `|z|<=1/4`, and otherwise `b=16t^2(1-t)^2`, `t=(|z|-1/4)/(3/4)`. They are rational approximations to that smooth bump, not silently identified with an unevaluated analytic integral. Their exact C2 pairing and bounds `0<=B_i<=D` are checked. The resulting finite moment polynomial is computed from these actual weights. :contentReference[oaicite:1]{index=1}
+The remote weights are the exact dyadic `B_i/D` stored in the file, generated from the journal's even bump `b=0` for `|z|<=1/4`, and otherwise `b=16t^2(1-t)^2`, `t=(|z|-1/4)/(3/4)`. They are rational approximations to that smooth bump, not silently identified with an unevaluated analytic integral. Their exact C2 pairing and bounds `0<=B_i<=D` are checked. The resulting finite moment polynomial is computed from these actual weights.
 
 **The first rounded Qhull proposal was not an exact hull.** Ten near-coplanar diagonals had the wrong strict orientation. Its purported transverse moments were small but nonzero exact integers; symmetry of the point cloud alone did not make that erroneous triangulated boundary valid. Ten explicit exact diagonal repairs, included in the reconstruction code, fix this. No vertices are removed by the repair. After it, both transverse moment polynomials become identically zero and every actual hull predicate passes. Treating the pre-repair numerical `(1,1,0)` audit as a completion would have been incorrect.
 
@@ -172,11 +172,11 @@ The archive includes the literal V coefficients, complete affine H rows, every m
 
 The mathematical acceptance gate is met by the reported certificates, but **external independent review is still outstanding**. There is no claim of priority, prize eligibility, physical printability or complexity below 1000. The next useful action is a clean external certificate replay, followed by C2-paired, moment-reisolated coarsening with a complete new hull and all-feature audit after each accepted deletion batch. Do not replace this object by a merely near-centred or numerically merged simplification.
 
-[Complete expanded construction, certificates and OBJ/STL bundle](sandbox:/mnt/data/L98_exact_polyhedral_gomboc.zip)
+Complete expanded construction, certificates and OBJ/STL bundle (`L98_exact_polyhedral_gomboc.zip`)
 
 The ZIP is 100,325,136 bytes; its SHA-256 is `e51aa3201a800c6fd533e7048448f74292cd07472ff69fbb87ef395d506570c7`. A fresh extraction passed its 36-file manifest, the integer-only verifier, and the complete H/OBJ/STL export check.
 
-[Offline full-mesh viewer](sandbox:/mnt/data/lynx98/release/L98_view.html) · [Exact integer coefficient and triangulation file](sandbox:/mnt/data/lynx98/release/L98_exact.txt) · [Rendered preview](sandbox:/mnt/data/lynx98/release/L98_preview.png)
+Offline full-mesh viewer (`L98_view.html`) · Exact integer coefficient and triangulation file (`L98_exact.txt`) · Rendered preview (`L98_preview.png`)
 
 ## Complete deterministic builder — save as `build.py`
 

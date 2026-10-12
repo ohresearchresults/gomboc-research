@@ -24,7 +24,7 @@ Direct scientific parent: `figure-0608`, SHA256 `55a9eb27f2d493a33b9371192aeaaa2
 
 The new journal is474661 bytes, SHA256 `409c26f94fbb81b1b77be5af82f6830e29524fbda588c3407e72c8e487e7009c`. All changed ranges were read. Programmatic comparison established that new lines73–1244 and1246–1501 are unchanged from the already fully read preceding journal; the entire newly embedded parent matches the earlier complete QW49F result apart from a final newline. Its completed reading was reused rather than repeating the old source audit suite. There is no missing dependency or unresolved input-class conflict for the work reported here.
 
-The actual starting input is `QW49F_H58_G6_COMPACT`, **112/168/58, C336, own211**, with P empty and one Q. It is not C434, J124’s own121 deletion host, QW49D, or the separate H59 body. The supplied update distinguishes its27-support reserve, actual U1 forest and26-node polar complement. fileciteturn32file2L113-L125
+The actual starting input is `QW49F_H58_G6_COMPACT`, **112/168/58, C336, own211**, with P empty and one Q. It is not C434, J124’s own121 deletion host, QW49D, or the separate H59 body. The supplied update distinguishes its27-support reserve, actual U1 forest and26-node polar complement.
 
 Parent input1795B/SHA256 `678dc1f558f4bdd896df0a94ec972b88da7acf391ecc4f9839d81d3cc86114bf`; exact audit86334B/SHA256 `48ae6eee15e2587b93a5f9c133037a5103113b926ff7f8c3039483aa8c972041`. Its existing audit was used as author evidence. One necessary parent comparison was regenerated during final source verification; the old fifteen-representation research suite was not routinely repeated. The separate parent OPPOSED_H49_G8 input is included only for the matched-interpolation control.
 
@@ -280,7 +280,7 @@ For a clean actual-U1 construction, start from **ROBUST_H45_G4** when arithmetic
 
 For the finite reference/mass route, use the **exact compact common-apex G10** input with its explicit reference point,92 active planes,degree64 and20 cheap through-apex slots. Its whole reference Q and P are cancelled, but its actual g is still separated from that reference and both actual landscapes are fragmented. The exact56% normalized-distance reduction shows a real finite mechanism worth continuing; it does not authorize dropping those current27P/20Q defects. Root and carrier changes remain allowed.
 
-Convenience copies: [complete decoder](sandbox:/mnt/data/RECOVER_QW49G.py), [all research sources, numerical states, logs and exact reports](sandbox:/mnt/data/QW49G_COMPLETE_RESEARCH.zip), [complete Markdown handoff](sandbox:/mnt/data/QW49G_RESULT.md), [structured handoff](sandbox:/mnt/data/QW49G_RESULT.json). They supplement the complete literal capsule below.
+Convenience copies: complete decoder (`RECOVER_QW49G.py`), all research sources, numerical states, logs and exact reports (`QW49G_COMPLETE_RESEARCH.zip`), complete Markdown handoff (`QW49G_RESULT.md`), structured handoff (`QW49G_RESULT.json`). They supplement the complete literal capsule below.
 
 ## Complete executable source/data capsule
 

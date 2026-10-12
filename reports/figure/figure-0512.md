@@ -33,7 +33,7 @@ Authoritative parents are:
 
 `figure-0505`, SHA-256 `cf485b3192bc65e8b63639c72e239aeb486fc0d9dff8b3e82283db12077c9d95`.
 
-The starting objects were the literal **H23t1 and MONO44t1 support-ray endpoints**, not C144, C120 from another branch, or MONOV42. Their actual filled masses and own121 censuses were independently regenerated as controls for this continuation. The preceding source explicitly leaves its aggregate replay unobserved; that evidence boundary is preserved. :contentReference[oaicite:0]{index=0}
+The starting objects were the literal **H23t1 and MONO44t1 support-ray endpoints**, not C144, C120 from another branch, or MONOV42. Their actual filled masses and own121 censuses were independently regenerated as controls for this continuation. The preceding source explicitly leaves its aggregate replay unobserved; that evidence boundary is preserved.
 
 The exact results below have one complete exhaustive rational maximal-hull/mechanics implementation, with multiple mass and algebraic cross-checks. A separate simultaneous-level radial implementation checks the positive birth/death pairs and emits complete components, cuts and attaining paths. This is **not** represented as two independent full geometric/mechanical auditors.
 
@@ -783,7 +783,7 @@ EXACT_FINITE_BODY_PASS ... [0,0,0]
 C50_RELEASE_SOURCE_ONLY_23_BODIES_75_RECEIPTS_PASS 23 75
 ```
 
-The complete source/file versions and all individual markers are reproduced by the commands above. Supplemental binary64 pins and per-iteration histories are preserved in the convenience archive but are not required to recover any exact endpoint. [Standalone decoder](sandbox:/mnt/data/RECOVER_C50_RELEASE_EXACT.py). [Complete source and scout supplement](sandbox:/mnt/data/C50_RELEASE_COMPLETE_WITH_SCOUTS.zip), 451431 bytes, SHA-256 `c9f23f564948437d5b15ee0a0af66b3922c5a5dd2030fd95d8d7a49a76a93669`.
+The complete source/file versions and all individual markers are reproduced by the commands above. Supplemental binary64 pins and per-iteration histories are preserved in the convenience archive but are not required to recover any exact endpoint. Standalone decoder (`RECOVER_C50_RELEASE_EXACT.py`). Complete source and scout supplement (`C50_RELEASE_COMPLETE_WITH_SCOUTS.zip`), 451431 bytes, SHA-256 `c9f23f564948437d5b15ee0a0af66b3922c5a5dd2030fd95d8d7a49a76a93669`.
 
 ## Most useful continuation
 

@@ -8,26 +8,26 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 ## Literal disposition
 
-**`BLOCKED_SOURCE_COLLISION`; no winner or nonwinner determination for `E23-CY3`.** The acceptance gate is a materialized finite uniform-density polyhedron at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete irredundant V/H incidence, maximal faces, true edges, all full-cone margins, an independent verifier, and matching OBJ/STL. :contentReference[oaicite:0]{index=0}
+**`BLOCKED_SOURCE_COLLISION`; no winner or nonwinner determination for `E23-CY3`.** The acceptance gate is a materialized finite uniform-density polyhedron at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete irredundant V/H incidence, maximal faces, true edges, all full-cone margins, an independent verifier, and matching OBJ/STL.
 
-The current journal identifies the source as an exact dyadic body named `E23T78`, with `(V,E,F)=(23,63,42)`, class `(3,4,5)`, intended stable face `[D,1,11]`, intended unstable vertex `8`, residual stable faces `[I,J,K]` and `[J,M,N]`, residual saddles `[J,M]`, `[J,N]`, `[U,W]`, `[U,Y]`, `[W,Y]`, and a certified positive cycle `W→Y→U→W`; it names `E23-CY3` as the next topology. :contentReference[oaicite:1]{index=1}
+The current journal identifies the source as an exact dyadic body named `E23T78`, with `(V,E,F)=(23,63,42)`, class `(3,4,5)`, intended stable face `[D,1,11]`, intended unstable vertex `8`, residual stable faces `[I,J,K]` and `[J,M,N]`, residual saddles `[J,M]`, `[J,N]`, `[U,W]`, `[U,Y]`, `[W,Y]`, and a certified positive cycle `W→Y→U→W`; it names `E23-CY3` as the next topology.
 
-Those exact source bytes are not present. The only mounted and library-visible exact object named `E23T78` is a different endpoint with the same f-vector but strict class `(2,2,2)`, stable faces `[8,A,B]`, `[10,H,R]`, unstable vertices `8,O0`, and saddles `(A,O0),(R,S)`. :contentReference[oaicite:2]{index=2} Its own result explicitly identifies it as the two-support whole-packet endpoint, not the journal’s `(3,4,5)` source. :contentReference[oaicite:3]{index=3}
+Those exact source bytes are not present. The only mounted and library-visible exact object named `E23T78` is a different endpoint with the same f-vector but strict class `(2,2,2)`, stable faces `[8,A,B]`, `[10,H,R]`, unstable vertices `8,O0`, and saddles `(A,O0),(R,S)`. Its own result explicitly identifies it as the two-support whole-packet endpoint, not the journal’s `(3,4,5)` source.
 
 This is a material oriented-matroid and label-namespace collision, not a cosmetic mismatch. Without the missing exact source, the boundary disk, trihedral incidence, cycle-star genealogy, circuit equations, dependent moment system, and full normal-cone ledger are undefined. Any literal `E23-CY3` coordinates or exclusion theorem built from the available body would refer to the wrong polyhedron.
 
 ## Immutable provenance audit
 
-- [Portable audit archive](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity.zip)
-- [Archive SHA-256](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity.zip.sha256): `1100a2768fe7435ac1f338d69f4a1b99a2c87a1ac7a1481288a283a48c761939`
-- [Complete source-consistency report](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/SOURCE_CONSISTENCY_REPORT.md)
-- [Deterministic verifier](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/verify_source_collision.py)
-- [Verifier transcript](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/VERIFY.log)
-- [Machine-readable local scan](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/local_source_scan_result.json)
-- [Journal-claimed signature](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/expected_source_signature.json)
-- [Mounted exact signature](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/available_E23T78_signature.json)
-- [Required source manifest](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/REQUESTED_SOURCE_MANIFEST.md)
-- [Checksummed manifest](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/SHA256SUMS)
+- Portable audit archive (`vivid_quartz_58_e23cy3_source_integrity.zip`)
+- Archive SHA-256 (`vivid_quartz_58_e23cy3_source_integrity.zip.sha256`): `1100a2768fe7435ac1f338d69f4a1b99a2c87a1ac7a1481288a283a48c761939`
+- Complete source-consistency report (`SOURCE_CONSISTENCY_REPORT.md`)
+- Deterministic verifier (`verify_source_collision.py`)
+- Verifier transcript (`VERIFY.log`)
+- Machine-readable local scan (`local_source_scan_result.json`)
+- Journal-claimed signature (`expected_source_signature.json`)
+- Mounted exact signature (`available_E23T78_signature.json`)
+- Required source manifest (`REQUESTED_SOURCE_MANIFEST.md`)
+- Checksummed manifest (`SHA256SUMS`)
 
 Running
 
@@ -66,7 +66,7 @@ mounted report   a8199a02167f90b539aa622c3d73e3597f977db75c3ea372c9c85992f69adc2
 mounted archive  5510fd038588df2902d8ee17731435c8dacd1ddaf875bdbd1f8be598d66e2a6b
 ```
 
-Reference bytes: [available exact report](sandbox:/mnt/data/vivid_quartz_58_nonflippable_core_final_result/E23T78_exact_report.json), [available archive](sandbox:/mnt/data/vivid_quartz_58_nonflippable_core_nonwinner.zip).
+Reference bytes: available exact report (`E23T78_exact_report.json`), available archive (`vivid_quartz_58_nonflippable_core_nonwinner.zip`).
 
 ## Recovery work actually performed
 
@@ -82,8 +82,8 @@ Searches covered the alias, successor name, assignment id `figure-0244`, `1,429-
 
 These tests are empirical diagnostics only and are not used as a theorem about `E23-CY3`.
 
-1. I sampled `1,228,800` determinant-one SPD images of the available exact `(2,2,2)` `E23T78`. `35,957` images had count class `(3,4,5)`, but **none** had the assignment’s required packet pattern: an unstable triangle whose three edges are saddles together with the two `J`-centred stable/saddle faces. [Receipt](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/receipts/available_E23T78_SPD_pattern_scan.json) and [log](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/receipts/available_E23T78_SPD_pattern_scan.log).
-2. I reversed the target on the exact ten-vertex `E10R`, which does contain `[D,1,11]` and unstable `8`. None of its `288` first-order separator branches was feasible. [Receipt](sandbox:/mnt/data/vivid_quartz_58_e23cy3_source_integrity/receipts/e10r_reverse_target_search.json). This does not identify the missing 23-vertex source and does not exclude nonlinear or topology-changing continuations.
+1. I sampled `1,228,800` determinant-one SPD images of the available exact `(2,2,2)` `E23T78`. `35,957` images had count class `(3,4,5)`, but **none** had the assignment’s required packet pattern: an unstable triangle whose three edges are saddles together with the two `J`-centred stable/saddle faces. Receipt (`available_E23T78_SPD_pattern_scan.json`) and log (`available_E23T78_SPD_pattern_scan.log`).
+2. I reversed the target on the exact ten-vertex `E10R`, which does contain `[D,1,11]` and unstable `8`. None of its `288` first-order separator branches was feasible. Receipt (`e10r_reverse_target_search.json`). This does not identify the missing 23-vertex source and does not exclude nonlinear or topology-changing continuations.
 
 These checks make a simple relabelling or affine-image explanation unlikely, but the decisive issue is still byte-level provenance: the exact source required to define the task was not transferred.
 

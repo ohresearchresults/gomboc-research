@@ -48,7 +48,7 @@ A second consequence is an actual-shape collar: every uniformly filled convex po
 
 A new exact control in the covered region has **own222, weak000** on an entire metric ray with condition number tending to infinity. Thus the conclusion U>=2 is attained in this region and is not an artifact of imposing a spectral cutoff.
 
-This is not a theorem about all six cut fractions in (0,1), all realizations of the incidence, or all E17 bodies. It does not prove S>=2 throughout the region. It excludes every joint S1/U1 metric there because it already excludes U1, without needing to discard or separately relax any inverse-metric obligation. The global bracket remains **34<=C_min<=622**, and no new 110 attainer or registry subtraction is claimed. The supplied memory retains these distinctions. fileciteturn66file0L67-L79
+This is not a theorem about all six cut fractions in (0,1), all realizations of the incidence, or all E17 bodies. It does not prove S>=2 throughout the region. It excludes every joint S1/U1 metric there because it already excludes U1, without needing to discard or separately relax any inverse-metric obligation. The global bracket remains **34<=C_min<=622**, and no new 110 attainer or registry subtraction is claimed. The supplied memory retains these distinctions.
 
 ## 2. Input authority and what was done
 
@@ -62,7 +62,7 @@ The literal parent is **minimum-0279**, SHA-256
 
 Its compact version-2 JSON envelope, with the literal Markdown's final LF, reconstructs to 43922 bytes with that digest. Its complete 16335-byte `centroid_flow_blind.py` was recovered unchanged at SHA `faf84e0d905d13efd1a1cf0cfc0f047915e25659a1edbeaf1a7d89e96de5d384`. No unavailable source or saved parent output is needed by the new program.
 
-The inherited geometry, TREE410 labeling, four-arrow stress and the fact that its complementary dual detects the metric cube are unchanged. fileciteturn66file0L95-L105 This continuation did not escalate polynomial degree in the proved-blind balanced-flow cone. It first derived the true realization domain and moving moments, then covered all rooted packets using unrestricted nonnegative edge multipliers.
+The inherited geometry, TREE410 labeling, four-arrow stress and the fact that its complementary dual detects the metric cube are unchanged. This continuation did not escalate polynomial degree in the proved-blind balanced-flow cone. It first derived the true realization domain and moving moments, then covered all rooted packets using unrestricted nonnegative edge multipliers.
 
 Numerical LP and eigenvalue calculations were used only to locate integer weights and choose a cover. The observed discovery stack was NumPy 2.3.5 and SciPy 1.17.0. **All promoted statements below were accepted by exact integer/Fraction arithmetic**, including the entire eight-dimensional parameter domain, all rooted trees, the actual control hulls and the unbounded metric ray. The standalone recovery contains every accepted weight and does not require numerical rediscovery.
 
@@ -116,7 +116,7 @@ At t=0 the added point is not a vertex. At t=1 the three left cut points cease t
 
 ### Distinction from the older lower-factor family
 
-This is the parent's independent eight-parameter construction, not the older fixed-b=1/6 symmetric-small-cut `P_epsilon` family. The old family's optimized-factor claims and identity are not changed or used as mechanical evidence here. The native point `(1/15,.76,.37,.67,.22,.46,.44,.69)` is retained exactly. fileciteturn67file0L221-L243
+This is the parent's independent eight-parameter construction, not the older fixed-b=1/6 symmetric-small-cut `P_epsilon` family. The old family's optimized-factor claims and identity are not changed or used as mechanical evidence here. The native point `(1/15,.76,.37,.67,.22,.46,.44,.69)` is retained exactly.
 
 ### Reflected region
 
@@ -430,7 +430,7 @@ Exact report pins:
 
 Normal exact execution of all three parts passed. A clean source-only extraction and reexecution of all three parts also passed with byte-identical reports. These are author executions, not coordinator replays or proof-assistant formalizations. The finite exact acceptance accompanies, rather than replaces, the realization and mechanical proofs above.
 
-Convenience copies: [standalone source](sandbox:/mnt/data/cut_stack/cut_stack_allroot.py), [part 0](sandbox:/mnt/data/cut_stack/part0.json), [part 1](sandbox:/mnt/data/cut_stack/part1.json), [part 2](sandbox:/mnt/data/cut_stack/part2.json), and [complete Markdown handoff](sandbox:/mnt/data/cut_stack/result_markdown_v1.md).
+Convenience copies: standalone source (`cut_stack_allroot.py`), part 0 (`part0.json`), part 1 (`part1.json`), part 2 (`part2.json`), and complete Markdown handoff (`result_markdown_v1.md`).
 
 ### Complete source
 

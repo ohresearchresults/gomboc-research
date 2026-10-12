@@ -8,7 +8,7 @@ AI research report · 2026-08-30 UTC
 
 ## Literal verdict
 
-**No certified homogeneous polyhedral Gömböc was obtained in this continuation.** The strict acceptance gate remains a finite uniform-density convex polyhedron evaluated at its own exact volume centroid, with class `(S,U,H)=(1,1,0)`, complete irredundant H/V incidence, every maximal face and true edge, exhaustive full-cone mechanics, an open perturbation certificate, an independent verifier, and matching meshes. :contentReference[oaicite:0]{index=0}
+**No certified homogeneous polyhedral Gömböc was obtained in this continuation.** The strict acceptance gate remains a finite uniform-density convex polyhedron evaluated at its own exact volume centroid, with class `(S,U,H)=(1,1,0)`, complete irredundant H/V incidence, every maximal face and true edge, exhaustive full-cone mechanics, an open perturbation certificate, an independent verifier, and matching meshes.
 
 The strongest **fully certified** object therefore remains the exact-dyadic predecessor `AQ32-CR3D580`, whose own-centred polar has class `(2075,587,2660)`. The new work did not produce the requested exact post-outlet endpoint, but it found a materially stronger finite search cell: an exact-dyadic outlet-spanning support replacement whose fixed topology admits many numerical SPD images of strict class `(2,2,2)`. That is a reduction from thousands of equilibria to one Euler-neutral four-feature block. The new cell has not yet passed exact incidence repair, interval Santaló isolation after rational metric exactification, or independent mesh verification, so it is **not** claimed as an accepted exact endpoint.
 
@@ -16,23 +16,23 @@ The strongest **fully certified** object therefore remains the exact-dyadic pred
 
 ### Certified predecessor
 
-- [AQ32-CR3D580 exact mathematical handoff](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_complete_handoff.md)
-- [Exact deterministic generator](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/generate_AQ32_CR3D580_exact.py)
-- [Independent verifier](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/verify_AQ32_CR3D580_exact.py)
-- [Canonical exact arrays](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_exact_data.npz)
-- [Root-box full-cone audit](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_exact_rootbox_audit.json)
-- [Q OBJ](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_Q.obj), [Q STL](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_Q.stl), [P OBJ](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_P_at_santalo_midpoint.obj), and [P STL](sandbox:/mnt/data/RQ69_AQ32_CR3D580_exact_endpoint/AQ32_CR3D580_P_at_santalo_midpoint.stl)
+- AQ32-CR3D580 exact mathematical handoff (`AQ32_CR3D580_complete_handoff.md`)
+- Exact deterministic generator (`generate_AQ32_CR3D580_exact.py`)
+- Independent verifier (`verify_AQ32_CR3D580_exact.py`)
+- Canonical exact arrays (`AQ32_CR3D580_exact_data.npz`)
+- Root-box full-cone audit (`AQ32_CR3D580_exact_rootbox_audit.json`)
+- Q OBJ (`AQ32_CR3D580_Q.obj`), Q STL (`AQ32_CR3D580_Q.stl`), P OBJ (`AQ32_CR3D580_P_at_santalo_midpoint.obj`), and P STL (`AQ32_CR3D580_P_at_santalo_midpoint.stl`)
 
 ### New outlet search cell
 
-- [Exact-dyadic candidate coordinates and provisional lattice](sandbox:/mnt/data/RQ69_AQ32_OUTLET_WORK/e2bad.npz)
-- [Complete deterministic construction parameters and numerical audit](sandbox:/mnt/data/RQ69_AQ32_OUTLET_WORK/e2bad.json)
-- [Construction driver](sandbox:/mnt/data/RQ69_AQ32_OUTLET_WORK/search_continue.py)
-- [Fixed-topology SPD full-cone evaluator](sandbox:/mnt/data/RQ69_AQ32_OUTLET_WORK/fast_metric.py)
-- [Identity-free winner-margin evaluator](sandbox:/mnt/data/RQ69_AQ32_OUTLET_WORK/hard_metric.py)
-- [Initial symmetry-breaking metric search](sandbox:/mnt/data/RQ69_AQ32_OUTLET_WORK/localm025_500.json)
-- [Closest fixed-topology multiwall state](sandbox:/mnt/data/RQ69_AQ32_OUTLET_WORK/nm302.json)
-- [Local first-order chamber analysis script](sandbox:/mnt/data/RQ69_AQ32_OUTLET_WORK/bundle_step.py)
+- Exact-dyadic candidate coordinates and provisional lattice (`e2bad.npz`)
+- Complete deterministic construction parameters and numerical audit (`e2bad.json`)
+- Construction driver (`search_continue.py`)
+- Fixed-topology SPD full-cone evaluator (`fast_metric.py`)
+- Identity-free winner-margin evaluator (`hard_metric.py`)
+- Initial symmetry-breaking metric search (`localm025_500.json`)
+- Closest fixed-topology multiwall state (`nm302.json`)
+- Local first-order chamber analysis script (`bundle_step.py`)
 
 These new files are search artifacts, not a replacement for the certified predecessor archive.
 

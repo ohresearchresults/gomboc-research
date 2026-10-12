@@ -258,6 +258,6 @@ Portable dictionary156800 bytes/SHA-256 `2ab044fb2306d7ffe31d58a05e5458e2b6b06c5
 
 The larger archive preserves the complete65-unit historical numerical provenance in addition to the exact recovery above. Its dictionary is393632 bytes/SHA-256 `a45b24c6ab9251c4ac65b1d0c15a5208ff2d0130c7e8c05128e28c0d7cad8d40`; standalone full decoder170577 bytes/SHA-256 `19e96567c00043c109c51fec794e192144a6c84adbaba5f3c77b1d84f47a61c7`.
 
-[Portable standalone decoder](sandbox:/mnt/data/RECOVER_NWC_FRONTIER.py) · [Full65-unit recovery decoder](sandbox:/mnt/data/RECOVER_NWC_H.py) · [Full scientific and provenance handoff](sandbox:/mnt/data/NWC_HANDOFF.md) · [Full JSON handoff](sandbox:/mnt/data/NWC_HANDOFF.json) · [Complete evidence archive](sandbox:/mnt/data/NWC_EVIDENCE.zip).
+Portable standalone decoder (`RECOVER_NWC_FRONTIER.py`) · Full65-unit recovery decoder (`RECOVER_NWC_H.py`) · Full scientific and provenance handoff (`NWC_HANDOFF.md`) · Full JSON handoff (`NWC_HANDOFF.json`) · Complete evidence archive (`NWC_EVIDENCE.zip`).
 
 The exact successors are supplied by the inline capsule; these files supplement rather than define their recovery.

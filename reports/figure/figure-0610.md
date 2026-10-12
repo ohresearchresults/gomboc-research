@@ -12,7 +12,7 @@ AI research report · 2026-09-29 UTC · [Export notes](../../catalog/coverage.md
 
 A genuinely different finite route was also executed. A20-link connection to the **higher port61**, followed by release of the remaining support geometry and actual-mass reconstruction, produces **KF27J_FF2_G5 and G6: V80/E120/F42, own121/weak000/primitive000, Q=[]**. Their positive P is approximately.6271446411 and.6271407782. A further whole-component cut/reconstruction gives **KF27J_AF2_G5: V82/E123/F43, own121, P=.6130298395…, Q=[]**. Thus the whole Q landscape is actually cancelled, but **U1 is lost and has not been restored**. These are different useful nonwinners, not a simultaneous cancellation or a cross-lineage persistence record.
 
-All **five distinct rational bodies** reported below have exact actual-centroid audits, additionalweak000 and primitivezero000. Two additional compact H files represent the same respective bodies, not extra constructions. The supplied journal’s canonical own110 remains C622, outside the present E249 target. fileciteturn80file0L7-L9
+All **five distinct rational bodies** reported below have exact actual-centroid audits, additionalweak000 and primitivezero000. Two additional compact H files represent the same respective bodies, not extra constructions. The supplied journal’s canonical own110 remains C622, outside the present E249 target.
 
 ### Source authority and reading
 
@@ -104,7 +104,7 @@ Since K⊆L−b⊆Ω−b, including every available negative contribution and on
 
 a contradiction. **The affine shift in ℓ removes any need for an upper bound on Vol(Ω).**
 
-For m13, the positive and negative contributions are approximately52.73990174075371 and−49.66475524304636. For m19 they are49.19705485031482 and−47.47954568815296. All these quantities are rational in the [complete exact certificate](sandbox:/mnt/data/KF27J_PORT40_EXACT.json), not fit constants.
+For m13, the positive and negative contributions are approximately52.73990174075371 and−49.66475524304636. For m19 they are49.19705485031482 and−47.47954568815296. All these quantities are rational in the complete exact certificate (`KF27J_PORT40_EXACT.json`), not fit constants.
 
 Both cores have98 submitted points and97 true vertices. Their E285 hulls are integration objects, **not** E249 candidates. The negative sections have45/84/41 and42/79/39; the positive core sections both have82/191/111. These auxiliary hulls and every source/input/output hash regenerate.
 
@@ -172,7 +172,7 @@ These operations yield actual Q=[], not merely disappearance of an old stable la
 
 ## 4. Complete exact physical ledger
 
-Every row has additionalweak000 and primitivezero000. Decimal values display exact rational results; full fractions and carriers regenerate in the [exact ledger](sandbox:/mnt/data/KF27J_LEDGER.json). There is no positive-bar floor.
+Every row has additionalweak000 and primitivezero000. Decimal values display exact rational results; full fractions and carriers regenerate in the exact ledger (`KF27J_LEDGER.json`). There is no positive-bar floor.
 
 | Exact body | V/E/F | Own S/U/H | All positive P | All positive Q |
 |---|---:|---:|---|---|
@@ -318,7 +318,7 @@ On the retained I ownU1 line, do not continue forcing the depth13 port40 forest 
 
 On the new actualS1 line, the42/43-support inputs offer unrestricted support reserve, but the task is now to cancel the **current complete24/18 or34/18 physical P component and interface** while retaining actualS1. One-root fragmentation and two-root repair must remain distinguished. The old protected vertices and old centre are not scientific requirements; their abandonment is already part of the executed finite path.
 
-Supplementary copies: [complete new delta](sandbox:/mnt/data/KF27J_DELTA.py), [new working sources, exact outputs and used parent sources](sandbox:/mnt/data/KF27J_HANDOFF.zip). The following complete literal delta and its explicitly retained parent dependency are the durable recovery source, not those links.
+Supplementary copies: complete new delta (`KF27J_DELTA.py`), new working sources, exact outputs and used parent sources (`KF27J_HANDOFF.zip`). The following complete literal delta and its explicitly retained parent dependency are the durable recovery source, not those links.
 
 ## 7. Complete literal new-source/input delta
 

@@ -10,9 +10,9 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACT DELIMITED NONWINNER.** No finite homogeneous convex polyhedral Gömböc was obtained in this topology.
 
-The non-negotiable target remains an explicit uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with one stable maximal face, one unstable vertex, and no saddle true edge, together with finite H/V data, complete incidence and full-cone mechanics, an independent verifier, and matching OBJ/STL. :contentReference[oaicite:0]{index=0}
+The non-negotiable target remains an explicit uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with one stable maximal face, one unstable vertex, and no saddle true edge, together with finite H/V data, complete incidence and full-cone mechanics, an independent verifier, and matching OBJ/STL.
 
-The immutable parent is `figure-0256`, payload SHA-256 `9cefd91a36b4cad54c48e72b19c58ccf02d36ed82b36f8627c3645aeae220b60`. It is the exact eight-active-vertex five-support cage with packet stable `[V,W,Y]`, unstable `V`, saddles `[0,Y]` and `[V,X]`, and forcing edge `[0,V]`. :contentReference[oaicite:1]{index=1} The requested successor was a closed six-support or linked two-cell cage changing that entire star while permitting `0` or `V` to deactivate. :contentReference[oaicite:2]{index=2}
+The immutable parent is `figure-0256`, payload SHA-256 `9cefd91a36b4cad54c48e72b19c58ccf02d36ed82b36f8627c3645aeae220b60`. It is the exact eight-active-vertex five-support cage with packet stable `[V,W,Y]`, unstable `V`, saddles `[0,Y]` and `[V,X]`, and forcing edge `[0,V]`. The requested successor was a closed six-support or linked two-cell cage changing that entire star while permitting `0` or `V` to deactivate.
 
 No conflict was found between the immutable journal payload lineage and the packaged parent generator: the first 35 source rows match `parent/tenth_cage_generator_exact.json` exactly, and the package pins the parent archive at SHA-256 `481e6f16accce9fa5cde4006144d4a9b01a777f9b38f519d728a3c6e9cfc7174`.
 
@@ -638,34 +638,34 @@ The first nonrepeating successor is therefore a seventh support or linked two-ce
 
 ## Delivered artifacts
 
-- [Complete exact NONWINNER archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER.zip)
-- [Complete self-contained handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_handoff.md)
-- [Structured wrapper result](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_result.json)
-- [Clean-extraction verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_clean_verification.json)
-- [Clean full-package replay](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_clean_replay.txt)
-- [Fresh independent full replay from this continuation](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_recheck.txt)
-- [Fresh clean-extraction full replay performed for this handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_reverify_current.txt)
-- [Exact 41-row target generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/data/generator_exact.json)
-- [Exact complete source/target chord table](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/search/selected_target_rows.json)
-- [Exact own-centred active target V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Primitive irredundant target H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/data/eleventh_cage9_exact_H_irredundant.csv)
-- [Complete target face mechanics](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/data/eleventh_cage9_exact_faces.csv)
-- [All 42 directed target vertex primitives](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/data/eleventh_cage9_exact_vertex_primitives.csv)
-- [All 21 physical target edges and 84 full-cone components](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/data/eleventh_cage9_exact_true_edges_full_cones.csv)
-- [Complete target external-arrow ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/data/external_arrow_full_ledger.csv)
-- [Exact source reconstruction certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/certificates/source_exact_reconstruction.json)
-- [Connected same-boundary positive-volume surgery](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/certificates/eleventh_cage_shared_global_patch.json)
-- [Exact 15-event chronology](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/certificates/source_to_target_death_before_birth_obstruction.json)
-- [Changed-edge and adverse-graph certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/certificates/external_arrow_design_certificate.json)
-- [Residual forcing-edge theorem](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/certificates/residual_forced_edge_Z_AA.json)
-- [Radius-2^-23 own-centroid interval certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Independent clean-room verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/scripts/verify_independent.py)
-- [Independent chronology verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/scripts/verify_chronology.py)
-- [Aggregate verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/RUN_ALL_VERIFIERS.sh)
-- [Package verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/verify_package.py)
-- [SHA-256 manifest](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/SHA256SUMS.txt)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER/mesh/body.stl)
+- Complete exact NONWINNER archive (`Calm_Quartz_90_wall242_eleventh_six_support_cage_exact_NONWINNER.zip`)
+- Complete self-contained handoff (`Calm_Quartz_90_wall242_eleventh_six_support_cage_handoff.md`)
+- Structured wrapper result (`Calm_Quartz_90_wall242_eleventh_six_support_cage_result.json`)
+- Clean-extraction verification receipt (`Calm_Quartz_90_wall242_eleventh_six_support_cage_clean_verification.json`)
+- Clean full-package replay (`Calm_Quartz_90_wall242_eleventh_six_support_cage_clean_replay.txt`)
+- Fresh independent full replay from this continuation (`Calm_Quartz_90_wall242_eleventh_six_support_cage_recheck.txt`)
+- Fresh clean-extraction full replay performed for this handoff (`Calm_Quartz_90_wall242_eleventh_six_support_cage_reverify_current.txt`)
+- Exact 41-row target generator (`generator_exact.json`)
+- Exact complete source/target chord table (`selected_target_rows.json`)
+- Exact own-centred active target V-data (`active_vertices_centered_exact.csv`)
+- Primitive irredundant target H-data (`eleventh_cage9_exact_H_irredundant.csv`)
+- Complete target face mechanics (`eleventh_cage9_exact_faces.csv`)
+- All 42 directed target vertex primitives (`eleventh_cage9_exact_vertex_primitives.csv`)
+- All 21 physical target edges and 84 full-cone components (`eleventh_cage9_exact_true_edges_full_cones.csv`)
+- Complete target external-arrow ledger (`external_arrow_full_ledger.csv`)
+- Exact source reconstruction certificate (`source_exact_reconstruction.json`)
+- Connected same-boundary positive-volume surgery (`eleventh_cage_shared_global_patch.json`)
+- Exact 15-event chronology (`source_to_target_death_before_birth_obstruction.json`)
+- Changed-edge and adverse-graph certificate (`external_arrow_design_certificate.json`)
+- Residual forcing-edge theorem (`residual_forced_edge_Z_AA.json`)
+- Radius-2^-23 own-centroid interval certificate (`own_centroid_perturbation_certificate.json`)
+- Independent clean-room verifier (`verify_independent.py`)
+- Independent chronology verifier (`verify_chronology.py`)
+- Aggregate verifier (`RUN_ALL_VERIFIERS.sh`)
+- Package verifier (`verify_package.py`)
+- SHA-256 manifest (`SHA256SUMS.txt`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 ## Package integrity
 

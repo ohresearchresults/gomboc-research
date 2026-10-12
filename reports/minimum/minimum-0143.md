@@ -18,7 +18,7 @@ A new apex-plane sign test also closes a continuous part of the three-nonbasal-p
 
 Two new rational-metric, actual own-COM controls and their whole regularization intervals are certified. One has exactly the two opposite-apex internal free vertices with parallel chords; the other has four nonbasal A points with a unique adverse packet. They are genuine bodies, but **neither is a surviving affine-stress control**: both contact tensor matrices have rank four. The universal theorems, not these examples, are the sector closures.
 
-The full unequal-height problem is not closed. The unresolved two-apex cases now have two or three nonbasal weak points and at most one free internal basal vertex, subject to the additional restrictions in Section 8. No full intrinsic obstruction or nonregularizable body is supplied. Mixed EF/VF configurations and general non-B8 lattices remain separate. No110 attainer, registry change, or change to34<=C_min<=622 is claimed. :contentReference[oaicite:0]{index=0}
+The full unequal-height problem is not closed. The unresolved two-apex cases now have two or three nonbasal weak points and at most one free internal basal vertex, subject to the additional restrictions in Section 8. No full intrinsic obstruction or nonregularizable body is supplied. Mixed EF/VF configurations and general non-B8 lattices remain separate. No110 attainer, registry change, or change to34<=C_min<=622 is claimed.
 
 ## 2. Inputs, terminology and inherited premises
 
@@ -28,13 +28,13 @@ The authoritative parent is `minimum-0140`, `UNEQUAL_WALL_AND_FREE_CHORD_REGULAR
 
 A is a **simple physical VE point**: at its source x, the radial supporting plane exposes exactly one true edge x->x+u. Thus one source has at most one outgoing weak edge. A raw primitive zero without its complete physical packet is not an A point. Throughout, M is one SPD metric and N=M^-1; an affine factor L with L^T L=M represents the actual Euclidean body, not a second independently chosen mechanics.
 
-The following accepted premises are used: actual own-centroid regularization of at most three physical weak points; the complete parallel-ridge and centroid-height-wall closures; the basal theorem; and the parent’s unique-adverse classification and full-stress resultant identity. These preserve full true lattices, old strict feature labels and absence of additional equilibria. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The following accepted premises are used: actual own-centroid regularization of at most three physical weak points; the complete parallel-ridge and centroid-height-wall closures; the basal theorem; and the parent’s unique-adverse classification and full-stress resultant identity. These preserve full true lattices, old strict feature labels and absence of additional equilibria.
 
 For reference, with B at raw height0, actual centroid height gamma, and lower/higher apex heights h<H, the parent’s remaining sector has one positive beta_i=(z_source-gamma)(z_target-z_source), all other nonbasal beta negative, and neither apex on the COM-height wall. Every nonzero full nonnegative intrinsic stress alpha has positive weight on the adverse packet and, for c=sum alpha_i u_i,
 
     (h-gamma)c_z > 0.                                   (1)
 
-In particular c is nonzero. This is not a signed-stress dimension-one assertion. :contentReference[oaicite:3]{index=3}
+In particular c is nonzero. This is not a signed-stress dimension-one assertion.
 
 ## 3. Adjacent two-vertex covers: a general physical regularization theorem
 
@@ -215,7 +215,7 @@ Thus one internal vertex and any other basal vertex on its apex side suffice. If
 
 For a full intrinsic stress alpha, let c=sum alpha_i u_i. If the moving vertices avoid every weak-edge endpoint, their only effect on each contact derivative is minus u_i^T M Dg. A rank-three free centroid actuator therefore forces M c=0. The unique-adverse identity(1) forbids this for every nonzero nonnegative stress. **The entire nonnegative intrinsic cone is zero** in each new free-vertex sector.
 
-The strict finite-dimensional alternative now gives a true realization tangent with every contact derivative positive. It is integrable. In the vertex/pole incidence equations q_f.x_v=1, the planar bipartite incidence graph is3-degenerate. Reverse a degree-at-most-three peeling, solve the selected nonzero linear minors, and use the remaining coordinates as local parameters. Neighbor vectors are independent because they are at most three vertices of a true primal or polar facet in a plane excluding0. This gives a local rational realization chart, retaining every maximal-facet coplanarity. This is the parent’s genuine chart, not an unconstrained dimension count. :contentReference[oaicite:4]{index=4}
+The strict finite-dimensional alternative now gives a true realization tangent with every contact derivative positive. It is integrable. In the vertex/pole incidence equations q_f.x_v=1, the planar bipartite incidence graph is3-degenerate. Reverse a degree-at-most-three peeling, solve the selected nonzero linear minors, and use the remaining coordinates as local parameters. Neighbor vectors are independent because they are at most three vertices of a true primal or polar facet in a plane excluding0. This gives a local rational realization chart, retaining every maximal-facet coplanarity. This is the parent’s genuine chart, not an unconstrained dimension count.
 
 A straight parameter path integrates the positive tangent. Integrate its complete actual boundary moments and recenter by J/V. Alternatively the rank-three free block gives an analytic implicit-function correction that keeps the actual centroid fixed. In either formulation all shared-triangle terms and polygon reactions are retained. Strict support, polygon and physical packet guards are open, so a sufficiently small path preserves exactly the old strict features and removes all four A points.
 
@@ -446,7 +446,7 @@ Expected complete main stdout:
 
 The analytic universal proofs are not inferred from these computations. The exact interval claims use the Bernstein convex-combination identity on the whole stated intervals, not finite sampling. No proof-assistant formalization or literature-priority claim is made.
 
-Convenience copies: [complete plain source](sandbox:/mnt/data/free_base/two_cover_free_base.py), [complete exact report](sandbox:/mnt/data/free_base/two_cover_free_base.json), [recovery capsule](sandbox:/mnt/data/free_base/recover_two_cover.py), [executed receipt](sandbox:/mnt/data/free_base/build.txt). The literal capsule is sufficient without these links.
+Convenience copies: complete plain source (`two_cover_free_base.py`), complete exact report (`two_cover_free_base.json`), recovery capsule (`recover_two_cover.py`), executed receipt (`build.txt`). The literal capsule is sufficient without these links.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]
@@ -456,7 +456,7 @@ Convenience copies: [complete plain source](sandbox:/mnt/data/free_base/two_cove
 
 ## 8. Exact remaining complement and useful continuation
 
-The parent’s parallel-ridge, COM-height-wall, basal and at-most-one-nonbasal closures remain unchanged. Its formerly exceptional opposite-apex pair of internal free vertices is now removed by the actual-mass theorem, not merely by a generic-rank assertion. :contentReference[oaicite:5]{index=5}
+The parent’s parallel-ridge, COM-height-wall, basal and at-most-one-nonbasal closures remain unchanged. Its formerly exceptional opposite-apex pair of internal free vertices is now removed by the actual-mass theorem, not merely by a generic-rank assertion.
 
 Within the genuinely unequal-height pure-four-A two-apex problem, a still-uncovered body must have **two or three nonbasal A points**, the unique adverse packet, and no adjacent two-vertex cover of all four weak edges. A surviving full nonnegative intrinsic stress must have **at most one free internal basal vertex**. If there is one, every other free basal vertex must lie on the opposite apex side and hence be a ridge-quadrilateral endpoint. The parent’s prescribed nonzero normal resultant and actual rho convex-hull condition still apply. With exactly two nonbasal contacts their rho values must coincide. These are necessary restrictions, not a physical feasibility certificate.
 

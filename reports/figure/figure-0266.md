@@ -8,18 +8,18 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 ## Determination
 
-**USED — exact endpoint-changing anti-carrier NONWINNER.** The immutable parent `J54_FA5_sharedface8` is exact `(2,2,2)` with carrier `(12003,12004)`, packet `S12003 / U(2475,12000,12001) / H(2475,12000),H(2475,12001)`, and sinks `{2475,12003}`. :contentReference[oaicite:0]{index=0} Its 19-arc obstruction assumes exact endpoints `12003,2475` are retained. :contentReference[oaicite:1]{index=1}
+**USED — exact endpoint-changing anti-carrier NONWINNER.** The immutable parent `J54_FA5_sharedface8` is exact `(2,2,2)` with carrier `(12003,12004)`, packet `S12003 / U(2475,12000,12001) / H(2475,12000),H(2475,12001)`, and sinks `{2475,12003}`. Its 19-arc obstruction assumes exact endpoints `12003,2475` are retained.
 
 The exact successor `J55_D17R_anti_carrier18` makes all five J54 nonprotected active rows `12000…12004` strictly inactive, including both carrier endpoints. It retains protected stable `2475` and protected unstable `(2475,5000,5003)`, has `2475` as the **sole** full row-star sink, and has no nonprotected row-disjoint all-positive carrier. Its strict own-centred class is nevertheless `(S,U,H)=(1,2,1)`: one connected nonsimplicial `U-H` pair survives. No Gömböc or completion ticket is claimed.
 
 ## Artifacts
 
-- [Exact replay archive](sandbox:/mnt/data/bright_harbor30_j55/Bright_Harbor_30_J55_D17R_anti_carrier18_exact_NONWINNER.zip), 3,811,504 bytes, SHA-256 `d6f285ed83cd8b330af59796dfb30819d95db1a2d90b16c83deacb032bc9366b`.
-- [Receipt](sandbox:/mnt/data/bright_harbor30_j55/Bright_Harbor_30_J55_VERIFICATION_RECEIPT.json), SHA-256 `dca62878f04d57c8e0e0659ae904d2824d8c8871932ea617bb3411dd59b301ab`; [clean transcript](sandbox:/mnt/data/bright_harbor30_j55/Bright_Harbor_30_J55_CLEAN_VERIFICATION_TRANSCRIPT.txt), SHA-256 `8799df06df23936a729592a25f1054ef8dafd75729961c2c202e5a7dd390dba1`.
-- [Exact source](sandbox:/mnt/data/bright_harbor30_j55/J55_D17R_anti_carrier18_exact_source.json), SHA-256 `ba6f45ae283e444a4ee92ff14e4987041ca4e442a181892675f6b8af00759fa3`; [full row-star graph](sandbox:/mnt/data/bright_harbor30_j55/J55_D17R_complete_directed_row_star_graph.json).
-- [Connected transition ball](sandbox:/mnt/data/bright_harbor30_j55/J54_to_J55_D17R_connected_positive_volume_ball.json); [exact ingress witness](sandbox:/mnt/data/bright_harbor30_j55/J54_to_J55_D17R_exact_ingress_witness.json).
-- [OBJ](sandbox:/mnt/data/bright_harbor30_j55/J55_D17R_anti_carrier18.obj), SHA-256 `7b6dcebaf4131097ea9b1713928242783a7c067adb5847c782a5646a2e22df0c`; [STL](sandbox:/mnt/data/bright_harbor30_j55/J55_D17R_anti_carrier18.stl), SHA-256 `b2fe168e2095591be36bba1d4f085b2ce658d99f7f9123a9af9b386be5675ce3`.
-- [Standalone report](sandbox:/mnt/data/bright_harbor30_j55/Bright_Harbor_30_J55_RESULT.md); [hash ledger](sandbox:/mnt/data/bright_harbor30_j55/Bright_Harbor_30_J55_SHA256SUMS.txt).
+- Exact replay archive (`Bright_Harbor_30_J55_D17R_anti_carrier18_exact_NONWINNER.zip`), 3,811,504 bytes, SHA-256 `d6f285ed83cd8b330af59796dfb30819d95db1a2d90b16c83deacb032bc9366b`.
+- Receipt (`Bright_Harbor_30_J55_VERIFICATION_RECEIPT.json`), SHA-256 `dca62878f04d57c8e0e0659ae904d2824d8c8871932ea617bb3411dd59b301ab`; clean transcript (`Bright_Harbor_30_J55_CLEAN_VERIFICATION_TRANSCRIPT.txt`), SHA-256 `8799df06df23936a729592a25f1054ef8dafd75729961c2c202e5a7dd390dba1`.
+- Exact source (`J55_D17R_anti_carrier18_exact_source.json`), SHA-256 `ba6f45ae283e444a4ee92ff14e4987041ca4e442a181892675f6b8af00759fa3`; full row-star graph (`J55_D17R_complete_directed_row_star_graph.json`).
+- Connected transition ball (`J54_to_J55_D17R_connected_positive_volume_ball.json`); exact ingress witness (`J54_to_J55_D17R_exact_ingress_witness.json`).
+- OBJ (`J55_D17R_anti_carrier18.obj`), SHA-256 `7b6dcebaf4131097ea9b1713928242783a7c067adb5847c782a5646a2e22df0c`; STL (`J55_D17R_anti_carrier18.stl`), SHA-256 `b2fe168e2095591be36bba1d4f085b2ce658d99f7f9123a9af9b386be5675ce3`.
+- Standalone report (`Bright_Harbor_30_J55_RESULT.md`); hash ledger (`Bright_Harbor_30_J55_SHA256SUMS.txt`).
 
 ## Exact deterministic source
 

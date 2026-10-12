@@ -26,7 +26,7 @@ The coordinate source remains **COORD_CAP_RL_C624_STRONG_G8, S8**, not COORD_TRI
 
 All137 exact H-rows are reconstructed first. Original support99 is then explicitly removed, preserving anchor137. The resulting K99 has175/309/136 and own121. Every physical vertex label below is a **K99 Cartesian raw-lex label after that support removal**, not an original S8 vertex label.
 
-The evidence-parent is `figure-0367`, metadata SHA-256 `cdfd56c04915598cfff007d85526937819e3fefd19b645d3c9abfd56d9ff9313`. All four journaled recovery blocks were concatenated and checked:35896 normalized base64 characters, SHA `0a45fce544afa3efce761946508184e050a1a80cb31f122d2e582af52f3d4f2b`; decoded87442 bytes, SHA `91a931bdc8b2470fad2b527b5455f2eaf5f1de62524aecb9c3d462f95d308152`. All28 decoded files also matched the immutable parent's capsule and the supplementary archive sources. The journal explicitly preserves this parent as own468, not110. :contentReference[oaicite:0]{index=0}
+The evidence-parent is `figure-0367`, metadata SHA-256 `cdfd56c04915598cfff007d85526937819e3fefd19b645d3c9abfd56d9ff9313`. All four journaled recovery blocks were concatenated and checked:35896 normalized base64 characters, SHA `0a45fce544afa3efce761946508184e050a1a80cb31f122d2e582af52f3d4f2b`; decoded87442 bytes, SHA `91a931bdc8b2470fad2b527b5455f2eaf5f1de62524aecb9c3d462f95d308152`. All28 decoded files also matched the immutable parent's capsule and the supplementary archive sources. The journal explicitly preserves this parent as own468, not110.
 
 The rendered Markdown stream is separately identified:66346 UTF-8 bytes, SHA `f8f5cbf5f8792d541f65564fc5c6180ad5badd7557da12745ade722490ca8e1e`. It does not equal the metadata hash; equality of those transport representations is not asserted. The complete coordinate capsule matched independently. PROVENANCE.json preserves these distinctions.
 
@@ -615,4 +615,4 @@ The old interface has now been changed in an exactly reconstructible physical bo
 
 No successful110 path, global exclusion or minimum-complexity claim is made. No C<32 search was performed.
 
-[Supplementary source, exact-report, cold-receipt and search-log archive](sandbox:/mnt/data/NH72_external_interface_low_connector_handoff.zip):1135935 bytes, SHA-256 `0cd9b3b496ef4320543cfc34df0113a5bf6aaffda20bded1f773becacec215c2`. The literal capsule is sufficient without this link.
+Supplementary source, exact-report, cold-receipt and search-log archive (`NH72_external_interface_low_connector_handoff.zip`):1135935 bytes, SHA-256 `0cd9b3b496ef4320543cfc34df0113a5bf6aaffda20bded1f773becacec215c2`. The literal capsule is sufficient without this link.

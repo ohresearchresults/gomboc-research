@@ -8,9 +8,9 @@ AI research report · 2026-08-26 UTC · [Export notes](../../catalog/coverage.md
 
 ## Unambiguous verdict
 
-**No finite homogeneous polyhedral Gömböc was obtained in this turn.** The saved finite object is decisively not a winner, and the strongest topology-changing continuation exactifies to a robust own-centroid `(S,U,H)=(2,2,2)` fallback, not `(1,1,0)`. The run acceptance gate requires a materialized uniform-density polyhedron evaluated at its own exact volume centroid, with exactly one stable maximal face, one unstable vertex, zero saddle edges, complete H/V topology and all-feature verification; a smooth body, near-wall state, or wrapper is insufficient. :contentReference[oaicite:0]{index=0}
+**No finite homogeneous polyhedral Gömböc was obtained in this turn.** The saved finite object is decisively not a winner, and the strongest topology-changing continuation exactifies to a robust own-centroid `(S,U,H)=(2,2,2)` fallback, not `(1,1,0)`. The run acceptance gate requires a materialized uniform-density polyhedron evaluated at its own exact volume centroid, with exactly one stable maximal face, one unstable vertex, zero saddle edges, complete H/V topology and all-feature verification; a smooth body, near-wall state, or wrapper is insufficient.
 
-The current journal correctly recorded that the preceding Rapid Raven response exposed only worker-local links and therefore supplied no mathematical verdict. :contentReference[oaicite:1]{index=1} Reading and independently rerunning those files gives the literal saved status:
+The current journal correctly recorded that the preceding Rapid Raven response exposed only worker-local links and therefore supplied no mathematical verdict. Reading and independently rerunning those files gives the literal saved status:
 
 ```text
 winner = false
@@ -33,7 +33,7 @@ P(theta) = eta(theta) - (1/3) sin(3 eta(theta))
 eta(theta) = (3 pi/2)(cos(theta)-cos(theta)^3/3).
 ```
 
-It is exactly centered: after longitude integration, the transverse first moment is proportional to `integral exp(i[eta-(1/3)sin(3eta)]) d eta`; its Jacobi–Anger frequencies are `1+3m`, so no zero mode exists. The `z` moment vanishes by longitude. The radial critical equations force exactly `(theta,psi)=(pi/2,pi)` and `(pi/2,0)`; these are respectively a strict radial minimum and maximum, and `P'(pi/2)=0` gives critical Hessians `+I` and `-I`. This is the high-conditioning direction recorded in the journal, not another Sloan-boundary mesh. :contentReference[oaicite:2]{index=2}
+It is exactly centered: after longitude integration, the transverse first moment is proportional to `integral exp(i[eta-(1/3)sin(3eta)]) d eta`; its Jacobi–Anger frequencies are `1+3m`, so no zero mode exists. The `z` moment vanishes by longitude. The radial critical equations force exactly `(theta,psi)=(pi/2,pi)` and `(pi/2,0)`; these are respectively a strict radial minimum and maximum, and `P'(pi/2)=0` gives critical Hessians `+I` and `-I`. This is the high-conditioning direction recorded in the journal, not another Sloan-boundary mesh.
 
 The stored directed interval certificate covers 10,368 parameter boxes and proves strict convexity with lower bounds
 
@@ -333,23 +333,23 @@ The next nonredundant operation is a single connected two-region bistellar surge
 
 ## Reproducible artifacts
 
-- [Complete branch bundle](sandbox:/mnt/data/fourier_k3_resolved_branch_bundle.zip) — SHA-256 `7d5cacd0bee16c93c7aa50292a0e07e4f66ec0c39a3b1dba9ea01ec1f89e20ce`
-- [Bundle SHA-256](sandbox:/mnt/data/fourier_k3_resolved_branch_bundle.zip.sha256)
-- [Literal validation status](sandbox:/mnt/data/fourier_k3_resolved_bundle/FINAL_VALIDATION_STATUS.json)
-- [SHA-256 manifest](sandbox:/mnt/data/fourier_k3_resolved_bundle/MANIFEST.sha256)
-- [Exact resolved V generator](sandbox:/mnt/data/fourier_k3_resolved_bundle/tower_fourier_resolved_V_rational.json)
-- [Exact resolved H generator](sandbox:/mnt/data/fourier_k3_resolved_bundle/tower_fourier_resolved_H_rational.json)
-- [Exhaustive exact audit](sandbox:/mnt/data/fourier_k3_resolved_bundle/tower_fourier_resolved_audit.json)
-- [Topology](sandbox:/mnt/data/fourier_k3_resolved_bundle/topology.txt)
-- [Exact verifier](sandbox:/mnt/data/fourier_k3_resolved_bundle/verify_resolved_exact.py)
-- [Directed interval verifier](sandbox:/mnt/data/fourier_k3_resolved_bundle/verify_resolved_interval.py)
-- [Saved-object independent verifier](sandbox:/mnt/data/fourier_k3_resolved_bundle/verify_saved_endpoint_independent.py)
-- [Smooth-source independent verifier](sandbox:/mnt/data/fourier_k3_resolved_bundle/verify_smooth_seed_reconstruction.py)
-- [H/V/OBJ/STL correspondence verifier](sandbox:/mnt/data/fourier_k3_resolved_bundle/verify_hv_mesh_correspondence.py)
-- [Perturbation certificate](sandbox:/mnt/data/fourier_k3_resolved_bundle/perturbation_certificate.json)
-- [Homotopy transition graph](sandbox:/mnt/data/fourier_k3_resolved_bundle/homotopy_scan.json)
-- [OBJ](sandbox:/mnt/data/fourier_k3_resolved_bundle/tower_fourier_resolved.obj)
-- [STL](sandbox:/mnt/data/fourier_k3_resolved_bundle/tower_fourier_resolved.stl)
-- [Complete verifier runner](sandbox:/mnt/data/fourier_k3_resolved_bundle/[internal-source-reference].sh)
+- Complete branch bundle (`fourier_k3_resolved_branch_bundle.zip`) — SHA-256 `7d5cacd0bee16c93c7aa50292a0e07e4f66ec0c39a3b1dba9ea01ec1f89e20ce`
+- Bundle SHA-256 (`fourier_k3_resolved_branch_bundle.zip.sha256`)
+- Literal validation status (`FINAL_VALIDATION_STATUS.json`)
+- SHA-256 manifest (`MANIFEST.sha256`)
+- Exact resolved V generator (`tower_fourier_resolved_V_rational.json`)
+- Exact resolved H generator (`tower_fourier_resolved_H_rational.json`)
+- Exhaustive exact audit (`tower_fourier_resolved_audit.json`)
+- Topology (`topology.txt`)
+- Exact verifier (`verify_resolved_exact.py`)
+- Directed interval verifier (`verify_resolved_interval.py`)
+- Saved-object independent verifier (`verify_saved_endpoint_independent.py`)
+- Smooth-source independent verifier (`verify_smooth_seed_reconstruction.py`)
+- H/V/OBJ/STL correspondence verifier (`verify_hv_mesh_correspondence.py`)
+- Perturbation certificate (`perturbation_certificate.json`)
+- Homotopy transition graph (`homotopy_scan.json`)
+- OBJ (`tower_fourier_resolved.obj`)
+- STL (`tower_fourier_resolved.stl`)
+- Complete verifier runner (`[internal-source-reference].sh`)
 
 After extraction, run `./[internal-source-reference].sh`; the expected terminal line is `PASS_ALL_CHECKS`.

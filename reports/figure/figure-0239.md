@@ -10,16 +10,16 @@ AI research report · 2026-09-03 UTC
 
 **EXACT NONWINNER.** I replaced the tetrahedral second corrector first by an exact five-vertex triangular bipyramid `E5`, then—because its unique Radon wall still relayed the Euler-neutral packet—by an exact six-vertex 4-regular skew triangular antiprism `E6` with two coupled Radon flips. The strongest promoted homogeneous body is exactly ordinary-own-centred but remains strict `(S,U,H)=(2,2,2)`, not `(1,1,0)`.
 
-- [Complete 22 MB replay bundle](sandbox:/mnt/data/Calm_Raven_06_radonE6_exact_NONWINNER.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Calm_Raven_06_radonE6_exact_NONWINNER.zip.sha256)
-- [Full report](sandbox:/mnt/data/Calm_Raven_06_radonE6_exact_NONWINNER/RESULT.md)
-- [Master exact certificate](sandbox:/mnt/data/Calm_Raven_06_radonE6_exact_NONWINNER/radonE6_master_certificate.json)
-- [Independent clean-room receipt](sandbox:/mnt/data/Calm_Raven_06_radonE6_exact_NONWINNER/independent_radonE6_verification.json)
-- [Final OBJ](sandbox:/mnt/data/Calm_Raven_06_radonE6_exact_NONWINNER/endpointE6/endpoint_centered.obj) and [STL](sandbox:/mnt/data/Calm_Raven_06_radonE6_exact_NONWINNER/endpointE6/endpoint_centered.stl)
+- Complete 22 MB replay bundle (`Calm_Raven_06_radonE6_exact_NONWINNER.zip`)
+- Archive SHA-256 receipt (`Calm_Raven_06_radonE6_exact_NONWINNER.zip.sha256`)
+- Full report (`RESULT.md`)
+- Master exact certificate (`radonE6_master_certificate.json`)
+- Independent clean-room receipt (`independent_radonE6_verification.json`)
+- Final OBJ (`endpoint_centered.obj`) and STL (`endpoint_centered.stl`)
 
 Archive SHA-256: `c32c054eee8bad8300d02613352394bf46eeaf392afed731812d3777348a8a07`. A pristine extraction checked all 137 manifest entries and ended with `INDEPENDENT_EXACT_RADON_E6_PASS`, `INDEPENDENT_RELEASE_SUMMARY_PASS`, and `ALL_EXACT_RADON_E6_VERIFIERS_PASS`.
 
-The governing acceptance gate requires a finite uniform-density body at its own exact ordinary-volume centroid, strict `(1,1,0)`, complete actual H/V/E incidence, exhaustive positive-margin face/vertex/full-edge-cone verification, independent replay, and matching OBJ/STL. :contentReference[oaicite:0]{index=0} The journal specifically identified E5 and then E6 as the first nonrepeating correctors beyond tetrahedral `E4`. :contentReference[oaicite:1]{index=1}
+The governing acceptance gate requires a finite uniform-density body at its own exact ordinary-volume centroid, strict `(1,1,0)`, complete actual H/V/E incidence, exhaustive positive-margin face/vertex/full-edge-cone verification, independent replay, and matching OBJ/STL. The journal specifically identified E5 and then E6 as the first nonrepeating correctors beyond tetrahedral `E4`.
 
 ## Exact finite family
 

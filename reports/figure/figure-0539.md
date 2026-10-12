@@ -22,9 +22,9 @@ The residual P barriers remain macroscopic. These are constructive non-target en
 
 I read the complete supplied journal through EOF, including its literal parent, then decoded and read all four supplied executable/data units consecutively. The journal is244368 bytes,929 split lines, SHA256 `35aa9f75e963850b1c0422015f42980a4e10570cfc286c9784ef8078f1978e83`. Required parent: `figure-0536`, advertised immutable SHA256 `1666cf56e68ee9299cf9e50ec86bd9d8b9cfd799dca7e839e50ef396bf9cb316`.
 
-The rendered parent span is a different outer serialization:29950 bytes, SHA256 `017454d3178480260fa7927701312b6a577bcaefdb5c8162f19fadc57abd9b0a`. The inner decoder matched exactly:15784 bytes, SHA256 `c497cf052a69968bb1991c57a252aa8b88040be49ca616a7dfdb61d1a9ac0c65`; its four-unit dictionary matched30386 bytes and SHA256 `a129c2e5370305465105a4adb5b56ad152f6d5f517504853800ffc05a85e231b`. I freshly reran both raw audits and active-H pruning; all six parent input/audit/summary receipts matched. The entrance is the actual supplied COMPACT own121 body, not an alleged COMET66 normal form. :contentReference[oaicite:0]{index=0}
+The rendered parent span is a different outer serialization:29950 bytes, SHA256 `017454d3178480260fa7927701312b6a577bcaefdb5c8162f19fadc57abd9b0a`. The inner decoder matched exactly:15784 bytes, SHA256 `c497cf052a69968bb1991c57a252aa8b88040be49ca616a7dfdb61d1a9ac0c65`; its four-unit dictionary matched30386 bytes and SHA256 `a129c2e5370305465105a4adb5b56ad152f6d5f517504853800ffc05a85e231b`. I freshly reran both raw audits and active-H pruning; all six parent input/audit/summary receipts matched. The entrance is the actual supplied COMPACT own121 body, not an alleged COMET66 normal form.
 
-Two branch-memory descriptions need correction. Raw FAST's literal positive component has **66 vertices/cut20**, not P49. Its V130/E195 gives zero vertex-degree excess, so raw FAST itself is simple; the historical nonsimple uniform seed is another object. Raw FAST's stable facet is0, not normalized MASS_FAST's facet3. No unavailable historical geometry was imported. There is no missing external dependency for the new bodies or verifier below. :contentReference[oaicite:1]{index=1}
+Two branch-memory descriptions need correction. Raw FAST's literal positive component has **66 vertices/cut20**, not P49. Its V130/E195 gives zero vertex-degree excess, so raw FAST itself is simple; the historical nonsimple uniform seed is another object. Raw FAST's stable facet is0, not normalized MASS_FAST's facet3. No unavailable historical geometry was imported. There is no missing external dependency for the new bodies or verifier below.
 
 ## Exact endpoint inventory
 
@@ -62,7 +62,7 @@ No old centroid, density ballast, surface mean, or mass-normalized parent was su
 
 Start with verified48 active integer normals `n_i`, `n_i.x<=10^6`. Append30 edge-chamfer planes with normalized normals `(10001/10000)*(n_i+n_j)/(2*10^6)`. Equivalently, use denominator `20000000000`, old rows `20000*n_i`, and new rows `10001*(n_i+n_j)`.
 
-`MAKE_COLLAR_SEED.py` contains the complete owner-pair list and proves that the first20 pairs are the **entire parent's positive-P cut**. The list also contains all three edges of the junior star `[17,24,25]`. Ten additional internal edges extend beyond the five-row starting chart. The parent's actual cut and starting carrier identities are literal-source data. :contentReference[oaicite:2]{index=2}
+`MAKE_COLLAR_SEED.py` contains the complete owner-pair list and proves that the first20 pairs are the **entire parent's positive-P cut**. The list also contains all three edges of the junior star `[17,24,25]`. Ten additional internal edges extend beyond the five-row starting chart. The parent's actual cut and starting carrier identities are literal-source data.
 
 All78 normals then move freely. Each accepted numerical trial rebuilds the physical H hull, filled volume/first moment, own-centred P/Q, roots, and outgoing witnesses. The allowed P roots are the current global maximum and largest finite P peak; the sole Q root is also current, not ancestral. The objective is log birth/death of the current largest P bar. A row-normalized SLSQP predictor is followed by live nonlinear feasibility corrections and actual-hull/E<=249 acceptance.
 
@@ -128,7 +128,7 @@ This endpoint has left the initial four-independent-pyramid cell. That seed's ra
 
 ## Verification and limitations
 
-All eight bodies received full exact audits and cold reconstruction with byte-matching audit outputs. The engine exhausts plane triples with integer Cramer predicates, checks every halfspace, derives maximal polygonal facets and true edges, proves boundedness by positive normal dependence, and integrates uniform volume/moment. Mass is checked at another origin and independently by coordinate-divergence formulas. Every vertex outgoing test, polygon-foot side test, and all four closed mixed-edge conditions are retained. The stratum-based criteria are consistent with the primary-source formulation in the contemporary explicit-construction literature; no external geometry was imported. :contentReference[oaicite:3]{index=3}
+All eight bodies received full exact audits and cold reconstruction with byte-matching audit outputs. The engine exhausts plane triples with integer Cramer predicates, checks every halfspace, derives maximal polygonal facets and true edges, proves boundedness by positive normal dependence, and integrates uniform volume/moment. Mass is checked at another origin and independently by coordinate-divergence formulas. Every vertex outgoing test, polygon-foot side test, and all four closed mixed-edge conditions are retained. The stratum-based criteria are consistent with the primary-source formulation in the contemporary explicit-construction literature; no external geometry was imported.
 
 Mixed-face proposals are untrusted: every proposed plane must support every input point, and exhaustive rational H4 reconstruction must have every vertex among those points. These inclusions prove equality with the intended convex hull. Visible-pyramid integration supplies a separate mass check.
 
@@ -164,7 +164,7 @@ Exact replay: CPython3.13.5 standard library. Producing replay: NumPy2.3.5, SciP
 
 Additional observed markers: `RA40_COMPLETE_20_CUT_AND_THREE_JUNIOR_STAR_EDGES_EXACT_PASS 78`; `SEVEN_DEGREE4_EDGE_COLLAR_CONTACTS_EXACT_PASS`; `SEVEN_CONTACT_213_PARAMETER_LINEAR_CHART_EXACT_PASS`; `FOUR_INDEPENDENT_PHYSICAL_PYRAMIDS_EXACT_MOMENT_RANK4_PASS`; `RA40_SIX_LITERAL_BINARY64_FORK_INPUTS_PASS`. `BODIES.json` contains every full audit byte count/SHA256. Full rational mass, vertices, maximal faces, closed-weak tests, all42 bars, cuts, and paths regenerate without abbreviated critical arrays or downloaded audits.
 
-Convenience copies: [identical inline decoder](sandbox:/mnt/data/RECOVER_RA40_INLINE.py), [complete sources, traces, certificates, and logs](sandbox:/mnt/data/RA40_COMPLETE_SOURCE_AND_EVIDENCE.zip), and [complete handoff JSON](sandbox:/mnt/data/RA40_RESULT.json). They supplement the inline capsule below.
+Convenience copies: identical inline decoder (`RECOVER_RA40_INLINE.py`), complete sources, traces, certificates, and logs (`RA40_COMPLETE_SOURCE_AND_EVIDENCE.zip`), and complete handoff JSON (`RA40_RESULT.json`). They supplement the inline capsule below.
 
 ```python
 import base64,hashlib,json,lzma

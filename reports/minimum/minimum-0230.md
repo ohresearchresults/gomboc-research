@@ -22,15 +22,15 @@ The full S1U1 regularization question is not settled here. The following advance
 
 **E. There are at most two completely plane-movable facets on any genuine10/17/9 polyhedron.** This explains why independently assigning a free whole facet to every weak contact cannot solve the general first-layer problem. It does not reduce the eleven genuine affine shape parameters to two.
 
-No canonical count, global exclusion, attaining construction, or complexity bound changes. The accepted internal interval remains34≤C_min≤622. The new radial-index input makes strictH0 automatic for an actual weak-inclusive S1U1 body; additional weak points remain the genuine issue. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+No canonical count, global exclusion, attaining construction, or complexity bound changes. The accepted internal interval remains34≤C_min≤622. The new radial-index input makes strictH0 automatic for an actual weak-inclusive S1U1 body; additional weak points remain the genuine issue.
 
 ## 2. Authority and physical conventions
 
 The exact parent is `minimum-0227`, SHA-256 `57bf2cc803fdd3e5ace5587e000d4b1b6372f42306aaff28e467e2b94f1ca8db`. Its literal payload, including the complete source, is present in the new journal and was read through EOF. The new inputs are `[internal-source-reference]` and `[internal-source-reference]`. No conflicting parent incidence or object identity was found.
 
-I use the supplied zero-weak-index theorem and reduced-selector equivalence as mathematical inputs, not as new results or as theorems inferred from the controls below. In particular, the additional no-strict-saddle premise in my parent's final open question is now unnecessary. While all original nonzero primitive signs are protected, eliminating weakvertex and weakfacet groups eliminates every physical weak point and preserves the exact strict S,U,H labels. :contentReference[oaicite:2]{index=2}
+I use the supplied zero-weak-index theorem and reduced-selector equivalence as mathematical inputs, not as new results or as theorems inferred from the controls below. In particular, the additional no-strict-saddle premise in my parent's final open question is now unnecessary. While all original nonzero primitive signs are protected, eliminating weakvertex and weakfacet groups eliminates every physical weak point and preserves the exact strict S,U,H labels.
 
-The genuine realization equations are smooth. Their eleven affine shape parameters and five trace-one metric parameters give a sixteen-dimensional local manifold in the first layer. The maximum-simplex inequalities are chart restrictions, not physical restrictions on its tangent space. None of this eliminates positive mechanical dependencies. :contentReference[oaicite:3]{index=3}
+The genuine realization equations are smooth. Their eleven affine shape parameters and five trace-one metric parameters give a sixteen-dimensional local manifold in the first layer. The maximum-simplex inequalities are chart restrictions, not physical restrictions on its tangent space. None of this eliminates positive mechanical dependencies.
 
 Use actual centered vertices X_i, same-origin facet poles q_f, and ONE SPD pair M,N=M⁻¹. Write
 
@@ -82,7 +82,7 @@ To prove necessity, use(3.1). Suppose some P_i and some u_j are positive, but no
 
 This is an exact scalar coupling of an actual flag, not an assertion about four freely assigned tensor rows. It holds for nonsimple vertices and nontriangular F. The closing relation does not add an artificial mechanical edge.
 
-For q distinctVF points, the complete local reduced packet therefore has at most2^q selectors, each retaining the two necessary extreme groups at eachVF. In first-layer S1U1, q≤8, so256 selectors suffice. The source's4^q bound remains valid but is not sharp once the common-metric flag relation is retained. :contentReference[oaicite:4]{index=4}
+For q distinctVF points, the complete local reduced packet therefore has at most2^q selectors, each retaining the two necessary extreme groups at eachVF. In first-layer S1U1, q≤8, so256 selectors suffice. The source's4^q bound remains valid but is not sharp once the common-metric flag relation is retained.
 
 ## 4. One row per physical point at first order
 
@@ -197,7 +197,7 @@ At M0=I, writing M=I+εH+ε²K/2+…, one must use
 
 N′=−H, N″=2H²−K.                                           (5.4)
 
-In arbitrary coordinates these are −N0HN0 and2N0HN0HN0−N0KN0. Likewise q_f=p_f/(1−p_f·g) is differentiated with this same g. These are exactly the actual-COM and inverse terms retained in the parent; the new reduction removes redundant scalar tests, not these terms. :contentReference[oaicite:5]{index=5}
+In arbitrary coordinates these are −N0HN0 and2N0HN0HN0−N0KN0. Likewise q_f=p_f/(1−p_f·g) is differentiated with this same g. These are exactly the actual-COM and inverse terms retained in the parent; the new reduction removes redundant scalar tests, not these terms.
 
 ## 6. A genuine private-facet rescue class
 
@@ -234,7 +234,7 @@ d_f=Area(F_f)/(Vol(P)|p_f|), T_f=E_Ff[xxᵀ].                 (6.2)
 
 These are genuine area moments. For a true facet, T_f is positive definite: a nonzero linear form cannot vanish on its entire affine plane, since that plane does not contain0. Thus the partial COM derivative in the three parameters of R is the invertible matrix −d_R T_R.
 
-The implicit function theorem adjusts the pole of R to keep the **actual uniformly filled COM exactly0** while F is varied. This is not an arbitrary change of reference. Because R avoids every footprint, that correction has no direct effect on any selected row. Formula(6.2) is the parent's full moving-body derivative, here used as a genuine actuator. :contentReference[oaicite:6]{index=6}
+The implicit function theorem adjusts the pole of R to keep the **actual uniformly filled COM exactly0** while F is varied. This is not an arbitrary change of reference. Because R avoids every footprint, that correction has no direct effect on any selected row. Formula(6.2) is the parent's full moving-body derivative, here used as a genuine actuator.
 
 For a polar row Q_FG, move p_F with velocity−p_F. With p_G fixed and COM corrected,
 
@@ -280,7 +280,7 @@ These controls start at the supplied homogeneous tetrahedron
 
 Y0=(1,0,0), Y1=(1,1,0), Y2=(1,0,1), Y3=(−3,−1,−1).
 
-Its actual COM is0, M=N=I, strict counts334, and there is one physicalVF at vertex0/facet012, represented on two weak edges. :contentReference[oaicite:7]{index=7}
+Its actual COM is0, M=N=I, strict counts334, and there is one physicalVF at vertex0/facet012, represented on two weak edges.
 
 For rational k,A,B and ε define
 
@@ -341,7 +341,7 @@ Generated report:153528 bytes, SHA-256 `91d3da1ee8ab7cee7753e07807c168f446642498
 
 Normal build/check and a fresh source-only build/check completed with exit0, the terminal marker and identical source/report pins. The general geometric theorems are proved above, not inferred from these controls. No independent coordinator replay or proof-assistant formalization is claimed.
 
-Convenience copies: [source](sandbox:/mnt/data/vfpacket/vf_packet.py), [exact report](sandbox:/mnt/data/vfpacket/vf_packet_report.json), [observed replay receipts](sandbox:/mnt/data/vfpacket/replay_receipts.json). The literal source is sufficient without these links.
+Convenience copies: source (`vf_packet.py`), exact report (`vf_packet_report.json`), observed replay receipts (`replay_receipts.json`). The literal source is sufficient without these links.
 
 ```python
 """VF_PACKET_COMPRESSION_AND_RIGHT_JET_CORRECTION_V1.

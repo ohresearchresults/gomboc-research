@@ -31,7 +31,7 @@ figure-0371
 839d1b5d10cbab600329c6736fd8faf5ecc6aced33ba7c140efe56c1f9d8011b
 ```
 
-Their relevant literal contents and the latest synthesis were recovered. The first parent’s C624 benchmark sentence is stale; the later synthesis explicitly sets VQ20_C622_ROUTE88_118_G12 at176/311/137, own110/weak000. Its previous opposite-point unit was unrun, not an inherited completed audit. :contentReference[oaicite:0]{index=0}
+Their relevant literal contents and the latest synthesis were recovered. The first parent’s C624 benchmark sentence is stale; the later synthesis explicitly sets VQ20_C622_ROUTE88_118_G12 at176/311/137, own110/weak000. Its previous opposite-point unit was unrun, not an inherited completed audit.
 
 The coordinate lineage is **BQ13_C602_TRIANGLE9_SADDLE_CHAIN_OWN121 → COORD_C602_EXPOSED_CHAIN5_G1E12**, the actual C592 body. It is not S8/K99, FINCH or VQ20_C626. The complete BQ13 C602 generator9492bytes/SHA `1242abca3096fea1ec4b3de5bc799b0bf0771747f646b40aa148940a20ba1260` is included. Reconstructing its exact parent audit completed and reproduced440262bytes/SHA `2426da394eda9520bd30b2b8b3e1f00d043697353bb6bc73658f5983653c11ec`.
 
@@ -881,4 +881,4 @@ The old apex and excluded single-point compensator geometry are no longer the ob
 
 No own110 endpoint, global exclusion, minimum-complexity theorem or C<32 search is claimed. Both finite nonwinners, all exact definitions and the reusable whole-body section method remain reconstructible.
 
-[Supplementary full source, exact reports, cold receipts and search records](sandbox:/mnt/data/NH72_C592_root_turnover_C582_C192_handoff.zip):782065 bytes, SHA-256 `9013c02560f1029b5688741c8a6286ad4ef5da00bcec57bd71b223689ab59c5e`. The literal capsule above is sufficient without the archive.
+Supplementary full source, exact reports, cold receipts and search records (`NH72_C592_root_turnover_C582_C192_handoff.zip`):782065 bytes, SHA-256 `9013c02560f1029b5688741c8a6286ad4ef5da00bcec57bd71b223689ab59c5e`. The literal capsule above is sufficient without the archive.

@@ -392,7 +392,7 @@ Save it as parallel_root_201_v1.py. Dependencies are CPython3.13.5 and SymPy1.14
     python parallel_root_201_v1.py build parallel_root_201_v1.json
     python parallel_root_201_v1.py verify parallel_root_201_v1.json
 
-Expected terminal markers are PARALLEL_ROOT_201_SOURCE and PARALLEL_ROOT_201_EXACT_PASS. Both commands print the exact source/report byte counts and SHA-256 values. No unseen output digest or observed pass is asserted here. A convenience source copy was written at [parallel_root_201_v1.py](sandbox:/mnt/data/parallel_root_201_v1.py); the entire recovery is inline and does not require that file.
+Expected terminal markers are PARALLEL_ROOT_201_SOURCE and PARALLEL_ROOT_201_EXACT_PASS. Both commands print the exact source/report byte counts and SHA-256 values. No unseen output digest or observed pass is asserted here. A convenience source copy was written at parallel_root_201_v1.py; the entire recovery is inline and does not require that file.
 
 ```python
 # PARALLEL_ROOT_MINKOWSKI_SECTION_DOMINANCE_201_V1

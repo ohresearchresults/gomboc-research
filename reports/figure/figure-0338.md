@@ -10,7 +10,7 @@ AI research report · 2026-09-08 UTC
 
 **No homogeneous own-centred strict (1,1,0) body with true E<500 was obtained.** The strongest clean new endpoint is **VH100_R12**, a rational, uniformly filled, actually centred convex polyhedron with **(V,E,F)=(100,294,196), (S,U,H)=(2,1,1)**. Its sole remaining relative squared stable–saddle barrier is between **109091234010/10^12 and 109091234011/10^12**. The second retained endpoint, **VH168_BULK_R12**, has **(168,498,332), (12,1,11)**. Its largest barrier is between **32444790385/10^12 and 32444790386/10^12**, but eleven stable–saddle pairs remain. Neither is a Gömböc or a replacement for the inherited C1370 result.
 
-There is a consequential source conflict. The journal describes `WB24_R14` as 24/66/44 with barrier about 0.5036567, while explicitly warning that its coordinates were not printed. :contentReference[oaicite:0]{index=0} I recovered the actual Library archive `GU22_complete_working_handoff.zip`, not merely its filename. Its archive SHA-256 is `420096f08179c9cb00c060a06f2ccc15b831530b673cda206f051120f5625aa0`. Both copies of the defining `WB24_R14.json` in that archive contain **33 integer triples**. Rebuilding their hull and integrating their actual mass gives **33/93/62, strict211**, with barrier in **[569990360800,569990360801]/10^12**. The old replay wrapper's hard-coded 24-vertex assertion is wrong for this literal input. The separately recovered `WB33_corrected_exact.zip`, SHA-256 `6ca109447ded178b74c8b482644840526c7637df05282f5de97334907356171c`, agrees with this correction.
+There is a consequential source conflict. The journal describes `WB24_R14` as 24/66/44 with barrier about 0.5036567, while explicitly warning that its coordinates were not printed. I recovered the actual Library archive `GU22_complete_working_handoff.zip`, not merely its filename. Its archive SHA-256 is `420096f08179c9cb00c060a06f2ccc15b831530b673cda206f051120f5625aa0`. Both copies of the defining `WB24_R14.json` in that archive contain **33 integer triples**. Rebuilding their hull and integrating their actual mass gives **33/93/62, strict211**, with barrier in **[569990360800,569990360801]/10^12**. The old replay wrapper's hard-coded 24-vertex assertion is wrong for this literal input. The separately recovered `WB33_corrected_exact.zip`, SHA-256 `6ca109447ded178b74c8b482644840526c7637df05282f5de97334907356171c`, agrees with this correction.
 
 I therefore use **WB33_R14** for that literal geometry. Its 1,605-byte defining JSON has SHA-256 `b0081310bb4f9ea9ac7e9086c49c7b8ced22fa82add6136d37bab88b13325e1f`. I did not recover a distinct 24-point, 0.5036567-barrier body. GU22 was also reconstructed and its original complete replay passed; its erroneous illustrative face list was not used. WB33, not an invented WB24 and not a renamed GU22, is the recovered starting checkpoint for the new branch. The complete WB33 definition is included in the literal capsule below.
 
@@ -679,12 +679,12 @@ print('DISCOVERY_SOURCE_RECOVERED',root)
 
 The artifacts supplement the complete literal capsules above; none is the sole source of a defining coordinate, incidence table or verification helper.
 
-[Standalone exact recovery program](sandbox:/mnt/data/recover_vh.py)
+Standalone exact recovery program (`recover_vh.py`)
 
-[Standalone numerical-source recovery program](sandbox:/mnt/data/recover_vh_discovery.py)
+Standalone numerical-source recovery program (`recover_vh_discovery.py`)
 
-[Exact replay, original exhaustive auditors, certificates and observed receipts](sandbox:/mnt/data/VH100_VH168_exact_handoff.zip)
+Exact replay, original exhaustive auditors, certificates and observed receipts (`VH100_VH168_exact_handoff.zip`)
 
-[Working numerical sources, retained trials and logs](sandbox:/mnt/data/VH100_VH168_working_research.zip)
+Working numerical sources, retained trials and logs (`VH100_VH168_working_research.zip`)
 
 **Disposition:** retain WB33's corrected literal identity, the exact strict211 VH100 checkpoint, the separately exact 12/1/11 VH168 supporting-geometry checkpoint, and their complete physical certificates. No strict110/E<500 promotion is made. The strongest unfinished constructive target is whole-basin cancellation from these actual-centroid geometries, not recovery of an unprinted and inconsistent WB24 label.

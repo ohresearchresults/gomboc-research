@@ -39,9 +39,9 @@ The required parent minimum-0155 was authenticated by extracting its Markdown ti
 
 There is no source-authority conflict.
 
-The inherited numerical value premise is the completed whole CH theorem in minimum-0153, SHA377e6ad8854d4bde291d42a305453375447abb5c20136e2af074ded04d492714: every genuine height-one CH body with the canonical marks has T<203/100, without an aspect restriction. Its literal result and complete certificate were supplied earlier in this chat. That certificate was not re-solved here. The new replacement proves that its output actually satisfies CH; it does not transfer the conclusion to a body merely from section-area data. :contentReference[oaicite:0]{index=0}
+The inherited numerical value premise is the completed whole CH theorem in minimum-0153, SHA377e6ad8854d4bde291d42a305453375447abb5c20136e2af074ded04d492714: every genuine height-one CH body with the canonical marks has T<203/100, without an aspect restriction. Its literal result and complete certificate were supplied earlier in this chat. That certificate was not re-solved here. The new replacement proves that its output actually satisfies CH; it does not transfer the conclusion to a body merely from section-area data.
 
-The planar capacity inequality used below is compatible with the accepted projection-capacity result already recorded in shared memory. A short sufficient proof is included, so no missing capacity-source code is a dependency. :contentReference[oaicite:1]{index=1}
+The planar capacity inequality used below is compatible with the accepted projection-capacity result already recorded in shared memory. A short sufficient proof is included, so no missing capacity-source code is a dependency.
 
 All fourteen new rational bodies were actually audited. Normal and clean-directory execution from the sole new source produced byte-identical reports and receipts. The continuous argument is analytic, not proof-assistant formalized. The variable-profile comparison bodies can be curved; their reconstruction and moments are given by exact formulas, not claimed to be rational polytopes.
 
@@ -120,7 +120,7 @@ Convexity of K gives
 
     (1-theta)K_s+theta K_t subset K_((1-theta)s+theta t).
 
-The planar Brunn-Minkowski inequality therefore makes U concave. In particular U(0)=1 and U(w)>=1-w. The classical root-of-volume concavity is the only standard input at this step. :contentReference[oaicite:2]{index=2}
+The planar Brunn-Minkowski inequality therefore makes U concave. In particular U(0)=1 and U(w)>=1-w. The classical root-of-volume concavity is the only standard input at this step.
 
 For the lower region, intersect Bcal with the ray-height plane
 
@@ -208,7 +208,7 @@ The replacement has the complete upper chord in each section, because both of it
 
     T(P)<=T(P1)<=T(R)<203/100.
 
-The numerical consequence comes from this actual-body bridge, not from a new independent profile relaxation. :contentReference[oaicite:3]{index=3}
+The numerical consequence comes from this actual-body bridge, not from a new independent profile relaxation.
 
 For complete moment recovery, set A_R(w)=S U^2/2-f^2/(2pq) and
 
@@ -775,7 +775,7 @@ if __name__=='__main__':main()
 
 ## 10. Precise continuation
 
-The supplied five-halfspace section envelope remains only a necessary containing-tetrahedron region; it was not used as a realizable section or a body substitute. :contentReference[oaicite:4]{index=4} The successful mechanism here instead couples a real upper body's area concavity to a real upward lower boundary's covolume convexity, applies planar capacity before subtracting the SAME missing region, and proves canonical retention for the resulting simultaneous three-dimensional replacement.
+The supplied five-halfspace section envelope remains only a necessary containing-tetrahedron region; it was not used as a realizable section or a body substitute. The successful mechanism here instead couples a real upper body's area concavity to a real upward lower boundary's covolume convexity, applies planar capacity before subtracting the SAME missing region, and proves canonical retention for the resulting simultaneous three-dimensional replacement.
 
 The full new sector consists of actual K/Bcal decompositions satisfying (I),(D), deficit containment, the original marks, and the stated p<q guard. The p>=q branch and the n-balanced branch need no extra D calibration. There is no constant-aspect condition on the input and no upper bound on S. It includes the whole proper-resolution family described above, but not arbitrary proper33 cores.
 
@@ -787,4 +787,4 @@ A useful next step is to control that outside-upper-cut region jointly in V,E,N 
 
 No whole E17 exclusion, universal bounded-core51/25 theorem, equilibrium-preserving map, new110 body or improved complexity endpoint follows. The accepted mechanical interval remains34..622. The continuous reconstruction formulas and all exact nonwinning controls are durable in this handoff.
 
-Convenience copies, not dependencies: [source](sandbox:/mnt/data/core_work/area_core.py), [full exact report](sandbox:/mnt/data/core_work/area_core.json), [matched execution receipt](sandbox:/mnt/data/core_work/area_core_receipt.txt).
+Convenience copies, not dependencies: source (`area_core.py`), full exact report (`area_core.json`), matched execution receipt (`area_core_receipt.txt`).

@@ -24,7 +24,7 @@ F_{11}\text{ strict stable}\quad\Longrightarrow\quad H\ge 1.
 
 The same exact argument excludes the requested fallback **Pattern B**, with its forced saddle on edge `(1,11)`.
 
-The inherited Reshetov data identify facet 11 as the unique stable face, the two forced unstable cones, and the original saddle pair `(9,13)`. :contentReference[oaicite:0]{index=0}
+The inherited Reshetov data identify facet 11 as the unique stable face, the two forced unstable cones, and the original saddle pair `(9,13)`.
 
 ## 1. Exact reduction of Pattern A
 
@@ -303,14 +303,14 @@ with score about `-0.3212709273`. This is empirical evidence only. It is **not**
 
 ## 8. Reusable artifact package
 
-- [Complete package](sandbox:/mnt/data/patternA_patternB_exact_exclusion.zip) — SHA-256 `63a3f34a90becf06eedb3a9f3636c2524c33aca77764c73b4527b4b7d0de7f0a`.
-- [Full report](sandbox:/mnt/data/patternA_patternB_exact_exclusion/REPORT.md).
-- [Machine-readable global theorem certificate](sandbox:/mnt/data/patternA_patternB_exact_exclusion/global_forced_saddle_certificate.json).
-- [Independent exact verifier](sandbox:/mnt/data/patternA_patternB_exact_exclusion/verify_forced_saddle.py) and [recorded output](sandbox:/mnt/data/patternA_patternB_exact_exclusion/VERIFICATION_OUTPUT.txt).
-- [Pattern A exact lattice certificate](sandbox:/mnt/data/patternA_patternB_exact_exclusion/patternA_integer_witness.json) and [OBJ](sandbox:/mnt/data/patternA_patternB_exact_exclusion/patternA_integer_witness.obj).
-- [Pattern B exact lattice certificate](sandbox:/mnt/data/patternA_patternB_exact_exclusion/patternB_integer_witness.json) and [OBJ](sandbox:/mnt/data/patternA_patternB_exact_exclusion/patternB_integer_witness.obj).
-- [Topology-changing search/auditor](sandbox:/mnt/data/patternA_patternB_exact_exclusion/patternA_search.py), [ray/support optimizer](sandbox:/mnt/data/patternA_patternB_exact_exclusion/patternA_opt.py), and [20,000-sample search record](sandbox:/mnt/data/patternA_patternB_exact_exclusion/patternA_20000_random_search.json).
-- [Fresh SHA-256 manifest](sandbox:/mnt/data/patternA_patternB_exact_exclusion/manifest_sha256.json).
+- Complete package (`patternA_patternB_exact_exclusion.zip`) — SHA-256 `63a3f34a90becf06eedb3a9f3636c2524c33aca77764c73b4527b4b7d0de7f0a`.
+- Full report (`REPORT.md`).
+- Machine-readable global theorem certificate (`global_forced_saddle_certificate.json`).
+- Independent exact verifier (`verify_forced_saddle.py`) and recorded output (`VERIFICATION_OUTPUT.txt`).
+- Pattern A exact lattice certificate (`patternA_integer_witness.json`) and OBJ (`patternA_integer_witness.obj`).
+- Pattern B exact lattice certificate (`patternB_integer_witness.json`) and OBJ (`patternB_integer_witness.obj`).
+- Topology-changing search/auditor (`patternA_search.py`), ray/support optimizer (`patternA_opt.py`), and 20,000-sample search record (`patternA_20000_random_search.json`).
+- Fresh SHA-256 manifest (`manifest_sha256.json`).
 
 ## Final status
 

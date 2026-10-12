@@ -6,7 +6,7 @@ AI research report · 2026-08-26 UTC · [Export notes](../../catalog/coverage.md
 
 # Verdict
 
-No strict own-centroid homogeneous convex polyhedral Gömböc was found. The acceptance gate remains a finite uniform-density body with exact own-centroid class `(S,U,H)=(1,1,0)`; auxiliary-center mechanics, transfer walls, and near-zero-margin candidates do not count. :contentReference[oaicite:0]{index=0}
+No strict own-centroid homogeneous convex polyhedral Gömböc was found. The acceptance gate remains a finite uniform-density body with exact own-centroid class `(S,U,H)=(1,1,0)`; auxiliary-center mechanics, transfer walls, and near-zero-margin candidates do not count.
 
 The strongest fully certified endpoint remains an exact rational, full-active post-crossing tower with
 
@@ -76,7 +76,7 @@ L4: [25,27,30,31,32]
 L5 apex: [29]
 ```
 
-The independent reconstruction gives exactly 19 maximal faces and 50 true edges; Euler is `33-50+19=2`. The complete outward face cycles and true-edge/incident-row table are in [topology.txt](sandbox:/mnt/data/continued_tower_222_compact_bundle/topology.txt), while every exact V coordinate and incidence is in [tower_continued_222_V.csv](sandbox:/mnt/data/continued_tower_222_compact_bundle/tower_continued_222_V.csv).
+The independent reconstruction gives exactly 19 maximal faces and 50 true edges; Euler is `33-50+19=2`. The complete outward face cycles and true-edge/incident-row table are in topology.txt, while every exact V coordinate and incidence is in tower_continued_222_V.csv.
 
 ## Exhaustive own-centroid mechanics
 
@@ -106,7 +106,7 @@ Exact hard defect:
 -0.0009093578204261716988991882815569964376048.
 ```
 
-Every other one of the 19 faces, 33 vertices, and 50 true edges is strictly non-equilibrial. The smallest exclusion margin is `0.0002209163892973414524063362274439208484915` at local face 8/source 11. The exhaustive primitive and normalized normal-cone conditions are in [tower_continued_222_audit.json](sandbox:/mnt/data/continued_tower_222_compact_bundle/tower_continued_222_audit.json).
+Every other one of the 19 faces, 33 vertices, and 50 true edges is strictly non-equilibrial. The smallest exclusion margin is `0.0002209163892973414524063362274439208484915` at local face 8/source 11. The exhaustive primitive and normalized normal-cone conditions are in tower_continued_222_audit.json.
 
 ## Support, routes, perturbation, verifier
 
@@ -224,20 +224,20 @@ The next nonredundant family should parameterize the lower pentagon structurally
 
 # Artifacts
 
-- [Complete continuation bundle](sandbox:/mnt/data/tower_edgepath_continuation_bundle.zip) — SHA-256 `beccbbdb6d83f2ba11f778d4b6e4a55ba3baed4dbb5bfa0f739716c0b574be28`
-- [Bundle hash](sandbox:/mnt/data/tower_edgepath_continuation_bundle.zip.sha256)
-- [Machine-readable continuation summary](sandbox:/mnt/data/tower_edgepath_continuation_bundle/new_edgepath_summary.json)
-- [Exact fallback bundle](sandbox:/mnt/data/continued_tower_222_compact_exact_fallback_bundle.zip) — SHA-256 `9f35c7de0953be9b351cd27ed9435e020bf422c1397ae91345fe17b23e1ca494`
-- [Exact H](sandbox:/mnt/data/continued_tower_222_compact_bundle/tower_continued_222_H_rational.json)
-- [Exact centered H](sandbox:/mnt/data/continued_tower_222_compact_bundle/tower_continued_222_H_centered_rational.json)
-- [Exact V table](sandbox:/mnt/data/continued_tower_222_compact_bundle/tower_continued_222_V.csv)
-- [Complete audit](sandbox:/mnt/data/continued_tower_222_compact_bundle/tower_continued_222_audit.json)
-- [Exact verifier](sandbox:/mnt/data/continued_tower_222_compact_bundle/verify_continued_exact.py)
-- [Interval verifier](sandbox:/mnt/data/continued_tower_222_compact_bundle/verify_branch_support_box.py)
-- [OBJ](sandbox:/mnt/data/continued_tower_222_compact_bundle/tower_continued_222.obj)
-- [STL](sandbox:/mnt/data/continued_tower_222_compact_bundle/tower_continued_222.stl)
-- [15,000-state new-family result](sandbox:/mnt/data/tower_edgepath_continuation_bundle/new_edgepath_search/edgepath_v2_s73_15k.json)
-- [Best new fixed-cell state](sandbox:/mnt/data/tower_edgepath_continuation_bundle/new_edgepath_search/slp_edgepath_v2_best0_r2.json)
-- [Circuit analysis](sandbox:/mnt/data/tower_edgepath_continuation_bundle/new_edgepath_search/analyze_edgepath_jacobian_noq0.log)
+- Complete continuation bundle (`tower_edgepath_continuation_bundle.zip`) — SHA-256 `beccbbdb6d83f2ba11f778d4b6e4a55ba3baed4dbb5bfa0f739716c0b574be28`
+- Bundle hash (`tower_edgepath_continuation_bundle.zip.sha256`)
+- Machine-readable continuation summary (`new_edgepath_summary.json`)
+- Exact fallback bundle (`continued_tower_222_compact_exact_fallback_bundle.zip`) — SHA-256 `9f35c7de0953be9b351cd27ed9435e020bf422c1397ae91345fe17b23e1ca494`
+- Exact H (`tower_continued_222_H_rational.json`)
+- Exact centered H (`tower_continued_222_H_centered_rational.json`)
+- Exact V table (`tower_continued_222_V.csv`)
+- Complete audit (`tower_continued_222_audit.json`)
+- Exact verifier (`verify_continued_exact.py`)
+- Interval verifier (`verify_branch_support_box.py`)
+- OBJ (`tower_continued_222.obj`)
+- STL (`tower_continued_222.stl`)
+- 15,000-state new-family result (`edgepath_v2_s73_15k.json`)
+- Best new fixed-cell state (`slp_edgepath_v2_best0_r2.json`)
+- Circuit analysis (`analyze_edgepath_jacobian_noq0.log`)
 
 From the extracted combined bundle, run `cd exact_post_crossing_222 && ./[internal-source-reference].sh`; the reproduced terminal status is `PASS_ALL_CHECKS`.

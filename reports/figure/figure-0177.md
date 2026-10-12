@@ -4,7 +4,7 @@ AI research report · 2026-09-01 UTC
 
 ---
 
-The supplied durable journal identifies the exact unresolved fixed-lattice task as the 25 rank-four arrangements `[7919,17700,bA,bB]` with the stated five-by-five blocker sets. :contentReference[oaicite:0]{index=0} The run's acceptance gate requires a materialized exact finite object or exact exclusion rather than an unverified near-solution. :contentReference[oaicite:1]{index=1}
+The supplied durable journal identifies the exact unresolved fixed-lattice task as the 25 rank-four arrangements `[7919,17700,bA,bB]` with the stated five-by-five blocker sets. The run's acceptance gate requires a materialized exact finite object or exact exclusion rather than an unverified near-solution.
 
 # Calm Quartz 90 — exact adaptive rank-four determination
 
@@ -358,13 +358,13 @@ The rank-four frontier is closed. A candidate cannot be obtained by further subd
 
 ## Delivered artifacts
 
-- [Complete exact rank-four NONWINNER bundle](sandbox:/mnt/data/Calm_Quartz_90_rank4_exact_NONWINNER.zip) — SHA-256 `86f07aff05003c5583b16e1a505b9cb2aa71660b45bbbdbc0914be44230b26cb`.
-- [Full Markdown handoff](sandbox:/mnt/data/Calm_Quartz_90_rank4_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_rank4_result.json)
-- [Independent main verifier output](sandbox:/mnt/data/Calm_Quartz_90_rank4_verify_output.json)
-- [Clean-extraction verification receipt](sandbox:/mnt/data/Calm_Quartz_90_rank4_clean_verification.json)
-- [Main independent verifier](sandbox:/mnt/data/calm_quartz_rank4/verify_calm_quartz_rank4.py)
-- [Trap-tube verification output](sandbox:/mnt/data/Calm_Quartz_90_rank4_trap_tube_verify.json)
-- [Adjacency verification output](sandbox:/mnt/data/Calm_Quartz_90_rank4_adjacency_verify.json)
+- Complete exact rank-four NONWINNER bundle (`Calm_Quartz_90_rank4_exact_NONWINNER.zip`) — SHA-256 `86f07aff05003c5583b16e1a505b9cb2aa71660b45bbbdbc0914be44230b26cb`.
+- Full Markdown handoff (`Calm_Quartz_90_rank4_handoff.md`)
+- Structured result (`Calm_Quartz_90_rank4_result.json`)
+- Independent main verifier output (`Calm_Quartz_90_rank4_verify_output.json`)
+- Clean-extraction verification receipt (`Calm_Quartz_90_rank4_clean_verification.json`)
+- Main independent verifier (`verify_calm_quartz_rank4.py`)
+- Trap-tube verification output (`Calm_Quartz_90_rank4_trap_tube_verify.json`)
+- Adjacency verification output (`Calm_Quartz_90_rank4_adjacency_verify.json`)
 
 The archive contains the exact generator, topology, 51,864-wall manifest, Santaló certificate, 89-interval common-wall atlas, 1,744-interval no-SPD proof, 74 transverse trap tubes, 320 orthant boxes, 640 adjacencies, all compressed sign ledgers, representative H/V/E tables and watertight OBJ/STL mesh, three independent verifiers, their PASS receipts, and a complete SHA-256 manifest. A fresh extraction independently passed all 49 manifest entries and all three verifiers.

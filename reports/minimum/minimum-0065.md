@@ -167,7 +167,7 @@ Build reconstructs coefficient records without coefficient inputs and checks the
 
 The leaf records check716 PD10 blocks, stars603,mass83,cap148,shifted covariance10,strong covariance11. All subsidiary input/output and matrix-stream pins are asserted in the source. The final observed marker is `TREE410_SUCCESSOR14128_COMPLETE_RECOVERY_AND_OUTPUT_PINS_PASS`.
 
-Persistent saving was unavailable. Convenience copies are [recovery source](sandbox:/workspace/scratch/1aaf3e20bea0/recover_tree410_successor.py), [expanded handoff](sandbox:/workspace/scratch/1aaf3e20bea0/tree410_successor_handoff.md), and [support archive](sandbox:/workspace/scratch/1aaf3e20bea0/tree410_successor_support.zip). The complete source follows inline.
+Persistent saving was unavailable. Convenience copies are recovery source (`recover_tree410_successor.py`), expanded handoff (`tree410_successor_handoff.md`), and support archive (`tree410_successor_support.zip`). The complete source follows inline.
 
 ```python
 """Complete tree410 actual-moment successor. CPython3.12.14.

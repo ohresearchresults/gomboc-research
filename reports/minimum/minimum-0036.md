@@ -16,7 +16,7 @@ There is an important packaging boundary: I did not obtain a readable final term
 
 A second result is a structural **generic actual-mass rigidity theorem** for this literal MP9:45 complex. Its full tensor cycle-moment matrix has rank 62 at the explicit rational realization below. Consequently, on an explicitly recoverable nonempty algebraic-open shape domain, the full zeroth, first, and second **tensor** cycle equalities determine the 63 determinant masses up to common scale. This is not true of the corresponding scalar-trace system: an exact positive counterfeit-mass construction is given below to show the distinction.
 
-The accepted global bound remains 32. No whole C32 type is added by this handoff. The latest supplied accepted whole-type set is `{33,34,72,139,149,152,159,163,164,178,192,217,284,288,293,294,295}`. :contentReference[oaicite:0]{index=0}
+The accepted global bound remains 32. No whole C32 type is added by this handoff. The latest supplied accepted whole-type set is `{33,34,72,139,149,152,159,163,164,178,192,217,284,288,293,294,295}`.
 
 ## 2. Source identity and recovery findings
 

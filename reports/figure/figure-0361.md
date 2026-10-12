@@ -14,7 +14,7 @@ Both new bodies passed two independent exhaustive exact audits, a separate exact
 
 The preferred continuation object is FINCH_SEQUENTIAL. FINCH_C618_121, called JOINT below, is the alternative joint-then-single-basin construction. JOINT is useful for diagnosing witness migration, but its remaining saddle has moved away from its unstable vertex.
 
-The actual GRID7 generator, not D9 or CAP, was recovered and its stated hashes checked. The original double deletion was independently reconstructed and re-audited here as own132/weak000. All137 physical inequalities were reconstructed before removing the indicated physical rows. GRID7 has no immutable worker assignment ID; no conflicting parent payload was substituted. :contentReference[oaicite:0]{index=0}
+The actual GRID7 generator, not D9 or CAP, was recovered and its stated hashes checked. The original double deletion was independently reconstructed and re-audited here as own132/weak000. All137 physical inequalities were reconstructed before removing the indicated physical rows. GRID7 has no immutable worker assignment ID; no conflicting parent payload was substituted.
 
 ## 2. Exact objects, maximal complex and actual mass
 
@@ -90,7 +90,7 @@ With J_X and J_q the full physical-vertex and retained-support Jacobians, the st
     W = J_X^T J_X + 0.04*J_q^T J_q + 10^−5 I,
     T = inverse(transpose(cholesky(W))).
 
-The correction minimizes ||u||²/2 subject to linearized fixed-reserve and target constraints, with parameter displacement T*u. This avoids poorly scaled coordinate-box steps that spend motion on sharp chart directions. The supplied implementation uses SciPy SLSQP for numerical proposals; solver success is not treated as a mathematical certificate. :contentReference[oaicite:1]{index=1}
+The correction minimizes ||u||²/2 subject to linearized fixed-reserve and target constraints, with parameter displacement T*u. This avoids poorly scaled coordinate-box steps that spend motion on sharp chart directions. The supplied implementation uses SciPy SLSQP for numerical proposals; solver success is not treated as a mathematical certificate.
 
 After a proposed displacement, actual mass and all nonlinear guards are recomputed. Further minimum-motion corrections repair curvature error. Unaccepted trials are discarded. Trial points can leave the protected region; **no certified continuous no-birth path is claimed**. Exact endpoint audits establish the final equilibrium classes.
 
@@ -221,6 +221,6 @@ for name, text in sources.items():
 print('EXTRACTED', len(sources), 'COMPLETE SOURCE FILES')
 ```
 
-Supplemental artifacts: [full source, exact reports, cold receipts and exploratory logs](sandbox:/mnt/data/FINCH_RESEARCH.zip); [standalone detailed JSON handoff](sandbox:/mnt/data/FINCH_RESULT.json). Neither artifact is needed to reconstruct the two main exact bodies from the literal capsule above.
+Supplemental artifacts: full source, exact reports, cold receipts and exploratory logs (`FINCH_RESEARCH.zip`); standalone detailed JSON handoff (`FINCH_RESULT.json`). Neither artifact is needed to reconstruct the two main exact bodies from the literal capsule above.
 
 **Final status: two cold-replayed exact own121/weak000 bodies at C618; one extra pair cancelled; no strict110 endpoint below630 and no global exclusion.**

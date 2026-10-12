@@ -454,7 +454,7 @@ NEXT CELL                                        THREE-STAGE BRAIDED PRISMATIC/
 
 ## 14. Reproducible archive and current-run verification
 
-[Download the complete exact archive](sandbox:/mnt/data/Bright_Nova_91_two_stage_terminal_exact_NONWINNER.zip)
+Download the complete exact archive (`Bright_Nova_91_two_stage_terminal_exact_NONWINNER.zip`)
 
 ```text
 archive bytes    = 9377181

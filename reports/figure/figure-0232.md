@@ -8,7 +8,7 @@ AI research report · 2026-09-02 UTC
 
 ## Verdict
 
-**EXACT FINITE NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained. The acceptance target remains a materialized finite uniform-density body at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual H/V/E and full-cone mechanics, independent verification, and matching OBJ/STL; wall points, auxiliary centres, near-solutions, smooth objects, and unexpanded generators do not qualify. :contentReference[oaicite:0]{index=0}
+**EXACT FINITE NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained. The acceptance target remains a materialized finite uniform-density body at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual H/V/E and full-cone mechanics, independent verification, and matching OBJ/STL; wall points, auxiliary centres, near-solutions, smooth objects, and unexpanded generators do not qualify.
 
 The requested first closed four-row topology beyond P9-XG8 was realized exactly. It deletes the entire inherited XG8 packet in one positive-volume communicating event, but creates a distinct replacement packet and therefore remains own-centred `(2,2,2)`.
 
@@ -318,27 +318,27 @@ This exact result closes the displayed four-row topology and its `2^-22` chamber
 
 ## Artifacts
 
-- [Complete exact package](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER.zip)
-- [Archive SHA-256](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER.zip.sha256)
-- [Complete handoff](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/RESEARCH_HANDOFF.md)
-- [Exact rows](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/input_rows_exact.json)
-- [Complete exact ledger](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/p9_xg9_closed_cell_exact.json)
-- [Exact mass and centroid](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/exact_mass_centroid.json)
-- [Shared-event certificate](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/shared_event_exact_certificate.json)
-- [Deletion certificate](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/inherited_component_deletion_certificate.json)
-- [External-arrow table](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/external_arrow_table.json)
-- [Obstruction certificate](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/component_obstruction_certificate.json)
-- [Control-rank certificate](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/control_rank_certificate.json)
-- [Perturbation certificate](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/perturbation_box_certificate.json)
-- [Exact H table](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/H_supplied_exact.csv)
-- [Exact V table](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/V_exact.csv)
-- [Maximal faces](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/maximal_faces.csv)
-- [True-edge full cones](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/true_edges_full_cones.csv)
-- [Independent verifier](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/verify_independent.py)
-- [Independent report](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/independent_verification_report.json)
-- [Watertight OBJ](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/p9_xg9_closed_cell_centered.obj)
-- [Watertight STL](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/p9_xg9_closed_cell_centered.stl)
-- [Packaged verifier transcript](sandbox:/mnt/data/P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER/RUN_ALL_OUTPUT.txt)
-- [Clean-extraction transcript](sandbox:/mnt/data/P9_XG9_CLEAN_VERIFY.txt)
+- Complete exact package (`P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER.zip`)
+- Archive SHA-256 (`P9_XG9_FOUR_ROW_CLOSED_CELL_EXACT_NONWINNER.zip.sha256`)
+- Complete handoff (`RESEARCH_HANDOFF.md`)
+- Exact rows (`input_rows_exact.json`)
+- Complete exact ledger (`p9_xg9_closed_cell_exact.json`)
+- Exact mass and centroid (`exact_mass_centroid.json`)
+- Shared-event certificate (`shared_event_exact_certificate.json`)
+- Deletion certificate (`inherited_component_deletion_certificate.json`)
+- External-arrow table (`external_arrow_table.json`)
+- Obstruction certificate (`component_obstruction_certificate.json`)
+- Control-rank certificate (`control_rank_certificate.json`)
+- Perturbation certificate (`perturbation_box_certificate.json`)
+- Exact H table (`H_supplied_exact.csv`)
+- Exact V table (`V_exact.csv`)
+- Maximal faces (`maximal_faces.csv`)
+- True-edge full cones (`true_edges_full_cones.csv`)
+- Independent verifier (`verify_independent.py`)
+- Independent report (`independent_verification_report.json`)
+- Watertight OBJ (`p9_xg9_closed_cell_centered.obj`)
+- Watertight STL (`p9_xg9_closed_cell_centered.stl`)
+- Packaged verifier transcript (`RUN_ALL_OUTPUT.txt`)
+- Clean-extraction transcript (`P9_XG9_CLEAN_VERIFY.txt`)
 
 Archive SHA-256: `c2fe8fa9a00d10fefd0b38d4cee01f644aed10d3e87c3f4df62f6f009b5171c3`.

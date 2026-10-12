@@ -14,7 +14,7 @@ There is a second, geometrically distinct exact C600 body at a **transverse four
 
 The event does **not** cancel the remaining U/H pair. Its collision vertex has a strict positive true-edge escape and is not an equilibrium. I prove below that this particular local passage preserves own121physicalweak000. I also certify a new forest-free barrier: the completed final C600 body has at least two strict unstable vertices for **every SPD orientation and scale with condition number at most `11/10` in the stated physical coordinates**.
 
-The canonical C622 attaining checkpoint and the accepted interval `34 <= C_min <= 622` remain unchanged. The journal distinguishes that attaining checkpoint from the nonattaining omit610 direction. fileciteturn2file0L9-L19
+The canonical C622 attaining checkpoint and the accepted interval `34 <= C_min <= 622` remain unchanged. The journal distinguishes that attaining checkpoint from the nonattaining omit610 direction.
 
 ## 2. Source authority, reading and actual replay
 
@@ -26,7 +26,7 @@ The starting omit610 hull, actual uniform centroid and complete original census 
 
 The new results below were then reconstructed and verified in a fresh source-only directory. A second fresh reconstruction from the **actual recovery wrapper printed below** reproduced all 16 output pins. Both completed receipts are byte-identical: 666 bytes, SHA-256 `b67ec07f550a2395d8cd458c010ee2d20ebd8494dbd8b57289fb2eabf0bda8d5`. No computational input needed by the delivered capsule is unavailable.
 
-The accepted parent supplies the global completion mechanism and its actual surface-moment derivative, but explicitly did not supply a cancellation or a new executed attaining endpoint. The new executed constructions and certificates here are separate. fileciteturn4file0L11-L21
+The accepted parent supplies the global completion mechanism and its actual surface-moment derivative, but explicitly did not supply a cancellation or a new executed attaining endpoint. The new executed constructions and certificates here are separate.
 
 ## 3. Five actual contractions with exact centre completion
 
@@ -265,7 +265,7 @@ reachability.json               8247  74020ffb5022f44c3ee8088827f437f9657335f66a
 
 All 16 pins, including the full true hulls and baseline audit, are checked by `VERIFY_ALL.py`. An earlier slower driver that also recomputed unnecessary rational-midpoint mechanical censuses timed out; it is not the completed replay claimed here. The delivered closed-hull plus algebraic-interval driver completed twice from fresh sources, once directly from the wrapper. This is exact arithmetic verification with explicit mathematical proofs, not proof-assistant formalization.
 
-Convenience copies: [standalone recovery source](sandbox:/mnt/data/recover_c600_complete.py) and [complete source/report bundle](sandbox:/mnt/data/c600_exact_handoff.zip). They supplement, but do not replace, the complete embedded recovery capsule.
+Convenience copies: standalone recovery source (`recover_c600_complete.py`) and complete source/report bundle (`c600_exact_handoff.zip`). They supplement, but do not replace, the complete embedded recovery capsule.
 
 ## 10. Complete self-contained recovery capsule
 

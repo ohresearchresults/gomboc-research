@@ -6,14 +6,14 @@ AI research report · 2026-08-26 UTC
 
 # Determination
 
-This continuation did **not** find a strict homogeneous polyhedral Gömböc. No candidate passed the required own-volume-centroid gate of exactly one stable maximal face, one unstable vertex, zero saddle edges, strict inactive incidence separation, and independent exact reconstruction. That remains the governing acceptance standard. :contentReference[oaicite:3]{index=3}
+This continuation did **not** find a strict homogeneous polyhedral Gömböc. No candidate passed the required own-volume-centroid gate of exactly one stable maximal face, one unstable vertex, zero saddle edges, strict inactive incidence separation, and independent exact reconstruction. That remains the governing acceptance standard.
 
 The strongest certified object therefore remains the exact rational `radial_balanced14` post-circuit body. The additional searches substantially broadened the tested topology cells, but their best states again had the same four-feature `(2,2,2)` Morse block. No new floating state was strong enough to justify replacing or re-exactifying the certified fallback.
 
-**Authoritative exact archive:** [sloan_connected_surgery_handoff.zip](sandbox:/mnt/data/sloan_connected_surgery_handoff.zip)  
+**Authoritative exact archive:** sloan_connected_surgery_handoff.zip  
 **SHA-256:** `07c2c806d7e5565c0a535c3d445f040d9b4d2824de656a81b9d5791f3809ddc8`
 
-The journal’s earlier exact eight-vertex endpoint and its coupled two-circuit defect are preserved here as the starting point rather than being silently replaced by a generic mesh. :contentReference[oaicite:4]{index=4}
+The journal’s earlier exact eight-vertex endpoint and its coupled two-circuit defect are preserved here as the starting point rather than being silently replaced by a generic mesh.
 
 # Certified fallback: `radial_balanced14`
 
@@ -74,10 +74,10 @@ or approximately `0.2890540346073921`.
 
 Executable generator and complete tables:
 
-- [Exact source generator](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/source_generator.py)
-- [Exact centred V table](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/vertices_exact.csv)
-- [Exact maximal H table](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/halfspaces_exact.csv)
-- [Machine-readable certificate](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/certificate.json)
+- Exact source generator (`source_generator.py`)
+- Exact centred V table (`vertices_exact.csv`)
+- Exact maximal H table (`halfspaces_exact.csv`)
+- Machine-readable certificate (`certificate.json`)
 
 ## Rebuilt maximal faces
 
@@ -107,7 +107,7 @@ F11 [3,6,9]       F23 [8,11,9]
 [9,12]  [8,12]  [7,12]  [12,13] [11,12] [8,11]
 ```
 
-The published incidence files are [maximal_faces.json](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/maximal_faces.json) and [true_edges.csv](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/true_edges.csv).
+The published incidence files are maximal_faces.json and true_edges.csv.
 
 ## Exact convexity and incidence audit
 
@@ -131,7 +131,7 @@ and the RMS-normalized separation is
 
 This raw incidence quantity is reported separately from the equilibrium margins; no equilibrium or incidence decision depends on a floating tolerance.
 
-Complete inactive evaluations are in [inactive_slack_audit.csv](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/inactive_slack_audit.csv).
+Complete inactive evaluations are in inactive_slack_audit.csv.
 
 ## Exhaustive own-centroid equilibrium class
 
@@ -167,9 +167,9 @@ true edge/cone  -0.0017549558683902656
 
 Every edge value uses the complete four-component cone predicate: line projection parameters `t,1-t` and both normalized incident-normal coefficients. The detailed records are:
 
-- [All maximal-face predicates](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/face_audit.csv)
-- [All vertex normal-cone predicates](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/vertex_audit.csv)
-- [All true-edge full-normal-cone predicates](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/edge_audit.csv)
+- All maximal-face predicates (`face_audit.csv`)
+- All vertex normal-cone predicates (`vertex_audit.csv`)
+- All true-edge full-normal-cone predicates (`edge_audit.csv`)
 
 # New continuation work
 
@@ -179,7 +179,7 @@ Large batched own-centroid searches were run from random spherical, anisotropic,
 
 ### Best completed 10-vertex state
 
-Files: [coordinates](sandbox:/mnt/data/global_N10/best.npy), [audit](sandbox:/mnt/data/global_N10/best.json), [run log](sandbox:/mnt/data/global_N10.log).
+Files: coordinates (`best.npy`), audit (`best.json`), run log (`global_N10.log`).
 
 ```text
 (V,E,F)       = (10,24,16)
@@ -203,7 +203,7 @@ This independently recreated the same one-extra-face, one-extra-vertex, two-sadd
 
 ### Best completed 12-vertex state
 
-Files: [coordinates](sandbox:/mnt/data/global_N12/best.npy), [audit](sandbox:/mnt/data/global_N12/best.json), [run log](sandbox:/mnt/data/global_N12.log).
+Files: coordinates (`best.npy`), audit (`best.json`), run log (`global_N12.log`).
 
 ```text
 (V,E,F)       = (12,30,20)
@@ -223,7 +223,7 @@ saddle [0,3]     0.013613707757224924
 saddle [5,7]     0.013593682410617314
 ```
 
-The 14-input search also terminated without a winner marker and did not improve on the certified exact endpoint or the 10-vertex checkpoint. Its files are retained under [global_N14](sandbox:/mnt/data/global_N14).
+The 14-input search also terminated without a winner marker and did not improve on the certified exact endpoint or the 10-vertex checkpoint. Its files are retained under global_N14.
 
 **Observation:** independent variable counts and unrelated initial geometries repeatedly converge to an open `(2,2,2)` block rather than to arbitrary many-feature clutter. This is empirical evidence of a robust transfer basin, not a global nonexistence theorem.
 
@@ -231,7 +231,7 @@ The 14-input search also terminated without a winner marker and did not improve 
 
 All 22 realizable depth-one edge-flip topologies of the 10-vertex checkpoint were optimized with their actual own centroids and rebuilt hulls.
 
-Files: [topology-flip search](sandbox:/mnt/data/topology_flip_beam.py), [results](sandbox:/mnt/data/flip_N10_d1), [log](sandbox:/mnt/data/flip_N10_d1.log).
+Files: topology-flip search (`topology_flip_beam.py`), results (`flip_N10_d1`), log (`flip_N10_d1.log`).
 
 No cell produced `(1,1,0)`. The strongest audited state remained `(2,2,2)` with hard defect approximately
 
@@ -247,13 +247,13 @@ and normalized inactive separation approximately
 
 Thus ordinary adjacent flips around the best generic ten-vertex cell again transfer the four-feature block instead of cancelling it.
 
-A larger target-preserving depth-two enumeration had not completed when this handoff was forced and is therefore excluded from the mathematical evidence. Its partial directory is [flip_target_N10_d2](sandbox:/mnt/data/flip_target_N10_d2).
+A larger target-preserving depth-two enumeration had not completed when this handoff was forced and is therefore excluded from the mathematical evidence. Its partial directory is flip_target_N10_d2.
 
 ## 3. Complete spanning-tree audit at the exact eight-vertex seed
 
 For one strict triangulation of the nonsimplicial face of `trimmed_psi8`, all **6,435** primal spanning trees were enumerated with target unstable vertex `V1` and target stable face `[1,6,2]`. For each tree, the complementary dual tree and the corresponding unique parent witnesses were reconstructed.
 
-Files: [enumerator](sandbox:/mnt/data/trimmed8_branch_enum.py), [all branches](sandbox:/mnt/data/trimmed8_branches.json), [log](sandbox:/mnt/data/trimmed8_branch_enum.log).
+Files: enumerator (`trimmed8_branch_enum.py`), all branches (`trimmed8_branches.json`), log (`trimmed8_branch_enum.log`).
 
 At the exact seed coordinates, the best such coherent branch still requires a selected primal witness of
 
@@ -273,7 +273,7 @@ These are macroscopic compared with the local saddle margins. This does **not** 
 
 A binary mixed-integer model assigned each true edge either to a primal arborescence toward `V1` or to the complementary dual arborescence toward `F00`. Order variables excluded directed cycles. The objective globally minimized the sum of squared positive selected witnesses for that model.
 
-Files: [MILP generator](sandbox:/mnt/data/rad14_tree_milp.py), [branches](sandbox:/mnt/data/rad14_tree_branches.json), [log](sandbox:/mnt/data/rad14_tree_milp.log).
+Files: MILP generator (`rad14_tree_milp.py`), branches (`rad14_tree_branches.json`), log (`rad14_tree_milp.log`).
 
 The sum-optimal branches already contain selected primal and dual witnesses as large as approximately
 
@@ -290,13 +290,13 @@ The important correction is that a non-saddle edge need not be assigned globally
 
 An 18-link connected zipper spanning the original defect strip was given a coherent successor-tree/drainage-tree assignment and optimized from twelve independently realized convex topologies.
 
-Files: [search code](sandbox:/mnt/data/zipper_tree_search.py), [results](sandbox:/mnt/data/zipper_tree_m18), [log](sandbox:/mnt/data/zipper_tree_m18.log).
+Files: search code (`zipper_tree_search.py`), results (`zipper_tree_m18`), log (`zipper_tree_m18.log`).
 
 No winner appeared. The best audited state remained far from cancellation, around class `(2,3,3)` with hard defect approximately `-0.1314`. The failure is attributable to the overconstrained tree/cotree witness assignment, not to the mere presence of eighteen links.
 
 ## 6. Seeded eight-vertex global search
 
-A 1,536-trajectory search was launched from exact `trimmed_psi8`, small exact-seed perturbations and independent eight-point geometries. It had not completed at the handoff boundary and produced no observed winner marker. Its partial files are under [global_N8](sandbox:/mnt/data/global_N8), but they are not counted as a completed negative result.
+A 1,536-trajectory search was launched from exact `trimmed_psi8`, small exact-seed perturbations and independent eight-point geometries. It had not completed at the handoff boundary and produced no observed winner marker. Its partial files are under global_N8, but they are not counted as a completed negative result.
 
 # What changed relative to the previous handoff
 
@@ -347,12 +347,12 @@ radial_balanced14 PASS H-driven exact reconstruction
 class (2,2,2), exact volume certified
 ```
 
-- [V-driven exact verifier](sandbox:/mnt/data/sloan_connected_surgery_handoff/verify_rebuild.py)
-- [V-driven transcript](sandbox:/mnt/data/sloan_connected_surgery_handoff/verify_rebuild.log)
-- [Independent H-driven verifier](sandbox:/mnt/data/sloan_connected_surgery_handoff/verify_independent.py)
-- [H-driven transcript](sandbox:/mnt/data/sloan_connected_surgery_handoff/verify_independent.log)
-- [Certified OBJ](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/polyhedron.obj)
-- [Certified STL](sandbox:/mnt/data/sloan_connected_surgery_handoff/radial_balanced14/polyhedron.stl)
+- V-driven exact verifier (`verify_rebuild.py`)
+- V-driven transcript (`verify_rebuild.log`)
+- Independent H-driven verifier (`verify_independent.py`)
+- H-driven transcript (`verify_independent.log`)
+- Certified OBJ (`polyhedron.obj`)
+- Certified STL (`polyhedron.stl`)
 
 # Explicit incompleteness
 

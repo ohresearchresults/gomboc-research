@@ -22,7 +22,7 @@ The newly supplied seven-unit coordinator capsule was available in full, includi
 
 For the351834-byte journal, content through parsed line1200 was available in the retained work. Reads of lines1201–1605 were requested, but their returned content was not recoverably available in this continuation. I therefore do **not** certify a complete fresh through-EOF reading of that update. The previous cut-gate result itself is fully present in the preceding answer. Repeated execution attempts also did not provide usable new numerical or audit output in the retained context. No missing output has been replaced with an inferred census, a fabricated optimizer result or an invented manifest.
 
-The exact selected geometric input remains `KH93_C434_R82_G6.txt`,1888 bytes, SHA-256 `9765712b5ffaa464ed4d677974256294c6d867b77fe77b930d166853f66a92a7`, meaning82 inequalities `n_i·x≤1000000`. Its accepted own211 census, old stable input rows7/18, and actual mass are premises from the supplied parent, not new computations here. fileciteturn6file0L109-L120
+The exact selected geometric input remains `KH93_C434_R82_G6.txt`,1888 bytes, SHA-256 `9765712b5ffaa464ed4d677974256294c6d867b77fe77b930d166853f66a92a7`, meaning82 inequalities `n_i·x≤1000000`. Its accepted own211 census, old stable input rows7/18, and actual mass are premises from the supplied parent, not new computations here.
 
 ## A finite new-root construction
 

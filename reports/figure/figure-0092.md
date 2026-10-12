@@ -8,7 +8,7 @@ AI research report · 2026-08-26 UTC
 
 ## Determination
 
-**No homogeneous convex polyhedral Gömböc was obtained.** I therefore do not claim a `(1,1,0)` winner. The run's acceptance gate remains a finite ordinary uniform-density polyhedron evaluated at its own exact volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle true edge, complete H/V and face-lattice data, strict open margins, an independent verifier, and matching OBJ/STL; auxiliary centers, wall points, smooth bodies, near-solutions, and unexpanded existence generators are excluded. :contentReference[oaicite:0]{index=0}
+**No homogeneous convex polyhedral Gömböc was obtained.** I therefore do not claim a `(1,1,0)` winner. The run's acceptance gate remains a finite ordinary uniform-density polyhedron evaluated at its own exact volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle true edge, complete H/V and face-lattice data, strict open margins, an independent verifier, and matching OBJ/STL; auxiliary centers, wall points, smooth bodies, near-solutions, and unexpanded existence generators are excluded.
 
 The strongest fully materialized endpoint is the exact rational support polyhedron
 
@@ -38,7 +38,7 @@ This is a strict open post-star chamber, not a wall point. Its exact certificate
 
 ## What changed relative to P15
 
-The durable journal recorded exact P15 with complexity `78`, own centroid zero, and the transferred block stable row `0`, unstable triple `[18,32,102]`, and saddles `[2,9]`, `[26,102]`, while stable row `27` and the intended unstable lineage were retained. :contentReference[oaicite:1]{index=1}
+The durable journal recorded exact P15 with complexity `78`, own centroid zero, and the transferred block stable row `0`, unstable triple `[18,32,102]`, and saddles `[2,9]`, `[26,102]`, while stable row `27` and the intended unstable lineage were retained.
 
 The connected whole-star deformation/deactivation keeps the source labels
 
@@ -362,30 +362,30 @@ ALL VERIFIERS PASSED
 
 The exact verifier, deterministic regeneration, mesh correspondence, full coefficient interval box, 87-state topology replay, and directed witness obstruction all pass independently.
 
-- [Complete P9 exact fallback bundle](sandbox:/mnt/data/p9_whole_star_exact_fallback_bundle.zip) — SHA-256 `87d401e1f5bb154cf908df64f43f64d027a5bd15092f76a3ab7f59fb8b99e6b9`.
-- [README and reproduction guide](sandbox:/mnt/data/p9_whole_star_exact_fallback/README.md)
-- [Full exact certificate](sandbox:/mnt/data/p9_whole_star_exact_fallback/p9_exact.json)
-- [Deterministic exact generator](sandbox:/mnt/data/p9_whole_star_exact_fallback/generate_p9_exact.py)
-- [Independent exact verifier](sandbox:/mnt/data/p9_whole_star_exact_fallback/verify_p9_exact.py)
-- [Byte-identical regeneration verifier](sandbox:/mnt/data/p9_whole_star_exact_fallback/verify_regeneration.py)
-- [Exact H rows](sandbox:/mnt/data/p9_whole_star_exact_fallback/H_exact.csv)
-- [Exact V coordinates](sandbox:/mnt/data/p9_whole_star_exact_fallback/V_exact.csv)
-- [Maximal-face cycles](sandbox:/mnt/data/p9_whole_star_exact_fallback/faces.txt)
-- [True-edge list](sandbox:/mnt/data/p9_whole_star_exact_fallback/edges.txt)
-- [OBJ export](sandbox:/mnt/data/p9_whole_star_exact_fallback/p9_exact.obj)
-- [STL export](sandbox:/mnt/data/p9_whole_star_exact_fallback/p9_exact.stl)
-- [Mesh correspondence verifier](sandbox:/mnt/data/p9_whole_star_exact_fallback/verify_mesh_exports.py)
-- [Full coefficient interval verifier](sandbox:/mnt/data/p9_whole_star_exact_fallback/verify_coefficient_radius.py)
-- [Coefficient-radius certificate](sandbox:/mnt/data/p9_whole_star_exact_fallback/coefficient_radius.json)
-- [Complete numerical topology path](sandbox:/mnt/data/p9_whole_star_exact_fallback/topology_path_numeric.json)
-- [Independent topology replay](sandbox:/mnt/data/p9_whole_star_exact_fallback/verify_topology_path_numeric.py)
-- [Circuit and transfer summary](sandbox:/mnt/data/p9_whole_star_exact_fallback/circuit_summary.json)
-- [Directed witness-obstruction verifier](sandbox:/mnt/data/p9_whole_star_exact_fallback/verify_witness_obstruction.py)
-- [Witness-obstruction certificate](sandbox:/mnt/data/p9_whole_star_exact_fallback/witness_obstruction.json)
-- [Search record](sandbox:/mnt/data/p9_whole_star_exact_fallback/SEARCH_RECORD.md)
-- [Combined verifier script](sandbox:/mnt/data/p9_whole_star_exact_fallback/RUN_ALL_VERIFIERS.sh)
-- [Combined verifier transcript](sandbox:/mnt/data/p9_whole_star_exact_fallback/RUN_ALL_VERIFIERS.txt)
-- [Integrity manifest](sandbox:/mnt/data/p9_whole_star_exact_fallback/manifest.json)
-- [SHA-256 list](sandbox:/mnt/data/p9_whole_star_exact_fallback/SHA256SUMS.txt)
+- Complete P9 exact fallback bundle (`p9_whole_star_exact_fallback_bundle.zip`) — SHA-256 `87d401e1f5bb154cf908df64f43f64d027a5bd15092f76a3ab7f59fb8b99e6b9`.
+- README and reproduction guide (`README.md`)
+- Full exact certificate (`p9_exact.json`)
+- Deterministic exact generator (`generate_p9_exact.py`)
+- Independent exact verifier (`verify_p9_exact.py`)
+- Byte-identical regeneration verifier (`verify_regeneration.py`)
+- Exact H rows (`H_exact.csv`)
+- Exact V coordinates (`V_exact.csv`)
+- Maximal-face cycles (`faces.txt`)
+- True-edge list (`edges.txt`)
+- OBJ export (`p9_exact.obj`)
+- STL export (`p9_exact.stl`)
+- Mesh correspondence verifier (`verify_mesh_exports.py`)
+- Full coefficient interval verifier (`verify_coefficient_radius.py`)
+- Coefficient-radius certificate (`coefficient_radius.json`)
+- Complete numerical topology path (`topology_path_numeric.json`)
+- Independent topology replay (`verify_topology_path_numeric.py`)
+- Circuit and transfer summary (`circuit_summary.json`)
+- Directed witness-obstruction verifier (`verify_witness_obstruction.py`)
+- Witness-obstruction certificate (`witness_obstruction.json`)
+- Search record (`SEARCH_RECORD.md`)
+- Combined verifier script (`RUN_ALL_VERIFIERS.sh`)
+- Combined verifier transcript (`RUN_ALL_VERIFIERS.txt`)
+- Integrity manifest (`manifest.json`)
+- SHA-256 list (`SHA256SUMS.txt`)
 
 The delivered endpoint is therefore an exact, independently reconstructible complexity-42 post-star body with class `(2,2,2)`, complete transferred-block topology, a certified open coefficient box, and a sharply delimited next operation—not a claimed Gömböc.

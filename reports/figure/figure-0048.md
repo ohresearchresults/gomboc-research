@@ -6,7 +6,7 @@ AI research report · 2026-08-23 UTC
 
 ## Outcome
 
-The required deliverable has **not** been obtained. I did not reinterpret a near-witness, a degenerate bifurcation, or an equilibrium count relative to an artificial reference point as a solution. This preserves the acceptance criterion stated explicitly in the earlier transcript: a valid result needs the actual uniform-volume centroid, strict positive margins, explicit coordinates, and an independent certificate. :contentReference[oaicite:5]{index=5}
+The required deliverable has **not** been obtained. I did not reinterpret a near-witness, a degenerate bifurcation, or an equilibrium count relative to an artificial reference point as a solution. This preserves the acceptance criterion stated explicitly in the earlier transcript: a valid result needs the actual uniform-volume centroid, strict positive margins, explicit coordinates, and an independent certificate.
 
 ## Strongest object produced in this direction
 
@@ -76,12 +76,12 @@ These experiments break the hypothesis that the failure is merely inadequate sam
 
 The principal scripts produced in this direction are:
 
-- [Smooth-cap reconstruction and baseline scan](sandbox:/mnt/data/qcap_rebuild.py)
-- [Feasible apex-slope polygon experiment](sandbox:/mnt/data/qcap_feasible.py)
-- [Convex dual-ring bulging experiment](sandbox:/mnt/data/qcap_bulge.py)
-- [Complete active-face and equilibrium classifier](sandbox:/mnt/data/geomlib.py)
-- [Uniform tangent-net diagnostic](sandbox:/mnt/data/test_tangent_net.py)
-- [Uniform inward-shift diagnostic](sandbox:/mnt/data/test_inward_net.py)
+- Smooth-cap reconstruction and baseline scan (`qcap_rebuild.py`)
+- Feasible apex-slope polygon experiment (`qcap_feasible.py`)
+- Convex dual-ring bulging experiment (`qcap_bulge.py`)
+- Complete active-face and equilibrium classifier (`geomlib.py`)
+- Uniform tangent-net diagnostic (`test_tangent_net.py`)
+- Uniform inward-shift diagnostic (`test_inward_net.py`)
 
 The strongest branch above is reconstructed by:
 
@@ -109,6 +109,6 @@ print(len(r["stable"]), len(r["unstable"]), len(r["saddle"]))
 
 The unresolved operation is now finite and local but still coupled to the global centroid. The two transition support rows and their neighboring middle supports must be varied jointly so that each complete maximal transition face has a common separating edge excluding its own centroid projection. Simultaneously, the two associated edge normal cones must lose the centroid ray, while the apex displacement remains in the interior of its entire 36-generator normal cone.
 
-Optimizing individual support residuals is insufficient: moving one transition face alone transfers stability to its neighbor, and checking only simplicial pieces misses the maximal-face condition. The next valid formulation must optimize the whole active cone-face block together with at least three independent remote volume controls, recomputing the uniform centroid after every step. This is the constructive content suggested by Lángi's separate equilibrium patches, common-separator middle truncation, and remote centroid controls. :contentReference[oaicite:1]{index=1}
+Optimizing individual support residuals is insufficient: moving one transition face alone transfers stability to its neighbor, and checking only simplicial pieces misses the maximal-face condition. The next valid formulation must optimize the whole active cone-face block together with at least three independent remote volume controls, recomputing the uniform centroid after every step. This is the constructive content suggested by Lángi's separate equilibrium patches, common-separator middle truncation, and remote centroid controls.
 
 No rationalization or printable model was performed because the numerical object fails the primary equilibrium criterion. Producing OBJ/STL files for it under the Gömböc label would be misleading.

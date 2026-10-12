@@ -8,7 +8,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Outcome
 
-No exact strict110/additionalweak000 body was found. The requested first question is closed exactly for literal parent `SC83_BF35_REPLACE5_PACKET24_G4`: its complete 24-vertex physical packet is **not strictly linearly separable** from the 42 retained vertices. Hence the conditional fixed-old-vertex one-cap `V62/E93/F33/C186` architecture does not exist for this parent. The active branch memory identifies parent `figure-0467` (SHA-256 `c2b59f1bc19ca564bc7e3ed9432e0d24ff61b02d7274838f277e0ef3b9d99837`) as `V66/E99/F35/C198`, strict121/weak000/Q0 with packet24/20. :contentReference[oaicite:0]{index=0} Its literal payload and exact source receipts are authoritative. :contentReference[oaicite:1]{index=1}
+No exact strict110/additionalweak000 body was found. The requested first question is closed exactly for literal parent `SC83_BF35_REPLACE5_PACKET24_G4`: its complete 24-vertex physical packet is **not strictly linearly separable** from the 42 retained vertices. Hence the conditional fixed-old-vertex one-cap `V62/E93/F33/C186` architecture does not exist for this parent. The active branch memory identifies parent `figure-0467` (SHA-256 `c2b59f1bc19ca564bc7e3ed9432e0d24ff61b02d7274838f277e0ef3b9d99837`) as `V66/E99/F35/C198`, strict121/weak000/Q0 with packet24/20. Its literal payload and exact source receipts are authoritative.
 
 The minimum number of strict old-vertex-preserving caps needed to cover all 24 old packet vertices is **exactly two**. A 2-for-2 active-support replacement using two simple rational caps removes every old packet vertex while retaining all 42 old complement vertices, but the rebuilt actual-centroid body becomes strict `(18,10,26)` and recreates a large positive polar landscape. This is a durable topology-control nonwinner, not an accepted successor.
 
@@ -201,7 +201,7 @@ parent result SHA c2b59f1bc19ca564bc7e3ed9432e0d24ff61b02d7274838f277e0ef3b9d998
 BF35_PACKET24_RECOVER.py 15772 bytes
 SHA 590eb1e51405f5441ea1ed2e75406138a9be723aace312aeb0ab25eecff38359
 ```
-The literal parent payload contains the complete parent-source decoder and replay markers. :contentReference[oaicite:2]{index=2}
+The literal parent payload contains the complete parent-source decoder and replay markers.
 
 The new complete verifier patch `SC83_CAP2_CERT.py` is 6395 bytes, SHA-256 `2621f3baf946e585200f264c90c2a1a1ab3a91ae15f69eb9193fb562cbde79f6`. The following source-only decoder contains its complete bytes; compressed payload is 2804 bytes, SHA-256 `2181793620d5f4a1135e3bd78eb1f414820f7eb277248e6c94fe4f0dfcc5c0a1`.
 

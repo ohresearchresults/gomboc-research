@@ -20,7 +20,7 @@ The first unclassified successor was nevertheless realized literally: one new ex
 
 and replace the nonflippable `{2369,E,C,D}` core by the four-face `F` star `[2369,C,F]`, `[2369,D,F]`, `[C,E,F]`, `[D,E,F]`. The strict target is exact own-centred `(V,E,F,C)=(16,42,28,84)`, `(S,U,H)=(2,2,2)`. It preserves intended stable `[0,1371,C]` and intended unstable `C`, but the unwanted block transfers to stable `[3296,D,B]`, unstable `2732`, and saddles `[2152,C]`, `[2369,F]`.
 
-The journal requires a finite own-centred strict `(1,1,0)` body with complete incidence, margins, independent verification, and OBJ/STL; a wall point or near-object is not completion. :contentReference[oaicite:0]{index=0} The accepted four-circuit endpoint and this exact fifth-circuit frontier are recorded in the supplied state. :contentReference[oaicite:1]{index=1}
+The journal requires a finite own-centred strict `(1,1,0)` body with complete incidence, margins, independent verification, and OBJ/STL; a wall point or near-object is not completion. The accepted four-circuit endpoint and this exact fifth-circuit frontier are recorded in the supplied state.
 
 ## Exact dyadic generator
 
@@ -212,23 +212,23 @@ A deterministic exact generator, primary exact verifier, directed own-centroid i
 
 ## Artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER.zip)
-- [Full detailed handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_result.json)
-- [Clean verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_clean_verification.json)
-- [Exact generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/data/generator_exact.json)
-- [Own-centred V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/data/vertices_centered_exact.csv)
-- [Irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/data/postterminal16_exact_H_irredundant.csv)
-- [All face mechanics](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/data/postterminal16_exact_faces.csv)
-- [All directed vertex primitives](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/data/postterminal16_exact_vertex_primitives.csv)
-- [All true-edge cones](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/data/postterminal16_exact_true_edges_full_cones.csv)
-- [Whole-disk certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/certificates/higher_valence_shared_terminal_patch.json)
-- [Perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Forced-edge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/certificates/residual_forced_edge_2152_2732.json)
-- [Next-topology certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/certificates/first_successor_topology.json)
-- [Independent verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/scripts/verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER/mesh/body.stl)
+- Complete exact archive (`Calm_Quartz_90_wall242_fifth_circuit_exact_NONWINNER.zip`)
+- Full detailed handoff (`Calm_Quartz_90_wall242_fifth_circuit_handoff.md`)
+- Structured result (`Calm_Quartz_90_wall242_fifth_circuit_result.json`)
+- Clean verification receipt (`Calm_Quartz_90_wall242_fifth_circuit_clean_verification.json`)
+- Exact generator (`generator_exact.json`)
+- Own-centred V-data (`vertices_centered_exact.csv`)
+- Irredundant H-data (`postterminal16_exact_H_irredundant.csv`)
+- All face mechanics (`postterminal16_exact_faces.csv`)
+- All directed vertex primitives (`postterminal16_exact_vertex_primitives.csv`)
+- All true-edge cones (`postterminal16_exact_true_edges_full_cones.csv`)
+- Whole-disk certificate (`higher_valence_shared_terminal_patch.json`)
+- Perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Forced-edge certificate (`residual_forced_edge_2152_2732.json`)
+- Next-topology certificate (`first_successor_topology.json`)
+- Independent verifier (`verify_independent.py`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 ```text
 archive SHA-256  45ffb36e6aa1fca5f4d2cd04117416d9a2f4fdef70e1f23c21f08fb7b8ed49b0

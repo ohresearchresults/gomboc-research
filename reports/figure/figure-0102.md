@@ -10,7 +10,7 @@ AI research report · 2026-08-27 UTC
 
 **No finite homogeneous convex polyhedral Gömböc was found.** The strongest endpoint, `postladder62_optimized`, is a genuine finite uniform-density convex polyhedron, evaluated at its own exact volume centroid, with open strict class **`(S,U,H)=(1,2,1)`**. One unstable–saddle pair remains, so this is **not** a Gömböc.
 
-The journal’s acceptance gate requires a materialized own-centroid `(1,1,0)` object and excludes walls, auxiliary centers, and unexpanded generators. :contentReference[oaicite:0]{index=0} The inherited `longstrip_rec0` was `(2,4,4)` with two verified fourteen-edge branches and a four-rung ladder. :contentReference[oaicite:1]{index=1} This continuation replaces that ladder and advances the exact frontier to `(1,2,1)`.
+The journal’s acceptance gate requires a materialized own-centroid `(1,1,0)` object and excludes walls, auxiliary centers, and unexpanded generators. The inherited `longstrip_rec0` was `(2,4,4)` with two verified fourteen-edge branches and a four-rung ladder. This continuation replaces that ladder and advances the exact frontier to `(1,2,1)`.
 
 ## Complete exact source and generator
 
@@ -38,7 +38,7 @@ This is the complete irredundant 62-row raw Q source; all rows are exact hull ve
 - Minimum projective denominator `0.93509232132148479`.
 - Exact integer-orientation rebuild proves all 120 triangular Q facets supporting, all 180 true Q edges two-sided, all 62 Q rows extreme, and the complete dual P lattice.
 
-Complete active data: [exact record](sandbox:/mnt/data/postladder62_handoff/endpoint/postladder62_exact.json), [P vertices](sandbox:/mnt/data/postladder62_handoff/endpoint/P_vertices.csv), [Q vertices](sandbox:/mnt/data/postladder62_handoff/endpoint/Q_vertices.csv), [all maximal face cycles](sandbox:/mnt/data/postladder62_handoff/endpoint/maximal_faces.json), [all true edges with dual incidence](sandbox:/mnt/data/postladder62_handoff/endpoint/true_edges.csv).
+Complete active data: exact record (`postladder62_exact.json`), P vertices (`P_vertices.csv`), Q vertices (`Q_vertices.csv`), all maximal face cycles (`maximal_faces.json`), all true edges with dual incidence (`true_edges.csv`).
 
 ## Required realized branch architecture
 
@@ -69,7 +69,7 @@ Closest strict exclusions:
 - vertex incidence `(16,17,30)`: `-9.949538113072635e-6`;
 - edge/full cone `(16,30)`: `-3.3281489765277794e-5`.
 
-Every other feature is strictly excluded. Exhaustive signed tables and exact/raw limiting witnesses are [face_audit.csv](sandbox:/mnt/data/postladder62_handoff/endpoint/face_audit.csv), [vertex_audit.csv](sandbox:/mnt/data/postladder62_handoff/endpoint/vertex_audit.csv), and [edge_audit.csv](sandbox:/mnt/data/postladder62_handoff/endpoint/edge_audit.csv).
+Every other feature is strictly excluded. Exhaustive signed tables and exact/raw limiting witnesses are face_audit.csv, vertex_audit.csv, and edge_audit.csv.
 
 ## Incidence separation and perturbation certificate
 
@@ -89,7 +89,7 @@ throughout which the complete P/Q lattices and strict class `(1,2,1)` remain fix
 - vertex sign `3.393454881547169909533056030E-11`;
 - full edge-cone sign `1.254201291316080672872272111E-10`.
 
-Certificate: [interval_certificate.json](sandbox:/mnt/data/postladder62_handoff/endpoint/interval_certificate.json); directed verifier: [verify_interval.py](sandbox:/mnt/data/postladder62_handoff/endpoint/verify_interval.py).
+Certificate: interval_certificate.json; directed verifier: verify_interval.py.
 
 ## Complete topology-changing continuation
 
@@ -119,7 +119,7 @@ Facets `(2,3,17),(2,16,17)` are replaced by `(2,3,61),(2,16,61),(3,17,61),(16,17
 
 Circuits `{20,21,50,52}`, `{23,24,62,64}` in union labels, `{5,6,55,57}`, and `{5,6,57,59}`; all retain `(1,2,1)`.
 
-Every checkpoint contains its actual rebuilt incidence, f-vectors, active/deactivated rows, and reidentified complete equilibrium set. [Full topology ledger](sandbox:/mnt/data/postladder62_handoff/search/topology_circuit_ledger.json); [independent replay](sandbox:/mnt/data/postladder62_handoff/search/rebuild_topology_circuit_ledger.py).
+Every checkpoint contains its actual rebuilt incidence, f-vectors, active/deactivated rows, and reidentified complete equilibrium set. Full topology ledger (`topology_circuit_ledger.json`); independent replay (`rebuild_topology_circuit_ledger.py`).
 
 ## Smallest surviving connected obstruction
 
@@ -136,13 +136,13 @@ The complete two-separatrix disk has boundary cycle `6-45-43-5-18-17-16-30-20-6`
 
 `(6,43,45),(5,6,43),(5,6,19),(5,18,19),(18,19,30),(17,18,30),(16,17,30),(6,19,20),(19,20,30)`.
 
-A one-sided strip leaves the alternative `6-19-20-30` route. Patches reaching the saddle without replacing both endpoint stars create a new unstable facet on the inserted cell. The next nonredundant operation is a finite-width `2×k` zipper/annulus replacing both separatrices and both saddle endpoint stars together, allowing `(5, 6, 16, 17, 18, 19, 20, 30, 43, 45, 61)` or descendants to deactivate. [Residual mechanics record](sandbox:/mnt/data/postladder62_handoff/search/residual_obstruction.json).
+A one-sided strip leaves the alternative `6-19-20-30` route. Patches reaching the saddle without replacing both endpoint stars create a new unstable facet on the inserted cell. The next nonredundant operation is a finite-width `2×k` zipper/annulus replacing both separatrices and both saddle endpoint stars together, allowing `(5, 6, 16, 17, 18, 19, 20, 30, 43, 45, 61)` or descendants to deactivate. Residual mechanics record (`residual_obstruction.json`).
 
 ## Search delimited honestly
 
 Beyond the inherited 12,000 complete evaluations, this continuation performed conservatively **more than 8,000 additional full hull/own-centroid evaluations** over two-channel profiles, stellar depth, two-cell and basin-depth patches, free supports, insertion/deletion cascades, determinant-one metrics, channel widths/twists, and sequential all-feature directions.
 
-No own-centroid `(1,1,0)` state occurred. A sequential direction reduced the worst residual from `0.03404` to about `0.02453`, but the full class expanded to `(9,5,12)`, directly exposing transfer rather than cancellation. Several raw-origin apparent `(1,1,0)` states were rejected because exact own-centroid gauging displaced the center by about `0.54–0.86` or the intended chains were not actual strict hull-edge chains. These nonhits are empirical, not a global impossibility theorem. [Search report](sandbox:/mnt/data/postladder62_handoff/search/search_report.json).
+No own-centroid `(1,1,0)` state occurred. A sequential direction reduced the worst residual from `0.03404` to about `0.02453`, but the full class expanded to `(9,5,12)`, directly exposing transfer rather than cancellation. Several raw-origin apparent `(1,1,0)` states were rejected because exact own-centroid gauging displaced the center by about `0.54–0.86` or the intended chains were not actual strict hull-edge chains. These nonhits are empirical, not a global impossibility theorem. Search report (`search_report.json`).
 
 ## Verification, meshes, and reproduction
 
@@ -152,10 +152,10 @@ Independent result:
 {"verified":true,"P_f_vector":[120,180,62],"Q_f_vector":[62,180,120],"exact_final_centroid":["0","0","0"],"class_directed":[1,2,1],"stable_rows":[30],"unstable_incidence":[[6,43,45],[22,38,40]],"saddle_Q_edges":[[17,30]],"all_required_main_and_channel_edges_true":true,"all_main_ascent_numerators_exact_positive":true,"interval_box_power":28}
 ```
 
-- [Exact independent verifier](sandbox:/mnt/data/postladder62_handoff/endpoint/verify_exact_independent.py)
-- [Verifier transcript](sandbox:/mnt/data/postladder62_handoff/endpoint/verify_exact.log)
-- [P OBJ](sandbox:/mnt/data/postladder62_handoff/endpoint/postladder62_P.obj) / [P STL](sandbox:/mnt/data/postladder62_handoff/endpoint/postladder62_P.stl)
-- [Q OBJ](sandbox:/mnt/data/postladder62_handoff/endpoint/postladder62_Q.obj) / [Q STL](sandbox:/mnt/data/postladder62_handoff/endpoint/postladder62_Q.stl)
+- Exact independent verifier (`verify_exact_independent.py`)
+- Verifier transcript (`verify_exact.log`)
+- P OBJ (`postladder62_P.obj`) / P STL (`postladder62_P.stl`)
+- Q OBJ (`postladder62_Q.obj`) / Q STL (`postladder62_Q.stl`)
 
 ```bash
 unzip postladder62_handoff.zip
@@ -168,9 +168,9 @@ cd ..
 sha256sum -c SHA256SUMS.txt
 ```
 
-Complete archive: [postladder62_handoff.zip](sandbox:/mnt/data/postladder62_handoff.zip)  
+Complete archive: postladder62_handoff.zip  
 SHA-256: `3753435c02fdd833591483feb78d7ba9c43fa811da9907077d8e08e78d596b06`  
-[README](sandbox:/mnt/data/postladder62_handoff/README.md) · [manifest](sandbox:/mnt/data/postladder62_handoff/MANIFEST.json)
+README (`README.md`) · manifest (`MANIFEST.json`)
 
 ## Final determination
 

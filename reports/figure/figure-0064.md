@@ -8,7 +8,7 @@ AI research report · 2026-08-25 UTC
 
 ## Verdict
 
-I did **not** obtain a homogeneous polyhedral Gömböc with strict own-centroid class `(S,U,H)=(1,1,0)`. The acceptance gate therefore remains unmet: a centered finite body with many genuine equilibria is not a near-certified winner merely because its centroid and actuator equations close. The run journal explicitly excludes a smooth body, a near-solution, an artificial reference point, or an unexpanded theorem from counting as the requested object. :contentReference[oaicite:0]{index=0}
+I did **not** obtain a homogeneous polyhedral Gömböc with strict own-centroid class `(S,U,H)=(1,1,0)`. The acceptance gate therefore remains unmet: a centered finite body with many genuine equilibria is not a near-certified winner merely because its centroid and actuator equations close. The run journal explicitly excludes a smooth body, a near-solution, an artificial reference point, or an unexpanded theorem from counting as the requested object.
 
 What this continuation does supply is the requested fallback artifact in full: a **materialized moderate-size finite local-patch construction**, dedicated stable and unstable neighborhoods, four disjoint moment actuators with an exact rank-three Jacobian certificate, complete H/V data and incidence, a common strict separator for every non-equilibrium maximal face and every complete mixed edge/vertex normal cone, an independent verifier, and OBJ/STL exports. It also isolates the exact remaining failure rather than hiding it.
 
@@ -22,9 +22,9 @@ eta(theta) = (3 pi / 2)(cos(theta)-cos(theta)^3/3),
 beta = 0.023.
 ```
 
-The 2026 source reports a Krawczyk/interval equilibrium count `(1,1,0)` with no undecided boxes for this parameter value, while also stating its caveat that the centroid is supplied to the interval counter as a point value rather than a rigorous interval enclosure. :contentReference[oaicite:1]{index=1}
+The 2026 source reports a Krawczyk/interval equilibrium count `(1,1,0)` with no undecided boxes for this parameter value, while also stating its caveat that the centroid is supplied to the interval counter as a point value rather than a rigorous interval enclosure.
 
-The finite construction follows the three geometric stages in Lángi’s proof rather than replacing them with a quasi-uniform tangent mesh: four noncritical moment-control cones, dedicated local replacements around stable/unstable equilibria, and shifted supporting patches on the remaining boundary. Lángi explicitly warns that generic equidistant fine approximations can create more equilibria; his theorem instead preserves the smooth equilibrium class by topology-aware local truncations and centroid correction. :contentReference[oaicite:2]{index=2}
+The finite construction follows the three geometric stages in Lángi’s proof rather than replacing them with a quasi-uniform tangent mesh: four noncritical moment-control cones, dedicated local replacements around stable/unstable equilibria, and shifted supporting patches on the remaining boundary. Lángi explicitly warns that generic equidistant fine approximations can create more equilibria; his theorem instead preserves the smooth equilibrium class by topology-aware local truncations and centroid correction.
 
 The implementation differs from the failed uniform experiment in one essential way: noncritical supports are laid out along numerically integrated negative radial-gradient trajectories of the Sloan surface, then subjected to an exhaustive feature-level separator audit. This makes the patches anisotropic in the direction required by the smooth radial displacement instead of producing nearly isotropic tangent cells whose perpendicular feet fall inside them.
 
@@ -224,19 +224,19 @@ This 13-vertex object is the smallest clean finite failure from the literal loca
 
 The self-contained bundle includes the construction code, complete coordinate/incidence data, independent verifier, exact Jacobian minors, and meshes:
 
-- [Complete Sloan–Lángi bundle](sandbox:/mnt/data/langi_sloan_literal_bundle.zip)
-- [Bundle README](sandbox:/mnt/data/LANGI_SLOAN_README.md)
-- [Main centered V coordinates](sandbox:/mnt/data/langi_balanced_actuated_V.csv)
-- [Main centered H coordinates](sandbox:/mnt/data/langi_balanced_actuated_H.csv)
-- [Complete incidence, equilibrium and separator certificates](sandbox:/mnt/data/langi_balanced_actuated_incidence.json)
-- [Independent verifier](sandbox:/mnt/data/verify_langi_balanced_actuated.py)
-- [Main OBJ](sandbox:/mnt/data/langi_balanced_actuated.obj)
-- [Main STL](sandbox:/mnt/data/langi_balanced_actuated.stl)
-- [Small 13-vertex V coordinates](sandbox:/mnt/data/langi_13_base_V.csv)
-- [Small 13-vertex H coordinates](sandbox:/mnt/data/langi_13_base_H.csv)
-- [Small-body incidence and separators](sandbox:/mnt/data/langi_13_base_incidence.json)
-- [Small-body OBJ](sandbox:/mnt/data/langi_13_base.obj)
-- [Small-body STL](sandbox:/mnt/data/langi_13_base.stl)
+- Complete Sloan–Lángi bundle (`langi_sloan_literal_bundle.zip`)
+- Bundle README (`LANGI_SLOAN_README.md`)
+- Main centered V coordinates (`langi_balanced_actuated_V.csv`)
+- Main centered H coordinates (`langi_balanced_actuated_H.csv`)
+- Complete incidence, equilibrium and separator certificates (`langi_balanced_actuated_incidence.json`)
+- Independent verifier (`verify_langi_balanced_actuated.py`)
+- Main OBJ (`langi_balanced_actuated.obj`)
+- Main STL (`langi_balanced_actuated.stl`)
+- Small 13-vertex V coordinates (`langi_13_base_V.csv`)
+- Small 13-vertex H coordinates (`langi_13_base_H.csv`)
+- Small-body incidence and separators (`langi_13_base_incidence.json`)
+- Small-body OBJ (`langi_13_base.obj`)
+- Small-body STL (`langi_13_base.stl`)
 
 Reproduce the main audit with:
 

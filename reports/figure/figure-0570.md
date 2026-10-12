@@ -229,7 +229,7 @@ Checkpoint — полный1880-байтовый73×3 float64 NPY, SHA256 `8f13b
 
 Капсула содержит полный exact reconstruction, полный GMP verifier, numerical hull/mass primitives, свободный support-plane producer, минимальный35-шаговый производящий источник, полный checkpoint, scoped-check и команды. Все параметры включены. Декодируется45874-байтовый JSON-pack с SHA256 `e4f6bb105bc65f121ac44787c09cfa16ab8f86587eab734207dcb0d19697329f`; каждый файл проверяется отдельно. Сам KF27_CAPSULE.py имеет25590 байт и SHA256 `a209b8d08e5358891b84fa7c1f662c116921e2dc9797f98e46751d79b20bb4ed`.
 
-Дополнительные копии: [капсула](sandbox:/mnt/data/KF27_CAPSULE.py), [исходники и полные точные аудиты](sandbox:/mnt/data/KF27_HANDOFF.zip). Они не являются единственным источником восстановления: полный payload следует ниже.
+Дополнительные копии: капсула (`KF27_CAPSULE.py`), исходники и полные точные аудиты (`KF27_HANDOFF.zip`). Они не являются единственным источником восстановления: полный payload следует ниже.
 
 ## 8. Полная source capsule
 

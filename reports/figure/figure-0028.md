@@ -14,7 +14,7 @@ The supplied transcript had already isolated the exact Reshetov seed as a 14-fac
 \[
 (S,U,H)=(1,2,1),
 \]
-and placed the extra maximum next to the sole saddle; it later identified replacement of the full maximum basin through that saddle as the remaining local operation. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+and placed the extra maximum next to the sole saddle; it later identified replacement of the full maximum basin through that saddle as the remaining local operation.
 
 The new exact result is:
 
@@ -24,15 +24,15 @@ Consequently, no change of supports, no one-ridge flip, and no sequence of fixed
 
 The complete machine-checkable package is here:
 
-- [Exact exclusion package, including all certificates and verifiers](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion.zip)
-- [Technical note](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/README.md)
-- [Run every verifier](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/[internal-source-reference].sh)
+- Exact exclusion package, including all certificates and verifiers (`gomboc_adjacent_exact_exclusion.zip`)
+- Technical note (`README.md`)
+- Run every verifier (`[internal-source-reference].sh`)
 
 ZIP SHA-256: `95fc20fe0c02e2c7f91a9ff5eff9224e4329ea2922851df6b8b9b8789a51c9ef`.
 
 ## 1. Exact seed audit
 
-Reshetov's Appendix A supplies the 14 integer normals, the face cycles, the 24 incident-normal triples, and the exact rational reconstruction of the vertices; the paper's own Mathematica check uses rational arithmetic. :contentReference[oaicite:2]{index=2}
+Reshetov's Appendix A supplies the 14 integer normals, the face cycles, the 24 incident-normal triples, and the exact rational reconstruction of the vertices; the paper's own Mathematica check uses rational arithmetic.
 
 The normals are
 
@@ -65,7 +65,7 @@ The unique stable face is face 11. The two unstable normal cones are
 (1,11,13),\qquad(3,9,11),
 \]
 
-and the sole saddle has common normal pair \((9,13)\). The full exact volume, uniform centroid, face cycles, edge list, coordinates, and signs are in [the seed audit](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/exact_seed_geometry_audit.json), SHA-256 `f4ac84d13ec6700bdff470247021da78ba6a315d7d5788b605ccaf27f764162a`.
+and the sole saddle has common normal pair \((9,13)\). The full exact volume, uniform centroid, face cycles, edge list, coordinates, and signs are in the seed audit (`exact_seed_geometry_audit.json`), SHA-256 `f4ac84d13ec6700bdff470247021da78ba6a315d7d5788b605ccaf27f764162a`.
 
 ## 2. Support-coordinate and universal-unstable lemma
 
@@ -121,7 +121,7 @@ All 36 primal edges were processed. The exact classification is
 \boxed{13\text{ strict realizable},\quad4\text{ Farkas-infeasible},\quad4\text{ singular},\quad15\text{ nonflippable}.}
 \]
 
-The exact manifest is [here](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/flip_manifest.json), SHA-256 `dd2a3a50e100ce15e77d5109825b2632cbf6040d7a537945b4f2585bf49c6a75`.
+The exact manifest is here (`flip_manifest.json`), SHA-256 `dd2a3a50e100ce15e77d5109825b2632cbf6040d7a537945b4f2585bf49c6a75`.
 
 The directly relevant local moves are decisive:
 
@@ -138,7 +138,7 @@ For each of the 13 strict fans and each of its 24 possible target vertices, I im
 y^TG=0.
 \]
 
-The complete proof has 312 target exclusions and 936 exact Gordan leaves, with no survivor. The certificate is [here](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/exact_oneflip_exclusion_complete.json), SHA-256 `6eec536ead6e800a57bc97af91525e2d1de72b95b5b3443f2cc0e2d4358e6eda`; [the verifier](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/verify_oneflip.py) reproduces the counts and hashes.
+The complete proof has 312 target exclusions and 936 exact Gordan leaves, with no survivor. The certificate is here (`exact_oneflip_exclusion_complete.json`), SHA-256 `6eec536ead6e800a57bc97af91525e2d1de72b95b5b3443f2cc0e2d4358e6eda`; the verifier (`verify_oneflip.py`) reproduces the counts and hashes.
 
 ## 4. Global fixed-normal theorem
 
@@ -171,7 +171,7 @@ The original fan has two, so every strict simple fan with all 14 rays active has
 \boxed{U(P,p)\ge2}
 \]
 
-for every such polytope and every interior point \(p\). The exact invariant certificate is [here](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/global_fixed_normal_invariant.json), SHA-256 `2766f6cc72b53a7d32a5febf1effdec76d91b27dfeb68bc122d563abeb024a9a`; [the exact verifier](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/verify_global_invariant.py) recomputes all 364 triples, all 274 relevant circuits, both matrices, and the original strict fan inequalities.
+for every such polytope and every interior point \(p\). The exact invariant certificate is here (`global_fixed_normal_invariant.json`), SHA-256 `2766f6cc72b53a7d32a5febf1effdec76d91b27dfeb68bc122d563abeb024a9a`; the exact verifier (`verify_global_invariant.py`) recomputes all 364 triples, all 274 relevant circuits, both matrices, and the original strict fan inequalities.
 
 This exhausts not only the original support chamber but the entire strict fixed-normal programme.
 
@@ -206,7 +206,7 @@ flip 10–16: (8,2,8)            flip 21–22: (7,2,7)
 flip 11–12: (6,2,6)
 ```
 
-The complete coordinates and fractions are in [the adjacent geometry audit](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/exact_adjacent_geometry_audit.json), SHA-256 `862f5dc78c0a3e6f922fc8d2ff1e3151d217c21ee36d3572738a68d75c7de1c6`; [the verifier](sandbox:/mnt/data/gomboc_adjacent_exact_exclusion/verify_exact_adjacent_audit.py) recomputes every entry from the source supports.
+The complete coordinates and fractions are in the adjacent geometry audit (`exact_adjacent_geometry_audit.json`), SHA-256 `862f5dc78c0a3e6f922fc8d2ff1e3151d217c21ee36d3572738a68d75c7de1c6`; the verifier (`verify_exact_adjacent_audit.py`) recomputes every entry from the source supports.
 
 ## Consequence and remaining frontier
 

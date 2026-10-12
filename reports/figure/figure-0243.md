@@ -6,7 +6,7 @@ AI research report · 2026-09-03 UTC
 
 # Calm Quartz 90 — exact wall-242 sixth-support/full-star determination
 
-The durable journal records the fifth-support body as a used exact nonwinner and identifies the required next move: a nonserial sixth-support/full-star event destroying the complete `[2369,2732]` carrier packet while preserving `[0,H,C]` and `C`. :contentReference[oaicite:0]{index=0} The acceptance gate is a finite uniform-density polyhedron at its own exact volume centroid, strict `(S,U,H)=(1,1,0)`, with complete incidence, mechanics, verification, and OBJ/STL; wall points and near-solutions do not count. :contentReference[oaicite:1]{index=1}
+The durable journal records the fifth-support body as a used exact nonwinner and identifies the required next move: a nonserial sixth-support/full-star event destroying the complete `[2369,2732]` carrier packet while preserving `[0,H,C]` and `C`. The acceptance gate is a finite uniform-density polyhedron at its own exact volume centroid, strict `(S,U,H)=(1,1,0)`, with complete incidence, mechanics, verification, and OBJ/STL; wall points and near-solutions do not count.
 
 ## Literal disposition
 
@@ -345,21 +345,21 @@ OBJ and STL agree on 16 vertices, 28 outward triangular faces, 42 edge classes, 
 
 ## Artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER.zip)
-- [Full handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_result.json)
-- [Clean verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_clean_verification.json)
-- [Clean replay](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_clean_replay.txt)
-- [Exact generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/data/generator_exact.json)
-- [Exact own-centred V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Primitive H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/data/sixth_support16_exact_H_irredundant.csv)
-- [Face ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/data/sixth_support16_exact_faces.csv)
-- [Directed vertex ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/data/sixth_support16_exact_vertex_primitives.csv)
-- [True-edge full-cone ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/data/sixth_support16_exact_true_edges_full_cones.csv)
-- [External-arrow census](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/data/external_arrow_full_ledger.csv)
-- [Transition certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/certificates/sixth_support_shared_global_patch.json)
-- [Chronology certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/certificates/source_to_target_death_before_birth_obstruction.json)
-- [Perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Independent verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/scripts/verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER/mesh/body.stl)
+- Complete exact archive (`Calm_Quartz_90_wall242_sixth_support_exact_NONWINNER.zip`)
+- Full handoff (`Calm_Quartz_90_wall242_sixth_support_handoff.md`)
+- Structured result (`Calm_Quartz_90_wall242_sixth_support_result.json`)
+- Clean verification receipt (`Calm_Quartz_90_wall242_sixth_support_clean_verification.json`)
+- Clean replay (`Calm_Quartz_90_wall242_sixth_support_clean_replay.txt`)
+- Exact generator (`generator_exact.json`)
+- Exact own-centred V-data (`active_vertices_centered_exact.csv`)
+- Primitive H-data (`sixth_support16_exact_H_irredundant.csv`)
+- Face ledger (`sixth_support16_exact_faces.csv`)
+- Directed vertex ledger (`sixth_support16_exact_vertex_primitives.csv`)
+- True-edge full-cone ledger (`sixth_support16_exact_true_edges_full_cones.csv`)
+- External-arrow census (`external_arrow_full_ledger.csv`)
+- Transition certificate (`sixth_support_shared_global_patch.json`)
+- Chronology certificate (`source_to_target_death_before_birth_obstruction.json`)
+- Perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Independent verifier (`verify_independent.py`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)

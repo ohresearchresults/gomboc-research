@@ -8,11 +8,11 @@ AI research report · 2026-09-02 UTC
 
 ## Complete artifact and replay receipt
 
-- [Exact replay bundle](sandbox:/mnt/data/Calm_Raven_06_doublecap13_exact_NONWINNER.zip)
-- [Archive SHA-256 file](sandbox:/mnt/data/Calm_Raven_06_doublecap13_exact_NONWINNER.zip.sha256)
-- [Human-readable report](sandbox:/mnt/data/Calm_Raven_06_doublecap13_exact_NONWINNER/RESULT.md)
-- [Embedded exact master certificate](sandbox:/mnt/data/Calm_Raven_06_doublecap13_exact_NONWINNER/doublecap13_master_certificate.json)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Raven_06_doublecap13_exact_NONWINNER/endpoint/endpoint_centered.obj) and [STL](sandbox:/mnt/data/Calm_Raven_06_doublecap13_exact_NONWINNER/endpoint/endpoint_centered.stl)
+- Exact replay bundle (`Calm_Raven_06_doublecap13_exact_NONWINNER.zip`)
+- Archive SHA-256 file (`Calm_Raven_06_doublecap13_exact_NONWINNER.zip.sha256`)
+- Human-readable report (`RESULT.md`)
+- Embedded exact master certificate (`doublecap13_master_certificate.json`)
+- Watertight OBJ (`endpoint_centered.obj`) and STL (`endpoint_centered.stl`)
 
 Archive SHA-256: `18007b481c4be60182374a7ad162d0ff6d74898bdb5fbb199a4254d620e121dd`.
 
@@ -22,7 +22,7 @@ A pristine extraction passed all 95 immutable manifest entries. Its replay ended
 
 **EXACT NONWINNER.** I reconstructed the accepted eleven-plane endpoint, traversed its first genuinely unclassified non-stellar terminal-volume topology, and materialized two linked exact supporting planes. The resulting summand has `D:(V,E,F)=(22, 33, 13)`; the ordinary-own-centred common Minkowski refinement has `(V,E,F)=(101, 188, 89)` and exhaustive strict class `(S,U,H)=(2, 2, 2)`. It is therefore not the requested homogeneous polyhedral Gömböc.
 
-The acceptance gate remains a finite uniform-density object evaluated at its own exact volume centroid, with strict `(1,1,0)`, complete actual H/V/E incidence, exhaustive positive-margin mechanics, independent verification and matching meshes; auxiliary-centre, wall, smooth, near, or unexpanded objects do not qualify. :contentReference[oaicite:0]{index=0}
+The acceptance gate remains a finite uniform-density object evaluated at its own exact volume centroid, with strict `(1,1,0)`, complete actual H/V/E incidence, exhaustive positive-margin mechanics, independent verification and matching meshes; auxiliary-centre, wall, smooth, near, or unexpanded objects do not qualify.
 
 ## Reusable artifact
 

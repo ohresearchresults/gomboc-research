@@ -14,7 +14,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 Сохранены ещё семь точных own121weak000 тел C614/C612, включая контроль с отрицательным угловым примитивом порядка10^-8 на ребре длины порядка10^-9. Для этого контроля отдельный пятистрелочный cutset-сертификат доказывает, почему почти нулевой residual не означает приближения к физической отмене. Дополнительно построены четыре точных более низкокомплексных контроля, вплоть до **C576, own132weak000**.
 
-**Exact110 не получен. Канонический attaining C622 и принятый интервал34≤Cmin≤622 не изменяются.** Принятый родительский reverse616 имел U93/153 и H160–163; новый C610 ниже него по C, но всё ещё имеет дополнительную U/H-пару. :contentReference[oaicite:0]{index=0}
+**Exact110 не получен. Канонический attaining C622 и принятый интервал34≤Cmin≤622 не изменяются.** Принятый родительский reverse616 имел U93/153 и H160–163; новый C610 ниже него по C, но всё ещё имеет дополнительную U/H-пару.
 
 ## 2. Источники, прочтение и исправление конфликта
 
@@ -24,7 +24,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 Авторитетный parent: **minimum-0183**, SHA-256 **005358d5a1de0746980125112b98c534a5eaacfe5d0afcd3be0b371aed0a1721**. Проверена его компактная JSON-оболочка version2,92493байта.
 
-Обнаружен конфликт journal-summary с literal parent: в сводке написано новое primal5→3, тогда как буквальный результат говорит **старое5→3 заменено на5→10**. Использованы буквальные данные5→10. Это не новая смена дерева в настоящем исследовании, а исправление источниковой ссылки. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+Обнаружен конфликт journal-summary с literal parent: в сводке написано новое primal5→3, тогда как буквальный результат говорит **старое5→3 заменено на5→10**. Использованы буквальные данные5→10. Это не новая смена дерева в настоящем исследовании, а исправление источниковой ссылки.
 
 Все семантические номера ниже — **protected raw labels**, не canonicalC622. После контракций/удалений лексикографические actual IDs меняются. Полное соответствие восстанавливает `STRUCTURAL_BRIDGE.json`; новые вершины обозначены своими тройками настоящих опор.
 
@@ -330,4 +330,4 @@ Cold transcript1724байта, SHA-256 `0f29a1d2fd43a2222328e1768a4fc0e379faf294
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Удобные копии дополняют буквальную капсулу: [recovery-source](sandbox:/mnt/data/recover_c610_cutset.py), [полный проверенный source/output bundle](sandbox:/mnt/data/c610_cutset_verified_bundle.zip), [cold receipt](sandbox:/mnt/data/C610_COLD_RECEIPT.json).
+Удобные копии дополняют буквальную капсулу: recovery-source (`recover_c610_cutset.py`), полный проверенный source/output bundle (`c610_cutset_verified_bundle.zip`), cold receipt (`C610_COLD_RECEIPT.json`).

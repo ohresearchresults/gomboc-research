@@ -26,7 +26,7 @@ The printed30 G6 point rows and26 C144 support rows agree with the encoded exact
 
 ### C168 G6 actual uniform mass
 
-For unchanged `SC83_QCAP_TQ30_C168_211_G6`, the parent prints volume `6056987155808159273/1500000000000000000` and a corresponding centroid tuple. Those statements are not the mass of its literal30-point input. :contentReference[oaicite:0]{index=0}
+For unchanged `SC83_QCAP_TQ30_C168_211_G6`, the parent prints volume `6056987155808159273/1500000000000000000` and a corresponding centroid tuple. Those statements are not the mass of its literal30-point input.
 
 The corrected exact raw volume is
 
@@ -59,7 +59,7 @@ It finds56 maximal triangular facets. Thus the correction does not depend on flo
 
 ### Two corrected quality brackets
 
-The parent's G6 inradius/circumradius bracket and G4 birth-relative Q-depth bracket are also inconsistent with the exact report generated from those inputs. :contentReference[oaicite:1]{index=1} The correct brackets are:
+The parent's G6 inradius/circumradius bracket and G4 birth-relative Q-depth bracket are also inconsistent with the exact report generated from those inputs. The correct brackets are:
 
 | Quantity | Correct exact enclosing interval |
 |---|---|
@@ -70,7 +70,7 @@ The G6 relative Q-depth interval `[814444608638,814444608639)/10^12` and TQ inte
 
 ### Two corrected output hashes
 
-The parent's §7 prints incorrect hashes for the point-cell report and840-matrix bank. :contentReference[oaicite:2]{index=2} Its encoded expected-output manifest, supplied archived outputs and fresh exact replay instead agree on:
+The parent's §7 prints incorrect hashes for the point-cell report and840-matrix bank. Its encoded expected-output manifest, supplied archived outputs and fresh exact replay instead agree on:
 
 | Exact output | Bytes | Correct SHA-256 |
 |---|---:|---|
@@ -90,7 +90,7 @@ Fresh reconstruction confirms all four parent bodies:
 | `SC83_QCAP_REPAIR30_C168_211_G4` |30/84/56;168|2/1/1|000|000|60|
 | `SC83_QCAP_TQ30_C168_211_G6` |30/84/56;168|2/1/1|000|000|87|
 
-These are the parent's constructions, not four new outcomes of the interrupted assignment. Their original identities and complete interfaces are preserved. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+These are the parent's constructions, not four new outcomes of the interrupted assignment. Their original identities and complete interfaces are preserved.
 
 ### Primary S1-first continuation checkpoint
 
@@ -179,7 +179,7 @@ Selected unchanged-body receipts:
 | G6 full audit |22912|`e873f1de76133c49cbac96a82051edfff0dd4e10eb16976a29f4979d2e8cb3e5`|
 | Four-body material report |28678|`e44ef22e320bb355ab4832a3336041b4b2e68f8f02fc0dc888637a8113e4d6e1`|
 
-Convenience copies, not recovery dependencies: [source/audit bundle](sandbox:/mnt/data/SC83_CLOSEOUT_RECOVERY.zip) and [decoder](sandbox:/mnt/data/RECOVER_SC83_CLOSEOUT.py).
+Convenience copies, not recovery dependencies: source/audit bundle (`SC83_CLOSEOUT_RECOVERY.zip`) and decoder (`RECOVER_SC83_CLOSEOUT.py`).
 
 ```python
 import base64,hashlib,json,lzma,pathlib,sys

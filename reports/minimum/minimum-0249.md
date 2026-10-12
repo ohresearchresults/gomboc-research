@@ -19,11 +19,11 @@ For the unchanged uniformly filled H5 family, put
 
 there are therefore **at least two strict unstable vertices for every physical SPD metric**, including when other weak contacts occur. There is no remaining taper gap on this macro box.
 
-The earlier parent closed only lambda<=1/16. Its literal identity remains **minimum-0248**, SHA256 **b2e860c49dd2d48909fe2a2be1b6d0e5ca2bd1ef23a5e535b74da345b7798c63**. Its 1,456 integer rows are retained unchanged; the successor adds 4,243 accepted rows and the remaining taper slabs. This is a parameter-domain extension, not an addition of disjoint tree counts. fileciteturn37file0L74-L93
+The earlier parent closed only lambda<=1/16. Its literal identity remains **minimum-0248**, SHA256 **b2e860c49dd2d48909fe2a2be1b6d0e5ca2bd1ef23a5e535b74da345b7798c63**. Its 1,456 integer rows are retained unchanged; the successor adds 4,243 accepted rows and the remaining taper slabs. This is a parameter-domain extension, not an addition of disjoint tree counts.
 
 A further exact geometric control shows why some old supports genuinely stop working: the three arrows **1->2, 2->3, 9->4**, excluded by an old small-taper stress, are simultaneously **strictly positive under one explicit physical SPD metric on a genuine five-dimensional prism around lambda=1/2**. Consequently no nonnegative stress supported only on those three arrows can exclude that prism. The complete-tree atlas succeeds by using additional arrows, not by pretending that the old partial obstruction persists.
 
-This closes neither all basal H5 moduli nor all E17 bodies. It supplies no attaining body and does not change **34<=C_min<=622**. The all-root theorem is uncapped: it does not assume S=1, covariance conditioning, an independently selected polar metric, or absence of weak contacts. fileciteturn30file0L9-L11
+This closes neither all basal H5 moduli nor all E17 bodies. It supplies no attaining body and does not change **34<=C_min<=622**. The all-root theorem is uncapped: it does not assume S=1, covariance conditioning, an independently selected polar metric, or absence of weak contacts.
 
 ## 1. Input and evidence status
 
@@ -61,7 +61,7 @@ Use the actual moments
     Jz=A s²/12+lambda/12+lambda²/24,
     g=(Jx,Jy,Jz)/V.
 
-These are the parent's homogeneous-volume formulas, not transported or freely fitted centroid data. fileciteturn37file0L103-L141
+These are the parent's homogeneous-volume formulas, not transported or freely fitted centroid data.
 
 The new source checks the four fan identities, 34 reflection identities and 204 cleared edge-energy identity entries symbolically. On the full taper interval, its exact support check has **25,056 positive and 19,744 zero Bernstein coefficients**, minimum positive coefficient **1/6144**. All 34 specified incidences vanish identically, and all 56 nonincidences are strictly positive on every relevant genuine macro boundary stratum. Intrinsic degeneracies are not called genuine ten-vertex bodies.
 
@@ -109,7 +109,7 @@ The information retained by these stresses includes the exact identity
 
     −2H_ij = u_i u_iᵀ − u_j u_jᵀ + e_ij e_ijᵀ.
 
-Thus the certificate keeps edge energies rather than using only norm-order implications. These are coupled stresses in the original negative-arrow cone, not a stronger relaxation or a claim that every individual source-cut Schur test succeeds. This agrees with the coupling scope of the supplied path-energy mechanism. fileciteturn30file2L98-L104
+Thus the certificate keeps edge energies rather than using only norm-order implications. These are coupled stresses in the original negative-arrow cone, not a stronger relaxation or a claim that every individual source-cut Schur test succeeds. This agrees with the coupling scope of the supplied path-energy mechanism.
 
 ### Complete parameter cover
 
@@ -313,4 +313,4 @@ The following unabridged standard-library capsule contains the readable verifier
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Supplementary copies: [complete recovery capsule](sandbox:/mnt/data/recover_h5_all_taper.py), [readable exact verifier](sandbox:/mnt/data/h5_taper_allroot.py), [literal checkpoint](sandbox:/mnt/data/h5_taper_checkpoint.json), [exact report](sandbox:/mnt/data/h5_taper_allroot_report.json), and [recovery bundle](sandbox:/mnt/data/h5_all_taper_recovery.zip). The embedded capsule reconstructs every proof input without these files.
+Supplementary copies: complete recovery capsule (`recover_h5_all_taper.py`), readable exact verifier (`h5_taper_allroot.py`), literal checkpoint (`h5_taper_checkpoint.json`), exact report (`h5_taper_allroot_report.json`), and recovery bundle (`h5_all_taper_recovery.zip`). The embedded capsule reconstructs every proof input without these files.

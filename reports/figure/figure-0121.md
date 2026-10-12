@@ -35,7 +35,7 @@ n14, r16, n23, n17, n10, n24, r24.
 
 Exact rational reconstruction proves that `D` is full-dimensional and irredundant, with ten vertices, fifteen true edges, and seven maximal faces. All ten vertices are simple. Its graph and exact metric data are asymmetric; it has no nontrivial graph-and-distance automorphism.
 
-The exact H planes, V vertices, common-refinement faces, cycles, true edges, source-pair decomposition, and full equilibrium ledger are serialized in [state.pkl](sandbox:/mnt/data/minkowski_fanchange_slot9/state.pkl). The deterministic exact reconstruction is in [build_state.py](sandbox:/mnt/data/minkowski_fanchange_slot9/build_state.py).
+The exact H planes, V vertices, common-refinement faces, cycles, true edges, source-pair decomposition, and full equilibrium ledger are serialized in state.pkl. The deterministic exact reconstruction is in build_state.py.
 
 This is less convenient than the requested CSV certificate, but it is not a floating-point search checkpoint: every stored coordinate, support, normal, incidence equality, inactive inequality, centroid quantity, and equilibrium primitive is a Python `Fraction`.
 
@@ -53,7 +53,7 @@ with exact dyadic sample
 s = 1855254715/8589934592.
 ```
 
-The complete wall ordering, exact circuit row sets, determinant polynomials, isolating dyadic intervals, removed facets, added facets, and left/right mechanics are in [topology_path exact atlas](sandbox:/mnt/data/p9_threebranch_library/topology_path(2).json). All 38 fixed-support cells were searched. Additional searches included random full-dimensional tetrahedral correctors, generic H-polytopes, transformed correctors, dynamic support insertion, and local coupled optimization. None produced `(1,1,0)` or a strict `(2,1,1)` endpoint.
+The complete wall ordering, exact circuit row sets, determinant polynomials, isolating dyadic intervals, removed facets, added facets, and left/right mechanics are in topology_path exact atlas (`topology_path(2`).json). All 38 fixed-support cells were searched. Additional searches included random full-dimensional tetrahedral correctors, generic H-polytopes, transformed correctors, dynamic support insertion, and local coupled optimization. None produced `(1,1,0)` or a strict `(2,1,1)` endpoint.
 
 For the final fixed exact `D`, the Minkowski scaling parameter has two fan strata:
 
@@ -94,7 +94,7 @@ p(t) = sum_alpha Delta^alpha p(0)
 
 The Newton-binomial representation was then converted exactly to ordinary monomials. This determines every degree-three volume coefficient and every coefficient of all three degree-four first-moment polynomials without numerical fitting.
 
-The 35 exact geometry evaluations are in [grid_values.json](sandbox:/mnt/data/minkowski_fanchange_slot9/grid_values.json). The complete exact ordinary-monomial polynomials, exact root, exact Jacobian, and exact nonzero Jacobian determinant are in [polynomials.json](sandbox:/mnt/data/minkowski_fanchange_slot9/polynomials.json). The deterministic interpolation implementation is [build_polys.py](sandbox:/mnt/data/minkowski_fanchange_slot9/build_polys.py), and the exact cell evaluator is [evaluate_grid.py](sandbox:/mnt/data/minkowski_fanchange_slot9/evaluate_grid.py).
+The 35 exact geometry evaluations are in grid_values.json. The complete exact ordinary-monomial polynomials, exact root, exact Jacobian, and exact nonzero Jacobian determinant are in polynomials.json. The deterministic interpolation implementation is build_polys.py, and the exact cell evaluator is evaluate_grid.py.
 
 The positive isolated root is the exact dyadic point stored under `root` in `state.pkl` and `polynomials.json`; numerically it is approximately
 
@@ -117,7 +117,7 @@ has infinity-norm contraction approximately
 4.612795995683309e-11 < 1,
 ```
 
-so the positive moment root is unique in that box. The reproducible interval implementation is [build_interval.py](sandbox:/mnt/data/minkowski_fanchange_slot9/build_interval.py).
+so the positive moment root is unique in that box. The reproducible interval implementation is build_interval.py.
 
 ## Complete pointwise own-centroid audit
 
@@ -176,14 +176,14 @@ The exact 38-cell circuit atlas and the final 49-face state provide the reusable
 
 ## Reproducible files and incompleteness boundary
 
-- [Exact complete geometry and audit state](sandbox:/mnt/data/minkowski_fanchange_slot9/state.pkl)
-- [Exact mixed polynomials and Jacobian](sandbox:/mnt/data/minkowski_fanchange_slot9/polynomials.json)
-- [Exact 35-point mixed-polynomial evaluations](sandbox:/mnt/data/minkowski_fanchange_slot9/grid_values.json)
-- [Exact geometry builder](sandbox:/mnt/data/minkowski_fanchange_slot9/build_state.py)
-- [Exact polynomial interpolation](sandbox:/mnt/data/minkowski_fanchange_slot9/build_polys.py)
-- [Exact grid evaluator](sandbox:/mnt/data/minkowski_fanchange_slot9/evaluate_grid.py)
-- [Partially completed interval verifier](sandbox:/mnt/data/minkowski_fanchange_slot9/build_interval.py)
-- [Exact 38-cell/37-circuit design atlas](sandbox:/mnt/data/p9_threebranch_library/topology_path(2).json)
-- [Inherited exact same-fan P9 bundle](sandbox:/mnt/data/minkowski_gomboc_slot9/minkowski_common_fan_fallback.zip)
+- Exact complete geometry and audit state (`state.pkl`)
+- Exact mixed polynomials and Jacobian (`polynomials.json`)
+- Exact 35-point mixed-polynomial evaluations (`grid_values.json`)
+- Exact geometry builder (`build_state.py`)
+- Exact polynomial interpolation (`build_polys.py`)
+- Exact grid evaluator (`evaluate_grid.py`)
+- Partially completed interval verifier (`build_interval.py`)
+- Exact 38-cell/37-circuit design atlas (`topology_path(2`).json)
+- Inherited exact same-fan P9 bundle (`minkowski_common_fan_fallback.zip`)
 
 The missing final H/V CSV export, new clean-room verifier, complete edge perturbation box, and new OBJ/STL are real deliverable gaps and should not be inferred from the exact state file. The endpoint is therefore a materialized exact research state and a stronger fan-changing nonwinner, but not a contract-complete artifact bundle and not a homogeneous polyhedral Gömböc.

@@ -24,9 +24,9 @@ A positive extension survives for a different, precisely delimited class: **all 
 
 ## 1. Authority, work performed, and scope
 
-I read the literal parent `minimum-0035`, SHA-256 `8c1f1ed216fa9ce12e3141e4b177040958865e3dbbc42c88b8a7f4fcf68faf36`, end-to-end. Its compact version-2 envelope authenticates at 57,518 bytes by taking its title-through-EOF Markdown, adding one final LF, and serializing with `ensure_ascii=False,separators=(',',':')`. There is no conflict between its scoped three-triangle theorem and this result. The parent explicitly proves only the three-facet inequality and the associated three-row Schur reduction. :contentReference[oaicite:0]{index=0}
+I read the literal parent `minimum-0035`, SHA-256 `8c1f1ed216fa9ce12e3141e4b177040958865e3dbbc42c88b8a7f4fcf68faf36`, end-to-end. Its compact version-2 envelope authenticates at 57,518 bytes by taking its title-through-EOF Markdown, adding one final LF, and serializing with `ensure_ascii=False,separators=(',',':')`. There is no conflict between its scoped three-triangle theorem and this result. The parent explicitly proves only the three-facet inequality and the associated three-row Schur reduction.
 
-I reconstructed and executed its literal `chain_minor.py`: the 9,929-byte source has SHA-256 `1b3bd959fb05e9de55b084fb4551fb7317b931206576bb13c0296690d6bc8aa1`; its 3,720-byte output reproduces SHA-256 `32b3f4b4843e662f619811fc855a50f4cfe11fca809f47777d054f05cb59e906`. In particular, the parent's negative minor involving two quadrilaterals remains `-2626495209961/103553973712244`, and its three valid triangular-chain checks pass. That nontriangular warning is preserved, not contradicted. :contentReference[oaicite:1]{index=1}
+I reconstructed and executed its literal `chain_minor.py`: the 9,929-byte source has SHA-256 `1b3bd959fb05e9de55b084fb4551fb7317b931206576bb13c0296690d6bc8aa1`; its 3,720-byte output reproduces SHA-256 `32b3f4b4843e662f619811fc855a50f4cfe11fca809f47777d054f05cb59e906`. In particular, the parent's negative minor involving two quadrilaterals remains `-2626495209961/103553973712244`, and its three valid triangular-chain checks pass. That nontriangular warning is preserved, not contradicted.
 
 I then investigated longer common-apex fans. Their rank-three area-centroid factorization reduced the proposed spectral extension to a cubic. A rational six-vertex fan supplies the first offending eigenvalue; splitting the two roof inequalities embeds it into the continuous C32 family below. The final proof and exact controls require neither a numerical locator nor any unrecovered parent data. The malformed cap9 decoder, the pending five-tree reconstruction, and free-mass matrix relaxations are not dependencies.
 
@@ -771,4 +771,4 @@ REPORT 37861 e35023eb2e7da92dc8dd62763344a911987afada035d3712e265d68b7d701c1f
 SOURCE 16394 6419d9a0f237bf13dd429c5a843c07e7d177d053a154a8c32b99e71cfe3fc238
 ```
 
-Supplementary [source, full physical ledger, transcript, and report archive](sandbox:/mnt/data/C32_FOUR_TRIANGLE_FAN_PHYSICAL_BOUNDARY_V1.zip). The inline capsule is sufficient without this archive.
+Supplementary source, full physical ledger, transcript, and report archive (`C32_FOUR_TRIANGLE_FAN_PHYSICAL_BOUNDARY_V1.zip`). The inline capsule is sufficient without this archive.

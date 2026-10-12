@@ -20,7 +20,7 @@ The low-arithmetic companion **VH09_RESTORED22_G4** keeps a 58-bit common center
 
 I read the entire supplied 1,141-line journal, its branch memory and literal parent payload, and all 16 decoded parent source/input/manifest units. I also freshly ran the parent's exact replay: its six-body reconstruction, controls and all 23 expected output hashes passed. The extracted 27,162-byte parent recovery program matched SHA-256 `b62e6524a588a565a487148ca7338d21f4c043eeb3b55bb093be1d922c9146f0`. No necessary exact dependency is missing, and no research connector or external archive was used.
 
-The starting solid is the physical 21-point SL47 G4 hull, not the older 21-halfspace CONTACT2 solid. Its literal coordinates, own mass, own312 class and changed complex are the source authority. The parent's later status8 nonlinear terminal remains an infeasible, nonaccepted checkpoint; I did not treat its low objective as a construction or rerun it. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The starting solid is the physical 21-point SL47 G4 hull, not the older 21-halfspace CONTACT2 solid. Its literal coordinates, own mass, own312 class and changed complex are the source authority. The parent's later status8 nonlinear terminal remains an infeasible, nonaccepted checkpoint; I did not treat its low objective as a construction or rerun it.
 
 ## Exact principal definitions
 
@@ -240,7 +240,7 @@ To repeat numerical discovery, use the producing command above in a disposable d
 
 Capsule identities: decoded JSON81,870bytes/SHA256 `b3414d8a2a8acb57ec6cedfad25c96c9791d1ee4ae0e7b25480cee47bad093d1`; XZ21,212bytes/SHA256 `12a9e3db8ae2c77612c69952ffd033d8cf980a2671259411aa391d08a4f09c52`; normalized base6428,284characters/SHA256 `b5d7c5b83d4e39af93906eafaca5878e905e247dbd01a7863000f0d5089609c9`; recovery program29,481bytes/SHA256 `30d5ad4cb84ab7fdf1c53bfaf622195782f848fc5b857c2a45f1715eec27c1de`.
 
-Supplementary conveniences: [recovery program](sandbox:/mnt/data/RECOVER_VH09.py), [complete source/output archive](sandbox:/mnt/data/VH09_RESEARCH_HANDOFF.zip), [observed cold-replay log](sandbox:/mnt/data/VH09_COLD_REPLAY.log). None replaces the inline recovery capsule.
+Supplementary conveniences: recovery program (`RECOVER_VH09.py`), complete source/output archive (`VH09_RESEARCH_HANDOFF.zip`), observed cold-replay log (`VH09_COLD_REPLAY.log`). None replaces the inline recovery capsule.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

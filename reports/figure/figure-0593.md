@@ -14,7 +14,7 @@ Branch: `[internal-source-reference]`. This is a continuation handoff, not a bra
 
 The most useful endpoints are the low-edge **C334 carrier-release bridge** and the **C468/H80** body with sole Q depth about 0.19449543. The C354 body has particularly small exact mass coordinates. These are nonwinners; none is an own110 record.
 
-I read the complete supplied journal through EOF, including its branch memory, and all four exact materials. Their byte counts and SHA-256 values matched the manifest. No missing external source, C622 construction, research connector or historical workspace was used. The literal parent used in computation was `J115_RELAY3_G6.txt`, SHA-256 `aa3003eb12e1b6258123c8fd3906bace48b474db6bed2348caa8a1930562a9bc`. Its exact replay returned `124/186/64`, strict121/weak000, P depth approximately 0.419325156574125, Q empty. G8 was not substituted. The supplied journal identifies the G6 and G8 bodies as distinct exact objects. fileciteturn1file0L28-L29
+I read the complete supplied journal through EOF, including its branch memory, and all four exact materials. Their byte counts and SHA-256 values matched the manifest. No missing external source, C622 construction, research connector or historical workspace was used. The literal parent used in computation was `J115_RELAY3_G6.txt`, SHA-256 `aa3003eb12e1b6258123c8fd3906bace48b474db6bed2348caa8a1930562a9bc`. Its exact replay returned `124/186/64`, strict121/weak000, P depth approximately 0.419325156574125, Q empty. G8 was not substituted. The supplied journal identifies the G6 and G8 bodies as distinct exact objects.
 
 ## Exact retained bodies
 
@@ -568,4 +568,4 @@ if __name__=='__main__':
 | `KL13_H80_G5_PYTHON_AUDIT.json` | 104305 | `007fa00ef43c9ac5114f87102e2900098e9f23a667e70b18200e055a5259beab` |
 | `KL13_EXIT_BOUND.json` | 1308 | `709018dc84842753364333e0d331c7b11855c30ae6e86791b989ba6383b37f1f` |
 
-Supplementary copy of the source, inputs, both audit families and receipts: [KL13 handoff archive](sandbox:/mnt/data/KL13_HANDOFF.zip). The inline source capsule is sufficient to reconstruct the four retained bodies and certificates without this archive.
+Supplementary copy of the source, inputs, both audit families and receipts: KL13 handoff archive (`KL13_HANDOFF.zip`). The inline source capsule is sufficient to reconstruct the four retained bodies and certificates without this archive.

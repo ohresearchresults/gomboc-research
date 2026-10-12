@@ -34,9 +34,9 @@ SHA-256 de9cd99e6171b5909689e636d347b20d427f837b702d67eb007279b34f4fbaeb
 C32_FOUR_TRIANGLE_FAN_PHYSICAL_BOUNDARY_V1
 ```
 
-The first supplies the accepted 281-tree exclusion and the five-form/25-frame premise. Its 51,912 matrices were **not rerun** in this continuation. The second supplies the actual four-row singularity warning. No conflicting tree, facet, or canonical-map alias was used. The parent explicitly distinguishes these TREE ordinals from C32 map IDs. :contentReference[oaicite:0]{index=0}
+The first supplies the accepted 281-tree exclusion and the five-form/25-frame premise. Its 51,912 matrices were **not rerun** in this continuation. The second supplies the actual four-row singularity warning. No conflicting tree, facet, or canonical-map alias was used. The parent explicitly distinguishes these TREE ordinals from C32 map IDs.
 
-The second parent's proper common-apex four-triangle fan can have a negative or zero determinant despite positive proper minors and strict actual mechanics. **No four-row physical block is inverted in this proof.** The positive matrices below are auxiliary separating certificates, not principal blocks of the actual `I+Lambda`. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The second parent's proper common-apex four-triangle fan can have a negative or zero determinant despite positive proper minors and strict actual mechanics. **No four-row physical block is inverted in this proof.** The positive matrices below are auxiliary separating certificates, not principal blocks of the actual `I+Lambda`.
 
 ## 2. Exact newly excluded domains and complete remaining cover
 
@@ -160,7 +160,7 @@ Lambda 1=3*1,
 Lambda_aa=0.
 ```
 
-The accepted trace theorem supplies `0<Lambda_ai<10/9` off the diagonal. These are actual facet areas, centroids and cone volumes; no polar volume centroid is substituted. These physical identities and the cap are inherited from the first parent. :contentReference[oaicite:3]{index=3}
+The accepted trace theorem supplies `0<Lambda_ai<10/9` off the diagonal. These are actual facet areas, centroids and cone volumes; no polar volume centroid is substituted. These physical identities and the cap are inherited from the first parent.
 
 For an arbitrary physical primal metric `M>0`, use its one reciprocal `N=M^-1`, and set `H=Q N Q^T`. H is nonzero PSD, with actual geometric rank three. The separating proof is stronger in that it does not need to impose rank three, a metric condition bound, or any lower volume cutoff.
 
@@ -192,7 +192,7 @@ has entries `B_ij=A_i dist(c_j,aff F_i)/V`; the selected traces scale by the act
 
 `x y<=r_ab^2`, where `x=Lambda_ab`, `y=Lambda_ba`.
 
-This is the physical pair-hull inequality, not a constraint assigned to independently chosen rows. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+This is the physical pair-hull inequality, not a constraint assigned to independently chosen rows.
 
 Together with the cap,
 
@@ -283,7 +283,7 @@ T     =(0,0,1,2,3,4,5,6,0)
 T_alt =(0,0,8,2,3,4,5,6,0).
 ```
 
-The second is available only when actual edge 28 and its required sign are present. Matching selects some sign-compatible complementary pair; it does not license fixing one arbitrarily. :contentReference[oaicite:6]{index=6}
+The second is available only when actual edge 28 and its required sign are present. Matching selects some sign-compatible complementary pair; it does not license fixing one arbitrarily.
 
 A new corollary is that, when an actual dual escape tree has shape 253 or 285, its complete nonnegative graph is that unique tree. Hence **at most one of the two distinct primal choices can be sign-compatible as its complementary matching tree**, even when both primal escape trees are mechanically available. This does not identify which choice works, and does not exclude a root or type. Both must still be considered before actual facet-label transport and complement checking.
 
@@ -293,7 +293,7 @@ No canonical C32 incidence sweep was performed. The 17 accepted whole types rema
 
 `{33,34,72,139,149,152,159,163,164,178,192,217,284,288,293,294,295}`.
 
-The shared register stays `32<=C_min<=1374`. The unpersisted coordinator 7954 package is not promoted. No new `F>=10`, `V>=10`, `C>=34`, whole-type count, or attainer is claimed. :contentReference[oaicite:7]{index=7}
+The shared register stays `32<=C_min<=1374`. The unpersisted coordinator 7954 package is not promoted. No new `F>=10`, `V>=10`, `C>=34`, whole-type count, or attainer is claimed.
 
 ## 6. Complete recovery, observed execution and pins
 
@@ -373,7 +373,7 @@ Observed decisive terminal markers:
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Supplementary [new complete proof checkpoint](sandbox:/mnt/data/NOVA24_F9_11_SHADOW_FRAMES_V1.zip): **131155 bytes**, SHA-256 `fd0c6cda92dba1b474cd43376b0a91f1e93280e580151b98264169d7e7ab7848`. The archive is optional; all inputs, generator, independent checker, coverage reconstruction and deletion audit are included literally below.
+Supplementary new complete proof checkpoint (`NOVA24_F9_11_SHADOW_FRAMES_V1.zip`): **131155 bytes**, SHA-256 `fd0c6cda92dba1b474cd43376b0a91f1e93280e580151b98264169d7e7ab7848`. The archive is optional; all inputs, generator, independent checker, coverage reconstruction and deletion audit are included literally below.
 
 ## 7. Complete executable source
 

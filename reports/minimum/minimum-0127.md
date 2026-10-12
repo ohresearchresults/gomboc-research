@@ -41,7 +41,7 @@ The entire new journal and its literal parents, and the entire supplied properne
 
 The authoritative body/source parent is minimum-0122, advertised SHA-256 a57548bf7f7db6cdd82467ad12462e1f201c78a3b343270a89caa20f94b4229b. The strict all-pyramid premise is minimum-0022, SHA-256 85b0f28d8e4c53b1e4d13566ebcacb6b1bfcd92547d5524599743dde7534de92. Their accepted results were not routine-reverified. The new executable has no parent-file import or missing checkpoint dependency.
 
-The inherited bridge says that J(B), including candidates with extra weak points, is a compact subset of D. It uses maximum-image-tetrahedron limits, their actual uniformly filled centroids, strict-equilibrium persistence, and the all-pyramid strict conclusion. It supplies no number eta. That qualitative result is the premise used here. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The inherited bridge says that J(B), including candidates with extra weak points, is a compact subset of D. It uses maximum-image-tetrahedron limits, their actual uniformly filled centroids, strict-equilibrium persistence, and the all-pyramid strict conclusion. It supplies no number eta. That qualitative result is the premise used here.
 
 One new external mathematical input is Theorem 1 of Jeronimo, Perrucci and Tsigaridas, *On the minimum of a polynomial function on a basic closed semialgebraic set and applications*, arXiv:1112.0544. Its exact statement was checked in the primary PDF, printed page 2, including a page-image inspection. The theorem and its quantitative formula are stated below. No external archive or research connector was used.
 
@@ -149,7 +149,7 @@ The SMT file uses an OR over roots and, at each nonroot, an OR over its actual n
 
 ## 3. Why the reciprocal-variable branches are compact before any numerical cutoff
 
-Every point of any such branch projects to J(B). By the accepted properness theorem, these p coordinates lie in a compact subset of D. For p in that compact subset, the actual own-centered bodies have uniform positive interior radius and a uniform finite exterior radius. The supplied two-half argument and its application to the actual polar give positive lower bounds on both adjacent eigenvalue ratios for any jointly monostatic metric. With trace one, the least eigenvalue therefore stays uniformly positive. :contentReference[oaicite:2]{index=2}
+Every point of any such branch projects to J(B). By the accepted properness theorem, these p coordinates lie in a compact subset of D. For p in that compact subset, the actual own-centered bodies have uniform positive interior radius and a uniform finite exterior radius. The supplied two-half argument and its application to the actual polar give positive lower bounds on both adjacent eigenvalue ratios for any jointly monostatic metric. With trace one, the least eigenvalue therefore stays uniformly positive.
 
 Consequently H det(M) is bounded away from zero and sigma is bounded above. The p and trace-one metric coordinates are already bounded. Each branch is closed by its polynomial definition, so it is compact; every connected component is compact. This argument uses only an unknown qualitative positive distance supplied by properness. It does NOT assume the explicit eta subsequently derived. Empty branches require no special treatment.
 
@@ -162,7 +162,7 @@ For integer polynomial constraints in n variables, with m defining polynomials o
 Btilde=max(Bcoef,2n+2m),
 ```
 
-provided the objective has degree at most d and coefficient magnitudes at most Bcoef. No generic critical-point assumption is required. :contentReference[oaicite:3]{index=3}
+provided the objective has degree at most d and coefficient magnitudes at most Bcoef. No generic critical-point assumption is required.
 
 The new exact expansion divides each nonzero constraint by its positive coefficient gcd. This changes neither its equality nor its inequality. The complete resulting library has **86 polynomials and 750976 nonzero monomials**. Its exact parameters are
 
@@ -310,7 +310,7 @@ The new effectiveness step is complete, but the interior decision is open. The u
 
 No joint110 point, no full projective-orbit exclusion, no U-only full-orbit theorem, no E17 registry exclusion, and no change to 34<=C_min<=622 are claimed.
 
-Supplemental artifacts: [complete generated bundle](sandbox:/mnt/data/bevel_joint_horizon_bundle.zip) and [standalone source](sandbox:/mnt/data/bevel_joint/joint_bevel.py).
+Supplemental artifacts: complete generated bundle (`bevel_joint_horizon_bundle.zip`) and standalone source (`joint_bevel.py`).
 
 ## Complete runnable source: joint_bevel.py
 

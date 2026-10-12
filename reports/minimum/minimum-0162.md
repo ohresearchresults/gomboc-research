@@ -55,7 +55,7 @@ No T>=51/25 body, whole E17 exclusion, or new attaining minimum is claimed. The 
 
 I read the complete new 2,008-line journal, its complete literal parent payload, and the complete new height proof through EOF. The six earlier geometric sources and earlier parent result remain available in this same chat; their unchanged mathematical content was retained and consulted rather than reconstructed from missing archive IDs.
 
-The new journal is 313472 bytes, SHA-256 e2ac334d495fee7830ffa7b973db925532db8cd648c10c39b2de71e2ad437c69. The new material [internal-source-reference] is 10958 bytes, SHA-256 c23e9d7f45f6fa3436daac568156befa6dd5bd7d7c8d43205a47d23601a50337. The required literal parent is minimum-0158, with declared immutable payload SHA-256 dc5a857ac21b3a00a6c6532258d95c8dd2f7740134c37e86d65e3261f57764a5. I found no mathematical identity or incidence conflict with that payload. Its proper33 conclusion and distinction between its genuine control and stationarity are retained. :contentReference[oaicite:0]{index=0}
+The new journal is 313472 bytes, SHA-256 e2ac334d495fee7830ffa7b973db925532db8cd648c10c39b2de71e2ad437c69. The new material [internal-source-reference] is 10958 bytes, SHA-256 c23e9d7f45f6fa3436daac568156befa6dd5bd7d7c8d43205a47d23601a50337. The required literal parent is minimum-0158, with declared immutable payload SHA-256 dc5a857ac21b3a00a6c6532258d95c8dd2f7740134c37e86d65e3261f57764a5. I found no mathematical identity or incidence conflict with that payload. Its proper33 conclusion and distinction between its genuine control and stationarity are retained.
 
 The full geometric first-variation, hinge, projection, and greedy proofs are supplied. The old greedy executable [internal-source-reference] and old root-duality executable [internal-source-reference] are not computational dependencies and were not replayed. The original full source proving the inherited actual joint-mass inequality
 
@@ -63,7 +63,7 @@ The full geometric first-variation, hinge, projection, and greedy proofs are sup
 
 is not separately attached; (V3) explicitly uses that accepted theorem as recorded in the parent. The new ordinary-A reduction, auxiliary-height bound, and (V1) do **not** use the joint upper bound. The separate notebook localization/attainment results are neither reproved nor enlarged here; the stationary statements below concern the genuine polyhedral full-class maxima stipulated in this branch.
 
-The scalar H(b,z) kernel appearing below is already in the accepted Cstar work. I am not claiming a new Cstar value or a better constant. The fresh 28-cell certificate is an independent self-contained proof of the weaker numerical bound H<2029/1000, so the present recovery needs none of that work's absent executable data. :contentReference[oaicite:1]{index=1}
+The scalar H(b,z) kernel appearing below is already in the accepted Cstar work. I am not claiming a new Cstar value or a better constant. The fresh 28-cell certificate is an independent self-contained proof of the weaker numerical bound H<2029/1000, so the present recovery needs none of that work's absent executable data.
 
 ## 3. Common actual-body notation and admissible variations
 
@@ -83,25 +83,25 @@ The actual two-anchor description is
 
     P={x,y>=0: hA(x,y)<=z<=min(1-hB(x,y),[1-(1-d)x-(1-c)y]/alpha)},
 
-with finite convex homogeneous piecewise-linear hA,hB. Proper33 means hA equals zero on both unit axes and hB equals one there. Thus hA<=0 and hB<=x+y. The full joint mark variations, not merely fixed-lattice optimization, force proper33 in the sector under study: lowering a nonminimal marked C increases the transformed trace by alpha epsilon X, and extending its radius when hB(C)<1 has positive derivative (b+2c)X. The corresponding D variations give the other axis. These changes include the affine determinant and the changed endpoint value. :contentReference[oaicite:2]{index=2}
+with finite convex homogeneous piecewise-linear hA,hB. Proper33 means hA equals zero on both unit axes and hB equals one there. Thus hA<=0 and hB<=x+y. The full joint mark variations, not merely fixed-lattice optimization, force proper33 in the sector under study: lowering a nonminimal marked C increases the transformed trace by alpha epsilon X, and extending its radius when hB(C)<1 has positive derivative (b+2c)X. The corresponding D variations give the other axis. These changes include the affine determinant and the changed endpoint value.
 
 For clarity about the strength of stationarity used, at fixed ell the exact frozen-density comparison is
 
     T(P')>T(P) iff Delta integral G > (q/V) Delta V Delta E.
 
-The supplied full-class cap and facet arguments imply: every auxiliary true vertex has G>0; every free maximal facet F satisfies max_F G+3 mean_F G<=0; and an ordinary facet with only the canonical vertex X is a true triangle [X,Y,Z] with G(Y)=G(Z)=-G(X)/3. Thin-edge caps handle equality G=0; whole-facet two-sided pivots allow nonsimple vertices to split. None of these facts assumes a fixed lattice. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+The supplied full-class cap and facet arguments imply: every auxiliary true vertex has G>0; every free maximal facet F satisfies max_F G+3 mean_F G<=0; and an ordinary facet with only the canonical vertex X is a true triangle [X,Y,Z] with G(Y)=G(Z)=-G(X)/3. Thin-edge caps handle equality G=0; whole-facet two-sided pivots allow nonsimple vertices to split. None of these facts assumes a fixed lattice.
 
 A special AC lower facet admits the two-sided hinge z=p x -> z=(p+epsilon)x, hence integral_F G x=0. The AD hinge uses y. On an arbitrary such polygon the exact fan inequality is
 
     integral_F G phi <= (G(A)+3 max_F G)/4 * integral_F phi,
 
-for nonnegative affine phi vanishing on the canonical hinge. The two B hinges are analogous. This is an actual polygon reaction, not a triangle substituted for a maximal polygon. :contentReference[oaicite:5]{index=5}
+for nonnegative affine phi vanishing on the canonical hinge. The two B hinges are analogous. This is an actual polygon reaction, not a triangle substituted for a maximal polygon.
 
 ## 4. New high-anchor ordinary-facet erasure
 
 ### 4.1 An ordinary A triangle caps G globally
 
-Suppose an ordinary A facet is F=[A,Y,Z], with G(Y)=G(Z)=LA. Its base YZ can meet only the root or a special B facet. The other possibilities are excluded by the common-anchor plane argument, the protected coordinate planes, or the incompatible levels LA and LB. This is the literal base-neighbor classification, not an inference from a triangulation. :contentReference[oaicite:6]{index=6}
+Suppose an ordinary A facet is F=[A,Y,Z], with G(Y)=G(Z)=LA. Its base YZ can meet only the root or a special B facet. The other possibilities are excluded by the common-anchor plane argument, the protected coordinate planes, or the incompatible levels LA and LB. This is the literal base-neighbor classification, not an inference from a triangulation.
 
 First suppose YZ lies on a B facet J. Let h>=0 be its affine slack, normalized by h(A)=1; h(B)=0. Define
 
@@ -141,7 +141,7 @@ The supplied polygon hinge obstruction still makes every ordinary B base root-ba
 
     V_true<=F_true+1, E_true<=2F_true-1.
 
-This yields the announced 9/15/8 upper bounds. The root has at most two A neighbors, two special B neighbors, and one ordinary B neighbor; proper33 removes coordinate neighbors. Hence it has at most five physical edges. :contentReference[oaicite:7]{index=7}
+This yields the announced 9/15/8 upper bounds. The root has at most two A neighbors, two special B neighbors, and one ordinary B neighbor; proper33 removes coordinate neighbors. Hence it has at most five physical edges.
 
 There is also at most one positive-ell auxiliary vertex. Write theta=x/(x+y). The reduced hA has one angular breakpoint. If rB=0, hB has one; the convex root-shadow function has positive axis values and a nonempty negative interval I. At least one of those two breakpoints must lie strictly inside I, since an affine function cannot be negative between two zero endpoints. Only a breakpoint outside the closed root shadow can produce an off-root silhouette vertex, so at most one remains.
 
@@ -155,7 +155,7 @@ This strengthens the new height-one input for polyhedral maxima. The input's act
 
     m<=s0/(4t)<=s0/4<1/2.
 
-It also supplies the sharper T-dependent endpoint bound recorded in the assignment. :contentReference[oaicite:8]{index=8}
+It also supplies the sharper T-dependent endpoint bound recorded in the assignment.
 
 Put C0=(s0+m)/(1-m). Since m<=s0/4,
 
@@ -286,7 +286,7 @@ Let W=Vol(P\Q), K=projection_xy P, and S_P=integral_P(x+y). The removed length o
     W <= (m/alpha) integral_K s <= (4m/alpha) S_P,
     integral_(P\Q) s <= tW <= (4mt/alpha) S_P.            (6.5)
 
-The projection identity is that of the actual body/root pair. :contentReference[oaicite:9]{index=9}
+The projection identity is that of the actual body/root pair.
 
 Moreover N<=(s0+m)S_P, while N0(Q)=s0 integral_Q s. Also Vol(P)>=Vol(Q) and E(P)>=E0(Q). Therefore, whenever 4mt/alpha<1,
 
@@ -331,7 +331,7 @@ one obtains
     R0:=24E >= t+b+m+nu-epsilon_B,
     R0 >= s0+m+nu.                                     (7.2)
 
-The second inequality is the literal T0 integral. The first does not assume that the root misses Delta; retaining the positive part before integrating is essential. :contentReference[oaicite:10]{index=10}
+The second inequality is the literal T0 integral. The first does not assume that the root misses Delta; retaining the positive part before integrating is essential.
 
 Suppose, contrary to (V3), that T>=129/64 and epsilon_B<=T-2. Put delta=T-2>=1/64 and tau=T.
 
@@ -663,10 +663,10 @@ The four special hinge integrals must vanish. In addition, for every affine h th
        =qV h(g)-3(X+Y)h(w0),
     w0=(gy/[3(gx+gy)], gx/[3(gx+gy)], 1/3).
 
-These are legitimate both-sign root motions in the full marked class, not fixed-lattice equations assigned to a zero-endpoint boundary. :contentReference[oaicite:11]{index=11}
+These are legitimate both-sign root motions in the full marked class, not fixed-lattice equations assigned to a zero-endpoint boundary.
 
 The useful next step is to impose these reactions on the seven/eight-plane chart, separating the all-auxiliary-on-root case from the now uniquely possible positive-ell auxiliary. The supplied exact controls are immediate tests against a false identification of greedy placement with stationarity. The endpoint clipping estimate may also be sharpened by retaining its beneficial volume and ell-integral factors rather than discarding them in (6.6).
 
 There is no asserted monotonicity of directly flattening an arbitrary positive-endpoint lower star, no replacement of the actual root polygon by a free moment tuple, and no identification of the positive-endpoint root-only-auxiliary class with P=conv(A,B,Froot): C and D are still off the root when c,d>0. The whole surviving endpoint/defect region and its full root reactions remain unresolved by this handoff. No mechanical lower endpoint, attaining upper endpoint, or registry count is changed.
 
-Supplementary convenience archive: [complete new sources and exact reports](sandbox:/mnt/data/two_anchor_v2_recovery.zip). The literal recovery capsule above is sufficient without this archive.
+Supplementary convenience archive: complete new sources and exact reports (`two_anchor_v2_recovery.zip`). The literal recovery capsule above is sufficient without this archive.

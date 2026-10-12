@@ -39,7 +39,7 @@ Consequently, the three denominator coordinates `d` remain free. Requiring a pre
 
 After QR decomposition of `A`, output rotation can be discarded, and output scale can be fixed by `det(A)=1`. A positive-diagonal upper-triangular `A` then has five parameters. Equation (1) therefore gives an exact **eight-dimensional** normal form for the full bounded projective orbit modulo recentering, rotations, and scale: three projective-denominator parameters plus five metric parameters.
 
-The complete proof and rational homogeneous-matrix formula are in [FULL_ORBIT_NORMAL_FORM.md](sandbox:/mnt/data/gomboc_slot5/FULL_ORBIT_NORMAL_FORM.md).
+The complete proof and rational homogeneous-matrix formula are in FULL_ORBIT_NORMAL_FORM.md.
 
 ## 2. Exact mechanical audit
 
@@ -50,7 +50,7 @@ For final centroided rational vertices `w_i`, the independent verifier uses only
 - On edge `[i,j]`, it computes the exact foot parameter `t`, solves `q=lambda n_1+mu n_2`, checks the residual exactly, and declares a saddle only when `0<t<1`, `lambda>0`, and `mu>0`.
 - It checks the complete face lattice and `S+U-H=2`.
 
-Verifier: [verify_full_orbit_result.py](sandbox:/mnt/data/gomboc_slot5/verify_full_orbit_result.py).
+Verifier: verify_full_orbit_result.py.
 
 ## 3. Global search performed
 
@@ -64,9 +64,9 @@ The searches recompute the transformed polyhedron's own exact tetrahedral volume
 
 Search implementations and machine logs are included in the bundle:
 
-- [full_projective_metric_search.py](sandbox:/mnt/data/gomboc_slot5/full_projective_metric_search.py)
-- [full_orbit_dual_search.py](sandbox:/mnt/data/gomboc_slot5/full_orbit_dual_search.py)
-- [full_orbit_Q_search.py](sandbox:/mnt/data/gomboc_slot5/full_orbit_Q_search.py)
+- full_projective_metric_search.py
+- full_orbit_dual_search.py
+- full_orbit_Q_search.py
 
 These are global multistart searches, not a single local five-parameter optimization. A nonpositive best maximin value, however, is not promoted to a proof of infeasibility.
 
@@ -89,7 +89,7 @@ produces the rigorously certified equilibrium count
 (S,U,H)=(3,3,4),\qquad S+U-H=2.
 \]
 
-The complete transformed-coordinate enclosures, exact source coordinates, complete face lattice, all face/vertex/edge sign intervals, root uniqueness proof, and determinant audit are in [rational_affine_interval_certificate.json](sandbox:/mnt/data/gomboc_slot5/rational_affine_interval_certificate.json). Its construction script is [rational_affine_interval.py](sandbox:/mnt/data/gomboc_slot5/rational_affine_interval.py).
+The complete transformed-coordinate enclosures, exact source coordinates, complete face lattice, all face/vertex/edge sign intervals, root uniqueness proof, and determinant audit are in rational_affine_interval_certificate.json. Its construction script is rational_affine_interval.py.
 
 ## 5. Precise active transfer walls
 
@@ -132,13 +132,13 @@ Hence either `U>=2` or `S>=2` everywhere in that complete five-dimensional metri
 
 ## 7. Reusable artifacts
 
-- [Complete result report](sandbox:/mnt/data/gomboc_slot5/SLOT5_RESULT.md)
-- [Complete reproducibility bundle](sandbox:/mnt/data/gomboc_slot5/slot5_full_orbit_bundle.zip)
-- [Bundle manifest with SHA-256 hashes](sandbox:/mnt/data/gomboc_slot5/slot5_manifest.json)
-- [Bundle SHA-256](sandbox:/mnt/data/gomboc_slot5/slot5_bundle_sha256.txt)
-- [Exact semialgebraic source system](sandbox:/mnt/data/gomboc_slot5/projective_metric_semialgebraic_system.json)
-- [Exact 27-vertex cancellation patch](sandbox:/mnt/data/gomboc_slot5/reshetov_cancellation_patch.json)
-- [Original independent exact verifier](sandbox:/mnt/data/gomboc_slot5/verify_exact%281%29.py)
+- Complete result report (`SLOT5_RESULT.md`)
+- Complete reproducibility bundle (`slot5_full_orbit_bundle.zip`)
+- Bundle manifest with SHA-256 hashes (`slot5_manifest.json`)
+- Bundle SHA-256 (`slot5_bundle_sha256.txt`)
+- Exact semialgebraic source system (`projective_metric_semialgebraic_system.json`)
+- Exact 27-vertex cancellation patch (`reshetov_cancellation_patch.json`)
+- Original independent exact verifier (`verify_exact%281%29.py`)
 
 ## 8. Conclusion
 

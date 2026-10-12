@@ -20,13 +20,13 @@ The complete literal capsule below contains the selected KL13C input, three-body
 
 The updated407556-byte journal was read consecutively through EOF1757, including literal parent `figure-0597`, SHA256 `82b11fa3879c76581cb4e9e089ab615df89e92b585ccb0720e21e5d256c4c02d`. Both supplied method materials were read completely. All three supplied byte counts and hashes matched the manifest.
 
-The actual extracted `geometry121.py` is5112 bytes, SHA256 **`b64da8c4140fba3954b28323d603be3813b0643ed6aca18b195a2b62f2c44bf1`**. This agrees with the J121 heading. J122's prose correction to a hash ending `bf2` is not the identity of its supplied dependency. The literal code was retained, not modified to fit that erroneous hash. fileciteturn26file1L7-L12 fileciteturn26file0L5-L7
+The actual extracted `geometry121.py` is5112 bytes, SHA256 **`b64da8c4140fba3954b28323d603be3813b0643ed6aca18b195a2b62f2c44bf1`**. This agrees with the J121 heading. J122's prose correction to a hash ending `bf2` is not the identity of its supplied dependency. The literal code was retained, not modified to fit that erroneous hash.
 
 ## 1. Complete Q return-path motion with a one-U quota
 
 The consumed parent is exactly `KL13C_CARRIER2_CLEAN_G8_MINIMAL.txt`:1779 bytes, SHA256 `fbe86daca4468cc5da6bd46dfab884da7dfcefc559d4ad1a00082899f96b51c2`. It is120/180/62, own211, P=[], Q approximately .302080624656288, with23 sufficient new-H slots.
 
-The supplied J122 producer omits TWO physical guards. I changed that quota to ONE and recomputed every other actual physical vertex's angular outgoing witness at every finite trial. Positive outgoing chords strictly increase squared radius; if every vertex but one has such a chord, the omitted vertex must be the unique strict maximum. Numerical signs still require exact endpoint verification. The original two-guard quota was not treated as U1 protection. fileciteturn26file0L57-L64
+The supplied J122 producer omits TWO physical guards. I changed that quota to ONE and recomputed every other actual physical vertex's angular outgoing witness at every finite trial. Positive outgoing chords strictly increase squared radius; if every vertex but one has such a chord, the omitted vertex must be the unique strict maximum. Numerical signs still require exact endpoint verification. The original two-guard quota was not treated as U1 protection.
 
 The initial full route, in **submitted support indices**, is
 
@@ -496,4 +496,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Supplementary exact copy: [KL13D capsule](sandbox:/mnt/data/KL13D_CAPSULE.py). Full working archive, including numerical checkpoints and exact reports: [KL13D handoff](sandbox:/mnt/data/KL13D_HANDOFF.zip).
+Supplementary exact copy: KL13D capsule (`KL13D_CAPSULE.py`). Full working archive, including numerical checkpoints and exact reports: KL13D handoff (`KL13D_HANDOFF.zip`).

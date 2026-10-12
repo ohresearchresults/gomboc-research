@@ -22,7 +22,7 @@ A further exact result explains why simply spending the spare edges on a cap is 
 
 The complete1828-line journal, common notebook, branch memory, literal immutable parent, and all18 decoded parent source units were read through EOF before substantive research. The journal is373030bytes, SHA256 `03c5ef92d50feb1e7f1b9f62fd156e189bc9d1724299910986826c5488362a38`. Required parent: `figure-0423`, declared SHA256 `f676de95702ac0633deb123dbb659d059e93819903624b62c8bdddd9e2cc95ee`.
 
-The exact entrance is its frozen TWO99 generator:11786bytes, SHA256 `d9bb5bb040acfab46859fb20f5466a9654875c5427bf8595c871a86f66897e33`. No necessary exact dependency was missing. No research connector, external archive or inaccessible originating sandbox is required. The parent explicitly identifies TWO99 as the one-pair entrance and retains C622 as incumbent. :contentReference[oaicite:0]{index=0}
+The exact entrance is its frozen TWO99 generator:11786bytes, SHA256 `d9bb5bb040acfab46859fb20f5466a9654875c5427bf8595c871a86f66897e33`. No necessary exact dependency was missing. No research connector, external archive or inaccessible originating sandbox is required. The parent explicitly identifies TWO99 as the one-pair entrance and retains C622 as incumbent.
 
 ## Exact retained constructions
 
@@ -130,7 +130,7 @@ Use ROOT124_G9 for reduced arithmetic, or ROOT124_G12 to retain the unrounded nu
 
 ## Recovery status and complete artifacts
 
-The complete self-contained Markdown handoff, including the **literal83,688-character base64 recovery capsule**, has been created and verified at [QC52_HANDOFF.md](sandbox:/mnt/data/QC52_HANDOFF.md). The literal tested recovery program is [QC52_RECOVER.py](sandbox:/mnt/data/QC52_RECOVER.py). The [complete source and exact-proof archive](sandbox:/mnt/data/QC52_COMPLETE.zip) includes the45-file source pack, all nine A/B/mass reports, all nine basin certificates, all four cap-exclusion certificates, transport, and the B-only negative. The [complete version2 result JSON](sandbox:/mnt/data/QC52_RESULT.json) contains the handoff and literal capsule as its result_markdown value.
+The complete self-contained Markdown handoff, including the **literal83,688-character base64 recovery capsule**, has been created and verified at QC52_HANDOFF.md. The literal tested recovery program is QC52_RECOVER.py. The complete source and exact-proof archive (`QC52_COMPLETE.zip`) includes the45-file source pack, all nine A/B/mass reports, all nine basin certificates, all four cap-exclusion certificates, transport, and the B-only negative. The complete version2 result JSON (`QC52_RESULT.json`) contains the handoff and literal capsule as its result_markdown value.
 
 **Important durability limitation of this response:** the large literal capsule is in those created artifacts, not reproduced inside this message's result_markdown string. Consequently this message alone is not the fully inline, source-only handoff requested. The artifact QC52_RESULT.json is the complete version2 handoff; its result_markdown embeds the full capsule rather than a filename-only dependency. The exact successors above are recoverable from that verified complete artifact, but an archive that preserves only this response string and discards its attachments must treat them as insufficiently preserved. No claim of a fully inline recovery in this response is made.
 

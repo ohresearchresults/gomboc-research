@@ -14,7 +14,7 @@ These are cut descendants of a separately identified archive body, ARCH274. They
 
 ## 2. A source-authority conflict was found and checked exactly
 
-The journal names parent figure-0327, with metadata SHA-256429a40c5c6f706f778801dffd28981f68ff0976c0a157f25e469d753f70991a6, and asserts a274/411/139 class(1,16,15) body. Its literal47-row table begins `-3537051546 -2990639257 -8862593556 11778694258`. That table does not define the asserted body. The supplied table and its claimed hash are preserved as evidence. :contentReference[oaicite:0]{index=0}
+The journal names parent figure-0327, with metadata SHA-256429a40c5c6f706f778801dffd28981f68ff0976c0a157f25e469d753f70991a6, and asserts a274/411/139 class(1,16,15) body. Its literal47-row table begins `-3537051546 -2990639257 -8862593556 11778694258`. That table does not define the asserted body. The supplied table and its claimed hash are preserved as evidence.
 
 The literal text's actual SHA-256 is c9c50411a273c789a153019130f87f2db8b69906a5df8ddd43bfb5a7b4967d90, not the advertised f09e73df8aa01fac0bffca815f02d5769f37812ce369209c6598139a0475bcbc0ab. Exact enumeration of all437989 plane triples, followed by two complete independent checks, gives (V,E,F)=(166,249,85), own class(34,28,60), and no degeneracies. Its volume is about11.19696491574174 and each raw centroid coordinate is about0.1236382951585887. Vertex209 cannot index this166-point object.
 
@@ -389,12 +389,12 @@ The report explicitly records `new_winner:false`. A tool timeout in an earlier r
 
 The OBJ and ASCII STL are labelled display approximations of the RAW rational solids. Exact rational readback bounds coordinate error by10^-49 and matches all polygons and triangles. The literal H systems and rational reconstructed tables, not rounded display coordinates, define the bodies. No manufacturing tolerance is claimed.
 
-[Complete exact proof and reconstruction packet](sandbox:/mnt/data/RA04_CUT_CERTIFIED.zip):5747079bytes, SHA-256121cce0bb01462656b82cd3c059a9aa18a0369d684285a89f80d0409a4b7d3e6.
+Complete exact proof and reconstruction packet (`RA04_CUT_CERTIFIED.zip`):5747079bytes, SHA-256121cce0bb01462656b82cd3c059a9aa18a0369d684285a89f80d0409a4b7d3e6.
 
-[Numerical discovery, actual root controls and bounded failed branches](sandbox:/mnt/data/RA04_CUT_DISCOVERY.zip):2355467bytes, SHA-25616c81b60f702caaa94ae348a5238b790dcd37d33c5fd0e5e592f6757d6db1a2f. Its70 manifest entries were checked. Numerical NPZ checkpoints are not exact acceptance certificates.
+Numerical discovery, actual root controls and bounded failed branches (`RA04_CUT_DISCOVERY.zip`):2355467bytes, SHA-25616c81b60f702caaa94ae348a5238b790dcd37d33c5fd0e5e592f6757d6db1a2f. Its70 manifest entries were checked. Numerical NPZ checkpoints are not exact acceptance certificates.
 
-[Executed exact own-reference one-wave membership supplement](sandbox:/mnt/data/RA04_OWN_REFERENCE_GUARDS.zip):60969bytes, SHA-25638a4ee25333a5260897c7efc1fa07506c179ba8a4c762ffde05fdf38908488f9. Run its standalone script against the extracted main packet. Its observed report is included; this supplement is separate from the main archive's89-entry replay.
+Executed exact own-reference one-wave membership supplement (`RA04_OWN_REFERENCE_GUARDS.zip`):60969bytes, SHA-25638a4ee25333a5260897c7efc1fa07506c179ba8a4c762ffde05fdf38908488f9. Run its standalone script against the extracted main packet. Its observed report is included; this supplement is separate from the main archive's89-entry replay.
 
-[Actual fresh replay report](sandbox:/mnt/data/RA04_CUT_ARCHIVE_REPLAY.json), SHA-256aae4ce50fde903f239c64a72df79bba50b9ab25f923ec2567eb826f00efb94c5. [Delivery hashes](sandbox:/mnt/data/RA04_CUT_DELIVERY.json) identify the exact current bytes.
+Actual fresh replay report (`RA04_CUT_ARCHIVE_REPLAY.json`), SHA-256aae4ce50fde903f239c64a72df79bba50b9ab25f923ec2567eb826f00efb94c5. Delivery hashes (`RA04_CUT_DELIVERY.json`) identify the exact current bytes.
 
 **Final disposition:** a corrected source identity; two new exactly own-centred class(1,7,6) cut bodies below the requested edge budget; a sharply scoped, executed one-wave obstruction; and an exact two-stage escape whose unresolved mass gate is explicit. No strict110 construction, minimum, universal C3 obstruction, external peer review or proof-assistant certification is claimed.

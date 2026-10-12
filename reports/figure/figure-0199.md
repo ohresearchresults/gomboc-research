@@ -10,7 +10,7 @@ AI research report · 2026-09-02 UTC
 
 **NONWINNER.** I did not obtain a homogeneous polyhedral Gömböc. I did materialize and independently verify the first genuinely two-row, shared-interior terminal topology beyond the recorded P9-XG4 one-row concurrency obstruction, and I isolated the first remaining exact obstruction plus the smallest nonrepeating successor topology.
 
-The run’s acceptance gate is a finite uniform-density convex polyhedron at its own ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual H/V/E incidence, exhaustive positive-margin mechanics, an independent verifier, and matching meshes. :contentReference[oaicite:0]{index=0} The inherited exact P9-XG4 endpoint instead has eight active rows, `(V,E,F)=(12,18,8)`, own-centroid `(2,2,2)`, and a proved one-row concurrency obstruction; its compelled successor is a two-row or coupled-old-plane shared terminal spanning the three return stars. :contentReference[oaicite:1]{index=1}
+The run’s acceptance gate is a finite uniform-density convex polyhedron at its own ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual H/V/E incidence, exhaustive positive-margin mechanics, an independent verifier, and matching meshes. The inherited exact P9-XG4 endpoint instead has eight active rows, `(V,E,F)=(12,18,8)`, own-centroid `(2,2,2)`, and a proved one-row concurrency obstruction; its compelled successor is a two-row or coupled-old-plane shared terminal spanning the three return stars.
 
 ## Source boundary
 
@@ -303,14 +303,14 @@ The smallest evidence-supported realization is a **second-spine/fifth-page termi
 
 ## Reproducible artifact
 
-- [Complete exact bundle](sandbox:/mnt/data/P9_XG5_TWO_ROW_EXACT_NONWINNER.zip)
-- [Archive SHA-256](sandbox:/mnt/data/P9_XG5_TWO_ROW_EXACT_NONWINNER.zip.sha256)
-- [Complete research handoff](sandbox:/mnt/data/P9_XG5_TWO_ROW_EXACT_NONWINNER/RESEARCH_HANDOFF.md)
-- [Expanded exact H/V/E, mass, mechanics, controls](sandbox:/mnt/data/P9_XG5_TWO_ROW_EXACT_NONWINNER/p9_xg5_two_row_exact.json)
-- [Independent exact verifier](sandbox:/mnt/data/P9_XG5_TWO_ROW_EXACT_NONWINNER/verify_independent.py)
-- [Perturbation certificate](sandbox:/mnt/data/P9_XG5_TWO_ROW_EXACT_NONWINNER/perturbation_box_certificate.json)
-- [Watertight OBJ](sandbox:/mnt/data/P9_XG5_TWO_ROW_EXACT_NONWINNER/p9_xg5_two_row_centered.obj)
-- [Watertight STL](sandbox:/mnt/data/P9_XG5_TWO_ROW_EXACT_NONWINNER/p9_xg5_two_row_centered.stl)
+- Complete exact bundle (`P9_XG5_TWO_ROW_EXACT_NONWINNER.zip`)
+- Archive SHA-256 (`P9_XG5_TWO_ROW_EXACT_NONWINNER.zip.sha256`)
+- Complete research handoff (`RESEARCH_HANDOFF.md`)
+- Expanded exact H/V/E, mass, mechanics, controls (`p9_xg5_two_row_exact.json`)
+- Independent exact verifier (`verify_independent.py`)
+- Perturbation certificate (`perturbation_box_certificate.json`)
+- Watertight OBJ (`p9_xg5_two_row_centered.obj`)
+- Watertight STL (`p9_xg5_two_row_centered.stl`)
 
 Archive SHA-256:
 

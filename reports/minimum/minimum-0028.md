@@ -20,7 +20,7 @@ The proof is computer-assisted but exact: all **2,466** possible rooted escape t
 
 ## 1. Authority and reconstruction
 
-The literal immutable parent is `minimum-0022`, SHA-256 `85b0f28d8e4c53b1e4d13566ebcacb6b1bfcd92547d5524599743dde7534de92`. I read its complete payload and independently reproduced this hash as its **30,112-byte compact UTF-8 v2 envelope**, restoring the Markdown terminal LF. Its all-pyramid theorem remains a boundary theorem, not a roof theorem. :contentReference[oaicite:0]{index=0}
+The literal immutable parent is `minimum-0022`, SHA-256 `85b0f28d8e4c53b1e4d13566ebcacb6b1bfcd92547d5524599743dde7534de92`. I read its complete payload and independently reproduced this hash as its **30,112-byte compact UTF-8 v2 envelope**, restoring the Markdown terminal LF. Its all-pyramid theorem remains a boundary theorem, not a roof theorem.
 
 The preserved, non-immutable `RAVEN24_C32_TWO_APEX_GEOMETRY_V1` was also recovered and replayed. Its exact geometry report remains 38,949 bytes, SHA-256 `cec75048174c0fe3b541d09eb965fc3f2305e3c11d6461e7722ede03ed2adfb0`. The accepted catalogue was regenerated as 240,929 bytes, SHA-256 `efb10a4657a891cd13f6f62db94164bd4b3005e908dc55aae87db450930f704d`; the displayed type72 facets agree literally with catalogue map72.
 
@@ -54,7 +54,7 @@ faces += [[7,i,j] for i,j in zip(Achain,Achain[1:])]
 faces += [[8,i,j] for i,j in zip(Bchain,Bchain[1:])]
 ```
 
-Require C strictly convex and counterclockwise, all listed coplanarities exact, and every listed outward supporting plane to have strictly positive slack at every nonincident vertex. These are actual global hull conditions. Conversely, every actual heptagonal C32 body has this chart: its other two vertices are on the same side of the base; its eight nonbase facets consist of one quadrilateral and seven triangles; the unique quadrilateral is `[u,a,b,v]`, and the other facet on edge ab is triangle wab. The remaining base vertices form the two contiguous apex-neighbour chains. Exchanging the two chains gives precisely r=0,1,2. :contentReference[oaicite:1]{index=1}
+Require C strictly convex and counterclockwise, all listed coplanarities exact, and every listed outward supporting plane to have strictly positive slack at every nonincident vertex. These are actual global hull conditions. Conversely, every actual heptagonal C32 body has this chart: its other two vertices are on the same side of the base; its eight nonbase facets consist of one quadrilateral and seven triangles; the unique quadrilateral is `[u,a,b,v]`, and the other facet on edge ab is triangle wab. The remaining base vertices form the two contiguous apex-neighbour chains. Exchanging the two chains gives precisely r=0,1,2.
 
 The normal-to-canonical vertex maps, in order p0 through p8, are
 
@@ -121,7 +121,7 @@ N_z&=D+tE_b=tD+E_a.
 \end{aligned}
 \]
 
-These are coupled actual determinant masses. No cap receives its own chosen centroid. In orthogonal coordinates with ordered heights H and h=theta H, `0<theta<=1`, the same body has centroid height `d/H=(1+theta*kappa)/4`, where `kappa=(V-Area(B)H/3)/V` is its actual excess-volume fraction, not a free weight. :contentReference[oaicite:2]{index=2}
+These are coupled actual determinant masses. No cap receives its own chosen centroid. In orthogonal coordinates with ordered heights H and h=theta H, `0<theta<=1`, the same body has centroid height `d/H=(1+theta*kappa)/4`, where `kappa=(V-Area(B)H/3)/V` is its actual excess-volume fraction, not a free weight.
 
 For r0, use these six physical tetrahedra, in normal labels:
 
@@ -158,7 +158,7 @@ Moreover,
 =2x_i^{\mathsf T}G(x_{p(i)}-x_i)+\|x_{p(i)}-x_i\|_G^2>0.
 \]
 
-Therefore no chosen arrows cycle. If b were the only strict unstable vertex, the choices would form a spanning tree directed to normal root8. This adjacent-shadow reduction is the standard one; its application here is reproduced explicitly rather than taken as an unverified graph surrogate. :contentReference[oaicite:3]{index=3}
+Therefore no chosen arrows cycle. If b were the only strict unstable vertex, the choices would form a spanning tree directed to normal root8. This adjacent-shadow reduction is the standard one; its application here is reproduced explicitly rather than taken as an unverified graph surrogate.
 
 The type72 graph has exactly 2,466 such rooted trees. The verifier enumerates every eight-edge subset of its sixteen true edges, independently enumerates every possible parent choice at the eight nonroots, compares the resulting sorted parent tuples exactly, and also checks the root-deleted Laplacian determinant. Every tree appears once. No radial tie or zero escape primitive is removed by assuming genericity. A global radius-maximizing vertex is always strict unstable, since its directed edge product is at most minus half the squared edge length; thus excluding b as the sole strict unstable vertex also guarantees a strict unstable vertex outside b.
 
@@ -356,4 +356,4 @@ Both fresh-directory replays completed and generated byte-identical source, inpu
 
 ## Supplementary copies
 
-[Self-contained Markdown handoff](sandbox:/mnt/data/RAVEN24_C32_TYPE72_U4_EXCLUSION_V1.md), [standalone recovery program](sandbox:/mnt/data/RAVEN24_recover_type72_u4.py), and [complete exact source and certificate archive](sandbox:/mnt/data/RAVEN24_C32_TYPE72_U4_EXCLUSION_V1.zip). These are conveniences; the literal capsule above is sufficient without downloading any artifact.
+Self-contained Markdown handoff (`RAVEN24_C32_TYPE72_U4_EXCLUSION_V1.md`), standalone recovery program (`RAVEN24_recover_type72_u4.py`), and complete exact source and certificate archive (`RAVEN24_C32_TYPE72_U4_EXCLUSION_V1.zip`). These are conveniences; the literal capsule above is sufficient without downloading any artifact.

@@ -12,17 +12,17 @@ Branch: `[internal-source-reference]`.
 
 **No own110/weak000 body was found.** The strongest retained successors are **B217**, V56/E162/F108, own312/weak000, with an **83-bit minimal common centered denominator**, and its exact four-contact companion **Q53**, V56/E161/F107, own312/weak000, with a **150-bit denominator**. Both have a complete positive physical true-edge escape tree at their own exact filled-volume centroid. Their certified centered-polar bottleneck lies strictly between −0.241997 and −0.241996.
 
-This improves the magnitude of C330’s global barrier by a factor greater than2.19, but increases its stable count from two to three. It is not an equilibrium-count improvement or a new own110 record. The accepted internal own110 incumbent remains C622, V176/E311/F137. :contentReference[oaicite:0]{index=0}
+This improves the magnitude of C330’s global barrier by a factor greater than2.19, but increases its stable count from two to three. It is not an equilibrium-count improvement or a new own110 record. The accepted internal own110 incumbent remains C622, V176/E311/F137.
 
 Four new exact nonwinners, both exact parents, all materially used numerical source units, all required numerical inputs, and the numerical checkpoints are recoverable from the complete inline capsule below. No old sandbox, external library, research connector, or numerical optimizer is required for exact recovery. The final capsule was decoded into a fresh directory and cold-replayed through the six-body terminal marker.
 
 ## 1. Source closure
 
-I read all five supplied files completely, including the entire1,110-line journal, branch memory, and literal parent `figure-0404`, with declared SHA-256 `25d8541c3d83465da72793ba457cc26fce1c5e5379520784d41a08042bcf92c7`. No necessary exact dependency is missing for the constructions reported here. The selected C330 geometry/auditors and C288 subset recipe supersede the historical source-delivery warning for this current closure. I did not treat older C320/C510 paths as accessible objects. :contentReference[oaicite:1]{index=1}
+I read all five supplied files completely, including the entire1,110-line journal, branch memory, and literal parent `figure-0404`, with declared SHA-256 `25d8541c3d83465da72793ba457cc26fce1c5e5379520784d41a08042bcf92c7`. No necessary exact dependency is missing for the constructions reported here. The selected C330 geometry/auditors and C288 subset recipe supersede the historical source-delivery warning for this current closure. I did not treat older C320/C510 paths as accessible objects.
 
 Actual supplied-file identities were checked: C330 geometry Markdown4269bytes/SHA`66acbe5c6104c66f7b6d19ee683fc4281787435772b5bd3cf3e98d549615da18`; audit Markdown18024bytes/SHA`9a9df583f7de4e822792c875bc35043156693591d06b14c924c488995a2ff4b2`; C288 recipe5025bytes/SHA`46039fed037c8e1399db9e93caac447c88ef07782bbb412c78965887b60cf4e5`; complete numerical methods23920bytes/SHA`8a4d778ae556e0fcac63cdfa65baa735f524bb1af200e3efbc2b59b1f9f3dbb3`; journal186304bytes/SHA`5dc088b1b49fd0186af478ca33c47e973ad2af8726344e9a0628ad9024d228b7`.
 
-Both parents were reconstructed and fully audited again. C330 gave57/165/110, own211/weak000, common centered denominator72bits. C288 gave76/144/70, own211/weak000, denominator5173bits. Their reconstructed identities agree with the selected source closure. :contentReference[oaicite:2]{index=2}
+Both parents were reconstructed and fully audited again. C330 gave57/165/110, own211/weak000, common centered denominator72bits. C288 gave76/144/70, own211/weak000, denominator5173bits. Their reconstructed identities agree with the selected source closure.
 
 ## 2. Retained exact bodies
 
@@ -160,7 +160,7 @@ An earlier interrupted workspace did not preserve a usable new output. No positi
 
 ## 6. Separate current-literature notice
 
-The primary-source abstract of *An explicit mono-monostatic polyhedron*, submitted September7,2026 by Tancredi Schettini Gherardini, reports two rational examples, the smaller with56,946faces, and exact own-centroid certification. I checked the abstract and submission metadata, not the full paper or its code. This is an external author-reported result, not part of this replay; no priority or public-record conclusion here depends on it. :contentReference[oaicite:3]{index=3}
+The primary-source abstract of *An explicit mono-monostatic polyhedron*, submitted September7,2026 by Tancredi Schettini Gherardini, reports two rational examples, the smaller with56,946faces, and exact own-centroid certification. I checked the abstract and submission metadata, not the full paper or its code. This is an external author-reported result, not part of this replay; no priority or public-record conclusion here depends on it.
 
 ## 7. Complete inline recovery capsule
 
@@ -635,4 +635,4 @@ for name,z in m.items():
 print('SC83_BRANCH_INLINE_SOURCE_RECOVERED',36,flush=True)
 ```
 
-Convenience copies, not recovery dependencies: [recovery program](sandbox:/mnt/data/RECOVER_SC83_BRANCH.py), [full working archive](sandbox:/mnt/data/SC83_BRANCH_HANDOFF.zip), [expanded machine-readable handoff](sandbox:/mnt/data/RESULT_v2.json), and [cold-replay receipt](sandbox:/mnt/data/SC83_FINAL_VERIFIED/REPLAY_RECEIPT.json).
+Convenience copies, not recovery dependencies: recovery program (`RECOVER_SC83_BRANCH.py`), full working archive (`SC83_BRANCH_HANDOFF.zip`), expanded machine-readable handoff (`RESULT_v2.json`), and cold-replay receipt (`REPLAY_RECEIPT.json`).

@@ -14,7 +14,7 @@ For the original literal control, the two outstanding apical questions have diff
 
 There is also a stronger global obstruction. **On each of the two literal actual bodies, apex 0 cannot be the unique strict unstable vertex under any SPD metric.** This remains true for every actual own-centred realization of the same labelled true-edge graph whose centred vertex coordinates differ from the corresponding control by at most 1/10000000 in every coordinate. The certificate covers all 4335 rooted-at-0 true-edge trees, all physical SPD matrices, and finite weak-arrow boundaries. It does not use any selected polar arrows, S=1, H=0, or a condition-number bound.
 
-Thus the new body separates two obligations sharply: all proper subsystems are apex-U-compatible on one actual body, yet **none is complete-U1-compatible at that apex on that body, regardless of the metric**. There is no U1 witness or 110 construction here. The supplied mechanical interval 34 <= C_min <= 622 is unchanged. :contentReference[oaicite:0]{index=0}
+Thus the new body separates two obligations sharply: all proper subsystems are apex-U-compatible on one actual body, yet **none is complete-U1-compatible at that apex on that body, regardless of the metric**. There is no U1 witness or 110 construction here. The supplied mechanical interval 34 <= C_min <= 622 is unchanged.
 
 ## 2. Inputs, identities, and physical conventions
 
@@ -28,7 +28,7 @@ Exact supplied bytes:
 
 The original hexagon generator was extracted unchanged: 11755 bytes, SHA256 4c113fb5c4f9307f2219df999b02ac6ec5320040db51365de8f649323a931380. Its execution reproduced the supplied 376033-byte report and SHA256 bfc26aa4c7de6622e7c1d4dcf75cfa2c957576bb724884a1184e6d3db61bca44. No new computational result depends on an unprovided source.
 
-The original control is the degree-six hexagon body, not either degree-five pentagon body. Its exact construction, actual-centroid transport, and previously available apical witnesses are those in the supplied hexagon material. :contentReference[oaicite:1]{index=1} Only the general reciprocal Schur identity is transferred from the second material; none of its degree-five-specific vertex traps or tubes is used. :contentReference[oaicite:2]{index=2}
+The original control is the degree-six hexagon body, not either degree-five pentagon body. Its exact construction, actual-centroid transport, and previously available apical witnesses are those in the supplied hexagon material. Only the general reciprocal Schur identity is transferred from the second material; none of its degree-five-specific vertex traps or tubes is used.
 
 In the actual apex chart, A=e3 and the entire true polar face is q_i=(p_i,1). Write
 
@@ -117,7 +117,7 @@ contradicting the four weak arrows.
 
 The cover is explicit: begin with the four-triangle fan from p0; split (p0,p4,p5) at m04, and split the remaining (p0,m04,p5) at m05. No footpoint stratum is discarded. The recovery verifies 24 positive convexity guards and 36 positive interval principal-minor guards, 60 total; their minimum lower bound is exactly 493/250. No metric compactification, sampled footpoint test, or numerical infeasibility assertion enters this proof.
 
-The original actual phat coordinates are checked rationally to lie in this box. Thus all five omission statuses for the original control are settled at the apical level: 0,1,2,3 feasible; 4 impossible. The earlier positive witnesses for 0,2,3 are retained, not replaced by the new negative theorem. :contentReference[oaicite:3]{index=3}
+The original actual phat coordinates are checked rationally to lie in this box. Thus all five omission statuses for the original control are settled at the apical level: 0,1,2,3 feasible; 4 impossible. The earlier positive witnesses for 0,2,3 are retained, not replaced by the new negative theorem.
 
 ## 4. Changed actual geometry: all five proper subsystems with strict apex U
 
@@ -329,7 +329,7 @@ Nevertheless both literal completions, and the stated full-realization neighborh
 
 What remains undecided is whether a different completion or different hexagon outside these certified geometry domains can have complete U1 at the degree-six apex while retaining any prescribed proper subsystem, and whether one actual body can support complete-U1 witnesses for every proper subsystem. No claim about that complement follows from the completed tree checks.
 
-The useful continuation is actual completion motion, not another H/f/delta sweep on either central body. The supplied prescribed-hexagon construction provides five cut parameters and a genuine base-plane actual-centroid actuator while preserving the six side poles. :contentReference[oaicite:4]{index=4} For the new hexagon, retain its strict five-witness local chamber, change the completion enough to leave the certified rooted-tree stress neighborhood, recompute the actual volume centroid, and then seek a genuine common-metric rooted escape tree. Failure of one stored stencil is only an exit from its sufficient exclusion domain, not a U1 certificate. A successful continuation must still verify the complete physical census and, separately, S1/H0 for 110.
+The useful continuation is actual completion motion, not another H/f/delta sweep on either central body. The supplied prescribed-hexagon construction provides five cut parameters and a genuine base-plane actual-centroid actuator while preserving the six side poles. For the new hexagon, retain its strict five-witness local chamber, change the completion enough to leave the certified rooted-tree stress neighborhood, recompute the actual volume centroid, and then seek a genuine common-metric rooted escape tree. Failure of one stored stencil is only an exit from its sufficient exclusion domain, not a U1 certificate. A successful continuation must still verify the complete physical census and, separately, S1/H0 for 110.
 
 ## 7. Self-contained exact recovery capsule
 
@@ -491,4 +491,4 @@ assert len(r)==4702370
 assert hashlib.sha256(r).hexdigest()=='1bdf6cdfb4a61717337efee4d750d80b15b701e5602fb6f09cc32e8de07b0f6d'
 ```
 
-Convenience copies, not dependencies of the handoff: [recovery wrapper](sandbox:/mnt/data/recover_hex6_apex_boundary.py), [readable complete source](sandbox:/mnt/data/hex6_apex_boundary.py), [exact report](sandbox:/mnt/data/hex6_apex_boundary.json), [stdout](sandbox:/mnt/data/hex6_apex_boundary.out).
+Convenience copies, not dependencies of the handoff: recovery wrapper (`recover_hex6_apex_boundary.py`), readable complete source (`hex6_apex_boundary.py`), exact report (`hex6_apex_boundary.json`), stdout (`hex6_apex_boundary.out`).

@@ -8,7 +8,7 @@ AI research report · 2026-08-28 UTC
 
 **Verdict: NONWINNER.** No strict own-centroid `(S,U,H)=(1,1,0)` homogeneous convex polyhedron was produced. The corrected finite-thickness endpoint is a strict open own-centred `(2,2,2)` polyhedron.
 
-The journal said the preceding immutable result exposed only links and was mathematically unresolved. :contentReference[oaicite:0]{index=0} Opening those bytes shows the original bundle contained no endpoint: its health file marks every candidate/audit/mesh absent and its log fails on missing `m42_points_exact.json` and `successor_generator.json`. That wrapper was a pipeline failure, not a hidden winner or geometric negative result. This turn recovered the exact predecessor and prototype, disproved the prototype’s false `(50,130,82)` active-hull assertion, and rebuilt the actual endpoint exactly.
+The journal said the preceding immutable result exposed only links and was mathematically unresolved. Opening those bytes shows the original bundle contained no endpoint: its health file marks every candidate/audit/mesh absent and its log fails on missing `m42_points_exact.json` and `successor_generator.json`. That wrapper was a pipeline failure, not a hidden winner or geometric negative result. This turn recovered the exact predecessor and prototype, disproved the prototype’s false `(50,130,82)` active-hull assertion, and rebuilt the actual endpoint exactly.
 
 ## Exact endpoint and generator
 
@@ -229,10 +229,10 @@ The smallest nonduplicative continuation is a third transverse closure band / fi
 - face audit `833ac33bfd115b6e3089c6fcfb280287c9cc466ecc8067a95e73091ef11e24a8`; vertex audit `0b005edc9938526352f647ad41f79459300731415a442a3e38b1e0a0a2eb36f1`; edge audit `507e2021a8c893ddbf426603450b5a233632c5c6a68735457e3b483cbd4e4210`; circuit atlas `79ad60ff17db36279cfeeb081635d023bbd2cc7782dde71678fb8887249af98b`;
 - OBJ `6578248e11cad021fb3215bf666ec03dfa029a156780b7d305ec98ddce9da6ff`; STL `fc9a82dd93eeb10de578e592e76a4a29afc1dc33ccaecc85d7cd5f7a26c4426e`.
 
-[Full self-contained handoff with all 104 rows and all 74 exact H inequalities](sandbox:/mnt/data/m42_volumetric_recovered_exact/research_handoff.md)
+Full self-contained handoff with all 104 rows and all 74 exact H inequalities (`research_handoff.md`)
 
-[Corrected archive](sandbox:/mnt/data/m42_volumetric_recovered_exact.zip) · [archive digest](sandbox:/mnt/data/m42_volumetric_recovered_exact.zip.sha256) · [per-file hashes](sandbox:/mnt/data/m42_volumetric_recovered_exact/SHA256SUMS.txt)
+Corrected archive (`m42_volumetric_recovered_exact.zip`) · archive digest (`m42_volumetric_recovered_exact.zip.sha256`) · per-file hashes (`SHA256SUMS.txt`)
 
-[Generator](sandbox:/mnt/data/m42_volumetric_recovered_exact/generate_corrected_endpoint.py) · [certificate](sandbox:/mnt/data/m42_volumetric_recovered_exact/certificate.json) · [independent verifier](sandbox:/mnt/data/m42_volumetric_recovered_exact/verify_exact_cleanroom.py) · [interval verifier](sandbox:/mnt/data/m42_volumetric_recovered_exact/verify_interval.py) · [circuit atlas](sandbox:/mnt/data/m42_volumetric_recovered_exact/circuit_atlas.json) · [transcript](sandbox:/mnt/data/m42_volumetric_recovered_exact/RUN_ALL_VERIFIERS.txt) · [OBJ](sandbox:/mnt/data/m42_volumetric_recovered_exact/body.obj) · [STL](sandbox:/mnt/data/m42_volumetric_recovered_exact/body.stl)
+Generator (`generate_corrected_endpoint.py`) · certificate (`certificate.json`) · independent verifier (`verify_exact_cleanroom.py`) · interval verifier (`verify_interval.py`) · circuit atlas (`circuit_atlas.json`) · transcript (`RUN_ALL_VERIFIERS.txt`) · OBJ (`body.obj`) · STL (`body.stl`)
 
 The negative theorem is cell-local, not global: the third-band crossrail remains an open M42 frontier.

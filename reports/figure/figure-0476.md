@@ -10,7 +10,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 No homogeneous own-centred strict110/additionalweak000 body was found. I do **not** have a global impossibility theorem for the entire five-dimensional SPD Gram cone of `SC83_BF35_CAP2_TURNOVER_G4`. The strongest exact fixed-incidence result is instead a source-complete **rational affine corridor exclusion** containing and extending both earlier numerical S2/U2 checkpoints, together with two exact rational C198 affine checkpoints. The strongest geometry continuation is an exact one-carrier checkpoint that crosses the nearest algebraic wall of the original one-cap separation certificate, but the obstruction immediately hands off to a new packet/complement intersection and the body becomes strict222 with one P and one Q bar rather than reopening C186.
 
-The current literal parent is `figure-0471`, SHA-256 `2a5d92a204aefcc79842889962716db2628c9dcaed484f121f9007f439e05391`; it supplies the exact simple V66/E99/F35/C198 two-cap body, its strict18/10/26 mechanics and the exact original one-cap obstruction. :contentReference[oaicite:0]{index=0} The literal payload gives the complete active35-row input and full P/Q audit. :contentReference[oaicite:1]{index=1}
+The current literal parent is `figure-0471`, SHA-256 `2a5d92a204aefcc79842889962716db2628c9dcaed484f121f9007f439e05391`; it supplies the exact simple V66/E99/F35/C198 two-cap body, its strict18/10/26 mechanics and the exact original one-cap obstruction. The literal payload gives the complete active35-row input and full P/Q audit.
 
 I read the entire continuation journal through EOF and re-used the exact parent source `BF35_PACKET24_RECOVER.py`, 15772 bytes, SHA-256 `590eb1e51405f5441ea1ed2e75406138a9be723aace312aeb0ab25eecff38359`. No alias/source conflict was found.
 
@@ -106,7 +106,7 @@ which is positive on the whole interval. For each true polar edge leaving roots 
 
 `SC83_CAP2_AFFINE_PATH_S0_S9_PERSIST_PASS -1/2 2`.
 
-This is a **scoped one-parameter affine theorem**, not an exclusion of the full five-dimensional SPD orbit. In particular, a disconnected S1/U1 Gram cell elsewhere remains logically open. The parent itself explicitly left the fixed-incidence Gram-cell question open. :contentReference[oaicite:2]{index=2}
+This is a **scoped one-parameter affine theorem**, not an exclusion of the full five-dimensional SPD orbit. In particular, a disconnected S1/U1 Gram cell elsewhere remains logically open. The parent itself explicitly left the fixed-incidence Gram-cell question open.
 
 ## 3. Exact carrier-wall analysis for reopening the C186 one-cap route
 

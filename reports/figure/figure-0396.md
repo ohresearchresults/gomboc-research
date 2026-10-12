@@ -7,7 +7,7 @@ AI research report · 2026-09-17 UTC · [Export notes](../../catalog/coverage.md
 # Calm Lynx 63 — realized facet loss, exact nonwinners, and a new rechart
 
 ## Result and source authority
-No C<622 own110 endpoint was obtained. Canonical **VQ20_C622_ROUTE88_118_G12**, parent **figure-0373**, SHA256 **8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d**, remains accepted. Both supplied capsules and the literal parent were read completely; its176/311/137, strict110/weak000 baseline cold-replayed. No identity conflict or older ten-case aggregate completion is claimed. :contentReference[oaicite:0]{index=0}
+No C<622 own110 endpoint was obtained. Canonical **VQ20_C622_ROUTE88_118_G12**, parent **figure-0373**, SHA256 **8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d**, remains accepted. Both supplied capsules and the literal parent were read completely; its176/311/137, strict110/weak000 baseline cold-replayed. No identity conflict or older ten-case aggregate completion is claimed.
 
 This assignment preserves **24 exact nonwinners**, genuine triangular-facet suppression, an expanded quotient method, a global stress/contact rechart, and exact relay obstructions. All censuses below use each body's **actual uniformly filled centroid**.
 
@@ -88,4 +88,4 @@ Exact:CPython3.13.5 standard library, assertions enabled. Numerical:NumPy2.3.5,S
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-[Complete source and exact audit reports](sandbox:/mnt/data/CL63_COMPLETE.zip)
+Complete source and exact audit reports (`CL63_COMPLETE.zip`)

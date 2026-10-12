@@ -16,13 +16,13 @@ The complete continuous realization space of the `E25D` graph is **not** globall
 
 ## Immutable artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER.zip)
-- [Archive SHA-256 file](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER.zip.sha256)
-- [Full determination](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/RESULT.md)
-- [One-command replay](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/[internal-source-reference].sh)
-- [Clean replay transcript](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/CLEAN_VERIFICATION_TRANSCRIPT.txt)
-- [Verification record](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/VERIFICATION_RECORD.json)
-- [Checksummed manifest](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/SHA256SUMS)
+- Complete exact archive (`Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER.zip`)
+- Archive SHA-256 file (`Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER.zip.sha256`)
+- Full determination (`RESULT.md`)
+- One-command replay (`[internal-source-reference].sh`)
+- Clean replay transcript (`CLEAN_VERIFICATION_TRANSCRIPT.txt`)
+- Verification record (`VERIFICATION_RECORD.json`)
+- Checksummed manifest (`SHA256SUMS`)
 
 The final replay terminates with `VIVID_QUARTZ_58_E25D_FRONTIER_FULL_REPLAY_PASS`, and the ZIP passes a complete compressed-data integrity test.
 
@@ -34,7 +34,7 @@ The sole source authority is immutable parent `figure-0265`, SHA-256
 c22e86c375499e8a84f828b5669b43a13b7bcb698a4d39716a3714eaff92bc78.
 ```
 
-The retired corrupted `(3,4,5)` alias is not used. The durable journal identifies the valid parent, its exact `E26DO2`, the carrier-breaking `E26F19`, and the 25-vertex `E25D` frontier. :contentReference[oaicite:0]{index=0} The immutable parent payload states that deleting `P2` from `E26F19` yields exact `E25D`, `(25,69,46)`, strict `(3,3,4)`, with stable faces `[8,A,B]`, `[10,Z2,A]`, `[R,Z1,Q3]`, unstable vertices `8,A,B`, and saddles `[8,A]`, `[8,B]`, `[10,Z2]`, `[A,B]`. :contentReference[oaicite:1]{index=1} Parent identity and package lineage are preserved separately from all new artifacts. :contentReference[oaicite:2]{index=2}
+The retired corrupted `(3,4,5)` alias is not used. The durable journal identifies the valid parent, its exact `E26DO2`, the carrier-breaking `E26F19`, and the 25-vertex `E25D` frontier. The immutable parent payload states that deleting `P2` from `E26F19` yields exact `E25D`, `(25,69,46)`, strict `(3,3,4)`, with stable faces `[8,A,B]`, `[10,Z2,A]`, `[R,Z1,Q3]`, unstable vertices `8,A,B`, and saddles `[8,A]`, `[8,B]`, `[10,Z2]`, `[A,B]`. Parent identity and package lineage are preserved separately from all new artifacts.
 
 The authoritative `E25D` label set is
 
@@ -56,10 +56,10 @@ c_z = -506818269917057987428517683309/9247621866477444223702401024.
 
 The exact first moments are `M_j=V c_j`; after translation by `c`, all three centred moments are zero. The complete imported V table, 46 maximal faces, 69 true edges, irredundant H rows, full-cone mechanics, and the original `2^-22` chamber are preserved in:
 
-- [E25D exact specification](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/source_E25D/E25D_spec.json)
-- [E25D exact report](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/source_E25D/E25D_exact_report.json)
-- [E25D H representation](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/source_E25D/E25D_H_representation.json)
-- [E25D exhaustive audit](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/source_E25D/E25D_audit.md)
+- E25D exact specification (`E25D_spec.json`)
+- E25D exact report (`E25D_exact_report.json`)
+- E25D H representation (`E25D_H_representation.json`)
+- E25D exhaustive audit (`E25D_audit.md`)
 
 ## 2. Exact reconstruction conventions
 
@@ -261,14 +261,14 @@ Thus `8` and `B` are independently strict unstable vertices throughout the certi
 
 Evidence:
 
-- [E25S exact report](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S/E25S_exact_report.json)
-- [E25S H representation](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S/E25S_H_representation.json)
-- [E25S exhaustive audit](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S/E25S_audit.md)
-- [E25S perturbation certificate](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S/E25S_perturbation_certificate.json)
-- [E25S independent report](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S/E25S_independent_verification.json)
-- [E25S independent verifier](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S/verify_E25S_independent.py)
-- [E25S OBJ](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S/E25S_centered.obj)
-- [E25S STL](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S/E25S_centered.stl)
+- E25S exact report (`E25S_exact_report.json`)
+- E25S H representation (`E25S_H_representation.json`)
+- E25S exhaustive audit (`E25S_audit.md`)
+- E25S perturbation certificate (`E25S_perturbation_certificate.json`)
+- E25S independent report (`E25S_independent_verification.json`)
+- E25S independent verifier (`verify_E25S_independent.py`)
+- E25S OBJ (`E25S_centered.obj`)
+- E25S STL (`E25S_centered.stl`)
 
 ## 4. Connected two-support replacement `E25S -> E27AB2`
 
@@ -320,7 +320,7 @@ The interior tetrahedron with vertices `A,Z1,RA,RB` has exact positive volume
 
 Thus the operation is a genuine finite-thickness communicating two-support cell, not a coincident subdivision or a serial surface relay.
 
-[Exact incidence and positive-volume certificate](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S_to_E27AB2_connected_patch.json)
+Exact incidence and positive-volume certificate (`E25S_to_E27AB2_connected_patch.json`)
 
 ## 5. Exact activation path and circuit chronology
 
@@ -445,9 +445,9 @@ The exact class distribution is
 
 Every cell satisfies `S+U-H=2`; none is `(1,1,0)`. Each root record stores its primitive exact polynomial and a rational isolating interval, and every cell stores its actual maximal faces, true edges, exact mass data, and complete equilibrium labels.
 
-- [Complete exact event atlas](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S_to_E27AB2_exact_event_atlas.json)
-- [Condensed chronology](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E25S_to_E27AB2_chronology_summary.json)
-- [Independent atlas verifier](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/verify_event_atlas.py)
+- Complete exact event atlas (`E25S_to_E27AB2_exact_event_atlas.json`)
+- Condensed chronology (`E25S_to_E27AB2_chronology_summary.json`)
+- Independent atlas verifier (`verify_event_atlas.py`)
 
 ## 6. Exact endpoint `E27AB2`
 
@@ -599,14 +599,14 @@ while preserving all 50 maximal faces, 75 true edges, exact positive volume, and
 
 A separately coded Qhull/tetrahedral-moment/full-normal-cone implementation reconstructs the same actual hull, centroid, and equilibrium labels. Both display meshes are watertight, winding-consistent, and Euler two.
 
-- [E27AB2 exact report](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E27AB2/E27AB2_exact_report.json)
-- [E27AB2 H representation](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E27AB2/E27AB2_H_representation.json)
-- [E27AB2 exhaustive audit](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E27AB2/E27AB2_audit.md)
-- [E27AB2 perturbation certificate](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E27AB2/E27AB2_perturbation_certificate.json)
-- [E27AB2 independent report](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E27AB2/E27AB2_independent_verification.json)
-- [E27AB2 independent verifier](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E27AB2/verify_E27AB2_independent.py)
-- [E27AB2 OBJ](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E27AB2/E27AB2_centered.obj)
-- [E27AB2 STL](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E27AB2/E27AB2_centered.stl)
+- E27AB2 exact report (`E27AB2_exact_report.json`)
+- E27AB2 H representation (`E27AB2_H_representation.json`)
+- E27AB2 exhaustive audit (`E27AB2_audit.md`)
+- E27AB2 perturbation certificate (`E27AB2_perturbation_certificate.json`)
+- E27AB2 independent report (`E27AB2_independent_verification.json`)
+- E27AB2 independent verifier (`verify_E27AB2_independent.py`)
+- E27AB2 OBJ (`E27AB2_centered.obj`)
+- E27AB2 STL (`E27AB2_centered.stl`)
 
 ## 7. Exact residual forcing component
 
@@ -664,8 +664,8 @@ det(dG/dc)=-V^3<0,
 
 so the three moment equations have a unique dependent centroid throughout the family. Exact interval containment preserves the complete incidence and `(3,2,3)` classification; an independent `5x5x5` grid reconstructs all 125 members.
 
-- [Exact three-control family](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/E27AB2_three_control_family.json)
-- [Independent family verifier](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/verify_family.py)
+- Exact three-control family (`E27AB2_three_control_family.json`)
+- Independent family verifier (`verify_family.py`)
 
 ## 9. Search coverage and uncertainty
 
@@ -686,7 +686,7 @@ One auxiliary-centre construction reached a relative-centre `(2,1,1)` state, but
 
 No strict own-centred `(1,1,0)` state was found. These searches are empirical discovery evidence, not a theorem over the full semialgebraic realization space. Exact claims are limited to `E25S`, `E27AB2`, their displayed chambers, and the complete declared connecting path.
 
-[Search ledger](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/search_ledger.json)
+Search ledger (`search_ledger.json`)
 
 ## 10. First genuinely nonrepeating successor
 
@@ -730,7 +730,7 @@ RB->RD < 0
 
 or another strict negative external escape from `RB`, preserve `[8,A,B]` and unstable `8`, and prevent every new internal edge from becoming an all-external-positive carrier. The stars of `(8,A)` and `(8,B)` must change in the same finite event; otherwise the construction merely repeats the exact transfer documented above. Three ordinary-volume moment variables must remain dependent after reserving at least three independent physical shape controls.
 
-[Exact next-topology specification](sandbox:/mnt/data/Vivid_Quartz_58_E25D_full_realization_frontier_NONWINNER/next_open_topology.json)
+Exact next-topology specification (`next_open_topology.json`)
 
 ## 11. Exact claim boundary
 

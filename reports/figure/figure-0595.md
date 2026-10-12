@@ -18,7 +18,7 @@ A genuinely different physical release of RETIRED84 is now exact: `KL13B_STABLE_
 
 **The entire Q basin was also cancelled on actual homogeneous bodies, but the physical P basin reappeared.** `KL13B_QCANCEL_G6/G8/G10` are own121, not110, with Q=[] and one P approximately .5184181. Their continuation `KL13B_QCLEAN_G8` is106/159/55, own121, Q=[] and one P approximately .4857956775. Its actual centre is not the prescribed forest origin. Thus this result does not combine Q0 from one body with P0 from another.
 
-All computational dependencies were available. I read the400496-byte updated journal through EOF1905 at SHA256 `621f80f25908154d8c28591500393844788cd06944641f9cad1080bcc6a260d2`, including literal parent `figure-0593`, SHA256 `d50f8fc4b746eafb5796af91710f1337725b22ae9270ff3e9a9344bc5d7db63d`. The unchanged supplied J115 sources remained available. The journal identifies the four KL13 parent bodies and the scoped H80 exit bound; none is replaced by an R82, C622 or other-family alias. fileciteturn2file0L7-L8
+All computational dependencies were available. I read the400496-byte updated journal through EOF1905 at SHA256 `621f80f25908154d8c28591500393844788cd06944641f9cad1080bcc6a260d2`, including literal parent `figure-0593`, SHA256 `d50f8fc4b746eafb5796af91710f1337725b22ae9270ff3e9a9344bc5d7db63d`. The unchanged supplied J115 sources remained available. The journal identifies the four KL13 parent bodies and the scoped H80 exit bound; none is replaced by an R82, C622 or other-family alias.
 
 ## Complete exact census
 
@@ -188,11 +188,11 @@ Observed final terminal marker:
 
 ## Complete recovery files and explicit handoff limitation
 
-The complete source-bearing result is saved as [KL13B_RESULT.json](sandbox:/mnt/data/KL13B_RESULT.json),108745 bytes. Its `result_markdown` contains the full inline self-contained recovery capsule, including all continuation-critical exact inputs and complete runnable producing units. I verified that the capsule embedded in that JSON is byte-for-byte identical to the standalone script below.
+The complete source-bearing result is saved as KL13B_RESULT.json,108745 bytes. Its `result_markdown` contains the full inline self-contained recovery capsule, including all continuation-critical exact inputs and complete runnable producing units. I verified that the capsule embedded in that JSON is byte-for-byte identical to the standalone script below.
 
-[KL13B_CAPSULE.py](sandbox:/mnt/data/KL13B_CAPSULE.py) is84320 bytes, SHA256 `d179600f311acf9a75b128e1b02dd5ad683e3f853a5a101f34fe87ef2415fbbb`. It contains40 readable source/data files in a compressed literal dictionary. The decoded canonical dictionary is218846 bytes, SHA256 `b98f81b0786e8b59817fc37c45967b13082141ed4b2bf1df7b7cccf34bcd5a8c`.
+KL13B_CAPSULE.py is84320 bytes, SHA256 `d179600f311acf9a75b128e1b02dd5ad683e3f853a5a101f34fe87ef2415fbbb`. It contains40 readable source/data files in a compressed literal dictionary. The decoded canonical dictionary is218846 bytes, SHA256 `b98f81b0786e8b59817fc37c45967b13082141ed4b2bf1df7b7cccf34bcd5a8c`.
 
-The supplementary [KL13B_HANDOFF.zip](sandbox:/mnt/data/KL13B_HANDOFF.zip),29231548 bytes, SHA256 `311e7283ab4a2447bdf9a232aa48c5b8c8113c327dc9fa7e3a54453ce03746d0`, includes the complete source, literal inputs, both inherited audit sources, all new exact reports and certificates, numerical histories, checkpoints and the source-bearing result.
+The supplementary KL13B_HANDOFF.zip,29231548 bytes, SHA256 `311e7283ab4a2447bdf9a232aa48c5b8c8113c327dc9fa7e3a54453ce03746d0`, includes the complete source, literal inputs, both inherited audit sources, all new exact reports and certificates, numerical histories, checkpoints and the source-bearing result.
 
 The40 decoded files are:
 

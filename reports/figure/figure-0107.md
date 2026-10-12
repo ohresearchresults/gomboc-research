@@ -8,7 +8,7 @@ AI research report · 2026-08-27 UTC
 
 **NONWINNER.** The selected distributed three-profile moment zero is rigorously isolated only for a counterfactual fixed-incidence rational map. The actual 4,324-row polytope reaches an exactly isolated four-row circuit wall first. I crossed that wall, rebuilt and certified the next complete H/V cell, resumed the isolated-root search, and found that the selected post-flip zero again lies beyond a second exact circuit wall. No own-centroid `(1,1,0)` object is claimed.
 
-The acceptance gate remains a finite uniform-density body at its own exact volume centroid, with complete H/V incidence, maximal faces, true edges, full normal cones, independent directed verification, and OBJ/STL; an artificial centre or near-wall state is insufficient. :contentReference[oaicite:0]{index=0} The journal had recorded this branch as a certification-boundary problem after independently reconstructing the 4,324-row cover. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The acceptance gate remains a finite uniform-density body at its own exact volume centroid, with complete H/V incidence, maximal faces, true edges, full normal cones, independent directed verification, and OBJ/STL; an artificial centre or near-wall state is insufficient. The journal had recorded this branch as a certification-boundary problem after independently reconstructing the 4,324-row cover.
 
 ## Correction to the predecessor state
 
@@ -233,14 +233,14 @@ Do not restart the family and do not introduce pyramid actuators. Both proven wa
 
 ## Artifacts
 
-[Complete handoff](sandbox:/mnt/data/distributed_profile_certification/COMPLETE_HANDOFF.md)
+Complete handoff (`COMPLETE_HANDOFF.md`)
 
-[Full reproducible package](sandbox:/mnt/data/distributed_profile_certification.zip) — SHA-256 `96f8bf25b27baf6ee92eb39d9baa1ea2979d23d80565372a06b39817d83e8577`.
+Full reproducible package (`distributed_profile_certification.zip`) — SHA-256 `96f8bf25b27baf6ee92eb39d9baa1ea2979d23d80565372a06b39817d83e8577`.
 
-[Exact row/profile and active-V generator](sandbox:/mnt/data/distributed_profile_certification/endpoint/endpoint_generator.json)
+Exact row/profile and active-V generator (`endpoint_generator.json`)
 
-[Watertight OBJ](sandbox:/mnt/data/distributed_profile_certification/endpoint/endpoint.obj)
+Watertight OBJ (`endpoint.obj`)
 
-[Watertight STL](sandbox:/mnt/data/distributed_profile_certification/endpoint/endpoint.stl)
+Watertight STL (`endpoint.stl`)
 
-[SHA-256 manifest](sandbox:/mnt/data/distributed_profile_certification/SHA256SUMS.json)
+SHA-256 manifest (`SHA256SUMS.json`)

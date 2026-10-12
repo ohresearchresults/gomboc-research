@@ -18,9 +18,9 @@ The recovery contains **20 new named rational controls representing19 distinct b
 
 ## Input reading and controlling identity
 
-I read the complete922-line attached journal, including all shared and branch memory and the entire literal required parent. I decoded and read all four supplied source/input units, then reproduced the parent's four-body audit and closeout stream. The compact UTF-8 JSON wrapper of the literal parent is26,352 bytes and has the required SHA-256 **26ea1554831f6f811880ea3b5deae026f92dbdbd910ce7980e130f107614fd81**. No parent identity conflict remained. The parent is exactly RESERVE19_G5 plus CORE/ROOT1/ROOT2 with classes211,12/17/27,6/17/21,4/7/9, respectively—not an improved ROOT2 own211 or the unrelated coarse479 body. :contentReference[oaicite:0]{index=0}
+I read the complete922-line attached journal, including all shared and branch memory and the entire literal required parent. I decoded and read all four supplied source/input units, then reproduced the parent's four-body audit and closeout stream. The compact UTF-8 JSON wrapper of the literal parent is26,352 bytes and has the required SHA-256 **26ea1554831f6f811880ea3b5deae026f92dbdbd910ce7980e130f107614fd81**. No parent identity conflict remained. The parent is exactly RESERVE19_G5 plus CORE/ROOT1/ROOT2 with classes211,12/17/27,6/17/21,4/7/9, respectively—not an improved ROOT2 own211 or the unrelated coarse479 body.
 
-The parent explicitly left numerical guard release and coupled reconstruction open; only its three specified finite modifications had been audited. I did not reinterpret that finite failure as a general exclusion, and did not use an unavailable FULLQ/H24/H44 input. All exact dependencies needed for this handoff are included below. :contentReference[oaicite:1]{index=1}
+The parent explicitly left numerical guard release and coupled reconstruction open; only its three specified finite modifications had been audited. I did not reinterpret that finite failure as a general exclusion, and did not use an unavailable FULLQ/H24/H44 input. All exact dependencies needed for this handoff are included below.
 
 ## 1. Executed path-preserving geometric reconstruction
 
@@ -807,4 +807,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Convenience copies, not external proof dependencies: [recovery program](sandbox:/mnt/data/RECOVER_R62.py) and [complete source ZIP](sandbox:/mnt/data/R62_COMPLETE_SOURCE.zip).
+Convenience copies, not external proof dependencies: recovery program (`RECOVER_R62.py`) and complete source ZIP (`R62_COMPLETE_SOURCE.zip`).

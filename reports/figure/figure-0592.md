@@ -24,13 +24,13 @@ tRR: **figure-0584**, SHA **6797de00f6052b8cddaed1b1e675597d2d283d7a3bbb58bc6c73
 
 d1: **figure-0588**, SHA **5e9cbfcd51d7494d624730d1ca20f012db52c653224056a40a8344c48cacb23f**.
 
-The notebook correctly distinguishes the actual PRUNE53 body from the two unexecuted chart proposals. No PROBE_BEST checkpoint or prospective old marker was treated as observed evidence. fileciteturn0file0L1207-L1212
+The notebook correctly distinguishes the actual PRUNE53 body from the two unexecuted chart proposals. No PROBE_BEST checkpoint or prospective old marker was treated as observed evidence.
 
 There is a serialization discrepancy: Qc's displayed wrapper extracts as27272B/SHA **e455efe3653eba54082333c5c26adea32d21139d797c655a8676f087c55621de**, not its advertised27212B/b7364822… wrapper. That wrapper was not executed or silently identified with the advertised bytes. The required input-only decoder nevertheless authenticates its decoded dictionary **exactly**:67267B/SHA **3c53f52e161499be2c96ba442a65bb9b7b5085e5bb88d894bc2c2f66abe18fb3**. Its complete PRUNE53 literal is1600B/SHA **ce0d879f617ef38277c7f57840b3dbf498e131fac71c687e26b405c05aa7137b**, embedded below. Thus Qc's construction identity is retained without claiming byte identity for the wrapper serialization.
 
 No MB1/SQ74C source was needed or imported. The input dictionary was decoded to extract the needed literal; this is not a claim to have executed or read all unrelated28 historical inner units. The census implementation is the supplied tRR engine with additional topology, positive-tetrahedron and polynomial checks—not a second independently developed equilibrium engine.
 
-The parent reconstructs as53/153/102, own211/weak000, P[], Q≈.7964296564575203, agreeing with its literal ledger. fileciteturn0file0L1331-L1338 The new face ordering gives S24/25 rather than oldS28/80, but the vertex sets remain{7,31,18}/{7,20,38}; U12, H50--52.
+The parent reconstructs as53/153/102, own211/weak000, P[], Q≈.7964296564575203, agreeing with its literal ledger. The new face ordering gives S24/25 rather than oldS28/80, but the vertex sets remain{7,31,18}/{7,20,38}; U12, H50--52.
 
 Its exact volume and centroid are
 
@@ -180,7 +180,7 @@ BH18_EXACT_FINITE_MASS_CARRIER_AND_FAN_RECOVERY_PASS_NO_110 51
 
 Selected identities: final INPUT2880B/SHA6a771edb52b8ad6c44225158000271f4567cee98cfd24d5f695d90ff4138d7f1; final AUDIT39440B/SHAf7b91a6d14cada5801576e6713624413ae55f36d1c858a3b2fc0e8c608e43287; DIRECT_CROSS_B10 AUDIT203422B/SHA8e5484a9ff990b5e63706f53d6d8cada16fe3f26d94996293307768bcb0fa3e2; LINEAR_RECLOSURE_CERT21946B/SHA179c9787228613b47286e98915538193ddc5ab74cd6d48c2088569dd27e97c91; EXPECTED_EXACT_MANIFEST7157B/SHA90d64b208bc21a8c78251e864438131ce697521872996d599c80d3063dc8fef6.
 
-Recovery script:49126B/SHA **ee097ae462b604fea0685a71248c607758a3009676f97c7114356fddcad230e0**. Supplementary copies: [complete source and exact evidence](sandbox:/mnt/data/BH18_RESEARCH_HANDOFF.zip), [recovery script](sandbox:/mnt/data/RECOVER_BH18.py), [expanded complete handoff](sandbox:/mnt/data/BH18_RESULT_MARKDOWN.md). The literal capsule, not these links, carries the durable recovery.
+Recovery script:49126B/SHA **ee097ae462b604fea0685a71248c607758a3009676f97c7114356fddcad230e0**. Supplementary copies: complete source and exact evidence (`BH18_RESEARCH_HANDOFF.zip`), recovery script (`RECOVER_BH18.py`), expanded complete handoff (`BH18_RESULT_MARKDOWN.md`). The literal capsule, not these links, carries the durable recovery.
 
 ## Complete lossless source/input capsule
 

@@ -183,9 +183,9 @@ No new smallest body, E<500 Gömböc, arbitrary-coordinate tolerance, manufactur
 
 ## 7. Artifacts and executed replay
 
-[Complete exact continuation package](sandbox:/mnt/data/CN11_DG138_CENTRE_CHAMBERS_EXACT_CONTINUATION.zip):242209bytes, SHA256 **a51cb7bc4ffd2d80423a27d78832aca696521630937f12ed49e4592368aef9cd**. All46manifest entries were checked against the ZIP bytes.
+Complete exact continuation package (`CN11_DG138_CENTRE_CHAMBERS_EXACT_CONTINUATION.zip`):242209bytes, SHA256 **a51cb7bc4ffd2d80423a27d78832aca696521630937f12ed49e4592368aef9cd**. All46manifest entries were checked against the ZIP bytes.
 
-[Full Markdown handoff](sandbox:/mnt/data/CN11_DG138_CENTRE_RESEARCH_HANDOFF.md), [primary exact report](sandbox:/mnt/data/CN11_DG138_CENTRE_EXACT_REPORT.json), [independent Farkas report](sandbox:/mnt/data/CN11_DG138_CENTRE_FARKAS_REPORT.json), [own-centroid rejection fixtures](sandbox:/mnt/data/CN11_DG138_CENTRE_REFERENCE_REJECTIONS.json), and [fresh extracted-archive replay](sandbox:/mnt/data/CN11_DG138_CENTRE_RELEASE_REPLAY.log).
+Full Markdown handoff (`CN11_DG138_CENTRE_RESEARCH_HANDOFF.md`), primary exact report (`CN11_DG138_CENTRE_EXACT_REPORT.json`), independent Farkas report (`CN11_DG138_CENTRE_FARKAS_REPORT.json`), own-centroid rejection fixtures (`CN11_DG138_CENTRE_REFERENCE_REJECTIONS.json`), and fresh extracted-archive replay (`CN11_DG138_CENTRE_RELEASE_REPLAY.log`).
 
 Fresh extraction and `python -S REPLAY.py` completed with
 

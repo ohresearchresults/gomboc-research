@@ -34,7 +34,7 @@ on which every member, for every0<epsilon<=5, has U>=2 under every SPD. Its smal
 
 An exact actual **525,weak000** control at epsilon5 and c=(0,0,6) makes all three true arrows **6->8,7->0,8->5 strictly positive**, although their positive weighted combination was forbidden throughout the original family under every metric. Thus the original stresses cannot simply be transported projectively. Five additional exact controls attain **222,weak000**, including two with apex0 not unstable.
 
-**The full three-parameter positive-projective interior remains unresolved outside the proved band. No U1 or110 construction, whole combinatorial-type exclusion, canonical count subtraction or bound change is claimed.** The accepted global interval remains34<=C_min<=622. The parent’s all-root theorem covered the original family and affine images, not these projective refills. :contentReference[oaicite:0]{index=0}
+**The full three-parameter positive-projective interior remains unresolved outside the proved band. No U1 or110 construction, whole combinatorial-type exclusion, canonical count subtraction or bound change is claimed.** The accepted global interval remains34<=C_min<=622. The parent’s all-root theorem covered the original family and affine images, not these projective refills.
 
 ## 2. Source authority and evidence
 
@@ -91,7 +91,7 @@ The seventeen true edges, in the exact order used below, are
 01,02,03,04,05,06,07,12,19,23,34,45,58,67,68,79,89.
 ```
 
-The degree sequence is7 followed by nine3s. F7 is heptagonal and F8 quadrilateral. **08 and09 are not mechanical edges; triangle089 is an internal interface, not a maximal facet.** These are the parent’s actual labels and facets. :contentReference[oaicite:1]{index=1}
+The degree sequence is7 followed by nine3s. F7 is heptagonal and F8 quadrilateral. **08 and09 are not mechanical edges; triangle089 is an internal interface, not a maximal facet.** These are the parent’s actual labels and facets.
 
 ### Complete positive-projective moment chart
 
@@ -131,7 +131,7 @@ The same-origin poles are exactly
 
 `q_f(c)=(n_f+h_f*c)/[h_f-(n_f+h_f*c).g_c]`.
 
-Every physical statement uses one SPD M and **N=M^-1** on these poles. Neither an old centroid nor a separately centred polar body is substituted. The parent’s cap-moment identity is the starting actual-mass convention. :contentReference[oaicite:2]{index=2}
+Every physical statement uses one SPD M and **N=M^-1** on these poles. Neither an old centroid nor a separately centred polar body is substituted. The parent’s cap-moment identity is the starting actual-mass convention.
 
 The new source includes `projective_body(epsilon,c)` for arbitrary rational positive c and a full exact facet/edge/reciprocal auditor. Its weak output is a list of physical edge packets; future nonempty VF packets would require point deduplication before reporting weak-point counts. All six controls here have no zero primitive and no weak packet, so their weak000 classifications are complete.
 
@@ -837,4 +837,4 @@ p.write_bytes(b)
 print('PROJECTIVE_TWOCAP_SOURCE_RECOVERED',len(b),hashlib.sha256(b).hexdigest())
 ```
 
-Optional convenience copies: [autonomous source](sandbox:/mnt/data/projective_twocap.py), [exact report](sandbox:/mnt/data/projective_twocap.json), [source-only recovery capsule](sandbox:/mnt/data/recover_projective_twocap.py). The embedded capsule is sufficient without these links.
+Optional convenience copies: autonomous source (`projective_twocap.py`), exact report (`projective_twocap.json`), source-only recovery capsule (`recover_projective_twocap.py`). The embedded capsule is sufficient without these links.

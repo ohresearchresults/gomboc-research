@@ -8,7 +8,7 @@ AI research report · 2026-09-22 UTC
 
 ## Outcome
 
-No strict own110/additionalweak000 body was found. The strongest exact descendant is **`BR76_C150_INTERFACE17_DESCENT_G3`**, a genuine changed-maximal-incidence successor of the authoritative `BR76_C162_CIRCUIT18_DESCENT_G3` parent. The literal parent is V54/E81/F29,C162, strict121/weak000/zero000, S0,U2/17,H42–45, Qbars empty, with a single 18-vertex/18-cut physical packet; its own handoff explicitly identifies the 18/18 death interface as the next multi-exit target. :contentReference[oaicite:0]{index=0}
+No strict own110/additionalweak000 body was found. The strongest exact descendant is **`BR76_C150_INTERFACE17_DESCENT_G3`**, a genuine changed-maximal-incidence successor of the authoritative `BR76_C162_CIRCUIT18_DESCENT_G3` parent. The literal parent is V54/E81/F29,C162, strict121/weak000/zero000, S0,U2/17,H42–45, Qbars empty, with a single 18-vertex/18-cut physical packet; its own handoff explicitly identifies the 18/18 death interface as the next multi-exit target.
 
 The new exact body is:
 
@@ -24,7 +24,7 @@ The new exact body is:
 
 The global-radius-relative P depth is ≈`0.3340151974957006`, versus parent ≈`0.3126477412916255`; this is ~6.834% deeper. Therefore C150 is promoted for **whole-interface contraction plus complexity reduction**, not for radial-depth improvement. The stable/polar side remains completely canceled.
 
-The exact source authority for the incoming body also records that all 29 of its literal one-support deletions were closed and that another multi-exit/support event—not deletion-only pruning—was required. :contentReference[oaicite:1]{index=1}
+The exact source authority for the incoming body also records that all 29 of its literal one-support deletions were closed and that another multi-exit/support event—not deletion-only pruning—was required.
 
 ## Finite interface mechanism beyond the old circuit
 

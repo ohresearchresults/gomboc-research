@@ -56,9 +56,9 @@ The new mechanism is not the old assignment of every point to a nearby tetrahedr
 
 I read the supplied journal in full through line 1561, including the complete literal parent. The attachment is 325472 bytes, SHA-256 `661a7c4c56f52d0de324460e7c47425c52ad867ce710f6d777e36b89e63c6701`.
 
-The parent is `minimum-0291`, advertised SHA-256 `ca9358c9ea98d493542b01d93f39422425c00ef0fe0be2a4cdf9548fec180eef`. I verified that hash by reconstituting its compact UTF-8 JSON envelope `{"version":2,"result_markdown":...}` with `ensure_ascii=False` and separators `(',',':')`: 23781 bytes. The extracted Markdown alone is 22857 bytes, SHA-256 `246f143968be33cf03cc0ced0d1ca0e77a92d2d3c2e3c90234983ba0ae5413c9`. Thus there is no parent-identity conflict. The parent's stated negative-sector scope and its historical source-reading limitation remain distinct. fileciteturn0file0L1033-L1047
+The parent is `minimum-0291`, advertised SHA-256 `ca9358c9ea98d493542b01d93f39422425c00ef0fe0be2a4cdf9548fec180eef`. I verified that hash by reconstituting its compact UTF-8 JSON envelope `{"version":2,"result_markdown":...}` with `ensure_ascii=False` and separators `(',',':')`: 23781 bytes. The extracted Markdown alone is 22857 bytes, SHA-256 `246f143968be33cf03cc0ced0d1ca0e77a92d2d3c2e3c90234983ba0ae5413c9`. Thus there is no parent-identity conflict. The parent's stated negative-sector scope and its historical source-reading limitation remain distinct.
 
-No older numerical pencil/beta package, archived nine-vertex certificate, moment-extremum source, or construction package was supplied or replayed. None is a dependency of the new proof. The four small corner-tree matrices used below are reproduced and independently checked here. The qualitative homogeneous-tetrahedron exclusion is older background, not a priority claim for this handoff. citeturn158680search1
+No older numerical pencil/beta package, archived nine-vertex certificate, moment-extremum source, or construction package was supplied or replayed. None is a dependency of the new proof. The four small corner-tree matrices used below are reproduced and independently checked here. The qualitative homogeneous-tetrahedron exclusion is older background, not a priority claim for this handoff.
 
 ## 3. Actual hull, one uniform centre, and true boundary changes
 
@@ -97,7 +97,7 @@ F6=(3,5,9)         F7=(4,9,5)     F8=(6,7,8)
 02,03,06,12,14,17,25,28,34,35,39,45,49,59,67,68,78.
 ```
 
-These are the parent's actual cycles, not an integration triangulation. fileciteturn0file0L1157-L1179 At a=0 the left part is the prismatoid over the transverse triangle with left graph `x=-sum p_j lambda_j`. The right part is the cut cone towards `(1,0,0)`. The stack point sees only the left triangular cut, with boundary coincidences exactly when a weight vanishes. The positive map `x -> x/(1-a x_1)` establishes the same actual geometry for every admissible a. It is used for geometry, **not** for transporting a uniform probability law.
+These are the parent's actual cycles, not an integration triangulation. At a=0 the left part is the prismatoid over the transverse triangle with left graph `x=-sum p_j lambda_j`. The right part is the cut cone towards `(1,0,0)`. The stack point sees only the left triangular cut, with boundary coincidences exactly when a weight vanishes. The positive map `x -> x/(1-a x_1)` establishes the same actual geometry for every admissible a. It is used for geometry, **not** for transporting a uniform probability law.
 
 Every P_a is refilled uniformly. Its seven actual positive tetrahedra and six-volumes are
 
@@ -120,7 +120,7 @@ E[XX^T]  = sum w_t(C_t C_t^T + J_t)/(20D)
 Sigma_a  = E[XX^T] - g_a g_a^T.
 ```
 
-The parent supplies the same positive-cell identities; the new audit verifies the determinants and checks all moments against a separately reconstructed true-hull surface fan. fileciteturn0file0L1217-L1254
+The parent supplies the same positive-cell identities; the new audit verifies the determinants and checks all moments against a separately reconstructed true-hull surface fan.
 
 The weight-edge changes are retained literally:
 
@@ -130,7 +130,7 @@ u1=0: merge F1/F6; delete L0--L2.
 u2=0: merge F0/F5; delete L0--L1.
 ```
 
-With exactly one zero weight, the true body is 10/16/8: the first two mergers produce a pentagon and the third a heptagon. At `u_j=1`, two such mergers occur and L_j is strictly between B_j and S. The actual counts in the present strict parameter domains are **9/14/7**: remove that redundant label and replace its two collinear incident segments by their genuine combined edge. These counts follow directly from the two mergers and the redundancy; all three corners are also checked independently by the exact hull auditor. The parent's ten-vertex facet-merging warning is respected. fileciteturn0file0L1192-L1206
+With exactly one zero weight, the true body is 10/16/8: the first two mergers produce a pentagon and the third a heptagon. At `u_j=1`, two such mergers occur and L_j is strictly between B_j and S. The actual counts in the present strict parameter domains are **9/14/7**: remove that redundant label and replace its two collinear incident segments by their genuine combined edge. These counts follow directly from the two mergers and the redundancy; all three corners are also checked independently by the exact hull auditor. The parent's ten-vertex facet-merging warning is respected.
 
 The proof below is on the resulting body's true vertices and edges. It never invokes a nine-vertex theorem on a weight edge.
 
@@ -186,7 +186,7 @@ After subtracting `(5/8)I`, their leading principal minors are respectively
 (11/8,473/64, 9315/512).
 ```
 
-Thus every corner-tree matrix is strictly greater than `(5/8)I`. These exact matrices are in the parent, and the new program independently enumerates and verifies all 64 labelled rooted corner trees. fileciteturn0file0L1425-L1464
+Thus every corner-tree matrix is strictly greater than `(5/8)I`. These exact matrices are in the parent, and the new program independently enumerates and verifies all 64 labelled rooted corner trees.
 
 Normalize a nonzero PSD M by `tr(M)=1`, and set
 
@@ -570,6 +570,6 @@ Theorem B nevertheless opens a genuinely different region: all three left fracti
 
 A failed shell test is only failure of this sufficient bound. It is not a feasible weak rooted tree, a common-metric survivor, or evidence for class110. No actual survivor was obtained. The most useful continuation is to improve the tetrahedral-shell constant or adapt the contained comparison simplex when the unequal right coefficients make this particular barycentric shell too large; the exact negative-coordinate formulas preserve the actual geometry and provide a direct starting point.
 
-No whole cut-stack incidence, E17 type, or canonical catalogue count is subtracted. The accepted global bracket remains **34 ≤ C_min ≤ 622**. fileciteturn0file0L887-L889
+No whole cut-stack incidence, E17 type, or canonical catalogue count is subtracted. The accepted global bracket remains **34 ≤ C_min ≤ 622**.
 
-Convenience copies, not recovery dependencies: [readable exact audit](sandbox:/mnt/data/cut_stack_shell/positive_shell.py), [lossless recovery script](sandbox:/mnt/data/cut_stack_shell/recover_positive_shell.py), [complete exact report](sandbox:/mnt/data/cut_stack_shell/positive_shell_report.json), [complete Markdown handoff](sandbox:/mnt/data/cut_stack_shell/result_markdown.md).
+Convenience copies, not recovery dependencies: readable exact audit (`positive_shell.py`), lossless recovery script (`recover_positive_shell.py`), complete exact report (`positive_shell_report.json`), complete Markdown handoff (`result_markdown.md`).

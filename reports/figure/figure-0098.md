@@ -8,7 +8,7 @@ AI research report · 2026-08-27 UTC
 
 ## Verdict
 
-I did **not** obtain a finite homogeneous convex polyhedral Gömböc. The strongest fully materialized exact endpoint is an exact rational **(S,U,H)=(2,1,1)** polyhedron with one target stable face, one residual stable face, the unique target unstable vertex, and one residual saddle edge. It is therefore a strict frontier improvement over the journal's transferred endpoint G, whose defect was `(2,2,2)` with the extra unstable rail `{5,6}`. The source journal gives F's reconstructible coordinates and stated audit at lines 1086–1106, and describes G and the missing cross-rail operation at lines 912–920. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+I did **not** obtain a finite homogeneous convex polyhedral Gömböc. The strongest fully materialized exact endpoint is an exact rational **(S,U,H)=(2,1,1)** polyhedron with one target stable face, one residual stable face, the unique target unstable vertex, and one residual saddle edge. It is therefore a strict frontier improvement over the journal's transferred endpoint G, whose defect was `(2,2,2)` with the extra unstable rail `{5,6}`. The source journal gives F's reconstructible coordinates and stated audit at lines 1086–1106, and describes G and the missing cross-rail operation at lines 912–920.
 
 The endpoint here eliminates the transferred extra unstable rail completely: **U=1** and the sole unstable vertex is the preserved target. The old cap `{8,11,12}`, all obsolete F rows, and five obsolete rail rows are strictly interior. A connected two-vertex cross-rail zipper cuts the earlier closure stable face and replaces its two saddle stars in one synchronized common-face event. The remaining obstruction is one stable/saddle pair at opposite ends of the annular closure.
 
@@ -31,7 +31,7 @@ The exact-repaired F has:
 - saddle edges `[[0, 1], [7, 10]]`;
 - normalized strict nonincidence separation `7.4876878442155833e-07`.
 
-The complete exact repaired coordinates, projection deltas, exact H-representation, face cycles, edges, volume and centroid are in [`endpoint_F_exact.json`](sandbox:/mnt/data/gomboc_crossrail_package/endpoint_F_exact.json). The exact F meshes are [`endpoint_F.obj`](sandbox:/mnt/data/gomboc_crossrail_package/endpoint_F.obj) and [`endpoint_F.stl`](sandbox:/mnt/data/gomboc_crossrail_package/endpoint_F.stl).
+The complete exact repaired coordinates, projection deltas, exact H-representation, face cycles, edges, volume and centroid are in `endpoint_F_exact.json`. The exact F meshes are `endpoint_F.obj` and `endpoint_F.stl`.
 
 ## Exact final V-data
 
@@ -103,7 +103,7 @@ The true edge set is:
 0-1 0-2 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 0-28 0-29 0-33 1-2 1-3 1-15 1-16 1-17 1-30 1-31 1-32 2-29 2-30 3-17 3-18 3-32 3-34 4-5 4-33 5-6 5-33 5-34 6-7 6-34 7-8 7-34 8-9 8-34 9-10 9-34 10-11 10-34 11-12 11-34 12-13 12-34 13-14 13-34 14-15 14-34 15-16 15-34 16-17 16-34 17-18 17-34 18-34 19-20 19-33 20-21 20-33 20-34 21-22 21-34 22-23 22-34 23-24 23-34 24-25 24-34 25-26 25-34 26-27 26-34 27-28 27-34 28-29 28-34 29-30 29-34 30-31 30-34 31-32 31-34 32-34 33-34
 ```
 
-The complete exact H-data are stored face-by-face as rational outward normals and offsets `n·x <= h` in [`crossrail_endpoint_exact.json`](sandbox:/mnt/data/gomboc_crossrail_package/crossrail_endpoint_exact.json). That file also contains the exact V-data, incidence sphere, centered coordinates, mechanics, perturbation data, and all 49 construction-row statuses.
+The complete exact H-data are stored face-by-face as rational outward normals and offsets `n·x <= h` in `crossrail_endpoint_exact.json`. That file also contains the exact V-data, incidence sphere, centered coordinates, mechanics, perturbation data, and all 49 construction-row statuses.
 
 ## Exhaustive own-centroid mechanics audit
 
@@ -132,7 +132,7 @@ PASS: V=35 E=99 F=66; exact centroid; S=2 U=1 H=1; interval box eps=1e-9.
 Stable cycles: [[1, 0, 2], [32, 34, 3]] unstable: [3] saddle: [(4, 33)]
 ```
 
-The verifier is [`verify_exact_and_interval.py`](sandbox:/mnt/data/gomboc_crossrail_package/verify_exact_and_interval.py).
+The verifier is `verify_exact_and_interval.py`.
 
 ## Genuine cross-rail incidence
 
@@ -163,11 +163,11 @@ For the final hull H with exact centroid c, move each old cap row by `x_i(s)=c+r
 - F11: rho=176897864835470263443793977101687487937527980999725883953301990960366200068083051055139287879370778559838931/176896986083469659261534928123186063652970141548612063629895004026967642252540209729826423942137189001636999 ≈ 1.0000049675917044; barycentric=[0.9396670219864005, 0.011908984352966908, 0.04842399366063261]
 - F12: rho=176897864835470263443793977101687487937527980999725883953301990960366200068083051055139287879370778559838931/176896797357627063653051258999872978950117423396465914913179950793268029114660338641571387374701083286882099 ≈ 1.0000060344667576; barycentric=[0.9485209589815276, 0.013205732784186273, 0.038273308234286214]
 
-Thus F8,F11,F12 can be absorbed in one connected six-point coplanarity with face `(0,4,33)`, rather than as three unrelated endpoint deletions. The exact fractions, boundary points, schedules, all 36 added rows, and direct affine witness path are in [`circuit_path_exact.json`](sandbox:/mnt/data/gomboc_crossrail_package/circuit_path_exact.json).
+Thus F8,F11,F12 can be absorbed in one connected six-point coplanarity with face `(0,4,33)`, rather than as three unrelated endpoint deletions. The exact fractions, boundary points, schedules, all 36 added rows, and direct affine witness path are in `circuit_path_exact.json`.
 
 ## Inactive construction rows and separation
 
-The full exact construction has 49 rows: F0..F12 and A00..A35. Final active combined labels are `[0, 2, 3, 5, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 47, 48]`. Strictly interior labels are `[1, 4, 6, 7, 8, 9, 10, 11, 12, 28, 29, 44, 45, 46]`. This includes old cap F8,F11,F12 and all obsolete F/rail rows. Every inactive row satisfies every final supporting inequality strictly. The minimum normalized distance to the final boundary is `1.9025835929243958e-06`. [`verify_inactive_rows.py`](sandbox:/mnt/data/gomboc_crossrail_package/verify_inactive_rows.py) performs this audit with exact fractions.
+The full exact construction has 49 rows: F0..F12 and A00..A35. Final active combined labels are `[0, 2, 3, 5, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 47, 48]`. Strictly interior labels are `[1, 4, 6, 7, 8, 9, 10, 11, 12, 28, 29, 44, 45, 46]`. This includes old cap F8,F11,F12 and all obsolete F/rail rows. Every inactive row satisfies every final supporting inequality strictly. The minimum normalized distance to the final boundary is `1.9025835929243958e-06`. `verify_inactive_rows.py` performs this audit with exact fractions.
 
 ## Volume and moment shift
 
@@ -189,21 +189,21 @@ P0 = [36, 65, 64, 63, 62, 25, 24, 23, 22, 21, 20, 19, 18, 17, 15, 16, 4]
 P1 = [36, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 53, 54, 39, 37]
 ```
 
-A one-point visibility LP maximized a common margin for seeing every face of each full path while protecting the target face. On P0 the margin remains negative through the target-frame box `[-5,5]^3`; the first sampled positive value is at `B=10`, where the point sees 36 of 66 faces and the resulting mechanics are `(2,4,4)`. On P1 positivity starts at `B=0.2`, but the point already sees 31 faces and returns `(2,2,2)`. This is not a theorem that no larger distributed construction works; it is a quantified obstruction to the missing **single-cone** move. The reproducible LP and table are [`obstruction_lp.py`](sandbox:/mnt/data/gomboc_crossrail_package/obstruction_lp.py) and [`obstruction_results.json`](sandbox:/mnt/data/gomboc_crossrail_package/obstruction_results.json).
+A one-point visibility LP maximized a common margin for seeing every face of each full path while protecting the target face. On P0 the margin remains negative through the target-frame box `[-5,5]^3`; the first sampled positive value is at `B=10`, where the point sees 36 of 66 faces and the resulting mechanics are `(2,4,4)`. On P1 positivity starts at `B=0.2`, but the point already sees 31 faces and returns `(2,2,2)`. This is not a theorem that no larger distributed construction works; it is a quantified obstruction to the missing **single-cone** move. The reproducible LP and table are `obstruction_lp.py` and `obstruction_results.json`.
 
 The most useful continuation is therefore a **distributed multi-vertex zipper along one of these dual paths**, with at least two independently actuated terminal vertices so that the residual stable primitive and residual saddle primitive cross zero in the same topology-changing event. Adding more parallel rail sections is not indicated; the needed degrees of freedom must alter visibility along the dual path and provide two independent moment directions.
 
 ## Reproducible artifacts
 
-- [Complete package ZIP](sandbox:/mnt/data/gomboc_crossrail_package.zip) — SHA-256 `6c9bd271fa8373b7e6d695a92c2e196d3e51f6d3e560abaf1f05ef63ecf7684d`
-- [Package README](sandbox:/mnt/data/gomboc_crossrail_package/README.md)
-- [Exact endpoint JSON](sandbox:/mnt/data/gomboc_crossrail_package/crossrail_endpoint_exact.json)
-- [Exact circuit path JSON](sandbox:/mnt/data/gomboc_crossrail_package/circuit_path_exact.json)
-- [Independent exact + interval verifier](sandbox:/mnt/data/gomboc_crossrail_package/verify_exact_and_interval.py)
-- [Centered endpoint OBJ](sandbox:/mnt/data/gomboc_crossrail_package/crossrail_endpoint.obj)
-- [Centered endpoint STL](sandbox:/mnt/data/gomboc_crossrail_package/crossrail_endpoint.stl)
-- [Deterministic mesh rebuilder](sandbox:/mnt/data/gomboc_crossrail_package/rebuild_meshes.py)
-- [Verification transcript](sandbox:/mnt/data/gomboc_crossrail_package/VERIFICATION.txt)
+- Complete package ZIP (`gomboc_crossrail_package.zip`) — SHA-256 `6c9bd271fa8373b7e6d695a92c2e196d3e51f6d3e560abaf1f05ef63ecf7684d`
+- Package README (`README.md`)
+- Exact endpoint JSON (`crossrail_endpoint_exact.json`)
+- Exact circuit path JSON (`circuit_path_exact.json`)
+- Independent exact + interval verifier (`verify_exact_and_interval.py`)
+- Centered endpoint OBJ (`crossrail_endpoint.obj`)
+- Centered endpoint STL (`crossrail_endpoint.stl`)
+- Deterministic mesh rebuilder (`rebuild_meshes.py`)
+- Verification transcript (`VERIFICATION.txt`)
 
 ## Bottom line
 

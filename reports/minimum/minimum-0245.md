@@ -10,15 +10,15 @@ AI research report · 2026-09-26 UTC
 
 I obtained a structural common-metric exclusion of **19,554 complete rooted primal trees**, rather than a physical surviving tree. The mechanism is an actual-centroid reflection into the basal facet, followed by a highest-nonroot argument. It does not use the failed quadratic lowering of the arrow stress.
 
-On the requested closed prism, the new exclusions comprise all **14,637 trees rooted at 7, 8, or 9**, and **4,917 trees with a basal root whose only child is its apical neighbour**. The latter family includes roots 0 through 6 and is disjoint from the supplied twenty-tree support. Exactly five of the supplied twenty trees have apical roots. Consequently, the union of this result with that supplied certificate covers **19,569 / 48,790** trees on the requested prism, leaving **29,221** outside this particular union. These are literal labelled-tree counts, not new canonical-orbit or whole-type counts. The supplied certificate's twenty-tree scope and its root distribution are explicit in the source. fileciteturn0file0L102-L110
+On the requested closed prism, the new exclusions comprise all **14,637 trees rooted at 7, 8, or 9**, and **4,917 trees with a basal root whose only child is its apical neighbour**. The latter family includes roots 0 through 6 and is disjoint from the supplied twenty-tree support. Exactly five of the supplied twenty trees have apical roots. Consequently, the union of this result with that supplied certificate covers **19,569 / 48,790** trees on the requested prism, leaving **29,221** outside this particular union. These are literal labelled-tree counts, not new canonical-orbit or whole-type counts. The supplied certificate's twenty-tree scope and its root distribution are explicit in the source.
 
 The new geometric theorem is substantially wider in shape than the requested prism: it holds for **every x,r in [0,1], the entire physical p/q triangle, and 0 <= lambda <= 1/16**, for every common nonzero PSD metric. A sharper statement extends to the algebraic threshold described below. Thus the independent-r interval is macroscopic, indeed the whole natural interval, for these root families. It is not all-root coverage.
 
-No actual-centred complete-tree PSD or SPD survivor is supplied. In particular, the physical countercontrol below refutes a stronger *basal-maximum trapping principle beyond its sharp threshold*, not the one-sided all-tree exclusion conjecture. General H5/E17 exclusion and the separate attaining construction remain unchanged; no improvement of the notebook's 34 <= C_min <= 622 is claimed. fileciteturn0file3L9-L11
+No actual-centred complete-tree PSD or SPD survivor is supplied. In particular, the physical countercontrol below refutes a stronger *basal-maximum trapping principle beyond its sharp threshold*, not the one-sided all-tree exclusion conjecture. General H5/E17 exclusion and the separate attaining construction remain unchanged; no improvement of the notebook's 34 <= C_min <= 622 is claimed.
 
 ## Inputs and research route
 
-All four manifested inputs were read through their ends, including the journal's complete shared and branch memories. Their byte counts and SHA-256 values matched the manifest. Both source units were read; applying the supplied repair reproduced the 13,210-byte source with SHA-256 d6755a22a6ac68b9a865ea260113501ddba0abb81dd730f43d1dc533a7f91e4a. No historical 5,982-stress archive, parent sandbox, research connector, or additional exact dependency is used by the new result. The supplied repair changes only the identified search comprehension. fileciteturn0file2L9-L23
+All four manifested inputs were read through their ends, including the journal's complete shared and branch memories. Their byte counts and SHA-256 values matched the manifest. Both source units were read; applying the supplied repair reproduced the 13,210-byte source with SHA-256 d6755a22a6ac68b9a865ea260113501ddba0abb81dd730f43d1dc533a7f91e4a. No historical 5,982-stress archive, parent sandbox, research connector, or additional exact dependency is used by the new result. The supplied repair changes only the identified search comprehension.
 
 I investigated actual common-metric maximum-vertex and highest-nonroot alternatives. Exploratory feasibility calculations suggested a basal maximum could not escape upwards. I replaced that observation with the exact reflection theorem and scalar polynomial certificate below. Further analysis gave the basal-child obstruction and an exact sharpness construction. No numerical solver infeasibility or finite stress-library gap is an accepted premise.
 
@@ -38,7 +38,7 @@ The exact maximal-face cycles are
     (6,5,4,3,2,1,0), (8,7,0,1), (7,6,0), (1,2,8),
     (9,8,2,3), (9,3,4), (4,5,7,9), (6,7,5), (7,8,9).
 
-These are the supplied literal labels and incidence, not another H5 representative. For strict x,r in (0,1), p,q>0, p+q<1, and 0<lambda<1, the body is genuine 10/17/9. Boundary collapses remain indexed limits. fileciteturn0file0L18-L36
+These are the supplied literal labels and incidence, not another H5 representative. For strict x,r in (0,1), p,q>0, p+q<1, and 0<lambda<1, the body is genuine 10/17/9. Boundary collapses remain indexed limits.
 
 The actual moments used throughout are
 
@@ -50,7 +50,7 @@ The actual moments used throughout are
     Jy = s^3 By/4+s^2 lambda(1-3rq/4)/24+lambda^2/24,
     Jz = A s^2/12+lambda/12+lambda^2/24.
 
-Set g=J/V=(c,gamma), where c is horizontal and gamma=Jz/V. These are genuine volume moments, not selectable masses or a frozen centroid. The standalone verifier checks all four fan identities and the three basal area/first-moment identities as polynomial identities. The formulas and positive-volume boundary convention agree with the supplied proof. fileciteturn0file0L41-L52
+Set g=J/V=(c,gamma), where c is horizontal and gamma=Jz/V. These are genuine volume moments, not selectable masses or a frozen centroid. The standalone verifier checks all four fan identities and the three basal area/first-moment identities as polynomial identities. The formulas and positive-volume boundary convention agree with the supplied proof.
 
 On the natural closed shape domain, 7/64 <= A <= 31/64 and 7/192 <= V <= 1/6. Directly,
 
@@ -634,4 +634,4 @@ if __name__=='__main__':
     main(Path(sys.argv[1] if len(sys.argv)>1 else 'h5-basal-output'))
 ```
 
-Supplementary copies: [standalone source](sandbox:/mnt/data/h5_basal_maximum_reflection.py), [exact report](sandbox:/mnt/data/h5-basal-output/h5_basal_maximum_report.json), and [all scalar Bernstein coefficients](sandbox:/mnt/data/h5-basal-output/h5_basal_reflection_coefficients.json). The complete recovery code is already embedded above.
+Supplementary copies: standalone source (`h5_basal_maximum_reflection.py`), exact report (`h5_basal_maximum_report.json`), and all scalar Bernstein coefficients (`h5_basal_reflection_coefficients.json`). The complete recovery code is already embedded above.

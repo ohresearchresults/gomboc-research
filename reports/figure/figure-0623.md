@@ -20,7 +20,7 @@ The useful low-arithmetic U1 entrance is `KL13F_ROBUST_G3_REPAIRED`: **106/159/5
 
 ## Reading, parent identity and source boundary
 
-The complete559521-byte journal was read consecutively through EOF2953, SHA256 `23334451d7f659b65e4f77e080d26539b014f836d41ea51d79e39eb01ce8b185`, including literal parent `figure-0612`, SHA256 `a70c9159c6a37081b17161266c21fd44b80575b7eaefd71bbf9c468e492e34ac`. The consumed geometry is its sixty-row `KL13E_DETACHED_B_G8_MINIMAL.txt`,1758 bytes/SHA256 `f551e66ad757a11654abe79768ccf7c06b9757cee932b47916a86bf87442f802`, reproduced as `PARENT.txt` without changing its bytes. Its canonical S2/49,U40,H8--100 and actual nonzero centre remain distinct from later labels. The journal preserves the same actual-mass and whole-landscape boundary. fileciteturn45file0L11-L16
+The complete559521-byte journal was read consecutively through EOF2953, SHA256 `23334451d7f659b65e4f77e080d26539b014f836d41ea51d79e39eb01ce8b185`, including literal parent `figure-0612`, SHA256 `a70c9159c6a37081b17161266c21fd44b80575b7eaefd71bbf9c468e492e34ac`. The consumed geometry is its sixty-row `KL13E_DETACHED_B_G8_MINIMAL.txt`,1758 bytes/SHA256 `f551e66ad757a11654abe79768ccf7c06b9757cee932b47916a86bf87442f802`, reproduced as `PARENT.txt` without changing its bytes. Its canonical S2/49,U40,H8--100 and actual nonzero centre remain distinct from later labels. The journal preserves the same actual-mass and whole-landscape boundary.
 
 The selected E source decoded successfully. No unselected B/C archive, absent C622 input, research connector or another worker's trajectory was needed. The capsule below is autonomous for the selected findings. It does not declare every older unselected publication gap closed.
 
@@ -236,4 +236,4 @@ The next substantive construction should jointly change the connected saddle/ret
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Supplementary exact copies: [KL13F source recovery](sandbox:/mnt/data/KL13F_RECOVER.py), [full source-bearing JSON](sandbox:/mnt/data/KL13F_RESULT.json), and [working handoff archive](sandbox:/mnt/data/KL13F_HANDOFF.zip). The inline capsule, rather than those links, supplies the selected recovery bytes.
+Supplementary exact copies: KL13F source recovery (`KL13F_RECOVER.py`), full source-bearing JSON (`KL13F_RESULT.json`), and working handoff archive (`KL13F_HANDOFF.zip`). The inline capsule, rather than those links, supplies the selected recovery bytes.

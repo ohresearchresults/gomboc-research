@@ -283,10 +283,10 @@ Two adjacent circuits must cross jointly: `C_U={14008,14009,14010,15003}` (cross
 - Exact source SHA-256 `fb1b08290cc52c34b2c30ed9c82eda64e62d07bd540108d3ce7a66214fc72a28`.
 - Archive SHA-256 `210a895447a91d5479feeec7eb7e78614fa9eb6785390c2f5ef29f85058030fb`; manifest SHA-256 `2eed5df28d924a905625509e7b2be5a4a51f6f17e9d7369e3faffa51f252e1b3`.
 - Clean extraction replay: `PARENT OBSTRUCTION VERIFIED`, `EXACT ENDPOINT VERIFIED`, `2D SHAPE BOX VERIFIED`, `MESH VERIFIED`, `FORCING VOLUME VERIFIED`, `ALL VERIFIERS PASSED`.
-- [Complete exact package](sandbox:/mnt/data/Bright_Lynx_17_J56_exact_NONWINNER.zip)
-- [Package checksum](sandbox:/mnt/data/Bright_Lynx_17_J56_exact_NONWINNER.zip.sha256)
-- [Full self-contained handoff with the reduced volume fraction and all 110 signed decision ledgers](sandbox:/mnt/data/bright_lynx17_exact_nonwinner/RESULT.md)
-- [Exact source](sandbox:/mnt/data/bright_lynx17_exact_nonwinner/J56_BL17_exact_source.json)
-- [Independent exact verifier](sandbox:/mnt/data/bright_lynx17_exact_nonwinner/verify_J56_BL17_exact.py)
-- [One-command replay](sandbox:/mnt/data/bright_lynx17_exact_nonwinner/[internal-source-reference].sh)
-- [Watertight OBJ](sandbox:/mnt/data/bright_lynx17_exact_nonwinner/J56_BL17_centered.obj); [watertight STL](sandbox:/mnt/data/bright_lynx17_exact_nonwinner/J56_BL17_centered.stl)
+- Complete exact package (`Bright_Lynx_17_J56_exact_NONWINNER.zip`)
+- Package checksum (`Bright_Lynx_17_J56_exact_NONWINNER.zip.sha256`)
+- Full self-contained handoff with the reduced volume fraction and all 110 signed decision ledgers (`RESULT.md`)
+- Exact source (`J56_BL17_exact_source.json`)
+- Independent exact verifier (`verify_J56_BL17_exact.py`)
+- One-command replay (`[internal-source-reference].sh`)
+- Watertight OBJ (`J56_BL17_centered.obj`); watertight STL (`J56_BL17_centered.stl`)

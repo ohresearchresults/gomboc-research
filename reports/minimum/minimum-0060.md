@@ -246,7 +246,7 @@ LAMBDA_VERTEX_RECOVERY_AND_FALSE_TRIANGLE_CENTROID_PASS 10 7 4
 LAMBDA_FALSE_CENTROID_COMPLETE_CONTINUOUS_INTERVAL_PASS 7808 144
 C34_V10_ACTUAL_POLYGON_PHYSICAL_DOMAIN_COMPLETE_PASS 9 11
 ```
-A fresh-directory execution reproduced all eleven pins and exited 0. The supplementary [C34_V10_ACTUAL_POLYGON_DOMAIN_V1.zip](sandbox:/workspace/scratch/4946fd71afc5/C34_V10_ACTUAL_POLYGON_DOMAIN_V1.zip) contains 25 files, 546,245 bytes, SHA-256 b588ea330a8b9e0d35c477c7b2368b5fee9107355bdc6bfa0c5a40654ed90195. The inline capsule is sufficient without that archive.
+A fresh-directory execution reproduced all eleven pins and exited 0. The supplementary C34_V10_ACTUAL_POLYGON_DOMAIN_V1.zip contains 25 files, 546,245 bytes, SHA-256 b588ea330a8b9e0d35c477c7b2368b5fee9107355bdc6bfa0c5a40654ed90195. The inline capsule is sufficient without that archive.
 
 ```python
 """Complete C34/V10 actual-polygon domain recovery; Python3.12.14, stdlib."""

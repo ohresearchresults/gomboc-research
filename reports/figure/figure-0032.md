@@ -6,9 +6,9 @@ AI research report · 2026-08-22 UTC
 
 # Exact nonsimple-boundary classification of the Reshetov obstruction
 
-**Artifacts:** [complete package](sandbox:/mnt/data/nonsimple_reshetov_package.zip), [full report with both complete face lattices](sandbox:/mnt/data/nonsimple_reshetov/REPORT.md), [exact verifier](sandbox:/mnt/data/nonsimple_reshetov/verify_nonsimple_reshetov.py).
+**Artifacts:** complete package (`nonsimple_reshetov_package.zip`), full report with both complete face lattices (`REPORT.md`), exact verifier (`verify_nonsimple_reshetov.py`).
 
-Reshetov's appendix supplies the exact 14 face cycles, 24 incident-facet triples, and 14 integer normals, and verifies the unistable seed in rational arithmetic. :contentReference[oaicite:0]{index=0} The paper explains why rational verification is essential when margins can be below floating-point epsilon. :contentReference[oaicite:1]{index=1} The inherited transcript identified this seed as `(F,V,E)=(14,24,36)` with `(S,U,H)=(1,2,1)`, stable facet `11`, unstable vertices `(1,11,13)` and `(3,9,11)`, and saddle pair `(9,13)`. :contentReference[oaicite:2]{index=2}
+Reshetov's appendix supplies the exact 14 face cycles, 24 incident-facet triples, and 14 integer normals, and verifies the unistable seed in rational arithmetic. The paper explains why rational verification is essential when margins can be below floating-point epsilon. The inherited transcript identified this seed as `(F,V,E)=(14,24,36)` with `(S,U,H)=(1,2,1)`, stable facet `11`, unstable vertices `(1,11,13)` and `(3,9,11)`, and saddle pair `(9,13)`.
 
 ## Correct equilibrium predicates
 
@@ -50,7 +50,7 @@ An exact all-14-facet middle-contraction witness is obtained by retaining `h_i=|
 h1 = 640398771027 / 5568551.
 ```
 
-Its complete exact lattice is in [MID_exact_certificate.json](sandbox:/mnt/data/nonsimple_reshetov/MID_exact_certificate.json): `(V,E,F)=(23,35,14)`, unique nonsimple incidence `(1,3,9,13)`, and `(S,U,H)=(6,2,6)`. The pair `(9,13)` is not an edge, but the two original forced unstable vertices remain. [Centered OBJ](sandbox:/mnt/data/nonsimple_reshetov/MID_contraction_witness.obj).
+Its complete exact lattice is in MID_exact_certificate.json: `(V,E,F)=(23,35,14)`, unique nonsimple incidence `(1,3,9,13)`, and `(S,U,H)=(6,2,6)`. The pair `(9,13)` is not an edge, but the two original forced unstable vertices remain. Centered OBJ (`MID_contraction_witness.obj`).
 
 ## Complete one-facet deletion classification
 
@@ -72,7 +72,7 @@ The exact delete-11 witness uses
 =(0,54,0,35,4,15,7,24,0,47,65,0,35).
 ```
 
-All 13 inequalities are physical facets. Its complete exact vertex coordinates, vertex-facet incidences, 32 edges, and all polygon cycles are in [D_exact_certificate.json](sandbox:/mnt/data/nonsimple_reshetov/D_exact_certificate.json) and [D_exact_summary.md](sandbox:/mnt/data/nonsimple_reshetov/D_exact_summary.md). It has `(V,E,F)=(21,32,13)`, unique four-valent vertex `(1,3,9,13)`, exact rational centroid approximately `(-0.2248277056600262,0.13921652216042335,0.08257870737226365)`, and `(S,U,H)=(5,2,5)`. The common four-valent vertex is not unstable. [Centered OBJ](sandbox:/mnt/data/nonsimple_reshetov/D_concurrence_witness.obj).
+All 13 inequalities are physical facets. Its complete exact vertex coordinates, vertex-facet incidences, 32 edges, and all polygon cycles are in D_exact_certificate.json and D_exact_summary.md. It has `(V,E,F)=(21,32,13)`, unique four-valent vertex `(1,3,9,13)`, exact rational centroid approximately `(-0.2248277056600262,0.13921652216042335,0.08257870737226365)`, and `(S,U,H)=(5,2,5)`. The common four-valent vertex is not unstable. Centered OBJ (`D_concurrence_witness.obj`).
 
 ## Complete minimal two-deletion/one-new-ray classification
 
@@ -87,7 +87,7 @@ Exactly four minimal patterns preserve `n11` and one nonshared ray from each for
 | C | `{1,9}` | `(n3,n11,n13)` | `(6,-964,-239)` | `h3-h11+h13-hr=0` | `(3,13)` |
 | E | `{3,13}` | `(n1,n11,n9)` | `(-8,-196,-956)` | `h1-h11+h9-hr=0` | `(1,9)` |
 
-For each pattern, setting the four common supports to `1` gives an exact rational common vertex, and adding the rational box `|x|,|y|,|z|≤10` gives a bounded exact realization while remaining strict at that vertex. The complete certificates and face lattices are in [minimal_one_new_ray_patterns.json](sandbox:/mnt/data/nonsimple_reshetov/minimal_one_new_ray_patterns.json) and the four `pattern_*_local_exact_certificate.json` files. These certify cone realizability, not Gömböc equilibrium.
+For each pattern, setting the four common supports to `1` gives an exact rational common vertex, and adding the rational box `|x|,|y|,|z|≤10` gives a bounded exact realization while remaining strict at that vertex. The complete certificates and face lattices are in minimal_one_new_ray_patterns.json and the four `pattern_*_local_exact_certificate.json` files. These certify cone realizability, not Gömböc equilibrium.
 
 ## Exact centroid polynomial system
 
@@ -107,10 +107,10 @@ Mz + 4D tz = 0,
 h_i(centered) = h_i + n_i·t.
 ```
 
-Full expansions: [JSON](sandbox:/mnt/data/nonsimple_reshetov/D_centroid_polynomial_system.json), [text](sandbox:/mnt/data/nonsimple_reshetov/D_centroid_polynomial_system.txt).
+Full expansions: JSON (`D_centroid_polynomial_system.json`), text (`D_centroid_polynomial_system.txt`).
 
 ## Verification and final status
 
-Run `python verify_nonsimple_reshetov.py`. It uses Python and SymPy only and regenerates every exact object. The recorded output is [VERIFICATION_OUTPUT.txt](sandbox:/mnt/data/nonsimple_reshetov/VERIFICATION_OUTPUT.txt). The package SHA-256 is `5436050ed048511ff3851a795f8186695779e990726f8d783f48f32a48ecc848`; individual hashes are in [manifest_sha256.json](sandbox:/mnt/data/nonsimple_reshetov/manifest_sha256.json).
+Run `python verify_nonsimple_reshetov.py`. It uses Python and SymPy only and regenerates every exact object. The recorded output is VERIFICATION_OUTPUT.txt. The package SHA-256 is `5436050ed048511ff3851a795f8186695779e990726f8d783f48f32a48ecc848`; individual hashes are in manifest_sha256.json.
 
 No homogeneous polyhedral Gömböc is claimed. The exact contribution is a complete closure of the requested smallest nonsimple route: the five-plane merge is impossible; the only genuine old-edge contraction removes the saddle but leaves `U=2`; the only genuine one-facet merge deletes the stable facet and yields `(5,2,5)`; and the remaining minimal stable-facet-preserving fronts are exactly A, B, C, and E.

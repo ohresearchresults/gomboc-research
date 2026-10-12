@@ -14,9 +14,9 @@ AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md
 (S,U,H)=(2,2,2),
 ```
 
-so it is a rigorous finite **NONWINNER**, not a wall point. It does, however, complete the requested first global topology outside the certified `AQ32-C0-FP4-D25` cell: the old boundary spine is destroyed, the complete `N3` star disappears, and two communicating interior spines with a common terminal are created in one actual all-row hull event. The supplied journal identifies the parent cell and its `U>=2` obstruction. :contentReference[oaicite:0]{index=0}
+so it is a rigorous finite **NONWINNER**, not a wall point. It does, however, complete the requested first global topology outside the certified `AQ32-C0-FP4-D25` cell: the old boundary spine is destroyed, the complete `N3` star disappears, and two communicating interior spines with a common terminal are created in one actual all-row hull event. The supplied journal identifies the parent cell and its `U>=2` obstruction.
 
-Complete reproducible archive: [AQ32_SS2_G6_EXACT_NONWINNER.zip](sandbox:/mnt/data/AQ32_SS2_G6_EXACT_NONWINNER.zip)  
+Complete reproducible archive: AQ32_SS2_G6_EXACT_NONWINNER.zip  
 Outer SHA-256: `bb4a9b285d6d5a75cd6581f038d25b0e3c83064e9d24fc49d85caed294a1e2ae`.
 
 ## What was actually done
@@ -33,7 +33,7 @@ and independently regenerated every supplied row, rebuilt the actual hull, check
 INDEPENDENT_AQ32_SS2_G6_COMPLETE_HOMOTOPY_ATLAS_VERIFICATION_PASS
 ```
 
-after `21,093,600` exact support-polynomial checks. A fresh replay of that expensive path audit exceeded this runtime's one-hour command cap; the endpoint proof was freshly rerun, while the full path is supported by the checked archive transcript and hashes. The exact recovered handoff states the same nonwinner verdict and the global topology escape. :contentReference[oaicite:1]{index=1}
+after `21,093,600` exact support-polynomial checks. A fresh replay of that expensive path audit exceeded this runtime's one-hour command cap; the endpoint proof was freshly rerun, while the full path is supported by the checked archive transcript and hashes. The exact recovered handoff states the same nonwinner verdict and the global topology escape.
 
 Critical internal SHA-256 values:
 

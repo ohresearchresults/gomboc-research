@@ -36,20 +36,20 @@ I read the new 1,740-line journal, its entire literal parent payload, the comple
 | CONCAVE_FACET_ALL_POLYGON_POSITIVE_EDGE_OBSTRUCTION_V1.md | 6509 | 3def2fc37632f9e60a779bd64de787dfb20988f425dc76202da702efcdcaeb78 |
 | polygon_moment_kernel.py.txt | 4154 | 5953753de38671320efc188348fe3c60382bf3c36761aa9d144e564489a6db77 |
 
-The literal parent is **minimum-0162**, declared immutable SHA-256 **507ff8b483ef733adcfe0f45e16a82bd72324677cf020c0f00bef9d83adbd979**. Its no-ordinary-A theorem, actual small fan, and distinction between its controls and stationarity are retained. :contentReference[oaicite:0]{index=0}
+The literal parent is **minimum-0162**, declared immutable SHA-256 **507ff8b483ef733adcfe0f45e16a82bd72324677cf020c0f00bef9d83adbd979**. Its no-ordinary-A theorem, actual small fan, and distinction between its controls and stationarity are retained.
 
 One compressed notebook notation must not be read literally: the phrase `m<=halfS` does not mean m<=(c+d)/2. The literal height proof and parent use
 
     m <= (4-T)s0/[2(2Tt+T-2)],  s0=a+b,
 
-half the displayed upper bound for S, not half the actual endpoint sum. Unequal c,d remain allowed. This handoff uses the literal formula, not an accidental symmetry restriction. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+half the displayed upper bound for S, not half the actual endpoint sum. Unequal c,d remain allowed. This handoff uses the literal formula, not an accidental symmetry restriction.
 
 The sole inherited numerical value input in the new nonflat proof is the parent's **actual-body** theorem
 
     T < max(129/64, 2+epsilon_B),
     epsilon_B=6(1-b) integral_Delta (x+y-hB(x,y)) dxdy.    (D)
 
-Its exact domain is bounded proper33 two-anchor polytopes with positive endpoints and G(C),G(D)>=0. It does not assume stationarity. The parent proves (D) from the actual upper-facet flux, the literal T0 integral, and the accepted actual joint-mass inequality 4(gx+gy)<=t+1, together with gx,gy>=1/4. The original separate proof source of that joint upper bound is not attached; it remains explicitly inherited through (D), not newly verified here. The complete derivation of (D) itself is in the supplied literal parent. :contentReference[oaicite:3]{index=3}
+Its exact domain is bounded proper33 two-anchor polytopes with positive endpoints and G(C),G(D)>=0. It does not assume stationarity. The parent proves (D) from the actual upper-facet flux, the literal T0 integral, and the accepted actual joint-mass inequality 4(gx+gy)<=t+1, together with gx,gy>=1/4. The original separate proof source of that joint upper bound is not attached; it remains explicitly inherited through (D), not newly verified here. The complete derivation of (D) itself is in the supplied literal parent.
 
 No missing old greedy or root-duality executable is a recovery dependency. The new exact units below have complete literal inputs and were independently executed and source-only cold-replayed.
 
@@ -82,16 +82,16 @@ All declared facets are genuine and irredundant. The optional facet contains B a
 
 The proof below only needs its whole-plane reactions, so it never identifies a coordinate support patch or an integration triangle with a maximal facet.
 
-For graph facets use projected xy measure. Define H_AC=integral_FAC G x dxdy, H_AD=integral_FAD G y dxdy, and similarly H_BC,H_BD. The four hinge equations are H_AC=H_AD=H_BC=H_BD=0. Their zero/sign is unchanged by the constant conversion to Euclidean facet area. The admissible whole-plane hinges fix the two canonical vertices, and remain valid when other vertices are nonsimple. :contentReference[oaicite:4]{index=4}
+For graph facets use projected xy measure. Define H_AC=integral_FAC G x dxdy, H_AD=integral_FAD G y dxdy, and similarly H_BC,H_BD. The four hinge equations are H_AC=H_AD=H_BC=H_BD=0. Their zero/sign is unchanged by the constant conversion to Euclidean facet area. The admissible whole-plane hinges fix the two canonical vertices, and remain valid when other vertices are nonsimple.
 
 Write R for the actual xy projection of the root, and put
 
     Jx=(1/alpha) integral_R G x dxdy -qX+Y,
     Jy=(1/alpha) integral_R G y dxdy -qY+X.
 
-These are exactly the joint root reactions for h=x,y, including the explicit change of n and ell. In the all-positive stratum both signs are admissible. In particular they are not fixed-body first moments assigned independently to R. :contentReference[oaicite:5]{index=5}
+These are exactly the joint root reactions for h=x,y, including the explicit change of n and ell. In the all-positive stratum both signs are admissible. In particular they are not fixed-body first moments assigned independently to R.
 
-If an ordinary B facet O is present, let HOx=integral_O G x dxdy and HOy=integral_O G y dxdy. Its true triangle has values (-3LB,LB,LB), so the exact affine product integral gives HOx=HOy=0. The underlying ordinary-facet rigidity is a full-class theorem using whole-plane pivots and outward pyramids, not a fixed-lattice assumption. :contentReference[oaicite:6]{index=6}
+If an ordinary B facet O is present, let HOx=integral_O G x dxdy and HOy=integral_O G y dxdy. Its true triangle has values (-3LB,LB,LB), so the exact affine product integral gives HOx=HOy=0. The underlying ordinary-facet rigidity is a full-class theorem using whole-plane pivots and outward pyramids, not a fixed-lattice assumption.
 
 ## 4. A pointwise actual tetrahedron-plus-visible-caps budget
 
@@ -113,7 +113,7 @@ Every displayed extra term is nonnegative. Since ell>=0 on the actual remainder 
 
     24E >= n(p)+ell(p) tp                     for all p in P.  (4.1)
 
-This is stronger than n(p)<=24E and is a genuine uniform-mass inequality. It is not inferred from a chosen centroid. The exact visible-volume formula is also the one in the supplied height proof. :contentReference[oaicite:7]{index=7}
+This is stronger than n(p)<=24E and is a genuine uniform-mass inequality. It is not inferred from a chosen centroid. The exact visible-volume formula is also the one in the supplied height proof.
 
 Two other actual inequalities used below are elementary. A positive tetrahedral fan from D, using x>=0 at its other vertices, gives gx>=1/4; the fan from C gives gy>=1/4. Hence
 
@@ -353,7 +353,7 @@ At a proper full two-anchor maximum with both stars nonflat and G(C),G(D)>=0, le
 
     G(R_C)>G(C),  G(R_D)>G(D).
 
-For G(C)=0 this follows from auxiliary positivity. For G(C)>0, suppose G(R_C)<=G(C). In either special polygon containing AC or BC, the true edges at C lead to its negative-G anchor and to R_C; hence C is a maximum of affine G on that polygon. With G as a normalized horizontal coordinate, the whole polygon has the form 0<=eta<=f(x), f concave, f(0)=0, now allowing f(1)=0 when C is the unique maximum. The supplied inequality 4D/C-3B/A-1<=0 contradicts the whole hinge plus spike inequalities unless f is exactly a positive linear function. That equality is the genuine triangle with the third vertex at the same G level as C, and anchor value -3G(C). Both the lower and upper special facets would therefore have to be such triangles, forcing G(A)=G(B), impossible for a>b. This proves the strict increase. :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}
+For G(C)=0 this follows from auxiliary positivity. For G(C)>0, suppose G(R_C)<=G(C). In either special polygon containing AC or BC, the true edges at C lead to its negative-G anchor and to R_C; hence C is a maximum of affine G on that polygon. With G as a normalized horizontal coordinate, the whole polygon has the form 0<=eta<=f(x), f concave, f(0)=0, now allowing f(1)=0 when C is the unique maximum. The supplied inequality 4D/C-3B/A-1<=0 contradicts the whole hinge plus spike inequalities unless f is exactly a positive linear function. That equality is the genuine triangle with the third vertex at the same G level as C, and anchor value -3G(C). Both the lower and upper special facets would therefore have to be such triangles, forcing G(A)=G(B), impossible for a>b. This proves the strict increase.
 
 This is a recorded corollary of the supplied kernel, not a new 33-term kernel computation or an extension of a finite annular-fan enumeration to arbitrary polygons.
 
@@ -678,4 +678,4 @@ The natural next use is the same exact frame-reaction formula in proper simple-C
 
 The independent global localization/attainment theorem is not reproved or replaced. Thus a proof about all nonstationary bodies, all negative-anchor polygon fans, or the whole mechanical E17 layer remains a separate obligation. The present output is an analytic whole-sector stationary/value theorem, with complete exact finite certificates and an actual uniform-body audit.
 
-Supplementary convenience archive: [complete sources, exact reports and discovery records](sandbox:/mnt/data/two_anchor_v3_recovery.zip). The literal capsule above is sufficient without it.
+Supplementary convenience archive: complete sources, exact reports and discovery records (`two_anchor_v3_recovery.zip`). The literal capsule above is sufficient without it.

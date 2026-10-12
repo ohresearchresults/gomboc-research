@@ -31,7 +31,7 @@ with `r=kappa[0][1]`. For every real pair
 
 and **every SPD Gram matrix G**, the raw C40 stack has no strict `U=1` / additional-weak-U `=0` metric. Hence no affine member of this whole rectangle can be strict `110/weak000`.
 
-This does not revisit the closed first-knot fibre: that theorem fixed second knot `81/100` and all eight COARSE100 curvatures while varying only the first knot. :contentReference[oaicite:0]{index=0} Here first knot is fixed at `1/2` while second knot and an interface curvature vary jointly. Positive curvatures and ordered knots keep the standard `N=4,M=2` maximal complex `V10/E20/F12/C40`. :contentReference[oaicite:1]{index=1} The rooted-tree reduction is exact: the C40 graph has 31,500 spanning trees / 315,000 root-labelled choices, and weak-free mono-U requires one positive rooted escape tree in SPD metric space. :contentReference[oaicite:2]{index=2}
+This does not revisit the closed first-knot fibre: that theorem fixed second knot `81/100` and all eight COARSE100 curvatures while varying only the first knot. Here first knot is fixed at `1/2` while second knot and an interface curvature vary jointly. Positive curvatures and ordered knots keep the standard `N=4,M=2` maximal complex `V10/E20/F12/C40`. The rooted-tree reduction is exact: the C40 graph has 31,500 spanning trees / 315,000 root-labelled choices, and weak-free mono-U requires one positive rooted escape tree in SPD metric space.
 
 No source conflict or missing dependency was encountered.
 
@@ -81,7 +81,7 @@ Per-box exact sign replay also reports zero failures; the six exact `(block coun
 
 The theorem covers exactly: first knot `1/2`; second knot `s in [51/100,19/20]`; `kappa[0][1]=r in [1/100,1]`; the other seven curvatures fixed as above; arbitrary SPD affine Gram matrix. It does **not** cover `1/2<s<51/100`, `19/20<s<1`, `0<r<1/100`, `r>1`, another curvature coordinate, higher-dimensional raw changes, incidence-changing descendants, or C42.
 
-No U1 cone survives, so there is no rational metric to promote and no new S/H/polar endpoint to audit. I do not infer `H=0` from Morse count. The earlier packet2x2 checkpoint remains the exact strict222/weak000 control with `S=[0,9]`, `U=[1,3]`, `H=[[0,3],[5,6]]`. :contentReference[oaicite:3]{index=3}
+No U1 cone survives, so there is no rational metric to promote and no new S/H/polar endpoint to audit. I do not infer `H=0` from Morse count. The earlier packet2x2 checkpoint remains the exact strict222/weak000 control with `S=[0,9]`, `U=[1,3]`, `H=[[0,3],[5,6]]`.
 
 ## Self-contained recovery capsule
 
@@ -155,7 +155,7 @@ C40_COUPLED_SR_RECOVERY_DECODE_PASS 3 72528 bd6e95ee52e413809ce7469f2cbeb517271f
 C40_COUPLED_SR_U1_EXCLUSION_EXACT_PASS 6 4774 315000 8 3 62654 d4fa55a16707753022533c7beb2bf802105c1d5fb6814274b2a05fc991be4fec
 ~~~
 
-The decoder was executed and reproduced the source/data byte-for-byte; the exact verifier was executed successfully on those literal bytes. Convenience copies: [payload](sandbox:/mnt/data/C40_COUPLED_SR_RECOVERY.b85.txt), [decoder](sandbox:/mnt/data/RECOVER_C40_COUPLED_SR_HANDOFF.py), [verifier](sandbox:/mnt/data/VERIFY_C40_COUPLED_SR_EXCLUSION.py), [banks](sandbox:/mnt/data/C40_COUPLED_SR_BANKS.json).
+The decoder was executed and reproduced the source/data byte-for-byte; the exact verifier was executed successfully on those literal bytes. Convenience copies: payload (`C40_COUPLED_SR_RECOVERY.b85.txt`), decoder (`RECOVER_C40_COUPLED_SR_HANDOFF.py`), verifier (`VERIFY_C40_COUPLED_SR_EXCLUSION.py`), banks (`C40_COUPLED_SR_BANKS.json`).
 
 ## Continuation
 

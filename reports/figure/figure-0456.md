@@ -15,7 +15,7 @@ No strict own110/additionalweak000 body was found. The strongest new exact whole
 - S=`[0]`, U=`[2,20]`, H=`[[36,42]]`;
 - one positive physical P bar; **Qbars empty exactly**.
 
-The literal parent `BR76_C228_REPLACE2_G3` is V76/E114/F40/C228 own121/weak000 with one 26-vertex/24-cut P packet of relative depth ≈0.415045835724. :contentReference[oaicite:0]{index=0} The C162 descendant reduces true C by 66 and contracts the whole dying packet from **26/24 to 20/20**, preserving S1 and Qbar-free status. Its relative P depth is ≈`0.438281148548`, about 5.60% worse than C228, so C162 is a topology/complexity improvement, not a depth improvement.
+The literal parent `BR76_C228_REPLACE2_G3` is V76/E114/F40/C228 own121/weak000 with one 26-vertex/24-cut P packet of relative depth ≈0.415045835724. The C162 descendant reduces true C by 66 and contracts the whole dying packet from **26/24 to 20/20**, preserving S1 and Qbar-free status. Its relative P depth is ≈`0.438281148548`, about 5.60% worse than C228, so C162 is a topology/complexity improvement, not a depth improvement.
 
 ## Exact actual uniform mass and mechanics
 

@@ -25,7 +25,7 @@ All137 supplied supports remain active. The unique stable facet is input3, still
 
 Both independently implemented complete exact auditors accepted the finite rational endpoint and produced byte-identical reports. A fresh decoding of the complete literal capsule below, followed by a source-only cold replay, completed every assertion. The literal floating checkpoint and the entire12-step successful mass-correction phase were also replayed from the decoded sources, each regenerating the same exact generator byte-for-byte.
 
-The assigned parent is the operator-recovered **RL07_GRID7_Z18_94_C628_G1E9**, not an older C628 own121 nonwinner and not a fabricated immutable scheduler parent. The journal explicitly identifies that parent and its protected first four-contact. :contentReference[oaicite:0]{index=0} I recovered the literal journal capsule, checked the supplied authority hashes, and independently re-audited that exact C628 parent in the new replay.
+The assigned parent is the operator-recovered **RL07_GRID7_Z18_94_C628_G1E9**, not an older C628 own121 nonwinner and not a fabricated immutable scheduler parent. The journal explicitly identifies that parent and its protected first four-contact. I recovered the literal journal capsule, checked the supplied authority hashes, and independently re-audited that exact C628 parent in the new replay.
 
 ## 2. Complete exact finite definition
 
@@ -279,7 +279,7 @@ python -B -S PREPARE_NEXT.py --out next-chart
 
 The third command is the full standard-library exact acceptance audit. `DISCOVER.py --optimize` additionally reruns the earlier2000-evaluation exploratory least-squares phase; it does not silently certify a different floating answer.
 
-Supplementary verified artifacts: [recovery program](sandbox:/mnt/data/VQ20_C626_RECOVER.py), [source, completed proofs and numerical replay receipts](sandbox:/mnt/data/VQ20_C626_COMPLETE.zip), [complete Markdown handoff](sandbox:/mnt/data/VQ20_C626_RESULT.md), and [machine-readable handoff](sandbox:/mnt/data/VQ20_C626_RESULT.json). The literal source below, not these links, carries the defining evidence.
+Supplementary verified artifacts: recovery program (`VQ20_C626_RECOVER.py`), source, completed proofs and numerical replay receipts (`VQ20_C626_COMPLETE.zip`), complete Markdown handoff (`VQ20_C626_RESULT.md`), and machine-readable handoff (`VQ20_C626_RESULT.json`). The literal source below, not these links, carries the defining evidence.
 
 ```python
 """Full literal finite source recovery for VQ20_RL07_C626_Z87_127_G1E9."""

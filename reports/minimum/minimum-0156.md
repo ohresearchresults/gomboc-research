@@ -41,7 +41,7 @@ All four supplied files were read through EOF. Their actual UTF-8 identities are
 - Root-fan/Berwald proof and discovery source: 20,592 bytes, SHA-256 `b1d05ed4c84512cf48852d5383ffcc3ff2a066c1b7f6b5777fe62d372c0cb559`.
 - Entire supplied journal, including common and branch memory: 250,531 bytes, SHA-256 `4b2b9b995ab78262a74f323aebb3516076ac03357db29bdfa15730865d6aabbe`. This is the whole-file hash, not the embedded common-memory hash.
 
-The later attainment and <=16-vertex localization are retained as the accepted notebook status; the older source's historical lack-of-attainment statement is not treated as current. The full localization proof and the separate old audit sources `[internal-source-reference]` and `[internal-source-reference]` are not attached and were not replayed. None is an exact computational dependency of the new result. The theorem below is conditional on a genuine polyhedral joint maximum and does not need to reconstruct localization. :contentReference[oaicite:0]{index=0}
+The later attainment and <=16-vertex localization are retained as the accepted notebook status; the older source's historical lack-of-attainment statement is not treated as current. The full localization proof and the separate old audit sources `[internal-source-reference]` and `[internal-source-reference]` are not attached and were not replayed. None is an exact computational dependency of the new result. The theorem below is conditional on a genuine polyhedral joint maximum and does not need to reconstruct localization.
 
 Evidence levels: the new structural result is an analytic proof given below, using the supplied accepted variation lemmas; the new numerical object is an exactly integrated rational body with an exactly verified improving competitor. The executable verifies its stated algebra and actual-body arithmetic, not the entire geometric proof in a proof assistant.
 
@@ -68,7 +68,7 @@ G(B)-G(A)=q alpha>0,
 partial_z G=q alpha>0.
 ```
 
-The supplied fixed-support local-maximum theorem gives `G(v)>0` at every auxiliary true vertex and `P intersect {x=y=0}=AB`. It also gives the whole-facet inequality and one-canonical triangle rigidity. These statements allow arbitrary face-lattice changes and are not fixed-realization-stratum conditions. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The supplied fixed-support local-maximum theorem gives `G(v)>0` at every auxiliary true vertex and `P intersect {x=y=0}=AB`. It also gives the whole-facet inequality and one-canonical triangle rigidity. These statements allow arbitrary face-lattice changes and are not fixed-realization-stratum conditions.
 
 The exact comparison underlying the shaves is
 
@@ -77,7 +77,7 @@ T(P')>T(P)
 iff Delta int G > N Delta V Delta E/(VE).
 ```
 
-Thus a sufficiently small cap at a negative-G auxiliary vertex improves the trace. At a zero-G auxiliary vertex the supplied thin-edge cap gives a strictly negative limiting average of G and also improves it; ordinary homothetic shaving alone is not substituted for that strictness argument. :contentReference[oaicite:3]{index=3}
+Thus a sufficiently small cap at a negative-G auxiliary vertex improves the trace. At a zero-G auxiliary vertex the supplied thin-edge cap gives a strictly negative limiting average of G and also improves it; ordinary homothetic shaving alone is not substituted for that strictness argument.
 
 Root stationarity is legitimate here precisely because **all four endpoint values are positive**. With `t=6V`, `p=u+v`, `m=3p/t`, `w=(v/(3p),u/(3p),1/3)`, and `k=|grad ell|`, the actual identity is
 
@@ -85,7 +85,7 @@ Root stationarity is legitimate here precisely because **all four endpoint value
 int_F G h/k = 6V^2 [T h(g)-m h(w)]
 ```
 
-for every affine h. The corresponding G-weighted root centroid is the actual point `R_T` in the relative interior of F. The proof below does not replace this root by independent weights or an auxiliary fan. It uses the actual positive-area root and the fact that no canonical mark lies on it. No two-sided root assertion is made at a zero-endpoint boundary. :contentReference[oaicite:4]{index=4}
+for every affine h. The corresponding G-weighted root centroid is the actual point `R_T` in the relative interior of F. The proof below does not replace this root by independent weights or an auxiliary fan. It uses the actual positive-area root and the fact that no canonical mark lies on it. No two-sided root assertion is made at a zero-endpoint boundary.
 
 ## 2. Canonical re-marking gives a useful geometric lemma
 
@@ -121,7 +121,7 @@ Similarly, on y=0,
 L_D(x,z):=(b+2d)(x-1)-alpha z <= 0.             (D-mark)
 ```
 
-These are actual mark variations, including the affine-volume normalization. They agree with the supplied canonical support tests. :contentReference[oaicite:5]{index=5}
+These are actual mark variations, including the affine-volume normalization. They agree with the supplied canonical support tests.
 
 ### 2.2 Negative C forces the lower coordinate edge AC
 
@@ -319,9 +319,9 @@ The genuine negative-anchor complement is now localized to **unprotected polygon
 
 The necessary marked incidence types of a surviving polygon are the five two-mark types `AC, AD, BC, BD, CD` or the two three-mark types `ACD, BCD`. This is a list of necessary reaction types, not a classification of their continuous realizations or a count of independent extrema. No assumption that arbitrary CD facets lie on opposite sides of CD is used.
 
-A two-mark quadrilateral remains a real surviving possibility. A nonsimplicial facet containing three canonical marks remains another. One may not triangulate either polygon, enforce (R) on each integration triangle, and call that a supporting-plane variation. The entire polygon has coupled reactions and only its genuinely admissible plane motions are available. This proof does not independently establish that every surviving two-mark polygon has exactly four vertices. The supplied sources already identify these exceptions; the new conclusion is that the negative-anchor sector **requires** an unprotected nonsimplicial exception rather than merely allowing one. :contentReference[oaicite:6]{index=6}
+A two-mark quadrilateral remains a real surviving possibility. A nonsimplicial facet containing three canonical marks remains another. One may not triangulate either polygon, enforce (R) on each integration triangle, and call that a supporting-plane variation. The entire polygon has coupled reactions and only its genuinely admissible plane motions are available. This proof does not independently establish that every surviving two-mark polygon has exactly four vertices. The supplied sources already identify these exceptions; the new conclusion is that the negative-anchor sector **requires** an unprotected nonsimplicial exception rather than merely allowing one.
 
-This is not yet a trace-value theorem on those survivors. In particular, an improving step can leave the simplicial-boundary class while retaining `G(C)<0`; the exact control below does exactly that. There is no deduction that all negative-anchor bodies can be monotonically reduced to `G(C),G(D)>=0`, and no claim that the two-anchor value problem is already closed. The notebook explicitly leaves both value frontiers open. :contentReference[oaicite:7]{index=7}
+This is not yet a trace-value theorem on those survivors. In particular, an improving step can leave the simplicial-boundary class while retaining `G(C)<0`; the exact control below does exactly that. There is no deduction that all negative-anchor bodies can be monotonically reduced to `G(C),G(D)>=0`, and no claim that the two-anchor value problem is already closed. The notebook explicitly leaves both value frontiers open.
 
 ## 6. Exactly reconstructed actual-body control
 
@@ -604,7 +604,7 @@ print('PASSIVE_CANONICAL_D_REACTION_ALGEBRA_PASS')
 print('NEGATIVE_ANCHOR_SIMPLICIAL_ESCAPE_EXACT_CONTROL_PASS')
 ```
 
-Convenience copies, not recovery dependencies: [complete source](sandbox:/mnt/data/negative_anchor_escape_audit.py) and [exact report](sandbox:/mnt/data/negative_anchor_escape_audit.out).
+Convenience copies, not recovery dependencies: complete source (`negative_anchor_escape_audit.py`) and exact report (`negative_anchor_escape_audit.out`).
 
 ## 8. Most useful continuation
 

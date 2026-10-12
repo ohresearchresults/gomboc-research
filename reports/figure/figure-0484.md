@@ -17,7 +17,7 @@ No actual-volume-centred strict110/additionalweak000 body and no certified open 
 
 Both have primitive-zero census000. Neither is an improvement of the strict110 construction record. The C68 body is retained for its genuine joint-interface replacement and five nonsimple contacts, not because its larger residual packets improve the primary objective.
 
-The supplied journal, including shared memory, branch memory and the literal parent payload, was read through EOF. All five source units compressed inside the parent were decoded, read completely and matched to their advertised source hashes. The inherited C42 mass/mechanics report was reproduced byte-for-byte: 9587 bytes, SHA-256 77355e9ae1d1c84d21ea2acd474a35da4f8acbdd649dcb15418516cf49f146d3. Its fixed-shape affine atlas was not rerun. The source authority remains figure-0479, advertised SHA-256 217144c7d9aa0140fbced4dda3ef7c6b34da2147f1187f3744117a0a571b2487. The supplied parent has nine supports, strict222 and an exact fixed-geometry affine obstruction; moving raw geometry, not another affine reparameterization, was therefore necessary. :contentReference[oaicite:0]{index=0}
+The supplied journal, including shared memory, branch memory and the literal parent payload, was read through EOF. All five source units compressed inside the parent were decoded, read completely and matched to their advertised source hashes. The inherited C42 mass/mechanics report was reproduced byte-for-byte: 9587 bytes, SHA-256 77355e9ae1d1c84d21ea2acd474a35da4f8acbdd649dcb15418516cf49f146d3. Its fixed-shape affine atlas was not rerun. The source authority remains figure-0479, advertised SHA-256 217144c7d9aa0140fbced4dda3ef7c6b34da2147f1187f3744117a0a571b2487. The supplied parent has nine supports, strict222 and an exact fixed-geometry affine obstruction; moving raw geometry, not another affine reparameterization, was therefore necessary.
 
 Transport qualification: I verified the decoded source hashes and exact report hash, not the advertised SHA of the enclosing rendered parent text. The displayed parent substring did not reproduce that outer digest. No row, class or incidence conflict was found. The attachment itself was 196188 bytes with SHA-256 383ea26b8fe8e17b30b38f1e36adb8ff458c60a458bbe255e97a177a9f578939. No inaccessible historical source is required by the constructions or certificates below.
 
@@ -174,7 +174,7 @@ Additional checks reconstruct maximal supporting planes from vertex triples and 
 
 The most useful continuation is the genuinely coupled geometry chart based on the C68 recipe: vary p and the cap normal/offset jointly with retained F9 normals, especially original row3=[670,-65,739], which supplies the current stable pentagon. Track the four-valent root12, the cap nonagon and both complete current interfaces. Preserve concurrence intentionally when useful; splitting the five degree4 contacts creates real additional edges. C68 leaves215 final-edge units under E<=249, so there is no need to insist on this exact incidence.
 
-A changed geometry must first produce an actual strictly feasible SPD U1 cell, verified by rational inequalities or an equivalent exact witness, before S/H and the entire same-centre polar landscape can settle the target. Merely breaking either F9 blocker bank is insufficient. The supplied fixed-polyhedron boundary theorem also rules out treating convergence to a singular metric as an asymptotic110 certificate; it supplies no explicit global C68 epsilon here. :contentReference[oaicite:1]{index=1}
+A changed geometry must first produce an actual strictly feasible SPD U1 cell, verified by rational inequalities or an equivalent exact witness, before S/H and the entire same-centre polar landscape can settle the target. Merely breaking either F9 blocker bank is insufficient. The supplied fixed-polyhedron boundary theorem also rules out treating convergence to a singular metric as an asymptotic110 certificate; it supplies no explicit global C68 epsilon here.
 
 ## 5. Complete source-only recovery capsule
 
@@ -209,7 +209,7 @@ CALM_RAVEN68_CHANGED_F9_C68_EXACT_HANDOFF_PASS
 
 Optional numerical-method replay is `cd OUT; python -B NUMERIC_REPLAY.py`. Observed numerical dependencies were NumPy2.3.5, SciPy1.17.0 and Torch2.10.0+cpu, with single BLAS/OpenMP threads. The individual campaigns were executed, but the entire optional numerical wrapper was not cold-replayed end-to-end; wall-clock-limited MILP outcomes are not bitwise portable. Exact recovery does not call it.
 
-For convenience, the same executable is available as [the recovery program](sandbox:/mnt/data/RECOVER_CHANGED_F9_C68_INLINE.py). The complete bytes needed for recovery follow inline.
+For convenience, the same executable is available as the recovery program (`RECOVER_CHANGED_F9_C68_INLINE.py`). The complete bytes needed for recovery follow inline.
 
 ```python
 #!/usr/bin/env python3

@@ -23,7 +23,7 @@ This yields a complete-packet theorem for triangular-source forests, with an ext
 
 A separate exact edge-direction argument reduces the protected footprint: a basal weak row does not require freezing its other endpoint. This releases triangle correctors that were occupied only through an outgoing edge's target. Combined with the transverse theorem, arbitrary remaining protected groups in the initially parallel class can be retained with selected orders at most twenty. The supplied radial sign theorem likewise remains valid with this smaller footprint and its existing order-thirty bound.
 
-No weak-S1U1-specific universal sign theorem or full-shape obstruction is asserted. Any actual weak S1U1 input satisfying one of the successful geometric hypotheses regularizes to proper110. The accepted project interval remains 34<=C_min<=622. fileciteturn36file3L9-L13
+No weak-S1U1-specific universal sign theorem or full-shape obstruction is asserted. Any actual weak S1U1 input satisfying one of the successful geometric hypotheses regularizes to proper110. The accepted project interval remains 34<=C_min<=622.
 
 ## 2. Inputs and authority
 
@@ -40,7 +40,7 @@ The complete current journal and all three supplied analytic materials were read
 
 The literal parent is `minimum-0239`, SHA256 `02d2c6a3a9b0e54366f01c86b298d2055aea3037c342d8389b23e4b4dd465a38`. Its prescribed-pole realization, actual-centroid equations, partial non-spoke opening and physical selectors are retained. No new conflict with its literal payload was found.
 
-The supplied sign-forest theorem is used as an already proved exact radial criterion, not independently re-derived. Its unresolved opposite-Delta possibility is the one realized below. Its two-unused-triangle condition remains a sufficient realization mechanism, not an automatic property of every packet. fileciteturn36file2L44-L61 fileciteturn36file2L111-L131
+The supplied sign-forest theorem is used as an already proved exact radial criterion, not independently re-derived. Its unresolved opposite-Delta possibility is the one realized below. Its two-unused-triangle condition remains a sufficient realization mechanism, not an automatic property of every packet.
 
 ## 3. Geometric setting and physical obligations
 
@@ -63,7 +63,7 @@ Then
 
 The points a,b are linearly independent: otherwise their supporting edge line would pass through the interior origin. The directed graph D of these EF arrows is acyclic and has outdegree at most one, since a facet has one perpendicular foot.
 
-At b, the spoke derivative is strictly negative. If b is weak, its only possible partner is a VE along F cap R, a VE along F cap S, or a VF borne by F. The classification follows from this strict spoke derivative and the three actual incident facets F,R,S; it does not require parallel ends. fileciteturn36file1L9-L25
+At b, the spoke derivative is strictly negative. If b is weak, its only possible partner is a VE along F cap R, a VE along F cap S, or a VF borne by F. The classification follows from this strict spoke derivative and the three actual incident facets F,R,S; it does not require parallel ends.
 
 The physical functions to open are
 
@@ -202,7 +202,7 @@ At actual centroid zero,
     D_rg= -Area(G)/(Vol(P)|r|) T_G,
     T_G^-1 a=12/(theta-1) [q_F-c_G r].                  (5.1)
 
-The original uniform volume gives -3<theta<1 because P is not a pyramid over F. The two allowed fixed-apex image planes are distinct; the supplied nonparallel theorem proves this using the true F-edge directions and convexity of the same-origin polar. Thus their four genuine pole coordinates have rank-three actual-centroid derivative. fileciteturn36file0L12-L41
+The original uniform volume gives -3<theta<1 because P is not a pyramid over F. The two allowed fixed-apex image planes are distinct; the supplied nonparallel theorem proves this using the true F-edge directions and convexity of the same-origin polar. Thus their four genuine pole coordinates have rank-three actual-centroid derivative.
 
 Prescribe r_i(t)=r_i+t w_i at each source and keep the other D poles fixed. Correct the actual centroid with any fixed nonsingular three-column choice from the two correctors. Every basal vertex is reconstructed as the intersection of F and its two lateral planes. Each triangular pole continues to contain its fixed top apex; every quad source continues to contain its fixed top edge. Hence the construction has the true lattice and actual uniform centroid, not a formal first-order realization.
 
@@ -218,11 +218,11 @@ Open the top polygon at eta=t^2 using its intrinsic radial-cubic-plus-translatio
     y_i=a_i-p_T, R_i=y_i.M y_i,
     p_T=Nq/(q.Nq).
 
-Take b_0=0 without a bearing EF/VF, an inward translation at a bearing EF, or an outgoing true edge at a bearing VF. A sufficiently large fixed K opens all carried VEs while retaining the required bearing-facet exit or complementary VF pair. This is the supplied carrier construction. fileciteturn36file1L159-L165
+Take b_0=0 without a bearing EF/VF, an inward translation at a bearing EF, or an outgoing true edge at a bearing VF. A sufficiently large fixed K opens all carried VEs while retaining the required bearing-facet exit or complementary VF pair. This is the supplied carrier construction.
 
 A joint analytic extension is explicit. For each quad impose its two current moving top incidences and one fixed independent linear normalization on its pole. For each lateral triangle impose its one current moving top incidence and two independent normalizations. Reconstruct the basal intersections, then use the fully movable simple F plane to correct the actual centroid. Its surface-second-moment derivative is invertible. At eta=0 this extension is the first-stage body, and all changes are O(t^2). They cannot spoil any positive order-one EF/partner exit.
 
-All originally nonzero primitives persist in a sufficiently small neighborhood. Every original weak vertex and facet now has a positive physical exit. The exact selector theorem retains all original strict S,U,H labels and removes every physical weak point. fileciteturn36file12L78-L93
+All originally nonzero primitives persist in a sufficiently small neighborhood. Every original weak vertex and facet now has a positive physical exit. The exact selector theorem retains all original strict S,U,H labels and removes every physical weak point.
 
 ### Concrete unconditional two-pair class
 
@@ -264,7 +264,7 @@ The supplied radial sign-forest and actual-COM theorem remain valid with H_src i
 
 Now assume the original ends are parallel, so the literal parent's auxiliary non-spoke opening is available. Keep the forest conditions of Section 5, except that the complete packet may have arbitrary additional weak groups. Require every moving EF source to lie outside H_src, and require two corrector triangles outside H_src and every D endpoint. A terminal D target MAY belong to H_src; it is held fixed and the transverse triangular predecessor still opens its pair.
 
-Use the parent's actual-COM auxiliary family R(epsilon) to open all original non-spoke groups while temporarily ignoring the spoke-EF rows. It supplies positive selected orders at most ten, including both members of each chosen VF pair. Its role is a partial sign-opening family, not a claim of complete regularization by itself. fileciteturn46file0L136-L157
+Use the parent's actual-COM auxiliary family R(epsilon) to open all original non-spoke groups while temporarily ignoring the spoke-EF rows. It supplies positive selected orders at most ten, including both members of each chosen VF pair. Its role is a partial sign-opening family, not a claim of complete regularization by itself.
 
 Put epsilon=t^2. On R(epsilon), keep its current end planes and top vertices fixed and apply the assigned plane velocities. A triangular velocity can be extended to the current top apex analytically by projecting its fixed initial vector into a_i(epsilon)-perp; at epsilon=0 it is unchanged. A quad velocity is extended as k_i(r_i(epsilon)-q(epsilon)). Complete the actual centroid with the chosen two triangles; the nonparallel actuator applies even if R(epsilon) has lost end parallelism.
 
@@ -425,7 +425,7 @@ Exact pins:
     transverse_spoke_report.json: 196464 bytes
     SHA256 fb52b0878b8dadc4d213c994624447089a662bd9e94c3b6d7379ab84f91c4023
 
-Convenience copies: [source](sandbox:/mnt/data/spoke_transverse/transverse_spoke.py) and [exact report](sandbox:/mnt/data/spoke_transverse/transverse_spoke_report.json). The literal source below is the durable recovery capsule. The analytic forest and footprint theorems are proved above; they are not inferred from this one control or claimed proof-assistant formalizations.
+Convenience copies: source (`transverse_spoke.py`) and exact report (`transverse_spoke_report.json`). The literal source below is the durable recovery capsule. The analytic forest and footprint theorems are proved above; they are not inferred from this one control or claimed proof-assistant formalizations.
 
 ```python
 """Exact algebraic own-centred 10/17/9 opposite-Delta control.

@@ -30,7 +30,7 @@ The formerly omitted complete 17449-byte `two_cover_free_base.py` is restored ve
 
 The complete 1706-line `research-journal(20260920-213917).md`, including its entire literal parent, was read consecutively through EOF. Its 316338 UTF-8 bytes have SHA-256 `5657679a4cf0e6882a08c97ce4dca799851eb8b02f22f3f405e5b415fab97ce8`.
 
-The authoritative parent is `minimum-0143`, `TWO_APEX_COVER_AND_TWO_INTERNAL_REGULARIZATION_V1`. Its compact JSON envelope authenticates at 37539 bytes to `c38b1e713ef30a6ad4e9d6b5bd5eaa3d1354bb762a26e5a80862f5ca9cceed15`: UTF-8, `ensure_ascii=False`, compact separators, keys `version,result_markdown`, one final LF inside the Markdown value, no envelope-final LF. No scientific source conflict was found. The parent explicitly identified its truncated inline computational capsule; that is the specific dependency repaired here. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The authoritative parent is `minimum-0143`, `TWO_APEX_COVER_AND_TWO_INTERNAL_REGULARIZATION_V1`. Its compact JSON envelope authenticates at 37539 bytes to `c38b1e713ef30a6ad4e9d6b5bd5eaa3d1354bb762a26e5a80862f5ca9cceed15`: UTF-8, `ensure_ascii=False`, compact separators, keys `version,result_markdown`, one final LF inside the Markdown value, no envelope-final LF. No scientific source conflict was found. The parent explicitly identified its truncated inline computational capsule; that is the specific dependency repaired here.
 
 The complete mounted source and recovery wrapper were read. Appendix A is the unchanged source, with its original hash, not a rewritten substitute. Earlier build/check receipts for its two controls remain inherited; they were not routinely replayed. New `four_quad.py` build/check and a fresh two-source-only build/check were executed and matched byte for byte. The universal theorem below is analytic, not inferred from the controls or their finite certificates. No proof-assistant formalization or literature-priority claim is made.
 
@@ -74,7 +74,7 @@ J_B=\frac{HI-hL}{4},\qquad
 J_z=\frac{H^2A-h^2D}{12}. \tag{2}
 \]
 
-The moment decomposition is the accepted parent’s actual uniform construction. :contentReference[oaicite:2]{index=2} These formulas follow respectively from the integrals of (1-t)^2, (1-t)^3, and t(1-t)^2 on [0,1]. The centroid is exactly J/V. For simultaneous motions, A,D,I,L are computed by the **full polygon determinant sums** of the changing shadow and gap. Every shared-edge cross determinant remains. The affine normalization preserves uniform density and transports the actual centroid; M transforms covariantly and N remains its inverse. No projective transfer of an old centroid is used.
+The moment decomposition is the accepted parent’s actual uniform construction. These formulas follow respectively from the integrals of (1-t)^2, (1-t)^3, and t(1-t)^2 on [0,1]. The centroid is exactly J/V. For simultaneous motions, A,D,I,L are computed by the **full polygon determinant sums** of the changing shadow and gap. Every shared-edge cross determinant remains. The affine normalization preserves uniform density and transports the actual centroid; M transforms covariantly and N remains its inverse. No projective transfer of an old centroid is used.
 
 ### Six exact moment directions
 
@@ -337,7 +337,7 @@ It evaluates to0 on all four radial columns but to -713/1752 on each of the two 
 
 The priority four-free-quad incidence and, more broadly, every unequal-height pure-A body with all four quad endpoints free are no longer an open actuator problem.
 
-For completeness, a weak ridge, two weak spokes and one weak basal edge touch at most four basal vertices, leaving at least four free. Two free internal vertices are already covered by the parent. If exactly one internal vertex is free, the parent covers a second free basal vertex on its own apex side; avoiding that test would leave only the two opposite-apex quad endpoints as possible other free vertices, fewer than required. Hence a case not already covered has no free internal vertex and all four quad endpoints free, and the new theorem applies. Parallel-ridge and COM-height-wall cases retain their accepted closures. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+For completeness, a weak ridge, two weak spokes and one weak basal edge touch at most four basal vertices, leaving at least four free. Two free internal vertices are already covered by the parent. If exactly one internal vertex is free, the parent covers a second free basal vertex on its own apex side; avoiding that test would leave only the two opposite-apex quad endpoints as possible other free vertices, fewer than required. Hence a case not already covered has no free internal vertex and all four quad endpoints free, and the new theorem applies. Parallel-ridge and COM-height-wall cases retain their accepted closures.
 
 After all inherited reductions and this theorem, a still-uncovered pure-four-A two-apex E17 case has two or three nonbasal contacts, neither apex on its COM-height wall, and the unique adverse packet competing with negative-beta packets. There is no adjacent two-vertex cover. There is at most one free internal basal vertex; if one exists, every other free basal vertex is an opposite-apex quad endpoint. If there are no free internal vertices, at most three quad endpoints are free.
 
@@ -385,7 +385,7 @@ The restored previous unit is 17449 bytes, SHA-256 `7fa5a6e8df8bf4100329515a43b9
 
 They reconstruct both prior controls, their two whole intervals, their full actual mixed jets, and the fixed-geometry invalid rho-tie form. Expected prior report: `two_cover_free_base.json`,295716 bytes,SHA `c5c40855fbc3ba96e1571184ba7689a73862b22cfc1b32b3627362da4a5ac5a7`; stdout763 bytes,SHA `fc9a0f437154df06f000e1108a16f316013fc1282221e3ace0f4c94a63813275`, ending `TWO_APEX_COVER_AND_TWO_INTERNAL_RECOVERY_PASS`. The old two intervals are 1/32768 with216 guards/1054 coefficients, and1/1024 with71 guards/271 coefficients. Their strict5/3/6 and3/2/3 labels are preserved by the unchanged verifier. These are restored earlier results, not newly discovered controls or a claim of a new replay of their old suites.
 
-Convenience copies: [new source](sandbox:/mnt/data/four_quad/four_quad.py), [new exact report](sandbox:/mnt/data/four_quad/four_quad.json), [restored previous source](sandbox:/mnt/data/four_quad/two_cover_free_base.py), [new executed receipt](sandbox:/mnt/data/four_quad/build.txt). The literal units below, not those links, are the durable recovery.
+Convenience copies: new source (`four_quad.py`), new exact report (`four_quad.json`), restored previous source (`two_cover_free_base.py`), new executed receipt (`build.txt`). The literal units below, not those links, are the durable recovery.
 
 ## Appendix A. Complete restored `two_cover_free_base.py`
 

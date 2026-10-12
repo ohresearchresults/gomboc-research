@@ -34,7 +34,7 @@ a_{\rm outer}=0.00051155200057407094350\ldots.
 
 At the strict post-event sample `a=1/512`, that outer relay consists of stable rows `2219,2201`, unstable facets `(2219,2220,2255)` and `(2201,2202,2237)`, and saddle edges `(2184,2219)`, `(2219,2255)`, `(2166,2201)`, `(2201,2237)`. The two new unstable facets use only fixed boundary rows, so their exact positive barycentric coefficients are independent of the tangential null coordinate throughout this incidence cell. Thus the requested minimal four-star zipper is now closed as a construction-centre-preserving route; a larger cell must move rows of the outer boundary facets themselves.
 
-The target and acceptance gate were the exact own-centroid, uniform-density, finite-object requirements recorded in the supplied journal. :contentReference[oaicite:0]{index=0} The journal had localized the predecessor obstruction to the paired equatorial rows and proposed this four-star relay. :contentReference[oaicite:1]{index=1}
+The target and acceptance gate were the exact own-centroid, uniform-density, finite-object requirements recorded in the supplied journal. The journal had localized the predecessor obstruction to the paired equatorial rows and proposed this four-star relay.
 
 ## 1. Exact reconstruction of the predecessor cover and first wall
 
@@ -458,13 +458,13 @@ The complete archive includes source rows, exact certificates, interval H/V data
 
 ## Downloadable artifacts
 
-- [Complete exact/directed archive](sandbox:/mnt/data/equatorial_zipper_relay_nonwinner.zip)
-- [Archive SHA-256](sandbox:/mnt/data/equatorial_zipper_relay_nonwinner.zip.sha256)
-- [Standalone research handoff](sandbox:/mnt/data/equatorial_zipper_relay/RESEARCH_HANDOFF.md)
-- [Machine-readable result](sandbox:/mnt/data/equatorial_zipper_relay/RESULT.json)
-- [Interval H/V archive](sandbox:/mnt/data/equatorial_zipper_relay/geometry/root_interval_hv.npz)
-- [Expanded maximal-face cycles](sandbox:/mnt/data/equatorial_zipper_relay/geometry/root_maximal_face_cycles.json)
-- [Expanded true edges](sandbox:/mnt/data/equatorial_zipper_relay/geometry/root_true_edges.csv)
-- [Independent verification report](sandbox:/mnt/data/equatorial_zipper_relay/certificates/cleanroom_verify_report.json)
-- [OBJ mesh](sandbox:/mnt/data/equatorial_zipper_relay/geometry/root_midpoint.obj)
-- [STL mesh](sandbox:/mnt/data/equatorial_zipper_relay/geometry/root_midpoint.stl)
+- Complete exact/directed archive (`equatorial_zipper_relay_nonwinner.zip`)
+- Archive SHA-256 (`equatorial_zipper_relay_nonwinner.zip.sha256`)
+- Standalone research handoff (`RESEARCH_HANDOFF.md`)
+- Machine-readable result (`RESULT.json`)
+- Interval H/V archive (`root_interval_hv.npz`)
+- Expanded maximal-face cycles (`root_maximal_face_cycles.json`)
+- Expanded true edges (`root_true_edges.csv`)
+- Independent verification report (`cleanroom_verify_report.json`)
+- OBJ mesh (`root_midpoint.obj`)
+- STL mesh (`root_midpoint.stl`)

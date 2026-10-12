@@ -253,11 +253,11 @@ The useful continuation is to decide or cover the other mono-U components of thi
 
 A fully expanded source bundle, the exact report and receipts are available as supplementary artifacts:
 
-[Complete affine handoff](sandbox:/mnt/data/CF31_AFFINE_HANDOFF.zip)
+Complete affine handoff (`CF31_AFFINE_HANDOFF.zip`)
 
-[Exact rational proof report](sandbox:/mnt/data/cf31/CF31_AFFINE_RESULT.json)
+Exact rational proof report (`CF31_AFFINE_RESULT.json`)
 
-[Unsolved full-orbit SMT instance](sandbox:/mnt/data/cf31/ORBIT_NORMAL.smt2)
+Unsolved full-orbit SMT instance (`ORBIT_NORMAL.smt2`)
 
 The exact proof report has 187765 bytes and SHA-256 `14856e682ac8a8b98b69a2490ae246052788e9854e3e9ae32d5cb4010a8ff82ae`. The frozen standalone verifier has 24103 bytes and SHA-256 `7c660e8bde8916fd9d07ddba727e4d0fc67b68a7be35cdfb91e0b77b6bafacfc`. The normalized full-orbit SMT instance has 371761 bytes and SHA-256 `7c396b02c61a6eff8c57b340eb2b6a6f4e920773aa8dc6d4b388b5ce6b8a030ca`.
 

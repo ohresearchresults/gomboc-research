@@ -8,7 +8,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Outcome
 
-No exact strict110/additionalweak000 body was obtained. I cold-replayed the authoritative parent `figure-0463` (SHA-256 `e7b52f322ec02b7d6c34a4cdb992622c807fb2f6f7bf868299cc1685c7be5bc6`): `BR76_C150_INTERFACE17_DESCENT_G3` is V50/E75/F27,C150 strict121/weak000 with one 17/17 physical packet and `Qbars=[]`. :contentReference[oaicite:0]{index=0} The supplied separator replay cold-passes: `q=(578,69,1000)`, packet maximum `-38132531000/33827071` at vertex39, retained minimum `-66691400/6112141` at vertex48, and `q·x>=-569` removes all17 packet vertices while retaining all33 others; cap row `[-578,-69,-1000]·x<=569` returns V50/E75/F27 with a 17-gon cap. :contentReference[oaicite:1]{index=1}
+No exact strict110/additionalweak000 body was obtained. I cold-replayed the authoritative parent `figure-0463` (SHA-256 `e7b52f322ec02b7d6c34a4cdb992622c807fb2f6f7bf868299cc1685c7be5bc6`): `BR76_C150_INTERFACE17_DESCENT_G3` is V50/E75/F27,C150 strict121/weak000 with one 17/17 physical packet and `Qbars=[]`. The supplied separator replay cold-passes: `q=(578,69,1000)`, packet maximum `-38132531000/33827071` at vertex39, retained minimum `-66691400/6112141` at vertex48, and `q·x>=-569` removes all17 packet vertices while retaining all33 others; cap row `[-578,-69,-1000]·x<=569` returns V50/E75/F27 with a 17-gon cap.
 
 Two exact new results change the continuation:
 
@@ -17,7 +17,7 @@ Two exact new results change the continuation:
 
 ## Exact C114 checkpoint
 
-Use the literal parent normals; the supplied parent payload is authoritative. :contentReference[oaicite:2]{index=2} Active original/cap labels are `[1,2,4,5,6,8,9,10,11,13,14,16,17,19,20,21,22,24,25,27,29]`. For active old rows use RHS1000 except row10=`1161`, row16=`803`, row17=`1281`; new cap row29 is `[-3068,2019,-1218]·x<=1000`. Lineage rows23 and28 were moved to RHS1125 and1093 but are inactive; `[0,3,7,12,15,18,23,26,28]` may be omitted. A common-RHS active21 form uses `D=398084841000` and multiplies each active normal by `D/h_i`; minified active21 JSON: 934 bytes, SHA-256 `cf469a5850bb3b9dfa593998bde458938e3f9fd66e3bb1f0aeba883da4ae8f4c`.
+Use the literal parent normals; the supplied parent payload is authoritative. Active original/cap labels are `[1,2,4,5,6,8,9,10,11,13,14,16,17,19,20,21,22,24,25,27,29]`. For active old rows use RHS1000 except row10=`1161`, row16=`803`, row17=`1281`; new cap row29 is `[-3068,2019,-1218]·x<=1000`. Lineage rows23 and28 were moved to RHS1125 and1093 but are inactive; `[0,3,7,12,15,18,23,26,28]` may be omitted. A common-RHS active21 form uses `D=398084841000` and multiplies each active normal by `D/h_i`; minified active21 JSON: 934 bytes, SHA-256 `cf469a5850bb3b9dfa593998bde458938e3f9fd66e3bb1f0aeba883da4ae8f4c`.
 
 Recompute the exact raw uniform centroid `c`, then use `y=A(x-c)` with `A=((24511/10000,0,0),(11797/5000,4363/2000,0),(8517/2500,6477/10000,187/1000))`, `det(A)=19998059191/20000000000>0`. Numerically raw V≈57.7294272889307, raw c≈(0.235697371939096,-1.285048273846396,-1.110440305308176), transformed V≈57.72382519932834; transformed filled-volume centroid is exactly 0.
 

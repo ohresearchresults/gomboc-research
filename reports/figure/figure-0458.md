@@ -8,7 +8,7 @@ AI research report · 2026-09-22 UTC
 
 ## Outcome
 
-No strict own110/additionalweak000 endpoint was reached. The strongest new exact descendant is **`BR76_C162_WHOLEP_DESCENT3_G3`**, obtained by a genuinely broad deformation of the authoritative `BR76_C162_COMP20_G3` frontier. The literal parent is V54/E81/F29/C162, strict121/weak000/zero000 with one 20/20 physical packet and no Q bars. :contentReference[oaicite:0]{index=0}
+No strict own110/additionalweak000 endpoint was reached. The strongest new exact descendant is **`BR76_C162_WHOLEP_DESCENT3_G3`**, obtained by a genuinely broad deformation of the authoritative `BR76_C162_COMP20_G3` frontier. The literal parent is V54/E81/F29/C162, strict121/weak000/zero000 with one 20/20 physical packet and no Q bars.
 
 The new body is:
 
@@ -60,7 +60,7 @@ I exhaustively exact-audited **all 29 literal one-support deletions** of the new
 
 The deterministic exact deletion ledger is 5932 bytes, SHA-256 `61887ab60713e98c1cef6eab95ac0605400aa2236e5473f8d1d4e311766b91e8`.
 
-This is only a finite adjacency theorem for deleting one of these 29 fixed supports. It does not exclude simultaneous support motion, incidence turnover, multi-support replacement/addition, projective/affine jumps, or another C156 geometry. The literal parent had a separate exact 29-deletion closure, likewise explicitly scoped. :contentReference[oaicite:1]{index=1}
+This is only a finite adjacency theorem for deleting one of these 29 fixed supports. It does not exclude simultaneous support motion, incidence turnover, multi-support replacement/addition, projective/affine jumps, or another C156 geometry. The literal parent had a separate exact 29-deletion closure, likewise explicitly scoped.
 
 ## Mechanism and finite evidence
 

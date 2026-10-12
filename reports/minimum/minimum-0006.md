@@ -20,9 +20,9 @@ Combining the new V≥9 theorem with the named Atlas13 parent's F≥8 theorem gi
 
 ## Dependencies and scope
 
-The exact conceptual parents are `minimum-0001`, SHA-256 `9cc634b1d007b03568764c4b4703096fe7216e39fbe9e0f5ea78b1ca4326a4f8`, and `minimum-0003`, SHA-256 `520200e9b9541f54133e00931fc6ce2021fa752d2e8bb06df574ed1248720893`. The former supplies the four-deep-node lemma and actual-volume cone identity; both are reproduced below. The latter supplies the separately established facet lower bound, not a polar-centroid identification. Their literal statements support these distinct uses. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The exact conceptual parents are `minimum-0001`, SHA-256 `9cc634b1d007b03568764c4b4703096fe7216e39fbe9e0f5ea78b1ca4326a4f8`, and `minimum-0003`, SHA-256 `520200e9b9541f54133e00931fc6ce2021fa752d2e8bb06df574ed1248720893`. The former supplies the four-deep-node lemma and actual-volume cone identity; both are reproduced below. The latter supplies the separately established facet lower bound, not a polar-centroid identification. Their literal statements support these distinct uses.
 
-The parent V8 result's former C24 corollary was already superseded by the joint C28 bound; that historical difference is not a conflicting geometry definition. The current handoff advances C28 to C30 through the vertex side. The inherited upper witness was not reaudited here. :contentReference[oaicite:2]{index=2}
+The parent V8 result's former C24 corollary was already superseded by the joint C28 bound; that historical difference is not a conflicting geometry definition. The current handoff advances C28 to C30 through the vertex side. The inherited upper witness was not reaudited here.
 
 Every centroid g below is the ordinary centroid of the uniformly filled original solid. No polar centroid, Santaló point, equal-vertex-mass centroid, prescribed ray set, or affine normalization enters the proof. Scaling the largest radius to one is only a Euclidean similarity. Nonsimplicial facets and nonsimple vertices are included.
 
@@ -697,4 +697,4 @@ For the Gömböc problem the next possible equality boundary is **E15,V9,F8,C30*
 
 This is a self-contained analytic/computer-assisted proof with executed rational certificates and two distinct positivity algorithms, not a proof-assistant formalization or an external peer review. No claim of publication priority is made.
 
-Convenience copies: [complete recovery source](sandbox:/mnt/data/nova24_v9_recover.py), [literal rational tables](sandbox:/mnt/data/nova24_v9_certificate.json), [exact audit](sandbox:/mnt/data/nova24_v9_audit.json), and [rank-two sharpness control](sandbox:/mnt/data/nova24_nine_vector_control.json). These copies supplement the full inline recovery capsule; none is its sole source.
+Convenience copies: complete recovery source (`nova24_v9_recover.py`), literal rational tables (`nova24_v9_certificate.json`), exact audit (`nova24_v9_audit.json`), and rank-two sharpness control (`nova24_nine_vector_control.json`). These copies supplement the full inline recovery capsule; none is its sole source.

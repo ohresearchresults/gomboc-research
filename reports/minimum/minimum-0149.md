@@ -25,9 +25,9 @@ An exact nonempty 10/17/9 sector is demonstrated by a six-vertex root. Two conti
 
 ## 2. Authority and exact geometric class
 
-The complete new research-journal(20260921-004038).md was read through line 1874/EOF, including the entire immutable parent. Its 322365 bytes have SHA-256 eef591702897e81e6bcfd945953685198774f0ed1ea8d537f6af8ed57d420235. The required literal parent is minimum-0146, SHA-256 343b1c30bfa2f3d225bf9cc2ab1675beee4c784a2e88659a18aa45e6509d390f, PARALLEL_ROOT_MINKOWSKI_SECTION_DOMINANCE_201_V1. Its all-convex-root 201/100 theorem has endpoints (1,b,b,b); it is not an unequal-endpoint theorem. :contentReference[oaicite:0]{index=0}
+The complete new research-journal(20260921-004038).md was read through line 1874/EOF, including the entire immutable parent. Its 322365 bytes have SHA-256 eef591702897e81e6bcfd945953685198774f0ed1ea8d537f6af8ed57d420235. The required literal parent is minimum-0146, SHA-256 343b1c30bfa2f3d225bf9cc2ab1675beee4c784a2e88659a18aa45e6509d390f, PARALLEL_ROOT_MINKOWSKI_SECTION_DOMINANCE_201_V1. Its all-convex-root 201/100 theorem has endpoints (1,b,b,b); it is not an unequal-endpoint theorem.
 
-The parent's warning is retained exactly: unequal endpoint parallelization requires L^-4 and L^-5 weights, and equal unweighted section areas do not preserve those original integrals. :contentReference[oaicite:1]{index=1} No source-authority conflict was found. The one-zero shell and joint root-stationarity discussions are background, not missing computational dependencies of this proof.
+The parent's warning is retained exactly: unequal endpoint parallelization requires L^-4 and L^-5 weights, and equal unweighted section areas do not preserve those original integrals. No source-authority conflict was found. The one-zero shell and joint root-stationarity discussions are background, not missing computational dependencies of this proof.
 
 Put
 
@@ -353,7 +353,7 @@ The wrapper uses only the standard library; its child is deliberately launched w
 
 The ordinary certificate statistics were 4319 tensors, 35765 positive and 1533 zero coefficients, plus two special tensors with 50 coefficient-polynomial rows. The direct H certificate has 23 leaves and 457 positive/three zero coefficients. These are exact computational checks supporting the mathematical reductions above, not a proof-assistant formalization.
 
-Convenience copies are [the complete recovery](sandbox:/mnt/data/recover_unequal_fan_root_v1.py), [the decoded readable source](sandbox:/mnt/data/unequal_fan_root_v1.py) and [all exact certificates and actual-body data](sandbox:/mnt/data/unequal_fan_root_v1.json). They are not required: the following capsule contains every source byte, input and reconstruction rule for the new result.
+Convenience copies are the complete recovery (`recover_unequal_fan_root_v1.py`), the decoded readable source (`unequal_fan_root_v1.py`) and all exact certificates and actual-body data (`unequal_fan_root_v1.json`). They are not required: the following capsule contains every source byte, input and reconstruction rule for the new result.
 
 ### Complete autonomous source
 

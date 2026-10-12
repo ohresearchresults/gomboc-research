@@ -12,7 +12,7 @@ AI research report · 2026-08-23 UTC
 
 No rational H-representation with exact own-centroid counts `(S,U,H)=(1,1,0)` was materialized. The strongest exact finite figure recovered has `(V,E,F)=(21,40,21)` and `(S,U,H)=(2,3,3)`.
 
-This is a counterdiagnosis of the supplied construction and certificate, not a contradiction of Lángi's qualitative existence theorem. Lángi proves equilibrium-preserving approximation, but his proof treats mixed local boundaries and then separates the remaining compact boundary from the complete family of radial support planes before taking a finite subcover; that stronger common-support argument is precisely what SPG-EFFECTIVE omitted. :contentReference[oaicite:0]{index=0}
+This is a counterdiagnosis of the supplied construction and certificate, not a contradiction of Lángi's qualitative existence theorem. Lángi proves equilibrium-preserving approximation, but his proof treats mixed local boundaries and then separates the remaining compact boundary from the complete family of radial support planes before taking a finite subcover; that stronger common-support argument is precisely what SPG-EFFECTIVE omitted.
 
 ## 1. Smooth seed: retained
 
@@ -28,7 +28,7 @@ p(z)=\eta(z)+\frac1{50}\sin(2\eta(z))+\frac1{100}\cos(4\eta(z)),\qquad
 \eta(z)=\frac{3\pi}{2}\left(z-\frac{z^3}{3}\right),
 \]
 
-the transcript's exact centroid cancellation, two nondegenerate equilibria, and global strict-convexity certificate remain valid. :contentReference[oaicite:1]{index=1}
+the transcript's exact centroid cancellation, two nondegenerate equilibria, and global strict-convexity certificate remain valid.
 
 The independent exact/symbolic audit rederived:
 
@@ -293,13 +293,13 @@ What was **not** executed is the claimed `<2^616` SPG-EFFECTIVE object. No expan
 
 ## 9. Deliverables
 
-- [Complete decisive audit](sandbox:/mnt/data/spg_decisive/DECISIVE_AUDIT.md)
-- [Rerunnable audit and checker package](sandbox:/mnt/data/spg_decisive_package.zip) — SHA-256 `b0287942747fb17c45f89c8e10f41d9d8c71e53dbbc5978a11e149102bde4ea4`
-- [Verification summary](sandbox:/mnt/data/spg_decisive/verification_summary.json)
-- [Exact mixed-transition prism certificate](sandbox:/mnt/data/spg_decisive/audit/mixed_transition_prism.json)
-- [Exact rational polytope verifier](sandbox:/mnt/data/spg_decisive/checker/exact_polytope_verifier.py)
-- [Exact featurewise reference-radius checker](sandbox:/mnt/data/spg_decisive/checker/exact_reference_stability.py)
-- [Materialized 21-vertex circumscribed near-witness](sandbox:/mnt/data/spg_decisive/near_witness/rational_circumscribed_near_witness.json)
+- Complete decisive audit (`DECISIVE_AUDIT.md`)
+- Rerunnable audit and checker package (`spg_decisive_package.zip`) — SHA-256 `b0287942747fb17c45f89c8e10f41d9d8c71e53dbbc5978a11e149102bde4ea4`
+- Verification summary (`verification_summary.json`)
+- Exact mixed-transition prism certificate (`mixed_transition_prism.json`)
+- Exact rational polytope verifier (`exact_polytope_verifier.py`)
+- Exact featurewise reference-radius checker (`exact_reference_stability.py`)
+- Materialized 21-vertex circumscribed near-witness (`rational_circumscribed_near_witness.json`)
 
 ## Publication-grade conclusion
 

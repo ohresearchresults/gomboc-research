@@ -20,7 +20,7 @@ Consequently the same U≥2 theorem holds on a **radius 10^-8 tube of actual cen
 
 The distinction from the parent matters: its strictly feasible LOCAL nine-sign independent pair remains valid. But on this complete box, every FULL primal rooted-tree SPD feasibility cone is now proved empty. This family therefore cannot supply independently feasible COMPLETE U1/S1 systems whose incompatibility genuinely requires reciprocity. The new exclusion is pure primal geometry, not an additional victory attributed to the cofactor or reciprocal-defect step.
 
-No canonical registry subtraction, whole E17-type exclusion, C34 attainer, or global lower-bound improvement follows. **34 ≤ C_min ≤ 622 remains unchanged.** The distinction between the mechanical minimum and an actual-family exclusion is the notebook's standing convention. :contentReference[oaicite:0]{index=0}
+No canonical registry subtraction, whole E17-type exclusion, C34 attainer, or global lower-bound improvement follows. **34 ≤ C_min ≤ 622 remains unchanged.** The distinction between the mechanical minimum and an actual-family exclusion is the notebook's standing convention.
 
 ## 2. Evidence and exact authority
 
@@ -28,7 +28,7 @@ The entire updated journal, including its literal immutable parent, was read thr
 
 The authoritative parent is `minimum-0190`, SHA-256 `a4c741f64eb1ceeae761944542992831f31b933ac1bc0a0baee5ad263a876c96`, **QUAD_LEAF_MAX_EAR_AND_EXTERNAL_GATE_V1**. Its full mounted `quad_gate.py`, 27291 bytes, SHA-256 `04f4044385897dc6a096d2d5b02920b91fa912dce7c1964d9ae2d800b81147a0`, was read for the geometry and enumeration helpers. The unchanged earlier evidence remains available. No parent alias conflict or necessary missing dependency was found.
 
-The new generator is self-contained. It incorporates the actual geometry helpers and every new literal stress input; it does not import the parent's code, report, or capsule. The largest-ear rule is used to interpret and subdivide the old domains, but **the root-free U2 proof does not depend on that rule**. The parent's exact 22,520-domain convention and 4,424 remainder are reproduced rather than inferred from a canonical register. :contentReference[oaicite:1]{index=1}
+The new generator is self-contained. It incorporates the actual geometry helpers and every new literal stress input; it does not import the parent's code, report, or capsule. The largest-ear rule is used to interpret and subdivide the old domains, but **the root-free U2 proof does not depend on that rule**. The parent's exact 22,520-domain convention and 4,424 remainder are reproduced rather than inferred from a canonical register.
 
 ## 3. Actual family and theorem
 
@@ -273,7 +273,7 @@ Applied only to the PARENT remainder, this rule closes 2350 domains. The complet
 
 This is an exact disjoint disposition, not a subtraction of overlapping estimates. The source recreates each old `(edge_mask,root,missing,attachment,status)` and appends an actual stress-row certificate. It separately verifies all complementary dual trees and the mandated neighbor-to-F0 direction for old leaf domains, without claiming those topological trees were sign-feasible.
 
-The prior17,356 largest-ear closures and740 external-cone closures remain correct. The new all-U2 theorem also excludes their primal trees and the non-F0-leaf trees on these actual shapes. The numbers54,400 and22,520 are raw labelled counts for this literal graph; **no canonical type or rooted-registry count changes**. The parent specifically warned against identifying these counts with global registers. :contentReference[oaicite:2]{index=2}
+The prior17,356 largest-ear closures and740 external-cone closures remain correct. The new all-U2 theorem also excludes their primal trees and the non-F0-leaf trees on these actual shapes. The numbers54,400 and22,520 are raw labelled counts for this literal graph; **no canonical type or rooted-registry count changes**. The parent specifically warned against identifying these counts with global registers.
 
 ## 8. Actual compatible controls, including an unbounded metric tail
 
@@ -332,7 +332,7 @@ The same source preserves all eight finite flag controls actually examined:
 
 All eight have weak000 and all68 primitives nonzero. Each row uses the inverse of its OWN physical primal metric, not the independently chosen metric from another row.
 
-The four parent local constructions are also reconstructed in full from their rational formulas: the admissible paths1230,2301,3210,2103 respectively have own244,233,233,255, all weak000, with stableF0 and the strict incoming polar escape. These are retained actual compatible local extensions, not new aliases or110 constructions. They explain why a local root-plus-path ban would be false. The parent proved this distinction constructively. :contentReference[oaicite:3]{index=3}
+The four parent local constructions are also reconstructed in full from their rational formulas: the admissible paths1230,2301,3210,2103 respectively have own244,233,233,255, all weak000, with stableF0 and the strict incoming polar escape. These are retained actual compatible local extensions, not new aliases or110 constructions. They explain why a local root-plus-path ban would be false. The parent proved this distinction constructively.
 
 ## 9. What changed, what failed, and the next useful boundary
 
@@ -340,7 +340,7 @@ The initial route retained the necessary positive tangent flag from stable-quad 
 
 Floating-point linear programming and eigenvectors were used only to locate candidate weights. The weights were frozen as integers; every reported exclusion is established anew by the exact source. The final capsule regenerates the polynomials, checks the entire continuum certificate, and reconstructs the complete discrete cover from literal inputs without optimization. It does not claim to reproduce a floating-point search trajectory. Early failed numerical searches or failed smaller-stencil attempts were not treated as feasible bodies or impossibility theorems.
 
-The nine-sign local blind countercontrol is not retracted. Its local primal cone is genuinely nonempty. The newly proved emptiness concerns the added FULL U1 escape requirement on the actual body. The old facet-only rho→0 mechanism and the general full-facet lift remain valid, but they cannot produce a U1 metric inside this box or its stated actual-centred tube. The parent had deliberately left that full-cone question separate. :contentReference[oaicite:4]{index=4}
+The nine-sign local blind countercontrol is not retracted. Its local primal cone is genuinely nonempty. The newly proved emptiness concerns the added FULL U1 escape requirement on the actual body. The old facet-only rho→0 mechanism and the general full-facet lift remain valid, but they cannot produce a U1 metric inside this box or its stated actual-centred tube. The parent had deliberately left that full-cone question separate.
 
 Coverage stops at the stated box/tube. This is not a graph-only theorem for all realizations of the lattice, not the whole positive-projective parameter domain, not the full eleven-shape bevel chart, and not an arbitrary E17 exclusion. No independently feasible complete U1/S1 pair or own110 control was found or asserted. The general cofactor-blindness problem must therefore be pursued on a different actual sector whose FULL primal U1 cone is first shown to be nonempty, or beyond this now-closed box/tube.
 
@@ -577,4 +577,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Optional convenience copies: [decoded source](sandbox:/mnt/data/bevel_box_u2/bevel_box_u2.py), [complete exact report](sandbox:/mnt/data/bevel_box_u2/bevel_box_u2.json), [source-only recovery capsule](sandbox:/mnt/data/bevel_box_u2/recover_bevel_box.py). The embedded capsule is sufficient without these links.
+Optional convenience copies: decoded source (`bevel_box_u2.py`), complete exact report (`bevel_box_u2.json`), source-only recovery capsule (`recover_bevel_box.py`). The embedded capsule is sufficient without these links.

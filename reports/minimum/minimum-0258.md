@@ -30,7 +30,7 @@ R, A, and the seven-turn requirement hold with a specified moving rational alpha
 
 **A general reference-design reduction.** For a prescribed upper bound on the reference angle, minimizing Gamma is an SDP with one symmetric 3×3 variable and one scalar. The complete optimal standalone product bound reduces exactly to a one-dimensional family of these SDPs. An explicit rational dual permits rigorous lower bounds and all-reference failure certificates. On an actual H5 control below, a rational reference and a rank-one dual solve this optimization exactly for the pair (a8,qB).
 
-The accepted minimum bracket remains **34≤C_min≤622**. No whole-H5, whole-E17, canonical-root-count, or attaining-construction claim follows. The bracket and the distinction between exclusion and attainment are inherited working results. fileciteturn0file5L9-L13
+The accepted minimum bracket remains **34≤C_min≤622**. No whole-H5, whole-E17, canonical-root-count, or attaining-construction claim follows. The bracket and the distinction between exclusion and attainment are inherited working results.
 
 ## 1. Input authority and the unchanged physical family
 
@@ -54,7 +54,7 @@ Its raw vertices are z_i=(sB_i,0), i=0,…,6, and z7=(0,0,1), z8=(lambda,0,1), z
 (9,8,2,3), (9,3,4), (4,5,7,9), (6,7,5), (7,8,9).
 ```
 
-The exact program integrates the complete oriented boundary to obtain D=6Vol and K=Dg. It independently checks the supplied closed formulas for these moving moments. All regional vertices are v_i=z_i-g; all poles are the actual normalized supports at this same g. The true facet lattice is V10/E17/F9 throughout both closed boxes. The underlying family, moment convention, and support-cleared polynomial tests are preserved from the supplied source. fileciteturn0file0L140-L156
+The exact program integrates the complete oriented boundary to obtain D=6Vol and K=Dg. It independently checks the supplied closed formulas for these moving moments. All regional vertices are v_i=z_i-g; all poles are the actual normalized supports at this same g. The true facet lattice is V10/E17/F9 throughout both closed boxes. The underlying family, moment convention, and support-cleared polynomial tests are preserved from the supplied source.
 
 For clarity, write gamma=g_z, let B_g and T_g be the centered basal polygon and top triangle, and put beta=gamma(1+alpha)/(1-gamma), r_*=beta/alpha. The inherited hypotheses are 0<gamma<1/2, 0<alpha<1, alpha≥1-2gamma, R: -alpha B_g-beta T_g⊆B_g, A: q·a>−1 for every nonbasal actual pole q and every a∈T_g, and r_*cos(pi/7)^7≤1. Under these hypotheses the inherited theorem gives strict basal U and strict nonbasal S. When alpha²<gamma, a hypothetical joint S1/U1 metric must have, at a maximum-norm top vertex a,
 
@@ -70,7 +70,7 @@ P_M(a,q_B)\le L_K(\chi_C),\quad
 L_K(t)=\frac{((K+1)\sqrt{1+t}+(K-1)\sqrt t)^2}{4K},
 \]
 
-with K=f(10)f(9)Gamma_C² < (16/27)Gamma_C², where f(m)=cos(pi/(2m))^(2m). These are the inherited implications extended here, not independently chosen primal and polar metrics. fileciteturn0file0L65-L110
+with K=f(10)f(9)Gamma_C² < (16/27)Gamma_C², where f(m)=cos(pi/(2m))^(2m). These are the inherited implications extended here, not independently chosen primal and polar metrics.
 
 ## 2. Exact SDP reduction for reference design
 
@@ -147,7 +147,7 @@ For one direction set tau=chi_C. For the other use an SDP minimizer, whose actua
 
 This also supplies a rigorous negative-search method. On tau∈[u,v], monotonicity gives g_a(tau)≥g_a(v). A dual lower bound at v therefore gives a uniform lower bound L_{K(g_a(v))}(u) on the whole interval. The tail tau≥T is automatically above a target T because L_K(tau)≥1+tau. Compactness of normalized references gives right-continuity at tau=0; Slater gives continuity away from zero. On a compact tau interval, strict separation can be certified by sufficiently fine intervals and exact dual bounds. This is a certificate-completeness observation for a **strict gap**, not a runtime bound or an assertion about boundary-only optimization.
 
-Separate SDPs may be used for a7,a8,a9. Their references still constrain the same M. This reduction concerns the best standalone product ceiling; it does not replace the potentially stronger intersection of all reference-dependent metric cones recorded in the supplied finite-height source. fileciteturn0file4L81-L84
+Separate SDPs may be used for a7,a8,a9. Their references still constrain the same M. This reduction concerns the best standalone product ceiling; it does not replace the potentially stronger intersection of all reference-dependent metric cones recorded in the supplied finite-height source.
 
 ## 3. The wider positive box
 
@@ -605,7 +605,7 @@ for name in sorted(files):
 print('H5_REFERENCE_FRONTIER_SOURCE_RECOVERY_PASS')
 ```
 
-Convenience copies supplement, but are not required by, the inline recovery: [exact verifier](sandbox:/mnt/data/bright_harbor/h5_reference_frontier.py), [exact report](sandbox:/mnt/data/bright_harbor/H5_REFERENCE_FRONTIER_EXACT.json), [recovery source](sandbox:/mnt/data/bright_harbor/recover_reference_frontier.py), and [optional locator](sandbox:/mnt/data/bright_harbor/reference_design_locator.py).
+Convenience copies supplement, but are not required by, the inline recovery: exact verifier (`h5_reference_frontier.py`), exact report (`H5_REFERENCE_FRONTIER_EXACT.json`), recovery source (`recover_reference_frontier.py`), and optional locator (`reference_design_locator.py`).
 
 ## 7. Most useful continuation
 

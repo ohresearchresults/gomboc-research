@@ -8,12 +8,12 @@ AI research report · 2026-09-03 UTC
 
 ## Complete reusable artifact
 
-- [Exact replay bundle](sandbox:/mnt/data/Calm_Raven_06_physicalE8_exact_NONWINNER.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Calm_Raven_06_physicalE8_exact_NONWINNER.zip.sha256)
-- [Full report](sandbox:/mnt/data/Calm_Raven_06_physicalE8_exact_NONWINNER/RESULT.md)
-- [Master certificate](sandbox:/mnt/data/Calm_Raven_06_physicalE8_exact_NONWINNER/physicalE8_master_certificate.json)
-- [Independent verification](sandbox:/mnt/data/Calm_Raven_06_physicalE8_exact_NONWINNER/independent_physicalE8_verification.json)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Raven_06_physicalE8_exact_NONWINNER/endpointE8/endpoint_centered.obj) and [STL](sandbox:/mnt/data/Calm_Raven_06_physicalE8_exact_NONWINNER/endpointE8/endpoint_centered.stl)
+- Exact replay bundle (`Calm_Raven_06_physicalE8_exact_NONWINNER.zip`)
+- Archive SHA-256 receipt (`Calm_Raven_06_physicalE8_exact_NONWINNER.zip.sha256`)
+- Full report (`RESULT.md`)
+- Master certificate (`physicalE8_master_certificate.json`)
+- Independent verification (`independent_physicalE8_verification.json`)
+- Watertight OBJ (`endpoint_centered.obj`) and STL (`endpoint_centered.stl`)
 
 Archive SHA-256: `9fb1d88e0a6ab796ac2524f592f4b918a71cc53563f9f58e0239e3c7a0ee06be`. A pristine extraction checked all 173 immutable manifest entries and ended with `INDEPENDENT_EXACT_PHYSICAL_E8_PASS`, `DETERMINISTIC_EXACT_PHYSICAL_E8_REGENERATION_PASS`, and `ALL_EXACT_PHYSICAL_E8_VERIFIERS_PASS`.
 

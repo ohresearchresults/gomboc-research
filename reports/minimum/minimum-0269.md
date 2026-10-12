@@ -20,7 +20,7 @@ Nevertheless, throughout a smaller five-dimensional closed box, **the average of
 
 The repair retains a disjunction on the **actual same-inverse foot**, rather than replacing that foot by the foot of a convex average. This yields a root-specific implication with a quantitative margin and covers 1,736 labelled primal-tree alternatives, including **779 nonleaf complementary F2-root cases**. Of those nonleaf cases, 773 do not contain the previously certified path `4->9->7->0`.
 
-This is **complete foot coverage for the displayed packet, not complete H5 shape or all-root obligation coverage**. At the literal W_ONLY_RESIDUAL point, complete U1 packets are already excluded by the parent's ordinary-PSD cover; that point is not reopened or re-solved here. The new result identifies an exact limitation and a working repair of the whole-root convex relaxation. No canonical registry count, global complexity bound, or attaining construction changes. The supplied working memory retains `34 <= C_min <= 622` and no whole H5/E17 exclusion. fileciteturn10file0L73-L83
+This is **complete foot coverage for the displayed packet, not complete H5 shape or all-root obligation coverage**. At the literal W_ONLY_RESIDUAL point, complete U1 packets are already excluded by the parent's ordinary-PSD cover; that point is not reopened or re-solved here. The new result identifies an exact limitation and a working repair of the whole-root convex relaxation. No canonical registry count, global complexity bound, or attaining construction changes. The supplied working memory retains `34 <= C_min <= 622` and no whole H5/E17 exclusion.
 
 ## 2. Input authority and recovery status
 
@@ -73,7 +73,7 @@ The true edge list is
 (3,9),(4,5),(4,9),(5,6),(5,7),(6,7),(7,8),(7,9),(8,9).
 ```
 
-These are the supplied geometry and labels, not a graph-only replacement. fileciteturn11file0L34-L88
+These are the supplied geometry and labels, not a graph-only replacement.
 
 The actual uniform-volume moments are
 
@@ -130,7 +130,7 @@ q^TUq\le0,\qquad
 \quad\lambda_e\ge0
 \]
 
-for every boundary edge `[a_e,b_e]` of **the foot domain K**, then `tr(UM)<=0` for every SPD `M` whose actual foot is in closed `K`. These domain edges are not asserted to be edges of the polyhedron, and they do not supply mechanical arrows. The stress below uses only true arrows. The original root theorem and its closed-foot argument are supplied explicitly. fileciteturn6file1L20-L44 fileciteturn6file1L62-L71
+for every boundary edge `[a_e,b_e]` of **the foot domain K**, then `tr(UM)<=0` for every SPD `M` whose actual foot is in closed `K`. These domain edges are not asserted to be edges of the polyhedron, and they do not supply mechanical arrows. The stress below uses only true arrows. The original root theorem and its closed-foot argument are supplied explicitly.
 
 For completeness, if `f=M^-1 q/(q^T M^-1 q)`, put `alpha=f^TMf`. Then
 
@@ -304,7 +304,7 @@ outside the root triangle. Its three exact arrow values, ordered `(28,81,10)`, a
 
 All are strictly positive. Suppose a nonzero nonnegative weighted sum A of these three tensors belonged to the whole-root negative dual. Since both atoms are strictly root-stable, `tr(A M0)<=0` and `tr(A M1)<=0`, hence `tr(A Mbar)<=0`. The displayed strict arrows instead give `tr(A Mbar)>0`. This proves the impossibility of **every** such whole-facet stress, including any proposed positive PSD-reference shift. It also rules out every nonzero nonnegative NSD primal stress on this packet.
 
-The full-root convex-hull theorem already warns that a hull foot can lie outside the facet. The new control strengthens that warning to an **actual strict true-arrow packet whose physical closed-root intersection is empty but whose whole-root convex relaxation has a strict feasible point**. The general hull theorem itself is not contradicted. fileciteturn6file1L48-L59 fileciteturn6file1L73-L86
+The full-root convex-hull theorem already warns that a hull foot can lie outside the facet. The new control strengthens that warning to an **actual strict true-arrow packet whose physical closed-root intersection is empty but whose whole-root convex relaxation has a strict feasible point**. The general hull theorem itself is not contradicted.
 
 ### Full physical censuses at theta0
 
@@ -365,7 +365,7 @@ The complementary dual root F2 has degree
 
 The new packet therefore includes 779 nonleaf cases. Its overlap with the parent's `4->9->7->0` packet is 36 trees, only 6 of them nonleaf. The resulting **773 nonleaf alternatives not containing that old packet** are a comparison with those literal masks, not a canonical registry increment or an exclusion newly independent of every historical method.
 
-For root F2, **47,054 labelled primal trees do not contain this packet** and are not covered by this new theorem over B. They are unresolved alternatives of this certificate, not physical survivors. Other root choices are not covered by it. At theta0 their full U1 feasibility is already excluded by the parent's independent cover. fileciteturn12file0L49-L61
+For root F2, **47,054 labelled primal trees do not contain this packet** and are not covered by this new theorem over B. They are unresolved alternatives of this certificate, not physical survivors. Other root choices are not covered by it. At theta0 their full U1 feasibility is already excluded by the parent's independent cover.
 
 Reflection `(x,r,p,q,lambda)->(r,x,q,p,lambda)`, with `0<->5,1<->4,2<->3,8<->9`, transports the entire result to root F7 and path `3->9->4->5`. It gives a reflected domain, not automatic extra coverage on B.
 
@@ -401,7 +401,7 @@ Write `beta=f^TMf`. Since `q.f=q.c=1` and `Mf=beta*q`,
 \end{aligned}
 \]
 
-Here `beta=alpha+sum_j(w_j.f)^2>=alpha`. This uses the exact hull decomposition, not an assumption that its summands share one physical inverse. fileciteturn6file1L48-L59
+Here `beta=alpha+sum_j(w_j.f)^2>=alpha`. This uses the exact hull decomposition, not an assumption that its summands share one physical inverse.
 
 Consequently, fix a closed arrow packet and a normalized metric domain `tr M=1, M>=epsilon*I`, `epsilon>0`. If no metric in that domain satisfies the packet with its actual foot in F, the feasible packet metrics form a compact set whose foot-image has positive distance d from F, unless that set is already empty. Any finite subdivision of F into cells of diameter `<d*sqrt(epsilon)` has **no root-hull/packet intersection in any cell**. Otherwise the displayed inequality, with `c in K subset F`, contradicts d.
 
@@ -844,4 +844,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Convenience copies: [complete sources and reports](sandbox:/mnt/data/willow4/willow_disjunction_handoff.zip), [exact verifier](sandbox:/mnt/data/willow4/willow_root_disjunction.py), [exact report](sandbox:/mnt/data/willow4/willow_root_disjunction_report.json), and [discovery replay](sandbox:/mnt/data/willow4/willow_disjunction_locator.py). The complete inline source is sufficient without these files.
+Convenience copies: complete sources and reports (`willow_disjunction_handoff.zip`), exact verifier (`willow_root_disjunction.py`), exact report (`willow_root_disjunction_report.json`), and discovery replay (`willow_disjunction_locator.py`). The complete inline source is sufficient without these files.

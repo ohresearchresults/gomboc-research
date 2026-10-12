@@ -12,7 +12,7 @@ No strict own110/additional-weak000 body was found. I did obtain a durable exact
 
 **`BR76_DUAL5_A100_HG3`** is `V114/E171/F59/C342`, strict `(S,U,H)=(1,2,1)`, weak000, primitivezero000, with **`Qbars=[]` exactly**. Its sole remaining obstruction is one physical P bar. Thus this is a substantive own121 nonwinner, not a new accepted record.
 
-The literal authoritative parent is `BR76_ENRICH2_DESCENT_G4` from `figure-0452`: V59/E171/F114/C342, strict211/weak000/zero000, S facets1,8, U0, H25-40. :contentReference[oaicite:0]{index=0} Its sole Q bar had the literal 31-vertex component/31-edge cut. :contentReference[oaicite:1]{index=1}
+The literal authoritative parent is `BR76_ENRICH2_DESCENT_G4` from `figure-0452`: V59/E171/F114/C342, strict211/weak000/zero000, S facets1,8, U0, H25-40. Its sole Q bar had the literal 31-vertex component/31-edge cut.
 
 ## Finite mechanism
 
@@ -24,7 +24,7 @@ and freezes the resulting normalized physical H rows ties-to-even on grid `10^3`
 
 Taking the new body's **exact own-centred polar** and independently freezing that polar point cloud on grid `10^3` yields a complementary exact C342 body, `BR76_HG3_OWNPOLAR_G3`, with strict211. Therefore this construction moves the complete equilibrium packet from the stable/polar side to the unstable/physical side and back; it does not yet annihilate it.
 
-The move genuinely crosses the parent's certified neighbourhood. The parent proves `eta>21/125`, so every own-centred body with `d_H<=21/125` has at least two strict stable facets. :contentReference[oaicite:2]{index=2} A has S1/weakS0, hence `d_H(parent,A)>21/125` by contrapositive. Since rotation and positive scaling preserve S1, no rotated/rescaled copy of A can lie inside that parent ball either.
+The move genuinely crosses the parent's certified neighbourhood. The parent proves `eta>21/125`, so every own-centred body with `d_H<=21/125` has at least two strict stable facets. A has S1/weakS0, hence `d_H(parent,A)>21/125` by contrapositive. Since rotation and positive scaling preserve S1, no rotated/rescaled copy of A can lie inside that parent ball either.
 
 ## Exact descendant A — stable basin canceled
 

@@ -402,7 +402,7 @@ C30_REFINEMENT_COUNTER_AND_C32_BOUNDARY_CHECKS_PASS
 C30_VERTEX_ONLY_B3_UNIVERSALITY_NOT_DECIDED
 ```
 
-Convenience copies, not required by the inline recovery: [complete decoded source](sandbox:/mnt/data/c30_centroid_boundary.py) and [complete exact report](sandbox:/mnt/data/c30_centroid_boundary.json).
+Convenience copies, not required by the inline recovery: complete decoded source (`c30_centroid_boundary.py`) and complete exact report (`c30_centroid_boundary.json`).
 
 ## 8. Parent authority, limitations, and continuation
 

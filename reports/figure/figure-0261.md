@@ -10,11 +10,11 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 **NO WINNER AND NO NEW EXACT ENDPOINT PROMOTED.**
 
-I did not obtain the required finite homogeneous convex polyhedral Gömböc, nor did I complete an exact, independently replayable two-boundary drainage successor beyond the immutable twelve-support parent. The required object remains a uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`; auxiliary-centre mechanics, transfer-wall states, numerical near-solutions, and unexpanded constructions do not qualify. :contentReference[oaicite:0]{index=0}
+I did not obtain the required finite homogeneous convex polyhedral Gömböc, nor did I complete an exact, independently replayable two-boundary drainage successor beyond the immutable twelve-support parent. The required object remains a uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`; auxiliary-centre mechanics, transfer-wall states, numerical near-solutions, and unexpanded constructions do not qualify.
 
-The strongest exact object in this direction therefore remains parent result `figure-0255`, SHA-256 `a1bfb5efa0d7b7fe843cfe6a190c1e42756319d0fae85dd68a0fdce05c458ebe`. Its actual hull is `(V,E,F)=(69,187,120)`, strict own-centred `(2,1,1)`, with extra stable face `[258,259,6301]`, saddle `(248,6310)`, protected stable 17-gon `[0..16]`, and protected unstable vertex `8`. It already contains an exact internally linked positive-volume regular 3-ball and an exact no-birth U–H cancellation, but the final S–H pair survives. :contentReference[oaicite:1]{index=1}
+The strongest exact object in this direction therefore remains parent result `figure-0255`, SHA-256 `a1bfb5efa0d7b7fe843cfe6a190c1e42756319d0fae85dd68a0fdce05c458ebe`. Its actual hull is `(V,E,F)=(69,187,120)`, strict own-centred `(2,1,1)`, with extra stable face `[258,259,6301]`, saddle `(248,6310)`, protected stable 17-gon `[0..16]`, and protected unstable vertex `8`. It already contains an exact internally linked positive-volume regular 3-ball and an exact no-birth U–H cancellation, but the final S–H pair survives.
 
-[Immutable exact parent archive](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_tri_prism_exact_complete.zip) — SHA-256 `95d0e03d0d6ee45f5750be64847aee113c40a34f4af4a97b02582a5dd1ec3ef7`.
+Immutable exact parent archive (`M42_slot1_Clear_Willow_25_tri_prism_exact_complete.zip`) — SHA-256 `95d0e03d0d6ee45f5750be64847aee113c40a34f4af4a97b02582a5dd1ec3ef7`.
 
 No conflict was found between the literal immutable parent payload and the journal summary.
 
@@ -74,10 +74,10 @@ while adjacent edge `(1026,6310)` is nonsaddle only by about `-0.0046134124`. Th
 
 Reconstruction scripts and diagnostics:
 
-- [parent analyser](sandbox:/mnt/data/run11_analyze_parent.py)
-- [parent analysis transcript](sandbox:/mnt/data/run11_analyze_parent.log)
-- [dual-route analyser](sandbox:/mnt/data/run11_dual_paths.py)
-- [dual-route transcript](sandbox:/mnt/data/run11_dual_paths.log)
+- parent analyser (`run11_analyze_parent.py`)
+- parent analysis transcript (`run11_analyze_parent.log`)
+- dual-route analyser (`run11_dual_paths.py`)
+- dual-route transcript (`run11_dual_paths.log`)
 
 ### 2. A shorter drainage route into the protected-base basin was found
 
@@ -101,12 +101,12 @@ The discovery also changes the minimum necessary topology. The left operation ca
 
 I solved the affine visibility inequalities for prospective connector points against the complete parent face set. The certificates and reconstruction code are:
 
-- [exact visibility builder](sandbox:/mnt/data/run11_visibility_exact.py)
-- [exact visibility certificate](sandbox:/mnt/data/run11_visibility_exact.json)
-- [exact visibility transcript](sandbox:/mnt/data/run11_visibility_exact.log)
-- [quadratic projection builder](sandbox:/mnt/data/run12_qp_visibility.py)
-- [quadratic projection data](sandbox:/mnt/data/run12_qp_visibility.json)
-- [quadratic projection transcript](sandbox:/mnt/data/run12_qp_visibility.log)
+- exact visibility builder (`run11_visibility_exact.py`)
+- exact visibility certificate (`run11_visibility_exact.json`)
+- exact visibility transcript (`run11_visibility_exact.log`)
+- quadratic projection builder (`run12_qp_visibility.py`)
+- quadratic projection data (`run12_qp_visibility.json`)
+- quadratic projection transcript (`run12_qp_visibility.log`)
 
 Representative feasible connector locations are
 
@@ -139,10 +139,10 @@ Fixed-face finite-difference continuation reduced the components of `(248,6310)`
 
 Artifacts:
 
-- [first fixed-cell continuation](sandbox:/mnt/data/run13_scp_fd_parent.json)
-- [first continuation transcript](sandbox:/mnt/data/run13_scp_fd_parent.log)
-- [post-transfer continuation](sandbox:/mnt/data/run13_scp_fd_stage2.json)
-- [post-transfer transcript](sandbox:/mnt/data/run13_scp_fd_stage2.log)
+- first fixed-cell continuation (`run13_scp_fd_parent.json`)
+- first continuation transcript (`run13_scp_fd_parent.log`)
+- post-transfer continuation (`run13_scp_fd_stage2.json`)
+- post-transfer transcript (`run13_scp_fd_stage2.log`)
 
 Large deletion screens gave the same structural outcome. Removing `6310` alone transfers the saddle through the `1026/6008` return channel; removing `6301` alone transfers the stable feature to a neighbouring inserted row, commonly `6302`. Thus the right operation must replace both faces
 
@@ -186,9 +186,9 @@ protected U8 margin     0.17135.
 
 Files:
 
-- [multi-cut search](sandbox:/mnt/data/run11_multicut_local.py)
-- [best multi-cut snapshot](sandbox:/mnt/data/run11_multicut_local_HS_204.json)
-- [multi-cut transcript](sandbox:/mnt/data/run11_multicut_local_HS_204.log)
+- multi-cut search (`run11_multicut_local.py`)
+- best multi-cut snapshot (`run11_multicut_local_HS_204.json`)
+- multi-cut transcript (`run11_multicut_local_HS_204.log`)
 
 Although it substantially compresses the two residual margins, its topology and equilibrium gaps are too small for promotion. It is another real transfer wall, not an open Gömböc chamber or a suitable exact fallback.
 
@@ -204,11 +204,11 @@ where `X_i` are parent own-centred coordinates, `b` supplies three projective de
 
 Search and current finite records:
 
-- [projective search driver](sandbox:/mnt/data/run14_projective_search.py)
-- [three-parameter projective state](sandbox:/mnt/data/run14_proj_b_1401.json)
-- [three-parameter transcript](sandbox:/mnt/data/run14_proj_b_1401.log)
-- [projective-plus-metric state](sandbox:/mnt/data/run14_proj_metric_1402.json)
-- [projective-plus-metric transcript](sandbox:/mnt/data/run14_proj_metric_1402.log)
+- projective search driver (`run14_projective_search.py`)
+- three-parameter projective state (`run14_proj_b_1401.json`)
+- three-parameter transcript (`run14_proj_b_1401.log`)
+- projective-plus-metric state (`run14_proj_metric_1402.json`)
+- projective-plus-metric transcript (`run14_proj_metric_1402.log`)
 
 The best completed three-parameter samples remained `(2,1,1)`. The saddle margin was reduced from the parent value `0.019204...` to roughly `0.0134`, while the stable carrier moved among `[260,261,6301]` and `[261,262,6301]`. The combined projective/metric samples generally opened additional remote U/H features and did not improve on this.
 
@@ -302,7 +302,7 @@ Because no new exact endpoint was completed, this continuation does **not** supp
 - an exact death-before-birth chronology for the desired S–H cancellation;
 - an independent verifier or watertight OBJ/STL for a new body.
 
-The numerical nearstates must not be promoted. The parent archive remains the last independently verified exact object and retains strict `(2,1,1)`. Its final conclusion—that `6301` remains a closed radial minimum and `(248,6310)` remains an independent saddle—is still valid. :contentReference[oaicite:2]{index=2}
+The numerical nearstates must not be promoted. The parent archive remains the last independently verified exact object and retains strict `(2,1,1)`. Its final conclusion—that `6301` remains a closed radial minimum and `(248,6310)` remains an independent saddle—is still valid.
 
 ## Reusable continuation boundary
 

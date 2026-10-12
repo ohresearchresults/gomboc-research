@@ -22,7 +22,7 @@ I read the entire supplied 1146-line journal, including shared memory, branch me
 
 Required immutable parent: `figure-0448`, runtime-declared SHA-256 `09fef117a07ec2d50084a6f580fff03a7aa84487df0cbe4df116534f4d44742a`. Its decoded eight-unit dictionary is22637 bytes, SHA-256 `f0966965b87ed13665ffa3274ba81aa7d6bb27f6e51e7c704975e65299f487b1`; these source bytes authenticate independently. Hashing the literal Markdown tail yields a different enclosing serialization, so I do not claim that operation verifies the runtime's enclosing-result hash. No conflicting coordinates or classes were found.
 
-The actual geometric entrance was exact **CF82_RESERVE42_G5**,932 bytes, SHA-256 `b3cb940d430aa31dae1444de1ec07fa72a6092d2b9326cb5bfc99b61f7a395e6`. Its42 vertices/120 edges/80 facets, own211, U0 and whole27/27 polar basin are the parent calibration, not a new finding. MAIN83_G7 and RESERVE83_G6 remain distinct unchanged alternatives. The old39 numerical producer units and exact COHERENT_C474_G7 source were not supplied and were not used; all consequential new producers were written here from the supplied exact input. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The actual geometric entrance was exact **CF82_RESERVE42_G5**,932 bytes, SHA-256 `b3cb940d430aa31dae1444de1ec07fa72a6092d2b9326cb5bfc99b61f7a395e6`. Its42 vertices/120 edges/80 facets, own211, U0 and whole27/27 polar basin are the parent calibration, not a new finding. MAIN83_G7 and RESERVE83_G6 remain distinct unchanged alternatives. The old39 numerical producer units and exact COHERENT_C474_G7 source were not supplied and were not used; all consequential new producers were written here from the supplied exact input.
 
 ## 1. Exact finite constructions
 
@@ -147,7 +147,7 @@ The successful nonwinner mechanism was **release the entire80-support H-descript
 
 Pure numerical support deletion evaluated1529 one-row deletions over22 levels, accepted21, and stopped with59 rows. It preserved numerical S2/U1 under its filter, not a proved continuous class or deletion-family exclusion. Subsequent nonlinear stages made147 attempted repaired deletions:144 terminal numerical records and3 geometry exceptions. They accepted1+20+18+6+1 deletions; a separately polished13-support intermediate bridged14→13. The route was80→59→58→38→20→14→13→12.
 
-Repairs explicitly targeted **P1/Q2**, not110. Each evaluation reconstructed the physical H hull, integrated its uniform volume and first moment, formed P-c and the same-centre polar, and selected escapes among larger-radius points. This discards no genuinely positive escape. All-pair witnesses already existed in the branch; this is not an alleged missing all-pairs fix. :contentReference[oaicite:2]{index=2}
+Repairs explicitly targeted **P1/Q2**, not110. Each evaluation reconstructed the physical H hull, integrated its uniform volume and first moment, formed P-c and the same-centre polar, and selected escapes among larger-radius points. This discards no genuinely positive escape. All-pair witnesses already existed in the branch; this is not an alleged missing all-pairs fix.
 
 The13-support polish executed105 iterations/159 objective-gradient evaluations, not its requested1200. The selected12-support deletion repair executed761/862. ROBUST12 reserve repair executed397/517, not1500, with all-pair physical floor.003 and polar quota floor.0003. The independently frozen exact G4 body, not the solver stopping flag, is the primary endpoint. An11-support polish executed1600/1762 and ended numerical S2/U15 with poor conditioning; it supplied no adopted exact endpoint or11-support impossibility theorem.
 
@@ -194,7 +194,7 @@ For each elder cut, every complete cross-cut chord must likewise have weight<=th
 
 `clique_certificate.py` independently computes Gram-determinant chord minima and a Kruskal barcode, then compares with the inherited exact true-edge landscape. It was executed on ROB12_G4, H12_G6, H13_G5 and H14_G5, on both P and Q: eight point clouds,1188 original unordered chords and2315 checks after adding explicit redundant points. Tests add the origin, vertex mean and selected edge midpoints. Every full cut is checked against every crossing chord. Uniform10^-9 scaling retains all positive bars at10^-18 of their original squared sizes; no zero floor is used.
 
-This does **not** equate negative all-pair cosine bottlenecks with true-edge cosine bottlenecks. The source's exact cosine-surrogate countercontrol remains valid. :contentReference[oaicite:3]{index=3} No higher-homology equivalence, optimizer speedup or global geometry exclusion is claimed.
+This does **not** equate negative all-pair cosine bottlenecks with true-edge cosine bottlenecks. The source's exact cosine-surrogate countercontrol remains valid. No higher-homology equivalence, optimizer speedup or global geometry exclusion is claimed.
 
 For future H work, all supplied polar normals—including inactive rows—can be included after actual-centroid rescaling. Redundancy adds no positive radial bars. Actual physical hull, mass, maximal faces and E still require reconstruction. This is useful contact-tolerant basin accounting, not a cancellation certificate.
 
@@ -755,4 +755,4 @@ for name,receipt in json.loads(d['MANIFEST.json']).items():
 print('NW00_COMPLETE_COMPACT_SOURCE_RECOVERY_PASS',len(d))
 ```
 
-Supplementary convenience copies: [standalone recovery source](sandbox:/mnt/data/RECOVER_NW00_COMPACT.py), [complete Markdown handoff](sandbox:/mnt/data/NW00_HANDOFF.md), [complete JSON handoff](sandbox:/mnt/data/NW00_HANDOFF.json), and [source/output evidence archive](sandbox:/mnt/data/NW00_EVIDENCE.zip). The inline capsule, not these links, supplies the durable reconstruction.
+Supplementary convenience copies: standalone recovery source (`RECOVER_NW00_COMPACT.py`), complete Markdown handoff (`NW00_HANDOFF.md`), complete JSON handoff (`NW00_HANDOFF.json`), and source/output evidence archive (`NW00_EVIDENCE.zip`). The inline capsule, not these links, supplies the durable reconstruction.

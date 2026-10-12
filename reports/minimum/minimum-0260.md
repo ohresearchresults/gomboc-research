@@ -14,7 +14,7 @@ There is also a completely specified actual-centroid control. At the supplied or
 
 **No new whole-region joint exclusion is promoted in this handoff.** I implemented searches over the full Gamma-blind box, but an inspected, completed exact replay establishing both the regional orthogonal bound and coverage of all 48,790 rooted alternatives was not available for the final handoff. The computational snapshot is therefore unpromoted work, not a durable successor to the accepted all-root atlas. No matrix is claimed to be a joint110 or proper110 construction.
 
-The minimum bracket remains **34≤C_min≤622**. The accepted central-cube exclusion, the earlier positive reference box, and the precise Gamma-template limitation remain unchanged. fileciteturn12file0L11-L21
+The minimum bracket remains **34≤C_min≤622**. The accepted central-cube exclusion, the earlier positive reference box, and the precise Gamma-template limitation remain unchanged.
 
 ### Input authority
 
@@ -44,7 +44,7 @@ where p,q≥1. Define
     Z = pq+q+1,
     r1 = pq/Z,       r2 = q/Z,       r3 = 1/Z.
 
-The orthogonal-shell theorem supplies such p and q for the **same** H, using the self-polar factor and the primal and polar escape-height bounds. It does not introduce an independently chosen polar metric. fileciteturn12file0L24-L33
+The orthogonal-shell theorem supplies such p and q for the **same** H, using the self-polar factor and the primal and polar escape-height bounds. It does not introduce an independently chosen polar metric.
 
 ### Theorem 1 — exact two-sided spectral hull
 
@@ -339,7 +339,7 @@ Promotion requires an inspected successful chain with the same C and parameter b
 
 The last command is meaningful only if its complete atlas exists. The alternative one-sided replay is `ortho_region_verify.py`. The geometry stage must establish the full actual-centered sandwich and true incidence; the root stage must establish the complete dyadic partition and all 48,790 alternatives in every cell.
 
-Convenience copies of this **unpromoted** work are [the snapshot](sandbox:/mnt/data/h5_orthogonal_work_snapshot.zip) and [its recovery script](sandbox:/mnt/data/recover_h5_orthogonal_work_snapshot.py). They are not the sole recovery data for any newly asserted regional exclusion, because no such exclusion is asserted here. The accepted prior reconstruction checkpoints remain unchanged.
+Convenience copies of this **unpromoted** work are the snapshot (`h5_orthogonal_work_snapshot.zip`) and its recovery script (`recover_h5_orthogonal_work_snapshot.py`). They are not the sole recovery data for any newly asserted regional exclusion, because no such exclusion is asserted here. The accepted prior reconstruction checkpoints remain unchanged.
 
 ## 8. Complete recovery unit for the promoted method and physical control
 

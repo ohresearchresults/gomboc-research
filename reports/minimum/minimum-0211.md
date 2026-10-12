@@ -18,9 +18,9 @@ For the entire new actual shape interval
 
 all fourteen forward-routing cases are excluded for EVERY SPD metric. The certificate contains **27 distinct integer stresses, 104 nonzero weight terms, 34 closed interval applications, 511 positive-definite Bernstein matrices and 1,533 positive leading minors**. Consequently **every member has a nonapical strict U for every SPD**, including finite weak-arrow walls and radius ties. This excludes U1 with the degree-seven apex as root; it is not an all-root exclusion.
 
-Thus the same genuine family simultaneously provides an open-feasibility countercontrol to the old fourteen-cone strategy and a complete apical-only all-metric exclusion by the new compulsory continuation. The feasible old case does not contradict its supplied necessity theorem. It disproves the stronger prospective assertion that those necessary cones are empty on every actual shape. The distinction is essential. :contentReference[oaicite:0]{index=0}
+Thus the same genuine family simultaneously provides an open-feasibility countercontrol to the old fourteen-cone strategy and a complete apical-only all-metric exclusion by the new compulsory continuation. The feasible old case does not contradict its supplied necessity theorem. It disproves the stronger prospective assertion that those necessary cones are empty on every actual shape. The distinction is essential.
 
-**No U1 or110 body, whole canonical type exclusion, registry subtraction or bound improvement is claimed.** The accepted interval remains34<=C_min<=622. Other possible unstable roots remain explicitly undecided for the full metric cones of this shape family. :contentReference[oaicite:1]{index=1}
+**No U1 or110 body, whole canonical type exclusion, registry subtraction or bound improvement is claimed.** The accepted interval remains34<=C_min<=622. Other possible unstable roots remain explicitly undecided for the full metric cones of this shape family.
 
 ## 2. Source authority and evidence
 
@@ -42,7 +42,7 @@ Let c0,c1 be the FULL cap area centroids at this same origin and lambda0,lambda1
 
 `A+3(lambda0*c0+lambda1*c1)=0`, `lambda0+lambda1=1`.
 
-Set `B_i=n(A)+3 A^T M c_i`. Suppose A is the sole strict U, allowing other physical weak contacts. The supplied seam theorem gives a negative-balance cap F_N, a maximal-radius seam endpoint w of F_N, and a true weak escape from w into the other cap F_P. The opposite seam endpoint is z. These statements use the actual cap means and actual volume fractions, not free weights. :contentReference[oaicite:2]{index=2}
+Set `B_i=n(A)+3 A^T M c_i`. Suppose A is the sole strict U, allowing other physical weak contacts. The supplied seam theorem gives a negative-balance cap F_N, a maximal-radius seam endpoint w of F_N, and a true weak escape from w into the other cap F_P. The opposite seam endpoint is z. These statements use the actual cap means and actual volume fractions, not free weights.
 
 List the boundary of F_P, starting at w away from the seam, as
 
@@ -349,13 +349,13 @@ The latter has raw volume36770609959349/18975731989500 and actual
 
 whereas gx>0 at epsilon=1/10. The full certified shape family therefore crosses the plane of the true triangular interface in its actual centroid position. It is not restricted to one small centroid-offset neighborhood. No weak-free homotopy through the larger epsilon interval is asserted.
 
-The supplied rank-two theorem predicts S>=2 sufficiently near a successful singular U1 lift. Here the old-case cone is feasible but there is no complete U1 lift: the actual routing obstruction intervenes. The full positive normal-pencil census also controls finite distances on this one body. Neither statement is a global degree-seven110 exclusion. :contentReference[oaicite:3]{index=3}
+The supplied rank-two theorem predicts S>=2 sufficiently near a successful singular U1 lift. Here the old-case cone is feasible but there is no complete U1 lift: the actual routing obstruction intervenes. The full positive normal-pencil census also controls finite distances on this one body. Neither statement is a global degree-seven110 exclusion.
 
 ## 9. Scientific disposition
 
 The overly strong max-only exclusion strategy is now ruled out by actual geometry. The new forward-route condition is mandatory rather than an arbitrary optional tree, and its all-SPD exclusion covers one complete nonconic shape family, including every stated parameter boundary and every finite metric weak-arrow wall.
 
-The arbitrary three-dimensional cap-difference chambers of a fixed cone are NOT closed here. Nor are other unstable roots of the new family's unrestricted metric cones, or the entire(3,8)/(4,7)/(5,6) shape classes. The global fixed-cone completion theorem remains an available parametrization, not a mechanical feasibility result. :contentReference[oaicite:4]{index=4}
+The arbitrary three-dimensional cap-difference chambers of a fixed cone are NOT closed here. Nor are other unstable roots of the new family's unrestricted metric cones, or the entire(3,8)/(4,7)/(5,6) shape classes. The global fixed-cone completion theorem remains an available parametrization, not a mechanical feasibility result.
 
 A useful next target is the actual forward-route cones over that global completion chart, with possible positive-cap maximum constraints added only when their vertex is explicitly identified. The present witness shows why identifying the first spoke exit with the old maximum v is unjustified. It also shows why a feasible old fourteen-case cone must not be reported as a complete U1 witness.
 
@@ -516,4 +516,4 @@ out.write_bytes(src)
 print('TWOCAP_ROUTING_SOURCE_RECOVERED',len(src),hashlib.sha256(src).hexdigest())
 ```
 
-Optional convenience copies: [decoded source](sandbox:/mnt/data/twocap_routing.py), [complete exact report](sandbox:/mnt/data/twocap_routing.json), [recovery capsule](sandbox:/mnt/data/recover_twocap_routing.py). The embedded capsule is sufficient without these links.
+Optional convenience copies: decoded source (`twocap_routing.py`), complete exact report (`twocap_routing.json`), recovery capsule (`recover_twocap_routing.py`). The embedded capsule is sufficient without these links.

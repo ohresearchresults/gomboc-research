@@ -16,7 +16,7 @@ All 137 input supports are active. The sole stable maximal facet is input **3**,
 
 Both independently implemented exhaustive exact audits completed, their complete records agree byte-for-byte, and a fresh source-only replay decoded from the capsule below completed both audits, the exact parent comparison, direct centred integer integration and nonvacuous weak-equilibrium fixtures. The successful numerical proposal was also rerun in a fresh directory and reproduced the entire final rational generator byte-for-byte.
 
-The literal parent is `figure-0356`, journal-recorded SHA-256 `a2aa80298e825e32c7069cda22c4274b00a09dacd68c824444e5cc5de4320f7d`, defining `BQ13_C632_THREE_LINK_OWN110`, V180/E316/F138. I decoded its complete 37-file capsule and compared all decoded file bytes with the supplied source archive. No defining-data or incidence conflict was found. The new body is **not** the older `C630_COORD_NONWINNER_OWN121`, even though their f-vectors coincide; that older body remains a distinct strict121 nonwinner. The current journal explicitly distinguishes the actual Bright parent from the coordinator's earlier nonwinners. :contentReference[oaicite:0]{index=0}
+The literal parent is `figure-0356`, journal-recorded SHA-256 `a2aa80298e825e32c7069cda22c4274b00a09dacd68c824444e5cc5de4320f7d`, defining `BQ13_C632_THREE_LINK_OWN110`, V180/E316/F138. I decoded its complete 37-file capsule and compared all decoded file bytes with the supplied source archive. No defining-data or incidence conflict was found. The new body is **not** the older `C630_COORD_NONWINNER_OWN121`, even though their f-vectors coincide; that older body remains a distinct strict121 nonwinner. The current journal explicitly distinguishes the actual Bright parent from the coordinator's earlier nonwinners.
 
 This is a further reduction within this supplied research lineage, not a claim of a global minimum or an independently surveyed world record.
 
@@ -46,7 +46,7 @@ delta(V,E,F):       (0,-1,-1).
 
 The two endpoints remain distinct; the segment 69–110 becomes an interior diagonal of the new quadrilateral, not a zero-length edge. Vertex 69's degree changes **7→6**, and vertex 110's degree **4→3**. No vertex is lost.
 
-Crucially, the saved edge is **transverse to** the three-link escape route. The route **103→107→110→114** remains on the true boundary. Thus this construction does not shorten that chain to two links or purport to defeat the journal's frozen-centre minimum-link criterion. It removes an unnecessary lateral subdivision while retaining the escape mechanism. The journal had identified the 69–110 merger as unexecuted, not as an already certified consequence of its chain theorem. :contentReference[oaicite:1]{index=1}
+Crucially, the saved edge is **transverse to** the three-link escape route. The route **103→107→110→114** remains on the true boundary. Thus this construction does not shorten that chain to two links or purport to defeat the journal's frozen-centre minimum-link criterion. It removes an unnecessary lateral subdivision while retaining the escape mechanism. The journal had identified the 69–110 merger as unexecuted, not as an already certified consequence of its chain theorem.
 
 This is a genuinely distributed physical redesign: exact comparison shows that **all 137 retained normalized support vectors changed**. The only unchanged raw vertex is apex 98. The ordinary volume decreases by approximately **4.340875145898467e-5**. It is not an affine image, a change of reference centre alone, or a changed drawing triangulation.
 
@@ -247,11 +247,11 @@ The useful next baseline remains the **C630 winner**. Further reduction should p
 
 ## 8. Complete source recovery and supplemental artifacts
 
-[Verified full bundle: exact H/V data, centred integer coordinates, maximal faces, true edges, both audits and actual receipts](sandbox:/mnt/data/BQ13_C630_CAP_MERGER_VERIFIED_FULL.zip) — **7,311,732 bytes**, SHA-256 `9c6b728a204dfaf99eb78d391cb6cefd5a6bd008037f718e0b06334041f35ad3`.
+Verified full bundle: exact H/V data, centred integer coordinates, maximal faces, true edges, both audits and actual receipts (`BQ13_C630_CAP_MERGER_VERIFIED_FULL.zip`) — **7,311,732 bytes**, SHA-256 `9c6b728a204dfaf99eb78d391cb6cefd5a6bd008037f718e0b06334041f35ad3`.
 
-[Source-only archive](sandbox:/mnt/data/BQ13_C630_CAP_MERGER_SOURCE_ONLY.zip) — **46,861 bytes**, SHA-256 `3c5ec7c666d33bb607a166067a2fbb5f4366f26618edef53c726e07ee3543b25`.
+Source-only archive (`BQ13_C630_CAP_MERGER_SOURCE_ONLY.zip`) — **46,861 bytes**, SHA-256 `3c5ec7c666d33bb607a166067a2fbb5f4366f26618edef53c726e07ee3543b25`.
 
-[Markdown handoff](sandbox:/mnt/data/BQ13_C630_RESULT.md) and [v2 JSON handoff](sandbox:/mnt/data/BQ13_C630_RESULT_v2.json) are supplemental copies. The full archive's exact coordinate table was read back and checked with integer identities. Its OBJ is explicitly display-only. Both ZIP manifests were actually read back and verified.
+Markdown handoff (`BQ13_C630_RESULT.md`) and v2 JSON handoff (`BQ13_C630_RESULT_v2.json`) are supplemental copies. The full archive's exact coordinate table was read back and checked with integer identities. Its OBJ is explicitly display-only. Both ZIP manifests were actually read back and verified.
 
 The capsule is the complete source authority for this continuation: **21 UTF-8 text files**, comprising 20 manifest-bound payload files and the manifest itself. It includes the literal parent generator, both new complete generators, exact reconstruction, both independent verifiers, centred-mass and forest/complex checks, the successful numerical source and all required helpers, the explicit deletion/reindexing, the additional attempted continuation code and its saved trace. No unseen library attachment or optimizer state is required.
 

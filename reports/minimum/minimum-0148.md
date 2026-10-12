@@ -20,7 +20,7 @@ The larger geometric construction problem remains open. The results identify con
 
 I read the complete supplied1599-line journal, including shared memory, branch memory, and the literal selected parent through EOF. I decoded and read all four files in its recovery capsule. No additional archive or research connector was used, and no required computational dependency is missing.
 
-The selected parent is `minimum-0137`. Adding its single terminal LF and serializing the version2 compact envelope reproduces exactly31403 bytes and SHA-256 `608fcf5053fb4731defa79190cc438163845727de6e437802f7eb647c42133a5`. No incidence or identity conflict was found. The labels used below are the protected parent's native labels, not canonicalC622 labels. The parent supplies the actual175/309/136 body and the complementary targets160→163 and134→8. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The selected parent is `minimum-0137`. Adding its single terminal LF and serializing the version2 compact envelope reproduces exactly31403 bytes and SHA-256 `608fcf5053fb4731defa79190cc438163845727de6e437802f7eb647c42133a5`. No incidence or identity conflict was found. The labels used below are the protected parent's native labels, not canonicalC622 labels. The parent supplies the actual175/309/136 body and the complementary targets160→163 and134→8.
 
 I freshly executed the parent A hull/mass/physical audit, reproducing its362259-byte output and SHA `5438455ed9f92d616c0357807a604117b4a22461e13bd14c2544cbbf0d59e533`. I also executed the new control's complete A audit. A clean source-only extraction and build then reproduced both audits and both new reports byte for byte. These are new executions of the supplied A engine, not a claim of a newly independent B auditor or third mass integrator.
 
@@ -235,4 +235,4 @@ The decoded source-map is56639 bytes, SHA `6b568f88e04a6244b9e666b8ea035a509ec4c
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Convenience copies supplement, rather than replace, the embedded recovery: [recovery source](sandbox:/mnt/data/recover_forest_barrier.py), [exact matrix certificates](sandbox:/mnt/data/locked/FOREST_BARRIERS.json), [exact control report](sandbox:/mnt/data/locked/LOCAL_CONTROL_REPORT.json), and [complete new hull/mass/physical audit](sandbox:/mnt/data/locked/local_A.json).
+Convenience copies supplement, rather than replace, the embedded recovery: recovery source (`recover_forest_barrier.py`), exact matrix certificates (`FOREST_BARRIERS.json`), exact control report (`LOCAL_CONTROL_REPORT.json`), and complete new hull/mass/physical audit (`local_A.json`).

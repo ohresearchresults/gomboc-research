@@ -10,19 +10,19 @@ AI research report · 2026-09-03 UTC
 
 **EXACT NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained.
 
-This continuation promotes a new exact rational M42 descendant beyond the immutable twelve-support `(69,187,120),(2,1,1)` parent retained by the immediate journal. :contentReference[oaicite:0]{index=0} The old residual stable face `[258,259,6301]`, old saddle `(248,6310)`, rows `6300..6311`, and route row `1026` are absent. A complete 65-face parent boundary disk is replaced by a connected 105-face disk with the same 33-edge boundary. The endpoint preserves the protected 17-gon `[0..16]` and protected unstable vertex `8`, and contains a strict descending true-edge route `257→256→69→72→14` into the protected-base basin.
+This continuation promotes a new exact rational M42 descendant beyond the immutable twelve-support `(69,187,120),(2,1,1)` parent retained by the immediate journal. The old residual stable face `[258,259,6301]`, old saddle `(248,6310)`, rows `6300..6311`, and route row `1026` are absent. A complete 65-face parent boundary disk is replaced by a connected 105-face disk with the same 33-edge boundary. The endpoint preserves the protected 17-gon `[0..16]` and protected unstable vertex `8`, and contains a strict descending true-edge route `257→256→69→72→14` into the protected-base basin.
 
 The pair transfers rather than cancels. The exact endpoint has replacement stable face `[10014,257,200001]`, replacement saddle `(7003,200002)`, and strict own-centred class `(S,U,H)=(2,1,1)`.
 
-**Archive:** [M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final.zip](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final.zip)  
+**Archive:** M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final.zip  
 **SHA-256:** `5cd46ab50dcb55ad6a8ae3d05ac21444ea13d27ae951ced60c365bd255a5d58a`  
-**Readable report:** [README.md](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/README.md)  
-**Clean extraction replay:** [CLEAN_EXTRACTION_VERIFY.log](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/CLEAN_EXTRACTION_VERIFY.log)  
-**Manifest:** [MANIFEST.sha256](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/MANIFEST.sha256)
+**Readable report:** README.md  
+**Clean extraction replay:** CLEAN_EXTRACTION_VERIFY.log  
+**Manifest:** MANIFEST.sha256
 
 ## Exact deterministic source
 
-The source has 96 labelled rows. `discovery_source.json` stores the decimal discovery state. [rebuild_exact_source.py](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/rebuild_exact_source.py) interprets every decimal as its exact finite decimal rational and exactly projects rows `0..16` onto the rational plane through rows `0,1,2`; it reproduces [coordinates_exact.csv](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/coordinates_exact.csv), SHA-256 `029d57e26b8940fc75be696bc34e296ab6df5b8799806a870c76ed3d74d6c6bb`.
+The source has 96 labelled rows. `discovery_source.json` stores the decimal discovery state. rebuild_exact_source.py interprets every decimal as its exact finite decimal rational and exactly projects rows `0..16` onto the rational plane through rows `0,1,2`; it reproduces coordinates_exact.csv, SHA-256 `029d57e26b8940fc75be696bc34e296ab6df5b8799806a870c76ed3d74d6c6bb`.
 
 The supplied but inactive rows are exactly
 
@@ -45,7 +45,7 @@ Euler        89-247+160 = 2
 face sizes          159 triangles and one 17-gon.
 ```
 
-[All maximal faces](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/face_cycles.json), SHA-256 `7d8d8d91d75b84be29f78f7e8a76aaf0d8e4f6832ed554ce9c7a154d8ea96616`; [all true edges](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/true_edges.csv), SHA-256 `3300003e6384f3ab98158a6dadef4b4f421c2326e432f2a0ab3b39e623213a76`; exact supporting planes and supplied/active data are adjacent.
+All maximal faces (`face_cycles.json`), SHA-256 `7d8d8d91d75b84be29f78f7e8a76aaf0d8e4f6832ed554ce9c7a154d8ea96616`; all true edges (`true_edges.csv`), SHA-256 `3300003e6384f3ab98158a6dadef4b4f421c2326e432f2a0ab3b39e623213a76`; exact supporting planes and supplied/active data are adjacent.
 
 The minimum exact raw active nonincidence gap is
 
@@ -89,7 +89,7 @@ unstable vertex 8               raw minimum ≈ 279.8964553160439
 saddle  (7003,200002)           four-component minimum ≈ 0.005258216819378924
 ```
 
-Every other feature has an exact negative witness. Complete ledgers are [faces](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/faces_mechanics_exact.json), [vertices](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/vertices_mechanics_exact.json), and [edges](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/edges_mechanics_exact.json). The endpoint certificate SHA-256 is `723560d6441a35e953c0f9c5bb762363ef80b4ddaeb925b6305a01b84c501208`.
+Every other feature has an exact negative witness. Complete ledgers are faces (`faces_mechanics_exact.json`), vertices (`vertices_mechanics_exact.json`), and edges (`edges_mechanics_exact.json`). The endpoint certificate SHA-256 is `723560d6441a35e953c0f9c5bb762363ef80b4ddaeb925b6305a01b84c501208`.
 
 ## Connected disk exchange and regular carrier
 
@@ -107,7 +107,7 @@ The boundary cycle is
 [69, 72, 261, 262, 263, 264, 246, 245, 244, 243, 242, 241, 240, 239, 238, 237, 236, 235, 234, 233, 232, 231, 230, 228, 248, 249, 250, 251, 252, 253, 254, 255, 256].
 ```
 
-All 62 active labels common to parent and endpoint move, so [disk_exchange_certificate.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/disk_exchange_certificate.json) certifies exact endpoint incidence replacement, **not** a continuous death-before-birth chronology.
+All 62 active labels common to parent and endpoint move, so disk_exchange_certificate.json certifies exact endpoint incidence replacement, **not** a continuous death-before-birth chronology.
 
 The 27 endpoint-only active rows form an exact rank-four positive-volume regular complex. Squared-norm lifting gives 81 exact empty-circumsphere tetrahedra, 137 interior triangles, 50 boundary triangles, no ties, and a connected tetrahedron dual graph. Their exact convex-hull volume is
 
@@ -115,7 +115,7 @@ The 27 endpoint-only active rows form an exact rank-four positive-volume regular
 9534794839370502902062309214434375847477416436666420287/60000000000000000000000000000000000000000000000000000 ≈ 158.91324732284173.
 ```
 
-The actual body contains 49 mutual true edges among these rows and their graph is connected. [Regular-complex certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/inserted_regular_complex.json), SHA-256 `1816c39710b63f46e9bf4496b1b142625fd6c75d1cd5f0c4c15af8210bbb479a`.
+The actual body contains 49 mutual true edges among these rows and their graph is connected. Regular-complex certificate (`inserted_regular_complex.json`), SHA-256 `1816c39710b63f46e9bf4496b1b142625fd6c75d1cd5f0c4c15af8210bbb479a`.
 
 ## Drainage and external-arrow audit
 
@@ -148,7 +148,7 @@ saddle numerator       2.5235073963231317e-4
 nonsaddle witness      1.369766276115673e-10.
 ```
 
-[Box certificate](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/full_81d_box_certificate.json), SHA-256 `259523104ef3426ccba95d6d13fbe6ac48559b2c7e9f3ef62ff501232308c67a`.
+Box certificate (`full_81d_box_certificate.json`), SHA-256 `259523104ef3426ccba95d6d13fbe6ac48559b2c7e9f3ef62ff501232308c67a`.
 
 ## Exact no-reference-centre theorem
 
@@ -161,13 +161,13 @@ All 24 branch features are faces forming a connected triangulated forcing disk
 boundary=[8, 246, 10012, 10020, 10019, 10018, 10010, 10005, 10021, 6004, 257, 200001, 259, 260, 261, 262, 263, 264].
 ```
 
-The cover is inclusion-minimal: for each face, a supplied exact dyadic witness centre makes that omitted face stable while making the other 23 forcing faces nonstable, preserving body interior, the protected base, and U8. The full face list is in [forcing_disk_summary.json](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/fixed_endpoint_no_center/forcing_disk_summary.json), SHA-256 `14275a79ece8d54014a7176c143e289c5ee51bcbefd57f67c4e3b26e06ba74d9`; the DPLL/Farkas certificate SHA-256 is `26f17657001d011ed0bd0f06afba83b1d82a49513f99a881caaa30bb1945df65`.
+The cover is inclusion-minimal: for each face, a supplied exact dyadic witness centre makes that omitted face stable while making the other 23 forcing faces nonstable, preserving body interior, the protected base, and U8. The full face list is in forcing_disk_summary.json, SHA-256 `14275a79ece8d54014a7176c143e289c5ee51bcbefd57f67c4e3b26e06ba74d9`; the DPLL/Farkas certificate SHA-256 is `26f17657001d011ed0bd0f06afba83b1d82a49513f99a881caaa30bb1945df65`.
 
 A separate exact bundled atlas proves the analogous no-reference-centre theorem for the twelve-support parent and all 28 closest deactivation-only `(2,1,1)` chambers: parent 34 nodes/23 leaves/11 forcing faces; total 904 nodes/612 leaves over the 28 cells.
 
 ## Mesh and clean-room replay
 
-The [OBJ](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/body.obj) has 89 vertices, 174 triangles, 261 triangulation edges, Euler two, and every edge multiplicity two. Reconstructed volume is `1337.1954912396116` and centroid norm `3.25e-14`. The [STL](sandbox:/mnt/data/M42_slot1_Clear_Willow_25_full_basin_transfer_exact_final/full_basin_endpoint/body.stl) has identical watertight combinatorics; its small mass drift is float32 export error.
+The OBJ (`body.obj`) has 89 vertices, 174 triangles, 261 triangulation edges, Euler two, and every edge multiplicity two. Reconstructed volume is `1337.1954912396116` and centroid norm `3.25e-14`. The STL (`body.stl`) has identical watertight combinatorics; its small mass drift is float32 export error.
 
 A clean extraction recompiles and replays the exact source, all-triples hull, mass/mechanics, disk exchange, regular complex, all-edge arrows, 81-dimensional box, mesh, fixed-endpoint no-centre theorem, forcing-disk irredundancy, and parent/28-deletion no-centre atlas, ending with `CLEANROOM_FULL_BASIN_TRANSFER_EXACT_REPLAYS_PASS`.
 

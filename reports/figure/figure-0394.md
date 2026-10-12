@@ -18,9 +18,9 @@ The best retained own121 by the specified graph-bar diagnostic is `VQ20_D717_PRO
 
 ## Source authority and distinct-body boundary
 
-I recovered and read both supplied source units completely, including their dependencies, and cold-replayed the unchanged D100 six-file audit source and six-file projective addition. Those controls passed their original byte/hash manifests. Their geometry was not substituted for D717. The actual parent was rebuilt from the immutable literal32 rows; its A, B, and centered-mass outputs reproduce the parent scientific hashes. The parent explicitly identifies inputs5/6 as interior, the new canonical labeling, actual filled centroid, and changed equilibrium features. :contentReference[oaicite:0]{index=0}
+I recovered and read both supplied source units completely, including their dependencies, and cold-replayed the unchanged D100 six-file audit source and six-file projective addition. Those controls passed their original byte/hash manifests. Their geometry was not substituted for D717. The actual parent was rebuilt from the immutable literal32 rows; its A, B, and centered-mass outputs reproduce the parent scientific hashes. The parent explicitly identifies inputs5/6 as interior, the new canonical labeling, actual filled centroid, and changed equilibrium features.
 
-The three independent auditors retain their distinct constructions: A certifies input-derived supports and true incidence; B reconstructs the full halfspace intersection by plane-pair clipping and independently builds incidence and mass; the third integrates positive integer tetrahedra at the exact filled centroid. The supplied source specifies these independence checks; all are retained in the inline capsule. :contentReference[oaicite:1]{index=1}
+The three independent auditors retain their distinct constructions: A certifies input-derived supports and true incidence; B reconstructs the full halfspace intersection by plane-pair clipping and independently builds incidence and mass; the third integrates positive integer tetrahedra at the exact filled centroid. The supplied source specifies these independence checks; all are retained in the inline capsule.
 
 No required D717 coordinate or audit source remained missing. The earlier D100 affine-component exclusion was treated only as a methodological lead. The D717 theorem below was reconstructed from D717's own poles and certified anew.
 
@@ -44,7 +44,7 @@ N = [
 The parent is conv{N_i/717}, with ordinary volume `93537684617/2211610878` and filled centroid
 `(13844508075317,-9091031147296,-9734537087479)/268266079481556`. Its canonical rawlex-to-input map is
 `[0,4,1,2,8,7,9,3,10,12,15,11,14,17,13,16,30,19,18,20,21,22,25,31,24,26,23,29,28,27]`.
-These values reproduce the immutable parent. :contentReference[oaicite:2]{index=2}
+These values reproduce the immutable parent.
 
 For each complete record `(D,a,M)` below, define **rational physical row coordinates**
 
@@ -102,7 +102,7 @@ Using the parent own-centered vertices X and face poles Q, set
 
 `K_f=Q_f+p`, `h_f=1-K_f·g>0`, `Z_i=W_i-g`, `P_f=K_f/h_f`.
 
-The support sign is **plus**. Physical rows are W_i L, their filled centroid is gL, and centered poles transform as P_f L^(-T). G=L L^T is physical SPD; the polar metric is proportional to adj(G). The supplied exact formulation gives the same chart and denominator-cleared predicates. :contentReference[oaicite:3]{index=3}
+The support sign is **plus**. Physical rows are W_i L, their filled centroid is gL, and centered poles transform as P_f L^(-T). G=L L^T is physical SPD; the polar metric is proportional to adj(G). The supplied exact formulation gives the same chart and denominator-cleared predicates.
 
 For primal and dual neighbors use
 
@@ -265,7 +265,7 @@ SMT_CONTROLS      1925 3c7b473c36f4b3bd89af9d88313bb41364fb430d775d913eb38a3d862
 
 Exact replay was executed both from a fresh source copy and from a freshly decoded capsule; every receipt matched. Numerical rediscovery is optional and uses CPython3.13.5, NumPy2.3.5, SciPy1.17.0, Torch2.10.0+cpu, float64, one thread. After the exact replay, `python -B absent-source-directory/NUMERIC_SELECTED.py absent-proposals --rerun-selected` reruns the selected numerical producers without overwriting the canonical frozen bodies. The standard-library exact replay is independent of these dependencies.
 
-The [complete source-and-certificate archive](sandbox:/mnt/data/VQ20_D717_COMPLETE.zip) is supplemental; the literal capsule below is sufficient without the archive, Library, original attachments, or sandbox.
+The complete source-and-certificate archive (`VQ20_D717_COMPLETE.zip`) is supplemental; the literal capsule below is sufficient without the archive, Library, original attachments, or sandbox.
 
 ```python
 """Restore the complete D717 source; only Python standard library is needed."""

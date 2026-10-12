@@ -60,7 +60,7 @@ The new coupled trace-one floors are
 \tag{4}
 \]
 
-The first floor is approximately 0.0198947665319. The condition ceiling improves the accepted 47.677087 ceiling without changing its covariance reference. fileciteturn2file5L201-L215 It is a necessary-condition improvement, not an E17 exclusion, a new equilibrium census, or a 110 attainer. Incidental weak contacts do not evade the spectral application.
+The first floor is approximately 0.0198947665319. The condition ceiling improves the accepted 47.677087 ceiling without changing its covariance reference. It is a necessary-condition improvement, not an E17 exclusion, a new equilibrium census, or a 110 attainer. Incidental weak contacts do not evade the spectral application.
 
 ## Input audit and authority
 
@@ -78,9 +78,9 @@ The new attachments match their manifest:
 
 The literal accepted parent remains **minimum-0259**, SHA-256 **8d8074c6ed14ca5e25ee185d88db4854b031af2a547c70baef834e3659ced6df**. Reconstructing its compact UTF-8 JSON envelope, with the Markdown's final LF, gives exactly 48569 bytes and this digest. Its actual pyramid P0 and cut/cut/stack family are not renamed or modified here.
 
-The new geodesic theorem and the four-pair H5 barrier were read as supporting context, not replayed as a new computation. The former concerns reference optimization with a fixed body and physical metric; the latter obstructs a sufficient single-reference mixed template, not S1/U1 feasibility. Neither is used as an unproved actual-volume identity in the argument below. fileciteturn2file0L19-L44 fileciteturn2file1L3-L12
+The new geodesic theorem and the four-pair H5 barrier were read as supporting context, not replayed as a new computation. The former concerns reference optimization with a fixed body and physical metric; the latter obstructs a sufficient single-reference mixed template, not S1/U1 feasibility. Neither is used as an unproved actual-volume identity in the argument below.
 
-The affine inequality used below is the classical three-dimensional Berwald inequality, also checked against Langharst–Putterman, *Weighted Berwald's Inequality*, equation (1) and Corollary 1.4. In the affine case needed here, Section 2 below proves it directly from the same section comparison, so general Berwald is not an additional black-box dependency. The planar Brunn–Minkowski section-concavity input is the same classical input as in the supplied covariance proof. citeturn906092view0 fileciteturn2file9L42-L66
+The affine inequality used below is the classical three-dimensional Berwald inequality, also checked against Langharst–Putterman, *Weighted Berwald's Inequality*, equation (1) and Corollary 1.4. In the affine case needed here, Section 2 below proves it directly from the same section comparison, so general Berwald is not an additional black-box dependency. The planar Brunn–Minkowski section-concavity input is the same classical input as in the supplied covariance proof.
 
 ## 1. Actual radial law and normalization
 
@@ -502,7 +502,7 @@ f(m)=\cos(\pi/(2m))^{2m}.
 \tag{30}
 \]
 
-The first inequality needs U1; the second needs S1 and the same primal actual-body bound. Joint S1/U1 supplies both. A distinct nonnegative arrow strictly increases quadratic norm, so incidental weak contacts still admit the rooted-tree argument. No positive-escape hypothesis or independent polar metric has been added. fileciteturn2file5L21-L63
+The first inequality needs U1; the second needs S1 and the same primal actual-body bound. Joint S1/U1 supplies both. A distinct nonnegative arrow strictly increases quadratic norm, so incidental weak contacts still admit the rooted-tree argument. No positive-escape hypothesis or independent polar metric has been added.
 
 At V=10,F=9 use h<=9,k<=8 and the inherited strict rational trigonometric majorants
 
@@ -543,7 +543,7 @@ The corresponding scalar trace-floor stress parameter is
 \tag{33}
 \]
 
-These constants belong to the actual covariance frame. Substituting them into an unrelated frozen reference frame without the prescribed congruence is not justified. The trace-floor stress interpretation is the supplied intrinsic-reference construction. fileciteturn2file10L53-L71
+These constants belong to the actual covariance frame. Substituting them into an unrelated frozen reference frame without the prescribed congruence is not justified. The trace-floor stress interpretation is the supplied intrinsic-reference construction.
 
 ### Without an f-vector restriction
 
@@ -564,13 +564,13 @@ with the same common-cap window for the normalized inverse. For Euclidean physic
 \sqrt{20/981}\,B\subset P\subset\sqrt{1445/109}\,B,
 \]
 
-and its origin-centred outer/inner radius ratio is strictly below \(51/2\). These follow by combining the new trace window with the actual covariance sandwich; no anisotropic reset of the physical metric is made. fileciteturn2file9L68-L82
+and its origin-centred outer/inner radius ratio is strictly below \(51/2\). These follow by combining the new trace window with the actual covariance sandwich; no anisotropic reset of the physical metric is made.
 
 ## 8. What changed, what did not, and continuation
 
 I explored the critical-pair route but did not obtain a new upper theorem from projector balance alone. The productive change was to require the endpoint data to remain compatible with **uniformly refilled projective images of the same convex body**. Keeping just the radial second moments loses (19); keeping separate third and fourth bounds loses the regression improvement (15). The exact proof combines them.
 
-The accepted parent's six-active-pair optimality theorem, exact \(5.088862048\ldots\) all-reference obstruction, actual pyramid P0, simplicial bipyramid controls, and cut/cut/stack 10/17/9 family remain unchanged. No new lower counterexample or relabelled body is being promoted. In particular the parent's literal E17 sequence remains an obstruction to unconditional optimized factors at or below 5, not a sequence of joint S1/U1 bodies. fileciteturn9file0L255-L262 fileciteturn10file0L245-L257
+The accepted parent's six-active-pair optimality theorem, exact \(5.088862048\ldots\) all-reference obstruction, actual pyramid P0, simplicial bipyramid controls, and cut/cut/stack 10/17/9 family remain unchanged. No new lower counterexample or relabelled body is being promoted. In particular the parent's literal E17 sequence remains an obstruction to unconditional optimized factors at or below 5, not a sequence of joint S1/U1 bodies.
 
 Using the retained covariance-normalized compactness and centred-sandwich continuity, the universal maxima are attained among full-dimensional convex bodies. Hence the current strict upper brackets can be written
 
@@ -583,11 +583,11 @@ Using the retained covariance-normalized compactness and centred-sandwich contin
 
 The lower endpoints are inherited, not newly computed. For strictness of the upper suprema, recall that \(B\subset K\subset3B\) gives a compact Hausdorff class, actual volume moments pass to its limits, and centred sandwiches give continuity of the orthogonal factor and its optimized value. The new theorem excludes equality at every limiting body as well. No maximizing polytope, fixed-f-vector maximizer, or extremizer classification is asserted.
 
-This result does not defeat the supplied H5 mixed-template barrier. That barrier lower-bounds \(\Upsilon_C e^{\delta_C}\) for every C at one marked body; (1) upper-bounds the pure factor at its actual covariance. The marked-angle and mechanical requirements have not disappeared. No H5 regional computation was duplicated, and no complete-root certificate has been rerun with the new floor. fileciteturn2file1L3-L12
+This result does not defeat the supplied H5 mixed-template barrier. That barrier lower-bounds \(\Upsilon_C e^{\delta_C}\) for every C at one marked body; (1) upper-bounds the pure factor at its actual covariance. The marked-angle and mechanical requirements have not disappeared. No H5 regional computation was duplicated, and no complete-root certificate has been rerun with the new floor.
 
 The most useful continuation is to retain the full necessary inequality (19), the exact regression function (15), and the actual a,R dependence before the conservative replacements in Section 5. Varying the projective parameter or adding other actual-volume constraints may improve the upper constant further. Such an improvement would need a new exact certificate; the present calculation neither identifies the sharp constant nor establishes the sufficiency of any finite moment relaxation.
 
-The global complexity bracket \(34\le C_{\min}\le622\), all incidence/root catalogues, the actual 110 attainer, and the separate regularization program are unchanged. fileciteturn2file4L9-L13
+The global complexity bracket \(34\le C_{\min}\le622\), all incidence/root catalogues, the actual 110 attainer, and the separate regularization program are unchanged.
 
 ## 9. Complete deterministic recovery capsule
 
@@ -613,7 +613,7 @@ The code reconstructs the exact polynomial from (23), (26), and (27), clears its
 
 Normal execution and a clean source-only reconstruction extracted from this Markdown both passed, reproducing source and output byte-for-byte. This is author execution, not a coordinator replay or proof-assistant formalization. The analytic geometry proof is above; the executable checks its exact finite algebra and constants. Numerical trial evaluations located the useful parameter, but no numerical result or optimizer state is a proof dependency.
 
-Convenience copies: [complete runnable source](sandbox:/mnt/data/joint_support_v3/radial_projective_17_over_2.py), [exact report](sandbox:/mnt/data/joint_support_v3/radial_projective_report.out), and [Markdown handoff](sandbox:/mnt/data/joint_support_v3/result_markdown_v3.md).
+Convenience copies: complete runnable source (`radial_projective_17_over_2.py`), exact report (`radial_projective_report.out`), and Markdown handoff (`result_markdown_v3.md`).
 
 ```python
 #!/usr/bin/env python3

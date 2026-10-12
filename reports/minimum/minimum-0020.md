@@ -16,17 +16,17 @@ Second, the representative old record `(31,1,0,6826)` has an exact, uniformly vo
 
 ## Authority and work performed
 
-The immutable catalogue parent remains `minimum-0009`, SHA-256 `6f905a98d5d84d11e1369aebb34643ad59248a2485b95270c59bb52c48b92326`. Its literal remainder is 178,131 records, 890,655 bytes in `raven_remaining.bin`, SHA-256 `5d3329d312adf3db48d9e22314d6cec046f4ec9b00b29fe248fa96f699bb3f1f`; it is not silently relabeled as the later filtered remainder. :contentReference[oaicite:0]{index=0}
+The immutable catalogue parent remains `minimum-0009`, SHA-256 `6f905a98d5d84d11e1369aebb34643ad59248a2485b95270c59bb52c48b92326`. Its literal remainder is 178,131 records, 890,655 bytes in `raven_remaining.bin`, SHA-256 `5d3329d312adf3db48d9e22314d6cec046f4ec9b00b29fe248fa96f699bb3f1f`; it is not silently relabeled as the later filtered remainder.
 
-I recovered and executed the complete `HEX17_ACTUAL_CAP_ATLAS_V1` source, 32,064 bytes, SHA-256 `f37ea08f97d022629d02ca7d5356dfed5c2058658691bf45eeca9ca925691cf1`, and reproduced its catalogue attachment and representative branch hashes. The atlas itself explicitly supplies formulas, not exclusions, and proposes trying the shape-only adaptive inequalities next. The first theorem below rules out exclusion by that particular relaxation, rather than merely generating another formula. :contentReference[oaicite:1]{index=1}
+I recovered and executed the complete `HEX17_ACTUAL_CAP_ATLAS_V1` source, 32,064 bytes, SHA-256 `f37ea08f97d022629d02ca7d5356dfed5c2058658691bf45eeca9ca925691cf1`, and reproduced its catalogue attachment and representative branch hashes. The atlas itself explicitly supplies formulas, not exclusions, and proposes trying the shape-only adaptive inequalities next. The first theorem below rules out exclusion by that particular relaxation, rather than merely generating another formula.
 
-The later TREE24 correction leaves the global frontier at **178,103 records / 4,366 joint-root orbits / 74 types**, with the same **41,454 hexagonal records**. Nothing is subtracted here. The bracket remains `30 <= C_min <= 1374`. The captured atlas's earlier 178,115 count is chronological, not a conflicting immutable-parent identity. :contentReference[oaicite:2]{index=2}
+The later TREE24 correction leaves the global frontier at **178,103 records / 4,366 joint-root orbits / 74 types**, with the same **41,454 hexagonal records**. Nothing is subtracted here. The bracket remains `30 <= C_min <= 1374`. The captured atlas's earlier 178,115 count is chronological, not a conflicting immutable-parent identity.
 
 I tried common-separator and full-shape numerical locators before switching to a precisely certifiable barrier. Their solver statuses are not exclusion evidence. Numerical optimization was used only to locate the second control; all promoted results below are reconstructed by the complete standard-library rational/interval checker. It requires neither numerical packages nor the optimization trajectory.
 
 ## 1. A universal barrier to the current volume-only route
 
-For an admissible deletion `S`, let `D_S=6 Vol(P minus K_S)`, `D0=6 Vol(K_S)`, and `x_S=D_S/D0`, where `K_S` is the actual retained convex hull. Components within one deletion are the atlas's **actual disjoint block caps**, not overlapping original vertex ears. Their disjointness and exact material interpretation are inherited from the atlas theorem; the new checker independently rebuilds every retained hull and every component hull and verifies both volume and all three first-moment additions. :contentReference[oaicite:3]{index=3}
+For an admissible deletion `S`, let `D_S=6 Vol(P minus K_S)`, `D0=6 Vol(K_S)`, and `x_S=D_S/D0`, where `K_S` is the actual retained convex hull. Components within one deletion are the atlas's **actual disjoint block caps**, not overlapping original vertex ears. Their disjointness and exact material interpretation are inherited from the atlas theorem; the new checker independently rebuilds every retained hull and every component hull and verifies both volume and all three first-moment additions.
 
 Use the 17 exact atlas control shapes, whose complete literal vertices and maximal facets are embedded below. Across all 347 admissible deletions, the exact minima are:
 
@@ -39,7 +39,7 @@ Use the 17 exact atlas control shapes, whose complete literal vertices and maxim
 
 These are minima over the displayed finite controls, **not lower bounds over all realizations**.
 
-For every adaptive retained decomposition, put `t_S=T_S/D0`. Positive actual tetrahedral volumes and the atlas's coefficients give `0<t_S<=1`. Its two possible volume tests are `4x_S>t_S` and `16x_S^2+12x_S>t_S`; its uniform tests are weaker. :contentReference[oaicite:4]{index=4}
+For every adaptive retained decomposition, put `t_S=T_S/D0`. Positive actual tetrahedral volumes and the atlas's coefficients give `0<t_S<=1`. Its two possible volume tests are `4x_S>t_S` and `16x_S^2+12x_S>t_S`; its uniform tests are weaker.
 
 At all of the controls, every deletion of at least two vertices obeys
 
@@ -49,7 +49,7 @@ x_S >= 15/44,
 16x_S^2 + 12x_S - 1 >= 599/121 > 0.
 ```
 
-Single deletions obey `x_S>=7/52>1/7168`. Thus every possible anchor case, every attached tree pattern, and every positive-weight triangulation with coefficients at most one passes simultaneously. This argument does not need to sample the 3,988 directional patterns: it dominates all of them. The 17-type classification and full nine-shape charts supply coverage; the controls and 347 material identities are reverified here. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+Single deletions obey `x_S>=7/52>1/7168`. Thus every possible anchor case, every attached tree pattern, and every positive-weight triangulation with coefficients at most one passes simultaneously. This argument does not need to sample the 3,988 directional patterns: it dominates all of them. The 17-type classification and full nine-shape charts supply coverage; the controls and 347 material identities are reverified here.
 
 All inequalities are strict, so each control has an open nine-dimensional chart neighborhood with the same property. No common neighborhood radius is asserted for those 17 neighborhoods. Volume ratios are affine invariant, so this volume-only feasibility is unaffected by any SPD metric, including arbitrarily large finite anisotropies and shears. This is **not** feasibility of the full mechanical formulas: the required escape inequalities have deliberately not been inferred from the cap volumes.
 
@@ -64,7 +64,7 @@ P=(8,-1,1,6,3,4,7,0,1),
 Q=(5,0,4,0,-1,4,7,1).
 ```
 
-Thus the proposed canonical roots are primal vertex1 and polar vertex/facet4. The seven tree-closed masks are exactly `(4,32,36,48,52,56,60)`. These labels and the five complete adaptive decompositions are the literal atlas branch, not a new alias. :contentReference[oaicite:7]{index=7}
+Thus the proposed canonical roots are primal vertex1 and polar vertex/facet4. The seven tree-closed masks are exactly `(4,32,36,48,52,56,60)`. These labels and the five complete adaptive decompositions are the literal atlas branch, not a new alias.
 
 Take the following raw vertices:
 
@@ -116,7 +116,7 @@ Write `R2=||p_1||^2`, `Q2=||q_4||^2`, and `c_S=g(K_S)` in these already centered
 Gamma(kappa)=kappa/[2(sqrt(9+4kappa)+3)] < kappa/12,
 ```
 
-the tests using `b_n` are stronger than the atlas's exact Gamma norm-gap requirement, not just its rounded gamma consequence. The Gamma identity and constants are inherited; their application to this actual control is new. :contentReference[oaicite:8]{index=8}
+the tests using `b_n` are stronger than the atlas's exact Gamma norm-gap requirement, not just its rounded gamma consequence. The Gamma identity and constants are inherited; their application to this actual control is new.
 
 The following strict rational bounds hold at the control and throughout the certified parameter cube:
 
@@ -183,7 +183,7 @@ mask48, anchor1, triangle(2,3,6), theta=59/256: J < -1/4.
 
 Nevertheless their actual-volume-weighted averages `F2/R2` are positive. These two triangles are genuine original maximal triangular facets, not display diagonals. Both negative bounds also persist in the certified cube. This pinpoints information discarded by the integrated `T_S` tests.
 
-Unlike the existing eight-pole cone-concentration barrier, the present control is an actual C30 polyhedron with exact own-volume centering and actual disjoint cap material. It is not a false-centroid, free-weight, rank-deficient, or noncoplanar control. Its failure is explicitly mechanical. The prior eight-pole control was expressly noncentered and not C30. :contentReference[oaicite:9]{index=9}
+Unlike the existing eight-pole cone-concentration barrier, the present control is an actual C30 polyhedron with exact own-volume centering and actual disjoint cap material. It is not a false-centroid, free-weight, rank-deficient, or noncoplanar control. Its failure is explicitly mechanical. The prior eight-pole control was expressly noncentered and not C30.
 
 ## 3. Continuous-domain and boundary status
 
@@ -628,7 +628,7 @@ CLEAN_REPORT_BYTE_IDENTICAL_PASS
 |`hex17_cap_relaxation_barrier.py`|19287|`1b82d75c3aae61caebaa65e0cf97f1de2f1df31fd9295bcb585b959755c00cfc`|
 |`hex17_cap_relaxation_barrier.json`|11141|`eb6e868921149cba97809d571ce5fc3cb901739b5ce85d5e5f2d3d0012ed939d`|
 
-Convenience copies: [complete source](sandbox:/mnt/data/hex17_cap_relaxation_barrier.py) and [exact generated report](sandbox:/mnt/data/hex17_cap_relaxation_barrier.json). The inline source, not these links alone, is the recovery authority for the new objects.
+Convenience copies: complete source (`hex17_cap_relaxation_barrier.py`) and exact generated report (`hex17_cap_relaxation_barrier.json`). The inline source, not these links alone, is the recovery authority for the new objects.
 
 ## 5. Most useful continuation
 

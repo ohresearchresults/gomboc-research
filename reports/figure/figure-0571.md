@@ -260,19 +260,19 @@ def radial(X, edges):
 
 Эти ссылки дополняют результат, но не устраняют обозначенную выше нехватку буквального нового H-массива в самом сообщении:
 
-[KH93_H_LIVE11_G12 — точный H-вход](sandbox:/mnt/data/KH93/EXACT/KH93_H_LIVE11_G12_INPUT.json)
+KH93_H_LIVE11_G12 — точный H-вход (`KH93_H_LIVE11_G12_INPUT.json`)
 
-[KH93_H_LIVE11_G12 — полный точный аудит, включая собственную массу, максимальные грани, рёбра и все бары](sandbox:/mnt/data/KH93/EXACT/KH93_H_LIVE11_G12_EXACT.json)
+KH93_H_LIVE11_G12 — полный точный аудит, включая собственную массу, максимальные грани, рёбра и все бары (`KH93_H_LIVE11_G12_EXACT.json`)
 
-[Полный восстановленный точный H-аудитор](sandbox:/mnt/data/RA40_RECOVERED/JOINT62_SOURCE/CHANGED_NORMAL_EXACT.py)
+Полный восстановленный точный H-аудитор (`CHANGED_NORMAL_EXACT.py`)
 
-[Основной SLSQP-производитель свободного H-продолжения](sandbox:/mnt/data/KH93/h_retract93_slsqp.py)
+Основной SLSQP-производитель свободного H-продолжения (`h_retract93_slsqp.py`)
 
-[Полная H-геометрия численного производителя](sandbox:/mnt/data/KH93/hsearch93.py)
+Полная H-геометрия численного производителя (`hsearch93.py`)
 
-[Полные численные геометрические helpers](sandbox:/mnt/data/KH93/search93.py)
+Полные численные геометрические helpers (`search93.py`)
 
-[Буквальный floating warmstart основного H-продолжения](sandbox:/mnt/data/KH93/H_OFF1/BEST121.json)
+Буквальный floating warmstart основного H-продолжения (`BEST121.json`)
 
 Для повторного точного аудита нужны новый H-вход, полный `CHANGED_NORMAL_EXACT.py` и приведённый выше `fast_radial93.py`. Следующая единица заново интегрирует собственную массу и печатает её полностью; она не подставляет сохранённый центр:
 

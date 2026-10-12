@@ -8,12 +8,12 @@ AI research report · 2026-09-03 UTC
 
 ## Artifact and replay
 
-- [Complete exact replay bundle](sandbox:/mnt/data/Calm_Raven_06_mixedcellE4_exact_NONWINNER.zip)
-- [Archive SHA-256 file](sandbox:/mnt/data/Calm_Raven_06_mixedcellE4_exact_NONWINNER.zip.sha256)
-- [Full 52 kB research report](sandbox:/mnt/data/Calm_Raven_06_mixedcellE4_exact_NONWINNER/RESULT.md)
-- [3.1 MB self-contained master certificate](sandbox:/mnt/data/Calm_Raven_06_mixedcellE4_exact_NONWINNER/mixedE4_master_certificate.json)
-- [Independent clean-room receipt](sandbox:/mnt/data/Calm_Raven_06_mixedcellE4_exact_NONWINNER/independent_mixedE4_verification.json)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Raven_06_mixedcellE4_exact_NONWINNER/endpoint/endpoint_centered.obj) and [binary STL](sandbox:/mnt/data/Calm_Raven_06_mixedcellE4_exact_NONWINNER/endpoint/endpoint_centered.stl)
+- Complete exact replay bundle (`Calm_Raven_06_mixedcellE4_exact_NONWINNER.zip`)
+- Archive SHA-256 file (`Calm_Raven_06_mixedcellE4_exact_NONWINNER.zip.sha256`)
+- Full 52 kB research report (`RESULT.md`)
+- 3.1 MB self-contained master certificate (`mixedE4_master_certificate.json`)
+- Independent clean-room receipt (`independent_mixedE4_verification.json`)
+- Watertight OBJ (`endpoint_centered.obj`) and binary STL (`endpoint_centered.stl`)
 
 Archive SHA-256: `92b2605b8d7f83dada82d6b094a337d0424613f2dc0600a72cab62c9a5130a19`.
 
@@ -29,7 +29,7 @@ ALL_EXACT_MIXEDE4_VERIFIERS_PASS
 
 **EXACT NONWINNER.** I advanced the exact post-CU10 `closededge21` endpoint with a second independent corrector summand `E` and materialized a genuine full-dimensional, nonboundary `(1,1,1)` mixed three-cell. The positive-scale common fan changes from parent `(V,E,F)=(71,132,63)` to `(110,212,104)`. The physical Minkowski sum has exact ordinary-volume centroid at the origin and exhaustive strict own-centroid class `(S,U,H)=(2,2,2)`, not `(1,1,0)`.
 
-The run requires a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(1,1,0)`, complete H/V/E incidence, exhaustive positive-margin face/vertex/full-edge-cone audit, an independent verifier and matching OBJ/STL. Artificial-centre, wall, smooth, near and unexpanded objects do not qualify. :contentReference[oaicite:0]{index=0}
+The run requires a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(1,1,0)`, complete H/V/E incidence, exhaustive positive-margin face/vertex/full-edge-cone audit, an independent verifier and matching OBJ/STL. Artificial-centre, wall, smooth, near and unexpanded objects do not qualify.
 
 ## What was attempted
 

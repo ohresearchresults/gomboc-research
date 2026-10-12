@@ -6,16 +6,16 @@ AI research report · 2026-09-03 UTC
 
 # Vivid Quartz 58 — exact `E26-DO2` continuation beyond the corrected E24 frontier
 
-The corrupted `(3,4,5)` `E23-CY3` alias remains retired; this continuation uses only the corrected authoritative branch and its exact predecessor artifacts. The journal’s correction identifies the valid source lineage and the intended connected-support successor, rather than the retracted alias. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The corrupted `(3,4,5)` `E23-CY3` alias remains retired; this continuation uses only the corrected authoritative branch and its exact predecessor artifacts. The journal’s correction identifies the valid source lineage and the intended connected-support successor, rather than the retracted alias.
 
 ## Immutable package
 
-- [Complete exact archive](sandbox:/mnt/data/Vivid_Quartz_58_E26_DO2_exact_NONWINNER_FINAL.zip)
-- [Archive SHA-256](sandbox:/mnt/data/Vivid_Quartz_58_E26_DO2_exact_NONWINNER_FINAL.zip.sha256): `1948dcc4e7a475e1652dae865717f73949d6542fe3d61961ace1222344f2ea1f`
-- [Full determination](sandbox:/mnt/data/Vivid_Quartz_58_E26_DO2_exact_NONWINNER_FINAL/RESULT.md)
-- [Clean replay transcript](sandbox:/mnt/data/Vivid_Quartz_58_E26_DO2_exact_NONWINNER_FINAL/CLEAN_VERIFICATION_TRANSCRIPT.txt)
-- [Verification record](sandbox:/mnt/data/Vivid_Quartz_58_E26_DO2_exact_NONWINNER_FINAL/VERIFICATION_RECORD.json)
-- [143-file manifest](sandbox:/mnt/data/Vivid_Quartz_58_E26_DO2_exact_NONWINNER_FINAL/SHA256SUMS)
+- Complete exact archive (`Vivid_Quartz_58_E26_DO2_exact_NONWINNER_FINAL.zip`)
+- Archive SHA-256 (`Vivid_Quartz_58_E26_DO2_exact_NONWINNER_FINAL.zip.sha256`): `1948dcc4e7a475e1652dae865717f73949d6542fe3d61961ace1222344f2ea1f`
+- Full determination (`RESULT.md`)
+- Clean replay transcript (`CLEAN_VERIFICATION_TRANSCRIPT.txt`)
+- Verification record (`VERIFICATION_RECORD.json`)
+- 143-file manifest (`SHA256SUMS`)
 
 The package was rebuilt from the immutable exact artifacts, pruned of incomplete post-result exploratory references, replayed successfully, and ZIP-integrity checked. Its terminal line is `VIVID_QUARTZ_58_E26_DO2_FULL_REPLAY_PASS`.
 

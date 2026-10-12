@@ -469,4 +469,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Convenience copies supplement this complete inline recovery: [compact recovery script](sandbox:/mnt/data/RECOVER_CN_COMPACT.py), [standalone exact generator and auditor](sandbox:/mnt/data/CHANGED_NORMAL_EXACT.py), [complete exact reports](sandbox:/mnt/data/CN_EXACT_REPORTS.zip), and [original37-file method/pin/log recovery](sandbox:/mnt/data/RECOVER_CHANGED_NORMALS.py). The latter is41790 bytes, SHA-256 `fa957a0174ebc6e2724a569b8b3be6f5386f89eb056571e6fc549d92b58832ec`; it is optional, not a dependency of any exact successor above.
+Convenience copies supplement this complete inline recovery: compact recovery script (`RECOVER_CN_COMPACT.py`), standalone exact generator and auditor (`CHANGED_NORMAL_EXACT.py`), complete exact reports (`CN_EXACT_REPORTS.zip`), and original37-file method/pin/log recovery (`RECOVER_CHANGED_NORMALS.py`). The latter is41790 bytes, SHA-256 `fa957a0174ebc6e2724a569b8b3be6f5386f89eb056571e6fc549d92b58832ec`; it is optional, not a dependency of any exact successor above.

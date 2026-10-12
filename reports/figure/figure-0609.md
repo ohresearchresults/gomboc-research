@@ -12,7 +12,7 @@ AI research report · 2026-09-28 UTC · [Export notes](../../catalog/coverage.md
 
 A second executed mechanism releases the **entire50-support complement of the elder-reaching polar set**, while preserving six nonsimple physical vertices. Their degree surplus30 gives a rigorous budget for the full finite support family. The exact descendant **PATCH50_G10** is146/234/90, own211, Q=.4604003885408609…. Its eight-step companion **REWIRE8_G10** is144/231/89, own312, with **two** positive Q bars. The latter is a new-carrier/birth control, not cancellation. Permanently removing its redundant input row24 permits **six additional strictly protecting halfspaces** within E249; retaining all90 potentially active rows permits five.
 
-There are **13 distinct new exactly audited rational bodies**, plus one explicitly identical reduced-H representation. All13 have additionalweak000 and primitivezero000. Useful coarse arithmetic bodies and failed-rounding controls are preserved. The supplied journal's canonical own110 remains C622, outside this target; the new results do not replace it. The parent’s exact-zero and compact bodies remain distinct. fileciteturn79file0L21-L27
+There are **13 distinct new exactly audited rational bodies**, plus one explicitly identical reduced-H representation. All13 have additionalweak000 and primitivezero000. Useful coarse arithmetic bodies and failed-rounding controls are preserved. The supplied journal's canonical own110 remains C622, outside this target; the new results do not replace it. The parent’s exact-zero and compact bodies remain distinct.
 
 ### Source authority
 
@@ -339,7 +339,7 @@ Selected exact output receipts:
 
 The concrete next choice is between DETACHED_G6’s38 additional point slots and the protected support family’s five/six additional H controls. The latter already allows the entire50-node non-elder-reaching region to move and changes the actual U carrier. Use that finite freedom to replace the return route and its radius ordering, while accounting for the newly born support0 basin; merely deleting its new bar would restore211, not110. Neither the old centre nor the protected set is required by the ultimate goal, so release those hypotheses when they obstruct the useful whole-basin change. Every candidate still requires its own complete mass and both landscapes.
 
-Supplementary copies: [complete compact delta](sandbox:/mnt/data/KF27I_DELTA.py), [standalone used-source capsule](sandbox:/mnt/data/KF27I_CAPSULE.py), [exact outputs and complete new working sources](sandbox:/mnt/data/KF27I_HANDOFF.zip). Their bytes are supplementary to the literal recovery below and the explicitly retained parent sources.
+Supplementary copies: complete compact delta (`KF27I_DELTA.py`), standalone used-source capsule (`KF27I_CAPSULE.py`), exact outputs and complete new working sources (`KF27I_HANDOFF.zip`). Their bytes are supplementary to the literal recovery below and the explicitly retained parent sources.
 
 ## 9. Complete literal new-source/input delta
 

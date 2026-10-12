@@ -10,7 +10,7 @@ AI research report · 2026-09-03 UTC
 
 **EXACT NONWINNER. No literal homogeneous convex polyhedral Gömböc was obtained.**
 
-The acceptance gate remains an explicit finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete exact incidence and full-normal-cone mechanics, independent verification, and matching OBJ/STL. Near-solutions and auxiliary-centre bodies do not qualify. :contentReference[oaicite:0]{index=0}
+The acceptance gate remains an explicit finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete exact incidence and full-normal-cone mechanics, independent verification, and matching OBJ/STL. Near-solutions and auxiliary-centre bodies do not qualify.
 
 I advanced the supplied T37 state through a certified topology-changing lineage and obtained a new exact open descendant, but the Euler-neutral stable–saddle pair transfers once more. The strongest exact endpoint produced here is
 
@@ -64,10 +64,10 @@ translated first moments = (0,0,0) exactly.
 
 The finite V- and mass data are in:
 
-- [Principal exact certificate](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/certificate.json)
-- [Supplied and active exact V-data](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/vertices_input_exact.csv)
-- [Exact own-centred V-data](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/vertices_centered_exact.csv)
-- [Exact constructor](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/build_exact_endpoint.py)
+- Principal exact certificate (`certificate.json`)
+- Supplied and active exact V-data (`vertices_input_exact.csv`)
+- Exact own-centred V-data (`vertices_centered_exact.csv`)
+- Exact constructor (`build_exact_endpoint.py`)
 
 Inherited coordinates that were not moved retain the parent's exact rational values. Each genuinely moved binary64 coordinate is interpreted as its exact dyadic rational; after that conversion, hull, mass, incidence, and mechanics calculations use exact rational arithmetic rather than floating labels.
 
@@ -95,12 +95,12 @@ closest nonsaddle clearance          1.094624045657761e-9
 
 Every maximal face, every active vertex, and every true edge is audited. The edge ledger includes both segment components and both incident-normal coefficients for all 181 edges; no edge is classified from a single selected witness.
 
-- [Irredundant exact H-representation](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/H_irredundant.json)
-- [Maximal-face cycles](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/face_cycles.json)
-- [True-edge incidence](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/true_edges.csv)
-- [Complete face-cone mechanics](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/faces_full_cones.json)
-- [Complete vertex-cone mechanics](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/vertices_full_cones.json)
-- [Every four-component true-edge cone](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/true_edges_full_cones.json)
+- Irredundant exact H-representation (`H_irredundant.json`)
+- Maximal-face cycles (`face_cycles.json`)
+- True-edge incidence (`true_edges.csv`)
+- Complete face-cone mechanics (`faces_full_cones.json`)
+- Complete vertex-cone mechanics (`vertices_full_cones.json`)
+- Every four-component true-edge cone (`true_edges_full_cones.json`)
 
 ## Exact transition lineage from T37
 
@@ -116,7 +116,7 @@ This is a connected pinched multi-boundary whole-component exchange. It is **not
 54,247,1027,1028,1029,3000,3001
 ```
 
-and inserts rows `5000,...,5006`. The T37 stable face `[198,3000,1025]` and saddle `(1027,3001)` are absent on the row-54 side. The exact row-54 body is `(86,216,132)`, strict `(2,1,1)`, with transferred pair `[258,5000,1025]` and `(248,5006)`. This independently recovered exact result and its radial obstruction were also recorded in the shared journal. :contentReference[oaicite:1]{index=1}
+and inserts rows `5000,...,5006`. The T37 stable face `[198,3000,1025]` and saddle `(1027,3001)` are absent on the row-54 side. The exact row-54 body is `(86,216,132)`, strict `(2,1,1)`, with transferred pair `[258,5000,1025]` and `(248,5006)`. This independently recovered exact result and its radial obstruction were also recorded in the shared journal.
 
 ### Stage 2 — row-54 to active connected shared volume
 
@@ -134,7 +134,7 @@ are active. They form a rank-four positive-volume regular cell, and
 6001 - 6004 - 6007 - 6009
 ```
 
-is a literal true-edge route from the stable side to the saddle side. The old row-54 stable and saddle are absent. The exact shared-volume endpoint is `(68,182,116)`, strict `(2,1,1)`, with transferred pair `[257,258,6001]` and `(248,6009)`. Its full exact construction, 18-coordinate `2^-36` chamber, clean-room reconstruction, and meshes were independently integrated in the later journal. :contentReference[oaicite:2]{index=2}
+is a literal true-edge route from the stable side to the saddle side. The old row-54 stable and saddle are absent. The exact shared-volume endpoint is `(68,182,116)`, strict `(2,1,1)`, with transferred pair `[257,258,6001]` and `(248,6009)`. Its full exact construction, 18-coordinate `2^-36` chamber, clean-room reconstruction, and meshes were independently integrated in the later journal.
 
 ### Stage 3 — active-connected endpoint to the present endpoint
 
@@ -144,10 +144,10 @@ This third step is certified as an exact open descendant, not promoted as one el
 
 Consequently the complete result is an exact **two-stage full-dimensional escape chain plus an exact open descendant**, not the requested single T37-to-winner cancellation wall. The distinction is encoded explicitly in the certificate.
 
-- [Exact transition-lineage certificate](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/transition_lineage_certificate.json)
-- [Lineage certificate builder](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/build_transition_lineage_certificate.py)
-- [Independent lineage replay](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/verify_transition_lineage.py)
-- [Independent lineage replay transcript](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/verify_transition_lineage.log)
+- Exact transition-lineage certificate (`transition_lineage_certificate.json`)
+- Lineage certificate builder (`build_transition_lineage_certificate.py`)
+- Independent lineage replay (`verify_transition_lineage.py`)
+- Independent lineage replay transcript (`verify_transition_lineage.log`)
 
 The independent replay ends with
 
@@ -198,9 +198,9 @@ S >= 2.
 
 This is a chamber theorem, not merely an endpoint classification. Coordinate polishing inside this sign cell cannot win.
 
-- [Complete exact external-arrow census](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/complete_external_arrow_census.json)
-- [Focused forcing-edge theorem](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/polar_forcing_edge_certificate.json)
-- [Independent census builder](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/build_external_arrow_census.py)
+- Complete exact external-arrow census (`complete_external_arrow_census.json`)
+- Focused forcing-edge theorem (`polar_forcing_edge_certificate.json`)
+- Independent census builder (`build_external_arrow_census.py`)
 
 The exact census reports
 
@@ -211,7 +211,7 @@ forcing edges 6
 nonbase forcing edges [(258,6001),(259,6001)].
 ```
 
-This confirms the broader run's strengthened design rule: external-arrow antibirth conditions must cover every inserted edge and every inherited edge whose incident star changes, not only the nominal new carrier. :contentReference[oaicite:3]{index=3}
+This confirms the broader run's strengthened design rule: external-arrow antibirth conditions must cover every inserted edge and every inherited edge whose incident star changes, not only the nominal new carrier.
 
 ## Exact perturbation neighbourhood
 
@@ -237,8 +237,8 @@ Outward exact rational interval arithmetic recomputes an enclosure of the body's
 - all four components of every true-edge cone;
 - the exact strict class `(2,1,1)`.
 
-- [Exact perturbation-box certificate](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/perturbation_box_certificate.json)
-- [Independent interval verifier](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/verify_interval.py)
+- Exact perturbation-box certificate (`perturbation_box_certificate.json`)
+- Independent interval verifier (`verify_interval.py`)
 
 The verifier reports
 
@@ -277,9 +277,9 @@ delete 6001 and 6008:
 
 Deleting one left carrier and one right carrier therefore does not suffice. This closes only the stated 37 actual subhulls, not arbitrary simultaneous row motion or a new prismatic cell.
 
-- [Exact 37-cell deletion atlas](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/exact_local_deletion_atlas.json)
-- [Atlas constructor](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/build_exact_local_deletion_atlas.py)
-- [Atlas replay transcript](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/build_exact_local_deletion_atlas.log)
+- Exact 37-cell deletion atlas (`exact_local_deletion_atlas.json`)
+- Atlas constructor (`build_exact_local_deletion_atlas.py`)
+- Atlas replay transcript (`build_exact_local_deletion_atlas.log`)
 
 The transcript ends with
 
@@ -350,12 +350,12 @@ The robust combinatorial budget is eight connected new extreme supports arranged
 
 The clean-room verifier does not replay asserted equilibrium labels. It reads the final exact V-data, reconstructs supporting planes and incidence, recomputes exact ordinary mass and centroid, audits every face, vertex, and four-component edge cone, rebuilds the complete external-arrow census, and checks mesh parity.
 
-- [Independent exact verifier](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/verify_independent.py)
-- [Independent verification transcript](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/verify_independent.log)
-- [GMP all-triple hull verifier source](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/verify_exact_hull_gmp.cpp)
-- [GMP verification transcript](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/verify_exact_hull_gmp.log)
-- [Watertight OBJ](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Keen_Quartz_89_M42_active_pair_exact_NONWINNER/body.stl)
+- Independent exact verifier (`verify_independent.py`)
+- Independent verification transcript (`verify_independent.log`)
+- GMP all-triple hull verifier source (`verify_exact_hull_gmp.cpp`)
+- GMP verification transcript (`verify_exact_hull_gmp.log`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 The independently reconstructed display mesh has 67 vertices, 130 triangles, and 195 mesh edges; every mesh edge has multiplicity two and the mesh Euler characteristic is two.
 

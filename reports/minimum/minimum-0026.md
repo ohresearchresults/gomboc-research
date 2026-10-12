@@ -12,11 +12,11 @@ AI research report · 2026-09-08 UTC · [Export notes](../../catalog/coverage.md
 
 The certificate closes **one whole nonpyramidal type and all 15 of its joint-root orbits**. It comprises 4,067 rooted-tree certificates and 35,392 integer positive-definite matrices. A separately written standard-library verifier checked every matrix by fraction-free Bareiss/Sylvester elimination and, more strongly, verified `R-I > 0` for every certificate matrix. Four clean reconstructions—two direct and two executed by the literal capsule below—produced identical certificate and transcript bytes.
 
-**No global C>=34 theorem and no C32 attainer are claimed.** The inherited bracket remains `32 <= C_min <= 1374`. The lower-bound and upper-construction provenance is inherited, not independently re-proved here. The supplied current register distinguishes the accepted wheel exclusion from the separately preserved map295/U7 result; that distinction is retained below. :contentReference[oaicite:0]{index=0}
+**No global C>=34 theorem and no C32 attainer are claimed.** The inherited bracket remains `32 <= C_min <= 1374`. The lower-bound and upper-construction provenance is inherited, not independently re-proved here. The supplied current register distinguishes the accepted wheel exclusion from the separately preserved map295/U7 result; that distinction is retained below.
 
 ## 1. Authority and literal type identity
 
-The immutable analytical parent is `minimum-0024`, SHA-256 `b578a01ead261c6f7745122c22f4bb4767884e46ac46e1531b4e749a19332f95`, entitled `NOVA24_F9_SYNTHESIS_AND_RECIPROCAL_ACTUAL_TRACE_V1`. Its envelope authenticated at 57,975 bytes. Its Markdown, including terminal LF, has 57,109 bytes and SHA-256 `927f610bfdf4e8a21074a32aa5581fffe4e1725727bf7ec848a22a26db66b6c3`. No parent/alias conflict was found. The accepted `F>=9`, `V>=9` and C32 f-vector reduction are parent results, not new computations in this handoff. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The immutable analytical parent is `minimum-0024`, SHA-256 `b578a01ead261c6f7745122c22f4bb4767884e46ac46e1531b4e749a19332f95`, entitled `NOVA24_F9_SYNTHESIS_AND_RECIPROCAL_ACTUAL_TRACE_V1`. Its envelope authenticated at 57,975 bytes. Its Markdown, including terminal LF, has 57,109 bytes and SHA-256 `927f610bfdf4e8a21074a32aa5581fffe4e1725727bf7ec848a22a26db66b6c3`. No parent/alias conflict was found. The accepted `F>=9`, `V>=9` and C32 f-vector reduction are parent results, not new computations in this handoff.
 
 The canonical catalogue used here is exactly `c32_catalogue.json`, 240,929 bytes, SHA-256 `efb10a4657a891cd13f6f62db94164bd4b3005e908dc55aae87db450930f704d`. Its incidence layer is 329,358 bytes, SHA-256 `8954c59d7ca3fe9c12711833222fe77cf3d1a2f57d9705f656c4e484dcec88e0`. The literal maximal facet cycles defining the newly excluded type are:
 
@@ -68,9 +68,9 @@ H = Q0 M^(-1) Q0^T,
 M > 0.
 ```
 
-In particular, no independently adjustable inverse block is substituted for `M^(-1)`. The preserved false-centering control proves why the weaker joint identity, actual column masses and rank-three common geometry are insufficient without the area gate. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+In particular, no independently adjustable inverse block is substituted for `M^(-1)`. The preserved false-centering control proves why the weaker joint identity, actual column masses and rank-three common geometry are insufficient without the area gate.
 
-For actual B, integration gives `SBS+S=4J-4(Qg)1^T`, where g is the ordinary-volume centroid. Consequently the hard gate and `SBS+S=4J` give `Qg=0`, hence `g=0` because Q has rank three. This is the point at which physical centering enters the exclusion. :contentReference[oaicite:5]{index=5}
+For actual B, integration gives `SBS+S=4J-4(Qg)1^T`, where g is the ordinary-volume centroid. Consequently the hard gate and `SBS+S=4J` give `Qg=0`, hence `g=0` because Q has rank three. This is the point at which physical centering enters the exclusion.
 
 The successful route was not a numerical solution of these equations followed by a metric relaxation. It was an exact contradiction valid for **every** actual solution of them: express several genuine tetrahedralizations of the same solid, with their actual determinant weights, and certify the resulting entire vertex-escape disjunction. Excluding this larger necessary set excludes the full hard-gated model. Nothing is inferred from feasibility of a relaxed PSD block.
 
@@ -187,13 +187,13 @@ Q0_R = I,
 8/27 <= Vol(P0) <= 64.
 ```
 
-All 84 maximizing-chart choices and ties are retained. These are inherited global bounds, not fitted boxes. :contentReference[oaicite:6]{index=6}
+All 84 maximizing-chart choices and ties are retained. These are inherited global bounds, not fitted boxes.
 
 Let C0 be the **actual** ordinary-volume covariance of P0. The inherited inertia inclusions are
 
 `sqrt(5/3) C0^(1/2) B2 subset P0 subset sqrt(15) C0^(1/2) B2`.
 
-They follow from actual tetrahedral second moments and the Berwald inequality; their spectral consequences for a physical 110 body are the two eigenvalue ratios at most nine. :contentReference[oaicite:7]{index=7} :contentReference[oaicite:8]{index=8}
+They follow from actual tetrahedral second moments and the Berwald inequality; their spectral consequences for a physical 110 body are the two eigenvalue ratios at most nine.
 
 The contained cube has support at least 1/3 in every unit direction. The outer inertia inclusion therefore gives `C0 >= I/135`. Each selected pole is e_i, hence `h_P0(e_i)=1`. The inner inclusion gives `(C0)_ii<=3/5`, so
 
@@ -415,8 +415,8 @@ Relative to the accepted full-type baseline in the supplied journal, the newly s
 
 That is **294 types and 21,660 canonical joint-root orbits**, with each remaining orbit given by that type's `joint_root_representatives` in the pinned catalogue. The present result removes exactly the 15 literal type294 pairs listed above and no root of another type.
 
-The separately preserved map295/U7 theorem, if incorporated with its own complete capsule, additionally removes exactly `(295,7,0)`, `(295,7,1)`, `(295,7,5)`, leaving **21,657** joint-root domains. That is separate preserved evidence, not a new immutable result or a new computation claimed here. The current journal explicitly records its status. :contentReference[oaicite:9]{index=9}
+The separately preserved map295/U7 theorem, if incorporated with its own complete capsule, additionally removes exactly `(295,7,0)`, `(295,7,1)`, `(295,7,5)`, leaving **21,657** joint-root domains. That is separate preserved evidence, not a new immutable result or a new computation claimed here. The current journal explicitly records its status.
 
 The useful continuation is to reuse the exact uniform multifan contradiction before attempting bounded-domain subdivision on another type. In particular, alternate diagonals of actual nonsimplicial facets should enter the fan list explicitly: they supplied all three final closures here. The same proof engine can be used inside the bounded 84-chart model with `M>=I/22113` and `N=M^(-1)` for branches not closed by a uniform index certificate. This handoff supplies no exclusion of those remaining domains and no claimed feasibility of their complement.
 
-A supplementary [complete materialized certificate and source archive](sandbox:/mnt/data/C32_TYPE294_WHOLE_ACTUAL_U_GE_2_V1.zip) is saved in Library as `/C32_TYPE294_WHOLE_ACTUAL_U_GE_2_V1.zip`. It has **1,132,413 bytes**, SHA-256 **8ab3f88a750fdf293a28590c6452f5315c5b60e202f35ca5f1bacb5709e2e543**. All nine archive members and the eight manifest-bound payloads were checked after packaging. The inline theorem and complete reconstruction capsule, not this link, are the recovery authority.
+A supplementary complete materialized certificate and source archive (`C32_TYPE294_WHOLE_ACTUAL_U_GE_2_V1.zip`) is saved in Library as `/C32_TYPE294_WHOLE_ACTUAL_U_GE_2_V1.zip`. It has **1,132,413 bytes**, SHA-256 **8ab3f88a750fdf293a28590c6452f5315c5b60e202f35ca5f1bacb5709e2e543**. All nine archive members and the eight manifest-bound payloads were checked after packaging. The inline theorem and complete reconstruction capsule, not this link, are the recovery authority.

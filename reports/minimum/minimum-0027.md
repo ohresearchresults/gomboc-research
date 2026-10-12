@@ -21,7 +21,7 @@ The decisive object is small: **56 rational positive-definite 9-by-9 matrices**,
 The frozen main attachment has 2,776,300 UTF-8 bytes and SHA-256 `068aac87bb25a759cf3db97a83f7aaa29ecedbf14f33c5fc06d89bec87ff3eb5`. The immutable authorities are:
 
 - `minimum-0009`, SHA-256 `6f905a98d5d84d11e1369aebb34643ad59248a2485b95270c59bb52c48b92326`, **RAVEN_C30_CONE_FRONTIER_V1**. Only its generic physical cone theorem and exact source machinery are imported; its historical C30 counts and bound are superseded.
-- `minimum-0023`, SHA-256 `e98bce6278e66a9d3f6c8f0863d55e65cc1a1ebb3c239742c782107c5cc61815`, **C32_COMMON_MASS_VARIANCE_KERNEL_V1**. Its actual-apex moment identities are used, not its separate finite control or a substitute polar centroid. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+- `minimum-0023`, SHA-256 `e98bce6278e66a9d3f6c8f0863d55e65cc1a1ebb3c239742c782107c5cc61815`, **C32_COMMON_MASS_VARIANCE_KERNEL_V1**. Its actual-apex moment identities are used, not its separate finite control or a substitute polar centroid.
 
 The exact type binding is the following ordered maximal-facet list:
 
@@ -55,7 +55,7 @@ All indices are zero-based. The root entry is `-1`. Their leaf-to-root orders ar
 0-1-4-2-5-6-7-8-3.
 ```
 
-Every non-tree true edge has both directed escapes strictly negative in an actual candidate. That consequence is preserved, but the new certificate is stronger: after reduction, its multipliers on **all chord signs and all separate norm-order inequalities can be removed**. The eight tree inequalities alone contradict the two actual-apex moment identities. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+Every non-tree true edge has both directed escapes strictly negative in an actual candidate. That consequence is preserved, but the new certificate is stronger: after reduction, its multipliers on **all chord signs and all separate norm-order inequalities can be removed**. The eight tree inequalities alone contradict the two actual-apex moment identities.
 
 I reconstructed and ran the existing frontier replay in this turn. It reproduced `type53_root3_frontier.json`, **19,458 bytes**, SHA-256 `4815ddae52600fbc09e7e7b5a8993a4280de85d028c4eb43a2bae94f23899f3c`, and the markers `EXHAUSTIVE_TYPE53_ROOT3_TREES_KIRCHHOFF_PASS 2626` and `EXACT_OLD_NEW_REMAINING_PARTITION_PASS 2614 8 4`. The old driver was 4,215 bytes, SHA-256 `f35f1c5010909dd450b798c88ff1f32c155348eca99ec45d5441f6cbf3598332`.
 
@@ -106,7 +106,7 @@ For a physical affine chart the common Jacobian cancels in these ratios. With `c
 \tag{1}
 \]
 
-The second equality follows because a uniform tetrahedron has centroid one quarter of its vertex sum. Both equalities refer to the **same actual polyhedron and actual centroid**. These are precisely the parent’s physical, rather than independently assigned, mass identities. :contentReference[oaicite:4]{index=4}
+The second equality follows because a uniform tetrahedron has centroid one quarter of its vertex sum. Both equalities refer to the **same actual polyhedron and actual centroid**. These are precisely the parent’s physical, rather than independently assigned, mass identities.
 
 ### 3.2 Two-apex cancellation lemma
 
@@ -224,7 +224,7 @@ Then `sum alpha_i<=B`, while the exact trace identity and the shifted-PD bound g
 
 Single-apex common-direction searches and direct physical-coordinate searches did not supply a conclusion. The successful change was to allow opposite vertex-index offsets for two decompositions of the same material body. A first numerical locator used all nine apices; removing seven apices left the pair `(3,6)`. Removing every chord and norm-difference multiplier then left only the eight weak escape forms. Rounding the resulting coefficients to half-integers produced the literal exact certificate below.
 
-Numerical proposal generation used CPython 3.13.5, NumPy 2.3.5 and SciPy 1.17.0. It is not a proof or reconstruction dependency: the printed exact coefficients plus the complete exact generator and independent verifier reproduce the finding without any numerical optimization. The SDP-to-exact-certificate strategy has published methodological precedent; that literature is not the source of this type-specific theorem or the stronger inherited project bounds. No historical-priority claim is made. :contentReference[oaicite:5]{index=5}
+Numerical proposal generation used CPython 3.13.5, NumPy 2.3.5 and SciPy 1.17.0. It is not a proof or reconstruction dependency: the printed exact coefficients plus the complete exact generator and independent verifier reproduce the finding without any numerical optimization. The SDP-to-exact-certificate strategy has published methodological precedent; that literature is not the source of this type-specific theorem or the stronger inherited project bounds. No historical-priority claim is made.
 
 The result is supported by two independently written arithmetic reconstructions, not a claim of external peer review. Within the stipulated starting theorem, **nothing remains unresolved in canonical53/U3**. Other unstable-root domains and the global minimum remain outside this determination. The useful continuation is to remove these nine joint-root orbits from the working frontier and apply the same cancelling-offset two-apex test to other surviving roots before resorting to larger common-kernel analyses.
 
@@ -413,6 +413,6 @@ Exact source and output pins:
 
 The archive manifest itself has **1,628 bytes**, SHA-256 `a408db794ec51c57de959813ca140de961ef2cb0a8218b4e99745716438df7b6`.
 
-Convenience artifacts: [exact sources, certificates, and replay logs](sandbox:/mnt/data/C32_TYPE53_ROOT3_ACTUAL_TWO_APEX_EXCLUSION_V1.zip), and [this complete self-contained handoff](sandbox:/mnt/data/C32_TYPE53_ROOT3_ACTUAL_TWO_APEX_EXCLUSION_V1.md). The ZIP has **40,651 bytes**, SHA-256 `c36a90530d6af3affa77edd596c2e15f7c48bf5e3521c448546dad0618fd5b91`. Its thirteen members are the twelve pinned files and their manifest. These links supplement, rather than replace, the complete inline capsule.
+Convenience artifacts: exact sources, certificates, and replay logs (`C32_TYPE53_ROOT3_ACTUAL_TWO_APEX_EXCLUSION_V1.zip`), and this complete self-contained handoff (`C32_TYPE53_ROOT3_ACTUAL_TWO_APEX_EXCLUSION_V1.md`). The ZIP has **40,651 bytes**, SHA-256 `c36a90530d6af3affa77edd596c2e15f7c48bf5e3521c448546dad0618fd5b91`. Its thirteen members are the twelve pinned files and their manifest. These links supplement, rather than replace, the complete inline capsule.
 
 **Final scope:** canonical C32 type53, unique unstable vertex 3, all physical realizations and all paired reciprocal metrics: **excluded**. All four inherited Hamiltonian paths: **closed**. Other roots and the global C32 minimum: **not determined here**.

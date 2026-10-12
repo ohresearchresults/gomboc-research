@@ -10,7 +10,7 @@ AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md
 
 **No smaller attaining body is claimed. I obtained an exact, finite geometric obstruction for the protected triangular-patch cancellation, together with a complete cycle-compatible two-arrow target for the next search.** The obstruction allows arbitrary motion of the unwanted facet134 pole and arbitrary geometry elsewhere; it is not merely persistence of strict equilibria inside a small neighborhood of the entire polytope.
 
-The starting object remains the exact protected body with V/E/F=175/309/136, C618, own strict(S,U,H)=(2,2,2), physicalweak000, and M=N=I. The accepted attaining upper endpoint remains canonical C622; the inherited bracket is unchanged. The parent identifies stable facets3,134, unstable raw-lex vertices93,160, and saddle edges(5,93),(160,163). These are the parent's new labels, not canonical old labels or a projective delete78 identity. :contentReference[oaicite:0]{index=0}
+The starting object remains the exact protected body with V/E/F=175/309/136, C618, own strict(S,U,H)=(2,2,2), physicalweak000, and M=N=I. The accepted attaining upper endpoint remains canonical C622; the inherited bracket is unchanged. The parent identifies stable facets3,134, unstable raw-lex vertices93,160, and saddle edges(5,93),(160,163). These are the parent's new labels, not canonical old labels or a projective delete78 identity.
 
 ## 1. Input authority and executed evidence
 
@@ -67,7 +67,7 @@ For any genuine realization of this same lattice, at its actual centroid and wit
 
 ## 3. Finite frozen-ridge obstruction: rotating facet134 alone cannot reach its admissible exit
 
-The unwanted triangle is134=[5,10,93], with neighbors5,6,8. The parent already establishes the nonsimple nature of the patch and the genuine independent plane actuators99,135. :contentReference[oaicite:1]{index=1}
+The unwanted triangle is134=[5,10,93], with neighbors5,6,8. The parent already establishes the nonsimple nature of the patch and the genuine independent plane actuators99,135.
 
 Fix the actual centered vectors
 
@@ -378,4 +378,4 @@ for name, text in files.items():
 print('LOCKED_PATCH_SOURCE_RECOVERY_PASS', len(files))
 ```
 
-Convenience copies: [standalone recovery source](sandbox:/mnt/data/recover_locked_patch.py) and [exact certificate report](sandbox:/mnt/data/LOCKED_PATCH.json). These supplement the complete embedded recovery, not replace it.
+Convenience copies: standalone recovery source (`recover_locked_patch.py`) and exact certificate report (`LOCKED_PATCH.json`). These supplement the complete embedded recovery, not replace it.

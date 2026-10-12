@@ -736,4 +736,4 @@ C84_H16_FRAGMENT_G5 1157819 aecf30dcf782df29d7e5b9c05ba99e38d4c59baede5eea5ff6d4
 
 All other exact input/audit receipts are in `OBJECTS.json`. For numerical-method continuation, `python RUN_SEARCHES.py main`, `compact`, `enriched`, `halfspace`, or `turnover` runs the corresponding source-complete route; `all` runs every listed route. This numerical replay is separate from exact acceptance.
 
-Convenience copies, not dependencies of the embedded recovery: [recovery script](sandbox:/mnt/data/RECOVER_STEADY_RAVEN.py) and [complete sources and generated certificates](sandbox:/mnt/data/steady_raven_sources_and_certificates.zip). The archive is 6,897,173 bytes, SHA-256 `6f7a45bf93c7e1d59346e9a4d7acb4f618913fc668e287a9c06f7a1cd408e61b`.
+Convenience copies, not dependencies of the embedded recovery: recovery script (`RECOVER_STEADY_RAVEN.py`) and complete sources and generated certificates (`steady_raven_sources_and_certificates.zip`). The archive is 6,897,173 bytes, SHA-256 `6f7a45bf93c7e1d59346e9a4d7acb4f618913fc668e287a9c06f7a1cd408e61b`.

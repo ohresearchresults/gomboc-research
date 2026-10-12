@@ -8,7 +8,7 @@ AI research report · 2026-08-26 UTC
 
 No finite homogeneous convex polyhedral Gömböc was certified in this turn. The strongest newly materialized theorem-guided body is a deterministic finite inward-halfspace construction with one stable face but an open residual unstable–saddle pair. At the construction center its class is `(S,U,H)=(1,2,1)`; at its own uniform-volume centroid it is `(8,4,10)`. It therefore fails the required own-centroid `(1,1,0)` gate. The exact eight-vertex `(2,2,2)` body from the resolved branch remains the strongest fully exact finite fallback, but it is secondary rather than the primary construction reported here.
 
-The run’s acceptance gate requires a materialized uniform-density polyhedron evaluated at its own exact volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle edges, complete incidence reconstruction, strict margins, independent verification, and OBJ/STL. A smooth source, auxiliary-center result, wall point, or unexpanded existence construction is insufficient. :contentReference[oaicite:4]{index=4}
+The run’s acceptance gate requires a materialized uniform-density polyhedron evaluated at its own exact volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle edges, complete incidence reconstruction, strict margins, independent verification, and OBJ/STL. A smooth source, auxiliary-center result, wall point, or unexpanded existence construction is insufficient.
 
 # What was implemented
 
@@ -18,7 +18,7 @@ I implemented the three geometric parts of Lángi’s proof as an explicit finit
 2. a three-plane concurrent unstable fan at an interior apex near the smooth radial maximum;
 3. a deterministic noncritical spiral of inward-shifted smooth supporting planes, with a row-by-row projection-foot exclusion inequality.
 
-The proof source constructs the stable neighborhood by a near-parallel truncating plane followed by finitely many additional truncations, and constructs the unstable neighborhood from a radially decreasing polygonal curve whose rotated copies form a conical fan. :contentReference[oaicite:1]{index=1} Its centroid correction uses four disjoint base polygons and pyramidal cones whose first moments are `(alpha_i tau_i + beta_i tau_i^2) w_i`; the four directions positively span the origin, making the moment map locally surjective. :contentReference[oaicite:2]{index=2}
+The proof source constructs the stable neighborhood by a near-parallel truncating plane followed by finitely many additional truncations, and constructs the unstable neighborhood from a radially decreasing polygonal curve whose rotated copies form a conical fan. Its centroid correction uses four disjoint base polygons and pyramidal cones whose first moments are `(alpha_i tau_i + beta_i tau_i^2) w_i`; the four directions positively span the origin, making the moment map locally surjective.
 
 The new computation materially advances that architecture: the noncritical halfspaces are no longer sampled quasi-uniformly, and every generated row is an inward shift of an actual support plane of the certified Fourier seed. It nevertheless exposes two finite failures: the unstable fan does not control the final active maximum, and the existing safe facets do not contain a feasible four-actuator moment cone.
 
@@ -315,14 +315,14 @@ Only after an open construction-center `(1,1,0)` chamber and a feasible four-act
 
 # Reproducible artifacts
 
-- [Literal spiral generator](sandbox:/mnt/data/langi_k3_work/spiral_cover.py)
-- [Independent polar H/V reconstruction and full-normal-cone auditor](sandbox:/mnt/data/langi_k3_work/polar_fast.py)
-- [Materialized W=8 theorem-guided body](sandbox:/mnt/data/langi_k3_work/SPIRAL_b0.00625_a-0.3333333333333333_W8.pkl)
-- [Construction scan transcript](sandbox:/mnt/data/langi_k3_work/spiral_cover.log)
-- [Apparent-winner scan transcript](sandbox:/mnt/data/langi_k3_work/scan_spiral_params.log)
-- [Zero-threshold target inspection](sandbox:/mnt/data/langi_k3_work/inspect_spiral_targets.log)
-- [Four-actuator enumeration code](sandbox:/mnt/data/langi_k3_work/analyze_spiral_actuators_fast.py)
-- [Four-actuator result transcript](sandbox:/mnt/data/langi_k3_work/analyze_spiral_actuators_fast.log)
-- [Exact certified eight-vertex secondary bundle](sandbox:/mnt/data/fourier_k3_resolved_branch_bundle.zip)
+- Literal spiral generator (`spiral_cover.py`)
+- Independent polar H/V reconstruction and full-normal-cone auditor (`polar_fast.py`)
+- Materialized W=8 theorem-guided body (`SPIRAL_b0.00625_a-0.3333333333333333_W8.pkl`)
+- Construction scan transcript (`spiral_cover.log`)
+- Apparent-winner scan transcript (`scan_spiral_params.log`)
+- Zero-threshold target inspection (`inspect_spiral_targets.log`)
+- Four-actuator enumeration code (`analyze_spiral_actuators_fast.py`)
+- Four-actuator result transcript (`analyze_spiral_actuators_fast.log`)
+- Exact certified eight-vertex secondary bundle (`fourier_k3_resolved_branch_bundle.zip`)
 
 No OBJ/STL or exact rational certificate is emitted for the new spiral body because its own-centroid class is not the target and the absolute-margin construction is insufficiently separated for rationalization.

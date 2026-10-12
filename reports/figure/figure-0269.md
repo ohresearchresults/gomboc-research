@@ -63,10 +63,10 @@ A clean extraction passed the complete manifest and `./verify_all.sh`. The finit
 
 ## Complete handoff and immutable archive
 
-[Read the complete exact research handoff](sandbox:/mnt/data/Bright_Nova_91_crossed_base_seventh_stage_HANDOFF.md)
+Read the complete exact research handoff (`Bright_Nova_91_crossed_base_seventh_stage_HANDOFF.md`)
 
-[Download the complete exact archive](sandbox:/mnt/data/Bright_Nova_91_crossed_base_seventh_stage_exact_NONWINNER.zip)
+Download the complete exact archive (`Bright_Nova_91_crossed_base_seventh_stage_exact_NONWINNER.zip`)
 
-[Download the archive SHA-256 record](sandbox:/mnt/data/Bright_Nova_91_crossed_base_seventh_stage_exact_NONWINNER.zip.sha256)
+Download the archive SHA-256 record (`Bright_Nova_91_crossed_base_seventh_stage_exact_NONWINNER.zip.sha256`)
 
 The handoff identifies the exact terminal residual component, distinguishes its forced and already-nonpositive arrow channels, records the first death-before-birth failure on the claimed path, and specifies the first genuinely unrepresented connected successor topology. The rational M42 `(61,163,104)`, strict `(2,1,1)`, remains the run-wide equilibrium-count benchmark.

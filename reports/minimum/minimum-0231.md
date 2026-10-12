@@ -20,7 +20,7 @@ This is a strict enlargement of the preceding `HEPTAGON_TRIANGLE_FULL_11D_ALL_RO
 
 The decisive new mechanism is a full-dimensional compactification of both ends of the rho-axis, followed by a closed, all-root PSD-stress cover. Neither end is removed by a numerical cutoff. The result also supplies an actual-centred coordinate collar `2^-27` and an **uncentred-vertex, true-refill collar `2^-42`** for the same maximal facet cycles.
 
-The immutable H5 parent remains `minimum-0229`, SHA-256 `325b2943769ef476fd483b07ac9289dcfd2b090aef1847f44a0df8e59eabd187`. Its literal three-arrow identity is still **D28, D43, E86**; it was not a complete U1/S1 witness. Its separately feasible packet and uncapped 233 controls are not contradicted by a complete-tree exclusion. fileciteturn0file2L866-L874 fileciteturn0file2L1163-L1165
+The immutable H5 parent remains `minimum-0229`, SHA-256 `325b2943769ef476fd483b07ac9289dcfd2b090aef1847f44a0df8e59eabd187`. Its literal three-arrow identity is still **D28, D43, E86**; it was not a complete U1/S1 witness. Its separately feasible packet and uncapped 233 controls are not contradicted by a complete-tree exclusion.
 
 The direct completed predecessor is pinned by its verifier SHA-256 `a57134241fed56c8db1c2afbed7656f4a74dc7c2c1de6cd2e3b14c33715c6ec5` and report SHA-256 `011bd02590062b948a4071cb11954fad56068b5983a579bf9dd0f5d3cef71581`. The new verifier is autonomous; it does not import that predecessor's implementation.
 
@@ -39,7 +39,7 @@ Keep the closed independent basal intervals:
 | u | [19/400,21/400] |
 | v | [3/80,17/400] |
 
-These retain the original eight variables and labels. fileciteturn0file2L880-L908 Introduce the new independent parameters
+These retain the original eight variables and labels. Introduce the new independent parameters
 
 ```
 0 <= lambda <= 1,       -1/25 <= sigma,tau <= 1/25,
@@ -67,7 +67,7 @@ FACES=(
 EDGES=01,06,07,12,18,23,28,34,39,45,49,56,57,67,78,79,89.
 ```
 
-These are the literal H5 incidences, not a projected surrogate or an integration triangulation. fileciteturn0file2L916-L930 The base is z=0 and the top support is `sigma*x+tau*y+z=1`.
+These are the literal H5 incidences, not a projected surrogate or an integration triangulation. The base is z=0 and the top support is `sigma*x+tau*y+z=1`.
 
 ### Exact relation to the original unbounded chart
 
@@ -209,7 +209,7 @@ The reported exact guard-stream SHA-256 is `dfd648307e65ffdfb8d0baf1fb6830a89072
 
 ### Exact capped-hull implication
 
-At each fixed actual body, genuine normalized atoms use `P=M/tr(CM)` and `Q=M^-1/tr(C^-1 M^-1)`. Their convex combinations retain `Pbar>0` and `tr(C Pbar)=1`. This is the supplied coupled-hull normalization, not independent selection of two alleged physical metrics. fileciteturn0file1L7-L24
+At each fixed actual body, genuine normalized atoms use `P=M/tr(CM)` and `Q=M^-1/tr(C^-1 M^-1)`. Their convex combinations retain `Pbar>0` and `tr(C Pbar)=1`. This is the supplied coupled-hull normalization, not independent selection of two alleged physical metrics.
 
 Since C<4I, `tr(Pbar)>1/4`. The tree's certified support consequently obeys
 
@@ -299,7 +299,7 @@ The numerical locator was used only to find integer stresses and select a cover.
 
 These are author executions and a source-only cold reconstruction, not a second-author audit or proof-assistant formalization. All original source dependencies were available; no missing archive object is used to support a new claim.
 
-**Uncovered alternatives in the stated new domain: none.** Outside it, the remaining basal moduli and the rest of the positive-projective domain are not closed. No whole incidence, canonical rooted registry, or full E17 layer is claimed excluded. The accepted global interval remains **34<=C_min<=622**, with attainment separate. fileciteturn0file2L9-L11
+**Uncovered alternatives in the stated new domain: none.** Outside it, the remaining basal moduli and the rest of the positive-projective domain are not closed. No whole incidence, canonical rooted registry, or full E17 layer is claimed excluded. The accepted global interval remains **34<=C_min<=622**, with attainment separate.
 
 A complete capped-hull witness must now be sought outside this enlarged domain and its stated collars. Further rho sampling inside it cannot supply one. The productive continuation is to vary the basal moduli or leave the normalized transverse square, first checking whether any complete actual primal tree cone survives before pursuing nonlinear common-inverse separation.
 
@@ -349,7 +349,7 @@ The wrapper also verifies the parent-library audit and emits `HEPTAGON_ALL_RHO_C
 | Exact build/check stdout | 465 | 3b728209d7d431486bb091956421d1cc7e1ed920f80ee92ad9cd4cd83bfdd257 |
 | heptagon_parent_pool_audit.json | 1652 | 06950f296e5c580c229c0580e8e23cfe403d28d6771767d5f24fd6f50003b553 |
 
-Supplementary copies: [complete recovery bundle](sandbox:/mnt/data/heptagon_all_rho_recovery.zip), [readable exact verifier](sandbox:/mnt/data/heptagon_all_rho.py), and [complete exact report](sandbox:/mnt/data/heptagon_all_rho.json). None is required by the literal capsule.
+Supplementary copies: complete recovery bundle (`heptagon_all_rho_recovery.zip`), readable exact verifier (`heptagon_all_rho.py`), and complete exact report (`heptagon_all_rho.json`). None is required by the literal capsule.
 
 ### Complete lossless capsule
 

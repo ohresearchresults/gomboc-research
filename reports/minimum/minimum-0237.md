@@ -21,7 +21,7 @@ For every complete rooted tree, an applicable positive-weight stencil satisfies
 
 The exclusion also holds for genuine same-labelled-lattice bodies within **uncentred matched-vertex distance \(2^{-31}\)** of the family, after recomputing their own volume centroids. An explicit eleven-parameter cylinder with transverse radius **\(2^{-34}\)** follows below.
 
-This resolves the parent's actual limitation: its unrestricted statement covered only T0, while its all-root statement required coordinate \(\kappa(M)\le3\). The result is not merely an enlargement of either sector. fileciteturn0file0L994-L1000
+This resolves the parent's actual limitation: its unrestricted statement covered only T0, while its all-root statement required coordinate \(\kappa(M)\le3\). The result is not merely an enlargement of either sector.
 
 ## 2. Exact physical domain and actual moments
 
@@ -48,7 +48,7 @@ z_8&=(1/2,0,1),&z_9&=(0,1/2,1).
 \end{aligned}
 \]
 
-Thus \(b=q=a=1/4,d=3/4,u=v=1/16,\lambda=1/2\), \(c=1-3x/4\), \(p=3y/4\), and \(\rho=1\). The entire interior is outside the old basal box, already because \(q=1/4\). These are exactly the supplied new-domain coordinates, not an incidence alias. fileciteturn0file0L1233-L1267
+Thus \(b=q=a=1/4,d=3/4,u=v=1/16,\lambda=1/2\), \(c=1-3x/4\), \(p=3y/4\), and \(\rho=1\). The entire interior is outside the old basal box, already because \(q=1/4\). These are exactly the supplied new-domain coordinates, not an incidence alias.
 
 For \(0<x,y<1\), the body has the displayed genuine 10/17/9 lattice. Boundary points are the actual positive-volume lower-vertex limits with refinement labels; they are not counted as additional E17 bodies. The labelled polynomial tree certificates include every boundary point.
 
@@ -116,7 +116,7 @@ with \(R\) biquadratic. The generally indefinite mixed coefficient is retained e
 -\frac{t_1-s_1+t_2-s_2}{4}\right)\operatorname{sym}(ef^T).
 \]
 
-The cubic and mixed identities are checked for all 34 individual arrows, hence for every stored stress by linearity. No power-coefficient PSD shortcut is used. fileciteturn0file0L1141-L1163 fileciteturn0file0L1222-L1231
+The cubic and mixed identities are checked for all 34 individual arrows, hence for every stored stress by linearity. No power-coefficient PSD shortcut is used.
 
 For a subrectangle \([a,b]\times[c,d]\), substitute \(x=a+(b-a)s\), \(y=c+(d-c)t\), and subtract
 
@@ -231,7 +231,7 @@ H5_CORNER_CUT_PASS 150 216 4879 48790 439110 9 2
 REPORT_BYTES_SHA256 9622 4c81cf492b619b919b2ee3677e0482f547276c5290fec2242a9313ef5753bd73
 ```
 
-The new locator sought common nonnegative weights for the nine coefficient matrices of uncovered trees, using eigenvector cutting planes and `scipy.optimize.linprog(method='highs-ds')`. The LP only locates weights; exact rational matrices determine acceptance. citeturn655463view0
+The new locator sought common nonnegative weights for the nine coefficient matrices of uncovered trees, using eigenvector cutting planes and `scipy.optimize.linprog(method='highs-ds')`. The LP only locates weights; exact rational matrices determine acceptance.
 
 The first whole-square pass produced 633 exact stresses covering 48,734 trees and left 56 locator failures. These were not accepted as infeasible stress cones or as feasible physical trees. The four quarter-square searches added respectively 7, 8, 7 and 14 stresses and closed every remaining alternative. Deterministic set-cover reduction and reverse deletion produced the final 290+5+8+6+13 records. All retained records were then checked with the stronger \(2^{-20}\) coefficient margin rather than the discovery margin \(2^{-24}\).
 
@@ -299,7 +299,7 @@ The decoded two-source archive is 26,102 bytes, SHA256 `abb4db93e31bf7dcf4fba4e9
 
 ### Provenance limitation
 
-The entire 324,327-byte supplied journal was read, including its literal parent. Its SHA256 matches `a122ad4954a2c938df9dce4f31835fa21239d1b661a4f0a5a7b77afb35c6b6aa`. Its metadata names parent `minimum-0235`, SHA256 `0dc44267ff36d88c52f7218626cf8d916041bcd87f5c0a37cf35b35b9af9fce2`. The literal Markdown tail extracted from that parent's heading through EOF is instead 32,943 bytes, SHA256 `d272d7f28fa56a0210d58a38dadd3768db6070bc49df3de47d53f94b41e6a54c`. I cannot resolve this serialization difference from the pack. The printed source actually executed is 13,249 bytes, SHA256 `6e21a670bf70b9ee7598e7deb343afae62d77a59d59c7f5cf981cc8faff93a2b`. No coordinate, incidence or mathematical alias conflict was found. The new self-contained proof does not depend on resolving the old envelope hash. fileciteturn0file0L984-L992
+The entire 324,327-byte supplied journal was read, including its literal parent. Its SHA256 matches `a122ad4954a2c938df9dce4f31835fa21239d1b661a4f0a5a7b77afb35c6b6aa`. Its metadata names parent `minimum-0235`, SHA256 `0dc44267ff36d88c52f7218626cf8d916041bcd87f5c0a37cf35b35b9af9fce2`. The literal Markdown tail extracted from that parent's heading through EOF is instead 32,943 bytes, SHA256 `d272d7f28fa56a0210d58a38dadd3768db6070bc49df3de47d53f94b41e6a54c`. I cannot resolve this serialization difference from the pack. The printed source actually executed is 13,249 bytes, SHA256 `6e21a670bf70b9ee7598e7deb343afae62d77a59d59c7f5cf981cc8faff93a2b`. No coordinate, incidence or mathematical alias conflict was found. The new self-contained proof does not depend on resolving the old envelope hash.
 
 ### Complete lossless recovery unit
 
@@ -489,4 +489,4 @@ The most useful next enlargement is a macroscopic independent carrier parameter,
 
 The evidence is an analytical reduction plus executed exhaustive rational certificates, not proof-assistant formalization. No numerical feasibility failure is promoted to an exclusion, and no feasible physical body is inferred from a library gap.
 
-Supplemental copies: [recovery bundle](sandbox:/mnt/data/h5_cut_square_allroot_recovery.zip), [exact report](sandbox:/mnt/data/h5_cut_square_allroot_report.json). All continuation-critical source and data are already contained in this handoff.
+Supplemental copies: recovery bundle (`h5_cut_square_allroot_recovery.zip`), exact report (`h5_cut_square_allroot_report.json`). All continuation-critical source and data are already contained in this handoff.

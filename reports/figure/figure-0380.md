@@ -8,7 +8,7 @@ AI research report · 2026-09-16 UTC · [Export notes](../../catalog/coverage.md
 
 ## 1. Result and boundary
 
-**No new own110/weak000 polyhedron with at most310 true edges was established.** The accepted record remains VQ20_C622_ROUTE88_118_G12,176/311/137. Its former persistence and aggregate-replay gaps were closed by the canonical FULL76 integration; they are not current blockers. :contentReference[oaicite:0]{index=0}
+**No new own110/weak000 polyhedron with at most310 true edges was established.** The accepted record remains VQ20_C622_ROUTE88_118_G12,176/311/137. Its former persistence and aggregate-replay gaps were closed by the canonical FULL76 integration; they are not current blockers.
 
 This continuation produced two useful exact lower-edge architectures, **C616_CLUSTER** and **C614_CLUSTER**, each with only one unwanted unstable–saddle pair. It also produced a different, completely audited **C622_HOMOTOPY_POSITIVE** body: the targeted physical edge is about6.19% shorter after volume normalization, with own110/weak000 preserved. This is actual shape deformation, not merely a stress-scale change, but **no edge has disappeared on that positive branch**.
 
@@ -273,7 +273,7 @@ python -B -S VQ20_SHORTENING.py BASE fresh-proof/C622_HOMOTOPY_POSITIVE
 
 All output directories must be new. The one-stage stress command is the exercised checkpoint replay; increasing the stage budget is future research, not a claimed completed contraction.
 
-Supplementary copies: [delta recovery program](sandbox:/mnt/data/VQ20_E310_DELTA_RECOVER.py), [full new source/proofs/observations archive](sandbox:/mnt/data/VQ20_E310_FINITE_COMPLETE.zip), [Markdown handoff](sandbox:/mnt/data/VQ20_E310_RESULT.md), and [JSON handoff](sandbox:/mnt/data/VQ20_E310_RESULT.json). The literal capsule and short comparison source below, together with the explicitly authorized unchanged canonical dependencies, carry the recoverable definition independently of those links.
+Supplementary copies: delta recovery program (`VQ20_E310_DELTA_RECOVER.py`), full new source/proofs/observations archive (`VQ20_E310_FINITE_COMPLETE.zip`), Markdown handoff (`VQ20_E310_RESULT.md`), and JSON handoff (`VQ20_E310_RESULT.json`). The literal capsule and short comparison source below, together with the explicitly authorized unchanged canonical dependencies, carry the recoverable definition independently of those links.
 
 Save this full program as `VQ20_E310_DELTA_RECOVER.py`:
 

@@ -10,7 +10,7 @@ AI research report · 2026-08-27 UTC
 
 ## Work completed
 
-I implemented and ran a deterministic distributed support-profile continuation starting from the journal’s 4,324-row strict construction-centre cover. The source body has the recorded ordinary centroid near `(0.0300026404267,-8.35e-14,-7.20e-13)` and strict true-feature class `(S,U,H)=(1,1,0)`.  The route follows the journal’s non-actuator proposal rather than the independent four-pyramid architecture: the stable cap, terminal unstable fan, complete stars, special generator rows, and graph collars around the weakest inactive incidences are frozen; only noncritical rows receive smooth, spatially separated profile fields. :contentReference[oaicite:1]{index=1}
+I implemented and ran a deterministic distributed support-profile continuation starting from the journal’s 4,324-row strict construction-centre cover. The source body has the recorded ordinary centroid near `(0.0300026404267,-8.35e-14,-7.20e-13)` and strict true-feature class `(S,U,H)=(1,1,0)`.  The route follows the journal’s non-actuator proposal rather than the independent four-pyramid architecture: the stable cap, terminal unstable fan, complete stars, special generator rows, and graph collars around the weakest inactive incidences are frozen; only noncritical rows receive smooth, spatially separated profile fields.
 
 The finite family uses an exact dyadic base table and an exact dyadic three-column profile table,
 
@@ -39,12 +39,12 @@ Continue from the stored dyadic three-field family without changing geometric ar
 
 ## Reusable artifacts
 
-[Complete computation handoff](sandbox:/mnt/data/distributed_profile_COMPLETE_HANDOFF.md)
+Complete computation handoff (`distributed_profile_COMPLETE_HANDOFF.md`)
 
-[Full deterministic bundle](sandbox:/mnt/data/distributed_profile_handoff.zip)
+Full deterministic bundle (`distributed_profile_handoff.zip`)
 
-[Machine-readable verdict and selected endpoint values](sandbox:/mnt/data/distributed_profile_VERDICT.json)
+Machine-readable verdict and selected endpoint values (`distributed_profile_VERDICT.json`)
 
-[SHA-256 manifest](sandbox:/mnt/data/distributed_profile_MANIFEST.sha256.json)
+SHA-256 manifest (`distributed_profile_MANIFEST.sha256.json`)
 
 The bundle contains the source artifacts and logs together with the dyadic generator, freeze certificate, complete profile catalog, full-rank triple screen, selected Jacobian, H/V incidence, maximal-face cycles, true edges, exhaustive mechanical audits, weakest inactive gaps, independent clean-room verifier, and watertight OBJ/STL exports produced by the completed endpoint stage.

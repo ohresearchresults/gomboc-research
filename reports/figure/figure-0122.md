@@ -10,9 +10,9 @@ AI research report · 2026-08-27 UTC
 
 **No strict own-centroid `(S,U,H)=(1,1,0)` metric image has been certified in the fixed 4,324-row lattice.** The best exact metric image remains the open dyadic `(2,2,2)` chamber around `A0`. I do **not** claim a global fixed-lattice impossibility theorem: the certified work excludes both noncompact spectral ends, a near-isotropic region, and one connected finite tube, but leaves an explicit bounded five-dimensional spectral core unresolved.
 
-This is materially stronger than the state recorded when the full-orbit copy failed at the lifecycle layer: the journal then had only the Santaló root, the open `A0` chamber, and an unproved global complement. :contentReference[oaicite:0]{index=0} The supplied acceptance gate also forbids treating a wall point, auxiliary centre, or unmaterialized theorem as the target. :contentReference[oaicite:1]{index=1}
+This is materially stronger than the state recorded when the full-orbit copy failed at the lifecycle layer: the journal then had only the Santaló root, the open `A0` chamber, and an unproved global complement. The supplied acceptance gate also forbids treating a wall point, auxiliary centre, or unmaterialized theorem as the target.
 
-The exact result now available is therefore the strongest permitted fallback in the assignment: a complete algebraic wall description, an exact connected exclusion containing `A0`, two global spectral-collar branch-and-bound covers, a global near-isotropic exclusion, and a precise boundary separating proved and unresolved parts of the SPD quotient. The recovered exact handoff states the same literal nonwinner verdict and compact-core conclusion. :contentReference[oaicite:2]{index=2}
+The exact result now available is therefore the strongest permitted fallback in the assignment: a complete algebraic wall description, an exact connected exclusion containing `A0`, two global spectral-collar branch-and-bound covers, a global near-isotropic exclusion, and a precise boundary separating proved and unresolved parts of the SPD quotient. The recovered exact handoff states the same literal nonwinner verdict and compact-core conclusion.
 
 ## 1. Exact Santaló-centred body and invariant lattice
 
@@ -57,7 +57,7 @@ true edges              = 12,966
 Euler V-E+F             = 2.
 ```
 
-At the identity metric its exhaustive class is `(2799,2881,5678)`. :contentReference[oaicite:3]{index=3}
+At the identity metric its exhaustive class is `(2799,2881,5678)`.
 
 For every invertible linear map `A`,
 
@@ -72,7 +72,7 @@ h_i^A = A^-T(q_i-a_*),
 v_f^A = A y_f/(1-a_*·y_f),
 ```
 
-where each baseline `y_f` is the exact rational vertex reconstructed from its active support triple. :contentReference[oaicite:4]{index=4}
+where each baseline `y_f` is the exact rational vertex reconstructed from its active support triple.
 
 ## 2. Five-dimensional determinant-normalized quotient without redundant rotations
 
@@ -163,7 +163,7 @@ The fixed lattice has
 103,728 feature-component incidences in the exhaustive audit.
 ```
 
-The supplement contains a complete index map from every directed wall and every true edge to its exact support/vertex labels. The compact handoff's shorter wall equations agree with these formulas. :contentReference[oaicite:5]{index=5}
+The supplement contains a complete index map from every directed wall and every true edge to its exact support/vertex labels. The compact handoff's shorter wall equations agree with these formulas.
 
 ## 4. Best exact metric endpoint: the open `A0` chamber
 
@@ -277,7 +277,7 @@ The minimum all-feature sign clearance of the chamber is therefore
 0.00038552340481854492550833901631790468.
 ```
 
-The complete 4,324-face, 8,644-vertex, and 12,966-edge ledgers—not only these limiting entries—are included in the exact bundle. The recovered certificate records the same positive features and open box. :contentReference[oaicite:6]{index=6}
+The complete 4,324-face, 8,644-vertex, and 12,966-edge ledgers—not only these limiting entries—are included in the exact bundle. The recovered certificate records the same positive features and open box.
 
 ## 5. Certified global exclusion over the SPD quotient
 
@@ -315,7 +315,7 @@ minimum boundary lower bound 3.3839100674639865e-9,
 minimum projective-cover slack 3.645924117204266e-7.
 ```
 
-This is a global all-orientation branch-and-bound collar, not sampling. :contentReference[oaicite:7]{index=7}
+This is a global all-orientation branch-and-bound collar, not sampling.
 
 ### 5.2 Unstable rank-one spectral collar
 
@@ -336,7 +336,7 @@ minimum boundary lower bound 3.0762240707031665e-9,
 minimum projective-cover slack 3.6123677848126323e-6.
 ```
 
-:contentReference[oaicite:8]{index=8}
+
 
 ### 5.3 Global near-isotropic exclusion
 
@@ -353,7 +353,7 @@ certifies two disjoint stable subsets throughout
 cond(K)=λ1/λ3 <= 17179/16384.
 ```
 
-The independent ledger has 348 complete boundary primitives and minimum doubled-form lower bound `2.458149196715884e-7`. :contentReference[oaicite:9]{index=9}
+The independent ledger has 348 complete boundary primitives and minimum doubled-form lower bound `2.458149196715884e-7`.
 
 ### 5.4 Connected finite tube containing `A0`
 
@@ -367,7 +367,7 @@ A separate exact connected exclusion consists of
 10,618 outward interval boundary checks.
 ```
 
-Every point in the union has `S>=2`; the minimum uniform lower bound is `7.312348300660213e-6`. The tube contains `A0` and reaches a metric of numerical condition about `119049.49`. This proves a connected no-winner component around the known chamber, although it is not a complete chamber atlas of the quotient. :contentReference[oaicite:10]{index=10}
+Every point in the union has `S>=2`; the minimum uniform lower bound is `7.312348300660213e-6`. The tube contains `A0` and reaches a metric of numerical condition about `119049.49`. This proves a connected no-winner component around the known chamber, although it is not a complete chamber atlas of the quotient.
 
 The two spectral collars plus the isotropic certificate contain `2,536,109` new independent boundary checks; including the connected tube gives `2,546,727` certified checks.
 
@@ -413,7 +413,7 @@ This is a bounded, full-dimensional semialgebraic core. It has **not** been cove
 - no claim about the whole SPD orbit is made outside the certified union;
 - point sampling and unconstrained local optimization are not used as evidence.
 
-This exact compactification and its nonexistence boundary are stated in the recovered handoff. :contentReference[oaicite:11]{index=11}
+This exact compactification and its nonexistence boundary are stated in the recovered handoff.
 
 ## 7. Verification, irredundant expansions, and meshes
 
@@ -438,17 +438,17 @@ edge multiplicity         2
 true polyhedral edges 12,966.
 ```
 
-The archived complete independent verifier transcript ends in `PASS`. In this turn I freshly reran the global synthesis, near-isotropic verifier, finite-tube verifier, and the new complete wall-index verifier; all passed. The two very large projective-atlas verifiers are preserved with their complete archived PASS transcripts rather than represented as freshly replayed to completion. The verifier and mesh inventory is documented in the exact handoff. :contentReference[oaicite:12]{index=12}
+The archived complete independent verifier transcript ends in `PASS`. In this turn I freshly reran the global synthesis, near-isotropic verifier, finite-tube verifier, and the new complete wall-index verifier; all passed. The two very large projective-atlas verifiers are preserved with their complete archived PASS transcripts rather than represented as freshly replayed to completion. The verifier and mesh inventory is documented in the exact handoff.
 
 Artifacts:
 
-- [Exact fixed-cover SPD global-frontier bundle](sandbox:/mnt/data/Bright_Atlas_91_fixed_cover_SPD_global_frontier.zip)
-- [Exact determinant chart and complete wall-system supplement](sandbox:/mnt/data/Bright_Atlas_91_SPD_wall_system_supplement.zip)
-- [SHA-256 checksums](sandbox:/mnt/data/Bright_Atlas_91_SHA256.txt)
-- [A0 midpoint OBJ](sandbox:/mnt/data/spd_global/fixed_cover_spd_global_frontier/original/mesh/metric_A_midpoint.obj)
-- [A0 midpoint STL](sandbox:/mnt/data/spd_global/fixed_cover_spd_global_frontier/original/mesh/metric_A_midpoint.stl)
-- [Santaló-centred midpoint OBJ](sandbox:/mnt/data/spd_global/fixed_cover_spd_global_frontier/original/mesh/santalo_centered_midpoint.obj)
-- [Santaló-centred midpoint STL](sandbox:/mnt/data/spd_global/fixed_cover_spd_global_frontier/original/mesh/santalo_centered_midpoint.stl)
+- Exact fixed-cover SPD global-frontier bundle (`Bright_Atlas_91_fixed_cover_SPD_global_frontier.zip`)
+- Exact determinant chart and complete wall-system supplement (`Bright_Atlas_91_SPD_wall_system_supplement.zip`)
+- SHA-256 checksums (`Bright_Atlas_91_SHA256.txt`)
+- A0 midpoint OBJ (`metric_A_midpoint.obj`)
+- A0 midpoint STL (`metric_A_midpoint.stl`)
+- Santaló-centred midpoint OBJ (`santalo_centered_midpoint.obj`)
+- Santaló-centred midpoint STL (`santalo_centered_midpoint.stl`)
 
 Bundle SHA-256:
 
@@ -472,7 +472,7 @@ A topology change is **not yet logically justified**, because the compact SPD co
 4. exactify and fully audit any apparent `(1,1,0)` cell;
 5. claim fixed-lattice exclusion only after every compact-core cell is certified.
 
-Conditional on a later global exclusion of that core, the first locally minimal topology-changing target around `A0` is a **simultaneous multi-star replacement**, not a single flip: remove the unwanted stable row `2805`, unstable vertex `908`, and saddle edges `2363` and `10407` while preventing transfer to guard row `2840`, guard vertex `907`, and guard edge `10513`. The complete affected stars must be changed together while preserving target stable row `1455` and target unstable vertex `3539`. This is the first extension identified by the exact local wall ledger, but it is conditional—not a proved global necessity. The earlier exact handoff likewise identifies the four blockers and immediate guards as the smallest adjacent target. :contentReference[oaicite:13]{index=13}
+Conditional on a later global exclusion of that core, the first locally minimal topology-changing target around `A0` is a **simultaneous multi-star replacement**, not a single flip: remove the unwanted stable row `2805`, unstable vertex `908`, and saddle edges `2363` and `10407` while preventing transfer to guard row `2840`, guard vertex `907`, and guard edge `10513`. The complete affected stars must be changed together while preserving target stable row `1455` and target unstable vertex `3539`. This is the first extension identified by the exact local wall ledger, but it is conditional—not a proved global necessity. The earlier exact handoff likewise identifies the four blockers and immediate guards as the smallest adjacent target.
 
 ## Final disposition
 

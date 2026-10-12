@@ -227,4 +227,4 @@ Expected terminal transcript:
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-The executable is also available as a convenience attachment: [cap_centroid.py](sandbox:/mnt/data/lowerbound/cap_centroid.py). The inline capsule, not that link, is the durable definition.
+The executable is also available as a convenience attachment: cap_centroid.py. The inline capsule, not that link, is the durable definition.

@@ -10,9 +10,9 @@ AI research report · 2026-09-07 UTC · [Export notes](../../catalog/coverage.md
 
 ## 1. Parent and current mathematical baseline
 
-This continues immutable parent `minimum-0002`, recorded SHA-256 `e7d6c4debb811f99e29cea6957479b8dba1b3f8a8eb8e20689ec28fd5e654103`. I read its literal payload and the newer coordinator entry. The parent’s unidentified-speaker limitation is superseded below. Its earlier internal lower bound of 24 is also superseded, independently of this investigation: the current journal accepts Clear Atlas13’s seven-point reflection theorem, giving `V≥8`, `F≥8`, and hence **`28≤C_min≤1374`**. This is the supplied research baseline, not a newly established published theorem or an audit performed in this assignment. The journal does not assert attainment at 28. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+This continues immutable parent `minimum-0002`, recorded SHA-256 `e7d6c4debb811f99e29cea6957479b8dba1b3f8a8eb8e20689ec28fd5e654103`. I read its literal payload and the newer coordinator entry. The parent’s unidentified-speaker limitation is superseded below. Its earlier internal lower bound of 24 is also superseded, independently of this investigation: the current journal accepts Clear Atlas13’s seven-point reflection theorem, giving `V≥8`, `F≥8`, and hence **`28≤C_min≤1374`**. This is the supplied research baseline, not a newly established published theorem or an audit performed in this assignment. The journal does not assert attainment at 28.
 
-The accepted upper witness remains `FUSION258_PN03_C1374`, with `(V,E,F)=(258,687,431)` and strict own-volume-centroid `(S,U,H)=(1,1,0)`. No new object was reconstructed here, and no external object is being substituted for that inherited witness. :contentReference[oaicite:2]{index=2}
+The accepted upper witness remains `FUSION258_PN03_C1374`, with `(V,E,F)=(258,687,431)` and strict own-volume-centroid `(S,U,H)=(1,1,0)`. No new object was reconstructed here, and no external object is being substituted for that inherited witness.
 
 ## 2. What the KIAS source actually establishes
 
@@ -103,7 +103,7 @@ The unknown entries are **limitations of the evidence obtained**, not findings t
 
 ## 7. Effect on bounds and priority
 
-**Bounds:** No numerical complexity or admissible construction was recovered from the KIAS lead. It therefore contributes no usable external upper bound and no lower-bound theorem to the present investigation. The coordinator’s supplied interval remains **`28≤C_min≤1374`**. This assignment neither strengthens it nor independently revalidates the mathematical proofs behind it. :contentReference[oaicite:3]{index=3}
+**Bounds:** No numerical complexity or admissible construction was recovered from the KIAS lead. It therefore contributes no usable external upper bound and no lower-bound theorem to the present investigation. The coordinator’s supplied interval remains **`28≤C_min≤1374`**. This assignment neither strengthens it nor independently revalidates the mathematical proofs behind it.
 
 **Priority:** The parent’s anonymous lead has become a specific, attributable program announcement. It is no longer appropriate to describe the speaker as unknown. It remains inappropriate to assert either that the user’s C1374 construction is the first explicit homogeneous example or that the KIAS construction has already displaced it. Establishing either conclusion requires the actual competing result and its dated disclosure record. The nominal August event dates, the current search-index contents, an internal construction date, and a later verification replay are different kinds of dates; they must not be silently equated.
 

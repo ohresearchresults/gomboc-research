@@ -27,11 +27,11 @@ The decisive stronger implication is
 
 Every such pyramid also has a strict unstable **base vertex** and a strict stable **lateral face**. Consequently, when the base is strictly stable there are already two stable faces; when it is not, (N) supplies two unstable vertices.
 
-This closes **all seven stable-face/unstable-vertex root orbits, covering all 81 labelled choices**, for the nine-vertex/nine-facet/sixteen-edge octagonal wheel. Its remaining continuous frontier is empty. It does **not** close the other C32 graphs, so this result alone does not raise the supplied global bracket \(32\le C_{\min}\le1374\). :contentReference[oaicite:0]{index=0}
+This closes **all seven stable-face/unstable-vertex root orbits, covering all 81 labelled choices**, for the nine-vertex/nine-facet/sixteen-edge octagonal wheel. Its remaining continuous frontier is empty. It does **not** close the other C32 graphs, so this result alone does not raise the supplied global bracket \(32\le C_{\min}\le1374\).
 
 ## 2. Source boundary and what changed
 
-The current journal supplies the physical centroid-hardwired pyramid gauge and its coupled primal/polar formulas; its final entry expressly stops short of an exclusion. An earlier entry proves the base-unstable/lateral-stable lemma but only removes the distinguished-root cases. Those conclusions are consistent with the present result. The new step is (N), proved by maximizing the physical squared distance on the two halves of the actual planar base. It closes the remaining side-face/base-vertex root placements. No trace-cap or independent-metric relaxation is used. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The current journal supplies the physical centroid-hardwired pyramid gauge and its coupled primal/polar formulas; its final entry expressly stops short of an exclusion. An earlier entry proves the base-unstable/lateral-stable lemma but only removes the distinguished-root cases. Those conclusions are consistent with the present result. The new step is (N), proved by maximizing the physical squared distance on the two halves of the actual planar base. It closes the remaining side-face/base-vertex root placements. No trace-cap or independent-metric relaxation is used.
 
 No immutable exact predecessor body was assumed. Source identity: `research-journal(20260908-033930).md`, **2,311,954 bytes**, SHA-256 `226dfd2099f017940c7018204051d705ad7ca43ea960b118b76c46735ef11d89`; relevant final anchor `2026-09-08T03:39:03.372Z`. The historical base/lateral lemma is independently reproved below, so the theorem and recovery capsule do not require that file.
 
@@ -297,7 +297,7 @@ The same argument also applies to the balanced polar of §4.2. Because its base 
 A\text{ not strictly unstable}\ \Longrightarrow\ S\ge2.
 \]
 
-Thus a homogeneous mono-unstable pyramid must have a strictly stable base, and a homogeneous monostable pyramid must have a strictly unstable apex. These do not rule out one-sided monostatic pyramids: the primary-source constructions \(P_2\in(2,1)\) and \(P_3\in(3,1)\) remain fully consistent. The source's construction is not being cited as a proof of this new exclusion. :contentReference[oaicite:3]{index=3}
+Thus a homogeneous mono-unstable pyramid must have a strictly stable base, and a homogeneous monostable pyramid must have a strictly unstable apex. These do not rule out one-sided monostatic pyramids: the primary-source constructions \(P_2\in(2,1)\) and \(P_3\in(3,1)\) remain fully consistent. The source's construction is not being cited as a proof of this new exclusion.
 
 For the octagon, write \(F_i=[p_i,p_{i+1},A]\), cyclically modulo 8. Its full graph automorphism group is \(D_8\): the apex is the unique degree-eight vertex, and the induced rim is an eight-cycle. The seven root representatives are
 
@@ -593,4 +593,4 @@ The useful continuation is to remove the wheel and every pure-pyramid search fro
 
 The theorem is a new deduction relative to the supplied journal, with its full proof and exact arithmetic replay supplied here. External peer review, proof-assistant formalization and historical novelty determination have not been performed; no priority claim is made. No homogeneous strict110 construction or mesh is claimed.
 
-Supplementary copies: [complete source](sandbox:/mnt/data/raven24_pyramid_check.py), [complete exact audit](sandbox:/mnt/data/raven24_pyramid_exact_audit.json), [this self-contained handoff](sandbox:/mnt/data/raven24_all_pyramids_handoff.md). The inline proof and source are the recovery authority, not these links.
+Supplementary copies: complete source (`raven24_pyramid_check.py`), complete exact audit (`raven24_pyramid_exact_audit.json`), this self-contained handoff (`raven24_all_pyramids_handoff.md`). The inline proof and source are the recovery authority, not these links.

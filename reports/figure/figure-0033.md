@@ -12,7 +12,7 @@ No homogeneous polyhedral Gömböc is claimed. The proposed high-shell strategy 
 
 The constructive output is an exact rational 15-edge radially monotone corridor, an exact closed 32-vertex prism moment module, and an exact 45-vertex disk patch spanning the existing 15-point separatrix. The latter has complete local combinatorics and strict fixed-center successor witnesses, but its global convex gluing and true-centroid audit remain open.
 
-A consolidated report and complete artifact package are available at [VIVID_ATLAS_RESULT.md](sandbox:/mnt/data/vivid_atlas/VIVID_ATLAS_RESULT.md) and [vivid_atlas_corridor_package.zip](sandbox:/mnt/data/vivid_atlas_corridor_package.zip).
+A consolidated report and complete artifact package are available at VIVID_ATLAS_RESULT.md and vivid_atlas_corridor_package.zip.
 
 ## 1. Exact source geometry
 
@@ -60,7 +60,7 @@ Therefore the necessary condition is
 
 Directed interval evaluation of the exact rational endpoint data proves that `n=95` fails. The scalar obstruction first ceases at `n=96`. Hence any fixed-center construction retaining original vertex 16 and having vertex 9 as its unique unstable vertex needs at least 96 strict successor edges and therefore at least 97 distinct vertices on that path. In particular, no 27-vertex or 31-vertex replacement retaining vertex 16 can work, independently of convexity or centroid correction.
 
-An exact rational 100-edge witness chain from original vertex 16 to vertex 9 is included in [corridor_chain_certificate.json](sandbox:/mnt/data/vivid_atlas/corridor_chain_certificate.json), with an independent checker at [verify_corridor_chain.py](sandbox:/mnt/data/vivid_atlas/verify_corridor_chain.py).
+An exact rational 100-edge witness chain from original vertex 16 to vertex 9 is included in corridor_chain_certificate.json, with an independent checker at verify_corridor_chain.py.
 
 For a start moved inward to `C_R+t(v16-C_R)`, the necessary condition becomes
 
@@ -106,7 +106,7 @@ The parameterized version of the same inequality shows that, if `B(C_R,200)` is 
 
 Thus a shell preserving nearly all positive-side support is not a moment-efficient replacement. The old low disk moved too far inward, but the opposite extreme is rigorously excluded. The viable design window is near `t=3/4`.
 
-Exact data and checkers are in [support_volume_obstruction.json](sandbox:/mnt/data/vivid_atlas/support_volume_obstruction.json), [verify_support_volume_obstruction.py](sandbox:/mnt/data/vivid_atlas/verify_support_volume_obstruction.py), [general_shell_volume_obstruction.json](sandbox:/mnt/data/vivid_atlas/general_shell_volume_obstruction.json), and [verify_general_shell_bound.py](sandbox:/mnt/data/vivid_atlas/verify_general_shell_bound.py).
+Exact data and checkers are in support_volume_obstruction.json, verify_support_volume_obstruction.py, general_shell_volume_obstruction.json, and verify_general_shell_bound.py.
 
 ## 4. Exact rational 15-edge corridor
 
@@ -118,7 +118,7 @@ A real guide path uses equal angular increments in `span(v16-C_R,v9-C_R)` and ge
 
 `(p_j-C_R) dot (p_{j+1}-p_j) > 0`.
 
-All 16 coordinates, all strict successor numerators and denominators, the 14-versus-15 threshold audit, and the convex turn and chord determinants are recorded in [corridor15_certificate.json](sandbox:/mnt/data/vivid_atlas/corridor15_certificate.json). The independent exact checker is [verify_corridor15.py](sandbox:/mnt/data/vivid_atlas/verify_corridor15.py).
+All 16 coordinates, all strict successor numerators and denominators, the 14-versus-15 threshold audit, and the convex turn and chord determinants are recorded in corridor15_certificate.json. The independent exact checker is verify_corridor15.py.
 
 ### Closed prism module
 
@@ -156,7 +156,7 @@ The loops are joined by an exact annular triangulation, and the high loop is fil
 
 Every one of the 15 inherited separatrix vertices has an explicit exact successor witness. Every new nonterminal high-loop vertex has an exact strict successor toward vertex 9. Both rails meet at the same terminal vertex, so the patch does not duplicate the desired maximum.
 
-The exact rational vertex list, all 60 face cycles, the deduplicated 104-edge list, all successor dot products, and the signed tetrahedral volume and first-moment sums of the open patch are in [corridor15_separatrix_patch.json](sandbox:/mnt/data/vivid_atlas/corridor15_separatrix_patch.json). The independent checker is [verify_corridor15_patch.py](sandbox:/mnt/data/vivid_atlas/verify_corridor15_patch.py).
+The exact rational vertex list, all 60 face cycles, the deduplicated 104-edge list, all successor dot products, and the signed tetrahedral volume and first-moment sums of the open patch are in corridor15_separatrix_patch.json. The independent checker is verify_corridor15_patch.py.
 
 This is a complete exact surface replacement and discrete-monotonicity certificate. It is not yet a complete convex polyhedron certificate: after gluing to the retained Reshetov region, the proposed faces must still be proved supporting and the absence of unintended hull faces must be audited.
 
@@ -170,7 +170,7 @@ For the old 27-vertex low replacement,
 
 `Q_0 approximately (-3.286331659622633e12, 2.200155712869e9, -3.806002588931e9)`.
 
-The exact rational components are contained in [parent_patch_certificate.json](sandbox:/mnt/data/vivid_atlas/parent_patch_certificate.json).
+The exact rational components are contained in parent_patch_certificate.json.
 
 The previously certified eight remote controls have maximum possible positive-x correction
 
@@ -180,7 +180,7 @@ Therefore a new basin replacement must first supply a necessary x correction in 
 
 `[3.281959116213606e12, 3.290704203031660e12]`
 
-before those controls can possibly solve the remaining exact moment equations. The old residual exceeds their entire x reach by the exact certified factor `751.5835...`. Exact polynomials and endpoint bounds are in [outward_moment_polynomials.json](sandbox:/mnt/data/vivid_atlas/outward_moment_polynomials.json).
+before those controls can possibly solve the remaining exact moment equations. The old residual exceeds their entire x reach by the exact certified factor `751.5835...`. Exact polynomials and endpoint bounds are in outward_moment_polynomials.json.
 
 The new tapered patch has exact signed open-patch volume and first moment, but those quantities cannot yet be identified with a global convex-body moment change: convex-hull gluing may remove intended faces or introduce unlisted faces. Consequently the post-gluing residual has not been proved to lie in the remote-control box.
 

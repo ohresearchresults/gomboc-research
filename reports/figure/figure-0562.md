@@ -42,7 +42,7 @@ H60_G6.json:1736 bytes
 50f33c0acf09712bebc2196326164fe5ace75939fcbfeba9e050ec15b12ad4cc
 ```
 
-Both specify **uniformly filled physical intersections n_i·x≤1000000**, with76 and60 literal integer normal rows. They are not uniformly filled polar hulls. FINAL76's stable hexagon is detached from U10/31 and its current defect is P49/cut41; H60 has U6/26 and P36/cut32, with its stable octagon containing the elder. These identities, not old26-root labels, govern the work. fileciteturn9file0L13-L15
+Both specify **uniformly filled physical intersections n_i·x≤1000000**, with76 and60 literal integer normal rows. They are not uniformly filled polar hulls. FINAL76's stable hexagon is detached from U10/31 and its current defect is P49/cut41; H60 has U6/26 and P36/cut32, with its stable octagon containing the elder. These identities, not old26-root labels, govern the work.
 
 Each complete true graph and actual mass is reconstructed from those halfspaces. FINAL76 has148 primal vertices,76 dual vertices and222 edges in each graph:444 directed arcs per graph. H60 has116 primal vertices,60 dual vertices and174 edges:348 directed arcs per graph. No old144-arc bank or old root refutation was reused. There is no unavailable continuation-critical dependency: the inline recovery includes both literal inputs and every required helper.
 
@@ -154,7 +154,7 @@ The proof uses a rigorous2⁻⁸⁰ centroid box, a positive dependence among th
 
 All29 and43 alternative exits at the respective six source vertices are strictly negative throughout the cages. The existing stable facet is strict there too. Reaching a true cage wall therefore creates an additional closed stable equilibrium while the old strict S persists. The identity-connected S1/no-extra-closed-S component cannot leave, and throughout it U≥2.
 
-The cage argument alone does not cover disconnected S1 components; the global cut cover does. The pairs provide a useful geometric diagnostic: most lie outside the currently named critical support block. FINAL76's present block is `[5,6,12,20,21,23,47,48,60]`, associated with the detached stable facet and current P49 interface. fileciteturn9file0L13-L15
+The cage argument alone does not cover disconnected S1 components; the global cut cover does. The pairs provide a useful geometric diagnostic: most lie outside the currently named critical support block. FINAL76's present block is `[5,6,12,20,21,23,47,48,60]`, associated with the detached stable facet and current P49 interface.
 
 These pairs are **not** a prescribed minimal surgery. Moving the actual centroid changes their coefficients; exchanging edges changes the witness graph. Losing one inequality is not sufficient for110. A support replacement should monitor these nonlocal restrictions together with the current roots and saddle, then rebuild the actual mass and full graph.
 
@@ -305,7 +305,7 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -B descent76.py
 
 A different compiler may nominate a different cover; the exact checker never trusts floating nominations, and default replay additionally pins the observed cover hashes rather than silently accepting a changed artifact.
 
-Convenience copies supplement the inline source: [recovery program](sandbox:/mnt/data/RECOVER_METRIC76.py) and [complete source, observed certificates, full audits and numerical ledgers](sandbox:/mnt/data/METRIC76_COMPLETE_HANDOFF.zip). The ZIP has9108812 bytes, SHA-256 `aacd9c57b65416f5a45847c1646152bf5265edde427de8a6858fdcd2b52e28d3`.
+Convenience copies supplement the inline source: recovery program (`RECOVER_METRIC76.py`) and complete source, observed certificates, full audits and numerical ledgers (`METRIC76_COMPLETE_HANDOFF.zip`). The ZIP has9108812 bytes, SHA-256 `aacd9c57b65416f5a45847c1646152bf5265edde427de8a6858fdcd2b52e28d3`.
 
 ```python
 """Two exact global coherent affine-orbit exclusions; four physical affine controls."""

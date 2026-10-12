@@ -10,7 +10,7 @@ AI research report · 2026-08-30 UTC · [Export notes](../../catalog/coverage.md
 
 **NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained.
 
-The strongest endpoint is a finite exact-dyadic uniform-density convex polyhedron with a unique 180-bit Krawczyk-isolated zero of all three ordinary first moments. At its own exact volume centroid it has strict class `(S,U,H)=(2,2,2)`, with 3,481 irredundant H rows/maximal primal faces, 6,958 primal vertices, 10,437 true edges, and 13,912 oriented boundary triangles. The target remains an own-centred strict `(1,1,0)` finite body; an auxiliary centre, wall point, or numerical near-solution does not qualify. :contentReference[oaicite:0]{index=0}
+The strongest endpoint is a finite exact-dyadic uniform-density convex polyhedron with a unique 180-bit Krawczyk-isolated zero of all three ordinary first moments. At its own exact volume centroid it has strict class `(S,U,H)=(2,2,2)`, with 3,481 irredundant H rows/maximal primal faces, 6,958 primal vertices, 10,437 true edges, and 13,912 oriented boundary triangles. The target remains an own-centred strict `(1,1,0)` finite body; an auxiliary centre, wall point, or numerical near-solution does not qualify.
 
 ## Correction to the predecessor boundary
 
@@ -210,24 +210,24 @@ The evidence now supports at least three independent incidence controls: an S–
 
 Archive SHA-256: `09f4e6047eafa23112f36b27da30bb5829667de62f34b43227909489bb934e0b`.
 
-- [Complete exact/directed archive](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner.zip)
-- [Archive SHA-256 file](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner.zip.sha256)
-- [Full standalone handoff](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/RESEARCH_HANDOFF.md)
-- [Machine-readable result](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/RESULT.json)
-- [Integrity manifest](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/MANIFEST.sha256)
-- [Exact endpoint source](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/data/source_rows_modes.hex)
-- [Deterministic generator](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/src/generate_coupled_event.py)
-- [Five-cell exact atlas](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/certificates/coupled_event_cell_atlas.json)
-- [Actual lattice changes](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/certificates/actual_face_lattice_changes.json)
-- [Connected event graph](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/certificates/support_connected_event_graph.json)
-- [Local anti-birth/transfer certificate](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/certificates/local_coupled_event_root_interval.json)
-- [Krawczyk root certificate](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/certificates/root3_interval_certificate.json)
-- [Full interval audit](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/certificates/root_full_interval_audit.json)
-- [Perturbation certificate](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/certificates/perturbation_region.json)
-- [Interval H/V data](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/geometry/root_interval_hv.npz)
-- [Maximal-face cycles](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/geometry/root_maximal_face_cycles.json)
-- [True-edge ledger](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/geometry/root_true_edges.csv)
-- [Independent verifier](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/src/verify_coupled_event_cleanroom.py)
-- [Verifier report](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/certificates/cleanroom_verify_report.json)
-- [OBJ mesh](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/geometry/root_midpoint.obj)
-- [STL mesh](sandbox:/mnt/data/coupled_zipper_3481_exact_nonwinner/geometry/root_midpoint.stl)
+- Complete exact/directed archive (`coupled_zipper_3481_exact_nonwinner.zip`)
+- Archive SHA-256 file (`coupled_zipper_3481_exact_nonwinner.zip.sha256`)
+- Full standalone handoff (`RESEARCH_HANDOFF.md`)
+- Machine-readable result (`RESULT.json`)
+- Integrity manifest (`MANIFEST.sha256`)
+- Exact endpoint source (`source_rows_modes.hex`)
+- Deterministic generator (`generate_coupled_event.py`)
+- Five-cell exact atlas (`coupled_event_cell_atlas.json`)
+- Actual lattice changes (`actual_face_lattice_changes.json`)
+- Connected event graph (`support_connected_event_graph.json`)
+- Local anti-birth/transfer certificate (`local_coupled_event_root_interval.json`)
+- Krawczyk root certificate (`root3_interval_certificate.json`)
+- Full interval audit (`root_full_interval_audit.json`)
+- Perturbation certificate (`perturbation_region.json`)
+- Interval H/V data (`root_interval_hv.npz`)
+- Maximal-face cycles (`root_maximal_face_cycles.json`)
+- True-edge ledger (`root_true_edges.csv`)
+- Independent verifier (`verify_coupled_event_cleanroom.py`)
+- Verifier report (`cleanroom_verify_report.json`)
+- OBJ mesh (`root_midpoint.obj`)
+- STL mesh (`root_midpoint.stl`)

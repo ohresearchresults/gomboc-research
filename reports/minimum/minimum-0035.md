@@ -14,7 +14,7 @@ AI research report · 2026-09-09 UTC · [Export notes](../../catalog/coverage.md
 
 After resolving that boundary, I proved a stronger, scoped physical restriction: for three actual triangular facets forming a two-edge chain, a three-by-three principal minor of `I+Lambda` has a positive, explicit **common hull-volume lower bound**. Combined with the same actual matrix-square identity, this gives an exact rank-three Schur reduction and a conditional rational denominator bound. It closes **none of the five whole tree forms** and **no named C32 type or root**. It excludes the explicitly specified sign/volume chambers below, not an entire combinatorial incidence type.
 
-The five-tree certificate theorem remains inherited research evidence; its 281 numerical certificates have not been replayed here. The graph consequence has been independently replayed conditional on those five forms. The parent states the intended certificate and graph scope explicitly. :contentReference[oaicite:0]{index=0}
+The five-tree certificate theorem remains inherited research evidence; its 281 numerical certificates have not been replayed here. The graph consequence has been independently replayed conditional on those five forms. The parent states the intended certificate and graph scope explicitly.
 
 ## 2. Exact source attribution and observed failure
 
@@ -43,13 +43,13 @@ The result is exactly the required **32940 / e415baee...** envelope. Extracting 
 
 The Python decoder's own assertion expects a different length and hash. Direct decoding of the complete observed base85 raises `ValueError: base85 overflow in hunk starting at byte 890`. Separately, its first 15 characters, `c-rlN3yjVc(BZqz`, already yield an invalid deflate header: `invalid code lengths set`. Thus changing line wrapping or blindly trimming the length excess is not an authenticated repair.
 
-Actual executions of the published decoder with `extract`, `check`, and `all` each returned **exit 1 at the payload assertion**. None reached coefficient generation or either independent verifier. This resolves the journal's earlier provisional attribution, which had deliberately not blamed the immutable source. The conflicting claim is specifically that its literal §8 is the pinned complete 11,977-byte source-only recovery. It is not a demonstrated falsification of the mathematical theorem or of a separate, now-unavailable historical execution. :contentReference[oaicite:1]{index=1}
+Actual executions of the published decoder with `extract`, `check`, and `all` each returned **exit 1 at the payload assertion**. None reached coefficient generation or either independent verifier. This resolves the journal's earlier provisional attribution, which had deliberately not blamed the immutable source. The conflicting claim is specifically that its literal §8 is the pinned complete 11,977-byte source-only recovery. It is not a demonstrated falsification of the mathematical theorem or of a separate, now-unavailable historical execution.
 
 Two historical outputs **were recovered byte-for-byte**. The §7 transcript is the pinned 1,906-byte `full_recovery.log`; deleting its first 14 complete lines gives the pinned 1,448-byte `frozen_recovery.log`. This is recovery of recorded output bytes, **not a new execution of the claimed matrix proof**.
 
 ### Every original source/output pin retained
 
-The following are the parent's declared pins. Only the two historical logs are recovered to these pins here; the original decoder and the four decoded units are not. :contentReference[oaicite:2]{index=2}
+The following are the parent's declared pins. Only the two historical logs are recovered to these pins here; the original decoder and the four decoded units are not.
 
 | Original item | Declared bytes | Declared SHA-256 |
 |---|---:|---|
@@ -74,7 +74,7 @@ adf162e147077136fc064e3a438885af2a5228366f457f1947e1f1f157618fc2
 3c26b93641ba6ddc53ed3aab4fbe4220fe9130573e4693a59b7ac21305d5fae7
 ```
 
-The parent's antecedents are retained without reauthentication here: physical trace parent `minimum-0024`, SHA-256 `b578a01ead261c6f7745122c22f4bb4767884e46ac46e1531b4e749a19332f95`, declared 57,975-byte pretty version-2 envelope; and `minimum-0032`, SHA-256 `3c4347c3beb52ca549da23ff0b0eb42a85251a52c2a920bbf1deb68b4b73fe4d`, declared 17,651-byte compact envelope without adding a Markdown LF. The later coordinator universal285/quad-ten proof remains a distinct dependency, not retroactive replay of that second parent. :contentReference[oaicite:3]{index=3}
+The parent's antecedents are retained without reauthentication here: physical trace parent `minimum-0024`, SHA-256 `b578a01ead261c6f7745122c22f4bb4767884e46ac46e1531b4e749a19332f95`, declared 57,975-byte pretty version-2 envelope; and `minimum-0032`, SHA-256 `3c4347c3beb52ca549da23ff0b0eb42a85251a52c2a920bbf1deb68b4b73fe4d`, declared 17,651-byte compact envelope without adding a Markdown LF. The later coordinator universal285/quad-ten proof remains a distinct dependency, not retroactive replay of that second parent.
 
 ## 3. Five-form theorem: exact preserved scope and averaging argument
 
@@ -97,7 +97,7 @@ rows02=[277,282,283,284]
 remaining=[253,266,272,278,285]
 ```
 
-Every other excluded ordinal uses row 0 alone: 253 single-row cases, 24 cases using rows 0 and 1, and four cases using rows 0 and 2. These are coefficient-row indices, not geometric apices or new centroids. There are 168 extreme vectors per row, hence `168*(253+2*28)=51912` matrices and `9*51912=467208` leading minors. The numerical coefficients themselves remain unrecovered. :contentReference[oaicite:4]{index=4}
+Every other excluded ordinal uses row 0 alone: 253 single-row cases, 24 cases using rows 0 and 1, and four cases using rows 0 and 2. These are coefficient-row indices, not geometric apices or new centroids. There are 168 extreme vectors per row, hence `168*(253+2*28)=51912` matrices and `9*51912=467208` leading minors. The numerical coefficients themselves remain unrecovered.
 
 For one actual own-centred body, let `omega_i=A_i h_i/(3V)`, let `c_i` be its actual facet area centroid, and set
 
@@ -115,9 +115,9 @@ For the one reciprocal metric `N=M^-1`, put `H=Q N Q^T`. A weak tree arrow gives
 
 with `mu>=0`, `sum_a O_a=0`, and every `B_a,w-I` positive definite. For two rows, the offsets are `K,-K`; the 45 upper-triangular coefficients contribute twice their value on the diagonal and their value off-diagonal.
 
-Averaging **the rows of the same actual Lambda**, the gamma terms vanish, the offsets cancel because each decomposition totals one, and the escape terms are nonpositive. But a weighted sum of matrices strictly above `I` has positive pairing with nonzero PSD `H`. This is the contradiction. It includes weak escape equalities and has no rank, metric-condition, or positive-volume cutoff. Correctness of this argument is distinct from having the missing integer coefficients to verify its premises. :contentReference[oaicite:5]{index=5}
+Averaging **the rows of the same actual Lambda**, the gamma terms vanish, the offsets cancel because each decomposition totals one, and the escape terms are nonpositive. But a weighted sum of matrices strictly above `I` has positive pairing with nonzero PSD `H`. This is the contradiction. It includes weak escape equalities and has no rank, metric-condition, or positive-volume cutoff. Correctness of this argument is distinct from having the missing integer coefficients to verify its premises.
 
-The reported numerical environment was CPython 3.13.5, NumPy 2.3.5, SciPy 1.17.0, OpenBLAS 0.3.30/SkylakeX, Linux x86_64, one process, one BLAS thread, no randomness. All declared non-default locator settings are preserved: starting margin −1; zero free coefficients; escape multipliers totalling one; `tau=0.05*0.18**outer`; at most 12 outer rounds and 70 Newton steps; decrement tolerance `min(1e-7,tau*0.001)`; positivity factor 0.99; Armijo factor 0.05; at most 60 halvings; symmetric solve with `rcond=1e-14` least-squares fallback; margin threshold `1e-8`; max-absolute-coefficient normalization and rounding at `10**8`; acceptance only by exact `B-I>0`. These settings do not reconstruct the missing implementation bytes by themselves. :contentReference[oaicite:6]{index=6}
+The reported numerical environment was CPython 3.13.5, NumPy 2.3.5, SciPy 1.17.0, OpenBLAS 0.3.30/SkylakeX, Linux x86_64, one process, one BLAS thread, no randomness. All declared non-default locator settings are preserved: starting margin −1; zero free coefficients; escape multipliers totalling one; `tau=0.05*0.18**outer`; at most 12 outer rounds and 70 Newton steps; decrement tolerance `min(1e-7,tau*0.001)`; positivity factor 0.99; Armijo factor 0.05; at most 60 halvings; symmetric solve with `rcond=1e-14` least-squares fallback; margin threshold `1e-8`; max-absolute-coefficient normalization and rounding at `10**8`; acceptance only by exact `B-I>0`. These settings do not reconstruct the missing implementation bytes by themselves.
 
 ### Maximal frames and joint complement preserved
 
@@ -134,7 +134,7 @@ ordinal   optional pairs   retained subsets   maximal frames
 
 All 592 optional subsets are exhausted. The 82 retained base-labelled graphs have 25 inclusion-maximal frames, at most 11 nonnegative unequal pairs, at least 61 negative pairs, and at most eight rooted escape trees. The checker separately verifies DAG status, every parent choice, directed Laplacian cofactors, the 286 canonical rooted trees, and the literal frame table. This is a **new conditional graph replay**, not recovery of the original `dual_frames.py` or its JSON serialization.
 
-For the joint application, the two inherited primal candidates are `T=(0,0,1,2,3,4,5,6,0)` and `T_alt=(0,0,8,2,3,4,5,6,0)`, with the second requiring actual edge 28 and its proper sign. Matching selects some compatible complementary pair, not an arbitrarily prescribed pair. Terminal triangle 567 is a nonroot cotree leaf exiting across edge 57. Its allowed template labels/depths remain: 253: `6/6,8/2`; 266: `6/6,7/5,8/1`; 272: `6/6,7/6,8/1`; 278: `7/7,8/1`; 285: `8/8`. Thus depths three and four are forbidden. These are cotree depths, not full-dual shortest distances. :contentReference[oaicite:7]{index=7}
+For the joint application, the two inherited primal candidates are `T=(0,0,1,2,3,4,5,6,0)` and `T_alt=(0,0,8,2,3,4,5,6,0)`, with the second requiring actual edge 28 and its proper sign. Matching selects some compatible complementary pair, not an arbitrarily prescribed pair. Terminal triangle 567 is a nonroot cotree leaf exiting across edge 57. Its allowed template labels/depths remain: 253: `6/6,8/2`; 266: `6/6,7/5,8/1`; 272: `6/6,7/6,8/1`; 278: `7/7,8/1`; 285: `8/8`. Thus depths three and four are forbidden. These are cotree depths, not full-dual shortest distances.
 
 ## 4. New physical theorem: a positive triangle-chain principal minor
 
@@ -150,7 +150,7 @@ Then the whole continuous realization domain satisfies
 
 When the three-facet hull is a proper subbody, `r<1`, so the principal minor is strictly positive. This includes every such chain in a C32 body: its union has at most five of the nine actual vertices. Equality in the displayed bound is possible when all three pairs share true edges; therefore the quantitative bound is not merely a loose sign test.
 
-This is deliberately **not** a P0 assertion for arbitrary facets. The exact physical negative-minor example with two quadrilaterals remains valid and is retained in the verifier. The journal's general P0 warning is not contradicted. :contentReference[oaicite:8]{index=8}
+This is deliberately **not** a P0 assertion for arbitrary facets. The exact physical negative-minor example with two quadrilaterals remains valid and is retained in the verifier. The journal's general P0 warning is not contradicted.
 
 ### Complete volume proof
 
@@ -219,7 +219,7 @@ All four-by-four minors of the six-by-six Schur matrix vanish. Its three-dimensi
 
 ### Conditional rational lower bound from a genuine volume deficit
 
-Suppose the chain hull is contained in an actual ancestor-closed subhull `Q` for which the already journaled bound `400000*(V-Vol(Q))^2>Vol(Q)^2` has been established. The journal records that bound and its proper ancestor-closure scope. I have not reverified its antecedent certificate here. :contentReference[oaicite:9]{index=9}
+Suppose the chain hull is contained in an actual ancestor-closed subhull `Q` for which the already journaled bound `400000*(V-Vol(Q))^2>Vol(Q)^2` has been established. The journal records that bound and its proper ancestor-closure scope. I have not reverified its antecedent certificate here.
 
 It implies `r<2000/(2000+sqrt(10))<2000/2003`. Since `(1-r)^2(1+2r)` decreases on `[0,1]`, the new determinant satisfies the exact rational bound
 
@@ -236,7 +236,7 @@ V=65791/196608,
 g=(28475383/101054976,28475383/101054976,-259/197373).
 ```
 
-These are inherited fixture data, independently recomputed in this execution. :contentReference[oaicite:10]{index=10}
+These are inherited fixture data, independently recomputed in this execution.
 
 To make the metric coupling explicit, the source uses the rational physical image
 
@@ -252,7 +252,7 @@ There are three actual triangular chains. For `0-1-4` and `0-1-7`, the common vo
 
 **Exact remaining domain:** retain all five literal tree forms, all 25 frame possibilities and all their genuine label transports. Both available actual primal complements must still be considered. For each surviving physical incidence, impose the new inequality on every triple that really is a triangular two-edge chain, and the rational strengthening only when its actual ancestor-volume premise is certified. Instances with no such chain receive no restriction from this theorem. The excluded continuous chambers are exactly those violating one of these necessary inequalities or the coupled Schur identities; no exhaustive catalogue incidence sweep was performed, and no count of newly excluded labelled cases is asserted.
 
-The accepted whole-type set remains `{33,34,72,139,149,152,159,163,164,178,192,217,284,288,293,294,295}`. The coordinator's unpersisted 7954 package is not promoted. The research register remains `32<=C_min<=1374`, with no new `F>=10`, `V>=10`, `C>=34`, or C32 attainer statement. :contentReference[oaicite:11]{index=11}
+The accepted whole-type set remains `{33,34,72,139,149,152,159,163,164,178,192,217,284,288,293,294,295}`. The coordinator's unpersisted 7954 package is not promoted. The research register remains `32<=C_min<=1374`, with no new `F>=10`, `V>=10`, `C>=34`, or C32 attainer statement.
 
 ## 6. New recovery commands, observed replays and pins
 
@@ -297,7 +297,7 @@ PHYSICAL_FIXTURE_S_U_H 5 5 8
 NO_WHOLE_TREE_OR_C32_TYPE_CLOSED
 ```
 
-Supplementary [complete evidence and new-source bundle](sandbox:/mnt/data/NOVA24_RECOVERY_BOUNDARY_AND_TRIANGULAR_CHAIN_MINOR_V1.zip). The inline sources, not this archive, reconstruct every new claimed object. The unavailable original four source units remain explicitly unavailable.
+Supplementary complete evidence and new-source bundle (`NOVA24_RECOVERY_BOUNDARY_AND_TRIANGULAR_CHAIN_MINOR_V1.zip`). The inline sources, not this archive, reconstruct every new claimed object. The unavailable original four source units remain explicitly unavailable.
 
 ## 7. Complete new source units
 

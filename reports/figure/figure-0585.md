@@ -20,7 +20,7 @@ A separate primal reconstruction also genuinely restores U1, but loses S1; its c
 
 The complete292751-byte newly supplied journal was read through EOF at SHA256 `c6118e79d9283c651d90b14c2b24e249ecfd36771f4d809caa31ba1253cfd640`, including the literal parent `figure-0579`, SHA256 `63abf688d6e2afd53b06fe5a8855bbcc4e708c8ff6b12a48137483abee4aac19`. The supplied parent capsule was decoded, and the complete source units reused in the new computation were read. No inaccessible optimizer archive, C622/FULL76 input, external library or J91 C434 geometry is used.
 
-The selected starting body is literal **KF27C_LOW_G8**, not a renamed NORM or C434. The parent's distinction between the shallow LOW input, deeper PATCH reserve, and unchanged-H-subset exclusions remains authoritative. fileciteturn9file0L68-L70 Its2026-byte H input has SHA256 `7479724e50c1591e0bf34a8a29e2b69b400f96a7151dfcd69f1bdb3516d2de10` and is included again below through the complete capsule.
+The selected starting body is literal **KF27C_LOW_G8**, not a renamed NORM or C434. The parent's distinction between the shallow LOW input, deeper PATCH reserve, and unchanged-H-subset exclusions remains authoritative. Its2026-byte H input has SHA256 `7479724e50c1591e0bf34a8a29e2b69b400f96a7151dfcd69f1bdb3516d2de10` and is included again below through the complete capsule.
 
 ## 1. Finite mechanism: an actual polar escape followed by physical mass restoration
 
@@ -316,7 +316,7 @@ Selected additional receipts:
 | Full final producing checkpoint BARFLOW_ROBUST_last.npy |1304|fd1516ad5526a4fad4d67a613b90054a13df37c7be71137aa94796a129b90301|
 | Full mass-restoration input TREECHART12_input.npy |2072|008486e792f6eef017b51cfe7c46c7eb3411bdb9d8e49f69eb6f2b2deceed35d|
 
-Supplementary copies: [complete minimal capsule](sandbox:/mnt/data/KF27D_CAPSULE.py), [complete sources, exact audits and historical numerical evidence](sandbox:/mnt/data/KF27D_HANDOFF.zip). The full reconstruction payload below is part of this handoff; none of these exact endpoints depends on a sandbox download.
+Supplementary copies: complete minimal capsule (`KF27D_CAPSULE.py`), complete sources, exact audits and historical numerical evidence (`KF27D_HANDOFF.zip`). The full reconstruction payload below is part of this handoff; none of these exact endpoints depends on a sandbox download.
 
 ## 8. Complete source capsule
 

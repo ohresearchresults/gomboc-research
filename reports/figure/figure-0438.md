@@ -20,7 +20,7 @@ A companion, **VL12_DUAL_FREE21_G4**, is exact own312/weak000 at the same C114 a
 
 I read the entire supplied 1,198-line journal, including branch memory and the literal parent `figure-0432`, SHA-256 `a00849da3b96c21a3afce30d32ab973073fe1ec393b2909e93120ec9b33a6b0b`. I decoded and read all nine supplied parent source units. No necessary exact dependency is missing, and no research connector or external archive was used.
 
-The parent is correctly own121/weak000 with V38/E57/F21, not own110; its centroid is not zero. Its complete physical bar is large, while its same-center polar has no positive bar. These are the literal-parent facts, not an alias inferred from older branch prose. :contentReference[oaicite:0]{index=0}
+The parent is correctly own121/weak000 with V38/E57/F21, not own110; its centroid is not zero. Its complete physical bar is large, while its same-center polar has no positive bar. These are the literal-parent facts, not an alias inferred from older branch prose.
 
 The supplied nine-source parent recovery was actually run through `BH81_CONTACT2_FOUR_RATIONAL_NONWINNERS_COLD_PASS 4`. All four inherited output hashes matched. The new capsule independently reconstructs the G6 parent again and checks its 690,015-byte full output against SHA-256 `0e857472cf4a8c50326f38eec6d18463b6256693e49f3e508266cac867938e32`.
 
@@ -167,7 +167,7 @@ No external parent, optimizer execution, NumPy, SciPy or Torch is needed for exa
 
 The capsule contains21 units. Expanded JSON:61,794bytes, SHA-256 `f529bf432bfb07042cf6ab5e3663957cef664386bc140af84f705b94d55fe937`. XZ:18,816bytes, SHA-256 `288863166e1583fde4f058e57e3668e72666c6e5c1b96bc410c03b432a878fd5`. Normalized base64:25,088characters, SHA-256 `a25691529131966c39c7cad38bb85fdebb3c5ae8a4b1a56c4590a70ee3a952e2`. Recovery program:26,407bytes, SHA-256 `1e8f5a53e3ec40bb620d02fb4dbbf740cd721a71ed539a834db079830520f24b`.
 
-[Recovery program](sandbox:/mnt/data/RECOVER_VL12_C114_REPLACEMENT.py) and [verified source/output archive](sandbox:/mnt/data/VL12_C114_REPLACEMENT_VERIFIED.zip) are conveniences only; all continuation-critical sources and checkpoints follow inline.
+Recovery program (`RECOVER_VL12_C114_REPLACEMENT.py`) and verified source/output archive (`VL12_C114_REPLACEMENT_VERIFIED.zip`) are conveniences only; all continuation-critical sources and checkpoints follow inline.
 
 ```python
 """VL12 exact C114 replacement recovery. CPython 3.13.5 standard library.

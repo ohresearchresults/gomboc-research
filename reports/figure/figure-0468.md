@@ -8,7 +8,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Status
 
-I read the continuation `research-journal.md` completely through EOF: 1999 lines, 257970 bytes, SHA-256 `c6f8b861262f9535c6dbb80d3cb5918d9e1d53ed2a7e0b38ce445651aec8b29f`. The literal source-complete authority is `figure-0447` (SHA `efbc9084f0bedab80a14b39769917edcf445ab6af765170cb4e101f77ad12022`); its exact MONO85_G6 packet/census and embedded 41-unit recovery are present in the supplied parent payload. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} I found no conflict between that literal payload and the branch summary. The previous cycle-credit result `figure-0465` is also consistent with the new exact computation. :contentReference[oaicite:3]{index=3}
+I read the continuation `research-journal.md` completely through EOF: 1999 lines, 257970 bytes, SHA-256 `c6f8b861262f9535c6dbb80d3cb5918d9e1d53ed2a7e0b38ce445651aec8b29f`. The literal source-complete authority is `figure-0447` (SHA `efbc9084f0bedab80a14b39769917edcf445ab6af765170cb4e101f77ad12022`); its exact MONO85_G6 packet/census and embedded 41-unit recovery are present in the supplied parent payload. I found no conflict between that literal payload and the branch summary. The previous cycle-credit result `figure-0465` is also consistent with the new exact computation.
 
 No strict110 endpoint was obtained. The main advance is stronger than a failed one-cut test:
 
@@ -18,7 +18,7 @@ No strict110 endpoint was obtained. The main advance is stronger than a failed o
 4. Those three exact cuts give a genuine **C486** body, `V/E/F=162/243/83`, but its own-centroid class is initially `44/11/53`.
 5. A rational affine reconsolidation of that same C486 body gives the much stronger exact checkpoint **`NW37_MONO85_PACKET3CUT_T999_AFFINE_M1E5` = strict222/weak000/zero000**, with exactly **one positive P bar and one positive Q bar**. It is not a winner, but it is a durable C<500 two-packet endpoint with only two roots on each side.
 
-The active final bound `E<=249` and the cycle-credit accounting are therefore respected throughout. :contentReference[oaicite:4]{index=4}
+The active final bound `E<=249` and the cycle-credit accounting are therefore respected throughout.
 
 ## 1. Exact obstruction: the 41-vertex packet is not one-cut separable
 

@@ -35,7 +35,7 @@ R=\frac{JB_2}{VI},\qquad
 L=\frac{JB_1^2}{VB_0I}.
 \]
 
-These are precisely the actual planar side quantities in the literal parent. Its lift P={(x,z):x in K, 2|z|≤ell(x)} has volume V, centroid (g_ell,0), and marked lateral-facet mass alpha=mB0/V. The exact reduction of both three-dimensional constants to these side constants is an imported parent theorem, not repeated here. fileciteturn0file0L1093-L1116
+These are precisely the actual planar side quantities in the literal parent. Its lift P={(x,z):x in K, 2|z|≤ell(x)} has volume V, centroid (g_ell,0), and marked lateral-facet mass alpha=mB0/V. The exact reduction of both three-dimensional constants to these side constants is an imported parent theorem, not repeated here.
 
 For ANY affine ψ and either sign of a sufficiently small real s, define
 
@@ -138,7 +138,7 @@ The bulk integrals in (3.4)–(3.5) are UNWEIGHTED area integrals: ψ is the den
 \tag{3.6}
 \]
 
-Scaling ψ=ell gives −1+1=0, a useful check. The journal's one-sided caveat concerns density changes on FIXED K. It remains correct in that class; (2.1) supplies a different admissible actual-body variation and removes that caveat for joint maximization. fileciteturn0file0L1028-L1031
+Scaling ψ=ell gives −1+1=0, a useful check. The journal's one-sided caveat concerns density changes on FIXED K. It remains correct in that class; (2.1) supplies a different admissible actual-body variation and removes that caveat for joint maximization.
 
 This is also constructive. If d=(D_R(1),D_R(t),D_R(Y)) is nonzero, use ψ=d0+d1 t+d2 Y. Then D_R(ψ)=|d|²>0, so actual clipped lifts strictly improve R for all sufficiently small positive s. For rational polygonal input, including the affine functions, this ψ and every sufficiently small rational s give a reconstructible rational actual lift and rational actual centroid. The same statement holds for positive L using (3.5).
 
@@ -242,7 +242,7 @@ This section uses the accepted strong-attainment and nonsmooth-conic theorem rec
 t=F(Y)=m+(J/I)Y^2+2m\eta Y,\qquad\eta=B_1/B_2,
 \]
 
-whose minimum is strictly positive. Every positive-density nonmarked straight edge meets an endpoint of the marked edge; there is at most one zero-density straight edge. This imported theorem does not assert weak-leverage attainment. fileciteturn0file0L1003-L1012
+whose minimum is strictly positive. Every positive-density nonmarked straight edge meets an endpoint of the marked edge; there is at most one zero-density straight edge. This imported theorem does not assert weak-leverage attainment.
 
 Normalize the marked edge to t=0, −1≤y≤1, using an affine reparametrization of the independent test. Write K between its lower convex graph L(y) and upper concave graph U(y).
 
@@ -344,9 +344,9 @@ The actual y marginal is ρ(y)=(H−λ(y))²/2. It is constant H²/2 on [−a,a]
 \tag{6.2}
 \]
 
-More precisely, if V_core=aH² and W=V−V_core, the ratio is at most alpha V/(V_core+3W). The facet-mass bound alpha≤3/4 is the recorded actual affine-density bound. fileciteturn0file0L1005-L1007
+More precisely, if V_core=aH² and W=V−V_core, the ratio is at most alpha V/(V_core+3W). The facet-mass bound alpha≤3/4 is the recorded actual affine-density bound.
 
-The normal entry is at most3/2 by the accepted universal normal theorem, and the z entry is at most10−5sqrt(3)<3/2 by the literal parent's arbitrary-support fibre theorem. Hence the complete marked three-dimensional matrix inequality holds for every body (6.1), and for every affine image of it. Leverage follows as well. The floor may have arbitrarily many knots, curved pieces, stems, or nonsmooth convex parts. This is not restricted to the previously certified two-parabolic-wing family, and it is not the parent's marked-end homothetic-profile theorem. Only the specified marked facet is asserted. fileciteturn0file0L948-L949 fileciteturn0file0L1244-L1254
+The normal entry is at most3/2 by the accepted universal normal theorem, and the z entry is at most10−5sqrt(3)<3/2 by the literal parent's arbitrary-support fibre theorem. Hence the complete marked three-dimensional matrix inequality holds for every body (6.1), and for every affine image of it. Leverage follows as well. The floor may have arbitrarily many knots, curved pieces, stems, or nonsmooth convex parts. This is not restricted to the previously certified two-parabolic-wing family, and it is not the parent's marked-end homothetic-profile theorem. Only the specified marked facet is asserted.
 
 ## 7. Exact actual controls and a preserved failed sign mechanism
 
@@ -505,7 +505,7 @@ ebb8430ff1f3db87498ea491acb685f3f8ccf0943dbe248bfba253710ff321b8
 
 Normal execution, a fresh directory containing ONLY the standalone source, and a separate losslessly decoded-source execution all completed. The source, report, and stdout were byte-identical across the three runs. This is current-worker exact execution, not a claimed coordinator replay or proof-assistant formalization. The report is an output, never an input.
 
-Convenience copies supplement, but are not needed in place of, the complete inline source: [source and exact outputs](sandbox:/mnt/data/affine_density_clipping_capsule.zip), [standalone source](sandbox:/mnt/data/affine_next/affine_density_clipping.py), [exact report](sandbox:/mnt/data/affine_next/affine_density_clipping_report.json).
+Convenience copies supplement, but are not needed in place of, the complete inline source: source and exact outputs (`affine_density_clipping_capsule.zip`), standalone source (`affine_density_clipping.py`), exact report (`affine_density_clipping_report.json`).
 
 ```python
 """AFFINE_DENSITY_CLIPPING_STATIONARITY_V1.

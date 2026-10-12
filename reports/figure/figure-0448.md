@@ -30,7 +30,7 @@ Observed complete-file receipts:
 | CF82_SELECTIVE_REPLAY.py.txt | 18425 | d32187b109f69171a8b5fd6ccda3942859b06f5be0f16baa6fca1f27df59d2c4 |
 | CF82_SELECTIVE_PROTECTION.py.txt | 6645 | abf83a6ac786b2187303612a6e1888050bf50e3ec9d4d5b0500f8fcf9d524997 |
 
-The four material identities and their inner source/input receipts match the supplied descriptions. The primary material explicitly preserves three distinct strict211/additionalweak000/primitivezero000 nonwinners. :contentReference[oaicite:0]{index=0}
+The four material identities and their inner source/input receipts match the supplied descriptions. The primary material explicitly preserves three distinct strict211/additionalweak000/primitivezero000 nonwinners.
 
 Outer-envelope limitation: hashing the journal's literal Markdown tail beginning at the Calm Finch82 result heading gives 24918 bytes and SHA-256 `0ca0937d4606f88375767edcf5c74157f850964f6f6309cf140d2f2d8557bea4`, not the declared enclosing-result SHA above. I did not authenticate the enclosing result by that operation, identify its serialization, or infer corruption. The actual source units and integer point tables authenticate separately; no conflicting geometric class or coordinate alias was found.
 
@@ -70,7 +70,7 @@ RESERVE42_G5 has S=[0,4], cycles `[4,0,19]` and `[40,21,39]`, U=[0], H=[[0,23]],
 
 The capsule regenerates full exact volumes, first moments, centroids, every maximal face and true edge, all equilibrium lists, every bar birth/death/depth fraction, attaining paths, and complete cuts for all three bodies. Its positive-bar predicate is `depth > 0` in Fraction arithmetic, with no numerical floor. The generic cube-root enclosure prints [0,1)/10^12 for TP, but the underlying `TP_cube` and empty P-bar list prove **TP=0**, not a small positive residue.
 
-MAIN83_G7 remains the smaller-normalized-gap body within this three-body set; RESERVE83_G6 has cheaper arithmetic. The inherited MAIN83_G6 and RESERVE83_G5 coarse controls remain own233 and own255, respectively, not strict211 aliases. They were not reconstructed or rerun here. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+MAIN83_G7 remains the smaller-normalized-gap body within this three-body set; RESERVE83_G6 has cheaper arithmetic. The inherited MAIN83_G6 and RESERVE83_G5 coarse controls remain own233 and own255, respectively, not strict211 aliases. They were not reconstructed or rerun here.
 
 ## Sharpened local protection: exact assumptions and scope
 
@@ -78,7 +78,7 @@ Use `d_H(K,L)=sup_{|u|=1}|h_K(u)-h_L(u)|`, with each physical body translated by
 
 `eta=(1/sqrt(d)-1/sqrt(b))/2`.
 
-The inherited support-persistence argument excludes S1 when the centred distance to K is less than eta, regardless of new incidence or root identity. Its premise is a complete basin and separating cut, not one witness edge. The supplied argument identifies local minima of positive polyhedral support with strict stable facet equilibria. :contentReference[oaicite:3]{index=3}
+The inherited support-persistence argument excludes S1 when the centred distance to K is less than eta, regardless of new incidence or root identity. Its premise is a complete basin and separating cut, not one witness edge. The supplied argument identifies local minima of positive polyhedral support with strict stable facet equilibria.
 
 The present replay brackets eta by testing, for rational e,
 
@@ -88,11 +88,11 @@ It proves `eta > 74303069192/10^12`. Set `r=45803069192/10^12`. For any own-cent
 
 `d_H(K,M) < 57/2000+r = 74303069192/10^12 < eta`.
 
-Therefore S(M)>=2. This is a conditional local consequence, not a statement that larger displacement is sufficient. The lead's exact 27-endpoint certificate establishes the premise using raw point-match displacement <27/1000 and actual centroid displacement <3/2000. This closeout did not execute those 27 nominations or recheck their 27 meshes; their application here relies on the supplied certificate. :contentReference[oaicite:4]{index=4}
+Therefore S(M)>=2. This is a conditional local consequence, not a statement that larger displacement is sufficient. The lead's exact 27-endpoint certificate establishes the premise using raw point-match displacement <27/1000 and actual centroid displacement <3/2000. This closeout did not execute those 27 nominations or recheck their 27 meshes; their application here relies on the supplied certificate.
 
-The lead's endpoint counts remain numerical: nine tight-ranked cases S2U1 and eighteen angle/bulge cases S3U1. Their full endpoint H/weak census was not established. Exact S>=2 protection must not be relabelled as a full exact own211 classification. :contentReference[oaicite:5]{index=5}
+The lead's endpoint counts remain numerical: nine tight-ranked cases S2U1 and eighteen angle/bulge cases S3U1. Their full endpoint H/weak census was not established. Exact S>=2 protection must not be relabelled as a full exact own211 classification.
 
-Positive uniform scaling and rotation preserve own equilibrium counts. A similarity alignment inside a protected ball is therefore also an exclusion; rotating or uniformly rescaling a nonwinner out of one unaligned ball is not shape progress. No optimized alignment, exact Hausdorff distance, or global affine exclusion for CF82 was computed. The separate connected-affine obstruction remains restricted to the old SF90_CANCEL14_G5 parent and its stated component. :contentReference[oaicite:6]{index=6}
+Positive uniform scaling and rotation preserve own equilibrium counts. A similarity alignment inside a protected ball is therefore also an exclusion; rotating or uniformly rescaling a nonwinner out of one unaligned ball is not shape progress. No optimized alignment, exact Hausdorff distance, or global affine exclusion for CF82 was computed. The separate connected-affine obstruction remains restricted to the old SF90_CANCEL14_G5 parent and its stated component.
 
 ## Actual execution and verification limits
 
@@ -124,7 +124,7 @@ The unresolved task remains finite cancellation of the entire residual stable ba
 
 The restart choices remain MAIN83_G7 and RESERVE83_G6, with RESERVE42_G5 as the lower-arithmetic/lower-complexity alternative. The 82-exposed-vertex bodies have 70 current edge slots under E<=310. At most105 final exposed vertices is a sufficient E<=309 condition, not a requirement. If all83 supplied rows may become exposed, adding at most22 more rows is the conservative 105-input guarantee; a 23-addition allowance must account for the inactive row or count actual exposed vertices.
 
-The inherited S39 companion remains a useful smaller-gap many-S alternative: reported normalized half-gap about0.0356688, but38 positive Q bars. It was not reconstructed, discarded, or promoted here. Its full input/producer closure remains in the supplied earlier auxiliary recovery pack, not in the eight-unit capsule below. The relevant complete units must be read before using that companion or resuming the original numerical campaign. This capsule does not claim to preserve every old producer or all15 grids. :contentReference[oaicite:7]{index=7} :contentReference[oaicite:8]{index=8}
+The inherited S39 companion remains a useful smaller-gap many-S alternative: reported normalized half-gap about0.0356688, but38 positive Q bars. It was not reconstructed, discarded, or promoted here. Its full input/producer closure remains in the supplied earlier auxiliary recovery pack, not in the eight-unit capsule below. The relevant complete units must be read before using that companion or resuming the original numerical campaign. This capsule does not claim to preserve every old producer or all15 grids.
 
 ## Self-contained eight-unit recovery capsule
 
@@ -275,4 +275,4 @@ assert json.loads((out/'FINISH_OUTPUTS.json').read_text())==expected
 print('CF82_FINISH_COLD_REPLAY_SEVEN_OUTPUTS_MATCH_PASS',len(expected),flush=True)
 ```
 
-Supplementary copies: [standalone recovery source](sandbox:/mnt/data/RECOVER_CF82_FINISH.py), [complete Markdown handoff](sandbox:/mnt/data/CF82_FINISH_HANDOFF.md), [complete JSON handoff](sandbox:/mnt/data/CF82_FINISH_HANDOFF.json), and [source-plus-output evidence archive](sandbox:/mnt/data/CF82_FINISH_EVIDENCE.zip). The inline capsule, not those links, supplies the complete three-body reconstruction and verification.
+Supplementary copies: standalone recovery source (`RECOVER_CF82_FINISH.py`), complete Markdown handoff (`CF82_FINISH_HANDOFF.md`), complete JSON handoff (`CF82_FINISH_HANDOFF.json`), and source-plus-output evidence archive (`CF82_FINISH_EVIDENCE.zip`). The inline capsule, not those links, supplies the complete three-body reconstruction and verification.

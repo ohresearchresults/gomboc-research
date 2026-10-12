@@ -40,7 +40,7 @@ No conflicting parent geometry was substituted. In A_G1067 the apex is **old raw
 
 The research library was independently catalogued/searched and the relevant prior metric material was read, including figure-0392, SHA f7ab06ff50542624db5298c8e19c5c1f174c50f979e07bae78759b4341166fb7. Its existence is not treated as an orbit exclusion for these different bodies. The last complete navigation-brief read was revision1929, SHA6fa52a875b6d63345927f5a7df7afa3fe65bf353410f6d1bbb75f8d821fd8e81; it still reported no smaller own110. Other newly listed architectures were not silently imported as dependencies.
 
-Projective centroid fitting is established background, not a novelty claimed here; see Ivan Izmestiev, *Fitting centroids by a projective transformation*, arXiv:1409.6176. The input-specific certificates and cap constructions below are the present findings. :contentReference[oaicite:0]{index=0}
+Projective centroid fitting is established background, not a novelty claimed here; see Ivan Izmestiev, *Fitting centroids by a projective transformation*, arXiv:1409.6176. The input-specific certificates and cap constructions below are the present findings.
 
 ## 2. Six-arrow root locking with the actual projective mass and every affine metric
 
@@ -184,4 +184,4 @@ Dictionary233652bytes SHA7f00138c4a87b5874e8becb2e2d188fdf5fbda47941c23029d589a3
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Supplemental copies: [standalone decoder](sandbox:/mnt/data/RECOVER_VF97.py), [complete source, exact reports and working evidence](sandbox:/mnt/data/VF97_COMPLETE_RESEARCH.zip), and [the same complete handoff JSON](sandbox:/mnt/data/VF97_RESULT.json). These downloads are conveniences; the capsule above is sufficient.
+Supplemental copies: standalone decoder (`RECOVER_VF97.py`), complete source, exact reports and working evidence (`VF97_COMPLETE_RESEARCH.zip`), and the same complete handoff JSON (`VF97_RESULT.json`). These downloads are conveniences; the capsule above is sufficient.

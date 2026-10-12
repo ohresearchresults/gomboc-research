@@ -18,7 +18,7 @@ These are different physical bodies. S1 from an own121 body and U1 from an own21
 
 ### Delivery limitation
 
-The complete intended handoff was created and validated as [QW49H_RESULT.json](sandbox:/mnt/data/QW49H_RESULT.json): **192562 bytes**, SHA256 **`79eb0958e20abfb841425dca5f52e2fccf34027986a674f084e96272851b809c`**. Its `result_markdown` contains the complete63-unit executable capsule and the exhaustive20-body equilibrium/bar ledger. The corresponding [Markdown handoff](sandbox:/mnt/data/QW49H_RESULT.md) is190255 bytes.
+The complete intended handoff was created and validated as QW49H_RESULT.json: **192562 bytes**, SHA256 **`79eb0958e20abfb841425dca5f52e2fccf34027986a674f084e96272851b809c`**. Its `result_markdown` contains the complete63-unit executable capsule and the exhaustive20-body equilibrium/bar ledger. The corresponding Markdown handoff (`QW49H_RESULT.md`) is190255 bytes.
 
 **This inline response does not reproduce that complete new coordinate/source capsule or the long positive-bar arrays of the fragmented controls. Under the research copy contract, the new computational bodies must therefore remain ephemeral in this inline handoff, rather than durable replacements of QW49G, unless the linked full payload is retained.** The computational work and exact audits were completed; the limitation here is the completeness of inline delivery. The scoped unchanged-parent theorem below is specified independently of any new coordinate array.
 
@@ -32,7 +32,7 @@ The principal physical ancestor is **QW49G_APEX_MASS_RELAY_G10_COMPACT**,119/209
 
 `c1=(405988057/5000000000,560382261/10000000000,-217267467/2000000000)`.
 
-It is distinct from **QW49G_ROBUST_H45_G4**,86/129/45 own211. The former has20 additional through-apex or13 ordinary-support slots under its retained-apex bounds; the latter has40 ordinary-support slots, not40 point slots. These parent identities and their actual/reference distinctions are retained explicitly. fileciteturn34file2L85-L108
+It is distinct from **QW49G_ROBUST_H45_G4**,86/129/45 own211. The former has20 additional through-apex or13 ordinary-support slots under its retained-apex bounds; the latter has40 ordinary-support slots, not40 point slots. These parent identities and their actual/reference distinctions are retained explicitly.
 
 ## 2. A whole-basin lower bound covering every reference-S1 centre of the unchanged parent
 
@@ -333,13 +333,13 @@ The exact family report is41114 bytes, SHA256 **`f3eef4651de514a71125d4372dc7a12
 
 The full self-contained package is available as:
 
-[Complete decoder](sandbox:/mnt/data/RECOVER_QW49H.py)
+Complete decoder (`RECOVER_QW49H.py`)
 
-[Complete structured handoff, including its inline63-unit capsule](sandbox:/mnt/data/QW49H_RESULT.json)
+Complete structured handoff, including its inline63-unit capsule (`QW49H_RESULT.json`)
 
-[Complete Markdown handoff](sandbox:/mnt/data/QW49H_RESULT.md)
+Complete Markdown handoff (`QW49H_RESULT.md`)
 
-[All research sources, numerical states, logs and exact reports](sandbox:/mnt/data/QW49H_COMPLETE_RESEARCH.zip)
+All research sources, numerical states, logs and exact reports (`QW49H_COMPLETE_RESEARCH.zip`)
 
 Confirmed decoder identity: **138833 bytes**, SHA256 **`70a4bb96e83bc04490ad6fe2a61a8fd1abf1b2407161fe36cb7305937d098b61`**. It decodes **63 units /399500 bytes**, dictionary SHA256 **`7f8fc10557b459cbc2bee9d72c32dd7a79b33dded6df7264a81cf760595f1d69`**. The ZIP is41475402 bytes, SHA256 **`1bba07452618d8e56058165aea0f27d88b0a4bfd2c41418870fcd3eb4c82816c`**; its634 entries passed the archive integrity check.
 

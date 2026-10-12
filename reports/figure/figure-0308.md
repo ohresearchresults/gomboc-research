@@ -8,9 +8,9 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 ## Determination
 
-This submission supplies a complete standard-library verifier, a finite global-embedding certificate, and exercised exact fixtures. **It does not certify a large Gömböc or replay the missing 227,905-vertex table.** The journal distinguishes the reported old instance from the new reconstruction and explicitly records the missing literal arrays; that distinction is preserved here. Its proposed input is the one implemented below. :contentReference[oaicite:0]{index=0}
+This submission supplies a complete standard-library verifier, a finite global-embedding certificate, and exercised exact fixtures. **It does not certify a large Gömböc or replay the missing 227,905-vertex table.** The journal distinguishes the reported old instance from the new reconstruction and explicitly records the missing literal arrays; that distinction is preserved here. Its proposed input is the one implemented below.
 
-The substantive addition is an **explicit radial-link winding check**. Positive radial determinants and convex adjacent dihedrals do not alone establish an embedded boundary. I constructed a ten-vertex triangulated sphere with all those signs strict, all vertex links single cycles, and Euler characteristic two, whose radial image covers a generic direction three times. The verifier rejects it. The journal's proposed degree-one ray check would also reject this example; the example does **not** falsify that complete proposed route. It identifies the missing local-injectivity justification at vertices, which the additional exact winding counts resolve constructively. The earlier journal's global argument is therefore treated as a proof route to complete, not as a previously replayed certificate. :contentReference[oaicite:1]{index=1}
+The substantive addition is an **explicit radial-link winding check**. Positive radial determinants and convex adjacent dihedrals do not alone establish an embedded boundary. I constructed a ten-vertex triangulated sphere with all those signs strict, all vertex links single cycles, and Euler characteristic two, whose radial image covers a generic direction three times. The verifier rejects it. The journal's proposed degree-one ray check would also reject this example; the example does **not** falsify that complete proposed route. It identifies the missing local-injectivity justification at vertices, which the additional exact winding counts resolve constructively. The earlier journal's global argument is therefore treated as a proof route to complete, not as a previously replayed certificate.
 
 Two newly created, small, genuinely quadratic-algebraic, exactly centred **nonwinners** pass the geometry and strict-classification checks. A second implementation using rational pairs, all-triangle/all-vertex supporting inequalities, and explicit two-normal Gram solves independently reproduces their classifications. A third exactly centred convex fixture is rejected for a genuine boundary-degenerate equilibrium. These are software cross-checks produced in this assignment, not external peer review or formal verification of the Python interpreter.
 
@@ -108,7 +108,7 @@ These pieces agree on shared cone faces because they take value one at every tri
 
 Across an edge, let `d` be the opposite vertex in the other triangle. The code requires `n_f dot(d-a)<=0`. Consequently the other gauge piece is at least the first on the other cone, with equality on the separating plane; the reverse inequality holds on the first cone. Locally the two pieces form their maximum, so the gauge bends convexly across every two-dimensional cone wall.
 
-For a generic line segment missing the finitely many cones of dimension at most one, the gauge is piecewise affine and its slope never decreases at a crossed wall. Its restriction is convex. Perturbing endpoints and taking limits extends the convexity inequality to **every** segment, including segments through vertices, cone edges, or the origin. This is the complete local-to-global argument; it does not assume the input is already a convex polyhedron. General local criteria for convexity of piecewise-defined functions are also developed by Bauschke, Lucet and Phan; the specialized argument here is supplied in full rather than delegated to that reference. :contentReference[oaicite:2]{index=2}
+For a generic line segment missing the finitely many cones of dimension at most one, the gauge is piecewise affine and its slope never decreases at a crossed wall. Its restriction is convex. Perturbing endpoints and taking limits extends the convexity inequality to **every** segment, including segments through vertices, cone edges, or the origin. This is the complete local-to-global argument; it does not assume the input is already a convex polyhedron. General local criteria for convexity of piecewise-defined functions are also developed by Bauschke, Lucet and Phan; the specialized argument here is supplied in full rather than delegated to that reference.
 
 The gauge is strictly positive away from zero: in any cone, writing `x=alpha*a+beta*b+gamma*c` with nonnegative coefficients gives `g(x)=alpha+beta+gamma>0`. Continuity on the unit sphere makes its unit sublevel set bounded and gives a neighbourhood of zero inside it. Therefore `K={g<=1}` is a full-dimensional compact convex body, with boundary exactly the input triangle union. It is the convex hull of the supplied vertices. Each triangle plane is a globally supporting plane of `K`: at an interior point of its cone the corresponding linear piece is a gradient of the convex gauge, so its global tangent inequality gives `g(x)>=(n_f dot x)/h_f`.
 
@@ -980,17 +980,17 @@ if __name__=='__main__':
 
 ## 10. Frozen artifacts and completed clean replay
 
-[Portable verifier, literal fixtures, proofs, manifest and runner](sandbox:/mnt/data/portable_quadratic_verifier.zip)
+Portable verifier, literal fixtures, proofs, manifest and runner (`portable_quadratic_verifier.zip`)
 
-[Standalone production verifier](sandbox:/mnt/data/verify_gomboc.py)
+Standalone production verifier (`verify_gomboc.py`)
 
-[Standalone fixture generator and independent oracle](sandbox:/mnt/data/test_verifier.py)
+Standalone fixture generator and independent oracle (`test_verifier.py`)
 
-[Complete handoff with both sources inline](sandbox:/mnt/data/portable_quadratic_verifier_HANDOFF.md)
+Complete handoff with both sources inline (`portable_quadratic_verifier_HANDOFF.md`)
 
-[Machine-readable version-2 handoff](sandbox:/mnt/data/portable_quadratic_verifier_result.json)
+Machine-readable version-2 handoff (`portable_quadratic_verifier_result.json`)
 
-[Actual clean-extraction replay transcript](sandbox:/mnt/data/portable_quadratic_verifier_replay.txt)
+Actual clean-extraction replay transcript (`portable_quadratic_verifier_replay.txt`)
 
 The archive contains 46 files, including a 45-file SHA-256 manifest. Its size is 35,876 bytes and SHA-256 is `1463c4692ab4458c2478641156f82de24612b922d083c4014097482d2db9093f`. The exact production source above has SHA-256 `91628f5d51ef956ccf55f80eec765501184023a55842e0af14bcae137237ac78`; the exact test source has SHA-256 `a3e5623971c21e31dd23eabb25ff5fc0482e65e206f201fc4867625afa67e6e5`.
 

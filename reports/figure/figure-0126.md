@@ -14,7 +14,7 @@ AI research report · 2026-08-27 UTC
 
 not `(1,1,0)`. The selected unwanted stable face, unwanted unstable cone, and both saddle cones all participate in one exact simultaneous fan event, but the Euler-neutral four-feature block **transfers rather than cancels or multiplies**.
 
-The run's acceptance gate requires a finite exact own-centroid `(1,1,0)` polyhedron, complete maximal-face/vertex/true-edge audit, independent verification, and matching OBJ/STL; near-solutions and wall points do not qualify. :contentReference[oaicite:0]{index=0} This result therefore remains a rigorous nonwinner.
+The run's acceptance gate requires a finite exact own-centroid `(1,1,0)` polyhedron, complete maximal-face/vertex/true-edge audit, independent verification, and matching OBJ/STL; near-solutions and wall points do not qualify. This result therefore remains a rigorous nonwinner.
 
 ## What changed relative to the supplied journal
 
@@ -25,7 +25,7 @@ R_i(s) = (1-s) R_i(old) + s R_i(star),
 h_i(s) = (1-s) h_i(old) + s h_i(star),
 ```
 
-while retaining `C1,C2,C3` as the three dependent full-rank ordinary-moment controls. The exact old and star H data for all seven rows are in [D_parameterization.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/D_parameterization.csv); exact pre-, wall-, and post-cell H/V tables are also materialized.
+while retaining `C1,C2,C3` as the three dependent full-rank ordinary-moment controls. The exact old and star H data for all seven rows are in D_parameterization.csv; exact pre-, wall-, and post-cell H/V tables are also materialized.
 
 The shared wall is at the exact value `s=1`. One star ray is
 
@@ -76,7 +76,7 @@ A9   = aU n23 + bU r24       unwanted unstable-cone wall
 A100 = a2 n17 + b2 n24       second saddle-cone wall.
 ```
 
-The independent verifier recomputes these identities from [p9_normals.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/p9_normals.csv) and [event_parameters.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/event_parameters.csv).
+The independent verifier recomputes these identities from p9_normals.csv and event_parameters.csv.
 
 ## Exact ordered common-fan atlas
 
@@ -96,13 +96,13 @@ The actual rebuilt cells are:
 | 1 | shared wall | `(10,15,7)` | `(51,90,41)` | wall stratum |
 | 2 | strict post-cell | `(10,15,7)` | `(56,104,50)` | `(2,2,2)` |
 
-Thus the direct pre-to-post change is `Δ(V,E,F)=(-1,-2,-1)`, but the wall itself has a larger transient collapse. There is one chronological event level containing four simultaneous active-cone circuits, rather than four serial walls. The complete exact event ledger is [common_fan_event.json](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_fan_event.json).
+Thus the direct pre-to-post change is `Δ(V,E,F)=(-1,-2,-1)`, but the wall itself has a larger transient collapse. There is one chronological event level containing four simultaneous active-cone circuits, rather than four serial walls. The complete exact event ledger is common_fan_event.json.
 
 Exact cell tables:
 
-- Pre: [D H](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/D_pre_H.csv), [D V](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/D_pre_V.csv), [common H](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_pre_H.csv), [common V](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_pre_V.csv), [true edges](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_pre_edges.csv).
-- Wall: [D H](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/D_wall_H.csv), [D V](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/D_wall_V.csv), [common H](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_wall_H.csv), [common V](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_wall_V.csv), [true edges](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_wall_edges.csv).
-- Post: [D H](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/D_post_H.csv), [D V](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/D_post_V.csv), [common H](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_post_H.csv), [common V](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_post_V.csv), [true edges](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/common_post_edges.csv).
+- Pre: D H (`D_pre_H.csv`), D V (`D_pre_V.csv`), common H (`common_pre_H.csv`), common V (`common_pre_V.csv`), true edges (`common_pre_edges.csv`).
+- Wall: D H (`D_wall_H.csv`), D V (`D_wall_V.csv`), common H (`common_wall_H.csv`), common V (`common_wall_V.csv`), true edges (`common_wall_edges.csv`).
+- Post: D H (`D_post_H.csv`), D V (`D_post_V.csv`), common H (`common_post_H.csv`), common V (`common_post_V.csv`), true edges (`common_post_edges.csv`).
 
 The common fan was rebuilt exactly from inherited P9 rays, active `D` rays, and all intersections of P9 and `D` edge-cone walls. A candidate ray was retained only when its Minkowski support face had affine dimension two. Vertices were then accepted only when their active common normals had rank three; maximal cycles and true edges were reconstructed from exact face intersections.
 
@@ -122,7 +122,7 @@ M(t) = Σ_T det(v_a(t),v_b(t),v_c(t))
        (v_a(t)+v_b(t)+v_c(t))/24.
 ```
 
-This gives a cubic volume polynomial and three quartic first-moment polynomials. All ordinary monomial coefficients are in [mixed_coefficients.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/mixed_coefficients.csv); the exact root, volume, Jacobian, and determinant are in [moment_certificate.json](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/moment_certificate.json). The exact affine vertex coefficients used for deterministic recomputation are in [affine_vertices.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/affine_vertices.csv).
+This gives a cubic volume polynomial and three quartic first-moment polynomials. All ordinary monomial coefficients are in mixed_coefficients.csv; the exact root, volume, Jacobian, and determinant are in moment_certificate.json. The exact affine vertex coefficients used for deterministic recomputation are in affine_vertices.csv.
 
 The isolated positive solution is
 
@@ -156,7 +156,7 @@ The final translated `D_post` has
 minimum inactive H/V gap ≈ 0.004999994354004745.
 ```
 
-Its exact H/V data are [D_final_H.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/D_final_H.csv) and [D_final_V.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/D_final_V.csv). The inherited exact summands are [B,C1,C2,C3 H](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/B_C1_C2_C3_H.csv) and [B,C1,C2,C3 V](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/B_C1_C2_C3_V.csv).
+Its exact H/V data are D_final_H.csv and D_final_V.csv. The inherited exact summands are B,C1,C2,C3 H (`B_C1_C2_C3_H.csv`) and B,C1,C2,C3 V (`B_C1_C2_C3_V.csv`).
 
 The final sum has
 
@@ -169,7 +169,7 @@ ordinary centroid = (0,0,0),
 minimum inactive H/V gap ≈ 1.492804534398596e-8.
 ```
 
-Human-readable exact data are [final_H.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/final_H.csv), [final_V.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/final_V.csv), and [final_edges.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/final_edges.csv).
+Human-readable exact data are final_H.csv, final_V.csv, and final_edges.csv.
 
 ## Exhaustive own-centroid mechanics
 
@@ -199,7 +199,7 @@ max excluded vertex minimum ≈ -0.3557198979420428
 max excluded edge minimum   ≈ -7.061263318088912e-5.
 ```
 
-The complete raw ledgers are [face_audit.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/face_audit.csv), [vertex_audit.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/vertex_audit.csv), [edge_audit.csv](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/edge_audit.csv), and [equilibrium_audit.json](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/equilibrium_audit.json).
+The complete raw ledgers are face_audit.csv, vertex_audit.csv, edge_audit.csv, and equilibrium_audit.json.
 
 ## Full nonzero perturbation box, including every edge
 
@@ -212,7 +212,7 @@ vertex        0.3557198978347184
 edge          7.059272400917946e-5.
 ```
 
-The full exact fractions are in [perturbation_certificate.json](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/perturbation_certificate.json).
+The full exact fractions are in perturbation_certificate.json.
 
 ## What the shared event actually does
 
@@ -248,15 +248,15 @@ box=1/1099511627776 all_edges=104.
 
 Artifacts:
 
-- [Complete exact bundle](sandbox:/mnt/data/minkowski_multiwall_slot9/minkowski_multiwall_exact_bundle.zip) — SHA-256 `e65a67251b6312f57b6bb95c56c33b9d671da9fa19168b937b8024734cf0557c`.
-- [Certificate](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/certificate.json)
-- [README](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/README.md)
-- [Independent verifier source](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/verify_independent.cpp)
-- [Verification transcript](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/verification.txt)
-- [Clean-room ZIP verification](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/cleanroom_verification.txt)
-- [SHA-256 manifest](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/manifest.sha256)
-- [OBJ](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/endpoint.obj)
-- [STL](sandbox:/mnt/data/minkowski_multiwall_slot9/artifact/endpoint.stl)
+- Complete exact bundle (`minkowski_multiwall_exact_bundle.zip`) — SHA-256 `e65a67251b6312f57b6bb95c56c33b9d671da9fa19168b937b8024734cf0557c`.
+- Certificate (`certificate.json`)
+- README (`README.md`)
+- Independent verifier source (`verify_independent.cpp`)
+- Verification transcript (`verification.txt`)
+- Clean-room ZIP verification (`cleanroom_verification.txt`)
+- SHA-256 manifest (`manifest.sha256`)
+- OBJ (`endpoint.obj`)
+- STL (`endpoint.stl`)
 
 ## Smallest remaining obstruction and continuation
 

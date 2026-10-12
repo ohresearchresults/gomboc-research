@@ -22,9 +22,9 @@ The successful operation was an **asymmetric replacement of the supporting-plane
 
 The authoritative parent read for this assignment was `figure-0330`, SHA-256 `30d790145009a47baf5205296a665b89d31e8212b2f77ca059cffdf69473a4cc`.
 
-The actual starting geometry was its corrected ARCH274/CUT148_U7 table. The ARCH274 row beginning `-4581451990` uses third coordinate **5980611542**. The inconsistent older47-row table beginning `-3537051546` was not used. The journal’s explicit correction and its distinction between the two source objects remain in force. :contentReference[oaicite:0]{index=0}
+The actual starting geometry was its corrected ARCH274/CUT148_U7 table. The ARCH274 row beginning `-4581451990` uses third coordinate **5980611542**. The inconsistent older47-row table beginning `-3537051546` was not used. The journal’s explicit correction and its distinction between the two source objects remain in force.
 
-The parent’s accepted cut endpoints remain distinct: CUT148_U7 is292/438/148, class(1,7,6); CUT166_DEEP3 is304/456/154, class(1,7,6). The assignment’s compact description “176” denotes the equilibrium class, not176 vertices. Their own-centred construction and complete defining rows are preserved in the immutable payload. :contentReference[oaicite:1]{index=1}
+The parent’s accepted cut endpoints remain distinct: CUT148_U7 is292/438/148, class(1,7,6); CUT166_DEEP3 is304/456/154, class(1,7,6). The assignment’s compact description “176” denotes the equilibrium class, not176 vertices. Their own-centred construction and complete defining rows are preserved in the immutable payload.
 
 The new endpoint below has its **own complete123-row H definition**, so reconstructing it does not require recovering an optimizer checkpoint, an old cut selector, or the defective table.
 
@@ -536,28 +536,28 @@ OBJ and ASCII STL readback matched all242 vertices,123 maximal polygons and480 t
 
 ### Delivered files
 
-[Complete exact one-pair construction and two-program proof replay](sandbox:/mnt/data/RA04_ASYMMETRIC_ONE_PAIR.zip)
+Complete exact one-pair construction and two-program proof replay (`RA04_ASYMMETRIC_ONE_PAIR.zip`)
 
 ```text
 440902 bytes
 SHA-256 0a21433c9025b2135c952cbe1d6f194aaa694018b6278ea288a6e0a0f4a26fb0
 ```
 
-[Complete retained discovery programs, inputs, checkpoints and bounded failed branches](sandbox:/mnt/data/RA04_ASYMMETRIC_DISCOVERY.zip)
+Complete retained discovery programs, inputs, checkpoints and bounded failed branches (`RA04_ASYMMETRIC_DISCOVERY.zip`)
 
 ```text
 3919838 bytes
 SHA-256 614c6a29b6c48be5b98c03fb191253c32571ef98bad98af943f192fffc7e2740
 ```
 
-[Actual fresh-extracted archive replay report](sandbox:/mnt/data/RA04_ASYMMETRIC_ONE_PAIR_ARCHIVE_REPLAY.json)
+Actual fresh-extracted archive replay report (`RA04_ASYMMETRIC_ONE_PAIR_ARCHIVE_REPLAY.json`)
 
 ```text
 2378 bytes
 SHA-256 c19da11195dff2420d5cc41aefc3b1a9a170bd580fdac92a1b94d7914a18e651
 ```
 
-[Delivery manifest](sandbox:/mnt/data/RA04_ASYMMETRIC_DELIVERY.json)
+Delivery manifest (`RA04_ASYMMETRIC_DELIVERY.json`)
 
 The archived `EXACT_BODY.py` has SHA-256 `1c05d79c51fce9d01acceb37be7f5375ff67fbfc0816e58d136990cd75ff6f1d`; it carries the same complete H payload and reconstruction, with an additional introductory comment/docstring. The invariant defining checksum is the decoded H-table SHA given above.
 

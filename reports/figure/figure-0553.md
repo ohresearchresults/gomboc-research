@@ -14,7 +14,7 @@ Four new rational, uniformly filled projective/grid controls were reconstructed 
 
 All four current attachments were read completely. The required literal h90 parent and its previously unread tail in the prior journal were also read through EOF; the 35-unit parent recovery matched its declared 203263-byte dictionary hash `729ec23615fe3b87fc09dd359ef85b67e862abc66a431c83f9f76b79c1c86dd5`. There is no necessary source gap for this result. The current journal's 306703 bytes match `d255e5066fea8aafe868300ce038eefde4becdf4f22ac3ba2ef3e681bba8aa47`.
 
-The authority is **figure-0549**, SHA256 `f996fa67a06c542cbe559aadce39ce5f7b2f06b81a609a4a55dd3f03d9291605`. Throughout, primary means its `R62J_JOINT75_G7_TRUE75`, and bridge means its `REFERENCE_BRIDGE79_G8`, with the literal material-row numbering. The earlier simple reference points and their limited discovery scope are exactly those in the supplied reference-chambers source. :contentReference[oaicite:0]{index=0}
+The authority is **figure-0549**, SHA256 `f996fa67a06c542cbe559aadce39ce5f7b2f06b81a609a4a55dd3f03d9291605`. Throughout, primary means its `R62J_JOINT75_G7_TRUE75`, and bridge means its `REFERENCE_BRIDGE79_G8`, with the literal material-row numbering. The earlier simple reference points and their limited discovery scope are exactly those in the supplied reference-chambers source.
 
 ## 1. Sharp global reference-distance result
 
@@ -207,7 +207,7 @@ Primary GRID6 replaces8 old true edges by8 new ones; GRID8 replaces3 by3. Their 
 
 The unchanged literal parent's `exact_poly.py` independently reconstructed all four grids and agreed on the maximal complexes, physical volume and first moment, centroid, S/U/H carriers, strict/closed-weak census, and every physical P/Q birth and death. Its documented homogeneous bar scaling was explicitly undone before comparison. All72 positive bars across the four controls carry complete components, cuts, attaining edges and paths in the main audits.
 
-These are four exact failed finite controls, **not an interval exclusion of the exactly centred algebraic map, a whole projective orbit, or inverse-coupled affine metrics**. No algebraic-centering certificate is claimed for these new nominees. The existing source's different nominated bridge centering failure has its own interval proof and is not being relabelled as this computation. :contentReference[oaicite:1]{index=1}
+These are four exact failed finite controls, **not an interval exclusion of the exactly centred algebraic map, a whole projective orbit, or inverse-coupled affine metrics**. No algebraic-centering certificate is claimed for these new nominees. The existing source's different nominated bridge centering failure has its own interval proof and is not being relabelled as this computation.
 
 ## 5. Discovery, verification and recovery
 
@@ -277,7 +277,7 @@ NEAR110_COMPLETE_EXACT_REPLAY_PASS 27 GLOBAL_DISTANCE_2 ALL_ROOT_CENTROID_154 OW
 
 The optional numerical discovery was not rerun during this cold check; it is unnecessary for exact reconstruction.
 
-The [standalone decoder](sandbox:/mnt/data/RECOVER_NEAR110.py) and [complete source/proof/audit bundle](sandbox:/mnt/data/NEAR110_HANDOFF.zip) are convenience copies. The full inline source below remains the recovery authority for this handoff.
+The standalone decoder (`RECOVER_NEAR110.py`) and complete source/proof/audit bundle (`NEAR110_HANDOFF.zip`) are convenience copies. The full inline source below remains the recovery authority for this handoff.
 
 ## 6. Scientific continuation
 

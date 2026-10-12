@@ -6,7 +6,7 @@ AI research report · 2026-08-22 UTC
 
 # Verdict
 
-No already-published **finite homogeneous polyhedral Gömböc** was recovered from the accessible 2026 repository/archive surface. I did, however, obtain the strongest concrete substitute the sources permit: complete coordinate and facet data for **five independent 25,600-triangle rational polyhedra** reconstructed from every smooth-family parameter point that the May 2026 amendment labels verified, followed by a fresh exact audit of the uniform-volume centroid and every face, vertex, and edge equilibrium. This directly tests the transcript's unresolved proposal that one of the reported high-resolution meshes might already be an explicit homogeneous polyhedral Gömböc, though it does not replace an audit of byte-identical official assets. :contentReference[oaicite:0]{index=0}
+No already-published **finite homogeneous polyhedral Gömböc** was recovered from the accessible 2026 repository/archive surface. I did, however, obtain the strongest concrete substitute the sources permit: complete coordinate and facet data for **five independent 25,600-triangle rational polyhedra** reconstructed from every smooth-family parameter point that the May 2026 amendment labels verified, followed by a fresh exact audit of the uniform-volume centroid and every face, vertex, and edge equilibrium. This directly tests the transcript's unresolved proposal that one of the reported high-resolution meshes might already be an explicit homogeneous polyhedral Gömböc, though it does not replace an audit of byte-identical official assets.
 
 All five fail decisively. The strongest and most extensively cross-checked finite candidate, **Phase-1**, has
 
@@ -16,15 +16,15 @@ not `(1,1,0)`. Here `S` is the number of stable face equilibria, `U` the number 
 
 ## Concrete coordinate assets
 
-- [Five-mesh coordinate, facet, OBJ, exact-audit, and regeneration package](sandbox:/mnt/data/gomboc_2026_five_mesh_exact_audit.zip)  
+- Five-mesh coordinate, facet, OBJ, exact-audit, and regeneration package (`gomboc_2026_five_mesh_exact_audit.zip`)  
   SHA-256: `94e515ea768edb5d830ded443a4ebc8ef18420788a7cdbc70867a11af9e17bbd`
-- [Standalone Phase-1 exact-audit package](sandbox:/mnt/data/gomboc_phase1_exact_audit_bundle.zip)  
+- Standalone Phase-1 exact-audit package (`gomboc_phase1_exact_audit_bundle.zip`)  
   SHA-256: `9711f1357d12ff5f45080bd54664a9ae9473096c0b1f79cd78ae5a57418ac591`
-- [Machine-readable five-mesh summary](sandbox:/mnt/data/five_mesh_exact_audit_summary.json)  
+- Machine-readable five-mesh summary (`five_mesh_exact_audit_summary.json`)  
   SHA-256: `0976ed0bda7a735150570a024dc9724195f5104f41fc9fd31c102674697a4977`
-- [Independent exact verifier for stored coordinate/facet tables](sandbox:/mnt/data/verify_mesh_exact_from_tables.py)  
+- Independent exact verifier for stored coordinate/facet tables (`verify_mesh_exact_from_tables.py`)  
   SHA-256: `0d4c21a1a46cc91292fb76c6b22af5a6ee2da0495de7a9f1bcabd07fe5c847f1`
-- [Deterministic Phase-1 reconstructor and exact verifier](sandbox:/mnt/data/reconstruct_phase1_audit.py)  
+- Deterministic Phase-1 reconstructor and exact verifier (`reconstruct_phase1_audit.py`)  
   SHA-256: `323cf2e8a6f363de0d219f8722b0679ca9dd28f9dd2d2fd1d5b0c70274dfb9b8`
 
 Both ZIP archives pass complete decompression tests. The five-mesh archive contains a `SHA256SUMS.txt` manifest, all integer coordinate tables, zero-based outward-oriented facet tables, decimal OBJ files, full exact audit JSON, equilibrium index sets, regeneration scripts, and a one-command rerun.
@@ -43,7 +43,7 @@ and
 
 `eta(theta) = (3 pi / 2)(cos(theta) - cos(theta)^3 / 3)`.
 
-It identifies Phase-1 and four further interior parameter points as smooth mono-monostatic bodies. Importantly, its classifier explicitly uses analytical Gaussian-curvature and radial-critical-point calculations and says it uses **no mesh-vertex computation**. Thus its smooth claim is not an equilibrium certificate for any particular finite STL or triangulation. :contentReference[oaicite:1]{index=1}
+It identifies Phase-1 and four further interior parameter points as smooth mono-monostatic bodies. Importantly, its classifier explicitly uses analytical Gaussian-curvature and radial-critical-point calculations and says it uses **no mesh-vertex computation**. Thus its smooth claim is not an equilibrium certificate for any particular finite STL or triangulation.
 
 For each of the five published parameter points, I used the same deterministic finite convention:
 
@@ -135,11 +135,11 @@ The equality `S+U-H=2` is recovered in all five audits without any zero predicat
 
 ## Provenance and the missing official bytes
 
-The primary repository release is tag `v1.0.0`, commit `fdcfe9a9b3a203152d1fa83a144ecf62556d929d`. Its release notes associate the Gömböc and catalog work with version-specific Zenodo records `10.5281/zenodo.20674391` and `10.5281/zenodo.20674394`. :contentReference[oaicite:2]{index=2}
+The primary repository release is tag `v1.0.0`, commit `fdcfe9a9b3a203152d1fa83a144ecf62556d929d`. Its release notes associate the Gömböc and catalog work with version-specific Zenodo records `10.5281/zenodo.20674391` and `10.5281/zenodo.20674394`.
 
-The currently visible `main` tree reports 21 commits and does not expose the paper-claimed `gomboc_family/v2/` directory or a visible `meshes/` directory, although the README's schematic repository layout mentions meshes. :contentReference[oaicite:3]{index=3} The DOI redirects and archive bytes could not be retrieved in this runtime. Consequently, the supplied meshes are deterministic independent reconstructions from the published formula and parameters; I do **not** assert byte identity with an official STL.
+The currently visible `main` tree reports 21 commits and does not expose the paper-claimed `gomboc_family/v2/` directory or a visible `meshes/` directory, although the README's schematic repository layout mentions meshes. The DOI redirects and archive bytes could not be retrieved in this runtime. Consequently, the supplied meshes are deterministic independent reconstructions from the published formula and parameters; I do **not** assert byte identity with an official STL.
 
-The amendment itself retracts the old “thirteen verified mono-monostatic bodies” framing, leaving one Phase-1 point from the original catalog and four new smooth-family interior points relevant here. :contentReference[oaicite:4]{index=4}
+The amendment itself retracts the old “thirteen verified mono-monostatic bodies” framing, leaving one Phase-1 point from the original catalog and four new smooth-family interior points relevant here.
 
 ## Exact recovery path for official assets
 

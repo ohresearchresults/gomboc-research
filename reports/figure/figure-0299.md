@@ -10,7 +10,7 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACT NONWINNER, but the smallest connected full-rank ballast family is now constructed and its failure is proved globally inside the requested preserved mechanical chamber.**
 
-The immutable parent is `figure-0295`, SHA-256 `06aa7cd747bc7a15ec04b67d9998678ab9c12bff418bebe04c25333bb5a80ccf`. :contentReference[oaicite:0]{index=0} It supplied a robust ten-vertex `split2` realization with a strict free-centre `(1,1,0)` chamber, stable face `[AT,AY,AX]`, unique unstable vertex `C`, and a distant ordinary centroid; its previous projective and metric hard-centering attempts were nonwinning. :contentReference[oaicite:1]{index=1}
+The immutable parent is `figure-0295`, SHA-256 `06aa7cd747bc7a15ec04b67d9998678ab9c12bff418bebe04c25333bb5a80ccf`. It supplied a robust ten-vertex `split2` realization with a strict free-centre `(1,1,0)` chamber, stable face `[AT,AY,AX]`, unique unstable vertex `C`, and a distant ordinary centroid; its previous projective and metric hard-centering attempts were nonwinning.
 
 I rationalized that chamber exactly, added one extreme ballast vertex, proved a three-dimensional moment-response rank, and certified a full exact perturbation box. The ballast reduces the centroid discrepancy while preserving strict `(1,1,0)` mechanics relative to the target centre. However, an exact spherical-slab inequality proves that **no convex ballast with any finite number of vertices can close the centroid while both `[AT,AY,AX]` and `C` retain their strict roles**. A mechanics-incidence turnover is therefore mandatory.
 
@@ -222,14 +222,14 @@ The old edge `[AX,AY]` becomes interior or disappears and `[B+,B-]` supplies tra
 
 Run `bash RUN_ALL.sh`. The clean verifier uses only Python standard-library rational arithmetic, reconstructs the hull rather than trusting stored incidence, verifies the `2^-40` box, moment rank, root isolation, slab theorem, mechanics, arrows, and mesh, and ends with `KQ73_AX10_PACKAGE_ALL_PASS`.
 
-- [Complete exact package](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER.zip), SHA-256 `d3cc19b884b0c59b731f5aea570396ea708fc9160560d8637b631c6629b341e6`.
-- [Standalone handoff](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/RESEARCH_HANDOFF.md).
-- [Exact source](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/source/generator.json), [V data](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/data/V_exact.tsv), and [H data](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/data/H_exact.tsv).
-- [Mechanics and arrow ledger](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/data/mechanics_exact.json).
-- [Moment/root certificate](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/certificates/mass_response_and_root.json) and [slab obstruction](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/certificates/exact_spherical_slab_obstruction.json).
-- [Independent verifier](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/verifier/verify_cleanroom.py).
-- [Watertight OBJ](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/mesh/body.obj) and [STL](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER/mesh/body.stl).
-- [Clean-extraction replay](sandbox:/mnt/data/Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER_CLEAN_REPLAY.log).
+- Complete exact package (`Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER.zip`), SHA-256 `d3cc19b884b0c59b731f5aea570396ea708fc9160560d8637b631c6629b341e6`.
+- Standalone handoff (`RESEARCH_HANDOFF.md`).
+- Exact source (`generator.json`), V data (`V_exact.tsv`), and H data (`H_exact.tsv`).
+- Mechanics and arrow ledger (`mechanics_exact.json`).
+- Moment/root certificate (`mass_response_and_root.json`) and slab obstruction (`exact_spherical_slab_obstruction.json`).
+- Independent verifier (`verify_cleanroom.py`).
+- Watertight OBJ (`body.obj`) and STL (`body.stl`).
+- Clean-extraction replay (`Keen_Quartz_73_AX10_ballast_rank3_EXACT_NONWINNER_CLEAN_REPLAY.log`).
 
 ## Bottom line
 

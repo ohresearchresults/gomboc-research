@@ -10,30 +10,30 @@ AI research report · 2026-09-02 UTC
 
 **EXACT NONWINNER.** I did not obtain a homogeneous convex polyhedral Gömböc. The strongest fully materialized object from this direction is an exact-dyadic nonannular-bridge endpoint at its own exact ordinary-volume centroid with strict class `(S,U,H)=(2,2,2)`, not `(1,1,0)`.
 
-This applies the journal’s required successor topology rather than another annulus-preserving `K×[0,1]` transfer: the exact 335-row residual annulus and its 78-cycle-side complementary disk are removed together and replaced by a single connected seven-hub disk spanning the surviving 158-cycle interface. The former 78-cycle is internalized and deleted. The journal had left precisely this topology-first bridge open. :contentReference[oaicite:0]{index=0}
+This applies the journal’s required successor topology rather than another annulus-preserving `K×[0,1]` transfer: the exact 335-row residual annulus and its 78-cycle-side complementary disk are removed together and replaced by a single connected seven-hub disk spanning the surviving 158-cycle interface. The former 78-cycle is internalized and deleted. The journal had left precisely this topology-first bridge open.
 
-The result does not pass the global acceptance gate because it retains one Euler-neutral extra block. The gate requires strict own-centroid `(1,1,0)`, complete finite H/V data, exhaustive face/vertex/edge mechanics, positive strictness margins, independent verification, and a matching mesh. :contentReference[oaicite:1]{index=1}
+The result does not pass the global acceptance gate because it retains one Euler-neutral extra block. The gate requires strict own-centroid `(1,1,0)`, complete finite H/V data, exhaustive face/vertex/edge mechanics, positive strictness margins, independent verification, and a matching mesh.
 
 ## Materialized artifacts
 
-- [Compact result certificate](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/result_summary.json)
-- [Exact bridge-topology certificate](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/nonannular_bridge_topology.json)
-- [Six-packet coupling routes](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/packet_coupling_routes.json)
-- [Seven-shape-plus-three-moment control definition](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/control_space.json)
-- [Exact active polar H rows](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/data/raw_polar_rows_integer.csv)
-- [Deterministic supplied 3,488-row H representation](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/data/supplied_endpoint_rows_integer.csv)
-- [Exact rational primal vertices](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/geometry/primal_vertices_exact.csv.gz)
-- [All maximal-face cycles](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/geometry/maximal_face_cycles.json)
-- [Every true edge](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/geometry/true_edges.csv)
-- [Exact ordinary mass and centroid](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/exact_mass_centroid.json)
-- [Full directed-interval equilibrium audit](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/full_interval_mechanics_radius_2^-100.json)
-- [Exact all-supplied-row hull certificate](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/exact_supplied_hull_report.json)
-- [Exact topology-radius certificate](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/exact_topology_radius_2^-100.json)
-- [Independent reconstruction report](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/independent_verifier_report.json)
-- [Independent verifier source](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/src/verify_independent.py)
-- [Exact `cpp_int` hull verifier source](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/src/verify_exact_supplied_hull.cpp)
-- [Own-centred OBJ](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/geometry/nonannular_bridge_own_centered.obj)
-- [Watertight own-centred STL](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/geometry/nonannular_bridge_own_centered.stl)
+- Compact result certificate (`result_summary.json`)
+- Exact bridge-topology certificate (`nonannular_bridge_topology.json`)
+- Six-packet coupling routes (`packet_coupling_routes.json`)
+- Seven-shape-plus-three-moment control definition (`control_space.json`)
+- Exact active polar H rows (`raw_polar_rows_integer.csv`)
+- Deterministic supplied 3,488-row H representation (`supplied_endpoint_rows_integer.csv`)
+- Exact rational primal vertices (`primal_vertices_exact.csv.gz`)
+- All maximal-face cycles (`maximal_face_cycles.json`)
+- Every true edge (`true_edges.csv`)
+- Exact ordinary mass and centroid (`exact_mass_centroid.json`)
+- Full directed-interval equilibrium audit (`full_interval_mechanics_radius_2^-100.json`)
+- Exact all-supplied-row hull certificate (`exact_supplied_hull_report.json`)
+- Exact topology-radius certificate (`exact_topology_radius_2^-100.json`)
+- Independent reconstruction report (`independent_verifier_report.json`)
+- Independent verifier source (`verify_independent.py`)
+- Exact `cpp_int` hull verifier source (`verify_exact_supplied_hull.cpp`)
+- Own-centred OBJ (`nonannular_bridge_own_centered.obj`)
+- Watertight own-centred STL (`nonannular_bridge_own_centered.stl`)
 
 ## 1. Exact reconstruction of the source
 
@@ -319,9 +319,9 @@ closest excluded saddle component:
 
 The complete individual ledgers contain all 1,631 face tests, all 3,258 vertex-cone tests, and all 4,887 four-component true-edge tests:
 
-- [Stable ledger](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/stable_margin_ledger.csv.gz)
-- [Unstable ledger](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/unstable_margin_ledger.csv.gz)
-- [Saddle ledger](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/saddle_margin_ledger.csv.gz)
+- Stable ledger (`stable_margin_ledger.csv.gz`)
+- Unstable ledger (`unstable_margin_ledger.csv.gz`)
+- Saddle ledger (`saddle_margin_ledger.csv.gz`)
 
 ## 7. Positive strictness and topology radius
 
@@ -447,7 +447,7 @@ with respect to the seven shape controls has numerical rank four, with singular 
 
 Thus lack of first-order control rank is not the obstruction. The least-norm linear common-zero direction has norm about `0.45994`, but an actual hull rebuild reaches a topology event before any equilibrium-count reduction. Between sampled parameters `lambda=0.0375` and `lambda=0.04`, hubs `500002` and `500006` simultaneously become inactive. The class remains `(2,2,2)` and the saddle `(1802,500005)` transfers to `(1802,500001)`. Soon afterward the second saddle transfers from `(2592,500003)` to `(2592,500000)`, followed by additional U-H and S-H births.
 
-A rebuilt-hull scan through `lambda=2`—allowing all those hub deactivations rather than rejecting them—still had componentwise minimum counts `(2,2,2)` and no winner sample. The complete diagnostic is [here](sandbox:/mnt/data/Steady_Quartz_25_nonannular_bridge_exact_NONWINNER/certificates/common_descent_postwall_scan.json). It is not a global exclusion.
+A rebuilt-hull scan through `lambda=2`—allowing all those hub deactivations rather than rejecting them—still had componentwise minimum counts `(2,2,2)` and no winner sample. The complete diagnostic is here (`common_descent_postwall_scan.json`). It is not a global exclusion.
 
 ## 10. Residual obstruction
 

@@ -26,9 +26,9 @@ The supplied immutable evidence identities are:
 
 I use their scopes as supplied, not as claims that I regenerated their immutable payload hashes. The latest attached journal file actually read has 2,132,900 bytes and SHA-256 `7c4ad13f5959ea017e95d1351863cf05dee9f8cdc580780281670f683f43ece8`.
 
-The lead's catalogue has 74 unrooted types, 4,372 stable-facet/unstable-vertex root-pair orbits and 1,994,223 complementary tree pairs passing its necessary filters; every root pair survives. My geometric exclusion neither replaces that catalogue nor promotes its necessary tree systems to realizations. :contentReference[oaicite:0]{index=0}
+The lead's catalogue has 74 unrooted types, 4,372 stable-facet/unstable-vertex root-pair orbits and 1,994,223 complementary tree pairs passing its necessary filters; every root pair survives. My geometric exclusion neither replaces that catalogue nor promotes its necessary tree systems to realizations.
 
-Atlas13's literal eight-point fixture is reference-relative 211, with polar 121; its full reflection does not make it 110 or volume-centered. I reused only its eight XY pairs, replaced the heights by exact coplanarity solutions, and rebuilt both hulls. Thus the new C30 pair is a new object, not a relabeling of that parent. :contentReference[oaicite:1]{index=1} No mathematical parent alias, incidence or class conflict was used. The nine-vector rank-two control is not used as three-dimensional geometry. The inherited joint R/r <= 27 theorem is not needed anywhere in the new exclusion. :contentReference[oaicite:2]{index=2}
+Atlas13's literal eight-point fixture is reference-relative 211, with polar 121; its full reflection does not make it 110 or volume-centered. I reused only its eight XY pairs, replaced the heights by exact coplanarity solutions, and rebuilt both hulls. Thus the new C30 pair is a new object, not a relabeling of that parent. No mathematical parent alias, incidence or class conflict was used. The nine-vector rank-two control is not used as three-dimensional geometry. The inherited joint R/r <= 27 theorem is not needed anywhere in the new exclusion.
 
 ## 2. Exact rational family and complete regression geometry
 
@@ -563,6 +563,6 @@ c30_verified_diagonal.json 137 1102a4994a42d44f4459eb166c49c858c70b9dd1d455ab279
 c30_manifest.json 1743 c29740130777ab76386283d1017e3c5afca11129dbb4134b2370e8d3e1614513
 ```
 
-Convenience copies supplement, rather than define, the inline recovery: [complete main source](sandbox:/mnt/data/c30_reflection_affine.py) and [certificate bundle](sandbox:/mnt/data/c30_reflection_certificate.zip). The bundle is 160,528 bytes, SHA-256 `12cc1ba6b897677b9fd7f027840ff6b4fa6c092e1da74f1ac8f297241093eb46`.
+Convenience copies supplement, rather than define, the inline recovery: complete main source (`c30_reflection_affine.py`) and certificate bundle (`c30_reflection_certificate.zip`). The bundle is 160,528 bytes, SHA-256 `12cc1ba6b897677b9fd7f027840ff6b4fa6c092e1da74f1ac8f297241093eb46`.
 
 **Final scope:** a complete all-reference/all-physical-metric exclusion of one exact affine family, plus 194 exact diagonal-family exclusions and an explicit nine-variable non-affine frontier. No homogeneous C30 attainer, no reflection-compatible 110 control and no universal 74-type exclusion is claimed.

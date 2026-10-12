@@ -16,7 +16,7 @@ All four lateral triangles may therefore be contact-occupied. No unused triangul
 
 A second construction covers further packets, including target-side basal VEs. Each individual triangular pair has an explicit one-dimensional **actual-centred, constant-volume deformation fibre**, with every other supporting plane fixed. If either pair has a successful first-order physical selector along this fibre, the entire saturated packet regularizes, allowing any permitted partner at the other pair. Selected orders are at most three. This is an explicit geometric exchange direction, not a generic actuator-rank test.
 
-The unresolved part of the primary saturated class is consequently narrower: a genuinely nonregularizable input must contain at least one **target-side basal VE**, and neither pair can admit the successful balanced-fibre selector just described. These are necessary remaining conditions, not a sufficient obstruction. No weak S1U1 input is asserted. For an actual weak S1U1 input in either successful class, the result is proper110 at the same lattice. The accepted internal minimum interval and independent attaining obligation remain 34<=C_min<=622. fileciteturn47file2L9-L13
+The unresolved part of the primary saturated class is consequently narrower: a genuinely nonregularizable input must contain at least one **target-side basal VE**, and neither pair can admit the successful balanced-fibre selector just described. These are necessary remaining conditions, not a sufficient obstruction. No weak S1U1 input is asserted. For an actual weak S1U1 input in either successful class, the result is proper110 at the same lattice. The accepted internal minimum interval and independent attaining obligation remain 34<=C_min<=622.
 
 There is also a new exact negative control on the SAME algebraic parent body `ACTUAL_OPPOSITE_DELTA_TRIANGLE_CHAIN_TRANSVERSE_ESCAPE_V1`, still strict558. Its first EF/target-VE pair cannot escape within its actual-centred two-plane fibre, even to higher order. The full shape escapes already supplied by the parent and coordinator remain valid; they leave this restricted fibre.
 
@@ -35,7 +35,7 @@ The entire updated journal, its complete literal parent, and both new supplied m
 
 The direct immutable parent is `minimum-0241`, SHA256 `08bb47a0c75336c8605fdad5d2cf800e1e0059f4667088a638a8009efa3d968d`. Its genuine transverse source motions, physical partner classification, source-local footprint and exact algebraic body identity are retained. No conflict with its literal payload was found.
 
-The supplied one-unused-triangle result proves invertibility of a particular centroid/contact system when its genuine scalar chi is nonzero. The new theorem instead treats two fully occupied pairs and proves the required compatibility from actual moment and polygon geometry, including the singular cases appearing in the VF argument below. fileciteturn47file0L37-L84
+The supplied one-unused-triangle result proves invertibility of a particular centroid/contact system when its genuine scalar chi is nonzero. The new theorem instead treats two fully occupied pairs and proves the required compatibility from actual moment and polygon geometry, including the singular cases appearing in the VF argument below.
 
 ## 3. Setting and notation
 
@@ -52,7 +52,7 @@ where a is its top endpoint, b its basal endpoint, and c,e are the two true F-ne
     r = lambda b + mu a,       lambda,mu>0,
     d = s-r,                  d.a=d.b=d.r=0.             (3.1)
 
-The pole foot r/|r|^2 lies in relint[a,b]. The two primal derivatives along that spoke are strictly negative. A weak basal partner is therefore exactly a source-side VE on F cap R, a target-side VE on F cap S, or a VF borne by F. This is a physical classification, not a classification of unrelated zero rows. fileciteturn47file4L9-L25
+The pole foot r/|r|^2 lies in relint[a,b]. The two primal derivatives along that spoke are strictly negative. A weak basal partner is therefore exactly a source-side VE on F cap R, a target-side VE on F cap S, or a VF borne by F. This is a physical classification, not a classification of unrelated zero rows.
 
 Call the three partner types used by the principal theorem:
 
@@ -95,7 +95,7 @@ The actual uniformly filled centroid supplies the strict bounds
 
     0<H<4,        0<j<4,        0<j u<4.                (4.2)
 
-For completeness, for a true facet with pole p and an outside vertex x, coning the actual boundary to x gives p.x>=-3 at uniform centroid 0. Equality forces the whole body to be the pyramid over that facet with apex x. Apply this to F,a; S,c; and R,e. P is not a pyramid over F, and a pyramid over either triangular facet would be a tetrahedron, not this body. Thus all three relevant inequalities are strict. These are constraints on the actual uniform volume, not independent reference or moment parameters. fileciteturn47file3L12-L27
+For completeness, for a true facet with pole p and an outside vertex x, coning the actual boundary to x gives p.x>=-3 at uniform centroid 0. Equality forces the whole body to be the pyramid over that facet with apex x. Apply this to F,a; S,c; and R,e. P is not a pyramid over F, and a pyramid over either triangular facet would be a tetrahedron, not this body. Thus all three relevant inequalities are strict. These are constraints on the actual uniform volume, not independent reference or moment parameters.
 
 ### 4.2 Genuine plane coordinates
 
@@ -354,11 +354,11 @@ Now open T at amplitude eta=t^2 using the accepted intrinsic carrier flow
     y_i=a_i-p_T,       R_i=y_i^T M y_i,
     p_T=Nq_T/(q_T^T Nq_T).
 
-Use b_0=0 without a bearing EF/VF, an inward translation at a bearing EF, or an outgoing true edge at a bearing VF, and choose K to dominate the finitely many VE translation terms. This opens the actual complementary pair at a VF, including a right corner. fileciteturn56file0L157-L169
+Use b_0=0 without a bearing EF/VF, an inward translation at a bearing EF, or an outgoing true edge at a bearing VF, and choose K to dominate the finitely many VE translation terms. This opens the actual complementary pair at a VF, including a right corner.
 
 For a direct extension, solve each lateral quad's two moving top incidences with one fixed independent pole normalization, and each triangle's one moving top incidence with two normalizations. Reconstruct the simple basal vertices. Correct the actual centroid through the fully movable F plane, whose surface-second-moment derivative is invertible. This changes the first-stage body by O(t^2), too late to spoil its order-one exits. F need not remain parallel to T during this final completion, but the true lattice is unchanged.
 
-M and N=M^-1 remain fixed throughout. All originally nonzero geometric and mechanical guards persist on a sufficiently small interval. Every original weak vertex and weak facet has a positive selected exit, so the physical selector theorem retains all original strict S,U,H labels and leaves no other strict or weak equilibrium. Harmless algebraic zeros need not disappear. fileciteturn47file15L78-L93
+M and N=M^-1 remain fixed throughout. All originally nonzero geometric and mechanical guards persist on a sufficiently small interval. Every original weak vertex and weak facet has a positive selected exit, so the physical selector theorem retains all original strict S,U,H labels and leaves no other strict or weak equilibrium. Harmless algebraic zeros need not disappear.
 
 This proves the principal theorem, including complete T-carried packets and all the stated basal partners.
 
@@ -426,7 +426,7 @@ This is an all-orders obstruction to the actual-centred TWO-PLANE family with al
 
 ## 10. Exact relative countercontrol on the unchanged algebraic 558 body
 
-Use EXACTLY `ACTUAL_OPPOSITE_DELTA_TRIANGLE_CHAIN_TRANSVERSE_ESCAPE_V1` from the literal parent. Its actual body is the isolated uniform-centroid root, not its rational reference seed. The parent strict census is 558, and the four original zero rows are P12,P23,Q23,Q34. fileciteturn57file0L19-L34
+Use EXACTLY `ACTUAL_OPPOSITE_DELTA_TRIANGLE_CHAIN_TRANSVERSE_ESCAPE_V1` from the literal parent. Its actual body is the isolated uniform-centroid root, not its rational reference seed. The parent strict census is 558, and the four original zero rows are P12,P23,Q23,Q34.
 
 For its first pair take
 
@@ -445,7 +445,7 @@ The exact balanced direction (9.2) gives
 
 The complete new source checks both fractions, the true zero contact and normal-cone identities, the local support bounds, and the EXACT zero actual first-moment load of this direction. Equations (4.6) and (9.1) then prove the local fibre statement, so (10.1) excludes simultaneous P12,Q23 escape throughout this actual-centred two-plane germ.
 
-This does not replace or contradict the parent's full-shape escape. The new coordinator germ explicitly moves F5 in addition to its prescribed F3 and corrected F2 while holding F7 fixed, and escapes the relative obstruction. Its analytic local interval remains distinct from the parent's certified numerical interval. fileciteturn47file0L94-L130
+This does not replace or contradict the parent's full-shape escape. The new coordinator germ explicitly moves F5 in addition to its prescribed F3 and corrected F2 while holding F7 fixed, and escapes the relative obstruction. Its analytic local interval remains distinct from the parent's certified numerical interval.
 
 No new body, S1U1 example, census computation, or numerical radius is asserted by this relative calculation. Normal build/check and a clean source-only build/check of the NEW identity/derivative unit were executed, with byte-identical reports. The old algebraic-body existence and strict census were used as supplied premises, not independently replayed.
 
@@ -479,7 +479,7 @@ Exact pins:
     occupied_pair_moments_report.json: 5747 bytes
     SHA256 26fc9f6c10c48b66027c72fd52ff841eefb42f9db33c7d93ad1ccae4c6940ddd
 
-Convenience copies: [source](sandbox:/mnt/data/saturated_work/occupied_pair_moments.py) and [exact report](sandbox:/mnt/data/saturated_work/occupied_pair_moments_report.json). The literal unit below is the durable new recovery. The saturated theorem is the analytic proof above, not an inference from these identities or from the non-S1U1 control.
+Convenience copies: source (`occupied_pair_moments.py`) and exact report (`occupied_pair_moments_report.json`). The literal unit below is the durable new recovery. The saturated theorem is the analytic proof above, not an inference from these identities or from the non-S1U1 control.
 
 ```python
 """Occupied adjacent-triangle moment identities and one relative countercontrol.

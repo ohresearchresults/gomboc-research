@@ -17,7 +17,7 @@ The first unclassified post-`CU10` topology was realized as an exact finite Mink
 3. A full 15-dimensional physical box in the central three-circuit stratum and positive boxes in all eight open chambers were certified at each body’s own ordinary-volume centroid.
 4. The realized seven-plane circuit class factors into three carrier-exchange circuits rather than one irreducible cancelling cell. I therefore added one exact supporting plane—the minimal facet-count enlargement—and materialized an eight-facet bridge. It improves the residual margins but remains strict `(2,2,2)`.
 
-The acceptance gate requires a finite uniform-density polyhedron at its own exact volume centroid, with one stable maximal face, one unstable vertex, no saddle true edge, a complete irredundant H/V/E lattice, exhaustive strict full-cone mechanics, an independent exact or directed verifier, and a matching OBJ/STL. :contentReference[oaicite:0]{index=0} The preceding full-rank result was accepted only as a `(2,2,2)` nonwinner; its unfinished corner consolidation and any inferred continuum exclusion were explicitly excluded, leaving precisely this nonsimple/seven-to-eight-facet frontier. :contentReference[oaicite:1]{index=1}
+The acceptance gate requires a finite uniform-density polyhedron at its own exact volume centroid, with one stable maximal face, one unstable vertex, no saddle true edge, a complete irredundant H/V/E lattice, exhaustive strict full-cone mechanics, an independent exact or directed verifier, and a matching OBJ/STL. The preceding full-rank result was accepted only as a `(2,2,2)` nonwinner; its unfinished corner consolidation and any inferred continuum exclusion were explicitly excluded, leaving precisely this nonsimple/seven-to-eight-facet frontier.
 
 ## 1. Exact Minkowski synthesis
 
@@ -29,7 +29,7 @@ Every endpoint has
 
 `v(t) = vB + λvD + t1 vC1 + t2 vC2 + t3 vC3`.
 
-Every exact summand row, vertex, and active versus inactive incidence is expanded in the wall [summand H data](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/summands_H.csv), [summand V data](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/summands_V.csv), [D H data](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/D_H.csv), and [D V data](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/D_V.csv), and separately for the bridge in [bridge summand H](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/summands_H.csv), [bridge summand V](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/summands_V.csv), [bridge D H](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/D_H.csv), and [bridge D V](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/D_V.csv).
+Every exact summand row, vertex, and active versus inactive incidence is expanded in the wall summand H data (`summands_H.csv`), summand V data (`summands_V.csv`), D H data (`D_H.csv`), and D V data (`D_V.csv`), and separately for the bridge in bridge summand H (`summands_H.csv`), bridge summand V (`summands_V.csv`), bridge D H (`D_H.csv`), and bridge D V (`D_V.csv`).
 
 ## 2. Correct physical quotient and exact nonsimple locus
 
@@ -45,13 +45,13 @@ The nonsimple locus imposes three exact homogeneous circuit equations:
 - `det H_1256 = 0`
 - `det H_2346 = 0`
 
-Their exact rank is 3, so the shared-circuit stratum has physical dimension 15. Its support-response matrix has exact rank 3 and an explicitly positive rational kernel. The quotient, circuit equations, support matrix and kernel, and all exact nonsimple vertices are in the [shared-circuit certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/shared_circuit_certificate.json); the complete physical parameterization is in the [15-dimensional stratum chart](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/shared_circuit_stratum_chart.json).
+Their exact rank is 3, so the shared-circuit stratum has physical dimension 15. Its support-response matrix has exact rank 3 and an explicitly positive rational kernel. The quotient, circuit equations, support matrix and kernel, and all exact nonsimple vertices are in the shared-circuit certificate (`shared_circuit_certificate.json`); the complete physical parameterization is in the 15-dimensional stratum chart (`shared_circuit_stratum_chart.json`).
 
 At the wall, `D` has `(V_D,E_D,F_D)=(7,12,7)`. All seven rows are irredundant, with active sets
 
 `0136, 015, 034, 045, 1256, 2346, 245`.
 
-The vertices `0136`, `1256`, and `2346` are four-valent. The protected vertex `045` is strict and actual. Complete D face cycles and true edges are [D_faces.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/D_faces.csv) and [D_edges.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/D_edges.csv).
+The vertices `0136`, `1256`, and `2346` are four-valent. The protected vertex `045` is strict and actual. Complete D face cycles and true edges are D_faces.csv and D_edges.csv.
 
 The exact circuit roles are:
 
@@ -67,9 +67,9 @@ This realizes the requested simultaneous codimension-three incidence. The exact 
 
 The actual common refinement has `(V,E,F)=(42,79,39)`, with Euler check `42−79+39=2` and mechanical complexity `2E=158`.
 
-Its exact rational volume is recorded in the [wall exact certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/exact_certificate.json), with decimal value `58717.07811632936`. The exact first moment is `(0,0,0)`. The minimum exact nonincident H/V slack is approximately `9.79669279225519e-6`.
+Its exact rational volume is recorded in the wall exact certificate (`exact_certificate.json`), with decimal value `58717.07811632936`. The exact first moment is `(0,0,0)`. The minimum exact nonincident H/V slack is approximately `9.79669279225519e-6`.
 
-All 42 affine common vertices, 39 maximal face cycles, and 79 true edges are explicit in [common_V_affine.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/common_V_affine.csv), [common_H_affine.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/common_H_affine.csv), and [common_edges.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/common_edges.csv). The exact own-centred representation is [final_centered_V.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/final_centered_V.csv) and [final_centered_H.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/final_centered_H.csv).
+All 42 affine common vertices, 39 maximal face cycles, and 79 true edges are explicit in common_V_affine.csv, common_H_affine.csv, and common_edges.csv. The exact own-centred representation is final_centered_V.csv and final_centered_H.csv.
 
 The exhaustive strict class is `(S,U,H)=(2,2,2)`:
 
@@ -82,7 +82,7 @@ The exhaustive strict class is `(S,U,H)=(2,2,2)`:
 | saddle | `P9edge(13;26)|Dedge(2;4) || P9edge(13;26)|Dedge(2;6)` | `0.00626730701241902` |
 | saddle | `P9edge(15;27)|Dedge(0;1) || P9edge(15;27)|Dedge(0;5)` | `0.02213636358320439` |
 
-Every primitive is exact and nonzero: [39-face audit](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/face_audit_exact.csv), [42-vertex audit](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/vertex_audit_exact.csv), and [316 four-component edge tests](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/edge_audit_exact.csv).
+Every primitive is exact and nonzero: 39-face audit (`face_audit_exact.csv`), 42-vertex audit (`vertex_audit_exact.csv`), and 316 four-component edge tests (`edge_audit_exact.csv`).
 
 ## 4. Exact mixed volume, first moments, and positive root
 
@@ -94,17 +94,17 @@ and
 
 `M_q(t) = Σ m^q_ijk t1^i t2^j t3^k`, for `i+j+k≤4` and `q∈{x,y,z}`.
 
-There are exactly 20 nonzero volume coefficients and 35 coefficients in each first-moment component. All 125 exact rational coefficients are in the [wall mixed system](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/mixed_volume_first_moments.csv).
+There are exactly 20 nonzero volume coefficients and 35 coefficients in each first-moment component. All 125 exact rational coefficients are in the wall mixed system (`mixed_volume_first_moments.csv`).
 
 The three centroid equations have the exact positive root `(t1,t2,t3)=(1,1,1)`. The exact Jacobian determinant is nonzero, with decimal value `87632223.99253577`. Rational Krawczyk arithmetic isolates the unique root in
 
 `[1073741823/1073741824, 1073741825/1073741824]^3`.
 
-The exact inverse preconditioner, Jacobian, determinant, and inclusion are in the [root certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/root_certificate.json). The [directed control certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/directed_interval_certificate.json) preserves the common fan and class `(2,2,2)` throughout the radius-`2^-30` positive control box.
+The exact inverse preconditioner, Jacobian, determinant, and inclusion are in the root certificate (`root_certificate.json`). The directed control certificate (`directed_interval_certificate.json`) preserves the common fan and class `(2,2,2)` throughout the radius-`2^-30` positive control box.
 
 ## 5. Full 15-dimensional central-stratum box
 
-The [directed stratum certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/shared_circuit_stratum15_box_directed.json) covers a full physical 15-dimensional box of radius `2^-46 = 1/70368744177664` inside the exact three-circuit stratum. Row scalings are fixed by pivots, translation is fixed by `D(0,4,5)`, and the three circuit equalities are solved exactly by support parameterization. Every body is evaluated at its own interval-enclosed ordinary-volume centroid.
+The directed stratum certificate (`shared_circuit_stratum15_box_directed.json`) covers a full physical 15-dimensional box of radius `2^-46 = 1/70368744177664` inside the exact three-circuit stratum. Row scalings are fixed by pivots, translation is fixed by `D(0,4,5)`, and the three circuit equalities are solved exactly by support parameterization. Every body is evaluated at its own interval-enclosed ordinary-volume centroid.
 
 Throughout this box:
 
@@ -151,7 +151,7 @@ The eight open chambers are:
 | `ppm` | `(48,88,42)` | `(2,2,2)` | `2^-44` |
 | `ppp` | `(50,92,44)` | `(3,2,3)` | `2^-44` |
 
-The exact atlas is [circuit_strata_atlas.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/circuit_strata_atlas.json), with all 54 lineage-aware transitions in [circuit_strata_transitions.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/circuit_strata_transitions.json), the compact [stratum summary](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/circuit_strata_summary.csv), and [adjacency summary](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/circuit_strata_adjacencies.csv). Every expanded stratum and open chamber is included under `circuit_strata/` and `circuit_atlas/`. Positive boxes around all eight open cells are in [cell_boxes_directed.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/circuit_atlas/cell_boxes_directed.json).
+The exact atlas is circuit_strata_atlas.json, with all 54 lineage-aware transitions in circuit_strata_transitions.json, the compact stratum summary (`circuit_strata_summary.csv`), and adjacency summary (`circuit_strata_adjacencies.csv`). Every expanded stratum and open chamber is included under `circuit_strata/` and `circuit_atlas/`. Positive boxes around all eight open cells are in cell_boxes_directed.json.
 
 ### Exact relay result for the covered seven-plane class
 
@@ -160,7 +160,7 @@ The exact atlas is [circuit_strata_atlas.json](sandbox:/mnt/data/Clear_Raven_08_
 - C moves the `13/26` saddle between the `(2,4)/(2,6)` and `(2,3)/(2,4)` sides. It never removes the saddle count and can coexist with a return pair.
 - `D(0,4,5)` remains the strict carrier of the protected intended stable and unstable lineages.
 
-Thus this exact seven-plane star performs carrier exchange or Euler-paired birth, not simultaneous cancellation. The delimited statements are formalized in the [lineage-coupling certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/lineage_coupling_certificate.json) and [local seven-plane obstruction certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenplane_local_obstruction_certificate.json). Neither certificate claims to exclude every continuous seven-plane realization or another oriented-matroid circuit class.
+Thus this exact seven-plane star performs carrier exchange or Euler-paired birth, not simultaneous cancellation. The delimited statements are formalized in the lineage-coupling certificate (`lineage_coupling_certificate.json`) and local seven-plane obstruction certificate (`sevenplane_local_obstruction_certificate.json`). Neither certificate claims to exclude every continuous seven-plane realization or another oriented-matroid circuit class.
 
 ## 7. Minimal facet-count enlargement: exact eighth-facet bridge
 
@@ -170,15 +170,15 @@ The certified seven-plane behavior compelled the smallest facet-count enlargemen
 
 It truncates the wall vertex `015` and creates the triangular bridge facet with vertices `017,057,157`. The new facet joins the A-side edge `01`, target/return-side edge `05`, and B-side edge `15`, while retaining all three four-valent shared-circuit vertices `0136,1256,2346` and the protected `045` vertex.
 
-For eight planes the physical protected dimension is `32−8−3=21`. Retaining the three exact circuit equations leaves an 18-dimensional shared-circuit bridge stratum. The exact row, quotient, incidence, and geometric role are in the [bridge certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/bridge_certificate.json) and [bridge stratum chart](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/shared_circuit_bridge_stratum18_chart.json).
+For eight planes the physical protected dimension is `32−8−3=21`. Retaining the three exact circuit equations leaves an 18-dimensional shared-circuit bridge stratum. The exact row, quotient, incidence, and geometric role are in the bridge certificate (`bridge_certificate.json`) and bridge stratum chart (`shared_circuit_bridge_stratum18_chart.json`).
 
 The bridge D has `(V_D,E_D,F_D)=(9,15,8)` with active sets
 
 `0136, 017, 034, 045, 057, 1256, 157, 2346, 245`.
 
-All eight rows are irredundant. The final actual common refinement has `(V,E,F)=(49,92,45)`, Euler check `49−92+45=2`, and complexity `184`. Its exact rational volume is in the [bridge exact certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/exact_certificate.json), approximately `58683.97431673481`; its exact first moment is `(0,0,0)`. The minimum nonincident common slack is approximately `9.79669279225519e-6`.
+All eight rows are irredundant. The final actual common refinement has `(V,E,F)=(49,92,45)`, Euler check `49−92+45=2`, and complexity `184`. Its exact rational volume is in the bridge exact certificate (`exact_certificate.json`), approximately `58683.97431673481`; its exact first moment is `(0,0,0)`. The minimum nonincident common slack is approximately `9.79669279225519e-6`.
 
-The full exact lattice is [bridge common vertices](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/common_V_affine.csv), [maximal faces](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/common_H_affine.csv), [true edges](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/common_edges.csv), [centred V data](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/final_centered_V.csv), and [centred H data](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/final_centered_H.csv).
+The full exact lattice is bridge common vertices (`common_V_affine.csv`), maximal faces (`common_H_affine.csv`), true edges (`common_edges.csv`), centred V data (`final_centered_V.csv`), and centred H data (`final_centered_H.csv`).
 
 The bridge remains strict `(2,2,2)`:
 
@@ -191,31 +191,31 @@ The bridge remains strict `(2,2,2)`:
 | saddle | `P9edge(13;26)|Dedge(2;4) || P9edge(13;26)|Dedge(2;6)` | `0.006133493183640357` |
 | saddle | `P9edge(15;27)|Dedge(0;5) || P9edge(15;27)|Dedge(0;7)` | `0.006258435218437097` |
 
-All 45 face tests, 49 vertex tests, and `4×92=368` edge-cone tests are in the [bridge face audit](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/face_audit_exact.csv), [vertex audit](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/vertex_audit_exact.csv), and [edge audit](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/edge_audit_exact.csv).
+All 45 face tests, 49 vertex tests, and `4×92=368` edge-cone tests are in the bridge face audit (`face_audit_exact.csv`), vertex audit (`vertex_audit_exact.csv`), and edge audit (`edge_audit_exact.csv`).
 
 The maximum unwanted normalized margin improves from `0.02213636358320439` at the seven-facet wall to `0.007144114110329353`, but no equilibrium count is removed.
 
 ## 8. Bridge mixed system, isolated root, and positive boxes
 
-The bridge’s 45-face fan again gives 20 exact volume coefficients and 35 in each first-moment component; all 125 are in the [bridge mixed system](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/mixed_volume_first_moments.csv). The exact positive root is `(1,1,1)`. The exact Jacobian determinant is nonzero, approximately `642648813.9135822`, and rational Krawczyk arithmetic isolates it in
+The bridge’s 45-face fan again gives 20 exact volume coefficients and 35 in each first-moment component; all 125 are in the bridge mixed system (`mixed_volume_first_moments.csv`). The exact positive root is `(1,1,1)`. The exact Jacobian determinant is nonzero, approximately `642648813.9135822`, and rational Krawczyk arithmetic isolates it in
 
 `[1048575/1048576, 1048577/1048576]^3`.
 
-See the [bridge root certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/root_certificate.json). The [directed bridge control certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/directed_interval_certificate.json) preserves `(49,92,45)` and `(2,2,2)` on a radius-`2^-40` positive control box.
+See the bridge root certificate (`root_certificate.json`). The directed bridge control certificate (`directed_interval_certificate.json`) preserves `(49,92,45)` and `(2,2,2)` on a radius-`2^-40` positive control box.
 
-A separate three-dimensional physical bridge-plane box of radius `2^-50 = 1/1125899906842624` preserves all three nonsimple circuits, D topology `(9,15,8)`, common refinement `(49,92,45)`, and strict class `(2,2,2)` at each body’s own interval centroid. D nonactive-row slack remains above `7.713020031452354e-5`, common nonincident slack remains above `2.564876006028171e-7`, and volume remains in `[58683.97431667408,58683.97431679554]`. The certificate is [bridge_shape_box_directed.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/bridge_shape_box_directed.json).
+A separate three-dimensional physical bridge-plane box of radius `2^-50 = 1/1125899906842624` preserves all three nonsimple circuits, D topology `(9,15,8)`, common refinement `(49,92,45)`, and strict class `(2,2,2)` at each body’s own interval centroid. D nonactive-row slack remains above `7.713020031452354e-5`, common nonincident slack remains above `2.564876006028171e-7`, and volume remains in `[58683.97431667408,58683.97431679554]`. The certificate is bridge_shape_box_directed.json.
 
 ## 9. Independent reconstruction and meshes
 
-[verify_shared_circuit_independent.py](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/verify_shared_circuit_independent.py) is a standalone exact reconstruction that imports neither the generator, `exact_core.py`, `shared_build_lib.py`, nor numerical search state. Its completed record [independent_verification.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/independent_verification.json) reports `ALL_CHECKS_PASS` for the central wall, eight open chambers, and bridge, including literal summand identities, incidence, volume and moments, all mechanics, GMP-regenerated mixed coefficients, directed boxes, and meshes.
+verify_shared_circuit_independent.py is a standalone exact reconstruction that imports neither the generator, `exact_core.py`, `shared_build_lib.py`, nor numerical search state. Its completed record independent_verification.json reports `ALL_CHECKS_PASS` for the central wall, eight open chambers, and bridge, including literal summand identities, incidence, volume and moments, all mechanics, GMP-regenerated mixed coefficients, directed boxes, and meshes.
 
-All 27 exact strata were independently replayed in four isolated batches by [verify_strata27_batch_independent.py](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/verify_strata27_batch_independent.py). The aggregate [strata27_independent_verification.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/strata27_independent_verification.json) reports `ALL_27_EXACT_STRATA_PASS` and independently verifies all 54 canonical fan changes.
+All 27 exact strata were independently replayed in four isolated batches by verify_strata27_batch_independent.py. The aggregate strata27_independent_verification.json reports `ALL_27_EXACT_STRATA_PASS` and independently verifies all 54 canonical fan changes.
 
-During final packaging, [RUN_COMPLETED_VERIFICATION_CHECKS.sh](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/RUN_COMPLETED_VERIFICATION_CHECKS.sh) freshly compiled the C++ GMP and directed verifiers, byte-regenerated the wall and bridge mixed systems, reran every promoted directed box, rebuilt both atlases, checked stable independent-record hashes, and directly audited both mesh Euler relations. Its [log](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/RUN_COMPLETED_VERIFICATION_CHECKS.log) ends with `COMPLETED_RECORDS_AND_GMP_CHECKS_PASS`. [FINAL_VERIFICATION.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/FINAL_VERIFICATION.json) combines the promoted evidence and binds the principal files by SHA-256. A redundant long replay stopped by the execution boundary is quarantined and explicitly not used as proof; [VERIFICATION_NOTES.md](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/VERIFICATION_NOTES.md) records that distinction.
+During final packaging, RUN_COMPLETED_VERIFICATION_CHECKS.sh freshly compiled the C++ GMP and directed verifiers, byte-regenerated the wall and bridge mixed systems, reran every promoted directed box, rebuilt both atlases, checked stable independent-record hashes, and directly audited both mesh Euler relations. Its log (`RUN_COMPLETED_VERIFICATION_CHECKS.log`) ends with `COMPLETED_RECORDS_AND_GMP_CHECKS_PASS`. FINAL_VERIFICATION.json combines the promoted evidence and binds the principal files by SHA-256. A redundant long replay stopped by the execution boundary is quarantined and explicitly not used as proof; VERIFICATION_NOTES.md records that distinction.
 
-The seven-facet wall [OBJ](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/endpoint_centered.obj) / [STL](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/sevenfacet_wall/endpoint_centered.stl) has 42 vertices, 80 triangles, and 120 mesh edges. Every edge has two incident triangles, Euler characteristic is 2, and orientation is outward.
+The seven-facet wall OBJ (`endpoint_centered.obj`) / STL (`endpoint_centered.stl`) has 42 vertices, 80 triangles, and 120 mesh edges. Every edge has two incident triangles, Euler characteristic is 2, and orientation is outward.
 
-The bridge [OBJ](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/endpoint_centered.obj) / [STL](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/bridge8/endpoint_centered.stl) has 49 vertices, 94 triangles, and 141 mesh edges, again watertight with Euler characteristic 2 and outward orientation.
+The bridge OBJ (`endpoint_centered.obj`) / STL (`endpoint_centered.stl`) has 49 vertices, 94 triangles, and 141 mesh edges, again watertight with Euler characteristic 2 and outward orientation.
 
 ## 10. Sharp residual obstruction and first topology still unclassified
 
@@ -239,12 +239,12 @@ That is the next nonrepeating topology. Another coordinate-axis, two-mode, fixed
 
 ## Complete reusable artifact
 
-- [Full exact bundle](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER.zip)
-- [Bundle SHA-256](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER.zip.sha256)
-- [Standalone handoff](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/RESULT.md)
-- [Artifact index](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/ARTIFACT_INDEX.json)
-- [Final verification record](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/FINAL_VERIFICATION.json)
-- [Manifest](sandbox:/mnt/data/Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER/MANIFEST.sha256)
+- Full exact bundle (`Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER.zip`)
+- Bundle SHA-256 (`Clear_Raven_08_postCU10_nonsimple_shared_circuit_exact_NONWINNER.zip.sha256`)
+- Standalone handoff (`RESULT.md`)
+- Artifact index (`ARTIFACT_INDEX.json`)
+- Final verification record (`FINAL_VERIFICATION.json`)
+- Manifest (`MANIFEST.sha256`)
 
 Bundle SHA-256: `5933e34375af6064d3e4a1e5059e2793aff601a0f624b539b9fb16b94521bde8`.
 

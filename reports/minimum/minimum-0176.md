@@ -33,7 +33,7 @@ The parent already ensures T<3. At the target threshold this yields
 
 Thus the entire closed complementary endpoint-gap sector is root-only as well. At T>=51/25, **L_D is necessarily mixed**, G(C)<0<G(D). The both-negative and G(D)=0 complements can only be U_D. In U_D with G(D)<=0 one additionally has b<47M/68, where M=max(a,c); if c<=a this reads b<47a/68.
 
-Combining the new CD/ordinary root-only theorem with the accepted actual root-only high-endpoint height-law theorem excludes T>=51/25 for the entire specified CD-or-ordinary full-maximum class with max(c,d)>=a, even below z=0. That value corollary uses the inherited height-law theorem, not a new replay of its certificate. The height-law source explicitly covers actual proper33 root-only bodies, without stationarity. :contentReference[oaicite:0]{index=0}
+Combining the new CD/ordinary root-only theorem with the accepted actual root-only high-endpoint height-law theorem excludes T>=51/25 for the entire specified CD-or-ordinary full-maximum class with max(c,d)>=a, even below z=0. That value corollary uses the inherited height-law theorem, not a new replay of its certificate. The height-law source explicitly covers actual proper33 root-only bodies, without stationarity.
 
 **What remains open here:** simultaneous full stationarity and the value problem in the two explicit seven-plane charts, especially U_D with both C/D negative. I have not proved that either chart contains a full maximum, nor excluded both charts. Negative-z low-endpoint root-only VALUE remains the separate direction specified in the assignment. No mechanical E17 exclusion or new attaining construction follows.
 
@@ -53,14 +53,14 @@ Required literal authorities:
     minimum-0165
     078f5b8df8a0c5b0ccb7a22bc3fa7aa26301717b0635893ed1c728e9efffebeb
 
-The first parent closes the expanded-Fx mixed sector, not proper33. That scope is preserved. :contentReference[oaicite:1]{index=1}
+The first parent closes the expanded-Fx mixed sector, not proper33. That scope is preserved.
 
 **Arithmetic discrepancy inside B-B:** its prose says ell(vertex7)=41/2040 at p=100. The literal coordinates and literal affine function give instead
 
     1-(99/100)(50/51)-(3/4)(1/102)+(4/5)(1/102)
       =61/2040.
 
-The source/report already have 61/2040. This is a proposed correction to that prose line, not a new parent identity or a change in the control. Both values are positive, and no parent structural argument depends on the mistaken numerator. The new exact source checks the corrected arithmetic. :contentReference[oaicite:2]{index=2}
+The source/report already have 61/2040. This is a proposed correction to that prose line, not a new parent identity or a change in the control. Both values are positive, and no parent structural argument depends on the mistaken numerator. The new exact source checks the corrected arithmetic.
 
 The adjacent-ordinary-B level lemma and the archived root-only height-law value theorem are used only at their accepted scope in the supplied memory. Their larger original archives are not attached for computation; no new computational result below depends on those archives. There is no missing exact input for the new controls or the new finite reconstruction. No research connector or external research source was used.
 
@@ -79,9 +79,9 @@ Use the original canonical frame and actual uniform integrals:
 
 E in these formulas is an integral, not an edge count. All these quantities belong to the same actual body. P contains T0=conv(A,B,C,D), so t>=1. Since the root has positive area and positive endpoint values, P is not T0.
 
-The accepted full-maximum inputs are auxiliary true-vertex positivity G>0; the free-facet spike inequality; true ordinary-facet triangle rigidity; and the whole-facet hinge equations for affine motions vanishing on that facet's marks. An ordinary facet has one canonical mark and its other two vertices on a minimum-G root edge. There is no ordinary A facet and at most one ordinary facet total. An ordinary C requires c<min(b,d); the reflected condition holds at D. These are full-class facts, not assumptions about a stationary optimization inside a prescribed incidence or sign chamber. :contentReference[oaicite:3]{index=3}
+The accepted full-maximum inputs are auxiliary true-vertex positivity G>0; the free-facet spike inequality; true ordinary-facet triangle rigidity; and the whole-facet hinge equations for affine motions vanishing on that facet's marks. An ordinary facet has one canonical mark and its other two vertices on a minimum-G root edge. There is no ordinary A facet and at most one ordinary facet total. An ordinary C requires c<min(b,d); the reflected condition holds at D. These are full-class facts, not assumptions about a stationary optimization inside a prescribed incidence or sign chamber.
 
-For an ordinary B triangle, put L=-G(B)/3>0. Every root vertex has G>=L. Each adjacent special BY facet has G(Y)<L. The supplied notebook expressly gives this last statement at full body maximum, fixed ell, with all canonical marks true; it does not require the extra joint-mass inequality J. :contentReference[oaicite:4]{index=4}
+For an ordinary B triangle, put L=-G(B)/3>0. Every root vertex has G>=L. Each adjacent special BY facet has G(Y)<L. The supplied notebook expressly gives this last statement at full body maximum, fixed ell, with all canonical marks true; it does not require the extra joint-mass inequality J.
 
 The literal negative-z value theorem is
 
@@ -91,7 +91,7 @@ after choosing c=max(c,d). Thus T<3 and, for T>=2,
 
     b+c > [(2T-3)/(3-T)]a >= a.                       (4)
 
-This is an inherited maximum theorem, not monotonicity of clipping z<0. :contentReference[oaicite:5]{index=5}
+This is an inherited maximum theorem, not monotonicity of clipping z<0.
 
 The only free maximal facets possible here are AC, AD, BC, BD, up to two CD facets, the optional ordinary facet, and the possible BCD merger of BC/BD. ACD cannot support a body having points on both sides of z=0. A free facet with no canonical mark violates the spike inequality because all its vertices have positive G. AB already has the two protected coordinate facets. This list concerns actual maximal facets.
 
@@ -244,7 +244,7 @@ The accepted height premise is mu<=3M/4. The accepted general high-trace endpoin
 
     a < (47/68)M < (44321/45968)a < a,
 
-a contradiction. The exact final gap is 1647/45968. For U_D, the same argument preserves the useful necessary condition b<47M/68 instead of falsely excluding that chart. The height premise is recorded in the supplied negative-anchor authority; the endpoint screen is in the common notebook. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+a contradiction. The exact final gap is 1647/45968. For U_D, the same argument preserves the useful necessary condition b<47M/68 instead of falsely excluding that chart. The height premise is recorded in the supplied negative-anchor authority; the endpoint screen is in the common notebook.
 
 ## 5. Complete actual recovery charts and remaining equations
 
@@ -418,7 +418,7 @@ Complete expected stdout:
     report_sha256=891f5bec143dd3fca156a8548fd4c98e4e2398cf687900f8afb00bf3c6a76a73
     PROPER33_NEGATIVE_Z_TWO_CHARTS_V1_RECOVERY_PASS
 
-Optional copies: [source](sandbox:/mnt/data/proper33_negative_z_two_charts_v1.py), [full report](sandbox:/mnt/data/proper33_negative_z_two_charts_v1.json), [stdout](sandbox:/mnt/data/proper33_negative_z_two_charts_v1.out). The entire source follows; no download or parent import is required.
+Optional copies: source (`proper33_negative_z_two_charts_v1.py`), full report (`proper33_negative_z_two_charts_v1.json`), stdout (`proper33_negative_z_two_charts_v1.out`). The entire source follows; no download or parent import is required.
 
 ```python
 #!/usr/bin/env python3
@@ -768,4 +768,4 @@ The proof uses the full local-maximum premises; it does not cover maxima artific
 
 The most consequential continuation is now the **actual seven-parameter system (11), (14), (15)** on U_D, with all facets and moments reconstructed from the same seven supports. At the target threshold L_D already needs mixed signs; U_D is the sole both-negative possibility. The explicit gap (2), the lower-chart cut b+c>9a/8+13d/6, the upper both-negative constraint b<47M/68, and the actual root-triangle moment equations should be retained together rather than relaxed into independent volumes. There is no remaining need to search arbitrary CD polygons, ordinary D caps, ordinary B5 stars or nonsimple positive-ell auxiliaries for this high-trace complement.
 
-I do not infer a full proper33 trace theorem from this reduction. The two residual charts are not excluded, and low-endpoint negative-z root-only VALUE is still separate. No 110 control was found or claimed. These 8/13/7 trace-body counts do not remove mechanical 10/17/9 incidences without the missing trace-to-mechanics bridge. The accepted global interval remains 34<=C_min<=622, and the whole minimum remains unresolved. :contentReference[oaicite:8]{index=8}
+I do not infer a full proper33 trace theorem from this reduction. The two residual charts are not excluded, and low-endpoint negative-z root-only VALUE is still separate. No 110 control was found or claimed. These 8/13/7 trace-body counts do not remove mechanical 10/17/9 incidences without the missing trace-to-mechanics bridge. The accepted global interval remains 34<=C_min<=622, and the whole minimum remains unresolved.

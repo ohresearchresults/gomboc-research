@@ -18,13 +18,13 @@ Two additional sufficient tests are proved below: a volume-neutral exchange with
 
 **Not claimed:** universal four-point regularization, impossibility of the first-order coexistence configuration itself, or an actual four-A body with obstructing FULL shape stress and only co-aligned free folds. The remaining free-clique sector is unresolved. The new rational 14-vertex control has two designated co-aligned same-side folds, but no mechanical weak points. A separate new actual nine-vertex four-A control realizes an exceptional tensor configuration, but its sole free vertex is nonsingular. Neither is the requested full coexistence counterexample.
 
-The parent's residual and the distinction between a single-fold control and a four-A obstruction are explicit in its literal statement. The present theorem goes beyond that residual's previous sufficient tests. :contentReference[oaicite:0]{index=0}
+The parent's residual and the distinction between a single-fold control and a four-A obstruction are explicit in its literal statement. The present theorem goes beyond that residual's previous sufficient tests.
 
 ## 2. Read closure, authority and verification status
 
 I read the complete supplied 2023-line journal through EOF, including the shared notebook, branch memory, entire literal parent, and its complete executable source. The only supplied file was `research-journal(20260920-022403).md`, 309045 UTF-8 bytes, SHA-256 `aa4907b1658647010e22c8e2048be8f40019272a724eda34be7efee3283c4b34`.
 
-The literal parent is `minimum-0117`. Re-serializing its literal payload as compact UTF-8 JSON with keys `version`, `result_markdown`, one final LF in the Markdown string, `ensure_ascii=False`, and no envelope-final LF authenticated the stated 53849 bytes and SHA-256 `7f40813c3823ad8abbdb572a916cbda1849eb438d7e6b7f396d086fc45190841`. Its embedded `vertex_fold.py` was extracted and authenticated at 16692 bytes, SHA-256 `c170ec179b96f692a3e2cb6d9a3cf6530b076912e9d5169b18658356183c0abc`. No scientific or source-identity conflict was found. I did not rerun that parent's full suite; the new program has no predecessor import or missing source dependency. :contentReference[oaicite:1]{index=1}
+The literal parent is `minimum-0117`. Re-serializing its literal payload as compact UTF-8 JSON with keys `version`, `result_markdown`, one final LF in the Markdown string, `ensure_ascii=False`, and no envelope-final LF authenticated the stated 53849 bytes and SHA-256 `7f40813c3823ad8abbdb572a916cbda1849eb438d7e6b7f396d086fc45190841`. Its embedded `vertex_fold.py` was extracted and authenticated at 16692 bytes, SHA-256 `c170ec179b96f692a3e2cb6d9a3cf6530b076912e9d5169b18658356183c0abc`. No scientific or source-identity conflict was found. I did not rerun that parent's full suite; the new program has no predecessor import or missing source dependency.
 
 The results below are direct analytic proofs plus newly executed exact controls. They are not inferred from finite unsuccessful searches. No literature-priority or proof-assistant certification is claimed. All newly reported controls and computational findings reconstruct from the complete source in section 10.
 
@@ -52,7 +52,7 @@ The exact one-vertex identities, not just Taylor expansions, are
     V(h)=V-a_w·h/6,
     J(h)-g V(h)=[B_w h-(a_w·h)h]/24.
 
-These are the actual uniform-volume formulas in the parent, which also proves their arbitrary-valence scope. :contentReference[oaicite:2]{index=2}
+These are the actual uniform-volume formulas in the parent, which also proves their arbitrary-valence scope.
 
 ### Lemma 1: exact separability for two nonadjacent triangular stars
 
@@ -107,7 +107,7 @@ If both endpoints follow their radial law and the actual centroid is held fixed,
     x_i(t)=(1+t r_i)x_i,  y_i(t)=(1+t s_i)y_i,
     x_i(t)·(y_i(t)-x_i(t))=t r_i(s_i-r_i)(1+t r_i)>0.     (5)
 
-A nonsingular free vertex supplies the exact centroid correction. Thus Lemma 2, followed by this radial step, already proves regularization in its exchange case. Neither endpoint of any weak edge moves during the preliminary exchange. The exact physical interpretation of a positive A escape and preservation of the other feature guards is the same as in the literal parent. :contentReference[oaicite:3]{index=3}
+A nonsingular free vertex supplies the exact centroid correction. Thus Lemma 2, followed by this radial step, already proves regularization in its exchange case. Neither endpoint of any weak edge moves during the preliminary exchange. The exact physical interpretation of a positive A escape and preservation of the other feature guards is the same as in the literal parent.
 
 The stronger statement is that **a first- or second-order raw vertex arc suffices at the original body**, including when a FULL actual shape stress exists.
 
@@ -124,7 +124,7 @@ A nonzero nonnegative stress alpha satisfies R^T alpha=0. With c_alpha=Σ_i alph
       +Σ_(target i=j) alpha_i x_i = A_j^T c_alpha
                     for EVERY actual vertex j.          (7)
 
-The parent proves these full equations and c_alpha≠0; they are stronger than tensor or projective stress identities. :contentReference[oaicite:4]{index=4}
+The parent proves these full equations and c_alpha≠0; they are stronger than tensor or projective stress identities.
 
 For completeness, test (6) on h_j^rad=|v_j|²v_j and put d=Σ A_j h_j^rad. Then
 
@@ -177,7 +177,7 @@ For k=4 this is the claimed **n≥13 theorem**. The sharper actual condition is 
 
 For 9≤n≤12, a configuration not covered by this theorem must have a nonempty free clique of size at most four. At n=12 it must have exactly eight distinct endpoints, four disjoint weak edges, and a free K4; any endpoint identification would yield five free vertices and is covered. At n=11 it needs seven or eight endpoints and a free K4 or triangle. At n=10 it needs at least six endpoints; at n=9 at least five. The earlier low-degree, cubic, nonaligned and endpoint-unlocking criteria still apply inside these small classes and must not be discarded.
 
-This is a necessary description of the uncovered region, not a realizability assertion. It does not exclude the minimum's nonsimplicial 10/17/9 layer. The global bracket 34≤C_min≤622 and all registry counts remain unchanged. :contentReference[oaicite:5]{index=5}
+This is a necessary description of the uncovered region, not a realizability assertion. It does not exclude the minimum's nonsimplicial 10/17/9 layer. The global bracket 34≤C_min≤622 and all registry counts remain unchanged.
 
 ## 6. Two further tests inside the free-clique residual
 
@@ -355,7 +355,7 @@ Exact stdout:
 
 The additional cold comparison marker was `NONADJACENT_FREE_SOURCE_ONLY_COLD_BYTE_PARITY_PASS`.
 
-Convenience copies: [exact source](sandbox:/mnt/data/coexistence/nonadjacent_free.py), [complete exact report](sandbox:/mnt/data/coexistence/nonadjacent_free.json). Neither is required because the complete source follows.
+Convenience copies: exact source (`nonadjacent_free.py`), complete exact report (`nonadjacent_free.json`). Neither is required because the complete source follows.
 
 ```python
 """NONADJACENT_FREE_VERTEX_EXCHANGE_V1.

@@ -14,11 +14,11 @@ Assignment: `figure-0399`.
 
 The complete preserved capsule contains **35 new rational checkpoints**, including20 own211 checkpoints, a genuine central-core-cut own323 construction, and mechanically worse coarse-grid controls. Every one passed exact A/B hull, maximal incidence, ordinary filled centroid, strict/weak all-feature checks, independent exhaustive plane-triple reconstruction, and positive centered tetrahedral integration. Eight exact applications of the disk/slab obstruction below include a C126 exclusion allowing centroid displacement as large as1/4. This is a geometrically scoped exclusion, not a global one.
 
-The accepted own110 endpoint remains C622. :contentReference[oaicite:0]{index=0}
+The accepted own110 endpoint remains C622.
 
 ## Source authority
 
-The complete literal NC57 parent `figure-0398`, SHA-256 `b6c84be62ea56d1c11575d4d6309563f525d734f79b0ad2a299f0b7abd2ccdd3`, was read and decoded; all37 source hashes matched. Fresh exact reconstructions reproduced the assigned C372 report,14190bytes,SHA `639b7dd56caf48ee99f1175e20b1f305100dc0fb3f75440dd20aba8df57b4cb5`, and C378 report,18534bytes,SHA `fc46fb08252486d5c2474d70c6834b2f4849f8de25bcf18ccb059a7aa9ced661`. Their true incidences are64/186/124 and65/189/126. The incorrect floating185-edge C372 count was not used. :contentReference[oaicite:1]{index=1}
+The complete literal NC57 parent `figure-0398`, SHA-256 `b6c84be62ea56d1c11575d4d6309563f525d734f79b0ad2a299f0b7abd2ccdd3`, was read and decoded; all37 source hashes matched. Fresh exact reconstructions reproduced the assigned C372 report,14190bytes,SHA `639b7dd56caf48ee99f1175e20b1f305100dc0fb3f75440dd20aba8df57b4cb5`, and C378 report,18534bytes,SHA `fc46fb08252486d5c2474d70c6834b2f4849f8de25bcf18ccb059a7aa9ced661`. Their true incidences are64/186/124 and65/189/126. The incorrect floating185-edge C372 count was not used.
 
 I independently catalogued/searched the read-only research library and read the relevant complete late journal entries through the DELETE4225 integration. The single/pair unchanged-coordinate census was not repeated. No unavailable historical projective checkpoint or older C384 alias was substituted for an input.
 
@@ -253,7 +253,7 @@ Exact disk verification for each own-centered supporting plane `N·x<=h` is `h>0
 
 This excludes an infinite family of substantial feature changes. It excludes neither disk-breaking cuts, slab escape, nor centroid motion beyond the specified ball. It establishes no global lower bound or V>=9,F>=9 premise.
 
-As external context, Domokos–Kovács's Conway-spiral homogeneous obstruction has its own monotone-meridian assumptions. I did not transfer those assumptions to these freely deformed bodies; the argument above is supplied directly. :contentReference[oaicite:2]{index=2}
+As external context, Domokos–Kovács's Conway-spiral homogeneous obstruction has its own monotone-meridian assumptions. I did not transfer those assumptions to these freely deformed bodies; the argument above is supplied directly.
 
 ## Core-breaking C220 construction
 
@@ -309,12 +309,12 @@ The C220 body supplies an exact core-breaking operation, but its two large stabl
 
 ## Attached complete recovery materials
 
-[Complete self-contained Markdown capsule, including the literal68-file decoder](sandbox:/mnt/data/CA95_RESULT.md)
+Complete self-contained Markdown capsule, including the literal68-file decoder (`CA95_RESULT.md`)
 
-[Complete version2 JSON capsule](sandbox:/mnt/data/CA95_RESULT.json)
+Complete version2 JSON capsule (`CA95_RESULT.json`)
 
-[Standalone complete decoder](sandbox:/mnt/data/CA95_RECOVER.py)
+Standalone complete decoder (`CA95_RECOVER.py`)
 
-[Source and exact certificates](sandbox:/mnt/data/CA95_EXACT_CAPSULE.zip)
+Source and exact certificates (`CA95_EXACT_CAPSULE.zip`)
 
-[Supplementary full numerical logs](sandbox:/mnt/data/CA95_FULL_OBSERVED.zip)
+Supplementary full numerical logs (`CA95_FULL_OBSERVED.zip`)

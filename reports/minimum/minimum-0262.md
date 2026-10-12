@@ -17,13 +17,13 @@ For an actual W-and-A body with gamma≤1/3 and at most seven basal vertices, a 
     2c-a_xy-(1-2gamma)v ∈ relint B,
     (tau_a(v)-1)|Y_a|_G² > (1-2gamma)(1-gamma)eta.
 
-Here tau_a(v) is the **actual far endpoint of the basal chord through the physical basal foot in direction -Y_a**. It is determined by the actual shape and shear, independently of G and eta. Replacing tau_a(v) by its universal W bound 2gamma/(1-2gamma) recovers the weaker lens and normal inequality in the primary parent. Thus this is a strict geometric strengthening, not a relabeling of those inequalities. The parent W-only lens and its distinction from R7 remain the starting premises. fileciteturn34file0L206-L230
+Here tau_a(v) is the **actual far endpoint of the basal chord through the physical basal foot in direction -Y_a**. It is determined by the actual shape and shear, independently of G and eta. Replacing tau_a(v) by its universal W bound 2gamma/(1-2gamma) recovers the weaker lens and normal inequality in the primary parent. Thus this is a strict geometric strengthening, not a relabeling of those inequalities. The parent W-only lens and its distinction from R7 remain the starting premises.
 
 At a fixed actual shape and shear, each of the seven genuine top-to-base ports reduces to an **open interval in one rational scalar X**. Its nonemptiness is necessary and sufficient for the local conjunction of top-norm maximality, a positive-height spoke escape, and the strict actual-chord lens. Adding the actual-covariance normal consequence of the joint spectral floor adds one strictly positive concave quadratic on that interval. These decisions require no tangential-metric grid, numerical optimizer, or separately chosen polar metric.
 
 This yields a new exclusion on an explicit, full-dimensional **shape-and-shear region** throughout the genuine W-and-A class below gamma=1/3, with every remaining G>0 and eta>0 allowed. A concrete unbounded shear region over the parent's actual W_ONLY_RESIDUAL shape is given in Section 5. It is outside the previously closed five-dimensional shape boxes, and contains an entire open set of physical metrics, not just one fixed G.
 
-**This does not close the entire W-only shape projection.** In particular, it does not prove that every W-and-A H5 body is excluded for every shear. The global residual taper remains 1/300<lambda<3/5 outside the accepted exclusions. The central cube x,r,p,q∈[1/5,1/2] is already closed for the entire taper and is not a target of the new work. fileciteturn36file0L21-L47 No minimum bound, canonical registry count, or attaining construction changes.
+**This does not close the entire W-only shape projection.** In particular, it does not prove that every W-and-A H5 body is excluded for every shear. The global residual taper remains 1/300<lambda<3/5 outside the accepted exclusions. The central cube x,r,p,q∈[1/5,1/2] is already closed for the entire taper and is not a target of the new work. No minimum bound, canonical registry count, or attaining construction changes.
 
 ### Execution and reading qualification
 
@@ -282,7 +282,7 @@ Take the parent's W_ONLY_RESIDUAL body:
     c=(7368835529,3427883561)/28201312000,
     gamma=50317/153268.
 
-It has strict W and A slacks but fails R7. Those are previously audited actual-centroid facts, not conclusions inferred from a failed coefficient search. fileciteturn34file0L189-L204 Here y_max=17/50, and the redundant upper bound on v_y can be removed from (8). The exact excluded wedge is
+It has strict W and A slacks but fails R7. Those are previously audited actual-centroid facts, not conclusions inferred from a failed coefficient search. Here y_max=17/50, and the redundant upper bound on v_y can be removed from (8). The exact excluded wedge is
 
     v_x > 5253737129/18942984000,
     v_y < -1366339479/4842328000,

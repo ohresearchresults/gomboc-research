@@ -6,7 +6,7 @@ AI research report · 2026-08-26 UTC
 
 # Verdict
 
-No finite homogeneous polyhedral Gömböc was obtained. I therefore do **not** claim a winner. The required gate remains the exact own-centroid class `(S,U,H)=(1,1,0)` with a complete finite lattice, strict all-feature margins, independent verification, and matching mesh export; near-states and artificial reference centers are explicitly excluded. :contentReference[oaicite:0]{index=0}
+No finite homogeneous polyhedral Gömböc was obtained. I therefore do **not** claim a winner. The required gate remains the exact own-centroid class `(S,U,H)=(1,1,0)` with a complete finite lattice, strict all-feature margins, independent verification, and matching mesh export; near-states and artificial reference centers are explicitly excluded.
 
 The strongest completed object from this direction is a fully materialized, exactly centered rational Sloan-support polyhedron
 
@@ -26,7 +26,7 @@ It is a genuine ordinary uniform-density polyhedron, not a weighted point model.
 
 # What changed relative to the supplied journal
 
-The journal had isolated the original Sloan phase at `beta=0.034` as analytically centered and strictly convex with two smooth equilibria, while showing that denser quasi-uniform polyhedralization does not solve the feature-level equilibrium problem. :contentReference[oaicite:1]{index=1} It also recorded that finite rank-three moment actuation was already practical but that the noncritical support network remained the obstruction. :contentReference[oaicite:2]{index=2} The exact degree-one-moment-annihilating support/cubature architecture requested here was still explicitly absent. :contentReference[oaicite:3]{index=3}
+The journal had isolated the original Sloan phase at `beta=0.034` as analytically centered and strictly convex with two smooth equilibria, while showing that denser quasi-uniform polyhedralization does not solve the feature-level equilibrium problem. It also recorded that finite rank-three moment actuation was already practical but that the noncritical support network remained the obstruction. The exact degree-one-moment-annihilating support/cubature architecture requested here was still explicitly absent.
 
 This run adds four reusable results:
 
@@ -237,20 +237,20 @@ The exact P28 object is a useful seed because it is compact and fully reconstruc
 
 # Reproducible artifacts
 
-- [Complete bundle, including exact data, generator, verifiers, transcripts, OBJ and STL](sandbox:/mnt/data/sloan_cubature_fallback_bundle.zip) — bundle SHA-256 `d83a5ac7bc092ea7db9e135ee4fecc0314275ec1cfb417c301a91ec1198ba00e`.
-- [Exact full certificate](sandbox:/mnt/data/sloan_cubature_fallback/fallback_exact.json)
-- [Compact deterministic exact generator](sandbox:/mnt/data/sloan_cubature_fallback/generate_exact.py)
-- [Independent exact verifier](sandbox:/mnt/data/sloan_cubature_fallback/verify_exact.py)
-- [Directed-rounding perturbation verifier](sandbox:/mnt/data/sloan_cubature_fallback/verify_interval_radius.py)
-- [Exact H rows](sandbox:/mnt/data/sloan_cubature_fallback/H_exact.csv)
-- [Exact V rows](sandbox:/mnt/data/sloan_cubature_fallback/V_exact.csv)
-- [Maximal-face cycles](sandbox:/mnt/data/sloan_cubature_fallback/faces.txt)
-- [True-edge list](sandbox:/mnt/data/sloan_cubature_fallback/edges.txt)
-- [OBJ export](sandbox:/mnt/data/sloan_cubature_fallback/fallback_exact.obj)
-- [STL export](sandbox:/mnt/data/sloan_cubature_fallback/fallback_exact.stl)
-- [Exact verification transcript](sandbox:/mnt/data/sloan_cubature_fallback/verification.txt)
-- [Interval-radius certificate](sandbox:/mnt/data/sloan_cubature_fallback/interval_radius.json)
-- [Bundle README and reproduction notes](sandbox:/mnt/data/sloan_cubature_fallback/README.md)
+- Complete bundle, including exact data, generator, verifiers, transcripts, OBJ and STL (`sloan_cubature_fallback_bundle.zip`) — bundle SHA-256 `d83a5ac7bc092ea7db9e135ee4fecc0314275ec1cfb417c301a91ec1198ba00e`.
+- Exact full certificate (`fallback_exact.json`)
+- Compact deterministic exact generator (`generate_exact.py`)
+- Independent exact verifier (`verify_exact.py`)
+- Directed-rounding perturbation verifier (`verify_interval_radius.py`)
+- Exact H rows (`H_exact.csv`)
+- Exact V rows (`V_exact.csv`)
+- Maximal-face cycles (`faces.txt`)
+- True-edge list (`edges.txt`)
+- OBJ export (`fallback_exact.obj`)
+- STL export (`fallback_exact.stl`)
+- Exact verification transcript (`verification.txt`)
+- Interval-radius certificate (`interval_radius.json`)
+- Bundle README and reproduction notes (`README.md`)
 
 Reproduction commands from the extracted directory are:
 

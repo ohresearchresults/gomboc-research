@@ -16,23 +16,23 @@ No homogeneous polyhedral Gömböc was obtained. The strongest result is the com
 (S,U,H)_P = (2871,903,3772).
 ```
 
-The predecessor had certified the 5,952-row collar and localized the first false U-H pair to sectors `6/14` near `gamma≈0.0401–0.0418`. :contentReference[oaicite:0]{index=0} AQ32-A2 freezes all required predecessor rows byte-for-byte, crosses an exact 1,208-event `16→32` adaptive incidence atlas, destroys that first pair and its next transferred relay, and certifies every target/collar/transition/cross-seam feature over the final Santaló root box. The weakest local exclusion is `2.1501357991621703e-6`, above the required `1.915868198716011e-6`.
+The predecessor had certified the 5,952-row collar and localized the first false U-H pair to sectors `6/14` near `gamma≈0.0401–0.0418`. AQ32-A2 freezes all required predecessor rows byte-for-byte, crosses an exact 1,208-event `16→32` adaptive incidence atlas, destroys that first pair and its next transferred relay, and certifies every target/collar/transition/cross-seam feature over the final Santaló root box. The weakest local exclusion is `2.1501357991621703e-6`, above the required `1.915868198716011e-6`.
 
 The branch fails later: the first surviving exact U-H pair is in old sectors `4/12` near `gamma≈0.4417–0.4437`; the first surviving stable band begins near `gamma≈1.3197243`. Half-turn symmetry cancels transverse degree-one response but its axial response adds.
 
 ## Artifacts
 
-- [Full research handoff](sandbox:/mnt/data/RQ69_AQ32A2_complete_handoff.md) — SHA-256 `4d8c499aedf7a11382ea673a73e3380b8a9ac09b17759e11f845c7edd13b023c`.
-- [Complete exact endpoint archive](sandbox:/mnt/data/RQ69_AQ32A2_exact_endpoint.zip) — SHA-256 `ac6124a8dc723bf5520e6a7d04d8699fb74114924cd85754cc699f55b3b8783d`; `unzip -tq` passes.
-- [README](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/README.md).
-- [Deterministic generator](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/generate_AQ32A2_exact.py) — SHA-256 `5e1df2de910f1fb299b625997c9c85853bcac37be11441c3f9c90f088a3afd50`.
-- [Independent verifier](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/verify_AQ32A2_exact.py) — SHA-256 `347ed764cebcd1ce5c5dee03efb58ba9567fddbdd39d78f8b92c903acf386d5a`.
-- [Consolidated certificate](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_certificate.json).
-- [Exact H/V and incidence arrays](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_exact_data.npz).
-- [Expanded exact Q rows](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_Q_vertices_exact.csv), [maximal faces](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_Q_maximal_faces_exact.jsonl), and [true edges](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_Q_true_edges.csv).
-- [Expanded P halfspaces](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_P_H_rows_root_box.csv), [vertices](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_P_vertices_root_midpoint.csv), [maximal faces](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_P_maximal_faces.jsonl), and [true edges](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_P_true_edges.csv).
-- [Chamber atlas](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_chamber_atlas_summary.json), [root-box audit](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_exact_rootbox_audit.json), [first remaining exact features](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_first_remaining_exact_features.json), [perturbation proof](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_perturbation_proof.json), and [SHA-256 manifest](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/SHA256SUMS.txt).
-- Watertight [Q OBJ](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_Q.obj), [Q STL](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_Q.stl), [P OBJ](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_P_at_santalo_midpoint.obj), and [P STL](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_P_at_santalo_midpoint.stl).
+- Full research handoff (`RQ69_AQ32A2_complete_handoff.md`) — SHA-256 `4d8c499aedf7a11382ea673a73e3380b8a9ac09b17759e11f845c7edd13b023c`.
+- Complete exact endpoint archive (`RQ69_AQ32A2_exact_endpoint.zip`) — SHA-256 `ac6124a8dc723bf5520e6a7d04d8699fb74114924cd85754cc699f55b3b8783d`; `unzip -tq` passes.
+- README (`README.md`).
+- Deterministic generator (`generate_AQ32A2_exact.py`) — SHA-256 `5e1df2de910f1fb299b625997c9c85853bcac37be11441c3f9c90f088a3afd50`.
+- Independent verifier (`verify_AQ32A2_exact.py`) — SHA-256 `347ed764cebcd1ce5c5dee03efb58ba9567fddbdd39d78f8b92c903acf386d5a`.
+- Consolidated certificate (`AQ32A2_certificate.json`).
+- Exact H/V and incidence arrays (`AQ32A2_exact_data.npz`).
+- Expanded exact Q rows (`AQ32A2_Q_vertices_exact.csv`), maximal faces (`AQ32A2_Q_maximal_faces_exact.jsonl`), and true edges (`AQ32A2_Q_true_edges.csv`).
+- Expanded P halfspaces (`AQ32A2_P_H_rows_root_box.csv`), vertices (`AQ32A2_P_vertices_root_midpoint.csv`), maximal faces (`AQ32A2_P_maximal_faces.jsonl`), and true edges (`AQ32A2_P_true_edges.csv`).
+- Chamber atlas (`AQ32A2_chamber_atlas_summary.json`), root-box audit (`AQ32A2_exact_rootbox_audit.json`), first remaining exact features (`AQ32A2_first_remaining_exact_features.json`), perturbation proof (`AQ32A2_perturbation_proof.json`), and SHA-256 manifest (`SHA256SUMS.txt`).
+- Watertight Q OBJ (`AQ32A2_Q.obj`), Q STL (`AQ32A2_Q.stl`), P OBJ (`AQ32A2_P_at_santalo_midpoint.obj`), and P STL (`AQ32A2_P_at_santalo_midpoint.stl`).
 
 ## Exact generator and frozen data
 
@@ -82,7 +82,7 @@ The minimum nonzero adjacent orientation is attained at edge `(166,181)` with ex
 127147975046385277374519693584517482939106762318038021311082705465281036499853312,
 ```
 
-or physical magnitude `3.464902217509549e-27`. The exact global minimum normalized Q vertex-to-nonincident-maximal-face distance is `2.939343779797856e-18`, attained by vertex `165` against face `44257=[166,182,181]`; see [the exact proof](sandbox:/mnt/data/RQ69_AQ16_A2safe_exact_endpoint/AQ32A2_nonincident_separation.json).
+or physical magnitude `3.464902217509549e-27`. The exact global minimum normalized Q vertex-to-nonincident-maximal-face distance is `2.939343779797856e-18`, attained by vertex `165` against face `44257=[166,182,181]`; see the exact proof (`AQ32A2_nonincident_separation.json`).
 
 The exact incidence path is
 

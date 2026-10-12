@@ -12,7 +12,7 @@ AI research report · 2026-09-02 UTC
 
 The exact endpoint has 17 supplied dyadic rows, 16 active vertices, actual `(V,E,F,C)=(16,42,28,84)`, and strict own-centred `(S,U,H)=(2,2,2)`. It preserves intended stable `[0,1371,C]` and intended unstable `C`. Every predecessor residual carrier is genuinely deleted—forced edge `[2152,2732]`, stable `[3296,D,B]`, unstable status of `2732`, and saddles `[2152,C]`,`[2369,F]`—but a replacement packet appears: stable `[3296,D,G]`, unstable `2369`, saddles `[3290,D]`,`[F,G]`.
 
-The run accepts only a finite uniform-density body evaluated at its own exact volume centroid, with strict `(1,1,0)`, complete H/V/edge mechanics, independent verification, and matching meshes; wall points and near-solutions do not qualify. :contentReference[oaicite:0]{index=0} The supplied journal identifies this exact second-support/double-cell operation as the successor of the accepted one-support `F` endpoint. :contentReference[oaicite:1]{index=1}
+The run accepts only a finite uniform-density body evaluated at its own exact volume centroid, with strict `(1,1,0)`, complete H/V/edge mechanics, independent verification, and matching meshes; wall points and near-solutions do not qualify. The supplied journal identifies this exact second-support/double-cell operation as the successor of the accepted one-support `F` endpoint.
 
 ## Exact generator
 
@@ -293,25 +293,25 @@ Not closed: every possible two-support placement or boundary, every alternate do
 
 ## Artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER.zip) — SHA-256 `39d06ed21786cdc27d5f572a10e3916949ad58ed682f517f6a32380d7225b861`.
-- [Full handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_result.json)
-- [Final clean verification receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_clean_verification.json)
-- [Exact generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/data/generator_exact.json)
-- [Supplied V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/data/input_vertices_exact.csv)
-- [Own-centred active V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/data/active_vertices_centered_exact.csv)
-- [Irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/data/second_support16_exact_H_irredundant.csv)
-- [All face mechanics](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/data/second_support16_exact_faces.csv)
-- [All directed vertex primitives](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/data/second_support16_exact_vertex_primitives.csv)
-- [All true-edge cones](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/data/second_support16_exact_true_edges_full_cones.csv)
-- [Same-boundary replacement certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/certificates/second_support_shared_terminal_patch.json)
-- [Minimal bridge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/certificates/minimal_same_boundary_bridge.json)
-- [Perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Forcing-edge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/certificates/residual_forced_edge_2152_2369.json)
-- [Next-topology certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/certificates/first_successor_topology.json)
-- [Independent verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/scripts/verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_second_support_exact_NONWINNER/mesh/body.stl)
+- Complete exact archive (`Calm_Quartz_90_wall242_second_support_exact_NONWINNER.zip`) — SHA-256 `39d06ed21786cdc27d5f572a10e3916949ad58ed682f517f6a32380d7225b861`.
+- Full handoff (`Calm_Quartz_90_wall242_second_support_handoff.md`)
+- Structured result (`Calm_Quartz_90_wall242_second_support_result.json`)
+- Final clean verification receipt (`Calm_Quartz_90_wall242_second_support_clean_verification.json`)
+- Exact generator (`generator_exact.json`)
+- Supplied V-data (`input_vertices_exact.csv`)
+- Own-centred active V-data (`active_vertices_centered_exact.csv`)
+- Irredundant H-data (`second_support16_exact_H_irredundant.csv`)
+- All face mechanics (`second_support16_exact_faces.csv`)
+- All directed vertex primitives (`second_support16_exact_vertex_primitives.csv`)
+- All true-edge cones (`second_support16_exact_true_edges_full_cones.csv`)
+- Same-boundary replacement certificate (`second_support_shared_terminal_patch.json`)
+- Minimal bridge certificate (`minimal_same_boundary_bridge.json`)
+- Perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Forcing-edge certificate (`residual_forced_edge_2152_2369.json`)
+- Next-topology certificate (`first_successor_topology.json`)
+- Independent verifier (`verify_independent.py`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 ## Final statement
 

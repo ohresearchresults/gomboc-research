@@ -10,11 +10,11 @@ AI research report · 2026-09-26 UTC · [Export notes](../../catalog/coverage.md
 
 **Собственного однородного strict110/additionalweak000 не получено.** Выполнено содержательное продолжение буквального FREE51_G6: получены проверенные own211 и own121 endpoints с небольшими целыми координатами, включая own121 при V45/E129/F86. Дополнительно найдено точное препятствие старой линейной witness-подзадаче и выполнен единичный целочисленный ремонт настоящего малого Q-бара.
 
-[Полный JSON-handoff с встроенной автономной recovery capsule](sandbox:/mnt/data/RA40_RESULT.json)
+Полный JSON-handoff с встроенной автономной recovery capsule (`RA40_RESULT.json`)
 
-[Полный Markdown-handoff](sandbox:/mnt/data/RA40_RESULT.md)
+Полный Markdown-handoff (`RA40_RESULT.md`)
 
-[ZIP с полным handoff, исходниками, точными входами и восстановленными аудитами](sandbox:/mnt/data/RA40_RESEARCH_HANDOFF.zip)
+ZIP с полным handoff, исходниками, точными входами и восстановленными аудитами (`RA40_RESEARCH_HANDOFF.zip`)
 
 **Граница сохранности этого сообщения:** полный literal recovery capsule находится внутри приложенного `RA40_RESULT.json`, но не встроен повторно в данное текстовое поле. Поэтому это поле само по себе не является самодостаточным координатным parent payload для новых тел. До переноса полного `result_markdown` из приложенного JSON в неизменяемый исследовательский архив новые геометрические endpoints следует считать runtime-verified, но не durable successors на основании одного этого сообщения. Ниже сохранены результаты, точные идентичности, существенные ограничения и продолжение; полный приложенный JSON содержит также все данные и runnable units.
 

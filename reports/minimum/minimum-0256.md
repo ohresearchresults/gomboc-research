@@ -34,11 +34,11 @@ H = Sigma^(1/2) M Sigma^(1/2) / tr(Sigma M) >= ell I,
 
 there are at least **two strict unstable vertices**. Sigma is the same body's actual uniform-volume covariance. All 48,790 rooted true-edge trees are rejected throughout the entire closed shape box, including weak selected arrows.
 
-This includes every metric with the two closed descending adjacent eigenvalue ratios `h1/h2<=p0` and `h2/h3<=q0`. It also includes the complete one-sided spectral window in the supplied floor theorem. It does **not** assert the entire condition-number-48 cone: that cone has metrics below this eigenvalue floor. The previous box's cap73 conclusion remains an independent accepted result on its previous shape region. The strict finite-height bounds apply to joint S1/U1 candidates, not arbitrary U1 metrics. fileciteturn15file0L44-L58 fileciteturn15file0L69-L91 fileciteturn15file3L36-L53
+This includes every metric with the two closed descending adjacent eigenvalue ratios `h1/h2<=p0` and `h2/h3<=q0`. It also includes the complete one-sided spectral window in the supplied floor theorem. It does **not** assert the entire condition-number-48 cone: that cone has metrics below this eigenvalue floor. The previous box's cap73 conclusion remains an independent accepted result on its previous shape region. The strict finite-height bounds apply to joint S1/U1 candidates, not arbitrary U1 metrics.
 
-The all-taper joint conclusion combines the new middle-taper theorem with two accepted premises: the paired-reflection WIDE theorem covers this basal box for `0<lambda<=1/40`, and the all-basal unrestricted-U2 theorem covers `lambda>=3/5`. The first premise is a joint S/U exclusion, not an unrestricted U2 theorem. Thus the all-taper conclusion stated above is **S>=2 or U>=2**, while the new conditional-U2 assertion has the stated middle-taper scope. fileciteturn24file0L54-L73 fileciteturn20file0L105-L114
+The all-taper joint conclusion combines the new middle-taper theorem with two accepted premises: the paired-reflection WIDE theorem covers this basal box for `0<lambda<=1/40`, and the all-basal unrestricted-U2 theorem covers `lambda>=3/5`. The first premise is a joint S/U exclusion, not an unrestricted U2 theorem. Thus the all-taper conclusion stated above is **S>=2 or U>=2**, while the new conditional-U2 assertion has the stated middle-taper scope.
 
-The new basal cube is disjoint in this parameter chart from the prior Nlj box and its reflection: those require either p or q at least 3/4. Its four interval widths are 3/10, versus 1/10 for that prior box. It also avoids the named x/r>=15/16 macros and the tiny off-macro tube. It can intersect older lower-dimensional slices and the paired-reflection low-taper regions; no disjoint canonical-catalogue subtraction is inferred. Whole H5 and E17 remain open, and the accepted global bound remains **34<=C_min<=622**. fileciteturn20file0L105-L114
+The new basal cube is disjoint in this parameter chart from the prior Nlj box and its reflection: those require either p or q at least 3/4. Its four interval widths are 3/10, versus 1/10 for that prior box. It also avoids the named x/r>=15/16 macros and the tiny off-macro tube. It can intersect older lower-dimensional slices and the paired-reflection low-taper regions; no disjoint canonical-catalogue subtraction is inferred. Whole H5 and E17 remain open, and the accepted global bound remains **34<=C_min<=622**.
 
 There is a qualitative separation from the paired-containment mechanism. For every H5 basal shape and `lambda>=1/4`, its exact moments give
 
@@ -48,7 +48,7 @@ A=(31-24*x*p-24*r*q)/64 <=31/64,
 D-3Kz <=279/2048-352/2048 = -73/2048 <0.
 ```
 
-Hence `g_z>1/3` throughout this entire upper part of the new interval. The paired-end containment from the companion parent cannot hold there; that parent explicitly identifies the `g_z>=1/3` boundary of its particular mechanism. The new proof does not require a basal U or prescribe a root layer. fileciteturn25file0L49-L53
+Hence `g_z>1/3` throughout this entire upper part of the new interval. The paired-end containment from the companion parent cannot hold there; that parent explicitly identifies the `g_z>=1/3` boundary of its particular mechanism. The new proof does not require a basal U or prescribe a root layer.
 
 ## 2. Actual geometry and the certificate inequality
 
@@ -100,7 +100,7 @@ This map is linear in the weights. All quantities are recomputed from the moving
 tr(MQ) = tr((H-ell I)P0).
 ```
 
-If P is PD and H>=ell I, the right side is positive because `tr(H-ell I)=1-3ell>0`. In contrast, selected weak original arrows imply `tr(MQ)=-sum w_e D_e(M)<=0`. Hence such a positive weighted P rejects the entire selected packet. This is the given optimal trace-floor identity, not a new claim of scalar-map optimality. fileciteturn15file0L8-L27
+If P is PD and H>=ell I, the right side is positive because `tr(H-ell I)=1-3ell>0`. In contrast, selected weak original arrows imply `tr(MQ)=-sum w_e D_e(M)<=0`. Hence such a positive weighted P rejects the entire selected packet. This is the given optimal trace-floor identity, not a new claim of scalar-map optimality.
 
 More quantitatively, in any common congruence coordinates, if
 
@@ -245,7 +245,7 @@ All rational vertices, covariance entries, poles, M/N entries and 68 true-edge p
 
 The stronger scalar map and cancellation-preserving actual moment initialization enabled the regional computation. No use of the full upper-and-lower spectral-window dual was needed for this region. This does not prove that a different library using an older scalar map could not cover the same region. A conservative interval or LP failure triggered subdivision only; it supplied neither a feasibility conclusion nor a reason to drop a tree. This work supplies an exclusion, not a positive full-tree construction. Uniform certificates can use more than five rows; this does not contradict the accepted pointwise five-arrow theorem.
 
-The companion parent's distinct capped (4,2,4) control remains an important boundary. Its parameters are `(1/10,9/10,3/25,3/5,2/5)` and its metric is `((149,-455,64),(-455,4030,-340),(64,-340,104))`; it has only the two top unstable vertices 8 and 9, while its covariance-weighted eigenvalues lie in `(9/10,1)`, `(5,6)`, `(33,34)`. Thus an unavoidable basal U is false across the general residual strict-ratio cone. The present atlas does not assume it or choose the root's layer in advance. That supplied control was read as evidence, not recomputed or renamed as the new (6,8,12) control. fileciteturn25file0L18-L45
+The companion parent's distinct capped (4,2,4) control remains an important boundary. Its parameters are `(1/10,9/10,3/25,3/5,2/5)` and its metric is `((149,-455,64),(-455,4030,-340),(64,-340,104))`; it has only the two top unstable vertices 8 and 9, while its covariance-weighted eigenvalues lie in `(9/10,1)`, `(5,6)`, `(33,34)`. Thus an unavoidable basal U is false across the general residual strict-ratio cone. The present atlas does not assume it or choose the root's layer in advance. That supplied control was read as evidence, not recomputed or renamed as the new (6,8,12) control.
 
 ## 6. Input authority and complete reading
 
@@ -345,4 +345,4 @@ Relative to the supplied exclusion map, remove the whole basal cube B_central at
 
 The exact 4181-packet direct library, its whole-body reflected packets, and the cancellation-preserving moment initializer are reusable for adjacent basal regions, especially extension of x or r above 1/2. Where the scalar-floor class stalls, the supplied full one-sided spectral-window dual is a strictly richer next test; such a stall alone is not a physical survivor. A positive alternative must satisfy a complete original-edge rooted tree under one genuine SPD metric and then receive a full actual-inverse facet/edge/weak audit before any joint110 claim.
 
-Convenience copy: [complete recovery sources, exact atlas, reports and handoff](sandbox:/mnt/data/h5_floor_central_capsule.zip). The inline recovery unit and its literal parameters are sufficient without this archive.
+Convenience copy: complete recovery sources, exact atlas, reports and handoff (`h5_floor_central_capsule.zip`). The inline recovery unit and its literal parameters are sufficient without this archive.

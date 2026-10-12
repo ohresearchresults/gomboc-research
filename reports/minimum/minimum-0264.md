@@ -79,7 +79,7 @@ Relative to the accepted 42.811720085997… ceiling, this reduces the ceiling by
 \tag{5}
 \]
 
-The primal floor is approximately 0.0207806550096499. These are necessary-condition improvements, including incidental weak contacts. They do not prove E17 infeasibility, remove a catalogue entry, or construct a 110 body. The previous ceiling and its scope are in the literal accepted parent. fileciteturn20file0L53-L64
+The primal floor is approximately 0.0207806550096499. These are necessary-condition improvements, including incidental weak contacts. They do not prove E17 infeasibility, remove a catalogue entry, or construct a 110 body. The previous ceiling and its scope are in the literal accepted parent.
 
 ## 2. Input audit and source authority
 
@@ -93,7 +93,7 @@ The required parent remains **minimum-0261**, SHA-256
 
 Reconstructing the compact UTF-8 JSON envelope from its literal Markdown, with a final LF in `result_markdown`, gives **37862 bytes** and this digest. There is no parent-identity conflict. Earlier unchanged exact sources remain available from this chat and were retained. No unavailable archive payload or additional H5 program is needed for the new result.
 
-The parent's actual radial identity, upper convex-order comparison, and projective Jacobian are retained, with their reasoning reproduced below. The new pieces are the lower convex-order support theorem, the simultaneous-probe moment formulation, and its exact finite certificate. The only classical geometric input is planar Brunn–Minkowski section concavity, also used in the supplied covariance proof. fileciteturn12file10L42-L66
+The parent's actual radial identity, upper convex-order comparison, and projective Jacobian are retained, with their reasoning reproduced below. The new pieces are the lower convex-order support theorem, the simultaneous-probe moment formulation, and its exact finite certificate. The only classical geometric input is planar Brunn–Minkowski section concavity, also used in the supplied covariance proof.
 
 The earlier actual pyramid P0, the cut/cut/stack 10/17/9 family, their all-reference lower obstruction, and the six-pair optimality theorem are unchanged. No new body is being substituted for those objects. The new square-bipyramid control in Section 3 is solely an equality calibration for (3).
 
@@ -180,7 +180,7 @@ The orthogonal factor is unchanged under this reciprocal coordinate transport. I
 \sup_{\|e\|=1,\ y\in K\cap e^\perp}\frac{\|y\|^2}{h_K(-e)^2}.
 \]
 
-For a fixed e, the polar boundary vector \(-e/h_K(-e)\) gives the displayed ratio, and radial extension of any nonzero polar vector gives the converse. This is also the identity supplying the same-origin self-polar bridge. fileciteturn12file6L21-L39
+For a fixed e, the polar boundary vector \(-e/h_K(-e)\) gives the displayed ratio, and radial extension of any nonzero polar vector gives the converse. This is also the identity supplying the same-origin self-polar bridge.
 
 Choose orthonormal coordinates for a tested pair so that \(y=Re_3\), \(y_1=0\), and the relevant support is \(X_1\le a\). The zero point is trivial. In polar integration about y,
 
@@ -369,7 +369,7 @@ It follows directly from (10), applied after subtracting the actual centroid to 
 \tag{21}
 \]
 
-This reproduces the parent's family while retaining its actual Jacobian. fileciteturn21file0L165-L219
+This reproduces the parent's family while retaining its actual Jacobian.
 
 Now suppose numbers \(0<l_\theta<u_\theta\) bound \(M_1/M_0\). The elementary secant inequality
 
@@ -522,7 +522,7 @@ This does not claim uniform centring or covariance normalization of the polar. W
 \tag{26}
 \]
 
-The first inequality needs U1; the second needs S1 together with the same primal geometric factor. Joint S1/U1 supplies both. Every distinct nonnegative arrow strictly increases quadratic norm, including zero derivative arrows. Incidental weak contacts therefore do not evade (26). fileciteturn12file6L43-L63
+The first inequality needs U1; the second needs S1 together with the same primal geometric factor. Joint S1/U1 supplies both. Every distinct nonnegative arrow strictly increases quadratic norm, including zero derivative arrows. Incidental weak contacts therefore do not evade (26).
 
 For E17, use h≤9,k≤8 and
 
@@ -566,7 +566,7 @@ The scalar floor-stress parameter becomes
 \tag{29}
 \]
 
-Its stress interpretation is the unchanged intrinsic-reference construction. Changing a reference changes the transported physical matrix; (28)-(29) are specifically covariance-frame statements. fileciteturn12file11L53-L71
+Its stress interpretation is the unchanged intrinsic-reference construction. Changing a reference changes the transported physical matrix; (28)-(29) are specifically covariance-frame statements.
 
 For arbitrary finite complexity, joint S1/U1 implies adjacent gaps below 83/10, condition below 6889/100, and the common trace window
 
@@ -580,7 +580,7 @@ with the same common-cap window for the normalized inverse. For Euclidean M=I an
 \sqrt{500/23457}\,B\subset P\subset\sqrt{103335/7819}\,B,
 \]
 
-with actual origin-centred outer/inner radius ratio strictly below 249/10. These are consequences of the actual covariance sandwich and the new metric window, not anisotropic resets of M. fileciteturn12file10L68-L82
+with actual origin-centred outer/inner radius ratio strictly below 249/10. These are consequences of the actual covariance sandwich and the new metric window, not anisotropic resets of M.
 
 ## 9. What was tried, uncertainty, and useful continuation
 
@@ -594,11 +594,11 @@ The universal covariance and reference-optimized sharp constants remain unidenti
 5.088862048<\mathcal U_3<8.3.
 \]
 
-The covariance lower endpoint is inherited from the actual pyramid family, not newly computed. fileciteturn20file0L13-L17
+The covariance lower endpoint is inherited from the actual pyramid family, not newly computed.
 
-The strictness of these universal suprema uses attainment on the normalized compact class \(B\subset K\subset3B\), continuity of actual volume moments, and continuity of the factor under centred homothetic sandwiches. It does not classify maximizers or assert fixed-f-vector attainment. The previous exact all-reference obstruction and its genuine E17 descendants remain valid. fileciteturn20file0L32-L45
+The strictness of these universal suprema uses attainment on the normalized compact class \(B\subset K\subset3B\), continuity of actual volume moments, and continuity of the factor under centred homothetic sandwiches. It does not classify maximizers or assert fixed-f-vector attainment. The previous exact all-reference obstruction and its genuine E17 descendants remain valid.
 
-No all-root atlas has been rerun with (29), and no mechanical conclusion is transferred from a projectively refilled auxiliary body back to its source. The H5 paired-arrow and W-only programs remain separate. The minimum bracket \(34\le C_{\min}\le622\), the actual attaining upper example, and all incidence/root counts are unchanged. fileciteturn12file0L9-L11
+No all-root atlas has been rerun with (29), and no mechanical conclusion is transferred from a projectively refilled auxiliary body back to its source. The H5 paired-arrow and W-only programs remain separate. The minimum bracket \(34\le C_{\min}\le622\), the actual attaining upper example, and all incidence/root counts are unchanged.
 
 A useful next step is to combine the full lower convex-order law (7), not only its variance consequence, with additional projective probes or additional nonnegative affine slacks. The present two-probe certificate demonstrates a finite common-law separation mechanism, but does not prove that these constraints characterize actual uniform convex bodies or that adding more probes will reach the sharp constant.
 
@@ -630,7 +630,7 @@ The output contains all five regenerated primitive coefficient arrays and their 
 
 Normal execution and a clean source-only reconstruction extracted from this Markdown both passed with byte-identical source and output. This is author execution, not coordinator replay or proof-assistant formalization. The exact code proves the finite polynomial inequalities and audits the explicit calibration; the analytic actual-volume and convex-order arguments are supplied above.
 
-Convenience copies: [complete source](sandbox:/mnt/data/joint_support_v4/projective_two_probe_83_over_10.py), [exact report](sandbox:/mnt/data/joint_support_v4/projective_two_probe_report.out), and [Markdown handoff](sandbox:/mnt/data/joint_support_v4/result_markdown_v4.md).
+Convenience copies: complete source (`projective_two_probe_83_over_10.py`), exact report (`projective_two_probe_report.out`), and Markdown handoff (`result_markdown_v4.md`).
 
 ```python
 #!/usr/bin/env python3

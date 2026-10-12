@@ -26,7 +26,7 @@ The complexity reduction is **76.65802941308121%**, a factor of **4.284128438412
 
 ## Source authority
 
-The source was the actual Library file `POLYHEDRAL_GOMBOC_VERIFICATION.zip`, file_id `file_000000007de881f4837ea5182ada2fb8`, identified in the final journal objective. The older false J56 construction was not used. :contentReference[oaicite:0]{index=0}
+The source was the actual Library file `POLYHEDRAL_GOMBOC_VERIFICATION.zip`, file_id `file_000000007de881f4837ea5182ada2fb8`, identified in the final journal objective. The older false J56 construction was not used.
 
 Verified parent archive SHA256:
 `0848b0aef0cafd5a3ae6a69cbf387760fb1ae79e01b65720abdc65b54ffe365a`
@@ -34,7 +34,7 @@ Verified parent archive SHA256:
 Verified `exact_polyhedron.npz` member SHA256:
 `ac1e9893101e1be6c1be5d63d95538dc96894dfa8827b7b7b245fef4caef484d`
 
-I reran the supplied exact audit on the original parent successfully. The separate standard-library implementation was recovered from Library file_id `file_00000000fed08210a8d6d70ceae4f8f7`, `polyhedral_gomboc_crosscheck.zip`, archive SHA256 `e2405c9444aecbc7a906232e94d167fb2a236f6fd313724454e2ee14ffba26dd`. Its `verify_gomboc.py` SHA256 is `91628f5d51ef956ccf55f80eec765501184023a55842e0af14bcae137237ac78`. This is the distinct implementation described in the journal, not another invocation of the first verifier. :contentReference[oaicite:1]{index=1}
+I reran the supplied exact audit on the original parent successfully. The separate standard-library implementation was recovered from Library file_id `file_00000000fed08210a8d6d70ceae4f8f7`, `polyhedral_gomboc_crosscheck.zip`, archive SHA256 `e2405c9444aecbc7a906232e94d167fb2a236f6fd313724454e2ee14ffba26dd`. Its `verify_gomboc.py` SHA256 is `91628f5d51ef956ccf55f80eec765501184023a55842e0af14bcae137237ac78`. This is the distinct implementation described in the journal, not another invocation of the first verifier.
 
 ## Exact definition of R31291
 
@@ -180,7 +180,7 @@ The accepted restart is the rational table in `geometry/`; its exact I/B precurs
 
 Further local deletion may still reduce C=187732; no optimality claim is made. Every promoted successor needs its own exact centroid, globally certified actual boundary, maximal faces, true edges, and full normal-cone audit.
 
-[Exact rational body, both verifiers, deterministic replay, source archives, true face/edge tables, proofs, search scripts and display meshes](sandbox:/mnt/data/R31291_exact_rational_gomboc.zip). The archive has **13031670 bytes**, SHA256 **320aca1675371c2cbc607d3412017f1340be9bda9459ccf2c6f88950cfcb73aa**. All 64 manifest entries were checked against actual ZIP bytes. [Fresh extracted-archive standard-library replay](sandbox:/mnt/data/R31291_fresh_archive_replay.json). [Complete handoff file](sandbox:/mnt/data/R31291_research_handoff.md).
+Exact rational body, both verifiers, deterministic replay, source archives, true face/edge tables, proofs, search scripts and display meshes (`R31291_exact_rational_gomboc.zip`). The archive has **13031670 bytes**, SHA256 **320aca1675371c2cbc607d3412017f1340be9bda9459ccf2c6f88950cfcb73aa**. All 64 manifest entries were checked against actual ZIP bytes. Fresh extracted-archive standard-library replay (`R31291_fresh_archive_replay.json`). Complete handoff file (`R31291_research_handoff.md`).
 
 ## Complete deterministic reconstruction
 

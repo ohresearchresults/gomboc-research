@@ -18,7 +18,7 @@ Relative to the mandated 134,131-vertex parent, this removes 57,194 vertices and
 
 “Moment preserving” here means all three first moments stay exactly zero at fixed uniform density. **Total volume is not held constant.** This is not translation to a new artificial reference point, a projective recentering, or a density change.
 
-[Complete exact archive, generators, certificates, independent replays, OBJ and ASCII STL](sandbox:/mnt/data/SHADOW_SURGERY_76937.zip)
+Complete exact archive, generators, certificates, independent replays, OBJ and ASCII STL (`SHADOW_SURGERY_76937.zip`)
 
 Archive SHA-256: `b68ca6d26038f4cf5e35184f8b7c47fc6e00b244c9c36020369cfe6e817cf64e`.
 
@@ -26,7 +26,7 @@ Archive SHA-256: `b68ca6d26038f4cf5e35184f8b7c47fc6e00b244c9c36020369cfe6e817cf6
 
 The normative parent was the user-specified Library file `file_000000007de881f4837ea5182ada2fb8`, `POLYHEDRAL_GOMBOC_VERIFICATION.zip`. Its local archive SHA-256 is `0848b0aef0cafd5a3ae6a69cbf387760fb1ae79e01b65720abdc65b54ffe365a`. The required input table `exact_polyhedron.npz` has SHA-256 `ac1e9893101e1be6c1be5d63d95538dc96894dfa8827b7b7b245fef4caef484d`.
 
-This is the actual 134,131-vertex winner, not the lost 227,905-vertex construction, the distinct 171,167-vertex reconstruction, or the falsified J56 orphan. The journal's authoritative parent data and audit agree with this identification. :contentReference[oaicite:0]{index=0} The supplied parent verifier was actually rerun successfully before reduction.
+This is the actual 134,131-vertex winner, not the lost 227,905-vertex construction, the distinct 171,167-vertex reconstruction, or the falsified J56 orphan. The journal's authoritative parent data and audit agree with this identification. The supplied parent verifier was actually rerun successfully before reduction.
 
 The accepted construction proceeded as follows:
 
@@ -168,7 +168,7 @@ This retains **76,933 original IDs**. Replace the two control coordinates as spe
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-**Correction to the inline transport representation:** the retention mask must be taken from the complete, checksum-validated payload in the accompanying Markdown handoff, not from the incomplete transcription immediately above. The complete literal payload and the exact same coordinate recipe are contained in [the full self-contained handoff](sandbox:/mnt/data/shadow_surgery_result.md), and its machine-readable version is [result JSON](sandbox:/mnt/data/shadow_surgery_result.json). The mask is not a mathematical uncertainty: its complete reconstruction was executed and reproduced the final vertex table byte for byte. The abbreviated block above is not a usable decoder input.
+**Correction to the inline transport representation:** the retention mask must be taken from the complete, checksum-validated payload in the accompanying Markdown handoff, not from the incomplete transcription immediately above. The complete literal payload and the exact same coordinate recipe are contained in the full self-contained handoff (`shadow_surgery_result.md`), and its machine-readable version is result JSON (`shadow_surgery_result.json`). The mask is not a mathematical uncertainty: its complete reconstruction was executed and reproduced the final vertex table byte for byte. The abbreviated block above is not a usable decoder input.
 
 ### Exact scalar controls and all changed coordinates
 

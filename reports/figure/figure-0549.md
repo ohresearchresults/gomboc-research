@@ -30,7 +30,7 @@ All new abbreviated names below have prefix `R62J_`. `JOINT75_G7` denotes the ca
 | Q_CANCEL_T_G6 | 115/214/101 | 121 | 1/0 | 0.377857620148 | — |
 | P_CANCEL_Q_G6 | 82/165/85 | 211 | 0/1 | — | 0.578516018939 |
 
-The input was the literal mixed H-core/apex parent `figure-0548`, not an H24/G3 substitute or a FULL76 alias. The source’s QUOTA, TWO_APEX and MIXED_LONG identities and opposite-landscape tradeoff are preserved. :contentReference[oaicite:0]{index=0}
+The input was the literal mixed H-core/apex parent `figure-0548`, not an H24/G3 substitute or a FULL76 alias. The source’s QUOTA, TWO_APEX and MIXED_LONG identities and opposite-landscape tradeoff are preserved.
 
 ## 1. The new mechanism: acyclic repair, then simultaneous descent
 
@@ -196,7 +196,7 @@ The primary canonical input is2110bytes, SHA-256 `e87efbdd3a99a500a5165fd0516098
 
 One unit convention is explicit: the unchanged standalone V auditor stores radial endpoints in centred-numerator units. The recovery converts P endpoints by1/T² and Q endpoints byT², with `T=24*volume*D^4`, before the physical checks. Relative depths are unchanged. Do not compare the old unscaled birth/death fields directly with the physical H reports.
 
-Convenience copies: [complete work, exact reports and retained numerical ledgers](sandbox:/mnt/data/JOINT62_HANDOFF.zip),13080689bytes, SHA-256 `9fe20bc7136fa0031d1bef911bc51fedef2e84cf6fe573cd6156fde829b295ac`; [recovery script](sandbox:/mnt/data/RECOVER_JOINT62.py),87533bytes, SHA-256 `5766a233e26c790064869e625c93f679cb6a3fe6d5ae1d48ce41f0f439aa3e50`. Neither download is needed by the inline recovery.
+Convenience copies: complete work, exact reports and retained numerical ledgers (`JOINT62_HANDOFF.zip`),13080689bytes, SHA-256 `9fe20bc7136fa0031d1bef911bc51fedef2e84cf6fe573cd6156fde829b295ac`; recovery script (`RECOVER_JOINT62.py`),87533bytes, SHA-256 `5766a233e26c790064869e625c93f679cb6a3fe6d5ae1d48ce41f0f439aa3e50`. Neither download is needed by the inline recovery.
 
 ```python
 # Self-contained R62J source, exact inputs and numerical checkpoints.

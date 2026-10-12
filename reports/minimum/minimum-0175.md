@@ -17,7 +17,7 @@ I obtained a strict, actual geometric negative-cap erasure theorem. It does not 
 
 The entire remaining negative-z root-only class is **not** closed by this result. The main unresolved interface is now explicit: strict negative-cap erasure can create positive-ell base vertices, whose removal is not licensed by the positive-octant root-only theorem. For one negative vertex, there is at most one such vertex, its height is strictly below `b`, and its position remains coupled to the erased root apex.
 
-The inherited positive-octant endpoint is the literal parent `minimum-0173`, SHA-256 `389d10f39fee11d742407c78c13fb00db2dae152c7946e67f8b982b99b337ef2`. That parent and J55 together close the positive-octant proper root-only class, not arbitrary positive-octant bodies with positive-ell auxiliaries. The supplied branch memory makes this distinction explicit. :contentReference[oaicite:0]{index=0}
+The inherited positive-octant endpoint is the literal parent `minimum-0173`, SHA-256 `389d10f39fee11d742407c78c13fb00db2dae152c7946e67f8b982b99b337ef2`. That parent and J55 together close the positive-octant proper root-only class, not arbitrary positive-octant bodies with positive-ell auxiliaries. The supplied branch memory makes this distinction explicit.
 
 ## 1. Conventions and the exact scope
 
@@ -353,7 +353,7 @@ When `b+c+d<=1`, all three endpoints are below one, and J55 gives the sharper
 T(P)<203/100.
 ```
 
-The applicable inherited results are precisely the two proper root-only octant theorems recorded in the supplied branch memory and literal parent. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The applicable inherited results are precisely the two proper root-only octant theorems recorded in the supplied branch memory and literal parent.
 
 If no root point has positive z, use the B-pyramid argument instead; no positive-area clipped root is presumed.
 
@@ -641,7 +641,7 @@ The new results do not make every negative cap pyramidal, do not prove `(MC)` fo
 
 The most useful continuation is to compare the positive-ell base-vertex contribution with the **same erased negative cap's** strict margin in `(2.6)`. For one negative root vertex, that auxiliary is exactly its B-projection, with `ell=b*h/(1+h)`, rather than a freely chosen positive-ell point. Proving that its subsequent deletion costs less than the already certified negative-cap gain would close the entire one-negative-vertex value sector without imposing any stationarity.
 
-The updated stationary negative-z statements in the memory are not used as arbitrary-body value bounds. Their full-joint hypotheses remain separate. :contentReference[oaicite:3]{index=3} No E17 registry change, mechanical exclusion, `110` body, or new minimum is implied by these trace controls.
+The updated stationary negative-z statements in the memory are not used as arbitrary-body value bounds. Their full-joint hypotheses remain separate. No E17 registry change, mechanical exclusion, `110` body, or new minimum is implied by these trace controls.
 
 ## 9. Exact recovery and verification status
 
@@ -683,7 +683,7 @@ build.txt and check.txt
 
 Normal build/check and a clean source-only capsule recovery/build/check were completed, with byte-identical reports and stdout. The source reconstructs maximal facets and true edges before checking visibility. Two positive interior fans independently agree on the original first vector moment; the C-fan and, where applicable, the original-density B-chart give additional independent integrations. No mechanical S/U/H or weak-contact census is claimed. The continuous sector theorem is the analytic proof above, not an inference from the finite controls and not a proof-assistant formalization.
 
-Convenience copies: [recovery capsule](sandbox:/mnt/data/recover_negative_cap.py), [complete source](sandbox:/mnt/data/negcap/negative_cap.py), [exact report](sandbox:/mnt/data/negcap/negative_cap.json), [execution receipt](sandbox:/mnt/data/negcap/negative_cap.txt). The literal capsule below is sufficient without those links.
+Convenience copies: recovery capsule (`recover_negative_cap.py`), complete source (`negative_cap.py`), exact report (`negative_cap.json`), execution receipt (`negative_cap.txt`). The literal capsule below is sufficient without those links.
 
 ```python
 # NEGATIVE_ROOT_CAP_ERASURE_AND_UNBOUNDED_VALUE_SECTORS_V1

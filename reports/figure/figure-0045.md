@@ -24,7 +24,7 @@ The saved independent verifier outputs state, verbatim:
 
 > INDEPENDENT VERIFIER GATE: FAIL — no one-, two-, or three-cap closure exists in the certified noninteracting one-face cap family on the entire corridor square.
 
-The source transcript records that the earlier search had not supplied the requested exact body and explicitly rejected treating a near-candidate as a solution. :contentReference[oaicite:0]{index=0}
+The source transcript records that the earlier search had not supplied the requested exact body and explicitly rejected treating a near-candidate as a solution.
 
 ## 1. Recovered corridor, unchanged
 

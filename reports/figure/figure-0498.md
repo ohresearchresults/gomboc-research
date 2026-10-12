@@ -18,7 +18,7 @@ The source-only capsule preserves **24 exact rational bodies**: thirteen strict2
 
 I read the complete newly supplied journal through EOF and all three decoded parent source units. Earlier unchanged context was retained. The current journal has288,696 bytes and SHA-256 `90e380bbe95a19e906360e7bdac0604ed384ff4abad0bbebbea2afd9a47abd62`.
 
-The required literal parent is `figure-0495`, metadata SHA-256 `8841bde58f67e818190d8b20a468ad32310664789ee2f060e0e55cc5b6ae5586`. Its scientific boundary is preserved: every uniformly filled P⊆K⊆O inside the sixty-plane envelope retains S>=2; adding another point inside O cannot help. :contentReference[oaicite:0]{index=0}
+The required literal parent is `figure-0495`, metadata SHA-256 `8841bde58f67e818190d8b20a468ad32310664789ee2f060e0e55cc5b6ae5586`. Its scientific boundary is preserved: every uniformly filled P⊆K⊆O inside the sixty-plane envelope retains S>=2; adding another point inside O cannot help.
 
 ### Transport discrepancy
 
@@ -272,7 +272,7 @@ CW56_FRONTIER_CHECKS.json
 
 The source dictionary has134,032 bytes, SHA-256 `08d7f261575ee3e1c35a3957b7aeb0f7614c230e36d3c5057be7f1bc24cc720d`; XZ payload36,412 bytes, SHA-256 `956c8e84a7fa3a9f419eec79b1dbe5290b1959b45a48bf48409c2bb15e5aba1b`. The reference decoder file has50,465 bytes, SHA-256 `bf3e47a947ccae128fb171e3140c9d2e9527ea20dc8a115476df0025f4fc7e17`.
 
-Convenience copies: [exact source decoder](sandbox:/mnt/data/RECOVER_CW56_RELEASED_BRANCH.py) and [supplementary numerical provenance archive](sandbox:/mnt/data/CW56_FULL_NUMERICAL_ARCHIVE.tar.xz). The latter is82,420 bytes, SHA-256 `94c187b392528f6275058a3a0f27de9261a656973c7b4dd0f5576206d3bf4e8d`.
+Convenience copies: exact source decoder (`RECOVER_CW56_RELEASED_BRANCH.py`) and supplementary numerical provenance archive (`CW56_FULL_NUMERICAL_ARCHIVE.tar.xz`). The latter is82,420 bytes, SHA-256 `94c187b392528f6275058a3a0f27de9261a656973c7b4dd0f5576206d3bf4e8d`.
 
 ### Complete exact recovery capsule
 

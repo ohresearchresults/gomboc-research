@@ -12,7 +12,7 @@ No homogeneous convex polyhedral Gömböc was obtained. The strongest unrestrict
 
 `-0.000127018499211593`.
 
-Accordingly, I did **not** introduce Santaló or moment equations, did not materialize this support state as a new polyhedron, and make no own-centroid equilibrium claim. This respects the journal’s acceptance gate: a valid completion must be a finite own-centroid uniform-density body with strict `(S,U,H)=(1,1,0)`, complete H/V incidence, all-feature audit, independent verification, and mesh exports; near-solutions and auxiliary-centre mechanics do not qualify. :contentReference[oaicite:0]{index=0}
+Accordingly, I did **not** introduce Santaló or moment equations, did not materialize this support state as a new polyhedron, and make no own-centroid equilibrium claim. This respects the journal’s acceptance gate: a valid completion must be a finite own-centroid uniform-density body with strict `(S,U,H)=(1,1,0)`, complete H/V incidence, all-feature audit, independent verification, and mesh exports; near-solutions and auxiliary-centre mechanics do not qualify.
 
 The broad wall-242 gate is also **not proved infeasible**. What is now established is a long exact-combinatorial matching relay with fourteen new support-minimal exact positive circuits in its early part and a substantially improved, still numerical, current endpoint.
 
@@ -26,11 +26,11 @@ All work remained in the exact denominator-`2^104` wall-242 adjacent fan. No fur
 
 Its exact rebuilt geometry, irredundant H/V representation, 8,638 maximal triangular faces, all 12,957 true edges, exact one-wall determinant audit, watertight OBJ/STL, and independent verifier remain in the predecessor archive:
 
-- [Exact wall-242 geometry and matching archive](sandbox:/mnt/data/calm_atlas34_matching_atlas.zip)
-- [Exact H-representation](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242_H_irredundant.csv)
-- [Exact V-representation](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242_V_exact.csv)
-- [All true edges](sandbox:/mnt/data/calm_atlas34_matching_atlas/geometry/Q_wall242_true_edges.csv)
-- [Baseline independent verifier](sandbox:/mnt/data/calm_atlas34_matching_atlas/verify_matching_atlas.py)
+- Exact wall-242 geometry and matching archive (`calm_atlas34_matching_atlas.zip`)
+- Exact H-representation (`Q_wall242_H_irredundant.csv`)
+- Exact V-representation (`Q_wall242_V_exact.csv`)
+- All true edges (`Q_wall242_true_edges.csv`)
+- Baseline independent verifier (`verify_matching_atlas.py`)
 
 The root vertex remained `0` and the root maximal face remained `5546`.
 
@@ -96,13 +96,13 @@ Fourteen retained matchings now have exact positive-circuit certificates:
 
 Selected detailed certificates:
 
-- [C5 exact circuit](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/exact_circuits/C5_f1742_short_exact.json)
-- [C12 exact completed circuit](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/exact_circuits/C12_exact.json)
-- [C14 exact completed circuit](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/exact_circuits/C14_exact.json)
-- [C15 24-row exact circuit](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/exact_circuits/C15_exact.json)
-- [C16 exact circuit](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/exact_circuits/C16_exact.json)
-- [C18 exact completed circuit](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/exact_circuits/C18_exact.json)
-- [C20 exact circuit](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/exact_circuits/C20_exact.json)
+- C5 exact circuit (`C5_f1742_short_exact.json`)
+- C12 exact completed circuit (`C12_exact.json`)
+- C14 exact completed circuit (`C14_exact.json`)
+- C15 24-row exact circuit (`C15_exact.json`)
+- C16 exact circuit (`C16_exact.json`)
+- C18 exact completed circuit (`C18_exact.json`)
+- C20 exact circuit (`C20_exact.json`)
 
 The most informative completed broad reductions are:
 
@@ -193,9 +193,9 @@ The corresponding numerical support solution remains well inside the imposed sup
 
 Artifacts:
 
-- [C81 matching state](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/states/C81_state.npz)
-- [C81 numerical LP result](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/results/C81_result.json)
-- [C81 full support and dual arrays](sandbox:/mnt/data/calm_atlas34_broad_gate_resolution/results/C81_full.npz)
+- C81 matching state (`C81_state.npz`)
+- C81 numerical LP result (`C81_result.json`)
+- C81 full support and dual arrays (`C81_full.npz`)
 
 ### Strongest trial B*
 
@@ -218,9 +218,9 @@ Three other rows in the same numerical obstruction produced the same next margin
 
 Artifacts:
 
-- [B* matching state](sandbox:/mnt/data/C81_top_probe/task_0042.npz)
-- [B* LP result](sandbox:/mnt/data/C81_top_probe/result_0042.json)
-- [All 100 C81 broad-gate trial definitions](sandbox:/mnt/data/C81_top_probe/manifest.json)
+- B* matching state (`task_0042.npz`)
+- B* LP result (`result_0042.json`)
+- All 100 C81 broad-gate trial definitions (`manifest.json`)
 
 `B*` has not yet been exactified. Its negative margin is therefore a numerical obstruction, not an exact Farkas clause.
 
@@ -280,12 +280,12 @@ The strongest next move is now specific:
 
 The central scripts are:
 
-- [Alternating-cycle relay controller](sandbox:/mnt/data/relay_controller.py)
-- [Top-circuit branch generator](sandbox:/mnt/data/generate_top_cycles.py)
-- [Specified-row cycle generator](sandbox:/mnt/data/generate_specific_cycles.py)
-- [Full LP support/dual materializer](sandbox:/mnt/data/solve_state_full.py)
-- [Direct square exactifier](sandbox:/mnt/data/exactify_result_circuit.py)
-- [Quotient-completion exactifier](sandbox:/mnt/data/exactify_with_completion.py)
-- [Numerical quotient-row finder](sandbox:/mnt/data/find_completion_candidates_numeric.py)
+- Alternating-cycle relay controller (`relay_controller.py`)
+- Top-circuit branch generator (`generate_top_cycles.py`)
+- Specified-row cycle generator (`generate_specific_cycles.py`)
+- Full LP support/dual materializer (`solve_state_full.py`)
+- Direct square exactifier (`exactify_result_circuit.py`)
+- Quotient-completion exactifier (`exactify_with_completion.py`)
+- Numerical quotient-row finder (`find_completion_candidates_numeric.py`)
 
 The first continuation target is therefore not another broad search report. It is the exact positive circuit or certified positive separator margin of the already materialized `B*` tree/cotree matching.

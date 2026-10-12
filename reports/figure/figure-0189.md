@@ -18,7 +18,7 @@ The exact, independently verified result closes:
 - 173 exact rank-four-to-rank-five full-dimensional connector tubes;
 - 49 all-wall-sign-distinct genuine off-plaque tube-exit boxes and their 49 exact source-to-exit connectors.
 
-Every certified full-dimensional box and every certified connector piece has at least two stable equilibria. The result therefore materially advances the journal’s stated rank-five/tube-exit frontier, but it is not a global exclusion of every transverse direction in the remaining trace-one SPD core. The run’s acceptance gate requires a finite materialized own-centred polyhedron, strict positive margins, complete incidence and mechanics, an independent verifier, and OBJ/STL; no near-wall or auxiliary-centre object qualifies. :contentReference[oaicite:0]{index=0} The supplied journal records the complete rank-four atlas as nonwinning and identifies rank-five/tube-exit continuation as the exact open fixed-lattice frontier. :contentReference[oaicite:1]{index=1}
+Every certified full-dimensional box and every certified connector piece has at least two stable equilibria. The result therefore materially advances the journal’s stated rank-five/tube-exit frontier, but it is not a global exclusion of every transverse direction in the remaining trace-one SPD core. The run’s acceptance gate requires a finite materialized own-centred polyhedron, strict positive margins, complete incidence and mechanics, an independent verifier, and OBJ/STL; no near-wall or auxiliary-centre object qualifies. The supplied journal records the complete rank-four atlas as nonwinning and identifies rank-five/tube-exit continuation as the exact open fixed-lattice frontier.
 
 ## What changed relative to the journal
 
@@ -344,44 +344,44 @@ The separate off-plaque verifiers independently rebuilt all 49 accepted exit box
 
 Core exact rank-five atlas:
 
-- [Structured rank-five result](sandbox:/mnt/data/calm_quartz_rank5/CALM_QUARTZ_RANK5_RESULT.json)
-- [All 255 exact common-point systems](sandbox:/mnt/data/calm_quartz_rank5/RANK5_COMMON_POINT_ATLAS.json)
-- [The 82 exact no-SPD certificates](sandbox:/mnt/data/calm_quartz_rank5/RANK5_NO_SPD.json)
-- [The 5,536-box all-wall atlas](sandbox:/mnt/data/calm_quartz_rank5/RANK5_LOCAL_ALL_WALL_ATLAS.json)
-- [The 13,840-edge adjacency atlas](sandbox:/mnt/data/calm_quartz_rank5/RANK5_LOCAL_ADJACENCY.json)
-- [The 173 exact connector tubes](sandbox:/mnt/data/calm_quartz_rank5/RANK5_CONNECTOR_TRAP_COVER.json)
-- [Independent main verifier](sandbox:/mnt/data/calm_quartz_rank5/verify_calm_quartz_rank5.py)
-- [Main verifier PASS receipt](sandbox:/mnt/data/calm_quartz_rank5/CALM_QUARTZ_RANK5_VERIFY_OUTPUT.json)
+- Structured rank-five result (`CALM_QUARTZ_RANK5_RESULT.json`)
+- All 255 exact common-point systems (`RANK5_COMMON_POINT_ATLAS.json`)
+- The 82 exact no-SPD certificates (`RANK5_NO_SPD.json`)
+- The 5,536-box all-wall atlas (`RANK5_LOCAL_ALL_WALL_ATLAS.json`)
+- The 13,840-edge adjacency atlas (`RANK5_LOCAL_ADJACENCY.json`)
+- The 173 exact connector tubes (`RANK5_CONNECTOR_TRAP_COVER.json`)
+- Independent main verifier (`verify_calm_quartz_rank5.py`)
+- Main verifier PASS receipt (`CALM_QUARTZ_RANK5_VERIFY_OUTPUT.json`)
 
 Accepted genuine exits:
 
-- [Verified 49-box exit atlas](sandbox:/mnt/data/calm_quartz_rank5/TRUE_EXIT_EXACT_ATLAS.json)
-- [Verified 49-path connector atlas](sandbox:/mnt/data/calm_quartz_rank5/TRUE_EXIT_CONNECTOR_ATLAS.json)
-- [Exit-box verifier PASS receipt](sandbox:/mnt/data/calm_quartz_rank5/TRUE_EXIT_BOXES_VERIFY_OUTPUT.json)
-- [Exit-connector verifier PASS receipt](sandbox:/mnt/data/calm_quartz_rank5/TRUE_EXIT_CONNECTORS_VERIFY_OUTPUT.json)
-- [Representative exit box certificate](sandbox:/mnt/data/calm_quartz_rank5/TRUE_EXIT_BOX_CERTIFICATE.json)
-- [Representative exit H table](sandbox:/mnt/data/calm_quartz_rank5/true_exit_H.csv)
-- [Representative exit V table](sandbox:/mnt/data/calm_quartz_rank5/true_exit_V.csv)
-- [Representative true-edge table](sandbox:/mnt/data/calm_quartz_rank5/true_exit_edges.csv)
-- [Representative OBJ mesh](sandbox:/mnt/data/calm_quartz_rank5/true_exit_mesh.obj)
-- [Representative STL mesh](sandbox:/mnt/data/calm_quartz_rank5/true_exit_mesh.stl)
-- [First unresolved joint frontier](sandbox:/mnt/data/calm_quartz_rank5/TRUE_EXIT_NEXT_FRONTIER.json)
+- Verified 49-box exit atlas (`TRUE_EXIT_EXACT_ATLAS.json`)
+- Verified 49-path connector atlas (`TRUE_EXIT_CONNECTOR_ATLAS.json`)
+- Exit-box verifier PASS receipt (`TRUE_EXIT_BOXES_VERIFY_OUTPUT.json`)
+- Exit-connector verifier PASS receipt (`TRUE_EXIT_CONNECTORS_VERIFY_OUTPUT.json`)
+- Representative exit box certificate (`TRUE_EXIT_BOX_CERTIFICATE.json`)
+- Representative exit H table (`true_exit_H.csv`)
+- Representative exit V table (`true_exit_V.csv`)
+- Representative true-edge table (`true_exit_edges.csv`)
+- Representative OBJ mesh (`true_exit_mesh.obj`)
+- Representative STL mesh (`true_exit_mesh.stl`)
+- First unresolved joint frontier (`TRUE_EXIT_NEXT_FRONTIER.json`)
 
 Provisional enlarged finite-protocol extension:
 
-- [All 1,710 constructed exact exit boxes](sandbox:/mnt/data/calm_quartz_rank5/TRUE_EXIT_EXACT_ATLAS_ALL.json)
-- [Exactification builder](sandbox:/mnt/data/calm_quartz_rank5/build_true_exit_atlas_all.py)
-- [Exactification transcript](sandbox:/mnt/data/calm_quartz_rank5/build_true_exit_atlas_all.log)
-- [Independent enlarged-box verifier](sandbox:/mnt/data/calm_quartz_rank5/verify_true_exit_boxes_all.py)
-- [Enlarged connector builder](sandbox:/mnt/data/calm_quartz_rank5/build_true_exit_connectors_all.py)
-- [Enlarged connector verifier](sandbox:/mnt/data/calm_quartz_rank5/verify_true_exit_connectors_all.py)
+- All 1,710 constructed exact exit boxes (`TRUE_EXIT_EXACT_ATLAS_ALL.json`)
+- Exactification builder (`build_true_exit_atlas_all.py`)
+- Exactification transcript (`build_true_exit_atlas_all.log`)
+- Independent enlarged-box verifier (`verify_true_exit_boxes_all.py`)
+- Enlarged connector builder (`build_true_exit_connectors_all.py`)
+- Enlarged connector verifier (`verify_true_exit_connectors_all.py`)
 
 Fixed-family reconstruction inputs:
 
-- [Exact integer generator](sandbox:/mnt/data/calm_quartz_rank5/generator.json)
-- [Actual topology and incidence](sandbox:/mnt/data/calm_quartz_rank5/topology.json)
-- [Complete mechanical wall manifest](sandbox:/mnt/data/calm_quartz_rank5/wall_system_manifest.json)
-- [Santaló Krawczyk certificate](sandbox:/mnt/data/calm_quartz_rank5/santalo_krawczyk_certificate.json)
+- Exact integer generator (`generator.json`)
+- Actual topology and incidence (`topology.json`)
+- Complete mechanical wall manifest (`wall_system_manifest.json`)
+- Santaló Krawczyk certificate (`santalo_krawczyk_certificate.json`)
 
 ## Final statement
 

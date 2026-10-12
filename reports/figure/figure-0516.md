@@ -16,7 +16,7 @@ This construction actually leaves the closed BASE envelope, destroys both old la
 
 The complete1507-line attached journal, branch memory, literal parent payload and both decoded source units were read. The mounted journal is308542bytes, SHA-256 `e9632dc5ee665e07deeae92b7bfc042a3cb8c5f92135612d44379d1a57324eeb`.
 
-The required parent is `figure-0511`, advertised SHA-256 `c45e8e7e212fdbc9c776a48dd90df0c6f481ee251bf0a35073e33a55ba73a098`. Its protected triangles are[12,16,31] and[0,15,28], and its theorem covers W⊆K⊆P, not arbitrary material/geometry changes. :contentReference[oaicite:0]{index=0}
+The required parent is `figure-0511`, advertised SHA-256 `c45e8e7e212fdbc9c776a48dd90df0c6f481ee251bf0a35073e33a55ba73a098`. Its protected triangles are[12,16,31] and[0,15,28], and its theorem covers W⊆K⊆P, not arbitrary material/geometry changes.
 
 An outer-byte discrepancy remains explicit: the rendered parent substring from its `# RA37 lower-BASE continuation:` heading through the supplied EOF is29432bytes, SHA-256 `4fc35681936634b4d3ab1c8e6b9d1ae352413183af2abb58bd07e29da9180999`, rather than the advertised29846bytes/hash. Adding one final LF gives29433bytes, SHA `7fdca90ef463dc9f2ed41a5648f274a0a5634595ba67a052f1a6438ddd15d5b4`. I do not invent a serialization explanation. The complete12109-byte embedded decoder and both decoded source units match their advertised hashes exactly; the two-source dictionary is21121bytes, SHA `48fc48f0bed2824f544e19071565efd6a806d7df5269eaffce4cdf81e72c5832`. No coordinate, class or incidence conflict was found in the inputs used here.
 
@@ -240,7 +240,7 @@ Core byte identities:
 
 Every input/audit receipt is hard-coded in `EXPECTED53.json` and asserted by replay. The decoder prints all eight source-unit hashes. Save the decoder as UTF-8/LF with its final newline.
 
-Supplementary convenience archive: [ATLAS53_COMPLETE.zip](sandbox:/mnt/data/atlas53/ATLAS53_COMPLETE.zip),239780bytes,SHA-256 `2e1103fc1bb984083068c7990d141fc256d7eaa59889ea914a5f37b210d0f2bc`. The archive is not the only recovery route; the full decoder follows.
+Supplementary convenience archive: ATLAS53_COMPLETE.zip,239780bytes,SHA-256 `2e1103fc1bb984083068c7990d141fc256d7eaa59889ea914a5f37b210d0f2bc`. The archive is not the only recovery route; the full decoder follows.
 
 ### Complete self-contained decoder
 

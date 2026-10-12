@@ -19,7 +19,7 @@ The complete certificate contains **5,982 distinct positive integer stresses**, 
 
 This is a full positive-ratio result: `rho=lambda/(1-lambda)` ranges over every positive real number. The ratio endpoints themselves are included only as their actual positive-volume, collapsed-label limits. No complete one-sided PSD surviving cone remains on the stated four-dimensional domain.
 
-The exact predecessor is `minimum-0238`, SHA256 `d3964294432974c93c8579efb0406ab475aa488fc7524e04ed40baad8ab5d185`. Its 646 stresses were reused as search seeds, not as presumed ratio-valid inequalities. The supplied moving-ratio reduction was an input to the new computation, not an already completed all-root theorem. fileciteturn7file0L34-L50
+The exact predecessor is `minimum-0238`, SHA256 `d3964294432974c93c8579efb0406ab475aa488fc7524e04ed40baad8ab5d185`. Its 646 stresses were reused as search seeds, not as presumed ratio-valid inequalities. The supplied moving-ratio reduction was an input to the new computation, not an already completed all-root theorem.
 
 ## 2. Exact physical domain and actual moments
 
@@ -54,11 +54,11 @@ EDGES = 01,06,07,12,18,23,28,34,39,45,49,56,57,67,78,79,89.
 
 Every interior member is genuinely `10/17/9`. The checker verifies the 34 incident identities and all 56 strictly inward nonincident support polynomials on the open four-cube, seven strict basal turns, the top triangle, and the complete two-facet intersections defining all 17 edges. Integration diagonals are not mechanical edges.
 
-At `lambda=0`, the three top labels coincide and the body is a pyramid with at most eight true vertices. At `lambda=1`, all basal labels coincide and the body is a tetrahedron. The cut/q walls likewise retain their actual lower-vertex or cofacial limits. None is called a genuine E17 body. The matrix/tree certificate includes every closed wall without deleting a small endpoint interval. fileciteturn7file0L22-L32
+At `lambda=0`, the three top labels coincide and the body is a pyramid with at most eight true vertices. At `lambda=1`, all basal labels coincide and the body is a tetrahedron. The cut/q walls likewise retain their actual lower-vertex or cofacial limits. None is called a genuine E17 body. The matrix/tree certificate includes every closed wall without deleting a small endpoint interval.
 
 ### Uniform moments, not transported centroids
 
-The containing triangular frustum loses the four actual tetrahedral defects from the supplied reduction: the A corner, the R corner, and the two triangles of the O corner, each coned to its corresponding top vertex. Their interiors are disjoint. Their volumes and moments are subtracted from those of that same uniformly filled frustum; no independent physical masses are introduced. fileciteturn7file0L5-L20
+The containing triangular frustum loses the four actual tetrahedral defects from the supplied reduction: the A corner, the R corner, and the two triangles of the O corner, each coned to its corresponding top vertex. Their interiors are disjoint. Their volumes and moments are subtracted from those of that same uniformly filled frustum; no independent physical masses are introduced.
 
 For this family, write
 
@@ -137,7 +137,7 @@ B_2=k(3out_2+in_2)ff^T/4\succeq0,
 G=R+yx^2(1-x)B_1+xy^2(1-y)B_2.
 \]
 
-R has multidegree `(2,2,3,4)` in `(x,y,q,lambda)`. The generally indefinite mixed `x^2 y^2` term is retained. The supplied source checks these identities on all 34 directed true edges. fileciteturn7file0L34-L42
+R has multidegree `(2,2,3,4)` in `(x,y,q,lambda)`. The generally indefinite mixed `x^2 y^2` term is retained. The supplied source checks these identities on all 34 directed true edges.
 
 On `x=a+hX`, `y=c+jY`, the discarded PSD terms are instead `h^3 y X^2(1-X)B1` and `j^3 x Y^2(1-Y)B2`. The implementation folds each negative local cubic coefficient into its quadratic coefficient. Its exact univariate transform, for a global monomial `u^m`, is
 
@@ -192,7 +192,7 @@ A unique strict U would yield one of the enumerated complete rooted trees, contr
 
 Starting with the 646 parent stresses, the locator made **9,312 calls**, accepted **8,785** new integer stresses, and recorded **527 failures**. It finished with 9,431 stresses, 242 certified discovery leaves and no unfinished box. Reduction selected the final 239-leaf atlas and removed 7,429 redundant applications. Every retained application was then independently rechecked by the standard-library verifier.
 
-The locator uses eigenvector cutting planes and SciPy's HiGHS dual-simplex interface; a numerical failure is only a search outcome. The exact positive-definiteness and full-tree coverage checks supply the proof. citeturn206727view0
+The locator uses eigenvector cutting planes and SciPy's HiGHS dual-simplex interface; a numerical failure is only a search outcome. The exact positive-definiteness and full-tree coverage checks supply the proof.
 
 Three diagnosed failed-tree alternatives, enumeration IDs 16085, 19665 and 23895, all rooted at label 5, have exact three-arrow positive stresses both at `(x,y,q,lambda)=(1,1,0,0)` and at `(15/16,15/16,1/64,1/64)`. The former is the real five-vertex pyramid limit, with `V=7/192`, `g=(29/448,125/448,1/4)`; the latter is a genuine interior body. The complete trees, exact centred geometry and all six stress matrices are regenerated and checked. They are point alternatives, not substitutes for the whole-cell atlas. The final closed cover eliminates all the original failures.
 
@@ -384,11 +384,11 @@ Different numerical builds may change locator choices. The fixed-certificate sta
 
 ## 9. Scope and continuation
 
-This settles the entire specified cut/q/compact-ratio domain, and the stated actual-refill cylinder, under unrestricted nonzero PSD tree tests. It does **not** settle arbitrary remaining basal parameters, the whole positive-projective domain, the entire H5 incidence or the first E17 layer. It makes no all-family `S>=2` assertion and supplies no 110 attainer. The accepted global interval remains **34<=Cmin<=622**. fileciteturn7file2L9-L11
+This settles the entire specified cut/q/compact-ratio domain, and the stated actual-refill cylinder, under unrestricted nonzero PSD tree tests. It does **not** settle arbitrary remaining basal parameters, the whole positive-projective domain, the entire H5 incidence or the first E17 layer. It makes no all-family `S>=2` assertion and supplies no 110 attainer. The accepted global interval remains **34<=Cmin<=622**.
 
 The most useful continuation is the **actual independent d release in physical (p,q) triangle coordinates**, with the 450-block mechanism and current exact stress library, or further genuine basal/projective geometry outside the closed class. There is no complete one-sided survivor on the settled four-cube that would justify escalating to reciprocal coupling there.
 
-Supplemental copies: [recovery bundle](sandbox:/mnt/data/h5_full_ratio_recovery.zip), [exact main report](sandbox:/mnt/data/h5_full_ratio_report.json). The complete source and exact inputs below reconstruct every continuation-critical certificate and datum.
+Supplemental copies: recovery bundle (`h5_full_ratio_recovery.zip`), exact main report (`h5_full_ratio_report.json`). The complete source and exact inputs below reconstruct every continuation-critical certificate and datum.
 
 ### Complete autonomous recovery unit
 

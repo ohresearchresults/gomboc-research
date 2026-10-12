@@ -198,7 +198,7 @@ R62_COLD_RECOVERY_AND_EXACT_AUDIT_PASS 13 NO_OWN110_CLAIM
 
 One unit correction is explicit in the verifier: the original V-auditor stores radial endpoints in centroid-numerator units. New audits convert P endpoints by `1/T²` and Q endpoints by `T²`, where `T=24*volume*D⁴`, before physical cut/path checks. Bar depths are unchanged.
 
-Convenience copies: [complete source and regenerated certificates](sandbox:/mnt/data/R62_HANDOFF.zip), 225025 bytes, SHA-256 `f5ae4a37b34e83bb129f86d1d13af64bc9f27b54be723bb2cee8695661d866a0`; [recovery script](sandbox:/mnt/data/RECOVER62.py), 44848 bytes, SHA-256 `f4a95eaafa12cc18fa7226ebb2a5c3a41053015afb43ea4d8dee56e9e664308e`. Neither download is required by the inline capsule.
+Convenience copies: complete source and regenerated certificates (`R62_HANDOFF.zip`), 225025 bytes, SHA-256 `f5ae4a37b34e83bb129f86d1d13af64bc9f27b54be723bb2cee8695661d866a0`; recovery script (`RECOVER62.py`), 44848 bytes, SHA-256 `f4a95eaafa12cc18fa7226ebb2a5c3a41053015afb43ea4d8dee56e9e664308e`. Neither download is required by the inline capsule.
 
 ```python
 # R62: complete source/input/checkpoint recovery, CPython standard library.

@@ -8,7 +8,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 ## Outcome
 
-No strict own110/additionalweak000 body was found. The strongest new exact endpoint is **`BR76_C162_CIRCUIT18_DESCENT_G3`**, a genuine changed-incidence descendant of the authoritative `BR76_C162_WHOLEP_DESCENT3_G3` parent `figure-0458` (SHA-256 `ffdd3e223d750c32adce2b7e561c469f8926ada4b6a66b260c61a1ebd3e3eef5`). The immutable payload and notebook agree on the parent: V54/E81/F29/C162, strict121/weak000/zero000, S0, U2/19, H42–44, Qbars empty, one 18/18 physical packet. :contentReference[oaicite:0]{index=0} No parent/journal conflict was found.
+No strict own110/additionalweak000 body was found. The strongest new exact endpoint is **`BR76_C162_CIRCUIT18_DESCENT_G3`**, a genuine changed-incidence descendant of the authoritative `BR76_C162_WHOLEP_DESCENT3_G3` parent `figure-0458` (SHA-256 `ffdd3e223d750c32adce2b7e561c469f8926ada4b6a66b260c61a1ebd3e3eef5`). The immutable payload and notebook agree on the parent: V54/E81/F29/C162, strict121/weak000/zero000, S0, U2/19, H42–44, Qbars empty, one 18/18 physical packet. No parent/journal conflict was found.
 
 The new exact body has:
 

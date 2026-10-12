@@ -26,9 +26,9 @@ Moreover **B−Sigma^(-1)/5 is positive definite unless P is a pyramid with base
 
 The missing mixed moments are controlled by applying one-constraint localization to a **convex variance-corrected boundary functional**, not by treating a tangential direction as the selected facet normal. The proof below includes a uniform shrinking-layer error; no limiting needle is chosen after inspecting a numerical optimizer.
 
-The accepted normal theorem, frustum calculations and cone-law bound are retained. The cone-law denominator is still **3−alpha** in its original argument. The stronger denominator **1−alpha** is justified here by a separate localization proof. The predecessor explicitly distinguished these claims. fileciteturn46file0L37-L60
+The accepted normal theorem, frustum calculations and cone-law bound are retained. The cone-law denominator is still **3−alpha** in its original argument. The stronger denominator **1−alpha** is justified here by a separate localization proof. The predecessor explicitly distinguished these claims.
 
-This is an actual-shape moment theorem, not a new equilibrium census, a whole-E17 exclusion, or an attainer. The accepted minimum bracket **34≤C_min≤622** remains unchanged. fileciteturn46file4L9-L11
+This is an actual-shape moment theorem, not a new equilibrium census, a whole-E17 exclusion, or an attainer. The accepted minimum bracket **34≤C_min≤622** remains unchanged.
 
 ### Input and evidence status
 
@@ -53,7 +53,7 @@ Since 0<alpha≤3/4, its scalar Schur complement is exactly(M). The identities T
 
     B^(-1)=alpha T+alpha^2/(1−alpha)cc^T.
 
-Inversion then gives the stated inequality for B. All these are moments of the same actual body and the complete facet. fileciteturn46file0L11-L35
+Inversion then gives the stated inequality for B. All these are moments of the same actual body and the complete facet.
 
 More generally, for any affine y on P, with mu the uniform probability measure,
 
@@ -68,7 +68,7 @@ The **positive** squared-mean term in the violation functional is important: it 
 
 For compact convex K, an upper-semicontinuous constraint f, and s-concave probability measures nu supported in K with integral f dnu≥0, where s≤1/2, a convex upper-semicontinuous functional has a maximizer either at an admissible Dirac mass or at an s-affine probability on a segment satisfying integral f dnu=0. We use s=1/3. Its segment density is the square of a nonnegative affine function. The additional one-sided integral condition on extremal needles is unnecessary because the estimates below hold for all such mean-constrained needles.
 
-This is Fradelizi–Guédon, *The Extreme Points of Subsets of s-Concave Probabilities and a Geometric Localization Theorem*, Discrete & Computational Geometry31(2004),327–335, Theorems1–2, especially p330, DOI10.1007/s00454-003-2868-y. I checked the primary theorem statement, including its semicontinuity and s≤1/2 hypotheses. citeturn281360view0
+This is Fradelizi–Guédon, *The Extreme Points of Subsets of s-Concave Probabilities and a Geometric Localization Theorem*, Discrete & Computational Geometry31(2004),327–335, Theorems1–2, especially p330, DOI10.1007/s00454-003-2868-y. I checked the primary theorem statement, including its semicontinuity and s≤1/2 hypotheses.
 
 ### Needle inequality
 
@@ -100,7 +100,7 @@ Q00 is strictly positive. Hence the matrix is PSD for every r≥0 and PD for r>0
 
 A general nonnegative affine-root density has endpoint values u,v≥0, not both zero. For u>0, divide by u and take r=v/u. The omitted endpoint case u=0 is rho(z)=3z²; its boundary term is zero and its variance is positive, so(N) is strict for every nonzero affine Y. This includes all possible endpoint degeneracies.
 
-The formula is compatible with the inherited normal-frustum calculation, but the exact polynomial identity just displayed suffices here; no numerical root, optimizer or full sharp-alpha normal theorem is needed for(N). The earlier normal theorem alone was not a full-matrix statement. fileciteturn46file0L103-L116
+The formula is compatible with the inherited normal-frustum calculation, but the exact polynomial identity just displayed suffices here; no numerical root, optimizer or full sharp-alpha normal theorem is needed for(N). The earlier normal theorem alone was not a full-matrix statement.
 
 ## 4. Uniform facet-layer proof of the full matrix theorem
 
@@ -173,7 +173,7 @@ Taking the limit in(4.3) proves(T'), hence(T) and(M).
 
 Here is the equality argument, separate from the finite-layer inequality.
 
-Let C be the weakly closed convex hull of the mean-constrained1/3-concave probabilities used above. It is a compact metrizable convex subset of the probabilities on P. Metrizable Choquet representation expresses the actual mu as a barycenter of its extreme measures. Those extreme measures are among the Dirac/segment measures identified by the localization theorem. The representation fact is the standard compact metrizable Choquet theorem; see Choquet, *Le théorème de représentation intégrale dans les ensembles convexes compacts*, Annales de l'Institut Fourier10(1960),333–344, DOI10.5802/aif.105. citeturn102336view0
+Let C be the weakly closed convex hull of the mean-constrained1/3-concave probabilities used above. It is a compact metrizable convex subset of the probabilities on P. Metrizable Choquet representation expresses the actual mu as a barycenter of its extreme measures. Those extreme measures are among the Dirac/segment measures identified by the localization theorem. The representation fact is the standard compact metrizable Choquet theorem; see Choquet, *Le théorème de représentation intégrale dans les ensembles convexes compacts*, Annales de l'Institut Fourier10(1960),333–344, DOI10.5802/aif.105.
 
 Write this representation as mu=integral nu dPi(nu), and let m_nu=E_nu y and s=E_mu y. Because E_nu t≥1 and their average is1, E_nu t=1 almost surely. For every epsilon,
 
@@ -207,7 +207,7 @@ Conversely, at such a pyramid the actual centroid identity gives a=−3c, alpha=
 
     5Sigma−B^(-1)=(9/4)(T−cc^T),
 
-which has rank two and kernel span(q). Equivalently B−Sigma^(-1)/5 has kernel span(c), and the generalized eigenvalues are(1/5,4/5,4/5), as also seen in the inherited pyramid calibration. fileciteturn46file0L128-L141
+which has rank two and kernel span(q). Equivalently B−Sigma^(-1)/5 has kernel span(c), and the generalized eigenvalues are(1/5,4/5,4/5), as also seen in the inherited pyramid calibration.
 
 This proves the complete equality classification. In particular, all facets of a nonpyramid have a positive-definite gap. A10-vertex pyramid has18 rather than17 true edges, so every actual10/17/9 body has a strict gap at each facet. **No numerical uniform margin on the entire E17 realization space is claimed.**
 
@@ -246,9 +246,9 @@ For the fixed released kernel's regular active centroid completion, the supplied
 
     −Hess log V(z) >= Sigma(P_z)^(-1)/5,
 
-strictly unless the marked completion is a pyramid. The matrix moment theorem holds for every actual body; this **Hessian interpretation** still requires the fixed-kernel variation. It is not a Hessian formula for moving all other facets independently. fileciteturn46file2L1-L3
+strictly unless the marked completion is a pyramid. The matrix moment theorem holds for every actual body; this **Hessian interpretation** still requires the fixed-kernel variation. It is not a Hessian formula for moving all other facets independently.
 
-The separate conjecture alpha c^T Sigma^(-1)c≤3/2 is **not resolved here**. The present theorem gives alpha c^T Sigma^(-1)c≤5(1−alpha), which implies3/2 when alpha≥7/10 but does not cover the remaining masses. The original source correctly treated the universal3/2 claim as numerical. fileciteturn46file0L188-L190
+The separate conjecture alpha c^T Sigma^(-1)c≤3/2 is **not resolved here**. The present theorem gives alpha c^T Sigma^(-1)c≤5(1−alpha), which implies3/2 when alpha≥7/10 but does not cover the remaining masses. The original source correctly treated the universal3/2 claim as numerical.
 
 ## 7. Exact actual controls, including nonzero cross covariance
 
@@ -363,7 +363,7 @@ Pins:
     recover_facet_matrix.py:8377bytes
     26bb1cee127a8d9982d940c59beb6404398a4c18c888dd7e22b371c10ea10472
 
-Convenience copies supplement, but are not required by, the inline recovery: [exact source](sandbox:/mnt/data/facet_matrix/facet_matrix_exact.py), [full exact report](sandbox:/mnt/data/facet_matrix/facet_matrix_exact_report.json), and [recovery source](sandbox:/mnt/data/facet_matrix/recover_facet_matrix.py).
+Convenience copies supplement, but are not required by, the inline recovery: exact source (`facet_matrix_exact.py`), full exact report (`facet_matrix_exact_report.json`), and recovery source (`recover_facet_matrix.py`).
 
 ```python
 """Recover both complete source units; exact acceptance has no numeric dependency."""

@@ -26,11 +26,11 @@ The direct parent is
     SHA256 c772d9b01329dcd809a288ef999d910676c13c3334cff8c96e7d59a51b887bdd
     HEPTAGON_TRIANGLE_FULL_AFFINE_CHART_AND_EXPANSION7_U2_V1.
 
-The new1711-line journal, including this literal parent and all its source, and all five selected reciprocal materials were read completely. The parent's rho>=7 theorem and1/1024 tube remain accepted and were not reopened. Its complete eleven-modulus realization chart remains the chart for the nonparallel complement. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The new1711-line journal, including this literal parent and all its source, and all five selected reciprocal materials were read completely. The parent's rho>=7 theorem and1/1024 tube remain accepted and were not reopened. Its complete eleven-modulus realization chart remains the chart for the nonparallel complement.
 
-The coefficient theorem below is self-contained: its executable imports no parent implementation, catalogue, certificate array or reciprocal-matrix source. The complete actual moment formulas needed from the chart are reproduced below and checked on the new actual controls by two genuine apex fans, including their second moments. The all-basal compactness corollary explicitly invokes the accepted NINE_VERTEX_NONZERO_PSD_REFINEMENT theorem recorded in the notebook. That premise is stronger than the ordinary strict-SPD V>=10 bound and is essential at the singular metric limit; no fresh reconstruction of its large certificate is claimed. :contentReference[oaicite:2]{index=2}
+The coefficient theorem below is self-contained: its executable imports no parent implementation, catalogue, certificate array or reciprocal-matrix source. The complete actual moment formulas needed from the chart are reproduced below and checked on the new actual controls by two genuine apex fans, including their second moments. The all-basal compactness corollary explicitly invokes the accepted NINE_VERTEX_NONZERO_PSD_REFINEMENT theorem recorded in the notebook. That premise is stronger than the ordinary strict-SPD V>=10 bound and is essential at the singular metric limit; no fresh reconstruction of its large certificate is claimed.
 
-The three-LMI PAIR hull and nonlinear SUM fibres are not imposed on an U1-only problem. Their actual-covariance ratio specialization needs simultaneous S1/U1. The new proof instead excludes primal U1 without a conditioning bound. :contentReference[oaicite:3]{index=3}
+The three-LMI PAIR hull and nonlinear SUM fibres are not imposed on an U1-only problem. Their actual-covariance ratio specialization needs simultaneous S1/U1. The new proof instead excludes primal U1 without a conditioning bound.
 
 ## 3. Exact family and actual uniform moments
 
@@ -82,7 +82,7 @@ The ACTUAL solid volume and first moment are
     Jz=(1+2rho+3rho^2-2R)/24,
     g=J/V.                                          (2)
 
-These are one body's uniform volume moments, not a basal area centroid, vertex average or transported projective centroid. The source formula and labels agree with the literal parent. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+These are one body's uniform volume moments, not a basal area centroid, vertex average or transported projective centroid. The source formula and labels agree with the literal parent.
 
 The full eleven-modulus chart is retained without claiming new all-projective coverage. Set rho=1, X_i=Y_i-g, and take any pi in R3 with d_i=1+pi.X_i>0 at all ten labels. For each oriented triangle (i,j,k) in a true facet triangulation put w_ijk=det(X_i,X_j,X_k)/6. The uniformly refilled image has
 
@@ -328,7 +328,7 @@ Pass to a subsequence of the bounded ten labelled coordinates. The limiting hull
 
 This handles every beta_n/rho_n rate, not only a fixed nondegenerate basal source. In the latter simpler case the top collapses to one point; the two-endpoint alternative is deliberately retained.
 
-Now suppose an U1 sequence existed. Carry each physical SPD through(14) and normalize its trace to one. A subsequence converges to a nonzero PSD metric. There are finitely many labelled selected rooted trees; retain one. Actual uniform centroids converge because the normalized convex bodies are bounded and converge to a full-dimensional hull. Every selected arrow therefore converges to a weak arrow on the ten limiting labels, which include all true vertices of K. The accepted NINE_VERTEX_NONZERO_PSD_REFINEMENT theorem forbids that tree, including collapsed or nonextreme labels. This is where that singular/refinement premise, rather than an ordinary strict-U count, is used. :contentReference[oaicite:6]{index=6}
+Now suppose an U1 sequence existed. Carry each physical SPD through(14) and normalize its trace to one. A subsequence converges to a nonzero PSD metric. There are finitely many labelled selected rooted trees; retain one. Actual uniform centroids converge because the normalized convex bodies are bounded and converge to a full-dimensional hull. Every selected arrow therefore converges to a weak arrow on the ten limiting labels, which include all true vertices of K. The accepted NINE_VERTEX_NONZERO_PSD_REFINEMENT theorem forbids that tree, including collapsed or nonextreme labels. This is where that singular/refinement premise, rather than an ordinary strict-U count, is used.
 
 Consequently there exists ONE rho_*>0, uniform over the ENTIRE basal chart, such that0<rho<rho_* has no SPD U1 member. The value of rho_* is NOT evaluated by this result. The unconditional new geometric information is the explicit bounded normalization, volume1/48 and nine-vertex limit; the mechanical corollary uses the accepted PSD theorem.
 
@@ -465,7 +465,7 @@ Expected exact markers:
     THREE_UNBOUNDED_FLAG_INTERVALS_AND_OWN_REFILLED_PROJECTIVE_BAND_PASS
     SMALLCUT_ALL_RATIO_SOURCE_ONLY_PASS 271358 c62d9575acb1e0684474d77327f1705c506aec6fc8a82a2361f288a221f74535
 
-Supplementary [decoded exact source](sandbox:/mnt/data/prism_residual/heptagon_triangle_smallcuts.py), [complete exact report](sandbox:/mnt/data/prism_residual/heptagon_triangle_smallcuts.json), and [full bundle](sandbox:/mnt/data/HEPTAGON_TRIANGLE_CORNER_TENTH_bundle.zip). The lossless literal capsule below does not require these links.
+Supplementary decoded exact source (`heptagon_triangle_smallcuts.py`), complete exact report (`heptagon_triangle_smallcuts.json`), and full bundle (`HEPTAGON_TRIANGLE_CORNER_TENTH_bundle.zip`). The lossless literal capsule below does not require these links.
 
 ### Complete lossless executable capsule
 

@@ -14,13 +14,13 @@ For smaller arithmetic, **COND_DESC_G5** is an exact **V75/E219/F146, C438, own1
 
 The main C432 endpoint reduces the whole physical persistence `Delta/V^(2/3)` by **more than62.5911622292%** from literal COARSE20_G4. Its minimum true edge is greater than0.035609573352, its inradius/circumradius ratio is about0.35597417, and its `V/R^3` is about0.67901646. This is not improvement obtained by collapsing the saddle edge or inflating only the denominator R. The secondary bar is nevertheless still substantial, so I do not claim proximity to cancellation or a terminal plateau.
 
-I read the complete1848-line journal and every one of the44 decoded parent source units before substantive research. The required parent is `figure-0420`, supplied envelope SHA256 `0840306c532921996e889d886712fcd1b324432e7bb980bd811a06f2eaf01031`. Its literal COARSE20_G4 definition and exact census were reproduced; the variable plane offsets were retained. No source-authority conflict or missing dependency was found. The unavailable .429763/.428459 checkpoints were not used. The original parent is V86/E129/F45, own121, with its stable pentagon and22-vertex closed cosine basin; it is not an interchangeable normalization or an affine checkpoint. :contentReference[oaicite:0]{index=0}
+I read the complete1848-line journal and every one of the44 decoded parent source units before substantive research. The required parent is `figure-0420`, supplied envelope SHA256 `0840306c532921996e889d886712fcd1b324432e7bb980bd811a06f2eaf01031`. Its literal COARSE20_G4 definition and exact census were reproduced; the variable plane offsets were retained. No source-authority conflict or missing dependency was found. The unavailable .429763/.428459 checkpoints were not used. The original parent is V86/E129/F45, own121, with its stable pentagon and22-vertex closed cosine basin; it is not an interchangeable normalization or an affine checkpoint.
 
 The canonical own110 incumbent remains C622.
 
 ## Delivery limitation
 
-The complete source-only handoff has been created and verified in this conversation, but its117-file inline recovery capsule is not reproduced in this response. Consequently, this response alone is **not a complete durable successor under the requested inline-only recovery contract**. Do not promote any newly computed object from the prose, hashes or links alone. The complete already-generated handoff, including the full inline recovery program, is available as [KN56_RESULT.json](sandbox:/mnt/data/KN56_RESULT.json) and [KN56_RESULT.md](sandbox:/mnt/data/KN56_RESULT.md). The JSON is172316bytes, SHA256 `580559e71915088811f84ed241436b1ac2d0a0a6137318ff20f87e17e853a1f6`.
+The complete source-only handoff has been created and verified in this conversation, but its117-file inline recovery capsule is not reproduced in this response. Consequently, this response alone is **not a complete durable successor under the requested inline-only recovery contract**. Do not promote any newly computed object from the prose, hashes or links alone. The complete already-generated handoff, including the full inline recovery program, is available as KN56_RESULT.json and KN56_RESULT.md. The JSON is172316bytes, SHA256 `580559e71915088811f84ed241436b1ac2d0a0a6137318ff20f87e17e853a1f6`.
 
 The defining76-point input for the principal C432 solid is included literally below. That makes the principal geometric object recoverable directly, but the complete producing and verification sources remain in the linked complete handoff and recovery program. This distinction is a delivery limitation, not missing scientific execution or an unperformed audit.
 
@@ -209,7 +209,7 @@ Point freezing uses exact half-even `round(Fraction(binary64_float)*grid)`, and 
 
 ## Complete generated recovery artifacts
 
-The [byte-identical recovery program](sandbox:/mnt/data/RECOVER_KN56.py) is144088bytes, SHA256 `c0928a7d019dd1239bf219f8e0f5a622fef9a29d6705ea04f8c94fe61b8b7e15`. Its full text is embedded in the linked complete172316-byte JSON handoff, not in this response.
+The byte-identical recovery program (`RECOVER_KN56.py`) is144088bytes, SHA256 `c0928a7d019dd1239bf219f8e0f5a622fef9a29d6705ea04f8c94fe61b8b7e15`. Its full text is embedded in the linked complete172316-byte JSON handoff, not in this response.
 
 Reconstruction and audit commands are:
 
@@ -232,7 +232,7 @@ KN56_EXACT_SOURCE_ONLY_COLD_PASS 19 660 5925fb2094981cfd475b06321262814bb14ba926
 TARGET_OWN110_C_LT_622_FOUND false
 ```
 
-The [full sources, finite checkpoints and exact receipts](sandbox:/mnt/data/KN56_FULL_RECOVERY.zip) are11050015bytes, SHA256 `228449a0d183b0a2b9160de2c9c25cecd31840bddf3cae72656d58b800e8ac7f`.
+The full sources, finite checkpoints and exact receipts (`KN56_FULL_RECOVERY.zip`) are11050015bytes, SHA256 `228449a0d183b0a2b9160de2c9c25cecd31840bddf3cae72656d58b800e8ac7f`.
 
 ## Most useful continuation
 

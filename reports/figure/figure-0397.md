@@ -12,11 +12,11 @@ Assignment: `figure-0397`.
 
 **No C<622 construction was produced by this worker. No new exact nonwinner, numerical candidate, contraction trajectory, or exclusion certificate is claimed.** The completed work in this finishing segment is recovery of the supplied canonical source package, verification of its byte identities, and inspection of the numerical continuation entry points. This does not fulfill the construction objective and must not be recorded as a geometric improvement.
 
-The inherited construction remains **VQ20_C622_ROUTE88_118_G12**, with true maximal-complex V/E/F = **176/311/137**, C=622, own-uniform-volume-centroid strict110 and weak000. Its immutable parent is `figure-0373`, SHA-256 `8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d`. These are inherited exact results, not newly executed acceptance audits in this worker segment. :contentReference[oaicite:0]{index=0}
+The inherited construction remains **VQ20_C622_ROUTE88_118_G12**, with true maximal-complex V/E/F = **176/311/137**, C=622, own-uniform-volume-centroid strict110 and weak000. Its immutable parent is `figure-0373`, SHA-256 `8a9f5de8374e75eb2e09766c3546f750afd74102ae1fc3bddef86c4da45dc68d`. These are inherited exact results, not newly executed acceptance audits in this worker segment.
 
 **Actually executed here:** the supplied two-part decoder completed in a previously absent destination, verified both normalized payloads, verified the compressed and decompressed source identities, verified the manifest and every listed file, and emitted `COORD_C622_CANONICAL_SCOPED16_SOURCE_RECOVERY_PASS`. The recovered canonical generator was separately fingerprinted and matched the prescribed identity.
 
-**Not executed here:** `REPLAY_SCOPED.py`, `SMOKE_NUMERIC.py`, a numerical correction, independent A/B audits of a child, or child centered-tetrahedron integration. There are consequently no newly observed geometric acceptance markers to report. The replay and numerical receipts in the supplied materials remain their authors' recorded observations. :contentReference[oaicite:1]{index=1}
+**Not executed here:** `REPLAY_SCOPED.py`, `SMOKE_NUMERIC.py`, a numerical correction, independent A/B audits of a child, or child centered-tetrahedron integration. There are consequently no newly observed geometric acceptance markers to report. The replay and numerical receipts in the supplied materials remain their authors' recorded observations.
 
 ## 2. Evidence read and historical coverage
 
@@ -24,7 +24,7 @@ The supplied current journal and its complete literal canonical parent payload w
 
 Library discovery was limited: the first catalog page returned 20 of 442 sources at revision 1842; one literal search for `C622_HOMOTOPY_POSITIVE` scanned the first ten sources and returned historical-journal excerpts. Those excerpts were navigation only. I did not read the complete separate homotopy result or reconstruct its descendant, and do not claim an exhaustive historical search.
 
-The canonical parent's native report explicitly described its original omitted recovery payload and unobserved ten-case aggregate terminal. The supplied scoped16 materials subsequently supply a complete canonical-only recovery closure and their own scoped replay receipts. This is a later source-preservation repair, not grounds to rewrite the original report as having contained the missing bytes or completed its historical aggregate. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+The canonical parent's native report explicitly described its original omitted recovery payload and unobserved ten-case aggregate terminal. The supplied scoped16 materials subsequently supply a complete canonical-only recovery closure and their own scoped replay receipts. This is a later source-preservation repair, not grounds to rewrite the original report as having contained the missing bytes or completed its historical aggregate.
 
 ## 3. Useful implementation boundaries established by source inspection
 
@@ -61,16 +61,16 @@ No changes were made to these files. No optimizer outcome was generated from the
 
 ## 4. Exact identities that must survive continuation
 
-The canonical generator is 11,841 bytes, SHA-256 `3cbd90d799189108f26b941800c8fa79a6f1c5abb17b2db614f0e54f57fffee7`. Its unique stable facet is input support 3, a 20-gon; its unique unstable vertex is canonical raw-lex 94, degree 44, with raw anchor `(0,0,1)` before centering. The centered unstable point is the translated anchor, not the center of mass. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+The canonical generator is 11,841 bytes, SHA-256 `3cbd90d799189108f26b941800c8fa79a6f1c5abb17b2db614f0e54f57fffee7`. Its unique stable facet is input support 3, a 20-gon; its unique unstable vertex is canonical raw-lex 94, degree 44, with raw anchor `(0,0,1)` before centering. The centered unstable point is the translated anchor, not the center of mass.
 
-Canonical nonsimple owner identities include the six-contact `[71,94,109,116,119,126]` at raw-lex 68, the five-contact `[56,57,88,118,122]` at raw-lex 74, and protected four-contacts `[16,18,71,94]` at raw-lex 87 and `[87,108,122,127]` at raw-lex 50. Support labels and raw-lex vertex labels are different domains. :contentReference[oaicite:7]{index=7}
+Canonical nonsimple owner identities include the six-contact `[71,94,109,116,119,126]` at raw-lex 68, the five-contact `[56,57,88,118,122]` at raw-lex 74, and protected four-contacts `[16,18,71,94]` at raw-lex 87 and `[87,108,122,127]` at raw-lex 50. Support labels and raw-lex vertex labels are different domains.
 
-Inherited arithmetic measures are: primitive support entries at most 390 bits; raw physical coordinate numerator/denominator maxima 531/532 bits; reduced centered coordinate maxima 56794/56795 bits; common centered denominator 56802 bits. No arithmetic improvement was computed here. :contentReference[oaicite:8]{index=8}
+Inherited arithmetic measures are: primitive support entries at most 390 bits; raw physical coordinate numerator/denominator maxima 531/532 bits; reduced centered coordinate maxima 56794/56795 bits; common centered denominator 56802 bits. No arithmetic improvement was computed here.
 
 **Do not substitute either separate historical object:**
 
-- `C622_HOMOTOPY_POSITIVE` is a different exact C622 body. Its exact input is not in scoped16 and was not recovered here. The attached journal reports a finite shortening experiment, not an edge loss or an exclusion theorem. :contentReference[oaicite:9]{index=9}
-- `C620_121_NONWINNER` is not an own110 endpoint. The literal canonical parent reports actual V/E/F=176/310/136, inactive support 114, ghost proposed contact `[108,114,115,116]`, and extra unstable owner set `[93,108,116]`. Its generator is not in scoped16 and was not reconstructed here. :contentReference[oaicite:10]{index=10}
+- `C622_HOMOTOPY_POSITIVE` is a different exact C622 body. Its exact input is not in scoped16 and was not recovered here. The attached journal reports a finite shortening experiment, not an edge loss or an exclusion theorem.
+- `C620_121_NONWINNER` is not an own110 endpoint. The literal canonical parent reports actual V/E/F=176/310/136, inactive support 114, ghost proposed contact `[108,114,115,116]`, and extra unstable owner set `[93,108,116]`. Its generator is not in scoped16 and was not reconstructed here.
 
 ## 5. Complete attached-source-dependent recovery recipe
 
@@ -83,7 +83,7 @@ Exact dependencies, independently fingerprinted here:
 | `COORD_C622_CANONICAL_SCOPED16_Recovery_capsule_part_1_of_2.md`, material `[internal-source-reference]` | 15305 | `d5846089dd79e70e4aa35f67d5d66b8480c3dd72bca1de45359a281931f632aa` |
 | `COORD_C622_CANONICAL_SCOPED16_Recovery_capsule_part_2_of_2.md`, material `[internal-source-reference]` | 20685 | `c4a0ef05c36066f7b2851dc18ea1c3cda599f724130ec0ce7a89785613cde5b1` |
 
-Save the following unchanged as `RECOVER_C622_SCOPED16.py`, UTF-8/LF with one final newline. It is the supplied complete decoder, 2053 bytes, SHA-256 `cf90d8a2240f4b7154a902bc6ff558dbd2f3157683adadda1485a882cfd17d28`; that identity and its successful execution were observed here. The complete literal coordinates and numerical methods reside in the two exact attached payloads, not in hashes or external filenames standing in for data. :contentReference[oaicite:11]{index=11}
+Save the following unchanged as `RECOVER_C622_SCOPED16.py`, UTF-8/LF with one final newline. It is the supplied complete decoder, 2053 bytes, SHA-256 `cf90d8a2240f4b7154a902bc6ff558dbd2f3157683adadda1485a882cfd17d28`; that identity and its successful execution were observed here. The complete literal coordinates and numerical methods reside in the two exact attached payloads, not in hashes or external filenames standing in for data.
 
 ```python
 """Recover COORD_C622_CANONICAL_SCOPED16_V1 from its two ordered materials."""
@@ -141,9 +141,9 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
 
 Only the first command was executed in this worker segment. Installed versions observed here were CPython 3.13.5, NumPy 2.3.5, and SciPy 1.17.0. Source recovery needs only the standard library. Assertions must remain enabled; the numerical entry uses float64 and one BLAS/OMP thread.
 
-Expected later markers, recorded by the supplied source but **not newly observed here**, are `SCOPED_EXACT_A_PASS`, `SCOPED_EXACT_B_PASS`, `COORD_C622_SCOPED_CANONICAL_AB_MASS_CONTROLS_PASS`, and `COORD_C622_SCOPED_NUMERIC_ENTRY_PASS`. Expected canonical outputs are `raw.json`, 15437 bytes, SHA-256 `ac01d1625274b64f336a715e1f5462f40686f647f0b7d1a4d90a5ee21765adb5`; `A.json` and `B.json`, each 311825 bytes, SHA-256 `142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0`; and `RECEIPT.json`, 681 bytes, SHA-256 `6ca0671aace64125886235d1060235f93290915c512bd7e9ac1e0789d7ec3f8a`. The supplied replay requires all-feature audits, 348 positive centered tetrahedra, exact zero first moments, and its stated positive and invalid controls. :contentReference[oaicite:12]{index=12}
+Expected later markers, recorded by the supplied source but **not newly observed here**, are `SCOPED_EXACT_A_PASS`, `SCOPED_EXACT_B_PASS`, `COORD_C622_SCOPED_CANONICAL_AB_MASS_CONTROLS_PASS`, and `COORD_C622_SCOPED_NUMERIC_ENTRY_PASS`. Expected canonical outputs are `raw.json`, 15437 bytes, SHA-256 `ac01d1625274b64f336a715e1f5462f40686f647f0b7d1a4d90a5ee21765adb5`; `A.json` and `B.json`, each 311825 bytes, SHA-256 `142ddb5d88fdc8b1721dbb62f52d9b71b78ac4c36e8600131235c6c4289698a0`; and `RECEIPT.json`, 681 bytes, SHA-256 `6ca0671aace64125886235d1060235f93290915c512bd7e9ac1e0789d7ec3f8a`. The supplied replay requires all-feature audits, 348 positive centered tetrahedra, exact zero first moments, and its stated positive and invalid controls.
 
-For convenience, the unchanged decoded source, both original scoped materials, and the complete decoder are available in [NC65_SOURCE_RECOVERY_ONLY.zip](sandbox:/mnt/data/NC65_SOURCE_RECOVERY_ONLY.zip), 60410 bytes, SHA-256 `fffc2c98070a7ba07825e99cd376fc38bdcf21b24cd555463ccf924d38eecebb`. The [decoder](sandbox:/mnt/data/RECOVER_C622_SCOPED16.py) is also available separately. Neither download is the sole recovery source: the complete decoder is above and its exact source dependencies are the two attached literal capsules.
+For convenience, the unchanged decoded source, both original scoped materials, and the complete decoder are available in NC65_SOURCE_RECOVERY_ONLY.zip, 60410 bytes, SHA-256 `fffc2c98070a7ba07825e99cd376fc38bdcf21b24cd555463ccf924d38eecebb`. The decoder (`RECOVER_C622_SCOPED16.py`) is also available separately. Neither download is the sole recovery source: the complete decoder is above and its exact source dependencies are the two attached literal capsules.
 
 ## 6. Remaining obstruction and most useful continuation
 
@@ -153,6 +153,6 @@ The concrete outstanding task is to produce a changed rational realization with 
 
 The useful continuation is therefore a construction search from the recovered canonical generator, not further source packaging. Preserve each proposed contact change and root/owner map, couple geometry to recomputed filled mass, and send any promising rational endpoint through both full auditors and independent positive centered-tetrahedron integration before promotion. No particular edge has been selected or excluded by this worker.
 
-Retain C≥32 as the operational search floor. This handoff does not resolve the inherited V≥9/F≥9 proof gap or promote that floor into a minimum theorem. :contentReference[oaicite:13]{index=13}
+Retain C≥32 as the operational search floor. This handoff does not resolve the inherited V≥9/F≥9 proof gap or promote that floor into a minimum theorem.
 
 **Final status: canonical source successfully recovered; no new geometric object; construction objective remains open for continuation.**

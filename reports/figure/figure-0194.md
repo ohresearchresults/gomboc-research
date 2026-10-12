@@ -6,7 +6,7 @@ AI research report · 2026-09-02 UTC · [Export notes](../../catalog/coverage.md
 
 # Nimble Comet 70 — wall-242 higher-valence shared-terminal determination
 
-The durable journal records the preceding exact 16-vertex `(2,2,2)` endpoint, its forced-edge obstruction, and this assignment’s requirement to leave that chamber through a finite-thickness higher-valence shared cell. :contentReference[oaicite:0]{index=0}
+The durable journal records the preceding exact 16-vertex `(2,2,2)` endpoint, its forced-edge obstruction, and this assignment’s requirement to leave that chamber through a finite-thickness higher-valence shared cell.
 
 ## Literal verdict
 
@@ -344,26 +344,26 @@ The aggregate transcript ends with
 
 ## Portable artifact links and immutable hashes
 
-- [Complete portable exact bundle](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER.zip) — SHA-256 `a4225ffb7fd5a078d321c2c1930787ccf3b25e2c59344e89bad6a79cb5aaafd0`.
-- [Standalone report](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/REPORT.md) — SHA-256 `df2c152ac84c1dfcf560ad84641f8c9927e8522fc8482068846937849e108ca5`.
-- [Machine-readable candidate](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/candidate.json) — SHA-256 `d4e01f8e53a7a833bf9b5575c92e886ad0d0774a61f95eae8c6c5d7cd0719b02`.
-- [Authoritative integer coordinates](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/data/input_vertices_integer.csv).
-- [Complete exact centred V-data](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/data/wall242_terminal15_exact_V_exact.csv).
-- [Complete irredundant H-data](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/data/wall242_terminal15_exact_H_irredundant.csv).
-- [All maximal faces](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/data/wall242_terminal15_exact_faces.csv).
-- [All true edges and four-component cones](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/data/wall242_terminal15_exact_true_edges_full_cones.csv).
-- [Exact centroid and mechanics audit](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/data/wall242_terminal15_exact_exact_audit.json).
-- [Shared terminal-complex certificate](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/certificates/shared_terminal_complex_certificate.json).
-- [Source-packet replacement certificate](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/certificates/source_packet_replacement_certificate.json).
-- [Forced-edge obstruction](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/certificates/terminal_forced_edge_obstruction.json).
-- [First successor topology](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/certificates/first_successor_topology.json).
-- [Own-centroid perturbation certificate](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json).
-- [Independent verification report](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/certificates/independent_verification_report.json) — SHA-256 `f2de3cefc97584fe3eda9b0d56bb17e56d6d5b2138b267094ee2c516b6d9ceee`.
-- [Deterministic generator](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/scripts/generate_candidate.py).
-- [Primary verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/scripts/verify_exact.py).
-- [Independent clean-room verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/scripts/verify_independent.py).
-- [Own-centroid interval verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/scripts/verify_interval_own_centroid.py).
-- [OBJ](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/mesh/body.obj) and [STL](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/mesh/body.stl).
-- [Aggregate verifier transcript](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/RUN_ALL_VERIFIERS.txt) — SHA-256 `77c438c04e81c510881c4a0292115df64184e6ef1177493d1f8ff5420ed79611`.
-- [Fresh-extraction manifest and verifier transcript](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER_FRESH_VERIFY.txt) — SHA-256 `a15af9ea46daa58825a2cc8a69e9afc6a57e53746f9a3c6d992a603e81c83f2a`.
-- [SHA-256 manifest](sandbox:/mnt/data/Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER/SHA256SUMS.txt) — SHA-256 `1ef66e3ae12d15761be1f7fba051df6fd9c0fe5128ff51264638b3ea0c88d5d9`.
+- Complete portable exact bundle (`Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER.zip`) — SHA-256 `a4225ffb7fd5a078d321c2c1930787ccf3b25e2c59344e89bad6a79cb5aaafd0`.
+- Standalone report (`REPORT.md`) — SHA-256 `df2c152ac84c1dfcf560ad84641f8c9927e8522fc8482068846937849e108ca5`.
+- Machine-readable candidate (`candidate.json`) — SHA-256 `d4e01f8e53a7a833bf9b5575c92e886ad0d0774a61f95eae8c6c5d7cd0719b02`.
+- Authoritative integer coordinates (`input_vertices_integer.csv`).
+- Complete exact centred V-data (`wall242_terminal15_exact_V_exact.csv`).
+- Complete irredundant H-data (`wall242_terminal15_exact_H_irredundant.csv`).
+- All maximal faces (`wall242_terminal15_exact_faces.csv`).
+- All true edges and four-component cones (`wall242_terminal15_exact_true_edges_full_cones.csv`).
+- Exact centroid and mechanics audit (`wall242_terminal15_exact_exact_audit.json`).
+- Shared terminal-complex certificate (`shared_terminal_complex_certificate.json`).
+- Source-packet replacement certificate (`source_packet_replacement_certificate.json`).
+- Forced-edge obstruction (`terminal_forced_edge_obstruction.json`).
+- First successor topology (`first_successor_topology.json`).
+- Own-centroid perturbation certificate (`own_centroid_perturbation_certificate.json`).
+- Independent verification report (`independent_verification_report.json`) — SHA-256 `f2de3cefc97584fe3eda9b0d56bb17e56d6d5b2138b267094ee2c516b6d9ceee`.
+- Deterministic generator (`generate_candidate.py`).
+- Primary verifier (`verify_exact.py`).
+- Independent clean-room verifier (`verify_independent.py`).
+- Own-centroid interval verifier (`verify_interval_own_centroid.py`).
+- OBJ (`body.obj`) and STL (`body.stl`).
+- Aggregate verifier transcript (`RUN_ALL_VERIFIERS.txt`) — SHA-256 `77c438c04e81c510881c4a0292115df64184e6ef1177493d1f8ff5420ed79611`.
+- Fresh-extraction manifest and verifier transcript (`Nimble_Comet_70_wall242_terminal_shared_edge_exact_NONWINNER_FRESH_VERIFY.txt`) — SHA-256 `a15af9ea46daa58825a2cc8a69e9afc6a57e53746f9a3c6d992a603e81c83f2a`.
+- SHA-256 manifest (`SHA256SUMS.txt`) — SHA-256 `1ef66e3ae12d15761be1f7fba051df6fd9c0fe5128ff51264638b3ea0c88d5d9`.

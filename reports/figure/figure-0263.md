@@ -10,7 +10,7 @@ AI research report · 2026-09-03 UTC
 
 No homogeneous convex polyhedral Gömböc was obtained. I independently reconstructed the exact P9-XG11 predecessor, realized the requested first carrier-free full-row-star P9-XG12 topology, and then advanced the residual through three exact changed-incidence successors, ending at P9-XG15-CD2. Every promoted endpoint is a finite rational/dyadic uniform-density convex polyhedron translated to its own exact ordinary-volume centroid, with complete actual H/V/incidence data, exact volume and first moments, exhaustive face/vertex/four-component true-edge mechanics, a positive interval chamber, an independent clean-room verifier, and matching watertight OBJ/STL meshes.
 
-The durable journal’s accepted starting fact was an exact P9-XG11 body of strict class `(2,2,2)` whose residual was carried by the true edge `GT-GR`, and whose first unrepresented successor was an annular/antiprismatic full-star collar without that edge. :contentReference[oaicite:0]{index=0} The prior P9-XG12 turn was not treated as evidence: the journal explicitly records that its response envelope failed and that no immutable mathematical result was admitted. :contentReference[oaicite:1]{index=1} Any recovered coordinates were treated only as untrusted candidate input and were promoted solely after fresh exact reconstruction, exhaustive mechanics, independent replay, and interval certification.
+The durable journal’s accepted starting fact was an exact P9-XG11 body of strict class `(2,2,2)` whose residual was carried by the true edge `GT-GR`, and whose first unrepresented successor was an annular/antiprismatic full-star collar without that edge. The prior P9-XG12 turn was not treated as evidence: the journal explicitly records that its response envelope failed and that no immutable mathematical result was admitted. Any recovered coordinates were treated only as untrusted candidate input and were promoted solely after fresh exact reconstruction, exhaustive mechanics, independent replay, and interval certification.
 
 The strongest exact endpoint produced here is **P9-XG15-CD2**, with primal `(V,E,F)=(26,39,15)`, dual `(15,39,26)`, and strict own-centred `(S,U,H)=(2,2,2)`. Its complete nonprotected external-positive forcing graph is reduced to the single true edge `TR-B1`. This is a substantial contraction of the obstruction, but not cancellation.
 
@@ -193,24 +193,24 @@ A further serial split, one-edge cap, or one-page diagonal is already represente
 
 ## Artifacts
 
-- [Complete deterministic ZIP package](sandbox:/mnt/data/Quiet_Quartz_19_P9_XG12_XG15_exact_nonwinner.zip)
-- [Archive SHA-256](sandbox:/mnt/data/Quiet_Quartz_19_P9_XG12_XG15_SHA256.txt)
-- [Detailed mathematical handoff](sandbox:/mnt/data/quiet_quartz19_p9xg12x/RESEARCH_HANDOFF.md)
-- [Package README and replay instructions](sandbox:/mnt/data/quiet_quartz19_p9xg12x/README.md)
-- [SHA-256 package manifest](sandbox:/mnt/data/quiet_quartz19_p9xg12x/PACKAGE_MANIFEST.json)
-- [One-command exact generator/verifier](sandbox:/mnt/data/quiet_quartz19_p9xg12x/RUN_ALL.sh)
-- [Independent clean-room verifier](sandbox:/mnt/data/quiet_quartz19_p9xg12x/verify_independent.py)
-- [P9-XG12 exact row input](sandbox:/mnt/data/quiet_quartz19_p9xg12x/xg12_annular_rows_exact.json)
-- [P9-XG12 complete exact ledger](sandbox:/mnt/data/quiet_quartz19_p9xg12x/p9_xg12_annular_exact_ledger.json)
-- [P9-XG12 certified chamber](sandbox:/mnt/data/quiet_quartz19_p9xg12x/annular_perturbation_chamber.json)
-- [P9-XG12 watertight OBJ](sandbox:/mnt/data/quiet_quartz19_p9xg12x/p9_xg12_annular_centered_triangulated.obj)
-- [P9-XG12 watertight STL](sandbox:/mnt/data/quiet_quartz19_p9xg12x/p9_xg12_annular_centered.stl)
-- [P9-XG15 exact row input](sandbox:/mnt/data/quiet_quartz19_p9xg12x/xg15_cd2_rows_exact.json)
-- [P9-XG15 complete exact ledger](sandbox:/mnt/data/quiet_quartz19_p9xg12x/p9_xg15_cd2_exact_ledger.json)
-- [P9-XG15 certified chamber](sandbox:/mnt/data/quiet_quartz19_p9xg12x/xg15_perturbation_chamber.json)
-- [P9-XG15 watertight OBJ](sandbox:/mnt/data/quiet_quartz19_p9xg12x/p9_xg15_cd2_centered_triangulated.obj)
-- [P9-XG15 watertight STL](sandbox:/mnt/data/quiet_quartz19_p9xg12x/p9_xg15_cd2_centered.stl)
-- [Machine-readable P9-XG16 successor specification](sandbox:/mnt/data/quiet_quartz19_p9xg12x/P9_XG16_successor_spec.json)
+- Complete deterministic ZIP package (`Quiet_Quartz_19_P9_XG12_XG15_exact_nonwinner.zip`)
+- Archive SHA-256 (`Quiet_Quartz_19_P9_XG12_XG15_SHA256.txt`)
+- Detailed mathematical handoff (`RESEARCH_HANDOFF.md`)
+- Package README and replay instructions (`README.md`)
+- SHA-256 package manifest (`PACKAGE_MANIFEST.json`)
+- One-command exact generator/verifier (`RUN_ALL.sh`)
+- Independent clean-room verifier (`verify_independent.py`)
+- P9-XG12 exact row input (`xg12_annular_rows_exact.json`)
+- P9-XG12 complete exact ledger (`p9_xg12_annular_exact_ledger.json`)
+- P9-XG12 certified chamber (`annular_perturbation_chamber.json`)
+- P9-XG12 watertight OBJ (`p9_xg12_annular_centered_triangulated.obj`)
+- P9-XG12 watertight STL (`p9_xg12_annular_centered.stl`)
+- P9-XG15 exact row input (`xg15_cd2_rows_exact.json`)
+- P9-XG15 complete exact ledger (`p9_xg15_cd2_exact_ledger.json`)
+- P9-XG15 certified chamber (`xg15_perturbation_chamber.json`)
+- P9-XG15 watertight OBJ (`p9_xg15_cd2_centered_triangulated.obj`)
+- P9-XG15 watertight STL (`p9_xg15_cd2_centered.stl`)
+- Machine-readable P9-XG16 successor specification (`P9_XG16_successor_spec.json`)
 
 ## Final status
 

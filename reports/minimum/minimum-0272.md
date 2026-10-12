@@ -72,7 +72,7 @@ Only consecutive pairs in these cycles are mechanical edges. The positive tetrah
 (7,9,8,2), (7,9,2,3), (7,9,3,4).
 ```
 
-The original geometry and actual-moment convention agree with the supplied parent. fileciteturn11file0L34-L88
+The original geometry and actual-moment convention agree with the supplied parent.
 
 Write the raw source vertices as Y_i. For p=(h,k,l), define
 

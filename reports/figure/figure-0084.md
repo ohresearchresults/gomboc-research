@@ -10,7 +10,7 @@ AI research report · 2026-08-26 UTC
 
 **No homogeneous convex polyhedral Gömböc was found.** The strongest endpoint is an exact rational, own-centred, open 11-vertex body with strict class `(S,U,H)=(2,2,2)`, not `(1,1,0)`. I found no exact global exclusion of its entire combinatorial realization space and closed no inherited low-vertex chamber.
 
-The acceptance gate remains the exact one in the shared journal: uniform volume density, equilibria at the body’s own exact volume centroid, exactly one stable maximal face, one unstable vertex and no saddle true edge, together with complete incidence, strict margins, independent verification and OBJ/STL. A near-object or wall point is not a completion. :contentReference[oaicite:0]{index=0} The supplied starting point was the exact V11 `(2,2,2)` endpoint whose coalesced defect was stable `[0,12,15]`, unstable vertex `4`, and saddles `[0,14]`,`[0,15]`; the requested next move was one whole-block replacement with obsolete labels allowed to deactivate in the same circuit cascade. :contentReference[oaicite:1]{index=1}
+The acceptance gate remains the exact one in the shared journal: uniform volume density, equilibria at the body’s own exact volume centroid, exactly one stable maximal face, one unstable vertex and no saddle true edge, together with complete incidence, strict margins, independent verification and OBJ/STL. A near-object or wall point is not a completion. The supplied starting point was the exact V11 `(2,2,2)` endpoint whose coalesced defect was stable `[0,12,15]`, unstable vertex `4`, and saddles `[0,14]`,`[0,15]`; the requested next move was one whole-block replacement with obsolete labels allowed to deactivate in the same circuit cascade.
 
 ## What changed
 
@@ -245,47 +245,47 @@ No inherited low-vertex system was exactly closed here. The rigorous lower bound
 | rooted automorphism orbits | 0 | 17,253 |
 | stable-face chambers | 0 | 207,036 |
 
-The journal’s prior exact theorem remains only `V≥8`; the unresolved V8 counts must not be reduced by numerical nonhits. :contentReference[oaicite:2]{index=2}
+The journal’s prior exact theorem remains only `V≥8`; the unresolved V8 counts must not be reduced by numerical nonhits.
 
 ## Reproducibility artifacts
 
-- [Standalone Markdown handoff](sandbox:/mnt/data/slot8_wholeblock_research_handoff.md)
-- [Complete reproducibility bundle](sandbox:/mnt/data/slot8_wholeblock_research_bundle.zip)
-- [Bundle manifest with per-file SHA-256](sandbox:/mnt/data/slot8_wholeblock_research_manifest.json)
+- Standalone Markdown handoff (`slot8_wholeblock_research_handoff.md`)
+- Complete reproducibility bundle (`slot8_wholeblock_research_bundle.zip`)
+- Bundle manifest with per-file SHA-256 (`slot8_wholeblock_research_manifest.json`)
 
 ### Exact endpoint
 
-- [Exact rational candidate, planes, faces and edges](sandbox:/mnt/data/slot8_wholeblock_v11_exact_candidate.json)
-- [Exhaustive exact all-feature audit](sandbox:/mnt/data/slot8_wholeblock_v11_exact_audit.json)
-- [Machine-readable endpoint report](sandbox:/mnt/data/slot8_wholeblock_v11_exact_report.json)
-- [Independent V-driven exact verifier](sandbox:/mnt/data/slot8_wholeblock_v11_exact_verify.py)
-- [V-driven verifier transcript](sandbox:/mnt/data/slot8_wholeblock_v11_exact_verification.txt)
-- [Independent H-to-V exact verifier](sandbox:/mnt/data/slot8_wholeblock_v11_H_reconstruction_verify.py)
-- [H-to-V verifier transcript](sandbox:/mnt/data/slot8_wholeblock_v11_H_reconstruction_verification.txt)
-- [Full-class interval-box verifier](sandbox:/mnt/data/slot8_wholeblock_v11_fullclass_box_verify.py)
-- [Full-class interval transcript](sandbox:/mnt/data/slot8_wholeblock_v11_fullclass_box_verification.txt)
-- [Vertex CSV](sandbox:/mnt/data/slot8_wholeblock_v11_exact_vertices.csv)
-- [OBJ](sandbox:/mnt/data/slot8_wholeblock_v11_exact.obj)
-- [STL](sandbox:/mnt/data/slot8_wholeblock_v11_exact.stl)
-- [Mesh correspondence verifier](sandbox:/mnt/data/slot8_wholeblock_v11_mesh_verify.py)
-- [Mesh verifier transcript](sandbox:/mnt/data/slot8_wholeblock_v11_mesh_verification.txt)
+- Exact rational candidate, planes, faces and edges (`slot8_wholeblock_v11_exact_candidate.json`)
+- Exhaustive exact all-feature audit (`slot8_wholeblock_v11_exact_audit.json`)
+- Machine-readable endpoint report (`slot8_wholeblock_v11_exact_report.json`)
+- Independent V-driven exact verifier (`slot8_wholeblock_v11_exact_verify.py`)
+- V-driven verifier transcript (`slot8_wholeblock_v11_exact_verification.txt`)
+- Independent H-to-V exact verifier (`slot8_wholeblock_v11_H_reconstruction_verify.py`)
+- H-to-V verifier transcript (`slot8_wholeblock_v11_H_reconstruction_verification.txt`)
+- Full-class interval-box verifier (`slot8_wholeblock_v11_fullclass_box_verify.py`)
+- Full-class interval transcript (`slot8_wholeblock_v11_fullclass_box_verification.txt`)
+- Vertex CSV (`slot8_wholeblock_v11_exact_vertices.csv`)
+- OBJ (`slot8_wholeblock_v11_exact.obj`)
+- STL (`slot8_wholeblock_v11_exact.stl`)
+- Mesh correspondence verifier (`slot8_wholeblock_v11_mesh_verify.py`)
+- Mesh verifier transcript (`slot8_wholeblock_v11_mesh_verification.txt`)
 
 ### Circuit path and obstruction
 
-- [Exact 31-cell topology path](sandbox:/mnt/data/slot8_wholeblock_exact_topology_path.json)
-- [Deterministic exact path generator](sandbox:/mnt/data/slot8_wholeblock_exact_topology_path_generate.py)
-- [Independent exact path verifier](sandbox:/mnt/data/slot8_wholeblock_exact_topology_path_verify.py)
-- [Path verifier transcript](sandbox:/mnt/data/slot8_wholeblock_exact_topology_path_verification.txt)
-- [Exact local obstruction certificate](sandbox:/mnt/data/slot8_wholeblock_v11_obstruction_certificate.json)
-- [Obstruction verifier](sandbox:/mnt/data/slot8_wholeblock_v11_obstruction_verify.py)
-- [Obstruction verifier transcript](sandbox:/mnt/data/slot8_wholeblock_v11_obstruction_verification.txt)
-- [Exact acyclic witness graph](sandbox:/mnt/data/slot8_wholeblock_v11_witness_graph.json)
-- [Witness-graph verifier](sandbox:/mnt/data/slot8_wholeblock_v11_witness_graph_verify.py)
-- [Witness-graph transcript](sandbox:/mnt/data/slot8_wholeblock_v11_witness_graph_verification.txt)
-- [Directed interval route-bound certificate](sandbox:/mnt/data/slot8_wholeblock_radial_route_bound_certificate.json)
-- [Route-bound verifier](sandbox:/mnt/data/slot8_wholeblock_radial_route_bound.py)
-- [Route-bound transcript](sandbox:/mnt/data/slot8_wholeblock_radial_route_bound_verification.txt)
-- [Machine-readable search report](sandbox:/mnt/data/slot8_wholeblock_search_report.json)
+- Exact 31-cell topology path (`slot8_wholeblock_exact_topology_path.json`)
+- Deterministic exact path generator (`slot8_wholeblock_exact_topology_path_generate.py`)
+- Independent exact path verifier (`slot8_wholeblock_exact_topology_path_verify.py`)
+- Path verifier transcript (`slot8_wholeblock_exact_topology_path_verification.txt`)
+- Exact local obstruction certificate (`slot8_wholeblock_v11_obstruction_certificate.json`)
+- Obstruction verifier (`slot8_wholeblock_v11_obstruction_verify.py`)
+- Obstruction verifier transcript (`slot8_wholeblock_v11_obstruction_verification.txt`)
+- Exact acyclic witness graph (`slot8_wholeblock_v11_witness_graph.json`)
+- Witness-graph verifier (`slot8_wholeblock_v11_witness_graph_verify.py`)
+- Witness-graph transcript (`slot8_wholeblock_v11_witness_graph_verification.txt`)
+- Directed interval route-bound certificate (`slot8_wholeblock_radial_route_bound_certificate.json`)
+- Route-bound verifier (`slot8_wholeblock_radial_route_bound.py`)
+- Route-bound transcript (`slot8_wholeblock_radial_route_bound_verification.txt`)
+- Machine-readable search report (`slot8_wholeblock_search_report.json`)
 
 Candidate SHA-256: `5413323c19ce30ffddd498c1d306b511ffd88f9dd7b1f569d9f9057d7fd5b224`.
 

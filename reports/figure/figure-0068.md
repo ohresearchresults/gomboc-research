@@ -8,11 +8,11 @@ AI research report · 2026-08-25 UTC
 
 ## Verdict
 
-I applied the journal’s literal acceptance gate: uniform volume density, mechanics at the body’s own exact volume centroid, a finite exact H/V representation, exhaustive maximal-face/vertex/true-edge audit, positive incidence separation, an independent verifier, and mesh export. A near-wall or auxiliary-center object is not accepted. :contentReference[oaicite:0]{index=0}
+I applied the journal’s literal acceptance gate: uniform volume density, mechanics at the body’s own exact volume centroid, a finite exact H/V representation, exhaustive maximal-face/vertex/true-edge audit, positive incidence separation, an independent verifier, and mesh export. A near-wall or auxiliary-center object is not accepted.
 
 **No strict homogeneous convex polyhedral Gömböc was found in this direction. I do not claim `(S,U,H)=(1,1,0)`.**
 
-This work nevertheless fills the specific missing architecture identified in the journal—an algebraically centroid-hardwired stacked/tetrahedral family. :contentReference[oaicite:1]{index=1} The strongest exact result is:
+This work nevertheless fills the specific missing architecture identified in the journal—an algebraically centroid-hardwired stacked/tetrahedral family. The strongest exact result is:
 
 1. an explicit eight-vertex rational stacked polyhedron **B**, centered exactly through a fixed positive tetrahedral chain, with complete exact/directed verification and strict open class `(2,2,2)`; and
 2. an explicit ninth-vertex one-height stacked family over a second exact seed **A**, whose **entire open fixed-combinatorics cell `0<u<1` is algebraically excluded** because two maximal faces remain strictly stable throughout.
@@ -28,7 +28,7 @@ The numerical search over the full seven eight-vertex stacked graph types found 
 - Rationalized two strict open `(2,2,2)` bodies, rebuilt their complete exact hulls, and certified every feature.
 - Closed one full ninth-vertex stack-height cell by exact rational-function sign and root counting rather than by sampled extrapolation.
 
-This follows the journal’s warning that transfer-wall samples and facet-only signs are insufficient; every result below uses the actual maximal faces, true edges, and full normal cones at the own centroid. :contentReference[oaicite:2]{index=2}
+This follows the journal’s warning that transfer-wall samples and facet-only signs are insufficient; every result below uses the actual maximal faces, true edges, and full normal cones at the own centroid.
 
 # Part I — strongest explicit algebraically centered body B
 
@@ -397,29 +397,29 @@ both endpoints being approximately `0.6540321260045415`, with interval width bel
 
 The complete portable bundle includes all exact coordinates, both H/V representations, tetrahedral decompositions, every feature primitive, inactivity tables, symbolic family certificates, search sources/logs, exact and interval verifiers, an independent V-only reconstructor, and OBJ/STL exports.
 
-- [Download complete research bundle ZIP](sandbox:/mnt/data/stacked_tetrahedral_research_bundle.zip)
-- [Read the full standalone report](sandbox:/mnt/data/stacked_tetrahedral_research_REPORT.md)
-- [ZIP SHA-256 record](sandbox:/mnt/data/stacked_tetrahedral_research_bundle.zip.sha256)
-- [Bundle manifest](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/SHA256SUMS.txt)
-- [Combined verifier transcript](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/RUN_ALL_VERIFIERS.txt)
+- Download complete research bundle ZIP (`stacked_tetrahedral_research_bundle.zip`)
+- Read the full standalone report (`stacked_tetrahedral_research_REPORT.md`)
+- ZIP SHA-256 record (`stacked_tetrahedral_research_bundle.zip.sha256`)
+- Bundle manifest (`SHA256SUMS.txt`)
+- Combined verifier transcript (`RUN_ALL_VERIFIERS.txt`)
 
 Body B:
 
-- [machine-readable candidate](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/closest_exact/candidate.json)
-- [exact centered vertices](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/closest_exact/vertices_centered.csv)
-- [exact primitive H-representation](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/closest_exact/halfspaces_primitive.csv)
-- [complete per-feature margins](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/closest_exact/complete_margin_summary.csv)
-- [exact verifier](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/closest_exact/verify_fraction.py)
-- [independent V-only reconstructor](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/closest_exact/verify_independent_reconstruct.py)
-- [interval perturbation verifier](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/closest_exact/verify_interval.py)
-- [OBJ](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/closest_exact/body.obj)
-- [STL](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/closest_exact/body.stl)
+- machine-readable candidate (`candidate.json`)
+- exact centered vertices (`vertices_centered.csv`)
+- exact primitive H-representation (`halfspaces_primitive.csv`)
+- complete per-feature margins (`complete_margin_summary.csv`)
+- exact verifier (`verify_fraction.py`)
+- independent V-only reconstructor (`verify_independent_reconstruct.py`)
+- interval perturbation verifier (`verify_interval.py`)
+- OBJ (`body.obj`)
+- STL (`body.stl`)
 
 Closed family:
 
-- [symbolic family verifier](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/robust_obstruction_seed/verify_stack_height_family.py)
-- [materialized polynomial/root certificate](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/robust_obstruction_seed/stack_height_certificate.json)
-- [seed A candidate](sandbox:/mnt/data/stacked_tetrahedral_research_bundle/robust_obstruction_seed/candidate.json)
+- symbolic family verifier (`verify_stack_height_family.py`)
+- materialized polynomial/root certificate (`stack_height_certificate.json`)
+- seed A candidate (`candidate.json`)
 
 Run from the extracted bundle root:
 

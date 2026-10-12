@@ -18,7 +18,7 @@ This identifies a necessary physical feature of any successful facet-preserving 
 
 There is a material access limitation. Only the first30 lines of the latest journal were available in an inspectable tool response. I could not verify the remaining lines31–2153, extract the complete literal JOINT56 parent, verify the attachment’s declared hash, or inspect a successful computational return. The attachment is declared as418936 bytes with SHA-256 `5cf5709a9fefd25aeb253ff9eba598efcc4cfafddbe2a771a609cef8130b9d1e`; that is a manifest identity, **not a newly observed verification**. The requested controlling parent remains `figure-0559`, declared SHA-256 `e0181e33bc72dfc97e64bd431ef4a23f627e5c083036b4ed931e2393205b22db`.
 
-Consequently, **I do not assert that L18, F18, L30, or F30 satisfies the theorem’s projection premise**. Their vertex/edge/facet counts do not determine that premise. The visible journal also distinguishes the improved F18 body from the simpler-arithmetic L18 control; those identities must not be merged. fileciteturn12file0L20-L24
+Consequently, **I do not assert that L18, F18, L30, or F30 satisfies the theorem’s projection premise**. Their vertex/edge/facet counts do not determine that premise. The visible journal also distinguishes the improved F18 body from the simpler-arithmetic L18 control; those identities must not be merged.
 
 The result below is an analytic family exclusion with a complete exact predicate. Its mathematical proof does not depend on the unavailable coordinates. The predicate implementation is supplied for continuation, but its execution markers are explicitly **unobserved**.
 

@@ -30,9 +30,9 @@ Consequently, a putative root-only T>=51/25 body with strictly positive opposite
 
 Read the complete current journal through EOF, including the literal parent payload and its full encoded recovery, and read the complete supplied analytic proof. The current journal research-journal(20260920-163546).md is 325288 bytes, SHA-256 a399e76e08f716eb760aea2d56f1da26dd78ff3cd9148aafbf9e65432c2e6866.
 
-The required literal parent is minimum-0128, supplied immutable SHA-256 9b8fa9986220926caf778450ec66563e7e5fe300aa1c9fb53433306b415efa34. Its binary countercontrols and its individual-volume-rigidity complement remain authoritative; none is identified with the coordinator's different old-jb58 fixture. The parent's actual single-vertex reduction explicitly leaves root-only, patch and rigid-auxiliary alternatives. :contentReference[oaicite:0]{index=0}
+The required literal parent is minimum-0128, supplied immutable SHA-256 9b8fa9986220926caf778450ec66563e7e5fe300aa1c9fb53433306b415efa34. Its binary countercontrols and its individual-volume-rigidity complement remain authoritative; none is identified with the coordinator's different old-jb58 fixture. The parent's actual single-vertex reduction explicitly leaves root-only, patch and rigid-auxiliary alternatives.
 
-The supplied ROOT_ONLY_TRANSVERSE_FACE_REDUCTION_V1, material [internal-source-reference], is 16425 bytes, SHA-256 5052276824a0f332449deeb71c26427470ebb70eb1201728d8f985722aebc333. It is used as the stated working theorem, not re-presented as an independently verified new result. Its strict-transfer and patch qualifications are retained. :contentReference[oaicite:1]{index=1}
+The supplied ROOT_ONLY_TRANSVERSE_FACE_REDUCTION_V1, material [internal-source-reference], is 16425 bytes, SHA-256 5052276824a0f332449deeb71c26427470ebb70eb1201728d8f985722aebc333. It is used as the stated working theorem, not re-presented as an independently verified new result. Its strict-transfer and patch qualifications are retained.
 
 The parent's three-source recovery was decoded in sources mode and its complete sources/checkpoint were read. No old full certificate replay is claimed in this turn. No source-authority conflict or missing dependency affects the new result.
 
@@ -60,7 +60,7 @@ Write
     V=integral_P 1, Bell=integral_P ell, N=integral_P n,
     T=N/(6 V Bell).
 
-This is the original functional, including both original volume factors, not the uniformly refilled balanced image. The same functional and marked-patch convention are those of the supplied proof. :contentReference[oaicite:2]{index=2}
+This is the original functional, including both original volume factors, not the uniformly refilled balanced image. The same functional and marked-patch convention are those of the supplied proof.
 
 ## 4. Coupled planar integrals of this one body
 
@@ -278,7 +278,7 @@ For the general finite count, a true k-sided root has k distinct neighboring max
 
     k<=f-1<=8.
 
-Adding at most four canonical vertices gives at most 12 true vertices in the patch and at most 12 after the supplied root contraction. Thus the full proper root-only supremum equals that on bodies with at most 12 true vertices. Strict violations transfer to that smaller class. Equality/attainment after contraction remains exactly the qualification in the supplied theorem. :contentReference[oaicite:3]{index=3}
+Adding at most four canonical vertices gives at most 12 true vertices in the patch and at most 12 after the supplied root contraction. Thus the full proper root-only supremum equals that on bodies with at most 12 true vertices. Strict violations transfer to that smaller class. Equality/attainment after contraction remains exactly the qualification in the supplied theorem.
 
 A remaining high-trace terminal patch must have three or four true canonical vertices, f<=9 and k<=8. No exclusion of these remaining continuous shape strata, of arbitrary positive-ell auxiliaries, or of all proper contractions of a solved patch is claimed. In particular, no monotonicity of root contraction is assumed.
 
@@ -376,7 +376,7 @@ Environment actually used: CPython3.13.5, assertions enabled. The geometry child
 
 Observed markers: TWO_CANONICAL_ROOT_SHARP_GEOMETRY_PASS, TWO_CANONICAL_ROOT_UNIQUE_SHARP_MAXIMUM_PASS, TWO_CANONICAL_ROOT_SELF_CONTAINED_RECOVERY_PASS. Original and fresh source-only runs reproduced both report pins. This is exact computational algebra plus the complete geometric proof above, not proof-assistant formalization.
 
-Convenience copies: [autonomous recovery](sandbox:/mnt/data/recover_two_vertex_root.py), [plain geometry generator/verifier](sandbox:/mnt/data/two_vertex_root.py), [plain algebra verifier](sandbox:/mnt/data/two_vertex_algebra.py), and [complete sources and reports](sandbox:/mnt/data/two_vertex_root_complete.zip). The embedded source, not these links or hashes, is the durable reconstruction.
+Convenience copies: autonomous recovery (`recover_two_vertex_root.py`), plain geometry generator/verifier (`two_vertex_root.py`), plain algebra verifier (`two_vertex_algebra.py`), and complete sources and reports (`two_vertex_root_complete.zip`). The embedded source, not these links or hashes, is the durable reconstruction.
 
 ### Complete autonomous source
 

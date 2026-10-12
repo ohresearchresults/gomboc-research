@@ -10,7 +10,7 @@ AI research report · 2026-08-28 UTC
 
 **The missing finite critical collar and every target/collar/background cross-seam feature were materialized and certified. The resulting complete finite body is not an own-centroid `(1,1,0)` polyhedron.**
 
-The acceptance gate therefore remains unmet: the requested endpoint must have exactly one stable maximal face, one unstable vertex, no saddle true edges, exact own-volume centring, complete H/V incidence, positive all-feature margins, an independent verifier, and matching meshes. :contentReference[oaicite:0]{index=0}
+The acceptance gate therefore remains unmet: the requested endpoint must have exactly one stable maximal face, one unstable vertex, no saddle true edges, exact own-volume centring, complete H/V incidence, positive all-feature margins, an independent verifier, and matching meshes.
 
 This result changes the refinement-plus-Santaló diagnosis materially. The previously missing critical collar antecedent is now closed with a directed margin above `1.915868198716011e-6`. The first obstruction lies strictly outside that collar, in the deliberately coarse 16-sector noncritical angular background. That background violates the prior support-error budget by approximately `1.12952×10^6` and creates thousands of remote equilibria.
 
@@ -18,28 +18,28 @@ No local support controls were introduced after the hull rebuild because the act
 
 ## Reusable artifact set
 
-- [Archive README](sandbox:/mnt/data/RQ69_AQ16_exact_collar/README.md)
-- [Deterministic finite generator](sandbox:/mnt/data/RQ69_AQ16_exact_collar/generate_AQ16_exact.py)
-- [Independent exact/directed verifier](sandbox:/mnt/data/RQ69_AQ16_exact_collar/verify_AQ16_exact.py)
-- [Machine-readable certificate](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_certificate.json)
-- [Complete exact topology and coordinate arrays](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_exact_data.npz)
-- [Exact Q vertex rows](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_Q_vertices_exact.csv)
-- [Exact Q maximal faces](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_Q_maximal_faces_exact.jsonl)
-- [Exact Q true edges](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_Q_true_edges.csv)
-- [P halfspaces with Santaló root box](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_P_H_rows_root_box.csv)
-- [P vertices at the root midpoint](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_P_vertices_root_midpoint.csv)
-- [P maximal faces](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_P_maximal_faces.jsonl)
-- [P true edges](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_P_true_edges.csv)
-- [Complete collar/cross-seam mechanics ledger](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_local_collar_cross_seam_features.csv)
-- [Directed collar margins](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_local_directed_margins.json)
-- [High-precision Santaló enclosure](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_santalo_high_precision.json)
-- [Exact root-box witness arrays](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_root_box_witnesses.npz)
-- [Perturbation proof](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_perturbation_proof.json)
-- [First failed background features](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_first_failed_background_features.json)
-- [Q OBJ](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_Q.obj)
-- [Q STL](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_Q.stl)
-- [Own-centred P OBJ at the root midpoint](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_P_at_santalo_midpoint.obj)
-- [Own-centred P STL at the root midpoint](sandbox:/mnt/data/RQ69_AQ16_exact_collar/AQ16_P_at_santalo_midpoint.stl)
+- Archive README (`README.md`)
+- Deterministic finite generator (`generate_AQ16_exact.py`)
+- Independent exact/directed verifier (`verify_AQ16_exact.py`)
+- Machine-readable certificate (`AQ16_certificate.json`)
+- Complete exact topology and coordinate arrays (`AQ16_exact_data.npz`)
+- Exact Q vertex rows (`AQ16_Q_vertices_exact.csv`)
+- Exact Q maximal faces (`AQ16_Q_maximal_faces_exact.jsonl`)
+- Exact Q true edges (`AQ16_Q_true_edges.csv`)
+- P halfspaces with Santaló root box (`AQ16_P_H_rows_root_box.csv`)
+- P vertices at the root midpoint (`AQ16_P_vertices_root_midpoint.csv`)
+- P maximal faces (`AQ16_P_maximal_faces.jsonl`)
+- P true edges (`AQ16_P_true_edges.csv`)
+- Complete collar/cross-seam mechanics ledger (`AQ16_local_collar_cross_seam_features.csv`)
+- Directed collar margins (`AQ16_local_directed_margins.json`)
+- High-precision Santaló enclosure (`AQ16_santalo_high_precision.json`)
+- Exact root-box witness arrays (`AQ16_root_box_witnesses.npz`)
+- Perturbation proof (`AQ16_perturbation_proof.json`)
+- First failed background features (`AQ16_first_failed_background_features.json`)
+- Q OBJ (`AQ16_Q.obj`)
+- Q STL (`AQ16_Q.stl`)
+- Own-centred P OBJ at the root midpoint (`AQ16_P_at_santalo_midpoint.obj`)
+- Own-centred P STL at the root midpoint (`AQ16_P_at_santalo_midpoint.stl`)
 
 The individual files form the complete result archive; a monolithic ZIP was not generated in this turn.
 

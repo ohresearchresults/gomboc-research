@@ -14,12 +14,12 @@ This is a genuine advance beyond the preceding `E19X` obstruction: the forcing e
 
 ## Immutable artifacts
 
-- [Portable exact archive](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_nonwinner.zip)
-- [Archive SHA-256](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_nonwinner.zip.sha256): `6f9d8eb12e4400be4cd3edc37e11e83e1e538cfcc9c92c3c143213cda96266e3`
-- [Complete determination](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/RESULT.md), [README](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/README.md), [one-command verifier](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/[internal-source-reference].sh), [63-file manifest](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/SHA256SUMS)
-- [Exact endpoint report](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/E21D_exact_report.json), [complete H representation](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/E21D_H_representation.json), [exhaustive audit](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/E21D_audit.md), [independent report](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/E21D_independent_verification.json)
-- [Perturbation certificate](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/E21D_perturbation_certificate.json), [four-control certificate](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/E21D_four_control_certificate.json), [component theorem](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/E21D_component_certificate.json), [independent component verifier](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/verify_E21D_component_independent.py)
-- [Centred OBJ](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/E21D_centered.obj), [centred STL](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/E21D_centered.stl), [post-endpoint search receipt](sandbox:/mnt/data/vivid_quartz_58_terminal_diamond_result/search_receipts/post_E21D_search_summary.json)
+- Portable exact archive (`vivid_quartz_58_terminal_diamond_nonwinner.zip`)
+- Archive SHA-256 (`vivid_quartz_58_terminal_diamond_nonwinner.zip.sha256`): `6f9d8eb12e4400be4cd3edc37e11e83e1e538cfcc9c92c3c143213cda96266e3`
+- Complete determination (`RESULT.md`), README (`README.md`), one-command verifier (`[internal-source-reference].sh`), 63-file manifest (`SHA256SUMS`)
+- Exact endpoint report (`E21D_exact_report.json`), complete H representation (`E21D_H_representation.json`), exhaustive audit (`E21D_audit.md`), independent report (`E21D_independent_verification.json`)
+- Perturbation certificate (`E21D_perturbation_certificate.json`), four-control certificate (`E21D_four_control_certificate.json`), component theorem (`E21D_component_certificate.json`), independent component verifier (`verify_E21D_component_independent.py`)
+- Centred OBJ (`E21D_centered.obj`), centred STL (`E21D_centered.stl`), post-endpoint search receipt (`post_E21D_search_summary.json`)
 
 The clean manifest-bound replay ends with `ALL VIVID QUARTZ 58 TERMINAL-DIAMOND VERIFIERS PASS`; the ZIP passes an independent compressed-data integrity test.
 

@@ -18,25 +18,25 @@ The completed fallback deliverable is an orbit-complete exact partition of the e
 - the remaining 24,835 labeled systems form 17,253 rooted automorphism orbits;
 - every unresolved orbit is accompanied by a generator for its complete strict three-dimensional realization, uniform-volume centroid, stable-face, unstable-vertex, and no-saddle semialgebraic chambers.
 
-The primary paper supplies the simplicial reduction, rooted shadow-tree inequalities, and root-cone tetrahedral moment framework on which this extension is based. :contentReference[oaicite:0]{index=0} The exact finite audit follows the transcript's requirement to compute the volume centroid by oriented tetrahedra and to check every face, vertex, edge, and convexity determinant with strict signs. :contentReference[oaicite:3]{index=3}
+The primary paper supplies the simplicial reduction, rooted shadow-tree inequalities, and root-cone tetrahedral moment framework on which this extension is based. The exact finite audit follows the transcript's requirement to compute the volume centroid by oriented tetrahedra and to check every face, vertex, edge, and convexity determinant with strict signs.
 
 ## Reusable files
 
-- [Fourteen exact combinatorial types](sandbox:/mnt/data/v8_complete_attack/v8_graphs.json)
-- [Independent graph enumeration](sandbox:/mnt/data/v8_complete_attack/graph_enumeration.py)
-- [Abstract base certificate partition](sandbox:/mnt/data/v8_complete_attack/v8_abstract_base.json)
-- [Universal vertex-moment partition](sandbox:/mnt/data/v8_complete_attack/v8_universal_moment1.json)
-- [Complete labeled-system mapping](sandbox:/mnt/data/v8_complete_attack/v8_actual_partition.json)
-- [Graph-specific moment partition](sandbox:/mnt/data/v8_complete_attack/v8_actual_moment_partition.json)
-- [Exact branch-key mapping](sandbox:/mnt/data/v8_complete_attack/v8_actual_branch_keys.json)
-- [All 17,253 unresolved rooted orbits](sandbox:/mnt/data/v8_complete_attack/v8_unresolved_orbits.json)
-- [Complete QF_NRA chamber generator](sandbox:/mnt/data/v8_complete_attack/generate_semialgebraic.py)
-- [Independent exact partition verifier](sandbox:/mnt/data/v8_complete_attack/verify_v8_partition.py)
-- [Saved full verification result](sandbox:/mnt/data/v8_complete_attack/verification_summary.json)
-- [Constructive-search summary](sandbox:/mnt/data/v8_complete_attack/v8_constructive_search_summary.json)
-- [Exact rational polyhedron verifier](sandbox:/mnt/data/v8_complete_attack/exact_polyhedron_verifier.py)
-- [Adaptive two-level centroid-moment scanner](sandbox:/mnt/data/v8_complete_attack/adaptive2_scan_stream.py)
-- [Adaptive-certificate rationalizer](sandbox:/mnt/data/v8_complete_attack/rationalize_adaptive2.py)
+- Fourteen exact combinatorial types (`v8_graphs.json`)
+- Independent graph enumeration (`graph_enumeration.py`)
+- Abstract base certificate partition (`v8_abstract_base.json`)
+- Universal vertex-moment partition (`v8_universal_moment1.json`)
+- Complete labeled-system mapping (`v8_actual_partition.json`)
+- Graph-specific moment partition (`v8_actual_moment_partition.json`)
+- Exact branch-key mapping (`v8_actual_branch_keys.json`)
+- All 17,253 unresolved rooted orbits (`v8_unresolved_orbits.json`)
+- Complete QF_NRA chamber generator (`generate_semialgebraic.py`)
+- Independent exact partition verifier (`verify_v8_partition.py`)
+- Saved full verification result (`verification_summary.json`)
+- Constructive-search summary (`v8_constructive_search_summary.json`)
+- Exact rational polyhedron verifier (`exact_polyhedron_verifier.py`)
+- Adaptive two-level centroid-moment scanner (`adaptive2_scan_stream.py`)
+- Adaptive-certificate rationalizer (`rationalize_adaptive2.py`)
 
 ## 1. Complete combinatorial enumeration
 

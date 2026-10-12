@@ -108,7 +108,7 @@ Let C>0 be a fixed rational reference for this actual body, and suppose every jo
 
     cond(C¹ᐟ² M C¹ᐟ²) ≤ K,
 
-where K>1 is rational. For the actual-covariance E17 application, C=Sigma and the retained finite-height result supplies the safe K=48. This is a bound in the actual covariance frame, not in an unrelated reference. fileciteturn44file0L25-L29
+where K>1 is rational. For the actual-covariance E17 application, C=Sigma and the retained finite-height result supplies the safe K=48. This is a bound in the actual covariance frame, not in an unrelated reference.
 
 Set
 
@@ -548,4 +548,4 @@ The immediate substantive use is to take a genuinely unresolved actual body from
 
 The new finite reduction does not decide whether any such unresolved body's foot set is empty. The supplied five-sign convex-hull countercontrol cannot be promoted to a full-tree obstruction without its literal data and the remaining rows. Likewise, satisfying box(5) is not satisfaction of every original reference gate.
 
-No completed old605-cell replay was performed, and no new five-parameter H5 coverage is claimed. The internal accepted bracket34≤C_min≤622 remains unchanged. fileciteturn44file0L19-L21
+No completed old605-cell replay was performed, and no new five-parameter H5 coverage is claimed. The internal accepted bracket34≤C_min≤622 remains unchanged.

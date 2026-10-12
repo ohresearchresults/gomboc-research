@@ -8,19 +8,19 @@ AI research report · 2026-08-30 UTC
 
 ## Literal verdict
 
-**NONWINNER.** I did not construct a homogeneous convex polyhedral Gömböc. The exact successor below is strict own-centred `(S,U,H)=(2,2,2)`, so it fails the journal's literal `(1,1,0)` gate. The starting point was the certified 24-row/19-active `C0–C1` endpoint and its 31-arrow obstruction; the requested move was a nonannular finite-thickness two/three-cell replacement with a transverse return band and at least three independent topology controls. :contentReference[oaicite:0]{index=0}
+**NONWINNER.** I did not construct a homogeneous convex polyhedral Gömböc. The exact successor below is strict own-centred `(S,U,H)=(2,2,2)`, so it fails the journal's literal `(1,1,0)` gate. The starting point was the certified 24-row/19-active `C0–C1` endpoint and its 31-arrow obstruction; the requested move was a nonannular finite-thickness two/three-cell replacement with a transverse return band and at least three independent topology controls.
 
-The finite-thickness topology was realized exactly. It drains the inherited stable `C0`, removes the inherited extra source `(o27,B6,C0)`, removes both inherited saddles `(C0,o26)` and `(A4,A5)`, and absorbs the old true `C0–C1` edge. However, those deaths occur at different circuit roots, not one coupled root, and the Morse packet is transported to a new stable `o9`, extra unstable vertex `(C0,XS,XU)`, and saddles `(A5,C1)` and `(XS,o102)`. The inherited protected source `(o26,A2,A3)` also deactivates; the surviving intended-side source is `(o102,XS,XR)`. Therefore this is a rigorous finite endpoint and obstruction, not a near-solution relabelled as success. :contentReference[oaicite:1]{index=1}
+The finite-thickness topology was realized exactly. It drains the inherited stable `C0`, removes the inherited extra source `(o27,B6,C0)`, removes both inherited saddles `(C0,o26)` and `(A4,A5)`, and absorbs the old true `C0–C1` edge. However, those deaths occur at different circuit roots, not one coupled root, and the Morse packet is transported to a new stable `o9`, extra unstable vertex `(C0,XS,XU)`, and saddles `(A5,C1)` and `(XS,o102)`. The inherited protected source `(o26,A2,A3)` also deactivates; the surviving intended-side source is `(o102,XS,XR)`. Therefore this is a rigorous finite endpoint and obstruction, not a near-solution relabelled as success.
 
 ## Reproducible artifacts
 
-- [Complete archive](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle.zip), SHA-256 `aeecf8f5985f58463fe61ca9eac77c63ec7522d19b4cf7aefb8a944c6f8e6732`.
-- [Full handoff](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/P9_FT3_NONANNULAR_HANDOFF.md).
-- [Deterministic exact generator](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/generate_p9_ft3_nonannular.py) and [complete exact H/V/audit object](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_nonannular_exact.json), SHA-256 `12eee0cca91d58da00110852db6fdaa9f7cf3f12099f6b55515803dfd81b1f00`.
-- [H table](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_nonannular_H.csv), [V table](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_nonannular_vertices.csv), and [incidence](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_nonannular_incidence.json).
-- [Exact circuit atlas](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_path_atlas.json), [topology certificate](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_topology_and_circuits.json), [three-cell certificate](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_three_cell_certificate.json), and [complete witness graph](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_witness_graph_exact.json).
-- [Independent clean-room verifier](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/verify_p9_ft3_cleanroom.py), [directed perturbation verifier](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/verify_p9_ft3_perturbation_interval.py), and [mesh validator](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/validate_p9_ft3_mesh.py).
-- Matching [OBJ](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_nonannular.obj) and [STL](sandbox:/mnt/data/P9_FT3_nonannular_NONWINNER_bundle/successor/p9_ft3_nonannular.stl).
+- Complete archive (`P9_FT3_nonannular_NONWINNER_bundle.zip`), SHA-256 `aeecf8f5985f58463fe61ca9eac77c63ec7522d19b4cf7aefb8a944c6f8e6732`.
+- Full handoff (`P9_FT3_NONANNULAR_HANDOFF.md`).
+- Deterministic exact generator (`generate_p9_ft3_nonannular.py`) and complete exact H/V/audit object (`p9_ft3_nonannular_exact.json`), SHA-256 `12eee0cca91d58da00110852db6fdaa9f7cf3f12099f6b55515803dfd81b1f00`.
+- H table (`p9_ft3_nonannular_H.csv`), V table (`p9_ft3_nonannular_vertices.csv`), and incidence (`p9_ft3_nonannular_incidence.json`).
+- Exact circuit atlas (`p9_ft3_path_atlas.json`), topology certificate (`p9_ft3_topology_and_circuits.json`), three-cell certificate (`p9_ft3_three_cell_certificate.json`), and complete witness graph (`p9_ft3_witness_graph_exact.json`).
+- Independent clean-room verifier (`verify_p9_ft3_cleanroom.py`), directed perturbation verifier (`verify_p9_ft3_perturbation_interval.py`), and mesh validator (`validate_p9_ft3_mesh.py`).
+- Matching OBJ (`p9_ft3_nonannular.obj`) and STL (`p9_ft3_nonannular.stl`).
 
 The archive manifest passes `sha256sum -c` for every file, and the ZIP passes `unzip -t`.
 

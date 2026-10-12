@@ -26,9 +26,9 @@ The continuation produced **23 fully audited rational bodies**,22 satisfying E�
 
 ## Reading and source authority
 
-The entire newly supplied1213-line,308813-byte journal was read through EOF, including its literal required parent. The journal SHA-256 is `e4e59658f1f499e9fe2d519b82f56290e0a54aa6fb93db2d942ac57ecebc012e`. The controlling parent is `figure-0546`, delivered with immutable identity `6e33955763950defbd9a3d503706547d3a0ec6f361a18f15d468b1997953c59e`. Its exact CN64_G6 entrance, not a similarly named historical object, is V124/E186/F64, own121, P1/Q0. :contentReference[oaicite:0]{index=0}
+The entire newly supplied1213-line,308813-byte journal was read through EOF, including its literal required parent. The journal SHA-256 is `e4e59658f1f499e9fe2d519b82f56290e0a54aa6fb93db2d942ac57ecebc012e`. The controlling parent is `figure-0546`, delivered with immutable identity `6e33955763950defbd9a3d503706547d3a0ec6f361a18f15d468b1997953c59e`. Its exact CN64_G6 entrance, not a similarly named historical object, is V124/E186/F64, own121, P1/Q0.
 
-The unchanged earlier W51 and CN recovery sources were retained from their completed readings in this chat. No required dependency is missing. The original58-direction W51 own-S1 exclusion was accepted as given; no generic re-audit was performed. The coordinator's independent82-height union was not used as the construction family. The prior three-cut theorem was respected in its actual scope; complete packet removal was not repeated as the proposed cancellation mechanism. :contentReference[oaicite:1]{index=1}
+The unchanged earlier W51 and CN recovery sources were retained from their completed readings in this chat. No required dependency is missing. The original58-direction W51 own-S1 exclusion was accepted as given; no generic re-audit was performed. The coordinator's independent82-height union was not used as the construction family. The prior three-cut theorem was respected in its actual scope; complete packet removal was not repeated as the proposed cancellation mechanism.
 
 The included literal parent input is2173 bytes, SHA-256 `b8b1a9a4ca0d2626185a91e5844dc707b8456259f7f69cb43a77af7a79c31ec0`. All new exact definitions below are independently recoverable from the complete inline source; none requires an originating sandbox, an archive service, or numerical optimizer execution.
 
@@ -294,4 +294,4 @@ The shortened exact engine removes unused old arrays and constructors only; its1
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Convenience artifacts supplement—not replace—the complete inline recovery: [recovery script](sandbox:/mnt/data/RECOVER_MIXED_RELEASE.py), [all exact reports and interval certificates](sandbox:/mnt/data/MIXED_EXACT_REPORTS.zip), and [original numerical source, pins, and trajectory history](sandbox:/mnt/data/MIXED_FULL_HISTORY.zip).
+Convenience artifacts supplement—not replace—the complete inline recovery: recovery script (`RECOVER_MIXED_RELEASE.py`), all exact reports and interval certificates (`MIXED_EXACT_REPORTS.zip`), and original numerical source, pins, and trajectory history (`MIXED_FULL_HISTORY.zip`).

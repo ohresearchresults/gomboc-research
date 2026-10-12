@@ -21,13 +21,13 @@ Thus the parallel argument does not establish a homogeneous polyhedral Gömböc.
 
 ## 1. Where the proof fails
 
-The materialized effective note first derives a cellwise support estimate and then states, without a branch-complete derivation, that the same estimate and strong monotonicity force all active slopes at a face, edge, or vertex into one tiny ball; from this it concludes that the facet calculation applies simultaneously to every feature. It then uses a one-normal scalar inequality at the apex transition and says that this excludes every other facet, edge, and vertex, before concluding `S=1,U=1,H=0`. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The materialized effective note first derives a cellwise support estimate and then states, without a branch-complete derivation, that the same estimate and strong monotonicity force all active slopes at a face, edge, or vertex into one tiny ball; from this it concludes that the facet calculation applies simultaneously to every feature. It then uses a one-normal scalar inequality at the apex transition and says that this excludes every other facet, edge, and vertex, before concluding `S=1,U=1,H=0`.
 
-The finite exact audit proposed afterward would in principle be the right test—enumerate the actual face lattice, compute the exact centroid, and test every face, vertex, and true edge—but it was not run. The accompanying lazy builder takes the certified supports as inputs, leaves exact triple intersection as `NotImplementedError`, and publishes no active halfspace list or face lattice. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+The finite exact audit proposed afterward would in principle be the right test—enumerate the actual face lattice, compute the exact centroid, and test every face, vertex, and true edge—but it was not run. The accompanying lazy builder takes the certified supports as inputs, leaves exact triple intersection as `NotImplementedError`, and publishes no active halfspace list or face lattice.
 
-A separate quantitative dossier in the same project states the mathematically correct weaker conclusion: an explicit Thales link count only controls the links themselves; the convexity and transition-facet signs after gluing remain instance-specific. Its proposed final pipeline explicitly requires tests for every cap edge, transition facet, transition vertex, and adaptive middle-band cell. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+A separate quantitative dossier in the same project states the mathematically correct weaker conclusion: an explicit Thales link count only controls the links themselves; the convexity and transition-facet signs after gluing remain instance-specific. Its proposed final pipeline explicitly requires tests for every cap edge, transition facet, transition vertex, and adaptive middle-band cell.
 
-The original research transcript had already isolated exactly these unresolved obligations: construct the patch, audit every face and vertex, restore the centroid, rationalize, and repeat the mechanics in exact arithmetic. :contentReference[oaicite:6]{index=6}
+The original research transcript had already isolated exactly these unresolved obligations: construct the patch, audit every face and vertex, restore the centroid, rationalize, and repeat the mechanics in exact arithmetic.
 
 ## 2. Exact scale-matched counterexample
 
@@ -106,11 +106,11 @@ The counterexample is not a floating-point stress test. Two independent standard
 
 ## 3. Why the Thales spiral does not close the gap
 
-Lángi's Lemma 3 proves that distance decreases along each link of a suitable planar polygonal chain. In the actual existence proof, that local fact is not treated as sufficient. For the saddle patch, Lángi analyzes the mixed intersection as the minimum of two graph functions and then truncates any remaining supporting plane that carries an equilibrium. For the unstable patch, the whole rotated mixed boundary is treated. In Step 3, the remaining compact boundary is separated from the compact family of **all** potentially radial supporting planes before a finite cover is selected. :contentReference[oaicite:7]{index=7}
+Lángi's Lemma 3 proves that distance decreases along each link of a suitable planar polygonal chain. In the actual existence proof, that local fact is not treated as sufficient. For the saddle patch, Lángi analyzes the mixed intersection as the minimum of two graph functions and then truncates any remaining supporting plane that carries an equilibrium. For the unstable patch, the whole rotated mixed boundary is treated. In Step 3, the remaining compact boundary is separated from the compact family of **all** potentially radial supporting planes before a finite cover is selected.
 
-Lángi's theorem therefore supports existence, but it does not justify replacing those mixed-feature arguments by linkwise monotonicity or per-facet residuals. The theorem itself is qualitative and proves that a centered polyhedron with prescribed equilibrium counts exists; it does not publish the claimed finite list. :contentReference[oaicite:8]{index=8}
+Lángi's theorem therefore supports existence, but it does not justify replacing those mixed-feature arguments by linkwise monotonicity or per-facet residuals. The theorem itself is qualitative and proves that a centered polyhedron with prescribed equilibrium counts exists; it does not publish the claimed finite list.
 
-An exact gluing experiment elsewhere in this project demonstrates that this distinction is operationally real: every local successor inequality of a rational corridor was strict, yet the actual convex hull deleted intended points, introduced bridge faces, and created four new stable-saddle pairs. :contentReference[oaicite:9]{index=9} :contentReference[oaicite:10]{index=10}
+An exact gluing experiment elsewhere in this project demonstrates that this distinction is operationally real: every local successor inequality of a rational corridor was strict, yet the actual convex hull deleted intended points, introduced bridge faces, and created four new stable-saddle pairs.
 
 ## 4. Polarity and centroid transfer audit
 
@@ -171,7 +171,7 @@ Its minimum is
 2^{-179},
 \]
 
-not `2^-96` as stated. :contentReference[oaicite:11]{index=11}
+not `2^-96` as stated.
 
 The accompanying cell error `2^-479` is still far smaller, so this arithmetic error alone does not destroy the scale separation. It does show that the displayed constants require machine checking; the provided constant audit does so with exact fractions and outward-rounded interval arithmetic.
 
@@ -193,17 +193,17 @@ Until one of those branch-complete certificates is supplied, the claimed `S=1,U=
 
 ## 7. Reusable artifacts
 
-- [Complete independent audit bundle](sandbox:/mnt/data/gomboc_slot5/assignment3_independent_audit_bundle.zip)
-- [Bundle SHA-256](sandbox:/mnt/data/gomboc_slot5/assignment3_independent_audit_bundle.zip.sha256)
-- [Full audit report](sandbox:/mnt/data/gomboc_slot5/assignment3/AUDIT_RESULT.md)
-- [Polarity and centroid derivation](sandbox:/mnt/data/gomboc_slot5/assignment3/POLARITY_CENTROID_AUDIT.md)
-- [Machine-readable audit summary](sandbox:/mnt/data/gomboc_slot5/assignment3/audit_summary.json)
-- [Mixed-feature obligation matrix](sandbox:/mnt/data/gomboc_slot5/assignment3/mixed_feature_obligation_matrix.json)
-- [Exact rational counterexample and complete face lattice](sandbox:/mnt/data/gomboc_slot5/assignment3/mixed_transition_prism.json)
-- [Primary exact verifier/generator](sandbox:/mnt/data/gomboc_slot5/assignment3/verify_mixed_transition_gap.py)
-- [Independent exact reader/verifier](sandbox:/mnt/data/gomboc_slot5/assignment3/independent_check_mixed_transition.py)
-- [Counterexample OBJ](sandbox:/mnt/data/gomboc_slot5/assignment3/mixed_transition_prism.obj)
-- [Exact/outward-rounded constant audit](sandbox:/mnt/data/gomboc_slot5/assignment3/claimed_constants_audit.json)
-- [Constant-audit code](sandbox:/mnt/data/gomboc_slot5/assignment3/audit_claimed_constants.py)
-- [Captured successful verification run](sandbox:/mnt/data/gomboc_slot5/assignment3/VERIFICATION.log)
-- [Integrity manifest](sandbox:/mnt/data/gomboc_slot5/assignment3/MANIFEST.sha256)
+- Complete independent audit bundle (`assignment3_independent_audit_bundle.zip`)
+- Bundle SHA-256 (`assignment3_independent_audit_bundle.zip.sha256`)
+- Full audit report (`AUDIT_RESULT.md`)
+- Polarity and centroid derivation (`POLARITY_CENTROID_AUDIT.md`)
+- Machine-readable audit summary (`audit_summary.json`)
+- Mixed-feature obligation matrix (`mixed_feature_obligation_matrix.json`)
+- Exact rational counterexample and complete face lattice (`mixed_transition_prism.json`)
+- Primary exact verifier/generator (`verify_mixed_transition_gap.py`)
+- Independent exact reader/verifier (`independent_check_mixed_transition.py`)
+- Counterexample OBJ (`mixed_transition_prism.obj`)
+- Exact/outward-rounded constant audit (`claimed_constants_audit.json`)
+- Constant-audit code (`audit_claimed_constants.py`)
+- Captured successful verification run (`VERIFICATION.log`)
+- Integrity manifest (`MANIFEST.sha256`)

@@ -26,9 +26,9 @@ I prove:
 
 > **For every real `0<t<81/100` and every SPD Gram matrix `G`, the resulting C40 stack cannot have strict `U=1` with additional-weak-U `=0`. Therefore no nonsingular affine image anywhere on this entire first-knot fibre is strict `110/weak000`.**
 
-All eight curvatures are fixed positive, and the ordered interior knots keep the standard `N=4,M=2` support-stack maximal incidence `V10/E20/F12/C40`. :contentReference[oaicite:0]{index=0} The starting `C40_PACKET2X2_COARSE100` is the exact strict222/weak000 checkpoint with the two-node physical/polar packets and shared interface carriers described in the parent. :contentReference[oaicite:1]{index=1} The earlier generation had already excluded its fixed raw profile and the unrelated one-coordinate interval `kappa[0][0] in [99/100,103/100]`; the present theorem changes the **knot geometry** and covers the complete admissible first-knot range instead of revisiting that closed region. :contentReference[oaicite:2]{index=2}
+All eight curvatures are fixed positive, and the ordered interior knots keep the standard `N=4,M=2` support-stack maximal incidence `V10/E20/F12/C40`. The starting `C40_PACKET2X2_COARSE100` is the exact strict222/weak000 checkpoint with the two-node physical/polar packets and shared interface carriers described in the parent. The earlier generation had already excluded its fixed raw profile and the unrelated one-coordinate interval `kappa[0][0] in [99/100,103/100]`; the present theorem changes the **knot geometry** and covers the complete admissible first-knot range instead of revisiting that closed region.
 
-No supplied-source conflict was found. The required tree-reduction material and both literal parents agree on the C40 graph and on the criterion that any weak-free mono-U metric must contain a rooted positive escape spanning tree. :contentReference[oaicite:3]{index=3}
+No supplied-source conflict was found. The required tree-reduction material and both literal parents agree on the C40 graph and on the criterion that any weak-free mono-U metric must contain a rooted positive escape spanning tree.
 
 ## Exact proof structure
 
@@ -98,7 +98,7 @@ The resulting full-fibre theorem is materially stronger than a finite checkpoint
 
 The requested workflow was to rationalize a surviving U1 SPD cone and immediately perform the full face/vertex/mixed-edge and same-centre-polar audit. No such cone survives this exact family proof, so that branch never arises. I therefore make no unsupported claim about `S` or `H` for arbitrary metrics in the family. In particular I do not infer `H=0` from a Morse count.
 
-The literal starting checkpoint itself remains fully audited strict222/weak000 with `S=[0,9]`, `U=[1,3]`, `H=[[0,3],[5,6]]`, and complete P/Q landscapes. :contentReference[oaicite:4]{index=4}
+The literal starting checkpoint itself remains fully audited strict222/weak000 with `S=[0,9]`, `U=[1,3]`, `H=[[0,3],[5,6]]`, and complete P/Q landscapes.
 
 ## Self-contained exact recovery capsule
 
@@ -205,7 +205,7 @@ C40_KNOT_BANK_SIGNS_EXACT_PASS 1
 
 and its preceding exact line reports `fails 0` plus the positive volume/Sylvester Bernstein minima and degrees `[8,16,22]`.
 
-Convenience copies from this execution are [payload](sandbox:/mnt/data/C40_FIRST_KNOT_RECOVERY.b85.txt) and [decoder](sandbox:/mnt/data/RECOVER_C40_FIRST_KNOT_HANDOFF.py). They are supplements only; the literal recovery data above are sufficient.
+Convenience copies from this execution are payload (`C40_FIRST_KNOT_RECOVERY.b85.txt`) and decoder (`RECOVER_C40_FIRST_KNOT_HANDOFF.py`). They are supplements only; the literal recovery data above are sufficient.
 
 ## Scope and continuation
 

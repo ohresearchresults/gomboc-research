@@ -196,9 +196,9 @@ Tiny objectives, reference110, nearly vanishing edges, residual centroid errors 
 
 The available archives are:
 
-[Complete source and exact inputs](sandbox:/mnt/data/FINCH4_SOURCE.zip) —216382bytes, SHA608fddbcde903a2fa6b23b4ebbe78e1ac661e8bb9e707f1534038544525baad1.
+Complete source and exact inputs (`FINCH4_SOURCE.zip`) —216382bytes, SHA608fddbcde903a2fa6b23b4ebbe78e1ac661e8bb9e707f1534038544525baad1.
 
-[Research archive with exact reports, numerical records and completed cold receipts](sandbox:/mnt/data/FINCH4_RESEARCH.zip) —13533424bytes, SHAc487937ce37a737c565d6917b1b389e6a206c1dbde9728973503d916280d88b0.
+Research archive with exact reports, numerical records and completed cold receipts (`FINCH4_RESEARCH.zip`) —13533424bytes, SHAc487937ce37a737c565d6917b1b389e6a206c1dbde9728973503d916280d88b0.
 
 These are real created files. They are supplementary to this report, but because the full literal source capsule is omitted here, they are presently necessary for reconstructing the new bodies. Do not promote the new results as inline-durable successors until that preservation gap is closed.
 

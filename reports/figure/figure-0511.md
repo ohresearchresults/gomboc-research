@@ -20,7 +20,7 @@ The seventeen audited inputs include one unchanged parent, fifteen BASE-deletion
 
 The supplied journal, both literal parent payloads, and all six source/data units decoded from the embedded RA37 capsule were read through EOF. The mounted journal is 353444 bytes, SHA-256 `bcce98aba0eb03ebb0bf14ec69e710c9f59ab781feb1af4104ac9abab27fe71b`. Its decoded six-unit dictionary matches 37100 bytes and SHA-256 `e5a87a0a414de552dc4f443b528114a10c92d0f31e4c17807d54b404829a3319`.
 
-The exact parent is `[internal-source-reference]-`, advertised SHA-256 `baa91124c0ffe0b44dbafd069c5a50594083776822b2c0391cc7fbf0213ecc46`. Its literal K16 coordinates and incidence, not an inferred alias, specify P. :contentReference[oaicite:0]{index=0} The other required parent, `figure-0507`, advertised SHA-256 `5fe8d61f40608d694a8642142523733ae45a7bfed8bf254e12297cf34fc4812c`, explicitly supplied no changed geometry or new lower-corpus search. Its historical source-integrity checks are not counted as new work here. :contentReference[oaicite:1]{index=1}
+The exact parent is `[internal-source-reference]-`, advertised SHA-256 `baa91124c0ffe0b44dbafd069c5a50594083776822b2c0391cc7fbf0213ecc46`. Its literal K16 coordinates and incidence, not an inferred alias, specify P. The other required parent, `figure-0507`, advertised SHA-256 `5fe8d61f40608d694a8642142523733ae45a7bfed8bf254e12297cf34fc4812c`, explicitly supplied no changed geometry or new lower-corpus search. Its historical source-integrity checks are not counted as new work here.
 
 The previously reported outer-payload serialization discrepancy remains unresolved; it was not treated as a geometry discrepancy. The inner source dictionary verifies exactly. The historical `RA37_COMPLETE.zip` was not supplied in this current pack and was not checked. It is **not needed** by the new recovery capsule below. No necessary exact dependency for this handoff is missing.
 
@@ -227,7 +227,7 @@ RA37_BASE_FINISH_17_BODIES_19_RECEIPTS_PASS
 |RA37_K16_ROUND_T_G4_312.json|64011|ddc4f812fd505238d0ef561568007099ac2f7fcb3968c7ac7d1695b8e6f36d13|
 |RECEIPTS.json|2284|fc2ae6742e86130df3e82b8794eb5c7c1bd40d3b4949ca135541651699b39cca|
 
-Every individual body-report SHA is also hard-coded in the recovered producer and asserted during replay; `RECEIPTS.json` records every report's byte count. The complete full-audit archive is supplementary: [RA37_BASE_FINISH_COMPLETE.zip](sandbox:/mnt/data/RA37_BASE_FINISH_COMPLETE.zip),1430779bytes,SHA-256 `49728f32c97020673658bedf1f11b0449a9a4fec3e6a2e13758bfd35b77c1cc4`.
+Every individual body-report SHA is also hard-coded in the recovered producer and asserted during replay; `RECEIPTS.json` records every report's byte count. The complete full-audit archive is supplementary: RA37_BASE_FINISH_COMPLETE.zip,1430779bytes,SHA-256 `49728f32c97020673658bedf1f11b0449a9a4fec3e6a2e13758bfd35b77c1cc4`.
 
 ### Complete decoder
 

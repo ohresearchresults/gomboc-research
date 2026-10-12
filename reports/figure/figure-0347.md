@@ -294,7 +294,7 @@ A candidate/winner file may not be produced by a bounded numerical run; it is no
 
 The most useful next inputs are C652 for exposed distributed rank and the distinct C662 for lower facet count. The atlas permits replacement and release of entire incidence regions rather than accumulating frozen contacts. At C652's present excess79, **26 further facet losses without net rank loss would give E248**; alternatively25 facet losses plus two additional net units of degree excess would give E249. These are accounting targets, not existence claims. The remaining challenge is to carry genuine exposed rank through large facet loss while repairing both escape systems at the actual moving volume centroid.
 
-The supplementary [complete exact/source/receipt archive](sandbox:/mnt/data/QR29_C652_C662_exact_and_continuation.zip) is convenient but not required: the literal capsules contain every defining coordinate and required reconstruction/continuation helper.
+The supplementary complete exact/source/receipt archive (`QR29_C652_C662_exact_and_continuation.zip`) is convenient but not required: the literal capsules contain every defining coordinate and required reconstruction/continuation helper.
 
 ```text
 QR29_ATLAS_EXACT_BEGIN

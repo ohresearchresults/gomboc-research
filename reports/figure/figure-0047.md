@@ -25,7 +25,7 @@ strictly. Its H-description has
 
 candidate rows.
 
-This is a mathematically explicit **lazy finite specification**, not a practical mesh. The complete row list, V-representation, face lattice, OBJ, and STL were not materialized; the object has about \(2^{390.585}\) candidate inequalities. The original transcript demanded exact coordinates or halfspaces, an exact uniform-volume centroid, and an audit of every face, edge, and vertex with strict margins. :contentReference[oaicite:0]{index=0} The recovered theorem meets that demand at the universal-certificate level: every row is exactly generable, while one full-exposed-face separator handles all actual and nonsimplicial active sets without enumerating the astronomical face lattice.
+This is a mathematically explicit **lazy finite specification**, not a practical mesh. The complete row list, V-representation, face lattice, OBJ, and STL were not materialized; the object has about \(2^{390.585}\) candidate inequalities. The original transcript demanded exact coordinates or halfspaces, an exact uniform-volume centroid, and an audit of every face, edge, and vertex with strict margins. The recovered theorem meets that demand at the universal-certificate level: every row is exactly generable, while one full-exposed-face separator handles all actual and nonsimplicial active sets without enumerating the astronomical face lattice.
 
 ## 1. Exact deterministic object
 
@@ -219,20 +219,20 @@ at the object’s own exact centroid, with no origin-only shortcut and no unexam
 
 ## 5. Deliverables and integrity
 
-- [Complete combined audit package](sandbox:/mnt/data/bright_finch_branch_complete_gomboc_audit.zip) — SHA-256 `9ae7cae88ae91ce3a28b9d9345fc8cbc9ca4ade28ebe3d88196765a4003cef20`.
-- [Package SHA-256 file](sandbox:/mnt/data/bright_finch_branch_complete_gomboc_audit.zip.sha256).
-- [Independent mathematical verdict](sandbox:/mnt/data/bright_finch_branch_complete_audit/INDEPENDENT_VERDICT.md).
-- [Independent exact/interval checker](sandbox:/mnt/data/bright_finch_branch_complete_audit/independent_branch_complete_audit.py).
-- [Machine-readable independent audit](sandbox:/mnt/data/bright_finch_branch_complete_audit/independent_audit_report.json).
-- [Corrected deterministic theorem contract](sandbox:/mnt/data/bright_finch_branch_complete_audit/corrected_theorem_contract.json).
-- [Complete audit manifest](sandbox:/mnt/data/bright_finch_branch_complete_audit/MANIFEST.sha256).
-- [Recovered immutable theorem bundle](sandbox:/mnt/data/bright_finch_branch_complete_audit/recovered/assignment4_repaired_spectral_polar_bundle.zip) — SHA-256 `20c0c9cbe97855e9316aab71bba56f50251ffc9b564ac3c1c01434aac6f78839`.
-- [Recovered theorem text](sandbox:/mnt/data/bright_finch_branch_complete_audit/recovered/assignment4/REPAIRED_THEOREM.md).
-- [Lazy exact H-generator](sandbox:/mnt/data/bright_finch_branch_complete_audit/recovered/assignment4/spectral_polar_generator.py).
-- [Machine-readable six-class partition](sandbox:/mnt/data/bright_finch_branch_complete_audit/recovered/assignment4/active_set_partition.json).
-- [Evaluated common-separator certificate](sandbox:/mnt/data/bright_finch_branch_complete_audit/recovered/assignment4/common_separator_certificate.json).
-- [Exact centroid/polarity audit](sandbox:/mnt/data/bright_finch_branch_complete_audit/recovered/assignment4/centroid_polarity_audit.json).
-- [Combined verification log](sandbox:/mnt/data/bright_finch_branch_complete_audit/COMBINED_VERIFICATION.log).
+- Complete combined audit package (`bright_finch_branch_complete_gomboc_audit.zip`) — SHA-256 `9ae7cae88ae91ce3a28b9d9345fc8cbc9ca4ade28ebe3d88196765a4003cef20`.
+- Package SHA-256 file (`bright_finch_branch_complete_gomboc_audit.zip.sha256`).
+- Independent mathematical verdict (`INDEPENDENT_VERDICT.md`).
+- Independent exact/interval checker (`independent_branch_complete_audit.py`).
+- Machine-readable independent audit (`independent_audit_report.json`).
+- Corrected deterministic theorem contract (`corrected_theorem_contract.json`).
+- Complete audit manifest (`MANIFEST.sha256`).
+- Recovered immutable theorem bundle (`assignment4_repaired_spectral_polar_bundle.zip`) — SHA-256 `20c0c9cbe97855e9316aab71bba56f50251ffc9b564ac3c1c01434aac6f78839`.
+- Recovered theorem text (`REPAIRED_THEOREM.md`).
+- Lazy exact H-generator (`spectral_polar_generator.py`).
+- Machine-readable six-class partition (`active_set_partition.json`).
+- Evaluated common-separator certificate (`common_separator_certificate.json`).
+- Exact centroid/polarity audit (`centroid_polarity_audit.json`).
+- Combined verification log (`COMBINED_VERIFICATION.log`).
 
 ## 6. Scope and decisive conclusion
 

@@ -33,7 +33,7 @@ The literal preceding result is `minimum-0295`, SHA-256 `c5da795d12e9ffc99d28fd5
 
 I used the preceding parent's existing exact `two_wing_control` evaluator: an executed, hash-checked comparison agrees with the new independent integration on the inherited fixture's volume, actual centroid, covariance, whole marked-facet matrix, alpha and R. The default new recovery needs no parent file.
 
-Imported results retain their scopes. Strong global attainment and the common-parabola boundary theorem are the supplied conic source's analytical results, not a polygon-vertex localization. The parent's two-arc sharpening supersedes that source's older four-arc count. The new triangle theorem is the full matrix bound45/32, but no triangle-only localization is assumed. The convex-height comparison is a global necessary condition, not a condition for every local affine-density critical point. fileciteturn2file2L40-L45 fileciteturn2file2L68-L85 fileciteturn2file0L4-L8 fileciteturn2file1L16-L25
+Imported results retain their scopes. Strong global attainment and the common-parabola boundary theorem are the supplied conic source's analytical results, not a polygon-vertex localization. The parent's two-arc sharpening supersedes that source's older four-arc count. The new triangle theorem is the full matrix bound45/32, but no triangle-only localization is assumed. The convex-height comparison is a global necessary condition, not a condition for every local affine-density critical point.
 
 ## 3. The complete actual opposite-wing domain
 
@@ -76,7 +76,7 @@ P={(t,y,z):(t,y)∈K, 2|z|≤ell(t,y)}.
 
 The two positive-length arcs correspond to a<u and v<b. The inclusion of equality cases above supplies their zero-length limits, not every possible one-arc geometry. In particular, a one-arc body with its other corner strictly off the parabola is not being silently included.
 
-This is exactly the parent's forced-density chart: the upper boundary is the density-zero line and the density is not an independent profile. At an opposite-wing supercritical extremizer, the supplied conic theorem and parent's classification give this representation after affine normalization, with min f>0. fileciteturn2file3L1330-L1335 fileciteturn2file3L1364-L1374
+This is exactly the parent's forced-density chart: the upper boundary is the density-zero line and the density is not an independent profile. At an opposite-wing supercritical extremizer, the supplied conic theorem and parent's classification give this representation after affine normalization, with min f>0.
 
 All following quantities come from this one body:
 
@@ -234,7 +234,7 @@ Phi(t,y)=t/J−1/V−(y−mu)²/I−2(B1/B2)(y−mu)/V,
 nu(psi)=∫K Phi psi dt dy +(1/B2)∫[-1,1](y−mu)² psi(0,y)dy.
 ```
 
-The parent's actual clipping argument proves nu(psi)=0 for every affine psi at a full joint maximum, including when the density vanishes. The global convex-height source gives further convex tests, but these are not needed in the present exclusion. fileciteturn2file3L1204-L1206 fileciteturn2file1L20-L25
+The parent's actual clipping argument proves nu(psi)=0 for every affine psi at a full joint maximum, including when the density vanishes. The global convex-height source gives further convex tests, but these are not needed in the present exclusion.
 
 Write U(y)=p y+q, where p=a+b+2B and q=C−ab, and put
 
@@ -291,9 +291,9 @@ R = 1−alpha(1+2lambda)
 
 Tangent joins d²=fminus or eR²=fplus are included: the strict positive term4delta in Section4 still gives rL,rR>1. Setting either arc length A or D to zero preserves the same proof for that limit chart. These zero-length limits are not substitutes for the complete one-arc alternative with a corner off the common parabola.
 
-At delta=0, provided the marked edge and both stems remain genuine, the same algebra gives rL,rR≥1 and D2≥4/3. The actual cut is still legitimate, but it need not remain in the positive-minimum chart. This causes no supercritical-maximizer gap: the imported conic theorem gives min f>m/2>0 there. Collapse of a stem or of the marked facet is not passed through by division; those cases are outside the genuine-edge chart and cannot arise from its asserted supercritical two-arc representation. fileciteturn2file2L77-L85
+At delta=0, provided the marked edge and both stems remain genuine, the same algebra gives rL,rR≥1 and D2≥4/3. The actual cut is still legitimate, but it need not remain in the positive-minimum chart. This causes no supercritical-maximizer gap: the imported conic theorem gives min f>m/2>0 there. Collapse of a stem or of the marked facet is not passed through by division; those cases are outside the genuine-edge chart and cannot arise from its asserted supercritical two-arc representation.
 
-The zero-density line in this chart is disjoint from the marked facet, since Hminus>kL>0 and Hplus>kR>0. Therefore there is no density-zero marked-endpoint Hessian term to evaluate here. This is a proved property of this class, not deletion of the parent's endpoint correction. The first-order moving-endpoint contributions rL and rR in (5.1) are indispensable and have been included. The general zero-endpoint correction remains required in the one-sided alternatives. fileciteturn2file1L78-L86
+The zero-density line in this chart is disjoint from the marked facet, since Hminus>kL>0 and Hplus>kR>0. Therefore there is no density-zero marked-endpoint Hessian term to evaluate here. This is a proved property of this class, not deletion of the parent's endpoint correction. The first-order moving-endpoint contributions rL and rR in (5.1) are indispensable and have been included. The general zero-endpoint correction remains required in the one-sided alternatives.
 
 For continuation, define D0,D1 analogously to D2, using the OLD mu only in the raw moving-slice derivative. For ell=u0+u1 t+v y and endpoint velocities a'(0),b'(0),
 
@@ -314,7 +314,7 @@ m d/ds|0 log L_s
 
 The D2 sign does not determine this expression. No independent weak-leverage exclusion or weak global attainment is inferred. The exact source verifies both derivative identities separately.
 
-The useful remaining strong target is now the one-sided conic geometry: one arc, or two arcs on the same side separated by the unique zero-density chord, with its actual negative inward-slice inertia derivative, density equations, stem work and convex-height conditions all coupled. The triangle45/32 result remains available for genuine triangular alternatives, not as a localization shortcut. fileciteturn2file0L12-L55
+The useful remaining strong target is now the one-sided conic geometry: one arc, or two arcs on the same side separated by the unique zero-density chord, with its actual negative inward-slice inertia derivative, density equations, stem work and convex-height conditions all coupled. The triangle45/32 result remains available for genuine triangular alternatives, not as a localization shortcut.
 
 ## 9. Exact actual curved cut control and executed evidence
 
@@ -423,7 +423,7 @@ REPORT 14452 165ad4b62db22bec74746d5ed7c95b1ef2d66984577eb319e85a691ea7e7fb85
 OPPOSITE_WING_MARKED_CUT_EXCLUSION_EXACT_PASS
 ```
 
-These are current-worker executions, not a claimed coordinator replay or proof-assistant formalization. The exact report is an output, never an input. The following full source, together with the analytical proof, is the durable handoff. Convenience copies are [the source](sandbox:/mnt/data/conic_cut/opposite_wing_marked_cut.py) and [the complete capsule](sandbox:/mnt/data/opposite_wing_marked_cut_capsule.zip).
+These are current-worker executions, not a claimed coordinator replay or proof-assistant formalization. The exact report is an output, never an input. The following full source, together with the analytical proof, is the durable handoff. Convenience copies are the source (`opposite_wing_marked_cut.py`) and the complete capsule (`opposite_wing_marked_cut_capsule.zip`).
 
 ```python
 """OPPOSITE_WING_MARKED_CUT_EXCLUSION_V1.

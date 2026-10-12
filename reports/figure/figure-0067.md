@@ -14,7 +14,7 @@ No strict homogeneous polyhedral Gömböc was found in this direction. The stron
 
 at its own uniform-volume centroid. It is therefore a fallback, not a winner. Unlike the inherited tower, however, its **five-vertex lower cap is now stable**, its **apex is unstable**, neither inherited apex-side stable quadrilateral survives as a stable face, and all 27 reconstructed vertices remain extreme. The residual defect is one side stable face, one side unstable vertex, and two saddle edges.
 
-The journal supplied only the durable description of the prior `(26,40,16,80)` body—not its worker-local coordinate artifact—and records its nonstable lower cap, two stable apex-side quadrilaterals, unstable vertices `3,25`, saddles `(5,9),(23,25)`, and active circuit `{3,10,11,20}`. :contentReference[oaicite:0]{index=0} I therefore opened a new exact H-combinatorial family rather than pretending to perform a literal coordinate edit of unavailable bytes.
+The journal supplied only the durable description of the prior `(26,40,16,80)` body—not its worker-local coordinate artifact—and records its nonstable lower cap, two stable apex-side quadrilaterals, unstable vertices `3,25`, saddles `(5,9),(23,25)`, and active circuit `{3,10,11,20}`. I therefore opened a new exact H-combinatorial family rather than pretending to perform a literal coordinate edit of unavailable bytes.
 
 ## What changed relative to the supplied journal
 
@@ -264,18 +264,18 @@ The evidence supports a **local/architectural obstruction**, not a theorem for a
 
 ## Reproducible artifact set
 
-- [Complete ZIP bundle](sandbox:/mnt/data/unequal_tower_fallback_bundle.zip) — SHA-256 `dfd5d8ce2b1860320b6d8823ff5de316527c7286aa5702fdd7ce5ae5c3cf9ca4`
-- [Exact canonical H-description](sandbox:/mnt/data/unequal_tower_bundle/tower_unequal_H_rational.json)
-- [Exact own-centered H-description](sandbox:/mnt/data/unequal_tower_bundle/tower_unequal_H_centered_rational.json)
-- [Exact centered V-coordinates](sandbox:/mnt/data/unequal_tower_bundle/tower_unequal_V_centered.csv)
-- [Complete exact audit](sandbox:/mnt/data/unequal_tower_bundle/tower_unequal_audit.json)
-- [Standalone Fraction verifier](sandbox:/mnt/data/unequal_tower_bundle/verify_tower_exact.py)
-- [Verifier transcript](sandbox:/mnt/data/unequal_tower_bundle/verifier_transcript.json)
-- [Topology record](sandbox:/mnt/data/unequal_tower_bundle/topology.txt)
-- [Transition record](sandbox:/mnt/data/unequal_tower_bundle/search_transitions.md)
-- [OBJ mesh](sandbox:/mnt/data/unequal_tower_bundle/tower_unequal.obj)
-- [ASCII STL mesh](sandbox:/mnt/data/unequal_tower_bundle/tower_unequal.stl)
-- [SHA-256 manifest](sandbox:/mnt/data/unequal_tower_bundle/MANIFEST.sha256)
+- Complete ZIP bundle (`unequal_tower_fallback_bundle.zip`) — SHA-256 `dfd5d8ce2b1860320b6d8823ff5de316527c7286aa5702fdd7ce5ae5c3cf9ca4`
+- Exact canonical H-description (`tower_unequal_H_rational.json`)
+- Exact own-centered H-description (`tower_unequal_H_centered_rational.json`)
+- Exact centered V-coordinates (`tower_unequal_V_centered.csv`)
+- Complete exact audit (`tower_unequal_audit.json`)
+- Standalone Fraction verifier (`verify_tower_exact.py`)
+- Verifier transcript (`verifier_transcript.json`)
+- Topology record (`topology.txt`)
+- Transition record (`search_transitions.md`)
+- OBJ mesh (`tower_unequal.obj`)
+- ASCII STL mesh (`tower_unequal.stl`)
+- SHA-256 manifest (`MANIFEST.sha256`)
 
 Run from the extracted bundle:
 

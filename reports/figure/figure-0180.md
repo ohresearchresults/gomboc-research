@@ -8,7 +8,7 @@ AI research report · 2026-09-01 UTC · [Export notes](../../catalog/coverage.md
 
 ## Literal disposition
 
-**Exact NONWINNER.** I did not obtain a homogeneous convex polyhedral Gömböc. The governing gate requires a finite uniform-density polyhedron classified at its own exact volume centroid, with complete V/H incidence, maximal faces, true edges, full normal-cone mechanics, strict margins, independent verification, and meshes. :contentReference[oaicite:0]{index=0} The inherited journal left the full nine-vertex central-triangle realization space open and named the ten-vertex central-quadrilateral disk as the fallback. 
+**Exact NONWINNER.** I did not obtain a homogeneous convex polyhedral Gömböc. The governing gate requires a finite uniform-density polyhedron classified at its own exact volume centroid, with complete V/H incidence, maximal faces, true edges, full normal-cone mechanics, strict margins, independent verification, and meshes. The inherited journal left the full nine-vertex central-triangle realization space open and named the ten-vertex central-quadrilateral disk as the fallback. 
 
 The new work does two things beyond the inherited `E9B` compact-box theorem:
 
@@ -17,25 +17,25 @@ The new work does two things beyond the inherited `E9B` compact-box theorem:
 
 ## Immutable artifact bundle
 
-- [Portable exact archive](sandbox:/mnt/data/vivid_quartz_58_full_frontier_nonwinner.zip)
-- [Archive SHA-256](sandbox:/mnt/data/vivid_quartz_58_full_frontier_nonwinner.zip.sha256): `3493bb012eed40d9d75aeea80fe948d8324daf81561b99789daf3e8f7ebd747e`
-- [Complete 617-line determination](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/RESULT.md)
-- [README and acceptance semantics](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/README.md)
-- [Principal one-command verifier](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/[internal-source-reference].sh)
-- [Extended source/census verifier](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/[internal-source-reference].sh)
-- [Immutable 91-file manifest](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/SHA256SUMS)
+- Portable exact archive (`vivid_quartz_58_full_frontier_nonwinner.zip`)
+- Archive SHA-256 (`vivid_quartz_58_full_frontier_nonwinner.zip.sha256`): `3493bb012eed40d9d75aeea80fe948d8324daf81561b99789daf3e8f7ebd747e`
+- Complete 617-line determination (`RESULT.md`)
+- README and acceptance semantics (`README.md`)
+- Principal one-command verifier (`[internal-source-reference].sh`)
+- Extended source/census verifier (`[internal-source-reference].sh`)
+- Immutable 91-file manifest (`SHA256SUMS`)
 
 A clean rerun on 1 September 2026 ended with `ALL VIVID QUARTZ 58 PRINCIPAL VERIFIERS PASS`; the independent source/census rerun ended with `ALL VIVID QUARTZ 58 EXTENDED SOURCE/CENSUS VERIFIERS PASS`.
 
 ## 1. Accepted exact source chain
 
-The bundle reconstructs `E8A` from its dyadic `2^32` V-data, exact volume and moments, all 12 maximal faces and 18 true edges, strict `(2,2,2)` mechanics, the exact two-control `S>=2` atlas, its `2^-14` coordinate box, independent verifier, OBJ, and STL. See [source `E8A`](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/source_E8A/E8A_exact_report.json).
+The bundle reconstructs `E8A` from its dyadic `2^32` V-data, exact volume and moments, all 12 maximal faces and 18 true edges, strict `(2,2,2)` mechanics, the exact two-control `S>=2` atlas, its `2^-14` coordinate box, independent verifier, OBJ, and STL. See source `E8A` (`E8A_exact_report.json`).
 
-It likewise reconstructs the inherited `E9B` central-triangle endpoint with `(V,E,F)=(9,21,14)`, strict `(2,2,2)`, stable faces `[1,11,C]`, `[8,A,B]`, unstable vertices `8,C`, saddles `(1,A),(11,12)`, and a `2^-11` box. Its earlier affine-prism family is exactly `U>=2`; that theorem is retained but not promoted to a full realization-space exclusion. See [source `E9B`](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/source_E9B/E9B_exact_report.json) and [its exact three-control certificate](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/source_E9B/E9_prism_exact_certificate.json).
+It likewise reconstructs the inherited `E9B` central-triangle endpoint with `(V,E,F)=(9,21,14)`, strict `(2,2,2)`, stable faces `[1,11,C]`, `[8,A,B]`, unstable vertices `8,C`, saddles `(1,A),(11,12)`, and a `2^-11` box. Its earlier affine-prism family is exactly `U>=2`; that theorem is retained but not promoted to a full realization-space exclusion. See source `E9B` (`E9B_exact_report.json`) and its exact three-control certificate (`E9_prism_exact_certificate.json`).
 
 ## 2. Complete nine-vertex combinatorial census and geometric search
 
-An edge-flip BFS with graph-isomorphism deduplication gives exactly **50** pairwise nonisomorphic maximal planar graphs on nine vertices. The independent audit verifies all `1225` pairwise nonisomorphism checks, planarity, 3-connectivity, a connected 209-edge flip graph, and one fresh strict Qhull realization of every type. Every realization has `(V,E,F)=(9,21,14)`; the smallest stored nonincidence separation is `0.00032827078731201276`. See [census verification](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/nine_vertex_census_verification.json).
+An edge-flip BFS with graph-isomorphism deduplication gives exactly **50** pairwise nonisomorphic maximal planar graphs on nine vertices. The independent audit verifies all `1225` pairwise nonisomorphism checks, planarity, 3-connectivity, a connected 209-edge flip graph, and one fresh strict Qhull realization of every type. Every realization has `(V,E,F)=(9,21,14)`; the smallest stored nonincidence separation is `0.00032827078731201276`. See census verification (`nine_vertex_census_verification.json`).
 
 This is combinatorially complete, not a quantifier-elimination proof over all continuous coordinates. The empirical geometric search was deliberately broader than the previous affine-prism family:
 
@@ -46,7 +46,7 @@ This is combinatorially complete, not a quantifier-elimination proof over all co
 |10|sphere|500,000|2,766|38|`-0.016479937820132056`|`(2,2,2)`|0|
 |10|normal|500,000|4,050|55|`-0.02531279700443834`|`(2,2,2)`|0|
 
-All retained bodies were reconstructed from their actual hulls and classified at their independently integrated ordinary-volume centroids. Targeted determinant-one affine/SPD sweeps covered all 50 types, every intended unstable vertex, and multiple starts. Their best apparent improvements collapsed toward support or volume walls; an independent actual-hull audit rejected all nominal winners. Two targeted `E10R` `(2,1,1)` precursor searches likewise stopped at guard walls. Exact claims and empirical receipts are separated in the [search ledger](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/search_ledger.json).
+All retained bodies were reconstructed from their actual hulls and classified at their independently integrated ordinary-volume centroids. Targeted determinant-one affine/SPD sweeps covered all 50 types, every intended unstable vertex, and multiple starts. Their best apparent improvements collapsed toward support or volume walls; an independent actual-hull audit rejected all nominal winners. Two targeted `E10R` `(2,1,1)` precursor searches likewise stopped at guard walls. Exact claims and empirical receipts are separated in the search ledger (`search_ledger.json`).
 
 **Nine-vertex conclusion:** no winner was found in 25,727 strict random nine-vertex bodies or the targeted searches, but the full positive-dimensional realization space remains rigorously open.
 
@@ -60,7 +60,7 @@ Keep boundary `[1,2,8,10,12,11]` and exterior faces `[11,10,8]`, `[11,12,10]`, `
 [C,B,A,D]
 ```
 
-The exact patch certificate checks every boundary/interior edge multiplicity and Euler identity. The source is `(9,21,14)`, the quadrilateral wall is `(10,23,15)`, and its strict resolutions are `(10,24,16)`: one selects `A-C`, the other `B-D`. See [exact patch complex](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E9B_to_E10_patch_complex.json).
+The exact patch certificate checks every boundary/interior edge multiplicity and Euler identity. The source is `(9,21,14)`, the quadrilateral wall is `(10,23,15)`, and its strict resolutions are `(10,24,16)`: one selects `A-C`, the other `B-D`. See exact patch complex (`E9B_to_E10_patch_complex.json`).
 
 ### 3.1 Exact nonsimplicial wall `E10Q`
 
@@ -114,7 +114,7 @@ True edges are
 (A,B) (A,D) (B,C) (C,D)
 ```
 
-The wall itself has strict mechanical class `(2,2,2)`: stable `[1,11,D]`, `[8,A,B]`; unstable `8,D`; saddles `(1,A)`, `(11,12)`. Minimum absolute normalized mechanical separation is `0.016201853781111684`; minimum normalized nonincidence separation is `0.018753517740288335`. Its complete polygon-face/full-cone audit is in the [exact wall report](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10Q_wall_exact_report.json) and [H representation](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10Q_wall_H_representation.json).
+The wall itself has strict mechanical class `(2,2,2)`: stable `[1,11,D]`, `[8,A,B]`; unstable `8,D`; saddles `(1,A)`, `(11,12)`. Minimum absolute normalized mechanical separation is `0.016201853781111684`; minimum normalized nonincidence separation is `0.018753517740288335`. Its complete polygon-face/full-cone audit is in the exact wall report (`E10Q_wall_exact_report.json`) and H representation (`E10Q_wall_H_representation.json`).
 
 ## 4. Strongest strict exact endpoint `E10R`
 
@@ -188,11 +188,11 @@ h = n·Q_i,
 n·x <= h/2^44 - n·Centroid.
 ```
 
-All 16 integer normals, supports, centred rational right-hand sides, and every exact nonincident slack are in the [complete H representation](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10R_H_representation.json).
+All 16 integer normals, supports, centred rational right-hand sides, and every exact nonincident slack are in the complete H representation (`E10R_H_representation.json`).
 
 ### 4.2 Exhaustive own-centroid mechanics
 
-The strict class is `(S,U,H)=(2,2,2)`: stable `[1,11,D]`, `[8,A,B]`; unstable `8,D`; saddles `(1,A)`, `(11,12)`. The tables below give every feature's normalized signed margin; the [exact endpoint report](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10R_exact_report.json) stores every exact rational/integer sign numerator and all individual components.
+The strict class is `(S,U,H)=(2,2,2)`: stable `[1,11,D]`, `[8,A,B]`; unstable `8,D`; saddles `(1,A)`, `(11,12)`. The tables below give every feature's normalized signed margin; the exact endpoint report (`E10R_exact_report.json`) stores every exact rational/integer sign numerator and all individual components.
 
 **Every maximal face**
 
@@ -259,7 +259,7 @@ The strict class is `(S,U,H)=(2,2,2)`: stable `[1,11,D]`, `[8,A,B]`; unstable `8
 |`(B,D)`|`-1.13167821597990`|inactive|
 |`(C,D)`|`-1.85115324621690`|inactive|
 
-All component quadruples are also printed in the [human-readable exhaustive audit](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10R_audit.md).
+All component quadruples are also printed in the human-readable exhaustive audit (`E10R_audit.md`).
 
 ### 4.3 Convexity, separation, neighbourhood, and independent reconstruction
 
@@ -267,9 +267,9 @@ All component quadruples are also printed in the [human-readable exhaustive audi
 - Minimum Euclidean nonincidence distance: `0.13125234225024635`.
 - Circumradius-normalized nonincidence distance: `0.018953264416228594`.
 - Smallest absolute normalized mechanical separation: `0.018063078292690948`.
-- Exact outward interval arithmetic permits all 30 uncentred coordinate entries to vary independently by `epsilon=2^-11=1/2048`, recomputes volume/moments/the dependent own centroid, and preserves `(10,24,16)` and `(2,2,2)`. See [perturbation certificate](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10R_perturbation_certificate.json).
-- A clean-room SciPy/Qhull plus positive-tetrahedron integration plus direct full-cone implementation independently obtains `(10,24,16)`, `(2,2,2)`, volume `27.472942491835518`, centroid `(0.9810799423271623,0.820545109736709,-1.7613619585271878)`, volume discrepancy `3.55e-15`, and maximum centroid-coordinate discrepancy `2.22e-16`. See [independent report](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10R_independent_verification.json).
-- [Centred watertight OBJ](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10R_centered.obj) and [centred watertight STL](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10R_centered.stl) are winding-consistent and have Euler number two.
+- Exact outward interval arithmetic permits all 30 uncentred coordinate entries to vary independently by `epsilon=2^-11=1/2048`, recomputes volume/moments/the dependent own centroid, and preserves `(10,24,16)` and `(2,2,2)`. See perturbation certificate (`E10R_perturbation_certificate.json`).
+- A clean-room SciPy/Qhull plus positive-tetrahedron integration plus direct full-cone implementation independently obtains `(10,24,16)`, `(2,2,2)`, volume `27.472942491835518`, centroid `(0.9810799423271623,0.820545109736709,-1.7613619585271878)`, volume discrepancy `3.55e-15`, and maximum centroid-coordinate discrepancy `2.22e-16`. See independent report (`E10R_independent_verification.json`).
+- Centred watertight OBJ (`E10R_centered.obj`) and centred watertight STL (`E10R_centered.stl`) are winding-consistent and have Euler number two.
 
 ## 5. Complete exact ten-vertex line atlas
 
@@ -290,7 +290,7 @@ saddles  (1,A), (12,11)
 class    (2,2,2)
 ```
 
-and the winner-cell count is zero. For every chamber, the [exact line atlas](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10_line_exact_atlas.json) stores the actual maximal faces and true edges, exact coordinates, support signs, all face/vertex/full-edge-cone components, exact volume/moment polynomials, and wall ledgers. With denominator `D=2^44`,
+and the winner-cell count is zero. For every chamber, the exact line atlas (`E10_line_exact_atlas.json`) stores the actual maximal faces and true edges, exact coordinates, support signs, all face/vertex/full-edge-cone components, exact volume/moment polynomials, and wall ledgers. With denominator `D=2^44`,
 
 ```text
 V(t)=V6(t)/(6D^3),
@@ -298,7 +298,7 @@ M_j(t)=N_j(t)/(24D^4),
 C_j(t)=N_j(t)/(4D V6(t)),
 ```
 
-so `M_j(t)=V(t)C_j(t)` identically; exact signs prove `V6(t)>0` on every incidence interval. The independent checker samples more than 8,000 strict parameters, reconstructs all four hull types, observes only `(2,2,2)`, and verifies the four-triangle symmetric difference at each flip. See [independent line report](sandbox:/mnt/data/vivid_quartz_58_full_frontier_result/E10_line_independent_verification.json).
+so `M_j(t)=V(t)C_j(t)` identically; exact signs prove `V6(t)>0` on every incidence interval. The independent checker samples more than 8,000 strict parameters, reconstructs all four hull types, observes only `(2,2,2)`, and verifies the four-triangle symmetric difference at each flip. See independent line report (`E10_line_independent_verification.json`).
 
 ## 6. Attempts to break the conclusion
 

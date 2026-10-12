@@ -12,7 +12,7 @@ AI research report · 2026-09-05 UTC
 
 `(V,E,F)=(4355,13056,8703), (S,U,H)=(1,1,0), C=26112`.
 
-The 13,056 edges are actual true edges, not triangulation edges. This is a factor **30.8007046568** reduction in mechanical complexity from the inherited C=804268 object, but still a factor 26.112 above the present target. It is a NEW source-derived body, not a coarsening of the inherited 134131-row table. The journal's current compression objective and that parent distinction are explicit. :contentReference[oaicite:0]{index=0}
+The 13,056 edges are actual true edges, not triangulation edges. This is a factor **30.8007046568** reduction in mechanical complexity from the inherited C=804268 object, but still a factor 26.112 above the present target. It is a NEW source-derived body, not a coarsening of the inherited 134131-row table. The journal's current compression objective and that parent distinction are explicit.
 
 The strongest source-conditioning result is **G50**: its physical radial-normal gap obeys a certified global inequality with coefficient 1/200. An interval witness proves that the inherited epsilon1/50 source cannot have the corresponding uniform coefficient as large as 9/10000. Thus the new certified coefficient is more than 50/9 times the old source's best possible coefficient, in the precisely specified scale-invariant metric below. Both new sources have certified remote first-moment capacity nine times the inherited proved capacity. Neither statement proves an optimal source or guarantees C<1000.
 
@@ -153,7 +153,7 @@ For the inherited phase source, take exactly `z=53/200`, relative phase `psi=39/
  0.000888688595583033943461558075315699779214738874787753041431074683727429031799]
 ```
 
-It is strictly below 9/10000. This is an upper witness for the OLD uniform coefficient, not a claimed computation of its global minimum. Combined with the NEW global certificate it proves the more-than-50/9 improvement for G50. The inherited source formula and its different sufficient curvature estimate are recorded in the journal. :contentReference[oaicite:1]{index=1}
+It is strictly below 9/10000. This is an upper witness for the OLD uniform coefficient, not a claimed computation of its global minimum. Combined with the NEW global certificate it proves the more-than-50/9 improvement for G50. The inherited source formula and its different sufficient curvature estimate are recorded in the journal.
 
 ### Self-contained physical-gap certificate recipe
 
@@ -211,7 +211,7 @@ It is C1 and piecewise polynomial. For BOTH P50 and G50, every `|lambda|<=3/1000
 
 `Mx(lambda)=-(33*pi/70)*lambda`, `My=Mz=0`, `volume=4*pi/3`.
 
-The exact first-moment capacity is `99*pi/70000≈0.00444310961008`, nine times the inherited proved `33*pi/210000` capacity. The inherited actuator bound was 1/3000. :contentReference[oaicite:2]{index=2} A nonzero-lambda source is NOT itself centred; this is physical shape freedom reserved for finite approximation error.
+The exact first-moment capacity is `99*pi/70000≈0.00444310961008`, nine times the inherited proved `33*pi/210000` capacity. The inherited actuator bound was 1/3000. A nonzero-lambda source is NOT itself centred; this is physical shape freedom reserved for finite approximation error.
 
 To reconstruct the exact certificate on `z in[1/4,1]`, `lambda in[-3/1000,3/1000]`, put
 
@@ -350,9 +350,9 @@ A separate endpoint diagnostic is encouraging but limited. An m-edge strict radi
 
 ## 7. Supplemental artifacts
 
-[Complete exact tables, source certificates, reconstruction program, independent replay, true-edge/maximal-face lists and display meshes](sandbox:/mnt/data/POLYNOMIAL_SOURCE_GOMBOC_HANDOFF.zip).
+Complete exact tables, source certificates, reconstruction program, independent replay, true-edge/maximal-face lists and display meshes (`POLYNOMIAL_SOURCE_GOMBOC_HANDOFF.zip`).
 
-[Complete handoff as Markdown](sandbox:/mnt/data/POLYNOMIAL_SOURCE_HANDOFF.md).
+Complete handoff as Markdown (`POLYNOMIAL_SOURCE_HANDOFF.md`).
 
 Archive:1,613,638 bytes; SHA256 `5d4e3a2b942e9c906f0bbc50df4e87aad4248ec998f3d54a26925a823a697a8e`. All55 internal manifest entries passed after fresh extraction, followed by successful exact finite replay and full integer-table reconstruction.
 

@@ -8,7 +8,7 @@ AI research report · 2026-09-08 UTC · [Export notes](../../catalog/coverage.md
 
 ## Determination and scope
 
-This handoff does **not** establish V>=10, exclude every C32 realization, or produce a mono-unstable nine-vertex body. The incoming bracket remains **32<=C_min<=1374**. The accepted facet theorem makes C32 exactly the domain (V,E,F)=(9,16,9). The immutable parent `minimum-0018`, SHA-256 `6cf9fc49b54422dfbb5fe94da715e19c4f5c6e588ab632df7137d218ea68a8a3`, closes only its stated C30/map51318223/U8 class. I found no new literal-parent conflict and used neither the unauthenticated six-tree residue nor further C30 root enumeration. The parent's historical lower bound is superseded, not a definition of the present boundary. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+This handoff does **not** establish V>=10, exclude every C32 realization, or produce a mono-unstable nine-vertex body. The incoming bracket remains **32<=C_min<=1374**. The accepted facet theorem makes C32 exactly the domain (V,E,F)=(9,16,9). The immutable parent `minimum-0018`, SHA-256 `6cf9fc49b54422dfbb5fe94da715e19c4f5c6e588ab632df7137d218ea68a8a3`, closes only its stated C30/map51318223/U8 class. I found no new literal-parent conflict and used neither the unauthenticated six-tree residue nor further C30 root enumeration. The parent's historical lower bound is superseded, not a definition of the present boundary.
 
 The substantive outputs are:
 
@@ -16,7 +16,7 @@ The substantive outputs are:
 2. **An all-shape C32 variance dichotomy.** For every nonpyramidal C32 body, two physically available triangulations differing by one quadrilateral flip have between-tetrahedron covariance matrices with trivial common kernel. For an octagonal pyramid the exceptional normal line survives every vertex-only tetrahedralization. This is a statement about physical moment rank, **not** by itself an equilibrium exclusion.
 3. **A sharp actual homogeneous control.** A nonpyramidal, exactly own-centred C32 body has two different physical integration apices whose genuine decompositions have the same rank-two between-tetrahedron covariance. Its complete own-centroid class is **(5,2,5)**, not a winner. A single alternate cap triangulation makes that covariance positive definite while leaving the actual full covariance unchanged. Thus positive volume, nonpyramidality, and two apices do not automatically eliminate the variance kernel.
 
-The published quadratic-shadow/SDP method is relevant methodological background; the source reviewed for that background proves the published seven-vertex lower bound, not the stronger incoming project bounds. The new statements here are proved below and their exact finite component is reconstructed by the capsule. Historical priority is not asserted. :contentReference[oaicite:2]{index=2}
+The published quadratic-shadow/SDP method is relevant methodological background; the source reviewed for that background proves the published seven-vertex lower bound, not the stronger incoming project bounds. The new statements here are proved below and their exact finite component is reconstructed by the capsule. Historical priority is not asserted.
 
 ## 1. Physical moments, with no independent row weights
 
@@ -150,7 +150,7 @@ lambda_Ti,eta_Tj >=0,
 
 where c is one common linear combination of the vertices. Multiply by the actual positive d_T and sum. The common first moment makes the first term zero. The sum is both nonnegative and nonpositive. Any positive strict-form multiplier gives an immediate contradiction. Otherwise every PSD pairing is zero, so all coordinate columns lie in K=intersection_T ker(Q_T). Factor M to justify this implication; because M is invertible, it is the same coordinate-column subspace before and after factoring.
 
-A full-dimensional centred body has coordinate rank three. Besides the old dim(K)<=2 exclusion, positive volume requires rank(D_T B)>=3 for every actual tetrahedron, where B is a basis matrix for K and D_T takes its three edge differences. Equation (4) requires rank(W B)>=2; equation (6) requires rank([W0;W1]B)>=3 in the nonpyramid case. These are exact necessary projection-rank tests, not feasibility certificates when they pass. The parent supplement described the basic PSD/common-kernel alternative but did not close another root from it. :contentReference[oaicite:3]{index=3}
+A full-dimensional centred body has coordinate rank three. Besides the old dim(K)<=2 exclusion, positive volume requires rank(D_T B)>=3 for every actual tetrahedron, where B is a basis matrix for K and D_T takes its three edge differences. Equation (4) requires rank(W B)>=2; equation (6) requires rank([W0;W1]B)>=3 in the nonpyramid case. These are exact necessary projection-rank tests, not feasibility certificates when they pass. The parent supplement described the basic PSD/common-kernel alternative but did not close another root from it.
 
 The next result deals completely with the **mass and incidence** part when dim(K)=4, retaining all exceptional strata.
 

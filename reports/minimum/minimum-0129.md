@@ -12,7 +12,7 @@ AI research report · 2026-09-20 UTC · [Export notes](../../catalog/coverage.md
 
 Two complete two-dimensional fibers of this reduction were excluded by executed exact certificates: 1,777 algebraic event roots and 26,389 open sign cells, with an independent rational Sturm completeness check. Neither fiber contains a proper own-centroid110 body, including on its event walls. These fibers are not all-SPD exclusions for their individual shapes.
 
-**I did not prove an obstruction on the whole fourteen-parameter outer domain and did not construct an exact110.** The accepted bounds `34<=C_min<=622` and all incidence-register counts remain unchanged. The previously known linearity of the fixed-shape height pencil is background; the new content is the actual separation-variable centroid compression, persistent central plane, quartic/quadratic joint pencil, and exact two-variable elimination. The older height-only method is recorded in the supplied notebook. :contentReference[oaicite:0]{index=0}
+**I did not prove an obstruction on the whole fourteen-parameter outer domain and did not construct an exact110.** The accepted bounds `34<=C_min<=622` and all incidence-register counts remain unchanged. The previously known linearity of the fixed-shape height pencil is background; the new content is the actual separation-variable centroid compression, persistent central plane, quartic/quadratic joint pencil, and exact two-variable elimination. The older height-only method is recorded in the supplied notebook.
 
 ## 1. Input authority and complete domain
 
@@ -40,7 +40,7 @@ F1=(0,8,1) F2=(1,8,2) F3=(2,8,3) F4=(3,8,9,4)
 F5=(4,9,5) F6=(5,9,6) F7=(6,9,7) F8=(7,9,8,0).
 ```
 
-Their cyclic edges give precisely 17 true edges: the base cycle, spokes `8--{0,1,2,3}`, spokes `9--{4,5,6,7}`, and `8--9`. The parent proves this entire strict geometric domain covers every balanced realization up to affine equivalence. No cut, slope, shear, root-location or metric-conditioning restriction is added to the new structural theorems. :contentReference[oaicite:1]{index=1}
+Their cyclic edges give precisely 17 true edges: the base cycle, spokes `8--{0,1,2,3}`, spokes `9--{4,5,6,7}`, and `8--9`. The parent proves this entire strict geometric domain covers every balanced realization up to affine equivalence. No cut, slope, shear, root-location or metric-conditioning restriction is added to the new structural theorems.
 
 ## 2. Six actual planar functions determine the moving centroid
 
@@ -71,7 +71,7 @@ Here g is the centroid of the uniformly refilled projective image.
 
 **Proof.** The true fan from apex8 contributes `b/(1-u*a)` from the base and `2*a*R/k` from the three opposite triangular facets. The true fan from apex9 gives `b/(1+u*a)+2*a*L/k`. Equality of these actual six-volumes gives `L-R=u*b`; their common value is `(b+a*c)/k`. Both L and R are strictly positive, proving `c>|u|b`.
 
-The exact projective Jacobian gives `partial_u log Vol=-4 gx` and `partial_v log Vol=-4 gy`. For the third coordinate, temporarily include a vertical denominator coefficient w. The parent's body identity gives `Vol(u,v,w;a)=(1+w)^(-1)*Vol(u,v,0;a/(1+w))`. Hence `gz=(1+a*partial_a log Vol)/4`. Differentiating the displayed actual volume yields all three numerator formulas. This uses true volume weighting, not a transported old centroid. The underlying actual fan transformation is the parent's `d_tau/product(fi)` identity. :contentReference[oaicite:2]{index=2}
+The exact projective Jacobian gives `partial_u log Vol=-4 gx` and `partial_v log Vol=-4 gy`. For the third coordinate, temporarily include a vertical denominator coefficient w. The parent's body identity gives `Vol(u,v,w;a)=(1+w)^(-1)*Vol(u,v,0;a/(1+w))`. Hence `gz=(1+a*partial_a log Vol)/4`. Differentiating the displayed actual volume yields all three numerator formulas. This uses true volume weighting, not a transported old centroid. The underlying actual fan transformation is the parent's `d_tau/product(fi)` identity.
 
 ## 3. A persistent actual central plane and fixed section incidence
 
@@ -180,7 +180,7 @@ B=n_f^T*N0*Ebar.
 
 The actual primitive is this row times `D^2*factor/(y*H_f^2*H_h)>0`. Reverse rows use -Ebar. Reduced Ebar has horizontal degree at most two and vertical degree at most three. Since n_f has horizontal degree zero and vertical degree one, the claimed bounds follow. For a basal dual edge, the horizontal part of E is a constant horizontal normal times `H_0=Nz`, also degree two.
 
-All factorizations were additionally checked as generic symbolic identities, not just at the two example fibers. The projectivity is a shape construction; only the final affine metric change uses a constant M,N, exactly as required by the parent. :contentReference[oaicite:3]{index=3}
+All factorizations were additionally checked as generic symbolic identities, not just at the two example fibers. The projectivity is a shape construction; only the final affine metric change uses a constant M,N, exactly as required by the parent.
 
 ## 6. Finite decisive inner problem, including a rigorous wall argument
 
@@ -215,7 +215,7 @@ Both fibers use the complete literal cut input
 
 `((1/5,7/10),(9/10,3/5),(4/5,1/4),(2/3,6/5))`.
 
-These independent-slope cuts are the parent's fingerprint outside the older isosceles-cut projective orbits. That orbit separation is inherited, not newly inferred from the computations here. :contentReference[oaicite:4]{index=4}
+These independent-slope cuts are the parent's fingerprint outside the older isosceles-cut projective orbits. That orbit separation is inherited, not newly inferred from the computations here.
 
 | Fiber | Fixed outer data | Entire inner domain | Projection factors | Event roots | a cells | Open (a,y) cells |
 |---|---|---|---:|---:|---:|---:|
@@ -344,4 +344,4 @@ The generic symbolic identity marker `GENERIC_MOMENT_PLANE_SIDE_FACTOR_AND_PHASE
 
 **Capsule transport limitation:** The compressed stream in this response is not complete and must not be used as a durable recovery source. The complete tested 13,001-byte wrapper and the readable exact source exist at the supplemental links below, but links alone do not satisfy the requested recovery contract. Accordingly, the newly computed certificate objects remain **ephemeral for a fresh executor receiving only this response**, despite the executed build/check and the hashes reported above. The analytic formulas, proofs, exact fiber inputs, domain specifications, control parameters and continuation direction in Sections1–9 remain self-contained. A continuation requiring the exact computed certificates needs the complete literal `recover_balanced_quartic.py` or both complete readable source units; their contents must not be guessed from this incomplete stream.
 
-Supplemental copies: [complete tested recovery wrapper](sandbox:/mnt/data/recover_balanced_quartic.py), [readable exact source](sandbox:/mnt/data/balanced_quartic.py), [optional numerical locator](sandbox:/mnt/data/locate_full_recovery.py), [fiber A certificate](sandbox:/mnt/data/pencil_A.json), [fiber B certificate](sandbox:/mnt/data/pencil_B.json), and [full actual control audits](sandbox:/mnt/data/pencil_controls.json).
+Supplemental copies: complete tested recovery wrapper (`recover_balanced_quartic.py`), readable exact source (`balanced_quartic.py`), optional numerical locator (`locate_full_recovery.py`), fiber A certificate (`pencil_A.json`), fiber B certificate (`pencil_B.json`), and full actual control audits (`pencil_controls.json`).

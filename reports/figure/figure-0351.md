@@ -8,7 +8,7 @@ AI research report · 2026-09-09 UTC
 
 ## Finite verdict
 
-**The pure topology gate is solved exactly, much more strongly than requested.** Starting from the durable exact `COORD_CONDITIONED_CONTACT35_H137_C650_D1000000000000` parent, whose accepted primal is `(V,E,F)=(190,325,137)`, `C=650`, homogeneous own-centred strict `(1,1,0)` / weak `(0,0,0)` :contentReference[oaicite:0]{index=0}, I reconstructed its canonical 137-vertex polar/support graph `G` and proved that its **minimum** spanning simple 3-vertex-connected subgraph has
+**The pure topology gate is solved exactly, much more strongly than requested.** Starting from the durable exact `COORD_CONDITIONED_CONTACT35_H137_C650_D1000000000000` parent, whose accepted primal is `(V,E,F)=(190,325,137)`, `C=650`, homogeneous own-centred strict `(1,1,0)` / weak `(0,0,0)`, I reconstructed its canonical 137-vertex polar/support graph `G` and proved that its **minimum** spanning simple 3-vertex-connected subgraph has
 
 ```text
 n = 137
@@ -22,7 +22,7 @@ Thus the specific C650 incidence graph admits an abstract coarsening all the way
 (V,E,F) = (78,213,137),   C = V+E+F-2 = 426 = 2E,
 ```
 
-not merely the requested `E<=249 / C<=498`. The journal had isolated exactly this spanning-3-connected optimization and physical follow-through as the missing gate :contentReference[oaicite:1]{index=1}; the current assignment repeats that requirement explicitly :contentReference[oaicite:2]{index=2}.
+not merely the requested `E<=249 / C<=498`. The journal had isolated exactly this spanning-3-connected optimization and physical follow-through as the missing gate; the current assignment repeats that requirement explicitly.
 
 **The physical gate is not solved.** I constructed an **exact rational convex Maxwell/Tutte realization of the minimum 213-edge polar graph**, polarized it, integrated the true uniform filled volume, translated to its own exact volume centroid, and exhaustively audited maximal faces, primal vertices and all 213 true-edge four-component cones. Its exact strict/weak class is
 
@@ -50,7 +50,7 @@ The parent is not reconstructed by inference. I decoded the journal's literal se
 081ff87dc9dd54f14cba01f745b659c7bdd7f76dffac35b115a12f5ba4dc0048
 ```
 
-and that `python3 -S REPLAY_ALL.py` rebuilds the exact parent and audits :contentReference[oaicite:3]{index=3}. I reran the C650 portion; it reproduced the durable hashes/markers, including `A.json` = 339,478 bytes with SHA-256
+and that `python3 -S REPLAY_ALL.py` rebuilds the exact parent and audits. I reran the C650 portion; it reproduced the durable hashes/markers, including `A.json` = 339,478 bytes with SHA-256
 
 ```text
 452379cd81e5d00b666d98d49eea352df4be9762475c63d6eab3323e633a7e02.
@@ -99,7 +99,7 @@ Degree histogram reconstructed independently:
 {3:44, 4:30, 5:30, 6:15, 7:7, 8:5, 9:3, 10:1, 11:1, 21:1}
 ```
 
-which matches the durable journal's 137-support / 325-edge accounting :contentReference[oaicite:4]{index=4}.
+which matches the durable journal's 137-support / 325-edge accounting.
 
 ---
 
@@ -914,7 +914,7 @@ print('weak',len(weakS),len(weakU),len(weakH),'zeros',face_zero,vertex_zero,edge
 
 Supplemental complete archive:
 
-[Download `C650_POLAR_MIN213_CLEAR_LYNX14.zip`](sandbox:/mnt/data/C650_POLAR_MIN213_CLEAR_LYNX14.zip)
+Download `C650_POLAR_MIN213_CLEAR_LYNX14.zip`
 
 ```text
 size   = 601188 bytes

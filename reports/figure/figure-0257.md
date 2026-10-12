@@ -14,12 +14,12 @@ The J53 packet is genuinely gone: rows `11000,11001,11002` are strictly inactive
 
 ## Artifacts and replay
 
-- [Complete exact archive](sandbox:/mnt/data/bright_harbor30_continue/Bright_Harbor_30_J54_FA5_sharedface8_exact_NONWINNER.zip), 1,728,458 bytes, SHA-256 `fce67b547a245bbfa883bec5916d78d820ed8ca3d2f747e340c7d6e1b1b4b910`.
-- [Verification receipt](sandbox:/mnt/data/bright_harbor30_continue/Bright_Harbor_30_J54_VERIFICATION_RECEIPT.json), SHA-256 `4da69173e8f8e53295cab8edc68c12f3bb0e6869ffc9d7694abb99787e224589`.
-- [Fresh clean-extraction transcript](sandbox:/mnt/data/bright_harbor30_continue/Bright_Harbor_30_J54_CLEAN_VERIFICATION_TRANSCRIPT.txt), SHA-256 `a254d16a6293d5fb45247d740e4797ea2799c0f7f31c51870edfa389e797c46a`.
-- [Exact source](sandbox:/mnt/data/bright_harbor30_continue/source/J54_FA5_sharedface8_exact_source.json), SHA-256 `f378f83fec589e6054fe8b42f22b6b505a69dbfbc27d4494b4198dca08c864e6`.
-- [Complete row-star graph](sandbox:/mnt/data/bright_harbor30_continue/certificates/J54_complete_directed_row_star_graph.json), [transition shell](sandbox:/mnt/data/bright_harbor30_continue/certificates/J53_to_J54_FA5_connected_positive_volume_shell.json), [chronology](sandbox:/mnt/data/bright_harbor30_continue/certificates/J54_death_before_birth_chronology.json), [shape box](sandbox:/mnt/data/bright_harbor30_continue/certificates/J54_exact_two_parameter_shape_box_full.json), and [radial bound](sandbox:/mnt/data/bright_harbor30_continue/certificates/J54_radial_ascent_lower_bound.json).
-- [Watertight OBJ](sandbox:/mnt/data/bright_harbor30_continue/body/J54_FA5_sharedface8.obj), SHA-256 `dae8edbddda9b5c6f81a2e517bfb77fe9812110815edcedb27e90c6efe7b87a0`; [watertight STL](sandbox:/mnt/data/bright_harbor30_continue/body/J54_FA5_sharedface8.stl), SHA-256 `035cf060e72df334f0f23abaed708a9d3120ad960d71a2c5b9ba790c121ad8f2`.
+- Complete exact archive (`Bright_Harbor_30_J54_FA5_sharedface8_exact_NONWINNER.zip`), 1,728,458 bytes, SHA-256 `fce67b547a245bbfa883bec5916d78d820ed8ca3d2f747e340c7d6e1b1b4b910`.
+- Verification receipt (`Bright_Harbor_30_J54_VERIFICATION_RECEIPT.json`), SHA-256 `4da69173e8f8e53295cab8edc68c12f3bb0e6869ffc9d7694abb99787e224589`.
+- Fresh clean-extraction transcript (`Bright_Harbor_30_J54_CLEAN_VERIFICATION_TRANSCRIPT.txt`), SHA-256 `a254d16a6293d5fb45247d740e4797ea2799c0f7f31c51870edfa389e797c46a`.
+- Exact source (`J54_FA5_sharedface8_exact_source.json`), SHA-256 `f378f83fec589e6054fe8b42f22b6b505a69dbfbc27d4494b4198dca08c864e6`.
+- Complete row-star graph (`J54_complete_directed_row_star_graph.json`), transition shell (`J53_to_J54_FA5_connected_positive_volume_shell.json`), chronology (`J54_death_before_birth_chronology.json`), shape box (`J54_exact_two_parameter_shape_box_full.json`), and radial bound (`J54_radial_ascent_lower_bound.json`).
+- Watertight OBJ (`J54_FA5_sharedface8.obj`), SHA-256 `dae8edbddda9b5c6f81a2e517bfb77fe9812110815edcedb27e90c6efe7b87a0`; watertight STL (`J54_FA5_sharedface8.stl`), SHA-256 `035cf060e72df334f0f23abaed708a9d3120ad960d71a2c5b9ba790c121ad8f2`.
 
 A fresh unzip, pre-manifest check, complete independent replay, and post-manifest check were rerun. The terminal markers include `BRIGHT_HARBOR30_J54_ALL_INDEPENDENT_CHECKS_PASS`, all source/shell/chronology/control/shape/radial byte-identical passes, `BRIGHT_HARBOR30_J54_PACKAGE_ALL_CHECKS_PASS`, and `BRIGHT_HARBOR30_J54_CLEAN_EXTRACTION_ALL_PASS`.
 

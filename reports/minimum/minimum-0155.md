@@ -34,7 +34,7 @@ The unconditional strengthening T(P)<=T(Q) is false. A new exact proper33 body w
 
 Twelve exact actual bodies are retained: two NF cores, their non-CH caps, their proper resolutions and proper height clips, the unconditional-deletion counterexample and its clip, and a d>1 control and its correctly placed clip. Every body's uniform centroid, maximal facets, true edges and complete edge primitives were recomputed. None is 110 or an E17 attainer.
 
-The parent explicitly left maxell>A and missing-axis geometry outside its completed NF/CH theorem; the new reduction addresses that complement rather than reopening arbitrary-U NF. :contentReference[oaicite:0]{index=0}
+The parent explicitly left maxell>A and missing-axis geometry outside its completed NF/CH theorem; the new reduction addresses that complement rather than reopening arbitrary-U NF.
 
 ## 2. Source authority and evidence status
 
@@ -206,7 +206,7 @@ The other premise is the accepted individual boundary-trace cap c3<10/9. It appl
     qY_Q/(6ve)<=c3,
     T(Q)<=2c3<20/9.                                  (6.2)
 
-This uses true whole-facet integrals, not an identification of a marked triangle with a larger facet. The precise inherited boundary theorem and its uniform localization proof are supplied in the journal. :contentReference[oaicite:1]{index=1}
+This uses true whole-facet integrals, not an identification of a marked triangle with a larger facet. The precise inherited boundary theorem and its uniform localization proof are supplied in the journal.
 
 Since 20/9>gamma_H, the right side of (4.5) increases with the core mean e and decreases with F. Using (6.1) and F>=HW gives the actual-body bound
 
@@ -245,7 +245,7 @@ For 0<d<=1 and H=1, suppose the ACTUAL truncation Q belongs to the accepted NF c
     U concave and nonnegative, U(0)=1, u=U(d)>0,
     h/u<=q, 0<=m<=q.
 
-The parent proves T(Q)<203/100 for this whole class. It also proves the same cap for CH through its actual-body domination. These are the inherited value premises, not newly assumed properties of an arbitrary clipped body. :contentReference[oaicite:2]{index=2}
+The parent proves T(Q)<203/100 for this whole class. It also proves the same cap for CH through its actual-body domination. These are the inherited value premises, not newly assumed properties of an arbitrary clipped body.
 
 Equation (4.5) immediately gives
 
@@ -741,4 +741,4 @@ A useful continuation should combine a real bounded-height multi-normal core wit
 
 No whole E17 exclusion, universal one-zero 51/25 theorem, sharp trace supremum, equilibrium-preserving regularization, or new attaining complexity follows. The original mechanical interval remains 34..622. The exact nonwinning controls and the failed unconditional deletion are fully reconstructible above.
 
-Convenience copies, not dependencies: [runnable source](sandbox:/mnt/data/cap_work/one_zero_cap.py), [complete exact report](sandbox:/mnt/data/cap_work/one_zero_cap.json), [normal and cold-matched receipt](sandbox:/mnt/data/cap_work/one_zero_cap_receipt.txt).
+Convenience copies, not dependencies: runnable source (`one_zero_cap.py`), complete exact report (`one_zero_cap.json`), normal and cold-matched receipt (`one_zero_cap_receipt.txt`).

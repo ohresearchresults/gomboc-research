@@ -24,7 +24,7 @@ No C32 attainer, C>=34, F>=10, or V>=10 is claimed. The earlier proper four-tria
 
 The full literal parent `minimum-0040`, `NOVA24_F9_11_SHADOW_FRAMES_V1`, was read and authenticated. Its compact version-2 envelope is **45,178 bytes**, SHA-256 **`2cd8dc8ea75a5a8d1eaa9fabfca75a65181325fab676cd95dec5cd1c16426a59`**. Exact authentication: extract the unique title-through-EOF Markdown from the supplied journal, append one LF, and serialize `{'version':2,'result_markdown':md+'\n'}` with `ensure_ascii=False,separators=(',',':')`. The supplied journal itself is 3,407,881 bytes, SHA-256 `ea13f43e8a98a505205a90ba7be96a304d228bee26920202f56f4851be7ef602`.
 
-OJ supplies the 11 frames and their 25 base-tree-labelled subgraphs, including all weak shadows. Its five TREE ordinals are not catalogue IDs. Its old matrix certificates were **not rerun** here. The parent explicitly finds that its reciprocal counterterms are inessential to those certificates; this handoff makes no contrary coupling claim. No source/alias conflict was found. :contentReference[oaicite:0]{index=0}
+OJ supplies the 11 frames and their 25 base-tree-labelled subgraphs, including all weak shadows. Its five TREE ordinals are not catalogue IDs. Its old matrix certificates were **not rerun** here. The parent explicitly finds that its reciprocal counterterms are inessential to those certificates; this handoff makes no contrary coupling claim. No source/alias conflict was found.
 
 Three inherited inputs are used distinctly:
 
@@ -35,13 +35,13 @@ T     = (0,0,1,2,3,4,5,6,0),
 T_alt = (0,0,8,2,3,4,5,6,0).
 ```
 
-The analytical primal parent is `minimum-0032`, SHA-256 `3c4347c3beb52ca549da23ff0b0eb42a85251a52c2a920bbf1deb68b4b73fe4d`; its later completed coordinator recovery remains a separate inherited verification, not a replay claimed here. There are eight required nonnegative shadows of T; the only additional possibly nonnegative unequal pair is 2->8. All other 63 pairs are strictly negative. Facet 567 is an actual maximal triangle. The alternative tree is usable only when 28 is a true edge and its escape has the needed sign. These statements come from the journaled actual-moment theorem and its redirection consequences, not from new independent masses. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The analytical primal parent is `minimum-0032`, SHA-256 `3c4347c3beb52ca549da23ff0b0eb42a85251a52c2a920bbf1deb68b4b73fe4d`; its later completed coordinator recovery remains a separate inherited verification, not a replay claimed here. There are eight required nonnegative shadows of T; the only additional possibly nonnegative unequal pair is 2->8. All other 63 pairs are strictly negative. Facet 567 is an actual maximal triangle. The alternative tree is usable only when 28 is a true edge and its escape has the needed sign. These statements come from the journaled actual-moment theorem and its redirection consequences, not from new independent masses.
 
-**Actual matching theorem.** Every strict target has some complementary pair of strict true-edge escape trees. Individual zero primitives at nonequilibria are allowed. An arbitrary prescribed complement need not work. :contentReference[oaicite:3]{index=3}
+**Actual matching theorem.** Every strict target has some complementary pair of strict true-edge escape trees. Individual zero primitives at nonequilibria are allowed. An arbitrary prescribed complement need not work.
 
-**Canonical catalogue.** The accepted 296-map catalogue was recovered and rerun, including its independent completeness/orbit checker. Its 240,929-byte JSON reproduces SHA-256 `efb10a4657a891cd13f6f62db94164bd4b3005e908dc55aae87db450930f704d`, with 21,682 joint-root orbits. The complete recovery source is included below; no unavailable catalogue or alias is required. :contentReference[oaicite:4]{index=4}
+**Canonical catalogue.** The accepted 296-map catalogue was recovered and rerun, including its independent completeness/orbit checker. Its 240,929-byte JSON reproduces SHA-256 `efb10a4657a891cd13f6f62db94164bd4b3005e908dc55aae87db450930f704d`, with 21,682 joint-root orbits. The complete recovery source is included below; no unavailable catalogue or alias is required.
 
-The accepted whole set remains the inherited set `{33,34,72,139,149,152,159,163,164,178,192,217,284,288,293,294,295}`. The prior partials remain `35/U3,45/U3,47/U3,49/U3,51/U3,53/U3,282/U0,290/U3`. The unpersisted 7954 transfer, late57 claims, and failed earlier matching assignment are not inputs. :contentReference[oaicite:5]{index=5}
+The accepted whole set remains the inherited set `{33,34,72,139,149,152,159,163,164,178,192,217,284,288,293,294,295}`. The prior partials remain `35/U3,45/U3,47/U3,49/U3,51/U3,53/U3,282/U0,290/U3`. The unpersisted 7954 transfer, late57 claims, and failed earlier matching assignment are not inputs.
 
 ## 3. Exact new exclusions
 
@@ -144,7 +144,7 @@ q_g.p-1=(1-alpha-beta)(q_g.x_b-1)>0.
 
 Since `p=Nq_f/(q_f^T Nq_f)`, the pole escape is `(q_f^T Nq_f)(q_g.p-1)>0`. The other two sides have positive missing barycentric coordinates and therefore negative escapes. This proves the assertion with weak A or B equality. The same proof applies to triangular facets of the actual polar with reciprocal metric. The source applies it on **both sides**, recording every strictly positive implication.
 
-This is the inherited terminal-foot calculation applied systematically to every genuine triangle, not a claim that the terminal triangle contributes an extra equilibrium. The original terminal escape through 57 is preserved. :contentReference[oaicite:6]{index=6}
+This is the inherited terminal-foot calculation applied systematically to every genuine triangle, not a claim that the terminal triangle contributes an extra equilibrium. The original terminal escape through 57 is preserved.
 
 ### 4.3 A root-facet domination obstruction
 
@@ -184,7 +184,7 @@ graphs with two compatible choices           0                     0
 
 **Proof of the uniqueness theorem.** For any putative strict C32 target, inherited matching supplies at least one strict pair. Its complete physical graphs pass all the necessary tests above and occur in the exhaustive cover. If two different weak compatible pairs existed at the same roots, the inherited primal restriction makes them precisely T and T_alt in one broom labeling. Both would therefore be recorded for the same complete graph state. The explicit re-enumeration and the complete zero count above exclude that possibility. Consequently the unique weak compatible pair is the existing strict one. This does **not** say that only one primal escape tree exists, or that a complement can be fixed before knowing the signs.
 
-The inherited eligibility-graph theorem consequently implies that, at a putative C32 target, each eligibility component is a tree with one half-edge; its parallel-cycle alternative cannot occur. :contentReference[oaicite:7]{index=7}
+The inherited eligibility-graph theorem consequently implies that, at a putative C32 target, each eligibility component is a tree with one half-edge; its parallel-cycle alternative cannot occur.
 
 For attribution, a separately computed coarse cover using the five dual tree shapes, both complements, and the basic primal triangle/root tests leaves **13,019** joint roots outside the 17. The complete intersection leaves 12,954: **65 additional joint roots** are removed by the finer tests. Their full list is generated as `new_cut_gain_over_coarse`. The entire 7,805 gain is **not** attributed exclusively to replacing 25 old frames by 11, nor to essential Lambda-square coupling. No result from the unpersisted 7954 package is used or claimed reproduced.
 
@@ -341,7 +341,7 @@ In `quotient_frontier.json`, each graph state is
 
 An origin `(ri,ai)` points to a complete unquotiented record and the actual coupled vertex/facet automorphism transporting it to the canonical graph pair. Each matching branch is `[actual_primal_parent_array,S,origins]`; its unique diagonal parent entry identifies U. For a matching-branch origin `(ri,choice)`, reconstruct that record's actual parent array and minimize `(parent,S)` under the printed coupled automorphisms, exactly as the quotient source does. Original records retain every dual transport and complementary choice. This supplies all exact label reconstruction, not just orbit totals.
 
-Supplementary [complete sources, literal maps, full frontier ledgers and transcripts](sandbox:/mnt/data/C32_ELEVEN_FRAME_JOINT_ROOT_EXCLUSIONS_V1.zip). The following inline sources alone reconstruct the entire new frontier; the archive is not a required input.
+Supplementary complete sources, literal maps, full frontier ledgers and transcripts (`C32_ELEVEN_FRAME_JOINT_ROOT_EXCLUSIONS_V1.zip`). The following inline sources alone reconstruct the entire new frontier; the archive is not a required input.
 
 ### 8.1 — `recover_c32_complete.py`
 

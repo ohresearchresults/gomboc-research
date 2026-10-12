@@ -40,7 +40,7 @@ figure-0311
 SHA-256 2e32e75e0d7968fe4238ef9c894ddf1cb491de3e42947626a34f91a761492173
 ```
 
-No conflict between these literal payloads and the constructive data used here was found. The primary polynomial-source archive was materialized; its SHA-256 was `5d4e3a2b942e9c906f0bbc50df4e87aad4248ec998f3d54a26925a823a697a8e`. The P50-4355 parent was reconstructed from its complete generator, with all three raw integer-array hashes matching. Its exact verifier also passed in this run. The parent is not an older large-body array or the rejected J56 object. Its exact finite data and hashes are recorded in the literal payload. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+No conflict between these literal payloads and the constructive data used here was found. The primary polynomial-source archive was materialized; its SHA-256 was `5d4e3a2b942e9c906f0bbc50df4e87aad4248ec998f3d54a26925a823a697a8e`. The P50-4355 parent was reconstructed from its complete generator, with all three raw integer-array hashes matching. Its exact verifier also passed in this run. The parent is not an older large-body array or the rejected J56 object. Its exact finite data and hashes are recorded in the literal payload.
 
 For identification, the inherited smooth source is
 
@@ -51,9 +51,9 @@ f=[1,-241163387/28875000,644213/125000,127043/6250,-106768/3125,44096/3125]
 g=[1740161/500000,-533263/125000,-1007773/31250,1493996/15625,-1627536/15625,135632/3125].
 ```
 
-This run did not re-optimize these polynomials. Its contribution is the finite geometry and verification. :contentReference[oaicite:2]{index=2}
+This run did not re-optimize these polynomials. Its contribution is the finite geometry and verification.
 
-The fixed-polygon obstruction remains intact. A centrally symmetric reflection-compatible central polygon has the wrong pair of axial feature types; an affine central prism lacks the required unique axial unstable vertex. :contentReference[oaicite:3]{index=3} The new construction does neither. It inherits a **separate axial stable facet and axial unstable apex** from the actual finite P50 body and changes three-dimensional noncritical patches. Sections are not required to be `c(z)+a(z)B` for one fixed polygon. Retaining only the half-turn `(x,y,z)->(x,-y,-z)` does not restore the excluded hypotheses.
+The fixed-polygon obstruction remains intact. A centrally symmetric reflection-compatible central polygon has the wrong pair of axial feature types; an affine central prism lacks the required unique axial unstable vertex. The new construction does neither. It inherits a **separate axial stable facet and axial unstable apex** from the actual finite P50 body and changes three-dimensional noncritical patches. Sections are not required to be `c(z)+a(z)B` for one fixed polygon. Retaining only the half-turn `(x,y,z)->(x,-y,-z)` does not restore the excluded hypotheses.
 
 L65-E146 was not treated as a nearly finished winner. Its failed insphere diagnostic instead became a discovery constraint: every proposal was evaluated at its recomputed finite-volume centroid, and centred-inradius and maximum-radius consistency were checked before accepting small local margins.
 
@@ -285,8 +285,8 @@ The actual fresh capsule replay reproduced **byte-identical** final compressed v
 
 ## Supplemental delivery
 
-[Exact successor, readable generators, both verifiers, complete incidence, reports and display meshes](sandbox:/mnt/data/P50_NONSIMPLICIAL_FUSION_HANDOFF.zip).
+Exact successor, readable generators, both verifiers, complete incidence, reports and display meshes (`P50_NONSIMPLICIAL_FUSION_HANDOFF.zip`).
 
-[Expanded self-contained Markdown handoff, including the same complete capsule](sandbox:/mnt/data/P50_NONSIMPLICIAL_FUSION_RESULT.md).
+Expanded self-contained Markdown handoff, including the same complete capsule (`P50_NONSIMPLICIAL_FUSION_RESULT.md`).
 
 Final archive: **1038550 bytes**, SHA-256 `9297a5a62be6fc15cd8022a2e05c01fe28bd5fbaf0178604dc2c029e4d9c7c9d`. All 35 manifest entries passed. The capsule supplies a complete reconstruction inline; the archive additionally supplies the literal rational table for direct verification without numerical source regeneration. No C<1000, minimum-complexity, manufacturing-tolerance or external-peer-review claim is made.

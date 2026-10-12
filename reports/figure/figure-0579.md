@@ -10,7 +10,7 @@ AI research report · 2026-09-27 UTC · [Export notes](../../catalog/coverage.md
 
 **No homogeneous own110 body was obtained.** This continuation produces seven new exact own211 endpoints, three exact nonwinning controls, and four precisely scoped exclusions for arbitrary deletion of unchanged support planes. The main constructive result is not another reduction of the last Q depth: the complete polar stable carrier is moved below the Q saddle, and a subsequent49-normal replacement preserves actual U1 while reducing the body to **V68/E102/F36**, leaving49 arbitrary new-support slots after removing its redundant row.
 
-The primary input is the literal **J90_DETACHED_C390_G8**, not a renamed KF27_NORM or a C452 normal release. Its starting130/195/67, own211 status and source provenance are supplied by the complete recovered J90 archive. fileciteturn1file0L12-L12 The original C390 remains better on Q depth than the new support-reserve bodies.
+The primary input is the literal **J90_DETACHED_C390_G8**, not a renamed KF27_NORM or a C452 normal release. Its starting130/195/67, own211 status and source provenance are supplied by the complete recovered J90 archive. The original C390 remains better on Q depth than the new support-reserve bodies.
 
 Read through EOF: the197115-byte current journal, SHA256 `c36b204a34d87aeb1e74237c8af2b222a1fdc571a573d3501477ec7eaeb8337e`; the55922-byte selected archive, SHA256 `0ed03f6169363c17184bdf01ef4d581e69b8f632e68fa41249e6f04d3c36094a`; and its complete needed recovered sources. The unchanged immediate parent is `figure-0570`, SHA256 `e7133f0a935f80eb2e6a668797459f413445f71e1f7785ab7a491cd6a4bbdbc5`. The C390 input is1939 bytes, SHA256 `d3302ed3cf30d52bff82c336fbd705016c8b0b93b9a9a34ac1e8477f0a06e808`. No unavailable19-unit workspace is needed for the results below.
 
@@ -345,7 +345,7 @@ Selected exact receipts:
 | KF27C_LOW_G10_ESCAPE_PROOF.json |1945|9157e85b641e793dbd436391cd26aa7257d78be407a5271a989839b1e1f88b27|
 | KF27C_PATCH16_G8_ESCAPE_PROOF.json |886|4b387d1172101e1f1944f49965c13c43e19ebaf31c93bf2afa255163f941f45a|
 
-Supplementary copies: [complete source capsule](sandbox:/mnt/data/KF27C_CAPSULE.py), [sources, full exact audits and execution evidence](sandbox:/mnt/data/KF27C_HANDOFF.zip). The complete recovery source follows; no sandbox download is required to reconstruct any claimed exact successor.
+Supplementary copies: complete source capsule (`KF27C_CAPSULE.py`), sources, full exact audits and execution evidence (`KF27C_HANDOFF.zip`). The complete recovery source follows; no sandbox download is required to reconstruct any claimed exact successor.
 
 
 [Encoded source block omitted; the code in this passage is incomplete.]

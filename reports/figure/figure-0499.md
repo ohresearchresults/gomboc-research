@@ -14,7 +14,7 @@ The retained runtime initially contained only the supplied journal, not a recove
 
 ## Input authority
 
-The entire supplied journal, its literal parent payload, and all seven decoded source units were read. The authority is `figure-0494`, supplied assignment SHA-256 `493d8c291b1a04cdf1649e7020cd57102111eef9b69cae1dc9e7823d858bbdf8`. It is the unchanged seven-body recovery, not a failed geometry search. Its GEN8 and TQS3 inputs are different actual-U1 bodies; neither inherits the TQ23 one-point obstruction. :contentReference[oaicite:0]{index=0}
+The entire supplied journal, its literal parent payload, and all seven decoded source units were read. The authority is `figure-0494`, supplied assignment SHA-256 `493d8c291b1a04cdf1649e7020cd57102111eef9b69cae1dc9e7823d858bbdf8`. It is the unchanged seven-body recovery, not a failed geometry search. Its GEN8 and TQS3 inputs are different actual-U1 bodies; neither inherits the TQ23 one-point obstruction.
 
 Mounted journal: 302377 bytes, SHA-256 `8dbbd5174387063873aca9d28765ee3bb505d8c85fc207c82b13fc2335872080`. Extracted parent decoder: 15635 bytes, SHA-256 `dfa052a00b24a927c21b5c037e564d656d400ea62fca12939bd3071f1263bb36`. Its decoded seven-unit dictionary was exactly 32794 bytes with SHA-256 `82c17bc12f885dd608dd386397b4fdf8001096179dedda5ef3966a5ef17c1db6`. The supplied assignment hash is provenance; the independently checked byte identities are the mounted journal, decoder, decoded dictionary, and regenerated reports.
 
@@ -197,7 +197,7 @@ OPENBLAS_NUM_THREADS=1 python test_visibility.py
 OPENBLAS_NUM_THREADS=1 python cover_scout.py
 ```
 
-Convenience copies: [exact recovery script](sandbox:/mnt/data/RECOVER_VF70.py), [complete new certificates and landscapes](sandbox:/mnt/data/parent_sources/VF70_RESULTS.json), [formatted full handoff](sandbox:/mnt/data/VF70_HANDOFF.md). The unabridged inline capsule, not these links, is the durable recovery source.
+Convenience copies: exact recovery script (`RECOVER_VF70.py`), complete new certificates and landscapes (`VF70_RESULTS.json`), formatted full handoff (`VF70_HANDOFF.md`). The unabridged inline capsule, not these links, is the durable recovery source.
 
 ### Complete runnable capsule
 

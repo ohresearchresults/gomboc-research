@@ -33,7 +33,7 @@ Authority for the unchanged model is the literal parent
     SHA256 a0ff664d9ede90ff78b8b6b5d365997eef123d7dc6105b9e2078184ab2a587b4
     HEX6_PHYSICAL_FIVE_CONTACT_INTERIOR_FILTER_V9.
 
-Its actual-centroid selector, labels and true lattice are retained. The new calculation does not use the raw-translated control's307 stencils or the distinct prismatoid's octagon systems. The supplied first-layer compactness theorem supplies no numerical constant to this certificate. :contentReference[oaicite:0]{index=0}
+Its actual-centroid selector, labels and true lattice are retained. The new calculation does not use the raw-translated control's307 stencils or the distinct prismatoid's octagon systems. The supplied first-layer compactness theorem supplies no numerical constant to this certificate.
 
 The literal original-frame inputs are
 
@@ -294,7 +294,7 @@ Expected terminal evidence includes
     FULL_RANK_222_FOR_ALL_L_GE_100_ONE_HARMLESS_ZERO_NO_PHYSICAL_WEAK_PASS
     HEX6_STAR_V10_EXACT_RECOVERY_PASS
 
-Convenience copies: [complete recovery capsule](sandbox:/mnt/data/recover_hex6_star_v10.py) and [exact regenerated report](sandbox:/mnt/data/hex6_star_v10.json). The literal capsule, not either link alone, is the durable handoff.
+Convenience copies: complete recovery capsule (`recover_hex6_star_v10.py`) and exact regenerated report (`hex6_star_v10.json`). The literal capsule, not either link alone, is the durable handoff.
 
 ```python
 #!/usr/bin/env python3

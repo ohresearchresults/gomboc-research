@@ -52,9 +52,9 @@ I read the complete 1,753-line new journal, its complete branch memory and liter
 | POLYHEDRAL_TRACE_STATIONARITY_RIGIDITY_V1, [internal-source-reference] | 14798 | 8dc6ce8812298f59a61b404ccba7c09fef867bb8844a8952bf1cacc638bcc2b9 |
 | ROOT_DUALITY_JOINT_VARIATIONS_V1, [internal-source-reference] | 18784 | 73eb04d63deeab693d29533819d3b95c4e1af3cc01d756987381aaa2bb4c2ed8 |
 
-The literal parent is **minimum-0163**, immutable SHA-256 **6cbb192cd6ad2b1027cf9bf21d2f2a75ab372b307fe4c5c0fa1091b9b63bb0fc**, TWO_ANCHOR_JOINT_ROTATION_EXCLUSION_254_OVER_125_V1. Its completed positive-G sector is not reopened. Its actual tetrahedron-plus-visible-caps identity is reused and explicitly distinguished from the new negative-sector deductions. :contentReference[oaicite:0]{index=0}
+The literal parent is **minimum-0163**, immutable SHA-256 **6cbb192cd6ad2b1027cf9bf21d2f2a75ab372b307fe4c5c0fa1091b9b63bb0fc**, TWO_ANCHOR_JOINT_ROTATION_EXCLUSION_254_OVER_125_V1. Its completed positive-G sector is not reopened. Its actual tetrahedron-plus-visible-caps identity is reused and explicitly distinguished from the new negative-sector deductions.
 
-The background theorem requiring at least three free polygons at a proper33 full joint maximum is retained, not re-enumerated. Its full old capsule is not an input to the new proof. The source discrepancy in its historical Case R/P trace fractions is already explicitly corrected in the new journal; I use neither those incorrect fractions nor a relabelled body. :contentReference[oaicite:1]{index=1}
+The background theorem requiring at least three free polygons at a proper33 full joint maximum is retained, not re-enumerated. Its full old capsule is not an input to the new proof. The source discrepancy in its historical Case R/P trace fractions is already explicitly corrected in the new journal; I use neither those incorrect fractions nor a relabelled body.
 
 **No inherited joint-mass upper bound, upper-defect theorem, negative-G endpoint cover, Berwald covariance completion, or absent old greedy/root executable is a premise of the new results.** The input statements used are auxiliary-vertex positivity, the free-facet spike inequality, ordinary-facet rigidity, whole-plane first variation, and genuine joint mark admissibility. Their proofs are supplied. Global localization and attainment are not reproved or strengthened here.
 
@@ -89,7 +89,7 @@ An ordinary facet with mark X is the true triangle [X,U,V], with
 
     G(X)<0, G(U)=G(V)=LX:=-G(X)/3>0.                    (3.2)
 
-These are whole-body statements permitting lattice changes; they follow from the exact finite trace comparison, thin-edge caps, whole-plane pivots and actual added pyramids. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+These are whole-body statements permitting lattice changes; they follow from the exact finite trace comparison, thin-edge caps, whole-plane pivots and actual added pyramids.
 
 For a convex polygon F, a true vertex X, and an affine function phi>=0 on F with phi(X)=0, a true fan from X gives
 
@@ -103,7 +103,7 @@ Thus no integration diagonal is being treated as an independently movable edge. 
 
     max_F G > max(LX,LY).                               (3.4)
 
-The strictness follows because G(Y)<0<LX and its coefficient on that triangle is positive. Simplicity of X or Y is unnecessary. The supplied whole-polygon hinge proof justifies this operation directly. :contentReference[oaicite:4]{index=4}
+The strictness follows because G(Y)<0<LX and its coefficient on that triangle is positive. Simplicity of X or Y is unnecessary. The supplied whole-polygon hinge proof justifies this operation directly.
 
 ## 4. Negative marked vertices expose genuine canonical edges
 
@@ -117,7 +117,7 @@ The determinant and changed endpoint are already included. Differentiating along
 
     FC(y,z):=(b+2c)(y-1)-alpha z<=0                     (4.1)
 
-throughout the whole coordinate face. This is the supplied exact marked support reaction. :contentReference[oaicite:5]{index=5}
+throughout the whole coordinate face. This is the supplied exact marked support reaction.
 
 Suppose G(C)<0. The line FC=0 supports that face at C, while A and B are strictly below it. If C were not a true vertex, the true vertices of its exposed face would all be auxiliary, with strictly positive G. Their convex combination could not have negative G(C). Hence **C is a true vertex**.
 
@@ -161,7 +161,7 @@ Since ell is nonnegative on the actual remainder,
 
     24E>=n(p)+ell(p)tp.                                 (5.1)
 
-This identity is inherited from the literal parent; its use below does not import the parent's positive-G endpoint restrictions. :contentReference[oaicite:6]{index=6}
+This identity is inherited from the literal parent; its use below does not import the parent's positive-G endpoint restrictions.
 
 ### 5.2 All-sign auxiliary height bound
 
@@ -231,7 +231,7 @@ Otherwise the negative marked vertex exposes AC or AD as in Section 5. Its free 
 
     No ordinary A facet occurs at a full joint negative-anchor maximum.
 
-Every free facet through A therefore contains C or D. Each pair AC,AD already uses a coordinate facet and can supply at most one additional facet. There are at most two free A facets, so deg(A)<=4. The pair-count statement is the literal true-facet incidence argument of the supplied rigidity source. :contentReference[oaicite:7]{index=7}
+Every free facet through A therefore contains C or D. Each pair AC,AD already uses a coordinate facet and can supply at most one additional facet. There are at most two free A facets, so deg(A)<=4. The pair-count statement is the literal true-facet incidence argument of the supplied rigidity source.
 
 ### 6.3 At most one ordinary facet, based at the root minimum
 
@@ -349,7 +349,7 @@ For a proper simple C, the two extrema coincide at its unique third-edge directi
 
 is available only for the actual triangle ABC. The enlarged controls below show the two integrals differ exactly.
 
-This is a joint marked/root variation even though the physical ell is held fixed before normalization: after (7.1), its coefficients and ce change. Root-area motion, normalization, and the changed n are not optional corrections. A violated endpoint of (7.5) gives a genuine one-sided ascent. A strict marked-patch improvement can subsequently be properized by conv(T0,(1-eta)Q+eta qroot), using a root-interior point and sufficiently small eta; only strict convergence of the actual integrals is asserted, not monotonicity of properization. :contentReference[oaicite:8]{index=8}
+This is a joint marked/root variation even though the physical ell is held fixed before normalization: after (7.1), its coefficients and ce change. Root-area motion, normalization, and the changed n are not optional corrections. A violated endpoint of (7.5) gives a genuine one-sided ascent. A strict marked-patch improvement can subsequently be properized by conv(T0,(1-eta)Q+eta qroot), using a root-interior point and sufficiently small eta; only strict convergence of the actual integrals is asserted, not monotonicity of properization.
 
 ## 8. Seven exact actual controls and a genuine failed simplification
 
@@ -491,7 +491,7 @@ The full affine root reaction remains available on either residual class:
     int_F0 G h/|grad ell|=qV h(g)-3(X+Y)h(w0),
     w0=(gy/[3(gx+gy)],gx/[3(gx+gy)],1/3),
 
-for every affine h, because all four endpoints are positive. These are actual root integrals of the same P. :contentReference[oaicite:9]{index=9} The new reductions use weaker necessary parts of joint stationarity; they do not replace or discard this remaining root compatibility.
+for every affine h, because all four endpoints are positive. These are actual root integrals of the same P. The new reductions use weaker necessary parts of joint stationarity; they do not replace or discard this remaining root compatibility.
 
 ## 11. Complete exact recovery and actual replay status
 
@@ -731,4 +731,4 @@ for name,(size,digest) in PINS.items():
 print('NEGATIVE_ANCHOR_V1_SOURCE_ONLY_COLD_RECOVERY_ALL_HASHES_PASS')
 ```
 
-Supplementary convenience archive: [complete exact sources, reports and discovery records](sandbox:/mnt/data/negative_anchor_v1_recovery.zip), 124711 bytes, SHA-256 ba036e3559143297b3c0d93ecd3cbfba5825dc6a4c528405096ef42fe1dd7aa9. The literal capsule above is sufficient without the archive.
+Supplementary convenience archive: complete exact sources, reports and discovery records (`negative_anchor_v1_recovery.zip`), 124711 bytes, SHA-256 ba036e3559143297b3c0d93ecd3cbfba5825dc6a4c528405096ef42fe1dd7aa9. The literal capsule above is sufficient without the archive.

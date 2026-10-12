@@ -8,7 +8,7 @@ AI research report · 2026-08-27 UTC
 
 ## Verdict
 
-No homogeneous convex polyhedral Gömböc was found. The acceptance gate remains a finite uniform-density body evaluated at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`; a wall point, auxiliary-reference solution, or strict `(2,2,2)` body is not completion. :contentReference[oaicite:0]{index=0}
+No homogeneous convex polyhedral Gömböc was found. The acceptance gate remains a finite uniform-density body evaluated at its own exact volume centroid with strict `(S,U,H)=(1,1,0)`; a wall point, auxiliary-reference solution, or strict `(2,2,2)` body is not completion.
 
 I continued the exact four-sheet/eight-block endpoint through the smallest cyclic closure not previously subsumed. The strongest result is a fully materialized, irredundant, exact, open `(2,2,2)` fallback with **two communicating cyclic closure stages and sixteen exact circuit blocks**. It is not a winner, but it removes the complete inherited critical block and sharply identifies the next genuinely three-dimensional replacement topology.
 
@@ -340,19 +340,19 @@ eb6984c20d9e61e7d4f7d516b47c328528d4b8973f297513cf664ceeb9011004
 
 ## Reproducible artifacts
 
-- [Complete self-contained handoff](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/SELF_CONTAINED_HANDOFF.md)
-- [Portable exact bundle ZIP](sandbox:/mnt/data/two_cycle_sixteen_block_exact_bundle.zip)
-- [ZIP SHA-256 record](sandbox:/mnt/data/two_cycle_sixteen_block_exact_bundle.zip.sha256)
-- [Fresh-extraction verification transcript](sandbox:/mnt/data/two_cycle_sixteen_block_FRESH_VERIFY.txt)
-- [Exact Q/P certificate](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/two_cycle_sixteen_block_exact.json)
-- [Exact deterministic generator and both wall families](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/generator_spec.json)
-- [Exact sixteen-block event certificate](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/sixteen_block_event_certificate.json)
-- [Compact exhaustive full-normal-cone audit](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/full_normal_cone_audit.json)
-- [Directed perturbation certificate](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/metric_perturbation_certificate.json)
-- [Finite search and obstruction summary](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/search_obstruction_summary.json)
-- [Independent exact verifier](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/verify_two_cycle_independent.py)
-- [Exact circuit-history verifier](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/verify_sixteen_block_history.py)
-- [Directed perturbation verifier](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/verify_metric_perturbation_iv.py)
-- [Deterministic mesh rebuilder](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/rebuild_from_certificate.py)
-- [P OBJ](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/two_cycle_sixteen_block_P.obj) and [P STL](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/two_cycle_sixteen_block_P.stl)
-- [Q OBJ](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/two_cycle_sixteen_block_Q.obj) and [Q STL](sandbox:/mnt/data/two_cycle_sixteen_block_bundle/two_cycle_sixteen_block_Q.stl)
+- Complete self-contained handoff (`SELF_CONTAINED_HANDOFF.md`)
+- Portable exact bundle ZIP (`two_cycle_sixteen_block_exact_bundle.zip`)
+- ZIP SHA-256 record (`two_cycle_sixteen_block_exact_bundle.zip.sha256`)
+- Fresh-extraction verification transcript (`two_cycle_sixteen_block_FRESH_VERIFY.txt`)
+- Exact Q/P certificate (`two_cycle_sixteen_block_exact.json`)
+- Exact deterministic generator and both wall families (`generator_spec.json`)
+- Exact sixteen-block event certificate (`sixteen_block_event_certificate.json`)
+- Compact exhaustive full-normal-cone audit (`full_normal_cone_audit.json`)
+- Directed perturbation certificate (`metric_perturbation_certificate.json`)
+- Finite search and obstruction summary (`search_obstruction_summary.json`)
+- Independent exact verifier (`verify_two_cycle_independent.py`)
+- Exact circuit-history verifier (`verify_sixteen_block_history.py`)
+- Directed perturbation verifier (`verify_metric_perturbation_iv.py`)
+- Deterministic mesh rebuilder (`rebuild_from_certificate.py`)
+- P OBJ (`two_cycle_sixteen_block_P.obj`) and P STL (`two_cycle_sixteen_block_P.stl`)
+- Q OBJ (`two_cycle_sixteen_block_Q.obj`) and Q STL (`two_cycle_sixteen_block_Q.stl`)

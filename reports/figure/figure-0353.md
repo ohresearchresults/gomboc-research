@@ -8,7 +8,7 @@ AI research report · 2026-09-09 UTC · [Export notes](../../catalog/coverage.md
 
 ## 1. Verdict
 
-**The two nine/nine claims remain unverified, not refuted.** No original theorem or literal parallel-run certificate establishing either `V>=9` or `F>=9` for uniform filled polyhedra at their own volume centroid was recovered. The supplied journal itself records this exact evidence gap and makes the prohibition on below-32 construction independent of its resolution. That prohibition remains in force. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+**The two nine/nine claims remain unverified, not refuted.** No original theorem or literal parallel-run certificate establishing either `V>=9` or `F>=9` for uniform filled polyhedra at their own volume centroid was recovered. The supplied journal itself records this exact evidence gap and makes the prohibition on below-32 construction independent of its resolution. That prohibition remains in force.
 
 **The published homogeneous exclusion has now been independently checked:** I reconstructed its entire `V<=6` case family, generated replacement rational certificates, and verified every one of its **5,943** cases, plus **16 tetrahedron cases**, using integer/rational arithmetic. The complete certificate and executable recovery capsule are below. They establish **V>=7**, not V>=9.
 
@@ -41,7 +41,7 @@ Primary URLs:
 - https://arxiv.org/html/2401.17906v2
 - https://arxiv.org/pdf/2401.17906v2
 
-**Theorem 1, printed p. 2, says seven, not nine.** The relevant proof locations are Theorem 7, p. 5; Theorem 8, pp. 6–7; Section 4.1, p. 8; Algorithm 2, p. 10; and Section 5/Table 1, pp. 11–12. Section 6, p. 12, explicitly leaves some seven-vertex systems unresolved: about 99% are excluded, while the others have an inconclusive SDP result. Thus this source does not establish even `V>=8`, let alone nine/nine. :contentReference[oaicite:2]{index=2}
+**Theorem 1, printed p. 2, says seven, not nine.** The relevant proof locations are Theorem 7, p. 5; Theorem 8, pp. 6–7; Section 4.1, p. 8; Algorithm 2, p. 10; and Section 5/Table 1, pp. 11–12. Section 6, p. 12, explicitly leaves some seven-vertex systems unresolved: about 99% are excluded, while the others have an inconclusive SDP result. Thus this source does not establish even `V>=8`, let alone nine/nine.
 
 ### B. The original public computational supplement
 
@@ -50,7 +50,7 @@ Primary URLs:
 - https://raw.githubusercontent.com/dpapp-github/mono-unstable/main/homogeneous/mono-unstable_homogeneous_56.nb
 - https://github.com/dpapp-github/mono-unstable/blob/main/homogeneous/cases56.csv.zip
 
-I read the original notebook, including its case generator, SDP construction, `Rationalize[...,10^-8]`, and exact verification cells. Its public case archive concerns **five and six vertices**. The notebook's cached large solution output is explicitly shortened with `Missing["NotStored"]`; it is not a complete printed multiplier table. I did **not** execute Mathematica or claim to recover those missing cached rows. Instead, the capsule below supplies new, complete small rational multipliers for the same case family. It needs neither Mathematica nor the external CSV. :contentReference[oaicite:3]{index=3}
+I read the original notebook, including its case generator, SDP construction, `Rationalize[...,10^-8]`, and exact verification cells. Its public case archive concerns **five and six vertices**. The notebook's cached large solution output is explicitly shortened with `Missing["NotStored"]`; it is not a complete printed multiplier table. I did **not** execute Mathematica or claim to recover those missing cached rows. Instead, the capsule below supplies new, complete small rational multipliers for the same case family. It needs neither Mathematica nor the external CSV.
 
 ### C. The 11-vertex/8-face result is a 0-skeleton theorem
 
@@ -61,7 +61,7 @@ Primary URLs:
 - https://arxiv.org/pdf/2302.04252v2
 - https://github.com/dpapp-github/mono-unstable/tree/main/0-skeletons
 
-Theorem 3, printed p. 4, and Theorem 4, p. 5, concern **mono-unstable 0-skeletons**. Theorem 7, p. 7, starts with the essential equation `sum_i r_i=0`; p. 4 defines the model as one unit mass per vertex. The `F>=8` statement on p. 5 follows from `V>=11` and polyhedral combinatorics, not from a separate homogeneous face exclusion. The earlier `V>=8` result is explicitly restated as Theorem 5 for the same 0-skeleton model. :contentReference[oaicite:4]{index=4}
+Theorem 3, printed p. 4, and Theorem 4, p. 5, concern **mono-unstable 0-skeletons**. Theorem 7, p. 7, starts with the essential equation `sum_i r_i=0`; p. 4 defines the model as one unit mass per vertex. The `F>=8` statement on p. 5 follows from `V>=11` and polyhedral combinatorics, not from a separate homogeneous face exclusion. The earlier `V>=8` result is explicitly restated as Theorem 5 for the same 0-skeleton model.
 
 The concrete applicability failure is the substitution `r_V=-sum_{i<V}r_i` in that proof. A filled body's centroid is a **volume-weighted average of tetrahedron centroids**, not generally the average of its vertices. Changing to the filled centroid changes the equilibrium inequalities themselves. No part of this dossier imports the 0-skeleton certificates into the filled-density problem.
 
@@ -73,7 +73,7 @@ Primary URLs:
 - https://arxiv.org/html/1810.05382v3
 - https://arxiv.org/pdf/1810.05382v3
 
-Theorem 4, printed p. 5, excludes homogeneous monostatic tetrahedra. **Lemma 3, p. 10, preserves the zero homogeneous centroid under polarity for a simplex. Lemma 4, pp. 10–11, exchanges equilibrium features at the specified origin for a general polytope.** These are different assertions: Lemma 4 does not say that the polar's ordinary-volume centroid is that origin. A nine-vertex bound cannot therefore be converted into a nine-face filled-density bound by invoking that lemma alone. :contentReference[oaicite:5]{index=5}
+Theorem 4, printed p. 5, excludes homogeneous monostatic tetrahedra. **Lemma 3, p. 10, preserves the zero homogeneous centroid under polarity for a simplex. Lemma 4, pp. 10–11, exchanges equilibrium features at the specified origin for a general polytope.** These are different assertions: Lemma 4 does not say that the polar's ordinary-volume centroid is that origin. A nine-vertex bound cannot therefore be converted into a nine-face filled-density bound by invoking that lemma alone.
 
 ### E. The September 2026 preprint is an upper-bound construction
 
@@ -81,21 +81,21 @@ T. Schettini Gherardini, **An explicit mono-monostatic polyhedron**, arXiv:2609.
 
 Primary URL: https://arxiv.org/html/2609.07827v1
 
-Theorem 1.1 reports a particular homogeneous own-centroid example with `V=113888,E=170832,F=56946`. It is not a nine/nine exclusion. Its introduction expressly separates unit-vertex-mass results from the homogeneous problem. I checked this theorem's stated scope, not its large construction certificate; no new audit or priority claim about that object is made here. Note its signature order `(S,H,U)`, unlike the journal's `(S,U,H)`. :contentReference[oaicite:6]{index=6}
+Theorem 1.1 reports a particular homogeneous own-centroid example with `V=113888,E=170832,F=56946`. It is not a nine/nine exclusion. Its introduction expressly separates unit-vertex-mass results from the homogeneous problem. I checked this theorem's stated scope, not its large construction certificate; no new audit or priority claim about that object is made here. Note its signature order `(S,H,U)`, unlike the journal's `(S,U,H)`.
 
 ### F. What the available private sources did and did not contain
 
-Independent Library searches for the literal nine/nine claims, the parallel minimum investigation, and the historical counts returned copies of the supplied construction journal, not the original minimum proof. The subsequent complete metadata listing exposed eight journal files and two images, with `has_more=false`; it exposed no separate certificate archive. This is an access finding, not a claim that the user's parallel investigation never produced a proof. :contentReference[oaicite:7]{index=7} :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}
+Independent Library searches for the literal nine/nine claims, the parallel minimum investigation, and the historical counts returned copies of the supplied construction journal, not the original minimum proof. The subsequent complete metadata listing exposed eight journal files and two images, with `has_more=false`; it exposed no separate certificate archive. This is an access finding, not a claim that the user's parallel investigation never produced a proof.
 
-The historical digest mentions `139636 -> 1714/869 -> 5341` and a `V8` investigation with `3237069 / 24835 / 17253 / 207036` counts, but explicitly labels them unverified historical claims. No literal matrix collection or exhaustive terminal certificate for those claims was recovered. The later **139,636** seven-vertex enumeration is expressly a case count, not an exclusion certificate. These numbers cannot be promoted to `V>=9`. :contentReference[oaicite:10]{index=10} :contentReference[oaicite:11]{index=11}
+The historical digest mentions `139636 -> 1714/869 -> 5341` and a `V8` investigation with `3237069 / 24835 / 17253 / 207036` counts, but explicitly labels them unverified historical claims. No literal matrix collection or exhaustive terminal certificate for those claims was recovered. The later **139,636** seven-vertex enumeration is expressly a case count, not an exclusion certificate. These numbers cannot be promoted to `V>=9`.
 
 One exact recovery pointer in the digest is the host-local archive
 `/REDACTED_HOME/.pro-research-minimum/backups/20260907-journal-prefix-compaction-LcSYUS/research-journal.full.md`.
-It is not an available sandbox file, and the pointer does not establish that its contents include the later nine/nine proof. No missing assignment ID or immutable payload has been invented. :contentReference[oaicite:12]{index=12}
+It is not an available sandbox file, and the pointer does not establish that its contents include the later nine/nine proof. No missing assignment ID or immutable payload has been invented.
 
 ## 3. Reconstructed necessary system and its density/degeneracy scope
 
-The source's proof-critical ingredients are adjacent shadow inequalities and one tetrahedron-centroid inequality. The following gives an explicit reconstruction, including a combinatorial triangulation argument that avoids relying on a perturbation preserving equilibrium counts. :contentReference[oaicite:13]{index=13}
+The source's proof-critical ingredients are adjacent shadow inequalities and one tetrahedron-centroid inequality. The following gives an explicit reconstruction, including a combinatorial triangulation argument that avoids relying on a perturbation preserving equilibrium counts.
 
 Translate the **actual filled-volume centroid** to zero and normalize the unique unstable vertex to `r_0=(1,0,0)` by a rotation and positive uniform scaling. For each other vertex choose an adjacent parent `p(i)` satisfying
 
@@ -398,4 +398,4 @@ print(json.dumps({'status':'EXACT_FILLED_VOLUME_V_GE_7_REPLAY_PASS',
  'certificate_records_sha256':sha256(payload).hexdigest()},sort_keys=True))
 ```
 
-Supplemental executable copy: [verify_gate56.py](sandbox:/mnt/data/proof_gate/verify_gate56.py). All proof-critical data are already embedded above.
+Supplemental executable copy: verify_gate56.py. All proof-critical data are already embedded above.

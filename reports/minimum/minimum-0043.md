@@ -20,7 +20,7 @@ The inherited bound remains **32<=C_min<=1374**. There is no C32 attainer, no C>
 
 ## 2. Authority and exact inputs
 
-The sole physical theorem parent is `minimum-0041`, `NOVA54_MP45_WHOLE_GRAPH_ACTUAL_MOMENTS_V4`, SHA-256 `9a59df6d6b44ecb690b30e3711222fc549b3553f268e6b90a2c37c0ff728ceae`. It covers all nine roots, genuine cofacial boundary triangulations, actual zero-volume cells, weak escapes, norm ties and arbitrary SPD metrics. Its own `canonical_C32_transports=[]` is respected: the canonical transports below are new. :contentReference[oaicite:0]{index=0}
+The sole physical theorem parent is `minimum-0041`, `NOVA54_MP45_WHOLE_GRAPH_ACTUAL_MOMENTS_V4`, SHA-256 `9a59df6d6b44ecb690b30e3711222fc549b3553f268e6b90a2c37c0ff728ceae`. It covers all nine roots, genuine cofacial boundary triangulations, actual zero-volume cells, weak escapes, norm ties and arbitrary SPD metrics. Its own `canonical_C32_transports=[]` is respected: the canonical transports below are new.
 
 I authenticated the parent's45936-byte compact UTF-8 version2 JSON envelope, with the Markdown's final LF included, from `research-journal(8).md`:
 
@@ -51,7 +51,7 @@ c32_catalogue.json
 efb10a4657a891cd13f6f62db94164bd4b3005e908dc55aae87db450930f704d
 ```
 
-The journal's6337-byte `recover_c32_complete.py`, SHA-256 `35da62544738dbc2177f4c6ef09768d41b5fd208bd6042006421481b9d9168a0`, was recovered literally and run. Its generator and independent completeness/orbit checker reproduced all advertised pins and the642-byte transcript SHA-256 `0b6c9fc3c56411623406c54b3f6ae8f707cc402635adc0ae635ef2d98f21e743`. The baseline is296 unoriented three-connected spherical maps with `(9,16,9)`,50 self-dual types and21682 joint vertex/facet root orbits; its source-only recovery is part of the supplied journal. :contentReference[oaicite:1]{index=1}
+The journal's6337-byte `recover_c32_complete.py`, SHA-256 `35da62544738dbc2177f4c6ef09768d41b5fd208bd6042006421481b9d9168a0`, was recovered literally and run. Its generator and independent completeness/orbit checker reproduced all advertised pins and the642-byte transcript SHA-256 `0b6c9fc3c56411623406c54b3f6ae8f707cc402635adc0ae635ef2d98f21e743`. The baseline is296 unoriented three-connected spherical maps with `(9,16,9)`,50 self-dual types and21682 joint vertex/facet root orbits; its source-only recovery is part of the supplied journal.
 
 No new parent/source/label conflict was found. **I did not rerun root0, root3, their numerical locators, or the old multimillion-tree search.** This work applies the immutable physical theorem and computes the previously missing geometric-combinatorial transport. The separate complementary-matching frontier is neither regenerated nor used as a new premise.
 
@@ -676,6 +676,6 @@ if mode!='extract':
 
 Retire the99 new whole types and preserve the exact180-type whole-exclusion complement. The direct genuine-cofacial application of this particular parent to canonical296 is finished: revisiting its other polygon triangulations, norm ties or exceptional shapes cannot enlarge the103-type direct set. A further exclusion among the180 requires an additional physical theorem or a genuinely different justified parent sphere/geometry, not a new alias, a partial graph embedding or the unaccepted old57 rollup. The existing partial-root/matching results can be intersected with this whole-type partition without replaying their independent research direction.
 
-Convenience files: [standalone recovery source](sandbox:/mnt/data/recover_mp45_c32_transport.py) and [complete frozen transport bundle](sandbox:/mnt/data/NOVA54_C32_MP45_103_GENUINE_TRANSPORTS_V1.zip).
+Convenience files: standalone recovery source (`recover_mp45_c32_transport.py`) and complete frozen transport bundle (`NOVA54_C32_MP45_103_GENUINE_TRANSPORTS_V1.zip`).
 
 The archive has86551 bytes/SHA-256 `fdb10c587e364aecb75b379bf432a86cc613a04cf946cf7ab48456d694622d51`. All19 manifest entries and ZIP integrity passed; a clean extraction reproduced the918-byte frozen-check transcript exactly. The archive is supplementary: every continuation-critical map, generator, checker and reconstruction input is present literally above or reconstructible from the complete inline source capsule.

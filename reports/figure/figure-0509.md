@@ -34,7 +34,7 @@ The last three constructions are retained deliberately. The planar bridge gives 
 
 ## Source authority and entrance
 
-I read the entire supplied journal and all three source materials, including their recovery code. No unavailable historical archive item was used as an exact dependency. The entrance was reconstructed as the supplied **G6 COLUMN matrix applied to exact raw G3**, not raw G6. The source explicitly distinguishes the broken orthogonal symmetry of the affine image from the raw reflection construction. :contentReference[oaicite:0]{index=0}
+I read the entire supplied journal and all three source materials, including their recovery code. No unavailable historical archive item was used as an exact dependency. The entrance was reconstructed as the supplied **G6 COLUMN matrix applied to exact raw G3**, not raw G6. The source explicitly distinguishes the broken orthogonal symmetry of the affine image from the raw reflection construction.
 
 The supplied-file SHA-256 identities were:
 
@@ -193,7 +193,7 @@ The unique stable face is **5**, with cycle `[8,10,20,30,31,32,35,36,37,38,43,45
 
 Uniform volume and first moment are checked with **two tetrahedral origins** and independently by **three coordinate divergence identities**. The resulting actual centroid must give positive centred facet supports and positive centred tetrahedra. Stable feet are tested directly against all other facets and crosschecked against dual-neighbour inequalities. Unstable vertices are tested through true edges and independently against all other vertices. Every true-edge interior foot is tested in its two-normal cone, including coefficient-zero weak cases; endpoint weak vertices are also checked. The identity S+U-H=2 is only a consistency check after direct classification.
 
-Both complete positive H0 landscapes are regenerated with exact chord minima, simultaneous equal-level merges, elder tie-breaking, strict-superlevel components, complete cuts, attaining paths, maximum spanning trees and all-pair chord domination checks. For P49 and the H49 construction, the two landscapes check 1,176 and 4,371 unordered pairs, in the appropriate order. This uses the complete-landscape framework recorded in the notebook, rather than a selected-edge proxy. :contentReference[oaicite:1]{index=1}
+Both complete positive H0 landscapes are regenerated with exact chord minima, simultaneous equal-level merges, elder tie-breaking, strict-superlevel components, complete cuts, attaining paths, maximum spanning trees and all-pair chord domination checks. For P49 and the H49 construction, the two landscapes check 1,176 and 4,371 unordered pairs, in the appropriate order. This uses the complete-landscape framework recorded in the notebook, rather than a selected-edge proxy.
 
 Every promoted construction has distinct exact vertex distance-multiset signatures for all its vertices. Any Euclidean self-isometry would have to preserve these signatures, hence fix every vertex and be the identity. Thus nonsymmetry is checked, not inferred from the optimizer’s appearance.
 
@@ -262,7 +262,7 @@ Complete capsule archive:
   4766281bc5a6fc2649dbb6a72d57196df8982270a79e343525a9865043dbdeb9
 ```
 
-The final capsule was extracted into a separate directory, its 28 manifest entries were hash-checked, and P49 was reconstructed and fully re-audited there with the quoted receipt. Convenience copies: [capsule archive](sandbox:/mnt/data/c92work/RH08_capsule.tar.xz), [bootstrap script](sandbox:/mnt/data/recover_rh08.py), and [principal G3 input](sandbox:/mnt/data/c92work/RH08_B1_Q2_G3.json).
+The final capsule was extracted into a separate directory, its 28 manifest entries were hash-checked, and P49 was reconstructed and fully re-audited there with the quoted receipt. Convenience copies: capsule archive (`RH08_capsule.tar.xz`), bootstrap script (`recover_rh08.py`), and principal G3 input (`RH08_B1_Q2_G3.json`).
 
 ### Complete inline capsule
 

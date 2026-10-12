@@ -18,9 +18,9 @@ It is nevertheless the first exact topology-changing endpoint on this branch to 
 
 ## Journal basis
 
-The run acceptance gate is a materialized finite uniform-density convex polyhedron at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete finite incidence/mechanics evidence, independent verification and OBJ/STL; near-objects and artificial-centre results do not qualify. :contentReference[oaicite:0]{index=0}
+The run acceptance gate is a materialized finite uniform-density convex polyhedron at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete finite incidence/mechanics evidence, independent verification and OBJ/STL; near-objects and artificial-centre results do not qualify.
 
-The supplied journal records the accepted 3,494/1,624-support linked-octahedra parent, its strict `(2,2,2)` replacement packet, the exact three-edge forcing theorem for `T=(1836,2775,500011)`, and the triple-spine finite-thickness successor required here. :contentReference[oaicite:1]{index=1}
+The supplied journal records the accepted 3,494/1,624-support linked-octahedra parent, its strict `(2,2,2)` replacement packet, the exact three-edge forcing theorem for `T=(1836,2775,500011)`, and the triple-spine finite-thickness successor required here.
 
 ## 1. Source and deterministic reconstruction
 
@@ -385,7 +385,7 @@ NEXT CELL                                   TWO-STAGE CUBICAL /
 
 ## Reproducible archive
 
-[Download the complete exact archive](sandbox:/mnt/data/Bright_Nova_91_triplespine_exact_NONWINNER.zip)
+Download the complete exact archive (`Bright_Nova_91_triplespine_exact_NONWINNER.zip`)
 
 ```text
 archive bytes  = 12638939

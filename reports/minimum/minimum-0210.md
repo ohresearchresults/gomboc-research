@@ -47,7 +47,7 @@ The authoritative parent is
     SHA256 adebd2f62354466c4f5cdadbb45aec998631c8d8854876b6c92411d83403ff1c
     HEX6_SIX_CORNER_SHADOW_OBSTRUCTION_AND_BASE_TANGENT_U2_V5.
 
-The literal changed hexagon, partial cut through B2, ten labels, true facet cycles, and actual-centering construction are retained. They are not replaced by the original integer hexagon or either degree-five control. The parent supplies the same exact source model. :contentReference[oaicite:0]{index=0}
+The literal changed hexagon, partial cut through B2, ten labels, true facet cycles, and actual-centering construction are retained. They are not replaced by the original integer hexagon or either degree-five control. The parent supplies the same exact source model.
 
 The new theorem is an **executed exact interval certificate of an entire closed parameter product**, together with analytic shadow and graph arguments. Floating stress discovery is not its proof. Its autonomous standard-library recovery constructs every predictor, validates the actual centroid, checks the shape and projection guards, verifies the positive-definite stresses, and exhausts the relevant rooted boundary paths.
 
@@ -376,4 +376,4 @@ The complete exact build and check were executed. A fresh directory initially co
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Convenience copies, not dependencies of the handoff: [complete recovery wrapper](sandbox:/mnt/data/recover_hex6_transverse_v6.py), [readable autonomous verifier](sandbox:/mnt/data/hex6_transverse_all_v6.py), [complete exact report](sandbox:/mnt/data/hex6_transverse_all_v6.json).
+Convenience copies, not dependencies of the handoff: complete recovery wrapper (`recover_hex6_transverse_v6.py`), readable autonomous verifier (`hex6_transverse_all_v6.py`), complete exact report (`hex6_transverse_all_v6.json`).

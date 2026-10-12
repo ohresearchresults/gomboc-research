@@ -518,4 +518,4 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python condition.py
 
 This writes `H52_reconditioned.txt` and asserts its exact byte hash matches the literal H52 definition. The actually observed marker was `LITERAL_H52_CONDITIONING_REPLAY_MATCH da2708ecf0e184e87293f6fe7cb954520ba788d807a6e640ce2cf5f1eb3ed113`.
 
-For supplemental logs, full rational report printouts and optional unpromoted search checkpoints, see [the exact nonwinner handoff archive](sandbox:/mnt/data/SQ24_H52_AND_MICRO40_EXACT_NONWINNERS.zip),658915bytes, SHA256 `26441ee1a4d8f4bf92de228e2daf0b7255052e3ae92038f65dd819a2e4ecc359`. That archive is supplementary: both exact bodies and the executable continuation capsule are fully defined above.
+For supplemental logs, full rational report printouts and optional unpromoted search checkpoints, see the exact nonwinner handoff archive (`SQ24_H52_AND_MICRO40_EXACT_NONWINNERS.zip`),658915bytes, SHA256 `26441ee1a4d8f4bf92de228e2daf0b7255052e3ae92038f65dd819a2e4ecc359`. That archive is supplementary: both exact bodies and the executable continuation capsule are fully defined above.

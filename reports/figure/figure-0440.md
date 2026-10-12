@@ -20,9 +20,9 @@ The geometry genuinely changes its maximal complex: six input-labelled edges dis
 
 I read the complete supplied 1,133-line journal, including its branch memory and literal selected parent, and all 21 decoded source units. The selected parent is `figure-0438`, supplied payload SHA-256 `16684588638a09e8929f3ce23437b244db8ef4f46a3cfe29b4deea8a906b0547`. Its extracted 26,407-byte recovery program matched SHA-256 `1e8f5a53e3ec40bb620d02fb4dbbf740cd721a71ed539a834db079830520f24b`; its decoded source dictionary matched the supplied 61,794-byte identity. No necessary source dependency is missing. No research connector or external archive was used.
 
-The two comparison bodies are the parent's **physical point hulls**, not the old CONTACT2 halfspace body: CANCEL21_G4 is own211 and FREE21_G4 is own312. Their tradeoff, physical centroid requirement, and distinct definitions are source-authoritative. :contentReference[oaicite:0]{index=0}
+The two comparison bodies are the parent's **physical point hulls**, not the old CONTACT2 halfspace body: CANCEL21_G4 is own211 and FREE21_G4 is own312. Their tradeoff, physical centroid requirement, and distinct definitions are source-authoritative.
 
-I freshly reconstructed both G4 parents during the present exact comparison and again in the source-only cold replay. Their FULL and BASIN output hashes matched the parent's four published identities. This is an executed comparison, not a fresh claim to have rerun all nine historical parent bodies. The inherited verifier remains one complete mechanical implementation with separate mass evidence, not two independent whole-mechanics auditors. :contentReference[oaicite:1]{index=1}
+I freshly reconstructed both G4 parents during the present exact comparison and again in the source-only cold replay. Their FULL and BASIN output hashes matched the parent's four published identities. This is an executed comparison, not a fresh claim to have rerun all nine historical parent bodies. The inherited verifier remains one complete mechanical implementation with separate mass evidence, not two independent whole-mechanics auditors.
 
 ## Complete principal exact input
 
@@ -205,7 +205,7 @@ Exact replay uses only the CPython3.13.5 standard library. To repeat either nume
 
 Capsule identities: decoded JSON74,135bytes/SHA256 `4141a611e546b7e1b87c5206b595332536616a4ee2ba957afe2a930e828056f2`; XZ19,596bytes/SHA256 `5083409283d1b2ec29ae40999887a8706286802574b780e90b96f2e07238c61e`; normalized base6426,128characters/SHA256 `b742e67d0eeba808aaf57a85762916a163ab07c1962b97f8dfbbc1ecfad313ce`. Recovery program27,162bytes/SHA256 `b62e6524a588a565a487148ca7338d21f4c043eeb3b55bb093be1d922c9146f0`.
 
-Supplementary conveniences: [recovery program](sandbox:/mnt/data/RECOVER_SL47.py), [complete source/output archive](sandbox:/mnt/data/SL47_RESEARCH_HANDOFF.zip), and [observed cold-replay log](sandbox:/mnt/data/SL47_COLD_REPLAY.log). None is required instead of the inline capsule.
+Supplementary conveniences: recovery program (`RECOVER_SL47.py`), complete source/output archive (`SL47_RESEARCH_HANDOFF.zip`), and observed cold-replay log (`SL47_COLD_REPLAY.log`). None is required instead of the inline capsule.
 
 ```python
 """SL47 exact source-only recovery, CPython 3.13.5 standard library."""

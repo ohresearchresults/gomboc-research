@@ -6,15 +6,15 @@ AI research report · 2026-08-27 UTC
 
 # Determination
 
-No strict homogeneous convex polyhedral Gömböc was found. The acceptance gate remains a finite uniform-density convex polyhedron evaluated at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete maximal-face/vertex/true-edge normal-cone audit, positive perturbation margin, independent verification, and OBJ/STL; near-solutions and artificial centres do not qualify. :contentReference[oaicite:0]{index=0}
+No strict homogeneous convex polyhedral Gömböc was found. The acceptance gate remains a finite uniform-density convex polyhedron evaluated at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete maximal-face/vertex/true-edge normal-cone audit, positive perturbation margin, independent verification, and OBJ/STL; near-solutions and artificial centres do not qualify.
 
-The journal predecessor was the exact M42 transverse endpoint `(V,E,F,C)=(29,67,40,134)`, class `(4,3,5)`, with the external-positive terminal edge `(46,47)` forcing `U≥2` together with row `8`. :contentReference[oaicite:1]{index=1}
+The journal predecessor was the exact M42 transverse endpoint `(V,E,F,C)=(29,67,40,134)`, class `(4,3,5)`, with the external-positive terminal edge `(46,47)` forcing `U≥2` together with row `8`.
 
 This continuation materializes an exact rational, perturbation-certified **post-relay body**. It genuinely deletes `(46,47)`, destroys the inherited remote stable/saddle witnesses, and joins the terminal, right, left, and northern sectors in one volumetric communicating cell. It remains a nonwinner: exact own-centroid class `(3,3,4)`. The first obstruction transfers to true edge `(47,53)`.
 
 # Exact endpoint
 
-All 60 supplied coordinates are literal terminating rationals on denominator `10^17`: [coordinates](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay_points.txt). Active rows are
+All 60 supplied coordinates are literal terminating rationals on denominator `10^17`: coordinates (`m42_postrelay_points.txt`). Active rows are
 
 ```text
 0..16,28,29,32,33,42,43,44,45,46,47,48,49,51,52,53,57,58,59
@@ -26,7 +26,7 @@ and all other supplied rows are inactive. In particular `31,34,35,37,38,40` deac
 (V,E,F,C)=(35,85,52,170).
 ```
 
-Complete irredundant data: [52 maximal-face cycles](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay_faces.txt), [85 true edges](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay_edges.txt), [primitive-integer H-representation](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay_hrep.txt), and [full exact primitive ledger](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay_certificate.json).
+Complete irredundant data: 52 maximal-face cycles (`m42_postrelay_faces.txt`), 85 true edges (`m42_postrelay_edges.txt`), primitive-integer H-representation (`m42_postrelay_hrep.txt`), and full exact primitive ledger (`m42_postrelay_certificate.json`).
 
 Exact volume:
 
@@ -151,18 +151,18 @@ It must delete `(47,53)` or deactivate an endpoint, create two independent termi
 
 # Artifacts
 
-- [Complete exact bundle](sandbox:/mnt/data/m42_postrelay_bundle.zip)
-- [Full research handoff](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay_handoff.md)
-- [Exact verifier](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay_verifier.py)
-- [Directed interval verifier](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay_box_verifier.py)
-- [Mesh verifier](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay_mesh_verifier.py)
-- [Reproduction source](sandbox:/mnt/data/m42_postrelay_bundle/reproduce_postrelay.py)
-- [256-subset scan](sandbox:/mnt/data/m42_postrelay_bundle/postrelay_subset_scan.json)
-- [OBJ](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay.obj)
-- [STL](sandbox:/mnt/data/m42_postrelay_bundle/m42_postrelay.stl)
-- [Exact verification transcript](sandbox:/mnt/data/m42_postrelay_bundle/exact_verification_transcript.txt)
-- [Interval transcript](sandbox:/mnt/data/m42_postrelay_bundle/box_verification_transcript.txt)
-- [Mesh transcript](sandbox:/mnt/data/m42_postrelay_bundle/mesh_verification_transcript.txt)
+- Complete exact bundle (`m42_postrelay_bundle.zip`)
+- Full research handoff (`m42_postrelay_handoff.md`)
+- Exact verifier (`m42_postrelay_verifier.py`)
+- Directed interval verifier (`m42_postrelay_box_verifier.py`)
+- Mesh verifier (`m42_postrelay_mesh_verifier.py`)
+- Reproduction source (`reproduce_postrelay.py`)
+- 256-subset scan (`postrelay_subset_scan.json`)
+- OBJ (`m42_postrelay.obj`)
+- STL (`m42_postrelay.stl`)
+- Exact verification transcript (`exact_verification_transcript.txt`)
+- Interval transcript (`box_verification_transcript.txt`)
+- Mesh transcript (`mesh_verification_transcript.txt`)
 
 Bundle SHA-256:
 

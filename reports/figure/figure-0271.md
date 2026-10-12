@@ -10,11 +10,11 @@ AI research report · 2026-09-03 UTC
 
 **EXACT NONWINNER. No literal homogeneous convex polyhedral Gömböc was obtained.**
 
-The requested acceptance gate remains an expanded finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete exact H/V/incidence and full-normal-cone mechanics, an independent verifier, and matching OBJ/STL; a near-solution or unexpanded theorem is not sufficient. :contentReference[oaicite:0]{index=0}
+The requested acceptance gate remains an expanded finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete exact H/V/incidence and full-normal-cone mechanics, an independent verifier, and matching OBJ/STL; a near-solution or unexpanded theorem is not sufficient.
 
 The exact `KQ89-DP2` endpoint from the preceding turn remains valid and fully materialized, but I did not obtain an exact strict DP3 child that cancels its residual stable–saddle pair. Numerical DP3 experiments crossed additional local cells yet continued to relay the pair and were not exactified.
 
-A later exact M42 construction from the same shared frontier materially supersedes DP2 as a mechanical platform, although it is a sibling continuation from the 68-active shared-volume parent rather than a literal child of the 73-vertex DP2 body. I recovered its complete archive and independently reran the core proof stack. It realizes a stronger internally linked twelve-support triangular-prismatic station with no adverse changed-edge carrier and contains the first exact no-birth `U–H` cancellation in the M42 lineage. It remains strict `(2,1,1)` because an independent closed stable basin and saddle survive. The durable journal records the exact result and its successor topology. :contentReference[oaicite:1]{index=1}
+A later exact M42 construction from the same shared frontier materially supersedes DP2 as a mechanical platform, although it is a sibling continuation from the 68-active shared-volume parent rather than a literal child of the 73-vertex DP2 body. I recovered its complete archive and independently reran the core proof stack. It realizes a stronger internally linked twelve-support triangular-prismatic station with no adverse changed-edge carrier and contains the first exact no-birth `U–H` cancellation in the M42 lineage. It remains strict `(2,1,1)` because an independent closed stable basin and saddle survive. The durable journal records the exact result and its successor topology.
 
 ## 1. Status of the literal DP2 continuation
 
@@ -55,11 +55,11 @@ The right component consists of saddle `(1026,7205)` and its incident faces
 
 DP2 already contains a genuine positive-volume internal tetrahedral link on `7203,7204,7205,7206`; thus another boundary page is not a new topology. Its exact package and the full `S≥2` chamber theorem remain available here:
 
-- [Exact DP2 package](sandbox:/mnt/data/Keen_Quartz_89_M42_DP2_exact_NONWINNER.zip)
-- [DP2 research handoff](sandbox:/mnt/data/Keen_Quartz_89_M42_DP2_exact_NONWINNER/RESEARCH_HANDOFF.md)
-- [DP2 residual forcing theorem](sandbox:/mnt/data/Keen_Quartz_89_M42_DP2_exact_NONWINNER/residual_forcing_component_certificate.json)
-- [DP2 complete external-arrow census](sandbox:/mnt/data/Keen_Quartz_89_M42_DP2_exact_NONWINNER/complete_external_arrow_census.json)
-- [DP2 connected transition certificate](sandbox:/mnt/data/Keen_Quartz_89_M42_DP2_exact_NONWINNER/connected_transition_three_ball.json)
+- Exact DP2 package (`Keen_Quartz_89_M42_DP2_exact_NONWINNER.zip`)
+- DP2 research handoff (`RESEARCH_HANDOFF.md`)
+- DP2 residual forcing theorem (`residual_forcing_component_certificate.json`)
+- DP2 complete external-arrow census (`complete_external_arrow_census.json`)
+- DP2 connected transition certificate (`connected_transition_three_ball.json`)
 
 ### New numerical work on DP2
 
@@ -111,7 +111,7 @@ fixed-incidence linearization:
     response rows, reproducing the exact transfer mechanism.
 ```
 
-The numerical two-cap data are retained as [two_cap_candidate.npz](sandbox:/mnt/data/kq89_dp3_work/two_cap_candidate.npz). None of this is an exact exclusion of the full DP3 realization space.
+The numerical two-cap data are retained as two_cap_candidate.npz. None of this is an exact exclusion of the full DP3 realization space.
 
 ## 2. Strongest exact M42 successor recovered
 
@@ -337,26 +337,26 @@ This is an open endpoint, not a wall point.
 
 The complete archive is available here:
 
-- [Exact twelve-support triangular-prism archive](sandbox:/mnt/data/kq89_cw6300/M42_slot1_Clear_Willow_25_tri_prism_exact_complete.zip)
-- [Endpoint README](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/README.md)
-- [Exact endpoint certificate](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/certificate.json)
-- [Exact input V-data](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/coordinates_exact.csv)
-- [Exact own-centred V-data](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/coordinates_own_centered_exact.csv)
-- [Exact supporting planes](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/face_planes_exact.json)
-- [Maximal-face cycles](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/face_cycles.json)
-- [True-edge incidence](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/true_edges.csv)
-- [Complete face mechanics](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/faces_mechanics_exact.json)
-- [Complete vertex mechanics](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/vertices_mechanics_exact.json)
-- [Every true-edge four-component cone](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/edges_mechanics_exact.json)
-- [Connected disk exchange](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/disk_exchange_certificate.json)
-- [Exact rank-four oriented matroid and 17-tetrahedron cell](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/new_cell_oriented_matroid.json)
-- [Complete changed-star arrow audit](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/external_arrow_audit.json)
-- [Exact no-birth cancellation chronology](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/same_lattice_cancellation_chronology.json)
-- [Exact 36-dimensional chamber](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/full_36d_box_certificate.json)
-- [GMP all-triple verifier](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/verify_exact_hull_gmp.cpp)
-- [Exact mass/mechanics verifier](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/verify_exact_mass_mechanics.py)
-- [Watertight OBJ](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/body.obj)
-- [Watertight STL](sandbox:/mnt/data/kq89_cw6300/tri/M42_slot1_Clear_Willow_25_tri_prism_exact_final/connected_tri_prism_endpoint/body.stl)
+- Exact twelve-support triangular-prism archive (`M42_slot1_Clear_Willow_25_tri_prism_exact_complete.zip`)
+- Endpoint README (`README.md`)
+- Exact endpoint certificate (`certificate.json`)
+- Exact input V-data (`coordinates_exact.csv`)
+- Exact own-centred V-data (`coordinates_own_centered_exact.csv`)
+- Exact supporting planes (`face_planes_exact.json`)
+- Maximal-face cycles (`face_cycles.json`)
+- True-edge incidence (`true_edges.csv`)
+- Complete face mechanics (`faces_mechanics_exact.json`)
+- Complete vertex mechanics (`vertices_mechanics_exact.json`)
+- Every true-edge four-component cone (`edges_mechanics_exact.json`)
+- Connected disk exchange (`disk_exchange_certificate.json`)
+- Exact rank-four oriented matroid and 17-tetrahedron cell (`new_cell_oriented_matroid.json`)
+- Complete changed-star arrow audit (`external_arrow_audit.json`)
+- Exact no-birth cancellation chronology (`same_lattice_cancellation_chronology.json`)
+- Exact 36-dimensional chamber (`full_36d_box_certificate.json`)
+- GMP all-triple verifier (`verify_exact_hull_gmp.cpp`)
+- Exact mass/mechanics verifier (`verify_exact_mass_mechanics.py`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 I invoked the archive's clean replay. Within the available execution interval, the following stages completed again from source:
 
@@ -369,7 +369,7 @@ EXACT_COMPLETE_CHANGED_STAR_EXTERNAL_ARROW_AUDIT_PASS
 EXACT_SAME_LATTICE_UH_CANCELLATION_WITHOUT_BIRTH_PASS.
 ```
 
-The current replay transcript is [TRI_REPLAY_CURRENT.log](sandbox:/mnt/data/kq89_cw6300/TRI_REPLAY_CURRENT.log).
+The current replay transcript is TRI_REPLAY_CURRENT.log.
 
 The replay process reached the runtime boundary before rerunning the final 36-dimensional interval, GMP all-triple, mass/mechanics and mesh stages in this session. Their previously produced verifier scripts and successful logs are present inside the immutable archive, but I do not represent the interrupted current invocation as a fresh end-to-end rerun.
 

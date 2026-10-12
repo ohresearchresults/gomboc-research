@@ -16,11 +16,11 @@ The most useful new continuation inputs are **`QW49_C434_ROBUST6_COMPACT_G8`**, 
 
 ## Source authority and verification boundary
 
-I read all six files in the branch-switch pack completely, including the 182,992-byte journal through EOF and the entire decoded J90 coordinator handoff. I used the literal J91_REBALANCED_C434_G18 input, not its huge-arithmetic exact-centre companion or the earlier low-stable-carrier branch. The supplied C452 correction was applied during source extraction; it does not change C434. The source gives the actual five apexes and maximal face cycles used here. fileciteturn0file1L17-L20
+I read all six files in the branch-switch pack completely, including the 182,992-byte journal through EOF and the entire decoded J90 coordinator handoff. I used the literal J91_REBALANCED_C434_G18 input, not its huge-arithmetic exact-centre companion or the earlier low-stable-carrier branch. The supplied C452 correction was applied during source extraction; it does not change C434. The source gives the actual five apexes and maximal face cycles used here.
 
 The recovered C390 exact audit matched `c35f4ebdd391bed82599d28c4cee0c6ab57ac24192eb8942e7f70fa64be787ef`. The selected C434 input, VF and full audit respectively matched `a08ba7b333bd3b3cbf4f2179e8de4242f702f63dddc6f3b6fbec26942f424efe`, `fa69962f36addbf635fbbed2bd4c9c349d5178e22b11901e6b7c0080a5d693c5`, and `fc6fb9ba47cc9d89d2b1951554ef124694ce26512ada937ba5134f5ca88a8f68`.
 
-The parent was exactly V135/E217/F84, strict211/weak000/primitivezero000, S7/18, U1, H40--109, P empty and one Q approximately .16294506579914078. Its actual centroid is approximately (.0014912244454173458,.00019128633735988957,.0004052204425440257), not zero. The journal explicitly left this full affine orbit unresolved; older exclusions on other bodies were not substituted for a proof here. fileciteturn5file0L54-L58
+The parent was exactly V135/E217/F84, strict211/weak000/primitivezero000, S7/18, U1, H40--109, P empty and one Q approximately .16294506579914078. Its actual centroid is approximately (.0014912244454173458,.00019128633735988957,.0004052204425440257), not zero. The journal explicitly left this full affine orbit unresolved; older exclusions on other bodies were not substituted for a proof here.
 
 All claimed exact endpoints use the supplied GMP engine with exhaustive H-triple reconstruction or its exact closed maximal-VF frontend, actual uniform-volume integration, a second positive-tetrahedron mass sum, direct S/U/H and additional-weak tests, global primal/polar root crosschecks, and every positive P/Q bar without a depth floor. This is exact computation and source replay through the same engine, **not** a separately implemented second physics verifier. No continuous floating optimization trajectory is certified.
 
@@ -355,7 +355,7 @@ QW49_C434_FINITE_OFFSET_AFFINE_G14A12_AUDIT.json
 
 The sources preserve material nonwinners and negative controls, not just a preferred scalar depth. The research remains open: original remote off-diagonal affine components are not excluded, and the new finite compatible bodies still require genuine removal of the whole last Q basin while maintaining U1.
 
-Convenience copies: [complete source decoder](sandbox:/mnt/data/QW49_C434_RECOVER.py), [all exact reports, sources and recorded numerical checkpoints](sandbox:/mnt/data/QW49_C434_FULL.zip), and [complete handoff](sandbox:/mnt/data/QW49_C434_RESULT.md). These supplement, rather than replace, the complete inline recovery source.
+Convenience copies: complete source decoder (`QW49_C434_RECOVER.py`), all exact reports, sources and recorded numerical checkpoints (`QW49_C434_FULL.zip`), and complete handoff (`QW49_C434_RESULT.md`). These supplement, rather than replace, the complete inline recovery source.
 
 ## Complete executable source/data capsule
 

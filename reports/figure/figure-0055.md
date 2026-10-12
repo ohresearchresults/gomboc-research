@@ -8,7 +8,7 @@ AI research report · 2026-08-24 UTC
 
 ## Verdict
 
-No own-centroid strict `(S,U,H)=(1,1,0)` polyhedron was obtained. I therefore make no discovery claim and emit no winner OBJ/STL. The acceptance gate still requires a materialized uniform-density body evaluated at its own volume centroid, with one stable maximal face, one unstable vertex, zero saddle edges, and an exact or directed-rounding certificate. :contentReference[oaicite:0]{index=0}
+No own-centroid strict `(S,U,H)=(1,1,0)` polyhedron was obtained. I therefore make no discovery claim and emit no winner OBJ/STL. The acceptance gate still requires a materialized uniform-density body evaluated at its own volume centroid, with one stable maximal face, one unstable vertex, zero saddle edges, and an exact or directed-rounding certificate.
 
 This continuation did produce a new, fully materialized post-wall member of the Conway branch, crossed another genuine facet-lattice transition, extended the connected dual-edge replacement chain, and found a consequential tolerance defect in the exploratory verifier. The defect invalidates several earlier ultra-small-margin low-facet numerical claims, but it does not affect the new robust 60-facet candidate because its raw combinatorial and mechanical margins are over an order of magnitude larger than the problematic threshold.
 
@@ -22,13 +22,13 @@ strict origin-relative `(S,U,H)=(1,1,0)`, and uniform-volume centroid
 
 `(approximately 0, approximately 0, -1.6516612978833731)`.
 
-Its own-centroid class is `(16,21,35)`. This agrees with the journal’s independent reconstruction. :contentReference[oaicite:1]{index=1}
+Its own-centroid class is `(16,21,35)`. This agrees with the journal’s independent reconstruction.
 
-The reusable reconstruction and exhaustive H-polytope implementation is [gomboc_core.py](sandbox:/mnt/data/gomboc_core.py).
+The reusable reconstruction and exhaustive H-polytope implementation is gomboc_core.py.
 
 ## 2. Strongest new materialized strict-reference candidate
 
-The strongest robust post-wall object from this continuation is [poly60_edge5256_robust.npz](sandbox:/mnt/data/poly60_edge5256_robust.npz).
+The strongest robust post-wall object from this continuation is poly60_edge5256_robust.npz.
 
 Its complete binary64 H-representation is stored as the `60 x 3` array `A`, with support vector
 
@@ -67,11 +67,11 @@ The complete ConvexHull/polar audit gives:
 
 Thus `P60` is a robust mechanically homogeneous body relative to the distinguished origin, but not relative to its own mass centroid. It is not the requested Gömböc.
 
-The construction audit and selected patch parameters are recorded in [select_edge5256_robust.log](sandbox:/mnt/data/select_edge5256_robust.log). The complete row matrix and metadata are in the NPZ rather than merely in the log.
+The construction audit and selected patch parameters are recorded in select_edge5256_robust.log. The complete row matrix and metadata are in the NPZ rather than merely in the log.
 
 ## 3. Exact wall and topology sequence crossed
 
-The continuation started from [poly57_flipdel25_t012.npz](sandbox:/mnt/data/poly57_flipdel25_t012.npz), a 57-facet strict-reference body with centroid norm `0.27395108733`. This object already incorporated the earlier controlled transition in which the patch on dual edge `(25,53)` made old row 25 non-extreme; deleting row 25 at interpolation parameter `t=0.012` preserved strict `(1,1,0)`.
+The continuation started from poly57_flipdel25_t012.npz, a 57-facet strict-reference body with centroid norm `0.27395108733`. This object already incorporated the earlier controlled transition in which the patch on dual edge `(25,53)` made old row 25 non-extreme; deleting row 25 at interpolation parameter `t=0.012` preserved strict `(1,1,0)`.
 
 ### Transition A: edge `(48,52)`
 
@@ -79,21 +79,21 @@ The next fixed-cell centroid descent encountered a simultaneous stable-face/sadd
 
 `x=(1-s)p+s q+rho |q-p| normalize(lambda n_1+(1-lambda)n_2)`,
 
-where `p,q` are the edge endpoints and `n_1,n_2` are the outward normals of its two incident polar facets. The result is [poly58_edge4852_robust.npz](sandbox:/mnt/data/poly58_edge4852_robust.npz).
+where `p,q` are the edge endpoints and `n_1,n_2` are the outward normals of its two incident polar facets. The result is poly58_edge4852_robust.npz.
 
-A subsequent centroid descent met its first wall at approximately `t=0.00275`. Immediately across it, face 48 became an additional stable face and the P-edge with endpoints `[108,111]`, incident to faces `[48,57]`, became a saddle. The complete wall trace is [inspect_poly58_4852_wall.log](sandbox:/mnt/data/inspect_poly58_4852_wall.log).
+A subsequent centroid descent met its first wall at approximately `t=0.00275`. Immediately across it, face 48 became an additional stable face and the P-edge with endpoints `[108,111]`, incident to faces `[48,57]`, became a saddle. The complete wall trace is inspect_poly58_4852_wall.log.
 
 ### Transition B: edge `(48,57)`
 
-The entire newly exposed dual edge `(48,57)` was then refined, producing [poly59_edge4857_robust.npz](sandbox:/mnt/data/poly59_edge4857_robust.npz). This opened a substantially longer strict segment: interpolation toward the new centroid-descent state remained `(1,1,0)` through `t=0.021`.
+The entire newly exposed dual edge `(48,57)` was then refined, producing poly59_edge4857_robust.npz. This opened a substantially longer strict segment: interpolation toward the new centroid-descent state remained `(1,1,0)` through `t=0.021`.
 
 At `t=0.022`, the complete audit was
 
 `(S,U,H)=(2,1,1)`,
 
-with extra face 52 score `+8.02104948e-6` and saddle edge incident to faces `[52,56]` score `+7.50515559e-6`. The trace is [inspect_poly59_wall.log](sandbox:/mnt/data/inspect_poly59_wall.log).
+with extra face 52 score `+8.02104948e-6` and saddle edge incident to faces `[52,56]` score `+7.50515559e-6`. The trace is inspect_poly59_wall.log.
 
-I retained the open point `t=0.018`, materialized as [poly59_path_t018.npz](sandbox:/mnt/data/poly59_path_t018.npz). Its centroid was approximately
+I retained the open point `t=0.018`, materialized as poly59_path_t018.npz. Its centroid was approximately
 
 `(-0.03255081,-0.00721528,-0.27107671)`,
 
@@ -131,7 +131,7 @@ The exploratory routine `gomboc_core.maximal_faces` used the equality test
 
 For the low-facet ring candidates, bottom-row scales were near ten, so raw inactive slacks between approximately `4e-7` and `9e-7` were incorrectly treated as exact incidences. This changed maximal-face cycles and therefore changed the integrated volume centroid even though the vertex set was identical.
 
-A concrete reproduction uses [own_topsamp_sbplx.npz](sandbox:/mnt/data/own_topsamp_sbplx.npz). The fixed-lattice calculation on its actual active triples gives
+A concrete reproduction uses own_topsamp_sbplx.npz. The fixed-lattice calculation on its actual active triples gives
 
 `volume = 8.002450825746653`,
 
@@ -159,7 +159,7 @@ I formulated the fixed-cell target as a nonlinear max-min problem with an auxili
 * every true-edge score at most `-tau`;
 * every inactive half-space slack and vertex separation strictly positive.
 
-The JAX/SLSQP implementation is [jax_own_slsqp.py](sandbox:/mnt/data/jax_own_slsqp.py). From the simple 16-face ring topology it improved the fixed-cell defect from approximately `-1.084e-5` to `-4.84e-7`, but only while the minimum raw inactive slack fell through zero and the minimum vertex separation collapsed to approximately `3.59e-7`. It then left the feasible cell and failed. The transcript is [slsqp_topsamp.log](sandbox:/mnt/data/slsqp_topsamp.log).
+The JAX/SLSQP implementation is jax_own_slsqp.py. From the simple 16-face ring topology it improved the fixed-cell defect from approximately `-1.084e-5` to `-4.84e-7`, but only while the minimum raw inactive slack fell through zero and the minimum vertex separation collapsed to approximately `3.59e-7`. It then left the feasible cell and failed. The transcript is slsqp_topsamp.log.
 
 This is another transfer-wall approach, not a solution. Because the starting cell itself has raw slack only `2.73e-7`, it is unsuitable for exactification and should not displace the robust 60-facet branch as the principal artifact.
 
@@ -167,11 +167,11 @@ This is another transfer-wall approach, not a solution. Because the starting cel
 
 Use the following files:
 
-* [poly60_edge5256_robust.npz](sandbox:/mnt/data/poly60_edge5256_robust.npz) — complete H rows and patch metadata;
-* [fast_ref.py](sandbox:/mnt/data/fast_ref.py) — independent polar-hull origin-relative face/vertex/true-edge audit;
-* [polar_fast2.py](sandbox:/mnt/data/polar_fast2.py) — corrected polar structure, volume centroid, and own-centroid mechanics;
-* [gomboc_core.py](sandbox:/mnt/data/gomboc_core.py) — triple-intersection verifier, used only with a tightened active-incidence tolerance for near-wall objects;
-* [select_edge_patch_robust_small.py](sandbox:/mnt/data/select_edge_patch_robust_small.py) — deterministic connected-edge patch construction.
+* poly60_edge5256_robust.npz — complete H rows and patch metadata;
+* fast_ref.py — independent polar-hull origin-relative face/vertex/true-edge audit;
+* polar_fast2.py — corrected polar structure, volume centroid, and own-centroid mechanics;
+* gomboc_core.py — triple-intersection verifier, used only with a tightened active-incidence tolerance for near-wall objects;
+* select_edge_patch_robust_small.py — deterministic connected-edge patch construction.
 
 A minimal verification driver is:
 

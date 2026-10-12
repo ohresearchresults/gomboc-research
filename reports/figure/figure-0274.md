@@ -10,9 +10,9 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACT DELIMITED NONWINNER.** No materialized homogeneous convex polyhedral Gömböc was obtained in this topology.
 
-The acceptance gate remains an explicit finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete maximal-face, vertex, and physical-edge mechanics, independent verification, and matching OBJ/STL; an auxiliary centre, wall point, near-solution, or unexpanded theorem is insufficient. :contentReference[oaicite:0]{index=0}
+The acceptance gate remains an explicit finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete maximal-face, vertex, and physical-edge mechanics, independent verification, and matching OBJ/STL; an auxiliary centre, wall point, near-solution, or unexpanded theorem is insufficient.
 
-The immutable source `figure-0270`, payload SHA-256 `32d94f958fb2e1c92cc9f278a5e5bebb2e5ff5e6150e7b31b89d393c55b2dee7`, is the accepted exact nine-active linked two-cell body with packet stable `[AN,AR,AO]`, unstable `AO`, saddles `[C,AO]`,`[AI,AR]`, and sole nonprotected carrier `[0,AO]`. The journal names a whole-star linked successor permitting `0` or `AO` to deactivate. :contentReference[oaicite:1]{index=1} The literal payload and digest are the authoritative parent evidence. :contentReference[oaicite:2]{index=2}
+The immutable source `figure-0270`, payload SHA-256 `32d94f958fb2e1c92cc9f278a5e5bebb2e5ff5e6150e7b31b89d393c55b2dee7`, is the accepted exact nine-active linked two-cell body with packet stable `[AN,AR,AO]`, unstable `AO`, saddles `[C,AO]`,`[AI,AR]`, and sole nonprotected carrier `[0,AO]`. The journal names a whole-star linked successor permitting `0` or `AO` to deactivate. The literal payload and digest are the authoritative parent evidence.
 
 A zero-bridge **global full-star replacement** was realized exactly. It replaces every source face except protected `[0,H,C]`, deactivates the complete source nonprotected active set `{AI,AN,AO,AP,AQ,AR}`, and activates five new rows `AS,AT,AU,AV,AW`. The target has
 
@@ -33,7 +33,7 @@ saddles         [0,AW], [AT,AV]
 forcing edge    [0,AT].
 ```
 
-The nonprotected adverse graph is exactly the single edge `[0,AT]`; it has no two-edge component, no positive directed adverse cycle, and cycle rank zero. The endpoint lies on the proven eight-vertex lower-bound frontier, but is not a winner. The journal’s exact theorem excludes `V≤7`; it does not exclude `V=8`. :contentReference[oaicite:3]{index=3}
+The nonprotected adverse graph is exactly the single edge `[0,AT]`; it has no two-edge component, no positive directed adverse cycle, and cycle rank zero. The endpoint lies on the proven eight-vertex lower-bound frontier, but is not a winner. The journal’s exact theorem excludes `V≤7`; it does not exclude `V=8`.
 
 ## Exact lineage
 
@@ -405,27 +405,27 @@ The first genuinely unrepresented continuation is a **non-simplicial eight-verte
 
 ## Artifacts and integrity
 
-- [Complete exact NONWINNER archive](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL.zip)
-- [Self-contained Markdown handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_CURRENT_HANDOFF.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_CURRENT_RESULT.json)
-- [Clean independent replay](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_clean_replay.txt)
-- [Clean regeneration receipt](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_clean_verification.json)
-- [Final archive-extraction verification](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_archive_static_verification.txt)
-- [Exact generator](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/data/generator_exact.json)
-- [Own-centred active V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/data/active_vertices_centered_exact.csv)
-- [Primitive irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/data/fifteenth_cage8_exact_H_irredundant.csv)
-- [Complete face ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/data/fifteenth_cage8_exact_faces.csv)
-- [Complete vertex ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/data/fifteenth_cage8_exact_vertex_primitives.csv)
-- [Complete true-edge cone ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/data/fifteenth_cage8_exact_true_edges_full_cones.csv)
-- [External-arrow ledger](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/data/external_arrow_full_ledger.csv)
-- [Transition certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/certificates/fifteenth_cage_shared_global_patch.json)
-- [Chronology certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/certificates/source_to_target_death_before_birth_obstruction.json)
-- [Residual forcing theorem](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/certificates/residual_forced_edge_0_AT.json)
-- [Perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/certificates/own_centroid_perturbation_certificate.json)
-- [Terminal-isomorphism certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/certificates/terminal_isomorphism_to_tenth_cage.json)
-- [Independent verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/scripts/verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL/mesh/body.stl)
+- Complete exact NONWINNER archive (`Calm_Quartz_90_wall242_fifteenth_global_linked_cage_exact_NONWINNER_FINAL.zip`)
+- Self-contained Markdown handoff (`Calm_Quartz_90_wall242_fifteenth_global_linked_cage_CURRENT_HANDOFF.md`)
+- Structured result (`Calm_Quartz_90_wall242_fifteenth_global_linked_cage_CURRENT_RESULT.json`)
+- Clean independent replay (`Calm_Quartz_90_wall242_fifteenth_global_linked_cage_clean_replay.txt`)
+- Clean regeneration receipt (`Calm_Quartz_90_wall242_fifteenth_global_linked_cage_clean_verification.json`)
+- Final archive-extraction verification (`Calm_Quartz_90_wall242_fifteenth_global_linked_cage_archive_static_verification.txt`)
+- Exact generator (`generator_exact.json`)
+- Own-centred active V-data (`active_vertices_centered_exact.csv`)
+- Primitive irredundant H-data (`fifteenth_cage8_exact_H_irredundant.csv`)
+- Complete face ledger (`fifteenth_cage8_exact_faces.csv`)
+- Complete vertex ledger (`fifteenth_cage8_exact_vertex_primitives.csv`)
+- Complete true-edge cone ledger (`fifteenth_cage8_exact_true_edges_full_cones.csv`)
+- External-arrow ledger (`external_arrow_full_ledger.csv`)
+- Transition certificate (`fifteenth_cage_shared_global_patch.json`)
+- Chronology certificate (`source_to_target_death_before_birth_obstruction.json`)
+- Residual forcing theorem (`residual_forced_edge_0_AT.json`)
+- Perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Terminal-isomorphism certificate (`terminal_isomorphism_to_tenth_cage.json`)
+- Independent verifier (`verify_independent.py`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 ```text
 archive SHA-256               19c28a0acc5bcd75e88ddc3e63f77ff91ed8b3dcdc8652e98b1344c4d4ff21de

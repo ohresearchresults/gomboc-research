@@ -445,7 +445,7 @@ The parent’s original two complete geometric implementations and auxiliary che
 
 ## 10. Portable artifacts and exact replay record
 
-The complete proof packet is [C3_RECOVERY_AND_MONOSTABLE.zip](sandbox:/mnt/data/C3_RECOVERY_AND_MONOSTABLE.zip).
+The complete proof packet is C3_RECOVERY_AND_MONOSTABLE.zip.
 
 ```text
 Size: 1196344 bytes
@@ -455,7 +455,7 @@ c674cc9e3464c24be46365eb4d90bfda9482da5866d0df44f9a51e4cd1405e97
 
 It contains the47-row exact H definition; deterministic all-triples H constructor; complete rational homogeneous vertices, maximal facets and true edges; exact volume, centroid and feature reports; all three full checkers; the independently checked correction certificate; the original valid parent; the explicitly withdrawn failed packet; display meshes and rational readback; corruption fixtures; exact translation tests; and a self-contained standard-library replay.
 
-The numerical construction programs, retained proposals, root checkpoint and partial cut-screen records are in [C3_RECOVERY_RESEARCH.zip](sandbox:/mnt/data/C3_RECOVERY_RESEARCH.zip).
+The numerical construction programs, retained proposals, root checkpoint and partial cut-screen records are in C3_RECOVERY_RESEARCH.zip.
 
 ```text
 Size: 1108945 bytes
@@ -463,7 +463,7 @@ SHA-256:
 713462c425507d33ad9bba59a90763481da05390d3b489d6335ae01690193f02b
 ```
 
-The actual fresh-extracted replay report is [C3_RECOVERY_ARCHIVE_REPLAY.json](sandbox:/mnt/data/C3_RECOVERY_ARCHIVE_REPLAY.json). Archive sizes and hashes are also recorded in [C3_RECOVERY_DELIVERY.json](sandbox:/mnt/data/C3_RECOVERY_DELIVERY.json).
+The actual fresh-extracted replay report is C3_RECOVERY_ARCHIVE_REPLAY.json. Archive sizes and hashes are also recorded in C3_RECOVERY_DELIVERY.json.
 
 After extraction, run
 

@@ -20,7 +20,7 @@ A closed actual-centroid cone is also certified: when the five raw side supports
 
 the minimally infeasible chamber persists. Its effective tangent-metric obstruction is `some D_i < -(3/25)tr(H)`, while every retained arrow under the transported parent subsystem metrics exceeds 1/8. This conditional sector applies to any actual completion satisfying the stated incidence and centroid hypotheses, not just the one control.
 
-**No own110 construction, full U1/S1 feasibility claim, all-orientation family exclusion, whole canonical type exclusion, or new global bound is obtained. The interval remains 34 ≤ C_min ≤ 622.** The new result resolves the realization question that was expressly left open in the supplied local material. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+**No own110 construction, full U1/S1 feasibility claim, all-orientation family exclusion, whole canonical type exclusion, or new global bound is obtained. The interval remains 34 ≤ C_min ≤ 622.** The new result resolves the realization question that was expressly left open in the supplied local material.
 
 ## 2. Evidence read and source authority
 
@@ -34,9 +34,9 @@ Both newly supplied mathematical materials and the complete new journal were rea
 
 The journal hash is for the delivered file, not its separately displayed internal memory hash. Its complete raw text has 846 logical lines. There is no missing exact dependency.
 
-The pentagon material explicitly marks an initial malformed short code fence as superseded. Only its LAST complete recovery fence was extracted and executed. The resulting `pentagon_joint.py` is 3348 bytes, SHA-256 `2cb253d621a41356871c209332acfc48bb22a7d347ccd7bcdb1d6399232efc02`; its 2489-byte report has SHA-256 `fbf5e8f9d9f71ba4bd6385779443874a7265dabcd8c73eccc9020be9bdf28f7d`. The expected parent marker passed under CPython3.13.5. This recording blemish was not treated as a conflicting mathematical object. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+The pentagon material explicitly marks an initial malformed short code fence as superseded. Only its LAST complete recovery fence was extracted and executed. The resulting `pentagon_joint.py` is 3348 bytes, SHA-256 `2cb253d621a41356871c209332acfc48bb22a7d347ccd7bcdb1d6399232efc02`; its 2489-byte report has SHA-256 `fbf5e8f9d9f71ba4bd6385779443874a7265dabcd8c73eccc9020be9bdf28f7d`. The expected parent marker passed under CPython3.13.5. This recording blemish was not treated as a conflicting mathematical object.
 
-The general realization theorem and the actual controls below are new work. The parent's tangent equivalence, local stress, and proper-subsystem data are mathematical starting points, not previously realized E17 geometry. :contentReference[oaicite:4]{index=4}
+The general realization theorem and the actual controls below are new work. The parent's tangent equivalence, local stress, and proper-subsystem data are mathematical starting points, not previously realized E17 geometry.
 
 ## 3. Exact realization of an arbitrary pentagon
 
@@ -257,7 +257,7 @@ There are39 guards per cell and **9984 strictly positive rational lower bounds**
 
 This certifies a continuum, not256 sampled pentagons. The cells, exact lower bounds and all underlying formulas regenerate from the capsule.
 
-At t=0, lambda=(11,2,4,6) and Q=[[20,23],[23,44]], recovering the supplied local example. :contentReference[oaicite:5]{index=5} At the actual rational centroid, exact checks additionally give `19<Q00<20`, `307<det Q<308`, and every retained parent-metric arrow exceeds3/5.
+At t=0, lambda=(11,2,4,6) and Q=[[20,23],[23,44]], recovering the supplied local example. At the actual rational centroid, exact checks additionally give `19<Q00<20`, `307<det Q<308`, and every retained parent-metric arrow exceeds3/5.
 
 For any physical N≻0, put `H=(L_g^T N L_g)_(1:2,1:2)≻0`. The exact same-origin stress is
 
@@ -371,7 +371,7 @@ Its selected edges are `01,05,06,12,18,23,27,34` in FACET labels. The complement
 
 Both spanning-tree and complement properties are verified exactly. This is a **topological selected domain whose physical sign feasibility is excluded**, not a purported feasible complete continuation. No arbitrary S1/U1 candidate is asserted to contain that orientation, and the feasibility of unrelated complete trees is not decided.
 
-The two consecutive quadrilateral windows, and indeed all proper three-arrow subsets, can therefore pass on actual homogeneous E17 geometry while the four-arrow pentagonal path fails. Checking only the separate elementary circuits or the two three-arrow windows is genuinely incomplete in the actual setting, not merely in an abstract planar relaxation. The original source had established that failure only locally. :contentReference[oaicite:6]{index=6}
+The two consecutive quadrilateral windows, and indeed all proper three-arrow subsets, can therefore pass on actual homogeneous E17 geometry while the four-arrow pentagonal path fails. Checking only the separate elementary circuits or the two three-arrow windows is genuinely incomplete in the actual setting, not merely in an abstract planar relaxation. The original source had established that failure only locally.
 
 The successful route was to separate exact prescribed-face realization from rational chamber realization. The first uses an actual polar-area centroid and a base-plane volume-centroid actuator. The second chooses moderate rational cuts, recomputes the true centroid, and proves that its projectively changed pole polygon remains in a certified chamber. Naively retaining the old polygon after recentering would have been wrong; three generic simple cuts would also have given the wrong f-vector. Neither shortcut is used.
 
@@ -533,4 +533,4 @@ def main():
 if __name__=='__main__':main()
 ```
 
-Optional convenience copies: [decoded source](sandbox:/mnt/data/pentagon_e17/pentagon_e17.py), [complete exact report](sandbox:/mnt/data/pentagon_e17/pentagon_e17.json), [source-only recovery capsule](sandbox:/mnt/data/pentagon_e17/recover_pentagon_e17.py). The embedded capsule is sufficient without these links.
+Optional convenience copies: decoded source (`pentagon_e17.py`), complete exact report (`pentagon_e17.json`), source-only recovery capsule (`recover_pentagon_e17.py`). The embedded capsule is sufficient without these links.

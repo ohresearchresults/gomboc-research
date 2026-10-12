@@ -31,7 +31,7 @@ The substantive strengthening is a **three-dimensional, kernel-independent escap
 
 The theorem extends analytically to an explicit closed actual-coordinate neighborhood of radius10^-8 in the working frame, provided the perturbed uniformly filled body is own-centred, has the same true labelled lattice, and satisfies the corresponding actual facet-sign conditions. Its six poles need not remain fixed in this separately stated corollary.
 
-Three actual nonwinning reciprocal pencils are preserved: two strict222/physicalweak000 pencils with respectively nine and eight shadow corners, and a strict233/physicalweak000 pencil whose rank-two limit identifies two NONADJACENT vertices in an INTERIOR fibre. No U1 or110 construction, whole-atlas exclusion, canonical counting change, or improvement of34≤Cmin≤622 is claimed. The interval is the supplied notebook’s current accepted interval. :contentReference[oaicite:0]{index=0}
+Three actual nonwinning reciprocal pencils are preserved: two strict222/physicalweak000 pencils with respectively nine and eight shadow corners, and a strict233/physicalweak000 pencil whose rank-two limit identifies two NONADJACENT vertices in an INTERIOR fibre. No U1 or110 construction, whole-atlas exclusion, canonical counting change, or improvement of34≤Cmin≤622 is claimed. The interval is the supplied notebook’s current accepted interval.
 
 ## 2. Authority and evidence
 
@@ -41,9 +41,9 @@ Authoritative parent:
     SHA256 7090c27c162fd8ed30c044687187dcf869dadfd1b0a215be976c983a3ca7e469
     HEX6_UNEQUAL_TRANSVERSE_NINE_TEN_SHADOW_ALL_ROOTS_V6.
 
-The complete current journal, literal parent and new octagon material were read. The parent model is retained, including the partial B3 cut through the existing B2, not substituted by the original integer hexagon or either degree-five body. The supplied parent explicitly identifies the adjacent q8-positive chamber as outside its coverage. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+The complete current journal, literal parent and new octagon material were read. The parent model is retained, including the partial B3 cut through the existing B2, not substituted by the original integer hexagon or either degree-five body. The supplied parent explicitly identifies the adjacent q8-positive chamber as outside its coverage.
 
-The coordinator’s different rooted planar octagon is important as a boundary of inference: strict −Q/3 containment and capped barycentric mean0 do not imply a centred homogeneous corner-only lift. The new result uses the actual volume moments of the ten-vertex atlas, not that octagon or an independent planar density. :contentReference[oaicite:3]{index=3}
+The coordinator’s different rooted planar octagon is important as a boundary of inference: strict −Q/3 containment and capped barycentric mean0 do not imply a centred homogeneous corner-only lift. The new result uses the actual volume moments of the ten-vertex atlas, not that octagon or an independent planar density.
 
 The new family exclusion is an executed exact interval certificate plus the analytic arguments below. No numerical search failure is used as an exclusion. The recovery is autonomous and requires no unprovided parent code, optimizer or checkpoint. Internal exact arithmetic is not a proof-assistant formalization.
 
@@ -542,4 +542,4 @@ print('ACTUAL_Q7_WALL_INSIDE_POSITIVE_CAP8_CHAMBER_PASS')
 print(len(b),hashlib.sha256(b).hexdigest())
 ```
 
-Convenience copies only: [recovery wrapper](sandbox:/mnt/data/recover_hex6_cap_v7.py), [readable autonomous verifier](sandbox:/mnt/data/hex6_cap_sector_v7.py), [exact full report](sandbox:/mnt/data/hex6_cap_sector_v7.json), [wall verifier](sandbox:/mnt/data/hex6_cap_wall_v7.py).
+Convenience copies only: recovery wrapper (`recover_hex6_cap_v7.py`), readable autonomous verifier (`hex6_cap_sector_v7.py`), exact full report (`hex6_cap_sector_v7.json`), wall verifier (`hex6_cap_wall_v7.py`).

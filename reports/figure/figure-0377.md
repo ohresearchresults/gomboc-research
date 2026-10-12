@@ -22,11 +22,11 @@ All fifteen finite bodies completed two independently implemented exhaustive exa
 
 ## 2. Parent authority and indexing
 
-The immutable parent is **`figure-0371`**, journal-declared SHA256 **839d1b5d10cbab600329c6736fd8faf5ecc6aced33ba7c140efe56c1f9d8011b**, defining **BQ13_C602_TRIANGLE9_SADDLE_CHAIN_OWN121**,167/301/136, own121/weak000. Its remaining labels are S3,Uraw7/85,H(7,29). The supplied synthesis retains the separate S8/C624 own110 record; none of this work's nonwinners changes that record. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The immutable parent is **`figure-0371`**, journal-declared SHA256 **839d1b5d10cbab600329c6736fd8faf5ecc6aced33ba7c140efe56c1f9d8011b**, defining **BQ13_C602_TRIANGLE9_SADDLE_CHAIN_OWN121**,167/301/136, own121/weak000. Its remaining labels are S3,Uraw7/85,H(7,29). The supplied synthesis retains the separate S8/C624 own110 record; none of this work's nonwinners changes that record.
 
 The complete parent77-file method capsule was recovered, all76 payload hashes checked, and the decoded files compared with the supplied source ZIP. Its normal-form generator is9492bytes/SHA **1242abca3096fea1ec4b3de5bc799b0bf0771747f646b40aa148940a20ba1260**. That generator is included unchanged in the new complete source archive. No defining-object or incidence conflict was found. I do not claim that hashing citation-normalized rendered Markdown reproduces the immutable transport hash.
 
-The construction23 versus prose raw22 issue is already reconciled in the journal; it is not an object conflict. This work follows **BASIN69_96, not S8/RL**. :contentReference[oaicite:2]{index=2}
+The construction23 versus prose raw22 issue is already reconciled in the journal; it is not an object conflict. This work follows **BASIN69_96, not S8/RL**.
 
 For the inherited positive-gap checkpoint, **construction13=parent C602 raw7**, construction28=raw29, and construction33=raw31. Subsequent labels below are relative to their explicitly named source bodies. Complete owner-set and maximal-cycle comparisons establish the index correspondences; no uniform sorting shift is presumed.
 
@@ -420,13 +420,13 @@ There is no newly established C<624 own110 body, no C588 contraction, no C600 ob
 
 The following exact paths were confirmed in the active runtime. The complete Markdown and JSON contain the entire139-file literal capsule, including all fifteen exact definitions, both auditors, third mass, all required generation/correction/search helpers, input checkpoints and parameters.
 
-[Complete Markdown handoff with literal139-file capsule](sandbox:/mnt/data/BQ13_C590_RESULT.md) — **163576bytes**, SHA256 **3616fba4d80635315cabe0e19fd134d1437153a473f4c2cb57e4fc8c1fadb380**.
+Complete Markdown handoff with literal139-file capsule (`BQ13_C590_RESULT.md`) — **163576bytes**, SHA256 **3616fba4d80635315cabe0e19fd134d1437153a473f4c2cb57e4fc8c1fadb380**.
 
-[Complete v2 JSON handoff with literal139-file capsule](sandbox:/mnt/data/BQ13_C590_RESULT_v2.json) — **165069bytes**, SHA256 **51e577dad7629cfd10217a6c4672afee572395f85f5b5c0ce24aa53c178e063d**.
+Complete v2 JSON handoff with literal139-file capsule (`BQ13_C590_RESULT_v2.json`) — **165069bytes**, SHA256 **51e577dad7629cfd10217a6c4672afee572395f85f5b5c0ce24aa53c178e063d**.
 
-[Source-only archive](sandbox:/mnt/data/BQ13_C590_SOURCE_ONLY.zip) — **229598bytes**,140ZIP entries, SHA256 **f69dfaa57583d635b5c8019b1e49cc8816d1ffd3bbec81b78b0b7c06fc103f05**.
+Source-only archive (`BQ13_C590_SOURCE_ONLY.zip`) — **229598bytes**,140ZIP entries, SHA256 **f69dfaa57583d635b5c8019b1e49cc8816d1ffd3bbec81b78b0b7c06fc103f05**.
 
-[Verified full bundle](sandbox:/mnt/data/BQ13_C590_VERIFIED_FULL.zip) — **7742809bytes**,320files, SHA256 **1f98aeabea5cfdbb31cb1f27cdc850c867c06e8e1c451a4aec65885631326a8b**.
+Verified full bundle (`BQ13_C590_VERIFIED_FULL.zip`) — **7742809bytes**,320files, SHA256 **1f98aeabea5cfdbb31cb1f27cdc850c867c06e8e1c451a4aec65885631326a8b**.
 
 Both ZIP manifests were read back and verified. The final JSON was parsed, its full capsule decoded and all139 source texts compared against the source-only cold-replay directory. Observed marker:
 

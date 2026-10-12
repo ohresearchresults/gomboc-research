@@ -12,7 +12,7 @@ I advanced the accepted seven-facet `3×3×3` circuit star through the first top
 
 The promoted endpoint is a rigorous **nonwinner**: its own-centroid class is `(S,U,H)=(2,2,2)`, not `(1,1,0)`. No homogeneous convex polyhedral Gömböc is claimed.
 
-The complete 86 MiB replay bundle is [Calm Raven 06 exact bridge-pair bundle](sandbox:/mnt/data/Calm_Raven_06_bridgepair9_exact_NONWINNER.zip). ZIP SHA-256: `e265db113e9da2f0fb33bf94336ff7d0f93ea5686f31c98a6ef7caeb1286856c`. A fresh extraction passed all 858 manifest hashes and ended with `INDEPENDENT_EXACT_BRIDGEPAIR9_PASS`.
+The complete 86 MiB replay bundle is Calm Raven 06 exact bridge-pair bundle (`Calm_Raven_06_bridgepair9_exact_NONWINNER.zip`). ZIP SHA-256: `e265db113e9da2f0fb33bf94336ff7d0f93ea5686f31c98a6ef7caeb1286856c`. A fresh extraction passed all 858 manifest hashes and ended with `INDEPENDENT_EXACT_BRIDGEPAIR9_PASS`.
 
 ## What changed relative to the supplied journal
 

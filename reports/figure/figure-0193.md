@@ -20,7 +20,7 @@ The strongest exact preserving endpoint has
 - a certified full-dimensional 18-coordinate shape box;
 - an independent exact/GMP/directed verifier and a matching watertight OBJ/STL mesh.
 
-This respects the run's non-negotiable gate: the body must be finite, homogeneous, evaluated at its own exact volume centroid, and have strict `(1,1,0)` with complete H/V/E and all-feature evidence. :contentReference[oaicite:0]{index=0} The durable journal accepted the preceding rank-12 endpoint but explicitly excluded the unfinished 144-corner consolidation and any continuum exclusion inferred from numerical sampling; it identified overlapping-chart full rank and then a seven-facet or nonsimple shared circuit as the next frontier. :contentReference[oaicite:1]{index=1}
+This respects the run's non-negotiable gate: the body must be finite, homogeneous, evaluated at its own exact volume centroid, and have strict `(1,1,0)` with complete H/V/E and all-feature evidence. The durable journal accepted the preceding rank-12 endpoint but explicitly excluded the unfinished 144-corner consolidation and any continuum exclusion inferred from numerical sampling; it identified overlapping-chart full rank and then a seven-facet or nonsimple shared circuit as the next frontier.
 
 ## 1. Correct quotient rank and completion of the six-facet family
 
@@ -42,7 +42,7 @@ The exact overlapping-pivot completion uses the three previously omitted coordin
 (1,-3,5)/2^{24}.
 \]
 
-The resulting six-facet endpoint has physical rank 15, `D=(8,12,6)`, common refinement `(48,89,43)`, and strict class `(2,2,2)`. Its exact H/V/E data and certificate are under [`fullrank15_sixfacet/`](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/fullrank15_sixfacet/certificate.json). This verifies that lack of coordinate rank was not the obstruction.
+The resulting six-facet endpoint has physical rank 15, `D=(8,12,6)`, common refinement `(48,89,43)`, and strict class `(2,2,2)`. Its exact H/V/E data and certificate are under `fullrank15_sixfacet/` (`certificate.json`). This verifies that lack of coordinate rank was not the obstruction.
 
 ## 2. Seven-active-facet replacement and exact physical rank 18
 
@@ -62,7 +62,7 @@ p=\left(
 \right)
 \]
 
-through `δh_i=p·δn_i`. The remaining rows have two tangential normal coordinates plus an independent support-depth coordinate after fixing one local row-normal pivot. Exact elimination proves rank 18. The quotient, pivots, point constraints, and complete basis are in [protected_physical_rank.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/protected_physical_rank.json), [rank18_shape_directions.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/rank18_shape_directions.csv), and [rank18_chart_center_rows.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/rank18_chart_center_rows.csv).
+through `δh_i=p·δn_i`. The remaining rows have two tangential normal coordinates plus an independent support-depth coordinate after fixing one local row-normal pivot. Exact elimination proves rank 18. The quotient, pivots, point constraints, and complete basis are in protected_physical_rank.json, rank18_shape_directions.csv, and rank18_chart_center_rows.csv.
 
 The seven exact `D` rows are labelled
 
@@ -72,7 +72,7 @@ The added row `r24` is irredundant. At the exact anchor endpoint the active trip
 
 `015, 016, 034, 036, 045, 156, 245, 246, 256, 346`,
 
-so `D` has ten vertices, fifteen true edges, and seven maximal faces. Exact summand H/V data are in [summands_H.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/summands_H.csv) and [summands_V.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/summands_V.csv).
+so `D` has ten vertices, fifteen true edges, and seven maximal faces. Exact summand H/V data are in summands_H.csv and summands_V.csv.
 
 ## 3. Exact finite Minkowski sum
 
@@ -92,11 +92,11 @@ v=v_B+\lambda v_D+t_1v_{C1}+t_2v_{C2}+t_3v_{C3}.
 
 The anchor common refinement has `(50,92,44)`. Every affine common vertex, maximal face cycle, and true edge is explicit in:
 
-- [common_V_affine.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/common_V_affine.csv)
-- [common_H_affine.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/common_H_affine.csv)
-- [common_edges.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/common_edges.csv)
+- common_V_affine.csv
+- common_H_affine.csv
+- common_edges.csv
 
-The own-centred H/V representation is [final_centered_V.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/final_centered_V.csv) and [final_centered_H.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/final_centered_H.csv). The exact volume is the rational in [exact_nonwinner_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/exact_nonwinner_certificate.json), approximately `2703.9412327529917`. The minimum exact nonincident H/V slack is approximately `2.6613460137177867e-4`.
+The own-centred H/V representation is final_centered_V.csv and final_centered_H.csv. The exact volume is the rational in exact_nonwinner_certificate.json, approximately `2703.9412327529917`. The minimum exact nonincident H/V slack is approximately `2.6613460137177867e-4`.
 
 ## 4. Exact mixed volume and mixed first moments
 
@@ -111,7 +111,7 @@ M_q(t)=\sum_{i+j+k\le4}m^q_{ijk}t_1^it_2^jt_3^k,
 \qquad q\in\{x,y,z\}.
 \]
 
-There are exactly 20 nonzero volume coefficients and 35 coefficients in each first-moment component. All 125 exact rationals are in [mixed_volume_first_moments.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/mixed_volume_first_moments.csv).
+There are exactly 20 nonzero volume coefficients and 35 coefficients in each first-moment component. All 125 exact rationals are in mixed_volume_first_moments.csv.
 
 The three equations `Mx=My=Mz=0` have the exact positive solution
 
@@ -119,7 +119,7 @@ The three equations `Mx=My=Mz=0` have the exact positive solution
 (t_1,t_2,t_3)=(1,1,1).
 \]
 
-The exact mixed-first-moment Jacobian determinant is nonzero; numerically it is about `-1331.4448775586097`. The exact Krawczyk certificate isolates the root in the rational radius-`2^-30` box. A separate outward-rounded binary64 verifier certifies strict inclusion and unchanged `(2,2,2)` mechanics throughout the larger positive box of radius `2^-20`. See [root_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/root_certificate.json) and [directed_interval_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/directed_interval_certificate.json).
+The exact mixed-first-moment Jacobian determinant is nonzero; numerically it is about `-1331.4448775586097`. The exact Krawczyk certificate isolates the root in the rational radius-`2^-30` box. A separate outward-rounded binary64 verifier certifies strict inclusion and unchanged `(2,2,2)` mechanics throughout the larger positive box of radius `2^-20`. See root_certificate.json and directed_interval_certificate.json.
 
 ## 5. Exhaustive exact own-centroid mechanics at the anchor
 
@@ -134,7 +134,7 @@ The anchor is strictly `(2,2,2)`:
 | saddle | `P9edge(13;26)|Dedge(2;4) || P9edge(13;26)|Dedge(2;6)` | `0.012609067294852063` |
 | saddle | `P9:15|Dvertex(0;1;6) || P9edge(15;27)|Dedge(0;1)` | `0.018034385545770984` |
 
-Every maximal face, vertex, and four-component true-edge normal-cone primitive is exact and nonzero. The complete ledgers are [face_audit_exact.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/face_audit_exact.csv), [vertex_audit_exact.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/vertex_audit_exact.csv), and [edge_audit_exact.csv](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/edge_audit_exact.csv).
+Every maximal face, vertex, and four-component true-edge normal-cone primitive is exact and nonzero. The complete ledgers are face_audit_exact.csv, vertex_audit_exact.csv, and edge_audit_exact.csv.
 
 ## 6. Certified full-dimensional nonwinning cell
 
@@ -154,7 +154,7 @@ Throughout the box:
 - the common nonincident H/V slack is at least `1.9128972705312327e-5`;
 - the volume lies in `[2703.9383537119907,2703.9441117939973]`.
 
-This is a rigorous local exclusion only. It does **not** exclude the continuous 18-dimensional seven-facet family. See [shape18_box_certificate.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/shape18_box_certificate.json).
+This is a rigorous local exclusion only. It does **not** exclude the continuous 18-dimensional seven-facet family. See shape18_box_certificate.json.
 
 ## 7. Stronger exact preserving descent endpoint
 
@@ -171,7 +171,7 @@ An exact dyadic rationalization of the successful full-rank preserving descent g
 
 The endpoint remains strict `(2,2,2)`. Its exact volume is approximately `1437.1181800486315`, and its exact minimum nonincident slack is approximately `0.0036579872232309807`. It has a unique positive control root `(1,1,1)`, an independent directed control box of radius `2^-28`, and a complete 18-coordinate shape box of radius `2^-40` that preserves `(50,92,44)` and `(2,2,2)`.
 
-The complete endpoint is under [`descent_s1/`](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/descent_s1/certificate.json), including its [exact certificate](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/descent_s1/exact_nonwinner_certificate.json), [mixed coefficients](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/descent_s1/mixed_volume_first_moments.csv), [shape box](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/descent_s1/shape18_box_certificate.json), and [independent verification](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/descent_s1/independent_verification.json).
+The complete endpoint is under `descent_s1/` (`certificate.json`), including its exact certificate (`exact_nonwinner_certificate.json`), mixed coefficients (`mixed_volume_first_moments.csv`), shape box (`shape18_box_certificate.json`), and independent verification (`independent_verification.json`).
 
 ## 8. Exact rational transition ordering
 
@@ -197,15 +197,15 @@ The same affine rational path was rebuilt at 15 exact checkpoints. At every chec
 
 The decisive observation is ordering: mechanical births and carrier transfers occur **before** the first common-fan change. The four walls do not meet in one finite event along this full-rank path; they split into an ordered relay. This is exact evidence for this path, not a no-go theorem for all paths.
 
-The machine-readable record is [transition_ordering.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/transition_ordering.json). [verify_transition_ordering.py](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/verify_transition_ordering.py) returns `ALL_15_EXACT_CHECKPOINTS_PASS`; its limitation is explicit: it reuses the exact geometry core but does not use the numerical search state or cached checkpoint geometry. Decimal boundary values in the JSON are locators only and are not promoted to isolated roots or a continuum exclusion.
+The machine-readable record is transition_ordering.json. verify_transition_ordering.py returns `ALL_15_EXACT_CHECKPOINTS_PASS`; its limitation is explicit: it reuses the exact geometry core but does not use the numerical search state or cached checkpoint geometry. Decimal boundary values in the JSON are locators only and are not promoted to isolated roots or a continuum exclusion.
 
 ## 9. Independent verification and meshes
 
-[verify_fullrank18_independent.py](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/verify_fullrank18_independent.py) imports neither the exact generator nor the numerical search code. It independently reconstructs every summand, literal Minkowski identities, the common H/V/E lattice, exact volume and first moments, all mechanics, all 125 mixed coefficients through a GMP executable, physical rank and gauge constraints, moment and shape boxes, and the mesh. It returns `ALL_CHECKS_PASS` in [independent_verification.json](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/independent_verification.json).
+verify_fullrank18_independent.py imports neither the exact generator nor the numerical search code. It independently reconstructs every summand, literal Minkowski identities, the common H/V/E lattice, exact volume and first moments, all mechanics, all 125 mixed coefficients through a GMP executable, physical rank and gauge constraints, moment and shape boxes, and the mesh. It returns `ALL_CHECKS_PASS` in independent_verification.json.
 
-The stronger `s=1` endpoint has a separate [independent verifier](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/descent_s1/verify_descent_s1_independent.py), which also returns `ALL_CHECKS_PASS` and independently reruns the GMP mixed system and both directed boxes.
+The stronger `s=1` endpoint has a separate independent verifier (`verify_descent_s1_independent.py`), which also returns `ALL_CHECKS_PASS` and independently reruns the GMP mixed system and both directed boxes.
 
-The anchor mesh is [OBJ](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/postCU10_fullrank18_sevenfacet_centered.obj) / [STL](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/postCU10_fullrank18_sevenfacet_centered.stl): 50 vertices, 96 triangles, 144 mesh edges, every mesh edge incident to two triangles, Euler characteristic 2, and outward orientation. The `s=1` endpoint has a matching [OBJ](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/descent_s1/endpoint.obj) / [STL](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/descent_s1/endpoint.stl) with the same combinatorial mesh counts.
+The anchor mesh is OBJ (`postCU10_fullrank18_sevenfacet_centered.obj`) / STL (`postCU10_fullrank18_sevenfacet_centered.stl`): 50 vertices, 96 triangles, 144 mesh edges, every mesh edge incident to two triangles, Euler characteristic 2, and outward orientation. The `s=1` endpoint has a matching OBJ (`endpoint.obj`) / STL (`endpoint.stl`) with the same combinatorial mesh counts.
 
 ## 10. Sharp residual obstruction and first unclassified topology
 
@@ -229,11 +229,11 @@ Combinatorially, the smallest candidate is one four-valent `D` vertex plus a nei
 
 ## Reusable artifact
 
-- [Complete exact bundle](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER.zip)
-- [Bundle SHA-256](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER.zip.sha256)
-- [Artifact index](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/ARTIFACT_INDEX.json)
-- [Manifest](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/MANIFEST.sha256)
-- [Standalone handoff](sandbox:/mnt/data/Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER/RESULT.md)
+- Complete exact bundle (`Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER.zip`)
+- Bundle SHA-256 (`Clear_Raven_08_postCU10_fullrank18_sevenfacet_exact_NONWINNER.zip.sha256`)
+- Artifact index (`ARTIFACT_INDEX.json`)
+- Manifest (`MANIFEST.sha256`)
+- Standalone handoff (`RESULT.md`)
 
 **Final literal verdict: exact strict `(2,2,2)` NONWINNER; no completion ticket.**
 

@@ -22,7 +22,7 @@ with strict own-centred class
 
 not `(1,1,0)`. It is a rigorous finite **NONWINNER**, not a wall point or an auxiliary-centre calculation.
 
-The accepted target remains a materialized uniform-density convex polyhedron at its own exact volume centroid with strict `(1,1,0)`, complete irredundant H/V/E data, exhaustive positive-margin mechanics, an independent verifier, and matching watertight meshes. :contentReference[oaicite:0]{index=0}
+The accepted target remains a materialized uniform-density convex polyhedron at its own exact volume centroid with strict `(1,1,0)`, complete irredundant H/V/E data, exhaustive positive-margin mechanics, an independent verifier, and matching watertight meshes.
 
 This endpoint advances the exact `AQ32-G44-GR12-R146` parent. It retains all `26,079` supplied source identities, makes fourteen parent extremes strictly inactive, lowers the actual complexity from `836` to `752`, deletes the parent saddle `[26068,26070]`, transfers the extra stable carrier from `[25944,26071,26057]` to `[25944,26057,25951]`, and retains the protected stable 17-gon and unique unstable `N3=25840`. The complete residual hard defect falls from the parent stable margin about `2.25566665e-6` to the new saddle margin about `1.06918202e-7`, a factor about `21.1`.
 
@@ -30,18 +30,18 @@ The operation is not misreported as the requested single connected cancellation:
 
 ## Reusable artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER.zip)
-- [Expanded handoff](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_complete_handoff.md)
-- [Finite exact source specification](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_source_spec.json)
-- [Deterministic generator](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/generate_AQ32_G44_D14_R132_exact.py)
-- [Independent clean-room verifier](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/verify_AQ32_G44_D14_R132_independent.py)
-- [Complete 26,079-row table](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_all_supplied_Q_rows_exact.csv.gz)
-- [Exact endpoint certificate](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_certificate.json)
-- [Transition certificate](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_transition.json)
-- [Residual obstruction](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_dual_component_obstruction.json)
-- [Q OBJ](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_Q.obj) · [Q STL](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_Q.stl) · [preview](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_Q_preview_affine_normalized.png)
-- [P OBJ](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_P.obj) · [P STL](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER/AQ32_G44_D14_R132_P.stl)
-- [Archive SHA-256 sidecar](sandbox:/mnt/data/AQ32_G44_D14_R132_EXACT_NONWINNER.zip.sha256)
+- Complete exact archive (`AQ32_G44_D14_R132_EXACT_NONWINNER.zip`)
+- Expanded handoff (`AQ32_G44_D14_R132_complete_handoff.md`)
+- Finite exact source specification (`AQ32_G44_D14_R132_source_spec.json`)
+- Deterministic generator (`generate_AQ32_G44_D14_R132_exact.py`)
+- Independent clean-room verifier (`verify_AQ32_G44_D14_R132_independent.py`)
+- Complete 26,079-row table (`AQ32_G44_D14_R132_all_supplied_Q_rows_exact.csv.gz`)
+- Exact endpoint certificate (`AQ32_G44_D14_R132_certificate.json`)
+- Transition certificate (`AQ32_G44_D14_R132_transition.json`)
+- Residual obstruction (`AQ32_G44_D14_R132_dual_component_obstruction.json`)
+- Q OBJ (`AQ32_G44_D14_R132_Q.obj`) · Q STL (`AQ32_G44_D14_R132_Q.stl`) · preview (`AQ32_G44_D14_R132_Q_preview_affine_normalized.png`)
+- P OBJ (`AQ32_G44_D14_R132_P.obj`) · P STL (`AQ32_G44_D14_R132_P.stl`)
+- Archive SHA-256 sidecar (`AQ32_G44_D14_R132_EXACT_NONWINNER.zip.sha256`)
 
 The archive SHA-256 is `bf0b4a8353f71388217b7d23a71d5a11de2d8b7c20b7f0084e375f4544ec16df`, also recorded in the external `.zip.sha256` sidecar.
 

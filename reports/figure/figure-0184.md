@@ -8,7 +8,7 @@ AI research report · 2026-09-01 UTC
 
 ## Literal disposition
 
-**EXACT NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained. The acceptance target remains a finite uniform-density body, evaluated at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/E incidence, exhaustive cone mechanics, independent verification, and matching meshes. :contentReference[oaicite:0]{index=0}
+**EXACT NONWINNER.** No homogeneous convex polyhedral Gömböc was obtained. The acceptance target remains a finite uniform-density body, evaluated at its own exact volume centroid, with strict `(S,U,H)=(1,1,0)`, complete H/V/E incidence, exhaustive cone mechanics, independent verification, and matching meshes.
 
 The strongest new object is an exact rational, own-centred, all-active simplicial polyhedron with
 
@@ -21,7 +21,7 @@ The strongest new object is an exact rational, own-centred, all-active simplicia
 - positive inactive separation and a positive own-centroid perturbation box;
 - independent clean-room reconstruction and watertight OBJ/STL.
 
-The durable journal identified the previous exact endpoint and prescribed precisely this finite-thickness coupled escape from edge `[2732,3296]`. :contentReference[oaicite:1]{index=1} The escape succeeds combinatorially, but the requested no-compensating-birth ordering fails: a new Euler-neutral `(1,1,2)` residual packet is already present in the strict post-cell.
+The durable journal identified the previous exact endpoint and prescribed precisely this finite-thickness coupled escape from edge `[2732,3296]`. The escape succeeds combinatorially, but the requested no-compensating-birth ordering fails: a new Euler-neutral `(1,1,2)` residual packet is already present in the strict post-cell.
 
 ## What changed from the accepted source
 
@@ -298,30 +298,30 @@ The independent verifier is standard-library-only and imports neither the genera
 
 ## Artifact index
 
-- [Standalone complete report](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/REPORT.md)
-- [Machine-readable candidate](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/candidate.json)
-- [Authoritative integer-coordinate input](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/data/input_vertices_integer.csv)
-- [Deterministic exact generator](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/scripts/generate_candidate.py)
-- [Primary exact verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/scripts/verify_exact.py)
-- [Independent clean-room verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/scripts/verify_independent.py)
-- [Own-centroid interval verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/scripts/verify_interval_own_centroid.py)
-- [Mesh verifier](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/scripts/verify_mesh.py)
-- [Complete centred exact V-data](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/data/wall242_coupledcell16_exact_V_exact.csv)
-- [Complete irredundant integer H-data](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/data/wall242_coupledcell16_exact_H_irredundant.csv)
-- [All maximal faces](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/data/wall242_coupledcell16_exact_faces.csv)
-- [All true edges and four-component cones](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/data/wall242_coupledcell16_exact_true_edges_full_cones.csv)
-- [Complete exact centroid/mechanics audit](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/data/wall242_coupledcell16_exact_exact_audit.json)
-- [Exact four-circuit cell certificate](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/certificates/four_circuit_cell_certificate.json)
-- [Exact post-cell forced-edge obstruction](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/certificates/post_cell_forced_edge_obstruction.json)
-- [Exact residual topology obstruction](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/certificates/residual_topology_obstruction.json)
-- [Own-centroid perturbation certificate](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/certificates/own_centroid_perturbation_certificate.json)
-- [Independent verification report](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/certificates/independent_verification_report.json)
-- [Primary verification transcript](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/verify_exact_run.log)
-- [Independent verification transcript](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/verify_independent_run.log)
-- [Interval verification transcript](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/verify_interval_run.log)
-- [Mesh verification transcript](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/verify_mesh_run.log)
-- [Watertight OBJ](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/mesh/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Nimble_Comet_70_wall242_coupled_cell_exact_NONWINNER/mesh/body.stl)
+- Standalone complete report (`REPORT.md`)
+- Machine-readable candidate (`candidate.json`)
+- Authoritative integer-coordinate input (`input_vertices_integer.csv`)
+- Deterministic exact generator (`generate_candidate.py`)
+- Primary exact verifier (`verify_exact.py`)
+- Independent clean-room verifier (`verify_independent.py`)
+- Own-centroid interval verifier (`verify_interval_own_centroid.py`)
+- Mesh verifier (`verify_mesh.py`)
+- Complete centred exact V-data (`wall242_coupledcell16_exact_V_exact.csv`)
+- Complete irredundant integer H-data (`wall242_coupledcell16_exact_H_irredundant.csv`)
+- All maximal faces (`wall242_coupledcell16_exact_faces.csv`)
+- All true edges and four-component cones (`wall242_coupledcell16_exact_true_edges_full_cones.csv`)
+- Complete exact centroid/mechanics audit (`wall242_coupledcell16_exact_exact_audit.json`)
+- Exact four-circuit cell certificate (`four_circuit_cell_certificate.json`)
+- Exact post-cell forced-edge obstruction (`post_cell_forced_edge_obstruction.json`)
+- Exact residual topology obstruction (`residual_topology_obstruction.json`)
+- Own-centroid perturbation certificate (`own_centroid_perturbation_certificate.json`)
+- Independent verification report (`independent_verification_report.json`)
+- Primary verification transcript (`verify_exact_run.log`)
+- Independent verification transcript (`verify_independent_run.log`)
+- Interval verification transcript (`verify_interval_run.log`)
+- Mesh verification transcript (`verify_mesh_run.log`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 A monolithic ZIP, final SHA-256 manifest, and fresh-extraction aggregate transcript were not produced before the execution boundary. The linked exact directory is otherwise materialized and the four principal verifiers were run individually on its final data.
 

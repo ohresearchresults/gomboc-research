@@ -22,7 +22,7 @@ A genuine algebraic 6/9/5 body attains this constant. Restricting the planar sup
 
 Neither universal alpha T≤3Sigma/2 nor the weaker universal alpha c^T Sigma^(-1)c≤3/2 is proved or refuted here. What remains is one precisely specified horizontal planar inequality, not an unchecked mean constraint or an unresolved transverse-fibre block. A strict universal counterexample, if one exists, can be chosen to be a rational affine-thickness polytope with a lateral marked facet and a horizontal violating test. **There is no bound on its planar vertex count in this result.**
 
-No moment theorem here is an all-SPD U2/S2 theorem, a full E17 exclusion, or a 110 construction. The accepted minimum bracket remains 34≤C_min≤622. fileciteturn51file1L9-L11
+No moment theorem here is an all-SPD U2/S2 theorem, a full E17 exclusion, or a 110 construction. The accepted minimum bracket remains 34≤C_min≤622.
 
 ### Input authority and observed execution
 
@@ -72,7 +72,7 @@ Only the reverse inequality in (2.3) needs proof; the lift (2.2) gives the other
 
 ## 3. Retaining two mean equalities under localization
 
-The external input is Fradelizi–Guédon, *The Extreme Points of Subsets of s-Concave Probabilities and a Geometric Localization Theorem*, DCG 31 (2004), 327–335, DOI 10.1007/s00454-003-2868-y. Theorem 3 bounds extreme support dimension by p under p constraints and s≤1/(p+1). Only the dimension-p case is asserted to be s-affine. Theorems 1–2 give the stronger one-constraint segment description. The density conversion is stated in Section 2. These distinctions, including the lower-dimensional qualification, are essential here. citeturn369849view0turn896287view0
+The external input is Fradelizi–Guédon, *The Extreme Points of Subsets of s-Concave Probabilities and a Geometric Localization Theorem*, DCG 31 (2004), 327–335, DOI 10.1007/s00454-003-2868-y. Theorem 3 bounds extreme support dimension by p under p constraints and s≤1/(p+1). Only the dimension-p case is asserted to be s-affine. Theorems 1–2 give the stronger one-constraint segment description. The density conversion is stated in Section 2. These distinctions, including the lower-dimensional qualification, are essential here.
 
 Fix the original P,F and centered Y. Put
 
@@ -92,7 +92,7 @@ This is why both means are equalities for every selected extremal, including a l
 
 For dimension 2 the extremal density is a nonnegative affine ell on its arbitrary convex planar support. For dimension 1 its density psi has concave square root, but need not be square of an affine function. If t is nonconstant, EY=0 forces Y to be a scalar multiple of t−1 on that line. Realize psi as the actual normal marginal of the convex three-body with square sections of side sqrt(psi). The accepted universal normal three-halves theorem then handles this branch, without any false affine-density assertion. If t is constant, it is 1 and the small layer is empty. A Dirac has t=1,Y=0. If t,Y are dependent on a dimension-2 support, its actual lift similarly reduces the needed test to a normal one.
 
-The universal normal bound and its scope, as opposed to the full mixed-moment claim, are explicit in the supplied update. fileciteturn58file0L55-L63
+The universal normal bound and its scope, as opposed to the full mixed-moment claim, are explicit in the supplied update.
 
 ### A continuous layer functional for each target
 
@@ -417,7 +417,7 @@ python -B quad_shift_group.py
 
 The last four commands regenerate their complete polynomial inputs; no large saved polynomial table is necessary. Failed output from these optional searches is not an acceptance marker. Floating discovery is not promised to be byte-identical on another numerical stack.
 
-Convenience copies supplement the inline recovery: [complete source/report bundle](sandbox:/mnt/data/centered_planar_completion_certificate.zip), [exact report](sandbox:/mnt/data/centered_next/centered_planar_completion_report.json), and [recovery source](sandbox:/mnt/data/centered_next/recover_centered_planar_completion.py).
+Convenience copies supplement the inline recovery: complete source/report bundle (`centered_planar_completion_certificate.zip`), exact report (`centered_planar_completion_report.json`), and recovery source (`recover_centered_planar_completion.py`).
 
 ```python
 """Recover complete exact source and optional reproducible numerical explorations.

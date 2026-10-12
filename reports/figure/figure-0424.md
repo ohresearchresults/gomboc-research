@@ -10,7 +10,7 @@ AI research report · 2026-09-19 UTC · [Export notes](../../catalog/coverage.md
 
 **This continuation produced no recoverable new geometric endpoint, completed search transcript, or exclusion theorem.** The preceding turn ended with a thinking failure. At closeout, the mounted workspace contained the two supplied journals and the previously completed `KM10_FULL_RECOVERY.zip`; no separate post-COARSE20 search checkpoint was present. Unsaved work cannot be reconstructed or counted as an experiment.
 
-The construction frontier therefore remains **COARSE20_G4**, the exact uniformly filled body with **V86/E129/F45, C258, strict own121, weak000**. Its earlier 74.39% volume-normalized radial-bar improvement remains valid inherited evidence, not progress achieved during this continuation. The previous final twenty-step stage accepted all twenty steps; this interruption supplies no evidence of a plateau or of geometric infeasibility. The accepted own110/weak000 incumbent remains C622. :contentReference[oaicite:0]{index=0}
+The construction frontier therefore remains **COARSE20_G4**, the exact uniformly filled body with **V86/E129/F45, C258, strict own121, weak000**. Its earlier 74.39% volume-normalized radial-bar improvement remains valid inherited evidence, not progress achieved during this continuation. The previous final twenty-step stage accepted all twenty steps; this interruption supplies no evidence of a plateau or of geometric infeasibility. The accepted own110/weak000 incumbent remains C622.
 
 The useful closeout findings are that the complete parent source survives intact and that the historical `coarse_radial_20` recipe must not be mistaken for a continuation from COARSE20_G4. That recipe starts from **COND2_G1000** and reproduces the already completed stage ending at COARSE20_G4. A new continuation must explicitly use `data/COARSE20_G4.json`.
 
@@ -48,7 +48,7 @@ No required parent geometry, exact auditor, or producing-method dependency is mi
 
 Each row `[nx,ny,nz,h]` means **nx*x + ny*y + nz*z <= h**. The right sides vary after primitive gcd reduction. This is a physical halfspace intersection, not the convex hull of the normal rows.
 
-The following is the complete unchanged COARSE20_G4 definition. Its compact sorted-key JSON serialization, without a trailing newline, is **1,122 bytes**, SHA-256 `80981f4c9fcf91d6b402e0b85d82d40d5a260eecf23888bdf2d3041d5dfa9011`. :contentReference[oaicite:1]{index=1}
+The following is the complete unchanged COARSE20_G4 definition. Its compact sorted-key JSON serialization, without a trailing newline, is **1,122 bytes**, SHA-256 `80981f4c9fcf91d6b402e0b85d82d40d5a260eecf23888bdf2d3041d5dfa9011`.
 
 ```json
 {"H":[[-23190,-6905,7908,10000],[-23088,97,6721,10000],[-21661,5105,5356,10000],[-17597,11697,2180,10000],[-16506,-12372,7875,10000],[-15397,13821,443,10000],[-13071,15339,-1234,10000],[-10613,16339,-2844,10000],[-10253,-15023,6915,10000],[-9872,4347,2001,5000],[-8199,16851,-4303,10000],[-6376,-16759,4976,10000],[-5833,16950,-5611,10000],[-3665,16729,-6919,10000],[-2678,-17455,2777,10000],[-167,1623,-810,1000],[297,15435,-9155,10000],[1155,-15101,3297,10000],[2197,-10814,-6880,10000],[2201,14349,-10087,10000],[2405,622,276,2500],[3006,1081,6706,10000],[3264,4489,-6993,5000],[3833,13183,-10670,10000],[3962,-12705,3497,10000],[4347,2304,6079,10000],[5291,968,-435,5000],[5412,11703,-11335,10000],[5706,613,-3769,5000],[5736,-9516,4393,10000],[5828,11380,-5775,10000],[6814,10496,-10529,10000],[7703,5260,-15433,10000],[7842,-4197,-15197,10000],[8079,9158,-9659,10000],[8156,2782,3261,10000],[8256,790,-15971,10000],[9073,7863,-8907,10000],[9942,6471,-7945,10000],[10587,-1650,-4026,10000],[10595,5108,-7165,10000],[11131,3547,-6374,10000],[11185,-1885,-8502,10000],[11301,1137,-2946,10000],[11329,2340,-4572,10000]]}
@@ -56,7 +56,7 @@ The following is the complete unchanged COARSE20_G4 definition. Its compact sort
 
 ### Inherited full mechanics and conditioning
 
-The parent reports independent exact A/B maximal-complex reconstruction and full own-centroid strict/weak census, with a separate centered filled-volume integration. A and B each have **35,462 bytes**, SHA-256 `f2524f0ece775e220e09acbb3e8a168428db90bc288374295e43b9190448ccde`; MASS has **221 bytes**, SHA-256 `9883865e5db976c346b9f6b65de8c80811df909c464ffc3b99807a098a58a077`. Those stored bytes were authenticated here; their auditors were not rerun. :contentReference[oaicite:2]{index=2}
+The parent reports independent exact A/B maximal-complex reconstruction and full own-centroid strict/weak census, with a separate centered filled-volume integration. A and B each have **35,462 bytes**, SHA-256 `f2524f0ece775e220e09acbb3e8a168428db90bc288374295e43b9190448ccde`; MASS has **221 bytes**, SHA-256 `9883865e5db976c346b9f6b65de8c80811df909c464ffc3b99807a098a58a077`. Those stored bytes were authenticated here; their auditors were not rerun.
 
 | Quantity | Last established value; unchanged |
 |---|---|
@@ -79,7 +79,7 @@ The parent reports independent exact A/B maximal-complex reconstruction and full
 | Selected polar positive-witness minimum cosine | [463790106,463790107)/10^12 |
 | Selected physical non-U witness minimum cosine | [707874179,707874180)/10^12 |
 
-These are inherited exact certificates or display approximations to their quantities. The witness minima are not claimed to be margins of every true edge or optimal possible margins. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+These are inherited exact certificates or display approximations to their quantities. The witness minima are not claimed to be margins of every true edge or optimal possible margins.
 
 The complete surviving negative-exit cut is
 
@@ -89,9 +89,9 @@ Its twenty outward arcs are
 
 `[[21,1],[22,2],[30,4],[27,5],[33,6],[38,8],[23,10],[26,10],[24,11],[41,14],[44,17],[45,17],[29,19],[35,19],[36,31],[36,53],[37,73],[41,40],[49,68],[69,83]]`.
 
-The true-edge cosine bottleneck remains strictly between `-445959388/10^9` and `-445959387/10^9`, with unique critical exit `69→83`. The cut meets the stable pentagon at vertices 22 and 24. The secondary radial bar remains about half its peak’s squared radius; no small residual or single opened exit establishes cancellation. :contentReference[oaicite:5]{index=5}
+The true-edge cosine bottleneck remains strictly between `-445959388/10^9` and `-445959387/10^9`, with unique critical exit `69→83`. The cut meets the stable pentagon at vertices 22 and 24. The secondary radial bar remains about half its peak’s squared radius; no small residual or single opened exit establishes cancellation.
 
-The parent’s centered Hausdorff 0.058 and uncentered Hausdorff 0.0029 exclusions remain **local inherited statements**, not new theorems and not restrictions forbidding larger finite deformation. :contentReference[oaicite:6]{index=6}
+The parent’s centered Hausdorff 0.058 and uncentered Hausdorff 0.0029 exclusions remain **local inherited statements**, not new theorems and not restrictions forbidding larger finite deformation.
 
 All eight other changed nonwinners, the unchanged C366 control, their complete literal inputs, and their recorded audits remain intact in the authenticated parent. None is reclassified or promoted by this closeout.
 
@@ -279,6 +279,6 @@ if __name__ == '__main__':
 
 Observed byte identities: `KM10_FINISH_CHECK.py` **5934 bytes**, SHA-256 `61570e56508d9254c54005f0b004bef486dec4ded52dd78271b9ddd29d2f512a`; `RECEIPT.json` **466 bytes**, SHA-256 `5ffe48841657165be79b206586dfa5ca977accc43f1de253bcb306379a9c2b86`; `NEXT20_RECIPE.json` **264 bytes**, SHA-256 `cc644050f91ebf1df829332fbaa657649108f4f7c3240738807799d85e2eaef0`.
 
-Supplementary files: [authenticated full parent recovery archive](sandbox:/mnt/data/KM10_FULL_RECOVERY.zip), [executed closeout checker](sandbox:/mnt/data/KM10_FINISH_CHECK.py), and [closeout receipt](sandbox:/mnt/data/KM10_FINISH/RECEIPT.json).
+Supplementary files: authenticated full parent recovery archive (`KM10_FULL_RECOVERY.zip`), executed closeout checker (`KM10_FINISH_CHECK.py`), and closeout receipt (`RECEIPT.json`).
 
 **Final research boundary:** COARSE20_G4 remains the last exactly reconstructible recommended endpoint. No new own110, no new nonwinner, no additional completed geometric steps, and no new obstruction are claimed. The finite whole-basin continuation remains scientifically open; its next execution must start from COARSE20_G4 rather than replaying the stage that produced it.

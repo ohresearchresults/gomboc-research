@@ -16,7 +16,7 @@ A shallower distinct own121 endpoint, **DEPTH87_G18**, has87/155/70 and P=.39188
 
 The complementary analytic result is an **executed exact continuous obstruction on QW49H_IMPLICIT_MASS_G14**: every bounded nondecreasing radial profile whose fourth-power Stieltjes measure charges the interior of its radial range has a strictly positive first-moment component relative to the stated fixed reference. It cannot close mass there, even with arbitrarily many radial layers. Other centres and changed angular geometry are not excluded.
 
-There are **sixteen distinct new rational bodies**, fourteen own121 and two fragmented controls, plus **one identical-body compact representation**. All sixteen have additionalweak000 and primitive000. Across them, **all31 positive P and all6 positive Q bars** are retained. None meets110; the supplied journal's canonical own110 remains C622. fileciteturn35file0L9-L13
+There are **sixteen distinct new rational bodies**, fourteen own121 and two fragmented controls, plus **one identical-body compact representation**. All sixteen have additionalweak000 and primitive000. Across them, **all31 positive P and all6 positive Q bars** are retained. None meets110; the supplied journal's canonical own110 remains C622.
 
 ## 1. Authority and preservation
 
@@ -33,7 +33,7 @@ QW49G_ROBUST_H45_G4_INPUT.json 994B
 0ebd9981a74c4b693e9106cfe847607bbd67bdd966f08f0c938c0cac100656f0
 ```
 
-PCAP55 is the78/140/64 own121 body with tiny **nonzero** centroid; IMPLICIT is the different143/233/92 own19/29/46 reference110 body. Their roles and budgets are not interchanged. fileciteturn35file0L24-L29 The entire old twenty-body H archive is unnecessary for this selected recovery and is not claimed republished in full.
+PCAP55 is the78/140/64 own121 body with tiny **nonzero** centroid; IMPLICIT is the different143/233/92 own19/29/46 reference110 body. Their roles and budgets are not interchanged. The entire old twenty-body H archive is unnecessary for this selected recovery and is not claimed republished in full.
 
 A runtime reset lost earlier transient scouts. The selected two-interface construction was rebuilt and executed after that reset; every new exact endpoint below was audited afterward. No lost or uninspected filename supplies a promoted endpoint.
 
@@ -242,7 +242,7 @@ Decoder97243B/SHA `9a87e5bc3a847e34aaffd2aac40211c2b97dea24895bead3228fb08d4de11
 
 The preferred material-point entrance is **LOW43_G9**, with its42 generic point slots and current36-node/37-crossing P interface. LOW separation is real; a whole basin and its actual mass still require replacement. Do not freeze roots0/34 or the stable triangle when a different physical carrier helps, and do not infer LOW preservation from S1. DEPTH87 retains the shallower-P H alternative; BUFFER73/LOW76 retain simpler arithmetic and different support budgets. IMPLICIT's monotone radial cleanup about its present reference is now excluded by the stated theorem, not by a failed sample. Changing its angular geometry or reference leaves that scope. The research remains open; no nonwinner is promoted to110.
 
-Convenience copies supplement the complete inline recovery: [decoder](sandbox:/mnt/data/RECOVER_QW49I.py), [research archive](sandbox:/mnt/data/QW49I_COMPLETE_RESEARCH.zip), [long Markdown handoff](sandbox:/mnt/data/QW49I_RESULT.md), [long structured handoff](sandbox:/mnt/data/QW49I_RESULT.json).
+Convenience copies supplement the complete inline recovery: decoder (`RECOVER_QW49I.py`), research archive (`QW49I_COMPLETE_RESEARCH.zip`), long Markdown handoff (`QW49I_RESULT.md`), long structured handoff (`QW49I_RESULT.json`).
 
 ## Complete executable capsule
 

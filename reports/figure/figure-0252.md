@@ -8,17 +8,17 @@ AI research report · 2026-09-03 UTC
 
 ## Complete reusable artifact
 
-- [Exact replay bundle](sandbox:/mnt/data/Calm_Raven_06_edgeSurgeryE10_exact_NONWINNER.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Calm_Raven_06_edgeSurgeryE10_exact_NONWINNER.zip.sha256)
-- [Full report](sandbox:/mnt/data/Calm_Raven_06_edgeSurgeryE10_exact_NONWINNER/RESULT.md)
-- [Master exact certificate](sandbox:/mnt/data/Calm_Raven_06_edgeSurgeryE10_exact_NONWINNER/physicalE10_master_certificate.json)
-- [Independent clean-room receipt](sandbox:/mnt/data/Calm_Raven_06_edgeSurgeryE10_exact_NONWINNER/independent_edgeSurgeryE10_verification.json)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Raven_06_edgeSurgeryE10_exact_NONWINNER/endpointE10/endpoint_centered.obj) and [STL](sandbox:/mnt/data/Calm_Raven_06_edgeSurgeryE10_exact_NONWINNER/endpointE10/endpoint_centered.stl)
-- [Pristine replay transcript](sandbox:/mnt/data/edgeSurgeryE10_final_pristine_replay.log)
+- Exact replay bundle (`Calm_Raven_06_edgeSurgeryE10_exact_NONWINNER.zip`)
+- Archive SHA-256 receipt (`Calm_Raven_06_edgeSurgeryE10_exact_NONWINNER.zip.sha256`)
+- Full report (`RESULT.md`)
+- Master exact certificate (`physicalE10_master_certificate.json`)
+- Independent clean-room receipt (`independent_edgeSurgeryE10_verification.json`)
+- Watertight OBJ (`endpoint_centered.obj`) and STL (`endpoint_centered.stl`)
+- Pristine replay transcript (`edgeSurgeryE10_final_pristine_replay.log`)
 
 Archive SHA-256: `b1e9c091022b3be36b2943a0407699c91284c00999272bfc084f5b823061536f`. A pristine extraction independently checked all 144 immutable manifest entries and ended with `INDEPENDENT_EXACT_PHYSICAL_E10_EDGE_SURGERY_PASS`, `INDEPENDENT_PHYSICAL_E10_RELEASE_SUMMARY_PASS`, `MANIFEST_PASS 144`, and `ALL_EXACT_PHYSICAL_E10_VERIFIERS_PASS`.
 
-The durable gate is a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, strict `(S,U,H)=(1,1,0)`, with finite exact H/V data, complete true-feature mechanics, independent verification, and matching OBJ/STL. :contentReference[oaicite:0]{index=0} The accepted source was the exact E8 common sum `(115,226,113)`, strict `(2,2,2)`, whose edge `(31,32)` forced U–H–U transfer; paired physical edge surgery was the next nonrepeating operation. :contentReference[oaicite:1]{index=1}
+The durable gate is a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, strict `(S,U,H)=(1,1,0)`, with finite exact H/V data, complete true-feature mechanics, independent verification, and matching OBJ/STL. The accepted source was the exact E8 common sum `(115,226,113)`, strict `(2,2,2)`, whose edge `(31,32)` forced U–H–U transfer; paired physical edge surgery was the next nonrepeating operation.
 
 ## Disposition
 

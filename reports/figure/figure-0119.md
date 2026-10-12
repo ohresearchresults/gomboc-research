@@ -6,11 +6,11 @@ AI research report · 2026-08-27 UTC
 
 # Slot-4 far-side independent-cell result
 
-[Complete exact archive](sandbox:/mnt/data/slot4_far_side_component_result.zip) · [SHA-256 record](sandbox:/mnt/data/slot4_far_side_component_result.zip.sha256)
+Complete exact archive (`slot4_far_side_component_result.zip`) · SHA-256 record (`slot4_far_side_component_result.zip.sha256`)
 
 Archive SHA-256: `262ae52cf7f08d88c5d6daa7fd41205440d8cb5e21f49800b6dc909e7c0db06c`. Internal `MANIFEST.json` SHA-256: `48c75e73a3e49316bfb1e254a0ef3e11180d56820e1ec3dd9e36e40c3f09eeb5`; 73 payload files. I rechecked the ZIP, manifest, deterministic generator, full interval/circuit certificate, exact H/V reconstruction, and both watertight meshes in the current runtime; every verifier passed.
 
-The supplied journal had already closed the entire connected `C3` component by a positive-`M_x` theorem and left the far-side signature `ac0cfc05c16540eeb4849333234d61069e05b838d3ca74e56a2a553a28f1a2f8` as an independent unclassified topology. This result enters that cell independently, closes its connected five-variable component, searches nearby same-signature fibres, and constructs the smallest one-new-field actual centred extension. :contentReference[oaicite:0]{index=0}
+The supplied journal had already closed the entire connected `C3` component by a positive-`M_x` theorem and left the far-side signature `ac0cfc05c16540eeb4849333234d61069e05b838d3ca74e56a2a553a28f1a2f8` as an independent unclassified topology. This result enters that cell independently, closes its connected five-variable component, searches nearby same-signature fibres, and constructs the smallest one-new-field actual centred extension.
 
 ## Literal verdict
 

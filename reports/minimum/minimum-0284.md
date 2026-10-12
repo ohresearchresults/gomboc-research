@@ -254,7 +254,7 @@ Substitution of `A2=2/3,s=3/4,lambda=1/4` gives the displayed fractions. This is
 
 ### 6. Consequence for complete weak rooted systems
 
-Using the accepted **nonzero-PSD contained-refinement theorem for full-dimensional actual uniform bodies with at most nine true vertices**, the volume minimizers above cannot be accumulation points of complete U1 systems. This uses that theorem with its indexed-refinement qualification, not strict-equilibrium persistence alone. The supplied record expressly distinguishes this full-dimensional theorem from dimension-loss assertions. fileciteturn24file0L123-L124
+Using the accepted **nonzero-PSD contained-refinement theorem for full-dimensional actual uniform bodies with at most nine true vertices**, the volume minimizers above cannot be accumulation points of complete U1 systems. This uses that theorem with its indexed-refinement qualification, not strict-equilibrium persistence alone. The supplied record expressly distinguishes this full-dimensional theorem from dimension-loss assertions.
 
 Precisely, for each fixed delta in (0,1/2], there exists a positive number eta_delta such that no complete true weak rooted system occurs in the corner-cap class with
 

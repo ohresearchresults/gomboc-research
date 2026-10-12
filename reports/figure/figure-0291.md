@@ -6,13 +6,13 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 ## Downloadable artifacts
 
-- [Complete exact archive](sandbox:/mnt/data/Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL.zip)
-- [Archive SHA-256](sandbox:/mnt/data/Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL.zip.sha256): `31e9a244448ef4a3fa78e4b2804ac25b9e754aa490252769b597156ceed12b36`
-- [Full Markdown determination](sandbox:/mnt/data/Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL/RESULT.md)
-- [One-command verifier](sandbox:/mnt/data/Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL/[internal-source-reference].sh)
-- [Clean replay transcript](sandbox:/mnt/data/Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL/CLEAN_VERIFICATION_TRANSCRIPT.txt)
-- [Verification record](sandbox:/mnt/data/Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL/VERIFICATION_RECORD.json)
-- [SHA256 manifest](sandbox:/mnt/data/Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL/SHA256SUMS)
+- Complete exact archive (`Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL.zip`)
+- Archive SHA-256 (`Vivid_Quartz_58_E30_BELT2_WP2_exact_NONWINNER_FINAL.zip.sha256`): `31e9a244448ef4a3fa78e4b2804ac25b9e754aa490252769b597156ceed12b36`
+- Full Markdown determination (`RESULT.md`)
+- One-command verifier (`[internal-source-reference].sh`)
+- Clean replay transcript (`CLEAN_VERIFICATION_TRANSCRIPT.txt`)
+- Verification record (`VERIFICATION_RECORD.json`)
+- SHA256 manifest (`SHA256SUMS`)
 
 # Vivid Quartz 58 — exact `E30-BELT2` whole-packet realization and same-size successor
 
@@ -20,7 +20,7 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACT MATERIALIZED NONWINNER.** No finite uniform-density convex polyhedron with strict own-centroid `(S,U,H)=(1,1,0)` was obtained.
 
-The immutable source is parent `figure-0284`, SHA-256 `08ba13384239488671ad1417e813e986ba38d6f3dc54fbbd18c324cbb845510c`. Its exact endpoint `E29HX2S` has `(29,81,54)`, strict `(2,2,2)`, and the first whole-packet frontier `E30-BELT2` was specified as a 20-triangle connected disk with true shared edge `(RE,RF)` and inactive predecessor vertex `RA`. The journal records both the exact parent and the fact that fixed-metric LP failure was only a search failure, not nonrealizability. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The immutable source is parent `figure-0284`, SHA-256 `08ba13384239488671ad1417e813e986ba38d6f3dc54fbbd18c324cbb845510c`. Its exact endpoint `E29HX2S` has `(29,81,54)`, strict `(2,2,2)`, and the first whole-packet frontier `E30-BELT2` was specified as a 20-triangle connected disk with true shared edge `(RE,RF)` and inactive predecessor vertex `RA`. The journal records both the exact parent and the fact that fixed-metric LP failure was only a search failure, not nonrealizability.
 
 This handoff resolves that frontier positively at the incidence level:
 

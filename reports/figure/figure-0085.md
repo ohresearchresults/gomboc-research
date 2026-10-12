@@ -8,31 +8,31 @@ AI research report · 2026-08-26 UTC
 
 ## Determination
 
-I did **not** obtain an accepted homogeneous convex polyhedral Gömböc. The gate remains an explicit finite uniform-density body, evaluated at its own exact volume centroid, with exhaustive strict `(S,U,H)=(1,1,0)` classification and complete H/V, face, edge, verification, and mesh data; auxiliary-origin mechanics and transfer-wall points do not qualify. :contentReference[oaicite:0]{index=0}
+I did **not** obtain an accepted homogeneous convex polyhedral Gömböc. The gate remains an explicit finite uniform-density body, evaluated at its own exact volume centroid, with exhaustive strict `(S,U,H)=(1,1,0)` classification and complete H/V, face, edge, verification, and mesh data; auxiliary-origin mechanics and transfer-wall points do not qualify.
 
-The inherited B210 endpoint was the correct starting frontier: a materialized own-centroid `(2,1,1)` body whose residual dual maximum and saddle were wholly inside the previously inserted connected basin, and whose next nonredundant operation was a moment-balanced annular replacement of that entire new sub-basin. :contentReference[oaicite:1]{index=1}
+The inherited B210 endpoint was the correct starting frontier: a materialized own-centroid `(2,1,1)` body whose residual dual maximum and saddle were wholly inside the previously inserted connected basin, and whose next nonredundant operation was a moment-balanced annular replacement of that entire new sub-basin.
 
 This continuation performs that replacement at substantially larger scale. It removes/deactivates every requested B210 row `{30,31,33,34,37,38,39,41,43}`, retains 27 non-basin input rows, inserts a connected 48-support, 24-level, two-branch annulus, crosses genuine Q incidence circuits, recomputes the full hull and uniform centroid after every accepted transition, and then searches determinant-one centroid-preserving metrics. The best open own-centroid endpoint is **MA300**, with strict class `(2,3,3)`, not `(1,1,0)`.
 
 ## Reproducible finite artifact
 
-The complete archive is [p2_annular_ascent_bundle.zip](sandbox:/mnt/data/p2_annular_ascent_bundle.zip), SHA-256
+The complete archive is p2_annular_ascent_bundle.zip, SHA-256
 
 `43c78e8885b4ddd6b3a4927ec94d5524a21af907fe8fd86134eeffbd918eb4af`.
 
-Its [manifest](sandbox:/mnt/data/p2_annular_ascent_bundle/MANIFEST.sha256) has 178 entries; `sha256sum -c MANIFEST.sha256` passes for every entry. The bundle includes every saved H/V state, complete maximal-face cycles and true edges, all feature-cone records, raw and centered supports, moment-Jacobian experiments, circuit transitions, deterministic reconstruction, two independent verifiers, OBJ/STL, and search logs.
+Its manifest (`MANIFEST.sha256`) has 178 entries; `sha256sum -c MANIFEST.sha256` passes for every entry. The bundle includes every saved H/V state, complete maximal-face cycles and true edges, all feature-cone records, raw and centered supports, moment-Jacobian experiments, circuit transitions, deterministic reconstruction, two independent verifiers, OBJ/STL, and search logs.
 
 Primary MA300 files:
 
-- [centered V coordinates](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_robust_metric_annular_P.csv), SHA-256 `c4d68b0a01854a15f3f92fa0f7fa2eacc8b69c92a02e972779973139d711828d`;
-- [all centered H rows](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_robust_metric_annular_H_all.csv) and [52-row irredundant H set](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_robust_metric_annular_H_active.csv), the latter SHA-256 `521c51737a455c11640334a94820ad8ed14e60f12d38c530107469e7063b62e4`;
-- [complete P audit](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_robust_metric_annular_P.audit.json), SHA-256 `2d12d989bbbb884957dde4ba58ac97744fdb9a046ab191de28357cd8ca3bd850`;
-- [complete centered-Q/Santaló audit](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_robust_metric_annular_Q_at_Santalo.audit.json);
-- [maximal-face cycles and all 150 true edges](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_robust_metric_annular_P.combinatorics.txt);
-- [support provenance, annular graph, radial-ascent checks, active/redundant rows, and metric](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_robust_metric_annular_support_metadata.json);
-- [deterministic finite generator](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_generator.py), [independent V verifier](sandbox:/mnt/data/p2_annular_ascent_bundle/independent_verify.py), and [independent polar/H–V verifier](sandbox:/mnt/data/p2_annular_ascent_bundle/verify_MA300_polar_pair.py);
-- [OBJ](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_robust_metric_annular_P.obj), SHA-256 `fcd22f8fcedb9959da43932a8a6092d861a09e44674eb40ee8b8ce9e1e982ed5`, and [STL](sandbox:/mnt/data/p2_annular_ascent_bundle/MA300_robust_metric_annular_P.stl), SHA-256 `98f907cacaa601d0297e8818ee2dffc21a73af8b298e06ed349e9f0c6d4449d1`;
-- [topology narrative](sandbox:/mnt/data/p2_annular_ascent_bundle/TOPOLOGY_PATH.md), [machine-readable path](sandbox:/mnt/data/p2_annular_ascent_bundle/topology_path.json), [quantified moment obstruction](sandbox:/mnt/data/p2_annular_ascent_bundle/moment_closure_obstruction.json), and [geometric obstruction](sandbox:/mnt/data/p2_annular_ascent_bundle/GEOMETRIC_OBSTRUCTION.md).
+- centered V coordinates (`MA300_robust_metric_annular_P.csv`), SHA-256 `c4d68b0a01854a15f3f92fa0f7fa2eacc8b69c92a02e972779973139d711828d`;
+- all centered H rows (`MA300_robust_metric_annular_H_all.csv`) and 52-row irredundant H set (`MA300_robust_metric_annular_H_active.csv`), the latter SHA-256 `521c51737a455c11640334a94820ad8ed14e60f12d38c530107469e7063b62e4`;
+- complete P audit (`MA300_robust_metric_annular_P.audit.json`), SHA-256 `2d12d989bbbb884957dde4ba58ac97744fdb9a046ab191de28357cd8ca3bd850`;
+- complete centered-Q/Santaló audit (`MA300_robust_metric_annular_Q_at_Santalo.audit.json`);
+- maximal-face cycles and all 150 true edges (`MA300_robust_metric_annular_P.combinatorics.txt`);
+- support provenance, annular graph, radial-ascent checks, active/redundant rows, and metric (`MA300_robust_metric_annular_support_metadata.json`);
+- deterministic finite generator (`MA300_generator.py`), independent V verifier (`independent_verify.py`), and independent polar/H–V verifier (`verify_MA300_polar_pair.py`);
+- OBJ (`MA300_robust_metric_annular_P.obj`), SHA-256 `fcd22f8fcedb9959da43932a8a6092d861a09e44674eb40ee8b8ce9e1e982ed5`, and STL (`MA300_robust_metric_annular_P.stl`), SHA-256 `98f907cacaa601d0297e8818ee2dffc21a73af8b298e06ed349e9f0c6d4449d1`;
+- topology narrative (`TOPOLOGY_PATH.md`), machine-readable path (`topology_path.json`), quantified moment obstruction (`moment_closure_obstruction.json`), and geometric obstruction (`GEOMETRIC_OBSTRUCTION.md`).
 
 MA300 is a deterministic finite decimal object, independently reconstructed to sub-`5e-16` Hausdorff error. Because it is a nonwinner, I did not promote it to a rational/interval theorem or claim an exact target perturbation box.
 

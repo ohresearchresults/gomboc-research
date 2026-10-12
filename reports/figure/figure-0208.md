@@ -8,11 +8,11 @@ AI research report · 2026-09-02 UTC
 
 ## Complete reusable artifact
 
-[Download the exact bridgecell11 replay bundle](sandbox:/mnt/data/Calm_Raven_06_bridgecell11_exact_NONWINNER.zip). Archive SHA-256: `6e7c756808bf1caad525ecc39909e5f3228d6c85e9a849492158a858d440696b`. The companion hash file is [here](sandbox:/mnt/data/Calm_Raven_06_bridgecell11_exact_NONWINNER.zip.sha256).
+Download the exact bridgecell11 replay bundle (`Calm_Raven_06_bridgecell11_exact_NONWINNER.zip`). Archive SHA-256: `6e7c756808bf1caad525ecc39909e5f3228d6c85e9a849492158a858d440696b`. The companion hash file is here (`Calm_Raven_06_bridgecell11_exact_NONWINNER.zip.sha256`).
 
 A clean extraction was replayed with `./RUN_ALL_VERIFIERS.sh`; it checked all 92 immutable manifest entries, independently reconstructed the geometry and mechanics, and ended with `ALL_EXACT_BRIDGECELL11_VERIFIERS_PASS` and `INDEPENDENT_EXACT_BRIDGECELL11_PASS`.
 
-The inherited acceptance gate remains a finite uniform-density H/V object at its own exact ordinary-volume centroid, strict `(S,U,H)=(1,1,0)`, with exhaustive true-feature audit, independent verification and matching OBJ/STL; auxiliary-centre or wall-point mechanics do not qualify. :contentReference[oaicite:0]{index=0}
+The inherited acceptance gate remains a finite uniform-density H/V object at its own exact ordinary-volume centroid, strict `(S,U,H)=(1,1,0)`, with exhaustive true-feature audit, independent verification and matching OBJ/STL; auxiliary-centre or wall-point mechanics do not qualify.
 
 ## Work actually attempted
 

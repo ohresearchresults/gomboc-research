@@ -56,7 +56,7 @@ Its decoded source-map hash is
 
 No mathematical identity, contact or census conflict was found. The runtime-declared immutable wrapper hash is preserved separately from the independently checked generator and source-capsule hashes; differently formatted convenience JSON wrappers were not treated as the immutable byte representation.
 
-The journal’s S8/C624 material was used as a distinct benchmark and as a source of useful physical whitening/least-norm correction machinery, not as an invented parent for this construction. Its separately supplied recovery and verification evidence was explicitly preserved in the journal. :contentReference[oaicite:0]{index=0}
+The journal’s S8/C624 material was used as a distinct benchmark and as a source of useful physical whitening/least-norm correction machinery, not as an invented parent for this construction. Its separately supplied recovery and verification evidence was explicitly preserved in the journal.
 
 ## 3. Two genuine incidence losses
 
@@ -473,19 +473,19 @@ The compact inputs retain every free integer control, every contact group and th
 
 Existing artifacts:
 
-[Complete76-file recovery program](sandbox:/mnt/data/VQ20_C622_RECOVER.py)
+Complete76-file recovery program (`VQ20_C622_RECOVER.py`)
 
-[Final finite C622 generator](sandbox:/mnt/data/vq20_next/AUDIT_C622_ROUTED/GENERATOR.json)
+Final finite C622 generator (`GENERATOR.json`)
 
-[Completed exact auditor A report](sandbox:/mnt/data/vq20_next/AUDIT_C622_ROUTED/A.json)
+Completed exact auditor A report (`A.json`)
 
-[Completed independent exact auditor B report](sandbox:/mnt/data/vq20_next/AUDIT_C622_ROUTED/B.json)
+Completed independent exact auditor B report (`B.json`)
 
-[Completed primary acceptance receipt and arithmetic measures](sandbox:/mnt/data/vq20_next/AUDIT_C622_ROUTED/RECEIPT.json)
+Completed primary acceptance receipt and arithmetic measures (`RECEIPT.json`)
 
-[Completed exact contact, stress and lineage receipt](sandbox:/mnt/data/vq20_next/C622_EXTRA/EXTRA.json)
+Completed exact contact, stress and lineage receipt (`EXTRA.json`)
 
-[Observed complete numerical reconstruction log](sandbox:/mnt/data/vq20_next/MINIMAL_NUMERICAL_TEST.log)
+Observed complete numerical reconstruction log (`MINIMAL_NUMERICAL_TEST.log`)
 
 These links make the existing computation recoverable, but they do not repair the absence of the literal capsule from this result_markdown. **No durable promotion is claimed from this text alone.**
 

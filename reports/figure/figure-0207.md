@@ -17,9 +17,9 @@ The requested topology was nevertheless realized literally. One exact rational s
 (S,U,H)=(2,2,2).
 ```
 
-It preserves the intended stable face `[0,1371,C]` and intended unstable vertex `C`, but retains an extra stable face, an extra unstable vertex, and two saddle edges. :contentReference[oaicite:0]{index=0}
+It preserves the intended stable face `[0,1371,C]` and intended unstable vertex `C`, but retains an extra stable face, an extra unstable vertex, and two saddle edges.
 
-The journal left exactly this finite-thickness four-circuit event open after the exact `D–E` shared-interior endpoint transported its Euler-neutral block. :contentReference[oaicite:1]{index=1} The global acceptance gate rejects an auxiliary-centre object, a wall point, a near-solution, or a theorem without finite H/V data and matching meshes. :contentReference[oaicite:2]{index=2}
+The journal left exactly this finite-thickness four-circuit event open after the exact `D–E` shared-interior endpoint transported its Euler-neutral block. The global acceptance gate rejects an auxiliary-centre object, a wall point, a near-solution, or a theorem without finite H/V data and matching meshes.
 
 ## What was actually done
 
@@ -62,7 +62,7 @@ The exact deterministic data are in `data/family_parameters_exact.json`. The fou
 | `[A,D,3290,C]` | `[A,D]` | `[3290,C]` | `5201984781962600312717362949044716323198299/100000000000000000000000000000000000000000000000 · t` | `0.0009554274460818358` |
 | `[1258,3290,2152,D]` | `[1258,3290]` | `[2152,D]` | `-41145221651896175012318658863394794463000891/500000000000000000000000000000000000000000000000 · t` | `7.042819315536771e-05` |
 
-Every slope is nonzero. Hence all four coplanarity sheets meet at the single exact family parameter `t=0`, while the source and target diagonals occur on opposite strict sides. :contentReference[oaicite:3]{index=3}
+Every slope is nonzero. Hence all four coplanarity sheets meet at the single exact family parameter `t=0`, while the source and target diagonals occur on opposite strict sides.
 
 ## 2. Positive-volume common incidence event
 
@@ -105,7 +105,7 @@ Coning the four quadrilateral cells to the exact central centroid gives the foll
 3. `1510633913025437250601542905769109967765858755114632886312076780713536047756925851852430531422166529410059247156436796622025836067/1157399498494606329661277648382188027849496809679150569511024000000000000000000000000000000000000000000000000000000000000000000000000`  (approximately `0.001305196619654901`)
 4. `5875764420227437455983765507892332879432613940560789074896563540448691689584608626088717324890456080256468029437313511892428035457/7233746865591289560382985302388675174059355060494691059443900000000000000000000000000000000000000000000000000000000000000000000000000`  (approximately `0.0008122712239457318`)
 
-Thus this is a genuine connected finite-thickness common event, not a comparison of unrelated endpoints. :contentReference[oaicite:4]{index=4}
+Thus this is a genuine connected finite-thickness common event, not a comparison of unrelated endpoints.
 
 ## 3. The demanded death-before-birth ordering fails exactly
 
@@ -179,7 +179,7 @@ Mx=My=Mz=0,
 centroid=(0,0,0).
 ```
 
-No Santaló point, point-mass centre, or auxiliary mechanical point is substituted. :contentReference[oaicite:5]{index=5}
+No Santaló point, point-mass centre, or auxiliary mechanical point is substituted.
 
 ## 5. Actual maximal faces and true edges
 
@@ -276,7 +276,7 @@ Independent perturbations of all 45 **uncentred** input coordinates by
 |δr_ij|≤2^-40=1/1099511627776≈9.094947017729282e-13
 ```
 
-are certified. On the whole box the verifier interval-integrates volume and all three first moments, forms the common perturbed centroid `M/V`, translates every vertex by that interval centroid, and proves the same 26 maximal faces, 39 true edges, all face and vertex signs, and all four components of every true-edge cone. The class remains exactly `(2,2,2)`. The larger radius `2^-39` fails closed at the interval face-Gram stage. :contentReference[oaicite:6]{index=6}
+are certified. On the whole box the verifier interval-integrates volume and all three first moments, forms the common perturbed centroid `M/V`, translates every vertex by that interval centroid, and proves the same 26 maximal faces, 39 true edges, all face and vertex signs, and all four components of every true-edge cone. The class remains exactly `(2,2,2)`. The larger radius `2^-39` fails closed at the interval face-Gram stage.
 
 ## 8. Exact residual forcing component
 
@@ -326,28 +326,28 @@ The replayed package performs:
 7. a standard-library-only independent reconstruction importing neither the generator nor `exact_core.py`;
 8. OBJ/STL watertightness, Euler, orientation, and edge-multiplicity checks.
 
-The OBJ has 15 vertices, 26 faces, and 39 edge classes; every edge has multiplicity two. The STL has 26 matching facets. :contentReference[oaicite:7]{index=7}
+The OBJ has 15 vertices, 26 faces, and 39 edge classes; every edge has multiplicity two. The STL has 26 matching facets.
 
 ## Reusable artifacts
 
-- [Complete exact NONWINNER bundle](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_exact_NONWINNER.zip) — SHA-256 `74181c1ae51f2b1a54f7bac0b40f72265317c9531aac837c62563beb01fca5c4`.
-- [Full Markdown handoff](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_handoff.md)
-- [Structured result](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_result.json)
-- [Fresh aggregate replay transcript](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_replay.txt)
-- [Fresh manifest check](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_manifest_check.txt)
-- [Exact family endpoint V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_input_vertices_plus_exact.csv)
-- [Exact own-centred V-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_vertices_centered_exact.csv)
-- [Primitive irredundant H-data](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_H_irredundant.csv)
-- [All maximal faces](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_faces.csv)
-- [All true edges and full cones](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_true_edges_full_cones.csv)
-- [Exact common-wall certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_common_wall.json)
-- [Exact transition atlas](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_transition_atlas.json)
-- [Own-centroid perturbation certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_perturbation_certificate.json)
-- [Forced-edge certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_forced_edge.json)
-- [Next-topology certificate](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_next_topology.json)
-- [Independent verifier](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_verify_independent.py)
-- [Watertight OBJ](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_body.obj)
-- [Watertight STL](sandbox:/mnt/data/Calm_Quartz_90_wall242_four_circuit_body.stl)
+- Complete exact NONWINNER bundle (`Calm_Quartz_90_wall242_four_circuit_exact_NONWINNER.zip`) — SHA-256 `74181c1ae51f2b1a54f7bac0b40f72265317c9531aac837c62563beb01fca5c4`.
+- Full Markdown handoff (`Calm_Quartz_90_wall242_four_circuit_handoff.md`)
+- Structured result (`Calm_Quartz_90_wall242_four_circuit_result.json`)
+- Fresh aggregate replay transcript (`Calm_Quartz_90_wall242_four_circuit_replay.txt`)
+- Fresh manifest check (`Calm_Quartz_90_wall242_four_circuit_manifest_check.txt`)
+- Exact family endpoint V-data (`Calm_Quartz_90_wall242_four_circuit_input_vertices_plus_exact.csv`)
+- Exact own-centred V-data (`Calm_Quartz_90_wall242_four_circuit_vertices_centered_exact.csv`)
+- Primitive irredundant H-data (`Calm_Quartz_90_wall242_four_circuit_H_irredundant.csv`)
+- All maximal faces (`Calm_Quartz_90_wall242_four_circuit_faces.csv`)
+- All true edges and full cones (`Calm_Quartz_90_wall242_four_circuit_true_edges_full_cones.csv`)
+- Exact common-wall certificate (`Calm_Quartz_90_wall242_four_circuit_common_wall.json`)
+- Exact transition atlas (`Calm_Quartz_90_wall242_four_circuit_transition_atlas.json`)
+- Own-centroid perturbation certificate (`Calm_Quartz_90_wall242_four_circuit_perturbation_certificate.json`)
+- Forced-edge certificate (`Calm_Quartz_90_wall242_four_circuit_forced_edge.json`)
+- Next-topology certificate (`Calm_Quartz_90_wall242_four_circuit_next_topology.json`)
+- Independent verifier (`Calm_Quartz_90_wall242_four_circuit_verify_independent.py`)
+- Watertight OBJ (`Calm_Quartz_90_wall242_four_circuit_body.obj`)
+- Watertight STL (`Calm_Quartz_90_wall242_four_circuit_body.stl`)
 
 ## Final statement
 

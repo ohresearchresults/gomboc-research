@@ -8,9 +8,9 @@ AI research report · 2026-09-03 UTC · [Export notes](../../catalog/coverage.md
 
 ## Verdict
 
-**EXACT POST-TR FULL-STAR ENDPOINT; NONWINNER.** I did not construct the requested homogeneous convex polyhedral Gömböc. The acceptance gate remains a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual incidence, exhaustive full-normal-cone mechanics, an independent verifier, and matching watertight meshes. Auxiliary-centre, wall, nearstate, and merely numerical objects remain inadmissible. :contentReference[oaicite:0]{index=0}
+**EXACT POST-TR FULL-STAR ENDPOINT; NONWINNER.** I did not construct the requested homogeneous convex polyhedral Gömböc. The acceptance gate remains a finite uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid with strict `(S,U,H)=(1,1,0)`, complete actual incidence, exhaustive full-normal-cone mechanics, an independent verifier, and matching watertight meshes. Auxiliary-centre, wall, nearstate, and merely numerical objects remain inadmissible.
 
-The immutable parent is `figure-0263`, SHA-256 `4cdbbad621f79aa04ed18cf2e29726b932f2279f1aae45f8ff60dda590148493`. I found no conflict between its literal payload and the journal summary. It certifies P9-XG15-CD2 as a 15-support own-centred `(2,2,2)` body whose only nonprotected all-external-positive forcing edge is `TR-B1`, and identifies complete replacement of the degree-six `TR` star as the next unrepresented topology. :contentReference[oaicite:1]{index=1}
+The immutable parent is `figure-0263`, SHA-256 `4cdbbad621f79aa04ed18cf2e29726b932f2279f1aae45f8ff60dda590148493`. I found no conflict between its literal payload and the journal summary. It certifies P9-XG15-CD2 as a 15-support own-centred `(2,2,2)` body whose only nonprotected all-external-positive forcing edge is `TR-B1`, and identifies complete replacement of the degree-six `TR` star as the next unrepresented topology.
 
 I enlarged the requested seven-row budget and exactified **P9-XG16-TRFS11-FP5-E18**. It uses eleven active replacement rows in one connected full-dimensional cell. It is genuinely outside every XG12–XG15 sign chamber: `TR` and seven additional predecessor rows are strictly inactive; `TR-B1`, both old saddle sheets, and the remote old unstable facet are absent. Nevertheless, the endpoint is strict own-centred `(2,2,2)`, not `(1,1,0)`. Its complete residual is carried by the new true edge `U4-H1`.
 
@@ -618,31 +618,31 @@ must terminate with
 ALL QUIET QUARTZ 19 P9-XG16 EXACT NONWINNER CHECKS PASS
 ```
 
-- [Complete exact package](sandbox:/mnt/data/Quiet_Quartz_19_P9_XG16_TRFS11_FP5_exact_nonwinner.zip)
-- [Archive SHA-256 receipt](sandbox:/mnt/data/Quiet_Quartz_19_P9_XG16_TRFS11_FP5_SHA256.txt)
-- [Verification receipt](sandbox:/mnt/data/Quiet_Quartz_19_P9_XG16_TRFS11_FP5_VERIFICATION_RECEIPT.json)
-- [Detailed handoff](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/RESEARCH_HANDOFF.md)
-- [Package README](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/README.md)
-- [One-command replay](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/RUN_ALL.sh)
-- [Exact 26-row input](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/p9_xg16_trfs11_fp5_rows_exact.json)
-- [Exact parent rows](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/p9_xg15_cd2_parent_rows_exact.json)
-- [Complete exact endpoint ledger](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/p9_xg16_trfs11_fp5_exact_ledger.json)
-- [Exact H representation](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/H_supplied_exact.csv)
-- [Exact V representation](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/V_exact.csv)
-- [Maximal faces](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/maximal_faces.csv)
-- [Full true-edge cones](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/true_edges_full_cones.csv)
-- [Exact mass and centroid](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/exact_mass_centroid.json)
-- [Full-star cell certificate](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/full_star_cell_certificate.json)
-- [Changed-edge audit](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/changed_edge_arrow_audit.json)
-- [Residual forcing theorem](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/residual_forcing_component.json)
-- [Exact ingress chronology](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/affine_ingress_chronology.json)
-- [Seven-control certificate](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/control_rank_certificate.json)
-- [Perturbation chamber](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/perturbation_chamber.json)
-- [Independent clean-room verifier](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/verify_independent.py)
-- [Watertight triangulated OBJ](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/p9_xg16_trfs11_fp5_centered_triangulated.obj)
-- [Watertight STL](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/p9_xg16_trfs11_fp5_centered.stl)
-- [Exact simple-flip nonwinner](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/p9_xg17_cd1_exact_nonwinner.json)
-- [P9-XG17 successor specification](sandbox:/mnt/data/quiet_quartz19_p9xg16_trfs11_fp5/P9_XG17_successor_spec.json)
+- Complete exact package (`Quiet_Quartz_19_P9_XG16_TRFS11_FP5_exact_nonwinner.zip`)
+- Archive SHA-256 receipt (`Quiet_Quartz_19_P9_XG16_TRFS11_FP5_SHA256.txt`)
+- Verification receipt (`Quiet_Quartz_19_P9_XG16_TRFS11_FP5_VERIFICATION_RECEIPT.json`)
+- Detailed handoff (`RESEARCH_HANDOFF.md`)
+- Package README (`README.md`)
+- One-command replay (`RUN_ALL.sh`)
+- Exact 26-row input (`p9_xg16_trfs11_fp5_rows_exact.json`)
+- Exact parent rows (`p9_xg15_cd2_parent_rows_exact.json`)
+- Complete exact endpoint ledger (`p9_xg16_trfs11_fp5_exact_ledger.json`)
+- Exact H representation (`H_supplied_exact.csv`)
+- Exact V representation (`V_exact.csv`)
+- Maximal faces (`maximal_faces.csv`)
+- Full true-edge cones (`true_edges_full_cones.csv`)
+- Exact mass and centroid (`exact_mass_centroid.json`)
+- Full-star cell certificate (`full_star_cell_certificate.json`)
+- Changed-edge audit (`changed_edge_arrow_audit.json`)
+- Residual forcing theorem (`residual_forcing_component.json`)
+- Exact ingress chronology (`affine_ingress_chronology.json`)
+- Seven-control certificate (`control_rank_certificate.json`)
+- Perturbation chamber (`perturbation_chamber.json`)
+- Independent clean-room verifier (`verify_independent.py`)
+- Watertight triangulated OBJ (`p9_xg16_trfs11_fp5_centered_triangulated.obj`)
+- Watertight STL (`p9_xg16_trfs11_fp5_centered.stl`)
+- Exact simple-flip nonwinner (`p9_xg17_cd1_exact_nonwinner.json`)
+- P9-XG17 successor specification (`P9_XG17_successor_spec.json`)
 
 ## Final status
 

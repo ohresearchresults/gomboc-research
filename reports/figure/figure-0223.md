@@ -10,9 +10,9 @@ AI research report · 2026-09-02 UTC
 
 **Exact nonwinner. No homogeneous convex polyhedral Gömböc was constructed.**
 
-The requested acceptance gate remains a finite, uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete exact or directed incidence and mechanics, a nonzero perturbation neighbourhood, independent reconstruction, and matching meshes. :contentReference[oaicite:0]{index=0} This continuation does not meet that gate and makes no completion claim.
+The requested acceptance gate remains a finite, uniform-density convex polyhedron evaluated at its own exact ordinary-volume centroid, with strict `(S,U,H)=(1,1,0)`, complete exact or directed incidence and mechanics, a nonzero perturbation neighbourhood, independent reconstruction, and matching meshes. This continuation does not meet that gate and makes no completion claim.
 
-The supplied journal ended with the numerical two-plane-plus-two-support body, provisional `(V,E,F)=(91,203,114)`, strict `(2,1,1)`, and the explicit requirement to span the complete transferred stable star, saddle/cap star, and connector route in a connected finite-thickness cell. :contentReference[oaicite:1]{index=1} I rebuilt that frontier from the exact M42 data, materialized an exact rational post-route body, audited its actual face lattice rather than preserving the provisional count, certified a connected positive-volume route three-ball and two real circuit flips, and then proved two new exact lower bounds on the next star-page topology.
+The supplied journal ended with the numerical two-plane-plus-two-support body, provisional `(V,E,F)=(91,203,114)`, strict `(2,1,1)`, and the explicit requirement to span the complete transferred stable star, saddle/cap star, and connector route in a connected finite-thickness cell. I rebuilt that frontier from the exact M42 data, materialized an exact rational post-route body, audited its actual face lattice rather than preserving the provisional count, certified a connected positive-volume route three-ball and two real circuit flips, and then proved two new exact lower bounds on the next star-page topology.
 
 The strongest exact post-route endpoint is:
 
@@ -55,10 +55,10 @@ Translation by its exact negative gives the supplied centred V-data. A fresh ori
 
 The literal data and mass certificate are:
 
-- [Exact input V-data](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/vertices_input_exact.csv)
-- [Exact centred V-data](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/vertices_centered_exact.csv)
-- [Complete irredundant H-data](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/H_irredundant.csv)
-- [Exact volume and first-moment certificate](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/mass_centroid_certificate.json)
+- Exact input V-data (`vertices_input_exact.csv`)
+- Exact centred V-data (`vertices_centered_exact.csv`)
+- Complete irredundant H-data (`H_irredundant.csv`)
+- Exact volume and first-moment certificate (`mass_centroid_certificate.json`)
 
 ## Complete actual incidence and exhaustive equilibrium classification
 
@@ -91,12 +91,12 @@ Every true edge is audited through all four normal-cone components—segment par
 
 Incidence and mechanics files:
 
-- [Maximal-face cycles](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/face_cycles.json)
-- [True-edge list](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/true_edges.csv)
-- [Complete face normal-cone ledger](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/faces_full_cones.json)
-- [Complete vertex normal-cone ledger](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/vertices_full_cones.csv)
-- [Every true edge and all four components](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/true_edges_full_cones.csv)
-- [Principal exact certificate](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/certificate.json)
+- Maximal-face cycles (`face_cycles.json`)
+- True-edge list (`true_edges.csv`)
+- Complete face normal-cone ledger (`faces_full_cones.json`)
+- Complete vertex normal-cone ledger (`vertices_full_cones.csv`)
+- Every true edge and all four components (`true_edges_full_cones.csv`)
+- Principal exact certificate (`certificate.json`)
 
 ## Complete eight-sheet anti-transfer ledger
 
@@ -126,7 +126,7 @@ Saddle-side sheets, each a true edge with all four exact components recorded:
 (1026,1028)  -7.6582412605279880e-4   excluded
 ```
 
-The complete exact numerators, denominators, support status, incident faces, and normal-cone components are in [the eight-sheet ledger](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/eight_sheet_anti_transfer_ledger.json).
+The complete exact numerators, denominators, support status, incident faces, and normal-cone components are in the eight-sheet ledger (`eight_sheet_anti_transfer_ledger.json`).
 
 ## Genuine topology change and connected finite-thickness route volume
 
@@ -177,8 +177,8 @@ connector route: 258-54-69-228-1026-1028.
 
 The exact incidence change and route-cell proof are in:
 
-- [Regular-subdivision atlas](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/regular_subdivision_atlas.json)
-- [Connected route-three-ball certificate](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/connected_route_cell_certificate.json)
+- Regular-subdivision atlas (`regular_subdivision_atlas.json`)
+- Connected route-three-ball certificate (`connected_route_cell_certificate.json`)
 
 The decisive negative finding is that this connected volume contains two adjacent flips, but not one simultaneous stable–saddle annihilation event: the residual pair survives on `[198,3000,1025]` and `(1027,3001)`.
 
@@ -192,12 +192,12 @@ A six-dimensional symmetric affine family is certified on the exact box
 
 with exact centroid preservation. Throughout the whole box, incidence, active rows, maximal faces, true edges, stable/unstable/saddle labels, and strict exclusion witnesses remain unchanged. The interval proof includes positive lower bounds for every active component and one negative witness for every inactive feature; its smallest edge-normal Gram determinant lower bound is about `2.511991531996357e-19`.
 
-- [Perturbation certificate](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/perturbation_certificate.json)
-- [Independent exact interval verifier](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/verify_interval.py)
+- Perturbation certificate (`perturbation_certificate.json`)
+- Independent exact interval verifier (`verify_interval.py`)
 
 ## Attempts made to break the residual pair
 
-The linked-support deletion square was rebuilt exactly. Full, drop-`3000`, drop-`3001`, and drop-both cells are all strict `(2,1,1)`. The stable and saddle witnesses migrate, proving that independent support deletion is another relay rather than cancellation. See [the exact four-cell deactivation atlas](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/support_deactivation_atlas.json).
+The linked-support deletion square was rebuilt exactly. Full, drop-`3000`, drop-`3001`, and drop-both cells are all strict `(2,1,1)`. The stable and saddle witnesses migrate, proving that independent support deletion is another relay rather than cancellation. See the exact four-cell deactivation atlas (`support_deactivation_atlas.json`).
 
 Discovery searches then tested 1,105 stored candidates, of which 1,096 rebuilt as valid full hulls; none was `(1,1,0)`. A separate 6,000-case connected-page search produced 5,599 `(2,1,1)` and 401 `(3,1,2)` bodies, again with no winner. These are empirical exclusions only and are not promoted to theorem status.
 
@@ -222,8 +222,8 @@ Independent exact dynamic programming proves the minimum cyclic cover is seven p
 
 Therefore no frozen-boundary cyclic star-page construction with six or fewer apices can span the complete route. This theorem does not cover moving/deactivating boundary rows, changing page diagonals, or non-star prismatic/octahedral pages.
 
-- [Exact 33-start page-cover atlas](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/frozen_boundary_star_page_cover_exact.json)
-- [Independent exact page-cover verifier](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/verify_frozen_boundary_star_page_cover_exact.py)
+- Exact 33-start page-cover atlas (`frozen_boundary_star_page_cover_exact.json`)
+- Independent exact page-cover verifier (`verify_frozen_boundary_star_page_cover_exact.py`)
 
 ## New exact theorem 2: the fixed T37 pages need at least six old-row releases
 
@@ -250,10 +250,10 @@ connector page: 0.009245115023509028.
 
 An independent branch-and-bound verifier finds a different six-row transversal `{69,198,228,231,257,258}` and proves that no five-row transversal exists. This is a necessary-support relaxation, not an actual convex-hull realization; the naive realization test fails as described above.
 
-- [Exact 197-certificate actuator theorem](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/minimum_old_row_actuator_certificate.json)
-- [Independent exact actuator/hitting verifier](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/verify_minimum_old_row_actuator_certificate.py)
-- [Frozen T37 page Farkas certificates](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/t37_frozen_boundary_farkas.json)
-- [Independent frozen-page verifier](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/verify_t37_frozen_boundary_farkas.py)
+- Exact 197-certificate actuator theorem (`minimum_old_row_actuator_certificate.json`)
+- Independent exact actuator/hitting verifier (`verify_minimum_old_row_actuator_certificate.py`)
+- Frozen T37 page Farkas certificates (`t37_frozen_boundary_farkas.json`)
+- Independent frozen-page verifier (`verify_t37_frozen_boundary_farkas.py`)
 
 ## First sharply delimited nonrepeating topology
 
@@ -282,7 +282,7 @@ The exact relaxed apices are only feasibility witnesses for the necessary page i
 
 A potentially smaller and genuinely different escape is a **changed-diagonal/non-star coupled prism or double-octahedral three-ball**. The seven-page and six-row theorems apply to frozen cyclic star pages and the fixed T37 assignment, respectively; a non-star cell with shared interior diagonals may evade both. Any such successor must still span the complete route and retain at least three independent mechanical controls after the three moments are eliminated.
 
-The exact combinatorial specifications are in [the next-topology atlas](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/next_control_complete_topology.json).
+The exact combinatorial specifications are in the next-topology atlas (`next_control_complete_topology.json`).
 
 ## Independent reconstruction, mesh, and reproducibility
 
@@ -304,15 +304,15 @@ ALL_KEEN_QUARTZ_89_EXACT_NONWINNER_CHECKS_PASS
 
 Primary reproducibility artifacts:
 
-- [Complete exact bundle](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER.zip)
-- [Bundle SHA-256](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER.zip.sha256) — `dbb6e76a10a0573f5239b21c0297e2f5e90a33fac3114b3baa41e5d56d18f990`
-- [Full research handoff](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/RESEARCH_HANDOFF.md)
-- [Clean-room exact verifier](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/verify_independent.py)
-- [Run all builders and verifiers](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/RUN_ALL.sh)
-- [Verification transcript](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/CURRENT_SESSION_REVERIFY.log)
-- [SHA-256 manifest](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/manifest.json)
-- [Watertight OBJ](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/body.obj)
-- [Watertight STL](sandbox:/mnt/data/Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER/body.stl)
+- Complete exact bundle (`Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER.zip`)
+- Bundle SHA-256 (`Keen_Quartz_89_M42_route_doubleflip_exact_NONWINNER.zip.sha256`) — `dbb6e76a10a0573f5239b21c0297e2f5e90a33fac3114b3baa41e5d56d18f990`
+- Full research handoff (`RESEARCH_HANDOFF.md`)
+- Clean-room exact verifier (`verify_independent.py`)
+- Run all builders and verifiers (`RUN_ALL.sh`)
+- Verification transcript (`CURRENT_SESSION_REVERIFY.log`)
+- SHA-256 manifest (`manifest.json`)
+- Watertight OBJ (`body.obj`)
+- Watertight STL (`body.stl`)
 
 Reproduction command inside the unpacked bundle:
 

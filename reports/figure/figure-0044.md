@@ -20,9 +20,9 @@ AI research report · 2026-08-23 UTC
 }
 ```
 
-Thus there was no prior object with `verified=true, S=1, U=1, H=0` at its own uniform-volume centroid; the previous payload did not even select a near-witness. Its prose said “strongest recorded witness,” but the embedded witness was `null`. :contentReference[oaicite:0]{index=0}
+Thus there was no prior object with `verified=true, S=1, U=1, H=0` at its own uniform-volume centroid; the previous payload did not even select a near-witness. Its prose said “strongest recorded witness,” but the embedded witness was `null`.
 
-The attached transcript defines the intended target as a uniform-density convex polyhedron with one stable face, one unstable vertex, no edge equilibrium, exact coordinates and centroid, a complete finite audit, and printable geometry. :contentReference[oaicite:1]{index=1}
+The attached transcript defines the intended target as a uniform-density convex polyhedron with one stable face, one unstable vertex, no edge equilibrium, exact coordinates and centroid, a complete finite audit, and printable geometry.
 
 ## Materialized exact circumscribed near-witness
 
@@ -40,7 +40,7 @@ The clipping retains five old hull vertices and creates sixteen exact rational e
 centroid = (0,0,0) exactly.
 ```
 
-Its complete exact V-representation, primitive-integer H-representation, oriented face cycles, true edge list, edge-face incidences, reduced-rational volume and all predicate values are in [the exact certificate](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_near_witness/rational_circumscribed_near_witness.json). The compact deterministic construction is in [the generator](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_near_witness/build_exact_near_witness.py). The construction and exact topology are independently described in the recovered result. :contentReference[oaicite:2]{index=2}
+Its complete exact V-representation, primitive-integer H-representation, oriented face cycles, true edge list, edge-face incidences, reduced-rational volume and all predicate values are in the exact certificate (`rational_circumscribed_near_witness.json`). The compact deterministic construction is in the generator (`build_exact_near_witness.py`). The construction and exact topology are independently described in the recovered result.
 
 The complete own-centroid mechanics is
 
@@ -59,7 +59,7 @@ extra unstable cells    = vertices 18 and 20
 extra saddle cells      = edges 25, 28 and 38
 ```
 
-All three excess saddle edges touch face 20. The exact classification and its Poincaré identity are recorded in the source result. :contentReference[oaicite:3]{index=3}
+All three excess saddle edges touch face 20. The exact classification and its Poincaré identity are recorded in the source result.
 
 The normalized margins, reported only after exact sign verification, are:
 
@@ -69,7 +69,7 @@ The normalized margins, reported only after exact sign verification, are:
 | vertex | 0.12779237935373494 | 0.0003250385443298796 |
 | edge | 0.14857473120318834 | 0.0020928029861054655 |
 
-The unwanted cut face has stable margin `0.21284628865545738`; this is an open failure, not floating-point dust. :contentReference[oaicite:4]{index=4}
+The unwanted cut face has stable margin `0.21284628865545738`; this is an open failure, not floating-point dust.
 
 For every primitive halfspace `n·x <= H`, exact arithmetic proves
 
@@ -81,7 +81,7 @@ Therefore the body contains the closed Euclidean radius-2 ball. The requested sm
 
 ## Fresh independent exact verifier
 
-A fresh run of [the independent verifier](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_near_witness/verify_exact_fresh.py) produced [this output](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_near_witness/verify_exact_fresh.out):
+A fresh run of the independent verifier (`verify_exact_fresh.py`) produced this output (`verify_exact_fresh.out`):
 
 ```json
 {
@@ -103,7 +103,7 @@ A fresh run of [the independent verifier](sandbox:/mnt/data/circumscribed_decisi
 }
 ```
 
-The independently captured verifier result agrees exactly. :contentReference[oaicite:5]{index=5}
+The independently captured verifier result agrees exactly.
 
 ## Continued cap search: explicit failure pattern
 
@@ -114,7 +114,7 @@ The continuation did not stop at the one-plane object. The reproducible search r
 - 48 one-apex centroid closures: every converged result was `(3,2,3)`;
 - 495 radial successor-chain variants: 11 reached `(3,1,2)`.
 
-The 40-link zero-bulge chain removes one added unstable equilibrium and one adjacent saddle, but leaves two bridge stable-saddle pairs. This isolates the remaining combinatorial task: replace the balancing 16-gon by a support patch whose two bridge strips are simultaneously nonstable and nonsaddle without creating a new unstable cap vertex. :contentReference[oaicite:6]{index=6}
+The 40-link zero-bulge chain removes one added unstable equilibrium and one adjacent saddle, but leaves two bridge stable-saddle pairs. This isolates the remaining combinatorial task: replace the balancing 16-gon by a support patch whose two bridge strips are simultaneously nonstable and nonsaddle without creating a new unstable cap vertex.
 
 ## New exact five-dimensional obstruction
 
@@ -141,7 +141,7 @@ This is a full five-dimensional trace-fixed neighborhood in the affine metric co
 7. A set of 124 exact frozen witnesses covers every face, vertex and edge branch and stays strict throughout the box.
 8. The transformed body still circumscribes the smooth seed: `lambda_min(Q)>1-1/4096>9/16`, so `A P` contains a radius greater than `3/2`, while the seed radius is below `(16/15)^(1/4)<3/2`.
 
-The complete exact certificate is [metric_neighborhood_exclusion.json](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_exclusion/metric_neighborhood_exclusion.json). A separately written verifier reconstructed the source lattice and centroid, recomputed every one of the 124 coefficient forms, checked the full Boolean coverage, and returned:
+The complete exact certificate is metric_neighborhood_exclusion.json. A separately written verifier reconstructed the source lattice and centroid, recomputed every one of the 124 coefficient forms, checked the full Boolean coverage, and returned:
 
 ```json
 {
@@ -159,7 +159,7 @@ The complete exact certificate is [metric_neighborhood_exclusion.json](sandbox:/
 }
 ```
 
-The independent verifier and complete output are [here](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_exclusion/verify_metric_exclusion.py) and [here](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_exclusion/verify_metric_exclusion.out). Consequently, ordinary affine polishing cannot repair this cap: the entire full-dimensional metric box remains exactly `(2,3,3)`. A successful construction must change the balancing-cap combinatorics or leave this neighborhood.
+The independent verifier and complete output are here (`verify_metric_exclusion.py`) and here (`verify_metric_exclusion.out`). Consequently, ordinary affine polishing cannot repair this cap: the entire full-dimensional metric box remains exactly `(2,3,3)`. A successful construction must change the balancing-cap combinatorics or leave this neighborhood.
 
 ## Hashes and printable geometry
 
@@ -177,12 +177,12 @@ printable 100 mm STL        5b8342dd14a4cf7af24b1e8f4a280e0d3b75ca07412cf81ad4a3
 complete package            f5b4de7eb1dc9fcc172cc859e4688d4f635bb305d3952754b0fba54b363b76cc
 ```
 
-- [OBJ](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_near_witness/rational_circumscribed_near_witness.obj)
-- [Exact-scale STL](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_near_witness/rational_circumscribed_near_witness_exact_scale.stl)
-- [Printable 100 mm STL](sandbox:/mnt/data/circumscribed_decisive_artifact/exact_near_witness/rational_circumscribed_near_witness_printable_100mm.stl)
-- [Full result report](sandbox:/mnt/data/circumscribed_decisive_artifact/RESULT.md)
-- [Manifest](sandbox:/mnt/data/circumscribed_decisive_artifact/MANIFEST.json)
-- [Complete reproducibility package](sandbox:/mnt/data/circumscribed_decisive_artifact.zip)
+- OBJ (`rational_circumscribed_near_witness.obj`)
+- Exact-scale STL (`rational_circumscribed_near_witness_exact_scale.stl`)
+- Printable 100 mm STL (`rational_circumscribed_near_witness_printable_100mm.stl`)
+- Full result report (`RESULT.md`)
+- Manifest (`MANIFEST.json`)
+- Complete reproducibility package (`circumscribed_decisive_artifact.zip`)
 
 ## Final verdict
 

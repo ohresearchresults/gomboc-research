@@ -302,35 +302,35 @@ The strongest continuation is a connected asymmetric patch that spends its topol
 
 # Reproducibility and artifacts
 
-- [Complete coupled-research bundle ZIP](sandbox:/mnt/data/paired_B_coupled_research_bundle.zip)
-- [Full standalone report](sandbox:/mnt/data/paired_B_coupled_research_REPORT.md)
-- [ZIP SHA-256 record](sandbox:/mnt/data/paired_B_coupled_research_bundle.zip.sha256)
-- [Combined verifier transcript](sandbox:/mnt/data/paired_B_coupled_research_bundle/RUN_ALL_VERIFIERS.txt)
-- [Bundle SHA-256 manifest](sandbox:/mnt/data/paired_B_coupled_research_bundle/SHA256SUMS.txt)
+- Complete coupled-research bundle ZIP (`paired_B_coupled_research_bundle.zip`)
+- Full standalone report (`paired_B_coupled_research_REPORT.md`)
+- ZIP SHA-256 record (`paired_B_coupled_research_bundle.zip.sha256`)
+- Combined verifier transcript (`RUN_ALL_VERIFIERS.txt`)
+- Bundle SHA-256 manifest (`SHA256SUMS.txt`)
 
 Strongest exact endpoint X:
 
-- [candidate.json](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/candidate.json)
-- [verified_summary.json](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/verified_summary.json)
-- [exact V-only verifier](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/verify_exact.py)
-- [independent exact verifier](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/verify_independent.py)
-- [exact interval-box verifier](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/verify_interval_boxes.py)
-- [interval certificate transcript](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/verify_interval_boxes.txt)
-- [exact centered H-representation](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/halfspaces_centered_integer.csv)
-- [all face primitives](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/face_primitives.csv)
-- [all vertex primitives](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/vertex_primitives.csv)
-- [all edge primitives](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/edge_primitives.csv)
-- [all inactive incidences](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/inactive_incidence.csv)
-- [OBJ](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/body.obj)
-- [STL](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_X_codimension4_transfer/body.stl)
-- [exact M→X transfer table](sandbox:/mnt/data/paired_B_coupled_research_bundle/critical_transfer_table.csv)
+- candidate.json
+- verified_summary.json
+- exact V-only verifier (`verify_exact.py`)
+- independent exact verifier (`verify_independent.py`)
+- exact interval-box verifier (`verify_interval_boxes.py`)
+- interval certificate transcript (`verify_interval_boxes.txt`)
+- exact centered H-representation (`halfspaces_centered_integer.csv`)
+- all face primitives (`face_primitives.csv`)
+- all vertex primitives (`vertex_primitives.csv`)
+- all edge primitives (`edge_primitives.csv`)
+- all inactive incidences (`inactive_incidence.csv`)
+- OBJ (`body.obj`)
+- STL (`body.stl`)
+- exact M→X transfer table (`critical_transfer_table.csv`)
 
 Independent 12-vertex endpoint D:
 
-- [candidate.json](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_D_connected_double_bridge/candidate.json)
-- [verified_summary.json](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_D_connected_double_bridge/verified_summary.json)
-- [OBJ](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_D_connected_double_bridge/body.obj)
-- [STL](sandbox:/mnt/data/paired_B_coupled_research_bundle/endpoint_D_connected_double_bridge/body.stl)
+- candidate.json
+- verified_summary.json
+- OBJ (`body.obj`)
+- STL (`body.stl`)
 
 Run from the extracted bundle root:
 

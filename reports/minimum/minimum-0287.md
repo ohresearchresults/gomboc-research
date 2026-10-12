@@ -18,7 +18,7 @@ The universal assertion **alpha T ≤ 3 Sigma/2 is not determined here**. There 
 
 An additional closed four-parameter, nonsymmetric 19/42/25 family has a marked triangular facet satisfying an explicit strict antipodal-depth bound. Its facet mass lies throughout **(1/10,1/8)**, inside the interval where the inherited one-constraint leverage envelope does not prove three-halves. Its actual cross-covariance defect is nonzero.
 
-No result here establishes S1/U1 infeasibility, changes the E17 incidence register, or supplies a110 attainer. The accepted bracket remains **34 ≤ C_min ≤ 622**. fileciteturn49file0L19-L21
+No result here establishes S1/U1 infeasibility, changes the E17 incidence register, or supplies a110 attainer. The accepted bracket remains **34 ≤ C_min ≤ 622**.
 
 ### Input authority and execution
 
@@ -46,7 +46,7 @@ The accepted one-fifth parent instead proves
 
     5 Sigma >= alpha T + alpha^2 cc^T/(1−alpha).
 
-The later paired-trace family has optimized centered variance coefficient Lambda* >2.0769, so retuning that family does not prove(1). Its leverage envelope leaves the stated middle mass interval unresolved. These distinctions are retained. fileciteturn50file2L54-L65
+The later paired-trace family has optimized centered variance coefficient Lambda* >2.0769, so retuning that family does not prove(1). Its leverage envelope leaves the stated middle mass interval unresolved. These distinctions are retained.
 
 All conclusions below are affine-covariant: Sigma and T transform by L(·)L^T, c by L, and q by L^(-T). Alpha is invariant. No independent polar centroid or physical inverse is introduced.
 
@@ -185,7 +185,7 @@ the entire closed box has the explicit strict matrix gap
     (3/2)Sigma−alpha T
        >= alpha [40353643603/3200000000000] T >0.     (5)
 
-This is a genuine mixed-moment statement throughout four independently varying actual parameters. Its entire mass interval lies beyond what the inherited min(15alpha,Lambda*−alpha) envelope proves at three-halves. fileciteturn50file2L59-L62
+This is a genuine mixed-moment statement throughout four independently varying actual parameters. Its entire mass interval lies beyond what the inherited min(15alpha,Lambda*−alpha) envelope proves at three-halves.
 
 At delta=1 and tau=(1/5,1/4,1/3), the exact control has
 
@@ -369,7 +369,7 @@ For a regular active completion of a **fixed released kernel**, the inherited B=
 
 ### Limits of localization and numerical exploration
 
-The primary Fradelizi–Guédon2004 Theorem3 says that with p constraints and s≤1/(p+1), an extreme measure has support dimension at most p; **when the dimension equals p**, it is s-affine and all p constraint integrals vanish. For p=2,s=1/3, the full-dimensional planar case has affine density, but the theorem neither makes its support a triangle/quadrilateral nor automatically gives the same conclusion in every lower-dimensional branch. Its statement does not justify replacing an equality EY=0 by the inequality EY≥0. The new proofs above do not invoke such a replacement. citeturn540875view0
+The primary Fradelizi–Guédon2004 Theorem3 says that with p constraints and s≤1/(p+1), an extreme measure has support dimension at most p; **when the dimension equals p**, it is s-affine and all p constraint integrals vanish. For p=2,s=1/3, the full-dimensional planar case has affine density, but the theorem neither makes its support a triangle/quadrilateral nor automatically gives the same conclusion in every lower-dimensional branch. Its statement does not justify replacing an equality EY=0 by the inequality EY≥0. The new proofs above do not invoke such a replacement.
 
 Four larger actual-hull locators were run. Affine-thickness polygon searches with3 and5 additional supplied points returned centered second-moment maxima approximately1.4999999745 and1.4999997758 after15456 and34704 calls. An8-point leverage search returned1.4999999769 after69336 calls. A general triangular-facet3D hull search with6 positive-height supplied points returned1.4969116832 after56376 calls. All reached their configured iteration limits. Redundant points were removed by the actual hull; these call counts are not incidence coverage. They are not universal bounds or exact counterexamples.
 
@@ -438,7 +438,7 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python hull_centered_search.py 6 triang
 
 All bounds, rounding-free parameterizations, seeds, population sizes, tolerances and iteration limits are literal in those sources. Floating replay is not promised to be byte-identical on another numerical stack. The exact reports are independent of it.
 
-Convenience copies supplement the inline source: [complete certificate bundle](sandbox:/mnt/data/centered_facet_subclasses_certificate.zip), [subclass report](sandbox:/mnt/data/centered_facet/centered_subclasses_exact_report.json), [E17 interval report](sandbox:/mnt/data/centered_facet/e17_moment_interval_report.json), and [recovery source](sandbox:/mnt/data/centered_facet/recover_centered_facet.py).
+Convenience copies supplement the inline source: complete certificate bundle (`centered_facet_subclasses_certificate.zip`), subclass report (`centered_subclasses_exact_report.json`), E17 interval report (`e17_moment_interval_report.json`), and recovery source (`recover_centered_facet.py`).
 
 ```python
 """Recover the complete centered-facet subclass certificate and numeric locators."""

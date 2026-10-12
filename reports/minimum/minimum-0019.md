@@ -17,9 +17,9 @@ Writing the inherited core parameters as beta, tau, s, the new exclusions are:
 
 The proof also gives a stronger exact reflected-ray obstruction on the complete, unbounded nine-shape domain. Its complement, together with the remaining shared-height inequalities, is explicitly specified below. Two exact interior-sector controls satisfy the old height-interval obstruction's complementary inequalities, so the advance is not merely another certification of the old forbidden cylinders.
 
-The finite prerequisites were completed: the parent's cylinder checker, original catalogue reconstruction, all 367 matrix checks, both original frontier sweeps, and the literal five-record/facet-binding audit actually ran successfully. In particular, graph29's facet map is now derived from the pinned catalogue, rather than assumed. The preceding parent explicitly withheld these execution and binding claims. :contentReference[oaicite:0]{index=0}
+The finite prerequisites were completed: the parent's cylinder checker, original catalogue reconstruction, all 367 matrix checks, both original frontier sweeps, and the literal five-record/facet-binding audit actually ran successfully. In particular, graph29's facet map is now derived from the pinned catalogue, rather than assumed. The preceding parent explicitly withheld these execution and binding claims.
 
-**No records are deleted globally.** The heptagonal remainder stays 3,042 records / 78 joint-root orbits. The current global journal frontier stays 178,103 / 4,366 / 74 after the unrelated patches; the reproduced original parent remains the distinct 178,131-record checkpoint. The inherited bound remains `30 <= C_min <= 1374`. :contentReference[oaicite:1]{index=1}
+**No records are deleted globally.** The heptagonal remainder stays 3,042 records / 78 joint-root orbits. The current global journal frontier stays 178,103 / 4,366 / 74 after the unrelated patches; the reproduced original parent remains the distinct 178,131-record checkpoint. The inherited bound remains `30 <= C_min <= 1374`.
 
 ## 1. Literal dependencies, labels, and the decisive finite observation
 
@@ -78,7 +78,7 @@ dual   (5,-1,1,1,3,2,7,0)
 
 The last record field retains the original `<BBBH` dual-edge-mask convention. The capsule contains both literal parent facet/edge arrays and reconstructs every displayed array; it does not hard-code a presumed graph29 facet binding.
 
-**The new structural observation is that the primal root 7 has exactly one child in every one of these records: child 0 in graph3 and child 5 in graph29.** Consequently that child must be strictly farther from the body's actual centroid than every other nonroot vertex. This is stronger than merely choosing an unspecified maximum-radius base vertex. Coverage of candidates by the parent's complementary records is inherited, not reproved by selecting these five convenient trees. :contentReference[oaicite:2]{index=2}
+**The new structural observation is that the primal root 7 has exactly one child in every one of these records: child 0 in graph3 and child 5 in graph29.** Consequently that child must be strictly farther from the body's actual centroid than every other nonroot vertex. This is stronger than merely choosing an unspecified maximum-radius base vertex. Coverage of candidates by the parent's complementary records is inherited, not reproved by selecting these five convenient trees.
 
 ## 2. Complete shape chart and actual mass
 
@@ -91,7 +91,7 @@ p4=(x4,y4,0), p5=(x5,y5,0), p6=(x6,y6,0),
 a=p7=(0,0,1), b=p8=(beta,0,tau).
 ```
 
-Put `delta=beta+tau-1`, `h=1+(tau-1)s`, `k=beta*s`. The domain Phi consists of positive beta, tau, s, delta, h, the 35 strict clockwise base convexity inequalities, and all 42 strict noncontact facet inequalities. The first three outward planes are `(0,0,-1).x<=0`, `(0,-1,0).x<=0`, and `(1-tau,beta,beta).x<=beta`; the other normals are the oriented triangular cross products. This is the complete inherited realization chart, including tau=1. :contentReference[oaicite:3]{index=3}
+Put `delta=beta+tau-1`, `h=1+(tau-1)s`, `k=beta*s`. The domain Phi consists of positive beta, tau, s, delta, h, the 35 strict clockwise base convexity inequalities, and all 42 strict noncontact facet inequalities. The first three outward planes are `(0,0,-1).x<=0`, `(0,-1,0).x<=0`, and `(1-tau,beta,beta).x<=beta`; the other normals are the oriented triangular cross products. This is the complete inherited realization chart, including tau=1.
 
 For the clockwise base cycle C define
 
@@ -115,7 +115,7 @@ Vol = D/6,
 g = N/(4D).
 ```
 
-These are actual tetrahedral volumes and moments, not independently adjustable masses. An invertible physical map T gives volume `abs(det T)D/6` and centroid `Tg`. The body used for mechanics is `T(P-g)` throughout. This mass formula is inherited, and the new replay checks it against oriented boundary integration symbolically and against all nine apex-cone integrations at the exact controls. :contentReference[oaicite:4]{index=4}
+These are actual tetrahedral volumes and moments, not independently adjustable masses. An invertible physical map T gives volume `abs(det T)D/6` and centroid `Tg`. The body used for mechanics is `T(P-g)` throughout. This mass formula is inherited, and the new replay checks it against oriented boundary integration symbolically and against all nine apex-cone integrations at the exact controls.
 
 Write `Z=N_z`. An important strict identity is
 
@@ -399,7 +399,7 @@ for every ordered i,j:
     ai <= 0 OR aj >= 0 OR ai*bj-aj*bi > 0.
 ```
 
-No positive floor, finite ceiling, or nonzero-slope assumption is used. The resulting variables remain the nine shapes, two A entries, and two ell entries. Retain all inherited physical leaf/core constraints as well. The reflected-ray test is an additional shape-only obstruction, not a replacement for the actual mechanical system. The parent already supplied the underlying exact affine-height reduction. :contentReference[oaicite:5]{index=5}
+No positive floor, finite ceiling, or nonzero-slope assumption is used. The resulting variables remain the nine shapes, two A entries, and two ell entries. Retain all inherited physical leaf/core constraints as well. The reflected-ray test is an additional shape-only obstruction, not a replacement for the actual mechanical system. The parent already supplied the underlying exact affine-height reduction.
 
 ## 7. Exact controls: progress beyond the old obstruction, and genuine remaining complement
 
@@ -564,7 +564,7 @@ binding_execution.txt 1225
 
 Source-file provenance: the supplied 2,037,143-byte journal has SHA-256 `bf80a0a493e910b5d483656dc811684a27394abe587d45cfa0055dcbb76e3095`. The rendered height-parent extraction is 32,446 bytes / `4e43bdc228ec1c93934378a66c9ce963dfe90b9e3f9b4236c4df3b2f69f2bc3d`; the rendered frontier-parent extraction is 43,477 bytes / `b073e42c222c9c578aaae909d64c18b1abd1a1385cc5fb2b52f733713db34e44`. These rendered-byte hashes do not reproduce the immutable envelope hashes, and are not substituted for them. No mathematical facet, vertex, incidence, or root alias conflict was found.
 
-Convenience copies: [complete recovery archive](sandbox:/mnt/data/HEPT_GLOBAL_V2_recovery.zip), [decoded source](sandbox:/mnt/data/hept_global/hept_global_v2.py), [exact report](sandbox:/mnt/data/hept_global/hept_global_v2.json). The archive is 25,535 bytes, SHA-256 `78b435bea7b422a4282269836f5c641491a0725bdb05dc308e9dfd88e88186fa`; these links are supplementary to the complete capsule below.
+Convenience copies: complete recovery archive (`HEPT_GLOBAL_V2_recovery.zip`), decoded source (`hept_global_v2.py`), exact report (`hept_global_v2.json`). The archive is 25,535 bytes, SHA-256 `78b435bea7b422a4282269836f5c641491a0725bdb05dc308e9dfd88e88186fa`; these links are supplementary to the complete capsule below.
 
 ### Complete encoded source
 

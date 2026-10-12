@@ -10,15 +10,15 @@ AI research report · 2026-09-04 UTC · [Export notes](../../catalog/coverage.md
 
 **EXACTLY FALSIFIED; NOT A GÖMBÖC.** The operator-recovered Markdown cannot be restored as an immutable strict `(S,U,H)=(1,1,0)` result. Its twelve named winner artifacts are not accessible in the active container or Library under their exact names, and an accessible packaging attempt terminates with `RuntimeError: No exact belt winner core`. More decisively, the recovered construction contradicts itself at its first uniquely determined exact wall: the old residual unstable 17-gon and saddle do reach zero together, but a replacement stable face, replacement unstable vertex, and two replacement saddles are already strict **before** that death and remain strict after it.
 
-The recovered block claimed an exact post-wall `(1,1,0)` chamber and a subsequent nine-row belt with no births, while explicitly listing the purported archive, source, chronology, verifier, OBJ, and STL. :contentReference[oaicite:0]{index=0} The journal itself marked that text only as orphan evidence and required reconstruction or falsification, while separating it from the later Bright Lynx 17 `(2,2,2)` body. :contentReference[oaicite:1]{index=1}
+The recovered block claimed an exact post-wall `(1,1,0)` chamber and a subsequent nine-row belt with no births, while explicitly listing the purported archive, source, chronology, verifier, OBJ, and STL. The journal itself marked that text only as orphan evidence and required reconstruction or falsification, while separating it from the later Bright Lynx 17 `(2,2,2)` body.
 
-**Immutable falsification archive:** [Bright_Harbor_30_J56_TB9_metric_cancel_belt24_EXACT_FALSIFICATION.zip](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_metric_cancel_belt24_EXACT_FALSIFICATION.zip)  
+**Immutable falsification archive:** Bright_Harbor_30_J56_TB9_metric_cancel_belt24_EXACT_FALSIFICATION.zip  
 **Archive SHA-256:** `8241cda40f3d266a253609a3cf717774e2f1f6b6cc7cb5c99e0d27c68e211f45`  
-**Checksum:** [ZIP SHA-256](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_metric_cancel_belt24_EXACT_FALSIFICATION.zip.sha256)  
-**Readable report:** [README.md](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/README.md)  
-**Verification receipt:** [VERIFICATION_RECEIPT.json](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/VERIFICATION_RECEIPT.json)  
-**Clean-extraction transcript:** [CLEANROOM_VERIFY.log](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/CLEANROOM_VERIFY.log)  
-**Manifest:** [MANIFEST.sha256](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/MANIFEST.sha256)
+**Checksum:** ZIP SHA-256 (`Bright_Harbor_30_J56_TB9_metric_cancel_belt24_EXACT_FALSIFICATION.zip.sha256`)  
+**Readable report:** README.md  
+**Verification receipt:** VERIFICATION_RECEIPT.json  
+**Clean-extraction transcript:** CLEANROOM_VERIFY.log  
+**Manifest:** MANIFEST.sha256
 
 ## Literal parent identity
 
@@ -31,7 +31,7 @@ exact-source SHA ba6f45ae283e444a4ee92ff14e4987041ca4e442a181892675f6b8af00759fa
 archive SHA      d6f285ed83cd8b330af59796dfb30819d95db1a2d90b16c83deacb032bc9366b
 ```
 
-The parent is exact own-centred `(1,2,1)`: stable row `2475`; protected unstable incidence `[2475,5000,5003]`; residual unstable 17-gon; saddle `(14001,14014)`. Its payload and exact artifact hashes are recorded in the journal. :contentReference[oaicite:2]{index=2} A pristine parent replay passes.
+The parent is exact own-centred `(1,2,1)`: stable row `2475`; protected unstable incidence `[2475,5000,5003]`; residual unstable 17-gon; saddle `(14001,14014)`. Its payload and exact artifact hashes are recorded in the journal. A pristine parent replay passes.
 
 Let `N=2^24` and `z=-1/140`. Its raw coplanar rows are `(X/N,Y/N,z)`:
 
@@ -101,7 +101,7 @@ sigma(5003→14001)
 normalized decimal 0.9996256927651311.
 ```
 
-The exact 2,913-digit reduced numerator and denominator are in [exact_belt_stable_5003_obstruction.json](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/audit/exact_belt_stable_5003_obstruction.json), SHA-256 `ef1d38a413c9d781964ce829a74209e3038bf012b6cc757cd4a88cde3e573ecb`.
+The exact 2,913-digit reduced numerator and denominator are in exact_belt_stable_5003_obstruction.json, SHA-256 `ef1d38a413c9d781964ce829a74209e3038bf012b6cc757cd4a88cde3e573ecb`.
 
 Three further replacement features are strict at the wall:
 
@@ -137,7 +137,7 @@ alpha0+delta: (2,2,2)
 
 This is exact death-**after**-birth, directly contradicting the recovered death-before-birth claim.
 
-The complete exact wall certificate is [exact_shear_wall_certificate.json](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/audit/exact_shear_wall_certificate.json), SHA-256 `57e5c782461d6d236a1763af5d121c518627191897514ae1cc18073ed162f038`.
+The complete exact wall certificate is exact_shear_wall_certificate.json, SHA-256 `57e5c782461d6d236a1763af5d121c518627191897514ae1cc18073ed162f038`.
 
 ## Corrected finite post-wall hull
 
@@ -157,12 +157,12 @@ A separate C++/GMP verifier enumerates all `C(18,3)=816` triples and 14,688 exac
 
 Exact files:
 
-- [Post-wall finite source](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/counterexample/postwall_exact_source.json), SHA-256 `420d21093f1a3c157d6dba7e590ba48f9ea4209d3583490506f7a665391dbaf0`
-- [Exact dual coordinates](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/counterexample/Q_after_exact.csv)
-- [Exact primal coordinates](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/counterexample/P_after_exact.csv)
-- [Maximal-face cycles](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/counterexample/face_cycles.json)
-- [True edges](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/counterexample/true_edges.csv)
-- [Complete exact mechanics ledger](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/counterexample/mechanics_exact.json), SHA-256 `3ec50fd84b6095b8f97075d4ce7896907916b0c5c364471f2018f78eefa7df25`
+- Post-wall finite source (`postwall_exact_source.json`), SHA-256 `420d21093f1a3c157d6dba7e590ba48f9ea4209d3583490506f7a665391dbaf0`
+- Exact dual coordinates (`Q_after_exact.csv`)
+- Exact primal coordinates (`P_after_exact.csv`)
+- Maximal-face cycles (`face_cycles.json`)
+- True edges (`true_edges.csv`)
+- Complete exact mechanics ledger (`mechanics_exact.json`), SHA-256 `3ec50fd84b6095b8f97075d4ce7896907916b0c5c364471f2018f78eefa7df25`
 
 ## Parameter-free contradiction for the claimed final belt
 
@@ -194,7 +194,7 @@ not `S=1`. If the actual final hull adds another `5003` neighbour to destroy tha
 
 ## Artifact and BL17 audit
 
-None of the twelve orphan-named winner artifacts was accessible for byte comparison: no winner ZIP, receipt, report, transcript, exact source, row-star graph, chronology, transition ball, perturbation certificate, response certificate, OBJ, or STL. The recovered Markdown itself provides no archive/source/manifest/mesh hashes and omits `alpha_star`, the three belt depths, and the deterministic search ordering. The accessible [artifact audit](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/audit/artifact_availability_audit.json) records these searches and the separate `J56_build.log` failure.
+None of the twelve orphan-named winner artifacts was accessible for byte comparison: no winner ZIP, receipt, report, transcript, exact source, row-star graph, chronology, transition ball, perturbation certificate, response certificate, OBJ, or STL. The recovered Markdown itself provides no archive/source/manifest/mesh hashes and omits `alpha_star`, the three belt depths, and the deterministic search ordering. The accessible artifact audit (`artifact_availability_audit.json`) records these searches and the separate `J56_build.log` failure.
 
 `J56_BL17_two_boundary_return20_exact_NONWINNER` is rigorously separate:
 
@@ -221,11 +221,11 @@ The final clean replay terminates with
 
 Verifier links:
 
-- [Exact independent falsifier](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/verifier/verify_exact_orphan_falsification.py)
-- [Independent GMP all-triples verifier](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/verifier/verify_exact_hull_gmp.cpp)
-- [Mesh/parity verifier](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/verifier/verify_mesh.py)
-- [Watertight OBJ](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/mesh/postwall_counterexample.obj), SHA-256 `503a08df7e95aa8e6d79765bb722ce3f3f5417985cc13f11e6df9f1e614ae392`
-- [Watertight STL](sandbox:/mnt/data/Bright_Harbor_30_J56_TB9_orphan_falsification_exact/mesh/postwall_counterexample.stl), SHA-256 `a88b8218400626a6687229ec83050a7c4ec14ce0b9e769bb8e5d8fab63d892f8`
+- Exact independent falsifier (`verify_exact_orphan_falsification.py`)
+- Independent GMP all-triples verifier (`verify_exact_hull_gmp.cpp`)
+- Mesh/parity verifier (`verify_mesh.py`)
+- Watertight OBJ (`postwall_counterexample.obj`), SHA-256 `503a08df7e95aa8e6d79765bb722ce3f3f5417985cc13f11e6df9f1e614ae392`
+- Watertight STL (`postwall_counterexample.stl`), SHA-256 `a88b8218400626a6687229ec83050a7c4ec14ce0b9e769bb8e5d8fab63d892f8`
 
 The display mesh has 18 vertices, 32 triangles, 48 triangulated edges, Euler characteristic two, coherent positive orientation, every edge multiplicity two, exact-source vertex parity, and OBJ/STL triangle parity. Display diagonals are not used as true edges in the mechanics audit.
 

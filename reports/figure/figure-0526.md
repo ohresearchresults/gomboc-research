@@ -36,7 +36,7 @@ RN36 is the actual uniformly filled V40/E114/F76 strict121 body, with Qbars empt
 X = [8,20,31,36,37,38,39].
 ```
 
-The complement is `Y={0,...,39}\X`. The parent’s complete P7/cut35 landscape and actual mass are in the supplied literal result. :contentReference[oaicite:0]{index=0}
+The complement is `Y={0,...,39}\X`. The parent’s complete P7/cut35 landscape and actual mass are in the supplied literal result.
 
 ## 1. Exact two-cap cover of the whole P7 component
 
@@ -105,7 +105,7 @@ left numerators  = [37944418,44069765]
 right numerators = [33455325,14592729,33966129].
 ```
 
-Both sides sum to W and give the same point. Therefore no strict single affine cut can remove all X and retain all Y. This lower bound applies irrespective of centroid translation and invertible affine reparameterization while those material locations and side roles persist. The two explicit cuts above give the matching upper bound. The parent’s stronger independent-cube statement remains a separate result; it is not needed for this cover-number proof. :contentReference[oaicite:1]{index=1}
+Both sides sum to W and give the same point. Therefore no strict single affine cut can remove all X and retain all Y. This lower bound applies irrespective of centroid translation and invertible affine reparameterization while those material locations and side roles persist. The two explicit cuts above give the matching upper bound. The parent’s stronger independent-cube statement remains a separate result; it is not needed for this cover-number proof.
 
 The nomination stage examined all127 nonempty packet subsets with bounded-normal linear programs. It produced49 positive-margin subset nominations and18 complementary partition pairs. Those finite LP counts are not an exclusion theorem. The exact extrema and positive convex identity, rather than solver statuses, establish cover number two.
 

@@ -23,7 +23,7 @@ The remaining stable/saddle packet is still deep. Its distance-ratio barrier is 
 
 ## 2. Source authority and what was actually executed
 
-I recovered the journal's ten-file, 47,195-byte R83/AFF83 source capsule with SHA-256 `6d9c0d51af19b83810077f3276db5445892e3277c62442fa581c6cd6cc182416`, and executed its complete replay. Its final marker was `SQ24_GU22_OBSTRUCTIONS_R83_AFF83_ALL_FOUR_FULL_EXACT_AUDITS_PASS`. That marker certifies the parent nonwinner classes, not 110. The literal capsule and the late journal distinguish the R83/AFF83 architecture from the excluded old envelope. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+I recovered the journal's ten-file, 47,195-byte R83/AFF83 source capsule with SHA-256 `6d9c0d51af19b83810077f3276db5445892e3277c62442fa581c6cd6cc182416`, and executed its complete replay. Its final marker was `SQ24_GU22_OBSTRUCTIONS_R83_AFF83_ALL_FOUR_FULL_EXACT_AUDITS_PASS`. That marker certifies the parent nonwinner classes, not 110. The literal capsule and the late journal distinguish the R83/AFF83 architecture from the excluded old envelope.
 
 The completed new construction below needs no historical archive, optimizer state, or missing parent coordinates. Its seven-file inline capsule contains every input and helper required to reconstruct both new bodies, the finite contact cells, the moment calculations, and both exhaustive auditors.
 
@@ -312,9 +312,9 @@ The most useful next construction should begin from MN41 and jointly move the cl
 
 ## 9. Portable artifacts
 
-[Exact constructions, complete audits, cells, source and cold-replay receipt](sandbox:/mnt/data/SQ24_NP37_MN41_EXACT.zip): **436,226 bytes**, SHA-256 `63a9d90b6f14a9fc897cb96601c96926de6dd9d9ddca141fb089b6a0227ac33a`. The archive contains 21 files, with all listed payloads checked against its manifest.
+Exact constructions, complete audits, cells, source and cold-replay receipt (`SQ24_NP37_MN41_EXACT.zip`): **436,226 bytes**, SHA-256 `63a9d90b6f14a9fc897cb96601c96926de6dd9d9ddca141fb089b6a0227ac33a`. The archive contains 21 files, with all listed payloads checked against its manifest.
 
-[Discovery source, parent recovery, logs and explicitly unverified floating checkpoint](sandbox:/mnt/data/SQ24_NP37_MN41_RESEARCH.zip): **1,121,456 bytes**, SHA-256 `be5d76040aae1ca372718228f5d5b15e72196368b666e6346f0d431a68c2b103`. Its 73 files include a checked payload manifest. It supplements the exact handoff; its numerical proposals are not additional certified bodies.
+Discovery source, parent recovery, logs and explicitly unverified floating checkpoint (`SQ24_NP37_MN41_RESEARCH.zip`): **1,121,456 bytes**, SHA-256 `be5d76040aae1ca372718228f5d5b15e72196368b666e6346f0d431a68c2b103`. Its 73 files include a checked payload manifest. It supplements the exact handoff; its numerical proposals are not additional certified bodies.
 
 The cold-replay receipt SHA-256 is `81297985e24e45662462ae6fd316668a32d62da58580aab9ddd314ce8c34b995`. The archives are optional for the exact constructions: the complete source is embedded next.
 

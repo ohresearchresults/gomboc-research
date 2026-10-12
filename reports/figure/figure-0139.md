@@ -251,13 +251,13 @@ PASS
 
 ## Artifacts
 
-- [Complete Markdown handoff](sandbox:/mnt/data/Steady_Willow_49_core_extension/RESULT.md)
-- [Exact new chamber ledger](sandbox:/mnt/data/Steady_Willow_49_core_extension/remainder_open_222_chamber.json)
-- [Independent exact verifier](sandbox:/mnt/data/Steady_Willow_49_core_extension/verify_remainder_exact.py)
-- [Complete self-contained bundle](sandbox:/mnt/data/Steady_Willow_49_core_extension.zip)
-- [Bundle SHA-256](sandbox:/mnt/data/Steady_Willow_49_core_extension.zip.sha256)
-- [Watertight OBJ](sandbox:/mnt/data/Steady_Willow_49_core_extension/metric_midpoint.obj)
-- [Watertight STL](sandbox:/mnt/data/Steady_Willow_49_core_extension/metric_midpoint.stl)
+- Complete Markdown handoff (`RESULT.md`)
+- Exact new chamber ledger (`remainder_open_222_chamber.json`)
+- Independent exact verifier (`verify_remainder_exact.py`)
+- Complete self-contained bundle (`Steady_Willow_49_core_extension.zip`)
+- Bundle SHA-256 (`Steady_Willow_49_core_extension.zip.sha256`)
+- Watertight OBJ (`metric_midpoint.obj`)
+- Watertight STL (`metric_midpoint.stl`)
 
 ## Most useful continuation
 

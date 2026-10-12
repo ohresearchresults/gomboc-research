@@ -8,7 +8,7 @@ AI research report · 2026-08-30 UTC
 
 ## Literal verdict
 
-**No strict own-centred `(S,U,H)=(1,1,0)` metric image was certified.** The required target is a literal finite uniform-density polyhedron evaluated at its own exact volume centroid, with exhaustive positive-margin face/vertex/true-edge verification and a materialized mesh; wall points and auxiliary centres do not qualify. :contentReference[oaicite:0]{index=0}
+**No strict own-centred `(S,U,H)=(1,1,0)` metric image was certified.** The required target is a literal finite uniform-density polyhedron evaluated at its own exact volume centroid, with exhaustive positive-margin face/vertex/true-edge verification and a materialized mesh; wall points and auxiliary centres do not qualify.
 
 What *was* completed is an exact multidimensional nonwinner atlas plus a new exact closure of the formerly unordered connector:
 
@@ -19,7 +19,7 @@ What *was* completed is an exact multidimensional nonwinner atlas plus a new exa
 - an exact full-dimensional `S>=2` tube from `B8R_ridge_mm` to the isolated `B8_alt` chamber;
 - four new exact full-dimensional orthant boxes around the closest subsequent two-death pair, again all with `S>=2`.
 
-The recovered exact atlas’s literal verdict is likewise no winner; every primary box has at least two stable faces, and it explicitly avoids claiming global exclusion of the unresolved compact SPD core. :contentReference[oaicite:1]{index=1}
+The recovered exact atlas’s literal verdict is likewise no winner; every primary box has at least two stable faces, and it explicitly avoids claiming global exclusion of the unresolved compact SPD core.
 
 ## Fixed exact body and hard centring
 
@@ -63,7 +63,7 @@ h_i(K)=A^(-T)(q_i-a_*),
 v_f(K)=A y_f/(1-a_*·y_f),
 ```
 
-where each exact baseline `y_f` is reconstructed from its three active support rows. The source bundle contains all 8,644 active triples, all 4,324 maximal-face cycles, all 12,966 true edges, and all 17,284 boundary triangles. :contentReference[oaicite:2]{index=2}
+where each exact baseline `y_f` is reconstructed from its three active support rows. The source bundle contains all 8,644 active triples, all 4,324 maximal-face cycles, all 12,966 true edges, and all 17,284 boundary triangles.
 
 ## Exact trace-one wall arrangement
 
@@ -89,7 +89,7 @@ A face is stable iff every outgoing `S_ij` is positive. A vertex is unstable iff
 S_ij>0, S_ji>0, W_fg>0, W_gf>0.
 ```
 
-Thus a primary cell audit contains 51,864 directed signs and the complete four-component ledger for 12,966 actual edges, not triangulation diagonals. :contentReference[oaicite:3]{index=3}
+Thus a primary cell audit contains 51,864 directed signs and the complete four-component ledger for 12,966 actual edges, not triangulation diagonals.
 
 ## The four requested certificate failures
 
@@ -100,7 +100,7 @@ The assignment’s two joint transitions were resolved exactly, not serially:
 | `O_paired_failure_ridge` | `4633: 796→760@e2316`; `21776: 3618→3619@e10888` | 4 | `(2,2,2)` | stable `{1512,2791}`, unstable `{4409,3885}`, saddles `{2108,10784}` |
 | `B_paired_failure_ridge` | `12042: 1984→2055@e6021`; `17162: 2847→2883@e8581` | 4 | `(2,2,2)` | stable `{1309,2974}`, unstable `{7335,2514}`, saddles `{5807,6810}` |
 
-Only the two named primitives vary within each initial plaque; all other 51,862 directed signs are fixed. Every one-wall edge is count- and feature-neutral. Therefore the four first certificate failures are mechanically inert and cannot be the desired two-death chamber. :contentReference[oaicite:4]{index=4}
+Only the two named primitives vary within each initial plaque; all other 51,862 directed signs are fixed. Every one-wall edge is count- and feature-neutral. Therefore the four first certificate failures are mechanically inert and cannot be the desired two-death chamber.
 
 ## Exact multidimensional atlas
 
@@ -141,7 +141,7 @@ B6_mmm  (2,3,3), stable {1204,3079}
 B7_mmm  (2,2,2), stable {1169,3114}.
 ```
 
-It moves both stable components in lockstep but never opens `S=1`; the O-side plaques proliferate the Euler-neutral block instead. :contentReference[oaicite:5]{index=5}
+It moves both stable components in lockstep but never opens `S=1`; the O-side plaques proliferate the Euler-neutral block instead.
 
 ## Strongest exact primary endpoint
 
@@ -188,11 +188,11 @@ Its complete sign-payload SHA-256 is
 df82fabfe44e9974439aa81f4ec2c058e00d394514c7ecad1dd766f18be08274.
 ```
 
-The deterministic H/V reconstruction and matching nonwinner OBJ/STL contain 4,324 H rows, 8,644 vertices, 12,966 true edges and 17,284 boundary triangles; every triangulated boundary edge has multiplicity two. :contentReference[oaicite:6]{index=6}
+The deterministic H/V reconstruction and matching nonwinner OBJ/STL contain 4,324 H rows, 8,644 vertices, 12,966 true edges and 17,284 boundary triangles; every triangulated boundary edge has multiplicity two.
 
 ## New exact result: the formerly unordered `B8R→B8_alt` connector is entirely `S>=2`
 
-The inherited result had an exact isolated `B8_alt` box but no ordered all-wall connector from `B8R_ridge_mm`; that was its first unclassified boundary. :contentReference[oaicite:7]{index=7}
+The inherited result had an exact isolated `B8_alt` box but no ordered all-wall connector from `B8R_ridge_mm`; that was its first unclassified boundary.
 
 I replaced the unnecessary root-ordering obligation by a stronger region certificate. The existing exact connector-domain object covers the complete affine centre segment
 
@@ -252,15 +252,15 @@ A second nearby numerical wall pair, `8342 (1378→1413)` with `17287 (2903→28
 
 ## Verification and artifact boundary
 
-The recovered clean-room verifier reconstructs the support/vertex lattice, positive projective denominators, actual maximal faces and true edges; it verifies all 11 plaques, all 76 orthants, all 112 adjacency edges, 289 exact nonmembership checks per box, every complete edge cone, disjoint-box volumes, and the endpoint OBJ/STL, and its transcript ends in `PASS`. :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}
+The recovered clean-room verifier reconstructs the support/vertex lattice, positive projective denominators, actual maximal faces and true edges; it verifies all 11 plaques, all 76 orthants, all 112 adjacency edges, 289 exact nonmembership checks per box, every complete edge cone, disjoint-box volumes, and the endpoint OBJ/STL, and its transcript ends in `PASS`.
 
 The compact transfer archive contains the exact source generator/topology/wall system, the atlas ledgers and ridge equations, the strongest endpoint H/V/incidence/OBJ/STL, the new connector certificate and verifier, the four exact `8129/17494` orthant boxes and verifier, source hashes, and the exact continuation seed:
 
-- [Download the exact Sharp Maple 55 archive](sandbox:/mnt/data/Sharp_Maple_55_exact_joint_SPD_atlas.zip)
-- [Read the standalone handoff](sandbox:/mnt/data/sharp_maple55/SHARP_MAPLE55_HANDOFF.md)
-- [Connector stable-subset certificate](sandbox:/mnt/data/sharp_maple55/CONNECTOR_STABLE_CERTIFICATE.json)
-- [Exact `8129/17494` orthant certificate](sandbox:/mnt/data/sharp_maple55/PAIR_8129_17494_EXACT_ORTHANTS.json)
-- [Strongest endpoint exact certificate](sandbox:/mnt/data/sharp_maple55/STRONGEST_ENDPOINT_EXACT_CERTIFICATE.json)
+- Download the exact Sharp Maple 55 archive (`Sharp_Maple_55_exact_joint_SPD_atlas.zip`)
+- Read the standalone handoff (`SHARP_MAPLE55_HANDOFF.md`)
+- Connector stable-subset certificate (`CONNECTOR_STABLE_CERTIFICATE.json`)
+- Exact `8129/17494` orthant certificate (`PAIR_8129_17494_EXACT_ORTHANTS.json`)
+- Strongest endpoint exact certificate (`STRONGEST_ENDPOINT_EXACT_CERTIFICATE.json`)
 
 Archive SHA-256:
 

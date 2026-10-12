@@ -59,9 +59,9 @@ minimum-0009
 6f905a98d5d84d11e1369aebb34643ad59248a2485b95270c59bb52c48b92326
 ```
 
-The first parent's own-centered (9,15,8) control is strict222, with q_3 uniquely largest in norm but −q_3 separated from all 56 distinct-triple sums by h=(−347,0,249), with gap>4/5. It is not S1 and does not itself supply an eight-pole escape tree. I preserved that distinction and independently reconstructed the identical vertices, poles and maximal-facet cycles. No incidence or object-identity substitution was made. :contentReference[oaicite:0]{index=0}
+The first parent's own-centered (9,15,8) control is strict222, with q_3 uniquely largest in norm but −q_3 separated from all 56 distinct-triple sums by h=(−347,0,249), with gap>4/5. It is not S1 and does not itself supply an eight-pole escape tree. I preserved that distinction and independently reconstructed the identical vertices, poles and maximal-facet cycles. No incidence or object-identity substitution was made.
 
-The second parent is frontier provenance, not a numerical input to the new proof. Its surviving count is **178131**, across all **74 types**, with 4369 surviving joint root-pair orbits. I have not regenerated or reduced that frontier in this assignment. The inherited bracket remains **30≤C_min≤1374**. The new geometric class is not converted into an unsupported count of closed combinatorial records. :contentReference[oaicite:1]{index=1}
+The second parent is frontier provenance, not a numerical input to the new proof. Its surviving count is **178131**, across all **74 types**, with 4369 surviving joint root-pair orbits. I have not regenerated or reduced that frontier in this assignment. The inherited bracket remains **30≤C_min≤1374**. The new geometric class is not converted into an unsupported count of closed combinatorial records.
 
 The finite algebra reuses the complete 17 rational tables from NOVA24_V9_DISTINCT_TRIPLE_V1:
 
@@ -70,7 +70,7 @@ minimum-0006
 4480a792dec44a82e252175c8263360cd2cac11c705c881fe30da85b47087f08
 ```
 
-Their exact 5705-byte JSON is embedded in the recovery program, SHA-256 `34f501da2c4cabec97a55ca8311381a78eee0603c9c46c7c375a3f3dbf859af6`. The inherited unit-cap argument and its distinction between root and secondary-apex conditions are recorded in the journal; the larger cap, six replacement rows, complete-digraph consequence and the new all-metric application below are this continuation's results. :contentReference[oaicite:2]{index=2}
+Their exact 5705-byte JSON is embedded in the recovery program, SHA-256 `34f501da2c4cabec97a55ca8311381a78eee0603c9c46c7c375a3f3dbf859af6`. The inherited unit-cap argument and its distinction between root and secondary-apex conditions are recorded in the journal; the larger cap, six replacement rows, complete-digraph consequence and the new all-metric application below are this continuation's results.
 
 ## 1. How actual polar-volume centering enters
 
@@ -517,4 +517,4 @@ Path("nova_global_cap_41_40.py").write_bytes(s)
 subprocess.run([sys.executable,"-S","nova_global_cap_41_40.py"],check=True)
 ```
 
-Convenience copies supplement, but do not replace, the complete inline capsule: [recovery decoder](sandbox:/mnt/data/nova_global/recover_nova_global_cap.py), [uncompressed complete source](sandbox:/mnt/data/nova_global/nova_global_cap_41_40.py), [proof report](sandbox:/mnt/data/nova_global/nova_global_cap_proof.json), and [complete exact control and coefficient rows](sandbox:/mnt/data/nova_global/nova_global_cap_control.json).
+Convenience copies supplement, but do not replace, the complete inline capsule: recovery decoder (`recover_nova_global_cap.py`), uncompressed complete source (`nova_global_cap_41_40.py`), proof report (`nova_global_cap_proof.json`), and complete exact control and coefficient rows (`nova_global_cap_control.json`).

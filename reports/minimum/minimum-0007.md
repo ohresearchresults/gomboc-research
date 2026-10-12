@@ -17,7 +17,7 @@ AI research report · 2026-09-07 UTC · [Export notes](../../catalog/coverage.md
 
 The new lifted control is not homogeneous mono-unstable: its exact reference census is `(S,U,H)=(2,1,1)`, whereas its own-centroid census is `(2,9,9)`. Moreover, its actual boundary incidence already rules out zero moment with arbitrary nonnegative root-cone weights. Consequently it establishes the insufficiency of rank, convexity, genuine escape edges, and unrestricted triple identities; it does **not** establish that true-volume coupling remains indispensable after imposing every actual-facet/apex constraint.
 
-**The universal homogeneous lower bound remains V≥9, not V≥10.** The inherited joint bracket remains `30≤C_min≤1374`, and the first joint boundary `V9,E15,F8` is not closed here. The new auxiliary hull has `V9,E21,F14`, not the joint boundary. The V≥9 theorem and its stated boundary are inherited from the literal parent; the facet-side F≥8 implication is its separate, correctly centered polar-inclusion result. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+**The universal homogeneous lower bound remains V≥9, not V≥10.** The inherited joint bracket remains `30≤C_min≤1374`, and the first joint boundary `V9,E15,F8` is not closed here. The new auxiliary hull has `V9,E21,F14`, not the joint boundary. The V≥9 theorem and its stated boundary are inherited from the literal parent; the facet-side F≥8 implication is its separate, correctly centered polar-inclusion result.
 
 ## 1. Source authority and exact parent preservation
 
@@ -27,7 +27,7 @@ I read all three named immutable parent payloads through their ends. Their ident
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-All three declared hashes were reproduced from their serialized version-2 JSON envelopes. No conflicting geometric identity was found. I also extracted and replayed the literal NOVA24 recovery source: 19,433 bytes, SHA-256 `4c15c82965977605609acbbce07ec9322d1f9491792f34c5a2c1310f992171fe`. Its 595 shifted positive-definite matrices and complete 5,040-tree/115-orbit coverage passed, reproducing its 5,705-byte table hash `34f501da2c4cabec97a55ca8311381a78eee0603c9c46c7c375a3f3dbf859af6`. The parent supplies those certificates and the complete replay program. :contentReference[oaicite:2]{index=2}
+All three declared hashes were reproduced from their serialized version-2 JSON envelopes. No conflicting geometric identity was found. I also extracted and replayed the literal NOVA24 recovery source: 19,433 bytes, SHA-256 `4c15c82965977605609acbbce07ec9322d1f9491792f34c5a2c1310f992171fe`. Its 595 shifted positive-definite matrices and complete 5,040-tree/115-orbit coverage passed, reproducing its 5,705-byte table hash `34f501da2c4cabec97a55ca8311381a78eee0603c9c46c7c375a3f3dbf859af6`. The parent supplies those certificates and the complete replay program.
 
 Most importantly, the new standalone recovery program regenerates the exact **627-byte** original planar-control JSON, with SHA-256
 
@@ -35,7 +35,7 @@ Most importantly, the new standalone recovery program regenerates the exact **62
 fc768d2c1916da5e3fc91b521b2a74720bb5c99dfa1b078e944ceeb39359b73b
 ```
 
-before checking any successor. Its original two coordinates, labels, root, parent array, reference origin, sum polygon, and per-apex guards are unchanged. The parent states that control and its rank-two limitation explicitly. :contentReference[oaicite:3]{index=3}
+before checking any successor. Its original two coordinates, labels, root, parent array, reference origin, sum polygon, and per-apex guards are unchanged. The parent states that control and its rank-two limitation explicitly.
 
 ## 2. Exact full-dimensional sharpness control
 
@@ -110,7 +110,7 @@ They are positive, sum to one, and their weighted triple sum is exactly `−v0`.
 
 A stronger finite check puts weight `1/10^12` on each of the other 52 triples for each apex and resolves the four selected coefficients to correct both total weight and all three coordinates. Every resulting one of the 56 weights is strictly positive. The code verifies all nine identities exactly.
 
-These are **independently chosen apex-specific weights on unrestricted triples**. They are not asserted to be boundary triangles, a common affine incidence family, or actual solid-volume weights. The actual homogeneous cone identity requires actual facets and their actual tetrahedral volumes; that distinction is the parent's premise as well. :contentReference[oaicite:4]{index=4}
+These are **independently chosen apex-specific weights on unrestricted triples**. They are not asserted to be boundary triangles, a common affine incidence family, or actual solid-volume weights. The actual homogeneous cone identity requires actual facets and their actual tetrahedral volumes; that distinction is the parent's premise as well.
 
 ### 2.3 Actual volume and full equilibrium audit
 
@@ -291,7 +291,7 @@ The exploration first sought small integer lifts of the exact parent and then te
 
 The global nine-vertex problem remains open here. In particular, I have not proved infeasibility for every nine-vertex graph, every escape tree, or every projected shape outside the certified domain. I have not shown that the all-actual-apex facet-containment relaxation is feasible at nine, nor that a common affine incidence family can support U1 there. These are the next distinctions that need exact controls or exclusions.
 
-For a volume-complete continuation, the inherited common operator `LTL+L=4J` plus genuine-edge cross-slack balances is a valid route; the balances, rather than arbitrary triangle weights, restore actual cone volumes. Its compatible Gram coupling keeps all mechanical tests in one physical metric. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6} The new projection theorem offers an alternative necessary condition that can be tested before those larger systems: use endogenous projection planes and linear directions, and certify B_N>0 over coordinate boxes. Merely adding rank constraints or tuning heights over the inherited nine-gon, even with the stated independent XY perturbations, is now rigorously closed.
+For a volume-complete continuation, the inherited common operator `LTL+L=4J` plus genuine-edge cross-slack balances is a valid route; the balances, rather than arbitrary triangle weights, restore actual cone volumes. Its compatible Gram coupling keeps all mechanical tests in one physical metric. The new projection theorem offers an alternative necessary condition that can be tested before those larger systems: use endogenous projection planes and linear directions, and certify B_N>0 over coordinate boxes. Merely adding rank constraints or tuning heights over the inherited nine-gon, even with the stated independent XY perturbations, is now rigorously closed.
 
 No new homogeneous upper witness, V≥10 theorem, F≥9 theorem, minimum-complexity determination, or publication-priority claim is made.
 
@@ -642,4 +642,4 @@ print('REPORT_BYTES_SHA256',len(raw),hashlib.sha256(raw).hexdigest())
 print('NOVA24_RANK3_AND_PROJECTION_MASS_RECOVERY_PASS')
 ```
 
-Supplemental convenience copies: [complete runnable recovery source](sandbox:/mnt/data/nova24_next/nova24_rank3_projection_recover.py) and [exact generated report](sandbox:/mnt/data/nova24_next/nova24_rank3_projection_report.json). The literal source above, not these links, is the durable reconstruction authority.
+Supplemental convenience copies: complete runnable recovery source (`nova24_rank3_projection_recover.py`) and exact generated report (`nova24_rank3_projection_report.json`). The literal source above, not these links, is the durable reconstruction authority.

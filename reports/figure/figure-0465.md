@@ -10,7 +10,7 @@ AI research report · 2026-09-22 UTC · [Export notes](../../catalog/coverage.md
 
 No new geometry is promoted. I read the supplied `research-journal.md` through EOF (737 lines, 133726 bytes; SHA-256 `660ca06410a6f27dfa8a4027a51c5214780fb275755c4935da1fcead546b76ba`). The authoritative parent is `figure-0462`, SHA-256 `f67c70c77ca18fb1394eedeb7eb8f3cae58d0c0d4e7ee650e2cd1cdfebe7a942`.
 
-There is a source-delivery defect in the literal parent payload as supplied here. It says the exact integer input, all maximal faces/edges and exact centroid are in `R30_ENDPOINT_CERTS.json`, and later says “the complete literal recovery capsule is the following Python source”, but the file reaches EOF after the recovery commands/unit list: the 51386-byte `RECOVER_R30_HANDOFF.py` body, compressed payload, the seven recovered units, and the upstream 41-unit immutable-parent pack are not present. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} Therefore I cannot reconstruct the 2887-byte exact lead halfspace input, enumerate its complete face cycles, or execute a new exact mass/mechanics audit without inventing missing bytes. This is a transport limitation, not negative evidence about the NW37 family.
+There is a source-delivery defect in the literal parent payload as supplied here. It says the exact integer input, all maximal faces/edges and exact centroid are in `R30_ENDPOINT_CERTS.json`, and later says “the complete literal recovery capsule is the following Python source”, but the file reaches EOF after the recovery commands/unit list: the 51386-byte `RECOVER_R30_HANDOFF.py` body, compressed payload, the seven recovered units, and the upstream 41-unit immutable-parent pack are not present. Therefore I cannot reconstruct the 2887-byte exact lead halfspace input, enumerate its complete face cycles, or execute a new exact mass/mechanics audit without inventing missing bytes. This is a transport limitation, not negative evidence about the NW37 family.
 
 The strongest new result is instead an exact combinatorial obstruction/credit calculation tailored to the final `E<=249` constraint. It materially changes which NW37 checkpoint is attractive under zero headroom.
 
@@ -61,7 +61,7 @@ The low-edge `C270` route is qualitatively different. For `NW37_R30_MONO47_DESCE
 
 ## Exact next test on the C498 lead: whole-packet linear separability
 
-The lead’s certified physical packet is connected, has `k=36,b=32,r=3`, and dies on `21--23`. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3} A single exact cap that removes **exactly** this packet is possible on the fixed current vertices iff
+The lead’s certified physical packet is connected, has `k=36,b=32,r=3`, and dies on `21--23`. A single exact cap that removes **exactly** this packet is possible on the fixed current vertices iff
 
 `conv(X) ∩ conv(V\X) = empty`.
 

@@ -12,13 +12,13 @@ AI research report · 2026-09-07 UTC · [Export notes](../../catalog/coverage.md
 
 Of the inherited **1,994,223** surviving complementary tree-pair branches, **1,816,092 are now excluded** and **178,131 remain**. The exclusion proportion is 91.0676489% of these labeled branches, not of geometric realizations. Exactly **three complete joint stable-facet/unstable-vertex root-pair orbits** are closed. All **74 graph types** still have survivors, and **4,369 of 4,372 root-pair orbits** remain. The canonical bound is unchanged: **30 ≤ C_min ≤ 1374**. No homogeneous C30 realization, entire graph exclusion, F≥9 theorem, or C≥32 theorem is claimed.
 
-The new proof uses **367 reusable rational shifted-positive-definite matrices**, plus two inherited four-deep matrices independently checked here. It allows different valid triangulations of nonsimplicial facets while retaining **one common separating direction for the entire actual root-volume cone**. The recovered predecessor's three individual graph0 branches are also excluded by the new predicate; they are not the three whole root-pair orbits reported below. The predecessor explicitly distinguished its three branches from whole root or graph closures. :contentReference[oaicite:0]{index=0}
+The new proof uses **367 reusable rational shifted-positive-definite matrices**, plus two inherited four-deep matrices independently checked here. It allows different valid triangulations of nonsimplicial facets while retaining **one common separating direction for the entire actual root-volume cone**. The recovered predecessor's three individual graph0 branches are also excluded by the new predicate; they are not the three whole root-pair orbits reported below. The predecessor explicitly distinguished its three branches from whole root or graph closures.
 
 A second exact result prevents overinterpreting the remaining search: a labeled graph3 rank-two configuration satisfies **all 104 combinations of apex and nonincident-facet triangulations**, with strictly positive exact independent cone weights. A rank-three lift satisfies all nine fixed-fan apex systems but violates a required maximal-facet coplanarity. These are relaxation controls, not actual homogeneous bodies.
 
 ## 1. Exact coverage
 
-The counting convention is inherited unchanged: a representative of each joint root-pair orbit is fixed, but tree-pair equivalence under its stabilizer is not factored out. The original complete catalogue and its necessary filters are the source of the initial 1,994,223 count. :contentReference[oaicite:1]{index=1}
+The counting convention is inherited unchanged: a representative of each joint root-pair orbit is fixed, but tree-pair equivalence under its stabilizer is not factored out. The original complete catalogue and its necessary filters are the source of the initial 1,994,223 count.
 
 | Unit | Before this screen | Excluded | Remaining |
 |---|---:|---:|---:|
@@ -68,7 +68,7 @@ Choose a genuine triangulation of each actual maximal facet not containing u. Co
 `Σ_T w_T (v_u + Σ_(i∈T) v_i) = 4g(P) = 0`,
 `w_T > 0`, `Σ_T w_T = 1`.
 
-This includes nonsimplicial facets; their triangulation diagonals never become escape-tree edges. It is exactly the physical cone identity supplied by the parents. :contentReference[oaicite:2]{index=2}
+This includes nonsimplicial facets; their triangulation diagonals never become escape-tree edges. It is exactly the physical cone identity supplied by the parents.
 
 It therefore suffices to exhibit one vector d for which every triangle in one such complete triangulation has
 
@@ -99,7 +99,7 @@ Their positive leading principal determinants are, respectively,
 `(75,5504,333632,15370240,434778112,56623104)` and
 `(75,5504,333632,9116672,817229824,5266866176)`.
 
-The program verifies both identities and positive definiteness independently. Every other four-deep pattern is bounded by `229/256`, `217/256`, `210/256`, or `3/4`. This is the inherited lemma, not a new claim that arbitrary shallow trees cover the remaining domain. :contentReference[oaicite:3]{index=3}
+The program verifies both identities and positive definiteness independently. Every other four-deep pattern is bounded by `229/256`, `217/256`, `210/256`, or `3/4`. This is the inherited lemma, not a new claim that arbitrary shallow trees cover the remaining domain.
 
 ### 2.2 New reusable exact matrices
 
@@ -137,9 +137,9 @@ The same subtree certificates therefore apply. If r belongs to T, the other two 
 
 For each fixed direction d, a polygon-interval dynamic program tests every admissible diagonal split and returns a full triangulation precisely when all its triangles have positive certificates. Each actual nonincident maximal facet must admit such a triangulation using the **same d**. This is existential selection of a valid physical integration triangulation, not replacement of a face by independently chosen triples.
 
-The copied, hash-pinned `e15_graphs.py` regenerates the entire catalogue from the tetrahedral sphere. It enumerates all one-, two-, and three-triangle disk replacements, obtaining the 1,2,5,14 maximal planar types at 5,6,7,8 dual vertices, then all allowed edge deletions, obtaining 38,76,74 types at 17,16,15 edges. A minimum-degree-3/4/5 deletion argument supplies completeness of the maximal-sphere step; triangulating every target polygonal face without new vertices supplies completeness of edge deletion. The program checks sphere links, opposite edge uses, facet intersections, Euler, and connectivity after deletion of up to two vertices. It explicitly enumerates all graph automorphisms, all root-pair orbits and all dual spanning trees. :contentReference[oaicite:4]{index=4}
+The copied, hash-pinned `e15_graphs.py` regenerates the entire catalogue from the tetrahedral sphere. It enumerates all one-, two-, and three-triangle disk replacements, obtaining the 1,2,5,14 maximal planar types at 5,6,7,8 dual vertices, then all allowed edge deletions, obtaining 38,76,74 types at 17,16,15 edges. A minimum-degree-3/4/5 deletion argument supplies completeness of the maximal-sphere step; triangulating every target polygonal face without new vertices supplies completeness of edge deletion. The program checks sphere links, opposite edge uses, facet intersections, Euler, and connectivity after deletion of up to two vertices. It explicitly enumerates all graph automorphisms, all root-pair orbits and all dual spanning trees.
 
-The inherited filters reject dual height≤4 trees and height-5 trees with a sole root child, and the stated primal four-deep cases. Every other pair is subjected to the new exact predicate. The journal's proved slope-matching theorem supplies existential completeness of complementary sign-compatible trees on an actual strict110 body; no fixed matching is silently imposed. :contentReference[oaicite:5]{index=5}
+The inherited filters reject dual height≤4 trees and height-5 trees with a sole root child, and the stated primal four-deep cases. Every other pair is subjected to the new exact predicate. The journal's proved slope-matching theorem supplies existential completeness of complementary sign-compatible trees on an actual strict110 body; no fixed matching is silently imposed.
 
 Consequently every actual C30 candidate must have at least one record in the new 178,131-record remainder. Zero remaining records at one joint root-pair representative proves exclusion of its entire orbit.
 
@@ -235,7 +235,7 @@ The supplied conceptual parents are:
 [Encoded source block omitted; the code in this passage is incomplete.]
 
 
-Their roles remain distinct: actual V≥9, reflection-based F≥8, and the actual-volume/four-deep foundation. No polar-centroid substitution is used. :contentReference[oaicite:6]{index=6}
+Their roles remain distinct: actual V≥9, reflection-based F≥8, and the actual-volume/four-deep foundation. No polar-centroid substitution is used.
 
 The supplied full journal used here has 2,150,394 bytes and SHA-256 `9f7e61c88422983e3dc838bf7202cd18208c5dcc0a32ec58b60490748ffb3502`. There is a provenance discrepancy worth preserving: the extracted rendered parent bodies do not reproduce the supplied envelope hashes. The V9, Atlas and earlier Nova rendered bodies have respectively `(41815,b94dcc8efa2f91899075ea5d407774c63f7e3196aa7efc1a741764e838ec765b)`, `(31797,f9def19362115c4dbb967b99d637ab212d7309d8d911285351745d22a471f6b5)`, and `(31127,821e3cb40fc6b537dd147dded82b8faebd04684a9e76458cf1f193526b550229)`. I do not infer different mathematical parents from these rendered-byte differences. The exact embedded capsule source hashes actually used in the computation do match, and the complete graph catalogue reproduces its advertised bytes. No mathematical alias/incidence conflict was found.
 
@@ -529,6 +529,6 @@ ig`I8v)B$MVaVMWPPK4c#nR!T?0R6cCR`UV1y=14fh^~%eN-@vgmUDJ<v~?p#*mvooK45mZQ>JCZhM$*
 iT(fp00000f}FIH-#ssk00EJJ0o;KEi)T~4vBYQl0ssI200dcD
 ```
 
-Convenience archive: [sources, complete exact remainder, and verification ledgers](sandbox:/mnt/data/c30_raven/raven_c30_recovery.zip). The archive is 561031 bytes, SHA-256 `882ee7c9d806ec8b944b327a65de8b2e7e506251822410b6049eee43c18264d1`.
+Convenience archive: sources, complete exact remainder, and verification ledgers (`raven_c30_recovery.zip`). The archive is 561031 bytes, SHA-256 `882ee7c9d806ec8b944b327a65de8b2e7e506251822410b6049eee43c18264d1`.
 
 The remaining 178131 branches are not inferred impossible from any nonpositive solver output. The most useful continuation is a coupled actual-facet/physical-volume or primal–dual certificate on that exact remainder, rather than another independent-apex screen.

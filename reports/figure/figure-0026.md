@@ -10,9 +10,9 @@ AI research report · 2026-08-22 UTC
 
 I completed the exact-certification direction and implemented it as an executable package. I did **not** obtain a homogeneous 21-face polyhedral Gömböc: no rational halfspace list in this run passes the exact test at its own uniform-volume centroid with `(S,U,H)=(1,1,0)`. The strongest search state is instead an exact rational 21-face polytope that is `(1,1,0)` relative to a supplied auxiliary point, while its exact volume centroid gives `(18,25,41)`. It is therefore a rigorous continuation seed, not the requested final figure.
 
-This distinction follows the standard polyhedral definition: equilibrium is relative to the uniform-volume centroid; stable, saddle, and unstable equilibria lie in relative interiors of faces, edges, and vertices, respectively. :contentReference[oaicite:0]{index=0} The Conway–Domokos–Kovács 21-vertex/21-face construction that supplied the starting normals is explicitly a **0-skeleton with equal point masses**, not a homogeneous 3-skeleton. :contentReference[oaicite:1]{index=1} The v1 construction data also give the top-vertex correction `h = sin²(alpha_1) tan²(pi/k)` and the `P_(4,5)` angle row used in the reconstruction. :contentReference[oaicite:2]{index=2}
+This distinction follows the standard polyhedral definition: equilibrium is relative to the uniform-volume centroid; stable, saddle, and unstable equilibria lie in relative interiors of faces, edges, and vertices, respectively. The Conway–Domokos–Kovács 21-vertex/21-face construction that supplied the starting normals is explicitly a **0-skeleton with equal point masses**, not a homogeneous 3-skeleton. The v1 construction data also give the top-vertex correction `h = sin²(alpha_1) tan²(pi/k)` and the `P_(4,5)` angle row used in the reconstruction.
 
-The earlier transcript had already isolated the right finite objects—exact tetrahedral centroid sums and exact face/vertex tests—and the fixed-normal polar support family. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4} This result makes that route complete, adds the missing edge test, adds a complete face-lattice proof, and supplies working rational and interval verifiers.
+The earlier transcript had already isolated the right finite objects—exact tetrahedral centroid sums and exact face/vertex tests—and the fixed-normal polar support family. This result makes that route complete, adds the missing edge test, adds a complete face-lattice proof, and supplies working rational and interval verifiers.
 
 ## Exact certificate
 
@@ -199,14 +199,14 @@ This is stronger than the shared-context `t≈0.31` state, but it is not a homog
 
 ## Executable artifact
 
-- [Complete package: exact checker, rationalizer, interval verifier, search code, fixtures, and SHA-256 manifest](sandbox:/mnt/data/conway_exact_certificate.zip)
-- [README and mathematical specification](sandbox:/mnt/data/conway_exact_certificate/README.md)
-- [Exact verifier](sandbox:/mnt/data/conway_exact_certificate/verify_exact.py)
-- [Complete rational 21-halfspace auxiliary fixture](sandbox:/mnt/data/conway_exact_certificate/conway21_aux_t0370_dyadic22.json)
-- [Full exact report](sandbox:/mnt/data/conway_exact_certificate/conway21_aux_t0370_dyadic22.report.json)
-- [Auxiliary `(1,1,0)` interval-radius report](sandbox:/mnt/data/conway_exact_certificate/conway21_aux_t0370_dyadic22.aux_interval_fast.max.json)
-- [Fixed-topology continuation state](sandbox:/mnt/data/conway_exact_certificate/homotopy_t03702368768.npz)
-- [One-command regression audit](sandbox:/mnt/data/conway_exact_certificate/run_all.sh)
+- Complete package: exact checker, rationalizer, interval verifier, search code, fixtures, and SHA-256 manifest (`conway_exact_certificate.zip`)
+- README and mathematical specification (`README.md`)
+- Exact verifier (`verify_exact.py`)
+- Complete rational 21-halfspace auxiliary fixture (`conway21_aux_t0370_dyadic22.json`)
+- Full exact report (`conway21_aux_t0370_dyadic22.report.json`)
+- Auxiliary `(1,1,0)` interval-radius report (`conway21_aux_t0370_dyadic22.aux_interval_fast.max.json`)
+- Fixed-topology continuation state (`homotopy_t03702368768.npz`)
+- One-command regression audit (`run_all.sh`)
 
 Package SHA-256:
 

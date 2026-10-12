@@ -10,7 +10,7 @@ AI research report · 2026-08-29 UTC
 
 **NONWINNER.** No strict own-centroid `(S,U,H)=(1,1,0)` homogeneous convex polyhedron was obtained.
 
-The run’s admissibility gate requires a finite uniformly dense body evaluated at its own exact ordinary-volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle true edge, complete positive-margin face/vertex/full-edge-cone audits, independent verification, and matching OBJ/STL. :contentReference[oaicite:0]{index=0} The supplied M42 frontier was the exact finite-thickness crossrail whose remaining task was a genuinely cross-linked volumetric continuation rather than another serial rail. :contentReference[oaicite:1]{index=1}
+The run’s admissibility gate requires a finite uniformly dense body evaluated at its own exact ordinary-volume centroid, with exactly one stable maximal face, one unstable vertex, no saddle true edge, complete positive-margin face/vertex/full-edge-cone audits, independent verification, and matching OBJ/STL. The supplied M42 frontier was the exact finite-thickness crossrail whose remaining task was a genuinely cross-linked volumetric continuation rather than another serial rail.
 
 This continuation materializes that next topology: a direct 32-edge witness rail and a 76-edge return rail, joined by many actual cross-rail edges, followed by a full invertible metric and five graded radial fields. It is exactified to a rational open endpoint of strict class `(2,2,2)`.
 
@@ -277,10 +277,10 @@ The OBJ/STL have `129` vertices and `254` triangles, mesh Euler number `2`, reco
 - OBJ SHA-256: `6913bcb931474c1cc089b356355b1fcd1eea7d6f417ad1e43c5181f333db7282`;
 - STL SHA-256: `00901716ddb0a5d6ad7c0130fc090ad1f38a7e29d50da14158743ae5831b19ab`.
 
-[Complete self-contained handoff with all face cycles and true edges](sandbox:/mnt/data/m42_graded_sheet_exact/research_handoff.md)
+Complete self-contained handoff with all face cycles and true edges (`research_handoff.md`)
 
-[Deterministic exact archive](sandbox:/mnt/data/m42_graded_sheet_exact_handoff.zip) · [archive digest](sandbox:/mnt/data/m42_graded_sheet_exact_handoff.zip.sha256) · [all per-file hashes](sandbox:/mnt/data/m42_graded_sheet_exact/SHA256SUMS.txt)
+Deterministic exact archive (`m42_graded_sheet_exact_handoff.zip`) · archive digest (`m42_graded_sheet_exact_handoff.zip.sha256`) · all per-file hashes (`SHA256SUMS.txt`)
 
-[Exact generator](sandbox:/mnt/data/m42_graded_sheet_exact/generate_exact_endpoint.py) · [certificate](sandbox:/mnt/data/m42_graded_sheet_exact/certificate.json) · [clean-room verifier](sandbox:/mnt/data/m42_graded_sheet_exact/verify_exact_cleanroom.py) · [interval verifier](sandbox:/mnt/data/m42_graded_sheet_exact/verify_interval.py) · [corner atlas](sandbox:/mnt/data/m42_graded_sheet_exact/mechanical_corner_atlas.json) · [verification transcript](sandbox:/mnt/data/m42_graded_sheet_exact/RUN_ALL_VERIFIERS.txt) · [OBJ](sandbox:/mnt/data/m42_graded_sheet_exact/body.obj) · [STL](sandbox:/mnt/data/m42_graded_sheet_exact/body.stl)
+Exact generator (`generate_exact_endpoint.py`) · certificate (`certificate.json`) · clean-room verifier (`verify_exact_cleanroom.py`) · interval verifier (`verify_interval.py`) · corner atlas (`mechanical_corner_atlas.json`) · verification transcript (`RUN_ALL_VERIFIERS.txt`) · OBJ (`body.obj`) · STL (`body.stl`)
 
 The negative result is exact for this graded volumetric sheet, its certified coordinate cell, and the four first outgoing mechanical chambers. It is not a global obstruction to the larger edge-sharing two-cell replacement.
